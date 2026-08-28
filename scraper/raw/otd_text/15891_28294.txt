@@ -1,0 +1,576 @@
+Australian Government response to the
+Senate Select Committee on Adopting Artificial
+Intelligence (AI) report:
+Final Report and Interim Report
+MARCH 2026
+This page intentionally left blank
+Contents
+Overview ..................................................................................................................... 1
+Capture the opportunity ...................................................................................... 1
+Spread the benefits ............................................................................................. 2
+Keep Australians safe .......................................................................................... 2
+Part 1: AI data centres and infrastructure ..................................................................... 4
+Part 2: AI capability and adoption ................................................................................. 5
+Part 3: AI safety and regulation ..................................................................................... 8
+Part 4: Support and training for Australian workers ..................................................... 11
+Part 5: Copyright and creative sector impacts ............................................................ 14
+Part 6: Automated decision-making ........................................................................... 15
+Part 7: AI in electoral contexts .................................................................................... 16
+i
+This page intentionally left blank
+ii
+Overview
+The Australian Government thanks the Senate Select Committee for its inquiry into
+adopting Artificial Intelligence (AI). The Government thanks all individuals and
+organisations who contributed submissions or appeared at hearings.
+AI is a powerful general-purpose technology. Similarly to other general-purpose
+technologies, like electricity and the internet, it can reshape productivity, business
+models and public services. The Australian Government is focussed on ensuring that
+Australia’s AI transition creates a fairer, stronger Australia where every person benefits.
+This means using AI to help close service gaps in health, disability and aged care,
+improve education and employment outcomes, and create secure, well-paid jobs in
+future industries.
+The Australian Government is shaping the conditions under which AI is deployed and
+ensuring that adoption leads to shared prosperity. Realising the benefits these
+technologies bring requires deliberate policy choices and ongoing engagement with
+industry, workers, unions and society.
+On 2 December 2025, the Australian Government released its National AI Plan (the
+Plan). The Plan sets out the Government’s ambition for AI and how it will position
+Australia as a leader in responsible, inclusive and innovative AI development and
+adoption. The Plan has Australians at its centre, with the aim that everyone in Australia
+benefits from the AI opportunity, across all regions, industries and communities.
+It provides a coordinated, whole-of-system approach across government and industry
+to achieve our economic and social policy objectives.
+The plan is anchored in 3 goals, with each supported by 3 pillars of action:
+• Capture the opportunity by building smart infrastructure, backing domestic
+AI capability and attracting global investment.
+• Spread the benefits through scaling AI adoption, supporting and training
+Australian workers, and improved public services.
+• Keep Australians safe with legislative and regulatory frameworks that mitigate
+AI harms, widespread responsible practices and international engagement that
+promotes Australia’s values.
+Capture the opportunity
+The Government is fostering investment in world-class digital and physical infrastructure,
+supporting local capability, and attracting global partnerships. By expanding high-speed
+connectivity, attracting investment in advanced data centres, and backing our
+researchers and businesses, we aim to lead in AI innovation and application.
+• Build smart infrastructure: Australian business and consumers need access to
+the digital infrastructure, including data centres and connectivity infrastructure,
+that underpins a secure, resilient, and interconnected digital economy.
+• Back Australian Capability: Building local AI capability is critical to capturing the
+opportunities of AI. It ensures that Australians benefit from AI as developers,
+1
+deployers, adapters, and users – not just consumers. A strong local AI industry
+will drive good jobs, improve productivity and lead to higher standards of living for
+all Australians.
+• Attract investment: The Australian Government is working to cement Australia as
+a leading destination for AI investment and secure Australia’s place as a trusted
+partner in the global AI landscape.
+Spread the benefits
+The Government’s goal is to ensure that all Australians, regardless of background or
+location, can share in the advantages of AI. We are supporting small and medium
+enterprises (SMEs), regional communities, and groups at risk of digital exclusion to
+adopt AI. Building digital and AI skills, supporting workforce transitions, and improving
+public services are central to this effort.
+• Scale AI adoption: The Australian Government recognises that supporting SMEs
+to adopt AI will be essential to ensure they remain competitive, efficient and
+well-positioned to seize emerging market opportunities in an increasingly
+digital landscape.
+• Support and train Australians: The Australian Government is committed to
+supporting fair, safe and cooperative workplaces with ongoing worker training,
+consultation, upskilling and help for transitions to ensure workers have a
+meaningful say and can share in the benefits of an AI-enabled workforce.
+• Improve public services: The Australian Government will use AI to improve
+delivery of the services that matter most to Australians and is continuing to build
+AI capacity, confidence and coordination across the Australian Public Service.
+Keep Australians safe
+The Government is focussed on giving Australians the confidence to adopt AI
+responsibly while safeguarding people’s rights and protecting them from harm.
+This includes through ongoing review and adaptation of laws, establishing the
+Australian AI Safety Institute, and engaging internationally.
+• Preventing and mitigating harms: The Australian Government’s regulatory
+approach to AI will continue to build on Australia’s robust existing legal and
+regulatory frameworks, ensuring that established laws remain the foundation for
+addressing and mitigating AI-related risks.
+• Promote responsible practices: The Australian Government is promoting
+responsible practices and encouraging the development and use of systems that
+are transparent, fair, and accountable, with consistent governance and
+compliance with relevant laws.
+• Partner on global norms: The Australian Government’s international advocacy
+and collaboration on AI will continue to be driven by our goal of embedding our
+values of accountability, transparency, and inclusion in international AI norms and
+standards whilst supporting interoperability for Australian industry.
+2
+AI cuts across all sectors and Government portfolios. Achieving Australia’s goals in AI
+requires coordination across government, and with industry, unions and civil society to
+promote clarity, certainty and coherence.
+The Department of Industry, Science and Resources has coordinated this response in
+consultation with the following agencies:
+• Department of the Prime Minister and Cabinet
+• Department of Defence
+• Department of Foreign Affairs and Trade
+• Department of the Treasury
+• Department of Finance
+• Department of Home Affairs (Home Affairs)
+• Department of Health, Disability and Ageing
+• Department of Climate Change, Energy, the Environment and Water
+• Department of Infrastructure, Transport, Regional Development,
+Communications, Sport and the Arts
+• Department of Employment and Workplace Relations (DEWR)
+• Department of Education
+• Department of Agriculture, Fisheries and Forestry
+• Attorney-General’s Department (AGD)
+• National Indigenous Australians Agency
+• Australian Electoral Commission (AEC)
+• Austrade
+• Australian Federal Police
+• Australian Signals Directorate
+• Digital Transformation Agency
+• eSafety Commissioner
+• Safe Work Australia (SWA)
+The Coalition provided commentary on the 13 recommendations of the Final Report,
+and on Recommendation 5 of the Interim Report. The Coalition did not provide any
+alternate recommendations for government response.
+3
+Part 1: AI data centres and infrastructure
+Supporting sustainable AI infrastructure that delivers for Australia
+This part addresses the following recommendations:
+Final Report 13; Additional Comments Greens 1, 4
+Smart infrastructure is essential for our local AI capability and to secure Australia’s
+position in the region. Investments in data centres will drive innovation in AI and
+economic growth, ensuring we remain competitive on the global stage. The Australian
+Government is taking action to ensure Australia remains a leading destination for data
+centre investment in the region while ensuring growth is sustainable, secure and
+delivers local benefits.
+Australia offers a stable operating environment, clear legal protections, abundant
+renewable energy potential, available land and proximity to growing economies.
+Australia had the second highest capital investment in data centres globally in 2024,
+with $6.7 billion USD in investment. Having this infrastructure in Australia can help
+make sure that jobs, intellectual property, and innovation remain onshore. Australian
+data centres can also support the development of Australian AI models and
+applications for the public service and industry.
+While data centres are an essential part of our digital infrastructure, they are substantial
+users of energy and can be large users of water. Data centres also need to integrate with
+telecommunications infrastructure, including international submarine cables, data
+transmission networks and internet exchange points.
+As Australia’s data centre industry grows, this will have implications for Australia’s net
+zero ambitions. There are community expectations on industry to develop sustainable
+practices. The Energy and Climate Change Ministerial Council are progressing actions
+to respond to the opportunities and challenges of data centre investment on the
+electricity grid, and the Water Ministerial Council is considering the broader
+implications of water management on increased data centre construction.
+Many data centre operators are already demonstrating that they are interested in
+investing in Australia in ways that manage these impacts. For example, whilst
+conventional data centre cooling systems can consume tens of millions of litres
+annually, some Australian operators are adopting innovative solutions such as closed
+loop cooling to reduce water consumption, or alternate chip designs that are more
+efficient and only require air cooling. Many operators are looking for opportunities to
+support the deployment of renewable energy generation and storage, including signing
+onto long-term power purchase agreements with solar and wind developers.
+Safe and secure data centre growth can support sustainability, strengthen energy
+security, and drive investment in clean technologies. To achieve this, the Australian
+Government is working with states and territories to develop voluntary principles to
+encourage investment in data centres which aligns with Australia’s overall national
+interest. The Government is working with states and territories to explore opportunities
+to coordinate approvals for data centre projects where investments align with the data
+centre principles.
+4
+Part 2: AI capability and adoption
+Growing Australia’s AI ecosystem and supporting widespread responsible
+AI adoption
+This part addresses the following recommendations:
+Final Report 4, 13; Interim Report 1, 5; Additional Comments Greens 1, 4
+Australia has considerable strengths we can leverage to build AI capability. We have a
+strong local technology sector and a world-class research sector with leading
+capabilities in sectors including computer vision, multimodal AI, AI evaluation, smart
+sensors and field robotics. We have a competitive edge in developing niche, high-value
+AI applications for sectors such as healthcare, agriculture, and advanced
+manufacturing. Australia has an opportunity to develop AI to leverage our nationally
+connected research infrastructure and capabilities in high-performance computing to
+further drive scientific discoveries.
+As one of Australia’s largest employers, the Australian Government is leveraging the
+Australian Public Service (APS) to lead in AI capability and responsible adoption.
+For example, in July 2025 the Australian Government launched GovAI to empower
+public servants to develop AI skills safely. GovAI is a centralised AI hosting service,
+providing agencies with a secure, Australian-based platform for developing customised
+AI solutions at low cost. This approach ensures government departments can innovate
+responsibly while maintaining sovereignty, security, and cost-efficiency in deploying AI
+technologies. On 12 November 2025, the Australian Government released an AI Plan for
+the Australian Public Service to use AI to better serve Australians. It sets out a vision for
+improving government service delivery, efficiency, and productivity, by increasing the
+use of AI in government. The AI Plan for the APS expands the GovAI platform and
+establishes Gov AI Chat, a secure, government-controlled generative AI tool developed
+specifically for the APS.
+SMEs are the backbone of Australia’s economy – supporting innovation, creating jobs,
+and economic growth. Supporting SMEs to adopt AI is essential to ensure they remain
+competitive, efficient, and well-positioned to seize emerging market opportunities in an
+increasingly digital landscape. Many Australian consumers and businesses are early
+adopters of new AI technologies. Forty per cent of SMEs have adopted AI and Australia
+ranks highly in AI use by consumers.
+To accelerate development and commercialisation of AI by businesses across Australia,
+in December 2025 the Government announced it would launch an ‘AI Accelerator’
+funding round of the Cooperative Research Centres (CRC) program. The Accelerator will
+be in two stages – first as a CRC Projects round in 2026 and then as a CRC round in
+2027. The Accelerator will incentivise partnerships between businesses and research
+organisations. It will connect talented researchers with real-world challenges faced by
+industry, helping Australian ideas to scale and compete on the global stage.
+Data is a strategic national asset and critical driver of modern economies. Both
+governments and the private sector hold high value data sets which can be used to
+support a globally competitive Australian AI sector. In the Australian Government’s Data
+and Digital Government Strategy (DDGS), the Government commits to adopting
+5
+emerging technologies and AI in safe, ethical and responsible ways. As part of this, and
+through the National AI Plan, the Government is exploring opportunities to unlock high
+value datasets for pilot AI use cases. This will support the development and training of
+locally relevant AI applications and models. This work complements and builds on the
+work under the DDGS on consistent data standards and metadata, building trusted and
+secure approaches to data sharing, and identifying high value, non-sensitive datasets.
+The National AI Centre (NAIC) is Australia’s leading government body supporting
+industry to unlock the economic benefits of AI. It aims to help Australia become a global
+leader in developing and adopting trusted, secure and responsible AI. The NAIC
+provides tailored guidance and direct engagement to help SMEs, not-for-profits, social
+enterprises and First Nations businesses adopt AI responsibly, including:
+• The Guidance for AI Adoption, released in October 2025, includes a suite of
+practical resources to make AI adoption widely accessible, including editable AI
+policy templates. NAIC resources have been simplified in partnership with
+business.gov.au, ensuring even the smallest organisations can benefit.
+• The Being Clear About AI-Generated Content guide, released in December 2025,
+guides businesses on how they can improve trust by alerting users to AI-generated
+or modified content.
+• A collaboration between NAIC and Infoxchange will see the creation of tailored AI
+adoption resources and templates for the not-for-profit sector, as well as new
+training and advisory services.
+• The NAIC’s 2025 AI ecosystem report provides data‑driven insights into the current
+state of Australia’s AI ecosystem. The report supports decision-makers in both the
+public and private sectors to make informed choices about investment
+opportunities, upskilling pathways and growth potential in the industry.
+• NAIC is launching a dedicated platform (ai.gov.au) to consolidate guidance,
+training and use-case examples to support SMEs and end users to keep pace with
+industry change and complement existing cybersecurity resources.
+This work builds on existing government support and investments into Australia’s AI
+ecosystem, including:
+• $362 million in targeted grants from the Australian the Australian Research
+Council, Medical Research Future Fund, National Health and Medical Research
+Council and Cooperative Research Centres
+• the $47 million Next Generation Graduates program which trains job ready
+graduates in skills needed by our AI and emerging technology industries
+• the $17 million network of government-funded AI Adopt Centres which help
+Australian small to medium enterprises responsibly adopt AI tools by providing
+free services that help their business grow
+• the $1 billion for critical technologies including AI under the National
+Reconstruction Fund, which provides targeted investments to diversify
+and transform Australian industry
+6
+• a $5 million investment in pilots involving Generative AI in Australian schools
+through the Workload Reduction Fund, part of the National Teacher Workforce
+Action Plan. This supports work by states and territories to trial GenAI through a
+range of initiatives, such as the New South Wales (NSW) Department of
+Education’s NSWEduChat and Western Australia’s Generative AI pilot to reduce
+the workloads of teachers.
+7
+Part 3: AI safety and regulation
+Preventing and mitigating AI harms to build confidence in AI and keep
+Australians safe
+This part addresses the following recommendations:
+Final Report 1, 2, 3, 5, 6, 7, 12; Interim Report 2, 3, 4; Additional Comments Pocock 1, 3
+The Australian Government recognises that preventing and mitigating the harms of AI is
+essential to maintaining public trust and confidence in AI applications and upholding
+Australians’ rights.
+AI technologies are already embedded across the economy, and a comprehensive
+regulatory approach is essential to protect Australians from AI-enabled harms. Australia
+has strong protections in place to address many risks, but the technology is fast-moving
+and regulation must keep pace. The Government’s regulatory approach to AI will
+continue to build on Australia’s robust existing legal and regulatory frameworks,
+ensuring that established laws remain the foundation for addressing and mitigating
+AI-related risks. These include economy-wide laws on privacy, administrative law,
+online safety, corporations' law, intellectual property, workplace laws including work
+health and safety (WHS), workplace relations, competition and consumer protections,
+and anti-discrimination.
+To support this approach, the Australian Government provided $29.8 million over 4 years
+from 2025–26 (and $7.9 million per year ongoing from 2029–2030) to establish the
+Australian AI Safety Institute. The role of the AI Safety Institute will be to assist Ministers,
+agencies, and regulators to ensure Australia’s laws keep pace with AI developments to
+protect people and businesses. The AI Safety Institute will not be a regulator.
+The AI Safety Institute’s activities will include:
+• monitoring and testing frontier AI models for safety
+• sharing information and insights to support ministers and regulators to maintain
+safety measures, laws and regulatory frameworks and keep pace with rapid
+technological change
+• collaborating with the International Network for Advanced AI Measurement,
+Evaluation and Science and its members to understand AI-related risks and harms.
+The Government is actively monitoring emerging risks and considering where further
+action will be needed to ensure safety and accountability as new frontier AI capabilities
+emerge. For example:
+• The Online Safety Act 2021 protects Australians from technology-facilitated harms
+and is enforced by the Office of the eSafety Commissioner. The Government has
+also committed to legislating a Digital Duty of Care to place the onus on
+technology companies to make their products safer for Australian users and have
+systems and processes in place to prevent a range of online harms.
+• In August 2024, the Government amended the Criminal Code Act 1995, including
+to clarify that offences criminalising the non-consensual sharing of sexually
+8
+explicit material extend to material that has been created or altered using AI or
+other technologies.
+• The Government has committed to take action to restrict access via app stores
+and search engines to ‘nudify’ and undetectable online stalking tools.
+• AGD is engaging with stakeholders through the Copyright and AI Reference Group
+on 3 priority areas relating to Australian copyright law and AI. The Government has
+provided certainty to Australian creators by making it clear it is not considering a
+text and data mining exemption in Australian copyright law.
+• The Attorney-General is leading work to develop a modernised and clear Privacy
+Act 1988 (Cth), which achieves the right balance between facilitating greater
+adoption of technologies like AI and updating privacy protections to underpin trust
+in digital services.
+• The Safe and Responsible AI in Healthcare Legislation and Regulation Review
+(Department of Health, Disability and Ageing 2024) assessed the impact of AI on
+healthcare regulation and published the Final Report on the health.gov.au website
+in July 2025.
+• The Therapeutic Goods Administration oversees AI used in medical device
+software and led the review on Clarifying and Strengthening the Regulation of
+Medical Device Software including Artificial Intelligence.
+• Home Affairs considers that AI will almost certainly amplify and reshape existing
+national security risks, with the potential to generate new and unknown risks.
+As the national security policy lead on AI, Home Affairs, the National Intelligence
+Community and law enforcement agencies will continue efforts to proactively
+mitigate the most serious risks posed by AI. Home Affairs has contributed to the
+uplift of critical infrastructure, an uplift of Australia’s data security settings,
+international collaboration on AI security, and is coordinating a multiagency group
+on synthetic biology and AI.
+• The Government is taking proactive steps to prepare for any potential AI-related
+incident. The Australian Government Crisis Management Framework provides the
+overarching policy for managing potential crises.
+• The Australian Framework for Generative Artificial Intelligence in Schools was
+jointly developed by states and territories and non-government representative
+bodies through the AI Taskforce and released for implementation by states and
+territories on 1 December 2023. The Framework provides nationally consistent
+guidance to schools and their communities on the use of GenAI. It seeks to guide
+the responsible and ethical use of GenAI tools in ways that benefit students,
+schools, and society.
+• SWA have received feedback and submissions through the best practice review of
+the model WHS laws relating to AI. The opportunities and impacts of using AI in the
+workplace is being considered as part of the Review, and any recommendations
+will be provided for work health and safety Ministers’ consideration in the final
+report.
+9
+• The approach is practical and risk-based, targeting emerging threats such as
+AI-enabled crime and AI facilitated abuse, which disproportionately impacts
+women and girls. AI has manifested harms to First Nations people, including
+through perpetuating harmful stereotypes and the use, misattribution and
+falsification of First Nations cultural and intellectual property. The Government will
+continue to genuinely engage with impacted First Nations communities, including
+on alignment with Closing the Gap reforms and Indigenous data sovereignty
+principles, to understand and treat these risks.
+These efforts are supported by the Government’s international engagements on AI
+governance. Australia’s international engagement aims to ensure Australia’s values,
+including safety, transparency, and inclusion are embedded in international AI norms
+and standards. The Government’s ambition is to align international frameworks with
+domestic approaches and to reduce regulatory friction and support innovation. This will
+further cement Australia as a trusted partner in global supply chains and a leader in
+secure, responsible AI adoption of trusted technologies across the region.
+The Australian Government recognises that strengthening our scientific understanding
+of AI is essential to manage risks, drive responsible adoption, and expand access to the
+benefits of AI. We are actively participating in international scientific collaboration and
+policy coordination on AI safety as a founding member of the International Network for
+Advanced AI Measurement, Evaluation and Science, and through our contributions to
+the International AI Safety Report. Through the Australian AI Safety Institute, Australia
+will continue progressing the science of AI safety by leveraging international research
+partnerships, including through joint testing exercises and setting research priorities to
+understand and prevent AI-enabled harms.
+10
+Part 4: Support and training for Australian
+workers
+Building a workforce ready for an AI-enabled future
+This part addresses the following recommendations:
+Final Report 5, 6, 7, 8, 9, 10; Additional Comments Greens 1, 2
+The rapid advancement and adoption of AI is transforming workplaces across Australia.
+As adoption of AI reshapes job roles, skills requirements and employment structures,
+it is essential that these changes are managed in ways that support safe, secure and
+fairly paid jobs across workplaces. Proactive planning and collaboration between
+government, industry, workers and unions is vital to ensuring that Australian workers not
+only have the skills and supports to adapt to, but can thrive in, an AI-enabled future.
+Analysis by Jobs and Skills Australia (JSA) in 2025, as part of the Generative-AI Capacity
+Study, found that in the near-term AI is more likely to augment rather than replace most
+work, with only 4% of Australia’s workforce in occupations with high automation
+exposure. JSA’s analysis, based on the capabilities of GPT-4 in late 2025, indicated that
+large-scale job displacement is not occurring in Australia and the most significant
+employment effects are not expected for at least a decade. However, the Government
+recognises that there is uncertainty around the direct effects of AI on the labour market,
+and there are community concerns.
+As AI reshapes how Australians work and working conditions, continuing a tripartite
+dialogue with business, unions and experts to agree on a shared approach to the
+opportunities and challenges of AI is vital. Consultation and codesign between
+employers and employees can assist in capturing the benefits of AI in safe, fair and
+cooperative workplaces. As part of the National AI Plan, the Minister for Employment
+and Workplace Relations has committed to continuing tripartite arrangements with
+respect to AI’s impact on the labour market. This work brings together key stakeholders
+across the labour market to work collaboratively towards Australia’s AI objectives
+including addressing skills, training, worker and workforce transitions and strengthening
+workplace relations settings. This work is particularly important for groups at higher risk
+of disruption, including women, First Nations people, career starters, mature-aged
+workers, people with disability, and those in regional areas.
+AI must be used as a tool for inclusive growth, whereby workers share in governance
+and in gains, through wages, equity, skills and security. To achieve this, the Australian
+Government is taking early action to support workers through this transition, with
+initiatives underway to boost digital skills, expand training access, and grow an inclusive
+pipeline of AI-ready workers. For example:
+• The National Skills Agreement (NSA) is ensuring the national VET sector provides
+high-quality, responsive and accessible education and training to boost
+productivity, deliver national priorities and support Australians to obtain the skills
+and capabilities they need to prosper. Ensuring Australia’s digital and
+technological capability is an agreed national priority under the NSA.
+11
+• The 10 Jobs and Skills Councils (JSCs) are a national network of industry-owned
+and led tripartite organisations funded by the Commonwealth. JSCs collaborate
+with employers, unions, governments and training organisations to identify and
+address skills and workforce challenges within their respective industry sectors,
+including those driven by AI and other emerging technologies.
+• The Minister for Skills and Training has asked all JSCs to address AI skilling and
+training issues within their respective industries.
+• JSA is providing evidence-based analysis of labour market trends and skills needs.
+This includes studies on how generative AI is reshaping job roles.
+• TAFEs delivering digital and AI training through targeted initiatives. The Institute
+of Applied Technology offers several AI microcredential courses, such as the
+Responsible AI microcredential. These courses have attracted more than
+150,000 enrolments to date. Through the NAIC, and in partnership with TAFE
+NSW’s Institute of Applied Technology – Digital, the Government is also offering
+one million fully subsidised scholarships for an online microskill course based on
+the Government’s Guidance for AI Adoption, launched in October 2025.
+• The Next Generation Graduates Program is building a pipeline of highly skilled
+professionals in AI and emerging technologies through industry-linked
+postgraduate scholarships.
+• The Key Apprenticeship Program (KAP) is supporting apprenticeships in high-priority
+housing construction and clean energy sectors to deliver on key national priorities.
+Under the KAP, the New Energy Apprenticeship stream encourages apprentices to
+pursue careers in clean energy, which may also support the skills required in
+sectors to support the development of AI infrastructure.
+• NAIC is continuing to engage with key professional associations to ensure AI and
+responsible AI learning are available through their membership networks.
+In addition to ensuring workers are positioned to capture the opportunities of AI through
+skills and training programs, the Australian Government is focussed on ensuring our
+laws are equipped to manage the risk while recognising the opportunity in new
+technologies. This includes:
+• Supporting the inquiry into the operation and adequacy of the National
+Employment Standards (NES) in the Fair Work Act 2009, which was adopted by the
+House of Representatives Standing Committee on Employment, Workplace
+Relations, Skills and Training on 27 November 2025, following a referral from the
+Minister for Employment and Workplace Relations, the Hon Amanda Rishworth MP.
+Among other things, this inquiry will examine the extent to which the NES are fit for
+purpose, having regard to the changing nature of work.
+• Supporting an independent statutory review into the operation of both Closing
+Loopholes Acts. These Acts include a range of measures which ensure Australia’s
+workplace relations frameworks remain fit for purpose and meet the demands of
+modern workplaces, for example protections for 'employee-like' workers in the
+gig economy.
+12
+• Continuing a tripartite dialogue with business, unions and experts on the impacts
+of the adoption of new technologies considering the opportunities and challenges
+of AI. DEWR has experience in tripartite consultation and is actively engaging with
+businesses and unions to implement the relevant parts of the National AI Plan.
+This includes monitoring and reviewing legislative frameworks to ensure they are
+fit for purpose, provide protection from AI harms, and capture the benefits of AI
+through fostering cooperative workplaces where worker’s voices are represented
+in the transition.
+13
+Part 5: Copyright and creative sector
+impacts
+Supporting our creative sector in the age of AI
+This part addresses the following recommendations:
+Final Report 8, 9, 10; Additional Comments Greens 2; Additional Comments Pocock 4
+The Australian Government is invested in the success of Australia’s creative and media
+industries. It is important that the development and adoption of AI technologies is done
+in a way that builds trust and confidence in their use. Having provided certainty to
+Australian creators by announcing that the Government is not considering a text and
+data mining exception in Australian copyright law, the Government is working with
+stakeholders to find solutions to encourage innovation while protecting and supporting
+Australian creators.
+AGD is engaging with these stakeholders, including representatives of the creative,
+media, and technology sectors, primarily through the Copyright and AI Reference Group
+(CAIRG). AGD has recently consulted with the CAIRG on 3 priority areas:
+• Encouraging fair, legal avenues for using copyright material in AI through
+examination of how different licensing arrangements could support AI
+development in Australia.
+• Improving certainty on the application of copyright law to material generated
+through the use of AI.
+• Exploring avenues for less costly enforcement, including through a potential small
+claims forum to efficiently address lower value copyright infringement matters.
+The Government is currently considering feedback received from CAIRG participants on
+these issues. Other issues related to copyright and AI may be the subject of future
+Government consultations. The Government commits, in its National Cultural Policy –
+Revive: a place for every story, a story for every place, to maintaining a strong copyright
+framework that works in concert with other legal and policy mechanisms to ensure
+reasonable and equitable use of copyright material. Consultations on the next National
+Cultural Policy will commence in 2026 and be led by the Office for the Arts. The use and
+impacts of AI on Australia’s cultural and creative sector will be considered as part of
+these consultations.
+14
+Part 6: Automated decision-making
+Government will use automated decision-making transparently to improve
+public services
+This part addresses the following recommendations:
+Final Report 11, 12; Additional Comments Greens 3
+Automated decision-making (ADM) has many benefits, including improved customer
+service, but it is important to ensure ADM is used fairly, transparently and lawfully to
+benefit the Australian community.
+AGD is developing a consistent legislative framework for the use of ADM in the delivery
+of government services, as part of the Government’s response to recommendations
+17.1 and 17.2 of the Royal Commission into the Robodebt Scheme’s final report.
+The Government accepted recommendations 17.1 and 17.2.
+The framework is intended to provide an enabling environment to support the safe and
+responsible use of ADM in government and promote consistency in key legislative
+provisions, including safeguards and transparency requirements. Policy development
+for the ADM framework has been informed by extensive stakeholder consultation,
+including public submissions and an online survey, roundtables, bilateral meetings,
+and consultations with Commonwealth agencies. Key themes emerging from this
+consultation included transparency, fairness and accountability and consistency
+across government in the use of ADM.
+The framework will be technology-neutral to enable it to apply to emerging
+technologies, including ADM systems enabled by AI. AGD is continuing to work across
+government on the development of the framework to ensure consistency with existing
+regulatory frameworks and legislation, including reforms on AI and privacy.
+AGD’s 2022 Privacy Act Review Report proposed providing individuals with a right to
+request meaningful information about how substantially automated decisions involving
+personal information are made. The Government is considering this proposal in the
+context of its work to develop a consistent framework for the use of ADM in government
+services.
+In its first term, the Government delivered a first tranche of privacy reform through the
+Privacy and Other Legislation Amendment Act 2024 (Cth). From 10 December 2026, the
+Privacy Act will require regulated entities to include information in their privacy policies
+about how personal information is used in substantially automated decisions which
+affect individuals’ rights or interests. This includes the kinds of decisions that are
+substantially automated and the kinds of personal information used in these decisions.
+15
+Part 7: AI in electoral contexts
+Government is expanding digital literacy to safeguard Australian elections
+This part addresses the following recommendations:
+Interim Report 1, 2, 3, 4, 5; Additional Comments Pocock 2
+The rapid evolution, competency and widespread nature of AI technologies means that
+bad faith actors have a greater array of tools at their disposal. These tools pose direct
+challenges and risks to the health of Australian elections. AI generated disinformation
+can be deployed to influence the outcome of political debates or contests, as well as
+create public uncertainty leading to reduced trust in the electoral process and
+engagement with politics more generally.
+To address risks related to electoral integrity, the Government introduced the Electoral
+Legislation Amendment (Electoral Communications) Bill in 2024 to prohibit the
+authorisation of electoral and referendum communications that are inaccurate and
+misleading, and to require materials modified using digital technology (including AI)
+to carry a statement indicating such modification.
+As is customary after each federal election, the Government has established a Joint
+Standing Committee on Electoral Matters (JSCEM). JSCEM is a multi-partisan
+committee and is currently holding public hearings and receiving submissions for its
+inquiry for the 2025 federal election. The JSCEM provides a multi-partisan forum to
+consider emerging risks to our electoral system. The Government will consider any
+changes to electoral laws following the JSCEM inquiry.
+The AEC also expanded its Stop and Consider campaign for the 2025 federal election.
+Digital and social media advertisements directed voters to a Stop and Consider hub on
+the AEC website, including a suite of new information tools with information and tips on
+how to detect false or misleading information about the electoral process. The AEC also
+provided this information through social media channels, community education and
+public relations activities. The AEC also publishes an AI Transparency Statement that
+explains where AI is used and where it is not used in election delivery.
+The Electoral Integrity Assurance Taskforce assessed after the 2025 federal election that
+the use of AI did not interfere with election delivery nor was it likely to have impacted
+Australians’ trust in the results.
+The Australian Government has also committed to delivering a National Media Literacy
+Strategy to set out a clear and coordinated national approach and help Australians build
+the skills needed to navigate the challenges and opportunities of the digital world.
+16

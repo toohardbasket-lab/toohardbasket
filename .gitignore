@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OTD PDF/document cache — large (250MB+) and growing; every dataset row
+# already links to its aph.gov.au source, so this isn't needed as the
+# audit trail. Everything else under scraper/raw/ (HTML/CSV cache,
+# extracted text) stays tracked, per scraper/README.md's audit-trail design.
+scraper/raw/otd/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Site build output (Phase 2)
+dist/
+.astro/
+node_modules/
+
+# Local secrets / env
+.env
+*.local

@@ -1,0 +1,44 @@
+name: Update dataset
+
+on:
+  schedule:
+    - cron: "0 22 * * 1"   # Tuesdays 06:00 Perth (UTC+8)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    working-directory: scraper   # scripts + data/ + raw/ all live under scraper/
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4 playwright && playwright install chromium --with-deps
+      - name: Parser tests (gate)
+        run: python tests/test_parser.py
+      - name: Build dataset
+        run: python build_dataset.py --all
+      - name: Commit on green
+        run: |
+          git config user.name "thb-bot"
+          git config user.email "bot@toohardbasket.org.au"
+          git add data/ raw/
+          git diff --cached --quiet || git commit -m "Dataset update $(date -u +%F)"
+          git push
+      - name: Open issue on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner, repo: context.repo.repo,
+              title: `Dataset build failed ${new Date().toISOString().slice(0,10)}`,
+              body: "Validation or scrape failed — the site must NOT be updated until this is resolved. See the run log."
+            })
