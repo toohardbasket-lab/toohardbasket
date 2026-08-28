@@ -1,0 +1,13 @@
+# Normalise everything to LF in the repository. The scrapers and CI run on
+# Linux; Windows checkouts get native endings on the way out. Without this the
+# CSV and extracted-text files churn wholesale whenever the working copy moves
+# between machines, which buries real data diffs.
+* text=auto eol=lf
+
+# Binary — never touch.
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.png binary
+*.jpg binary
+*.ico binary
