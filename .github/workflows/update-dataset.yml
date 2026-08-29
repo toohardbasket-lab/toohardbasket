@@ -25,6 +25,8 @@ jobs:
         run: python tests/test_parser.py
       - name: Build dataset
         run: python build_dataset.py --all
+      - name: Build the Ledger
+        run: python build_ledger_v2.py
       - name: Build backlog history
         run: python build_history.py
       - name: Commit on green

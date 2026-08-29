@@ -24,6 +24,7 @@ import pdfplumber
 
 HERE = pathlib.Path(__file__).parent
 DATE_RE = re.compile(r"\b(\d{1,2})\.(\d{1,2})\.(\d{2})\b")
+DATE_RE_TABLE = re.compile(r"^\s*(\d{1,2})\.\s?(\d{1,2})\.\s?(\d{2})\.?\s*$")
 
 # The date column starts around x=247 in the 30 June 2025 schedule; match the
 # date TOKEN by pattern and position rather than slicing characters at a
@@ -40,82 +41,65 @@ def _strip_footnote(words: list[str]) -> list[str]:
 
 
 def parse_schedule(pdf_path: str, schedule_date: date) -> list[dict]:
+    """Read the President's schedule as a table, not as positioned words.
+
+    The schedule is a real PDF table — pdfplumber finds it from the cell
+    rectangles — so rows come back whole with their wrapped lines already
+    joined. The previous implementation reconstructed rows from word
+    x-positions, which mis-assigned continuation lines whenever a title wrapped
+    or an entry's date sat on a different visual line from the start of its
+    title. That silently merged and split entries (Reports 488/489 became one
+    row; Report 477 became two), and because reconcile() matches on title
+    tokens, a corrupted title could also produce a wrong answered/outstanding
+    verdict.
+
+    Pages render as either a 12-column grid (merged cells) or a plain
+    4-column one, so the column indices are chosen per row.
+    """
     rows: list[dict] = []
-    committee_parts: list[str] = []
     committee = ""
-    current: dict | None = None
-    pending: list[str] = []   # orphan title lines awaiting owner
 
     with pdfplumber.open(pdf_path) as pdf:
-        for page in pdf.pages[2:]:  # listing starts page 3
-            words = page.extract_words(extra_attrs=["fontname"])
-            lines: dict[int, list] = defaultdict(list)
-            for w in words:
-                lines[round(w["top"])].append(w)
-            for top in sorted(lines):
-                ws = sorted(lines[top], key=lambda w: w["x0"])
-                text = " ".join(w["text"] for w in ws).strip()
-                if not text or text.isdigit():          # page numbers
+        for page in pdf.pages[2:]:                     # listing starts page 3
+            table = page.extract_table()
+            if not table:
+                continue
+            for raw in table:
+                cells = [(c or "").replace("\n", " ").strip() for c in raw]
+                idx = (0, 3, 6) if len(cells) >= 12 else (0, 1, 2)
+                title, date_text, resp = (cells[i] if i < len(cells) else "" for i in idx)
+
+                if "Committee and report title" in title:
+                    continue                            # repeated table header
+                if not title and not date_text:
                     continue
-                bold = sum(1 for w in ws if "Bold" in w["fontname"])
-                if bold > len(ws) * 0.6:
-                    if ("Committee and report title" in text or "tabled/presented" in text
-                            or "within 3 months" in text or "Date report" in text
-                            or ("Response" in text and len(text) < 45)):
-                        continue                        # table header lines
-                    committee_parts.append(text)
+                if title and not date_text and not resp:
+                    committee = title                   # bold committee heading
                     continue
-                # regular line — first flush any pending committee heading
-                if committee_parts:
-                    if pending and current:      # orphans before a new committee
-                        current["title"] += " " + " ".join(pending)
-                        pending = []
-                    committee = " ".join(committee_parts)
-                    committee_parts = []
-                date_word = next((w for w in ws if DATE_TOKEN_RE.match(w["text"])
-                                  and X_DATE_MIN <= w["x0"] <= X_DATE_MAX), None)
-                if date_word:
-                    title_words = _strip_footnote(
-                        [w["text"] for w in ws if w["x0"] < date_word["x0"] - 2])
-                    resp_words = [w["text"] for w in ws
-                                  if date_word["x1"] < w["x0"] <= X_RESP_MAX]
-                    # titles can wrap BEFORE the dated line (pending buffer) or
-                    # AFTER it. Decide where held lines belong: a dated line
-                    # whose title starts mid-phrase takes them as its prefix;
-                    # otherwise they finish the previous entry.
-                    first = title_words[0] if title_words else ""
-                    if pending and (not first or first[0].islower()
-                                    or first[0] in ")]—-&" or first[0].isdigit()):
-                        title_words = pending + title_words
-                        pending = []
-                    elif pending and current:
-                        current["title"] += " " + " ".join(pending)
-                        pending = []
-                    elif pending:
-                        title_words = pending + title_words
-                        pending = []
-                    d, mo, yy = (int(x) for x in date_word["text"].split("."))
+
+                m = DATE_RE_TABLE.match(date_text)
+                tabled = None
+                if m:
+                    d, mo, yy = (int(x) for x in m.groups())
                     year = 2000 + yy if yy <= (schedule_date.year % 100) + 1 else 1900 + yy
                     try:
                         tabled = date(year, mo, d)
                     except ValueError:
                         tabled = None
-                    if current:
-                        rows.append(current)
-                    current = {"committee": committee,
-                               "title": " ".join(title_words),
-                               "report_tabled": tabled.isoformat() if tabled else "",
-                               "interim_received": " ".join(resp_words).startswith("Interim"),
-                               "notes": "" if tabled else "unparsed date; "}
-                else:
-                    cont = _strip_footnote(
-                        [w["text"] for w in ws if w["x0"] < X_DATE_MIN])
-                    if cont:
-                        pending.extend(cont)
-        if pending and current:
-            current["title"] += " " + " ".join(pending)
-        if current:
-            rows.append(current)
+
+                notes = ""
+                if not tabled:
+                    notes += "unparsed date; "
+                if not title:
+                    notes += "no title in source row; "
+
+                rows.append({
+                    "committee": committee,
+                    "title": title,
+                    "report_tabled": tabled.isoformat() if tabled else "",
+                    "interim_received": resp.startswith("Interim"),
+                    "notes": notes,
+                })
     return rows
 
 
