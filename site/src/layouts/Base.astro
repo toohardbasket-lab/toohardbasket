@@ -1,0 +1,176 @@
+---
+import { liveRegisters } from "../lib/registers";
+
+export interface Props {
+  title: string;
+  description: string;
+}
+const { title, description } = Astro.props;
+const year = new Date().getFullYear();
+
+// Nav is generated from the register config, so adding the House or WA is a
+// one-line change there rather than an edit here.
+const nav = [
+  { href: "/", label: "Home" },
+  ...liveRegisters().map((r) => ({ href: `/${r.slug}/`, label: r.shortName })),
+  { href: "/methods", label: "Methods" },
+  { href: "/about", label: "About" },
+];
+const here = Astro.url.pathname.replace(/\/$/, "") || "/";
+---
+
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} — The Too Hard Basket</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <style is:global>
+      :root {
+        color-scheme: light;
+        --surface:        #fcfcfb;
+        --surface-sunken: #f4f4f1;
+        --ink:            #0b0b0b;
+        --ink-secondary:  #52514e;
+        --ink-muted:      #78766f;
+        --rule:           #dedcd5;
+        --rule-strong:    #b9b6ad;
+        --series-1:       #2a78d6;
+        --measure: 34rem;
+        --sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+                "Helvetica Neue", Arial, sans-serif;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root:not([data-theme="light"]) {
+          color-scheme: dark;
+          --surface:        #1a1a19;
+          --surface-sunken: #232322;
+          --ink:            #ffffff;
+          --ink-secondary:  #c3c2b7;
+          --ink-muted:      #98968c;
+          --rule:           #34342f;
+          --rule-strong:    #4c4c45;
+          --series-1:       #3987e5;
+        }
+      }
+      :root[data-theme="dark"] {
+        color-scheme: dark;
+        --surface:        #1a1a19;
+        --surface-sunken: #232322;
+        --ink:            #ffffff;
+        --ink-secondary:  #c3c2b7;
+        --ink-muted:      #98968c;
+        --rule:           #34342f;
+        --rule-strong:    #4c4c45;
+        --series-1:       #3987e5;
+      }
+
+      * { box-sizing: border-box; }
+      html { -webkit-text-size-adjust: 100%; }
+      body {
+        margin: 0;
+        background: var(--surface);
+        color: var(--ink);
+        font-family: var(--sans);
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+      a { color: inherit; text-underline-offset: 0.15em; text-decoration-thickness: 1px; }
+      a:hover { text-decoration-color: var(--series-1); }
+
+      .wrap { width: min(72rem, 100% - 2.5rem); margin-inline: auto; }
+      .measure { max-width: var(--measure); }
+
+      /* The label style that makes it read as a register rather than an essay. */
+      .eyebrow {
+        font-size: 0.6875rem;
+        letter-spacing: 0.11em;
+        text-transform: uppercase;
+        color: var(--ink-muted);
+        margin: 0 0 0.5rem;
+      }
+
+      header.site { border-bottom: 1px solid var(--rule); }
+      header.site .bar {
+        display: flex; flex-wrap: wrap; gap: 0.75rem 2rem;
+        align-items: baseline; justify-content: space-between;
+        padding-block: 1.1rem;
+      }
+      header.site .mark { font-weight: 650; letter-spacing: -0.015em; text-decoration: none; }
+      header.site .mark span { color: var(--ink-muted); font-weight: 400; }
+      header.site nav { display: flex; gap: 1.4rem; font-size: 0.875rem; }
+      header.site nav a { color: var(--ink-secondary); text-decoration: none; padding-block: 0.15rem; }
+      header.site nav a[aria-current="page"] {
+        color: var(--ink); box-shadow: inset 0 -2px 0 var(--series-1);
+      }
+
+      main { padding-block: 3rem 4rem; }
+      h1 { font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.2rem); line-height: 1.2;
+           letter-spacing: -0.02em; margin: 0 0 0.75rem; }
+      h2 { font-size: 1.125rem; letter-spacing: -0.005em; margin: 0 0 0.6rem; }
+      p { margin: 0 0 1rem; }
+      .lede { font-size: 1.0625rem; color: var(--ink-secondary); }
+
+      footer.site {
+        border-top: 1px solid var(--rule);
+        margin-top: 4rem; padding-block: 1.75rem 3rem;
+        font-size: 0.8125rem; color: var(--ink-muted);
+      }
+      footer.site p { margin: 0 0 0.5rem; }
+
+      table.register { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+      table.register th, table.register td {
+        text-align: left; padding: 0.55rem 0.75rem 0.55rem 0;
+        border-bottom: 1px solid var(--rule); vertical-align: baseline;
+      }
+      table.register th {
+        font-size: 0.6875rem; letter-spacing: 0.09em; text-transform: uppercase;
+        color: var(--ink-muted); font-weight: 500; border-bottom-color: var(--rule-strong);
+      }
+      /* Columns of figures align; standalone display numbers never do. */
+      table.register td.num, table.register th.num { text-align: right;
+        font-variant-numeric: tabular-nums; }
+      table.register td:last-child, table.register th:last-child { padding-right: 0; }
+
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; transition: none !important; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site">
+      <div class="wrap bar">
+        <a class="mark" href="/">The Too Hard Basket <span>· toohardbasket.org.au</span></a>
+        <nav aria-label="Primary">
+          {nav.map((n) => (
+            <a href={n.href} aria-current={here === n.href.replace(/\/$/, "") || (n.href === "/" && here === "/") ? "page" : undefined}>{n.label}</a>
+          ))}
+        </nav>
+      </div>
+    </header>
+
+    <main><slot /></main>
+
+    <footer class="site">
+      <div class="wrap measure">
+        <p>
+          The Too Hard Basket is a project of the Australian Public Interest Alliance,
+          an Australian non-profit. It is independent and not affiliated with any
+          political party or parliamentarian.
+        </p>
+        <p>
+          Every figure is drawn from the Senate’s own registers and the Tabled Documents
+          database, and every row links to its source. Corrections:
+          <a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a>.
+        </p>
+        <p>
+          Data licensed CC BY 4.0 · code MIT ·
+          <a href="https://github.com/toohardbasket-lab/toohardbasket">source and dataset on GitHub</a> ·
+          © {year}
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

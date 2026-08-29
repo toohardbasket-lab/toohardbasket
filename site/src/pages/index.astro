@@ -1,17 +1,143 @@
 ---
+import Base from "../layouts/Base.astro";
+import BacklogChart from "../components/BacklogChart.astro";
+import { homeFigures, humanDuration, fmt, formatDate, formatDateShort } from "../lib/data";
 
+const f = homeFigures();
+const asAt = formatDate(f.asAt);
+const pct = (f.compliance.rate * 100).toFixed(1);
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Base
+  title="Reports Parliament is still waiting on"
+  description="A running count of the committee reports the Australian Government has not responded to, how long each has waited, and how often the deadline is met."
+>
+  <section class="wrap hero">
+    <p class="eyebrow">Senate committee reports · as at {asAt}</p>
+    <p class="figure">{fmt(f.outstanding)}</p>
+    <h1 class="claim">reports are waiting for a government response.</h1>
+    <p class="lede measure">
+      The longest has waited <strong>{humanDuration(f.oldest.daysOutstanding)}</strong>{" "}
+      — {fmt(f.oldest.daysOutstanding)} days since the {f.oldest.body} committee
+      tabled{" "}<em>{f.oldest.title}</em> on {formatDate(f.oldest.owedSince)}. The
+      Senate has asked for a response within three months since 1973.
+    </p>
+
+    <dl class="stats">
+      <div>
+        <dt>Waiting over a year</dt>
+        <dd class="num">{fmt(f.overOneYear)}</dd>
+      </div>
+      <div>
+        <dt>Waiting over five years</dt>
+        <dd class="num">{fmt(f.overFiveYears)}</dd>
+      </div>
+      <div>
+        <dt>Median wait so far</dt>
+        <dd class="num">{fmt(f.medianWait)} days</dd>
+      </div>
+      <div>
+        <dt>Met the three-month deadline</dt>
+        <dd class="num">{pct}%</dd>
+      </div>
+    </dl>
+  </section>
+
+  <section class="wrap">
+    <BacklogChart points={f.history} peak={f.peak} />
+  </section>
+
+  <section class="wrap two-up">
+    <div class="measure">
+      <h2>The deadline is not a deadline</h2>
+      <p>
+        Of the {fmt(f.compliance.assessable)} responses since 2000 where both the report
+        and the response are dated in the register, {fmt(f.compliance.onTime)} arrived
+        within the required three months. That is {pct} per cent. The median response
+        took {fmt(f.compliance.medianDays)} days.
+      </p>
+      <p>
+        A further {fmt(f.compliance.excluded)} responses cannot be assessed, because the
+        2000–01 registers do not record when the report was tabled. They are excluded
+        rather than counted as failures.
+      </p>
+    </div>
+    <div class="measure">
+      <h2>What this site is</h2>
+      <p>
+        When a Senate committee reports, the government is expected to say what it will
+        do about the recommendations. Often it does not, or does so years later. There
+        is no single public record of which reports are still waiting.
+      </p>
+      <p>
+        This is that record. It is rebuilt every week from the Senate’s own registers
+        and the Tabled Documents database, and the whole dataset is{" "}
+        <a href="https://github.com/toohardbasket-lab/toohardbasket">public</a>.
+        Nothing here is an opinion about any recommendation — only whether an answer
+        was given, and when.
+      </p>
+    </div>
+  </section>
+
+  <section class="wrap longest">
+    <h2>Longest outstanding</h2>
+    <table class="register">
+      <thead>
+        <tr>
+          <th scope="col" class="num">Waiting</th>
+          <th scope="col">Report</th>
+          <th scope="col">Committee</th>
+          <th scope="col" class="num">Tabled</th>
+        </tr>
+      </thead>
+      <tbody>
+        {f.ledger.slice(0, 10).map((r) => (
+          <tr>
+            <td class="num">{fmt(r.daysOutstanding)} days</td>
+            <td>{r.title}</td>
+            <td class="cmte">{r.body}</td>
+            <td class="num">{formatDateShort(r.owedSince)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="more"><a href="/senate/">All {fmt(f.outstanding)} reports in the Senate register →</a></p>
+  </section>
+</Base>
+
+<style>
+  .hero { padding-bottom: 2.5rem; }
+  /* Hero figure: one per view, >=48px, same sans, proportional figures. */
+  .figure {
+    font-size: clamp(3.5rem, 2rem + 8vw, 6.5rem);
+    line-height: 0.95; font-weight: 650; letter-spacing: -0.035em;
+    margin: 0.25rem 0 0.5rem;
+  }
+  .claim {
+    font-size: clamp(1.25rem, 1rem + 1vw, 1.6rem); font-weight: 500;
+    max-width: 22ch; margin: 0 0 1.25rem;
+  }
+  .hero .lede em { font-style: normal; color: var(--ink); }
+
+  .stats {
+    display: grid; gap: 1px; margin: 2rem 0 0;
+    grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr));
+    background: var(--rule); border-block: 1px solid var(--rule);
+  }
+  .stats > div { background: var(--surface); padding: 0.9rem 1rem 1rem 0; }
+  .stats dt {
+    font-size: 0.6875rem; letter-spacing: 0.09em; text-transform: uppercase;
+    color: var(--ink-muted); margin-bottom: 0.35rem;
+  }
+  .stats dd { margin: 0; font-size: 1.375rem; font-weight: 600; }
+
+  .two-up {
+    display: grid; gap: 2rem 3rem; margin-block: 1rem 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+
+  .longest h2 { margin-bottom: 0.9rem; }
+  .longest .cmte { color: var(--ink-secondary); font-size: 0.8125rem; }
+  .longest td { padding-right: 1rem; }
+  .more { font-size: 0.875rem; margin-top: 1rem; }
+</style>

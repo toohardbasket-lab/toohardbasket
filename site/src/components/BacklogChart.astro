@@ -1,0 +1,211 @@
+---
+import type { HistoryPoint } from "../lib/data";
+
+export interface Props {
+  points: HistoryPoint[];
+  peak: HistoryPoint;
+}
+const { points, peak } = Astro.props;
+
+// Geometry. One measure, one axis, no second scale.
+const W = 900, H = 340;
+const PAD = { top: 26, right: 92, bottom: 34, left: 46 };
+const plotW = W - PAD.left - PAD.right;
+const plotH = H - PAD.top - PAD.bottom;
+
+const t = (iso: string) => Date.parse(iso);
+const t0 = t(points[0].asAt);
+const t1 = t(points[points.length - 1].asAt);
+const yMax = Math.ceil(Math.max(...points.map((p) => p.backlog)) / 100) * 100;
+
+const x = (iso: string) => PAD.left + ((t(iso) - t0) / (t1 - t0)) * plotW;
+const y = (v: number) => PAD.top + plotH - (v / yMax) * plotH;
+
+const line = points.map((p, i) => `${i ? "L" : "M"}${x(p.asAt).toFixed(1)},${y(p.backlog).toFixed(1)}`).join("");
+const area = `${line}L${x(points[points.length - 1].asAt).toFixed(1)},${y(0)}L${x(points[0].asAt).toFixed(1)},${y(0)}Z`;
+
+const gridValues = Array.from({ length: yMax / 100 + 1 }, (_, i) => i * 100);
+const yearTicks = [2005, 2010, 2015, 2020, 2025].filter(
+  (yr) => t(`${yr}-01-01`) >= t0 && t(`${yr}-01-01`) <= t1
+);
+
+const last = points[points.length - 1];
+const fmt = (n: number) => n.toLocaleString("en-AU");
+
+// Year-end rows for the table view, plus the latest reading.
+const tableRows = points
+  .filter((p) => p.asAt.endsWith("-12-31") || p === last)
+  .map((p) => ({ ...p, year: p.asAt.slice(0, 4) }));
+
+const hoverData = points.map((p) => ({
+  x: +x(p.asAt).toFixed(1),
+  y: +y(p.backlog).toFixed(1),
+  d: p.asAt,
+  v: p.backlog,
+  o: p.oldestDays,
+  b: p.basis,
+}));
+---
+
+<figure class="chart">
+  <figcaption>
+    <h2 id="backlog-title">Reports awaiting a government response, 2003–{last.asAt.slice(0, 4)}</h2>
+    <p class="chart-note">
+      Monthly. Reconstructed from the tabling dates of every report and every response
+      in the Senate’s registers, so it counts what the record shows today — a floor,
+      not an exact historical count.{" "}
+      <a href="/methods#backlog">How this is built</a>.
+    </p>
+  </figcaption>
+
+  <div class="plot" data-chart>
+    <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-labelledby="backlog-title" preserveAspectRatio="xMidYMid meet">
+      <g class="grid">
+        {gridValues.map((v) => (
+          <>
+            <line x1={PAD.left} x2={W - PAD.right} y1={y(v)} y2={y(v)} />
+            <text x={PAD.left - 10} y={y(v) + 4} class="tick num">{fmt(v)}</text>
+          </>
+        ))}
+      </g>
+
+      <g class="grid">
+        {yearTicks.map((yr) => (
+          <text x={x(`${yr}-01-01`)} y={H - 12} class="tick mid">{yr}</text>
+        ))}
+      </g>
+
+      <path d={area} class="area" />
+      <path d={line} class="line" />
+
+      {/* Direct labels: the extreme and the endpoint only. */}
+      <g class="marker">
+        <circle cx={x(peak.asAt)} cy={y(peak.backlog)} r="4.5" />
+        <text x={x(peak.asAt)} y={y(peak.backlog) - 14} class="callout mid">
+          {fmt(peak.backlog)}
+        </text>
+        <text x={x(peak.asAt)} y={y(peak.backlog) - 1} class="callout-sub mid">April 2024</text>
+      </g>
+
+      <g class="marker">
+        <circle cx={x(last.asAt)} cy={y(last.backlog)} r="4.5" />
+        <text x={x(last.asAt) + 12} y={y(last.backlog) - 2} class="callout">{fmt(last.backlog)}</text>
+        <text x={x(last.asAt) + 12} y={y(last.backlog) + 13} class="callout-sub">today</text>
+      </g>
+
+      <line class="crosshair" data-crosshair y1={PAD.top} y2={PAD.top + plotH} x1="0" x2="0" hidden />
+      <circle class="cursor" data-cursor r="4.5" cx="0" cy="0" hidden />
+      <rect class="hit" data-hit x={PAD.left} y={PAD.top} width={plotW} height={plotH} />
+    </svg>
+    <div class="tooltip" data-tooltip hidden></div>
+  </div>
+
+  <details class="table-view">
+    <summary>Table view — backlog at each year end</summary>
+    <table class="register">
+      <thead>
+        <tr>
+          <th scope="col">As at</th>
+          <th scope="col" class="num">Awaiting a response</th>
+          <th scope="col" class="num">Longest wait</th>
+          <th scope="col" class="num">Over five years</th>
+        </tr>
+      </thead>
+      <tbody>
+        {tableRows.map((r) => (
+          <tr>
+            <td>{r.asAt}{r.basis === "observed" ? " (observed)" : ""}</td>
+            <td class="num">{fmt(r.backlog)}</td>
+            <td class="num">{r.oldestDays ? `${fmt(r.oldestDays)} days` : "—"}</td>
+            <td class="num">{fmt(r.overFiveYears)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </details>
+</figure>
+
+<style>
+  .chart { margin: 0 0 2.5rem; }
+  .chart figcaption { max-width: var(--measure); margin-bottom: 1rem; }
+  .chart-note { font-size: 0.8125rem; color: var(--ink-muted); margin: 0; }
+  .plot { position: relative; }
+  svg { width: 100%; height: auto; display: block; overflow: visible; }
+
+  .grid line { stroke: var(--rule); stroke-width: 1; }
+  .tick { fill: var(--ink-muted); font-size: 11px; text-anchor: end;
+          font-variant-numeric: tabular-nums; }
+  .tick.mid { text-anchor: middle; }
+
+  .area { fill: var(--series-1); opacity: 0.1; }
+  .line { fill: none; stroke: var(--series-1); stroke-width: 2;
+          stroke-linejoin: round; stroke-linecap: round; }
+
+  .marker circle { fill: var(--series-1); stroke: var(--surface); stroke-width: 2; }
+  .callout { fill: var(--ink); font-size: 13px; font-weight: 600; }
+  .callout-sub { fill: var(--ink-muted); font-size: 10.5px; letter-spacing: 0.06em;
+                 text-transform: uppercase; }
+  .callout.mid, .callout-sub.mid { text-anchor: middle; }
+
+  .crosshair { stroke: var(--rule-strong); stroke-width: 1; }
+  .cursor { fill: var(--series-1); stroke: var(--surface); stroke-width: 2; }
+  .hit { fill: transparent; }
+  /* The HTML `hidden` attribute is not reliably honoured on SVG children. */
+  svg [hidden] { display: none; }
+
+  .tooltip {
+    position: absolute; pointer-events: none; z-index: 2;
+    background: var(--surface); border: 1px solid var(--rule-strong);
+    padding: 0.4rem 0.6rem; font-size: 0.8125rem; line-height: 1.45;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.08); white-space: nowrap;
+    transform: translate(-50%, -115%);
+  }
+  .tooltip b { font-variant-numeric: tabular-nums; }
+  .tooltip span { color: var(--ink-muted); }
+
+  .table-view { max-width: var(--measure); }
+  .table-view summary { font-size: 0.8125rem; color: var(--ink-secondary);
+                        cursor: pointer; padding-block: 0.4rem; }
+  .table-view table { margin-top: 0.5rem; }
+</style>
+
+<script is:inline define:vars={{ hoverData, W }}>
+  (() => {
+    const root = document.querySelector("[data-chart]");
+    if (!root) return;
+    const svg = root.querySelector("svg");
+    const cross = root.querySelector("[data-crosshair]");
+    const cursor = root.querySelector("[data-cursor]");
+    const tip = root.querySelector("[data-tooltip]");
+    const hit = root.querySelector("[data-hit]");
+
+    const show = (on) => {
+      for (const el of [cross, cursor]) on ? el.removeAttribute("hidden") : el.setAttribute("hidden", "");
+      on ? tip.removeAttribute("hidden") : tip.setAttribute("hidden", "");
+    };
+
+    const move = (event) => {
+      const box = svg.getBoundingClientRect();
+      const scale = W / box.width;
+      const px = (event.clientX - box.left) * scale;
+      let best = hoverData[0];
+      for (const p of hoverData) {
+        if (Math.abs(p.x - px) < Math.abs(best.x - px)) best = p;
+      }
+      cross.setAttribute("x1", best.x); cross.setAttribute("x2", best.x);
+      cursor.setAttribute("cx", best.x); cursor.setAttribute("cy", best.y);
+      const date = new Date(best.d + "T00:00:00Z").toLocaleDateString("en-AU", {
+        month: "long", year: "numeric", timeZone: "UTC",
+      });
+      const oldest = best.o ? ` · longest wait <b>${best.o.toLocaleString("en-AU")}</b> days` : "";
+      tip.innerHTML = `<b>${best.v.toLocaleString("en-AU")}</b> awaiting a response<br><span>${date}${oldest}</span>`;
+      tip.style.left = (best.x / scale) + "px";
+      tip.style.top = (best.y / scale) + "px";
+      show(true);
+    };
+
+    hit.addEventListener("pointermove", move);
+    hit.addEventListener("pointerdown", move);
+    hit.addEventListener("pointerleave", () => show(false));
+  })();
+</script>
