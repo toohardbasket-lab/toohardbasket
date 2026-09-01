@@ -499,7 +499,26 @@ export function corrections(): Correction[] {
  *  - reports still awaiting a response are not in the denominator at all, so
  *    this measures only responses that eventually arrived;
  *  - rows without a report date are excluded rather than counted as failures.
+ *
+ * The deadline is three calendar months from tabling, not ninety days. The
+ * Senate's 1973 resolution says three months, the President's own report says
+ * three months, and his "Response provided within 3 months" column marks a
+ * 92-day response Yes. Testing 90 days instead counted eleven responses late
+ * that the Senate counts on time — an error running against the government,
+ * on a site whose whole claim is that every figure it gives is a floor.
  */
+
+/** Days from a tabling date to three calendar months later. 89 to 92. */
+function deadlineDays(tabled: string): number {
+  if (!tabled) return 92;              // no report date: the longest, in the
+  const d = new Date(`${tabled}T00:00:00Z`);   // government's favour
+  const due = new Date(d);
+  due.setUTCMonth(due.getUTCMonth() + 3);
+  // JS rolls 30 November + 3 months to 2 March; the Senate would read the last
+  // day of February, so pull it back when the day of the month has moved.
+  if (due.getUTCDate() !== d.getUTCDate()) due.setUTCDate(0);
+  return Math.round((due.getTime() - d.getTime()) / 86_400_000);
+}
 const GOVERNMENTS: { name: string; from: string; to: string }[] = [
   { name: "Howard", from: "1996-03-11", to: "2007-12-03" },
   { name: "Rudd / Gillard", from: "2007-12-03", to: "2013-09-18" },
@@ -507,13 +526,18 @@ const GOVERNMENTS: { name: string; from: string; to: string }[] = [
   { name: "Albanese", from: "2022-05-23", to: "2099-01-01" },
 ];
 
-const BUCKETS: { label: string; lo: number; hi: number }[] = [
-  { label: "Within 90 days — the rule", lo: 0, hi: 90 },
-  { label: "91 days to 6 months", lo: 91, hi: 180 },
-  { label: "6 months to a year", lo: 181, hi: 365 },
-  { label: "1 to 2 years", lo: 366, hi: 730 },
-  { label: "2 to 5 years", lo: 731, hi: 1826 },
-  { label: "Over 5 years", lo: 1827, hi: Infinity },
+/**
+ * The first bucket is the rule itself, which is a different number of days for
+ * each report, so every bucket is a test on the row rather than a day range.
+ */
+type Timed = { days: number; deadline: number };
+const BUCKETS: { label: string; test: (r: Timed) => boolean }[] = [
+  { label: "Within three months — the rule", test: (r) => r.days <= r.deadline },
+  { label: "Three months to six", test: (r) => r.days > r.deadline && r.days <= 180 },
+  { label: "6 months to a year", test: (r) => r.days > 180 && r.days <= 365 },
+  { label: "1 to 2 years", test: (r) => r.days > 365 && r.days <= 730 },
+  { label: "2 to 5 years", test: (r) => r.days > 730 && r.days <= 1826 },
+  { label: "Over 5 years", test: (r) => r.days > 1826 },
 ];
 
 export interface ComplianceDetail {
@@ -540,7 +564,7 @@ export function complianceDetail(): ComplianceDetail {
   const rows = all
     .map((r) => ({
       days: num(r.days_to_respond),
-      deadline: num(r.deadline_days),
+      deadline: deadlineDays(r.report_last_tabled),
       responseTabled: r.response_tabled,
       reportTabled: r.report_last_tabled,
     }))
@@ -563,7 +587,7 @@ export function complianceDetail(): ComplianceDetail {
   return {
     assessable: n,
     onTime: rows.filter((r) => r.days <= r.deadline).length,
-    rate: share((d) => d <= 90),
+    rate: rows.filter((r) => r.days <= r.deadline).length / n,
     medianDays: Math.round(median(rows.map((r) => r.days))),
     within180: share((d) => d <= 180),
     within365: share((d) => d <= 365),
@@ -574,7 +598,7 @@ export function complianceDetail(): ComplianceDetail {
       exYears.length < 2 ? exYears.join("")
       : `${exYears.slice(0, -1).join(", ")} and ${exYears[exYears.length - 1]}`,
     buckets: BUCKETS.map((b) => {
-      const count = rows.filter((r) => r.days >= b.lo && r.days <= b.hi).length;
+      const count = rows.filter(b.test).length;
       return { label: b.label, count, share: count / n };
     }),
     governments: GOVERNMENTS.map((g) => ({

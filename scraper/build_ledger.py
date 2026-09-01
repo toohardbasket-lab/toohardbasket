@@ -149,6 +149,50 @@ def _strip_footnote(words: list[str]) -> list[str]:
     return words
 
 
+def heading_texts(page) -> set[str]:
+    """Every committee heading on the page, as text, read from the font.
+
+    A committee heading and the second line of a report title look identical to
+    a table extractor: both are a single populated cell with no date in the
+    row. Treating every such row as a heading is what produced committees
+    called "news media—Second interim report" and a report called "Paying the
+    price: The cost of a crisis on" with its second line missing.
+
+    In the President's report the headings are bold and the titles are not, so
+    the font settles it. Headings run over one, two or three lines, and the
+    table extractor sometimes returns those lines as separate rows and
+    sometimes merged into one cell, so every run of consecutive lines within a
+    bold block is offered as a match.
+    """
+    lines: list[tuple[float, list[str]]] = []
+    for w in page.extract_words(extra_attrs=["fontname"]):
+        if "Bold" not in w["fontname"]:
+            continue
+        if lines and abs(w["top"] - lines[-1][0]) < 3:
+            lines[-1][1].append(w["text"])
+        else:
+            lines.append((w["top"], [w["text"]]))
+
+    blocks: list[list[str]] = []
+    last_top = None
+    for top, words in lines:
+        text = " ".join(words)
+        # Lines of one heading sit a single line-height apart; a bigger gap is
+        # a different heading (or the bold table header).
+        if blocks and last_top is not None and top - last_top < 20:
+            blocks[-1].append(text)
+        else:
+            blocks.append([text])
+        last_top = top
+
+    out: set[str] = set()
+    for block in blocks:
+        for i in range(len(block)):
+            for j in range(i + 1, len(block) + 1):
+                out.add(" ".join(block[i:j]))
+    return out
+
+
 def parse_schedule(pdf_path: str, schedule_date: date) -> list[dict]:
     """Read the President's report as a table, and read its status column.
 
@@ -186,6 +230,7 @@ def parse_schedule(pdf_path: str, schedule_date: date) -> list[dict]:
             table = page.extract_table()
             if not table:
                 continue
+            headings = heading_texts(page)
             for raw in table:
                 cells = [(c or "").replace("\n", " ").strip() for c in raw]
                 filled = [c for c in cells if c]
@@ -197,16 +242,24 @@ def parse_schedule(pdf_path: str, schedule_date: date) -> list[dict]:
                 at = next((i for i, c in enumerate(filled)
                            if DATE_RE_TABLE.match(c)), None)
                 if at is None or at == 0:
-                    if len(filled) == 1:
+                    if len(filled) != 1:
+                        continue
+                    text = filled[0]
+                    if text in headings:
                         # A committee heading, which may run over two rows
                         # ("Administration of Sports Grants—" / "Senate
                         # Select"). Join them; start again after a report row.
                         if heading_open:
                             sep = "" if committee.endswith(("\u2014", "\u2013", "-")) else " "
-                            committee = (committee + sep + filled[0]).strip()
+                            committee = (committee + sep + text).strip()
                         else:
-                            committee = filled[0]
+                            committee = text
                         heading_open = True
+                    elif rows:
+                        # The rest of the previous report's title, wrapped onto
+                        # the next line of the table.
+                        sep = "" if rows[-1]["title"].endswith(("\u2014", "\u2013", "-")) else " "
+                        rows[-1]["title"] = (rows[-1]["title"] + sep + text).strip()
                     continue
                 heading_open = False
 
