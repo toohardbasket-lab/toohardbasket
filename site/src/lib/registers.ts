@@ -39,7 +39,7 @@ export const REGISTERS: Register[] = [
     claimant: "the House of Representatives",
     rule: "a response within six months of the report being tabled",
     ruleSince: "29 September 2010",
-    status: "planned",
+    status: "live",
   },
   {
     slug: "wa",

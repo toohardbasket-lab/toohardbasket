@@ -1,0 +1,232 @@
+---
+import Base from "../../layouts/Base.astro";
+import { ledger, scheduleMeta, humanDuration, fmt, formatDate, formatDateShort } from "../../lib/data";
+import { registerBySlug } from "../../lib/registers";
+
+/**
+ * The House register. Deliberately the same page as /senate/ — same order, same
+ * columns, same words — because a reader moving between them should have to
+ * learn nothing new (claude/thb-register-spec.md §5).
+ *
+ * Two things are genuinely different and are stated on the page rather than
+ * smoothed over: there is no compliance history for the House, and the
+ * Speaker's schedule no longer records "the Government's response is being
+ * considered", so the count the Senate page leads with cannot be given here.
+ */
+const reg = registerBySlug("house")!;
+const rows = ledger("house");
+const sched = scheduleMeta("house");
+
+const overdue = rows.filter((r) => r.overdue);
+const notYetDue = rows.filter((r) => !r.overdue);
+const overOne = rows.filter((r) => r.daysOutstanding > 365);
+const overFive = rows.filter((r) => r.daysOutstanding > 1826);
+const partial = rows.filter((r) => r.partial);
+
+const considered = rows.filter((r) => r.beingConsidered);
+
+const statusOf = (r: (typeof rows)[number]): string =>
+  r.beingConsidered ? "Being considered"
+  : r.partial ? "Answered in part"
+  : r.overdue ? "Nothing received"
+  : "Not yet due";
+
+const byCommittee = [...rows.reduce((m, r) => {
+  const cur = m.get(r.body) ?? { body: r.body, count: 0, longest: 0 };
+  cur.count += 1;
+  cur.longest = Math.max(cur.longest, r.daysOutstanding);
+  return m.set(r.body, cur);
+}, new Map<string, { body: string; count: number; longest: number }>()).values()]
+  .sort((a, b) => b.count - a.count || b.longest - a.longest);
+---
+
+<Base
+  title="The House register"
+  description={`Every ${reg.name.toLowerCase()} still awaiting a government response, how long each has waited, and where the record comes from.`}
+>
+  <section class="wrap intro">
+    <p class="eyebrow">
+      Register · {reg.claimant} · the Speaker’s schedule as at {formatDate(sched.asAt)}
+    </p>
+    <h1>The House register</h1>
+    <p class="lede measure">
+      Every House of Representatives and joint committee report the Speaker records as
+      still waiting for a government response. The House has asked for {reg.rule} since
+      {" "}{reg.ruleSince}. A report leaves this register when a response is tabled —
+      whatever that response says.
+    </p>
+
+    <dl class="stats">
+      <div><dt>Awaiting a response</dt><dd class="num">{fmt(rows.length)}</dd></div>
+      <div><dt>Told it is being considered</dt><dd class="num">{fmt(considered.length)}</dd></div>
+      <div><dt>Past the six-month deadline</dt><dd class="num">{fmt(overdue.length)}</dd></div>
+      <div><dt>Still within time</dt><dd class="num">{fmt(notYetDue.length)}</dd></div>
+      <div><dt>Waiting over a year</dt><dd class="num">{fmt(overOne.length)}</dd></div>
+      <div><dt>Waiting over five years</dt><dd class="num">{fmt(overFive.length)}</dd></div>
+    </dl>
+  </section>
+
+  <section class="wrap">
+    <h2 id="source">Where this comes from, and what it leaves out</h2>
+    <p class="note measure">
+      This register publishes what the presiding officer records, and nothing else. At
+      roughly six-monthly intervals the Speaker presents to the House a schedule of the
+      status of government responses to committee reports. The most recent is
+      {" "}<a href={sched.url}>the schedule as at {formatDate(sched.asAt)}</a>, presented on
+      {" "}{formatDate(sched.tabled)}. It lists {fmt(sched.listed)} reports and records a
+      response received for {fmt(sched.answeredAtSchedule)} of them. The rest are here.
+    </p>
+    <p class="note measure">
+      Whether a report is past its deadline is the Speaker’s judgement, not ours: the
+      resolution of {reg.ruleSince} gives six months but excludes any period when the House
+      was dissolved, so the interval cannot simply be counted off a calendar.
+    </p>
+    <p class="note measure">
+      Alongside it, the government publishes <a href={sched.beingConsideredSource}>its own
+      status report</a>, presented on {formatDate(sched.beingConsideredTabled ?? "")} and
+      covering the same date. That is where the words “the Government’s response is being
+      considered” are actually written; the President of the Senate abbreviates the same
+      sentence to an asterisk in his report. It is read here for one purpose — to say what
+      the government has said about a report — and it can never add a report to this
+      register or remove one from it. Which reports are outstanding is the Speaker’s to
+      say. All {fmt(sched.governmentReportMatched ?? rows.length)} reports below were found
+      in it{considered.length === rows.length
+        ? ", and for every one of them the government records nothing more than that its response is being considered."
+        : `, and ${fmt(considered.length)} of them are recorded that way.`}
+    </p>
+    {(sched.outOfPeriod ?? 0) > 0 && (
+      <p class="note measure">
+        The schedule counts itself, by Parliament, on its fourth page, and that tally says
+        {" "}{fmt(sched.scheduleSaysOutstanding ?? rows.length)} rather than the
+        {" "}{fmt(rows.length)} published here. The difference is
+        {" "}{sched.outOfPeriod === 1 ? "one report" : `${fmt(sched.outOfPeriod ?? 0)} reports`}
+        {" "}for which the schedule’s own entry records a response received before this
+        reporting period, and for which the government’s report records the same response.
+        Two records say the report was answered and one aggregate says it was not, so it is
+        not published here as waiting. We would rather be one short than name a report as
+        unanswered when it was answered.
+      </p>
+    )}
+    <p class="note measure">
+      <strong>What it does not have.</strong> Reports tabled after
+      {" "}{formatDate(sched.coversTo)}, which the Speaker has not yet reported on — and
+      because the schedule is presented about twice a year, that gap can be months wide.
+      No compliance history: unlike the Senate, the House has no published register of
+      responses going back to 2000, so this register can show what is owed now but not how
+      often the six-month rule has been met over time. And no submission counts yet — the
+      figures on how many people and organisations wrote to these inquiries have to be
+      collected inquiry by inquiry, and that has not been done.
+    </p>
+  </section>
+
+  <section class="wrap">
+    <h2 id="outstanding">Outstanding reports</h2>
+    <p class="note measure">
+      Ordered by how long each has waited. <em>Answered in part</em> is the Speaker’s
+      “partial response received”: the Joint Committee of Public Accounts and Audit is
+      answered by executive minute, one recommendation at a time, and a report is not
+      treated as finished until every recommendation has been answered.
+      {" "}{partial.length > 0 && `${fmt(partial.length)} reports are in that state.`}
+      {" "}<a href="/methods">How this is built</a>.
+    </p>
+    <p class="note measure">
+      <em>Being considered</em> is the government’s own sentence, from its status report,
+      not a characterisation of ours.
+    </p>
+    <table class="register">
+      <thead>
+        <tr>
+          <th scope="col" class="num">Waiting</th>
+          <th scope="col">Report</th>
+          <th scope="col">Committee</th>
+          <th scope="col" class="num">Tabled</th>
+          <th scope="col">Status</th>
+          <th scope="col">Source</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((r) => (
+          <tr>
+            <td class="num nowrap">
+              {fmt(r.daysOutstanding)} days
+              <span class="human">{humanDuration(r.daysOutstanding)}</span>
+            </td>
+            <td>{r.title}</td>
+            <td class="cmte">{r.body}</td>
+            <td class="num nowrap">{formatDateShort(r.owedSince)}</td>
+            <td class="src">{statusOf(r)}</td>
+            <td class="src">Speaker’s schedule</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="wrap">
+    <h2 id="by-committee">By committee</h2>
+    <p class="note measure">
+      Committees with reports still outstanding, most first.
+    </p>
+    <table class="register narrow">
+      <thead>
+        <tr>
+          <th scope="col">Committee</th>
+          <th scope="col" class="num">Outstanding</th>
+          <th scope="col" class="num">Longest wait</th>
+        </tr>
+      </thead>
+      <tbody>
+        {byCommittee.map((c) => (
+          <tr>
+            <td>{c.body}</td>
+            <td class="num">{fmt(c.count)}</td>
+            <td class="num nowrap">{fmt(c.longest)} days</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="wrap">
+    <h2 id="compared">Compared with the Senate</h2>
+    <p class="note measure">
+      The two chambers are asked for different things: the Senate wants a response within
+      three months, the House within six. So the two registers are not a league table, and
+      the counts should not be added together without saying what each covers. Both are
+      drawn from their presiding officer’s own record, and both currently stand as at
+      {" "}{formatDate(sched.asAt)}. <a href="/senate/">The Senate register →</a>
+    </p>
+  </section>
+
+  <section class="wrap">
+    <p class="note measure">
+      The whole register is available as CSV in the
+      <a href="https://github.com/toohardbasket-lab/toohardbasket">public repository</a>,
+      licensed CC BY 4.0. If you believe a row is wrong, please write to
+      <a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a>.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .intro { padding-bottom: 1.5rem; }
+  h2 { margin-top: 2.5rem; }
+  .note { font-size: 0.875rem; color: var(--ink-muted); }
+
+  .stats {
+    display: grid; gap: 1px; margin: 2rem 0 0;
+    grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr));
+    background: var(--rule); border-block: 1px solid var(--rule);
+  }
+  .stats > div { background: var(--surface); padding: 0.9rem 1rem 1rem 0; }
+  .stats dt { font-size: 0.6875rem; letter-spacing: 0.09em; text-transform: uppercase;
+              color: var(--ink-muted); margin-bottom: 0.35rem; }
+  .stats dd { margin: 0; font-size: 1.375rem; font-weight: 600; }
+
+  table.register td { padding-right: 1rem; }
+  .cmte, .src { color: var(--ink-secondary); font-size: 0.8125rem; }
+  .nowrap { white-space: nowrap; }
+  .human { display: block; font-size: 0.75rem; color: var(--ink-muted);
+           font-variant-numeric: normal; }
+  table.narrow { max-width: 44rem; }
+</style>

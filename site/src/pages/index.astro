@@ -1,11 +1,18 @@
 ---
 import Base from "../layouts/Base.astro";
 import BacklogChart from "../components/BacklogChart.astro";
-import { homeFigures, humanDuration, fmt, formatDate, formatDateShort } from "../lib/data";
+import { LAUNCHED } from "../lib/launch";
+import { homeFigures, complianceDetail, humanDuration, inMonths, fmt, formatDate, formatDateShort } from "../lib/data";
 
 const f = homeFigures();
-const asAt = formatDate(f.asAt);
-const pct = (f.compliance.rate * 100).toFixed(1);
+const comp = complianceDetail();
+// The register's currency is the President's report, not the history series.
+const asAt = formatDate(f.schedule.asAt);
+const pct = (comp.rate * 100).toFixed(1);
+// The strongest cell in the by-government table is the best one, not the worst:
+// if even the most favourable reading of the most favourable government is in
+// single figures, there is no partisan story to tell.
+const bestGov = Math.max(...comp.governments.flatMap((g) => [g.byResponse.rate, g.byReport.rate]));
 ---
 
 <Base
@@ -19,8 +26,25 @@ const pct = (f.compliance.rate * 100).toFixed(1);
     <p class="lede measure">
       The longest has waited <strong>{humanDuration(f.oldest.daysOutstanding)}</strong>{" "}
       — {fmt(f.oldest.daysOutstanding)} days since the {f.oldest.body} committee
-      tabled{" "}<em>{f.oldest.title}</em> on {formatDate(f.oldest.owedSince)}. The
-      Senate has asked for a response within three months since 1973.
+      tabled{" "}<em>{f.oldest.title}</em> on {formatDate(f.oldest.owedSince)}.
+    </p>
+    <p class="gap measure">
+      The Senate asks for a response within <strong>three months</strong>.
+      The median answer takes <strong>{inMonths(comp.medianDays)}</strong>.
+    </p>
+    <p class="measure">
+      For <strong>{fmt(f.beingConsidered)}</strong> of them the government has said only
+      that its response is being considered. That is the President’s own record of it,
+      not our reading.
+    </p>
+    <p class="measure">
+      In the House of Representatives, where the government is asked for six months rather
+      than three, <strong>{fmt(f.house.outstanding)}</strong> reports are waiting and
+      {" "}{fmt(f.house.overdue)} of those are past the deadline.
+      {f.house.beingConsidered === f.house.outstanding
+        ? " For every one of them, the government says only that its response is being considered."
+        : ` For ${fmt(f.house.beingConsidered)} of them, the government says only that its response is being considered.`}
+      {" "}<a href="/house/">The House register →</a>
     </p>
 
     <dl class="stats">
@@ -37,7 +61,7 @@ const pct = (f.compliance.rate * 100).toFixed(1);
         <dd class="num">{fmt(f.medianWait)} days</dd>
       </div>
       <div>
-        <dt>Met the three-month deadline</dt>
+        <dt>Responses that met the deadline</dt>
         <dd class="num">{pct}%</dd>
       </div>
     </dl>
@@ -51,29 +75,38 @@ const pct = (f.compliance.rate * 100).toFixed(1);
     <div class="measure">
       <h2>The deadline is not a deadline</h2>
       <p>
-        Of the {fmt(f.compliance.assessable)} responses since 2000 where both the report
-        and the response are dated in the register, {fmt(f.compliance.onTime)} arrived
-        within the required three months. That is {pct} per cent. The median response
-        took {fmt(f.compliance.medianDays)} days.
+        Of {fmt(comp.assessable)} responses tabled between {comp.firstYear} and
+        {" "}{comp.lastYear}, {fmt(comp.onTime)} arrived inside the required three
+        months — {pct} per cent. The median took {fmt(comp.medianDays)} days.
+        More than half took longer than a year.
       </p>
       <p>
-        A further {fmt(f.compliance.excluded)} responses cannot be assessed, because the
-        2000–01 registers do not record when the report was tabled. They are excluded
-        rather than counted as failures.
+        This is not a story about one government. Attribute every late response to
+        whoever tabled it, or to whoever was in office when the report was tabled: the
+        two readings disagree about which government performs worst, and on neither
+        reading does any of the four reach one response in ten inside the deadline.
+        {" "}<a href="/senate/#compliance">Both readings, side by side →</a>
       </p>
+      {LAUNCHED && (
+        <p>
+          And a response arriving is not the same as a report being answered:
+          {" "}<a href="/senate/responses/">how the government answered →</a>
+        </p>
+      )}
     </div>
     <div class="measure">
       <h2>What this site is</h2>
       <p>
-        When a Senate committee reports, the government is expected to say what it will
-        do about the recommendations. Often it does not, or does so years later. There
-        is no single public record of which reports are still waiting.
+        When a parliamentary committee reports, the government is expected to say what it
+        will do about the recommendations. Often it does not, or does so years later.
+        There is no single public record of which reports are still waiting.
       </p>
       <p>
-        This is that record. The response data is rebuilt every week from the Senate’s
-        own registers and the Tabled Documents database. The list of reports still
-        waiting follows the President of the Senate’s schedule, which is tabled twice
-        a year. The whole dataset is{" "}
+        This is that record. It is built from the Parliament’s own registers and the
+        Tabled Documents database; each register follows its presiding officer — the
+        President of the Senate and the Speaker of the House both report on the status of
+        government responses, at roughly six-monthly intervals — and publishes what he
+        records. Every page shows the date of the data behind it. The whole dataset is{" "}
         <a href="https://github.com/toohardbasket-lab/toohardbasket">public</a>.
         Nothing here is an opinion about any recommendation — only whether an answer
         was given, and when.
@@ -120,6 +153,11 @@ const pct = (f.compliance.rate * 100).toFixed(1);
     max-width: 22ch; margin: 0 0 1.25rem;
   }
   .hero .lede em { font-style: normal; color: var(--ink); }
+  .gap {
+    font-size: clamp(1.0625rem, 0.95rem + 0.5vw, 1.25rem);
+    line-height: 1.45; margin: 1.5rem 0 0;
+    padding-left: 0.9rem; border-left: 2px solid var(--series-1);
+  }
 
   .stats {
     display: grid; gap: 1px; margin: 2rem 0 0;

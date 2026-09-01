@@ -1,16 +1,26 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { ledger, compliance, history, humanDuration, fmt, formatDate, formatDateShort } from "../../lib/data";
+import { ledger, complianceDetail, history, humanDuration, fmt, formatDate, formatDateShort, inMonths, scheduleMeta } from "../../lib/data";
 import { registerBySlug } from "../../lib/registers";
+import { LAUNCHED } from "../../lib/launch";
 
 const reg = registerBySlug("senate")!;
 const rows = ledger();
-const comp = compliance();
+const comp = complianceDetail();
 const observed = history().filter((p) => p.basis === "observed").at(-1);
 const asAt = formatDate(observed?.asAt ?? new Date().toISOString().slice(0, 10));
 
+const sched = scheduleMeta();
 const overFive = rows.filter((r) => r.daysOutstanding > 1826);
 const overOne = rows.filter((r) => r.daysOutstanding > 365);
+const considered = rows.filter((r) => r.beingConsidered);
+
+/** The status column of the schedule, in the register's own words. */
+const statusOf = (r: (typeof rows)[number]): string =>
+  r.beingConsidered ? "Being considered"
+  : r.partial ? "Answered in part"
+  : r.interim ? "Interim response"
+  : "Nothing received";
 
 // Committees ranked by how much is outstanding against them.
 const byCommittee = [...rows.reduce((m, r) => {
@@ -27,16 +37,20 @@ const byCommittee = [...rows.reduce((m, r) => {
   description={`Every ${reg.name.toLowerCase()} still awaiting a government response, how long each has waited, and where the record comes from.`}
 >
   <section class="wrap intro">
-    <p class="eyebrow">Register · {reg.claimant} · as at {asAt}</p>
+    <p class="eyebrow">
+      Register · {reg.claimant} · the President’s report as at {formatDate(sched.asAt)}
+    </p>
     <h1>The Senate register</h1>
     <p class="lede measure">
-      Every Senate committee report still waiting for a government response.
-      The Senate has required {reg.rule} since {reg.ruleSince}. A report leaves
-      this register when a response is tabled — whatever that response says.
+      Every Senate committee report the President of the Senate records as still
+      waiting for a government response. The Senate has required {reg.rule} since
+      {" "}{reg.ruleSince}. A report leaves this register when a response is tabled —
+      whatever that response says.
     </p>
 
     <dl class="stats">
       <div><dt>Awaiting a response</dt><dd class="num">{fmt(rows.length)}</dd></div>
+      <div><dt>Told it is being considered</dt><dd class="num">{fmt(considered.length)}</dd></div>
       <div><dt>Waiting over a year</dt><dd class="num">{fmt(overOne.length)}</dd></div>
       <div><dt>Waiting over five years</dt><dd class="num">{fmt(overFive.length)}</dd></div>
       <div><dt>Met the three-month deadline</dt><dd class="num">{(comp.rate * 100).toFixed(1)}%</dd></div>
@@ -44,11 +58,41 @@ const byCommittee = [...rows.reduce((m, r) => {
   </section>
 
   <section class="wrap">
+    <h2 id="source">Where this comes from, and what it leaves out</h2>
+    <p class="note measure">
+      This register publishes what the presiding officer records, and nothing else.
+      Twice a year the President reports to the Senate on the status of every committee
+      report that requires a government response. The most recent is
+      {" "}<a href={sched.url}>the report as at {formatDate(sched.asAt)}</a>, tabled on
+      {" "}{formatDate(sched.tabled)}. It lists {fmt(sched.listed)} reports and records a
+      response received for {fmt(sched.answeredAtSchedule)} of them. The rest are here.
+    </p>
+    <p class="note measure">
+      Since that date {fmt(sched.answeredSince)} more responses have been tabled, and those
+      reports have been removed. The Senate also runs a live tracker of reports awaiting a
+      response; it is carried here only for reports tabled after the President’s date, so it
+      can add to the register but never overrule it.
+      {sched.fromTracker === 0
+        ? " On this build it adds nothing, and every row below is the President’s."
+        : ` On this build it adds ${fmt(sched.fromTracker)} ${sched.fromTracker === 1 ? "report" : "reports"}, each marked in the source column.`}
+    </p>
+    <p class="note measure">
+      <strong>What it does not have:</strong> reports tabled after
+      {" "}{formatDate(sched.coversTo)}, which neither source yet lists; anything the
+      President excludes from his report, which includes reports on bills whose
+      recommendations can only be dealt with in debate, estimates and annual-report
+      scrutiny, and the Senate’s domestic committees; and the House of Representatives,
+      which has its own presiding officer, its own schedule and its own six-month rule.
+    </p>
+  </section>
+
+  <section class="wrap">
     <h2 id="outstanding">Outstanding reports</h2>
     <p class="note measure">
-      Ordered by how long each has waited. Sourced from the President of the Senate’s
-      twice-yearly schedule of outstanding responses and the Senate’s live tracker;
-      each row names which. <a href="/methods">How this is built</a>.
+      Ordered by how long each has waited. The status column is the President’s own:
+      <em>being considered</em> is what he records as “Interim*”, and defines in his report
+      as the government saying only that “the Government’s response is being considered”.
+      <a href="/methods">How this is built</a>.
     </p>
     <table class="register">
       <thead>
@@ -57,6 +101,7 @@ const byCommittee = [...rows.reduce((m, r) => {
           <th scope="col">Report</th>
           <th scope="col">Committee</th>
           <th scope="col" class="num">Tabled</th>
+          <th scope="col">Status</th>
           <th scope="col">Source</th>
         </tr>
       </thead>
@@ -70,7 +115,8 @@ const byCommittee = [...rows.reduce((m, r) => {
             <td>{r.title}</td>
             <td class="cmte">{r.body}</td>
             <td class="num nowrap">{formatDateShort(r.owedSince)}</td>
-            <td class="src">{r.source.startsWith("presidents") ? "President’s schedule" : "Senate tracker"}</td>
+            <td class="src">{statusOf(r)}</td>
+            <td class="src">{r.source.startsWith("presidents") ? "President’s report" : "Senate tracker"}</td>
           </tr>
         ))}
       </tbody>
@@ -100,6 +146,84 @@ const byCommittee = [...rows.reduce((m, r) => {
         ))}
       </tbody>
     </table>
+  </section>
+
+  <section class="wrap">
+    <h2 id="compliance">Whether the deadline is met</h2>
+    <p class="note measure">
+      The register above is what is owed now. This is the record over
+      {" "}{comp.lastYear - comp.firstYear} years: every response tabled between{" "}
+      {comp.firstYear} and {comp.lastYear} whose report date the Senate’s register records —
+      {" "}{fmt(comp.assessable)} of them — measured against the three-month rule. The interval
+      runs from the report’s last tabling, which is the reading most favourable to the
+      government. <a href="/methods#limits">What this does and does not count</a>.
+    </p>
+
+    <table class="register narrow">
+      <thead>
+        <tr>
+          <th scope="col">Time taken to respond</th>
+          <th scope="col" class="num">Responses</th>
+          <th scope="col" class="num">Share</th>
+        </tr>
+      </thead>
+      <tbody>
+        {comp.buckets.map((b) => (
+          <tr>
+            <td>{b.label}</td>
+            <td class="num">{fmt(b.count)}</td>
+            <td class="num">{(b.share * 100).toFixed(1)}%</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="note measure">
+      Median: {fmt(comp.medianDays)} days, or about {inMonths(comp.medianDays)}, against a
+      rule of three.
+    </p>
+    {LAUNCHED && (
+      <p class="note measure">
+        This measures only whether a response arrived, not whether it answered anything.
+        {" "}<a href="/senate/responses/">How the government answered →</a>
+      </p>
+    )}
+
+    <h3 id="by-government">By government</h3>
+    <p class="note measure">
+      A late response can be attributed to the government that tabled it, or to the government
+      in office when the report was tabled. The two readings disagree about who performs worst,
+      and the disagreement is the point: the ordering is an artefact of the choice, while the
+      range — never above single figures — is not. Both are shown so that neither can be quoted
+      alone.
+    </p>
+    <table class="register narrow">
+      <thead>
+        <tr>
+          <th scope="col">Government</th>
+          <th scope="col" class="num">Responses tabled</th>
+          <th scope="col" class="num">Met the rule</th>
+          <th scope="col" class="num">Reports tabled</th>
+          <th scope="col" class="num">Met the rule</th>
+        </tr>
+      </thead>
+      <tbody>
+        {comp.governments.map((g) => (
+          <tr>
+            <td>{g.name}</td>
+            <td class="num">{fmt(g.byResponse.n)}</td>
+            <td class="num">{(g.byResponse.rate * 100).toFixed(1)}%</td>
+            <td class="num">{fmt(g.byReport.n)}</td>
+            <td class="num">{(g.byReport.rate * 100).toFixed(1)}%</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="note measure">
+      Columns two and three count responses by who tabled them; columns four and five count
+      them by who was in office when the report was tabled. No government in
+      {" "}{comp.lastYear - comp.firstYear} years reaches one response in ten inside the deadline,
+      on either reading.
+    </p>
   </section>
 
   <section class="wrap">
