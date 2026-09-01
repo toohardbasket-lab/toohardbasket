@@ -36,10 +36,11 @@
   "rows": 38,
   "covers_to": "2026-06-30",
   "rebuilt": "2026-09-01",
+  "responses_checked_to": "2026-08-27",
   "answered_since_schedule": 6,
   "removed_by_response_documents": 6,
   "answered_since_schedule_file": "answered_since_house.csv",
-  "covers_responses_to": "2026-08-20",
+  "covers_responses_to": "2026-08-19",
   "pruned": "2026-09-01",
   "from_schedule": 0,
   "from_tracker": 0,
@@ -52,6 +53,5 @@
     "490",
     "492",
     "504"
-  ],
-  "responses_checked_to": "2026-08-27"
+  ]
 }

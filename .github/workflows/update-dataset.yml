@@ -43,6 +43,8 @@ jobs:
         run: python harvest_responses.py
       - name: Link reports to their responses
         run: python harvest_links.py && python link_reports.py
+      - name: Removal-step tests (gate)
+        run: python tests/test_answered_since.py
       - name: Remove reports answered since the schedules
         run: python prune_answered.py
       - name: Mark the reports that are on both registers

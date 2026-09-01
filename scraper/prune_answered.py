@@ -57,7 +57,7 @@ def main() -> int:
             rows = list(csv.DictReader(f))
             fields = list(rows[0].keys()) if rows else []
 
-        kept, removed = answered_since.apply(rows, as_at)
+        kept, removed = answered_since.apply(rows, as_at, reg["name"])
         answered_since.report(removed, reg["name"])
         total += len(removed)
 
@@ -70,11 +70,17 @@ def main() -> int:
         if not removed:
             continue
 
-        # A register that loses a third of its rows in one build is a matching
-        # bug, not a burst of government diligence. Refuse rather than publish.
-        if len(removed) > max(3, len(rows) // 4):
-            print(f"  {len(removed)} of {len(rows)} rows removed — implausible, "
-                  "refusing to write", file=sys.stderr)
+        # The guard is on the weak evidence, not on the total. Any number of
+        # removals is plausible when the Parliament's own link says the report
+        # was answered, or when someone checked it and wrote down why — a
+        # register catching up after a clear-out should not be blocked. What
+        # is never plausible is a pile of removals resting on nothing but
+        # matching words, which is how a matching bug would present.
+        guessed = [r for r in removed if r["removal_basis"] == "title match"]
+        if len(guessed) > max(2, len(rows) // 10):
+            print(f"  {len(guessed)} of {len(removed)} removals rest on a title "
+                  f"match alone, against {len(rows)} rows — implausible, refusing "
+                  "to write", file=sys.stderr)
             return 1
 
         tmp = led.with_suffix(".csv.tmp")

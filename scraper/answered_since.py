@@ -57,16 +57,29 @@ def _key(s: str) -> set[str]:
     return _toks(s) - NOISE
 
 
-def responses_since(as_at: date) -> list[dict]:
-    """Government response documents tabled in either chamber after `as_at`."""
+def responses_since(as_at: date, chamber: str = "") -> list[dict]:
+    """Government responses tabled after `as_at`, in the chamber that counts.
+
+    A response tabled in one chamber does not discharge the obligation in the
+    other. The President reports on responses "tabled in the Senate"; the
+    Speaker on responses presented to the House. Taking the later of the two
+    dates — which this did — could remove a joint report from the Senate
+    register on the strength of a House tabling the President had not recorded,
+    in the government's favour and disclosed nowhere.
+
+    chamber is "senate", "house", or "" for either (which is only right when
+    the caller has no register to answer to).
+    """
     path = DATA / "response_documents.csv"
     if not path.exists():
         return []
+    field = {"senate": ("tabled_senate",), "house": ("tabled_house",)}.get(
+        chamber, ("tabled_senate", "tabled_house"))
     cut = as_at.isoformat()
     out = []
     with open(path, newline="", encoding="utf-8-sig") as f:
         for r in csv.DictReader(f):
-            tabled = max(r["tabled_senate"], r["tabled_house"])
+            tabled = max(r[k] for k in field)
             if tabled > cut:
                 out.append({"response_id": r["id"], "title": r["title"],
                             "tabled": tabled[:10]})
@@ -102,12 +115,26 @@ def _links() -> dict[str, list[str]]:
     return out
 
 
-def finder(as_at: date):
+REPORT_NO = re.compile(r"\breport\s+(?:no\.?\s*)?(\d{1,4})\b", re.I)
+
+
+def _numbers(text: str) -> set[str]:
+    """The report numbers a title carries, if any.
+
+    "Report 505" and "Report 506" differ by one character, and the word test
+    cannot see it: tokens of three characters or fewer are dropped, so both
+    reduce to the same handful of words. A numbered report may only be matched
+    to a response naming the same number.
+    """
+    return set(REPORT_NO.findall(text))
+
+
+def finder(as_at: date, chamber: str = ""):
     """Returns find(row) -> the response that answers it, or None.
 
     `row` needs `title`, `committee`, and `report_otd_id` where one is known.
     """
-    responses = responses_since(as_at)
+    responses = responses_since(as_at, chamber)
     by_id = {r["response_id"]: r for r in responses}
     links = _links()
 
@@ -119,20 +146,28 @@ def finder(as_at: date):
 
         t = _key(row.get("title", ""))
         c = _key(row.get("committee", ""))
+        n = _numbers(row.get("title", ""))
         if not t:
             return None
         for r in responses:
             rt = _toks(r["title"])
-            if len(t & rt) / len(t) >= 0.8 and (not c or (c & rt)):
-                return dict(r, basis="title match")
+            if len(t & rt) / len(t) < 0.8 or (c and not (c & rt)):
+                continue
+            # A numbered report is only answered by a response naming that
+            # number, and a response that names a number is not answering a
+            # report that does not.
+            rn = _numbers(r["title"])
+            if (n or rn) and n != rn:
+                continue
+            return dict(r, basis="title match")
         return None
 
     return find
 
 
-def apply(rows: list[dict], as_at: date) -> tuple[list[dict], list[dict]]:
+def apply(rows: list[dict], as_at: date, chamber: str = "") -> tuple[list[dict], list[dict]]:
     """Split rows into those still outstanding and those answered since `as_at`."""
-    find = finder(as_at)
+    find = finder(as_at, chamber)
     kept, removed = [], []
     for row in rows:
         hit = find(row)
