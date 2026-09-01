@@ -25,8 +25,18 @@ jobs:
         run: python tests/test_parser.py
       - name: Build dataset
         run: python build_dataset.py --all
-      - name: Build the Ledger
-        run: python build_ledger_v2.py
+      - name: Build the Senate register
+        run: python build_ledger.py && python build_ledger_v2.py
+      - name: Build the House register
+        run: python build_house_ledger.py
+      # OTD's own report-to-response links, then the links from each register
+      # row to its report, then the removal of every report answered since the
+      # schedules were printed. The removal is the step that keeps an answered
+      # report off the register; it has to run every week, on both chambers.
+      - name: Link reports to their responses
+        run: python harvest_links.py && python link_reports.py
+      - name: Remove reports answered since the schedules
+        run: python prune_answered.py
       - name: Build backlog history
         run: python build_history.py
       - name: Commit on green

@@ -33,6 +33,10 @@ import sys
 HERE = pathlib.Path(__file__).resolve().parent
 DATA = HERE / "data"
 REPORTS = DATA / "committee_reports.csv"
+# Rows where the automatic match is wrong or impossible, corrected by hand with
+# the reasoning written down beside them. A wrong link is a visible error on a
+# public register, so these are kept in the data rather than in code.
+OVERRIDES = DATA / "report_links_manual.csv"
 LEDGERS = [DATA / "ledger_v2.csv", DATA / "house_ledger.csv"]
 
 # OTD's index starts here; nothing earlier can be linked.
@@ -135,6 +139,25 @@ def best_match(title: str, tabled: dt.date, reports: list[dict]) -> tuple[dict |
     return best, best_score
 
 
+def load_overrides(ledger: str, reports: list[dict]) -> dict[str, dict]:
+    if not OVERRIDES.exists():
+        return {}
+    out = {}
+    by_id = {r["id"]: r for r in reports}
+    with OVERRIDES.open(newline="", encoding="utf-8-sig") as f:
+        for r in csv.DictReader(f):
+            if r["ledger"] != ledger:
+                continue
+            hit = by_id.get(r["report_otd_id"])
+            if hit:
+                out[r["title"].strip()] = hit
+            else:
+                print(f"      override for {r['title'][:40]!r} names OTD "
+                      f"{r['report_otd_id']}, which is not in the report index",
+                      file=sys.stderr)
+    return out
+
+
 def link(path: pathlib.Path, reports: list[dict], verbose: bool) -> tuple[int, int, list]:
     if not path.exists():
         print(f"  {path.name}: not built yet, skipped")
@@ -144,10 +167,16 @@ def link(path: pathlib.Path, reports: list[dict], verbose: bool) -> tuple[int, i
     if not rows:
         return 0, 0, []
 
-    matched, unmatched = 0, []
+    overrides = load_overrides(path.name, reports)
+    matched, unmatched, overridden = 0, [], 0
     for row in rows:
         tabled = dt.date.fromisoformat(row["report_tabled"])
         hit, _ = best_match(row["title"], tabled, reports)
+        forced = overrides.get(row["title"].strip())
+        if forced is not None:
+            if forced is not hit:
+                overridden += 1
+            hit = forced
         row["report_otd_id"] = hit["id"] if hit else ""
         row["report_url"] = hit["url"] if hit else ""
         if hit:
@@ -165,7 +194,8 @@ def link(path: pathlib.Path, reports: list[dict], verbose: bool) -> tuple[int, i
 
     before = sum(1 for _, d in unmatched if d < COVERAGE_FROM)
     print(f"  {path.name}: {matched} of {len(rows)} linked; "
-          f"{len(unmatched)} not ({before} tabled before OTD's index begins)")
+          f"{len(unmatched)} not ({before} tabled before OTD's index begins)"
+          + (f"; {overridden} corrected by hand" if overridden else ""))
     if verbose and unmatched:
         for title, d in sorted(unmatched, key=lambda x: x[1]):
             era = "pre-2022" if d < COVERAGE_FROM else "in coverage — check"
