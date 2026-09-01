@@ -7,6 +7,15 @@ export interface Props {
 }
 const { points, peak } = Astro.props;
 
+/**
+ * The peak is a month-end point, so it is labelled with its own month rather
+ * than a month typed in by hand — which is how the annotation came to say
+ * April 2024 for a peak the data puts at the end of March.
+ */
+const peakLabel = new Date(`${peak.asAt}T00:00:00Z`).toLocaleDateString("en-AU", {
+  month: "long", year: "numeric", timeZone: "UTC",
+});
+
 // Geometry. One measure, one axis, no second scale.
 const W = 900, H = 340;
 const PAD = { top: 26, right: 92, bottom: 34, left: 46 };
@@ -88,7 +97,7 @@ const hoverData = points.map((p) => ({
         <text x={x(peak.asAt)} y={y(peak.backlog) - 14} class="callout mid">
           {fmt(peak.backlog)}
         </text>
-        <text x={x(peak.asAt)} y={y(peak.backlog) - 1} class="callout-sub mid">April 2024</text>
+        <text x={x(peak.asAt)} y={y(peak.backlog) - 1} class="callout-sub mid">{peakLabel}</text>
       </g>
 
       <g class="marker">

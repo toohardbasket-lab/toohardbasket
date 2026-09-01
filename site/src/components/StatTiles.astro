@@ -11,6 +11,12 @@
  * that wraps onto two lines does not shove its number out of line with the
  * others. Everything is centred and evenly padded — left-aligned numbers sat
  * hard against the divider and read as though they belonged to the tile before.
+ *
+ * The dividers are borders on the tiles, not a one-pixel grid gap over a ruled
+ * background. Seven figures do not divide evenly into a responsive row, and
+ * with the gap trick the empty cell at the end of the last row filled with the
+ * rule colour: a grey slab half the width of the page, which read as a broken
+ * layout rather than as a table with nothing more to say.
  */
 interface Stat {
   label: string;
@@ -24,7 +30,7 @@ interface Props {
 const { stats, note } = Astro.props;
 ---
 
-<dl class="stats">
+<dl class="stats" style={`--cols:${stats.length}`}>
   {stats.map((s) => (
     <div>
       <dt>{s.label}</dt>
@@ -35,21 +41,28 @@ const { stats, note } = Astro.props;
 {note && <p class="stats-note">{note}</p>}
 
 <style>
+  /*
+   * The column count is the number of figures, not whatever fits: the row is a
+   * set of six or seven readings of one register and it should be read across
+   * in one line wherever there is room. Narrower screens step it down to four
+   * and then three, and each step names which tiles start a row so the borders
+   * fall on the right edges — auto-fit cannot say where a row begins.
+   */
   .stats {
     display: grid;
-    gap: 1px;
     margin: 2rem 0 0;
-    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
-    background: var(--rule);
+    grid-template-columns: repeat(var(--cols, 6), 1fr);
+    background: var(--surface);
     border-block: 1px solid var(--rule);
   }
   .stats > div {
     display: flex;
     flex-direction: column;
-    background: var(--surface);
     padding: 1rem 0.85rem 1.1rem;
     text-align: center;
+    border-left: 1px solid var(--rule);
   }
+  .stats > div:first-child { border-left: 0; }
   .stats dt {
     font-size: 0.6875rem;
     letter-spacing: 0.09em;
@@ -66,16 +79,16 @@ const { stats, note } = Astro.props;
     font-variant-numeric: tabular-nums;
     line-height: 1.1;
   }
-  .stats-note {
-    margin: 0.75rem 0 0;
-    font-size: 0.8125rem;
-    line-height: 1.5;
-    color: var(--ink-muted);
-    max-width: 46rem;
+  @media (min-width: 30.01rem) and (max-width: 56rem) {
+    .stats { grid-template-columns: repeat(4, 1fr); }
+    .stats > div:nth-child(4n + 1) { border-left: 0; }
+    .stats > div:nth-child(n + 5) { border-top: 1px solid var(--rule); }
   }
   @media (max-width: 30rem) {
-    .stats { grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr)); }
-    .stats > div { padding: 0.85rem 0.6rem 0.9rem; }
+    .stats { grid-template-columns: repeat(3, 1fr); }
+    .stats > div { padding: 0.85rem 0.5rem 0.9rem; }
+    .stats > div:nth-child(3n + 1) { border-left: 0; }
+    .stats > div:nth-child(n + 4) { border-top: 1px solid var(--rule); }
     .stats dd { font-size: 1.3rem; }
   }
 </style>
