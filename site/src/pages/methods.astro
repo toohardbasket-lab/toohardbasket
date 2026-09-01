@@ -1,0 +1,337 @@
+---
+import Base from "../layouts/Base.astro";
+import { ledger, complianceDetail, closures, history, fmt, formatDate, inMonths } from "../lib/data";
+import { registerBySlug, plannedRegisters } from "../lib/registers";
+import { FORMS, formHref } from "../lib/forms";
+
+const senate = registerBySlug("senate")!;
+const rows = ledger();
+const comp = complianceDetail();
+const cl = closures();
+const observed = history().filter((p) => p.basis === "observed").at(-1);
+const asAt = formatDate(observed?.asAt ?? new Date().toISOString().slice(0, 10));
+
+---
+
+<Base
+  title="Methods"
+  description="What this register counts, where every figure comes from, what is deliberately excluded, and what the method cannot yet see."
+>
+  <section class="wrap intro">
+    <p class="eyebrow">Methods · as at {asAt}</p>
+    <h1>How this is built</h1>
+    <p class="lede measure">
+      Everything here is drawn from records the Parliament publishes itself. This page
+      states what is counted, what is left out and why, and — at the end — what the
+      method cannot yet see. Where a judgment is finely balanced, it is resolved in the
+      government’s favour, so that every number on this site is a floor rather than a
+      ceiling.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="unit">What is counted</h2>
+    <p>
+      The unit is an <strong>obligation</strong>: something a government undertook to
+      answer, owed to a body with standing to demand it, by a date that can be
+      established from the record. A register is admitted to this site only when all
+      three exist — a stated obligation, a claimant, and a date. That is what allows
+      this site to report rather than argue.
+    </p>
+    <p>
+      The Senate is the first claimant, not the only one. It has required {senate.rule}{" "}
+      since {senate.ruleSince}. A report leaves the register when a response is tabled,
+      whatever that response says — the register measures whether an answer was given,
+      never whether it was a good one.
+    </p>
+    <p class="note">
+      Planned registers: {plannedRegisters().map((r) => r.name).join("; ")}.
+      Each will be published as its own register with its own rule, not merged into this one.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="sources">Sources</h2>
+    <p>Six, all public:</p>
+    <ul>
+      <li>
+        <strong>The President of the Senate’s report</strong> on the status of government
+        responses to parliamentary committee reports, tabled twice a year. It lists every
+        committee report that requires a response and records, against each, whether a
+        response has been received. The authoritative statement of what is owed.
+      </li>
+      <li>
+        <strong>The Speaker’s schedule</strong> of the status of government responses to
+        committee reports, presented to the House at roughly six-monthly intervals. The
+        same instrument for the other chamber, and the basis of the House register.
+      </li>
+      <li>
+        <strong>The government’s own status report</strong> on responses to committee
+        reports, published for each chamber alongside the presiding officer’s and covering
+        the same date. It is where the sentence “the Government’s response is being
+        considered” is actually written. It is read to say what the government has said
+        about a report — never to add a report to a register or remove one.
+      </li>
+      <li>
+        <strong>The Senate’s live tracker</strong> of government responses, carried only for
+        reports tabled after the President’s report — the window he has not yet covered.
+      </li>
+      <li>
+        <strong>The Tabled Documents database</strong> (OTD), through its public API, for
+        committee reports and for the text of every government response.
+      </li>
+      <li>
+        <strong>The Senate’s own register of responses, 2000 to date</strong>, which supplies
+        the compliance record and the dates behind the history chart.
+      </li>
+    </ul>
+    <p>
+      The register follows the President. His report is fetched from the Tabled Documents
+      database, not typed in by hand, and its status column decides every row: a date means
+      the response has been received and the report leaves the register; a dash means nothing
+      has been received; “Interim” means an interim response; and “Interim*” means — in the
+      definition his own report gives — that the government has said only that “the
+      Government’s response is being considered”. Reports the President records as answered
+      are not published here as outstanding, and reports he lists are not filtered out by us.
+    </p>
+    <p>
+      <strong>The House register works the same way</strong>, from the Speaker’s schedule
+      rather than the President’s report. Its status column reads slightly differently —
+      a date, “no response to date”, “partial response received” or “fully responded”.
+      Two further differences matter. The Speaker states whether each report is past its deadline, and
+      we take his word for it rather than counting six months off a calendar, because the
+      2010 resolution excludes any period when the House was dissolved. And his schedule
+      is rolling: a report is dropped from later schedules once its response arrives, so a
+      report still listed against an older response date is still owed something, and is
+      published here as outstanding — as his own tally counts it. That tally, printed on
+      the schedule’s fourth page, is what our reading of the document is checked against
+      before the register is written.
+    </p>
+    <p>
+      The tracker cannot add to, subtract from or overrule any of that. It is carried for one
+      purpose: reports tabled after the President’s as-at date, which he has not yet reported
+      on. Those rows are marked as the tracker’s in the register’s source column, and on many
+      builds there are none. Where a response has been tabled since the President’s date, the
+      report is removed and the response named. The build refuses to write a file if the
+      President’s report comes back short, so a failed fetch cannot quietly shrink the
+      register.
+    </p>
+    <p class="note">
+      Currently {fmt(rows.length)} reports are outstanding, and {fmt(comp.assessable)} responses
+      tabled between {comp.firstYear} and {comp.lastYear} can be measured against the deadline.
+      A further {fmt(comp.excluded)} cannot: for those responses — almost all of them tabled
+      in {comp.excludedYears} — the register does not record when the report was tabled, so no
+      deadline can be computed. They are excluded rather than counted as failures. The
+      practical effect is that the first two years of the register are barely represented in
+      any compliance figure on this site.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="corpus">The response corpus</h2>
+    <p>
+      Separately from the Ledger, this site examines the text of every government response
+      tabled since mid-2022 — {fmt(cl.corpus)} documents — to ask what the response actually did.
+    </p>
+    <p>
+      The database category <em>Government response</em> is broader than that question. It
+      also holds documents that answer somebody other than a parliamentary committee, or
+      that are not responses at all. {fmt(cl.excluded)} documents are excluded by identifier,
+      each with a recorded reason:
+    </p>
+    <table class="register narrow">
+      <thead>
+        <tr>
+          <th scope="col">Excluded</th>
+          <th scope="col" class="num">Documents</th>
+        </tr>
+      </thead>
+      <tbody>
+        {cl.exclusions.map((e) => (
+          <tr>
+            <td>{e.label}</td>
+            <td class="num">{fmt(e.count)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="note">
+      All but one of these would otherwise have been counted as substantive responses, so
+      the exclusions raise the reported failure rate rather than lowering it. The list is
+      published in full, with reasons, in the dataset.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="closures">How responses are classified</h2>
+    <p>
+      One test is applied automatically, and it is a narrow one. A response is a
+      <strong> form-letter closure</strong> when it disposes of the committee’s recommendations
+      with a repeated template sentence and addresses none of them. Of {fmt(cl.corpus)} responses,
+      {" "}<strong>{fmt(cl.proforma)}</strong> are form-letter closures
+      ({(cl.rate * 100).toFixed(1)}%), {fmt(cl.partial)} use the template for some
+      recommendations but not all, and {fmt(cl.substantive)} do something else.
+    </p>
+    <p>
+      A stratified sample of 56 responses was checked by hand against the source documents,
+      deliberately weighted towards the classes most likely to be wrong. That review is what
+      produced the scope exclusions above, and the list of undetected forms below.
+    </p>
+    <h3>What this measure does not catch</h3>
+    <p>
+      A form-letter closure is only the most conspicuous way of answering without answering.
+      There are at least three others. None is detected automatically, and each is named
+      here with a document anyone can download and check.
+    </p>
+    <p>
+      They are undetected for one reason, and it is the same reason in all three cases.
+      A form-letter closure gives itself away because the template <em>repeats</em>: the same
+      sentence appears once per recommendation, and a machine can see that without knowing
+      anything about the report. The other three forms are written in ordinary prose that
+      varies from document to document, and nothing in the text marks them out. Read on its
+      own, a response that says “the Government notes the recommendations of the Committee”
+      and then describes a policy is indistinguishable from a real answer — unless you already
+      know what the committee recommended, and can check the policy against it.
+    </p>
+    <p>
+      That is the missing ingredient: the response alone is not enough evidence. You cannot
+      tell from its own words whether it disposed of five recommendations or forty, or whether
+      what it describes answers them. Only the report says what was owed. So these are not
+      gaps waiting for a cleverer pattern — a longer list of template phrases would only chase
+      the wording of the excuse, and there would be a fifth form next year. They are the same
+      gap, and it closes when the reports are parsed as well as the responses.
+    </p>
+    <ol class="forms">
+      {FORMS.map((f) => (
+        <li>
+          <p class="form-name">
+            {f.name}
+            <span class={f.detected ? "tag on" : "tag"}>{f.detected ? "detected" : "not detected"}</span>
+          </p>
+          <p class="form-what">{f.what}</p>
+          <p class="note">
+            <a href={formHref(f)}>{f.example}</a> — {f.exampleNote}
+          </p>
+        </li>
+      ))}
+    </ol>
+    <p>
+      This is why the published claim is stated narrowly. It is not that
+      {" "}{fmt(cl.proforma)} responses answered nothing; it is that {fmt(cl.proforma)} used a
+      form-letter closure that addressed no recommendation. The true figure for
+      “answered nothing” is higher, and the way to reach it is to ask a better question.
+    </p>
+    <p>
+      That question is <strong>coverage</strong>: for each recommendation a committee made,
+      did the response state a position on it? It is countable, it is neutral about whether
+      the position was right, and all four forms above score zero against it. Building it
+      requires parsing the reports for their recommendations as well as the responses. It is
+      the next substantial piece of work on this project, and it is not published yet.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="limits">Known limits and open questions</h2>
+    <p>
+      <strong>Which reports attract the three-month rule.</strong> The President’s report
+      sets out what it leaves out: reports on bills whose recommendations could only be dealt
+      with during debate on the bill, estimates and annual-report scrutiny, the Senate’s
+      domestic committees, Selection of Bills, and — usually — Public Works. Some reports the
+      President nonetheless lists appear to fall inside those categories. The two readings
+      cannot both be right. We have written to the Senate Procedure Office asking which is
+      correct and will publish the answer here. Until then the register follows the
+      President’s report, because that is the Senate’s own statement of what is owed.
+    </p>
+    <p>
+      <strong>Sitting days.</strong> A response can only be tabled when the chamber is sitting,
+      and three months can contain a long adjournment. That is a fair objection to the
+      compliance figure and we have not tested it against the sitting calendar. It can be
+      bounded instead: allow twice the deadline and
+      {" "}{(100 - comp.within180 * 100).toFixed(0)}% of responses still failed; allow a full
+      year and {(100 - comp.within365 * 100).toFixed(0)}% still failed. An adjournment can
+      explain part of the gap between three and six months. It cannot explain a median of
+      {" "}{fmt(comp.medianDays)} days.
+    </p>
+    <p>
+      <strong>Compliance counts only responses that arrived.</strong> Reports still waiting are
+      not in the denominator, so a report that is never answered never counts as a failure.
+      The compliance rate therefore overstates performance, as does every other figure here.
+    </p>
+    <p>
+      <strong>Attributing a late response to a government</strong> can be done two ways — by who
+      tabled the response, or by who was in office when the report was tabled — and they give
+      different orderings. Both are published on the
+      {" "}<a href="/senate/#compliance">Senate register</a>, side by side, because choosing one
+      would be choosing a result.
+    </p>
+    <p>
+      <strong>Interim reports are excluded</strong> from the outstanding count. Governments
+      ordinarily respond to a final report, and counting an interim report as separately
+      owed would overstate the backlog.
+    </p>
+    <p>
+      <strong>The report index is Senate-weighted.</strong> The harvest of committee reports
+      is drawn from the Tabled Documents database and covers Senate committees far more
+      completely than House committees. This does not affect the Senate register. It does
+      mean that where a response answers a House report, this site can identify the response
+      but often not the report behind it — a gap to close before the House register is published.
+    </p>
+    <p>
+      <strong>History before this site existed is reconstructed.</strong> Points on the
+      history chart marked <em>reconstructed</em> are recomputed from report and response
+      dates each time the dataset is rebuilt, so they can move if a source record is
+      corrected. Points marked <em>observed</em> are what the register showed on the day and
+      are never recomputed.
+    </p>
+    <p>
+      <strong>Refresh.</strong> The dataset is rebuilt by hand and every page shows the date
+      of the data it was built from. Automating the harvest is in progress; until it is
+      running, this site does not claim a fixed refresh interval.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="corrections">Corrections</h2>
+    <p>
+      If a row here is wrong, we want to know, and the fastest way to change it is to tell us.
+      Write to <a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a>{" "}
+      with the row and the source. Corrections are made within 24 hours of being confirmed and
+      are logged in the dataset’s history, so the record of what this site said, and when it
+      changed, stays public.
+    </p>
+    <p>
+      The full dataset and the code that builds it are in the
+      {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket">public repository</a> —
+      data under CC BY 4.0, code under the MIT licence. Every figure on this site is produced
+      by that code from those files. Nothing is typed in by hand.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .intro { padding-bottom: 1rem; }
+  h2 { margin-top: 2.75rem; }
+  h3 { font-size: 0.95rem; margin: 2rem 0 0.5rem; }
+  .note { font-size: 0.875rem; color: var(--ink-muted); }
+  ul, ol { padding-left: 1.1rem; margin: 0 0 1rem; }
+  li { margin-bottom: 0.6rem; }
+
+  ol.forms { list-style: decimal; padding-left: 1.4rem; margin-top: 1.25rem; }
+  ol.forms li { margin-bottom: 1.4rem; }
+  ol.forms p { margin: 0 0 0.25rem; }
+  .form-name { font-weight: 600; }
+  .form-what { color: var(--ink-secondary); font-size: 0.9375rem; }
+
+  .tag {
+    display: inline-block; margin-left: 0.5rem; padding: 0.05rem 0.4rem;
+    font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--ink-muted);
+    border: 1px solid var(--rule-strong); border-radius: 2px;
+    vertical-align: 0.1em;
+  }
+  .tag.on { color: var(--series-1); border-color: var(--series-1); }
+
+  table.register { margin-bottom: 1rem; }
+  table.register td { padding-right: 1rem; }
+  table.narrow { max-width: 100%; }
+</style>

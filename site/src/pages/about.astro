@@ -1,0 +1,213 @@
+---
+import Base from "../layouts/Base.astro";
+import { ABOUT, unfilled, inWords } from "../lib/about";
+import { REGISTERS, plannedRegisters } from "../lib/registers";
+
+// Unfilled facts render an unmissable draft banner rather than quietly shipping
+// as "«founder's full name»". src/lib/about.ts also exports validateAbout(),
+// which throws instead — swap it in here once the four values are filled, so a
+// later edit that blanks one cannot reach a live page.
+const missing = unfilled();
+
+const commitments = [
+  "No political party affiliation, membership or endorsement.",
+  "No government funding. If that ever changes, it will be disclosed here before the money is accepted.",
+  "No paid advocacy, consulting or lobbying on any matter this site covers.",
+  "No commercial products, sponsorships or advertising.",
+  "Every dataset published in full under a named open licence.",
+  "Every method published, including what it cannot see.",
+  "A corrections policy with a named contact and a stated turnaround.",
+];
+---
+
+<Base
+  title="About"
+  description="Who publishes The Too Hard Basket, who runs it, how it is funded, and every connection that could bear on its independence."
+>
+  <section class="wrap intro">
+    <p class="eyebrow">About</p>
+    <h1>Who publishes this, and why you can check</h1>
+    <p class="lede measure">
+      This site keeps a record of obligations governments owe to parliaments: reports
+      answered, reports not answered, and how long it took. A record like that is only
+      worth as much as the confidence you can place in whoever keeps it. So this page sets
+      out who that is, how it is paid for, and every connection that could reasonably bear
+      on it — including the one that gave the project its name.
+    </p>
+  </section>
+
+  {missing.length > 0 && (
+    <section class="wrap">
+      <p class="draft measure">
+        <strong>Draft — not for publication.</strong> This page still contains unfilled
+        placeholders: {missing.join(", ")}. Fill them in <code>src/lib/about.ts</code>.
+      </p>
+    </section>
+  )}
+
+  <section class="wrap measure">
+    <h2>The publisher</h2>
+    <p>
+      The Too Hard Basket is published by
+      {" "}<strong><a href={ABOUT.site}>{ABOUT.entityName}</a></strong> (APIA),
+      an incorporated association registered in {ABOUT.state} under the {ABOUT.act},
+      incorporation number {ABOUT.incorporationNumber}, ABN {ABOUT.abn}.
+      {" "}{ABOUT.acncRegistered ? "APIA is registered with the ACNC." : "APIA is not registered with the ACNC"}
+      {ABOUT.dgrEndorsed
+        ? " and is endorsed as a deductible gift recipient."
+        : " and is not endorsed as a deductible gift recipient, so donations to it are not tax deductible."}
+    </p>
+    <p>
+      APIA exists to publish and maintain independent datasets about Australian government
+      performance. The emphasis is on <em>maintain</em>. Public-interest projects often begin
+      with strong intent and then stop being updated, and a register that goes stale is worse
+      than no register, because people go on citing it. Putting the dataset under an
+      incorporated body rather than a personal account is an attempt to make it outlive the
+      enthusiasm of the person who started it.
+    </p>
+    <p>
+      APIA is governed by a committee of {inWords(ABOUT.committeeSize)}, of which
+      {" "}{ABOUT.founderName} is President.
+      {ABOUT.committeeNames.length > 0
+        ? ` The committee is ${ABOUT.committeeNames.join(", ")}.`
+        : " The membership is on the public register maintained by Consumer Protection (WA)."}
+      {" "}{ABOUT.fundingStatement} If that changes, this page will say so and name the source.
+      {" "}<a href={ABOUT.governancePage}>APIA's governance page</a> carries the constitution,
+      the legal status and the same disclosures.
+    </p>
+    {ABOUT.soloOperated && (
+      <>
+        <p>
+          <strong>In practice this is one person's work.</strong> The other two committee
+          members provide the governance an incorporated association requires; they do not
+          direct the project or review it day to day. That is worth saying plainly, because
+          “a committee of {inWords(ABOUT.committeeSize)}” implies more institutional weight
+          than exists, and a reader who worked it out later would be entitled to wonder what
+          else had been oversold.
+        </p>
+        <p>
+          It also matters less than it might. Nothing here asks you to trust the organisation.
+          Every figure is computed by published code from published data, every row links to
+          the official record it came from, and the {" "}<a href="/methods">methods page</a>{" "}
+          sets out what the method cannot see as well as what it can. If something on this
+          site is wrong, it is wrong in a way you can demonstrate — which is a better
+          guarantee than a larger committee would be.
+        </p>
+      </>
+    )}
+  </section>
+
+  <section class="wrap measure">
+    <h2>Disclosure</h2>
+    <p>
+      <strong>{ABOUT.founderName}, {ABOUT.founderRole}, volunteers in an unpaid capacity in
+      the electorate office of Kate Chaney MP, the independent member for Curtin.</strong>
+      He is not employed by her, not paid by her, and not directed by her.
+      APIA receives no funding, direction or editorial input from any parliamentarian, party
+      or candidate, and this site was not requested by any of them.
+    </p>
+    <p>
+      There is a second half to that disclosure, and it is the more important one, because it
+      concerns where the project came from. The idea for this register — and the phrase
+      “too hard basket” — came from watching Kate Chaney press the government about House
+      committee reports it had never answered. Several were answered afterwards. The
+      observation that followed was not about her: it was that a list of unanswered reports
+      only existed because one member happened to compile it, that it covered one chamber,
+      and that it stopped being maintained when the political moment passed. This site is an
+      attempt to keep that list permanently, for every chamber, so that making it does not
+      depend on anyone's attention.
+    </p>
+    <p class="note">
+      A disclosure volunteered reads as integrity. The identical fact discovered later reads
+      as concealment. That is the whole reason this section is near the top of the page rather
+      than in a footnote.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2>Independence, as commitments rather than adjectives</h2>
+    <p>
+      “Independent” is a word anyone can print. These are the specific things it means here,
+      and each of them is checkable or falsifiable:
+    </p>
+    <ul>
+      {commitments.map((c) => <li>{c}</li>)}
+    </ul>
+    <p>
+      It costs very little to run — a domain, a mailbox and a static host — and that is
+      deliberate: a register that needs money to survive eventually needs someone who has
+      money to like it.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2>What this site does not do</h2>
+    <p>
+      It does not say whether a committee's recommendation was a good one, or whether the
+      government was right to accept or reject it. Those are arguments, and there are plenty
+      of people having them. This site records only what the official record shows: that a
+      report was tabled, that a response was or was not tabled, and when.
+    </p>
+    <p>
+      It does not attribute motive. Where a response is absent, this site says no response is
+      recorded — not that one was refused, suppressed or avoided. Where a judgment is finely
+      balanced, it is resolved in the government's favour, so that every figure here is a floor
+      rather than a ceiling.
+    </p>
+    <p>
+      And it is not partisan, which is easier to demonstrate than to assert: the
+      {" "}<a href="/senate/#by-government">record by government</a> shows four governments of
+      both persuasions inside the same narrow band, published under both of the two defensible
+      ways of attributing a late response, so that neither can be quoted alone.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2>Corrections</h2>
+    <p>
+      If something here is wrong, it should be fixed, and the fastest way to make that happen
+      is to say so. Write to
+      {" "}<a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a>{" "}
+      with the row and the source. Corrections are made within 24 hours of being confirmed and
+      are logged publicly, so the record of what this site said, and when it changed, stays
+      visible.
+    </p>
+    <p>
+      Anything else: <a href="mailto:contact@toohardbasket.org.au">contact@toohardbasket.org.au</a>.
+      The dataset and the code that produces every figure are in the
+      {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket">public repository</a> —
+      data under CC BY 4.0, code under the MIT licence.
+      {" "}<a href="/methods">How the register is built</a>.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2>What comes next</h2>
+    <p>
+      The Senate was the first register and the House of Representatives is the second.
+      {" "}{plannedRegisters().length} more {plannedRegisters().length === 1 ? "is" : "are"} planned —
+      {" "}{plannedRegisters().map((r) => r.name).join("; ")} —
+      and each is published as its own register with its own rule rather than merged into
+      the others, because the obligation is different in each case and averaging them would
+      hide that. The Senate asks for three months and the House for six; a single combined
+      number would mean nothing.
+    </p>
+    <p class="note">
+      Registers live: {REGISTERS.filter((r) => r.status === "live").length}.
+      Planned: {plannedRegisters().length}.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .intro { padding-bottom: 1rem; }
+  h2 { margin-top: 2.75rem; }
+  .note { font-size: 0.875rem; color: var(--ink-muted); }
+  ul { padding-left: 1.1rem; margin: 0 0 1rem; }
+  li { margin-bottom: 0.45rem; }
+  code { font-size: 0.875em; }
+  .draft {
+    border: 1px solid var(--rule-strong); border-left: 3px solid var(--series-1);
+    padding: 0.85rem 1rem; font-size: 0.9375rem; background: var(--surface-sunken);
+  }
+</style>
