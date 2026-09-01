@@ -1,60 +1,106 @@
 ---
 import Base from "../layouts/Base.astro";
 import BacklogChart from "../components/BacklogChart.astro";
-import StatTiles from "../components/StatTiles.astro";
 import { LAUNCHED } from "../lib/launch";
-import { homeFigures, complianceDetail, humanDuration, inMonths, fmt, formatDate, formatDateShort } from "../lib/data";
+import {
+  homeFigures, complianceDetail, longestWaits, scheduleMeta,
+  humanDuration, inMonths, fmt, formatDate, formatDateShort,
+} from "../lib/data";
+import { registerBySlug } from "../lib/registers";
 
+/**
+ * The home page covers both chambers, and does it without adding them together.
+ *
+ * The two counts are made under different rules — three months against six —
+ * and on different scopes, because the President excludes categories of report
+ * the Speaker does not. A single combined figure would imply one standard where
+ * there are two, so the hero shows them side by side with the rule that governs
+ * each. The one thing that is genuinely the same in both chambers is what the
+ * government has said about the reports it has not answered, and that is the
+ * line between them.
+ */
 const f = homeFigures();
 const comp = complianceDetail();
-// The register's currency is the President's report, not the history series.
+const houseMeta = scheduleMeta("house");
+const senate = registerBySlug("senate")!;
+const house = registerBySlug("house")!;
 const asAt = formatDate(f.schedule.asAt);
 const pct = (comp.rate * 100).toFixed(1);
-// The strongest cell in the by-government table is the best one, not the worst:
-// if even the most favourable reading of the most favourable government is in
-// single figures, there is no partisan story to tell.
-const heroStats = [
-  { label: "Waiting over a year", value: fmt(f.overOneYear) },
-  { label: "Waiting over five years", value: fmt(f.overFiveYears) },
-  { label: "Median wait so far", value: `${fmt(f.medianWait)} days` },
-  { label: "Responses that met the deadline", value: `${pct}%` },
+const housePct = ((houseMeta.onTimeRate ?? 0) * 100).toFixed(0);
+const longest = longestWaits(10);
+const oldest = longest[0];
+
+/**
+ * The ten longest waits are, at the moment, all Senate reports — the Senate's
+ * backlog reaches back to 2014 and the House's only to 2020. A table headed
+ * "across both chambers" that shows one chamber looks broken, so say where the
+ * other one starts rather than leaving the reader to wonder.
+ */
+const allWaits = longestWaits(400);
+const firstHouseRank = allWaits.findIndex((r) => r.register === "house") + 1;
+const firstHouse = allWaits[firstHouseRank - 1];
+const chambersShown = new Set(longest.map((r) => r.register));
+
+const chambers = [
+  {
+    slug: "house",
+    count: f.house.outstanding,
+    name: "House of Representatives committee reports",
+    rule: "The House asks for a response within six months.",
+    overdue: f.house.overdue,
+    href: "/house/",
+    link: "The House register",
+    ruleSince: house.ruleSince,
+  },
+  {
+    slug: "senate",
+    count: f.outstanding,
+    name: "Senate committee reports",
+    rule: "The Senate asks for a response within three months.",
+    overdue: f.ledger.filter((r) => r.overdue).length,
+    href: "/senate/",
+    link: "The Senate register",
+    ruleSince: senate.ruleSince,
+  },
 ];
-const bestGov = Math.max(...comp.governments.flatMap((g) => [g.byResponse.rate, g.byReport.rate]));
 ---
 
 <Base
   title="Reports Parliament is still waiting on"
-  description="A running count of the committee reports the Australian Government has not responded to, how long each has waited, and how often the deadline is met."
+  description="A running count of the committee reports the Australian Government has not responded to, in both houses, how long each has waited, and how often the deadline is met."
 >
   <section class="wrap hero">
-    <p class="eyebrow">Senate committee reports · as at {asAt}</p>
-    <p class="figure">{fmt(f.outstanding)}</p>
-    <h1 class="claim">reports are waiting for a government response.</h1>
-    <p class="lede measure">
-      The longest has waited <strong>{humanDuration(f.oldest.daysOutstanding)}</strong>{" "}
-      — {fmt(f.oldest.daysOutstanding)} days since the {f.oldest.body} committee
-      tabled{" "}<em>{f.oldest.title}</em> on {formatDate(f.oldest.owedSince)}.
-    </p>
+    <p class="eyebrow">Awaiting a government response · as at {asAt}</p>
+    <h1 class="claim">Committee reports the government has not answered.</h1>
+
+    <div class="chambers">
+      {chambers.map((c) => (
+        <div class="chamber">
+          <p class="figure">{fmt(c.count)}</p>
+          <p class="chamber-name">{c.name}</p>
+          <p class="chamber-rule">
+            {c.rule} {fmt(c.overdue)} of them are past it.
+          </p>
+          <p class="chamber-link"><a href={c.href}>{c.link} →</a></p>
+        </div>
+      ))}
+    </div>
+
     <p class="gap measure">
-      The Senate asks for a response within <strong>three months</strong>.
-      The median answer takes <strong>{inMonths(comp.medianDays)}</strong>.
-    </p>
-    <p class="measure">
-      For <strong>{fmt(f.beingConsidered)}</strong> of them the government has said only
-      that its response is being considered. That is the President’s own record of it,
-      not our reading.
-    </p>
-    <p class="measure">
-      In the House of Representatives, where the government is asked for six months rather
-      than three, <strong>{fmt(f.house.outstanding)}</strong> reports are waiting and
-      {" "}{fmt(f.house.overdue)} of those are past the deadline.
+      For <strong>{fmt(f.beingConsidered)}</strong> of the Senate reports — and for
       {f.house.beingConsidered === f.house.outstanding
-        ? " For every one of them, the government says only that its response is being considered."
-        : ` For ${fmt(f.house.beingConsidered)} of them, the government says only that its response is being considered.`}
-      {" "}<a href="/house/">The House register →</a>
+        ? " every one of the "
+        : ` ${fmt(f.house.beingConsidered)} of the `}
+      <strong>{fmt(f.house.outstanding)}</strong> in the House — the only thing the
+      government has said is that its response is “being considered”. That is its own
+      phrase, from status reports it tables itself.
     </p>
 
-    <StatTiles stats={heroStats} />
+    <p class="lede measure">
+      The longest wait is <strong>{humanDuration(oldest.daysOutstanding)}</strong>{" "}
+      — {fmt(oldest.daysOutstanding)} days since the {oldest.body} committee tabled{" "}
+      <em>{oldest.title}</em> on {formatDate(oldest.owedSince)}.
+    </p>
   </section>
 
   <section class="wrap">
@@ -65,13 +111,20 @@ const bestGov = Math.max(...comp.governments.flatMap((g) => [g.byResponse.rate, 
     <div class="measure">
       <h2>The deadline is not a deadline</h2>
       <p>
-        Of {fmt(comp.assessable)} responses tabled between {comp.firstYear} and
-        {" "}{comp.lastYear}, {fmt(comp.onTime)} arrived inside the required three
-        months — {pct} per cent. The median took {fmt(comp.medianDays)} days.
+        Of {fmt(comp.assessable)} responses to Senate committee reports tabled between
+        {" "}{comp.firstYear} and {comp.lastYear}, {fmt(comp.onTime)} arrived inside the
+        required three months — {pct} per cent. The median took {fmt(comp.medianDays)} days.
         More than half took longer than a year.
       </p>
       <p>
-        This is not a story about one government. Attribute every late response to
+        The House keeps no comparable record going back that far. What the Speaker does
+        record is his verdict on each response he lists: of the
+        {" "}{fmt(houseMeta.answeredWithVerdict ?? 0)} in his most recent schedule,
+        {" "}{fmt(houseMeta.answeredOnTime ?? 0)} arrived within six months — {housePct} per
+        cent, over months rather than decades, so the two figures are not comparable.
+      </p>
+      <p>
+        None of this is a story about one government. Attribute every late response to
         whoever tabled it, or to whoever was in office when the report was tabled: the
         two readings disagree about which government performs worst, and on neither
         reading does any of the four reach one response in ten inside the deadline.
@@ -88,75 +141,111 @@ const bestGov = Math.max(...comp.governments.flatMap((g) => [g.byResponse.rate, 
       <h2>What this site is</h2>
       <p>
         When a parliamentary committee reports, the government is expected to say what it
-        will do about the recommendations. Often it does not, or does so years later.
-        There is no single public record of which reports are still waiting.
+        will do about the recommendations. The Senate has asked for that within three
+        months since {senate.ruleSince}; the House within six since {house.ruleSince}.
+        Often it does not come, or comes years later, and there is no single public record
+        of which reports are still waiting.
       </p>
       <p>
-        This is that record. It is built from the Parliament’s own registers and the
-        Tabled Documents database; each register follows its presiding officer — the
-        President of the Senate and the Speaker of the House both report on the status of
-        government responses, at roughly six-monthly intervals — and publishes what he
-        records. Every page shows the date of the data behind it. The whole dataset is{" "}
-        <a href="https://github.com/toohardbasket-lab/toohardbasket">public</a>.
-        Nothing here is an opinion about any recommendation — only whether an answer
-        was given, and when.
+        This is that record. Each register follows its presiding officer — the President of
+        the Senate and the Speaker of the House each report on the status of government
+        responses, at roughly six-monthly intervals — and publishes what he records,
+        including the reports he marks as answered. Every page shows the date of the
+        document behind it and says what that document does not cover. The whole dataset is{" "}
+        <a href="https://github.com/toohardbasket-lab/toohardbasket">public</a>, and
+        corrections are <a href="/corrections/">logged</a>.
+      </p>
+      <p>
+        Nothing here is an opinion about any recommendation — only whether an answer was
+        given, and when.
       </p>
     </div>
   </section>
 
   <section class="wrap longest">
     <h2>Longest outstanding</h2>
+    <p class="note measure">
+      Across both chambers. The counts are kept apart because the rules differ, but a
+      report waiting eleven years is waiting eleven years whichever house it was tabled in.
+      {chambersShown.size === 1 && firstHouse && (
+        <>
+          {" "}All ten are Senate reports: that backlog reaches back to 2014 and the
+          House’s only to {firstHouse.owedSince.slice(0, 4)}. The longest-waiting House
+          report — <em>{firstHouse.title}</em>, at {fmt(firstHouse.daysOutstanding)} days —
+          comes {firstHouseRank}th.
+        </>
+      )}
+    </p>
     <table class="register">
       <thead>
         <tr>
           <th scope="col" class="num">Waiting</th>
           <th scope="col">Report</th>
           <th scope="col">Committee</th>
+          <th scope="col">Chamber</th>
           <th scope="col" class="num">Tabled</th>
         </tr>
       </thead>
       <tbody>
-        {f.ledger.slice(0, 10).map((r) => (
+        {longest.map((r) => (
           <tr>
-            <td class="num">{fmt(r.daysOutstanding)} days</td>
-            <td>{r.title}</td>
+            <td class="num nowrap">{fmt(r.daysOutstanding)} days</td>
+            <td>{r.url ? <a href={r.url} rel="external">{r.title}</a> : r.title}</td>
             <td class="cmte">{r.body}</td>
-            <td class="num">{formatDateShort(r.owedSince)}</td>
+            <td class="cmte">{r.register === "house" ? "House" : "Senate"}</td>
+            <td class="num nowrap">{formatDateShort(r.owedSince)}</td>
           </tr>
         ))}
       </tbody>
     </table>
-    <p class="more"><a href="/senate/">All {fmt(f.outstanding)} reports in the Senate register →</a></p>
+    <p class="more">
+      <a href="/house/">All {fmt(f.house.outstanding)} in the House register →</a>{" "}
+      <a href="/senate/">All {fmt(f.outstanding)} in the Senate register →</a>
+    </p>
   </section>
 </Base>
 
 <style>
   .hero { padding-bottom: 2.5rem; }
-  /* Hero figure: one per view, >=48px, same sans, proportional figures. */
-  .figure {
-    font-size: clamp(3.5rem, 2rem + 8vw, 6.5rem);
-    line-height: 0.95; font-weight: 650; letter-spacing: -0.035em;
-    margin: 0.25rem 0 0.5rem;
-  }
   .claim {
-    font-size: clamp(1.25rem, 1rem + 1vw, 1.6rem); font-weight: 500;
-    max-width: 22ch; margin: 0 0 1.25rem;
+    font-size: clamp(1.375rem, 1rem + 1.2vw, 1.9rem); font-weight: 600;
+    max-width: 26ch; margin: 0.15rem 0 1.75rem;
   }
+
+  .chambers {
+    display: grid; gap: 1px;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    background: var(--rule);
+    border-block: 1px solid var(--rule);
+  }
+  .chamber { background: var(--surface); padding: 1.25rem 1.25rem 1.4rem; }
+  /* Hero figure: same sans, tabular figures, one per chamber. */
+  .figure {
+    font-size: clamp(3rem, 1.6rem + 6vw, 4.75rem);
+    line-height: 0.95; font-weight: 650; letter-spacing: -0.035em;
+    margin: 0 0 0.4rem; font-variant-numeric: tabular-nums;
+  }
+  .chamber-name { margin: 0 0 0.3rem; font-weight: 600; font-size: 1.0625rem; }
+  .chamber-rule { margin: 0; font-size: 0.875rem; color: var(--ink-muted); line-height: 1.5; }
+  .chamber-link { margin: 0.7rem 0 0; font-size: 0.875rem; }
+
   .hero .lede em { font-style: normal; color: var(--ink); }
   .gap {
     font-size: clamp(1.0625rem, 0.95rem + 0.5vw, 1.25rem);
-    line-height: 1.45; margin: 1.5rem 0 0;
+    line-height: 1.45; margin: 1.75rem 0 0;
     padding-left: 0.9rem; border-left: 2px solid var(--series-1);
   }
-
+  .hero .lede { margin-top: 1.25rem; }
 
   .two-up {
     display: grid; gap: 2rem 3rem; margin-block: 1rem 3rem;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   }
 
-  .longest h2 { margin-bottom: 0.9rem; }
+  .longest h2 { margin-bottom: 0.5rem; }
+  .longest .note { font-size: 0.875rem; color: var(--ink-muted); margin-bottom: 1rem; }
   .longest .cmte { color: var(--ink-secondary); font-size: 0.8125rem; }
   .longest td { padding-right: 1rem; }
-  .more { font-size: 0.875rem; margin-top: 1rem; }
+  .nowrap { white-space: nowrap; }
+  .more { font-size: 0.875rem; margin-top: 1rem; display: flex; gap: 1.5rem; flex-wrap: wrap; }
 </style>

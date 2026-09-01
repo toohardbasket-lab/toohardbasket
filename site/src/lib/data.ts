@@ -266,6 +266,19 @@ export function compliance() {
   };
 }
 
+/**
+ * The longest waits across both chambers, for the home page.
+ *
+ * Combining the two lists is fine and comparing their totals is not: a list of
+ * individual reports says nothing about which chamber is worse, and every row
+ * names its own. The counts stay separate everywhere else.
+ */
+export function longestWaits(n: number): Obligation[] {
+  return [...ledger("senate"), ...ledger("house")]
+    .sort((a, b) => b.daysOutstanding - a.daysOutstanding)
+    .slice(0, n);
+}
+
 /** The House, in the few numbers the home page needs from it. */
 export function houseFigures() {
   const rows = ledger("house");

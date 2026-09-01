@@ -49,11 +49,15 @@ const hoverData = points.map((p) => ({
 
 <figure class="chart">
   <figcaption>
-    <h2 id="backlog-title">Reports awaiting a government response, 2003–{last.asAt.slice(0, 4)}</h2>
+    <h2 id="backlog-title">
+      Senate committee reports awaiting a government response, 2003–{last.asAt.slice(0, 4)}
+    </h2>
     <p class="chart-note">
       Monthly. Reconstructed from the tabling dates of every report and every response
       in the Senate’s registers, so it counts what the record shows today — a floor,
-      not an exact historical count.{" "}
+      not an exact historical count. There is no equivalent for the House: it publishes
+      no register of responses going back that far, so its backlog can be shown as it
+      stands but not as it moved.{" "}
       <a href="/methods#backlog">How this is built</a>.
     </p>
   </figcaption>
