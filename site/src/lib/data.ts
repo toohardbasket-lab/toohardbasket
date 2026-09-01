@@ -98,6 +98,13 @@ export interface Obligation {
    */
   overdue: boolean;
   /**
+   * A joint committee's report, presented to both houses. Most of what is on
+   * both registers is joint, which is why neither is only its own chamber's.
+   */
+  joint: boolean;
+  /** The same report is listed on the other register too. Never add the counts. */
+  alsoOnOther: boolean;
+  /**
    * A response the presiding officer records but does not treat as discharging
    * the report — on the Speaker's schedule, one dated before the current
    * reporting period on a report he still lists as awaiting one.
@@ -141,6 +148,21 @@ export interface ScheduleMeta {
   recordsBeingConsidered: boolean;
   partial: number;
   overdue: number;
+  /** Joint committee reports, which the other register may also list. */
+  jointCommittee: number;
+  ownChamber: number;
+  /** Reports on both registers at once. The same for either register. */
+  onBothRegisters: number;
+  /** Of those, how many are past the deadline on one register but not the other. */
+  deadlineDiffers: number;
+  /**
+   * Reports the Speaker records as answered and the President still lists as
+   * outstanding. Two records of one obligation, kept by the two presiding
+   * officers of the same Parliament, disagreeing about whether it is
+   * discharged.
+   */
+  officersDisagree: number;
+  officersDisagreeReports: string[];
   notYetDue: number;
   rows: number;
   fromSchedule: number;
@@ -155,11 +177,29 @@ export interface ScheduleMeta {
   /** Where the being-considered count came from, when it is a second document. */
   beingConsideredSource?: string;
   beingConsideredTabled?: string;
+  /**
+   * The date the government's status report is as at, which is NOT the date of
+   * the register. The President's report is as at 30 June and his "Interim*"
+   * marks come from a government report as at 31 March; presenting both as one
+   * date would be dating a March fact June.
+   */
+  beingConsideredAsAt?: string;
+  /** House only: how many reports the government's own report lists. */
+  governmentReportListed?: number;
+  /**
+   * House only: how many reports fall into each of the three statuses the
+   * government's report can give. An unanswered report can only be "being
+   * considered", which is why that count is not on its own a finding.
+   */
+  governmentStatuses?: { answered: number; considered: number; full: number; other: number };
   governmentReportMatched?: number;
   /** House only: the presiding officer's own on-time verdict, this period. */
   answeredOnTime?: number;
   answeredWithVerdict?: number;
   onTimeRate?: number;
+  /** What counting his rows gives, where that differs from his own tally. */
+  rowsMarkedOnTime?: number;
+  onTimeGap?: number;
 }
 
 export function scheduleMeta(register: RegisterSlug = "senate"): ScheduleMeta {
@@ -176,6 +216,12 @@ export function scheduleMeta(register: RegisterSlug = "senate"): ScheduleMeta {
     recordsBeingConsidered: m.being_considered_recorded ?? true,
     partial: m.partial_response,
     overdue: m.overdue,
+    jointCommittee: m.joint_committee ?? 0,
+    ownChamber: m.own_chamber ?? 0,
+    onBothRegisters: m.on_both_registers ?? 0,
+    deadlineDiffers: m.deadline_differs_across_registers ?? 0,
+    officersDisagree: m.officers_disagree ?? 0,
+    officersDisagreeReports: m.officers_disagree_reports ?? [],
     notYetDue: m.not_yet_due,
     rows: m.rows,
     fromSchedule: m.from_schedule ?? m.rows,
@@ -187,10 +233,15 @@ export function scheduleMeta(register: RegisterSlug = "senate"): ScheduleMeta {
     outOfPeriod: m.response_out_of_period,
     beingConsideredSource: m.being_considered_source,
     beingConsideredTabled: m.being_considered_tabled,
+    beingConsideredAsAt: m.being_considered_as_at,
+    governmentReportListed: m.government_report_listed,
+    governmentStatuses: m.government_report_statuses,
     governmentReportMatched: m.government_report_matched,
     answeredOnTime: m.answered_on_time,
     answeredWithVerdict: m.answered_with_a_verdict,
     onTimeRate: m.on_time_rate,
+    rowsMarkedOnTime: m.rows_marked_on_time,
+    onTimeGap: m.on_time_gap,
   };
 }
 
@@ -208,6 +259,8 @@ export function ledger(register: RegisterSlug = "senate"): Obligation[] {
       beingConsidered: r.being_considered === "True",
       partial: r.partial_response === "True",
       overdue: r.overdue === "True",
+      joint: r.joint_committee === "True",
+      alsoOnOther: r.also_on_other_register === "True",
       earlierResponse: r.response_out_of_period || null,
       url: r.report_url || null,
       source: r.source,
@@ -403,6 +456,46 @@ export function closures(): ClosureFigures {
 
 // ---------------------------------------------------------------- corrections
 
+/**
+ * The reports removed from a register because the government answered them
+ * after the schedule was printed.
+ *
+ * A schedule is a snapshot and the register is not: between the presiding
+ * officer's as-at date and today the government keeps tabling responses, and
+ * every one of those is a report the register would otherwise show as
+ * unanswered. Removing them silently is not enough — the count on the page
+ * would then differ from the presiding officer's own and nothing would say
+ * why — so each removal is published with the response that caused it.
+ */
+export interface AnsweredSince {
+  title: string;
+  body: string;
+  owedSince: string;
+  responseId: string;
+  responseTabled: string;
+  responseTitle: string;
+  basis: string;
+  url: string;
+}
+
+export function answeredSince(register: RegisterSlug): AnsweredSince[] {
+  const file = `answered_since_${register}.csv`;
+  if (!fs.existsSync(path.join(DATA_DIR, file))) return [];
+  return read(file)
+    .filter((r) => r.response_id)
+    .map((r) => ({
+      title: r.title,
+      body: r.committee,
+      owedSince: r.report_tabled,
+      responseId: r.response_id,
+      responseTabled: r.response_tabled,
+      responseTitle: r.response_title,
+      basis: r.removal_basis,
+      url: `https://www.aph.gov.au/Parliamentary_Business/Tabled_Documents/${r.response_id}`,
+    }))
+    .sort((a, b) => a.responseTabled.localeCompare(b.responseTabled));
+}
+
 export interface Correction {
   date: string;        // ISO date the change was made
   page: string;        // where it appeared
@@ -439,7 +532,26 @@ export function corrections(): Correction[] {
  *  - reports still awaiting a response are not in the denominator at all, so
  *    this measures only responses that eventually arrived;
  *  - rows without a report date are excluded rather than counted as failures.
+ *
+ * The deadline is three calendar months from tabling, not ninety days. The
+ * Senate's 1973 resolution says three months, the President's own report says
+ * three months, and his "Response provided within 3 months" column marks a
+ * 92-day response Yes. Testing 90 days instead counted eleven responses late
+ * that the Senate counts on time — an error running against the government,
+ * on a site whose whole claim is that every figure it gives is a floor.
  */
+
+/** Days from a tabling date to three calendar months later. 89 to 92. */
+function deadlineDays(tabled: string): number {
+  if (!tabled) return 92;              // no report date: the longest, in the
+  const d = new Date(`${tabled}T00:00:00Z`);   // government's favour
+  const due = new Date(d);
+  due.setUTCMonth(due.getUTCMonth() + 3);
+  // JS rolls 30 November + 3 months to 2 March; the Senate would read the last
+  // day of February, so pull it back when the day of the month has moved.
+  if (due.getUTCDate() !== d.getUTCDate()) due.setUTCDate(0);
+  return Math.round((due.getTime() - d.getTime()) / 86_400_000);
+}
 const GOVERNMENTS: { name: string; from: string; to: string }[] = [
   { name: "Howard", from: "1996-03-11", to: "2007-12-03" },
   { name: "Rudd / Gillard", from: "2007-12-03", to: "2013-09-18" },
@@ -447,13 +559,18 @@ const GOVERNMENTS: { name: string; from: string; to: string }[] = [
   { name: "Albanese", from: "2022-05-23", to: "2099-01-01" },
 ];
 
-const BUCKETS: { label: string; lo: number; hi: number }[] = [
-  { label: "Within 90 days — the rule", lo: 0, hi: 90 },
-  { label: "91 days to 6 months", lo: 91, hi: 180 },
-  { label: "6 months to a year", lo: 181, hi: 365 },
-  { label: "1 to 2 years", lo: 366, hi: 730 },
-  { label: "2 to 5 years", lo: 731, hi: 1826 },
-  { label: "Over 5 years", lo: 1827, hi: Infinity },
+/**
+ * The first bucket is the rule itself, which is a different number of days for
+ * each report, so every bucket is a test on the row rather than a day range.
+ */
+type Timed = { days: number; deadline: number };
+const BUCKETS: { label: string; test: (r: Timed) => boolean }[] = [
+  { label: "Within three months — the rule", test: (r) => r.days <= r.deadline },
+  { label: "Three months to six", test: (r) => r.days > r.deadline && r.days <= 180 },
+  { label: "6 months to a year", test: (r) => r.days > 180 && r.days <= 365 },
+  { label: "1 to 2 years", test: (r) => r.days > 365 && r.days <= 730 },
+  { label: "2 to 5 years", test: (r) => r.days > 730 && r.days <= 1826 },
+  { label: "Over 5 years", test: (r) => r.days > 1826 },
 ];
 
 export interface ComplianceDetail {
@@ -480,7 +597,7 @@ export function complianceDetail(): ComplianceDetail {
   const rows = all
     .map((r) => ({
       days: num(r.days_to_respond),
-      deadline: num(r.deadline_days),
+      deadline: deadlineDays(r.report_last_tabled),
       responseTabled: r.response_tabled,
       reportTabled: r.report_last_tabled,
     }))
@@ -503,7 +620,7 @@ export function complianceDetail(): ComplianceDetail {
   return {
     assessable: n,
     onTime: rows.filter((r) => r.days <= r.deadline).length,
-    rate: share((d) => d <= 90),
+    rate: rows.filter((r) => r.days <= r.deadline).length / n,
     medianDays: Math.round(median(rows.map((r) => r.days))),
     within180: share((d) => d <= 180),
     within365: share((d) => d <= 365),
@@ -514,7 +631,7 @@ export function complianceDetail(): ComplianceDetail {
       exYears.length < 2 ? exYears.join("")
       : `${exYears.slice(0, -1).join(", ")} and ${exYears[exYears.length - 1]}`,
     buckets: BUCKETS.map((b) => {
-      const count = rows.filter((r) => r.days >= b.lo && r.days <= b.hi).length;
+      const count = rows.filter(b.test).length;
       return { label: b.label, count, share: count / n };
     }),
     governments: GOVERNMENTS.map((g) => ({

@@ -243,6 +243,14 @@ const asAt = formatDate(observed?.asAt ?? new Date().toISOString().slice(0, 10))
       President’s report, because that is the Senate’s own statement of what is owed.
     </p>
     <p>
+      <strong>The deadline is three calendar months, not ninety days.</strong> The Senate's
+      1973 resolution says three months and the President's report says three months, and
+      his own “Response provided within 3 months” column marks a 92-day response as within
+      time. Ninety days is a shorter test than the Senate applies, and using it counted
+      eleven responses late that the Senate counts on time. Every figure here is meant to
+      be a floor, so the rule is read as the Senate reads it.
+    </p>
+    <p>
       <strong>Sitting days.</strong> A response can only be tabled when the chamber is sitting,
       and three months can contain a long adjournment. That is a fair objection to the
       compliance figure and we have not tested it against the sitting calendar. It can be
@@ -265,16 +273,20 @@ const asAt = formatDate(observed?.asAt ?? new Date().toISOString().slice(0, 10))
       would be choosing a result.
     </p>
     <p>
-      <strong>Interim reports are excluded</strong> from the outstanding count. Governments
-      ordinarily respond to a final report, and counting an interim report as separately
-      owed would overstate the backlog.
+      <strong>Interim reports are marked, not excluded.</strong> A committee's own interim
+      report is listed by both presiding officers as awaiting a response, so it is here —
+      taking it out would be this site overruling the record it publishes. It is flagged
+      instead, because a government that answers only the final report has not necessarily
+      left anything unanswered, and a reader counting the backlog should be able to see how
+      much of it is interim.
     </p>
     <p>
       <strong>The report index is Senate-weighted.</strong> The harvest of committee reports
       is drawn from the Tabled Documents database and covers Senate committees far more
       completely than House committees. This does not affect the Senate register. It does
       mean that where a response answers a House report, this site can identify the response
-      but often not the report behind it — a gap to close before the House register is published.
+      but often not the report behind it. That is why some report titles on the House
+      register are not links: a wrong link is worse than none.
     </p>
     <p>
       <strong>History before this site existed is reconstructed.</strong> Points on the
@@ -284,9 +296,13 @@ const asAt = formatDate(observed?.asAt ?? new Date().toISOString().slice(0, 10))
       are never recomputed.
     </p>
     <p>
-      <strong>Refresh.</strong> The dataset is rebuilt by hand and every page shows the date
-      of the data it was built from. Automating the harvest is in progress; until it is
-      running, this site does not claim a fixed refresh interval.
+      <strong>Refresh.</strong> A scheduled job rebuilds the dataset every Tuesday morning:
+      it re-reads both presiding officers' schedules, rebuilds both registers, removes any
+      report the government has since answered, and commits the result, which republishes
+      the site. If any step fails, nothing is committed and the previous build stays up.
+      Every page shows the date of the data behind it. Between those runs the figures do not
+      move, so a number quoted from this site on a Wednesday is the number it showed on the
+      Tuesday. A response tabled in between will not appear until the next run.
     </p>
   </section>
 

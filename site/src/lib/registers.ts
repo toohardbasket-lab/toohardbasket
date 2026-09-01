@@ -14,7 +14,12 @@
  */
 export interface Register {
   slug: string;        // URL segment: "senate" -> /senate/
-  name: string;        // in prose
+  /**
+   * In prose. Both live registers say "and joint" because most of what is on
+   * them is joint committee reports, presented to both houses and listed by
+   * both presiding officers — the President's own report is titled that way.
+   */
+  name: string;
   shortName: string;   // nav label
   claimant: string;    // who is owed the answer
   rule: string;        // the obligation, stated plainly
@@ -28,7 +33,7 @@ export interface Register {
 export const REGISTERS: Register[] = [
   {
     slug: "house",
-    name: "House of Representatives committee reports",
+    name: "House of Representatives and joint committee reports",
     shortName: "House",
     claimant: "the House of Representatives",
     rule: "a response within six months of the report being tabled",
@@ -37,7 +42,7 @@ export const REGISTERS: Register[] = [
   },
   {
     slug: "senate",
-    name: "Senate committee reports",
+    name: "Senate and joint committee reports",
     shortName: "Senate",
     claimant: "the Senate",
     rule: "a response within three months of the report being tabled",

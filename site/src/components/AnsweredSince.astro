@@ -1,0 +1,77 @@
+---
+/**
+ * What has left the register since the schedule was printed.
+ *
+ * The presiding officer's schedule is months old by the time anyone reads it,
+ * and the government keeps tabling responses in the meantime. Those reports are
+ * not published as waiting — but the register's count then differs from the
+ * schedule's own, so the difference is set out here, report by report, with the
+ * response that caused it and a link to the document itself.
+ *
+ * This is the error the site can least afford: publishing a report as
+ * unanswered after it has been answered. Showing the removals is how a reader
+ * checks that the step ran, and how anyone who thinks a row should still be
+ * here can say so.
+ */
+import { formatDateShort, fmt } from "../lib/data";
+import type { AnsweredSince } from "../lib/data";
+
+interface Props {
+  rows: AnsweredSince[];
+  officer: string;   // "the President" / "the Speaker"
+}
+const { rows, officer } = Astro.props;
+---
+
+{rows.length > 0 && (
+  <details class="answered">
+    <summary>
+      {fmt(rows.length)} {rows.length === 1 ? "report has" : "reports have"} been answered
+      since {officer} printed the schedule, and {rows.length === 1 ? "is" : "are"} not
+      published here as waiting
+    </summary>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Report</th>
+          <th scope="col">Committee</th>
+          <th scope="col" class="num">Tabled</th>
+          <th scope="col" class="num">Response tabled</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((r) => (
+          <tr>
+            <td>{r.title}</td>
+            <td class="cmte">{r.body}</td>
+            <td class="num nowrap">{formatDateShort(r.owedSince)}</td>
+            <td class="num nowrap">
+              <a href={r.url} rel="external">{formatDateShort(r.responseTabled)}</a>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </details>
+)}
+
+<style>
+  .answered { margin: 1rem 0 1.5rem; font-size: 0.875rem; }
+  .answered summary {
+    cursor: pointer; color: var(--ink-secondary); line-height: 1.5;
+    max-width: 62ch;
+  }
+  .answered summary:hover { color: var(--ink); }
+  .answered table { margin-top: 0.9rem; width: 100%; border-collapse: collapse; }
+  .answered th, .answered td {
+    text-align: left; padding: 0.4rem 1rem 0.4rem 0;
+    border-bottom: 1px solid var(--rule); vertical-align: top;
+  }
+  .answered th {
+    font-size: 0.6875rem; letter-spacing: 0.09em; text-transform: uppercase;
+    color: var(--ink-muted); font-weight: 600;
+  }
+  .answered .num { font-variant-numeric: tabular-nums; }
+  .answered .cmte { color: var(--ink-secondary); font-size: 0.8125rem; }
+  .answered .nowrap { white-space: nowrap; }
+</style>

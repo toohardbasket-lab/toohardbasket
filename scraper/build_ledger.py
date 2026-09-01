@@ -25,7 +25,7 @@ prints a summary.
 """
 from __future__ import annotations
 import csv, json, re, sys, pathlib, urllib.request
-from datetime import date
+from datetime import date, datetime
 from collections import defaultdict
 import pdfplumber
 
@@ -60,6 +60,15 @@ HEADERS = {"Content-Type": "application/json", "Accept": "application/json",
 SCHEDULE_TITLE = re.compile(
     r"president.{0,3}s report to the senate on the status of government responses", re.I)
 AS_AT = re.compile(r"as at (\d{1,2}) ([A-Za-z]+) (\d{4})", re.I)
+
+# Page 2 of the President's report names the document his "Interim*" marks come
+# from, and its date is not his own. His register is as at 30 June; the marks
+# are as at whatever the government last reported. Publishing both dates as one
+# would be dating a March fact June.
+GOVT_REPORT = re.compile(
+    r"Government report on the Status of responses to parliamentary committee reports\s+as at\s+"
+    r"(\d{1,2}\s+[A-Za-z]+\s+\d{4})[^.]*?tabled in the Senate on\s+(\d{1,2}\s+[A-Za-z]+\s+\d{4})",
+    re.I | re.S)
 MONTHS = {m.lower(): i for i, m in enumerate(
     ["January", "February", "March", "April", "May", "June", "July", "August",
      "September", "October", "November", "December"], start=1)}
@@ -149,6 +158,75 @@ def _strip_footnote(words: list[str]) -> list[str]:
     return words
 
 
+def heading_texts(page) -> set[str]:
+    """Every committee heading on the page, as text, read from the font.
+
+    A committee heading and the second line of a report title look identical to
+    a table extractor: both are a single populated cell with no date in the
+    row. Treating every such row as a heading is what produced committees
+    called "news media—Second interim report" and a report called "Paying the
+    price: The cost of a crisis on" with its second line missing.
+
+    In the President's report the headings are bold and the titles are not, so
+    the font settles it. Headings run over one, two or three lines, and the
+    table extractor sometimes returns those lines as separate rows and
+    sometimes merged into one cell, so every run of consecutive lines within a
+    bold block is offered as a match.
+    """
+    lines: list[tuple[float, list[str]]] = []
+    for w in page.extract_words(extra_attrs=["fontname"]):
+        if "Bold" not in w["fontname"]:
+            continue
+        if lines and abs(w["top"] - lines[-1][0]) < 3:
+            lines[-1][1].append(w["text"])
+        else:
+            lines.append((w["top"], [w["text"]]))
+
+    blocks: list[list[str]] = []
+    last_top = None
+    for top, words in lines:
+        text = " ".join(words)
+        # Lines of one heading sit a single line-height apart; a bigger gap is
+        # a different heading (or the bold table header).
+        if blocks and last_top is not None and top - last_top < 20:
+            blocks[-1].append(text)
+        else:
+            blocks.append([text])
+        last_top = top
+
+    out: set[str] = set()
+    for block in blocks:
+        for i in range(len(block)):
+            for j in range(i + 1, len(block) + 1):
+                out.add(" ".join(block[i:j]))
+    return out
+
+
+def government_report_dates(pdf_path: str) -> tuple[str, str]:
+    """When the government last said what it is considering, and when it said it.
+
+    The President's "Interim*" marks are not his own finding: page 2 says the
+    report "should be read in conjunction with the Government report on the
+    Status of responses ... as at 31 March 2026 ... tabled in the Senate on 16
+    April 2026", and that "Interim*" identifies the responses that report calls
+    "being considered". So the register is as at one date and its being-
+    considered column as at an earlier one, and the site has to say so.
+    """
+    with pdfplumber.open(pdf_path) as pdf:
+        text = " ".join((page.extract_text() or "") for page in pdf.pages[:3])
+    text = re.sub(r"\s+", " ", text)
+    m = GOVT_REPORT.search(text)
+    if not m:
+        return "", ""
+    def iso(s: str) -> str:
+        d = datetime.strptime(s.strip(), "%d %B %Y").date()
+        return d.isoformat()
+    try:
+        return iso(m.group(1)), iso(m.group(2))
+    except ValueError:
+        return "", ""
+
+
 def parse_schedule(pdf_path: str, schedule_date: date) -> list[dict]:
     """Read the President's report as a table, and read its status column.
 
@@ -186,6 +264,7 @@ def parse_schedule(pdf_path: str, schedule_date: date) -> list[dict]:
             table = page.extract_table()
             if not table:
                 continue
+            headings = heading_texts(page)
             for raw in table:
                 cells = [(c or "").replace("\n", " ").strip() for c in raw]
                 filled = [c for c in cells if c]
@@ -197,16 +276,24 @@ def parse_schedule(pdf_path: str, schedule_date: date) -> list[dict]:
                 at = next((i for i, c in enumerate(filled)
                            if DATE_RE_TABLE.match(c)), None)
                 if at is None or at == 0:
-                    if len(filled) == 1:
+                    if len(filled) != 1:
+                        continue
+                    text = filled[0]
+                    if text in headings:
                         # A committee heading, which may run over two rows
                         # ("Administration of Sports Grants—" / "Senate
                         # Select"). Join them; start again after a report row.
                         if heading_open:
                             sep = "" if committee.endswith(("\u2014", "\u2013", "-")) else " "
-                            committee = (committee + sep + filled[0]).strip()
+                            committee = (committee + sep + text).strip()
                         else:
-                            committee = filled[0]
+                            committee = text
                         heading_open = True
+                    elif rows:
+                        # The rest of the previous report's title, wrapped onto
+                        # the next line of the table.
+                        sep = "" if rows[-1]["title"].endswith(("\u2014", "\u2013", "-")) else " "
+                        rows[-1]["title"] = (rows[-1]["title"] + sep + text).strip()
                     continue
                 heading_open = False
 
@@ -492,6 +579,9 @@ def main(argv):
         "being_considered_at_schedule": sum(1 for r in ledger if r["being_considered"]),
         "partial_response_at_schedule": sum(1 for r in ledger if r["partial_response"]),
     }
+    considered_as_at, considered_tabled = government_report_dates(pdf_path)
+    meta["being_considered_as_at"] = considered_as_at
+    meta["being_considered_tabled"] = considered_tabled
     if info:
         meta.update({"otd_id": info["doc_id"], "otd_url": info["url"],
                      "title": info["title"], "tabled": info["tabled"]})
