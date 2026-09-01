@@ -170,7 +170,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       listed here without a link rather than with a guessed one.
     </p>
     <RegisterControls target="senate-register" noun="reports" />
-    <table class="register" id="senate-register">
+    <table class="register stacks" id="senate-register">
       <thead>
         <tr>
           <th scope="col" class="num">Waiting</th>
@@ -189,17 +189,17 @@ const byCommittee = [...rows.reduce((m, r) => {
             data-committee={r.body}
             data-search={`${r.title} ${r.body} ${statusOf(r)} ${formatDateShort(r.owedSince)} ${r.owedSince}`.toLowerCase()}
           >
-            <td class="num nowrap">
+            <td class="num nowrap c-wait">
               {fmt(r.daysOutstanding)} days
               <span class="human">{humanDuration(r.daysOutstanding)}</span>
             </td>
-            <td>{r.url
+            <td class="c-title">{r.url
               ? <a href={r.url} rel="external">{r.title}</a>
               : r.title}</td>
-            <td class="cmte">{r.body}</td>
-            <td class="num nowrap">{formatDateShort(r.owedSince)}</td>
-            <td class="src">{statusOf(r)}</td>
-            <td class="src">
+            <td class="cmte c-meta">{r.body}</td>
+            <td class="num nowrap c-meta" data-label="Tabled">{formatDateShort(r.owedSince)}</td>
+            <td class="src c-meta" data-label="Status">{statusOf(r)}</td>
+            <td class="src c-meta" data-label="Source">
               {r.source.startsWith("presidents")
                 ? <a href={sched.url} rel="external">President’s report</a>
                 : "Senate tracker"}

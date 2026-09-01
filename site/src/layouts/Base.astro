@@ -149,6 +149,49 @@ const SITE = "https://toohardbasket.org.au";
         font-variant-numeric: tabular-nums; }
       table.register td:last-child, table.register th:last-child { padding-right: 0; }
 
+      /*
+       * The registers on a phone. Six columns in 390 pixels pushed the table to
+       * 640 and took the whole page sideways with it: the title wrapped to five
+       * lines, the committee was cut off at the edge, and the status — which is
+       * the point of the row — was off-screen entirely. Journalists read pitches
+       * on phones.
+       *
+       * Below 46rem each row becomes a block: the report first, then how long it
+       * has waited, then a line of labelled detail. Same HTML, same order in the
+       * source, reordered with flex so the reading order is right.
+       */
+      @media (max-width: 46rem) {
+        table.register.stacks,
+        table.register.stacks tbody,
+        table.register.stacks tr,
+        table.register.stacks td { display: block; width: auto; }
+        table.register.stacks thead { display: none; }
+        table.register.stacks tr {
+          display: flex; flex-direction: column;
+          padding: 0.9rem 0 1rem; border-bottom: 1px solid var(--rule);
+        }
+        table.register.stacks td {
+          border: 0; padding: 0; text-align: left; white-space: normal;
+        }
+        table.register.stacks td.c-title {
+          order: 1; font-weight: 600; line-height: 1.4; margin-bottom: 0.3rem;
+        }
+        table.register.stacks td.c-wait {
+          order: 2; font-variant-numeric: tabular-nums;
+        }
+        table.register.stacks td.c-wait .human { display: inline; }
+        table.register.stacks td.c-wait .human::before { content: " · "; }
+        table.register.stacks td.c-meta {
+          order: 3; font-size: 0.8125rem; color: var(--ink-secondary);
+          margin-top: 0.15rem;
+        }
+        table.register.stacks td.c-meta[data-label]::before {
+          content: attr(data-label) " ";
+          font-size: 0.6875rem; letter-spacing: 0.09em; text-transform: uppercase;
+          color: var(--ink-muted);
+        }
+      }
+
       @media (prefers-reduced-motion: reduce) {
         * { animation: none !important; transition: none !important; }
       }

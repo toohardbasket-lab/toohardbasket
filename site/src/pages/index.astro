@@ -191,7 +191,7 @@ const chambers = [
         </>
       )}
     </p>
-    <table class="register">
+    <table class="register stacks">
       <thead>
         <tr>
           <th scope="col" class="num">Waiting</th>
@@ -204,14 +204,14 @@ const chambers = [
       <tbody>
         {longest.map((r) => (
           <tr>
-            <td class="num nowrap">{fmt(r.daysOutstanding)} days</td>
-            <td>{r.url ? <a href={r.url} rel="external">{r.title}</a> : r.title}</td>
-            <td class="cmte">{r.body}</td>
-            <td class="cmte">
+            <td class="num nowrap c-wait">{fmt(r.daysOutstanding)} days</td>
+            <td class="c-title">{r.url ? <a href={r.url} rel="external">{r.title}</a> : r.title}</td>
+            <td class="cmte c-meta">{r.body}</td>
+            <td class="cmte c-meta" data-label="Register">
               {r.register === "house" ? "House" : "Senate"}
               {r.alsoOnOther && <span class="both"> · and {r.register === "house" ? "Senate" : "House"}</span>}
             </td>
-            <td class="num nowrap">{formatDateShort(r.owedSince)}</td>
+            <td class="num nowrap c-meta" data-label="Tabled">{formatDateShort(r.owedSince)}</td>
           </tr>
         ))}
       </tbody>
