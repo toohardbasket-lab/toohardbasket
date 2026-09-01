@@ -1,0 +1,42 @@
+---
+import Base from "../layouts/Base.astro";
+import { liveRegisters } from "../lib/registers";
+
+/**
+ * Every unknown URL was returning the home page with a 200, so a mistyped or
+ * changed link looked like a working page — which on a site whose whole claim
+ * is that its links can be checked is worse than an error.
+ */
+const registers = liveRegisters();
+---
+
+<Base
+  title="Page not found"
+  description="That page does not exist on this site. The registers, the methods and the corrections log are linked here."
+>
+  <section class="wrap measure">
+    <p class="eyebrow">404</p>
+    <h1>That page is not here.</h1>
+    <p class="lede">
+      Either the address is mistyped or a page has moved. Nothing on this site is
+      deleted quietly: if a page you had a link to is gone, that is worth knowing
+      about, and {" "}
+      <a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a>
+      {" "}reaches someone.
+    </p>
+    <ul>
+      {registers.map((r) => (
+        <li><a href={`/${r.slug}/`}>The {r.shortName} register</a> — {r.name}</li>
+      ))}
+      <li><a href="/methods">Methods</a> — how each figure is built, and what it cannot see</li>
+      <li><a href="/corrections/">Corrections</a> — everything this site has had to fix</li>
+      <li><a href="/about">About</a> — who publishes this</li>
+    </ul>
+  </section>
+</Base>
+
+<style>
+  h1 { margin-bottom: 0.75rem; }
+  ul { margin: 1.5rem 0 0; padding-left: 1.1rem; line-height: 1.7; }
+  li { margin-bottom: 0.35rem; }
+</style>

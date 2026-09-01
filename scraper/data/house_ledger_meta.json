@@ -14,9 +14,11 @@
   "partial_response": 9,
   "overdue": 30,
   "not_yet_due": 8,
-  "answered_on_time": 11,
-  "answered_with_a_verdict": 61,
-  "on_time_rate": 0.18032786885245902,
+  "answered_on_time": 7,
+  "answered_with_a_verdict": 60,
+  "on_time_rate": 0.11666666666666667,
+  "rows_marked_on_time": 11,
+  "on_time_gap": 4,
   "response_out_of_period": 1,
   "reconciles_with_schedule": true,
   "being_considered": 38,
@@ -44,5 +46,11 @@
   "joint_committee": 32,
   "own_chamber": 6,
   "on_both_registers": 22,
-  "deadline_differs_across_registers": 1
+  "deadline_differs_across_registers": 1,
+  "officers_disagree": 3,
+  "officers_disagree_reports": [
+    "490",
+    "492",
+    "504"
+  ]
 }

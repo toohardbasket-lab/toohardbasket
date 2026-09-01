@@ -110,6 +110,55 @@ def write(name: str, rows: list[dict]) -> None:
     tmp.replace(path)
 
 
+REPORT_NO = re.compile(r"\breport\s+(\d{3})\b", re.I)
+
+
+def officers_disagree() -> list[dict]:
+    """Reports the Speaker records as answered and the President does not.
+
+    Both officers report on the same joint committee reports, and they do not
+    always say the same thing about one. The Joint Committee of Public Accounts
+    and Audit is answered by executive minute, one recommendation at a time:
+    the Speaker's schedule marks those "Fully responded", while the President
+    records the individual recommendations answered so far and ends the entry
+    "Incomplete response" — still owed an answer in part.
+
+    That is worth publishing. Two records of the same obligation, kept by the
+    two presiding officers of the same Parliament, disagreeing about whether it
+    has been discharged, is the clearest possible statement of why a single
+    public register is needed. It is also the sort of thing a reader finds on
+    their own and assumes the site missed.
+    """
+    house = DATA / "house_schedule.csv"
+    senate = DATA / "ledger_v2.csv"
+    if not house.exists() or not senate.exists():
+        return []
+    answered_by_number: dict[str, dict] = {}
+    with house.open(newline="", encoding="utf-8-sig") as f:
+        for r in csv.DictReader(f):
+            if not (r["response_received"] or r["complete_response"] == "True"):
+                continue
+            m = REPORT_NO.search(r["title"])
+            if m:
+                answered_by_number[m.group(1)] = r
+    out = []
+    with senate.open(newline="", encoding="utf-8-sig") as f:
+        for r in csv.DictReader(f):
+            m = REPORT_NO.search(r["title"])
+            if not m:
+                continue
+            h = answered_by_number.get(m.group(1))
+            if h:
+                out.append({"report": m.group(1), "title": r["title"],
+                            "committee": r["committee"],
+                            "report_tabled": r["report_tabled"],
+                            "speaker": "Fully responded" if h["complete_response"] == "True"
+                                       else f"response {h['response_received']}",
+                            "president": "still awaiting a response"
+                                         + (" in part" if r["partial_response"] == "True" else "")})
+    return sorted(out, key=lambda r: r["report"])
+
+
 def main() -> int:
     senate, house = load("ledger_v2.csv"), load("house_ledger.csv")
     pairs = pair(senate, house)
@@ -131,6 +180,13 @@ def main() -> int:
                         s["title"], s["report_otd_id"] or h["report_otd_id"],
                         s["overdue"], h["overdue"], how])
 
+    disagree = officers_disagree()
+    if disagree:
+        with (DATA / "officers_disagree.csv").open("w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=list(disagree[0].keys()))
+            w.writeheader()
+            w.writerows(disagree)
+
     differ = sum(1 for s, h, _ in pairs if s["overdue"] != h["overdue"])
     for reg, rows in ((REGISTERS[0], senate), (REGISTERS[1], house)):
         path = DATA / reg["meta"]
@@ -140,6 +196,8 @@ def main() -> int:
             "own_chamber": sum(1 for r in rows if r["joint_committee"] == "False"),
             "on_both_registers": len(pairs),
             "deadline_differs_across_registers": differ,
+            "officers_disagree": len(disagree),
+            "officers_disagree_reports": [d["report"] for d in disagree],
         })
         path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
 
@@ -153,6 +211,12 @@ def main() -> int:
     if differ:
         print(f"  {differ} of them are past the deadline on one register and not "
               "on the other — different rules, different tabling dates")
+    if disagree:
+        print(f"{len(disagree)} report(s) the Speaker records as answered and the "
+              "President still lists as outstanding:")
+        for d in disagree:
+            print(f"  Report {d['report']}  Speaker: {d['speaker']}; "
+                  f"President: {d['president']}")
     return 0
 
 

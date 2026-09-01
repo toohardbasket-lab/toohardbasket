@@ -104,6 +104,18 @@ const byCommittee = [...rows.reduce((m, r) => {
         : ` On this build it adds ${fmt(sched.fromTracker)} ${sched.fromTracker === 1 ? "report" : "reports"}, each marked in the source column.`}
     </p>
     <AnsweredSinceList rows={removedSince} officer="the President" />
+    {sched.officersDisagree > 0 && (
+      <p class="note measure">
+        <strong>The two officers do not always agree.</strong> The Speaker records
+        {" "}{sched.officersDisagree === 1 ? "one report" : `${fmt(sched.officersDisagree)} reports`}
+        {" "}as fully responded to that the President still lists as awaiting a response in
+        part — Public Accounts and Audit reports
+        {" "}{sched.officersDisagreeReports.join(", ")}, answered by executive minute one
+        recommendation at a time. Neither record is edited here. The Senate register follows
+        the President and the House register follows the Speaker, which is why the same
+        report can be waiting on one page and answered on the other.
+      </p>
+    )}
     <p class="note measure">
       <strong>Most of what is here is not the Senate's own.</strong> A joint committee
       reports to both houses, so its report is listed by both presiding officers:
@@ -187,7 +199,11 @@ const byCommittee = [...rows.reduce((m, r) => {
             <td class="cmte">{r.body}</td>
             <td class="num nowrap">{formatDateShort(r.owedSince)}</td>
             <td class="src">{statusOf(r)}</td>
-            <td class="src">{r.source.startsWith("presidents") ? "President’s report" : "Senate tracker"}</td>
+            <td class="src">
+              {r.source.startsWith("presidents")
+                ? <a href={sched.url} rel="external">President’s report</a>
+                : "Senate tracker"}
+            </td>
           </tr>
         ))}
       </tbody>

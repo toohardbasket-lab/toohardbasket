@@ -155,6 +155,14 @@ export interface ScheduleMeta {
   onBothRegisters: number;
   /** Of those, how many are past the deadline on one register but not the other. */
   deadlineDiffers: number;
+  /**
+   * Reports the Speaker records as answered and the President still lists as
+   * outstanding. Two records of one obligation, kept by the two presiding
+   * officers of the same Parliament, disagreeing about whether it is
+   * discharged.
+   */
+  officersDisagree: number;
+  officersDisagreeReports: string[];
   notYetDue: number;
   rows: number;
   fromSchedule: number;
@@ -189,6 +197,9 @@ export interface ScheduleMeta {
   answeredOnTime?: number;
   answeredWithVerdict?: number;
   onTimeRate?: number;
+  /** What counting his rows gives, where that differs from his own tally. */
+  rowsMarkedOnTime?: number;
+  onTimeGap?: number;
 }
 
 export function scheduleMeta(register: RegisterSlug = "senate"): ScheduleMeta {
@@ -209,6 +220,8 @@ export function scheduleMeta(register: RegisterSlug = "senate"): ScheduleMeta {
     ownChamber: m.own_chamber ?? 0,
     onBothRegisters: m.on_both_registers ?? 0,
     deadlineDiffers: m.deadline_differs_across_registers ?? 0,
+    officersDisagree: m.officers_disagree ?? 0,
+    officersDisagreeReports: m.officers_disagree_reports ?? [],
     notYetDue: m.not_yet_due,
     rows: m.rows,
     fromSchedule: m.from_schedule ?? m.rows,
@@ -227,6 +240,8 @@ export function scheduleMeta(register: RegisterSlug = "senate"): ScheduleMeta {
     answeredOnTime: m.answered_on_time,
     answeredWithVerdict: m.answered_with_a_verdict,
     onTimeRate: m.on_time_rate,
+    rowsMarkedOnTime: m.rows_marked_on_time,
+    onTimeGap: m.on_time_gap,
   };
 }
 

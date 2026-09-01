@@ -17,6 +17,7 @@ const nav = [
   { href: "/about", label: "About" },
 ];
 const here = Astro.url.pathname.replace(/\/$/, "") || "/";
+const SITE = "https://toohardbasket.org.au";
 ---
 
 <!doctype html>
@@ -26,6 +27,17 @@ const here = Astro.url.pathname.replace(/\/$/, "") || "/";
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title} — The Too Hard Basket</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={new URL(Astro.url.pathname, SITE).href} />
+    {/* A link pasted into an editor's Slack or an email preview should say what
+        it is. Without these it shows as a bare URL, which reads as a link
+        someone is not sure about. No image: the site has none, and a generated
+        card would be decoration on a register. */}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="The Too Hard Basket" />
+    <meta property="og:title" content={`${title} — The Too Hard Basket`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={new URL(Astro.url.pathname, SITE).href} />
+    <meta name="twitter:card" content="summary" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <style is:global>
       :root {
@@ -34,10 +46,13 @@ const here = Astro.url.pathname.replace(/\/$/, "") || "/";
         --surface-sunken: #f4f4f1;
         --ink:            #0b0b0b;
         --ink-secondary:  #52514e;
-        --ink-muted:      #78766f;
+        /* 5.0:1 and 5.4:1 on the surface. The previous pair were 4.43 and 4.30,
+           both a fraction under WCAG AA for small text, and the small-caps
+           labels are the smallest type on the site. */
+        --ink-muted:      #6f6d66;
         --rule:           #dedcd5;
         --rule-strong:    #b9b6ad;
-        --series-1:       #2a78d6;
+        --series-1:       #2168c2;
         --measure: 34rem;
         --sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
                 "Helvetica Neue", Arial, sans-serif;
@@ -137,6 +152,23 @@ const here = Astro.url.pathname.replace(/\/$/, "") || "/";
       @media (prefers-reduced-motion: reduce) {
         * { animation: none !important; transition: none !important; }
       }
+
+      /*
+       * Print. Someone will take a register into a meeting. The navigation, the
+       * footer and the search controls are of no use on paper; the table is,
+       * and its rows must not break across pages.
+       */
+      @media print {
+        :root { color-scheme: light; }
+        header.site nav, footer.site, .controls, details { display: none !important; }
+        header.site { border-bottom: 1px solid #999; }
+        body { background: #fff; color: #000; font-size: 10pt; }
+        a { text-decoration: none; }
+        a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 8pt; word-break: break-all; }
+        table { page-break-inside: auto; }
+        tr { page-break-inside: avoid; }
+        thead { display: table-header-group; }
+      }
     </style>
   </head>
   <body>
@@ -163,7 +195,9 @@ const here = Astro.url.pathname.replace(/\/$/, "") || "/";
         <p>
           Every figure is drawn from the Parliament’s own records — the presiding officers’
           schedules, the Senate’s register of responses and the Tabled Documents database —
-          and every row links to its source. Found something wrong?
+          and every row names the document it came from and links to it. Where the Tabled
+          Documents index has the report itself, the title links to it too. Found something
+          wrong?
           <a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a>,
           and see the <a href="/corrections/">corrections log</a>.
         </p>

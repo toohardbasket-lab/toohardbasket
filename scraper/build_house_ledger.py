@@ -112,6 +112,16 @@ PARTIAL = "Partial response received"
 COMPLETE = "Fully responded"
 DEADLINE_VERDICTS = {"Yes", "No", "Time not expired", "Time has not expired"}
 
+# The schedule footnotes some committees in the heading itself, so the roman
+# numeral runs straight onto the name: "Public Works (Joint, Statutory)vi".
+# The marker means nothing outside the schedule and reads as a typo here.
+FOOTNOTE_TAIL = re.compile(r"(?<=[a-z)])(?:i{1,3}|iv|vi{0,3}|ix|xi{0,3})$")
+
+
+def clean_committee(name: str) -> str:
+    return FOOTNOTE_TAIL.sub("", name.strip()).strip()
+
+
 # The committee heading sits in the second cell of its row; a title that wrapped
 # across a page break comes back as a lone cell in the first.
 COMMITTEE_CELL, TITLE_CELL = 1, 0
@@ -301,7 +311,7 @@ def parse_government_report(pdf_path: pathlib.Path) -> list[dict]:
                         if len(idx) == 1:
                             text = idx[0][1]
                             if GOVT_COMMITTEE.search(text):
-                                committee = text
+                                committee = clean_committee(text)
                             elif rows:
                                 rows[-1]["title"] += " " + text
                         continue
@@ -396,7 +406,7 @@ def parse_schedule(pdf_path: pathlib.Path) -> list[dict]:
                     if len(idx) == 1:
                         at, text = idx[0]
                         if at == COMMITTEE_CELL:
-                            committee = text
+                            committee = clean_committee(text)
                         elif at == TITLE_CELL and rows:
                             # A title that wrapped over a page break.
                             rows[-1]["title"] = f"{rows[-1]['title']} {text}".strip()
@@ -485,10 +495,20 @@ def main() -> None:
     # there is no register of House responses going back to 2000 as there is for
     # the Senate. It therefore covers only the responses THIS schedule records —
     # those received since the previous one — and the site must say so.
+    #
+    # Two of his numbers disagree, and the site publishes the smaller. Counting
+    # the row-level "Responded in period specified" column gives 11 within
+    # time; his own summary table on page 4 gives 7. The four in the gap are
+    # Public Accounts and Audit reports, which are answered by executive minute
+    # rather than by a government response, and which his tally therefore does
+    # not count as a response received in time. Publishing 11 would be this
+    # site reading his rows against his own total, on the flattering side.
     answered_verdicts = [r["within_period"] for r in records
                          if (r["response_received"] or r["complete_response"])
                          and r["within_period"] in ("Yes", "No")]
-    on_time = answered_verdicts.count("Yes")
+    rows_on_time = answered_verdicts.count("Yes")
+    on_time = summary["received_current"]
+    with_verdict = summary["received_expired"] + summary["received_current"]
 
     outstanding = [r for r in records
                    if r["response_received"] is None and not r["complete_response"]]
@@ -587,6 +607,19 @@ def main() -> None:
               "being-considered left unrecorded")
 
     DATA.mkdir(parents=True, exist_ok=True)
+    # The whole schedule, answered rows included. The register publishes only
+    # what is outstanding, but the answered rows are needed to see where the
+    # Speaker and the President record different things about one report.
+    with (DATA / "house_schedule.csv").open("w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["report_tabled", "committee", "title", "response_received",
+                    "complete_response", "partial_response", "within_period"])
+        for r in records:
+            w.writerow([r["report_tabled"].isoformat() if r["report_tabled"] else "",
+                        r["committee"], r["title"],
+                        r["response_received"].isoformat() if r["response_received"] else "",
+                        r["complete_response"], r["partial_response"], r["within_period"]])
+
     out = DATA / "house_ledger.csv"
     with out.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
@@ -610,8 +643,11 @@ def main() -> None:
         "overdue": sum(1 for r in rows if r["overdue"]),
         "not_yet_due": sum(1 for r in rows if not r["overdue"]),
         "answered_on_time": on_time,
-        "answered_with_a_verdict": len(answered_verdicts),
-        "on_time_rate": (on_time / len(answered_verdicts)) if answered_verdicts else 0,
+        "answered_with_a_verdict": with_verdict,
+        "on_time_rate": (on_time / with_verdict) if with_verdict else 0,
+        # What counting his rows gives, and how far that is from his own total.
+        "rows_marked_on_time": rows_on_time,
+        "on_time_gap": rows_on_time - on_time,
         "response_out_of_period": len(out_of_period),
         "reconciles_with_schedule": bool(agree or reconciled),
         "being_considered": govt_considered,
@@ -641,9 +677,13 @@ def main() -> None:
     print(f"  overdue {meta['overdue']}   within time {meta['not_yet_due']}   "
           f"answered in part {meta['partial_response']}")
     if answered_verdicts:
-        print(f"  of the {len(answered_verdicts)} answered reports the Speaker gives a "
+        print(f"  of the {with_verdict} answered reports the Speaker gives a "
               f"verdict on, {on_time} were responded to within six months "
-              f"({on_time / len(answered_verdicts) * 100:.0f}%)")
+              f"({on_time / with_verdict * 100:.0f}%)"
+              + (f"; counting his rows gives {rows_on_time}, and the "
+                 f"{rows_on_time - on_time} in the gap are Public Accounts and "
+                 "Audit reports answered by executive minute"
+                 if rows_on_time != on_time else ""))
     print(f"wrote {out} ({len(rows)} rows, as at {as_at}) and house_ledger_meta.json")
 
 

@@ -51,12 +51,18 @@ const stats = [
   { label: "Met the deadline", value: `${((sched.onTimeRate ?? 0) * 100).toFixed(0)}%` },
 ];
 const statsNote =
-  `Met the deadline is the Speaker's own verdict on the responses this schedule records — ` +
-  `${fmt(sched.answeredOnTime ?? 0)} of ${fmt(sched.answeredWithVerdict ?? 0)} arrived within ` +
-  `six months. Those are the responses received since his previous schedule, not a long-run ` +
-  `record: unlike the Senate, the House publishes no register of responses going back to 2000, ` +
-  `so this covers months where the Senate's equivalent covers decades. The two are not ` +
-  `comparable and should not be quoted against each other.`;
+  `Met the deadline is the Speaker's own count, from the summary table on the fourth page of ` +
+  `his schedule — ${fmt(sched.answeredOnTime ?? 0)} of ${fmt(sched.answeredWithVerdict ?? 0)} ` +
+  `responses arrived within six months. Those are the responses received since his previous ` +
+  `schedule, not a long-run record: unlike the Senate, the House publishes no register of ` +
+  `responses going back to 2000, so this covers months where the Senate's equivalent covers ` +
+  `decades. The two are not comparable and should not be quoted against each other.` +
+  ((sched.onTimeGap ?? 0) > 0
+    ? ` Counting the rows of his own list instead gives ${fmt(sched.rowsMarkedOnTime ?? 0)}; ` +
+      `the ${fmt(sched.onTimeGap ?? 0)} in the gap are Public Accounts and Audit reports, ` +
+      `answered by executive minute rather than by a government response. The smaller figure ` +
+      `is published because it is his own total.`
+    : "");
 
 /**
  * The Speaker's verdict comes first where he has one. The government records
@@ -116,6 +122,18 @@ const byCommittee = [...rows.reduce((m, r) => {
       Speaker's schedule lists {fmt(sched.listed - sched.answeredAtSchedule)} still waiting.
     </p>
     <AnsweredSinceList rows={removedSince} officer="the Speaker" />
+    {sched.officersDisagree > 0 && (
+      <p class="note measure">
+        <strong>The two officers do not always agree.</strong> The Speaker records
+        {" "}{sched.officersDisagree === 1 ? "one report" : `${fmt(sched.officersDisagree)} reports`}
+        {" "}as fully responded to that the President still lists as awaiting a response in
+        part — Public Accounts and Audit reports
+        {" "}{sched.officersDisagreeReports.join(", ")}, answered by executive minute one
+        recommendation at a time. Neither record is edited here. The Senate register follows
+        the President and the House register follows the Speaker, which is why the same
+        report can be waiting on one page and answered on the other.
+      </p>
+    )}
     <p class="note measure">
       <strong>Most of what is here is not the House's own.</strong> A joint committee
       reports to both houses, so its report is listed by both presiding officers:
@@ -272,7 +290,7 @@ const byCommittee = [...rows.reduce((m, r) => {
             <td class="cmte">{r.body}</td>
             <td class="num nowrap">{formatDateShort(r.owedSince)}</td>
             <td class="src">{statusOf(r)}</td>
-            <td class="src">Speaker’s schedule</td>
+            <td class="src"><a href={sched.url} rel="external">Speaker’s schedule</a></td>
           </tr>
         ))}
       </tbody>
