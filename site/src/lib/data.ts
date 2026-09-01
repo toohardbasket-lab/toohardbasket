@@ -98,6 +98,13 @@ export interface Obligation {
    */
   overdue: boolean;
   /**
+   * A joint committee's report, presented to both houses. Most of what is on
+   * both registers is joint, which is why neither is only its own chamber's.
+   */
+  joint: boolean;
+  /** The same report is listed on the other register too. Never add the counts. */
+  alsoOnOther: boolean;
+  /**
    * A response the presiding officer records but does not treat as discharging
    * the report — on the Speaker's schedule, one dated before the current
    * reporting period on a report he still lists as awaiting one.
@@ -141,6 +148,13 @@ export interface ScheduleMeta {
   recordsBeingConsidered: boolean;
   partial: number;
   overdue: number;
+  /** Joint committee reports, which the other register may also list. */
+  jointCommittee: number;
+  ownChamber: number;
+  /** Reports on both registers at once. The same for either register. */
+  onBothRegisters: number;
+  /** Of those, how many are past the deadline on one register but not the other. */
+  deadlineDiffers: number;
   notYetDue: number;
   rows: number;
   fromSchedule: number;
@@ -176,6 +190,10 @@ export function scheduleMeta(register: RegisterSlug = "senate"): ScheduleMeta {
     recordsBeingConsidered: m.being_considered_recorded ?? true,
     partial: m.partial_response,
     overdue: m.overdue,
+    jointCommittee: m.joint_committee ?? 0,
+    ownChamber: m.own_chamber ?? 0,
+    onBothRegisters: m.on_both_registers ?? 0,
+    deadlineDiffers: m.deadline_differs_across_registers ?? 0,
     notYetDue: m.not_yet_due,
     rows: m.rows,
     fromSchedule: m.from_schedule ?? m.rows,
@@ -208,6 +226,8 @@ export function ledger(register: RegisterSlug = "senate"): Obligation[] {
       beingConsidered: r.being_considered === "True",
       partial: r.partial_response === "True",
       overdue: r.overdue === "True",
+      joint: r.joint_committee === "True",
+      alsoOnOther: r.also_on_other_register === "True",
       earlierResponse: r.response_out_of_period || null,
       url: r.report_url || null,
       source: r.source,

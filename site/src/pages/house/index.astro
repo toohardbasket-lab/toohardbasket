@@ -21,6 +21,17 @@ const rows = ledger("house");
 const sched = scheduleMeta("house");
 const removedSince = answeredSince("house");
 
+/**
+ * The Liaison Committee's June 2023 clearing (footnote 3 of the schedule) took
+ * every House and joint report presented before 2 July 2019 off this list. The
+ * President took nothing off his, so the joint reports from that period are
+ * still on the Senate register — which is the measure of what was cleared.
+ */
+const CLEARED_BEFORE = "2019-07-02";
+const keptBySenate = ledger("senate")
+  .filter((r) => r.joint && r.owedSince < CLEARED_BEFORE)
+  .sort((a, b) => a.owedSince.localeCompare(b.owedSince));
+
 const overdue = rows.filter((r) => r.overdue);
 const notYetDue = rows.filter((r) => !r.overdue);
 const overOne = rows.filter((r) => r.daysOutstanding > 365);
@@ -99,6 +110,24 @@ const byCommittee = [...rows.reduce((m, r) => {
     </p>
     <AnsweredSinceList rows={removedSince} officer="the Speaker" />
     <p class="note measure">
+      <strong>Most of what is here is not the House's own.</strong> A joint committee
+      reports to both houses, so its report is listed by both presiding officers:
+      {" "}{fmt(sched.jointCommittee)} of the {fmt(rows.length)} reports below are joint
+      committee reports and only {fmt(sched.ownChamber)} are House committee reports.
+      {" "}{fmt(sched.onBothRegisters)} are on {" "}<a href="/senate/">the Senate
+      register</a> as well. That is why the two counts are never added: it would count the
+      same report twice.
+      {sched.deadlineDiffers > 0 && (
+        <>
+          {" "}It is also why the same report can be past the deadline on one register and
+          within time on the other — the House counts six months from House presentation,
+          the Senate three from Senate tabling, and
+          {" "}{sched.deadlineDiffers === 1 ? "one report is" : `${fmt(sched.deadlineDiffers)} reports are`}
+          {" "}in that position today.
+        </>
+      )}
+    </p>
+    <p class="note measure">
       Whether a report is past its deadline is the Speaker’s judgement, not ours: the
       resolution of {reg.ruleSince} gives six months but excludes any period when the House
       was dissolved, so the interval cannot simply be counted off a calendar.
@@ -112,7 +141,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       the government has said about a report — and it can never add a report to this
       register or remove one from it. Which reports are outstanding is the Speaker’s to
       say. All {fmt(sched.governmentReportMatched ?? rows.length)} of the reports the
-      Speaker lists as waiting were found in it{considered.length === rows.length
+      Speaker listed as waiting at 30 June were found in it{considered.length === rows.length
         ? ", and for every one of them the government records nothing more than that its response is being considered."
         : `, and ${fmt(considered.length)} of them are recorded that way.`}
     </p>
@@ -120,8 +149,9 @@ const byCommittee = [...rows.reduce((m, r) => {
       <p class="note measure">
         The schedule counts itself, by Parliament, on its fourth page, and that tally says
         {" "}{fmt(sched.scheduleSaysOutstanding ?? rows.length)} rather than the
-        {" "}{fmt(rows.length)} published here. The difference is
-        {" "}{sched.outOfPeriod === 1 ? "one report" : `${fmt(sched.outOfPeriod ?? 0)} reports`}
+        {" "}{fmt(rows.length)} published here. {fmt(sched.answeredSince)} of the difference
+        is the responses tabled since, listed above.
+        {" "}{sched.outOfPeriod === 1 ? "The last is one report" : `The rest are ${fmt(sched.outOfPeriod ?? 0)} reports`}
         {" "}for which the schedule’s own entry records a response received before this
         reporting period, and for which the government’s report records the same response.
         Two records say the report was answered and one aggregate says it was not, so it is
@@ -136,9 +166,31 @@ const byCommittee = [...rows.reduce((m, r) => {
       No compliance history: unlike the Senate, the House has no published register of
       responses going back to 2000. The Speaker gives his own on-time verdict on the
       responses each schedule records, which is what the figure above reports, but it
-      covers one reporting period rather than a quarter of a century. And no submission counts yet — the
-      figures on how many people and organisations wrote to these inquiries have to be
-      collected inquiry by inquiry, and that has not been done.
+      covers one reporting period rather than a quarter of a century. And no submission
+      counts yet — the figures on how many people and organisations wrote to these
+      inquiries have to be collected inquiry by inquiry, and that has not been done.
+    </p>
+    <p class="note measure">
+      <strong>What the schedule itself leaves out</strong>, on its own second page:
+      advisory reports on bills, unless their recommendations go wider than the bill;
+      reports on treaties, unless their recommendations go wider than ratification; and
+      reports of the Privileges and Members’ Interests and Publications committees.
+    </p>
+    <p class="note measure">
+      <strong>And one deliberate clearing.</strong> The Speaker’s footnote 3 records that
+      the Liaison Committee of Chairs and Deputy Chairs agreed in June 2023 to recommend
+      “removal of all outstanding government responses for House or Joint committee
+      reports presented prior to the commencement of the 46th Parliament (2 July 2019),
+      unless the relevant committee’s successor resolved to retain those reports”. So this
+      register reaches back only as far as that decision allows. It is not that the House
+      has no older unanswered reports; it is that they were taken off the list.
+      {keptBySenate.length > 0 && (
+        <>
+          {" "}{fmt(keptBySenate.length)} joint committee reports from before that date are
+          still on {" "}<a href="/senate/">the Senate register</a>, where the President kept
+          them — the oldest tabled in {keptBySenate[0].owedSince.slice(0, 4)}.
+        </>
+      )}
     </p>
   </section>
 

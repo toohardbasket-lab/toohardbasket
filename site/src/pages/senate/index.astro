@@ -85,13 +85,18 @@ const byCommittee = [...rows.reduce((m, r) => {
       Twice a year the President reports to the Senate on the status of every committee
       report that requires a government response. The most recent is
       {" "}<a href={sched.url}>the report as at {formatDate(sched.asAt)}</a>, tabled on
-      {" "}{formatDate(sched.tabled)}. It lists {fmt(sched.listed)} reports and records a
-      response received for {fmt(sched.answeredAtSchedule)} of them. The rest are here.
+      {" "}{formatDate(sched.tabled)}. It lists {fmt(sched.listed)} reports, records a
+      response received for {fmt(sched.answeredAtSchedule)}, and leaves
+      {" "}<strong>{fmt(sched.listed - sched.answeredAtSchedule)}</strong> still waiting at
+      that date.
     </p>
     <p class="note measure">
-      Since that date {fmt(sched.answeredSince)} more responses have been tabled, and those
-      reports have been removed — a report the government has answered must not be
-      published here as waiting. The Senate also runs a live tracker of reports awaiting a
+      Since that date {fmt(sched.answeredSince)} of
+      those {sched.answeredSince === 1 ? "has" : "have"} been answered, and those reports
+      have been removed — a report the government has answered must not be published here
+      as waiting. That is why this register shows <strong>{fmt(rows.length)}</strong> today
+      where the President recorded {fmt(sched.listed - sched.answeredAtSchedule)} at
+      {" "}{formatDate(sched.asAt)}. The Senate also runs a live tracker of reports awaiting a
       response; it is carried here only for reports tabled after the President’s date, so it
       can add to the register but never overrule it.
       {sched.fromTracker === 0
@@ -99,6 +104,24 @@ const byCommittee = [...rows.reduce((m, r) => {
         : ` On this build it adds ${fmt(sched.fromTracker)} ${sched.fromTracker === 1 ? "report" : "reports"}, each marked in the source column.`}
     </p>
     <AnsweredSinceList rows={removedSince} officer="the President" />
+    <p class="note measure">
+      <strong>Most of what is here is not the Senate's own.</strong> A joint committee
+      reports to both houses, so its report is listed by both presiding officers:
+      {" "}{fmt(sched.jointCommittee)} of the {fmt(rows.length)} reports below are joint
+      committee reports — the President titles his own document “Senate and joint
+      committee reports” — and {fmt(sched.onBothRegisters)} of them are on
+      {" "}<a href="/house/">the House register</a> as well. That is why the two counts
+      are never added: it would count the same report twice.
+      {sched.deadlineDiffers > 0 && (
+        <>
+          {" "}It is also why the same report can be past the deadline on one register and
+          within time on the other — the Senate counts three months from Senate tabling,
+          the House six from House presentation, and
+          {" "}{sched.deadlineDiffers === 1 ? "one report is" : `${fmt(sched.deadlineDiffers)} reports are`}
+          {" "}in that position today.
+        </>
+      )}
+    </p>
     <p class="note measure">
       <strong>What it does not have:</strong> reports tabled after
       {" "}{formatDate(sched.coversTo)}, which neither source yet lists; anything the

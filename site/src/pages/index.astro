@@ -24,7 +24,13 @@ const comp = complianceDetail();
 const houseMeta = scheduleMeta("house");
 const senate = registerBySlug("senate")!;
 const house = registerBySlug("house")!;
-const asAt = formatDate(f.schedule.asAt);
+/**
+ * The counts are as at today, not as at the schedules. Both presiding officers
+ * reported at 30 June; every report answered since has come off. Dating the
+ * hero 30 June would put a June label on a September number, which is the sort
+ * of thing that gets a whole register doubted for one word.
+ */
+const asAt = formatDate(f.schedule.rebuilt ?? f.schedule.asAt);
 const pct = (comp.rate * 100).toFixed(1);
 const housePct = ((houseMeta.onTimeRate ?? 0) * 100).toFixed(0);
 const longest = longestWaits(10);
@@ -45,7 +51,7 @@ const chambers = [
   {
     slug: "house",
     count: f.house.outstanding,
-    name: "House of Representatives committee reports",
+    name: house.name,
     rule: "The House asks for a response within six months.",
     overdue: f.house.overdue,
     href: "/house/",
@@ -55,7 +61,7 @@ const chambers = [
   {
     slug: "senate",
     count: f.outstanding,
-    name: "Senate committee reports",
+    name: senate.name,
     rule: "The Senate asks for a response within three months.",
     overdue: f.ledger.filter((r) => r.overdue).length,
     href: "/senate/",
@@ -87,11 +93,11 @@ const chambers = [
     </div>
 
     <p class="gap measure">
-      For <strong>{fmt(f.beingConsidered)}</strong> of the Senate reports — and for
+      For <strong>{fmt(f.beingConsidered)}</strong> of the reports on the Senate register — and for
       {f.house.beingConsidered === f.house.outstanding
         ? " every one of the "
         : ` ${fmt(f.house.beingConsidered)} of the `}
-      <strong>{fmt(f.house.outstanding)}</strong> in the House — the only thing the
+      <strong>{fmt(f.house.outstanding)}</strong> on the House register — the only thing the
       government has said is that its response is “being considered”. That is its own
       phrase, from status reports it tables itself.
     </p>
@@ -147,6 +153,11 @@ const chambers = [
         of which reports are still waiting.
       </p>
       <p>
+        Most of what is on both registers is joint committee reports, which are presented
+        to both houses and listed by both presiding officers, so the same report can appear
+        on each. The two counts are never added together, and they are not a ranking.
+      </p>
+      <p>
         This is that record. Each register follows its presiding officer — the President of
         the Senate and the Speaker of the House each report on the status of government
         responses, at roughly six-monthly intervals — and publishes what he records,
@@ -165,14 +176,19 @@ const chambers = [
   <section class="wrap longest">
     <h2>Longest outstanding</h2>
     <p class="note measure">
-      Across both chambers. The counts are kept apart because the rules differ, but a
-      report waiting eleven years is waiting eleven years whichever house it was tabled in.
+      Across both registers. The counts are kept apart because the rules differ and
+      because most of what is on them is joint committee reports, listed by both presiding
+      officers — but a report waiting eleven years is waiting eleven years whichever
+      register it is on.
       {chambersShown.size === 1 && firstHouse && (
         <>
-          {" "}All ten are Senate reports: that backlog reaches back to 2014 and the
-          House’s only to {firstHouse.owedSince.slice(0, 4)}. The longest-waiting House
-          report — <em>{firstHouse.title}</em>, at {fmt(firstHouse.daysOutstanding)} days —
-          comes {firstHouseRank}th.
+          {" "}All ten are from the Senate register, which reaches back to 2014 where the
+          House register stops at {firstHouse.owedSince.slice(0, 4)}. That is not the House
+          doing better: it agreed in 2023 to take every report presented before July 2019
+          off its schedule.{" "}<a href="/house/#source">Why the House list is shorter →</a>
+          {" "}The longest-waiting report on the House register —{" "}
+          <em>{firstHouse.title}</em>, at {fmt(firstHouse.daysOutstanding)} days — comes
+          {" "}{firstHouseRank}th here.
         </>
       )}
     </p>
@@ -182,7 +198,7 @@ const chambers = [
           <th scope="col" class="num">Waiting</th>
           <th scope="col">Report</th>
           <th scope="col">Committee</th>
-          <th scope="col">Chamber</th>
+          <th scope="col">Register</th>
           <th scope="col" class="num">Tabled</th>
         </tr>
       </thead>
@@ -192,7 +208,10 @@ const chambers = [
             <td class="num nowrap">{fmt(r.daysOutstanding)} days</td>
             <td>{r.url ? <a href={r.url} rel="external">{r.title}</a> : r.title}</td>
             <td class="cmte">{r.body}</td>
-            <td class="cmte">{r.register === "house" ? "House" : "Senate"}</td>
+            <td class="cmte">
+              {r.register === "house" ? "House" : "Senate"}
+              {r.alsoOnOther && <span class="both"> · and {r.register === "house" ? "Senate" : "House"}</span>}
+            </td>
             <td class="num nowrap">{formatDateShort(r.owedSince)}</td>
           </tr>
         ))}
@@ -245,6 +264,7 @@ const chambers = [
   .longest h2 { margin-bottom: 0.5rem; }
   .longest .note { font-size: 0.875rem; color: var(--ink-muted); margin-bottom: 1rem; }
   .longest .cmte { color: var(--ink-secondary); font-size: 0.8125rem; }
+  .longest .both { color: var(--ink-muted); }
   .longest td { padding-right: 1rem; }
   .nowrap { white-space: nowrap; }
   .more { font-size: 0.875rem; margin-top: 1rem; display: flex; gap: 1.5rem; flex-wrap: wrap; }

@@ -26,5 +26,9 @@
   "removed_by_response_documents": 2,
   "answered_since_schedule_file": "answered_since_senate.csv",
   "covers_responses_to": "2026-08-20",
-  "pruned": "2026-09-01"
+  "pruned": "2026-09-01",
+  "joint_committee": 36,
+  "own_chamber": 46,
+  "on_both_registers": 22,
+  "deadline_differs_across_registers": 1
 }

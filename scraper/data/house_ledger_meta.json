@@ -33,5 +33,9 @@
   "covers_responses_to": "2026-08-20",
   "pruned": "2026-09-01",
   "from_schedule": 0,
-  "from_tracker": 0
+  "from_tracker": 0,
+  "joint_committee": 32,
+  "own_chamber": 6,
+  "on_both_registers": 22,
+  "deadline_differs_across_registers": 1
 }
