@@ -480,6 +480,16 @@ def main() -> None:
         sys.exit(f"Only {len(records)} report rows parsed — implausibly few. "
                  "Refusing to overwrite the ledger; check the document format.")
 
+    # The Speaker gives his own verdict on whether each answered report was
+    # responded to in time, which is the only on-time measure the House has:
+    # there is no register of House responses going back to 2000 as there is for
+    # the Senate. It therefore covers only the responses THIS schedule records —
+    # those received since the previous one — and the site must say so.
+    answered_verdicts = [r["within_period"] for r in records
+                         if (r["response_received"] or r["complete_response"])
+                         and r["within_period"] in ("Yes", "No")]
+    on_time = answered_verdicts.count("Yes")
+
     outstanding = [r for r in records
                    if r["response_received"] is None and not r["complete_response"]]
     answered = [r for r in records if r not in outstanding]
@@ -580,6 +590,9 @@ def main() -> None:
         "partial_response": sum(1 for r in rows if r["partial_response"]),
         "overdue": sum(1 for r in rows if r["overdue"]),
         "not_yet_due": sum(1 for r in rows if not r["overdue"]),
+        "answered_on_time": on_time,
+        "answered_with_a_verdict": len(answered_verdicts),
+        "on_time_rate": (on_time / len(answered_verdicts)) if answered_verdicts else 0,
         "response_out_of_period": len(out_of_period),
         "reconciles_with_schedule": bool(agree or reconciled),
         "being_considered": govt_considered,
@@ -606,6 +619,10 @@ def main() -> None:
             print(f"    {r['title'][:52]} | {r['notes']}")
     print(f"  overdue {meta['overdue']}   within time {meta['not_yet_due']}   "
           f"answered in part {meta['partial_response']}")
+    if answered_verdicts:
+        print(f"  of the {len(answered_verdicts)} answered reports the Speaker gives a "
+              f"verdict on, {on_time} were responded to within six months "
+              f"({on_time / len(answered_verdicts) * 100:.0f}%)")
     print(f"wrote {out} ({len(rows)} rows, as at {as_at}) and house_ledger_meta.json")
 
 

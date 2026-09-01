@@ -156,6 +156,10 @@ export interface ScheduleMeta {
   beingConsideredSource?: string;
   beingConsideredTabled?: string;
   governmentReportMatched?: number;
+  /** House only: the presiding officer's own on-time verdict, this period. */
+  answeredOnTime?: number;
+  answeredWithVerdict?: number;
+  onTimeRate?: number;
 }
 
 export function scheduleMeta(register: RegisterSlug = "senate"): ScheduleMeta {
@@ -184,6 +188,9 @@ export function scheduleMeta(register: RegisterSlug = "senate"): ScheduleMeta {
     beingConsideredSource: m.being_considered_source,
     beingConsideredTabled: m.being_considered_tabled,
     governmentReportMatched: m.government_report_matched,
+    answeredOnTime: m.answered_on_time,
+    answeredWithVerdict: m.answered_with_a_verdict,
+    onTimeRate: m.on_time_rate,
   };
 }
 

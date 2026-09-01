@@ -35,7 +35,15 @@ const stats = [
   { label: "Still within time", value: fmt(notYetDue.length) },
   { label: "Waiting over a year", value: fmt(overOne.length) },
   { label: "Waiting over five years", value: fmt(overFive.length) },
+  { label: "Met the deadline", value: `${((sched.onTimeRate ?? 0) * 100).toFixed(0)}%` },
 ];
+const statsNote =
+  `Met the deadline is the Speaker's own verdict on the responses this schedule records — ` +
+  `${fmt(sched.answeredOnTime ?? 0)} of ${fmt(sched.answeredWithVerdict ?? 0)} arrived within ` +
+  `six months. Those are the responses received since his previous schedule, not a long-run ` +
+  `record: unlike the Senate, the House publishes no register of responses going back to 2000, ` +
+  `so this covers months where the Senate's equivalent covers decades. The two are not ` +
+  `comparable and should not be quoted against each other.`;
 
 const statusOf = (r: (typeof rows)[number]): string =>
   r.beingConsidered ? "Being considered"
@@ -68,7 +76,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       whatever that response says.
     </p>
 
-    <StatTiles stats={stats} />
+    <StatTiles stats={stats} note={statsNote} />
   </section>
 
   <section class="wrap">
@@ -117,8 +125,9 @@ const byCommittee = [...rows.reduce((m, r) => {
       {" "}{formatDate(sched.coversTo)}, which the Speaker has not yet reported on — and
       because the schedule is presented about twice a year, that gap can be months wide.
       No compliance history: unlike the Senate, the House has no published register of
-      responses going back to 2000, so this register can show what is owed now but not how
-      often the six-month rule has been met over time. And no submission counts yet — the
+      responses going back to 2000. The Speaker gives his own on-time verdict on the
+      responses each schedule records, which is what the figure above reports, but it
+      covers one reporting period rather than a quarter of a century. And no submission counts yet — the
       figures on how many people and organisations wrote to these inquiries have to be
       collected inquiry by inquiry, and that has not been done.
     </p>

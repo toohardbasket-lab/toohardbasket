@@ -32,7 +32,13 @@ const stats = [
   { label: "Still within time", value: fmt(withinTime.length) },
   { label: "Waiting over a year", value: fmt(overOne.length) },
   { label: "Waiting over five years", value: fmt(overFive.length) },
+  { label: "Met the deadline", value: `${(comp.rate * 100).toFixed(1)}%` },
 ];
+const statsNote =
+  `Met the deadline is the only figure here not drawn from the current schedule: ` +
+  `it is every response since ${comp.firstYear} whose report date the Senate's register ` +
+  `records — ${fmt(comp.onTime)} of ${fmt(comp.assessable)} arrived within three months. ` +
+  `The other five describe what is owed today.`;
 
 /** The status column of the schedule, in the register's own words. */
 const statusOf = (r: (typeof rows)[number]): string =>
@@ -67,7 +73,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       whatever that response says.
     </p>
 
-    <StatTiles stats={stats} />
+    <StatTiles stats={stats} note={statsNote} />
   </section>
 
   <section class="wrap">
