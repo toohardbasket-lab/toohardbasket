@@ -14,7 +14,7 @@ The CSV schema (one row per government response recorded in a register):
     deadline_days, days_overdue, interim_only, source, notes
 """
 from __future__ import annotations
-import csv, sys, pathlib
+import csv, re, sys, pathlib
 from thb_parser import (parse_classic_text, parse_statsnet_text,
                         rows_to_dicts, Row)
 import validate as validation
@@ -62,13 +62,46 @@ def main(argv: list[str]) -> int:
         from statsnet_scraper import scrape as scrape_statsnet
         rows += scrape_statsnet(2012, 2026)
 
-    # de-duplicate (fixtures overlap live scrapes for the same years)
+    # De-duplicate. Fixtures overlap live scrapes for the same years, and the
+    # two parsers do not always split a wrapped register line at the same
+    # point: the 2026 fixture read "Access to" as the inquiry and "Australian
+    # Parliament House by lobbyists Finance and Public Administration
+    # References Committee" as the committee, where the live scrape read them
+    # the right way round. Both rows describe one response, and a key made of
+    # the two fields separately cannot see it — 28 responses were counted
+    # twice, which moved the compliance rate, the median and every year count.
+    #
+    # So the second pass keys on the words rather than the fields: same report
+    # date, same response date, and the same set of words across committee and
+    # inquiry together, however they were divided between the two. Where a
+    # fixture row and a live row collide, the live row wins, because it is the
+    # one whose split is right.
+    def words(r) -> frozenset:
+        text = f"{r.committee} {r.inquiry}".lower()
+        return frozenset(w for w in re.sub(r"[^a-z0-9]+", " ", text).split() if len(w) > 3)
+
+    def loose(r) -> tuple:
+        return (r.report_last_tabled, r.response_tabled, words(r))
+
+    # Where a fixture row and a live row are the same response, drop the
+    # fixture one — the live scrape is the one whose split is right. Done as a
+    # pre-pass rather than by sorting, so the order of everything else, and so
+    # the weekly diff, stays readable.
+    live = {loose(r) for r in rows
+            if r.report_last_tabled and r.response_tabled
+            and not r.source.startswith("fixtures")}
+
     seen, unique = set(), []
     for r in rows:
-        key = (r.committee, r.inquiry, r.report_last_tabled, r.response_tabled)
-        if key in seen:
+        dated = bool(r.report_last_tabled and r.response_tabled)
+        if dated and r.source.startswith("fixtures") and loose(r) in live:
             continue
-        seen.add(key)
+        exact = (r.committee, r.inquiry, r.report_last_tabled, r.response_tabled)
+        if exact in seen or (dated and loose(r) in seen):
+            continue
+        seen.add(exact)
+        if dated:
+            seen.add(loose(r))
         unique.append(r)
 
     rc = validation.main(unique)

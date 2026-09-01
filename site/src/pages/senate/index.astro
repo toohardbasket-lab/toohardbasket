@@ -104,6 +104,14 @@ const byCommittee = [...rows.reduce((m, r) => {
         : ` On this build it adds ${fmt(sched.fromTracker)} ${sched.fromTracker === 1 ? "report" : "reports"}, each marked in the source column.`}
     </p>
     <AnsweredSinceList rows={removedSince} officer="the President" />
+    {sched.responsesCheckedTo && (
+      <p class="note measure">
+        <strong>How current that is.</strong> A register is only as current as the responses
+        it has seen. This build checked every government response tabled up to
+        {" "}{formatDate(sched.responsesCheckedTo)}; a response tabled after that date will
+        not have removed its report yet, and will do so on the next rebuild.
+      </p>
+    )}
     {sched.officersDisagree > 0 && (
       <p class="note measure">
         <strong>The two officers do not always agree.</strong> The Speaker records
@@ -123,7 +131,11 @@ const byCommittee = [...rows.reduce((m, r) => {
       committee reports — the President titles his own document “Senate and joint
       committee reports” — and {fmt(sched.onBothRegisters)} of them are on
       {" "}<a href="/house/">the House register</a> as well. That is why the two counts
-      are never added: it would count the same report twice.
+      are never added: it would count the same report twice. The two lists do not contain the same joint reports,
+      and they are not meant to: the President and the Speaker exclude different categories,
+      the House removed everything presented before July 2019 and the Senate did not, and on
+      three reports the two officers disagree about whether a response has been received. So
+      a joint report can be on one register and not the other without either being wrong.
       {sched.deadlineDiffers > 0 && (
         <>
           {" "}It is also why the same report can be past the deadline on one register and

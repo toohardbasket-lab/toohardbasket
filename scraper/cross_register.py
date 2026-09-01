@@ -50,8 +50,11 @@ REGISTERS = [
 # carry "Parliamentary Joint Committee" or "PJC" in their own names.
 JOINT = re.compile(r"\bjoint\b|\bPJC\b", re.I)
 
-# Same report, presented to the two houses on days that need not match.
-SAME_WEEKS = 21
+# Same report, presented to the two houses on days that need not match. Five
+# weeks, not three: the Human Rights committee's framework report was presented
+# to the House on 30 May 2024 and tabled in the Senate on 25 June, 26 days
+# apart, and a three-week window could not see it.
+SAME_WEEKS = 35
 SAME_TITLE = 0.8
 
 
@@ -91,6 +94,15 @@ def pair(senate: list[dict], house: list[dict]) -> list[tuple[dict, dict, str]]:
                 continue
             ht = words(h["title"])
             if not ht or not st:
+                continue
+            # A title made of nothing but scaffolding cannot carry a match. The
+            # President lists three Senate select committee reports as, simply,
+            # "Report"; with a five-week window and a one-word title, "Report"
+            # matched a House row from a different committee entirely.
+            if len(st) < 3 or len(ht) < 3:
+                continue
+            # And two different committees do not table each other's reports.
+            if not (words(s["committee"]) & words(h["committee"])):
                 continue
             if len(st & ht) / min(len(st), len(ht)) >= SAME_TITLE:
                 out.append((s, h, "title and tabling date"))

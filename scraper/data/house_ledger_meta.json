@@ -45,12 +45,13 @@
   "from_tracker": 0,
   "joint_committee": 32,
   "own_chamber": 6,
-  "on_both_registers": 22,
+  "on_both_registers": 24,
   "deadline_differs_across_registers": 1,
   "officers_disagree": 3,
   "officers_disagree_reports": [
     "490",
     "492",
     "504"
-  ]
+  ],
+  "responses_checked_to": "2026-08-27"
 }

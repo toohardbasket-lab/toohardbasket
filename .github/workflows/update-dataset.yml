@@ -33,6 +33,12 @@ jobs:
       # row to its report, then the removal of every report answered since the
       # schedules were printed. The removal is the step that keeps an answered
       # report off the register; it has to run every week, on both chambers.
+      # The removal step can only take off a report whose response it has seen,
+      # so the list of tabled responses is refreshed BEFORE the links and the
+      # removal. Without this the job rebuilt both registers every week against
+      # a response list that only a hand-run sweep updated.
+      - name: Harvest responses tabled since the last run
+        run: python harvest_responses.py
       - name: Link reports to their responses
         run: python harvest_links.py && python link_reports.py
       - name: Remove reports answered since the schedules

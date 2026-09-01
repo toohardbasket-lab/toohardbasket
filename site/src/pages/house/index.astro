@@ -43,7 +43,15 @@ const considered = rows.filter((r) => r.beingConsidered);
 /** The same six figures, in the same order, as the Senate register. */
 const stats = [
   { label: "Awaiting a response", value: fmt(rows.length) },
-  { label: "Told it is being considered", value: fmt(considered.length) },
+  /*
+   * Where the Senate shows the President's being-considered count, the House
+   * shows the longest wait. The government's House report has three statuses
+   * and only three, so "told it is being considered" is the same number as
+   * "awaiting a response" — the same figure twice in one row, three paragraphs
+   * above the sentence explaining that it is a restatement. The duration is
+   * what that section argues is worth reading, so the row shows it.
+   */
+  { label: "Longest wait", value: humanDuration(rows[0]?.daysOutstanding ?? 0) },
   { label: "Past the six-month deadline", value: fmt(overdue.length) },
   { label: "Still within time", value: fmt(notYetDue.length) },
   { label: "Waiting over a year", value: fmt(overOne.length) },
@@ -122,6 +130,14 @@ const byCommittee = [...rows.reduce((m, r) => {
       Speaker's schedule lists {fmt(sched.listed - sched.answeredAtSchedule)} still waiting.
     </p>
     <AnsweredSinceList rows={removedSince} officer="the Speaker" />
+    {sched.responsesCheckedTo && (
+      <p class="note measure">
+        <strong>How current that is.</strong> A register is only as current as the responses
+        it has seen. This build checked every government response tabled up to
+        {" "}{formatDate(sched.responsesCheckedTo)}; a response tabled after that date will
+        not have removed its report yet, and will do so on the next rebuild.
+      </p>
+    )}
     {sched.officersDisagree > 0 && (
       <p class="note measure">
         <strong>The two officers do not always agree.</strong> The Speaker records
@@ -141,7 +157,11 @@ const byCommittee = [...rows.reduce((m, r) => {
       committee reports and only {fmt(sched.ownChamber)} are House committee reports.
       {" "}{fmt(sched.onBothRegisters)} are on {" "}<a href="/senate/">the Senate
       register</a> as well. That is why the two counts are never added: it would count the
-      same report twice.
+      same report twice. The two lists do not contain the same joint reports,
+      and they are not meant to: the President and the Speaker exclude different categories,
+      the House removed everything presented before July 2019 and the Senate did not, and on
+      three reports the two officers disagree about whether a response has been received. So
+      a joint report can be on one register and not the other without either being wrong.
       {sched.deadlineDiffers > 0 && (
         <>
           {" "}It is also why the same report can be past the deadline on one register and
@@ -179,8 +199,9 @@ const byCommittee = [...rows.reduce((m, r) => {
         considered ({fmt(sched.governmentStatuses.considered)}). A report it has not
         answered can only fall in the third. So “being considered” here is close to a
         restatement of “outstanding”, and the number worth reading is not how many, but how
-        long: {fmt(overOne.length)} of these reports have been under consideration for more
-        than a year and {fmt(overFive.length)} for more than five. On
+        long: {fmt(overOne.length)} of these reports have been waiting more than a year, and
+        {" "}{fmt(overFive.length)} more than five, with the government saying the same thing
+        about each of them. On
         {" "}<a href="/senate/">the Senate register</a> the President distinguishes four
         states, so the same phrase carries more there.
       </p>

@@ -60,6 +60,13 @@ def main() -> int:
         kept, removed = answered_since.apply(rows, as_at)
         answered_since.report(removed, reg["name"])
         total += len(removed)
+
+        # Record how current the response list is on every run, removals or
+        # not: a build that removed nothing because it saw nothing looks
+        # identical, from the outside, to a build that removed nothing because
+        # there was nothing to remove.
+        meta["responses_checked_to"] = answered_since.checked_to()
+        meta_path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
         if not removed:
             continue
 

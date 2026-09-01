@@ -193,6 +193,12 @@ export interface ScheduleMeta {
    */
   governmentStatuses?: { answered: number; considered: number; full: number; other: number };
   governmentReportMatched?: number;
+  /**
+   * The latest tabling date on the list of government responses this build
+   * checked against. A register is only as current as the responses it has
+   * seen, and that is not the same as the schedule's date or as today.
+   */
+  responsesCheckedTo?: string;
   /** House only: the presiding officer's own on-time verdict, this period. */
   answeredOnTime?: number;
   answeredWithVerdict?: number;
@@ -237,6 +243,7 @@ export function scheduleMeta(register: RegisterSlug = "senate"): ScheduleMeta {
     governmentReportListed: m.government_report_listed,
     governmentStatuses: m.government_report_statuses,
     governmentReportMatched: m.government_report_matched,
+    responsesCheckedTo: m.responses_checked_to,
     answeredOnTime: m.answered_on_time,
     answeredWithVerdict: m.answered_with_a_verdict,
     onTimeRate: m.on_time_rate,

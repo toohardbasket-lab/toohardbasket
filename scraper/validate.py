@@ -8,6 +8,7 @@ data that fails these checks. A layout change at aph.gov.au should stop
 the build loudly, never degrade it quietly.
 """
 from __future__ import annotations
+import re
 import sys
 from datetime import date
 from thb_parser import Row
@@ -66,13 +67,24 @@ def validate(rows: list[Row], today: date | None = None) -> list[str]:
     if len(budget) > 0.03 * len(rows):
         errors.append(f"{len(budget)}/{len(rows)} rows with unexpected missing dates — above 3% budget")
 
-    # 4. Duplicates (same committee + inquiry + report date + response date).
+    # 4. Duplicates. Two keys, because one is not enough: the exact fields,
+    #    and the same words across committee and inquiry however they were
+    #    split between them. The second key is the one that matters — two
+    #    parsers reading the same register line can divide it differently, and
+    #    28 responses were counted twice before this check could see them.
     seen: set[tuple] = set()
     for r in rows:
-        key = (r.committee, r.inquiry, r.report_last_tabled, r.response_tabled)
-        if key in seen and any(key):
+        text = f"{r.committee} {r.inquiry}".lower()
+        words = frozenset(w for w in re.sub(r"[^a-z0-9]+", " ", text).split() if len(w) > 3)
+        exact = (r.committee, r.inquiry, r.report_last_tabled, r.response_tabled)
+        loose = (r.report_last_tabled, r.response_tabled, words)
+        if exact in seen and any(exact):
             errors.append(f"duplicate row: {r.inquiry[:60]!r} {r.response_tabled}")
-        seen.add(key)
+        elif r.report_last_tabled and r.response_tabled and loose in seen:
+            errors.append(f"duplicate response, split differently: "
+                          f"{r.committee[:40]!r} / {r.inquiry[:40]!r} {r.response_tabled}")
+        seen.add(exact)
+        seen.add(loose)
 
     return errors
 

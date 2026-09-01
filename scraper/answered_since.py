@@ -73,6 +73,21 @@ def responses_since(as_at: date) -> list[dict]:
     return out
 
 
+def checked_to() -> str:
+    """The latest tabling date on the response list — how current a build is.
+
+    A register is only as current as the responses it has seen. Publishing the
+    schedule's date alone implies the register is current to today, which it is
+    not: it is current to the last response anyone harvested.
+    """
+    path = DATA / "response_documents.csv"
+    if not path.exists():
+        return ""
+    with open(path, newline="", encoding="utf-8-sig") as f:
+        dates = [max(r["tabled_senate"], r["tabled_house"]) for r in csv.DictReader(f)]
+    return max((d[:10] for d in dates if d), default="")
+
+
 def _links() -> dict[str, list[str]]:
     """report id -> response ids, from OTD's links and the hand-checked file."""
     out: dict[str, list[str]] = {}
