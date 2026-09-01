@@ -27,3 +27,8 @@ node_modules/
 *.local
 
 media/
+
+# Scratch parses written while exploring a source document. The builders write
+# only data/*.csv and data/*_meta.json; anything else under scraper/ledger/ that
+# is not a source document is working-out, not evidence.
+scraper/ledger/*_parsed.json
