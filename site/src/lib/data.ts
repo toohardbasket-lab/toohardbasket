@@ -314,6 +314,38 @@ export function history(): HistoryPoint[] {
     .sort((a, b) => a.asAt.localeCompare(b.asAt));
 }
 
+/**
+ * What the President himself recorded as outstanding, edition by edition.
+ *
+ * The history chart reconstructs the backlog from tabling dates. These are the
+ * counts he actually printed. They are not the same number, and the difference
+ * is not noise: the reconstruction runs about sixty reports high in 2022 and
+ * 2023 and twenty to thirty low after the 2024 clear-out, because the two
+ * count slightly different populations. Publishing both is the only honest way
+ * to show a series that reaches back further than the record does.
+ */
+export interface Snapshot {
+  asAt: string;
+  listed: number;
+  answered: number;
+  outstanding: number;
+  beingConsidered: number;
+}
+
+export function snapshots(): Snapshot[] {
+  if (!fs.existsSync(path.join(DATA_DIR, "schedule_snapshots.csv"))) return [];
+  return read("schedule_snapshots.csv")
+    .filter((r) => r.as_at)
+    .map((r) => ({
+      asAt: r.as_at,
+      listed: num(r.listed) ?? 0,
+      answered: num(r.answered) ?? 0,
+      outstanding: num(r.outstanding) ?? 0,
+      beingConsidered: num(r.being_considered) ?? 0,
+    }))
+    .sort((a, b) => a.asAt.localeCompare(b.asAt));
+}
+
 // -------------------------------------------------------------- the register
 
 /**

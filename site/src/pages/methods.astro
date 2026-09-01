@@ -288,12 +288,24 @@ const asAt = formatDate(observed?.asAt ?? new Date().toISOString().slice(0, 10))
       but often not the report behind it. That is why some report titles on the House
       register are not links: a wrong link is worse than none.
     </p>
+    <p id="backlog">
+      <strong>History before this site existed is reconstructed.</strong> The line on the
+      history chart is recomputed from report and response dates each time the dataset is
+      rebuilt, so it can move if a source record is corrected. Points marked
+      {" "}<em>observed</em> are what the register showed on the day and are never recomputed.
+    </p>
     <p>
-      <strong>History before this site existed is reconstructed.</strong> Points on the
-      history chart marked <em>reconstructed</em> are recomputed from report and response
-      dates each time the dataset is rebuilt, so they can move if a source record is
-      corrected. Points marked <em>observed</em> are what the register showed on the day and
-      are never recomputed.
+      <strong>And the reconstruction is not the same as the record.</strong> The President of
+      the Senate has printed the number outstanding nine times since June 2022, and those
+      counts are the dots on the chart. They do not match the line. Before the 2024
+      clear-out the reconstruction runs about sixty reports high; after it, twenty to thirty
+      low; by mid-2026 they are two apart. The two count slightly different sets — his report
+      excludes categories the response register contains, and includes joint committee
+      reports it does not — so neither is a correction of the other, and the gap is the
+      measure of what a reconstruction cannot see. This page used to say the line was "a
+      floor, not an exact count". On the evidence of his own nine readings it is not
+      reliably a floor, and the chart now shows both rather than asking anyone to take the
+      reconstruction on trust.
     </p>
     <p>
       <strong>Refresh.</strong> A scheduled job rebuilds the dataset every Tuesday morning:

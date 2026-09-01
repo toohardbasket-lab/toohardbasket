@@ -1,11 +1,13 @@
 ---
-import type { HistoryPoint } from "../lib/data";
+import type { HistoryPoint, Snapshot } from "../lib/data";
 
 export interface Props {
   points: HistoryPoint[];
   peak: HistoryPoint;
+  /** What the President printed, on the nine dates he printed it. */
+  observed?: Snapshot[];
 }
-const { points, peak } = Astro.props;
+const { points, peak, observed = [] } = Astro.props;
 
 /**
  * The peak is a month-end point, so it is labelled with its own month rather
@@ -46,6 +48,24 @@ const tableRows = points
   .filter((p) => p.asAt.endsWith("-12-31") || p === last)
   .map((p) => ({ ...p, year: p.asAt.slice(0, 4) }));
 
+/*
+ * The President's own counts, drawn as points rather than a line, because nine
+ * readings four years apart are not a series and joining them would imply
+ * months nobody measured. Where they sit against the reconstruction is the
+ * point: the gap is what the reconstruction cannot see.
+ */
+const marks = observed
+  .filter((o) => Date.parse(o.asAt) >= t0 && Date.parse(o.asAt) <= t1)
+  .map((o) => ({ ...o, cx: +x(o.asAt).toFixed(1), cy: +y(o.outstanding).toFixed(1) }));
+
+const gaps = marks
+  .map((o) => {
+    const nearest = points.filter((p) => p.asAt <= o.asAt).at(-1);
+    return nearest ? nearest.backlog - o.outstanding : 0;
+  })
+  .filter((g) => g !== 0);
+const worstGap = gaps.length ? Math.max(...gaps.map(Math.abs)) : 0;
+
 const hoverData = points.map((p) => ({
   x: +x(p.asAt).toFixed(1),
   y: +y(p.backlog).toFixed(1),
@@ -62,12 +82,21 @@ const hoverData = points.map((p) => ({
       Senate committee reports awaiting a government response, 2003–{last.asAt.slice(0, 4)}
     </h2>
     <p class="chart-note">
-      Monthly. Reconstructed from the tabling dates of every report and every response
-      in the Senate’s registers, so it counts what the record shows today — a floor,
-      not an exact historical count. There is no equivalent for the House: it publishes
-      no register of responses going back that far, so its backlog can be shown as it
-      stands but not as it moved.{" "}
-      <a href="/methods#backlog">How this is built</a>.
+      Monthly, reconstructed from the tabling dates of every report and every response in
+      the Senate’s registers.
+      {marks.length > 1 && (
+        <>
+          {" "}The dots are different: they are the counts the President of the Senate
+          actually printed, in each of the {marks.length} reports he has tabled since
+          {" "}{marks[0].asAt.slice(0, 4)}. The two do not agree — the reconstruction runs
+          high before the 2024 clear-out and low after it, by up to {worstGap} reports —
+          because they count slightly different sets. Where his record exists it is the
+          better number, and it is shown rather than smoothed away.
+        </>
+      )}
+      {" "}There is no equivalent for the House: it publishes no register of responses
+      going back that far, so its backlog can be shown as it stands but not as it moved.
+      {" "}<a href="/methods#backlog">How this is built</a>.
     </p>
   </figcaption>
 
@@ -107,6 +136,14 @@ const hoverData = points.map((p) => ({
       </g>
 
       <line class="crosshair" data-crosshair y1={PAD.top} y2={PAD.top + plotH} x1="0" x2="0" hidden />
+      <g class="observed">
+        {marks.map((o) => (
+          <circle cx={o.cx} cy={o.cy} r="3.5">
+            <title>{`The President's report as at ${o.asAt}: ${fmt(o.outstanding)} outstanding`}</title>
+          </circle>
+        ))}
+      </g>
+
       <circle class="cursor" data-cursor r="4.5" cx="0" cy="0" hidden />
       <rect class="hit" data-hit x={PAD.left} y={PAD.top} width={plotW} height={plotH} />
     </svg>
@@ -162,6 +199,9 @@ const hoverData = points.map((p) => ({
 
   .crosshair { stroke: var(--rule-strong); stroke-width: 1; }
   .cursor { fill: var(--series-1); stroke: var(--surface); stroke-width: 2; }
+  /* The President's own readings: same hue, hollow, so they read as a second
+     kind of thing rather than a second series competing with the line. */
+  .observed circle { fill: var(--surface); stroke: var(--ink); stroke-width: 1.75; }
   .hit { fill: transparent; }
   /* The HTML `hidden` attribute is not reliably honoured on SVG children. */
   svg [hidden] { display: none; }
