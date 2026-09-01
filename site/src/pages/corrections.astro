@@ -1,0 +1,125 @@
+---
+import Base from "../layouts/Base.astro";
+import { corrections, formatDate } from "../lib/data";
+
+/**
+ * The corrections log.
+ *
+ * Three pages promised this before it existed. That is exactly the kind of
+ * claim this project exists to catch other people making, so it is either true
+ * or the sentence comes off the pages.
+ *
+ * An empty log is a real claim, not an absence: it says nothing has needed
+ * correcting since the date given, and anyone can test that against the
+ * repository history. It is published rather than hidden until there is
+ * something in it.
+ */
+const rows = corrections();
+const FIRST_PUBLISHED = "2026-09-01";
+const REPO = "https://github.com/toohardbasket-lab/toohardbasket";
+---
+
+<Base
+  title="Corrections"
+  description="Every correction made to this site since it was published, and how to report one."
+>
+  <section class="wrap measure">
+    <p class="eyebrow">Corrections</p>
+    <h1>Corrections</h1>
+
+    <p class="lede">
+      This site publishes figures drawn from parliamentary records. When one of them is
+      wrong, the useful thing is to fix it quickly and leave a visible record that it was
+      fixed.
+    </p>
+
+    <h2>How to report one</h2>
+    <p>
+      Write to{" "}
+      <a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a>{" "}
+      with the row or figure you think is wrong and, if you have it, the source that shows
+      it. You do not need to be certain — a question is enough, and we would rather check
+      ten things that turn out to be right than publish one that is wrong.
+    </p>
+
+    <h2>What happens then</h2>
+    <p>
+      A correction is made within 24 hours of being confirmed, and listed below with the
+      date, what changed, and the record that settled it. If you reported it and would like
+      to be named, say so and you will be; otherwise the entry says nothing about who
+      raised it.
+    </p>
+    <p>
+      Underneath the list there is a second record that is harder to edit and easier to
+      check: every change to the data and to these pages is a commit in the
+      {" "}<a href={REPO}>public repository</a>, with a timestamp and an explanation. The
+      list below is a plain-English index of the corrections in that history — not a
+      substitute for it.
+    </p>
+    <p>
+      A figure moving is not the same as a correction. Both registers rebuild from their
+      source documents, and the count changes when a government response is tabled or a
+      presiding officer publishes a new schedule. Those movements are the register working,
+      and they are not listed here. What is listed here is us having been wrong.
+    </p>
+
+    <h2 id="log">The log</h2>
+    {rows.length === 0 ? (
+      <p class="empty">
+        <strong>No corrections have been made since this site was published on
+        {" "}{formatDate(FIRST_PUBLISHED)}.</strong>{" "}
+        That is a claim, not a boast, and it is checkable: the repository history shows
+        every change made since then and why.
+      </p>
+    ) : (
+      <table class="register">
+        <thead>
+          <tr>
+            <th scope="col" class="num">Date</th>
+            <th scope="col">Page</th>
+            <th scope="col">What changed</th>
+            <th scope="col">Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((r) => (
+            <tr>
+              <td class="num nowrap">{formatDate(r.date)}</td>
+              <td class="cmte">{r.page}</td>
+              <td>
+                {r.what}
+                {r.reportedBy && <span class="who">Reported by {r.reportedBy}.</span>}
+              </td>
+              <td class="cmte">{r.source}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    )}
+
+    <h2>Errors found before publication</h2>
+    <p>
+      Several were, and they are in the repository history rather than in the list above,
+      because nothing published to this site carried them. The largest is worth naming
+      anyway, because it shows what this log is for: the Senate register was originally
+      built by treating every report on the President's schedule as though it were still
+      awaiting a response. His schedule is not a list of outstanding responses — it is a
+      status list, with a column recording which reports have been answered. Reading that
+      column properly removed about 150 reports that had in fact been answered. The error
+      was found and fixed before the register was published.
+    </p>
+  </section>
+</Base>
+
+<style>
+  h2 { margin-top: 2.25rem; font-size: 1.0625rem; }
+  .empty {
+    border: 1px solid var(--rule);
+    padding: 1rem 1.1rem;
+    background: var(--surface);
+  }
+  table.register td { padding-right: 1rem; }
+  .cmte { color: var(--ink-secondary); font-size: 0.8125rem; }
+  .nowrap { white-space: nowrap; }
+  .who { display: block; font-size: 0.8125rem; color: var(--ink-muted); }
+</style>

@@ -103,6 +103,8 @@ export interface Obligation {
    * reporting period on a report he still lists as awaiting one.
    */
   earlierResponse: string | null;
+  /** The report itself on aph.gov.au, where the Tabled Documents index has it. */
+  url: string | null;
   source: string;
 }
 
@@ -200,6 +202,7 @@ export function ledger(register: RegisterSlug = "senate"): Obligation[] {
       partial: r.partial_response === "True",
       overdue: r.overdue === "True",
       earlierResponse: r.response_out_of_period || null,
+      url: r.report_url || null,
       source: r.source,
     }))
     .filter((r) => r.daysOutstanding > 0)
@@ -376,6 +379,34 @@ export function closures(): ClosureFigures {
       .map(([reason, count]) => ({ reason, label: EXCLUSION_LABELS[reason] ?? reason, count }))
       .sort((a, b) => b.count - a.count),
   };
+}
+
+// ---------------------------------------------------------------- corrections
+
+export interface Correction {
+  date: string;        // ISO date the change was made
+  page: string;        // where it appeared
+  what: string;        // what changed
+  source: string;      // the record that settled it
+  reportedBy: string;  // who told us, if they wanted to be named
+}
+
+/**
+ * The corrections log. Empty is a legitimate state and is published as such —
+ * an empty table is a claim ("nothing has needed correcting since we started"),
+ * which is checkable, where saying nothing at all is not.
+ */
+export function corrections(): Correction[] {
+  return read("corrections.csv")
+    .filter((r) => r.date)
+    .map((r) => ({
+      date: r.date,
+      page: r.page,
+      what: r.what_changed,
+      source: r.source,
+      reportedBy: r.reported_by,
+    }))
+    .sort((a, b) => b.date.localeCompare(a.date));
 }
 
 // ------------------------------------------------- compliance, in more detail
