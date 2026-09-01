@@ -25,7 +25,7 @@ prints a summary.
 """
 from __future__ import annotations
 import csv, json, re, sys, pathlib, urllib.request
-from datetime import date
+from datetime import date, datetime
 from collections import defaultdict
 import pdfplumber
 
@@ -60,6 +60,15 @@ HEADERS = {"Content-Type": "application/json", "Accept": "application/json",
 SCHEDULE_TITLE = re.compile(
     r"president.{0,3}s report to the senate on the status of government responses", re.I)
 AS_AT = re.compile(r"as at (\d{1,2}) ([A-Za-z]+) (\d{4})", re.I)
+
+# Page 2 of the President's report names the document his "Interim*" marks come
+# from, and its date is not his own. His register is as at 30 June; the marks
+# are as at whatever the government last reported. Publishing both dates as one
+# would be dating a March fact June.
+GOVT_REPORT = re.compile(
+    r"Government report on the Status of responses to parliamentary committee reports\s+as at\s+"
+    r"(\d{1,2}\s+[A-Za-z]+\s+\d{4})[^.]*?tabled in the Senate on\s+(\d{1,2}\s+[A-Za-z]+\s+\d{4})",
+    re.I | re.S)
 MONTHS = {m.lower(): i for i, m in enumerate(
     ["January", "February", "March", "April", "May", "June", "July", "August",
      "September", "October", "November", "December"], start=1)}
@@ -191,6 +200,31 @@ def heading_texts(page) -> set[str]:
             for j in range(i + 1, len(block) + 1):
                 out.add(" ".join(block[i:j]))
     return out
+
+
+def government_report_dates(pdf_path: str) -> tuple[str, str]:
+    """When the government last said what it is considering, and when it said it.
+
+    The President's "Interim*" marks are not his own finding: page 2 says the
+    report "should be read in conjunction with the Government report on the
+    Status of responses ... as at 31 March 2026 ... tabled in the Senate on 16
+    April 2026", and that "Interim*" identifies the responses that report calls
+    "being considered". So the register is as at one date and its being-
+    considered column as at an earlier one, and the site has to say so.
+    """
+    with pdfplumber.open(pdf_path) as pdf:
+        text = " ".join((page.extract_text() or "") for page in pdf.pages[:3])
+    text = re.sub(r"\s+", " ", text)
+    m = GOVT_REPORT.search(text)
+    if not m:
+        return "", ""
+    def iso(s: str) -> str:
+        d = datetime.strptime(s.strip(), "%d %B %Y").date()
+        return d.isoformat()
+    try:
+        return iso(m.group(1)), iso(m.group(2))
+    except ValueError:
+        return "", ""
 
 
 def parse_schedule(pdf_path: str, schedule_date: date) -> list[dict]:
@@ -545,6 +579,9 @@ def main(argv):
         "being_considered_at_schedule": sum(1 for r in ledger if r["being_considered"]),
         "partial_response_at_schedule": sum(1 for r in ledger if r["partial_response"]),
     }
+    considered_as_at, considered_tabled = government_report_dates(pdf_path)
+    meta["being_considered_as_at"] = considered_as_at
+    meta["being_considered_tabled"] = considered_tabled
     if info:
         meta.update({"otd_id": info["doc_id"], "otd_url": info["url"],
                      "title": info["title"], "tabled": info["tabled"]})

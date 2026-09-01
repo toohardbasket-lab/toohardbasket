@@ -58,9 +58,16 @@ const statsNote =
   `so this covers months where the Senate's equivalent covers decades. The two are not ` +
   `comparable and should not be quoted against each other.`;
 
+/**
+ * The Speaker's verdict comes first where he has one. The government records
+ * "being considered" against every report it has not answered — including the
+ * nine the Speaker marks as partly answered — so showing that as the status of
+ * all 38 both said less than the record does and contradicted the count of
+ * partial responses in the row above.
+ */
 const statusOf = (r: (typeof rows)[number]): string =>
-  r.beingConsidered ? "Being considered"
-  : r.partial ? "Answered in part"
+  r.partial ? "Answered in part"
+  : r.beingConsidered ? "Being considered"
   : r.overdue ? "Nothing received"
   : "Not yet due";
 
@@ -141,9 +148,31 @@ const byCommittee = [...rows.reduce((m, r) => {
       the government has said about a report — and it can never add a report to this
       register or remove one from it. Which reports are outstanding is the Speaker’s to
       say. All {fmt(sched.governmentReportMatched ?? rows.length)} of the reports the
-      Speaker listed as waiting at 30 June were found in it{considered.length === rows.length
-        ? ", and for every one of them the government records nothing more than that its response is being considered."
-        : `, and ${fmt(considered.length)} of them are recorded that way.`}
+      Speaker listed as waiting at 30 June were found in it, and against every one of them
+      the government records nothing more than that its response is being considered.
+    </p>
+    {sched.governmentStatuses && (
+      <p class="note measure">
+        <strong>How much that is worth saying.</strong> The government’s report has three
+        things it can say about a report, and only three: that a response was tabled on a
+        date ({fmt(sched.governmentStatuses.answered)} of the
+        {" "}{fmt(sched.governmentReportListed ?? 0)} it lists), that a full response has
+        been provided ({fmt(sched.governmentStatuses.full)}), or that the response is being
+        considered ({fmt(sched.governmentStatuses.considered)}). A report it has not
+        answered can only fall in the third. So “being considered” here is close to a
+        restatement of “outstanding”, and the number worth reading is not how many, but how
+        long: {fmt(overOne.length)} of these reports have been under consideration for more
+        than a year and {fmt(overFive.length)} for more than five. On
+        {" "}<a href="/senate/">the Senate register</a> the President distinguishes four
+        states, so the same phrase carries more there.
+      </p>
+    )}
+    <p class="note measure">
+      It also disagrees with the Speaker. He records a partial response for
+      {" "}{fmt(partial.length)} of the reports below — the Joint Committee of Public
+      Accounts and Audit is answered by executive minute, one recommendation at a time — and
+      the government’s report calls those “being considered” too. The status column here
+      follows the Speaker, because his is the record this register publishes.
     </p>
     {(sched.outOfPeriod ?? 0) > 0 && (
       <p class="note measure">

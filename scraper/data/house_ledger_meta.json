@@ -24,6 +24,13 @@
   "being_considered_source": "https://www.aph.gov.au/Parliamentary_Business/Tabled_Documents/17147",
   "being_considered_tabled": "2026-07-01",
   "government_report_matched": 44,
+  "government_report_listed": 104,
+  "government_report_statuses": {
+    "answered": 52,
+    "considered": 49,
+    "full": 3,
+    "other": 0
+  },
   "rows": 38,
   "covers_to": "2026-06-30",
   "rebuilt": "2026-09-01",

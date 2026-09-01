@@ -93,19 +93,18 @@ const chambers = [
     </div>
 
     <p class="gap measure">
-      For <strong>{fmt(f.beingConsidered)}</strong> of the reports on the Senate register — and for
-      {f.house.beingConsidered === f.house.outstanding
-        ? " every one of the "
-        : ` ${fmt(f.house.beingConsidered)} of the `}
-      <strong>{fmt(f.house.outstanding)}</strong> on the House register — the only thing the
-      government has said is that its response is “being considered”. That is its own
-      phrase, from status reports it tables itself.
+      The longest has been waiting <strong>{humanDuration(oldest.daysOutstanding)}</strong>
+      {" "}— {fmt(oldest.daysOutstanding)} days since the {oldest.body} committee tabled{" "}
+      <em>{oldest.title}</em> on {formatDate(oldest.owedSince)}. What the government’s
+      latest status report says about it is that its response is “being considered”.
     </p>
 
     <p class="lede measure">
-      The longest wait is <strong>{humanDuration(oldest.daysOutstanding)}</strong>{" "}
-      — {fmt(oldest.daysOutstanding)} days since the {oldest.body} committee tabled{" "}
-      <em>{oldest.title}</em> on {formatDate(oldest.owedSince)}.
+      That is the government’s own phrase, and it covers most of both registers —
+      {" "}{fmt(f.beingConsidered)} of the {fmt(f.outstanding)} reports on the Senate
+      register, and all {fmt(f.house.outstanding)} on the House register, where it is the
+      only thing the government’s report can say about a report it has not answered.
+      {" "}<a href="/senate/#outstanding">What it means on each register →</a>
     </p>
   </section>
 
@@ -254,7 +253,7 @@ const chambers = [
     line-height: 1.45; margin: 1.75rem 0 0;
     padding-left: 0.9rem; border-left: 2px solid var(--series-1);
   }
-  .hero .lede { margin-top: 1.25rem; }
+  .hero .lede { margin-top: 1.25rem; font-size: 0.9375rem; color: var(--ink-secondary); }
 
   .two-up {
     display: grid; gap: 2rem 3rem; margin-block: 1rem 3rem;

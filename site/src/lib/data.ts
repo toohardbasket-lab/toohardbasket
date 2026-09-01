@@ -169,6 +169,21 @@ export interface ScheduleMeta {
   /** Where the being-considered count came from, when it is a second document. */
   beingConsideredSource?: string;
   beingConsideredTabled?: string;
+  /**
+   * The date the government's status report is as at, which is NOT the date of
+   * the register. The President's report is as at 30 June and his "Interim*"
+   * marks come from a government report as at 31 March; presenting both as one
+   * date would be dating a March fact June.
+   */
+  beingConsideredAsAt?: string;
+  /** House only: how many reports the government's own report lists. */
+  governmentReportListed?: number;
+  /**
+   * House only: how many reports fall into each of the three statuses the
+   * government's report can give. An unanswered report can only be "being
+   * considered", which is why that count is not on its own a finding.
+   */
+  governmentStatuses?: { answered: number; considered: number; full: number; other: number };
   governmentReportMatched?: number;
   /** House only: the presiding officer's own on-time verdict, this period. */
   answeredOnTime?: number;
@@ -205,6 +220,9 @@ export function scheduleMeta(register: RegisterSlug = "senate"): ScheduleMeta {
     outOfPeriod: m.response_out_of_period,
     beingConsideredSource: m.being_considered_source,
     beingConsideredTabled: m.being_considered_tabled,
+    beingConsideredAsAt: m.being_considered_as_at,
+    governmentReportListed: m.government_report_listed,
+    governmentStatuses: m.government_report_statuses,
     governmentReportMatched: m.government_report_matched,
     answeredOnTime: m.answered_on_time,
     answeredWithVerdict: m.answered_with_a_verdict,

@@ -547,6 +547,8 @@ def main() -> None:
     # remove one.
     govt_info = find_government_report(info["tabled"], info.get("parliament"))
     govt_matched = govt_considered = 0
+    govt_rows: list[dict] = []
+    govt_statuses: dict[str, int] = {}
     govt_path = None
     if govt_info:
         govt_path = LEDGER / f"govt_house_{info['as_at'].isoformat()}.pdf"
@@ -555,6 +557,23 @@ def main() -> None:
                                                        file_id=govt_info["file_id"])))
         govt_rows = parse_government_report(govt_path)
         govt_matched, govt_considered = match_government(rows, govt_rows)
+        # What the government's report can say at all. It has three sentences —
+        # tabled on a date, being considered, full response provided — so an
+        # unanswered report can only be "being considered". Saying that every
+        # outstanding report is being considered is therefore close to saying
+        # that it is outstanding, and the page has to admit that rather than
+        # present it as a finding.
+        govt_statuses = {"answered": 0, "considered": 0, "full": 0, "other": 0}
+        for g in govt_rows:
+            text = (g.get("status") or "").lower()
+            if "being considered" in text:
+                govt_statuses["considered"] += 1
+            elif "full response" in text:
+                govt_statuses["full"] += 1
+            elif "tabled on" in text:
+                govt_statuses["answered"] += 1
+            else:
+                govt_statuses["other"] += 1
         print(f"government report: OTD {govt_info['doc_id']} presented "
               f"{govt_info['tabled']}, {len(govt_rows)} reports listed")
         print(f"  matched {govt_matched} of {len(rows)} outstanding reports; "
@@ -600,6 +619,8 @@ def main() -> None:
         "being_considered_source": govt_info["url"] if govt_info else "",
         "being_considered_tabled": govt_info["tabled"] if govt_info else "",
         "government_report_matched": govt_matched,
+        "government_report_listed": len(govt_rows) if govt_info else 0,
+        "government_report_statuses": govt_statuses if govt_info else {},
         "rows": len(rows),
         "covers_to": max(r["report_tabled"] for r in rows),
         "rebuilt": as_at.isoformat(),

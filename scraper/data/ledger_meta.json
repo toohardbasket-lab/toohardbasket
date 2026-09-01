@@ -8,10 +8,16 @@
   "answered_since_schedule": 16,
   "being_considered_at_schedule": 53,
   "partial_response_at_schedule": 13,
+  "being_considered_as_at": "2026-03-31",
+  "being_considered_tabled": "2026-04-16",
   "otd_id": 17446,
   "otd_url": "https://www.aph.gov.au/Parliamentary_Business/Tabled_Documents/17446",
   "title": "President\u2019s report to the Senate on the status of government responses to parliamentary committee reports as at 30 June 2026",
   "tabled": "2026-08-11",
+  "joint_committee": 38,
+  "own_chamber": 44,
+  "on_both_registers": 22,
+  "deadline_differs_across_registers": 1,
   "rows": 82,
   "from_schedule": 82,
   "from_tracker": 0,
@@ -26,9 +32,5 @@
   "removed_by_response_documents": 2,
   "answered_since_schedule_file": "answered_since_senate.csv",
   "covers_responses_to": "2026-08-20",
-  "pruned": "2026-09-01",
-  "joint_committee": 38,
-  "own_chamber": 44,
-  "on_both_registers": 22,
-  "deadline_differs_across_registers": 1
+  "pruned": "2026-09-01"
 }
