@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import BacklogChart from "../components/BacklogChart.astro";
+import StatTiles from "../components/StatTiles.astro";
 import { LAUNCHED } from "../lib/launch";
 import { homeFigures, complianceDetail, humanDuration, inMonths, fmt, formatDate, formatDateShort } from "../lib/data";
 
@@ -12,6 +13,12 @@ const pct = (comp.rate * 100).toFixed(1);
 // The strongest cell in the by-government table is the best one, not the worst:
 // if even the most favourable reading of the most favourable government is in
 // single figures, there is no partisan story to tell.
+const heroStats = [
+  { label: "Waiting over a year", value: fmt(f.overOneYear) },
+  { label: "Waiting over five years", value: fmt(f.overFiveYears) },
+  { label: "Median wait so far", value: `${fmt(f.medianWait)} days` },
+  { label: "Responses that met the deadline", value: `${pct}%` },
+];
 const bestGov = Math.max(...comp.governments.flatMap((g) => [g.byResponse.rate, g.byReport.rate]));
 ---
 
@@ -47,24 +54,7 @@ const bestGov = Math.max(...comp.governments.flatMap((g) => [g.byResponse.rate, 
       {" "}<a href="/house/">The House register →</a>
     </p>
 
-    <dl class="stats">
-      <div>
-        <dt>Waiting over a year</dt>
-        <dd class="num">{fmt(f.overOneYear)}</dd>
-      </div>
-      <div>
-        <dt>Waiting over five years</dt>
-        <dd class="num">{fmt(f.overFiveYears)}</dd>
-      </div>
-      <div>
-        <dt>Median wait so far</dt>
-        <dd class="num">{fmt(f.medianWait)} days</dd>
-      </div>
-      <div>
-        <dt>Responses that met the deadline</dt>
-        <dd class="num">{pct}%</dd>
-      </div>
-    </dl>
+    <StatTiles stats={heroStats} />
   </section>
 
   <section class="wrap">
@@ -159,17 +149,6 @@ const bestGov = Math.max(...comp.governments.flatMap((g) => [g.byResponse.rate, 
     padding-left: 0.9rem; border-left: 2px solid var(--series-1);
   }
 
-  .stats {
-    display: grid; gap: 1px; margin: 2rem 0 0;
-    grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr));
-    background: var(--rule); border-block: 1px solid var(--rule);
-  }
-  .stats > div { background: var(--surface); padding: 0.9rem 1rem 1rem 0; }
-  .stats dt {
-    font-size: 0.6875rem; letter-spacing: 0.09em; text-transform: uppercase;
-    color: var(--ink-muted); margin-bottom: 0.35rem;
-  }
-  .stats dd { margin: 0; font-size: 1.375rem; font-weight: 600; }
 
   .two-up {
     display: grid; gap: 2rem 3rem; margin-block: 1rem 3rem;

@@ -1,0 +1,71 @@
+---
+/**
+ * The row of headline figures at the top of a register or the home page.
+ *
+ * One component rather than three copies of the same CSS, because the register
+ * spec requires both registers to look and read the same, and three copies
+ * drift. Both registers pass the same six figures in the same order; only the
+ * deadline length differs, because the chambers ask for different things.
+ *
+ * Each tile is a flex column with the number pushed to the bottom, so a label
+ * that wraps onto two lines does not shove its number out of line with the
+ * others. Everything is centred and evenly padded — left-aligned numbers sat
+ * hard against the divider and read as though they belonged to the tile before.
+ */
+interface Stat {
+  label: string;
+  value: string;
+}
+interface Props {
+  stats: Stat[];
+}
+const { stats } = Astro.props;
+---
+
+<dl class="stats">
+  {stats.map((s) => (
+    <div>
+      <dt>{s.label}</dt>
+      <dd class="num">{s.value}</dd>
+    </div>
+  ))}
+</dl>
+
+<style>
+  .stats {
+    display: grid;
+    gap: 1px;
+    margin: 2rem 0 0;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    background: var(--rule);
+    border-block: 1px solid var(--rule);
+  }
+  .stats > div {
+    display: flex;
+    flex-direction: column;
+    background: var(--surface);
+    padding: 1rem 0.85rem 1.1rem;
+    text-align: center;
+  }
+  .stats dt {
+    font-size: 0.6875rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    line-height: 1.35;
+    margin-bottom: 0.5rem;
+    text-wrap: balance;
+  }
+  .stats dd {
+    margin: auto 0 0;          /* bottom-aligned, so numbers line up across tiles */
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.1;
+  }
+  @media (max-width: 30rem) {
+    .stats { grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr)); }
+    .stats > div { padding: 0.85rem 0.6rem 0.9rem; }
+    .stats dd { font-size: 1.3rem; }
+  }
+</style>

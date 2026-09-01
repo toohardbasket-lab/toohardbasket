@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import RegisterControls from "../../components/RegisterControls.astro";
+import StatTiles from "../../components/StatTiles.astro";
 import { ledger, complianceDetail, history, humanDuration, fmt, formatDate, formatDateShort, inMonths, scheduleMeta } from "../../lib/data";
 import { registerBySlug } from "../../lib/registers";
 import { LAUNCHED } from "../../lib/launch";
@@ -15,6 +16,23 @@ const sched = scheduleMeta();
 const overFive = rows.filter((r) => r.daysOutstanding > 1826);
 const overOne = rows.filter((r) => r.daysOutstanding > 365);
 const considered = rows.filter((r) => r.beingConsidered);
+const overdue = rows.filter((r) => r.overdue);
+const withinTime = rows.filter((r) => !r.overdue);
+
+/**
+ * The same six figures, in the same order, as the House register. Only the
+ * deadline differs, because the chambers ask for different things — and the
+ * compliance rate is not among them: it measures 26 years of responses, not
+ * what is owed now, and it has its own section below.
+ */
+const stats = [
+  { label: "Awaiting a response", value: fmt(rows.length) },
+  { label: "Told it is being considered", value: fmt(considered.length) },
+  { label: "Past the three-month deadline", value: fmt(overdue.length) },
+  { label: "Still within time", value: fmt(withinTime.length) },
+  { label: "Waiting over a year", value: fmt(overOne.length) },
+  { label: "Waiting over five years", value: fmt(overFive.length) },
+];
 
 /** The status column of the schedule, in the register's own words. */
 const statusOf = (r: (typeof rows)[number]): string =>
@@ -49,13 +67,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       whatever that response says.
     </p>
 
-    <dl class="stats">
-      <div><dt>Awaiting a response</dt><dd class="num">{fmt(rows.length)}</dd></div>
-      <div><dt>Told it is being considered</dt><dd class="num">{fmt(considered.length)}</dd></div>
-      <div><dt>Waiting over a year</dt><dd class="num">{fmt(overOne.length)}</dd></div>
-      <div><dt>Waiting over five years</dt><dd class="num">{fmt(overFive.length)}</dd></div>
-      <div><dt>Met the three-month deadline</dt><dd class="num">{(comp.rate * 100).toFixed(1)}%</dd></div>
-    </dl>
+    <StatTiles stats={stats} />
   </section>
 
   <section class="wrap">
@@ -257,15 +269,6 @@ const byCommittee = [...rows.reduce((m, r) => {
   h2 { margin-top: 2.5rem; }
   .note { font-size: 0.875rem; color: var(--ink-muted); }
 
-  .stats {
-    display: grid; gap: 1px; margin: 2rem 0 0;
-    grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr));
-    background: var(--rule); border-block: 1px solid var(--rule);
-  }
-  .stats > div { background: var(--surface); padding: 0.9rem 1rem 1rem 0; }
-  .stats dt { font-size: 0.6875rem; letter-spacing: 0.09em; text-transform: uppercase;
-              color: var(--ink-muted); margin-bottom: 0.35rem; }
-  .stats dd { margin: 0; font-size: 1.375rem; font-weight: 600; }
 
   table.register td { padding-right: 1rem; }
   .cmte, .src { color: var(--ink-secondary); font-size: 0.8125rem; }
