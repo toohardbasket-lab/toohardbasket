@@ -1,5 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
+import RegisterControls from "../../components/RegisterControls.astro";
 import { ledger, scheduleMeta, humanDuration, fmt, formatDate, formatDateShort } from "../../lib/data";
 import { registerBySlug } from "../../lib/registers";
 
@@ -130,10 +131,16 @@ const byCommittee = [...rows.reduce((m, r) => {
       {" "}<a href="/methods">How this is built</a>.
     </p>
     <p class="note measure">
+      Report titles link to the report itself on the Parliament's website where the Tabled
+      Documents index has it. That index begins in 2022, so reports tabled before then are
+      listed here without a link rather than with a guessed one.
+    </p>
+    <p class="note measure">
       <em>Being considered</em> is the government’s own sentence, from its status report,
       not a characterisation of ours.
     </p>
-    <table class="register">
+    <RegisterControls target="house-register" noun="reports" />
+    <table class="register" id="house-register">
       <thead>
         <tr>
           <th scope="col" class="num">Waiting</th>
@@ -146,12 +153,19 @@ const byCommittee = [...rows.reduce((m, r) => {
       </thead>
       <tbody>
         {rows.map((r) => (
-          <tr>
+          <tr
+            data-days={r.daysOutstanding}
+            data-title={r.title}
+            data-committee={r.body}
+            data-search={`${r.title} ${r.body} ${statusOf(r)} ${formatDateShort(r.owedSince)} ${r.owedSince}`.toLowerCase()}
+          >
             <td class="num nowrap">
               {fmt(r.daysOutstanding)} days
               <span class="human">{humanDuration(r.daysOutstanding)}</span>
             </td>
-            <td>{r.title}</td>
+            <td>{r.url
+              ? <a href={r.url} rel="external">{r.title}</a>
+              : r.title}</td>
             <td class="cmte">{r.body}</td>
             <td class="num nowrap">{formatDateShort(r.owedSince)}</td>
             <td class="src">{statusOf(r)}</td>
@@ -203,7 +217,9 @@ const byCommittee = [...rows.reduce((m, r) => {
       The whole register is available as CSV in the
       <a href="https://github.com/toohardbasket-lab/toohardbasket">public repository</a>,
       licensed CC BY 4.0. If you believe a row is wrong, please write to
-      <a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a>.
+      <a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a> —
+      corrections are made within 24 hours of being confirmed and listed in the
+      {" "}<a href="/corrections/">corrections log</a>.
     </p>
   </section>
 </Base>

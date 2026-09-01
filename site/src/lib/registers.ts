@@ -22,16 +22,10 @@ export interface Register {
   status: "live" | "planned";
 }
 
+// Order matters: this is the order of the nav and of every list of registers
+// on the site. The House comes first because its rule is the one most readers
+// have heard of and its chamber is the one they can name.
 export const REGISTERS: Register[] = [
-  {
-    slug: "senate",
-    name: "Senate committee reports",
-    shortName: "Senate",
-    claimant: "the Senate",
-    rule: "a response within three months of the report being tabled",
-    ruleSince: "14 March 1973",
-    status: "live",
-  },
   {
     slug: "house",
     name: "House of Representatives committee reports",
@@ -39,6 +33,15 @@ export const REGISTERS: Register[] = [
     claimant: "the House of Representatives",
     rule: "a response within six months of the report being tabled",
     ruleSince: "29 September 2010",
+    status: "live",
+  },
+  {
+    slug: "senate",
+    name: "Senate committee reports",
+    shortName: "Senate",
+    claimant: "the Senate",
+    rule: "a response within three months of the report being tabled",
+    ruleSince: "14 March 1973",
     status: "live",
   },
   {

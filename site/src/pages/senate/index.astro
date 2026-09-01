@@ -1,5 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
+import RegisterControls from "../../components/RegisterControls.astro";
 import { ledger, complianceDetail, history, humanDuration, fmt, formatDate, formatDateShort, inMonths, scheduleMeta } from "../../lib/data";
 import { registerBySlug } from "../../lib/registers";
 import { LAUNCHED } from "../../lib/launch";
@@ -94,7 +95,13 @@ const byCommittee = [...rows.reduce((m, r) => {
       as the government saying only that “the Government’s response is being considered”.
       <a href="/methods">How this is built</a>.
     </p>
-    <table class="register">
+    <p class="note measure">
+      Report titles link to the report itself on the Parliament's website where the Tabled
+      Documents index has it. That index begins in 2022, so reports tabled before then are
+      listed here without a link rather than with a guessed one.
+    </p>
+    <RegisterControls target="senate-register" noun="reports" />
+    <table class="register" id="senate-register">
       <thead>
         <tr>
           <th scope="col" class="num">Waiting</th>
@@ -107,12 +114,19 @@ const byCommittee = [...rows.reduce((m, r) => {
       </thead>
       <tbody>
         {rows.map((r) => (
-          <tr>
+          <tr
+            data-days={r.daysOutstanding}
+            data-title={r.title}
+            data-committee={r.body}
+            data-search={`${r.title} ${r.body} ${statusOf(r)} ${formatDateShort(r.owedSince)} ${r.owedSince}`.toLowerCase()}
+          >
             <td class="num nowrap">
               {fmt(r.daysOutstanding)} days
               <span class="human">{humanDuration(r.daysOutstanding)}</span>
             </td>
-            <td>{r.title}</td>
+            <td>{r.url
+              ? <a href={r.url} rel="external">{r.title}</a>
+              : r.title}</td>
             <td class="cmte">{r.body}</td>
             <td class="num nowrap">{formatDateShort(r.owedSince)}</td>
             <td class="src">{statusOf(r)}</td>
@@ -232,7 +246,8 @@ const byCommittee = [...rows.reduce((m, r) => {
       <a href="https://github.com/toohardbasket-lab/toohardbasket">public repository</a>,
       licensed CC BY 4.0. If you believe a row is wrong, please write to
       <a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a> —
-      corrections are made within 24 hours and logged.
+      corrections are made within 24 hours of being confirmed and listed in the
+      {" "}<a href="/corrections/">corrections log</a>.
     </p>
   </section>
 </Base>
