@@ -91,11 +91,18 @@ def norm_tokens(s: str) -> frozenset[str]:
     return frozenset(w for w in re.sub(r"[^a-z0-9 ]", " ", s.lower()).split() if len(w) > 3)
 
 
-def latest_tracker() -> pathlib.Path:
+def latest_tracker() -> pathlib.Path | None:
+    """The most recent tracker dump, if one is in the repository.
+
+    There need not be one. The dump is a pasted artefact that cannot be
+    regenerated from a URL, which is why it can only ever add reports the
+    President has not yet reported on and can never subtract or override. Once
+    a President's report covers the same ground the dump is dead weight in a
+    public repository, and the register is better off without it than with an
+    unattributable file nobody can check.
+    """
     files = sorted(glob.glob(str(HERE / "ledger" / "tracker_*.txt")))
-    if not files:
-        raise SystemExit("no ledger/tracker_*.txt dump found — refusing to build")
-    return pathlib.Path(files[-1])
+    return pathlib.Path(files[-1]) if files else None
 
 
 def from_schedule() -> list[dict]:
@@ -182,7 +189,7 @@ def main(argv: list[str]) -> int:
 
     as_at = schedule_as_at()
     schedule = from_schedule()
-    tracker = from_tracker(tracker_path, as_at)
+    tracker = from_tracker(tracker_path, as_at) if tracker_path else []
 
     # The schedule is the register. An empty one means something upstream broke,
     # and publishing a halved count is worse than publishing nothing.
@@ -227,7 +234,8 @@ def main(argv: list[str]) -> int:
     interim_responses = sum(1 for r in rows if r["interim_response"])
     print(f"as at {today}: {len(rows)} reports outstanding "
           f"({len(schedule)} from the President's report as at {as_at}, "
-          f"{len(tracker)} carried from the tracker dump {tracker_path.name} for "
+          f"{len(tracker)} carried from the tracker dump "
+          f"{tracker_path.name if tracker_path else '(none in the repository)'} for "
           f"reports tabled since, {duplicates} listed in both)")
     if not tracker:
         print("  the tracker adds nothing this build — every row is the President's")
@@ -256,8 +264,9 @@ def main(argv: list[str]) -> int:
         "not_yet_due": len(rows) - overdue,
         "being_considered": considered,
         "partial_response": partial,
-        "tracker_dump": tracker_path.name if tracker else "",
-        "tracker_dumped": tracker_path.stem.replace("tracker_", ""),
+        "tracker_dump": tracker_path.name if (tracker and tracker_path) else "",
+        "tracker_dumped": (tracker_path.stem.replace("tracker_", "")
+                           if (tracker and tracker_path) else ""),
         "covers_to": max([as_at.isoformat()] + [r["report_tabled"] for r in tracker]),
         "rebuilt": today.isoformat(),
     })
