@@ -403,6 +403,46 @@ export function closures(): ClosureFigures {
 
 // ---------------------------------------------------------------- corrections
 
+/**
+ * The reports removed from a register because the government answered them
+ * after the schedule was printed.
+ *
+ * A schedule is a snapshot and the register is not: between the presiding
+ * officer's as-at date and today the government keeps tabling responses, and
+ * every one of those is a report the register would otherwise show as
+ * unanswered. Removing them silently is not enough — the count on the page
+ * would then differ from the presiding officer's own and nothing would say
+ * why — so each removal is published with the response that caused it.
+ */
+export interface AnsweredSince {
+  title: string;
+  body: string;
+  owedSince: string;
+  responseId: string;
+  responseTabled: string;
+  responseTitle: string;
+  basis: string;
+  url: string;
+}
+
+export function answeredSince(register: RegisterSlug): AnsweredSince[] {
+  const file = `answered_since_${register}.csv`;
+  if (!fs.existsSync(path.join(DATA_DIR, file))) return [];
+  return read(file)
+    .filter((r) => r.response_id)
+    .map((r) => ({
+      title: r.title,
+      body: r.committee,
+      owedSince: r.report_tabled,
+      responseId: r.response_id,
+      responseTabled: r.response_tabled,
+      responseTitle: r.response_title,
+      basis: r.removal_basis,
+      url: `https://www.aph.gov.au/Parliamentary_Business/Tabled_Documents/${r.response_id}`,
+    }))
+    .sort((a, b) => a.responseTabled.localeCompare(b.responseTabled));
+}
+
 export interface Correction {
   date: string;        // ISO date the change was made
   page: string;        // where it appeared

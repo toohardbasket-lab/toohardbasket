@@ -2,7 +2,8 @@
 import Base from "../../layouts/Base.astro";
 import RegisterControls from "../../components/RegisterControls.astro";
 import StatTiles from "../../components/StatTiles.astro";
-import { ledger, complianceDetail, history, humanDuration, fmt, formatDate, formatDateShort, inMonths, scheduleMeta } from "../../lib/data";
+import AnsweredSinceList from "../../components/AnsweredSince.astro";
+import { ledger, answeredSince, complianceDetail, history, humanDuration, fmt, formatDate, formatDateShort, inMonths, scheduleMeta } from "../../lib/data";
 import { registerBySlug } from "../../lib/registers";
 import { LAUNCHED } from "../../lib/launch";
 
@@ -13,6 +14,7 @@ const observed = history().filter((p) => p.basis === "observed").at(-1);
 const asAt = formatDate(observed?.asAt ?? new Date().toISOString().slice(0, 10));
 
 const sched = scheduleMeta();
+const removedSince = answeredSince("senate");
 const overFive = rows.filter((r) => r.daysOutstanding > 1826);
 const overOne = rows.filter((r) => r.daysOutstanding > 365);
 const considered = rows.filter((r) => r.beingConsidered);
@@ -38,7 +40,7 @@ const statsNote =
   `Met the deadline is the only figure here not drawn from the current schedule: ` +
   `it is every response since ${comp.firstYear} whose report date the Senate's register ` +
   `records — ${fmt(comp.onTime)} of ${fmt(comp.assessable)} arrived within three months. ` +
-  `The other five describe what is owed today.`;
+  `The other six describe what is owed today.`;
 
 /** The status column of the schedule, in the register's own words. */
 const statusOf = (r: (typeof rows)[number]): string =>
@@ -88,13 +90,15 @@ const byCommittee = [...rows.reduce((m, r) => {
     </p>
     <p class="note measure">
       Since that date {fmt(sched.answeredSince)} more responses have been tabled, and those
-      reports have been removed. The Senate also runs a live tracker of reports awaiting a
+      reports have been removed — a report the government has answered must not be
+      published here as waiting. The Senate also runs a live tracker of reports awaiting a
       response; it is carried here only for reports tabled after the President’s date, so it
       can add to the register but never overrule it.
       {sched.fromTracker === 0
         ? " On this build it adds nothing, and every row below is the President’s."
         : ` On this build it adds ${fmt(sched.fromTracker)} ${sched.fromTracker === 1 ? "report" : "reports"}, each marked in the source column.`}
     </p>
+    <AnsweredSinceList rows={removedSince} officer="the President" />
     <p class="note measure">
       <strong>What it does not have:</strong> reports tabled after
       {" "}{formatDate(sched.coversTo)}, which neither source yet lists; anything the

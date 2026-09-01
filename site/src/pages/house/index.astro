@@ -2,7 +2,8 @@
 import Base from "../../layouts/Base.astro";
 import RegisterControls from "../../components/RegisterControls.astro";
 import StatTiles from "../../components/StatTiles.astro";
-import { ledger, scheduleMeta, humanDuration, fmt, formatDate, formatDateShort } from "../../lib/data";
+import AnsweredSinceList from "../../components/AnsweredSince.astro";
+import { ledger, scheduleMeta, answeredSince, humanDuration, fmt, formatDate, formatDateShort } from "../../lib/data";
 import { registerBySlug } from "../../lib/registers";
 
 /**
@@ -18,6 +19,7 @@ import { registerBySlug } from "../../lib/registers";
 const reg = registerBySlug("house")!;
 const rows = ledger("house");
 const sched = scheduleMeta("house");
+const removedSince = answeredSince("house");
 
 const overdue = rows.filter((r) => r.overdue);
 const notYetDue = rows.filter((r) => !r.overdue);
@@ -90,6 +92,13 @@ const byCommittee = [...rows.reduce((m, r) => {
       response received for {fmt(sched.answeredAtSchedule)} of them. The rest are here.
     </p>
     <p class="note measure">
+      Since that date {fmt(sched.answeredSince)} more responses have been tabled, and those
+      reports have been removed — a report the government has answered must not be
+      published here as waiting. That is why this register shows {fmt(rows.length)} where the
+      Speaker's schedule lists {fmt(sched.listed - sched.answeredAtSchedule)} still waiting.
+    </p>
+    <AnsweredSinceList rows={removedSince} officer="the Speaker" />
+    <p class="note measure">
       Whether a report is past its deadline is the Speaker’s judgement, not ours: the
       resolution of {reg.ruleSince} gives six months but excludes any period when the House
       was dissolved, so the interval cannot simply be counted off a calendar.
@@ -102,8 +111,8 @@ const byCommittee = [...rows.reduce((m, r) => {
       sentence to an asterisk in his report. It is read here for one purpose — to say what
       the government has said about a report — and it can never add a report to this
       register or remove one from it. Which reports are outstanding is the Speaker’s to
-      say. All {fmt(sched.governmentReportMatched ?? rows.length)} reports below were found
-      in it{considered.length === rows.length
+      say. All {fmt(sched.governmentReportMatched ?? rows.length)} of the reports the
+      Speaker lists as waiting were found in it{considered.length === rows.length
         ? ", and for every one of them the government records nothing more than that its response is being considered."
         : `, and ${fmt(considered.length)} of them are recorded that way.`}
     </p>
