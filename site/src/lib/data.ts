@@ -199,6 +199,15 @@ export interface ScheduleMeta {
    * seen, and that is not the same as the schedule's date or as today.
    */
   responsesCheckedTo?: string;
+  /**
+   * The back run of the presiding officer's own reports. Nine editions of the
+   * President's report are on the public register, twice a year since June
+   * 2022, and reading all of them is what turns "the government says its
+   * response is being considered" from a status into a duration.
+   */
+  editionsRead?: number;
+  editionsFrom?: string;
+  consideredEveryEdition?: number;
   /** House only: the presiding officer's own on-time verdict, this period. */
   answeredOnTime?: number;
   answeredWithVerdict?: number;
@@ -244,6 +253,9 @@ export function scheduleMeta(register: RegisterSlug = "senate"): ScheduleMeta {
     governmentStatuses: m.government_report_statuses,
     governmentReportMatched: m.government_report_matched,
     responsesCheckedTo: m.responses_checked_to,
+    editionsRead: m.editions_read,
+    editionsFrom: m.editions_from,
+    consideredEveryEdition: m.being_considered_every_edition,
     answeredOnTime: m.answered_on_time,
     answeredWithVerdict: m.answered_with_a_verdict,
     onTimeRate: m.on_time_rate,

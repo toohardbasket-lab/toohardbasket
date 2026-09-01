@@ -167,6 +167,19 @@ const byCommittee = [...rows.reduce((m, r) => {
       report as the government saying only that “the Government’s response is being
       considered”.{" "}<a href="/methods">How this is built</a>.
     </p>
+    {(sched.editionsRead ?? 0) > 1 && (
+      <p class="note measure">
+        <strong>How long it has been saying it.</strong> The President has tabled
+        {" "}{fmt(sched.editionsRead ?? 0)} of these reports since
+        {" "}{formatDate(sched.editionsFrom ?? "")}, and every one of them is on the public
+        record. Reading all {fmt(sched.editionsRead ?? 0)}:
+        {" "}<strong>{fmt(sched.consideredEveryEdition ?? 0)}</strong> of the reports below
+        have been marked “being considered” in every single edition — the government has said
+        the same thing about them, twice a year, for {sched.editionsRead === 9 ? "four" : ""}
+        {" "}years. That is a count of consecutive editions, not an estimate: where a report’s
+        title is written differently in an older edition the run is broken and counted short.
+      </p>
+    )}
     {sched.beingConsideredAsAt && (
       <p class="note measure">
         <strong>That column has its own date.</strong> The President takes those marks from

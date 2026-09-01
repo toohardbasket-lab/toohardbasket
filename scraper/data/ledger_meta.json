@@ -39,5 +39,9 @@
     "492",
     "504"
   ],
-  "responses_checked_to": "2026-08-27"
+  "responses_checked_to": "2026-08-27",
+  "editions_read": 9,
+  "editions_from": "2022-06-30",
+  "being_considered_every_edition": 5,
+  "longest_being_considered_run": 9
 }
