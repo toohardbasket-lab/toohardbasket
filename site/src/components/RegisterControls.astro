@@ -1,0 +1,156 @@
+---
+/**
+ * Search and sort for a register table.
+ *
+ * Both registers use this, unchanged, because a reader moving between them
+ * should not have to learn anything new (claude/thb-register-spec.md).
+ *
+ * It works on a table that is already complete and correct in the HTML. The
+ * controls are hidden until the script runs, so a reader without JavaScript
+ * gets the full register as a plain table rather than a row of dead inputs —
+ * and a reader with a slow connection never sees an empty table waiting to be
+ * filled. Nothing is fetched, nothing is paginated, and no library is loaded.
+ *
+ * The table's rows must carry:
+ *   data-days   number, for sorting by how long a report has waited
+ *   data-title  the report title, for sorting alphabetically
+ *   data-search the lowercased text to match a query against
+ */
+interface Props {
+  /** id of the table to control */
+  target: string;
+  /** what one row is, in prose: "reports" */
+  noun?: string;
+}
+const { target, noun = "reports" } = Astro.props;
+const id = `controls-${target}`;
+---
+
+<div class="controls" id={id} data-target={target} data-noun={noun} hidden>
+  <div class="field">
+    <label for={`${id}-q`}>Search</label>
+    <input
+      type="search"
+      id={`${id}-q`}
+      placeholder="report, committee or year"
+      autocomplete="off"
+      spellcheck="false"
+    />
+  </div>
+  <div class="field">
+    <label for={`${id}-sort`}>Order</label>
+    <select id={`${id}-sort`}>
+      <option value="longest">Longest waiting first</option>
+      <option value="shortest">Shortest waiting first</option>
+      <option value="title">Report title, A–Z</option>
+      <option value="committee">Committee, A–Z</option>
+    </select>
+  </div>
+  <p class="count" role="status" aria-live="polite"></p>
+</div>
+
+<script>
+  // One controller per table on the page, wired from the markup above.
+  document.querySelectorAll<HTMLElement>(".controls[data-target]").forEach((panel) => {
+    const table = document.getElementById(panel.dataset.target!) as HTMLTableElement | null;
+    const body = table?.tBodies[0];
+    if (!body) return;
+
+    const noun = panel.dataset.noun ?? "rows";
+    const search = panel.querySelector("input[type=search]") as HTMLInputElement;
+    const order = panel.querySelector("select") as HTMLSelectElement;
+    const count = panel.querySelector(".count") as HTMLParagraphElement;
+    const rows = Array.from(body.rows);
+    const total = rows.length;
+
+    // An empty-result message, inserted once and reused.
+    const empty = document.createElement("tr");
+    empty.className = "no-match";
+    const cell = document.createElement("td");
+    cell.colSpan = table!.tHead?.rows[0]?.cells.length ?? 1;
+    empty.appendChild(cell);
+
+    const num = (r: HTMLTableRowElement) => Number(r.dataset.days ?? 0);
+    const text = (r: HTMLTableRowElement, k: string) => (r.dataset[k] ?? "").toLowerCase();
+
+    const sorters: Record<string, (a: HTMLTableRowElement, b: HTMLTableRowElement) => number> = {
+      longest: (a, b) => num(b) - num(a),
+      shortest: (a, b) => num(a) - num(b),
+      title: (a, b) => text(a, "title").localeCompare(text(b, "title")),
+      committee: (a, b) =>
+        text(a, "committee").localeCompare(text(b, "committee")) || num(b) - num(a),
+    };
+
+    function apply() {
+      const q = search.value.trim().toLowerCase();
+      const terms = q.split(/\s+/).filter(Boolean);
+      const shown = rows.filter((r) => {
+        const hay = r.dataset.search ?? "";
+        return terms.every((t) => hay.includes(t));
+      });
+      shown.sort(sorters[order.value] ?? sorters.longest);
+
+      empty.remove();
+      for (const r of rows) if (!shown.includes(r)) r.remove();
+      for (const r of shown) body.appendChild(r);
+
+      if (shown.length === 0) {
+        cell.textContent = `No ${noun} match “${search.value.trim()}”.`;
+        body.appendChild(empty);
+      }
+      count.textContent =
+        shown.length === total
+          ? `${total} ${noun}`
+          : `${shown.length} of ${total} ${noun}`;
+    }
+
+    search.addEventListener("input", apply);
+    order.addEventListener("change", apply);
+    panel.hidden = false;
+    apply();
+  });
+</script>
+
+<style>
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: 1rem 1.25rem;
+    margin: 1.25rem 0 0.75rem;
+    padding-bottom: 0.9rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .field { display: flex; flex-direction: column; gap: 0.3rem; }
+  .controls label {
+    font-size: 0.6875rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+  }
+  .controls input,
+  .controls select {
+    font: inherit;
+    font-size: 0.875rem;
+    padding: 0.4rem 0.55rem;
+    border: 1px solid var(--rule);
+    background: var(--surface);
+    color: inherit;
+    border-radius: 2px;
+    min-width: 14rem;
+  }
+  .controls select { min-width: 12rem; }
+  .controls input:focus-visible,
+  .controls select:focus-visible { outline: 2px solid currentColor; outline-offset: 1px; }
+  .count {
+    margin: 0 0 0.15rem auto;
+    font-size: 0.8125rem;
+    color: var(--ink-muted);
+    font-variant-numeric: tabular-nums;
+  }
+  @media (max-width: 34rem) {
+    .controls input, .controls select { min-width: 0; width: 100%; }
+    .field { width: 100%; }
+    .count { margin-left: 0; }
+  }
+</style>
