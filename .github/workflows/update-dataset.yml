@@ -29,7 +29,10 @@ jobs:
       # in the corpus as neither a closure nor a substantive response and so
       # understates the closure rate.
       - run: sudo apt-get update && sudo apt-get install -y tesseract-ocr
-      - run: pip install requests beautifulsoup4 pdfplumber pytesseract pypdfium2 playwright && playwright install chromium --with-deps
+      # Pinned in scraper/requirements.txt. What these libraries do with an
+      # awkward PDF or a malformed tag IS the dataset, so an upgrade has to be
+      # a decision someone took rather than whatever shipped that morning.
+      - run: pip install -r requirements.txt && playwright install chromium --with-deps
       - name: Parser tests (gate)
         run: python tests/test_parser.py
       - name: Build dataset

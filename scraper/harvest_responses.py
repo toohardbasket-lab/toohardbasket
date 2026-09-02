@@ -28,7 +28,11 @@ import json
 import pathlib
 import sys
 import urllib.request
-from datetime import date
+from datetime import date, timedelta
+
+# How far back to re-read the register each run. See main() — the watermark
+# alone loses anything back-dated onto a day already seen.
+LOOK_BACK_DAYS = 30
 
 HERE = pathlib.Path(__file__).parent
 DATA = HERE / "data"
@@ -48,7 +52,22 @@ def search(page: int, size: int = 100) -> dict:
                                  headers={"Content-Type": "application/json",
                                           "Accept": "application/json"})
     with urllib.request.urlopen(req, timeout=60) as r:
-        return json.load(r)
+        data = json.load(r)
+    # A 200 whose shape has changed must not read as a quiet week. Without this,
+    # a renamed field would make every page yield no results, the step would
+    # print "nothing new" and exit 0, and the registers would go on publishing
+    # answered reports as waiting for as long as nobody noticed.
+    if not isinstance(data, dict) or "results" not in data:
+        raise SystemExit(
+            f"The Tabled Documents search returned a {type(data).__name__} with keys "
+            f"{sorted(data)[:8] if isinstance(data, dict) else '—'}; expected an object "
+            "with 'results'. The API has changed shape. Stopping rather than reporting "
+            "no new responses.")
+    rs = data.get("results")
+    if rs and not all(isinstance(d, dict) and "id" in d for d in rs):
+        raise SystemExit("The search returned results without an 'id'. The API has changed "
+                         "shape. Stopping rather than reporting no new responses.")
+    return data
 
 
 def iso(value) -> str:
@@ -61,9 +80,17 @@ def main(argv: list[str]) -> int:
         fields = list(rows[0].keys())
     known = {r["id"] for r in rows}
     seen_to = max((max(r["tabled_senate"], r["tabled_house"]) for r in rows), default="")
-    since = argv[argv.index("--since") + 1] if "--since" in argv else seen_to[:10]
+    # A month's look-back, not "everything after the newest date on file". A
+    # document tabled on a day already on file but added to the register a week
+    # later would otherwise be skipped for ever, silently, because its date is
+    # not after the watermark. Ids are de-duplicated a few lines down, so
+    # re-reading a month of metadata costs nothing but the same seven calls.
+    default_since = ""
+    if seen_to:
+        default_since = (date.fromisoformat(seen_to[:10]) - timedelta(days=LOOK_BACK_DAYS)).isoformat()
+    since = argv[argv.index("--since") + 1] if "--since" in argv else default_since
     print(f"{len(rows)} responses on file, latest tabled {seen_to[:10] or 'unknown'}; "
-          f"looking for anything tabled after {since}")
+          f"re-reading everything tabled after {since or 'the beginning'}")
 
     found, pages = [], search(1).get("pageCount", 1)
     for page in range(1, pages + 1):

@@ -128,6 +128,48 @@ def the_removals_are_counted_and_listed_alike() -> None:
             ok(f"{reg}: {claimed} removal(s) counted, {listed} listed")
 
 
+def nothing_has_gone_backwards() -> None:
+    """Compare this build against the one in the repository.
+
+    The parser tests run on fixtures and the validator checks two historical
+    totals. Neither would notice a StatsNet or Tabled Documents layout change
+    that degraded the read rather than breaking it — half the rows parsed, a
+    date column landing empty — because the result is a smaller, perfectly
+    well-formed dataset. What that looks like from outside is the backlog
+    falling. The previous commit is the only baseline that is always to hand,
+    and it is free.
+    """
+    import io
+    import subprocess
+    for name, key in (("response_documents.csv", "id"),
+                      ("responses.csv", None),
+                      ("recommendations.csv", None)):
+        try:
+            old_text = subprocess.run(
+                ["git", "show", f"HEAD:scraper/data/{name}"],
+                cwd=HERE.parent, capture_output=True, text=True, check=True).stdout
+        except Exception:
+            continue                      # first commit, or not a checkout
+        if not old_text.strip():
+            continue
+        before = list(csv.DictReader(io.StringIO(old_text)))
+        after = rows(name)
+        if len(after) < len(before):
+            fail(f"{name}: {len(before)} rows in the repository, {len(after)} in this "
+                 "build. A dataset that shrinks is a read that went wrong, not a record "
+                 "that got smaller.")
+        else:
+            ok(f"{name}: {len(before)} → {len(after)} rows")
+
+    # The newest response on file must never move backwards either: that is the
+    # date both registers publish as how current they are.
+    after = rows("response_documents.csv")
+    if after:
+        newest = max(max(r.get("tabled_senate") or "", r.get("tabled_house") or "")
+                     for r in after)
+        ok(f"newest response on file: {newest or 'none'}")
+
+
 def main() -> int:
     responses = rows("response_documents.csv")
     if responses:
@@ -136,6 +178,7 @@ def main() -> int:
     the_registers_are_not_empty()
     the_removals_are_counted_and_listed_alike()
     the_recommendation_index_is_populated()
+    nothing_has_gone_backwards()
 
     if failures:
         print(f"\n{len(failures)} check(s) failed — not fit to publish", file=sys.stderr)

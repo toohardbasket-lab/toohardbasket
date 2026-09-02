@@ -32,6 +32,17 @@ const house = registerBySlug("house")!;
  * of thing that gets a whole register doubted for one word.
  */
 const asAt = formatDate(f.schedule.rebuilt ?? f.schedule.asAt);
+/*
+ * The rebuild date is not the data's date. Every run rewrites the meta file, so
+ * the hero would say "as at 6 October" in a week when nothing new had been read
+ * — which is the failure mode of a site whose whole subject is how long a thing
+ * has been left. The date that matters is how far the responses have been read,
+ * and both registers already publish it. It belongs where the reader looks
+ * first.
+ */
+const checkedTo = [f.schedule.responsesCheckedTo, houseMeta.responsesCheckedTo]
+  .filter(Boolean)
+  .sort()[0];
 const pct = (comp.rate * 100).toFixed(1);
 const housePct = ((houseMeta.onTimeRate ?? 0) * 100).toFixed(0);
 const longest = longestWaits(10);
@@ -89,7 +100,10 @@ const chambers = [
   description="A running count of the committee reports the Australian Government has not responded to, in both houses, how long each has waited, and how often the deadline is met."
 >
   <section class="wrap hero">
-    <p class="eyebrow">Awaiting a government response · as at {asAt}</p>
+    <p class="eyebrow">
+      Awaiting a government response · as at {asAt}
+      {checkedTo && <> · responses checked to {formatDate(checkedTo)}</>}
+    </p>
     <h1 class="claim">Committee reports the government has not answered.</h1>
 
     <div class="chambers">
@@ -165,8 +179,18 @@ const chambers = [
         When a parliamentary committee reports, the government is expected to say what it
         will do about the recommendations. The Senate has asked for that within three
         months since {senate.ruleSince}; the House within six since {house.ruleSince}.
-        Often it does not come, or comes years later, and there is no single public record
-        of which reports are still waiting.
+        Often it does not come, or comes years later.
+      </p>
+      <p>
+        Four records already exist, and this site is built on all of them: the President of
+        the Senate’s status report and the Speaker’s schedule, each presented about twice a
+        year; the government’s own status report for each chamber; and the Senate’s live
+        tracker of reports awaiting a response. What none of them is, and what this is, is a
+        single list covering both chambers, kept current between those reports, with a report
+        taken off it the day the government answers — so that the number on the page is what
+        is outstanding today rather than what was outstanding when a document was last
+        printed. Where those records disagree with each other, this site says so and links
+        both.
       </p>
       <p>
         Most of what is on both registers is joint committee reports, which are presented

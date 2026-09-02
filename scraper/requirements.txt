@@ -1,0 +1,20 @@
+# Pinned, deliberately.
+#
+# The verifier's job is to find each recommendation verbatim in the text
+# extracted from its own document. A pdfplumber release that changes how it
+# joins words across a line break would change what "verbatim" means, and rows
+# would start failing a check that had not changed — or, worse, stop failing
+# one. The same argument holds for the HTML parser: a change in how it handles
+# a malformed tag once deleted every response date on a page.
+#
+# Unpinned, that happens on a Tuesday, in a job nobody is watching, while the
+# person who could recognise it is in another hemisphere. Pinned, an upgrade is
+# a commit someone made on purpose and can undo.
+#
+# Reviewed: 2 September 2026.
+requests==2.34.2
+beautifulsoup4==4.15.0
+pdfplumber==0.11.10
+pytesseract==0.3.13
+pypdfium2==5.13.0
+playwright==1.62.0
