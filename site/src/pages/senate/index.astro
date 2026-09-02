@@ -101,7 +101,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       can add to the register but never overrule it.
       {sched.fromTracker === 0
         ? " On this build it adds nothing, and every row below is the President’s."
-        : ` On this build it adds ${fmt(sched.fromTracker)} ${sched.fromTracker === 1 ? "report" : "reports"}, each marked in the source column.`}
+        : ` On this build it adds ${fmt(sched.fromTracker)} ${sched.fromTracker === 1 ? "report" : "reports"}, marked below as the tracker's.`}
     </p>
     <AnsweredSinceList rows={removedSince} officer="the President" />
     {sched.responsesCheckedTo && (
@@ -193,9 +193,12 @@ const byCommittee = [...rows.reduce((m, r) => {
       </p>
     )}
     <p class="note measure">
-      Report titles link to the report itself on the Parliament's website where the Tabled
-      Documents index has it. That index begins in 2022, so reports tabled before then are
-      listed here without a link rather than with a guessed one.
+      Every row below comes from
+      {" "}<a href={sched.url} rel="external">the President’s report as at {formatDate(sched.asAt)}</a>,
+      except any marked as the Senate tracker’s. Report titles link to the report itself on
+      the Parliament’s website where the Tabled Documents index has it. That index begins in
+      2022, so reports tabled before then are listed here without a link rather than with a
+      guessed one.
     </p>
     <RegisterControls target="senate-register" noun="reports" />
     <table class="register stacks" id="senate-register">
@@ -206,7 +209,6 @@ const byCommittee = [...rows.reduce((m, r) => {
           <th scope="col">Committee</th>
           <th scope="col" class="num">Tabled</th>
           <th scope="col">Status</th>
-          <th scope="col">Source</th>
         </tr>
       </thead>
       <tbody>
@@ -223,15 +225,14 @@ const byCommittee = [...rows.reduce((m, r) => {
             </td>
             <td class="c-title">{r.url
               ? <a href={r.url} rel="external">{r.title}</a>
-              : r.title}</td>
+              : r.title}{!r.source.startsWith("presidents") && (
+                <span class="from-tracker" title="Tabled after the President's report; carried from the Senate's live tracker">
+                  {" "}Senate tracker
+                </span>
+              )}</td>
             <td class="cmte c-meta">{r.body}</td>
             <td class="num nowrap c-meta" data-label="Tabled">{formatDateShort(r.owedSince)}</td>
             <td class="src c-meta" data-label="Status">{statusOf(r)}</td>
-            <td class="src c-meta" data-label="Source">
-              {r.source.startsWith("presidents")
-                ? <a href={sched.url} rel="external">President’s report</a>
-                : "Senate tracker"}
-            </td>
           </tr>
         ))}
       </tbody>
@@ -354,6 +355,17 @@ const byCommittee = [...rows.reduce((m, r) => {
 </Base>
 
 <style>
+  /* The source used to be a column, which printed the same words on all 82
+     rows and, stacked on a phone, printed the label above them as well. It is
+     stated once above the table now, and only the rows that differ carry a
+     mark. */
+  .from-tracker {
+    display: inline-block; margin-left: 0.4rem; padding: 0.05rem 0.4rem;
+    font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.05em;
+    text-transform: uppercase; color: var(--ink-muted);
+    border: 1px solid var(--rule-strong); border-radius: 2px; vertical-align: 0.12em;
+    white-space: nowrap;
+  }
   .intro { padding-bottom: 1.5rem; }
   h2 { margin-top: 2.5rem; }
   .note { font-size: 0.875rem; color: var(--ink-muted); }

@@ -276,9 +276,12 @@ const byCommittee = [...rows.reduce((m, r) => {
       {" "}<a href="/methods">How this is built</a>.
     </p>
     <p class="note measure">
-      Report titles link to the report itself on the Parliament's website where the Tabled
-      Documents index has it. That index begins in 2022, so reports tabled before then are
-      listed here without a link rather than with a guessed one.
+      Every row below comes from
+      {" "}<a href={sched.url} rel="external">the Speaker’s schedule as at {formatDate(sched.asAt)}</a>.
+      Unlike the Senate register, this one has no second source, so nothing here is marked
+      otherwise. Report titles link to the report itself on the Parliament’s website where
+      the Tabled Documents index has it. That index begins in 2022, so reports tabled before
+      then are listed here without a link rather than with a guessed one.
     </p>
     <p class="note measure">
       <em>Being considered</em> is the government’s own sentence, from its status report,
@@ -293,7 +296,6 @@ const byCommittee = [...rows.reduce((m, r) => {
           <th scope="col">Committee</th>
           <th scope="col" class="num">Tabled</th>
           <th scope="col">Status</th>
-          <th scope="col">Source</th>
         </tr>
       </thead>
       <tbody>
@@ -314,7 +316,6 @@ const byCommittee = [...rows.reduce((m, r) => {
             <td class="cmte c-meta">{r.body}</td>
             <td class="num nowrap c-meta" data-label="Tabled">{formatDateShort(r.owedSince)}</td>
             <td class="src c-meta" data-label="Status">{statusOf(r)}</td>
-            <td class="src c-meta" data-label="Source"><a href={sched.url} rel="external">Speaker’s schedule</a></td>
           </tr>
         ))}
       </tbody>
