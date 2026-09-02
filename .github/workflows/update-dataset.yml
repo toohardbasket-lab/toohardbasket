@@ -71,6 +71,8 @@ jobs:
       # in the document it claims, so what publishes is checked by construction.
       - name: Read the reports on the registers
         run: python harvest_report_pdfs.py
+      - name: Author-attribution tests (gate)
+        run: python tests/test_report_authors.py
       - name: Extract recommendations
         run: python extract_recommendations.py && python extract_report_recommendations.py
       - name: Verify every recommendation against its source (gate)

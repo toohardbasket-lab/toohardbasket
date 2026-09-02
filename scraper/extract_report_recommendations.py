@@ -44,6 +44,27 @@ SECTION = re.compile(r"^[ \t]*((?:(?:ALP|Labor|Coalition|Liberal|National|Greens
                      r"Opposition|Government)\s+Senators?(?:'|’)?s?\s+)?"
                      r"(?:Dissenting\s+Report|Minority\s+Report|Additional\s+Comments|"
                      r"Additional\s+Remarks))[ \t]*\d*[ \t]*$", re.I | re.M)
+
+# A recommendation that names its own author, wherever it sits. The section
+# heading is not enough on its own: a report's dissent can begin without a
+# heading this recognises, and its recommendations restart at 1, so a party's
+# "Recommendation 1" collides with the committee's. The responses side has
+# always applied this test; the reports side did not, and three recommendations
+# beginning "Coalition Senators recommend" were published as a committee's.
+NAMES_AUTHOR = re.compile(
+    r"\b((?:ALP|Labor|Coalition|Liberal|National|Greens|Australian\s+Greens|"
+    r"Opposition|Government)\s+(?:Senators?|Members?)|Senator\s+[A-Z][a-z]+)\b", re.I)
+# Only where it OPENS the recommendation. A dissent says who is speaking before
+# it says what it wants — "Coalition Senators note…", "The Australian Greens
+# recommend…" — whereas a committee recommendation that happens to mention a
+# senator does so further in, and is not a dissent.
+AUTHOR_WINDOW = 100
+
+# A report signs off after its recommendations. Everything from the signature
+# block on belongs to the document, not to what was recommended.
+SIGNOFF = re.compile(r"\b(?:Senator|Mr|Ms|Mrs|Dr|Hon)\.?\s+[A-Z][A-Za-z'’-]+"
+                     r"(?:\s+[A-Z][A-Za-z'’-]+){0,3}\s+(?:MP\s+)?"
+                     r"(?:Chair|Deputy\s+Chair|Presiding\s+Member)\b")
 LEADERS = re.compile(r"[.…]{6,}")
 LIST_MARKER = re.compile(r"(?<![\w'’])\(?[a-h]\)?[.)]")
 STRAY = re.compile(r"(?<![\w'’])[B-HJ-Zb-hj-z](?![\w'’])")
@@ -56,6 +77,9 @@ def tidy(raw: str) -> str:
     cut = END.search(raw)
     if cut:
         raw = raw[:cut.start()]
+    sign = SIGNOFF.search(raw)
+    if sign:
+        raw = raw[:sign.start()]
     raw = NOISE.sub("", raw[:MAX_CHARS * 2])
     raw = PARA_NO.sub("", raw.strip())
     raw = re.sub(r"[ \t]*\n[ \t]*", " ", raw)
@@ -78,8 +102,15 @@ def author_at(body: str, position: int) -> str:
         last = m
     if last is None:
         return ""
-    # Only if nothing has plainly returned to the committee's own text since.
     return re.sub(r"\s+", " ", last.group(1)).strip()
+
+
+def author_of(text: str, body: str, position: int) -> str:
+    """Who made this recommendation, by its own words first and its section second."""
+    named = NAMES_AUTHOR.search(text[:AUTHOR_WINDOW])
+    if named:
+        return re.sub(r"\s+", " ", named.group(1)).strip()
+    return author_at(body, position)
 
 
 def recommendations_in(body: str) -> list[dict]:
@@ -92,10 +123,22 @@ def recommendations_in(body: str) -> list[dict]:
             continue
         if not SAYS_RECOMMEND.search(text):
             continue
+        author = author_of(text, body, start)
         keep = best.get(label)
-        if keep is None or len(text) < len(keep["recommendation"]):
+        # A dissent restarts its numbering, so one report can hold two
+        # "Recommendation 1" — the committee's and a party's. The committee's
+        # wins the number outright, whatever the lengths: publishing a party's
+        # demand as a committee's is the worst mistake this file can make.
+        # Shortest text decides only between candidates of the same authorship.
+        if keep is None:
+            better = True
+        elif bool(keep["recommended_by"]) != bool(author):
+            better = not author
+        else:
+            better = len(text) < len(keep["recommendation"])
+        if better:
             best[label] = {"label": label, "recommendation": text,
-                           "recommended_by": author_at(body, start)}
+                           "recommended_by": author}
     return [best[k] for k in sorted(best, key=lambda s: [int(p) for p in s.split(".")])]
 
 
@@ -151,7 +194,7 @@ def main() -> int:
     flagged = sum(1 for r in rows if r["recommended_by"])
     print(f"{len(rows)} recommendations from {len(reports) - empty} of {len(reports)} "
           f"reports on the registers")
-    print(f"  {flagged} sit in a dissenting, minority or additional-comments section")
+    print(f"  {flagged} name a dissenting, minority or party author rather than the committee")
     print(f"  {empty} reports yielded none")
     print(f"{len(merged)} rows in {OUT}")
     return 0
