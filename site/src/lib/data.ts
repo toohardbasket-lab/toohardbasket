@@ -215,6 +215,11 @@ export interface ScheduleMeta {
   /** What counting his rows gives, where that differs from his own tally. */
   rowsMarkedOnTime?: number;
   onTimeGap?: number;
+  /** House only: the answered count printed in the schedule's own summary
+   *  table, where that differs from what reading its rows gives. The
+   *  difference is a report the schedule still lists against a 2022 response
+   *  date; it is treated here as answered, and the register says so. */
+  officerSaysAnswered?: number;
 }
 
 export function scheduleMeta(register: RegisterSlug = "senate"): ScheduleMeta {
@@ -226,6 +231,7 @@ export function scheduleMeta(register: RegisterSlug = "senate"): ScheduleMeta {
     url: m.otd_url,
     listed: m.listed,
     answeredAtSchedule: m.answered_at_schedule,
+    officerSaysAnswered: m.schedule_says_answered,
     answeredSince: m.answered_since_schedule ?? 0,
     beingConsidered: m.being_considered,
     recordsBeingConsidered: m.being_considered_recorded ?? true,
@@ -368,6 +374,10 @@ export interface ResponseYear {
   documents: number | null;
   /** Of those documents, the form-letter closures (full and partial). */
   closures: number | null;
+  /** Responses that used the template for some recommendations but not all.
+   *  Not counted as closures; shown as a footnote so the column adds to the
+   *  published total. */
+  partial: number | null;
 }
 
 export function responsesByYear(): ResponseYear[] {
@@ -378,16 +388,20 @@ export function responsesByYear(): ResponseYear[] {
   }
 
   const excluded = new Set(read("scope_exclusions.csv").map((r) => r.id));
-  const docs = new Map<string, { n: number; closed: number }>();
+  const docs = new Map<string, { n: number; closed: number; partial: number }>();
   for (const r of read("response_documents.csv")) {
     if (excluded.has(r.id)) continue;
     const y = (r.tabled_senate || r.tabled_house || "").slice(0, 4);
     if (!y) continue;
-    const cell = docs.get(y) ?? { n: 0, closed: 0 };
+    const cell = docs.get(y) ?? { n: 0, closed: 0, partial: 0 };
     cell.n += 1;
-    if (r.classification === "proforma_closure" || r.classification === "partial_proforma") {
-      cell.closed += 1;
-    }
+    // Only full form-letter closures. Counting the partials here too made the
+    // column total 265 where Methods, the brief and the analysis page all say
+    // 260 — and the caption's claim that these took no position on any
+    // recommendation is not true of a response that used the template for some
+    // and answered the rest. The partials are carried separately and footnoted.
+    if (r.classification === "proforma_closure") cell.closed += 1;
+    if (r.classification === "partial_proforma") cell.partial += 1;
     docs.set(y, cell);
   }
 
@@ -398,6 +412,7 @@ export function responsesByYear(): ResponseYear[] {
       responses: tally.get(year) ?? 0,
       documents: d ? d.n : null,
       closures: d ? d.closed : null,
+      partial: d ? d.partial : null,
     };
   });
 }
@@ -615,14 +630,22 @@ export interface AnsweredSince {
   responseTabled: string;
   responseTitle: string;
   basis: string;
+  /** Where the removal can be checked: the response document where there is
+   *  one, and otherwise the register page that records the response. Empty
+   *  only if neither source gave a link, in which case the row is shown
+   *  without one rather than dropped. */
   url: string;
 }
 
 export function answeredSince(register: RegisterSlug): AnsweredSince[] {
   const file = `answered_since_${register}.csv`;
   if (!fs.existsSync(path.join(DATA_DIR, file))) return [];
+  // Filtering on response_id dropped every removal the Senate's own response
+  // register accounted for, because those rows have no Tabled Documents id.
+  // The page's count included them and its list did not, so it said sixteen
+  // and showed two. A removal is publishable when it names a date.
   return read(file)
-    .filter((r) => r.response_id)
+    .filter((r) => r.response_tabled)
     .map((r) => ({
       title: r.title,
       body: r.committee,
@@ -631,7 +654,9 @@ export function answeredSince(register: RegisterSlug): AnsweredSince[] {
       responseTabled: r.response_tabled,
       responseTitle: r.response_title,
       basis: r.removal_basis,
-      url: `https://www.aph.gov.au/Parliamentary_Business/Tabled_Documents/${r.response_id}`,
+      url: r.response_id
+        ? `https://www.aph.gov.au/Parliamentary_Business/Tabled_Documents/${r.response_id}`
+        : (r.response_source ?? ""),
     }))
     .sort((a, b) => a.responseTabled.localeCompare(b.responseTabled));
 }

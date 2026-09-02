@@ -21,6 +21,22 @@ interface Props {
   officer: string;   // "the President" / "the Speaker"
 }
 const { rows, officer } = Astro.props;
+
+/*
+ * Two records take a report off this register, and a reader is entitled to
+ * know which one settled each removal. "OTD link" is the Parliament's own link
+ * between a report and the response document; "title match" is our matching of
+ * the two, which is the weakest evidence here and is labelled as such; the
+ * register basis is the chamber's own record of the response, which carries no
+ * document id.
+ */
+const BASIS: Record<string, string> = {
+  "OTD link": "Parliament’s own link",
+  "title match": "title match",
+  "Senate response register": "chamber’s response register",
+  "House status report": "government’s status report",
+  "checked by hand": "checked by hand",
+};
 ---
 
 {rows.length > 0 && (
@@ -30,6 +46,16 @@ const { rows, officer } = Astro.props;
       since {officer} printed the schedule, and {rows.length === 1 ? "is" : "are"} not
       published here as waiting
     </summary>
+    <p class="how">
+      Two records take a report off this register, and each row says which one
+      settled it. <strong>Parliament’s own link</strong> is the link the Tabled
+      Documents system publishes between a report and the response document, and
+      the date links to that document. The <strong>chamber’s response register</strong>{" "}
+      is the presiding officer’s own record of responses received, which names the
+      response but not a document, so there is nothing to link to.
+      A <strong>title match</strong> is ours, not Parliament’s, and is the weakest
+      evidence here.
+    </p>
     <table>
       <thead>
         <tr>
@@ -37,6 +63,7 @@ const { rows, officer } = Astro.props;
           <th scope="col">Committee</th>
           <th scope="col" class="num">Tabled</th>
           <th scope="col" class="num">Response tabled</th>
+          <th scope="col">Recorded by</th>
         </tr>
       </thead>
       <tbody>
@@ -46,8 +73,11 @@ const { rows, officer } = Astro.props;
             <td class="cmte">{r.body}</td>
             <td class="num nowrap">{formatDateShort(r.owedSince)}</td>
             <td class="num nowrap">
-              <a href={r.url} rel="external">{formatDateShort(r.responseTabled)}</a>
+              {r.url
+                ? <a href={r.url} rel="external">{formatDateShort(r.responseTabled)}</a>
+                : formatDateShort(r.responseTabled)}
             </td>
+            <td class="basis">{BASIS[r.basis] ?? r.basis}</td>
           </tr>
         ))}
       </tbody>
@@ -73,5 +103,11 @@ const { rows, officer } = Astro.props;
   }
   .answered .num { font-variant-numeric: tabular-nums; }
   .answered .cmte { color: var(--ink-secondary); font-size: 0.8125rem; }
+  .answered .basis { color: var(--ink-muted); font-size: 0.8125rem; }
+  .answered .how {
+    margin: 0.9rem 0 0; max-width: 62ch;
+    color: var(--ink-secondary); line-height: 1.55;
+  }
+  .answered .how strong { color: var(--ink); font-weight: 600; }
   .answered .nowrap { white-space: nowrap; }
 </style>

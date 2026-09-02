@@ -89,6 +89,14 @@ jobs:
         run: python build_status_history.py
       - name: Build backlog history
         run: python build_history.py
+      # The last gate, and the only one that tests the dataset rather than a
+      # step. Every check here is a claim the site is about to publish: that
+      # every response has been read, that the removals are counted and listed
+      # alike, that the registers and the index are not empty. A job that fails
+      # loudly is a good week; a job that succeeds while publishing a figure
+      # that quietly stopped moving is the failure this project cannot afford.
+      - name: Is the dataset fit to publish (gate)
+        run: python check_publishable.py
       - name: Commit on green
         run: |
           git config user.name "thb-bot"

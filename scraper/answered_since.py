@@ -181,20 +181,44 @@ def apply(rows: list[dict], as_at: date, chamber: str = "") -> tuple[list[dict],
     return kept, removed
 
 
-def report(removed: list[dict], register: str) -> None:
-    """Print what was removed, and write it where the site can publish it."""
+def report(removed: list[dict], register: str, also: list[dict] = ()) -> None:
+    """Print what was removed, and write it where the site can publish it.
+
+    `also` carries the reports the register's own builder had already taken off
+    before this step ran. The Senate builder removes a report the moment the
+    Senate's response register records an answer for it, and this step removes
+    what the Tabled Documents register shows on top of that. The page reported
+    the total of the two and listed only the second, so it said sixteen and
+    showed two, and a reader counting the difference had nowhere to look for
+    the other fourteen. Both sources are published here, each row saying which
+    record settled it.
+    """
+    merged = list(removed)
+    seen = {(r.get("title") or "").strip().lower() for r in merged}
+    for r in also:
+        key = (r.get("title") or "").strip().lower()
+        if key and key not in seen:
+            seen.add(key)
+            merged.append(r)
+    removed = merged
+
     if not removed:
         print(f"{register}: no report on the register has been answered since "
               "the schedule was printed")
-        return
-    print(f"{register}: {len(removed)} report(s) answered since the schedule "
-          "was printed, removed from the register:")
+    else:
+        print(f"{register}: {len(removed)} report(s) answered since the schedule "
+              "was printed, removed from the register:")
+    # The file is rewritten every run, empty included. Returning early left the
+    # previous run's removals on the page while the count beside them said
+    # nothing had been removed, which is the same contradiction from the other
+    # side: the list must describe this build and no other.
     for r in sorted(removed, key=lambda x: x["response_tabled"]):
-        print(f"  {r['response_tabled']}  OTD {r['response_id']}  "
+        print(f"  {r['response_tabled']}  OTD {r.get('response_id') or '—':>6}  "
               f"[{r['removal_basis']}]  {r['title'][:60]}")
     out = DATA / f"answered_since_{register}.csv"
     fields = ["report_tabled", "committee", "title", "report_otd_id",
-              "response_id", "response_tabled", "response_title", "removal_basis"]
+              "response_id", "response_tabled", "response_title", "response_source",
+              "removal_basis"]
     with open(out, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
         w.writeheader()

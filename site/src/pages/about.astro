@@ -18,6 +18,13 @@ const commitments = [
   "Every method published, including what it cannot see.",
   "A corrections policy with a named contact and a stated turnaround.",
 ];
+
+/* Counts under ten are written out. A page that says "1 more is planned"
+   reads as a variable someone forgot to phrase. */
+const NUMBERS = ["no", "one", "two", "three", "four", "five", "six", "seven",
+                 "eight", "nine"];
+const words = (n: number) => NUMBERS[n] ?? String(n);
+const cap = (w: string) => w.charAt(0).toUpperCase() + w.slice(1);
 ---
 
 <Base
@@ -102,7 +109,7 @@ const commitments = [
     <p>
       <strong>{ABOUT.founderName}, {ABOUT.founderRole}, volunteers in an unpaid capacity in
       the electorate office of Kate Chaney MP, the independent member for Curtin.</strong>
-      He is not employed by her, not paid by her, and not directed by her.
+      {" "}He is not employed by her, not paid by her, and not directed by her.
       APIA receives no funding, direction or editorial input from any parliamentarian, party
       or candidate, and this site was not requested by any of them.
     </p>
@@ -191,7 +198,7 @@ const commitments = [
     <h2>What comes next</h2>
     <p>
       The Senate was the first register and the House of Representatives is the second.
-      {" "}{plannedRegisters().length} more {plannedRegisters().length === 1 ? "is" : "are"} planned —
+      {" "}{words(plannedRegisters().length)} more {plannedRegisters().length === 1 ? "is" : "are"} planned —
       {" "}{plannedRegisters().map((r) => r.name).join("; ")} —
       and each is published as its own register with its own rule rather than merged into
       the others, because the obligation is different in each case and averaging them would
@@ -199,8 +206,8 @@ const commitments = [
       number would mean nothing.
     </p>
     <p class="note">
-      Registers live: {REGISTERS.filter((r) => r.status === "live").length}.
-      Planned: {plannedRegisters().length}.
+      {cap(words(REGISTERS.filter((r) => r.status === "live").length))} registers are live and
+      {" "}{words(plannedRegisters().length)} more {plannedRegisters().length === 1 ? "is" : "are"} planned.
     </p>
   </section>
 </Base>

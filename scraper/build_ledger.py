@@ -500,6 +500,12 @@ def reconcile(schedule_rows: list[dict], responses_csv: str,
         if cand:
             entry["status"] = "answered_since_schedule"
             entry["response_tabled"] = cand["response_tabled"]
+            # Carried so the removal can be published with its evidence. These
+            # removals have no Tabled Documents id — the Senate's register
+            # records the response, not the document — so the register page
+            # that records it is the thing a reader checks.
+            entry["response_source"] = cand.get("source", "")
+            entry["response_inquiry"] = cand.get("inquiry", "")
             entry["days_outstanding"] = (date.fromisoformat(cand["response_tabled"])
                                          - tabled).days if tabled else ""
         out.append(entry)
@@ -543,7 +549,8 @@ def main(argv):
                                           "days_outstanding", "interim_received",
                                           "being_considered", "partial_response",
                                           "schedule_status", "within_3_months",
-                                          "response_tabled", "notes"],
+                                          "response_tabled", "response_source",
+                                          "response_inquiry", "notes"],
                            extrasaction="ignore")
         w.writeheader()
         for r in sorted(ledger, key=lambda r: (r["status"], -(r["days_outstanding"] or 0))):

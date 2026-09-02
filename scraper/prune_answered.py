@@ -34,9 +34,45 @@ HERE = pathlib.Path(__file__).parent
 DATA = HERE / "data"
 
 REGISTERS = [
-    {"name": "senate", "ledger": "ledger_v2.csv", "meta": "ledger_meta.json"},
+    {"name": "senate", "ledger": "ledger_v2.csv", "meta": "ledger_meta.json",
+     "already": "ledger.csv"},
     {"name": "house", "ledger": "house_ledger.csv", "meta": "house_ledger_meta.json"},
 ]
+
+
+def already_removed(reg: dict) -> list[dict]:
+    """Reports the register's own builder took off before this step ran.
+
+    The Senate builder reconciles the President's schedule against the Senate's
+    own register of responses and marks anything answered since the as-at date
+    "answered_since_schedule"; those rows never reach ledger_v2.csv. They are
+    real removals with a real date, and the page's count includes them, so the
+    page's list has to include them too.
+
+    They carry no Tabled Documents id — the Senate's register records the
+    response, not the document — so they are published with the register page
+    that records them as their evidence, and a basis that says so.
+    """
+    name = reg.get("already")
+    if not name or not (DATA / name).exists():
+        return []
+    out = []
+    with (DATA / name).open(newline="", encoding="utf-8-sig") as f:
+        for r in csv.DictReader(f):
+            if r.get("status") != "answered_since_schedule" or not r.get("response_tabled"):
+                continue
+            out.append({
+                "report_tabled": r.get("report_tabled", ""),
+                "committee": r.get("committee", ""),
+                "title": r.get("title", ""),
+                "report_otd_id": "",
+                "response_id": "",
+                "response_tabled": r["response_tabled"],
+                "response_title": r.get("response_inquiry", ""),
+                "response_source": r.get("response_source", ""),
+                "removal_basis": "Senate response register",
+            })
+    return out
 
 
 def truthy(v) -> bool:
@@ -58,7 +94,8 @@ def main() -> int:
             fields = list(rows[0].keys()) if rows else []
 
         kept, removed = answered_since.apply(rows, as_at, reg["name"])
-        answered_since.report(removed, reg["name"])
+        earlier = already_removed(reg)
+        answered_since.report(removed, reg["name"], earlier)
         total += len(removed)
 
         # Record how current the response list is on every run, removals or
@@ -66,8 +103,14 @@ def main() -> int:
         # identical, from the outside, to a build that removed nothing because
         # there was nothing to remove.
         meta["responses_checked_to"] = answered_since.checked_to()
+        # Written whether or not this step removed anything, because the
+        # builder's own removals are published either way and the page's count
+        # and the page's list have to be the same number on every run.
+        meta["answered_since_schedule"] = len(removed) + len(earlier)
         meta_path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
         if not removed:
+            # The register is unchanged, but the earlier removals still have to
+            # be published; report() has already written them.
             continue
 
         # The guard is on the weak evidence, not on the total. Any number of
@@ -99,7 +142,13 @@ def main() -> int:
             # The Senate's builder already removes what its own source of
             # responses covers; this adds what the tabled-documents register
             # shows on top of it, so the site's one figure is the total.
-            "answered_since_schedule": meta.get("answered_since_schedule", 0) + len(removed),
+            #
+            # It is computed, not accumulated. Adding this run's removals to
+            # whatever the meta already said made the figure depend on how many
+            # times the step had been run since the last full rebuild, and the
+            # page's list — which is rewritten from scratch every time — did
+            # not. One number, from the same two lists the page renders.
+            "answered_since_schedule": len(removed) + len(earlier),
             "removed_by_response_documents": len(removed),
             "answered_since_schedule_file": f"answered_since_{reg['name']}.csv",
             "covers_responses_to": max(r["response_tabled"] for r in removed),

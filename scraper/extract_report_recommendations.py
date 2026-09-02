@@ -115,14 +115,32 @@ def author_at(body: str, position: int) -> str:
         last = m
     if last is None:
         return ""
-    return re.sub(r"\s+", " ", last.group(1)).strip()
+    return author_label(last.group(1))
+
+
+# The author patterns match the phrase that names the author, and that phrase
+# often carries the verb it was found by — "the Australian Greens recommend".
+# What is published is the author, not the sentence, so the verb and the
+# leading article come off. Broadening the patterns to catch "the Greens
+# recommend" (they had required the word "Senators", and missed sixty rows)
+# is what made this necessary.
+_AUTHOR_TAIL = re.compile(r"\s+(?:recommends?|recommended|proposed?|made)\s*$", re.I)
+_AUTHOR_HEAD = re.compile(r"^\s*the\s+", re.I)
+
+
+def author_label(phrase: str) -> str:
+    """Normalise a matched author phrase to the name alone."""
+    t = re.sub(r"\s+", " ", phrase or "").strip()
+    t = _AUTHOR_TAIL.sub("", t)
+    t = _AUTHOR_HEAD.sub("", t)
+    return t.strip(" ,;:—–-")
 
 
 def author_of(text: str, body: str, position: int) -> str:
     """Who made this recommendation, by its own words first and its section second."""
     named = NAMES_AUTHOR.search(text[:AUTHOR_WINDOW])
     if named:
-        return re.sub(r"\s+", " ", named.group(1)).strip()
+        return author_label(named.group(1))
     return author_at(body, position)
 
 

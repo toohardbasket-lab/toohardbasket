@@ -70,6 +70,33 @@ const inTen = (v: number) => {
 };
 const peakShare = share(peakYear);
 
+/*
+ * The part year on its own terms, because the department's best answer to this
+ * chart is a true one and it is better said here than by them: within the
+ * corpus that has been read, this year has produced more responses that do
+ * address the recommendations than any full year on that record. Saying it
+ * costs nothing — the closure count is unaffected — and a page that only ever
+ * reports the bad number reads as a case rather than a register.
+ */
+const last = rows[rows.length - 1];
+const substantiveIn = (r: ResponseYear) =>
+  r.documents !== null && r.closures !== null && r.partial !== null
+    ? r.documents - r.closures - r.partial
+    : null;
+const readYears = rows.filter((r) => r.documents !== null);
+const priorBest = readYears
+  .slice(0, -1)
+  .reduce((best, r) => Math.max(best, substantiveIn(r) ?? 0), 0);
+const lastSubstantive = substantiveIn(last);
+const bestYearYet = lastSubstantive !== null && lastSubstantive > priorBest;
+const prevYear = readYears[readYears.length - 2] ?? null;
+
+/* Partials are not closures and are not counted as such. They are stated so
+ * the closure column adds to the number Methods and the brief publish. */
+const partialTotal = rows.reduce((n, r) => n + (r.partial ?? 0), 0);
+const closureTotal = rows.reduce((n, r) => n + (r.closures ?? 0), 0);
+const documentsTotal = rows.reduce((n, r) => n + (r.documents ?? 0), 0);
+
 /* The two years that carry the story get the full ink; the rest sit back. */
 const isClearOut = (r: ResponseYear) => r.responses > typical.mean * 2.5;
 
@@ -124,6 +151,17 @@ const hoverData = bars.map((b) => ({
       responses is where the difference shows. The {partYear} bar runs to {checkedTo}, not to
       the year’s end.
     </p>
+    {bestYearYet && (
+      <p class="chart-note">
+        The part year cuts the other way too, and it should be said here rather than left
+        for someone to say back to us. Of the {fmt(last.documents ?? 0)} documents read from
+        {" "}{last.year}, {fmt(lastSubstantive ?? 0)} do address the recommendations — more
+        than in any full year the Tabled Documents record covers, which begins in mid-2022.
+        The form letter has not been retired alongside them: {fmt(last.closures ?? 0)} of
+        this year’s responses used it
+        {prevYear && <>, against {fmt(prevYear.closures ?? 0)} in the whole of {prevYear.year}</>}.
+      </p>
+    )}
   </figcaption>
 
   <div class="plot" data-rchart>
@@ -204,10 +242,21 @@ const hoverData = bars.map((b) => ({
           </tr>
         ))}
       </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Total</th>
+          <td class="num">{fmt(rows.reduce((n, r) => n + r.responses, 0))}</td>
+          <td class="num">{fmt(documentsTotal)}</td>
+          <td class="num">{fmt(closureTotal)}</td>
+        </tr>
+      </tfoot>
     </table>
     <p class="note">
-      The last two columns count a different set of documents from the first, and the three
-      must not be subtracted from one another. Responses tabled comes from the Senate’s
+      The closure column counts only responses that used the form letter for every
+      recommendation and took a position on none. A further {fmt(partialTotal)} used it for
+      some recommendations and answered the rest; they are not counted as closures here or
+      anywhere else on the site. The last two columns count a different set of documents from
+      the first, and the three must not be subtracted from one another. Responses tabled comes from the Senate’s
       response record, which runs from 2000. Documents read comes from the Tabled Documents
       system, which holds no government response before mid-2022 and holds responses tabled in
       both chambers. Where a year has a dash, the documents have not been read, and nothing

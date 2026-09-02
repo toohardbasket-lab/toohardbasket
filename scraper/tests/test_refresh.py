@@ -32,12 +32,18 @@ def check(name: str, got, want) -> bool:
     return ok
 
 
-def write_csv(path: pathlib.Path, ids: list[int]) -> None:
+def write_csv(path: pathlib.Path, ids: list[int], unread: set[int] = frozenset()) -> None:
+    """ids in `unread` get a row with an empty classification — what
+    harvest_responses.py writes when it sees a response it has not read."""
     with open(path, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=COLUMNS)
         w.writeheader()
         for i in ids:
             row = {c: "" for c in COLUMNS}
+            if i in unread:
+                row.update(id=i, title=f"Response {i}", tabled_senate="2026-08-01")
+                w.writerow(row)
+                continue
             row.update(id=i, classification="substantive", template_hits=0,
                        notes_recommendation=0, accept_support_agree=0,
                        text_length=900, title=f"Response {i}",
@@ -49,10 +55,11 @@ class Harness:
     """Runs refresh() against a temp CSV, a fixed search result and a fake
     harvester, restoring the module afterwards."""
 
-    def __init__(self, on_file: list[int], listed: list[int]):
+    def __init__(self, on_file: list[int], listed: list[int],
+                 unread: set[int] = frozenset()):
         self.dir = pathlib.Path(tempfile.mkdtemp())
         self.out = self.dir / "response_documents.csv"
-        write_csv(self.out, on_file)
+        write_csv(self.out, on_file, unread)
         self.listed = listed
         self.harvested: list[int] = []
 
@@ -145,8 +152,43 @@ def an_implausible_number_of_new_documents_stops_the_run() -> bool:
     return bool(ok)
 
 
+def a_seen_but_unread_document_is_classified() -> bool:
+    """harvest_responses.py writes a row the week a response is tabled, with
+    an empty classification, so the removal step can act on it at once. This
+    step is what fills that in.
+
+    The failure this prevents is silent and permanent: build the known set from
+    every id on file, and the first harvested row is treated as already done.
+    The classifier then never runs on anything again, the closure figures the
+    home page leads with freeze, and nothing errors.
+    """
+    with Harness(on_file=[1, 2, 3, 4], listed=[1, 2, 3, 4], unread={3, 4}) as h:
+        rc = S.refresh()
+        ok = check("refresh succeeded", rc, 0)
+        ok &= check("the unread rows are the ones downloaded", sorted(h.harvested), [3, 4])
+        ok &= check("they are replaced, not duplicated", [r["id"] for r in h.rows()],
+                    ["1", "2", "3", "4"])
+        ok &= check("and they now carry a classification",
+                    [r["classification"] for r in h.rows()],
+                    ["substantive", "substantive", "proforma_closure", "proforma_closure"])
+    return bool(ok)
+
+
+def a_new_document_and_an_unread_one_are_both_handled() -> bool:
+    """The ordinary week: one response harvested on Tuesday and not yet read,
+    one that appeared between the harvest and the sweep."""
+    with Harness(on_file=[1, 2, 3], listed=[1, 2, 3, 4], unread={3}) as h:
+        ok = check("refresh succeeded", S.refresh(), 0)
+        ok &= check("both are downloaded", sorted(h.harvested), [3, 4])
+        ok &= check("four rows, no duplicate", [r["id"] for r in h.rows()],
+                    ["1", "2", "3", "4"])
+    return bool(ok)
+
+
 def main() -> int:
     results = [only_new_documents_are_downloaded(),
+               a_seen_but_unread_document_is_classified(),
+               a_new_document_and_an_unread_one_are_both_handled(),
                a_short_read_is_not_a_shrinking_record(),
                documents_are_never_deleted_by_a_refresh(),
                an_implausible_number_of_new_documents_stops_the_run()]

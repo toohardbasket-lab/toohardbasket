@@ -181,11 +181,37 @@ const byCommittee = [...rows.reduce((m, r) => {
       {" "}{formatDate(sched.tabled)}. It lists {fmt(sched.listed)} reports and records a
       response received for {fmt(sched.answeredAtSchedule)} of them. The rest are here.
     </p>
+    {sched.officerSaysAnswered !== undefined
+      && sched.officerSaysAnswered !== sched.answeredAtSchedule && (
+      <p class="note measure">
+        <strong>Where that differs from the Speaker’s own summary.</strong> The summary table
+        on the schedule’s fourth page counts {fmt(sched.officerSaysAnswered)} answered and
+        {" "}{fmt(sched.listed - sched.officerSaysAnswered)} awaiting; reading the rows gives
+        {" "}{fmt(sched.answeredAtSchedule)} and {fmt(sched.listed - sched.answeredAtSchedule)}.
+        The difference is one row — the Joint Committee on Law Enforcement’s summary report of
+        its 24 June 2020 hearing on the Australian Institute of Criminology’s National Deaths
+        in Custody Program — which the schedule lists with a response dated 29 March 2022. The
+        government’s own status report records the same response on the same date, so it is
+        treated here as answered. That is the whole of the difference, and it is the only
+        place this register departs from the Speaker’s count.
+      </p>
+    )}
     <p class="note measure">
-      Since that date {fmt(sched.answeredSince)} more responses have been tabled, and those
-      reports have been removed — a report the government has answered must not be
-      published here as waiting. That is why this register shows {fmt(rows.length)} where the
-      Speaker's schedule lists {fmt(sched.listed - sched.answeredAtSchedule)} still waiting.
+      {sched.answeredSince > 0 ? (
+        <>
+          Since that date {fmt(sched.answeredSince)} more
+          {" "}{sched.answeredSince === 1 ? "response has" : "responses have"} been tabled, and
+          {" "}{sched.answeredSince === 1 ? "that report has" : "those reports have"} been
+          removed — a report the government has answered must not be published here as
+          waiting. That is why this register shows {fmt(rows.length)} where the Speaker’s
+          schedule lists {fmt(sched.listed - sched.answeredAtSchedule)} still waiting.
+        </>
+      ) : (
+        <>
+          No response has been tabled since that date, so nothing has been removed and this
+          register publishes the schedule as it stands.
+        </>
+      )}
     </p>
     <AnsweredSinceList rows={removedSince} officer="the Speaker" />
     {sched.responsesCheckedTo && (
@@ -361,9 +387,9 @@ const byCommittee = [...rows.reduce((m, r) => {
 
   <section class="wrap">
     <p class="note measure">
-      The whole register is available as CSV in the
+      The whole register is available as CSV in the{" "}
       <a href="https://github.com/toohardbasket-lab/toohardbasket">public repository</a>,
-      licensed CC BY 4.0. If you believe a row is wrong, please write to
+      licensed CC BY 4.0. If you believe a row is wrong, please write to{" "}
       <a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a> —
       corrections are made within 24 hours of being confirmed and listed in the
       {" "}<a href="/corrections/">corrections log</a>.

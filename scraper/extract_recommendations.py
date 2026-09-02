@@ -159,6 +159,24 @@ def looks_extracted_badly(s: str) -> bool:
 
 
 # How far above a recommendation to look for the heading that names its author.
+# The author patterns match the phrase that names the author, and that phrase
+# often carries the verb it was found by — "the Australian Greens recommend".
+# What is published is the author, not the sentence, so the verb and the
+# leading article come off. Broadening the patterns to catch "the Greens
+# recommend" (they had required the word "Senators", and missed sixty rows)
+# is what made this necessary.
+_AUTHOR_TAIL = re.compile(r"\s+(?:recommends?|recommended|proposed?|made)\s*$", re.I)
+_AUTHOR_HEAD = re.compile(r"^\s*the\s+", re.I)
+
+
+def author_label(phrase: str) -> str:
+    """Normalise a matched author phrase to the name alone."""
+    s = re.sub(r"\s+", " ", phrase or "").strip()
+    s = _AUTHOR_TAIL.sub("", s)
+    s = _AUTHOR_HEAD.sub("", s)
+    return s.strip(" ,;:—–-")
+
+
 HEADING_WINDOW = 250
 
 # A label mentioned inside a sentence — "...recommendation 7 from the Tax
@@ -219,7 +237,7 @@ def recommendations_in(body: str) -> dict[str, tuple[str, str]]:
         # Recommendation - Senator Babet - Recommendation 10" — and says nothing
         # about its author in the recommendation itself.
         named = DISSENT.search(asked) or DISSENT.search(body[max(0, start - HEADING_WINDOW):start])
-        author = re.sub(r"\s+", " ", named.group(1)).strip() if named else ""
+        author = author_label(named.group(1)) if named else ""
 
         keep = best.get(label)
         # A dissent restarts its numbering, so one document holds two

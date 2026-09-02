@@ -357,19 +357,31 @@ def refresh(force: bool = False) -> int:
         return 1
     with open(OUT, encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
-    known = {str(r["id"]) for r in rows}
+    # "Known" means read, not merely seen. harvest_responses.py writes a row
+    # the moment a response appears in the Tabled Documents register, with an
+    # empty classification, so the removal step can take an answered report off
+    # a register the same week. Those rows are exactly the ones this step
+    # exists to fill in, so an id with no classification is treated as unseen
+    # and downloaded. Building the set from every id instead — which is what it
+    # did — meant the first harvest quietly turned off the classifier, and the
+    # closure figures on the home page would have frozen with no error.
+    known = {str(r["id"]) for r in rows if (r.get("classification") or "").strip()}
+    placeholder = {str(r["id"]) for r in rows} - known
+    if placeholder:
+        print(f"{len(placeholder)} document(s) seen but not yet read — classifying those too")
 
     session = requests.Session()
     docs = search_all(session, None)
     listed = {str(d["id"]) for d in docs}
 
     # A partial enumeration must never be mistaken for documents disappearing.
-    if len(listed) < len(known) * 0.9:
-        print(f"REFUSING: OTD listed {len(listed)} documents but we hold {len(known)}. "
+    held = known | placeholder
+    if len(listed) < len(held) * 0.9:
+        print(f"REFUSING: OTD listed {len(listed)} documents but we hold {len(held)}. "
               "That is a short read, not a shrinking record.")
         return 1
 
-    gone = known - listed
+    gone = held - listed
     if gone:
         print(f"  note: {len(gone)} document(s) we hold are no longer listed by OTD "
               f"({', '.join(sorted(gone)[:8])}). Rows kept; nothing is deleted here.")
@@ -391,7 +403,10 @@ def refresh(force: bool = False) -> int:
         print(f"  {i}/{len(new)}  {row['id']}  {row['classification']:<17} "
               f"{(row['tabled_senate'] or row['tabled_house'] or '?')}  {row['title'][:60]}")
 
-    merged = rows + [{k: ("" if v is None else v) for k, v in r.items()} for r in added]
+    fresh = {str(r["id"]): {k: ("" if v is None else v) for k, v in r.items()} for r in added}
+    # A placeholder row is replaced where it stands; a genuinely new document is
+    # appended. Appending both would publish the same response twice.
+    merged = [fresh.pop(str(r["id"]), r) for r in rows] + list(fresh.values())
     merged.sort(key=lambda r: int(r["id"]))
     write_rows(merged)
 
@@ -400,6 +415,11 @@ def refresh(force: bool = False) -> int:
     print(f"\n=== REFRESH DONE: {len(added)} added, {len(merged)} on file ===")
     for k, v in c.most_common():
         print(f"  {k}: {v}")
+    still = [r for r in merged if not (r.get("classification") or "").strip()]
+    if still:
+        print(f"\nWARNING: {len(still)} row(s) still carry no classification: "
+              f"{', '.join(sorted(str(r['id']) for r in still)[:8])}. The closure "
+              "counts do not include them.")
     unread = [r for r in added if r["classification"] == "unreadable"]
     if unread:
         print(f"\n  {len(unread)} could not be read as text. They are counted in the "

@@ -65,8 +65,56 @@ def the_register_is_current_to_a_date_it_can_state() -> bool:
     return check("checked_to is a date", bool(to) and len(to) == 10 and to[4] == "-", True)
 
 
+def the_published_list_accounts_for_every_removal() -> bool:
+    """The page's count and the page's list must come from the same set.
+
+    Two things take a report off the Senate register: the Senate's own record
+    of responses, applied by the builder, and the Tabled Documents register,
+    applied by the removal step. The page reported the sum and listed only the
+    second, so it said sixteen and showed two. A departmental officer counting
+    the difference has nowhere to look for the other fourteen.
+    """
+    import csv
+    import tempfile
+    saved = A.DATA
+    A.DATA = pathlib.Path(tempfile.mkdtemp())
+    try:
+        by_document = [{"report_tabled": "2026-01-29", "committee": "Defence",
+                        "title": "Annual report 2023-24", "report_otd_id": "14745",
+                        "response_id": "17516", "response_tabled": "2026-08-13",
+                        "response_title": "Government response", "removal_basis": "OTD link"}]
+        by_register = [{"report_tabled": "2023-07-12", "committee": "Economics",
+                        "title": "Corporate Insolvency in Australia", "report_otd_id": "",
+                        "response_id": "", "response_tabled": "2026-08-11",
+                        "response_title": "", "removal_basis": "Senate response register"},
+                       # the same report the document link already accounts for,
+                       # spelled the way the other source spells it
+                       {"report_tabled": "2026-01-29", "committee": "Defence",
+                        "title": "annual report 2023-24 ", "report_otd_id": "",
+                        "response_id": "", "response_tabled": "2026-08-13",
+                        "response_title": "", "removal_basis": "Senate response register"}]
+        A.report(by_document, "senate", by_register)
+        rows = list(csv.DictReader(open(A.DATA / "answered_since_senate.csv", encoding="utf-8")))
+        ok = check("both sources are published", len(rows), 2)
+        ok &= check("a report counted twice is listed once",
+                    sorted(r["title"] for r in rows),
+                    ["Annual report 2023-24", "Corporate Insolvency in Australia"])
+        ok &= check("each row says what settled it",
+                    sorted(r["removal_basis"] for r in rows),
+                    ["OTD link", "Senate response register"])
+
+        # A row with no Tabled Documents id must still be publishable.
+        A.report([], "senate", by_register)
+        rows = list(csv.DictReader(open(A.DATA / "answered_since_senate.csv", encoding="utf-8")))
+        ok &= check("register-only removals publish on their own", len(rows), 2)
+        return bool(ok)
+    finally:
+        A.DATA = saved
+
+
 def main() -> int:
     results = [numbered_reports_need_matching_numbers(),
+               the_published_list_accounts_for_every_removal(),
                a_chamber_only_answers_its_own_register(),
                the_register_is_current_to_a_date_it_can_state()]
     if all(results):
