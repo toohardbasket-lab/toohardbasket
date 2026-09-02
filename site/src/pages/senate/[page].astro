@@ -42,7 +42,7 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
   description="Since mid-2022 the government has closed hundreds of committee reports with a template sentence that states no position on any recommendation. This is the count, the pattern, and the documents."
 >
   <section class="wrap hero">
-    <p class="eyebrow">Senate committee reports · responses · as at {asAt}</p>
+    <p class="eyebrow">Government responses · Senate and joint committee reports · as at {asAt}</p>
     <p class="figure">{fmt(c.proforma)}</p>
     <h1 class="claim">committee reports closed without answering a single recommendation.</h1>
     <p class="lede measure">
@@ -54,9 +54,12 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
       rejected, nothing qualified.
     </p>
     <p class="lede measure">
-      That sentence is used <strong>{fmt(floor.sentences)}</strong> times across those
-      {" "}{fmt(floor.closures)} documents. How many individual recommendations it disposed of
-      is a harder question, and the answer below is deliberately a floor rather than a guess.
+      That sentence is used <strong>{fmt(floor.templateUses)}</strong> times across those
+      {" "}{fmt(floor.closures)} documents — counting every form of it. A stricter count, of
+      the “notes this recommendation” form alone, gives {fmt(floor.sentences)}, and that is
+      the one the floor below is built from. How many individual recommendations the sentence
+      disposed of is a harder question, and the answer below is deliberately a floor rather
+      than a guess.
     </p>
   </section>
 
@@ -70,10 +73,12 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
       response anywhere in the Senate’s register.
     </p>
     <p>
-      The response runs to {anchor.recommendationsNoted} entries, one for each of the
-      committee’s recommendations. Against every one of them it records that the government
-      notes the recommendation and that, given the passage of time, a substantive response is
-      no longer appropriate — the same sentence, {anchor.templateHits} times.
+      The response runs to {anchor.recommendationsNoted} entries: {anchor.recommendationsNoted - 1}
+      {" "}for the committee’s own recommendations and one for the recommendation in the
+      minority report, as the document’s own last table shows. Against every one of them it
+      records that the government notes the recommendation and that, given the passage of
+      time, a substantive response is no longer appropriate — the same sentence,
+      {" "}{anchor.templateHits} times.
       {" "}{anchor.acceptances === 0 ? "Nothing is accepted, rejected or qualified." : ""}
       {" "}<a href={anchor.url}>Read it</a>.
     </p>

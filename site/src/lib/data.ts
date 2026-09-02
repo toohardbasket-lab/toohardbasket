@@ -830,6 +830,12 @@ export interface RecommendationFloor {
   counted: number;         // those whose structure can be verified
   recommendations: number; // the floor itself
   sentences: number;       // notes sentences across the whole corpus
+  /** The template sentence's own count across the same documents. It is the
+   *  number the brief quotes, and it is slightly larger than `sentences`
+   *  because the template appears in forms the stricter "notes this
+   *  recommendation" pattern does not match. One of the two has to be the
+   *  published figure; this is it, and the page says what it counts. */
+  templateUses: number;
   reasons: { why: string; count: number }[];
 }
 
@@ -850,6 +856,12 @@ export function recommendationFloor(): RecommendationFloor {
     counted: counted.length,
     recommendations: counted.reduce((t, r) => t + (num(r.recommendations_counted) ?? 0), 0),
     sentences: rows.reduce((t, r) => t + (num(r.notes_sentences) ?? 0), 0),
+    templateUses: (() => {
+      const counted = new Set(rows.map((r) => String(r.id)));
+      return read("response_documents.csv")
+        .filter((r) => counted.has(String(r.id)))
+        .reduce((t, r) => t + (num(r.template_hits) ?? 0), 0);
+    })(),
     reasons: [...reasons.entries()]
       .map(([why, count]) => ({ why, count }))
       .sort((a, b) => b.count - a.count),

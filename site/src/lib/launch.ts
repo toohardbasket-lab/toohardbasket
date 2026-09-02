@@ -17,4 +17,4 @@
  * Until then Methods still reports the closure count, because a methods page
  * that describes a measure without saying what it found reads as evasive.
  */
-export const LAUNCHED = false;
+export const LAUNCHED = true;
