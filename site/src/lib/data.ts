@@ -837,6 +837,62 @@ export function recommendationFloor(): RecommendationFloor {
  * closed with the template is exact, and the recommendation question is
  * answered separately and conservatively by recommendationFloor().
  */
+// ------------------------------------------------------- the recommendations
+
+/**
+ * One recommendation, as the record shows it.
+ *
+ * Two sources, and the difference matters enough to be on the page. A
+ * recommendation from a REPORT is the committee's own words, taken from the
+ * report it tabled — those are the ones still awaiting a response, so no
+ * government document quotes them. A recommendation from a RESPONSE is the
+ * committee's words as the GOVERNMENT reproduced them, quoted in its own answer
+ * — which is why it can carry what the government said in reply.
+ *
+ * No status is invented. `governmentWords` is the sentence the government
+ * actually wrote about this recommendation, or empty where it wrote none.
+ */
+export interface Recommendation {
+  source: "report" | "response";
+  sourceId: string;
+  label: string;
+  /** Named when the recommendation is a dissenting, minority or party one. */
+  recommendedBy: string;
+  text: string;
+  governmentWords: string;
+  classification: string;
+  committee: string;
+  department: string;
+  documentTitle: string;
+  tabled: string;
+  chamber: string;
+  url: string;
+}
+
+export function recommendations(): Recommendation[] {
+  return read("recommendations.csv").map((r) => ({
+    source: r.source as Recommendation["source"],
+    sourceId: r.source_id,
+    label: r.label,
+    recommendedBy: r.recommended_by ?? "",
+    text: r.recommendation,
+    governmentWords: r.government_words ?? "",
+    classification: r.response_classification,
+    committee: r.committee ?? "",
+    department: r.department ?? "",
+    documentTitle: r.document_title ?? "",
+    tabled: r.tabled ?? "",
+    chamber: r.chamber ?? "",
+    url: r.url ?? "",
+  }));
+}
+
+/** How many rows the verification step removed, so the page can say so. */
+export function recommendationsDropped(): number {
+  const f = path.join(DATA_DIR, "recommendations_dropped.csv");
+  return fs.existsSync(f) ? read("recommendations_dropped.csv").length : 0;
+}
+
 export interface ClosureDetail extends ClosureFigures {
   byYear: { year: string; closures: number; responses: number; share: number }[];
   slowest: { days: number; reportTabled: string; responseTabled: string; inquiry: string } | null;

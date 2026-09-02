@@ -13,6 +13,7 @@ const year = new Date().getFullYear();
 const nav = [
   { href: "/", label: "Home" },
   ...liveRegisters().map((r) => ({ href: `/${r.slug}/`, label: r.shortName })),
+  { href: "/recommendations", label: "Search" },
   { href: "/methods", label: "Methods" },
   { href: "/about", label: "About" },
 ];
@@ -115,7 +116,13 @@ const SITE = "https://toohardbasket.org.au";
       }
       header.site .mark { font-weight: 650; letter-spacing: -0.015em; text-decoration: none; }
       header.site .mark span { color: var(--ink-muted); font-weight: 400; }
-      header.site nav { display: flex; gap: 1.4rem; font-size: 0.875rem; }
+      /* Five items no longer fit on a narrow phone, and a nav that overflows
+         takes the whole page sideways with it. */
+      header.site nav { display: flex; flex-wrap: wrap; gap: 1.4rem;
+                        font-size: 0.875rem; min-width: 0; }
+      @media (max-width: 30rem) {
+        header.site nav { gap: 0.9rem; font-size: 0.8125rem; }
+      }
       header.site nav a { color: var(--ink-secondary); text-decoration: none; padding-block: 0.15rem; }
       header.site nav a[aria-current="page"] {
         color: var(--ink); box-shadow: inset 0 -2px 0 var(--series-1);

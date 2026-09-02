@@ -133,6 +133,7 @@ def main() -> int:
                 "government_words": "",
                 "response_classification": "awaiting a response",
                 "committee": meta.get("committee", ""),
+                "department": "",
                 "document_title": meta.get("title", ""),
                 "tabled": meta.get("report_tabled", ""),
                 "chamber": meta["chamber"],

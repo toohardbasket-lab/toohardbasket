@@ -1,0 +1,279 @@
+---
+/**
+ * Search what committees actually asked for.
+ *
+ * The registers count reports. This counts the things inside them: a
+ * recommendation is what a committee wanted done, and it is the unit a reader
+ * cares about when the question is "what did anyone say should happen about
+ * this, and what came of it".
+ *
+ * The page invents no status. Each result carries the sentence the government
+ * itself wrote about that recommendation, or says plainly that no response has
+ * been tabled. Whether that amounts to being ignored is the reader's call, and
+ * the words to make it are on the screen.
+ */
+import Base from "../layouts/Base.astro";
+import { recommendations, recommendationsDropped, fmt, formatDate } from "../lib/data";
+
+const rows = recommendations();
+const dropped = recommendationsDropped();
+const sources = new Set(rows.map((r) => `${r.source}:${r.sourceId}`)).size;
+const awaiting = rows.filter((r) => r.source === "report").length;
+const withWords = rows.filter((r) => r.governmentWords).length;
+const committees = new Set(rows.map((r) => r.committee).filter(Boolean)).size;
+const covers = rows.map((r) => r.tabled).filter(Boolean).sort();
+const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS", "First Nations"];
+---
+
+<Base
+  title="Search the recommendations"
+  description="Every recommendation this site can show from Australian parliamentary committee reports since 2022 — searchable by topic, each with the government's own words about it, or a note that no response has been tabled."
+>
+  <section class="wrap intro">
+    <p class="eyebrow">Recommendations · {fmt(rows.length)} from {fmt(sources)} documents</p>
+    <h1>What committees asked for</h1>
+    <p class="lede measure">
+      Type a topic. Every recommendation this site can show on it appears below, with the
+      sentence the government wrote about it — or, where the report is still on a register,
+      the fact that it has written nothing. {fmt(awaiting)} of these are awaiting a response
+      right now.
+    </p>
+  </section>
+
+  <section class="wrap">
+    <form class="search" role="search" onsubmit="return false">
+      <label class="sr-only" for="q">Search recommendations</label>
+      <input id="q" type="search" data-q autocomplete="off" spellcheck="false"
+             placeholder="domestic violence" enterkeyhint="search" />
+      <p class="examples">
+        Try:{" "}
+        {examples.map((e, i) => (
+          <>
+            {i ? " · " : ""}<button type="button" class="chip" data-example={e}>{e}</button>
+          </>
+        ))}
+      </p>
+    </form>
+
+    <div class="filters" data-filters hidden>
+      <label><input type="checkbox" data-filter="unanswered" /> Only those with no government response</label>
+      <label><input type="checkbox" data-filter="closed" /> Only those closed with the form letter</label>
+    </div>
+
+    <p class="status measure" data-status>Loading the index…</p>
+    <ol class="results" data-results></ol>
+    <p class="more measure" data-more hidden></p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="reading">How to read a result</h2>
+    <p>
+      <strong>Where the words come from.</strong> A recommendation shown against a report on
+      one of the registers is the committee’s own text, taken from the report it tabled —
+      nobody has answered it, so no government document quotes it. Every other recommendation
+      here is the committee’s text <em>as the government reproduced it</em> in its own
+      response. That is the government’s transcription, not the committee’s original, and it
+      is quoted rather than paraphrased so the difference can be checked against the document
+      linked on every result.
+    </p>
+    <p>
+      <strong>What the government said.</strong> {fmt(withWords)} results carry the
+      government’s own sentence about that recommendation. This site does not translate those
+      into a status — “accepted”, “rejected”, “ignored” — because the wording is the evidence
+      and a one-word label would be our summary rather than their answer. Where the sentence
+      is the passage-of-time template, that is what a form-letter closure looks like, and
+      {" "}<a href="/methods#closures">Methods explains how those are identified</a>.
+    </p>
+    <p>
+      <strong>Whose recommendation it is.</strong> Dissenting reports, minority reports and
+      additional comments carry recommendations that are not the committee’s. Where the text
+      or the section names another author, the result says so. Treating one of those as a
+      committee recommendation would be a serious misstatement, and it is the mistake this
+      page is most likely to make.
+    </p>
+    <p>
+      <strong>What is not here.</strong> This is not every recommendation an Australian
+      parliamentary committee has made. It is every one this site can show from the documents
+      it holds: government responses tabled since mid-2022, which is as far back as the Tabled
+      Documents system goes, and the reports currently on the two registers. A response that
+      answers in narrative prose without numbered recommendations yields nothing, and there
+      are {fmt(255)} such documents.
+    </p>
+    <p class="note">
+      Every recommendation here was checked back against its source document — the text found
+      verbatim, under the number it claims. {dropped > 0 ? `${fmt(dropped)} did not pass that check and were removed; they are listed in recommendations_dropped.csv.` : ""}
+      {" "}Covers {formatDate(covers[0])} to {formatDate(covers[covers.length - 1])},
+      {" "}{fmt(committees)} committees. The whole index is in the
+      {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket">public dataset</a>,
+      licensed CC BY 4.0. If a recommendation is wrong, write to
+      {" "}<a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a>.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .intro { padding-bottom: 0.5rem; }
+  .sr-only {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+  }
+  .search { margin: 0 0 1rem; max-width: 40rem; }
+  .search input {
+    width: 100%; font: inherit; font-size: 1.125rem; padding: 0.7rem 0.85rem;
+    background: var(--surface); color: var(--ink);
+    border: 1px solid var(--rule-strong); border-radius: 3px;
+  }
+  .search input:focus-visible { outline: 2px solid var(--series-1); outline-offset: 1px; }
+  .examples { font-size: 0.8125rem; color: var(--ink-muted); margin: 0.5rem 0 0; }
+  .chip {
+    font: inherit; font-size: 0.8125rem; background: none; border: 0; padding: 0;
+    color: var(--series-1); cursor: pointer; text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .filters { display: flex; flex-wrap: wrap; gap: 1rem; margin: 0 0 1rem;
+             font-size: 0.875rem; color: var(--ink-secondary); }
+  .filters label { display: flex; align-items: center; gap: 0.35rem; cursor: pointer; }
+
+  .status { font-size: 0.875rem; color: var(--ink-muted); margin: 0 0 1rem; }
+
+  /*
+   * The results are written into the page by script, so they never carry the
+   * scope attribute Astro adds to markup it renders itself. Without :global
+   * every rule below silently does nothing and the results come out unstyled
+   * and full-bleed.
+   */
+  .results { list-style: none; padding: 0; margin: 0; display: grid; gap: 1.5rem; }
+  :global(.results li) {
+    border-top: 1px solid var(--rule); padding-top: 1rem; max-width: 46rem;
+  }
+  :global(.results .rec) { margin: 0 0 0.6rem; }
+  :global(.results mark) {
+    background: color-mix(in srgb, var(--series-1) 20%, transparent);
+    color: inherit; padding: 0 0.12em; border-radius: 2px;
+  }
+  :global(.results .gov) {
+    margin: 0.5rem 0 0.6rem; padding-left: 0.85rem;
+    border-left: 3px solid var(--rule-strong);
+    color: var(--ink-secondary); font-size: 0.9375rem;
+  }
+  :global(.results .gov.none) {
+    color: var(--ink-muted); font-style: italic; border-left-style: dashed;
+  }
+  :global(.results .meta) { font-size: 0.8125rem; color: var(--ink-muted); margin: 0; }
+  :global(.results .who) { color: var(--ink-secondary); }
+  :global(.results .byline) {
+    display: inline-block; margin-left: 0.4rem; padding: 0.05rem 0.4rem;
+    font-size: 0.6875rem; letter-spacing: 0.05em; text-transform: uppercase;
+    border: 1px solid var(--rule-strong); border-radius: 2px; vertical-align: 0.1em;
+  }
+  .more { font-size: 0.875rem; color: var(--ink-muted); margin-top: 1.5rem; }
+  h2 { margin-top: 2.75rem; }
+  .note { font-size: 0.8125rem; color: var(--ink-muted); }
+</style>
+
+<script is:inline>
+  (() => {
+    const input = document.querySelector("[data-q]");
+    const list = document.querySelector("[data-results]");
+    const status = document.querySelector("[data-status]");
+    const more = document.querySelector("[data-more]");
+    const filters = document.querySelector("[data-filters]");
+    const LIMIT = 60;
+    let rows = null, loading = null, lastQuery = "";
+
+    const load = () => {
+      if (loading) return loading;
+      loading = fetch("/recommendations.json")
+        .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then((data) => {
+          rows = data;
+          for (const r of rows) r._ = (r.t + " " + r.c + " " + r.d).toLowerCase();
+          status.textContent = `${rows.length.toLocaleString("en-AU")} recommendations ready to search.`;
+          filters.removeAttribute("hidden");
+          if (lastQuery) run();
+        })
+        .catch(() => {
+          status.textContent =
+            "The index could not be loaded. Reload the page, or read the dataset directly on GitHub.";
+        });
+      return loading;
+    };
+
+    const esc = (s) => s.replace(/[&<>"]/g, (c) =>
+      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+    const mark = (text, terms) => {
+      let out = esc(text);
+      for (const t of terms) {
+        if (t.length < 2) continue;
+        const safe = t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        out = out.replace(new RegExp(`(${safe})`, "gi"), "<mark>$1</mark>");
+      }
+      return out;
+    };
+
+    const render = (hits, terms) => {
+      list.innerHTML = hits.slice(0, LIMIT).map((r) => {
+        const words = r.g.length > 420 ? r.g.slice(0, 420).replace(/\s+\S*$/, "") + "…" : r.g;
+        const said = r.g
+          ? `<p class="gov">The government said: “${esc(words)}”</p>`
+          : (r.s === "report"
+             ? `<p class="gov none">No government response has been tabled. This report is on the register.</p>`
+             : `<p class="gov none">The response does not record separate words for this recommendation.</p>`);
+        const by = r.b ? `<span class="byline">${esc(r.b)}</span>` : "";
+        const who = r.c ? `<span class="who">${esc(r.c)}</span> · ` : "";
+        return `<li>
+          <p class="rec">${mark(r.t, terms)}</p>
+          ${said}
+          <p class="meta">${who}Recommendation ${esc(r.l)}${by} ·
+            ${esc(r.w || "")} · ${r.h === "house" ? "House" : "Senate"} ·
+            <a href="${esc(r.u)}">${r.s === "report" ? "the report" : "the response"}</a></p>
+        </li>`;
+      }).join("");
+      if (hits.length > LIMIT) {
+        more.textContent = `Showing the first ${LIMIT} of ${hits.length.toLocaleString("en-AU")}. Add another word to narrow it.`;
+        more.removeAttribute("hidden");
+      } else {
+        more.setAttribute("hidden", "");
+      }
+    };
+
+    const run = () => {
+      const q = input.value.trim().toLowerCase();
+      lastQuery = q;
+      if (!rows) { load(); return; }
+      if (!q) {
+        list.innerHTML = ""; more.setAttribute("hidden", "");
+        status.textContent = `${rows.length.toLocaleString("en-AU")} recommendations ready to search.`;
+        return;
+      }
+      const terms = q.split(/\s+/).filter(Boolean);
+      const onlyUnanswered = document.querySelector('[data-filter="unanswered"]').checked;
+      const onlyClosed = document.querySelector('[data-filter="closed"]').checked;
+      const hits = rows.filter((r) => {
+        if (onlyUnanswered && r.s !== "report") return false;
+        if (onlyClosed && r.k !== "proforma_closure") return false;
+        return terms.every((t) => r._.includes(t));
+      });
+      // "Results", not "recommendations mentioning": a match can be on the
+      // recommendation, the committee or the report's title, and a report about
+      // family violence makes every recommendation in it relevant to that search
+      // even where the words are not in the recommendation itself.
+      status.textContent = hits.length
+        ? `${hits.length.toLocaleString("en-AU")} result${hits.length === 1 ? "" : "s"} for “${q}” — matching the recommendation, its committee or its report.`
+        : `Nothing found for “${q}”. This index covers responses tabled since mid-2022 and the reports still on the registers.`;
+      render(hits, terms);
+    };
+
+    let timer;
+    input.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(run, 120); });
+    for (const el of document.querySelectorAll("[data-filter]")) el.addEventListener("change", run);
+    for (const el of document.querySelectorAll("[data-example]")) {
+      el.addEventListener("click", () => { input.value = el.dataset.example; input.focus(); run(); });
+    }
+    // Fetch while the reader is still reading, so the first search is instant.
+    if ("requestIdleCallback" in window) requestIdleCallback(load, { timeout: 2500 });
+    else setTimeout(load, 800);
+  })();
+</script>

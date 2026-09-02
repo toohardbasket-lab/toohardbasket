@@ -73,6 +73,23 @@ GOV_END = re.compile(r"(Response\s+to\s+the\s+recommendations?|Recommendation\s+
                      r"^\s*(Chapter|Appendix|Attachment)\s+\d)", re.I | re.M)
 
 MIN_CHARS, MAX_CHARS = 60, 2000
+
+# The committee is in the response's title, not its author field — the author
+# is the department that wrote the answer. Calling a department a committee
+# would attribute the recommendation to the body that declined it.
+COMMITTEE = re.compile(
+    r"response(?:s)?\s+to\s+(?:the\s+)?(.*?)\s*(?:\breport\b|\binquiry\b|:|$)", re.I)
+COMMITTEE_WORD = re.compile(r"committee|commission", re.I)
+
+
+def committee_from(title: str) -> str:
+    m = COMMITTEE.search(title or "")
+    if not m:
+        return ""
+    name = re.sub(r"\s+", " ", m.group(1)).strip(" ,:–—-")
+    if not COMMITTEE_WORD.search(name) or len(name) > 120:
+        return ""
+    return name
 GOV_CHARS = 900
 
 
@@ -180,7 +197,8 @@ def main() -> int:
                 "recommendation": asked,
                 "government_words": said,
                 "response_classification": d["classification"],
-                "committee": d["author"] or "",
+                "committee": committee_from(d["title"]),
+                "department": d["author"] or "",
                 "document_title": d["title"],
                 "tabled": d["tabled_senate"] or d["tabled_house"],
                 "chamber": "senate" if d["tabled_senate"] else "house",
@@ -203,6 +221,8 @@ def main() -> int:
     print(f"{len(rows)} recommendations from {docs_with} of {len(docs)} response documents")
     for k, v in per.most_common():
         print(f"  {k:<18} {v:>5}")
+    named = sum(1 for r in rows if r["committee"])
+    print(f"  {named} name the committee that made them ({named/len(rows)*100:.0f}%)")
     flagged = sum(1 for r in rows if r["recommended_by"])
     print(f"  {flagged} name a dissenting, minority or party author rather than the committee")
     with_gov = sum(1 for r in rows if r["government_words"])

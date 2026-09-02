@@ -61,6 +61,16 @@ jobs:
       # rather than being a figure someone worked out once.
       - name: Count the recommendations each closure can prove
         run: python count_recommendations.py
+      # The searchable index. The reports are read first because a report that
+      # has just come off a register still belongs in it; the verification step
+      # then drops anything that cannot be found verbatim under its own number
+      # in the document it claims, so what publishes is checked by construction.
+      - name: Read the reports on the registers
+        run: python harvest_report_pdfs.py
+      - name: Extract recommendations
+        run: python extract_recommendations.py && python extract_report_recommendations.py
+      - name: Verify every recommendation against its source (gate)
+        run: python verify_recommendations.py
       - name: Removal-step tests (gate)
         run: python tests/test_answered_since.py
       - name: Remove reports answered since the schedules
