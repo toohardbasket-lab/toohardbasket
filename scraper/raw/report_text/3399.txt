@@ -1,0 +1,563 @@
+Report 500: Inquiry into
+procurement at Services Australia
+and the NDIA - Interim Report
+Joint Committee of Public Accounts and Audit
+September 2023
+CANBERRA
+© Commonwealth of Australia 2023
+ISBN 978-1-76092-563-5 (Printed version)
+ISBN 978-1-76092-564-2 (HTML version)
+All material in this report is provided under a Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 Australia licence. The material may be shared, copied and redistributed provided that:
+• it is for non-commercial purposes
+• the committee named on the previous page is credited as the author
+• the committee is not represented as endorsing the use of the material
+• any changes are clearly identified
+• no additional legal or technical restrictions are applied to restrict use that complies with the
+licence.
+If the material is remixed, transformed or built upon, the modified material may not be distributed.
+Full details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Contents
+Terms of reference..........................................................................................v
+Foreword........................................................................................................vii
+Members..........................................................................................................ix
+List of recommendations...............................................................................xi
+Report
+Synergy 360 and procurements at Services Australia and the NDIA.........1
+Introduction..................................................................................................................1
+Conduct of the inquiry..........................................................................................................2
+Evidence relating to Synergy 360................................................................................2
+The Hon Stuart Robert’s alleged involvement with Synergy 360........................................2
+Responses to the allegations..............................................................................................4
+Further evidence sought by the Committee.................................................................5
+Committee comment....................................................................................................6
+Appendixes
+Additional comments......................................................................................9
+Appendix A. Submissions............................................................................13
+Appendix B. Public hearings........................................................................15
+iii
+
+Terms of reference
+The Committee will inquire into and report on:
+1 procurement matters at Services Australia and the National Disability Insurance
+Agency (NDIA) contained in or related to the Independent Review of Services
+Australia and NDIA Procurement and Contracting (the 'Watt review'), and
+2 the conduct of entities or persons involved in the activities considered by the
+Watt review, including issues of culture and probity.
+v
+
+Foreword
+This inquiry is examining procurement issues at Services Australia and the NDIA related to
+consulting firm Synergy 360 and former Minister the Hon Stuart Robert.
+While the Watt Report examined some of these issues, its scope was limited and related
+solely to the conduct of Australian Public Service (APS) staff. Ongoing investigations by
+Services Australia related to Synergy 360 and Infosys are similarly limited.
+The Committee’s inquiry complements the Watt review by examining the conduct of all
+parties involved in the relevant procurements, including Ministers, lobbyists, consultants, and
+vendors.
+Concerning evidence has been received raising serious allegations and questions about
+financial impropriety, improper relationships and undisclosed conflicts of interest with parties
+receiving contracts from the Commonwealth. Some matters raised in the allegations were
+established in public hearings and corroborated by other evidence though many remain
+unresolved.
+Previously undisclosed meetings were revealed between former Minister Stuart Robert,
+Synergy 360 and Infosys including during a tender process and when Infosys was being
+performance managed by Services Australia. There is no evidence of probity advisors or
+public servants being present at 11 meetings, no contemporaneous notes or records of what
+was discussed made available, no apparent declaration of any conflicts of interest being
+made, and no evidence that other bidders or vendors unrelated to Synergy 360 were
+accorded similar treatment or access. These matters are of concern and may be considered
+further in the Committee’s final report.
+Rebutting these allegations, Mr Robert, his longtime friend, business partner and political
+fundraiser Mr John Margerison, Synergy 360 principal Mr David Milo and others strongly
+deny any improper conduct. The Committee has not been provided with direct evidence of
+financial liabilities owed or payments occurring from Synergy 360 to the Australian Property
+Trust or other entities to the benefit of Mr Robert. Efforts in this direction have been
+frustrated though as despite multiple requests being made for documents witnesses have
+refused to respond to questions in full or provide documents and Mr Margerison claims to
+have left Australia.
+The evidence before this inquiry in relation to these issues is therefore both directly
+conflicting and mutually incompatible. In these circumstances this Committee is not able,
+given the resources available to it including a lack of forensic accounting expertise, to make
+clear findings in relation to the truth or otherwise of the allegations raised.
+The Committee therefore considers that, in light of the serious and systemic nature of the
+allegations, an agency with compulsory questioning and document gathering and
+vii
+investigatory powers should take up the matter so that these questions may be properly
+assessed.
+A referral to the National Anti-Corruption Commission (NACC) by a Parliamentary
+Committee should never be made lightly and certainly is not done so here. In these
+circumstances, however, there appears no other appropriate course of action.
+The report recommends that the NACC examine all of the evidence gathered by the JCPAA
+to date to inform its decision as to whether a fuller investigation of the matter is warranted to
+establish the substance of these claims.
+Questions have also arisen regarding the nature of the Committee’s statutory powers under
+sections 13-15 of the Public Accounts and Audit Committee Act 1951. The Committee
+recommends that the Speaker approve the commissioning of legal advice which can guide this
+and future Committees when necessary, including but not limited to situations in which a
+person claims to be resident overseas.
+The Committee acknowledges in this Interim Report the difficult personal circumstances that
+sit alongside this inquiry and the Committee has studiously avoided referring to or publishing
+matters relating to Family Court proceedings or the private information of witnesses.
+Given the high public interest in these matters some have sought to conflate the
+Committee’s proper acquittal of its responsibilities with politics, however accusations of
+partisanship are unfair and unfounded. Throughout this inquiry, the Committee has sought
+procedural advice on sometimes complex questions and has sought to always act in the
+public interest.
+I acknowledge the work and professionalism of the Committee Secretariat.
+The Committee’s inquiry is ongoing and a final report will be tabled as soon as possible.
+Julian Hill MP
+Chair
+viii
+Members
+Chair
+Mr Julian Hill MP Bruce, VIC
+Deputy Chair
+Senator the Hon Linda Reynolds CSC LP, WA
+Members
+Dr Michelle Ananda-Rajah MP Higgins, VIC
+Senator Catryna Bilyk ALP, TAS
+Senator the Hon Matthew Canavan NATS, QLD
+Dr Carina Garland MP Chisholm, VIC
+Mr Ian Goodenough MP Moore, WA
+Senator Karen Grogan ALP, SA
+Dr Daniel Mulino MP Fraser, VIC
+Ms Peta Murphy MP (to 1 August 2023, from 9 August 2023) Dunkley, VIC
+Mr Graham Perrett MP (from 20 June 2023 to 9 August 2023) Moreton, QLD
+Mr Henry Pike MP Bowman, QLD
+Senator Barbara Pocock (from 31 July 2023) AG, SA
+Mr Sam Rae MP (to 20 June 2023, from 1 August 2023) Hawke, VIC
+Senator Tony Sheldon ALP, NSW
+Mr Aaron Violi MP Casey, VIC
+This committee is supported by staff of the Department of the House of Representatives.
+ix
+
+List of recommendations
+Recommendation 1
+1.38 The Committee recommends that the National Anti-Corruption Commission
+examine all material gathered through this inquiry to determine whether or not
+to conduct its own inquiry into procurements at Services Australia and the
+National Disability Insurance Agency involving Milo Consulting (trading as
+Synergy 360), the Hon Stuart Robert, and John Margerison. In making this
+recommendation the Committee is not making any findings in relation to the
+conduct of any individuals.
+Recommendation 2
+1.40 The Committee recommends that the Speaker of the House of Representatives
+approve the commissioning of legal advice in relation to the Committee’s
+statutory powers under sections 13-15 of the Public Accounts and Audit
+Committee Act 1951 including but not limited to situations in which a person
+claims to be resident overseas.
+xi
+
+1. Synergy 360 and procurements at
+Services Australia and the NDIA
+Introduction
+1.1 During the course of the recent Joint Committee of Public Accounts and Audit
+(JCPAA) inquiry into Commonwealth procurement1, evidence came to the
+Committee’s attention that raised questions about procurements undertaken by
+Services Australia and the National Disability Insurance Agency (NDIA).
+1.2 Following media reports about a series of procurements at these two agencies,
+Dr Ian Watt AC was appointed to lead an Independent Review of Services Australia
+and NDIA Procurement and Contracting (referred to as the 'Watt review').2 The Watt
+review, which commenced in December 2022, addressed questions about the
+involvement of Milo Consulting (trading as Synergy 360) and associated entities in
+procurements at the two agencies. The Watt review was completed on 6 March
+2023.
+1.3 The JCPAA held a public hearing on 14 April 2023 to consider the issues raised by
+the Watt review, initially as part of its existing procurement inquiry. At the hearing, the
+committee heard evidence from Dr Watt, Services Australia, the NDIA, and people
+involved or connected with Synergy 360. Questions were asked of current or former
+Synergy 360 owners based on a tranche of emails which had served as the basis of
+earlier media reporting on these procurements.
+1.4 On the basis of this hearing, and in particular because the scope of the Watt review
+was limited and related solely to the conduct of Australian Public Service (APS) staff,
+the Committee resolved to inquire separately into the issues raised in and associated
+with the Watt review rather than incorporate this new material into its existing
+procurement inquiry. The Committee’s inquiry was therefore intended to complement
+the Watt review by examining the conduct of all parties involved in the relevant
+procurements, including Ministers, lobbyists, consultants and vendors.
+1.5 This interim report considers the evidence raised at and subsequent to the 14 April
+2023 public hearing with respect to the activities of Synergy 360 and related entities.
+1 Joint Committee of Public Accounts and Audit, Report 498: ‘Commitment Issues’ – An Inquiry into
+Commonwealth procurement, August 2023.
+2 Dr Ian Watt AC, Independent Review of Services Australia and NDIA Procurement and Contracting:
+Independent Reviewer’s Report, March 2023.
+1
+Conduct of the inquiry
+1.6 The JCPAA has a statutory responsibility to examine the financial affairs of
+authorities of the Commonwealth, and to examine all reports of the Auditor-General
+presented to the Australian Parliament (as per Section 8(b) and Section 8(c) of the
+Public Accounts and Audit Committee Act 1951).
+1.7 On 12 May 2023, in light of evidence received as part of its existing inquiry into
+Commonwealth procurement and in order to consider that evidence in fuller detail,
+the JCPAA adopted an inquiry into procurement at Services Australia and the NDIA.
+1.8 On 17 May 2023 the Committee issued a media release announcing the inquiry and
+inviting submissions from interested parties. Thus far the Committee has received
+five submissions, which are listed at Appendix A.
+1.9 The Committee has held one public hearing for this inquiry to date, which is listed at
+Appendix B. A transcript of the hearing is available in HTML and PDF formats on the
+inquiry website. The Committee has also held two in camera hearings.
+Evidence relating to Synergy 360
+The Hon Stuart Robert’s alleged involvement with Synergy 360
+1.10 On 11 May 2023, the JCPAA resolved to publish on the inquiry website a redacted
+version of the emails which had been the subject of questions at the 14 April 2023
+public hearing. It later emerged that Anthony Daly was the source of the emails (the
+‘Daly emails’). Mr Daly is the ex-husband of Khamphone Xaysavanh, a co-founder of
+Synergy 360. He later provided a written submission which was published, also in
+redacted form, by the Committee.
+1.11 Mr Daly claimed that he and Ms Xaysavanh (to whom he was then married)
+established Milo Consulting (which traded as Synergy 360) on 1 April 2017. From
+then until March 2020, Mr Daly claimed to have conducted day-to-day operations for
+Synergy 360, which included 'webpage management, IT operations and email
+administration'.3 Mr Daly further claimed that he and Ms Xaysavanh jointly funded the
+business from its founding until mid-2019.4
+1.12 According to Mr Daly, the ownership of Synergy 360 was restructured in September
+2017, with Ms Xaysavanh surrendering 21 per cent of her stake in the company.
+David Milo received 1 per cent to give him a controlling 51 per cent stake in the
+business, while United Marketing, a company owned by John Margerison, received a
+20 per cent stake in the company.5 Mr Margerison is understood to be a long-time
+3 Anthony Daly, Submission 1, p. 1.
+4 Anthony Daly, Submission 1, p. 1.
+5 Anthony Daly, Submission 1, p. 2.
+2
+friend and business partner of the Hon Stuart Robert and had a lead role in Liberal
+Party fundraising for Mr Robert in his electorate of Fadden.
+1.13 Mr Daly alleged that this arrangement was entered into to ‘facilitate the flow of funds
+through United Marketing and onward to Stuart Robert’:
+The main objective of this arrangement was to secure Stuart Robert's
+involvement and support in acquiring federal government contracts. Stuart
+Robert's political influence and connections within the government sector were
+deemed crucial in ensuring favourable outcomes.6
+1.14 The Daly emails contained an instruction from Mr Margerison to forward any
+proceeds from United Marketing's stake in Synergy 360 to an entity referred to as
+'APUT'.7 At the 14 April 2023 public hearing Mr Margerison identified APUT as
+Australian Property Trust, which was a unit trust under his control.8
+1.15 Mr Margerison also acknowledged, that Mr Robert had previously held a beneficial
+interest in Australian Property Trust:
+I had a business relationship with Mr Robert at one point in time. That finished
+around about, give or take, the end of 2018. He would have been a unit holder
+through whatever mechanism, whether it be his family trust or personally - I don't
+know the detail of it - up until around about that time, give or take ... I am the
+actual beneficial owner since the end of 2018-ish.9
+1.16 Mr Daly also claimed that Mr Milo arranged meetings at various locations around
+Canberra to facilitate contact between Mr Robert and various companies involved in
+bids for government contracts. The purpose of these meetings was to give the
+attendees opportunities to discuss forthcoming tenders with Mr Robert. According to
+Mr Daly, Mr Robert 'omitted the majority of these meetings from his parliamentary
+diary to maintain confidentiality and avoid public awareness’.10
+1.17 Evidence from Infosys Technologies, which won a contract in November 2019 from
+Services Australia to redevelop the Entitlement Calculation Engine (ECE) which
+underlies welfare payments, indicated that company personnel met with Mr Robert
+14 times between September 2018 and February 2022. Andrew Groth, Infosys’
+Region Head for Australia and New Zealand attended 11 of these meetings. Infosys
+further advised that according to its records, APS staff or probity advisers were
+present at only three of these meetings.11
+6 Anthony Daly, Submission 1, p. 2.
+7 Additional Documents, 11 May 2023, p. [9].
+8 John Margerison, Committee Hansard, 14 April 2023, p. 34.
+9 John Margerison, Committee Hansard, 14 April 2023, p. 34.
+10 Anthony Daly, Submission 1, p. 2
+11 Infosys Technologies, Submission 6, pp. 24-26.
+3
+Responses to the allegations
+1.18 Stuart Robert, David Milo, John Margerison and Khamphone Xaysavanh all denied
+the allegations relating to improper conduct.
+1.19 In response, Ms Xaysavanh said that Daly had never been an employee of Synergy
+360 and that Mr Daly in fact 'worked for Qantas as a baggage handler at Canberra
+airport at the relevant times'. She further alleged that the Daly emails were obtained
+illegally and altered with malicious intent in an effort to blackmail her and David
+Milo.12
+1.20 David Milo likewise denied the allegations made by Mr Daly, and said that Daly had
+never been employed by Synergy 360:
+The assertions contained in Daly’s statement are refuted in their entirety. His
+claim to have been employed or had any role in Synergy360 is untrue.
+Synergy360 was founded by Kham Xaysavanh and I in early 2017 to leverage
+the experience I had gained as a partner with Deloitte and subsequently as the
+government sector consulting lead at Aurecon.13
+1.21 When asked questions relating to the Daly emails at the Committee’s 14 April 2023
+hearing, Mr Milo similarly claimed that the emails were illegally obtained, and also
+that they had been doctored:
+I will just make the point that you've demonstrated that you hold a bundle of
+emails that were dishonestly or unlawfully taken, including all of the data off my
+computer. I'm not sure of the authenticity of any of the documents that you're
+quoting from. I've seen documents published that have been altered and one
+recently that was absolutely not written by me but purported to be written by
+me.14
+1.22 In response, Anthony Daly claimed in his submission to have gained access to the
+emails as part of his work overseeing Synergy 360’s IT systems. In relation to the
+allegation that the emails were doctored, Mr Daly said:
+I deny these accusations and state that l have not made any modifications to any
+emails in any manner. This assertion l'm sure can be readily confirmed through
+the utilization of email forensics software, which is specifically designed for email
+authentication purposes.15
+1.23 For his part, Mr Robert stated that he has no recollection of ever meeting or speaking
+to Mr Daly. He went on to say that:
+12 Khamphone Xaysavanh, Submission 2, pp. [1]-[3].
+13 David Milo, Submission 3, p. [1].
+14 David Milo, Committee Hansard, 14 April 2023, p. 37.
+15 Anthony Daly, Submission 1, p. 3.
+4
+To the extent that Mr Daly makes allegations of impropriety against Mr Robert,
+they are rejected, as they have always been and as the Committee well knows.
+At no time has Mr Robert been paid for any advice or guidance in any form. At no
+time did Mr Robert lobby to assist any organisation as alleged.16
+1.24 Mr Robert pointed out that Daly’s allegations were not based on any direct
+knowledge of Mr Robert’s activities, which in his view demonstrated their
+untruthfulness:
+Mr Daly does not purport to give any first-hand account of matters. Indeed, its
+fundamental vice, apart from its untruthfulness, is its complete failure to provide
+any proper detail of what Mr Daly alleges Mr Robert has in fact done ... That the
+Committee has not provided Mr Robert with any evidence supporting the serious
+allegations Mr Daly has made is, of course, consistent with the fact that they are
+untrue.17
+1.25 At the 14 April 2023 public hearing, John Margerison said that he had never held a
+direct financial interest in, or received payment from, Synergy 360/Milo Consulting:
+I have never been a principal of Milo Consulting. I have never been a director of
+Milo Consulting. I have never been an employee of Milo Consulting. I have never
+received any money from Milo Consulting. I have never received any dividend or
+other payment from Milo Consulting. I have not ever personally been a
+shareholder of Milo Consulting, albeit my family trust was, and no longer is, a
+shareholder. I have not been actively involved in the day-to-day operations of
+Milo Consulting.18
+1.26 At the hearing, Mr Margerison described how his family trust came to own a stake in
+Synergy 360:
+I helped Mr Milo when he wanted to start a business. He said to me he wanted to
+offer me shares in the business because a lot of businesses in Australia and
+around the world fail soon after opening. He actually offered me 33 per cent of
+the shares, and I declined. I said that the first rule of business is that you need to
+control your own business, so you need at least 51 per cent. After a couple of
+conversations, he offered me 20 per cent of the business.19
+Further evidence sought by the Committee
+1.27 The questions asked of Mr Margerison during his appearance at the 14 April 2023
+public hearing were limited in number in deference to the fact that was, at the time,
+recovering from a surgical procedure. Following the hearing, therefore, the
+16 The Hon Stuart Robert, Submission 4, p. 4.
+17 The Hon Stuart Robert, Submission 4, p. 4.
+18 John Margerison, Committee Hansard, 14 April 2023, p. 27.
+19 John Margerison, Committee Hansard, 14 April 2023, p. 27.
+5
+Committee sent him several written questions seeking information on issues not
+covered adequately at the hearing.
+1.28 After several fruitless requests for a response to its questions, the Committee
+resolved to issue a summons to Mr Margerison to require his attendance at a public
+hearing to provide answers to the Committee's questions. In response, Mr
+Margerison informed the Committee through his legal counsel that he was now
+resident overseas and that he had 'severed all ties' with the country of Australia. No
+evidence was provided to support this claim.
+1.29 Mr Margerison has not yet provided the documents requested by the Committee
+including those related to the Australian Property Trust and has not fully addressed
+the questions put to him, or advised the Committee where he is currently residing.
+Committee comment
+1.30 The allegations provided in evidence to this inquiry give rise to serious concerns and
+raise questions about financial impropriety and improper relationships with parties
+receiving contracts from the Commonwealth. Mr Daly's evidence has brought about a
+concern that Mr Robert may have – whether directly or indirectly – held a beneficial
+interest in a company or trust that earned money from contracts awarded by the
+government of which he was a member, and at times a Minister. If true, this would
+represent significant financial impropriety on his part, and at the very least a serious
+conflict of interest that went undeclared.
+1.31 It was established in public hearings that the Daly emails accurately recorded Ms
+Xaysavanh’s decision, at Mr Milo’s request, to gift 20% of her shares to a man she
+had not yet met (Mr Margerison) on the basis that he brought unspecified ‘contacts’
+to the Synergy 360 business. No specific or credible evidence was provided to
+support the claim that the Daly emails were ‘doctored’ or could not be relied upon.
+1.32 The Committee notes the evidence from Infosys that it paid significant funds to
+Synergy 360, including approximately $16 million in success fees, for a number of
+contracts. Detailed evidence was also provided by Infosys regarding a range of
+meetings with the Mr Robert including when they were bidding for or delivering a later
+troubled major IT contract. There is no evidence of probity advisors or public servants
+being present at this series of meetings, no contemporaneous notes or records of
+what was discussed made available, no apparent declaration of any conflicts of
+interest being made, and no evidence that other bidders or vendors unrelated to
+Synergy 360 were accorded similar treatment or access. These matters are of
+concern and may be considered further in the Committee’s final report.
+1.33 The Committee acknowledges that Mr Daly has not provided evidence that he saw
+funds changing hands or being transferred, or that he has personally met the Mr
+Robert, and that in key respects his evidence can be considered hearsay.
+1.34 It must also be noted that Mr Daly's allegations have been strongly rejected by Mr
+Robert, Mr Milo, Mr Margerison and Ms Xaysavanh. The Committee has not been
+6
+provided with direct evidence of financial liabilities owed or payments occurring from
+Synergy 360 to the Australian Property Trust or other entities to the benefit of Mr
+Robert, though efforts in this direction have been frustrated as despite multiple
+requests being made for documents witnesses have refused to respond to questions
+in full or provide documents and Mr Margerison claims to have left Australia. The
+evidence before this inquiry in relation to these issues is therefore both directly
+conflicting and mutually incompatible.
+1.35 In particular, Mr Margerison’s refusal to fully respond to questions and provide
+documents relating to the Australian Property Trust leaves the Committee unable to
+adequately complete this aspect of its inquiry. In these circumstances the JCPAA is
+not able, given the resources available to it including a lack of forensic accounting
+expertise, to make findings in relation to the truth or otherwise of the allegations
+raised by Mr Daly.
+1.36 The Committee therefore considers that, in light of the serious and systemic nature of
+the allegations, an agency with compulsory questioning and document gathering and
+investigatory powers should take up the matter so that these questions may be
+properly assessed.
+1.37 A referral to the National Anti-Corruption Commission (NACC) by a Parliamentary
+Committee should never be made lightly; however, in these circumstances there
+appears no other appropriate course of action. This conclusion informs the
+Committee’s recommendation, understanding that ultimately it is entirely a decision
+for the NACC whether to commence a formal investigation and whether adequate
+resources should be devoted necessary to fully understand these matters.
+Recommendation 1
+1.38 The Committee recommends that the National Anti-Corruption Commission
+examine all material gathered through this inquiry to determine whether or not
+to conduct its own inquiry into procurements at Services Australia and the
+National Disability Insurance Agency involving Milo Consulting (trading as
+Synergy 360), the Hon Stuart Robert, and John Margerison. In making this
+recommendation the Committee is not making any findings in relation to the
+conduct of any individuals.
+1.39 During the course of this inquiry, questions have also arisen regarding the nature of
+the Committee’s statutory powers under sections 13-15 of the Public Accounts and
+Audit Committee Act 1951. Comprehensive advice is not available to the Committee
+regarding the full extent of and procedures relating to these powers, which do not
+appear to have been used in recent memory. Legal advice is therefore required
+which can guide this and future Committees when necessary.
+Recommendation 2
+1.40 The Committee recommends that the Speaker of the House of Representatives
+approve the commissioning of legal advice in relation to the Committee’s
+7
+statutory powers under sections 13-15 of the Public Accounts and Audit
+Committee Act 1951 including but not limited to situations in which a person
+claims to be resident overseas.
+1.41 Finally, the Committee wishes to acknowledge the difficult personal circumstances
+that sit alongside this inquiry. Throughout this inquiry, the Committee has avoided
+referring to or publishing matters relating to Family Court proceedings or the private
+information of witnesses. Material presented to the committee by both Mr Daly and
+Ms Xaysavanh was returned to them owing to its personal nature and its
+inapplicability to the inquiry's terms of reference.
+1.42 The Committee emphasises once again that it is not in a position to make findings in
+relation to the role of individual witnesses. If the NACC should take the matter up, it
+will no doubt form conclusions on these issues, but the Committee notes that nothing
+came to its attention that suggests Ms Xaysavanh was involved in any misconduct
+with respect to APS procurement.
+Mr Julian Hill MP
+Chair
+8
+Additional comments
+1.1 As a matter of principle, Coalition committee members support the referral to the
+National Anti-Corruption Commission (NACC) of any serious allegations of corruption
+that are drawn to the Committee’s attention.
+1.2 However, it is not the role of the Committee to request that the NACC conduct an
+investigation into any matter. The NACC is an independent agency and consideration
+of an investigation is the responsibility of the NACC Commissioner.
+1.3 Coalition Members believe the appropriate response to all individuals or
+organisations who make corruption allegations to the Joint Standing Committee on
+Public Accounts and Audit (JCPAA) is for the Committee to write to the submitter
+advising them on how they can directly refer their allegations to the NACC at
+https://report.nacc.gov.au/
+1.4 This approach ensures that referrals to the NACC are made by the person or
+persons who are best able to provide the NACC with the information and evidence
+relevant to the allegations and avoids the risk that the NACC Commissioner identified
+in his Opening Address on 3 July 2023 of the Commission being “weaponized”
+through inappropriate or unfounded referrals.
+1.5 We also believe that this consistent and principles based approach would avoid the
+circumstances described by Prime Minister Anthony Albanese; that it would be
+“entirely inappropriate for politicians to direct the national integrity commission to
+investigate a matter” and “it in fact could be regarded as an entirely inappropriate
+action by the Prime Minister, or any other politician for that matter, to try to direct the
+anti-commission into what to do.”
+1.6 We believe that the Committee must adopt a consistent approach to all such
+submissions, to avoid the perception of bias or political interference.
+1.7 Coalition Members note that reports of the JCPAA have historically carried significant
+standing, given the importance of the nature of the inquiries and the bipartisanship of
+the reports.
+1.8 Coalition Members therefore consider that the above proposed handling approach is
+appropriate.
+1.9 Coalition Members do not agree with the Chair’s report recommendation that seeks
+to direct the NACC to consider undertaking an inquiry, this is a decision of the NACC
+Commissioner.
+9
+1.10 Coalition Members consider the language used in the Chair’s recommendation seeks
+to instruct or influence the NACC which is further evidence of the politicization of the
+allegations.
+1.11 Consequently, Coalition Members do not support Recommendation 1 in the Chair’s
+report and do not believe that there was justification for this separate interim report
+particularly given that the Inquiry into procurement at Services Australia and the
+NDIA is still underway.
+1.12 We believe that the final report should take into consideration the independent
+auditors report, which will we understand will answer the question if there was any
+potential Australia Public Service code of conduct breaches or potential criminal acts.
+1.13 From media reports and Parliamentary Hansard, it is clear that this issue has been
+highly politicized, as Minister Bill Shorten has repeatedly publicly accused the Former
+Minister for Government Services and the NDIS of engaging in misconduct.
+1.14 On 24 November 2022, media reports emerged claiming that Synergy 360 had
+engaged in influencing government officials on behalf of corporations and receiving
+compensation if contracts were effectively obtained. These reports in the media
+featured purportedly leaked emails from the period spanning 2017 to 2018.
+1.15 Consequently, the Watt Review was established to examine 95 procurements
+undertaken by Services Australia and the NDIA to determine:
+• Whether the processes undertaken in these procurements were consistent with
+the Commonwealth Procurement Rules and whole of APS best practice.
+• If the processes for and circumstances surrounding these procurements were
+consistent with comparable procurements undertaken by Services Australia and
+the NDIA within the same period.
+• Any real or perceived conflicts of interests or possible misconduct in these
+procurements by services Australia and NDIA employees and related contractors.
+1.16 The Watt Review selected the 95 procurements because they involved entities or
+entities closely associated with those named in the news reports.
+1.17 The review was finalized in March 2023. While it did uncover certain administrative
+shortcomings it found “There were no examples of clear misconduct related to the
+procurements.” (Watt Review p.5)
+1.18 Somewhat farcically, the Watt Review taskforce did not have access to the leaked
+emails that appear to have been provided by Mr. Daly to Minister Bill Shorten.
+Consequently, much of the evidence in the Watt Report itself relied on information
+derived from media reports, a fact confirmed both by Mr. Watt and the Services
+Australia CEO in a hearing on 8 September 2023.
+1.19 The Watt Review findings revealed that among the 95 procurements selected for
+review in light of the allegations, 71 per cent exhibited compliance with the
+Commonwealth Procurement Rules and showcased good practices. In contrast the
+10
+remaining 29 per cent shared similarities with shortcomings observed in comparable
+procurements carried out by the NDIA and Services Australia during the same
+reference period:
+Further, using as a rough point of comparison a decade or so of published ANAO
+audits on procurements, there is no reason to suggest that NDIA and SA
+Procurement processes, procurement capability and contract management are
+markedly worse than those across the Australian Government as a whole (Watt
+Review P.5).
+1.20 Moreover, during a public hearing on 8 September 2023, the CEO of Services
+Australia affirmed that there was no evidence of compromise in any of the contracts
+linked to Synergy 360 or Infosys. Additionally, there was no indication of external
+influence on tenders related to the ECE contract.
+1.21 During the public hearing on 8 September 2023, the CEO of Services Australia
+confirmed that, as part of their own post Watt review due diligence, Services
+Australia has engaged a forensic auditor to conduct a comprehensive investigation
+into suboptimal documentation in certain procurements and any additional
+information held by the agencies. The final report is expected to be completed in
+March 2024.
+1.22 Coalition members note that Labor's direction to the NACC to consider an inquiry
+relies on selective in-camera evidence, which in the Coalition Members opinion
+should not have been publicly released. This is particularly so as it can not be viewed
+within the context of the broader in-camera inquiry testimony.
+1.23 Considering the absence of concrete evidence of misconduct within the scope of the
+95 procurements the Watt Inquiry reviewed, it is disconcerting that the Labor
+members of this committee have chosen to release this interim report and request
+the NACC undertake an investigation based on unsubstantiated allegations. This
+departure from established committee precedent, especially in a matter with political
+overtones, raises serious concerns.
+Senator the Hon Linda Reynolds CSC
+Deputy Chair
+Senator the Hon Matthew Canavan Mr Ian Goodenough MP
+11
+Mr Henry Pike MP Mr Aaron Violi MP
+12
+A. Submissions
+1 Mr Anthony Daly
+2 Ms Khamphone Xaysavanh
+3 Mr David Milo
+4 The Hon Stuart Robert
+6 Infosys
+13
+
+B. Public hearings
+Friday, 23 June 2023
+Committee Room 2R1, Parliament House Canberra
+Infosys Technologies
+• Mr Andrew Growth
+In camera hearings
+Friday 23 June 2023 – Parliament House, Canberra
+Friday 28 July 2023 – Parliament House, Canberra
+15

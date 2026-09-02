@@ -1,0 +1,770 @@
+Report 514: Inquiry into the
+procurement of mandated national
+support and advocacy services for
+victims of child sexual abuse
+Joint Committee of Public Accounts and Audit
+February 2026
+CANBERRA
+© Commonwealth of Australia 2026
+ISBN 978-1-76092-860-5 (Printed version)
+ISBN 978-1-76092-861-2 (HTML version)
+All material in this report is provided under a Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 Australia licence. The material may be shared, copied and redistributed provided that:
+• it is for non-commercial purposes
+• the committee named on the previous page is credited as the author
+• the committee is not represented as endorsing the use of the material
+• any changes are clearly identified
+• no additional legal or technical restrictions are applied to restrict use that complies with the
+licence.
+If the material is remixed, transformed or built upon, the modified material may not be distributed.
+Full details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Contents
+Chair's foreword..............................................................................................v
+Membership of the Committee.....................................................................vii
+Terms of reference.........................................................................................ix
+List of abbreviations......................................................................................xi
+List of recommendations.............................................................................xiii
+Report
+1. Introduction .................................................................................................1
+Background to the inquiry............................................................................................1
+Conduct of the inquiry..................................................................................................1
+Structure of the Report ................................................................................................2
+2. Analysis........................................................................................................3
+Overview......................................................................................................................3
+Rationale for the audit..................................................................................................3
+The audited procurements...........................................................................................4
+National Action Plan (NAP) measure 10 ............................................................................4
+NAP measure 21 ................................................................................................................4
+Procurement planning.........................................................................................................4
+Audit recommendations...............................................................................................4
+Wider observations from the audit findings..................................................................5
+Issues ..........................................................................................................................5
+Overview..............................................................................................................................5
+Probity and ethics................................................................................................................7
+Tender evaluations..............................................................................................................8
+Timeframes........................................................................................................................10
+Competitiveness and pricing.............................................................................................11
+Advice to the Attorney-General.........................................................................................13
+iii
+AusTender requirements...................................................................................................13
+Procurement outcomes.....................................................................................................14
+3. Committee comment.................................................................................15
+Appendixes
+Appendix A. Submissions............................................................................19
+Appendix B. Public hearings........................................................................21
+iv
+Chair's foreword
+This inquiry of the JCPAA examined the procurement process conducted by the Attorney-
+General’s department (AGD) to deliver two new Child Sexual Abuse-related National
+Services. These procurements arose from the recommendations of the 2017 Royal
+Commission into Institutional Reponses to Child Sexual Abuse.
+Given the significance of these services, the Australian National Audit Office (ANAO)
+conducted an audit of the procurements in 2024-25. The audit’s findings were serious. The
+ANAO concluded that the procurements did not involve open and effective competition, were
+subject to substantial delays, accepted non-compliant tenders for evaluation, failed to meet
+ethical requirements, and did not achieve value for money. In both procurements, the
+ultimately preferred tenderers did not comply with mandatory pricing requirements yet were
+nonetheless evaluated and offered contracts.
+The evidence received by the Committee was consistent with the ANAO’s findings. In
+particular, the length of time taken to progress these procurements was deeply concerning.
+Although funding was allocated in the 2021-22 Budget, the market was not approached until
+late 2023. A contract for the national offending prevention service was eventually executed
+in July 2025. Negotiations for the service intended to support non-offending family members
+collapsed in October 2024, and there remains uncertainty as to when, or how, that service
+will now be delivered.
+AGD has acknowledged that while these procurements were complex, the processes were
+unacceptably slow. It is troubling that the Attorney-General was not appropriately briefed on
+these delays and was only advised of anticipated timeframes in mid-2023. AGD has
+accepted all of the ANAO’s findings and has indicated a willingness to learn from these
+failures and improve future practice. While this is welcome, the Committee is not yet
+persuaded that AGD is positioned to deliver the full suite of services required, including the
+nationally available information and referral service for victims and survivors, which remains
+under evaluation and was not examined as part of the audit.
+The Committee has therefore made two recommendations. First, AGD is required to provide
+an immediate update on the status of these services. Second, AGD is required to report
+again in six months on its implementation of the ANAO’s recommendations, including
+concrete examples drawn from ongoing and planned procurement activity.
+I thank the Deputy Chair and members of the Committee for their considered contributions to
+this inquiry. I also thank the ANAO and AGD for their cooperation, and the Committee
+Secretariat for its continued professionalism and support.
+Josh Burns MP
+Chair
+v
+
+Membership of the Committee
+Chair
+Mr Josh Burns MP
+Deputy Chair
+Senator Matt O'Sullivan
+Members
+Ms Mary Aldred MP
+Ms Carol Berry MP
+Senator Lisa Darmanin
+Senator Richard Dowling
+Ms Ali France MP
+Senator Varun Ghosh
+Senator the Hon Jane Hume
+Hon Ed Husic MP
+Hon Barnaby Joyce MP
+Mr Simon Kennedy MP
+Ms Louise Miller-Frost MP
+Senator Barbara Pocock
+Ms Sally Sitou MP
+Mr Terry Young MP
+This committee is supported by staff of the Department of the House of Representatives
+vii
+
+Terms of reference
+On 4 September 2025, the Joint Committee of Public Accounts and Audit adopted an inquiry
+into the procurement of mandated national support and advocacy services for victims of child
+sexual abuse.
+The Committee examined:
+The tender and procurement processes being utilised by the Attorney-General’s department
+to seek providers of the required services
+The lessons learned by the department in relation to these procurements and their current
+status.
+The inquiry had particular regard to any matters contained in or associated with Auditor-
+General Report No. 44 of 2024–25: Conduct of Procurements Relating to Two New Child
+Sexual Abuse-related National Services.
+ix
+
+List of abbreviations
+AGD Attorney General’s Department
+ANAO Australian National Audit Office
+CPRs Commonwealth Procurement Rules
+DSS Department of Social Services
+NAP National Action Plan
+RFT request for tender
+xi
+
+List of recommendations
+Recommendation 1
+3.17 The Committee recommends that the Attorney-General’s Department reports
+back within one month on the current situation regarding the establishment of
+National Action Plan support services arising from the final report of the Royal
+Commission into Institutional Responses to Child Sexual Abuse.
+Recommendation 2
+3.18 The Committee recommends that the Attorney-General’s Department reports
+back within six months on the progress it has made in addressing the
+recommendations of the Australian National Audit Office audit of the
+procurements of child sexual abuse-related services. Specific and detailed
+examples must be given showing how these changes are being implemented
+for all ongoing and planned procurements. The report should also outline the
+processes and timeline for the original tender processes.
+xiii
+
+1. Introduction
+Background to the inquiry
+1.1 On 4 September 2025, the Joint Committee of Public Accounts and Audit adopted an
+inquiry into the procurement of mandated national support and advocacy services for
+victims of child sexual abuse. The services in question had been among those
+recommended in the 2017 final report of the Royal Commission into Institutional
+Responses to Child Sexual Abuse.1
+1.2 The inquiry was primarily a further examination of the findings of the Auditor-General
+in Report No. 44 of 2024–25: Conduct of Procurements Relating to Two New Child
+Sexual Abuse-related National Services.2
+1.3 These two services were:
+1 National Action Plan (NAP) measure 10 - a national support service for non-
+offending family members of child sexual abuse perpetrators during and
+following crisis, primarily through a helpline and website
+2 NAP measure 21 - a national offending prevention service for people who are
+concerned about their own sexual thoughts or behaviours towards children or
+young people or are concerned about another adult. The service is intended to
+provide a helpline, website, other contact methods and self-help modules that
+people can use anonymously and without cost
+1.4 The Committee investigated the tender and procurement processes being used by
+the Attorney General’s Department (AGD) to deliver these services, assessed any
+lessons learned in relation to these activities, and evaluated the current status of
+service delivery.
+Conduct of the inquiry
+1.5 The inquiry received three submissions and three supplementary submissions, listed
+at Appendix A. The supplementary submissions principally provided responses to
+questions taken on notice at the public hearing and to additional written questions
+1 Royal Commission into Institutional Responses to Child Sexual Abuse, ‘Final Report’, Australian
+Government, viewed 11 December 2025, https://www.childabuseroyalcommission.gov.au/.
+2 Australian National Audit Office (ANAO) Conduct of Procurements Relating to Two New Child Sexual Abuse-
+related National Services, Report No. 44 of 2024–25, June 2025; hereafter Auditor-General Report No. 44
+2024–25.
+1
+from the Committee. A single public hearing was conducted in Canberra on Friday 31
+October 2025 (Appendix B).
+Structure of the Report
+1.6 The report is structured as follows:
+• Chapter 1 – Introduction
+• Chapter 2 – Analysis
+• Chapter 3 – Committee Comment
+1.7 Chapter 2 focuses on the Australian National Audit Office’s (ANAO’s) audit findings
+and the evidence received by the inquiry on the adherence by AGD to key principles
+of the Commonwealth Procurement Rules (CPRs). These included the level of
+competitiveness in the approach to the market by AGD, its tender evaluation
+processes, the timeframes involved, whether value for money was achieved, probity
+and ethics considerations, and outcomes of the procurements.
+1.8 Chapter 3 summarises the Committee’s views and conclusions on the matters
+examined in the inquiry. Recommendations are made by the Committee to assist
+AGD and the Government to move forward more effectively with the provision of the
+hugely important services that have been recommended by the 2017 Royal
+Commission.
+2
+2. Analysis
+Overview
+2.1 This chapter examines the findings of ANAO’s recent audit of the Attorney-General’s
+Department’s (AGD’s) procurement of two new Child Sexual Abuse-related National
+Services and the corresponding evidence received to this inquiry regarding these
+activities. The services in question had been among those recommended in the 2017
+final report of the Royal Commission into Institutional Responses to Child Sexual
+Abuse.1
+2.2 The inquiry was strictly focussed on the conduct and outcomes of these
+procurements. Although the Committee fully acknowledges the importance and
+impact of the experiences shared with the Royal Commission, it could not consider
+individual cases or policy responses as part of its deliberations.
+2.3 Areas of focus for the Committee in the inquiry included the adherence by AGD to
+the Commonwealth Procurement Rules (CPRs), the tendering processes used by the
+department and their underlying governance arrangements, whether value for money
+was achieved, probity and ethics, the outcomes of the procurements, and any
+lessons learned.
+Rationale for the audit
+2.4 The ANAO states that it audited two AGD procurement activities because they
+related to the establishment of services recommended by a Royal Commission in
+2017 to support victims of child sexual abuse and their families.2
+2.5 These procurements were designed to establish two nationwide services for the first
+time, one to support and advocate for victims of child sexual abuse, and another to
+protect children by intervening before an individual offends as indicated below.
+1 Royal Commission into Institutional Responses to Child Sexual Abuse, ‘Final Report’, Australian
+Government, viewed 11 December 2025, https://www.childabuseroyalcommission.gov.au/.
+2 Auditor-General Report No. 44 2024–25, p. 7.
+3
+The audited procurements
+National Action Plan (NAP) measure 10
+2.6 NAP measure 10 (NAP 10) is intended to be a national support service for non-
+offending family members of child sexual abuse perpetrators during and following
+crisis, primarily through a helpline and website (including an online peer support
+forum). The Government allocated $10.2 million from 2021-22 to 2024-25 to support
+this service.3
+NAP measure 21
+2.7 NAP 21 involves a national offending prevention service for people who are
+concerned about their own sexual thoughts or behaviours towards children or young
+people, or are concerned about another adult. The service is intended to provide a
+helpline, website, other contact methods (such as an online chat function) and self-
+help modules that people can use anonymously and without cost. The Government
+allocated $9.6 million from 2021-22 to 2024-25 to support this service.4
+Procurement planning
+2.8 The audit report noted that in developing its requests for tender (RFTs) for NAP 10
+and NAP 21 in 2023, AGD obtained a copy of the processes used by the Department
+of Social Services (DSS) for its 2020 to 2022 procurement of counselling and support
+services provided through 1800RESPECT. ANAO indicated that it had audited this
+earlier RFT activity by DSS and found it to have been effective and in compliance
+with the CPRs.5
+Audit recommendations
+2.9 Six recommendations were made by ANAO, all of which were agreed to by AGD.
+These included:
+• identification of the relative importance of each of the criteria to be applied in the
+procurement evaluation process
+• that a tender should be excluded or given a lower score if data that is required for
+evaluation is not provided
+• a need for strengthening of the adherence to recognised principles and processes
+for conducting procurements ethically
+• that planned evaluations must address all information required to be included by
+tenderers in their submissions
+3 Attorney-General’s Department (AGD), Submission 2, p. 6.
+4 Auditor-General Report No. 44 2024–25, p. 61.
+5 Auditor-General Report No. 44 2024–25, p. 24.
+4
+• a need for improved procurement recordkeeping so that accurate and concise
+information exists on the process that was followed.6
+Wider observations from the audit findings
+2.10 ANAO also made some broader-based observations from its audit findings that it
+deemed to be of relevance to the public sector more widely, including that:
+• advice to Ministers on procurement activities must be comprehensive and not
+exclude important information that identifies shortcomings or risks
+• entities should issue any addenda to all candidates in a limited tender
+• information required to be submitted by tenderers must be appropriate and
+sufficient to enable a full evaluation against each criterion
+• tender evaluation reports should be objective, impartial and give the decision-
+maker all the information they need
+• selection of a lead negotiator, and members of the negotiation team, is an
+important decision and entities should consider the benefits of specialist
+negotiation training.7
+Issues
+Overview
+2.11 ANAO found that the conduct of the NAP 10 and NAP 21 procurements by AGD did
+not involve open and effective competition and were not consistent with achieving
+value for money. The principal concerns raised by ANAO in its audit of these
+procurements included that:
+• the preferred tenderers for both services were essentially selected via limited
+tender rather than an open and competitive process in ‘circumstances that do not
+satisfy the conditions for a limited tender set out in the CPRs’
+• the probity adviser was engaged through a process that lacked probity and was
+later, with no competition, engaged to also provide strategic procurement advice
+thus adversely impacting the independence and objectivity of the process
+• the Chair of one of the panels had an existing relationship with the eventually
+contracted provider, a conflict of interest that was not managed properly
+• the procurements were not timely, such that neither of the services were in place
+at the time of the audit
+6 Auditor-General Report No. 44 2024–25, pages 12-13.
+7 Auditor-General Report No. 44 2024–25, pages 14-15.
+5
+• six of the 11 tenderers for the two procurements were evaluated despite not being
+compliant with the pricing information required to be submitted by the RFTs,
+including the preferred tenderer for each service8
+2.12 In its primary submission to the inquiry, AGD’s core responses to the audit findings
+and recommendations were that:
+• all efforts had been made by the department to ensure correct processes were
+followed and ethical requirements were met during the procurement processes
+but AGD acknowledged that aspects of these procurements were below standard
+• AGD considered the providers identified within these procurements to have been
+valid
+• AGD had accepted all six of the ANAO’s recommendations, as well as the
+additional opportunities for improvement, and was developing internal guidance to
+further support staff in planning and evaluating procurements
+• the Secretary of AGD had approved an implementation workplan to address the
+recommendations and opportunities for improvement identified by the ANAO, led
+by its procurement team.9
+2.13 The department took the position in relation to the timeframes for service delivery
+that:
+The procurement processes audited by the ANAO were complex in nature, and
+the anticipated timeframes taken during the development of the National Strategy
+were ambitious and indicative.10
+2.14 AGD also provided a status report in an appendix to its main submission on its
+responses to the recommendations of the ANAO audit, stating, inter alia, that:
+• departmental staff have also received further articles on the topics of
+achieving value for money, conflict of interest and integrity
+• the department has sought better practice examples from other
+commonwealth agencies, including the Department of Finance
+• departmental staff must maintain their procurement knowledge by
+completing procurement training relevant to their roles
+• where departmental staff are members of a procurement evaluation
+committee, they must also complete further training relating to their role
+on the committee before they begin the tender evaluation process
+• where required by the probity plan, they [staff] must also attest that they
+have read and understood the plan
+• the department will provide all officers undertaking new open tenders
+commencing in the department with a briefing from the department’s
+8 Auditor-General Report No. 44 2024–25, pages 8-9.
+9 AGD, Submission 2, pages 8-9.
+10 AGD, Submission 2, p. 8.
+6
+internal procurement team that will cover general requirements, guidance
+and support
+• the department will utilise behavioural insights to embed the lessons
+learnt from the audit into the business-as-usual activity of all relevant
+staff.11
+Probity and ethics
+2.15 ANAO found that AGD’s procurement processes were not consistently conducted in
+accordance with ethical requirements, including that the probity advisor was not
+engaged appropriately and that the Chair of the NAP 21 tender evaluation committee
+had a clear conflict of interest that was not managed properly:
+• the engagement of the probity adviser was through a process that lacked
+probity, and the later engagement (without any competition) of the probity
+adviser to also provide strategic procurement advice adversely impacted
+the independence and objectivity of the probity adviser
+• the declaration and management of conflicts of interest was also not to an
+appropriate standard. This included ineffective management of a conflict
+the chair of the evaluation committee for the NAP 21 procurement had
+with the tenderer that emerged as the preferred candidate.12
+2.16 AGD responded to these issues in its supplementary submissions. In relation to the
+engagement of the same consultancy firm, Astryx, as both a probity advisor and a
+procurement advisor, AGD stated:
+No advice was provided from Astryx in their capacity as probity advisors that they
+could not engage in both a probity and procurement contract with the National
+Office. At the time, the National Office considered the arrangement acceptable
+because probity advice and procurement support were to be delivered by
+separate personnel within Astryx, and the services were viewed as distinct. In
+hindsight, and consistent with the ANAO findings, this separation was not
+sufficiently robust to meet best practice probity expectations.13
+2.17 The Committee queried at the hearing why the Chair of the NAP 21 evaluation
+committee continued in that role when she was found to have been on the ‘Advisory
+Group’ of the preferred tenderer, and ultimately contracted provider, Jesuit Social
+Services. AGD responded on notice that the probity advisor, Astryx, was consulted
+on this issue and had indicated to the department that this posed a reputational risk.
+AGD further stated:
+Astryx did not recommend that the Chair should not be confirmed, but strongly
+advised that the Chair not be the spending delegate. The Department notes that
+11 AGD, Submission 2, Appendix A, pages 10-11.
+12 Australian National Audit Office (ANAO), Submission 3 (responses to questions in writing), p. [2].
+13 AGD, Supplementary submission 2.3 (responses to questions in writing), p. [4].
+7
+this was not applicable, as the spending delegation for this procurement was held
+at the Deputy Secretary level. Astryx explained that confirming the Chair was a
+matter of the Department’s ‘risk appetite’ in relation to reputational risks and
+recommended that the Chair resign from the Advisory Group. Astryx did not
+identify a probity concern with confirming the Chair.14
+2.18 AGD further advised in its response that, following the Chair’s resignation from the
+Jesuit Social Services Advisory Group, Astryx had provided updated advice that the
+department had developed suitable risk mitigation and management on this issue.
+AGD acknowledged that ANAO disagreed with this assessment.15
+Tender evaluations
+2.19 ANAO’s assessment of AGD’s tender evaluations for these services was that they
+were not adequate:
+Tenders for the NAP 10 and NAP 21 procurements were not fully and fairly
+evaluated against each of the criteria. This included six of 11 tenders that did not
+provide all of the pricing information that the Requests for Tender (RFT) stated
+was required to be submitted to inform evaluation.16
+2.20 ANAO further commented that AGD had not downgraded the submissions that had
+failed to provide the pricing data stipulated by the RFT criteria. This included the
+eventual preferred tenderer for each of the services, neither of which was compliant
+in this respect.17
+2.21 ANAO further noted in summarising its core findings that AGD had evaluation plans
+in place prior to the RFT closing date but these had not been signed off by the probity
+advisor. ANAO further stated that these plans ‘also did not adequately address how
+the department planned to evaluate the pricing information tenderers were required
+to submit.’18
+2.22 ANAO additionally indicated that the records of the tender evaluations did not
+maintain the evidence that supported key decisions, accurately reflect the processes
+employed, demonstrate how value for money had been achieved, or show how the
+budgeted amounts were arrived at.19
+2.23 ANAO further commented at the public hearing that records of the tender evaluation
+committee were ‘sometimes inaccurate, sometimes inconsistent, sometimes
+incomplete.’20 ANAO stated:
+14 AGD, Supplementary submission 2.2 (responses to questions on notice), p. [3].
+15 AGD, Supplementary submission 2.2, p. [4].
+16 ANAO, Submission 3, p. [1].
+17 ANAO, Submission 3, p. [1].
+18 ANAO, Submission 3, p. [2].
+19 ANAO, Submission 3, p. [3].
+20 Mr Brian Boyd, Executive Director, Performance Audit Services Group, ANAO, Committee Hansard,
+Canberra, 31 October 2025, p. 10.
+8
+It's very hard for us to then be confident that the conflicts that haven't been well-
+identified and well-managed haven't led to bias in the assessment process. To be
+completely confident in what then results from all that is value for money.21
+2.24 It was also pointed out specifically in the audit report that the preferred tenderer for
+NAP 10 was not in fact the highest ranked provider through the evaluation process.
+In addition, whereas this selected entity was given the opportunity to provide further
+information that was lacking, in order to proceed to contract negotiations, the
+unsuccessful provider who scored highest but was rejected due to financial viability
+concerns was given no opportunity to address those concerns.22
+2.25 In a response to a written question on notice on this issue, AGD stated that although
+this unsuccessful tenderer scored more highly than the preferred tenderer ‘on some
+weighted criteria’ they did not present the best value for money option when other
+factors were taken into account.23
+2.26 ANAO stated in the audit report in this regard that:
+… the department noted it ‘could not conceive of any collaboration activities that
+could alleviate the serious concerns around [the highest ranked NAP 10
+tenderer’s] financial stability’. Inconsistent with this, the financial adviser had
+provided a risk rating of ‘Low to Medium’ in relation to the tenderer’s financial
+viability.24
+2.27 AGD commented on this matter at the public hearing that the issue of financial
+viability was an important consideration for the evaluation panel even though it wasn’t
+necessarily weighted, and that the higher scoring tenderer on weighted criteria was
+judged to be too risky on that basis.25 ANAO responded that:
+Firstly, there was no financial liability criterion. The department, in stating that
+there was in their evaluation, is just wrong… No-one is saying it is not a factor.
+But they've said there was a criterion, and there wasn't… they've used financial
+viability in a way that's not consistent with their own RFT as a basis for not
+progressing a tenderer that had otherwise provided everything it had been asked
+to provide and had scored higher against the weighted criteria. The reason you
+weight some criteria and not others is that you are saying to the market, 'This is
+more important.' To us, the fact that they have scored—not just a little bit
+higher—markedly higher is something we would suggest is of some import in any
+procurement process.26
+21 Mr Boyd, ANAO, Committee Hansard, Canberra, 31 October 2025, p. 10.
+22 Auditor-General Report No. 44 2024–25, p. 46.
+23 AGD, Supplementary submission 2.3 (responses to questions in writing), p. [12].
+24 Auditor-General Report No. 44 2024–25, p. 48.
+25 Mr Scott Sharp, Chief Financial Officer, Attorney-General's Department (AGD), Committee Hansard,
+Canberra, 31 October 2025, p. 11.
+26 Mr Boyd, ANAO, Committee Hansard, Canberra, 31 October 2025, p. 11.
+9
+Timeframes
+2.28 The delays in the conduct of the procurements by AGD was emphasised by ANAO in
+its report. At the time of the audit, neither service was in place and ANAO highlighted
+the following in its submission:
+• Had the department met its timeframes as set out in the RFT packages
+released to the market, it would have signed contracts for both services in
+April and May 2024, before the ANAO performance audit commenced in
+June 2024
+• Key contributing factors to contracts not being signed in the planned
+timeframe were delays in the department preparing the RFT packages
+and then further delays by the department in evaluating the tenders that
+were received and, once preferred tenderers were selected, progressing
+contract negotiations to the signing of contracts
+• The offer validity periods expired with substantive matters continuing to
+be negotiated with each preferred tenderer. The department took no steps
+to seek agreement from the preferred tenderers to extending the offer
+period until after this matter was raised by the ANAO. The validity period
+was extended twice by the department for NAP 21 before a contract was
+signed, and three times for NAP 10 before contract negotiations ceased
+(as advised to the Committee by the department on 30 October 2025).27
+2.29 ANAO further elaborated on the implications of these delays at the public hearing on
+31 October 2025:
+… both these procurements were sitting in a situation where the tender offer
+periods were six months. They both tendered in February 2024. Tenders ran out
+in August 2024… In January 2025 they got agreement from the two preferred
+tenderers to, essentially, go back in history and now extend their offer periods out
+until April. They then did a second extension out to the end of July. They
+managed to get one of them signed—the NAP 21… We're now so far from the
+market being approached and preferred tenderers being selected that it's not just
+that they're no longer meeting their own timeframes… they're no longer running
+the RFT process, they're now limited tenders.28
+2.30 ANAO also further queried why such negotiations at the margins of accepted offers
+would take so long.29
+2.31 AGD acknowledged at the public hearing that its procurement for NAP 10 and NAP
+21 took far longer than expected given that the funding for these services was
+27 ANAO, Submission 3, p. [2].
+28 Mr Boyd, ANAO, Committee Hansard, Canberra, 31 October 2025, p. 10.
+29 Mr Boyd, ANAO, Committee Hansard, Canberra, 31 October 2025, p. 10.
+10
+allocated in the 2021-22 budget. The department stated that the timeframes were
+indicative and ambitious but agreed that the processes took too long, commenting:
+We do recognise the time that was taken. I don't want to overstate, but I'm also
+careful not to understate, the complexity of these processes and the need to get
+it right. They are contentious services, and there was certainly a lot of
+engagement with stakeholders on how these should occur. Time was taken to
+ensure that happened. I think, with the value of hindsight, that was too long. It
+didn't meet expectations, and it didn't deliver on the expectations that people had
+around how long these services would take to get up and running.30
+2.32 AGD further indicated that contributing factors to the extended time taken were the
+need to obtain extensive legal, probity and procurement advice and a focus on trying
+to deliver these unique services in the right way, including the conduct of the
+planning and approvals processes.31
+2.33 At the public hearing, AGD stated that once the ANAO had published its audit report,
+it ‘immediately engaged with all key stakeholders and governance groups to reassure
+them of our serious commitment to addressing the findings and ensuring timely
+delivery of these vital services.’32
+Competitiveness and pricing
+2.34 At the public hearing on 31 October 2025, ANAO further discussed its audit
+conclusions that AGD ultimately did not conduct the tendering processes for NAP 10
+and NAP 21 in an open and competitive manner:
+In terms of open and effective competition, clearly, the department ran
+competitive processes which involved issuing requests for tender, but that in itself
+doesn't get you to open and effective competition if you don't conduct those
+processes in a way which actually means that people are able to fairly and
+openly compete for the business… for us to reach a conclusion is not a
+straightforward 'you've issued a request for tender to the market'. It's everything
+you do in terms of progressing that as to whether it's open and effective
+competition. Our conclusion for both of them was that, when you looked at
+everything that was done post receiving the tenders, it wasn't open and effective
+competition.33
+2.35 ANAO also commented at the hearing in relation to these RFT processes that the
+broad non-compliance by AGD with the CPR requirements for open and effective
+30 Ms Kathleen Denley, Acting First Assistant Secretary, Children and Families Division, AGD, Committee
+Hansard, Canberra, 31 October 2025, p. 2.
+31 Ms Denley, AGD, Committee Hansard, Canberra, 31 October 2025, pages 2-3.
+32 Ms Denley, AGD, Committee Hansard, Canberra, 31 October 2025, p. 1.
+33 Mr Boyd, ANAO, Committee Hansard, Canberra, 31 October 2025, pages 3-4.
+11
+competition was significant as there could then be no confidence that value for
+money would be achieved on behalf of the taxpayer.34 ANAO further stated:
+… we're now 20 months after tenders were lodged. You've probably gone
+forward and removed competition at such an early stage, which might help
+explain why it has then taken so long to try and negotiate [and] to then not get an
+outcome.35
+2.36 In terms of selecting tenderers for subsequent evaluation, AGD acknowledged in
+response to a question in writing that of the 11 tenders received in total for NAP 10
+and NAP 21, some did not provide all of the pricing information. AGD further
+commented in this response however that the evaluation teams had determined that
+a comparison of prices could proceed:
+In relation to pricing, the RFT documentation specified that tenderers ‘should’ and
+not ‘must’ provide the information in the format requested. Not providing the
+information in the format requested did not render them ineligible for
+consideration. The evaluation team concluded that they had enough information
+to do a comparison of prices, even though it was suboptimal to what was
+requested.36
+2.37 Further to the requested pricing information, ANAO found in the audit that the most
+common area of non-compliance with the NAP 10 and NAP 21 RFTs was the
+requirement to provide service pricing for 30-minute calls under low, medium and
+high call volume scenarios.37 It was noted that the preferred tenderers in both cases
+only provided pricing for 45-minute calls.
+2.38 In its response to a question in writing from the Committee on the reasons for this
+finding, AGD indicated that it regarded the pricing responses from these preferred
+tenderers to be compliant with requirements of the RFT, stating:
+The NAP 10 and 21 Requests for Tender (RFT) set out the Minimum Content
+and Format Requirements and Conditions for Participation (clauses 9.3 and 9.4).
+The RFTs noted that the department did not specify any further essential
+requirements… As such, the preferred tenderer’s inclusion of a Pricing Response
+that accounted for their assumptions around the expected call times, alongside a
+detailed explanation of how the proposed pricing was reached, was compliant
+with the requirements of the RFT.38
+34 Mr Boyd, ANAO, Committee Hansard, Canberra, 31 October 2025, p. 4.
+35 Mr Boyd, ANAO, Committee Hansard, Canberra, 31 October 2025, p. 5.
+36 AGD, Supplementary submission 2.3 (responses to questions in writing), p. [1].
+37 Auditor-General Report No. 44 2024–25, p. 35.
+38 AGD, Supplementary submission 2.3 (responses to questions in writing), p. [11].
+12
+Advice to the Attorney-General
+2.39 ANAO highlighted that AGD had not advised the Attorney-General on key issues
+impacting the conduct and progress of these procurements, including:
+• that substantive work on the approach to market had not commenced until June
+2023 and that there had been delays in contracting the external probity and
+procurement advisors
+• that the timeframes for these processes were well outside those that had been
+planned and advised to the market in the RFTs
+• that there had been a significant delay between the NAP 10 evaluation report
+being finalised and endorsed by Evaluation Committee members
+• that the NAP 21 preferred tender could not be accepted because of the large
+amount of additional information that needed to be sought from this provider and
+there had been consequential delays in proceeding to contract negotiations.39
+2.40 In response on notice to questions from the Committee on whether impending delays
+to the procurement process were communicated to the Government, AGD indicated
+that while the Attorney-General was briefed on these processes in both May and July
+of 2023, including an outline of the anticipated timeframes, ‘the timing and resourcing
+risks identified in the procurement strategy were not formally escalated to
+government at that stage.’40
+2.41 AGD indicated in this same response that ‘this has since been identified as a key
+lesson learned.’41
+AusTender requirements
+2.42 ANAO noted in its submission to the inquiry that the requirement for AGD to report its
+service contracts on AusTender had not been triggered as no agreements were in
+place at the time of the audit. ANAO further commented in relation to the external
+procurement advisors:
+For the adviser and consultant contracts the department entered into for the
+purpose of assisting with the main procurements, there were delays and
+inaccuracies in reporting of six of the eight contracts that required reporting on
+AusTender.42
+39 ANAO, Submission 3, pages [4-5].
+40 AGD, Supplementary submission 2.2 (responses to questions on notice), p. [1].
+41 AGD, Supplementary submission 2.2 (responses to questions on notice), p. [1].
+42 ANAO, Submission 3, p. [3].
+13
+Procurement outcomes
+2.43 At the time of the audit, neither the NAP 10 nor NAP 21 service was in place. AGD
+indicated that it had now awarded the NAP 21 contract to Jesuit Social Services and
+anticipated that the service would launch in the first half of 2026.43
+2.44 AGD stated in its submission in relation to NAP 10 that, subject to contract
+finalisation, it expected the launch of the service in 2026.44 AGD further informed the
+Committee by letter in October 2025, however, that contract negotiations had fallen
+through for this service:
+… the department wishes to inform the committee that, unfortunately, agreement
+was unable to be reached through negotiations on contract terms [for NAP 10]
+and the preferred tenderer has withdrawn from the procurement process. The
+process has therefore been cancelled as of today, 30 October 2025.45
+43 AGD, Submission 2, pages 5, 8.
+44 AGD, Submission 2, p. 6.
+45 AGD, Supplementary submission 2.1, p. 1
+14
+3. Committee comment
+3.1 The conduct of the procurements by the Attorney-General’s Department (AGD) to
+secure hugely important and first-time national services that could help families to
+better deal with the trauma of child sex abuse, and potentially better protect children
+from these terrible crimes into the future, was entirely inadequate, from start to finish.
+3.2 The Committee finds much of the decision-making by the department during these
+activities to be questionable at best. Aside from failing to adhere to many of the core
+principles of the CPRs at an overarching level, the way the tender processes for
+these services were administered by AGD indicated significant shortfalls in expected
+governance standards and in the professional understanding of what was needed.
+3.3 The Auditor-General’s report makes for sobering reading to say the least.
+3.4 The time taken to enter into contract negotiations was just far too slow, which AGD
+accepts. Money was allocated in the 2021-22 budget for these services but it was the
+end of 2023 before the market was even approached. It was July 2025 when a
+contract was eventually signed for only one of the two services in question, NAP 21,
+requiring multiple extensions of the offers to the preferred tenderer.
+3.5 The other service, NAP 10, has not been delivered at all. The Committee’s concerns
+with this situation are first and foremost that an important service to help family
+members of child victims is still not available more than four years after funding was
+provided and, indeed, more than eight years after it was recommended by a Royal
+Commission and agreed to by the Government.
+3.6 In addition to this, the responsible Minister, the Attorney-General, was not briefed
+about these delays and had been advised of the anticipated timeframes only in mid-
+2023. The department would have known for a considerable period after this that
+these timeframes were never going to be met.
+3.7 What is particularly perturbing to the Committee about this situation is that the
+preferred tenderer for NAP 10 was not the highest ranked potential provider through
+the evaluation process and was not even compliant with the RFT criteria for the
+provision of pricing information. Somehow this tenderer was selected anyway and
+then given preferential treatment by AGD to get to the contract negotiation stage. At
+the end of it all, this provider has walked away from the contract and left the
+department with nothing to show for its overlong procurement process.
+3.8 It is unlikely that the highest-ranking tenderer for NAP 10 in the evaluations, the entity
+that satisfied each of the RFT criteria but was found to carry too much financial risk
+(despite the financial advisor to the procurement process having no such concern
+initially), will be interested in dealing with AGD again. That unsuccessful provider was
+15
+afforded no opportunity to address the financial viability concerns that were raised
+against it. They would have little incentive to expend the considerable time and
+resources needed to put in another bid.
+3.9 AGD accepts the findings of ANAO and agreed to all of its audit recommendations.
+AGD has also indicated that it is undertaking a variety of activities internally to learn
+the lessons from the issues raised about these procurements and thereby improve.
+At face value, this is laudable and should of course be the expected response of any
+entity to these types of audit findings. The Committee is, however, not at all confident
+that this will produce the desired results for the delivery of these services.
+3.10 AGD emphasised the complexity of these procurements in its evidence, and that it
+was not experienced in conducting them on this scale. It further stressed its desire to
+achieve a proper process and that it therefore consulted with a wide range of key
+stakeholders to get it right. This was also one of the reasons given for the delays in
+initiating the RFTs.
+3.11 Despite the noble intentions underlying it, AGD’s careful preplanning did not work.
+Significantly in this regard, the Committee now believes that it likely never could
+have. In the Committee’s Commonwealth procurement inquiry report in the last
+Parliament, Recommendation 1, which was agreed to by the Government, and which
+the Committee reiterates here due to its importance, stated:
+The Committee recommends that the Department of Finance work to advance
+public sector procurement capability and professionalisation by:
+• prioritising the development and rollout of a procurement professional
+stream within the Australian Public Service, to facilitate the creation of
+procurement and contracting specialists, and
+• expanding the current definition of procurement in the Commonwealth
+Procurement Rules, to empower and better reflect modern,
+professionalised procurement practices, including more active
+management of supply markets and supply chains to maximise value for
+money.1
+3.12 It has been the Committee’s considered view for several years that the ‘active
+management of supply markets and supply chains to maximise value for money’ is a
+crucial component of advancing public sector procurement capability. The Committee
+questions whether AGD can obtain this capability in relation to delivering the specific
+services examined in this inquiry.
+3.13 The responsibility for procuring services of this nature should probably never have
+been AGD’s in the first place as these activities fall completely outside of its
+experience and fundamental remit. The Committee does not believe that AGD
+currently has the required understanding of the marketplace for services such as
+1 Joint Committee of Public Accounts and Audit, Report 498: 'Commitment issues' - An inquiry into
+Commonwealth procurement, Canberra, August 2023, Recommendation 1.
+16
+NAP 10 and NAP 21, and questions whether it should be directed, either by this
+Committee or by others, to expend time and resources to now try and acquire it.
+3.14 In that same vein, the Committee is very concerned that even if AGD were to
+eventually successfully conclude the rest of these procurements, it would lack the
+experience required to effectively manage the contracts for nationwide support and
+counselling services such as these going forward.
+3.15 This is all reflected in the evidence to the inquiry, not least in the greatly extended
+timeframes for these processes, the confused and muddled nature of the pricing
+frameworks at the RFT and subsequent tender evaluation stages, and the collapse of
+the NAP 10 contract negotiations.
+3.16 AGD needs to urgently address the many shortfalls in its technical administration of
+these NAP procurements, all of which have been highlighted in detail by the audit
+report and examined in this inquiry. This is because they are relevant to any future
+procurement activities by this department. The Committee will be requesting an
+immediate update from AGD on the status of the NAP services but also a further
+update going forward on how it is correcting these specific areas of deficiency across
+all of its procurement activities.
+Recommendation 1
+3.17 The Committee recommends that the Attorney-General’s Department reports
+back within one month on the current situation regarding the establishment of
+National Action Plan support services arising from the final report of the Royal
+Commission into Institutional Responses to Child Sexual Abuse.
+Recommendation 2
+3.18 The Committee recommends that the Attorney-General’s Department reports
+back within six months on the progress it has made in addressing the
+recommendations of the Australian National Audit Office audit of the
+procurements of child sexual abuse-related services. Specific and detailed
+examples must be given showing how these changes are being implemented
+for all ongoing and planned procurements. The report should also outline the
+processes and timeline for the original tender processes.
+Josh Burns MP
+Chair
+5 February 2026
+17
+
+A. Submissions
+1 Mr Jack Davenport
+2 Attorney-General’s Department
+2.1 Supplementary to submission 2
+2.2 Supplementary to submission 2 (responses to questions taken on notice at the public
+hearing)
+2.3 Supplementary to submission 2 (responses to questions in writing)
+3 Australian National Audit Office (responses to questions in writing)
+19
+
+B. Public hearings
+Friday, 31 October 2025 — Canberra
+Attorney-General’s Department
+• Ms Kathleen Denley, Acting First Assistant Secretary, Children and Families
+Division
+• Mrs Lauren Barons, Assistant Secretary, National Office for Child Safety
+• Mr Scott Sharp, Chief Financial Officer
+Australian National Audit Office
+• Ms Rona Mellor PSM, Acting Auditor-General
+• Mr Ian Goodwin, Group Executive Director, Performance Audit Services Group
+• Mr Brian Boyd, Executive Director, Performance Audit Services Group
+21

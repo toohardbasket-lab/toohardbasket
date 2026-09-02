@@ -1,0 +1,2406 @@
+The Senate
+Economics Legislation Committee
+Corporations Amendment (Digital Assets
+Framework) Bill 2025
+March 2026
+© Commonwealth of Australia 2026
+ISBN 978-1-76093-904-5 (Printed version)
+ISBN 978-1-76093-904-5 (HTML version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by the Senate Printing Unit, Parliament House, Canberra
+Contents
+Members ............................................................................................................................................... v
+Abbreviations ................................................................................................................................... vii
+Chapter 1—Introduction .................................................................................................................... 1
+Purpose of the bill ................................................................................................................................ 1
+Key provisions ...................................................................................................................................... 2
+Core concepts ............................................................................................................................ 2
+Applying financial services law to DAPs and TCPs ........................................................... 8
+When a DAP is a financial market or clearing and settlement facility .............................. 8
+AFS licences ............................................................................................................................... 9
+Asset holding standards ........................................................................................................ 10
+Transactional and settlement standards .............................................................................. 10
+Platform rules .......................................................................................................................... 11
+Treatment of wrapped tokens ............................................................................................... 11
+AFS licence exemptions ........................................................................................................ 12
+Exemption from the prohibition on hawking financial products .................................... 12
+Exemption from market-making provision ........................................................................ 12
+Tailored disclosure obligations for DAPs and TCPs ......................................................... 13
+Platform voting policy............................................................................................................ 13
+Joint operation and the exception to liability for defective financial services guide .... 13
+Licensee must make a target market determination .......................................................... 14
+New powers of the Minister ................................................................................................. 14
+Exemptions for public digital token infrastructure ........................................................... 15
+Application and transitional provisions .............................................................................. 16
+Financial impact ................................................................................................................................. 16
+Commencement ................................................................................................................................. 16
+Compliance cost implications .......................................................................................................... 16
+Consultation ........................................................................................................................................ 16
+Human rights implications ............................................................................................................... 17
+The right to privacy ................................................................................................................ 17
+Right to a fair trial ................................................................................................................... 18
+iii
+Legislative scrutiny ............................................................................................................................ 18
+Senate Standing Committee on the Scrutiny of Bills ......................................................... 19
+Parliamentary Joint Committee on Human Rights ............................................................ 20
+Conduct of the inquiry ...................................................................................................................... 21
+Acknowledgments .................................................................................................................. 21
+Chapter 2—Views on the bill.......................................................................................................... 23
+Support for modernising Australia’s digital asset regulations ................................................... 23
+Issues associated with the concepts of ‘factual control’ and ‘possession’ .................................. 24
+Uncertainty regarding the scope of a ‘digital token’ ......................................................... 24
+Uncertainty regarding the concept of ‘possession’ in defining a DAP ........................... 27
+Implications of ‘factual control’ and ‘possession’ in non-unilateral settings ................. 28
+Asset holding standards and transaction and settlement standards .......................................... 34
+Client money standards .................................................................................................................... 35
+Interaction of the DAP and TCP regime with existing financial services law .......................... 37
+Licensed market and clearing and settlement facility regime .......................................... 37
+Australian financial services license regime ....................................................................... 39
+Interoperability of the digital assets framework with international regimes ............................ 41
+Other issues ......................................................................................................................................... 44
+Adequacy of transitional arrangements .............................................................................. 44
+Additional mechanisms for regulatory guidance .............................................................. 46
+Jurisdiction of Australian courts in cases involving global exchanges ........................... 48
+Additional issues .................................................................................................................... 48
+Committee view ................................................................................................................................. 49
+Coalition Senators' Additional Comments .................................................................................. 51
+Appendix 1—Submissions .............................................................................................................. 61
+iv
+Members
+Chair
+Senator Lisa Darmanin ALP, VIC
+Deputy Chair
+Senate the Hon Jane Hume (to 3 March 2026) LP, VIC
+Senator Kerrynne Liddle (from 5 March 2026) LP, SA
+Members
+Senator the Hon Matthew Canavan NATS, QLD
+Senator Nick McKim AG, TAS
+Senator Deborah O'Neill ALP, NSW
+Senator Charlotte Walker ALP, SA
+Secretariat
+Sean Turner, Committee Secretary
+Tegan Scott, Principal Research Officer
+Michael Finch, Senior Research Officer
+Sonia Arian, Administrative Officer
+PO BOX 6100 (02) 6277 3540
+Parliament House economics.sen@aph.gov.au
+Canberra
+v
+
+Abbreviations
+AFS licence Australian Financial Services Licence
+AP+ Australian Payments Plus
+ASIC Australian Securities and Investments Commission
+ASIC Act Australian Securities and Investments Commission Act 2001
+AUSTRAC Australian Transaction Reports and Analysis Centre
+bill Corporations Amendment (Digital Assets Framework)
+Bill 2025
+CEx Centralised cryptocurrency exchanges
+Corporations Act Corporations Act 2001
+committee Senate Economics Legislation Committee
+CS facility Clearing and settlement facility
+DAP Digital Asset Platform
+DECA Digital Economy Council of Australia
+DLI Distributed ledger infrastructure
+LCA Law Council of Australia
+MIS Managed investment scheme
+PDTI Public digital token infrastructure
+Scrutiny Committee Senate Standing Committee on the Scrutiny of Bills
+Ripple Ripple Labs Inc
+TCP Tokenised custody platform
+vii
+
+Chapter 1
+Introduction
+1.1 On 5 February 2026, the Senate referred the Corporations Amendment (Digital
+Assets Framework) Bill 2025 (the bill) to the Senate Economics Legislation
+Committee (the committee) for inquiry and report by 16 March 2026.1
+1.2 The committee’s report on the bill contains two chapters:
+ Chapter 1—provides an overview of the bill and the inquiry process; and
+ Chapter 2—considers inquiry participants’ evidence on the bill.
+Purpose of the bill
+1.3 The bill seeks to implement the Australian Government’s ‘commitment in the
+2024-2025 Budget to modernise Australia’s digital asset regulation’.2 In particular,
+the bill proposes to amend the Corporations Act 2001 (Corporations Act) and the
+Australian Securities and Investments Commission Act 2001 (ASIC Act) to:
+ define core concepts of ‘digital token’, ‘digital asset platform’ (DAP) and
+‘tokenised custody platform’ (TCP);
+ apply financial services law in a way that is tailored to DAPs and TCPs;
+ provide exemptions for ‘certain digital token arrangements’; and
+ provide the Australian Securities and Investments Commission (ASIC) and
+the Minister with powers to regulate DAPs and TCPs.3
+1.4 In introducing the bill, the Assistant Treasurer and Minister for Financial
+Services, Dr Daniel Mulino MP, stated digital assets are ‘reshaping finance’:
+Blockchain technology and tokenisation are unlocking new ways to invest,
+trade and transfer wealth. They promise faster settlement, lower costs, and
+broader access to markets that were once out of reach. Tokenisation can turn
+real-world assets like property, commodities or bonds into digital tokens
+that can be traded instantly and securely.
+This is not a distant future. It is happening now. Global institutions are
+experimenting with tokenised securities, central banks are exploring digital
+currencies and investors are demanding safe, regulated ways to participate.4
+1.5 While recognising the benefits of digital assets for Australia, Dr Mulino also
+noted the associated risks, including that ‘…it is currently possible for a business
+1 See, Journals of the Senate, No. 32, 5 February 2026, pp. 1133–1136.
+2 Explanatory Memorandum, p. 4.
+3 Explanatory Memorandum, pp. 3–4.
+4 Dr Daniel Mulino MP, Assistant Treasurer and Minister for Financial Services, House of
+Representatives Hansard, 26 November 2025, p. 4068.
+1
+2
+to hold an unlimited value of client digital assets without any financial law
+safeguards’.5 Dr Mulino said the bill responds to such challenges, by ‘…reducing
+loopholes and ensuring comparable activities face comparable obligations,
+tailored to the digital asset ecosystem’. Further, Dr Muliono said the bill focuses
+on regulating the businesses which hold client assets as the ‘potential source of
+risk’ rather than the ‘underlying technology itself’.6
+Key provisions
+1.6 As outlined in this section, the bill contains a range of key provisions, including:
+ to define concepts for digital tokens, DAPs and TCPs;
+ to add DAPs and TCPs to the definition of a financial product in the
+Corporations Act and the ASIC Act;
+ to tailor financial service provision in respect of DAPs and TCPs;
+ to require persons providing financial services in relation to DAPs and TCPs
+to hold an Australian Financial Services Licence (AFS licence);
+ to specify obligations to issuers of DAPs and TCPs
+ to exempt AFS licensees from certain obligations when providing financial
+services with respect to DAPs and TCPs;
+ to exempt issuers of DAPs and TCPs from holding an AFS licence if the
+value of transactions on the platform does not exceed $10 million per year;
+ to apply ASIC’s powers relating to financial products, including to make
+product intervention orders, to financial products that are DAPs or TCPs;
+ to exempt ‘public digital token infrastructure and custodial staking
+arrangements from certain regulation under the financial services law’;
+ to clarify the ‘treatment of ‘wrapped’ digital tokens under the financial
+services law’; and
+ to apply a transitional period in relation to the commencement and
+application of the new regime.7
+Core concepts
+1.7 The bill seeks to introduce the core concepts of ‘digital token’, DAP and TCP to
+the Corporations Act. As the Explanatory Memorandum states:
+These terms are fundamental to the operation of the regulatory framework
+and provide clarity and certainty as to the digital tokens and related
+intermediary arrangements which are captured by the framework. The
+5 Dr Daniel Mulino MP, Assistant Treasurer and Minister for Financial Services, House of
+Representatives Hansard, 26 November 2025, pp. 4068–9.
+6 Dr Daniel Mulino MP, Assistant Treasurer and Minister for Financial Services, House of
+Representatives Hansard, 26 November 2025, pp. 4068–9.
+7 See, Explanatory Memorandum, pp. 12–13. Note, detailed explanation of the provisions of the bill
+are provided in the Explanatory Memorandum, pp. 13–89.
+3
+terms are important in determining whether a person needs to obtain an
+AFS licence, and if so, what obligations apply to that licence.8
+Meaning of digital token
+1.8 Proposed section 761GB seeks to establish the meaning of a digital token.
+Proposed subsection 761GB(1) provides that a digital token is an ‘electronic
+record that one or more persons are capable of factually controlling or an
+electronic record prescribed by regulations’.9
+1.9 Additionally, proposed subsection 761GB(1) provides that regulations may
+prescribe a class of electronic record not to be a digital token.10 The Explanatory
+Memorandum states such regulation would allow the Australian Government
+to ‘make timely changes to the framework’, including:
+ clarifying the operation of the framework in relation to certain digital
+tokens where there is stakeholder uncertainty or a lack of clarity;
+ ensuring that the legislation remains up-to-date with a rapidly evolving
+and dynamic market;
+ providing a mechanism for addressing regulatory overlap; and
+ adapting the legislation to deal with new and emerging digital tokens
+and technologies.11
+Factual control of an electronic record
+1.10 Proposed subsection 761GB(2) provides that a person is capable of factually
+controlling an electronic record (whether alone or jointly with one or more other
+persons) if the person can:
+(a) transfer the electronic record; and
+(b) exclude one or more other persons from transferring electronic record;
+and
+(c) demonstrate that the person can do the things in paragraphs (a) and (b).12
+1.11 A person who factually controls an electronic record is ‘generally taken to have
+possession of the digital token’.13
+1.12 The Explanatory Memorandum notes the concept of factual control is ‘framed
+broadly to allow for flexibility as technology evolves and new forms of digital
+token emerge’.14 While an electronic record includes ‘all types of information
+8 Explanatory Memorandum, p. 13.
+9 Explanatory Memorandum, p. 13.
+10 Explanatory Memorandum, p. 14.
+11 Explanatory Memorandum, p. 14.
+12 Corporations Amendment (Digital Assets Framework) Bill 2025, Subsection 761GB(2), p. 3.
+13 See, Explanatory Memorandum, p. 14.
+14 Explanatory Memorandum, p. 14.
+4
+that could be generated, communicated, received, or stored electronically…’, it
+is not capable of being ‘exclusively transferred’.15
+1.13 The Explanatory Memorandum notes a digital token is different to an electronic
+record in that a token can be ‘controlled in the same way that a physical object can
+be possessed’. When a digital token shifts from a transferor to a transferee so does
+the ability to effect further transfers. The ‘ability to use or consume the digital
+token implicitly follows with this transfer’. This ‘rivalrous’ nature is why a person
+can have ‘the same legal relationship’ with a digital token as they would a
+physical object and ‘is the primary focus of the digital token definition’.16
+1.14 The Explanatory Memorandum outlines a range of practical circumstances
+where an electronic record may, or may not, be considered a digital token. For
+instance, the Explanatory Memorandum provides the following example of
+‘electronic records under technical encumbrance’:
+Jie uses a smart-contract ‘time-lock’ for her stablecoin tokens as a forced
+savings measure. The stablecoin tokens are digital tokens before, during,
+and after they are ‘locked’ in the smart contract. Jie retains factual control
+throughout the time-lock period as she remains the only person capable of
+transferring the tokens, which she can do once the time-lock has expired.
+She continues to exclude others from transferring the tokens during this
+period. She can sign a message that cryptographically proves she is capable
+of these things at any time during the time-lock. The stablecoin tokens
+remain digital tokens while technically encumbered because they are still
+capable of being factually controlled once the time-lock expires.17
+Possession of a digital token
+1.15 The bill seeks to amend the definition of ‘possession’ in the Corporations Act to
+‘reflect that possession has a specific meaning in relation to digital tokens’.18
+Item 30 proposes to repeal section 86 of the Corporations Act and replace it with
+a new section that provides ‘possession’, in summary, means:
+Where a person factually controls an electronic record, the person possesses
+the digital token in question, unless the exception in that provision applies
+… The regulations may also prescribe circumstances in which a person
+either does or does not possess the digital token.19
+1.16 Proposed subsection 86(1) provides that the meaning of possession is otherwise
+preserved for things other than digital tokens.20
+15 Explanatory Memorandum, p. 15.
+16 Explanatory Memorandum, p. 15.
+17 Explanatory Memorandum, p. 19.
+18 Explanatory Memorandum, p. 19.
+19 Explanatory Memorandum, p. 19.
+20 Explanatory Memorandum, p. 19.
+5
+1.17 The Explanatory Memorandum notes that a person who has the legal right to
+direct the person who factually controls an electronic record ‘does not
+themselves posses the digital token’. Rather:
+…a person that factually controls an electronic record possesses that digital
+token even if they are subject to a legal obligation to not exercise factual
+control over that digital token.21
+1.18 The Explanatory Memorandum notes the amendments proposed in Item 30
+‘recognise that digital tokens are functionally equivalent to physical tokens in
+that they can be used and valued in the same ways’.22
+1.19 The Explanatory Memorandum provides a range of practical examples to
+demonstrate the intended application of the definition of possession.23 For
+instance, the Explanatory Memorandum provides the following example of
+‘possession by a custody service provider’:
+Muhammad buys digital tokens from a broker. The digital tokens remain in
+the possession of the broker after his purchase. Muhammad has a
+contractual right to request delivery of the digital tokens to an address he
+factually controls with a private key only he knows. The broker factually
+controls and possesses the digital tokens. Muhammad does neither.24
+Joint possession
+1.20 Proposed section 86(3) establishes an exemption ‘in certain circumstances where
+a person will be taken to not possess a digital token despite being capable of
+factually controlling it’.25As the Explanatory Memorandum states:
+The exception applies where two or more people are concurrently capable
+of factually controlling the same digital token but the degree of control they
+have is unequal. For example, if a person requires the express cooperation
+of another person to transfer a digital token – and the other person can
+transfer the digital token unilaterally – then the first person does not possess
+the digital token but the second person does.26
+1.21 The Explanatory Memorandum provides a range of practical examples to
+demonstrate the intended application of the concept of joint factual control.27 For
+instance, the Explanatory Memorandum provides the following example of a
+‘two-of-two multi-signature wallet’:
+21 Explanatory Memorandum, pp. 19–20.
+22 Explanatory Memorandum, p. 20.
+23 See, Explanatory Memorandum, pp. 20–21.
+24 Explanatory Memorandum, p. 20.
+25 Explanatory Memorandum, p. 22.
+26 Explanatory Memorandum, p. 22.
+27 See, Explanatory Memorandum, pp. 22–23.
+6
+Patricia and Toby each hold one of two private keys needed to transfer a
+token. Neither person can transfer the token without the other approving
+the transfer. Patricia and Toby factually control and possess the token
+jointly.28
+Meaning of a digital asset platform and a tokenised custody platform
+1.22 The bill provides that a DAP and a TCP are regulated under financial services
+law. As the Explanatory Memorandum notes:
+The operator of these facilities is a custodian, and through these facilities,
+digital tokens are either possessed or are used to record holdings of assets
+or other digital tokens. Specifically:
+ a digital asset platform possesses digital tokens, and records clients’
+interests in an account; and
+ a tokenised custody platform holds assets or possesses digital tokens, and
+records clients’ interests as digital tokens.29
+1.23 The bill provides that an operator of a DAP or a TCP ‘issues’ the platform to
+another person who becomes a client when accepting the terms of the facility
+and creates an account with the operator.30 A client may subsequently ‘engage
+in conduct’ under a DAP or a TCP ‘after the platform has originally been issued,
+such as by buying, selling, depositing, or withdrawing digital tokens or assets
+through the platform’.31
+Meaning of a digital assets platform
+1.24 Proposed subsection 761GF(1) provides that a DAP is a facility under which:
+(a) a person (the operator) possesses one or more digital tokens (the
+underlying assets); and
+(b) the underlying assets are so possessed for or on behalf of another
+person, including by the operator:
+(i) acting as trustee or bailee; or
+(ii) being obliged to ensure that the underlying assets are dealt with on
+the instructions of the other person.32
+1.25 The person which a DAP possesses the underlying assets for must be a ‘client
+under the facility or the nominee of such a client’.33 The underlying assets held
+by a DAP includes ‘any right, interest or claim of any kind including rights,
+28 Explanatory Memorandum, p. 22.
+29 Explanatory Memorandum, pp. 23–24.
+30 See, Explanatory Memorandum, pp. 24-25, 27 and 37.
+31 Explanatory Memorandum, p. 37.
+32 Corporations Amendment (Digital Assets Framework) Bill 2025, Subsection 761GF(1), pp. 4–5.
+33 Corporations Amendment (Digital Assets Framework) Bill 2025, Subsection 761GF(2), p. 5.
+7
+interests or claims in or in relation to property that arise due to the possession
+of a digital token’.34
+1.26 The Explanatory Memorandum notes that in circumstances where a facility
+meets both the definition of a DAP and a TCP, proposed subsection 761GC(4)
+provides the definition of a TCP ‘…takes priority, and the facility will only be
+regulated as a tokenised custody platform’.35
+Meaning of a tokenised custody platform
+1.27 Proposed subsection 761GD(1) provides that a TCP is facility under which:
+ a person, defined as the operator, identifies one or more assets (other than
+money), defined as the underlying assets; and
+ for each underlying asset, the operator creates a single digital token,
+possession of which confers a right to redeem, or directs the delivery of,
+the underlying asset; and
+ the operator holds each underlying asset for or on behalf of another
+person who possesses the digital token for the underlying asset,
+including by the operator as trustee or bailee, or by the operator being
+obliged to ensure that the underlying asset is dealt with on the
+instructions of the other person.36
+1.28 Additionally, the bill provides that a facility is a TCP if there is a ‘one-to-one
+relationship between the underlying asset and the digital token’; this
+requirement ‘reflects that tokenised custody facilities should not be used as a
+vehicle to issue fractionalised interests in underlying assets’.37 Moreover, Item 27
+of the bill establishes specific requirements for TCPs, which supplement the
+‘one-to-one relationship’ requirement, to further ensure TCPs ‘cannot be used
+to issue interests in mixed pools of assets, or fractionalised interests in assets’.38
+1.29 The Explanatory Memorandum notes the definition of a TCP captures a ‘wide
+variety’ of custodial arrangements. This includes:
+ arrangements that ‘involve a person holding assets on behalf of another as
+trustee or bailee’; and
+ arrangements for a ‘client to transfer full title in the underlying assets in
+return for a contractual right to instruct the operator in relation to how those
+underlying assets are dealt with’.39
+34 Explanatory Memorandum, p. 24.
+35 Explanatory Memorandum, p. 26.
+36 Explanatory Memorandum, p. 26.
+37 Explanatory Memorandum, p. 28.
+38 Explanatory Memorandum, p. 32.
+39 Explanatory Memorandum, p. 27.
+8
+Applying financial services law to DAPs and TCPs
+1.30 The bill seeks to apply financial services law to DAPs and TCPs with
+‘appropriate adjustments to reflect the nature of these platforms and their
+inherent risks’.40 Financial services law, as defined in section 761A of the
+Corporations Act, includes:
+…the parts of the [Corporations Act] that deal with MISs and financial
+services and markets – such as the single licensing regime for dealing in
+financial products, and financial products and services disclosure. The
+unconscionable conduct and consumer protection provisions related to
+financial services in the ASIC Act are also covered under the term.41
+1.31 Items 2 and 75 of the bill seek to apply financial services law to DAPs and TCPs
+by including the platforms in the definition of a financial product within the
+Corporations Act and the ASIC Act. As the Explanatory Memorandum notes, a
+person intending to provide financial services in relation to a DAP or a TCP is
+‘subject to the same licensing and other obligations with respect to’:
+ who can apply for and hold an AFS licence; and
+ the requirement to comply with the general conditions of an AFS
+licence.42
+1.32 DAPs and TCPs would also be ‘subject to tailored disclosure and other
+obligations under the framework of the financial services law, including under
+minimum standards made by ASIC, to address the specific characteristics of
+digital assets platforms and tokenised custody platforms’.43
+1.33 Further, Items 2 and 75 provide that a DAP or a TCP is only a financial product
+if it is not a managed investment scheme (MIS). Item 27 of the bill stipulates
+criteria which, if met, excludes a DAP or a TCP from being regulated as a MIS.44
+When a DAP is a financial market or clearing and settlement facility
+1.34 The Explanatory Memorandum states that:
+Depending on the nature of a facility, it may be a ‘digital asset platform’ and
+‘financial market’ or ‘clearing and settlement facility’ (or both). Because of
+subparagraphs 765A(1)(l)(i) and (ii) of the Act, such a facility is not a
+financial product to the extent it is a financial market or clearing and
+settlement facility, despite the amendments made by this Bill to regulate
+digital asset platforms as financial products.45
+40 Explanatory Memorandum, p. 30.
+41 Explanatory Memorandum, p. 30.
+42 Explanatory Memorandum, p. 30.
+43 Explanatory Memorandum, p. 30.
+44 Explanatory Memorandum, p. 31.
+45 Explanatory Memorandum, p. 38.
+9
+1.35 In such circumstances, the facility will be regulated as a financial market or
+clearing and settlement facility (CS facility) (or both) instead of being regulated
+as a financial product. The Explanatory Memorandum notes:
+An AFS licence is not required to operate a financial market or clearing and
+settlement facility. Instead, operators of these facilities are subject to specific
+licensing regimes.46
+1.36 However, in circumstances where a component of a DAP ‘is not a financial
+market or clearing and settlement facility (for example, where the platform
+makes nonfinancial products available), that component remains a financial
+product’. The Explanatory Memorandum notes that, in such cases, ‘the operator
+is subject to the licensing and other requirements for providers of financial
+services to issue the component of the platform that is a financial product’.47
+AFS licences
+1.37 The bill provides that operators who obtain an AFS licence to deal in DAPs or
+TCPs ‘need to comply with the general obligations of an AFS licence’ as outlined
+in Section 912A of the Corporations Act.48
+1.38 Further, Item 37 of the bill provides that an AFS licensee authorised to operate
+a DAP or a TCP must comply with specific obligations, including:
+ complying ‘with the asset holding standards and the transactional and
+settlement standards, to the extent that the standards relate to the financial
+services authorised by the licence relating to the issuing of the platform’;
+and
+ having ‘platform rules that deal with certain matters’.49
+1.39 A licensed operator of a DAP or a TCP must also comply with any prohibition
+of certain conduct, as made by the Minister via delegated legislation.50
+1.40 A licensed operator of a DAP or a TCP which fails to comply with the standards,
+platform rules or relevant prohibitions is subject to a ‘civil penalty and is a
+breach of the financial services law, allowing ASIC to exercise’ its powers in
+relation to the licensee.51
+46 Explanatory Memorandum, p. 39.
+47 Explanatory Memorandum, p. 39.
+48 Explanatory Memorandum, p. 40.
+49 Explanatory Memorandum, pp. 40–41.
+50 Explanatory Memorandum, p. 41.
+51 Explanatory Memorandum, p. 41.
+10
+Asset holding standards
+1.41 Items 36 and 37 of the bill provide that ‘ASIC may, by legislative instrument,
+make standards (called asset-holding standards) that deal with specific matters
+in relation to digital asset platforms or tokenised custody platforms’.52
+1.42 Proposed subsection 912BE(1) outlines the ‘minimum requirements for asset-
+holding functions’ of a DAP or a TCP. As the Explanatory Memorandum notes,
+the asset-holding standards may deal with:
+ the activities and conduct of the licensee and their authorised
+representatives in relation to:
+− possessing and safeguarding the underlying assets of the platform;
+− record keeping, reconciliation and reporting in relation to the
+underlying assets; or
+− how the underlying assets of the platform are used;
+ the provision by licensees of supplementary services related to the
+underlying assets, including fund accounting, compliance monitoring,
+performance reporting or tax-related functions;
+ any matter prescribed by regulations.53
+1.43 The Explanatory Memorandum states that managing requirements for the asset
+holding functions of DAPs and TCPs via standards ‘ensures consumer
+safeguards for comparable products regulated under the financial services law
+can be applied to safeguard client assets but adjusted to respond to the unique
+features of digital token arrangements’.54
+Transactional and settlement standards
+1.44 Items 36 and 37 of the bill provide that ‘ASIC may, by legislative instrument,
+also make standards (called transactional and settlement standards)’ which deal
+with ‘the conduct of persons in relation to the underlying assets of a digital asset
+platform or tokenised custody platform issued by an AFS licensee’ and ‘any
+matter prescribed by regulations’.55
+1.45 As the Explanatory Memorandum notes, the ‘standards establish minimum
+requirements for how client transactions are executed and settled for these
+platforms’. In particular, the standards may deal with, but are not limited to:
+ facilitation of acquisitions, disposals, encumbrances or settlements of the
+underlying assets of a platform;
+ matched principal trading and other execution models that involve the
+intermediary facilitation of such transactions;
+52 Explanatory Memorandum, p. 41.
+53 Explanatory Memorandum, p. 41–42.
+54 Explanatory Memorandum, p. 42.
+55 Explanatory Memorandum, p. 43.
+11
+ handling, prioritising and executing of the instructions of a client under
+a platform (including across different business models such as market
+operation, marking making, liquidity provision, brokerage or dealing);
+ the conduct of persons engaged by the issuer licensee of such a platform
+in relation to the performance of any of the above (this includes the
+conduct of authorised representatives, agents and subcontractors).56
+1.46 Proposed subsection 912BF(3) provides that, before making a standard, ASIC
+must be reasonably satisfied that the standard meets several conditions,
+including that the ‘standard is adequate, effective and appropriate for a range
+of different types of digital asset platforms and tokenised custody platforms’.57
+Platform rules
+1.47 Item 36 of the bill defines the platform rules of a DAP or a TCP as:
+…any rules (however described) that are made by the issuer of the platform,
+or contained in the issuer’s constitution, and that deal with the activities or
+conduct of persons in relation to the platform.58
+1.48 Proposed subsection 912BG(1) stipulates the content of the platform rules of
+DAP or a TCP. Required rules include ‘transparent and non-discriminatory
+eligibility criteria for identifying who can become a client’ and requirements for
+the licensee to disclose certain information to a potential client.59
+Treatment of wrapped tokens
+1.49 As noted in the Explanator Memorandum, a ‘wrapped token is a digital token,
+the possession of which gives a right to redemption, delivery or possession of
+another asset (which may include another digital token)’.60 Further, the
+Explanatory Memorandum noted:
+Uncertainty can arise in the characterisation of this redemption right for the
+purposes of determining whether the rights attached to a wrapped token
+make the token, other rights or interests attached to it, or an arrangement it
+is part of a financial product (such as a derivative).61
+1.50 According to the Explanatory Memorandum, Item 3 of the bill addresses this
+issue ‘by allowing the redemption right to be disregarded in certain
+56 Explanatory Memorandum, p. 44.
+57 Explanatory Memorandum, p. 44.
+58 Corporations Amendment (Digital Assets Framework) Bill 2025, Item 36, Section 9, p. 27
+59 Explanatory Memorandum, p. 46.
+60 Explanatory Memorandum, p. 47.
+61 Explanatory Memorandum, p. 48.
+12
+circumstances for the purposes of determining whether the wrapped token is,
+or rights or interests attached to the wrapped token are, a financial product’.62
+AFS licence exemptions
+1.51 The bill provides that two categories of service providers are ‘exempt from
+holding an ASF licence because they are considered to pose a minimal risk’ as:
+ they are low-value (i.e. not meeting a prescribed financial threshold); or
+ the services they provide are not considered a significant part of their
+business.63
+1.52 The low value exemption provides that the issuer of a DAP ‘does not need to
+hold an AFS licence if the total market value of transactions across all its
+platforms does not exceed $10 million over a 12-month period’.64
+1.53 The insignificant part of business exemption ‘covers a person that arranges for
+another person (i.e. a client of the first-mentioned person) to use a digital asset
+platform or tokenised custody platform or give that person advice about its
+existence in the ordinary course of an otherwise primarily non-financial services
+business’.65
+Exemption from the prohibition on hawking financial products
+1.54 The bill provides that promoters, operators and those involved in the operation
+of a DAP of a TCP are ‘exempt from the anti-hawking provisions’ under the
+Corporations Act. However, the exemption only applies:
+…in relation to offers, requests, or invitations relating to financial products
+that are equitable rights or interests in other financial products arising
+because of a holding, or an offer to hold or arrange for the holding of, the
+other financial products through a digital asset platform or tokenised
+custody platform.66
+Exemption from market-making provision
+1.55 Proposed subsection 766D(2) provides that ‘certain issuers of TCPs are exempt
+from being considered as ‘making a market’ (within the meaning of subsection
+766D(1) of the [Corporations Act]) for a financial product’.67 The Explanatory
+Memorandum states that the exemption applies:
+62 Explanatory Memorandum, p. 48.
+63 Explanatory Memorandum, p. 54.
+64 Explanatory Memorandum, p. 54.
+65 Explanatory Memorandum, p. 55.
+66 Explanatory Memorandum, p. 56.
+67 Explanatory Memorandum, p. 57.
+13
+…if the issuer is stating the prices at which they acquire or dispose of the
+products only for the purposes of holding, redeeming or directing the
+delivery of those products under the platform.68
+Tailored disclosure obligations for DAPs and TCPs
+1.56 The bill provides that a ‘a new disclosure framework applies’ if an AFS licensed
+operator issues a DAP and TCP to a retail client in the course of a financial
+services business.69
+1.57 In particular, the disclosure obligations provide that:
+ a licensee seeking to issue a DAP or a TCP to a retail client must give that
+person a ‘DAP/TCP Guide’ before issuing the platform (Item 43);
+ the ‘DAP/TCP Guide must include all information that a person, as a retail
+client, reasonably requires to decide whether to become a client under the
+platform (Item 50);
+ regulations may provide other matters that the DAP/TCP Guide must
+include (Item 50); and
+ if a ‘licensee fails to give a DAP/TCP Guide to a prospective client when
+making an offer to issue a digital asset platform or tokenised custody
+platform, they are liable for a civil penalty.70
+Platform voting policy
+1.58 Items 43 and 50 provide that an AFS licensed operator of a DAP or a TCP:
+…must ensure the platform maintains a policy (defined as a voting policy)
+that deals with the exercise of any voting rights or governance rights arising
+from the platform’s underlying assets and any other assets held or possessed
+through the platform. The voting policy must contain certain required
+information and be written and presented in a clear, concise and effective
+manner.71
+1.59 A licensee who fails to have a voting policy before offering a DAP or a TCP to
+retail clients is subject to a civil penalty. A civil penalty also applies should the
+licensee fail to keep the voting policy ‘accurate and administered for the
+platform’.72
+Joint operation and the exception to liability for defective financial services guide
+1.60 As outlined in the Explanatory Memorandum, the bill’s proposed amendments
+contemplate circumstances where a DAP or a TCP ‘is jointly issued by two or
+more issuers’. Whether a DAP or a TCP ‘is jointly issued by two or more persons,
+68 Explanatory Memorandum, p. 57.
+69 Explanatory Memorandum, p. 58.
+70 Explanatory Memorandum, p. 58.
+71 Explanatory Memorandum, p. 64.
+72 Explanatory Memorandum, p. 64.
+14
+or is issued by a single operator for whom one or more persons act as agent
+depends on the legal nature of those relationships’.73
+1.61 The Explanatory Memorandum notes that such arrangements are reflected in
+the bill’s proposed ‘exceptions to the criminal and civil liability offences in
+sections 952E and 952G of the [Corporations Act] which relate to defective
+disclosure documents or statements where the defect was not known’.74
+Licensee must make a target market determination
+1.62 The Explanatory Memorandum notes that the existing design and distribution
+requirements in the Corporation Act relating to financial products for retail
+clients also apply to DAPs and TCPs. In particular, Item 47 of the bill provides
+ensures that:
+…a person is required to make a target market determination in relation to
+a financial product if the person is required to prepare a DAP/TCP Guide
+for the product, since a Product Disclosure Statement is not required for
+digital asset platforms or tokenised custody platforms.75
+New powers of the Minister
+Powers to extend or exempt the meaning of financial market or clearing and
+settlement facility for certain DAPs
+1.63 Items 14 and 19 of the bill provide the Minister may, by legislative instrument:
+ deem certain digital asset platforms to be a financial market and/or
+clearing and settlement facility; and
+ exempt certain digital asset platforms from constituting a financial
+market and/or clearing and settlement facility.
+1.64 The Expplanatory Memorandum states these ‘powers ensure that digital asset
+platforms can be regulated under the most appropriate licensing regime that
+effectively addresses the specific risks relating to the platform’. In particular,
+the powers:
+…allow the Minister to address cases where the ordinary application of the
+financial services law is not fit-for-purpose, after taking certain matters into
+account – such as the likely effect on the efficiency, integrity and stability of
+the Australian financial system. It is not intended to place disproportionate
+regulatory burden on operators nor constrain innovation or technological
+development in the industry.76
+73 Explanatory Memorandum, p. 66.
+74 Explanatory Memorandum, p. 66.
+75 Explanatory Memorandum, p. 67.
+76 Explanatory Memorandum, p. 68.
+15
+Powers to make a prohibition declaration
+1.65 Item 37 of the bill provides that, if ‘financial services authorised by an AFS
+licence relate to the issuing of a digital asset platform or tokenised custody
+platform, the Minister may, by legislative instrument, declare that ‘conduct
+involving a specified financial product must not happen through the platform’.77
+1.66 In making such a declaration, the Minister must have regard to certain factors
+including ‘likely effect on the Australian economy and on the efficiency,
+integrity and stability of the Australian financial system’ and regulatory
+impacts.78
+Exemptions for public digital token infrastructure
+1.67 The bill provides that public digital token infrastructure (PDTI) is exempt from
+regulation as a MIS and a financial product.79 The bill defines PDTI as:
+...any software or hardware (or combination of both) that is used for
+transmitting, processing, or recording electronic records that are digital
+tokens, or electronic records relating to digital tokens, where either:
+ certain protocols apply to the infrastructure; or
+ the infrastructure is prescribed in the regulations.
+1.68 For the PDTI exemption to apply, proposed subsection 9E(2) stipulates the
+infrastructure’s protocols must first satisfy certain requirements that distinguish
+it from centralised infrastructure’80 The Explanatory Memorandum outlined the
+requirements as follows:
+ the protocols must be a set of open source and publicly accessible standards
+for transmitting, processing and recording the electronic records in a non-
+discretionary manner.
+ the protocols must permit any person to contribute to the integrity,
+functionality and reliability of the infrastructure by conducting activities
+involving transmitting, processing and recording such electronic records;
+ the protocols must not be reliant on any participant whose role is so critical
+that transmission, processing, or recording cannot happen without them;
+and
+ the protocols must not be prescribed in regulations made for the purposes
+of this definition.81
+77 Explanatory Memorandum, p. 72.
+78 Explanatory Memorandum, p. 72.
+79 Explanatory Memorandum, p. 74.
+80 Explanatory Memorandum, p. 76.
+81 Explanatory Memorandum, pp. 76-77.
+16
+Application and transitional provisions
+1.69 Item 98 of the bill seeks to insert a new part in Chapter 10 of the Corporations
+Act to set out transitional and application provisions for the bill’s amendments.82
+1.70 In particular, the bill provides for a six month transition period, following the
+bill’s commencement for amendments relating to financial circumstances. As
+the Explanatory Memorandum states:
+The amendments in Schedule 1 that are connected with financial services
+apply to a provider of services in relation to a digital asset platform or
+tokenised custody platform from commencement, but not during the first
+six months following commencement (i.e. the ‘transition period’) if the
+‘responsible person’ (the provider or a person providing on their behalf)
+does not hold an AFS licence authorising the provision of the service or
+services.83
+Financial impact
+1.71 The Explanatory Memorandum states the bill is ‘estimated to have nil or
+minimal financial impact’.84
+Commencement
+1.72 If enacted, the bill would commence the ‘day after the end of a period of 12
+months beginning on the day after Royal Assent’.85
+Compliance cost implications
+1.73 The Explanatory Memorandum states the bill’s compliance costs are ‘expected
+to be an estimated $28.4 million per year’.86
+Consultation
+1.74 Prior to the bill, the Australian Government completed the three consultations
+in relation to digital asset reforms:
+ March 2022—the Department of the Treasury (Treasury) released
+consultation paper titled Crypto Asset Secondary Service Providers which
+sought stakeholders’ views on options for mitigating harms associated with
+digital assets;
+ February 2023—Treasury released a consultation paper titled Token Mapping
+which explained how existing financial laws apply to digital assets;
+82 Explanatory Memorandum, p. 87.
+83 Explanatory Memorandum, p. 87.
+84 See, Corporations Amendment (Digital Assets Framework) Bill 2025, Item 2, p. 2; Explanatory
+Memorandum, p. 1.
+85 See, Corporations Amendment (Digital Assets Framework) Bill 2025, Item 2, paragraphs 764A(1)
+and (2), Item 75, paragraphs 12BAA(7)(lb) and (lc), pp. 7 and 58; Explanatory Memorandum, p. 30.
+86 Explanatory Memorandum, p. 2.
+17
+identified gaps in the law; and recommended against solving this problem
+by introducing a new taxonomy; and
+ October 2023—Treasury released a proposal paper titled Regulating Digital
+Asset Platforms which proposed to regulate DAPs rather than digital assets
+themselves as ‘earlier consultation identified platforms as a key cause of
+consumer harms in the digital asset ecosystem’.87
+1.75 Further, in September 2025, Treasury published exposure draft legislation and
+invited submissions from stakeholders.88 Treasury’s consultation on the
+exposure draft ran for a month (from 25 September to 24 October 2025) and
+‘[a]round 300 participants attended Treasury facilitated sessions and 59 written
+submissions were received’.89
+1.76 Following the consultation, the exposure draft of the bill and the Explanatory
+Memorandum were amended to address stakeholder feedback.90
+Human rights implications
+1.77 As outlined below, the Explanatory Memorandum states that the bill engages
+the following human rights under the International Covenant on Civil and
+Political Rights:
+ the right to privacy (Article 17); and
+ right to a fair trial (Article 14).
+1.78 To the extent that these human rights are engaged, the Explanatory
+Memorandum states that the bill:
+…is compatible with human rights. It promotes transparency, accountability
+and consumer protection within the digital asset ecosystem. To the extent
+that it may limit certain rights, those limitations are reasonable, necessary
+and proportionate.91
+The right to privacy
+1.79 The bill engages the human right privacy as it contains provisions that authorise
+‘the collection and handling of personal information’.92 As the Explanatory
+Memorandum notes, the bill:
+87 Explanatory Memorandum, p. 4.
+88 Explanatory Memorandum, p. 5.
+89 Treasury, Submission 13, p. 2.
+90 Treasury, Submission 13, p. 2.
+91 Explanatory Memorandum, p. 93.
+92 Explanatory Memorandum, p. 92.
+18
+…enables ASIC and other regulators to collect and use certain information
+about licensees and participants of digital asset and tokenised custody
+platforms for compliance and enforcement purposes.93
+1.80 In particular:
+ proposed section 912BE (asset holding standards)—would permit ASIC to
+‘make standards dealing with recordkeeping, reconciliation, and reporting
+requirements for digital assets and tokenised custody platforms; and
+ proposed sections 1020AN–1020AR (disclosure framework)—would
+‘impose disclosure and information-handling obligations on platform
+licensees in relation to platform operations, client rights, and underlying or
+associated assets’.94
+1.81 The Explanatory Memorandum notes that these measures are prescribed by law,
+directed to legitimate objectives and proportionate.95
+Right to a fair trial
+1.82 The bill engages the right to a fair hearing as it introduces new civil penalty
+provisions to ‘regulate the conduct of financial services licensees and platform
+operators’.96 For example, contravention of proposed sections 912BB–912BH
+and 766M are subject to civil penalty provisions.97
+1.83 The Explanatory Memorandum states the proposed civil penalty provisions are
+subject to existing procedural safeguards to ensure court proceedings are
+conducted in accordance with the principles of natural justice. Further, the
+Explanatory Memorandum notes that ‘[a]ny limitation on the presumption of
+innocence is reasonable, necessary and proportionate to the legitimate objective
+of maintaining compliance and market integrity’.98
+Legislative scrutiny
+1.84 This section outlines legislative scrutiny of the bill undertaken by:
+ the Senate Standing Committee on the Scrutiny of Bills; and
+ the Parliamentary Joint Committee on Human Rights.
+93 Explanatory Memorandum, p. 92.
+94 Explanatory Memorandum, p. 92.
+95 Explanatory Memorandum, p. 92.
+96 Explanatory Memorandum, p. 92.
+97 Explanatory Memorandum, p. 92.
+98 Explanatory Memorandum, p. 93.
+19
+Senate Standing Committee on the Scrutiny of Bills
+1.85 The Senate Standing Committee on the Scrutiny of Bills (Scrutiny Committee)
+examined the bill in its Scrutiny Digest 2 of 2026 and commented on:
+ delegated legislation modifying or exempting primary legislation; and
+ reversal of the evidential burden of proof.99
+Delegated legislation modifying or exempting primary legislation
+1.86 The Scrutiny Committee drew senators’ attention to concerns that the regulation
+making power in proposed subsection 911A(4B) of the bill could be used to vary
+the Corporations Act without appropriate parliamentary scrutiny.100
+1.87 In particular, proposed subsection 911A(4B) allows for regulations to stipulate
+a higher monetary threshold, or a methods of determining such thresholds, than
+those applicable under the proposed AFSL licence exemption for DAPs (per
+proposed paragraph 911A(2)(ja)).101 The Scrutiny Committee stated it holds
+‘significant scrutiny concerns’ with provisions that allow for delegated
+legislation to make substantive amendments to primary legislation. As such, the
+Scrutiny Committee said it expects sound justification be provided in the
+Explanatory Memorandum for any such provisions.102
+1.88 The Scrutiny Committee acknowledged the nature of the exception in proposed
+paragraph 911A(2)(ja) ‘is such that adjustment over time may be appropriate’.
+Further, the Scrutiny Committee noted that ‘as a safeguard, that the primary
+legislation provides for a floor of $10 million below which cannot be lowered by
+regulation’.103 Nonetheless, the Scrutiny Committee considered that:
+…the explanatory materials have not sought to explain the exceptional
+circumstances or operative safeguards that may justify permitting
+regulations to modify an Act of the Parliament in this instance.104
+Reversal of the evidential burden of proof
+1.89 The Scrutiny Committee drew senators’ attention to concerns that certain
+provisions in the bill would reverse the evidential burden of proof for a defence
+established to fault-based offences under the Corporations Act.105
+99 Senate Standing Committee on the Scrutiny of Bills, Scrutiny Digest 2 of 2026, February 2026, pp. 20–
+24.
+100 Senate Standing Committee on the Scrutiny of Bills, Scrutiny Digest 2 of 2026, February 2026, pp. 21–
+22.
+101 Senate Standing Committee on the Scrutiny of Bills, Scrutiny Digest 2 of 2026, February 2026,, p. 21.
+102 Senate Standing Committee on the Scrutiny of Bills, Scrutiny Digest 2 of 2026, February 2026,, p. 21.
+103 Senate Standing Committee on the Scrutiny of Bills, Scrutiny Digest 2 of 2026, February 2026,, p. 21.
+104 Senate Standing Committee on the Scrutiny of Bills, Scrutiny Digest 2 of 2026, February 2026,, p. 22.
+105 Senate Standing Committee on the Scrutiny of Bills, Scrutiny Digest 2 of 2026, February 2026,, p. 22.
+20
+1.90 In particular, the Scrutiny Committee reported that items 44 and 45 of the bill
+(inserting proposed subsections 952E(4A) and 952G(11)) would introduce a
+defence to several offences in the Corporations Act for financial service licensees
+that distribute a defective disclosure statement or related document.106 The
+defence would apply:
+…where any defect in a disclosure document for a digital asset or tokenised
+custody platform relates solely to a section for which another named
+licensee is responsible and concerns the services that licensee will, or would
+be likely to, provide. A defendant bears the evidential burden of proof in
+relation to this defence.107
+1.91 The Scrutiny Committee noted the rationale provided in the Explanatory
+Memorandum for the proposed reversal of the evidential burden of proof. The
+Scrutiny Committee also noted that:
+…the Guide to Framing Commonwealth Offences provides that a matter should
+only be included in an offence-specific defence (as opposed to being
+specified as an element of the offence), where:
+ it is peculiarly within the knowledge of the defendant; and
+ it would be significantly more difficult and costly for the prosecution to
+disprove than for the defendant to establish the matter.108
+1.92 However, the Scrutiny Committee considered that:
+In this instance, it is not apparent from the explanatory materials whether
+the matters in proposed subsections 952E(4A) and 952G(11) are matters
+peculiarly within the defendant's knowledge, or that it would be
+significantly more difficult or costly for the prosecution to establish the
+matters than for the defendant to establish them.109
+1.93 Given the above, the Scrutiny Committee requested advice from the Minister on
+‘why it is necessary and appropriate for the offence-specific defences proposed
+within items 44 and 45 of Schedule 1 to reverse the evidential burden’.110
+Parliamentary Joint Committee on Human Rights
+1.94 The Parliamentary Joint Committee on Human Rights reported that it had no
+comment on the bill.111
+106 Senate Standing Committee on the Scrutiny of Bills, Scrutiny Digest 2 of 2026, February 2026,, p. 22.
+107 Senate Standing Committee on the Scrutiny of Bills, Scrutiny Digest 2 of 2026, February 2026, p. 22.
+108 Note, in-text footnotes originally used in this quote have been removed for clarity. See, Senate
+Standing Committee on the Scrutiny of Bills, Scrutiny Digest 2 of 2026, February 2026, p. 23.
+109 Senate Standing Committee on the Scrutiny of Bills, Scrutiny Digest 2 of 2026, February 2026, p. 23.
+110 Senate Standing Committee on the Scrutiny of Bills, Scrutiny Digest 2 of 2026, February 2026, p. 23.
+111 See, Parliamentary Joint Committee on Human Rights, Report 1 of 2026, February 2026, p. 2.
+21
+Conduct of the inquiry
+1.95 The committee advertised the inquiry on its website and wrote to a range of
+stakeholders to invite them to make a submission by 23 February 2026.
+1.96 The committee received 14 submissions, as listed at Appendix 1.
+Acknowledgments
+1.97 The committee extends its thanks to the individuals and organisations who
+contributed to the inquiry by making substantial written submissions.
+
+Chapter 2
+Views on the bill
+2.1 This chapter considers submitters’ evidence on the Corporations Amendment
+(Digital Assets Framework) Bill 2025 (the bill). In general, submitters:
+ acknowledged the Australian Government’s efforts to modernise the
+regulatory framework for digital assets; and
+ proposed a range of amendments to potentially refine the bill’s operation.
+2.2 This chapter concludes with the committee’s view and a recommendation.
+Support for modernising Australia’s digital asset regulations
+2.3 Several submitters acknowledged the Australian Government’s efforts to
+modernise the regulatory framework for digital assets.1 For instance, Hamilton
+Locke, a corporate law firm with expertise in digital asset regulation, submitted:
+We acknowledge the significant work and thinking that has informed the
+Bill and the Explanatory memorandum (EM). Implementing significant
+legislative reforms for digital assets is no simple feat and we commend
+Treasury on its technologically neutral approach that seeks to regulate risk-
+based activities, instead of the digital assets, within the existing Australian
+financial services laws framework.2
+2.4 Several other submitters expressed support for the bill.3 For instance, FinTech
+Australia, the peak industry body for Australia’s fintech sector, submitted the
+bill ‘represents an important step towards providing a clear and enduring
+regulatory framework for digital asset custody and platform activities in
+Australia’.4 Further, FinTech Australia submitted:
+Treasury and the Government have carefully considered stakeholder
+feedback and that the Bill before Parliament incorporates several important
+refinements, including clearer definitions, clearer platform accountability
+expectations and streamlined transition arrangements.5
+2.5 With appropriate guidance, resourcing and engagement between regulators
+and industry, FinTech Australia considered the digital assets framework can
+1 See, for example, Thomson Geer, Submission 1, p. 2.
+2 Hamilton Locke, Submission 3, p. 1.
+3 See, for example, Business Law Section, Law Council of Australia, Submission 2, p. 1; Ripple Labs
+Inc, Submission 4, p. 1; Australian Payments Plus, Submission 6, p. 1; Redbelly Network,
+Submission 12, p. [1]
+4 FinTech Australia, Submission 9, p. 11.
+5 FinTech Australia, Submission 9, p. 1.
+23
+24
+‘support innovation while maintaining robust consumer protections and market
+integrity’.6
+2.6 Similarly, Australian digital assets broker Swyftx considered the bill ‘will help
+deliver stronger consumer protections and advance innovation in the digital
+asset sector’.7 Coinbase, one of world’s largest cryptocurrency exchanges,
+encouraged the ‘fast passage’ of the bill through Parliament, noting the bill
+‘protects consumers, gives more clarity to innovators, and importantly brings
+Australia into step with global regulations’.8 Further, Coinbase considered there
+was ‘…strong support for the current version of this Bill across the industry,
+government, regulators and broader stakeholders’.9
+2.7 While maintaining support for ‘proportionate, fit for purpose regulation’,
+Australian-based digital assets exchange BTC Markets contended that the
+‘combined effect’ of the bill’s proposed obligations ‘creates a framework that
+may be unworkable in practice’ and places an ‘enormous’ burden on business.10
+2.8 As outlined below, submitters often provided technical evidence on the bill and
+proposed a range of amendments to potentially improve the bill’s operation.
+Issues associated with the concepts of ‘factual control’ and ‘possession’
+2.9 Submitters provided evidence regarding use of the concepts of ‘factual control’
+and ‘possession’ in the bill’s key provisions. In particular, submitters considered
+the concepts were, at times, unclear or not well aligned with the characteristics
+of digital assets. As such, submitters expressed a range of views regarding how
+the concepts could be refined in relation to:
+ the scope of the meaning of a digital token;
+ the application of ‘factual control’ in non-unilateral control settings; and
+ the impact of ‘possession’ on the operation of a digital asset platform (DAP)
+or a tokenised custody platform (TCP).
+Uncertainty regarding the scope of a ‘digital token’
+2.10 Several submitters considered that proposed section 761GB establishes a very
+broad meaning of a ‘digital token’, which may inadvertently apply to other
+types of property.
+2.11 For instance, the Business Law Section of the Law Council of Australia (LCA)
+submitted that while it assumes the bill’s definition of a digital token is ‘directed
+6 FinTech Australia, Submission 9, p. 12.
+7 Swyftx, Submission 11, p. [1].
+8 Coinbase, Submission 8, p. 2.
+9 Coinbase, Submission 8, p. 2.
+10 BTC Markets, Submission 10, p. 3.
+25
+at cryptographic tokens native to distributed ledger infrastructure, the statutory
+language appears to be technology neutral and contains no such limitation’.11
+The LCA expressed concern that the definition ‘is substantially broader than
+may have been intended, and…may cover forms of property or quasi-property
+that are not within the purview of [the Australian Securities and Investments
+Commission]’.12
+2.12 Similarly, the peak body for Australia’s blockchain, digital asset, AI, and Web3
+sectors, the Digital Economy Council of Australia (DECA), submitted that:
+The Bill’s definition of a "digital token" under Section 761GB is overly broad
+and inclusive without limitation, which could inadvertently capture
+intellectual property, structured datasets, or trained AI model weights.
+Furthermore, the terminology diverges from globally recognised terms like
+"virtual asset" currently used by AUSTRAC, creating a risk of misalignment
+between domestic regulators and international partners.13
+2.13 While describing the definition of a digital token as ‘extraordinarily broad’,
+Hamilton Locke, a corporate law firm with expertise in the regulation of digital
+assets and services, submitted it understood the broad definition was intended
+for ‘technology neutrality purposes’.14 Further, Hamilton Locke said:
+We understand the policy intent behind this and acknowledge that the
+important qualifiers are ultimately the concept of ‘control’ and ‘possession’.
+That is, while many things may be digital tokens, not all digital token[s] will
+be capable of control as defined and ultimately possessable for the purposes
+of the DAP and TCP definitions.15
+2.14 Further, Hamilton Locke said that while the bill’s approach to conceptualising
+digital tokens is ‘considered’, use of the word ‘possession’ in the definition of a
+digital token poses a risk that it ‘may be interpreted by courts in light of the
+traditional concept of ‘possession’ for property purposes’.16 To avoid this and to
+ensure the policy intent of the bill is maintained, Hamilton Locke recommended:
+…that ‘possession’ is replaced with ‘held’. We note that currently held is
+defined solely be reference to possession. We think that as part of this,
+references to possession should be replaced with more specific criteria
+outlining how assets should be held. While this may seem semantic, we
+11 Business Law Section, Law Council of Australia, Submission 2, p. 3.
+12 Business Law Section, Law Council of Australia, Submission 2, p. 3.
+13 Digital Economy Council of Australia, Submission 5, p. [3].
+14 Hamilton Locke, Submission 3, p. 5.
+15 Hamilton Locke, Submission 3, p. 5.
+16 Hamilton Locke, Submission 3, p. 5.
+26
+think this would avoid the temptation to draw on the property law concept
+of ‘possession’.17
+2.15 Treasury submitted that it did recommend changes to the definition of a digital
+token, noting that the definition had already been narrowed in response to
+feedback received from stakeholders during Treasury’s exposure draft
+consultation.18 Treasury considered concerns the bill’s definition of a digital
+token could capture intellectual property are addressed by the distinction
+drawn in the bill that:
+…intellectual property is a legal right and is not itself a digital token.
+However, a digital token (for example, a non-fungible token) may be used
+to evidence or confer rights relating to intellectual property. This is an
+intended and technology neutral outcome. The legislative notes in section
+761GB(3) of the Corporations Act, as inserted by item 1 of Schedule 1 of the
+Bill, also provide examples of when an electronic record is and is not a
+digital token.19
+2.16 Treasury noted that while consideration had been given to adopting the term
+‘virtual asset’, the Australian Government considered the definition used in the
+bill was the ‘most balanced and appropriate approach to achieve the desired
+outcomes’. The bill’s definition, Treasury said, ‘provides a more coherent and
+adaptable basis that aligns with domestic and international legal work on digital
+tokens and the broader impacts of tokenisation on capital markets’.20
+2.17 Moreover, Treasury submitted that proposals to replace references to ‘possess’
+with ‘hold’ in the bill would remove the mechanism by which a person’s
+possession of a digital token is distinguished from the rights a person may hold
+in relation to a token. As Treasury explained:
+…digital tokens are electronic records that can be controlled in the same way
+that a physical object can be possessed. Under the Corporations Act, “hold”
+is generally used with reference to a person’s legal or equitable rights or
+interests. This distinction is important because digital tokens are the
+medium by which rights may be recorded, similarly to how a bearer bond
+may be recorded on paper. The use of possession allows the framework to
+distinguish a person’s relationship with a digital token they possess, from
+any rights they hold (whether because they possess the digital token or
+under a separate arrangement). This distinction would be lost if “possess”
+was replaced with “hold”, and the desired policy outcomes of the reforms
+would not be achieved.21
+17 Hamilton Locke, Submission 3, p. 5.
+18 Treasury, Submission 13, p. 2.
+19 Treasury, Submission 13, p. 2.
+20 Treasury, Submission 13, p. 3.
+21 Treasury, Submission 13, p. 4.
+27
+Uncertainty regarding the concept of ‘possession’ in defining a DAP
+2.18 As outlined in Chapter 1, proposed subsection 761GC provides that a DAP
+possess digital tokens ‘for or on behalf of another person’, including by:
+(i) acting as trustee or bailee; or
+(ii) being obliged to ensure that the underlying assets are dealt with on
+the instructions of the other person.22
+2.19 Several submitters considered that the bill’s use the concept of ‘possession’ in
+defining a DAP could raise potential issues if enacted.
+2.20 The LCA for instance, submitted that some centralised cryptocurrency
+exchanges (CEx) or platform operators ‘do not promise to hold digital tokens
+for, or on behalf of, their users—rather digital tokens are owned by the platform
+operator and the user merely obtains a chose in action representing their right
+to have equivalent tokens reconveyed upon demand…’.23 The LCA said it
+‘remains unclear’ whether the part of proposed subparagraph 761GC(1)(b)
+‘whereby the operator is obliged to ensure that the underlying asset is dealt with
+on the instructions of the other person’ captures circumstances ‘where there has
+been a total title transfer of the asset to the CEx’.24 As such, the LCA considered
+that ‘such platforms may still not be covered by the DAP definition’.25
+2.21 Further, the LCA questioned how a digital token could be possessed by a DAP
+acting as a bailee given ‘Re Blockchain Tech Pty Ltd [2024] VSC 690 found that
+bitcoin, being intangible property, could not be held under a bailment
+arrangement’.26
+2.22 Similar issues were raised by DECA in the context of the bill’s provisions to
+protect client assets. For instance, DECA submitted:
+Relying on the legislative phrase "as trustee or bailee" is legally problematic
+because traditional bailment principles may not apply neatly to intangible
+digital assets. Additionally, some centralised exchanges operate on a total
+title transfer model where users merely obtain a chose in action, which may
+inadvertently exclude these platforms from the DAP definition entirely.27
+2.23 Addressing submitters’ evidence regarding whether ‘digital asset exchanges
+which take full title of digital tokens and provide clients with a chose in
+action…would meet the definition of a DAP’, Treasury submitted that it
+considered the DAP definition ‘appropriate’. Treasury stated:
+22 Corporations Amendment (Digital Assets Framework) Bill 2025, subparagraph 761GC(1)(b).
+23 Business Law Section of the Law Council of Australia, Submission 2, p. 1.
+24 Business Law Section of the Law Council of Australia, Submission 2, p. 2.
+25 Business Law Section of the Law Council of Australia, Submission 2, p. 2.
+26 Thomson Geer, Submission 1, p. 2.
+27 Digital Economy Council of Australia, Submission 5, p. [6].
+28
+…the definition is drafted to capture digital asset exchanges which take full
+title of digital tokens, but allow a client to instruct the operator to deal in the
+digital tokens in the same way that it would if the operator possessed those
+digital tokens on trust for the client, while not impacting traditional
+securities lending and collateral arrangements that involve total title transfer
+of assets.28
+Implications of ‘factual control’ and ‘possession’ in non-unilateral settings
+2.24 Submitters’ evidence to the inquiry emphasised use of the concepts of control
+and possession in key provisions of the bill risks capturing participants beyond
+the intended focus on a DAP or a TCP, particularly where a participant does not
+have unilateral control of a digital token.
+2.25 The LCA submitted that the definition of ‘possession’ of a digital token turns on
+the definition of ‘factual control’ and ‘can include situations where no single
+party has unilateral control or control is exercised jointly’. However, the LCA
+noted the definitions ‘do not clearly exclude infrastructure providers, non-
+custodial software, or persons who exercise negative control for security or
+fraud prevention purposes’.29 As such, the LCA warned that:
+As drafted, there is a risk of inadvertently applying the Australian Financial
+Services Licence (AFSL) regime to a range of persons or products beyond
+recognised cryptocurrency exchanges and custodians and to whom AFSL
+obligations and asset holding standards are not well adapted.30
+2.26 Similarly, payment provider Australian Payments Plus (AP+) considered that
+the bill should ‘carefully distinguish between custodial retail platforms that
+hold client assets and present direct consumer risk, and wholesale or non-
+custodial market infrastructure that facilitates settlement between regulated
+participants but does not take custody of assets’.31
+2.27 AP+ submitted that applying the bill’s DAP or TCP obligations to non-custodial
+stablecoin interchanges ‘…would not materially enhance consumer protection,
+given the absence of custody or counterparty risk’ and, instead, ‘risks imposing
+asset-holding and disclosure obligations designed for custodians onto
+infrastructure providers’. As such, AP+ recommended that the ‘Explanatory
+Memorandum clarify that infrastructure enabling wallet-to-wallet exchange of
+authorised stablecoins, where no custody is provided, is not intended to fall
+within the definition of a DAP solely by virtue of facilitating settlement’.32
+28 Treasury, Submission 13, p. 5.
+29 Business Law Section of the Law Council of Australia, Submission 2, p. 3.
+30 Business Law Section of the Law Council of Australia, Submission 2, p. 3.
+31 Australian Payments Plus, Submission 6, p. 2.
+32 Australian Payments Plus, Submission 6, p. 2.
+29
+2.28 Additionally, FinTech Australia submitted that industry would benefit from
+examples which clarify ‘when a business falls within - or outside - the scope of
+a DAP or TCP’. In particular, FinTech Australia considered:
+…regulatory guidance should clearly address the treatment of non-
+custodial wallet software, pure infrastructure providers such as node
+operators or API providers, and technology vendors that do not take
+possession or control of assets. Clarification would also be valuable in
+relation to staking-as-a-service models where no custody is taken, as these
+arrangements may involve technical participation without triggering the
+policy concerns that underpin the licensing framework.33
+2.29 As outlined below, submitters highlighted key instances where it is unclear the
+bill’s provisions would apply as intended.
+Multi Party Computation models
+2.30 Law firm Piper Alderman submitted that, in establishing the meaning of a
+digital token, the bill may capture a common type of verification technology.
+Piper Alderman noted the following provisions of the bill:
+ proposed subsection 761GB(2)—which provides that ‘a person may be taken
+to control a digital token where they can transfer the token or exclude others
+from transferring it, including where that control is exercised jointly’; and
+ proposed section 86—which provides a limited exclusion for joint
+possession, concerns remain regarding arrangements involving “negative
+control” where a party does not have the ability to use or move assets
+themselves, but their cooperation is required for a transaction to proceed’.34
+2.31 Further, Piper Alderman noted that in a common 2-of-2 Multi Party
+Computation (MPC) wallet configuration:
+…a user initiates transactions using their key, while a second key performs
+a verification function and is technically incapable of initiating transactions
+independently. Although the second key is required to complete a
+transaction, its holder cannot unilaterally use, move or consume the digital
+asset.35
+2.32 While such arrangements are a ‘widely adopted as a security measure’, Piper
+Alderman submitted that proposed paragraph 86(3)(b) ‘only excludes from the
+definition of possession arrangements where at least one party can unilaterally
+transfer electronic records’. As such, Piper Alderman considered that ‘third
+party verification or security arrangements may be caught’ by the definition of
+a digital token. To address this, Piper Aldermen recommended amending
+proposed subsection 86(3) to:
+33 FinTech Australia, Submission 9, p. 7.
+34 Piper Alderman, Submission 7, p. 3.
+35 Piper Alderman, Submission 7, p. 3.
+30
+…provide that a person does not jointly possess a digital token where they
+lack the technical ability to unilaterally initiate a transaction or transfer of
+the token, regardless of whether their cooperation is required to complete a
+transaction initiated by another party.36
+2.33 Similarly, Ripple Labs Inc (Ripple), a global provider of blockchain-based
+enterprise solutions, submitted that while it agrees ‘control is the appropriate
+nexus to determine the regulatory perimeter’, further refinement of the bill is
+needed to ‘accommodate modern security architectures’, such as MPC models,
+where no single party may have unilateral control of a digital asset.37 Ripple said
+under a ‘strict reading’ of proposed section 761GB,:
+…technology-only providers could be misclassified as regulated custodians
+simply because they hold a key shard, even if that shard cannot be used to
+move funds without client consent. This could inadvertently place such
+custodial arrangements within the regulatory perimeter, which is not the
+intent of the Bill.38
+2.34 As such, Ripple considered that the bill’s use of the concept of control ‘needs to
+account for where there is only an element of control or partial control’ which is
+a ‘common’ arrangement in the digital assets sector. Ripple recommended:
+…the Bill explicitly clarify, either via amendment or within the Explanatory
+Memorandum, that an entity does not exercise "factual control" unless it can
+unilaterally transfer an asset without the explicit cooperation of the client.39
+Treasury response
+2.35 While Treasury considered the definitions of factual control and possession
+‘achieve the intended policy outcome and do not require amendment’, it said
+[u]ncertainty about MPC arrangements should be considered in future
+amendments to the Corporations Regulations 2001.40
+2.36 Treasury’s submission provides more details on the definition of factual control
+and possession.41 The submission stated:
+…whether the technology provider would be issuing a DAP depends on
+whether it is jointly possessing the digital tokens for or on behalf of another
+person. Depending on the facts, the legal structure of the DAP, and the
+nature of the legal relationships between the DAP operator, technology
+provider and client, the technology provider may not be possessing the
+digital tokens for or on behalf of another person and therefore would not be
+issuing a DAP. From this perspective, it would not be consistent with the
+36 Piper Alderman, Submission 7, p. 3.
+37 Ripple Labs Inc, Submission 4, p. 3.
+38 Ripple Labs Inc, Submission 4, p. 3.
+39 Ripple Labs Inc, Submission 4, p. 3.
+40 Treasury, Submission 13, p. 3.
+41 See Treasury, Submission 13, pp. 3–5.
+31
+policy intent of the reforms that where one of the parties to an MPC
+arrangement with a DAP operator is a mere technology provider, that the
+technology provider would be issuing a DAP. To remain consistent with
+policy intent, it may be more appropriate to address issues around MPC
+arrangements through a targeted exemption in the Corporations
+Regulations rather than by modifying the definition of possession in the Bill.
+This will be considered in related regulations for the Bill.42
+2.37 Further, Treasury considered proposals to ‘amend the definition of possession
+so that a person is taken to not be possessing a digital token unless they have
+the technical ability to unilaterally transfer a digital token’, would be:
+…inconsistent with policy intent, and would create material avoidance
+risks—most notably, by enabling entities to structure around the regime by
+splitting factual control across parties while still collectively exercising joint
+factual control.43
+Public digital token infrastructure
+2.38 The committee heard proposed subsection 9E(2) of the bill could be refined to
+clarify the criteria under which public digital token infrastructure (PDTI) is
+exempt from regulation.
+2.39 As Piper Alderman submitted, proposed subparagraph 9E(2)(c) removes the
+PDTI exemption ‘where the infrastructure depends on a participant whose role
+is critical to transmitting, processing or recording transactions’.44 However,
+Piper Alderman reasoned that this approach does not appropriately distinguish
+between the ‘ability to process transactions’ and the ‘ability to compromise or
+misappropriate assets’. As such, Piper Alderman considered the bill ‘risks
+treating control over how transactions are processed as control over assets
+themselves, even where the infrastructure cannot access or move those assets’.45
+2.40 To address this situation, Piper Alderman recommended amending proposed
+subparagraph 9E(2)(c) to clarify that the PDTI exemption ‘is only displaced
+where a participant has unilateral power to alter ownership or transfer digital
+tokens without the owner’s authority, and not merely because the participant
+plays a critical role in transaction processing’.46
+2.41 Additionally, Redbelly Network, operator of a network which enables asset
+issuers to tokenise and trade compliant products, suggested clarifying proposed
+42 Treasury, Submission 13, p. 4.
+43 Treasury, Submission 13, p. 34.
+44 See, Piper Alderman, Submission 7, p. 4.
+45 Piper Alderman, Submission 7, p. 5.
+46 Piper Alderman, Submission 7, p. 5.
+32
+subparagraph 9E(2)(b).47 Proposed subparagraph 9E(2)(b) stipulates the
+following criterion for the PDTI exemption to apply:
+(a) the protocols permit any person to contribute to the integrity,
+functionality and reliability of the infrastructure by conducting
+activities involving transmitting, processing and recording such
+electronic records;
+2.42 Redbelly Network suggested ‘a similar qualification be included so that where
+only those who have undergone sanctions screening and the like to comply with
+law can participate, the [distributed ledger infrastructure] which otherwise
+meets the criteria is not prevented from being exempted from being a financial
+product and clearing and settlement facility’.48 Redbelly Network explained:
+DLI provides a minimum level of protection to users where it includes
+broad-based, objective limitations on participation to comply with law. For
+example, a DLI which requires participants to undergo sanctions screening
+allows counterparties to take comfort that using the DLI does not breach
+sanctions laws. This is particularly important where DLI is used for
+tokenised real world assets. If screening for compliance with law alone
+prevented a DLI from being public digital token infrastructure, the higher
+regulatory burden risks disincentivising the development of safer DLI and
+preventing the adoption of tokenisation.49
+2.43 Treasury considered the scope and application of the public infrastructure token
+infrastructure ‘is consistent with policy intent and does not require
+amendment’.50 As Treasury submitted:
+The definition is intended to capture public, permissionless networks and
+decentralised applications. It does not focus on whether infrastructure
+allows a participant to possess another person’s digital tokens, or whether it
+is able to be updated or altered, such as through governance processes.
+Rather, the definition focuses on, among other things, whether digital tokens
+transmitted, processed and recorded through the infrastructure’s protocols
+is done in a non-discretionary manner without reliance on a critical
+participant. Amending the definition so that it captures infrastructure
+reliant on a critical participant would contradict policy intent. Additionally,
+concentrating on ownership of digital tokens rather than possession, and on
+whether a participant has authority to transfer digital tokens rather than a
+factual ability, may make it unclear as to when the definition is satisfied.51
+47 Redbelly, Submission 12, p. [1].
+48 Redbelly, Submission 12, p. [1].
+49 Redbelly, Submission 12, p. [1].
+50 Treasury, Submission 13, p. 11.
+51 Treasury, Submission 13, p. 11.
+33
+Upgradeable blockchain infrastructure
+2.44 The committee heard that the bill’s definition of a DAP and a TCP may ‘capture
+certain forms of blockchain infrastructure, such as layer 2 blockchains or
+upgradeable cross-chain bridge infrastructure’.52
+2.45 As Piper Aldermen submitted, in such models, assets are typically held or
+transferred by smart contracts rather than by a legal person. Developers may
+retain administrative or governance powers, such as the ability to pause or
+upgrade contracts, for security and maintenance purposes’.53 Piper Alderman
+added:
+While there may be a developer of the smart contracts, there is no “operator”
+in the custodial sense. The asset[s] are “held’ by the smart contract code, not
+by a legal person. These powers do not confer unilateral discretion to deal
+with user assets for the developer’s own benefit.54
+2.46 To address this situation, Piper Alderman recommended:
+ modifying sections 761GC and 761GD to clarify ‘that holding
+administrative, governance or security powers over smart contract code
+does not, of itself, constitute operating a DAP or TCP where those powers
+do not confer unilateral discretion to deal with user assets’; or
+ introducing ‘targeted safe harbours for blockchain infrastructure or
+upgradeable bridge infrastructure where specified risk-mitigating features
+are present’; or
+ considering a ‘fit for purpose infrastructure-focused registration regime for
+non-custodial bridge infrastructure, directed to security, audit and
+governance standards rather than custodial financial service…’.55
+2.47 Treasury’s commented on the abovementioned recommendations as follows:
+In relation to the first recommendation, possession of digital tokens is a
+prerequisite for the DAP and TCP definitions to apply. Consistent with
+policy intent, if a person does not possess digital tokens (or holds assets in
+the case of a TCP) through a facility, then the relevant facility should not
+meet the DAP and TCP definitions. In relation to the second
+recommendation, the public digital token infrastructure, staking and
+wrapped token exemptions in the Bill cover certain types of blockchain and
+“non-custodial” infrastructure. The scope and policy intent of the
+exemptions are explained in detail in paragraphs 1.193 – 1.221 and 1.331 –
+1.389 of the Explanatory Memorandum…. In our view, a separate
+registration regime for “non-custodial” infrastructure is not necessary.56
+52 Piper Alderman, Submission 7, p. 3.
+53 Piper Alderman, Submission 7, pp. 3–4.
+54 Piper Alderman, Submission 7, p. 4.
+55 Piper Alderman, Submission 7, p. 4.
+56 Treasury, Submission 13, p. 5.
+34
+Asset holding standards and transaction and settlement standards
+2.48 Several submitters provided evidence on the provisions in proposed sections
+912BE and 912BF that would enable the Australian Securities and Investments
+Commission (ASIC), by delegated legislation, to make standards regarding how
+DAPs and TCPs hold and transact digital assets.
+2.49 The committee received evidence that the standards would have a significant
+impact on the operation of the digital assets framework. As FinTech Australia
+submitted:
+These standards will be highly significant in practice, influencing custody
+model design, capital allocation, operational risk management and the
+availability of insurance coverage across the sector. As a result, they will
+play a central role in shaping how the new regime operates in practice.57
+2.50 Given the standards’ significance, FinTech Australia encouraged public
+consultation on draft standards and early publication of exposure drafts.
+Further, FinTech Australia considered the standards should provide a clear
+policy rationale for each requirement and should apply in a way that recognises
+the ‘differences in business model, scale and risk profile across operators’.58
+2.51 The committee also heard that certain standards should be stipulated in the bill.
+For example, Hamilton Locke submitted that ‘as a baseline’:
+ Assets held by a DAP / TCP should be statutorily protected in insolvency
+(and not merely rely on a contractual trust or similar arrangement); and
+ DAPs / TCPs should be limited in what they can do with the assets they
+hold i.e. they shouldn’t be allowed to lend, trade, rehypothecate or
+otherwise deal in the assets without the express and prominent consent
+of the asset owner. The definition of a DAP / TCP, and the prohibition
+against a DAP / TCP doing certain things with digital assets they hold,
+should be two distinct legislative provisions. This is because if they are
+bundled, there is a risk that persons may structure their activities to avoid
+the application of the DAP / TCP requirements in the first place.59
+2.52 Hamilton Locke considered such baseline provisions were important to
+‘[p]rotect assets in the event of insolvency’ and to ‘protect asset owners from
+DAPs / TCPs unknowingly using / dealing in their assets in ways that creates
+risk for the owner’. Hamilton Locke added:
+At present, it is often common practice for those service providers likely to
+be regulated as a DAP to use customer assets in any way they please to
+generate a return (generally for the service provider, not the customer, given
+that the current operation of financial services laws would mean the passing
+on of such returns would result in the characterisation of some type of
+57 FinTech Australian, Submission 9, p. 5.
+58 FinTech Australian, Submission 9, p. 5.
+59 Hamilton Locke, Submission 3, p. 5.
+35
+financial product for which an AFSL would be required, and to date many
+such service providers have not held an AFSL with the appropriate
+authorisations for such activities).60
+2.53 However, Treasury submitted it did not consider it necessary for the bill to
+prohibit DAP and TCP operators from dealing in client assets without the
+client’s express consent. As Treasury stated:
+It is not necessary to include this prohibition in the Bill, as it is intended that
+ASIC will address this appropriately in the minimum standards it sets (for
+example, this is considered in the existing minimum standards for custodial
+or depository service providers imposed by ASIC). Further, in addition to
+breaching any obligations under ASIC’s minimum standards, not using
+client assets in accordance with client instructions would mean that the
+managed investment scheme safe harbour, and the custodial staking
+arrangement exemption, could not be relied upon by the operator.61
+2.54 DECA similarly considered that the bill should include a ‘bespoke statutory
+trust mechanism’ to protect client property. DECA warned that without such
+protection ‘client assets remain exposed to operator insolvency risk’.62
+2.55 Treasury’s submission to the inquiry noted:
+Imposing a statutory trust would be inconsistent with this policy intent, as
+well as current practice for how custodians are currently regulated and
+required to hold assets. This would raise particular concerns in the case
+where custodians will be issuing a DAP and multiple minimum standards
+may overlap (as discussed above).63
+2.56 Additionally, DECA noted that proposed section 912BE does not include a ‘strict
+proportionality requirement’ and, as such, ASIC ‘could impose high capital
+thresholds designed for large, traditional custodians, effectively excluding
+smaller firms from the market and harming competition’. To address this, DECA
+recommended that bill should include a require that obliges ASIC to ‘consider
+the scale, complexity, and systemic importance of each licensee when setting
+these standards’.64
+Client money standards
+2.57 As outlined below, some submitters queried the suitability of the bill’s client
+money provisions, particularly given the impact of debanking on the digital
+assets sector.65
+60 Hamilton Locke, Submission 3, p. 5.
+61 Treasury, Submission 13, p. 6.
+62 Digital Economy Council of Australia, Submission 5, p. [6].
+63 Treasury, Submission 13, p. 6.
+64 Digital Economy Council of Australia, Submission 5, p. [4].
+65 See, for example, Digital Economy Council of Australia, Submission 5, p. [6].
+36
+2.58 For instance, Hamilton Locke submitted the bill’s proposed client money rules
+were not appropriate for DAPs or TCPs as the ‘rules require that client monies
+be held in an account with an ADI, and many digital asset businesses have been
+debanked and cannot obtain an account with an ADI’.66 Hamilton Locke
+suggested consideration of ‘whether it is appropriate to create a non-
+discriminatory right to a bank account’.67 However, if these was no appetite for
+this approach, Hamilton Locke suggested alternative solutions for digital assets
+businesses to hold client monies without a bank account with an ADI, including:
+ ‘Trust accounts could be held with payment service providers offering
+competing stored value facilities as alternatives to deposit products…’; or
+ ‘Client monies are permitted to be converted to stablecoins and held in
+segregated digital wallets’.68
+2.59 Coinbase also encouraged the committee to consider the impact of debanking
+on the digital assets sector. Coinbase submitted that debanking affects ‘fintechs,
+blockchain businesses and their users’ when banks remove access through:
+ Unilateral Closures: Abruptly shutting down accounts or refusing
+services to specific individuals, businesses, and even entire industry
+sectors.
+ Transaction Restrictions: Halting, limiting, or freezing transfers,
+regularly targeting use or acquisition of digital assets via DAPs.69
+2.60 Coinbase submitted that debanking was ‘so pervasive’ that the bill contained
+provisions to ‘limit its effects of licensed DAPs’. Indeed, Coinbase considered
+that debanking practices are so ‘damaging and widespread’ that they are
+impacting the drafting of Australian laws ‘should be a cause for grave concern’.
+While Coinbase recommended a broad approach for responding to debanking,
+it acknowledged this was out of the scope of the committee’s inquiry and ‘would
+likely require amendments to multiple acts’.70
+2.61 Treasury noted that the barriers DAPs and TCPs can face in accessing banking
+was ‘expressly addressed’ through:
+…amendments to section 912BE of the Corporations Act, as inserted by item
+37 of Schedule 1 of the Bill, to require that when ASIC makes the asset-
+holding minimum standards, it is reasonably satisfied that the proposed
+standards provide different options to hold money for clients to assist DAP
+and TCP operators mitigate the impacts of debanking. This change was
+66 Hamilton Locke, Submission 3, p. 6.
+67 Hamilton Locke, Submission 3, p. 7.
+68 Hamilton Locke, Submission 3, p. 7.
+69 Coinbase, Submission 3, p. 3.
+70 Coinbase, Submission 3, p. 3.
+37
+made in response to similar suggestions received during the exposure draft
+consultation.71
+2.62 Notwithstanding the issue of debanking, Hamilton Locke considered that the
+‘client money rules are otherwise broadly a suitable framework for digital
+assets’ and ‘should apply with modifications’.72
+Interaction of the DAP and TCP regime with existing financial services law
+2.63 As outlined below, several submitters raised issues regarding the interaction of
+the DAP and TCP regime with existing financial services laws, particularly
+ the licensed market and clearing and settlement facility regime; and
+ the AFS licence regime.
+Licensed market and clearing and settlement facility regime
+2.64 As outlined below, some submitters to the inquiry queried the suitability of
+applying Australia’s regulatory framework for markets and clearing and
+settlement (CS) facilities to DAPs or TCPs.73
+2.65 For instance, Hamilton Locke also considered that the markets and CS facilities
+regimes are not ‘appropriate or fit for purpose for digital assets markets’.
+Hamilton Locke stated that the markets and CS facilities regimes ‘did not
+contemplate the blockchain when they were designed’ and that the ‘operation
+of a market or CS Facility as it might exist on the blockchain, as opposed to
+markets and CS Facilities that exist off chain, are very different’.74 Hamilton
+Locke outlined these differences as follows:
+One example is the operation of atomic settlement on chain. In traditional
+financial markets, a delay of 1 – 2 business days occurs between when a
+trade is agreed upon and when it’s officially settled. This creates
+counterparty risk, because the buyer might send payment but not receive
+the asset, or the seller might deliver the asset but not receive payment. To
+mitigate this risk, markets rely on intermediaries like licensed CS Facilities.
+Atomic settlement, however, ensures the exchange of an asset and its
+payment happen in the same instant. … This eliminates the counterparty
+risk, as it becomes impossible for half the transaction to complete – either
+the asset is delivered and payment received, or neither occurs.75
+2.66 Similarly, Swyftx considered counterparty risk is reduced under a broker
+model. Swftx submitted most brokers act as the counterparty to their clients’
+trades. In doing so, brokers ‘significantly reduce the risk of liquidity
+71 Treasury, Submission 13, p. 7.
+72 See, Hamilton Locke, Submission 3, p. 7.
+73 See, for example, Digital Economy Council of Australia, Submission 5, p. [7].
+74 Hamilton Locke, Submission 3, p. 7.
+75 Hamilton Locke, Submission 3, p. 7.
+38
+fragmentation in the local market, which in turn supports competitive pricing
+for both retail and institutional clients’. To maintain a competitive market,
+Swyftx recommended the Minister’s power to declare a DAP to be financial
+market or a CS facility is expressly limited to cases where the effect is significant
+or material.76
+2.67 Noting the above, Hamilton Locke questioned the value of ‘applying a costly
+and highly regulated CS Facility licence regime to manage risks which may
+already be completely managed by virtue of the use of blockchain technology’.77
+Hamilton Locke added:
+We are aware than when Canada tried to apply a similar regime, many
+exchanges left that jurisdiction. We have heard directly from our own clients
+that are exchanges that they will not apply for these licences because they
+are too onerous and not fit for purpose – they will restructure or move
+offshore. This compromises the consumer protections available to
+Australians, but also impacts Australia’s share of this part of the economy.78
+2.68 Furthermore, Hamilton Locke expressed concern that ‘start-up TCPs cannot
+reasonably apply for markets and/or CS Facility licences in order to comply with
+the regulations to enable secondary trading’ of tokenised real-world assets.79
+While Hamilton Locke suggested TCP operators could seek to list their tokens
+with an exchange that ‘holds the relevant markets and/or CS Facility
+licences…exchanges are indicating they will universally move away from any
+trading model that requires them to hold these licences’.80 As such, Hamilton
+Locke cautioned that ‘applying markets and/or CS Facility licensing regimes to
+digital assets markets runs the risk of severely limiting the ability for TCP
+operators to tokenise Australian financial products’.81
+2.69 Additionally, Hamilton Locke submitted that it understood the bill provides a
+‘facility cannot be a DAP or TCP if that same facility is a financial market or CS
+Facility’. Hamilton Locke, considered this could result in ‘perverse outcomes’ of
+a platform not being subject from the asset holding rules and custody
+requirements that the bill seeks to introduce.82 Given the above, Hamilton Locke
+recommended that:
+…digital asset “markets” and “CS Facility” regimes be explicitly excluded
+from applying to platforms that meet the DAP / TCP definition, in favour of
+76 Swyftx, Submission 11, p. 2.
+77 Hamilton Locke, Submission 3, p. 7.
+78 Hamilton Locke, Submission 3, p. 7.
+79 Hamilton Locke, Submission 3, p. 8.
+80 Hamilton Locke, Submission 3, p. 8.
+81 Hamilton Locke, Submission 3, p. 8.
+82 See, Hamilton Locke, Submission 3, pp. 8–9.
+39
+the application of the DAP / TCP regime, its asset-holding standards, and
+trading rules.83
+2.70 Treasury stated in its submission:
+…existing market and clearing and settlement licensing frameworks remain
+essential for market integrity and financial stability, and DAPs will only
+require a licence where they meet current statutory tests. A blanket
+exemption would undermine technology neutrality and heighten arbitrage
+risks.84
+2.71 Treasury added that additional drafting notes were included in the bill to
+address these, and similar, concerns and that these notes explain the interactions
+between the relevant regimes.85
+Australian financial services license regime
+2.72 Several submitters considered that clarification and refinements are needed of
+the interaction of DAP and TCP authorisations with the existing AFS licence
+regime.
+2.73 For instance, FinTech Australia submitted as many DAP products and services
+‘operate in ways that are functionally similar to existing financial
+products...many firms will seek to align new DAP and TCP authorisations with
+their existing licensing arrangements’. As such, FinTech Australia considered
+regulatory guidance should:
+…provide clarity on how DAP and TCP authorisations interact with existing
+AFSL authorisations, including where firms seek to expand or vary current
+licences rather than apply for entirely new authorisations. Clear
+expectations in this area would assist businesses in planning their licensing
+strategies and reduce uncertainty about how existing permissions and
+obligations translate into the new framework.86
+2.74 Further, DECA suggested the bill ‘overlays new DAP and TCP authorisations
+on top of existing AFSL categories without providing a clear sequencing
+mechanism’. As such, DECA considered it ‘unclear whether platforms must
+hold both the new DAP/TCP authorisations and their existing custody
+permissions simultaneously’. To address this, DECA called for confirmation
+that AFSL holders are not ‘are not required to hold separate, duplicative
+custodial authorisations, ensuring that ASIC's standards act as a single, unified
+custody framework’.87
+83 Hamilton Locke, Submission 3, p. 9.
+84 Treasury, Submission 13, p. 8.
+85 Treasury, Submission 13, p. 8.
+86 FinTech Australia, Submission 9, p. 10.
+87 Digital Economy Council of Australia, Submission 5, p. [8].
+40
+2.75 Treasury made the point that the bill amends the Corporations Act so that:
+…a person dealing in a DAP or TCP, or possessing digital tokens under such
+a platform, is not providing a custodial or depository service, and therefore
+does not require the requite authorisation. A DAP or TCP operator that
+holds financial products that are not in digital token form will be providing
+a custodial or depository service and therefore will require an authorisation
+to provide this service, subject to any exemptions.88
+2.76 Treasury’s submission to the inquiry went on to say that the extension of
+existing custodial/depository services and similar matters are things which
+could be addressed in related regulations for the bill.89
+2.77 Swyftx submitted that while the bill ‘makes significant strides in integrating
+DAPs into the broader financial framework, it relies heavily on historical AFSL
+concepts that do not map cleanly to digital assets.’ Swyftx considered this
+situation creates ‘structural frictions’ between digital assets and the traditional
+AFSL regime and risks ‘technical breaches by licensees unless ASIC provides
+specific, pragmatic relief’. In particular, Swyftx expressed concern that current
+regulations do not address:
+(a) disclosure obligations for DAP operators for digital assets for which there
+is no central issuer or relevant disclosure documents that can be provided;
+and
+(b) technical requirements for value transfer services that are incompatible
+with digital asset infrastructure.90
+2.78 Treasury’s submission notes that there is currently no obligation to provide
+disclosure if the digital token is not a financial product. It also noted that sections
+of the bill allow for the creation of regulations ‘for the purposes of disclosure
+requirements relating to acquisitions of digital tokens that are not financial
+products and are prescribed in the regulations for this purpose.’91 This
+regulation-making power is intended to be used in the future, rather than
+immediately, as it allows for regulations to be developed and implemented as
+the digital asset market evolves.92
+2.79 Additionally, Swyftx noted that digital asset businesses ‘often operate through
+integrated corporate groups for legitimate governance and risk management
+reasons’. To reflect this, Swyftx proposed that regulations allow a DAP to
+‘appoint corporate authorised representatives or rely on intermediary
+authorisation appointments to allow group entities to operate a DAP without
+88 Treasury, Submission 13, pp. 5–6.
+89 Treasury, Submission 13, p. 6.
+90 Swyftx, Submission 11, p. 4.
+91 Treasury, Submission 13, p. 7.
+92 Treasury, Submission 13, p. 7.
+41
+holding an AFSL’. Swyftx submitted this approach would ‘support integrated
+group structures and prevent the unnecessary duplication of licences,
+compliance systems, and administrative functions’. Further, Swyftx suggested
+that the approach ‘would not diminish consumer protections’ as the primary
+licensee ‘would maintain appropriate regulatory oversight…and retain ultimate
+accountability’.93
+2.80 Treasury noted that the availability of the intermediary authorisation exemption
+will be considered in amendments to the Corporations Regulations related to
+the bill.94
+2.81 BTC Markets noted that the interaction between the new DAP regime and
+existing AFS licence requirements may create ‘unclear communication and
+marketing obligations’ for DAP operators.95
+Interoperability of the digital assets framework with international regimes
+2.82 Given the global nature of digital assets, several submitters emphasised the
+importance of maintaining an efficient interface between Australia’s digital
+assets framework and international regulatory regimes.
+2.83 For instance, Coinbase submitted that:
+Digital assets are borderless by design, operating on decentralised networks
+unimpeded by the geographic or temporal constraints of the traditional
+financial system. This market structure has driven expectations of
+Australian consumers, as they are able to access global liquidity, 24/7/365
+just by downloading an app. To keep pace with this new paradigm,
+Australia must have a competitive regime that actively attracts business and
+allows Australian businesses to thrive globally. This will not only encourage
+investment in Australia but also provide Australian businesses the
+opportunity to expand globally through mutual recognition frameworks.96
+2.84 However, evidence from several submitters suggests parts of Australia’s digital
+assets regime risks discouraging local activity in the digital assets sector.
+2.85 For instance, Swyftx submitted Australia’s digital assets framework ‘relies on
+traditional financial market and licensing concepts that do not map cleanly to
+tokenised assets’. Swyftx suggested that while the bill ‘attempts to adapt these
+existing rules, there are gaps that do not provide sufficient coverage against the
+underlying regime’. Swyftx reasoned that this situation:
+…creates structural friction for Australian firms seeking to tokenise assets
+domestically, even when the underlying assets are Australian. This also
+places significant pressure on regulators to provide stop-gaps where such
+93 Swyftx, Submission 11, p. 4.
+94 Treasury, Submission 13, p. 13.
+95 See, BTC Markets, Submission 10, p. 1.
+96 Coinbase, Submission 8, p. 3.
+42
+inconsistencies exist. If regulators are unable to do so, and in the absence of
+practical regulatory reform, we risk seeing this high value tokenisation
+activity migrate offshore.97
+2.86 Furthermore, the committee heard that as Australia only ‘represents a small
+share of global exchange turnover’, major global operators’ participation in the
+domestic market will, partly, depend on Australia’s regulatory efficiency.98
+Indeed, Thomson Geer cautioned that if Australia’s ‘localisation requirements’
+exceed those in Singapore or Hong Kong, leading firms may rationalise
+Australia out of their network, resulting in a quality-flight’. Such circumstances,
+Thomson Geer said, were at play in the recent exit of a multinational crypto
+exchange from Australia.99
+2.87 In particular, Thomson Geer considered certain provisions of the bill could ‘risk
+over localising a highly global market’:
+The flashpoints are custody and trading & execution models, which are
+devolved to ASIC's secondary legislative powers (ss 912BE, 912BF). There
+are also broad Ministerial declaratory powers (s 767B), which can give rise
+to licensing conflicts e.g. where a financial market/clearing and settlement
+facility is enforced for exchanges relying on central limit order book
+models.100
+2.88 Similar views were expressed by other submitters, including Ripple which
+submitted it is ‘vital’ that proposed sections 912BE and 912BF are ‘not used to
+impose de facto "localisation" requirements that force platforms to hold assets
+solely within Australia or use only domestic sub-custodians’.101 Ripple
+submitted:
+Digital asset markets are inherently global. Australian platforms rely on the
+"local subsidiary, global parent" model to access deep global liquidity pools
+and institutional-grade international custody solutions. Forcing platforms
+to localise custody or liquidity would fragment the market, increase costs
+for Australian consumers, and concentrate risk within a smaller pool of local
+service providers.
+2.89 Treasury’s submission noted the issues raised in other inquiry submissions that
+‘ASIC’s powers to make minimum standards could allow it to require DAP or
+TCP operators to hold underlying assets in Australia which would fragment or
+prevent access to global liquidity’. Treasury responded as follows:
+In relation to global liquidity access, paragraph 912BF(3)(c) of the
+Corporations Act, as inserted by item 37 of Schedule 1 of the Bill, expressly
+97 Swyftx, Submission 11, p. 3.
+98 Thomson Geer, Submission 1, p. 3.
+99 Thomson Geer, Submission 1, p. 3.
+100 Thomson Geer, Submission 1, p. 3.
+101 Ripple Labs Inc, Submission 4, pp. 3–4.
+43
+prohibits ASIC from making minimum standards that prevent DAP or TCP
+operators from sourcing liquidity from platforms operating outside of
+Australia, whether or not they hold a licence under the Corporations Act.
+In relation to asset localisation requirements, consistent with how the AFS
+licensing regime applies to custodians currently, the Bill does not require
+underlying assets of DAPs or TCPs to be held in Australia and provides
+ASIC with flexibility to manage this under minimum standards.102
+2.90 To preserve global interoperability, several submitters considered that
+equivalent license recognition provisions should be included in the bill to allow
+an operator’s licence from a sufficiently robust jurisdiction to be recognised in
+Australia.103 Further, the committee heard that licensed operators should not be
+prohibited from using an overseas custody arrangements provided certain
+appropriate liability and consumer protections are maintained by the ASFL
+licensee.104 For instance, DECA submitted the bill:
+…should introduce an equivalence and recognition mechanism allowing
+ASIC to declare a sufficiently robust foreign licence or regime as
+"equivalent" if it remains consistent with applicable IOSCO or Financial
+Stability Board standards. The framework must explicitly ensure that ASIC's
+standards cannot prohibit licensed operators from utilizing compliant
+overseas custodial arrangements. Simultaneously, the law should oblige
+foreign bodies exercising custody by arrangement with an AFSL holder to
+maintain proper registration and submit to the non exclusive jurisdiction of
+Australian courts for asset tracing, recovery, and enforcement
+proceedings.105
+2.91 While it did not call for equivalent license recognition provision, FinTech
+Australia suggested that:
+…guidance would be valuable in clarifying when an overseas platform is
+considered to be carrying on a financial services business in Australia, how
+the new framework interacts with existing foreign AFSL relief settings, and
+ASIC’s expectations where custody or other operational functions are
+performed offshore.106
+2.92 FinTech Australia stated such guidance would ‘assist both Australian operators
+seeking to expand internationally and offshore operators looking to enter the
+Australian market, supporting regulatory certainty while maintaining
+appropriate oversight and consumer protections’.107
+102 Treasury, Submission 13, p. 10.
+103 See, for example, Thomson Geer, Submission 1, p. 3; Business Law Section of the Law Council of
+Australia, Submission 2, p. 4; Coinbase, Submission 8, p. 4.
+104 See, Ripple Labs Inc, Submission 4, p. 4.
+105 Digital Economy Council of Australia, Submission 5, p. [5].
+106 FinTech Australia, Submission 9, p. 8.
+107 FinTech Australia, Submission 9, p. 9.
+44
+2.93 However, Treasury considered that it would not be appropriate to address
+equivalent license recognition provisions via the bill as it ‘would impact on the
+regulation of financial service licensees more broadly’. Treasury noted:
+ that the ‘current financial services licensing regime already contains a process
+for foreign financial service providers from ‘equivalent’ jurisdictions. This
+has been subject to a number of reviews over the last few years’; and
+ that ‘Schedule 2 of the Treasury Laws Amendment (Genetic Testing
+Protections in Life Insurance and Other Measures) Bill 2025, which is
+currently before Parliament, proposes to amend the Corporations Act to
+include foreign financial service provider exemptions relevant to wholesale
+providers’.108
+Other issues
+2.94 As outlined below, submitters’ evidence outlined the other issues related to the
+bill, including:
+ adequacy of transitional arrangements;
+ additional mechanisms for regulatory guidance;
+ jurisdiction of Australian courts in cases involving global exchanges; and
+ other additional issues.
+Adequacy of transitional arrangements
+2.95 Submitters expressed a range of views on the adequacy of the bill’s proposed
+transitional arrangements.
+2.96 FinTech Australia considered the proposed six-month transition period to be
+‘ambitious’ and ‘achievable, but only if supported by appropriate regulatory
+coordination, clear guidance and sufficient ASIC resourcing’.109 FinTech noted
+that in the transition period, affected businesses would:
+…need to assess regulatory perimeter, prepare licence applications or
+variations, uplift governance and compliance arrangements, align
+operational practices with ASIC standards once finalised, and operationalise
+DAP/TCP requirements.110
+2.97 However, FinTech Australia also submitted that its members had raised several
+issues regarding the transitional arrangements. For instance, FinTech Australia
+said its members had expressed ‘strong concern regarding ASIC’s capacity to
+process what is likely to be a significant spike in complex AFSL applications and
+licence variations during the transition period’.111 FinTech Australia noted
+108 Treasury, Submission 13, p. 10.
+109 FinTech Australia, Submission 9, p. 3.
+110 FinTech Australia, Submission 9, p. 3.
+111 FinTech Australia, Submission 9, p. 3.
+45
+‘AFSL application and variation processes can extend for considerable periods’
+and, for many businesses, licensing outcomes impact their ‘capital allocation,
+operational planning, recruitment decisions and investment timing’.112 As such,
+FinTech Australia considered that implementing the digital assets framework
+would require a short-term increase to ASIC’s resources for licensing and digital
+asset supervision.113
+2.98 Further, FinTech Australia members ‘highlighted ongoing uncertainty
+regarding how ASIC will assess responsible manager (RM) experience within
+the context of digital asset business models’. As such FinTech Australia
+recommended that:
+ASIC establish a formal pre-application engagement window prior to, or
+during, the transition period. Such a process would allow prospective
+applicants to discuss proposed authorisations, test responsible manager
+competency profiles, and clarify documentation and evidentiary
+expectations before formal lodgement. Early engagement of this kind would
+help reduce regulatory uncertainty, improve the quality of applications
+submitted, and minimise unnecessary application churn during a period
+where both industry and regulators will be adapting to a new framework.114
+2.99 Moreover, FinTech Australia submitted its members were ‘especially
+concerned’ that, while seeking to comply with the new regulations, they could
+‘criticism as regulatory interpretation evolves during implementation’.115 As
+such, FinTech Australia submitted it:
+…considers it important that the transition settings promote proactive
+compliance rather than create additional regulatory risk for entities
+attempting to do the right thing. We therefore recommend clear public
+confirmation that operators who lodge complete applications within the
+transition period may continue operating while those applications are being
+assessed, so that business continuity is maintained and market disruption is
+avoided.116
+2.100 Ripple expressed support for the bill’s six-month transition period, under
+proposed section 1732, which would temporarily exempt an applicant from the
+new regime such that they could continue to operating while their application
+is pending.117 At the same time, Ripple recommended that ASIC publish a list of
+entities with application pending status to:
+112 FinTech Australia, Submission 9, pp. 3–4.
+113 FinTech Australia, Submission 9, p. 4.
+114 FinTech Australia, Submission 9, p. 4.
+115 FinTech Australia, Submission 9, pp. 4–5.
+116 FinTech Australia, Submission 9, p. 5.
+117 See, for example, Ripple Labs Inc, Submission 4, p. 4.
+46
+…provide consumers and end-users with a clear reference of which entities
+are covered under the exemption regime. We believe this approach would
+better secure business continuity and consumer choice.118
+2.101 DECA considered that the transition period ‘may be highly inadequate given
+ASIC’s known resourcing constraints and the expected high volume of AFSL
+applications from the sector’.119
+Additional mechanisms for regulatory guidance
+2.102 Given the complexity of digital assets regulation, several submitters called for
+additional mechanisms to provide regulatory guidance to industry, including:
+ a digital markets panel; and
+ operational guidance from ASIC.
+Proposal for a digital markets panel
+2.103 Some submitters proposed that a panel should be established to offer regulatory
+guidance to industry.120 In particular, corporate law firm Thomas Geer
+submitted that to ‘provide authoritative interpretational clarity’ a digital
+markets panel should be established within Chapter 7 of the Corporations Act.121
+The panel’s core function, Thomas Geer said, would be to ‘selectively interpret
+and advise on areas of regulatory uncertainty that materially affect the market’,
+including:
+ The scope of key statutory concepts (e.g. "possession", “control”, etc).
+ The boundary between DAPs, TCPs and financial markets/clearing
+facilities.
+ The meaning of ASIC standards for asset-holding, transactional and
+settlement functions.
+ The application of the regime to cross-border custodial and liquidity
+structures.122
+2.104 Further, Thomas Geer proposed the panel could issue ‘advisory and
+interpretational determinations, published as legislative instruments or
+declared “binding interpretations” under regulation’.123 Further, Thomson Geer
+considered that ASIC, the Minister and licensees should be required to have
+regard to determinations made by the panel in ‘administering, enforcing or
+118 Ripple Labs Inc, Submission 4, p. 4.
+119 Digital Economy Council of Australia, Submission 5, p. [5].
+120 See, for example, Digital Economy Council of Australia, Submission 5, p. [11].
+121 Thomson Geer, Submission 1, pp. 3 and 5.
+122 Thomson Geer, Submission 1, p. 5.
+123 Thomson Geer, Submission 1, p. 5.
+47
+complying with the Corporations Act’.124 To give effect to the proposed panel,
+Thomson Geer provided several detailed amendments to the bill.125
+2.105 Similarly, FinTech Australia proposed establishing a temporary ‘Digital Asset
+Implementation Working Group’ to support the implementation of the new
+regulatory regime. FinTech Australia said the working group could ‘provide a
+structured forum for discussing implementation challenges, clarifying
+expectations and sharing practical insights from industry experience’.126
+2.106 While Treasury submitted that ‘while such a panel could provide valuable non-
+binding input on novel intersections of technology and law, establishing a
+standing body is outside the scope of these reforms’.127
+Operational guidance from ASIC
+2.107 FinTech Australia submitted that operational guidance provided by ASIC will
+‘ultimately shape how the regime functions in practice and how industry
+participants implement their obligations’. Further, FinTech Australia
+considered ‘[c]lear practical and timely guidance will…be essential to ensuring
+consistent understanding and application of the new framework’.128 As such,
+FinTech Australia recommended that ASIC publish:
+ a regulatory guide—to provide, prior to the commencement of the DAP and
+TCP regimes, ‘practical interpretation of key concepts, explain supervisory
+expectations and include clear examples to assist industry in applying the
+framework consistently’; and
+ a public implementation roadmap—to provide details of the ‘anticipated
+timeline for standards development, expected licence processing
+benchmarks, consultation schedules, and planned updates to frequently
+asked questions or additional guidance materials.129
+2.108 Additionally, FinTech Australia called for ‘clear’ guidance in a range of other
+key areas, including how the $10 million threshold exemption for smaller DAP
+operators would operate in practice and clear ‘boundary examples’ that clarify
+when a business falls within the scope of a DAP or a TCP.130
+124 Thomson Geer, Submission 1, p. 3.
+125 See, Thomson Geer, Submission 1, pp. 6–8.
+126 FinTech Australia, Submission 9, p. 6.
+127 Treasury, Submission 13, p. 14.
+128 FinTech Australia, Submission 9, p. 5.
+129 FinTech Australia, Submission 9, pp. 5–6.
+130 FinTech Australia, Submission 9, p. 6.
+48
+Jurisdiction of Australian courts in cases involving global exchanges
+2.109 The LCA submitted that while civil proceedings involving crypto-assets often
+seek court orders related to exchange-hosted cryptocurrency accounts, ‘local
+subsidiaries of some global cryptocurrency exchanges disclaim any role in
+maintaining the relevant wallets and thus refuse or are unable to comply’.131
+This, the LCA said, ‘frustrates attempts by Australians to use Australian Courts
+for legitimate asset tracing and recovery purposes’.132 As such, the LCA
+supported an amendment to the bill that would require:
+ any entity that is a registrable foreign body exercising custody or transfer
+authority over client assets by arrangement with an AFSL holder, to be
+obliged to be a registered foreign body and to maintain such registration
+and to submit in a binding way to the non-exclusive jurisdiction of
+Australian courts; and
+ AFSL holders to be obliged to take all reasonable steps to procure
+information and documents concerning customer assets from related
+entities in responding to Australian court processes.133
+2.110 Similarly, DECA submitted:
+…local subsidiaries of global exchanges frequently disclaim their role in
+maintaining wallets, which leads to them refusing to submit to the jurisdiction
+of Australian courts during critical asset tracing and recovery processes.134
+2.111 Treasury noted that issues related to the jurisdiction of Australian courts in cases
+involving global exchanges is ‘not unique to digital asset businesses, and
+addressing these issues are outside the scope of the reforms’.135
+Additional issues
+2.112 In addition to the abovementioned issues, the committee acknowledges that
+submissions contained evidence on a range of other issues relevant to the bill.
+Such issues included, but were not limited to:
+ narrow drafting of ‘proposed exemptions for self-custody, staking, and
+public infrastructure’;136
+ power provided to the Minister to, by legislative instrument, prohibit
+certain conduct regarding a financial product on a DAP or a TCP;137
+131 Business Law Section of the Law Council of Australia, Submission 2, p. 4.
+132 Business Law Section of the Law Council of Australia, Submission 2, p. 4.
+133 Business Law Section of the Law Council of Australia, Submission 2, p. 4.
+134 Digital Economy Council of Australia, Submission 5, p. [5].
+135 Treasury, Submission 13, p. 13.
+136 Digital Economy Council of Australia, Submission 5, pp. [8–9].
+137 Digital Economy Council of Australia, Submission 5, pp. [9–10].
+49
+ clarifying that the ‘same class of asset’ requirement for qualification as a
+TCP ‘applies to the underlying asset backing a particular class or type of
+token, rather than to the platform or facility as a whole’;138
+ clarifying how accountability and compliance obligations will be allocated
+in joint operator and multi-entity structures where custody and
+transactional functions may be separated;139
+ capacity for a DAP to ‘be transitioned into the financial market regime’
+without a ‘clear harm or benefit…to justify the shift’;140
+ proposed benefits of intermediated staking that are ‘not achievable and
+‘may mislead clients to believe that they are possibilities or that platforms
+accept that level of liability’; and
+ clarification of the ‘regulatory treatment and listing requirements for
+stablecoins issued by offshore providers’.141
+2.113 Treasury’s submission provided evidence related to several of the
+abovementioned issues.
+Committee view
+2.114 The committee welcomes the opportunity to examine the Corporations
+Amendment (Digital Assets Framework) Bill 2025.
+2.115 Digital assets, underpinned by blockchain technologies, are continuing to
+develop rapidly and are increasingly available to Australian consumers. Indeed,
+the expansion of digital assets provides exciting opportunities for digital token
+innovation across a number of industries, including traditional finance.
+2.116 However, as others have noted, digital assets present risks for consumers
+associated with the conduct of operators of digital asset platforms, rather than
+the technologies underlying digital assets themselves. Australia’s digital asset
+regulations need to keep pace with these risks to provide protections for
+consumers and to maintain market integrity. At the same time, digital asset
+regulations need to promote business participation and promote product
+development.
+2.117 The committee recognises the complex, decentralised and evolving nature of
+digital assets makes developing regulations that accurately identify and control
+risk—while maintaining technology neutrality and interoperability with
+international regimes—is a substantial and considerably difficult undertaking.
+138 Piper Alderman, Submission 7, p. 5.
+139 FinTech Australia, Submission 9, p. 8.
+140 BTC Markets, Submission 10, p. 2.
+141 Swyftx, Submission 11, p. 3.
+50
+2.118 As such, the committee was pleased to note that many submitters to the inquiry
+welcomed the Australian Government’s efforts to modernise the regulatory
+framework for digital assets. Further, the committee notes several submitters
+expressed strong support for the bill’s objectives to provide a clear and robust
+regulatory framework in Australia. The committee shares these views.
+2.119 The committee also notes that many submitters indicated they have previously
+engaged with Treasury on consultation related to digital asset regulation,
+including on the exposure draft of the bill. It is apparent to the committee that
+these consultation efforts with industry have informed the bill and helped to
+establish notable support for reforms among key stakeholders.
+2.120 At the same time, the committee acknowledges that much of submitters’
+evidence to the inquiry focussed on prospective issues with the bill and
+proposed amendments to potentially improve the bill’s operation. Many of the
+issues raised by submitters related to clarification of key concepts used in the
+bill and how those concepts would apply to digital asset entities in practice.
+Among other things, submitters made recommendations relating to instances
+where the bill’s provisions relating to the operation of a DAP or a TCP may not
+be clear or may not apply as intended.
+2.121 The committee notes that Treasury’s submission provided significant context to
+the many of the issues raised by other inquiry submitters. Nonetheless, the
+committee encourages the Australian Government to consider what additional
+guidance should be provided to industry on how the Digital Assets Framework
+would work in practice. In the committee’s view, such guidance would support
+the implementation of the proposed framework and encourage participation in
+Australia’s digital assets sector.
+2.122 Notwithstanding the above suggestion, the committee considers the bill would,
+in effect, make a substantial improvement to the regulation of digital assets,
+including more robust safeguards for Australian consumers.
+Recommendation 1
+2.123 The committee recommends that the Senate pass the bill.
+Senator Lisa Darmanin
+Chair
+Labor Senator for Victoria
+Coalition Senators' Additional Comments
+Introduction
+1.1 These reforms are long overdue.
+1.2 Australia is falling behind in the global revolution in digital finance
+technologies.
+1.3 Digital finance technologies – including cryptocurrencies, stablecoins, tokenised
+assets and blockchain-based financial infrastructure – represents a major
+economic opportunity for Australia. On 3 March 2026, the Digital Finance
+Cooperative Research Centre reported that digital finance innovation could
+contribute up to $24 billion to the Australian economy annually by 2030.
+1.4 Financial markets around the world are changing. New technologies are
+enabling assets to be issued, traded, and settled using digital infrastructure –
+and Australia’s old-world approach is making us a laggard on the world stage.
+1.5 The Corporations Amendment (Digital Assets Framework) Bill 2025 takes an
+important step toward modernising Australia’s regulatory framework and
+bringing digital asset platforms within Australia’s financial services laws.
+1.6 The Coalition set out a comprehensive roadmap for these reforms in our
+December 2021 Payments and Crypto Assets Reform Plan and took a policy to fast-
+track this plan within 100 days at the last election. Our plan recognised that
+digital asset markets were growing rapidly and that Australia needed clear rules
+to protect consumers while allowing legitimate businesses to operate and invest.
+It foresaw that without swift action Australia would be left behind – and that
+delays are putting consumers at risk and sending innovation offshore.
+1.7 Between release of the roadmap in 2021 and today, Australia has experienced a
+prolonged period of regulatory uncertainty. Meanwhile, peer jurisdictions
+seized the moment and progressed bold reform for digital asset platforms,
+including the United Kingdom, Singapore, the European Union, and the United
+States.
+1.8 Australia, by contrast, largely relied on enforcement action by regulators to
+define the regulatory perimeter. Regulators like ASIC are well equipped to
+enforce rules, but they are not best placed to weigh broader economic policy
+considerations.
+1.9 Coalition Senators hope this Bill will send a clear signal to regulators and begin
+restoring confidence for the sector to invest in Australia. However, several
+submissions made clear that they are concerned it requires amendment.
+1.10 The framework established by the Bill leaves many operational details to future
+regulations and regulatory guidance. This means that practical operation of the
+51
+52
+regime will depend heavily on decisions that have not yet been made and are
+not available for industry or the Parliament to consider.
+1.11 Coalition Senators therefore recommend that operation of the framework be
+subject to a statutory review within two years of commencement. This will
+ensure industry has a clear opportunity to voice any concerns about future
+regulations.
+1.12 It will also allow Parliament to assess whether the final regime is functioning as
+intended or whether further reforms are required to ensure Australia remains
+competitive.
+The Coalition has Led on Digital Asset Reform
+1.13 The Coalition has consistently led the development of policy to support digital
+asset innovation and position Australia as a regional financial centre. In
+September 2020, the Senate established the Select Committee on Australia as a
+Technology and Financial Centre. The Committee was chaired by Senator
+Andrew Bragg and conducted an extensive inquiry throughout 2020 and 2021
+into Australia’s regulatory settings for financial technology and digital assets.
+1.14 The Committee reported in October 2021 and produced a detailed reform
+blueprint for digital assets, digital custody and tokenised financial
+infrastructure. Its recommendations included establishing a licensing regime for
+digital asset exchanges and custody providers and modernising Australia’s
+financial services laws to accommodate emerging technologies.
+1.15 Building on that work, the Coalition Government released the Payments and
+Crypto Assets Reform Plan in December 2021, setting out a comprehensive
+roadmap to modernise Australia’s payments system and establish a regulatory
+framework for digital asset markets.
+1.16 The plan recognised that digital asset markets were growing rapidly and that
+Australia’s regulatory framework needed to evolve to provide clear rules for
+businesses while ensuring appropriate consumer protections.
+1.17 The Coalition also set out a broader ambition to position Australia as a regional
+financial centre, recognising that modern financial infrastructure and emerging
+financial technologies will be critical to Australia’s future competitiveness.
+1.18 The Coalition was ambitious. Had those reforms been implemented quickly,
+Australia would have been among the first advanced economies to establish a
+comprehensive regime for regulating digital asset platforms. We would have
+more jobs and more investment. Instead, the sector experienced several years of
+uncertainty. Stakeholders told the Coalition that this plan gave them confidence.
+1.19 During the 2025 federal election campaign, the Coalition reaffirmed this
+commitment and committed to accelerate the development of a clear regulatory
+framework for digital asset markets and emerging financial technologies – given
+53
+the slow progress under Labor. This would have seen these reforms delivered
+before September 2025.
+1.20 Digital assets are an increasingly important part of global financial markets and
+could represent up to $24 billion annually for the Australian economy by 2030.
+Jurisdictions that provide clear regulatory frameworks will attract investment,
+innovation and talent. Those that don’t will not reap these economic benefits.
+1.21 Coalition Senators view this legislation as an important – but late – step in
+positioning Australia to become a regional leader in the global digital finance
+economy. We also recognise that Australia is now starting from behind and
+there will need to be more ambition from Government to catch up.
+Regulation by Litigation
+1.22 One of the unusual aspects of these reforms is that the industry is actively calling
+for regulation. They are not seeking to avoid it – they know that becoming
+properly regulated participants in our financial system legitimises their
+businesses and puts them on the best footing to compete with traditional
+finance.
+1.23 Industry stakeholders told the Committee they want clear rules so they can
+operate with certainty and build businesses in Australia. They want regulation
+that is clear, workable, and tailored to the reality of their industry and its
+technology.
+1.24 In the absence of legislation, ASIC has relied heavily on enforcement action and
+litigation to determine how existing financial services laws apply to digital asset
+businesses. This approach has been described as “regulation by litigation.”
+1.25 Regulation by litigation is an expensive and uncertain way to define the
+regulatory boundaries of a new industry. For smaller businesses and start-ups,
+the cost of defending enforcement proceedings, and associated uncertainty can
+be significant – even if they are ultimately successful through the courts.
+1.26 It is unfortunate that because of delays in delivering a clear legislative
+framework, businesses have had to wait for the outcome of court proceedings
+to understand how the law might apply to their activities. Parliament needs to
+do better.
+1.27 Waiting for legislative certainty is not how a modern financial system should
+operate.
+1.28 Clear rules should come from legislation passed by Parliament – reflecting
+community values – and supported by guidance from regulators. This approach
+provides greater certainty for businesses, clearer expectations for regulators,
+and greater confidence for investors.
+1.29 We heard from industry that while ASIC has often not been successful in
+litigation, the uncertainty created by these cases continues to affect investment
+54
+decisions. Without clear legislation there will always be uncertainty about how
+existing laws apply.
+1.30 This Bill represents an important milestone toward addressing that uncertainty.
+It reflects years of consultation with industry participants, regulators, and
+policymakers.
+1.31 Coalition Senators acknowledge the significant work and advocacy for better
+outcomes undertaken by stakeholders across the sector to reach this point.
+Need for More Strategic Direction from Government
+1.32 Coalition Senators recognise that ASIC has a difficult role in juggling their broad
+responsibilities: regulating emerging financial technologies, implementing
+Government reforms, and protecting consumers from fraud and scams.
+1.33 While ASIC is independent, they usually have firm backing in their strategic
+direction from the Government. However, this Treasurer has bizarrely vacated
+the field by not providing his expectations to ASIC. He is missing in action.
+1.34 The key mechanism for providing policy direction is the Statement of
+Expectations issued by the responsible Minister – in this case, the Treasurer. We
+note that as at 14 March 2026, the Treasurer has not provided his expectations
+of 5 out of 10 regulators – including ASIC – according to the Department of
+Finance’s Regulator Stocktake.
+1.35 Statements of Expectations outline the Government’s priorities for regulators
+and provide guidance on how regulators should balance enforcement,
+competition, and broader economic considerations. It is incredible that the
+Treasurer continues to ignore his responsibility to set the direction of ASIC and
+the ATO – two of the most important regulators in Australia.
+1.36 The Government should be embarrassed that ASIC continues to operate under
+the Statement of Expectations issued by former Treasurer Josh Frydenberg
+during the COVID-19 pandemic – which focused on supporting businesses
+through the pandemic.
+1.37 Without an updated statement of expectations, ASIC have been left to interpret
+how these priorities should be balanced. The Treasurer has effectively ceded his
+job to the regulator – despite receiving multiple drafts from his department
+already.
+1.38 Coalition Senators urge the Senate direct the Treasurer to provide updated
+Statements of Expectations to ASIC and the other regulators in his remit. This
+will assist ASIC to better manage their limited resources in line with
+Government expectations.
+1.39 In addition to the lack of expectations for regulators, the Government is also
+sitting on more than 12 Parliamentary inquiries in the financial services space –
+55
+covering important issues such as insurance affordability – without taking
+action.
+1.40 The Delivering Better Financial Outcomes (DBFO) reforms have also stalled.
+These reforms are particularly relevant to this legislation, as the Bill brings
+digital asset platforms within Australia’s financial services licensing framework,
+including obligations relating to financial advice. Delays in progressing the
+Delivering Better Financial Outcomes reforms therefore risk creating additional
+uncertainty for businesses and advisers seeking to operate within the
+framework established by this Bill. The Government must re-prioritise itself to
+deliver DBFO.
+The Bill Establishes the Framework – but Punts the Full System to Future
+Regulations
+1.41 Coalition Senators support the principles of this Bill. It takes an important step
+toward establishing a regulatory framework for digital asset platforms.
+However many of the operational details will be determined later through
+regulations and regulatory guidance.
+1.42 This includes matters such as licensing conditions, compliance obligations, and
+operational requirements for platforms. Crucial decisions that will shape how
+the regime operates in practice.
+1.43 Industry stakeholders told the Committee they are supportive of the framework,
+but remain cautious about the details that are still to come. After years of
+uncertainty – and litigation by the regulator – their caution is warranted.
+1.44 Coalition Senators agree that these details will matter. It is therefore appropriate
+that Parliament has the opportunity to consider the outcomes of a two-year
+statutory review once the full regime is in place.
+A Statutory Review
+1.45 Digital finance technologies are developing faster than anyone predicted – and
+it is accelerating. Faster than the Coalition’s 2021 plan. Faster than Labor’s
+implementation of this plan five years later. We are lagging behind Singapore,
+the European Union, the United Kingdom, and the United States.
+1.46 Technologies evolve quickly. Business models evolve quickly. Markets evolve
+quickly. Our regulatory frameworks must keep pace if we are to eventually
+position Australia as a market leader – not a market follower.
+1.47 The Bill establishes an important foundation. But it will not be the final stage of
+reform in this sector – the framework established by the Bill leaves many
+operational details to future regulations and regulatory guidance. The
+Parliament does not have these regulations in front of them as we vote on this
+Bill.
+56
+1.48 The Government is essentially asking the Parliament to agree to a framework
+without the detail. We’re ready to support that because progress is needed, but
+also want to make sure there is a clear opportunity for industry to make their
+concerns known to the Government once this regime is fully operational.
+1.49 A statutory review two years after commencement of this legislation will ensure
+Parliament can assess how this regulatory regime operates in practice. If the
+framework is working well, the review will confirm that. If improvements are
+required – those improvements will be identified. This is a sensible amendment
+that the Government should implement.
+1.50 Coalition Senators therefore recommend a statutory review of the regime within
+two years of commencement. This will allow industry participants, regulators,
+and consumer groups to provide feedback on how the framework operates in
+practice.
+1.51 The review will allow Parliament to consider evidence from industry, regulators
+and consumers once the regime has been operating in the real world.
+More Ambition is Required
+1.52 What is required is a more ambitious approach to the digital finance sector.
+1.53 Digital asset technologies are part of a broader transformation of global financial
+markets. Around the world, new technologies are improving payments systems,
+modernising market infrastructure and creating new ways to do business.
+1.54 These developments are not theoretical. They are happening now and more
+ambitious jurisdictions are seeking to capture these opportunities.
+1.55 Major financial institutions are exploring tokenised assets. Payments companies
+are experimenting with blockchain-based settlement systems. New forms of
+financial infrastructure are being built around the world.
+1.56 Australia should be a leader in this transformation – a rule-maker that other
+jurisdictions look to for leadership. Our financial markets are deep. Our
+regulators are respected. Our fintech sector is innovative and growing.
+1.57 The Treasurer has still not updated the Statements of Expectations for these
+regulators. This could set out the Government’s vision for how ASIC could
+support these innovative new sectors while protecting consumers.
+1.58 Coalition Senators remain ambitious for this sector. We provided a vision in
+2021, wanted to accelerate it as part of our 2025 election campaign, and recognise
+industry are exceeding even the most optimistic assumptions.
+1.59 Australia should not simply follow reforms developed elsewhere. With the right
+leadership, Australia should be helping shape the future of digital finance be
+recognised as a global and regional leader.
+57
+Opportunity Lost
+1.60 Australia had the opportunity to lead. When the Coalition released the
+Payments and Crypto Assets Reform Plan in 2021, the sector was growing
+rapidly and governments around the world were beginning to consider how to
+regulate it.
+1.61 At that moment, Australia had the chance to move early and position itself as a
+leading jurisdiction for digital finance innovation.
+1.62 Instead, after 2022 progress stalled. While Australia delayed, other jurisdictions
+implemented comprehensive regulatory frameworks and positioned
+themselves as destinations for investment.
+1.63 Industry stakeholders told the Committee that regulatory certainty is crucial. It
+is one of the most important factors when deciding where to establish
+operations. It makes sense. The last thing you want if you’re establishing a
+business is a Government that will pull the rug out from under you.
+1.64 Investment flows toward jurisdictions where the rules are clear. This Bill
+represents an opportunity to begin correcting that course. It must not be the end
+of reform.
+Technical Issues Raised by Stakeholders
+1.65 A number of stakeholders also raised technical issues with aspects of the
+framework established by the Bill and potential amendments.
+1.66 These issues relate to matters such as the precise scope of certain definitions, the
+application of licensing requirements to different types of digital asset services,
+and how particular activities will be treated under the regime.
+1.67 Digital asset markets are complex and rapidly evolving. Small differences in
+legislative drafting can have significant practical consequences for how
+businesses operate.
+1.68 Industry participants provided a range of views on these issues during the
+inquiry. Coalition Senators acknowledge these views.
+1.69 However, Coalition Senators are also conscious that this legislation establishes
+a high-level framework and that many of the operational details will be
+determined through regulations and regulatory guidance.
+1.70 After several years of delay, the priority must be to progress this legislation and
+establish the framework. Once the regime is fully operational with finalised
+regulations and guidance it will be much easier to assess these technical issues.
+1.71 For that reason, Coalition Senators consider that a statutory review within two
+years of commencement provides the most appropriate mechanism to assess
+whether further technical reforms are warranted.
+58
+Debanking Remains a Serious Barrier
+1.72 Beyond issues flagged in the majority report, there are broader concerns raised
+through submissions (including those of the Digital Economy Council of
+Australia) that “debanking” remains a significant issue for the sector.
+1.73 Debanking occurs when banks refuse to provide banking services to certain
+businesses or withdraw those services altogether. Without access to basic
+banking services, legitimate businesses cannot operate. At the same time, the
+banking industry is concerned about ensuring scams involving digital assets are
+not perpetuated.
+1.74 In practice, the problem often extends beyond traditional bank accounts to
+include restrictions on access to critical payment infrastructure such as payment
+rails and onboarding pathways to the banking system.
+1.75 Access to payment rails including services connected to Australia’s New
+Payments Platform (NPP) and related payment infrastructure can be restricted.
+In some cases, these restrictions can significantly limit a firm’s ability to onboard
+customers or facilitate transactions.
+1.76 Stakeholders point to examples where firms had access to banking
+infrastructure restricted or withdrawn, limiting their ability to connect
+Australian consumers to regulated platforms.
+1.77 This issue is not unique to Australia. However, it has become a significant
+barrier to competition and investment by digital asset firms operating in the
+Australian market.
+1.78 The introduction of a licensing regime for digital asset platforms should help
+address some of these concerns. Bringing these businesses within Australia’s
+financial services laws should provide banks with greater confidence when
+assessing risk.
+1.79 Licensing alone may not resolve the problem. Where regulated entities are
+denied banking services, particularly if they hold an Australian Financial
+Service Licence (AFSL), there is currently no requirement to be provided with
+clear reasons for that decision. This is important to support competition between
+legacy and emerging players in financial services.
+1.80 Requiring reasons to be provided, particularly where an entity is an AFSL
+holder and these reasons would not interfere with existing Anti-Money
+Laundering and Counter-Terrorism Financing (AMLCTF) obligations would
+improve transparency and help legitimate businesses understand what steps
+they need to take to maintain banking.
+1.81 Coalition Senators note that the Council of Financial Regulators has previously
+made recommendations that the Government agreed to regarding debanking.
+In practice, while the Government agreed to these recommendations they have
+not been implemented.
+59
+1.82 Ensuring that legitimate and properly regulated businesses can access basic
+banking services is an important part of supporting competition and innovation
+in Australia’s financial system. The Government should consider practical
+reforms that improve transparency and reduce unnecessary barriers.
+1.83 Ensuring competition for legitimate and properly regulated businesses is an
+important part of supporting competition and innovation in Australia’s
+financial system.
+Recommendations
+1.84 Coalition Senators support the Corporations Amendment (Digital Assets
+Framework) Bill 2025 Bill in principle.
+1.85 The Bill represents an important step toward providing regulatory certainty for
+digital asset businesses and bringing these activities within Australia’s financial
+services framework. Industry stakeholders that been consulting government
+hoping for this Bill to pass should be heard.
+1.86 However, much of the practical operation of the regime will depend on
+regulations and regulatory guidance that are not yet available to Parliament or
+industry. Coalition Senators therefore recommend:
+Recommendation 1
+1.87 That the bill be amended to include a statutory review of the digital asset
+regulatory framework within two years after commencement of the bill. This
+review should examine how the regime operates in practice, including
+whether:
+ the new regulations are working as intended;
+ consumer protections are operating effectively;
+ the framework is supporting competition and innovation in Australia’s
+financial system; and
+ further reforms are required to ensure Australia remains competitive in
+global digital finance markets.
+Recommendation 2
+1.88 That the Treasurer urgently provide updated Statements of Expectations to
+ASIC and other regulators within his remit.
+Recommendation 3
+1.89 That the Government carefully consider the work of the Council of Financial
+Regulators on debanking and asses whether further measures are required to
+ensure that properly regulated digital asset businesses can access essential
+banking services.
+60
+Conclusion
+1.90 Digital finance is transforming financial markets around the world.
+Governments across the globe are updating their regulatory frameworks to
+reflect these developments and to attract investment in emerging financial
+technologies. These reforms are long overdue.
+1.91 Australia needs to catch up. This Bill begins that process by providing a clear
+regulatory framework for digital asset markets – but this is coming years later
+than the Coalition initially envisioned back in 2021.
+1.92 Coalition Senators support the objective of providing clear rules for digital asset
+platforms and bringing these activities within Australia’s financial services
+framework. However, the framework established by this legislation will only
+become fully operational once the supporting regulations and regulatory
+guidance are developed.
+1.93 We therefore recommend a two-year statutory review to assess how the regime
+operates once it is fully implemented. The review will ensure that the
+framework can be evaluated once regulations are in place and industry
+participants can see how it operates in practice.
+1.94 With the right policy settings Australia has the potential to be a leading
+jurisdiction for digital finance innovation and reap up to $24 billion per year in
+additional economic activity.
+1.95 The Coalition is ambitious for the sector and for Australia. We will not stand by
+while Australia falls further behind in the global race for digital finance
+investment.
+1.96 The Coalition acknowledges and appreciates all contributors to this Bill.
+Senator Kerrynne Liddle
+Deputy Chair
+Liberal Senator for South Australia
+Appendix 1
+Submissions
+1 Thomson Geer
+2 Business Law Section, Law Council of Australia
+3 Hamilton Locke
+4 Ripple Labs Inc
+5 Digital Economy Council of Australia (DECA)
+6 Australian Payments Plus (AP+)
+7 Piper Alderman
+8 Coinbase
+9 FinTech Australia
+10 BTC Markets
+11 Swyftx
+12 Redbelly Network
+13 Department of the Treasury
+14 Confidential
+61

@@ -1,0 +1,2089 @@
+Report 510: Inquiry into the use and
+governance of artificial intelligence
+systems by public sector entities -
+'Proceed with Caution'
+Joint Committee of Public Accounts and Audit
+February 2025
+CANBERRA
+© Commonwealth of Australia 2025
+ISBN 978-1-76092-784-4 (Printed version)
+ISBN 978-1-76092-785-1 (HTML version)
+All material in this report is provided under a Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 Australia licence. The material may be shared, copied and redistributed provided that:
+• it is for non-commercial purposes
+• the committee named on the previous page is credited as the author
+• the committee is not represented as endorsing the use of the material
+• any changes are clearly identified
+• no additional legal or technical restrictions are applied to restrict use that complies with the
+licence.
+If the material is remixed, transformed or built upon, the modified material may not be distributed.
+Full details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Contents
+Chair's foreword............................................................................................vii
+Membership of the Committee......................................................................ix
+Terms of reference.........................................................................................xi
+List of abbreviations....................................................................................xiii
+List of recommendations..............................................................................xv
+Report
+1. Introduction .................................................................................................1
+Background to the inquiry............................................................................................1
+Existing parliamentary work.........................................................................................2
+Conduct of the inquiry..................................................................................................3
+Definitions....................................................................................................................4
+International frameworks .............................................................................................5
+European Union...................................................................................................................5
+United Nations.....................................................................................................................5
+United Nations Educational, Scientific and Cultural Organisation (UNESCO)....................5
+Organisation for Economic Co-operation and Development (OECD).................................6
+Report outline ..............................................................................................................6
+2. Artificial intelligence in the public sector.................................................7
+Public service AI use ..................................................................................................7
+Copilot trial...........................................................................................................................8
+Other initiatives..................................................................................................................10
+Risks..........................................................................................................................13
+Bias....................................................................................................................................14
+Data security and sovereignty...........................................................................................15
+Cybersecurity threats.........................................................................................................16
+Areas of stakeholder concern....................................................................................17
+iii
+Automated decision-making..............................................................................................17
+Record keeping.................................................................................................................20
+Procurement......................................................................................................................21
+Use of AI in public service recruitment..............................................................................22
+Public service capability.............................................................................................23
+Strategic guidance.............................................................................................................23
+Resourcing........................................................................................................................24
+Training..............................................................................................................................25
+3. Policy and regulatory environment.........................................................27
+Roles and responsibilities..........................................................................................27
+Department of Industry, Science and Resources..............................................................28
+Digital Transformation Agency..........................................................................................29
+Working groups.................................................................................................................30
+Current policy framework...........................................................................................31
+Australia’s AI ethics principles...........................................................................................31
+Interim guidance on government use of public generative AI tools...................................32
+Policy for the responsible use of AI in government...........................................................32
+Entity-specific approaches.................................................................................................33
+Current regulatory framework....................................................................................34
+Work underway..........................................................................................................35
+Pilot AI assurance framework............................................................................................35
+Mandatory guardrails for AI in high-risk settings...............................................................35
+Proposals by inquiry participants...............................................................................37
+Establishment of an overarching body..............................................................................37
+Establishment of new policies or legislation......................................................................38
+4. A way forward: the Committee's view.....................................................41
+The promise and the risk...........................................................................................41
+Effective and coordinated governance is needed now..............................................43
+Appendixes
+Appendix A. Submissions............................................................................49
+iv
+Appendix B. Public hearings........................................................................53
+List of Figures
+Figure 3.1 DTA artificial intelligence policies and frameworks.........................................29
+v
+
+Chair's foreword
+Although Australian Public Service (APS) entities have been using different types of artificial
+intelligence (AI) systems for many years, the field is now developing at an unprecedented
+rate and generative AI is now ubiquitous. It is far from certain however that there are
+sufficient accountability mechanisms to cope with the growing impacts of this.
+The Committee realised that it was essential to review the current policy settings for AI
+across the Commonwealth Government to determine if they were fit for purpose. The issue
+that was fundamental to this inquiry was whether the existing governance and oversight of
+this technology matches its rapid and continuing advancement. Policy frameworks must be
+equipped to adequately assess the great promise that AI brings but also understand the
+inherent and significant risks that accompany its use.
+The Committee examined how the APS is currently using AI systems, the risks and areas of
+concern for this technology, and the current policy settings for AI that are intended to prevent
+harm. This report makes four key recommendations that the Committee believes will foster
+the benefits of AI into the future and protect the Australian public from potentially adverse
+outcomes from its use.
+Underlying these recommendations is the Committee’s very grave concern that if the
+Australian Government does not implement effective and coordinated governance
+frameworks for AI systems now, this technology will outpace its ability to do so in the very
+near future.
+The Committee is recommending that the Australian Public Service Commission introduce
+detailed questions on the use and understanding of AI systems into its annual APS census.
+This information will make a crucial contribution to the understanding by policymakers of the
+effectiveness of AI governance frameworks.
+The Committee is also recommending that a whole of Government working group be
+established within 12 months to consider what mandatory rules and governance frameworks
+will be needed for AI systems across the Commonwealth. Also to be considered is legislation
+that will be essential to ensure that the Australian public reaps the benefits of this technology
+but is protected from its potential pitfalls.
+The Committee is further recommending the establishment of a statutory Joint Committee on
+Artificial Intelligence and Emerging Technologies. The Parliament needs to have fully
+effective oversight of how the Government and the APS is managing the impacts of AI.
+I thank the Deputy Chair and other Committee members who participated in the inquiry. I
+also thank the many contributors to the inquiry and the Committee Secretariat for their
+professionalism in supporting the work of the Committee.
+Hon Linda Burney MP
+Chair
+vii
+
+Membership of the Committee
+Chair
+The Hon Linda Burney MP
+Deputy Chair
+Senator the Hon Linda Reynolds CSC
+Members
+Dr Michelle Ananda-Rajah MP
+Hon Karen Andrews MP (from 5 February 2025)
+Senator Catryna Bilyk
+Senator the Hon Matthew Canavan
+Senator Lisa Darmanin
+Dr Carina Garland MP
+Mr Ian Goodenough MP (until 5 February 2025)
+Mr Brian Mitchell MP
+Dr Daniel Mulino MP
+Mr Henry Pike MP
+Senator Barbara Pocock
+Mr Sam Rae MP
+Senator Tony Sheldon
+Mr Aaron Violi MP
+This committee is supported by staff of the Department of the House of Representatives.
+ix
+
+Terms of reference
+The Committee will specifically examine the adoption and use of artificial intelligence (AI)
+systems and processes by public sector entities to conduct certain functions, including but
+not limited to the delivery of services, to help achieve their objectives.
+The inquiry will have particular regard to the following:
+• the purposes for which AI is currently being used by the public sector entity and
+whether there are planned or likely future uses
+• the existing legislative, regulatory and policy frameworks that are relevant to the
+use of AI and whether they are fit for purpose
+• whether the internal governance structures that currently exist for AI will ensure its
+ethical and responsible use by public sector entities
+• the internal framework/policies or additional controls used for assessing the risks
+associated with the use and possible misuse of AI, including the areas of security,
+privacy, ethics, bias, discrimination, transparency and accountability
+• whether there is an adequate line of sight to the output of AI, and the decisions
+made through its use
+• whether the public sector has the internal capability to effectively adopt and utilise
+AI into the future
+• whether there are sovereign capability issues to consider given that most AI tools
+currently used in Australia are sourced from overseas
+• any other related matters.
+xi
+
+List of abbreviations
+ABS Australian Bureau of Statistics
+ADM+S Australian Research Council Centre of Excellence for Automated
+Decision-Making and Society
+AI Artificial intelligence
+ANAO Australian National Audit Office
+APS Australian Public Service
+APSC Australian Public Service Commission
+ATO Australian Taxation Office
+Copilot Microsoft 365 Copilot
+CPSU Community and Public Sector Union
+DAFF Department of Agriculture, Fisheries and Forestry
+DISR Department of Industry, Science and Resources
+LRSJ Australian National University Law Reform and Social Justice
+Research Hub
+National Archives National Archives of Australia
+OECD Organisation for Economic Co-operation and Development
+PSPF Protective Security Policy Framework
+xiii
+
+List of recommendations
+Recommendation 1
+4.32 The Committee recommends that the Australian Public Service Commission
+introduces questions on the use and understanding of artificial intelligence
+and other emerging technologies into its annual APS Employee Census. This
+should be done as soon as possible in consultation with the Digital
+Transformation Agency and other entities with the relevant domain expertise.
+The following should be among the information sought by this part of the
+census:
+• the specific types and sources of the technology being used, from
+automated decision-making through to generative AI
+• activities and tasks for which these technologies are being utilised and the
+impact of this on specific decisions and actions
+• the levels and types of training that had been provided for these systems
+and the level of confidence of the respondent to effectively use them
+• the control and management of the outputs of these technologies
+• the level of understanding of the risks associated with AI-generated
+decision-making, including potential biases.
+Recommendation 2
+4.33 The Committee recommends that the Australian Government convenes a
+whole of Government working group within 12 months of this report to
+consider the following:
+• standalone legislation that will govern the use of artificial intelligence and
+other emerging technologies for the benefit of the Australian public
+• updates to the Archives Act 1983 to account for emerging technologies in
+accordance with the advice of the National Archives of Australia
+• the establishment of mandatory rules and governance requirements for the
+use of artificial intelligence and other emerging technologies across the
+Commonwealth public sector
+• all mandatory requirements to stipulate that AI systems must not be
+deployed for the surveillance of public sector staff and must establish clear
+thresholds for AI involvement in decision making processes
+xv
+• a standardised glossary of terms and definitions that will apply across
+government
+• a consistent and coordinated training framework that is mandatory for all
+Commonwealth entities
+• where the responsibility for enforcing any new legislation or mandatory
+rules should sit and the frameworks that will be used to ensure compliance
+• increased cooperation between the Australian Government and
+international partners (Allies and multilateral forums) to maximise the
+benefits of AI while mitigating risk and utilising best practice
+These frameworks must ensure any risks, including sovereign risks, and
+biases that result from the adoption of these technologies can be effectively
+mitigated. This includes inadequate datasets, biometric biases and
+inaccuracies, disinformation and propaganda, foreign and electoral
+interference, online harm, cyber-crime and copyright violations.
+Recommendation 3
+4.34 The Committee recommends that the Australian Government establishes a
+statutory Joint Committee on Artificial Intelligence and Emerging Technologies
+to provide effective and continuous Parliamentary oversight of the adoption of
+these systems across the Australian government and more widely. The Act
+that establishes this Committee should include provisions that:
+• any legislation that concerns the use of these technologies must
+automatically be referred to the Committee for inquiry
+• the committee reviews relevant legislation or regulations to ensure no
+loopholes exist in the protection of human rights, democracy and freedoms
+• the enactment or amendment of any legislative rules regarding the use of
+these technologies must be approved by the Committee
+• the implementation and amendment of any Commonwealth rules and
+guidelines regarding the use of these technologies by the public sector
+must be approved by the Committee
+• any statutory appointments that directly relate to the use of these
+technologies must be referred to the Committee for approval
+• the Committee report to the Parliament annually on the use of AI systems
+across the federal government.
+Recommendation 4
+4.35 The Committee recommends that any guidance issued by the Digital
+Transformation Agency, or any other Australian Government agency, clearly
+define all AI systems and applications. Given the significant differences
+xvi
+between some of these technologies, separate guidance should be developed
+for each.
+xvii
+
+1. Introduction
+Background to the inquiry
+1.1 On 12 September 2024, the Joint Committee of Public Accounts and Audit adopted
+an inquiry into the use and governance of artificial intelligence systems by public
+sector entities. The purpose of the inquiry was to examine the adoption and use of AI
+systems and processes by public sector entities to conduct certain functions,
+including but not limited to the delivery of services, to help achieve their objectives.
+This includes consideration of:
+• the purposes for which AI is currently being used by the public sector entity and
+whether there are planned or likely future uses
+• the existing legislative, regulatory and policy frameworks that are relevant to the
+use of AI and whether they are fit for purpose
+• whether the internal governance structures that currently exist for AI will ensure its
+ethical and responsible use by public sector entities
+• the internal framework/policies or additional controls used for assessing the risks
+associated with the use and possible misuse of AI, including the areas of security,
+privacy, ethics, bias, discrimination, transparency and accountability
+• whether there is an adequate line of sight to the output of AI, and the decisions
+made through its use
+• whether the public sector has the internal capability to effectively adopt and utilise
+AI into the future
+• whether there are sovereign capability issues to consider given that most AI tools
+currently used in Australia are sourced from overseas
+• any other related matters.
+1.2 The Australian National Audit Office (ANAO) noted in its summary of the results of
+the audit of the Consolidated Financial Statements of the Australian Government for
+2022–23 that 36 Commonwealth entities had reported the adoption of some form of
+emerging technology such as AI, but also that no supporting policies or governance
+frameworks for this had been created in most cases.1
+1.3 The Committee sought the assistance of both the ANAO and Digital Transformation
+Agency (DTA) to contact entities currently using AI for certain processes or functions.
+1 Australian National Audit Office (ANAO), Audits of the Financial Statements of Australian Government
+Entities for the Period Ended 30 June 2023, Report No. 9 2023–24, December 2023, Case study 2, hereafter
+Auditor-General Report No. 9 2023–24.
+1
+The Committee posed specific questions regarding the source of the AI technology
+being used, the specific purposes for which it had been adopted, and the regulatory
+and governance frameworks that would be used to ensure its effectiveness and to
+mitigate any potential risks to the Commonwealth. Responses were received from 40
+entities and findings from the responses are cited in this report.
+1.4 ANAO emphasised in its report that although emerging technologies have the
+potential to provide innovative approaches and improvements, there are notable risks
+involved with their use, including ‘lack of transparency, bias and discrimination,
+security and privacy concerns, legal and regulatory challenges, misinformation,
+manipulation and unintended consequences’.2
+1.5 ANAO further cites former guidance from DTA in its report, stating:
+Appropriate governance structures are critical to achieving the ethical and
+responsible use of emerging technologies. Entities governance structures should
+consider usage of the technologies, an understanding of the operation of the
+technologies and consider both business and technology perspectives.3
+1.6 An Organisation for Economic Co-operation and Development (OECD) paper on the
+use of AI by governments and their readiness for the emerging technology, published
+in June 2024, states that the strategic and responsible use of AI could potentially
+‘transform how governments function, design policies, and provide services’ but
+commented that:
+Governments have multiple roles in relation to AI, as enablers, funders,
+regulators, but also as users and in some cases as developers. While the global
+debate on AI has tended to focus on governments’ role as regulators in shaping
+and responding to the application of AI, less attention has been paid to their
+responsibilities as users of AI. As governments seize the opportunities of AI for
+better governance and deploy solutions in a broad range of policy areas, they
+recognise the need to govern AI in the public sector to prevent misuse and
+mitigate risks.4
+Existing parliamentary work
+1.7 This inquiry is one of several that have examined the use of AI in Australia.
+Four other relevant inquires have been conducted by the Parliament of Australia.
+2 ANAO, Auditor-General Report No. 9 2023–24, p. 41.
+3 ANAO, Auditor-General Report No. 9 2023–24, p. 41. Also see Digital Transformation Agency, Adoption of
+Artificial Intelligence in the Public Sector, https://architecture.digital.gov.au/adoption-artificial-intelligence-
+public-sector.
+4 Organisation for Economic Co-operation and Development (OECD), ‘Governing With Artificial Intelligence:
+Are Governments Ready?’, OECD Artificial Intelligence Papers, 2024 No. 20, p. 3,
+https://doi.org/10.1787/26324bc2-en.
+2
+• The House Standing Committee on Employment, Education and Training
+conducted an inquiry into the use of generative artificial intelligence in the
+Australian education system, the final report of which was published in
+August 2024.
+• The Senate Select Committee on Adopting Artificial Intelligence conducted an
+inquiry into adopting artificial intelligence, the final report of which was published
+in November 2024.
+• The Parliamentary Joint Committee on Intelligence and Security published its
+annual review of the administration and expenditure of six Australian intelligence
+agencies for the 2022–23 financial year in February 2025. The entities’ use of AI,
+machine learning and bio-intelligence was included as a focus area.5
+• The House Standing Committee on Employment, Education and Training
+conducted an inquiry into the digital transformation of workplaces, focusing on the
+rapid development and uptake of automated decision making and machine
+learning techniques in the workplace. The final report was published in
+February 2025.
+1.8 State parliaments in two jurisdictions have conducted inquiries into AI.
+• The South Australian Parliament’s Select Committee on Artificial Intelligence
+tabled its report into artificial intelligence in November 2023.
+• The New South Wales Parliament’s Portfolio Committee No. 1 – Premier and
+Finance tabled its report into artificial intelligence in New South Wales in
+July 2024.
+1.9 The current inquiry differs from these inquiries through its focus on AI usage in the
+Australian public sector, with a particular focus on Australian Public Service (APS)
+entities.
+Conduct of the inquiry
+1.10 The inquiry received 46 submissions (including one confidential submission) and
+11 supplementary submissions. Two submissions and 11 supplementary
+submissions contained responses to questions provided in writing by the Committee
+or taken on notice at public hearings. The Committee held two public hearings in
+Canberra and via videoconference on Friday, 15 November 2024 and Wednesday,
+4 December 2024.
+1.11 The list of submissions and supplementary submissions is at Appendix A. The public
+hearings are listed at Appendix B.
+5 Parliamentary Joint Committee on Intelligence and Security, Review of Administration and Expenditure No.
+22 (2022–23) – Australian Intelligence Agencies,
+https://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Intelligence_and_Security/AandENo22,
+viewed 5 February 2025.
+3
+Definitions
+1.12 There is currently no whole-of-Government glossary of terms covering the field of AI,
+with different definitions presented in various frameworks. DTA’s policy for the
+responsible use of AI in government recommends that entities use the definition of AI
+systems adopted by the OECD:
+An AI system is a machine-based system that, for explicit or implicit objectives,
+infers, from the input it receives, how to generate outputs such as predictions,
+content, recommendations, or decisions that can influence physical or virtual
+environments. Different AI systems vary in their levels of autonomy and
+adaptiveness after deployment.6
+1.13 Other jurisdictions have identified and defined sub-categories of AI systems. For
+example, the New South Wales Government splits AI into four subsets:
+• Generative AI, which ‘creates new content such as text, images, voice, video, and
+code by learning from data patterns’.7 Examples of generative AI include ChatGPT
+and DALL-E.
+• Machine learning, which ‘allows computers to autonomously learn and improve
+without being explicitly programmed. [Machine learning] algorithms are trained on
+data to make predictions or decisions’.8
+• Natural language processing, in which ‘algorithms are used to analyse text,
+comprehend, converse with users and perform tasks like language translation,
+sentiment analysis, and question answering’.9
+• Computer vision, in which ‘algorithms analyse images and videos for tasks like
+object detection, face recognition, and self-driving cars’.10
+1.14 Similar AI categories were referred to by DTA in its submission to this inquiry. DTA
+used information it gathered with the AI in Government Taskforce in late 2023 to
+present four categories of AI used by Australian Government entities: predictive
+analytics, natural language processing, computer vision and audio recognition, and
+generative AI.11
+1.15 Since late 2022, the rise of generative AI tools such as ChatGPT and Microsoft
+Copilot has made AI systems ubiquitous, and there has been rapid development in
+6 Organisation for Economic Co-operation and Development (OECD), ‘Explanatory memorandum on the
+updated OECD definition of an AI system’, OECD Artificial Intelligence Papers, 2024, No. 8,
+https://doi.org/10.1787/623da898-en.
+7 Digital NSW, A common understanding: simplified AI definitions from leading standards,
+https://www.digital.nsw.gov.au/policy/artificial-intelligence/a-common-understanding-simplified-ai-definitions-
+from-leading, viewed 23 October 2024, hereafter A common understanding.
+8 Digital NSW, A common understanding.
+9 Digital NSW, A common understanding.
+10 Digital NSW, A common understanding.
+11 Digital Transformation Agency (DTA), Submission 9, p. 5.
+4
+the field. However, AI systems have been in use in the public service for some time,
+as acknowledged by DTA in its submission to the inquiry. DTA commented that:
+While the use of AI in government is not new, it has traditionally been limited to
+'narrow' applications performing specific tasks within defined domains. This
+includes AI-enabled predictive analytics to identify patterns and relationships in
+large data sets.12
+International frameworks
+European Union
+1.16 The European Union Parliament approved the Artificial Intelligence Act of 2024 on
+13 March 2024. The Act regulates the adoption of AI and places different
+requirements on providers and users depending on the level of risk posed by AI
+systems. For example, some forms of AI systems such as social scoring, which
+involves ‘classifying people based on behaviour, socio-economic status or personal
+characteristics’, are considered to pose an unacceptable risk and will be banned.13
+The Act will be fully applicable in 2026, with shorter timeframes in place for some
+provisions.
+United Nations
+1.17 In late 2023, the United Nations established a High-Level Advisory Body on Artificial
+Intelligence.14 The body comprised up to 32 experts from around the world and was
+designed to gather information and provide different perspectives.
+1.18 The body’s final report, ‘Governing AI for Humanity’, was released in
+September 2024.15 The report recommends further global cooperation to fill gaps in
+governance coverage and ensure a common understanding.
+United Nations Educational, Scientific and Cultural Organisation (UNESCO)
+1.19 In November 2021, UNESCO member states including Australia adopted the
+Recommendation on the Ethics of Artificial Intelligence.16 The document articulates a
+12 DTA, Submission 9, p. 4.
+13 European Parliament, EU AI Act: first regulation on artificial intelligence, 8 June 2023,
+https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-
+intelligence, viewed 31 October 2024.
+14 United Nations Office of the Secretary-General’s Envoy on Technology, High-Level Advisory Body on
+Artificial Intelligence, https://www.un.org/techenvoy/ai-advisory-body , viewed 29 October 2024.
+15 United Nations AI Advisory Body, Governing AI for Humanity: Final Report, 19 September 2024,
+https://www.un.org/sites/un2.un.org/files/governing_ai_for_humanity_final_report_en.pdf, viewed 30 October
+2024.
+16 United Nations Educational, Scientific and Cultural Organisation (UNESCO), UNESCO adopts first global
+standard on the ethics of artificial intelligence, 8 April 2022, https://www.unesco.org/en/articles/unesco-
+adopts-first-global-standard-ethics-artificial-intelligence, viewed 30 October 2024.
+5
+series of values and principles and identifies 11 areas of policy action covering
+themes such as data policy, gender, culture, and ethical governance and
+stewardship.
+1.20 The main recommended action is for member states to establish effective measures
+to embed ethics in their use of AI, including policy frameworks, and ensure
+compliance.17
+Organisation for Economic Co-operation and Development (OECD)
+1.21 The OECD Principles on Artificial Intelligence were adopted in May 2019.18 Australia
+is an adherent. Parties adhering to the document are recommended to promote and
+implement five principles: inclusive growth, sustainable development and well-being;
+respect for the rule of law, human rights and democratic values, including fairness
+and privacy; transparency and explainability; robustness, security and safety; and
+accountability.
+Report outline
+1.22 This report is structured as follows:
+• Chapter 1 – Introduction
+• Chapter 2 – Artificial intelligence in the public sector
+• Chapter 3 – Policy and regulatory environment
+• Chapter 4 – A way forward: the Committee’s view
+1.23 Chapter 2 provides context on how AI systems are currently being used in the
+Australian public sector, with a particular focus on automated decision-making. The
+chapter will also examine the risks of AI systems and evidence presented to the
+inquiry on specific aspects of public sector capability.
+1.24 Chapter 3 describes the current policy and regulatory environment in Australia,
+including governance arrangements, relating to the public sector’s use of AI systems.
+The chapter also examines proposed approaches under development by the
+Australian Government and approaches recommended by inquiry participants.
+1.25 Chapter 4 summarises the Committee’s views on the information gathered during the
+inquiry, with recommendations intended to ensure that the public sector can make
+the best use of AI systems supported by appropriate regulation and oversight.
+17 UNESCO, Recommendation on the Ethics of Artificial Intelligence, 23 November 2021, p. 26,
+https://unesdoc.unesco.org/ark:/48223/pf0000381137, viewed 30 October 2024.
+18 OECD, Recommendation of the Council on Artificial Intelligence, 22 May 2019,
+https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449, viewed 31 October 2024.
+6
+2. Artificial intelligence in the public
+sector
+2.1 This chapter examines the evidence received by the inquiry on how Artificial
+intelligence (AI) is currently being used in the Australian public service. The following
+areas are examined:
+• examples of how AI is being used in the public service
+• risks of AI
+• areas of concern raised by inquiry participants including automated
+decision-making, record keeping and procurement
+• public service capability.
+Public service AI use
+2.2 As indicated in Chapter 1, the Committee sought additional information on public
+service entities’ use of emerging technologies as part of the Inquiry into
+Commonwealth Financial Statements 2022–23. 14 questions were sent to entities
+and responses were received from 40 entities. A summary of trends from the
+responses relating to areas covered in this chapter is included below.
+• 24 of the 40 entities advised that they are using generative AI, with three of these
+24 entities using ChatGPT in addition to or instead of Microsoft Copilot.1
+• Seven of the 40 entities advised that they had specifically blocked or restricted
+access to public generative AI tools on their networks.2
+• Eight of the 40 entities advised that some or all of their AI capabilities were
+developed in-house.3 Responses indicated that the entities retained the rights to
+the code for in-house AI capabilities.
+2.3 This section contains more detail on specific ways in which public service entities are
+using AI systems.
+1 See submissions 1.1, 5.3, 8.1, 11.1, 15.2, 17.1, 18.1, 20.2, 23.1, 24.3, 27, 28, 30, 31, 35, 36, 37, Inquiry into
+Commonwealth Financial Statements 2022–23.
+2 See submissions 11.1, 18.1, 24.3, 28, 29, Inquiry into Commonwealth Financial Statements 2022–23.
+3 See submissions 20.2, 24.3, 28, 31, 32, 35, 37, Inquiry into Commonwealth Financial Statements 2022–23.
+7
+Copilot trial
+2.4 On 16 November 2023, the Prime Minister announced that the Australian
+Government would conduct a six-month trial of Microsoft 365 Copilot (Copilot) by
+Australian Public Service (APS) entities.4 The trial ran from 1 January 2024 to
+30 June 2024. The Digital Transformation Agency (DTA) coordinated the trial and
+was supported by the AI in Government Taskforce. The trial was focused on the use
+of generative AI in the public service, as described by DTA:
+The purpose of the trial was to explore the safe, responsible, and innovative use
+of generative AI by the APS. The trial aimed to uplift capability across the APS
+and determine whether Copilot, as an example of generative AI:
+• could be implemented in a safe and responsible way across the
+government
+• posed benefits and challenges/consequences in the short and longer
+term
+• faced barriers to broader adoption that may require changes to how the
+APS delivers on its work.5
+2.5 In response to a question on notice during this inquiry, DTA provided more detail on
+the results of the trial, advising that:
+The overarching finding was a perceived improvement to efficiency and quality
+for summarising, drafting and searching for information. Agency adoption
+requires a concerted effort to address different barriers and improve usage, as
+well as the monitoring of longer-term costs and risks.6
+2.6 DTA has published the evaluation report of the Australian Government trial of
+Copilot.7 Findings are summarised in the report under four categories and key
+findings are presented below for reference:
+• Employee-related outcomes
+o One in three participants used Copilot daily.
+o 75 per cent of participants who received three or more forms of training were
+confident in using Copilot, 28 percentage points higher than participants who
+received a single form of training.
+o Microsoft Teams and Word were the most frequently used products.
+4 The Hon Anthony Albanese MP, Prime Minister, ‘Australian Government collaboration with Microsoft on
+artificial intelligence’, Media Release, 16 November 2023, https://www.pm.gov.au/media/australian-
+government-collaboration-microsoft-artificial-intelligence.
+5 Digital Transformation Agency (DTA), Evaluation of the whole of government trial of Microsoft 365 Copilot –
+Appendix A: Background, https://www.digital.gov.au/initiatives/copilot-trial/microsoft-365-copilot-evaluation-
+report-full/appendix-a, viewed 17 December 2024.
+6 DTA, Submission 9.2, response to questions on notice, question 6, p. [4].
+7 DTA, Evaluation of the whole-of-government trial of Microsoft 365 Copilot,
+https://www.digital.gov.au/initiatives/copilot-trial/microsoft-365-copilot-evaluation-report-full, viewed 17
+December 2024.
+8
+o Identifying specific use cases for Copilot may lead to increased use.
+• Productivity
+o 69 per cent of survey respondents agreed that Copilot improved the speed
+they completed tasks.
+o 61 per cent agreed that Copilot improved their work’s quality.
+o 40 per cent of survey respondents reported they could reallocate time for
+higher-level strategic and staff engagement tasks.
+o ‘Quality gains were more subdued relative to efficiency gains’.
+• Whole-of-government adoption of generative AI
+o Existing deficiencies in data security and information management may be
+magnified.
+o There are capability barriers involved such as prompt engineering and
+identifying use cases for Copilot.
+o There was a lack of clarity regarding legal areas such as disclosing the use of
+Copilot and the applicability of Freedom of Information requirements to
+verbatim meeting transcriptions generated by AI.
+• Unintended outcomes
+o Participants expressed concerns regarding how generative AI may affect APS
+jobs and skills needs; the potential misuse of cultural data; and vendor
+lock-in.8
+2.7 The trial’s evaluation report made eight recommendations grouped under three
+themes: detailed and adaptive implementation, encourage greater adoption and
+proactive risk management.
+• Agencies should consider which generative AI solution are most
+appropriate for their overall operating environment and specific use
+cases, particularly for AI Assistant Tools.
+• Agencies must configure their information systems, permissions, and
+processes to safely accommodate generative AI products.
+• Agencies should offer specialised training reflecting agency-specific use
+cases and develop general generative AI capabilities, including prompt
+training.
+• Effective change management should support the integration of
+generative AI by identifying ‘Generative AI Champions’ to highlight the
+benefits and encourage adoption.
+• The APS must provide clear guidance on using generative AI, including
+when consent and disclaimers are needed, such as in meeting
+recordings, and a clear articulation of accountabilities.
+8 DTA, Evaluation of the whole-of-government trial of Microsoft 365 Copilot – Executive Summary,
+https://www.digital.gov.au/initiatives/copilot-trial/microsoft-365-copilot-evaluation-report-full/executive-
+summary-glossary, viewed 31 January 2025.
+9
+• Agencies should conduct detailed analyses of workflows across various
+job families and classifications to identify further use cases that could
+improve generative AI adoption.
+• Agencies should share use cases in appropriate whole-of-government
+forums to facilitate the adoption of generative AI across the APS.
+• The APS should proactively monitor the impacts of generative AI,
+including its effects on the workforce, to manage current and emerging
+risks effectively.9
+2.8 DTA’s submission to this inquiry outlines the actions it is taking to implement the
+trial’s recommendations. Some of these actions include the development or piloting
+of new policies and frameworks such as the Policy for the responsible use of AI in
+government and the Australian Government AI assurance framework.10
+2.9 Regarding the future adoption of Copilot across the public service, DTA advised in its
+submission that:
+In line with DTA’s neutrality and role in managing whole-of-government digital
+procurement arrangements, the report does not endorse future adoption of
+Copilot specifically. Consistent with the trial participation conditions, agencies will
+need to undertake their own assessments as part of any future procurements to
+ensure the product meets their needs and provides value for money for their
+agency.11
+Other initiatives
+2.10 Some submitters to the inquiry noted that information is not currently available on the
+extent of AI use in the public service. For example, Dr Farida Akhtar identified an
+absence of data in this area and expressed the view that transparency with
+appropriate privacy and need-to-know safeguards could increase public trust, respect
+and inclusivity in AI adoption.12
+2.11 The Community and Public Sector Union (CPSU) also identified that there is not ‘a
+clear APS-wide picture of the extent that AI has been deployed in the Public
+Service’.13 From August to October 2024, CPSU ran a survey to gather insights from
+APS workers and 12 per cent of the respondents advised that they use AI to assist
+with their work.14
+9 DTA, Evaluation of the whole-of-government trial of Microsoft 365 Copilot -Executive summary and glossary,
+https://www.digital.gov.au/initiatives/copilot-trial/microsoft-365-copilot-evaluation-report-full/executive-
+summary-glossary, viewed 17 December 2024.
+10 DTA, Submission 9, p. 15.
+11 DTA, Submission 9, p. 16.
+12 Dr Farida Akhtar, Submission 23, p. 4
+13 Ms Rebecca Fawcett, Deputy Secretary, Community and Public Sector Union (CPSU), Committee Hansard,
+Canberra, 4 December 2024, p. 15.
+14 CPSU, Submission 25: Attachment 1, p. 2.
+10
+2.12 Examples of types of AI systems used by public sector entities and other work
+underway were provided by a number of entities participating in the inquiry.
+Australian Taxation Office (ATO)
+2.13 The ATO advised that it:
+has significant experience using AI safely and responsibly to assist in its
+administration of the tax and superannuation systems. This includes using AI to
+review large quantities of unstructured data, generate risk models to identify
+potential non-compliance, provide real time prompts to taxpayers and draft and
+edit communications.15
+Department of Finance
+2.14 The Department of Finance advised that it uses AI systems to support meeting
+administration, including minute-taking, and to reword public-facing documents into
+an easy-read format.16
+Department of Home Affairs
+2.15 The Department of Home Affairs (Home Affairs) provided two categories of AI system
+use: advanced analytics and productivity. Advanced analytics examples included:
+• predicting risk in the Visa program
+• disrupting the flow of illicit goods in international mail and cargo domain
+• identifying fraudulent documents and illicit goods using computer vision
+techniques
+• generating intelligence and investigative leads with predictive, descriptive
+and network graph analytics
+• extracting entity information from unstructured text using Natural
+Language Processing
+• disrupting fraudulent travel to Australia offshore.17
+2.16 Productivity examples provided by the department included:
+• robotic process automation solutions for processing (eg, Freedom of
+Information requests)
+• Copilot (Generative AI) trial to support office productivity, such as
+summarising meetings
+• some productivity systems include low risk AI functionality that is carefully
+governed. For example, the SmartGates used at the border to streamline
+15 Australian Taxation Office (ATO), Submission 18, p. 3
+16 Mr Patrick Roberts, Assistant Secretary, Department of Finance, Committee Hansard, Canberra, 15
+November 2024, pages 10–11.
+17 Department of Home Affairs (Home Affairs), Submission 32, p. 3.
+11
+and simplify travellers to enter Australia use a combination of AI-enabled
+matching of faces to official documentation, which is complemented by
+rules-based decision making, where anyone not automatically allowed
+through is referred to human review.18
+Australian Sports Commission
+2.17 The Australian Sports Commission advised that it developed a competition analysis
+system in partnership with Swimming Australia prior to the Tokyo 2020 Olympic and
+Paralympic Games.19 The Commission is also partnering with the Commonwealth
+Scientific and Industrial Research Organisation (CSIRO) to develop the Responsible
+AI in Sport Position Paper.20
+Australian Bureau of Statistics (ABS)
+2.18 The ABS advised that it has used AI in several areas:
+• it developed a system using machine learning technology to automate the coding
+of occupations
+• it conducted a trial using ChatGPT to suggest occupation tasks as part of its
+review of the Australian and New Zealand Standard Classification of Occupations
+• it is trialling the use of AI to convert a specific type of code from one format to
+another and is trialling AI coding assistants for application developers.21
+Department of Agriculture, Fisheries and Forestry (DAFF)
+2.19 DAFF advised that it uses AI in the following areas:
+• Natural Language Processing (NLP) to detect specific biosecurity risks
+from a limited set of imported cargo goods descriptions; and to analyse
+free text comments as part of a business quality assurance process.
+Outputs are not directly executed by software but are provided to inform
+regulatory officers of any potential biosecurity risk
+• land use maps production, undertake pattern recognition, perform
+predictive modelling to characterise farm performance and identify
+biosecurity risk. Predictive modelling techniques are expected to support
+commodity forecasting to manage biosecurity risk and understand
+changes to inform export market access.22
+18 Home Affairs, Submission 32, p. 3.
+19 Australian National Audit Office (ANAO), Submission 24.3, Inquiry into Commonwealth Financial Statements
+2022–23, p. 19.
+20 ANAO, Submission 24.3, Inquiry into Commonwealth Financial Statements 2022–23, p. 19.
+21 Australian Bureau of Statistics (ABS), Submission 2, p. 4.
+22 Department of Agriculture, Fisheries and Forestry (DAFF), Submission 5, p. 5.
+12
+Services Australia
+2.20 Services Australia advised that it is using the following types of AI systems:
+• optical character recognition to extract information written on forms and letters,
+which staff then compare to the source document
+• interactive voice response, which is used in call centres to route calls, or to
+transcribe customer calls
+• chatbots, which take the form of Digital Assistants to respond to customer
+queries.23
+Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+2.21 CSIRO, a corporate Commonwealth entity, provided information in its submission on
+its AI research and applications that it has created. An example is Spark, described
+as ‘a wildfire simulation toolkit for researchers and experts in the disaster resilience
+field which uses AI in combination with other technologies to predict the path of
+bushfires’.24
+2.22 CSIRO spoke further, at the 15 November 2024 public hearing, on the possibilities
+the organisation sees in AI, stating that:
+The excitement is around the possibility that they allow CSIRO to solve problems
+which were hitherto beyond our reach. We're seeing some evidence of that with
+our work on solar panels, for example—flexible solar panels. We hit record levels
+of efficiency of converting sun energy into electricity because that team used
+machine learning and robotics to achieve that.25
+Risks
+2.23 In its submission to the inquiry, the Australian National Audit Office (ANAO) drew
+attention to some of the risks that may be posed by the adoption of emerging
+technologies such as AI in the public service:
+Risks that could be faced by entities include a lack of transparency in decision
+making or processing, bias and discrimination, security and privacy concerns,
+legal and regulatory challenges, misinformation, manipulation and unintended
+consequences. Rapid developments and the evolving nature of emerging
+technologies, including AI, could further heighten these risks.26
+2.24 Some of these risks are examined below.
+23 Services Australia, Submission 17.1, Inquiry into Commonwealth Financial Statements 2022–23, p. 1.
+24 Commonwealth Scientific and Industrial Research Organisation (CSIRO), Submission 15, p. 5.
+25 Dr Stefan Hajkowicz, Chief Research Consultant, CSIRO, Committee Hansard, Canberra, 15 November
+2024, p. 33.
+26 ANAO, Submission 35, p. 1.
+13
+Bias
+2.25 The Australian Human Rights Commission (AHRC) has published a technical paper
+on algorithmic bias and AI and defines the term as:
+… predictions or outputs from an AI system, where those predictions or outputs
+exhibit erroneous or unjustified differential treatment between two groups. The
+differential treatment may be erroneous because of mistakes or problems in the
+AI system, or it may be unjustified because it generally raises questions of
+unfairness, disadvantage or inequality that cannot be justified in the
+circumstances.27
+2.26 DTA’s Interim guidance on government use of public generative AI tools provides
+further information on the capacity for bias to affect the outputs of generative AI tools,
+stating that:
+Generative AI tools are typically trained on broad sets of data that may contain
+bias. Bias can arise in data where it is incomplete, unrepresentative or reflects
+societal prejudices.
+Generative AI tools may reproduce biases present in the training data, which
+could lead to misleading or unfair outputs. Bias in outputs may disproportionally
+impact some groups, such as First Nations people, people with disability,
+LGBTIQ+ communities and multicultural communities.28
+2.27 The Australian Academy of Science (AAS) raised additional types of bias in its
+submission, stating that the use of AI systems ‘needs to balance the benefits to
+Australia against risks such as international biases, security, privacy, ethics, and
+accountability’.29
+2.28 A theme that emerged during the inquiry was the role that public service entities have
+in monitoring AI models and algorithms for bias. The Attorney-General’s
+Department (AGD) noted that, due to the self-learning nature of some models, bias
+could be gradually introduced, which increases the importance of monitoring outputs
+to verify and validate them.30
+2.29 The importance of continuous monitoring was also raised by AHRC, which advised
+that when managing bias:
+… it's not a set and forget. You can't deal with the problem at one point and then
+assume it won't potentially arise later on. There needs to be an approach that
+27 Australian Human Rights Commission (AHRC), Using artificial intelligence to make decisions: Addressing the
+problem of algorithmic bias, https://humanrights.gov.au/our-work/technology-and-human-
+rights/publications/technical-paper-addressing-algorithmic-bias, viewed 13 February 2025.
+28 DTA, Interim guidance on government use of public generative AI tools,
+https://architecture.digital.gov.au/guidance-generative-ai, viewed 13 February 2025.
+29 Australian Academy of Science (AAS), Submission 19, p. 1.
+30 Mr Michael Harrison, Chief Information Officer, Attorney-General’s Department (AGD), Committee Hansard,
+Canberra, 15 November 2024, p. 11.
+14
+continuously assesses potential bias and reflects on how products are performing
+and audits that performance to ensure bias doesn't creep in.31
+2.30 Infosys presented a different view on bias in its submission, emphasising the
+importance of training AI models with positive biases to reach ethical outcomes,
+stating:
+Every aspect of human life entrenches biases of various forms, many of which
+are intrinsic to good order and the basic functioning of a society. Indeed, a bias
+towards fairness over expediency would, in most societies, be considered a
+positive ethical outcome. While these propensities are not often ‘felt’ as they are
+so intrinsic to our respective cultures, they are, nonetheless, biases. AI models
+do not benefit from this moral and ethical context and cannot make such
+determinations without the human input of such positive biases through training
+or other technical measures.32
+2.31 Discussion also went to the risk of automation bias developing in the public service,
+leading to assumptions that AI systems should replace human judgement. AHRC
+commented further on this, stating that:
+…it really does highlight, again, the importance of embedding human rights
+throughout the entire life cycle of these processes and making sure that we don't
+allow automation bias to take over, where we assume that, because machines
+are more efficient and they're assumed to be more objective, they should replace
+human judgement, because there are times—particularly when decisions are
+going to have such a significant effect on individual lives—when human
+judgement is actually what's called for.33
+Data security and sovereignty
+2.32 APS entities hold a range of datasets and interact widely with individuals and
+businesses, both of which were presented by DTA as elements contributing to the
+‘unique position’ of the Australian Government in the community.34
+2.33 Inquiry participants identified data security as a key area of risk that may affect the
+public service’s use of AI systems.35 The Australian Signals Directorate (ASD), in
+response to questions on notice, noted a specific risk that ‘AI tools may challenge the
+protection of sensitive data, for example, generative AI tools that produce or
+summarise text may not guarantee data privacy if it is fed sensitive or proprietary
+data’.36
+31 Ms Lorraine Finlay, Human Rights Commissioner, AHRC, Committee Hansard, Canberra, 4 December 2024,
+p. 8.
+32 Infosys, Submission 36, p. 2.
+33 Ms Finlay, AHRC, Committee Hansard, Canberra, 4 December 2024, pages 9–10.
+34 DTA, Submission 9, p. 8.
+35 For example, see Accenture, Submission 28, p. 4.
+36 Australian Signals Directorate (ASD), Submission 45, response to questions on notice, question 6, p. [8].
+15
+2.34 Data security was also discussed in the context of many current AI systems being
+produced and operated outside of Australia, particularly large language models.
+CSIRO provided a broad overview of data sovereignty and the high-risk nature of AI
+systems dealing with sensitive data, advising that:
+Sovereign AI capability systems also encompass data security. AI systems
+vacuum-up vast quantities of data. They need this data to work, but if the data is
+sensitive, private or confidential, this can cause concerns for citizens or
+governments about whether the data is secure.
+2.35 A common recommendation from inquiry participants was for sensitive data to be
+stored and managed in Australia. For example, CSIRO commented that:
+If the models are built (trained/tuned) and operated within Australia, then data
+sovereignty is improved. It is important to address the need for data sovereignty
+and ensure Australian data is stored and processed within national borders when
+necessary (data locality).37
+2.36 The storage and management of sensitive data in Australia was also supported by
+AAS, which stated in its submission that:
+Investing in domestic data storage centres to support Australia’s AI development
+is essential to ensure sovereignty over the control of sensitive data and to
+enhance the responsible use of AI within the public sector.
+The ability to store and manage sensitive data in Australia is an important
+national security requirement, now and in the future, which needs to be tightly
+defined and minimised where possible to strike an appropriate balance between
+national security and open research collaboration.38
+Cybersecurity threats
+2.37 ASD has identified four categories of cybersecurity threats that relate to AI:
+• Threats from AI: AI can be used to enhance existing cyber threats and to
+enable new threat vectors. For example, a malicious actor could use
+generative AI to enhance spear phishing material.
+• Threats to AI: As digital systems, AI models themselves can be the target
+of cyberattacks. For example, AI used for malware classification could be
+disrupted to enable access by a malicious actor.
+• Accidental threats: AI can threaten cyber-security inadvertently. For
+example, a bug in an AI model could reveal data entered by one use to
+another.
+37 CSIRO, Submission 15, p. 8.
+38 AAS, Submission 19, p. 2.
+16
+• Threats via AI: AI models and associated datasets and files can be used
+as a vector for cyberattacks. For example, malicious code be hidden in an
+open source AI model that users then download.39
+2.38 Regarding the mitigation of AI-related cybersecurity threats, DTA advised that:
+… the draft guidance for the draft Australian Government AI Assurance
+Framework directs agencies to implement the Protective Security Policy
+Framework (PSPF) and consider the recommended mitigations contained within
+the ASD's Engaging with Artificial Intelligence guidance.40
+2.39 Home Affairs administers the PSPF and advised in response to a question on notice
+that ‘PSPF Release 2025 will specifically address the use of artificial intelligence and
+the risks it poses to the Australian Government’s security environment’.41
+Areas of stakeholder concern
+Automated decision-making
+2.40 In the Automated Decision-making Better Practice Guide, the Commonwealth
+Ombudsman defines an automated system as:
+… a computer system that automates part or all of an administrative
+decision-making process. The key feature of such systems is the use of pre-set
+logical parameters to perform actions, or make decision, without the direct
+involvement by a human being at the time of decision.42
+2.41 The guide, currently under review, outlines circumstances where automated systems
+can be used in administrative decision-making, which includes making a decision or
+a recommendation to the decision-maker.43
+2.42 The Australian Research Council Centre of Excellence for Automated
+Decision-Making and Society (ADM+S) observed that while there is not a clear
+distinction between automation and AI, ‘whether it involves AI or not, public sector
+automation can significantly affect citizen’s rights and good public sector
+39 ASD, Convoluted Layers: An Artificial Intelligence Primer, https://www.cyber.gov.au/resources-business-and-
+government/governance-and-user-education/artificial-intelligence/an-introduction-to-artificial-intelligence,
+viewed 24 January 2025.
+Also refer to Mr Alan Marjan, First Assistant Director General, ASD, Committee Hansard, Canberra, 15
+November 2024, p. 10.
+40 DTA, Submission 9.1, response to questions on notice, question 1, p. 1.
+41 Home Affairs, Submission 32.1, response to questions on notice, question 7, p. 9.
+42 Commonwealth Ombudsman, Automated Decision-making Better Practice Guide, March 2020, p. 5,
+https://www.ombudsman.gov.au/__data/assets/pdf_file/0029/288236/OMB1188-Automated-Decision-
+Making-Report_Final-A1898885.pdf, viewed 14 January 2025.
+43 Commonwealth Ombudsman, Automated Decision-making Better Practice Guide, p. 5.
+17
+administration — and in similar ways’.44 For example, ADM+S noted that, due to the
+absence or classification of relevant information regarding automated
+decision-making systems and decisions made by them, individuals may be rendered
+unable to exercise their right to request information from government entities.45
+2.43 During the inquiry, automated decision-making was often discussed with reference to
+Robodebt. While AI systems were not used in this case, inquiry participants observed
+that Robodebt demonstrates the risks of automated decision-making and its potential
+negative impact on the Australian public.46
+2.44 An area of concern among submitters to the inquiry was the increased risk posed
+when automated decision-making and AI are combined. The Commonwealth
+Ombudsman’s submission to the inquiry stated that:
+AI has the potential to significantly increase the pace of administrative decision
+making. If there are errors in these decisions, for example because the AI has
+been trained with an incorrect understanding of the law, there could be a very
+high volume of incorrect decisions made - with consequential detrimental, unfair
+and/or unlawful impacts upon people. Those decisions would need to be
+reversed, and those impacts would need to be remediated.47
+2.45 Submitters to the inquiry also noted that the use of AI may increase the level of
+difficulty involved in entities producing reasons for decisions. The NSW Council for
+Civil Liberties commented on this risk, advising that the ‘black box’ nature of AI
+systems that use machine learning and neural networks make decision-making more
+complex and opaque.48
+2.46 ATO raised a similar point in its submission, stating that ‘as AI becomes more
+powerful, the ability of humans to explain AI determinations has generally diminished,
+and ensuring there is human oversight and/or decision-making has subsequently
+become more important’.49
+2.47 Inquiry participants presented different ways to mitigate the risks presented by
+automated decision-making. For example, CPSU recommended it be mandated that
+staff employed under the Public Service Act 1999 oversee the establishment of
+parameters for automated decision-making, adding that ‘while AI processes can
+make recommendations, the final decision should always rest with an APS
+employee’.50
+44 Australian Research Council Centre of Excellence for Automated Decision-Making and Society (ADM+S),
+Submission 22, p. 6.
+45 ADM+S, Submission 22, p. 20.
+46 For example, see CPSU, Submission 25, p. 3; NSW Council for Civil Liberties, Submission 20, p. 7; ANU
+Law Reform and Social Justice Research Hub (LRSJ), Submission 31, p. [8].
+47 Commonwealth Ombudsman, Submission 24, p. 3.
+48 NSW Council for Civil Liberties, Submission 20, p. 20.
+49 ATO, Submission 18, p. 4.
+50 CPSU, Submission 25, p. 4.
+18
+2.48 AHRC spoke on various matters relating to the use of AI in automated decision
+making and emphasised the importance of having an informed human in the loop:
+Individuals also need to be made aware when a decision which affects them
+materially uses AI. This will improve transparency and allow the public to
+understand and build trust in the broader adoption of AI technologies and
+products. Where AI is used to inform a decision which affects a person, the
+decision-maker must be able to generate reasons for that decision. If the AI tool
+used to arrive at that decision is unable to do so, we simply should not be using
+that product.
+This also requires that an informed human in the loop be present. It's important to
+stress here the need for not just a human in the loop but an informed human in
+the loop—somebody who's able to understand and actively scrutinise AI informed
+outcomes and also understand the limitations of the technology that's being
+used.51
+2.49 Discussion also went to preparations that would need to be made for when the use of
+AI causes errors. In its submission, the Commonwealth Ombudsman stated that
+‘remediation can be extremely resource and time-consuming for agencies, but
+agencies that use AI will need to be willing and able to embrace the need to
+remediate’.52
+2.50 A framework for the use of automated decision-making by government entities is
+being prepared by AGD. AGD advised in response to a question on notice from the
+Committee that:
+To date, the department has undertaken consultation within government
+agencies; researched and analysed the legal, policy and technical issues; and
+commenced a public consultation process on 13 November 2024, which will
+remain open until mid-January 2025.53
+2.51 AGD further advised, at the 15 November 2024 public hearing, that the consultation
+paper on the use of automated decision-making by government is examining areas
+‘such as review pathways for those affected by decisions, transparency and
+accountability mechanisms, and safeguards to ensure the safe and responsible use
+of ADM’.54 Public consultation closed on 15 January 2025.55
+51 Ms Finlay, AHRC, Committee Hansard, Canberra, 4 December 2024, p. 6.
+52 Commonwealth Ombudsman, Submission 24, p. 3.
+53 AGD, Submission 44, p. [5].
+54 Ms Dianne Orr, Acting First Assistant Secretary, AGD, Committee Hansard, Canberra, 15 November 2024,
+pp. 5–6.
+55 AGD, Automated Decision-Making Reform, https://consultations.ag.gov.au/integrity/adm/, viewed 14 January
+2025.
+19
+Record keeping
+2.52 The National Archives of Australia (National Archives) drew attention to its role in the
+public service’s adoption of AI systems, a role that it observed is often not focused
+on.56 In its consideration of the public service’s use of AI, National Archives includes
+‘records about the selection, evaluation, use, assurance, and outputs of AI’ and
+‘records of the users of AI, and the recipients of services, advice and actions
+impacted by AI’.57
+2.53 National Archives discussed the importance of effective records management further
+in its submission, stating that:
+Records of government decisions and actions are an essential source of
+information for effective and responsive service delivery. The duty to document
+does not cease as government embraces new ways of improving service delivery
+and interacting with the community, including accessing, implementing and using
+Artificial Intelligence (AI). For transparent and accountable government, records
+of decisions, including how and through what technology those decisions were
+made, need to be made and kept. This will include keeping data on the use of AI
+and on the data an AI system or application accessed in providing input to a
+government decision and action.58
+2.54 National Archives emphasised that effective governance, practices, policies and
+standards are vital to appropriately manage AI and ensure the authenticity of its
+outputs.59 National Archives also described its expectations for public service entities,
+including that they ‘create and retain records that capture all significant advice and
+decisions that are part of the scoping, planning, execution, finalisation of AI-related
+programs and systems and any post-project review relating to use of AI’.60
+2.55 National Archives recommended that public service entities strengthen their
+information management capabilities:
+National Archives every year does a survey of Commonwealth government
+agencies around their information governance maturity, and one of the
+challenges that we get back on a regular basis from government agencies is that
+they are resource poor in the information management area. I think agencies
+need to look at bolstering information management just as they would be
+bolstering their technology area and their security area to deal with this.61
+56 Mr Simon Froude, Director-General, National Archives of Australia (National Archives), Committee Hansard,
+Canberra, 4 December 2024, p. 3.
+57 National Archives, Submission 33, p. 4.
+58 National Archives, Submission 33, p. 1.
+59 Mr Froude, National Archives, Committee Hansard, Canberra, 4 December 2024, p. 3.
+60 National Archives, Submission 33, p. 1.
+61 Mr Froude, National Archives, Committee Hansard, Canberra, 4 December 2024, p. 4.
+20
+2.56 National Archives also recommended that the Archives Act 1983 be revised ‘so there
+is no ambiguity that the definition of “records” includes those created with or by AI or
+other technologies, accompanied by a clearer requirement on agencies to make and
+keep records in the course of carrying out their activities’.62 Proposed revisions
+include changes to how records are defined to ‘align with other national and
+international archives definitions and reflect our understanding of “record” in the
+digital age in which we now work’.63
+Procurement
+2.57 The procurement of AI systems was an area of focus throughout the inquiry. National
+Archives described how the technology market is changing, stating that ‘the
+technology market is applying AI to new and upgraded systems and software’ and
+‘the uptake of AI use will increase as vendors embed systems currently used across
+government with AI enhancements and efficiencies’.64
+2.58 Inquiry participants indicated that this shift in the technology environment may have
+data security and transparency implications, with resulting impacts on governance
+and control frameworks. Interactions between providers across the AI supply chain
+were of particular focus, as will be examined below.
+2.59 DTA used Copilot as an example of a case where a company provides a product that
+makes use of an AI model owned by a third party. In this case, Microsoft provides a
+product that makes use of OpenAI’s GPT model.65 DTA commented that ‘they have
+that under a contractual arrangement that is visible to the Commonwealth, but the
+control functions around it are not’.66
+2.60 DTA further commented that ‘we have to start looking at which providers are getting
+services from other providers in this chain. We believe that's an area where there
+could be some risk, because in some of these cases we may not be informed about
+those downstream uses of AI in solutions’.67
+2.61 DTA advised that it is currently piloting an AI assurance framework that takes a
+life-cycle approach.68 In addition, the national framework for the assurance of artificial
+intelligence in government was agreed to by Commonwealth and state and territory
+data and digital ministers and released in June 2024. The framework includes a
+section on procurement providing advice and directing that ‘careful consideration
+62 National Archives, Submission 33, p. 2.
+63 National Archives, Submission 33, p. 2.
+64 National Archives, Submission 33, p. 2.
+65 Mr Chris Fechner, Chief Executive Officer, DTA, Committee Hansard, Canberra, 15 November 2024, p. 17.
+66 Mr Fechner, DTA, Committee Hansard, Canberra, 15 November 2024, p. 17.
+67 Mr Fechner, DTA, Committee Hansard, Canberra, 15 November 2024, p. 17.
+68 Mr Fechner, DTA, Committee Hansard, Canberra, 15 November 2024, p. 18.
+21
+must be applied to procurement documentation and contractual agreements when
+procuring AI systems or products’.69
+2.62 ANAO commented on the need for public service entities to proactively manage
+AI-related procurements and contracts, stating that ‘we have to hold to account those
+who we are purchasing from. We can't just set and forget, hand things over and hope
+for the best’.70
+2.63 The Department of Home Affairs (Home Affairs) indicated that there is a growing
+consensus that there are ‘certain types of use cases for AI for which we should not
+use third-party systems, where we cannot assure the entire supply chain’.71 Home
+Affairs further commented that ‘we are very focused on making sure that the entire
+data, code, usage, output and even impacts are being understood, monitored and
+assured, end to end, on anything which is high risk’.72
+Use of AI in public service recruitment
+2.64 CPSU raised concerns regarding the use of AI in public service recruitment and
+promotion processes. It referred to results from its survey of public service workers,
+in which 85 per cent of respondents were concerned about the use of AI in
+recruitment. 20 per cent stated they had participated in a public service recruitment
+process in which AI was used, and over half of the 20 per cent experienced problems
+with the process.73
+2.65 CPSU advised at the 4 December 2024 public hearing that ‘anecdotally, we are
+aware of AI programs favouring candidates who use tools such as ChatGPT to
+improve their applications, and candidates using generative AI to respond to
+questions in video interviews and other online processes’.74 CPSU also emphasised
+that ‘only humans are capable of making sure that the really important merit principle,
+which is so foundational to APS employment, is upheld’, and called for additional
+protections to prevent AI from being used to filter out candidates in APS recruitment
+processes.75
+2.66 The Australian Public Service Commission (APSC) commented on the use of AI in
+APS recruitment in its submission, stating that:
+When using AI as a part of a recruitment process, agencies must be able to
+demonstrate how the process was consistent with merit, including the
+69 Australian Government, National framework for the assurance of artificial intelligence in government, p. 10,
+https://www.finance.gov.au/sites/default/files/2024-06/National-framework-for-the-assurance-of-AI-in-
+government.pdf, viewed 22 January 2025.
+70 Ms Rona Mellor PSM, Deputy Auditor-General, ANAO, Committee Hansard, Canberra, 15 November 2024,
+p. 14.
+71 Ms Andrews, Home Affairs, Committee Hansard, Canberra, 15 November 2024, p. 4.
+72 Ms Andrews, Home Affairs, Committee Hansard, Canberra, 15 November 2024, p. 4.
+73 CPSU, Submission 25, p. 3.
+74 Ms Fawcett, CPSU, Committee Hansard, Canberra, 4 December 2024, p. 12.
+75 Ms Fawcett, CPSU, Committee Hansard, Canberra, 4 December 2024, p. 14.
+22
+effectiveness of assessing candidates for the work-related qualities genuinely
+required to perform the relevant duties.76
+2.67 APSC further commented that:
+It is important that agencies have assurance measures in place to pick up for any
+biases in AI models and uphold the integrity of processes for vulnerable and
+culturally and linguistically diverse cohorts of applicants.77
+2.68 APSC advised that the Merit Protection Commissioner has published its Guidance
+material for using AI-assisted recruitment tools, which ‘includes advice for agencies
+on considerations when deciding whether to use AI tools for recruitment’.78
+Public service capability
+Strategic guidance
+2.69 APSC supports the Australian Public Service Commissioner and operates under the
+Public Governance, Performance and Accountability Act 2013. It also manages the
+Australian Public Service Academy. APSC publishes information products that
+provide transparency on aspects of the APS and provide strategic direction to the
+sector.
+2.70 In its submission to the inquiry, APSC advised that it has supported APS AI adoption
+in the following ways:
+• hosting the AI in government fundamentals training module on its APSLearn
+platform
+• holding Mastercraft sessions on aspects of APS work that are affected by AI
+• developing the Data and Digital Professions to facilitate the development of
+technical AI skills in the APS
+• raising matters such as AI governance and its impact at forums, including the
+Secretaries Board and the APS Heads of Professions.79
+76 APSC, Submission 43, p. 2.
+77 APSC, Submission 43, p. 2.
+78 APSC, Submission 43, p. 2. See also: Merit Protection Commissioner, Guidance material for using AI-
+assisted recruitment tools, https://www.mpc.gov.au/resources/guidance/myth-busting-ai-assisted-and-
+automated-recruitment-tools, viewed 15 January 2025.
+79 Australian Public Service Commission (APSC), Submission 43, pages 1–2.
+23
+Resourcing
+2.71 CSIRO identified that certain skills will be required in Australia to effectively adopt AI,
+including data management skills, the skill to maintain hardware and train AI models,
+and the skills required to write software to use and apply the AI models.80
+2.72 APSC’s State of the Service Report 2023–24 states that 88 per cent of APS agencies
+reported skills shortages in 2024.81 The two top areas of skills shortages were ‘digital
+and information communications technology (ICT)’ and ‘data’.82 The APSC
+specifically measured skills shortages relating to AI in the two top areas for the first
+time in 2024, with the following results:
+• 37 per cent of entities who identified ‘digital and ICT’ as an area of critical skills
+shortage identified ‘AI/Machine learning software’ as a specific subset of skills
+shortage. ‘General digital literacy’ was identified by 49 per cent.83
+• 42 per cent of entities who identified ‘data’ as an area of critical skills shortage
+identified ‘AI/machine learning design and validation’ as a specific subset of skills
+shortage. ‘General data literacy’ was identified by 58 per cent.84
+2.73 The growing demand for specialist AI skills, and the challenges that may be faced by
+public service entities in meeting the demand, was raised by some entities who
+participated in the inquiry. For example, Services Australia advised in its submission
+to the inquiry that:
+For sovereign activities to be undertaken by our workforce, the ability to draw
+upon an Australian AI skilled workforce will be fundamental. Building human
+capacity in AI will be critical, as demand is already outstripping supply, and the
+need for AI specialist skills is expected to grow significantly.85
+2.74 Similarly, DTA advised that the public service will need to increase its supply of AI
+skills, stating in its submission that:
+Jobs requiring specialist AI skills are growing significantly. While AI digital
+assistant tools will be able to help APS staff by filling other skills gaps, such as
+writing code or providing specialist content, the skills required to safely build,
+implement and support these specialised AI tools are in short supply. While there
+are existing data science skillsets in specialised areas of the APS, the current
+number of APS employees with both data science and AI skills, or even specialty
+AI skills alone, appears to be low. To realise the opportunities of AI and meet
+demand, the APS will need to grow its AI skills supply.86
+80 Professor Elanor Huntington, Executive Director, CSIRO, Committee Hansard, Canberra, 15 November
+2024, p. 34
+81 APSC, State of the Service Report 2023–24, p. 77.
+82 APSC, State of the Service Report 2023–24, p. 335.
+83 APSC, State of the Service Report 2023–24, p. 337.
+84 APSC, State of the Service Report 2023–24, p. 336.
+85 Services Australia, Submission 1, p. 2.
+86 DTA, Submission 9, p. 6.
+24
+2.75 An APS Data, Digital and Cyber Workforce Plan is currently under development,
+aiming to ‘provide a call to action to attract, develop and retain data, digital, and
+cyber talent in a unified and strategic way across the APS’.87
+Training
+2.76 Many submissions to the inquiry called for increased AI-related training to ensure that
+staff are equipped with the knowledge they need to effectively and safely use
+emerging technologies.88
+2.77 In its submission to the inquiry, DTA advised that its Policy for the responsible use of
+AI in government recommends that all entities implement AI fundamentals training.89
+To assist entities in implementing this recommendation, DTA advised that it has
+developed a training module and published guidance for staff training on AI.90 DTA
+advised, in response to questions on notice, that it will measure the usage of training
+by ‘monitoring completion rates through APSLearn as well as through engagement
+with agency Accountable Officials’ and ‘does not intend to develop further AI specific
+or role-based training at this time’.91
+2.78 Home Affairs noted that training on AI can be complemented by other forms of
+training, stating that ‘data literacy and AI literacy needs to go hand in hand so we
+don't get people using AI without a good understanding of the data protection
+securities, and responsibilities and accountabilities as well’.92
+2.79 As raised earlier in this chapter, the importance of training was highlighted in DTA’s
+evaluation of the Copilot trial. The evaluation found that ‘75% of participants who
+received 3 or more forms of training were confident in their ability to use Copilot,
+28 percentage points higher than those who received one form of training’.93
+2.80 Despite this, 92 per cent of respondents to CPSU’s survey of APS employees stated
+that they had not received any training on using AI at work. In addition, only
+16 per cent answered that they feel equipped to use AI tools at work.94
+87 Australian Government, APS Data, Digital and Cyber Workforce Plan,
+https://www.dataanddigital.gov.au/plan/mission-initiatives/data-and-digital-foundations/aps-data-digital-and-
+cyber-workforce-plan, viewed 17 January 2025.
+88 For example, refer to Infosys, Submission 36, p. [4]; CPSU, Submission 25, p. 25; Australasian Institute of
+Digital Health, Submission 4, p. 5; Australian Federal Police, Submission 14, p. 1.
+89 DTA, Submission 9, p. 6.
+90 DTA, Submission 9, p. 6. The guidance is available at: DTA, Guidance for staff training on AI,
+https://www.digital.gov.au/policy/ai/staff-training, version 1.1, viewed 12 December 2024.
+91 DTA, Submission 9.2, response to questions on notice, question 7a and 7b, p. 4.
+92 Ms Andrews, Home Affairs, Committee Hansard, Canberra, 15 November 2024, p. 12.
+93 DTA, Evaluation of the whole of government trial of Microsoft 365 Copilot – Evaluation findings, methodology
+and approach, https://www.digital.gov.au/initiatives/copilot-trial/summary-evaluation-findings/cts-evaluation-
+findings, viewed 17 December 2024.
+94 CPSU, Submission 25: Attachment 1, p. 2.
+25
+
+3. Policy and regulatory
+environment
+3.1 This chapter examines the evidence received by the inquiry regarding the policy
+environment surrounding the use of Artificial Intelligence (AI) by the Australian public
+service. The following areas are examined:
+• roles and responsibilities
+• policies and regulatory frameworks
+• approaches proposed by inquiry participants.
+3.2 Policy is defined in the Australian Public Service Commission’s (APSC) Delivering
+Great Policy guide as ‘the basic agreed principles by which government is guided’.1
+The former Australian Government Guide to Regulatory Impact Analysis defines
+regulation as ‘any rule endorsed by government where there is an expectation of
+compliance’.2
+Roles and responsibilities
+3.3 The Committee received evidence through submissions and public hearings
+indicating that Australian Government AI policy is currently being led by two entities:
+• the Digital Transformation Agency (DTA)
+• the Department of Industry, Science and Resources (DISR).
+3.4 Items led by DTA that will be discussed in this chapter include:
+• the AI in Government Taskforce, which involved secondees from 11 APS entities
+and contributed to DTA’s AI work3
+• the Interim guidance on government use of public generative AI tools, which
+establishes two ‘golden rules’ for APS entities to follow when using generative AI4
+1 Australian Public Service Academy (APS Academy), Delivering Great Policy,
+https://www.apsacademy.gov.au/aps-craft/strategy-policy-evaluation/delivering-great-policy, viewed 16
+January 2025.
+2 Department of the Prime Minister and Cabinet (PM&C), Australian Government Guide to Regulatory Impact
+Analysis, second edition, March 2020, https://oia.pmc.gov.au/resources/guidance-impact-analysis/australian-
+government-guide-policy-impact-analysis, viewed 16 January 2025.
+3 Digital Transformation Agency (DTA), Submission 9.2, response to questions on notice, question 2, p. 3.
+4 DTA, Interim guidance on government use of public generative AI tools – November 2023,
+https://architecture.digital.gov.au/guidance-generative-ai, viewed 14 January 2025.
+27
+• the Policy for the responsible use of AI in government, which is mandatory for
+non-corporate Commonwealth entities and establishes two requirements relating
+to accountability and transparency5
+• the draft AI assurance framework, which is intended to provide a mechanism for
+entities to assess AI risks and document how they will use AI responsibly.6
+3.5 Items led by DISR that will be discussed in this chapter include:
+• the AI Expert Group, which advises DISR on areas such as transparency, testing
+and accountability7
+• Australia’s AI Ethics Principles, which are voluntary and contain eight elements8
+• mandatory guardrails for AI in high-risk settings, which are currently under
+consultation and are intended to ensure that AI used in high-risk settings is tested,
+transparent, and supported by accountability mechanisms.9
+Department of Industry, Science and Resources
+3.6 The purpose of DISR, as stated in its Corporate Plan 2024-28, is ‘building a better
+future for all Australians through enabling a productive, resilient and sustainable
+economy, enriched by science and technology’.10
+3.7 DISR indicated at the public hearing on 15 November 2024 that ‘the Minister for
+Industry and Science is responsible for the whole-of-economy approach to the safe
+and responsible use of artificial intelligence, taking very much a risk based
+approach’.11
+3.8 The development of mandatory guardrails for AI in high-risk settings is the key
+whole-of-economy AI project DISR is leading, and will be discussed later in this
+chapter. DISR advised in its submission that it is working with stakeholders in
+industry, academia and civil society.12 Examples of its industry-focused work include
+the National Reconstruction Fund, the AI Adopt Program, the Next Generation
+Graduates Program and the AI Sprint.13
+5 DTA, Policy for the responsible use of AI in government.
+6 DTA, DTA pilots new AI assurance framework, https://www.dta.gov.au/blogs/dta-pilots-new-ai-assurance-
+framework, viewed 9 January 2025.
+7 Department of Industry, Science and Resources (DISR), Submission 39.1, response to questions on notice,
+question 7, p. [3].
+8 DISR, Australia’s Artificial Intelligence Ethics Principles, updated 11 October 2024,
+https://www.industry.gov.au/publications/australias-artificial-intelligence-ethics-principles, viewed 24 October
+2024.
+9 DISR, Submission 39.1, response to questions on notice, question 6, p. 2.
+10 DISR, Corporate Plan 2024-28, https://www.industry.gov.au/publications/corporate-plan-2024-28.
+11 Mr Anthony Murfett, Technology and Digital Division Head, DISR, Committee Hansard, Canberra, 15
+November 2024, p. 20.
+12 DISR, Submission 39, p. 3.
+13 DISR, Submission 39, pages 6–7.
+28
+Digital Transformation Agency
+3.9 DTA is an Executive Agency that operates within the Finance Portfolio. DTA’s
+mission, as articulated in its Corporate Plan 2024–25, is to ‘provide strategic and
+policy leadership, expert investment advice and oversight to drive digital
+transformation that delivers benefits to all Australians’.14
+3.10 DTA advised that the agency’s role is ‘specifically about digital application within
+government, and the way digital application within government applies to citizens and
+businesses’.15
+3.11 DTA provided the following representation of the policies and frameworks that fall
+within its remit (Figure 3.1).
+Figure 3.1 DTA artificial intelligence policies and frameworks
+Source: DTA, Submission 9.2, p. 2.
+14 DTA, Corporate Plan 2024–25, p. 7, https://www.dta.gov.au/sites/default/files/2024-
+08/Corporate%20plan%202024-25%20FINAL.pdf.
+15 Mr Chris Fechner, Chief Executive Officer, DTA, Committee Hansard, Canberra, 15 November 2024, pages
+16–17.
+29
+Working groups
+3.12 Australian Government entities have established several working groups to provide
+further advice and conduct additional research into AI.
+AI in Government Taskforce
+3.13 The AI in Government Taskforce was established in September 2023. It comprised
+18 secondees from 11 APS entities. The taskforce was initially announced to operate
+for up to six months and concluded on 30 June 2024.16
+3.14 DTA provided the following advice on the outcomes of the taskforce:
+The AI in Government Taskforce contributed to many ongoing initiatives,
+including:
+• updating the Guidance for agency use of public generative AI tools
+• supporting the DTA on the design phase and initial implementation of the
+Microsoft 365 Copilot trial
+• supporting the development of the Policy for the responsible use of AI in
+government
+• a syllabus for the AI fundamentals training module
+• a whole-of-government survey on the use of automated decision-making
+(ADM)
+• drafting the pilot Australian Government AI assurance framework.17
+AI Expert Group
+3.15 The AI Expert Group comprises 12 appointees from the industry, academic and legal
+fields and it advises DISR.18 DISR provided more information on the group in
+response to a question on notice and stated that:
+The temporary AI Expert Group was established in January 2024. The Group has
+12 members with expertise across the fields of law, ethics, technology, industry
+and academia. The Group was established to provide advice on immediate work
+on transparency, testing and accountability including options for mandatory
+guardrails for AI in high-risk settings.19
+16 DTA, Submission 9.2, response to questions on notice, question 2, p. 3.
+17 DTA, Submission 9.2, response to questions on notice, question 2, p. 3.
+18 DISR, AI Expert Group, https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-
+intelligence/ai-expert-group, viewed 9 January 2025.
+19 DISR, Submission 39.1, response to questions on notice, question 7, p. [3].
+30
+Current policy framework
+3.16 This section describes policies that have been established since 2019 that influence
+how AI is used in the Australian public service. Activity in this area has been
+accelerating, and other frameworks are currently under development. These are
+examined later in this chapter.
+3.17 Australia does not currently have an AI Act or similar sector-wide legislative
+frameworks in place. Legislation is one of the options under consideration in the
+Australian Government’s Introducing mandatory guardrails for AI in high-risk settings:
+proposals paper.20
+Australia’s AI ethics principles
+3.18 Australia’s AI Ethics Principles, first published in November 2019, are administered
+by DISR. These voluntary principles contain eight elements:
+• human, social and environmental wellbeing
+• human-centred values
+• fairness
+• privacy protection and security
+• reliability and safety
+• transparency and explainability
+• contestability
+• accountability.21
+3.19 The Australian Research Council Centre of Excellence for Automated Decision
+Making and Society (ADM+S) raised concerns that the principles were developed
+prior to the widespread availability of generative AI and had not been reviewed as at
+September 2024.22
+20 DISR, Introducing mandatory guardrails for AI in high-risk settings: proposals paper, pages 49–51,
+https://consult.industry.gov.au/ai-mandatory-guardrails, hereafter Mandatory guardrails proposals paper.
+21 DISR, Australia’s Artificial Intelligence Ethics Principles, updated 11 October 2024,
+https://www.industry.gov.au/publications/australias-artificial-intelligence-ethics-principles, viewed 24 October
+2024.
+22 Australian Research Council Centre of Excellence for Automated Decision Making and Society (ADM+S),
+Submission 22, p. 25.
+31
+Interim guidance on government use of public generative AI tools
+3.20 DTA’s Interim guidance on government use of public generative AI tools was last
+updated in November 2023 and establishes two ‘golden rules’:23
+1 You should be able to explain, justify and take ownership of your advice and decisions.
+2 Assume any information you input into public generative AI tools could become public.
+Don't input anything that could reveal classified, personal or otherwise sensitive
+information.24
+3.21 The guidance refers to existing frameworks, including the APS Values and Australia’s
+AI Ethics Principles, and includes sample use cases.
+Policy for the responsible use of AI in government
+3.22 DTA’s Policy for the responsible use of AI in government took effect on
+1 September 2024. It is mandatory for non-corporate Commonwealth entities. The
+policy requires that entities:
+• designate accountability for implementing it to accountable officials within 90 days
+of the policy taking effect
+• make publicly available a statement outlining their approach to AI adoption and
+use (a transparency statement) within six months of the policy taking effect and
+review and update the statement annually or sooner.25
+3.23 Many APS entities who contributed to the inquiry stated that they had commenced
+work on implementing the policy, including by designating accountable officials and
+preparing transparency statements to publish by the due date.26
+3.24 While the policy is directed at non-corporate Commonwealth entities, the CSIRO (a
+corporate Commonwealth entity) advised that it sees it as good practice to adhere to
+the policy and will consider if any additional safeguards are required.27
+3.25 Inquiry participants commented on aspects of the policy, including suggested areas
+of improvement relating to transparency and alignment with existing frameworks.
+3.26 In its submission, the Australian National University Law Reform and Social Justice
+Research Hub (LRSJ) commented that the policy ‘is a good start to providing more
+transparency around the purposes for which AI is used by public service entities.
+23 DTA, Interim guidance on government use of public generative AI tools – November 2023,
+https://architecture.digital.gov.au/guidance-generative-ai, viewed 14 January 2025.
+24 DTA, Interim guidance on government use of public generative AI tools – November 2023.
+25 DTA, Policy for the responsible use of AI in government.
+26 For example, see Department of Agriculture, Fisheries and Forestry (DAFF), Submission 5, p. 4; Department
+of Employment and Workplace Relations (DEWR), Submission 7, p. 3; Department of Finance, Submission
+10, p. 3.
+27 Commonwealth Scientific and Industrial Research Organisation (CSIRO), Submission 15.1, response to
+questions on notice, question 1, p. 2.
+32
+However it does not require departments and agencies to disclose specifically which
+decisions are made by AI beyond a classification of usage patterns and domains’.28
+3.27 ADM+S stated in its submission that the policy ‘appears to be a step forward’ but
+further commented that ‘the Policy introduces a new three-part language framework
+that is not aligned with any of the Australia’s AI Ethics Principles, the National
+Framework or the proposed Mandatory Guardrails’ and ‘the policy is extraordinarily
+limited in what it requires’.29
+Entity-specific approaches
+3.28 As indicated in chapter 1, the Committee sought additional information on public
+service entities’ use of emerging technologies as part of the Inquiry into
+Commonwealth Financial Statements 2022–23. 14 questions were sent to entities
+and responses were received from 40 entities. A summary of trends from the
+responses relating to entity-specific governance arrangements is included below.
+• The entities have put in place different governance arrangements for AI. The
+majority have briefed their Audit and Risk Committees on AI use and
+development. Additional mechanisms that have been implemented include AI
+steering groups and registers of AI use.30
+• While some entities appear to be considering the risks posed by AI when
+developing internal audit work programs, none of the 40 entities had
+commissioned an internal audit on controls for AI or the adoption of AI.31
+3.29 The Department of the Prime Minister and Cabinet (PM&C) provided a copy of its
+internal Artificial Intelligence Policy, dated October 2024, to the inquiry for
+reference.32 The policy establishes a process for assessing and approving AI
+products for use in the department, and advises staff on matters to consider. The
+policy also sets up governance and oversight arrangements.
+3.30 ANAO raised the importance of public service entities establishing effective controls
+while developing and implementing their own internal policies or principles for AI
+systems, stating at the public hearing on 15 November 2024 that:
+… we've seen a lot of control weaknesses in the sector. My lesson would be—as
+you deploy these tools that have so much benefit for productivity and opportunity
+for service delivery—don't deploy them unless you've got those control
+frameworks right. Even simple things, like ASD saying it has its principles. We
+would ask: does the entity know where all of these different tools are in use in the
+28 Australian National University Law Reform and Social Justice Research Hub (LRSJ), Submission 31, pages.
+4–5.
+29 ADM+S, Submission 22, p. 24.
+30 For example, see submissions 10.1, 24.3, 27, 33, Inquiry into Commonwealth Financial Statements 2022–
+23.
+31 See submissions 1.1, 5.3, 8.1, 10.1, 11.1, 12.2, 15.2, 17.1, 18.1, 20.2, 23.1, 24.3, 24.4, 25.1, 27, 28, 29, 30,
+31, 32, 33, 34, 35, 36, 37, Inquiry into Commonwealth Financial Statements 2022–23.
+32 PM&C, Submission 42.
+33
+organisation while the thousand flowers bloom and great ideas emerge? How are
+you going to control what's actually going on in the entity and understand
+whether what you're doing is well controlled? That would be our watch point.33
+Current regulatory framework
+3.31 The use of AI by public service entities is not currently subject to regulatory
+arrangements specific to the technology. Instead, existing legislation that is format
+and technology neutral applies. Examples of this legislation include the
+Archives Act 1983 and the Privacy Act 1988. DTA advised that the Policy for the
+responsible use of AI in government ‘is designed to strengthen, not duplicate, these
+existing policies and frameworks’.34
+3.32 A number of inquiry participants raised concerns that the current arrangements do
+not allow for effective investigation, enforcement and direction. For example, ADM+S
+commented that:
+… a possible explanation for the current weakness of Commonwealth policy on
+public sector AI use is the absence of any entity within the Commonwealth
+Government with the power to impose stronger requirements around the use of
+ADM/AI, and/or the absence of willingness to use that power. The Digital
+Transformation Agency is an advisory body: it doesn’t have the power to direct
+people how to use AI. Oversight mechanisms such as the Commonwealth
+Ombudsman have power to investigate and review, but not the power to direct
+agencies in their approach to the use of AI.35
+3.33 LRSJ made similar comments, observing that
+Governance measures encourage considerations of ethics and responsible use
+but lack regulatory measures aimed at mitigating and minimising adverse
+outcomes, particularly in regards to vulnerable members of the public.36
+3.34 While policies such as the Policy for the responsible use of AI in government place
+requirements on entities, these are expected to be self-regulated and enforcement
+mechanisms have not been established. In its submission, ANAO identified areas of
+concern regarding a self-regulated approach:
+A key consideration which will arise for the public sector will be in relation to how
+assurance is obtained over the operating effectiveness and adherence to the
+policy within entities, which will be largely self regulated. The ANAO has
+previously drawn attention to weaknesses in the process for self-regulation,
+particularly in respect of compliance with the Australian Government’s Protective
+33 Ms Rona Mellor PSM, Deputy Auditor-General, Australian National Audit Office (ANAO), Committee
+Hansard, Canberra, 15 November 2024, p. 5.
+34 DTA, Submission 9.2, response to questions on notice, question 1, p. 2.
+35 ADM+S, Submission 22, p. 29.
+36 LRSJ, Submission 31, p. 9
+34
+Security Policy Framework (PSPF) relating to cyber security, including that there
+may be an optimism bias in an entity’s assessment of compliance with the
+framework. Policy owners should be cognisant of these risks when determining
+how assurance is obtained about whole-of-sector compliance or adherence to
+policy.37
+3.35 ANAO further commented at the public hearing on 15 November 2024 that:
+There's a real opportunity here as we start to embed these frameworks: how
+does the Parliament get the assurance it needs, through the whole system, rather
+than individual senators or members having to seek that one on one on one? A
+reporting framework that's got a touch of assurance in it, that makes the self-
+reporting honest, verifiable and able to be accessed by another domain of our
+democracy, which is the parliament.38
+Work underway
+Pilot AI assurance framework
+3.36 DTA has developed a draft AI assurance framework, which was piloted by Australian
+Government entities from September 2024 to November 2024.39 The framework
+involves entities completing an initial threshold assessment for AI use cases. It is
+intended to provide a mechanism for entities to assess AI risks and document how
+they are ensuring they will use AI responsibly.40
+Mandatory guardrails for AI in high-risk settings
+3.37 In September 2024, the Australian Government published the Introducing mandatory
+guardrails for AI in high-risk settings: proposals paper. Consultation on the proposed
+guardrails closed on 4 October 2024.41
+3.38 The proposed guardrails would establish the following requirements for entities
+developing or deploying high-risk AI systems:
+• establish, implement and publish an accountability process including
+governance, internal capability and a strategy for regulatory compliance
+• establish and implement a risk management process to identify and
+mitigate risks
+37 ANAO, Submission 35, p. 2.
+38 Ms Mellor, ANAO, Committee Hansard, Canberra, 15 November 2024, p. 9.
+39 DTA, Pilot AI assurance framework, https://www.digital.gov.au/policy/ai/pilot-ai-assurance-framework, viewed
+19 December 2024.
+40 DTA, DTA pilots new AI assurance framework, https://www.dta.gov.au/blogs/dta-pilots-new-ai-assurance-
+framework, viewed 9 January 2025.
+41 DISR, Introducing mandatory guardrails for AI in high-risk settings: proposals paper,
+https://consult.industry.gov.au/ai-mandatory-guardrails, viewed 11 February 2025.
+35
+• protect AI systems, and implement data governance measures to manage
+data quality and provenance
+• test AI models and systems to evaluate model performance and monitor
+the system once deployed
+• enable human control or intervention in an AI system to achieve
+meaningful human oversight
+• inform end-users regarding AI-enabled decisions, interactions with AI and
+AI-generated content
+• establish processes for people impacted by AI systems to challenge use
+or outcomes
+• be transparent with other organisations across the AI supply chain about
+data, models and systems to help them effectively address risks
+• keep and maintain records to allow third parties to assess compliance
+with guardrails
+• undertake conformity assessments to demonstrate and certify compliance
+with the guardrails.42
+3.39 DISR provided further context in response to a question on notice from the
+Committee on why the proposed guardrails are needed:
+Characteristics of AI like speed, scale and autonomy limit the ability of existing
+laws and regulatory frameworks to effectively prevent or mitigate risks. The
+guardrails outlined in the proposals paper focus on ensuring AI systems being
+developed and used by organisations in high-risk settings are being tested, are
+transparent and that there is clear accountability when things go wrong.43
+3.40 DISR linked the development of guardrails to the ongoing discussion of trust in AI,
+advising that ‘we need to make sure that there is a baseline and expectation of safety
+so that we can continue, because at the moment trust is still low’.44
+3.41 The proposals paper presents three potential regulatory models that could be used to
+enforce the mandatory guardrails:
+• Option 1: a domain specific approach – adapting existing regulatory
+frameworks to include the guardrails
+• Option 2: a framework approach – introducing framework legislation that
+will require other existing laws to be amended for the framework
+legislation to have effect
+• Option 3: a whole of economy approach – introducing a new
+cross-economy AI Act.45
+42 DISR, Mandatory guardrails proposals paper, p. 35.
+43 DISR, Submission 39.1, response to questions on notice, question 6, p. 2.
+44 Mr Murfett, DISR, Committee Hansard, Canberra, 15 November 2024, p. 22.
+45 DISR, Mandatory guardrails proposals paper, p. 46.
+36
+3.42 Responses to the proposals paper have been published on DISR’s website.46 DISR
+received ‘around 300 submissions’47 and provided early observations on the findings
+at the 15 November 2024 public hearing, stating that:
+84 per cent of respondents within industry/civil society preferred either option 2 or
+option 3 on mandatory guardrails. That included industry. It was a recognition
+that more needed to be done to set that benchmark to ensure that we've got the
+right safety mechanisms in place.48
+Proposals by inquiry participants
+Establishment of an overarching body
+3.43 One regulatory option called for by inquiry participants was the establishment of an
+overarching body with oversight of the public service’s use of AI. The proposed
+nature of this body or position differed among inquiry participants.
+3.44 The Australian Human Rights Commission (AHRC) called for the establishment of an
+independent statutory AI commissioner in its submission and in the 2021 Human
+Rights and Technology report.49 AHRC provided evidence to this inquiry in support of
+the establishment of an AI commissioner, stating:
+What an AI commissioner would potentially be able to do is to help balance out
+the need to ensure that human rights principles are front and centre while also
+recognising the innovation, productivity gains and efficiency that can be gained
+through AI. It's taking a very practical but principled approach to ensuring that we
+maintain those human rights that need to be protected without allowing that to
+mean that we just don't adopt the technology at all.50
+3.45 AHRC further commented that, in addition to providing expert advice on how to
+comply with laws and ethical standards that apply to the development and use of AI,
+the AI commissioner could play a key role in building the capacity of existing
+agencies and departments to adapt and respond to the rise of AI.51 In addition, they
+could ‘build capacity and act as a bridge between the private sector and government
+in ensuring that Australia is able to make the best use of AI and is able to achieve the
+benefits of innovation in this space’.52
+46 DISR, Introducing mandatory guardrails for AI in high-risk settings: proposals paper – Published responses,
+https://consult.industry.gov.au/ai-mandatory-guardrails/submission/list, viewed 13 January 2025.
+47 Mr Murfett, DISR, Committee Hansard, Canberra, 15 November 2024, p. 20.
+48 Mr Murfett, DISR, Committee Hansard, Canberra, 15 November 2024, p. 23.
+49 Australian Human Rights Commission (AHRC), Submission 21, pages [3]–[4]; AHRC, Final Report: Human
+Rights and Technology, p. 128, https://humanrights.gov.au/our-work/technology-and-human-
+rights/publications/final-report-human-rights-and-technology, viewed 6 February 2025.
+50 Ms Finlay, AHRC, Committee Hansard, Canberra, 4 December 2024, p. 7.
+51 AHRC, Submission 21, p. 4.
+52 AHRC, Submission 21, p. 7.
+37
+3.46 A similar recommendation was made by the NSW Council for Civil Liberties, which
+called for the establishment of an AI Safety Commissioner to ‘oversee AI regulation,
+conduct audits, and enforce compliance’.53
+3.47 Another option put forward by inquiry participants was a separate regulatory body.
+LRSJ proposed that such a body could monitor AI development and use, develop
+laws on AI regulation, and investigate unethical practice.54
+3.48 Automated decision-making, an area of concern raised by inquiry participants, was
+also the subject of governance-related recommendations. LRSJ recommended, in
+line with findings of the Royal Commission into the Robodebt Scheme, that an
+independent oversight entity be created to review automated decision-making in the
+public service.55
+3.49 The Commonwealth Ombudsman proposed the Administrative Review Council as a
+body that could take on some of the review functions for automated decision-making
+described above. The Ombudsman advised that, subject to the views of members,
+the Administrative Review Council could:
+• inquire into the availability, accessibility and effectiveness of review of
+administrative decisions made by AI
+• support education and training of government officials in relation to the
+making of administrative decisions using AI.56
+Establishment of new policies or legislation
+3.50 Another common recommendation by inquiry participants was for new policies or
+legislation regarding AI to be established. This recommendation took several forms.
+3.51 The NSW Council for Civil Liberties observed that ‘existing laws are fragmented and
+do not adequately address the risks and challenges posed by public sector use of AI’
+and called for ‘bespoke AI legislation that adopts a risk-based approach, with clear
+and proportionate obligations on entities that develop, deploy, or use AI’.57
+3.52 LRSJ recommended that laws be established to regulate AI as part of a broader
+recommendation for regulatory body to be created to monitor how APS entities
+develop and use AI systems.58 LRSJ further commented that ‘without clear consistent
+guidelines with mandatory and binding legal effects on agencies, there is risk of
+adverse outcomes’.59
+53 NSW Council for Civil Liberties, Submission 20, p. 5.
+54 LRSJ, Submission 31, p. 9.
+55 LRSJ, Submission 31, pages 8–9.
+56 Commonwealth Ombudsman, Submission 24.1, response to questions on notice, question 6, p. 5.
+57 NSW Council of Civil Liberties, Submission 20, p. 4.
+58 LRSJ, Submission 31, p. [9].
+59 LRSJ, Submission 31, p. [9].
+38
+3.53 The Tech Council of Australia called for the development of a National AI Strategy in
+its submission and advised that such a strategy would ‘support whole-of-economy
+uplift of AI adoption, investment and capability, with an emphasis on the public sector
+as an exemplar’.60 The Tech Council of Australia also called for mechanisms to be
+established for high-risk use cases, commenting that:
+As part of the National AI Strategy, an overarching legislated framework would
+address this in a more effective and usable manner than the multiplicity of
+mechanisms that currently apply to the public sector.61
+3.54 Similarly, ADM+S commented that:
+The number of often slightly different guidelines, recommendations, frameworks,
+and statements is overwhelming. A common baseline — and one markedly
+stronger than the current Commonwealth policy — is needed.62
+60 Tech Council of Australia, Submission 34, p. 7.
+61 Tech Council of Australia, Submission 34, p. 8.
+62 ADM+S, Submission 22, p. 26.
+39
+
+4. A way forward: the Committee's
+view
+The promise and the risk
+4.1 Australian Public Service (APS) entities have been using artificial intelligence (AI)
+systems, including machine learning, natural language processing and computer
+vision, for many years. However, the field is now clearly developing very rapidly and
+this is likely to continue for the foreseeable future. Generative AI is now ubiquitous,
+and it is necessary to review current policy settings to determine if they are fit for
+purpose in light of the promise, but also the risks, that the advances in this
+technology bring.
+4.2 The potential benefits of AI systems were highlighted throughout the inquiry. These
+included enhanced human decision-making, enriching data to support analyst
+workflows, detection of cyber vulnerabilities, and driving technological uplift.
+4.3 The Committee noted also the potential benefits of generative AI for efficiency and
+productivity and that these tools can assist with drafting and editing documents and
+emails, generating visually engaging presentations, summarising long and complex
+documents, conducting preliminary research, brainstorming ideas and developing
+bespoke spreadsheets for data analysis.
+4.4 The promise of generative AI systems is clear therefore but must be considered in
+parallel with the risks that it also brings.
+4.5 The Committee acknowledges that common risks associated with the use of AI
+include:
+• biometric bias and inaccuracy
+• disinformation, propaganda and foreign interference, and electoral interference
+• online harm
+• copyright violations
+• cybercrime.
+4.6 As a result, the risks posed by AI and advancements in its development and uptake
+may have considerable impacts on democracy, human rights and the rule of law.
+4.7 AI can be a valuable tool for assisting with tasks such as data analysis, identifying
+trends, and generating options. However, when decisions directly impact individuals'
+41
+lives – for example, in areas like welfare benefits, criminal justice, or immigration –
+human judgment and review are essential. These decisions often require nuanced
+understanding of individual circumstances, ethical considerations, and contextual
+factors that AI systems may not fully grasp.
+4.8 Specifically, the committee acknowledges that AI systems are currently not
+accountable to the Australian people and may have algorithmic bias which may rely
+on faulty data, contribute to human rights violations, or erroneously flag individuals.
+4.9 Evidence to the inquiry indicated that there are areas where the public service should
+not use AI. The EU AI Act for example classifies prohibits AI systems such as social
+scoring. Australia would benefit from clearly defining a similar list of prohibited AI
+systems. The Committee is also of the view that AI systems must not be used for
+surveillance purposes in the public service or elsewhere.
+4.10 Private information must also not be provided to generative AI systems where its
+security cannot be assured. The Community and Public Sector Union (CPSU) survey
+finding in this regard that only 22 per cent of respondents had been advised what
+information can and cannot be used when using public AI platforms was concerning.
+Cybersecurity is another area of significant risk for the public service, and the
+unintentional entry of sensitive information into a public generative AI system is also
+of considerable concern to the Committee.
+4.11 The Committee shares the concerns of inquiry participants regarding the potential for
+generative AI or machine learning systems to reproduce negative biases present in
+their training data. If not managed appropriately, for example, the increased pace of
+decision making brought about by AI could result in an increased number of
+decisions that do not align with administrative law requirements.
+4.12 In questioning the current uses of AI by Commonwealth entities during the inquiry,
+the Committee was cognisant of the very serious issues that arose from the
+Robodebt Royal Commission and its finding that automation and the removal of the
+human element was a key factor in the damage that this scheme caused.
+4.13 Strong evidence was presented to the Committee that the presence of an informed
+human in the loop, while not completely removing the risk of unintended
+consequences, may reduce the risks where AI is used alongside automated
+decision-making. It is therefore critical that entities document and communicate the
+reasoning behind automated decision-making, particularly if the systems used are
+powered by AI.
+4.14 The Committee noted in particular the compelling evidence presented by the National
+Archives of Australia (National Archives) urging entities to prioritise records
+management and echoes this sentiment. The Committee supports National Archives’
+calls for legislation to be updated to clarify the definition of records, and notes that
+42
+modernising the Archives Act 1983 is an action item of the Australian Government’s
+National Cultural Policy Revive: A place for every story, a story for every place.1
+4.15 The Senate Select Committee on Adopting Artificial Intelligence recently released its
+final report in which it made the following recommendations:
+• That the Australian Government implement the recommendations
+pertaining to automated decision-making in the review of the Privacy Act,
+including Proposal 19.3 to introduce a right for individuals to request
+meaningful information about how substantially automated decisions with
+legal or similarly significant effect are made.2
+• That the Australian Government implement recommendations 17.1 and
+17.2 of the Robodebt Royal Commission pertaining to the establishment
+of a consistent legal framework covering ADM [automated
+decision-making] in government services and a body to monitor such
+decisions. This process should be informed by the consultation process
+currently being led by the Attorney-General’s Department and be
+harmonious with the guardrails for high-risk uses of AI being developed
+by the Department of Industry, Science and Resources.3
+4.16 The Committee is supportive of these recommendations. The first is consistent with
+evidence to this inquiry in support of the right to know how decisions have been
+made. The second relates to the governance of automated decision-making and is
+comparable to the recommendations made by inquiry participants, including the ANU
+Law Reform and Social Justice Research Hub (LRSJ).
+Effective and coordinated governance is needed
+now
+4.17 AI and related technologies will clearly continue to undergo rapid advancement. The
+Committee’s strong view is that effective and coordinated governance frameworks
+are needed now so that the benefits of these systems can be realised, and the risks
+can be mitigated. As indicated in chapters 2 and 3, there are some excellent
+initiatives underway at key Commonwealth entities. The Committee believes however
+that the effective governance of AI needs a coordinated whole of government
+approach.
+4.18 The Committee is cognisant that not enough information is yet available on how
+many public service staff are using AI systems, or what they are using them for. The
+1 Australian Government, Revive, a place for every story, a story for every place – Australia’s cultural policy for
+the next five years, p. 77, https://www.arts.gov.au/sites/default/files/documents/national-culturalpolicy-
+8february2023.pdf, viewed 13 January 2025.
+2 Senate Select Committee on Adopting Artificial Intelligence, Final Report, November 2024, p. 140.
+3 Senate Select Committee on Adopting Artificial Intelligence, Final Report, November 2024, p. 141.
+43
+Australian Public Service Commission (APSC) is uniquely placed to gather such data
+which could then be used to inform policy development and regulation.
+4.19 There was consensus among inquiry participants that more AI training is needed at
+all levels. This will be critical to reducing the risk of AI systems being inadvertently
+misused, including situations where sensitive personal information is involved.
+4.20 The Committee acknowledges that work is underway by the Digital Transformation
+Agency (DTA) to provide public service staff with guidance on AI training but again
+notes the findings of the CPSU survey that public service staff do not feel capable of
+making the best use of emerging technologies.
+4.21 There clearly needs to a coordinated approach to AI training across the public
+service. The Committee is acutely aware in this regard that the public service is
+experiencing skills shortages in critical data and digital areas, which is of concern
+more broadly. The 2023–24 State of the Service Report indicates that 88 per cent of
+APS entities are experiencing these skills shortages. The Committee notes that the
+APSC began specifically measuring AI skill shortages as a subset of both data and
+digital areas in 2024 and urges it to continue to do so in the coming years.
+4.22 It is clear to the Committee that a strategic approach to addressing this skills
+shortage is required. To that end, it is encouraging to see that an APS Data, Digital
+and Cyber Workforce Plan is under development. However, the development of a
+strategy alone will not ensure success in this area—it is critical that any workforce
+plan is accompanied by tangible actions and clear, measurable indicators of success.
+4.23 While there has been some progress in various jurisdictions to better define AI and
+its systems, there is still a lack of standardised terms and definitions for use across
+the public service. By not adequately defining these emerging technologies, there is
+an increased risk that their use will not be transparent.
+4.24 Inquiry participants called for a glossary of terms to be developed and maintained for
+use by the public and by public service employees. The Committee supports this
+view and notes the DTA’s regular use of the Organisation for Economic Co-operation
+and Development (OECD) definition of AI as a positive step in this regard.
+4.25 Policy and regulation will have a crucial role in providing the Australian people with
+confidence that the public service is effectively using AI and managing its associated
+risks. The example set by the public service will likely be significant in shaping how
+AI systems are adopted by the broader economy. It is important that arrangements
+make it easier for entities to be transparent and provide the appropriate level of
+detail. This will assure Australians that rights such as privacy are being protected.
+4.26 Some inquiry participants commented that the current policy environment is difficult
+to understand. For example, the Tech Council of Australia noted in its submission
+that the complexity of the current settings makes them inaccessible to the majority of
+public sector personnel, and this will clearly affect the confidence levels with regard
+to the appropriate use of AI tools.
+44
+4.27 The CPSU’s survey results indicated that only 18 per cent of respondents had read
+the interim guidance on the use of generative AI tools. The Committee considers it
+essential to raise awareness of policies and frameworks relating to AI across the
+APS and notes that their ease of access and use will be a vital component of this. It
+will also be critical for them to be accurately and regularly monitored to ensure they
+are fit for purpose.
+4.28 It was encouraging that many entities are already considering their future use of AI
+and are establishing governance frameworks accordingly. The internal audit
+functions of Commonwealth agencies will have a strong role to play in these
+frameworks as will the Australian National Audit Office (ANAO) in providing
+assurance to the Parliament on the appropriate usage of these technologies.
+4.29 The safe and responsible use of AI by Commonwealth entities has been the
+Committee’s principal concern in the inquiry. Two approaches to achieving this that
+were recommended by inquiry participants were the establishment of an overarching
+body and the development of new policies or legislation.
+4.30 Noting the development by the Department of Industry, Science and Resources
+(DISR) of mandatory guardrails for AI in high-risk settings, and the pilot draft AI
+assurance framework at DTA, the Committee agrees that high level frameworks that
+apply across Government must be developed now. A patchwork approach in which
+different entities apply standards in potentially different ways and then self-regulate
+their compliance will not be sufficient and will undoubtedly lead to problems and poor
+outcomes in the future.
+4.31 This is particularly important because the way in which the public service uses AI
+systems will almost certainly have an effect on the public’s perception and levels of
+trust in government. AI use in the APS must be conducted in a way that ensures
+transparency and accountability to generate confidence and an assurance that AI
+systems are being used appropriately. The need to build this trust and confidence
+should also influence how overarching policies and frameworks for AI and related
+technologies are created and communicated to the public.
+Recommendation 1
+4.32 The Committee recommends that the Australian Public Service Commission
+introduces questions on the use and understanding of artificial intelligence
+and other emerging technologies into its annual APS Employee Census. This
+should be done as soon as possible in consultation with the Digital
+Transformation Agency and other entities with the relevant domain expertise.
+The following should be among the information sought by this part of the
+census:
+• the specific types and sources of the technology being used, from
+automated decision-making through to generative AI
+• activities and tasks for which these technologies are being utilised and the
+impact of this on specific decisions and actions
+45
+• the levels and types of training that had been provided for these systems
+and the level of confidence of the respondent to effectively use them
+• the control and management of the outputs of these technologies
+• the level of understanding of the risks associated with AI-generated
+decision-making, including potential biases.
+Recommendation 2
+4.33 The Committee recommends that the Australian Government convenes a
+whole of Government working group within 12 months of this report to
+consider the following:
+• standalone legislation that will govern the use of artificial intelligence and
+other emerging technologies for the benefit of the Australian public
+• updates to the Archives Act 1983 to account for emerging technologies in
+accordance with the advice of the National Archives of Australia
+• the establishment of mandatory rules and governance requirements for the
+use of artificial intelligence and other emerging technologies across the
+Commonwealth public sector
+• all mandatory requirements to stipulate that AI systems must not be
+deployed for the surveillance of public sector staff and must establish clear
+thresholds for AI involvement in decision making processes
+• a standardised glossary of terms and definitions that will apply across
+government
+• a consistent and coordinated training framework that is mandatory for all
+Commonwealth entities
+• where the responsibility for enforcing any new legislation or mandatory
+rules should sit and the frameworks that will be used to ensure compliance
+• increased cooperation between the Australian Government and
+international partners (Allies and multilateral forums) to maximise the
+benefits of AI while mitigating risk and utilising best practice
+These frameworks must ensure any risks, including sovereign risks, and
+biases that result from the adoption of these technologies can be effectively
+mitigated. This includes inadequate datasets, biometric biases and
+inaccuracies, disinformation and propaganda, foreign and electoral
+interference, online harm, cyber-crime and copyright violations.
+Recommendation 3
+4.34 The Committee recommends that the Australian Government establishes a
+statutory Joint Committee on Artificial Intelligence and Emerging Technologies
+to provide effective and continuous Parliamentary oversight of the adoption of
+46
+these systems across the Australian government and more widely. The Act
+that establishes this Committee should include provisions that:
+• any legislation that concerns the use of these technologies must
+automatically be referred to the Committee for inquiry
+• the committee reviews relevant legislation or regulations to ensure no
+loopholes exist in the protection of human rights, democracy and freedoms
+• the enactment or amendment of any legislative rules regarding the use of
+these technologies must be approved by the Committee
+• the implementation and amendment of any Commonwealth rules and
+guidelines regarding the use of these technologies by the public sector
+must be approved by the Committee
+• any statutory appointments that directly relate to the use of these
+technologies must be referred to the Committee for approval
+• the Committee report to the Parliament annually on the use of AI systems
+across the federal government.
+Recommendation 4
+4.35 The Committee recommends that any guidance issued by the Digital
+Transformation Agency, or any other Australian Government agency, clearly
+define all AI systems and applications. Given the significant differences
+between some of these technologies, separate guidance should be developed
+for each.
+Hon Linda Burney MP
+Chair
+28 February 2025
+47
+
+A. Submissions
+1 Services Australia
+2 Australian Bureau of Statistics
+3 Australian Communications and Media Authority
+4 Australasian Institute of Digital Health (AIDH)
+5 Department of Agriculture, Fisheries and Forestry
+6 Tax Practitioners Board
+7 Department of Employment and Workplace Relations
+8 Geoscience Australia
+9 Digital Transformation Agency
+• 9.1 Supplementary to submission 9
+• 9.2 Supplementary to submission 9
+10 Department of Finance
+• 10.1 Supplementary to submission 10
+11 Infrastructure Victoria
+12 Commonwealth Superannuation Corporation
+13 Australian Renewable Energy Agency
+14 Australian Federal Police
+15 CSIRO
+• 15.1 Supplementary to submission 15
+16 IP Australia
+17 AgriFutures Australia
+18 Australian Taxation Office
+19 Australian Academy of Science
+49
+20 NSW Council for Civil Liberties
+21 Australian Human Rights Commission
+• 21.1 Supplementary to submission 21
+22 ARC Centre of Excellence on Automated Decision-Making and Society
+23 Dr Farida Akhtar
+24 Commonwealth Ombudsman
+• 24.1 Supplementary to submission 24
+25 Community and Public Sector Union
+• 25.1 Supplementary to submission 25
+• Attachment 1
+• Attachment 2
+26 Good Things Foundation Australia
+• Attachment 1
+• Attachment 2
+• Attachment 3
+27 Workday
+• 27.1 Supplementary to submission 27
+28 Accenture
+29 Mr Jack Davenport
+30 Department of Climate Change, Energy, the Environment and Water
+31 ANU Law Reform and Social Justice Research Hub
+32 Department of Home Affairs
+• 32.1 Supplementary to submission 32
+33 National Archives of Australia
+• 33.1 Supplementary to submission 33
+34 Tech Council of Australia
+35 Australian National Audit Office
+36 Infosys
+50
+37 Australian Institute of Aboriginal and Torres Strait Islander Studies
+38 Dr Mitzi Bolton & Mr Tom Chan
+39 Department of Industry, Science and Resources
+• 39.1 Supplementary to submission 39
+40 Department of Veterans' Affairs
+41 Department of Defence
+42 Department of the Prime Minister and Cabinet
+43 Australian Public Service Commission
+44 Attorney-General's Department
+45 Australian Signals Directorate
+46 Confidential
+51
+
+B. Public hearings
+Friday 15 November 2024, Canberra
+Attorney-General's Department
+• Mr Michael Harrison, Chief Information Officer, Attorney-General's Department
+• Ms Alice Linacre, First Assistant Secretary, Courts, Tribunals and Commercial
+Division, Attorney-General's Department
+• Ms Dianne Orr, Acting First Assistant Secretary, Integrity Frameworks Division,
+Attorney-General's Department
+Australian National Audit Office
+• Dr Caralee McLiesh, PSM, Auditor-General, Australian National Audit Office
+• Ms Rona Mellor, PSM, Deputy Auditor-General, Australian National Audit Office
+• Ms Carla Jago, Acting Deputy Auditor-General, Australian National Audit Office
+• Ms Lesa Craswell, Acting Group Executive Director, Financial Statements Audit
+Services Group, Australian National Audit Office
+• Ms Xiaoyan Lu, Acting Group Executive Director, Systems Assurance and Data
+Analytics Group, Australian National Audit Office
+Australian Signals Directorate
+• Mr Taurion Gregory, First Assistant Director, General Mission Data, Australian
+Signals Directorate
+• Mr Alan Marjan, First Assistant Director General, Cyber Security Resilience
+Division, Australian Signals Directorate
+Commonwealth Ombudsman
+• Ms Sarah Bendall, Acting Commonwealth Ombudsman, Office of the
+Commonwealth Ombudsman
+• Ms Julia Galluccio, Senior Assistant Ombudsman, Office of the Commonwealth
+Ombudsman
+Commonwealth Scientific and Industrial Research Organisation
+• Professor Elanor Huntington, Executive Director; Digital, National Facilities and
+Collections, Commonwealth Scientific and Industrial Research Organisation
+53
+• Dr Stefan Hajkowicz, Chief Research Consultant, Analytics and Decision
+Sciences, Commonwealth Scientific and Industrial Research Organisation
+• Mr Tom Munyard, Chief Operations Officer, Commonwealth Scientific and
+Industrial Research Organisation
+• Ms Rebecca Ostergaard, Director, Digital Office, Commonwealth Scientific and
+Industrial Research Organisation
+Department of Finance
+• Ms Rachel Antone, First Assistant Secretary, Risk, Claims and Regulatory Reform
+Division, Commercial, Department of Finance
+• Mr Peter Qui, First Assistant Secretary, ICT Division, Business Enabling Services,
+Department of Finance
+• Mr Patrick Roberts, Assistant Secretary, Internal Services Branch, ICT Division,
+Business Enabling Services, Department of Finance
+Department of Home Affairs
+• Ms Pia Andrews, Chief Data Officer, Data and Economic Analysis Centre,
+Department of Home Affairs
+• Mr Radi Kovacevic, Acting Group Manager, Technology and Major Capability,
+Chief Operating Officer Group, Department of Home Affairs
+• Ms Steph McManus, Assistant Secretary, Immigration Network Operations and
+Governance, Department of Home Affairs
+Department of Industry, Science and Resources
+• Mr Anthony Murfett, Head, Technology and Digital Division, Department of
+Industry, Science and Resources
+• Mr Daniel Quinn, General Manager, Artificial Intelligence Policy, Department of
+Industry, Science and Resources
+Digital Transformation Agency
+• Mr Chris Fechner, Chief Executive Officer, Digital Transformation Agency
+• Ms Lucy Poole, General Manager, Digital Strategy, Planning and Performance,
+Digital Transformation Agency
+• Mr Daniel Rambaut, Director, Artificial Intelligence Policy, Digital Transformation
+Agency
+54
+Wednesday 4 December 2024, Canberra
+Australian Human Rights Commission
+• Ms Lorraine Finlay, Human Rights Commissioner, Australian Human Rights
+Commission
+Community and Public Sector Union
+• Ms Rebecca Fawcett, Deputy Secretary, PSU Group, Community and Public
+Sector Union [by video link]
+• Mr Steven McGibbony, Section Secretary, Bureau of Meteorology, PSU Group,
+Community and Public Sector Union [by video link]
+National Archives of Australia
+• Mr Simon Froude, Director-General, National Archives of Australia
+• Ms Josephine Secis, Assistant Director-General, Collection Management,
+National Archives of Australia
+• Mr Leigh Berrell, Assistant Director-General, Data and Digital, National Archives
+of Australia
+Workday
+• Ms Eunice Lim, Director, Corporate Affairs, Workday
+55

@@ -1,0 +1,3085 @@
+The Senate
+Economics References Committee
+Financial regulatory framework and home
+ownership
+November 2024
+© Commonwealth of Australia 2024
+ISBN 978-1-76093-763-8 (Printed version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by the Senate Printing Unit, Parliament House, Canberra
+Members
+Chair
+Senator Andrew Bragg LP, NSW
+Deputy Chair
+Senator Jess Walsh ALP, VIC
+Members
+Senator the Hon Matthew Canavan NATS, QLD
+Senator Dean Smith LP, WA
+Senator Jana Stewart ALP, VIC
+Substitute Members
+Senator Barbara Pocock AG, SA
+Participating Members
+Senator David Pocock IND, ACT
+Secretariat
+Sean Turner, Committee Secretary
+Patrick Hodder, Committee Secretary
+Tegan Scott, Principal Research Officer
+Jai Maybury, Research Officer
+Bryn Catlin, Administrative Officer
+PO Box 6100
+Parliament House Ph: (02) 6277 3540
+Canberra ACT 2600 Email: economics.sen@aph.gov.au
+iii
+
+Contents
+Members ............................................................................................................................................. iii
+Terms of reference ........................................................................................................................... vii
+Abbreviations and acronyms ........................................................................................................... ix
+Chair's foreword ................................................................................................................................. xi
+List of recommendations ............................................................................................................... xiii
+Chapter 1—Information on the inquiry .......................................................................................... 1
+Conduct of the inquiry ....................................................................................................................... 1
+Scope and structure of the report ..................................................................................................... 1
+Acknowledgments .............................................................................................................................. 2
+Chapter 2—The problem of home ownership and the current regulatory environment ...... 3
+Introduction to the problem ............................................................................................................... 3
+Current and historical rates of home ownership in Australia ....................................................... 5
+The deposit gap in Australia .............................................................................................................. 6
+The current mortgage market in Australia ....................................................................................... 7
+The current supply of housing loan credit ............................................................................ 8
+Australia’s current financial regulatory framework and issues raised ........................................ 8
+Legislative and regulatory developments following the GFC ........................................... 9
+Australia’s twin peaks regulatory model ............................................................................ 10
+APRA’s mandate and approach to prudential stability .................................................... 10
+APRA’s prudential standards ............................................................................................... 11
+APRA’s serviceability buffer on all new home loans ............................................. 12
+Loan to valuation ratios for home loans ................................................................... 13
+APRA’s role in specifying mortgage risk weights .................................................. 15
+ASIC’s regulatory role in home lending under the National Credit Act ........................ 18
+Responsible lending obligations ................................................................................ 19
+Next chapter ............................................................................................................................ 21
+Chapter 3—Solutions ....................................................................................................................... 23
+Need for prudential reform ............................................................................................................. 23
+Current taxation arrangements ............................................................................................ 25
+Impacts on first home buyers ............................................................................................... 26
+v
+Changes to APRA’s Mandate .......................................................................................................... 29
+Mortgage serviceability buffer ........................................................................................................ 31
+‘Mortgage prisons’....................................................................................................... 37
+Concerns raised regarding any changes to the serviceability buffer ............................... 37
+Mortgage credit risk weighting ....................................................................................................... 40
+Role of Lenders Mortgage Insurance .................................................................................. 43
+Student loan considerations ............................................................................................................ 46
+Changes to responsible lending obligations .................................................................................. 48
+Supply-side solutions ....................................................................................................................... 50
+Stamp duty and other state-based taxes ............................................................................. 53
+Different titling and ownership models ........................................................................................ 53
+Conclusion .......................................................................................................................................... 54
+Chapter 4—Committee view ........................................................................................................... 55
+Parliamentary Oversight .................................................................................................................. 55
+APRA’s mandate ............................................................................................................................... 55
+Changes to current lending rules .................................................................................................... 57
+Serviceability buffer ............................................................................................................... 57
+Capital risk weightings .......................................................................................................... 58
+Other recommendations .................................................................................................................. 59
+Government Senators' Dissenting Report.................................................................................... 61
+Australian Greens Senators' Dissenting Report ......................................................................... 65
+Appendix 1—Submissions and additional information ........................................................... 75
+Appendix 2—Public hearings and witnesses .............................................................................. 79
+vi
+Terms of reference
+Whether the present financial regulatory framework adequately prioritises the goal of
+home ownership for Australians, with particular reference to:
+(a) Australian Prudential Regulation Authority prudential standards and
+Corporations Act 2001 provisions for lending;
+(b) the nature and type of debt and equity arrangements being used to
+underpin housing development;
+(c) the appropriate involvement (if any) of corporate and institutional funds in
+the provision of housing;
+(d) the effectiveness of mechanisms to monitor investment in the residential
+property market;
+(e) the tax treatment of residential property and impacts on demand and
+house prices;
+(f) the adequacy of metrics available to policymakers for monitoring the ratio
+of new housing supply relative to population growth;
+(g) examples of effective priority treatment for aspiring Australian
+homeowners that do not compromise financial stability; and
+(h) any related matters.
+vii
+
+Abbreviations and acronyms
+ADIs Authorised deposit-taking institutions
+AFCA Australian Financial Complaints Authority
+AFIA Australian Finance Industry Association
+AHURI Australian Housing and Urban Research Institute
+APRA Australian Prudential Regulation Authority
+APG 220 Prudential Practice Guide APG 220 Credit Risk Management
+APG 223 Prudential Practice Guide APG 223 Residential Mortgage
+Lending
+APS 220 Prudential Standard APS 220 Credit Risk Management
+ASIC Australian Securities and Investment Commission
+CBA Commonwealth Bank of Australia
+COBA Customer Owned Banking Association
+the committee The Senate Economics References Committee
+FBAA Finance Brokers Association of Australasia Limited
+GFC 2008 Global Financial Crisis
+HGS Home Guarantee Scheme
+HIA Housing Industry Association
+the inquiry Inquiry into Australia’s financial regulatory framework
+and home ownership
+LMI Lenders Mortgage Insurance
+LVR Loan to value ration
+MBA Master Builders Australia
+MFAA Mortgage and Finance Association of Australia
+NAB National Australia Bank
+National Credit Act National Consumer Credit Protection Act 2009
+PCA Property Council of Australia
+RBA Reserve Bank of Australia
+RG 209 ASIC Regulatory Guide 209
+RLO Responsible Lending Obligations
+Treasury Department of the Treasury
+Westpac Westpac Banking Corporation
+ix
+
+Chair's foreword
+1.1 Home ownership is rightly called the Australian dream. It is one of the bedrock
+values of our nation’s social and economic fabric. Home ownership drives
+strong economic and social security.
+1.2 This inquiry was established by the Senate to look into the laws and regulations
+surrounding lending. Its focus was not on supply or other housing issues.
+1.3 Its focus was narrow, and purposefully so: to investigate the regulatory and
+legal framework which may be negatively affecting first homeownership in
+Australia.
+1.4 The following report is an analysis of the laws, prudential standards, and
+macroprudential policies in the current Australian system and how this has
+impacted prospective first home buyers.
+1.5 The evidence through the inquiry was clear about the negative impact being felt
+by first homebuyers from existing prudential standards. APRA’s three per cent
+mortgage serviceability buffer and current mortgage credit risk weightings were
+shown to be particularly harmful to this group.
+1.6 It is clear from the evidence received that the lending pendulum has swung
+away from first homeowners as a group, and this cohort is increasingly being
+either locked out of the housing market or only able to access it through the so-
+called ‘Bank of Mum and Dad.’
+1.7 By one measure, the Bank of Mum and Dad has become the fifth largest lender
+in Australia.1 This is particularly concerning as parental wealth should not
+determine housing outcomes.
+1.8 The process of this inquiry has shown that not enough focus has been placed on
+lending in the current policy framework. The Albanese Government has vacated
+this space in order to pursue its corporate and bureaucratic housing agenda,
+leaving first homeowners as a cohort behind.
+1.9 A table in this report, Table 3.2 produced on page 29, shows there has been no
+effort on the part of the Australian government to calibrate lending to benefit
+first homebuyers, a highly concerning state of affairs.
+1.10 The Australian dream should be achievable for all Australians, not just those
+who are lucky enough to have parental support, or those who were fortunate
+enough to get a foot on the property ladder before a certain date.
+1 Mozo, Media Release, ‘The Bank of Mum and Dad the fifth biggest lender in Australia’,
+6 September 2017, https://cdn.mozo.com.au/images/more-on-mozo/media-releases/MOZO-
+MEDIA-RELEASE-the-bank-of-mum-and-dad-final.pdf (accessed 26 November 2024).
+xi
+1.11 This report shows there is a clear need to get the dream back on track, especially
+for Millennials and Gen Z. This must be a priority of our Parliament.
+1.12 This report sets out an agenda to get lending policy working for first
+homeowners. The recommendations within it are the most practical ways to tilt
+the scales back in favour of first homeowners.
+1.13 If we get this right, implementing the recommendations of this report and lifting
+housing supply could see another 50 000 people being able to enter the housing
+market, with all the associated economic and social benefits this could bring.
+xii
+List of recommendations
+Recommendation 1
+4.7 The committee recommends that the Australian Government amend the
+Australian Prudential Regulation Authority Act 1998 to establish a statutory
+duty for the Parliamentary Joint Committee on Corporations and Financial
+Services to undertake regular scrutiny and oversight of the Australian
+Prudential Regulation Authority, broadly equivalent to the duties set out for
+that committee in relation to the Australian Securities and Investments
+Commission set out in section 243 of the Australian Securities and
+Investments Commission Act 2001.
+Recommendation 2
+4.14 The committee recommends that the Australian Government amend the
+Australian Prudential Regulation Authority Act 1998 objectives contained in
+section 8 to include the promotion of first home ownership as a subsidiary
+objective.
+Recommendation 3
+4.15 The committee recommends that the Australian Prudential Regulation
+Authority Act 1998 be amended to include specific obligations that the
+Australian Prudential Regulation Authority must have regard to the impacts
+on first home buyers when setting prudential standards.
+Recommendation 4
+4.16 The committee recommends that the Australian Government provide the
+Australian Prudential Regulation Authority with a new Statement of
+Expectations which would include a requirement to consider the long-term
+benefits of widespread home ownership – for financial, social and fiscal
+stability - when setting prudential standards.
+Recommendation 5
+4.25 The committee recommends that the Australian Government, through its
+Statement of Expectations, require the Australian Prudential Regulation
+Authority to prepare prudential guidelines for a lower first home buyer
+serviceability buffer that can be adjusted responsively to the economic cycle
+and to support financial stability settings within APRA’s prudential
+standards.
+ The prudential guidelines would be a separate and disallowable
+legislative instrument; and
+xiii
+ APRA would monitor and report on the serviceability buffer’s impact on
+first home ownership and financial stability annually.
+Recommendation 6
+4.33 The committee recommends that the Australian Government, through its
+Statement of Expectations, require the Australian Prudential Regulation
+Authority to prepare prudential guidelines allowing Authorised Deposit-
+taking Institutions to have lower capital risk weightings for first home
+mortgages where a stronger degree of risk protection exists, within APRA’s
+prudential standards.
+ The prudential guidelines would be a separate and disallowable
+legislative instrument; and
+ APRA would monitor and report annually on the impact on first
+homeowners and financial stability of enhanced flexibility around capital
+risk weightings.
+Recommendation 7
+4.36 The committee recommends that the Australian Government consults with
+Approved Deposit-taking Institutions about options for modernising the
+Banking Code of Practice to facilitate lending in co-ownership scenarios.
+xiv
+
+
+Chapter 1
+Information on the inquiry
+1.1 On 14 August 2024, the Senate referred an inquiry into Australia’s financial
+regulatory framework and home ownership (the inquiry) to the Senate
+Economics References Committee (the committee) for report by
+5 December 2024.
+1.2 As set out in the terms of reference, the inquiry considered whether the present
+financial regulatory framework adequately prioritised the goal of home
+ownership for Australians, with particular reference to:
+(a) Australian Prudential Regulation Authority (APRA) prudential standards
+and the Corporations Act 2001 provisions for lending;
+(b) the nature and type of debt and equity arrangements being used to
+underpin housing development;
+(c) the appropriate involvement (if any) of corporate and institutional funds in
+the provision of housing;
+(d) the effectiveness of mechanisms to monitor investment in the residential
+property market;
+(e) the tax treatment of residential property and impacts on demand and
+house prices;
+(f) the adequacy of metrics available to policymakers for monitoring the ratio
+of new housing supply relative to population growth;
+(g) examples of effective priority treatment for aspiring Australian
+homeowners that do not compromise financial stability; and
+(h) any related matters.
+Conduct of the inquiry
+1.3 The committee advertised the inquiry on its website and invited written
+submissions by 26 September 2024. The committee also wrote directly to
+relevant stakeholders to invite them to make a submission.
+1.4 The committee received 81 submissions and two supplementary submissions,
+as well as additional information and answers to questions on notice, as listed
+at Appendix 1.
+1.5 The committee held two public hearings in Canberra for the inquiry on 16 and
+24 October 2024. A list of all witnesses that appeared at the hearings is listed in
+Appendix 2.
+Scope and structure of the report
+1.6 The evidence received by the committee covered a range of issues relating to the
+terms of reference, including views on APRA’s prudential standards and in
+1
+2
+particular the APRA enforced three per cent serviceability buffer for home
+lending.
+1.7 Although the evidence received by the committee offered a variety of options
+for improving home ownership in Australia, this report will focus on the role of
+APRA in relation to purchasing property, in particular for first homeowners.
+1.8 The report contains four chapters:
+ Chapter 1 – outlines the scope and conduct of the inquiry;
+ Chapter 2 – considers the state of home ownership in Australia and
+provides an overview of the current regulatory environment for home
+lending in Australia;
+ Chapter 3 – considers options for increasing home ownership in Australia
+with a focus on prudential reform;
+ Chapter 4 – provides the committee’s conclusions and recommendations.
+Acknowledgments
+1.9 The committee thanks the individuals and organisations who made written
+submissions and gave evidence at the committee’s public hearings.
+Chapter 2
+The problem of home ownership and the current
+regulatory environment
+2.1 This chapter will provide a background to the issues around homeownership in
+Australia, including historical rates of homeownership and the recent decline in
+these figures, as well as the current state of the market.
+2.2 The chapter will then discuss the current financial regulatory framework for
+home ownership in Australia including:
+ developments in policy and legislation since the 2008 Global Financial Crisis
+(GFC);
+ the role of APRA, including its mandate and its role in establishing and
+enforcing prudential standards; and
+ the role of the Australian Securities and Investment Commission (ASIC),
+including its role in home lending under the National Credit Act and the
+responsible lending obligations.
+Introduction to the problem
+2.3 Broad home ownership can contribute to social equity and cohesion, financial
+security, wellbeing, and the ability to manage living costs. As a range of
+submitters to this inquiry noted, home ownership remains an important goal for
+many Australians and is significant at all stages of life, from family formation,
+across a working life and into retirement and ageing.1
+2.4 However, as the cost of housing has grown over recent decades, the path to
+home ownership has become increasingly difficult. Australian households are
+taking on greater amounts of debt to purchase more costly homes and this is
+impacting on the ownership prospects of would-be first homeowners.2
+2.5 Indeed, the June 2024 CoreLogic Report found buyers need 50.3 per cent of a
+median gross household income to service a new loan on the median dwelling
+value, well above the previous decade average of 35.2 per cent.3 Housing
+1 Australian Banking Association (ABA), Submission 30, p. 1; Property Council of Australia,
+Submission 32, p. 1; Australian Finance Industry Association (AFIA), Submission 56, p. 1; Australian
+Financial Complaints Authority (AFCA), Submission 64, p. 1; Mortgage and Finance Association of
+Australia (MFAA), Submission 52, p. 3; Helia, Submission 19, p. 1.
+2 Mr Chris Taylor, Chief of Policy, Australian Banking Association (ABA), Proof Committee Hansard,
+24 October 2024, p. 1; Mr Anthony Waldron, Chief Executive Officer, Financial Services, REA
+Group, Proof Committee Hansard, 16 October 2024, p. 14.
+3 Australian New Zealand Banking Group Ltd (ANZ), Submission 17, p. 2.
+3
+4
+affordability in 2023–24 was at the worst level on record, with the typical
+household earning $112 000 a year only able to afford 14 per cent of all homes
+in Australia.4
+2.6 In effect, mortgage availability has become heavily skewed towards high
+income earners and the wealthy.5 As a result, home ownership rates are
+declining, the share of Australians renting is increasing, and the share of
+Australians that have paid off their mortgage is falling.6
+2.7 The fall in home ownership rates has significant consequences, not least for
+retirees who do not own their own home and are required to use their retirement
+income to cover rent.7 This undermines a key assumption that underpins
+Australia’s retirement income system, namely, that most retirees will have very
+low housing costs.8 In this way and others, the decline in Australian home
+ownership is a pressing policy challenge with profound social, economic and
+intergenerational consequences.
+2.8 The increase in house prices and the decline in home ownership is a complex
+matter. The supply of housing was cited by almost all inquiry participants as a
+key issue, with the completion of 172 000 dwellings in 2023 being the lowest
+annual number in the past decade.9 Contributing factors included housing
+construction and associated structural obstacles, construction costs, and labour
+costs and shortages. Several aspects of taxation policy, immigration levels,
+zoning, demand factors, as well as broader macro-economic factors, were also
+raised.10
+2.9 Submitters also raised a range of discrete matters around the financial
+regulatory framework as having a problematic impact on the ability of first
+home buyers to enter the housing market.
+2.10 There was broad agreement amongst submitters on the need for appropriate
+safeguards against bank losses that arise if loans are made to borrowers who
+ultimately lack the capacity to fully repay them. Submitters recognised that if
+4 Mr Waldron, REA Group, Proof Committee Hansard, 16 October 2024, p. 14.
+5 Mr Jonathan Mott, Founding Partner, Barrenjoey, Proof Committee Hansard, 16 October 2024, p. 25;
+see also Mr Angus Sullivan, Group Executive, Retail Banking Services, Commonwealth Bank of
+Australia (CBA), Proof Committee Hansard, 24 October 2024, p. 24.
+6 REA Group, Submission 29, p. 2; Mr Waldron, REA Group, Proof Committee Hansard,
+16 October 2024, p. 14; The Australia Institute, Submission 8, p. 2.
+7 The Institute of Public Affairs (IPA), Submission 9, p. 3.
+8 Mr Saul Eslake, ‘Super for housing—will it help solve or exacerbate the housing affordability
+crisis?’, 19 September 2024, Additional information.
+9 National Housing Supply and Affordability Council, State of the Housing System Report, May 2024.
+10 See, for example, Property Council of Australia, Submission 32.
+5
+loan repayment failure occurs, a bank may be unable to fully meet its own credit
+obligations and, depending on that bank’s importance to the financial system
+and the economy, the government may need to intervene.11
+2.11 That being acknowledged, concerns were raised that the pursuit of an
+‘unquestionably strong’ financial system has caused the banking sector to
+‘eliminate much of the flexibility in the mortgage market that made home
+ownership accessible for households of variable credit quality’.12
+2.12 Relatedly, it was also argued that overly restrictive home lending policy settings
+unnecessarily constrain valuable economic activity such as new home building
+without yielding any compensatory gain.13
+2.13 Therefore, it is important to strike the right balance between the flow of credit
+into the economy while maintaining a stable financial system with adequate
+protections for prospective borrowers.14
+2.14 This chapter sets the context for an exploration of whether the current home
+lending policy settings administered by APRA and ASIC are unnecessarily
+restrictive. The chapter begins by summarising current and historical rates of
+home ownership, the deposit gap, the mortgage market, and the supply of
+housing loan credit in Australia.
+2.15 The rest of the chapter then sets out relevant aspects of the current financial
+regulatory framework and the issues raised by inquiry participants. The
+following chapter considers potential changes to the financial regulatory
+framework relevant to home ownership.
+Current and historical rates of home ownership in Australia
+2.16 Australian rates of home ownership have fallen significantly in the last two
+decades. Between the mid-1960s and 2000, home ownership rates were around
+70 per cent. However, that rate had fallen to 66 per cent in 2019–20.15
+11 See, for example, Master Builders Australia, Submission 33, p. 4; see also APRA, Submission 45, p. 1.
+12 Housing Industry Association, Submission 6, p. 5; see also Mirvac, Submission 44, p. 2; Mr Tim
+Reardon, Chief Economist, Housing Industry Association, Proof Committee Hansard, 16 October
+2024, p. 1.
+13 Master Builders Australia, Submission 33, p. 4; Mirvac, Submission 44, p. 2.
+14 CBA, Submission 63, p. 5; Mr Reardon, Housing Industry Association, Proof Committee Hansard,
+16 October 2024, p. 1; Mr Mott, Barrenjoey, Proof Committee Hansard, 16 October 2024, p. 25; see also
+Customer Owned Banking Association (COBA), Submission 50, p. 3.
+15 The Australia Institute, Submission 8, p. 2; MFAA, Submission 52, p. 3.
+6
+2.17 This four per cent fall in home ownership has had a substantial impact. For
+example, if home ownership rates had remained the same between 1999–2000
+and 2019–2020, an additional 430 000 households would be homeowners.16
+2.18 Nevertheless, overall home ownership rates only tell part of the story. Home
+ownership rates for younger people have fallen substantially over the last
+50 years. In 1971, the home ownership rate for 25- to 29-year-olds was 50 per
+cent, falling to 36 per cent in 2021. In 1971, the home ownership rate for 30- to
+34-year-olds was 64 per cent, falling to 50 per cent in 2021.17
+2.19 The fall in home ownership has been accompanied by an increase in the
+proportion of the population renting from 27 per cent in 1999–2000 to 31 per cent
+in 2019–20.18
+The deposit gap in Australia
+2.20 The ‘deposit gap’ refers to the rapid growth in house prices outstripping the
+ability of would-be first home buyers to save a 20 per cent deposit.
+2.21 The Customer Owned Banking Association (COBA) submitted that the deposit
+gap is now a substantial barrier to home ownership, even for Australians
+working in relatively well-paid professional jobs:
+The ability to demonstrate genuine savings and provide a significant deposit
+is an essential requirement for purchasing property in Australia, however,
+low wage growth relative to property prices combined with high rents
+which reduce the ability to save has resulted in an ever-increasing deposit
+gap for aspiring home buyers.19
+2.22 The Finance Brokers Association of Australasia Limited (FBAA) identified
+several characteristics that make it more difficult for first home buyers:
+They generally have lower deposits, having had limited opportunity to save
+or build equity from previous investments. They are typically younger and
+newer to their jobs or earlier in their careers, on lower incomes or working
+their way up the ladder.20
+2.23 Similarly, ANZ noted the June 2024 CoreLogic Report found the increase in
+house prices meant the ongoing rise in the amount required for a house deposit
+presented an additional challenge for first home buyers. The CoreLogic Report
+16 The Australia Institute, Submission 8, p. 2.
+17 AFIA, Submission 56, p. 3; see also Mr Andy Kerr, Executive, Home Ownership, National Australia
+Bank (NAB), Proof Committee Hansard, 24 October 2024, p. 11.
+18 The Australia Institute, Submission 8, p. 2.; Australian Institute of Health and Welfare (2024) “Home
+ownership and housing tenure” https://www.aihw.gov.au/reports/australias-welfare/home-
+ownership-and-housing-tenure, accessed 1 November 2024.
+19 COBA, Submission 50, p. 4.
+20 Finance Brokers Association of Australasia Limited (FBAA), Submission 61, p. 1.
+7
+estimated that, averaged nationally, it would take 10.6 years for a median gross
+income household to save a 20 per cent deposit, assuming a savings rate of
+15 per cent per year.21
+2.24 The National Australia Bank (NAB) concurred that the greatest challenge facing
+the majority of first home buyers remains the ability to save for a deposit. NAB
+cited PropTrak data released on 21 September 2024 that, averaged nationally,
+indicated it would take 5.6 years for an average-income household to save a
+20 per cent deposit on a median priced home, assuming a higher savings rate of
+20 per cent per year.22
+The current mortgage market in Australia
+2.25 In 2023, the ten largest mortgage lenders in Australia were banks, comprising
+over 92 per cent of the mortgage market. Non-bank lenders accounted for less
+than 5 per cent of the mortgage market in Australia.23
+2.26 Mr Angus Sullivan, Group Executive of Retail Banking Services at CBA, stated
+that the Commonwealth Bank Group is the largest lender to home buyers and
+first home buyers in Australia.24 CBA advised that loans to first home buyers
+comprised 9.8 per cent of total home loans in the 12 months to 30 June 2024.25
+2.27 NAB currently has over a million home loans on its books and typically issues
+around $80 to $90 billion of home loans a year, with a total book of around
+$340 billion. New home loans account for about 12 per cent of total loans.26
+2.28 ANZ provided the following information to the committee. First home buyers
+constituted 8.3 per cent of ANZ’s total pool of home loans, with an average loan
+size of $536 141 by outstanding balance as of 30 September 2024.27
+2.29 Westpac Banking Corporation (Westpac) advised that in the 12 months to
+30 June 2024, new home loans accounted for 13.5 per cent of total home loans
+with an average loan size of $492 200.28
+2.30 Mortgage brokers now dominate the distribution side of home lending,
+facilitating nearly 75 per cent of all home loans in Australia. In September 2023,
+21 Australia and New Zealand Banking Group Limited (ANZ), Submission 17, p. 2.
+22 NAB, Submission 53, p. 3.
+23 AFIA, Submission 56, p. 7.
+24 Mr Sullivan, CBA, Proof Committee Hansard, 24 October 2024, pp. 23 and 24.
+25 Commonwealth Bank of Australia, Answers to questions on notice 001, received 7 November 2024.
+26 Mr Kerr, NAB, Proof Committee Hansard, 24 October 2024, p. 11.
+27 ANZ, answers to written questions on notice, received 1 November 2024.
+28 Westpac Banking Corporation (Westpac), Answers to questions on notice, received 8 November
+2024.
+8
+there were 19 872 mortgage brokers in Australia. Between September 2022 and
+September 2023, mortgage brokers facilitated $350 billion in home lending for
+Australian borrowers.29
+2.31 Ms Anja Pannek, Chief Executive Officer at the Mortgage and Finance
+Association of Australia (MFAA), told the committee that mortgage brokers
+have improved home loan outcomes for home buyers. She argued that ‘a
+mortgage broker's ability to access dozens of lenders and hundreds of products
+drives choice and, importantly, competition in the home loan market’. She also
+argued that ‘lender net interest margins for new lending have fallen by 52 basis
+points in the past five years’ as mortgage broker market share has risen.30
+The current supply of housing loan credit
+2.32 Housing loan credit is the amount of credit extended by lenders to Australians
+seeking to purchase a home. Evidence to the committee indicated that the
+provision of housing credit is at or above the long-term average.
+2.33 For example, APRA stated that over the past year, housing credit grew by nearly
+5 per cent, which was slightly stronger than in the year prior. Furthermore, ‘new
+lending to first home buyers remains in line with its long-run average share’.31
+2.34 Mrs Therese McCarthy Hockey of APRA provided the committee with an
+overview of APRA’s mortgage lending data from August 2024:
+…banks' housing loan commitments are tracking upwards, indicating that
+credit is flowing and accessible, including to first home buyers. Housing
+credit growth has increased over the past year and is currently in line with
+long-term averages. Similarly, first home buyers, in line with the long-term
+average, have continued to account for around one in five new housing
+loans.32
+Australia’s current financial regulatory framework and issues raised
+2.35 The remainder of this chapter provides a brief overview of legislative and
+regulatory developments in the financial regulatory framework following the
+GFC. It then summarises Australia’s twin peaks regulatory model and APRA’s
+mandate.
+2.36 The following sections then cover key elements of APRA’s prudential standards
+with respect to the home loan market as well as considering the issues raised
+29 MFAA, Submission 52, pp. 3 and 6; see also Ms Anja Pannek, Chief Executive Officer, MFAA, Proof
+Committee Hansard, 16 October 2024, p. 15; Mr Mott, Barrenjoey, Proof Committee Hansard,
+16 October 2024, p. 25.
+30 Ms Anja Pannek, MFAA, Proof Committee Hansard, 16 October 2024, p. 15.
+31 APRA, Submission 45, p. 1.
+32 Mrs Therese McCarthy Hockey, Executive Board Member, Australian Prudential Regulation
+Authority, Proof Committee Hansard, 24 October 2024, p. 31.
+9
+with respect to these matters by submitters and witnesses. Issues raised include
+APRA’s serviceability buffer, loan to valuation ratios for home loans, and
+APRA’s role in specifying mortgage risk weights.
+2.37 The chapter then looks at ASIC’s role in the financial regulatory framework and
+considers the issues raised by submitters and witnesses with respect to ASIC’s
+perspective on the operation of the responsible lending obligations (RLOs).
+Legislative and regulatory developments following the GFC
+2.38 Poor lending practices in the residential mortgage sector were at the centre of
+the Global Financial Crisis (GFC). After the collapse of several major financial
+institutions in the United States and Europe, various governmental authorities
+in the United States and Europe engaged in a series of massive bail outs to
+preserve the stability of the banking sector and prevent the contagion in the
+financial sector spreading to the wider economy.33
+2.39 In Australia, government and regulators implemented a range of measures
+designed to strengthen the financial system. For example, in 2009, Parliament
+legislated the National Consumer Credit Protection Act 2009 (the National Credit
+Act). The National Credit Act includes the main regulatory framework
+governing home lending in Australia.
+2.40 A more recent amendment to the National Credit Act sets out a best interests
+duty for mortgage brokers. ASIC Regulatory Guide 273 Mortgage brokers: Best
+interests duty explains mortgage brokers are now required to act in the best
+interests of consumers when providing credit assistance. Further, if there is a
+conflict of interest when providing credit assistance, mortgage brokers are
+required to give priority to the consumer’s interests. Compliance with these
+obligations began from 1 January 2021.34
+2.41 Since the GFC, APRA has also taken measures to embed ‘unquestionably strong’
+levels of capital in the banking system, aligned with Basel III, the internationally
+agreed set of measures developed by the Basel Committee on Banking
+Supervision. These measures aimed to strengthen the regulation, supervision
+and risk management of banks. In practice, APRA requires ADIs to have
+sufficient capital ratios of at least 10.5 per cent to meet the ‘unquestionably
+strong’ benchmark.35
+33 See, for example, Housing Industry Association, Submission 6, p. 3.
+34 ASIC, Regulatory Guide 273 Mortgage brokers: Best interests duty, June 2020.
+35 APRA, APRA announces ‘unquestionably strong’ capital benchmarks, media release, 19 July 2017;
+Housing Industry Association, Submission 6, p. 3.
+10
+2.42 In sum, due to these post-GFC changes, bank mortgage lending in Australia is
+now more highly regulated.36
+Australia’s twin peaks regulatory model
+2.43 Australia’s current financial regulatory framework originated with the 1997
+Wallis Inquiry into the financial system. That inquiry set the foundation for
+Australia’s ‘twin peaks’ regulatory model consisting of two independent
+statutory bodies, APRA and ASIC.37
+2.44 Under the twin peaks regulatory model, APRA is responsible for the prudential
+supervision of financial institutions and for promoting the stability of the
+Australian financial system. ASIC is responsible for financial market conduct
+and consumer protection for financial services.38
+2.45 Authorised deposit-taking institution (ADIs) (banks) are prudentially regulated
+by APRA because they hold deposits. Non-ADI lenders do not hold deposits
+and are therefore regulated by ASIC. This division of regulatory focus is
+reflected in the way the two regulators seek to maintain sound housing lending
+standards. APRA focuses on the risk that poor lending practices could
+undermine the financial soundness of an ADI with potential impacts on the
+stability of the overall financial system. By contrast, ASIC focuses on financial
+market conduct and consumer protection.39
+APRA’s mandate and approach to prudential stability
+2.46 APRA has a mandate to supervise ADIs to protect the interests of depositors
+and promote financial stability.40
+2.47 APRA submitted that ‘financial failures and instability can result in significant
+social and economic harm’41 and that ‘credit risk—the risk of borrower being
+unable to repay outstanding debts—is the single largest source of prudential
+risk for the Australian banking system’.42
+2.48 APRA submitted that its focus on home lending reflects the concentrated
+exposure of Australia’s banking sector to residential mortgages. In recent
+decades, banks in Australia have become much more exposed to housing.
+36 See, for example, ANZ, Submission 17, p. 3.
+37 CBA, Financial System Inquiry Final Report, March 1997, https://treasury.gov.au/publication/p1996-
+fsi-fr
+38 APRA, Submission 45, p. 2.
+39 APRA, Submission 45, p. 2; see also AFIA, Submission 56, p. 5.
+40 APRA, Submission 45, p. 4.
+41 APRA, Submission 45, p. 1.
+42 APRA, Submission 45, p. 4.
+11
+Residential mortgages now constitute over 60 per cent of ADI loan portfolios, a
+concentration that is high by both historical and international standards.43
+2.49 Consequently, APRA explained that its interest in ensuring the quality of ADI
+mortgage portfolios is vital for maintaining the stability of the financial system
+because a build-up of risks in the residential mortgage portfolios of the banks
+‘can present material risks to the financial system’. APRA therefore argued that
+it is crucial ‘that housing lending practices remain prudent through the cycle,
+and that capital requirements for housing loans are commensurate with their
+risk’. 44
+APRA’s prudential standards
+2.50 The Banking Act 1959 sets out APRA’s powers to establish and enforce legally
+binding prudential standards for ADIs.45
+2.51 Prudential Standard APS 220 Credit Risk Management (APS 220) sets out the key
+requirements that APRA imposes on ADIs to manage credit risk. APS 220
+requires ADIs to:
+…have appropriate oversight and governance structures, maintain sound
+lending standards at the point of origination and actively monitor the risk
+of borrower default until the loan is repaid.
+…make a prudent assessment of a borrower’s ability to repay the housing
+loan they have applied for.46
+2.52 APRA submitted the prudential requirements for a new housing loan would
+typically involve an assessment of whether a borrower had sufficient income to
+cover repayments, building in buffers, and taking account of existing expenses
+and debt commitments.47
+2.53 APRA’s prudential standards are accompanied by prudential practice guides
+which set APRA’s expectations of sound practice. The key prudential practice
+guides for managing credit risk are:
+ Prudential Practice Guide APG 220 Credit Risk Management (APG 220); and
+ Prudential Practice Guide APG 223 Residential Mortgage Lending (APG 223).48
+2.54 APRA also has various prudential standards that set minimum capital
+requirements for credit risk:
+43 APRA, Submission 45, p. 2; see also Mr Mott, Barrenjoey, Proof Committee Hansard, 16 October 2024,
+p. 25.
+44 APRA, Submission 45, p. 1.
+45 See Banking Act 1959, sections 11AF and 11AG.
+46 APRA, Submission 45, p. 4.
+47 APRA, Submission 45, p. 5.
+48 APRA, Submission 45, p. 4.
+12
+ APS 110 Capital Adequacy;
+ APS 112 Capital Adequacy: Standardised Approach to Credit Risk; and
+ APS 113 Capital Adequacy: Internal Ratings-based Approach to Credit Risk.49
+2.55 The following sections consider some of the requirements in APRA’s prudential
+standards relevant to home lending.
+APRA’s serviceability buffer on all new home loans
+2.56 In December 2014, APRA introduced a serviceability buffer requiring lenders to
+apply a minimum buffer of 2 percentage points above the loan rate and a
+minimum interest rate floor of 7 percent regardless of product. In July 2019,
+APRA removed the minimum floor but required lenders to assess all new
+borrowers’ ability to meet their housing loan repayments against a 2.5 per cent
+buffer above the current loan product rate. In late 2021, APRA increased the
+buffer to 3 percentage points. While APRA regularly reviews the setting of the
+serviceability buffer, it has maintained it at 3 per cent since 2021.50
+2.57 APRA submitted that the 3 per cent buffer provides ‘an important contingency
+for risks over the life of the loan, by requiring borrowers to have an income
+buffer against shocks’ that include ‘rising interest rates, a reduction in
+borrowers’ income or an increase in their expenses’.51
+2.58 Mrs McCarthy Hockey of APRA expanded on this at the public hearing,
+explaining that the serviceability buffer was designed to take account of a broad
+range of unforeseen circumstances across several factors beyond just interest
+rates, including income and expenses, credit and leverage, and asset prices and
+lending standards.52
+2.59 Dr Kohler of APRA also explained that the serviceability buffer is just one of
+several tools that APRA calibrates together to ‘mitigate the vulnerabilities and
+risks’ at the system level. She also noted that APRA regularly reviews the
+appropriateness of the calibration, including whether it is working as intended,
+and whether there are any unintended consequences. Factors considered in the
+reviews include credit flows, leverage, debt levels, asset prices, lending
+conditions, and indicators of financial resilience.53
+2.60 APRA’s prudential standards also allow ADIs to consider exceptions to the
+standard serviceability test where appropriate. However, these exceptions to
+49 APRA, Submission 45, p. 6.
+50 ABA, Submission 30, pp. 5 and 11; MFAA, Submission 52, p. 12; REA Group, Submission 29, pp. 3–4;
+APRA, Submission 45, p. 5; NAB, Submission 53, p. 4.
+51 APRA, Submission 45, p. 5.
+52 Mrs McCarthy Hockey, APRA, Proof Committee Hansard, 24 October 2024, p. 34.
+53 Dr Marion Dorothea Kohler, General Manager, System Risk, APRA, Proof Committee Hansard,
+24 October 2024, p. 35.
+13
+serviceability policy currently account for less than 5 per cent of new housing
+lending (4.7 per cent of new loans funded over the June 2024 quarter).54
+2.61 Mrs McCarthy Hockey also made the point that APRA’s role is around access to
+finance as distinct from housing affordability.55
+Loan to valuation ratios for home loans
+2.62 A loan to value ratio (LVR) is the amount borrowed represented as a percentage
+of the value of the property being purchased. Loans with a LVR over 80 per cent
+of the property value are generally considered higher risk. The bigger a deposit
+a borrower has, the lower the LVR will be.
+2.63 First home buyers typically borrow a high share of the value of the property
+because of the challenges associated with accumulating a 20 per cent deposit.
+Indeed, APRA observed that over two thirds of first home buyers borrow at an
+LVR of 80 per cent or above.56
+2.64 HIA submitted that the proportion of lending to home buyers with a loan to
+valuation ratio (LVR) of over 90 per cent (that is, a deposit of less than 10 per
+cent of the property value) has fallen substantially over the last 15 years. For
+example, loans with an LVR of over 90 per cent exceeded 20 per cent of new
+lending in 2009 but accounted for just 7 per cent of new loans in 2024. Further,
+lending to buyers with an LVR between 10 and 20 per cent fell from 20 to
+15 per cent of new lending.57
+2.65 HIA also observed that tighter regulations around mortgage lending means that
+the default risk of many high LVR loans issued to first home buyers is now
+underwritten by the Australian government through the government’s Home
+Guarantee scheme.58
+2.66 APRA submitted that it has no formal limits on lending at high LVRs and
+therefore high LVR lending in Australia is ‘determined by banks’ collective risk
+appetites’.59
+2.67 However, the Australian Banking Association noted that Attachment C of
+APS 220 provides APRA with the power ‘to set limits on particular types of
+lending, including some, such as high LVR or high debt-to-income lending’.60
+54 APRA, Submission 45, p. 5; APRA, Answers to questions on notice 005, received 1 November 2024.
+55 Mrs McCarthy Hockey, APRA, Proof Committee Hansard, 24 October 2024, p. 36.
+56 APRA, Submission 45, p. 5.
+57 Housing Industry Association, Submission 6, p. 5.
+58 Housing Industry Association, Submission 6, p. 5.
+59 APRA, Submission 45, p. 5.
+60 ABA, Submission 30, p. 7.
+14
+Loan to value ratios and lenders mortgage insurance
+2.68 The Insurance Council of Australia explained that lenders mortgage insurance
+(LMI) ‘protects a lender against the risk of not recovering the outstanding loan
+balance if a borrower is unable to meet their loan payments and the property is
+sold for less than the outstanding loan balance’.61
+2.69 Helia noted that the cost of the LMI premium is typically 1 to 2 per cent of the
+total loan amount. The lender usually passes the premium cost on to the
+borrower as a fee who can usually choose to spread the cost over the life of the
+loan rather than pay it upfront.62
+2.70 To mitigate against the risk of a high LVR, lenders currently require home
+buyers with less than a 20 per cent deposit to pay LMI. Views differed on
+whether LMI inhibited or facilitated the entry of young and first home buyers
+into the housing market.
+2.71 COBA argued that LMI supports lending to first home buyers and can assist
+first home buyers with low deposits and high LVRs to enter the housing market
+‘sooner than would be possible if they needed to save for a 20 per cent deposit’.63
+2.72 COBA also pointed out that small banks ‘rely on the existence of an accessible
+and affordable LMI market to continue to provide first home buyers with high
+LVR loans while managing their own credit risk’. In contrast, COBA argued, the
+major banks have the scale and financial capacity to self-insure in the absence of
+a private LMI market.64
+2.73 The Insurance Council of Australia also argued that LMI facilitates competition
+among lenders:
+As the Productivity Commission has noted, LMI provides a way for smaller
+lenders to manage their risks and “makes them more willing to lend to
+higher-risk borrowers”, which can encourage them to “more fully compete
+in the home loan market.” Increased competition creates more loan options
+for home buyers at lower interest rates.65
+2.74 The Insurance Council of Australia also drew attention to another important
+role played by the LMI industry in protecting financial system stability by
+transferring risk outside the banking and non-bank mortgage lending sectors:
+LMI provides a significant independent layer of capital supporting credit
+risk default for home lending. Without LMI, lenders would be required to
+either carry more risk on their balance sheet or reduce their loan book. LMI
+61 The Insurance Council of Australia, Submission 5, p. 1; see also Helia, Submission 19, p. 2.
+62 Helia, Submission 19, p. 2; The Insurance Council of Australia, Submission 5, p. 1.
+63 COBA, Submission 50, p. 5; see also The Insurance Council of Australia, Submission 5, p. 1.
+64 COBA, Submission 50, p. 5.
+65 The Insurance Council of Australia, Submission 5, p. 2.
+15
+capital is available during times of increased mortgage defaults, which
+typically occurs during economic downturns. The deployment of LMI
+capital reduces losses incurred by lenders and helps to smooth the impact
+of economic cycles. This reduces losses incurred by lenders, so they remain
+strong and able to continue to provide credit during economic downturns.66
+APRA’s role in specifying mortgage risk weights
+2.75 Under its capital framework, APRA requires ADIs to maintain higher amounts
+of capital against higher risk loans. APRA submitted that higher LVR loans
+‘have historically had a higher probability of default than loans with lower
+LVRs’ and that ‘in the event of default, losses for banks are also higher, given
+that borrowers have smaller equity buffers’.67
+2.76 Mr Mott, Founding Partner of Barrenjoey, noted that the banks' capital models
+are based on a mathematical formula signed off by APRA with different
+weightings on different risk categories. He pointed out that before the 2014
+Murray financial system inquiry, banks held around 12 to 14 per cent capital.
+The Murray inquiry recommended an increase in the amount of capital the
+banks hold to a 25 per cent risk weight on average.68
+2.77 In answers to questions on notice, APRA advised that the industry average risk
+weight for mortgages is approximately 26 per cent as at June 2024. For owner
+occupiers with principal and interest loans, the average risk weight was
+approximately 23 per cent. For all other mortgages, it was approximately
+30 per cent.69
+2.78 For low-deposit loans, different risk weights are applied depending on the risk-
+mitigating strategy employed by the borrower.70 In its submission, Helia
+provided the following table showing the risk weights attached to a $600 000
+mortgage with a five per cent deposit (that is, having a 95 per cent LVR)
+depending on the low-deposit strategy used (see figure 2.1 below).
+66 The Insurance Council of Australia, Submission 5, pp. 1–2; see also Helia, Submission 19, p. 2.
+67 APRA, Submission 45, p. 6.
+68 Mr Mott, Barrenjoey, Proof Committee Hansard, 16 October 2024, pp. 28–29; see also Dr Sean
+Carmody, Executive Director, Policy and Advice, APRA, Proof Committee Hansard, 24 October 2024,
+pp. 39–40.
+69 APRA, Answers to questions on notice 004, received 1 November 2024.
+70 Helia, Submission 19, pp. [3–4].
+16
+Figure 2.1 Risk weights for $600k mortgage with different low-deposit
+strategies
+Source: Helia, Submission 19, p. [4].
+2.79 Dr Sean Carmody, Executive Director of Policy and Advice at APRA, explained
+that APS 112 and APS 113 specify the credit risk weightings, that is the capital
+requirements for different credit risks across different classes of lending.71 In
+answers to questions on notice, APRA provided an extract of a table from APS
+112 setting out the risk weights for standard residential property loans.72
+2.80 In effect, APRA’s standards set out risk weights where a given dollar of
+exposure will be weighted by a factor based on relative risk. For example,
+Dr Carmody noted that ‘mortgage lending, being a type of secured lending, is
+relatively low risk compared to credit cards, which attract higher risk weights’.73
+2.81 APRA also recognises that the government’s Home Guarantee Scheme reduces
+the risk to banks’ financial safety. APRA’s capital requirements for these loans
+are therefore ‘materially lower than for those without a guarantee. For example,
+a first home buyer that is borrowing 95 per cent of the property value would be
+treated as if it were an 80 per cent LVR, for capital purposes.’74
+2.82 In answers to questions on notice, APRA provided the following figures on the
+amount of capital allocated by banks against mortgages:
+Across the banking system, $137 billion of capital are estimated to have been
+allocated by banks against mortgages as at 30 June 2024 (estimated by pro-
+rating total capital with the share of mortgages in risk weighted assets). This
+capital should be considered relative to the total credit exposure to
+mortgages of $2.6 trillion, and includes not just minimum capital
+requirements by APRA, but also various buffers individual banks decide to
+add.75
+71 Dr Carmody, APRA, Proof Committee Hansard, 24 October 2024, p. 32.
+72 APRA, Answers to questions on notice 002, received 1 November 2024.
+73 Dr Carmody, APRA, Proof Committee Hansard, 24 October 2024, p. 32.
+74 APRA, Submission 45, p. 6.
+75 APRA, Answers to questions on notice 001, received 1 November 2024.
+17
+2.83 Dr Carmody also noted that, all else being equal, banks will, on average, apply
+higher margins to loans subject to higher risk weights ‘which ultimately is a
+pricing of risk’.76
+2.84 Mr Ben Nicholls, Executive of Portfolio Management at NAB, explained the
+mechanism behind capital risk weight models used by the bank:
+…a capital risk weight model is calculated by the loan balance multiplied by
+the probability of default—how likely that customer is to go into arrears and
+ultimately default on that loan— multiplied by the loss that we may have as
+a result of that customer going into default.77
+2.85 Mr Andy Kerr, Executive of Home Ownership at NAB, concurred that changes
+in capital ultimately flow through to pricing, driven by risk weights and final
+losses.78 He also noted that if APRA directed the banks to hold less capital
+against one class of mortgages, it would be unusual not to offset that against
+other segments of lending, potentially leading to higher prices for those
+customers.79 Mr Sullivan advised that for CBA, a change in one class of mortgage
+risk weights may not necessarily affect other classes of mortgages.80
+2.86 HIA argued that recent changes imposed by APRA have resulted in ADIs
+increasing ‘their capital as a share of total risk-weighted assets from around 10.5
+per cent to as high as 18.5 per cent’:
+The riskiness of a bank’s loan portfolio dictates the amount of capital the
+bank must hold – a riskier portfolio of assets requires a bank to hold more
+capital in reserve. Recent changes imposed by APRA mean that lending in
+segments of the market that are perceived to be risky required banks to hold
+more capital in reserve than they had in the past.81
+2.87 HIA also stated that because residential mortgages are now deemed riskier than
+prior to the GFC, mortgage lending has become more capital intensive. The
+result is that the cost of lending and borrowing has increased as lenders price-
+in these additional costs.82
+2.88 In a supplementary submission to the inquiry, Barrenjoey stated that it had run
+modelling of modest changes of risk weighting for first home buyers. This
+modelling indicated that this would lead to increased borrowing capacity for
+76 Dr Carmody, APRA, Proof Committee Hansard, 24 October 2024, p. 33.
+77 Mr Ben Nicholls, Executive, Portfolio Management, NAB, Proof Committee Hansard, 24 October 2024,
+p. 13.
+78 Mr Kerr, NAB, Proof Committee Hansard, 24 October 2024, p. 17.
+79 Mr Kerr, NAB, Proof Committee Hansard, 24 October 2024, p. 13.
+80 Mr Sullivan, CBA, Proof Committee Hansard, 24 October 2024, p. 25.
+81 See for example, Housing Industry Association, Submission 6, p. 3
+82 Housing Industry Association, Submission 6, p. 4.
+18
+first home buyers of between one and three per cent, while having a minimal
+impact on ‘the entire mortgage book, which would stay at around 25 per cent,
+consistent with the Murray Financial System Inquiry.’83
+ASIC’s regulatory role in home lending under the National Credit Act
+2.89 ASIC has responsibility for administering Schedule 1 of the National Credit Act
+which contains the National Credit Code as well as chapter 3 of the National
+Credit Act that deals with responsible lending conduct, commonly referred to
+as the responsible lending obligations (RLOs).84
+2.90 RLOs apply to all individual loan approvals and require all authorised ADIs
+and non-ADI credit providers to have an Australian credit license and comply
+with various obligations.85
+2.91 According to ASIC’s Regulatory Guide 209: Credit licencing: Responsible lending
+conduct, the main concept of the RLOs is that ‘credit licensees must not enter into
+or assist a consumer with a credit product that is unsuitable for them’.86
+2.92 While ASIC’s regulatory guides are not legally binding, ‘industry generally
+complies’ with the guidance.87 Further, AFS licensees have general obligations
+‘to provide efficient, honest and fair financial services’ and comply with any
+conditions on their licences and the Corporations Act 2001.88
+2.93 The Australian Banking Association noted that under ASIC Regulatory Guide
+209, banks are required to undertake a range of assessments to understand
+whether a consumer is suitable for credit:
+This includes the bank making reasonable inquiries about the consumer’s
+requirements, objectives and financial situation, and taking reasonable steps
+to verify the consumer’s financial situation. This includes, among other
+things, having a detailed understanding of income and outgoings to
+determine whether a consumer has the capacity to repay their debt.89
+…
+83 Barrenjoey, Submission 59.1, p. 2.
+84 ASIC, National Credit Code, National Credit Code | ASIC, (accessed 20 November 2024).
+85 ASIC, Regulatory Guide 209—Credit licencing: Responsible lending conduct, December 2019, p. 4,
+available at https://download.asic.gov.au/media/5403117/rg209-published-9-december-2019.pdf,
+(accessed 23 October 2024).
+86 ASIC, Regulatory Guide 209—Credit licencing: Responsible lending conduct, December 2019, p. 4.
+87 The Treasury, Regulation Impact Statement—Responsible lending obligations—Consumer credit reforms,
+p.3, FOI 2839 - Responsible Lending Obligations, (accessed 20 November 2024).
+88 ASIC, AFS licensee obligations, https://asic.gov.au/for-finance-professionals/afs-licensees/afs-
+licensee-obligations/, (accessed 20 November 2024).
+89 ABA, Submission 30, p. 7.
+19
+A bank must obtain information about the amount, frequency and source of
+income, and changes that are reasonably foreseeable to income, including
+enough information to understand whether the income is consistent and
+likely to remain at the same level over the period of the contract. Where there
+are foreseeable reductions to the amount or frequency of income, banks
+must gather more information to determine the potential lower amounts of
+income.90
+…
+Banks must also assess the outgoings of a borrower to understand how
+much of a person’s income is likely to be available for meeting new financial
+obligations. This includes:
+ Existing debts and liabilities, being commitments that a consumer cannot
+choose to reduce or eliminate, such as repayment obligations for other
+credit and HELP debts, including HECSHELP and FEE-HELP.
+ Essential items, such as housing, rental, food, clothing, transport, health
+and education.
+ Non-essential expenditure due to lifestyle, such as private schooling,
+insurance, memberships and subscriptions, and whether this
+expenditure can be reasonably reduced or foregone by the borrower.91
+2.94 The Australian Finance Industry Association (AFIA) also noted that lenders
+assess a borrowers' capacity to repay a loan based on the borrower's income and
+expenses, collateral such as non-financial assets and property location, capital
+such as financial assets, including a deposit, and broader market and economic
+conditions.92
+Responsible lending obligations
+2.95 There appeared to be general agreement amongst the banking, mortgage
+lending, and finance industry that the RLOs in the National Credit Act were
+scalable and principles-based, and therefore allowed a lender flexibility in their
+assessment processes so long as the lender took ‘reasonable steps’ and did not
+make unsuitable loans. It appears that most within the industry viewed the
+National Credit Act and specifically the responsible lending obligations as fit for
+purpose.93
+90 ABA, Submission 30, p. 7.
+91 ABA, Submission 30, pp. 7–8; see also NAB, Submission 53, p. 4; Housing Industry Association,
+Submission 6, p. 4.
+92 AFIA, Submission 56, p. 4; see also Housing Industry Association, Submission 6, p. 4.
+93 See, for example, MFAA, Submission 52, p. 11; Ms Pannek, MFAA, Proof Committee Hansard,
+16 October 2024, p. 16; AFIA, Submission 56, p. 9; Mr Taylor, ABA, Proof Committee Hansard,
+24 October 2024, pp. 2 and 3; Mr Paul Deall, Head, Risk, Mortgages and Consumer Credit, Westpac,
+Proof Committee Hansard, 24 October 2024, p. 8.
+20
+2.96 For example, the MFAA considered the RLOs approach to be non-prescriptive
+and scalable as it:
+…allows lenders and mortgage brokers to tailor their policies to the specific
+circumstances of each borrower, considering factors such as the complexity
+of the credit product, the benefits it offers to the consumer, and the potential
+risks involved.94
+2.97 However, views differed significantly over ASIC’s interpretation of, and
+approach to, the RLOs in its regulatory guidance.
+2.98 On the one hand, the MFAA considered that ASIC Regulatory Guide 209 (RG
+209) further reinforces the flexible approach in the National Credit Act by
+emphasising scalability:
+It specifies that the extent of inquiry and verification that is reasonable for a
+credit provider to undertake should be proportionate to the complexity of
+the product and the associated risks. This principles-based framework
+ensures that lending practices can adapt to the diverse needs of consumers
+and the varied nature of financial products, fostering an environment where
+in our view, consumer protection and access to credit are balanced
+effectively.95
+2.99 By contrast, AFIA was of the view that since the introduction of the National
+Credit Act in 2009, ‘the concept of responsible lending and how it has been
+enforced by ASIC has become increasingly prescriptive’:
+The regulator has placed heavy emphasis on lenders being able to prove that
+any proposed borrower has current capacity to service a loan at the time the
+loan was advanced.
+The regulator’s approach has been quite inflexible. It does not support
+lenders making many assumptions about changes a borrower may make to
+their spending habits after taking out a loan or to recognise that incomes
+increase over time as workers become more experienced in the workforce.96
+2.100 AFIA also submitted that ASIC has maintained an inflexible approach to the
+RLOs despite losing a case and its appeal on the matter in the federal court.
+AFIA argued that ASIC’s restrictive approach has had significant consequences
+as ‘lenders often discount a prospective borrower’s income and inflate (buffer)
+their expenses’ to safeguard against accusations of irresponsible lending:
+The 2019 Federal Court case of Australian Securities and Investments
+Commission v Westpac Banking Corporation (Liability Trial) [2019] FCA
+1244 was hailed as a landmark judgment providing strong support for the
+sensible administration of responsible lending. His Honor Justice Perram
+observed that it is reasonable for a lender to make reasonable assumptions
+94 MFAA, Submission 52, p. 11
+95 MFAA, Submission 52, pp. 11–12
+96 AFIA, Submission 56, p. 9.
+21
+about future changes in a borrower’s circumstances and it would not be a
+breach of responsible lending laws to do so.
+Despite appealing the decision and losing the appeal, ASIC made little
+change to its regulatory guidance and still favours a restrictive view about
+what a lender must do to prove that it has met its responsible lending
+obligations.
+Many lenders seeking to avoid the wrath of ASIC continue to make
+conservative assessments on a consumer’s capacity to service a home loan.
+Lenders carry all the risk of making assumptions. For example, if a lender
+were to make a reasonable assumption that a recent university graduate
+starting out in the workforce would advance in their chosen career and earn
+higher income in future years and were to advance a loan against that
+assumption, it would be at risk of breaching its responsible lending
+obligations. Extending a higher amount of credit would result in the
+borrower committing a higher amount of their current income to servicing
+the loan. If the borrower did not advance in their career or lost their
+employment, the lender would be accused of breaching responsible lending
+obligations. To protect themselves, lenders err on the side of caution.97
+2.101 In a similar vein, FBAA argued that the RLOs favour borrowers with higher
+capacity and equity and ‘works against first home buyers accessing loan
+amounts sufficient to help them enter the market’. This is because ASIC’s
+definition of the RLOs prevents over-extension despite many first home buyers
+and new entrants needing to extend themselves to purchase their first home.98
+Next chapter
+2.102 The next chapter of this report considers potential changes to the financial
+regulatory framework to help facilitate higher rates of home ownership.
+97 AFIA, Submission 56, p. 9; see also Mr David Carson, Regulatory Compliance Adviser, FBAA, Proof
+Committee Hansard, 16 October 2024, p. 20.
+98 FBAA, Submission 61, p. 7; see also Mr David Carson, FBAA, Proof Committee Hansard,
+16 October 2024, p. 20.
+
+Chapter 3
+Solutions
+3.1 While the submissions to the inquiry provided a number of proposed solutions
+to the challenges of obtaining home ownership in Australia, including solutions
+that might be broadly described as ‘supply side’ or ‘demand side’ approaches,
+this chapter will focus on proposed solutions discussed during the public
+hearings to the inquiry.
+3.2 This chapter will discuss:
+ the need for prudential reform, the limitations that taxation reform would
+have on the current market, and the particular disadvantage faced by first
+home buyers in the current market;
+ the case for changes to APRA’s mandate;
+ the appropriateness and the case for reform of the three per cent
+serviceability buffer required by APRA, particularly in relation to first home
+owners; and
+ the credit risk weighting of mortgages and changes to that system.
+3.3 In turn, this chapter will summarise evidence received on the impact of student
+loan debt on people applying for their first home loan, responsible lending laws,
+and supply side solutions to declining home ownership rates.
+Need for prudential reform
+3.4 A range of inquiry participants made the case for prudential reform. One theme
+in evidence to the committee was that prudential regulations should seek to
+maintain financial system integrity, rather than prevent individuals from
+making poor decisions.1
+3.5 Mr Tim Reardon, the Chief Economist of the Housing Industry Association
+(HIA), noted that mortgage delinquency in Australia was currently close to zero.
+Mr Reardon explained that macroprudential restrictions were important and
+emphasised he was not calling for them to be overly relaxed. Nonetheless, Mr
+Reardon suggested that there was a need these restrictions should properly
+balance protecting financial stability and encouraging first home buyers into
+new homes.2
+3.6 Mr Reardon commented that the goal of financial regulators was to identify and
+mitigate risk, and argued that this should be balanced with the public good of
+1 Mr Tim Reardon, Chief Economist, Housing Industry Association (HIA), Proof Committee Hansard,
+16 October 2024, p. 1.
+2 Mr Tim Reardon, Chief Economist, Housing Industry Association (HIA), Proof Committee Hansard,
+16 October 2024, p. 2.
+23
+24
+improving home ownership.3 Mr Reardon also noted the HIA’s concern with
+the lack of oversight over financial regulatory agencies and recommended that
+these agencies be oversighted by a ‘Reserve Bank style board’ with targets for
+the board to achieve around home ownership.4
+3.7 Mr Reardon told the committee:
+The role of the Australian government is to put in place regulations that
+ensure that the financial risk of systemic failure within Australia is
+mitigated, not necessarily zero, which has been the target inherent within
+what we have seen over the past decade. I would distinguish that there are
+two different things there. What we should be looking at is the risk of
+financial contagion, not individual households and their decisions.5
+3.8 Professor Andy Schmulow disagreed with this assessment, suggesting that the
+current macroprudential regulator, APRA, does have a mandate beyond
+financial stability, in that it must balance regulatory enforcement with the need
+for competition in the market. He commented that the 2018-19 Capability
+Review of APRA had recommended that APRA do more to foster competition
+in the banking market, but that this had not been acted upon by APRA.6
+3.9 Prof Schmulow did agree, however, that the financial regulator was ‘laser
+focused on financial stability at the cost of everything else,’ and it was important
+to introduce more competition into the Australian banking market.7 He
+suggested that proportionality of regulations should be examined, noting that
+current regulations could be scaled to make those imposed on smaller banks no
+more onerous than those imposed on large banks.8
+3.10 Dr Sarah Hunter of the Reserve Bank of Australia stated that the aim of
+macroprudential policies is not to eliminate all risk:
+The regulations as they currently are don't completely eliminate risk, and
+we wouldn't necessarily want to achieve that. Again, APRA with their
+regulator hat on, are not necessarily trying to achieve that. What we're
+concerned with is stability of the financial system. All banks have to
+provision for some of their loans failing—people having to default on their
+mortgage, business loan or other types of loan; people not being able to
+continue to make repayments. What we're concerned with is making sure
+3 Mr Tim Reardon, Chief Economist, Housing Industry Association (HIA), Proof Committee Hansard,
+16 October 2024, p. 4.
+4 Mr Tim Reardon, Chief Economist, Housing Industry Association (HIA), Proof Committee Hansard,
+16 October 2024, p. 4.
+5 Mr Tim Reardon, Chief Economist, Housing Industry Association (HIA), Proof Committee Hansard,
+16 October 2024, p. 6.
+6 Prof Andy Schmulow, Private capacity, Proof Committee Hansard, 16 October 2024, p. 10.
+7 Prof Andy Schmulow, Private capacity, Proof Committee Hansard, 16 October 2024, p. 10.
+8 Prof Andy Schmulow, Private capacity, Proof Committee Hansard, 16 October 2024, p. 11.
+25
+that the banks are able to absorb that loss, continue to operate, be stable and
+provide that stability to the economy. It's not a question of trying to
+eliminate all risk; it's balancing risk against other outcomes.9
+Current taxation arrangements
+3.11 The question of whether current tax arrangements that incentivise the purchase
+of real estate for investment purposes were impacting home ownership was
+discussed in evidence before the committee.
+3.12 A range of submissions to the inquiry called for changes to the federal and state
+tax treatment of residential property, arguing this would help increase home
+ownership.10
+3.13 Other submitters challenged this view. Mrs Alexandra Waldren, Policy Director
+at Master Builders Australia (MBA), argued that changes to tax arrangements at
+the federal level, such as negative gearing and capital gains tax concessions,
+would add to the tax burden of an already heavily taxed sector of the economy.
+She made the point that taxes on property at the state, territory and local
+government level make up 50 per cent of the revenue of these governments.11
+3.14 This point was reiterated by Mr Mike Zorbas, CEO of the Property Council of
+Australia (PCA), who highlighted that there was no evidence or modelling that
+suggested changes to these taxation arrangements would increase housing
+supply. 12
+3.15 Mrs Waldren stated that Master Builders’ modelling on the removal of negative
+gearing had found these changes could lead to a significant drop in houses being
+constructed, negatively impacting job creation, dwelling construction and
+renovation activity.13
+3.16 Master Builders Australia’s submission provided more specific data on the
+effect of changes to capital gains tax and negative gearing. Under a scenario
+where negative gearing was limited to new housing and the capital gains tax
+discount was halved, the following would occur:
+9 Dr Sarah Hunter, Assistant Governor, Economic, Proof Committee Hansard, 16 October 2024, p. 46.
+10 Anglicare, Submission 18, pp. 2–3; Associate Professor Ben Spies-Butcher, Submission 25, p. [1];
+Everybody’s Home, Submission 47, p. [3]; Professor Alan Morris, Submission 12, p. [2]; Blueprint
+Institute, Submission 36, p. 1; Home Loan Experts, Submission 34, p. [7]; Mr Ashley Holmes,
+Submission 4, p. [1].
+11 Mrs Alexandra Waldren, Policy Director, Master Builders Australia (MBA), Proof Committee
+Hansard, 16 October 2024, p. 2.
+12 Mr Mike Zorbas, Chief Executive Officer, Property Council of Australia (PCA), Proof Committee
+Hansard, 16 October 2024, p. 3.
+13 Mrs Alexandra Waldren, Policy Director, Master Builders Australia (MBA), Proof Committee
+Hansard, 16 October 2024, pp. 4–5.
+26
+ New housing construction would fall by between 10 000 and 42 000
+dwellings.
+ There would be between 7 500 and 32 000 fewer jobs.
+ Value dwelling activity would fall by between $2.8 and $11 billion.
+ Renovation activity would reduce by between $50 and $210 million.14
+3.17 The Australia Institute was in favour of abolishing tax incentives which
+promoted investment in housing.15
+3.18 Other witnesses argued that changes to negative gearing and capital gains tax
+would initially see a slowdown in market activity and lowering of house prices,
+but in the long term would lead to a slowdown in housing supply and associated
+price rises.16
+3.19 Mr Tim Reardon of the HIA noted that if there is a goal of lessening the impact
+of investors in the housing market, then increasing housing supply to the point
+that house price growth is limited would be a better solution.17
+Impacts on first home buyers
+3.20 The impact of increasing house prices on first home buyers was also discussed
+throughout the inquiry. Mr Ranin Mendis Abeysekera, Managing Director of
+Ello Lending Co stated simply:
+…while government schemes aimed at helping first home buyers are well
+intended, they are not keeping pace with rising prices and wages. There also
+needs to be a significant investment made to create awareness of the
+available schemes, such as the first home super saver scheme. Furthermore,
+upfront costs such as stamp duty and the chronic shortage of affordable
+housing supply continue to be significantly big hurdles for our first home
+buyers.18
+3.21 Mr Reardon of the HIA explained that, as banks are required to hold more
+collateral for money lent to first home buyers, that cost is passed on to the buyer.
+He stated that ‘banks aren’t competing with each other to pursue first home
+buyers. They are coming for investors’ and are more likely to provide them with
+14 Master Builders Australia, Submission 33, pp. 8–9.
+15 Dr Greg Jericho, Chief Economist, The Australia Institute, Proof Committee Hansard, 16 October 2024,
+pp. 37–38.
+16 Mr Tim Reardon, Chief Economist, Housing Industry Association (HIA), Proof Committee Hansard,
+16 October 2024, p. 5.
+17 Mr Tim Reardon, Chief Economist, Housing Industry Association (HIA), Proof Committee Hansard,
+16 October 2024, pp. 7–8.
+18 Mr Ranin Mendis Abeysekera, Managing Director, Ello Lending Co, Proof Committee Hansard,
+16 October 2024, p. 14.
+27
+more competitive interest rates. He remarked that ‘[w]e are increasingly lending
+to those who already own a home and punishing those who do not’.19
+3.22 Mr Mott of Barrenjoey underlined this point in his evidence:
+The Commonwealth Bank lent almost two and a half times as many
+mortgages in Australia to owner occupied households earning more than
+$200,000 than they did to households earning less than $100,000. The median
+income in Australia for a household is about $115,000. If we take this to the
+extreme, Commonwealth Bank is now lending almost as many owner-
+occupied mortgages to households that are earning more than half a million
+dollars than they are to households earning less than $75,000. They are quite
+extreme numbers. Effectively, mortgages have now become a luxury good.20
+3.23 The RBA made a similar point in its evidence:
+Median incomes of first home buyers have long been lower than those of
+other home buyers. However, the median nominal income has increased
+more rapidly for new borrowers than other borrowers over the recent
+interest rate tightening period, and has risen faster than in previous years.
+Higher interest rates have been binding for lower income borrowers,
+particularly for first home buyers, and resulted in the median loan-to-
+income ratio of new loans declining substantially since early 2022.21
+3.24 The RBA also provided a graph illustrating this (see figure 3.1 below)
+Figure 3.1 Median income of new borrowers
+Source: Reserve Bank of Australia, answer to question on notice, 16 October 2024 (received 31 October 2024) p. 3
+19 Mr Tim Reardon, Chief Economist, Housing Industry Association (HIA), Proof Committee Hansard,
+16 October 2024, p. 4.
+20 Mr Johnathan Mott, Founding Partner, Barrenjoey, Proof Committee Hansard, 16 October 2024, p. 25.
+21 Reserve Bank of Australia, answer to question on notice, 16 October 2024 (received
+31 October 2024), p. 3.
+28
+3.25 When questioned about whether increasing first homeowners’ access to finance
+would lead to a further increase in prices, Mr Reardon of HIA thought this was
+unlikely to occur. He explained that people moving from renting to owning does
+not increase overall housing demand. Although an easing of lending rules
+giving more potential home buyers access to finance could lead to short term
+upwards pressure on property prices, in the longer term the effect on prices
+would be negligible:
+Over the course of the past decade, we have forced first home buyers out of
+the market. That hasn't reduced demand for housing. Demand for housing
+has remained constant. Likewise over the next decade, if we reduce those
+restrictions and we see home ownership rates increase, that is not an
+increase in demand for housing because it did not affect our population or
+the average number of people per home.22
+3.26 Professor Andy Schmulow pointed to the high profitability of the Australian
+banking system, and noted that mortgages make up 70 per cent of banks’ asset
+base. He advocated for rebalancing competition in the banking industry to
+provide first home buyers more choices for mortgages which would lower
+barriers to entry and enable them to enter the market.23
+3.27 Ms Kylie Davis, President of the Proptech Association of Australia, related the
+higher risk associated with lending to first homeowners with a trend of de-
+risking through ‘pushing systemised risk onto individuals.’ She questioned the
+rationale of why first home owners are considered higher risk than other kinds
+of mortgage customers.24
+3.28 Mr Mott of Barrenjoey also remarked that ongoing house price inflation in
+Australia had had a disproportionate impact on the ability of first home buyers
+to enter the market. He pointed out that people upgrading to their second or
+third home would have benefitted from that house price inflation, as well as
+increases in income, and as such would not need to borrow as much to purchase
+a property. He pointed out recent figures released by CBA showing that in the
+period from 2016-17, the borrowing capacity of younger people has declined by
+40 per cent.25
+3.29 Mr Mott, while being clear that he was not calling for reducing the overall
+stability of the financial system, advocated for a ‘rebalancing’ of current
+prudential standards to help younger people enter the housing market. He told
+22 Mr Tim Reardon, Chief Economist, Housing Industry Association (HIA), Proof Committee Hansard,
+16 October 2024, p. 5.
+23 Prof Andy Schmulow, Private capacity, Proof Committee Hansard, 16 October 2024, p. 12.
+24 Ms Kylie Davis, President, Proptech Association of Australia, Proof Committee Hansard,
+24 October 2024, p. 43.
+25 Mr Johnathan Mott, Founding Partner, Barrenjoey, Proof Committee Hansard, 16 October 2024, p. 26.
+29
+the committee ‘that the pendulum has swung a long way. At least for certain
+first home buyers, it probably needs to swing back a bit to help them.’26
+3.30 The committee also received evidence about the distribution of government
+assistance to first home buyers across analogous international jurisdictions (see
+figure 3.2 below).
+Figure 3.2 Government assistance for first home buyers across jurisdictions
+Source: Australian Housing and Urban Research Institute (AHURI), Assisting first homeowners: an
+international policy review, July 2022, p. 6, (available at:
+https://www.ahuri.edu.au/sites/default/files/documents/2022-07/AHURI-Final-Report-381-Assisting-first-
+homebuyers-an-international-policy-review.pdf) (accessed 19 November 2024).
+3.31 Figure 3.2 above shows Australia’s high level of assistance to first home buyers
+in the form of grants and concessions, but a limited amount of assistance in other
+areas, such as in savings schemes and loans.27
+Changes to APRA’s Mandate
+3.32 As discussed in Chapter 1 of this report, APRA currently has a mandate
+contained in section 8 of the APRA Act which requires it to, among other things,
+promote financial system stability in Australia. The committee heard evidence
+from witnesses about whether there should be a change to this mandate to
+include a requirement for APRA to consider an increase in first home ownership
+when performing its functions and powers.
+26 Mr Johnathan Mott, Founding Partner, Barrenjoey, Proof Committee Hansard, 16 October 2024, p. 26.
+27 Australian Housing and Urban Research Institute (AHURI), Assisting first homeowners: an
+international policy review, July 2022, p. 6, (available at:
+https://www.ahuri.edu.au/sites/default/files/documents/2022-07/AHURI-Final-Report-381-
+Assisting-first-homebuyers-an-international-policy-review.pdf) (accessed 19 November 2024).
+30
+3.33 Mrs Therese McCarthy Hockey, Executive Board Member of APRA, explained
+APRA’s mandate as follows:
+Our mandate is about the overall system stability. It doesn't distinguish
+between any one category of borrower and another, but we are charged with
+ensuring that we understand what's happening within the credit, within the
+system. In our financial stability mandate, we balance that, of course, with
+competition, efficiency and contestability, amongst others.28
+3.34 Mrs McCarthy Hockey went on to say that APRA is not mandated to look at one
+borrower class over any other. She explained that APRA’s role is to ‘set a
+framework which enables a neutral understanding of the risk in the system, and
+that's what, in particular, our credit rate system provides—an ability to
+understand the risk in the system’.29
+3.35 Other witnesses were in favour of making changes to APRA’s mandate.
+Ms Anja Pannek, CEO of the Mortgage and Finance Association of Australia
+(MFAA), thought this was an idea which should be considered. Ms Pannek
+noted that within APRA and the broader Council of Financial Regulators (made
+up of APRA, ASIC, the RBA and the Treasury), none of these organisations had
+a mandate to promote and encourage home ownership.30
+3.36 Mr Peter Tulip, Chief Economist at the Centre for Independent Studies, took a
+different view, saying he did not think APRA should preference one group of
+borrowers over another. Mr Tulip noted that first homeowners presented a
+higher risk than established borrowers and it was appropriate to place
+restrictions on higher risk lending.31
+3.37 Professor Andy Schmulow took the view that, rather than adding to APRA’s
+mandate, there would be benefit in APRA better enforcing their existing
+mandate, particularly in relation to competition. This could lead to smaller
+banks being better able to compete with larger institutions and to more first
+home buyers being able to receive finance through increased competition.32
+28 Mrs Therese McCarthy Hockey, Executive Board Member, Australian Prudential Regulation
+Authority (APRA), Proof Committee Hansard, 24 October 2024, p. 31.
+29 Mrs Therese McCarthy Hockey, Executive Board Member, Australian Prudential Regulation
+Authority (APRA), Proof Committee Hansard, 24 October 2024, pp. 31–32.
+30 Ms Anja Pannek, Chief Executive Officer, Mortgage & Finance Association of Australia (MFAA),
+Proof Committee Hansard, 16 October 2024, p. 15.
+31 Mr Peter Tulip, Chief Economist, Centre for Independent Studies, Proof Committee Hansard,
+16 October 2024, p. 34.
+32 Prof Andy Schmulow, Private capacity, Proof Committee Hansard, 16 October 2024, pp. 10–11.
+31
+3.38 The Housing Industry Association was in favour of ‘a target band of residential
+mortgage arrears rate of two and three per cent.’33
+3.39 In its report, Assisting first homeowners: an international policy review, the
+Australian Housing and Urban Research Institute (AHURI) made the point that
+APRA had intervened in the housing market in the past, in both 2014 and 2017,
+in order to restrict lending to investors and thus cool the market. AHURI also
+observed that regulatory settings which had favoured first home buyers had
+had a significant role in expanding home ownership in the post-war period and
+that such powers were still available to APRA today.34 The report said:
+Through their potential influence on the availability and cost of mortgage
+debt, financial regulatory policies and controls can have significant housing
+market impacts. In the contemporary context, the key institution here is the
+Australian Prudential Regulation Authority (APRA)…Fostering
+preferential treatment for FHBs via regulation in this way complemented
+other forms of pro-FHB housing finance assistance important in the early
+postwar era.35
+Mortgage serviceability buffer
+3.40 A repeated issue in evidence before the committee was the appropriateness of
+the mortgage serviceability buffer required by APRA for home buyers when
+seeking a mortgage. As explained in Chapter 1, this buffer exists to ensure that
+a borrower can service a loan in the event of increases in mortgage interest rates.
+3.41 Currently, the mortgage serviceability buffer is set at three per cent. Some
+comparable overseas jurisdictions have similar buffers, although this of course
+varies from jurisdiction to jurisdiction. Canada, for example, has a similar buffer
+33 Housing Industry Association (HIA), Submission 6, p. 2.
+34 Australian Housing and Urban Research Institute (AHURI), Assisting first homeowners: an
+international policy review, July 2022, pp. 34-35, (available at:
+https://www.ahuri.edu.au/sites/default/files/documents/2022-07/AHURI-Final-Report-381-
+Assisting-first-homebuyers-an-international-policy-review.pdf) (accessed 19 November 2024).
+35 Australian Housing and Urban Research Institute (AHURI), Assisting first homeowners: an
+international policy review, July 2022, pp. 34-35, (available at:
+https://www.ahuri.edu.au/sites/default/files/documents/2022-07/AHURI-Final-Report-381-
+Assisting-first-homebuyers-an-international-policy-review.pdf) (accessed 19 November 2024).
+32
+set at two per cent,36 while banks in New Zealand typically add a buffer of
+between two and three per cent.37
+3.42 On 25 November 2024, APRA provided an update on its prudential settings and
+made the following statement about the serviceability buffer:
+As is the case with all of APRA’s macroprudential tools, the serviceability
+buffer is calibrated at the system-wide level and will therefore not be
+appropriate for every lending decision. APRA therefore allows ADIs
+discretion to make exceptions on a case-by-case basis where it is prudent to
+do so. Banks used exceptions to serviceability policies for around 5 per cent
+of new housing loans over the past year, which has increased from 2-3 per
+cent in the years prior.38
+3.43 APRA’s update confirms that the buffer is a blunt instrument calibrated at a
+system-wide level. It also indicates that the level of exception utilised by ADI’s
+is miniscule, representing around five per cent of new mortgages over the last
+year.
+3.44 Mr Chris Taylor, Chief of Policy with the Australian Banking Association, was
+in favour of the three per cent buffer being more flexible for first home buyers,
+with possible adjustments for an individual’s circumstances and changes in
+market conditions. This could, he suggested, allow more first home buyers an
+opportunity to enter the market.39 Mr Taylor further noted that house prices
+have increased by 40 per cent since the COVID-19 pandemic and there could be
+some merit in APRA, as part of the normal review of its regulatory guidance,
+considering an increased degree of flexibility to be applied to borrowers.40
+3.45 Mr Ranin Mendis Abeysekera, Managing Director of Ello Lending Co, made the
+point that the serviceability buffer disproportionately affects the ability of first
+home buyers to get a mortgage. He also advocated for a ‘more nuanced
+36 Note: Canada’s current qualifying rates for mortgages is a two part test made up of the current two
+per cent buffer and a 5.25 per cent floor. See: Government of Canada, Office of the Superintendent
+of Financial Institutions, Minimum qualifying rate for uninsured mortgages, 18 January 2024,
+https://www.osfi-bsif.gc.ca/en/supervision/financial-institutions/banks/minimum-qualifying-rate-
+uninsured-mortgages (accessed 14 November 2024).
+37 Gareth Vaughan, ‘Big banks’ mortgage serviceability test rates now start at 8.5% and rise above 9%,’
+Interest.co.nz, 8 April 2023, https://www.interest.co.nz/personal-finance/120682/big-banks-
+mortgage-serviceability-test-rates-now-start-85-and-rise-above-9 (accessed 14 November 2024).
+38 APRA, Update on APRA’s Macroprudential settings – November 2024, 25 November 2024,
+https://www.apra.gov.au/update-on-apras-macroprudential-settings-november-2024 (accessed
+25 November 2024).
+39 Mr Chris Taylor, Chief of Policy, Australian Banking Association (ABA), Proof Committee Hansard,
+24 October 2024, p. 1.
+40 Mr Chris Taylor, Chief of Policy, Australian Banking Association (ABA), Proof Committee Hansard,
+24 October 2024, p. 2.
+33
+approach to regulatory policies’ in order to give first home buyers greater access
+to finance.41
+3.46 Ms Anja Pannek of the MFAA explained that, from her members’ perspective,
+the three per cent buffer had proved to be challenging not just for first home
+buyers but also for people attempting to refinance their home loans. She
+reported that since the start of the year some financiers had started to use a
+one per cent exception buffer for ‘like-for-like dollar refinancing’ and that this
+new policy had made refinancing significantly easier. Similar changes for first
+home buyers would probably see similar improvements in finance rates.42 This
+view was echoed in the MFAA’s submission to the inquiry.43
+3.47 In answer to questions on notice, the MFAA conducted a ‘sentiment survey’ of
+its members to obtain their insights into the impacts of the serviceability buffer
+on first home buyers attempting to get a loan. Respondents to the survey had a
+median of 50 clients, of which 16 were first home buyers. Of this 16 first home
+buyers, ‘approximately 6 were unable to secure finance due to the current buffer
+settings.’44
+3.48 This indicates, of borrowers attempting to get a mortgage through MFAA
+members, 37.5 per cent of first home buyers were unable to obtain a mortgage
+due to the serviceability buffer.
+3.49 Other witnesses commented that the lack of lack of lending to first home buyers
+due to the serviceability buffer was having flow-on effects. Mr Anthony
+Waldron, CEO of the REA Group, noted that building of new housing usually
+only commences after a certain amount of pre-sales has been achieved so the
+lack of credit was starting to affect housing supply.45 He further noted this was
+particularly affecting the housing development market.46
+3.50 This view was reinforced my Mr Cameron Kusher, Executive Manager of
+Economic Research for the REA Group, who added that this was particularly
+41 Mr Ranin Mendis Abeysekera, Managing Director, Ello Lending Co, Proof Committee Hansard,
+16 October 2024, p. 14.
+42 Ms Anja Pannek, Chief Executive Officer, Mortgage & Finance Association of Australia (MFAA),
+Proof Committee Hansard, 16 October 2024, p. 15.
+43 MFAA, Submission 52, p. 12.
+44 MFAA, answers to questions on notice, 16 November 2024 (received 1 November 2024), p. 1.
+45 Mr Anthony Waldron, Chief Executive Officer, Financial Services, REA Group, Proof Committee
+Hansard, 16 October 2024, p. 16.
+46 Mr Anthony Waldron, Chief Executive Officer, Financial Services, REA Group, Proof Committee
+Hansard, 16 October 2024, p. 16.
+34
+damaging for developers of inner-city apartment buildings and greenfield
+estates, both development-types that are attractive to first home buyers.47
+3.51 Mirvac also took the view that the current serviceability buffer had become a
+barrier to first home buyers trying to achieve home ownership. It urged the
+committee to recommend that the buffer be ‘recalibrated to better reflect current
+economic conditions’.48
+3.52 Ms Pannek of the MFAA acknowledged that there were broader factors outside
+of the serviceability buffer that were effecting homeownership, and emphasised
+that the MFAA was not advocating for a wholesale loosening of credit. Ms
+Pannek suggested there would be a large benefit to specifically targeting a buffer
+for first home buyers with a shift from three to one per cent.49 She also made the
+point that, as per RBA and other statistics, first home borrowers have some of
+the lowest arrears of any borrower cohorts.50
+3.53 Mr David Carson, Regulatory Compliance Adviser of the Finance Brokers
+Association of Australasia, advised that the three per cent buffer has an extra
+impact on first homeowners.51 He explained that because first home buyers
+typically have lower incomes and smaller deposits, so the buffer has a larger
+impact overall.52
+3.54 Mr Carson was of the view that buffers were a sensible measure to contribute to
+the stability of the financial system, but could be slow to respond to changes in
+the market. He pointed out that at the top, or close to the top, of the interest rate
+cycle, the current three per cent buffer was a heavy burden and could impact
+certain classes of borrower more than others.53 Mr Carson was in favour of the
+serviceability buffer being reviewed more frequently.54
+47 Mr Cameron Kusher, Executive Manager, Economic Research, REA Group, Proof Committee
+Hansard, 16 October 2024, p. 16.
+48 Mirvac, Submission 44, p. 2.
+49 Ms Anja Pannek, Chief Executive Officer, Mortgage & Finance Association of Australia (MFAA),
+Proof Committee Hansard, 16 October 2024, p. 17.
+50 Ms Anja Pannek, Chief Executive Officer, Mortgage & Finance Association of Australia (MFAA),
+Proof Committee Hansard, 16 October 2024, p. 17.
+51 Mr David Carson, Regulatory Compliance Adviser, Finance Brokers Association of Australia
+(FBAA), Proof Committee Hansard, 16 October 2024, p. 20.
+52 Mr David Carson, Regulatory Compliance Adviser, Finance Brokers Association of Australia
+(FBAA), Proof Committee Hansard, 16 October 2024, p. 20.
+53 Mr David Carson, Regulatory Compliance Adviser, Finance Brokers Association of Australia
+(FBAA), Proof Committee Hansard, 16 October 2024, p. 21.
+54 Mr David Carson, Regulatory Compliance Adviser, Finance Brokers Association of Australia
+(FBAA), Proof Committee Hansard, 16 October 2024, p. 22.
+35
+3.55 Mr Carson was not in favour however of a lowering of the serviceability buffer
+for all consumers, stating that this would stimulate demand and increase
+housing prices. His view was that there should be a lower buffer which could
+be applied to first home buyers to allow them to be more competitive in the
+market.55 He went on to say:
+That is why the focus really needs to be, for me, on giving benefits to those
+entering the market for the first time without giving them actually more
+money to compete against.56
+3.56 Other inquiry participants noted the impact of the buffer on fixed rate verses
+variable home loans. Mr Peter Tulip, Centre for Independent Studies, stated that
+he understood why the buffer was applied to variable loans where the impact
+of a change in interest rates would be felt sooner, but felt it was inappropriate
+for fixed rate loans. He also remarked that the buffer should be a function of the
+yield curve, with the buffer being higher when the curve was moving upwards
+and lower when it was moving downwards.57
+3.57 A similar point was made by Ms Pauline Blight-Johnston, CEO of Helia, who
+felt the serviceability buffer should be countercyclical.58
+3.58 Mr Tulip was also of the view that the current buffer was set too high, pointing
+out the current low rate of mortgage arrears and the lack of threat to prudential
+system stability.59
+3.59 The Australian Finance Industry Association (AFIA) also expressed concerns
+with the serviceability buffer, particularly in the effect it could have smaller and
+non-bank ADIs:
+Regulatory interventions may also have adverse and unintended
+consequences for lending markets, such as smaller ADls and non-ADI
+lenders ability to manage their portfolios and/or adhere to specific controls
+not easily absorbed into lenders reliant on securitisation markets for their
+funding. A lack of funding optionality for non-ADI lenders would have a
+material impact on competition and innovation and limit access to finance
+for customers who choose not to use the products, services, and technologies
+55 Mr David Carson, Regulatory Compliance Adviser, Finance Brokers Association of Australia
+(FBAA), Proof Committee Hansard, 16 October 2024, p. 22.
+56 Mr David Carson, Regulatory Compliance Adviser, Finance Brokers Association of Australia
+(FBAA), Proof Committee Hansard, 16 October 2024, p. 22.
+57 Mr Peter Tulip, Chief Economist, Centre for Independent Studies, Proof Committee Hansard,
+16 October 2024, p. 35.
+58 Ms Pauline Blight-Johnston, Chief Executive Officer and Managing Director, Helia, Proof Committee
+Hansard, 24 October 2024, p. 44.
+59 Mr Peter Tulip, Chief Economist, Centre for Independent Studies, Proof Committee Hansard,
+16 October 2024, p. 36.
+36
+of an ADI or customers that sit outside the risk appetite of an ADI or outside
+the offerings provided by an ADI.60
+3.60 In answers to questions on notice, ANZ stated:
+If the buffer adjusted automatically based on the cash rate target (or another
+variable), it would change the maximum amount that could be borrowed by
+first homeowners and the amount of financial risk that they assume as the
+cash rate target moved (relative to a static buffer). To the extent the buffer
+fell, this would increase the maximum amount that first homeowners could
+borrow and the amount of financial risk. Conversely, as the buffer rose, it
+would decrease these amounts.61
+3.61 This view was echoed by Mr Any Kerr, Executive of Home Ownership at the
+National Australia Bank, who said there was an opportunity for banks to work
+with the regulator and government to target modest changes to the
+serviceability buffer for first home buyers and increase the borrowing power of
+this cohort. At the same time, Mr Kerr cautioned that any implementation of this
+change would have to include consideration of other credit risk elements in
+order to limit the risks to those borrowers.62 He emphasized that any change to
+the buffer should be modest to prevent unintended consequences.63
+3.62 In answers to questions on notice, Bendigo and Adelaide Bank advised that the
+buffer:
+…results in first home buyers having serviceability assessed at an interest
+rate above 9 per cent, with the current mortgage rates available to most of
+this cohort being above 6 per cent. Accordingly, we are seeing a proportion
+of prospective first home buyers failing serviceability tests and not being
+able to enter the housing market, despite being able to meet repayment
+obligations at current rates.
+A readjustment of how APRA sets the buffer could be considered to take
+into account the current interest rate cycle, having the impact of raising the
+buffer during the bottom of the cycle and lowering when at, or near, the
+top.64
+3.63 In its submission to the inquiry, the Customer Owned Banking Association was
+also in favour of considering the size of the serviceability buffer, and noted that
+60 Australian Finance Industry Association, Submission 56, pp. 7–8.
+61 ANZ, answers to written questions on notice, 22 October 2024 (received 1 November 2024).
+62 Mr Andy Kerr, Executive, Home Ownership, National Australia Bank, Proof Committee Hansard,
+24 October 2024, p. 11.
+63 Mr Andy Kerr, Executive, Home Ownership, National Australia Bank, Proof Committee Hansard,
+24 October 2024, p. 14.
+64 Bendigo and Adelaide Bank, answers to written questions on notice, 25 October 2024 (received on
+7 November 2024).
+37
+the buffer was impacting the borrowing power of first home buyers in
+particular.65
+‘Mortgage prisons’
+3.64 In addition to evidence on the impact of the serviceability buffer on first home
+borrowers, the committee received evidence regarding the inability of some
+borrowers to refinance their home loans due to the increase in interest rates and
+the application of the buffer—and outcome described as a borrower becoming
+trapped in a ‘mortgage prison.’
+3.65 Mr Carson of the FBAA described this phenomenon, stating that borrowers who
+had entered the market when interest rates were at three per cent were assessed
+under the serviceability buffer at six per cent. As rates have increased to six per
+cent, borrowers who wish to refinance are now assessed with a buffer of nine
+per cent which can often lock them into less favourable mortgage conditions.66
+He was in favour of these borrowers being assessed at their current mortgage
+rate if they were demonstrating an existing ability to service their loans.67 This
+view was echoed by Mr Mott of Barrenjoey.68
+3.66 FinTech Australia also made the following points:
+When existing homeowners are unable to access better loan offers, it reduces
+their financial flexibility and limits housing stock availability, making it
+harder for first-time buyers to enter the market. Not only this, but it can
+diminish competition among lenders, resulting in higher interest rates and
+less favourable terms, which can deter potential first home buyers.69
+Concerns raised regarding any changes to the serviceability buffer
+3.67 The committee also received evidence from a range of inquiry participants
+opposing any lowering of the three per cent serviceability buffer.
+3.68 Mr Paul Holmes, Director of Disaster Relief at Legal Aid Queensland, told the
+committee:
+'Freedom to fail' is something you say when you don't see the consequences
+of it, and, at Legal Aid, we see the consequences of the 'freedom to fail'
+regularly. I'm not saying don't ever lend to somebody; what I'm saying is
+that we currently have a really good system that, if you look at the evidence
+of the amount of people in default in similar economic circumstances before
+we had this system as opposed to now, has actually prevented people from
+65 Customer Owned Banking Association, Submission 50, p. 8.
+66 Mr David Carson, Regulatory Compliance Adviser, Finance Brokers Association of Australia
+(FBAA), Proof Committee Hansard, 16 October 2024, pp. 20–21.
+67 Mr David Carson, Regulatory Compliance Adviser, Finance Brokers Association of Australia
+(FBAA), Proof Committee Hansard, 16 October 2024, p. 21.
+68 Mr Johnathan Mott, Founding Partner, Barrenjoey, Proof Committee Hansard, 16 October 2024, p. 28.
+69 FinTech Australia, Submission 35, p. 3.
+38
+failing to have a mortgage, and the problem with failing to pay their
+mortgage is there's currently nowhere to rent.70
+3.69 Mr Holmes argued that the focus of government should be on improving the
+supply of housing before making changes to regulatory requirements like the
+serviceability buffer.71 He also made the point that issues of housing
+affordability had been exacerbated by current tax arrangements, such as
+negative gearing and the capital gains tax discount, and was in favour of
+removing those tax arrangements to ‘get rid of those distortions rather than
+bringing in another distortion to try and counter that distortion.’72
+3.70 Similarly, Mr Greg Jericho, Australia Institute, countered suggestions the three
+per cent buffer was too high by pointing out that interest rates had increased by
+the buffer amount in the last three years. He noted that the fact there had not
+been an increase in mortgage defaults or other collapse of the housing market
+was proof the buffer was working. He urged caution in making changes to the
+buffer and, like Mr Holmes, placed more weight on current tax arrangements
+for the problems of housing affordability faced by first home buyers.73
+3.71 Westpac was also of the view that the serviceability buffer should not be
+changed. Mr Martin Green, National General Manager of Property Finance at
+Westpac, told the committee ‘we don’t think the right answer is to put customers
+into more debt’ and ‘we do not believe that banks or the community should have
+an increasing willingness to accept higher levels of home loan defaults’.74
+3.72 Mr Paul Deall, Head of Risk, Mortgages and Consumer Credit at Westpac added
+that Westpac was satisfied with the three per cent buffer, and that any further
+loosening of prudential standards would only place an increased burden and
+stress on borrowers.75
+3.73 The Commonwealth Bank of Australia (CBA) was also opposed to lowering the
+serviceability buffer, with Mr Angus Sullivan, Group Executive of Retail
+Banking Services at CBA, describing the buffer as a ‘prudent and appropriate
+70 Mr Paul Holmes, Director, Disaster Relief, Legal Aid Queensland, Proof Committee Hansard,
+16 October 2024, p. 33.
+71 Mr Paul Holmes, Director, Disaster Relief, Legal Aid Queensland, Proof Committee Hansard,
+16 October 2024, p. 33.
+72 Dr Greg Jericho, Chief Economist, The Australia Institute, Proof Committee Hansard, 16 October 2024,
+p. 38.
+73 Dr Greg Jericho, Chief Economist, The Australia Institute, Proof Committee Hansard, 16 October 2024,
+p. 39.
+74 Mr Martin Green, National General Manager, Property Finance, Westpac, Proof Committee Hansard,
+24 October 2024, p. 7.
+75 Mr Paul Deall, Head, Risk, Mortgages and Consumer Credit, Westpac, Proof Committee Hansard,
+24 October 2024, p. 8.
+39
+measure’ as well as a matter for APRA to consider. While he was empathetic to
+the needs of first homeowners, he also pointed out that first homeowners as
+group experienced higher levels of mortgage stress and it was important they
+not be overextended by borrowing too much money.76
+3.74 Other witnesses also focused on the human cost of mortgage default, with
+Ms Nadia Harrison of Mortgage Stress Victoria urging government and
+regulators to take extreme caution in making any changes to the buffer.77
+3.75 Mrs Julia Davis, Senior Policy and Communications Officer at the Financial
+Rights Legal Centre, characterised changing the serviceability buffer as an ‘easy
+fix that puts all the risk on individual homeowners’. She added:
+Fixing the housing crisis is really difficult. A great way to keep the economy
+rolling, keep construction going and to keep bank profits flowing in is to
+allow borrowers to borrow more. We know that borrowers are willing to
+stretch and stretch and stretch because they are desperate to get into a house.
+To be honest, it is just a lazy policy idea that puts all the risk on the people
+who can least afford to manage it.78
+3.76 Dr Dominique Meyrick, Co-CEO of Financial Counselling Australia, made the
+point that since July the National Debt Hotline had received over 42 000 points
+of contact with roughly a third of those being related to mortgage stress. She
+went on to outline that since the COVID-19 pandemic, borrowers had frequently
+already had hardship arrangements in place which were now expiring, leading
+to people not paying other expenses or skipping meals in order to make
+mortgage payments.79
+3.77 Mr David Locke, Chief Ombudsman and CEO of the Australian Financial
+Complaints Authority (AFCA) took the view that if current prudential
+standards were significantly changed, it was highly likely there would be an
+increase in cases coming through to AFCA. He noted that currently AFCA has
+roughly 60 000 banking and finance complaints a year and those numbers have
+been largely static, with some small increases in recent years. He told the
+76 Mr Angus Sullivan, Group Executive, Retail Banking Services, Commonwealth Bank of Australia
+(CBA), Proof Committee Hansard, 24 October 2024, p. 24.
+77 Ms Nadia Harrison, Chief Executive Officer, Mortgage Stress Victoria, Proof Committee Hansard,
+24 October 2024, p. 18.
+78 Mrs Julia Davis, Senior Policy and Communications Officer, Financial Rights Legal Centre (FRLC),
+Proof Committee Hansard, 24 October 2024, p. 20.
+79 Dr Domenique Meyrick, Co-Chief Executive Officer, Financial Counselling Australia, Proof
+Committee Hansard, 24 October 2024, pp. 20–21.
+40
+committee that this demonstrated that current regulatory settings were working
+as intended.80
+3.78 Mrs Therese McCarthy Hockey, Executive Board Member of APRA, made the
+point that the serviceability buffer was a tool and there were a variety of factors
+which were considered by APRA when it was setting this buffer.81 She observed
+that the rate of non-performing loans had increased to a rate of roughly one per
+cent, an amount nearly double that of 2016. While APRA was not overly
+concerned about these figures from a prudential perspective, Ms McCarthy
+Hockey remarked that while employment in Australia was currently very
+strong, if that were to change this would create a very different set of outcomes
+for borrowers.82
+3.79 Dr Marion Dorothea Kohler, General Manager of System Risk at APRA, also
+made the point that the serviceability buffer was reviewed several times a year
+to determine if it was working as intended within the broader prudential
+system. Such reviews considered a broad range of data, asset prices, lending
+conditions and financial resilience, and included consultations with the Council
+of Financial Regulators.83 Dr Kohler reiterated points previously made that there
+had been an uptick in loan arrears and non-performing loans recently, adding
+that there is an existing baseline of vulnerability in the Australian system that
+APRA was mindful of due to high household debt to income levels.84
+3.80 Mrs McCarthy Hockey also advised APRA’s tools are focused on access to
+finance, as opposed to solving the challenges of housing affordability.85
+Mortgage credit risk weighting
+3.81 The committee also heard evidence around the question of whether a change to
+the credit risk weighting held by banks would impact on the ability of first home
+buyers to secure a loan. Mortgage credit risk weighting and its role in the
+mortgage system is discussed in more detail in Chapter 1 of this report.
+80 Mr David Locke, Chief Ombudsman and Chief Executive Officer, Australian Financial Complaints
+Authority (AFCA), Proof Committee Hansard, 24 October 2024, p. 29.
+81 Mrs Therese McCarthy Hockey, Executive Board Member, Australian Prudential Regulation
+Authority (APRA), Proof Committee Hansard, 24 October 2024, p. 34.
+82 Mrs Therese McCarthy Hockey, Executive Board Member, Australian Prudential Regulation
+Authority (APRA), Proof Committee Hansard, 24 October 2024, p. 34.
+83 Dr Marion Dorothea Kohler, General Manager, System Risk, Australian Prudential Regulation
+Authority (APRA), Proof Committee Hansard, 24 October 2024, p. 35.
+84 Dr Marion Dorothea Kohler, General Manager, System Risk, Australian Prudential Regulation
+Authority (APRA), Proof Committee Hansard, 24 October 2024, p. 35.
+85 Mrs Therese McCarthy Hockey, Executive Board Member, Australian Prudential Regulation
+Authority (APRA), Proof Committee Hansard, 24 October 2024, pp. 36–37.
+41
+3.82 In answer to questions on notice, APRA provided the current risk weights for
+residential property loans (see figure 3.3 below).
+Figure 3.3 Credit risk weights for standard loans
+Source: APRA, answer to written question on notice APRA-002, 24 October 2024 (received 1 November 2024),
+p. 1.
+Note: LMI refers to lenders mortgage insurance and LVR refers to loan to value ratio
+3.83 Mr Johnathan Mott of Barrenjoey was strongly in favour of the idea of
+rebalancing banks’ existing risk weightings to favour first home buyers:
+We think they should consider putting around a 70 per cent risk weighted
+asset multiplier on owner occupied first home buyers who purchase a new
+home or build a new home. Again, it is a greater weighting if you build or if
+you buy off the plan. It would be around an 85 per cent multiplier on first
+home buyers who buy an existing property and a slight increase in the risk
+weights to around 105 per cent to 110 per cent for upgraders and investors.
+This would leave the total risk weighted assets of the banks broadly
+unchanged. It is consistent with APRA's targets and the recommendation of
+the Murray financial system inquiry from 2014. We are not suggesting any
+weakness in financial stability resilience.86
+3.84 Mr Mott went on to say that his suggestion was a modest rebalancing in favour
+of first home buyers, with an increase of risk being absorbed by other owner-
+occupier customers. This would lead to banks not needing to hold as much
+capital against first home buyer mortgages with a flow on effect of lower interest
+rates.87
+3.85 Mr Mott further explained that the opposite effect had occurred a few years ago
+when APRA had increased the risk weighting for investor mortgages, which led
+to the banks increasing interest rates for investors. He contended that a similar
+effect could be replicated in favour of first home buyers. He went on to say:
+On our modelling, you will see a reduction of about 0.29 per cent interest
+rates to first home buyers who buy to build or buy off the plan. That would
+save over $37,000 over the life of a loan for the first home buyer. It is a large
+86 Mr Johnathan Mott, Founding Partner, Barrenjoey, Proof Committee Hansard, 16 October 2024, p. 25.
+87 Mr Johnathan Mott, Founding Partner, Barrenjoey, Proof Committee Hansard, 16 October 2024, p. 27.
+42
+amount of money that can help just by modestly reweighting the risk
+weighting.88
+3.86 Mr Mott suggested this was a change which, if approved by APRA, could be
+quickly implemented by banks and would be in their interests, both in their
+commitments to being good corporate citizens and in allowing them to grow
+their customer base among young people.89
+3.87 Based on Barrenjoey’s modelling, Mr Mott confirmed this change would lead to
+an increase in interest rates for investors and other owner-occupier mortgage
+customers of roughly six to seven basis points.90 He maintained that this change
+would not have an impact on financial resiliency, commenting that Australian
+banks are ‘unquestionably strong’.91 He was also clear that this could be
+implemented in such a way so as to reduce the burden on first home buyers
+without increasing rates for other existing mortgagees.92
+3.88 He conceded that for people who had already bought property, such as those
+seeking to upgrade, this change would not be of benefit to them. He noted,
+however, that existing property owners had likely benefitted from increases in
+property prices.93
+3.89 Mr Paul Deall, Westpac, pointed out that the bank held more capital for first
+home and younger borrowers as they present as riskier loans. First home buyers
+tend to have higher default rates and hardship rates which flows through to
+higher risk weightings. Despite this, Westpac’s proportion of new lending for
+first home buyers had increased roughly 50 per cent up to the end of the 2024
+financial year. He felt that under current policy settings there was not a
+particular constraint on first home buyers as this cohort was continuing to enter
+the market.94
+3.90 Mr Andy Kerr, Executive of Home Ownership at NAB, was not enthusiastic
+about proposed adjustments to credit risk weightings, noting that this had not
+been one of NAB’s recommendations to the inquiry.
+88 Mr Johnathan Mott, Founding Partner, Barrenjoey, Proof Committee Hansard, 16 October 2024, p. 27.
+89 Mr Johnathan Mott, Founding Partner, Barrenjoey, Proof Committee Hansard, 16 October 2024,
+pp. 27–28.
+90 Mr Johnathan Mott, Founding Partner, Barrenjoey, Proof Committee Hansard, 16 October 2024,
+pp. 28–29.
+91 Mr Johnathan Mott, Founding Partner, Barrenjoey, Proof Committee Hansard, 16 October 2024, p. 29.
+92 Mr Johnathan Mott, Founding Partner, Barrenjoey, Proof Committee Hansard, 16 October 2024, p. 29.
+93 Mr Johnathan Mott, Founding Partner, Barrenjoey, Proof Committee Hansard, 16 October 2024, p. 29.
+94 Mr Paul Deall, Head, Risk, Mortgages and Consumer Credit, Westpac, Proof Committee Hansard,
+24 October 2024, p.9.
+43
+3.91 In its submission to the inquiry, the ABA stated that it was not advocating for
+changes to the capital treatment of residential mortgages and was supportive of
+APRA’s current framework.95
+3.92 Mr Angus Sullivan, CBA, was asked about the marketplace effects of one bank
+offering a lower interest rate to first home buyers due to changes in the credit
+risk weightings and the flow-on effects of that. He stated that the mortgage
+market is a competitive one and that one banking institution offering lower first
+home buyer rates due to a reduction in capital could lead to broader reductions
+of prices for first homeowners across the market.96
+3.93 Ms Kylie Rixon, Chief Risk Officer of Retail Banking Services at CBA, noted that
+a relatively small change in risk weighting could lead to an increase in
+borrowing capacity of between $10 000 and $15 000.97
+3.94 The committee received differing evidence from witnesses that gave evidence
+about the risk profile of first home buyers. The evidence from lenders mortgage
+insurance provider Helia was that first home buyers pose a ‘slightly greater risk’
+than other kinds of home borrowers.98
+3.95 Mr Angus Sullivan of CBA stated that first home buyers, based on their data,
+were higher risks and experience higher rates of delinquency. He was of the
+view that the level of capital underlying first home buyers’ mortgages should
+reflect this higher risk.99
+3.96 NAB provided a differing view, with Mr Andy Kerr stating that first home
+buyers are no more or less risky than other customers and do not show up as
+higher risk than other home borrowers in NAB’s portfolio.100
+Role of Lenders Mortgage Insurance
+3.97 The Insurance Council of Australia provided evidence on the role of lenders
+mortgage insurance (LMI) for first home buyers and the prevailing capital
+framework:
+95 ABA, Submission 30, p. 5.
+96 Mr Angus Sullivan, Group Executive, Retail Banking Services, Commonwealth Bank of Australia
+(CBA), Proof Committee Hansard, 24 October 2024, p. 25.
+97 Ms Kylie Rixon, Chief Risk Officer, Retail Banking Services, Commonwealth Bank of Australia
+(CBA), Proof Committee Hansard, 24 October 2024, p. 25.
+98 Ms Pauline Blight-Johnston, Chief Executive Officer and Managing Director, Helia, Proof Committee
+Hansard, 24 October 2024, p. 45.
+99 Mr Angus Sullivan, Group Executive, Retail Banking Services, Commonwealth Bank of Australia
+(CBA), Proof Committee Hansard, 24 October 2024, p. 24.
+100 Mr Andy Kerr, Executive, Home Ownership, National Australia Bank, Proof Committee Hansard,
+24 October 2024, p. 12.
+44
+We are of the view that the capital framework as designed operates to
+increase the cost of high loan-to-value ratio (LVR) residential mortgages that
+are protected by lenders’ mortgage insurance (LMI) – lending that
+commonly comprises first home buyers (FHBs). This is because ADIs are
+required to hold higher levels of capital for high-LVR loans protected by
+LMI through higher risk weights attaching to those loans, and ADIs are also
+required to maintain higher capital ratios against those total higher risk
+weighted assets. This disproportionately impacts high-LVR borrowers.101
+3.98 The Insurance Council went on to note that, based on advertised rates of some
+of the largest mortgage lenders, borrowers with an LVR of 90 to 95 per cent had
+an interest rate 1.09 per cent higher on average than a borrower with an LVR of
+80 per cent. This kind of borrower would also be incurring the costs of LMI as
+well.102
+3.99 Productivity Commission analysis from 2018 indicates that LMI is not correctly
+priced as a risk mitigation product:
+We analysed whether borrowers paying for LMI are also paying higher
+interest rates. Using data from the Australian Securities and Investments
+Commission, we found that, after taking into account factors such as the
+borrower’s age and the loan amount, borrowers with LMI were on average
+charged a slightly higher interest rate, amounting to 0.00066% of the average
+interest rate for all borrowers. This means that, if the average interest rate
+for all borrowers was 5%, the average interest rate for borrowers with LMI
+would be approximately 5.003%. Albeit small, this difference is statistically
+significant.
+But even a small difference is hard to justify — LMI already protects lenders
+from the additional risk of loss arising from borrower default where there is
+a high LVR ratio, and lenders should not need to charge a higher interest
+rate as well to protect themselves against the higher risk.103
+3.100 The Insurance Council contended that ‘lenders are now seeking a return on the
+additional capital they are required to hold for high-LVR lending post Basel III
+by charging a higher interest rate to high-LVR borrowers’.104
+3.101 In its answers to questions on notice, the Insurance Council provided the
+following graph illustrating this point (figure 3.4 below). This shows the
+101 Insurance Council of Australia, answer to written questions on notice, 5 November 2024 (received
+15 November 2024), p. 1.
+102 Insurance Council of Australia, answer to written questions on notice, 5 November 2024 (received
+15 November 2024), p. 1.
+103 Productivity Commission, Inquiry Report, Competition in the Australian Financial System, 3 August
+2018, pp. 365–366.
+104 Insurance Council of Australia, answer to written questions on notice, 5 November 2024 (received
+15 November 2024), pp. 1–2.
+45
+additional costs of a $500 000 mortgage with a 95 per cent LVR (and as such
+protected by LMI) over the life of the loan.105
+Figure 3.4 Cumulative costs of additional interest rate and LMI for a first
+home borrower
+Source: Insurance Council of Australia, answers to written questions on notice, 5 November 2024 (received 15
+November 2024), p. 2.
+3.102 The Insurance Council made the following suggestion:
+We suggest that recalibrating the risk weightings for high-LVR residential
+mortgages (for owner-occupiers repaying principal and interest, not
+investor and interest-only loans) with LMI would lower the capital costs for
+ADIs. This in turn should work to reduce the costs of residential mortgage
+lending to high-LVR borrowers (typically FHBs). This would better align to
+the original intent of LMI which was to enable home buyers with low
+deposits to access a home loan at rates equivalent to those with a 20%
+deposit, as the increased credit risk of these loans has been appropriately
+mitigated by the use of LMI. LMI providers, as the Committee is aware, are
+separately regulated by APRA and must hold significant capital to support
+high-LVR home lending in Australia.106
+3.103 This view was reinforced by answers to questions on notice provided by LMI
+provider Helia, who noted that unequal capital requirements are applied to high
+105 Insurance Council of Australia, answer to written questions on notice, 5 November 2024 (received
+15 November 2024), p. 2.
+106 Insurance Council of Australia, answer to written questions on notice, 5 November 2024 (received
+15 November 2024), p. 2.
+46
+LVR ratio loans based on whether they utilise LMI, parental guarantees or the
+Home Guarantee Scheme.107
+3.104 Helia provided the following table demonstrating the above point, using the
+example of a $600 000 loan, a 95 per cent LVR and the capital requirements and
+risk weights required across different low deposit assistance to the borrower:
+Figure 3.5 Capital treatment of $600 000 loan with different low-deposit
+security options
+Source: Helia, answer to questions on notice, 24 October 2024 (received 6 November 2024), p. 1.
+3.105 The capital benefit provided to parental guarantees demonstrates the inflated
+capital holding on LMI which could be reduced to improve accessibility to
+Australians without access to a parental guarantee. This is regulatory arbitrage
+which is so significant that a lower capital risk weighting for LMI secured
+mortgages would easily offset the cost of the premium.
+Student loan considerations
+3.106 The committee also received evidence about whether HECS-HELP debt
+(hereafter ‘HECS’ – a loan from the Australian Government used to pay
+university fees) should be considered a debt when a borrower applies for a
+mortgage, a consideration particularly relevant to younger borrowers and first
+home borrowers.
+3.107 In its submission, the Macquarie University Economics Society wrote that HECS
+debt was becoming an increasing barrier to home ownership. They noted that
+the average 20–29-year-old has a HECS debt of approximately $32 000 and that
+in 2023 when the indexation for HECS debt was at 7.1 per cent, many people
+found that their repayments did not cover the applied indexation.108
+107 Helia, answers to questions on notice, 24 October2024 (received 6 November 2024), p. 1.
+108 Macquarie University Economics Society, Submission 27, pp. [7–8].
+47
+3.108 Currently, HECS is assessed similarly to any other debt (such as credit card debt
+or a personal loan) which a person applies for a mortgage. As Barrenjoey
+explained:
+In calculating borrowing capacity the banks are required to look at all debts
+such as credit cards, personal loans and HECS - HELP. This debt is not
+deducted from borrowing capacity, but the repayments are factored into the
+calculations when determining borrowing capacity as this money is not
+available to meet the mortgage repayment.109
+3.109 Mr Andy Kerr of NAB explained how HECS debt is calculated for the purposes
+of mortgage serviceability:
+HECS debt is paid pretax. However, we look at post-tax income as our
+starting point for serviceability assessment, and then we are required to
+consider HECS as a standalone debt on top of that. To some extent, we see
+that as double counting in its treatment.110
+3.110 Mr Ranin Mendis Abeysekera of Ello Lending Co noted that many younger
+people applying for a mortgage are not aware of the longer-term impact of the
+amount of student debt they are carrying has on their borrowing capacity. He
+relayed the circumstances of one of his clients who, after calculating their
+borrowing capacity with HECS debt included, saw their borrowing capacity
+reduced by $100 000.111
+3.111 Mr Abeysekera offered several suggestions for how this barrier could be
+overcome for borrowers with large amounts of HECS debt, such as refinancing
+the HECS debt into another loan or excluding HECS from serviceability
+calculations. He went on to state that, with current calculations HECS debt has
+a greater impact than other kinds of debt, making the point that a $10 000 credit
+card debt would not have as large an impact on a person’s lending capacity as a
+$10 000 HECS debt.112
+3.112 The MFAA made the point that HECS debt was a significant barrier for many
+first home buyers and advocated for the removal of HECS debt being included
+in serviceability assessments in certain circumstances.113
+109 Barrenjoey, Submission 59, Attachment 3, p. 8.
+110 Mr Andy Kerr, Executive, Home Ownership, National Australia Bank, Proof Committee Hansard,
+24 October 2024, p. 14.
+111 Mr Ranin Mendis Abeysekera, Managing Director, Ello Lending Co, Proof Committee Hansard,
+16 October 2024, pp. 17–18.
+112 Mr Ranin Mendis Abeysekera, Managing Director, Ello Lending Co, Proof Committee Hansard,
+16 October 2024, p. 18.
+113 MFAA, Submission 52, p. 16.
+48
+3.113 Barrenjoey was also in favour of having HECS debt excluded from borrowing
+calculations, but did note that this could put some borrowers in financial stress
+for the first few years of the life of their mortgage.114
+3.114 In his submission, Dr John Bryon was of the view that ‘an applicant’s obligation
+to make HECS repayments should only be taken into account in the context of
+their receipt of the income that triggers that obligation in actuality’.115
+3.115 Mr Holmes of Legal Aid Queensland was more sceptical of the idea, noting that,
+whether HECS is calculated as part of a loan applicant’s debt or not, it still is a
+payment that is required to be made and reduces an applicant’s disposable
+income. The risk of not including HECS in debt calculations is this can make a
+person’s disposable income look higher and can lead to financial hardship in the
+future.116
+3.116 Mr Kerr of NAB stated that his bank has a ‘very conservative approach to
+treating HECS debt’ and that the bank’s recommendation was that it should
+only be treated as a pre-tax deduction.117 In its submission, NAB was open to
+working with APRA on alternative approaches for how to consider HECS debt
+for first home buyers.118
+3.117 The ABA was unconvinced that any modifications to how HECS debt was
+treated in mortgage applications would have a significant impact on a
+customer’s ability to get a loan. The ABA noted that HECS was taken out of a
+person’s income before they are paid, impacting the income available to service
+a loan until the HECS debt is paid off.119
+Changes to responsible lending obligations
+3.118 Another issue raised the inquiry was whether there was a case for changes to
+the current responsible lending obligations.
+3.119 Several submissions were supportive of current responsible lending obligations,
+commenting that these laws were striking the right balance and operated
+effectively.120
+114 Barrenjoey, Submission 59, Attachment 3, p. 1.
+115 Dr John Byron, Submission 46, p. [4].
+116 Mr Paul Holmes, Director, Disaster Relief, Legal Aid Queensland, Proof Committee Hansard,
+16 October 2024, p. 33.
+117 Mr Andy Kerr, Executive, Home Ownership, National Australia Bank, Proof Committee Hansard,
+24 October 2024, p. 14.
+118 NAB, Submission 53, p. 2.
+119 ABA, Submission 30, p. 8.
+120 Legal Aid Queensland, Submission 7, p. 4; Law Council of Australia, Submission 26, p. 2; Westpac,
+Submission 62, p. 2.
+49
+3.120 Ms Anja Pannek, CEO of the MFAA, was of the view that current responsible
+lending obligations were fit for purpose. However, she did state that there were
+elements of the National Credit Act which could be amended to include new
+credit products, such as co-ownership and deferred sharing of capital growth,
+which currently are not envisioned by the Act.121
+3.121 Mr Chris Taylor, Chief of Policy of the ABA stated that banks are supportive of
+the responsible lending rules but noted that current obligations around
+assessing a first home buyer’s ability to service a mortgage do not take into
+account a borrower’s future income growth. He advocated for more flexibility
+in the regulatory guidance in this regard.122 He went on to say:
+[First home buyers] are also usually at the beginning of their careers and
+have a higher income trajectory throughout their career. There was some
+recent research done by the RBA that showed first home buyers on the
+whole don't tend to present a greater risk of default than a broader set of
+borrowers.123
+3.122 Witnesses also discussed the 2020 Federal Court case of Australian Securities and
+Investments Commission v Westpac Banking Corporation (Liability Trial),124
+colloquially known as the ‘Wagyu and Shiraz Decision.’ As explained by Mr
+David Carson of the FBAA:
+Effectively, what the court said is that customers can and do change their
+behaviour after they are approved for a loan. It is not a breach of responsible
+lending for a lender to recognise that in their approach to determining what
+they are going to lend to a customer.125
+3.123 Mr Carson went on to explain that, although the regulatory guidance had seen
+some change since the Wagyu and Shiraz Decision, this had been only minimal
+and had led to the enforcement of responsible lending becoming a ‘retrospective
+test’. As a consequence:
+…from a lender's perspective, if they make an assessment that this person
+should cut 20 per cent of their expenses and can, and they lend against that
+but then the customer doesn't make those cuts, the lender is effectively
+wearing the risk of that subsequent behaviour. To mitigate that risk, they
+are generally unwilling to be too courageous about making reasonable
+concessions for consumers to adjust their behaviour. That results in a
+121 Ms Anja Pannek, Chief Executive Officer, Mortgage & Finance Association of Australia (MFAA),
+Proof Committee Hansard, 16 October 2024, p. 16.
+122 Mr Chris Taylor, Chief of Policy, Australian Banking Association (ABA), Proof Committee Hansard,
+24 October 2024, p. 1.
+123 Mr Chris Taylor, Chief of Policy, Australian Banking Association (ABA), Proof Committee Hansard,
+24 October 2024, pp. 2–3.
+124 [2019] FCA 1244.
+125 Mr David Carson, Regulatory Compliance Adviser, Finance Brokers Association of Australia
+(FBAA), Proof Committee Hansard, 16 October 2024, p. 21.
+50
+conservative assessment, where they say, 'We'll assess you as having less
+income and more expenses to ensure that if something goes wrong with this
+loan down the track, we're not going to be accused of overcommitting you.
+It will be for some other change.'126
+3.124 This view was countered by Mrs Julia Davis of the Financial Rights Legal Centre,
+who claimed that lenders are not verifying a potential mortgage customer’s
+expenses and are instead relying on standardised measurements. She advocated
+for a change to responsible lending law to strengthen mortgage assessment
+processes.127
+3.125 The Consumer Policy Research Centre submitted that current responsible
+lending rules were working as intended, and cautioned that any changes to
+these rules could lead to harm to consumers.128
+3.126 Ms Erin Turner, CEO of the Consumer Policy Research Centre, advocated for
+more specificity in responsible lending rules for purchasers of investment
+properties:
+We don't just want investors; we want good investors that will be good
+quality landlords for people who rent. And an investor that can't afford to
+fix an oven when it breaks is a bad landlord.129
+Supply-side solutions
+3.127 Although the focus of the inquiry was on the financial settings which can be
+changed to increase home ownership, particularly for first home buyers, there
+was evidence presented at the hearing and in submissions about the place of
+supply side solutions to Australia’s housing market.
+3.128 Many people wrote to the committee advocating for a focus on increasing
+housing supply, or other supply-side solutions to the current housing crisis.130
+3.129 Housing construction has collapsed under the Albanese Government to just
+160,000 houses this year - the same amount as in 1989 when the population was
+just 17 million.
+3.130 The committee was presented a range of perspectives on the supply challenges
+from building costs, land release, last mile infrastructure and access to finance.
+126 Mr David Carson, Regulatory Compliance Adviser, Finance Brokers Association of Australia
+(FBAA), Proof Committee Hansard, 16 October 2024, pp. 21–22.
+127 Mrs Julia Davis, Senior Policy and Communications Officer, Financial Rights Legal Centre (FRLC),
+Proof Committee Hansard, 24 October 2024, p. 19.
+128 Consumer Policy Research Centre, Submission 69, p. 4.
+129 Ms Erin Turner, Chief Executive Officer, Consumer Policy Research Centre, Proof Committee
+Hansard, 24 October 2024, p. 22.
+130 Home Loan Experts, Submission 34, p. [7]; National Australia Bank, Submission 53, p. 3; Insurance
+Council of Australia, Submission 5, p. 3; Property Council of Australia, Submission 32, pp. [3-4].
+51
+3.131 Mr Paul Holmes of Legal Aid Queensland made the point that there was
+currently housing stock available and competition for those homes, leading to
+some buyers offering above-market prices for properties and inflating housing
+prices. This has led to the ‘lower end of the market’ being squeezed out of the
+housing market.131
+3.132 Mr Mike Zorbas, Property Council, spoke in favour of ‘build-to-rent’ housing
+investment as one additional housing model to be implemented in Australia,
+noting it provides a good rental experience for tenants, does not crowd out the
+private rental market, and puts downward pressure on rents. Mr Zorbas told he
+committee:
+…we really need to pull every possible lever to increase the supply to bring
+down those prices, or at least to put downward pressure on them over
+time.132
+3.133 Mr Holmes of Legal Aid Queensland was firmly of the view that housing supply
+needed to be increased, arguing that ‘giving people more access to money is not
+going to magically create more houses’.133
+3.134 Dr Greg Jericho, Chief Economist at the Australia Institute, made the point that
+housing supply had been affected by the drop in supply of public sector
+housing. He advised that whereas public sector housing had at once time
+contributed to 10 per cent of new housing, in the last 20 to 25 years this had
+fallen to less than two per cent. While acknowledging that there were other
+factors that have led to the current housing crisis, he was firm that the shift away
+from public housing should be reversed.134
+3.135 Dr Sarah Hunter, Economic Assistant Governor at the Reserve Bank of Australia
+(RBA), provided the committee with detail of the RBA’s recent discussions with
+the building sector. She noted that one of the recent pieces of feedback the RBA
+had received from the residential building sector was a need to ease some
+planning rules and regulations. She also relayed that the RBA had received
+feedback that some of the supply-chain constraints which had affected the
+building sector during the COVID-19 pandemic, particularly those relating to
+131 Mr Paul Holmes, Director, Disaster Relief, Legal Aid Queensland, Proof Committee Hansard,
+16 October 2024, p. 32.
+132 Mr Mike Zorbas, Chief Executive Officer, Property Council of Australia (PCA), Proof Committee
+Hansard, 16 October 2024, p. 7.
+133 Mr Paul Holmes, Director, Disaster Relief, Legal Aid Queensland, Proof Committee Hansard,
+16 October 2024, p. 32.
+134 Dr Greg Jericho, Chief Economist, The Australia Institute, Proof Committee Hansard, 16 October 2024,
+p. 37.
+52
+labour, had started to ease and there was an associated modest up-tick in
+dwelling approvals.135
+3.136 Dr Hunter went on to say that an increase in supply would, generally speaking,
+put downward pressure on housing prices and rents and that this is ‘a
+fundamental of the market’.136
+3.137 This view was echoed by Mr Chris Taylor of the ABA, who stated that new
+housing supply was at a low point and housing prices had increased 40 per cent
+since the COVID-19 pandemic. Mr Taylor said:
+…[t]o create more opportunities for young Australians, we need to build
+more homes. The best way to increase affordable housing is by
+implementing policies that will increase supply.137
+3.138 This view was echoed by Westpac, with Mr Martin Green clearly stating that
+‘the primary challenge facing Australia is housing supply’. He was of the view
+that there were structural obstacles which had made residential construction
+building an unattractive risk for builders and developers, with many in that
+sector moving to less risky infrastructure development projects. He went on to
+say:
+Construction costs, labour costs and shortages, and planning and
+infrastructure costs are large contributors to this issue. These factors mean
+that the basic economics for building homes in Australia are currently
+severely challenged, if not broken. While there are other contributing
+factors, none of which are easily solvable, to effectively support home
+ownership, we must prioritise addressing these fundamental supply
+challenges.138
+3.139 Mr Andy Kerr of NAB warned against a focus on demand-side policies without
+ensuring there was adequate supply of housing for buyers, noting this could
+exacerbate current issues in the housing market. He advocated for improving
+planning and approval processes to incentivize housing development, as well
+as increased collaboration across different levels of government.139
+135 Dr Sarah Hunter, Assistant Governor, Economic, Reserve Bank of Australia, Proof Committee
+Hansard, 16 October 2024, pp. 42–43.
+136 Dr Sarah Hunter, Assistant Governor, Economic, Reserve Bank of Australia, Proof Committee
+Hansard, 16 October 2024, p. 44.
+137 Mr Chris Taylor, Chief of Policy, Australian Banking Association (ABA), Proof Committee Hansard,
+24 October 2024, p. 1.
+138 Mr Martin Green, National General Manager, Property Finance, Westpac, Proof Committee Hansard,
+24 October 2024, p. 7.
+139 Mr Andy Kerr, Executive, Home Ownership, National Australia Bank, Proof Committee Hansard,
+24 October 2024, p. 11.
+53
+Stamp duty and other state-based taxes
+3.140 The committee also heard evidence about the effects state and territory tax
+regimes, including stamp duty and land tax, were having on housing supply.
+3.141 Mr Tim Reardon of the Housing Industry Association suggested that high rates
+of stamp duty on foreign investors by state governments had constrained
+investment in apartment construction. He added that this constraint had been
+further exacerbated by the federal government’s Foreign Investment Review
+Board.140
+3.142 Mr Reardon went on to say that foreign banks or other financial institutions
+investing through building apartments did not affect supply, and suggested a
+Productivity Commission review of the punitive rates of stamp duty on foreign
+investment would find them to be revenue negative, particularly in New South
+Wales.141
+3.143 Mr Cameron Kusher, Executive Manager or Economic Research for the REA
+Group, aruged in favour of replacing stamp duty with a land-tax system. He
+noted that land tax offered state and territory governments more guaranteed
+income, and observed that the existence of state-based first home buyer
+programs that waive stamp duty was a recognition of the large hindrance stamp
+duty places on someone wanting to enter the property market.142
+Different titling and ownership models
+3.144 There was also a discussion at public hearings and in submissions about new
+titling and ownership models which could be explored to encourage first home
+buyers into the market.
+3.145 Ms Lynda Coker, CEO and Co-founder of Co-operty, was strongly in favour of
+exploring co-ownership models of property ownership:
+We believe co-owning with family or friends can help first home buyers onto
+the property ladder faster and more cost effectively than some other
+affordability solutions, as it involves less debt, fewer fees and accelerates
+ownership for more people in unlocking supply, especially in the inner and
+middle rings of our cities. It also provides a flexible option for existing home
+owners, particularly retirees, to gradually sell down their property
+140 Mr Tim Reardon, Chief Economist, Housing Industry Association (HIA), Proof Committee Hansard,
+16 October 2024, p. 8.
+141 Mr Tim Reardon, Chief Economist, Housing Industry Association (HIA), Proof Committee Hansard,
+16 October 2024, pp. 8–9.
+142 Mr Cameron Kusher, Executive Manager, Economic Research, REA Group, Proof Committee
+Hansard, 16 October 2024, p. 18.
+54
+investment, optimising their capital gains while improving their cash
+position and encouraging wealth transfer across generations.143
+3.146 Ms Coker went on to explain that parents co-owning a property with their child
+could be preferable to providing a cash gift or loan for home ownership. She
+noted that co-ownership enables asset protection and better financial security
+for people nearing retirement.144
+3.147 Co-operty’s submission also made the point that recent research has shown
+47 per cent of young Australians ‘would consider buying property with a friend
+due to affordability concerns’.145 It added:
+Co-ownership is a natural circumstance for many life and family situations
+but now demand is growing due to affordability constraints. However bank
+lending policies remain restrictive and fail to recognise that the credit risk is
+lower when people co-buy as a cohort (stamp duty, mortgage and ongoing
+costs are shared) albeit liquidity risk is higher.146
+3.148 Co-operty’s submission was in favour examining APRA’s current responsible
+lending obligations and the Banking Code of Conduct to better facilitate co-
+ownership models of property ownership.147
+Conclusion
+3.149 The committee’s views on the issues raised in this chapter, as well as
+recommendations for this inquiry, will be explored in the next chapter.
+143 Ms Lynda Coker, Chief Executive Officer and Co-founder, Co-operty Pty Ltd, Proof Committee
+Hansard, 24 October 2024, p. 41.
+144 Ms Lynda Coker, Chief Executive Officer and Co-founder, Co-operty Pty Ltd, Proof Committee
+Hansard, 24 October 2024, pp. 41–42.
+145 Co-operty Pty Ltd, Submission 40, p. [1].
+146 Co-operty Pty Ltd, Submission 40, p. [2].
+147 Co-operty Pty Ltd, Submission 40, pp. [2–3].
+Chapter 4
+Committee view
+4.1 This chapter consists of the committee’s view of the evidence received though
+the inquiry, as well as the committee’s recommendations.
+Parliamentary Oversight
+4.2 Within Australia’s financial regulatory framework, APRA forms one of the
+peaks of the Twin Peaks system, with responsibility for ensuring Australia’s
+financial safety and stability through prudential regulation.
+4.3 Despite this, the committee notes the differences between the oversight of the
+two agencies, ASIC and APRA, that make up the two peaks of Twin Peaks.
+4.4 Both organisations appear before Senate Estimates and can be called to appear
+before other Senate committees. They also both receive statements of
+expectations from the Australian Government and are required to table their
+annual reports in the Parliament. Yet while the ASIC is expressly subject to the
+oversight of a statutory parliamentary committee, namely the Parliamentary
+Joint Committee for Corporations and Financial Services, under the ASIC Act,
+the APRA Act does not contain an equivalent provision.
+4.5 The committee considers that within the Twin Peaks system, both ‘peaks’
+should receive the same degree of oversight. The gap between ASIC and APRA
+should be closed in order to ensure that the Australian people can have full
+confidence in the Twin Peaks financial regulatory system.
+4.6 APRA is making rules as a delegate of the Parliament, which heavily impacts
+upon the lives of Australians. Mortgage rules are but one example.
+Recommendation 1
+4.7 The committee recommends that the Australian Government amend the
+Australian Prudential Regulation Authority Act 1998 to establish a statutory
+duty for the Parliamentary Joint Committee on Corporations and Financial
+Services to undertake regular scrutiny and oversight of the Australian
+Prudential Regulation Authority, broadly equivalent to the duties set out for
+that committee in relation to the Australian Securities and Investments
+Commission set out in section 243 of the Australian Securities and Investments
+Commission Act 2001.
+APRA’s mandate
+4.8 Under the current financial regulatory system, APRA has an overarching
+objective of promoting financial system stability. This is one of the cornerstones
+of Australia’s current financial regulatory system.
+55
+56
+4.9 The committee commends APRA for its role as a prudential regulator. It is clear
+from evidence received that APRA takes its role of promoting financial system
+stability very seriously. This has created a financial system in Australia which is
+one of the most stable in the world. Evidence received about the very low rate
+of banking collapses and mortgage default in Australia reflects this. However,
+the complete elimination of all risk is not an appropriate or desirable goal for
+the economy.
+4.10 Evidence received by the committee throughout the inquiry has shown that
+APRA’s dedication to stability, though commendable, may be inadvertently
+disadvantaging first home buyers in Australia. The repeated evidence received
+about the difficulties faced by first home buyers, including that it is easier to buy
+your 10th home in Australia than it is to buy your first, was particularly
+compelling.
+4.11 To be clear, the committee is not recommending that prudential standards be
+‘loosened’ or ‘relaxed’. As previously noted, strong prudential oversight is an
+important part of Australia’s highly stable financial system. However, the
+importance of home ownership, and the ability of first home buyers to enter the
+market, is also an important consideration.
+4.12 The committee is of the view that making the changes to APRA’s mandate as
+outlined in the recommendations below could have a beneficial impact on first
+home ownership, without diminishing the stability of Australia’s financial
+system. Requiring APRA to have consideration for first home ownership, both
+in its objectives as well as in the Statement of Expectations provided to it by the
+Government, sets the stage for a prudentially sound financial system which is
+fair and accessible to all Australians.
+4.13 The Treasurer, the Hon Dr Jim Chalmers MP, gave an updated statement of
+expectations to APRA in June 2023. The committee notes that the statement
+contained no mention of broader economic considerations such as home
+ownership.
+Recommendation 2
+4.14 The committee recommends that the Australian Government amend the
+Australian Prudential Regulation Authority Act 1998 objectives contained in
+section 8 to include the promotion of first home ownership as a subsidiary
+objective.
+Recommendation 3
+4.15 The committee recommends that the Australian Prudential Regulation
+Authority Act 1998 be amended to include specific obligations that the
+Australian Prudential Regulation Authority must have regard to the impacts
+on first home buyers when setting prudential standards.
+57
+Recommendation 4
+4.16 The committee recommends that the Australian Government provide the
+Australian Prudential Regulation Authority with a new Statement of
+Expectations which would include a requirement to consider the long-term
+benefits of widespread home ownership – for financial, social and fiscal
+stability - when setting prudential standards.
+Changes to current lending rules
+4.17 The committee heard concerning evidence from several witnesses that banks
+were increasingly lending only to people with higher incomes and that
+mortgages were becoming ‘luxury products.’
+4.18 Evidence received throughout the inquiry has underlined the benefits of home
+ownership for Australians and the difficulties faced particularly by buyers
+trying to enter the property market for the first time.
+Serviceability buffer
+4.19 The evidence received during hearings was clear that the current mortgage
+serviceability buffers place a particular burden on first home buyers - one that,
+at different stages of the economic cycle, may not appropriately reflect the risks
+that first home buyers pose as customers.
+4.20 The committee was highly concerned by the information provided by the
+Mortgage and Finance Association of Australia that approximately 37.5 per cent
+of prospective first home buyers were unable to obtain finance due to the three
+per cent serviceability buffer.
+4.21 The committee particularly notes the evidence from the Australian Banking
+Association and several large and small banks, that first home buyers were not
+significantly more risky than other types of mortgage customer, particularly
+given that, as a group, their future earnings are more likely than other cohorts
+of borrowers to increase over time.
+4.22 The committee is of the view that the three per cent serviceability buffer is not
+sufficiently dynamic, as it has applied both when the official cash rate was
+0.1 per cent in 2021, and currently when the official cash rate is at 4.35 per cent,
+at or near the likely top of a monetary policy tightening cycle.
+4.23 The committee was concerned by evidence about the impacts on mortgage
+lending of the three per cent loan serviceability buffer required by APRA. This
+‘one size fits all’ approach to mortgage lending has a particularly onerous
+impact on first home buyers and can also lead to other kinds of borrowers being
+unable to refinance their loans to more competitive rates, resulting in them being
+trapped in what has been referred to as ‘mortgage prison’.
+4.24 The committee also noted the release of APRA’s update on macroprudential
+standards in November 2024. This update confirms the blunt nature of this
+58
+instrument, that the buffer is calibrated at a system-wide level, and that the level
+of exception utilised by ADI’s is miniscule, representing around five per cent of
+new mortgages over the last year.
+Recommendation 5
+4.25 The committee recommends that the Australian Government, through its
+Statement of Expectations, require the Australian Prudential Regulation
+Authority to prepare prudential guidelines for a lower first home buyer
+serviceability buffer that can be adjusted responsively to the economic cycle
+and to support financial stability settings within APRA’s prudential
+standards.
+ The prudential guidelines would be a separate and disallowable
+legislative instrument; and
+ APRA would monitor and report on the serviceability buffer’s impact on
+first home ownership and financial stability annually.
+Capital risk weightings
+4.26 The committee is of the view that capital risk weightings applied to first home
+mortgages are essentially judgements, and there are various risk weight
+permutations that could be applied.
+4.27 The committee received evidence from the Insurance Council of Australia
+noting that capital risk weightings differ between mortgages covered by the
+government Home Guarantee Scheme (HGS), parental guarantees, and those
+covered by the private market Lenders Mortgage Insurance (LMI).
+4.28 The committee notes that there is a body of evidence suggesting that the risk
+weights applying to first home mortgages with LMI are excessive, when
+compared to the risk weighting applied to parental guarantees.
+4.29 The committee is strongly of the view that this is regulatory arbitrage. For many
+Australians, LMI is the only way they can access a mortgage, particularly in
+situations where a parental guarantee isn’t available. This is standing in the way
+of cheaper mortgages.
+4.30 The ‘Bank of Mum and Dad’ has been described as Australia’s fifth largest
+lender. The committee finds this trend highly concerning and is of the view that
+parental wealth should not be determining housing outcomes. In particular, this
+trend should not be reinforced by the housing regulator.
+4.31 The committee notes that APRA gave evidence that there are several
+permutations as to how risk weightings can be applied to mortgages as set out
+in the prudential standards.
+4.32 The committee received evidence that certain changes in mortgage risk
+weightings could lead to increased borrowing capacity for first home buyers
+and significant savings over the life of their loans, without increasing overall
+59
+risk in Australia’s financial system. Evidence received by the committee from
+investment bank Barrenjoey suggests that up to 50 000 first home buyers per
+annum could become able to buy a home under a proposal along these lines.
+Recommendation 6
+4.33 The committee recommends that the Australian Government, through its
+Statement of Expectations, require the Australian Prudential Regulation
+Authority to prepare prudential guidelines allowing Authorised Deposit-
+taking Institutions to have lower capital risk weightings for first home
+mortgages where a stronger degree of risk protection exists, within APRA’s
+prudential standards.
+ The prudential guidelines would be a separate and disallowable
+legislative instrument; and
+ APRA would monitor and report annually on the impact on first
+homeowners and financial stability of enhanced flexibility around capital
+risk weightings.
+Other recommendations
+4.34 The committee welcomes the evidence provided about more flexible ownership
+options for first home buyers, whether through parents being on the title of their
+child’s property, or other options for non-family co-ownership of property.
+4.35 There is a strong case that there is room for more innovative thinking in the
+home lending space along such lines, to provide more opportunities for first
+home buyers to enter the property market.
+Recommendation 7
+4.36 The committee recommends that the Australian Government consults with
+Approved Deposit-taking Institutions about options for modernising the
+Banking Code of Practice to facilitate lending in co-ownership scenarios.
+Senator Andrew Bragg
+Chair
+Liberal Senator for New South Wales
+
+Government Senators' Dissenting Report
+1.1 Recommendations made by the Chair would result in higher house prices for
+both first home buyers and owner occupiers, expose first home buyers to greater
+risks they cannot afford, and add systematic risk to the financial system, all
+without building a single home.
+1.2 As presented, the recommendations would end 25 years of bi-partisan support
+for the independence of the prudential regulator.
+1.3 Improving home ownership and affordability is a key concern for most
+Australians, particularly low and middle-income Australians, many of whom
+are renters and aspiring first home buyers.
+1.4 Like all broad-based demand-side proposals, including the Coalition’s Super for
+Housing policy, these proposals are intended to increase purchasing power,
+without increasing supply, and are therefore inflationary to house prices.
+1.5 Further, they allow those who can already buy a home to borrow more, and pay
+more, rather than bringing those priced out of home ownership into the market.
+1.6 The solution to more homeownership is supply and the Government has
+committed $32 billion over the decade to unlock supply in the private, social
+and affordable housing. Affordable rental housing is critical to supporting first
+home buyers to grow a healthy first home loan deposit.
+1.7 This includes $3.5 billion in payments to state, territory and local governments
+to support the delivery of new homes towards the National Housing Accord
+target of 1.2 million homes in the next 5 years, the $10 billion Housing Australia
+Future Fund for a pipeline of investments in social and affordable homes, and a
+$2 billion payment to states and territories through Social Housing Accelerator
+payments to deliver a permanent increase in the stock of social housing.
+1.8 The Albanese Government has also re-enlivened National Competition Policy,
+committing $900 million to states and territories that remove barriers to modern
+construction methods and other barriers to supply.
+1.9 Careful and calibrated demand-side policies can have a complementary role in
+supporting homeownership. These policies address the cost barrier for many
+first home buyers who typically have a smaller savings pool. An example is
+Labor’s Expanded Home Guarantee Scheme which has supported over 117,000
+or one third of first homebuyers into homeownership since coming to
+government.
+1.10 Another is the Government’s Help to Buy Bill, which had been delayed in the
+Senate by the Coalition and the Greens. This shared equity scheme will support
+40,000 first homebuyers with a deposit of as little as 2 per cent, with a greater
+incentive for those who contribute to supply efforts and build a new home.
+61
+62
+1.11 Government Senators note the Chair has publicly stated that if elected, the
+Coalition will repeal measures like Help to Buy. The Coalition have not detailed
+how such a repeal would work, leaving potentially thousands of new home
+buyers who will have benefitted from the scheme uncertain about their future.
+1.12 The serviceability buffer is an important regulatory tool set independently by
+APRA. The buffer requires lenders to provide loans that can weather changing
+economic conditions, changes to individual circumstances like income, and
+increases in interest rates. Importantly, it supports stability in the financial
+system. APRA emphasised this in their appearance before the committee.1
+1.13 Our current low rate of arrears and mortgage default and financial system
+stability at this point in the tightening cycle is evidence the serviceability buffer
+has served its purpose well.
+1.14 The Chair’s proposed political intervention to amend ways in which APRA
+applies the serviceability buffer to first home buyers is asking those who are
+more often in a financially insecure position to take on increased risks.
+1.15 Making the argument for keeping with the current serviceability buffer rate,
+Westpac noted that loosening standards would only increase the burden on
+borrowers and increase their stress.2
+1.16 Consumer groups were clear that changes to regulatory settings are not needed
+and in most cases are a risk. Mortgage Stress Victoria told the committee
+irresponsible home loans can leave homeowner borrowers in insecure housing
+or homelessness as well as with additional debt.3
+1.17 This inquiry explored options for lenders to hold the credit risk of first home
+buyers against the pool of loans of existing mortgage holders. This would mean
+current mortgage holders service a higher interest rate than a first home buyer.
+Critically, a lender would only be offering the same amount of loans as they
+would have before.
+1.18 This proposal has the effect of pitting first home buyers against existing
+borrowers, forcing existing borrowers to pay more in interest.
+1 Mrs Therese McCarthy Hockey, Executive Board Member, Australian Prudential Regulation
+Authority (APRA), Proof Committee Hansard, 24 October 2024, p. 34.
+2 Mr Martin Green, National General Manager, Property Finance, Westpac, Proof Committee Hansard,
+24 October 2024, p. 7.
+3 Ms Nadia Harrison, Chief Executive Officer, Mortgage Stress Victoria, Proof Committee Hansard, 24
+October 2024, p. 18.
+63
+1.19 Proponents of this proposal, Barrenjoey, were clear in their evidence to the
+inquiry that existing mortgage holders would need to pay more, confirming that
+is the idea of the proposal.4
+1.20 Providing evidence to the inquiry, National Australia Bank was clear the credit
+risks and costs would flow on to existing customers and was a complex
+mechanism with a number of unintended consequences.5
+1.21 The result for people who are looking to upsize is that they pay more and afford
+less. Having purchased an initial smaller property like a unit, they would now
+be selling their first property to purchase a new home to house their growing
+family. In this instance, this couple would be issued high interest rates on a new
+loan because a portion of risk of first home buyer sits against a pool of loans of
+existing home buyers like them.
+1.22 Today, the Australian Parliament sets APRA’s legislation, which APRA
+implements, including setting a serviceability buffer. The Chair’s proposal is
+that the government of the day would give a directive to APRA on how to set
+its buffer. This goes against 25 years of bi-partisan support for an independent
+prudential regulator.
+1.23 This political approach would risk causing APRA to prioritise questions of
+political stability, rather than financial systems stability.
+1.24 Government Senators strongly believe that financial system stability is best
+assured by prudential, not political, regulation.
+1.25 The real risk of the proposals as presented by the Chair is that consumers pay
+the price. They would push house prices up, undermine stability in the financial
+system and fail to build a single new home at a time when increasing supply
+must be the focus.
+1.26 It was clearly and repeatedly put to this inquiry that increasing the housing
+supply is the answer to home ownership, not asking first home buyers to take
+on more debt and risk.
+1.27 Government Senators note the evidence to this inquiry that our current lending
+regulations and obligations have been effective at providing credit for mortgage
+holders that they can afford for their current circumstances, and believe the
+proposals as presented by the Chair add system risk to the financial system and
+will increase prices with no positive effect on supply.
+4 Mr Mott, Barrenjoey, Proof Committee Hansard, 16 October 2024, pp. 28–29.
+5 Mr Ben Nicholls, Executive, Portfolio Management, NAB, Proof Committee Hansard, 24 October 2024,
+p. 13.
+64
+Senator Jess Walsh
+Deputy Chair
+Labor Senator for Victoria
+Australian Greens Senators' Dissenting Report
+1.1 On behalf of the Australian Greens, I want to thank the committee for their
+work. I would also like to add a personal thanks to all those who supplied
+evidence to the Inquiry.
+1.2 It is undeniable that housing has become unaffordable in Australia. However,
+none of the recommendations proposed in the committee’s majority report
+would put a dent in housing affordability in Australia, in fact they would likely
+make the situation worse.
+1.3 Each year, housing becomes more expensive and further out of reach of first-
+home buyers. For the last 25 years, average house prices have increased at twice
+the rate of income.1 Now only 14 per cent of homes are affordable for median-
+income households in Australia.2
+1.4 None of the top 10 most common professions in Australia can afford to buy a
+house and avoid housing stress. For example, a full-time childcare worker
+would currently take 31 years to save a home deposit.3
+1.5 The issue of housing affordability and declining homeownership rates was
+acknowledged and accepted by all committee members and stakeholders
+involved in this inquiry. Everyone agrees there is a problem, and it is a big
+problem.
+1.6 While the issues with the housing market are clear, the solutions are highly
+contested.
+1.7 The Greens strongly object to the main recommendations in the Coalition’s
+majority report. Increasing the political influence over APRA’s financial
+regulation powers, in particular over the serviceability buffer, will have serious
+consequences for housing affordability in Australia.
+1.8 The Coalition’s proposal to have the Government apply pressure on APRA to
+lower the buffer risks driving up house prices and saddling first-home buyers
+with even more crippling debt, while avoiding tackling a broken housing
+system that puts big banks’ and wealthy property investors’ profits first.
+1 The Australia Institute, Submission 8, p. 1.
+2 PropTrack, PropTrack Housing Affordability Report – 2024, September 2024,
+https://www.realestate.com.au/insights/proptrack-housing-affordability-report-2024/ (accessed
+28 November 2024)
+3 Max Chandler-Mather MP, ‘Childcare worker would take 31 years to save a home deposit, analysis
+shows’, Media Release, 20 August 2024.
+65
+66
+1.9 The housing crisis cannot be fixed by reforms which will push up house prices,
+while the key historic drivers of house price growth are overlooked.
+1.10 Australia’s tax system has pushed up the cost of housing.4 Any serious reform
+looking at housing affordability needs to tackle the $176 billion in tax
+concessions for property investors, including negative gearing and capital gains
+tax concessions.
+The mortgage serviceability buffer
+1.11 Prudential policy, including the mortgage serviceability buffer and the
+independence of APRA to set the buffer play an important role in the stability
+of housing finance and our broader financial system.
+1.12 APRA provided evidence to the committee about the rigor involved in setting
+the buffer and delivered a strong message that now is not the time to relax
+lending rules.
+1.13 APRA explained that the serviceability buffer “exists to ensure that banks lend
+to borrowers able to repay their loans in a range of scenarios. The buffer
+provides an important contingency for a range of economic shocks – not only
+for rises in interest rates – over the life of the loan. It also factors in unforeseen
+changes in borrower’s income or expenses, which we have seen play out
+recently as cost-of-living pressures mount”.5
+1.14 The regulator warned against relaxing borrowing rules in the current context
+pointing to “high household indebtedness and a pick-up in credit growth,
+persistent cost-of-living pressures, a weakening job market and heightening
+geopolitical risks”.6
+1.15 The Coalition is pushing for the buffer to be lowered but the evidence gathered
+during this inquiry to support this agenda doesn’t support this.
+1.16 The committee heard support even amongst the banks for the current
+serviceability buffer settings by APRA:
+ Westpac said “we're supportive of the current responsible lending and the
+principles that underpin responsible lending. We're also supportive of the
+4 Everybody’s Home, Submission 47, p. 1.
+5 APRA, Opening Statement: Financial regulatory framework and home ownership, 24 October 2024,
+https://www.apra.gov.au/news-and-publications/opening-statement-financial-regulatory-
+framework-and-home-ownership (accessed 28 November 2024).
+6 APRA, Update on APRA’s Macroprudential settings – November 2024, November 2024,
+https://www.apra.gov.au/update-on-apras-macroprudential-settings-november-2024 (accessed
+28 November 2024)
+67
+parameters that APRA set through their prudential standards. We're
+comfortable with the three per cent buffer as it stands today.”7
+ The Commonwealth Bank said “in consideration of the appropriateness of
+the buffer … it's an issue for APRA to consider. But, from our own
+perspective, we look at the buffer as a prudent and appropriate measure
+that ensures that first home buyers, but also all borrowers, do not
+overextend themselves.” “We believe the prudential settings today are
+appropriate and balanced.”8
+ Furthermore, the Australian Banking Association said, “we think that the
+current buffer settings are appropriate on the whole.”9
+1.17 The consequences of lowering the buffer, particularly if the decision is made as
+a result of political pressure, would feed housing demand and in the context of
+limited supply actually worsen the housing affordability crisis and make it
+harder for first home buyers to enter the market.
+1.18 Mr Saul Eslake said that “in a supply constrained housing market, which we
+have now and have had for most of the past six decades, anything that allows
+Australians to spend more on housing than they would otherwise be able to do
+results in more expensive housing rather than in a higher proportion of the
+population owning that housing.”10
+Consequences for vulnerable borrowers
+1.19 Our current financial regulatory framework is working as intended to mitigate
+consumer harm. Encouraging vulnerable borrowers to take on unmanageable
+debt, thus increasing the profits of big banks, is not the answer to the housing
+crisis.
+1.20 Frontline services groups expressed concerns to any proposed changes to the
+serviceability buffer “given the human cost of unmanageable debt”.11
+1.21 For example, Ms Harrison from Mortgage Stress Victoria said that home loans
+which expose borrowers to debt beyond their means are financially,
+emotionally, and socially crippling.12
+7 Mr Paul Deall, Head, Risk, Mortgages and Consumer Credit, Westpac, Proof Committee Hansard,
+24 October 2024, p. 8.
+8 Mr Angus Sullivan, Group Executive, Retail Banking Services, Commonwealth Bank of Australia,
+Proof Committee Hansard, 24 October 2024, p. 24.
+9 Mr Chris Taylor, Chief of Policy, Australian Banking Association, Proof Committee Hansard,
+24 October 2024, p. 4.
+10 Mr Saul Eslake, private capacity, Proof Committee Hansard, 24 October 2024, p. 48.
+11 Ms Nadia Harrison, Chief Executive Officer, Mortgage Stress Victoria, Proof Committee Hansard,
+24 October 2024, p. 18.
+12 Ms Harrison, Mortgage Stress Victoria, Proof Committee Hansard, 24 October 2024, p. 18.
+68
+1.22 Additionally, the Australian Financial Complaints Authority said that the real-
+world impact of unmanageable debt on consumers is “devastating and
+overwhelming for people and [can] create lasting hardship, impacting families
+and communities”.13
+1.23 Increasing risk and debt for vulnerable borrowers and first-home buyers is not
+the solution. If the serviceability buffer is changed it will allow first-home buyers
+to increase their debt to try and break into the housing market, it will bring with
+it ‘risk and human catastrophe’.14
+Recommendation 1
+1.24 That no changes are made to the mortgage serviceability buffer and the
+process by which APRA makes its decision to set the buffer.
+1.25 Evidence gathered by the committee suggests that rather than expanding
+demand, restricting demand for particular groups has historically improved
+home ownership rates for owner occupiers.
+1.26 For example, in 2014 and 2017, APRA introduced restrictions on bank loans to
+investors, including a cap on new interest-only lending.
+1.27 As a direct result, the investor share of new housing commitments dropped
+from 40 per cent to 30 per cent between March 2017 and December 2018.15 The
+reduced investor demand for housing also contributed to slowed house price
+growth. From June 2017 to June 2019 house prices fell 4.3 per cent, one of the
+weakest periods for house price growth in the past 30 years.16
+1.28 These interventions have a clear track record of improving affordability and
+home ownership rates for owner occupiers and first home buyers.
+Recommendation 2
+1.29 Consideration should be given to restricting investor lending, for example by
+limiting interest-only loans or the proportion of lending going to investors, to
+limit speculative investment which drives unsustainable house prices rises
+that lock out first-home buyers.
+Bank profitability
+1.30 Calls from the Coalition to lower the buffer risks politicising macroprudential
+regulations and appear to be unnecessary in the current financial environment.
+13 Mr David Locke, Chief Ombudsman and Chief Executive Officer, Australian Financial Complaints
+Authority, Proof Committee Hansard, 24 October 2024, p. 28.
+14 Ms Harrison, Mortgage Stress Victoria, Proof Committee Hansard, 24 October 2024, p. 21.
+15 APRA, answers to questions on notice 006, 24 October 2024 (received 1 November 2024).
+16 The Australia Institute, Submission 8, p. 11.
+69
+1.31 National Australia Bank told the committee that “80 per cent of our first home
+buyers today don’t borrow to the max” under the current buffer settings.17 He
+offered multiple reasons including, that people don’t want to feel too stretched.
+1.32 Further to the point, lowering the buffer and improving access to housing
+finance would only push up house prices more by fuelling demand for housing.
+Which would inevitably disadvantage first home buyers.
+1.33 The effects of lower buffers and expanded access to finance would however
+benefit the bottom lines of banks and mortgage brokers. The enthusiasm of some
+of these institutions for a lower buffer should be considered in this context.
+1.34 Professor Andy Schmulow said “our banking industry is the most profitable
+banking industry in the world by return on equity. The return on equity that
+they enjoy is approximately 16 per cent… Those extraordinary profits are being
+extracted more than anywhere else from mortgages, which has now become
+some 70 per cent of their asset base”.18
+1.35 In light of these profits, it was suggested that banks could consider waiving
+mortgage insurance for first home buyers and absorbing the risk themselves
+given that insurance is actually designed to keep the bank out of financial
+trouble not protect the mortgage holder.
+1.36 Westpac responded “that's a policy rule that we could absolutely consider and
+it's an option available to us. I don't think I can answer now. There's a
+governance process around building out policy, but it's absolutely one we can
+take on notice and discuss further”.
+1.37 Housing affordability and the challenges for first home buyers trying to enter
+the housing market is a problem for everyone in Australia, including financial
+institutions. The responsibility for helping lower the barriers to entry for first
+home buyers can also be shared.
+Recommendation 3
+1.38 Given Australian banks make high profits from mortgages, the Government
+should explore options such as requiring banks to cover the costs of Lenders
+Mortgage Insurance for first homebuyers, which could make their mortgages
+more affordable.
+17 Mr Andy Kerr, Executive, Home Ownership, National Australia Bank, Proof Committee Hansard,
+24 October 2024, p. 15.
+18 Professor Andy Schmulow, private capacity, Proof Committee Hansard, 16 October 2024, p. 12.
+70
+Alternative solutions to improve housing affordability and home ownership
+Tax concessions for property investors
+1.39 It is widely accepted that housing supply is part of the problem and thus
+solution to addressing housing affordability in Australia. However, it is not the
+whole story.
+1.40 The Australia Institute research shows that “over the past ten years the
+population has increased by 15%. Over that same period the number of
+dwellings has increased by 19%. Despite the supply of new dwellings growing
+faster than the population, house prices increased 75% over that period.”
+1.41 This evidence indicates that supply shortages are not the main or only driver of
+house prices over the last decade as it is often portrayed in the housing debate.
+1.42 A major driver of house prices is increasing demand fuelled by the tax treatment
+of residential property in Australia, in particularly negative gearing and the 50
+per cent capital gains tax discount.
+1.43 The combination of negative gearing and the 50 per cent CGT discount has
+attracted a huge number of property investors to buy housing over the past
+couple of decades.
+1.44 Dr Greg Jericho from the Australia Institute said “we can see that from 1970 to
+2000, apart from a little bump in the late eighties with that asset boom that led
+into the 1990s recession, apart from that, housing prices essentially grew in line
+with household disposable incomes … But you can see a dramatic split from the
+end of 1999 and the introduction of the capital gains discount to the point where
+since then, in a sense, house prices have increased almost twice as much as
+household disposable incomes”.19
+1.45 The increase in investor driven demand has pushed house prices up,
+encouraging even more investors to purchase housing, and driven a long-term
+decline in the home-ownership rate. The combination of inflated prices and the
+advantage that these tax concessions give to investors when competing for loans
+and buying property has put first home buyers at a significant disadvantage.
+1.46 The solutions to improving housing affordability for owner occupiers,
+particularly first home buyers cannot be found by tinkering around the edge
+with housing finance eligibility and APRA mandates – they must address the
+root causes of unsustainable house price growth and the investor share of
+housing ownership.
+1.47 Mr Matt Grudnoff, from the Australia Institute said “if you get rid of those tax
+concessions, you’ll raise billions and billions of dollars. Those billions of dollars
+19 Dr Greg Jericho, Chief Economist, The Australia Institute, Proof Committee Hansard, 16 October 2024,
+p. 37.
+71
+could then be used to increase the supply of housing, through public housing,
+social and affordable housing”.20
+1.48 To improve housing affordability and help more people into home ownership
+the Government should phase out negative gearing and the capital gains tax
+discount. These tax concessions mainly go to property investors, drive prices up
+and allow investors to outbid first home buyers.
+Recommendation 4
+1.49 That the Government phase out negative gearing and the 50 per cent capital
+gains tax discount, the tax concessions for property investors which drive up
+the price of housing and allow investors to outbid first home buyers.
+Expanding public housing construction
+1.50 Along with tax concessions, the declining role of the state in building housing
+stock, both for sale to owner-occupiers and for affordable rent through the
+public housing system has significantly contributed to the decline in housing
+affordability, both for renters and first-home buyers in Australia’s housing
+market.
+1.51 Mr Matt Grudnoff from the Australia Institute gave evidence that “if you look
+around the world, countries with affordable housing all have one thing in
+common—that is, they have a large role for the public sector in housing”.21
+1.52 The idea of a public developer is not new, and it has been a successful policy
+intervention in the past to address housing affordability in Australia. Macquarie
+University Economics Society gave evidence that “Australia developed a
+relatively high home ownership rate during the postwar reconstruction era
+when the Chifley and then Menzies governments undertook large scale
+investment in residential housing development through public property
+developers that built houses and sold them to first-home buyers at non-market
+prices, which saw home ownership rise from 46% to 72% between 1947 and
+1966.”22
+1.53 While Australia’s home ownership rate amongst 25 to 34 year olds has dropped
+from 60% to 45% over the past four decades, in the same period Singapore,
+which has a large-scale public developer which builds homes that are sold
+20 Mr Matt Grudnoff, Senior Economist, The Australia Institute, Proof Committee Hansard,
+16 October 2024, p. 38.
+21 Mr Grudnoff, The Australia Institute, Proof Committee Hansard, 16 October 2024, p. 39.
+22 Macquarie University Economics Society, Submission 27, p. [2].
+72
+cheaply to owner-occupiers, has managed to increase their home ownership rate
+from 60% to almost 90%.23
+1.54 If the major parties are serious about addressing the housing crisis in Australia,
+including for renters, prospective first home buyers and owner-occupier
+mortgage holders, then they should commit to a significantly expanded role for
+the state in building housing.
+1.55 In a housing crisis, the supply of homes should not be left up to private
+developers, whose profits increase the more that house prices and rents go up.
+1.56 That is why the Greens have committed to establish and fund a public property
+developer, which would see the Government build 610,000 well-designed high-
+quality homes for people to rent cheaply and buy at just over the cost of
+construction over the next decade.
+1.57 The scale of the housing crisis requires solutions other than demand side
+solutions that will directly contribute to future price hikes in housing. It requires
+increased supply of genuinely affordable housing, such as by establishing a
+public developer that cuts out property developer and investor profits and can
+provide a steady pipeline of construction outside the boom-bust cycle of the
+construction industry.
+Improving tenancy conditions for renters
+1.58 The proportion of the population who are renting has increased significantly
+over recent decades across all age brackets, with growing numbers of
+Australians now expecting to rent for their entire lives.24 However, tenancy laws
+in Australia give renters little security or ability to plan for the long-term, feel a
+sense of control over their home or protection from unlimited rent increases.25
+1.59 Alongside shifting incentives that favour investors over first-home buyers and
+owner-occupiers, it is essential that Australia strengthens tenancy protections
+for renters to ensure that the growing proportion of people renting long-term
+are not treated as second-class citizens, but are also able to enjoy stable,
+affordable housing.
+23 Michael Janda, ‘Could Australia learn from Singapore to make housing more affordable?’ ABC
+News, 6 February 2024, https://www.abc.net.au/news/2022-02-06/could-australia-learn-from-
+singapore-to-make-housing-affordable/100801082 (accessed 28 November 2024).
+24 Australian Housing and Urban Research Institute (AHURI), Final Report No. 431: Planning for a two-
+tenure future, 12 November 2024, https://www.ahuri.edu.au/research/final-reports/431 (accessed 28
+November 2024).
+25 Associate Professor Ben Spies-Butcher, Submission 25, pp. [4–5].
+73
+Recommendation 5
+1.60 To support long-term secure and affordable housing for people locked out of
+home ownership the government should establish a publicly owned property
+developer to build homes to be rented and sold cheaply, expand public
+housing and improve conditions for renters by offering longer-term leases
+and restricting unlimited rent increases.
+Senator Barbara Pocock
+Substitute Member
+Greens Senator for South Australia
+
+Appendix 1
+Submissions and additional information
+Submissions
+1 Mr Duncan Perkins
+2 Dr Kevin Cox
+3 Dr Chad Satterlee
+4 Mr Ashley Holmes
+5 Insurance Council of Australia
+6 HIA
+7 Legal Aid Queensland
+8 The Australia Institute
+9 Institute of Public Affairs’
+10 National Housing Supply and Affordability Council
+11 Ello Lending Co
+12 Professor Alan Morris
+13 OwnHome
+14 Better Mortgage Management
+15 Australian Forest Products Association
+16 Bendigo and Adelaide Bank
+17 ANZ
+18 Anglicare Australia
+19 Helia
+20 Housing for the Aged Action Group Inc.
+21 Mr Michael McKenzie
+22 Scott Simpson & John Guidi
+23 Mr Ian Shepherd
+24 Migration Watch
+25 A/Prof Ben Spies-Butcher
+26 Law Council of Australia
+27 Macquarie University Economics Society
+ 27.1 Supplementary to submission 27
+28 SMSF Association
+29 REA Group
+30 Australian Banking Association
+31 Loan Market Elevate
+32 Property Council of Australia
+33 Master Builders Australia
+34 Home Loan Experts
+35 FinTech Australia
+36 Blueprint Institute
+75
+76
+37 Housing Older Women Movement
+38 Australian Securitisation Forum
+39 HOPE Housing Fund Management
+40 Co-operty Pty Ltd
+41 Mr Michael Sanderson
+42 Ms Carolyn Thomson
+43 Ms Rita Mazalevskis
+44 Mirvac
+45 Australian Prudential Regulation Authority
+46 Dr John Byron
+47 Everybody's Home
+ Attachment 1
+48 Home Super
+49 Association of Superannuation Funds of Australia Ltd
+50 Customer Owned Banking Association
+51 Proptech Association of Australia
+52 Mortgage and Finance Association of Australia
+53 National Australia Bank
+54 Housing Affordability Finance Coalition
+55 Storehouse Group
+56 Australian Finance Industry Association
+57 Prof Rachel Ong ViforJ, Prof Stephen Whelan, Dr Christopher Phelps and Dr
+Melek Cigdem-Bayram
+58 SMATS Group
+ Attachment 1
+59 Barrenjoey
+ 59.1 Supplementary to submission 59
+ Attachment 1
+ Attachment 2
+ Attachment 3
+60 The Centre for Independent Studies
+61 Finance Brokers Association of Australasia
+62 Westpac
+63 Commonwealth Bank
+64 Australian Financial Complaints Authority
+65 Ms Madonna Waugh
+66 Name Withheld
+67 Name Withheld
+68 Indigenous Business Australia
+69 The Consumer Policy Research Centre and Mortgage Stress Victoria
+70 Prof John Quiggin
+71 Urban Development Institute of Australia (National)
+77
+72 Confidential
+73 Confidential
+74 Confidential
+75 Confidential
+76 Confidential
+77 Mr David Corbett
+78 Mr Craig Caulfield
+79 Mr Roger Tindale
+80 Mrs Tracie Hanna and Ms Meyrem Caltekin
+81 Name Withheld
+Additional Information
+1 Additional Information - Mr Saul Eslake
+Answer to Question on Notice
+1 Reserve Bank of Australia- 001: Answers to questions on notices asked by
+Senators Andrew Bragg, David Pocock and Matt Canavan at a public hearing
+on 16 October 2024 in Canberra - Various Topics (received 31.10.24)
+2 Bendigo and Adelaide Bank - 001: Answers to written questions on notice
+asked by Senator Andrew Bragg on 11 October 2024 - Home Loan Figures
+(received 31.10.24)
+3 Mortgage and Finance Association of Australia - 001: Answers to questions on
+notices asked by Senators Andrew Bragg at a public hearing on 16 October
+2024 in Canberra - Improvements to Lending Regulation (received 1.11.24)
+4 Australian Prudential Regulation Authority - 001: Answers to questions on
+notices asked by Senator Andrew Bragg at a public hearing on 24 October
+2024 in Canberra - Capital on Mortgages (received 1.11.24)
+5 Australian Prudential Regulation Authority - 002: Answers to questions on
+notices asked by Senator Andrew Bragg at a public hearing on 24 October
+2024 in Canberra - Table of Risk Weights (received 1.11.24)
+6 Australian Prudential Regulation Authority - 003: Answers to questions on
+notices asked by Senator Andrew Bragg at a public hearing on 24 October
+2024 in Canberra - House Prices (received 1.11.24)
+7 Australian Prudential Regulation Authority - 004: Answers to questions on
+notices asked by Senator Andrew Bragg at a public hearing on 24 October
+2024 in Canberra - Mortgage RWA (received 1.11.24)
+8 Australian Prudential Regulation Authority - 005: Answers to Written
+questions on notices asked by Senator Andrew Bragg on 25 October 2024 -
+Serviceability Buffer (received 1.11.24)
+9 National Australia Bank - 001: Answers to written questions on notice asked
+by Senator Andrew Bragg on 11 October 2024 - Home Loan Figures (received
+1.11.24)
+10 Westpac - 001: Answers to questions on notices asked by Senators Andrew
+Bragg and Barbara Pocock - Various Topics (received 8.11.24)
+78
+11 ANZ - 001: Answers to written questions on notice asked by Senator Andrew
+Bragg on 22 October 2024 - Serviceability Buffer (received 1.11.24)
+12 Bank of Queensland - 001: Answers to written questions on notice asked by
+Senator Andrew Bragg on 11 October 2024 - Home Loan Figures (received
+4.11.24)
+13 Co-operty - 001: Answers to questions on notices asked by Senator Andrew
+Bragg at a public hearing on 24 October 2024 in Canberra - BCOP (received
+6.11.24)
+14 Helia - 001: Answers to questions on notices asked by Senator Andrew Bragg
+at a public hearing on 24 October 2024 in Canberra - Capital Treatment
+(received 6.11.24)
+15 National Australia Bank - 001: Answers to questions on notices asked by
+Senators Andrew Bragg and Barbara Pocock at a public hearing on 24 October
+2024 in Canberra - NAB Mortgage Data (received 6.11.24)
+16 Bendigo and Adelaide Bank - 002: Answers to written questions on notice
+asked by Senator Andrew Bragg on 25 October 2024 - Serviceability Buffer
+(received 7.11.24)
+17 Commonwealth Bank Australia - 001: Answers to written questions on notice
+asked by Senator Andrew Bragg on 11 October 2024 - Home Loan Figures
+(received 7.11.24)
+18 Commonwealth Bank Australia - 002: Answers to questions on notices asked
+by Barbara Pocock at a public hearing on 24 October 2024 in Canberra - CBA
+Mortgage Data (received 7.11.24)
+19 Insurance Council of Australia-001: Answers to questions on notices asked by
+Senator Andrew Bragg at a public hearing on 24 October 2024 in Canberra -
+Mortgage Risk (received 5.11.2024)
+20 Mr Saul Eslake - 001: Answers to written questions on notice asked by Senator
+Andrew Bragg on 24 October 2024- Report with SMC (received 28 October
+2024)
+21 Mr Saul Eslake - 002: Answers to written questions on notice asked by Senator
+Andrew Bragg on 25 October 2024- Report with SMC (received 28 October
+2024)
+Appendix 2
+Public hearings and witnesses
+Wednesday 16 October 2024
+Committee Room 2S1
+Parliament House
+Canberra
+HIA
+ Mr Tim Reardon, Senior Economist
+ Mr Geordan Murray, Executive Director – Industry Research
+Master Builders Australia
+ Mrs Alexandra Waldren, Policy Director
+ Mr Shane Garrett, Policy Director
+Property Council of Australia
+ Mr Mike Zorbas, Chief Executive
+Dr Andy Schmulow, Private capacity
+Ello Lending Co
+ Mr Ranin Mendis, Managing Director
+REA Group
+ Mr Anthony Waldron, CEO Financial Services
+ Mr Cameron Kusher, Executive Manager, Economic Research
+Mortgage and Finance Association of Australia
+ Ms Naveen Ahluwalia, Executive - Policy & Legal
+ Ms Anja Pannek
+Finance Brokers Association of Australasia
+ Mr David Carson, Regulatory Compliance Advisor
+Barrenjoey
+ Mr Jonathan Mott, Founding Partner | Equity Research | Banks Analyst
+Legal Aid Queensland
+ Mr Paul Homes, Director Disaster Relief
+The Centre for Independent Studies
+ Mr Peter Tulip, Chief Economist
+79
+80
+The Australia Institute
+ Mr Matt Grudnoff, Senior Economist
+ Dr Greg Jericho, Chief Economist
+Reserve Bank of Australia
+ Dr Sarah Hunter, Assistant Governor (Economics)
+ Dr Michael Plumb, Head of Economic Analysis Department
+Thursday 24 October 2024
+Committee Room 2S1
+Parliament House
+Canberra
+Australian Banking Association
+ Mr Craig Evans, Policy Director
+ Mr Chris Taylor, Chief of Policy
+Westpac
+ Mr Martin Green, National General Manager, Property Finance
+ Mr Paul Deall, Head of Risk, Mortgages and Consumer Credit
+National Australia Bank
+ Mr Andy Kerr, Executive, Home Ownership
+ Mr Ben Nicholls, Executive, Portfolio Management
+Mortgage Stress Victoria
+ Ms Nadia Harrison, CEO
+The Consumer Policy Research Centre
+ Ms Erin Turner, CEO
+Financial Counselling Australia
+ Dr Domenique Meyrick, Co-CEO
+Financial Rights Legal Centre
+ Mrs Julia Davis, Senior Policy & Communications Officer
+Commonwealth Bank
+ Ms Kylie Rixon, Chief Risk Officer, Retail Banking Services
+ Mr Angus Sullivan, Group Executive, Retail Banking Services
+Australian Financial Complaints Authority
+ Mr David Locke, Chief Ombudsman & CEO
+ Dr June Smith, Deputy Chief Ombudsman
+ Ms Natalie Cameron, Lead Ombudsman, Banking and Finance
+81
+Australian Prudential Regulation Authority
+ Ms Therese McCarthy Hockey, Executive Board Member
+ Dr Sean Carmody, Executive Director, Policy and Advice
+ Dr Marion Dorothea Kohler, General Manager, System Risk
+ Mr Chris Gower, Executive Director, Cross Industry Risk
+Proptech Association of Australia
+ Ms Kylie Davis, Founder & President
+Co-operty Pty Ltd
+ Ms Lynda Coker, Co-Founder / CEO
+ Mrs Elizabeth Rochaix, Co-Founder
+ Mr Frank Austin, Head of Distribution
+Helia
+ Ms Pauline Blight-Johnston, Chief Executive Officer and Managing Director
+Insurance Council of Australia
+ Ms Alexandra Hordern, General Manager, Regulatory & Consumer Policy
+A/Prof Ben Spies-Butcher, Private capacity
+Mr Saul Eslake, Private capacity
+Prof John Quiggin, Private capacity

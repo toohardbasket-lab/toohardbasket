@@ -1,0 +1,1123 @@
+The Senate
+Environment and
+Communications Legislation
+Committee
+Telecommunications Legislation
+Amendment (Universal Outdoor Mobile
+Obligation) Bill 2025
+May 2026
+© Commonwealth of Australia 2026
+ISBN 978-1-76093-936-6 (Printed version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by the Senate Printing Unit, Parliament House, Canberra
+Contents
+Members................................................................................................................................................v
+List of recommendations.................................................................................................................vii
+Abbreviations......................................................................................................................................ix
+Chapter 1—Introduction.....................................................................................................................1
+Context and background to the bill....................................................................................................1
+Key provisions of the bill.....................................................................................................................3
+Establishment of the UOMO ...................................................................................................3
+Ministerial powers relating to standards, benchmarks and rules......................................4
+Financial impact statement.......................................................................................................5
+Consideration by other parliamentary committees.........................................................................5
+Conduct of the inquiry and acknowledgement................................................................................6
+Structure of the report..........................................................................................................................6
+Chapter 2—Key issues.........................................................................................................................7
+Importance of establishing a Universal Outdoor Mobile Obligation............................................7
+Comments on specific aspects of the bill.........................................................................................10
+Timing of implementation.................................................................................................................10
+Technological limitations........................................................................................................10
+Ministerial discretion...............................................................................................................12
+Standards, rules and benchmarks.....................................................................................................13
+Equitable and affordable access and reasonable availability............................................14
+Other matters.......................................................................................................................................15
+Spectrum allocation.................................................................................................................15
+Domestic mobile roaming.......................................................................................................16
+Committee view..................................................................................................................................17
+Australian Greens senators' additional comments......................................................................19
+Senator the Hon. Sarah Henderson's additional comments......................................................21
+Appendix 1—Submissions and additional information............................................................27
+Appendix 2—Public hearing and witnesses.................................................................................29
+iii
+
+Members
+Chair
+Senator Varun Ghosh ALP, WA
+Deputy Chair
+Senator Sarah Hanson-Young AG, SA
+Members
+Senator Michelle Ananda-Rajah ALP, VIC
+Senator the Hon Sarah Henderson LP, VIC
+Senator Dean Smith LP, WA
+Senator Charlotte Walker ALP, SA
+Secretariat
+Tas Larnach, Committee Secretary
+Monika Sheppard, Principal Research Officer
+James Blair, Research Officer
+Elizabeth Hickey, Administrative Officer
+PO Box 2600 Telephone: 02 6277 3526
+Parliament House
+Email: ec.sen@aph.gov.au
+Canberra ACT 2600
+Website: www.aph.gov.au/senate.ec
+v
+
+List of recommendations
+Recommendation 1
+2.57 The committee recommends that the Senate passes the bill.
+vii
+
+Abbreviations
+ACCAN Australian Communications Consumer Action Network
+ACCC Australian Competition and Consumer Commission
+AMTA Australian Mobile Telecommunications Association
+CSPs carriage service providers
+D2D Direct to Device
+DMTSs Designated Mobile Telecommunications Services
+LEOSat Low Earth Orbit Satellite
+MNOs Mobile Network Operators
+NFF National Farmers’ Federation
+Optus Optus Mobile
+PUOMPs Primary Universal Outdoor Mobile Providers
+Scrutiny Senate Standing Committee for the Scrutiny of Bills
+Committee
+SIAA Space Industry Association of Australia
+SMS short message services
+Telstra Telstra Limited
+the ACMA Australian Communications and Media Authority
+the Act Telecommunications (Consumer Protection and Service
+Standards) Act 1999
+the bill Telecommunications Legislation Amendment (Universal
+Outdoor Mobile Obligation) Bill 2025
+the department Department of Infrastructure, Transport, Regional
+Development, Communications, Sport and the Arts
+the minister Minister for Communications
+UOMO Universal Outdoor Mobile Obligation
+USO Universal Service Obligation
+ix
+
+Chapter 1
+Introduction
+1.1 On 5 March 2026, the Senate referred the provisions of the Telecommunications
+Legislation Amendment (Universal Outdoor Mobile Obligation) Bill 2025 (the
+bill) to the Environment and Communications Legislation Committee (the
+committee) for inquiry and report by 14 May 2026.1
+1.2 The bill seeks to amend the Telecommunications (Consumer Protection and Service
+Standards) Act 1999 (the Act) to establish a framework to create a Universal
+Outdoor Mobile Obligation (UOMO). This framework would complement the
+existing Universal Service Obligation (USO), which applies to fixed voice
+services and payphones.2
+Context and background to the bill
+1.3 The Explanatory Memorandum states that the bill proposes ‘a significant and
+important reform that will bring mobile services within the universal services
+framework’. The Explanatory Memorandum explains:
+Mobile telecommunications are essential to people in Australia, especially
+in regional, rural and remote areas. Stakeholders have longstanding
+concerns for public safety given gaps in terrestrial mobile coverage,
+including on many regional and remote roads. In response, the UOMO will
+require major mobile network operators, Telstra, Optus and TPG Telecom
+(and any other providers designated in the future) to provide outdoor
+baseline mobile coverage across Australia on an equitable basis. This reform
+will benefit all Australians and in particular remote and regional
+communities, by expanding baseline mobile coverage, which will in turn,
+improve public safety by enabling connectivity to essential services and
+Triple Zero.3
+1.4 Mobile Network Operators—currently Telstra Limited (Telstra), Optus Mobile
+(Optus) and TPG Telecom—will be expected to meet the UOMO using a mix of
+their current terrestrial mobile coverage and Direct to Device (D2D)
+technologies delivered over Low Earth Orbit Satellite platforms.4
+1 Journals of the Senate, No. 36, 5 March 2026, p. 1308.
+2 Telecommunications Legislation Amendment (Universal Outdoor Mobile Obligation) Bill 2025 (the
+bill), Explanatory Memorandum, pp. 25–36. Note: the Universal Service Obligation is a consumer
+protection that supports access to phone services and payphones, and, at present, Telstra is the
+primary universal service provider.
+3 Explanatory Memorandum, p. 2. See also: The Hon Anika Wells MP, Minister for Communications
+and for Sport, House of Representatives Hansard, 27 November 2025, pp. 4208–4209.
+4 Explanatory Memorandum, p. 2.
+1
+2
+1.5 The D2D technology is expected to enable delivery of baseline mobile services—
+voice services and short message services (SMS)—where previously such
+services were not commercially viable or, in some instances, feasible. The
+Explanatory Memorandum acknowledges that the D2D technology and market
+are still evolving and for these reasons the bill proposes a flexible framework:
+D2D technology is evolving, with required infrastructure still being
+deployed. At the same time, the market is developing quickly, with new
+providers, and partnerships being forged around the world. Currently SMS
+services are available in a number of countries on certain handsets,
+including in Australia, and voice services are expected to follow.
+Recognising this, the Bill creates a flexible framework which can be adjusted,
+by disallowable legislative ministerial instrument, as the market develops
+and satellite technology evolves.5
+1.6 In 2023, the Commonwealth Government consulted on universal
+telecommunications service delivery and funding arrangements given
+emerging technologies and consumer preferences. The Department of
+Infrastructure, Transport, Regional Development, Communications, Sport and
+the Arts (the department) summarised the outcome of that consultation as
+follows:
+Overall, the consultation process demonstrated there is broad support for
+change to universal service arrangements to better reflect evolving
+consumer needs and the emergence of new alternative technologies. Many
+stakeholders suggested a more flexible and technology-neutral approach
+would be preferable, including to adopt modern networks and services that
+are best suited to each premises, and to future-proof arrangements.6
+1.7 In 2024, the triennial Regional Telecommunications Review also considered
+reform options and recommended that, as a priority, the Australian
+Government modernise the USO to reflect today’s digital realities.7
+1.8 On 25 February 2025, the Hon Michelle Rowland MP, the former Minister for
+Communications (the minister), announced that the Commonwealth
+Government would be establishing the UOMO.8 From September to October,
+the department consulted on an Exposure Draft of the bill and reported:
+5 Explanatory Memorandum, p. 2.
+6 Department of Infrastructure, Transport, Regional Development, Communications, Sport and the
+Arts (the department), ‘Better Delivery of Universal Services’, www.infrastructure.gov.au/have-
+your-say/better-delivery-universal-services (accessed 10 April 2026).
+7 Australian Government, Regional Telecommunications Review, 2024, pp. 4 and 8,
+www.infrastructure.gov.au/sites/default/files/documents/2024-regional-telecommunications-
+review.pdf (accessed 10 April 2026).
+8 The Hon Michelle Rowland MP, ‘Albanese Labor Government building Australia’s mobile future’,
+Media Release, 25 February 2025, https://minister.infrastructure.gov.au/rowland/media-
+release/albanese-labor-government-building-australias-mobile-future (accessed 10 April 2026).
+3
+There were 88 submissions on the Exposure Draft of the Bill from industry,
+individuals, consumer representatives, state government agencies and local
+governments. There was general support for the provisions in the Bill, but
+some submitters proposed changes.9
+Key provisions of the bill
+1.9 The bill comprises one schedule of amendments: Part 1 sets out proposed
+provisions in relation to the UOMO, and Part 2 would provide for mobile
+telecommunications service standards, benchmarks and rules.
+Establishment of the UOMO
+1.10 Part 1 of Schedule 1 of the bill would amend three Commonwealth Acts, with
+the key changes proposed in relation to the Act.10
+1.11 This Part seeks to amend Part 2 of the Act, to incorporate the UOMO into the
+existing universal service regime, to provide a range of new ministerial powers
+and to designate Telstra, Optus and TPG Telecom as the primary universal
+outdoor mobile providers (PUOMPs) from the ‘default date’ (currently, 1
+December 2027).11
+1.12 Proposed section 8BB of the Act defines the types of Designated Mobile
+Telecommunications Services (DMTSs) that will be subject to the UOMO.
+Proposed subsection 8BB(1) defines the initial DMTSs as voice and short
+message service services that enable users to communicate with each other.
+Proposed subsection 8BB(2) enables the minister to designate other services as
+DMTS in the future, which would make these services subject to the UOMO
+following consultation with existing PUOMPs as outlined in proposed
+subsection 8BB(3).12
+1.13 Proposed section 8D defines the area that will be covered by the UOMO as the
+‘outdoor mobile coverage area’, which is defined as any geographical area
+within Australia.13
+9 Explanatory Memorandum, p. 6. Note: some stakeholder suggestions are considered in Chapter 2
+of this report.
+10 Note: the bill would make minor and consequential amendments to the Competition and Consumer
+Act 2010 and the Telecommunications Act 1997.
+11 Explanatory Memorandum, p. 2.
+12 Explanatory Memorandum, pp. 16–17.
+13 Note: The area of ‘Australia’ in the context of the bill draws from the definition that is part of the
+Telecommunications Act 1997, which includes all mainland territories, as well as the external
+territories of Christmas Island and the Cocos (Keeling) Islands. There is an exception to the ‘outdoor
+mobile coverage area’ defined by the bill, which is the Australian Radio Quiet Zone in Western
+Australia, and will not be subject to the Universal Outdoor Mobile Obligation (UOMO). For further
+information see proposed subsections 8D(5)–(7).
+4
+1.14 Proposed Division 2A would create the UOMO. It comprises three subdivisions,
+as follows:
+ Subdivision A would define the UOMO, including, for example, the
+‘universal outdoor mobile obligation’ as the obligation to ensure that mobile
+coverage is reasonably available outdoors to all people in Australia on an
+equitable basis.14
+ Subdivision B sets out provisions in relation to the determination of
+PUOMPs including the following:
+ Proposed section 12J provides that the minister may determine in writing
+that a specified carriage service provider is a ‘Primary Universal Outdoor
+Mobile Provider’.15
+ Proposed section 12K sets out how multiple PUOMPs for the same
+outdoor mobile coverage area can comply with the UOMO.16
+ Proposed section 12M defines the ‘default day’ on which the UOMO will
+commence, being 1 December 2027. The proposed section also empowers
+the minister to postpone the default day by up to 12 months.17
+ Subdivision C provides powers for the minister to make standards, rules
+and benchmarks relating to the supply of DMTSs. For example, the minister
+may, by legislative instrument, determine standards to be complied with by
+PUOMPs in relation to certain matters relating to telecommunications
+services.18
+1.15 The bill would repeal and replace section 73 of the Act to provide for the
+delegation of the minister’s powers. The minister would be granted discretion
+in writing to delegate any or all of the minister’s functions or powers under this
+Part to the Australian Communications and Media Authority (the ACMA).19
+Ministerial powers relating to standards, benchmarks and rules
+1.16 Part 2 of Schedule 1 of the bill would insert a new Part 5A into the Act to provide
+that the minister may determine standards, set benchmarks and make rules
+14 Proposed subsection 12F. Note: the bill defines ‘outdoors’ as excluding buildings, vehicle, aircraft
+or vessel, or areas that are underground or underwater. This is a key definition as it relates to the
+reasonable expectations where the Minister could determine that Primary Universal Outdoor
+Mobile Providers (PUOMPs) would not be obligated to provide coverage due to technological
+limitations or logistical factors.
+15 Explanatory Memorandum, pp. 21–22.
+16 Explanatory Memorandum, p. 22.
+17 Explanatory Memorandum, pp. 23–24.
+18 Item 16 in Part 1 of Schedule 1. See also: Proposed sections 12Q-12S – Part 1 of Schedule 1 of the
+Bill.
+19 Explanatory Memorandum, pp. 25–30.
+5
+which carriers and carriage service providers must comply with in relation to
+mobile telecommunications services ahead of the UOMO default day. The
+proposed powers are separate to the UOMO-specific standards, rules and
+benchmarks that could be made under the proposed powers specified in Part 1
+of Schedule 1 of the bill.20
+1.17 Proposed section 125B of the Act would give the minister discretion, by
+legislative instrument, to determine standards which carriers and carriage
+service providers (CSPs) must comply with in relation to specified services
+relating to mobile telecommunications services supplied, or proposed to be
+supplied, by the carriers and providers. These services include, for example, the
+reliability of a mobile telecommunications service.
+1.18 Proposed sections 125C to 125E of the Act would give the minister discretion, to
+determine minimum benchmarks with a standard determined under section
+125B and other standards, and to make rules. These benchmarks or rules may
+make provision for, or in relation to a matter, by conferring a power on the
+ACMA to make a legislative instrument.
+1.19 Proposed section 125F of the Act would give the minister discretion, in writing,
+to delegate any or all of the minister’s functions or powers under the proposed
+Part 5A to the ACMA to be exercised by certain employees. The bill proposes a
+similar discretion for SES Band 2 employees in the department.21
+Financial impact statement
+1.20 The Explanatory Memorandum states that the bill will have no financial impacts
+as the Australian Government can use funds in the Public Interest
+Telecommunications Services Special Account to support contracts or grants for
+the UOMO.22
+Consideration by other parliamentary committees
+1.21 When examining a bill or draft bill, the committee considers any relevant
+comments published by the Senate Standing Committee for the Scrutiny of Bills
+(Scrutiny Committee) and the Parliamentary Joint Committee on Human Rights.
+1.22 The Scrutiny Committee examined the bill and expressed concern that proposed
+sections 12G and 12M would enable delegated legislation to modify the
+operation of the primary legislation (Henry VIII clauses).23 The Scrutiny
+20 Explanatory Memorandum, p. 2.
+21 Proposed section 125G.
+22 Explanatory Memorandum, p. 7. Note: Item 17 in Part 1 of Schedule 1 of the Bill would insert the
+new policy objective into Division 2 of Part 2 of the Act to ensure the use of the Special Account.
+23 Senate Standing Committee for the Scrutiny of Bills (Scrutiny Committee), Scrutiny Digest 2 of 2026,
+4 February 2026, p. 16.
+6
+Committee noted that such clauses 'impact on the level of parliamentary
+scrutiny and may subvert the appropriate relationship between the Parliament
+and the Executive'.24 The Scrutiny Committee drew these matters to the
+attention of the Senate.25
+1.23 The Parliamentary Joint Committee on Human Rights made no comment on the
+bill.26 However, the Explanatory Memorandum states that the proposed
+legislation is compatible with human rights and freedoms recognised or
+declared in the international instruments listed in section 3 of the Human Rights
+(Parliamentary Scrutiny) Act 2011.27
+Conduct of the inquiry and acknowledgement
+1.24 In accordance with its usual practice, the committee advertised the inquiry on
+its website and called for submissions by 8 April 2026. The committee continued
+to accept submissions received after this date. The committee received and
+published 30 submissions, which are listed at Appendix 1.
+1.25 The committee held a public hearing in Canberra on 20 April 2026, and a list of
+the witnesses who gave evidence is at Appendix 2.
+1.26 The committee thanks the organisations and individuals who made submissions
+and who provided evidence to the inquiry.
+Structure of the report
+1.27 This report comprises two chapters:
+ Chapter 1 outlines the background and key provisions of the bill, and the
+conduct of the inquiry; and
+ Chapter 2 examines the key issues raised in relation to the bill, and sets out
+the committee’s views and recommendations.
+24 Scrutiny Committee, Scrutiny Digest 2 of 2026, 4 February 2026, p. 40.
+25 Scrutiny Committee, Scrutiny Digest 2 of 2026, 4 February 2026, p. 42.
+26 Parliamentary Joint Committee on Human Rights, Scrutiny Report 1 of 2026, 4 February 2026, p. 8.
+27 Explanatory Memorandum, p. 8.
+Chapter 2
+Key issues
+2.1 Most submitters and witnesses supported the intent of the Telecommunications
+Legislation Amendment (Universal Outdoor Mobile Obligation) Bill 2025 (the
+bill), with some concerns raised including:
+ timing of implementation;
+ standards, rules and benchmarks; and
+ other matters
+2.2 This chapter outlines support and the key issues raised before concluding with
+the committee's views and recommendation.
+Importance of establishing a Universal Outdoor Mobile Obligation
+2.3 As explained in Chapter 1, proposed division 2A of the Telecommunications
+(Consumer Protection and Service Standards) Act 1999 (the Act) would establish the
+Universal Outdoor Mobile Obligation (UOMO) along with the ministerial
+powers to set standards, rules and benchmarks relating to the UOMO.
+2.4 The majority of inquiry participants supported the objective of the bill, to
+establish a universal outdoor mobile obligation, with some individuals and
+communities outlining their current and ongoing experiences with
+telecommunications connectivity in regional, rural and remote areas.1 The
+majority of submitters noted the need to improve mobile connectivity for
+consumers.
+2.5 As noted by the Department of Infrastructure, Transport, Regional
+Development, Communications, Sport and the Arts (the department), there has
+been broad support from stakeholders for the modernisation of universal
+service obligations by using a technology neutral approach to better reflect the
+evolving needs of rural Australia and the development of new
+telecommunications technologies.2
+2.6 Representatives from the National Rural Health Alliance stated their support
+for the intent of the bill, and outlined the importance of mobile coverage in rural,
+regional and remote communities and industries:
+Outdoor mobile coverage in rural Australia is a lifeline. It underpins the
+ability to call triple zero, to coordinate medical retrievals, to support
+1 See, for example: Telstra, Submission 18, p. 1; National Farmers’ Federation, Submission 13, p. 1;
+Telecommunications Industry Ombudsman, Submission 3, p. 1.
+2 Department of Infrastructure, Transport, Regional Development, Communications, Sport and the
+Arts (the department), ‘Better Delivery of Universal Services’, www.infrastructure.gov.au/have-
+your-say/better-delivery-universal-services (accessed 10 April 2026).
+7
+8
+telehealth, to outreach care, to enable personal safety alarms for older people
+and those people that have a disability and to protect people from working
+and travelling across long distances in high-risk environments.3
+2.7 The National Farmers’ Federation (NFF) also voiced their strong support for the
+bill, and reinforced the importance of mobile connectivity for the regions as it
+supports delivery of essential services in rural, regional and remote
+communities as well as supporting farming businesses:
+… mobile connectivity is not a luxury; it's actually an essential lifeline. It
+underpins our safety, our productivity, our economic participation and our
+access to essential services such as health, education and emergency
+services.4
+2.8 The NFF also noted the importance of the definitions surrounding mobile
+coverage and outdoor usability which provided important clarity to
+stakeholders and recognise the need to ensure equitable delivery of
+telecommunications services.5
+2.9 The department provided further background on the importance of the bill.
+They outlined that stakeholders have raised with them longstanding concerns
+about public safety that have arisen due to the gaps in terrestrial
+telecommunications services in rural, regional and remote areas in Australia.6
+2.10 Similarly, the Australian Communications and Media Authority (the ACMA)
+highlighted the need to modernise the current universal service arrangements
+through the bill, as well as the importance of mobile coverage for consumers,
+stating:
+In 2026, consumers overwhelmingly depend on mobile and broadband
+services for work, health, education, business and safety, highlighting the
+importance of ensuring telecommunications coverage is available across
+Australia. The Bill’s proposed establishment of the UOMO therefore
+represents an important evolution toward a modern universal service
+model.7
+2.11 Further, the committee received evidence from a wide range of participants
+which highlighted the importance of establishing a universal outdoor mobile
+obligation.
+3 Ms Susanne Tegen, Chief Executive, National Rural Health Alliance, Proof Committee Hansard, 20
+April 2026, p. 7.
+4 Mr Peter Thompson, Chair, Telecommunications and Social Policy Committee, National Farmers’
+Federation, Proof Committee Hansard, 20 April 2026, p. 2.
+5 National Farmers Federation, Submission 13 Attachment 1, p. 5.
+6 Department of Infrastructure, Transport, Regional Development, Communications, Sport and the
+Arts, Submission 10, p. 2.
+7 Australian Communications and Media Authority, Submission 20, p. 1.
+9
+2.12 The three Mobile Network Operators (MNOs)—Telstra Limited (Telstra), Optus
+Mobile (Optus), and TPG Telecom—that will be designated as the initial
+providers under the UOMO, supported the policy intention of the bill,8 with
+Telstra outlining the importance of the stated objectives of the UOMO:
+Australia's vast geography and exposure to natural disasters make this
+objective particularly important, and the recent bush fires, floods, and
+cyclones have demonstrated how critical basic outdoor connectivity is. A
+workable level of coverage could also support regional industries such as
+agriculture, transport, and tourism, where workers often operate outside
+traditional mobile footprints.9
+2.13 State and territory governments who participated in the inquiry also indicated
+their support for the objectives of the UOMO10, and noted the importance of
+improving mobile services in rural, regional and remote areas, with the New
+South Wales Government stating:
+The principle of universal access is sound, and the Bill represents an
+important step toward improving baseline connectivity in rural, regional
+and remote areas.11
+2.14 The Tasmanian Government supported the technology neutral approach that
+the Commonwealth Government has taken, highlighting the benefits of the
+integration of Low Earth Orbit Satellite (LEOSat) technology as a ‘significant
+opportunity to improve access to mobile services and emergency
+communications, to the particular benefit of our most underserved and
+vulnerable citizens, living in areas beyond terrestrial mobile coverage’.12
+2.15 In its submission, the Space Industry Association of Australia (SIAA)
+supported the intent of the bill. They noted the relevance of Direct to Device
+(D2D) as being important for many critical services such as Triple Zero, cell
+broadcast emergency messaging and Public Safety Mobile Broadband across the
+areas of Australia that lack terrestrial mobile coverage.13
+2.16 The department also raised the issue of limited choice in rural, regional and
+remote Australia when it comes to D2D services. Currently, Telstra is the only
+telecommunications provider that offers D2D services, and not all Telstra
+8 See, for example: Telstra, Submission 18, p. 2; Optus, Submission 17, p. 2; TPG Telecom, Submission
+22, p. 2.
+9 Telstra, Submission 18, p. 2.
+10 See, for example: New South Wales Government, Submission 27, p. 3; Tasmanian Government,
+Submission 23, p. 1; Northern Territory Government, Submission 21, pp. 1–2.
+11 New South Wales Government, Submission 27, p. 3.
+12 Tasmanian Government, Submission 23, p. 1.
+13 Space Industry Association of Australia, Submission 14, p. 1.
+10
+customers can access those services. The department expressed their belief that
+the UOMO will improve options, stating:
+… the choice of mobile providers in regional Australia can be limited. The
+UOMO will improve competition and choice in regional and remote areas
+by requiring the three major mobile providers to provide reasonable
+national outdoor coverage.14
+2.17 Some participants raised issues for further consideration. For example,
+telecommunications providers raised concerns surrounding the commencement
+date of the UOMO, while certain peak bodies called for further clarification
+around the definitions of ‘reasonably available’ and ‘equitable access’ to ensure
+that rural communities understand what the UOMO is capable of.
+Comments on specific aspects of the bill
+2.18 Information provided to the inquiry conveyed concerns about some aspects of
+the bill. This section examines the following concerns:
+ the timing of the commencement of the UOMO and concerns around
+inadequate time for MNOs to prepare;
+ standards, rules and benchmarks to be set by the minister; and
+ other matters.
+Timing of implementation
+2.19 Proposed section 12M(1) of the bill would establish 1 December 2027 as the
+‘default day’ on which the UOMO would commence.15
+2.20 The explanatory memorandum to the bill states that Australia supports
+international and domestic competition in both D2D and terrestrial mobile
+service provision. However, it emphasised that the Australian Government’s
+priority is to have the technology available, together with the necessary
+safeguards, as quickly as possible:
+While Australian MNOs had announced plans to commercially deploy D2D
+services in partnership with LEOSat operators, this may not have delivered
+baseline mobile coverage to all areas of Australia. The Bill will embed in law,
+clear expectations that this significant technology should be as widely
+available as possible, as quickly as possible and provide safeguard
+mechanisms to ensure equitable and quality services are provided.16
+Technological limitations
+2.21 Some participants argued that the default day proposed in the bill is not
+achievable, due to infrastructure and technology requirements. It was argued
+14 Department of Infrastructure, Transport, Regional Development, Communications, Sport and the
+Arts, Submission 10, pp. 2–3.
+15 Explanatory Memorandum, p. 23.
+16 Explanatory Memorandum, p. 2.
+11
+that due to the infancy of the emerging D2D and LEOSat technology, imposing
+an arbitrary deadline is impractical as the development of these technologies is
+not something that the MNOs are able to control.17 Many of these submissions
+were premised on the availability of D2D and LEOSat technology in order to
+comply with the UOMO.
+2.22 The Australian Telecommunications Alliance agreed, stating that the UOMO
+seeks to ‘legislate a requirement to provide a service that does not yet exist in
+the real world’.18
+2.23 Optus expressed its commitment to the UOMO but argued that the proposed
+framework must be ‘recalibrated to align policy ambition with technical reality’.
+In particular:
+[We] recommend deferring commencement until critical dependencies are
+resolved, either by setting a default start date no earlier than 1 January 2030
+or by empowering the Minister to determine commencement once industry
+and government have agreed a clear and practical implementation pathway,
+with a minimum of 24 months’ notice. Conditioning obligations on
+demonstrated performance benchmarks, updated spectrum frameworks,
+realistic device availability, and aligned consumer representations will
+better ensure that UOMO delivers durable, safe, and credible outcomes for
+all Australians.19
+2.24 Similarly, Telstra expressed their support for the policy intent of the bill but
+argued that the commencement of the UOMO should ‘be based on the
+availability of the technology and compatible devices’. Telstra also raised
+concerns around the commencement of the UOMO Short Message Service (SMS)
+service before the UOMO voice service, stating:
+… it is not feasible to run UOMO STM (SMS and Voice) simultaneously on
+separate 4G and new 5G satellite networks because we do not have enough
+spectrum, and STM Voice will most likely only be available on new 5G
+technology. If a UOMO SMS service is designated before the new 5G
+technology is available, customers will acquire handsets capable of 4G STM
+SMS in the expectation that they will have access to the benefits of that
+Government-mandated service for the lifetime of that handset. However,
+when STM Voice is later launched on new 5G technology, the handsets
+already acquired will need to be replaced at customers' cost with handsets
+capable of 5G STM SMS and Voice, because we will need to switch off 4G
+STM SMS promptly.20
+17 See for example: Australian Telecommunications Alliance, Submission 12, pp. 2–3; Telstra,
+Submission 18, p. 3; Optus, Submission 17, p. 3; TPG Telecom, Submission 22, pp. 2–3.
+18 Australian Telecommunications Alliance, Submission 12, p. 3.
+19 Optus, Submission 17, p. 3.
+20 Telstra, Submission 18, p. 3.
+12
+2.25 TPG Telecom in its submission raised similar concerns, stating that they
+consider the current default date of 1 December 2027 for the commencement of
+the UOMO to be infeasible due to the limitations of current D2D technologies.21
+They specifically noted that the delivery of the UOMO is subject to the existence
+and availability of technology, and the provision of access to that technology on
+reasonable commercial terms, which are outside the control of mobile network
+operators, which makes meeting the default day difficult.22
+2.26 The NFF emphasised the importance of transparency surrounding any change
+to the default day, specifically regarding the criteria the minister will use to
+assess market conditions and technological developments when making a
+decision regarding the date.23
+Ministerial discretion
+2.27 The Explanatory Memorandum highlighted that proposed subsection 12M(3)
+would enable the minister to vary the ‘default day’ by postponing it by up to 12
+months. This power can be exercised by the minister up to three times in order
+to ‘provide flexibility to respond to the precise timing of D2D services becoming
+available in Australia’.24 As such, the default day can be extended for a total of
+period of up to 36 months (or three years).
+2.28 In its submission, the department reiterated the flexibility of the default day as
+outlined in proposed subsection 12M, noting that if the minister seeks to exercise
+the power to vary the default day, that determination would have to follow
+consultation with MNOs and consideration of technical and market issues.25
+This would ensure that MNOs would be aware in advance of any changes to the
+default day, as the minister would be in consultation with all of them prior to
+any decision being made.
+2.29 Additionally, the department noted the ability to split the UOMO into separate
+voice and SMS obligations in order to ensure further flexibility to reflect the
+readiness of technology and the telecommunications market, addressing the
+concerns of several submitters who raised the issue of D2D voice services being
+unfeasible to deliver by the current default day.26
+21 TPG Telecom, Submission 22, pp. 2–3.
+22 TPG Telecom, Submission 22, p. 3.
+23 National Farmers’ Federation, Submission 13, Attachment 1, p. 10.
+24 Explanatory Memorandum, p. 23.
+25 Department of Infrastructure, Transport, Regional Development, Communications, Sport and the
+Arts, Submission 10, p. 5.
+26 Department of Infrastructure, Transport, Regional Development, Communications, Sport and the
+Arts, Submission 10, p. 6.
+13
+Standards, rules and benchmarks
+2.30 The bill proposes powers for the minister to make standards, rules and
+benchmarks relating to the supply of telecommunication services. According to
+the explanatory memorandum, the list of matters that may be covered by the
+legislative instruments is deliberately not exhaustive in order to ensure that the
+Government can respond flexibly to any failures by providers in their delivery
+of services.27
+2.31 The ACMA supported the ability for the minister to make standards, rules and
+benchmarks in relation to mobile services. They argued that the ability to set
+these standards is an important step in the modernisation of the Australian
+telecommunications network.28
+2.32 In their submission, the Australian Communications Consumer Action Network
+(ACCAN) also voiced their strong support for the provisions of the bill that
+would empower the minister to make standards, rules and benchmarks for
+mobile services. The ACCAN stated that these powers are a ‘significant step in
+improving the critical issue of reliability across telecommunications networks in
+Australia’.29
+2.33 The Australian Mobile Telecommunications Association (AMTA) raised
+concerns that while the MNOs would be subject to standards, rules and
+benchmarks, the delivery of D2D services would likely require them to engage
+with third party LEOSat providers. AMTA noted that while the EM to the bill
+acknowledged the likely requirement for third party LEOSat providers to be
+engaged to meet the UOMO, the provisions of the bill do not extend to those
+third-party providers. AMTA stated that this could lead to MNOs being in an
+unfavourable negotiating position with these third parties, as they would have
+legislative requirements under the UOMO to ensure a certain level of service,
+meaning they may have to take unfavourable commercial deals to meet the
+requirements of the UOMO.30
+2.34 The Telecommunications Industry Ombudsman supported the method of
+leaving the detail of the UOMO to subordinate legislation as it would allow the
+government to easily amend the requirements as needed to ensure that the
+needs and expectations of the community are met.31 However, in evidence given
+to the committee, the Telecommunications Industry Ombudsman stated that
+27 Explanatory Memorandum, p. 5.
+28 Australian Communications and Media Authority, Submission 20, p. 5.
+29 Australian Communications Consumer Action Network, Submission 11, p. 11.
+30 Australian Mobile Telecommunications Association, Submission 9, p. 9.
+31 Telecommunications Industry Ombudsman, Submission 3, p. 1.
+14
+clarity around baseline standards was needed to ensure that consumers
+understand what will be delivered by the UOMO to avoid any confusion.32
+2.35 In their submission, Telstra suggested that standards relating to delivery of
+services under the UOMO should not be determined until the relevant
+technologies are available and understood. Telstra stated that it would take time
+for D2D services to mature and be able to be delivered at scale to meet the
+requirements of the UOMO and understand how feasible it is to meet the future
+standards.33
+2.36 The bill’s explanatory memorandum notes that any standards, rules or
+benchmarks would be legislative instruments, and therefore subject to
+consultation, sunsetting and disallowance provisions under the Legislation Act
+2003.34
+Equitable and affordable access and reasonable availability
+2.37 Some participants raised the issue that having standards not legislated by the
+bill could lead to uncertainty surrounding the delivery of telecommunications
+services by the default day, for example regarding the meaning of the obligation
+to ensure that mobile coverage is ‘reasonably available’ outdoors to all people
+in Australia on an ‘equitable basis’.
+2.38 The explanatory memorandum to the bill outlines the concept of services being
+‘reasonably available’ as part of the UOMO. The Australian Government
+recognises that there are different factors that could make delivery of services
+difficult, including geographical restraints or technical limitations that would
+impede service delivery. Consistent with existing standards, the bill would
+empower the minister to determine circumstances where it would be
+unreasonable to deliver mobile coverage.35
+2.39 The department noted in their submission that they consulted with MNOs
+during the development of the bill and will consult with them regarding any
+proposed legislative instruments. The department acknowledged that there will
+be limitations on the delivery of mobile coverage for a number of reasons, and
+that the minister’s powers to set standards, rules and benchmarks will be
+consistent with the existing Universal Service Obligation (USO) and SIP regimes
+in determining if it is not reasonable to make mobile coverage available.36
+32 Ms Cynthia Gebert, Ombudsman, Telecommunications Industry Ombudsman, Proof Committee
+Hansard, 20 April 2026, p. 50.
+33 Telstra, Submission 18, p. 3.
+34 Explanatory Memorandum, p. 5.
+35 Explanatory Memorandum, p. 4.
+36 The Department of Infrastructure, Transport, Regional Development, Communications, Sport and
+the Arts, Submission 10, pp. 3–4.
+15
+Other matters
+Spectrum allocation
+2.40 While the bill does not directly address the licensing and allocation of spectrum
+for the delivery of telecommunications services, submitters raised concerns
+surrounding spectrum allocation as it relates to LEOSat D2D technology in the
+delivery of the UOMO.
+2.41 In their submission, Optus raised that the current uncertainty surrounding
+spectrum availability is a significant concern relating to the delivery of the
+UOMO using MNO owned spectrum. Optus stated that there could be
+detrimental effects to terrestrial services as an unintended consequence due to
+the uncertainty surrounding spectrum availability, stating:
+To facilitate the use of MNO spectrum, it will be necessary to cannibalise
+currently deployed spectrum to meet the UOMO, meaning that the
+spectrum used will be unavailable for the carriage of other terrestrial
+services.37
+2.42 TPG Telecom stated that currently, the ACMA’s spectrum licensing framework
+does not extend to cover external territories of Australia. TPG Telecom also
+stated that MNOs cannot lawfully be expected to provide services to the external
+territories when they do not hold spectrum licences compatible with delivery of
+D2D services.38
+2.43 The ACMA is currently examining how the delivery of D2D services may be
+achieved in these external territories that are not subject to spectrum licensing.
+The ACMA expects to resolve this before the default day, however the
+explanatory memorandum of the bill notes that if this issue is not resolved, the
+minister could make an instrument to determine those circumstances as ‘not
+reasonable’ for MNOs to provide mobile coverage.39
+2.44 The ACMA is currently taking various actions to ensure that MNOs will have
+access to the relevant spectrum in order to meet their obligations under the
+UOMO. These include:
+ making spectrum available that can support non terrestrial D2D services;
+ development of a work program to enable MNOs to meet their UOMO
+obligations in external territories; and
+ ensuring that when considering the renewal of spectrum licenses that
+consideration is given to the UOMO and other matters of public interest.40
+37 Optus, Submission 17, p. 9.
+38 TPG Telecom, Submission 22, p. 7.
+39 Explanatory Memorandum, p. 5.
+40 Australian Communications and Media Authority, Submission 20, p. 3.
+16
+Domestic mobile roaming
+2.45 In evidence that was received by the committee, the issue of domestic mobile
+roaming was raised by witnesses as an arrangement that could be an important
+component of the UOMO. The Australian Competition and Consumer
+Commission (ACCC) defines mobile roaming as a service that allows mobile
+subscribers of one network to use their devices for calls, messaging and data
+services when they are in areas that are outside the coverage area of the mobile
+network area that they are subscribed to.41
+2.46 In 2016, the ACCC reviewed the idea of mobile roaming arrangements,
+presenting their final report on 23 October 2017. The ACCC concluded that it
+would not declare a domestic mobile roaming service as they were not satisfied
+that it would promote the long-term interests of consumers.42
+2.47 The ACCC came to this conclusion for a number of reasons, including that
+declaring a domestic mobile roaming service would not promote competition in
+the retail mobile market. The ACCC argued that such a declaration would lessen
+the competitive tension between MNOs and could possibly distort the long-
+term competitive dynamics between the MNOs.43
+2.48 On the other hand, the committee heard evidence that a domestic mobile
+roaming arrangement could benefit rural, regional and remote communities,
+especially in emergency or disaster situations. The NFF stated that there have
+been instances where consumers from urban areas have visited remote
+communities and found that they were unable to use mobile services as a
+customer of a provider without local infrastructure.44
+2.49 The ACCAN gave evidence of recent research that found there was widespread
+support in communities for the introduction of a domestic roaming service, with
+73 per cent of consumers supporting the proposal. ACCAN proposed that a
+domestic mobile roaming arrangement could be an effective measure to meet
+the UOMO obligations while the development of D2D technologies progresses.
+45
+41 Australian Competition and Consumer Commission, Domestic mobile roaming declaration inquiry –
+Final Report, October 2017, p. 9.
+42 Australian Competition and Consumer Commission, Domestic mobile roaming declaration inquiry –
+Final Report, October 2017, p. 2.
+43 Australian Competition and Consumer Commission, Domestic mobile roaming declaration inquiry –
+Final Report, October 2017, p. 3.
+44 Mr Peter Thompson, Chair, Telecommunications and Social Policy Committee, National Farmers’
+Federation, Proof Hansard, 20 April 2026, p. 8.
+45 Ms Carol Bennett, Chief Executive Officer, Australian Communications Consumer Action
+Network, Proof Hansard, 20 April 2026, p. 13.
+17
+2.50 The department highlighted the work being led by the industry on temporary
+domestic mobile roaming in the event of natural disasters. The department
+reiterated that the objective of the UOMO was to expand mobile coverage into
+areas in Australia that currently lack reasonable mobile coverage, while
+fostering competition between MNOs, agreeing with the conclusion reached by
+the ACCC, that domestic mobile roaming could undermine competition.46
+Committee view
+2.51 The committee acknowledges the overwhelming support from participants for
+the establishment of the UOMO, and the importance of ensuring mobile
+coverage is available across rural, regional and remote Australia.
+2.52 The importance of modernising Australia’s universal service obligations by
+using a technology neutral framework was recognised by many submitters. The
+committee views the UOMO as an integral next step to deliver enhanced mobile
+connectivity to the regions. However, the committee notes that the delivery of
+this obligation is technology neutral, but submitters did indicate that it is only
+likely to be deliverable if D2D and LEOSat technology is available.
+2.53 The committee acknowledges the desire of some submitters for further
+explanation and clarification surrounding some of the key definitions relating
+to the UOMO, including the term ‘reasonably available’. The committee is
+satisfied that definitions of reasonable availability and equitable access will be
+outlined by the minister in legislative instruments following consultation with
+MNOs.
+2.54 The committee also recognises the concerns surrounding the default day on
+which the UOMO would commence, noting that MNOs may not be in a position
+to deliver these services by this time due to technological limitations and
+availability of infrastructure. However, the committee is satisfied that the bill
+provides the minister with the power to vary the default day by up to 12 months
+on three occasions, with consultation being undertaken with MNOs before such
+a decision would be made. The committee notes that the ability for the minister
+to extend for up to 36 months or three years provides flexibility to industry and
+stakeholders ensuring that the UOMO can commence at an appropriate time
+with MNOs being ready to meet their obligations.
+2.55 The committee notes that concerns were raised by some participants regarding
+domestic mobile roaming services not being included as part of the UOMO. The
+committee notes the reviews of this matter that have been undertaken by the
+ACCC, and the conclusions that they drew regarding the decision to not make
+a declaration on the matter. The committee also notes that the department is
+46 Ms Nicolle Power, Assistant Secretary, Department of Infrastructure, Transport, Regional
+Development, Communications, Sport and the Arts, Proof Committee Hansard, 20 April 2026, p. 66.
+18
+working with industry to explore the possibility of temporary disaster roaming
+to ensure Australians have mobile coverage during natural disasters.
+2.56 Overall, the committee believes that the bill will provide an important
+modernisation of universal service obligations that will ensure that mobile
+coverage is extended to areas of rural, regional and remote Australia which
+currently lack adequate coverage. The bill accounts for further development of
+telecommunications technology to ensure that Australians can access effective
+and reliable mobile services into the future.
+Recommendation 1
+2.57 The committee recommends that the Senate passes the bill.
+Senator Varun Ghosh
+Chair
+Australian Greens senators' additional comments
+1.1 The Australian Greens support the intent to modernise the existing Universal
+Service Obligation (USO) to reflect today’s demand for voice and text services.
+However, without a stronger emphasis on reliability, safety and accountability,
+this Bill risks becoming another failed attempt at corporate self regulation in the
+telecommunications industry.
+1.2 The Bill as drafted fails to explicitly prioritise consumer reliability and public
+safety. This Bill cannot be considered in isolation of the other serious issues in
+the telecommunications industry. The recent network outages and Triple Zero
+failures have proven that a network outage is a matter of life or death. While
+this Bill attempts to modernise our Telecommunications (Consumer Protection and
+Service Standards) Act 1999, it does not address the systemic issues driving a
+culture of profits above public safety throughout the telecommunications
+industry. Without amendments that explicitly prioritise consumer safety,
+reliability and quality, this Bill won’t touch the surface of the industry’s failures.
+1.3 Despite its role as the regulator to hold industry to account, the Australian
+Communications and Media Authority has continually failed to deliver for
+Australians public safety and has been found asleep at the wheel on many
+occasions. The many failing to hold industry to account on the Triple Zero
+failings has been unacceptable. The 12 month timeframe for an investigation into
+the Optus Triple Zero outage is deeply concerning and shows a regulator that is
+slow to act in the public interest. If the Labor Government wants to get serious
+about reliable mobile coverage for Australians, it should start by looking at the
+regulatory body that is supposed to safeguard it.
+1.4 The time has well and truly come for the implementation of domestic mobile
+roaming. Australians in regional, rural and remote areas are subject to daily
+black spots, unreliable service and vulnerability during times of emergency.
+Together with this Bill, domestic mobile roaming would safeguard Australian’s
+mobile coverage during emergencies and help to achieve this Bill’s objective.
+1.5 Ensuring all Australians have ongoing access to reliable mobile coverage must
+be a priority.
+Recommendation 1
+1.6 That the bill be amended to include minimum standard for reliability,
+quality, and accessibility of mobile services.
+Recommendation 2
+1.7 That the Australian Government mandate domestic mobile roaming services
+be available to Australian consumers.
+19
+20
+Senator Sarah Hanson-Young
+Deputy Chair
+Australian Greens Senator for South Australia
+Senator the Hon. Sarah Henderson's additional
+comments
+Introduction
+1.1 Improving mobile connectivity for Australians living, working and travelling in
+regional, rural and remote areas is crucially important. Access to reliable
+telecommunications is not a luxury but a critical service which underpins safety,
+economic activity and social participation.
+1.2 While the intention of the Telecommunications Legislation Amendment
+(Universal Outdoor Mobile Obligation) Bill 2025 (the Bill) is commendable, the
+Bill is fundamentally flawed in its design, lacks sufficient clarity, and fails to
+provide a credible or timely pathway to achieving its stated objectives.
+Labor’s shock axing of regional connectivity funding
+1.3 In the 2026-27 Budget handed down just two days ago, the Albanese
+Government has shockingly and cynically axed its Better Connectivity Plan for
+Regional and Rural Australia (BCP). The BCP included future rounds of the
+Mobile Black Spot Program, the Regional Connectivity Program, the On Farm
+Connectivity Program, disaster and telecommunications resilience measures,
+the Regional Tech Hub and the National Audit of Mobile Coverage.
+1.4 The Government had allocated $116 million to the BCP in 2026-27 with $49.6
+million allocated in the forward estimates.1 The ‘reprioritisation’ of this funding
+shows the Government’s contempt for the communications infrastructure needs
+of regional, rural, and remote Australia and is profoundly disappointing.
+Lack of legislative clarity
+1.5 The Bill establishes a broad and aspirational framework, rather than a clear and
+enforceable regime.
+1.6 At its core, the Bill requires that mobile services be made “reasonably available”
+outdoors on an “equitable basis”, yet these key terms are not defined in primary
+legislation. The absence of clear definitions creates significant uncertainty for
+industry, consumers, and regional communities as to what level of mobile
+connectivity they can expect.
+Overreliance on delegated powers
+1.7 The Bill confers broad powers on the Minister for Communications (Minister) to
+determine critical elements of the universal outdoor mobile obligation,
+1 Portfolio Budget Statements 2026–27, Budget Related Paper No. 1.12 Infrastructure, Transport,
+Regional Development, Communications, Sport and the Arts Portfolio, p. 64.
+21
+22
+including coverage areas, service standards, benchmarks and provider
+obligations. This represents a significant expansion of the Government’s
+discretion, with insufficient detail provided in the primary legislation.
+1.8 Such a reliance on legislative instruments limits parliamentary scrutiny and
+risks creating an opaque and uncertain regulatory regime.
+1.9 There is the risk that this uncertainty will deter investment and innovation,
+particularly given the scale of the technical and commercial challenges involved
+in delivering universal outdoor mobile coverage.
+A bill riddled with uncertainty
+1.10 The Bill sets a default commencement date of 1 December 2027. The Senate
+Environment and Communications Legislation Committee (committee) heard
+evidence that there is considerable uncertainty as to whether this timeframe is
+achievable for the mobile network operators which are currently Telstra, Optus
+and TPG Telecom, particularly given their reliance on emerging technologies
+such as low earth orbit satellite (LEOSat) and direct to device (D2D)
+connectivity.
+1.11 It is important to note that SpaceX (the operator of Starlink) gave evidence it was
+confident its second-generation voice and SMS LEOSAT technology could be
+available by the end of 2027, subject to it securing appropriate access to
+spectrum.2 SpaceX is currently in negotiations to contract to Telstra.
+1.12 SpaceX also added that there are regulatory approaches that could be used to
+encourage timely deployment as a spectrum licence condition:
+One of the other tools that you might have is to put requirements on all of
+the satellite operators' licences to deploy quickly. Make it conditional that,
+if we're going to get access to the spectrum and are going to be able to deploy
+in Australia, we have to provide service as fast as possible.3
+1.13 Notwithstanding, critical questions about how universal mobile coverage will
+be delivered remain unresolved, including spectrum availability, device
+compatibility, service reliability, and the scalability of satellite-enabled
+solutions.
+1.14 While there is great promise that these technologies will eventually deliver voice
+and SMS connectivity in every part of the country where terrestrial mobile
+connectivity is not available, this is not yet proven at scale, and regional
+Australians have every right to treat the Government’s promise of “universal”
+coverage by the end of next year with deep scepticism.
+2 Mr David Goldman, Vice President, Space Exploration Technologies Corporation (SpaceX), Proof
+Committee Hansard, 20 April 2026, p. 41.
+3 Mr David Goldman, Vice President, Space Exploration Technologies Corporation (SpaceX), Proof
+Committee Hansard, 20 April 2026, p. 45.
+23
+Mandatory mobile roaming must play a crucial role
+1.15 Given universal mobile coverage will not be available until at least December
+2027, and may face further delays, it is unacceptable that the Government is not
+taking practical, immediate action to address gaps in mobile coverage.
+1.16 It is incumbent on the Government to be doing everything possible to improve
+mobile connectivity in parts of Australia with no or poor mobile service. This
+includes the mandating of domestic mobile roaming.
+1.17 The committee heard compelling evidence from the Australian
+Communications Consumer Action Network (ACCAN), the National Rural
+Health Alliance, and the Isolated Children’s Parents’ Association that
+mandatory domestic mobile roaming must be available to regional Australians:
+It's important because it provides that safety net that other countries already
+have, that we don't have in Australia. We have a big country and
+geographical challenges. We have people living in the regions. We heard
+this morning from Susi Tegen and our rural friends that there is a significant
+and important reason to invest in these communities, and that is because
+they deliver a lot of our wealth and they also deliver important services that
+we all rely on. In order to support and sustain those communities
+connectivity is not a luxury; it is absolutely essential. It shouldn't be the case
+that people living in these regions have to go without access to triple zero
+because they haven't got connection for weeks on end. We shouldn't see a
+situation where people can't work, can't educate their kids and can't access
+basic health services if they have a chronic condition.4
+1.18 ACCAN also pointed out the benefit of domestic mobile roaming as an interim
+safety net if there are delays to the rollout of the Universal Outdoor Mobile
+Obligation:
+We would also like to see domestic mobile roaming become the fallback
+should this be delayed, because people can no longer continue to stay in
+situations where their safety is at risk and their lives are set aside by not
+being able to connect to the work, education, health and safety services that
+they really need to function.5
+1.19 Just as it is ludicrous to build three separate rail lines from Melbourne to Sydney,
+it is not feasible to build multiple terrestrial communications infrastructure
+networks across every part of our vast continent. It is therefore unconscionable
+that regional Australians are being prevented from roaming onto another
+telecommunication carrier’s network to access mobile connectivity. Mobile
+roaming is available to overseas visitors, so why not Australians? While I
+4 Ms Carol Bennett, Chief Executive Officer, Australian Communications Consumer Action
+Network, Proof Committee Hansard, p. 18. See also, Mrs Sally Brindal, Vice President and
+Communications Portfolio Leader, Isolated Children’s Parents’ Association of Australia, Proof
+Committee Hansard, p. 8
+5 Ms Carol Bennett, Chief Executive Officer, Australian Communications Consumer Action
+Network, Proof Committee Hansard, p.20.
+24
+acknowledge Telstra’s fierce opposition to mandatory domestic mobile
+roaming, it is clear this approach reflects its commercial interests at the expense
+of the national interest.
+1.20 While the Government is proposing to rollout temporary disaster roaming, it is
+not sufficient that mobile roaming is only available to Australians in designated
+geographical areas at times of disaster.
+1.21 The mandating of domestic mobile roaming, which could for instance be an
+option available to customers via a specific mobile phone plan on a commercial
+basis, should be accompanied by appropriate consumer safeguards to ensure it
+is accessible and affordable.
+1.22 Mandatory domestic roaming would provide an immediate and practical
+solution by enabling Australians in regional and remote areas to access any
+available mobile network in areas of limited coverage.
+1.23 I am disappointed the committee in its report did not adequately consider the
+compelling evidence in support of mandatory domestic mobile roaming. The
+Government’s decision not to include mandatory domestic mobile roaming in
+the Bill is a very significant oversight which must be remedied.
+Lack of funding clarity and risk to consumers
+1.24 I note with concern the Bill does not provide clarity regarding the funding
+required to deliver the Universal Mobile Outdoor Obligation.
+1.25 While the Bill facilitates the use of the Public Interest Telecommunications
+Services Special Account, the Government has not specified how this funding
+will support the delivery of universal mobile coverage. The Bill is silent on how
+much the mobile network operators will receive, the total cost to taxpayers, the
+exact subsidy formula and how the burden will ultimately be split between
+taxpayers and industry. This gives rise to significant concerns about how
+consumers will be protected if mobile network operators attempt to
+unreasonably pass on the costs associated with delivering universal mobile
+coverage. It is disappointing the Bill does not include any express powers to
+appropriately protect consumers.
+1.26 The proposed laws also fail to address the fact that many mobile handsets will
+not be compatible with LEOSat technology.
+Emergency services and public safety
+1.27 The most fundamental requirement of any telecommunications system is to
+enable access to emergency services. It is therefore concerning that the Bill does
+not explicitly guarantee the ability to contact Triple Zero as part of the universal
+outdoor mobile obligation.
+1.28 Similarly, the Bill is silent on the availability of text-to-Triple Zero functionality
+which is critical in circumstances where voice calls are not possible. Given the
+25
+Bill’s reliance on satellite-enabled messaging, the failure to mandate text-based
+emergency access represents a significant oversight.
+Conclusion
+1.29 Improving mobile connectivity for all Australians is of critical importance.
+However, the Bill in its current form is inadequate to achieve this objective. It is
+characterised by uncertainty, an overreliance on unproven or inaccessible
+technology, insufficient legislative clarity, and a failure to address the
+immediate needs of regional Australians.
+1.30 It is appalling that the Government has turned its back on regional Australians
+by slashing and burning funding programs to support further investment in
+regional communications infrastructure and connectivity. This decision reflects
+a deep disrespect for the more than 10 million Australians who live in regional,
+rural and remote Australia.
+1.31 I also note with concern that the Government’s botched 3G shutdown has left
+many Australians with worse mobile coverage than they had before the network
+was switched off.
+1.32 Mandatory domestic mobile roaming represents the most effective and
+immediate step which can be taken to improve connectivity across regional
+Australia.
+1.33 Without significant amendment, the Bill risks becoming an aspirational
+framework full of motherhood statements which fails to deliver meaningful and
+practical improvements in connectivity. Regional Australians deserve better.
+Senator the Hon Sarah Henderson
+Member
+Liberal Senator for Victoria
+
+Appendix 1
+Submissions and additional information
+1 Mr Michael Sanderson
+2 Mr Tom Latimer
+3 Telecommunications Industry Ombudsman
+4 Mr Kevin Rattigan
+5 BCPA Inc (Bauple Community Progress Association)
+ Attachment 1
+6 National Rural Health Alliance
+7 Mr Roger King
+8 Vocus
+9 Australian Mobile Telecommunications Association
+10 Department of Infrastructure, Transport, Regional Development,
+Communications, Sport and the Arts
+11 Australian Communications Consumer Action Network (ACCAN)
+12 Australian Telecommunications Alliance (ATA)
+13 National Farmers’ Federation (NFF)
+ Attachment 1
+ Attachment 2
+14 Space Industry Association of Australia (SIAA)
+ Attachment 1
+ Attachment 2
+15 SpaceX
+16 OneWiFi & Infrastructure
+17 Optus
+18 Telstra
+19 Dr Helen Haines MP
+20 Australian Communications and Media Authority (ACMA)
+21 Northern Territory Government
+22 TPG Telecom
+23 Tasmanian Government
+24 First Nations Digital Inclusion Advisory Group
+25 Cr Sarina Laidler
+26 One Gippsland
+27 NSW Government
+28 WALGA
+29 Regional Cities NSW
+30 Waveconn
+27
+28
+Additional Information
+1 Corrections to evidence letter, Mr Andrew Irwin Assistant Secretary,
+Department of Infrastructure, Transport, Regional Development,
+Communications, Sport and the Arts (received 11 May 2026)
+2 Correspondence from Ms Samantha Yorke, Authority Member—Australian
+Communications and Media Authority to Ms Carol Bennett, Chief Executive
+Officer, Australian Communications Consumer Action Network dated 14
+April 2026 and attached section 522 notice to produce information (received
+20 April 2026)
+Answers to Questions on Notice
+1 ACMA, answers to questions on notice, 20 April 2026 (received 4 May 2026)
+2 ATA, answers to questions on notice, 20 April 2026 (received 4 May 2026)
+3 TPG Telecom, answers to questions on notice, 20 April 2026 (received 4 May
+2026)
+4 VOCUS, answer to questions on notice, 20 April 2026 (received 4 May 2026)
+5 Telstra, answers to questions on notice, 20 April 2026 (received 6 May 2026)
+Appendix 2
+Public hearing and witnesses
+Monday 20 April 2026
+Committee Room 2S3
+Parliament House
+Canberra
+ Mr Peter Thompson, Chair—Telecommunications and Social Policy
+Committee (by videoconference)
+ Mr Zac Rayson, Senior Policy Officer—Rural Affairs
+ Ms Susan Tegen, Chief Executive (by videoconference)
+ Ms Gigi O'Sullivan, Strategic Project Manager (by videoconference)
+ Mrs Sally Brindal, Vice President and Communications Portfolio Leader (by
+videoconference)
+Australian Communications Consumer Action Network (ACCAN)
+ Ms Carol Bennett, Chief Executive Officer
+ Dr Gareth Downing, Deputy Chief Executive Officer (by videoconference)
+Australian Telecommunications Alliance (ATA)
+ Mr Luke Coleman, Chief Executive Officer (by videoconference)
+Vocus
+ Ms Ebony Aitken, General Manager Government and Regulatory Affairs
+(by videoconference)
+ Mr Simon Lewin, General Counsel and Company Secretary (by
+videoconference)
+Telstra
+ Mr Bill Gallagher, Executive, Regulatory and Legal
+ Mr Ashley Hunter, Executive, Wireless Engineering
+ Ms Lisa McTiernan, Manager, Government Relations
+TPG Telecom
+ Mr Giovanni Chiarelli, Group Chief Technology Officer
+ Mr Ross Mitchell, Head of Government Relations
+ Mr Jeffrey Owen, Head of Network Strategy
+Optus
+ Mr Sri Amirthalingam, Chief Technology Officer
+ Mr Kent Wu Zeyi, Executive General Manager, Network Strategy and
+Architecture
+ Mr Nathan Gowdie, Director, Non-Terrestrial Networks
+29
+30
+SpaceX
+ Mr David Goldman, Vice President
+ Mr Joseph Petrzelka, Senior Manager
+Telecommunications Industry Ombudsman
+ Ms Cynthia Gebert, Ombudsman (by videoconference)
+Australian Communications and Media Authority (ACMA)
+ Mr Michael Brealey, General Manager, Communications Infrastructure
+Division
+ Mr Robert Crofts, Executive Manager, Spectrum Allocations Licensing and
+Policy
+ Mr Christopher Worley, Executive Manager, Spectrum Planning and
+Engineering
+Department of Infrastructure, Transport, Regional Development, Communications, Sport
+and the Arts
+ Mr David MacKay, Deputy Secretary
+ Ms Nicolle Power, Assistant Secretary
+ Mr Andrew Irwin, Assistant Secretary

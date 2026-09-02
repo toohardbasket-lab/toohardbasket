@@ -1,0 +1,1018 @@
+The Senate
+Economics References Committee
+Improving consumer experiences, choice,
+and outcomes in Australia’s retirement
+system
+Second interim report – superannuation for
+mortgage offset
+September 2024
+© Commonwealth of Australia 2024
+ISBN 978-1-76093-722-5 (Printed version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by the Senate Printing Unit, Parliament House, Canberra
+Members
+Chair
+Senator Andrew Bragg LP, NSW
+Deputy Chair
+Senator Jess Walsh ALP, VIC
+Members
+Senator the Hon Matthew Canavan NATS, QLD
+Senator Nick McKim AG, TAS
+Senator Dean Smith LP, WA
+Senator Jana Stewart ALP, VIC
+Participating Members
+Senator Varun Ghosh ALP, WA
+Secretariat
+Sean Turner, Committee Secretary
+Nicola Kosseck, Principal Research Officer
+Michael Finch, Senior Research Officer
+Daniel Greiss, Senior Research Officer
+Bryn Catlin, Administrative Officer
+PO Box 6100
+Parliament House Ph: (02) 6277 3540
+Canberra ACT 2600 Email: economics.sen@aph.gov.au
+iii
+
+Acronyms and abbreviations
+ADI Authorised deposit-taking institution
+APRA Australian Prudential Regulation Authority
+ATO Australian Taxation Office
+CIS Centre for Independent Studies
+Committee
+Senate Standing Committee on Economics
+FHSS First Home Super Saver – Australian savings scheme
+Grattan Grattan Institute
+HIA Housing Industry Association
+RI Review Treasury’s 2020 Retirement Income Review
+SMSF Self-managed super fund
+v
+
+List of recommendations
+Recommendation 1
+2.76 The committee recommends that the Australian Government further explore
+the potential design of a super mortgage offset product applicable to a
+homeowner’s primary residence; the pros and cons of different options; and
+the regulatory settings that would be needed to permit development of such
+a product. Issues for further investigation should include:
+ the amount of superannuation a homeowner could roll into a “Super
+mortgage offset account” product issued by an Authorised Deposit-taking
+Institution;
+ what regulatory permissions would be needed for such a product, and
+how these might be legislated through the relevant superannuation and
+banking supervision legislation;
+ whether an Authorised Deposit-taking Institution issuing such a product
+would be required to apply for a license variation through the Australian
+Prudential Regulation Authority as the regulator;
+ what the tax implications would be, for individuals and the government,
+of allowing an amount of a person’s superannuation to be rolled into a
+“Super mortgage offset account”;
+ whether the superannuation amount in the “Super mortgage offset
+account” would need to be held as cash by the Authorised Deposit-taking
+Institution;
+ the way in which the amount in the “Super mortgage offset account” is
+required to be returned to the homeowner’s superannuation account once
+the outstanding mortgage falls below the amount in the offset account
+(and, ultimately, is discharged); and
+ whether eligibility for any “Super mortgage offset account” should be
+limited, either initially or on an ongoing basis, to first-home buyers.
+vii
+
+Chapter 1
+Introduction
+Referral of the inquiry
+1.1 On 27 November 2023, the Senate referred the following matter to the
+Economics References Committee (the committee) for inquiry and report:
+Improving consumer experiences, choice, and outcomes in Australia’s
+retirement system, with reference to:
+(a) regulatory and tax impediments to innovation and uptake of insurance
+products in retirement;
+(b) the economic costs and opportunities of innovation in our retirement
+income system;
+(c) the interaction of health insurance, life insurance, general insurance, and
+social security supports to retirement outcomes, including options to
+improve incentives that drive consumer outcomes and support the
+sustainability of the retirement income system;
+(d) the potential role of FinTech platforms, technologies, and innovations in
+supporting better retirement outcomes;
+(e) policy options to support greater choice and quality of life in the retirement
+income system, including but not limited to the aged pension, financial
+advice, home ownership and downsizing, and insurance;
+(f) progress on implementing the Retirement Income Covenant; and
+(g) the impact of climate change on insurance premium affordability and
+accessibility;
+(h) the impact that climate change is likely to have on insurance premiums for
+products including life, home and contents and small business;
+(i) the impact of climate change on the value of assets (e.g. houses,
+investments) of retired people; and
+(j) any other related matters.
+1.2 The committee was to report by 30 June 2024. On 26 March 2024, the Senate
+granted an extension of time to report until 30 June 2025.
+Conduct of the inquiry
+1.3 The committee advertised the inquiry on its website and wrote to relevant
+stakeholders and other interested parties inviting them to make a written
+submission by 23 February 2024. The committee published 46 submissions.
+1.4 Following presentation of its first interim report in May 2024, the committee
+extended the call for submissions to 28 June 2024. The committee published a
+further four submissions and nine supplementary submissions. All published
+submissions are listed at Appendix 1.
+1
+2
+1.5 The committee held two public hearing on 12 March and 30 August 2024 in
+Canberra and via videoconference.
+1.6 A list of witnesses who appeared at the hearings is available at Appendix 2.
+1.7 Links to public submissions, Hansard transcripts of evidence and other
+information published by the committee for this inquiry are available on the
+committee’s website.
+Acknowledgement
+1.8 The committee thanks those individuals and organisations who contributed to
+this inquiry, in particular those who made submissions or gave evidence at a
+public hearing.
+Subject of the interim report
+1.9 The committee’s first interim report considered ways to harness superannuation
+to help first home buyers overcome the deposit hurdle. The committee’s second
+interim report will explore policy options harnessing superannuation to assist
+homeowners during the repayment stage, with particular focus on mortgage
+offset.
+Chapter 2
+Mortgage offset opportunities
+Overview
+2.1 Addressing Australia’s housing crisis is one of our most pressing national
+priorities. Housing supply remains low and sharp rises in the cost of housing
+has made renting or purchasing a quality home prohibitive for many people.
+2.2 Sadly, the lack of affordable housing options now risks undermining the
+financial wellbeing of Australians into retirement. As Ms Michelle Levy, who
+led the Quality of Advice review told the committee, home ownership is crucial
+to financial wellbeing:
+Expressed another way, the most significant contributor to retirement
+outcomes was not how much superannuation a person retires with, but
+whether they own a home.1
+2.3 Indeed, Australians who are not homeowners face long-term financial impacts,
+including ‘much lower standards of life in retirement’.2 This was emphasised in
+evidence from Super Consumers which suggests that not owning a home is a
+‘defining factor’ of people who experience financial hardship or stress in
+retirement.3 In 2020, over half of Australian households aged 65 and over who
+were renting experienced income poverty. For single renter households, the rate
+of income poverty increased to more than 60 per cent.4
+2.4 While Australia’s retirement system often assumes that retirees will own their
+home, data shows that this is increasingly no longer the case. As outlined in the
+committee’s first interim report, increased housing costs has meant that
+Australians are, on average, purchasing their first home later in life and the
+number of people who own their home as they approach retirement is in decline.
+Based on current trends, the Grattan Institute found that ‘by 2056 just two-thirds
+of retirees will own their homes, down from nearly 80 per cent in 2020’.5
+2.5 A range of policy responses are required to ensure Australians have access to
+affordable housing. For instance, the Housing Industry Association (HIA)
+submitted that policy options should include support for ‘home ownership and
+1 Ms Michelle Levy, Submission 35, p. 12.
+2 Mr Michael Rice AO FIAA and Mr Jonathan Ng CFA FIAA, Submission 40, p. 3.
+3 Mr Xavier O’Halloran, Director, Super Consumers, Proof Committee Hansard, 30 August 2024, p. 2.
+4 Australian Government, Retirement Income Review: Final report, July 2020, p. 140.
+5 Grattan Institute, Submission 42, p. 4.
+3
+4
+housing investment as an important means of funding and supporting
+Australians in retirement’.6 Further, the HIA submitted:
+One of these options should include consideration of a well thought out plan that
+would enable the equity Australians hold in their superannuation to be able to
+be used effectively to ensure they own their home now and in retirement, and at
+the same time retain a managed approach to financial security.7
+2.6 However, options to harness superannuation to support Australians’ housing
+needs remain limited.8
+2.7 One prospective policy option could be to give Australians the choice to use their
+superannuation assets to offset the cost of their mortgage. In commenting on this
+proposal, actuary Mr Jonathan Ng CFA FIAA stated that:
+…using superannuation as a mortgage offset would have universal appeal to
+homeowners seeking to achieve the significant financial goal of owning their
+home sooner...9
+2.8 At the same time, Mr Ng noted that the while the idea ‘has considerable merits,
+it is not without material implementation hurdles that will need to be
+overcome’.10
+2.9 Given the importance of homeownership to retirement outcomes, the committee
+explores the use of superannuation for mortgage offset in this report, including
+the potential benefits for Australian homeowners, and the regulatory and
+product design features that may need to be considered if the idea is to be
+implemented.
+Using superannuation for mortgage offset
+2.10 In general, a superannuation for mortgage offset scheme would involve
+establishing a mechanism by which a homeowner with an outstanding
+mortgage balance could opt to allocate part of their superannuation savings to
+a mortgage offset facility. This would reduce the interest payable on the
+6 Housing Industry Association, Submission 48, p. 3.
+7 Housing Industry Association, Submission 48, p. 6.
+8 Note, measures that use of superannuation for housing purposes include: the First Home Super
+Saver (FHSS) scheme to allow first home buyers to withdraw voluntary contributions to support
+the purchase of a home; self-managed super fund (SMSF) owners’ use of their superannuation
+assets to buy an investment property; and the compassionate release of superannuation to prevent
+foreclosure or the forced sale of an owners’ home. See, Australian Taxation Office (ATO), First home
+super saver scheme, 11 June 2024; ATO, SMSFs investing in property, 22 November 2023; and ATO,
+Compassionate release of super, 29 May 2024 (accessed 9 September 2024).
+9 Mr Jonathan Ng, Private capacity, Submission 40.1, p. 6.
+10 Mr Jonathan Ng, Private capacity, Submission 40.1, p. 6.
+5
+mortgage and/or expedite repayment of the principal loan balance, thereby
+allowing for the mortgage to be discharged sooner.11
+2.11 Once a mortgage has been paid off, the funds in the mortgage offset facility
+could be transferred back to the homeowner’s superannuation fund. Further,
+the homeowner may then have money available (in the absence of a monthly
+mortgage repayment) to make additional voluntary superannuation
+contributions.12
+2.12 Rather than directly assisting first home buyers into the housing market, a
+superannuation for mortgage offset scheme would give homeowners ‘another
+choice as to how they could use their savings to achieve their financial goal of
+homeownership’.13
+Australians are regularly using superannuation to pay off their mortgages
+2.13 During the inquiry, the committee received evidence that—given the
+‘historically high levels of household debt’ and the prevalence of 30-year-
+mortages in Australia—many people are anticipated to retire with a mortgage,
+or use their superannuation assets to pay down their mortgage.14
+2.14 For instance, HomeSuper submitted that the proportion of people who retired
+with a mortgage had increased from four per cent in 2002 to 13 per cent in 2021.15
+More recent data provided by Your Financial Wellness (as of September 2024)
+shows that a significant proportion of retirement-aged Australians have
+outstanding mortgage balances, including:
+ 55 per cent of homeowners aged 60–64-years have a mortgage with an
+average outstanding balance of $243 000;
+ 42 per cent of homeowners aged 65–69-years have a mortgage with an
+average outstanding balance of $206 000; and
+ 15 per cent of homeowners aged 70-years and over have a mortgage with an
+average outstanding balance of $202 000.16
+2.15 Your Financial Wellness explained that the above data suggests retirees are
+likely using their superannuation savings to pay down their mortgage:
+The significant reduction in the percentage of homeowners with mortgage
+debt from 42% for those aged 65-69 to 15% for those aged 70 and over may
+suggest that many Australians are using their superannuation to pay down
+11 Mr Jonathan Ng, Submission 40.1, p. 3.
+12 Mr Jonathan Ng, Submission 40.1, p. 3.
+13 Mr Jonathan Ng, Submission 40.1, p. 6.
+14 HomeSuper, Submission 19, p. 1.
+15 HomeSuper, Submission 19, p. 2.
+16 Your Financial Wellness, answer to question on notice, 30 August 2024 (received 9 September 2024).
+6
+their mortgage as they enter retirement. While we cannot be certain, this is
+a reasonable assumption, given that the family home is exempt from means
+testing for the Age Pension. This exemption provides a strong incentive for
+retirees to eliminate their mortgage debt, thereby preserving their eligibility
+for government support while maintaining homeownership.17
+2.16 Moreover, Mr Ng told the committee that Australian Bureau of Statistics’ data
+shows, on average, 32 per cent of lump sum benefit payments from the
+superannuation system are directed to paying off mortgages, enhancing
+property, or acquiring a new home.18 Further, data provided by Mr Ng suggests
+that in 2022–23, over 40 per cent of lump sum benefit payments from the
+superannuation system were directed to paying off mortgages, enhancing
+property, or acquiring a new home (as seen below in Figure 2.1).
+Figure 2.1 Use of lump sum superannuation payments by persons retired in
+the last two years
+Source: Mr Jonathan Ng, Submission 40.1, p. 6.
+Potential benefits of a superannuation for mortgage offset scheme
+2.17 There may be a range of potential benefits to providing Australians with the
+option to use their superannuation savings to offset their mortgage. As
+discussed further below, these benefits could include:
+ improved housing affordability;
+ timing of ownership; and
+ enhanced savings and superannuation awareness.
+17 Your Financial Wellness, answer to question on notice, 30 August 2024 (received 9 September 2024).
+18 Mr Jonathan Ng, Submission 40.1, p. 3; Australian Bureau of Statistics (2024) 'Table 8.1 –
+Superannuation and lump sum payments', 6238.0 Retirement and Retirement Intentions 2022-23,
+accessed 30 June 2024.
+7
+Improved affordability of home ownership
+2.18 The committee received evidence that a superannuation for mortgage offset
+scheme could contribute to improving the affordability of home ownership, as
+outlined in the below examples.
+Example one—Real Estate Institute of Australia
+2.19 Noting the extent of Australia’s housing affordability challenge, the Real Estate
+Institute of Australia (REIA) submitted that ‘[s]upport for mortgage holders on
+their primary place of residence is a critical cost of living measure that must be
+considered’.19 The REIA emphasised the extent of the housing challenge,
+including that:
+ housing and rental affordability was in a ‘steady rate of decline’, with
+vacancy rates below the ‘healthy benchmark’ of 3 per cent;
+ home affordability is ‘at its worst level in 20 years’, exceeding the conditions
+mortgage holders faced during the Global Financial Crisis in 2008; and
+ the proportion of income Australians needed to meet the average loan
+repayment was 46.7 per cent nationally.20
+2.20 At the request of the committee, the REIA prepared a preliminary case study on
+the use of superannuation to offset a mortgage, based on a range of key
+assumptions—including age, superannuation balance, interest rate, and
+income.21 In summary, the REIA found that for a first home buyer couple aged
+36, with a mortgage balance of $519 000 at 8.8 per cent interest and who were
+able to offset their mortgage with $172 000 of their superannuation savings,
+could see their monthly mortgage repayment reduced from $4999 to $3342. This
+is modelled on the assumption that households would reduce their repayments
+in line with the interest saved.
+2.21 Further, the REIA submitted that the loan to income ratio for the modelled
+household reduced from 46.7 per cent to 31.2 per cent. The REIA noted this 15.5
+per cent improvement to housing affordability ‘is equivalent to housing
+affordability levels in 2004.’22
+2.22 The REIA concluded the use of superannuation to offset mortgage balances
+would improve housing affordability:
+The addition of the flexible use of compulsory superannuation on a
+voluntary basis to offset mortgages would without doubt provide a major
+adjustment to housing affordability for those electing to use it. It would help
+19 Real Estate Institute of Australia, Submission 49, [p. 1].
+20 Real Estate Institute of Australia, Submission 49, [p. 1].
+21 Note, the case study did not consider the cost benefits and design and delivery implications.
+See, Real Estate Institute of Australia, Submission 49, [p. 2].
+22 Real Estate Institute of Australia, Submission 49, [p. 2].
+8
+in the long-term households achieve all three successful retirement
+components.23
+Example two—Mr Jonathan Ng CFA FIAA
+2.23 In considering the merits of a superannuation for mortgage offset scheme,
+Mr Ng provided the committee with modelling of the potential interest saved
+on a mortgage using an offset facility for the purchase of an $800 000 unit and,
+separately, for the purchase of a $2.25 million house.
+2.24 Mr Ng’s modelling made a range of assumptions, including:
+ a unit purchase price of $800 000;
+ unit mortgage repayments of $46 200 per annum;
+ a house purchase price of $2.25 million;
+ house mortgage repayments of $130 100 per annum;
+ a mortgage deposit of 20 per cent of the purchase price; and
+ a range of offset account balances which stay constant for the life of the loan.
+2.25 In the case of the unit mortgage, Mr Ng found that if a homeowner had $40 000
+(5 per cent of the home value) in their offset account they would own the unit 3.6
+years earlier (i.e. after 26.4 years rather than 30 years). The amount of interest over
+the life of the loan would be reduced by $164 000 (i.e. $583 000 would be paid in
+interest rather than $747 000).24 Further, if the mortgage offset was increased to
+$160 000 (20 per cent of the initial home value), the homeowner would repay the
+mortgage 9.9 years earlier and save $458 000 in interest payments.
+2.26 In the case of the house, Mr Ng found that if a homeowner had $112 500 (5 per
+cent of the initial home value) in their offset account they would own the house
+3.6 years earlier and save $462 000 in interest repayments. Further, if the
+mortgage offset was increased to $450 000 (20 per cent of home value) the
+homeowner would repay the mortgage 9.9 years earlier and save $1.28 million
+in interest repayments.25
+2.27 Additionally, Mr Ng found that the abovementioned savings achieved with
+offset account value of 5 per cent of the home value was equivalent to achieving
+an after fees and tax return of 6.4 per cent per annum. The savings achieved with
+an offset account value of 20 per cent of the home value was equivalent to
+achieving an after fees tax return of 7 per cent per annum.26
+2.28 In comparing the potential returns of the mortgage offset facilities with
+superannuation performance, Mr Ng observed that:
+23 Real Estate Institute of Australia, Submission 49, [p. 2].
+24 Mr Jonathan Ng, Submission 40.1, p. 7.
+25 Mr Jonathan Ng, Submission 40.1, p. 8.
+26 Mr Jonathan Ng, Submission 40.1, p. 8.
+9
+…mortgage interest rates have historically been less volatile than
+investment performance of the typical growth option available with a
+superannuation fund. This lower level of investment return volatility may
+be more attractive to homeowners.27
+Increased flexibility of ownership
+2.29 As discussed earlier, around a third of retirees already appear to be using their
+superannuation balances to pay down their mortgage upon retirement.28
+However, there could be benefits in a superannuation mortgage offset scheme
+that helps Australians own their home sooner.
+2.30 For instance, Mr Ng told the committee that the super mortgage offset offers
+another option that gives consumers greater choice.29 He further explained:
+…it’s about bringing homeownership forward, which provides some
+psychological benefits which are hard to quantify or put numbers around,
+but I think there is a benefit from owning your own home, having that
+security and knowing that you have a place to live in.30
+Improved savings and superannuation awareness
+2.31 The committee was advised that allowing superannuation to be used as a
+mortgage offset might encourage people to contribute more to superannuation
+accounts and enhance engagement by younger people in their superannuation.31
+2.32 Additionally, the Centre for Independent Studies (CIS) submitted that the
+benefits of placing superannuation contributions in a mortgage offset could also
+include more stable predictable and liquid returns and reduce the value of assets
+counted towards the age pension assets test.32
+Who would benefit the most?
+2.33 A superannuation for mortgage offset scheme could benefit existing
+homeowners by giving them greater choice as to how their superannuation
+savings are used.
+2.34 Mr Ng considered that this would ‘certainly help people with a bit more super
+savings’ and would target ‘people more in that midlife, middle-age bracket’.33
+27 Mr Jonathan Ng, Submission 40.1, p. 7.
+28 Mr Jonathan Ng, Proof Committee Hansard, 30 August 2024, p. 4.
+29 Mr Jonathan Ng, Proof Committee Hansard, 30 August 2024, p. 4.
+30 Mr Jonathan Ng, Proof Committee Hansard, 30 August 2024, p. 4.
+31 Mr David Hartley, Submission 33, p. 4.
+32 Centre for Independent Studies, Submission 39, p. 14.
+33 Mr Jonathan Ng, Proof Committee Hansard, 30 August 2024, p. 4.
+10
+Additionally, Mr Ng suggested the scheme could also present financial
+advantages compared to renting in retirement.34
+2.35 However, the committee heard that the scheme would be ‘unlikely to improve
+housing affordability for those persons currently unable to enter the housing
+market, nor does it provide relief from cost-of-living pressures’.35
+Legislative design and implementation considerations
+2.36 The committee was advised by certain witnesses that the proposed scheme
+should be guided by the following principles:
+(i) it should maintain the integrity of the superannuation system by not
+facilitating early release of superannuation savings; and
+(ii) it should not have a direct inflationary effect on house prices.36
+2.37 The following section outlines eligibility criteria and design features that may
+need to be considered in implementing a superannuation for mortgage offset
+scheme.
+Eligibility criteria considerations
+2.38 Evidence provided to the committee suggests that eligibility criteria may need
+to be applied to a superannuation for mortgage offset scheme.
+2.39 For instance, Mr Ng submitted that consideration should be given to means
+testing access to the scheme so that the policy is targeted towards ‘people who
+are more likely to have a mortgage at retirement and would have used their
+superannuation savings to pay off their mortgage’. According to Mr Ng, such
+criteria ‘would avoid the perception that it is another scheme to help the rich get
+richer’.37
+2.40 Further, Mr Ng submitted that consideration should be given to limiting the
+scheme to principal places of residence and/or first homeowners.38
+Design feature considerations
+2.41 To maintain the integrity of the superannuation system, the committee heard
+that a new mortgage offset product would need to be created. According to Mr
+Ng, the new mortgage offset account product would need to be implemented
+by banks or authorised deposit-taking institutions (ADIs)39 to ‘accept funds
+34 Mr Jonathan Ng, Submission 40.1, p. 3.
+35 Mr Jonathan Ng, Submission 40.1, p. 3.
+36 Mr Jonathan Ng, Submission 40.1, p. 4.
+37 Mr Jonathan Ng, Submission 40.1, p. 4.
+38 Mr Jonathan Ng, Submission 40.1, p. 4.
+39 An Authorised deposit-taking institution is a financial institution licensed by the Australian
+Prudential Regulatory Authority (APRA) to carry on banking business, including accepting
+11
+transfer to/from complying superannuation funds’ and to ‘prevent leakage out
+of the superannuation system’.40
+2.42 According to the Australian Banking Association, there are 97 banks or ADIs
+across Australia.41 Many or all of these could be made eligible to issue a new
+mortgage offset product.
+2.43 Further, to avoid having an inflationary impact on house prices, Mr Ng
+submitted that:
+…mortgage lenders should ignore any potential funds in the
+superannuation mortgage offset account when assessing a borrower’s
+borrowing capacity/loan serviceability or determining the size of the loan
+repayment (as they currently do). Doing so avoids borrowers being able to
+take out larger loans, which could potentially fuel higher house prices.42
+2.44 Other design features considerations outlined by Mr Ng included:
+ no redraw—the mortgage to which the offset account is attached ‘should
+not have a redraw facility…to prevent homeowners from taking equity out
+of the mortgage that that has arisen from the interest savings generated by
+the offset account’;
+ additional contributions—additional superannuation contributions ‘could
+be directed to the mortgage offset account, up to the value of the
+outstanding loan’;
+ return of funds—funds in the mortgage offset account that are in excess of
+the balance of the mortgage should be returned to the homeowner’s’
+superannuation fund. Additionally, funds held in the mortgage offset
+account when the loan is discharged should be returned to the
+homeowner’s superannuation fund;
+ portability—funds in a mortgage offset account should be portable to a
+another mortgage offset account should the homeowner change mortgage
+lenders;43 and
+ limiting changes to loan terms—mortgage terms may need to be altered to
+avoid the loan term being extended by the homeowner with a view that a
+reduced level of repayments could result in free cash flow that could
+deposits from the public. This includes: banks, building societies and credit unions.
+https://www.austrac.gov.au/glossary/authorised-deposit-taking-institution-adi (accessed
+6 September 2024).
+40 Mr Jonathan Ng, Submission 40.1, p. 3.
+41 Australian Banking Association, Banking by the numbers: 2023,
+https://www.ausbanking.org.au/insight/banking-by-numbers/ (accessed 13 September 2024).
+42 Mr Jonathan Ng, Submission 40.1, p. 4.
+43 Mr Jonathan Ng, Proof Committee Hansard, 30 August 2024, p. 5.
+12
+indirectly have an inflationary impact on house prices if used towards
+investment property.44
+Potential issues with a superannuation for mortgage offset scheme
+2.45 The committee received evidence regarding a range of potential issues with a
+superannuation for mortgage offset scheme, including the financial risks to
+members and system-level costs. As discussed below, potential issues include:
+ lower investment returns for homeowners;
+ superannuation balance reduction;
+ implications for superannuation funds;
+ implications for mortgage lenders;
+ implications for the tax and transfer system; and
+ potential inflationary effects.
+Risks of lower returns and reduced superannuation balances
+2.46 The financial impacts on members was a key consideration discussed in
+evidence to the committee.
+2.47 The CIS, for example, advised the committee that homeowners would likely
+receive lower average returns from placing their superannuation balance into a
+mortgage offset account compared to an average superannuation account.45 It
+highlighted that ‘instead of earning the usual 4.5% real after-tax average return
+on superannuation … the homeowner would save on mortgage payments’.46 CIS
+noted the real mortgage rate would be lower:
+The RBA estimates that the average variable interest rate paid by owner-
+occupiers on outstanding loans in December 2023 was 6.4%. Adjusting for
+expected inflation of 2.6% (from indexed 10-year bond yields), that implies
+a real mortgage rate of 3.8%.47
+2.48 In contrast, Mr Ng noted that the interest saved through an offset account is
+material and is on par with the net fees and tax investment earnings that would
+otherwise have been generated through a typical superannuation growth
+investment option, as evidenced in his case studies.48
+2.49 According to a November 2023 article in the Australian Financial Review, the
+Grattan Institute holds concerns that superannuation placed in offset accounts
+44 Mr Jonathan Ng, Submission 40.1, p. 5.
+45 Centre for Independent Studies, Submission 39, p. 14.
+46 Centre for Independent Studies, Submission 39, pp. 13–14.
+47 Centre for Independent Studies, Submission 39, pp. 13–14.
+48 Mr Jonathan Ng, Submission 40.1, p. 3.
+13
+would result in lower superannuation balances at retirement because it would
+not earn the same compounding return as superannuation fund.49
+2.50 Conversely, Mr David Orford, actuary, argued that although the proposed
+scheme may result in lower retirement benefits for a homeowner unless the
+funds are repaid as their mortgage is reduced or paid out, ‘it would ensure
+greater security in retirement from the benefits that come from home
+ownership.’50
+2.51 Mr Ng further advised the committee that, should a homeowner use a mortgage
+offset mechanism and therefore own their own home sooner, they are likely to
+have greater capacity to make voluntary superannuation contributions once
+their mortgage has been fully discharged ‘to make up for the investment savings
+foregone’.51
+Impacts on superannuation funds
+2.52 Some inquiry participants noted that a superannuation for mortgage offset
+scheme could have negative impacts on the operation of superannuation funds.
+2.53 For instance, practicing lawyer Ms Michelle Levy gave evidence to the
+committee on the challenges for superannuation funds in being asked to act
+outside their core function of investment trust:
+Superannuation funds are not legal entities – they are trusts. A
+superannuation fund cannot do anything. Only their trustees can. This is a
+very important point which is I think lost when we refer to superannuation
+funds in the same way that we refer to banks and insurers. A trust is a very
+good vehicle for investing and keeping safe custody of other people's money
+– it is not I think a very good vehicle for conducting a financial services
+business and that is what trustees increasingly are being asked to do and are
+increasingly doing.52
+2.54 Similarly, Mr Blake Briggs, Chief Executive Officer of the Financial Services
+Council, noted that ‘as soon as you require a superannuation fund to either
+transfer or allocate some resources to a particular investment, you impact its
+capacity to make investment decisions in the best interests of members’, a core
+requirement of the Retirement Income Covenant.53
+49 Mr John Kehoe, ‘Offset home loans with superannuation, says Liberal’, Australian Financial Review,
+27 November 2023 (accessed 19 April 2024).
+50 Mr David Orford, Submission 34.1, [p. 3].
+51 Mr Jonathan Ng, Submission 40.1, p. 3.
+52 Ms Michelle Levy, Private capacity, Submission 35, p. 4.
+53 Mr Blake Briggs, Chief Executive Officer, Financial Services Council, Proof Committee Hansard,
+30 August 2024, p. 12.
+14
+Impacts on mortgage lenders
+2.55 Some submitters to the inquiry noted that a superannuation for housing scheme
+may have some adverse impacts on mortgage lenders.
+2.56 For instance, Mr David Hartley submitted that banks may not see the proposal
+favourably, noting ‘they would need to hold capital against the full value of the
+loan but only be able to charge interest on the net balance’.54 That said, he noted
+that banks are experienced in ‘juggling their interest margins’.55
+2.57 Mr Hartley further advised the ability to borrow must not be affected if such a
+scheme were introduced, ‘as otherwise the effect would be counterproductive
+and lead to higher housing prices’.56 He explained:
+This can be achieved on a loan to value metric by ensuring that the lender
+does not have access to the account balance in the event of default and, on a
+liquidity metric, by recognising that the account balance could be
+transferred to another investment option at short notice.57
+2.58 Additionally, Mr Ng advised that implementing a super for mortgage offset
+scheme would likely be complex and costly for mortgage lenders:
+Implementing the Proposed Scheme will have many operational hurdles
+that are likely to be expensive for mortgage lenders and take a significant
+amount of time to overcome (e.g. creating the new product, establishing
+processes to restrict transfers only to/from complying superannuation funds
+to prevent leakage from the superannuation system, establishing
+appropriate regulatory framework etc).58
+Implications for the tax and transfer system
+2.59 In his evidence to the inquiry, Mr Ng noted that a superannuation for mortgage
+offset scheme would have implications for Australia’s tax system.
+2.60 For example, Mr Ng submitted that the scheme would result in reduced tax
+receipts for government:
+The lack of investment earnings on funds held in a superannuation
+mortgage offset account means the Government does not receive the tax
+associated with the foregone investment earnings. This is further
+exacerbated by the potential reduction in size of the overall superannuation
+system…59
+54 Mr David Hartley, Submission 33, p. 4.
+55 Mr David Hartley, Submission 33, p. 4.
+56 Mr David Hartley, Submission 33, p. 4.
+57 Mr David Hartley, Submission 33, p. 4.
+58 Mr Jonathan Ng, Submission 40.1, p. 9.
+59 Mr Jonathan Ng, Submission 40.1, p. 9.
+15
+2.61 Further, Mr Ng identified that the scheme could increase costs to the Australian
+Government as more people may potentially become eligible to claim the aged
+pension:
+In thinking about it, it does come down to the other risk for the government,
+which is the money in the offset account is not growing. So when it goes
+back to the system, people won't have as much in their superannuation
+savings. They own their own home, which is exempt from the assets test for
+the age pension. It could mean there could be some people who, because
+they're now in the home, they could be pushed on to the age pension. It is
+something to think about. Obviously, costing would need to be done to
+figure out the impact of that, where there could be an increased cost to the
+age pension.60
+2.62 The risks to tax receipts may be neutralised if mortgage offset accounts were
+taxed at a deemed earnings rate according to what the superannuation amount
+would have earned had it remained in the fund.
+Potential inflationary effects
+2.63 Some evidence also raised concerns that a mortgage offset scheme would have
+an inflationary effect on house prices.
+2.64 The Grattan Institute is reported to have concerns about the effects on inflation
+from superannuation savings use in mortgage offset accounts. Whilst the
+proposal would reduce household interest payments, it could lead to more
+Reserve Bank of Australia (RBA) rate rises to reduce demand side pressures and
+slow inflation.61
+2.65 Mr Ng submitted that the proposed scheme has the potential to have indirect
+inflationary impacts over the medium to longer term if homeowners later find
+themselves in a financial position to purchase an investment property, having
+taken advantage of this scheme.62 However, he advised that ‘with careful design
+I believe it is possible to avoid having a direct inflationary impact on house
+prices.’63
+2.66 Mr Ng emphasised that any superannuation mortgage offset scheme must
+ensure offset funds are not taken into account when assessing loan capacity or
+serviceability to avoid direct inflationary impacts on house prices.64
+60 Mr Jonathan Ng, Proof Committee Hansard, 30 August 2024, p. 5.
+61 Mr John Kehoe, ‘Offset home loans with superannuation, says Liberal’, Australian Financial Review,
+27 November 2023 (accessed 19 April 2024).
+62 Mr Jonathan Ng, Submission 40.1, p. 9.
+63 Mr Jonathan Ng, Submission 40.1, p. 3.
+64 Mr Jonathan Ng, Submission 40.1, p. 9.
+16
+Other options
+2.67 The committee received some evidence on policy options that may provide an
+alternate to a superannuation mortgage offset scheme.
+2.68 For instance, Ms Michelle Levy indicated her support for a co-investment model,
+noting it ‘would have to stand on its own feet as an investment of the
+superannuation fund’.65 The committee has previously explored co-investment
+in its first interim report.
+2.69 Additionally, the CIS advised that while ‘high unexpected mortgage payments
+represent an important social and economic problem’,66 other levers are
+available to ameliorate the issue and reduce likelihood of recurrence. CIS stated:
+At the top of this agenda should be removing distortions and obstacles to
+private sector remedies. In particular, homeowners would have more stable
+and predictable repayments if fixing mortgage rates was more common.67
+Committee view
+2.70 The age pension and compulsory superannuation are significant pillars of a
+successful retirement, with home ownership forming a key component of the
+voluntary savings pillar.
+2.71 Despite the significant role of homeownership towards a secure retirement, one
+third of Australians are retiring with a sizeable mortgage, and evidence
+indicates that lump sum superannuation payouts are frequently used to close
+out mortgages upon retirement.
+2.72 The committee notes that compulsory superannuation and mortgage offset
+accounts are already commonplace in Australia. As of June 2024, Australians’
+superannuation assets totalled some $3.9 trillion dollars, with contributions
+having increased by 11.2 per cent ($183.9 billion) over the year.68 Research
+published by the Reserve Bank of Australia in 2021 suggests that mortgages with
+offset accounts ‘comprised around 40 per cent of mortgages in Australia’ and
+‘mortgages with redraw facilities make up around 70 per cent of the total
+number of home mortgages’.69
+2.73 The proposed scheme could facilitate consumer choice around how individuals
+use their superannuation savings to achieve their individual long term financial
+65 Ms Michelle Levy, Proof Committee Hansard, 30 August 2024, p. 6.
+66 Centre for Independent Studies, Submission 39, p. 14.
+67 Centre for Independent Studies, Submission 39, p. 14.
+68 Australian Prudential Regulation Authority, ‘APRA releases superannuation statistics for June
+2024’, Media release, 29 August 2024.
+69 Note, Some mortgages had both offset facility and a redraw facility, and as such the overlapping
+proportion total to more than 100 per cent. See, Reserve Bank of Australia, ‘The rise in household
+liquidity’, Research discussion paper, November 2021, p. 6.
+17
+goals, particularly home ownership, targeting individuals and households with
+a moderate income and superannuation balance.
+2.74 Enabling individuals to use superannuation saving to offset their mortgage
+balance during their working life would have the benefit of reducing interest
+repayments or paying off a loan sooner. This would in turn provide a greater
+sense of security prior to and into retirement.
+2.75 The committee acknowledges that there are other proposed models on how such
+a scheme could be designed, and therefore makes the following
+recommendation.
+Recommendation 1
+2.76 The committee recommends that the Australian Government further explore
+the potential design of a super mortgage offset product applicable to a
+homeowner’s primary residence; the pros and cons of different options; and
+the regulatory settings that would be needed to permit development of such
+a product. Issues for further investigation should include:
+ the amount of superannuation a homeowner could roll into a “Super
+mortgage offset account” product issued by an Authorised Deposit-taking
+Institution;
+ what regulatory permissions would be needed for such a product, and
+how these might be legislated through the relevant superannuation and
+banking supervision legislation;
+ whether an Authorised Deposit-taking Institution issuing such a product
+would be required to apply for a license variation through the Australian
+Prudential Regulation Authority as the regulator;
+ what the tax implications would be, for individuals and the government,
+of allowing an amount of a person’s superannuation to be rolled into a
+“Super mortgage offset account”;
+ whether the superannuation amount in the “Super mortgage offset
+account” would need to be held as cash by the Authorised Deposit-taking
+Institution;
+ the way in which the amount in the “Super mortgage offset account” is
+required to be returned to the homeowner’s superannuation account once
+the outstanding mortgage falls below the amount in the offset account
+(and, ultimately, is discharged); and
+ whether eligibility for any “Super mortgage offset account” should be
+limited, either initially or on an ongoing basis, to first-home buyers.
+Senator Andrew Bragg
+Chair
+Liberal Senator for New South Wales
+
+Government Senator's Dissenting Report
+1.1 The first interim report of this inquiry recommended superannuation be
+released to buy a home. This demand-side policy would inflate house prices,
+reduce retirement income, and would not be accessible to young people and
+those on low and middle incomes who have smaller superannuation balances.
+1.2 This second interim report recommends that superannuation be released to
+allow the offset of a mortgage. This demand-side policy would deplete
+retirement income and have an inflationary impact on house prices.
+1.3 Housing policy interventions must be focused on supply and building more
+homes, not inflating house prices with demand-side policies and super early
+release schemes which harm the people who needed to be helped the most to
+access the housing market.
+‘Super for mortgage offset’: Doesn’t work, a massive risk, won’t help
+1.4 Using a superannuation balance to offset a mortgage would not help a single
+person to buy their first home, nor would it result in a single new home being
+built.
+1.5 The proposed scheme is a massive risk to an individual’s income and financial
+security in retirement.
+1.6 It’s also an entirely unworkable thought-bubble that has numerous issues and
+hurdles that would be complex to address, if it was to even work at all.
+Doesn’t help to buy or build a single home
+1.7 The proposed scheme to use superannuation for a mortgage offset would not
+help a single person to buy a home, and it would not help to build a single new
+home.
+1.8 Mr Ng noted the proposed scheme would not improve housing affordability,
+and would have an inflationary impact on house prices advantaging existing
+homeowners to buy investment properties:
+The proposed scheme will not improve housing affordability for persons
+who are currently struggling to enter the property market. This is a function
+of the offset account not being allowed to be taken into account when
+assessing loan capacity/serviceability, which is desirable to avoid having a
+direct and inflationary impact on house prices. However, it does have the
+potential to have an indirect inflationary impact on house prices because
+once a homeowner has taken advantage of the Proposed Scheme, they could
+then be in a position to purchase an investment property which could have
+an inflationary impact on house prices.1
+1 Mr Jonathan Ng, Submission 40.1, p. 9.
+19
+20
+1.9 If this proposal could be implemented, it also has significant equity concerns as
+individuals with higher superannuation balances would be more readily able to
+take advantage of the scheme to lower their mortgage repayments. Individuals
+with lower superannuation balances would be at a disadvantage.
+1.10 Increasing housing supply is the solution to housing affordability and relieving
+rental pressures, not using retirement savings to inflate the housing market,
+making people poorer and pricing even more people out.
+1.11 There is however a role for superannuation in the housing market, and it is to
+be institutional investors contributing to long-term supply efforts that generate
+returns for superannuation members at the same time.
+1.12 The reckless demand-focussed policies of the Coalition will not address the core
+issue of housing supply and will only inflate prices, creating more competition
+among the lucky few who will have large enough superannuation balances to
+compete in an inflated housing market.
+A massive financial risk
+1.13 Using an individual’s superannuation balance to offset a mortgage, if it was
+even able to be established, presents many financial and personal risks.
+1.14 A guaranteed and concerning outcome of this proposed scheme is individuals
+having much less superannuation income for their retirement due to the loss of
+compounding returns while the balance is held in the offset account.
+1.15 Even superannuants who do not participate in the proposed scheme would be
+left with less super due to a need for superannuation funds to hold more liquid
+assets which generate lower returns for all members.
+1.16 Mr Briggs, CEO of the Financial Services Council, commented on the investment
+decisions that would impact superannuation members’ balances:
+As soon as you require a superannuation fund to either transfer or allocate
+some resources to a particular investment, you impact its capacity to make
+investment decisions in the best interests of members.2
+1.17 As individuals miss out on investment returns in superannuation, this will have
+impacts on the broader retirement system. It will likely lead to increasing
+reliance on the Age Pension, which will need to be funded through higher taxes
+or reductions in expenditure. Mr Ng also noted the budgetary and revenue
+impacts this proposed scheme would have:
+The lack of investment earnings on funds held in a superannuation
+mortgage offset account means the Government does not receive the tax
+associated with the foregone investment earnings. This is further
+2 Mr Blake Briggs, Chief Executive Officer, Financial Services Council, Proof Committee Hansard,
+30 August 2024, p. 12.
+21
+exacerbated by the potential reduction in size of the overall superannuation
+system.3
+1.18 In the event of foreclosure, a person would likely lose their home and would
+have lost returns on their superannuation balance in the time it was in an offset
+account. This would have disastrous personal and economic outcomes. This risk
+of an individual losing so much of their savings should be reason alone to force
+policymakers to reconsider what the benefits of this proposal are. It would also
+make financial institutions and superannuation funds wary about engaging in
+this proposal.
+1.19 APRA submitted on these issues, and noted their concerns that the proposed
+scheme could be exploited by scams and fraud activity:
+Under either approach, there is a potential for a mortgage offset scheme to
+be subject to scams or fraud and legislative safeguards would be necessary
+to manage this risk.4
+Does not work
+1.20 Evidence to this committee was clear that this complex proposal to use a
+superannuation balance to offset a mortgage has significant implementation
+hurdles.
+1.21 No case was made for how a lender, or a superannuation fund could participate
+in this proposed scheme without there being significant complexities and wide-
+reaching consequences for homeowners, lenders, superannuation funds and
+their members.
+1.22 Critically, no lenders or superannuation funds expressed any interest in offering
+this proposed scheme to consumers at all.
+1.23 The Australian Prudential Regulation Authority’s (APRA) submission noted the
+complexities of administering this proposed scheme, particularly in relation to
+obligations in the Superannuation Industry Supervision Act 1993:
+If funds remained inside the superannuation system while being used as a
+mortgage offset, a challenge would be that while the superannuation trustee
+would remain the legal owner of the funds, the trustee would not be able to
+generate a return on the fund while they are used for offset purposes.
+This would have implications for obligations imposed under the
+Superannuation Industry Supervision Act 1993 including the best interests
+financial duty (section 52), the sole purpose test (section 62) and the
+prohibition on financial assistance (section 65).
+Further, an arrangement where the funds remain within the superannuation
+system but are used as an mortgage offset is likely to be complex and
+difficult to administer due to multiple parties (lenders, trustees, members)
+3 Mr Jonathan Ng, Submission 40.1, p. 9.
+4 Australian Prudential Regulation Authority (APRA), Submission 29.1, p. 2.
+22
+to the arrangement with potentially competing interests in relation to the
+offset fund … if the fund were moved outside of the superannuation system,
+the possible impact on the liquidity of the superannuation funds and how
+the trustees would manage this would need to be considered.5
+1.24 While being a supporter of ‘super for housing’, actuary Jonathan Ng was
+conscious of the difficulties such a proposal would present:
+Although the proposed scheme has considerable merits, it is not without
+material implementation hurdles that will need to be overcome.
+Implementing the Proposed Scheme will have many operational hurdles
+that are likely to be expensive for mortgage lenders and take a significant
+amount of time to overcome (e.g. creating the new product, establishing
+processes to restrict transfers only to/from complying superannuation funds
+to prevent leakage from the superannuation system, establishing
+appropriate regulatory framework etc).6
+1.25 Ms Michelle Levy appeared at the public hearing and noted her concerns about
+the complexities of the proposal:
+I do worry about complexity... I think the more complex, the more things
+that can go wrong and the greater the exposure for members.7
+1.26 Ms Levy further commented on the role of superannuation funds, and her views
+of proposals to use superannuation funds to solve a wide range of issues:
+I keep coming back to the point that these are trusts. It's not a bank. They're
+not insurance companies. They don't have a whole lot of capital, and they
+don't have shareholders … That means that everything we ask a trustee to
+do exposes the members of their fund to the risk of having to satisfy a
+liability or that there is no way of satisfying that liability.8
+Undermines universal superannuation
+1.27 This proposed scheme and other ‘super for housing’ proposals considered by
+this inquiry undermine the importance of the superannuation system to provide
+income for a dignified retirement.
+1.28 It is widely agreed that superannuation cannot and should not be used as a
+solution to all public policy issues.
+1.29 The first interim report of this inquiry explored how superannuation could be
+released to buy a home. This proposal would inflate house prices, reduced
+retirement incomes, and was not accessible to young people and those on low
+and middle income who have smaller superannuation balances.
+5 Australian Prudential Regulation Authority (APRA), Submission 29.1, p. 1.
+6 Mr Jonathan Ng, Submission 40.1, p. 9.
+7 Ms Michelle Levy, Proof Committee Hansard, 30 August 2024, p. 6.
+8 Ms Michelle Levy, Proof Committee Hansard, 30 August 2024, p. 7.
+23
+1.30 Mr Briggs commented on the importance of preservation being a core pillar of
+the superannuation system at the public hearing:
+Preservation is critical to the superannuation system achieving its broader
+objective, which is to provide income to people in retirement. If you
+undermine that principle of preservation, at the very least, with contribution
+levels at the level they are, it's not designed to take care of every single need
+a person should have.9
+1.31 Super Members Council (SMC) submitted to the inquiry about the importance
+of preservation and the impact of early release policies:
+SMC is opposed to further relaxation of the early release rules because — it
+would be contrary to the purpose of superannuation, and — there is strong
+evidence to show members are better off with preservation intact.
+Policies expanding the grounds for early release - be it for housing,
+purchasing household appliances, or to deal with immediate cost of living
+pressures - would similarly result in lower individual retirement balances
+and increased pressure on the tax-funded Age Pension.10
+1.32 Similarly, The Association of Superannuation Funds of Australia (ASFA)
+submitted:
+Early release of superannuation serves to erode the eventual outcome for
+members – the loss of the amount withdrawn, exacerbated through the loss
+of compounding returns, serves to reduce significantly the amount of a
+member’s final end benefit, needed to finance their retirement.11
+Conclusion
+1.33 This new proposed scheme to rip open superannuation balances to offset a
+mortgage is just as bad as proposals in the first interim report to use
+superannuation balances to buy a home.
+1.34 Because supply not demand is the housing solution, the Albanese Government
+has committed $32 billion over the next decade for the construction of more
+social, affordable and private dwellings including the recent announcement of
+13,700 homes to be built via the Housing Australia Future Fund (HAFF) in
+partnership with institutional investors like superannuation funds.
+Senator Jess Walsh
+Deputy Chair
+Labor Senator for Victoria
+9 Mr Blake Briggs, Chief Executive Officer, Financial Services Council, Proof Committee Hansard,
+30 August 2024, p. 11.
+10 Super Members Council, Submission 16, p. 7.
+11 Association of Superannuation Funds of Australia (ASFA), Submission 27, p. 6.
+
+Appendix 1
+Submissions and answers to questions on notice
+1 Optimum Pensions
+2 Mandala
+3 The Conexus Institute
+4 Mercer
+5 Insurance Council of Australia
+6 Challenger
+ 6.1 Supplementary to submission 6
+7 Aged & Community Care Providers Association
+8 Insurtech Australia
+9 AIA Australia
+10 Plain English Economics Pty Ltd
+11 CPA Australia and Chartered Accountants Australia and New Zealand
+12 Retirement Living Council
+13 Institute of Public Affairs
+14 Department of the Treasury
+15 TAL Life Limited
+16 Super Members Council
+ 16.1 Supplementary to submission 16
+ 16.2 Supplementary to submission 16
+17 Australian Retirement Trust
+18 Institute of Public Accountants
+19 Home Super
+ 19.1 Supplementary to submission 19
+20 Financial Advice Association Australia
+21 The McKell Institute
+22 Menzies Research Centre
+23 Futureproof Financial (Australia) Pty Ltd
+24 Associate Professor Anthony Asher
+25 Super Consumers'
+ 25.1 Supplementary to submission 25
+26 SMSF Association
+27 Association of Superannuation Funds of Australia
+ 27.1 Supplementary to submission 27
+28 Australian Securities and Investments Commission
+29 Australian Prudential Regulation Authority
+ 29.1 Supplementary to submission 29
+25
+26
+30 Property Council of Australia
+31 Inspector-General of Taxation and Taxation Ombudsman
+32 Dr Michael Levitt
+33 Mr David Hartley
+34 Mr David Orford
+ 34.1 Supplementary to submission 34
+35 Ms Michelle Levy
+36 Blueprint Institute
+37 Australian Lawyers Alliance
+38 Council of Australian Life Insurers
+39 Centre for Independent Studies
+40 Michael Rice AO FIAA and Jonathan Ng CFA FIAA
+ 40.1 Supplementary to submission 40
+41 Australian Financial Complaints Authority
+42 Grattan Institute
+43 Uniting
+44 Financial Services Council
+ 44.1 Supplementary to submission 44
+45 My Longevity Pty Limited
+46 The National Housing Supply and Affordability Council
+47 HOPE Housing Fund Management Limited
+48 Housing Industry Association
+49 Real Estate Institute of Australia
+50 Your Financial Wellness
+Appendix 2
+Public Hearings and Witnesses
+Tuesday 12 March 2024
+Committee Room 2S1
+Parliament House
+Canberra
+Dr Cameron Murray, Private capacity
+Retirement Living Council
+ Mr Daniel Gannon, Executive Director
+Keyton
+ Mr Nathan Cockerill, Chief Executive Officer
+Home Super
+ Mr Simon Jones, Founder and Managing Director
+ Mr John Randall, Advisory Board Chairman
+Mr Michael Rice
+Mr Jonathan Ng
+Mr David Orford
+Futureproof Financial (Australia) Pty Ltd
+ Mr John Innes, Director and Chief Executive Officer
+Centre for Independent Studies
+ Dr Peter Tulip, Chief Economist
+Blueprint Institue
+ Ms Liana Downey, Chief Executive Officer
+Menzies Research Centre
+ Ms Freya Leach, Director, Center for Youth Policy
+ Mr James Mathias, Deputy Executive Director
+Housing industry Association (no submission)
+ Mr Simon Croft, Chief Executive
+The McKell Institute
+ Ms Rebecca Thistleton, Executive Director
+27
+28
+Grattan Institute
+ Mr Brendan Coates, Economic Policy Program Director
+Friday 30 August 2024
+Committee Room 2S1
+Parliament House
+Canberra
+Super Consumers' Australia
+ Dr Katrina Ellis, Deputy Director
+ Mr Xaiver O’Halloran, Director
+Mr Jonathan Ng CFA FIAA, Private capacity
+Ms Michelle Levy, Private capacity
+Financial Services Council
+ Ms Kirsten Samuels, Policy Director
+ Mr Blake Briggs, Chief Executive Officer
+Your Financial Wellness
+ Mr Alexander Hassall, Co-Founder & CEO

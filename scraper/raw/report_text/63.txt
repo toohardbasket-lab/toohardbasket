@@ -1,0 +1,1748 @@
+PARLIAMENT OF THE COMMONWEALTH OF AUSTRALIA
+Report 488
+Commonwealth Financial
+Statements 2019-20
+Joint Committee of Public Accounts and Audit
+March 2022
+CANBERRA
+© Commonwealth of Australia
+ISBN 978-1-76092-345-7 (Printed Version)
+ISBN 978-1-76092-346-4 (HTML Version)
+This work is licensed under the Creative Commons Attribution-
+NonCommercial-NoDerivs 3.0 Australia License.
+The details of this licence are available on the Creative Commons website:
+http://creativecommons.org/licenses/by-nc-nd/3.0/au/.
+Contents
+Chair's Foreword ............................................................................................................................... v
+Members ........................................................................................................................................... vii
+Terms of Reference ........................................................................................................................... ix
+Abbreviations .................................................................................................................................... xi
+List of Recommendations .............................................................................................................. xiii
+The Report
+1 Introduction to the Consolidated Financial Statements .................................. 1
+Introduction ........................................................................................................................... 1
+Overview of the Consolidated Financial Statements ....................................................... 1
+Review by the Australian National Audit Office ............................................................. 2
+Reports examined.................................................................................................................. 4
+2 Summary of findings .............................................................................................. 7
+Introduction ........................................................................................................................... 7
+Summary of the CFS ............................................................................................................. 7
+Significant findings ................................................................................................. 10
+Moderate findings .................................................................................................. 11
+Ongoing findings .................................................................................................... 12
+Significant legislative breach ................................................................................. 12
+Summary of the Interim Report ....................................................................................... 14
+Moderate findings .................................................................................................. 15
+iii
+iv
+Committee comment .......................................................................................................... 16
+3 Review of evidence ............................................................................................... 19
+Introduction ......................................................................................................................... 19
+Financial Performance and Sustainability ....................................................................... 19
+Overall financial performance .............................................................................. 19
+Financial performance and sustainability of entities ......................................... 20
+Financial performance ratios and benchmarks ................................................... 22
+Unadjusted audit differences ............................................................................................ 26
+Impact of COVID-19 ........................................................................................................... 28
+Impact on the ANAO’s auditing processes ......................................................... 29
+Cyber security and resilience............................................................................................. 30
+PSPF self-assessments ............................................................................................ 32
+Leave monitoring ............................................................................................................... 34
+Timeliness in preparing financial statements and annual reports ............................... 35
+Follow-up on previous recommendation ............................................................ 40
+Audit committee reporting ................................................................................................ 42
+Executive remuneration disclosure .................................................................................. 43
+Committee comment .......................................................................................................... 44
+Appendix A. Submissions .............................................................................................. 49
+Appendix B. Public Hearings ......................................................................................... 51
+Chair's Foreword
+The Australian National Audit Office’s (ANAO) audit of the Consolidated
+Financial Statements and the operations of Commonwealth entities plays an
+important role in promoting accountability and transparency in Australia. It
+provides assurance to the Parliament and the public that Commonwealth
+expenditure is conducted with appropriate controls and assurances of financial
+accuracy. It also provides an opportunity for the ANAO to examine the internal
+operations and controls of Commonwealth entities, and identify areas of public
+administration which require improvement.
+This report examines the ANAO’s reports at different stages of the CFS process.
+Auditor-General’s Report No. 25 (2020-21) Audits of the Financial Statements of
+Australian Government Entities for the Period Ended 30 June 2020 examines the final
+results arising from the 2019-20 reporting period. Auditor-General’s Report No. 40
+(2020-21) Interim Report on Key Financial Controls of Major Entities provides the
+interim results of the audits of a selection of Commonwealth entities for the
+2020-21 reporting period.
+The Committee is pleased to note that the ANAO found that most entities were
+operating with appropriate internal controls to ensure that the financial statements
+were prepared free from material misstatement. The ANAO also found a reduction
+in the number of significant findings in Commonwealth entities, which highlights
+the strong administration across the Australian Government.
+In line with the Committee’s interest in upholding the high standards of public
+administration across the Australian Government, the Committee has examined
+topics such as long-term significant findings or legislative breaches, cyber security
+of Commonwealth entities, and parliamentary tabling dates in relation to entities’
+annual reports. The Committee has also made recommendations in relation to
+these topics.
+v
+vi
+I wish to thank the entities who engaged in the inquiry and also express my thanks
+to my colleagues on the Joint Committee of Public Accounts and Audit for their
+work in producing this report.
+Lucy Wicks MP
+Chair
+Members
+Chair
+Ms Lucy Wicks MP Robertson, NSW
+Deputy Chair
+Mr Julian Hill MP Bruce, VIC
+Members
+Ms Angie Bell MP Moncrieff, QLD
+Hon Darren Chester MP (from 11/03/22) Gippsland, VIC
+Mr Pat Conroy MP (from 9/08/21) Shortland, NSW
+Ms Nicolle Flint MP (from 25/10/21) Boothby, SA
+Hon Dr David Gillespie MP (until 25/06/21) Lyne, NSW
+Senator Kimberley Kitching (until 10/03/22) ALP, VIC
+Senator Andrew McLachlan CSC LP, SA
+Senator Matt O'Sullivan LP, WA
+Senator Rex Patrick IND, SA
+Ms Alicia Payne MP Canberra, ACT
+Senator Paul Scarr LP, QLD
+vii
+viii
+Ms Kate Thwaites MP (from 25/02/21 until 9/08/21) Jagajaga, VIC
+Mr Ross Vasta MP Bonner, QLD
+Senator Jess Walsh ALP, VIC
+Mr Tim Watts MP Gellibrand, VIC
+Mr Rick Wilson MP O'Connor, WA
+Committee Secretariat
+Joel Bateman, Committee Secretary
+Ophelia Tynan, Senior Researcher
+Carissa Skinner, Office Manager
+Terms of Reference
+Any matters contained and associated with the following Auditor-General's
+Reports:
+ No. 25 (2020-21) Audits of the Financial Statements of Australian
+Government Entities for the Period Ended 30 June 2020
+ No. 40 (2020-21) Interim Report on Key Financial Controls of Major Entities
+ix
+
+Abbreviations
+AASB 1049 AASB 1049 Whole of Government and General Government Sector
+Financial Reporting
+AAWP Australian National Audit Office Annual Audit Work Program
+AHL Aboriginal Hostels Limited
+ALRNT Act Aboriginal Land Rights (Northern Territory) Act 1976
+ANAO Australian National Audit Office
+ASD Australian Signals Directorate
+ASIC Australian Securities and Investments Commission
+CEO Chief Executive Officer
+CFS Auditor-General’s Report No. 25 of 2020-21, Audits of the Financial
+Statements of Australian Government Entities for the Period Ended 30
+June 2020; Consolidated Financial Statements
+COVID-19 Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2);
+coronavirus disease
+Defence Department of Defence
+Finance Department of Finance
+Home Affairs Department of Home Affairs
+Interim Report Auditor-General’s Report No. 40 of 2020-21, Interim Report on Key
+Financial Controls of Major Entities
+IT Information technology
+JCPAA Joint Committee of Public Accounts and Audit
+KAM Key Audit Matter
+xi
+xii
+NADC National Australia Day Council
+NLC Northern Land Council
+PGPA Act Public Governance, Performance and Accountability Act 2013
+PGPA Rule Public Governance, Performance and Accountability Rule 2014
+PMC Department of Prime Minister and Cabinet
+PSPF Protective Security Policy Framework
+the Review Independent Review into the operation of the Public Governance,
+Performance and Accountability Act 2013 and Rule
+VPN Virtual private network
+List of Recommendations
+Recommendation 1
+2.35 The Committee recommends that the Department of Prime Minister and
+Cabinet, in consultation with the Australian National Audit Office, amend
+the Auditor-General Act 1997 to implement a requirement for the Auditor-
+General to inform Ministers in the event where either a significant finding or
+a significant legislative breach is identified during the course of the financial
+audits.
+Recommendation 2
+2.39 The Committee recommends that the following updates be provided to the
+Committee within six (6) months of the tabling of this report:
+ An update from the Northern Land Council providing an update in
+relation to its progress in addressing the significant legislative breach
+identified by the Australian National Audit Office; and
+ An update from the Australian National Audit Office informing the
+Committee on whether sufficient progress has been made by the
+Northern Land Council in addressing this breach.
+Recommendation 3
+2.40 The Committee recommends that the Department of Prime Minister and
+Cabinet investigate potential amendment to the Aboriginal Land Rights
+(Northern Territory) Act 1976 to accommodate for situations where payments
+cannot be distributed to traditional owners within the timeframe nominated
+due to the absence of identifiable traditional owners.
+xiii
+xiv
+Recommendation 4
+3.90 The Committee recommends that the Department of Finance, as part of the
+transparency.gov.au project, develop and publish guidance material for
+users of the project which explains what the included ratios measure, which
+ratios are most important, and what particular ratio results signify.
+Recommendation 5
+3.94 The Committee recommends that the Department of Finance, with advice
+from the Department of Parliamentary Services, provide an update to the
+Committee within six months of this report’s tabling date that details:
+ A progress report detailing the development and implementation of the
+Online Tabled Documents Projects, including proposed roll-out dates;
+and
+ A timeline of the establishment of a new tabling date for
+Commonwealth entities, including details such as proposed legislative
+amendments and an anticipated date for introduction to Parliament.
+1. Introduction to the Consolidated
+Financial Statements
+Introduction
+1.1 This chapter provides an introduction to the Consolidated Financial
+Statements (the Financial Statements) and the work of the Australian
+National Audit Office (ANAO) in reviewing the Financial Statements each
+year. This chapter also provides a description of the ANAO’s twice-yearly
+reporting of its audits into the Financial Statements, including its areas of
+focus and the ANAO’s intent in examining the Financial Statements. It also
+contains information regarding the reporting periods covered by the two
+ANAO reports being examined in this report.
+Overview of the Consolidated Financial Statements
+1.2 The Financial Statements are the consolidation of the financial statements of
+all Australian Government-controlled entities, which also includes the
+entities’ audited accounts.1 The Financial Statements provide a detailed
+account of the Australian Government’s financial performance, including
+the net operating balance, income and expenses, assets and liabilities
+(including contingent liabilities and assets) and the Final Budget Outcome.
+1.3 The Financial Statements are prepared in accordance with the Public
+Governance, Performance and Accountability Act 2013 (PGPA Act), the Public
+Governance, Performance and Accountability Rule 2014 (PGPA Rule) and the
+1 Australian National Audit Office (ANAO), Auditor-General’s Report No. 25 (2020-21) Audits of the
+Financial Statements of Australian Government Entities for the Period Ended 30 June 2020 (CFS), p. 1.
+1
+2 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+relevant requirements of the Australian Accounting Standards (AAS).2 They
+are also compliant with the Australian System of Government Finance
+Statistics3 The Department of Finance (Finance) provides assistance and
+guidance to entities in preparing their financial statements, and is
+responsible for consolidating the final CFS.4
+1.4 The PGPA Act and the PGPA Rule set out the mandatory ‘principles-based
+system of governance accountability, and a performance framework’ for
+Commonwealth entities.5 Given the framework’s nature as a devolved
+framework where entities can establish their own systems and processes,
+entities are responsible for meeting mandatory requirements and
+accountable for any legislative or other forms of breaches.6
+Review by the Australian National Audit Office
+1.5 The ANAO publishes two reports annually in relation to the Financial
+Statements. These reports are intended to provide the Parliament with an
+independent examination of the financial accounting and reporting of
+Commonwealth entities, in addition to scrutinising other areas of public
+administration that may pose a risk to the ability of entities to produce
+accurate financial statements. The CFS comprises part of the ANAO’s overall
+Annual Audit Work Program (AAWP) in examining entities’ performance
+and administration via the means of financial and performance audits and
+other assurance activities.7 The ANAO explains:
+The financial statements audit coverage, as outlined in the AAWP, includes
+presenting two reports to the Parliament addressing the outcomes of the
+2 The relevant accounting standards include Act) and the requirements of the Australian Accounting
+Standards, including AASB 1049 Whole of Government and General Government Sector Financial
+Reporting (AASB 1049).
+3 Department of Finance (Finance), Submission 2, p. 3.
+4 Finance, Submission 2, p. 4; Ms Tracey Carroll, First Assistant Secretary, Financial Analysis,
+Reporting and Management, Governance and Resource Management, Finance, Committee
+Hansard, 15 September 2021, p. 13.
+5 Finance, Submission 2, p. 6.
+6 Finance, Submission 2, p. 7.
+7 ANAO, Auditor-General’s Report No. 40 (2020-21) Interim Report on Key Financial Controls of Major
+Entities (Interim Report), p. 10.
+INTRODUCTION TO THE CONSOLIDATED FINANCIAL STATEMENTS 3
+financial statements audits of Australian Government entities and the
+Consolidated Financial Statements … of the Australian Government.8
+1.6 Figure 1.1 provides detail about the work process followed by the ANAO in
+conducting its CFS audits.
+Figure 1.1 ANAO financial statements audit process
+Source: Australian National Audit Office, Auditor-General’s Report No. 40 (2020-21) Interim Report on Key
+Financial Controls of Major Entities, p. 10.
+1.7 The ANAO’s reports examine the Financial Statements and the financial
+audits of Commonwealth entities. In undertaking the audits, the ANAO
+assesses whether key internal controls are effective and support the financial
+statements to ensure that they are free from material misstatement. It also
+examines other aspects of entities’ internal administration, such as:
+ The financial sustainability of entities, including information on funding
+streams and risk assessments of finances;
+ Compliance with legislative frameworks underpinning both
+Commonwealth entities at large and those supporting the specific
+functioning of entities; and
+ Risk and control systems, including analysis of risk assessment and
+response.
+1.8 The ANAO also undertakes work in relation to other matters which relate to
+Commonwealth entities’ administration and governance, such as human
+8 ANAO, Interim Report, p. 10.
+4 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+resource management, IT controls and cyber security, and audit committee
+reporting compliance. These matters are addressed in detail in the reports as
+a means of highlighting particular issues or areas of concern.
+Reports examined
+1.9 The Joint Committee of Public Accounts and Audit (JCPAA, the Committee)
+has conducted two inquiries into the CFS during the 45th Parliament. These
+inquiries culminated in the following reports:
+ Report 463 Commonwealth Financial Statements, Inquiry based on
+Auditor-General’s report 33 (2016-17) (August 2017);9 and
+ Report 477 Commonwealth Financial Statements – Second Report, and
+Foreign Investment in Real Estate, Inquiries based on Auditor-General’s
+Reports 24 and 48 (2017-18) (March 2019).10
+1.10 This inquiry into the Financial Statements was based on two reports:
+ Auditor-General’s Report No. 24 (2020-21), Audits of the Financial
+Statements of Australian Government Entities for the Period Ending 30 June
+2020 (the CFS); and
+ Auditor-General’s Report No. 40 (2020-21), Interim Report on Key
+Financial Controls of Major Entities (the Interim Report).
+1.11 The CFS covers the final results of the financial statements of all
+Commonwealth entities and the Financial Statements for the 2019-20
+financial year’s reporting period.
+1.12 The Interim Report provides the results of the preliminary audit results of a
+small number of entities for the 2020-21 financial year’s reporting period,
+leading up to the publication of the final results in the next CFS.
+1.13 The 2020-21 Financial Statements were prepared in accordance with the
+PGPA Act and the requirements of the Australian Accounting Standards,
+including AASB 1049 Whole of Government and General Government Sector
+Financial Reporting (AASB 1049).11 The 2020-21 Financial Statements were
+9 Available at:
+http://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Public_Accounts_and_Audit/Fina
+ncialStatements17-18/Report_477
+10 Available at:
+http://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Public_Accounts_and_Audit/Com
+mFinancialStatements/Reporrt463
+11 ANAO, CFS, p. 12.
+INTRODUCTION TO THE CONSOLIDATED FINANCIAL STATEMENTS 5
+signed by the Minister for Finance on 24 November 2020, and an unmodified
+auditor’s report was issued on the same day.12
+12 ANAO, CFS, p. 9.
+
+2. Summary of findings
+Auditor-General's Report No. 25 (2020-21) Audits of
+the Financial Statements of Australian Government
+Entities for the Period Ended 30 June 2020 and
+Auditor-General's Report No. 40 (2020-21) Interim
+Report on Key Financial Controls of Major Entities
+Introduction
+2.1 This chapter reports on the Committee’s examination of the evidence
+contained in Auditor-General’s Report No. 25 (2020-21) Audits of the Financial
+Statements of Australian Government Entities for the Period Ended 30 June 2020
+(the CFS) and Auditor-General’s Report No. 40 (2020-21) Interim Report on
+Key Financial Controls of Major Entities (Interim Report). It outlines the major
+findings of the Australian National Audit Office (ANAO), and provides the
+Committee’s review and recommendations.
+Summary of the CFS
+2.2 In preparing the Australian Government’s Consolidated Financial
+Statements (Financial Statements) for the 2019-20 reporting period, the
+7
+8 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+ANAO issued 232 unmodified auditors’ reports, and one modified auditors’
+report as at 24 November 2020.1
+2.3 The CFS reported the whole-of-government financial results, which showed
+that Australian Government expenses were $600 billion for the 2019-20
+reporting period. $500.3 billion in revenue was reported, and $99.7 billion
+was borrowed, which represented 16.6 per cent of total expenses.2 In total,
+the Australian Government had a net operating deficit of $99.7 billion, a
+$133.9 billion operating deficit, and a comprehensive result (change in net
+worth) of a decrease in net worth by $135.6 billion.3
+2.4 The ANAO determined that, at the final completion of audits, most entities’
+key elements of internal control were operating effectively to provide
+reasonable assurance that the financial statements could be prepared free
+from material misstatement.4 Two entities received significant findings
+which reduced the level of confidence that could be placed on key elements
+of internal control and that financial statements could be prepared free from
+material misstatement. These entities were Aboriginal Hostels Limited
+(AHL) and the Australian Securities and Investments Commission (ASIC).5
+2.5 A total of 142 audit findings were reported to entities as a result of the CFS.
+These findings comprised of:
+ Two significant findings;
+ 22 moderate findings; and
+ 118 minor findings.6
+2.6 One significant legislative breach was reported in relation to the Northern
+Land Council (NLC). This legislative breach was first identified during the
+2012-13 reporting period.7 Two non-significant legislative breaches were also
+1 Australian National Audit Office (ANAO), Auditor-General’s Report No. 25 (2020-21) Audits of the
+Financial Statements of Australian Government Entities for the Period Ended 30 June 2020 (CFS), p. 29.
+The modified auditors’ report was in relation to the National Australia Day Council.
+2 ANAO, CFS, p. 12.
+3 ANAO, CFS, p. 16.
+4 ANAO, CFS, p. 29.
+5 ANAO, CFS, p. 64.
+6 ANAO, CFS, p. 57.
+7 ANAO, CFS, p. 65
+SUMMARY OF FINDINGS 9
+identified which related to instances of non-compliance with subordinate
+legislation.8
+2.7 In conducting the audits, the ANAO includes the assessment of information
+about Key Audit Matters (KAM).9 The CFS states that the use of KAMs
+indicates to readers which issues the auditors determined to be of most
+significance.10 In 2019-20, the CFS reported 56 KAM across 24 entities.11 The
+majority of KAM were in reference to valuation assertions for assets and
+liabilities. Other KAM related to matters such as expenses, subsidies and
+personal benefits.12 Three new KAM were introduced as a result of the
+COVID-19 pandemic, five were updated to reflect new audit procedures
+arising from COVID-19 risks, and seven KAM were identified in the CFS.13
+2.8 Table 1.1 contains details regarding the entities which were found to have
+either significant and/or moderate findings for the 2019-20 reporting period.
+Table 2.1 Significant and moderate findings by entity for the 2019-20 CFS
+Entity Significant/moderate Unresolved
+findings significant/moderate
+findings
+Great Barrier Reef 1 -
+Marine Park Authority
+High Court of Australia 2 -
+Department of Defence 1 2
+Australian Signals 1 -
+Directorate
+Australian National 2 -
+University
+8 ANAO, CFS, p. 56
+9 This practice is in accordance with ASA 701 Communicating Key Audit Matters in the Independent
+Auditor’s Report.
+10 ANAO, CFS, p. 41.
+11 ANAO, CFS, p. 41.
+12 ANAO, CFS, pp. 41-42.
+13 ANAO, CFS, p. 42.
+10 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+Department of Finance 1 -
+Australian Trade and 1 -
+Investment Commission
+Department of Health 2 -
+Department of Home 1 1
+Affairs
+Australian Nuclear - 1
+Science and Technology
+Organisation
+Moorebank Intermodal - 1
+Company Limited
+Aboriginal Hostels 1 -
+Limited
+Kakadu Tourism (GLC) 1 -
+Pty Ltd
+Northern Land Council - 1
+National Disability 1 -
+Insurance Agency
+Services Australia 2 -
+Australian Securities 1 -
+Investment Commission
+Source: Australian National Audit Office, Auditor-General's Report No. 25 of 2020-21, Audits of the Financial
+Statements of Australian Government Entities for the Period Ended 30 June 2020, pp. 99-100.
+Significant findings
+2.9 Two new significant audit findings were reported in the CFS, which were in
+relation to AHL and ASIC.
+2.10 The significant finding in relation to AHL was in reference to a number of
+factors involving corporate governance, human resources and procurement
+practices.14 The CFS reported that ‘key processes required by the AHL
+Constitution were not followed in regards to the termination of the previous
+14 ANAO, CFS, p. 64.
+SUMMARY OF FINDINGS 11
+Chief Executive Officer (CEO) and the appointment of a new CEO’.15 The
+ANAO further identified two other areas of concern:
+ A lack of appropriate controls in relation to certain procurements,
+including issues with conflict of interest documentation; and
+ The management of engaging ongoing and non-ongoing staff,
+particularly in relation to instances where non-ongoing staff were
+engaged via methods that did not appropriately alert the community
+where ongoing positions appeared to be required.16
+2.11 In response to the ANAO’s findings, AHL implemented a number of
+changes in order to address the findings, including:
+ Conducting a review to ensure there was no fraud or malicious
+wrongdoing evidenced in its internal controls;17
+ Developing a comprehensive action plan, which included reviews of the
+AHL Constitution, the Board Charter, the Company Governance
+Framework, and policies regarding recruitment, delegations and
+procurement.18
+2.12 The significant finding regarding ASIC related to ‘payments to key
+management personnel’ which were identified by the ANAO to be outside
+the scope of limits set by the Remuneration Tribunal.19 Additionally, the
+ANAO found ‘significant deficiencies in the procurement process
+surrounding the payments made for the benefit of the Chair’.20
+Moderate findings
+2.13 Twenty-two moderate findings were reported as part of the 2019-20 CFS.21
+The majority of moderate findings were identified in relation to the IT
+control environment and compliance and quality assurance frameworks,
+reporting eight and six findings respectively.22
+15 ANAO, CFS, p. 276.
+16 ANAO, CFS, p. 276; Mr Grant Hehir, Auditor-General, ANAO, Committee Hansard, 19 August 2021,
+p. 4.
+17 Aboriginal Hostels Limited, Submission 3, p. 1.
+18 Aboriginal Hostels Limited, Submission 3, p. 2.
+19 ANAO, CFS, p. 64.
+20 ANAO, CFS, p. 64.
+21 ANAO, CFS, p. 57.
+22 ANAO, CFS, p. 57.
+12 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+Ongoing findings
+2.14 A number of findings were identified to have been carrying over from
+previous reporting periods. Of the twenty-four significant or moderate
+findings, six findings had been carried over from previous reporting
+periods.23
+2.15 The ANAO stated that there were often a number of reasons behind why
+findings carry over into subsequent reporting periods, explaining:
+Generally we find that entities try very hard to implement the
+recommendations that we put into our financial audit reports to them—that is,
+the findings. When they’ve carried over from one year to another, it is usually
+because the remedy that needs to be put in place is going to take longer than
+12 months to implement. Sometimes, what you’ll find is that the finding might
+start as an A or a B finding and then be downgraded over a period of time, as
+the remedies are put in place by the entities.24
+2.16 In order to better raise attention to serious findings, the ANAO has recently
+adopted the policy of writing to relevant ministers where a significant
+finding has been identified.25 The ANAO explained that this policy was
+implemented after it identified a significant finding in relation to ASIC,
+which prompted the Auditor-General to permanently enact the policy in
+order to strengthen accountability.26
+2.17 The ANAO explained that, aside from writing to ministers to inform them of
+significant findings, ‘Other than our reporting, that’s all we can do from an
+audit point of view, and then it’s for the executive and the ministers to deal
+with the issue’.27
+Significant legislative breach
+2.18 The CFS reported one significant legislative breach in the 2019-20 reporting
+period, which was found in relation to the NLC. The NLC’s purpose is to
+23 See Table 2.1.
+24 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 19 August 2021, p. 4.
+25 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 19 August 2021, p. 4.
+26 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 19 August 2021, p. 4.
+27 Mr Bola Oyetunji, Acting Group Executive Director, ANAO, Committee Hansard, 19 August 2021,
+p. 4.
+SUMMARY OF FINDINGS 13
+provide assistance to Aboriginal Australians in part of the Northern
+Territory to acquire and manage traditional lands and seas.28
+2.19 The legislative breach was originally identified in the 2012-13 reporting
+period, where the ANAO reported non-compliance with the Aboriginal Land
+Rights (Northern Territory) Act 1976 (ALRNT Act).29 The ALRNT Act requires
+that the NLC distribute payments of an amount equal to amounts received
+to, or for the benefit of, traditional owners of the land within a six-month
+time frame after the funds are received in the royalty trust account managed
+by the NLC.30
+2.20 As in previous reporting periods, the ANAO conducted sample testing
+during the 2019-20 reporting period and found case where non-compliance
+had occurred in relation to the distribution of funds within the legislated
+timeframe.31 The report details that the NLC initiated a royalty reform
+project in 2016-17 in order to reduce non-compliance and reduce any
+outstanding balances in the royalty trust account, which was largely
+completed during the 2019-20 reporting period.32 Despite these changes, the
+report stated:
+NLC management advised that since March 2020, the Royalty Unit formally
+implemented reporting processes to expedite distribution to Traditional
+Owners however testing performed by the ANAO subsequent to this date
+continued to identify non-compliance. The ANAO will review these and any
+new processes implemented as part of the 2020-21 audit.33
+2.21 The CFS also stated that the NLC had advised the ANAO in August 2020
+that a legal process to ensure unallocated funds were transferred
+appropriately had been commenced and was anticipated to be complete by
+June 2021, but that a formal plan had not yet been determined. 34 NLC
+management later notified the ANAO that the aforementioned legal process
+28 ANAO, CFS, p. 277.
+29 ANAO, CFS, p. 277.
+30 ANAO, CFS, p. 277.
+31 ANAO, CFS, p. 277.
+32 ANAO, CFS, pages 277-278.
+33 ANAO, CFS, p.. 278.
+34 ANAO, CFS, p. 278.
+14 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+was in progress ‘to see direction from the court where the recipients of
+unallocated funds could not be identified’.35
+2.22 In a further update, the ANAO informed the Committee that the NLC had
+since initiated a number of remedial activities to address the legislative
+breach, including:
+ The receipt of an independent business case report in relation to creating
+a revised Royalty Unit, named the Benefits Distribution Unit;
+ The recruitment of two key positions and additional recruitment after
+budget confirmation in July 2021; and
+ Additional strategies put in place by management, to be conducted
+throughout October to December 2021.36
+2.23 When asked about the significant breach, the ANAO agreed with the
+proposition that the legislative breach was not considered to be an issue of
+intentional fraud, but of the ‘timing of payments’.37 The Auditor-General
+further confirmed that he had written to the responsible Minister and that he
+would continue to monitor developments in the next reporting period.38
+Summary of the Interim Report
+2.24 At the interim phase of the 2020-21 Consolidated Financial Statements
+audits, the ANAO issued the Interim Report, which consists of the
+examination of twenty-five entities, including all of the departments of state
+and a selection of Australian government entities.39
+2.25 Of these twenty-five entities, twenty were considered to have key elements
+of internal control that were operating effectively, while five entities were
+found to be operating effectively to support the preparation of financial
+statements that are free from material misstatement.40
+35 ANAO, Submission 7.3, p. 1.
+36 ANAO, Submission 7.3, p. 1.
+37 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 19 August 2021, p. 5.
+38 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 19 August 2021, p. 5.
+39 Australian National Audit Office (ANAO), Auditor-General’s Report No. 40 (2020-21) Interim Report
+on Key Financial Controls of Major Entities (Interim Report), p. 7.
+40 ANAO, Interim Report, p. 7. The five entities were: the Departments of Defence, Health, and Social
+Services; National Disability Insurance Scheme Launch Transition Agency; and Services
+Australia.
+SUMMARY OF FINDINGS 15
+2.26 A total of sixty audit findings were reported at the interim phase of the
+financial audits, including:
+ Nine moderate findings; and
+ Fifty-one minor findings.41
+2.27 The Interim Report notes that these findings represent ‘an overall decrease
+in the number of findings, but an increase in moderate findings, compared
+to the 2019-20 interim audit results’.42 No significant findings were identified
+in the Interim Report.
+2.28 Fifty-three per cent of all findings, and fifty-six per cent of moderate
+findings, were reported to be in relation to the management of IT security,
+and principally regarding privileged user access controls. The Interim
+Report states that ‘The continued level of findings indicates that the IT
+control environment warrants further attention by entity management’.43
+2.29 The Interim Report also examined two key topics of note: audit committee
+reporting obligations for Commonwealth entities, and safeguarding
+financial information from cyber threats. These matters will be further
+discussed in Chapter 3.
+Moderate findings
+2.30 Nine moderate findings were identified by the ANAO in conducting the
+interim audits of Commonwealth entities. The moderate findings reported
+were identified in the following categories:
+ IT control environment: five moderate findings reported;
+ Compliance and quality assurance: two moderate findings reported;
+ Accounting and control of non-financial assets: one moderate finding
+reported; and
+ Purchases and payables management: one moderate finding reported.44
+2.31 Further, five moderate findings were unresolved from previous reporting
+periods.45
+41 ANAO, Interim Report, p. 8.
+42 ANAO, Interim Report, p. 8.
+43 ANAO, Interim Report, p. 8.
+44 ANAO, Interim Report, p. 33.
+45 ANAO, Interim Report, pages 51-52.
+16 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+2.32 Table 2.2 provides a list of entities that were found to have moderate
+findings, including unresolved findings from previous reporting periods.
+Table 2.2 Findings by entity in Interim Report 2020-21 as at 30 April 2021
+Entity New moderate findings Unresolved significant or
+moderate findings
+Department of Defence 1 1
+Department of Health - 2
+Department of Social 2 -
+Services
+Services Australia - 1
+National Disability 1 1
+Insurance Scheme Launch
+Transition Agency
+Source: Australian National Audit Office, Auditor-General's Report No. 40 (2020-21) Interim Report on Key
+Financial Controls of Major Entities, p. 51.
+Committee comment
+2.33 The Committee notes the results provided by the ANAO’s 2019-20 CFS, and
+is pleased to observe that the number of significant findings has decreased in
+comparison to previous reporting periods. These results were achieved in a
+period of significant uncertainty and upheaval during the COVID-19
+pandemic. This demonstrates to the Committee that the governance of
+Commonwealth entities appears adequate to enable entities to meet
+unexpected challenges and able to meet future demands with skill.
+2.34 The ANAO’s recently adopted practice of writing to Ministers in the event of
+the discovery of a significant finding is a positive development. The
+Committee approves of this method of the Auditor-General’s drawing
+attention to significant findings to the relevant portfolios, and anticipates
+that significant findings may be faster to resolve as a result. Further, the
+Committee observes that this practice has been only recently been
+implemented by the Auditor-General, and is not a requirement by law for
+significant breaches. The Committee considers that this practice may be
+suited to being formally required in order to ensure future significant
+SUMMARY OF FINDINGS 17
+breaches are given adequate attention. This practice should be implemented
+in the ANAO’s enabling legislation.
+Recommendation 1
+2.35 The Committee recommends that the Department of Prime Minister and
+Cabinet, in consultation with the Australian National Audit Office, amend
+the Auditor-General Act 1997 to implement a requirement for the Auditor-
+General to inform Ministers in the event where either a significant
+finding or a significant legislative breach is identified during the course
+of the financial audits.
+2.36 In regards to the significant legislative breach which has remained
+unresolved since the 2012-13 reporting period, the Committee has noted the
+evidence from the ANAO which states that the NLC has taken a number of
+remedial steps in order to rectify the breach. Given the nature of the
+legislative breach – which the Committee has been informed by the ANAO
+is primarily administrative in nature – and the actions being undertaken to
+address the underlying issues, the Committee is confident that the breach
+will be addressed in the near future. Nonetheless, the Committee requests
+that it be provided with an updated from the NLC in regards to its progress
+in addressing the legislative breach, and also from the ANAO in its view on
+whether progress is being made.
+2.37 More broadly, the Committee recognises that the fundamental issue in this
+matter is the timeframe stipulated by the legislation in the enabling Act,
+which does not provide for a situation where traditional owners cannot be
+appropriately identified. This was reinforced by the Auditor-General, who
+considered the issue primarily an administrative concern. While the intent of
+the legislation – to ensure that traditional owners are provided with royalties
+as they are entitled – may work in most situations, the lack of flexibility in its
+drafting is problematic. The Committee considers that there may be value in
+considering whether an amendment to the legislation to accommodate
+unusual circumstances.
+2.38 The Committee will monitor the situation through these responses and over
+impending CFS reports and eagerly anticipates seeing the resolution of this
+breach.
+18 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+Recommendation 2
+2.39 The Committee recommends that the following updates be provided to
+the Committee within six (6) months of the tabling of this report:
+ An update from the Northern Land Council providing an update in
+relation to its progress in addressing the significant legislative breach
+identified by the Australian National Audit Office; and
+ An update from the Australian National Audit Office informing the
+Committee on whether sufficient progress has been made by the
+Northern Land Council in addressing this breach.
+Recommendation 3
+2.40 The Committee recommends that the Department of Prime Minister and
+Cabinet investigate potential amendment to the Aboriginal Land Rights
+(Northern Territory) Act 1976 to accommodate for situations where
+payments cannot be distributed to traditional owners within the
+timeframe nominated due to the absence of identifiable traditional
+owners.
+3. Review of evidence
+Introduction
+3.1 This chapter examines the issues that were raised during the Committee’s
+consideration of the ANAO’s audits of the Consolidated Financial
+Statements (Financial Statements) and the financial performance audits of
+Commonwealth entities. It then details the Committee’s comments, and
+provides its recommendations.
+3.2 For the purposes of this chapter, Auditor-General’s Report No. 25 (2020-21)
+Audits of the Financial Statements of Australian Government Entities for the
+Period Ended 30 June 2020 will be referred to as the CFS, and Auditor-
+General’s Report No. 40 (2020-21) Interim Report on Key Financial Controls of
+Major Entities will be referred to as the Interim Report.
+Financial Performance and Sustainability
+3.3 One of the ANAO’s major focuses in conducting its analysis of the Financial
+Statements is the financial performance and sustainability of the Australian
+Government, both as a whole and of individual entities controlled by the
+government.
+3.4 The CFS consequently reports on the financial performance of the Australian
+Government overall, and the financial performance of entities. This includes
+an examination of the sustainability of entities, including detailing sources of
+income and risks to financial performance.
+Overall financial performance
+3.5 In its overall assessment of the Australian Government’s financial
+performance, the ANAO stated that the Australian Government’s net
+19
+20 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+operating balance was a deficit of $99.7 billion. The operating result was
+found to be a deficit of $133.9 billion. The comprehensive result (inclusive of
+changes to net worth) was a decrease of $135.6 billion.1
+3.6 The deficit reported in the net operating balance was rationalised by the
+ANAO to be a result of: a decrease in revenue of 1.5 per cent; a 15 per cent
+increase in operating expenses; and increased subsidy expenses and benefits
+increase of 27.1 per cent as a result of government responses to the
+COVID-19 pandemic.2 The pandemic was also stated to have caused a fall in
+revenue due to lower taxation revenue as a result of economic activities.3
+Financial performance and sustainability of entities
+3.7 The ANAO reported that the majority of entities were able to demonstrate
+that ‘key elements of internal control were operating effectively to provide
+reasonable assurance that the entities were able to prepare financial
+statements that were free from material misstatement’.4
+3.8 As outlined in Chapter 2, two entities were found to have significant
+findings identified which ‘reduced the level of confidence that could be
+placed on key elements of internal control and that financial statements can
+be prepared free from material misstatement’.5
+3.9 The CFS stated that forty-two per cent of not-for-profit entities and
+sixty-three per cent of for-profit or quasi-commercial entities reported large
+average surpluses.6 The entities that reported large average surpluses were
+impacted by events in the past year which affected their balance sheets,
+including: the receipt of goods and donations (for cultural institutions),
+equity investments, additional funding, and machinery-of-government
+changes.7
+3.10 Entities recording a large average deficit were reported to consist of
+twenty-seven per cent of not-for-profit entities and twenty-nine per cent of
+1 Australian National Audit Office (ANAO), Auditor-General’s Report No. 25 (2020-21) Audits of the
+Financial Statements of Australian Government Entities for the Period Ended 30 June 2020 (CFS), p. 16.
+2 ANAO, CFS, p. 16.
+3 ANAO, CFS, p. 16.
+4 ANAO, CFS, p. 29.
+5 ANAO, CFS, p. 29.
+6 ANAO, CFS, p. 47.
+7 ANAO, CFS, pages 49-50.
+REVIEW OF EVIDENCE 21
+for-profit or quasi-commercial entities.8 The reasons for these results were
+varied, including: large projects in the build phase which were managed by
+entities, increased impairment expenses for property and equipment, and
+accounting treatment of concessional loans.9 The CFS reported that some
+entities recorded large average deficits due to entity-specific events during
+the past year, including: increases in employee benefits expenses, contractor
+expenditure, implementation of new accounting policies, and depreciation
+costs.10
+3.11 The CFS provided detail in relation to the impact of the COVID-19 pandemic
+on the financial sustainability of Commonwealth entities, reporting that
+eight entities were significantly affected and required additional funding in
+relation to the corporate restructuring of operations.11 Many of the entities
+affected were in industries such as tourism which were vulnerable to
+instability caused by the pandemic, including entities in the Indigenous
+tourism sector.12 The ANAO stated that the additional funding was
+considered to be a response to unusual circumstances and did not consider
+that there would be long-term problems for the affected entities, but would
+continue to monitor entities’ performance.13
+3.12 The ANAO examined the financial performance of all entities, and provided
+analysis in the CFS based on whether entities can manage their underlying
+financial positions and the extent to which they may be able to sustain their
+activities over time. The ANAO primarily examines entities’ liquidity and
+gearing in order to determine their financial position.14
+3.13 In the 2019-20 CFS, fifty-three per cent of entities were determined by the
+ANAO to be in a ‘strong’ position, forty-two per cent of entities were stated
+to be ‘less strong’, and five per cent of entities were found to be ‘weak’.15 The
+‘strong’ and ‘less strong’ categories demonstrated significant changes from
+8 ANAO, CFS, p. 47.
+9 ANAO, CFS, p. 48.
+10 ANAO, CFS, p. 49.
+11 Mr Grant Hehir, Auditor-General, ANAO, Committee Hansard, 19 August 2021, p. 3.
+12 Ms Rona Mellor PSM, Deputy Auditor-General, ANAO, Committee Hansard, 19 August 2021, p. 3.
+13 Mr Bola Oyetunji, Acting Group Executive Director, ANAO, Committee Hansard, 19 August 2021,
+p. 3.
+14 ANAO, CFS, p. 51.
+15 ANAO, CFS, p. 52.
+22 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+the previous reporting periods, where seventy per cent of entities in 2018-19
+were considered ‘strong’ and twenty-five per cent of entities were
+considered ‘less strong’.16 The ANAO explained that this was due to the
+implementation of the revised leasing standard, AASB 16 Leases, which
+impacted the liquidity ratios of entities.17
+Financial performance ratios and benchmarks
+3.14 The ANAO assesses financial performance and sustainability by examining
+the entity’s ability to manage its resources and its capacity to address current
+and future spending obligations. By examining entities’ operations, the
+ANAO can identify ‘an indication of financial management issues or can
+point to an increased risk that entities may require additional government
+funding’.18
+3.15 The CFS stated that, while the Department of Finance (Finance) has ratios
+available on its website to apply to data, these ratios are not explained in
+terms of indicating strong or weak performance. Accordingly, the ANAO
+has developed parameters in line with Finance’s ratios in order to interpret
+entity performance.19 The ANAO assesses the financial performance of
+entities in two ways:
+ By operating results of entities, consisting of the categories: large deficits,
+small deficits or surpluses, and large surpluses;20 and
+ By balance sheet analysis, which consists of the categories of strong, less
+strong and weak.21
+3.16 The ANAO explained that the ‘strong’ and ‘less strong’ categories are
+similar, but that the latter represents where an entity may not meet a
+calculation criteria or where there is a risk of a weaker balance sheet.22 The
+16 ANAO, CFS, p. 52.
+17 ANAO, CFS, p. 52.
+18 ANAO, CFS, p. 45.
+19 ANAO, CFS, p. 51.
+20 Further detail on the ANAO’s method of assessing entities, including definitions of each category
+are found in the CFS at pages 46-47.
+21 ANAO, CFS, p. 51.
+22 Mr Sean Benfield, Executive Director, Australian National Audit Office, Committee Hansard,
+19 August 2021, p. 3.
+REVIEW OF EVIDENCE 23
+ANAO stated, however, that its main focus in assessing financial
+performance was on entities in the ‘weak’ category.23
+3.17 The Auditor-General further suggested that it should be Finance’s
+responsibility to explain whether the reported results are explainable or if
+problems exist where entities are not operating within usual parameters.24
+Follow-up of previous recommendation
+3.18 In its examination of the 2016-17 Financial Statements, the Committee
+supported the ANAO’s recommendation that the Australian Government
+develop publicly reported performance targets or benchmarks in relation to
+financial sustainability.25 This was prompted by the ANAO’s observation
+during that inquiry that there were many benefits in the Government
+‘developing publicly reported performance to enable entities to assess their
+own financial sustainability against agreed parameters over time and against
+like entities’.26
+3.19 In the 2016-17 report, the Committee recommended that Finance work with
+the ANAO in developing:
+appropriate and robust performance targets or benchmarks, which can be
+publicly reported, to enable Commonwealth entities assess their own financial
+sustainability against agreed parameters over time and against like entities.27
+3.20 The 2019-20 CFS reported that Finance had since created an online portal for
+information contained in Commonwealth entities’ annual reports,
+transparency.gov.au. The portal enables the annual reports of entities to be
+uploaded collectively, and be searched against those of other entities.28 The
+23 Mr Benfield, Executive Director, Australian National Audit Office, Committee Hansard, 19 August
+2021, p. 3.
+24 Mr Hehir, Auditor-General, Australian National Audit Office, Committee Hansard, 19 August 2021,
+p. 3.
+25 Joint Committee of Public Accounts and Audit (JCPAA), Report 463, Commonwealth Financial
+Statements: Inquiry based on Auditor-General’s report 33 (Report 463), August 2017, p. 3.
+26 JCPAA, Report 463, p. 13.
+27 JCPAA, Report 463, p. 14.
+28 Ms Tracey Carroll, First Assistant Secretary, Financial Analysis, Reporting and Management,
+Governance and Resource Management, Department of Finance (Finance), Committee Hansard,
+15 September 2021, p. 8.
+24 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+website was designed to enable users to ‘compare and contract financial
+results and mandatory annual reporting requirements across all entities’.29
+3.21 Finance explained that, as a part of the creation of the portal, financial ratios
+‘were established and there is an ability for users of that website to easily
+generate a small number of financial ratios to give some key information’.30
+Ratios included in the database comprised of: Total Liabilities to Total Assets
+ratio, Financial Assets to Total Liabilities ratio, Current Ratio and Capital
+Turnover Ratio.31 Entities have been required to publish annual reports to
+the portal since the 2018-19 reporting cycle.32
+3.22 Finance advised the Committee that this website addressed the Committee’s
+recommendations, but that there were challenges in identifying and setting
+performance benchmarks.33 Finance representatives stated that financial
+ratios and performance benchmarks are primarily a tool used by private
+sector entities rather than those in the public sector, and that many factors
+influence the financial performance and sustainability of public sector
+entities.34 Further, Finance explained that public sector entities are
+fundamentally different in how they manage finances to private sector
+entities:
+Another concern is that, broadly, public sector entities are funded to meet their
+requirements basically on a just-in-time basis, so it’s not normally the case that
+you would see financial positions for different agencies where they would
+have significant assets or cash balances, where you might see that in a
+different perspective for the private sector.35
+3.23 An additional point of concern for Finance in setting financial performance
+benchmarks was that public sector entities are diverse and that comparisons
+between entities may not fully capture differences in functions.36 As an
+29 ANAO, CFS. 45.
+30 JCPAA, Report 463, p. 14.
+Ms Carroll, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 8.
+31 ANAO, CFS, pages 45-46.
+32 Department of Finance (Finance), Submission 2.1, p. 1.
+33 JCPAA, Report 463, p. 14.
+Ms Carroll, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 8.
+34 Ms Carroll, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 8.
+35 Ms Carroll, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 8.
+36 Ms Carroll, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 8.
+REVIEW OF EVIDENCE 25
+example, they made the comparison between the Department of Defence
+(Defence) and the National Library of Australia, noting that they were
+extremely different entities in different industries and operating structures.37
+3.24 In response, the ANAO posited that financial ratios and performance
+benchmarking were important tools in assessing the operation of
+Commonwealth entities as it provided some detail for external observers to
+make judgements about the enemy’s performance.38 The Auditor-General
+stated:
+There’s absolutely no doubt that you can’t just have a single benchmark across
+a whole pile of different entities that could apply to each of them, but the
+nature of utilising ratios and benchmarks is to try and put the user of the
+information into a position to make judgements with respect to how, in the
+case of the public sector, entities are using their resources and maintaining
+their sustainability—for example, the use of balance-sheet analysis to
+determine whether the entity is maintaining running down its assets stock, its
+service delivery capability.39
+3.25 The ANAO commented that ‘Finance has not developed and communicated
+guidance to assist users in assessing whether the ratios indicate strong or
+weak financial performance in the context of the government sector’.40 In the
+absence of guidance set by government, the ANAO created parameters
+based on ‘generally accepted concepts of financial sustainability’, which
+were applied to Commonwealth entities for the purposes of the CFS.41 The
+Auditor-General explained:
+We think that it’s valuable to try and have—as we do in this report— some
+analysis of financial statements where you can use ratios et cetera to ask
+questions with respect to the sustainability and the ongoing performance of
+entities. Finance recently started publishing some information on that. To
+some extent, I would feel—because we’ve been raising this issue for a number
+of years—that you need to go a step further and, say, not only publish the
+ratios but give some indication and guidance of what they mean. And that’s
+what we tried to do in this report by setting some benchmarks on the ratios
+37 Ms Carroll, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 8.
+38 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 15 September 2021, p. 8.
+39 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 15 September 2021, p. 8.
+40 ANAO, CFS, p. 46.
+41 ANAO, CFS, p. 46.
+26 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+and then going in and trying to explain why people are outside certain
+parameters.42
+3.26 The ANAO stated that it did not consider that Finance had fully responded
+to the Committee’s recommendation in Report 463.43 The Auditor-General
+commented that while Finance had made the information available for users
+to access themselves, it had not provided users information on how to
+interpret results, such as aspects to look out for and what metrics are
+important.44
+Unadjusted audit differences
+3.27 The CFS assesses the quality of entities’ preparation of the financial
+statements by ‘considering and the number and value of audit differences
+identified’.45 The ANAO reported ninety-eight unadjusted audit differences
+in Commonwealth entities, representing a decrease in the number of
+unadjusted audit differences found in comparison to the 2018-18 reporting
+period.46 The value of unadjusted audit differences, however, was reported
+to have increased by approximately $30 million, which resulted in a net
+impact of $53 million.47 Further, the ANAO reported that it had identified
+three moderate findings and eleven minor findings in regards to entities’
+preparation of the financial statements themselves.48 Of the ninety-eight total
+unadjusted audit differences, sixty-one were in relation to material entities,
+which represented an increase from fifty-eight in the 2019-20 reporting
+period.49
+3.28 Almost all unadjusted audit differences did not result in a material
+misstatement to the financial statements of entities, both individually and as
+a whole.50 One entity was identified as having an unadjusted audit
+42 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 19 August 2021, p. 3.
+43 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 15 September 2021, p. 8.
+44 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 15 September 2021, p. 8.
+45 ANAO, CFS, p. 34.
+46 ANAO, CFS, p. 34.
+47 Mr Oyetunji, Acting Group Executive Director, ANAO, Committee Hansard, 15 September 2021, p. 3.
+48 ANAO, CFS, p. 34.
+49 ANAO, CFS, p. 34.
+50 ANAO, CFS, p. 34.
+REVIEW OF EVIDENCE 27
+difference which may have resulted in a material misstatement to its
+financial statement, which was the National Australia Day Council (NADC).
+The NADC was found to have misclassified $2.66 million of revenue under
+the Australian Accounting Standards, which was deemed by the ANAO to
+be ‘considered material, but not pervasive to the financial report’.51
+3.29 The ANAO explained in the CFS that any audit differences identified in the
+process of auditing the financial statements are communicated to entities,
+and that entities are ‘encouraged to adjust all audit differences’.52 The
+significance of unadjusted audit differences was more fully explained by the
+Auditor-General:
+We started reporting on these matters a bit more fulsomely a couple of years
+ago within this report because the number of unadjusted audit differences was
+of concern to us. In my view … when you identify an audit difference, which
+is largely saying that an item within the accounts is incorrect ‘but we’re not
+going to fix it’ … you’d expect people to be focusing on getting the accounts
+right not ‘largely right’.53
+3.30 The ANAO also expressed the view that entities sometimes avoid
+addressing audit differences due to ‘the knowledge that immaterial
+differences don’t lead to qualifications’, and are therefore not reported in the
+CFS.54
+3.31 The Auditor-General suggested that the accepted best practice was to ensure
+that financial statements were prepared as accurately as possible, and—
+where differences are identified—that these be corrected.55
+3.32 In broad concurrence with the ANAO, Finance stated that entities should be
+aiming for financial statements to be as free from errors as possible, but that
+there were occasions where audit differences may be unavoidable.56 During
+the preparation process for the financial statements, Finance prepares the
+Consolidated Financial Statements (which collates all agencies’ financial
+statements into one document) and—as part of that process—addresses any
+51 ANAO, CFS, p. 277.
+52 ANAO, CFS, p. 34.
+53 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 19 August 2021, p. 2.
+54 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 19 August 2021, p. 2.
+55 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 15 September 2021, p. 2.
+56 Ms Carroll, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 13.
+28 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+unadjusted audit differences that entities do not address themselves.57
+Agencies are encouraged by Finance to address any unadjusted audit
+differences where the ANAO has identified issues.58
+3.33 Notwithstanding this principle, Finance stated that ‘it is a question for the
+individual accountable authority to determine whether they think the
+adjustment should be taken up’.59 It explained that there are a number of
+reasons why agencies may not address audit differences identified by the
+ANAO, such as:
+ Conflicting opinions regarding whether the adjustment would be
+appropriate;
+ Introducing risks of errors during the financial statements process if a
+particular difference was taken up; and
+ Differing applications or interpretations of auditing standards or
+professional judgements between the ANAO and the relevant entity.60
+Impact of COVID-19
+3.34 In its examination of the 2019-20 Financial Statements, the ANAO took the
+opportunity to examine the impact of the COVID-19 pandemic on
+Commonwealth entities in respect of their financial management and
+performance. The CFS reports on a number of aspects in relation to entities’
+response to the pandemic, including:
+ Entities’ consideration and response to increased and dynamic risk,
+particularly those posed from remote working arrangements and the
+consideration of risk by audit committees;61 and
+ Financial sustainability in the wake of COVID-19, including whether
+entities were significantly impacted by the pandemic and whether
+additional funding, letters of support, or restructuring of operations were
+required.62
+57 Ms Carroll, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 13.
+58 Ms Carroll, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 13.
+59 Ms Carroll, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 13.
+60 Ms Carroll, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 13.
+61 ANAO, CFS, p. 33.
+62 ANAO, CFS, p. 53.
+REVIEW OF EVIDENCE 29
+3.35 The Auditor-General stated that, in his opinion, entities overall responded
+well to the challenges posed by the pandemic in terms of financial reporting:
+With respect to the work that entities did on financial reporting, which is what
+these documents are about, we think the entities did a very good job in
+(1) keeping the focus on the importance of financial reporting and (2) assessing
+the risks associated with it. We did some work looking at the extent to which
+entities went back and looked at their risk frameworks in taking account of
+COVID and we found that entities largely did that. So, from the performance
+audit work we’ve done on COVID measures implementation and the work we
+did in the financial audit space, we have quite a positive view about how
+entities have continued business as usual in terms of financial reporting, as
+well as dealing with the other risks.63
+3.36 Notwithstanding the overall positive findings, the ANAO identified three
+new Key Audit Matters (KAM) in relation to entities’ management of
+particular risks in relation to the COVID-19 pandemic, and five existing
+KAM were updated to reflect changed risk factors arising from the
+pandemic.64 The ANAO further commented that the Australian
+Government’s increased use of online systems and services to address
+demand and respond to major events will require that administrators
+‘understand their information and data risks along with the need to protect
+critical information from malicious actors’.65
+Impact on the ANAO’s auditing processes
+3.37 The Committee enquired into whether any issues arose during the
+ANAO’s examination of the CFS given COVID-19-related restrictions. Audit
+staff were said to encounter difficulties in physically accessing audited
+entities due to restrictions on building access; however, remote access
+facilitated the access of data and systems required for the purposes of
+conducting the audits.66 The ANAO explained that it utilised remote access
+in a number of ways to conduct the audits, including: remote monitoring of
+stocktakes, transferring large data files, using entity technology to access
+their systems, and organising to conduct audits remotely.67 Some types of
+entities and particular kinds of audit work, such as stocktake procedures in
+63 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 19 August 2021, p. 9.
+64 ANAO, Submission 7.3, p. 3.
+65 ANAO, Submission 7.3, p. 3.
+66 ANAO, Submission 7.3, p. 2.
+67 ANAO, Submission 7.3, pages 2-3.
+30 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+Defence or audits involving security agencies, were reported by the ANAO
+to be unable to be remotely accessed which resulted in delays to their audits
+being concluded.68
+3.38 Despite the challenges of remote access auditing, the ANAO emphasised
+that there was ‘minimal impact on the ANAO’s ability to develop an
+understanding of the entities and their processes, and identify
+improvements and findings’.69
+3.39 While remote access was considered appropriate for short-term use, the
+ANAO stated that:
+[I]f [remote access audit work] were to continue for an extended period, we
+would expect a deterioration in the understanding of key processes, adequacy
+of documentation and information provided to support audit evidence which
+may in turn impact findings.70
+Cyber security and resilience
+3.40 A high proportion of the ANAO’s findings were in relation to cyber security
+and resilience issues. Of the 142 total findings, eight moderate findings and
+40 minor findings were identified in relation to the IT control environment.71
+The CFS reports that IT security findings comprised of sixty-five per cent of
+findings and eighty-eight per cent of moderate findings.72 Nonetheless, these
+results indicate a lower number of IT-related findings in comparison with
+previous years, for all types of findings.73 Further, a number of these
+findings were unresolved from prior reporting periods.74
+3.41 Six of the eight moderate findings related to privileged user access.
+Privileged user access relates to account users with particularly sensitive
+administrative privileges, such as the ability to make significant changes to
+IT systems, avoid security settings and access sensitive data. The CFS notes
+that privileged user access represents risk to entities, and that the
+68 ANAO, Submission 7.3, p. 3.
+69 ANAO, Submission 7.3, p. 3.
+70 ANAO, Submission x, p. 2.
+71 ANAO, CFS, p. 57.
+72 ANAO, CFS, p. 59.
+73 In the 2018-19 reporting period, 10 moderate findings and 63 minor findings were reported: ANAO,
+CFS, p. 58.
+74 ANAO, CFS, p. 58.
+REVIEW OF EVIDENCE 31
+Information Security Manual requires that access by such users be logged,
+regularly reviewed and monitored. 75
+3.42 Four of the eight moderate findings were in reference to user access
+management. Issues common in these findings included accounts which
+were no longer active or required but could be used to access systems and
+data.76 Methods that some entities used to address these findings included
+the implementation of new systems to share information and control access,
+and new functionalities to ensure automatic loss of access upon the cessation
+of an employee’s employment.77
+3.43 The ANAO also advised that, in examining what it considers to be a
+moderate risk finding in relation to IT security, it conducts additional
+assessments in reference to whether the financial statements are impacted in
+the circumstances.78
+3.44 The Interim Report also examined the implementation and compliance with
+the Protective Security Policy Framework (PSPF) Essential Eight mitigation
+strategies, and found stated that there had been ‘limited improvement in the
+level of compliance with PSPF mitigation strategies since the controls [were]
+first mandated in 2013’.79
+3.45 The Australian Signals Directorate (ASD) confirmed the magnitude of the
+ANAO’s findings, stating that ASD’s work indicated that cyber security
+across Commonwealth entities had ‘further deteriorated’.80 ASD stated that
+the COVID-19 pandemic had resulted in a significant shift towards remote
+working practices in Commonwealth entities, which posed risks such as
+employees not using virtual private networks (VPNs) or corporate-issued
+devices.81 In addressing this, ASD performed a scan across Commonwealth
+entities identifying risks, and issued a series of technical advices containing
+guidance for entities to improve their cyber security.82 The technical advices
+75 ANAO, CFS, p. 58.
+76 ANAO, CFS, p. 59.
+77 Department of Health, Submission 1, p. 2; National Disability Insurance Agency, Submission 6, p. 4.
+78 Ms Lesa Craswell, Executive Director, ANAO, Committee Hansard, 19 August 2021, p. 8.
+79 ANAO, Submission 7, p. 4.
+80 Ms Abigail Bradshaw, Acting Director-General, Australian Signals Directorate (ASD), Committee
+Hansard, 15 September 2021, p. 9.
+81 Ms Bradshaw, Acting Director-General, ASD, Committee Hansard, 15 September 2021, p. 9.
+82 Ms Bradshaw, Acting Director-General, ASD, Committee Hansard, 15 September 2021, p. 9.
+32 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+covered a range of issues such as: multifactor authentication security,
+implementing VPNs and patching software.83 ASD also confirmed that it
+was examining the risks associated with new technologies such as quantum
+computing and key encryption capabilities.84
+PSPF self-assessments
+3.46 Findings in relation to agencies’ progress against the PSFP maturity levels
+were mixed, with the CFS reporting that three agencies significantly
+improved their maturity levels with the majority of requirements, but one
+agency significantly declined.85 The ANAO explained how this situation was
+reflective of agencies’ approaches to cyber security more broadly:
+What we found was the entities that significantly improved their compliance
+with the strategies were entities that actually prioritised the implementation of
+the requirements. The entity that has deteriorated was receiving services from
+another entity and was not monitoring the requirements as closely as it
+should. I think the lessons that we take out of that are consistent with the
+views we’ve expressed previously, where, to implement the appropriate
+strategies and mitigations, it’s important that entities actually prioritise that as
+something that is critical to them.86
+3.47 The Interim Report found that many entities could not provide sufficient
+evidence to substantiate their self-reported PSPF assessments.87 The ANAO
+explained:
+What we tried to identify was whether they could provide us with evidence
+which supported their self-assessment. We didn’t go back in where they
+couldn’t and test whether their self-assessment was accurate. Rather, we just
+went to that first level: ‘Could you evidence your assessment?’ We found
+limitations there.88
+3.48 The ANAO clarified that it did not support a particular model of a system of
+assurance when enforcing PSPF requirements on entities; nonetheless, the
+ANAO’s previous performance audits in addition to the CFS indicated that
+83 Ms Bradshaw, Acting Director-General, ASD, Committee Hansard, 15 September 2021, p. 9.
+84 Ms Bradshaw, Acting Director-General, ASD, Committee Hansard, 15 September 2021, p. 11.
+85 ANAO, Auditor-General’s Report No. 40 (2020-21) Interim Report on Key Financial Controls of Major
+Entities (Interim Report), p. 29.
+86 Ms Craswell, Executive Director, ANAO, Committee Hansard, 15 September 2021, p. 10.
+87 ANAO, Interim Report, p. 30.
+88 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 15 September 2021, p. 16.
+REVIEW OF EVIDENCE 33
+the self-assessment system ‘isn’t consistent with the risk framework that we
+observed in implementation’.89 It also observed that it had previously
+recommended that the Attorney-General’s Department ‘implement
+arrangements to obtain an appropriate level of assurance on the accuracy of
+entities’ PSPF Policy 10 self-assessment results’ in its report Auditor-
+General’s Report No. 32 (2020-21) Cyber Security Strategies of Non-Corporate
+Commonwealth Entities.90 The ANAO stated:
+An assurance framework should be designed to provide an appropriate level
+[of] assurance. In determining the appropriate level of assurance required
+consideration should be given to the likelihood and impact if a risk were to
+eventuate, and the effectiveness of controls in place to mitigate the risk. Where
+risk is low, then a low level of assurance [may be] determined to be
+appropriate, and the nature and extent of procedures may be more limited …
+Where the risk is higher or there are issues with the effectiveness of controls,
+then the level of assurance and nature and extent of procedures should be
+more robust. For example, adding to a review of the control processes detailed
+substantive testing of the actual activity (ie whether the relevant PSPF policies
+are actually implemented).91
+3.49 Cultural issues regarding cyber security frameworks were reported by the
+ANAO to be widespread, as indicated by their other auditing work around
+the topic and as highlighted in previous reports by this Committee.92 The
+Auditor-General stated:
+I think what we can observe here in the causes are the same issues that we
+observed in our broader cybersecurity performance auditing framework. I
+think I’ve said to the committee before that people know what’s required. The
+expectations of what’s necessary for cybersecurity are well documented.
+Everyone knows what they are. The key issue is about building the culture in
+the organisation to systematically do it over and over again in putting in the
+controls and implementing the controls.93
+3.50 The ASD stated that it had strengthened its procedures in ensuring entities
+were accountable for implementing the PSPF mandatory requirements, but
+89 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 15 September 2021, p. 17.
+90 ANAO, Submission 7.2, p. 2.
+91 ANAO, Submission 7.2, p. 2.
+92 See: JCPAA, Report 485: Cyber Resilience, December 2020 and JCPAA, Report 467: Cybersecurity
+Compliance, October 2017.
+93 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 19 August 2021, p. 8.
+34 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+noted that it did not have powers under its enabling legislation to enforce
+compliance.94 It observed that, in running its annual survey of
+Commonwealth entities assessing cyber security, many entities engaged
+with the ASD to request guidance in best reflecting their entity’s cyber
+security situation in the survey and how to improve it.95 Larger entities were
+also reported to regularly consult and engage independent assessment for
+assurance purposes.96
+Leave monitoring
+3.51 In conducting the CFS, the ANAO identified two moderate findings and
+sixteen unresolved minor findings in relation to human resources financial
+processes, with a particular emphasis on the management of staff leave and
+leave balances.97 In addition, the 2019-20 CFS took a particular focus on
+leave monitoring in Commonwealth entities, examining the policies and
+processes regarding leave monitoring of three entities: the Department of
+Home Affairs (Home Affairs), the Department of Prime Minister and
+Cabinet (PMC), and the Treasury.
+3.52 The CFS examined the ANAO’s findings of instances of purchased leave in
+situations where employees had accrued excessive leave credits. For
+instance, Home Affairs was found to have twenty-two employees with
+seventy-three total instances where they had purchased additional leave
+while having excessive leave credits.98
+3.53 The ANAO explained that, in conducting this work, it was seeking to alert
+entities that there may be a problem in regards to their application of public
+service legislation and policies, and to address it if needed.99
+3.54 Leave monitoring, particularly in relation to delays to leave applications,
+were also examined in the 2019-20 CFS, where it was identified that there
+were lengthy delays in some entities for employees submitting unscheduled
+leave applications after the period of leave had already passed.100 The
+94 Ms Bradshaw, Acting Director-General, ASD, Committee Hansard, 15 September 2021, p. 17.
+95 Ms Bradshaw, Acting Director-General, ASD, Committee Hansard, 15 September 2021, p. 17.
+96 Ms Bradshaw, Acting Director-General, ASD, Committee Hansard, 15 September 2021, p. 17.
+97 ANAO, CFS, p. 62.
+98 ANAO, CFS, p. 83.
+99 Ms Mellor, Deputy Auditor-General, ANAO, Committee Hansard, 19 August 2021, p. 7.
+100 ANAO, CFS, pages 85-86.
+REVIEW OF EVIDENCE 35
+ANAO advised that a number of entities had now requested that internal
+auditors examine the policies and compliance to reduce instances of lengthy
+delays between leave being taken and an application being submitted.101
+3.55 The ANAO also examined matters relating to flexible leave and identified
+that there were instances within Home Affairs where staff had accrued a
+high amount of flexible leave or had accrued it where they were not entitled
+to flexible leave.102 The ANAO explained that most Commonwealth entities
+have some form of flexible work to accommodate for peak periods of work,
+including limitations on how much can be accrued; and that its reason for
+auditing flexible leave in the CFS was to examine the effectiveness of the
+implementation of those policies.103
+3.56 Home Affairs, in responding to the ANAO’s findings, agreed to the audit’s
+recommendations and implemented a number of measures to address the
+concerns raised; but disagreed with the ‘moderate’ rating of the finding.104
+Home Affairs advised that it agreed with the ANAO’s recommendations,
+but that ‘the Department held the view that the observations raised by the
+ANAO posed a low risk to the Department’.105 It stated that the ANAO’s
+observations were based on a review of leave transactions over a period of
+18 months and comprising of over 374,000 transactions. Home Affairs stated:
+Noting the volume and value of all transactions across this period the
+Department considered the identified value of the errors (approx. $436k) was
+immaterial to the Department’s Financial statements.106
+Timeliness in preparing financial statements and
+annual reports
+3.57 Commonwealth entities are required to table an annual report in Parliament
+in accordance with the Public Governance, Performance and Accountability
+Act 2013 (PGPA Act).107 For the majority of entities, annual reports must be
+101 Mr Oyetunji, Acting Group Executive Director, ANAO, Committee Hansard, 19 August 2021, p. 8.
+102 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 19 August 2021, p. 8.
+103 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 19 August 2021, p. 8.
+104 Department of Home Affairs, Submission 5, p. 2.
+105 Department of Home Affairs, Submission 5, p. 2.
+106 Department of Home Affairs, Submission 5, p. 2.
+107Public Governance, Performance and Accountability Act 2013, ss. 39 and 97.
+36 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+provided to their relevant minister by 15 October.108 The PGPA Act does not
+stipulate a date that entities must table their annual reports in the Parliament
+by, but entities are expected to make them publicly available prior to Senate
+Estimates hearings in October/November in order to enable parliamentary
+scrutiny.109
+3.58 The CFS identified issues for a large number of entities in relation to the
+timeliness in preparing financial statements and annual reports. The ANAO
+reported that 64 per cent of entities delivered their financial statements per
+the agreed timeframes.110 This represented a decrease in the rate of
+timeliness in comparison to the previous CFS reporting period in 2018-19,
+which reported a 69 per cent rate of timeliness within the agreed
+timeframes.111
+3.59 Only 62 per cent of entities tabled their annual reports in the Parliament
+prior to the Senate Supplementary Budget Estimates hearings, down from 76
+per cent in the 2018-19 reporting period.112 Sixteen per cent of entities tabled
+their annual reports on the day of the relevant Senate Supplementary Budget
+Estimates hearing.113 Eight material entities across five portfolios, which
+either tabled an annual report after the Senate estimates hearings or had not
+tabled an annual report as at 24 November 2020.114
+3.60 Figure 3.1 provides further detail about the timing of annual reports being
+tabled in correlation with Senate Supplementary Budget Estimates hearings.
+108Public Governance, Performance and Accountability Act 2013, s 46(2)(a). This timeframe applies only to
+Commonwealth entities which have a financial year reporting period ending on 30 June
+annually.
+109 RMG 135 section 21.
+110 ANAO, CFS, p. 34.
+111 ANAO, CFS, p. 34.
+112 ANAO, CFS, p. 39.
+113 Australian National Audit Office, Submission 7, p. 3.
+114 ANAO, CFS, p. 39.
+REVIEW OF EVIDENCE 37
+Figure 3.1 2019-20 annual report tabling date in relation to Senate budget
+estimates hearing, as at 24 November 2020
+Source: Australian National Audit Office, Auditor-General’s Report No. 25 of 2020-21 Audits of the Financial
+Statements of Australian Government Entities for the Period Ended 30 June 2020, p. 39.
+3.61 The CFS further reported that a number of Commonwealth entities
+struggled to meet internal deadlines for financial reporting, stating that
+64 per cent of entities met the agreed timetable.115 The ANAO observed that
+this was a five-point drop in comparison to the previous reporting period,
+where 69 per cent of entities met the agreed deadlines. This was explained
+by the ANAO as potentially due to the COVID-19 pandemic.116 However,
+ANAO representatives stated that, while accommodating for unavoidable
+challenges during the financial statements process, this figure should be
+higher:
+… [S]ometimes the delays are when we’re getting towards the end, and major
+issues emerge late in the piece as well. I don’t think we can all aim for 100 per
+115 ANAO, CFS, p. 34.
+116 Mr Oyetunji, Acting Group Executive Director, ANAO, Committee Hansard, 19 August 2021, p. 2.
+38 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+cent. I don’t think that’s achievable. You’d certainly want to see something in
+the 80s to 90s—as better than where we are at the moment.117
+3.62 According to the ANAO, annual reporting deadlines for publication are
+comparatively later than the private sector, but that public sector annual
+reporting is largely driven by deadlines for audit reporting and financial
+statements.118 It observed that best practice for ASX-listed companies was
+approximately four months after the year’s end.119
+3.63 The ANAO supported the suggestion that annual reports should be
+provided ‘a reasonable time beforehand’ to Senate estimates hearings in
+October, in order for parliamentarians to read the reports and effectively
+scrutinise entities.120 The ANAO explained that Senate estimates is a
+significant marker which entities should be aiming for in publishing annual
+reports, given the primary user of annual reports is the Parliament:
+The predominant use of annual reports is the parliament and the community.
+They’re prepared for the parliament to use. Senate estimates is one of the key
+vehicles by which parliament is meant to review the operations of government
+entities, through looking at annual reports. I think that most people involved
+in the preparation of annual reports probably wouldn’t be very comfortable if
+their staff provided them with a couple-of-hundred-page paper the day before
+a meeting to get ready for it. This isn’t something that we should think is
+reasonable for the parliament in being able to hold entities to account for their
+performance.121
+3.64 Finance broadly concurred with the ANAO, stating that most entities are
+required by the PGPA Rule to provide their annual report to the relevant
+minister by 15 October each year, and to the Parliament by 31 October
+according to tabling circulars as circulated by PMC.122 The ANAO further
+explained that Commonwealth companies are subject to different tabling
+rules, accommodating for the need to present annual reports twenty-one
+117 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 19 August 2021, p. 2.
+118 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 19 August 2021, p. 1.
+119 Mr Oyetunji, Acting Group Executive Director, ANAO, Committee Hansard, 19 August 2021, p. 1.
+120 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 15 September 2021, p. 6.
+121 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 19 August 2021, p. 4.
+122 Mr Scott Dilley, First Assistant Secretary, Governance, Governance and Resource Management,
+Finance, Committee Hansard, 15 September 2021, p. 13.
+REVIEW OF EVIDENCE 39
+days prior to the next annual general meeting after the end of the relevant
+reporting period.123
+3.65 The Committee questioned whether entities are sufficiently compliant with
+the tabling rules regarding annual reports. Finance representatives stated
+that entities broadly adhere to the tabling requirements, and that ‘the vast
+majority of cases entities are provided well ahead of that 31 October time
+frame, and they are tabling ahead of estimates’.124 The Auditor-General,
+however, stated that the CFS indicated that a large proportion of entities had
+not provided their annual report for tabling prior to Senate estimates
+hearings in October 2020.125 Finance suggested that this was potentially due
+to challenges in tabling as a result of the COVID-19 pandemic, but did not
+further explain why the pandemic had impacted on entities’ ability to
+adhere to the tabling deadline.126
+3.66 Finance explained that it has no enforcement powers in ensuring entities
+provide annual reports in a timely manner.127 PMC is the policy owner of
+Parliament’s tabling guidelines, including the timeframes for annual
+reporting.128 However, Finance is responsible for monitoring compliance
+with the annual reporting policy via the transparency.gov.au portal’s
+uploading of annual reports, which must happen ‘as soon as is practicable’
+after its tabling in Parliament.129 Finance also follows up with any entity that
+tables an annual report out of the timeframes set out by the PGPA Rule, as
+required by PMC.130
+3.67 The Auditor-General commented that there appeared to be an issue in
+relation to the reporting framework’s requirements when compared to their
+users’ needs, in this case the Parliament and parliamentarians preparing for
+Senate estimates.131 He stated:
+123 ANAO, Submission 7.1, p. 1.
+124 Mr Dilley, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 14.
+125 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 15 September 2021, p. 14.
+126 Mr Dilley, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 14.
+127 Mr Dilley, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 14.
+128 Finance, Submission 2.1, p. 1.
+129 Mr Dilley, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 14.; Finance,
+Submission 2.1, p. 1.
+130 Mr Dilley, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 15.
+131 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 15 September 2021, p. 16.
+40 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+[W]e have a reporting framework for annual reports which sets out a
+requirement for when annual reports need to be provided by the department
+to their minister, which is 15 October, and a requirement for when annual
+reports should be tabled. It seems to me that the framework that’s in place for
+entities may not align with the needs of the users of the reports, and the
+committee might want to consider whether those rules serve the purpose of
+ensuring that the parliament gets reports at an appropriate time for its
+consideration.132
+Follow-up on previous recommendation
+3.68 The Committee has had a long-term interest in practices relating the tabling
+of entities’ annual reports, particularly around the issue of timing. In August
+2017 during its consideration of Commonwealth financial statements, the
+Committee examined the issue of the timing of annual reports in the
+Parliament. The resulting report of this inquiry, Report 457: Development of
+the Commonwealth Performance Framework – Second Report, identified two
+important deadlines which it deemed required moving: that of the delivery
+of annual reports to ministers, and the tabling of annual reports in
+Parliament. It found:
+Regarding timeframes for delivery and tabling of Annual Reports, the
+Committee believes that bringing forward both of these dates, and formalising
+the required tabling date in legislation, is both viable and valuable. If
+achieved, it will provide some certainty to Senate Estimates Committees in
+particular that the important performance information in annual reports will
+be made available in a timely manner to assist scrutiny.133
+3.69 The Report recommended that the Independent Review into the Operation
+of the Public Governance, Performance and Accountability Act 2013 and
+Rule (the Review) examine ‘bringing forward the delivery and publication of
+Commonwealth entity annual reports’.134 The preference indicated by the
+Committee was that annual reports be tabled by 15 October, as opposed to
+reports being provided to the relevant Minister by that date, in order to
+ensure availability for Senate Supplementary Budget Estimates hearings.135
+132 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 15 September 2021, p. 16.
+133 JCPAA, Report 457: Development of the Commonwealth Performance Framework, May 2016, p. 11.
+134 JCPAA, Report 463, p. ix (Recommendation 6).
+135 JCPAA, Report 463, p. 12.
+REVIEW OF EVIDENCE 41
+3.70 The Review, released in September 2018, consequently examined the issue of
+the timing of annual report tabling. It found that entities raised concerns
+about attempts to move up the tabling date, including the demands on
+entities to compile vast amounts of information, increased reporting
+requirements across different sources of legislation, and the ANAO’s
+availability to provide their financial audit reports prior to an entity
+providing its report to its Minister.136 Entities were, however, of the view
+that reporting deadlines could be moved with the introduction of digital
+reporting and reduced disclosure requirements.137
+3.71 Notwithstanding these considerations, the Review ultimately agreed with
+the view expressed by the Committee and the Auditor-General that current
+arrangements do not allow for sufficient time for proper consideration prior
+to Senate Estimates hearings. The Review states:
+By the time reports are tabled, senators may only have a few days to consider
+content and information about the entities’ performance. There have been
+occasions when annual reports are tabled only after hearings are completed.
+There is little point in improving the quality of the performance information in
+annual reports, and the quality of annual reports more generally, if the
+Parliament does not get the information when it needs it. Timing is critical for
+proper accountability.138
+3.72 The Review supported the Committee’s view to legislate a due date for
+annual reports to be tabled in the Parliament, proposing that responsible
+ministers be provided with an entity’s annual report at least seven days
+prior to the tabling deadline, and that the Minister provide the annual report
+to Parliament by 30 September annually.139 In doing so, the Review
+suggested two prerequisite conditions:
+i. The implementation of a digital reporting platform;140 and
+ii. An assurance that the ANAO would be able to complete
+financial statements audits to enable entities to meet the deadline,
+suggested as mid-September.141
+136 Elizabeth Alexander AM and David Thodey AO, Independent Review into the operation of the Public
+Governance, Performance and Accountability Act 2013 and Rule (Independent Review), September
+2018, p. 40.
+137 Independent Review, p. 40.
+138 Independent Review, p. 40.
+139 Independent Review, pages 40-41 (Recommendation 30).
+140 Independent Review, p. 41 (Recommendation 31).
+42 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+3.73 Finance advised the Committee that the Australian Government agreed in
+principle to the recommendations contained in the Independent Review,
+including Recommendation 30. It stated that the Online Tabled Documents
+Project, the tool designed to address the first prerequisite condition, was
+under development by the Department of Parliamentary Services.142 No
+information was provided to the Committee in relation to the project’s
+progress. Finance stated that, once DPS had completed the project, it would
+seek to make changes to the PGPA Act and Rule to change the annual
+reporting tabling date.143
+Audit committee reporting
+3.74 As a key theme for examination, the 2020-21 Interim Report focused on
+Commonwealth entities’ compliance with new audit committee reporting
+rules. The PGPA Act and Rule requires all Commonwealth entities to have
+audit committees established and their minimum requirements.144 The
+PGPA Rule was amended on 27 February 2020 which changed the annual
+reporting requirements for Commonwealth entities’ audit committees,
+which was applicable for reporting periods on or after 1 July 2020.145
+3.75 The Auditor-General explained that the changes to the reporting rules were
+intended to:
+[E]nsure that in fulfilling their role in advising authorities around the
+preparation of financial statements and the risk framework around any
+noncompliance the advice that the accountable authorities are getting is from
+the source, which is independent from the management of the organisation.146
+3.76 After examining 182 of the 187 Commonwealth entities’ the 2019-20 annual
+reports, the ANAO determined that a number of entities did not comply
+with the amended reporting rules.147
+141 Independent Review, p. 40.
+142 Finance, Submission 2.2, p. 1.
+143 Finance, Submission 2.2, p. 1.
+144Public Governance, Performance and Accountability Act 2013, ss. 45, 92; Public Governance,
+Performance and Accountability Rule 2014, s. 17.
+145 ANAO, Interim Report, p. 14.
+146 Mr Hehir, Auditor-General, ANAO, Committee Hansard, 15 September 2021, p. 1.
+147 ANAO, Interim Report, p. 9.
+REVIEW OF EVIDENCE 43
+3.77 The ANAO stated that it found a widespread lack of understanding of what
+the Rule changes consisted of and how this was to be implemented across
+entities.148 Guidance was provided by Finance, but the ANAO stated that
+some entities experienced confusion regarding the new requirements as
+opposed to what was already practiced.149 However, the ANAO made clear
+that, in their opinion, the noncompliance was not intentional but a result of
+lack of knowledge or understanding.150
+3.78 In relation to the issue of guidance, Finance explained that it had attempted
+to provide education to entities by:
+ Releasing information in a newsletter that is released to interested parties;
+ Receiving queries to their dedicated PGPA call line and mailbox; and
+ Speaking to chairs of audit committees and financial officer forums.151
+3.79 Finance advised that it had no powers to enforce the PGPA Rule or any
+amendments in Commonwealth entities.152 It explained:
+The PGPA is a devolved framework. It is a principle based framework and
+there is a really important concept within the PGPA that we’ll refer to: the
+accountable authority. The compliance with the audit committee reporting
+requirements under the legislation and the rule is ultimately a matter [of]
+responsibility for the accountable authority, but what we do there is those
+communications and education services … to promote adherence, particularly
+in the case of the new rules.153
+3.80 Finance stated that it was continuing to deliver educational material in order
+to inform entities of their obligations, such as updating their website and
+their Resource Management Guides to incorporate more plain-English
+advice, and providing direct guidance to entities.154
+148 Mr Benfield, Executive Director, ANAO, Committee Hansard, 15 September 2021, p. 2.
+149 Mr Benfield, Executive Director, ANAO, Committee Hansard, 15 September 2021, p. 2.
+150 Mr Benfield, Executive Director, ANAO, Committee Hansard, 15 September 2021, p. 2.
+151 Mr Dilley, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 7.
+152 Mr Dilley, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 7.
+153 Mr Dilley, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 7.
+154 Mr Dilley, First Assistant Secretary, Finance, Committee Hansard, 15 September 2021, p. 7.
+44 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+Executive remuneration disclosure
+3.81 The Committee inquired into matters relating to executive remuneration,
+particularly short-term incentives. The ANAO advised that it examines the
+processes and governance mechanisms around executive remuneration and
+short-term incentives, and examines whether the decision to grant short-
+term incentives have been reflected in the entity’s accounts.155 Consideration
+of any post-event adjustments, however, are not within the ANAO’s scope
+when auditing for the CFS.156
+3.82 Finance advised the Committee that the Australian Government had
+implemented new guidelines around short-term incentives for senior
+executives employed in the Australian Public Service.157 Officers from the
+department explained that, as the guidance had been issued by the
+Australian Public Service Commission , there were ‘joint accountabilities’ in
+relation to enforcement of the new guidelines.158
+Committee comment
+3.83 Overall, the Committee is largely satisfied with the results of the
+2019-20 CFS and the 2020-21 Interim Report examined in this report. The
+reduced number of significant findings amongst Commonwealth entities
+indicates that agencies are actively addressing concerns raised by the
+Auditor-General, and improving their internal controls to ensure that
+financial statements are made free from material misstatements. Further, the
+NLC, which had a significant legislative breach found, has made clear efforts
+to rectify the situation and has taken the ANAO’s advice on how best to
+achieve this. The Committee is pleased to see this progress and looks
+forward to the breach being rectified after a long period of its remaining
+open.
+3.84 The Committee is pleased to note the ANAO’s finding that Commonwealth
+entities on the whole managed the challenges of the COVID-19 pandemic
+155 Mr Hehir, Auditor-General, and Mr Oyetunji, Acting Group Executive Director, ANAO, Committee
+Hansard, 19 August 2021, p. 6.
+156 Mr Oyetunji, Acting Group Executive Director, ANAO, Committee Hansard, 19 August 2021, p. 6.
+157 Mr Nathan Williamson, Deputy Secretary, Governance and Resource Management, Finance,
+Committee Hansard, 15 September 2021, p. 7.
+158 Mr Williamson, Deputy Secretary, Governance and Resource Management, Finance, Committee
+Hansard, 15 September 2021, p. 7.
+REVIEW OF EVIDENCE 45
+well in respect to their financial performance and management. This finding
+demonstrates the strong financial management across Commonwealth
+entities during extremely challenging times, and will inform future planning
+for risk and uncertainty. The Committee will continue to monitor how
+Commonwealth entities respond to the challenges posed by the pandemic,
+both in 2020 and in 2021.
+3.85 The Committee notes the ANAO’s findings in relation to the IT security
+controls across Commonwealth entities, and expresses its disappointment
+and concern that entities continue to fail to meet the PSPF requirements.
+Cyber resilience and the culture which enables is, remain a key concern of
+the Committee. Related inquiries conducted by the Committee illustrate the
+widespread nature of the issues identified by the ANAO. The Committee
+remains of the opinion that Commonwealth entities should strive to meet
+their obligations in relation to IT security controls, particularly the PSPF
+mitigation strategies. The Committee will continue to monitor this matter
+closely and anticipates improved results in coming reporting periods.
+3.86 The issue of how financial performance is measured and expressed has long
+been a matter of contention in the Committee’s examination of the CFS over
+a number of parliamentary terms. As discussed earlier in this chapter, the
+Committee has previously recommended that Finance implement financial
+performance ratios to assist readers of the Financial Statements to
+understand and contextualise the data provided. Finance has stated that, in
+its view, the transparency.gov.au portal meets the recommendation of the
+Committee.
+3.87 The Committee concurs with the view of the ANAO that Finance has not
+fully implemented the Committee’s request. Although the Committee
+commends Finance’s work in providing a single-access portal that enables
+users to access all Commonwealth entities’ annual reports and financial
+statements, the ratios provided in the portal do not adequately illustrate
+how an entity is performing financially.
+3.88 The Committee notes that there appears to be limited explanatory
+information on the transparency.gov.au portal. There is currently no
+guidance material in relation to what the ratios included are measuring, why
+the particular ratios used were included, how they relate to an entity’s
+financial performance, and what certain benchmarks may indicate about an
+entity’s current and future financial performance.
+3.89 While it acknowledges Finance’s concerns regarding financial performance
+ratios or benchmarks as primarily a tool best suited to the private sector, the
+46 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+Committee is of the view that financial ratios and benchmarks provide
+critical information of use to both the Parliament and the broader public.
+Ratios or benchmarks provide guidance to the Parliament and the public
+about the fiscal performance and sustainability of Commonwealth entities. It
+further provides assurance to Parliament that Commonwealth funds are
+being spent appropriately, and to understand how entities are performing
+contextually within the Commonwealth and over time.
+Recommendation 4
+3.90 The Committee recommends that the Department of Finance, as part of
+the transparency.gov.au project, develop and publish guidance material
+for users of the project which explains what the included ratios measure,
+which ratios are most important, and what particular ratio results signify.
+3.91 Timeliness of annual reporting is a topic which greatly interests the
+Parliament and this Committee. It is clear from the ANAO’s findings that
+Commonwealth entities are not all meeting the deadline for the tabling of
+their annual reports prior to Senate Estimates hearings in October each year.
+The Parliament, and particularly the Senate, cannot conduct its role
+effectively without the timely provision of information by Commonwealth
+entities. It is imperative for the oversight and accountability of the
+Parliament, and the maintenance of responsible government principles, that
+such information is available.
+3.92 The Committee notes that the Australian Government has yet to formally
+respond to the recommendations in relation to this matter made by the
+Independent Review. Further, Finance has not provided any further update
+as to when the annual tabling date will be amended, having stated that it
+will be contingent on the implementation of the Online Tabled Documents
+Project to be completed by the Department of Parliamentary Services.
+3.93 The Committee reiterates its view that the tabling date for Commonwealth
+entities’ annual reports should be moved to an earlier date in the year to
+ensure oversight can be performed with sufficient time to read the
+information contained in the reports. The Committee also holds concerns
+that entities may not take the reporting deadlines seriously given the lack of
+a legislated reporting date. As a consequence, Commonwealth entities may
+not have sufficient incentive to table their annual reports in a timely fashion
+without legislative enforcement of a tabling date. With this in mind, the
+Committee reminds entities of their commitment to their duty to the
+Parliament to provide accountability and transparency, which means
+REVIEW OF EVIDENCE 47
+providing annual reports in a timely fashion to enable full consideration at
+Senate Estimates.
+Recommendation 5
+3.94 The Committee recommends that the Department of Finance, with advice
+from the Department of Parliamentary Services, provide an update to the
+Committee within six months of this report’s tabling date that details:
+ A progress report detailing the development and implementation of
+the Online Tabled Documents Projects, including proposed roll-out
+dates; and
+ A timeline of the establishment of a new tabling date for
+Commonwealth entities, including details such as proposed
+legislative amendments and an anticipated date for introduction to
+Parliament.
+Lucy Wicks MP
+Chair
+25 March 2022
+
+A. Submissions
+1 Department of Health
+2 Department of Finance
+ 2.1 Supplementary to submission 2
+ 2.2 Supplementary to submission 2
+3 Aboriginal Hostels Limited
+4 Services Australia
+5 Department of Home Affairs
+6 National Disability Insurance Agency
+7 Australian National Audit Office
+ 7.1 Supplementary to submission 7
+ 7.2 Supplementary to submission 7
+ 7.3 Supplementary to submission 7
+8 Australian Signals Directorate
+49
+
+B. Public Hearings
+Thursday, 19 August 2021 - Canberra
+Australian National Audit Office
+ Grant Hehir, Auditor-General
+ Rona Mellor, Deputy Auditor-General
+ Jane Meade, Group Executive Director, Professional Services and
+Relationships Group
+ Bola Oyetunji, A/g Group Executive Director, Assurance Audit Services
+Group
+ Sean Benfield, Executive Director, Assurance Audit Services Group
+Wednesday, 15 September 2021 - Canberra
+Australian National Audit Office
+ Mr Grant Hehir, Auditor-General for Australia
+ Ms Rona Mellor PSM, Deputy Auditor-General
+ Mr Bola Oyetunji, A/g Group Executive Director
+ Ms Lesa Craswell, A/g Senior Executive Director
+ Mr Sean Benfield, Executive Director
+Department of Finance
+ Mr Nathan Williamson, Deputy Secretary, Governance & Resource
+Management
+ Mr Scott Dilley, First Assistant Secretary, Governance, Governance &
+Resource Management
+ Ms Tracey Carroll, First Assistant Secretary, Financial Analysis,
+Reporting and Management, Governance & Resource Management
+51
+52 REPORT 488 COMMONWEALTH FINANCIAL STATEMENTS 2019-20
+ Ms Amy Fox, Assistant Secretary, Accounting and Framework Branch,
+Financial Analysis, Reporting and Management Division, Governance &
+Resource Management
+Australian Signals Directorate
+ Ms Abigail Bradshaw CSC, Acting Director-General
+ Mrs Jessica Hunter, Acting First Assistant Director-General, Cyber
+Security Services

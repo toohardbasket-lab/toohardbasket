@@ -1,0 +1,2112 @@
+The Senate
+Education and Employment
+References Committee
+Wage theft
+© Commonwealth of Australia
+ISBN 978-1-76093-942-7 (Printed version)
+ISBN 978-1-76093-942-7 (HTML version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by Senate Printing Unit, Parliament House, Canberra.
+Members
+Chair
+Senator Maria Kovacic LP, NSW
+Deputy Chair
+Senator Marielle Smith ALP, SA
+Members
+Senator Josh Dolega ALP, TAS
+Senator Mehreen Faruqi AG, NSW
+Senator Jacinta Nampijinpa Price LP, NT
+Senator Matt O'Sullivan LP, WA
+Substitute Member
+Senator Barbara Pocock AG, SA
+(for Senator Faruqi from 1 April 2026)
+Participating Member
+Senator Fatima Payman IND, WA
+Secretariat
+Gerry McInally, Committee Secretary
+Ros Hewett, Principal Research Officer
+Jason See, Senior Research Officer
+Matthew Townsend, Administrative Officer
+PO Box 6100 T: (02) 6277 3521
+Parliament House E: eec.sen@aph.gov.au
+Canberra ACT 2600 W: www.aph.gov.au/senate_eec
+iii
+
+Contents
+Members ............................................................................................................................................. iii
+Chapter 1—Introduction .................................................................................................................... 1
+Defining wage 'theft' ............................................................................................................................ 1
+The regulatory framework .................................................................................................................. 3
+Subsection 327A(1) of the Fair Work Act .......................................................................................... 6
+Penalties ..................................................................................................................................... 7
+Safe harbour options ............................................................................................................................ 7
+Voluntary Small Business Wage Compliance Code Declaration 2024 .............................. 8
+Cooperation agreements .......................................................................................................... 8
+Potential interaction with the Criminal Code .................................................................................. 9
+Actions since the provision came into effect .................................................................................... 9
+Superannuation .................................................................................................................................. 10
+Statutory review of the Closing Loopholes Acts ........................................................................... 11
+Chapter 2—Issues raised ................................................................................................................. 13
+Challenges with measuring effectiveness ....................................................................................... 13
+Effectiveness of the criminal wage underpayment framework .................................................. 15
+Too early to tell ........................................................................................................................ 15
+Partly effective ......................................................................................................................... 16
+Limited effectiveness .............................................................................................................. 18
+Value for money ................................................................................................................................. 19
+Strengthened civil powers ................................................................................................................ 19
+Need for subsection 327A(1) ............................................................................................................ 20
+Intentional versus unintentional conduct ....................................................................................... 20
+Late payments versus wage underpayment .................................................................................. 23
+Complexity of the industrial relations system ............................................................................... 24
+Impact on small businesses .............................................................................................................. 27
+Enforcement ........................................................................................................................................ 28
+Superannuation .................................................................................................................................. 30
+Migrant workers ................................................................................................................................. 31
+Effectiveness of existing pathways to recover wages ................................................................... 32
+v
+Other issues raised ............................................................................................................................. 33
+Chapter 3—Committee view ........................................................................................................... 35
+Labor Senators' dissenting report .................................................................................................. 39
+Australian Greens' dissenting report ............................................................................................ 47
+Senator Fatima Payman's additional comments ......................................................................... 49
+Appendix 1—Submissions and additional information ........................................................... 57
+Appendix 2—Public hearings and witnesses .............................................................................. 59
+vi
+Chapter 1
+Introduction
+1.1 On 24 March 2026, the Senate referred the following matter to the Senate
+Education and Employment References Committee, for inquiry and report by
+18 June 2026:
+The extent to which the wage theft framework under the Fair Work Act 2009,
+and the operation of subsection 327A(1), has led to a decrease in the
+incidence of wage theft in Australia, and any other related matter.
+1.2 The committee advertised the inquiry on its website and invited submissions by
+23 April 2026. The committee received 30 submissions, which are listed at
+Appendix 1.
+1.3 The committee held one public hearing, in Canberra on Monday 4 May 2026. A
+list of hearing witnesses is available in Appendix 2.
+1.4 Links to public submissions, Hansard transcripts of evidence and other
+information published by the committee for this inquiry are available on the
+committee's website.
+1.5 This report comprises three chapters:
+ This chapter, which provides an overview of the criminal wage
+underpayment regulatory system;
+ Chapter Two, which outlines key issues raised in evidence; and
+ Chapter Three, which contains the committee's view on issues raised and
+recommendations.
+1.6 The committee thanks the individuals and organisations who contributed to the
+inquiry by providing written submissions, giving evidence at the public hearing
+and responding to questions on notice.
+Defining wage 'theft'
+1.7 The term 'wage theft' is not a defined concept in the Fair Work Act.1 The term
+'wage theft' is often used to refer to both deliberate and unintentional forms of
+underpayment, although not all commentators agree that 'wage theft' should be
+used to refer to unintentional underpayment.2
+1 Fair Work Ombudsman, Submission 8, p. 2.
+2 Associate Professor Tess Hardy, Director, Centre for Employment and Labour Relations Law,
+University of Melbourne, Proof Committee Hansard, 4 May 2026, p. 32; Ms Rachel Volzke, Acting Fair
+Work Ombudsman, Fair Work Ombudsman, Proof Committee Hansard, 4 May 2026, pp. 37, 41.
+1
+2
+1.8 The Fair Work Act 2009 contains a range of civil remedies, including civil
+penalties and, as of 1 January 2025, criminal penalties to address intentional
+underpayment of wages and entitlements.3
+1.9 This report uses the term wage underpayment, except when the term wage theft
+is used by submitters or witnesses.
+1.10 The committee was informed that wage underpayment continues to be an issue,
+particularly in some industries. The Fair Work Ombudsman has received the
+most requests for assistance with underpayment of wages or entitlements in the
+2025–26 financial year in accommodation and food services, construction, and
+health care and social assistance.4 Other industries evidence to the inquiry
+indicated are particularly affected included the following:
+ The security industry.5
+ The cleaning industry.6
+ The university sector.7
+1.11 Some evidence emphasised that particular cohorts may be disproportionately
+affected by wage underpayment, including:
+ Women, because of their concentration in low-paid, insecure and award-
+reliant roles, particularly in retail, hospitality, healthcare and community
+services;8
+ Young workers, who 'are consistently identified as the cohort most exposed
+to wage theft', with a third likely underpaid and a quarter not paid
+compulsory superannuation;9
+ International students, who may be unable to earn enough within the
+maximum number of hours they are legally allowed to work and may have
+3 Department of Employment and Workplace Relations, Submission 11, p. 1.
+4 Mr Anthony Fogarty, Executive Director, Policy, Fair Work Ombudsman, Proof Committee Hansard,
+4 May 2026, pp. 37–38.
+5 Mr Andrew Bourke, Submission 5, pp. 1, 3. However, the Australian Security Industry Association
+Ltd informed the committee that the majority of cases it helps its members with concern
+underpayments that are not deliberate. See Mr Bryan de Caires, Chief Executive Officer Australian
+Security Industry Association Ltd, Proof Committee Hansard, 4 May 2026, p. 1.
+6 Mr Andrew Bourke, Submission 5, p. 1.
+7 National Tertiary Education Union, Submission 10, pp. 1, 3. Some concerns alleged that casual
+employees are not allocated sufficient time for activities such as marking, while other concerns
+raised included why some university policies require academics to be working for two years at the
+level above them before they are eligible for promotion. See Dr Jessica Harris, Private capacity, and
+Dr Kathleen Smithers, Private capacity, Proof Committee Hansard, 4 May 2026, pp. 23–24.
+8 Working Women's Centre Victoria, Submission 23, pp. 4, 5; Working Women's Centre NSW,
+Submission 24, pp. 1–2, 9; Victorian Women Lawyers, Submission 25, [p. 3].
+9 Shop, Distributive and Allied Employees' Association, Submission 12, pp. 2, 5.
+3
+fear of retaliation from employers and limited understanding of workplace
+rights;10 and
+ Migrant workers, because of visa insecurity, language barriers and fear of
+engaging with authorities, with some research suggesting that over two
+thirds of migrant workers experience some form of exploitation.11
+The regulatory framework
+1.12 The Office of the Fair Work Ombudsman is responsible for promoting and
+monitoring compliance with workplace laws, inquiring into and investigating
+breaches, and taking appropriate enforcement action. The Fair Work Act
+provides the Fair Work Ombudsman with a graduated framework designed to
+deter, prevent and address wage underpayment.12
+1.13 The Fair Work Ombudsman is responsible for investigations related to the wage
+underpayment criminal offence, and for referring appropriate matters to the
+Commonwealth Director of Public Prosecutions (CDPP). Referrals to the CDPP
+can only occur if the Fair Work Ombudsman considers there is sufficient
+evidence to prove the offence and that prosecution is in the public interest, with
+regard to matters outlined in their Compliance and Enforcement Policy.13
+1.14 The Fair Work Ombudsman can also refer matters to the Australian Federal
+Police where appropriate, such as instances requiring further investigative
+assistance.14
+1.15 Factors set out in the Fair Work Ombudsman's Compliance and Enforcement
+policy that they consider when using their compliance and enforcement powers
+include:
+ The impact on the Fair Work Ombudsman's resources and costs;
+ The compliance history, sophistication and financial position of the person
+alleged to have committed the offence;
+ The impact of the alleged contraventions; and
+10 Mr Andrew Bourke, Submission 5, p. 1.
+11 Australian Nursing and Midwifery Federation, Submission 13, pp. 8–9; Working Women's Centre
+Victoria, Submission 23, pp. 4, 5; Working Women's Centre NSW, Submission 24, pp. 5–6, 8; Mr
+Mathew Kunkel, Chief Executive Officer, Migrant Workers Centre, Proof Committee Hansard, 4 May
+2026, pp. 15–16.
+12 Department of Employment and Workplace Relations, Submission 11, p. 1.
+13 Department of Employment and Workplace Relations, Submission 11, p. 4; Fair Work Ombudsman,
+Submission 8, p. 4.
+14 Department of Employment and Workplace Relations, Submission 11, p. 4; Fair Work Ombudsman,
+Submission 8, p. 4.
+4
+ Whether litigation will reduce the likelihood that others will engage in
+similar behaviour.15
+1.16 The policy stipulates that 'not all conduct potentially amounting to a criminal
+underpayment offence or a related offence must result in a referral to the
+CDPP'.16
+1.17 The Fair Work Ombudsman has other compliance powers related to wage
+underpayment, including issuing compliance notices that underpayments must
+be rectified, commencing litigation and applying to a court for an order against
+the alleged wrong-doer. Such instances may include pecuniary penalty orders,
+which provide for civil penalties to be paid to the Commonwealth or, if
+appropriate, to an impacted party, including organisations. Employees and
+employee organisations are also able to take civil action to address
+underpayments.17
+1.18 The Fair Work Ombudsman was provided $49.5 million over four years from
+2023–24 to fulfil its new role as the investigatory agency for the wage
+underpayment offence. It has established a new unit specifically for its criminal
+investigations.18 This funding supports:
+ Specially trained Fair Work Inspectors who undertake criminal
+investigations, which must be segregated from civil investigations;
+ Legal support;
+ Evidence management staff to manage physical and digital evidence and
+prosecution disclosure requirements;
+ Expert forensic technology and data analysis;
+ Calculations support to determine underpayment amounts;
+ Investigation costs related to witnesses (e.g. transcription and translation),
+evidence gathering and execution of search warrants;
+ Technology operating costs associated with a secure protected environment;
+and
+ Ongoing costs associated with staffing, equipment and property.19
+1.19 The Fair Work Ombudsman has established a Criminal Investigations Branch to
+support the implementation of the new criminal jurisdiction and to lead the
+15 Fair Work Ombudsman, Compliance and Enforcement Policy, April 2025, pp. 1, 16.
+16 Fair Work Ombudsman, Compliance and Enforcement Policy, April 2025, p. 20.
+17 Department of Employment and Workplace Relations, Submission 11, pp. 4–5.
+18 Department of Employment and Workplace Relations, Submission 11, p. 4.
+19 Fair Work Ombudsman, Submission 8, p. 5; see also Proof Committee Hansard, 4 May 2026, p. 36.
+5
+criminal investigation function going forward. The budgeted average staffing
+level for the Criminal Investigations Branch as at 31 December 2025 was 16.7.20
+1.20 The Fair Work Ombudsman informed the committee that in the majority of
+cases, it 'encourages voluntary compliance through advice, education and
+dispute assistance services'. Enforced 'compliance is reserved for the most
+serious and systemic contraventions. In such cases and where it is in the public
+interest', the Fair Work Ombudsman may commence civil proceedings to seek
+financial penalties, or referring matters for potential criminal prosecution. The
+Fair Work Ombudsman stated that a 'key purpose of enforced compliance is to
+address and deter serious forms of non-compliance and promote compliance
+with workplace laws more generally'. In particular, 'enforcement tools,
+including litigation, are primarily used when cooperative or voluntary
+approaches have failed or are inappropriate'.21
+1.21 The Fair Work Ombudsman stated that it 'has also undertaken significant work
+to educate the community about the Offence to contribute to its deterrent effect',
+including a multi-channel communications campaign, website content,
+presentation and tailored guidance material and resources.22
+1.22 Besides the introduction of the criminal wage underpayment in subsection 327A
+of the Fair Work Act (outlined below), other recent changes to the compliance
+framework in the Act include:
+ A significant increase in civil penalties for certain civil remedy
+contraventions, including breaches of the National Employment Standards
+and modern awards;
+ A lowered threshold of 'recklessness' for 'serious contraventions'; and
+ Strengthened penalties for failure to comply with a compliance notice.23
+1.23 The Australian National Audit Office conducted an audit on the effectiveness of
+the Office of the Fair Work Ombudsman's Regulatory Functions in 2024–25,
+released in April 2025, several months after the introduction of the criminal
+wage underpayment offence. The audit found the Fair Work Ombudsman was
+'largely effective in the exercise of its regulatory functions', its 'arrangements to
+encourage voluntary compliance and detect non-compliance with the Fair Work
+Act are largely effective' and its 'arrangements to enforce compliance with the
+Fair Work Act are largely effective'.24
+20 Fair Work Ombudsman, Submission 8, pp. 5, 6.
+21 Fair Work Ombudsman, Submission 8, pp. 1–2.
+22 Fair Work Ombudsman, Submission 8, p. 6.
+23 Fair Work Ombudsman, Submission 8, pp. 2–3.
+24 Australian National Audit Office, Submission 16, [p. 79].
+6
+Subsection 327A(1) of the Fair Work Act
+1.24 Subsection 327A(1) of the Fair Work Act formed part of the Fair Work Legislation
+Amendment (Closing Loopholes) Bill 2023. The bill passed both houses on 7
+December 2023 and received royal assent on 14 December 2023. The subsection
+has been in force since 1 January 2025. In short, the subsection provides for a
+criminal wage underpayment offence:
+327A Offence—failing to pay certain amounts as required
+(a) An employer commits an offence if:
+(a) the employer is required to pay an amount (a required amount) to, on
+behalf of, or for the benefit of, an employee under:
+(i) this Act; or
+(ii) (ii) a fair work instrument; or
+(iii) (iii) a transitional instrument (as continued in existence by Schedule
+3 to the Transitional Act); and
+(b) the required amount is not an amount covered by subsection (2); and
+(c) the employer engages in conduct; and
+(d) the conduct results in a failure to pay the required amount to, on behalf
+of, or for the benefit of, the employee in full on or before the day when
+the required amount is due for payment.25
+1.25 In limited circumstances, the following are excluded from being classed as an
+offence under s327A(1):
+ a contribution payable to a superannuation fund for the benefit of the
+employee; or
+ referable to the employee taking a period of long service leave; or
+ referable to the employee taking a period of paid leave that the employee
+was entitled to take by reason of being a victim of crime; or
+ referable to the employee taking a period of paid leave that the employee
+was entitled to take because the employee attended for service on a jury, or
+for emergency services duties.26
+1.26 Absolute liability (in other words, a person or organisation is held responsible
+without any need to prove fault, negligence or intention) applies to paragraphs
+(1)(a) and (b). For paragraphs (1)(c) and (d), the fault element is intention.27
+1.27 The relevant fault element is intent, and the prosecution must prove that an
+employer intended to underpay an employee.28 The offence does not apply to
+25 Fair Work Act 2009, ss 327A(1).
+26 Where either the employee is a national system employee only because of section 30C or 30M, or
+the employer is a national system employer only because of section 30D or 30 N (Fair Work Act 2009,
+ss 327A(2)).
+27 Fair Work Act 2009, ss 327A(3).
+28 Department of Employment and Workplace Relations, Submission 11, p. 2.
+7
+accidental or inadvertent underpayments or underpayments based on a genuine
+mistake by an employer.29
+1.28 According to the Department of Employment and Workplace Relations, the 'aim
+of the offence is to encourage compliance. While intended to be used as a last
+resort for the most serious offending, these criminal penalties will make
+business think more carefully about meeting their workplace obligations' and
+provide general and specific deterrence. In particular, the 'new offence was
+designed to complement the civil remedy framework which is available to
+address other forms of underpayment or non-compliance including genuine
+mistakes'.30
+1.29 There are a number of exceptions to the criminal wage underpayment offence,
+in line with certain powers that the states have not fully transferred to the
+Commonwealth. These exceptions include:
+ Superannuation;
+ Long service leave;
+ Paid leave that an employee was entitled to take because of being a victim of
+crime; and
+ Paid leave that an employee was entitled to take because of jury duty or
+emergency services duties.31
+Penalties
+1.30 Individuals convicted of the wage underpayment offence will be subject to a
+maximum of 10 years' imprisonment, and/or a maximum fine of the greater of:
+ Three times the amount of the underpayment, if the court can determine
+that amount; or
+ For an individual: 5,000 penalty units ($1,650,000); or for a body corporate:
+25,000 penalty units ($8,250,000).32
+Safe harbour options
+1.31 Employers are encouraged to self-disclose underpayments to the Fair Work
+Ombudsman through several pathways under the Fair Work Act. The Fair Work
+Ombudsman must not refer employers for criminal prosecution for wage
+underpayment if certain requirements under these pathways are met. The safe
+harbour mechanisms operate only in relation to criminal prosecution, and not
+29 Fair Work Ombudsman, Submission 8, p. 4.
+30 Department of Employment and Workplace Relations, Submission 11, p. 2.
+31 Department of Employment and Workplace Relations, Submission 11, p. 3.
+32 Department of Employment and Workplace Relations, Submission 11, p. 3.
+8
+other enforcement action, such as commencing civil penalty litigation or
+entering into an enforceable undertaking.33
+Voluntary Small Business Wage Compliance Code Declaration 2024
+1.32 The Voluntary Small Business Wage Compliance Code provides a pathway for
+small business employers to self-disclose underpayments to the Fair Work
+Ombudsman.34
+1.33 The Code stipulates that small business employers are compliant if their failure
+to pay a required amount was not intentional. Relevant matters to determine
+whether such action was not intentional include the employer:
+ Making reasonable efforts to ascertain correct rates of pay and entitlements
+for the employee;
+ Making reasonable efforts to stay up to date with the employer's obligations
+relating to the payment of applicable amounts to, on behalf of, or for the
+benefit of, the employee;
+ Considering and relying on information about the employee that the
+employer reasonably believed was accurate (such as the employee's role,
+duties, classification, relevant qualifications, age, hours of work and location
+of work) in relation to the payment of applicable amounts to, on behalf of,
+or for the benefit of, the employee;
+ Seeking information or advice from reliable sources in relation to the
+payment of applicable amounts to, on behalf of, or for the benefit of, the
+employee;
+ Providing information that the employer reasonably believed was accurate
+in seeking that information or advice;
+ Taking reasonable steps to rectify the failure to pay the applicable amount
+after becoming aware of the failure; and
+ Cooperating with any relevant inquiry or investigation by the Fair Work
+Ombudsman after becoming aware of the failure to pay the applicable
+amount.35
+Cooperation agreements
+1.34 Employers are also able to enter into cooperation agreements with the Fair Work
+Ombudsman. While the agreement is in force, the Fair Work Ombudsman must
+33 Fair Work Ombudsman, Submission 8, p. 4.
+34 Department of Employment and Workplace Relations, Submission 11, p. 2.
+35 Voluntary Small Business Wage Compliance Code Declaration 2024, ss 6(3). See also Department
+of Employment and Workplace Relations, The new wage theft criminal offence will commence on
+1 January 2025, 16 December 2024 (accessed 1 April 2026).
+9
+not refer the conduct that is subject to the agreement for criminal prosecution.
+Agreements generally would require the underpayments to be rectified.36
+Potential interaction with the Criminal Code
+1.35 The Revised Explanatory Memorandum for the Fair Work Legislation
+Amendment (Closing Loopholes) Bill 2023 stipulates that the criminal offence
+'applies to intentional conduct'.37 According to the Fair Work Ombudsman, the
+criminal offence 'doesn't include honest mistakes'.38
+1.36 However, as outlined in Chapter Two, some evidence expressed concerns that
+under subsection 12.3 of the Criminal Code Act 1995, intentionality may be
+attributed to a body corporate employer if it 'expressly, tacitly or impliedly
+authorised or permitted' an offence (including a corporate culture that directs,
+encourages, tolerates or leads to non-compliance with the relevant provision).
+Submitters argued that this may allow intention to be imputed to an employer
+that did not in fact set out to underpay, undercutting the intention-based design
+of the offence. 39
+1.37 Guidance issued by the Attorney General's Department on the Commonwealth
+Criminal Code explains that if intention is a fault element of an offence, the fault
+element may be attributed to a body corporate if the body corporate expressly,
+tacitly or impliedly authorises or allows the offence. Under s 12.3 of the Criminal
+Code, this may be established through factors related to corporate culture, not
+just direct orders from an individual. Factors relevant to proving that corporate
+culture influenced intent include:
+(a) whether authority to commit an offence of the same or a similar character
+had been given by a high managerial agent of the body corporate; and
+(b) whether the employee, agent or officer of the body corporate who
+committed the offence believed on reasonable grounds, or entertained a
+reasonable expectation, that a high managerial agent of the body corporate
+would have authorised or permitted the commission of the offence.40
+Actions since the provision came into effect
+1.38 As of 4 May 2026, the Criminal Investigations Branch of the Fair Work
+Ombudsman had assessed 39 matters. Of those 39, it had commenced four full
+36 Department of Employment and Workplace Relations, Submission 11, p. 4.
+37 Revised Explanatory Memorandum, Fair Work Legislation Amendment (Closing Loopholes) Bill
+2023, p. 2; Australian Industry Group, Submission 18, p. 7.
+38 Fair Work Ombudsman, Criminalising wage underpayments and other issues, 16 December 2024
+(accessed 26 May 2026); Australian Industry Group, Submission 18, p. 7.
+39 Australian Industry Group, Submission 18, pp. 7–10.
+40 Attorney-General's Department, The Commonwealth Criminal Code: A Guide for Practitioners: 12.3
+Fault elements other than negligence (accessed 26 May 2026).
+10
+investigations into suspected criminal conduct related to the wage
+underpayment offence, with three ongoing matters. A further seven matters are
+currently in the assessment phase. The Fair Work Ombudsman had not yet
+made any referrals to the CDPP or AFP related to the offence.41
+1.39 The Fair Work Ombudsman informed the committee that it 'is not unusual for
+new penalty regimes to take time to reach the courts, particularly in the criminal
+context… [I]nvestigations of potential criminal conduct are typically more time
+and resource-intensive due to the more stringent procedural and evidential
+requirements'. However, it noted that in its experience, 'new civil provisions can
+also take time to reach the courts'. Of note, it submitted that 'there is often
+significant effort and investment made in investigating matters that ultimately
+do not meet the threshold to proceed to court, for reasons specific to the
+circumstances of each investigation and in accordance with' its Compliance and
+Enforcement Policy.42
+1.40 The Fair Work Ombudsman (FWO) stated that over the last five years, it 'has
+increasingly seen many larger corporates, not-for-profits and other businesses
+self-report underpayments. It reported that it had received an average of 3.5
+businesses coming forward per week in the first half of 2025–26, compared with
+an average of 3.1 per week in 2024–25. Its view was:
+The continued high volume of self-reports indicates that businesses are
+actively seeking to identify and fix issues and supports the FWO's
+proposition that the majority of businesses want to make things right when
+mistakes happen. The FWO's observation is that the existence of the new
+criminal offence appears to be encouraging some businesses to take active
+steps to increase compliance (even in the absence of identified concerns),
+self-report underpayments to the FWO and put practices in place to prevent
+underpayments from reoccurring.43
+Superannuation
+1.41 Superannuation is largely regulated under separate Commonwealth legislation,
+particularly the Superannuation Guarantee, which is regulated by the
+Australian Taxation Office (ATO) rather than forming a wage underpayment
+offence investigated by the Fair Work Ombudsman.44 The ATO estimated a gap
+of around 6 per cent of the estimated theoretical Super Guarantee liability for
+the 2022–23 financial year. In other words, there is a 6 per cent gap (around $6.2
+41 Ms Michelle Carey, Group Manager, Regulatory Transformation, Fair Work Ombudsman, Proof
+Committee Hansard, 4 May 2026, p. 37; Fair Work Ombudsman, Submission 8, p. 7; Ms Rachel Volzke,
+Acting Fair Work Ombudsman, Fair Work Ombudsman, Proof Committee Hansard, 4 May 2026, p.
+40.
+42 Fair Work Ombudsman, Submission 8, p. 8.
+43 Fair Work Ombudsman, Submission 8, p. 3.
+44 See Australian Taxation Office, Super guarantee, 17 April 2026 (accessed 15 May 2026).
+11
+billion) between the ATO's estimate of superannuation that should have been
+collected on behalf of employees, and the amount that was actually collected.
+Issues the ATO identified as potentially driving the gap include late lodgement,
+Super Guarantee underpayment and incorrect application of the law.45
+1.42 Currently, employers are required to pay super contributions at least every
+three months. If contributions are late, additional charges apply. From 1 July
+2026, employers will be required to pay superannuation contributions at the
+same time as they pay employees' wages. Employees covered by the National
+Employment Standards are able to take court action under the Fair Work Act to
+recover unpaid superannuation, unless the ATO has already commenced
+proceedings in relation to that superannuation.46
+Statutory review of the Closing Loopholes Acts
+1.43 An independent statutory review of the Fair Work Legislation Amendment (Closing
+Loopholes) Act 2023 and the Fair Work Legislation Amendment (Closing Loopholes
+No. 2) Act 2024 commenced on 15 December 2025. The review was due to report
+to the Minister for Workplace Relations and Employment by 15 June 2026.47
+Preliminary findings and draft recommendations were due to be provided to
+the Minister by 15 May 2026, and the draft report was published for stakeholder
+comment on 18 May 2026.48
+1.44 The review is considering the operation of the amendments made by the Fair
+Work Legislation Amendment (Closing Loopholes) Act 2023 and the Fair Work
+Legislation Amendment (Closing Loopholes No. 2) Act 2024, including:
+ Whether the operation of the amendments is appropriate and effective;
+ Identifying any unintended consequences of the amendments; and
+ Whether any further amendments to the Fair Work Act 2009, or any other
+legislation, are needed to improve the operation of the amendments or
+rectify any unintended consequences that are identified.49
+1.45 Of relevance for this inquiry, the draft report of the review concluded that there
+were insufficient 'early indicators of possible effectiveness or unintended
+consequences' with regards to the criminal offence. As such, the draft report
+recommended:
+45 Australian Taxation Office, Latest estimate and trends for the super guarantee gap, 3 November 2025
+(accessed 15 May 2026).
+46 Fair Work Ombudsman, Tax and superannuation (accessed 15 May 2026).
+47 Department of Employment and Workplace Relations, Submission 11, p. 1.
+48 Department of Employment and Workplace Relations, Review of the Closing Loopholes Acts, 23 March
+2026 (accessed 15 May 2026).
+49 Department of Employment and Workplace Relations, Review of the Closing Loopholes Acts, 23 March
+2026 (accessed 15 May 2026).
+12
+The government should undertake a targeted early review of the operation
+of the wage theft offence and changes to the civil penalties framework
+within 1 year of publication of this report, (which will be approximately 2
+and a half years after the offence commenced). The review should consider
+the operation of the offence provisions and the appropriateness of the Fair
+Work Ombudsman's powers, as well as the Voluntary Small Business Wage
+Compliance Code and cooperation agreement provisions.
+The early review should:
+ assess the effectiveness and timeliness of the criminal wage theft offence
+and civil penalty regime in deterring and remedying underpayments
+ examine unintended consequences for employees and employers
+ assess requirements for further legislative or administrative refinements
+about evidence, interagency data-sharing and prosecutorial pathways
+ review the adequacy of resourcing, capability, interagency coordination
+and infrastructure supporting enforcement
+ consider interactions with other workplace relations reforms including
+changes to the civil penalty framework, and any impediments to recovery
+of underpayments
+ consider whether unions could work with the Fair Work Ombudsman to
+identify criminal wage theft and underpayment.50
+1.46 The draft report further proposed the Fair Work Ombudsman be required to
+annually report on its activities relating to wage theft and civil remedies for
+underpayment, including investigations, referrals for prosecution, civil
+proceedings for underpayments, and systemic underpayment and wage theft
+compliance issues identified through the Fair Work Ombudsman's work.51
+50 Susan Booth, Closing Loopholes: An Independent Statutory Review – Draft Report, 15 May 2026, p. 21.
+51 Susan Booth, Closing Loopholes: An Independent Statutory Review – Draft Report, 15 May 2026, pp. 22,
+248.
+Chapter 2
+Issues raised
+2.1 This chapter provides an overview of the issues raised in evidence to the
+inquiry, focusing particularly on views about the effectiveness of the wage
+underpayment framework in the Fair Work Act 2009 and the operation of the
+criminal offence as outlined in subsection 327A(1).
+2.2 The chapter also discusses concerns submitters and witnesses raised about the
+following areas:
+ Whether there is a need for subsection 327A(1);
+ Intentional versus unintentional conduct;
+ Late payments;
+ Complexity of the industrial relations system and how this contributes to
+wage underpayment;
+ Issues with enforcement of the wage underpayment framework;
+ Superannuation;
+ Pathways for migrant workers in particular to recover unpaid wages and
+entitlements; and
+ The effectiveness of existing pathways for employees to recover wages.
+2.3 The committee's views on these matters are set out in Chapter Three.
+Challenges with measuring effectiveness
+2.4 Associate Professor Tess Hardy and Professor John Howe submitted that it 'is
+notoriously difficult, if not impossible, to accurately measure the incidence of
+wage theft'. In particular, there are challenges with detecting some of the most
+egregious conduct, a lack of data, and even if an underpayment has been
+identified, the data generally does not reveal the knowledge or intention of the
+alleged wrongdoer.1 Associate Professor Hardy reiterated her view at the public
+hearing that 'criminal sanctions only get you so far when it comes to deterrence'.
+She further informed the committee:
+The research and evidence certainly suggest that there are other ways, which
+are possibly less appealing from a political point of view, that actually serve
+deterrence purposes very well, and that's increasing the perceived risk that
+you're going to be detected. If you are detected, you have a perceived risk
+that a sanction—even a modest sanction, such as a small fine—will be
+1 Associate Professor Tess Hardy and Professor John Howe, Submission 17, p. 2.
+13
+14
+imposed. The evidence suggests that that's the better way to deliver
+deterrence….2
+2.5 They flagged 'a growing evidence base that wage underpayment, and other
+contraventions of monetary obligations, continues to be a significant problem in
+Australia'. However, they also pointed to an 'absence of any reliable baseline
+data measuring the incidence of wage theft prior to the commencement of the
+criminal wage theft offence', arguing that as a result, 'it is not possible to
+determine whether the criminal wage theft offence has led to any decrease in
+the incidence of wage theft'.3
+2.6 Associate Professor Hardy and Professor Howe highlighted that some research
+questions the assumptions underpinning deterrence, submitting that 'many
+studies have found that compliance (or non-compliance) may be driven or
+perpetuated by a range of different drivers', including social norms, lack of
+awareness of relevant laws, or a lack of necessary resources to ensure
+compliance. However, they also acknowledged that 'the introduction of
+significant penalties – both civil and criminal – can have deterrence effects in
+and of themselves', noting that 'it is the belief that duty-holders have of the
+likelihood and degree of punishment which is crucial in shaping compliance
+decisions'.4
+2.7 They conducted a 2025 survey themselves to examine business awareness of,
+and responses to, FWO enforcement activities. The most common response was
+businesses had reviewed their systems to ensure compliance. Almost 90 per cent
+of businesses surveyed identified reputational concerns as an important factor
+in encouraging changes to their compliance procedures, while 64 per cent
+identified additional penalties for serious contraventions as either important or
+extremely important in prompting changes to their compliance procedures.5
+2.8 Associate Professor Hardy and Professor Howe concluded that the FWO's
+approach 'appears to be largely in line with best practice models of enforcement,
+including responsive regulation and strategic enforcement'. They were of the
+view that 'a regulatory mix, which includes, but is not confined to, criminal
+prosecution for wage theft, arguably provides the most effective avenue for
+promoting compliance'.6
+2.9 Associate Professor Hardy and Professor Howe argued that amending elements
+of the criminal wage underpayment offence in s 327A prior to any judicial
+2 Associate Professor Tess Hardy, Director, Centre for Employment and Labour Relations Law,
+University of Melbourne, Proof Committee Hansard, 4 May 2026, p. 29.
+3 Associate Professor Tess Hardy and Professor John Howe, Submission 17, p. 3.
+4 Associate Professor Tess Hardy and Professor John Howe, Submission 17, pp. 3–4, 5.
+5 Associate Professor Tess Hardy and Professor John Howe, Submission 17, p. 4.
+6 Associate Professor Tess Hardy and Professor John Howe, Submission 17, p. 5.
+15
+consideration of the offence and its application to wage underpayment 'is
+premature and unjustified'.7
+2.10 As noted in Chapter One, the Australian National Audit Office conducted an
+audit on the effectiveness of the Office of the Fair Work Ombudsman's
+Regulatory Functions in 2024–25, released in April 2025, several months after
+the introduction of the criminal wage underpayment offence. The audit found
+the Fair Work Ombudsman was 'largely effective in the exercise of its regulatory
+functions', its 'arrangements to encourage voluntary compliance and detect non-
+compliance with the Fair Work Act are largely effective' and its 'arrangements to
+enforce compliance with the Fair Work Act are largely effective'.8
+Effectiveness of the criminal wage underpayment framework
+2.11 The primary question before this committee was whether the criminal wage
+underpayment framework under the Fair Work Act, and the operation of
+subsection 327A(1), has led to a decrease in the incidence of wage underpayment
+in Australia.
+Too early to tell
+2.12 The Fair Work Ombudsman noted that there are challenges with measuring the
+impact of the criminal offence on the incidence of wage underpayment, given
+the term 'wage theft' is often applied to a range of underpayment scenarios, and
+data on rates of non-compliance with workplace laws is not readily available.
+They informed the committee that 'it's probably too soon to make an objective
+assessment as to whether or not the introduction of the offence itself has led to
+a decrease in the incidence of wage theft'. However, they did point to anecdotal
+evidence suggesting 'employers are really investing in trying to make sure that
+they are getting payments to their employees right'.9
+2.13 The Fair Work Ombudsman stated that 'it is not unusual where there is the
+commencement of a new provision… for there to be a period of time before a
+matter progresses to a referral', particularly in the context of the Fair Work Act.
+They further pointed to Victoria, telling the committee that after a wage theft
+offence was introduced there, 'it was some 17 months before those proceedings
+were commenced. Importantly as well, there wasn't the interposing of a referral
+to the [Commonwealth Director of Public Prosecutions] or the [Australian
+Federal Police] to actually commence those proceedings'.10
+7 Associate Professor Tess Hardy and Professor John Howe, Submission 17, p. 6.
+8 Australian National Audit Office, Submission 16, [p. 79].
+9 Fair Work Ombudsman, Submission 8, p. 8; Ms Rachel Volzke, Acting Fair Work Ombudsman, Fair
+Work Ombudsman, Proof Committee Hansard, 4 May 2026, p. 35.
+10 Ms Michelle Carey, Group Manager, Regulatory Transformation, and Ms Rachel Volzke, Acting
+Fair Work Ombudsman, Fair Work Ombudsman, Proof Committee Hansard, 4 May 2026, pp. 37, 39.
+16
+2.14 The Fair Work Ombudsman also noted 'an uptick' in businesses self-reporting
+underpayments, and viewed this as evidence 'that employers are investing to
+make sure that they are doing the right thing and paying their employees
+correctly'. They reported that this uptick was on track to be almost double the
+average number of self-reports the Fair Work Ombudsman received in 2021 per
+week.11
+2.15 The Fair Work Ombudsman told the committee that access to Single Touch
+Payroll data would 'make a big difference' and give them 'real-time ability to see
+how employees are being paid'.12 Single Touch Payroll requires employers to
+report salaries and wages, PAYG withholdings and superannuation liability
+information to the Australian Taxation Office, when they run their payroll.13
+2.16 Some submitters and witnesses considered that it is too early to draw any
+conclusions about the effectiveness of subsection 327A(1).14 For example, the
+Western NSW Community Legal Centre submitted that 'given the relatively
+recent commencement of the criminal provisions on 1 January 2025, it is not yet
+possible to meaningfully assess whether these reforms have resulted in a
+measurable reduction in the incidence of wage theft'. However, they noted that
+in their experience, 'wage underpayment continues to arise in practice,
+particularly for vulnerable workers'.15
+2.17 The Australian Industry Group acknowledged that no criminal matters had
+been referred before they made their submission, submitting that it 'is therefore
+not yet possible to analyse the operation of the wage theft amendments or to
+evaluate their appropriateness or effectiveness in statistical or evidential terms'.
+They called for the criminal amendments to 'be repealed in their entirety'.16
+Partly effective
+2.18 Working Women's Centre Victoria considered that the introduction of criminal
+wage underpayment provisions 'may have increased awareness among some
+employers and prompted greater attention to compliance… particularly in
+higher-risk sectors'. Their lawyers reported that 'referencing potential criminal
+11 Ms Rachel Volzke, Acting Fair Work Ombudsman, Fair Work Ombudsman, Proof Committee
+Hansard, 4 May 2026, p. 38.
+12 Ms Rachel Volzke, Acting Fair Work Ombudsman, Fair Work Ombudsman, Proof Committee
+Hansard, 4 May 2026, p. 41.
+13 Australian Taxation Office, What STP is, 1 September 2021 (accessed 19 May 2026).
+14 For example, Dr Kathleen Smithers, Associate Professor Jess Harris, Professor Troy Heffernan, Dr
+Sarah Gurr and Mr Sean Groth, Submission 6, p. 1; Australian Council of Trade Unions, Submission
+22, p. 7.
+15 Western NSW Community Legal Centre, Submission 4, p. [1].
+16 Australian Industry Group, Submission 18, p. 10.
+17
+consequences in a Letter of Demand can strengthen its impact and signal the
+seriousness of non-compliance'. However, they suggested 'this effect may
+diminish over time'.17
+2.19 Working Women's Centre Victoria argued that the 'high evidentiary threshold,
+reliance on worker reporting and limited enforcement capacity mean that most
+wage underpayment will continue to go undetected and unprosecuted –
+particularly for migrant workers who may be unable to safely come forward'.
+Working Women's Centre Victoria were of the view that criminalisation by itself
+'is not sufficient to address the systemic nature of wage theft', and
+'complementary structural reforms to improve reporting, enforcement and
+accessible recovery pathways' are needed.18
+2.20 The National Tertiary Education Union (NTEU) observed that 'there has been
+little to no utilisation of s 327A since it commenced operation'. They
+acknowledged that the subsection 'has likely had some deterrence effect insofar
+as NTEU has detected decreases in reported wage theft'; however, 'systemic
+underpayments remain endemic to the higher education sector'. In particular:
+we consider that section 327A serves the broader and important purpose of
+deterrence and has, inter alia, likely contributed to a reduction in the
+occurrence of wage theft, at least in the higher education sector.19
+2.21 Conversely, the Australian Security Industry Association Ltd suggested that
+criminalisation is not entirely a deterrent 'because you have to make sure that
+people know what their mistakes are before criminalisation… If they don't
+know, they're going to make them, irrespective of the criminalisation
+deterrent'.20
+2.22 The Australian Nursing and Midwifery Federation (ANMF) considered that the
+'wage theft laws have likely had a positive effect in that employers may have
+improved their practices in terms of avoiding unintentional underpayments,
+and others may be less likely to engage in intentional underpayments to avoid
+criminal liability'. However, the ANMF argued that 'there is no evidence that
+underpayments and wage theft practices have been eradicated since 1 January
+2025'.21
+17 Working Women's Centre Victoria, Submission 23, p. 7.
+18 Working Women's Centre Victoria, Submission 23, pp. 4, 7.
+19 National Tertiary Education Union, Submission 10, pp. 1, 5.
+20 Ms Maria Rigas, Senior Workplace Relations Advisor, Australian Security Industry Association
+Ltd, Proof Committee Hansard, 4 May 2026, p. 5.
+21 Australian Nursing and Midwifery Federation, Submission 13, p. 6.
+18
+Limited effectiveness
+2.23 Some submitters considered that the criminalisation of wage underpayment has
+not translated into meaningful improvements for workers or enforcement
+outcomes.22
+2.24 Working Women's Centre NSW reported that data from JobWatch, an
+employment rights community legal centre assisting workers in Victoria,
+Queensland and Tasmania, indicate there has been no decrease in the
+percentage of underpayment-related matters since wage underpayment was
+criminalised in early 2025. They reported that according to their NSW solicitors,
+there had been no change in the frequency of underpayment matters in this
+time.23
+2.25 The United Firefighters Union of Australia raised concerns about the
+effectiveness of subsection 327A(1) in the year it has been in effect. They pointed
+to reporting indicating that 'it has only led to a handful of investigations and no
+prosecution of wage theft offences', arguing that these 'do not reflect a
+monumental reduction in wage theft in Australia'. The Union considered
+'current laws need reform to ensure they are effective in prosecuting the
+thousands of instances of wage theft that we know to be occurring in Australia
+year on year', calling for specific focus on 'whether the high standard for
+prosecution is a determinative factor in limiting the law's effectiveness'.24
+2.26 The SDA argued that the 'magnitude and persistence of recoveries' of unpaid
+wages 'indicate that underpayment remains routine in many sectors', arguing
+that 'the criminalisation of wage theft on 1 January 2025 does not yet appear to
+have changed employer behaviour'. They acknowledged, however, 'that these
+provisions, in legislative terms, are relatively new'.25
+2.27 The Victorian Trade Hall Council and the Young Workers Centre were of the
+view that 'the way the wage theft is currently drafted is not having the desired
+deterrent effect'. They called for the intentional fault element to be replaced with
+dishonesty, or for a recklessness-based offence to be introduced. They also
+22 See also the Shop, Distributive and Allied Employees' Association (SDA), who submitted that 'the
+criminalisation of wage theft has not yet led to a material reduction in underpayment', particularly
+in certain sectors. The SDA was of the view that the requirement for proof of intentional or
+reckless conduct 'creates a high evidentiary threshold that is poorly suited to the most common
+forms of underpayment' (Shop, Distributive and Allied Employees' Association, Submission 12, pp.
+2, 5–6, 13).
+23 Working Women's Centre NSW, Submission 24, pp. 2, 3.
+24 United Firefighters Union of Australia, Submission 9, pp. 2, 3.
+25 Shop, Distributive and Allied Employees' Association, Submission 12, p. 4.
+19
+raised the proposal of automatic disqualification of convicted company
+directors from being able to manage corporations.26
+Value for money
+2.28 Others questioned whether wage underpayment investigations are achieving
+value for money.27 The Australian Chamber of Commerce and Industry (ACCI)
+pointed to the limited number of investigations undertaken since the offence
+commenced (four full investigations, and no referrals to the CDPP or AFP as at
+the date of the hearing) in questioning whether the resources allocated to the
+criminal function, including the $49.5 million in funding and the budgeted
+staffing level of 16.7, 'represent… general value for money to the Australian
+taxpayer'.28 In ACCI’s view, the Commonwealth could find 'better ways … to
+spend $50 million and better ways for the [Fair Work Ombudsman] to deploy
+the expertise of the 16.7 people' engaged in that function.29
+Strengthened civil powers
+2.29 Associate Professor Hardy was of the view that there is 'scope for further
+expansion of the compliance notice regime', arguing that there 'really hasn't
+been much discussion around the extent to which inspectors should be
+authorised to issue a compliance notice which requires rectification of the
+underpayment or an audit of the workforce to ensure that no underpayments
+are occurring' for other workers besides those who have complained. Further,
+'there is also scope for thinking about to what extent inspectors should be
+authorised to issue penalties associated with those compliance notices' and 'for
+compliance notices to be strengthened in some way', given 'compliance notices
+do no more than require the employer to rectify the underpayment which
+should have been paid in the first place'.30
+2.30 She noted that 'it's not uncommon for employers to not cooperate when a
+compliance notice is issued or to drag out the investigation or proceedings by
+not responding'. She proposed penalties for no responses or late payments,
+26 Victorian Trade Hall Council and the Young Workers Centre, Submission 20, pp. 7–8.
+27 Senator Fatima Payman, Submission 3, pp. [2–3].
+28 Mr Shaun Schmitke, Head, Workplace Relations Policy, Australian Chamber of Commerce and
+Industry, Proof Committee Hansard, 4 May 2026, p. 15.
+29 Mr Shaun Schmitke, Head, Workplace Relations Policy, Australian Chamber of Commerce and
+Industry, Proof Committee Hansard, 4 May 2026, p. 20.
+30 Associate Professor Tess Hardy, Director, Centre for Employment and Labour Relations Law,
+University of Melbourne, Proof Committee Hansard, 4 May 2026, p. 30.
+20
+along with strengthened powers for inspectors and others authorised to issue
+compliance notices by attaching penalties in appropriate circumstances.31
+Need for subsection 327A(1)
+2.31 Some evidence questioned the need for the subsection 327A(1). The Auctioneers
+and Valuers Association of Australia (AVAA) suggested that despite subsection
+327A(1) introducing a criminal offence, 'it operates within a broader compliance
+framework in which most underpayments continue to be addressed through
+civil remedy provisions'.32
+2.32 The AVAA did not support the current framing and operation of subsection
+327A(1), informing the committee that they had no evidence 'that
+underpayment is a systemic issue within the auction and valuation sectors'. In
+particular:
+While there may have been some uplift in overall awareness of compliance
+obligations, this does not alter the underlying position that the framework
+has been introduced in the absence of a clearly identified problem in our
+sector and without addressing the more fundamental issue of complexity in
+the modern award system.33
+2.33 The AVAA argued that this 'complexity poses a significant risk of inadvertent
+error, even when employers act in good faith and seek compliance'. They also
+suggested that 'criminalisation may undermine businesses' willingness to
+voluntarily identify and correct mistakes'.34
+2.34 Others, however, were in favour of the criminal offence. For example, the
+Australian Higher Education Industrial Association was of the view that
+deliberate 'and intentional underpayment of Australian workers should
+properly be a criminal offence'.35
+Intentional versus unintentional conduct
+2.35 The Fair Work Ombudsman (FWO) told the committee that 'the offence does not
+capture inadvertent conduct, mistakes or accidents. It relates to where an
+employer has engaged in conduct to intentionally underpay their workers'.36
+31 Associate Professor Tess Hardy, Director, Centre for Employment and Labour Relations Law,
+University of Melbourne, Proof Committee Hansard, 4 May 2026, p. 30.
+32 Auctioneers and Valuers Association of Australia, Submission 2, p. 1.
+33 Auctioneers and Valuers Association of Australia, Submission 2, pp. 1–2.
+34 Auctioneers and Valuers Association of Australia, Submission 2, pp. 2, 3.
+35 Australian Higher Education Industrial Association, Submission 26, p. 1.
+36 Ms Megan Cooper, Executive Director, Criminal Investigations, Fair Work Ombudsman, Proof
+Committee Hansard, 4 May 2026, p. 40.
+21
+2.36 However, the AVAA suggested the current legislation may not clearly
+distinguish between intentional and unintentional conduct. They considered
+that criminal 'penalties should be clearly confined to conduct involving
+intentional or knowing non-compliance with statutory obligations' and 'not
+extend, in practice or perception, to situations where underpayments arise from
+genuine mistakes, misunderstandings, or administrative shortcomings'. They
+called for 'greater clarity in regulatory guidance and enforcement practice' to
+'help ensure that this distinction is consistently applied and understood'.37
+2.37 The Australian Security Industry Association reported that in most cases where
+they assist their members, 'underpayments are not deliberate, but they arise
+from ambiguity in the system, contested interpretations, payroll systems that
+have limitations in tracking this, and an ongoing evolution of industrial
+instruments'. They expressed concern that 'the current criminal framework risks
+blurring the line between intentional theft and compliance failure, particularly
+through the broad attribution of intention to corporations based on culture or
+systems deficiencies'.38
+2.38 Conversely, the Western NSW Community Legal Centre considered that the
+'focus on intentional conduct appropriately distinguishes between deliberate
+underpayment and inadvertent error', while acknowledging that 'the practical
+effectiveness of subsection 327A(1) depends on the ability of workers to identify
+and report underpayment, access legal advice and effectively navigate
+enforcement processes'.39
+2.39 Dr Kathleen Smithers, Associate Professor Jess Harris, Professor Troy
+Heffernan, Dr Sarah Gurr and Mr Sean Groth argued that subsection 327A(1)
+'creates a high evidentiary threshold to recognise wage theft, which may limit
+the application of this clause in sectors where underpayment arises through
+diffuse and institutionalised practices rather than clearly identifiable and
+deliberate acts'. They suggested that in the higher education sector in particular,
+'many forms of underpayment arise in ways that are difficult to characterise as
+deliberate breaches'; rather, 'they are embedded in organisational practices that
+position unpaid labour as voluntary, expected, or necessary for career
+progression'.40
+37 Auctioneers and Valuers Association of Australia, Submission 2, p. 3.
+38 Mr Bryan de Caires, Chief Executive Officer, and Ms Maria Rigas, Senior Workplace Relations
+Advisor, Australian Security Industry Association Ltd, Proof Committee Hansard, 4 May 2026, p. 1.
+39 Western NSW Community Legal Centre, Submission 4, p. [2].
+40 Dr Kathleen Smithers, Associate Professor Jess Harris, Professor Troy Heffernan, Dr Sarah
+Gurr and Mr Sean Groth, Submission 6, pp. 1–2.
+22
+2.40 The Australian Higher Education Industrial Association called for a clear
+distinction between intentional criminal conduct and compliance error to be
+maintained.41
+2.41 The Australian Industry Group noted that according to the Revised Explanatory
+Memorandum for the legislation introducing the criminal offence, the offence
+would only apply to intentional conduct and, according to the Fair Work
+Ombudsman, this does not include honest mistakes. However, they pointed to
+section 12.3(1) of the Criminal Code, submitting that '“intention” may be
+attributed to a body corporate employer if it “expressly, tacitly or impliedly
+authorised or permitted the offence'. The Australian Industry Group also
+flagged that the Attorney General's Department has noted that in instances
+involving corporate culture, fault can be imputed where a corporation has a
+corporate culture that directs, encourages, tolerates or led to non-compliance, or
+fails to create or maintain a culture that required compliance.42
+2.42 The Australian Industry Group concluded that as it currently stands, liability
+for a corporate employer for the wage underpayment offence (specifically in
+terms of senior management) could be interpreted as 'largely [depending] on
+whether it had adequate governance, payroll controls, training, auditing and
+escalation pathways'. They argued:
+This systems-based focus is inconsistent with the stated object of the
+criminal offence and its intention-focused drafting. Instead, it appears to
+instead inappropriately provide for negligence-based culpability
+framework.43
+2.43 As such, the Australian Industry Group called for the link between 'intention'
+and deliberate authorisation to 'be tightened and the due diligence framework
+[to] be extended so that any culture-based attribution does not operate as a back
+door negligence standard'. They further suggested this 'could be achieved by
+additionally requiring proof of intention through board/high managerial
+authorisation when considering if an organisation has or does not have a
+compliant corporate culture'. Alternatively, they suggested that 'if culture-based
+attribution remains available as a basis to impute intention', a clear due-
+diligence offence should be applied to the relevant sections of the Criminal Code
+'so that corporations making genuine attempts to build and maintain
+compliance systems are not treated as having an “intended” underpayment if
+the culture is deficient despite their best endeavours'.44
+41 Australian Higher Education Industrial Association, Submission 26, pp. 9–10.
+42 Australian Industry Group, Submission 18, p. 8.
+43 Australian Industry Group, Submission 18, pp. 8–9.
+44 Australian Industry Group, Submission 18, p. 9.
+23
+Late payments versus wage underpayment
+2.44 Some submitters questioned whether late payments would be classed as wage
+underpayment. The Australian Industry Group expressed concerns that section
+327A is 'drafted so broadly that it captures not only deliberate non-payment, but
+also intentional late payment'. They flagged that 'operational timing failures…
+may occur when wages are delayed for a short period while funds clear', but
+these could still be captured by the criminal wage underpayment offence.45
+2.45 The Australian Industry Group submitted that, from 'an employer's perspective,
+a late payment that is followed by full rectification is a temporary deprivation',
+proposing that 'the criminal offence be confined to intentional permanent
+deprivation (or its practical equivalent). This would then leave late payment as
+still being unlawful and subject to significant penalties as a contravention of the
+relevant civil remedy provisions'.46
+2.46 The Australian Chamber of Commerce and Industry also raised concerns about
+the criminal provision capturing late payments. They were of the view that 'the
+provisions, if they are to remain, should be focused on conduct that seeks to
+intentionally and permanently deprive somebody of a payment to which they
+are entitled, not merely a late payment'. Mr Shaun Schmitke of the Australian
+Chamber of Commerce and Industry provided further detail on the Chamber's
+concerns:
+So if the payroll cycle says that the employee gets paid weekly and, for
+whatever reason, an employer is prevented from paying that employee on
+that particular day, whether it's a payroll issue, whether there's some
+problem with the business—if they have a power cut or something like
+that—if they're a day late, technically that can trigger the criminal offence
+under section 327A(1). That is concerning to a lot of employers. The impact
+of that is that a lot of employers have this heavy cloud hanging over their
+heads—that one potential late payment could result in them suffering
+penalties of up to over $8 million or potentially 10 years in jail. I'm sure the
+FWO will tell you later today that it's not the intention to capture that
+conduct. But that's the way the legislation is written at the moment, and
+that's the concern we have with it.47
+2.47 Mr Schmitke suggested 'there should be some sort of timeframe if an employee
+is not paid within a particular point in time' and, further, 'there should be an
+element in the offence that requires there to be an intention of the employer to
+permanently deprive the employee of that benefit and take something away
+45 Australian Industry Group, Submission 18, p. 9.
+46 Australian Industry Group, Submission 18, p. 9.
+47 Mr Shaun Schmitke, Head, Workplace Relations Policy, Australian Chamber of Commerce and
+Industry, Proof Committee Hansard, 4 May 2026, pp. 15, 17.
+24
+from them as opposed to delaying it for reasons beyond the employer's
+control'.48
+Complexity of the industrial relations system
+2.48 Some evidence argued that the main cause of underpayments in some sectors is
+the complexity and ambiguity of awards and enterprise agreements, with even
+courts and regulators struggling to interpret provisions to determine what
+entitlements are owed to employees.49 For example, the Australian Chamber of
+Commerce and Industry pointed to 'the increasingly complex, confusing and
+unwieldly nature of the fair work system and the significant difficulties this
+creates for business, particularly small business, to achieve and maintain
+compliance with the law'. Their Head of Workplace Relations Policy suggested
+there are more than 1,000 permutations of pay that can be made in any one week
+under the general retail award, 'so it's extraordinarily difficult to comply with'.50
+2.49 Dr Anthony Forsyth from the Australian Council of Trade Unions noted that in
+cases of government departments and other organisations that have
+unintentionally underpaid staff, 'these show that even organisations with the
+best intentions can get things wrong, and there's always some complexity in the
+interpretation of statutory provisions, the Fair Work Act, and the terms of awards
+and enterprise agreements'. However, he also noted that there are 'many tools
+available to help businesses ensure they get it right'.51
+2.50 Associate Professor Tess Hardy noted that Australia's workplace relations
+system 'is not the simplest system' compared with other countries. However,
+she considered 'the complexity is also an important feature of our system in the
+way in which it ensures protection, particularly for vulnerable workers'. She
+argued that 'one way to minimise or avoid some of the complexity associated
+with the modern award system… would be to negotiate an enterprise
+agreement'. She further argued that in many industries, 'many businesses are
+able to comply with other complex laws—whether it's tax laws or corporate
+laws—because they recognise the significance of noncompliance with those
+laws'.52
+48 Mr Shaun Schmitke, Head, Workplace Relations Policy, Australian Chamber of Commerce and
+Industry, Proof Committee Hansard, 4 May 2026, p. 17.
+49 Australian Higher Education Industrial Association, Submission 26, p. 3. See also Auctioneers and
+Valuers Association of Australia, Submission 2, pp. 1, 2.
+50 Mr Shaun Schmitke, Head, Workplace Relations Policy, Australian Chamber of Commerce and
+Industry, Proof Committee Hansard, 4 May 2026, pp. 15, 19.
+51 Dr Anthony Forsyth, Senior Legal Officer, Australian Council of Trade Unions, Proof Committee
+Hansard, 4 May 2026, p. 13.
+52 Associate Professor Tess Hardy, Director, Centre for Employment and Labour Relations Law,
+University of Melbourne, Proof Committee Hansard, 4 May 2026, pp. 33, 34.
+25
+2.51 The Australian Security Industry Association noted that since the closing
+loopholes amendments, 'the workplace relations environment has become a
+little bit more complicated, and that's particularly so for the security sector…
+We have seen that small payroll or classification errors can very quickly escalate
+into underpayment, despite efforts to comply'. In particular, they flagged that
+some members 'have felt a bit overwhelmed because obviously there has been a
+lot of change over the last 18 months'. They reported that in their experience, the
+majority of underpayments in the security industry arise from confusion or
+misinterpretation.53
+2.52 The Australian Industry Group noted that for many employers, including larger
+organisations, determining rates of pay is not a straightforward exercise,
+arguing that the 'combination of modern awards, enterprise agreements and
+legislated entitlements brings about a highly complex and difficult to comply
+with set of payment rules, with the interpretation of particular entitlements
+often being contested on the basis that they are ambiguous or uncertain'. They
+submitted that the 'ABC, leading global charities, our universities, major
+employers, and even the Department of Employment and Workplace Relations
+are unlikely to have sought to deliberately deprive their employees, yet each has
+been embroiled in high profile and significant underpayments'.54
+2.53 In the example of the Department of Employment and Workplace Relations
+mentioned above, the Department in 2023 underpaid 99 staff and paid around
+$200,000 to rectify the issue. The Department self-reported to the Fair Work
+Ombudsman in 2023. The Department of Finance in 2021 also confirmed that it
+had underpaid 60 parliamentary employees over four years.55
+2.54 In June 2020, the Fair Work Ombudsman reported that the Australian
+Broadcasting Corporation (ABC) had entered into an enforceable undertaking
+with the Fair Work Ombudsman and paid back over $11.9 million to more than
+1,800 current and former casual staff.56
+2.55 The Australian Industry Group argued that the 'workplace relations system is
+failing when private and public sector organisations are genuinely committed
+to complying with the law and invest considerable time, effort, and resources to
+do so, but nonetheless find themselves non-compliant, often due to errors in
+applying detailed, contestable or obscure legislative, award or agreement
+obligations'. They suggested that laws 'which cannot reliably be navigated and
+53 Mr Bryan de Caires, Chief Executive Officer, Australian Security Industry Association Ltd, Proof
+Committee Hansard, 4 May 2026, pp. 1, 2, 3.
+54 Australian Industry Group, Submission 18, pp. 2, 3, 5.
+55 ABC News, 'Federal department responsible for workplace and employment conditions admits to
+underpaying staff', ABC News, 26 October 2023 (accessed 26 May 2026).
+56 Fair Work Ombudsman, ABC signs Enforceable Undertaking, 19 June 2020 (accessed 26 May 2026).
+26
+complied with where an organisation genuinely endeavours to do so need to be
+urgently reviewed', submitting that this inquiry 'is an opportunity to genuinely
+engage with what leads to underpayments, and whether the criminalisation of
+a subset of non-compliant activities will likely be an effective or fair solution to
+the problem'. In particular:
+Structural changes to the law need to be considered in order to ensure that
+our system is actually realistically able to be complied with by all
+employers.57
+2.56 The Australian Industry Group considered that there is 'no way to reliably
+ascertain the extent to which non-compliance is a product of the kind of
+intentional behaviour targeted by the new provisions'. They questioned 'the
+utility of focussing on the specific and indefensible wrong of calculated or
+deliberate underpayments, while ignoring the systematic root causes of non-
+compliance', i.e. a complex workplace relations system. They considered that the
+'development of measures to genuinely simplify and modernise our workplace
+relations system would likely make a far more significant contribution to
+improved compliance than a new penalty regime'.58
+2.57 In light of the above, the Australian Industry Group asked the committee to
+recommend that the Australian Government consider repealing the wage
+underpayment offence, contending that criminalising 'outcomes that inevitably
+flow from this substantial complexity creates a significant risk of blurring the
+line between deliberate wage theft and compliance error'.59
+2.58 The Australian Industry Group also pointed to the example of the Fair Work
+Ombudsman's interpretation of the Social, Community, Home Care and
+Disability Services (SCHADS) Industry Award 2010 'sleepover provisions'. The
+Fair Work Commission in 2025 decided to vary the SCHADS Award to provide
+greater clarity about how sleepover shifts are to be structured and paid.60
+However, the Australian Industry Group noted that many employers have
+adopted the Fair Work Ombudsman's 'erroneous interpretation… for fear of
+being exposed to crippling penalties and underpayment claims if they did not'.
+They suggested that this 'example demonstrates the risk of only addressing
+compliance challenges through imposing ever increasing penalties'.61
+2.59 The AVAA argued that criminal sanctions do not simplify the 'primary driver
+of non-compliance', i.e. 'the complexity of the industrial relations system,
+57 Australian Industry Group, Submission 18, pp. 2, 3.
+58 Australian Industry Group, Submission 18, pp. 10–11.
+59 Australian Industry Group, Submission 18, p. 7.
+60 For example, Australian Business Lawyers & Advisors, 'Changes to “sleepover” shift rules under
+SCHADS Award', 16 January 2026 (accessed 26 May 2026).
+61 Australian Industry Group, Submission 18, p. 3.
+27
+particularly the modern award framework'. As such, the AVAA considered that
+criminal sanctions 'are unlikely to have materially reduced the incidence of
+underpayment'. The AVAA suggested simplification of 'the award system,
+including clearer and more accessible classification structures and guidance on
+coverage, would materially reduce the risk of error'. They further proposed
+targeted, sector-specific guidance and strengthening of preventative measures,
+including education, tools and support for compliance.62
+2.60 The Australian Retail Council similarly noted that workplace 'regulations,
+including payroll compliance obligations on Australian employers, are
+increasingly complex and becoming more so', pointing to complexity and
+uncertainty as (among) the underlying causes of payroll non-compliance. They
+submitted that in their 'experience, conduct which is accidental arises in sectors
+where workplace obligations are unusually complex'. They noted that
+understandings of industrial settings 'are also often reasonably contested,
+adding to overall complexity and reducing operational certainty for retailers'.63
+2.61 The Australian Retail Council pointed out that the 'complexity can also result in
+overpayments, further illustrating that these issues are often driven by system
+and framework complexity rather than deliberate misconduct'. They considered
+that prosecutions and criminal penalties 'alone are unlikely to materially reduce
+the incidence of payroll errors in practice', arguing that 'a stronger penalty at the
+back end is not a substitute for a simpler and more workable compliance
+framework at the front end'. The Council called for 'a reduction in complexity in
+workplace regulations and a focus on measures that support compliance'.64
+2.62 The Australian Higher Education Industrial Association referred to a recent
+Federal Court case demonstrating difficulties in applying enterprise agreement
+provisions in practice, arguing that the 'case serves to reinforce that the primary
+driver of underpayments within the higher education system is structural
+complexity and interpretive difficulty – not deliberate or intentional conduct'.
+They considered that long 'term resolution of underpayments will require
+simplification of enterprise agreements'. They also called for legislative reform
+to ensure that 'the Fair Work Commission has clear and effective arbitral
+capacity to resolve intractable matters where necessary'.65
+Impact on small businesses
+2.63 On the matter of the impact of the criminal provision on small businesses, the
+Australian Chamber of Commerce and Industry considered that the Voluntary
+62 Auctioneers and Valuers Association of Australia, Submission 2, pp. 3, 4.
+63 Australian Retail Council, Submission 19, pp. 1, 2.
+64 Australian Retail Council, Submission 19, p. 2.
+65 Australian Higher Education Industrial Association, Submission 26, pp. 3, 8.
+28
+Small Business Wage Compliance Code Declaration 2024 'does not appear to
+create any more protection for small businesses than would otherwise be
+relevant when considered for medium and large size businesses in the context
+of a criminal prosecution'.66 ACCI called for consideration to be given to
+improving the Code's operation.67
+2.64 The Australian Industry Group, as noted above, pointed to examples of large
+employers like the Australian Broadcasting Corporation, leading global
+charities and the Department of Employment and Workplace Relations
+'embroiled in high profile and significant underpayments'. The Australian
+Industry Group argued that for 'each high-profile underpayment matter, there
+will be far more smaller organisations equally endeavouring to do the right
+thing and not being able to reliably do so despite their best efforts'.68
+Enforcement
+2.65 Some evidence raised concerns about the effectiveness of current enforcement.
+For example, Mr Michael Sanderson noted that workers 'who cannot afford to
+leave are more likely to tolerate underpayment, delay complaint[s], accept
+partial remedies, or remain silent altogether'. In such circumstances, 'the law
+may condemn wage theft while the labour market quietly reproduces it'.69
+2.66 Working Women's Centre NSW expressed concern about enforcement,
+submitting that they do 'not believe the reported rates of formal disputes and
+investigations accurately reflect the scale at which wage theft is occurring'.70
+2.67 Working Women's Centre Victoria submitted that even if 'workers successfully
+obtain orders, enforcement mechanisms are weak and recovery of unpaid wages
+is not guaranteed', noting that some employers 'may delay, avoid or fail to
+comply with orders'. As a result, wage underpayment is 'unlawful but often
+goes unremedied in practice'. They argued that 'this contributes to a regulatory
+environment where non-compliance can be perceived as low risk, particularly
+in sectors characterised by insecure work and limited oversight'. They called for
+increased 'resourcing for the Fair Work Ombudsman to undertake proactive
+investigations and enforcement, with a focus on high-risk industries'.71
+66 Australian Chamber of Commerce and Industry, Submission 21, p. 3.
+67 Australian Chamber of Commerce and Industry, Submission 21, p. 3.
+68 Australian Industry Group, Submission 18, p. 3.
+69 Mr Michael Sanderson, Submission 1, p. 3.
+70 Working Women's Centre NSW, Submission 24, p. 8.
+71 Working Women's Centre Victoria, Submission 23, pp. 6, 9. See also Working Women's Centre NSW,
+Submission 24, p. 12.
+29
+2.68 Associate Professor Hardy considered revoking licences for businesses that
+have committed an egregious offence or repeatedly done the wrong thing could
+help contribute to an optimal regulatory environment. She also suggested 'there
+is more that can be done in relation to the disqualification of directors… A
+conversation needs to be had around whether those directors should be
+permitted to continue to open up new businesses and employ people or whether
+they should be disqualified and who can seek those disqualification orders'. She
+noted that this power is currently reserved for the Australian Securities &
+Investments Commission, but questioned 'whether or not there's scope for the
+Fair Work Ombudsman to be empowered to seek those types of orders'.72
+2.69 The Western NSW Community Legal Centre called for enforcement
+mechanisms to be 'accessible and supported by adequate resourcing, including
+access by employees to free legal assistance'. They also recommended that
+specific information about wage underpayment be included in the Fair Work
+Information Statement, which employers are required to give every new
+employee before. or as soon as possible after they start their new job.73
+2.70 Portable pointed out that for most affected workers, 'the problem is not that their
+employer has not been prosecuted. It is that they do not know they have been
+underpaid in the first place'. In particular, they argued that the fundamental
+problem is that 'criminal liability for wage theft can only operate as a deterrent
+or as a remedy if underpayment is first detected, documented, and capable of
+being attributed to conduct'. They noted that for 'the approximately 2.6 million
+Australian workers covered by modern awards, that detection infrastructure
+largely does not exist', arguing that 'addressing this gap should be a priority
+alongside any refinement of the enforcement mechanism itself'.74
+2.71 The SDA was of the view that 'the workers most at risk of exploitation are the
+least likely to engage regulators'. In particular, they noted that of the thousands
+of requests made to the Fair Work Ombudsman a year, only 'a small proportion
+of matters can progress beyond advice, self-resolution or limited compliance
+activity' because of the Fair Work Ombudsman's capacity to formally investigate
+or litigate.75
+2.72 The Australian Nursing and Midwifery Federation suggested ss 327A 'could be
+amended to outline criteria that lift the ordinary wage theft offence into an
+aggravated offence to which higher penalties may apply'. They proposed the
+72 Associate Professor Tess Hardy, Director, Centre for Employment and Labour Relations Law,
+University of Melbourne, Proof Committee Hansard, 4 May 2026, p. 32.
+73 Western NSW Community Legal Centre, Submission 4, p. [2]; Fair Work Ombudsman, Fair Work
+Information Statement (accessed 21 April 2026).
+74 Portable, Submission 7, pp. 2, 3, 4.
+75 Shop, Distributive and Allied Employees' Association, Submission 12, pp. 2, 9.
+30
+aggravated offence be framed around vulnerabilities 'that give rise to an
+assumption that a wage theft, once established, was the byproduct of an
+employer exploiting that vulnerability', such as migrant status, limited English
+language proficiency, age and disability.76
+2.73 Working Women's Centre Victoria flagged 'a risk that criminalisation may
+contribute to overreach in enforcement, particularly if it disproportionately
+impacts small businesses rather than large corporations'.77
+Superannuation
+2.74 Some submitters called for superannuation to be treated as wage
+underpayment.78 The SDA was of the view that the Australian Taxation Office
+(ATO), which is responsible for administering the Superannuation Guarantee,
+has enforcement processes that 'are often slow, opaque and largely removed
+from the workplace relations system. Workers who report unpaid
+superannuation frequently have… no direct enforcement agency accountable to
+them as workers rather than taxpayers'. Workers experiencing wage
+underpayment and superannuation underpayment 'is often forced to navigate
+two separate regulatory systems… [T]his division discourages reporting,
+fragments enforcement, and allows interrelated forms of wage theft to persist
+unchecked'.79
+2.75 Mr Gerard Dwyer, the National Secretary-Treasurer of the SDA, provided the
+committee with examples of employees raising unpaid superannuation matters
+with the ATO, and several months passing before they receive
+acknowledgement, with 'an inordinate amount of time before any sort of action
+seems to take place'. He noted that during this time, the money has not been
+accruing interest, and therefore 'retirement savings have suffered during that
+long period of time'.80
+2.76 The Australian National Audit Office (ANAO) in an audit on addressing
+Superannuation Guarantee non-compliance in 2021–22, found that the ATO was
+only partly effective in addressing non-compliance with the Superannuation
+Guarantee, and in achieving greater employer compliance with Superannuation
+Guarantee obligations. In particular, they 'have had a small influence on
+76 Australian Nursing and Midwifery Federation, Submission 13, pp. 9–10.
+77 Working Women's Centre Victoria, Submission 23, p. 7.
+78 For example, Shop, Distributive and Allied Employees' Association, Submission 12, pp. 5, 6, 8;
+National Tertiary Education Union, Submission 10, p. 12. See also Mr Gerard Dwyer, National
+Secretary-Treasurer, Shop, Distributive and Allied Employees' Association, Proof Committee
+Hansard, 4 May 2026, p. 8.
+79 Shop, Distributive and Allied Employees' Association, Submission 12, p. 7.
+80 Mr Gerard Dwyer, National Secretary-Treasurer, Shop, Distributive and Allied Employees'
+Association, Proof Committee Hansard, 4 May 2026, p. 11.
+31
+reducing the Superannuation Guarantee gap (an estimate of non-compliance)
+over time' and compliance 'activities continue to be mainly corrective and
+reactive'.81
+2.77 Associate Professor Tess Hardy noted that 'the ATO has increased its efforts
+with respect to investigating and enforcing superannuation entitlements'.
+However, she saw 'the ATO's priorities as being different to those of regulators,
+which are more concerned with the recovery of employee entitlements… It does
+seem that dividing responsibilities for the enforcement of those entitlements is
+duplicative and inefficient'.82
+2.78 On the matter of superannuation, the Australian Chamber of Commerce
+highlighted the forthcoming payday super legislation that will take effect on 1
+July 2026, suggesting this will 'make a significant difference' and be 'a significant
+improvement to the way that this problem is dealt with and captured'.83
+Migrant workers
+2.79 As noted elsewhere in this report, migrant workers may be particularly subject
+to wage underpayment because of visa insecurity, language barriers and fear of
+engaging with authorities, with some research suggesting that over two thirds
+of migrant workers experience some form of exploitation.84
+2.80 Proposals put forward to the committee to improve wage underpayment for
+migrant workers included:
+ Improvements in reporting protections, information for workers in a
+language they can understand; the continuation of the workplace justice
+visa;85 and
+81 Australian National Audit Office, Submission 16, [p. 7].
+82 Associate Professor Tess Hardy, Director, Centre for Employment and Labour Relations Law,
+University of Melbourne, Proof Committee Hansard, 4 May 2026, p. 31.
+83 Mr Shaun Schmitke, Head, Workplace Relations Policy, Australian Chamber of Commerce and
+Industry, Proof Committee Hansard, 4 May 2026, p. 19.
+84 Australian Nursing and Midwifery Federation, Submission 13, pp. 8–9; Working Women's Centre
+Victoria, Submission 23, pp. 4, 5; Working Women's Centre NSW, Submission 24, pp. 5–6, 8; Mr
+Mathew Kunkel, Chief Executive Officer, Migrant Workers Centre, Proof Committee Hansard, 4 May
+2026, pp. 15–16.
+85 Mr Mathew Kunkel, Chief Executive Officer, Migrant Workers Centre, Proof Committee Hansard, 4
+May 2026, pp. 19–20. The workplace justice visa is a temporary visa (under an Australian
+Government pilot program) allowing workers to remain temporarily in Australia to pursue a
+workplace exploitation claim even if they've breached a work-related visa condition. See
+Department of Home Affairs, Australian Government Endorsed Events (Workplace Justice Pilot)
+(accessed 15 May 2026); Fair Work Ombudsman, Visa protections – pilot programs (accessed 15 May
+2026).
+32
+ Information for workers about what they should be paid and what
+conditions they should expect in a language they understand.86
+Effectiveness of existing pathways to recover wages
+2.81 Some evidence flagged issues with existing pathways for wage recovery. For
+example, Victorian Women Lawyers noted that fees for submitting claims in
+Court can range up to $560 for a Fair Work Small Claims Application,
+suggesting that for women experiencing vulnerability, 'Court processes may be
+difficult to navigate and compound risks of speaking up due to experiences of
+underpayment and worker exploitation'. They called for the Commonwealth to
+'further simplify, streamline and reduce the costs associated with recovery of
+underpayments'.87
+2.82 Working Women's Centre Victoria argued that a 'key limitation of the current
+framework is the absence of an accessible and effective wage recovery pathway',
+submitting that current processes are 'complex, formal and often costly' and
+'inaccessible to many'. They described the small claims proceedings process
+through the courts as 'often slow, complex and costly… As a result, many
+workers do not pursue recovery at all'.88
+2.83 As such, they proposed establishing an accessible wage recovery pathway, and
+called for consideration of establishing an accessible forum to resolve disputes
+and enable recovery of unpaid wages, whether within the Fair Work
+Commission or another tribunal-style forum.89 Working Women's Centre NSW
+also proposed establishing a wage underpayment tribunal.90
+2.84 The Australian Council of Trade Unions considered that having 'workplace
+relations matters in the Federal Circuit Court and Federal Court with limited
+expertise and extensive delays may not be the answer to ending widespread
+wage theft'. They proposed the Australian Government 'investigate ways to
+dramatically simplify and streamline judicial processes to reduce the time and
+expense required to run a claim for underpayments'. They also suggested the
+'Fair Work Commission could be better resourced and empowered to play an
+active role in resolving underpayment payments'. They were of the view that
+before issuing proceedings in a court, 'a registered employee organisation
+86 Mr Mathew Kunkel, Chief Executive Officer, Migrant Workers Centre, Proof Committee Hansard, 4
+May 2026, p. 20.
+87 Victorian Women Lawyers, Submission 25, [p. 5].
+88 Working Women's Centre Victoria, Submission 23, p. 6.
+89 Working Women's Centre Victoria, Submission 23, pp. 4, 7, 9.
+90 Working Women's Centre NSW, Submission 24, p. 11.
+33
+should have the option of accessing the Fair Work Commission which could
+have new powers to seek to resolve' underpayment claims.91
+2.85 The SDA expressed its support for 'the establishment of an accessible small-
+claims jurisdiction' for workers to 'pursue unpaid entitlements through a simple,
+low-cost and timely process'.92
+2.86 The Australian Nursing and Midwifery Federation suggested that the 'absence
+of a court with expertise in employment matters is a barrier to workers seeking
+outcomes for workplace issues, such as underpayments'. They considered that
+for 'many, elevating a claim to a higher-level court is daunting and likely to deter
+workers from seeking to redress underpayments'. As such, they proposed the
+Commonwealth 'establish a Fair Work Court that sits alongside the FWC that
+has jurisdiction to deal with underpayment matters'.93
+Other issues raised
+2.87 The Law Council of Australia noted that section 323 of the Fair Work Act 2009
+has been held to require the payment of entitlements, including entitlements to
+bonuses and commissions, under a contract of employment. They suggested
+that as a result, 'the wage theft offence would appear to apply to a failure to pay
+contractual entitlements'. The Law Council called for the committee to seek
+clarification of this position.94
+2.88 In response to a question on notice, the Fair Work Ombudsman explained:
+The application and operation of section 323 of the Fair Work Act 2009 (Cth)
+will always depend on the particular facts and circumstances. At a general
+level, in considering what amount was required to be paid by the employer
+pursuant to section 327A(1), section 323 may operate to bring a contractual
+entitlement within the criminal offence provision…
+As an example, interaction of contractual entitlements may arise in relation
+to some conduct which could constitute intentional underpayment conduct,
+for instance unlawful deductions or requirements to spend, which are often
+a feature of exploitative conduct in relation to vulnerable employee
+cohorts.95
+91 Australian Council of Trade Unions, Submission 22, pp. 11, 12. See also Dr Anthony Forsyth, Senior
+Legal Officer, Australian Council of Trade Unions, Proof Committee Hansard, 4 May 2026, pp. 7, 12.
+92 Mr Gerard Dwyer, National Secretary-Treasurer, Shop, Distributive and Allied Employees'
+Association, Proof Committee Hansard, 4 May 2026, p. 8; Shop, Distributive and Allied Employees'
+Association, Submission 12, pp. 3, 14, 15.
+93 Australian Nursing and Midwifery Federation, Submission 13, p. 8.
+94 Law Council of Australia, Submission 15, pp. 1–2.
+95 Department of Employment and Workplace Relations and Fair Work Ombudsman—answers to
+written questions on notice from Senator Payman (received 8 June 2026), [pp. 10–11].
+34
+2.89 The Law Council flagged a lack of clarity over whether, under the wage theft
+offence, continuing to fail to pay after a payment gives rise to a continuing
+offence for as long as the amount remains unpaid. They proposed consideration
+of amendment of subsection 327C(2) 'to provide greater clarity to the
+commencement of the limitation period'.96
+2.90 The Law Council questioned whether other persons besides the Fair Work
+Ombudsman could refer an employer to the Director of Public Prosecutions or
+the Australian Federal Police, even where the employer has entered into a 'safe
+harbour' cooperation agreement. They called for more clarity on 'the operation
+of these provisions and whether the safe harbour provides the intended level of
+protection from prosecution'.97
+96 Law Council of Australia, Submission 15, p. 2.
+97 Law Council of Australia, Submission 15, p. 3.
+Chapter 3
+Committee view
+3.1 At the outset, the committee observes that the term 'wage theft' is not defined in
+the Fair Work Act 2009 and is applied to conduct of widely differing character;
+from the deliberate exploitation of workers at one end, to inadvertent
+underpayment arising from genuine error and the complexity of the system at
+the other. The word 'theft' connotes deliberate, dishonest wrongdoing; yet, as
+the evidence to this inquiry made clear, the label is routinely applied to conduct
+involving no such intent. The committee considers that applying a single,
+pejorative term across conduct of such different character is inaccurate and
+unhelpful. It obscures the distinction, central to this inquiry, between the small
+number of employers who deliberately underpay their workers and the much
+larger number who are endeavouring to comply with a complex and shifting set
+of obligations. It also bears directly on the question the committee was asked to
+consider: the incidence of 'wage theft' cannot be measured with any precision
+while the term itself has no settled meaning.
+3.2 The criminal offence introduced by subsection 327A(1) has been in force since
+January 2025. Seventeen months later, experts, professionals and unions are
+unable to agree on whether it has effectively reduced the rate of wage theft.
+3.3 As noted in Chapter Two, the committee heard that rather than criminal
+sanctions, compliance decisions are more likely to be shaped by the belief that
+duty-holders have regarding how likely and how severely they will be
+punished.1 More effective methods to encourage deterrence may involve
+modest sanctions, such as small fines, so long as these are associated with a
+greater perceived risk from wrongdoers that the sanction will be imposed.2
+3.4 The committee is not convinced that the criminal offence is having the impact
+that it was anticipated to have on a small number of businesses who deliberately
+and persistently underpay their employees. This raises the question of whether
+the criminal offence is well-targeted and proportionate in its present form, given
+the significant impact that compliance with the amended law is having on
+employers who want to do the right thing—particularly small businesses that
+have limited resources to understand complex, confusing and constantly
+changing regulatory requirements in the industrial relations space.
+3.5 The committee accepts the Fair Work Ombudsman’s explanation that there has
+not been sufficient time for criminal proceedings to commence. However,
+1 Associate Professor Tess Hardy and Professor John Howe, Submission 17, pp. 3–4, 5.
+2 Associate Professor Tess Hardy, Director, Centre for Employment and Labour Relations Law,
+University of Melbourne, Proof Committee Hansard, 4 May 2026, p. 29.
+35
+36
+evidence from unions, community legal centres and others conflicted on
+whether the criminal provision has had a deterrence effect, leading to reduced
+instances of intentional and persistent wage underpayment.
+3.6 The committee heard from submitters and witnesses that there are concerns that
+the legislation does not appropriately distinguish between intentional versus
+unintentional conduct. Further, questions were raised about whether late
+payments due to unforeseen circumstances (such as software failures) would
+meet the criminal threshold for wage underpayment, and about whether fault
+would apply in instances where a corporation has a corporate culture that
+directs, encourages, tolerates or leads to non-compliance, or fails to create or
+maintain a culture that requires compliance. In the case of the latter, there is a
+lack of clarity about potential inconsistencies between the Revised Explanatory
+Memorandum for the bill that introduced the criminal offence and the Criminal
+Code, about whether corporations could be prosecuted under the criminal
+offence because of their corporate culture, rather than direct, intentional
+conduct. The committee considers that further clarity could be provided on the
+intention threshold, corporate culture and the interaction between the criminal
+wage theft offence and the Criminal Code. The committee does not suggest that
+the corporate-culture provisions of the Criminal Code should be removed. They
+are long-standing, apply to corporate criminal liability generally, and serve an
+important purpose in ensuring that large and structurally complex employers
+cannot escape liability for intentional wrongdoing by keeping those who make
+the relevant decisions formally removed from the conduct in question. The
+committee's concern is narrower. It considers that the due-diligence defence
+should apply consistently to all the bases on which intention is attributed to a
+corporate employer, so that a corporation that has genuinely invested in
+building and maintaining a compliance culture is not exposed to an offence
+premised on intentional conduct. This would ensure that corporations
+genuinely trying to build and maintain proper systems are not penalised.
+3.7 The committee learned that the complexity of the industrial relations system is
+a significant factor contributing to wage underpayment (and overpayment),
+with large employers such as the Australian Broadcasting Corporation, leading
+global charities, the Department of Employment and Workplace Relations and
+even courts struggling to interpret particular entitlements. Small businesses
+may be particularly at risk of underpaying their employees because of the
+administrative burden and cost difficulties involved in navigating award
+complexities. The committee concurs with the assertion of the Australian
+Industry Group that laws ‘which cannot reliably be navigated and complied
+with where an organisation genuinely endeavours to do so need to be urgently
+reviewed’.3
+3 Australian Industry Group, Submission 18, p. 3.
+37
+3.8 In light of the above, the committee is not convinced that the almost $50 million
+provided to the Fair Work Ombudsman to administer the criminal offence is an
+effective use of taxpayer dollars.
+3.9 This is particularly true in light of evidence suggesting that many employees
+alleging wage underpayment are unable to launch court proceedings because of
+the costs involved, and the lengthy wait times for some individuals calling the
+Fair Work Ombudsman, only to be told that there is little that the Fair Work
+Ombudsman can do to assist with their allegations. Particular cohorts, such as
+migrants and international students, remain especially vulnerable to deliberate
+wage underpayment, despite the existence of criminal sanctions.
+3.10 To that end, the committee notes Associate Professor Tess Hardy's evidence that
+the compliance notice regime could be strengthened; for example, by
+empowering Fair Work inspectors to attach penalties where an employer fails
+to rectify an underpayment or to respond to a notice, as a means of addressing
+non-compliance efficiently and without recourse to litigation.
+3.11 The committee's concern is not confined to the absence of demonstrated effect.
+On the evidence, the offence is directed at a narrow category of deliberate
+conduct, while the structural driver of most underpayment, being the
+complexity of the modern award and enterprise agreement system, remains
+unaddressed. At the same time, the breadth of the provision, and the way
+intention may be attributed to corporate employers, impose a significant
+compliance burden, and a corresponding chilling effect, on the majority of
+employers who are endeavouring to comply. In the committee's view, the more
+proportionate course is to refine how the offence operates and to direct the
+resources presently committed to criminal investigation toward civil
+enforcement, through which most underpayment is identified and addressed in
+practice.
+3.12 On the matter of superannuation and concerns raised in evidence about the
+Australian Taxation Office’s effectiveness in ensuring employees are paid their
+superannuation entitlements under the Superannuation Guarantee, the
+committee notes that the Payday Super legislation will take effect from 1 July
+2026. The committee will maintain a watching brief on the question of whether
+the requirement for employers to pay superannuation on payday, at the same
+time as employees receive their salary and wages, will lead to better outcomes
+for employees in terms of the superannuation they are entitled to.
+Recommendation 1
+3.13 The committee recommends that the Australian Government make modern
+awards clearer and easier to apply through clearer classification structures,
+plain-language drafting and more accessible guidance on coverage, to reduce
+inadvertent underpayment, and lower the prohibitive cost of compliance for
+smaller businesses.
+38
+Recommendation 2
+3.14 The committee recommends that the Australian Government provide further
+clarity on the interaction of the criminal wage underpayment offence with the
+Criminal Code, specifically the availability of a due diligence defence where
+intention is attributed to a corporate employer through its culture.
+Recommendation 3
+3.15 The committee recommends that the Australian Government, as part of the
+targeted early review of the wage underpayment offence recommended by the
+review of the Closing Loopholes Acts, assess whether the balance of the Fair
+Work Ombudsman's resourcing across its criminal and civil enforcement
+functions is delivering the fastest possible repayment for underpaid workers
+and the most effective response to employers who deliberately underpay.
+Senator Maria Kovacic
+Chair
+Senator for New South Wales
+Labor Senators' dissenting report
+Introduction
+1.1 Labor Senators acknowledge the evidence provided to the committee, including
+personal stories and experiences of wage theft. Labor Senators thank all
+individuals and stakeholders for their submissions and for providing evidence
+at the public hearing.
+1.2 In 2022, the Senate Economics References Committee inquired into the unlawful
+underpayment of employees' remuneration. Submitters to the inquiry,
+including unions, community legal centres, and academics called on the
+Australian Government to criminalise intentional wage theft.1 The inquiry
+found that women, migrant workers, young workers, First Nations people and
+regional, rural and remote workers are particularly vulnerable to wage theft. As
+a result, Labor Senators recommended that the Australian Government amend
+the Fair Work Act 2009 (Fair Work Act) to criminalise intentional wage theft.2
+1.3 This followed the Final Report of the Migrant Worker Taskforce which found
+that 'criminal sanctions to tackle serious and systemic underpayment of
+workers, would usefully form part of the regulatory toolkit'.3 The Migrant
+Worker Taskforce noted that stakeholders argued criminal penalties would 'act
+as an additional deterrent for employers'.4
+1.4 In September 2023, the Albanese Labor Government introduced legislation to
+implement it's 2022 federal election commitment to criminalise intentional wage
+theft and protect Australian workers from being ripped off and exploited.5
+1.5 On 14 December 2023, the Fair Work Legislation Amendment (Closing Loopholes)
+Act 2023 (Closing the Loopholes Act) received royal assent, introducing a
+criminal offence for intentional underpayment of employee wages and certain
+entitlements. The new offence commenced on 1 January 2025 delivering on the
+Albanese Labor Government's promise to criminalise intentional wage theft and
+stand up for Australian workers.
+1 Senate Economics References Committee, Systemic, sustained and shameful: Unlawful underpayment of
+employees' remuneration, March 2022, p. 121.
+2 Senate Economics References Committee, Systemic, sustained and shameful: Unlawful underpayment of
+employees' remuneration, March 2022, p. 138.
+3 Australian Government, Report of the Migrant Workers' Taskforce, March 2019, p. 87.
+4 Australian Government, Report of the Migrant Workers' Taskforce, March 2019, p. 87.
+5 The Hon Anthony Albanese MP, Prime Minister of Australia, and the Hon Tony Burke MP, former
+Minister for Employment and Workplace Relations, 'Labor will criminalise wage theft', Media
+Release, 13 May 2021.
+39
+40
+1.6 Many stakeholders supported the new offence, with the Australian Council of
+Trade Unions stating, '[a]fter a decade of inaction on wage theft and national
+scandals … this action is welcome'.6
+1.7 Labor Senators note the intention of section 327A of the Fair Work Act is to
+promote a stronger culture of compliance by establishing a stronger deterrent
+for intentional wage theft.7
+1.8 In assessing the effectiveness of section 327A of the Fair Work Act against this
+inquiry's terms of reference, the committee's report fails to engage with evidence
+before the inquiry about the purpose of the offence, its emerging impact on
+employer behaviour, and the strong support for the offence from unions,
+community legal centres, and academics.
+1.9 Labor Senators note this inquiry duplicates the current independent statutory
+review of the Closing the Loopholes Act and Fair Work Legislation Amendment
+(Closing the Loopholes No.2) Act 2024 (Closing the Loopholes Review).8
+Wage theft
+1.10 Submissions to this inquiry noted the difficulty in quantifying the scale and cost
+of wage theft in Australia.9 The Fair Work Ombudsman (FWO) was clear that
+this 'reinforces the need for a proportionate regulatory response from the FWO
+that can address non-compliance across the continuum'.10
+1.11 Labor Senators note that the Senate Economics References Committee's 2022
+inquiry into the unlawful underpayment of employees' remuneration found
+that unlawful underpayment of wages and superannuation costs the Australian
+economy an estimated $12 billion annually.11
+6 Australian Council of Trade Unions, 'New year, new powers to tackle wage theft affecting one
+million workers', Media Release, 1 January 2025.
+7 The Hon Tony Burke MP, former Minister for Employment and Workplace Relations, 'Albanese
+Labor Government to criminalise wage theft', Media Release, 3 September 2023.
+8 Department of Employment and Workplace Relations, Review of the Closing Loopholes Acts,
+June 2026.
+9 See, for example, Associate Professor Tess Hardy and Professor John Howe, Submission 17, p. 2.
+10 Fair Work Ombudsman, Submission 8, p. 2.
+11 Senate Economics References Committee, Systemic, sustained and shameful: Unlawful underpayment of
+employees' remuneration, March 2022, p. 9.
+41
+1.12 Labor Senators highlight evidence from witnesses and submitters that sought to
+demonstrate the widespread occurrence of intentional wage theft12 and the
+impact on workers, in particular young people, women, and migrants.13
+Support for new criminal offence
+1.13 Throughout this inquiry, there was strong support from unions, community
+legal centres and academics for the introduction of section 327A of the Fair Work
+Act,14 which provides another mechanism of enforcement within the existing
+graduated compliance framework under the Fair Work Act.15
+1.14 Mr Gerard Dwyer, National Secretary-Treasurer of the Shop, Distributive and
+Allied Employees' Association (SDA), said that the laws 'have definitely been a
+very big step in the right direction'.16
+1.15 Labor Senators acknowledge the support for the deterrent nature of the offence
+in combating intentional wage theft.17 For example, the Victorian Trades Hall
+Council and Young Workers Centre noted that 'the goal must be to prevent it
+from happening in the first place by making such practices intolerably risky for
+employers'.18
+1.16 Working Women's Centre NSW submitted that 'the criminalisation of
+intentional wage theft sends an important policy message about how seriously
+this issue is being taken'.19
+12 See, for example, Australian Council of Trade Unions, Submission 22, pp. 4 and 5; Shop, Distributive
+and Allied Employees' Association, Submission 12, p. 2.
+13 Australian Council of Trade Unions, Submission 22, p. 5; Working Women's Centre NSW,
+Submission 24, p. 3; Dr Anthony Forsyth, Senior Legal Officer, Australian Council of Trade Unions,
+Proof Committee Hansard, 4 May 2026, p. 7; Australian Council of Trade Unions, Submission 12, p. 2.
+14 Victorian Trade Hall Council and the Young Workers Centre, Submission 20, p. 6; Ms Maria Rigas,
+Senior Workplace Relations Advisor, Australian Security Industry Association, Proof Committee
+Hansard, 4 May 2026; p. 4, Working Women's Centre Victoria, Submission 23, p. 7; Working Women's
+Centre NSW, Submission 24, p. 2; Australian Council of Trade Unions, Submission 22, p. 3;
+Mr Matthew Kunkel, Chief Executive Officer, Migrant Workers Centre, Proof Committee Hansard,
+4 May 2026, p. 15; Associate Professor Tess Hardy, Director, Centre for Employment and Labor
+Relations Law, University of Melbourne, Proof Committee Hansard, 4 May 2026, p. 32; Dr Jessica
+Harris, Proof Committee Hansard, 4 May 2026, p. 27.
+15 Fair Work Ombudsman, Submission 8, p. 2.
+16 Mr Gerard Dwyer, National Secretary-Treasurer, Shop, Distributive and Allied Employees'
+Association, Proof Committee Hansard, 4 May 2026, p. 9.
+17 Ms Maria Rigas, Senior Workplace Relations Advisor, Australian Security Industry Association,
+Proof Committee Hansard, 4 May 2026; p. 4, Victorian Trade Hall Council and the Young Workers
+Centre, Submission 20, p. 6; National Tertiary Education Union, Submission 10, p. 5.
+18 Victorian Trade Hall Council and the Young Workers Centre, Submission 20, p. 6.
+19 Working Women's Centre NSW, Submission 24, p. 2.
+42
+1.17 Working Women's Centre Victoria reflected on how the introduction of the
+offence had reframed wage theft and signalled to employers that intentional
+underpayment had serious consequences.20
+1.18 As quoted in Chapter 2 of the committee's report, the National Tertiary
+Education Union (NTEU) said, 'we consider that section 327A serves the broader
+and important purpose of deterrence and has, inter alia, likely contributed to a
+reduction in the occurrence of wage theft, at least in the higher education
+sector'.21 The NTEU also noted that the Explanatory Memorandum to the
+Closing the Loopholes Act made clear that the purpose of the criminal offence
+was to deter intentional underpayments.22
+1.19 The Department of Employment and Workplace Relations similarly stated that
+the intention behind the new offence was 'to provide a greater deterrent and
+response to employers who intentionally underpay their workers, with the
+potential for serious penalties, including imprisonment. The aim of the offence
+is to encourage compliance'.23 Labor Senators acknowledge that the offence was
+intended to operate as a last resort within a broader framework designed to
+encourage compliance and deter intentional wage theft.
+1.20 In 2024–25, before the offence commenced, there were 162 self-reports to the
+FWO, averaging 3.1 reports a week. In the first half of 2025–26, the number of
+businesses self-reporting increased to 91, or 3.5 per week. The FWO stated that
+the 'existence of the new criminal offence appears to be encouraging some
+businesses to take active steps to increase compliance (even in the absence of
+identified concerns), self-report underpayments to the FWO and put practices
+in place to prevent underpayments from reoccurring'.24
+1.21 Labor Senators reject the assertion that the laws capture businesses trying to do
+the right thing. As Mr Dwyer from the SDA noted, 'our experience is that
+businesses that do the right thing have got nothing to fear from these laws'.25
+1.22 As articulated by the Department of Employment and Workplace Relations, the
+Fair Work Act provides pathways to encourage employers to self-disclose
+20 Working Women's Centre Victoria, Submission 23, p. 4.
+21 National Tertiary Education Union, Submission 10, p. 5.
+22 National Tertiary Education Union, Submission 10, p. 5.
+23 Department of Employment and Workplace Relations, Submission 11, p. 2.
+24 Fair Work Ombudsman, Submission 8, p. 8.
+25 Mr Gerard Dwyer, National Secretary-Treasurer, Shop, Distributive and Allied Employees'
+Association, Proof Committee Hansard, 4 May 2026, p. 10.
+43
+underpayments to the FWO. If certain requirements are met, the Fair Work
+Ombudsman must not refer employers for criminal prosecution for wage theft.26
+Role of the Fair Work Ombudsman
+1.23 Labor Senators note the Albanese Labor Government's funding to address the
+intentional underpayment of workers through an investment of $49.5 million to
+the FWO to undertake the 'investigatory functions for the Offence and operate
+technology systems to undertake investigations to a criminal standard'.27
+1.24 Labor Senators support this funding and highlight evidence from the Fair Work
+Ombudsman that the funding assists:
+(a) specially trained Fair Work Inspectors who undertake criminal
+investigations, which must be segregated from civil investigations
+(b) evidence management staff to manage the collection, chain of custody
+and analysis of physical and digital evidence, and prosecution
+disclosure requirements
+(c) legal support
+(d) expert forensic technology and data analysis
+(e) calculations support to determine underpayment amounts
+(f) investigation costs related to witnesses (for example, transcription and
+translation), evidence gathering and execution of search warrants,
+including travel
+(g) technology operating costs associated with a secure protected
+environment to host case management, handling, processing, analysis
+and storage of evidence in accordance with criminal investigation
+standards, and
+(h) ongoing costs associated with staffing, equipment and property.28
+1.25 Labor Senators note that implementing a new criminal jurisdiction requires a
+significant uplift in systems, processes and capability.
+1.26 Associate Professor Tess Hardy, Director of the Centre for Employment and
+Labor Relations Law from the University of Melbourne, noted that in shifting to
+a dual track system whereby the FWO now has responsibility for a civil and
+criminal jurisdiction, investigations now have higher privileges and burdens of
+proof.29 Associate Professor Hardy was clear that the staffing arrangements of
+the FWO were appropriate to undertake this work:
+26 Department of Employment and Workplace Relations, Submission 11, p. 3.
+27 Fair Work Ombudsman, Submission 8, p. 5.
+28 Fair Work Ombudsman, Submission 8, p. 5.
+29 Associate Professor Tess Hardy, Director, Centre for Employment and Labor Relations Law,
+University of Melbourne, Proof Committee Hansard, 4 May 2026, p. 28.
+44
+I don't think it's unexpected that you would have a dedicated team of 16.7
+staff to try and ensure that you've got sufficient expertise on the ground to
+undertake those investigations with due care and skill.30
+1.27 Labor Senators note that while no referrals have been made to the
+Commonwealth Director of Public Prosecutions or the Australian Federal Police
+at the time of submissions, evidence from the FWO noted that complexity,
+available evidence and legal considerations are all influencing factors on the
+duration of an investigation31 and that the FWO is 'ensuring that factors are
+appropriately handled through careful and thorough investigations
+underpinned by robust investigative processes'.32
+Conclusion
+1.28 Witnesses and submitters overwhelmingly stated that it was too soon to assess
+the effectiveness of the offence.33 At the public hearing, Acting Fair Work
+Ombudsman, Ms Rachel Volzke stated that 'it's probably too soon to make an
+objective assessment as to whether or not the introduction of the offence itself
+has led to a decrease in the incidence of wage theft'.34
+1.29 Associate Professor Hardy and Professor John Howe noted that 'amending the
+elements of the offence (prior to any judicial consideration of the offence and its
+application to wage theft) is premature and unjustified'.35
+1.30 Labor Senators note that during the committee's inquiry, the Closing Loopholes
+Review was being undertaken by former Fair Work Commissioner Ms Susan
+Booth.
+1.31 Ms Booth's draft findings reflect evidence before this inquiry, that it is too early
+to assess the effectiveness of the offence, and an absence of criminal prosecution
+does not mean the offence is ineffective but rather reflects the early stages of
+implementation and complexity of criminal investigation and enforcement.36
+30 Associate Professor Tess Hardy, Director, Centre for Employment and Labor Relations Law,
+University of Melbourne, Proof Committee Hansard, 4 May 2026, p. 28.
+31 Fair Work Ombudsman, Submission 8, p. 7.
+32 Fair Work Ombudsman, Submission 8, p. 8.
+33 See, for example, Associate Professor Tess Hardy, Director, Centre for Employment and Labor
+Relations Law, University of Melbourne, Proof Committee Hansard, 4 May 2026, p. 28; Dr Kathleen
+Smithers, Proof Committee Hansard, 4 May 2026, p. 27; Dr Anthony Forsyth, Senior Legal Officer,
+Australian Council of Trade Unions, Proof Committee Hansard, 4 May 2026, p. 7.
+34 Ms Rachel Volzke, Acting Fair Work Ombudsman, Fair Work Ombudsman, Proof Committee
+Hansard, 4 May 2026, p. 35.
+35 Associate Professor Tess Hardy and Professor John Howe, Submission 17, p. 6.
+36 Department of Employment and Workplace Relations, Closing Loopholes: An independent statutory
+review, Draft report, 15 May 2026, p. 249.
+45
+1.32 Labor Senators believe that Australian workers deserve protection from
+intentional wage theft and therefore support the continued implementation of
+section 327A of the Fair Work Act. The evidence before this inquiry
+demonstrates that the offence forms an important part of a broader compliance
+framework, is already encouraging improved employer behaviour, and should
+be assessed through the independent Closing Loopholes Review.
+Senator Marielle Smith Senator Josh Dolega
+Deputy Chair Member
+Senator for South Australia Senator for Tasmania
+
+Australian Greens' dissenting report
+1.1 The Australian Greens thank all those who provided evidence to this inquiry
+through submissions and hearings.
+1.2 The Greens do not support the claim in the Chair’s report that the 'structural
+driver' of most wage underpayments is the supposed complexity of the modern
+award system and enterprise agreement system.
+1.3 Evidence to this inquiry clearly showed that wage theft continues to be a
+widespread, systemic and entrenched problem in Australia. Wage theft is worth
+billions of dollars in the Australian economy. Stealing wages from workers,
+especially workers with low bargaining power, like young people, women, and
+migrants, causes serious harm, and it is the most powerless who are most
+affected by wage theft.
+1.4 The Greens were proud to support the criminalisation of wage and
+superannuation theft during the Closing Loopholes reforms.
+1.5 While valid questions have been raised about the lack of prosecutions to date,
+multiple stakeholders noted it was too early to determine the effectiveness of
+the operation of the wage theft provisions, given that they have only been in
+operation since early last year. This is an issue that warrants further review.
+Recommendation 1
+1.6 In line with Recommendation 25 from the Draft Closing Loopholes review,
+the Australian Government should undertake a targeted early review of the
+operation of the wage theft offence and changes to the civil penalties
+framework within 1 year of the publication of that report.
+Recommendation 2
+1.7 That the Australian Government should consider increased funding and
+staffing for the Fair Work Ombudsman to reduce barriers to reporting and
+improve response times.
+Senator Barbara Pocock
+Substitute Member
+Senator for South Australia
+47
+
+Senator Fatima Payman's additional comments
+1.1 I begin by thanking the individuals and organisations who made submissions
+to the inquiry or gave evidence at the hearing. I would also like to thank the
+secretariat for their work in supporting the committee.
+1.2 The terms of reference that the Senate, on my motion, set for this inquiry were
+thus:
+The extent to which the wage theft framework under the Fair Work Act 2009,
+and the operation of subsection 327A(1), has led to a decrease in the
+incidence of wage theft in Australia, and any other related matter.1
+1.3 The committee was posed a single question to answer: Has the incidence of
+wage theft in Australia been reduced in any significant way as a result of the
+introduction of the wage theft framework?
+1.4 Some submissions said the answer to that question was no.2 Some proposed that
+the answer was no, but that the introduction of the offence has had an
+unquantifiable deterrent effect.3 Others suggested it was too early to judge the
+effectiveness of the framework but declined to offer the committee a point in
+time at which it would be appropriate to evaluate the effectiveness of the
+framework.4
+1.5 It was also noted that, in fields like higher education, which are amongst the
+most prone to wage theft, stakeholders 'aren’t confident' that the framework will
+effectively capture the institutionalised practices which result in wage theft in
+the medium to long-term.5
+1.6 No submission was made which contended, without qualification, that the
+framework had materially reduced wage theft in Australia. That is to say, no
+submission was made which said the answer to the question of the inquiry was
+unequivocally yes.
+1.7 Central to my raising of this issue for inquiry was the funding of the Fair Work
+Ombudsman’s (FWO) criminal wage theft office. As mentioned in my
+submission, $49.5 million over 4 years has been allocated to the FWO for this
+1 Senate Hansard, 24 March 2026, pp. 45–46.
+2 Shop, Distributive and Allied Employees' Association, Submission 12, p. 2.
+3 Australian Nursing and Midwifery Federation, Submission 13, p. 6.
+4 Ms Rachel Volzke, Acting Fair Work Ombudsman, Fair Work Ombudsman, Proof Committee
+Hansard, 4 May 2026, pp. 36, 40.
+5 Dr Kathleen Smithers, Private capacity, Proof Committee Hansard, 4 May 2026, p. 24.
+49
+50
+purpose. An office of 16.7 ASL has yet to produce a single referral to the
+authorities.
+1.8 The committee heard that it was 'quite possible' that it could be years until a
+single referral occurs.6 As such, the millions of taxpayer dollars that are flowing
+into the FWO’s criminal wage theft office are not guaranteed to generate a
+return.
+1.9 This is compounded by the fact that the FWO has more work than it can handle.
+As one submission put it, '[the] FWO’s enforcement model is...limited by
+resourcing'.7 Further doubt was cast on a criminal wage theft conviction acting
+as an effective deterrent by unions who told the committee that the FWO had a
+'history of taking a light touch approach to enforcement'8 or that 'there [have
+been] instances where [...] the Ombudsman may have taken a tougher line'.9
+1.10 Additionally, officials from the FWO were unable to indicate to the committee
+when or how a review of this funding might take place.10 With this context in
+mind, it is understandable that some witnesses believe that these resources may
+provide greater value if deployed elsewhere.11 The committee itself was 'not
+convinced that the almost $50 million provided to the Fair Work Ombudsman
+to administer the criminal offence is an effective use of taxpayer dollars'.12
+1.11 Despite all of this, the Australian Government (the government) has contended
+that their 'strong new laws are having the intended effect'.13 This would seem to
+imply that no references of wage theft matters have occurred because there has
+been a decline in conduct constituting wage theft that can be referred. Data from
+the FWO, set out below in Table 1.1, would seem, if anything, to support the
+contention that the opposite is true.
+6 Associate Professor Tess Hardy, Director, Centre for Employment and Labour Relations Law,
+University of Melbourne, Proof Committee Hansard, 4 May 2026, p. 28.
+7 Shop, Distributive and Allied Employees' Association, Submission 12, p. 2.
+8 Victorian Trades Hall Council and the Young Workers Centre, Submission 20, p. 6.
+9 Mr Anthony Forsyth, Senior Legal Officer, Australian Council of Trade Unions, Proof Committee
+Hansard, 4 May 2026, p. 12.
+10 Ms Rachel Volzke, Acting Fair Work Ombudsman, Fair Work Ombudsman, Proof Committee
+Hansard, 4 May 2026, p. 40.
+11 Shop, Distributive & Allied Employees' Association—answers to written questions on notice from
+Senator Payman (received 20 May 2026), pp. 4-5; and Mr Shaun Schmitke, Head, Workplace
+Relations Policy, Australian Chamber of Commerce and Industry, Proof Committee Hansard, 4 May
+2026, p. 20.
+12 See paragraph 3.8 in Chapter 3 of the Committee's report.
+13 The Australian, ’Business blasts Labor’s ‘zero return’ $49m wage theft laws funded by taxpayers’, 13
+February 2026 (accessed 22 June 2026).
+51
+Table 1.1 Wage theft complaints received by the FWO
+Financial Year Number of disputes relating to allegations of
+monetary underpayments received by the Fair Work
+Ombudsman
+2022–23 12,059
+2023–24 13,994
+2024–25 15,435
+2025–26 (to 31 12,570
+March)
+Source: Department of Employment and Workplace Relations and Fair Work Ombudsman—answers to written
+questions on notice from Senator Payman (received 8 June 2026), p. 18.
+1.12 Further to this point, the FWO also provided, in response to a question on notice,
+a breakdown of returned wages by sector. As would be expected, sectors like
+education and retail are areas where a large proportion of recoveries occur. I
+was concerned to see such a high figure for the mining industry for 2024–25. As
+a Senator for Western Australia, a state which supports itself and the national
+economy on the backs of hard-working miners, it is essential that these workers
+are paid what they are entitled to.
+Table 1.2 Wages recovered by the FWO by sector
+FWO recoveries by Industry A- 2024-25 2025-26 (to 31
+Z (ANZSIC Division) March 2026)
+Accommodation and Food Services $19,304,067 $25,223,175
+Administrative and Support $5,786,712 $11,536,251
+Services
+Agriculture, Forestry and Fishing $617,845 $291,450
+Arts and Recreation Services $3,897,214 $3,073,598
+Construction $9,821,768 $4,833,708
+Education and Training $68,796,211 $50,581,148
+Electricity, Gas, Water and Waste $1,751,220 $3,913,501
+Services
+Financial and Insurance Services $21,765,457 $28,085,062
+Health Care and Social Assistance $36,120,453 $44,595,194
+Information Media and $657,491 $368,178
+Telecommunications
+Manufacturing $5,952,878 $2,989,139
+Mining $54,859,759 $18,082,233
+Other Services $14,124,840 $14,472,311
+52
+Professional, Scientific and $27,401,117 $3,154,770
+Technical Services
+Public Administration and Safety $5,892,056 $26,080,805
+Rental, Hiring and Real Estate $1,467,170 $744,021
+Services
+Retail Trade $59,884,819 $45,356,147
+Transport, Postal and Warehousing $3,920,838 $2,634,554
+Wholesale Trade $12,548,040 $10,093,843
+Monies recovered but unable to be
+$3,444,537 $1,825,648
+attributed to an ANZSIC Division
+Source: Department of Employment and Workplace Relations and Fair Work Ombudsman—answers to written
+questions on notice from Senator Payman (received 8 June 2026), p. 19.
+1.13 One issue that was raised was the fear held by some businesses that accidentally
+underpaying their employees would result in them being prosecuted under the
+wage theft framework.14 As outlined by paragraph 327A(3)(b) of the Fair Work
+Act 2009, the offence of failure to pay a required amount requires the conduct
+which results in underpayment to be proven to have been intentional. The FWO
+has said that it has 'undertaken significant work to educate the community
+about the [wage theft offence]. This has included a multichannel
+communications campaign, website content, presentations and the
+development of tailored guidance materials'.15 Business organisations should
+clarify to their members that these laws are only intended to operate in
+circumstances where an employer has knowingly chosen to fail to pay an
+employee, rather than accidentally failing to do so.16 In saying this, I do not
+dismiss the legitimate concerns raised about the possibility of corporate culture
+being used to impute fault and concur with the committee in its
+recommendation that the government offer clarification on this matter.17
+14 Auctioneers and Valuers Association of Australia, Submission 2, p. 3; Australian Chamber of
+Commerce and Industry, Submission 21, p. 3.
+15 Fair Work Ombudsman, Question on Notice SQ26-000005, Senate Education and Employment
+Legislation Committee Additional Estimates 2025-26, p. 2.
+16 See paragraph 2.35 in Chapter 2 of the Committee's report.
+17 See paragraphs 2.41–2.43 in Chapter 2 and Recommendation 2 in Chapter 3 of the Committee's
+report.
+53
+1.14 In Australia, wage theft disproportionately affects women, international
+students, young people and migrants.18 The committee heard from witnesses
+that many factors affect migrants’ willingness to come forward, including 'one
+of the ultimate vulnerabilities of many migrant workers: their temporary visa
+and their unwillingness to jeopardise some of those pathways'.19 There was
+some overlap with the experience of young people, who, the committee learned,
+were less likely to seek legal redress due to '[l]ow awareness of legal
+entitlements[, h]igh levels of job insecurity (particularly in retail and fast food)[,
+f]ear of retaliation (loss of shifts, termination) [and n]ormalisation of
+underpayment or poor practices at entry-level jobs'.20 As these groups are more
+vulnerable to underpayment or wage theft, the government must ensure that
+proportionate resources are being deployed to support them.
+1.15 Every Australian deserves to be paid what they have earned. As was noted at
+the time of the passage of the Closing Loopholes Acts, an employee who steals
+from their employer commits a crime. The reverse situation must be treated with
+the same seriousness.
+Recommendation 1
+1.16 That the recommendations of the draft report of the statutory review of the
+Closing Loopholes Acts relating to the wage theft offence be adopted and
+implemented by the Australian Government, particularly recommendation
+25.
+Recommendation 2
+1.17 That the Australian Government investigate ways in which it can improve
+data collection, bearing in mind the difficulties inherent in collecting such
+data, on wage theft and underpayment of employees in Australia which
+provide granularity on victims’ gender, nationality, disability status, English
+language ability and any other factors which increase vulnerability to wage
+theft.
+Recommendation 3
+1.18 That the Australian Government consider whether the funding of the Fair
+Work Ombudsman’s criminal wage theft office might be more effective at
+18 See paragraph 1.1 in Chapter 1 of the Committee's report.
+19 Mr Mathew Kunkel, Chief Executive Officer, Migrant Workers Centre, Proof Committee Hansard, 4
+May 2026, p. 18.
+20 Shop, Distributive & Allied Employees' Association—answers to written questions on notice from
+Senator Payman (received 20 May 2026), p. 2.
+54
+returning wages to workers if it were partially or entirely directed towards
+civil wage theft investigations.
+Recommendation 4
+1.19 That the Australian Government empower registered organisations to inspect
+time and wages records and conduct spot checks.
+Recommendation 5
+1.20 That the Fair Work Act 2009 be amended to expand the wage theft framework
+to include the underpayment of superannuation.
+Recommendation 6
+1.21 That the Australian Government make it easier for employees who have
+experienced underpayments to seek remedy in the courts, including the
+consideration of the establishment of a small claims jurisdiction where
+unions can initiate proceedings on behalf of their members.
+Recommendation 7
+1.22 That the Australian Government consider allocating greater resources to
+reducing the incidence of underpayment and wage theft against workers who
+are particularly vulnerable to wage theft.
+Recommendation 8
+1.23 That the Australian Government consider, following a targeted early review
+of the operation of the wage theft offence, in line with Recommendation 25
+of the draft report of the statutory review of the Closing Loopholes Acts,
+whether changes to the fault elements of section 327A of the Fair Work Act
+might enable the wage theft framework to act as a more effective deterrent
+against wage theft.
+Recommendation 9
+1.24 That the Fair Work Ombudsman be empowered to, where an individual has
+been convicted under subsection 327A(1), seek a court order disqualifying the
+individual from being able to manage corporations for a period of time.
+Recommendation 10
+1.25 That the Fair Work Act 2009 be amended to further increase civil penalties for
+underpayment of wages and entitlements.
+55
+Recommendation 11
+1.26 That the compliance notice regime under the Fair Work Act 2009 be amended
+to introduce penalties for employers who fail to respond to or deliberately
+delay in responding to compliance notices.
+Senator Fatima Payman
+Independent Senator for Western Australia
+
+Appendix 1
+Submissions and additional information
+Submissions
+1 Mr Michael Sanderson
+2 Auctioneers & Valuers Association of Australia
+3 Senator Fatima Payman
+4 Western NSW Community Legal Centre
+5 Mr Andrew Bourke
+ Attachment 1
+6 Dr Kathleen Smithers, Associate Professor Jess Harris, Professor Troy
+Heffernan, Dr Sarah Gurr and Mr Sean Groth
+7 Portable
+8 Fair Work Ombudsman
+9 United Firefighters Union of Australia
+10 National Tertiary Education Union
+11 Department of Employment and Workplace Relations
+12 Shop, Distributive and Allied Employees' Association
+13 Australian Nursing and Midwifery Federation
+14 Association for Good Government
+ Attachment 1
+15 Law Council of Australia
+16 Australian National Audit Office
+17 Associate Professor Tess Hardy and Professor John Howe
+18 Australian Industry Group
+19 Australian Retail Council
+20 Victorian Trade Hall Council and the Young Workers Centre
+21 Australian Chamber of Commerce and Industry
+22 Australian Council of Trade Unions
+23 Working Women's Centre Victoria
+24 Working Women's Centre NSW
+25 Victorian Women Lawyers
+26 Australian Higher Education Industrial Association
+27 Confidential
+28 Confidential
+29 Mr Aksheye Suddhoo
+Additional Information
+1 Department of Employment and Workplace Relations—Corrections to
+evidence provided at a public hearing in Canberra on 4 May 2026
+57
+58
+Answers to Question on Notice
+1 Australian Security Industry Association Limited—answers to written
+questions on notice from Senator David Pocock (received 12 May 2026)
+2 Migrant Workers Centre—answers to written questions on notice from
+Senator David Pocock (received 19 May 2026)
+3 Shop, Distributive & Allied Employees' Association—answers to written
+questions on notice from Senator Payman (received 20 May 2026)
+4 Associate Professor Tess Hardy—answer to a written question on notice from
+Senator Payman (received 20 May 2026)
+5 Australian Council of Trade Unions—answers to written questions on notice
+from Senator Payman (received 20 May 2026)
+6 Dr Kathleen Smithers and Dr Jess Harris—answer to a written question on
+notice from Senator Payman (received 21 May 2026)
+7 Australian Chamber of Commerce and Industry—answers to written
+questions on notice from Senator Payman (received 25 May 2026)
+8 Department of Employment and Workplace Relations and Fair Work
+Ombudsman—answers to written questions on notice from Senator Payman
+(received 8 June 2026)
+9 Fair Work Ombudsman—answer to a question taken on notice at a public
+hearing in Canberra on 4 May 2026 (received 8 June 2026)
+Appendix 2
+Public hearings and witnesses
+Monday 4 May 2026
+Parliament House
+Committee Room 2R1
+Canberra
+Australian Security Industry Association Limited (via videoconference)
+ Mr Bryan de Caires, Chief Executive Officer
+ Ms Maria Rigas, Senior Workplace Relations Advisor
+Shop, Distributive and Allied Employees' Association (via videoconference)
+ Mr Gerard Dwyer, National Secretary-Treasurer
+ Mr Robert Tonkli, Chief of Staff
+Australian Council of Trade Unions (via videoconference)
+ Dr Anthony Forsyth
+Australian Chamber of Commerce and Industry (via videoconference)
+ Mr Shaun Schmitke, Director, Workplace Relations
+Migrant Workers Centre (via videoconference)
+ Mr Matt Kunkel, Chief Executive Officer
+Dr Kathleen Smithers and Associate Professor Jess Harris (via videoconference)
+Associate Professor Tess Hardy, Centre for Employment and Labour Relations Law,
+University of Melbourne (via videoconference)
+Fair Work Ombudsman (via videoconference)
+ Ms Rachel Volzke, Acting Fair Work Ombudsman
+ Ms Michelle Carey, Group Manager, Regulatory Transformation
+ Mr Anthony Fogarty, Executive Director, Policy
+ Ms Megan Cooper, Executive Director, Criminal Investigations
+ Ms Phoebe Nicholas, Executive Director, Legal Compliance and
+Enforcement
+Department of Employment and Workplace Relations
+ Ms Elizabeth Brayshaw, First Assistant Secretary, Entitlements Safeguards
+Division
+ Ms Lavinia Gracik-Anczewska, Assistant Secretary, Workplace Exploitation
+Branch, Entitlements Safeguards Division
+59
+60
+ Ms Emma Hallas, Assistant Secretary, Employment Standards and
+Institutions, Workplace Relations Legal Division

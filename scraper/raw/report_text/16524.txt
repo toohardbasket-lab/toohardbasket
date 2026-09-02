@@ -1,0 +1,936 @@
+Review of the Migration
+Amendment (Clarifying
+International Obligations for
+Removal) Act 2021
+Parliamentary Joint Committee on Intelligence and Security
+May 2026
+CANBERRA
+© Commonwealth of Australia 2026
+ISBN 978-1-76092-541-3 (Printed version)
+ISBN 978-1-76092-542-0 (HTML version)
+All material in this report is provided under a Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 Australia licence. The material may be shared, copied and redistributed provided that:
+• it is for non-commercial purposes
+• the committee named on the previous page is credited as the author
+• the committee is not represented as endorsing the use of the material
+• any changes are clearly identified
+• no additional legal or technical restrictions are applied to restrict use that complies with the
+licence.
+If the material is remixed, transformed or built upon, the modified material may not be distributed.
+Full details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Contents
+Abbreviations .................................................................................................. v
+Membership of the Committee ..................................................................... vii
+Terms of reference ......................................................................................... ix
+List of recommendations ............................................................................... xi
+Report
+1. Introduction ................................................................................................. 1
+Conduct of the review ................................................................................................. 1
+Report structure ......................................................................................................... 1
+Legislative history ....................................................................................................... 2
+Migration Amendment (Clarifying International Obligations for Removal) Act 2021 ... 3
+Section 36A: Consideration of protection obligations ................................................... 4
+Section 197C: Relevance of Australia’s non-refoulement obligations to removal of
+unlawful non-citizens under section 198 ...................................................................... 5
+Section 197D: Decision that a protection finding would no longer be made.................. 6
+Part 7: Reviewable decisions ...................................................................................... 6
+2. Operation, effectiveness and implications ............................................... 7
+Necessity of the CIOR Act .......................................................................................... 7
+Operation of the CIOR Act ......................................................................................... 8
+Ministerial intervention and reviewable decisions ........................................................... 10
+Interplay of CIOR Act with other sections of the Migration Act ....................................... 13
+Effectiveness of the CIOR Act ................................................................................. 13
+Implications of the CIOR Act ................................................................................... 14
+Non-refoulement obligations ........................................................................................... 14
+Risk of arbitrary and indefinite detention ........................................................................ 16
+Other implications .......................................................................................................... 17
+General concerns regarding the Migration Act ........................................................ 17
+3. Committee comment ................................................................................. 19
+iii
+Non-refoulement obligations ........................................................................................... 19
+Arbitrary and indefinite detention ................................................................................... 20
+Ministerial intervention and reviewable decisions .......................................................... 21
+Need for a broader review .............................................................................................. 21
+Migration-related amendments and future parliamentary review ..................................... 21
+Appendixes
+Appendix A. List of submissions ................................................................. 23
+iv
+Abbreviations
+AHRC Australian Human Rights Commission
+AJL20 AJL20 v Commonwealth of Australia [2020] FCA 1305
+ART Administrative Review Tribunal
+CAT Convention Against Torture and Other Cruel, Inhuman or Degrading
+Treatment or Punishment
+CIOR Act Migration Amendment (Clarifying International Obligations for
+Removal) Act 2021
+CIOR Bill Migration Amendment (Clarifying International Obligations for
+Removal) Bill 2021
+Committee Parliamentary Joint Committee on Intelligence and Security
+Department Department of Home Affairs
+DMH16 DMH16 v Minister for Immigration and Border Protection (2017) 253
+FCR 576
+ICCPR International Covenant on Civil and Political Rights
+IS Act Intelligence Services Act 2001
+Migration Act Migration Act 1958
+NSWCCL New South Wales Council for Civil Liberties
+NZYQ NZYQ v. Minister for Immigration, Citizenship and Multicultural Affairs
+& Anor [2023]
+Refugee Convention United Nations Convention relating to the Status of Refugees, 1951
+TCO TF Third Country Options Taskforce
+UNHCR United Nations High Commissioner for Refugees
+v
+
+Membership of the Committee
+Chair
+Senator Raff Ciccone ALP, VIC
+Deputy Chair
+Mr Phillip Thompson OAM MP Herbert, QLD
+Members
+Senator the Hon Michaelia Cash LP, WA
+Ms Sharon Claydon MP Newcastle, NSW
+Senator the Hon Jonathon Duniam LP, TAS
+Senator Karen Grogan ALP, SA
+Ms Tania Lawrence MP Hasluck, WA
+Mr Jerome Laxale MP Bennelong, NSW
+Senator Susan McDonald LNP, QLD
+Dr Gordon Reid MP Robertson, NSW
+Senator Marielle Smith ALP, SA
+vii
+
+Terms of reference
+Under paragraph 29(1)(cf) of the Intelligence Services Act 2001 (Cth), it is a function of the
+Parliamentary Joint Committee on Intelligence and Security to commence, by the second
+anniversary of the commencement of the Migration Amendment (Clarifying International
+Obligations for Removal) Act 2021, a review of the operation, effectiveness and implications
+of the amendments made by Schedule 1 to that Act.
+ix
+
+List of recommendations
+Recommendation 1
+3.23 The Committee recommends that any future review of the operation,
+effectiveness and implications of the amendments made by the Migration
+Amendment (Clarifying International Obligations for Removal) Act 2021, or
+related issues of migration, protection and human rights, be referred to an
+appropriate parliamentary committee such as the Joint Standing Committee on
+Migration, the Parliamentary Joint Committee on Human Rights, or the Senate
+Standing Committees on Legal and Constitutional Affairs.
+xi
+
+1. Introduction
+1.1 This review is undertaken pursuant to paragraph 29(1)(cf) of the Intelligence Services
+Act 2001 (IS Act) which provides that it is a function of the Parliamentary Joint
+Committee on Intelligence and Security (Committee) to commence a review, by the
+second anniversary of the commencement of the Migration Amendment (Clarifying
+International Obligations for Removal) Act 2021 (CIOR Act), of the operation,
+effectiveness and implications of the amendments made by Schedule 1 of that Act.
+1.2 The second anniversary of the commencement of the CIOR Act was 25 May 2023.
+Conduct of the review
+1.3 The Committee initially commenced its review on 11 May 2023 and requested
+submissions from interested stakeholders by 23 June 2023. The Committee received
+10 submissions from government and civil society stakeholders. The Committee did
+not hold any public hearings.
+1.4 The initial review lapsed when the House of Representatives was dissolved and
+parliament prorogued for national elections on 28 March 2025.
+1.5 Following the formation of the new Parliament and appointment of a new Committee,
+the present Committee re-initiated the review on 3 November 2025. Pursuant to
+clause 8 of Schedule 1 to the Intelligence Services Act 2001, the Committee took into
+consideration the evidence received during the previous Parliament. The Committee
+also received two supplementary submissions from the Department of Home Affairs,
+responding to requests for information made by the Committee.
+1.6 Appendix A sets out a list of all submissions received.
+1.7 Copies of the submissions and other material relevant to the inquiry can be accessed
+at the Committee’s website.1
+Report structure
+1.8 This report consists of three chapters:
+• this introduction outlines the legislative history and the provisions under review
+• Chapter 2 considers the operation, effectiveness and implications of the
+amendments made by the CIOR Act
+1 www.aph.gov.au/pjcis
+1
+• Chapter 3 sets out the Committee’s comment.
+Legislative history
+1.9 On 25 March 2021 the Migration Amendment (Clarifying International Obligations for
+Removal) Bill 2021 (CIOR Bill) was introduced into the House of Representatives by
+then Minister for Immigration, the Hon Alex Hawke MP. In his second reading
+speech, the Minister stated that the CIOR Bill would clarify Australia’s international
+obligations relating to non-refoulement in the removal of unlawful non-citizens:
+The Migration Amendment (Clarifying International Obligations for Removal) Bill
+2021 amends the Migration Act to clarify that, in line with Australia's international
+obligations relating to non-refoulement, the removal power in the Migration Act
+does not require or authorise removal of a person where they have been
+assessed as engaging those obligations.
+Furthermore, the bill improves our ability to assess if a person engages
+protection obligations, regardless of whether or not they fail to satisfy other
+criteria for the grant of a protection visa.2
+1.10 At the time of its introduction, the CIOR Bill was not referred to this or any other
+committee for inquiry. However, its provisions were considered by the Senate
+Standing Committee for the Scrutiny of Bills3 and the Parliamentary Joint Committee
+on Human Rights.4
+1.11 On 12 May 2021 the then Government moved amendments to the CIOR Bill to
+append a new Schedule 2. Schedule 2 inserted a new clause in the IS Act to require
+the Committee to review the operation, effectiveness and implications of the
+provisions of Schedule 1 after two years of their operation. The review was to
+consider whether the provisions:
+are effective in ensuring that the removal of an unlawful non-citizen who has
+been found to engage Australia’s protection obligations through the protection
+visa process is not required or authorised, unless relevant exceptions apply.5
+1.12 The Committee’s review was also intended to apply to the merits review provisions
+inserted by items 3A to 3F in Schedule 1 of the Bill.6
+2 Hon Alex Hawke MP, Minister for Immigration, House of Representatives Hansard, 25 March 2021, p. 3497.
+3 Parliament of Australia, Senate Standing Committee for the Scrutiny of Bill, Scrutiny Digest 8 of 2021, p. 82.
+4 Parliamentary Joint Committee on Human Rights, Migration Amendment (Clarifying International Obligations
+for Removal) Bill 2021, Report 5 of 2021; [2021] AUPJCHR 46.
+5 Supplementary Explanatory Memorandum, p. 6 [36].
+6 Supplementary Explanatory Memorandum, p. 6 [37].
+2
+Migration Amendment (Clarifying International
+Obligations for Removal) Act 2021
+1.13 Section 198 of the Migration Act 1958 (Migration Act) provides for the removal from
+Australia of ‘unlawful non-citizens’, including mandating their removal ‘as soon as
+reasonably practicable’ in certain circumstances including where the person does not
+hold or is denied a relevant visa.
+1.14 Section 197C of the Migration Act, as in force prior to the CIOR Act amendments,
+provided that:
+(1) For the purposes of section 198, it is irrelevant whether Australia has
+non refoulement obligations in respect of an unlawful non citizen.
+(2) An officer’s duty to remove as soon as reasonably practicable an unlawful
+‑ ‑
+non citizen under section 198 arises irrespective of whether there has been an
+assessment, according to law, of Australia’s non refoulement obligations in
+‑
+respect of the non citizen.7
+‑
+1.15 The CIOR Act was intro‑duced following a number of court decisions which found that
+section 197C of the Migration Act operated to require the removal of an unlawful non-
+citizen who had been assessed as engaging non-refoulement obligations, including
+to the country where they faced a real risk of suffering significant harm. The
+Government confirmed that this was inconsistent with both the original intent of the
+Migration Act and Australia’s international obligations.8
+1.16 The purpose of the CIOR Act was to clarify that the duty to remove under the
+Migration Act should not be enlivened where to do so would breach non-refoulement
+obligations, including Australia’s obligations under the:
+• 1951 Convention relating to the Status of Refugees and its 1967 Protocol
+(Refugee Convention)
+• International Covenant on Civil and Political Rights (ICCPR)
+• Convention Against Torture and Other Cruel, Inhuman or Degrading Treatment or
+Punishment (CAT).9
+1.17 A further purpose of the CIOR Act was to give non-citizens access to merits review in
+the Migration and Refugee Division of the Administrative Appeals Tribunal (now the
+Administrative Review Tribunal: ART), in circumstances where the Minister decides
+that an unlawful non-citizen no longer engages protection obligations.10
+7 ‘Non-refoulement obligations’ refers to obligations under the Refugee Convention and other international
+laws implementing the principle that refugees must not be expelled or returned to places where they would
+face persecution.
+8 Revised Explanatory Memorandum, p. 3.
+9 Revised Explanatory Memorandum, p. 3.
+10 Revised Explanatory Memorandum, p. 3.
+3
+1.18 The CIOR Act amended the Migration Act to:
+• modify the effect of section 197C to provide that it does not require or authorise
+the removal of an unlawful non-citizen who has been found to engage protection
+obligations through the protection visa process unless:
+the decision finding that the non-citizen engages protection obligations has
+o
+been set aside
+the Minister is satisfied that the non-citizen no longer engages protection
+o
+obligations, or
+the non-citizen requests voluntary removal
+o
+• ensure that, in assessing a protection visa application, protection obligations are
+always assessed, including in circumstances where the applicant is ineligible for
+visa grant due to criminal conduct or risks to national security
+• insert a new provision for the Minister to decide that a person in respect of whom
+a protection finding had previously been made, is no longer a person in respect of
+whom such a finding would be made
+• provide access to merits review for individuals who are subject to a decision by
+the Minister to effectively remove their protection finding.11
+Section 36A: Consideration of protection obligations
+1.19 The CIOR Act inserted section 36A into the Migration Act which requires that the
+Minister (or their delegate), when considering an application for a protection visa,
+consider as a first step whether Australia owes any protection obligations to the
+person. Subsection 36A(1) provides that the Minister must consider and make a
+record of whether they are satisfied of any of the following:
+• The person satisfies the refugee criterion under paragraph 36(2)(a) with respect to
+a country and satisfies the security criterion under subsection 36(1C) that the
+applicant is not a person whom the Minister considers, on reasonable grounds, is
+a danger to Australia’s national security or, having been convicted by a final
+judgement or a particularly serious crime, a danger to the Australian community.
+• The person satisfies the complementary protection criterion under paragraph
+36(2)(aa) with respect to a country: that is, the Minister has substantial grounds
+for believing that, as a necessary and foreseeable consequence of the non-citizen
+being removed from Australia to a receiving country, there is a real risk that the
+non-citizen will suffer significant harm.
+• The person satisfies the refugee criterion under paragraph 36(2)(a) but does not
+satisfy the security criterion under subsection 36(1C), but would also satisfy the
+complementary protection criterion under paragraph 36(2)(aa) if they did not
+meet the refugee criterion.
+11 Revised Explanatory Memorandum, p. 2.
+4
+1.20 Subsection 36A(2) provides that the Minister must apply subsection 36A(1) before
+the Minister considers any other matters in connection with the visa application or
+makes a decision on whether to refuse or grant the visa.
+Section 197C: Relevance of Australia’s non-refoulement obligations to
+removal of unlawful non-citizens under section 198
+1.21 The CIOR Act amended section 197C to insert subsections 197C(3) to (9).
+1.22 Subsection 197C(3), as inserted by the CIOR Act, provides that despite subsections
+197C(1) and (2), the removal power under section 198 does not authorise the
+removal of an unlawful non-citizen to a particular country if:
+• the non-citizen has made a valid application for a protection visa that has been
+finally determined, and
+• in the course of considering the application, a protection finding was made for the
+non-citizen with respect to the particular country (regardless of the visa
+application), and
+• none of the following apply:
+the decision in which the protection finding was made has been quashed or
+o
+set aside
+the Minister is satisfied the non-citizen is no longer a person in respect of
+o
+whom a protection finding would be made, or
+the non-citizen has asked the Minister, in writing, to be removed to the
+o
+particular country.12
+1.23 Subsections 197C(4) to (7) set out the circumstances in which a protection finding is
+made:
+• Where a record is made under section 36A that the Minister is satisfied a
+protection visa applicant is a person Australia has protection obligations over with
+respect to a particular country.
+• Where the Minister is satisfied, however expressed and even impliedly, that the
+person satisfies the refugee criterion or the complementary protection criterion
+with respect to a particular country, including if they did not satisfy other criterion
+or are otherwise ineligible for grant of the visa.
+• Where a protection finding is made for a person in respect of a particular country
+on one of the above grounds, and the minister is satisfied that although the
+person may have a right to enter and reside in a third country, they have a well-
+founded fear of persecution or real risk of significant harm in that country, or have
+a well-founded fear that the third country would return them to another country in
+which this would arise.
+12 Revised Explanatory Memorandum, p. 8.
+5
+• In circumstances prescribed by Regulations.13
+Section 197D: Decision that a protection finding would no longer be made
+1.24 The CIOR Act inserted a new section 197D into the Migration Act. Section 197D,
+specifically subsection 197D(2), permits the Minister (or their delegate) to make a
+decision that they are satisfied that an unlawful non-citizen is no longer a person in
+respect of whom a protection finding would be made. This ultimately means the
+unlawful non-citizen can be removed under section 198 of the Migration Act to the
+country by reference to which a protection finding had previously been made.14
+1.25 Subsection 197D(4) requires that if the Minister makes such a decision, the person
+must be notified in writing of the decision, the reasons for it, and the person’s review
+rights in relation to the decision.
+Part 7: Reviewable decisions
+1.26 Part 7 of the Migration Act provides for review by the ART of specified decisions
+made under the Act. The CIOR Act amended the Migration Act to make decisions
+under subsection 197D(2) reviewable.
+1.27 The amendments included:
+• Inserting decisions under subsection 197D(2) into the definition of ‘Part 7
+reviewable decisions’ in subsection 411(1)15
+• Inserting a requirement into section 419 that the ART must notify the applicant of
+its decision on a review of a subsection 197D(2) decision, within the prescribed
+period.16
+13 Revised Explanatory Memorandum, pp. 9–10.
+14 Revised Explanatory Memorandum, p. 11.
+15 Revised Explanatory Memorandum, pp. 12–13.
+16 Revised Explanatory Memorandum, p. 13.
+6
+2. Operation, effectiveness and
+implications
+2.1 This chapter outlines the operation of the Migration Amendment (Clarifying
+International Obligations for Removal) Act 2021 (CIOR Act) to date as explained in
+evidence from the Department of Home Affairs, and observations and concerns
+about the effectiveness and implications of the Act offered by other submitters.1
+2.2 This chapter also briefly records some submitters’ broader concerns about the
+Migration Act 1958 (Migration Act), although it is noted that these go beyond the
+parameters of the current review.
+2.3 In addressing the operation, effectiveness and implications of the CIOR Act, this
+chapter focuses predominantly on civil society submitters’ recommended changes,
+as the Department of Home Affairs did not make any recommendations for further
+change to the Migration Act.
+2.4 The chapter addresses the following issues:
+• necessity of the CIOR Act
+• operation of the CIOR Act
+• effectiveness of the CIOR Act
+• implications of the CIOR Act
+non-refoulement obligations
+o
+risk of arbitrary and indefinite detention
+o
+need for statutory safeguards
+o
+other implications
+o
+• broader concerns regarding the Migration Act.
+Necessity of the CIOR Act
+2.5 The Department of Home Affairs’ (Department) submission identified that the
+purpose of the CIOR Act was to:
+1 It is noted that the legislation is variously described in submissions, as ‘the CIOR Act’ (e.g. by the Australian
+Human Rights Commission and the Department of Home Affairs); ‘Clarifying Act’ (e.g. by the NSW Council
+for Civil Liberties); ‘the CIO Act’ (e.g. by the joint submission by refugee and human rights legal
+organisations) and ‘the Migration Amendment Act’ (e.g. by the Law Council of Australia). For this report the
+Committee has decided to use the term ‘CIOR Act’.
+7
+Clarify that the duty to remove an unlawful non-citizen under the Migration Act
+should not be enlivened where to do so would breach Australia’s non-
+refoulement obligations, as identified in a finally determined protection visa
+assessment process through the making of a ‘protection finding’. The term
+‘protection finding’ reflects the circumstances in which Australia’s non-
+refoulement obligations are engaged under the 1951 Convention relating to the
+Status of Refugees and its 1967 Protocol (the Refugees Convention), the
+International Covenant on Civil and Political Rights (ICCPR), and the Convention
+Against Torture and Other Cruel, Inhuman or Degrading Treatment or
+Punishment (CAT).2
+2.6 The CIOR Act was enacted following two court judgements: DMH16 v Minister for
+Immigration and Border Protection (2017) 253 FCR 576 (DMH16) and AJL20 v
+Commonwealth of Australia [2020] FCA 1305 (AJL20). The findings of these two
+court decisions altered the effect of section 197C of the Migration Act on persons
+who had been found to engage protection obligations.
+• In DMH16, the Federal Court found that section 197C as then in force obliged the
+Department to remove an unlawful non-citizen where it was reasonably
+practicable to do so, even where the person had been found to engage Australia’s
+non-refoulement obligations.3
+• In AJL20, the Federal Court ordered the release from immigration detention of the
+same individual, who it found had no ongoing matters before the Department of
+Home Affairs, Minister or the Courts and had not been removed from Australia as
+soon as reasonably practicable (in circumstances where removal may have been
+inconsistent with non-refoulement obligations).4
+The Commonwealth subsequently appealed this decision in the High Court,
+o
+which held that a failure to comply with the duty under section 198 of the
+Migration Act did not make continued immigration detention unlawful, but it did
+compel officers to comply with the duty to remove the person ‘as soon as
+reasonably practicable’.5
+Operation of the CIOR Act
+2.7 The operation of the CIOR Act is a matter for the Department, as the organisation
+responsible for immigration and citizenship.
+2.8 In its submission, the Department outlined a number of operational and
+administrative changes it had made to support the reforms to the Migration Act made
+by the CIOR Act, including establishing a process to identify individuals impacted by
+the amendments, and introducing administrative changes to polices and processes.
+2 Department of Home Affairs, Submission 3, p. 4
+3 Supplementary Explanatory Memorandum, p. 3.
+4 Supplementary Explanatory Memorandum, p. 3.
+5 The Commonwealth v AJL20 [2021] HCA 21.
+8
+2.9 The Department advised that it ‘has ensured that relevant officers assess and record
+findings against the protection obligations criteria when considering a valid protection
+visa application, even where character or security concerns mean they are ineligible
+for the grant of the visa’.6
+2.10 In relation to the cohort affected by the CIOR Act, on 11 July 2022 the Department
+established a Third Country Options Taskforce (TCO TF) to explore options to
+resolve the immigration status of people about whom a protection finding had been
+made. The TCO TF was finalised on 17 October 2022 after the Department had
+identified all impacted detainees. The Department outlined three options to resolve
+the immigration status of those people found to engage protection obligations, who
+were stateless or whose removal to the detainee’s country of citizenship was
+impractical. The options identified were:
+• use visa options available in Australia
+• no visa options in Australia, however third country links identified
+• review of the person’s protection findings.7
+2.11 Further to the TCO TF, the Department initiated a number of operational activities to
+ensure that going forward, officers make reasonable enquiries and take reasonable
+steps to effect the removal of a detainee for whom a protection finding has been
+made to a safe third country, to ensure that continued immigration detention
+remained lawful.
+2.12 The Department issued an operational notification to officers that described the
+legislative amendments, their implications, and minimum requisite steps they must
+follow. The operational notification alerted officers that they are expected to:
+review their removal caseload regularly to identify those where a protection
+finding has been made in respect of the unlawful non-citizen’s country of
+citizenship, former habitual residence, or any other relevant country (such that
+they cannot be removed there);
+in cases where first country removal appears to be unviable, identify and explore
+any third country removal options that may be available for the individual; and
+refer a person available for removal to the Protection visa Helpdesk if that person
+is not the subject of a ‘protection finding’ as defined in section 197C, but because
+they have been found to engage non-refoulement obligations through an
+International Treaties Obligations Assessment or other non-statutory process; or
+have never had a non-refoulement obligations assessment and there is reason to
+believe that non-refoulement obligations may have been engaged.8
+6 Department of Home Affairs, Submission 3, p. 5.
+7 Department of Home Affairs, Submission 3, p. 6.
+8 Department of Home Affairs, Submission 3, p. 6.
+9
+Ministerial intervention and reviewable decisions
+2.13 As outlined in Chapter 1, the CIOR Act inserted section 197D into the Migration Act
+which permits the Minister (or their delegate) to make a decision that a person
+subject to a protection finding is no longer a person in respect of whom a protection
+finding would be made. The CIOR Act also inserted decisions under subsection
+197D(2) into Part 7 of the Migration Act, allowing for review of such decisions by the
+Administrative Review Tribunal (ART).
+2.14 A number of submitters expressed concerns with the broad power given to the
+Minister by section 197D.9 For example, the Law Council of Australia said:
+There are no criteria prescribing circumstances in which this power may be
+exercised. This is inconsistent with the principle of the rule of law that the law
+must be both readily known and available, and certain and clear. While the Law
+Council notes that it was anticipated that a decision made under this power would
+be ‘rare’ - that ‘rarity’ is not reflected in the legislation. The exercise of this power
+will be a matter entirely at the discretion of the Minister.
+The provisions do not currently provide for key procedural fairness guarantees
+with respect to the decision under new subsection 197D(2). That is, it appears
+that the affected person will only be informed about the decision after it is made.
+This is inconsistent with the Law Council’s policy with respect to the application of
+the rule of law to asylum seekers, that protection determination processes must
+include procedural fairness guarantees, such as the right to be notified, and to
+present and challenge evidence where adverse decisions are made. The Law
+Council’s Rule of Law Policy Statement also provides that Executive decision
+making should comply with the principles of natural justice.10
+2.15 The Law Council recommended that subsection 197D(2) be repealed. If not
+repealed, the Law Council recommended that the provision be amended to make
+clear the rare circumstances in which the Minister may revisit the decision, and to
+require that procedural fairness be provided to the affected person.11
+2.16 These views were shared by the Australian Human Rights Commission (AHRC),
+which similarly commented that the language in section 197D is too broad and
+recommended that it be amended to identify specific grounds on which a person
+might have their protection finding reviewed:
+Section 197D is framed in such broad language that no particular objective
+criteria need to be demonstrated. It is sufficient if the Minister is satisfied that if
+the extensive protection visa application process were to commence again, the
+person would not be found to be owed protection obligations this time around. In
+9 Australian Human Rights Commission, Submission 1, p. 16, United Nations High Commissioner for
+Refugees, Submission 6, p. 6, Joint Submission, Submission 7, p. 2, Law Council of Australia,
+Submission 10, p. 21.
+10 Law Council of Australia, Submission 10, p. 21–22.
+11 Law Council of Australia, Submission 10, p. 22.
+10
+the event that the [Committee] considers that s 197D remains necessary, the
+Commission would welcome further amendments to the legislation to identify
+specific grounds on which a person might have their protection finding
+reviewed.12
+2.17 The AHRC also recommended that section 197D be amended to provide for
+procedural fairness.13
+2.18 The Department submitted that ‘[a]ctions have been taken to assist subsection
+197D(2) decision makers to consider whether an unlawful citizen still engages non-
+refoulement obligations’ as reflected in section 197C.14
+2.19 The Department further stated that procedural fairness is central to all its actions in
+implementing section 197D. It advised that, as at 13 February 2023, no decisions
+under section 197D had been made, but observed that:
+in the rare circumstances where the Minister decides that an unlawful non-citizen
+no longer engages protection obligations … the non-citizen will have access to
+merits review in the Migration and Refugee Division of the Administrative Appeals
+Tribunal. This amendment aligns with the Government’s policy intention that
+decisions that impact on the rights and interests of individuals should be
+reviewable on their merits.15
+2.20 In 2025 the Committee asked the Department to provide an update on any decisions
+made under the provisions. The Department reported that, as at 7 November 2025, it
+had made five decisions under subsection 197D(2).16 The Department advised:
+These assessments were commenced when a person had a legal barrier to their
+removal under subsection 197C(3) of the Act, and the Department commenced
+an assessment under subsection 197D(2) of the Act due to either a change in
+country information or the person’s personal circumstances that may indicate
+they no longer engage Australia’s protection obligations.17
+2.21 The Committee sought further information from the Department on the circumstances
+in which each of the decisions under subsection 197D(2) had been made. Noting the
+potential sensitivities involved within individual cases, the Committee indicated that it
+would be happy to receive the response in the form of a classified submission, if
+necessary to enable a full response to be provided. However, the Department chose
+to respond with an unclassified supplementary submission. In that submission, the
+Department stated:
+12 Australian Human Rights Commission, Submission 1, p. 16.
+13 Australian Human Rights Commission, Submission 1, p. 16.
+14 Department of Home Affairs, Submission 3, p. 5.
+15 Department of Home Affairs, Submission 3, p. 5.
+16 Department of Home Affairs, Submission 3.1, p. 1.
+17 Department of Home Affairs, Submission 3.1, p. 1.
+11
+Due to the relatively small number of decisions, some of the questions cannot be
+answered individually as providing that level of information may lead to the
+person being identifiable in breach of the Privacy Act.18
+2.22 The Department’s response advised that, as at 20 February 2026, a decision under
+subsection 197D(2) had been made in relation to eight individuals. The individuals
+had first arrived in Australia between December 2007 and July 2012 and ranged in
+age from 35 to 50 years of age. The individuals were nationals of Iran, Pakistan, Sri
+Lanka, Tonga and Zimbabwe who had previous protection findings made against
+these countries. Each individual had either had a Protection visa refused or had been
+granted a Protection visa which was subsequently cancelled. The individuals had
+spent from 421 to 3467 days in immigration detention.19
+2.23 The Department did not provide any further information about the circumstances
+leading to the decisions under subsection 197D(2) for these individuals, apart from
+citing the statutory pre-requisites for the power to be exercised.20
+2.24 However, the Department reported that all eight decisions were made by a delegate,
+rather than personally by the Minister. The Department advised that procedural
+fairness had been provided in relation to the decisions, consisting of each person
+being issued with a ‘Notice of Intention to Commence a Section 197D Assessment’
+prior to the decision. The Department explained:
+This provides the person with an opportunity to provide any new information or
+claims they wish to have considered. The delegate will also consider protection
+claims raised through all previous processes, including but not limited to previous
+Protection visa application process, ministerial intervention process, International
+Treaties Obligations Assessments, cancellation processes, revocation processes
+and detention client interviews.
+All adverse information is put to the person through procedural fairness providing
+them an opportunity to respond. Mostly, procedural fairness is done in writing,
+however, in some circumstances, a person may be asked to attend an interview
+with the delegate.21
+2.25 The Department also advised that, of the eight people who had a decision made
+under subsection 197D(2), six had sought merits review of the decision at the ART.
+The six individuals remain in Australia on Bridging (Removal Pending) (subclass 070)
+visas while their reviews are ongoing. The remaining two individuals are no longer in
+Australia.22
+18 Department of Home Affairs, Submission 3.2, p. 1.
+19 Department of Home Affairs, Submission 3.2, p. 1.
+20 Department of Home Affairs, Submission 3.2, p. 1.
+21 Department of Home Affairs, Submission 3.2, p. 2.
+22 Department of Home Affairs, Submission 3.2, p. 2.
+12
+Interplay of CIOR Act with other sections of the Migration Act
+2.26 Several submitters commented on the interoperability of sections of the CIOR Act
+with other sections of the Migration Act. A key interplay focused on by submitters was
+that between the extant subsections 197C(1) and (2) and the new subsections
+inserted by the CIOR Act.
+2.27 As mentioned in Chapter 1, subsection 197C(1) states that for the purposes of
+section 198, which outlines the circumstances in which an officer must remove an
+unlawful non-citizen from Australia, it is irrelevant whether Australia has non-
+refoulement obligations in respect of an unlawful non-citizen. Subsection 197C(2)
+provides that an officer’s duty to remove as soon as reasonably practicable an
+unlawful non-citizen under section 198 arises irrespective of whether there has been
+an assessment, according to law, of Australia’s non-refoulement obligations in
+respect of the unlawful non-citizen.
+2.28 Both the AHRC and the Law Council of Australia noted tensions between
+subsections 197C(1) and 197C(3) of the Migration Act. AHRC submitted that:
+On its face, s 197C(1) is inconsistent with the Government’s policy, which is now
+reflected in s 197C(3). That is, if Australia has non-refoulement obligations in
+respect of an unlawful non-citizen, this is relevant for the purposes of the duty of
+removal in s 198. The relevance is that the person should not be removed to a
+place where they have a well-founded fear of persecution or other serious harm.
+The inconsistency created by subsections (1) and (3) leaves open the possibility
+of officers misunderstanding their duties and powers.23
+2.29 The Law Council recommended redrafting the section so that it is clear when a
+person will engage Australia’s non-refoulement obligations.24 The AHRC
+recommended that subsection 197C(1) be repealed.25
+2.30 The AHRC also submitted that section 197C(2) is unnecessary now that section 36A
+requires an assessment of any non-refoulement obligations before considering any
+other eligibility criteria for a visa.26
+Effectiveness of the CIOR Act
+2.31 The objective of the CIOR Act was to ensure that the Migration Act does not
+authorise or oblige an officer to remove a person found to engage Australia’s
+international obligations relating to non-refoulement to the country from which they
+seek protection, in breach of those obligations.
+23 Australian Human Rights Commission, Submission 1, p. 13.
+24 Law Council of Australia, Submission 10, p. 21.
+25 Australian Human Rights Commission, Submission 1, p. 5.
+26 Australian Human Rights Commission, Submission 1, p. 14.
+13
+2.32 In its 2023 submission, the Department stated that the CIOR Act had been effective
+in aligning section 197C with its original intent, and in strengthening the ability for
+non-citizens to have protection claims assessed.27
+2.33 The Department confirmed at that time that no unlawful non-citizens with a protection
+finding had been removed contrary to Australia’s non-refoulement obligations since
+the passage of the CIOR Act.28 When asked by the Committee to provide an update
+in November 2025, the Department replied in general terms, stating that ‘Australia
+does not remove unlawful non-citizens in contravention of our international
+obligations'.29
+2.34 Generally, most submitters that commented on the effectiveness of the CIOR Act in
+2023 agreed that it had been effective in achieving its objective or that it had been a
+positive development in ensuring Australia complies with its international
+obligations.30
+2.35 The Law Council of Australia submitted that the CIOR Act had been effective, but
+drew attention to the narrow stated scope of the legislation, stating that to its
+knowledge and ‘[t]o that limited extent – it has been effective’. 31
+Implications of the CIOR Act
+2.36 Some submitters raised concerns that, while the CIOR Act achieved an immediate
+objective of preventing breaches of Australia’s international obligations through
+mandatory refoulement of protected persons, the amendments made by the Act had
+broader, possibly negative implications.
+Non-refoulement obligations
+2.37 The United Nations High Commissioner for Refugees (UNHCR) identifies the
+principle of non-refoulement as a cornerstone of the 1951 Convention relating to the
+Status of Refugees (Refugee Convention). According to the principle, set out in
+Article 33, a refugee should not be returned to a country where they face serious
+threats to their life or freedom.32
+2.38 The Refugee Convention defines a ‘refugee’ in Article 1A(2) as any person who:
+owing to well-founded fear of being persecuted for reasons of race, religion,
+nationality, membership of a particular social group or political opinion is outside
+27 Department of Home Affairs, Submission 3, p. 5.
+28 Department of Home Affairs, Submission 3, p. 5.
+29 Department of Home Affairs, Submission 3.1, p. 1.
+30 Commonwealth Ombudsman, Submission 2, p. 3, Department of Home Affairs, Submission 3, p. 5, New
+South Wales Council for Civil Liberties, Submission 5, p. 3, Refugee Legal, Submission 9, p. 16, Law Council
+of Australia, Submission 10, p. 5.
+31 Law Council of Australia, Submission 10, p. 5.
+32 Office of the United Nations High Commissioner for Refugees, Submission 6, p. 7.
+14
+of the country of his nationality and is unable or, owing to such fear, is unwilling
+to avail himself of the protection of that country…33
+2.39 Protection against refoulement applies to any person under the terms of the Refugee
+Convention. The UNHCR states that a person is not a refugee because they are
+recognised as one but because they are a refugee. The principle of non-refoulement
+therefore applies not only to persons whose refugee status has been formally
+assessed and recognised but to asylum-seekers who have not yet had their status
+assessed.34
+2.40 Some submitters argued that the CIOR Act had not been fully successful in ensuring
+that Australia met its non-refoulement obligations, and that the Migration Act remains
+incompatible with non-refoulement obligations under international law.
+2.41 The UNHCR submitted that:
+While UNHCR welcomes efforts by the Government to strengthen the domestic
+statutory protections afforded to those found to be in need of international
+protection through the protection visa assessment process, UNHCR is of the
+view that amended s 197C of the Migration Act 1958 (Cth) (Migration Act), which
+provides that Australia's non-refoulement obligations are irrelevant to the removal
+of unlawful non-citizens under s 198 of the Migration Act, remains incompatible
+with Australia’s non-refoulement obligations under international law. It does not
+appear to safeguard against the removal of all asylum-seekers and refugees over
+which Australia exercises jurisdiction, as the changes enacted in 2021 do not
+benefit, for example, those precluded by domestic law or policy from accessing
+asylum through the protection visa process by virtue of their mode or manner of
+arrival.35
+2.42 The New South Wales Council for Civil Liberties (NSWCCL) accepted that the CIOR
+Act provided a legitimate statutory protection for those who have had a protection
+claim accepted, in support of Australia’s non-refoulement obligations. 36 However, the
+NSWCCL agreed with the UNHCR that the principle of non-refoulement applies to
+both recognised refugees and individuals whose claims for protection have not been
+determined.37
+2.43 The Department contended in its submission that the CIOR Act does ensure
+Australia meets its non-refoulement obligations:
+As intended, the CIOR Act ensures that the Migration Act does not require or
+authorise the removal of an individual to the country in relation to which a
+protection finding has been made through a finally determined protection visa
+33 1951 Convention Relating to the Status of Refugees and its 1967 Protocol, p. 16.
+34 United Nations High Commissioner for Refugees, Handbook on Procedures and Criteria for Determining
+Refugee Status under the 1951 Convention and the 1967 Protocol Relating to the Status of Refugees.
+35 Office of the United Nations High Commissioner for Refugees, Submission 6, p. 2.
+36 NSW Council for Civil Liberties, Submission 5, p. 6.
+37 NSW Council for Civil Liberties, Submission 5, p. 5.
+15
+application process. The CIOR Act resolved the issue of officers needing to
+comply with the duty to remove unlawful non-citizens in breach of Australia’s non-
+refoulement obligations.38
+Risk of arbitrary and indefinite detention
+2.44 The biggest concern expressed by submitters was the risk that the amendments
+made by the CIOR Act would subject individuals to arbitrary and indefinite detention.
+This issue was raised in every submission except that from the Department.
+2.45 Submitting in mid-2023, concerned groups noted that individuals who had been
+found to engage Australia’s protection obligations but had a protection visa cancelled
+or refused on character grounds were required to be detained until removed to a third
+country, or granted a visa.
+2.46 A joint submission from nine legal and human rights organisations argued that the
+protection against refoulement is not a justification for indefinite detention, stating:
+It is also well established that prolonged, indefinite detention is arbitrary, and is a
+violation of the right to security of the person and freedom from arbitrary
+detention protected by the International Covenant on Civil and Political Rights.
+Avoiding one human rights violation (refoulement) is not a justification for the
+imposition of another, potentially equally harmful violation – arbitrary detention.39
+2.47 A number of submitters put forward recommendations to reduce the risk of indefinite
+detention, including the Commonwealth Ombudsman who recommended that:
+The Government considers an additional amendment to the Migration Act to
+ensure that people facing indefinite detention must be considered for an
+alternative to held detention within 12 months of their visa cancellation or refusal
+of a visa on character or security grounds.40
+2.48 Many submitters emphasised the impact of prolonged detention on detainees’ mental
+health.41
+38 Department of Home Affairs, Submission 3, p. 6.
+39 Refugee Council of Australia, Amnesty International Australia, Asylum Seeker Resource Centre, Australian
+Lawyers for Human Rights, Human Rights Law Centre, Refugee Advice and Casework Service, SCALES
+Community Legal Centre, South East Monash Legal Service, Visa Cancellations Working Group (joint
+submission), Submission 7, p. 8.
+40 Commonwealth Ombudsman, Submission 2, p. 6.
+41 Australian Human Rights Commission, Submission 1, p. 21, Commonwealth Ombudsman, Submission 2, p.
+4, Refugee and Immigration Legal Service an Queensland Program of Assistance to Survivors of Torture and
+Trauma, Submission 4, pp. 3–7, New South Wales Council for Civil Liberties, Submission 5, pp. 8–10, United
+Nations High Commissioner for Refugees, Submission 6, p. 15, Joint Submission, Submission 7, p. 8,
+Refugee Legal, Submission 9, p. 12, Law Council of Australia, Submission 10, p. 21.
+16
+Other implications
+2.49 The Law Council of Australia noted in its submission that the current layout of the
+provisions relating to whether a person is subject to a protection finding are complex
+and difficult to navigate. The Law Council drew attention to the rule of law principle
+that law should be certain and clear, and submitted that this was particularly
+important in relation to these provisions, where people affected may have barriers
+that undermine their ability to understand and interpret the legislation.
+2.50 The Law Council recommended that:
+… section 36 and subsections 197C(4)-(6) be centralised and simplified so it is
+made clear which criteria for a protection visa, if satisfied, will result in the
+Australia’s non-refoulement obligations being engaged in relation to a person.
+Specifically, the Law Council suggests that clarity could be achieved by re-
+ordering and re-classifying the criteria in section 36 as:
+• criteria which, if satisfied, would result in Australia’s non-refoulement
+obligations being engaged in relation to the person because:
+the person is a refugee under the Refugees Convention; or
+o
+owed complementary protection under the ICCPR or CAT; and
+o
+• Other relevant criteria for the visa.42
+General concerns regarding the Migration Act
+2.51 While many submissions saw the changes made by the CIOR Act as positive, a
+number raised broader concerns and general observations on the operation of the
+Migration Act, including recommending a review of the entire Act.43
+2.52 The AHRC, for example, submitted the following:
+The Commission recommends that a review of the Migration Act be conducted to
+enshrine the following principles and processes:
+a) there should be a presumption against detention for those who have had
+positive protection findings made within the meanings prescribed by s 197C
+b) alternatives to detention, such as residence determination or bridging visas,
+must be considered prior to consideration of held detention
+c) for any person who is considered by the Minister to warrant being held in
+immigration detention, an application should be required to be made to a
+competent authority who is tasked with balancing the risk to the community
+against the impact on the individual to be detained
+42 Law Council of Australia, Submission 10, p. 20.
+43 See, for example, Australian Human Rights Commission, Submission 1, p. 37; Refugee Legal, Submission 9,
+p. 17; Law Council of Australia, Submission 10, p. 6.
+17
+d) decisions to detain, or to continue to detain, must be subject to appeal, merits
+and/or judicial review
+e) any person held in immigration detention must have their detention reviewed
+at regular intervals by an independent reviewer.44
+44 Australian Human Rights Commission, Submission 1, p. 37.
+18
+3. Committee comment
+3.1 Pursuant to paragraph 29(1)(cf) of the Intelligence Services Act 2001 (IS Act), the
+Committee was required to review the operation, effectiveness and implications of
+the Migration Amendment (Clarifying International Obligations for Removal) Act 2021
+(CIOR Act).
+3.2 The purpose of the CIOR Act was to ensure the Migration Act 1958 (Migration Act) is
+consistent with Australia’s non-refoulement obligations. The Committee observes that
+the CIOR Act is not national security legislation, and that it is questionable whether
+this was the best-placed committee to conduct the review. The Committee’s
+comments and recommendation in that regard are discussed further at the end of this
+chapter.
+3.3 The Committee has nevertheless undertaken the present review in good faith and the
+following sections comment on issues raised by those who submitted to the inquiry.
+Non-refoulement obligations
+3.4 The CIOR Act amended the Migration Act to clarify that the power to remove an
+unlawful non-citizen does not require or authorise an officer to involuntarily remove a
+person to a country where a protection finding has been made in relation to the
+person with respect to that country.
+3.5 As noted in Chapter 2, the Department of Home Affairs (Department) confirmed in its
+submissions that no unlawful non-citizens with a protection finding have been
+removed contrary to Australia’s non-refoulement obligations since the CIOR Act
+commenced.
+3.6 On this basis, the Committee agrees that the CIOR Act has achieved its purpose.
+3.7 The Committee also notes that, in support of this objective, the CIOR Act introduced
+provisions which ensure that protection obligations are always assessed as part of
+the protection visa process, including before the Minister considers whether the
+person meets other criteria for the grant of a protection visa.
+3.8 The Committee acknowledges that some submitters expressed concerns that the
+CIOR Act was too narrow in scope and a risk remains that Australia may continue to
+breach non-refoulement obligations for some people, such as those precluded from
+accessing the protection visa process. Nevertheless, noting that the scope of this
+review was to look at the effectiveness of the CIOR Act, the Committee assesses
+that it is effective on its terms in ensuring that Australia meets its non-refoulement
+obligations for the intended cohort.
+19
+Arbitrary and indefinite detention
+3.9 As discussed in Chapter 2, concerns were raised by many submitters about the
+potential for indefinite detention of a person in respect of whom a protection finding is
+made under the Act and who is therefore unable to be returned to their country of
+origin.
+3.10 In this respect it is pertinent that, during the time the Committee was undertaking this
+review, significant legal developments took place. Notably, the High Court of
+Australia handed down its judgment in the case of NZYQ v. Minister for Immigration,
+Citizenship and Multicultural Affairs & Anor [2023] (NZYQ), which determined that
+indefinite immigration detention was unlawful where there was ‘no real prospect’ of
+the person’s removal from Australia in the reasonably foreseeable future.
+3.11 Following the NZYQ decision, Parliament passed the Migration and Other Legislation
+Amendment (Bridging Visas, Serious Offenders and Other Measures) Act 2023,
+which amended the Migration Act to provide for additional conditions to be placed on
+bridging visas granted to non-citizens released from immigration detention.1 The
+Explanatory Memorandum for that legislation confirmed many in the cohort impacted
+by the NZYQ decision are individuals in respect of whom Australia has non-
+refoulement obligations:
+The NZYQ-affected cohort is made up of people who have been refused grant of
+a visa, or had their visa cancelled, and who are on a removal pathway but who
+have no real prospect of removal becoming practicable in the reasonably
+foreseeable future. In many cases, the person has a protection finding, within the
+meaning of section 197C of the Migration Act, which prevents their removal to
+their country of citizenship or habitual residence and there is currently no other
+country to which their removal can be effected. A ‘protection finding’ reflects the
+circumstances in which Australia has non-refoulement obligations with reference
+to a person. In other cases, removal is not practicable in the foreseeable future
+for other reasons, including where the person is stateless and their country of
+former habitual residence is not willing to accept their return.2
+3.12 In light of these legal developments during the course of its review, it is no longer
+necessary or relevant for the Committee to respond to the evidence submitted in
+relation to the CIOR Act and indefinite detention.
+1 The Committee acknowledges that, on two occasions, the High Court of Australia has found that regulations
+imposing additional conditions made under the amended provisions were inconsistent with Chapter III of the
+Constitution – see EGH19 v Commonwealth of Australia [2026] HCA 7 and YBFZ v Minister for Immigration,
+Citizenship and Multicultural Affairs [2024] HCA 40.
+2 Explanatory Memorandum, Migration Amendment (Bridging Visa Conditions and Other Measures) Bill 2023,
+p.17.
+20
+Ministerial intervention and reviewable decisions
+3.13 The Committee notes the concerns raised by some submitters about the insertion of
+section 197D into the Migration Act by the CIOR Act, providing the Minister with an
+‘own motion’ authority to effectively reverse a protection finding previously made for a
+person. The Committee notes the advice of the Department that it would expect the
+197D power to be used only in rare circumstances—and that it had been used on
+eight occasions as at 20 February 2026.
+3.14 In this regard the Committee draws attention to the evidence received from the
+Department regarding safeguards on this power, including the insertion of section
+197D decisions into Part 7 of the Migration Act, allowing these decisions to be
+reviewed by the Administrative Review Tribunal. The Department confirmed that all
+eight individuals in relation to whom 197D decisions have been made have been
+given procedural fairness, and six of those individuals have chosen to seek merits
+review at the Administrative Review Tribunal.
+3.15 As such, the Committee makes no recommendations in relation to section 197D.
+Need for a broader review
+3.16 Some of the evidence provided to the Committee in this review focused on broader
+concerns with the Migration Act and Australia’s immigration detention regime.
+3.17 As noted above, the Committee was tasked with reviewing the operation,
+effectiveness and implications of the amendments made by the CIOR Act. As such
+the Committee considers that these broader issues fall out of scope of the current
+review.
+3.18 The Committee makes no comment on whether further review of the Migration Act is
+warranted, beyond the views elaborated below regarding the appropriate forum for
+any future parliamentary committee consideration of such matters.
+Migration-related amendments and future parliamentary review
+3.19 As noted in Chapter 1, the placement of a provision into the Intelligence Services Act
+2001 requiring the Committee to review the CIOR Act did not follow a review of the
+CIOR Bill by this Committee. The amendments made by the CIOR Act do not directly
+engage the intelligence agencies whose oversight is this Committee’s main function,
+nor do they deal with national security powers and functions which form the basis of
+the Committee’s other functions under the IS Act.
+3.20 In its Annual Report of Committee Activities 2020-2021, the Committee observed that
+the addition of the CIOR Act review to the Committee’s functions within the IS Act
+was not formally advised to the Committee. The Committee recommended that the
+appropriate Minister notify the Committee of any amendment to the IS Act affecting
+the role or functions of the Committee, when it does not derive from a Bill reviewed
+21
+by the Committee or a government response to a Committee report.3 A government
+response to the Committee’s Annual Report of Committee Activities 2020-2021 was
+presented in June 2024, which noted this recommendation.
+3.21 The Committee considers that this legislation would have been more appropriately
+referred for review to a parliamentary committee with direct responsibility and
+experience relating to the Migration Act and international human rights obligations,
+such as the Joint Standing Committee on Migration, the Parliamentary Joint
+Committee on Human Rights or the Senate Standing Committee on Legal and
+Constitutional Affairs. A review by this Committee may have been intended to allow
+for classified information to be provided which could not have been provided to one
+of those committees. However, in practice, the Department chose not to provide any
+classified information in its response to the Committee’s enquiries.
+3.22 The Committee therefore recommends that in future, review of these provisions or
+any related matters should be referred to a parliamentary committee with a relevant
+mandate in relation to immigration issues.
+Recommendation 1
+3.23 The Committee recommends that any future review of the operation,
+effectiveness and implications of the amendments made by the Migration
+Amendment (Clarifying International Obligations for Removal) Act 2021, or
+related issues of migration, protection and human rights, be referred to an
+appropriate parliamentary committee such as the Joint Standing Committee on
+Migration, the Parliamentary Joint Committee on Human Rights, or the Senate
+Standing Committees on Legal and Constitutional Affairs.
+Senator Raff Ciccone
+Chair
+May 2026
+3 Parliamentary Joint Committee on Intelligence and Security, Annual Report of Committee Activities 2020-
+2021, September 2021, paras 1.114-1.115 and Recommendation 3 (1.116).
+22
+A. List of submissions
+1 Australian Human Rights Commission
+2 Office of the Commonwealth Ombudsman
+3 Department of Home Affairs
+• 3.1 Supplementary to submission 3
+• 3.2 Supplementary to submission 3
+4 RAILS and QPASTT (joint submission)
+5 New South Wales Council for Civil Liberties
+6 United Nations High Commissioner for Refugees
+7 Refugee Council of Australia, Amnesty International Australia, Asylum Seeker
+Resource Centre, Australian Lawyers for Human Rights, Human Rights Law Centre,
+Refugee Advice and Casework Service, SCALES Community Legal Centre, South
+East Monash Legal Service, Visa Cancellations Working Group (joint submission)
+8 Andrew and Renata Kaldor Centre for International Refugee Law
+9 Refugee Legal
+10 Law Council of Australia
+23

@@ -1,0 +1,1371 @@
+Report 494: Inquiry into the
+Department of Foreign Affairs and
+Trade’s crisis management
+arrangements
+Joint Committee of Public Accounts and Audit
+March 2023
+CANBERRA
+© Commonwealth of Australia 2023
+ISBN 978-1-76092-491-1 (Printed version)
+ISBN 978-1-76092-492-8 (HTML version)
+All material in this report is provided under a Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 Australia licence. The material may be shared, copied and redistributed provided that:
+• it is for non-commercial purposes
+• the committee named on the previous page is credited as the author
+• the committee is not represented as endorsing the use of the material
+• any changes are clearly identified
+• no additional legal or technical restrictions are applied to restrict use that complies with the
+licence.
+If the material is remixed, transformed or built upon, the modified material may not be distributed.
+Full details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Contents
+Chair's foreword .............................................................................................. v
+Abbreviations ................................................................................................ vii
+Members .......................................................................................................... ix
+Terms of reference ......................................................................................... xi
+List of recommendations ............................................................................. xiii
+Report
+Introduction ..................................................................................................... 1
+About the inquiry ........................................................................................................ 1
+Report outline ............................................................................................................. 1
+Overseas Australians during COVID-19 ..................................................................... 2
+Whole-of-government crisis management framework ................................................ 3
+DFAT's return of overseas Australians in response to COVID-19 ............. 5
+Background ................................................................................................................ 5
+Audit findings .................................................................................................................... 6
+Chapter overview ............................................................................................................. 6
+Data capability ............................................................................................................ 7
+Traveller registration system ............................................................................................. 7
+Other data quality findings .............................................................................................. 10
+Coordination of the crisis response .......................................................................... 11
+DFAT’s arrangements .................................................................................................... 11
+Coordination with states and territories ........................................................................... 14
+Assisting vulnerable Australians ............................................................................... 17
+Facilitated flights ............................................................................................................. 17
+Identifying vulnerable Australians ................................................................................... 18
+Overseas Financial Assistance (Hardship) Program ....................................................... 20
+Consideration of human rights during crisis .................................................................... 21
+iii
+Procurement during COVID-19 ................................................................................ 22
+Committee comment ................................................................................................ 24
+Appendices
+Coalition members' additional comments .................................................. 29
+Appendix A. Submissions ............................................................................ 31
+Appendix B. Public hearing and site visit ................................................... 33
+Appendix C. Timeline of key events ............................................................ 35
+List of Textboxes
+Box 2.1 DFAT’s crisis management arrangements ................................................... 12
+iv
+Chair's foreword
+The Joint Committee of Public Accounts and Audit warmly commends officers of the
+Department of Foreign Affairs and Trade (DFAT) for their dedicated work to assist
+Australians across the globe, including those stranded offshore during the pandemic,
+and every day since. One of the most impressive things during this inquiry was the
+Committee’s visit to the 24-hour crisis centre.
+Through this inquiry, the Committee reviews the Auditor-General’s report on the
+effectiveness of DFAT’s crisis management arrangements during the COVID-19
+pandemic. DFAT coordinated and facilitated the return of Australians who were
+stranded overseas due to travel restrictions and border closures.
+It is important that the Australian Public Service, including DFAT, learn from the
+unprecedented global crisis that COVID-19 posed, so that the Australian
+Government will be better prepared to assist our most vulnerable citizens during
+future crises.
+The Committee supports the areas for improvement identified by the Auditor-General
+and found it peculiar that DFAT disagreed with two recommendations due to
+‘framing’ but nevertheless appears to have acted on them (which is welcome).
+We focused in this report on matters relating to DFAT’s data capability, response
+coordination, assistance for vulnerable Australians, and procurement practices under
+the crisis management framework (relating to repatriation flights).
+Regarding the confusing and misleading public messaging to stranded Australians in
+2020 and 2021, the Committee clearly notes its deep concern regarding DFAT’s
+evidence that no advice was provided to inform public statements made by Ministers
+in the previous government (including the Prime Minister). The Committee’s
+observation that “government ministers have a responsibility to be as fully informed
+by sensible and evidence-based advice from public servants as possible before
+making public commitments in such sensitive areas” should not have been
+necessary.
+The Committee considers that more could and should have been done by the
+Commonwealth later in the pandemic regarding the lack of adequate quarantine
+facilities which was one of the key constraints upon DFAT’s ability to bring stranded
+Australians home. A response to the 2021 Halton review of hotel quarantine was
+never provided by the previous government.
+The Committee makes several recommendations to strengthen Australian
+Government’s future crisis response including that:
+• the Australian Government formally respond to the 2021 Halton review into
+hotel quarantine arrangements
+v
+• the Department of Prime Minister and Cabinet incorporate human rights
+considerations into the Australian Government Crisis Management
+Framework, learning from the decision to block Australian citizens from
+returning from India
+• the Auditor-General consider undertaking an audit of the updated Australian
+Government Crisis Management Framework to consider whether it
+adequately reflects lessons learned from the COVID-19 pandemic.
+I thank all of the contributors to this inquiry, particularly the DFAT officers who
+appeared at the public hearing and facilitated the site inspection of the department’s
+crisis management facilities by the Committee. I also thank all Committee members
+who participated in this inquiry, continuing the bipartisan tradition of the JCPAA.
+Finally, I thank the Committee Secretariat for its support and professional excellence
+throughout this inquiry.
+Mr Julian Hill MP
+Chair
+vi
+Abbreviations
+ABF Australian Border Force
+ADF Australian Defence Force
+AGCC Australian Government Crisis Committee
+AGCMF Australian Government Crisis Management Framework
+AHRC Australian Human Rights Commission
+ANAO Australian National Audit Office
+CCCI COVID-19 Crisis Citizen Information
+CCD Consular and Crisis Management Division
+CEC Consular Emergency Centre
+COVID-19 Coronavirus disease of 2019
+CPRs Commonwealth Procurement Rules
+DFAT Department of Foreign Affairs and Trade
+DITRDC Department of Infrastructure, Transport, Regional
+Development and Communications
+ECU Emergency Call Unit
+FCF Facilitated commercial flight
+GWO Global Watch Office
+Home Affairs Department of Home Affairs
+IDCs Inter-departmental committees
+IDETF Inter-Departmental Emergency Taskforce
+JCPAA Joint Committee of Public Accounts and Audit
+NCC National Crisis Committee
+PGPA Act Public Governance, Performance and Accountability Act 2013
+vii
+PM&C Department of Prime Minister and Cabinet
+RAAF Royal Australian Air Force
+TRS Travel Registration System
+viii
+Members
+Chair
+Mr Julian Hill MP
+Deputy Chair
+Senator the Hon Linda Reynolds CSC
+Members
+Dr Michelle Ananda-Rajah MP
+Senator Catryna Bilyk
+Senator the Hon Matthew Canavan
+Hon David Coleman MP (until 22 March 2023)
+Dr Carina Garland MP
+Hon Dr David Gillespie MP (until 15 February 2023)
+Mr Ian Goodenough MP (from 6 March 2023)
+Senator Karen Grogan
+Dr Daniel Mulino MP
+Ms Peta Murphy MP
+Mr Henry Pike MP (from 22 March 2023)
+Mr Sam Rae MP
+Senator Tony Sheldon
+Mr Aaron Violi MP
+This committee is supported by staff of the Department of the House of Representatives.
+ix
+
+Terms of reference
+The Joint Committee of Public Accounts and Audit will inquire into and report on
+matters relating to the Department of Foreign Affairs and Trade’s (DFAT’s) crisis
+management arrangements as contained in Auditor-General's Report No. 39 (2021-
+22) Overseas Crisis Management and Response: The Effectiveness of the Department of
+Foreign Affairs and Trade’s Management of the Return of Overseas Australians in
+Response to the COVID-19 Pandemic.
+The report found that “DFAT applied its crisis management arrangements to support
+the return of Australians and adapted these to deliver a new program of flights and financial
+assistance”. The pandemic has, however, highlighted “weaknesses in responding to
+standard and complex, and large-scale crises” and that “DFAT’s underlying crisis
+management structures and capabilities require strengthening to ensure it is
+prepared to respond to future major and complex crises”.
+The Auditor-General made nine recommendations, seven of which were agreed to by DFAT.
+The Committee will report and make recommendations on any matters arising from
+consideration of the report and submissions, including examination of DFAT’s response to
+the report and progress in implementing agreed recommendations.
+xi
+
+List of recommendations
+Recommendation 1
+2.76 The Committee recommends that the Department of Foreign Affairs and Trade
+provide it with an update on the status of projects planned or commenced in
+response to the Australian National Audit Office’s findings, including progress
+of implementing the recommendations, by the end of August 2023.
+Recommendation 2
+2.84 The Committee recommends that the Australian Government publish a formal
+response to the 2021 Halton review into national hotel quarantine
+arrangements.
+Recommendation 3
+2.89 The Committee recommends that the Department of Prime Minister and
+Cabinet (PM&C), in its 2023 review of the Australian Government Crisis
+Management Framework, incorporate human rights considerations in the
+framework, and outline measures to ensure that any crisis response limiting or
+restricting human rights is necessary, reasonable and proportionate. PM&C
+should also require relevant entities to update their entity-level crisis
+management policies and plans to reflect this change.
+Recommendation 4
+2.91 The Committee recommends that the Auditor-General consider undertaking a
+performance audit of the Australian Government Crisis Management
+Framework and include within the audit scope whether the updated framework
+adequately reflects lessons learned from COVID-19.
+xiii
+
+1. Introduction
+About the inquiry
+1.1 On 15 September 2022, the Committee resolved to undertake an inquiry into the
+Department of Foreign Affairs and Trade’s (DFAT) crisis management arrangements,
+based on matters contained in Auditor-General Report No. 39 2021–22 Overseas
+Crisis Management and Response: The Effectiveness of the Department of Foreign
+Affairs and Trade’s Management of the Return of Overseas Australians in Response
+to the COVID-19 Pandemic.
+1.2 On 20 September 2022, the Committee issued a media release announcing the
+inquiry and inviting submissions. The Committee also invited a submission from
+DFAT as the audited agency. The inquiry received three submissions and two
+supplementary submissions, listed at Appendix A. A public hearing was held on
+16 December 2022. A list of witnesses and organisations that appeared at the
+hearing is at Appendix B.
+1.3 A copy of this report, transcript of the public hearing and submissions received are
+available at the Committee’s website at
+https://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Public_Accounts_
+and_Audit/DFATcrisismanagement.
+Report outline
+1.4 This chapter provides background on the inquiry, including a brief summary of the
+situation during the COVID-19 pandemic that led to border closures and Australians
+being stranded overseas. It then outlines the Australian Government’s crisis
+management framework, under which DFAT provided assistance to return
+Australians from overseas who were struggling to get flights due to the pandemic.
+1.5 Chapter 2 considers the Auditor-General report under inquiry, reviews the evidence
+received by the Committee and outlines the Committee’s concluding comments and
+recommendations.
+1
+Overseas Australians during COVID-19
+1.6 COVID-19 is an infectious respiratory disease that emerged in late 2019 and became
+a global pandemic. In Australia, COVID-19 was listed as a disease of pandemic
+potential under the Biosecurity Act 2015 on 21 January 2020,1 and declared a human
+biosecurity emergency by the Governor-General on 18 March 2020.2
+1.7 In response to the pandemic, and alongside other countries, the Australian
+Government began introducing travel restrictions to stem the flow of international
+arrivals in early 2020. Country-specific restrictions were implemented in February
+and early March 2020.3 From 9pm on 20 March 2020, the Australian Government
+closed its borders to all non-citizens and non-residents. From 28 March 2020, all
+international arrivals were required to quarantine for 14 days at designated hotels or
+other facilities at their port of entry.
+1.8 State and territory governments led the determination of designated facilities and
+enforcement of quarantine requirements, with the support of the Australian Defence
+Force (ADF) and the Australian Border Force (ABF) where necessary. On 10 July
+2020, following discussions with state and territory governments, the Australian
+Government introduced caps on passenger arrivals at major international airports to
+alleviate pressure on hotel quarantine programs. A timeline of key events is included
+in Appendix C.
+1.9 Border closures and travel restrictions in Australia, and around the world, led to
+significant disruptions in travel plans and international air traffic, reducing options for
+Australians seeking to return to Australia using commercial airlines. In March 2020,
+DFAT estimated there were around 879,000 Australians abroad, with the largest
+numbers in New Zealand (119,900) and Indonesia (108,067).4 This is an aggregate
+figure which does not specifically relate to the number of Australians seeking
+repatriation assistance at that point.
+1.10 The Australian Government activated the standing arrangements under its crisis
+management framework to guide its response to the pandemic. A component of this
+framework is the repatriation of Australians and other approved foreign nationals, as
+indicated in the next section.
+1 Biosecurity (Listed Human Diseases) Amendment Determination 2020.
+2 Biosecurity (Human Biosecurity Emergency) (Human Coronavirus with Pandemic Potential) Declaration
+2020.
+3 On 1 February 2020, the Australian Government agreed to implement a 14-day ban on foreign nationals
+entering Australia from China. The Australian Government subsequently decided to extend the China travel
+restrictions (on 13, 20 and 27 February 2020) and implement additional restrictions for Iran (on 29 February
+2020), South Korea (on 5 March 2020) and Italy (on 11 March 2020).
+4 Auditor-General Report No. 39 2021–22 Overseas Crisis Management and Response: The Effectiveness of
+the Department of Foreign Affairs and Trade’s Management of the Return of Overseas Australians in
+Response to the COVID-19 Pandemic, paragraph 1.16, p. 18.
+2
+Whole-of-government crisis management framework
+1.11 The Australian Government Crisis Management Framework (AGCMF), administered
+by the Department of Prime Minister and Cabinet (PM&C), sets out standing
+arrangements for coordinating whole-of-government emergency responses within the
+Australian Government. The AGCMF was last updated in November 2022 (version
+3.2) to reflect the updated administrative arrangements, including the establishment
+of the National Emergency Management Agency. The version of the framework in
+place at the time of the pandemic was version 2.2, which had been updated in
+December 2017. This report refers to the current version (version 3.2), unless a
+specific reference to the previous version is necessary.
+1.12 Under the AGCMF, DFAT is the lead agency for response and recovery in an
+international crisis, which is defined as:
+An international incident that requires an Australian Government response. This
+may include natural disasters, humanitarian crises, terrorist acts, major transport
+incidents, civil unrest, overseas health emergencies or outbreaks, kidnapping of
+Australians overseas and chemical, biological, radiological or nuclear incidents
+which impact or may impact Australians or Australia’s national interest.5
+1.13 The role of the Minister for Foreign Affairs, supported by the department, is outlined
+in the AGCMF as follows:
+• Maintain international relations with foreign governments and/or
+international agencies.
+• Issue/update travel advice.
+• Provide advice to Government on numbers of affected Australians
+overseas.
+• Provide consular assistance to Australians and Permanent Residents
+(crisis only), including citizens of consular partners.
+• Deploy additional Australian Government resources and/or state based
+expertise, as required (in consultation with relevant ministers).
+• Approve evacuation of foreign nationals, as required (in consultation with
+relevant ministers including the Minister responsible for Home Affairs,
+Defence, and states and territories).
+• Approve the repatriation of injured and deceased Australians and other
+approved foreign nationals (in consultation with the Minister responsible
+for Home Affairs, Defence and Health).
+5 Department of Prime Minister and Cabinet (PM&C), Australian Government Crisis Management Framework,
+November 2022, https://www.pmc.gov.au/publications/australian-government-crisis-management-framework-
+agcmf, p. 52, viewed 17 February 2023.
+3
+• Activate financial assistance packages, including humanitarian funding to
+countries affected by international crises.6
+1.14 Other ministers who may be involved in responses to international crises include
+those responsible for: Emergency Management, Home Affairs, Health, Defence,
+Cyber Security, and Communications.7
+1.15 In the context of the COVID-19 pandemic, DFAT's role included issuing and updating
+travel advice, providing Australians overseas with access to flights to return to
+Australia, and financial assistance. This inquiry focused on the latter two aspects of
+DFAT’s role, as examined in the Auditor-General’s report.
+6 PM&C, Australian Government Crisis Management Framework, pages 52–53.
+7 PM&C, Australian Government Crisis Management Framework, pages 53–54.
+4
+2. DFAT's return of overseas
+Australians in response to
+COVID-19
+Background
+2.1 Throughout the COVID-19 pandemic, the Department of Foreign Affairs and Trade
+(DFAT) provided support to overseas Australians1 to access a range of different flight
+arrangements to return to Australia.2 The Australian National Audit Office’s (ANAO)
+audit report outlines two main phases in DFAT’s provision of this assistance.3
+2.2 During phase one, from January 2020 to September 2020, DFAT managed two
+evacuations of Australians from Wuhan on 3 and 9 February 2020, and returned
+Australian passengers from the Diamond Princess cruise ship anchored in Tokyo on
+19 February 2020.4 There were 27 more contracted flights from 31 March 2020 to
+6 June 2020, including from Peru, Argentina, South Africa, Nepal and Uruguay.5
+2.3 During phase two, from October 2020 to February 2022, DFAT established a
+program of facilitated commercial flights (FCFs).6 The FCF program involved working
+with contracted airlines to coordinate flight schedules, managing communications
+with Australians registered with DFAT, and coordinating with relevant authorities to
+ensure testing and quarantine arrangements were in place.7
+1 Consular assistance is generally only available to Australian citizens. During crisis events services may be
+extended to permanent residents. This report uses the term ‘Australians’ to refer to both Australian citizens
+and permanent residents, as they received the same services during the pandemic.
+2 Types of assistance included supporting overseas Australians with scheduled and non-scheduled
+commercial flights; organising sweeper flights and ground transport to transfer passengers to international
+airports; and securing seats for Australians on flights to Australia organised by other governments to
+repatriate their citizens, cargo flights, medivac flights, and RAAF flights returning from delivering
+humanitarian supplies: see Department of Foreign Affairs and Trade (DFAT), Annual Report 2019–20, p. 91.
+3 Auditor-General Report No. 39 2021–22 Overseas Crisis Management and Response: The Effectiveness of
+the Department of Foreign Affairs and Trade’s Management of the Return of Overseas Australians in
+Response to the COVID-19 Pandemic, paragraph 1.20, p. 18.
+4 Auditor-General Report No. 39 2021–22, paragraph 1.22, p. 19.
+5 Auditor-General Report No. 39 2021–22, paragraph 3.61, pages 65, 97.
+6 Auditor-General Report No. 39 2021–22, paragraph 1.24, p. 20.
+7 Auditor-General Report No. 39 2021–22, paragraph 2.6, pages 25–26.
+5
+2.4 DFAT reported that since the start of the pandemic in March 2020, it assisted with
+the return of 61,769 Australians, including 33,531 Australians on 227 FCFs.8 Of the
+227 FCFs, 148 were with Qantas Airways under an agreement established in
+October 2020, and 79 were with other airlines, including Singapore Airlines.9
+Audit findings
+2.5 Auditor-General Report No. 39 2021–22 examined the effectiveness of DFAT’s
+overseas crisis management and response arrangements in meeting the Australian
+Government’s objectives for returning Australians from overseas in response to the
+COVID-19 global pandemic. To form a conclusion against the objective, the ANAO
+adopted the following high-level audit criteria:
+• Was DFAT appropriately prepared to manage the return of overseas Australians,
+as part of its response to the COVID-19 pandemic?
+• Has DFAT responded effectively to achieve the government’s objectives for
+managing the return of overseas Australians during the COVID-19 pandemic?
+2.6 The audit report under inquiry is one of six performance audits conducted under
+phase two of the ANAO’s multi-year strategy that focuses on the effective, efficient,
+economical and ethical delivery of the Australian Government’s response to the
+COVID-19 pandemic.10
+2.7 The audit report concluded that:
+DFAT adapted its crisis management arrangements and established a new
+program of activity to provide assistance to a large number of overseas
+Australians affected by COVID-19, although it did not meet key government
+objectives. DFAT’s underlying crisis management structures and capabilities
+require strengthening to ensure it is prepared to respond to future major and
+complex crises.11
+2.8 The ANAO made nine recommendations, seven of which were agreed to by DFAT.
+Chapter overview
+2.9 This chapter discusses key findings from the audit and DFAT’s actions to address
+them, with particular focus on:
+• data capability
+• coordination of the crisis response
+8 DFAT, Annual Report 2021–22, p. 79.
+9 Ms Lynn Bell, Assistant Secretary, Crisis Preparedness and Management Branch, Department of Foreign
+Affairs and Trade, Committee Hansard, Canberra, 16 December 2022, p. 19.
+10 Australian National Audit Office, ANAO COVID-19 multi-year audit strategy, November 2022,
+https://www.anao.gov.au/work-program/covid-19, viewed 17 February 2023.
+11 Auditor-General Report No. 39 2021–22, paragraph 7, p. 8.
+6
+• assisting vulnerable Australians
+• procurement during the crisis.
+Data capability
+Traveller registration system
+2.10 In April 2020, DFAT developed an online portal on the Smartraveller website called
+the Traveller Registration System (TRS).12 Overseas Australians who had been
+unable to return home were advised to register their details through the portal. The
+TRS was supported at the backend by the COVID-19 Crisis Citizen Information
+(CCCI) system, which recorded individual registrant details and supported DFAT’s
+monitoring and reporting on the status of returning Australians. The system was
+closed to new registrations in November 2021 as travel restrictions were lifted.13
+2.11 The audit found shortcomings in data quality and completeness in relation to the
+CCCI system, including:
+• over 6,000 registrations whose accounts appeared to have been created after the
+person had returned to Australia
+• fields that were inconsistently filled. For example, 31 registrants included the term
+‘elderly’ as a marker of vulnerability, the youngest of which were 69 years old.
+However, the ANAO identified a total of 9,295 registrants aged over 69 years and
+only 26 per cent of these were assessed as vulnerable
+• fields that were not used or had the majority of entries left blank, including those
+for recording chartered flight priorities, post additional information (free-text), last
+attempted contact, and last successful contact
+• lack of user access controls, data assurance and oversight processes, systems
+monitoring, and data validation to ensure data integrity.14
+2.12 The ANAO also found inconsistencies between the figures DFAT reported to
+government for registered and returned Australians, and those recorded in final flight
+manifests. This resulted in significant variance between ANAO’s analysis and DFAT’s
+reporting (by up to 59 per cent for some figures).
+2.13 The accuracy of DFAT’s monitoring and reporting of the number of registered and
+returned Australians was significant as it showed whether the department was able to
+meet a key government objective of bringing registered Australians home by
+Christmas 2020. On 18 September 2020, the then Prime Minister stated during a
+press conference in Sydney:
+12 Auditor-General Report No. 39 2021–22, paragraph 3.134, p. 80.
+13 Auditor-General Report No. 39 2021–22, paragraphs 3.134–3.135, p. 80.
+14 Auditor-General Report No. 39 2021–22, Appendix 8, pages 103–104.
+7
+… I would hope that those who are looking to come home, that we’d be able to
+do that within months and I would hope that we can get as many people home, if
+not all of them by Christmas.15
+2.14 On 23 October 2020, the Prime Minister reiterated this statement as a commitment:
+Now, I can confirm when we made our commitment on the 18th of September.
+There were registered, some 26,200 Australians. 4,100 of those were vulnerable.
+So far, 1,278 of that vulnerable cohort have come home. … So we continue to
+make good progress towards returning Australians home. And we want to do that
+as effectively and quickly, as safely as possible.16
+2.15 The government’s objective, to bring Australians registered with DFAT as at
+18 September back home by Christmas, was reaffirmed by the Minister for Foreign
+Affairs on 28 October 2020.17
+2.16 When asked whether the department had been consulted before the statement was
+made by the Prime Minister on 18 September 2020, DFAT informed the Committee
+that:
+DFAT did not prepare a brief for the 18 September 2020 meeting when National
+Cabinet agreed that all jurisdictions would continue to work towards enabling
+more Australians to return home by increasing the existing caps on international
+passenger arrivals.18
+2.17 An interagency taskforce, led by DFAT, was established to support the return of
+Australians before Christmas 2020. On 25 September 2020, DFAT reported to the
+government that there were 26,200 Australians registered as wanting to return to
+Australia as at 18 September 2020, around 4,000 of whom were assessed as
+vulnerable. This figure differed from the ANAO’s analysis that there were 45,958
+people registered as at 18 September 2020.19 When asked about the discrepancy in
+DFAT’s reporting and the total number of registrations, the ANAO explained that:
+When DFAT reported the number to government, it was based on who wanted to
+return in the immediate period going forward, rather than the total number of
+Australians registered.20
+15 The Hon Scott Morrison MP, Prime Minister, ‘Press Conference — Sydney, NSW’, Transcript, 18 September
+2020, https://pmtranscripts.pmc.gov.au/release/transcript-43027, viewed 17 February 2023.
+16 The Hon Scott Morrison MP, Prime Minister, ‘Press Conference — Australian Parliament House, ACT’,
+Transcript, 23 October 2020, https://pmtranscripts.pmc.gov.au/release/transcript-43100, viewed 17 February
+2023.
+17 Senator the Hon Marise Payne, Minister for Foreign Affairs, Senate Foreign Affairs, Defence and Trade
+Legislation Committee, Committee Hansard, Canberra, 28 October 2020, pages 91, 102.
+18 DFAT, Submission 1:2, Answer to Question on Notice 1, p. [1].
+19 Auditor-General Report No. 39 2021–22, Appendix 9, p. 105.
+20 Mr Alex Wilkinson, Executive Director, Performance Audit Services Group, Australian National Audit Office,
+Committee Hansard, Canberra, 16 December 2022, p. 17.
+8
+2.18 DFAT also commented further on the reasons for possible discrepancies within the
+registration system:
+When people registered to return, there wasn’t always an immediate intention to
+return. Because of the psychology of the pandemic—people wanted a safety net
+and thought they might never be able to come home—people registered just in
+case, which I can so easily understand. But when the time came—when a flight
+was available and it was offered to people—sometimes that timing was not the
+best timing for them, and they ended up deferring their arrival back into Australia.
+So the numbers don’t necessarily accurately mirror an immediate intention to
+return for that cohort of 26,200.21
+2.19 DFAT advised the Committee that of the 26,200 Australians registered as at
+18 September 2020, 24,800 had returned by Christmas. DFAT commented however
+that it could not say ‘the exact people who were registered on 18 September are
+actually the ones that returned’, as some people who registered after that date were
+able to return first if they were assessed as vulnerable.22
+2.20 As noted above, the ANAO was unable to verify these passenger numbers due to
+data quality issues. The audit concluded that:
+DFAT data and reporting indicate it did not meet all of the government’s
+objectives. The ANAO could not verify DFAT reporting on: the number of
+Australians and vulnerable Australians it assisted to return to Australia; and
+Australians who accessed facilitated commercial flights administered by DFAT.
+Reporting could not be verified due to data quality issues and unclear methods
+underpinning its reporting on Australians registered with DFAT.23
+2.21 The ANAO made a recommendation for DFAT to ‘develop, implement and routinely
+test a fit-for-purpose crisis registration system that sufficiently validates registrant
+data to support business planning, program evaluation and reporting’.24 DFAT
+disagreed with this recommendation. At the 16 December 2022 public hearing, DFAT
+explained that it had disagreed with the ‘framing of the recommendation’,25 rather
+than the substance of it, and that enhancements have since been made to the
+registration system to make it fit-for-purpose:
+The first registration system that was set up in the early days of the pandemic
+was, by its nature, very quickly done, and it was not perfect. As we have gone on
+through the pandemic, it has been refined. The new portal still uses Salesforce—
+it’s a Salesforce based system—but it is much better. It’s had more money spent
+on it. It’s got a team now that looks after it, which we didn’t have the luxury of
+during the pandemic because it was all hands to the pump just trying to get
+21 Ms Kate Logan, First Assistant Secretary, Crisis Preparedness and Management Branch, Department of
+Foreign Affairs and Trade, Committee Hansard, Canberra, 16 December 2022, p. 15.
+22 Ms Logan, DFAT, Committee Hansard, Canberra, 16 December 2022, p. 17.
+23 Auditor-General Report No. 39 2021–22, p. 79.
+24 Auditor-General Report No. 39 2021–22, Recommendation no. 9, paragraph 3.154, p. 86.
+25 Ms Logan, DFAT, Committee Hansard, Canberra, 16 December 2022, p. 16.
+9
+people out of the registration system and onto a plane. So we’ve had a bit more
+time to consolidate the gains. The registration portal we now have was tested for
+the first time after Russia invaded Ukraine, and it has been performing, I think,
+quite effectively. It’s giving us what we need.26
+Other data quality findings
+2.22 The audit report made a number of other findings in relation to DFAT’s collection and
+use of data during its crisis response. These findings related to the management of
+information from DFAT’s overseas posts in the early stages of the pandemic,27 and
+data collected from its engagement with the public during the pandemic.28
+2.23 The ANAO made recommendations to DFAT to:
+• establish a data and information strategy and capability to strengthen its capacity
+to rapidly and effectively source, analyse and use data from all sources for crisis
+planning and response29
+• capture and retain accurate and complete data from its engagement with clients in
+accordance with government information management standards, and for the
+purposes of monitoring its effectiveness in engaging with the public.30
+2.24 DFAT agreed to both recommendations, stating in its submission to this inquiry that
+its Consular and Crisis Management Division (CCD) is developing a Divisional Data
+Strategy which will:
+… commit to stronger data practices, capability, and culture; formalise data
+sharing arrangements with relevant Australian Government agencies; set out
+data governance arrangements and identify roles that require specific data skills
+and ensure appropriate training.31
+2.25 The CCD has also commenced a robotics project to improve efficiency and
+consistency of data capture, especially during fast-moving crisis situations.32
+26 Ms Logan, DFAT, Committee Hansard, Canberra, 16 December 2022, p. 16.
+27 Auditor-General Report No. 39 2021–22, paragraphs 3.25–3.28, p. 57.
+28 Auditor-General Report No. 39 2021–22, paragraphs 3.114–3.118, pages 75–76.
+29 Auditor-General Report No. 39 2021–22, Recommendation no. 3, paragraph 3.29, p. 58.
+30 Auditor-General Report No. 39 2021–22, Recommendation no. 7, paragraph 3.119, p. 76.
+31 DFAT, Submission 1, p. 5.
+32 DFAT, Submission 1, p. 8.
+10
+Coordination of the crisis response
+DFAT’s arrangements
+2.26 As outlined in Chapter 1, DFAT is the lead agency for response and recovery in
+international crises under the Australian Government Crisis Management Framework
+(AGCMF). DFAT’s efforts to return Australians stranded overseas during the
+pandemic involved coordination with multiple government agencies, including:
+• Department of Health, which was the lead entity for managing Australia’s public
+health response to COVID-19
+• Department of Home Affairs (Home Affairs), including the Australian Border Force
+(ABF), which managed travel restrictions at the international border and any
+exemptions from the inward and outward travel restrictions
+• Department of Infrastructure, Transport, Regional Development and
+Communications (DITRDC), which was managing international arrival caps by
+placing conditions on airline timetables under the Air Navigation Regulation 2016
+• Department of the Prime Minister and Cabinet (PM&C), which coordinated advice
+to Australian governments and helped negotiate international arrival caps with
+states and territories (based on quarantine capacity)33
+• other Australian Government departments, such as the Treasury and the
+Department of Finance, who were consulted in the development of aviation sector
+support measures34
+• various state and territory government agencies, as required, to facilitate arrivals
+at international ports of entry.
+2.27 Coordination took place via various fora. At a whole-of-government level, key
+mechanisms for coordinating the Australian Government’s response to COVID-19
+that were in place at the time were:
+• Australian Government Crisis Committee (AGCC)35—led by Home Affairs and
+PM&C, responsible under the AGCMF for coordinating the Australian
+Government’s response to domestic crises, including public health emergencies
+33 Auditor-General Report No. 12 2021–22 Management of International Travel Restrictions during COVID-19,
+paragraph 3.13, p. 58.
+34 Auditor-General Report No. 40 2021–22 COVID-19 Support to the Aviation Sector, paragraphs 2.55–2.56, p.
+42.
+35 When the AGCMF was revised in July 2021, the AGCC was replaced by the Australian Government Crisis
+and Recovery Committee.
+11
+• National Crisis Committee (NCC)36—led by Home Affairs and PM&C, facilitated
+cooperation and coordination between the Australian Government and the
+relevant states and territory governments in response to domestic crises.37
+2.28 The AGCMF also listed the Inter-Departmental Emergency Taskforce (IDETF) as one
+of its whole-of-government coordination mechanisms. The IDETF is led by DFAT and
+is responsible for managing the whole-of-government response to overseas incidents
+or crises that impact or threaten to impact Australians or Australia’s interests
+overseas.38 The IDETF was not convened for the government’s response to
+COVID-19, with the whole-of-government COVID-19 response led by PM&C and
+Home Affairs via the two mechanisms listed above.39
+2.29 There were also inter-departmental committees (IDCs), working groups and
+taskforces established at different levels to coordinate crisis response efforts across
+government. Examples include the COVID-19 Deputies IDC, chaired by a PM&C
+Deputy Secretary, which assumed a lead role in coordinating the COVID-19
+response across the Australian Government with a focus on international travel
+restrictions; and the ‘Taskforce to assist Australians to Return’ led by DFAT, which
+was charged with maximising opportunities for Australians, particularly vulnerable
+people, to return to Australia following the Prime Minister’s statement of
+18 September 2020.40
+2.30 DFAT had existing internal arrangements to coordinate its response to international
+crises. During the inquiry, the Committee conducted a site visit to examine these
+arrangements, which are described in Box 2.1.
+Box 2.1 DFAT’s crisis management arrangements
+On 16 December 2022, the Committee conducted a site visit to DFAT offices in
+Canberra to examine its crisis management arrangements. The visit included a tour of
+the following sites.
+Crisis Centre
+The Crisis Centre is regarded as the ‘engine room’ of the Australian Government’s
+response to international crises and coordinates the whole-of-government IDETF
+meetings. It can be activated within an hour’s notice and draws from a surge staff
+capability of around 200 officers across the department who form the ‘Crisis Cadre’.
+In its submission to the inquiry, DFAT informed the Committee that following the ANAO
+audit it has expanded the number of staff who are crisis ready by almost 60 positions to
+better prepare for a global crisis like COVID-19, including officers at senior executive
+36 When the AGCMF was updated in July 2021, the National Coordination Mechanism (NCM) replaced the
+NCC as the primary committee for national coordination, communication and collaboration during a crisis
+response and recovery.
+37 Department of Prime Minister and Cabinet (PM&C), Australian Government Crisis Management Framework,
+version 2.2, December 2017, p. 23.
+38 PM&C, Australian Government Crisis Management Framework, version 2.2, December 2017, p. 23.
+39 Auditor-General Report No. 39 2021–22, Appendix 7, Note a, p. 102.
+40 Auditor-General Report No. 39 2021–22, paragraph 3.34, pages 58–59.
+12
+level. In October 2022, DFAT established a third crisis centre in a different building ‘to
+provide redundancy during concurrent crises and in instances where the primary
+premises become compromised’. At the 16 December 2022 public hearing, DFAT
+explained that:
+… the crisis centres in DFAT’s RG Casey building were co-located and don’t
+work during a pandemic. We couldn’t really use them because our staff were
+at risk of contracting the virus. So we have set up a third crisis centre in our
+London Circuit office, here in Civic, because that separation enables us to
+better manage a large-scale crisis.41
+The Crisis Centre was recently activated for the Ukraine crisis. It was active for 13 weeks,
+including approximately five weeks of 24/7 operations, which was the longest time the
+centre had been continuously activated for a single crisis.
+Global Watch Office
+The Global Watch Office (GWO) provides DFAT with a 24/7 incident monitoring and
+response capability. It alerts Australian government agencies to world events that could
+impact post security, trigger a consular emergency, require a humanitarian response, or
+are of geopolitical significance. Australian Government agencies, portfolio ministers’
+offices, partner foreign ministries and international organisations use GWO as their first
+point of contact for the department in select situations.
+The GWO has 20 staff operating in three shifts per day, with two to three staff rostered on
+per shift.
+Consular Emergency Centre
+The Consular Emergency Centre (CEC) operates on a continuous 24-hour basis and
+provides urgent consular and passport assistance to Australians overseas. It is the public
+face of the department and the initial point of contact for Australians during a crisis. The
+CEC can connect consular clients with domestic counselling services such as Lifeline and
+other state-based support services, and works with Australian law enforcement agencies
+such as the Australian Border Force, the Australian Federal Police and the Australian
+Maritime Safety Authority.
+In 2021–22, the CEC responded to 66,638 calls, an increase of 23 per cent compared to
+2020–21. The CEC has a total of 19 staff operating across three shifts per day, with three
+staff rostered on each shift.
+Emergency Call Unit
+The Emergency Call Unit (ECU) is activated during a crisis if phone calls from the public
+exceed, or are expected to exceed, the capacity of CEC resources to respond in a timely
+manner. The ECU is staffed by DFAT’s surge capability. If the volume of calls exceeds the
+41 Ms Logan, DFAT, Committee Hansard, Canberra, 16 December 2022, p. 8.
+13
+capacity of the ECU, DFAT maintains a memorandum of understanding with Services
+Australia to enable additional operator support.
+The ECU handled over 16,000 calls in 2021–22, over half of which were in August 2021
+following the fall of the government of the Islamic Republic of Afghanistan.
+2.31 The ANAO noted in its audit that DFAT did not have ‘a single document which clearly
+explains its crisis management framework and sets out key crisis functions and
+accountabilities for these’,42 and stated that ‘there would be value in DFAT
+consolidating its different sources of guidance to show how individual mechanisms
+relate to core functions and how these operate together as a system for crisis
+planning and response’.43 The audit recommended that:
+DFAT consolidate its policy and guidance for crisis management, drawing on the
+Australian Government Crisis Management Framework. The framework should
+set out key crisis management functions and assign clear accountability for
+these, and for the development and assurance of key capabilities.44
+2.32 DFAT agreed to the recommendation. In its submission to the inquiry, DFAT stated
+that it is ‘developing a consolidated crisis management framework with clearly
+articulated crisis management functions and accountability arrangements’, including
+integrating existing documents into ‘an improved single reference point on crisis
+preparedness, and governance and responsibilities during crisis response’.45
+Coordination with states and territories
+2.33 DFAT’s activities to bring overseas Australians back home also required coordination
+with state and territory governments. This was because the states and territories led
+the implementation of the National Cabinet’s decision for all travellers arriving in
+Australia from 28 March 2020 to undertake their mandatory 14-day quarantine at
+‘designated facilities’—for example, hotels.
+2.34 The then Prime Minister’s media release on Friday 27 March 2020 stated that, from
+no later than 11:59pm Saturday 28 March 2020:
+• Travellers will be transported directly to designated facilities after
+appropriate immigration, customs and enhanced health checks.
+• Designated facilities will be determined by the relevant state or territory
+government and will ordinarily be in the city of entry where the traveller
+has cleared immigration, but facilities in other areas may be used if
+required.
+42 Auditor-General Report No. 39 2021–22, paragraph 2.13, p. 27.
+43 Auditor-General Report No. 39 2021–22, paragraph 2.18, p. 28.
+44 Auditor-General Report No. 39 2021–22, Recommendation no. 1, paragraph 2.19, p. 29.
+45 DFAT, Submission 1, p. 3.
+14
+• These requirements will be implemented under state and territory
+legislation and will be enforced by state and territory governments, with
+the support of the Australian Defence Force (ADF) and the Australian
+Border Force (ABF) where necessary.
+• The Commonwealth will provide support through the ABF and ADF for
+these arrangements across Australia, and that states and territories
+would meet the costs and determine any contributions required for
+travellers arriving within their jurisdictions.
+• Air and maritime crews will be required to continue to undertake the
+existing precautions they are following where they self-isolate in their
+accommodation if they enter Australia until their next work voyage.46
+2.35 Hotel quarantine arrangements were established by states and territories over that
+weekend and fully operationalised by 28 March 2020.
+2.36 On 10 July 2020, ‘in order to manage and maintain quarantine arrangements across
+the jurisdictions’, the National Cabinet agreed to impose caps on international arrivals
+at a number of ports of entry from 13 July, comprising:
+• Perth—a cap of 525 international arrivals per week
+• Brisbane—a cap of 500 international arrivals per week
+• Sydney—a cap of 450 international arrivals per day (as first announced on
+3 July).47
+2.37 These passenger caps changed throughout the pandemic, with the lowest cap
+imposed in January 2021 when passenger caps in New South Wales, Queensland
+and Western Australia were temporarily halved.48 Some jurisdictions also suspended
+the arrival of international flights into their ports of entry at specific times as they dealt
+with COVID-19 outbreaks.49 The arrival caps remained in place until November 2021,
+when borders were reopened to fully vaccinated travellers and quarantine
+requirements transitioned from hotel to home quarantine.50
+2.38 The capping of passenger arrival numbers limited the number of people who could
+enter Australia and thus resulted in fewer inbound international flights. At the public
+hearing on 16 December 2022, DFAT commented that the passenger cap, imposed
+46 The Hon Scott Morrison MP, Prime Minister, ‘Update on coronavirus measures’, Media Release, 27 March
+2020, https://pmtranscripts.pmc.gov.au/release/transcript-42761, viewed 17 February 2023.
+47 The Hon Scott Morrison MP, Prime Minister, ‘National Cabinet’, Media Statement, 10 July 2020,
+https://pmtranscripts.pmc.gov.au/release/transcript-43995, viewed 17 February 2023.
+48 The Hon Scott Morrison MP, Prime Minister, ‘Statement—National Cabinet’, Media Statement, 8 January
+2021, https://pmtranscripts.pmc.gov.au/release/transcript-44036, viewed 17 February 2023.
+49 Flights into Melbourne were suspended on 1 July 2020 and into Adelaide on 16 November 2020. Flights
+resumed for both Melbourne and Adelaide airports on 7 December 2020. Flights into Melbourne were
+suspended again on 14 February 2021 and resumed on 9 April 2021.
+50 Senator the Hon Marise Payne, Minister for Foreign Affairs, ‘Next steps to reopen to the world’, Media
+Release, 1 October 2021, https://www.foreignminister.gov.au/minister/marise-payne/media-release/next-
+steps-reopen-world, viewed 17 February 2023.
+15
+as a result of the health requirements around quarantine, was the ‘key constraint’ in
+DFAT’s ability to bring Australians home.51
+2.39 The Australian Government did not establish a national facility for quarantine until
+October 2020, when it entered into an agreement with the Northern Territory
+Government for the provision of quarantine arrangements at the NT Centre for
+National Resilience (Howard Springs) facility. The initial agreement was from 23
+October 2020 to 31 March 2021, at a capacity of 500 individuals per fortnight. This
+arrangement was extended, and capacity increased to a peak of 2,000 individuals a
+fortnight from May 2021, until the facility closed at the end of June 2022.52
+2.40 DFAT informed the Committee that changes to the passenger caps were
+communicated to it through DITRDC, but that it was not consulted by relevant state
+agencies prior to the adjustment of the passenger cap on the potential impact of the
+reduced cap on its efforts to bring overseas Australians home.53
+2.41 DFAT stated that in spite of the challenges, the consultation mechanisms ‘were
+rigorous’ and ‘worked really well in terms of very regular engagement across
+Commonwealth and state governments’, noting that ‘officials [were] working around
+the clock to really try their best to make it work for as large a number of people as
+possible, weighing up risks of people being stuck overseas, overwhelmed hospitals,
+quarantine’.54 DFAT further noted that at times it contacted states with requests for
+exemptions for vulnerable Australians who were on flights that would be above arrival
+caps, and that most states were ‘excellent’ on allowing compassionate exemptions
+on a case-by-case basis.55
+2.42 In a supplementary submission to this inquiry, DFAT noted that:
+A further lesson learned by the department during the pandemic was the
+requirement for Australian Government, with State and Territory Governments, to
+collectively improve our ability to work together to respond to crises across
+jurisdictions (for example, entry and testing requirements during a health crisis).56
+51 Ms Logan, DFAT, Committee Hansard, Canberra, 16 December 2022, p. 9.
+52 Federal Financial Relations, The Provision of COVID-19 Quarantine Arrangements at the Northern Territory
+Centre for National Resilience for Organised National Repatriation of Australians, October 2020,
+https://federalfinancialrelations.gov.au/agreements/provision-covid-19-quarantine-arrangements-northern-
+territory-centre-national-resilience, viewed 17 February 2023.
+53 Ms Logan, DFAT, Committee Hansard, Canberra, 16 December 2022, p. 10.
+54 Ms Logan, DFAT, Committee Hansard, Canberra, 16 December 2022, p. 11.
+55 Ms Logan, DFAT, Committee Hansard, Canberra, 16 December 2022, p. 10.
+56 DFAT, Submission 1:2, Answer to Question on Notice 21, p. [27].
+16
+Assisting vulnerable Australians
+Facilitated flights
+2.43 As outlined at the beginning of this chapter, the ANAO described two phases in
+DFAT’s efforts to bring overseas Australians back home. During phase one, DFAT
+arranged early evacuation flights from Wuhan and a cruise ship in Tokyo in
+February 2020, and managed 27 more contracted flights from 31 March 2020 to
+6 June 2020. The audit report noted that ‘flights activity ceased from the end of June
+2020 until a standing arrangement was put in place with Qantas Airways (Qantas) in
+October 2020 for non-scheduled facilitated flights’.57 This led into phase two of
+DFAT’s response centred on facilitated commercial flights, of which there were 227 in
+total.
+2.44 There was a gap of about four months, from the end of June to late October 2020, in
+which no evacuation flights were facilitated by DFAT for stranded Australians. The
+global environment for aviation was challenging, creating significant complexity for all
+governments, including issues in relation to landing rights, airline staffing, aircraft
+availability, and a myriad of health restrictions.
+2.45 The ANAO found that although DFAT appropriately advised the government in
+March 2020 that it would not be possible to assist all Australians to return to Australia
+due to resourcing and other constraints in providing consular assistance to all parts
+of the world, further advice it provided to government at different points during the
+pandemic did not always have a clear evidence base.58 In particular, the ANAO
+noted:
+At the end of April 2020, DFAT advised the government that despite sizeable
+cohorts it was not planning ‘further facilitated flights from regions in which there
+have been numerous opportunities to leave through such flights’. DFAT did not
+identify these regions or provide a rationale for adopting this position. Advice did
+not include a supporting analysis of risks for overseas Australians still seeking to
+return to Australia or sensitivities for the government.59
+2.46 The audit report further commented that:
+Proposals to limit or cease crisis assistance should be supported by a
+documented policy framework. Processes for developing advice could consider
+questions such as: whether all citizens should have access to crisis assistance,
+irrespective of the difficulty or cost of providing the service; the circumstances
+under which Australians may not be assisted; and how this should be
+communicated to the public. This would help ensure such decisions are made
+57 Auditor-General Report No. 39 2021–22, footnote 148, p. 53.
+58 Auditor-General Report No. 39 2021–22, paragraphs 3.8–3.9, p. 53.
+59 Auditor-General Report No. 39 2021–22, paragraph 3.10, p. 53.
+17
+consistently and better enable DFAT to manage expectations of the extent of
+assistance it is able to provide.60
+2.47 DFAT informed the Committee that it is aware of 136 Australians (citizens and
+permanent residents) who died overseas with COVID-19 before 11 March 2022. Of
+these, 14 had been registered with DFAT, and three of these 14 registrants had been
+categorised as vulnerable.61 No evidence was received with regard to the location of
+the registrants or what support was provided.
+Identifying vulnerable Australians
+2.48 The ANAO noted in its audit report that DFAT identified vulnerable Australians who
+required assistance when they contacted posts and/or received registrations through
+its CCCI database.62 Data quality issues relating to the CCCI database are outlined
+earlier in the chapter. The ANAO noted the following shortcomings in specific relation
+to recording vulnerability:
+• The online registration form did not have a specific field for registrants to include
+information about their vulnerabilities, with some registrants providing information
+in an ‘additional information’ free-text field. Prior to December 2020, DFAT used
+key word searches in this ‘additional information’ field to identify vulnerable
+Australians.63
+• In March 2021, DFAT developed a Vulnerable Client Policy which states that
+vulnerable Australians include individuals with no financial means to support
+themselves, visa issues and medical conditions. The audit found however that this
+policy did not make clear how assessments of vulnerability were to be
+documented.64
+2.49 At the public hearing on 16 December 2022, the Auditor-General explained that
+receiving information in free-text fields meant that ‘your ability to control and utilise
+the data drops in a significant crisis environment’.65 The Auditor-General further
+commented that free-text information also results in poor quality data:
+… ‘elderly’, for example, was a term used a number of times within the free-text
+field. It doesn’t give you a sense of the vulnerability for them to do a risk
+assessment against.66
+2.50 Once vulnerable Australians were identified, DFAT offered them an exclusive
+48-hour booking window through a priority booking weblink provided by Qantas as
+seats became available. The audit report outlined some complications that arose with
+this arrangement. This included rejections of flight offers and the sharing of these
+60 Auditor-General Report No. 39 2021–22, paragraph 3.13, p. 54.
+61 DFAT, Submission 1:2, Answer to Question on Notice 6, p. [8].
+62 Auditor-General Report No. 39 2021–22, paragraph 3.75, p. 68.
+63 Auditor-General Report No. 39 2021–22, paragraph 3.76, p. 68.
+64 Auditor-General Report No. 39 2021–22, paragraph 3.78, p. 68.
+65 Mr Grant Hehir, Auditor-General, Committee Hansard, Canberra, 16 December 2022, p. 16.
+66 Mr Grant Hehir, Auditor-General, Committee Hansard, Canberra, 16 December 2022, p. 16.
+18
+booking weblinks with other travellers, including via social media, meaning not all
+people who booked through the priority booking weblink had been listed as
+vulnerable.67
+2.51 The ANAO noted that reasons for passengers rejecting flight offers were not
+recorded by DFAT staff in a ‘systematic or consistent way’, making it difficult to
+support an analysis of key reasons for registrants not accepting these offers.68 At the
+public hearing, DFAT noted that ‘some people had extremely good reasons for not
+being able to return on the flights. They had jobs, they had leases, they had kids in
+school—all the complexities of life that meant they weren’t able to travel on a
+particular date’.69
+2.52 According to the audit report, DFAT reported to government on 27 August 2021 that
+it had returned 5,598 Australians registered as vulnerable. The ANAO was not able
+to verify this figure against the final flight manifests and noted in the audit report that
+the ‘variance between ANAO findings and DFAT’s reporting ranged between 21 and
+59 per cent’.70
+2.53 The ANAO recommended that DFAT ‘develop clear policies and procedures for
+assessing and recording vulnerability to ensure it is able to appropriately
+demonstrate the basis of its decision-making on the provision of benefits to the
+public’.71 DFAT agreed to this recommendation. In its submission to this inquiry,
+DFAT informed the Committee that:
+In response to the recommendation, DFAT is enhancing policies and procedures
+for assessing vulnerability. DFAT has strengthened procedures and guidance in
+its Consular Handbook to ensure we can better demonstrate the basis of
+decision-making during crisis response, with consideration of the specific
+circumstances, and scale applicable to the relevant crisis. DFAT has also
+reviewed and expanded the vulnerability ‘markers’ that can be recorded against
+clients in its consular information systems.72
+2.54 As observed earlier in the chapter, DFAT has indicated improvements in its
+registration system to make it more fit-for-purpose. DFAT noted at the public hearing
+that ‘in the new, better-fit-for-purpose registration system, there is now functionality
+built into the online public-facing portal, where there are vulnerability identifiers’.73
+67 Auditor-General Report No. 39 2021–22, paragraphs 3.82–3.86, p. 69.
+68 Auditor-General Report No. 39 2021–22, paragraph 3.87, p. 70.
+69 Ms Logan, DFAT, Committee Hansard, Canberra, 16 December 2022, p. 18.
+70 Auditor-General Report No. 39 2021–22, Appendix 9, p. 106.
+71 Auditor-General Report No. 39 2021–22, Recommendation no. 6, paragraph 3.80, p. 69.
+72 DFAT, Submission 1, p. 7.
+73 Ms Logan, DFAT, Committee Hansard, Canberra, 16 December 2022, p. 16.
+19
+Overseas Financial Assistance (Hardship) Program
+2.55 On 2 September 2020, the Australian Government announced the COVID-19 Special
+Overseas Financial Assistance (Hardship) Program to assist eligible vulnerable
+Australians overseas. DFAT explained that it had been introduced for two reasons:
+The first reason was to cover the costs of people’s airfares home if they didn’t
+have the means. …
+The other reason was for those who were not able to return home because they
+couldn’t get on a commercial flight. It was sort of sustenance for those overseas.
+It was money designed to sustain families until they could get home. Some of
+those were loans, and some were grants in particular circumstances of hardship
+and compassion.74
+2.56 The ANAO noted in its audit that:
+As at 25 January 2022, DFAT dashboard reporting indicated DFAT had received
+10,316 Hardship Program applications. Of these, 5717 had been approved. The
+ANAO did not observe any material variance between DFAT’s reporting and the
+ANAO’s analysis.75
+2.57 The Hardship Program operated until the end of March 2022. DFAT informed the
+Committee that it had issued a total of $44.54 million under the program, comprising
+$35.19 million in grants and $9.35 million in loans.76
+2.58 At the 16 December 2022 public hearing, the Committee inquired about DFAT’s
+publicisation of the program to eligible vulnerable Australians overseas. A submission
+to the inquiry from Mr Robin Hornby, who had been stranded in Thailand during
+2020, stated that he had not initially been made aware of available financial
+assistance, and that once he applied for assistance, he encountered difficulties in
+providing required documentation while overseas for the application process.77 DFAT
+informed the Committee that:
+It was on the website. It was publicised. It went out through Smartraveller, the
+DFAT travel advice system. It was as public as we could make it. I know it was
+also disseminated through some of the Facebook user groups and so on.78
+74 Ms Logan, DFAT, Committee Hansard, Canberra, 16 December 2022, p. 20.
+75 Auditor-General Report No. 39 2021–22, paragraph 3.98, p. 71.
+76 DFAT, Submission 1:2, Answer to Question on Notice 25, p. [38]. Australian pension holders and minors
+(children under 18 years of age) were eligible to apply for grants instead of loans: see Department of Foreign
+Affairs and Trade, COVID-19: Overseas financial assistance FAQs, September 2020,
+https://web.archive.org/web/20200929115857/https://www.smartraveller.gov.au/COVID-19/COVID-19-
+overseas-financial-assistance-FAQs, viewed 22 March 2023.
+77 Mr Robin Hornby, Submission 3.
+78 Ms Logan, DFAT, Committee Hansard, Canberra, 16 December 2022, p. 20.
+20
+2.59 DFAT also commented that, separate to its responses to the audit report, it had been
+working to improve Smartraveller to better disseminate information to the travelling
+public:
+We have a new Smartraveller campaign launching—probably in January or
+February next year—and we have a new Smartraveller Instagram. So we have
+new ways of getting out to people. We’re particularly targeting young people who
+don’t look at websites anymore. We think Instagram is a good way of doing that.
+So that’s launched. Hopefully in the next pandemic there will be more public
+channels of information.79
+2.60 In its supplementary submission, DFAT informed the Committee that ‘as of
+31 December 2022, a total of $5.475 million remains owing in hardship loans, with
+$3.271 million having been repaid’. DFAT stated that it is taking ‘a compassionate
+approach to the recovery of loans, including through repayment by instalment options
+and temporary payment deferrals on a case-by-case basis’. A Traveller Emergency
+Loan Unit was established in DFAT to manage the outstanding hardship loans.80
+Consideration of human rights during crisis
+2.61 A submission to the inquiry from the Australian Human Rights Commission (AHRC)
+noted that ‘crisis management frameworks in Australia, most notably the Australian
+Government Crisis Management Framework, do not sufficiently engage with human
+rights considerations as an integral part of any effective emergency response’.81 The
+AHRC was critical of the ANAO audit report for ‘mak[ing] no mention of human rights
+at all, particularly failing to consider this significant aspect of border closures when
+framing its nine recommendations’.82
+2.62 The AHRC’s submission commented that significant human rights impacts had
+resulted from the temporary ban on travel from India from 3 to 15 May 2021 during
+the Delta outbreak. The travel ban was first announced by the Prime Minister on
+27 April 2021 on advice of the Chief Medical Officer.83 On 30 April 2021, the then
+Health Minister made an emergency determination under the Biosecurity Act 2015,
+banning a passenger from entering Australian territory ‘if the person had been in
+India within 14 days before the day the flight was scheduled to commence’.84 The
+Health Minister’s media release stated that this decision was ‘based on advice about
+the worsening COVID-19 situation in India’, with the determination to come into effect
+79 Ms Logan, DFAT, Committee Hansard, Canberra, 16 December 2022, p. 20.
+80 DFAT, Submission 1:2, Answer to Question on Notice 17, p. [23].
+81 Australian Human Rights Commission (AHRC), Submission 2, p. 4.
+82 AHRC, Submission 2, p. 2.
+83 The Hon Scott Morrison MP, Prime Minister, ‘Flights from India now paused as Australia sends emergency
+medical supplies’, Media Release, 27 April 2021, https://pmtranscripts.pmc.gov.au/release/transcript-43340,
+viewed 17 February 2023.
+84 Biosecurity (Human Biosecurity Emergency) (Human Coronavirus with Pandemic Potential) (Emergency
+Requirements—High Risk Country Travel Pause) Determination 2021, s. 6.
+21
+from 3 May 2021, and failure to comply with it liable to ‘incur a civil penalty of 300
+penalty units [$66,000], five years’ imprisonment, or both’.85
+2.63 In a supplementary submission, DFAT informed the Committee that ‘at the time of
+the decision to pause passenger flights from India to Australia (27 April 2021),
+9,035 Australian citizens, permanent residents and family members were registered
+with DFAT seeking assistance to return to Australia’.86 DFAT had previously informed
+the Senate Select Committee on COVID-19 on 7 May 2021 that around
+950 Australians registered with DFAT in India were classified as vulnerable.87
+2.64 Acknowledging that ‘border closures can play a necessary and significant role in
+upholding other human rights, such as the right to life’, the AHRC concluded that:
+To improve crisis management planning it is necessary to evaluate and review
+existing crisis management frameworks to ensure that Australia is better
+prepared for future crises. Future planning must consider human rights to ensure
+crisis response measures that limit or restrict human rights are necessary,
+reasonable and proportionate.88
+2.65 As noted in Chapter 1, the AGCMF was last updated in November 2022 to reflect the
+updated administrative arrangements, including the establishment of the National
+Emergency Management Agency. DFAT advised the Committee that ‘the update [of
+November 2022] did not consider broader issues’, and noted that ‘the Department of
+the Prime Minister and Cabinet, who administer the AGCMF, will commence a
+comprehensive review of the AGCMF in 2023’.89
+Procurement during COVID-19
+2.66 The Public Governance, Performance and Accountability Act 2013 (PGPA Act) and
+Commonwealth Procurement Rules (CPRs) provide the framework under which
+government entities are required to undertake procurement activities. Paragraph 2.6
+of the CPRs provides an exemption from the rules, to the extent deemed necessary
+by the accountable authority, in certain situations including ‘for the maintenance or
+restoration of international peace and security, to protect human health, for the
+protection of essential security interests, or to protect national treasures of artistic,
+historic or archaeological value’.
+85 The Hon Greg Hunt MP, Minister for Health, ‘Travel arrangements to be strengthened for people who have
+been in India’, Media Release, 30 April 2021, https://www.health.gov.au/ministers/the-hon-greg-hunt-
+mp/media/travel-arrangements-to-be-strengthened-for-people-who-have-been-in-india, viewed 17 February
+2023.
+86 DFAT, Submission 1:2, Answer to Question on Notice 13, p. [18].
+87 Ms Lynette Wood, First Assistant Secretary, Consular and Crisis Management Division, Department of
+Foreign Affairs and Trade, Senate Select Committee on COVID-19, Committee Hansard, Canberra, 7 May
+2021, p. 16.
+88 AHRC, Submission 2, p. 4.
+89 DFAT, Submission 1:2, Answer to Question on Notice 8, p. [11].
+22
+2.67 In its audit report, the ANAO noted that ‘exempt procurements remain subject to
+other requirements of the CPRs, including the core principle of achieving value for
+money’.90
+2.68 The ANAO observed some shortcomings in DFAT’s procurement activities during the
+pandemic. On 28 February 2020, the Secretary of DFAT retrospectively approved the
+application of paragraph 2.6 of the CPRs for evacuation flights procured on
+1 February 2020. The approval document did not specify how DFAT would obtain
+value for money.91
+2.69 On 14 November 2021, after travel restrictions were removed in Australia on
+1 November, the Secretary noted the department’s advice on the likely need for
+further facilitated commercial flights and agreed to continue direct approaches to
+airlines to enable flexible procurements. This advice also did not set out how value
+for money would be achieved.92
+2.70 At the public hearing on 16 December 2022, the Auditor-General commented:
+I think our concern, across a number of audits, with using paragraph 2.6 is that
+simply setting aside the whole framework for procurement doesn’t give you a
+framework for procurement. We can understand why you would set aside some
+of the requirements in an emergency situation, but, in doing that, you still have to
+demonstrate value for money. …
+They go, ‘We apply 2.6 and the rules don’t apply, but what does?’ This then
+becomes the question. And what we’d expect to see is a brief going to the
+accountable authority saying, ‘We shouldn’t apply the rules, and the process for
+procurement we’re going to undertake is this.’ And it should say why.93
+2.71 The ANAO made a recommendation to DFAT to develop emergency procurement
+guidelines to support officials to meet their obligations when the procurement rules
+are set aside during a crisis.94 DFAT disagreed with this recommendation. At the
+public hearing, it elaborated that the disagreement, as with the recommendation
+relating to the travel registration system, was with the framing of the
+recommendation, rather than its substance.95 DFAT informed the Committee that
+improvements have since been made to its procurement policy:
+… in June this year [2022], the DFAT procurement policy was updated and now
+includes instructions on compliance with record-keeping requirements in a crisis.
+So the justification, such as it is, is that everyone was so busy trying to do, that
+there wasn’t enough of recording how and why we did. I think that gap has now
+been rectified with these updated procurement processes. The ones that have
+been implemented further emphasise the importance of achieving value for
+90 Auditor-General Report No. 39 2021–22, paragraph 3.59, p. 65.
+91 Auditor-General Report No. 39 2021–22, paragraph 3.60, p. 65.
+92 Auditor-General Report No. 39 2021–22, paragraph 3.62, pages 65–66.
+93 Mr Grant Hehir, Auditor-General, Committee Hansard, Canberra, 16 December 2022, pages 19, 21.
+94 Auditor-General Report No. 39 2021–22, Recommendation no. 5, paragraph 3.64, p. 66.
+95 Ms Logan, DFAT, Committee Hansard, Canberra, 16 December 2022, p. 20.
+23
+money and retaining sufficient records of the considerations made during that
+procurement process. In September [2022], a procurement record-keeping guide
+was published by DFAT for DFAT staff to use, including during a crisis; they are
+the direct flow-on effects, essentially, from the audit.96
+Committee comment
+2.72 The Committee commends the efforts of DFAT officers in assisting overseas
+Australians in highly complex and unpredictable circumstances of the pandemic. A
+crisis of this scale, the speed with which it emerged, and its truly global nature was
+unprecedented in our modern globalised era and required an extraordinary consular
+response. The Committee also acknowledges the value of DFAT’s ‘everyday’ work to
+support Australians overseas, dealing with various crises large and small. The extent
+of effort involved in providing these essential services was made clear during the site
+visit, where the Committee had the opportunity to speak to DFAT officers and
+observe the arrangements in person, including those that are staffed and closely
+monitored on a 24-hour basis.
+2.73 The Committee acknowledges DFAT’s generally excellent track record in managing
+major and isolated crises in many parts of the world. The pandemic however
+revealed some lack of preparation to manage a full global crisis in which issues
+erupted rapidly across the world. The Committee sees the ANAO’s audit as an
+opportunity for DFAT, and the Australian Government more broadly, to learn from the
+response to the pandemic and strengthen the arrangements in place to improve our
+collective response in the event of another global crisis.
+2.74 The Committee found it peculiar that DFAT disagreed with two recommendations due
+to ‘framing’, yet did not seem to disagree with the substance and in effect has acted
+upon them. The Committee has not been able to understand DFAT’s rationale for
+disagreeing with the recommendations, but nevertheless welcomes DFAT’s advice
+that it has largely implemented the suggested improvements identified in ANAO’s
+recommendations, including the two recommendations it had disagreed with.
+2.75 There are a number of recommendations that DFAT is still in the process of
+implementing, with most scheduled for completion by June 2023. The Committee
+considers there would be merit in monitoring the completion of these remaining
+recommendations to ensure all findings have been satisfactorily addressed.
+Recommendation 1
+2.76 The Committee recommends that the Department of Foreign Affairs and Trade
+provide it with an update on the status of projects planned or commenced in
+response to the Australian National Audit Office’s findings, including progress
+of implementing the recommendations, by the end of August 2023.
+96 Ms Logan, DFAT, Committee Hansard, Canberra, 16 December 2022, p. 19.
+24
+2.77 The audit report highlighted a number of shortcomings in DFAT’s data capability in
+the context of its crisis response. The Committee acknowledges the difficulties in
+gathering and using data in crisis situations, where rapid pace of events can make it
+challenging to collect and quality assure data.
+2.78 The availability of reliable and accurate data is critical to ensuring a robust, evidence-
+based crisis response. Advice to government on the status and trajectory of the
+response should be supported by this data. Where data indicates that achievability of
+a government policy objective or commitment is at risk, timely advice should be
+provided to relevant ministers to ensure the government and the public, including
+those relying on government assistance, are informed of the evolving situation.
+Further, where data is not available, or data quality is poor, appropriate caveats
+should be included in advice to government to ensure informed decision-making. The
+Committee acknowledges DFAT’s progress in implementing the audit
+recommendations relating to data capability.
+2.79 On a related note, the Committee also considers that government ministers have a
+responsibility to be as fully informed by sensible and evidence-based advice from
+public servants as possible before making public commitments in such sensitive
+areas. DFAT's evidence that no advice was provided to Ministers before these public
+commitments were made is deeply concerning. Furthermore, if subsequent advice
+suggests that a public commitment may not be able to be kept, the relevant minister
+should revise the commitment to ensure the ongoing reliability and transparency of
+government responses.
+2.80 During the inquiry, it became evident to the Committee the complexities involved in
+DFAT’s efforts to bring Australians home in the midst of various international and
+domestic travel restrictions and public health requirements. The Committee notes the
+lack of adequate quarantine facilities in Australia was one of the key constraints upon
+DFAT’s activities in this regard.
+2.81 While the Committee acknowledges that quarantine arrangements had been
+negotiated and established on very short notice early in the pandemic as the crisis
+developed, the Committee considers that more could and should have been done by
+the Commonwealth in this space later on to enable stranded Australians to return
+from overseas. This is especially the case as the pandemic progressed and the virus
+evolved and became more infectious. It became clear that it was not going to be
+possible for states to provide and manage sufficiently secure quarantine facilities in
+hotels, hence their imposition of arrival caps, and there were calls by independent
+experts that expanded standalone, purpose-built quarantine facilities were needed.
+2.82 The Committee notes that there had been two national reviews into hotel quarantine
+conducted by Adjunct Professor Jane Halton AO PSM in 2020 and 2021.97 The 2021
+review noted that the recommendations from 2020 had been largely implemented
+97 J Halton AO PSM, National Review of Hotel Quarantine, 23 October 2020,
+https://www.health.gov.au/resources/publications/national-review-of-hotel-quarantine, viewed 7 February
+2023; J Halton AO PSM, National Review of Quarantine, 12 October 2021,
+https://www.pmc.gov.au/publications/national-review-quarantine, viewed 17 February 2023.
+25
+and made nine further recommendations to Australian governments.98 A response to
+the 2021 review has never been provided by the government.
+2.83 Australia, like much of the world, has now largely transitioned into a state of ‘COVID
+normal’ and the Committee acknowledges that some of the recommendations were
+particular to the time the report was released. However, the Committee considers
+there would be merit in providing a formal response to the 2021 Halton review and
+implementing those recommendations that remain generally applicable, in order to
+better prepare for potential future public health crises.
+Recommendation 2
+2.84 The Committee recommends that the Australian Government publish a formal
+response to the 2021 Halton review into national hotel quarantine
+arrangements.
+2.85 A key part of DFAT’s role during the pandemic was to assist vulnerable Australians
+seeking to return to Australia. The Committee acknowledges DFAT’s efforts to
+prioritise the return of registered Australians assessed as vulnerable during the
+pandemic and welcomes the improvements it has since made in identifying and
+recording vulnerability ‘markers’ in its consular information systems.
+2.86 The Committee believes there are a number of areas in which service of vulnerable
+Australians can be strengthened. In particular, the Committee notes that there was a
+gap of approximately four months between June and October 2020 where no
+evacuation flights were organised for stranded Australians, after which a contract for
+facilitated commercial flights was arranged with Qantas. Speaking with the benefit of
+hindsight, the Committee is of the view that it would have been prudent if DFAT had
+examined pathways to establish an agreement for facilitated flights with Qantas and
+other airlines earlier in the pandemic. The Committee acknowledges that the
+commercial environment of the airlines was complex at this time. The Committee is
+optimistic that the lessons learned from the pandemic will assist with a greatly
+improved response to any future crisis.
+2.87 Another key area relating to vulnerable Australians during crisis relates to the
+consideration of human rights. These issues relate especially, although not only, to
+Australians banned from returning to Australia stranded in India as the virus swept
+the population there. The Committee acknowledges the AHRC’s concerns that the
+whole-of-government crisis management framework is silent on the need to consider
+the protection of human rights as a key factor in a crisis response. In a public health
+crisis like the pandemic, certain restrictions on rights and freedoms may be
+necessary to ensure the protection of public health and the integrity of supporting
+institutions. However, these restrictions should be necessary, reasonable and
+proportionate in the circumstances, and decision-makers should turn their minds
+explicitly to these matters.
+98 J Halton AO PSM, National Review of Quarantine, 12 October 2021, pages 6, 8–9,
+https://www.pmc.gov.au/publications/national-review-quarantine, viewed 17 February 2023.
+26
+2.88 The Committee notes advice from DFAT that PM&C, as the whole-of-government
+framework’s policy owner, is planning to commence a comprehensive review of the
+AGCMF in 2023.
+Recommendation 3
+2.89 The Committee recommends that the Department of Prime Minister and
+Cabinet (PM&C), in its 2023 review of the Australian Government Crisis
+Management Framework, incorporate human rights considerations in the
+framework, and outline measures to ensure that any crisis response limiting or
+restricting human rights is necessary, reasonable and proportionate. PM&C
+should also require relevant entities to update their entity-level crisis
+management policies and plans to reflect this change.
+2.90 The Committee notes that the ANAO has listed under phase three of its COVID-19
+audit strategy99 a potential performance audit of the AGCMF to examine its
+effectiveness in facilitating the Australian Government’s response to the COVID-19
+pandemic.100
+Recommendation 4
+2.91 The Committee recommends that the Auditor-General consider undertaking a
+performance audit of the Australian Government Crisis Management
+Framework and include within the audit scope whether the updated framework
+adequately reflects lessons learned from COVID-19.
+Julian Hill MP
+Chair
+23 March 2023
+99 ANAO, ANAO COVID-19 multi-year audit strategy, November 2022, https://www.anao.gov.au/work-
+program/covid-19, viewed 17 February 2023.
+100 ANAO, COVID-19: Australian Government Crisis Management Framework, 2022,
+https://www.anao.gov.au/work/performance-audit/covid-19-australian-government-crisis-management-
+framework, viewed 17 February 2023.
+27
+
+Coalition members' additional
+comments
+As a once in a generation pandemic, the circumstances of the COVID-19 pandemic were
+extraordinary and there are lessons to be learnt.
+The Morrison Government declared the COVID-19 pandemic on 27 February 2020, before
+the World Health Organization declared it on 11 March 2020. The early acknowledgement
+and action in closing international borders meant the Government could put health and
+economic measures in place to protect lives and livelihoods.
+During the COVID-19 pandemic, the Department of Foreign Affairs and Trade’s established
+crisis framework enabled it to successfully assist 61,755 Australians to return and facilitate
+227 flights.
+The response to the pandemic was tough but it allowed Australia to be one of the few
+countries to come out of the pandemic stronger, with over 95% of Australians vaccinated
+and saving over 40,000 lives. As of February 2023, more than 64 million vaccine doses have
+been administered. With misinformation undermining efforts, the Department of Health’s Is It
+True? portal opened on 14 March and provided information on the safety and effectiveness
+of the vaccine rollout in more than 63 languages for multicultural communities.
+In Australia from 3 January 2020 to 21 March 2023, there have been 11,380,700 confirmed
+cases of COVID-19 with 19,447 deaths reported to the World Health Organization – meaning
+Australia has only contributed to 0.28% of the world’s deaths and 1.5% of cases. Other large
+economies such as the United States, China and India who did not implement measures like
+Australia did, had significantly more cases and deaths. The United States for example, has
+confirmed more than 102 million cases (13.5% of global cases) and more than one million
+deaths (16.2% of global deaths) with only 69% of the population fully vaccinated.
+There is no doubt that the JobKeeper payment and other Federal Government financial
+supports played a key role in supporting the national economy throughout the pandemic,
+ensuring businesses could keep employees connected. The Reserve Bank estimates the
+payment reduced total job losses by 700,000 between April and July 2020 and Treasury
+estimated the unemployment rate would have been at least 5% higher. The Morrison
+Government’s $314 billion in direct economic support including payments to individuals and
+support for businesses, contributed to Australia keeping its AAA credit rating – one of only
+nine countries to achieve this.
+29
+Senator the Hon Linda Reynolds CSC Mr Ian Goodenough MP
+Mr Henry Pike MP Mr Aaron Violi MP
+30
+A. Submissions
+1 Department of Foreign Affairs and Trade
+• 1.1 Supplementary to submission 1
+• 1.2 Supplementary to submission 1
+2 Australian Human Rights Commission
+3 Mr Robin Hornby
+31
+
+B. Public hearing and site visit
+Friday, 16 December 2022 — Canberra
+Department of Foreign Affairs and Trade
+• Ms Kate Logan, First Assistant Secretary, Consular and Crisis Management
+Division
+• Ms Jo Talbot, Chief People Officer
+• Ms Lynn Bell, Assistant Secretary, Crisis Preparedness and Management Branch
+Australian National Audit Office
+• Mr Grant Hehir, Auditor-General
+• Ms Carla Jago, Group Executive Director, Performance Audit Services Group
+• Mr Alex Wilkinson, Executive Director, Performance Audit Services Group
+Friday, 16 December 2022 — Site visit, Department of Foreign Affairs and
+Trade Crisis Centre, RG Casey Building, Canberra
+Department of Foreign Affairs and Trade
+• Lynn Bell, Assistant Secretary, Crisis Preparedness and Management Branch
+• Madeleine Casey, Acting Assistant Secretary, Consular Modernisation and
+Capability Branch
+• Matthew Hyndes, Director, Global Watch Office
+• Shae-Lee Burnell, Assistant Director, Crisis Management Section
+• Cherise Fraser, Policy Officer, Consular Coordination, Performance and Strategy
+Section
+33
+
+C. Timeline of key events
+Table C.1 Timeline of key events in Australian Government response to COVID-19
+Date Description of events Entities involved
+09/01/2020 World Health Organization (WHO) reports that Chinese -
+authorities made a preliminary determination of a novel
+coronavirus in Wuhan.
+21/01/2020 COVID-19 is listed as a disease of pandemic potential Health
+under the Biosecurity Act 2015.
+25/01/2020 First case of COVID-19 in Australia is confirmed. Health
+01/02/2020 International travel restrictions are implemented for foreign Home Affairs; Health
+nationals entering Australia from China.
+01/02/2020 Travel advice for mainland China is raised to ‘Level 4 – Do DFAT
+not travel’.
+3/02/2020; DFAT organises assisted departure flights from Wuhan. DFAT
+9/02/2020
+19/02/2020 DFAT evacuates 164 passengers from the Diamond DFAT
+Princess cruise ship anchored in Tokyo.
+1/03/2020 Inward travel restrictions on foreign nationals entering Home Affairs
+Australia from Iran implemented.
+5/03/2020 Inward travel restrictions on foreign nationals entering Home Affairs
+Australia from South Korea implemented.
+11/03/2020 Inward travel restrictions on foreign nationals entering Home Affairs
+Australia from Italy implemented.
+13/03/2020 Travel advice for all countries raised to ‘Level 3 — DFAT
+Reconsider your need to travel’.
+15/03/2020 Compulsory 14-day self-isolation implemented for all Home Affairs; Health
+international arrivals.
+18/03/2020 Travel advice for all overseas countries raised to ‘Level 4 DFAT
+– Do not travel’.
+18/03/2020 Governor-General declares a human biosecurity Health
+emergency period until 17 June 2020 (this was extended
+throughout the pandemic to until it expired in April 2022).
+20/03/2020 Inward travel restrictions on foreign nationals entering Home Affairs
+Australia from any country implemented.
+35
+25/03/2020 Outward travel restrictions on Australians travelling Health; Home Affairs
+overseas implemented.
+26/03/2020— DFAT arranges facilitated flights from Peru, Argentina, DFAT
+29/03/2020 South Africa, Nepal, and Uruguay, including passengers
+from the Ocean Atlantic cruise ship.
+28/03/2020 Mandatory 14-day quarantine at designated hotels and Health; Home Affairs;
+other facilities implemented by states and territories. PM&C
+10/07/2020 National Cabinet agrees on incoming passenger caps at DITRDC
+major international airports.
+2/09/2020 The Overseas Financial Assistance (Hardship) Program is DFAT
+announced.
+18/09/2020 National Cabinet agrees to increase the availability of -
+quarantine places. Prime Minister states that government
+would seek to return overseas Australians by Christmas.
+21/09/2020 Taskforce established to bring back Australians registered DFAT
+with DFAT (as at 18 September) by Christmas 2020.
+13/10/2020 DFAT and Qantas enter into an agreement for flight DFAT
+services for 12 months.
+20/10/2020 The Australian Government enters into an agreement with Health
+the Northern Territory Government to establish the Centre
+for National Resilience at Howard Springs, with quarantine
+capacity for 500 individuals a fortnight.
+22/02/2021 The agreement for Howard Springs is varied to increase Health
+capacity to 2,000 individuals a fortnight from May 2021.
+27/04/2021 Flights from India to Australia are suspended. DITRDC
+14/05/2021 Flights from India for returning Australians resume. DITRDC
+28/10/2021 The Australian Government removes the global ‘Do not DFAT
+travel’ advice for all destinations.
+1/11/2021 Fully vaccinated Australians permitted to travel overseas. Health; Home Affairs
+21/11/2021 DFAT closes its COVID-19 registration portal. DFAT
+1/12/2021 Australian international borders reopened to fully Health; Home Affairs
+vaccinated eligible visa holders.
+21/02/2022 Australian international borders reopened to include all Health; Home Affairs
+fully vaccinated visa holders.
+6/07/2022 Australian international borders reopened to include Home Affairs
+unvaccinated visa holders.
+Source: Auditor-General Report No. 39 2021–22 Overseas Crisis Management and Response: The Effectiveness of the
+Department of Foreign Affairs and Trade’s Management of the Return of Overseas Australians in Response to the COVID-19
+Pandemic, Appendix 5, p. 97; Auditor-General Report No. 12 2021–22 Management of International Travel Restrictions during
+COVID-19, Appendix 3, p. 115.
+36

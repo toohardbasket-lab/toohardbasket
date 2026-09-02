@@ -1,0 +1,1992 @@
+Report 515: Inquiry into the
+effectiveness of Australia's
+National Anti-Doping Scheme
+Joint Committee of Public Accounts and Audit
+March 2026
+CANBERRA
+© Commonwealth of Australia 2026
+ISBN 978-1-76092-864-3 (Printed version)
+ISBN 978-1-76092-865-0 (HTML version)
+All material in this report is provided under a Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 Australia licence. The material may be shared, copied and redistributed provided that:
+• it is for non-commercial purposes
+• the committee named on the previous page is credited as the author
+• the committee is not represented as endorsing the use of the material
+• any changes are clearly identified
+• no additional legal or technical restrictions are applied to restrict use that complies with the
+licence.
+If the material is remixed, transformed or built upon, the modified material may not be distributed.
+Full details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Foreword
+Sport is an important part of Australian life and Sport Integrity Australia (SIA), as the
+regulator of Australia’s National Anti-Doping Scheme, plays a critical role in safeguarding its
+integrity.
+As a regulator, SIA is required to regulate in a matter that is demonstrably risk-based and
+data driven, and supported by effective governance and management arrangements that
+guard against the risks of regulatory capture.
+The Committee’s inquiry examined aspects of SIA’s regulatory activities including: SIA’s
+approach to preventing, detecting and responding to anti-doping rule violations; its
+governance arrangements; its regulatory approach to managing Australia’s anti-doping
+testing program; and the robustness of its investigative framework and quality assurance
+practices.
+During the inquiry, the Committee was concerned to find that SIA’s approach to regulation,
+specifically in relation to sports that pay for their own anti-doping testing (user pays sports),
+is not consistently risk-based. SIA has chosen to administer the arrangements for these
+sports in a manner different to those who receive government-funded testing. Several
+aspects of SIA’s testing program for user pays sports raise questions as to whether
+regulatory decisions are appropriately formed by robust risk assessments.
+In the absence of clear, documented processes demonstrating how risk assessments inform
+decision-making, arrangements with user pays sports can create the perception of unequal
+treatment or regulatory capture. The Committee is not satisfied that SIA has demonstrated
+adequate controls to mitigate regulatory capture risks, or ensure consistency in its regulatory
+activities.
+As to SIA’s approach to investigations of potential anti-doping rule violations, critical to
+maintaining the integrity of Australia’s anti-doping system, shortcomings were found in
+investigative practices, quality assurance processes, documentation, and adherence to
+procedures.
+When a regulator’s performance of its legislated responsibilities is found to be only partly
+effective, it becomes difficult for the Parliament and the public to have confidence in the work
+of that regulator.
+The Committee made three recommendations to address some of its concerns. First, the
+Committee considers it crucial that SIA prioritises the development and implementation of
+effectiveness and efficiency performance measures for its key regulatory activities, in line
+with the Commonwealth Performance Framework. The absence of such measures is
+concerning. Developing metrics for anti-doping testing and investigations must be prioritised.
+iii
+This is only the first step. These measures must be embedded into practice and supported
+by assurance processes to meaningfully strengthen accountability and oversight.
+Second, the Committee determined that SIA must seriously consider how it manages the
+optics and risks of regulatory capture by the sports it regulates. Transparency and proper
+documentation of integrity controls are essential. The Committee recommended that SIA
+establishes, publishes and actively communicates a formal policy on gifts and benefits,
+clearly setting professional boundaries in its relationships with the regulated population. This
+responsibility does not rest with SIA alone. The regulated population must also refrain from
+offering gifts or benefits.
+Third, the Committee was concerned with the way SIA receives information from some
+regulated entities, particularly user pays sports. Regulators are expected to obtain and
+assess information in a way that enables informed, risk-based decision-making. The
+Committee’s recommendation that SIA requires information provided by sports to include
+documented risk factors is intended to strengthen transparency and support SIA to make
+risk-based and data informed decisions.
+The Committee acknowledges that SIA has undertaken a body of work in response to issues
+identified by the Australian National Audit Office (ANAO). However, as demonstrated
+throughout the audit and this inquiry, policies, procedures and documentation alone are not
+sufficient. The practical application of these controls, and assurance that they are operating
+as intended, is critical.
+While the specifics of the role SIA will have during the 2032 Olympic Games are yet to be
+negotiated, SIA itself has predicted that most of its doping control officers will be employed
+by the 2032 Olympic Games Organising Committee. SIA predicts that it is also likely to face
+increased demand for its services prior to the games, including from international
+organisations requesting testing services on international athletes. It is absolutely crucial that
+SIA has in place the policies and procedures, and assurance mechanisms, to operate at the
+highest level of probity for the important role it will have in this international showcase
+sporting event.
+I thank the Deputy Chair and Committee members for their considered contributions to this
+inquiry. I also thank Sport Integrity Australia and the ANAO for their engagement with the
+Committee throughout the process.
+Josh Burns MP
+Chair
+iv
+Contents
+Foreword ......................................................................................................... iii
+Abbreviations ................................................................................................ vii
+Members .......................................................................................................... ix
+Terms of reference ......................................................................................... xi
+List of recommendations ............................................................................. xiii
+Report
+1. Introduction ................................................................................................. 1
+Background to the inquiry ........................................................................................... 1
+Conduct of the inquiry ................................................................................................ 1
+Approach to the report ................................................................................................ 1
+Summary of audit report ............................................................................................. 2
+Evaluating regulator performance .............................................................................. 4
+Public Governance, Performance and Accountability Act and Rule .................................. 4
+Regulatory Policy, Practice and Performance Framework ................................................ 5
+Resource management guides ......................................................................................... 6
+Other legislation ............................................................................................................... 7
+World Anti-Doping Code ................................................................................................... 7
+Australian Government Investigations Standard ............................................................... 8
+2. Approaches to governance and risk ......................................................... 9
+Introduction ................................................................................................................ 9
+Risk management not fit for purpose.......................................................................... 9
+Committee comment ...................................................................................................... 11
+Efficiency and effectiveness performance measures ............................................... 11
+Committee comment ...................................................................................................... 12
+Management of regulatory capture risks .................................................................. 13
+Management of conflicts of interest ................................................................................ 14
+Advisory, oversight and assurance bodies ...................................................................... 15
+v
+Committee comment ...................................................................................................... 18
+Gifts, benefits and sports-related hospitality ................................................................... 19
+Committee comment ...................................................................................................... 21
+Outside employment ....................................................................................................... 21
+3. Management of the National Anti-Doping Scheme ................................ 25
+Introduction .............................................................................................................. 25
+Prevention and detection of anti-doping violations ................................................... 25
+User pays and government funded testing arrangements ............................................... 25
+Investigating and responding to anti-doping rule violations ...................................... 35
+Investigations framework ................................................................................................ 36
+Conduct of investigations................................................................................................ 40
+Committee comment ...................................................................................................... 43
+Appendixes
+Appendix A. Submissions ............................................................................ 47
+Appendix B. Public hearings ........................................................................ 49
+List of Tables
+Table 2.1 SIA risk management practices .................................................................... 10
+Table 2.2 Conflict of interest issues relating to advisory, oversight and assurance bodies
+16
+Table 3.1 SIA regulatory approach for sampled sports ................................................ 26
+Table 3.2 Athletes in testing pools in audit sample (as of July 2024) ........................... 30
+Table 3.3 AFL target list (2022 to 2024) ....................................................................... 32
+Table 3.4 NRL target list (2022 to 2024) ..................................................................... 33
+Table 3.5 Selected elements of ANAO assessment against the AGIS 2022 ................ 36
+Table 3.6 SIA's investigation metrics 1 July 2021 - 30 June 2024 ................................ 41
+vi
+Abbreviations
+AAF Adverse analytical findings
+AFL Australian Football League
+AGIS Australian Government Investigations Standard
+ANAO Australian National Audit Office
+APS Australian Public Service
+APSC Australian Public Service Commission
+ASADA Australian Sports Anti-Doping Authority
+ASDMAC Australian Sports Drug Medical Advisory Council
+ATF Atypical findings
+CEO Chief Executive Officer
+Finance Department of Finance
+ISTI International Standard for Testing and Investigations
+NAAC National Anti-Corruption Commission
+NAD Policy National Anti-Doping Policy
+NAD Scheme National Anti-Doping Scheme
+NRL National Rugby League
+PAAF Presumptive adverse analytical findings
+vii
+PGPA Act Public Governance, Performance and Accountability Act 2013
+PGPA Rule Public Governance, Performance and Accountability Rule 2014
+Privacy Act Privacy Act 1988
+PS Act Public Service Act 1999
+RMG 128 Resource Management Guide 128: Regulator Performance
+RMG 131 Resource Management Guide 131: Developing Performance Measures
+SES Senior Executive Service
+SIA Sport Integrity Australia
+SIA Act Sport Integrity Australia Act 2020
+SIA audit Auditor-General Report No. 27 of 2024–25: Sport Integrity Australia’s
+Management of the National Anti-Doping Scheme
+the Committee Joint Committee of Public Accounts and Audit
+WAD Code World Anti-Doping Code
+WADA World Anti-Doping Agency
+viii
+Members
+Chair
+Mr Josh Burns MP Macnamara, VIC
+Deputy Chair
+Senator Matt O'Sullivan LP, WA
+Members
+Ms Mary Aldred MP Monash, VIC
+Ms Carol Berry MP Whitlam, NSW
+Senator Lisa Darmanin ALP, VIC
+Senator Richard Dowling ALP, TAS
+Ms Ali France MP Dickson, QLD
+Senator Varun Ghosh ALP, WA
+Senator the Hon Jane Hume LP, VIC
+Hon Ed Husic MP Chifley, NSW
+Hon Barnaby Joyce MP New England, NSW
+Mr Simon Kennedy MP Cook, NSW
+Ms Louise Miller-Frost MP Boothby, SA
+Senator Barbara Pocock AG, SA
+Ms Sally Sitou MP Reid, NSW
+Mr Terry Young MP Longman, QLD
+ix
+
+Terms of reference
+The Committee will examine:
+• The effectiveness of Sport Integrity Australia’s (SIA’s) testing and investigative
+functions in detecting and responding to unlawful doping in Australian sport
+• The effectiveness of SIA’s existing operating, governance and risk frameworks
+• The alignment of Australia’s Anti-Doping Scheme with both domestically and
+internationally established standards, performance measures, and best practices
+• The success of SIA in promoting the standing and integrity of Australian sport
+both domestically and internationally
+• The prevalence and causes of unlawful doping in Australian sport and the
+preventative measures currently in place to reduce its incidence.
+This inquiry will also have particular regard to any matters contained in and associated with
+Auditor-General Report No. 27 of 2024–25: Sport Integrity Australia’s Management of the
+National Anti-Doping Scheme.
+xi
+
+List of recommendations
+Recommendation 1
+2.20 The Committee recommends that Sport Integrity Australia develops
+effectiveness and efficiency performance measures for anti-doping testing and
+investigations, as required by the Commonwealth Performance Framework. An
+update is to be provided to the Committee within six months and is to include:
+• key milestones and deliverables in the action plan
+• the methodology being adopted to develop performance measures
+• the expected timeframe for achieving compliance with the Commonwealth
+Performance Framework.
+Recommendation 2
+2.73 The Committee recommends that Sport Integrity Australia establishes a formal
+policy on the acceptance of gifts and benefits. The policy is to be actively
+communicated to all regulated individuals and entities and be published in a
+prominent position on the Sport Integrity Australia website. An update on this
+recommendation is to be provided to the Committee within six months.
+Recommendation 3
+3.87 The Committee recommends that Sport Integrity Australia establishes a
+template for athlete lists provided by regulated entities that includes at a
+minimum the risk factors set out in the International Standard for Testing and
+Investigations. Sport Integrity Australia should make providing information in
+this format a requirement under contractual or other formal arrangements with
+national sporting organisations.
+xiii
+
+1. Introduction
+Background to the inquiry
+1.1 Under section 8(1) of the legislation establishing the Joint Committee of Public
+Accounts and Audit (the Committee), the Public Accounts and Audit Committee Act
+1951, the Committee has several duties, one of which is to ‘examine all reports of the
+Auditor-General that are tabled in each House of the Parliament’.
+1.2 The Committee is empowered to ‘report to both Houses of the Parliament, with any
+comment it thinks fit, on any items or matters in those reports, or any circumstances
+connected with them, that the Committee thinks should be drawn to the attention of
+the Parliament’.
+1.3 On 4 September 2025, the Committee adopted an inquiry into the effectiveness of
+Australia’s National Anti-Doping Scheme. The inquiry would examine the existing
+frameworks underpinning the scheme, including their management and operation, to
+determine if they are fit-for-purpose to protect the integrity of Australian sport by
+detecting and preventing unlawful drug use by athletes.
+1.4 The inquiry was to have particular regard to any matters contained in and associated
+with Auditor-General Report No. 27 of 2024–25: Sport Integrity Australia’s
+Management of the National Anti-Doping Scheme (SIA audit).
+Conduct of the inquiry
+1.5 The inquiry received six submissions and five supplementary submissions containing
+responses to questions provided in writing to the Committee or taken on notice at the
+public hearings. The Committee held two public hearings on 31 October 2025 and
+12 December 2025.
+1.6 A list of submissions and supplementary submissions is at Appendix A. Witnesses
+who appeared at the public hearings are listed at Appendix B.
+Approach to the report
+1.7 The report has been organised around the key thematic areas of focus for the
+Committee during the inquiry.
+1.8 The first chapter of this report provides the background to the inquiry, including a
+summary of the SIA audit that formed the basis for the Committee’s inquiry. This
+1
+chapter also outlines key elements of the legislative, policy and regulatory framework
+applicable to Sport Integrity Australia (SIA), which are central to assessing its
+effectiveness as a regulator.
+1.9 The second chapter focuses on SIA’s internal processes, policies and frameworks,
+with consideration of governance practices; management of regulatory capture risks
+through integrity policies; and approaches to risk management.
+1.10 The third chapter examines SIA’s administration of key elements of the National Anti-
+Doping Scheme (NAD Scheme), focusing on testing and investigations under ‘user
+pays’ and ‘government funded’ testing arrangements. This chapter also examines
+SIA’s broader investigations framework, approach to quality assurance, and
+approach to investigations.
+1.11 The Committee does not relitigate in detail the findings of the audit reports that form
+the basis of its inquiries. Rather, it highlights a selection of key issues that in its
+judgement should be drawn to the particular attention of the Parliament, and makes
+recommendations with regard to these issues where appropriate. Entities should not
+draw from the content of a Committee report any conclusion as to the Committee’s
+views on the importance of the breadth of the findings and recommendations found in
+a report of the Auditor-General.
+Summary of audit report
+1.12 SIA was established on 1 July 2020 by the Sport Integrity Australia Act 2020 (SIA
+Act). SIA is designated as Australia’s national anti-doping organisation under the
+United Nations Anti-Doping Convention and the World Anti-Doping Code (WAD
+Code). It has responsibility for managing the NAD Scheme, including the authority
+and responsibility to collect and test samples from athletes for the purpose of
+detecting anti-doping rule violations.
+1.13 The purpose of the Australian National Audit Office’s (ANAO) audit was to assess the
+effectiveness of SIA’s management of the NAD Scheme. This included examining the
+effectiveness of SIA’s governance arrangements; arrangements to prevent and
+detect anti-doping rule violations; and arrangements to investigate and respond to
+anti-doping rule violations.
+1.14 The SIA audit found that:
+• SIA’s management of the NAD Scheme is partly effective
+• governance arrangements for anti-doping are partly fit-for-purpose
+• anti-doping prevention and detection is largely effective for sports that have
+government-funded testing arrangements, and partly effective for sports that have
+user-pays arrangements
+2
+• SIA’s arrangements to investigate and respond to anti-doping rule violations are
+partly effective.1
+1.15 The SIA audit made seven recommendations dealing with: performance measures;
+regulatory capture risks; procedures for test distribution planning; evaluation
+methodology; risk-based planning; investigative procedures; and quality assurance
+over investigations. SIA agreed to all recommendations.2
+1.16 More broadly, the ANAO identified key messages relevant to other government
+entities. These messages deal with the management of regulatory capture risks; the
+need for regulatory activities to be risk-based and informed by data and intelligence;
+and the requirement for appropriate performance and impact measurement.3
+1.17 The ANAO has found that the potential for scrutiny can improve entity performance.
+So as to capture some of the impacts of the existence of an external audit, the ANAO
+includes in its report a summary of key improvements made by entities during an
+audit. During the course of the SIA audit, the Audit and Risk Committee received a
+risk management update, which stated SIA had commenced a project to improve its
+risk management framework; further, an internal audit on SIA’s risk management
+framework was presented to the Audit and Risk Committee. SIA also:
+• established terms of reference for the Executive Committee, Project Review
+Committee and Operations Committee
+• developed a ‘developing a test distribution plan’
+• updated and approved procedures for planning testing missions for government
+funded and user pays sports
+• reviewed investigations processes in response to timeliness issues
+• executed a contract to procure a cloud-based system for investigations to replace
+current system
+• established a fraud and corruption control procedure
+• updated the Audit and Risk Committee Charter
+• documented consolidated analysis of planning day evaluations of the 2022–23
+anti-doping testing program for sports/disciplines within the audit sample
+• considered the investigations manual and procedures against the Australian
+Government Investigations Standard 2022 requirements
+• established a complaints policy and procedure
+• updated the gifts and benefits policy and conflict of interest policy
+1 Australian National Audit Office (ANAO), Auditor-General Report No. 27 2024–25: Sport Integrity Australia’s
+Management of the National Anti-Doping Scheme (SIA Audit), 3 March 2025, p. 6.
+2 ANAO, SIA Audit, p. 6.
+3 ANAO, SIA Audit, pp. 12–13.
+3
+• established business planning guidance and a template for section-level business
+planning.4
+Evaluating regulator performance
+1.18 When it conducts its audits, the ANAO establishes criteria against which to assess
+the performance of a particular activity. These criteria serve as benchmarks for
+evaluation. Criteria may be drawn from a number of sources, including:
+• policy decisions or policy statements
+• legislation and regulations
+• published performance measures and internal measures
+• policies and guidance developed by central entities, regulators or government
+• standards of good practice, relevant benchmarks and relevant practice guides
+developed by professions, associations or other recognised authorities
+• statistics, practices, benchmarks, performance standards or procedures
+developed within the entity
+• subject matter or general literature.5
+1.19 In the case of the SIA audit, the ANAO referenced a number of sources that establish
+relevant performance requirements. These included:
+• enabling legislation that provides regulatory powers and obligations to SIA, and
+the policies and directions derived from that legislation,
+• the Public Governance, Performance and Accountability Act 2013 (PGPA Act)
+and delegated legislation including the Public Governance, Performance and
+Accountability Rule 2014 (PGPA Rule)
+• the Australian Government Regulatory Policy, Practice & Performance Framework
+developed by the Department of Finance (Finance)
+• the WAD Code and its associated International Standards
+• the AGIS 2022
+• resource management guides produced by Finance.
+Public Governance, Performance and Accountability Act and Rule
+1.20 Specific aspects of the PGPA Act and PGPA Rule are relevant to the responsibilities
+of SIA examined in the audit that formed the basis of this inquiry, including risk
+management and integrity matters, and performance measures.
+4 ANAO, SIA Audit, pp. 93–94.
+5 ANAO, ANAO Audit Manual—Performance Audit Services Group Specific, last updated 9 September 2025,
+https://www.anao.gov.au/work/audit-manual/pasg-specific, paragraph 207.32.
+4
+1.21 Amongst other things, a Commonwealth entity is required to have risk management
+embedded into its decision making; periodically review the effectiveness of controls;
+regularly review its risk management approach; and support a culture where risk is
+managed and communicated across all levels of the entity and individuals are
+encouraged to adopt positive risk behaviours.6
+1.22 A key principle in the National Anti-Corruption Commission’s Commonwealth Integrity
+Maturity Framework is that entities periodically assess the maturity of their
+management of integrity risks.7
+1.23 The Commonwealth Performance Framework gives effect to legal obligations under
+the PGPA Act and the PGPA Rule. It places obligations on accountable authorities
+for the quality and reliability of performance information provided to the Parliament
+and the public.8
+1.24 The Commonwealth Performance Framework requires entities to:
+• set out in a corporate plan, the entity’s purpose, key activities and the results it
+plans to achieve
+• create performance measures and targets to measure an entity’s performance in
+achieving its purpose
+• publish statements about the annual performance of the entity in achieving its
+purpose, which are included in the entity’s annual report.9
+Regulatory Policy, Practice and Performance Framework
+1.25 The August 2024 Regulatory Policy, Practice and Performance Framework, which
+applies to policymakers and regulators, is a ‘better practice approach to regulation’
+that aims to drive modern, fit-for-purpose regulation.
+1.26 It is an expectation that regulators should align the implementation of regulation and
+regulatory management with the six principles in the framework:
+• targeted and risk based
+• integrated in existing systems
+• user-centred
+• evidence-based and data-driven
+6 Department of Finance, Commonwealth Risk Management Policy, last updated 29 November 2022,
+https://www.finance.gov.au/government/comcover/risk-services/management/commonwealth-risk-
+management-policy.
+7 ANAO, SIA Audit, p. 22.
+8 ANAO, Reporting Meaningful Performance Information, 29 June 2023,
+https://www.anao.gov.au/work/insights/reporting-meaningful-performance-information.
+9 Department of Finance, Commonwealth Performance Framework, last updated 23 September 2024,
+https://www.finance.gov.au/government/managing-commonwealth-resources/planning-and-
+reporting/commonwealth-performance-framework.
+5
+• reflective of the digital era
+• continuously improved and outcomes-focussed.10
+Resource management guides
+RMG 128: Regulator performance
+1.27 The Regulatory Policy, Practice and Performance Framework, discussed above,
+underpins the best practice approach and principles of regulator performance in
+Resource Management Guide 128: Regulator Performance (RMG 128).
+1.28 RMG 128 establishes the three principles of regulator best practice against which
+regulators are required to report in their corporate plans and annual reports:
+• continuous improvement and building trust—regulators should embed
+methodologies to understand the costs, impact and outcomes of regulation; have
+embedded organisational values and culture; have transparent external
+accountability processes; undertake regular and independent performance
+reviews
+• risk-based and data driven—all elements of the regulatory cycle, including
+operational policy development, administration, compliance and enforcement are
+risk-based and informed by data, evidence and intelligence, which allows
+regulators to respond in a proportionate way to the harm being managed and
+direct resources in the most efficient way
+• collaboration and engagement—regulators should be transparent, open and
+responsive to feedback; engage genuinely with stakeholders and the broader
+community through a range of meaningful and timely consultation mechanisms;
+and implement innovative approaches.11
+RMG 131: Developing performance measures
+1.29 Resource Management Guide 131: Developing performance measures (RMG 131),
+produced by Finance, provides guidance on the obligations accountable authorities
+have to measure and assess the performance of an entity in achieving its purpose. It
+provides information on how entities might satisfy each of the requirements
+established in section 16EA of the PGPA Rule, discussed above.12
+10 Department of Finance, Regulatory Policy, Practice and Performance Framework, last updated 18 November
+2025, p. 7.
+11 Department of Finance, Regulator Performance (RMG 128), last updated 18 November 2025,
+https://www.finance.gov.au/government/managing-commonwealth-resources/regulator-performance-rmg-
+128.
+12 Department of Finance, Developing Performance measures (RMG 131), last updated 8 August 2025,
+https://www.finance.gov.au/government/managing-commonwealth-resources/developing-performance-
+measures-rmg--131.
+6
+Other legislation
+Sport Integrity Australia Act 2020 and Sport Integrity Regulations 2020
+1.30 The primary legislative framework that establishes SIA’s responsibilities is the SIA
+Act, and the Sport Integrity Regulations 2020 (SIA Regulations). The SIA Act
+establishes SIA to prevent and address threats to sports integrity and to coordinate a
+national approach to sports integrity matters in Australia.
+1.31 Section 3 of the SIA Act and schedule 1 of the SIA Regulations set out the
+requirements for SIA to establish a NAD Scheme.
+1.32 The SIA Act and SIA Regulations also provide for the establishment and functions of
+the SIA Advisory Council and the Australian Sports Drug Medical Advisory
+Committee, including their membership, appointment of members, and obligation to
+disclose interests.13
+Public Service Act 1999
+1.33 The Public Service Act 1999 governs members of the Australian Public Service
+(APS) and includes the APS Values and Code of Conduct. These outline
+requirements for APS employees in managing conflicts of interest.
+1.34 The Australian Public Service Commission’s APS Values and Code of Conduct in
+Practice outlines requirements for senior executive service declarations; notifications
+of outside employment; and avoiding the acceptance of gifts or benefits.14
+World Anti-Doping Code
+1.35 The WAD Code is the core document that harmonises anti-doping policies, rules and
+regulations around the world. During the audit, the 2021 WAD Code was in place.15
+1.36 As the national anti-doping organisation for Australia, SIA has the primary authority
+and responsibility at the national level to adopt and implement anti-doping rules,
+direct the collection of samples, manage test results, and conduct results
+management.16
+1.37 The WAD Code consists of four parts: doping control (articles 1–17); education and
+research (article 18 and 19); roles and responsibilities (articles 20–22); and
+acceptance, compliance, modification and interpretation (articles 23–27).17 The
+ANAO’s audit considered relevant aspects of SIA’s policies and practices against the
+13 Sport Integrity Australia Act 2020, pts 4 and 7.
+14 Australian Public Service Commission, APS Values and Code of Conduct in Practice, last updated 13
+September 2021.
+15 World Anti-Doping Agency (WADA), World Anti-Doping Code 2021, 1 January 2021.
+16 Sport Integrity Regulations 2020, cl 1.05.
+17 WADA, World Anti-Doping Code 2021, 1 January 2021, pp. 1–8.
+7
+WAD Code, including those relating to anti-doping education plans, the test
+distribution planning process, and testing activities.18
+1.38 SIA has established a national anti-doping policy (NAD Policy) that aligns with the
+WAD Code, and which, as of September 2024, had been adopted by 98 sporting
+organisations in Australia, including 87 national sporting organisations for Australia.19
+The NAD Policy comprises 21 articles that cover requirements for prohibited
+substances, testing and investigations, analysis of samples, hearings, sanctions and
+consequences, confidentiality and reporting, education, and research, among other
+matters.20
+International Standards
+1.39 The WAD Code works in conjunction with eight ‘international standards that aim to
+foster consistency among anti-doping organisations for specific technical and
+operational parts of anti-doping programs. Adherence to the international standards
+is mandatory for compliance with the WAD Code.21
+1.40 During the audit, the applicable international standards included: testing and
+investigations; laboratories; therapeutic use exemptions; prohibited list; protection of
+privacy and personal information; code compliance by signatories; education; and
+results management.22
+Australian Government Investigations Standard
+1.41 The AGIS, which was established in 2011 and updated in 2022, establishes the
+standard for Australian Government entities conducting administrative, civil, or
+criminal (type) investigations.23
+1.42 The AGIS 2022 establishes core requirements, best practice elements and guidance.
+Amongst other things, the AGIS requires that investigators be suitably qualified, that
+appropriate information management and evidence handling protocols are
+maintained, that risks be managed to ensure requirements of admissible evidence
+are met, and that quality assurance is prioritised.24
+1.43 Entities are required to establish a proactive implementation plan and update their
+standards to the AGIS 2022 within a reasonable timeframe.25
+18 ANAO, SIA Audit, p. 10.
+19 ANAO, SIA Audit, p. 9.
+20 ANAO, SIA Audit, p. 42.
+21 WADA, World Anti-Doping Code 2021, p. 10.
+22 WADA, International Standards, https://www.wada-ama.org/en/what-we-do/international-standards
+(accessed 10 November 2025).
+23 Australian Government, Australian Government Investigations Standard (AGIS), October 2022, p. 1.
+24 Australian Government, AGIS, October 2022, p. 1.
+25 Attorney-General’s Department, Australian Government Investigations Standards,
+https://www.ag.gov.au/integrity/publications/australian-government-investigations-standards (accessed 4
+November 2025).
+8
+2. Approaches to governance and
+risk
+Introduction
+2.1 This chapter explores Sport Integrity Australia’s (SIA) governance of risk, specifically
+its approach to risk management in general and regulatory capture risks in particular.
+It also discusses SIA’s failure to assess its performance of key regulatory functions.
+Risk management not fit for purpose
+2.2 Under the Public Governance and Accountability Act 2013 (PGPA Act), accountable
+authorities must establish and maintain an appropriate system of risk oversight and
+management.1
+2.3 This obligation is reinforced by the Commonwealth Risk Management Policy (as
+outlined in Chapter 1) which requires entities to:
+• embed risk management into decision-making
+• have a risk management framework that supports a culture where risk is managed
+and communicated across all levels and individuals are encouraged to adopt
+positive risk behaviours
+• periodically review the effectiveness of controls
+• implement arrangements for identifying, managing and escalating emerging risks
+• regularly review their risk management approach.2
+2.4 The Australian National Audit Office (ANAO) found that SIA’s risk management
+practices, including for regulatory capture risks (discussed later in this chapter) were
+not fit for purpose.3 Deficiencies were identified across policy, implementation and
+monitoring.
+2.5 Table 2.1 below summarises the ANAO’s findings regarding SIA’s risk management
+practices.
+1 Public Governance and Accountability Act 2013, s 16.
+2 See: Department of Finance, Commonwealth Risk Management Policy, last updated 29 November 2022,
+https://www.finance.gov.au/government/comcover/risk-services/management/commonwealth-risk-
+management-policy.
+3 Australian National Audit Office (ANAO), Auditor-General Report No. 27 2024–25: Sport Integrity Australia’s
+Management of the National Anti-Doping Scheme (SIA Audit), 3 March 2025, p. 22.
+9
+Table 2.1 SIA risk management practices
+Entity/policy Detail
+Audit and Risk Committee - Noted enterprise risk register or deficiencies in risk management framework
+at 14 of 16 meetings
+- Papers relating to enterprise risk management ‘taken as read’ or ‘noted’
+- Advised CEO in December 2023 that SIA would benefit from further work to
+embed risk appetite and tolerance statements, and to re-develop enterprise
+risk register
+Chief Executive Officer - Certified fraud had been appropriately dealt with in 2021–22, 2022–23,
+2023–24 including through agency-prepared fraud risk assessments and
+control plans
+- No fraud control plans prepared in 2021–22 or 2022–23
+- Fraud and corruption control plan drafted in July 2024, endorsed October
+2024
+Risk management policy - Established in March 2021, updated March 2023; scheduled update in
+March 2024 did not occur
+Risk appetite statements - Overall risk appetite statement in risk management policy, and risk appetite
+assessments in risk appetite and tolerance matrix, not consistent
+Enterprise risk register - Established October 2020, last updated November 2021
+- Risk types do not align with risk categories, risk appetite and tolerance
+matrix or risk management procedure
+Operational risk registers - Not maintained, including for anti-doping work
+Source: ANAO, SIA Audit, paragraphs 2.6, 2.20–2.22, 2.24–2.25 and 2.29.
+2.6 These deficiencies indicate that risk management was neither embedded in
+businesses processes appropriately, nor systematically reviewed and updated,
+contrary to the requirements of the Commonwealth Risk Management Policy.
+2.7 While SIA has undertaken activities to improve its risk management framework,
+some of these actions coincided with the ANAO’s audit. The ANAO notes that it is
+unclear whether the actions it observed during the course of the audit were planned
+in response to the proposed or actual audit activity, and that assurance has not been
+obtained over the source of these actions or whether they have all been appropriately
+implemented.4
+2.8 Regardless of the impetus, the Audit and Risk Committee received updates in March
+and September 2024 stating that SIA had commenced a project to improve its risk
+management framework. A draft report—originally intended to be completed by May
+2024—was presented in December 2024. The draft report concluded SIA’s risk
+management framework and supporting artefacts required ‘significant work’ to ensure
+alignment with the Commonwealth Risk Management Policy.5 SIA has since
+4 ANAO, SIA Audit, p. 93.
+5 ANAO, SIA Audit, paragraph 2.27.
+10
+commenced a project to consolidate, refine and simplify enterprise risks and risk
+management artefacts.6
+2.9 Since the conclusion of the audit, SIA advised that its updated risk management
+policy ensures alignment to the Commonwealth Risk Management Policy. It has
+introduced an overarching risk appetite statement and refined enterprise risks. The
+broader risk management framework also includes risk registers, risk matrices, risk
+assessment templates, reporting tools, and guidance for staff on the development of
+risk assessments.7
+Committee comment
+2.10 The Committee acknowledges that SIA has taken steps to update its approach to risk
+management, including revising its risk management framework, refining enterprise
+risks, and developing updated tools and templates.
+2.11 While these actions indicate progress towards alignment with regulatory
+requirements, the ANAO’s findings demonstrate that key elements of SIA’s risk
+management framework were not consistently reviewed, maintained or implemented
+in a timely or systematic manner during the audit period.
+Efficiency and effectiveness performance measures
+2.12 Entities are required to develop and implement annual performance measures,
+including measures of entity outputs, efficiency and effectiveness.8
+2.13 A key message from the SIA audit for all Australian Government entities was that
+regulators should establish an appropriate data-driven methodology for evaluating
+the effectiveness of regulatory planning and associated activities.9 High quality
+performance reporting enables the Parliament and the public to assess whether
+entities deliver the outcomes for which they are funded. It also provides the basis on
+which accountable authorities can be held to account.10
+2.14 SIA does not publicly report on the effectiveness or efficiency of anti-doping testing
+and investigations—a key regulatory function. There is no measure of the
+effectiveness or efficiency of these activities. Rather, SIA’s performance measures
+are predominantly activity or output measures.11
+6 ANAO, SIA Audit, paragraph 2.27.
+7 Sport Integrity Australia (SIA), Supplementary Submission 1.2, p. 1.
+8 ANAO, SIA Audit, paragraph 2.10.
+9 ANAO, SIA Audit, p. 13.
+10 ANAO, Using Performance Information to Drive Effectiveness, 29 November 2023,
+https://www.anao.gov.au/work/insights/using-performance-information-to-drive-effectiveness.
+11 ANAO, SIA Audit, paragraph 2.11.
+11
+2.15 The ANAO recommended SIA develop effectiveness and efficiency measures and
+targets for anti-doping testing and investigations as required by the Commonwealth
+Performance Framework.
+2.16 In response, SIA advised that there is no globally recognised measure of
+effectiveness for anti-doping testing, and it would continue to explore options. It has
+‘engaged expert support’ to assist with determining the data and methodology
+required to develop these measures. The work will include the development of an
+action plan to guide SIA’s maturation of the performance measure, with the action
+plan expected to be in place by the first half of 2026.12
+Committee comment
+2.17 Regardless of whether there is a globally recognised measure of effectiveness for
+anti-doping testing, SIA is required to develop and implement annual performance
+measures of efficiency and effectiveness.
+2.18 Anti-doping testing and investigations are significant areas of SIA’s regulatory
+responsibility. Without performance measures that reflect the efficiency and
+effectiveness of these activities, reporting does not provide meaningful assurance
+that SIA’s regulatory activities are achieving their intended outcomes and that
+effectiveness is being appropriately considered.
+2.19 It is the Committee’s view that developing and implementing effectiveness and
+efficiency measures for anti-doping testing and investigations must be prioritised.
+However, developing measures is only the first step. Embedding these measures into
+practice and establishing assurance processes will be crucial to supporting
+compliance and accountability.
+Recommendation 1
+2.20 The Committee recommends that Sport Integrity Australia develops
+effectiveness and efficiency performance measures for anti-doping testing and
+investigations, as required by the Commonwealth Performance Framework. An
+update is to be provided to the Committee within six months and is to include:
+• key milestones and deliverables in the action plan
+• the methodology being adopted to develop performance measures
+• the expected timeframe for achieving compliance with the Commonwealth
+Performance Framework.
+12 SIA, Supplementary Submission 1.2, p. 5.
+12
+Management of regulatory capture risks
+2.21 Regulators face unique risks, including the risk of regulatory capture, stemming from
+their regulatory functions. Regulatory capture refers to instances where regulators
+are excessively influenced or effectively controlled by the entities they regulate. In
+such cases, regulators may align their values and actions with those of the industry
+rather than with the values and legislated purpose of the regulator.13
+2.22 Requirements under the Public Service Act 1999 (PS Act), including the Australian
+Public Service (APS) Values and Code of Conduct, guidance from the Australian
+Public Service Commission (APSC) on managing gifts and benefits and conflicts of
+interest also apply to regulators.14
+2.23 In addition, SIA must also comply with the conflict of interest requirements set out in:
+the World Anti-Doping Agency (WADA) Guide for the Operational Independence of
+National Anti-Doping Organisations; SIA Regulations 2020; and the WADA
+International Standard for Testing and Investigations.15
+2.24 For example, the WADA International Standard for Testing and Investigations sets
+out that in order to meet the World Anti-Doping Code (WAD Code) requirements,
+national anti-doping organisations are to ensure the application of high professional
+and integrity standards to their operational and oversight functions, including conflict
+of interest policies.16
+2.25 In coming to its conclusion that SIA’s overall risk management framework, including
+for regulatory capture risks, was not fit for purpose, the ANAO found that SIA had not
+identified or assessed regulatory capture risks, had not evaluated its regulatory
+capture risk maturity, and had not conducted internal audits to examine these risks.17
+While SIA has established a largely fit-for-purpose policy framework addressing
+conflicts of interest, gifts and benefits, and outside employment, these policies have
+been poorly implemented.18
+2.26 The following section examines SIA’s management of controls in three key areas:
+conflicts of interest; gifts and benefits; and outside employment.
+13 Parliamentary Joint Committee on Corporations and Financial Services, Oversight of the Australian
+Securities and Investments Commission, the Takeovers Panel and Corporations Legislation (Report No. 1 of
+the 45th Parliament), 13 February 2019, p. 27.
+14 ANAO, Insights: Auditing Regulatory Activities, 24 June 2025,
+https://www.anao.gov.au/work/insights/auditing-regulatory-activities.
+15 ANAO, SIA Audit, paragraph 2.32.
+16 For example, to meet the 2021 WAD Code requirements, national anti-doping organisations are to ensure
+the application of high professional and integrity standards to their operational and oversight functions,
+including conflict of interest policies. See: World Anti-Doping Agency (WADA), Guide for the Operational
+Independence of National Anti-Doping Organisations, 9 November 2020, p. 8.
+17 ANAO, SIA Audit, paragraph 2.30.
+18 ANAO, SIA Audit, p. 9.
+13
+Management of conflicts of interest
+2.27 Conflict of interest risks, which can arise from the acceptance of gifts and benefits or
+through secondary employment, are a type of regulatory capture risk.19 Conflicts of
+interest can be actual, potential or perceived. The National Anti-Corruption
+Commission (NACC) states that conflicts of interest arise when an official’s interests,
+affiliations or relationships impact, can potentially impact or can be perceived to
+impact their impartiality in the discharge of their official duties.20
+2.28 The PS Act 1999, including the APS Values and Code of Conduct outline
+requirements for employees in managing conflicts of interest. This is supplemented
+by guidance from the APSC containing additional requirements, including public
+registers, for agency heads.21
+2.29 The audit found that SIA had a conflict of interest policy that drew attention to the
+unique operating environment and business of SIA. The policy noted that
+membership or participation in a sport, sporting organisation or sporting environment
+may give rise to a conflict.22 The conflict of interest policy stated that on
+commencement and annually, SIA employees must declare all conflicts of interest by
+competing a declaration.23
+2.30 However, notwithstanding the existence of the policy, SIA’s registers for conflicts of
+interest were not maintained, with missing and incomplete declarations and minimal
+evidence of executive oversight or conflict management actions.24
+2.31 Particular issues with Senior Executive Service (SES) declarations were highlighted
+by the ANAO. For eight SES officials, declarations were not made in each applicable
+year, and no officials completed the annual declaration form for 2023–24.25 For the
+four SES officials who made at least one declaration in the review period, forms were
+incomplete, there were no management strategies where appropriate, and it was
+unclear as to whether the Chief Executive Officer (CEO) had considered the declared
+conflicts to be material. 26
+2.32 At the time of the audit, SIA advised there was a view that if SES officers did not
+believe there was a real or perceived conflict, there was no requirement to complete
+a declaration.27
+19 ANAO, SIA Audit, paragraph 2.31.
+20 National Anti-Corruption Commission (NACC), Integrity Outlook 2022/23, October 2023, p. 9
+21 Australian Public Service Commission (APSC), Guidance for Agency Heads – Gifts and Benefits, 30
+November 2021, last updated 20 October 2023, https://www.apsc.gov.au/conflict-interest/guidance-agency-
+heads-gifts-and-benefits.
+22 ANAO, SIA Audit, paragraph 2.33.
+23 ANAO, SIA Audit, paragraph 2.36.
+24 ANAO, SIA Audit, paragraph 2.35.
+25 ANAO, SIA Audit, paragraph 2.35.
+26 ANAO, SIA Audit, paragraph 2.37.
+27 Dr Sarah Benson PSM, Chief Executive Officer, Sport Integrity Australia (SIA), Committee Hansard, 31
+October 2025, p. 6.
+14
+2.33 SIA stated the policy has since been updated to reflect the requirement to complete
+declarations annually, regardless of whether there is no real or perceived conflict,
+and that this is being facilitated through a new online tool. SIA stated:
+We now monitor trends as well, thanks to the recommendation. We've monitored
+any trends or hotspots we might have in the agency—where there are conflicts or
+perceived conflicts and where we might need to increase education or update the
+procedure. The audit did, certainly, shine a light on enhancing our documented
+processes. But also, we're trying to go one step further to make sure we've got
+some insights into what we've got going on in the agency with respect to potential
+conflicts.28
+2.34 SIA has introduced an updated online conflict of interest and gifts and benefits tool to
+address the identified weaknesses by the ANAO. The tool prevents incomplete
+entries; mandates the approval of a conflict of interest management plan prior to
+approval; establishes a workflow for individual declarations through to SES
+delegates; and provides quarterly reporting for executive review. SIA claims the tool
+improves the ease of making declarations and increases staff awareness of the
+process.29
+Committee comment
+2.35 The audit found officers at all levels were failing to adhere to conflict of interest
+requirements, raising questions as to whether staff understand their conflict of
+interest obligations, and whether SIA’s governance culture supports transparency
+and integrity.
+2.36 The Committee acknowledges that SIA has updated controls for identifying and
+managing conflicts of interest to address issues identified by the ANAO.
+2.37 The Committee considers that these improvements go some way towards addressing
+the ANAO’s identified weaknesses in the implementation and oversight of integrity
+controls. However, ensuring staff awareness and proactive disclosure remain crucial
+and continuing priorities.
+2.38 While quarterly reports of declared interests is a positive step, the Committee
+remains uncertain as to how this process provides assurance that the reporting is
+accurate, complete and supported by effective management strategies.
+Advisory, oversight and assurance bodies
+2.39 The Committee examined SIA’s management of conflicts of interest within its
+advisory, oversight and assurance bodies. Some of these bodies, including the
+Advisory Council, rely on the appointment of external members to provide expertise.
+These appointees often hold roles or interests connected to SIA’s regulatory
+28 Dr Sarah Benson PSM, SIA, Committee Hansard, 31 October 2025, p. 6.
+29 SIA, Supplementary Submission 1.2, p. 2.
+15
+activities. In general, the ANAO found variabilities in the documentation and
+management of potential conflicts of interest in the context of its advisory, oversight
+and assurance bodies.30
+2.40 The ANAO reviewed governance arrangements for advisory, oversight and
+assurance bodies, including terms of reference, membership, meeting frequency,
+functions, management of potential conflicts of interest, management of risk, and
+discussion of anti-doping and other integrity matters.31
+2.41 Table 2.2 below provides an overview of the conflict of interest issues detailed by the
+ANAO.
+Table 2.2 Conflict of interest issues relating to advisory, oversight and assurance
+bodies
+Body Conflict of interest issue
+Advisory committees (July 2021 to November 2024)
+- Annual deed poll not completed as required in 2024 for any members
+- One appointee did not declare interests in a firm engaged by SIA prior to and
+following the member’s appointment
+- Disclosures of conflicts of interest not made at all meetings, and minutes do not
+Advisory Council
+document how declared conflicts of interests were managed in the meeting
+- Members with wagering interests were present for discussions relating to
+Australian Sports Wagering Scheme, and did not always disclose wagering
+interests when wagering was discussed
+Australian Sports
+Drug Medical - 10 instances where declarations of interests to minister not completed as
+Advisory required
+Committee
+Athlete Advisory - Conflicts of interest not disclosed or discussed at any meetings where minutes
+Group were available
+Sport Sector
+- No documented declarations of conflicts of interest in meeting minutes or
+Advisory Group
+otherwise declared to the Chair between August 2023 and June 2024
+on Education
+Oversight committees (July 2022 to November 2024)
+Executive - Declarations of potential conflicts of interest not documented in minutes for
+Committee 7 meetings
+- Meeting minutes from 59 meetings include declarations of conflicts of interest
+Operations and state, where a conflict was declared that the member would leave the room
+Committee if matters relevant to the conflict were discussed.
+- Minutes for 4 meetings do not include any conflict of interest declarations
+30 ANAO, SIA Audit, paragraph 2.6 and Appendix 3.
+31 ANAO, SIA Audit, pp. 25–26.
+16
+Body Conflict of interest issue
+Project Review - Declarations of potential conflicts of interest documented in minutes at all
+Committee meetings except 3
+Assurance committees (2021–22 to 2023–24)
+Audit and Risk
+- Declarations of conflicts of interest documented in minutes for 16 of 19 meetings
+Committee
+Source: ANAO, SIA Audit, Appendix 3.
+2.42 The audit drew particular attention to the operation of the Advisory Council and the
+Australian Sports Drug Medical Advisory Council (ASDMAC), and found SIA could
+review its controls for declaring conflicts of interest.32
+2.43 Where conflicts cannot be avoided, the APS Code of Conduct, section 29 of the
+PGPA Act, and section 16 of the PGPA Rule require that employees must disclose
+details of any material personal interest.33
+2.44 Section 33 of the SIA Act requires members of the Advisory Council to disclose
+interests to the Minister. The charter states that a deed poll is to be completed at the
+commencement of appointment and annually thereafter. SIA’s 2021 conflict of
+interest policy also applies to Advisory Council members.34
+2.45 Of particular concern to the Committee is that members of the Advisory Council with
+wagering interests participated in discussions on the Australian Sports Wagering
+Scheme and did not consistently disclose those interests. In private interest
+declarations, two members declared interests related to wagering—one a sports
+wagering sector lobbyist and the other undertook work for a wagering company.35
+2.46 As explained by the ANAO:
+…in seven of the eight meetings there were disclosures of potential conflicts.
+However, the minutes did not follow a consistent format with regard to that. Both
+members with wagering interests were present for several discussions relating to
+the Australian Sports Wagering Scheme. This was discussed in six of eight
+meetings. One of those members disclosed their wagering interests at one of
+those six meetings that included discussions on wagering, and the other
+disclosed their interest at three of those six meetings. We don't know whether
+they left the room.36
+2.47 The Committee questioned the appropriateness of members with wagering interests
+providing advice through the Advisory Council. SIA argued that industry expertise is
+32 ANAO, SIA Audit, paragraph 2.7.
+33 ANAO, Auditing Regulatory Activities, 24 June 2025, https://www.anao.gov.au/work/insights/auditing-
+regulatory-activities.
+34 ANAO, SIA Audit, p. 95.
+35 ANAO, SIA Audit, pp. 95–96.
+36 Ms Christine Chalmers, ANAO, Committee Hansard, 31 October 2025, p. 16.
+17
+sought to provide advice on certain aspects of policy development in the context of
+manipulation and match-fixing.37 SIA operates the national platform for information
+sharing as a signatory to the Macolin Convention on the manipulation of sports
+competitions.38
+2.48 However, the Advisory Council is not the only way SIA engages with the gambling
+industry. SIA advised that it receives alerts from the industry in terms of monitoring
+threats to gambling or on match-fixing, and it works with the industry to assist in
+developing policy responses to match-fixing.39
+2.49 The ANAO acknowledged that it is reasonable for advisory boards to include
+members with relevant sector expertise. The ANAO told the Committee that the issue
+lies not in the presence of interests, but in how interests that could influence the
+advice being provided are managed.40 The ANAO emphasised that risks arise where
+regulators do not clearly and transparently identify and manage associated interests,
+highlighting that:
+You rightly describe it as advisory. It's an important thing to have that connection
+to what's happening in the market. But I think what we typically see, whether it's
+governance boards, advisory committees or stakeholder groups, is this
+management of interests that could influence the advice. So, we're really looking
+for the thoughtfulness and process and understanding. It all comes to regulatory
+capture, all the time—that you're not captured by a sector or a person and then it
+influences how you administer your regulation.41
+2.50 SIA informed the Committee that a review of the Advisory Council’s terms of
+reference is underway, including a requirement to publish a list of all member
+declarations in the meeting papers.42 SIA did not provide a date as to when this
+review would be complete.
+Committee comment
+2.51 SIA’s process for declaring and managing conflicts of interest has been deficient
+across its advisory, oversight and assurance bodies. This has the potential to
+undermine trust in the performance of SIA as the regulator of Australia’s national
+anti-doping scheme.
+2.52 Conflicts of interest can be actual, potential or perceived and as a regulatory body,
+SIA has an obligation to deal with these conflicts, whether through disclosures and
+their management, or through alternative arrangements to obtain required expertise.
+37 Mr Luke McCann, Deputy Chief Executive Officer, Strategy, International Policy and Corporate, SIA,
+Committee Hansard, 31 October 2025, p. 15.
+38 SIA, Competition manipulation and sports wagering, https://www.sportintegrity.gov.au/what-we-
+do/competition-manipulation-and-sports-wagering (accessed 28 January 2026).
+39 Mr Luke McCann, SIA, Committee Hansard, 31 October 2025, p. 15.
+40 Ms Rona Mellor PSM, Deputy Auditor-General, ANAO, Committee Hansard, 31 October 2025, p. 16.
+41 Ms Rona Mellor PSM, ANAO, Committee Hansard, 31 October 2025, p. 16.
+42 SIA, Supplementary Submission 1.2, p. 4.
+18
+2.53 The Committee questions the appropriateness of individuals with wagering-related
+interests serving on the Advisory Council. It is of the view relevant industry expertise
+in this area could be obtained through alternative mechanisms.
+Gifts, benefits and sports-related hospitality
+2.54 Accepting offers of gifts, benefits or hospitality can create conflicts of interest and
+pose risks to public confidence in entities, including public expectations of integrity,
+accountability, independence, transparency and professionalism.43 This confidence
+can also be damaged when gifts and benefits are not properly declared.44
+2.55 The PS Act requires that APS employees and agency heads uphold the APS Values
+and Code of Conduct. Guidance issued by the APSC states that accepting a gift or
+benefit connected to an employee’s employment can create a real or apparent
+conflict of interest that should be avoided.45 Particular care should also be taken if the
+gifting organisation or individual is in a contractual or regulatory relationship with the
+agency.46
+2.56 There are also specific requirements and guidance for agency heads set out by the
+APSC. Agency heads must disclose, in a public register, any gift or benefit accepted
+with a value over $100. Although not a requirement, there is a strong expectation that
+agency heads also publish gifts and benefits received by staff that exceed this
+threshold.47
+2.57 SIA has a managing an offer of a gift or benefit policy and procedure, updated in
+August 2024, which requires gifts and benefits to be ‘carefully considered’ before
+acceptance or rejection. Under the policy, all offers exceeding $50, whether accepted
+or declined, must be declared in SIA’s gifts and benefits register. Where possible,
+approval to accept the gift or benefit must be obtained by the deputy CEO or CEO
+before acceptance.48
+2.58 SIA publishes quarterly updates of the CEO’s gifts and benefits disclosures in
+accordance with its policy and Australian Government requirements. The public
+register also includes accepted gifts to other officials exceeding $100 in value.49
+2.59 Evidence uncovered in the audit suggests that SIA was not appropriately managing
+the risks of regulatory capture accruing from the acceptance of gifts and benefits.
+2.60 The ANAO found SIA’s documentation of gifts and benefits, including those from
+regulated sporting organisations, was inconsistent across both public reporting and
+43 ANAO, Gifts, Benefits and Hospitality, 29 October 2024, https://www.anao.gov.au/work/insights/gifts-
+benefits-and-hospitality.
+44 APSC, Guidance for Agency Heads – Gifts and Benefits, last updated 20 October 2023.
+45 APSC, APS Values and Code of Conduct in Practice, 22 May 2018, last updated 13 September 2021,
+https://www.apsc.gov.au/publication/aps-values-and-code-conduct-practice, p. 45.
+46 APSC, APS Values and Code of Conduct in Practice, p. 46.
+47 APSC, Guidance for Agency Heads – Gifts and Benefits, last updated 20 October 2023.
+48 ANAO, SIA Audit, paragraph 2.33.
+49 ANAO, SIA Audit, paragraph 2.40.
+19
+internal record-keeping. These weaknesses were evident at both the CEO level and
+across SIA officials more broadly.
+2.61 SIA did not maintain comprehensive or accurate records of whether invitations or
+offers were accepted or declined by the CEO. While SIA’s quarterly public
+disclosures recorded the acceptance of three gifts or benefits during the audit period,
+the ANAO’s non-exhaustive review of email correspondence identified the CEO had
+received at least 22 invitations to sporting or sports-related events—none of which
+were documented in the public register. These invitations were received from
+organisations including World Athletics, the Australian Olympic Committee, ACT
+Brumbies, Football Australia and the Australian Rugby League Commission.50
+2.62 When asked, SIA advised that the current and former CEOs had not attended any
+major sporting events, games or competitions ‘in performing their functions as
+CEO’.51 It is not clear whether tickets or hospitality may have been accepted in an
+unofficial capacity.
+2.63 Internal registers for other officials were similarly incomplete. The ANAO identified
+instances where officials accepted gifts and benefits that were not recorded in the
+internal register, contrary to SIA policy requirements.52
+2.64 In the absence of accurate documentation or record-keeping, it is not possible to
+determine how many invitations were in fact received, and accepted, by the CEO and
+SIA officials more broadly.
+2.65 SIA was not able to say how accepting tickets to attend sporting events was
+consistent with SIA’s role as a regulator. When asked why SIA would accept sports-
+related hospitality, SIA stated its ‘general practice’ is not to accept gifts and benefits
+but acknowledged exceptions occur and henceforth reasons would be documented.53
+2.66 According to the ANAO, a clear guiding principle for officials to generally avoid the
+acceptance of gifts, benefits and hospitality, regardless of their value, can help
+remove doubt or misunderstanding, as well as ‘set an appropriate tone’ and promote
+a culture of integrity. To achieve this, an entity could communicate its position on gifts
+and benefits to its regulated entities to discourage gifts of any size being offered.54
+2.67 SIA has not formally communicated to the major sporting codes its position on
+accepting gifts or hospitality but agreed that it ‘might be an opportunity’.55
+2.68 The benefits of such an approach were acknowledged by the ANAO as something
+that ‘can change behaviour’ of stakeholders. The ANAO put forward that formally
+communicating the lack of hospitality engagement:
+50 ANAO, SIA Audit, p. 37, paragraph 2.42.
+51 SIA, Supplementary Submission 1.1, p. 2.
+52 ANAO, SIA Audit, paragraph 2.43.
+53 Mr Luke McCann, SIA, Committee Hansard, 31 October 2025, p. 5.
+54 ANAO, Gifts, Benefits and Hospitality, 29 October 2024.
+55 Dr Sarah Benson PSM, SIA, Committee Hansard, 31 October 2025, p. 5.
+20
+…is something that we would encourage entities, particularly regulators, to think
+about: setting the tone of that engagement and documenting it. They tend to drop
+away, in terms of putting the risk in your court rather than in their own.56
+Committee comment
+2.69 It is crucial that government regulators be above reproach when it comes to
+regulatory capture. This responsibility rests not only with SIA, but also for regulated
+entities. As a regulatory entity, it is vital that SIA has robust and watertight defences
+against regulatory capture. It is also the case the regulated population must be
+educated that it is not appropriate to offer gifts and benefits to the regulator.
+2.70 The Committee considers transparency and proper documentation of integrity
+controls to be fundamental to managing regulatory capture risks. Regulators must
+foster a culture where interactions with regulated entities are consistently and
+appropriately managed and documented.
+2.71 While SIA’s internal processes must be robust to prevent any actual or perceived
+regulatory capture, SIA also has a responsibility to advise the sector of its position on
+such matters. It is important that preventive controls for managing gifts and benefits
+include the very clear principle that gifts and benefits of any value should not be
+accepted. If there are any exceptions, this must be clearly defined.
+2.72 In August 2024, SIA introduced an online tool to automate conflict of interest and gift
+and benefit declarations. Officials are now required to declare whether gifts and
+benefits are accepted or declined. SIA advised that it gains assurance over the
+completeness and accuracy of the register through the generation of a quarterly
+report for review.57 However, this approach does not in itself provide assurance that
+the register is complete and accurate, and that staff fully understand and comply with
+their obligations.
+Recommendation 2
+2.73 The Committee recommends that Sport Integrity Australia establishes a formal
+policy on the acceptance of gifts and benefits. The policy is to be actively
+communicated to all regulated individuals and entities and be published in a
+prominent position on the Sport Integrity Australia website. An update on this
+recommendation is to be provided to the Committee within six months.
+Outside employment
+2.74 Engaging in outside employment may create a real or apparent conflict of interest.58
+Established best practice for managing outside employment requires that all parties
+56 Ms Rona Mellor PSM, ANAO, Committee Hansard, 31 October 2025, p. 6.
+57 SIA, Supplementary Submission 1.2, p. 2.
+58 APSC, APS Values and Code of Conduct in Practice, p. 49.
+21
+be aware of applicable obligations relating to declaring, assessing and managing
+conflict risks that arise from such employment. Ideally, agencies establish a specific
+policy for outside employment.59
+2.75 SIA has an outside employment policy that allows staff to engage in paid or unpaid
+outside employment and requires the employee to identify and disclose any real or
+apparent conflicts of interest. In addition to this and in accordance with WAD Code
+requirements, employees in anti-doping related roles are prohibited from undertaking
+management, executive or policy making roles within a broad definition of sport or
+entities involved in the organisation of events.60
+2.76 The policy requires employees to complete and submit a ‘notification of outside
+employment form’, which is then considered by a delegate. Only one formal outside
+employment notification form was submitted during the review period.61
+2.77 The audit found SIA’s outside employment policy had not been reviewed in line with
+its expected review date.62 It also found that while some conflicts of interest relating
+to outside employment were disclosed, compliance with the outside employment
+policy process was poor.
+2.78 Multiple declarations of outside employment were made through conflict of interest
+forms—rather than the notification of outside employment form. Conflict of interest
+forms do not require the same detail as the notification of outside employment form,
+such as the nature of employment, actual and perceived conflicts arising from the
+employment, or delegate considerations in deciding whether to approve the
+arrangement.63
+2.79 All disclosed instances of outside employment were with regulated entities or within a
+sports-related occupation, and there was limited evidence of formal review or
+adequate management strategies in place.64 For the four officials (two SES and two
+non-SES) who declared outside employment on a conflict of interest disclosure form,
+SIA advised that these staff did not work in operational anti-doping areas of SIA. The
+two SES declarations referred to both paid and unpaid roles.65
+2.80 When asked how it was ensuring formal review and management strategies were in
+place to address potential conflicts relating to outside employment, SIA did not
+identify any assurance mechanism. It did not describe how procedures had been
+strengthened or any substantive steps it had taken.66
+59 APSC, APS Conflict of Interest Management Framework: Better Practice Model, 9 September 2025,
+https://www.apsc.gov.au/conflict-interest/aps-better-practice-model.
+60 SIA, Supplementary Submission 1.1, p. 3.
+61 ANAO, SIA Audit, paragraphs 2.38–2.39.
+62 ANAO, SIA Audit, paragraph 2.33.
+63 ANAO, SIA Audit, p. 36, paragraph 2.38.
+64 ANAO, SIA Audit, paragraphs 2.38–2.39.
+65 SIA, Supplementary Submission 1.1, p. 3.
+66 SIA, Supplementary Submission 1.2, p. 3.
+22
+Committee comment
+2.81 Regulators must ensure that outside employment does not compromise integrity or
+create actual or perceived conflicts of interest. This requires clear policies, consistent
+documentation, and active oversight. SIA is responsible for ensuring that staff
+understand and comply with their obligations. Given that outside employment
+undertaken by SIA staff frequently involves sports-related roles, this further heightens
+the need for documented management and consideration of potential regulatory
+capture risks.
+23
+
+3. Management of the National Anti-
+Doping Scheme
+Introduction
+3.1 This chapter examines Sport Integrity Australia’s (SIA) approach to preventing,
+detecting and responding to anti-doping rule violations through its management of
+Australia’s National Anti-Doping Scheme. It focuses on inconsistencies in SIA’s
+regulatory approach to user pays sports; its investigative framework and quality
+assurance practices; and the conduct of its investigations.
+Prevention and detection of anti-doping violations
+User pays and government funded testing arrangements
+3.2 A key principle for regulatory activity is that it is risk based and data driven. This is
+emphasised in RMG 128: Regulator Performance, where best practice regulators
+take a risk-based approach informed by data, evidence and intelligence.1
+3.3 SIA is also required under the World Anti-Doping (WAD) Code and 2023 International
+Standard for Testing and Investigations (ISTI) to conduct effective and proportionate
+test planning that begins with a risk assessment informed by intelligence.2
+3.4 SIA applies two funding models for anti-doping sample collection and analysis:
+government funded and partially cost-recovered ‘user pays’. SIA has no documented
+criteria for determining which funding model applies to a sport. Instead, the
+designation is made in part according to a judgement as to a sport’s capacity to pay
+for its own anti-doping testing.3
+3.5 SIA maintains that user-pays arrangements do not provide sports with any additional
+access or benefit to SIA’s services or change its regulatory approach compared to
+government-funded arrangements.4
+1 See: Department of Finance, Regulator Performance (RMG 128): Principle 2 Risk based and data driven,
+https://www.finance.gov.au/government/managing-commonwealth-resources/regulator-performance-rmg-
+128/principle-2-risk-based-and-data-driven.
+2 World Anti-Doping Agency (WADA), International Standard for Testing and Investigations 2023 (ISTI 2023),
+articles 4.1 and 4.2.
+3 Australian National Audit Office (ANAO), Auditor-General Report No. 27 2024–25: Sport Integrity Australia’s
+Management of the National Anti-Doping Scheme (SIA Audit), 3 March 2025, paragraph 16.
+4 Sport Integrity Australia (SIA), Supplementary Submission 1.2, p. 7.
+25
+3.6 SIA further contends that user-pays charging does not conflict with its obligations as
+a national anti-doping organisation. It told the Committee that its compliance with
+WAD Code and International Standards obligations was not a concern in its recent
+World Anti-Doping Agency (WADA) audit.5
+3.7 However, SIA’s regulatory approach to preventing and detecting anti-doping
+violations differs between the two funding models in ways that have practical
+implications for how testing is planned, resourced and delivered.
+3.8 The Australian National Audit Office (ANAO) concluded that SIA’s regulatory
+responsibilities were more effectively carried out for sports that received government-
+funded anti-doping testing.6 For sports under the user-pays model—Australian
+football (AFL), cricket, football (soccer), rugby league, rugby union and basketball—
+regulation was found to not be demonstrably risk based and data driven.7
+3.9 Table 3.1 below summarises key differences between funding models in how SIA
+carried out its regulatory responsibilities, as identified by the ANAO, including across
+test distribution planning, risk assessments, testing pools, and overall engagement
+with national sporting organisations (NSO).
+Table 3.1 SIA regulatory approach for sampled sports
+Element of testing
+Government funded User pays
+process
+Procedure sets out roles and
+Test distribution plan
+responsibilities for managing the No equivalent procedures developed
+procedure
+process
+Total number of planned Negotiated annually with NSOs through
+Linked to SIA’s budgeted funding
+tests per year deeds of standing offer
+Pre-moderation risk
+assessments (2022–23 All completed Partially completed
+and 2023–24)
+65 athletes in registered pool, 96
+No athletes in registered or national pools,
+Testing pools in national pool, and 363 in
+and four athletes in domestic pool
+domestic pool
+Templates for sports- Prepared annually for all sports in Prepared based on competition season
+specific testing plans sample using a standard template using templates unique to that sport
+NSOs approved testing plan prior to a
+NSOs not involved in planning the service order being established under
+Testing plans for 2023–24
+distribution of anti-doping tests existing contracts with SIA;
+number and type of samples determined
+5 SIA, Supplementary Submission 1.2, pp. 6–7.
+6 ANAO, SIA Audit, paragraph 8.
+7 ANAO, SIA Audit, paragraph 8.
+26
+Element of testing
+Government funded User pays
+process
+through discussions with NSOs in
+reference to testing costs and risks
+Testing plan alignment with 2 of 5 sampled sports were consistent with
+Fully consistent with MLAs for 12
+Minimum Levels of MLAs, 3 sports included planned testing for
+of 20 sports or disciplines
+Analysis (MLA) all types but not at minimum required level
+Periods of no-testing during off-season and
+pre-season for two sports. Out of
+Periods of testing - competition testing conducted at scheduled
+training sessions, based on schedules
+provided by the NSO
+Source: ANAO, SIA Audit, paragraphs 3.20, 3.44, 3.60, 3.66, 3.67, 3.71-3.74.
+3.10 To address these inconsistencies, the ANAO made three recommendations to SIA.
+Specifically, that SIA:
+• establish a procedure for the test distribution planning process for user-pays
+sports
+• establish a documented methodology for evaluating test distribution planning for
+government-funded and user-pays sports, and document outcomes from
+evaluations
+• undertake annual risk assessments to inform test distribution planning for all
+sports subject to regulation, including user-pays sports.8
+3.11 SIA welcomed the ANAO’s findings and agreed that there should not be ‘stark
+differences’ between the two funding models.9 It agreed to all recommendations and
+has since updated its test distribution plan procedure to include user-pays sports.
+User-pays sports are also now incorporated into the risk assessment for the 2025–26
+test distribution plan process.10
+3.12 In relation to the decision-making process determining which sports are treated as
+user pays, SIA advised that it has mapped the current process, with further
+refinement and documentation of the model planned.11 No information was provided
+as to when this would be complete.
+3.13 The Committee examined in greater detail some issues arising from SIA’s regulatory
+practices in relation to user-pays sports. The sections below consider the implications
+for SIA’s regulatory effectiveness of particular practices with regard to risk
+8 ANAO, SIA Audit, p. 11.
+9 Dr Sarah Benson PSM, Chief Executive Officer, SIA, Committee Hansard, 31 October 2025, p. 14.
+10 SIA, Submission 1, p. 3.
+11 SIA, Supplementary Submission 1.2, p. 9.
+27
+assessments, test distribution plans, testing pools, and information provided by
+sports.
+Risk assessments
+3.14 Risk assessments and the resulting test distribution plan are the key tool through
+which SIA ensures its regulatory activities are risk-based and data driven.12
+3.15 The ISTI sets out requirements for documenting, evaluating and updating risk
+assessments and establishes that effective and proportionate test planning begins
+with a risk assessment informed by intelligence.13 Risk assessments are considered
+the starting point of the test distribution plan.14
+3.16 In 2022–23 and 2023–24, SIA completed a risk assessment for all government-
+funded sports in the ANAO’s sample.15 However, for user-pays sports, risk
+assessments were completed for two of five sports in 2022–23 (soccer and rugby
+union) and one of five sports in 2023–24 (soccer).16
+3.17 In response to the identified shortcomings, SIA updated its documentation. SIA
+advised that it updated its test distribution planning procedure to include a
+requirement for user pays and government funded sports to be included in the same
+risk assessment. SIA stated the updated procedure ensured ‘consistency and robust
+documentation’.17
+3.18 When the Committee asked for detail on the specific processes established to ensure
+that risk assessments are being completed, SIA confirmed it had included all sport
+disciplines in the documented risk assessment process, and conducted an annual
+review.18
+3.19 In its evidence to the inquiry, the ANAO emphasised that simply producing
+documentation was not sufficient and that its recommendations were not just that SIA
+should write documents. Rather, the issue was using the documents ‘for the purpose
+of addressing risk and evaluating risk in each [regulatory] cycle’.19
+Sport-specific testing plans
+3.20 Test distribution plans determine SIA’s allocation, timing and type of anti-doping
+testing across sports and athletes, in accordance with the ISTI.
+12 SIA, Supplementary Submission 1.2, p. 7.
+13 WADA, ISTI 2023, article 4.1
+14 WADA, ISTI 2023, article 4.2.1.
+15 ANAO, SIA Audit, paragraph 3.60.
+16 ANAO, SIA Audit, paragraph 3.60.
+17 SIA, Supplementary Submission 1.2, p.8.
+18 SIA, Supplementary Submission 1.5, p. 1.
+19 Ms Rona Mellor PSM, Deputy-Auditor General, ANAO, Committee Hansard, 31 October 2025, p. 8.
+28
+3.21 The ISTI also states that anti-doping organisations shall ensure that athlete support
+personnel20 and any others with a conflict of interest are not involved in test
+distribution planning for their athletes or in the process of selecting athletes for
+testing.21
+3.22 Although SIA advised that its updated procedure with regard to the test distribution
+planning procedure ensured ‘consistency’, it acknowledged there was a substantive
+difference in approach between user pays and government funded sports. For user
+pays sports, SIA is required to develop a testing proposal. The testing proposal is
+considered by the NSO and adopted prior to the services being provided under
+contract.22
+3.23 The ANAO found that the number and distribution of tests for user pays sports was
+negotiated with the sports. This was not consistent with the WAD Code principles or
+SIA’s responsibilities as a regulator of these sports.23 Government funded sports do
+not have input into the allocation and distribution of anti-doping testing.24
+3.24 In 2023–24:
+• the five user-pays sports approved the testing plan prior to a service order being
+established
+• the number and types of samples were determined through discussions with
+NSOs
+• only one of the testing plans was supported by a risk assessment.25
+3.25 Testing arrangements for user pays sports also did not fully cover the off- and pre-
+season.26 During the audit, the ANAO found that SIA did not undertake anti-doping
+sample collection activities for periods during off- and pre-season for Australian
+football and rugby union.27 SIA told the Committee it has since updated its
+agreements with those sports to ensure the 12 month period is covered.28 However,
+regardless of the testing arrangement, SIA stated it always had the ability to ‘test
+anybody at any time’.29
+3.26 SIA also advised that as a ‘direct outcome’ from the audit, it has developed a
+standardised testing proposal template that explicitly states risk factors and proposal
+objectives. SIA stated that this template is the control used to ensure that discussions
+20 Athlete support personnel includes any coach, trainer, manager, agent, team staff, official, medical,
+paramedical personnel, parent or any other person working with, treating or assisting an athlete in
+participating in or preparing for sports competition. See: WADA, ISTI 2023, p. 8.
+21 WADA, ISTI 2023, article 4.1.2.
+22 SIA, Supplementary Submission 1.2, p. 8.
+23 ANAO, SIA Audit, paragraph 10.
+24 ANAO, SIA Audit, paragraph 3.73.
+25 ANAO, SIA Audit, paragraph 3.73.
+26 ANAO, SIA Audit, p. 53.
+27 ANAO, SIA Audit, paragraph 3.84.
+28 Mr Chris Butler, Head of Anti-Doping Operations, SIA, Committee Hansard, 31 October 2025, p. 10.
+29 Mr Chris Butler, SIA, Committee Hansard, 31 October 2025, p. 10.
+29
+are risk based and data driven.30 As to assurance mechanisms to ensure that the test
+distribution plans are risk-based, SIA noted that these include executive oversight
+and approval.31
+Testing pools
+3.27 While SIA maintains the authority to test any athlete at any time, athletes in the
+registered and national pools enable SIA to conduct its no-advance out of
+competition testing by placing whereabouts requirements on athletes. Testing pools
+also inform sport-specific testing plans, which consider pool composition when
+determining testing numbers and priorities.32
+3.28 SIA has three testing pools, provided for through the National Anti-Doping Policy and
+the ISTI33:
+• Registered – reserved for high performance athletes who are subject to the most
+rigorous anti-doping testing, with daily whereabouts requirements.
+• National – includes athletes who compete at a high level nationally or
+internationally and are subject to increased anti-doping testing, with fewer
+whereabouts requirements compared to the registered pool.
+• Domestic – athletes may be included based on certain criteria such as:
+participation in team-based sports; meeting one or more criteria for other pools
+but not included in them; competing at a national or state level; or being identified
+as emerging talent by their sport or SIA.34
+3.29 Athletes not in testing pools are not subject to whereabouts requirements. Despite
+having the authority to do so, statistics provided from 2022 indicate relatively few
+user pays athletes have been included in testing pools (see Table 3.2).35
+Table 3.2 Athletes in testing pools in audit sample (as of July 2024)
+Pool User pays sports Government funded sports
+Registered - 65
+National - 96
+Domestic 4 363
+Source: ANAO, SIA Audit, paragraph 3.66.
+30 SIA, Supplementary Submission 1.5, p. 2.
+31 SIA, Supplementary Submission 1.5, p. 2.
+32 ANAO, SIA Audit, paragraphs 3.65 and 3.68.
+33 See: SIA, National Anti-Doping Policy, article 5 and WADA, ISTI 2023, subsection 4.8.4.
+34 SIA, Testing Pools, www.sportintegrity.gov.au/what-we-do/anti-doping/athlete-testing/testing-pools (accessed
+28 November 2025).
+35 ANAO, SIA Audit, paragraphs 3.66 to 3.67.
+30
+3.30 SIA states the pools allow SIA to locate and test athletes ‘in a proportionate
+response’. 36 The whereabouts requirements are described by SIA as ‘burdensome’
+and not required for user pays sports because they:
+… have easy to find locations. We know where they’re training. The sport is
+required to provide us those details as part of the contractual arrangements.37
+3.31 SIA confirmed out of competition testing of user pays sports is undertaken at
+scheduled training sessions, based on schedules provided by the sports. SIA viewed
+this arrangement as suitable.38
+3.32 Upon further examination from the Committee as to why there were so few athletes
+from user pays sports in testing pools, SIA stated that it receives training information
+and details of athletes movements during the offseason directly from the client –
+removing the need for athletes to be included in a pool.39 The frequency of updates
+from user pays sports on training schedules and athlete locations ‘depends on the
+sport and club’. SIA requires the provision of accurate information shared in advance
+and without prompt, with consequences for NSOs where a failed attempt at testing
+occurs due to inaccurate information.40
+Lists of athletes for testing
+3.33 The ISTI sets out that anti-doping organisations are to ensure that they are able to
+obtain, assess and process anti-doping intelligence from all available sources. This
+enables anti-doping organisations to: help deter and detect doping; inform the
+development of an effective, intelligent and appropriate test distribution plan; plan
+target testing; and conduct investigations.41
+3.34 The ISTI further requires that anti-doping organisations assess all anti-doping
+intelligence for relevance, reliability and accuracy, taking into account the nature of
+the source and circumstances in which the intelligence has been captured or
+received.42
+3.35 The list of factors that anti-doping organisations should consider when assessing
+athletes for targeted testing are set out in the ISTI. While not limited to these factors,
+the list includes:
+• prior anti-doping rule violations, test history, including any abnormal biological
+parameters
+• sport performance history, performance pattern, and/or high performance without
+commensurate test record
+36 Mr Chris Butler, SIA, Committee Hansard, 31 October 2025, p. 10.
+37 Mr Chris Butler, SIA, Committee Hansard, 31 October 2025, p. 10.
+38 ANAO, SIA Audit, paragraph 3.67.
+39 SIA, Supplementary Submission 1.5, p. 3.
+40 SIA, Supplementary Submission 1.5, p. 3.
+41 WADA, ISTI 2023, article 11.1.
+42 WADA, ISTI 2023, article 11.3.1.
+31
+• repeated failure to meet whereabouts requirements
+• suspicious whereabouts patterns (for example, last minute updates of
+whereabouts information)
+• moving to or training in a remote location
+• withdrawal or absence from expected competition(s)
+• association with a third party (such as team-mate, coach or doctor) with a history
+of involvement in doping
+• injury
+• age/stage of career (for instance, move from junior to senior level, nearing end of
+contract, approaching retirement)
+• financial incentives for improved performance, such as prize money or
+sponsorship opportunities
+• reliable information from a third party, or intelligence developed by or shared with
+the anti-doping organisation.43
+3.36 SIA advised that it works closely with both government funded and user pays sports
+to actively seek input regarding which athletes should be considered for testing.
+Since 2022, of user pays sports, the AFL and NRL have provided information to SIA
+in the form of lists of athletes.44
+3.37 According to SIA, the process operates as follows:
+• SIA works with NSOs to identify athlete risk factors relevant in determining who to
+test
+• NSOs provide names on a list for consideration
+• SIA reviews the names against its internal data and intelligence holdings
+• SIA decides who is placed in a testing pool or identified as suitable for testing.45
+3.38 Tables 3.3 and 3.4 provide an overview of the AFL and NRL lists provided between
+2022 and 2024, including how many athletes were tested from provided lists and how
+many were tested more than once.
+Table 3.3 AFL target list (2022 to 2024)
+Measure 2022 2023 2024
+Number of athletes on
+95 37 51
+list provided
+Number of athletes
+36 (38%) 22 (59%) 50 (98%)
+tested from list
+43 SIA, Supplementary Submission 1.1, p. 6.
+44 SIA, Supplementary Submission 1.1, p. 4.
+45 SIA, Supplementary Submission 1.3, p. 22.
+32
+Number of athletes
+1 2 13
+tested more than once*
+Source: SIA, Submission 1.3, p. 4.
+* These figures refer to multiple tests on athletes included on the list (not multiple tests on all athletes in the sport that year)
+Table 3.4 NRL target list (2022 to 2024)
+Measure 2022 2023 2024
+Number of athletes on
+Not provided 31 178
+list provided
+Number of athletes
+Not provided 18 (58%) 108 (61%)
+tested from list
+Number of athletes
+Not provided 2 14
+tested more than once*
+Source: SIA, Submission 1.3
+* These figures refer to multiple tests on athletes included on the list (not multiple tests on all athletes in the sport that year)
+3.39 Neither the lists themselves, nor the documentation supporting the inclusion of
+athletes on lists, were consistent. For the 2023–24 season, the ANAO found the
+AFL’s list did not include reasons for targeting, that is, what risk factor might justify
+the targeting of a particular athlete.46 SIA confirmed that the 51 athletes put forward
+by the AFL were all assessed through its usual process when considering target
+testing, guided by the ISTI factors.47
+3.40 SIA later confirmed that previous lists provided by the AFL contained ‘some rationale’
+for athlete inclusion, including performance output improvements or decreases,
+contractual changes, and known associations presenting an integrity risk to sport.48
+3.41 During the audit, the ANAO located lists only from the AFL, advising the Committee
+that in the documents it saw during the course of the audit, ‘we did not see the same
+level of steerage towards particular athletes’ from other sports.49
+3.42 SIA stated that the NRL provided some information attached to its lists, specifically,
+contract information.50 SIA advised ‘they [NRL] only consider one risk factor in
+providing their list of names … the AFL may consider more’, but do not provide any
+additional information. SIA confirmed that ‘there’s a difference in the basis on which
+different professional sports provide lists to us’.51
+3.43 During the hearing, the ANAO reiterated a key principle for effective regulation is
+having a data-driven and risk-based approach. When it conducted the audit, the
+46 ANAO, SIA Audit, paragraph 3.73.
+47 SIA, Supplementary Submission 1.1, p. 6.
+48 SIA, Supplementary Submission 1.4, p. 3.
+49 Ms Christine Chalmers, Executive Director, ANAO, Committee Hansard, 12 December 2025, p. 5.
+50 Mr Chris Butler, SIA, Committee Hansard, 12 December 2025, p. 5.
+51 Dr Sarah Benson PSM, SIA, Committee Hansard, 12 December 2025, p. 11.
+33
+ANAO looked for clearly documented frameworks to assess risk, and consistent use
+of information, data and intelligence, which can include lists from sporting codes.
+3.44 The ANAO examined how data, information and intelligence were applied in a
+structured way and according to frameworks. It found ‘opportunities to further
+strengthen that risk based approach to regulation and to ensure that there’s
+consistency across the different types of sporting codes—user pays and the
+government funded codes’.52 The audit itself found SIA’s arrangements for preventing
+and detecting doping were only partly effective for the major professional sports that
+have mainly user pays arrangements ‘due to the way SIA has chosen to administer’
+the user pays arrangements.53
+3.45 Between 2023 and 2024, the number of athletes on the NRL’s list increased by 474
+per cent. As to what accounted for this substantial increase, SIA advised that the risk
+factors did not change, and that the increase was attributed to SIA actively seeking
+and requesting a list of athletes who were currently on the last year of their current
+contract. This had previously been sought by SIA through open-source information.54
+3.46 Although SIA facilitates discussions with sports about relevant risk-factors and
+actively encourages the provision of this information, the response from sports is
+variable. For user pays sports, SIA confirmed that over the past three years, it did not
+hold ‘any record of an individual athlete’ being put forward for testing during
+discussions between SIA and Basketball, Cricket, Football and Rugby Union.55
+3.47 The ANAO stated that because risk assessments were not consistently completed for
+user pays sports, it was difficult to answer the question ‘why target certain people,
+even if the Code brings them forward?’.56 When the ANAO conducted the audit, it
+could not see ‘any relationship between the selection [of an athlete for testing] and
+the risk’, which was a risk itself as it ‘brings with it the optic of capture by the user pay
+sports … part of the risk … is the optic that the names that are given are low risk …
+the optic is that you’re being fed information potentially that takes you away from
+where the high risk is’. The ANAO stated that it was also possible the names were
+high risk, and that the absence of a rationale for selection of athletes was also a risk
+to SIA.57
+3.48 According to SIA, NSO’s are considered ‘reliable third parties’ under ISTI criteria.58 In
+particular, user pays sports are considered to have better resources to understand
+their anti-doping environment and the risks to the integrity of their sport. SIA told the
+Committee that it:
+…doesn't want to go out and just randomly select any athlete for testing because
+it is not intelligence informed, it's not risk informed. So we do quite deliberately
+52 Ms Christine Chalmers, ANAO, Committee Hansard, 12 December 2025, p. 12.
+53 ANAO, SIA Audit, paragraph 10.
+54 SIA, Supplementary Submission 1.5, p. 4.
+55 SIA, Supplementary Submission 1.4, p. 2.
+56 Ms Rona Mellor PSM, ANAO, Committee Hansard, 31 October 2025, p. 12.
+57 Ms Rona Mellor PSM, ANAO, Committee Hansard, 31 October 2025, pp. 12–13.
+58 SIA, Supplementary Submission 1.2, p. 22.
+34
+receive them from any sport, whether they're user-pay or government funded.
+We want to know about their sport, what they understand about the risk
+environment.59
+3.49 As to what documented assurance processes SIA has in place to ensure that the
+information provided from the sports in the form of lists is reliable and risk-based, SIA
+only stated that that the assurance process is now documented in the developing the
+test distribution plan procedure. This process states that SIA will ‘critically review
+internal holdings’ in conjunction with open-source information when assessing the
+lists provided by sports.60
+Investigating and responding to anti-doping rule
+violations
+3.50 SIA is responsible for investigating suspected violations of Australia’s national-anti-
+doping rules. These investigations are guided by the Australian Government
+Investigations Standard (AGIS), which sets out the minimum standards for Australian
+Government entities conducting investigations. The AGIS was released in 2011 and
+updated in October 2022.61
+3.51 The ANAO examined whether SIA had established effective arrangements to
+investigate and respond to anti-doping rule violations and found:
+• a partly fit for purpose procedural framework for investigations, including for
+quality assurance
+• irregularities in the triage and conduct of investigations when compared to the
+procedures
+• investigations that did not consistently meet timeliness targets as set out on the
+WAD Code.62
+3.52 The ANAO recommended that SIA either establish controls to ensure that SIA’s
+documented investigative practices and procedures were implemented, or update
+these to reflect current endorsed practice. It also recommended SIA implement a
+quality assurance process that captured all types of investigations.63
+3.53 In relation to the conduct of investigations, the ANAO identified an opportunity for
+improvement relating to documenting procedures for dealing with adverse analytical
+finding cases involving substances of abuse, and for dealing with non-analytical
+finding cases.64
+59 Mr Chris Butler, SIA, Committee Hansard, 31 October 2025, p. 11.
+60 SIA, Supplementary Submission 1.5, p. 4.
+61 Australian Government, Australian Government Investigations Standard (AGIS), October 2022.
+62 ANAO, SIA Audit, paragraph 11.
+63 ANAO, SIA Audit, pp. 11–12.
+64 ANAO, SIA Audit, paragraph 4.30.
+35
+3.54 This section addresses key issues identified by the Committee: the alignment of the
+investigations framework with the AGIS; quality assurance practices; and SIA’s
+compliance with its own procedures for conducting investigations.
+Investigations framework
+Alignment with the AGIS
+3.55 At the time of the audit, SIA’s investigations manual, established in 2020, had not
+been updated to align with the AGIS 2022.65 While the AGIS 2022 does not prescribe
+a specific timeframe for updates, entities are expected to proactively implement
+changes and prioritise actions and requirements to meet the standard where
+possible, and in a reasonable timeframe.66
+3.56 SIA’s self-assessment of its compliance with the AGIS 2022 requirements found that:
+• policies, procedures or templates were in place for 21 of 113 AGIS 2022
+requirements
+• there were no policies, procedures or templates for one requirement
+• it was unsure how to assess one requirement
+• 89 requirements were not assessed.67
+3.57 Table 3.5 provides a summary ANAO’s assessment of selected AGIS 2022
+requirements across key operational elements and SIA practices. While some
+appropriate practices were observed, the table identifies gaps between documented
+procedures and actual practice.
+Table 3.5 Selected elements of ANAO assessment against the AGIS 2022
+AGIS 2022 elements ANAO assessment
+Disclosure management and information - Investigations manual and procedures
+sharing include consideration of Privacy Act, Sport
+Integrity Australia Act and its regulations
+The AGIS recommends having regard to relevant
+legislation and obtaining legal advice, documenting - Six instances where SIA disclosed protected
+responsibilities and establishing recordkeeping information
+procedures for investigation information and - Five were to Minister for Sport, and officials
+disclosure material. sought internal legal advice to support
+The AGIS recommends that entities have disclosure
+procedures in place for receiving, responding, and
+- One disclosure related to individual
+requesting information from other entities, and
+investigation and made to another
+collaborating across government and jurisdictional
+organisation; internal legal advice sought but
+boundaries.
+described as ‘preliminary’ and ‘inconclusive’,
+65 ANAO, SIA Audit, paragraph 4.4
+66 Attorney-General’s Department, Australian Government Investigations Standards, 7 November 2011,
+https://www.ag.gov.au/integrity/publications/australian-government-investigations-standards.
+67 ANAO, SIA Audit, paragraph 4.4
+36
+AGIS 2022 elements ANAO assessment
+Information sharing must be in accordance with the noting potential risk for non-compliance with
+Privacy Act 1988 (Privacy Act) and any secrecy SIA Act.
+provisions within legislation that may govern
+information sharing.
+Electronic investigation management system - Although there is an electronic investigations
+management system, case outcomes and
+Entities must establish an electronic investigation
+timeliness cannot be readily determined due
+management system to record, collate and manage
+to inconsistent data entry in SIA’s case
+investigations. There are also specific system
+management tool or system limitations.
+capability requirements.
+Security clearance - Investigations manual requires investigations
+staff to hold a negative vetting one security
+Entities are required to identify and assign security
+clearance
+clearance requirements against investigator roles /
+positions proportionate with access to classified - Position descriptions for executive and
+information and handling of investigation material. lower-level staff in anti-doping investigations
+indicated that requirement was baseline
+vetting.
+Qualifications - Variance in qualification requirements for
+executive level and lower-level staff
+The AGIS 2022 strengthened requirements on
+investigator qualifications by making minimum - No established documentation of
+vocational qualifications mandatory. qualifications of investigations staff, but SIA
+advised staff had appropriate qualifications
+- A vocational and educational training
+or were in the process of obtaining
+(VET) qualification must be obtained,
+appropriate qualifications.
+unless another qualification or internal
+training is determined as equivalent.
+- Entities must document the required VET
+accredited qualification/s (or equivalency)
+to conduct particular types of investigations
+and the timeframe in which investigators
+should obtain the qualification.
+Evidence and exhibit handling - Audit procedures in investigations manual
+require an annual stock take of full evidence
+The AGIS 2022 requires entities to conduct
+holdings. Since 1 July 2021, only one audit
+quarterly and annual audits of evidence holdings
+has been conducted.
+and have a procedure for the auditing of full
+evidence holdings.
+Risk management - While SIA had established a case
+categorisation and prioritisation model, it had
+The AGIS 2011 states that agencies should ensure
+not used this since 2020 and it had been
+risk management is incorporated in decision making
+replaced with ‘approach papers’
+throughout an investigation. The AGIS 2022 states
+that entities should establish a risk management - The approach paper process has since been
+framework for investigations. discontinued
+- SIA advised that the prioritisation of one
+case over another is not applicable to SIA’s
+37
+AGIS 2022 elements ANAO assessment
+operations, as SIA is required under the
+WAD Code to progress all adverse analytical
+findings.
+Decision-making - Some procedures in investigations manual,
+including case review, preparation of critical
+The AGIS 2022 states that entities should have a
+decision records and task allocation in the
+decision-making process in place for investigations
+case management system, are no longer
+involving options and actions that can be explained,
+practiced.
+justified, and documented.
+Source: ANAO, SIA Audit, pp. 66–70.
+3.58 When questioned on the lack of alignment with the AGIS, SIA explained that its
+documented procedures did not reflect its evolving practice:
+We'd taken on board the AGIS that came into effect in late 2022, and we were
+refining, over time, our practices. Since then, we've documented those practices
+and also done a fresh review, or a contemporary review, against the standard to
+make sure that we were in alignment.68
+3.59 The audit found that despite providing information to the ANAO in July 2024 that it
+had not assessed compliance with 89 AGIS 2022 requirements, SIA’s website in
+September 2024 stated that its investigations were conducted in accordance with the
+AGIS 2022.69 In response to the Committee’s questioning on this issue, SIA stated
+the practices in place were compliant, but that ‘they weren’t documented and
+reflected as compliant’. SIA acknowledged that the information on its website should
+be an accurate reflection of internal practices.70
+3.60 SIA made a number of statements regarding the shortcomings identified in the audit,
+including:
+• it had updated procedures and guidelines to ensure documented practices and
+procedures are consistent with current practice71
+• SIA’s current standard operating procedures provide general investigation
+standards and principles ‘derived’ from the AGIS72
+• a checklist has been developed to map alignment of processes with the AGIS
+2022.73
+68 Dr Sarah Benson PSM, SIA, Committee Hansard, 31 October 2025, p. 8.
+69 ANAO, SIA Audit, paragraph 4.4
+70 Dr Sarah Benson PSM, SIA, Committee Hansard, p. 8.
+71 SIA, Submission 1, p. 3.
+72 SIA, Supplementary Submission 1.2, p. 11.
+73 SIA, Supplementary Submission 1.2, p. 11.
+38
+3.61 Assurance of alignment of SIA processes and procedures with the AGIS 2022 would
+occur through SIA’s quality assurance policy that had been drafted but was awaiting
+external review (see below), the timeframe for which was not stated.74
+Quality assurance practices
+3.62 The AGIS requires entities to make quality assurance a priority and introduces
+informal and formal processes to ensure continual improvement, including a
+requirement for entities to have an investigations quality assurance policy in place
+that includes quality assurance activities.75 The AGIS includes a better practice
+element of at least one formal external quality assurance activity every two years.76
+3.63 The ANAO found that SIA’s quality assurance processes for investigations have
+largely not been established.77
+3.64 There have been delays in implementing and finalising quality assurance activities.
+For example, while the SIA’s predecessor, the Australian Sports Anti-Doping
+Authority (ASADA) had established a quality assurance review procedure for
+investigations in 2020, SIA advised in June 2024 that it had not been implemented.78
+3.65 The ANAO also found inconsistencies between SIA’s documented processes and
+actual practice for investigations review and investigation closure reporting. This
+included weekly team meetings to discuss the status of cases where minutes were
+not taken, and investigation closure templates that were inconsistently prepared and
+did not document lessons learned or recommendations.79
+3.66 The ANAO recommended that SIA implement a quality assurance process for
+investigations that captures all types of investigations.80 In response, SIA advised
+that it has formal quality assurance review processes in place through internal peer
+and supervisory review, as described in the AGIS.81 SIA stated that it would
+document its internal practices and implement external processes in line with AGIS
+best practice.82
+3.67 On a practical level, SIA has drafted an operational quality assurance policy and is
+seeking external review to ensure alignment with the AGIS. The draft policy includes:
+an additional informal internal review activity; independent internal audit; and
+74 SIA, Supplementary Submission 1.2, pp. 11–12.
+75 ANAO, SIA Audit, paragraph 4.11.
+76 Australian Government, AGIS 2022, October 2022, p. 16.
+77 ANAO, SIA Audit, p. 10.
+78 SIA assumed responsibility for sport integrity functions that were being undertaken by the Department of
+Health’s National Integrity of Sport and the Australian Sports Anti-Doping Authority (ASADA). ANAO, SIA
+Audit, paragraphs 1.4 and 4.12.
+79 ANAO, SIA Audit, paragraphs 4.13–4.15.
+80 ANAO, SIA Audit, paragraph 4.16.
+81 ANAO, SIA Audit, paragraph 4.17.
+82 ANAO, SIA Audit, paragraph 4.17.
+39
+independent external audit activity to be completed at least every two years. SIA did
+not indicate a timeframe for completion or implementation of this policy.83
+Conduct of investigations
+3.68 In addition to examining SIA’s investigation and quality assurance processes and
+frameworks, the ANAO also looked at how investigations were conducted.
+3.69 The AGIS sets clear expectations across the investigation lifecycle, including:
+• establishing criteria for when an investigation is considered to be commenced and
+finalised
+• ensuring an investigation is a documented process from commencement to
+finalisation, including context and rationale
+• investigations should commence with an overall planning process and where
+possible result in a written investigation plan that is referred to and updated
+• investigations must be conducted in a manner consistent with applicable laws,
+particularly regarding collection, handling, and presentation of evidence and
+application of powers
+• briefs of evidence should be prepared to a standard that will maximise the
+possibility of success in criminal, civil penalty, civil, administrative or disciplinary
+proceedings.84
+3.70 SIA’s arrangements to investigate and respond to anti-doping rule violations were
+found to be partly effective. The ANAO observed irregularities in the triage and
+conduct of 38 investigations commenced in the three years to 30 June 2024, when
+compared to SIA’s existing procedures.85
+3.71 SIA’s investigations of possible anti-doping rule violations are grouped into four
+categories: adverse analytical findings (AAF), presumptive adverse analytical
+findings (PAAF), atypical findings (ATF) and non-analytical findings. The non-
+analytical finding category was established by SIA.86 SIA has also established a
+separate process for AAF cases involving substances of abuse.87
+3.72 The ANAO considered that SIA could better document its procedures for dealing with
+AAF cases (substance of abuse), and for dealing with non-analytical findings. For
+example, it found that SIA had not clearly established criteria for when AAF cases
+involving substances of abuse or non-analytical findings cases are considered to be
+83 SIA, Supplementary Submission 1.2, p. 12.
+84 See: ANAO, SIA Audit, paragraphs 4.24, 4.32, 4.44, 4.37, 4.44 and 4.46.
+85 ANAO, SIA Audit, paragraph. 11.
+86 ANAO, SIA Audit, paragraph 4.19.
+87 ANAO, SIA Audit, paragraph 4.24.
+40
+commenced.88 For non-analytical findings cases, there was a lack of documented
+procedure and inconsistent treatment of cases.89
+3.73 Further, for AAF cases (substance of abuse), the roles of the legal and investigations
+sections had not been documented in a standard operating procedure. In the case of
+non-analytical findings cases, elements of SIA’s practices were not included in the
+investigations manual or documented elsewhere.90
+3.74 In relation to cases recorded in SIA’s case management system between 1 July 2021
+and 30 June 2024, documented procedures were followed for commencing all AAF
+cases. However, treatment for commencing non-analytical findings cases was
+inconsistent. There was no documented decision-making for one case; and another
+was based on email correspondence without an approach paper or Operations
+Committee consideration.91
+3.75 Between 1 July 2021 and 30 June 2024, 38 anti-doping rule violation cases recorded
+in SIA’s case management system progressed to the investigations section.92 The
+ANAO examined records for these cases to determine whether key activities were
+performed and documented in alignment with the AGIS and SIA requirements.93
+Table 3.6 SIA's investigation metrics 1 July 2021 - 30 June 2024
+Key activity Detail
+Investigation planning - Investigation plans developed for 32 of 38 investigations
+- 15 of 32 included required elements and authorisation
+- 17 of 32 not developed according to requirements
+- Of 6 investigations with no plan, five had no documented decision for not
+developing plan
+Application of - Disclosure notice procedure does not consistently align with the requirements
+investigative powers under the SIA Act
+- Penalties for non-compliance with disclosure notices not consistently issued
+- 8 of 16 athletes did not comply with disclosure notices and no penalties were
+issued
+- In November 2022, SIA developed a record of service template and an affidavit
+of service template, affidavit of service template had not been implemented
+Briefs of evidence - Of the 23 completed briefs of evidence adjudication, 19 addressed all the
+required evidence and were appropriately authorised
+88 ANAO, SIA Audit, paragraph 4.24.
+89 ANAO, SIA Audit, p. 64.
+90 ANAO, SIA Audit, paragraph 4.24.
+91 ANAO, SIA Audit, paragraph 4.25.
+92 ANAO, SIA Audit, paragraph 4.31.
+93 ANAO, SIA Audit, paragraph 4.33.
+41
+Key activity Detail
+Investigation closure - Closure reports not consistently completed
+Source: ANAO, SIA Audit, pp. 82–85.
+3.76 These findings indicate areas for improvement in SIA’s investigations processes and
+overall approach to investigations, including commencement criteria, documentation
+practices, and aspects of planning and decision-making.
+Assessment of allegations relating to AFL officials
+3.77 The audit also drew attention to a particular instance where SIA handled specific
+allegations of possible anti-doping rule violations committed by AFL officials.
+3.78 In March 2024, allegations referenced in Parliament were received by SIA relating to
+possible anti-doping rule violations committed by officials of the AFL, including
+evading sample collection, impeding or tampering with the doping control process,
+and complicity to violate aspects of the WAD Code. Rather than treating the
+allegations as a non-analytical finding and proceeding with an investigation, SIA
+prepared an ‘assessment plan’, which was identical to the investigation plan
+template.94 This assessment was later published on its website.95
+3.79 The ANAO made the following observations with regard to SIA’s actions:
+• assessments were not defined in the investigations manual or any other
+procedural document
+• the allegations were not entered into the case management system
+• the evidence matrix in the assessment plan was incomplete
+• no approach paper was prepared for endorsement at the Operations Committee
+• there was no documentation for the rationale for conducting an assessment rather
+than treating the allegations as a non-analytical finding and proceeding with an
+investigation
+• SIA was unaware of any other instances where allegations of possible anti-doping
+rule violations were ‘assessed’ rather than investigated.96
+3.80 In response to the Committee’s request for a rationale, SIA claimed that it ‘did not
+deviate’ from its standard investigation process but accepted that information
+received was not triaged in the same manner as other intelligence, nor all decision-
+making documented. SIA did not sufficiently explain why this had occurred.97
+94 ANAO, SIA Audit, paragraphs 4.28–4.29.
+95 SIA, Sport Integrity Australia assessment of allegations regarding the Australian Football League’s Illicit Drug
+Policy, June 2024.
+96 ANAO, SIA Audit, paragraph 4.29.
+97 SIA, Supplementary Submission 1.3, p. 1.
+42
+3.81 SIA stated that the ANAO report suggested the allegations had not been entered into
+the case management system. SIA stated the first entry into the case management
+system was an incident report based on media reporting on 27 March 2024, and a
+generic case was subsequently created on 3 April 2024.98
+Committee comment
+3.82 SIA was established in part to prevent and address threats to sports integrity—
+effective anti-doping measures are essential to protect the integrity of Australian
+sport. The ANAO found anti-doping prevention and detection was largely effective for
+government funded sports, but partly effective for user pays sports, and that SIA’s
+arrangements to investigate and respond to anti-doping rule violations were partly
+effective. If SIA is to function as an effective regulator, there is work to do to ensure
+the integrity of Australian sport is protected for the benefit of the entire Australian
+community.
+3.83 SIA has chosen to administer user pays and government funded sports differently.
+The ANAO found for user pays sports, test distribution planning was not
+demonstrably risk-based. The number and distribution of tests was negotiated with
+national sporting organisations under a service agreement, a practice the ANAO
+found is inconsistent with World Anti-Doping Code principles and SIA’s
+responsibilities as a regulator.
+3.84 While SIA has advised it has updated its documentation to require user pays and
+government funded sports to be included in the same risk assessment, the
+Committee remains concerned by two issues that go to the substance of SIA’s
+recently updated risk-based approach: the number and distribution of tests are
+negotiated with the user pays national sporting organisations under a service
+agreement; and the status of lists of athletes provided by national sporting
+organisations.
+3.85 A model where the regulated population has a role in influencing the extent of the
+regulation carries inherent risks, particularly when key measures such as risk
+assessments are not completed. Conducting services under contract is not
+necessarily problematic, depending on the manner in which this occurs. In this case,
+the Committee cannot be confident that the number and distribution of tests for user
+pays national sporting organisations is determined on the basis of risk rather than
+other considerations, such as cost.
+3.86 A similar issue of risk applies to the lists provided by some national sporting
+organisations, which differed in their extent, quality and detail. In the absence of a
+robust risk-based approach, it is unclear on what basis these lists might be assessed
+as intelligence to inform test distribution planning. During the audit, the ANAO could
+not find a relationship between the selection of certain athletes for testing and risk.
+Without a robust risk-based approach there could be a perception of regulatory
+98 SIA, Supplementary Submission 1.3, p. 1.
+43
+capture or unequal treatment. The Committee is of the view there must be a more
+robust approach to lists of athletes.
+Recommendation 3
+3.87 The Committee recommends that Sport Integrity Australia establishes a
+template for athlete lists provided by regulated entities that includes at a
+minimum the risk factors set out in the International Standard for Testing and
+Investigations. Sport Integrity Australia should make providing information in
+this format a requirement under contractual or other formal arrangements with
+national sporting organisations.
+3.88 In response to the findings around risk, SIA was able to point out that it had updated
+its documentation and would gain assurance that a risk-based approach was
+followed through the developing the test distribution plan procedure document.
+However, as noted by the ANAO, simply producing documentation is not sufficient—
+the documents must be used for the purpose of addressing and evaluating risk in
+each regulatory cycle. The mere presence of documents does not ensure regulation
+is data-driven and risk-based. It is not clear how SIA will use these documents.
+3.89 What was clear to the Committee, however, was the reticence of SIA to acknowledge
+there were any substantive differences between how it administered government
+funded and user pays sports. SIA told the Committee initially that user pays
+arrangements did not provide sports with any additional access or benefit to SIA’s
+services, or change its regulatory approach, notwithstanding the finding of the audit
+that SIA chooses to administer user pays arrangements differently. SIA later
+acknowledged there was a ‘substantive difference’ relating to the requirement that a
+testing proposal be adopted by user pays sports.
+3.90 Similar ambiguities were contained in other evidence presented to the Committee.
+When asked about the attendance of SIA chief executives at sporting events
+(discussed in chapter 2), SIA responded that the current and former chief executives
+had not attended major sporting events ‘in performing their functions as CEO’. The
+phrasing here is at best vague as to whether event invitations were accepted for
+attendance in a private capacity.
+3.91 Further, the Committee asked whether other user pays sports (beyond AFL and
+Rugby League) had provided names of individual athletes during meetings with SIA.
+SIA stated it ‘does not hold any record’ of this occurring during discussions between
+these sports and the anti-doping testing team. The answer leaves a question as to
+whether individual athletes may have been named but not recorded by SIA, or
+whether names might have been provided to officials outside the anti-doping testing
+team.
+3.92 And finally, SIA’s position on whether its investigations were compliant with the AGIS
+standards was unclear—SIA stated its practices were compliant but not documented
+or reflected as compliant. The audit had found SIA’s own self-assessment of its
+compliance with the AGIS 2022 was not complete.
+44
+3.93 The Committee reminds entities of its expectation that evidence provided will be
+accurate and not misdirect or mislead the Committee, whether intentionally or
+otherwise.
+3.94 In closing, the Committee notes that regulation protects the public interest, and when
+deficiencies are found in regulatory performance, it can be difficult for the Parliament
+and the public at large to have confidence that government regulatory institutions are
+effective. Regulators must be beyond reproach, something that at a minimum
+requires that they have in place policies and procedures pursuant to their statutory
+regulatory obligations and that they comply with them.
+Mr Josh Burns MP
+Chair
+45
+
+A. Submissions
+1 Sport Integrity Australia
+• 1.1 Supplementary to submission 1
+• 1.2 Supplementary to submission 1
+• 1.3 Supplementary to submission 1
+• 1.4 Supplementary to submission 1
+• 1.5 Supplementary to submission 1
+2 Curling Australia
+3 Brisbane Organising Committee for the 2032 Olympic and Paralympic Games
+4 The Front Campaign
+5 Mr Peter Upham
+6 Combat Sports Commission
+47
+
+B. Public hearings
+Friday 31 October 2025
+Committee Room 2R1
+Parliament House, Canberra
+Sport Integrity Australia
+• Dr Sarah Benson PSM, Chief Executive Officer
+• Mr Luke McCann, Deputy Chief Executive Officer, Strategy, International Policy &
+Corporate
+• Mr Chris Butler, Head of Anti-Doping Operations
+Department of Infrastructure, Transport, Regional Development, Communications, Sport and
+the Arts
+• Mr Travis Haslam, First Assistant Secretary
+• Mr David Mackay, Deputy Secretary
+Australian National Audit Office
+• Ms Rona Mellor PSM, Deputy Auditor-General
+• Ms Peta Lane, Group Executive Director, Performance Audit Services Group
+• Ms Christine Chalmers, Executive Director, Performance Audit Services Group
+Friday 12 December 2025
+Videoconference
+Sport Integrity Australia
+• Dr Sarah Benson PSM, Chief Executive Officer
+• Mr Luke McCann, Deputy Chief Executive Officer, Strategy, International Policy
+and Corporate
+• Mr Chris Butler, Head of Anti-Doping Operations
+49
+Australian National Audit Office
+• Dr Caralee McLiesh PSM, Auditor-General
+• Ms Rona Mellor PSM, Deputy Auditor-General
+• Ms Peta Lane, Group Executive Director
+• Ms Christine Chalmers, Executive Director
+50

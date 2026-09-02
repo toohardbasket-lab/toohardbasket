@@ -1,0 +1,1498 @@
+The Senate
+Economics Legislation Committee
+Treasury Laws Amendment (Financial
+Reporting System Reform) Bill 2026
+April 2026
+© Commonwealth of Australia 2026
+ISBN 978-1-76093-926-7 (Printed version)
+ISBN 978-1-76093-926-7 (HTML version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by the Senate Printing Unit, Parliament House, Canberra
+Members
+Chair
+Senator Lisa Darmanin ALP, VIC
+Deputy Chair
+Senator Kerrynne Liddle LIB, SA
+Members
+Senator Susan McDonald (from 23 March 2026) NATS, QLD
+Senator Nick McKim (to 5 February 2026) AG, TAS
+Senator Deborah O'Neill ALP, NSW
+Senator Charlotte Walker ALP, SA
+Substitute Members
+Senator Barbara Pocock AG, SA
+(for Senator McKim from 5 February 2026)
+Former Members
+Senator the Hon Matthew Canavan (to 23 March 2026) NATS, QLD
+Secretariat
+Sean Turner, Committee Secretary
+Tegan Scott, Principal Research Officer
+Sonia Arian, Administrative Officer
+PO BOX 6100 (02) 6277 3540
+Parliament House economics.sen@aph.gov.au
+Canberra
+iii
+
+Contents
+Members ............................................................................................................................................. iii
+Abbreviations and Acronyms ........................................................................................................ vii
+Chapter 1—Introduction .................................................................................................................... 1
+Purpose of the bill ................................................................................................................................ 1
+Background .......................................................................................................................................... 1
+The Australian Accounting Standards Board ....................................................................... 2
+The Auditing and Assurance Standards Board ................................................................... 2
+The Financial Reporting Council ........................................................................................... 3
+Provisions of the bill ............................................................................................................................ 4
+External Reporting Australia .................................................................................................. 4
+The Governing Council ............................................................................................................ 5
+Creation of standard-setting boards ...................................................................................... 8
+Standards-setting boards ........................................................................................................ 9
+Standards issued by ERA ....................................................................................................... 11
+Consequential, transitional and machinery provisions .................................................... 12
+Consultation ........................................................................................................................................ 13
+Commencement ................................................................................................................................ 13
+Financial impact ................................................................................................................................ 14
+Legislative scrutiny ........................................................................................................................... 14
+Human rights implications ............................................................................................................... 16
+Conduct of the inquiry ..................................................................................................................... 17
+Acknowledgements .......................................................................................................................... 17
+Chapter 2—Views on the bill.......................................................................................................... 19
+Support for the bill ............................................................................................................................. 19
+Concerns raised ................................................................................................................................. 20
+Issues relating to the Governing Council ............................................................................ 20
+Governance council membership and appointments ........................................... 20
+Concerns regarding the Governing Council’s ability to issue directions ........... 23
+Post-implementation review ................................................................................................ 24
+Sustainability standards board ............................................................................................. 25
+v
+Other concerns......................................................................................................................... 25
+Committee view ................................................................................................................................ 26
+Coalition Senators' Dissenting Report.......................................................................................... 29
+Australian Greens Senators' Additional Comments .................................................................. 37
+Appendix 1—Submissions .............................................................................................................. 43
+vi
+Abbreviations and Acronyms
+AASB Australian Accounting Standards Board (AASB)
+AICD Australian Institute of Company Directors
+ASCI Australian Council of Superannuation Investors
+ASFA Association of Superannuation Funds of Australia
+ASIC Act Australian Securities and Investment Commission Act 2001
+AUASB Auditing and Assurance Standards Board
+BCSD Australia Business Council for Sustainable Development Australia
+CAANZ&CPA Chartered Accountants Australia and New Zealand and
+Australia CPA Australia
+CFCR Conceptual Framework for Corporate Reporting
+DBVCC Deakin Business Value Creation Centre
+EM Explanatory Memorandum
+ERA External Reporting Australia
+ESG reporting Environmental Social and Governance Reporting
+FRC Financial Reporting Council
+G100 Group of 100
+ICCPR International Covenant on Civil and Political Rights
+ICESCR International Covenant on Economic, Social and Cultural
+Rights
+ISSB International Sustainability Standards Board
+LCA Law Council of Australia
+MP Member of Parliament
+PCA Property Council of Australia
+PGPA Act Public Governance, Performance and Accountability Act (2013)
+PS Act Public Service Act 1999
+TNFD Taskforce on Nature related Financial Disclosures
+Treasury Department of the Treasury
+the bill Treasury Laws Amendment (Financial Reporting System
+Reform) Bill 2026
+the committee Senate Economics Legislation Committee
+the Corporations Act Corporations Act 2001
+The Scrutiny The Senate Standing Committee for the Scrutiny of Bills
+Committee
+Uniting Church Uniting Church in Australia, Synod of Victoria and
+Tasmania
+vii
+
+Chapter 1
+Introduction
+1.1 On 5 March 2026, the Senate referred the provisions of the Treasury Laws
+Amendment (Financial Reporting System Reform) Bill 2026 (the bill) to the
+Senate Economics Legislation Committee (the committee) for inquiry and report
+by 24 April 2026.
+1.2 The first chapter of this report outlines the purpose and provisions of the bill.
+Chapter 2 of the report outlines views on the bill, as well as providing the
+committee view and recommendations.
+Purpose of the bill
+1.3 The bill makes amendments to the Australian Securities and Investments
+Commission Act 2001 (ASIC Act) to combine three bodies, the Australian
+Accounting Standards Board (AASB), the Auditing and Assurance Standards
+Board (AUASB) and the Financial Reporting Council (FRC), into one new body
+to be called External Reporting Australia (ERA).1
+1.4 The Explanatory Memorandum states:
+This reform aims to create more flexible institutional arrangements for
+standard setting, not only to accommodate the establishment of a dedicated
+board of technical experts for the development and ongoing maintenance of
+the new sustainability standards, but also to better position the financial
+reporting system to respond to standard-setting needs that may similarly
+arise in the future.2
+1.5 According to the second reading speech from the Assistant Treasurer, the Hon
+Dr Daniel Mulino MP, the bill will ‘set out a new era for financial reporting
+standard setting in Australia,’ with three key principles in mind: flexibility,
+accountability and preserving the elements of the previous bodies which have
+been successful in the past.3
+Background
+1.6 The merger in this bill was first considered in 2022, when it was raised in a
+Treasury consultation paper, ‘Climate-related financial disclosure’.4 This
+1 Explanatory Memorandum (EM), p. 1.
+2 EM, p. 4.
+3 The Hon Dr Daniel Mulino MP, Assistant Treasurer and Minister for Financial Services, House of
+Representatives Hansard, 12 February 2026, pp. 4–5.
+4 Department of the Treasury (Treasury), Climate-related financial disclosure: Consultation paper,
+December 2022, p. 19.
+1
+2
+consultation considered various options for the introduction of standards
+relating to climate-related financial disclosure reporting requirements. One of
+the options considered was the merger of the AASB, the AUASB and the FRC
+into one entity.5
+1.7 In November 2023, the merger of these three entities was announced as
+government policy.6
+1.8 There have been various consultations since 2023 relating to the merger of the
+AASB, the AUASB and the FRC. These will be discussed in detail below.
+1.9 The three bodies being merged are briefly described below.
+The Australian Accounting Standards Board
+1.10 The AASB’s role is to develop and maintain Australian accounting standards
+and guidance. Its statutory functions are:
+ to make accounting standards under section 334 of the Corporations Act
+2001 (the Corporations Act) and formulate accounting standards for other
+purposes;
+ to develop a framework for evaluating proposed standards;
+ to contribute to the development of a set of accounting standards for
+worldwide use; and
+ to advance and promote the objects of Part 12 of the ASIC Act7, ‘which
+include reducing the cost of capital, enabling entities to compete effectively
+overseas and maintaining investor confidence in the Australian economy.’8
+1.11 The AASB typically has a 14-member board and is supported by a secretariat
+which provides administrative and technical support. Apart from the Chair, the
+AASB’s members serve on a part time basis and are appointed for two- or three-
+year terms.9
+The Auditing and Assurance Standards Board
+1.12 The AUASB’s responsibility is the creation of auditing standards under section
+336 of the Corporations Act, as well as for other purposes. Similarly to the AASB,
+5 EM, p. 4.
+6 The Hon Jim Chalmers MP, Treasurer, the Hon Stephen Jones MP, Assistant Treasurer and Minister
+for Financial Services, ‘Streamlining financial reporting architecture’, Media Release, 21 November
+2023.
+7 See ASIC Act, s. 224.
+8 AASB, About the AASB, https://aasb.gov.au/about-the-aasb/about-the-aasb/ (accessed 19 March
+2023).
+9 AASB, About the AASB, https://aasb.gov.au/about-the-aasb/about-the-aasb/ (accessed 19 March
+2023).
+3
+it also participates in and contributes to the development of auditing standards
+for use worldwide.10
+1.13 The AUASB normally has 12 members, appointed on a part-time basis (apart
+from the Chair), who serve two- or three-year terms. Members of the AUASB
+are appointed by the FRC, apart from the Chair who is appointed by the relevant
+Minister.11
+The Financial Reporting Council
+1.14 The FRC is responsible for overseeing the effectiveness of the financial reporting
+system in Australia. Its functions, as set out in the ASIC Act are:
+ to provide oversight of the accounting, sustainability and auditing standard
+setting process, as well as providing the relevant Minister with advice and
+reports on these matters;
+ establishing consultation mechanisms;
+ monitoring the effectiveness of consultation of the AASB and the AUASB
+and the operation of accounting, sustainability and auditing standards;
+ doing the following for the AASB and the AUASB:
+− appointing members, excluding Chairs, and determining the broad
+strategic directions of both Boards;
+− giving feedback and advice on priorities, procedures and business plans;
+− giving feedback to the offices of both Boards on budget and staffing;
+ providing reports to the Minister and relevant professional accounting
+bodies on the quality of audits performed in Australia;
+ monitoring the development of international accounting, auditing and
+sustainability standards, contributing to the development of a single set of
+these standards for world-wide use; and
+ promoting the continued adoption of international best practices in the
+Australian standard setting process.12
+1.15 The FRC also has statutory obligations, such as the appointment of new
+members of AASB and AUASB and continuing work to enhance the quality of
+financial reports in Australia.13
+1.16 The FRC is currently made up of eight members, plus a Chair, serving on a part-
+time basis and appointed by the Minister.14
+10 AUASB and AASB, 2025-26 Corporate Plan, August 2025, p. 10.
+11 AUASB, About AUASB, https://auasb.gov.au/about-auasb/about-auasb/ (accessed 19 March 2026).
+12 FRC, Annual Report 2024-25, pp. 13–14.
+13 FRC, Annual Report 2024-25, p. 14.
+14 FRC, Annual Report 2024-25, p. 51.
+4
+Provisions of the bill
+1.17 The bill contains one schedule which amends Part 12 of the ASIC Act. As
+mentioned above, it combines the existing institutions—the AASB, the AUASB
+and the FRC —into one new entity, External Reporting Australia (ERA).15
+External Reporting Australia
+1.18 ERA is created in the bill through re-naming the Office of the AASB to ‘External
+Reporting Australia’ and abolishing the AASB, AUASB, FRC and the Office of
+the AUASB. ERA will be a listed entity, with its Governing Council being the
+accountable authority for the purposes of finance law under the Public
+Governance, Performance and Accountability Act (2013) (PGPA Act).16
+1.19 The officials of ERA, for the purposes of finance law under the PGPA Act, will
+be:
+ the members of the Governing Council, including the Council Chair and
+Deputy Chair;
+ associate members of the Governing Council;
+ members of the standard-setting boards (discussed further below),
+including the Chairs and Deputy Chairs of these boards;
+ ERA staff as employed under the Public Service Act 1999 (PS Act) or through
+contract; and
+ ‘officers and employees of Agencies and authorities of the Commonwealth
+who assist [ERA].’17
+1.20 The functions of ERA are generally drawn from the previous functions of the
+AASB, AUASB and the FRC.18
+1.21 The functions of the ERA are as follows:
+ to make accounting, auditing and sustainability standards for the
+Corporations Act;
+ to formulate guidance for these standards and for the standards to be
+published online;
+ to develop frameworks for the purposes of evaluating these domestic
+standards or international versions of these standards;
+ to monitor the development of and changes to international standards and
+to contribute to the development of a single set of standards for world-wide
+use, with appropriate regard to international developments;
+15 EM, p. 11.
+16 EM, p. 11.
+17 EM, p. 12.
+18 EM, p. 13.
+5
+ to monitor the development of these standards as they apply to major
+international financial centres; and
+ to give strategic policy advice to the Minister relating its powers and
+functions under the ASIC Act.19
+1.22 The bill also allows for the Minister to create additional functions through
+legislative instrument, as well as providing that ERA ‘may do anything else that
+is incidental or conductive to the performance of any of its functions.’20
+1.23 ERA is required to, as far as practicable, perform its functions:
+ in a way that promotes the objects of Part 12 of the ASIC Act;
+ with regards to the interests of Australian corporations that raise, or
+propose to raise capital in major international financial centres; and
+ with regards to public interest in accessibility of appropriate financial and
+other information to a wide variety of stakeholders who engage with public
+and private sector entities, in particular investors and creditors.21
+1.24 ERA has powers under the bill to establish committees and other consultative
+groups to monitor these arrangements, as well as to do anything necessary or
+convenient in order to perform its functions.22
+The Governing Council
+1.25 The bill establishes the Governing Council of ERA as the ‘principal leadership
+organ’ of the ERA.23 According to the EM:
+The Governing Council’s primary role is to govern [ERA]. As accountable
+authority, the Governing Council has responsibilities for the proper use and
+management of [ERA]’s resources as a whole including duties relating to
+overall planning, budgeting and performance as set out in the PGPA Act.24
+1.26 The Governing Council’s functions also include providing strategic policy
+advice to the Minister in relation to the functions and powers of the ERA and
+any other functions conferred on the Governing Council by the ASIC Act. These
+include establishing standard-setting boards, making appointments to these
+boards, and various other functions relating to the management of the
+performance of these boards and their appointees.25
+19 EM, pp. 12–13.
+20 EM, p. 15.
+21 EM, p. 16.
+22 EM, p. 16.
+23 EM, p. 18.
+24 EM, p. 18.
+25 EM, p. 18.
+6
+1.27 The Governing Council will be made up of a Chair plus at least four and at most
+eight other members, including a Deputy Chair. This number of members ‘seeks
+to accommodate the appointment of persons with a sufficient mix of skills and
+expertise’ to carry out the functions of ERA, including oversighting the
+standard-setting boards which will be established.26
+1.28 Members of the Governing Council will be appointed by the Minister through
+written instrument, including the Chair of the Council. All members of the
+Governing Council are appointed on a part-time basis, apart from the Chair who
+serves in a full-time capacity. For the purposes of the PS Act the Chair is also the
+head of the statutory agency.27
+1.29 In order to be appointed as a member of the Governing Council, the Minister
+will have regard to whether a candidate has experience in one of the following
+fields: ‘governance, business, financial markets, law, government, accounting,
+auditing, sustainability or climate change, science, or any other field the Minister
+considers appropriate’28 when considering any additional functions which may
+be conferred on ERA.29
+1.30 When making appointments, the Minister must also have regard to the
+Governing Council having an appropriate level of representation of appointees
+who are, and are seen to be, independent from Australian auditors.30 The
+Explanatory Memorandum states:
+This requirement is intended to mitigate against potential conflicts by
+ensuring that the Governing Council, as a whole and as a body that engages
+in collective decision-making, is constituted taking into account this
+consideration. As auditors must themselves comply with auditing
+standards set by External Reporting Australia, actual or perceived conflicts
+may arise for appointees who work in the industry applying auditing
+standards. In contrast, other kinds of standards (such as accounting or
+sustainability standards) may not give rise to the same potential for direct
+conflicts at the individual level, as those standards generally relate to reports
+produced by entities involved in a broad range of activities across the
+economy.31
+1.31 The Explanatory Memorandum emphasises that being an auditor will not
+disqualify a potential appointee from a position on the Governing Council,
+rather that the Minister is required to ensure there is a balance on the Governing
+26 EM, p. 19.
+27 EM, p. 19.
+28 EM, p. 19.
+29 EM, p. 19.
+30 EM, pp. 19–20.
+31 EM, p. 20.
+7
+Council of people with a suitable mix of backgrounds and experiences relevant
+to the functions of ERA.32
+1.32 Appointments of members to the Governing Council will be for terms up to five
+years and members, including the Chair, may be re-appointed.33
+1.33 The Governing Council is ‘required to hold meetings as are necessary to ensure
+the efficient performance of its functions.’34 The Chair of the Council can
+convene a meeting at any time and must convene a meeting within 30 days of
+receiving a request to do so from a member of the Council. The Chair is required
+to convene at least four meetings in a calendar year. Meetings are subject to
+quorum requirements based on the number of members of the Council at a
+particular time.35
+1.34 Other matters about the Governing Council include:
+ renumeration of Council members is to be through a determination from the
+Renumeration Tribunal, though there is flexibility in the bill for the Minister
+to determine if other arrangements would be more appropriate;36
+ if employed on a full-time basis, the Council Chair is prevented from
+engaging in paid work outside of their work on the Governing Council
+without the Minister’s approval;37
+ Council members are subject to material personal interest reporting
+requirements under the PGPA Act. Any of these kinds of disclosures must
+be tabled at the next meeting of the Governing Council and recorded in the
+minutes of that meeting;38
+ Council members may resign through providing a written resignation to the
+Minister. They may be terminated by the Minister for reasons including
+misbehaviour, loss of physical or mental capacity, breaches of ERA
+confidentiality obligations, absences without leave and failure to comply
+with PGPA Act obligations;39
+ the Governing Council must produce an annual report for the Minister, as
+required by the PGPA Act. This annual report must include any directions
+32 EM, p. 20.
+33 EM, p. 21.
+34 EM, p. 25.
+35 EM, p. 25.
+36 EM, pp. 21–22.
+37 EM, p. 23.
+38 EM, pp. 23–24.
+39 EM, pp. 24–25.
+8
+given, and the reasons for those directions, by the General Council to one of
+the standards-settings boards;40
+ there are provisions within the bill for the appointment of acting members
+and associate members of the Governing Council. Associate members have
+all the rights of full members of the Governing Council apart from the right
+to vote;41
+ the Governing Council may delegate certain administrative functions or
+powers to a Council member, associated member or member of staff. It
+cannot delegate any of its powers that relate to the making and formulating
+of standards.42
+Creation of standard-setting boards
+1.35 The bill requires that the Governing Council establish standard-setting boards,
+with at least one board for each category of standards the ERA has responsibility
+for: accounting, sustainability, and auditing and assurance. The bill empowers
+the Governing Council to create standard-setting boards through legislative
+instruments.43
+1.36 These legislative instruments, referred to as determinations, must include the
+following:
+ that a standard-setting board of a specified name is established;
+ the kinds of standards in relation to which the board is empowered to
+perform a set of functions set out in the legislation;
+ any other functions conferred on External Reporting Australia that may
+be performed by the standard-setting board; and
+ the extent to which (if at all) the standard-setting board is empowered to
+establish committees and consultative groups.44
+1.37 The Explanatory Memorandum notes that the decision to have these boards
+created by legislative instrument will ensure they are ‘subject to appropriate
+consultation requirements as well as disallowance and sunsetting under the
+Legislation Act 2003, and therefore appropriate parliamentary scrutiny.’45 It goes
+on to state:
+Providing for the mandatory establishment of standard-setting boards via a
+legislative instrument in this way ensures the operational structure of
+External Reporting Australia and the standard-setting processes that it
+follows will remain open and transparent. The intent is to provide a level of
+40 EM, pp. 27–28.
+41 EM, pp. 28–30.
+42 EM, pp. 52–53.
+43 EM, p. 5.
+44 EM, p. 35.
+45 EM, p. 33.
+9
+certainty to the market and confidence to industry that, as far as is
+practicable, External Reporting Australia will operate in a way that is
+accountable for its commitment to due process and recognises the key role
+of technical and standard-setting expertise within its structural operations.46
+1.38 As stated above, the bill requires that there be at least one board for each of the
+categories of standards which ERA has responsibility for. However, this does
+not constrain ERA from creating more than one board for a category.47 The
+Explanatory Memorandum provides the following examples of possible ways
+categories of board could be split:
+ accounting standards could be split between a board with responsibility for
+public sector entities and one with responsibility for private sector entities;
+ auditing and assurances standards could be dealt with between a board
+with responsibility for auditing standards for the purposes of corporations
+legislation and another board with more general responsibility for all other
+auditing and assurance standards.48
+1.39 The Explanatory Memorandum is clear however, that the responsibilities of a
+standards setting board cannot extend beyond a single category of standards.
+This does not prevent the separate standards-setting boards from acting jointly
+when required.49
+1.40 Matters relating to the operation of a standards-setting boards, such as the way
+a board is to perform its functions, its broad strategic direction and reporting
+requirements, may be included in the legislative instrument.50 The Governing
+Council may determine other matters relating to the operation of standards-
+setting boards, such as procedures for convening meetings, who may attend
+meetings and who shall preside, quorum requirements and how matters may
+be resolved by the board.51
+1.41 It is intended that the Governing Council’s determinations will contain matters
+similar to the AASB and AUASB’s charter documents.52
+Standards-setting boards
+1.42 The main role of a standards-setting board is to perform certain functions of
+ERA related to the making of standards, and to exercise those powers of ERA it
+46 EM, p. 34.
+47 EM, pp. 35–36.
+48 EM, p. 36.
+49 EM, p. 36.
+50 EM, p. 37.
+51 EM, pp. 37–38.
+52 EM, p. 38.
+10
+is necessary or convenient for the board in question to perform. The making of
+a determination specifying that a board has accountability for one of the three
+categories of standards (accounting, auditing and assurance or sustainability)
+activates an authorisation to perform a set of functions and powers on behalf of
+ERA relevant to that standard, as well as any other functions the Governing
+Council has decided the board in question should be perform.53
+1.43 More specifically, the standards-setting boards may automatically perform the
+following functions of ERA:
+ to make standards for the purposes of the Corporations Act;
+ to make standards to be published online, in respect of activities or matters
+in a Territory, or for other purposes;
+ to formulate guidance relating to those standards; and
+ to develop conceptual frameworks in order to evaluate proposed domestic
+or international standards.54
+1.44 Standards-setting boards’ powers are limited ‘to those powers of [ERA] that are
+necessary or convenient to perform the set of functions for standards-setting
+boards specified in the legislation.’55 A board’s powers would not automatically
+extend to being able to create committees and consultative groups, for
+example.56
+1.45 Board members are appointed by written instrument from the Governing
+Council and are to serve on a part-time basis, for a period of no more than five
+years. There is no prescribed minimum or maximum number of board members,
+with the Governing Council able to determine the appropriate amount
+appointees to each board based on the board’s remit, operating size, and ERA’s
+overall resources and budget. Members of a standards-setting board must have
+experience relevant to one of the fields listed in legislation in order to be
+appointed to the board (these are the same fields as required for appointment to
+the Governing Council, see above).57
+1.46 Members of the Governing Council cannot be appointed to a standards-setting
+board without the approval of the Minister in writing in order to avoid conflicts
+of interest between the Governing Council and the boards.58
+53 EM, p. 39.
+54 EM, p. 39.
+55 EM, p. 40.
+56 EM, p. 40.
+57 EM, pp. 41–42.
+58 EM, p. 42.
+11
+1.47 Matters relating to the standards-setting board member’s renumeration,
+resignation, termination of appointment, conflicts of interest and acting
+appointments are largely similar to the arrangements for the Governing Council
+detailed previously in this chapter, with the Governing Council having a similar
+role over the standards-setting board that the Minister has over the Governing
+Council. For example, a resignation of a board member must be provided in
+writing to the Governing Council, whereas resignation of a Governing Council
+member must be provided in writing to the Minister.59
+Standards issued by ERA
+1.48 The bill continues the previous arrangements of the ASIC Act in relation to
+interpretation of standards set by ERA and its standards-setting boards. Any
+standards issued by ERA should be interpreted in such a way as to promote the
+objectives of part 12 of the ASIC Act.60
+1.49 The bill requires the following of standards created by ERA:
+ Standards can be of general or limited application;61
+ When making a standard, the ERA must have regard to the suitability of a
+standard to different types of entities and must ensure that there are
+appropriate accounting standards for each type of entity that is required to
+comply with those standards;
+ Accounting requirements can differ for different kinds of entities;62
+ Similar requirements exist for sustainability standards, in that they must be
+appropriate for different kinds of entities and can differ depending on the
+type of entity; and
+ ERA must carry out cost/benefit analysis (as far as it is practicable to do so)
+for a proposed accounting, auditing and assurance and sustainability
+standard.63
+1.50 The Governing Council has the ability to make, vary or revoke a standard made
+by a standard-setting board, or to provide written directions to a standard-
+setting board in relation to one of the standards the board has made, if the
+following conditions are met:
+ there must be an agreement between at least 75 per cent of the voting
+members present at a Governing Council meeting to take such an action. At
+least 50 per cent of the voting membership must be present at such a
+meeting;
+59 EM, pp. 43–47.
+60 EM, p. 47.
+61 EM, p. 47.
+62 EM, p. 47.
+63 EM, p. 48.
+12
+ the Governing Council considers the decision is required because the
+standards-setting board has failed to comply with any of the requirements
+in the determination that established the board;
+ the Governing Council considers that the decision to take action is required
+in order to comply with its obligations as the accountable authority for ERA
+under the PGPA Act.64
+1.51 The above requirements only apply where the Governing Council is seeking to
+make, revoke or vary a standard that a standard-setting board would normally
+be authorised to issue. In situations where there is, at the time of making the
+standard, no relevant standards-setting board established, the Governing
+Council does not need to comply with these requirements.65
+Consequential, transitional and machinery provisions
+1.52 Due to the nature of the bill, creating the new ERA and replacing the AASB,
+AUASB and the FRC, there are many consequential and transitional provisions.
+1.53 Transitional provisions of the bill are contained in part 2 of schedule 1. These
+provisions are designed to allow ERA to begin its operations on the day that the
+new framework comes into being – ‘the ERA start date’. 66 See ‘Commencement’
+below for more details on start dates of different parts of the bill.
+1.54 These provisions will have a staged approach, with the government first
+determining the composition of the Governing Council, and then the proposed
+appointees setting up elements for ERA’s internal arrangements. The appointees
+to the new Governing Council will be able to exercise certain powers for a
+transitional period of at least four months.67
+1.55 It is envisioned that the FRC will take certain preparatory steps for the period of
+Royal Assent of the bill to the ERA start date to ensure that ERA can commence
+operations from the start date. It is anticipated that inaugural members of the
+ERA Governing Council will be appointed to the FRC for this transitional
+period. At the end of the transitional period, members of the FRC will be taken
+as appointed to the ERA Governing Council for the balance of their term of
+appointment.68
+1.56 Standards made by the AASB and the AUASB will continue in effect and may
+be dealt with by ERA after the ERA start date.69
+64 EM, p. 49.
+65 EM, p. 49
+66 EM, p. 58.
+67 EM, p. 58.
+68 EM, p. 58.
+69 EM, p. 59.
+13
+Consultation
+1.57 As mentioned previously in this report, there have been several consultations
+relating to the establishment of ERA. The idea for a combined AASB, AUASB
+and FRC was first proposed in a Treasury Consultation on setting standards for
+climate-related financial reporting requirements in December 2022. This would
+be announced as Government policy in November 2023.70
+1.58 In January 2025, a Treasury consultation, Positioning Australia’s financial reporting
+system for the future, commenced inviting views on a proposed body to combine
+the AASB, AUASB and the FRC. This consultation received 33 submissions,
+including two confidential submissions.71
+1.59 A further consultation based on the exposure draft of the legislation and
+accompanying explanatory materials was commenced by Treasury in October
+2025. This consultation received 20 submissions, including four confidential
+submissions.72
+Commencement
+1.60 The bill contains different commencement dates for different parts of the bill.
+1.61 Parts 1 and 3 of Schedule 1 will commence on the latter of:
+ 1 November 2026; or
+ the first day of the month after the end of four months after the bill receives
+Royal Assent.
+1.62 Part 2 of Schedule 1 (containing transitional provisions) will commence on the
+latter of:
+ 30 June 2026; or
+ the day after Royal Assent.73
+1.63 As mentioned under ‘Consequential, transitional and machinery provisions’
+above, there is a four-month transitional period from the day after Royal Assent
+(or 30 June 2026) for transition from the FRC to ERA where part 2 of the bill will
+be in effect. Part 1 of the bill, containing the substantive new law, will commence
+on ‘ERA start date’, or the day after the final day of the four-month transitional
+period.74
+70 EM, p. 4.
+71 The Treasury, Positioning Australia’s financial reporting system for the future, January 2025,
+https://consult.treasury.gov.au/c2025-536708 (accessed 25 March 2026).
+72 The Treasury, Positioning Australia’s financial reporting system for the future – draft legislation, October
+2025, https://consult.treasury.gov.au/c2025-710913 (accessed 25 March 2026).
+73 EM, p. 1.
+74 EM, p. 57.
+14
+Financial impact
+1.64 According to the Explanatory Memorandum, the bill will have nil financial
+impact.75
+Legislative scrutiny
+1.65 The Senate Standing Committee for the Scrutiny of Bills (the Scrutiny
+Committee) commented on the bill in its Scrutiny Digest 3 of 2026.
+1.66 As mentioned above, the bill allows for ERA to make standards for both the
+corporations legislation and for purposes other than the corporations legislation
+through legislative instruments and through non-legislative instruments.76
+According to the EM, a standard will be a ‘legislative instrument if, at the time
+it is formulated, any part of the standard could reasonably be expected to affect
+a person’s rights or obligations under a law of the Commonwealth, whether
+directly or indirectly.’77
+1.67 Standards not for the purposes of the corporations legislation would generally
+be non-binding, as they do not have legal effect under the Corporations Act. The
+Explanatory Memorandum goes on to explain however:
+…at the time they are formulated, some standards may have immediate
+legal effect under other Commonwealth laws that automatically incorporate
+standards made by External Reporting Australia. This could be the case
+where when read with those other laws, the standard would impose
+obligations established by those laws. Such standards could reasonably be
+expected to affect a person’s rights or obligations and hence are to be made
+by legislative instrument. Where these considerations are not applicable,
+External Reporting Australia has the flexibility to make the standard by non-
+legislative instrument, which may be considered a more accurate reflection
+of the administrative character of a non-binding standard.78
+1.68 The Scrutiny Committee raised concerns that it was not clear when
+parliamentary scrutiny would arise for a non-binding standards which were
+given legislative force by other legislation. It requested the Assistant Treasurer
+provide advice as to:
+ why it is necessary and appropriate to provide for the making of
+standards that are not legislative instruments;
+ whether or not standards made as non-legislative instruments with the
+intention that they later be incorporated or applied by reference would
+be reasonably expected to affect a person’s rights and obligations in
+75 EM, p. 1.
+76 EM, p. 14.
+77 EM, p. 14.
+78 EM, pp. 14–15.
+15
+Commonwealth laws for the purposes of the test in proposed subsection
+225B(2); and
+ whether additional guidance could be provided, in the explanatory
+memorandum or otherwise, to provide further clarification of this issue.79
+1.69 The Assistant Treasurer provided a response to the concerns raised by the
+Scrutiny Committee, which was published in Scrutiny Digest No. 5 of 2026.
+1.70 The response stated that, as some of the standards formulated by the AASB and
+the AUASB are not legislative in character, the Assistant Treasurer considered
+it appropriate that the bill provide for the making of non-legislative standards.80
+1.71 The Assistant Treasurer’s response also made the point that, if a standard made
+by the ERA has immediate effect under other Commonwealth law, it is
+reasonable to expect it would affect an individual’s rights or obligations, and
+would therefore be made a legislative instrument. A standard that is not
+incorporated by another law or otherwise does not impose obligations would
+not meet the definition of a legislative instrument under the Legislation Act 2003.
+As such, the Assistant Treasurer wrote that these standards not being legislative
+instruments better reflects the character of these kinds of instruments.81
+1.72 The Assistant Treasurer also advised that:
+…the proposed test is intended to involve a factual enquiry about whether
+the standard could affect a person’s rights or obligations under a law of the
+Commonwealth at the time it is made. Further, it was suggested that the
+ERA would not be the body responsible or answerable for any subsequent
+incorporation, adoption or application of a standard. This was said to be the
+case irrespective of any intention on the part of the ERA that a new non-
+legislative standard that does not immediately affect a person’s rights or
+obligations would or may later be incorporated under other Commonwealth
+legislation.82
+1.73 The Assistant Treasurer concluded by stating that it was appropriate for
+Parliament to scrutinise such an instrument at a later time, such as through
+disallowance, and declined to update the Explanatory Memorandum to further
+clarify the test.83
+1.74 The Scrutiny Committee thanked the Assistant Treasurer for the response and
+acknowledged the points raised therein. The committee maintained, however,
+that they were ‘not aware of other laws that provide for an instrument to be
+made as a legislative or non-legislative instrument according to the assessment
+79 Scrutiny Committee, Scrutiny Digest 3 of 2026, 25 February 2026, p. 63.
+80 Scrutiny Committee, Scrutiny Digest 5 of 2026, 25 March 2026, p. 60.
+81 Scrutiny Committee, Scrutiny Digest 5 of 2026, 25 March 2026, pp. 60–61.
+82 Scrutiny Committee, Scrutiny Digest 5 of 2026, 25 March 2026, p. 61.
+83 Scrutiny Committee, Scrutiny Digest 5 of 2026, 25 March 2026, p. 61.
+16
+of officials’84 and that bills that seek to adopt a different test should have
+extensive justification. The Scrutiny Committee was also noted its concern about
+the emergence of:
+… a trend toward a broader use of provisions enabling the making of non-
+legislative instruments intended to be incorporated into legislation or
+otherwise given legislative force at a future date in a way which may limit
+parliamentary scrutiny.85
+1.75 The Scrutiny Committee concluded by drawing the matter to the attention of
+Senators, noting that the committee ‘leaves to the Senate as a whole the necessity
+and appropriateness of’ these sections of the bill. It also the drew the matter to
+the attention of the Senate Standing Committee for the Scrutiny of Delegated
+Legislation.86
+Human rights implications
+1.76 The Parliamentary Joint Committee on Human Rights has made no comment on
+the bill.87
+1.77 The Explanatory Memorandum contains a discussion of the human rights
+implications of the bill and states that the bill engages with the following human
+rights:
+ the right to work contained in articles 6 and 7 of the International Covenant
+on Economic, Social and Cultural Rights (ICESCR); and
+ the right to protection from arbitrary or unlaw interference with privacy in
+article 17 of the International Covenant on Civil and Political Rights
+(ICCPR).88
+1.78 The bill interacts with the right to work through:
+ placing restrictions on eligibility for employment to the Governing Council
+and standards-setting boards;
+ restricting the Governing Council Chair’s ability to accept other paid work
+outside of their appointment to the Governing Council;
+ placing restrictions on Governing Council and standards-setting board
+members, such as that a member of these entities not misbehave, not
+become a bankrupt, make unauthorised disclosures and maintain integrity
+of the Governing Council.89
+84 Scrutiny Committee, Scrutiny Digest 5 of 2026, 25 March 2026, p. 61.
+85 Scrutiny Committee, Scrutiny Digest 5 of 2026, 25 March 2026, p. 62.
+86 Scrutiny Committee, Scrutiny Digest 5 of 2026, 25 March 2026, p. 62.
+87 Parliamentary Joint Committee on Human Rights, Report 2 of 2026, March 2026, p. 13.
+88 EM, pp. 69–70.
+89 EM, pp. 70–71.
+17
+1.79 The Explanatory Memorandum states that where there are limitations on the
+right to work, they are reasonable, proportionate and necessary in order to
+maintain public confidence in, and the integrity of, ERA.90
+1.80 The bill also interacts with the right to privacy because it allows or the
+authorisation of the disclosure of information provided to ERA in confidence.
+Any such disclosure would only be authorised under certain circumstances,
+such as if it was permitted by another law, or made to another government
+agency for that agency to exercise their functions.91
+1.81 These provisions of the bill are consistent with the right to privacy as contained
+in the ICCPR. Any disclosures made by ERA would be necessary and
+proportionate to ensure the operation of the Australian financial reporting
+system and achieve the objective of assisting in the functions of bodies related
+to ERA.92
+1.82 The Explanatory Memorandum concludes that the bill is compatible with
+human rights as any limitations of those rights are reasonable, necessary and
+proportionate.93
+Conduct of the inquiry
+1.83 The committee advertised the inquiry on its website and wrote to relevant
+stakeholders and interested parties inviting written submissions by 27 March
+2026.
+1.84 The committee received sixteen submissions which are listed at Appendix 1.
+Acknowledgements
+1.85 The committee thanks all individuals and organisations who assisted with the
+inquiry, especially those who made submissions.
+90 EM, p. 71.
+91 EM, p. 72.
+92 EM, p. 72.
+93 EM, p. 72.
+
+Chapter 2
+Views on the bill
+2.1 This chapter contains views on the bill from submitters to the inquiry. It also has
+the committee’s view and recommendation.
+Support for the bill
+2.2 Submitters were largely supportive of the bill and the amalgamation of AASB,
+AUASB and the FRC into the new ERA.
+2.3 The Deakin Business Value Creation Centre (DBVCC) recommended that the
+bill be passed, adding that the bill ‘recognises the intangibles-driven business
+environment of today, one in which investors need different information to
+make effective capital allocation decisions.’1
+2.4 The Law Council of Australia (LCA) was similarly positive, saying they were
+pleased to see the bill ‘provides for additional issues to be taken into account in
+developing new standards.’2
+2.5 Similar views were expressed by the Australian Council of Superannuation
+Investors (ACSI), which specifically mentioned their support of the areas of
+expertise required for appointment as a Governing Council or Board member
+and the inclusion of sustainability, climate change and science. They went on to
+say that the inclusion of sustainability, climate change and science should
+support an approach to standard setting which balances relevant information
+for investors with the challenges of reporting.3
+2.6 ACSI was also supportive of the bill’s nuanced application of standards, saying
+that the bill should support efficiency in reporting through recognising the
+different types of entities which have reporting obligations.4
+2.7 Further to this, ACSI was supportive of bill’s approach to balancing the
+independence of the Governing Council and boards with relevant and recent
+experience, as well as the requirement that there be an appropriate level of
+representation of people who are independent from Australian auditors.5
+1 Deakin Business Value Creation Centre (DBVCC), Submission 2, p. 1.
+2 Law Council of Australia (LCA), Submission 3, p. 2.
+3 Australian Council of Superannuation Investors (ACSI), Submission 4, p. 1.
+4 ACSI, Submission 4, p. 2.
+5 ACSI, Submission 4, p. 2.
+19
+20
+2.8 The Group of 100 (G100) was also supportive of the restructuring of financial
+reporting requirements, noting it was a ‘significant step toward improved
+clarity, reduced complexity and future-ready reporting.’6
+2.9 The Responsible Investment Association Australasia’s submission made the
+point that the new ERA structure was timely as the International Sustainability
+Standards Board (ISSB) has recently announced it had commenced a standard-
+setting process on ‘nature-related risks and opportunities’ and plans to
+introduce incremental disclosure requirements on these kinds of risks and
+opportunities.7
+2.10 The Association of Superannuation Funds of Australia (ASFA) was also
+supportive of the legislation, welcoming the streamlining of standards-setting
+in Australia and noting that this formed part of a larger group of reforms to
+avoid unnecessary regulatory duplication.8
+Concerns raised
+2.11 Despite the general positive commentary on the bill, some submissions also
+raised concerns about specific provisions of the bill.
+Issues relating to the Governing Council
+Governance council membership and appointments
+2.12 Several submissions raised concerns regarding the makeup and appointment
+process of the Governing Council.
+2.13 The Uniting Church in Australia, Synod of Victoria and Tasmania (the Uniting
+Church) raised concerns about criteria for appointment to the Governing
+Council, in particular that there were insufficient protections to prevent the
+Council being captured by private-sector interests.9 The United Church argued
+the Governing Council and the standards-setting boards should be required to
+have members with expertise in ethics, as well as there being a stand-alone
+ethics board established to advice the Governing Council and the boards.10
+2.14 On a similar note, Chartered Accountants Australia and New Zealand and CPA
+Australia (CAANZ & CPA Australia), in their joint submission, suggested that
+the ERA have a separate arm that monitors implementation of standards, with
+enforcement abilities and the ability to point out to organisations when they are
+6 Group of 100 (G100), Submission 8, p. [6].
+7 Responsible Investment Association Australasia, Submission 10, p. [1].
+8 The Association of Superannuation Funds Australia (ASFA), Submission 16, p. 2.
+9 Uniting Church in Australia, Synod of Victoria and Tasmania (Uniting Church), Submission 5, p. 1.
+10 Uniting Church, Submission 5, p. 2.
+21
+not acting in the public interest. They cautioned against leaving the monitoring
+and implementation of standards to professional associations alone.11
+2.15 CAANZ & CPA Australia were in favour of ‘embedding sufficiently rigorous
+and transparent due process requirements’12 and provided several suggestions
+in their submission for improvements to the bill and the structure of the
+Governing Council.
+2.16 These suggestions included:
+ increasing the membership of the Governing Council to between eight and
+eleven members;
+ that a public nomination process should be undertaken for membership of
+the Governing Council, inviting nominations and with published selection
+criteria;
+ that relevant experience for people being considered for membership to the
+Governing Council should include users of external reports (including
+investors/creditors), preparers (including for-profit, not-for-profit and
+public sector) and regulators and governance experience;
+ that the Governing Council ‘should have representation to ‘promote
+confidence that standard setting will not be overly influenced by
+perspectives of any individual members or the interests of any particular
+sector, group or industry’;13 and
+ that Governing Council membership should be limited to no more than two
+terms total.14
+2.17 Further to this, CAAANZ & CPA Australia recommended that the standards-
+setting boards should have no less than eight members and that there should be
+an option for chairs of the board to be appointed on a full-time basis.15
+2.18 Similarly to the CAANZ & CPA Australia submission, the Business Council for
+Sustainable Development Australia (BCSD Australia) called for the membership
+of the Governing Council to include a balance of experience and expertise in
+areas including ‘accounting, auditing and assurance, sustainability reporting,
+capital markets, preparers, users of reports, and implementation capability,
+including data, controls and assurance readiness.’16 They also called for a
+11 Uniting Church, Submission 5, p. 2.
+12 Chartered Accountants Australia and New Zealand and CPA Australia (CAANZ & CPA Australia),
+Submission 7, p. 3.
+13 CAANZ & CPA Australia, Submission 7, p. 4.
+14 CAANZ & CPA Australia, Submission 7, pp. 3–5.
+15 CAANZ & CPA Australia, Submission 7, p. 5.
+16 Business Council for Sustainable Development Australia (BCSD Australia), Submission 9, pp. [3–4].
+22
+transparent appointment process for Governing Council members with a
+published skills matrix.17
+2.19 BCSD Australia expanded on this, stating that ‘consolidation increases the
+importance of governance design’18 and that the new ERA model places a lot of
+weight on the conduct and composition of the Governing Council. They
+recommended that the bill clearly define the features that will maintain market
+confidence in the Governing Council’s competence and independence.19
+2.20 On a similar note, the Property Council of Australia (PCA) also raised concerns
+about a lack of detail in the bill and explanatory memorandum about how
+Governing Council members would be identified and nominated, whether the
+positions will be publicly advertised and subject to a transparent selection
+process, and whether there will be an independent nominations committee or
+advisory panel.20
+2.21 The PCA also recommended that the bill be amended to clarify that current
+auditors can serve on the Governing Council, subject to the conflict of interest
+provisions which apply to other members of the Council.21
+2.22 The Australian Institute of Company Directors (AICD) recommended an
+increase in Governing Council membership to twelve members ‘to help achieve
+the design principle of allowing greater flexibility for ERA to meet future
+governance needs, especially with the phased introduction of mandatory
+climate reporting and assurance.’22 The AICD was also in favour of making the
+skills matrix for Governing Council appointments public.23
+2.23 In its submission, ASFA made various recommendations regarding the
+Governing Council and its membership.24 In particular, ASFA recommended
+that the power in the bill allowing the Minister to terminate the appointment of
+a member of the Governing Council be removed and replaced with a section
+stating that terminations be initiated by the Chair of the Governing Council and
+subject to a majority vote. They stated this would increase the independence of
+ERA.25
+17 BCSD Australia, Submission 9, pp. [3–4].
+18 BCSD Australia, Submission 9, pp. [5].
+19 BCSD Australia, Submission 9, pp. [5].
+20 PCA, Submission 11, p. [6].
+21 PCA, Submission 11, p. [4].
+22 AICD, Submission 13, p. 2.
+23 AICD, Submission 13, p. 3.
+24 ASFA, Submission 16, pp. 6–7.
+25 ASFA, Submission 16, p. 6.
+23
+Concerns regarding the Governing Council’s ability to issue directions
+2.24 Some submitters raised concerns about the ability of the Governing Council to
+issue directions to the standards-setting boards or revoke a standard issued by
+one of those boards.
+2.25 CAANZ & CPA Australia raised concerns about provisions of the bill providing
+the Governing Council with intervention powers. They were opposed to the
+idea of the Governing Council being able to revoke a standard issued by one of
+the standards-setting boards and suggested an alternative provision to the bill
+which would give the Governing Council the power to direct a standards-
+setting board to ‘revisit the standard and rectify it to address any concerns’.26
+2.26 The G100 submission also raised concerns about the Governing Council’s power
+to revoke standards and urged that this power be tempered by strong
+safeguards. The submission went on to say:
+Although standard-setting will continue to reside with the boards, the
+Governing Council’s expanded powers reinforce the need for its members
+to possess skills and experience on par with those of the boards, as
+emphasised by stakeholders during consultation.27
+2.27 These concerns were echoed by the PCA, which stated:
+From the perspective of the property industry, any perception that the
+standard-setting boards are subordinate to, or may be overruled on
+technical matters, by a governance body for reasons other than due process
+or legality would be damaging. This is particularly sensitive as Australia
+implements climate-related and broader sustainability standards that will
+be closely scrutinised by global investors.28
+2.28 The PCA recommended that the bill be amended so that the Governing
+Council’s power to override or issue a direction to a standards-setting board be
+confined to circumstances where the Council is required to act in order to
+discharge its obligations under the PGPA Act, or where a standards-setting
+board has failed to comply with due process requirements.29
+2.29 Mr David Hardidge was also opposed to the Governing Council having the
+power to issue directions to a standards-setting board, noting that appointments
+to the Governing Council were ‘essentially political appointments’.30
+26 CAANZ & CPA Australia, Submission 7, p. 5.
+27 G100, Submission 8, p. [5].
+28 PCA, Submission 11, p. [5].
+29 PCA, Submission 11, p. [5].
+30 Mr David Hardidge, Submission 12, p. 3.
+24
+Post-implementation review
+2.30 Some submissions to the inquiry called for the bill to be amended to include a
+post-implementation review of the ERA.
+2.31 The AICD suggested that a review of the ERA take place after five years,
+pointing out the importance of the reforms being undertaken and that a post-
+implementation review would ensure that the bill was achieving its policy
+objectives.31
+2.32 CAANZ & CPA Australia called for such a review of the ERA, ‘including its
+functions, governance arrangement and the effectiveness of its operations.’32 It
+recommended that a review be conducted initially two years after the
+commencement of the ERA and that there be a further review five years after
+commencement. CAANZ & CPA Australia submitted that a review should be
+independent and include consideration of:
+ whether the ERA is operating in accordance with the objects of its Act, as
+well as its governance, accountability and decision-making arrangements;
+ the extent to which independence and technical integrity of standard-setting
+functions have been maintained;
+ the effectiveness of due process and consultation arrangements;
+ the effectiveness of international engagement and influence in standards
+setting; and
+ any other matters.33
+2.33 BCSD Australia also called for a post-implementation review of the ERA, saying
+that such a review would be good regulatory practice, as well as providing an
+evidence base for refinements of the ERA and its legislation. The submission
+stated the bill should assess whether the ERA is:
+ preserving technical quality and independence;
+ ensuring the Governing Council’s composition, skills mix and operation
+are supporting balanced expertise, effective oversight and public
+confidence;
+ providing effective transparency and consultation;
+ supporting timely and practical implementation;
+ maintaining international credibility and alignment; and
+ managing implementation burden proportionately.34
+31 AICD, Submission 13, p. 3.
+32 CAANZ & CPA Australia, Submission 7, p. 6.
+33 CAANZ & CPA Australia, Submission 7, pp. 6–7.
+34 BCSD Australia, Submission 9, p. [5].
+25
+Sustainability standards board
+2.34 Some submissions raised concerns about the sustainability standards board to
+be created by ERA through the bill.
+2.35 The LCA raised concerns that the bill does not reflect a contemporary definition
+of sustainability and urged that the ‘social’ pillar of environmental social and
+governance reporting (ESG reporting) not be neglected. The LCA argued that
+‘sustainability’ should include human and workers’ rights and noted that
+human rights impacts were often linked to environmental impacts.35
+2.36 On slightly different note, BCSD Australia recommended that the sustainability
+standards-setting board be ‘established early and resourced adequately to
+support continuity, interpretation and implementation as mandatory climate
+and sustainability reporting matures.’36
+2.37 BCSD Australia was also in favour of each standards-setting board having
+minimum capability expectations for each board and sufficient resourcing from
+their commencement.37
+2.38 Mr David Hardidge was opposed to the creation of a separate sustainability
+standards-setting board and felt that the sustainability standards setting could
+be improved through using the existing accounting standards setting board.38
+Other concerns
+2.39 Other submissions to the inquiry raised various concerns with the bill.
+2.40 Mr Michael Sanderson was opposed to the bill on the basis that ‘the proposed
+merger has not been shown to be necessary, proportionate, or responsive to the
+deeper structural problems that most affect good public purpose in the financial
+system.’39
+2.41 Mr David Hardidge’s submission made the point that the three previous boards
+replaced by ERA in the bill were created through legislation, and the move
+towards an ERA with the power to make standards-setting boards through
+legislative instrument was a removal of parliamentary scrutiny.40
+2.42 The Deakin Business Value Creation Centre made the following
+recommendations for changes to the bill:
+35 LCA, Submission 3, p. 2.
+36 BCSD Australia, Submission 9, p. [4].
+37 BCSD Australia, Submission 9, p. [4].
+38 Mr David Hardidge, Submission 12, p. 4.
+39 Mr Michael Sanderson, Submission 1, p. 4.
+40 Mr David Hardidge, Submission 12, pp. 1–2.
+26
+ that the ERA pursue ‘approaches to resolving the intangibles reporting gap’
+through the accounting standards-setting board;
+ that the ERA pursue ‘approaches to achieving more integration in reporting
+and thinking’;
+ that the ERA be responsible for developing a conceptual framework for
+corporate reporting (CFCR) using the International Integrated Reporting
+Framework as a starting point; and
+ that one of the boards created by the ERA be an external reporting board
+with responsibility for relevance, clarity and conceptual framework
+matters.41
+2.43 The Institute of Internal Auditors made note that the Explanatory Memorandum
+was silent on the fact that the bill relates only to external auditors and assurance
+providers. The Institute noted that internal auditing was a different profession
+and that standards for this kind of auditing were not regulated within the bill.42
+2.44 Regarding the cost-benefit analysis ERA is required to undertake under the bill,
+the AICD recommended that ERA conduct periodic cost of the collective stock
+of all standards to ‘ensure the volume of regulatory burden on entities is
+necessary and proportionate.’43 Also regarding cost/benefit analysis
+requirements, the PCA recommended that the these cost/benefit analysis
+explicitly consider the cost of divergence from major international standards.44
+Committee view
+2.45 The committee welcomes the support for the bill that has been expressed by
+submitters. This bill represents an important reform for standards-setting in
+Australia, and will bring a more streamlined and flexible system for standards-
+setting.
+2.46 The committee notes the concerns raised by submitters about structure and
+governance concerns regarding ERA’s Governing Council, and the
+recommendations made by submitters around the size of the Governing Council
+and the process for appointments.
+2.47 Despite this, the committee is satisfied with the size of the Governing Council
+as set out in the bill, noting that the number of members proposed in the
+legislation (between four and eight) is flexible and has been set to accommodate
+appointees with a range of skills and experience to sufficiently perform their
+duties.
+41 DBVCC, Submission 2, pp. 2–3.
+42 Institute of Internal Auditors, Submission 6, p. [1].
+43 AICD, Submission 13, p. 3,
+44 PCA, Submission 11, p. [6].
+27
+2.48 Submitters also raised concerns about the appointment process for Governing
+Council members and made recommendations that the appointment process be
+transparent, suggesting the publication of skills matrixes or public selection
+panels.
+2.49 The committee is mindful of these concerns but believes the requirements
+contained in the bill that the Minister must have regard to certain factors, such
+as having an appropriate balance of expertise in relevant fields and that
+prospective appointees are independent from Australian auditors, are sufficient
+safeguards.
+2.50 Other concerns raised in submissions included the Governing Council’s ability
+to issue directions to the standards-setting boards and its ability to revoke a
+standard. The committee is mindful of the concerns raised by submitters in this
+regard; however, it feels this this power is an important safeguard that provides
+an ability for the Governing Council to act when required to do so.
+2.51 The committee is also reassured by the special requirements contained in the bill
+that the Governing Council must comply with an order to issue such a direction.
+The intent of these restrictions makes clear that the Governing Council is only
+to provide such a direction to a standards-setting board in exceptional
+circumstances and provides sufficient guardrails around potential overreach by
+the Governing Council.
+2.52 The committee is also cognisant of suggestions that there be a post-
+implementation review of ERA after the commencement of the new structure. It
+is open to the government to hold a review into the work of the new ERA and
+this could be a consideration in the future.
+Recommendation 1
+2.53 The committee recommends that the bill be passed.
+Senator Lisa Darmanin
+Chair
+Labor Senator for Victoria
+
+Coalition Senators' Dissenting Report
+Introduction
+1.1 The Coalition does not support this Bill.
+1.2 Australia’s financial reporting bodies – the Australian Accounting Standards
+Board (AASB), the Auditing and Assurance Standards Board (AUASB), and the
+Financial Reporting Council – are long-standing, well-respected, and
+independent institutions. They have served Australia well.
+1.3 The highly technical work of financial standards setting organisations is not well
+known to the broader Australian community. However, their expertise has
+helped to ensure Australia remains an attractive place for investment that aligns
+with international norms and expectations.
+1.4 This Bill would abolish these institutions and replace them with a new
+centralised entity – External Reporting Australia (ERA). It concentrates power
+in a ministerially appointed Governing Council, weakens the technical
+independence of standard-setters, leaves due process to future determinations,
+and is not supported by any cost-benefit analysis.
+1.5 Submissions from a broad church of stakeholders raise significant concerns that
+without changes this Bill risks undermining the independence of technical
+standards-setters and will lead to worse governance and due process.
+1.6 The Government has not made the case for this change. Submissions highlight
+the lack of evidence of failure in the current system, of benefit from the changes,
+and of an appropriate consultation process.
+1.7 The consultation process did not test the key policy question. Treasury’s 2025
+Consultation paper expressly stated it was “not seeking views on the merits” of
+abolishing the long-standing bodies and centralising them in the new entity.
+1.8 This is a weak foundation for undertaking major structural reform. To correct
+this, the first step the Government needs to take is to ask Treasury to perform a
+cost-benefit analysis and meaningfully engage with the views of stakeholders.
+Recommendations
+Recommendation 1
+1.9 That the Bill not be passed in its current form.
+Recommendation 2
+1.10 That Treasury conduct and publish a cost-benefit analysis of the changes
+before further scrutiny by the Senate.
+29
+30
+Recommendation 3
+1.11 Preserve parliamentary scrutiny for all standards by making them
+disallowable instruments.
+Recommendation 4
+1.12 Require an independent post-implementation review after 2 years, to be
+tabled in Parliament.
+Recommendation 5
+1.13 Prohibit the Governing Council from making or amending technical
+standards itself to maintain the independence of technical standards setters.
+Recommendation 6
+1.14 Remove clauses 225A(2) and 225B from the Bill and define functions in
+legislation.
+Recommendation 7
+1.15 Require publication of all decisions.
+The Government has Failed to Demonstrate Failure
+1.16 The Government’s public argument is that Australia needs a more flexible, more
+accountable, more future-ready standard-setting framework, especially as
+sustainability and climate-related reporting grows in importance.
+1.17 Treasury’s January 2025 consultation paper said Australia’s financial reporting
+system exists to maintain investor confidence, reduce the cost of capital and help
+Australian entities compete overseas; the October 2025 exposure-draft
+consultation and ministerial release presented ERA as a “one-stop shop” guided
+by flexibility, accountability and preservation of strengths.
+1.18 The problem with these arguments is that they do not demonstrate how the
+existing structure is inadequate or failing to maintain investor confidence,
+reduce the cost of capital, or remain future-ready.
+1.19 First, the consultation process did not test the key policy question. Treasury’s
+January 2025 paper stated, in terms, that it was not seeking views on the merits
+of combining the bodies. This meant stakeholders were not asked whether the
+merger itself was necessary, whether a narrower option would suffice, or
+whether the risks of concentration outweighed any administrative gains. This is
+an unusually weak foundation for a structural overhaul of long-standing and
+effective institutions.
+31
+1.20 Secondly, the primary goal of the reforms is clearly to support the
+implementation of climate-related disclosures, not as a response to a
+demonstrated governance breakdown in the existing AASB/AUASB/FRC
+structure. There is no evidence that alternative approaches, such as establishing
+a dedicated sustainability reporting board within the existing framework, were
+ever considered.
+1.21 Thirdly, there are no streamlining or efficiency gains to be achieved by these
+changes. As highlighted by Mr Hardidge’s submission, the AASB and AUASB
+are already co-located, already share a managing director, already have a
+combined corporate plan and annual report, already share IT systems.
+Submissions Warn the Committee – this Bill Needs Improvement
+1.22 This is a reform that raises many concerns. Direct opponents say the case for
+change has not been made; and even supporters of the Bill are seeking
+substantial amendments.
+1.23 Taken together, the submission record does not show a narrow camp of
+ideologues resisting change. It reflects a broad cross-section of practitioners,
+investors, governance bodies and industry participants all pointing to the same
+conclusion: if Parliament is to legislate this Bill, the design must be improved.
+1.24 The Coalition urges the Government to give due regard to these submissions,
+conduct a cost-benefit analysis, and engage in genuine consultation with
+stakeholders.
+Direct Opponents
+1.25 Mr Hardidge’s submission is a clear technical critique from an experienced
+practitioner. He objects to the removal of parliamentary scrutiny, cannot
+identify “additional substantive efficiencies”, rejects political influence over
+standard-setting, and argues the legislation should not proceed.
+1.26 His submission states plainly that “No sound case has been made” for the
+structural change. He observes that the current system is functioning effectively
+and questions why such a significant redesign is required.1
+1.27 Mr Ravlic’s submission says “No sound case has been made” for the structural
+change. He states that nothing has come to his attention suggesting the current
+structure cannot cope with the accounting, auditing or sustainability workload,
+and argues Parliament could simply have established a separate sustainability
+standard setter without what he terms “renovation rescue”.
+1 Mr David Hardidge, Submission 12, pp. 1–5.
+32
+1.28 He also warns that ERA should set standards only and should not blur rule-
+making with surveillance or enforcement, emphasising the importance of
+institutional separation.2
+1.29 Ms Mazalevskis argues the Bill eliminates arm’s-length governance,
+concentrates regulatory power, removes independent audit-quality oversight,
+increases reliance on ASIC despite capacity constraints, increases ministerial
+control, internalises conflicts of interest and, when read alongside broader audit
+and consulting failures, heightens systemic risk rather than reduces it.3
+Conditional Supporters
+1.30 Chartered Accountants ANZ / CPA Australia’s joint submission notes that the
+consultation paper did not seek views on the merits of the merger and that the
+“relative merits, risks and trade-offs” of the change, including alternatives, were
+not comprehensively assessed.
+1.31 They then propose significant legislative changes: stronger due process in the
+primary law, a larger and more balanced Governing Council, minimum board
+sizes, limits on Council intervention powers, mandatory consultation, explicit
+international engagement and independent reviews at two and five years.4
+1.32 This is not light-touch fine-tuning. It is evidence that the major professional
+bodies – bodies that are best placed to understand the implications of these
+changes - do not think the changes in the Bill provide adequate safeguards.
+1.33 The Association of Superannuation Funds of Australia (ASFA) supports passage
+only subject to a significant number of amendments, and those amendments go
+to the heart of the Coalition’s concerns.
+1.34 ASFA wants clauses 225A(2) and 225B removed so functions are defined by
+legislation rather than ministerial regulation; wants all standards and
+instruments subject to parliamentary disallowance; opposes ministerial power
+to remove Council members; requires publication of decisions; prohibits
+Governing Council members from also sitting on boards; and requires cost-
+benefit analyses to be published with at least a 60-day public comment period.
+It also wants consultation on transitional rules.5
+1.35 ASFA’s comprehensive submission should give the Government and
+crossbench serious cause for concern, particularly in relation to the absence of a
+cost-benefit analysis.
+2 Mr Tom Ravlic, Submission 15, pp. 1-7.
+3 Ms Rita Mazalevskis, Submission 14, pp. 1–7.
+4 Chartered Accountants Australia and New Zealand and CPA Australia, Submission 7.
+5 ASFA, Submission 16, pp. 6–8.
+33
+1.36 The Australian Institute of Company Directors (AICD) asks for a larger Council,
+more transparency around non-voting associate members, publication of the
+skills matrix, a statutory post-implementation review, and periodic review of
+the aggregate stock of standards to keep regulatory burden proportionate.6
+1.37 The Property Council supports modernisation in principle, but calls for
+significant reforms, including: preserve technical capability, avoid blanket
+exclusion of current practitioners where conflicts can be managed, constrain
+Council override powers to due-process failures or PGPA necessities, retain a
+system-level audit-quality role, improve appointment transparency, require
+cost-benefit analysis to consider the cost of divergence from international
+standards, and avoid nomenclature changes that would impose transition costs
+and confusion.7
+1.38 It also warns that failure to comply with procedural safeguards not affecting a
+standard’s validity weakens real enforceability.
+Need for Parliamentary Scrutiny
+1.39 The Senate Standing Committee for the Scrutiny of Bills has raised serious
+concerns about the level of parliamentary scrutiny under this Bill.
+1.40 That Committee questioned whether standards made as non-legislative
+instruments could later be given legal effect without proper parliamentary
+oversight. It noted that it is:
+not clear… that an appropriate opportunity would arise for parliamentary
+scrutiny.8
+1.41 The Assistant Treasurer argued that scrutiny would occur at the point of later
+incorporation.
+1.42 That Committee was not persuaded. It observed that this represents a novel
+approach that should be accompanied by “extensive justification”.
+1.43 We agree. Parliamentary scrutiny should occur when standards are made – not
+deferred until they already have legal effect.
+This Bill Demonstrates the Government has the Wrong Priorities
+1.44 This Bill does not exist in isolation.
+1.45 It comes at a time when there are significant, unresolved pressures across the
+financial services system – including insurance affordability, access to banking,
+and the cost and availability of financial advice.
+6 Australian Institute of Company Directors (AICD), Submission 13.
+7 Property Council of Australia, Submission 11.
+8 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 3/26, ‘Treasury Laws
+Amendment (Financial Reporting System Reform) Bill 2026’, p. 63.
+34
+1.46 Multiple parliamentary inquiries in these areas remain unanswered.
+1.47 At the same time, the Government has prioritised a structural overhaul of
+institutions that are already functioning effectively. It is not broken, yet it is
+being prioritised ahead of areas of the financial system that are under real
+pressure and would benefit Australians.
+1.48 Parliament should be focused on reforms that deliver clear, immediate benefits
+to Australians - not restructuring institutions where no failure has been
+demonstrated.
+Conclusion
+1.49 This Bill represents one of the most significant structural changes to Australia’s
+financial reporting system in decades.
+1.50 The Government has not demonstrated:
+ a failure in the current system
+ a clear problem that needs solving
+ a compelling benefit from these changes.
+1.51 The Coalition acknowledges and appreciates all submissions. They demonstrate
+a broad alignment of concern across practitioners, investors, governance bodies
+and industry participants that the Bill, as drafted, is not fit for purpose.
+1.52 The evidence before the Committee is consistent:
+ Experienced practitioners have stated plainly that the case for change has
+not been made.
+ Professional bodies have warned that the risks and trade-offs have not been
+fully assessed.
+ Even stakeholders who support reform have called for significant redesign
+of the Bill’s governance, independence and due process settings.
+1.53 These concerns arise from deficiencies in the Government’s policy development
+process. The consultation did not test the core question. No cost-benefit analysis
+was conducted. Alternative options were not considered.
+1.54 The Coalition shares the concerns of many submissions that this bill:
+ concentrates power in a single governing body
+ weakens the independence of technical standard-setters
+ expands Ministerial discretion
+ reduces parliamentary scrutiny
+ fails to embed adequate due process
+ introduces risk without clear benefit.
+1.55 Australia’s current financial reporting system is respected, internationally
+aligned, and functioning effectively. There is room for improvement, but these
+reforms should not be rushed through parliament. More work needs to be done
+35
+to ensure opportunities for reform are better identified, prioritised, and
+informed by the expertise of the best experts in this field.
+1.56 Major institutional reform should only proceed where there is a clear and
+compelling case.
+1.57 That case has not been made.
+
+Australian Greens Senators' Additional Comments
+1.1 On behalf of the Australian Greens, I want to thank the committee and the
+secretariat for their work carried out in the conduct of this inquiry.
+1.2 I would also like to add a personal thanks to all those who supplied evidence.
+1.3 This Bill, much like the Labor Government’s responses to the numerous
+consulting inquiries, is a missed opportunity for real reform.
+1.4 While the Greens generally support the merging of these financial reporting
+bodies, the new External Reporting Australia should be stronger, not weaker,
+than its predecessors.
+1.5 These Additional Comments address the Greens’ concerns with conflicts of
+interest, ethics, the public interest, independent scrutiny, and broader sector
+reform.
+Appointments - conflicts of interest and ethics
+1.6 The Governing Council or standards-setting boards who are making decisions
+on standards should not include individuals receiving income from large
+accounting and auditing firms. Why is Labor not making this a stipulation of
+the new appointments process? It is a fundamental question of preventing
+conflicts of interest.
+1.7 The two parliamentary inquiries into the consulting sector made it clear that the
+weak and captured state of regulatory and standards-setting bodies played a
+role in the PwC tax leaks scandal.
+1.8 This was highlighted in the Labor-chaired Parliamentary Joint Committee on
+Corporations and Financial Services’ consulting inquiry report, which stated
+that there is ‘potential for the Big Four audit firms … to exert undue influence’
+over the Financial Reporting Council (FRC), the Australian Accounting
+Standards Board (AASB), and the Auditing and Assurance Standards Board
+(AUASB).1
+1.9 Evidence from Associate Professor Corinne Cortese to that inquiry showed that:
+ 40 per cent of the FRC members have ties to the Big Four firms;
+ 50 per cent of the AASB members have ties to the Big Four firms; and
+ 6 of the 11 AUASB members are partners at the Big Four firms.2
+1 PJC CFS, Ethics and Professional Accountability: Structural Challenges in the Audit, Assurance and
+Consultancy Industry, Final Report, p. 63.
+2 PJC CFS, Ethics and Professional Accountability: Structural Challenges in the Audit, Assurance and
+Consultancy Industry, Associate Professor Corinne Cortese, Submission 31, pp 4–7.
+37
+38
+1.10 Despite this clear conflict of interest being raised years ago, measures to prevent
+this undue influence when merging these three bodies into the new External
+Reporting Australia are not included in this Bill. This is unacceptable.
+1.11 Rules need to be put in place to avoid actual or perceived conflicts of interest in
+appointment process for regulators and standards setting boards. Without this
+a regulator or standards-setting body is at risk of actual or perceived capture or
+inappropriate influence from entities they regulate.
+1.12 This is an important change to make, and one that has been done before in
+relation to a similar body. The Greens successfully won amendments to ban any
+partners or directors of entities with direct financial links from being members
+of the Tax Practitioners Board. This was necessary because there were two
+former PwC partners still in the receipt of income on the board of the TPB at
+meetings when the PwC matter was discussed.
+1.13 Sterile corridors do not work. Unless the Government steps in to enforce
+separation, history shows us that these profit-motivated firms will exploit
+information.
+1.14 Crucially, the Labor-chaired committee recommended that this new entity ‘not
+include individuals with a current financial interest in entities under the direct
+governance of the body’.3
+1.15 This recommendation was agreed to by Labor, Liberal and Greens members of
+the Committee. Yet, it is not included in this Bill, meaning the appointment
+process can, and likely will, allow for those with ties to the Big Four to run
+External Reporting Australia.
+1.16 It is critical that External Reporting Australia acts independently of the entities
+that they oversee. We need a clean wall around conflicts of interest. The Greens’
+amendment to the TPB works, and the Government should have learned the
+lessons from the consulting inquiries when designing the appointment criteria
+for External Reporting Australia.
+1.17 Additionally, ethics must be a field of experience for appointment to the
+Governing Council and standards-setting boards. The Uniting Church in
+Australia’s submission points out that this Bill is a missed opportunity that only
+consolidates financial reporting bodies, while doing nothing to improve the
+ethical standards of entities and professionals governed.4
+Recommendation 1
+1.18 That the Bill be amended to:
+3 PJC CFS, Ethics and Professional Accountability: Structural Challenges in the Audit, Assurance and
+Consultancy Industry, Final Report, p. xviii.
+4 Uniting Church in Australia, Synod of Victoria and Tasmania, Submission 5, p. 2.
+39
+ Require that the Governing Council and standards-setting boards do not
+include individuals with a current financial interest in entities from large
+accounting and auditing firms, and
+ Add ‘ethics’ to the list of fields that the Minister is satisfied the person
+has experience in.
+Scope of External Reporting Australia
+1.19 The Greens also have concerns with the scope of the new External Reporting
+Australia.
+1.20 First, there is nothing in the Bill to require External Reporting Australia to act in
+the public interest when adopting international best practice accounting,
+auditing and sustainability standards in the Australian standards-setting
+process, only to act in the ‘best interests of both the private and public sectors of
+the Australian economy’.
+1.21 Stakeholders such as the Uniting Church in Australia observed that External
+Reporting Australia should also be required to act in the public interest, which
+goes beyond considerations that only benefit the economy.5 When I asked
+Treasury whether they considered requiring External Reporting Australia to act
+in the public interest, their response showed that the Government was focussed
+on consolidating existing frameworks, but not improving them.6
+1.22 Second, multiple stakeholders have argued that the new External Reporting
+Australia should not be weaker than its predecessors. Nowhere is this clearer
+than in the removal of the FRC’s mandatory information-gathering powers.
+1.23 Currently, the FRC has coercive information gathering powers with respect to
+the professional accounting bodies.
+1.24 Without these powers, External Reporting Australia may not be able to obtain
+timely, accurate data from entities, monitor compliance, or detect emerging
+issues in financial and sustainability reporting. The Government must ensure
+that External Reporting Australia retains these powers.
+Recommendation 2
+1.25 That the Bill be amended to:
+ Require that External Reporting Australia act in the public interest, and
+ Retain the Financial Reporting Council’s mandatory information-
+gathering powers.
+5 Uniting Church in Australia, Synod of Victoria and Tasmania, Submission 5, p. 1.
+6 Senate Economics Legislation Committee Hansard, Estimates, 3 December 2025, p. 47.
+40
+Independent review
+1.26 The Government claims that this Bill is ‘the biggest reform to our financial
+reporting standard setting institutions in over two decades’.7
+1.27 While the Greens disagree with the categorisation of these reforms as radical,
+given the government believes this is a substantial change, they should be
+required to commission an independent review to determine whether the
+proposed External Reporting Australia is operating as intended.
+Recommendation 3
+1.28 That the Bill be amended to require an independent post-implementation
+review to be conducted on the operation of External Reporting Australia,
+including its functions, governance arrangements and the effectiveness of its
+operations, within 2 years.
+Broader sector reform
+1.29 The Greens will continue to push for real reforms, transparency, and
+accountability in the auditing, accounting and consulting sectors.
+1.30 The two parliamentary inquiries into these sectors made 52 recommendations
+between them, which were agreed to by Labor, the Liberals and the Greens.
+1.31 These reports gave the government a comprehensive blueprint for action, with
+clear recommendations on lowering partnership caps, separating audit from
+non-audit services, improving whistleblower protections and not allowing PwC
+to tender for government work until all ongoing investigations have concluded.
+1.32 This Labor government needs to stop dragging its feet with endless reviews and
+consultation and decisively act on broader sector reform.
+1.33 It’s been almost two years since Treasury’s consultation closed in June 2024, and
+Australians still haven’t seen the options paper or the 35 non-confidential
+submissions resulting from this consultation.8
+Recommendation 4
+1.34 That the Government:
+ Implement all 52 trilateral recommendations – as agreed by Labor,
+Coalition and the Greens - from the two consulting inquiries in full, and
+7 The Hon. Dr Daniel Mulino MP, Second Reading Speech, ‘Treasury Laws Amendment (Financial
+Reporting System Reform) Bill 2026’, 12 February 2026.
+8 The Treasury, Outcomes of consultation – Regulation of accounting, auditing and consulting firms in
+Australia, FOI 4201, 27 March 2026.
+41
+ Immediately release the options paper and publish all submissions from
+the 2024 Treasury consultation on the regulation of accounting, auditing
+and consulting firms in Australia.
+Senator Barbara Pocock
+Australian Greens Senator for South Australia
+Australian Greens spokesperson for Finance and Public Sector
+
+Appendix 1
+Submissions
+1 Mr Michael Sanderson
+2 Deakin Business Value Creation Centre
+3 Law Council of Australia
+4 Australian Council of Superannuation Investors (ACSI)
+5 Uniting Church in Australia, Synod of Victoria and Tasmania
+6 Institute of Internal Auditors Australia
+7 Chartered Accountants Australia and New Zealand and CPA Australia
+8 Group 100 (G100)
+9 Business Council for Sustainable Development Australia (BCSD Australia)
+10 Responsible Investment Association Australasia (RIAA)
+11 Property Council of Australia
+12 Mr David Hardidge
+13 Australian Institute of Company Directors (AICD)
+14 Ms Rita Mazalevskis
+15 Mr Tom Ravlic
+16 The Association of Superannuation Funds of Australia (ASFA)
+43

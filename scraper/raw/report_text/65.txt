@@ -1,0 +1,1462 @@
+PARLIAMENT OF THE COMMONWEALTH OF AUSTRALIA
+Report 490
+Alternative Financing Mechanisms
+Joint Committee of Public Accounts and Audit
+March 2022
+CANBERRA
+© Commonwealth of Australia
+ISBN 978-1-76092-349-5 (Printed Version)
+ISBN 978-1-76092-350-1 (HTML Version)
+This work is licensed under the Creative Commons Attribution-
+NonCommercial-NoDerivs 3.0 Australia License.
+The details of this licence are available on the Creative Commons website:
+http://creativecommons.org/licenses/by-nc-nd/3.0/au/.
+Contents
+Foreword ............................................................................................................................................ v
+Members ........................................................................................................................................... vii
+Terms of Reference ........................................................................................................................... ix
+List of Recommendations ................................................................................................................ xi
+The Report
+1 Introduction .............................................................................................................. 1
+About the inquiry .................................................................................................................. 1
+Alternative financing mechanisms ..................................................................................... 2
+Accounting standards, Commonwealth reporting framework and relevant
+guidelines ................................................................................................................... 3
+Conduct of the inquiry ......................................................................................................... 6
+2 Alternative Financing Mechanisms ..................................................................... 7
+Chapter overview .................................................................................................................. 7
+Background ............................................................................................................................ 7
+Overview of alternative financing ...................................................................................... 8
+Growth in alternative financing, and reasons for/effects of governments
+funding programs through such approaches ........................................... 8
+Costs associated with different policies (transactions and revaluations) and
+issues with current reporting practices for alternative financing
+mechanisms ................................................................................................... 9
+Current reporting practices for alternative financing mechanisms ................. 13
+Proposed improvements to reporting on alternative financing mechanisms............. 15
+iii
+iv
+Additional proposed improvements ................................................................................ 20
+Implementation of PBO proposals .................................................................................... 23
+ANAO financial statements audits ................................................................................... 27
+Committee comment .......................................................................................................... 29
+Appendix A. Submissions .............................................................................................. 33
+Appendix B. Public hearings .......................................................................................... 35
+Appendix C. Overview of PBO Proposals ................................................................... 37
+Foreword
+Under the Public Accounts and Audit Committee Act 1951, the Committee has broad
+inquiry powers relevant to Commonwealth reporting on financial matters. In
+particular, the Committee has a statutory duty to report to the Parliament on any
+alteration that it sees fit in the form of public accounts or the method of keeping
+them, and in the mode of receipt, control and payment of public moneys.
+The Committee’s report into the use of alternative financing mechanisms focuses
+on issues raised in Parliamentary Budget Office (PBO) Report 1/2020, Alternative
+Financing of Government Policies: Understanding the Fiscal Costs and Risks of Loans,
+Equity Injections and Guarantees. The PBO has an important statutory role in
+conducting and publishing research to improve public understanding of the
+budget and fiscal policy settings. In its report, the PBO emphasised that, over time,
+the level of transparency provided in the Budget Papers has ‘evolved and
+improved’. Against this background, the PBO identified several areas where
+budget reporting on the use of alternative financing mechanisms in government
+expenditure could be enhanced.
+In our report, we have recommended implementation of the PBO’s proposals, in
+the interests of continuing to improve the level of transparency provided in the
+Budget Papers, and promote accountability to the Parliament and the Australian
+public.
+I would like to thank the PBO and other entities for their involvement in this
+inquiry. I also thank my colleagues on the Committee for their work on this report.
+Lucy Wicks MP
+Chair
+v
+
+Members
+Chair
+Ms Lucy Wicks MP Robertson, NSW
+Deputy Chair
+Mr Julian Hill MP Bruce, VIC
+Members
+Ms Angie Bell MP Moncrieff, QLD
+Mr Pat Conroy MP (from 9/08/21) Shortland, NSW
+Hon Darren Chester MP (from 11/03/22) Gippsland, VIC
+Ms Nicolle Flint MP (from 25/10/21) Boothby, SA
+Senator Kimberley Kitching (until 10/03/22) ALP, VIC
+Senator Andrew McLachlan CSC LP, SA
+Senator Matt O'Sullivan LP, WA
+Senator Rex Patrick IND, SA
+Ms Alicia Payne MP Canberra, ACT
+Senator Paul Scarr LP, QLD
+Ms Kate Thwaites MP (until 9/8/21 and from 30/11/21) Jagajaga, VIC
+vii
+viii
+Mr Ross Vasta MP Bonner, QLD
+Senator Jess Walsh ALP, VIC
+Mr Tim Watts MP Gellibrand, VIC
+Mr Rick Wilson MP O'Connor, WA
+Committee Secretariat
+Joel Bateman, Committee Secretary
+Kate Sullivan, Inquiry Secretary
+Mihira Jeyanarayanan, Researcher
+Carissa Skinner, Office Manager
+Terms of Reference
+The Committee had particular regard to the issues raised in the Parliamentary
+Budget Office report no. 01/2020, Alternative financing of government policies –
+Understanding the fiscal costs and risks of loans, equity injections and guarantees,
+including:
+• the reasons for and effects of governments funding programs through alternative
+approaches;
+• the costs associated with different policies; and
+• the reporting in Budget papers of programs funded through alternative
+approaches.
+ix
+
+List of Recommendations
+Recommendation 1
+2.41 The Committee recommends that the Minister for Finance:
+ consider changes to improve transparency for equity investments,
+consistent with the proposed improvements to budget reporting as
+summarised in Table 4 of Parliamentary Budget Office, Report 1/2020,
+Alternative Financing of Government Policies: Understanding the Fiscal Costs
+and Risks of Loans, Equity Injections and Guarantees, and the ‘Additional
+proposed improvements’ to reporting set out in paragraph 2.20 of the
+Committee’s report
+ report back on:
+− each of these proposed changes, including how transparency could
+be improved in relation to equity investments subject to differing
+valuation methods (i.e. those in an establishment phase and those
+that have emerging cash flows)
+− how the additional information provided would meet the principles
+of accessibility, availability in the one document and publication on
+an ongoing, consistent basis, as programs and projects evolve (on an
+annual basis and not only at the time of initial consideration)
+− any impediments to implementation, and how any new reporting
+arrangements could be matured over time.
+xi
+xii
+Recommendation 2
+2.42 The Committee recommends that the Minister for Finance report back on the
+Finance Portfolio Budget Statement (PBS) reporting of funds managed by
+the Future Fund. This should include:
+ Finance PBS reporting on the Disability Care Australia Fund
+ how a similar series of tables could be implemented for the
+Parliamentary Budget Office proposals in Report 1/2020 and the
+‘Additional proposed improvements’ to reporting set out in the relevant
+section of the Committee’s report, including disaggregation from major
+projects, loans or equity investments
+ how these tables would provide a detailed reconciliation of planned
+and/or forecast financial stocks and flows for other projects and
+programs, such as the equity and loan funding for the NBN and the
+financial flows related to HELP loans.
+The Committee requests that the proposed changes and advice be provided
+to the JCPAA to facilitate consultation with the PBO, the ANAO and other
+relevant stakeholders.
+1. Introduction
+About the inquiry
+1.1 On 12 July 2021, with regard to the Public Accounts and Audit Committee
+Act 1951, the Joint Committee of Public Accounts and Audit (JCPAA)
+resolved to inquire into the use of alternative financing mechanisms in
+government expenditure. The inquiry focused on issues raised in
+Parliamentary Budget Office (PBO) Report 1/2020, Alternative Financing of
+Government Policies: Understanding the Fiscal Costs and Risks of Loans, Equity
+Injections and Guarantees, including:
+ the reasons for and effects of governments funding programs through
+alternative approaches
+ the costs associated with different policies
+ the reporting in Budget papers on programs funded through alternative
+approaches
+1.2 The PBO was established in 2012 to ‘inform the Parliament by providing
+independent and non-partisan analysis of the budget cycle, fiscal policy and
+the financial implications of proposals’.1 The PBO does this in three main
+ways:
+ by responding to requests made by Senators and Members for costings
+of policy proposals or for analysis of matters relating to the budget
+ by publishing a report after every election that provides transparency
+around the fiscal impact of the election commitments of major parties
+ by conducting and publishing research that enhances the public
+understanding of the budget and fiscal policy settings
+1 See section 64B of the Parliamentary Service Act 1999.
+1
+2 REPORT 490 ALTERNATIVE FINANCING MECHANISMS
+1.3 Under its act, the JCPAA has broad inquiry powers relevant to
+Commonwealth reporting on financial matters. The Committee has a
+statutory duty to report to the Parliament on any alteration that it thinks
+desirable in the form of the public accounts or method of keeping them, and
+the mode of receipt, control, issue or payment of public moneys. The
+Committee also has a statutory duty to examine the accounts of
+Commonwealth receipts and expenditure, including the financial statements
+given to the Auditor-General, and all Auditor-General reports (including
+performance audits); and to report to the Parliament on any matters in those
+accounts, statements and reports. Under the Public Governance, Performance
+and Accountability Act 2013 (PGPA Act), the Committee must also approve
+any changes to Annual Reports (PGPA Rule 2014)—Commonwealth entity
+Annual Reports must comply with any requirements prescribed by PGPA
+Rules.
+Alternative financing mechanisms
+1.4 A common way for governments to pay for policies is through direct
+funding, where money is transferred from the government to
+entities/individuals through grants or other payments (such as pensions).
+With direct funding, the government does not expect to be repaid. Under
+alternative financing mechanisms, the government often provides financial
+resources to entities/individuals in return for a financial asset. Alternative
+financing mechanisms in government expenditure include equity injections,
+loans and guarantees.
+1.5 Government equity injections occur where the government becomes an
+owner or part owner of a business, usually through the purchase of shares in
+public corporations or private sector entities. When the government makes
+equity injections, it maintains a degree of control over its investment as a
+shareholder, to facilitate the achievement of policy objectives and protect the
+investment itself. Equity injections are most commonly used to address a
+market gap where the risk profile makes private sector investment unlikely.
+The government may receive a flow of dividends from ownership and sell
+its share of the business at a later date. Examples of government equity
+injections include investment in NBN Co to implement the National
+Broadband Network; investment in the Australian Rail Track Corporation to
+INTRODUCTION 3
+implement the inland rail project; and investment in WSA Co for the
+building of Western Sydney airport.2
+1.6 Government loans occur when a loan is issued by the government to
+support policy objectives, where private financing is not available. A loan is
+concessional where the government provides more favourable loan terms
+than the borrower could obtain commercially—the government may then
+receive repayments and interest from the loan. Examples of government
+loans include the Higher Education Loan Program; loans for infrastructure
+projects such as Westconnex; and loans through the Northern Australia
+Infrastructure Facility and the Clean Energy Finance Corporation.3
+1.7 Government guarantees occur where the government agrees to assume the
+debt or performance obligations of another party in the instance of a default.
+Policy reasons for providing a guarantee include strengthening a recipient’s
+credit profile to enable private financing instead of a requirement for direct
+government financing. Examples of government guarantees include the First
+Home Loan Deposit Scheme and the Accommodation Payment Guarantee
+Scheme.4
+Accounting standards, Commonwealth reporting
+framework and relevant guidelines
+1.8 The PBO and the Department of Finance (Finance) provided the Committee
+with information on accounting standards, and the Commonwealth budget
+and financial reporting framework.5
+2 For further information on government equity injections, see PBO Report 1/2020, Alternative
+Financing of Government Policies: Understanding the Fiscal Costs and Risks of Loans, Equity Injections
+and Guarantees, p. 3; and Finance, Submission 2, pp. 5-6.
+3 For further information on government loans, see PBO Report 1/2020, p. 3; and Finance,
+Submission 2, pp. 6-7.
+4 For further information on government guarantees, see PBO Report 1/2020, p. 3; and Finance,
+Submission 2, p. 7.
+5 See PBO Report 1/2020 and Finance, Submission 2. See also PBO, Understanding the Budget in 5 Tables,
+May 2021; PBO, ‘Online budget glossary’, PBO website; Parliamentary Library, Budget Review
+2021-22, May 2021; and Parliamentary Library, ‘The Commonwealth Budget: A Quick Guide’,
+Parliamentary Library website.
+4 REPORT 490 ALTERNATIVE FINANCING MECHANISMS
+Charter of Budget Honesty and PGPA Act
+1.9 The financial management of the Commonwealth is established under two
+pieces of legislation. The Charter of Budget Honesty Act 1998 establishes the
+Charter of Budget Honesty, which is a set of rules establishing
+Commonwealth management and reporting on fiscal performance. The
+Public Governance, Performance and Accountability Act 2013 (PGPA Act), and
+the accompanying PGPA Rule 2014, PGPA Financial Reporting Rule 2015 and
+PGPA Resource Management Guidance (issued by Finance), provide for the
+financial management of the Commonwealth. All government expenditure
+is subject to the requirements of the PGPA Act.
+Government Finance Statistics reporting framework and accounting standards
+1.10 The Charter of Budget Honesty requires the application of the Government
+Finance Statistics (GFS) reporting framework and Australian Accounting
+Standards (AAS) for Budget reports. GFS are developed by the International
+Monetary Fund and issued for Australian Government use by the Australian
+Bureau of Statistics. The PGPA Act and the Corporations Act 2001 mandate
+the application of AAS for annual financial statements. AAS are issued by
+the Australian Accounting Standards Board (AASB) and include
+International Financial Reporting Standards.6 Australian Government
+financial statements are consistent with the Uniform Presentation
+Framework (UPF), which is a national agreement designed to provide
+consistent presentation of government financial information by Australian,
+state and territory governments on a basis broadly consistent with AASB
+1049 Whole of Government and General Government Sector Financial Reporting.7
+Budget Papers
+1.11 The Commonwealth Budget consists of four Budget Papers—these
+documents present a picture of the Australian Government fiscal position,
+performance and outlook:
+6 GFS and AAS standards are harmonised through the application of AASB 1049 Whole of Government
+and General Government Sector Financial Reporting. AASB 1055 Budgetary Reporting requires
+Australian Government and Commonwealth entity financial statements to explain major budget
+variances.
+7 See Uniform Presentation Framework for the Presentation of Uniform Financial Information by
+Commonwealth, State and Territory Governments, February 2019.
+INTRODUCTION 5
+ Budget Paper No. 1: Budget Strategy and Outlook provides a range of
+financial aggregates across the forward estimates period (the budget
+year plus three additional years)
+ Budget Paper No. 2: Budget Measures contains details of every new
+policy measure undertaken since the last Mid-Year Economic and Fiscal
+Outlook
+ Budget Paper No. 3: Federal Financial Relations contains information on
+payments made by the Commonwealth to the States
+ Budget Paper No. 4: Agency Resourcing contains information on the
+funding for each Commonwealth entity
+Portfolio Budget Statements
+1.12 Portfolio Budget Statements (PBS) are tabled by the relevant portfolio
+minister in support of the appropriation for that portfolio proposed in the
+Budget Papers, with an overview of the portfolio and separate sections for
+each Commonwealth entity within that portfolio. (The PBS is made available
+on departmental websites at the same time as the Budget Papers are
+released.) The PBS provides more detail on the proposed activities and
+expenditures of each portfolio entity for the Budget year and forward
+estimate years. Finance provides guidance and templates on the preparation
+of the PBS—see Guide to Preparing the 2021-22 Portfolio Budget Statements,
+March 2021.
+MYEFO and Final Budget Outcome
+1.13 Under the Charter of Budget Honesty, the Treasurer must release a Mid-
+Year Economic and Fiscal Outlook (MYEFO), updating any information that
+has changed since the Budget.8 Under the Charter of Budget Honesty, the
+Treasurer must also produce a Final Budget Outcome (containing the fiscal
+outcomes for the Commonwealth for the relevant year), within three months
+of the end of each financial year.
+Annual Reports and financial statements
+1.14 Under the PGPA Act and with reference to relevant PGPA Resource
+Management Guidance (RMG), Commonwealth entities are required to
+produce Annual Reports. The Annual Report also contains Commonwealth
+entity financial statements. All entities are required to prepare annual
+financial statements in accordance with the PGPA Act; the PGPA Financial
+8 MYEFO must be released within six months of the Budget, or by the end of January in a given year,
+whichever is later.
+6 REPORT 490 ALTERNATIVE FINANCING MECHANISMS
+Reporting Rule and relevant Finance RMG;9 AAS (including AASB 101
+Presentation of Financial Statements); and/or other entity-specific legislation.
+The PGPA Financial Reporting Rule sets out the financial reporting
+requirements for Commonwealth entities.
+Consolidated Financial Statements
+1.15 The Consolidated Financial Statements (CFS), prepared by Finance and
+audited by the ANAO, provide the annual, end-of-year financial statements
+for the Commonwealth public sector and present the consolidated results for
+the Commonwealth, as well as disaggregated information on the various
+sectors of government. The CFS is prepared in accordance with the PGPA
+Act and AAS, including AASB 1049 Whole of Government and General
+Government Sector Financial Reporting.
+Conduct of the inquiry
+1.16 On 6 August 2021, the Committee issued a media release announcing the
+inquiry and inviting submissions. The inquiry received submissions as listed
+at Appendix A. Public hearings were held on 19 August 2021 and
+15 September 2021. A list of witnesses and organisations is at Appendix B.
+1.17 A copy of this report, transcripts of public hearings and submissions
+received are available from the Committee’s website at
+www.aph.gov.au/Parliamentary_Business/Committees/Joint/Public_Accoun
+ts_and_Audit.
+9 RMG 125, Commonwealth Entities Financial Statements.
+2. Alternative Financing
+Mechanisms
+Chapter overview
+2.1 The Parliamentary Budget Office (PBO) has an important role in conducting
+and publishing research to improve the public understanding of the budget
+and fiscal policy settings.1
+2.2 PBO Report 1/2020, Alternative Financing of Government Policies:
+Understanding the Fiscal Costs and Risks of Loans, Equity Injections and
+Guarantees, identified several areas where budget reporting on the use of
+alternative financing mechanisms in government expenditure could be
+improved. The Joint Committee of Public Accounts and Audit (JCPAA)
+supports these improvements and proposes implementation of all the
+proposals in PBO Report 1/2020, to increase transparency and promote
+accountability to the Parliament and the Australian public. The Committee
+also proposes implementation of additional disaggregated information in
+Commonwealth reporting. Recommendations are made to this effect at the
+end of the chapter.
+Background
+2.3 Chapter 2 sets out the findings of the Committee’s inquiry into the use of
+alternative financing mechanisms in government expenditure. In accordance
+with the inquiry terms of reference, the chapter focuses on the following
+matters:
+1 See section 64B of the Parliamentary Service Act 1999.
+7
+8 REPORT 490 ALTERNATIVE FINANCING MECHANISMS
+ Overview of alternative financing
+− Growth in alternative financing, and reasons for/effects of governments
+funding programs through such approaches
+− Costs associated with different policies (transactions and revaluations)
+and issues with current reporting practices for alternative financing
+mechanisms
+− Current reporting practices for alternative financing mechanisms
+ Proposed improvements to reporting on alternative financing
+mechanisms
+ Additional disaggregated information
+ Implementation of PBO proposals
+ ANAO financial statement audits
+Overview of alternative financing
+Growth in alternative financing, and reasons for/effects of
+governments funding programs through such approaches
+2.4 The PBO noted that Australian Government use of alternative financing
+mechanisms has been ‘increasing’—‘under successive governments there
+has been a shift toward delivering more government policies using
+alternative financing arrangements rather than direct payments’.2 The trend
+towards greater use of alternative financing mechanisms has been
+particularly evident in Australian Government spending in the areas of
+education, and transport, energy and telecommunications infrastructure.3 To
+assess the degree to which such mechanisms are being used to implement
+government policy, the PBO examined the net cash flow associated with
+these mechanisms.4 The PBO noted that the net cash flow has remained
+2 PBO Report 1/2020, Alternative Financing of Government Policies: Understanding the Fiscal Costs and
+Risks of Loans, Equity Injections and Guarantees, p. 1.
+3 PBO Report 1/2020, p. 4. (For example, between 2007-08 and 2016-17, the average proportion of
+Australian Government annual investment in transport infrastructure funded through
+alternative financing mechanisms was around 5 per cent, but from 2017-18 to the end of the
+2019-20 Budget forward estimates period in 2022-23, the proportion is set to average 20 per cent,
+p. 4.)
+4 Budget Paper No. 1: Budget Strategy and Outlook refers to this item as the ‘total net cash flows from
+investments in financial assets for policy purposes’.
+ALTERNATIVE FINANCING MECHANISMS 9
+negative since 2008-09,5 ‘with the net outflow reaching 1.1 per cent of GDP in
+2017-18, the largest negative outflow recorded since the 1970s’.6
+2.5 The PBO emphasised that there are ‘sound policy reasons’ for using
+alternative financing mechanisms to fund particular government policies—
+‘for infrastructure projects, for example, governments may wish to make
+equity investments where a project is too large or risky for private sector
+investors, or to inject competition into particular sectors’.7 The PBO also
+noted that the three largest Australian political parties are ‘committed to
+policies using alternative financing arrangements’.8 As the Parliamentary
+Budget Officer further stated, ‘all parties and all levels of government do
+these things … we’re not saying there’s anything inappropriate about that—
+we’re just saying that to the extent that they are used they deserve a
+particular treatment in public disclosure because of their complexity’.9
+Costs associated with different policies (transactions and
+revaluations) and issues with current reporting practices for
+alternative financing mechanisms
+2.6 The accounting practice adopted in the budget classifies all changes to the
+Australian Government financial position (the balance sheet) as resulting
+from either transactions or revaluations. A transaction involves two entities,
+with the movement of assets between these entities being clearly reflected in
+both entities’ balance sheets—examples include government pension
+payments, tax collections, grants, interest payments on loans and loan
+repayments. A revaluation involves a single entity and adjustment of its
+balance sheet—examples include where government loans are not expected
+to be recovered or there is a change to the value of government-owned
+equity. The cost of a government policy equates to its impact on the
+government’s balance sheet, with the main measures used to evaluate this
+5 When the government makes equity injections and issues loans, the amount of cash held on the
+government’s balance sheet is reduced, reflecting an outflow of cash from the government to
+another entity, thus lowering the net cash flow, PBO Report 1/2020, p. 4.
+6 PBO Report 1/2020, p. 5. (Major contributors to the higher outflow of cash in recent years are equity
+injections and loans for the NBN, and the increased issuance of student and other loans for
+higher education and vocational education, with the one-off investment in Snowy Hydro Ltd
+having also contributed to the cash outflow in 2017-18, p. 5.)
+7 PBO Report 1/2020, p. 6.
+8 PBO Report 1/2020, p. 5—see PBO analysis of 2019 general election, p. 7.
+9 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 5.
+10 REPORT 490 ALTERNATIVE FINANCING MECHANISMS
+impact comprising: net worth (assets less liabilities), net financial worth
+(financial assets less liabilities) and net debt (selected financial liabilities less
+selected financial assets).10 Changes to net financial worth resulting from
+transactions are included in the fiscal balance, underlying cash balance, net
+operating balance and headline cash balance.11 However, changes to net
+financial worth resulting from revaluations (referred to as ‘Other economic
+flows’ in budget documents12) are not included in the fiscal, underlying cash,
+net operating or headline cash balances.13
+2.7 Accordingly, as the focus of the Budget Papers tends to be on explaining the
+fiscal impact of policy on the budget aggregates of the underlying fiscal or
+cash balances, there is less information available about the fiscal impact of a
+policy when it is implemented using alternative financing mechanisms, as
+the majority of the costs associated with these mechanisms are not fully
+captured in these aggregates.14 The Budget Papers have traditionally focused
+on transactions rather than revaluations, as ‘government policy is a major
+driver of transactions’—‘government policy generally does not drive
+revaluations, which can be volatile, fluctuating with domestic and global
+markets’ and ‘outside of the government’s control’.15 However, as the PBO
+emphasised, ‘some government policy decisions can directly lead to
+revaluations of assets on the balance sheet’, and transparency around such
+revaluations is ‘important’, to understand the costs and benefits of programs
+10 PBO Report 1/2020, p. 8, p. 28.
+11 PBO Report 1/2020, p. 9. Fiscal balance is equivalent to the change in net financial worth due to
+transactions (measures the gap between government revenue and expenses, adjusted for
+government investment in non-financial assets); underlying cash balance is a concept to help
+manage fiscal policy, defined broadly in line with the change in net financial worth due to
+transactions; net operating balance is equivalent to the change in net worth due to transactions
+(equal to the government’s revenue minus its expenses); and headline cash balance is equivalent
+to the change in the amount of cash held by the government, p. 10, p. 26, p. 30.
+12 There are other types of ‘Other economic flows’ than revaluations, but this discussion focuses on
+revaluations.
+13 PBO Report 1/2020, p. 9. While the headline cash balance captures the full amount invested,
+revaluations (once a purchase is made) do not affect the level of cash held by the government
+until an asset is sold and so do not affect the headline cash balance, p. 9.
+14 PBO Report 1/2020, p. 6.
+15 PBO Report 1/2020, p. 9.
+ALTERNATIVE FINANCING MECHANISMS 11
+funded through alternative financing mechanisms and to inform the design
+of potential future programs.16
+2.8 In summary, the PBO therefore pointed to issues with current reporting
+practices in terms of the use of alternative financing mechanisms. While such
+mechanisms can have significant impacts on the fiscal position, ‘very limited
+information’ is provided in the budget documents about revaluation-related
+costs, making it ‘difficult to understand the balance sheet impact of policies
+using alternative financing arrangements when they are announced and to
+assess their performance over time’.17 In particular, ‘detailed disaggregated
+information’ on the costs of revaluations/‘Other economic flows’ is ‘not
+available in the budget documents’.18 As the Parliamentary Budget Officer
+observed, unlike direct financing, alternative financing often has ‘little or no
+impact on the most commonly quoted budget aggregates, particularly the
+underlying cash balance’, and while ‘financing activities in this way is not
+off-budget financing’ as the impact of such policies ‘will be reflected in the
+balance sheet’, this is ‘only as part of large totals, so the amounts can be
+obscured’.19 Distinctions are made between transactions and revaluations,
+and ‘the issue is that all the revaluations get bundled together in one very
+big line’.20 The underlying cash balance is the ‘metric by which the
+government’s fiscal position is frequently assessed in public commentary’.21
+However, the underlying cash balance ‘should not be relied upon as the sole
+indicator of the fiscal position’, with the use of alternative financing
+mechanisms reinforcing the importance of ‘reviewing a range of budget
+indicators in order to form an assessment of the overall fiscal position’.22 As
+the Parliamentary Budget Officer noted, ‘there is, in fact, a lot of information
+in the budget papers, but … without information on the full financial impact
+16 PBO Report 1/2020, p. 12. For example, with equity injections into a project within an entity, before
+a project is fully operational the best information on its potential sale price is the fair value of the
+project in the audited financial statements—any revisions to fair value over time are classified as
+revaluations and affect the government’s fiscal position.
+17 PBO Report 1/2020, p. 1.
+18 PBO Report 1/2020, p. 6.
+19 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 1.
+20 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 7.
+21 PBO Report 1/2020, p. 1.
+22 PBO Report 1/2020, p. 1.
+12 REPORT 490 ALTERNATIVE FINANCING MECHANISMS
+of policies, particularly the impact on the government balance sheet, the
+reporting in the budget is simultaneously also too narrow’.23
+2.9 The PBO further emphasised that, while under current reporting practice
+some information on alternative financing mechanisms is available across
+different documents, it is ‘often hard to find, sometimes has different
+accounting requirements, and is not comprehensive’, and ‘multiple
+documents’ are required to ‘get a picture of the history and budget impact of
+a particular arrangement’.24 As the Parliamentary Budget Officer stated:
+At the moment, someone who is trying to get their head around that … would
+have to … piece together things from the relevant portfolio’s annual report,
+the portfolio budget statement and the budget papers themselves. Often in the
+case of a government business entity you also have to piece it together from
+the corporate plan or the other forward looking documents of that entity itself.
+That, to be honest, makes it pretty hard. It’s not that the information doesn’t
+exist; it’s that the information is not put together in a way that helps people
+trying to understand these things.25
+2.10 The PBO noted that this ‘lack of transparency’ in reporting on alternative
+financing mechanisms presents a risk that decision making on the most
+appropriate funding arrangement for a given policy could be ‘influenced by
+its budget treatment and presentation’, and also makes it ‘more difficult for
+some significant elements of government spending to be scrutinised and
+effectively evaluated’:
+In order to make informed decisions, parliamentarians need to have accurate
+and accessible information on the costs of both existing and potential policies
+… … …
+If the use of alternative financing arrangements continues to grow without a
+change to reporting practices, a larger share of government spending would
+be difficult to scrutinise, which could pose risks to the Commonwealth
+Government’s fiscal position over the longer term.26
+2.11 As the Parliamentary Budget Officer concluded, ‘while straightforward
+decisions may not need complicated information to explain them, complex
+arrangements such as those that involve equity, loans or guarantees need
+23 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 1.
+24 PBO Report 1/2020, p. 6.
+25 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 2.
+26 PBO Report 1/2020, p. 6, p. 8, p. 22.
+ALTERNATIVE FINANCING MECHANISMS 13
+other information to make them readily understandable’, and that
+information needs to be ‘more accessible’.27
+Current reporting practices for alternative financing mechanisms
+2.12 The PBO and the Department of Finance (Finance) provided the Committee
+with information on current Australian Government reporting practices for
+equity injections, loans and guarantees, including where to locate such
+information.28
+Equity injections
+2.13 For government expenditure to be classified as equity, it is necessary that the
+investment be expected to be recovered in real terms, by generating a return
+at least equal to the projected long-term inflation rate. If this criterion is not
+met, the expenditure would be classified as a grant.29 Equity injections are
+disclosed in the Annual Report financial statements of the portfolio entity
+that has policy responsibility. Government equity injections are also
+reported in Budget Paper No. 1 and the Mid-Year Economic and Fiscal
+Outlook (MYEFO).30 However, ‘when financial information is consolidated
+at the whole of government level, related equity transactions are netted out
+(eliminated), in the same way as other types of transactions between entities
+within government’31—as the Finance website noted, ‘since the government
+has many millions of transactions each year, the financial statements provide
+a high-level summary of those financial transactions to present a concise
+overall picture of government finances. As a consequence, equity
+investments are not separately itemised’.32 Finance provides Public
+27 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 1.
+28 See PBO Report 1/2020 and Finance, Submission 2. See also Finance, RMG 308, Commonwealth
+Investments, and supporting ‘Toolkit’, which provides information on ‘Accounting and budget
+classification and reporting’ for equity injections, loans or guarantees. (As discussed later,
+Finance also provided details of the current locations of reporting information on equity
+injections to NBN Co and ARTC, and on loans for HELP.)
+29 Finance, Submission 2, p. 5.
+30 Finance, Submission 2, p. 6.
+31 Finance, Submission 2, p. 5. The Annual Report of a Commonwealth department administering a
+policy has additional information on policy outcomes (for example, the fair value of equity
+injections and the level of debt not expected to be repaid for large loan programs); and
+Corporate Commonwealth entity Annual Reports include information on the amount of equity
+that has been injected into the corporation, as well as other information on assets and losses,
+PBO Report 1/2020, p. 31.
+32 Finance, ‘Frequently asked questions: equity investments’, 18 March 2021, Finance website.
+14 REPORT 490 ALTERNATIVE FINANCING MECHANISMS
+Governance, Performance and Accountability Act 2013 (PGPA Act) Resource
+Management Guidance to Commonwealth entities on accounting for the
+impact of government expenditure through equity injections on key budget
+aggregates.33
+Loans
+2.14 For government expenditure to be classified as a loan there must be a
+contract requiring repayment and an expectation that payment consistent
+with the contractual terms will be received—a loan is concessional where the
+government provides more favourable loan terms than the borrower could
+obtain in the marketplace (typically, interest at less than the market rate). If
+there is no reasonable expectation a loan will be repaid, it is accounted for as
+if it were a grant.34 Loan programs are disclosed in the Annual Report
+financial statements of the portfolio entity that has policy responsibility, and
+information on major loan programs is also included in Budget Paper No. 1
+and MYEFO.35 However, the Finance website noted that, ‘as the
+government’s financial statements provide a high-level summary of
+financial transactions, to present a concise overall picture of government
+finances, concessional loan programs are not separately itemised’.36 Finance
+provides PGPA Resource Management Guidance to Commonwealth entities
+on accounting for the impact of government expenditure through loans on
+key budget aggregates, and also on accounting for concessional loans.37
+Guarantees
+2.15 The Australian Government issues both contractual and non-contractual
+guarantees. Guarantees are recognised as liabilities if they are reliably
+measurable and it is probable a payment will be made. Contractual and non-
+contractual guarantees recognised as liabilities have an impact on the fiscal
+balance, operating result, and net and gross debt, as well as the underlying
+cash balance, if paid.38 Guarantees that are not reliably measurable or
+33 Finance, RMG 117, General Principles for Recognition of Expenditure in Budget Aggregates. See also
+‘Frequently asked questions: equity investments’, 18 March 2021, Finance website.
+34 Finance, Submission 2, p. 5.
+35 Finance, Submission 2, p. 5.
+36 Finance, ‘Frequently asked questions: concessional loans’, 18 March 2021, Finance website.
+37 Finance, RMG 117, General Principles for Recognition of Expenditure in Budget Aggregates, and RMG
+115, Accounting for Concessional Loans. See also ‘Frequently asked questions: concessional loans’,
+18 March 2021, Finance website.
+38 Finance, Submission 2, p. 5.
+ALTERNATIVE FINANCING MECHANISMS 15
+probable to result in a payment are classified as contingent liabilities and
+disclosed in the relevant Commonwealth entity’s Annual Report financial
+statements. Contingent liabilities with a value of over $20 million in any one
+year or $50 million over the forward estimates are reported in the Budget
+Paper No. 1. Finance provides PGPA Resource Management Guidance to
+Commonwealth entities on accounting for guarantees.39
+Proposed improvements to reporting on alternative
+financing mechanisms
+2.16 PBO Report 1/2020, Alternative Financing of Government Policies:
+Understanding the Fiscal Costs and Risks of Loans, Equity Injections and
+Guarantees, provided a central reference point to the Committee in its inquiry
+terms of reference. In the report, the PBO emphasised that, over time, the
+level of transparency provided in the Budget Papers has ‘evolved and
+improved’.40 Against this background, the PBO made suggestions to further
+increase transparency in reporting on the use of alternative financing
+mechanisms in government expenditure. The PBO identified areas where
+‘specific elements of budget reporting … could be enhanced in order to
+support a better understanding of alternative financing arrangements by
+parliamentarians and the general public’.41 The benefit of greater
+transparency on this matter is the ‘potential for better decision making, and
+an improved ability for Parliament and civil society to scrutinise decisions
+already made’.42
+2.17 The PBO proposed possible enhancements to budget reporting on
+alternative financing mechanisms in government expenditure across the
+following three areas: expected financial impacts of new policies; expected
+financial impacts of ongoing programs; and existing and historical policy
+outcomes—see Table 2.1 for a summary of these proposals. An overview of
+the PBO’s proposed improvements is provided in Appendix C.
+39 Finance, RMG 414, Indemnities, Guarantees and Warranties by the Commonwealth.
+40 PBO Report 1/2020, p. 2.
+41 PBO Report 1/2020, p. 17. The PBO noted that Report 1/2020 was completed as ‘part of the PBO’s
+self-initiated publication program’, and ‘the intention to do this work was set out in our 2018-19
+corporate plan’, Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard,
+19 August 2021, p. 1.
+42 PBO, Submission 3, p. 6.
+16 REPORT 490 ALTERNATIVE FINANCING MECHANISMS
+Table 2.1 Summary of PBO possible enhancements to budget reporting
+Measure descriptions could include:
+The expected
+financial impacts
+ for loans, the total expected size of the loan program;
+of new policies
+an estimate of the amount of debt that is not expected
+to be repaid; and detail on the terms of the loan
+ for equity injections, the full value of the equity
+injection; the expected rate of return at inception; the
+key assumptions underpinning the expected return
+on the equity injection; and the expected impact on
+fiscal aggregates, such as net financial worth
+ for all policies using alternative financing, the public
+debt interest associated with the measure.
+When revaluations are expected or ‘known’, budget
+The expected
+documents could include:
+financial impacts
+of ongoing
+ a detailed breakdown of forecast revaluations
+programs
+ the forecast effect of revaluations on net financial
+worth by policy area
+ forecast revaluations at a program level, where the
+expected revaluation is greater than $200 million over
+the forward estimates period.
+To improve the transparency of the risks associated
+with government guarantees, the Statement of Risks
+could include a table showing the total potential
+exposure and expected value of exposure associated
+with each quantifiable government guarantee.
+The Final Budget Outcome could include:
+The outcomes of
+existing and
+ revaluations, separated into those for newly acquired
+historical policy
+financial assets and for existing financial assets
+ discussion of the drivers of revaluations, such as
+changes in market prices, exchange rates, and
+actuarial revaluations
+ a summary of all Commonwealth Government
+financial assets that have had cumulative equity
+injections of greater than $200 million. This should
+ALTERNATIVE FINANCING MECHANISMS 17
+show the cumulative equity injected and the most
+recent fair value estimate of the entity.43
+Source: PBO Report 1/2020, p. 23.
+2.18 Finance provided details of the locations, across multiple documents, of
+current reporting information relevant to the PBO proposals—see Box 2.1.
+Box 2.1 Finance information regarding PBO proposals44
+Expected financial impacts of new policies
+Measures are reported in Budget Paper No. 2 … and in the MYEFO … The
+measure descriptions disclose the full amount of proposed loan or equity
+funding and refer to relevant Ministerial press releases for further details
+(unless commercial-in-confidence). Where loans are concessional, the value of
+the concession … is included in the fiscal balance and Australian Accounting
+Standards (AAS) operating result impact … Any initial difference between
+equity funding amounts initially invested and the fair value of purchased
+equity is reflected in the fiscal balance impact45 … Further information can also
+be obtained from the relevant entity’s budget documentation, such as the
+Portfolio Budget Statement (PBS). Information on expected project returns is
+available in the annual corporate plans of Government Business Enterprises
+(GBEs). Costing conventions are that public debt interest is not allocated to
+specific measures … Details of borrowers, amounts loaned and interest rates
+on loans or loan programs with an outstanding balance of over $200 million
+are shown in the Budget Statement of Risks (Budget Paper No. 1).
+Expected financial impacts of ongoing programs
+In some circumstances, individual forecasts of revaluations of loans, equity
+and guarantees would be impracticable as these are influenced by a variety of
+factors, including valuation method and external market conditions, which are
+difficult to estimate. The Consolidated Financial Statements (CFS) provide
+details of actual revaluations for both the General Government Sector (GGS)
+and Australian Government … Further details are provided in entity financial
+statements … Guarantees that arise from contractual obligations are
+recognised as financial liabilities and expenses under Australian Accounting
+Standards Board (AASB) 9 and have a fiscal balance and AAS operating result
+43 Fair value is the price that would be received from the sale of an asset or the price paid to transfer a
+liability in an orderly transaction between market participants, PBO Report 1/2020, p. 28.
+44 Finance, Submission 2, p. 9, p. 10.
+45 Equity investments are carried at fair value under AASB 9.
+18 REPORT 490 ALTERNATIVE FINANCING MECHANISMS
+impact; non-contractual guarantees which are probable and quantifiable are
+recognised as provisions at their expected value under AASB 137 … and have
+a fiscal balance and AAS operating result impact; and … non-contractual
+guarantees [which] are either not probable or are unquantifiable are disclosed
+as contingent liabilities under AASB 137 in entity financial statements and in
+the CFS. Material contingencies are disclosed in Budget Paper No. 1.
+Existing and historical policy outcome assessments
+The CFS provides details of actual revaluations for both the GGS and
+Australian Government. Explanation of significant balances and movements
+from the prior year are included in these notes as necessary. Note 9B Financial
+Instruments in the 2019-20 CFS also provides an analysis of the sensitivity of
+financial assets to revaluations due to movements in market parameters. AAS
+and the Australian Government’s accounting policies generally require newly
+acquired assets to be recognised at fair value, so these are not revalued. Under
+GFS, equity and loan revaluations are treated as Other Economic Flows and
+identified in the GGS sector operating statement (Budget Paper No. 1) where
+material: downward revaluations of loans are included in the AAS operating
+result, but not the fiscal balance; and revaluations of equity investments, apart
+from administered investments, are also included in the AAS operating result.
+Details of individual valuations of material loans and equity are included in
+the relevant entity Annual Report in the financial statements. Cumulative
+equity injections are shown in the Statement of Changes of Equity in GBE
+financial statements (Finance, Submission 2, pp. 9-11).
+2.19 The PBO provided further information on the National Broadband Network
+(NBN) and the Higher Education Loan Program (HELP) with reference to its
+proposals for improved budget reporting on the expected financial impacts
+of ongoing programs (expected revaluation amounts), and Finance provided
+information on details of the locations, across multiple documents, of
+current reporting information relevant to these programs—see Box 2.2 on
+the NBN and Box 2.3 on HELP.
+Box 2.2 NBN
+The PBO pointed to the example of the NBN in terms of improving reporting
+on expected revaluation amounts. The PBO noted that the fair value of
+NBN Co has been ‘consistently below the cumulative amount of equity
+injected into the company’. The total equity invested in NBN Co is $29.5b and
+the most recent fair value estimate of NBN Co, as at 30 June 2019, was $8.7b.
+The $20.8b difference between the amount paid and the current fair value is a
+revaluation—with the PBO noting that this deterioration in the balance sheet
+as at 30 June 2019 is ‘not captured in the fiscal or underlying cash balances,
+ALTERNATIVE FINANCING MECHANISMS 19
+though it is captured in net financial worth’. The main budget documents
+show ‘only the aggregated effect of all revaluations across the general
+government sector, rather than revaluations at an individual company or
+project level’, with the PBO having to compile this information from
+successive annual reports for the Department of Communications and the
+Arts, and NBN Co (PBO Report 2020/21, pp. 14-15).
+Current locations of reporting information on the NBN: ‘Funding for the NBN
+was announced as a capital measure in the 2011-12 Budget—see Budget Paper
+No. 2. NBN’s valuation is reported annually in the financial statements
+contained within the Department of Infrastructure, Transport, Regional
+Development and Communications (DITRDC) Annual Report. Loan funding
+provided for NBN to complete the rollout was announced in the 2016-17
+MYFEO. The extension of the loan was announced in the 2018-19 MYEFO. The
+loan balance is also published in the DITRDC annual financial statements (see
+DITRDC Annual Report) and information on the interest rate and term is
+outlined in the Budget Statement of Risks (Budget Paper No. 1). The 2019-20
+DITRDC annual financial statements: show that at 30 June 2019, NBN was
+valued at $8.7 billion (DITRDC annual report), based on its net assets, against
+$29.5 billion in equity invested (NBN Annual Report)—revaluations are
+shown in aggregate in the Budget papers; show that the most recent NBN
+valuation of $13.8 billion was made on the basis of expected future cash flows
+(discounted cash flows); and provide a detailed explanation of the valuation
+method used to arrive at fair value. The estimated 2020-21 investment in NBN
+is shown in the DITRDC PBS’ (Finance, Submission 2, p. 12).
+Box 2.3 HELP
+The PBO also pointed to the example of HELP in terms of improving reporting
+on expected revaluation amounts. Under HELP, repayments are linked to each
+borrower’s income and only need to be repaid when the borrower earns above
+certain thresholds. The future earnings of borrowers differ, and some do not
+earn a sufficient income for a long enough time that the debt is repaid. A result
+of this policy feature is that ‘a substantial proportion of the new debt (around
+16 per cent of new debt in 2018-19) is not expected to be repaid’. The debt not
+expected to be repaid is typically classified as a revaluation rather than a
+transaction in the budget documents. The full expected cost associated with
+issuing the loans is included in the budget forecast of net financial worth, but
+it is ‘not included in the budget forecasts of the fiscal or underlying cash
+balances’. The revaluation component of the cost to the Australian
+Government of the HELP loans not expected to be repaid for 2018-19 was
+expected to be around $1.2b. While this amount is incorporated into the fair
+value estimate of the HELP loan portfolio that is included in the budget
+20 REPORT 490 ALTERNATIVE FINANCING MECHANISMS
+documents’ forecast balance sheet, it is aggregated with other expected
+revaluations and is ‘not readily identifiable as a cost of HELP’ in current
+budget reporting. The PBO emphasised that ‘understanding the likely costs
+from revaluations of loan programs … would assist parliamentarians in
+weighing the benefits of the policy against the expected costs’ (PBO Report
+1/2020, p. 15).
+Current locations of reporting information on HELP: ‘the HELP accounting
+policy changed in the 2020-21 Budget and now includes the initial recognition
+of expected defaults on HELP loans in the fiscal balance. This has brought the
+accounting treatment for HELP loans in line with other Government
+concessional loans and improved Budget transparency. The estimated value of
+HELP loans is shown under the Advances paid line item in the Budget balance
+sheet (Budget Paper No. 1). The net cash outlay each year on HELP and other
+student loans, changes in the fair value of existing loans and indexation are
+also shown in the Budget as well as in the Department of Education, Skills and
+Employment’s (DESE) PBS. The fair value of HELP loans, key valuation
+assumptions made, fair value adjustments and interest revenue are disclosed
+in detail in the DESE 2019-20 Annual Report along with an analysis of HELP
+default rates compared to budget’ (Finance, Submission 2, p. 13).
+Additional proposed improvements
+2.20 The PBO outlined three areas where ‘additional, disaggregated information’
+on the use of alternative financing mechanisms in government expenditure
+could be published, to ‘assist Parliament in scrutinising policy’:
+ forecast dividend and interest income, each of which are included only at
+the aggregate level in the Budget financial statements;
+ forecasts for the balance sheet item, Investment, Loans and Placements, the
+largest asset reported, which currently has almost no further breakdown in
+the Budget, but which includes much of the value of the Future Fund and
+other government funds; and
+ forecasts for the balance sheet item, Investments in Other Public Sector
+Entities, for which there is no further detail in the Budget but includes the
+Reserve Bank of Australia, the NBN and the Australian Rail Track
+Corporation.46
+46 PBO, Submission 3, p. 6.
+ALTERNATIVE FINANCING MECHANISMS 21
+ARTC—inland rail project
+2.21 In its proposal concerning enhanced budget reporting on the expected
+financial impacts of new policies involving alternative financing
+mechanisms, the PBO saw merit in the measure description in Budget Paper
+No. 2 including the associated public debt interest—see Table 2.1. The PBO
+pointed to the inland rail project, managed by Australian Rail Track
+Corporation (ARTC) through an Australian Government equity injection, as
+an example of the application of the accounting standards in this matter,
+where the assessment of the ‘threshold test’47 is made at the level of the
+entity rather than the project. ARTC as an entity is expected to deliver a
+positive real rate of return, in aggregate, in respect of its assets. However,
+the PBO noted that ‘it is not clear … whether the inland rail project itself
+would be expected to meet the government’s stated criteria for an equity
+investment’.48 The business case for the project noted that inland rail would
+‘not generate enough revenue to provide a return on its full construction
+cost’, with this information suggesting that, ‘as a consequence of the policy
+decision to provide an equity injection into ARTC to build inland rail, the
+value of the Corporation may be revalued downward at some point in the
+future’.49 Such a revaluation would ‘deteriorate’ the government’s fiscal
+position ‘but was not mentioned in the measure description for the inland
+rail project at the time of the decision and under current budget reporting
+practice would not be reported in a disaggregated form in the event that it
+occurred’.50
+2.22 The PBO was asked, with reference to the inland rail project, whether it
+might be appropriate for financial reporting to occur at the project level
+rather than solely at the entity level. The PBO noted that the ARTC is subject
+47 When the government invests in a business, the investment must pass a ‘threshold test’, a real rate
+of return greater than zero and a reasonable expectation that the investment will be recovered, to
+be treated as an investment asset on the balance sheet rather than a grant. The investment, if it is
+deemed to qualify as an equity injection, is assumed to maintain its value over the forward
+estimates period. However, this presents ‘a risk of future revaluations, potentially up to the full
+value of the equity injection’, PBO Report 1/2020, p. 18.
+48 PBO Report 1/2020, p. 18.
+49 PBO Report 1/2020, p. 18. In response to this point, Finance stated that ‘Inland Rail is integral to
+ARTC and is not an unrelated social program’, with the government expecting ‘to earn a real
+rate of return on its investment (i.e. above the long term inflation rate). The Government’s
+investment in ARTC to deliver Inland Rail recognises the long-term nature of its return’,
+Finance, Submission 2, p. 13.
+50 PBO Report 1/2020, p. 18.
+22 REPORT 490 ALTERNATIVE FINANCING MECHANISMS
+to the financial reporting requirements specified in the Corporations Act 2001,
+which ‘do not require an entity to include project-level financial reports,
+such as for the inland rail project’.51 While ‘many corporations do … elect to
+provide information (financial and other) beyond that required by the
+relevant Australian Accounting Standards’, the nature of the business ‘may
+mean that it is not possible to accurately separate the various projects from
+each other’.52 However, as the inland rail project has been funded through
+government equity injections, the PBO noted that ‘there is scope for
+government budget estimates reporting to provide more transparency on
+planned or forecast equity injections into particular projects, such as inland
+rail’.53 The government has announced an amount for total equity injections
+into the inland rail project, with these equity cash flows being included
+under ‘Cash flows from investments in financial assets for policy purposes’
+in Budget Paper No. 1. However, ‘this item is published in aggregate only,
+so it is not possible to determine the yearly profile of the equity funding for
+inland rail incorporated into the Budget’.54 The forecast cash flows are also
+included in the PBS for DITRDC—however, the inland rail equity financing
+component of the cash flows is ‘not separately identified’.55 The PBO
+emphasised that, if its proposed improvements to budget reporting (as set
+out in PBO Report 1/2020) had been in place for the equity provided to
+inland rail, ‘the following items would have been published in the
+subsequent budget update’:
+the full value of the equity injection, expected rate of return at inception, the
+key assumptions underpinning that expected return, and the expected impact
+on fiscal aggregates such as net financial worth.
+If the injection were then revalued, the Final Budget Outcome could include
+this in a table of revaluations, separated into those for newly acquired
+financial assets and those for existing financial assets. There would also have
+been a discussion of the drivers of revaluations, along with a summary of all
+Commonwealth Government financial assets that have had cumulative equity
+51 PBO, Submission 3, p. 2.
+52 PBO, Submission 3, p. 2. (This may happen, for example, because equipment, labour or other
+resources are shared between projects.)
+53 PBO, Submission 3, p. 6.
+54 PBO, Submission 3, p. 2.
+55 PBO, Submission 3, p. 3.
+ALTERNATIVE FINANCING MECHANISMS 23
+injections of greater than $200 million, which would show the cumulative
+equity injected and the most recent fair value estimate of the entity.56
+2.23 The Parliamentary Budget Officer provided further information about the
+threshold test, explaining that it is based on classification standards ‘driven
+out of government finance statistics requirements and Australian Bureau of
+Statistics frameworks’, which are in turn derived from international
+frameworks through the Australian Accounting Standards Board—‘it is … a
+low threshold—it is simply that you have an expectation of a positive return;
+and there is a level of interpretation around that.57 Given that the business
+case for the inland rail project noted that it ‘would not generate enough
+revenue to provide a return on its full construction cost’,58 there was also
+interest in the budget treatment of investment in such a project—whether
+this might be treated as grants rather than equity injections. The
+Parliamentary Budget Officer explained that, as the investment is into the
+entity, the ARTC, ‘the test is being applied at that level rather than at the
+individual project level in that particular case … the reason why the
+payment that is associated with the construction of inland rail is treated that
+way is because it’s actually a payment to the entity.59
+Implementation of PBO proposals
+2.24 The Parliamentary Budget Officer confirmed that Australian Accounting
+Standards (AAS) and other relevant compliance frameworks provide
+sufficient flexibility for the improvements to budget reporting proposed in
+PBO Report 1/2020:
+Accounting standards say how you treat things and how you aggregate
+things, so they give you the framework by which you are able to present your
+financial information in a way that meets a set of standards that’s consistent
+across jurisdictions … So they absolutely do not prohibit further disclosures,
+which is the kind of thing we’re talking about. They do not, for example, tell
+you what can be in a portfolio budget statements. They do not tell you what
+can be in Budget Paper No. 2, the measures document … accounting standards
+56 PBO, Submission 3, p. 3. (The yearly profile for equity injections into the inland rail project may be
+subject to commercial-in-confidence considerations, in which case ‘some of that information
+would have been entered as not for publication’, p. 3.)
+57 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 3.
+58 PBO Report 1/2020, p. 18.
+59 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 4.
+24 REPORT 490 ALTERNATIVE FINANCING MECHANISMS
+inform the numbers that go into those documents. The choices that we’re
+pointing to are choices of disclosure rather than choices of, for example,
+avoiding accounting standards or stepping around them. Accounting
+standards, and GFS as well, are not the issue. The issue is choices about
+disclosure.60
+2.25 The Parliamentary Budget Officer stated that ‘one way’ to think about the
+PBO proposals is that they are about ‘putting in place some principles and
+expectations that the parliament would look to future governments and
+future budget papers … to meet. It is setting a standard’.61 As the
+Parliamentary Budget Officer further observed: ‘something that simply
+walks you through from an opening balance to a closing balance, that shows
+you revenue, revaluations, expenses and transfers, is perfectly appropriate
+and very useful, and it ought to be possible to put it together in one place’.62
+In terms of the implementation timing of these proposed improvements to
+budget reporting, the PBO noted that it is ‘not in a position to assess the
+practicality of the timing of publication of this additional information in
+budget papers. In the event that this additional information needed to be
+provided in a supplementary document at a later date, there would still be
+considerable value in publishing it’.63
+2.26 The Parliamentary Budget Officer pointed to reporting on funds managed
+by the Future Fund as reflecting its proposed improvements to reporting:
+While you won’t necessarily see a lot of the detail in the budget papers, there
+is in fact—and there has been for quite a while—in the budget related papers
+… in the portfolio budget statement for the Department of Finance, a very
+useful series of tables that do exactly what we’re suggesting … They show
+what’s happening to those funds [managed by the Future Fund], from an
+opening balance to a closing balance. They occur in the portfolio budget
+statements. People know where to find them if they want to find them.64
+2.27 The PBO emphasised that other projects and programs, such as the equity
+and loan funding for the NBN, or the financial flows related to HELP loans,
+‘may be candidates for budget reporting in a manner analogous to that used
+for the Disability Care Australia Fund’—a table in the Finance PBS provides
+60 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 5.
+61 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 8.
+62 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 2.
+63 PBO Report 1/2020, p. 22.
+64 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 2.
+ALTERNATIVE FINANCING MECHANISMS 25
+a detailed reconciliation of planned and/or forecast financial stocks and
+flows.65 The PBO confirmed that, ‘other than for security and commercial-in-
+confidence considerations’, it ‘does not see any barrier to presenting similar
+financial information for all programs funded through alternative financing
+mechanisms’.66 For items that the Parliament considers significant, ‘program
+and project level forecasts, estimates and outcomes would ideally be
+provided on an ongoing basis, as the programs and projects evolve. This
+would be at least annual, and not only at the time of initial consideration’.67
+2.28 The PBO were asked if further detail would be required on its proposals to
+enable them to be implemented, and whether the additional information
+sought through its proposals would be readily available. The Parliamentary
+Budget Officer confirmed, on the PBO proposals regarding the expected
+financial impacts of new policies (loans):
+I would expect that people in government would have a clear idea about what
+was involved in that, and I would hope it would simply be a question of
+setting it out as a set of expectations to be followed on a consistent basis …
+while from time to time individual things might be disclosed with more detail,
+at other points in time they might be disclosed with less detail. It’s about
+making it consistent, and it’s about having an expectation that a consistent
+level of information is provided … … … my experience has been that it is
+normal for people who have worked through these things to have that sort of
+information available to them, because they need that sort of information to
+provide a sense of how the program would work and what its implications
+are.68
+2.29 The PBO further confirmed:
+ on the PBO proposals regarding the expected financial impacts of new
+policies (associated public debt interest costs):
+ this information is available and would be underlying the costings that
+cabinet would be considering, so implementing the change is
+straightforward. It’s the PBO’s standard practice when we provide costings
+to parliamentarians.69
+65 PBO, Submission 3, p. 3 (this table is reproduced in PBO, Submission 3, p. 4).
+66 PBO, Submission 3, p. 3.
+67 PBO, Submission 3, p. 7.
+68 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 6.
+69 Ms Kathryn Smith, Assistant Parliamentary Budget Officer, Fiscal Policy Analysis Division, PBO,
+Committee Hansard, 19 August 2021, p. 7.
+26 REPORT 490 ALTERNATIVE FINANCING MECHANISMS
+ on the PBO proposals regarding the expected financial impacts of
+ongoing programs (government guarantees):
+ the statement of risks is a very important document and a very valuable
+thing. This is … a fairly straightforward suggestion about bundling things
+together. The statement of risks already includes tables about loans, for
+example.70
+2.30 There was interest at the public hearing in how reporting on the impacts of
+government equity injections in projects such as inland rail might be
+improved and presented in a more user-friendly accessible form, noting the
+various ‘bits and pieces’ of information located in different reporting
+documents. Of particular interest was whether the various segments of
+ARTC might be reported on separately, with financial information
+disaggregated rather than aggregated, in order to provide visibility on how
+each major segment of the entity is performing. The Parliamentary Budget
+Officer observed that:
+In the accounting perspective, the focus is on the entity, but … from a
+parliamentary perspective and a public interest perspective there is a desire to
+get more meaningful data, and that more meaningful data involves some level
+of disaggregation … that can be provided in various people’s annual reports;
+it can be provided in a variety of different places. The key thing here, if the
+committee were of a mind to do so, would be to articulate the key types of
+entities for which that level of disaggregation might reasonably be expected by
+the parliament … … … Again, there is nothing that would prevent any of that
+occurring … it is a question of articulating the desire for it and articulating
+why these things are important in such a way that it can be actioned by the
+parliament.71
+2.31 In terms of publishing more disaggregated information on the use of
+alternative financing mechanisms in government expenditure, the PBO
+stated that, while the Budget Papers provide ‘much information at an
+aggregate level, more detail is required when considering potential
+programs and assessing existing programs’:
+The aggregate amounts presented in the Budget papers bring together the
+impacts of many different components. Given that these components exist in
+the underlying data, and that electronic publication does not limit the extent of
+possible publication, the PBO sees no impediment, other than security or
+commercial confidentiality, to publishing as much relevant, accessible
+70 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 8.
+71 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, pp. 2-3.
+ALTERNATIVE FINANCING MECHANISMS 27
+information as possible where the methods of funding government policy are
+complex.72
+2.32 The PBO also emphasised that there can be valuation method distinctions
+between when an investment is in a capital-consuming establishment phase
+versus the methods that are used when an investment begins to establish
+more certain income flows:
+Certainly NBN only recently changed—I think it was a year or two years ago; I
+can't remember exactly—to a discounted cash-flow basis, because it was a
+start-up and you really didn't have much sense about how this thing might
+work in detail over a period of time—how the cash flows would work. When
+you are choosing the valuation method, there's a strong need to have clarity
+before you use discounted cash flow, as it needs to be the preferable and more
+robust means of valuing something.73
+ANAO financial statements audits
+2.33 The Australian National Audit Office (ANAO) included information on
+alternative financing mechanisms in its most recent financial statements
+audit for Commonwealth entities.74 The ANAO noted that the Australian
+Government reports on a number of fiscal aggregates including net
+operating balance and underlying cash—‘these aggregates exclude cash or
+accounting movements that are of an investment or financing nature’, such
+as government equity injections and concessional loans.75 The ANAO stated
+that, as these investments have elements of economic and social benefit in
+addition to providing commercial returns, ‘there may be some benefits in
+segregating the commercial and non-commercial portions of the investments
+to better reflect the implications on key fiscal aggregates’.76 On this point, the
+Auditor-General further explained that:
+the question … we were raising was: if you know up-front that a particular
+investment is not going to be paid for itself in a commercial sense, then is that
+something that’s better placed above the line rather than below the line? It’s
+the same argument with respect to loans: when you know something isn’t
+72 PBO, Submission 3, p. 6.
+73 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 6.
+74 See ANAO, Submission 1, p. 1—Auditor-General Report 25 (2020-21), Audits of the Financial
+Statements of Australian Government Entities for the Period Ended 30 June 2020.
+75 Auditor-General Report 25 (2020-21), p. 24.
+76 Auditor-General Report 25 (2020-21), p. 24.
+28 REPORT 490 ALTERNATIVE FINANCING MECHANISMS
+going to be paid back, as a result of your policy position, should you expense
+that up-front rather than revaluing it away when it occurs?77
+2.34 In terms of equity injections, the majority of these investments are made in
+entities that provide a positive real return to the Commonwealth. However,
+the ANAO noted that, if the valuation of these entities deteriorates (for
+example, as a result of accumulating losses or the valuation of future cash
+flows associated with assets procured through equity injections being less
+than their purchase costs), ‘the deterioration in the position will be reflected
+in net worth but not impact on the underlying cash even if the deterioration
+was a predictable result of a non-commercial policy decision’.78 In terms of
+concessional loans, when HELP loans are issued they are recorded as an
+asset for accounting purposes at the amount the government expects to be
+repaid. The amount not expected to be repaid is classified under ‘Other
+economic flows’ (mainly revaluations), which are not included in the net
+operating balance and underlying cash. HELP loan amounts not expected to
+be repaid are therefore ‘not being reflected in the two key fiscal
+aggregates’.79 However, the Auditor-General stated: ‘I understand the
+framework’s changed to make that happen now’:
+The issue that we’ve raised related to the fact that the policy design of those
+loans, because repayment was concessional, was dependent on incomes. So
+you didn’t have to repay it until you reached a certain income level. That
+meant that there was always a relatively well-known component of the loan
+that would never be repaid … We’ve raised whether the treatment of that
+previously as being a transaction which didn’t affect the fiscal balance was
+appropriate given that it was the effect of a fiscal policy … Finance has, I think,
+recently changed that policy so that the amount of the loan which is estimated
+not to be repaid is now treated as an expense above the line, which we think is
+of better representation. So that has improved.80
+2.35 Overall, the Auditor-General explained that ‘we’ve drawn a comparison
+between the accounting framework which exists for concessional loans …
+versus the framework for equity’:
+the concessional loans framework says that the concession—that is, the non-
+commercial or the policy component of the loan—is the gap between the
+77 Mr Grant Hehir, Auditor-General, ANAO, Committee Hansard, 15 September 2021, p. 4.
+78 Auditor-General Report 25 (2020-21), p. 24
+79 Auditor-General Report 25 (2020-21), p. 24
+80 Mr Grant Hehir, Auditor-General, ANAO, Committee Hansard, 15 September 2021, p. 1.
+ALTERNATIVE FINANCING MECHANISMS 29
+interest rate charged and what the borrower would have to get in a similar
+market circumstance. The parallel we have drawn is: Is there an equivalent
+thing where the government invests equity in an entity and its investment
+policy means it’s seeking a return on that equity which is lower than what the
+market would generally achieve in order to make the equity investment occur
+… If that is the policy cost of the government undertaking that expenditure
+rather than the private sector … should we treat that similar to concessional
+loans and basically expense that when the cash is paid? … So the question is, if
+it’s an active policy decision to achieve a lower than market rate of return,
+should that be above the line rather than below the line … [Auditor-General
+Report 25 (2020-21)] indicated that it may be worthwhile thinking how that
+could occur.81
+2.36 The Auditor-General further noted, in terms of investments in projects
+within an existing entity (such as the inland rail project in ARTC), that:
+there are concepts in some corporate reporting which go to segmented
+reporting: rather than just reporting at an aggregate level for the entity, it’s
+broken up into business units, to give users a better understanding of the
+profitability of different parts of business units. There are things like that
+which could be considered in the context of where the parliament is interested
+in getting a stronger oversight of large projects within an existing entity or
+factors like that … [with] more segmented reporting at an entity level …
+parliament would get a clearer view with respect to particular investments.82
+Committee comment
+2.37 The Committee commends the PBO on its work in conducting and
+publishing research that improves public understanding of the budget and
+fiscal policy settings.
+2.38 Given the increasing use of alternative financing mechanisms in government
+expenditure and the issues identified by the PBO regarding current budget
+reporting on these matters, the Committee believes it is timely to improve
+Commonwealth reporting in this regard. The Committee supports
+implementation of all the PBO proposals in PBO Report 1/2020, Alternative
+Financing of Government Policies: Understanding the Fiscal Costs and Risks of
+Loans, Equity Injections and Guarantees, as well as the PBO’s proposals for
+‘Additional disaggregated information’, as discussed in this JCPAA report.
+In Report 1/2020, the PBO emphasised that, over time, the level of
+81 Mr Grant Hehir, Auditor-General, ANAO, Committee Hansard, 15 September 2021, p. 2.
+82 Mr Grant Hehir, Auditor-General, ANAO, Committee Hansard, 15 September 2021, p. 3.
+30 REPORT 490 ALTERNATIVE FINANCING MECHANISMS
+transparency provided in the Budget Papers has ‘evolved and improved’.83
+The Committee makes its recommendations against this background of
+continuous improvement.
+2.39 Implementation of the PBO proposals will provide greater transparency
+around alternative financing arrangements, allow for greater parliamentary
+and public scrutiny, and thereby increase accountability to the Parliament
+and the Australian public. The Committee emphasises that the additional
+information provided should be easily accessible, generally available in the
+one document and published on an ongoing, consistent basis. Through its
+recommendations on this matter, the Committee therefore seeks to establish
+a range of principles and expectations that the Parliament would look to
+future governments and future Budget Papers to meet—as the
+Parliamentary Budget Officer stated, it is establishing ‘a standard’ and ‘a set
+of expectations’—‘something that simply walks you through from an
+opening balance to a closing balance, that shows you revenue, revaluations,
+expenses and transfers, is perfectly appropriate and very useful, and it ought
+to be possible to put it together in one place’.84
+2.40 In terms of implementation of the proposals in PBO Report 1/2020, the
+Committee notes the Parliamentary Budget Officer’s confirmation that
+Australian Accounting Standards and other relevant compliance
+frameworks provide sufficient flexibility for these improvements to budget
+reporting.85 The Committee also notes the advice of the Parliamentary
+Budget Officer on the straightforward implementation of many of these
+proposals.86 In terms of publishing additional disaggregated information,
+the PBO similarly advised that the aggregate amounts presented in the
+Budget Papers bring together the impacts of many different components—
+‘given that these components exist in the underlying data, and that
+electronic publication does not limit the extent of possible publication’, the
+PBO sees ‘no impediment, other than security or commercial confidentiality,
+to publishing as much relevant, accessible information as possible where the
+methods of funding government policy are complex’.87 The Parliamentary
+83 PBO Report 1/2020, p. 2.
+84 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 2, p. 6,
+p. 8.
+85 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 5.
+86 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 6.
+87 PBO, Submission 3, p. 6.
+ALTERNATIVE FINANCING MECHANISMS 31
+Budget Officer also pointed to reporting on funds managed by the Future
+Fund as reflecting its proposed improvements to reporting—in particular, in
+a series of tables in the Finance PBS.88 The PBO advised that similar financial
+information for all programs funded through alternative financing
+mechanisms could be presented ‘in a manner analogous to that used for the
+Disability Care Australia Fund’, with a table in the Finance providing a
+detailed reconciliation of planned and/or forecast financial stocks and
+flows.89
+Recommendation 1
+2.41 The Committee recommends that the Minister for Finance:
+ consider changes to improve transparency for equity investments,
+consistent with the proposed improvements to budget reporting as
+summarised in Table 4 of Parliamentary Budget Office, Report 1/2020,
+Alternative Financing of Government Policies: Understanding the Fiscal
+Costs and Risks of Loans, Equity Injections and Guarantees, and the
+‘Additional proposed improvements’ to reporting set out in paragraph
+2.20 of the Committee’s report
+ report back on:
+− each of these proposed changes, including how transparency
+could be improved in relation to equity investments subject to
+differing valuation methods (i.e. those in an establishment phase
+and those that have emerging cash flows)
+− how the additional information provided would meet the
+principles of accessibility, availability in the one document and
+publication on an ongoing, consistent basis, as programs and
+projects evolve (on an annual basis and not only at the time of
+initial consideration)
+− any impediments to implementation, and how any new reporting
+arrangements could be matured over time.
+88 Dr Stein Helgeby, Parliamentary Budget Officer, PBO, Committee Hansard, 19 August 2021, p. 2.
+89 PBO, Submission 3, p. 3.
+32 REPORT 490 ALTERNATIVE FINANCING MECHANISMS
+Recommendation 2
+2.42 The Committee recommends that the Minister for Finance report back on
+the Finance Portfolio Budget Statement (PBS) reporting of funds managed
+by the Future Fund. This should include:
+ Finance PBS reporting on the Disability Care Australia Fund
+ how a similar series of tables could be implemented for the
+Parliamentary Budget Office proposals in Report 1/2020 and the
+‘Additional proposed improvements’ to reporting set out in the
+relevant section of the Committee’s report, including disaggregation
+from major projects, loans or equity investments
+ how these tables would provide a detailed reconciliation of planned
+and/or forecast financial stocks and flows for other projects and
+programs, such as the equity and loan funding for the NBN and the
+financial flows related to HELP loans.
+The Committee requests that the proposed changes and advice be
+provided to the JCPAA to facilitate consultation with the PBO, the ANAO
+and other relevant stakeholders.
+Lucy Wicks MP
+Chair
+25 March 2022
+A. Submissions
+1 Australian National Audit Office
+2 Department of Finance
+3 Parliamentary Budget Office
+33
+
+B. Public hearings
+Thursday, 19 August 2021 - Canberra
+Parliamentary Budget Office
+ Stein Helgeby, Parliamentary Budget Officer
+ Colin Brown, First Assistant Parliamentary Budget Officer
+ John Clark, Acting First Assistant Parliamentary Budget Officer
+ Kathryn Smith, Assistant Parliamentary Budget Officer
+Wednesday, 15 September 2021 - Canberra
+Australian National Audit Office
+ Mr Grant Hehir, Auditor-General for Australia
+ Ms Jane Meade, Group Executive Director
+ Mr Bola Oyetunji, A/g Group Executive Director
+35
+
+C. Overview of PBO Proposals
+The Parliamentary Budget Office (PBO) proposed possible improvements to
+Commonwealth reporting regarding the use of alternative financing mechanisms
+in government expenditure, as set out below.
+Expected financial impacts of new policies
+PBO Report 1/2020 identified budget reporting on the expected financial impacts of
+new policies involving alternative financing mechanisms as an area that could be
+improved. At every budget, new policies committed to by the government are
+presented in Budget Paper No. 2: Budget Measures. The PBO noted that, when
+alternative financing mechanisms are used to fund a new policy, the measure
+descriptions ‘do not provide full information’ on how the policy is likely to affect
+the government’s net financial worth.1 This matter is further discussed below.
+Loans
+The PBO noted that, for government loans for new policies involving alternative
+financing mechanisms, a more comprehensive measure description in Budget
+Paper No. 2 would include the total expected size of the loan program; the upfront
+estimate of the amount of debt not expected to be repaid (based on the design of
+the program and historical experience); and detail on the loan terms (interest rate,
+concessions, duration, repayment timing).2 By way of background on this matter,
+when the government plans a new loan program (or changes to an existing loan
+program), the two significant balance sheet impacts are the total size of the loan
+program (which feeds into the government’s interest payments) and the estimate
+1 PBO Report 1/2020, Alternative Financing of Government Policies: Understanding the Fiscal Costs and
+Risks of Loans, Equity Injections and Guarantees, p. 17.
+2 PBO Report 1/2020, p. 18, p. 23.
+37
+38 REPORT 490 ALTERNATIVE FINANCING MECHANISMS
+of debt not expected to be repaid. As the estimate of debt not expected to be repaid
+(which depends on the design of a program and may be revised over time) is
+classified as a revaluation rather than a transaction, the expected non-repayment is
+not included in the fiscal balance impact shown in the measure description.
+Equity injections—risk of revaluations
+The PBO noted that, for government equity injections for new policies involving
+alternative financing mechanisms, a more comprehensive measure description in
+Budget Paper No. 2 would include the full value of the equity injection; the
+expected rate of return at inception; the key assumptions underpinning the
+expected return on the equity injection; and the expected impact on fiscal
+aggregates, such as net financial worth.3 By way of background on this matter,
+when the government invests in a business, the investment must pass a ‘threshold
+test’ (a real rate of return greater than zero and a reasonable expectation that the
+investment will be recovered) to be treated as an investment asset on the balance
+sheet rather than a grant. The investment, if it is deemed to qualify as an equity
+injection, is assumed to maintain its value over the forward estimates period.
+However, the PBO stated that this presents ‘a risk of future revaluations,
+potentially up to the full value of the equity injection’.4
+All alternative financing mechanisms—associated public debt interest costs
+The PBO noted that, for all new policies involving alternative financing
+mechanisms, a more comprehensive measure description in Budget Paper No. 2
+would include the associated public debt interest.5 By way of background on this
+matter, when the government borrows money to implement a policy, it issues debt
+liabilities and becomes liable for repayments of both the principal and interest. The
+quantity of debt liabilities that the government has to issue is determined by the
+total amount of spending and revenue raised across all programs, and is generally
+determined at a whole-of-government level. Under current reporting conventions
+in Budget Paper No. 2, the interest costs on the debt liabilities are not attributed to
+3 PBO Report 1/2020, p. 23.
+4 PBO Report 1/2020, p. 18.
+5 PBO Report 1/2020, p. 23. The PBO stated that ‘this was a budget convention in the past, although it
+was not applied consistently and has not been applied in recent years’, and that it is ‘standard
+practice for the PBO to include this information in its costings when financial assets are
+purchased or sold’, p. 20.
+OVERVIEW OF PBO PROPOSALS 39
+any individual policy measure.6 The fiscal balance impact as it appears in the
+budget measure description does not therefore include the associated interest
+costs. The PBO stated that this means the reported fiscal impact can ‘materially
+understate the expected cost or overstate the expected net revenue’.7
+Expected financial impacts of ongoing programs
+PBO Report 1/2020 identified budget reporting on the expected financial impacts of
+ongoing programs involving alternative financing mechanisms as an area that
+could be improved. In addition to announcing new policies, budgets provide
+updated estimates of the ongoing impact on the underlying cash balance for
+existing policy areas. The PBO noted that, in policy areas where there is a
+significant use of alternative financing mechanisms, the presentation in Budget
+Paper No. 1: Budget Strategy and Outlook of only the underlying cash balance
+impact ‘leaves two significant gaps’ in terms of expected revaluation amounts and
+the potential cost of government guarantees.8 These matters are further discussed
+below.
+Expected revaluation amounts
+The PBO noted that, when revaluations are expected or ‘known’ for ongoing
+programs involving alternative financing mechanisms, consideration should be
+given to Budget Paper No. 1 including a detailed breakdown of forecast
+revaluations; the forecast effect of revaluations on net financial worth by policy
+area; and forecast revaluations at a program level, where the expected revaluation
+is greater than $200 million over the forward estimates period.9 By way of
+background on this matter, Budget Paper No. 1 (Statement 5 in the 2019-20 Budget)
+presents the cost of current policy as the impact on the fiscal balance. It also
+provides forecasts of government expenses by function (eg ‘Social security’) and
+sub-function (eg ‘Assistance to the aged’). The information presented on spending
+by policy area in Statement 5 ‘may not capture the full expected impact on net
+6 However, when governments use their balance sheet to invest in a project or issue loans under a
+program, the interest the government pays (or forgoes) to secure the funding can be the largest
+cost associated with the policy (this can offset the flow of interest or dividend payments that the
+government expects to receive from the recipient of the loan or equity injection), PBO Report
+1/2020, p. 19.
+7 PBO Report 1/2020, p. 19.
+8 PBO Report 1/2020, p. 20.
+9 PBO Report 1/2020, p. 23. The PBO noted that, ‘in many cases, revaluations are unknown and are
+not forecast, but there are cases such as some loan programs where revaluations can be
+estimated’, p. 21.
+40 REPORT 490 ALTERNATIVE FINANCING MECHANISMS
+financial worth when policies using alternative financing mechanisms are
+employed, since on some occasions there are expected costs that come in the form
+of revaluations’, making it ‘difficult to understand how the costs of some policy
+areas are likely to change over the forecast period’.10
+Potential cost of government guarantees
+The PBO noted that, to improve the transparency of risks associated with
+government guarantees for ongoing programs involving alternative financing
+mechanisms, consideration should be given to the Statement of Risks in Budget
+Paper No. 1 including a table on guarantees, indicating both the total potential
+exposure and the expected value of the exposure associated with each quantifiable
+government guarantee.11 By way of background on this matter, the Statement of
+Risks (Budget Paper No. 1, Statement 8) provides information on guarantees that
+the government currently offers, with some of these guarantees relating to
+alternative funding mechanisms. Of the quantifiable guarantees (some are not
+quantifiable), the PBO stated that the amount covered is ‘not always shown’.12
+Existing and historical policy outcome assessments
+PBO Report 1/2020 proposed that the Final Budget Outcome or CFS include
+assessments of existing and historical policy outcomes, for policies involving
+alternative financing mechanisms, noting that ‘to help inform policy decisions, it is
+useful for parliamentarians to be able to see the outcomes of policies’.13
+Disaggregation of revaluation-related information
+The PBO noted that reporting on existing and historical policy outcomes involving
+alternative financing mechanisms in the Final Budget Outcome or CFS could be
+improved by including revaluations at a project or program level, separated into
+those for newly acquired financial assets and for existing financial assets;
+discussion on the drivers of revaluations, such as changes in market prices,
+exchange rates and actuarial revaluations; and a summary of revaluations for all
+Australian Government financial assets that involved cumulative equity injections
+greater than $200 million—this should show the cumulative equity injected and the
+10 PBO Report 1/2020, pp. 20-21.
+11 PBO Report 1/2020, p. 23.
+12 PBO Report 1/2020, p. 21.
+13 PBO Report 1/2020, p. 21.
+OVERVIEW OF PBO PROPOSALS 41
+most recent fair value estimate of the entity.14 By way of background on this
+matter, the Final Budget Outcome estimates of net financial worth include all
+revaluations, and breakdowns (with ‘varying degrees of policy detail’) of net cash
+flows from investments in financial assets for policy purposes, providing an
+indication of how much cash is flowing toward policies using alternative financing
+mechanisms.15 However, the PBO noted that these documents ‘do not disaggregate
+revaluations’ to enable an understanding of the impact of policy on the Australian
+Government’s fiscal position when alternative financing arrangements are used—
+in particular, ‘no distinction is drawn between different drivers of revaluations’.16
+Further, the available information on revaluations is ‘not disaggregated by policy
+area or provided at a major program level’.17
+14 PBO Report 1/2020, p. 23.
+15 PBO Report 1/2020, p. 21.
+16 PBO Report 1/2020, p. 22.
+17 PBO Report 1/2020, p. 22.

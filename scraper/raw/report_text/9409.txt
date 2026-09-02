@@ -1,0 +1,2205 @@
+The Senate
+Economics References Committee
+Improving consumer experiences, choice,
+and outcomes in Australia’s retirement
+system
+Third interim report - superannuation fund
+governance arrangements
+February 2025
+© Commonwealth of Australia 2025
+ISBN 978-1-76093-785-0 (Printed version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by the Senate Printing Unit, Parliament House, Canberra
+Members
+Chair
+Senator Andrew Bragg LP, NSW
+Deputy Chair
+Senator Jess Walsh ALP, VIC
+Members
+Senator Jana Stewart ALP, VIC
+Senator Nick McKim AG, TAS
+Senator the Hon Matthew Canavan NATS, QLD
+Senator Dean Smith LP, WA
+Substitute Members
+Senator Deborah O’Neil ALP, NSW
+(for Senator Stewert, 29 November 2024)
+Participating Members
+Senator Tony Sheldon ALP, NSW
+Secretariat
+Sean Turner, Committee Secretary
+Nicola Kosseck, Principal Research Officer
+Tegan Scott, Principal Research Officer
+James Strickland, Principal Research Officer
+Michael Finch, Senior Research Officer
+Bryn Catlin, Administrative Officer
+PO Box 6100
+Parliament House Ph: (02) 6277 3540
+Canberra ACT 2600 Email: economics.sen@aph.gov.au
+iii
+
+Terms of reference
+On improving consumer experiences, choice, and outcomes in Australia’s retirement
+system, with reference to:
+(a) regulatory and tax impediments to innovation and uptake of insurance
+products in retirement;
+(b) the economic costs and opportunities of innovation in our retirement
+income system;
+(c) the interaction of health insurance, life insurance, general insurance, and
+social security supports to retirement outcomes, including options to
+improve incentives that drive consumer outcomes and support the
+sustainability of the retirement income system;
+(d) the potential role of FinTech platforms, technologies, and innovations in
+supporting better retirement outcomes;
+(e) policy options to support greater choice and quality of life in the retirement
+income system, including but not limited to the aged pension, financial
+advice, home ownership and downsizing, and insurance;
+(f) progress on implementing the Retirement Income Covenant; and
+(g) the impact of climate change on insurance premium affordability and
+accessibility;
+(h) the impact that climate change is likely to have on insurance premiums for
+products including life, home and contents and small business;
+(i) the impact of climate change on the value of assets (e.g. houses,
+investments) of retired people; and
+(j) any other related matters.
+v
+
+Contents
+Members ............................................................................................................................................. iii
+Terms of reference .............................................................................................................................. v
+Acronyms and abbreviations ........................................................................................................... ix
+List of recommendations .................................................................................................................. xi
+Chapter 1—Introduction .................................................................................................................... 1
+Referral of the inquiry ......................................................................................................................... 1
+Conduct of the inquiry ........................................................................................................................ 1
+Acknowledgement ............................................................................................................................... 2
+Subject of the interim report ............................................................................................................... 2
+Chapter 2—Super fund governance and operations .................................................................... 3
+Overview ............................................................................................................................................... 3
+Independence and competency of superannuation trustee boards .............................................. 4
+Equal representation of trustee boards and independent directors .................................. 4
+Should the rules regarding trustee boards be updated? ..................................................... 8
+Fit and proper requirements for responsible persons ....................................................... 10
+Concerns regarding the independence and competency of the Cbus Super board ...... 13
+Best financial interest duty ............................................................................................................... 19
+Evidential burden ................................................................................................................... 21
+Adequacy of documentation ................................................................................................. 22
+Types of expenditure .............................................................................................................. 23
+Capital requirements ......................................................................................................................... 25
+Personal liability for trustees and the use of members’ funds ......................................... 25
+Arrangements with member and employer sponsoring organisations .......................... 29
+Insurance standards ........................................................................................................................... 31
+Claims delays .......................................................................................................................... 31
+Committee view ................................................................................................................................. 37
+Independence and competency of superannuation trustee boards and governance
+standards .................................................................................................................................. 37
+APRA’s role in relation to trustee conflicts of interest ...................................................... 39
+Mandatory reporting by APRA on BFID activities ............................................................ 39
+vii
+Capital requirements, related party payments, and trust deed amendments ............... 40
+Insurance standards................................................................................................................ 41
+Government Senators' dissenting comments.............................................................................. 43
+Australian Greens Senators' dissenting report ........................................................................... 47
+Appendix 1—Submissions and additional information ........................................................... 49
+Appendix 2—Public hearings and witnesses .............................................................................. 53
+viii
+Acronyms and abbreviations
+AFCA Australian Financial Complaints Authority
+AFR Australian Financial Review
+AICD Australian Institute of Company Directors
+APRA Australian Prudential Regulation Authority
+ASIC Australian Securities and Investment Commission
+ASX Australian Stock Exchange Group
+BFID Best Financial Interest Duty
+CA ANZ Chartered Accountants Australia and New Zealand
+CALI Council of Australian Life Insurers
+Cbus Super Construction and Building Unions Superannuation Fund
+CFMEU The Construction, Forestry and Maritime Employees Union
+the Committee Senate Economics References Committee
+Cooper Review The 2009–10 Review into the Governance, Efficiency, Structure
+and Operation of Australia’s Superannuation System
+FAR Financial Accountability Regime
+Hayne Royal 2017–19 Royal Commission into Misconduct in the Banking,
+Commission Superannuation and Financial Services Industry
+House Economics House of Representatives Standing Committee on Economics
+Committee
+Murray Inquiry The 2013–14 Financial System Inquiry
+RSE Registrable Superannuation Entity
+SIS Act Superannuation Industry (Supervision) Act 1993
+SPS 515 Prudential Standard SPS 515, Strategic Planning and Member
+Outcomes
+TAL TAL Life Limited
+TPD Total Permanent Disability
+2015 Trustee Superannuation Legislation Amendment (Trustee Governance) Bill
+Governance bill 2015
+ix
+
+List of recommendations
+Recommendation 1
+2.150 The committee recommends that a requirement be introduced for
+superannuation trustee boards to have a majority of independent directors,
+and an independent Chair.
+Recommendation 2
+2.151 The committee recommends that director competency rules be introduced,
+which would mandate, at a minimum, relevant experience requirements that
+would apply to the chair of a superannuation trustee board.
+Recommendation 3
+2.152 The committee recommends that superannuation funds be required to
+maintain and make public a skills matrix for the purposes of conducting the
+Fit and Proper process for the appointment of directors.
+Recommendation 4
+2.156 The committee recommends that the Australian Prudential Regulation
+Authority (APRA) be empowered with an adjudicable pathway to remove a
+trustee where an assessment is made that a material conflict of interest exists.
+Recommendation 5
+2.163 The committee recommends the government introduce new mandatory
+reporting requirements on the Australian Prudential Regulation Authority
+(APRA) to report on Best Financial Interest Duty (BFID) decisions of super
+funds, to align with existing APRA standards.
+Recommendation 6
+2.169 The committee recommends that the government introduce legislation which
+would require all superannuation funds to maintain adequate funding, raised
+by the shareholders separate from members' assets, to meet the various costs
+to which they may be liable, including fines for trustee misconduct and
+compensation payments resulting from misadministration. This funding
+should not be provided for, directly or indirectly, by members' funds and
+must come from the shareholders.
+Recommendation 7
+2.178 The committee recommends that the government work in an expedient
+fashion to develop mandatory insurance service standards for
+xi
+superannuation funds. These standards should be developed in consultation
+with consumer advocates, regulators and industry stakeholders.
+xii
+Chapter 1
+Introduction
+Referral of the inquiry
+1.1 On 27 November 2023, the Senate referred the following matter to the Senate
+Economics References Committee (the committee) for inquiry and report:
+Improving consumer experiences, choice, and outcomes in Australia’s
+retirement system, with reference to:
+(a) regulatory and tax impediments to innovation and uptake of insurance
+products in retirement;
+(b) the economic costs and opportunities of innovation in our retirement
+income system;
+(c) the interaction of health insurance, life insurance, general insurance, and
+social security supports to retirement outcomes, including options to
+improve incentives that drive consumer outcomes and support the
+sustainability of the retirement income system;
+(d) the potential role of FinTech platforms, technologies, and innovations in
+supporting better retirement outcomes;
+(e) policy options to support greater choice and quality of life in the retirement
+income system, including but not limited to the aged pension, financial
+advice, home ownership and downsizing, and insurance;
+(f) progress on implementing the Retirement Income Covenant; and
+(g) the impact of climate change on insurance premium affordability and
+accessibility;
+(h) the impact that climate change is likely to have on insurance premiums for
+products including life, home and contents and small business;
+(i) the impact of climate change on the value of assets (e.g. houses,
+investments) of retired people; and
+(j) any other related matters.
+1.2 The committee was to report by 30 June 2024. On 26 March 2024, the Senate
+granted an extension of time to report until 30 June 2025.
+Conduct of the inquiry
+1.3 The committee advertised the inquiry on its website and wrote to relevant
+stakeholders and other interested parties inviting them to make a written
+submission by 23 February 2024. The committee published 46 submissions.
+1.4 Following presentation of its first interim report in May 2024, the committee
+extended the call for submissions to 28 June 2024. The committee published a
+further four submissions and nine supplementary submissions. All published
+submissions are listed at Appendix 1.
+1
+2
+1.5 The committee held five public hearings on 12 March, 30 August, 14 November,
+29 November and 13 December 2024 in Canberra and via videoconference.
+1.6 A list of witnesses who appeared at the hearings is available at Appendix 2.
+1.7 The committee presented a second interim report in September 2024.
+1.8 Links to public submissions, Hansard transcripts of evidence and other
+information published by the committee for this inquiry are available on the
+committee’s website.
+Acknowledgement
+1.9 The committee thanks those individuals and organisations who contributed to
+this inquiry, in particular those who made submissions or gave evidence at a
+public hearing.
+Subject of the interim report
+1.10 The committee’s first interim report considered ways to harness superannuation
+to help first home buyers overcome the deposit hurdle. The committee’s second
+interim report explored policy options harnessing superannuation to assist
+homeowners during the repayment stage, with particular focus on mortgage
+offset.
+1.11 This interim report focuses on governance arrangements for superannuation
+funds.
+Chapter 2
+Super fund governance and operations
+2.1 This chapter considers the role of superannuation fund governance
+arrangements in delivering positive retirement outcomes for Australians. In
+particular, the chapter considers governance arrangements with reference to:
+ the independence and competency of superannuation trustees;
+ capital requirements for superannuation funds;
+ the effectiveness of the Best Financial Interest Duty; and
+ insurance standards in superannuation.
+2.2 The chapter concludes with the committee’s views and recommendations.
+Overview
+2.3 Since 1992, Australian workers have been required to compulsorily save for
+their retirement using the superannuation system. Today, superannuation
+funds oversee approximately $2.8 trillion of Australians’ retirement assets, with
+workers contributing billions of dollars more to the superannuation system each
+year.1
+2.4 Given the significance of superannuation assets to individuals’ retirements and
+to the economy, the governance arrangements that underpin the sound
+operation of superannuation funds is of vital importance. The Super Members
+Council, the peak body for profit-to-member superannuation funds, noted the
+important role trustees have in managing Australians’ retirement savings:
+As the super system matures, so too does the responsibility and expectation
+on those who are entrusted with protecting and growing Australians'
+precious retirement savings. Super is Australians' money for their
+retirement and they rightly expect and deserve the highest standards of
+service from their funds and insurers…2
+2.5 However, concerns have been raised, including during this inquiry, regarding
+aspects of current governance arrangements, as set out further below.
+1 Note, this figure refers to the total value of assets in superannuation funds regulated by the
+Australian Prudential Regulation Authority (APRA). See, APRA, ‘APRA releases superannuation
+statistics for September 2024’, Media release, 27 November 2024.
+2 Ms Misha Schubert, Chief Executive Officer, Super Members Council, Committee Hansard, 14
+November 2024, p. 2.
+3
+4
+Independence and competency of superannuation trustee boards
+2.6 Superannuation funds in Australia are set up as trusts for which the trustee ‘acts
+on behalf’ of a registrable superannuation entity licensee (RSE licensee).3 While
+superannuation trustees typically outsource many of their administrative and
+investment management functions to external entities, trustees ‘cannot
+outsource their responsibility for the performance of those functions’.4 Indeed,
+trustees have ultimate responsibility for the operation of their funds.5
+2.7 Given that superannuation trustees play a critical role in ensuring the sound
+management of Australians’ retirement assets, the composition and capability
+of trustee boards is a matter of critical national importance. Yet, evidence
+considered by this inquiry suggests that, in some instances, superannuation
+trustees may have failed to act in the best interest of fund members.
+2.8 The following section considers how the governance practices of trustees may
+be improved in respect of:
+ the equal representation model of board composition, including the
+appointment of independent directors;
+ the fit and proper process for the appointment of board directors and other
+responsible persons; and
+ the mix of skills and experience on trustee boards, including the operation
+of the equal representation model.
+Equal representation of trustee boards and independent directors
+2.9 Under the Superannuation Industry (Supervision) Act 1993 (SIS Act), most
+superannuation funds are required to maintain an equal representation board
+structure. This means a superannuation trustee board must have an equal
+number of employee representatives and member representatives.
+2.10 Superannuation trustee boards are not required to have independent directors,
+however the SIS Act provides that an equal representation board can opt to
+appoint an independent director. The SIS Act defines an ‘independent director’
+as a director that:
+ is not a member of the fund;
+ is not, or is not an associate of, an employer-sponsor of the fund;
+ is not an employee of an employer-sponsor of the fund, or the employee of
+an associate of the employer-sponsor of the fund; and
+3 See, Association of Superannuation Funds of Australia (ASFA), The Australian superannuation
+industry, September 2022, p. 13.
+4 See, ASFA, The Australian superannuation industry, September 2022, p. 13.
+5 See, ASFA, The Australian superannuation industry, September 2022, p. 13.
+5
+ is not a representative of a trade union representing one of more members
+of the fund, or another kind of organisation that represents the interests of
+one or more employer-sponsors of the fund.6
+2.11 The Australian Prudential Regulation Authority (APRA)—responsible for the
+prudential regulation of the superannuation sector—has stated that, in its view,
+a ‘prudent equal representation Board would consider the benefits of the
+appointment of at least one independent director’.7 Further, APRA has stated
+that a non-equal superannuation trustee board should also consider appointing
+independent directors:
+A non-equal representation Board might similarly consider the benefits of
+the appointment of one or more directors who are free from any business or
+other association that could materially interfere with the exercise of their
+independent judgement. Such directors broaden the skills and capabilities
+that can be brought to the board table, and improve decision-making by
+bringing an objective perspective to issues the board considers. They are also
+well placed to hold other directors accountable for their conduct,
+particularly in relation to conflicts of interest.8
+2.12 There have been long-standing public debates as to whether equal
+representation model for the boards of superannuation delivers the best
+outcomes for members. In particular, questions have been raised as to whether
+trustee boards would benefit from additional independent directors.
+Findings from the Cooper Review and the Murray Inquiry
+2.13 A number of inquiries have identified concerns regarding the governance
+practices of superannuation funds and made recommendations which ‘if
+implemented, would significantly change the current board structure of
+industry superannuation funds away from an equal representation model’.9
+2.14 Two such inquiries include:
+ the 2009–10 Review into the Governance, Efficiency, Structure and
+Operation of Australia’s Superannuation System (Cooper Review); and
+ the 2013–14 Financial System Inquiry (Murray Inquiry).
+2.15 The Cooper Review, led by Jeremy Cooper, a former deputy chair of the
+Australian Securities and Investments Commission (ASIC), considered that
+changes were required to the structure of trustee boards, noting that
+6 Superannuation Industry (Supervision) Act 1993, s. 10.
+7 APRA, Prudential Practice Guide - SPG 510 – Governance, https://www.apra.gov.au/prudential-
+practice-guide-spg-510-%E2%80%93-governance, n.d. (accessed 6 February 2024).
+8 APRA, Prudential Practice Guide - SPG 510 – Governance, https://www.apra.gov.au/prudential-
+practice-guide-spg-510-%E2%80%93-governance, n.d. (accessed 6 February 2024).
+9 Jin Sug Yang, Anna Bedford and Martin Bugeja, ‘Director expertise and co-option in industry
+superannuation funds?’, Accounting & Finance, vol 63, no. 1, 2023, pp. 1249–1283.
+6
+contemporary best practice in corporate governance for listed companies
+included the presence of independent directors on the board.10
+2.16 Given this, the Cooper Review stated that a minimum number of
+'non-associated' trustee-directors should be required on all superannuation
+trustee boards—to ensure that they can genuinely influence the decisions of
+those boards.11 In particular, it recommended the following:
+[Recommendation 2.6] The SIS Act should be amended so that if a trustee
+board does not have equal representation, the trustee must have a majority
+of ‘non-associated’ trustee-directors[.]12
+[Recommendation 2.7] For those boards that have equal representation
+because their company constitutions or other binding arrangements so
+require, the SIS Act should be amended so that no less than one-third of the
+total number of member representative trustee-directors must be non-
+associated and no less than one-third of employer representative trustee-
+directors must be non-associated.13
+2.17 Further, the Murray Inquiry, led by Mr David Murray AO, the inaugural chair
+of the Future Fund Board of Guardians and a former chief executive officer of
+the Commonwealth Bank of Australia, recommended the following:
+Mandate a majority of independent directors on the board of corporate
+trustees of public offer superannuation funds, including an independent
+chair; align the director penalty regime with management investment
+schemes; and strengthen the conflict of interest requirements.14
+2.18 In its response to the recommendation to mandate independent directors, the
+then Turnbull Coalition government agreed with the need to ‘improve the
+governance of superannuation funds’, and noted that it had introduced
+legislation requiring superannuation fund trustee boards to have a minimum of
+one-third independent directors—including an independent chair.15 The
+Explanatory Memorandum for the Superannuation Legislation Amendment
+(Trustee Governance) Bill 2015 (the 2015 Trustee Governance bill) emphasised
+10 Australian Government, Super System Review Final Report: Part One—Overview and Recommendations,
+June 2010, p. 12.
+11 Australian Government, Super System Review Final Report: Part One—Overview and Recommendations,
+June 2010, p. 12.
+12 Australian Government, Super System Review Final Report: Part Two—Recommendation Packages,
+June 2010, p. 55.
+13 Australian Government, Super System Review Final Report: Part Two—Recommendation Packages,
+June 2010, p. 56.
+14 Australian Government, Financial System Inquiry Final Report, November 2014, p. 133.
+15 Australian Government, Improving Australia’s financial system: Government response to the Financial
+System Inquiry, October 2015, p. 14.
+7
+the importance of increasing the independence of superannuation trustee
+boards:
+The existing representative board composition requirements in the SIS Act
+are outdated and no longer reflect the size and complexity of the
+superannuation industry. In particular, equal representation is out-of-step
+with other corporate sectors, including listed companies, banks, and general
+insurers, who all, at a minimum, recommend a majority of independent
+directors with an independent chair.16
+2.19 However, the then Labor Opposition did not support the independent director
+reforms contained in the 2015 Trustee Governance bill, claiming it was
+‘attempting to fix a problem that does not exist’.17 As Senator Sam Dastyari said:
+And the success of industry super funds that have consistently performed
+well has been built in part—not entirely; there are other factors at play—by
+a successful governance model. This bill goes to the heart of destroying that
+governance model. And, again, what amazes me is that this is a solution in
+search of a problem.18
+2.20 The 2015 Trustee Governance bill subsequently lapsed at the prorogation of the
+44th Parliament.19
+2.21 Two years later, then Coalition Government introduced the Superannuation
+Laws Amendment (Strengthening Trustee Arrangements) Bill 2017 to require
+RSE licensees to ‘have at least one-third independent directors and for the Chair
+of the Board of directors to be one of these independent directors’.20 Again,
+Labor Opposition senators did not support the bill and it lapsed at the end of
+the 45th Parliament.21
+2.22 Notably, recommendations for increasing the independence of superannuation
+trustee boards have been opposed by industry super funds, which have argued
+that the ‘current equal representation model is fit for purpose, as evidenced by
+the fact that industry superannuation funds consistently outperform their
+peers’.22
+16 Australian Government, Explanatory Memorandum: Superannuation Legislation Amendment (Trustee
+Governance) Bill 2015, September 2015, p. 3.
+17 Senator Sam Dastyari, Senate Hansard, 25 November 2025, p. 8888.
+18 Senator Sam Dastyari, Senate Hansard, 25 November 2025, p. 8890.
+19 For further information on the bill, see: Superannuation Legislation Amendment (Trustee
+Governance) Bill 2015 (accessed 3 February 2025).
+20 Australian Government, Superannuation Laws Amendment (Strengthening Trustee Arrangements) Bill
+2017, September 2017, p. 7.
+21 See, Senator Sam Dastyari, Senate Hansard, 16 November 2017, p. 8671.
+22 See, Jin Sug Yang, Anna Bedford and Martin Bugeja, ‘Director expertise and co-option in industry
+superannuation funds?’, Accounting & Finance, vol 63, no. 1, 2023, pp. 1249–1283.
+8
+Should the rules regarding trustee boards be updated?
+2.23 Over many years, various bodies have considered the adequacy of the rules
+regarding the composition of superannuation trustee boards.
+2.24 For instance, the Australian Institute of Company Directors (AICD) has ‘long
+maintained that the inclusion of a minimum level of independent directors on
+RSE boards would represent a positive improvement to governance
+arrangements in the sector’.23 The AICD reasoned that:
+Independent directors, that is, directors who are not aligned or perceived to
+be aligned with either management or other interests, bring a unique
+perspective and valuable experience to board deliberations.
+The inclusion of independent directors would align the superannuation
+sector with internationally recognised best practice governance standards.
+It would also bring additional oversight and governance of related-party
+transactions, which were identified as a continuing problem by the
+Productivity Commission.
+The equal representation rule no longer reflects the practical reality of the
+superannuation sector, particularly in relation to large public offer funds.24
+2.25 As noted by the AICD, the Productivity Commission similarly has ‘concluded
+that best practice from a corporate governance perspective would include the
+presence of a “critical mass” of independent directors on RSE boards’.25
+Moreover, the Productivity Commission observed that ‘it is of equal importance
+(and arguably matters more) to ensure that funds have thorough processes in
+place to recruit highly skilled and experienced boards as it is to focus on the
+number of independent directors’.26
+2.26 The Menzies Research Centre submitted that ‘[t]here is strong evidence to
+support the calls for more independent directors for our largest funds’.27 The
+Menzies Research Centre continued:
+The process of examination, improvement and feedback of the
+superannuation governance environment is key. It is also imperative that
+the public become more interested in superannuation fund governance
+since its aim is to reduce the residual safety net obligations of the
+Commonwealth around pensions and other government-funded sources of
+social security. Given this industry holds over $3.5 trillion in assets on behalf
+23 Australian Institute of Company Directors, Reviews of super fund governance bring insights for all
+directors, 13 June 2018 (accessed 12 February 2025).
+24 Australian Institute of Company Directors, Reviews of super fund governance bring insights for all
+directors, 13 June 2018 (accessed 12 February 2025).
+25 Australian Institute of Company Directors, Reviews of super fund governance bring insights for all
+directors, 13 June 2018 (accessed 12 February 2025).
+26 Productivity Commission as cited in Australian Institute of Company Directors, Reviews of super
+fund governance bring insights for all directors, 13 June 2018 (accessed 12 February 2025).
+27 Menzies Research Centre, Submission 22, p. 5.
+9
+of the Australian people it should be subject to the highest standards of
+governance.28
+2.27 In responding to a question on notice regarding whether it supported the
+appointment of independent directors on the boards of superannuation trustees.
+the Super Members Council said:
+Independent directors are defined in section 10 (1) of the SIS Act which
+underpins APRA’s prudential framework in relation to independent
+trustees. Many profit-to-member superannuation funds with an equal
+representation model also appoint independent directors and chairs, as set
+out in APRA’s Prudential Practice Guide SPG 510 Governance (SPG 510).
+Each super fund determines the best director mix to advance the interests of
+that fund’s members.
+2.28 Notwithstanding the above views, some inquiry participants argued in favour
+of the equal representation model for trustee boards.
+2.29 The Hon Wayne Swan, Chair of Cbus Super, expressed the view that ‘one of the
+great things about the equal representation model is that we have people from
+employers, unions and all political parties’.29 Mr Swan elaborated on the benefits
+of having both employee and union representation on Cbus Super’s board:
+I think it's enormous. It brings a reality and a life experience to the board
+that wouldn't otherwise be there. In the case of Cbus it makes us very close
+to our members, which is why we run our partnership programs, for
+example. They are aimed at not only educating our membership but at
+retaining and increasing membership. For the directors on the board who
+are in contact with delegates or with employers, being out there on the job
+and talking to our members is absolutely essential. I won't speak for the
+employers on our board, but I'm sure that if they were answering this
+question they would say the same. For the building industry to have a
+dedicated specialist fund, such as Cbus, is a huge boon not just for
+employees in the industry but also for employers in the industry.30
+2.30 Further, Mr Swan argued that the equal representation model had contributed
+to the relative outperformance of industry funds:
+Over 40 years, the sorts of returns that industry funds have developed have
+had a lot to do with our governance structure—sponsoring organisations,
+the equal representation model—it can't be a coincidence. I think it has been
+the key to industry funds outperforming other funds.31
+2.31 Additionally, the joint submission from Chartered Accountants Australia and
+New Zealand (CA ANZ) and CPA Australia argued in favour of including
+28 Menzies Research Centre, Submission 22, p. 5.
+29 The Hon Wayne Swan, Chair, Cbus Super, Committee Hansard, 29 November 2024, p. 1.
+30 The Hon Wayne Swan, Chair, Cbus Super, Committee Hansard, 29 November 2024, p. 4.
+31 The Hon Wayne Swan, Chair, Cbus Super, Committee Hansard, 29 November 2024, p. 8.
+10
+‘retiree representatives on the boards of equal representation trustee boards’.32
+In particular, CA ANZ and CPA Australia stated:
+Based on the above APRA regulated super fund data, it can be seen that
+retired members have significant assets in those funds. But who represents
+their interests if the trustees are mostly taken from sponsoring employers
+(or employer associations) and related unions or union organisations?
+We consider this to be a major flaw in the prudential framework and prompt
+legislative corrective action is essential. We recommend that retirees have
+representation on equal representation trustee boards.33
+Fit and proper requirements for responsible persons
+2.32 A RSE licensee is required to ensure that individuals ‘in positions of
+responsibility are fit to hold those positions’.34 A responsible person of an RSE
+licensee includes:
+ a director of the RSE licensee;
+ a secretary of the RSE licensee;
+ a senior manager of the RSE licensee;
+ an auditor of the RSE;
+ an RSE actuary who is appointed under RSE licensee law; and
+ a person who performs activities in connection with the RSE where those
+activities could materially affect the RSE operations.35
+2.33 To manage prudential risks regarding responsible person positions, an RSE
+licensee is required to maintain a board-approved policy which specifies how
+the RSE will assess the fitness and propriety or a responsible person position,
+among other related provisions.36 Regulatory guidance SPS 520 from APRA
+provides that an RSE’s fit a proper policy must ‘consider the nature and extent
+of a number of matters in conducting fit and proper assessments’, including:
+2.34 Central to the fit and proper process is the requirement for a person in a
+responsible position to have skills and experience commensurate with the
+position. As outlined in APRA’s regulatory guidance SPS 520:
+…the skills and experience required by each responsible person depend on
+the person’s role. This, in turn, is affected by the role undertaken by other
+responsible persons. For example, a director is generally expected to
+32 CA ANZ and CPA Australia, Submission 11, p. 4.
+33 CA ANZ and CPA Australia, Submission 11, p. 1.
+34 APRA, Prudential standard: SPS 520 Fit and Proper, https://handbook.apra.gov.au/standard/sps-
+520 30 June 2024 (accessed 4 February 2024).
+35 See, APRA, Prudential standard: SPS 520 Fit and Proper,
+https://handbook.apra.gov.au/standard/sps-520, 30 June 2024 (accessed 4 February 2024).
+36 APRA, Prudential standard: SPS 520 Fit and Proper, https://handbook.apra.gov.au/standard/sps-
+520, 30 June 2024 (accessed 4 February 2024).
+11
+understand the role and responsibilities of a director and have a general
+knowledge of the entity, its business and its regulatory environment.
+However, each director is not generally expected to have all the
+competencies that the Board collectively needs if other directors have those
+competencies or they are obtained from external consultants or experts and
+the Board does not unquestionably rely on their advice.37
+2.35 Despite the importance of superannuation trustee boards having the right mix
+of skills, the Super Members Council advised that it does not provide industry
+standards or guidance to its members in relation to trustee governance,
+including how to best utilise a skills matrix, beyond the ‘broader strong
+regulatory framework’ of the prudential standards.38
+APRA’s role in director appointments to trustee boards
+2.36 Under the SIS Act, APRA can commence court proceedings which, if successful,
+disqualify a person from being a director of a superannuation trustee.39
+2.37 However, when concerns are raised regarding whether a person who is
+nominated to be a director of a superannuation trustee meets the fit and proper
+persons requirements, there is currently no regulatory power for APRA to
+intervene. As Ms Carmen Beverley-Smith, Executive Director, Life and Private
+Health Insurance and Superannuation, APRA, explained:
+APRA doesn't hold powers to determine who should and shouldn't be a
+director of a trustee of a super fund. APRA has prudential standards that go
+to determining the governance requirement of super funds, and we
+supervise to those. They include the fitness and propriety of directors,
+whether conflicts of interest are managed appropriately and other
+governance requirements. What we require of super funds is that they have
+adequate policies, procedures and frameworks in place to make good
+decisions in relation to those topics.40
+2.38 The lack of a regulatory power was considered in the 2019 APRA Capability
+Review—part of the response to the Hayne Royal Commission—which
+recommended:
+The Government should consider providing APRA with a non-objections
+power to veto the appointment or reappointment of directors and senior
+executives of regulated entities. This would bring it into line with
+37 APRA, Prudential practice guide: SPG 520 Fit and Proper,
+https://handbook.apra.gov.au/standard/sps-520 30 June 2024 (accessed 4 February 2024).
+38 Super Members Council, answers to questions on notice, Document no. 16, received 17 January
+2025.
+39 See, for example, APRA, ‘APRA takes action against IOOF for failing to act in best interests of
+superannuation members’, Media release, 6 December 2018; APRA, ‘APRA seeks disqualification of
+First Super co-chair Michael O’Connor’, Media release, 6 September 2024.
+40 Ms Carmen Beverley-Smith, Executive Director, Life and Private Health Insurance and
+Superannuation, APRA, Committee Hansard, 14 November 2024, p. 35.
+12
+international regulators and strengthen its capacity to pre-emptively
+regulate GCA risks. The power should be available to APRA only where the
+risks associated with the entity, including but not limited to member
+outcomes for superannuation funds, warrant it.41
+2.39 In July 2019, the then-Treasurer, the Hon Josh Frydenberg, issued the Australian
+Government’s response to the APRA Capability Review and addressed the non-
+objections power recommendation as follows:
+The Government will ensure that APRA has sufficient powers and flexibility
+to prevent inappropriate directors and senior executives from being
+appointed or re-appointed to regulated entities, as part of extending the
+Banking Executive Accountability Regime.42
+2.40 From 15 March 2025, the Financial Accountability Regime (FAR)—which
+replaced the Banking Executive Accountability Regime—will apply to
+superannuation trustees.43 The FAR will extend APRA powers to take
+administrative action to disqualify a person from ‘acting as an accountable
+person if the person has breached their accountability obligations’.44
+2.41 The FAR subjects accountable entities to enhanced regulatory notification
+obligations, including by providing ASIC and APRA an ‘accountability
+statement for each of their accountable persons describing the responsibilities of
+that person’.45 However, while APRA’s template accountability statement
+proposes that an accountable entity report on conflict management processes,46
+the FAR Act does not make explicit provisions for conflict of interest concerns.
+2.42 Also of note, APRA’s prudential guidelines provide an expectation that board
+renewal policies should document the maximum tenure period for each director
+and note long tenures ‘can affect a person’s capacity to exercise independent
+judgement.’ The practice guide further explains:
+APRA expects that the length of each director’s tenure would be examined
+shortly before the end of each term served and that there would be limited
+41 Australian Government, APRA Capability Review, June 2019, p. 93.
+42 Australian Government, Government Response to the APRA Capability Review Report, July 2019, p. 2.
+43 APRA, FAR implementation for insurance and superannuation entities,
+https://www.apra.gov.au/far-implementation-for-insurance-and-superannuation-entities, n.d.
+(accessed 7 February 2025).
+44 APRA, Financial Accountability Regime: Information for accountable entities, July 2024, p. 23.
+45 See, APRA, Financial Accountability Regime: Accountability statement guidance and template,
+July 2024, p. 1.
+46 See, APRA, Financial Accountability Regime: Accountability statement guidance and template, July
+2024, p. 7.
+13
+circumstances in which maximum tenure limits exceeding 12 years would
+be appropriate.47
+2.43 Despite this, it appears some superannuation board directors have served on
+their respective boards for more than 12 years without APRA intervention.48
+APRA’s 2018 thematic review of superannuation board practices found
+‘examples of RSE licensees introducing a maximum tenure for directors but
+resetting the commencement of the director’s term from the date of the (revised)
+policy rather than the date of original appointment of that individual to the
+board.’ APRA noted:
+This allowed existing long-term directors to remain on the board for another
+maximum term of up to 12 years, demonstrating a tension with the spirit
+and intent of the prudential framework.49
+Concerns regarding the independence and competency of the Cbus Super board
+2.44 The Construction and Building Unions Superannuation Fund (Cbus Super) is
+an industry superannuation fund with membership primarily drawn from the
+construction, building and allied sectors. As of mid-2024, Cbus Super had
+920 000 members and had $94 billion of assets under management.50
+2.45 However, as discussed below, several independent reviews have raised
+concerns regarding whether the Cbus Super board:
+ has appropriate independent director representation; and
+ has appropriate processes for appointing fit and proper directors.
+Independent director representation
+2.46 In 2014, a former Australian Competition and Consumer Commissioner,
+Professor Graeme Samuel AC, was appointed by Cbus Super to conduct a
+review into the fund’s governance arrangements following alleged breaches of
+privacy laws within the fund. Professor Samuel’s review recommended several
+changes to Cbus Super’s organisational structure, including the need for
+47 APRA, Prudential Practice Guide, HPG 510 – Governance, February 2018, p. 11,
+HPG%20510%20Governance%20for%20PHIs_0.pdf.
+48 See, Joanna Mather, ‘Superannuation fund boards game the rules: APRA’, Australian Financial
+Review, 17 May 2018.
+49 APRA, Letter: Board Governance Thematic Review, May 2018,
+https://www.apra.gov.au/sites/default/files/BGTR_letter%2520to%2520industry_20180516.pdf.
+50 Cbus Super, ‘A message to our members: From CEO Kristian Fok regarding recent media coverage’,
+https://www.cbussuper.com.au/about-us/news/cbus-news/message-to-our-
+members#:~:text=Cbus%20is%20one%20of%20Australia's,on%20behalf%20of%20920%2C000%20
+members*, 23 July 2024 (accessed 6 February 2025).
+14
+increased independent directors and an improved framework for managing
+conflicts of interest..51
+2.47 Of relevance to this inquiry were Professor Samuel’s recommendations that:
+ the Cbus Super trustee’s conflicts management framework ‘be enhanced to
+specifically and more robustly address fundamental conflicts of interest
+arising out of associations and allegiances of Cbus employees…who in the
+past had had or still hold an association with a sponsoring organisation’;
+ the constitution of the of the Cbus Super board be restructured such that:
+− the appointment of the board chair is ‘clearly independent’;
+− the board be empowered to approve a director nomination before a
+director can be appointed;
+− additional independent directors should be appointed with ‘no clear
+association with any sponsoring member organisation’; and
+− the provisions for independent directors’ voters rights be amended to
+reflect the requirements of the SIS Act.52
+2.48 Currently, the Cbus Super board is comprised of ‘an equal number of member
+and employer representative directors, as well as two independent directors’.53
+The two independent directors are Cbus Super’s Chair, the Hon Wayne Swan,
+and the Chair of the Risk Committee, Dr John Edwards.54
+2.49 In giving evidence to the committee, Dr Edwards told the committee Cbus Super
+had acted on the recommendations from the Samuel review:
+As the chairman says, it recommended that we appoint more independent
+directors. At that point, we had one—I think we now have two. More
+importantly, under the Samuel recommendation, the chair would be an
+independent, and that is now the case.55
+2.50 As the committee understands it, the independence test that applies to the
+appointment of the Cbus Super chair is self-assessed. In contrast, the Australian
+Securities Exchange Group (ASX) Corporate Governance Council’s Corporate
+Governance Principles and Recommendations (4th Edition, February 2019), which
+recommend a majority of directors and chairs of listed entities be independent,
+51 Professor Graeme Samuel AC, Independent privacy governance review of Cbus: Final report, n.d., pp.
+14–16.
+52 Professor Graeme Samuel AC, Independent privacy governance review of Cbus: Final report, n.d., pp.
+14–16
+53 Cbus Super, answers to questions on notice, Document no. 11, received 17 January 2025.
+54 Cbus Super, Our Board, https://www.cbussuper.com.au/about-us/how-were-run/board, n.d.
+(accessed 6 February 2025).
+55 Dr John Edwards, Chair, Board Risk Committee, Cbus Super, Committee Hansard, 29 November
+2024, p. 1.
+15
+provides clear guidance on the meaning and importance of ‘independence’, and
+explains:
+To describe a director as “independent” carries with it a particular
+connotation that the director is not aligned with the interests of management
+or a substantial holder and can and will bring an independent judgement to
+bear on issues before the board.
+It is an appellation that gives great comfort to security holders and not one
+that should be applied lightly.
+A director of a listed entity should only be characterised and described as
+an independent director if he or she is free of any interest, position or
+relationship that might influence, or reasonably be perceived to influence,
+in a material respect their capacity to bring an independent judgement to
+bear on issues before the board and to act in the best interests of the entity
+as a whole rather than in the interests of an individual security holder or
+other party.56
+2.51 APRA provides in its Prudential Standard CPS 510 Governance the following
+definition of independent directors:
+For the purposes of this Prudential Standard, an ‘independent director’ is a
+non-executive director who is free from any business or other association –
+including those arising out a substantial shareholding, involvement in past
+management or as a supplier, customer or adviser – that could materially
+interfere with the exercise of their independent judgement.57
+2.52 The same document then provides a list of circumstances which will not meet
+the independence test, including such things as:
+ the director being a substantial shareholder of the institution,
+ the director having previously been employed in an executive capacity of
+the institution without a three year gap between said employment and the
+commencement of service on the board,
+ the director having been a principal of a professional advisor or consultant
+to the institution within three years of commencing service on the board;
+ the director having been a material supplier, customer, or having a material
+contractual relation with the institution.58
+56 ASX Corporate Governance Council, Corporate Governance Principles and Recommendations, 4th
+Ed. (February 2019), p. 13. https://www.asx.com.au/content/dam/asx/about/corporate-governance-
+council/cgc-principles-and-recommendations-fourth-edn.pdf.
+57 APRA, Prudential Standard CPS 510 Governance, July 2019, p. 9,
+https://www.apra.gov.au/sites/default/files/draft_prudential_standard_cps_510_governance_mar
+ch_2019_v1_0.pdf (accessed 12 February 2025).
+58 APRA, Prudential Standard CPS 510 Governance, July 2019, p. 24,
+https://www.apra.gov.au/sites/default/files/draft_prudential_standard_cps_510_governance_mar
+ch_2019_v1_0.pdf (accessed 12 February 2025).
+16
+2.53 On the face of it, the committee would question whether a senior office holder
+of a major political party would, in the context of an appointment as chair of an
+industry superannuation fund at the centre of current policy and political
+discourse, would meet independence tests such as those set out above.
+2.54 Notably, Professor Samuel has emphasised the importance of the Cbus Super
+having an independent Chair:
+“It’s a very powerful position to hold as chair. It sets the tone and culture of
+the organisation, and a clever and assertive chair can actually set some
+directions around the board tone and can curtail or enhance discussion.
+“If they’ve got a tendency or history towards supporting certain groups,
+then you’ve got a problem. And Wayne Swan is the perfect example of a
+political operative, so then you’ve got to question the absolute independence
+of the chair.”59
+2.55 The independence of superannuation trustee boards is particularly pertinent in
+relation to probity of financial agreements involving member contributions.
+2.56 Yet, there have been ongoing concerns regarding potential conflicts of interest
+between the representation of member sponsoring organisations on the Cbus
+Super board and the significant financial agreements Cbus Super has with those
+organisations. In 2024, Cbus Super paid a total of $2.8 million to five unions for
+directors’ fees, industry partnership payments and rental payments.60 Nearly
+two thirds of that amount was paid to the CFMEU,61 which holds three seats on
+the Cbus Super trustee board.
+2.57 The financial arrangements between superannuation funds and sponsoring
+organisations are considered further in the section of this chapter on capital
+requirements.
+Fit and proper processes at Cbus Super
+2.58 In November 2024, Deloitte was commissioned to undertake an independent
+review of Cbus Super in response to concerns from APRA ‘about whether board
+members were fit and proper and whether certain expenditures were being
+made in accordance with the Best Financial Interests Duty’.62
+2.59 The Deloitte review ‘made recommendations for improvements in relation to
+the process and documentation for fit and proper, against the backdrop of a
+59 See, Hannah Wootton, ‘Former ACCC tsar Samuel pushes Cbus for more independent directors’,
+Australian Financial Review, 19 August 2024.
+60 Cbus Super, 2024 annual report, September 2024, p. 46.
+61 Cbus Super, 2024 annual report, September 2024, p. 46.
+62 Deloitte Touche Tohmatsu Limited (Deloitte), Independent Review United Super Pty Ltd as trustee for
+the Construction and Building Unions Superannuation Fund, November 2024, p. 4.
+17
+finding that Directors met the fit and proper person test’.63 The review’s findings
+included that:
+ the board skills assessment, including related processes, require uplift to
+reflect the expanding size and complexity of the business;
+ the annual assessment of fit and proper places an over-reliance on the
+director declaration and skills assessment;
+ a mechanism should be established to enable nominated directors to be
+rejected if required;
+ there is insufficient documentation of the exceptional circumstances
+surrounding the extension of director tenure; and
+ the potential conflicts of interest arising from a director’s representation of a
+union or employer are not recorded in the register of relevant interests and
+relevant duties.
+2.60 In particular, the Deloitte review found that Cbus Super’s board skills
+assessment processes had fallen short in respect of its assessment of the skills of
+individual directors and that Cbus Super had failed to consistently apply a skills
+matrix for this purpose. As the Deloitte review detailed:
+There is currently no formal validation or review of Directors’ skills self-
+assessment by the Company Secretariat team. This means that although the
+Board’s skills are ultimately assessed as a collective, there is no review or
+challenge of individual Directors’ ratings to determine whether those
+ratings are reflective of an individual’s actual skills and experience or that
+the rating matrix is being applied consistently. As an example of the
+challenges this lack of review can cause, Directors are required to provide a
+rationale where they rate themselves as Expert but in the most recent self-
+assessment, this rationale was not recorded in 51% of instances where an
+Expert rating was given for a skill set, making it difficult to accurately
+understand the skills and capability of the Board.64
+2.61 Deloitte made several recommendations to Cbus Super aimed at addressing the
+above findings. In response to a question on notice, Cbus Super said it is
+‘working with Deloitte to develop an action plan to address each of the
+recommendations of its independent review’.65
+2.62 During the inquiry, the committee questioned the nomination of Construction,
+Forestry and Maritime Employees Union (CFMEU) officials as directors of the
+Cbus Super board. Earlier, the Australian Government had placed the CFMEU
+63 Deloitte, Independent Review United Super Pty Ltd as trustee for the Construction and Building Unions
+Superannuation Fund, November 2024, p. 5.
+64 Deloitte, Independent Review United Super Pty Ltd as trustee for the Construction and Building Unions
+Superannuation Fund, November 2024, p. 41.
+65 Cbus Super, answers to question on notice, Document no. 11, p. 3 (received 17 January 2025).
+18
+into administration following serious allegations of bullying, intimidation and
+corrupt conduct within the union.
+2.63 At a committee hearing, Mr Peter Kohlhagen, General Manager at APRA,
+outlined how the administrator of the CFMEU had exercised the union’s rights
+as a shareholder of the Cbus Super trustee company to nominate appointments
+to the board:
+…the process here is that the shareholder—in this case the administrator
+exercising the rights on behalf of the shareholder—makes a nomination of
+directors to the board. It's then for the trustee to undertake their process to
+assess whether those people, those nominees, are fit and proper. And it's not
+until that process is complete that those people would actually take up their
+seat on the board and become trustee directors. 66
+2.64 APRA confirmed it could not veto director appointments to Cbus Super’s
+board.67
+2.65 In giving evidence to the committee, Mr Swan defended the appointment of the
+CFMEU officials to the Cbus Super board, stating that fit and proper processes
+had been conducted and the directors were ‘were appointed in line with those
+processes’.68 Cbus Super added that the Deloitte review ‘concluded that all
+current and nominated Directors on the Cbus Board meet the ‘fit and proper’
+test as at the date of the report’.69
+2.66 Further, the committee questioned Cbus Super on its process for appointing
+Dr Edwards to the position of Chair of the Risk Committee. The committee
+heard that, prior to his appointment, Dr Edwards had acquired risk
+management skills ‘on the board of Cbus over the previous four or five years’
+and ‘in other board roles prior to that’.70 However, Dr Edwards advised he did
+not have specific risk management experience beyond that.
+2.67 Mr Swan defended also the appointment of Dr Edwards, stating that:
+I completely and utterly reject that characterisation of Dr Edwards. Dr
+Edwards is a great Australian who has extensive experience across the board
+in both the private and public sector. He spent years as a chief economist to
+a large commercial firm, which I will not name, where he gained a large
+amount of private sector experience. He is a world renowned economist
+who is well read and also well practised in discussions of the economy and
+in wider areas. To suggest that he is not capable, or that he should not be
+66 Mr Peter Kohlhagen, General Manager APRA, Committee Hansard, 14 November 2024, p. 35.
+67 Ms Lucinda McCann, General Counsel, APRA, Committee Hansard, 14 November 2024, p. 35.
+68 The Hon Wayne Swan, Chair, Cbus Super, Committee Hansard, 29 November 2024, p. 2.
+69 Cbus Super, answers to question on notice, Document no. 11, p. 3 (received 17 January 2025).
+70 Dr John Edwards, Chair, Board Risk Committee, Cbus Super, Committee Hansard, 29 November
+2024, p. 3.
+19
+able to be the chair of a risk committee in an insurance fund, is
+preposterous.71
+Best financial interest duty
+2.68 The committee also explored the effectiveness of the Best Financial Interest Duty
+(BFID) requirements, introduced as part of the Your Future, Your Super reforms
+in 2021 with the aim of strengthening trustees accountability when executing
+their fiduciary duties. Trustees must provide demonstratable evidence in the
+event of civil proceedings that expenditure and investment decisions were in
+the best financial interest of beneficiaries (rather than just ‘best interest’).
+2.69 The BFID requirements include three components:
+ Require each trustee of a registrable superannuation entity (RSE) or
+self-managed superannuation fund to perform the trustee’s duties and
+exercise the trustee's powers in the best financial interests of the
+members.
+ Require each director of the corporate trustee of an RSE to perform the
+director’s duties and exercise the director’s powers in the best financial
+interests of the members.
+ Reverse the evidential burden of proof so that the onus is on the trustee
+of an RSE to point to evidence that their actions were consistent with the
+best financial interests duty in a civil penalty proceeding.72
+2.70 Treasury conducted a review in 2022 of the Your Future, Your Super reforms,
+including consideration of the BFID.73 The review did not result in any changes
+of the duty by government.
+2.71 In July 2024, APRA released amended prudential standards and practice
+guidance,74 to apply from July 2025, in relation to strategic planning and member
+outcomes. Specifically, the guidance sets out:
+ design principles for a robust expenditure management framework –
+including board oversight, alignment to strategic objectives, and active
+monitoring and review;
+ APRA’s view that better practice is for trustees to obtain a yearly
+attestation from accountable senior executive management that they are
+taking reasonable steps to meet the requirements in SPS 515 regarding
+expenditure management; and
+71 The Hon Wayne Swan, Chair, Cbus Super, Committee Hansard, 29 November 2024, p. 4.
+72 The Treasury, Your Future, Your Super Review: Summary of Issues, April 2023, p. 17,
+https://treasury.gov.au/sites/default/files/2023-04/c2022-313936-yfys-review.pdf (accessed 4
+February 2025).
+73 Ms Pai, Treasury, Committee Hansard, 13 December 2024, p. 13.
+74 Prudential Standard SPS 515, Strategic Planning and Member Outcomes (SPS 515),
+https://www.legislation.gov.au/F2024L00940/latest/text
+20
+ APRA’s view that such attestation should confirm that controls are in
+place and operating effectively to prevent expenditure that would be
+unjustifiable in the context of the duty to act in the best financial interests
+of beneficiaries.75
+2.72 As noted in the committee view below, there can be a lack of clarity regarding
+compliance with the BFID outside of circumstances where APRA is taking
+action. For instance, APRA’s recent enforcement action against Cbus Super to
+‘address material prudential concerns’ resulted in the fund trustee being
+required to adhere to a rectification plan to implement all recommendations of
+the independent Deloitte review into Cbus Super, including in relation to
+‘fundamental deficiencies across policies, practices, governance and oversight
+that primarily concern fitness and propriety processes and expenditure
+management’.76
+2.73 APRA stated that addressing the above issues will ensure the Cbus Super trustee
+is ‘better equipped to consider and prioritise members’ best financial interests
+in its decision-making, ultimately leading to improved member outcomes’.77
+2.74 Issues regarding super funds’ compliance with BFID obligations, along with
+issues relating to problems that can arise with directors and chairs who may
+have conflicts of interest, are also highlighted in regulatory action taken by
+APRA to disqualify First Super co-chair, Mr Michael O’Connor. In addition to
+his role as First Super co-chair, Mr O’Conner is also the National Secretary of
+the Manufacturing Division of the CFMEU. APRA’s action follows its
+investigation of a contract between First Super and the CFMEU for member and
+employer services (MESC contract) which concluded in 2023. APRA alleges that:
+2.75 APRA is alleging that, in his conduct, Mr O’Connor breached:
+… a number of the director covenants contained in the Superannuation
+Industry (Supervision) Act (SIS Act) including the covenants to act honestly,
+exercise the same degree of care, skill and diligence as a prudent
+superannuation entity director would exercise, act in the best financial
+75 Australian Prudential Regulation Authority, ‘APRA strengthens core prudential standard to
+support outcomes for members in super 2024’, Media Release, Jully 2024,
+https://www.apra.gov.au/news-and-publications/apra-strengthens-core-prudential-standard-to-
+support-outcomes-for-members; Ms Pai, Treasury, Committee Hansard, 13 December 2024, p. 13.
+76 APRA, ‘APRA accepts court enforceable undertaking from Cbus and launches investigation’, Media
+release, 11 February 2025.
+77 APRA, ‘APRA accepts court enforceable undertaking from Cbus and launches investigation’, Media
+release, 11 February 2025.
+21
+interests of beneficiaries, and to prioritise the interests of beneficiaries when
+in a position of conflict.78
+2.76 According to a recent media report, Mr O’Connor has denied APRA’s
+allegations. In his defence filed with the Federal Court in December 2024, Mr
+O’Conner stated that he had recused himself from First Super board members
+over the contract and that he had not spoken to other board members about the
+contract extension in question. Mr O’Conner’s defence also stated that he had
+declared his interest in the manufacturing division in the trustee’s conflict
+register. At the time of writing, the matter was ongoing and remained before the
+court.79
+Evidential burden
+2.77 There is minimal transparency on the day-to-day operation of the BFID other
+than court documents, media releases and Senate Estimates Hansard. This is
+inaccessible to consumers in the main.
+2.78 In 2021, APRA wrote to all RSEs emphasising evidentiary requirements to
+support BFID decisions. APRA advised:
+The best financial interests duty (BFID) sharpens the focus of all RSE licensee
+decisions, including on expenditure and investments. This reform places the
+onus firmly on RSE licensees to ensure, and demonstrate, that all decisions
+are consistent with the best financial interests of their members. Decisions
+must be supported by strong analysis and evidence in light of the
+implications of reversal of the burden of proof.80
+2.79 The Revised Explanatory Memorandum to the Treasury Laws Amendment
+(Your Future, Your Super) Bill 2021 further explains:
+Trustees should assess the costs and benefits of actions, which will
+commonly include quantifiable metrics to demonstrate what the anticipated
+financial outcome is and the reasonable basis for that expectation.81
+78 APRA, media release, ‘APRA seeks disqualification of First Super co-chair Michael O’Connor’, 6
+September 2024, https://www.apra.gov.au/news-and-publications/apra-seeks-disqualification-of-
+first-super-co-chair-michael-o%E2%80%99connor.
+79 Sumeyya Ilanbey, Sydney Morning Herald, ‘Union boss denies misusing position as super fund
+board director,’ 7 February 2025, https://www.smh.com.au/business/banking-and-finance/union-
+boss-denies-misusing-position-as-super-fund-board-director-20250206-p5la6r.html.
+80 APRA, Letter to RSE licensees: Implementing Your Future, Your Super reforms, July 2021,
+https://handbook.apra.gov.au/letter/516/letter-rse-licensees-implementation-your-future-your-
+super-reforms#fragment-119363
+81 Revised Explanatory Memorandum to the Treasury Laws Amendment (Your Future, Your Super)
+Bill 2021, https://parlinfo.aph.gov.au/parlInfo/download/legislation/ems/r6672_ems_a090cd8d-
+d5a1-4c47-b6ea-
+cdac26c828b6/upload_pdf/JC002674_Revised%20Explanatory%20Memorandum.pdf;fileType=app
+lication%2Fpdf - search=%22legislation/ems/r6672_ems_a090cd8d-d5a1-4c47-b6ea-
+cdac26c828b6%22 p. 46,
+22
+2.80 Treasury confirmed to the committee that a trustee would be obligated to record
+how it was complying with the duty. Ms Neena Pai, First Assistant Secretary,
+Retirement Income and Superannuation Division, Treasury advised that to
+support the legal obligation on trustees to ensure they are acting in the best
+financial interests of their members, their decisions ‘need to be supported by
+evidence and analysis’. 82
+2.81 Of note, BFID decisions are not reported to APRA. The reverse onus of proof
+only applies to civil proceedings commenced by the regulator.83
+2.82 In relation to APRA’s role enforcing these requirements, Ms Pai explained:
+APRA is responsible for taking action where there is evidence that a trustee
+has not acted in the best financial interests of members, and APRA has
+released and published a letter that speaks to how it's intensifying its
+supervisory approach in relation to superannuation fund expenditure.84
+Adequacy of documentation
+2.83 There are indications that some funds may not be meeting requirements to
+adequately document BFID in decision making.
+2.84 Recent enforcement action by APRA resulted in some funds being subject to
+review under additional licensing conditions. 85 Deloitte’s 2023 independent
+review of Cbus Super made 26 recommendations across a number of areas,
+including around ‘the process and governance of complying with BFID.’
+Deloitte wrote:
+It is our assessment that lack of consistency, appropriate process,
+appropriate governance, and necessary rigour, are all areas for
+improvement and currently lacking for the determination as to whether
+expenditure decisions have been made in the best financial interests of
+members.86
+2.85 Deloitte explained that its review:
+…makes a number of recommendations with respect to the design and
+operation of the BFID arrangements – in the interests of developing
+appropriate information and documentation to drive better decision making
+by the Board and management.
+https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bI
+d=r6672
+82 Ms Pai, Treasury, Committee Hansard, 13 December 2024, p. 13.
+83 The Treasury, Your Future, Your Super Review: Summary of Issues, April 2023, p. 18.
+https://treasury.gov.au/sites/default/files/2023-04/c2022-313936-yfys-review.pdf
+84 Ms Pai, Treasury, Committee Hansard, 13 December 2024, p. 13.
+85 Ms Pai, Treasury, Proof Committee Hansard, 13 December 2024, pp. 13-14.
+86 Deloitte, Independent Review, The Best Financial Interests Duty: Findings and Recommendations, pp.
+6-7.
+23
+2.86 Cbus Super has agreed in principle to the recommendations and the findings of
+Deloitte’s review, and is working with Deloitte and APRA to address the
+recommendations, including developing an action plan to strengthen its BFID
+framework.87
+Types of expenditure
+2.87 Concerns have been raised around particular categories of expenditure where
+BFID may be more difficult to establish because the return for members is harder
+to quantify, such as for discretionary or non-essential activities. This may
+include marketing (advertising, sponsorship and promotional material)
+expenditure, events, partnership agreements, research, subscription fees and
+outsourcing to related third parties.
+2.88 For example, in its review Deloitte investigated Cbus Super’s approach to
+expenditure on partnership agreements, advising it required stronger
+documentation evidencing BFID considerations. Deloitte highlighted the need
+for Cbus Super’s partnership proposals to be uplifted to:
+ Articulate how the stated purpose aligns to member outcomes (e.g.,
+lower costs, fees, improved benefits) in addition to business outcomes
+(growth in Members or funds under management);
+ Align analysis on financial benefits to member outcomes, including clear
+metrics quantifying how scale will impact Members and sensitivity
+analysis;
+ Set expectations for oversight during and post the period of the proposed
+Partnership Agreement, including how the agreement will be monitored
+to ensure that it continues to meet its intended purpose;
+ Provide details of the financing approach, including timing and
+proposed funding source.88
+2.89 Cbus Super announced it has begun to address the Deloitte recommendations,
+including ‘improvements in the way the Fund documents the value that
+industry partnership arrangements generate for the Fund and our members’. 89
+Cbus Super further stressed:
+The independent review has also notably observed that industry
+partnership arrangements are “an important mechanism through which
+87 Ms Pai, Treasury, Committee Hansard, 13 December 2024, pp. 13-14; CBUS, Question on notice, The
+Hon Mr Wayne Swan 002, [p. 9]; Cbus Super, Statement regarding Deloitte’s independent review report
+https://www.cbussuper.com.au/about-us/news/media-release/statement-regarding-deloitte-
+independent-review (accessed 5 February 2025).
+88 Deloitte, Independent Review, The Best Financial Interests Duty: Findings and Recommendations, pp.
+6-7.
+89 Cbus, Statement regarding Deloitte’s independent review report
+https://www.cbussuper.com.au/about-us/news/media-release/statement-regarding-deloitte-
+independent-review
+24
+industry superannuation funds achieve brand awareness, retain members
+and ultimately grow membership”. 90
+2.90 The committee also enquired about the benefits to Cbus Super’s members
+arising from events such as Cbus Super’s 40th anniversary celebrations, with
+consideration of BFID requirements. The event, costing around $387 000, was an
+in-person event for 750 attendees consisting of employees, stakeholders and
+industry representatives, and incorporated ‘an all staff strategy forum’.
+Mr Swan advised the committee that the cost was met using a pre-allocated
+budget for staff professional development.91
+2.91 In answer to questions on whether the event and venue hire would be in
+members’ best financial interest, Mr Swan stated:
+I'm certain it would have met the best financial interest test because it was
+an integral part of developing the fund, celebrating its history and learning
+the lessons of what it means for the future of the fund.92
+2.92 Similarly, the committee enquired about BFID considerations around the
+CFMEU’s ownership of 21 per cent of Cbus Super.93 In response to questions,
+Treasury officials reiterated that:
+… irrespective of the governance of the board and the composition of the
+board, it's very clear that trustees have a legal obligation to act in the best
+financial interests of their members. They have a legal obligation to prioritise
+their members' interests where there is a conflict of interest. They have an
+obligation to ensure their directors meet the fit-and-proper test, and, if those
+obligations aren't met, APRA is responsible for taking action. 94
+2.93 The committee put written questions on notice to Cbus Super regarding
+partnership agreements and research expenditure, seeking information on the
+purpose of the agreements and details of when relevant BFID assessments were
+conducted.95 Cbus Super referred the committee to its 2023–24 reporting
+90 Cbus, Statement regarding Deloitte’s independent review report
+https://www.cbussuper.com.au/about-us/news/media-release/statement-regarding-deloitte-
+independent-review
+91 CBUS Super - 001: Answers to questions on notice from Wayne Swan asked by Senator Andrew Bragg at a
+public hearing on 29 November 2024, (received 13 December 2024), p. 5.
+https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Economics/RetirementSyste
+m2024/Additional_Documents?docType=Answer%20to%20Question%20on%20Notice
+92 Mr Swan, Cbus, Committee Hansard, 29 November 2024, p. 10.
+93 Ms Pai, Treasury, Proof Committee Hansard, 13 December 2024, p. 14.
+94 Ms Pai, Treasury, Proof Committee Hansard, 13 December 2024, p. 14.
+95 CBUS Super - 004: Answers to written questions on notice asked by Senator Andrew Bragg to
+Wayne Swan on 20 December 2024. (received 17 January 2025);
+https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Economics/RetirementSyste
+m2024/Additional_Documents?docType=Answer%20to%20Question%20on%20Notice
+25
+disclosure document ‘additional details about expenses’ which lists expense
+details and explains:
+Super funds are required to publicly disclose certain types of expenses to
+members, so they can access meaningful information about their super fund.
+Below are further details about the expense categories:
+ Promotion, marketing and sponsorship payments
+ Payments to industrial bodies
+ Related party payments.96
+2.94 The Cbus Super expenses report does not provide any detail about BFID
+assessment process or timelines for the expenditure in question.
+Capital requirements
+2.95 The committee inquired into the risk of superannuation members’ funds being
+expended for various super fund capital requirements, including to pay for fines
+incurred by trustee board members. This is further discussed below.
+Personal liability for trustees and the use of members’ funds
+2.96 Following the conclusion of the 2017–19 Royal Commission into Misconduct in
+the Banking, Superannuation and Financial Services Industry (commonly
+known as the Hayne Royal Commission), in November 2020 the then Treasurer,
+the Hon Josh Frydenberg MP, introduced the Financial Sector Reform (Hayne
+Royal Commission Response) Bill 2020 into the House of Representatives.
+Among other things, the bill made superannuation fund trustees personally
+liable for breaches of Commonwealth law.97
+2.97 As explained in the bill’s explanatory memorandum:
+… Part 2 [of schedule 9 of the bill] amends the SIS Act’s [Superannuation
+Industry (Supervision) Act 1993] existing indemnification rules to prevent
+superannuation trustees and their directors from using trust assets to pay
+criminal, civil or administrative penalties incurred in relation to a
+contravention of any Commonwealth law.98
+2.98 The AFR stated that this amendment posed a challenge for non-profit industry
+super funds as, unlike bank-owned funds with shareholder capital, they are
+96 Cbus, Additional details about expenses for the year ended 30 June 2024,
+https://www.cbussuper.com.au/content/dam/cbus/files/governance/reporting/amm-fy24-detailed-
+website-disclosure.pdf.
+97 Investment Magazine, Funds race to court to amend trust deeds, 10 February 2022,
+https://www.investmentmagazine.com.au/2022/02/funds-race-to-court-to-amend-trust-deeds/
+(accessed 5 February 2025). For further information on the bill, please see:
+https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bI
+d=r6630
+98 Financial Sector Reform (Hayne Royal Commission Response) Bill 2020 Corporations (Fees)
+Amendment (Hayne Royal Commission Response) Bill 2020 Explanatory Memorandum, p. 164.
+26
+held by trustee companies with little funding. Hence, it noted that a fine could
+quickly render a trustee insolvent.99
+2.99 To address this issue, following passage of the bill in December 2020, a number
+of Australian industry superannuation funds applied through state courts to
+amend their trust deeds to permit the imposition of levies on fund members to
+build 'trustee risk reserves' to reimburse trustees and directors for fines they
+may be liable for.100
+2.100 For example, in late 2021, the South Australian Supreme Court approved
+AustralianSuper’s application to amend its trust deed, allowing it to impose an
+annual risk fee on its members of 0.015 per cent of fund assets—equivalent to
+approximately $35 million.101 Similarly, several other super funds, including
+Cbus Super, QSuper, Hostplus, and Spirit Super sought court approval to use
+members’ money to pay fines incurred by directors.102
+2.101 As reported by the AFR in November 2021, AustralianSuper’s then newly
+appointed chief executive officer, Paul Schroder, suggested that the fund’s
+members were 'effectively' AustralianSuper’s shareholders—rather than the
+Australian Council of Trade Unions and the Australian Industry Group, which
+are its legal shareholders. He said:
+[Members are] taking all the risk if their money is inside this...pool, and what
+we’re doing is just creating a risk reserve to cope with risks that we might
+need to fund along the way.103
+2.102 Cbus also updated its trust deed in December 2021 to allow the Cbus trustee to
+take a 'trustee services fee' from the fund. The funds collected from this fee were
+to be set aside in the trustee’s own account and used to cover the costs that the
+amended legislation prevented a super fund from reimbursing. In explaining
+these changes, Cbus stated:
+99 Australian Financial Review, Hume threatens laws to stop bailouts using members’ money,
+22 November 2021, https://www.afr.com/policy/tax-and-super/hume-threatens-laws-to-stop-
+bailouts-using-members-money-20211122-p59awf (accessed 6 February 2025).
+100 Investment Magazine, Funds race to court to amend trust deeds, 10 February 2022 (accessed 5
+February 2025).
+101 Australian Financial Review, Super fund gets the green light to pay fines with members’ cash,
+18 January 2022, https://www.afr.com/politics/super-funds-get-green-light-to-pay-fines-with-
+members-cash-20220118-
+p59p2a#:~:text=AustralianSuper%20was%20given%20the%20go,the%20detriment%20of%20Austr
+alianSuper's%20members (accessed 6 February 2025); and Investment Magazine, Funds race to
+court to amend trust deeds, 10 February 2022 (accessed 5 February 2025).
+102 Australian Financial Review, Hume threatens laws to stop bailouts using members’ money, 22
+November 2021 (accessed 6 February 2025).
+103 Australian Financial Review, Hume threatens laws to stop bailouts using members’ money,
+22 November 2021 (accessed 6 February 2025).
+27
+From 1 January 2022 a trustee cannot pay for certain costs, like trustee
+penalties, out of the assets of a super fund. We have a strong track record of
+complying with superannuation laws, but this new law presents a unique
+challenge for trustees of profit-for-member super funds like Cbus.
+Cbus and other profit-for-members super funds don’t have access to
+separate funding of its own to meet costs like these. So while for-profit super
+funds (e.g. retail funds) will have their own income and funding available,
+industry super funds have had to develop an alternative method to cover
+these costs and manage these financial risks.104
+2.103 As reported by The Australian, analysis of APRA data undertaken by the
+Coalition indicated that Cbus’ administration fees had increased since the
+change to its trust deed—from $97.5 million in 2020 to $211.1 million in 2023.105
+2.104 APRA was involved in the majority of these cases, appearing as amicus curiae
+(friend of the court) to 'ensure the courts were fully appraised of all relevant
+legal matters, including the new best financial interests duty, the context of the
+amended provisions and principles of prudent practice'.106
+2.105 A number of stakeholders raised concerns regarding this trend to amend trust
+deeds following passage of the bill. For example, in an address to the Australian
+Financial Review Super and Wealth Summit in Sydney on 22 November 2021,
+the then Minister for Superannuation, Financial Services and the Digital
+Economy, Senator the Hon Jane Hume, said the following:
+Recently, a number of super funds applied to the Courts seeking permission
+to charge members a new fee to build a trustee financial contingency reserve.
+And let’s not kid ourselves as to what this really is; taking member’s money
+out of their retirement savings to set up a pool of funds - owned by the
+trustee - to ensure they can pay for penalties due to their own misconduct.
+As you’ve just heard me say, so many of the Government reforms are about
+lowering fees and protecting retirement savings. So the application of a
+whole new category of fee charged to members, I feel, is a retrograde step.107
+2.106 As part of its broad inquiry into Australia’s four major banks and other financial
+institutions, on 10 February 2022, the House of Representatives Standing
+104 Cbus Super, Changes to Cbus’ Trust Deed, https://www.cbussuper.com.au/about-us/news/cbus-
+news/changes-to-cbus-trust-deed (accessed 10 February 2025).
+105 The Australian, Wayne Swan accused of giving misleading evidence to the Senate about Cbus conduct, 7
+January 2025, https://www.theaustralian.com.au/nation/wayne-swan-accused-of-lying-to-senate-
+about-cbus-conduct/news-story/6a51970ef304aeb73e0bb54d832a22d2 (accessed 10 February 2025).
+106 Ms Margaret Cole, Executive Board Member, Australian Prudential Regulation Authority, House of
+Representatives Standing Committee on Economics Committee Hansard, 10 February 2022, p. 8.
+107 The Department of the Treasury, Address to the Australian Financial Review Super and Wealth
+Summit, Sydney, 22 November 2021, https://ministers.treasury.gov.au/ministers/jane-hume-
+2020/speeches/address-australian-financial-review-super-wealth-summit-sydney (accessed 6
+February 2025).
+28
+Committee on Economics (House Economics Committee) held a hearing into the
+issue. In a media release, the then Chair of the committee, Jason Falinski MP,
+stated the following:
+Amendments to Section 56 of the [SIS Act] were made as part of the
+Government’s response to the Hayne Royal Commission to protect the
+funds of members by preventing trustees from using these funds to pay for
+fines incurred by their own actions. However, there have been wide reports
+of superannuation funds seeking judicial opinions to contravene this
+provision.
+The committee deserves an explanation from APRA, ASIC and Treasury as
+to how they are interpreting these new provisions, and what actions they
+will take to ensure that the decisions made by Parliament are not easily and
+carelessly overturned. The committee would like to know how
+superannuation trustees could fund their penalties, and ways to do so that
+do not put member’s funds at risk or increase their fees.108
+2.107 In her opening remarks to the House Economics Committee at the hearing on
+10 February 2022, an Executive Board Member of APRA, Ms Margaret Cole,
+explained:
+In late 2021 … several RSE [registrable superannuation entity] licensees
+applied to the various state courts for advice and direction in regard to
+amending the trustees to enable the charging of fees with a view to building
+a financial contingency reserve on the trustee balance sheet.
+…
+[W]ithout the ability to build and maintain a risk reserve, an otherwise
+well-run and well-performing trustee could be rendered insolvent by a
+minor operational administrative error such as submitting data one day late,
+resulting in a maximum penalty of $11,100. A disorderly failure of an
+otherwise sound and sustainable licensee would be likely to be severely
+detrimental to members, as it would likely impose material costs and create
+significant operational risks.
+…
+Based on the facts of the applications, their analysis of the wording of the
+amended provisions and the relevant legal precedent, the courts concluded
+that the charging of a fee of this nature is not inconsistent with the
+amendments to section 56(2) and section 57(2) of this act.109
+108 Parliament of Australia, House Economics committee to inquire into superannuation ‘war chests’, 8
+February 2022,
+https://www.aph.gov.au/About_Parliament/House_of_Representatives/About_the_House_News/
+Media_Releases/House_Economics_committee_to_inquire_into_superannuation_war_chests
+(accessed 6 February 2025).
+109 Ms Margaret Cole, Executive Board Member, Australian Prudential Regulation Authority, House
+of Representatives Standing Committee on Economics Committee Hansard, 10 February 2022, pp. 8, 9.
+29
+2.108 This issue was also raised at the committee’s hearing on 14 November 2024,
+where the Chief Strategy Officer of AustralianSuper, Ms Paula Benson, clarified
+who ultimately paid regulatory fines:
+CHAIR: Let's talk about the regulatory fines issue. If AustralianSuper gets
+a regulatory fine, whom pays? Is it the members or is it the unions and
+employer groups?
+Ms Benson: In the instance where the fund is fined, that is paid from the
+trustee risk reserve.
+CHAIR: Whom pays for that?
+Ms Benson: The trustee risk reserve is funded by administration fees and
+investment returns for members.
+CHAIR: The members, yes?
+Ms Benson: Yes.110
+Arrangements with member and employer sponsoring organisations
+2.109 As reported by Sky News, data released by the Australian Prudential Regulation
+Authority (APRA) in October 2024 revealed that major superannuation funds
+spent more than $400 million in members’ savings on marketing and
+sponsorship in the 2023 financial year. A number of superannuation funds,
+including AustralianSuper, Cbus, and First Super, paid unions a total of about
+$14 million in the same period—this included $3.8 million paid to the
+Construction, Forestry and Maritime Employees Union (CFMEU) and the
+Construction, Forestry, Maritime, Mining and Energy Union (CFMMEU).111
+2.110 Just prior to APRA releasing the data, its deputy chair, Ms Margaret Cole, wrote
+to all RSE licensees noting that:
+Despite obligations on RSE Licensees to consider the best financial interests
+of their members and consistently to promote those interests, APRA has
+observed deficient practices and questionable expenditure in some areas.112
+Cbus
+2.111 As disclosed in Cbus’s 2024 annual report, marketing and promotion of the fund
+included partnership arrangements with the fund’s member and employer
+110 Ms Paula Benson, Chief Strategy Officer, AustralianSuper, and Senator Andrew Bragg, Chair,
+Senate Economics References Committee, Committee Hansard, 14 November 2024, p. 20.
+111 Sky News, New data reveals major super funds handed millions of member’s savings to CFMEU, other
+unions over 2023 financial year, 30 October 2024,
+https://www.skynews.com.au/business/finance/new-data-reveals-major-super-funds-handed-
+millions-of-members-savings-to-cfmeu-other-unions-over-2023-financial-year/news-
+story/00e99f86bc40bf43d4fa56c18a07b72f (accessed 10 February 2025).
+112 APRA, APRA intensifying supervision of fund level expenditure, 22 October 2024,
+https://www.apra.gov.au/apra-intensifying-supervision-of-fund-level-expenditure (accessed 10
+February 2024).
+30
+sponsoring organisations. In the 2023–24 financial year over $2.8 million was
+paid, or payable, to the fund’s sponsoring organisations for these partnership
+payments, as well as for directors’ fees and rental payments—this included over
+$1.8 million directly to CFMEU alone.113 Please see figure 2.1 below.
+Figure 2.1 Cbus - Payments made to sponsoring organisations
+Source: Construction and Building Unions Superannuation Fund, 2004 Annual Report, p. 46.
+AustralianSuper
+2.112 As disclosed in AustralianSuper’s 2023–24 annual report, a number of related
+party transactions occurred, including payments to directors and committee
+members, and those for advertising, marketing, and education services. In the
+2023–24 financial year, this amounted $1.2 million paid to four unions:
+Australian Manufacturing Workers’ Union, Australian Workers’ Union, Finance
+Sector Union, and United Workers Union.114 Please see figure 2.2 below.
+Figure 2.2 AustralianSuper - Transactions with related parties
+Source: AustralianSuper, Annual Financial Report 30 June 2024, p. 58.
+2.113 The committee understands that these substantial transfers make it clear that the
+shareholders are prepared to take significant funds from the super entity but are
+113 Construction and Building Unions Superannuation Fund, 2024 Annual Report, p. 46.
+114 AustralianSuper, Annual Financial Report 30 June 2024, p. 58.
+31
+not placing capital into the entity to meet regulatory fines. These directors' fees
+and other 'sponsorships' do not include the multiple millions paid by the funds
+to union-affiliated industry bodies.
+Insurance standards
+2.114 Superannuation regulations require that life insurance policies, including TPD
+cover, are included as part of default superannuation insurance arrangements,
+with many superannuation trustees also including income protection insurance
+as part of this cover.115
+2.115 Seventy per cent of Australians who hold life insurance hold that insurance
+through their superannuation fund, and over $5 billion paid out in insurance
+claims to superannuation fund members in 2020.116
+2.116 Clearly, life insurance products, and sometimes income protection insurance,
+are central to the value and service Australians expect from their
+superannuation funds. However, during this inquiry various concerns were
+raised regarding the standards that apply to insurance products provided
+through superannuation, including problems that have arisen in relation to
+payouts for death and total and permanent disability (TPB) claims.
+Claims delays
+2.117 Evidence to the committee suggests that delays in insurance claims handling
+may be a significant problem in the superannuation industry. In its submission,
+AFCA noted that the ‘top issue raised in complaints…about superannuation
+over the past three financial years (2021-2023) related to delays in claims
+handing.’117 This made up 19 per cent of the complaints AFCA received relating
+to superannuation during that period.118
+2.118 AFCA explained the severe impacts such delays can have on consumers:
+The impact of delay is significant, affecting consumers at a time of often
+acute vulnerability as they manage the financial consequences of a life
+changing episode of illness or disability. Lengthy or unnecessary delay in
+claims handling can amplify confusion, uncertainty, and stress navigating
+an already complex process at a difficult time.119
+115 TAL, Submission 15, p. 10.
+116 APRA, ‘Life insurance in superannuation: Improving outcomes for members,’
+https://www.apra.gov.au/life-insurance-superannuation-improving-outcomes-for-
+members#:~:text=Consequently%2C%20almost%2070%20per%20cent,insurance%20claims%20to%
+20superannuation%20members. (accessed 5 February 2025).
+117 AFCA, Submission 41, p. 11.
+118 AFCA, Submission 41, p. 11.
+119 AFCA, Submission 41, p. 11.
+32
+2.119 In its submission, AFCA listed what it had found to be the cause for delays in
+the processing of superannuation related insurance claims:
+ Poor processes that see repeat requests for the same or irrelevant
+information.
+ Complexity and a lack of trustee oversight of the insurer's handling of a
+claim.
+ Lack of clarity about the process to be followed in making a claim.
+ Reliance on 'standard' letters or templates over more tailored
+communications.
+ Poor or incorrect information (on websites, product documentation, or
+from call centres).
+ Under-resourcing or poor performance on the part of outsourced
+administration providers.
+ Under-resourcing within trustee offices.
+ Reduced ability of trustee staff to keep pace with ‘business as usual’ while
+also managing work associated with mergers and successor fund
+transfers.120
+2.120 APRA noted in its submission that ‘there are multiple factors that contribute to
+delays – including insufficient trustee oversight of resourcing and processing of
+clams; lack of timely response to issues identified; and time required to validate
+correct beneficiaries and their identities.’121
+2.121 The Council of Australian Life Insurers (CALI) confirmed that this was an issue
+it took seriously and it had been engaging with superannuation industry
+associations in order to improve claims handing at an industry level.122 In its
+submission, it set out that the ‘Life Code of Practice’ provides timeframes for life
+insurers to obtain all required information, complete inquiries and make a
+decision on a particular claim. These timeframes are:
+ For income protection (‘income-related claims’): two months from when the
+insurer is notified of the claim, or two months from the end of the waiting
+period, whichever is later
+ For death and TPD claims (‘lump sum claims’): six months from when the
+insurer is notified of the claim or from the end of any waiting period,
+whichever is later.123
+2.122 CALI reported in its submission that the average time for a decision to be made
+in a superannuation related insurance claim in the period of six months to July
+2023 was:
+120 AFCA, Submission 41, p. 12.
+121 APRA, Submission 29, p. 3.
+122 CALI, Submission 38.1, pp. 9–10.
+123 CALI, Submission 38.1, p. 9.
+33
+ 2 months for income protection insurance;
+ 4.9 months for TPD insurance; and
+ 1.1 months for death insurance.124
+2.123 However, it also noted that the data from AFCA showed that timeframes had
+not been met for some claims and reiterated AFCA’s reports that there had been
+an increase in the amount of complaints related to insurance claims handling in
+superannuation.125
+2.124 Ms Mary Delahunty, CEO of the Association of Superannuation Funds Australia
+(ASFA), provided more context at a public hearing:
+It might be important for the committee to note that the death benefit space
+is complex by nature because there are two decisions to be made. There's an
+insurance component to the decision and there is the superannuation payout
+as well. We call it a death benefit payment and it has those two components
+to it. So, as you can imagine, there are a number of parties involved. As it's
+an untimely death, there can often be some complexity to the requirements
+that a fund and insurer need in the paperwork area. When we're looking at
+policy changes, for example, to streamline death certificates across state,
+territory and other jurisdictions, that goes to that easing of paperwork.
+ASFA's members provided a guidance note that will help to raise the
+standards of funds that are making these difficult decisions and going
+through these complex arrangements. While that guidance note doesn't
+provide, I understand, any comfort to the individuals who have experienced
+poor service, it should provide some comfort to the committee looking at a
+systemic level that there are improvements on foot and that the sector
+understands they need to improve in this area.126
+2.125 Ms Nina Pai, First Assistant Secretary of the Retirement Income and
+Superannuation Division at Treasury, confirmed that Treasury was currently
+engaging with ASIC on ‘a piece of work’ looking at minimum response times
+for superannuation funds to process insurance claims.127
+Cbus Super insurance claim delays
+2.126 On 12 November 2024, ASIC filed an originating application in the Federal
+Court of Australia for civil penalty proceedings against United Super Pty Ltd as
+124 CALI, Submission 38.1, p. 9.
+125 CALI, Submission 38.1, p. 9.
+126 Ms Mary Delahunty, Chief Executive Officer, Association of Superannuation Funds of Australia,
+Committee Hansard, 14 November 2024, p. 3.
+127 Ms Neena Pai, First Assistant Secretary, Retirement Income and Superannuation Division,
+Department of the Treasury, Committee Hansard, 13 December 2024, p. 17.
+34
+the trustee for Cbus Super. The proceedings related to allegations made by ASIC
+that Cbus Super had contravened various sections of the Corporations Act.128
+2.127 In its media release ASIC claimed that ‘more than 10 000 members and claimants
+of the Construction and Building Unions Superannuation Fund were impacted
+by death benefits and total and permanent disability insurance claims taking
+more than 90 days to be processed…’129
+2.128 Further to this, ASIC alleged that CBUS may have contravened the following
+sections of the Corporations Act:
+ ss 912A(1)(a) & (5A) by failing to act efficiently, honestly and fairly in the
+handling of its members’ claims for death benefit payments and TPD
+insurance payments;
+ section 912DAA(1) and (7) for failing to lodge a reportable situation
+report within 30 days of becoming aware of a reportable situation; and
+ Section 1308(5) for failing to take reasonable steps to ensure the breach
+report lodged on 5 August 2023 was not false or misleading in a material
+particular.130
+2.129 At a public hearing on 14 November 2024, Mr Kristian Fok, CEO of Cbus Super
+stated:
+I do want to again say sorry for the impact that the delays in processing
+insurance claims have had on our members and their families. We are
+committed to do better and we will. Many of our members hold high-risk
+jobs where injuries and death are more common. We know that delays in
+processing claims can add to their distress at a difficult time. I want to
+reassure the committee that we remain focused on our members and their
+best financial interests and, like many institutions experiencing rapid
+growth, it has taken time for Cbus to mature and attract the right personnel
+to meet our needs.131
+2.130 Mr Fok stated further that roughly 80 per cent of the claims related to the
+litigation commenced by ASIC had been resolved and that the members and
+their beneficiaries had received $755 million in benefits. He also pointed out that
+Cbus’ insurance claim payouts were higher than the industry average at around
+97 per cent.132
+128 ASIC, ‘ASIC sues Cbus alleging systemic claims handling failures,’ Media Release, 12 November
+2024.
+129 ASIC, ‘ASIC sues Cbus alleging systemic claims handling failures,’ Media Release, 12 November
+2024.
+130 ASIC, ‘ASIC sues Cbus alleging systemic claims handling failures,’ Media Release, 12 November
+2024.
+131 Mr Kristian Fok, Chief Executive Officer, Cbus Super, Committee Hansard, 14 November 2024, p. 7.
+132 Mr Kristian Fok, Chief Executive Officer, Cbus Super, Committee Hansard, 14 November 2024, p. 7.
+35
+2.131 In his evidence before the committee, Mr Fok was adamant that Cbus Super was
+not withholding money and would not stand to benefit from doing so. While
+taking responsibility for the delays, he stated that the delays had primarily
+emanated from Cbus Super’s administrator and the fund was working to rectify
+the delays. He confirmed that Cbus Super was initiating a number of actions in
+order to prevent such delays from occurring.133
+2.132 Mr Fok did concede that some members were still suffering from the delays as
+Cbus Super worked through the payments, but it was priority for Cbus Super
+to fix this. He confirmed that Cbus Super had put in place a compensation
+scheme, designed with ASIC’s compensation guidelines in mind, for members
+who had suffered as a result of the delays.134
+2.133 In response to a question, Mr Fok told the committee he did not want to
+‘speculate’ on who, out of the members of the fund or the trustee company
+owners, would pay any fines which may be levied against Cbus Super if there
+was a finding made against it in the case brought by ASIC.135
+2.134 At another public hearing, Cbus Super’s insurer, TAL Life Limited gave
+evidence. Ms Jenny Oliver, Chief Executive of Group Life and Retirement at
+TAL, said in response to a question that she was unable to offer any insight on
+why there had been a delay in the payment of benefits to Cbus Super’s
+members.136
+2.135 Asked about potential incentives within the contractual terms between TAL and
+Cbus Super for less claims to be paid, Ms Oliver told the committee she did not
+think such incentives existed, and pushed back against the characterisation of a
+‘bonus payment’ to Cbus Super if less claims were made:
+What I think you are referring to is what we in the industry typically call
+'premium adjustment models'. The objective of a premium adjustment
+model is primarily to ensure that members of superannuation funds pay
+efficient and fair premiums. We recognise there is uncertainty in
+determining what the ultimate claims experience will be, but we determine
+the initial premium based on our best estimate. But there can be variations
+and volatility in that. A premium adjustment model works to align the
+ultimate premium to the actual claims rather than the expected claims, and
+it does that by reviewing the claims that are received against the initial
+expectations. That can see adjustments in premiums made over time. That
+can see payments flow between the insurer back to the fund, into their
+insurance reserves. Similarly, we can see payments go from the
+133 Mr Kristian Fok, Chief Executive Officer, Cbus Super, Committee Hansard, 14 November 2024, p. 11.
+134 Mr Kristian Fok, Chief Executive Officer, Cbus Super, Committee Hansard, 14 November 2024, p. 11.
+135 Mr Kristian Fok, Chief Executive Officer, Cbus Super, Committee Hansard, 14 November 2024, p. 11.
+136 Ms Jenny Oliver, Chief Executive, Life and Retirement, TAL Life Limited, Committee Hansard, 13
+December 2025, p. 6.
+36
+superannuation fund back to the insurer. It is not a sharing of profit; it is an
+adjustment to the premiums over the longer term.137
+2.136 At a further public hearing, Mr Wayne Swan, Chair of Cbus Super, was asked
+whether the fund used a risk and control matrix in order to mitigate risks, such
+as insurance payment delays. Mr Swan confirmed that Cbus Super does have a
+risk matrix and it was further confirmed by Dr John Edwards, Chair of the Board
+Risk Committee at Cbus, that payment of insurance claims was ‘an important
+element in our risk control framework.’138
+2.137 Through further questioning Mr Swan placed responsibility for the delays in
+insurance payments on Link Group, Cbus Super’s external administrator.139
+2.138 At the same hearing, Cbus Super was asked to provide their risk and control
+matrix to the committee which was taken on notice.140 On 13 December 2024,
+Cbus Super responded to the committee’s request to provide the register:
+The Fund’s risk register contains sensitive and confidential information and
+therefore is not able to be disclosed publicly.
+The Fund’s risk framework outlines how it identifies and manages risk,
+including insurance risk and the elements of that process. See pages 34-35 of
+the Cbus Annual Integrated Report 2024 for further information about how
+the Fund identifies and manages risk.141
+2.139 As at the time of writing, Cbus Super has not provided the committee with its
+risk and control matrix.
+Recent developments
+2.140 On 28 January 2025, the Albanese Government announced a new mandatory
+service standard for the superannuation industry. The Treasurer, the
+Hon Dr Jim Chalmers MP, and the Minister for Financial Services, the Hon
+Stephen Jones MP, advised in a joint media release that the new standards will
+apply to ‘all large APRA-regulated superannuation funds’, targeting problem
+areas such as:
+ The timely and compassionate handling of death benefits;
+ Fair and efficient processing of insurance claims; and
+137 Ms Jenny Oliver, Chief Executive, Life and Retirement, TAL Life Limited, Committee Hansard, 13
+December 2025, p. 6.
+138 Mr Wayne Swan, Chair, Cbus Super, Committee Hansard, 29 November 2024, p. 5; Dr John Edwards,
+Chair, Board Risk Committee, Cbus Super, Committee Hansard, 29 November 2024, p. 5.
+139 Mr Wayne Swan, Chair, Cbus Super, Committee Hansard, 29 November 2024, p. 5.
+140 Mr Wayne Swan, Chair, Cbus Super, Committee Hansard, 29 November 2024, p. 5.
+141 Cbus Super, answer to question on notice CBUS Super–001, 29 November 2024 (received 13
+December 2024), p. [3].
+37
+ Clear, respectful and accessible communications with members.142
+2.141 The government further announced that ‘Treasury will work closely with
+consumer advocates, regulators and industry stakeholders to develop the
+standards. Draft standards will be released for public consultation.’143
+2.142 A further recent development relates to Rest Super and the charging of
+insurance premiums. According to reporting, members of Rest Super had been
+charged insurance premiums for insurance they had opted out of. A statement
+from a Rest Super spokesperson stated that this error had affected only ‘a small
+number of uninsured Rest members’:
+Once identified, the error was addressed quickly and the impact was limited
+to less than 2 500 members…Rest wrote to the impacted members to inform
+them of this mistake, and advised them how to cancel the insurance and
+have any premiums refunded.144
+Committee view
+Independence and competency of superannuation trustee boards and governance
+standards
+2.143 Superannuation trustees have a critical role to play in ensuring the sound and
+effective management of the assets of fund members. Evidence to the committee
+underlined the importance of getting the composition and capability of trustee
+boards right, and the risks that arise when this does not happen.
+2.144 Independent directors, as this committee heard, can expand the skills and
+capabilities of boards, and enhance decision-making by providing boards with
+an objective perspective. Independent directors will also help hold other
+directors to account, and help guard against conflicts of interest, and in doing
+so protect the interests of fund members.
+2.145 The committee considers that governance of superannuation trustee boards
+would be similarly enhanced by a requirement for the appointment of
+independent Chairs. The committee also considers that the governance of
+142 Treasurer, The Hon Dr Jim Chalmers MP and Assistant Treasurer The Hon Stephen Jones MP,
+Media Release, ‘Mandatory service standards for the superannuation industry’, 28 January 2025,
+https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/mandatory-service-
+standards-superannuation-industry.
+143 Treasurer, The Hon Dr Jim Chalmers MP and Assistant Treasurer The Hon Stephen Jones MP,
+Media Release, ‘Mandatory service standards for the superannuation industry’, 28 January 2025,
+https://ministers.treasury.gov.au/ministers/jim-chalmers-2022/media-releases/mandatory-service-
+standards-superannuation-industry.
+144 Cliona O’Dowd, ‘Rest Super insurance bungle hits thousands of members’, The Australian, 7
+February 2025, (accessed 7 February 2025).
+38
+superannuation trustee boards would be further enhanced by mandating
+additional skills requirements for directors.
+2.146 As noted earlier in this chapter, superannuation trustee boards are not currently
+required to have independent directors or an independent Chair. The committee
+believes this needs to change to ensure that that the superannuation industry is
+subject to the highest governance standards possible.
+2.147 The committee also believes that the current fit and proper processes for
+appointing directors of superannuation trustee boards need to be more robust.
+In particular, the committee considers new competency rules should be
+introduced to mandate relevant director experience requirements. Further, the
+committee considers that the appointment of directors should be made more
+transparent by requiring superannuation trustees to publish the skills matrix
+used in their fit and proper assessments.
+2.148 The committee has significant reservations regarding Mr Paddy Crumlin’s
+continuing role on the board of Cbus and considers that he fails to meet the 'fit
+and proper persons test' required of superannuation fund board members,
+including how the fit and proper assessment applies to a director’s competence
+and experience. The committee highlights that, as disclosed by APRA in its first
+annual performance test in 2021, Mr Crumlin was the chair of the worst
+performing superannuation fund in Australia at that time, Maritime Super.
+2.149 The committee considers that it is an unsatisfactory arrangement whereby
+superannuation funds are not held to the same governance standards as many
+of the companies in which they invest their members’ funds. The effective
+administration of these funds is vital to the retirement incomes of millions of
+Australians and to delivering the necessary long-term capital required to build
+Australia’s economy. Given this, the committee considers that superannuation
+funds could, to the extent that they are relevant, have similar governance
+arrangements to the Corporate Governance Principles and Recommendations issued
+by the ASX Corporate Governance Council.
+Recommendation 1
+2.150 The committee recommends that a requirement be introduced for
+superannuation trustee boards to have a majority of independent directors,
+and an independent Chair.
+Recommendation 2
+2.151 The committee recommends that director competency rules be introduced,
+which would mandate, at a minimum, relevant experience requirements that
+would apply to the chair of a superannuation trustee board.
+39
+Recommendation 3
+2.152 The committee recommends that superannuation funds be required to
+maintain and make public a skills matrix for the purposes of conducting the
+Fit and Proper process for the appointment of directors.
+APRA’s role in relation to trustee conflicts of interest
+2.153 Australians rightly expect that their retirement savings are managed free from
+any conflicts of interest. However, as considered in this report, directors of some
+superannuation trustee boards may have conflicts of interest that undermine
+their ability to act in the best financial interest of fund members.
+2.154 Currently, APRA has powers under the SIS Act to commence court proceedings
+which, if successful, would disqualify a person from being a superannuation
+trustee. Additionally, when the FAR commences for superannuation trustees
+APRA will have further powers to take administrative action in situations where
+persons in regulated entities are found to have breached their accountability
+obligations.
+2.155 Nonetheless, the committee believes that when directors of superannuation
+trustee boards are assessed to have material conflicts of interest, APRA should
+have clear powers to expeditiously remove those trustees from their positions.
+Recommendation 4
+2.156 The committee recommends that the Australian Prudential Regulation
+Authority (APRA) be empowered with an adjudicable pathway to remove a
+trustee where an assessment is made that a material conflict of interest exists.
+Mandatory reporting by APRA on BFID activities
+2.157 The committee is concerned there is a lack of transparency around
+superannuation fund Best Financial Interest Duty (BFID) frameworks,
+particularly how BFID assessments, audit processes and outcomes are
+determined. It seems to the committee that what clarity there is in relation to
+compliance with BFID is only provided when APRA takes regulatory action.
+2.158 Whilst the 2021 reforms reversed the burden of proof in civil litigation against
+the trustee, evidence of fund decision making is not publicised or reported to
+APRA.
+2.159 Although some funds publish details of their expenditure on activities such as
+subscription fees for associations/organisations, marketing/advertising, events,
+advice and partnership, the BFID considerations are not always evident.
+2.160 The committee believes that mandatory reporting to APRA of super fund BFID
+processes should be introduced to increase the information available to APRA,
+supporting its role providing independent oversight of the application of the
+standards.
+40
+2.161 Further, the committee believes that APRA should publish fund BFID reporting
+to enhance transparency of fund decision making.
+2.162 The committee observes that the new retirement reporting framework on
+retirement outcomes commencing in 2027 could encompass BFID reporting.
+Recommendation 5
+2.163 The committee recommends the government introduce new mandatory
+reporting requirements on the Australian Prudential Regulation Authority
+(APRA) to report on Best Financial Interest Duty (BFID) decisions of super
+funds, to align with existing APRA standards.
+Capital requirements, related party payments, and trust deed amendments
+2.164 In amending their trust deeds and setting up risk reserves following passage of
+the Financial Sector Reform (Hayne Royal Commission Response) Bill 2020, the
+committee is concerned that superannuation fund trustees are confusing their
+own personal interests with those of their members. The committee finds this
+especially disturbing given that these entities have a legal duty to exercise their
+powers, and perform their duties, in the best financial interests of their
+beneficiaries.
+2.165 The committee considers that it is inappropriate for superannuation fund
+members to fund trustee risk reserves to pay for fines and penalties incurred by
+trustees who act inappropriately—especially when they, and their related
+organisations, generally have access to significant resources which could be
+drawn upon instead of members’ funds. These arrangements have the potential
+to have a material negative impact on members’ retirement savings if—or, more
+likely, when—the risk reserve is called upon due to trustee misconduct.
+2.166 The committee also considers that by appearing as a friend of the court—and
+facilitating trust deed amendments permitting the raising of risk reserves to pay
+for trustee misconduct—the prudential regulator, APRA, has not acted in the
+best interests of superannuation fund members.
+2.167 The committee is concerned that fund members are now paying higher fees as a
+result of these trust deed amendments and that this outcome does not align with
+the original intent of the bill. As such, the committee considers that all funds,
+including profit-for-member funds, such as Cbus and AustralianSuper, should
+maintain access to separate funding to meet the various costs to which they may
+be liable, including trustee penalties and compensation payments. Members
+should never be liable for these penalties and payments—directly or indirectly.
+2.168 The committee is also alarmed with figures showing that hundreds of millions
+of dollars of superannuation members’ savings are being spent on marketing
+and sponsorship, and that millions are being provided to related parties—
+including unions and employer sponsoring organisations. Although the
+41
+committee cautiously welcomes APRA’s 'intensified supervision approach' to
+fund expenditure announced in October last year, it will continue to observe
+industry developments and regulatory actions closely.
+Recommendation 6
+2.169 The committee recommends that the government introduce legislation which
+would require all superannuation funds to maintain adequate funding, raised
+by the shareholders separate from members' assets, to meet the various costs
+to which they may be liable, including fines for trustee misconduct and
+compensation payments resulting from misadministration. This funding
+should not be provided for, directly or indirectly, by members' funds and
+must come from the shareholders.
+Insurance standards
+2.170 The committee finds that there is clear evidence that there are failings within the
+superannuation industry around the payment of insurance claims to members.
+This is highly concerning, as fund members making these claims are often
+suffering from poor health, significant stress and vulnerability, with the added
+stress of delayed claims processing only adding to this distress.
+2.171 The committee was very concerned by the recent commencement of legal action
+by ASIC against Cbus Super for delays in payment of claims to members. This
+action exemplifies the problems of insurance within the superannuation
+industry and the committee will continue to follow this case with interest.
+2.172 Cbus Super’s lack of cooperation with the committee in providing it with
+information asked for in questions on notice, in particular its risk and control
+matrix, was also disappointing. The committee’s investigations into this matter
+have been frustrated by this refusal and it will continue to pursue them through
+various channels.
+2.173 While the committee was pleased to see that Cbus Super has commenced a
+compensation scheme for members that were affected by the delays in claims
+processing, it remains concerned that this matter was allowed to reach such a
+dire state that ASIC was required to commence legal proceedings. The
+committee will continue to monitor this space and awaits the findings of the
+Federal Court in this matter.
+2.174 The committee remains concerned, however, that there seemed to be no clear
+answer as to where the funds to pay any fines which could be issued at the end
+of the ASIC court case against Cbus would be paid from. The fact that such fines
+could be paid out of money supplied by members of the fund, rather than from
+the trustees themselves, is a serious flaw in the superannuation system and
+should be fixed immediately.
+42
+2.175 Adding to the committee’s concerns has been the recently published news about
+Rest Super’s charging of members for insurance they had opted out of. It is clear
+from the information gathered throughout this inquiry that there is significant
+need for reform of insurance in superannuation.
+2.176 The committee is cautiously optimistic that the mandatory service standards to
+be developed for the superannuation industry, as announced by Treasurer Jim
+Chalmers on 28 January 2025, will go some way to addressing the concerns
+raised in this inquiry.
+2.177 The committee strongly supports the inclusion of consumer advocates,
+regulators and industry stakeholders in the development of the standards to
+ensure they are appropriately targeted. The committee hopes the standards will
+be developed in an expedient fashion.
+Recommendation 7
+2.178 The committee recommends that the government work in an expedient
+fashion to develop mandatory insurance service standards for
+superannuation funds. These standards should be developed in consultation
+with consumer advocates, regulators and industry stakeholders.
+Senator Andrew Bragg
+Chair
+Liberal Senator for New South Wales
+Government Senators' dissenting comments
+1.1 The third interim report of this retirement systems inquiry is yet another rushed,
+unserious and reheated wish-list of reforms from the chair, Senator Andrew
+Bragg.
+1.2 Neither the Coalition-majority interim report, or earlier interim reports, offer
+Australian one dollar more for their retirement savings and income.
+1.3 The Senate approved this inquiry in good faith to inquire into innovations to
+Australia’s retirement system. It has failed to do so.
+1.4 Instead, the wide terms of reference have been ignored, for the third time, and
+the inquiry has prioritised partisan policy proposals.
+1.5 Further, the Senate Inquiry has been utilised to merely rehash the chair’s well-
+known opposition to Australia’s world-leading superannuation system, and
+failed Coalition policy proposals which are over a decade old.
+1.6 The chair’s two previous interim reports predictably targeted Australians’
+superannuation savings through various unsupported proposals to expand the
+‘super for housing’ policy from the Coalition.
+1.7 This third report, unsurprisingly, takes aim more specifically at Australia’s
+profit to member (or ‘industry’) superannuation sector, which the chair is
+opposed to.
+1.8 Regrettably, this inquiry has repeatedly failed to seek bipartisan or crossbench
+support for its proposals. Instead, the chair has given committee members less
+than 24 hours to properly consider, engage on and adopt the Coalition-majority
+interim report.
+1.9 This is not a bipartisan report, and no effort was made to make it so.
+1.10 Further, no effort was made to engage a broad range of superannuation
+stakeholders or governance experts on the substance of the issues presented in
+this interim report.
+1.11 Disappointingly, the chair did not open or call for submissions seeking views
+on the governance and operations of superannuation funds to inform this
+interim report and the chair’s recommendations.
+1.12 The key recommendation of this interim report is to water down existing
+statutory requirements for profit to member (‘industry’) funds that provide
+equal representation of employee and employer representatives, and
+independent trustees or directors on superannuation boards.
+1.13 This is a misguided effort from the chair to undermine the representation of
+employees, through trade unions, and Australian industry, through employer
+groups, on profit to member (‘industry’) superannuation fund boards.
+43
+44
+1.14 Providing evidence at a public hearing of the inquiry, Cbus’ Independent Chair
+Wayne Swan explained the importance of the equal representation model in
+these terms:
+It brings a reality and a life experience to the board that wouldn't otherwise
+be there. In the case of Cbus it makes us very close to our members, which
+is why we run our partnership programs, for example. They are aimed at
+not only educating our membership but at retaining and increasing
+membership. For the directors on the board who are in contact with
+delegates or with employers, being out there on the job and talking to our
+members is absolutely essential.1
+1.15 Government senators support the existing equal representation and profit to
+member model because it delivers the best results to fund members. The results
+of this model over time speak for themselves.
+1.16 Around 70 per cent of superannuation members have chosen to be in a
+superfund with equal representation.
+1.17 In the last 20 years, returns in profit to members funds have performed better
+than retail funds by 1.6 per cent – this equates to almost $200 000 more in
+retirement
+1.18 Over the last decade, the top ten performing funds have all been profit to
+member (‘industry’) superannuation funds.
+1.19 In seeking to water down this model of success, the chair is asking for
+Australians to risk lower returns, poorer performance and less retirement
+income.
+1.20 Further, there is no evidence to support a view that the board composition of
+superannuation boards, and the apportionment of employee, employer and
+independent trustees leads to poorer member services. In many situations, the
+close relationship that trustees have to their membership and industry makes
+them more accountable.
+1.21 Another recommendation of the chair is for ‘shareholders’ of superannuation
+funds to have a statutory responsibility to pay fines.
+1.22 This proposal is flawed in its premises and fails to accurately comprehend and
+consider the various ownership and governance structures of superannuation
+funds and trusts. It is unworkable.
+1.23 Government senators note that the governance of the sector through the
+Superannuation Industry (Supervision) Act 1993, and independent work of the
+Australian Securities and Investment Commission, the Australian Prudential
+Regulation Authority and their regulatory guidance forms an important
+framework and set of standards for funds to work from.
+1 Mr Wayne Swan, Chair, Cbus Super, Committee Hansard, 29 November 2024, p. 4.
+45
+1.24 This guidance appropriately allows flexibility in how funds meet their
+governance standards and allows for them to be improved on.
+1.25 Government senators further note that Cbus, which has been a focus of this
+inquiry by the chair, has publicly outlined its engagement and cooperation with
+enforcement and investigations undertaken of ASIC and APRA.
+1.26 Government senators agree that there is room for funds to improve in how they
+provide services to members and support them through the retirement phase of
+their superannuation. Importantly, funds have already demonstrated a
+commitment to, and have acted to, improve their member services.
+1.27 Government senators note that after a decade of neglect and attacks by the
+Coalition, the superannuation system has been strengthened by the Albanese
+Labor Government. This includes:
+ Introducing mandatory and enforceable service standards for all large
+APRA regulated superannuation funds.
+ Lifting the Coalition’s superannuation guarantee freeze of 9.5 per cent, with
+the guarantee finally due to reach 12 per cent on 1 July 2025 – 6 years later
+than it should have.
+ Paying 12 per cent superannuation on government-funded Paid Parental
+Leave payments for eligible parents for babies born or adopted on or after 1
+July 2025.
+ Improving the Retirement Phase of Superannuation to give retirees more
+peace of mind, supporting them to make the best use of their retirement
+savings and income, and to navigate different retirement income option and
+products.
+ Legislating the Objective of Superannuation as 'to preserve savings to
+deliver income for a dignified retirement, alongside government support, in
+an equitable and sustainable way'.
+ Committing that, from 1 July 2026, employers will be required to pay their
+employees' superannuation at the same time as their pay, to support timely
+receipt of superannuation and improve retirement outcomes.
+ Strengthening and expanding the performance test to ensure members
+receive the best investment returns through accumulation.
+ Legislating a new financial accountability regime which will, among other
+things, require all superannuation funds to nominate accountable executives
+to be responsible for superannuation service standards.
+ Expanding transparency in super by aligning financial reporting
+requirements with public companies and supporting the regulators to
+expand transparency over fund expenditure.
+ Undertaking the largest reforms to financial advice laws in over a decade to
+allow funds to deliver better service to members throughout their member
+journey.
+46
+1.28 Government senators note the Coalition have demonstrated a concerning
+willingness to undermine the success of Australia’s superannuation and its
+critical role in delivering secure retirements, including:
+ Freezing the Superannuation Guarantee at 9.5 per cent in 2014, and leaving
+it frozen under the Abbott, Turnbull and Morrison governments.
+ Permitting Australians to raid their retirement savings without appropriate
+safeguards or care for the long-term financial implications during the
+pandemic, with $36 billion in lost retirement savings.
+ Instead of supporting housing supply measures, asking Australians to raid
+their superannuation to contribute to a house deposit. This will have the
+effect of inflating house prices, requiring larger home deposits and
+increasing mortgage payments and interest charges.
+1.29 Finally, Government senators note that the growth over the superannuation
+sector over the 32 years since its establishment has allowed people to retire with
+real wealth, security and dignity in retirement, particularly low-and moderate-
+income people. In many circumstances, they are the first to do so in a generation.
+Any changes to the sectors must be done so with a broad and bipartisan support,
+not in a rushed manner and with preconceived outcomes.
+Senator Jess Walsh
+Deputy Chair
+Labor Senator for Victoria
+Australian Greens Senators' dissenting report
+1.1 The majority report is the latest in a long series of attempts by the Coalition to
+undermine industry superannuation funds.
+1.2 Coalition parties have long waged an attack on industry superannuation funds,
+driven in significant part by their fear of workers having access to and control
+of capital.
+1.3 The Greens are concerned that the majority of recommendations in the report,
+with the exception of recommendation seven, will at best do nothing to improve
+outcomes in Australia’s retirement system, and at worst significantly impact
+industry superannuation funds. For example, recommendation one seeks to
+introduce a requirement for superannuation trustee boards to have a majority
+of independent directors. The effect of this recommendation would be to limit
+the representation of workers and union representatives on the boards of
+superannuation funds and potentially increase representation of representatives
+from big corporations, for example, the major banks.
+1.4 The Greens do not support the latest Coalition attempt to undermine industry
+superannuation funds.
+Senator Nick McKim
+Member
+Greens Senator for Tasmania
+47
+
+Appendix 1
+Submissions and additional information
+1 Optimum Pensions
+2 Mandala
+3 The Conexus Institute
+4 Mercer
+5 Insurance Council of Australia
+6 Challenger
+ 6.1 Supplementary to submission 6
+7 Aged & Community Care Providers Association
+8 Insurtech Australia
+9 AIA Australia
+10 Plain English Economics Pty Ltd
+11 CPA Australia and Chartered Accountants Australia and New Zealand
+12 Retirement Living Council
+13 Institute of Public Affairs
+14 Department of the Treasury
+15 TAL Life Limited
+16 Super Members Council
+ 16.1 Supplementary to submission 16
+ 16.2 Supplementary to submission 16
+ Attachment 1
+ Attachment 2
+ Attachment 3
+17 Australian Retirement Trust
+18 Institute of Public Accountants
+19 Home Super
+ 19.1 Supplementary to submission 19
+20 Financial Advice Association Australia
+21 The McKell Institute
+ Attachment 1
+ Attachment 2
+22 Menzies Research Centre
+23 Futureproof Financial (Australia) Pty Ltd
+24 Associate Professor Anthony Asher
+25 Super Consumers'
+ 25.1 Supplementary to submission 25
+26 SMSF Association
+27 Association of Superannuation Funds of Australia
+49
+50
+ 27.1 Supplementary to submission 27
+ Attachment 1
+ Attachment 2
+ Attachment 3
+28 Australian Securities and Investments Commission
+29 Australian Prudential Regulation Authority
+ 29.1 Supplementary to submission 29
+30 Property Council of Australia
+31 Inspector-General of Taxation and Taxation Ombudsman
+32 Dr Michael Levitt
+33 Mr David Hartley
+34 Mr David Orford
+ 34.1 Supplementary to submission 34
+35 Ms Michelle Levy
+36 Blueprint Institute
+37 Australian Lawyers Alliance
+38 Council of Australian Life Insurers
+ Attachment 1
+39 Centre for Independent Studies
+40 Michael Rice AO FIAA and Jonathan Ng CFA FIAA
+ 40.1 Supplementary to submission 40
+ Attachment 1
+41 Australian Financial Complaints Authority
+42 Grattan Institute
+43 Uniting
+44 Financial Services Council
+ 44.1 Supplementary to submission 44
+ Attachment 1
+ Attachment 2
+45 My Longevity Pty Limited
+46 The National Housing Supply and Affordability Council
+47 HOPE Housing Fund Management Limited
+48 Housing Industry Association
+49 Real Estate Institute of Australia
+50 Your Financial Wellness
+Additional Information
+1 Housing Australia - Opening Statement at Public Hearing on 14 November
+2024
+51
+Answer to Question on Notice
+1 CBUS Super - 001: Answers to questions on notice from Wayne Swan asked
+by Senator Andrew Bragg at a public hearing on 29 November 2024. (received
+13 December 2024)
+2 CBUS Super - 002: Answers to questions on notice from Kristian Fok asked by
+Senator Andrew Bragg at a public hearing on 14 November 2024. (received 13
+December 2024)
+3 Your Financial Wellness - 001: Answers to questions on noticed asked by
+Senator Andrew Bragg at a public hearing on 30 August 2024. (received 9
+September 2024)
+4 Australian Prudential Regulation Authority - 001: Answers to questions on
+notice asked by Senator Andrew Bragg at a public hearing on 14 November
+2024. (received 26 November 2024)
+5 Australian Prudential Regulation Authority - 002: Answers to questions on
+notice asked by Senator Andrew Bragg at a public hearing on 14 November
+2024. (received 26 November 2024)
+6 Aware Super - 001: Answers to questions on notice asked by Senator Andrew
+Bragg at a public hearing on 14 November 2024. (received 26 November 2024)
+7 Super Members Council - 001: Answers to questions on notice asked by
+Senator Andrew Bragg at a public hearing on 14 November 2024. (received 28
+November 2024)
+8 Housing Australia - 001: Answers to questions on notice asked by Senator
+Andrew Bragg at a public hearing on 14 November 2024. (received 29
+November 2024)
+9 CBUS Super - 003: Answers to written questions on notice asked by Senator
+Andrew Bragg on 13 December 2024. (received 20 December 2024)
+10 Australian Super - 001: Answers to questions on notice asked by Senator
+Andrew Bragg at a public hearing on 14 November 2024. (received 28
+November 2024)
+11 CBUS Super - 004: Answers to written questions on notice asked by Senator
+Andrew Bragg to Wayne Swan on 20 December 2024. (received 17 January
+2025)
+12 Association of Superannuation Funds of Australia - 001: Answers to written
+questions on notice asked by Senator Andrew Bragg on 17 December 2024.
+(received 17 January 2025)
+13 Australian Prudential Regulation Authority - 003: Answers to written
+questions on notice asked by Senator Andrew Bragg on 19 December 2024
+(received 17 January 2025)
+14 Aware Super - 001: Answers to written questions on notice asked by Senator
+Andrew Bragg on 19 December 2024 (received 17 January 2025)
+15 TAL - 001: Answers to written questions on notice asked by Senator Andrew
+Bragg on 20 December 2024 (received 17 January 2025)
+52
+16 Super Members Council - 002: Answers to written questions on notice asked
+by Senator Andrew Bragg on 13 December 2024 (received 17 January 2025)
+17 Australian Super - 002: Answers to written questions on notice asked by
+Senator Andrew Bragg on 20 December 2024 (received 20 January 2025)
+Appendix 2
+Public hearings and witnesses
+Tuesday 12 March 2024
+Committee Room 2S1
+Parliament House
+Canberra
+Dr Cameron Murray, Private capacity
+Retirement Living Council
+ Mr Daniel Gannon, Executive Director
+Keyton
+ Mr Nathan Cockerill, Chief Executive Officer
+Home Super
+ Mr Simon Jones, Founder and Managing Director
+ Mr John Randall, Advisory Board Chairman
+Mr Michael Rice, Private capacity
+Mr Jonathan Ng, Private capacity
+Mr David Orford, Private capacity
+Futureproof Financial (Australia) Pty Ltd
+ Mr John Innes, Director and Chief Executive Officer
+Centre for Independent Studies
+ Dr Peter Tulip, Chief Economist
+Blueprint Institue
+ Ms Liana Downey, Chief Executive Officer
+Menzies Research Centre
+ Ms Freya Leach, Director, Center for Youth Policy
+ Mr James Mathias, Deputy Executive Director
+Housing industry Association (no submission)
+ Mr Simon Croft, Chief Executive
+The McKell Institute
+ Ms Rebecca Thistleton, Executive Director
+53
+54
+Grattan Institute
+ Mr Brendan Coates, Economic Policy Program Director
+Friday 30 August 2024
+Committee Room 2S1
+Parliament House
+Canberra
+Super Consumers' Australia
+ Dr Katrina Ellis, Deputy Director
+ Mr Xaiver O’Halloran, Director
+Mr Jonathan Ng CFA FIAA, Private capacity
+Ms Michelle Levy, Private capacity
+Financial Services Council
+ Ms Kirsten Samuels, Policy Director
+ Mr Blake Briggs, Chief Executive Officer
+Your Financial Wellness
+ Mr Alexander Hassall, Co-Founder & CEO
+Thursday 14 November 2024
+Committee Room 2S1
+Parliament House
+Canberra
+Association of Superannuation Funds of Australia
+ Ms Mary Delahunty, Chief Executive Officer
+ Mr James Koval, Head of Policy
+Super Members Council
+ Ms Misha Schubert, Chief Executive Officer
+ Mr Matthew Linden, Executive General Manager Strategy
+CBUS Super
+ Mr Kristian Fok, Chief Executive Officer
+HESTA
+ Mr Jeff Brunton, Head of Portfolio Management
+ Ms Jordan Lam, Head of Member Services and Operations
+Australian Super
+ Ms Paula Benson, Chief Strategy Officer
+ Mr Alistair Barker, Head of Asset Allocation
+55
+Aware Super
+ Mr Damien Graham, Chief Investment Officer
+ Ms Jane Macnamara, Head of Advocacy
+Housing Australia
+ Mr Scott Langford, Chief Executive Officer
+ Mrs Jennifer Chew, Chief Program Officer, Home Ownership – Home
+Guarantee Scheme
+Australian Prudential Regulation Authority
+ Mr Peter Kohlhagen, General Manager
+ Ms Carmen Beverley-Smith, Executive Director of Life, Private Health
+Insurance and Superannuation
+ Ms Lucinda McCann, General Counsel
+Friday 29 November 2024
+Committee Room 2S1
+Parliament House
+Canberra
+CBUS Super
+ The Hon Mr Wayne Swan, Chair
+ Dr John Edwards, Chair Risk Committee
+Friday 13 December 2024
+Committee Room 2S1
+Parliament House
+Canberra
+TAL Insurance
+ Ms Jenny Oliver, Chief Executive - Group Life & Retirement
+ Mr Shaun Bransdon, General Manager - Retirement and Wealth
+MUFG Pension and Market Services
+ Mr Vivek Bhatia, CEO and Managing Director
+ Ms Dee McGrath, Chief Executive Officer, MUFG Retirement Solutions
+Department of the Treasury
+ Ms Neena Pai, First Assistant Secretary, Revenue Group
+ Ms Victoria Woolley, Director, Revenue Group
+ Mr Adam Hawkins, Assistant Secretary, Revenue Group
+ Mr Andre Moore, A/g First Assistant Secretary, Markets Group
+ Mr Robb Preston, Assistant Secretary, Markets Group

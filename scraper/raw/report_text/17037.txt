@@ -1,0 +1,2176 @@
+The Senate
+Economics Legislation Committee
+Competition and Consumer Amendment
+(Unfair Trading Practices) Bill 2026
+Report
+June 2026
+© Commonwealth of Australia 2026
+ISBN 978-1-76093-956-4 (Printed version)
+ISBN 978-1-76093-956-4 (HTML version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by the Senate Printing Unit, Parliament House, Canberra
+Members
+Chair
+Senator Lisa Darmanin ALP, VIC
+Deputy Chair
+Senator Kerrynne Liddle LP, SA
+Members
+Senator Susan McDonald LNP, QLD
+Senator Nick McKim AG, TAS
+Senator Deborah O'Neill ALP, NSW
+Senator Charlotte Walker ALP, SA
+Secretariat
+Sean Turner, Committee Secretary
+Michael Finch, Senior Research Officer
+Sonia Arian, Administrative Officer
+PO BOX 6100 (02) 6277 3540
+Parliament House economics.sen@aph.gov.au
+Canberra
+iii
+
+Contents
+Members ............................................................................................................................................. iii
+Abbreviations and Acronyms ........................................................................................................ vii
+Chapter 1—Introduction .................................................................................................................... 1
+Purpose of the bill ................................................................................................................................ 1
+General prohibition on unfair trading practices ................................................................... 2
+Strengthening protections against drip pricing .................................................................... 2
+Protections against detrimental subscription practices ....................................................... 3
+Context ................................................................................................................................................... 4
+Consultation on the bill ............................................................................................................ 5
+Key provisions ...................................................................................................................................... 5
+Part 1—Unfair trading practices ............................................................................................. 5
+Consumer manipulation or unreasonable distortion of environment (limb 1) .... 6
+Detriment to the consumer (limb 2) ............................................................................ 8
+Exceptions to the general prohibition ......................................................................... 8
+Part 2—Drip pricing ................................................................................................................. 9
+Applicable goods or services ....................................................................................... 9
+Base price ........................................................................................................................ 9
+Transaction based charge ............................................................................................. 9
+Information that must be displayed ......................................................................... 10
+Part 3—Subscription contracts .............................................................................................. 11
+Financial impact ................................................................................................................................. 12
+Compliance cost impact ......................................................................................................... 12
+Commencement ................................................................................................................................. 12
+Human rights implications ............................................................................................................... 12
+Right to a fair trial and the presumption of innocence ...................................................... 12
+Civil penalty provisions ............................................................................................. 12
+Reversal of evidential burden .................................................................................... 13
+Right to privacy ....................................................................................................................... 13
+Freedom of freedom of expression ....................................................................................... 13
+Legislative Scrutiny ........................................................................................................................... 14
+v
+Senate Standing Committee on the Scrutiny of Bills ......................................................... 14
+Parliamentary Joint Committee on Human Rights ............................................................ 15
+Conduct of the inquiry ...................................................................................................................... 15
+Acknowledgments .................................................................................................................. 15
+Chapter 2—Views on the bill.......................................................................................................... 17
+General prohibition on unfair trading practices ............................................................................ 17
+Support for the general prohibition on unfair trading practices...................................... 17
+Clarity, breadth and legal certainty of the general prohibition........................................ 21
+Clarity and operation of the manipulation limb ..................................................... 21
+Other areas of clarification related to the manipulation limb ............................... 26
+Threshold for consumer detriment ...................................................................................... 27
+Examples of unfair trading practices in proposed subsection 28B(6) ............................. 29
+Other matters ........................................................................................................................... 33
+Need to extend unfair trading prohibition to financial products and services ............. 33
+Exceptions to the general prohibition—Proposed subsections 28B(3) and (4) .............. 34
+Support for excepting business-to-business conduct ............................................. 36
+Drip pricing ......................................................................................................................................... 37
+Application of proposed section 48A to delivery charges ................................................ 38
+Other issues raised in relation to drip pricing .................................................................... 40
+Guidance on disclosure requirements ...................................................................... 40
+Application to add-on products ................................................................................ 40
+Application to virtual currency ................................................................................. 40
+Impacts on the franchising sector .............................................................................. 41
+Subscription contracts ....................................................................................................................... 41
+Application to small business contracts ................................................................... 43
+Notification at the end of a free trial period ............................................................ 44
+Exit method .................................................................................................................. 44
+Other matters related to the bill subscription contract provisions .................................. 46
+Implementation provisions............................................................................................................... 47
+Committee view ................................................................................................................................. 49
+Appendix 1—Submissions and Additional Information .......................................................... 53
+Appendix 2—Public Hearing and Witnesses............................................................................... 55
+vi
+Abbreviations and Acronyms
+ACCC Australian Competition and Consumer Commission
+ACCI Australian Chamber of Commerce and Industry
+ADMA Australian Digital Marketing Association
+ACL Australian Consumer Law
+AIG Australian Industry Group
+ARC Australian Retail Council
+ASIC Australian Securities and Investments Commission
+AUD Australian Dollar
+AGW Australian Grape and Wine
+B2B business-to-business
+BCA Business Council of Australia
+CCA Competition and Consumer Act 2010
+CPRC Consumer Policy Research Centre
+COSBOA Council of Small Business Organisations Australia
+DIGI Digital Industry Group Inc.
+general prohibition General prohibition on unfair trading
+IAAA Internet Association of Australia Ltd
+ICCPR International Covenant of Civil and Political Rights
+IGEA Interactive Games & Entertainment Association
+LAQ Legal Aid Queensland
+LCA Law Council of Australia
+LPA Live Performance Australia
+MEA Master Electricians Australia
+MP Member of Parliament
+QLS Queensland Law Society
+Scrutiny Committee The Senate Standing Committee on the Scrutiny of Bills
+TCA Tech Council of Australia
+the bill Competition and Consumer Amendment (Unfair Trading
+Practices) Bill 2026
+Treasury The Department of the Treasury
+UK United Kingdom
+UNSW University of New South Wales
+UTP Unfair trading practices
+vii
+
+Chapter 1
+Introduction
+1.1 On 14 May 2026, the Senate referred the Competition and Consumer
+Amendment (Unfair Trading Practices) Bill 2026 (the bill) to the Senate
+Economics Legislation Committee for inquiry and report by 18 June 2026.1 On
+11 June 2026, the committee was granted an extension of time to report to
+25 June 2026.2
+1.2 The committee’s report on the bill contains two chapters:
+ Chapter 1—provides an overview of the bill and the inquiry process; and
+ Chapter 2—considers inquiry participants’ evidence on the bill.
+Purpose of the bill
+1.3 The bill seeks to amend the Competition and Consumer Act 2010 (CCA) to update
+the Australian Consumer Law (ACL) with enhanced consumer protections for
+‘current and emerging unfair trading practices’.3 In particular, the bill proposes:
+ a new general prohibition on unfair trading practices towards consumers;
+ stronger protections against drip pricing by requiring transparency of
+transaction based charges; and
+ protections against subscription practices that are detrimental to consumers
+and small business.4
+1.4 The Explanatory Memorandum states the above measures are ‘designed to
+complement existing ACL provisions, increase consumer trust in the
+marketplace and promote fairer trading among businesses’.5 The bill includes
+civil penalties to deter unfair trading practices.6
+1.5 When introducing the bill, Dr Andrew Leigh MP, Assistant Minister for
+Productivity, Competition, Charities and Treasury, outlined the types of
+conduct the bill is intended to address:
+Australians know exactly what this bill is about because they have lived it.
+Trying to decide on an online purchase, they suddenly find themselves
+1 See, Journals of the Senate, No. 49, 14 May 2026, pp. 1754–1755.
+2 See, Senate Economics Legislation Committee, Competition and Consumer Amendment (Unfair Trading
+Practices) Bill 2026: Progress report, June 2026, p. [1].
+3 Explanatory Memorandum, p. 1.
+4 Explanatory Memorandum, p. 1.
+5 Explanatory Memorandum, p. 1.
+6 See, Explanatory Memorandum, p. 39.
+1
+2
+pressured with a countdown timer or a warning that there are 'only two left
+in stock', despite the fact that the retailer has plenty available. They
+subscribe to a gym and manage the payment online, but, when they try to
+unsubscribe, they are told they have to make a phone call. They spot a
+bargain online, but when they get to the check-out they discover a
+compulsory 'service fee' added to their basket. This isn't vigorous
+competition. It is friction by design.7
+1.6 The bill’s key measures are outlined further below.
+General prohibition on unfair trading practices
+1.7 Part 1 of the bill seeks to introduce a general prohibition on unfair trading
+practices (general prohibition) ‘in connection with the supply of, or an offer to
+supply, goods or services’ to consumers.8 Under the prohibition, unfair trading
+practices are defined as conduct that:
+ does, or is likely to do, either or both of the following:
+− manipulate the consumer; or
+− unreasonably distort the environment in which the consumer makes,
+or is likely to make, a decision; and
+ causes, or is likely to cause, detriment (whether financial or otherwise) to
+the consumer.9
+1.8 The general prohibition is a ‘principles based test’ intended to capture conduct
+which does not ‘neatly fall within the existing prohibitions on misleading
+conduct or unconscionability, but which nonetheless exploits behavioural
+biases, overwhelms consumers with complexity, or structures choices in a way
+that leads people towards decisions they would not otherwise make’.10
+Strengthening protections against drip pricing
+1.9 Part 2 of the bill seeks to ‘ensure information relating to transaction based
+charges is displayed throughout the purchase process’.11 These changes are
+intended to:
+ strengthen protections against ‘drip pricing’, which is a practice whereby
+businesses gradually add fees during the transaction process, obscuring
+the total amount payable, and
+7 Dr Andrew Leigh MP, Assistant Minister for Productivity, Competition, Charities and Treasury,
+House of Representatives Hansard, 1 April 2026, p. 17.
+8 See, Explanatory Memorandum, p. 3.
+9 Explanatory Memorandum, p. 3.
+10 Dr Andrew Leigh MP, House of Representatives Hansard, 1 April 2026, p. 18.
+11 Explanatory Memorandum, p. 12.
+3
+ ensure potential buyers are aware of mandatory transaction based
+charges and can make informed decisions throughout the transaction
+process about whether to continue with the transaction.12
+1.10 Dr Leigh stated ‘almost every Australian’ has encountered drip pricing and
+outlined the following example:
+In one example, a concert ticket promoted for $109.90 rose to $117.45 once a
+compulsory $7.55 service fee was added at the last stage of the process. By
+then, the consumer has already invested time and attention, and may feel
+locked into completing the purchase.13
+1.11 Part 2 would require that a business disclose any applicable transaction-based
+charges alongside the base price of a good or service.14
+Protections against detrimental subscription practices
+1.12 Part 3 of the bill seeks to introduce protections against detrimental subscription
+practices for consumers and small businesses by requiring that a supplier of a
+good or service under a subscription:
+ disclose key information about the contract at the time of offer;
+ notify subscribers of key information at certain points during the contract;
+ ensure there is an ‘easy and straightforward’ way to end a subscription.15
+1.13 The Explanatory Memorandum states these requirements ‘are intended to
+ensure subscribers can make more informed decisions about whether to enter,
+and whether to remain under, a subscription contract, while removing barriers
+to subscribers ending subscription contracts’.16
+1.14 Dr Leigh commented on the purpose of Part 3 as follows:
+…this bill addresses subscription traps, a growing frustration in modern
+consumer life. Subscriptions are now regular part of household budgeting.
+Subscriptions provide access to news, fitness, entertainment, software and
+many other services. But too often, subscription arrangements are designed
+around the assumption that consumers will forget to cancel free trials, won't
+notice renewals, or will struggle to find the cancellation pathway.
+…
+A contract that can be entered in seconds should not take half an afternoon
+to escape. Many reputable businesses already operate in this simple, fair,
+12 Explanatory Memorandum, p. 12–13.
+13 Dr Andrew Leigh MP, House of Representatives Hansard, 1 April 2026, p. 18.
+14 Explanatory Memorandum, p. 13.
+15 See, Explanatory Memorandum, p. 4.
+16 Explanatory Memorandum, p. 19.
+4
+transparent manner. This bill ensures that all businesses meet that
+standard.17
+Context
+1.15 While ACL provides broad protections for consumers against unfair trading
+practices, recent market developments and, in particular, emerging forms of
+online practices by businesses, has resulted in certain conduct that ‘may fall
+outside the full reach of the ACL’.18
+1.16 Addressing these issues has been on the agenda for several years. In
+November 2020, Commonwealth, State and Territory Consumer Affairs
+Ministers committed to ‘exploring how a prohibition on unfair trading practices
+could be adopted in Australia’.19 In September 2022, Commonwealth, State and
+Territory Consumer Affairs Ministers agreed that ‘the Commonwealth would
+lead a public consultation on options to address unfair trading practices in the
+ACL’.20 This agreement led to two consultation processes:
+ in August 2023, the Government sought feedback on ‘options to address
+unfair trading practices’. Subsequently, in October 2024, the Government
+announced that ‘it would address unfair trading practices by introducing a
+general prohibition and specific prohibitions in the ACL’;21 and
+ in November 2024, the Department of the Treasury (Treasury) sought
+feedback on the design of the general prohibition and other specific
+prohibitions, including options to target ‘subscription practices that are
+detrimental to consumers and small businesses, and drip pricing.22
+1.17 The abovementioned consultation processes identified businesses were
+increasingly using practices harmful to consumers, in both online and offline
+contexts, and such practices ‘did not always reach the threshold required to
+contravene existing ACL provisions’.23
+1.18 As noted in the Explanatory Memorandum, the bill seeks to address the increase
+of harmful practices by:
+…enhancing protections against unfair trading practices (including
+emerging forms of misconduct by businesses, particularly in an online
+context), which may cause consumer detriment but may not be clearly
+17 Dr Andrew Leigh MP, House of Representatives Hansard, 1 April 2026, pp. 18–19.
+18 See, Explanatory Memorandum, p. 4–5.
+19 Explanatory Memorandum, p. 4.
+20 Explanatory Memorandum, p. 4.
+21 Explanatory Memorandum, p. 4.
+22 Explanatory Memorandum, p. 5.
+23 Explanatory Memorandum, p. 5.
+5
+misleading or deceptive, or unconscionable, and may not involve unfair
+contract terms or conduct otherwise prohibited under the ACL.24
+Consultation on the bill
+1.19 Treasury consulted on an exposure draft of the bill, including explanatory
+materials, and invited submissions from stakeholders between 9 and
+23 February 2026.25 Treasury received around 60 submissions and
+49 submissions were published on Treasury’s webpage.26
+1.20 The Explanatory Memorandum states that ‘[r]efinements were made to the Bill
+to address feedback raised by stakeholders, including updates to the scope of
+the general prohibition on unfair trading practices to ensure that it adequately
+covered conduct of concern’.27
+Key provisions
+1.21 As outline in this section, the bill contains one schedule with the following four
+parts:
+ Part 1—Unfair trading practices;
+ Part 2—Drip pricing;
+ Part 3—Subscription contracts; and
+ Part 4—Application provisions.
+Part 1—Unfair trading practices
+1.22 Part 1 of the bill seeks to introduce ‘Part 2-4—Unfair Trading Practices’ to the
+general protections provided in Chapter 2 of the ACL, alongside provisions
+relating to misleading and deceptive conduct, unconscionable conduct and
+unfair contract terms.28
+1.23 Part 2-4 contains one part (28B) which makes provisions for the proposed
+general prohibition on unfair trading practices towards consumers.
+1.24 In particular, proposed subsection 28B(1) provides that ‘a person must not, in
+trade or commerce, engage in unfair trading practices’.29 Proposed subsection
+28B(2) provides that a person engages in unfair trading practices when, in
+24 Explanatory Memorandum, p. 5.
+25 See, Explanatory Memorandum, p. 5; Department of the Treasury, Unfair trading practices –
+exposure draft, https://consult.treasury.gov.au/c2026-739506 (accessed 14 May 2026).
+26 See, Explanatory Memorandum, p. 5; Department of the Treasury, Unfair trading practices –
+exposure draft, https://consult.treasury.gov.au/c2026-739506/consultation/list (accessed 14 May
+2026).
+27 Explanatory Memorandum, p. 5.
+28 See, Schedule 2 of the Competition and Consumer Act 2010.
+29 Proposed subsection 28B(1), Competition and Consumer Amendment (Unfair Trading Practices)
+Bill 2026, p. 4.
+6
+connection with supply of, or an offer to supply, goods or services, the person
+engages in conduct which:
+(a) does or is likely to do either or both of the following:
+(i) manipulate the consumer;
+(ii) unreasonably distort the environment in which the consumer
+makes, or is likely to make, a decision; and
+(b) causes or is likely to cause detriment (whether financial or otherwise) to
+the consumer.30
+1.25 Examples of unfair trading practices are provided in proposed subsection
+28B(6). These include:
+ impeding a consumers’ ability to exercise their legal rights;
+ failing to disclose material information;
+ disclosing material information in a ‘complex’ or ‘ineffective’ way;
+ creating an environment that places the consumer under ‘unreasonable
+pressure in relation to, or obstruct the consumer from, making or fulfilling
+the consumer’s decision’.31
+1.26 The Explanatory Memorandum notes that the definition of unfair trading
+practices is intended to be ‘exhaustive’ and that there is ‘no additional
+requirement for conduct to be ‘unfair’ to contravene the general prohibition
+under subsection 28B(1)’.32
+Consumer manipulation or unreasonable distortion of environment (limb 1)
+1.27 The bill’s specification of unfair trading practices (as contained in proposed
+subsection 28B(2)) has two limbs. A person must contravene both limbs to
+contravene the general prohibition on unfair trading practices (proposed
+subsection 28B(1)).33
+1.28 To contravene the first limb, a person must engage in conduct that does, or is
+likely to ‘manipulate the consumer’ and / or ‘unreasonably distort[s] the
+environment in which the consumers makes, or is likely to make, a decision’,
+per proposed paragraph 28B(2)(a).34
+1.29 As outlined in the Explanatory Memorandum, the provision relating to the
+manipulation of a consumer (per proposed subparagraph 28B(2)(a)(i)) is
+intended to ‘capture wrongful interference with a consumer that results in a
+30 Proposed subsection 28B(1), Competition and Consumer Amendment (Unfair Trading Practices)
+Bill 2026, p. 4.
+31 Explanatory Memorandum, pp. 9–10.
+32 Explanatory Memornadum, p. 6.
+33 Explanatory Memornadum, p. 7.
+34 Explanatory Memornadum, p. 7.
+7
+change in the consumer’s behaviour, decision-making or action that is against
+the consumer’s interests’. Such conduct may include ‘capitalising on sales
+resulting from omitting or obscuring key information, false urgency, or the use
+of confusing, frustrating or high-pressure tactics’.35
+1.30 The provision relating to unreasonably distorting the environment in which a
+consumer makes a decision (proposed subparagraph 28B(2)(a)(ii)) is intended
+to ‘capture conduct that encourages a consumer to make economic decisions
+about proceeding with a transaction when they otherwise would have been
+unlikely to do so, and conduct that obstructs a consumer from implementing an
+economic decision that they would otherwise have done, such as seeking a
+refund’.36 Such conduct may include where an environment is ‘overwhelming
+complex or where a consumer is provided with excessive or confusing
+information that makes key information difficult to find or understand, or
+makes the actions required to implement their choices unclear’.37
+Dark patterns
+1.31 The first limb of the definition of unfair trading practices is ‘particularly
+intended to address conduct that involves the use of ‘‘dark patterns’ in digital
+interfaces’.38 Dark patterns may ‘impose obstacles and complexity which
+frustrate and exhaust consumers’, such as using ‘complex menus with pre-
+selections or defaults’. Further, dark patterns ‘may also be used to exert pressure
+on consumers during a transaction process’, such as by displaying ‘countdown
+timers or low stock notifications, or other indicators suggesting elevated
+demand…’39
+1.32 As the Explanatory Memorandum notes, the use of dark patterns ‘may
+manipulate a consumer or unreasonably distort the environment in which a
+consumer makes a decision’, depending on the circumstances. The Explanatory
+Memorandum provides the following example:
+…the use of a single dark pattern, such as a scarcity indicator, can have
+legitimate application (for example, an accurate indicator of stock available
+to purchase), but could also contravene this limb if used to pressure
+consumers and create a false sense of urgency. When businesses use or
+combine multiple dark patterns it often makes it more difficult for a
+consumer to identify or resist these techniques, increasing the likelihood
+that the conduct will contravene [limb 1].40
+35 Explanatory Memornadum, p. 7.
+36 Explanatory Memornadum, pp. 7–8.
+37 Explanatory Memorandum, p. 8.
+38 Explanatory Memorandum, p. 8.
+39 Explanatory Memorandum, p. 8.
+40 Explanatory Memorandum, pp. 8–9.
+8
+Detriment to the consumer (limb 2)
+1.33 To contravene the second limb, a person must engage in conduct that causes, or
+is likely to cause, detriment to the consumer. Detriment may include ‘financial
+loss, wasted time, or other negative impacts on a consumer’.41
+1.34 Additionally, the Explanatory Memorandum notes:
+While conduct that causes actual detriment will contravene this limb of the
+definition of unfair trading practices, it is not required, as conduct that is
+‘likely’ to cause detriment to the consumer is also sufficient.42
+Exceptions to the general prohibition
+1.35 Proposed subsections 28B(3) and 28B(4) respectively provide that the
+prohibition does not apply:
+ if the consumer is a body corporate; and
+ if the consumer is carrying on a business.43
+1.36 The Explanatory Memorandum notes these exceptions are made as:
+…the general prohibition is intended to target unfair trading practices
+towards consumers rather than business-to business-conduct. Further
+consultation is proposed be undertaken to determine the best approach to
+ensuring small businesses are adequately protected from unfair trading
+practices.44
+Enforcement of the general prohibition
+1.37 The bill provides a civil penalty regime for contraventions of the general
+prohibition on unfair trading practices. In particular, the maximum pecuniary
+penalty for a contravention of the general prohibition is:
+ the greater of the amounts mentioned in subsection 224(3A) if the person is
+a body corporate; or
+ $2 500 000 if the person is not a body corporate.45
+1.38 Further, alleged contraventions of the general prohibition would be subject to
+an infringement notice with the following penalties applied:
+ 600 penalty units if the person is a listed corporation, or
+ 60 penalty units if the person is a body corporate other than a listed
+corporation, or
+41 Explanatory Memorandum, p. 9.
+42 Explanatory Memorandum, p. 9.
+43 See, proposed subsections 28B(3) and 28B(4), Competition and Consumer Amendment (Unfair
+Trading Practices) Bill 2026, p. 4; Explanatory Memorandum, p. 10.
+44 Explanatory Memorandum, p. 10.
+45 See, Explanatory Memorandum, p. 11.
+9
+ 12 penalty units if the person is not a body corporate.46
+Part 2—Drip pricing
+1.39 Part 2 of the bill introduces proposed new section 48A to require that a person
+who offers to supply a good or service at a displayed base price must also
+display specified information regarding any associated transaction charge.47
+Applicable goods or services
+1.40 Proposed subsection 48A(1) provides that the requirement to display
+transaction based charge information applies to goods or services which are
+offered for supply are for personal, domestic or household use or consumption.48
+1.41 An offer to supply incorporates offers made through advertising, marketing and
+promotion, including ‘television advertisement, poster, or in an electronic form
+such as on a website or app’.49 However, the Explanatory Memorandum states
+the ‘display requirements are not enlivened through a verbal offer to supply, as
+the base price would not be displayed’.50
+1.42 Proposed subsection 48A(4) provides an exception to the requirement to display
+transaction based charge information where the offer of supply is made
+exclusively to a body corporate.51
+Base price
+1.43 The bill specifies that the ‘base price’ is:
+An amount payable by a purchaser for a supply of goods or services is a
+base price for the goods or services if it includes an amount payable for the
+goods or services themselves.52
+Transaction based charge
+1.44 The bill specifies that a ‘transaction based charge’ is:
+A charge (or part of a charge) of any description is a transaction based
+charge for a supply of goods or services if:
+46 Explanatory Memorandum, p. 11.
+47 In particular, proposed part 48A would be introduced at the end of Division 4, Part 3-1, Schedule 2
+of the CCA. See, Competition and Consumer Amendment (Unfair Trading Practices) Bill 2026, pp.
+7–9.
+48 See, Explanatory Memorandum, p. 13.
+49 See, Explanatory Memorandum, p. 13.
+50 Explanatory Memorandum, p. 13.
+51 See, Explanatory Memorandum, p. 13.
+52 Proposed subsection 48A(6), Competition and Consumer Amendment (Unfair Trading Practices)
+Bill 2026, p. 8.
+10
+(a) it is or may be payable by the purchaser for the supply of the goods or
+services; and
+(b) it is not an amount payable for the goods or services themselves; and
+(c) it is, or would be, payable at the same time as an amount payable for the
+goods or services themselves.
+1.45 However, the bill also specifies that a range of other charges are not a transaction
+based charge. These include, for example, a charge payable at the option of the
+purchaser, a payment surcharge or any tax, duty, fee, levy or charge imposed
+on the supplier.53
+Information that must be displayed
+1.46 Proposed subsection 48A(2) specifies that four kinds of information must be
+displayed if the requirement to display transaction based charge information if
+triggered. As outlined in the Explanatory Memornadum, these are:
+(i) Information regarding the ‘amount of a transaction based charge must
+be displayed if it can be calculated at the point in time that the base
+price is displayed. If the amount cannot be calculated at the time when
+the base price is displayed, the method for calculating the transaction
+based charge must be displayed’.
+(ii) Information that makes ‘it clear the charge is a per transaction charge
+must be displayed. For example, this could be achieved by stating that
+a fee of $7 applies per transaction’.
+(iii) Information regarding ‘whether the transaction based charge is or
+may be payable must be displayed. This is intended to account for
+circumstances where there are multiple transaction methods for a
+good or service to be acquired (such as online, or in person), and not
+all methods attract a transaction based charge’.
+(iv) Information regarding ‘whether or not the base price displayed
+includes the transaction based charge must be displayed’.54
+1.47 Proposed subsection 48A(3) provides that the displayed information in a
+manner which is ‘legible, prominent and unambiguous way’ and is in ‘close
+proximity to the base price.55
+1.48 Proposed section 48A is subject to ‘all existing compliance and enforcement
+mechanisms’ that apply to Part 3‑1—Unfair practices of the ACL. Further, a
+53 Proposed subsection 48A(8), Competition and Consumer Amendment (Unfair Trading Practices)
+Bill 2026, pp. 8–9.
+54 Explanatory Memorandum, p. 16.
+55 Explanatory Memorandum, p. 16.
+11
+person who contravenes proposes subsection 48A(2) ‘may be subject to a civil
+penalty’ as outlined in section 224 (pecuniary penalties) of the CCA.56
+Part 3—Subscription contracts
+1.49 Part 3 of the bill introduces proposed Division 4A—Subscription contracts to
+ACL to protect ‘against subscription practices that are detrimental to consumers
+and small business’ by:
+ requiring a person that offers to supply goods or services under a
+subscription contract to disclose key information about the contract when
+making the offer;
+ establishing a framework to require a person who supplies goods or
+services under a subscription contract to notify subscribers of key
+information at key times while a contract is in effect;
+ requiring a person who supplies goods or services under a subscription
+contract to ensure there is an easy and straightforward way for
+subscribers to end a subscription contract with minimal steps, and a way
+to end the contract online in certain circumstances.57
+1.50 The bill provides that contract is a subscription contract if it meets one of four
+sets of requirements relating to the period of the contract (being an indefinite
+period, fixed period, initial free period or an initial discount period) and is not
+an otherwise excluded contract.58
+1.51 Several types of contracts are excluded from being a subscription contract,
+including, for example, a lease or a contract of hire purchase (see proposed
+section 48C).59 For instance, a supplier would be required to disclose how a party
+to the contract can end the contract.60
+1.52 Further, Division 4A ‘imposes information disclosure requirements on a person
+that offers to supply goods or services under a subscription contract’ (per
+proposed section 48D).61
+1.53 Proposed Division 4A is subject to the existing compliance and enforcement
+mechanisms which apply to Part 3-1 of the ACL.62
+56 See, Explanatory Memorandum, p. 18. For specific details of the pecuniary penalties that apply
+under ACL, see s. 224, Part 5-2 (Remedies) in Schedule 2 of the CCA.
+57 Explanatory Memorandum, p. 19.
+58 Explanatory Memorandum, p. 19.
+59 Explanatory Memorandum, p. 22.
+60 Proposed subparagraph 48D(4)(e), Competition and Consumer Amendment (Unfair Trading
+Practices) Bill 2026, p. 14.
+61 Explanatory Memorandum, p. 23.
+62 Explanatory Memorandum, p. 19.
+12
+Financial impact
+1.54 The Explanatory Memorandum states the bill ‘is estimated to have nil or
+minimal financial impact’.63
+Compliance cost impact
+1.55 The Explanatory Memorandum states the compliance cost impact of the bill is
+‘$123.2 million in annual regulatory costs over 10 years’. Further, the
+Explanatory notes benefits associated with the bill ‘were not quantified but are
+expected to outweigh the costs’.64
+Commencement
+1.56 If enacted, the bill would commence on 1 July 2027.65
+1.57 The Explanatory Memornadum noted that the ‘extended period before
+commencement is intended to ensure that stakeholders, including businesses
+that offer subscription contracts, have sufficient time to transition to the new
+requirements’.66
+Human rights implications
+1.58 As outlined below, the bill engages the following human rights under the
+International Covenant of Civil and Political Rights (ICCPR):
+ the right to a fair trial and the presumption of innocence;
+ the right to freedom from arbitrary or unlawful interference with privacy;
+and
+ the right to freedom of expression.67
+Right to a fair trial and the presumption of innocence
+Civil penalty provisions
+1.59 The Explanatory Memorandum notes that a civil penalty provision may:
+… engage criminal process rights under Articles 14 and 15 of the ICCPR
+regardless of distinctions between criminal and civil penalties in domestic
+law. This is because the word ‘criminal’ has an autonomous meaning in
+international human rights law.68
+1.60 As outlined above, the bill contains significant civil penalty provisions for
+businesses. The Explanatory Memorandum notes that companies involved in
+63 Explanatory Memorandum, p. 1.
+64 Explanatory Memorandum, p. 1.
+65 Explanatory Memorandum, p. 1.
+66 Explanatory Memorandum, p. 35.
+67 See, Explanatory Memorandum, p. 40.
+68 Explanatory Memorandum, p. 40.
+13
+the contraventions of the CCA and ACL are ‘often large’ and ‘may receive large
+financial penalties from their misconduct’. As such, the Explanatory
+Memorandum states the bill’s large civil penalties are:
+… appropriate and related to the size of the company and provides an
+adequate deterrent from engaging in unfair trading practices. The penalties
+are reasonable, necessary and appropriate for regulating and disciplinary
+purposes, and to ensure paying a financial penalty does not become a cost
+of doing business.69
+Reversal of evidential burden
+1.61 As outlined in the Explanatory Memorandum, the bill provides certain
+exceptions to trading practices as they relate to a body corporates and
+businesses.70 A person seeking to ‘rely on these exceptions in proceedings bears
+an evidential burden in relation to the matter’.71 The Explanatory Memorandum
+states this is appropriate as ‘whether or not the consumer to whom the supply
+or offer to supply is made is a body corporate or is carrying on a business are
+matters likely to be peculiarly within the knowledge of the person making the
+supply or offer’.72
+1.62 To the extent that the bill engages rights under Articles 14 or 15 of the ICCPR,
+the Explanatory Memorandum states:
+…it is compatible with human rights as the limitations are appropriate
+proportionate and necessary to achieving the Bill’s legitimate purpose of
+protecting the rights and wellbeing of consumers from the detriment caused
+by businesses engaging in unfair trading practices.73
+Right to privacy
+1.63 The Explanatory Memorandum states the bill engages the right to protection
+against unlawful and arbitrary interference with privacy (Article 17 of the
+ICCPR) by promoting that right, as it has a positive and beneficial impact on the
+privacy of consumers’.74
+Freedom of freedom of expression
+1.64 The Explanatory Memornadum states Schedule 1 of the bill engages the right to
+freedom of expression (Article 19 of the ICCPR). The Explanatory Memorandum
+notes the bill ‘places some restrictions on businesses’ freedom of expression’ by:
+69 Explanatory Memorandum, p. 41.
+70 See, Explanatory Memorandum, p. 41.
+71 Explanatory Memorandum, p. 41.
+72 Explanatory Memorandum, p. 41.
+73 Explanatory Memorandum, p. 42.
+74 Explanatory Memorandum, p. 42.
+14
+ prohibiting offers to supply (including advertising) that manipulate
+consumers’ or distort the environment in which the consumer makes a
+decision; and
+ requiring businesses to disclose certain information at particular times,
+for example, suppliers are also required to disclose transaction-based
+charges in specified circumstances.75
+1.65 The Explanatory Memorandum notes that offer to supply is only limited to the
+‘extent that it involves relevant unfair trading practices and only requires the
+disclosure of information that consumers need to make informed decisions that
+affect their wellbeing’. The Explanatory Memorandum states that this ‘modest
+limitation’ is justified, proportionate and ‘necessary to protect the rights and
+wellbeing of consumers’.76
+Legislative Scrutiny
+1.66 This section outlines the legislative scrutiny of the bill undertaken by:
+ the Senate Standing Committee on the Scrutiny of Bills; and
+ the Parliamentary Joint Committee on Human Rights.
+Senate Standing Committee on the Scrutiny of Bills
+1.67 The Senate Standing Committee on the Scrutiny of Bills (Scrutiny Committee)
+reported on several provisions for delegated legislation in the bill that could
+have the effect of modifying or exempting primary legislation.77
+1.68 In particular, the Scrutiny Committee highlighted concerns regarding the
+powers for the Minister to make regulations under proposed paragraph
+48D(4)(f) and proposed subsections 48D(5), 48E(4) and 48F(3). If enacted:
+ proposed paragraph 48D(4)(f)—would provide that types of information a
+supplier is required to disclose in making an offer to supply a good or
+service under a subscription contact may be made by regulations;
+ proposed subsection 48D(5)—would provide that an exemption may be
+made to the requirement that a supplier must disclosure certain information
+in making an offer to supply a good or service under a subscription contact;
+ proposed subsection 48E(4)—would provide that an exemption may be
+made to the requirement that a supplier must provide certain information
+when supplying a good or service under a subscription contact; and
+ proposed subsection 48F(3)—would provide that an exemption may be
+made to requirement that a supplier must provide a way to end a
+75 Explanatory Memorandum, pp. 42–43.
+76 Explanatory Memorandum, p. 43.
+77 See, Senate Standing Committee on the Scrutiny of Bills (Scrutiny Committee), Scrutiny Digest 6 of
+2026, May 2026, pp. 90–93.
+15
+subscription contact which is easy, straightforward and only involves
+reasonably necessary steps.78
+1.69 The Scrutiny Committee drew attention to its ongoing concerns regarding
+‘framework provisions that contain only the broad principles of a legislative
+scheme and rely heavily on delegated legislation to determine the scope and
+operation of the scheme’. Such concerns, it said, are ‘significantly heightened’
+where a bill includes provisions to make delegated legislation that would
+override legislation passed by the Parliament.79
+1.70 While the Scrutiny Committee noted the Explanatory Memorandum provided
+some information regarding the appropriateness of the bill’s exemption
+provisions, the Scrutiny Committee did not consider Explanatory
+Memorandum established the provisions to be ‘as circumscribed as possible or
+contain sufficient safeguards to justify their use’.80
+Parliamentary Joint Committee on Human Rights
+1.71 The Parliamentary Joint Committee on Human Rights reported that it had no
+comment on the bill.81
+Conduct of the inquiry
+1.72 The committee advertised the inquiry on its website and wrote to a range of
+stakeholders, inviting them to make a submission by 27 May 2026.
+1.73 The committee received 31 submissions, as listed at Appendix 1.
+1.74 The committee held a public hearing via videoconference from Canberra on
+Tuesday, 9 June 2026. Witnesses who appeared at the hearing at listed at
+Appendix 2.
+Acknowledgments
+1.75 The committee extends its thanks to the individuals and organisations who
+contributed to the inquiry by making written submissions or by giving evidence
+at the committee’s public hearing.
+78 Scrutiny Committee, Scrutiny Digest 6 of 2026, May 2026, pp. 90–91.
+79 Scrutiny Committee, Scrutiny Digest 6 of 2026, May 2026, p. 91.
+80 Scrutiny Committee, Scrutiny Digest 6 of 2026, May 2026, p. 91.
+81 Parliamentary Joint Committee on Human Rights, Report 5 of 2026, May 2026, p. 5.
+
+Chapter 2
+Views on the bill
+2.1 This chapter considers inquiry participants’ evidence on the Competition and
+Consumer Amendment (Unfair Trading Practices) Bill 2026 (the bill). In general,
+inquiry participants supported the objective of addressing unfair trading
+practices that affect Australian consumers. Several inquiry participants strongly
+supported the bill’s consumer protection measures.
+2.2 However, inquiry participants also raised potential issues in the bill, including:
+ the clarity and breadth of provisions that establish the general prohibition
+on unfair trading;
+ the application of certain provisions related to drip pricing;
+ the application of certain provisions related to subscription contracts; and
+ the suitability of the bill’s implementation provisions.
+2.3 The chapter concludes with the committee’s view and a recommendation.
+General prohibition on unfair trading practices
+2.4 As outlined below, inquiry participants expressed a range of views regarding
+the bill’s proposed general prohibition on unfair trading practices (general
+prohibition). These views ranged from support from consumer advocates for
+the protections offered by the general prohibition to concerns from industry
+representatives regarding the clarity of key provisions and the impact this could
+have on businesses.
+2.5 Inquiry participants also expressed a range of views on whether the protections
+of the general prohibition should be extended to small businesses.
+Support for the general prohibition on unfair trading practices
+2.6 Several inquiry participants provided evidence on the importance of the general
+prohibition to enhance consumer protections against unfair trading practices,
+particularly in the online environment where some practices are not adequately
+captured under Australian Consumer Law (ACL).
+2.7 For instance, the Australian Competition and Consumer Commission (ACCC)
+submitted that the introduction of a general prohibition is ‘critical to improving
+protections against harmful practices that are not adequately addressed by
+existing provisions of the ACL’.1 The ACCC said harmful conduct:
+ is unfair but does not reach the high threshold of unconscionable conduct
+under the existing provisions of the ACL.
+1 Australian Competition and Consumer Commission, Submission 27, p. 2.
+17
+18
+ distorts consumer choice without being misleading under the existing
+provisions of the ACL (for example, by causing confusion or obfuscating
+relevant information).
+ falls outside of the unfair contract terms prohibition in the ACL.
+ does not meet the specific elements required to be proven to establish any
+of the prohibitions on specific practices in Chapter 3 of the ACL (such as
+false or misleading representations as to price, or bait advertising).2
+2.8 Ms Catriona Lowe, Deputy Chair of the ACCC, expanded on need for a general
+prohibition in evidence to the committee:
+Through our work over many years now, we have observed both under-
+regulated and unregulated unfair-trading practices that cause significant
+detriment to both consumers and small businesses in both the online and
+offline environment. Markets and products have subsequently become
+increasingly complex for consumers and, to a degree, small businesses to
+engage with. We have found through our compliance and enforcement
+work that the current prohibitions in the Australian Consumer Law have
+been insufficient to protect consumers and small businesses from harms that
+are significant. Unfair-trading practices can also disproportionately affect
+and impact consumers experiencing vulnerability or disadvantage. We
+consider that a prohibition on unfair trading will be an important safety net
+to protect consumers and small businesses from harm, but we also consider
+that an unfair-trading prohibition is important microeconomic reform that
+will set improved standards for business behaviour and thereby promote
+better conduct in the marketplace.3
+2.9 The Consumer Policy Research Centre (CPRC) and various consumer
+organisations submitted in relation to the need for a general prohibition, stating
+that it ‘will stop harmful practices that cost Australians time, money and their
+wellbeing’.4 In the online environment alone, the Consumer Policy Research
+Centre (CPRC) and various consumer organisations estimated that Australians
+are ‘likely losing over 1 Billion AUD every year’ to unfair trading practices.5
+2.10 Ms Chandni Gupta, Deputy Chief Executive Officer and Digital Policy Director
+of the CPRC, highlighted ‘deceptive and manipulative designs, also known as
+dark patterns’ as a key example of ‘unfair practices that Australians put up with
+every single day’.6 Ms Gupta said dark pattens are designed into commonly
+used websites and apps to steer consumer choices in a way that often does not
+2 Australian Competition and Consumer Commission, Submission 27, pp. 2–3.
+3 Ms Catriona Lowe, Deputy Chair, Australian Competition and Consumer Commission, Proof
+Committee Hansard, 9 June 2026, p. 15.
+4 Consumer Policy Research Centre and various consumer organisations, Submission 3, p. 3.
+5 See, Consumer Policy Research Centre and various consumer organisations, Submission 3, pp. 3–4.
+6 Ms Chandni Gupta, Deputy Chief Executive Officer and Digital Policy Director, Consumer Policy
+Research Centre, Committee Hansard, 9 June 2026, p. 5.
+19
+reflect their best interest, such as an end subscription process involving multiple
+screens.7 Further, Ms Gupta told the committee:
+Our research has found that 83 per cent of Australians have experienced
+some form of negative consequence because of dark patterns. When it comes
+to subscriptions, three in four Australians have found it difficult to cancel a
+subscription, with one in 10 simply giving up and continuing to pay for
+something they no longer need or want.8
+2.11 Moreover, Ms Gupta said subscriptions and the use of dark patterns can
+exacerbate the collection and sharing of consumer data, such as having an
+option ‘already pre-checked that that information will be shared with third
+parties’.9 These types of built-in elements may go unnoticed by a consumer due
+to the way a form is designed or the way in which information is presented.10
+Under the general prohibition, Ms Gupta said businesses would need to
+consider ‘whether they are using deceptive and manipulative techniques, such
+as dark patterns, to ask for more information than is absolutely necessary’.11
+2.12 Similarly, Professor Jeannie Paterson, a professor of law at the University of
+Melbourne, told the committee that the bill ‘seeks to address unethical
+techniques related to dark patterns that distort consumer choice…’.12 For
+instance, Professor Paterson submitted that the general prohibition is needed to
+address practices such as ‘distorting choice architecture’ in online gaming that
+disproportionately affect children ‘who lack the digital literacy and impulse
+control to detect or resist’ such practices.13
+2.13 Further, Professor Paterson submitted the general prohibition is valuable for the
+following reasons:
+ It closes a gap in the ACL. The existing prohibitions require conduct that
+is misleading, unconscionable, or amounts to undue pressure.
+Sophisticated commercial practices, particularly digital choice
+architecture, frequently fall between these categories. They do not
+deceive in the strict sense, nor do they reach the high bar of statutory
+unconscionability, yet they predictably distort consumer choice and
+cause loss.
+ It responds to harms that scale. Digital interfaces are tested, refined and
+deployed at scale through techniques such as A/B testing. Small design
+7 See, Ms Gupta, Proof Committee Hansard, 9 June 2026, p. 5.
+8 Ms Gupta, Proof Committee Hansard, 9 June 2026, p. 5.
+9 Ms Gupta, Proof Committee Hansard, 9 June 2026, p. 6.
+10 See, Ms Gupta, Proof Committee Hansard, 9 June 2026, p. 6.
+11 Ms Gupta, Proof Committee Hansard, 9 June 2026, p. 6.
+12 Professor Jeannie Paterson, University of Melbourne, Proof Committee Hansard, 9 June 2026, p. 11.
+13 Professor Jeannie Paterson, University of Melbourne, Submission 19, pp. 1–2.
+20
+choices, applied to millions of consumers, produce significant aggregate
+harm. A general prohibition allows the regulator and courts to address
+that systemic harm directly.
+ It aligns Australia with comparable jurisdictions. The United
+Kingdom's Digital Markets, Competition and Consumers Act 2024 and
+the European Union's Unfair Commercial Practices Directive both target
+conduct that distorts consumer decision-making. A general prohibition
+in the ACL allows Australian courts and regulators to draw on a
+developing body of comparative guidance and avoids Australia
+becoming a soft jurisdiction for design practices restricted elsewhere.14
+2.14 Legal Aid Queensland (LAQ) also supported the general prohibition,
+submitting that its lawyers ‘often support clients who experience unfair
+practices which do not fall within the existing protections in the [ACL]’.15 LAQ
+identified such practices as:
+ unfair online methods, such as ‘forcing customers’ into an unneeded option;
+ online websites falsely representing the end of a sale; and
+ ‘making it difficult for a consumer to access their legal rights’.16
+2.15 The Telecommunication Industry Ombudsman similarly submitted support for
+the general prohibition and, in particular, for applying the protections to the
+‘communications sector, including telecommunications and digital platforms’.17
+Ms Cynthia Gebert, Ombudsman, expanded on this view:
+We consider that the bill will strengthen consumer protections, increase
+consumer confidence and, importantly, prevent complaints before they
+arise. To illustrate: between 2023 and 2025, we received almost 14,000
+complaints about failure to cancel a telco service. These complaints often
+involve complex cancellation processes and retention practices that pressure
+consumers to stay in services they do not want, waste their time and cause
+financial and emotional harm.18
+2.16 Ms Susan Quinn, Assistant Director, Policy and Campaigns at the Consumer
+Action Law Centre told the committee that lead generation, particularly
+regarding ‘manipulative practices that are going on behind the scenes’ ‘really
+exemplifies’ why the bill’s proposed measures are needed. In particular,
+Ms Quinn highlighted the role of lead generation in the collapse of the Shield
+14 Professor Jeannie Paterson, University of Melbourne, Submission 19, p. 1.
+15 Legal Aid Queensland, Submission 13, p. 3.
+16 Legal Aid Queensland, Submission 13, pp. 2–3.
+17 Telecommunications Industry Ombudsman, Submission 11, p. [1].
+18 Ms Cynthia Gebert, Ombudsman, Telecommunications Industry Ombudsman, Proof Committee
+Hansard, 9 June 2026, p. 2.
+21
+and First Guardian funds, in which ‘11,000 people have lost more than $1 billion
+in retirement savings’.19
+2.17 Several other inquiry participants also submitted in support of the consumer
+protections in the general prohibition.20
+Clarity, breadth and legal certainty of the general prohibition
+2.18 As outlined in Chapter 1, proposed section 28B seeks to introduce a general
+prohibition on unfair trading practices which provides that in supplying, or
+offering to supply, a good or service a person must not:
+(a) manipulate the consumer or unreasonably distort the environment in
+which the consumer makes a decision (the manipulation limb); and
+(b) cause, or engage in conduct likely to cause, detriment to the consumer (the
+consumer detriment limb).21
+2.19 The ACCC considered both limbs to be ‘appropriately framed’ in the bill.
+Further, the ACCC considered that the proposed general prohibition achieves a
+balance of capturing conduct not currently addressed by existing law and not
+capturing ‘legitimate marketing practices that influence or persuade’.22
+2.20 Nonetheless, several submitters raised issues regarding the clarity, breadth and
+legal certainty of both the manipulation limb and consumer detriment limb.
+Clarity and operation of the manipulation limb
+2.21 Several submitters raised issues regarding the clarity of key terms used in the
+general prohibition’s manipulation limb.23 In particular, submitters considered
+that the bill does not adequately define ‘manipulation’, or related terms, and as
+such is unclear on the types of conduct likely to be considered to manipulative.
+2.22 The Business Council of Australia (BCA), for instance, submitted that terms such
+as ‘manipulates’ and ‘unreasonably distorts’ in the bill are ‘unclear and invite
+subjective interpretation’. The BCA considered that uncertain terms pose a risk:
+The risk with subjective or uncertai1n terms is that clarity will only be
+achieved after enforcement action and litigation, rather than through precise
+language and clear statutory parameters. Without clearer, targeted statutory
+guidance, there is a risk that the scope of the prohibition will be shaped
+19 Ms Susan Quinn, Assistant Director, Policy and Campaigns, Consumer Action Law Centre, Proof
+Committee Hansard, 9 June 2026, p. 6.
+20 See, for example, Associate Professor Andrew Moshirnia, Monash University, I, p. 1; Mr Anthony
+Ross, Associate Professor Katharine Kemp, Associate Professor Kayleen Manwaring, and Associate
+Professor May Fong Cheong, Submission 21, p. [2].
+21 See, Explanatory Memornadum, pp. 7–8; proposed subsection 28B(2), Competition and Consumer
+Amendment (Unfair Trading Practices) Bill 2026, p. 4.
+22 See, ACCC, Submission 27, p. 3.
+23 See, for example, Queensland Law Society, Submission 26, pp. 1–2.
+22
+primarily through discretionary enforcement and litigation, rather than
+through clear parliamentary direction. This would ultimately harm
+consumers by delaying da1rity and resolution. A clear, objective legal
+standard is essential for effective regulation.24
+2.23 Similarly, the Australian Industry Group (AIG) considered that by not defining
+‘manipulate’ in the bill creates ‘significant legal uncertainty’. While noting that
+the Explanatory Memorandum states that the use of the term ‘manipulation’ in
+proposed section 28B is not intended to capture legitimate marketing behaviour,
+the AIG contended that as this ‘protection’ sits within the Explanatory
+Memorandum it does not ‘carry the force of the law’. The AIG submitted that,
+under the current drafting of section 28B, the ‘boundaries of ‘manipulation’ will
+remain uncertain until resolved through litigation’.25 To address this, AIG
+recommended that proposed section 28B be amended to:
+…include a statutory note reflecting the Government’s own stated intent:
+that manipulation requires conduct that is exploitative, unfair, or wrongful
+in character and does not extend to legitimate, reasonable, or generally
+accepted marketing or sales practices.26
+2.24 Providing related evidence, Dr Mark Giancaspro, a commercial legal
+practitioner and senior lecturer at Adelaide University Law School, considered
+that a ‘fundamental difficulty’ with the operation of the manipulation limb is
+that the concept of ‘generally accepted marketing or sales practices’ is not
+defined in the bill.27 Dr Giancaspro explained:
+There is no objective benchmark, industry standard, or regulatory guidance
+identified to determine what practices are ‘generally accepted’, nor clarity
+as to who is responsible for making that assessment. In the absence of such
+a touchpoint, the boundary between legitimate marketing or sales conduct
+and prohibited marketing or sales conduct constituting an unfair trading
+practice remains uncertain, creating significant ambiguity for all parties
+affected by the provision.28
+2.25 Further, Dr Giancaspro anticipated that courts would struggle to determine
+whether marketing or sales practices are generally accepted. For instance,
+Dr Giancaspro detailed how some common marketing practices, such as puffery
+(exaggerated sales talk), can ‘technically “manipulate the consumer” and can
+even be characterised as “unreasonable” on occasion, but which are nonetheless
+regarded as acceptable’. Dr Giancaspro concluded that there is ‘no such
+24 Business Council of Australia, Submission 23, p. 2.
+25 Australian Industry Group, Submission 1, p. 3.
+26 Australian Industry Group, Submission 1, p. 3.
+27 Dr Mark Giancaspro, Adelaide University, Submission 15, p. 2.
+28 Dr Mark Giancaspro, Adelaide University, Submission 15, p. 2.
+23
+objective, bright line test to evaluate the general acceptability of marketing or
+sales practices that exploit the cognitive or behavioural biases of consumers’.29
+2.26 Dr Giancaspro submitted that the abovementioned issues may be addressed by
+amending proposed subparagraph 28B(2)(a)(ii) to ‘substitute the term
+“unreasonably” for another more readily quantifiable term such as
+“substantially” or “materially”’. Alternatively, Dr Giancaspro submitted that, in
+relation proposed subsection 28B(2), amendment could be made to ‘...provide
+some form of definition or “grey list” of examples clarifying those sorts of
+marketing or sales practices that are to be regarded as “generally accepted”’.30
+2.27 Several other submitters called for the term ‘manipulate’ to be clarified in the
+bill.31 For example, the Tech Council of Australia (TCA) advocated for the bill to
+adopt a ‘clear standard’ for manipulation. While welcoming guidance provided
+in the Explanatory Memorandum regarding manipulation, the TCA
+recommended that proposed section 28B of the bill be amended to refer to
+‘unfairly manipulate’ to ensure the prohibition ‘targets conduct of significance
+rather than any ordinary and normal persuasive commercial activity.32
+Removal of ‘unreasonably’ from ‘unreasonably manipulate’ in subparagraph 28B(2)(a)(i)
+2.28 Several inquiry participants provided evidence regarding the removal of the
+word ‘unreasonably’ from ‘unreasonably manipulate’ in subparagraph
+28B(2)(a)(i) of the bill.
+2.29 As the Australian Chamber of Commerce and Industry (ACCI) noted, while the
+exposure draft of the bill included ‘unreasonably’ as a qualifier to ‘manipulate’
+under the unfair trading prohibition, this had been removed in the current
+version of the bill.33 The ACCI described this as a ‘material expansion’ of the
+manipulation limb and ‘counter to the ACCI’s recommendation for a tighter,
+more objectively framed prohibition’.34 To address this, the ACCI submitted
+that:
+…"unreasonably manipulates" should be restored, or that equivalent
+statutory safeguards should be inserted to ensure legal certainty. One option
+could be to include a safeguard that the prohibition does not apply to the
+extent the conduct is reasonably necessary to protect the legitimate interests
+of the supplier.35’
+29 Dr Mark Giancaspro, Adelaide University, Submission 15, p. 2.
+30 Dr Mark Giancaspro, Adelaide University, Submission 15, p. 2.
+31 See, for example, Australian Digital Marketing Association, Submission 31, pp. [3-4].
+32 Tech Council of Australia, Submission 4, pp. 7–8.
+33 See, Australian Chamber of Commerce and Industry, Submission 2, p. [2].
+34 Australian Chamber of Commerce and Industry, Submission 2, p. [2].
+35 Australian Chamber of Commerce and Industry, Submission 2, p. [2].
+24
+2.30 Other submitters also raised the removal of ‘unreasonably’ as a qualifier to
+‘manipulate’ in subparagraph 28B(2)(a)(i) of the bill as an ongoing concern.36 For
+instance, the Digital Industry Group Inc. (DIGI) considered that removing
+‘unreasonably’ from the manipulation limb ‘materially lowers the threshold for
+liability and introduces even greater uncertainty’. DIGI explained:
+All forms of commercial persuasion — advertising, pricing strategies,
+promotional offers, user interface design — influence consumer behaviour
+to some degree. Without the ‘unreasonably’ qualifier having legislative
+force, the line between legitimate marketing and prohibited manipulation
+becomes dependent entirely on ACCC enforcement discretion and eventual
+judicial interpretation, leaving businesses in an extended period of
+uncertainty.37
+2.31 The BCA submitted that the removal of ‘unreasonably’ was a significant and
+unexpected change in the bill which ‘was not explained to stakeholders and was
+not consulted on’. By lowering the threshold for manipulation, the BCA
+considered that removal of ‘unreasonably’ introduces ‘risks and costs to
+business’, particularly due ‘manipulation’ not being defined in the bill.38 Further,
+the BCA noted:
+For an economy-wide prohibition of this significance, and the seriousness of
+potential penalties, legislative clarity is essential. Businesses should not be
+required to ascertain the intended meaning of a statutory term from extrinsic
+material when that meaning can readily be made dear in the legislation.39
+2.32 Noting the above, the BCA recommended that a qualifier be reintroduced into
+proposed subparagraph 28B(2)(a)(i) by inserting the word ‘unreasonably’,
+‘unfairly’ or ‘materially’ prior to ‘manipulation’.40
+2.33 The Law Council of Australia (LCA) shared concerns regarding the ‘absence of
+a materiality threshold’ in proposed section 28B. As the LCA submitted:
+The Committee strongly submits that the prohibition needs to include a
+materiality threshold (for example, “significantly”, “materially” or
+“substantially”) to provide greater certainty for businesses and consumers.
+By merely removing the former reference to “unreasonable” but not
+replacing it with any other materiality threshold, the Bill creates real
+uncertainty and significantly increases the risk that the notion of
+36 See, for example, Internet Association of Australia Ltd, Submission 6, p. 2; Interactive Games &
+Entertainment Association, Submission 20, p. 4.
+37 Digital Industry Group Inc. (DIGI), Submission 5, p. 3.
+38 See, Business Council of Australia, Submission 23, p. 3.
+39 Business Council of Australia, Submission 23, p. 4.
+40 Business Council of Australia, Submission 23, p. 4.
+25
+“manipulation” will be applied across a wide range of conduct, much of
+which is common and benign.41
+2.34 At its public hearing, the committee asked the ACCC about removal of the word
+‘unreasonably’ from ‘unreasonably manipulate’ in proposed subparagraph
+28B(2)(a)(i). Ms Lowe outlined the ACCC’s view on the change as follows:
+We do consider that that was a very important change. We are aware that
+part of the discussion as these laws have come into being is on a concern, on
+the one hand, not to unreasonably constrain legitimate advertising
+behaviour and, on the other hand, not to set the bar too high such that it is
+causing harm and detriment is not captured by the provision.
+We think that the removal of the word 'unreasonably' from 'manipulate' but
+the retention of it in relation to 'distort' properly strikes that balance because
+it is a recognition—in our view, a proper one—that there is a degree to which
+the purpose of advertising is to distort, so the 'unreasonable' element raises
+the bar there, but of course manipulation is another step again. In the world,
+we're seeing increasing capacity to utilise consumer behaviour, in both an
+online world and an offline world, in a way that really removes that
+autonomous decision-making from a consumer. The prohibition on
+unreasonably manipulating, we think, would set that bar too high and risk
+us being back in a world where harm is allowed to continue because of that
+framing.42
+2.35 Similar to the view expressed by the ACCC, other submitters also supported the
+current drafting of the bill which removes ‘unreasonably’ before ‘manipulate the
+consumer in proposed subparagraph 28B(2)(a)(ii).43
+2.36 Commenting more broadly on the certainty of the general prohibition, members
+of the UNSW Public Interest Law & Tech Initiative submitted that:
+The introduction of a new rule for businesses unsurprisingly raises
+arguments that there will be some uncertainty for businesses as to how that
+rule will be applied when it comes into effect. In our view, however, that
+concern has been overstated with regard to the unfair trading practices
+prohibition. The proposed section 28B does not invite an open-ended
+assessment of ‘fairness’, but fixes attention upon the character of the conduct
+and its effect upon the consumer’s decision-making. The inquiry it directs
+is, in this respect, considerably more confined than standards already
+embedded in the ACL.44
+41 Law Council of Australia, Submission 28, p. 2.
+42 Ms Catriona Lowe, Deputy Chair, Australian Competition and Consumer Commission, Proof
+Committee Hansard, 9 June 2026, p. 18.
+43 See, for example, Telecommunications Industry Ombudsman, Submission 11, p. [1].
+44 Mr Anthony Ross, Associate Professor Katharine Kemp, Associate Professor Kayleen Manwaring,
+and Associate Professor May Fong Cheong, Submission 21, p. [4].
+26
+Other areas of clarification related to the manipulation limb
+2.37 Several other submitters also called for increased clarity in relation to the
+manipulation limb of the general prohibition.45
+2.38 For instance, the TCA submitted that the general prohibition introduces new
+terms into the ACL, such as ‘unreasonably distorts’, which the TCA viewed as
+introducing uncertainty ‘problematic for both consumers in understanding
+what they are protected from, and for businesses seeking to comply with the
+new prohibition’.46 The TCA also highlighted the reference to the ‘environment’
+in which a consumer makes a decision in the manipulation limb ‘…brings into
+scope a far wider range of potential areas that consumers may utilise in making
+decisions’.47
+2.39 While supporting the intent of the proposed section 28B, Master Electricians
+Australia (MEA) also questioned the potential breadth of the ‘unreasonable
+distortion’ provision made in the manipulation limb. MEA noted that the
+‘unreasonable distortion’ of a consumer’s decision making environment may
+occur where the environment is overly complex, leading MEA to caution that
+this could inadvertently capture small electrical contractors who:
+...are often the last point of contact for consumers exploring Consumer
+Energy Resource options (and other such electrical industry examples) and
+can be incorrectly perceived as responsible for explaining complex technical
+details m benefits. While providing guidance to inquisitive customers, small
+electrical contractors should not be captured under s 28B where there is a
+genuine effort to assist without applying pressure to make a particular
+electrification decision even if the information is considered complex.48
+2.40 Further, MEA called for ‘greater clarification regarding the extent to which
+businesses, particularly small businesses, may be held responsible for third-
+party interfaces where they have undertaken reasonable inquiries to ensure
+compliance by the third party’.49
+2.41 The Federal Chamber of Automotive Industries described the terms of the
+general prohibition as ‘extremely wide’ and that considered that the ‘such
+general drafting invites disputes over its terms which is likely to result in
+increased legal activity and compliance costs’.50
+45 See, for example, Franchise Council of Australia, Submission 7, p. 4; Master Electricians Australia,
+Submission 8, pp. 4–5.
+46 Tech Council of Australia, Submission 4, p. 4.
+47 Tech Council of Australia, Submission 4, p. 4.
+48 Master Electricians Australia, Submission 8, p. 5.
+49 Master Electricians Australia, Submission 8, p. 5.
+50 Federal Chamber of Automotive Industries, Submission 17, pp. 1–2.
+27
+Threshold for consumer detriment
+2.42 Several submitters to inquiry raised issues regarding the consumer detriment
+provision under proposed paragraph 28B(2)(b) of the general prohibition. In
+particular, submitters considered that the consumer detriment limb does not
+establish a clear threshold for consumer harm and, as such, could capture
+conduct that does not cause substantive harm to a consumer.51
+2.43 The Australian Digital Marketing Association (ADMA) submitted that ‘[u]nlike
+drafts of the prohibition previously subject to public consultation, the Bill as
+introduced into the Parliament does not qualify the level of
+“detriment”…required for conduct to be captured by the prohibition’. ADMA
+said the current wording of the bill:
+…creates a real risk that ordinary commercial interactions, or conduct that
+gives rise to annoyance or inconvenience by the consumer, may become
+subject to regulatory scrutiny, significant penalties, and legal uncertainty,
+even where any consumer harm is minor, subjective, or transient. In our
+view the Bill should be amended to capture only detriment which is
+‘substantial’ or ‘significant’.52
+2.44 Further, ADMA considered that the lack of clarity regarding consumer
+‘detriment’ under proposed paragraph 28B(2)(b) increases the risk that
+‘'standard everyday marketing practices being captured in circumstances where
+consumers are simply annoyed or have buyers’ remorse, as opposed to conduct
+that is deceitful or involves a nefarious design feature'.53
+2.45 The ACCI expressed a similar view, submitted that:
+…without clearer statutory thresholds, the Bill could capture trivial
+inconvenience, frustration or ordinary consumer regret as a compliance and
+enforcement trigger. This risk is amplified because detriment is not limited
+to financial harm and because likely detriment is enough to engage the
+prohibition.54
+2.46 The ACCI considered that the ‘detriment threshold should be tightened through
+clearer materiality and objective constraints so the prohibition targets genuinely
+harmful conduct’.55 The ACCI said this could be achieve by ‘specifying that
+detriment must be “material” or “measurably significant”, including where
+detriment is likely’.56
+51 See, for example, Master Electricians Australia, Submission 8, p. 5.
+52 Australian Digital Marketing Association, Submission 31, p. [2].
+53 Australian Digital Marketing Association, Submission 31, p. [2].
+54 Australian Chamber of Commerce and Industry, Submission 2, p. [3].
+55 Australian Chamber of Commerce and Industry, Submission 2, p. [3]; Business Council of Australia,
+Submission 23, pp. 4–5.
+56 Australian Chamber of Commerce and Industry, Submission 2, p. [3].
+28
+2.47 Similarly, the Interactive Games & Entertainment Association (IGEA)
+considered proposed paragraph 28B(2)(b) ‘should be confined to material
+detriment e.g. material financial detriment’. IGEA such a change would ‘ensure
+that the provision is directed at substantive consumer harm, rather than
+capturing ordinary commercial interactions’.57
+2.48 While recognising the importance of dealing with consumer harms, the TCA
+considered submitted that the bill provides for a ‘harm threshold that is very
+low’, particularly when compared to other countries such as the US where the
+‘bar for harm that is unfair are acts that cause substantial consumer injury that
+is not reasonably avoidable and is not outweighed by countervailing benefits’.58
+2.49 In particular, the TCA expressed ongoing concern that the application of
+detriment in the unfair trading prohibition ‘goes beyond financial detriment, to
+include extremely subjective elements such as ‘wasted time’. The TCA
+submitted the bill provides a ‘consumer detriment of ‘wasted time’ may occur
+even where’ the consumer makes an informed fully decision, no economic
+behaviour is distorted and no financial harm occurs’.59 As such, the TCA argued
+in favour of a material detriment threshold to provide more certainty to
+businesses. Without this, the TCA submitted business operating in complex
+digital environments will not be able to ‘determine with confidence whether
+ordinary operational issues, minor CX/UI friction, or incidental delays will
+expose them to the risk of significant penalties’.60
+2.50 If the provision for non-financial detriment remain in the bill, the TCA
+submitted that:
+…the EM should clarify that: (i) detriment is assessed from the standpoint
+of a reasonable consumer; (ii) detriment reasonably avoidable by the
+consumer is excluded; and (iii) any non-financial detriment must be
+quantifiable. These clarifications reduce subjectivity and align with objective
+ACL standards.61
+2.51 Several other submitters also expressed similar views regarding the potential
+impacts of proposed paragraph 28B(2)(b) on businesses. For instance, AIG
+submitting that the lack of a ‘material detriment requirement’ in make it
+‘impossible for businesses to distinguish between conduct that represents a
+genuine consumer harm and conduct that results in trivial or incidental
+inconvenience’.62 DIGI submitted that businesses face a ‘ disproportionate
+57 Interactive Games & Entertainment Association, Submission
+58 Tech Council of Australia, Submission 4, p. 5.
+59 Tech Council of Australia, Submission 4, p. 6.
+60 Tech Council of Australia, Submission 4, p. 6.
+61 Tech Council of Australia, Submission 4, p. 6.
+62 Australian Industry Group, Submission 1, p. 3.
+29
+liability and litigation risk for low-impact conduct’, including ‘regulatory action
+or private claims in circumstances where no meaningful harm has occurred and
+no economic behaviour has been distorted’.63 Further, DIGI submitted:
+…given that the manipulation limb has been lowered by removing
+‘unreasonably’, the detriment limb carries even greater weight as the
+constraint on liability. Retaining an undefined, non-material detriment
+concept alongside a lowered manipulation threshold creates a cumulative
+risk of over-capture.64
+Examples of unfair trading practices in proposed subsection 28B(6)
+2.52 Proposed subsection 28B(6) provides an ‘indicative list of conduct that may be
+unfair trading practices’ under the general prohibition.65
+2.53 In evidence to the committee, Ms Anna Barker, Acting Assistant Secretary,
+National Competition and Consumer Branch, Department of the Treasury,
+outlined the intent of proposed subsection 28B(6) as follows:
+What the intent of the design was, with the general prohibition and grey list
+combination, was really to have some flexibility. With a general prohibition
+that's obviously meant to be future proof. It's meant to capture a broad range
+of practices that fit within the definition in the law. The purpose of the grey
+list is, where we're seeing the types of conduct that we think fall into unfair
+trading practices, that we can say, 'Here's an example of a type of practice
+we think is contrary to it.' It's certainly non-exhaustive, and it's more an
+illustrative list. That would be the purpose there. It's something that can be
+consulted in respect of the specific circumstances and also meet the test for
+the general prohibition. There are some benefits as well for businesses and
+consumers in that it reduces some of the uncertainty. Where they have a
+grey list, they can see the types of things they should be avoiding as a
+business, and consumers can sort of understand better their rights in respect
+of the unfair trading practices, especially because this is a new type of
+economy-wide protection.66
+2.54 As outlined below, several other inquiry participants provided evidence
+regarding subsection 28B(6) and, in particular, suggested additional examples
+be included in the indicative list.
+2.55 While strongly recommending that the Senate pass the bill, the Consumer Policy
+Research Centre and various consumer organisations recommended that:
+Section 28B of the Bill should be amended to include lead generation as an
+example of unfair conduct that may contravene the general prohibition.
+Lead generation should be defined as securing consumer contact
+63 Digital Industry Group Inc. (DIGI), Submission 5, p. 4.
+64 Digital Industry Group Inc. (DIGI), Submission 5, p. 4 .
+65 See, Explanatory Memorandum, p. 9.
+66 Ms Anna Barker, Acting Assistant Secretary, National Competition and Consumer Branch,
+Department of the Treasury, Proof Committee Hansard, p. 22.
+30
+information for sales purposes using obscure, complex or misleading
+mechanisms and/or failing to clearly disclose the main purpose for
+collecting, using or sharing a consumer’s personal information.67
+2.56 Professor Paterson also submitted a ‘possible addition to the list of examples in
+s 28B(6) would be express recognition that the prohibition applies to design
+directed at or foreseeably accessed by children, and demands higher standards
+of transparent and straightforward design in practices aimed at children’.
+Professor Paterson noted in the UK it is prohibited for an advertisement to
+include ‘a direct appeal to children to buy advertised products or persuade their
+parents or other adults to buy advertised products for them’.68
+2.57 In submitting to the inquiry, Senator Fatima Payman noted she had circulated
+an amendment in the Senate which would amend proposed subsection 28B(6)
+of the bill to include the following example of conduct which may be an unfair
+trading practice:
+(a) requiring the consumer to provide information not directly relevant to a
+transaction (including requiring the creation of an account).69
+2.58 Senator Payman considered such an amendment would have ‘multiple
+beneficial effects’, including to reduce the 'amount of customer data that is
+recorded by the online retailer' and to potentially increase sales for businesses.70
+2.59 Associate Professor Andrew Moshirnia of Monash University submitted that an
+‘asymmetry’ between the threshold for conduct that manipulates a consumer
+and the threshold for conduct that distorts a consumer’s decision-making
+environment (as contained in proposed paragraph 28B(2)(a)) may ‘disadvantage
+consumers’ in relation to upstream algorithmic manipulation practices. In
+particular, Associate Professor Moshirnia outlined that upstream algorithmic
+manipulation ‘sits ambiguously’ between the two thresholds in a way that
+‘creates a material risk of judicial misclassification’.71 As such, Associate
+Professor Moshirnia recommended that:
+Section 28B(6) be amended to include upstream algorithmic manipulation
+within the indicative list of conduct capable of contravening the general
+prohibition, expressly locating such conduct within the consumer
+manipulation component of the prohibition, and confirming that the
+prohibition extends to conduct that engineers the conditions preceding
+67 Consumer Policy Research Centre and various consumer organisations, Submission 3, p. 3.
+68 Professor Jeannie Paterson, University of Melbourne, Submission 19, p. 3.
+69 Senator Fatima Payman, Submission 14, p. 2.
+70 Senator Fatima Payman, Submission 14, p. 2.
+71 Associate Professor Andrew Moshirnia, Submission 16, p. 3.
+31
+consumer choice and not only to manipulation of the interface through
+which choice is exercised.72
+Clarity of the statutory examples
+2.60 Some inquiry participants considered that proposed subsection 28B(6) lacked
+clarity.
+2.61 For instance, the LCA submitted that the examples are ‘are expressed at a high
+level of generality, deploy concepts that are unfamiliar and untested in the ACL
+context, and lack contextual guidance as to their application in practice’. The
+LCA said that this was ‘in contrast’ to statutory list provided in section 25 of the
+ACL which ‘a set of concrete and specific examples of terms that may contravene
+the unfair contract terms prohibition’.73
+2.62 In particular, the LCA pointed to the following examples in proposed section
+28B(6):
+(a) failing to disclose material information to the consumer;
+(b) disclosing material information to the consumer in a complex,
+ineffective, unclear, unintelligible, ambiguous, untimely or
+overwhelming way;
+2.63 The LCA noted that the appropriate level of information to provide to
+consumers will ‘depend on the circumstances’ and ‘likely to involve a careful
+balance between providing consumers with sufficient information while not
+overloading consumers with too much information’. Despite this, the LCA said
+the examples ‘provide minimal guidance to firms in how to manage this trade-
+off without risking being captured by the legislation for a failure to disclose or
+from disclosing too much’.74
+2.64 Further, the LCA considered the meaning of several terms used in the examples
+are not clear and would be uncertain in application. As such, the LCA suggested
+that proposed subsection 28B(6) ‘adopt examples or guidance in a structure
+similar to those provided either by section 22 or 25 [of the ACL]’. At the very
+least, the LCA said ‘clearer guidance should be included in the Explanatory
+Memorandum’.75
+2.65 Similarly, the Queensland Law Society (QLS) considered that examples
+provided in proposed subsection 28B(6) do not ‘meaningfully clarify’ the
+boundary between legitimate marketing practices and conduct that would
+breach the new prohibition. QLS also considered that the Explanatory
+Memorandum:
+72 Associate Professor Andrew Moshirnia, Submission 16, p. 1.
+73 Law Council of Australia, Submission 28, p. 6.
+74 Law Council of Australia, Submission 28, p. 6.
+75 Law Council of Australia, Submission 28, p. 10.
+32
+…does not explain what falls within “legitimate marketing and advertising
+activities” and “ordinary or reasonable business practices used to influence
+consumers by promoting goods and services”, which it says, at paragraph
+1.40, will not amount to unfair trading practices.76
+2.66 Further, QLS submitted the ‘difficulty with identifying the boundary between
+prohibited and legitimate conduct is compounded by paragraph 1.39 of the
+[Explanatory Memorandum] which states that the examples are “intended to
+indicate some of the kinds of conduct that may be unfair trading practices”’. QLS
+said this ‘suggests that conduct that engages one or more of the examples by
+itself may not be enough to engage the prohibition’.77 As such, QLS called for
+‘specific examples’ to be included in proposed subsection 28B(6) or a more
+targeted prohibition, to better support compliance and give certainty for
+businesses and consumers’.78
+2.67 Several other submitters also provided evidence regarding the clarity of the
+proposed subsection 28B(6). For instance, Dr Giancaspro described the
+examples as ‘cryptically worded’ and suggested it ‘would be helpful to provide
+examples of each of the listed types of conduct’.79
+2.68 The TCA proposed subsection 28B(6) ‘raises concerns regarding the lack of
+clarity in how the prohibition is intended to be applied’.80 In particular, the TCA
+suggested that businesses could be ‘penalised’ for providing too much or two
+little information under the ‘disclosing material information’ example
+(proposed subparagraph 28B(6)(c)). The TCA noted that this example could
+impact some of its members, such as telecommunication and fintech providers,
+would be ‘need to walk a fine line’ when meeting certain mandatory disclosures
+requirements to customers without falling ‘afoul’ of potential unfair trading
+practices relating to the manner in which information is disclosed.81
+Use of third party platforms
+2.69 Some submitters pointed out that small businesses often use third-party
+platforms for which the small businesses for does not have the capacity to
+control the design or operation of the platform. The Council of Small Business
+Organisations Australia (COSBOA), for example, said that while a sole trader
+who uses a ‘standard ecommerce platform, booking engine, or point-of-sale
+system is legally responsible for the customer journey those tools create’ the
+76 Queensland Law Society, Submission 26, p. 2.
+77 Queensland Law Society, Submission 26, p. 2.
+78 Queensland Law Society, Submission 26, p. 3.
+79 Dr Mark Giancaspro, Adelaide University, Submission 15, p. 4.
+80 Tech Council of Australia, Submission 4, p. 4.
+81 Tech Council of Australia, Submission 4, pp. 4–5.
+33
+trader often has ‘no ability to modify how pricing is displayed, how
+subscriptions are structured, or how cancellation pathways function’.82
+Other matters
+2.70 Inquiry participants raised a range of issues regarding Part 1 of the bill. Such
+issues included, but were not limited to:
+ the need to introduce an unfair-trading practices prohibition in the
+Australian Securities and Investments Commission Act 2001 to cover financial
+products and services;83
+ the status of time limits and low stock indicators under the general
+prohibition, noting such practices may have a legitimate application in
+providing information to a consumer but may be an unfair trading practice
+if used the pressure a consumer;84
+ the effectiveness of the general prohibition beyond online environments;85
+ the potential interactions between industry codes and the general
+prohibition;86 and
+ construction issues in the general prohibition in relation to the word ‘the’
+and in relation to a cross-reference to the concept of ‘consumer’.87
+Need to extend unfair trading prohibition to financial products and services
+2.71 Evidence to the committee strongly supported extending the unfair trading
+practices prohibition beyond the Australian Consumer Law into the financial
+services regime to avoid regulatory gaps and ensure consistent consumer
+protections.
+2.72 The Australian Competition and Consumer Commission emphasised that,
+without alignment with the ASIC Act, there is a risk that harmful conduct in
+financial services will fall outside the new framework. Catriona Lowe told the
+committee that:
+Inconsistent protections across the Australian Consumer Law and ASIC Act
+lead to regulatory gaps that unscrupulous providers can take advantage of
+82 Council of Small Business Organisations Australia (COSBOA), Submission 10, p. 2.
+83 See, Ms Catriona Lowe, Deputy Chair, Australian Competition and Consumer Commission, Proof
+Committee Hansard, 9 June 2026, p. 15; Consumer Policy Research Centre and various consumer
+organisations, Submission 3, p. 7.
+84 See, Business Council of Australia, Submission 23, p. 5.
+85 See, Business Council of Australia, Submission 23, p. 6.
+86 See, Business Council of Australia, Submission 23, pp. 5–6.
+87 Law Council of Australia, Submission 28, p. 9.
+34
+or that businesses can simply fail to fall within by happenstance and thereby
+escape regulation.88
+2.73 Consumer advocates also supported reform to ensure financial services are
+captured, noting current gaps allow similar harmful conduct to persist in that
+sector. The Consumer Policy Research Centre argued that the unfair trading
+prohibition should be extended so ‘unfair business practices cannot occur in
+financial services.’89
+Exceptions to the general prohibition—Proposed subsections 28B(3) and (4)
+2.74 Proposed subsections 28B(3) and (4) of the bill provide that the general
+prohibition does not apply ‘if the consumer is a body corporate, or where the
+supply is in the course of the consumer carrying on a business’.90
+2.75 Inquiry participants expressed different views the proposed exceptions. In
+particular:
+ some inquiry participants considered small businesses should protected
+from unfair trading practices under the general prohibition; and
+ some inquiry participants supported exempting business-to-business (B2B)
+conduct from the general prohibition.
+2.76 For instance, Dr Giancaspro argued that ‘small businesses should not be
+arbitrarily excluded’ from the protection offered by the general prohibition. As
+Dr Giancaspro submitted:
+The omission of all bodies corporate clearly eliminates incorporated bodies
+of any kind, which would include, for example, the vast majority of small
+businesses. This blanket exclusion ignores the fact that 97.2% of the 2.6
+million businesses trading in Australia are small businesses employing 0-19
+staff, and 64% of those businesses are sole proprietorships.3 In practice, this
+means that two-thirds of ‘business-to-business’ commerce in fact occurs
+between sole traders without employees or with a very small number of
+employees – effectively, individual consumers. Sole traders are no more
+powerful than ordinary consumers and generally incorporate for reasons
+such as liability limitation and taxation benefits, not volume of revenue or
+corporate scale.91
+2.77 Dr Giancaspro proposed that the protections of the general prohibition could be
+applied to small businesses by amending the bill to exclude bodies corporate
+88 Ms Catriona Lowe, Deputy Chair, Australian Competition and Consumer Commission, Proof
+Committee Hansard, 9 June 2026, p. 15.
+89 Ms Gupta, Proof Committee Hansard, 9 June 2026, p. 5.
+90 Explanatory Memorandum, p. 10.
+91 Note, citations used in the original quote have been removed for readability. Dr Mark Giancaspro,
+Adelaide University, Submission 15, p. 3.
+35
+which do not require the protections, such as public companies, or to recognise
+small businesses as consumers for the purposed of proposed section 28B.92
+2.78 The Australian Grape and Wine (AGW) submitted that while existing laws
+provide a ‘level of defence for small businesses’ against unfair contract terms
+there is a ‘fundamental limitation’ in that such protections only apply where a
+standard form of contract exists’.93 AGQ said that this ‘gap is particularly
+concerning for the winegrape sector’ and argued that the ‘Bill effectively leaves
+the most vulnerable growers entirely defenceless against buyers who choose to
+operate outside the contractual system’.94
+2.79 As such, AGW recommended that the bill be amended to extend the prohibition
+on unfair trading to include ‘small business B2B dealings’. If that was not
+considered feasible, AGW recommended that the bill ‘should include a statutory
+review mechanism requiring consideration of the extension of UTP protections
+to B2B transactions by a specified date within this term of government.95
+2.80 COSBOA submitted that while large businesses have the capacity to absorb the
+compliance costs associated with the bill, small businesses operating with ‘thin
+margins’ did not. Further, COSBOA noted that while small businesses would be
+required to comply with the bill as suppliers, the protections of the prohibition
+of unfair trading do not extend to small businesses.96 This led COSBOA to
+recommend either:
+(c) exempt small businesses from the general prohibition on unfair trading
+practices; or
+(d) proceed at this time with only the specific and targeted prohibitions on
+drip pricing and subscription contracts, and defer the general
+prohibition pending further consultation and evidence on its impact on
+small business.97
+2.81 Noting that prohibition on unfair trading does not extend to the business-to-
+business conduct, Master Electricians strongly advocated for ‘expedited
+consultation to address protections and establish a general prohibition’ against
+the types of unfair trading practices impacting small businesses’.98
+2.82 The ACCC submitted that it ‘has consistently advocated’ for an unfair trading
+practices prohibition to protect small businesses in their dealings with larger
+92 Dr Mark Giancaspro, Adelaide University, Submission 15, p. 3.
+93 Australian Grape and Wine, Submission 12, p. [3].
+94 Australian Grape and Wine, Submission 12, p. [3].
+95 Australian Grape and Wine, Submission 12, p. [3].
+96 Council of Small Business Organisations Australia, Submission 10, p. 2.
+97 Council of Small Business Organisations Australia, Submission 10, p. 1.
+98 Master Electricians Australia, Submission 8, p. 1.
+36
+businesses. In doing so, the ACCC noted small businesses ‘face similar
+information asymmetries and bargaining power imbalances as consumers’.99
+2.83 At the same time, the ACCC did not consider that small businesses should be
+exempted from the general prohibition. As the ACCC submitted:
+Small businesses should be neither the subject of, or source of, unfair
+practices.. The prohibition should have economy-wide application to
+protect consumers and small business. Small businesses will also benefit
+from competing small businesses being prevented from using unfair trading
+practices. An economy-wide application will level the playing field between
+those small businesses that treat customers fairly and those using unfair
+tactics to gain an unfair competitive advantage in the market.100
+2.84 The Australian Automotive Dealer Association also noted that the bill excludes
+business-to-business conduct which, it said, ‘represents a significant gap in the
+regulatory framework’. The Australian Automotive Dealer Association
+welcomed the Australian Government’s announcement (February 2026) that it
+would ‘commence consultation on the on the expansion of unfair trading
+practice protections to small businesses and franchisees’.101
+2.85 Treasury official Ms Anna Barker noted the ‘different views as to the types of
+unfair trading practices that can apply for small businesses’. Further, Ms Barker
+said that while there is ‘a lot of interest in having the protections against unfair
+trading practices for small businesses’ there are ‘differences of opinion about
+what exactly those unfair trading practices are and how you should best
+categorise those in the law to prohibit against them’.102
+2.86 Ms Barker noted that the Australian Government ‘has announced it will extend
+unfair trading practice protections to small businesses’. Ms Barker also noted
+‘Treasury released a consultation paper seeking feedback on the design of
+protections for small businesses and franchisees, including whether a principles
+based prohibition should apply and whether specific unfair trading practices
+should be targeted to protect small businesses in business-to-business
+dealings’.103
+Support for excepting business-to-business conduct
+2.87 Some submitters supported the bill’s proposed carve outs for business to
+business transactions. For example, the Franchise Council of Australia, which
+99 Australian Competition and Consumer Commission, Submission 27, p. 2.
+100 Australian Competition and Consumer Commission, Submission 27, p. 2.
+101 Australian Automotive Dealer Association, Submission 18, p. [1].
+102 Ms Anna Barker, Acting Assistant Secretary, National Competition and Consumer Branch,
+Department of the Treasury, Proof Committee Hansard, p. 21.
+103 Ms Anna Barker, Acting Assistant Secretary, National Competition and Consumer Branch,
+Department of the Treasury, Proof Committee Hansard, p. 20.
+37
+represents franchisors, franchisees, industry advisors, and suppliers, submitted
+that:
+...the Bill sensibly contains explicit exclusions to the general prohibition on
+unfair trading practices (UTP) where the consumer is incorporated and
+where the consumer is acquiring goods or services for business purposes.
+These explicit exclusions are extremely important and must not be removed
+or amended. Business-to-consumer dealings are very different to business-
+to business dealings where parties transact for profit, and the courts have
+consistently declined to intervene in commercial bargains reached.104
+2.88 Similarly, the Federal Chamber of Automotive Industries noted that there are
+‘fundamental differences between business-to-consumer and business-to-
+business dealings’. As such, the Federal Chamber of Automotive Industries also
+expressed its support for excluding business transactions from the general
+prohibition.105
+2.89 The TCA considered that the bill’s proposed approach of limiting the
+prohibition on unfair trading only to consumers while extending Part 3—
+subscription contracts to small business ‘creates confusion’. Nonetheless, the
+TCA recommended that the ‘first tranche of laws regarding unfair trading
+practices should apply to consumers only, and there should be further
+consultation on the application of these laws to small businesses’.106
+Drip pricing
+2.90 In general, inquiry participants expressed support for the stronger protections
+against drip pricing proposed in Division 4A of Part 2 of the bill.107
+2.91 For instance, Ms Lowe told the committee ACCC’s ‘very much’ supports the
+reform, ‘particularly the element that requires prominent disclosure of
+transaction based fees alongside base prices’. Ms Lowe added the ACCC
+considers that proposed section 48A of the bill ‘enhances the existing provisions
+of the Australian Consumer Law’.108
+2.92 LAQ also submitted that it supports the bill’s drip pricing measures:
+In LAQ's experience, consumers experience these problems with
+transparency and disclosure when purchasing flights, concert and sporting
+tickets, holidays and travel, and household goods online. These issues affect
+104 Franchise Council of Australia, Submission 7, p. 2.
+105 Federal Chamber of Automotive Industries, Submission 17, p. 2.
+106 Tech Council of Australia, Submission 4, p. 10.
+107 See, for example, Franchise Council of Australia, Submission 7, p. 6; Australian Retail Council,
+Submission 29, p. [2].
+108 Ms Catriona Lowe, Deputy Chair, Australian Competition and Consumer Commission, Proof
+Committee Hansard, 9 June 2026, p. 18.
+38
+consumers on a daily basis and provide substantive reasons for the
+introduction of a ban on drip pricing and improved disclosure.109
+2.93 Legal Aid Queensland considered proposed section 48A would ‘improve
+transparency, consumer awareness and consumer outcomes’ by:
+ improving transparency in online sales;
+ reducing misleading conduct by businesses online; and
+ enabling consumer choice by making the true costs of a transaction clear
+from the outset.110
+2.94 The Australian Retail Council (ARC) also expressed support for the objectives
+of Part 2, submitting that:
+ARC supports the Bill’s objective of improving disclosure of mandatory
+transaction-based charges and addressing drip pricing practices that
+obscure the total price payable. Clear and timely disclosure helps consumers
+compare offers, reduces disputes and supports confidence in retail
+pricing.111
+2.95 However, as outlined further below, several inquiry participants, including
+ARC, considered that the clarity and operation of proposed section 48A could
+be improved, particularly in relation to delivery fees.
+2.96 More broadly, some submitters questioned need for the drip pricing provisions.
+For instance, the BCA submitted that section 48 of the ACL ‘already addresses’
+drip pricing and considered it ‘unclear’ what proposed section 48A would add
+to existing law. As such, the BCA said Parliament should ‘seriously consider’
+removing proposed section 48A from the bill. If section 48A remains, the BCA
+drew attention to potential issues regarding its application to delivery charges.112
+Application of proposed section 48A to delivery charges
+2.97 While expressing support for addressing drip pricing concerns, the AIG’s
+submission drew attention to the types of charges excluded from being a
+transaction based charged (under proposed subsection 48A(8)) did not include
+shipping and delivery charges. The AIG said that while the exposure draft of
+the bill did specifically exclude shipping a delivery charges, such an exclusion
+was not included in the current bill.113 This AIG cautioned that the absence of an
+109 Legal Aid Queensland, Submission 13, p. 3.
+110 Legal Aid Queensland, Submission 13, p. 3.
+111 Australian Retail Council, Submission 29, p. [2].
+112 Business Council of Australia, Submission 23, p.
+113 Australian Industry Group, Submission 1, p. 4.
+39
+exclusion for shipping a delivery charges would have ‘practical consequences
+for online retailers that are significant and uncommercial’.114 The AIG explained:
+Delivery costs are calculated dynamically based on destination, parcel
+weight, carrier selection, and service level - factors that are unknown at the
+point of product display, before a consumer has entered delivery details.
+Treating shipping charges as transaction based charges would require
+retailers either to quote a worst-case delivery cost alongside every product
+price, or to defer displaying any price until a consumer has provided a
+delivery address. Neither outcome serves consumers and both would
+impose material compliance costs for businesses.115
+2.98 The Australian Retail Council called for the delivery charges to be excluded
+from the definition of transaction based charges. As ARC submitted:
+Without this exclusion, retailers may be required to display delivery
+charges, or a method for calculating those charges, close to the base price
+across product listings and promotional materials. In practice, this could
+create unworkable compliance obligations, particularly for online retailers
+with large catalogues, multiple fulfilment options or marketplace-based
+models.116
+2.99 COSBOA also considered that the removal of the delivery fee exclusion in
+proposed section 48A would impact small businesses. As COSBOA submitted:
+This change directly affects a broad range of small businesses: food
+businesses, online retailers, tradespeople, and others who charge for
+delivery or call-out fees. Many currently display their delivery charges
+consistent with longstanding industry norms. Under the Bill, this may now
+require disclosure at the point at which a price is first presented.
+COSBOA acknowledges there is a genuine consumer protection rationale
+for transparency around livery fees. However, removing the express
+exclusion without replacement guidance creates uncertainty for small
+businesses about when and how these fees must be disclosed, and whether
+existing disclosure practices remain sufficient. COSBOA recommends either
+reinstating the express exclusion of issuing clear regulatory guidance well
+before commencement.117
+2.100 A range of other submitters also called for increased clarity regarding the
+application of proposed section 48A to delivery charges.118
+114 Australian Industry Group, Submission 1, p. 4.
+115 Australian Industry Group, Submission 1, p. 4.
+116 Australian Retail Council, Submission 29, p. [2].
+117 COSBOA, Submission 10, pp. 2-3.
+118 See, for example, Australian Chamber of Commerce and Industry, Submission 2, p. [4]; DIGI,
+Submission 5, p. 10.
+40
+Other issues raised in relation to drip pricing
+2.101 As outlined below, several submitters raised other issues relating to the drip
+pricing provisions in Part 2.
+Guidance on disclosure requirements
+2.102 Live Performance Australia (LPA) submitted it is ‘common practice for ticketing
+companies and venues to disclose upfront transaction fees with purchasing
+ticket events’. However, LPA said it would be useful to have guidance on:
+…what constitutes ‘legible’, ‘prominent’ and ‘close proximity’ so that
+businesses can assess whether current practice meets legislative
+requirements.
+For example, if there are several ticket price categories advertised on a
+webpage, does the transaction fee need to be disclosed near the base price
+of each rice category, or would it suffice for the transaction fee to be
+disclosed only once?119
+2.103 Further, LPA submitted that while it believes the 'majority of companies that
+sell event tickets already comply with the proposed disclosure requirements', it
+would be concerned ‘if government holds a different view such that it requires
+companies to make significant changes to the way price information is
+presented to consumers'.120
+Application to add-on products
+2.104 While welcoming the bill’s ‘requirement for prominent display of transaction-
+based charges alongside the base price’, DIGI encouraged ‘careful
+consideration’ of how drip pricing is defined in relation to add-on products.
+DIGI submitted:
+…in some transactions, it will not be clear what additional costs might be
+incurred until the consumer has made some indicative choices, e.g. add-on
+products. Where a consumer elects to add an optional product to their
+transaction, that election may trigger mandatory ancillary charges, which
+are not known at the time the base price is displayed. It is unclear whether
+such charges are ‘transaction based charges’ that must be displayed
+alongside the base price, or whether they are excluded as being ‘at the option
+of the purchaser’.121
+Application to virtual currency
+2.105 Associate Professor Andrew Moshirnia of Monash University considered that
+the bill’s drip pricing provisions ‘do not clearly reach virtual currency
+architectures’ which contribute to ‘price obfuscation’ in the gaming sector.122 In
+119 Live Performance Australia, Submission 25, p. [2].
+120 Live Performance Australia, Submission 25, p. [2].
+121 DIGI, Submission 5, p. 10.
+122 Associate Professor Andrew Moshirnia, Submission 16, p. 1.
+41
+particular, Associate Professor Moshirnia submitted it is ‘legally uncertain’
+whether the virtual currency architecture fits within the bill’s definitions of
+‘base’ price and ‘transaction based charge’ in a way that triggers proposed
+section 48A’s disclosure requirements.123 As such, Associate Professor Moshirnia
+recommended that:
+Section 48A be amended to confirm expressly that virtual currency
+intermediation does not exempt in-game purchases from the drip pricing
+disclosure obligations, and that the real-money equivalent of any in-game
+purchase must be disclosed at the point the consumer makes the in-game
+spending decision.124
+Impacts on the franchising sector
+2.106 QLS submitted its concern that the bill ‘will have potential unintended
+consequences for the franchising sector including unnecessarily increasing
+regulatory layering, business uncertainty, as well as increased litigation risks
+and compliance costs’.125
+2.107 For instance, QLS outlined that certain features of franchise agreements may
+engage provisions of proposed Division 4A and, in doing so, overlap with the
+Franchising Code. QLS considered such overlap ‘arguably creates regulatory
+duplication and uncertainty’. Further, QLS said:
+Franchisees, often small businesses, may potentially exploit Division 4A to
+challenge terminations or restraints, conflicting with Franchising Code
+provisions on exit and good faith. The new Franchising Code's enhanced
+end-of-term notifications and compensation for early termination further
+heighten this risk, as Division 4A's 'exit method' (section 48F) could
+undermine these structured processes that have been specifically created for
+the unique aspects of franchising.126
+Subscription contracts
+2.108 As outlined in Chapter 1, Part 3 of the bill seeks to introduce protections against
+detrimental subscription practices for consumers and small businesses by
+requiring that a supplier of a good or service under a subscription:
+ disclose key information about the contract at the time of offer;
+ notify subscribers of key information at certain points during the contract;
+ ensure there is an ‘easy and straightforward’ way to end a subscription.127
+123 Associate Professor Andrew Moshirnia, Submission 16, p. 1.
+124 Associate Professor Andrew Moshirnia, Submission 16, p. 2.
+125 Queensland Law Society, Submission 26, p. 4.
+126 Queensland Law Society, Submission 26, p. 5.
+127 See, Explanatory Memorandum, p. 4.
+42
+2.109 In general, inquiry participants expressed support for improving consumer
+protections against unfair subscription practices. For example, the ARC
+submitted that it ' welcomes the Bill’s targeted subscription reforms, which
+broadly align with measures ARC has previously supported to improve
+transparency, reminders and cancellation pathways’.128
+2.110 Further, the ACCC expressed strong support for the proposed subscription
+related provisions in the bill:
+We also strongly support the inclusion and framing of the subscription
+contract exit provision in s48G of the Bill. While many aspects of the Bill’s
+proposed subscription disclosure obligations will be specified in
+regulations, which are yet to be released, we understand from consultation
+conducted by the Treasury to date that these should include points of
+information that the ACCC considers critical for subscribers to receive (for
+example, the fact of an automatic subscription renewal or automatic
+conversion of a free trial into a paid subscription, the cost of the subscription,
+and how the contract can be ended before the automatic renewal or
+conversion occurs).129
+2.111 However, a range of inquiry participants also raised issues with how the
+provisions of Part 3 would may in practice. In particular, inquiry participants
+considered proposed sections 48D and 48E—which establish that subscription
+providers must disclose certain information and the manner of disclosure—may
+be overly prescriptive and not well suited to certain environments.
+Information which must be disclosed when offering a subscription contract
+2.112 Proposed section 48D establishes a requirement a person who offers to supply a
+good or service under a subscription contact must provide certain information
+in relation to the contract (48D(4)) and the manner in which that information
+must be disclosed (48D(3)).130
+2.113 While ‘generally supportive of pre-sale disclosures’, IGEA recommended that
+‘overly prescriptive disclosure requirements should be avoided and instead
+allow for flexibility in presentation to ensure compliance while maintaining a
+clear and effective user experience’.131 In particular, IGEA submitted:
+ providers ‘should be permitted to satisfy the requirement to disclose how a
+contract can be ended (section 48D(4)(e)) by linking to a dedicated webpage
+containing accurate, platform-specific cancellation instructions’; and
+128 Australian Retail Council, Submission 29, p. [1].
+129 Australian Competition and Consumer Commission, Submission 27, pp. 4–5.
+130 See, Competition and Consumer Amendment (Unfair Trading Practices) Bill 2026, p. 13.
+131 Interactive Games and Entertainment Association, Submission 20, pp. 4, 12.
+43
+ pre-sale disclosure obligations ‘should not require the full set of prescribed
+information to be displayed in promotional or advertising materials,
+particularly where space and design constraints make this impractical.132
+Information which must be disclosed when a subscription contract is in effect
+2.114 Proposed section 48E stipulates that a person who supplies a good or service
+under a subscription contact is required to provide information to the
+subscriber, as prescribed by regulation.133
+Application to small business contracts
+2.115 The LCA submitted that the ‘notification requirements set out in section 48E will
+apply to all subscription contracts that are “in effect” when the legislation comes
+into force, and will apply to both consumer and small business contracts’.
+2.116 However, the LCA argued that proposed section 48E ‘should not apply to small
+business subscription contracts’. In doing so, the LCA noted that:
+ the ‘immediate operative effect of the regime will extend beyond new
+contracts to existing contracts’;
+ the 'legislative rationale for imposing ongoing notification requirements for
+subscription contracts is based principally on evidence of harm to
+consumers'; and
+ the nature of unfair trading in a ‘business-to-consumer context is likely to be
+distinct from a business-to-business context’ such that small businesses ‘are
+unlikely to face any meaningful detriment in the absence of ongoing
+notifications in circumstances where they will already be comprehensively
+informed of key information (under section 48D)’.134
+2.117 In relation to ongoing notification requirements, IGEA recommended any
+notifications developed via regulations ‘should be principles-based rather than
+tied to fixed intervals’. IGEA also recommended that providers ‘should be
+permitted to determine appropriate timing and frequency based on subscription
+type, value, usage patterns and platform constraints’.135
+2.118 Further, IGEA considered it ‘critical’ that any regulation made under 48E has
+regard to ‘notification fatigue and spam’ and ‘lack of proportionality’. IGEA
+suggested the issue of ‘notification fatigue and spam’ may occur in the context
+of low-cost monthly subscription where ‘rigid notification risk overwhelming
+consumers with repetitive notices’. Such an outcome, IGEA submitted, could
+‘conflict with both the Privacy Act 1988 (Cth) and Spam Act 2003 (Cth), which are
+132 Interactive Games and Entertainment Association, Submission 20, p. 4.
+133 See, Competition and Consumer Amendment (Unfair Trading Practices) Bill 2026, pp. 14–15.
+134 Law Council of Australia, Submission 28, p. 7.
+135 Interactive Games and Entertainment Association, Submission 20, p. 5.
+44
+designed to give consumers control over the communications they receive’.136 In
+relation to ‘lack of proportionality’, IGEA submitted that fixed interval
+notification requirements 'do not reflect the differing risk profiles of
+subscription types'. For instance, IGEA submitted that ‘[h]igh-cost annual tiers
+warrant more rigorous notice than active, low-cost monthly services’.137
+Notification at the end of a free trial period
+2.119 The LCA submitted that it understands the notification requirements to be
+prescribed for the purposes of proposed section ‘at the end of a free trial or
+promotional period, before the consumer incurs liability to pay for the relevant
+goods or services’. However, the LCA noted the bill does not contain an express
+requirement for the notification and it ‘remains unclear whether it is still
+intention of the Government’ to establish such a requirement.138
+2.120 Nonetheless, the LCA expressed concern that:
+…compulsory notification at the end of a free trial or promotional period
+goes beyond what is reasonably necessary to prevent consumer detriment.
+This is because the subscriber will already be notified of key information at
+the start of the trial or period (including information regarding the length of
+any free trial or promotional period).
+2.121 Further, the LCA noted that ‘multiple reminders and emails on a repetitive basis
+may be a nuisance to consumers and may give rise to notification information
+fatigue’. The LCA also noted ‘free trial and promotional periods are an
+important marketing tool for businesses that provide significant benefits to
+consumers’. The LCA considered that requiring notification at the end of a trial
+‘would increase administration costs and could deter businesses from being
+prepared to offer free trials and promotional periods’.139
+Exit method
+2.122 Proposed section 48F stipulates that a supplier of a good or service under a
+subscription must provide a way for subscriber to end the contract and that the
+contract is ended in manner which, generally described, is easy to find,
+straightforward and requires only reasonably necessary steps.140 The supplier
+must provide an online way to cancel a contract if the subscriber entered the
+contract online, or if the supplier offers a way to enter into the contract online.141
+136 Interactive Games and Entertainment Association, Submission 20, p. 5.
+137 Interactive Games and Entertainment Association, Submission 20, p. 6.
+138 Law Council of Australia, Submission 28, p. 8.
+139 Law Council of Australia, Submission 28, p. 8.
+140 See, Competition and Consumer Amendment (Unfair Trading Practices) Bill 2026, p. 16.
+141 See, proposed subsection 48(F)(2), Competition and Consumer Amendment (Unfair Trading
+Practices) Bill 2026, p. 16.
+45
+2.123 IGEA submitted that, while it supports making exits methods easy to find, it
+opposed ‘rigid definitions of “straightforward” that might preclude retention
+offers’.142 IGEA argued that:
+Offering a consumer a pause, a discounted tier, or alternative value during
+the cancellation flow provides genuine benefits. In practice, providers may
+also present alternative subscription plan options or brief benefit
+descriptions as part of this engagement. Providers may also seek brief
+feedback on the reasons for cancellation, which can inform service
+improvements and support better consumer outcomes over time.143
+2.124 IGEA recommended that, in summary, cancellation requirements ‘should
+remain principles-based rather than prescriptive’ and that regulatory guidance
+‘should clarify that reasonable retention practices…remain permissible during
+the cancellation process…’.144
+2.125 DIGI submitted that suppliers meet a ‘simple exit mechanism’ standard
+‘conflicts with legitimate business safeguards that may require additional steps
+in the cancellation process’. DIGI submitted that such safeguards include:
+…identity verification and data protection (a cancellation request may need
+to be verified to ensure it is from the account holder, not a malicious third
+party); fraud prevention (subscription cancellation can be a vector for
+account takeover and social engineering attacks, making authentication
+steps a reasonable safeguard); service continuity (some subscriptions
+involve outstanding obligations, pending deliveries, or ongoing access
+rights that require communication at the point of cancellation to protect the
+consumer’s own interests); and outstanding liabilities (where a subscriber
+has an outstanding balance or contractual notice period, communicating this
+is not friction — it is information the consumer needs).145
+2.126 ARC recommended that:
+...guidance clarify what constitutes reasonable cancellation steps, including
+where identity verification, fraud prevention or disclosure of the
+consequences of cancellation is necessary. This should ensure businesses can
+make cancellation straightforward without being prevented from taking
+reasonable steps to protect consumers and explain the impact of ending a
+subscription.146
+2.127 The IAA of submitted that the ‘cancellation provision, while well-intended, does
+not consider the technical complexity of telecommunications services’. Given
+the complexity of telecommunications services, the IAA said ‘cancellation may
+not always be straightforward, nor will it be always possible to complete a
+142 Interactive Games and Entertainment Association, Submission 20, p. 15.
+143 Interactive Games and Entertainment Association, Submission 20, p. 15.
+144 Interactive Games and Entertainment Association, Submission 20, p. 15.
+145 Digital Industry Group Inc., Submission 5, p. 8.
+146 Australian Retail Council, Submission 29, p. [2].
+46
+cancellation process online’. As such, the IAA proposed that the requirement for
+a supplier to provide an online way to end a subscription contract should not
+apply ‘where the supplier is unable to provide an online cancellation method
+due to circumstances beyond the supplier’s reasonable control’.147
+2.128 The LCA considered that proposed section 48F should not mandate an online
+cancellation requirement. The LCA submitted:
+In circumstances where section 48F obliges a subscription service provider
+to provide an easy to find and straightforward way for a subscriber to end
+the contract, there is little justification for also mandating an online
+cancellation option.148
+2.129 Further, the LCA considered that online cancellation may not always be the
+most beneficial manner to exit a contract. The LCA added that while compulsory
+online cancellation does not preclude a supplier another cancellation method, it
+could ‘could encourage consumers to ‘default’ to online cancellation and
+discourage the availability and use of other exit options which may provide
+greater consumer benefit in certain circumstances’.149
+Other matters related to the bill subscription contract provisions
+2.130 Inquiry participants raised a range of issues regarding the bill’s provisions for
+subscription contracts. Such issues included, but were not limited to:
+ the risk of ‘consumer over-communication’ in relation to the requirement
+under proposed section 48C that a supplier of an indefinite term
+subscription contract must give certain information every six months;150
+ the clarity of the proposed definitions of ‘fixed term’ and ‘indefinite term’
+subscription contacts, particularly in relation to auto-renew SaaS products;151
+ the entity responsible for meeting the bill’s proposed notification
+requirements in circumstances where ‘a subscription is offered through a
+bundled product or a third-party distribution channel’;152 and
+ the removal of a ‘contract for the supply of public utility’ from the list of
+excluded contract types under proposed section 48C(1)(g), noting that
+‘existing safeguards apply to the telecommunications industry’;153
+147 Internet Association of Australia, Submission 6, p. 5.
+148 Law Council of Australia, Submission 28, pp. 8–9.
+149 Law Council of Australia, Submission 28, p. 9.
+150 Digital Industry Group Inc., Submission 5, p. 6.
+151 Digital Industry Group Inc., Submission 5, p. 7.
+152 Digital Industry Group Inc., Submission 5, p. 8.
+153 Internet Association of Australia, Submission 6, pp. 2–4.
+47
+Implementation provisions
+2.131 Several submitters to the inquiry commented on the bill’s proposed 12-month
+implementation period. In particular, a range of inquiry participants considered
+the proposed implementation period to be insufficient for business to adapt the
+proposed changes and made various calls for a staggered implementation
+approach, a penalty grace period and timely regulatory guidance.
+2.132 For instance, the BCA submitted that:
+Given the proposed commencement date of 1 July 2027, it is essential that
+businesses are provided with adequate time to review existing practices,
+update systems and processes, and train staff. This is particularly important
+in complex digital and subscription-based environments, and in
+circumstances where multiple parties may be involved i1n the design,
+promotion or delivery of a transaction.
+We recommend that a transition period of at least 12-18 months be adopted,
+with staged penalty implementation where the prohibition takes effect
+without civil penalties initially, consistent with the Unfair Contract Terms
+(UCT) regime roll-out. This is critical, given the novelty and lack of clarity
+in some of the key concepts proposed and the size of possible penalties that
+may be imposed while those concepts are tested.154
+2.133 DIGI, representing large technology companies, also submitted its concern that
+the implementation timeframe:
+…is insufficient for businesses to implement the complex compliance
+assessments and engineering changes required, and that the immediate
+application of pecuniary penalties from commencement creates a
+disproportionate risk given the significant interpretive uncertainty in the
+legislation.155
+2.134 DIGI submitted that the bill’s various measures would ‘require material
+changes’ across a range of business systems and interfaces. For large platforms,
+DIGI said such changes 'are significant engineering, legal, and operational
+projects'. Further, DIGI said ‘interpretive uncertainty’ regarding the prohibition
+on unfair trading is a ‘particularly acute concern’ that may result in well-
+intentioned but ultimately incorrect decisions around compliance. In this
+context, DIGI considered it ‘disproportionate’ to expose businesses to
+‘substantial pecuniary penalties’.156
+2.135 To address above issues, DIGI recommended:
+ staging implementation of the bill by commencing the ‘substantive
+obligations’ from 1 July 2027 and not applying the bill’s pecuniary penalties
+‘until at least 1 July 2028’;
+154 Business Council of Australia, Submission 23, p. 7.
+155 Digital Industry Group Inc., Submission 5, p. 11.
+156 Digital Industry Group Inc., Submission 5, p. 11.
+48
+ publishing ‘detailed compliance guidance supported by industry
+consultation’; and
+ reviewing the application of Part 3—Subscription to ‘standard forms of
+contracts with businesses’ and consideration given to a longer transition
+period for this category.157
+2.136 Similarly, the Tech Council considered that the bill’s proposed commencement
+date of 1 July 2027 ‘does not give businesses sufficient time to respond to the
+changes’. As such, the Tech Council proposed a staged implementation, with
+the general prohibition applying first and Part 3—Subscription contracts taking
+effect from 1 July 2028.158 Further, the Tech Council recommended
+‘implementing a staged approach to penalties, starting with an initial penalty-
+free period’.159
+2.137 The Internet Association of Australia Ltd (IAA), representing mostly small to
+medium sized internet service providers, submitted that the bill’s proposed
+implementation timeframe is particularly insufficient for smaller
+telecommunications providers. In additional to system redesign that would be
+required to comply with the bill’s measures, the IAA emphasised that the
+telecommunications sector is:
+…anticipating new consumer safeguards regulation under an industry
+standard to replace the TCP Code, which will set out various obligations
+that deal with the similar subject matters, including information that must
+be disclosed to consumers.160
+2.138 As such, the IAA also recommended a tiered approach to implementing the bill,
+with the proposed commencement date of 1 July 2027 for large companies and
+a ‘reasonable commencement date for smaller businesses’ of 1 March 2028. The
+IAA also called for the ACCC to only take enforcement action in ‘egregious cases
+of non-compliance or serious negligence’ for 12 months from the IAA’s
+proposed commencement dates.161
+2.139 Given the ‘complexity, ambiguity and potential reach’ of the bill’s provisions,
+Dr Giancaspro submitted ‘there is a case for a slightly longer transitional period
+of approximately 18 months’. Dr Giancaspro said this longer transition period
+would:
+...enable businesses time to review and align their practices to meet the
+requirements of the new laws.
+157 Digital Industry Group Inc. (DIGI), Submission 5, p. 12.
+158 Tech Council of Australia, Submission 4, p. 10.
+159 Tech Council of Australia, Submission 4, p. 10.
+160 Internet Association of Australia Ltd, Submission 6, p. 6.
+161 Internet Association of Australia Ltd, Submission 6, p. 7.
+49
+An extended grace period will also allow time for an appropriate
+educational campaign to assist businesses and consumers to understand
+their rights and obligations under the new laws. It will provide the time
+businesses may require to, for example, redesign their websites and systems,
+develop and implement appropriate policies and procedures, and train
+staff.162
+2.140 COSBOA called for a ‘longer transition period and dedicated compliance
+support for small businesses, sole traders and micro-enterprises’.163
+2.141 Commenting on the bill’s proposed civil penalties and application provisions,
+the ACCI pointed out that the unfair trading prohibition would affect
+approximately 1.5 million businesses. The ACCI said this reinforcing the need
+for ‘clear drafting and practical guidance to avoid uncertainty being spread
+across the wider business community’. Further, the ACCI submitted that the
+‘imposition of significant civil penalties must be matched by a high degree of
+legal certainty and compliance expectations’.164
+2.142 Calls for clear regulatory guidance were made by several other submitters.165 For
+instance, the Australian Retail Council recommended that ‘Treasury and the
+ACCC work closely with industry before commencement to ensure the reforms
+are understood, workable and implemented consistently’.166 MEA encouraged
+an ‘education-first implementation approach, supported by clear guidance, to
+ensure small businesses understand and comply with the new framework’.167
+2.143 The ACCC submitted that, once the bill has passed, it would use the transition
+period to ‘work with state and territory regulators, and consult key
+stakeholders, to develop practical guidance material on the reforms’.
+Committee view
+2.144 The committee welcomes the opportunity to examine the Competition and
+Consumer Amendment (Unfair Trading Practices) Bill 2026.
+2.145 The committee recognises that the bill contains substantial measures to improve
+consumer protections, including by establishing a general prohibition on unfair
+trading practices and by enhancing consumer protections in relation to drip
+pricing and subscription contracts. These are significant changes to the
+Australian Consumer Law that are intended protect Australian consumers from
+162 Dr Mark Giancaspro, Adelaide University, Submission 15, pp. 4–5.
+163 Council of Small Business Organisations Australia (COSBOA), Submission 10, p. 1.
+164 Australian Chamber of Commerce and Industry, Submission 2, p. [4].
+165 See, for example, Tech Council of Australia, Submission 3, pp. 2–3.
+166 Australian Retail Council, Submission 29, p. 3.
+167 Master Electricians Australia, Submission 8, p. 6.
+50
+new and emerging unfair trading practices, particularly where such practices
+occur in the online environment.
+2.146 The committee recognises the need for the changes proposed in the bill. More
+than ever, unfair trading practices occur in an online environment that can be
+highly complex, lack transparency and can potentially affect a large number of
+Australian consumers. The consumer harms associated with unfair trading are
+significant and it is vital that the Australian Consumer Law extends to the range
+of conduct that causes these harms.
+2.147 The committee also recognises that Australian Consumer Law must strike a
+careful balance between providing robust protections for consumers while not
+creating an excessive regulatory burden for the vast majority of businesses that
+trade fairly. This balance contains an inherent tension between principles-based
+laws that may provide broader and more flexible consumer protections, and
+more prescriptive laws that may offer clearer and more targeted conduct
+requirements. These are complex considerations and finding the right balance is
+made more challenging by broad application of the Australian Consumer Law
+to all businesses which supply goods or services to consumers.
+2.148 The committee notes that many inquiry participants expressed support for the
+objectives of the bill. Further, several inquiry expressed strong support for the
+specific measures in the bill which, in their view, would significantly improve
+protections for Australian consumers in ways that are not currently available
+under the Australian Consumer Law. The committee shares these views and
+considers that, on the whole, the changes proposed in the bill will be a marked
+improvement to Australia’s consumer protection laws.
+2.149 At the same time, the committee also notes that evidence provided by many
+inquiry participants highlighting potential issues with the application the bill’s
+measures. For instance, many submitters expressed concern about the clarity of
+key provisions in the proposed general prohibition. Submitters also raised
+issues regarding how the bill’s provisions in relation to drip pricing and
+subscription contracts would apply in practice.
+2.150 Given the significance and scale of the changes proposed in the bill, the
+committee considers that a degree of uncertainty is a normal part of the policy
+process. Nonetheless, the committee is cognisant that a lack of certainty could
+be a challenge for many businesses, particularly where significant changes to
+business systems are needed to comply with the bill’s new measures. As such,
+the committee has made recommendations intended to further clarify the bill’s
+measures and aid businesses to adapt to these important consumer reforms.
+2.151 The committee considers the bill’s extended implementation period is
+appropriate to allow adequate time for the development of regulatory guidance
+and to allow time for businesses to make any adjustments necessary to comply
+with the new requirements. Additionally, the committee supports the bill’s
+51
+provision for a statutory review of the proposed amendments, two years after
+commencement, as an important mechanism to assess the efficacy of the reforms.
+2.152 Further, the committee notes that a number of inquiry participants expressed a
+range of views regarding whether the protections afforded under the general
+prohibition should extend to small businesses. The committee appreciates the
+differing views in relation to this matter, but notes the core objective remains to
+provide appropriate and timely unfair trading protections for Australia’s small
+businesses. As such, the committee is pleased to note that, on 3 June 2026, the
+Treasury commenced public consultation on unfair trading practices
+protections for small businesses. Following consultation, the committee
+encourages the Australian Government to prioritise implementation of these
+important reforms.
+2.153 On balance, the committee considers the bill is a significant and necessary
+improvement to the Australian Consumer Law. The committee anticipates the
+consumer protection measures contained in the bill will benefit many
+Australians and positively contribute to Australia’s fair trading regime.
+2.154 The committee commends the Australian Government for pursuing these
+reforms.
+Recommendation 1
+2.155 The committee recommends that the Australian Government review the
+evidence received during the committee’s inquiry and assess whether any
+amendments should be made to proposed section 28B of the bill, or additional
+information provided in a revised Explanatory Memorandum, to more clearly
+articulate the types of conduct that the general prohibition on unfair trading
+is intended to address.
+Recommendation 2
+2.156 The committee recommends that the Australian Government consider
+amending proposed subsection 28B(6) of the bill to include a broader range
+of examples of conduct that may be unfair trading practices.
+Recommendation 3
+2.157 The committee recommends that the Australian Competition and Consumer
+Commission prioritise development of regulatory guidance to clarify issues
+raised by inquiry participants regarding compliance with the bill’s
+provisions. The committee considers regulatory guidance should be released
+as soon as practical following passage of the bill to maximise the time
+businesses has to make any necessary changes to their systems and practices.
+52
+Recommendation 4
+2.158 The committee recommends that the Australian Government provide an
+update on how it intends to consider replicating provisions to financial
+services through the ASIC Act.
+Recommendation 5
+2.159 The committee recommends that the Senate pass the bill.
+Senator Lisa Darmanin
+Chair
+Labor Senator for Victoria
+Appendix 1
+Submissions and Additional Information
+1 Australian Industry Group
+2 Australian Chamber of Commerce and Industry
+3 Consumer Policy Research Centre and various consumer organisations
+4 Tech Council of Australia
+5 Digital Industry Group Inc. (DIGI)
+6 Internet Association of Australia Ltd
+7 Franchise Council of Australia
+8 Master Electricians Australia
+9 Australian Finance Industry Association
+10 Council of Small Business Organisations Australia (COSBOA)
+11 Telecommunications Industry Ombudsman
+12 Australian Grape and Wine Incorporated
+13 Legal Aid Queensland
+14 Senator Fatima Payman
+15 Dr Mark Giancaspro, Adelaide University
+16 Associate Professor Andrew Moshirnia, Monash University
+17 Federal Chamber of Automotive Industries
+18 Australian Automotive Dealer Association (AADA)
+19 Professor Jeannie Paterson, The University of Melbourne
+20 Interactive Games & Entertainment Association (IGEA)
+21 Mr Anthony Ross, Associate Professor Katharine Kemp, Associate Professor
+Kayleen Manwaring, and Associate Professor May Fong Cheong
+22 Mr Michael Sanderson
+23 Business Council of Australia (BCA)
+24 Master Builders Australia
+25 Live Performance Australia
+26 Queensland Law Society
+27 Australian Competition & Consumer Commission (ACCC)
+ Attachment 1
+ Attachment 2
+28 Law Council of Australia
+29 Australian Retail Council (ARC)
+30 Australia Telecommunications Australia (ATA)
+31 Australian Digital Marketing Association (ADMA)
+53
+54
+Answer to Question on Notice
+1 Answers to question on notice from Senators Darmanin and Liddle (public
+hearing, 9 June 2026), received 10 June 2026
+Appendix 2
+Public Hearing and Witnesses
+Tuesday 9 June 2026
+Canberra
+Telecommunications Industry Ombudsman
+ Ms Cynthia Gebert, Ombudsman
+Consumer Policy Research Centre (CPRC)
+ Ms Chandni Gupta, Deputy CEO and Digital Policy Director
+Consumer Action Law Centre
+ Ms Susan Quinn, Assistant Director, Policy and Campaigns
+University of Melbourne
+ Professor Jeannie Paterson
+Australian Competition and Consumer Commission (ACCC)
+ Ms Catriona Lowe, Deputy Chair
+ Ms Lauren White, Executive General Manager, Consumer & Fair Trading
+Department of the Treasury
+ Ms Anna Barker, Assistant Secretary (A/g), National Competition and
+Consumer Branch
+55
