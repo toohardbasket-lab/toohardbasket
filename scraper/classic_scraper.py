@@ -12,7 +12,7 @@ Usage:
     python classic_scraper.py 2007 2011  # a range
 """
 from __future__ import annotations
-import sys, time, pathlib
+import re, sys, time, pathlib
 import requests
 from bs4 import BeautifulSoup
 from thb_parser import parse_classic_text, Row
@@ -56,6 +56,16 @@ def html_to_register_text(html: str) -> tuple[str, int | None]:
       2005-11: h2.head3 + ul/li with full report/response lines
     Committee headings are emitted as '## <name>' so the parser never has to
     guess heading vs title. Returns (text, stated_total or None)."""
+    # Replace every line break with the sentinel BEFORE parsing.
+    #
+    # html.parser reads a self-closing "<br />" as an OPENING tag and lets it
+    # wrap whatever follows: the 2000 register's
+    #     <li>Review of Migration Regulation 4.31B<br />
+    #             Response tabled 15 February 2000</li>
+    # became <br>...Response tabled 15 February 2000</br>, so replacing the
+    # tag deleted the response date along with it. The register said the
+    # response was tabled; this site said it never came.
+    html = re.sub(r"<br\s*/?>", "\x00", html, flags=re.I)
     soup = BeautifulSoup(html, "html.parser")
     box = None
     for div in soup.select("div.box"):
@@ -95,8 +105,7 @@ def html_to_register_text(html: str) -> tuple[str, int | None]:
                 continue  # container holding real entries; skip wrapper
             # split ONLY on real <br> tags — get_text("\n") would also split
             # at inline tags like <em>, shredding titles into phantom entries
-            for br in el.find_all("br"):
-                br.replace_with("\x00")
+            # Breaks are already sentinels in the text (see above).
             for t in el.get_text(" ", strip=True).split("\x00"):
                 t = " ".join(t.split())
                 if t:

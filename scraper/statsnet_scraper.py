@@ -17,6 +17,7 @@ Usage:
 """
 from __future__ import annotations
 import sys, csv, pathlib
+from datetime import date
 from playwright.sync_api import sync_playwright
 from thb_parser import parse_statsnet_cells, Row
 
@@ -104,18 +105,83 @@ def scrape_range(page, from_str: str, to_str: str, source: str) -> list[Row]:
     return out
 
 
-def scrape(year_from: int, year_to: int) -> list[Row]:
+def rows_from_cache(year: int) -> list[Row] | None:
+    """Re-parse a year from its cached cells, without a browser.
+
+    The cache holds the table's own cells, written on the run that scraped
+    them, and it is committed. A year that has ended cannot change, so
+    re-scraping it every week buys nothing and risks everything: this is the
+    only step in the weekly job that needs a browser, and it drives a site
+    that filters non-browser traffic. It failed on 2 September and took the
+    whole build with it, which meant the registers did not refresh either —
+    for data that had not moved since 2012.
+    """
+    path = RAW / f"statsnet_{year}_{year}.csv"
+    if not path.exists():
+        return None
+    out: list[Row] = []
+    with path.open(newline="", encoding="utf-8-sig") as f:
+        reader = csv.reader(f)
+        next(reader, None)   # inquiry, committee, report, response
+        for cells in reader:
+            if len(cells) < 4:
+                continue
+            out.append(parse_statsnet_cells(cells[0], cells[1], cells[2], cells[3],
+                                            source=f"statsnet/{year}"))
+    return out
+
+
+def scrape(year_from: int, year_to: int, refresh: set[int] | None = None) -> list[Row]:
+    """Build the modern register, scraping only the years that can still change.
+
+    By default that is the current year and any year with no cache. Pass
+    refresh={...} to force particular years, or the full range for a rebuild.
+    """
+    if refresh is None:
+        refresh = {date.today().year}
     all_rows: list[Row] = []
-    with sync_playwright() as p:
-        browser = p.chromium.launch()
-        page = browser.new_page(user_agent=UA,
-                                viewport={"width": 1600, "height": 1000})
-        for year in range(year_from, year_to + 1):
-            rows = scrape_range(page, f"01/01/{year}", f"31/12/{year}",
-                                source=f"statsnet/{year}")
-            print(f"{year}: {len(rows)} responses")
-            all_rows.extend(rows)
-        browser.close()
+    todo: list[int] = []
+    stale: list[int] = []
+    for year in range(year_from, year_to + 1):
+        cached = None if year in refresh else rows_from_cache(year)
+        if cached is None:
+            todo.append(year)
+        else:
+            print(f"{year}: {len(cached)} responses (from cache)")
+            all_rows.extend(cached)
+
+    if todo:
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page(user_agent=UA,
+                                    viewport={"width": 1600, "height": 1000})
+            try:
+                for year in todo:
+                    try:
+                        rows = scrape_range(page, f"01/01/{year}", f"31/12/{year}",
+                                            source=f"statsnet/{year}")
+                        print(f"{year}: {len(rows)} responses (scraped)")
+                    except Exception as e:
+                        # aph.gov.au filters automated traffic and the run may
+                        # be refused on any given day. Falling back to the
+                        # cached cells keeps the registers refreshing — new
+                        # responses reach them through harvest_responses.py and
+                        # the Tabled Documents API, not through this page — but
+                        # it must never be quiet about it.
+                        rows = rows_from_cache(year)
+                        if rows is None:
+                            raise
+                        print(f"!! {year}: the live scrape failed ({type(e).__name__}: "
+                              f"{str(e).splitlines()[0][:120]}).")
+                        print(f"!! {year}: using {len(rows)} cached responses instead. "
+                              "The compliance series is as at the last successful scrape.")
+                        stale.append(year)
+                    all_rows.extend(rows)
+            finally:
+                browser.close()
+    if stale:
+        print(f"\nWARNING: {len(stale)} year(s) came from cache after a failed "
+              f"scrape: {', '.join(map(str, stale))}")
     return all_rows
 
 
