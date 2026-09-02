@@ -223,6 +223,7 @@ const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS
   }
   :global(.results .meta) { font-size: 0.8125rem; color: var(--ink-muted); margin: 0; }
   :global(.results .who) { color: var(--ink-secondary); }
+  :global(.results .byline.muted) { color: var(--ink-muted); border-style: dashed; }
   :global(.results .byline) {
     display: inline-block; margin-left: 0.4rem; padding: 0.05rem 0.4rem;
     font-size: 0.6875rem; letter-spacing: 0.05em; text-transform: uppercase;
@@ -281,8 +282,10 @@ const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS
           ? `<p class="gov">The government said: “${esc(words)}”</p>`
           : (r.s === "report"
              ? `<p class="gov none">No government response has been tabled. This report is on the register.</p>`
-             : `<p class="gov none">The response does not record separate words for this recommendation.</p>`);
-        const by = r.b ? `<span class="byline">${esc(r.b)}</span>` : "";
+             : `<p class="gov none">This site could not separate the government's words for this recommendation — read the response.</p>`);
+        const by = r.b
+          ? `<span class="byline">${esc(r.b)}</span>`
+          : (r.o ? `<span class="byline muted" title="This document also contains dissenting, minority or additional recommendations. This row's own author could not be established from its wording or its heading.">document also carries dissents</span>` : "");
         const who = r.c ? `<span class="who">${esc(r.c)}</span> · ` : "";
         return `<li>
           <p class="rec">${mark(r.t, terms)}</p>

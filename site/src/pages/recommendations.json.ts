@@ -21,6 +21,7 @@ export const GET: APIRoute = () => {
     d: r.documentTitle,
     l: r.label,
     b: r.recommendedBy,
+    o: r.documentHasOtherAuthors ? 1 : 0,
     k: r.classification,
     w: r.tabled,
     h: r.chamber,

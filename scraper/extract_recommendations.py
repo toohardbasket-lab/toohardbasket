@@ -38,10 +38,37 @@ OUT = DATA / "recommendations.csv"
 # "Recommendation 7", "Recommendation 3.2", "Recommendation No. 4:".
 LABEL = re.compile(r"\bRecommendation\s*(?:no\.?\s*)?(\d{1,3}(?:\.\d{1,3})?)\b\s*:?", re.I)
 # Where the quoted recommendation stops and the government starts talking.
+#
+# Three forms, and the second is the one that was missing. Many responses answer
+# with a bare verdict — "Supported.", "Agreed in principle.", "Noted" — before
+# any prose, so a handover that only knew the sentence forms left the verdict
+# and the whole answer sitting inside the committee's recommendation. 385 rows
+# ended in a government verdict word, and the page then told the reader the
+# response recorded no separate words for it, which was false.
+#
+# The sentence forms are now anchored to a sentence start. Unanchored, a
+# committee recommendation containing "…to ensure that the government has a
+# complete picture" was split at "the government has", and the rest of what the
+# committee asked for was published as the government's answer.
 HANDOVER = re.compile(
-    r"((?:australian\s+)?government(?:'s|’s)?\s+response|^\s*response\s*:|"
-    r"the\s+government\s+(?:notes|accepts|accepted|agrees|agreed|supports|supported|"
-    r"does\s+not|will|has))", re.I | re.M)
+    r"(^\s*(?:australian\s+)?government(?:'s|’s)?\s+response\b"
+    r"|(?:^|(?<=[.;:!?])\s{1,3})(?:australian\s+)?government(?:'s|’s)?\s+response\b"
+    r"|^\s*response\s*:"
+    r"|(?:^|(?<=[.;:!?])\s{1,3})the\s+government\s+(?:notes|accepts|accepted|agrees|"
+    r"agreed|supports|supported|does\s+not|will|has)\b"
+    r"|(?:^|(?<=[.;:!?])\s{1,3})(?:not\s+)?(?:agreed|noted|supported|accepted|"
+    r"partially\s+(?:agreed|supported))(?:\s+in\s+(?:principle|part))?\s*[.\n]"
+    r")", re.I | re.M)
+
+# A label the split leaves at the head of the government's words.
+GOV_LABEL = re.compile(r"^\s*(?:australian\s+)?government(?:'s|’s)?\s+response\s*[:.\-–—]?\s*"
+                       r"|^\s*response\s*[:.\-–—]\s*", re.I)
+
+# A recommendation that still ends in the government's verdict has been split in
+# the wrong place; publishing it would put the answer inside the question.
+ENDS_IN_VERDICT = re.compile(
+    r"\b(?:not\s+)?(?:agreed|noted|supported|accepted|partially\s+(?:agreed|supported))"
+    r"(?:\s+in\s+(?:principle|part))?\s*\.?\s*$", re.I)
 # A contents page, not a recommendation.
 LEADERS = re.compile(r"[.…]{6,}")
 SAYS_RECOMMEND = re.compile(r"\brecommend", re.I)
@@ -61,10 +88,20 @@ REPEAT_NO = re.compile(r"^\d{1,3}(?:\.\d{1,3})?\s*[:.]\s+")
 # party's recommendation to a committee would be a serious misstatement — the
 # maritime response closed one from a dissenting report. Where the quoted text
 # names its author, that is recorded and the site says so.
+# The party may be named without the word "Senators" — "The Australian Greens
+# recommend…" is how sixty rows in this corpus open — and the House says
+# "Members". Requiring "Senators" left 60 Greens recommendations published as
+# committees'. The heading forms also appear either way round: "Coalition
+# Senators' Additional Comments" and "Additional Comments - Coalition Senators".
+PARTY = (r"(?:the\s+)?(?:ALP|Labor|Coalition|Liberal|Nationals?|Greens|"
+         r"Australian\s+Greens|One\s+Nation|Opposition|Government)"
+         r"(?:\s+(?:Senators?|Members?|Party))?")
 DISSENT = re.compile(
-    r"\b((?:ALP|Labor|Coalition|Liberal|National|Greens|Opposition|Government)\s+"
-    r"Senators?|Senator\s+[A-Z][a-z]+|dissenting\s+report|minority\s+report|"
-    r"additional\s+comments)\b", re.I)
+    rf"\b({PARTY}\s+(?:Senators?|Members?)?\s*recommends?\b"
+    rf"|{PARTY}\s+(?:Senators?|Members?)\b"
+    r"|Senator\s+[A-Z][a-z]+"
+    r"|dissenting\s+(?:report|recommendation)|minority\s+report"
+    r"|additional\s+(?:comments|remarks))", re.I)
 # A bare label left dangling at the end by the split, or a lone footnote number.
 TRAILING = re.compile(r"(\s+(Response|Government\s+response|Australian\s+Government"
                       r"\s+response)\s*:?\s*|\s+\d{1,3})\s*$", re.I)
@@ -121,6 +158,9 @@ def looks_extracted_badly(s: str) -> bool:
     return bool(LEADERS.search(s)) or len(STRAY.findall(LIST_MARKER.sub(" ", s))) >= 2
 
 
+# How far above a recommendation to look for the heading that names its author.
+HEADING_WINDOW = 250
+
 # A label mentioned inside a sentence — "...recommendation 7 from the Tax
 # dispute inquiry report and recommends that..." — is a cross-reference, not
 # the heading of a recommendation being quoted. A real one follows the end of
@@ -132,6 +172,9 @@ def is_heading(body: str, start: int) -> bool:
     return not MID_SENTENCE.search(body[max(0, start - 60):start])
 
 
+dropped: collections.Counter = collections.Counter()
+
+
 def recommendations_in(body: str) -> dict[str, tuple[str, str]]:
     """Recommendation number -> (what the committee asked, what the government said).
 
@@ -141,7 +184,7 @@ def recommendations_in(body: str) -> dict[str, tuple[str, str]]:
     committee's words.
     """
     marks = [(m.group(1), m.start(), m.end()) for m in LABEL.finditer(body)]
-    best: dict[str, tuple[str, str]] = {}
+    best: dict[str, tuple[str, str, str]] = {}
     for i, (label, start, end) in enumerate(marks):
         stop = marks[i + 1][1] if i + 1 < len(marks) else len(body)
         segment = body[end:stop]
@@ -156,14 +199,53 @@ def recommendations_in(body: str) -> dict[str, tuple[str, str]]:
         stop_at = GOV_END.search(raw_said, 1)
         if stop_at:
             raw_said = raw_said[:stop_at.start()]
-        said = tidy(raw_said)[:GOV_CHARS]
+        said = tidy(GOV_LABEL.sub("", raw_said.strip()))[:GOV_CHARS]
         if not (MIN_CHARS <= len(asked) <= MAX_CHARS):
+            continue
+        # The split failed if the government's verdict is still inside the
+        # committee's words, or its answer begins mid-sentence. Publishing
+        # either misrepresents who said what, so the row is dropped and
+        # counted rather than shown.
+        if ENDS_IN_VERDICT.search(asked):
+            dropped["the government's verdict is inside the recommendation"] += 1
+            continue
+        if said and said[0].islower():
+            dropped["the government's words begin mid-sentence"] += 1
             continue
         if not SAYS_RECOMMEND.search(asked) or looks_extracted_badly(asked):
             continue
-        if label not in best or len(asked) < len(best[label][0]):
-            best[label] = (asked, "" if looks_extracted_badly(said) else said)
+        # Who is speaking. The recommendation's own words first, then the
+        # heading above it: a dissent often announces itself once — "Dissenting
+        # Recommendation - Senator Babet - Recommendation 10" — and says nothing
+        # about its author in the recommendation itself.
+        named = DISSENT.search(asked) or DISSENT.search(body[max(0, start - HEADING_WINDOW):start])
+        author = re.sub(r"\s+", " ", named.group(1)).strip() if named else ""
+
+        keep = best.get(label)
+        # A dissent restarts its numbering, so one document holds two
+        # "Recommendation 1". The committee's takes the number outright;
+        # length decides only between candidates of the same authorship.
+        if keep is None:
+            better = True
+        elif bool(keep[2]) != bool(author):
+            better = not author
+        else:
+            better = len(asked) < len(keep[0])
+        if better:
+            best[label] = (asked, "" if looks_extracted_badly(said) else said, author)
     return best
+
+
+# Some documents mark a dissent only in prose — "The Australian Greens made a
+# further 22 recommendations" — with no heading above the recommendations
+# themselves and nothing in their wording. No per-row test can reach those. What
+# can be said is that the document contains recommendations that are not the
+# committee's, and the page says so on every row from it, so a reader is never
+# told a document is unanimous when it is not.
+DOC_HAS_OTHERS = re.compile(
+    rf"{PARTY}\s+(?:Senators?|Members?)?\s*(?:made|make|recommends?|proposed?)"
+    r"|dissenting\s+(?:report|recommendation)|minority\s+report"
+    r"|additional\s+(?:comments|recommendations)", re.I)
 
 
 def text_for(doc_id: str) -> str:
@@ -182,18 +264,20 @@ def main() -> int:
 
     rows, empty = [], 0
     for d in docs:
-        found = recommendations_in(text_for(d["id"]))
+        body = text_for(d["id"])
+        others = bool(DOC_HAS_OTHERS.search(body))
+        found = recommendations_in(body)
         if not found:
             empty += 1
             continue
-        for label, (asked, said) in sorted(
+        for label, (asked, said, author) in sorted(
                 found.items(), key=lambda kv: [int(p) for p in kv[0].split(".")]):
-            author = DISSENT.search(asked)
             rows.append({
                 "source": "response",
                 "source_id": d["id"],
                 "label": label,
-                "recommended_by": author.group(1) if author else "",
+                "recommended_by": author,
+                "document_has_other_authors": "yes" if others else "",
                 "recommendation": asked,
                 "government_words": said,
                 "response_classification": d["classification"],
@@ -221,6 +305,13 @@ def main() -> int:
     print(f"{len(rows)} recommendations from {docs_with} of {len(docs)} response documents")
     for k, v in per.most_common():
         print(f"  {k:<18} {v:>5}")
+    if dropped:
+        print("  not published, because the split could not be trusted:")
+        for why, n in dropped.most_common():
+            print(f"      {n:>5}  {why}")
+    docs_others = len({r["source_id"] for r in rows if r["document_has_other_authors"]})
+    print(f"  {docs_others} documents also contain dissenting, minority or additional "
+          "recommendations, flagged at the document level")
     named = sum(1 for r in rows if r["committee"])
     print(f"  {named} name the committee that made them ({named/len(rows)*100:.0f}%)")
     flagged = sum(1 for r in rows if r["recommended_by"])

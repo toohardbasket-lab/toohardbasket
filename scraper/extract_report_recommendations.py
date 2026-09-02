@@ -40,10 +40,22 @@ END = re.compile(r"\n\s*(Chapter\s+\d|CHAPTER\s+\d|List of Recommendations|Conte
 # The sections whose recommendations are not the committee's. Anchored to a
 # whole line: the contents page lists "Dissenting Report" too, and matching it
 # there put every recommendation in the report inside a dissent it is not in.
-SECTION = re.compile(r"^[ \t]*((?:(?:ALP|Labor|Coalition|Liberal|National|Greens|"
-                     r"Opposition|Government)\s+Senators?(?:'|’)?s?\s+)?"
-                     r"(?:Dissenting\s+Report|Minority\s+Report|Additional\s+Comments|"
-                     r"Additional\s+Remarks))[ \t]*\d*[ \t]*$", re.I | re.M)
+# The Senate writes these headings either way round — "Coalition Senators'
+# Additional Comments" and "Additional Comments - Coalition Senators" are both
+# current house style, and the Aged Care Bill report carries three of the second
+# form. Expecting only the first left 23 Coalition recommendations published as
+# the committee's.
+_PARTY = (r"(?:ALP|Labor|Coalition|Liberal|Nationals?|Greens|Australian\s+Greens|"
+          r"One\s+Nation|Opposition|Government)(?:\s+(?:Senators?|Members?|Party))?")
+_KIND = (r"Dissenting\s+(?:Report|Recommendations?)|Minority\s+Report|"
+         r"Additional\s+(?:Comments|Remarks|Recommendations?)")
+SECTION = re.compile(
+    rf"^[ \t]*("
+    rf"(?:{_PARTY}(?:'|’)?s?\s+)?(?:{_KIND})"        # party first, or bare
+    rf"|(?:{_KIND})\s*[-–—:]\s*(?:{_PARTY}|Senator\s+[A-Z][A-Za-z'’-]+)"
+    rf"|(?:{_KIND})\s+(?:by|from)\s+(?:{_PARTY}|Senator\s+[A-Z][A-Za-z'’-]+)"
+    rf")[ \t]*[-–—:]?[ \t]*(?:Senator\s+[A-Z][A-Za-z'’-]+)?[ \t]*\d*[ \t]*$",
+    re.I | re.M)
 
 # A recommendation that names its own author, wherever it sits. The section
 # heading is not enough on its own: a report's dissent can begin without a
@@ -52,8 +64,9 @@ SECTION = re.compile(r"^[ \t]*((?:(?:ALP|Labor|Coalition|Liberal|National|Greens
 # always applied this test; the reports side did not, and three recommendations
 # beginning "Coalition Senators recommend" were published as a committee's.
 NAMES_AUTHOR = re.compile(
-    r"\b((?:ALP|Labor|Coalition|Liberal|National|Greens|Australian\s+Greens|"
-    r"Opposition|Government)\s+(?:Senators?|Members?)|Senator\s+[A-Z][a-z]+)\b", re.I)
+    rf"\b({_PARTY}\s+(?:Senators?|Members?)?\s*recommends?"
+    rf"|{_PARTY}\s+(?:Senators?|Members?)"
+    r"|Senator\s+[A-Z][a-z]+)\b", re.I)
 # Only where it OPENS the recommendation. A dissent says who is speaking before
 # it says what it wants — "Coalition Senators note…", "The Australian Greens
 # recommend…" — whereas a committee recommendation that happens to mention a
@@ -172,6 +185,8 @@ def main() -> int:
                 "source_id": rid,
                 "label": f["label"],
                 "recommended_by": f["recommended_by"],
+                "document_has_other_authors": "yes" if SECTION.search(
+                    (TEXT / f"{rid}.txt").read_text(encoding="utf-8", errors="replace")) else "",
                 "recommendation": f["recommendation"],
                 "government_words": "",
                 "response_classification": "awaiting a response",

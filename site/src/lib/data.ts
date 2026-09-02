@@ -858,6 +858,13 @@ export interface Recommendation {
   label: string;
   /** Named when the recommendation is a dissenting, minority or party one. */
   recommendedBy: string;
+  /**
+   * The document this came from also contains recommendations that are not the
+   * committee's, even where this row's own author could not be established.
+   * Some responses mark a dissent only in prose — "The Australian Greens made a
+   * further 22 recommendations" — which no per-row test can reach.
+   */
+  documentHasOtherAuthors: boolean;
   text: string;
   governmentWords: string;
   classification: string;
@@ -875,6 +882,7 @@ export function recommendations(): Recommendation[] {
     sourceId: r.source_id,
     label: r.label,
     recommendedBy: r.recommended_by ?? "",
+    documentHasOtherAuthors: (r.document_has_other_authors ?? "") === "yes",
     text: r.recommendation,
     governmentWords: r.government_words ?? "",
     classification: r.response_classification,
