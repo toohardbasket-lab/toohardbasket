@@ -13,7 +13,10 @@ const year = new Date().getFullYear();
 const nav = [
   { href: "/", label: "Home" },
   ...liveRegisters().map((r) => ({ href: `/${r.slug}/`, label: r.shortName })),
-  { href: "/recommendations", label: "Search" },
+  // Every other item in this bar names a thing the site holds. "Search" named
+  // an action instead, and did not say what there was to search — a reader
+  // scanning the bar had no way to know the recommendations were there at all.
+  { href: "/recommendations", label: "Recommendations" },
   { href: "/methods", label: "Methods" },
   { href: "/about", label: "About" },
 ];
