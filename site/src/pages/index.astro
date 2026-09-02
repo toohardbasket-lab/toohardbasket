@@ -71,17 +71,10 @@ const chambersShown = new Set(longest.map((r) => r.register));
 const perYear = responsesByYear();
 const typical = typicalYear(perYear, "2023");
 
+// Senate first, as it is in the nav and everywhere else: it is the first
+// claimant, the larger register, and the one every compliance figure on
+// this site is drawn from. The order was the other way round here alone.
 const chambers = [
-  {
-    slug: "house",
-    count: f.house.outstanding,
-    name: house.name,
-    rule: "The House asks for a response within six months.",
-    overdue: f.house.overdue,
-    href: "/house/",
-    link: "The House register",
-    ruleSince: house.ruleSince,
-  },
   {
     slug: "senate",
     count: f.outstanding,
@@ -91,6 +84,16 @@ const chambers = [
     href: "/senate/",
     link: "The Senate register",
     ruleSince: senate.ruleSince,
+  },
+  {
+    slug: "house",
+    count: f.house.outstanding,
+    name: house.name,
+    rule: "The House asks for a response within six months.",
+    overdue: f.house.overdue,
+    href: "/house/",
+    link: "The House register",
+    ruleSince: house.ruleSince,
   },
 ];
 ---

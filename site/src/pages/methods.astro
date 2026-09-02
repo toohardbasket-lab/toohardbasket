@@ -2,7 +2,8 @@
 import Base from "../layouts/Base.astro";
 import BacklogChart from "../components/BacklogChart.astro";
 import {
-  ledger, complianceDetail, closures, history, snapshots, fmt, formatDate, inMonths,
+  ledger, complianceDetail, closures, history, snapshots, scheduleMeta,
+  fmt, formatDate, inMonths,
 } from "../lib/data";
 import { registerBySlug, plannedRegisters } from "../lib/registers";
 import { FORMS, formHref } from "../lib/forms";
@@ -15,6 +16,10 @@ const hist = history();
 const peak = hist.reduce((a, b) => (b.backlog > a.backlog ? b : a));
 const observed = hist.filter((p) => p.basis === "observed").at(-1);
 const asAt = formatDate(observed?.asAt ?? new Date().toISOString().slice(0, 10));
+/* The same date line as every other page: how far the responses have been read
+   is the fact that decides whether anything here is current. */
+const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
+                   scheduleMeta("house").responsesCheckedTo].filter(Boolean).sort()[0];
 
 ---
 
@@ -23,7 +28,10 @@ const asAt = formatDate(observed?.asAt ?? new Date().toISOString().slice(0, 10))
   description="What this register counts, where every figure comes from, what is deliberately excluded, and what the method cannot yet see."
 >
   <section class="wrap intro">
-    <p class="eyebrow">Methods · as at {asAt}</p>
+    <p class="eyebrow">
+      Methods · as at {asAt}
+      {checkedTo && <> · responses checked to {formatDate(checkedTo)}</>}
+    </p>
     <h1>How this is built</h1>
     <p class="lede measure">
       Everything here is drawn from records the Parliament publishes itself. This page

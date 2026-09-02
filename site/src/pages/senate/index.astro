@@ -16,6 +16,10 @@ const asAt = formatDate(observed?.asAt ?? new Date().toISOString().slice(0, 10))
 const sched = scheduleMeta();
 const removedSince = answeredSince("senate");
 const overFive = rows.filter((r) => r.daysOutstanding > 1826);
+/* The scale the waiting bars are drawn against: the longest wait on this
+   register, so each bar is that report's share of the worst case rather than a
+   number scaled to nothing. Guarded, because an empty register has no longest. */
+const longestWait = Math.max(1, ...rows.map((r) => r.daysOutstanding || 0));
 const overOne = rows.filter((r) => r.daysOutstanding > 365);
 const considered = rows.filter((r) => r.beingConsidered);
 const overdue = rows.filter((r) => r.overdue);
@@ -66,6 +70,7 @@ const byCommittee = [...rows.reduce((m, r) => {
   <section class="wrap intro">
     <p class="eyebrow">
       Register · {reg.claimant} · the President’s report as at {formatDate(sched.asAt)}
+      {sched.responsesCheckedTo && <> · responses checked to {formatDate(sched.responsesCheckedTo)}</>}
     </p>
     <h1>The Senate register</h1>
     <p class="lede measure">
@@ -129,6 +134,8 @@ const byCommittee = [...rows.reduce((m, r) => {
             <td class="num nowrap c-wait">
               {fmt(r.daysOutstanding)} days
               <span class="human">{humanDuration(r.daysOutstanding)}</span>
+              <span class="bar" aria-hidden="true"
+                    style={`width: ${Math.max(2, Math.round((r.daysOutstanding / longestWait) * 100))}%`}></span>
             </td>
             <td class="c-title">{r.url
               ? <a href={r.url} rel="external">{r.title}</a>

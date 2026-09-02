@@ -39,14 +39,24 @@ const SITE = "https://toohardbasket.org.au";
     <link rel="canonical" href={new URL(Astro.url.pathname, SITE).href} />
     {/* A link pasted into an editor's Slack or an email preview should say what
         it is. Without these it shows as a bare URL, which reads as a link
-        someone is not sure about. No image: the site has none, and a generated
-        card would be decoration on a register. */}
+        someone is not sure about — and the way this register travels is one
+        journalist sending it to another.
+
+        The card is not decoration: it is the two registers' counts, side by
+        side and never added, the longest wait, and the date the data is current
+        to. It is redrawn by the weekly job from the same files the pages are
+        built from, so it cannot say something the site does not. */}
     <meta property="og:type" content="website" />
+    <meta property="og:image" content={`${SITE}/og.png`} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt"
+          content="The Too Hard Basket — the number of committee reports awaiting a government response in each chamber, and the date the record is current to." />
     <meta property="og:site_name" content="The Too Hard Basket" />
     <meta property="og:title" content={`${title} — The Too Hard Basket`} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={new URL(Astro.url.pathname, SITE).href} />
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <style is:global>
       :root {
@@ -63,8 +73,19 @@ const SITE = "https://toohardbasket.org.au";
         --rule-strong:    #b9b6ad;
         --series-1:       #2168c2;
         --measure: 34rem;
-        --sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
-                "Helvetica Neue", Arial, sans-serif;
+        /*
+         * Self-hosted, and the fallback is named rather than left to chance.
+         * On the system stack this site was Segoe on Windows, San Francisco on
+         * a Mac and Roboto on Android: a journalist and a senator's staffer saw
+         * measurably different pages, and no line broke where it was set to
+         * break. Two families, one job each — the prose is a record and is set
+         * in a serif; everything that is a number, a label or a control is a
+         * datum and is set in the sans.
+         */
+        --serif: "Source Serif 4", Charter, "Bitstream Charter", Cambria,
+                 Georgia, "Times New Roman", serif;
+        --sans: "Source Sans 3", ui-sans-serif, system-ui, -apple-system,
+                "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       }
       @media (prefers-color-scheme: dark) {
         :root:not([data-theme="light"]) {
@@ -91,21 +112,98 @@ const SITE = "https://toohardbasket.org.au";
         --series-1:       #3987e5;
       }
 
+      /*
+       * font-display: swap — the register must be readable before the fonts
+       * arrive, and a fallback is named for each so the reflow is small. The
+       * files are latin subsets, 128KB for all five, served from this origin:
+       * no third-party request, so nobody's visit to this site is logged
+       * anywhere else.
+       */
+      @font-face {
+        font-family: "Source Serif 4"; font-style: normal; font-weight: 400;
+        font-display: swap;
+        src: url("/fonts/source-serif-4-latin-400-normal.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "Source Serif 4"; font-style: italic; font-weight: 400;
+        font-display: swap;
+        src: url("/fonts/source-serif-4-latin-400-italic.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "Source Serif 4"; font-style: normal; font-weight: 600;
+        font-display: swap;
+        src: url("/fonts/source-serif-4-latin-600-normal.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "Source Sans 3"; font-style: normal; font-weight: 400;
+        font-display: swap;
+        src: url("/fonts/source-sans-3-latin-400-normal.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "Source Sans 3"; font-style: normal; font-weight: 500;
+        font-display: swap;
+        src: url("/fonts/source-sans-3-latin-500-normal.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "Source Sans 3"; font-style: normal; font-weight: 600;
+        font-display: swap;
+        src: url("/fonts/source-sans-3-latin-600-normal.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "Source Sans 3"; font-style: normal; font-weight: 700;
+        font-display: swap;
+        src: url("/fonts/source-sans-3-latin-700-normal.woff2") format("woff2");
+      }
+
       * { box-sizing: border-box; }
       html { -webkit-text-size-adjust: 100%; }
       body {
         margin: 0;
         background: var(--surface);
         color: var(--ink);
-        font-family: var(--sans);
-        font-size: 1rem;
-        line-height: 1.6;
+        font-family: var(--serif);
+        font-size: 1.0625rem;
+        line-height: 1.62;
       }
+
+      /*
+       * The division of labour, in one place. Prose inherits the serif from
+       * body. Anything a reader scans rather than reads — a table, a figure, a
+       * label, a control — takes the sans, where the numerals are the right
+       * width and a small size stays legible.
+       */
+      table, .eyebrow, .stats, .stats-note, .figure, svg text,
+      header.site nav, footer.site, .filters, .search, .chip, .status, .more,
+      button, input, select, .num, .human, .tag, .byline, .basis, .who,
+      .from-tracker, code, kbd {
+        font-family: var(--sans);
+      }
+      /* A chart's caption is prose about the chart and stays in the serif with
+         the rest of the argument; only its labels, figures and table view take
+         the sans. Setting the whole figure in sans put four sentences of
+         explanation in the type meant for axis ticks. */
+      figure.chart figcaption { font-family: var(--serif); }
+      table { font-size: 0.9375rem; }
       a { color: inherit; text-underline-offset: 0.15em; text-decoration-thickness: 1px; }
       a:hover { text-decoration-color: var(--series-1); }
 
       .wrap { width: min(72rem, 100% - 2.5rem); margin-inline: auto; }
       .measure { max-width: var(--measure); }
+
+      /*
+       * One left edge on every page.
+       *
+       * ".wrap" centres a 72rem column and everything inside it starts at that
+       * column's left edge. ".wrap measure" narrowed the box itself to 34rem
+       * and kept the centring, so those blocks — the footer, "How to read a
+       * result", several notes — sat on a different left edge from the title
+       * above them. It reads as accidental, because it was. The box keeps the
+       * standard width and the reading measure is applied to its children, so
+       * the text is the same width as before and starts where everything else
+       * on the page starts.
+       */
+      .wrap.measure { max-width: none; }
+      .wrap.measure > * { max-width: var(--measure); }
 
       /* The label style that makes it read as a register rather than an essay. */
       .eyebrow {
@@ -166,6 +264,45 @@ const SITE = "https://toohardbasket.org.au";
       table.register td.num, table.register th.num { text-align: right;
         font-variant-numeric: tabular-nums; }
       table.register td:last-child, table.register th:last-child { padding-right: 0; }
+
+      /*
+       * Fixed widths for everything except the report title, which takes the
+       * slack. Without this the browser sizes every column to its longest
+       * entry, so one 190-character report title squeezes the dates into two
+       * lines and the table's shape changes with the data in it.
+       */
+      table.register { table-layout: auto; }
+      @media (min-width: 60rem) {
+        table.register { table-layout: fixed; }
+        table.register .c-wait  { width: 9.5rem; }
+        table.register .c-title { width: auto; }
+        table.register .cmte    { width: 15rem; }
+        table.register th.num + th + th + th.num,
+        table.register td.num + td + td + td.num { width: 7rem; }
+        table.register .src     { width: 11rem; }
+        table.register td { overflow-wrap: anywhere; }
+      }
+
+      /*
+       * The wait, drawn as well as counted. The column is already sorted by it,
+       * so the bar makes the sort visible: a reader sees the shape of the
+       * backlog before reading a single number, and the top of the table stops
+       * being a list of four-digit figures that all look alike. One colour, the
+       * same blue as everything else, and it is decoration over a number that
+       * is still printed — nothing here depends on reading the bar.
+       */
+      table.register td.c-wait { position: relative; }
+      table.register td.c-wait .bar {
+        display: block; height: 4px; margin: 0.3rem 0 0 auto;
+        background: var(--series-1); opacity: 0.5; border-radius: 2px;
+        min-width: 3px;
+      }
+      /* The column is right-aligned, so the bars end where the figures end and
+         grow leftwards from that edge. Growing from the left would put the
+         short bars nowhere near the numbers they belong to. */
+      @media (prefers-reduced-motion: no-preference) {
+        table.register td.c-wait .bar { transition: width 0.2s ease; }
+      }
 
       /*
        * The registers on a phone. Six columns in 390 pixels pushed the table to

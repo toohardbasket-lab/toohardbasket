@@ -13,7 +13,7 @@
  * the words to make it are on the screen.
  */
 import Base from "../layouts/Base.astro";
-import { recommendations, recommendationsDropped, fmt, formatDate } from "../lib/data";
+import { recommendations, recommendationsDropped, scheduleMeta, fmt, formatDate } from "../lib/data";
 
 const rows = recommendations();
 const dropped = recommendationsDropped();
@@ -23,6 +23,9 @@ const withWords = rows.filter((r) => r.governmentWords).length;
 const covers = rows.map((r) => r.tabled).filter(Boolean).sort();
 const named = rows.filter((r) => r.recommendedBy).length;
 const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS", "First Nations"];
+/* The same date line as every other page. */
+const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
+                   scheduleMeta("house").responsesCheckedTo].filter(Boolean).sort()[0];
 ---
 
 <Base
@@ -30,7 +33,10 @@ const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS
   description="Every recommendation this site can show from Australian parliamentary committee reports since 2022 — searchable by topic, each with the government's own words about it, or a note that no response has been tabled."
 >
   <section class="wrap intro">
-    <p class="eyebrow">Recommendations · {fmt(rows.length)} from {fmt(sources)} documents</p>
+    <p class="eyebrow">
+      Recommendations · {fmt(rows.length)} from {fmt(sources)} documents
+      {checkedTo && <> · responses checked to {formatDate(checkedTo)}</>}
+    </p>
     <h1>What committees asked for</h1>
     <p class="lede measure">
       Type a topic. Every recommendation this site can show on it appears below, with the

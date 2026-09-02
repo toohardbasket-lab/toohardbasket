@@ -92,6 +92,12 @@ jobs:
         run: python build_status_history.py
       - name: Build backlog history
         run: python build_history.py
+      # Redrawn every week from the files the pages are built from, so the card
+      # a journalist sees when the link is pasted into Slack carries this
+      # week's numbers and this week's "checked to" date rather than whatever
+      # was true when someone last made one by hand.
+      - name: Draw the link preview card
+        run: python make_og_card.py
       # The last gate, and the only one that tests the dataset rather than a
       # step. Every check here is a claim the site is about to publish: that
       # every response has been read, that the removals are counted and listed
@@ -104,7 +110,7 @@ jobs:
         run: |
           git config user.name "thb-bot"
           git config user.email "bot@toohardbasket.org.au"
-          git add data/ raw/
+          git add data/ raw/ ../site/public/og.png
           git diff --cached --quiet && { echo "No change to the dataset."; exit 0; }
           git commit -m "Dataset update $(date -u +%F)"
           # A push can be refused because main moved while the job was running,
