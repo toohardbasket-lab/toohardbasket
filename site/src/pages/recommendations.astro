@@ -20,7 +20,6 @@ const dropped = recommendationsDropped();
 const sources = new Set(rows.map((r) => `${r.source}:${r.sourceId}`)).size;
 const awaiting = rows.filter((r) => r.source === "report").length;
 const withWords = rows.filter((r) => r.governmentWords).length;
-const committees = new Set(rows.map((r) => r.committee).filter(Boolean)).size;
 const covers = rows.map((r) => r.tabled).filter(Boolean).sort();
 const named = rows.filter((r) => r.recommendedBy).length;
 const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS", "First Nations"];
@@ -73,6 +72,14 @@ const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS
     </div>
 
     <p class="status measure" data-status>Loading the index…</p>
+    <noscript>
+      <p class="status measure">
+        This search runs in the browser and needs JavaScript. The whole index is published as
+        {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket/blob/main/scraper/data/recommendations.csv">recommendations.csv</a>
+        {" "}— one row per recommendation, with the government’s words about it — and can be
+        opened in any spreadsheet.
+      </p>
+    </noscript>
     <ol class="results" data-results></ol>
     <p class="more measure" data-more hidden></p>
   </section>
@@ -153,11 +160,29 @@ const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS
       answers in narrative prose without numbered recommendations yields nothing, and there
       are {fmt(255)} such documents.
     </p>
+    <p>
+      There is a second shape it cannot read, and it matters more than the first because the
+      clearest example of a form-letter closure this site has is written in it. Where a
+      response sets out its answers in a table and the numbering is the word processor’s
+      rather than typed, there is no “Recommendation 4” in the text for anything to find, and
+      the document yields nothing at all. The response to the 2002 <em>certain maritime
+      incident</em> report — the children-overboard inquiry, answered in 2026 — is one such
+      document, and searching for it here returns nothing. It is on the
+      {" "}<a href="/senate/">Senate register</a> and in the dataset; only its recommendations
+      are missing from this index.
+    </p>
     <p class="note">
-      Every recommendation here was checked back against its source document — the text found
-      verbatim, under the number it claims. {dropped > 0 ? `${fmt(dropped)} did not pass that check and were removed; they are listed in recommendations_dropped.csv.` : ""}
-      {" "}Covers {formatDate(covers[0])} to {formatDate(covers[covers.length - 1])},
-      {" "}{fmt(committees)} committees. The whole index is in the
+      Every recommendation here was located in the extracted text of its own document, under
+      the number it claims, and any row whose words could not be found there was removed.
+      {dropped > 0 ? ` ${fmt(dropped)} did not pass that check; they are listed in recommendations_dropped.csv.` : ""}
+      {" "}That is a consistency check, not an independent one: it catches a row assembled
+      from text that is not in the document, or filed under a number printed only on a
+      contents page. It cannot tell whether the split between the committee’s words and the
+      government’s was made in the right place, or whether the author named is the right one.
+      Those are read by hand, a sample at a time, and what that reading finds is published in
+      the {" "}<a href="/corrections/">corrections log</a>.
+      {" "}Covers {formatDate(covers[0])} to {formatDate(covers[covers.length - 1])}.
+      {" "}The whole index is in the
       {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket">public dataset</a>,
       licensed CC BY 4.0. If a recommendation is wrong, write to
       {" "}<a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a>.
@@ -257,10 +282,22 @@ const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS
           if (lastQuery) run();
         })
         .catch(() => {
-          status.textContent =
-            "The index could not be loaded. Reload the page, or read the dataset directly on GitHub.";
+          // A dead end with no way out is worse than the error. The dataset is
+          // the same content, and the link is the point of saying so.
+          status.innerHTML =
+            "The index could not be loaded. Reload the page, or read the same data in " +
+            '<a href="https://github.com/toohardbasket-lab/toohardbasket/blob/main/scraper/' +
+            'data/recommendations.csv">recommendations.csv</a>.';
         });
       return loading;
+    };
+
+    // The index stores ISO dates because they sort; a reader is shown a date.
+    const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const when = (iso) => {
+      const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || "");
+      return m ? `${+m[3]} ${MONTHS[+m[2] - 1]} ${m[1]}` : (iso || "");
     };
 
     const esc = (s) => s.replace(/[&<>"]/g, (c) =>
@@ -271,7 +308,10 @@ const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS
       for (const t of terms) {
         if (t.length < 2) continue;
         const safe = t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-        out = out.replace(new RegExp(`(${safe})`, "gi"), "<mark>$1</mark>");
+        // \b, to match what the search itself counts. Highlighting inside
+        // "carers" for a search for "care" told the reader there was a match
+        // somewhere there was not.
+        out = out.replace(new RegExp(`\\b(${safe})`, "gi"), "<mark>$1</mark>");
       }
       return out;
     };
@@ -292,7 +332,7 @@ const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS
           <p class="rec">${mark(r.t, terms)}</p>
           ${said}
           <p class="meta">${who}Recommendation ${esc(r.l)}${by} ·
-            ${esc(r.w || "")} · ${r.h === "house" ? "House" : "Senate"} ·
+            ${esc(when(r.w))} · ${r.h === "house" ? "House" : "Senate"} ·
             <a href="${esc(r.u)}">${r.s === "report" ? "the report" : "the response"}</a></p>
         </li>`;
       }).join("");
@@ -314,6 +354,10 @@ const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS
         return;
       }
       const terms = q.split(/\s+/).filter(Boolean);
+      // Match at word starts, not anywhere in a string. Raw substring made
+      // "aged" find "managed", "damaged" and "engaged", and every one of those
+      // counted towards the number a journalist would write down.
+      const res = terms.map((t) => new RegExp("\\b" + t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i"));
       const onlyUnanswered = document.querySelector('[data-filter="unanswered"]').checked;
       const onlyClosed = document.querySelector('[data-filter="closed"]').checked;
       const whose = (document.querySelector('input[name="whose"]:checked') || {}).value || "any";
@@ -324,15 +368,51 @@ const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS
         // minority or party one, and is empty when nothing names another author.
         if (whose === "dissent" && !r.b) return false;
         if (whose === "committee" && r.b) return false;
-        return terms.every((t) => r._.includes(t));
+        return res.every((re) => re.test(r._));
       });
+
+      // Two things decide the order, and neither is the order of the files the
+      // index was built from — which is what it used to be. First, whether the
+      // words are in the recommendation itself rather than only in its
+      // committee or its report's title. Then what happened to it: a
+      // recommendation still awaiting a response is the thing this page exists
+      // to show, and on the suggested searches not one of them appeared in the
+      // first sixty results. Newest first inside that.
+      const inRec = (r) => res.every((re) => re.test(r.t));
+      const stage = (r) => (r.s === "report" ? 0 : r.k === "proforma_closure" ? 1 : 2);
+      for (const r of hits) { r.__r = inRec(r) ? 0 : 1; r.__s = stage(r); }
+      hits.sort((a, b) =>
+        a.__r - b.__r || a.__s - b.__s || String(b.w || "").localeCompare(String(a.w || "")));
       // "Results", not "recommendations mentioning": a match can be on the
       // recommendation, the committee or the report's title, and a report about
       // family violence makes every recommendation in it relevant to that search
       // even where the words are not in the recommendation itself.
-      status.textContent = hits.length
-        ? `${hits.length.toLocaleString("en-AU")} result${hits.length === 1 ? "" : "s"} for “${q}” — matching the recommendation, its committee or its report.`
-        : `Nothing found for “${q}”. This index covers responses tabled since mid-2022 and the reports still on the registers.`;
+      // The number a press office will quote is the big one, so the smaller
+      // and more defensible one is given beside it rather than left to be
+      // discovered. A result can match on the report's title alone, and a
+      // report about family violence does make its recommendations relevant to
+      // that search — but that is not the same claim as "150 recommendations
+      // mention domestic violence", and the page should not let anyone make it.
+      const n = hits.length;
+      if (!n) {
+        status.textContent =
+          `Nothing found for “${q}”. This index covers responses tabled since mid-2022 and ` +
+          `the reports still on the registers. Responses that set out their answers in a ` +
+          `table rather than under numbered headings are not indexed yet.`;
+      } else {
+        const own = hits.filter((r) => r.__r === 0).length;
+        const wait = hits.filter((r) => r.__s === 0).length;
+        const shut = hits.filter((r) => r.__s === 1).length;
+        const parts = [];
+        if (wait) parts.push(`${wait.toLocaleString("en-AU")} awaiting a response`);
+        if (shut) parts.push(`${shut.toLocaleString("en-AU")} closed with the form letter`);
+        const rest = n - wait - shut;
+        if (rest) parts.push(`${rest.toLocaleString("en-AU")} answered`);
+        status.textContent =
+          `${n.toLocaleString("en-AU")} result${n === 1 ? "" : "s"} for “${q}” — ` +
+          `${own.toLocaleString("en-AU")} with the words in the recommendation itself, ` +
+          `the rest matching its committee or its report. ` + parts.join(", ") + ".";
+      }
       render(hits, terms);
     };
 
