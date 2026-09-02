@@ -1,9 +1,10 @@
 ---
 import Base from "../layouts/Base.astro";
-import BacklogChart from "../components/BacklogChart.astro";
+import ResponsesChart from "../components/ResponsesChart.astro";
 import { LAUNCHED } from "../lib/launch";
 import {
-  homeFigures, snapshots, complianceDetail, longestWaits, scheduleMeta,
+  homeFigures, complianceDetail, longestWaits, scheduleMeta,
+  responsesByYear, typicalYear,
   humanDuration, inMonths, fmt, formatDate, formatDateShort,
 } from "../lib/data";
 import { registerBySlug } from "../lib/registers";
@@ -46,6 +47,18 @@ const allWaits = longestWaits(400);
 const firstHouseRank = allWaits.findIndex((r) => r.register === "house") + 1;
 const firstHouse = allWaits[firstHouseRank - 1];
 const chambersShown = new Set(longest.map((r) => r.register));
+
+/**
+ * The chart under the hero used to be the backlog. It fell from 346 to 82 and
+ * read, to anyone who did not go on to the paragraph beneath it, as a
+ * government catching up. Most of that fall was the government closing reports
+ * with a form letter, and a backlog line cannot tell the two apart. Counting
+ * the responses can: the volume is the tell. The backlog is still published,
+ * on the Methods page, where the reconstruction and the President's own counts
+ * can be set against each other at the length that needs.
+ */
+const perYear = responsesByYear();
+const typical = typicalYear(perYear, "2023");
 
 const chambers = [
   {
@@ -109,7 +122,11 @@ const chambers = [
   </section>
 
   <section class="wrap">
-    <BacklogChart points={f.history} peak={f.peak} observed={snapshots()} />
+    <ResponsesChart
+      rows={perYear}
+      typical={typical}
+      checkedTo={formatDate(f.schedule.responsesCheckedTo ?? f.schedule.asAt)}
+    />
   </section>
 
   <section class="wrap two-up">

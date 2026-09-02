@@ -216,6 +216,21 @@ const hoverData = points.map((p) => ({
   .tooltip b { font-variant-numeric: tabular-nums; }
   .tooltip span { color: var(--ink-muted); }
 
+
+  /*
+   * The SVG scales with the column, so its type scales down with it: at 390px
+   * the 900-unit viewBox renders at about four tenths, which takes an 11px
+   * label to under 5px. These sizes are in viewBox units, so raising them here
+   * restores the rendered size rather than enlarging anything.
+   */
+  @media (max-width: 46rem) {
+    .tick { font-size: 20px; }
+    .callout { font-size: 22px; }
+    .callout-sub { font-size: 17px; }
+    .ref-label { font-size: 19px; }
+    .ref-label.sub { font-size: 17px; }
+  }
+
   .table-view { max-width: var(--measure); }
   .table-view summary { font-size: 0.8125rem; color: var(--ink-secondary);
                         cursor: pointer; padding-block: 0.4rem; }

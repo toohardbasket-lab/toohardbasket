@@ -1,6 +1,9 @@
 ---
 import Base from "../layouts/Base.astro";
-import { ledger, complianceDetail, closures, history, fmt, formatDate, inMonths } from "../lib/data";
+import BacklogChart from "../components/BacklogChart.astro";
+import {
+  ledger, complianceDetail, closures, history, snapshots, fmt, formatDate, inMonths,
+} from "../lib/data";
 import { registerBySlug, plannedRegisters } from "../lib/registers";
 import { FORMS, formHref } from "../lib/forms";
 
@@ -8,7 +11,9 @@ const senate = registerBySlug("senate")!;
 const rows = ledger();
 const comp = complianceDetail();
 const cl = closures();
-const observed = history().filter((p) => p.basis === "observed").at(-1);
+const hist = history();
+const peak = hist.reduce((a, b) => (b.backlog > a.backlog ? b : a));
+const observed = hist.filter((p) => p.basis === "observed").at(-1);
 const asAt = formatDate(observed?.asAt ?? new Date().toISOString().slice(0, 10));
 
 ---
@@ -228,6 +233,23 @@ const asAt = formatDate(observed?.asAt ?? new Date().toISOString().slice(0, 10))
       requires parsing the reports for their recommendations as well as the responses. It is
       the next substantial piece of work on this project, and it is not published yet.
     </p>
+  </section>
+
+  <section class="wrap">
+    <h2 id="backlog-chart" class="measure">The backlog, and why it is not the headline</h2>
+    <p class="measure">
+      This chart was on the home page until September 2026. It is here instead, because on
+      its own it misleads. The line falls from {fmt(peak.backlog)} to {fmt(hist[hist.length - 1].backlog)}
+      {" "}and a reader who goes no further takes away that the government has caught up. It
+      has not. A report leaves this chart when a response is tabled, and the chart cannot see
+      whether that response addressed the committee’s recommendations or closed the report
+      without addressing any of them. Most of the fall was the second kind.
+      {" "}<a href="#closures">How those responses are classified</a>. The chart is still
+      published because the backlog is a real thing and this is the only long series of it
+      that exists — but it is a measure of how much is outstanding, not of how much has been
+      answered.
+    </p>
+    <BacklogChart points={hist} peak={peak} observed={snapshots()} />
   </section>
 
   <section class="wrap measure">

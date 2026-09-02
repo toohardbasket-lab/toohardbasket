@@ -1,0 +1,302 @@
+---
+import type { ResponseYear } from "../lib/data";
+import { LAUNCHED } from "../lib/launch";
+
+/*
+ * Before launch the page that sets out the closures in full is not built, so
+ * the caption points at the Methods section that reports the same count and
+ * says how it is arrived at. A claim on the front page must always be one
+ * click from its working, and a dead link is worse than a plainer one.
+ */
+const evidenceHref = LAUNCHED ? "/senate/responses/" : "/methods#closures";
+
+export interface Props {
+  rows: ResponseYear[];
+  typical: { mean: number; median: number; min: number; max: number; from: string; to: string; years: number };
+  /** The last date the response record was read to, so a part-year says so. */
+  checkedTo: string;
+}
+const { rows, typical, checkedTo } = Astro.props;
+
+/*
+ * Responses tabled per year, one bar per year, one population.
+ *
+ * This chart replaced a chart of the backlog. The backlog fell from 346 to 82
+ * and a reader who arrived at that line without reading the page beneath it
+ * took away that the government had caught up. It had not: it disposed of most
+ * of that backlog with a form letter. A falling backlog cannot show the
+ * difference between a report answered and a report closed. A count of
+ * responses tabled can, because answering reports is slow and closing them is
+ * not, and a year of five times the normal volume is visible without any
+ * argument from us.
+ *
+ * The classified counts are NOT drawn as a second series and must not be. The
+ * bars come from the Senate response record, which runs from 2000; the
+ * classification comes from the response documents, which exist only from
+ * mid-2022 and cover both chambers. Stacking them would assert a containment
+ * that has never been established row by row. They appear in the tooltip and
+ * the table, labelled as what they are.
+ */
+const W = 900, H = 340;
+/* The right margin carries the reference-line label. Inside the plot it
+   collided with the bars it exists to be compared against. */
+const PAD = { top: 26, right: 112, bottom: 34, left: 46 };
+const plotW = W - PAD.left - PAD.right;
+const plotH = H - PAD.top - PAD.bottom;
+
+const yMax = Math.ceil(Math.max(...rows.map((r) => r.responses)) / 50) * 50;
+const step = plotW / rows.length;
+const barW = Math.min(step * 0.72, 26);
+
+const x = (i: number) => PAD.left + i * step + (step - barW) / 2;
+const y = (v: number) => PAD.top + plotH - (v / yMax) * plotH;
+
+const gridValues = Array.from({ length: yMax / 50 + 1 }, (_, i) => i * 50);
+/* checkedTo arrives formatted for a reader, so the part year comes from the
+   data rather than from slicing a date string that is no longer ISO. */
+const partYear = rows[rows.length - 1].year;
+
+/*
+ * The headline year, and its closure share, both read off the data. The share
+ * is documents-read against documents-closed — a ratio within one population,
+ * never the closures over the bar above it, which counts something else.
+ */
+const peakYear = rows.reduce((a, b) => (b.responses > a.responses ? b : a));
+const share = (r: ResponseYear) =>
+  r.documents && r.closures !== null ? r.closures / r.documents : null;
+const inTen = (v: number) => {
+  const words = ["none", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
+  return words[Math.round(v * 10)] ?? "";
+};
+const peakShare = share(peakYear);
+
+/* The two years that carry the story get the full ink; the rest sit back. */
+const isClearOut = (r: ResponseYear) => r.responses > typical.mean * 2.5;
+
+const bars = rows.map((r, i) => ({
+  ...r,
+  i,
+  bx: +x(i).toFixed(1),
+  by: +y(r.responses).toFixed(1),
+  bh: +(plotH + PAD.top - y(r.responses)).toFixed(1),
+  emphasis: isClearOut(r),
+}));
+
+const marked = bars.filter((b) => b.emphasis);
+const refY = +y(typical.mean).toFixed(1);
+const fmt = (n: number) => n.toLocaleString("en-AU");
+const decadeTicks = rows
+  .map((r, i) => ({ year: r.year, i }))
+  .filter((t) => t.year.endsWith("0") || t.year.endsWith("5"));
+
+const hoverData = bars.map((b) => ({
+  x: +(x(b.i) + barW / 2).toFixed(1),
+  y: b.by,
+  year: b.year,
+  v: b.responses,
+  docs: b.documents,
+  closed: b.closures,
+}));
+---
+
+<figure class="chart">
+  <figcaption>
+    <h2 id="responses-title">
+      Government responses to Senate committee reports tabled each year, {rows[0].year}–{rows[rows.length - 1].year}
+    </h2>
+    <p class="chart-note">
+      For {typical.years} years the government tabled about {Math.round(typical.mean)} responses
+      a year, never more than {typical.max}. In {peakYear.year} it tabled {fmt(peakYear.responses)}.
+      {peakShare !== null && (
+        <>
+          {" "}Of the {fmt(peakYear.documents ?? 0)} response documents tabled that year,
+          {" "}{inTen(peakShare)} in ten disposed of the committee’s recommendations with a form
+          letter that took no position on any of them.
+          {" "}<a href={evidenceHref}>What those responses said</a>.
+        </>
+      )}
+      {" "}A report leaves the backlog whichever kind of response it gets, so the count of
+      responses is where the difference shows. The {partYear} bar runs to {checkedTo}, not to
+      the year’s end.
+    </p>
+  </figcaption>
+
+  <div class="plot" data-rchart>
+    <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-labelledby="responses-title" preserveAspectRatio="xMidYMid meet">
+      <g class="grid">
+        {gridValues.map((v) => (
+          <>
+            <line x1={PAD.left} x2={W - PAD.right} y1={y(v)} y2={y(v)} />
+            <text x={PAD.left - 10} y={y(v) + 4} class="tick num">{fmt(v)}</text>
+          </>
+        ))}
+      </g>
+
+      <g class="grid">
+        {decadeTicks.map((t) => (
+          <text x={x(t.i) + barW / 2} y={H - 12} class="tick mid">{t.year}</text>
+        ))}
+      </g>
+
+      <g class="bars">
+        {bars.map((b) => (
+          <rect x={b.bx} y={b.by} width={barW} height={b.bh} class={b.emphasis ? "bar on" : "bar"}>
+            <title>{`${b.year}: ${fmt(b.responses)} responses tabled`}</title>
+          </rect>
+        ))}
+      </g>
+
+      {/* The long-run rate, so a spike is measured against something. */}
+      <line class="reference" x1={PAD.left} x2={W - PAD.right} y1={refY} y2={refY} />
+      <text x={W - PAD.right + 8} y={refY - 5} class="ref-label">
+        {Math.round(typical.mean)} a year
+      </text>
+      <text x={W - PAD.right + 8} y={refY + 9} class="ref-label sub">
+        {typical.from}–{typical.to}
+      </text>
+
+      {marked.map((b) => (
+        <g class="marker">
+          <text x={b.bx + barW / 2} y={b.by - 8} class="callout mid">{fmt(b.responses)}</text>
+        </g>
+      ))}
+
+      <line class="crosshair" data-rcross y1={PAD.top} y2={PAD.top + plotH} x1="0" x2="0" hidden />
+      <rect class="hit" data-rhit x={PAD.left} y={PAD.top} width={plotW} height={plotH} />
+    </svg>
+    <div class="tooltip" data-rtip hidden></div>
+  </div>
+
+  <details class="table-view">
+    <summary>Table view — responses tabled each year, and what has been read of them</summary>
+    <table class="register">
+      <thead>
+        <tr>
+          <th scope="col">Year</th>
+          <th scope="col" class="num">Responses tabled</th>
+          <th scope="col" class="num">Documents read</th>
+          <th scope="col" class="num">Form-letter closures</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((r) => (
+          <tr>
+            <td>{r.year}{r.year === partYear ? ` (to ${checkedTo})` : ""}</td>
+            <td class="num">{fmt(r.responses)}</td>
+            <td class="num">{r.documents === null ? "—" : fmt(r.documents)}</td>
+            <td class="num">{r.closures === null ? "—" : fmt(r.closures)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="note">
+      The last two columns count a different set of documents from the first, and the three
+      must not be subtracted from one another. Responses tabled comes from the Senate’s
+      response record, which runs from 2000. Documents read comes from the Tabled Documents
+      system, which holds no government response before mid-2022 and holds responses tabled in
+      both chambers. Where a year has a dash, the documents have not been read, and nothing
+      here should be taken to mean the form letter was not in use before 2022 — only that we
+      have not looked.
+    </p>
+  </details>
+</figure>
+
+<style>
+  .chart { margin: 0 0 2.5rem; }
+  .chart figcaption { max-width: var(--measure); margin-bottom: 1rem; }
+  .chart-note { font-size: 0.8125rem; color: var(--ink-muted); margin: 0; }
+  .plot { position: relative; }
+  svg { width: 100%; height: auto; display: block; overflow: visible; }
+
+  .grid line { stroke: var(--rule); stroke-width: 1; }
+  .tick { fill: var(--ink-muted); font-size: 11px; text-anchor: end;
+          font-variant-numeric: tabular-nums; }
+  .tick.mid { text-anchor: middle; }
+
+  /* One colour, two weights: the clear-out years are the same measure, read
+     louder, not a second category. */
+  .bar { fill: var(--series-1); opacity: 0.42; }
+  .bar.on { opacity: 1; }
+
+  .reference { stroke: var(--rule-strong); stroke-width: 1; stroke-dasharray: 4 4; }
+  .ref-label { fill: var(--ink-muted); font-size: 11px; text-anchor: start;
+               font-variant-numeric: tabular-nums; }
+  .ref-label.sub { font-size: 10px; }
+
+  .callout { fill: var(--ink); font-size: 13px; font-weight: 600; }
+  .callout.mid { text-anchor: middle; }
+
+  .crosshair { stroke: var(--rule-strong); stroke-width: 1; }
+  .hit { fill: transparent; }
+  svg [hidden] { display: none; }
+
+  .tooltip {
+    position: absolute; pointer-events: none; z-index: 2;
+    background: var(--surface); border: 1px solid var(--rule-strong);
+    padding: 0.4rem 0.6rem; font-size: 0.8125rem; line-height: 1.45;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.08); max-width: 17rem;
+    transform: translate(-50%, -115%);
+  }
+  .tooltip b { font-variant-numeric: tabular-nums; }
+  .tooltip span { color: var(--ink-muted); }
+
+
+  /*
+   * The SVG scales with the column, so its type scales down with it: at 390px
+   * the 900-unit viewBox renders at about four tenths, which takes an 11px
+   * label to under 5px. These sizes are in viewBox units, so raising them here
+   * restores the rendered size rather than enlarging anything.
+   */
+  @media (max-width: 46rem) {
+    .tick { font-size: 20px; }
+    .callout { font-size: 22px; }
+    .callout-sub { font-size: 17px; }
+    .ref-label { font-size: 19px; }
+    .ref-label.sub { font-size: 17px; }
+  }
+
+  .table-view { max-width: var(--measure); }
+  .table-view summary { font-size: 0.8125rem; color: var(--ink-secondary);
+                        cursor: pointer; padding-block: 0.4rem; }
+  .table-view table { margin-top: 0.5rem; }
+  .table-view .note { font-size: 0.8125rem; color: var(--ink-muted); margin-top: 0.75rem; }
+</style>
+
+<script is:inline define:vars={{ hoverData, W }}>
+  (() => {
+    const root = document.querySelector("[data-rchart]");
+    if (!root) return;
+    const svg = root.querySelector("svg");
+    const cross = root.querySelector("[data-rcross]");
+    const tip = root.querySelector("[data-rtip]");
+    const hit = root.querySelector("[data-rhit]");
+
+    const show = (on) => {
+      for (const el of [cross, tip]) on ? el.removeAttribute("hidden") : el.setAttribute("hidden", "");
+    };
+
+    const move = (event) => {
+      const box = svg.getBoundingClientRect();
+      const scale = W / box.width;
+      const px = (event.clientX - box.left) * scale;
+      let best = hoverData[0];
+      for (const p of hoverData) {
+        if (Math.abs(p.x - px) < Math.abs(best.x - px)) best = p;
+      }
+      cross.setAttribute("x1", best.x);
+      cross.setAttribute("x2", best.x);
+      const n = (v) => v.toLocaleString("en-AU");
+      const read = best.docs === null
+        ? "<span>The response documents for this year have not been read.</span>"
+        : `<span>Of ${n(best.docs)} response documents read for ${best.year}, <b>${n(best.closed)}</b> closed the report with a form letter.</span>`;
+      tip.innerHTML = `<b>${n(best.v)}</b> responses tabled<br><span>${best.year}</span><br>${read}`;
+      tip.style.left = (best.x / scale) + "px";
+      tip.style.top = (best.y / scale) + "px";
+      show(true);
+    };
+
+    hit.addEventListener("pointermove", move);
+    hit.addEventListener("pointerdown", move);
+    hit.addEventListener("pointerleave", () => show(false));
+  })();
+</script>

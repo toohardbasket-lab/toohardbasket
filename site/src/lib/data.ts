@@ -346,6 +346,78 @@ export function snapshots(): Snapshot[] {
     .sort((a, b) => a.asAt.localeCompare(b.asAt));
 }
 
+// --------------------------------------------------- responses tabled, by year
+
+/**
+ * How many responses the government tabled in each year, and — for the years
+ * where the documents themselves have been read — how many of them closed the
+ * report with the form letter.
+ *
+ * These are two different populations and the chart says so. The yearly count
+ * comes from the Senate response record, which runs from 2000. The classified
+ * count comes from the response documents, which exist in the Tabled Documents
+ * system only from mid-2022 and cover both chambers. They are not a subset of
+ * one another and must never be stacked, subtracted or expressed as a share of
+ * each other. What the second series is for is to say what a spike in the first
+ * one was made of, in the years where that can be known.
+ */
+export interface ResponseYear {
+  year: string;
+  responses: number;
+  /** Response documents read for that year — null before the corpus begins. */
+  documents: number | null;
+  /** Of those documents, the form-letter closures (full and partial). */
+  closures: number | null;
+}
+
+export function responsesByYear(): ResponseYear[] {
+  const tally = new Map<string, number>();
+  for (const r of read("responses.csv")) {
+    const y = (r.response_tabled ?? "").slice(0, 4);
+    if (y) tally.set(y, (tally.get(y) ?? 0) + 1);
+  }
+
+  const excluded = new Set(read("scope_exclusions.csv").map((r) => r.id));
+  const docs = new Map<string, { n: number; closed: number }>();
+  for (const r of read("response_documents.csv")) {
+    if (excluded.has(r.id)) continue;
+    const y = (r.tabled_senate || r.tabled_house || "").slice(0, 4);
+    if (!y) continue;
+    const cell = docs.get(y) ?? { n: 0, closed: 0 };
+    cell.n += 1;
+    if (r.classification === "proforma_closure" || r.classification === "partial_proforma") {
+      cell.closed += 1;
+    }
+    docs.set(y, cell);
+  }
+
+  return [...tally.keys()].sort().map((year) => {
+    const d = docs.get(year);
+    return {
+      year,
+      responses: tally.get(year) ?? 0,
+      documents: d ? d.n : null,
+      closures: d ? d.closed : null,
+    };
+  });
+}
+
+/** The long-run rate, for the reference line: the years before the clear-out. */
+export function typicalYear(rows: ResponseYear[], upTo = "2023") {
+  const years = rows.filter((r) => r.year <= upTo);
+  const counts = years.map((r) => r.responses).sort((a, b) => a - b);
+  const mean = counts.reduce((a, b) => a + b, 0) / (counts.length || 1);
+  return {
+    mean,
+    median: counts[Math.floor(counts.length / 2)] ?? 0,
+    min: counts[0] ?? 0,
+    max: counts[counts.length - 1] ?? 0,
+    from: years[0]?.year ?? "",
+    to: upTo,
+    years: years.length,
+  };
+}
+
 // -------------------------------------------------------------- the register
 
 /**
