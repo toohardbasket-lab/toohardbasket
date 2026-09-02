@@ -22,6 +22,7 @@ const awaiting = rows.filter((r) => r.source === "report").length;
 const withWords = rows.filter((r) => r.governmentWords).length;
 const committees = new Set(rows.map((r) => r.committee).filter(Boolean)).size;
 const covers = rows.map((r) => r.tabled).filter(Boolean).sort();
+const named = rows.filter((r) => r.recommendedBy).length;
 const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS", "First Nations"];
 ---
 
@@ -58,6 +59,17 @@ const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS
     <div class="filters" data-filters hidden>
       <label><input type="checkbox" data-filter="unanswered" /> Only those with no government response</label>
       <label><input type="checkbox" data-filter="closed" /> Only those closed with the form letter</label>
+      {/*
+        A radio group rather than two more tick boxes: "only the committee's"
+        and "only dissenting" are mutually exclusive, and two boxes would let a
+        reader tick both and be told, wrongly, that nothing exists.
+      */}
+      <fieldset class="whose">
+        <legend>Whose recommendation</legend>
+        <label><input type="radio" name="whose" value="any" checked /> Any</label>
+        <label><input type="radio" name="whose" value="committee" /> The committee’s</label>
+        <label><input type="radio" name="whose" value="dissent" /> Dissenting or minority</label>
+      </fieldset>
     </div>
 
     <p class="status measure" data-status>Loading the index…</p>
@@ -86,10 +98,18 @@ const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS
     </p>
     <p>
       <strong>Whose recommendation it is.</strong> Dissenting reports, minority reports and
-      additional comments carry recommendations that are not the committee’s. Where the text
-      or the section names another author, the result says so. Treating one of those as a
-      committee recommendation would be a serious misstatement, and it is the mistake this
-      page is most likely to make.
+      additional comments carry recommendations that are not the committee’s. Treating one of
+      those as a committee recommendation would be a serious misstatement, and it is the
+      mistake this page is most likely to make. Where the text or the section it sits in names
+      another author, the result says so and you can filter on it — {fmt(named)} of the
+      {fmt(rows.length)} do.
+    </p>
+    <p>
+      That filter is not a guarantee in the other direction. It finds what names itself: a
+      section headed “Dissenting Report”, or a recommendation whose own words begin “Labor
+      Senators recommend”. A dissenting recommendation that does neither is not caught, so
+      <em>the committee’s</em> means “nothing here identifies another author”, not “verified as
+      the committee’s”. Where it matters, the document is linked on every result.
     </p>
     <p>
       <strong>What is not here.</strong> This is not every recommendation an Australian
@@ -131,9 +151,17 @@ const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS
     text-underline-offset: 2px;
   }
 
-  .filters { display: flex; flex-wrap: wrap; gap: 1rem; margin: 0 0 1rem;
-             font-size: 0.875rem; color: var(--ink-secondary); }
+  .filters { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem;
+             margin: 0 0 1rem; font-size: 0.875rem; color: var(--ink-secondary); }
   .filters label { display: flex; align-items: center; gap: 0.35rem; cursor: pointer; }
+  .whose {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem 0.9rem;
+    border: 1px solid var(--rule); border-radius: 3px; padding: 0.35rem 0.7rem; margin: 0;
+  }
+  .whose legend {
+    padding: 0 0.35rem; font-size: 0.75rem; letter-spacing: 0.05em;
+    text-transform: uppercase; color: var(--ink-muted);
+  }
 
   .status { font-size: 0.875rem; color: var(--ink-muted); margin: 0 0 1rem; }
 
@@ -251,9 +279,14 @@ const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS
       const terms = q.split(/\s+/).filter(Boolean);
       const onlyUnanswered = document.querySelector('[data-filter="unanswered"]').checked;
       const onlyClosed = document.querySelector('[data-filter="closed"]').checked;
+      const whose = (document.querySelector('input[name="whose"]:checked') || {}).value || "any";
       const hits = rows.filter((r) => {
         if (onlyUnanswered && r.s !== "report") return false;
         if (onlyClosed && r.k !== "proforma_closure") return false;
+        // r.b holds the named author when the recommendation is a dissenting,
+        // minority or party one, and is empty when nothing names another author.
+        if (whose === "dissent" && !r.b) return false;
+        if (whose === "committee" && r.b) return false;
         return terms.every((t) => r._.includes(t));
       });
       // "Results", not "recommendations mentioning": a match can be on the
@@ -268,7 +301,9 @@ const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS
 
     let timer;
     input.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(run, 120); });
-    for (const el of document.querySelectorAll("[data-filter]")) el.addEventListener("change", run);
+    for (const el of document.querySelectorAll('[data-filter], input[name="whose"]')) {
+      el.addEventListener("change", run);
+    }
     for (const el of document.querySelectorAll("[data-example]")) {
       el.addEventListener("click", () => { input.value = el.dataset.example; input.focus(); run(); });
     }
