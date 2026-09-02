@@ -113,6 +113,64 @@ const byCommittee = [...rows.reduce((m, r) => {
     <StatTiles stats={stats} note={statsNote} />
   </section>
 
+
+  <section class="wrap">
+    <h2 id="outstanding">Outstanding reports</h2>
+    <p class="note measure">
+      Ordered by how long each has waited. <em>Answered in part</em> is the Speaker’s
+      “partial response received”: the Joint Committee of Public Accounts and Audit is
+      answered by executive minute, one recommendation at a time, and a report is not
+      treated as finished until every recommendation has been answered.
+      {" "}{partial.length > 0 && `${fmt(partial.length)} reports are in that state.`}
+      {" "}<a href="/methods">How this is built</a>.
+    </p>
+    <p class="note measure">
+      Every row below comes from
+      {" "}<a href={sched.url} rel="external">the Speaker’s schedule as at {formatDate(sched.asAt)}</a>.
+      Unlike the Senate register, this one has no second source, so nothing here is marked
+      otherwise. Report titles link to the report itself on the Parliament’s website where
+      the Tabled Documents index has it. That index begins in 2022, so reports tabled before
+      then are listed here without a link rather than with a guessed one.
+    </p>
+    <p class="note measure">
+      <em>Being considered</em> is the government’s own sentence, from its status report,
+      not a characterisation of ours.
+    </p>
+    <RegisterControls target="house-register" noun="reports" />
+    <table class="register stacks" id="house-register">
+      <thead>
+        <tr>
+          <th scope="col" class="num">Waiting</th>
+          <th scope="col">Report</th>
+          <th scope="col">Committee</th>
+          <th scope="col" class="num">Tabled</th>
+          <th scope="col">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((r) => (
+          <tr
+            data-days={r.daysOutstanding}
+            data-title={r.title}
+            data-committee={r.body}
+            data-search={`${r.title} ${r.body} ${statusOf(r)} ${formatDateShort(r.owedSince)} ${r.owedSince}`.toLowerCase()}
+          >
+            <td class="num nowrap c-wait">
+              {fmt(r.daysOutstanding)} days
+              <span class="human">{humanDuration(r.daysOutstanding)}</span>
+            </td>
+            <td class="c-title">{r.url
+              ? <a href={r.url} rel="external">{r.title}</a>
+              : r.title}</td>
+            <td class="cmte c-meta">{r.body}</td>
+            <td class="num nowrap c-meta" data-label="Tabled">{formatDateShort(r.owedSince)}</td>
+            <td class="src c-meta" data-label="Status">{statusOf(r)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+
   <section class="wrap">
     <h2 id="source">Where this comes from, and what it leaves out</h2>
     <p class="note measure">
@@ -263,63 +321,6 @@ const byCommittee = [...rows.reduce((m, r) => {
         </>
       )}
     </p>
-  </section>
-
-  <section class="wrap">
-    <h2 id="outstanding">Outstanding reports</h2>
-    <p class="note measure">
-      Ordered by how long each has waited. <em>Answered in part</em> is the Speaker’s
-      “partial response received”: the Joint Committee of Public Accounts and Audit is
-      answered by executive minute, one recommendation at a time, and a report is not
-      treated as finished until every recommendation has been answered.
-      {" "}{partial.length > 0 && `${fmt(partial.length)} reports are in that state.`}
-      {" "}<a href="/methods">How this is built</a>.
-    </p>
-    <p class="note measure">
-      Every row below comes from
-      {" "}<a href={sched.url} rel="external">the Speaker’s schedule as at {formatDate(sched.asAt)}</a>.
-      Unlike the Senate register, this one has no second source, so nothing here is marked
-      otherwise. Report titles link to the report itself on the Parliament’s website where
-      the Tabled Documents index has it. That index begins in 2022, so reports tabled before
-      then are listed here without a link rather than with a guessed one.
-    </p>
-    <p class="note measure">
-      <em>Being considered</em> is the government’s own sentence, from its status report,
-      not a characterisation of ours.
-    </p>
-    <RegisterControls target="house-register" noun="reports" />
-    <table class="register stacks" id="house-register">
-      <thead>
-        <tr>
-          <th scope="col" class="num">Waiting</th>
-          <th scope="col">Report</th>
-          <th scope="col">Committee</th>
-          <th scope="col" class="num">Tabled</th>
-          <th scope="col">Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        {rows.map((r) => (
-          <tr
-            data-days={r.daysOutstanding}
-            data-title={r.title}
-            data-committee={r.body}
-            data-search={`${r.title} ${r.body} ${statusOf(r)} ${formatDateShort(r.owedSince)} ${r.owedSince}`.toLowerCase()}
-          >
-            <td class="num nowrap c-wait">
-              {fmt(r.daysOutstanding)} days
-              <span class="human">{humanDuration(r.daysOutstanding)}</span>
-            </td>
-            <td class="c-title">{r.url
-              ? <a href={r.url} rel="external">{r.title}</a>
-              : r.title}</td>
-            <td class="cmte c-meta">{r.body}</td>
-            <td class="num nowrap c-meta" data-label="Tabled">{formatDateShort(r.owedSince)}</td>
-            <td class="src c-meta" data-label="Status">{statusOf(r)}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
   </section>
 
   <section class="wrap">

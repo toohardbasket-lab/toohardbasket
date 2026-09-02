@@ -12,7 +12,12 @@ const year = new Date().getFullYear();
 // one-line change there rather than an edit here.
 const nav = [
   { href: "/", label: "Home" },
-  ...liveRegisters().map((r) => ({ href: `/${r.slug}/`, label: r.shortName })),
+  // Senate before House: it is the first claimant, the larger register, and the
+  // one every compliance figure on this site is drawn from.
+  ...liveRegisters()
+    .slice()
+    .sort((a, b) => (a.slug === "senate" ? -1 : b.slug === "senate" ? 1 : 0))
+    .map((r) => ({ href: `/${r.slug}/`, label: r.shortName })),
   // Every other item in this bar names a thing the site holds. "Search" named
   // an action instead, and did not say what there was to search — a reader
   // scanning the bar had no way to know the recommendations were there at all.
@@ -145,7 +150,10 @@ const SITE = "https://toohardbasket.org.au";
       }
       footer.site p { margin: 0 0 0.5rem; }
 
-      table.register { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+      /* The figure columns already aligned; this reaches the duration line under
+         each one, which did not. */
+      table.register { width: 100%; border-collapse: collapse; font-size: 0.875rem;
+                       font-variant-numeric: tabular-nums; }
       table.register th, table.register td {
         text-align: left; padding: 0.55rem 0.75rem 0.55rem 0;
         border-bottom: 1px solid var(--rule); vertical-align: baseline;

@@ -73,6 +73,10 @@ const peakShare = share(peakYear);
 /* The two years that carry the story get the full ink; the rest sit back. */
 const isClearOut = (r: ResponseYear) => r.responses > typical.mean * 2.5;
 
+/* The last year is not a whole year. Drawing it solid, in the same ink as 2024,
+   invites a comparison the data does not support. */
+const partial = (r: ResponseYear) => r.year === rows[rows.length - 1].year;
+
 const bars = rows.map((r, i) => ({
   ...r,
   i,
@@ -80,6 +84,7 @@ const bars = rows.map((r, i) => ({
   by: +y(r.responses).toFixed(1),
   bh: +(plotH + PAD.top - y(r.responses)).toFixed(1),
   emphasis: isClearOut(r),
+  partYear: partial(r),
 }));
 
 const marked = bars.filter((b) => b.emphasis);
@@ -123,6 +128,13 @@ const hoverData = bars.map((b) => ({
 
   <div class="plot" data-rchart>
     <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-labelledby="responses-title" preserveAspectRatio="xMidYMid meet">
+      <defs>
+        <pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse"
+                 patternTransform="rotate(45)">
+          <rect width="5" height="5" fill="var(--series-1)" opacity="0.18" />
+          <line x1="0" y1="0" x2="0" y2="5" stroke="var(--series-1)" stroke-width="2.4" />
+        </pattern>
+      </defs>
       <g class="grid">
         {gridValues.map((v) => (
           <>
@@ -140,7 +152,8 @@ const hoverData = bars.map((b) => ({
 
       <g class="bars">
         {bars.map((b) => (
-          <rect x={b.bx} y={b.by} width={barW} height={b.bh} class={b.emphasis ? "bar on" : "bar"}>
+          <rect x={b.bx} y={b.by} width={barW} height={b.bh}
+                class={`bar${b.emphasis ? " on" : ""}${b.partYear ? " part" : ""}`}>
             <title>{`${b.year}: ${fmt(b.responses)} responses tabled`}</title>
           </rect>
         ))}
@@ -158,6 +171,9 @@ const hoverData = bars.map((b) => ({
       {marked.map((b) => (
         <g class="marker">
           <text x={b.bx + barW / 2} y={b.by - 8} class="callout mid">{fmt(b.responses)}</text>
+          {b.partYear && (
+            <text x={b.bx + barW / 2} y={b.by - 21} class="callout-sub mid">part year</text>
+          )}
         </g>
       ))}
 
@@ -217,6 +233,11 @@ const hoverData = bars.map((b) => ({
      louder, not a second category. */
   .bar { fill: var(--series-1); opacity: 0.42; }
   .bar.on { opacity: 1; }
+  /* A part year is drawn hatched, so it cannot be read as a full one. */
+  .bar.part { fill: url(#hatch); opacity: 1; }
+  .callout-sub { fill: var(--ink-muted); font-size: 10px; letter-spacing: 0.05em;
+                 text-transform: uppercase; }
+  .callout-sub.mid { text-anchor: middle; }
 
   .reference { stroke: var(--rule-strong); stroke-width: 1; stroke-dasharray: 4 4; }
   .ref-label { fill: var(--ink-muted); font-size: 11px; text-anchor: start;

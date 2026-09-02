@@ -78,8 +78,89 @@ const byCommittee = [...rows.reduce((m, r) => {
     <StatTiles stats={stats} note={statsNote} />
   </section>
 
+
+  <section class="wrap">
+    <h2 id="outstanding">Outstanding reports</h2>
+    <p class="note measure">
+      Ordered by how long each has waited. The status column is the President’s own:
+      {" "}<em>being considered</em> is what he records as “Interim*”, and defines in his
+      report as the government saying only that “the Government’s response is being
+      considered”.{" "}<a href="/methods">How this is built</a>.
+    </p>
+    {sched.beingConsideredAsAt && (
+      <p class="note measure">
+        <strong>That column has its own date.</strong> The President takes those marks from
+        the government’s own status report, which he says on his second page should be read
+        with his: it is as at {formatDate(sched.beingConsideredAsAt)} and was tabled on
+        {" "}{formatDate(sched.beingConsideredTabled ?? "")}, where this register is as at
+        {" "}{formatDate(sched.asAt)}. A report tabled after
+        {" "}{formatDate(sched.beingConsideredAsAt)} has not been through a status cycle
+        yet, so “nothing received” against a recent report means the government has not yet
+        been asked to say, not that it has refused to.
+      </p>
+    )}
+    <p class="note measure">
+      Every row below comes from
+      {" "}<a href={sched.url} rel="external">the President’s report as at {formatDate(sched.asAt)}</a>,
+      except any marked as the Senate tracker’s. Report titles link to the report itself on
+      the Parliament’s website where the Tabled Documents index has it. That index begins in
+      2022, so reports tabled before then are listed here without a link rather than with a
+      guessed one.
+    </p>
+    <RegisterControls target="senate-register" noun="reports" />
+    <table class="register stacks" id="senate-register">
+      <thead>
+        <tr>
+          <th scope="col" class="num">Waiting</th>
+          <th scope="col">Report</th>
+          <th scope="col">Committee</th>
+          <th scope="col" class="num">Tabled</th>
+          <th scope="col">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((r) => (
+          <tr
+            data-days={r.daysOutstanding}
+            data-title={r.title}
+            data-committee={r.body}
+            data-search={`${r.title} ${r.body} ${statusOf(r)} ${formatDateShort(r.owedSince)} ${r.owedSince}`.toLowerCase()}
+          >
+            <td class="num nowrap c-wait">
+              {fmt(r.daysOutstanding)} days
+              <span class="human">{humanDuration(r.daysOutstanding)}</span>
+            </td>
+            <td class="c-title">{r.url
+              ? <a href={r.url} rel="external">{r.title}</a>
+              : r.title}{!r.source.startsWith("presidents") && (
+                <span class="from-tracker" title="Tabled after the President's report; carried from the Senate's live tracker">
+                  {" "}Senate tracker
+                </span>
+              )}</td>
+            <td class="cmte c-meta">{r.body}</td>
+            <td class="num nowrap c-meta" data-label="Tabled">{formatDateShort(r.owedSince)}</td>
+            <td class="src c-meta" data-label="Status">{statusOf(r)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+
   <section class="wrap">
     <h2 id="source">Where this comes from, and what it leaves out</h2>
+    {(sched.editionsRead ?? 0) > 1 && (
+      <p class="note measure">
+        <strong>How long it has been saying it.</strong> The President has tabled
+        {" "}{fmt(sched.editionsRead ?? 0)} of these reports since
+        {" "}{formatDate(sched.editionsFrom ?? "")}, and every one of them is on the public
+        record. Reading all {fmt(sched.editionsRead ?? 0)}:
+        {" "}<strong>{fmt(sched.consideredEveryEdition ?? 0)}</strong> of the reports below
+        have been marked “being considered” in every single edition — the government has said
+        the same thing about them, twice a year, for {sched.editionsRead === 9 ? "four" : ""}
+        {" "}years. That is a count of consecutive editions, not an estimate: where a report’s
+        title is written differently in an older edition the run is broken and counted short.
+      </p>
+    )}
     <p class="note measure">
       This register publishes what the presiding officer records, and nothing else.
       Twice a year the President reports to the Senate on the status of every committee
@@ -157,86 +238,6 @@ const byCommittee = [...rows.reduce((m, r) => {
       scrutiny, and the Senate’s domestic committees; and the House of Representatives,
       which has its own presiding officer, its own schedule and its own six-month rule.
     </p>
-  </section>
-
-  <section class="wrap">
-    <h2 id="outstanding">Outstanding reports</h2>
-    <p class="note measure">
-      Ordered by how long each has waited. The status column is the President’s own:
-      {" "}<em>being considered</em> is what he records as “Interim*”, and defines in his
-      report as the government saying only that “the Government’s response is being
-      considered”.{" "}<a href="/methods">How this is built</a>.
-    </p>
-    {(sched.editionsRead ?? 0) > 1 && (
-      <p class="note measure">
-        <strong>How long it has been saying it.</strong> The President has tabled
-        {" "}{fmt(sched.editionsRead ?? 0)} of these reports since
-        {" "}{formatDate(sched.editionsFrom ?? "")}, and every one of them is on the public
-        record. Reading all {fmt(sched.editionsRead ?? 0)}:
-        {" "}<strong>{fmt(sched.consideredEveryEdition ?? 0)}</strong> of the reports below
-        have been marked “being considered” in every single edition — the government has said
-        the same thing about them, twice a year, for {sched.editionsRead === 9 ? "four" : ""}
-        {" "}years. That is a count of consecutive editions, not an estimate: where a report’s
-        title is written differently in an older edition the run is broken and counted short.
-      </p>
-    )}
-    {sched.beingConsideredAsAt && (
-      <p class="note measure">
-        <strong>That column has its own date.</strong> The President takes those marks from
-        the government’s own status report, which he says on his second page should be read
-        with his: it is as at {formatDate(sched.beingConsideredAsAt)} and was tabled on
-        {" "}{formatDate(sched.beingConsideredTabled ?? "")}, where this register is as at
-        {" "}{formatDate(sched.asAt)}. A report tabled after
-        {" "}{formatDate(sched.beingConsideredAsAt)} has not been through a status cycle
-        yet, so “nothing received” against a recent report means the government has not yet
-        been asked to say, not that it has refused to.
-      </p>
-    )}
-    <p class="note measure">
-      Every row below comes from
-      {" "}<a href={sched.url} rel="external">the President’s report as at {formatDate(sched.asAt)}</a>,
-      except any marked as the Senate tracker’s. Report titles link to the report itself on
-      the Parliament’s website where the Tabled Documents index has it. That index begins in
-      2022, so reports tabled before then are listed here without a link rather than with a
-      guessed one.
-    </p>
-    <RegisterControls target="senate-register" noun="reports" />
-    <table class="register stacks" id="senate-register">
-      <thead>
-        <tr>
-          <th scope="col" class="num">Waiting</th>
-          <th scope="col">Report</th>
-          <th scope="col">Committee</th>
-          <th scope="col" class="num">Tabled</th>
-          <th scope="col">Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        {rows.map((r) => (
-          <tr
-            data-days={r.daysOutstanding}
-            data-title={r.title}
-            data-committee={r.body}
-            data-search={`${r.title} ${r.body} ${statusOf(r)} ${formatDateShort(r.owedSince)} ${r.owedSince}`.toLowerCase()}
-          >
-            <td class="num nowrap c-wait">
-              {fmt(r.daysOutstanding)} days
-              <span class="human">{humanDuration(r.daysOutstanding)}</span>
-            </td>
-            <td class="c-title">{r.url
-              ? <a href={r.url} rel="external">{r.title}</a>
-              : r.title}{!r.source.startsWith("presidents") && (
-                <span class="from-tracker" title="Tabled after the President's report; carried from the Senate's live tracker">
-                  {" "}Senate tracker
-                </span>
-              )}</td>
-            <td class="cmte c-meta">{r.body}</td>
-            <td class="num nowrap c-meta" data-label="Tabled">{formatDateShort(r.owedSince)}</td>
-            <td class="src c-meta" data-label="Status">{statusOf(r)}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
   </section>
 
   <section class="wrap">
