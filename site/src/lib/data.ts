@@ -428,8 +428,12 @@ export function typicalYear(rows: ResponseYear[], upTo = "2023") {
  */
 export function compliance() {
   const rows = read("responses.csv");
+  // The deadline is recomputed here rather than read from the row, so this and
+  // complianceDetail() can never publish two rates from one file. Until 2
+  // September the column said 90 days for every row while this site published
+  // the calendar-month rule, and the two disagreed by ten responses.
   const usable = rows
-    .map((r) => ({ days: num(r.days_to_respond), deadline: num(r.deadline_days) }))
+    .map((r) => ({ days: num(r.days_to_respond), deadline: deadlineDays(r.report_last_tabled) }))
     .filter((r): r is { days: number; deadline: number } => r.days !== null && !!r.deadline);
   const onTime = usable.filter((r) => r.days <= r.deadline).length;
   return {

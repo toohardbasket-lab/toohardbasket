@@ -18,7 +18,12 @@ Design rules (credibility depends on these):
     the LAST report tabled is used for the headline days figure — the
     conservative choice — with the first-tabled date also recorded.
   - Deadline: Senate order of 14 March 1973 — response within 3 months.
-    We encode this as 90 days (deadline_days column, adjustable).
+    Three calendar months from the tabling date, not 90 days. The two differ
+    by up to two days depending on which months are spanned, and the site
+    published 5.1 per cent on the calendar-month rule while this column still
+    said 90 for every row — so anyone recomputing the rate from the dataset
+    got 4.4 per cent and a fair complaint. The column now carries the days to
+    that row's own deadline.
 """
 
 from __future__ import annotations
@@ -26,7 +31,29 @@ import re
 from datetime import date
 from dataclasses import dataclass, field, asdict
 
-DEADLINE_DAYS = 90
+DEADLINE_DAYS = 90   # the fallback when no tabling date is recorded
+
+
+def deadline_days_for(tabled: str) -> int:
+    """Days from a tabling date to three calendar months later.
+
+    Three months from 30 November is 28 February (or 29 in a leap year), not
+    31 February: where the day does not exist in the target month, the deadline
+    is the last day of it — the reading that never invents a day the calendar
+    does not have.
+    """
+    if not tabled:
+        return DEADLINE_DAYS
+    start = date.fromisoformat(tabled)
+    month = start.month + 3
+    year = start.year + (month - 1) // 12
+    month = (month - 1) % 12 + 1
+    day = start.day
+    while True:
+        try:
+            return (date(year, month, day) - start).days
+        except ValueError:
+            day -= 1
 
 MONTHS = {m.lower(): i + 1 for i, m in enumerate(
     ["January", "February", "March", "April", "May", "June", "July",
@@ -118,6 +145,8 @@ class Row:
 
     def finalise(self):
         rl = date.fromisoformat(self.report_last_tabled) if self.report_last_tabled else None
+        if self.report_last_tabled:
+            self.deadline_days = deadline_days_for(self.report_last_tabled)
         rf = date.fromisoformat(self.report_first_tabled) if self.report_first_tabled else None
         rs = date.fromisoformat(self.response_tabled) if self.response_tabled else None
         if rl and rs:
