@@ -57,6 +57,10 @@ jobs:
         run: python tests/test_refresh.py
       - name: Classify newly tabled responses
         run: python otd_sweep.py --refresh
+      # Recomputed after the classification, so the floor moves with the corpus
+      # rather than being a figure someone worked out once.
+      - name: Count the recommendations each closure can prove
+        run: python count_recommendations.py
       - name: Removal-step tests (gate)
         run: python tests/test_answered_since.py
       - name: Remove reports answered since the schedules

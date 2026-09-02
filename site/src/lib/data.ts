@@ -787,15 +787,53 @@ export function inMonths(days: number): string {
 // ------------------------------------------------- how responses answered
 
 /**
- * The closure analysis behind /senate/responses/.
+ * The recommendation floor, built by scraper/count_recommendations.py.
  *
- * Counted on the scoped corpus (see closures()). The recommendation total is
- * the number of individual recommendations disposed of by a template sentence
- * — a better measure of what was closed than the document count, because one
- * document can dispose of sixty-eight.
+ * NOT a count of recommendations closed. It is the number of recommendations
+ * in the closures that prove their own structure: labels running 1..N with no
+ * gaps and the notes sentence appearing exactly N times, N at least two. Every
+ * other closure is excluded with a reason, including the 45 that closed a
+ * report without noting a single recommendation. Any page using this must say
+ * "at least" and link to the working.
+ */
+export interface RecommendationFloor {
+  closures: number;        // form-letter closures in total
+  counted: number;         // those whose structure can be verified
+  recommendations: number; // the floor itself
+  sentences: number;       // notes sentences across the whole corpus
+  reasons: { why: string; count: number }[];
+}
+
+export function recommendationFloor(): RecommendationFloor {
+  const rows = read("recommendation_counts.csv");
+  const counted = rows.filter((r) => r.counted === "yes");
+  const reasons = new Map<string, number>();
+  for (const r of rows) {
+    if (!r.excluded_because) continue;
+    // The disagreement reason carries each document's two numbers; group it.
+    const why = /^\d/.test(r.excluded_because)
+      ? "the notes sentences and the recommendation labels disagree"
+      : r.excluded_because;
+    reasons.set(why, (reasons.get(why) ?? 0) + 1);
+  }
+  return {
+    closures: rows.length,
+    counted: counted.length,
+    recommendations: counted.reduce((t, r) => t + (num(r.recommendations_counted) ?? 0), 0),
+    sentences: rows.reduce((t, r) => t + (num(r.notes_sentences) ?? 0), 0),
+    reasons: [...reasons.entries()]
+      .map(([why, count]) => ({ why, count }))
+      .sort((a, b) => b.count - a.count),
+  };
+}
+
+/**
+ * The closure analysis behind /senate/responses/, counted on the scoped corpus
+ * (see closures()). Documents, not recommendations: the count of reports
+ * closed with the template is exact, and the recommendation question is
+ * answered separately and conservatively by recommendationFloor().
  */
 export interface ClosureDetail extends ClosureFigures {
-  recommendationsClosed: number;
   byYear: { year: string; closures: number; responses: number; share: number }[];
   slowest: { days: number; reportTabled: string; responseTabled: string; inquiry: string } | null;
 }
@@ -822,7 +860,6 @@ export function closureDetail(): ClosureDetail {
 
   return {
     ...closures(),
-    recommendationsClosed: pro.reduce((t, r) => t + (num(r.notes_recommendation) ?? 0), 0),
     byYear,
     slowest,
   };

@@ -7,7 +7,9 @@
  * linked to it; this way there is no HTML on the server until LAUNCHED is true.
  */
 import Base from "../../layouts/Base.astro";
-import { closureDetail, responseDoc, history, humanDuration, fmt, formatDate } from "../../lib/data";
+import {
+  closureDetail, recommendationFloor, responseDoc, history, humanDuration, fmt, formatDate,
+} from "../../lib/data";
 import { FORMS, formHref } from "../../lib/forms";
 import { LAUNCHED } from "../../lib/launch";
 
@@ -16,6 +18,16 @@ export function getStaticPaths() {
 }
 
 const c = closureDetail();
+/**
+ * The page used to lead with the count of "the Government notes this
+ * recommendation" sentences, presented as a count of recommendations. It is
+ * not one. Forty-five of the closures never use the sentence, some use it once
+ * for a report with twenty-eight recommendations, and the committee's own
+ * count — the authoritative one — cannot be reached for the corpus. The
+ * headline is now the reports, which is exact, and the recommendation figure
+ * appears lower down as the floor it is.
+ */
+const floor = recommendationFloor();
 const observed = history().filter((p) => p.basis === "observed").at(-1);
 const asAt = formatDate(observed?.asAt ?? new Date().toISOString().slice(0, 10));
 const slowest = c.slowest!;
@@ -27,18 +39,24 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
 
 <Base
   title="How the government answered"
-  description="Since mid-2022 the government has closed thousands of committee recommendations with a template sentence that states no position on any of them. This is the count, the pattern, and the documents."
+  description="Since mid-2022 the government has closed hundreds of committee reports with a template sentence that states no position on any recommendation. This is the count, the pattern, and the documents."
 >
   <section class="wrap hero">
     <p class="eyebrow">Senate committee reports · responses · as at {asAt}</p>
-    <p class="figure">{fmt(c.recommendationsClosed)}</p>
-    <h1 class="claim">recommendations closed without a position on any of them.</h1>
+    <p class="figure">{fmt(c.proforma)}</p>
+    <h1 class="claim">committee reports closed without answering a single recommendation.</h1>
     <p class="lede measure">
       A report leaves the register when a response is tabled. It does not follow that the
-      report was answered. Across {fmt(c.corpus)} responses tabled since mid-2022,
+      report was answered. Of the {fmt(c.corpus)} government responses tabled since mid-2022,
       {" "}<strong>{fmt(c.proforma)}</strong> disposed of the committee’s recommendations with a
-      repeated template sentence and addressed none of them — {fmt(c.recommendationsClosed)}{" "}
-      recommendations in all. Not one was accepted, rejected or qualified.
+      repeated template sentence — that given the passage of time a substantive response is no
+      longer appropriate — and took a position on none of them. Nothing accepted, nothing
+      rejected, nothing qualified.
+    </p>
+    <p class="lede measure">
+      That sentence is used <strong>{fmt(floor.sentences)}</strong> times across those
+      {" "}{fmt(floor.closures)} documents. How many individual recommendations it disposed of
+      is a harder question, and the answer below is deliberately a floor rather than a guess.
     </p>
   </section>
 
@@ -58,6 +76,55 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
       no longer appropriate — the same sentence, {anchor.templateHits} times.
       {" "}{anchor.acceptances === 0 ? "Nothing is accepted, rejected or qualified." : ""}
       {" "}<a href={anchor.url}>Read it</a>.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2>How many recommendations that is, and why the number is a floor</h2>
+    <p>
+      The count of reports is exact. The count of recommendations is not, and this site will
+      not print one as though it were. The authoritative number of recommendations a
+      committee made is in the committee’s report, and for this corpus those reports cannot
+      be reached: the Tabled Documents system’s own report-to-response links reach one of the{" "}
+      {fmt(floor.closures)} closures, and matching by title finds a confident report for six.
+    </p>
+    <p>
+      What each response can prove about itself is another matter. Where a closure sets out
+      the recommendations numbered one to N with no gaps, quotes each one, and answers each
+      with the template sentence exactly once, the arithmetic is visible on the page.
+      {" "}<strong>{fmt(floor.counted)} of the {fmt(floor.closures)} closures do that, and they
+      hold {fmt(floor.recommendations)} recommendations.</strong>
+    </p>
+    <p>
+      So: <strong>at least {fmt(floor.recommendations)} recommendations</strong> were disposed
+      of by a sentence that took a position on none of them. At least, because the other{" "}
+      {fmt(floor.closures - floor.counted)} closures are excluded rather than estimated:
+    </p>
+    <table class="register narrow">
+      <thead>
+        <tr>
+          <th scope="col">Not counted, because</th>
+          <th scope="col" class="num">Documents</th>
+        </tr>
+      </thead>
+      <tbody>
+        {floor.reasons.map((r) => (
+          <tr>
+            <td>{r.why}</td>
+            <td class="num">{fmt(r.count)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="note">
+      The largest of those groups is the one that matters most: those documents close a report
+      without naming a single recommendation, often in two or three sentences. Whatever they
+      disposed of is not in the {fmt(floor.recommendations)}. The two-recommendation minimum
+      exists because a response laid out as a table carries no “Recommendation N” heading at
+      all, and one document that met every other test with a single recommendation turned out
+      to have at least five. Every closure, its numbers and the reason it is or is not counted
+      are in <code>recommendation_counts.csv</code> in the
+      {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket">public dataset</a>.
     </p>
   </section>
 
