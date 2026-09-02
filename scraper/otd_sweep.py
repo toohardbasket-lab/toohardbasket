@@ -27,6 +27,11 @@ Usage:
     python otd_sweep.py --reclassify  # OCR pass over cached 'unreadable' docs
                                       # (needs: pip install pytesseract pypdfium2
                                       #  + the Tesseract engine installed)
+    python otd_sweep.py --refresh     # classify only what is new since the last
+                                      # run — this is what the weekly job runs,
+                                      # and what keeps the published closure
+                                      # figures from freezing on the last day
+                                      # the full sweep was run by hand
     python otd_sweep.py --rescore     # re-classify EVERY row from the cache —
                                       # run after any change to the classifier
                                       # regexes; text is cached in raw/otd_text/
@@ -284,42 +289,138 @@ def reclassify(only_unreadable: bool):
     return 0
 
 
+def harvest_one(session, doc: dict) -> dict:
+    """Download, extract and classify one response document.
+
+    The extracted text is written to the text cache as it goes. That cache is
+    tracked in the repository and is what --rescore reads, so a document
+    classified by a weekly run can be re-scored later without downloading it
+    again — and the evidence behind a published classification is in the
+    repository rather than only on whichever machine ran the sweep.
+    """
+    doc_id = doc["id"]
+    meta = session.get(f"{API}/documents/{doc_id}", headers=HEADERS,
+                       timeout=30).json()["document"]
+    time.sleep(0.3)
+    text, fname = "", ""
+    for f in meta.get("files") or []:
+        fname = f["name"]
+        try:
+            data = fetch_file(session, doc_id, f["fileId"], f["name"])
+            text = extract_text(data, f["name"], ocr=True)
+            if text.strip():
+                TEXT_CACHE.mkdir(parents=True, exist_ok=True)
+                # Same stem as the download cache, so cached_text() and
+                # --rescore find it: "<doc id>_<file id>.txt".
+                (TEXT_CACHE / f"{doc_id}_{f['fileId']}.txt").write_text(
+                    text, encoding="utf-8")
+        except Exception as e:
+            print(f"  ! {doc_id} {f['name'][:40]}: {e}")
+        if text.strip():
+            break
+    cls, tmpl, notes, accepts = classify(text)
+    return {
+        "id": doc_id, "classification": cls, "template_hits": tmpl,
+        "notes_recommendation": notes, "accept_support_agree": accepts,
+        "text_length": len(text.strip()),
+        "title": meta["title"], "author": meta.get("author") or "",
+        "department": meta.get("department") or "",
+        "tabled_senate": (meta.get("tabledSenate") or "")[:10],
+        "tabled_house": (meta.get("tabledHouse") or "")[:10],
+        "parliament": meta.get("parliamentNumber"), "file": fname,
+        "url": f"https://www.aph.gov.au/Parliamentary_Business/Tabled_Documents/{doc_id}",
+    }
+
+
+# A week that adds more responses than this has not happened since the record
+# began; the largest single day on file is 39. A number above the cap means
+# something structural changed — a re-scoped search, a re-published back run —
+# and the run should stop for a person to look rather than publish it.
+REFRESH_CAP = 80
+
+
+def refresh(force: bool = False) -> int:
+    """Classify the response documents tabled since the last run.
+
+    Why enumerate everything rather than ask for a date range: the API's date
+    filter is not the tabling date. The corpus holds documents tabled in April
+    2022 that a dateFrom of 1 July 2022 still returns, so a window keyed to the
+    newest tabling date on file would silently miss anything back-dated. The
+    search returns metadata only and costs seven calls, so the whole list is
+    enumerated every week and only the unseen ids are downloaded.
+
+    This is the step that stopped the closure figures being frozen on whatever
+    day the full sweep was last run by hand. The home page quotes them.
+    """
+    if not OUT.exists():
+        print(f"{OUT} does not exist — run the full sweep first: python otd_sweep.py")
+        return 1
+    with open(OUT, encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    known = {str(r["id"]) for r in rows}
+
+    session = requests.Session()
+    docs = search_all(session, None)
+    listed = {str(d["id"]) for d in docs}
+
+    # A partial enumeration must never be mistaken for documents disappearing.
+    if len(listed) < len(known) * 0.9:
+        print(f"REFUSING: OTD listed {len(listed)} documents but we hold {len(known)}. "
+              "That is a short read, not a shrinking record.")
+        return 1
+
+    gone = known - listed
+    if gone:
+        print(f"  note: {len(gone)} document(s) we hold are no longer listed by OTD "
+              f"({', '.join(sorted(gone)[:8])}). Rows kept; nothing is deleted here.")
+
+    new = [d for d in docs if str(d["id"]) not in known]
+    if not new:
+        print(f"No new response documents. {len(rows)} on file.")
+        return 0
+    if len(new) > REFRESH_CAP and not force:
+        print(f"REFUSING: {len(new)} new documents, over the cap of {REFRESH_CAP}. "
+              "Check what changed, then re-run with --force if it is genuine.")
+        return 1
+
+    print(f"{len(new)} new response document(s) to classify")
+    added = []
+    for i, d in enumerate(new, 1):
+        row = harvest_one(session, d)
+        added.append(row)
+        print(f"  {i}/{len(new)}  {row['id']}  {row['classification']:<17} "
+              f"{(row['tabled_senate'] or row['tabled_house'] or '?')}  {row['title'][:60]}")
+
+    merged = rows + [{k: ("" if v is None else v) for k, v in r.items()} for r in added]
+    merged.sort(key=lambda r: int(r["id"]))
+    write_rows(merged)
+
+    from collections import Counter
+    c = Counter(r["classification"] for r in added)
+    print(f"\n=== REFRESH DONE: {len(added)} added, {len(merged)} on file ===")
+    for k, v in c.most_common():
+        print(f"  {k}: {v}")
+    unread = [r for r in added if r["classification"] == "unreadable"]
+    if unread:
+        print(f"\n  {len(unread)} could not be read as text. They are counted in the "
+              "corpus and classified as neither closure nor substantive, which "
+              "understates the closure count. Run --reclassify with OCR available.")
+    print(f"wrote {OUT}")
+    return 0
+
+
 def main(argv):
     if len(argv) > 1 and argv[1] == "--reclassify":
         return reclassify(only_unreadable=True)
     if len(argv) > 1 and argv[1] == "--rescore":
         return reclassify(only_unreadable=False)
+    if len(argv) > 1 and argv[1] == "--refresh":
+        return refresh(force="--force" in argv)
     limit = int(argv[1]) if len(argv) > 1 else None
     s = requests.Session()
     docs = search_all(s, limit)
 
-    rows = []
-    for i, d in enumerate(docs, 1):
-        meta = s.get(f"{API}/documents/{d['id']}", headers=HEADERS, timeout=30).json()["document"]
-        time.sleep(0.3)
-        text, fname = "", ""
-        for f in meta.get("files") or []:
-            fname = f["name"]
-            try:
-                text = extract_text(fetch_file(s, d["id"], f["fileId"], f["name"]), f["name"])
-            except Exception as e:
-                print(f"  ! {d['id']} {f['name'][:40]}: {e}")
-            if text.strip():
-                break
-        cls, tmpl, notes, accepts = classify(text)
-        rows.append({
-            "id": d["id"], "classification": cls, "template_hits": tmpl,
-            "notes_recommendation": notes, "accept_support_agree": accepts,
-            "text_length": len(text.strip()),
-            "title": meta["title"], "author": meta.get("author") or "",
-            "department": meta.get("department") or "",
-            "tabled_senate": (meta.get("tabledSenate") or "")[:10],
-            "tabled_house": (meta.get("tabledHouse") or "")[:10],
-            "parliament": meta.get("parliamentNumber"), "file": fname,
-            "url": f"https://www.aph.gov.au/Parliamentary_Business/Tabled_Documents/{d['id']}",
-        })
-        if i % 25 == 0:
-            print(f"processed {i}/{len(docs)}")
+    rows = [harvest_one(s, d) for d in docs]
 
     write_rows(rows)
 

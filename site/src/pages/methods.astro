@@ -137,6 +137,21 @@ const asAt = formatDate(observed?.asAt ?? new Date().toISOString().slice(0, 10))
     <p>
       Separately from the Ledger, this site examines the text of every government response
       tabled since mid-2022 — {fmt(cl.corpus)} documents — to ask what the response actually did.
+      {" "}<strong>Read to {formatDate(cl.readTo)}.</strong> The weekly job downloads and
+      classifies whatever has been tabled since it last ran, so this date moves with the
+      register rather than with whenever the corpus was last gathered by hand.
+      {cl.unreadable > 0 && (
+        <>
+          {" "}{fmt(cl.unreadable)} document{cl.unreadable === 1 ? "" : "s"} could not be read
+          as text. They are counted in the corpus and classified as neither a closure nor a
+          substantive response, which understates the closure rate rather than inflating it.
+        </>
+      )}
+    </p>
+    <p class="note">
+      Mid-2022 is not a judgment about when this began. It is where the Tabled Documents
+      system starts: it holds no government response tabled before then, so the classification
+      cannot reach further back and this site does not claim the practice is new.
     </p>
     <p>
       The database category <em>Government response</em> is broader than that question. It

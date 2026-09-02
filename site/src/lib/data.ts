@@ -544,6 +544,12 @@ export interface ClosureFigures {
   rate: number;         // proforma / corpus
   excluded: number;
   exclusions: { reason: string; label: string; count: number }[];
+  /** The latest tabling date in the corpus: how current these figures are. */
+  readTo: string;
+  /** Documents no text could be got from. They are in the corpus and are
+   *  classified as neither closure nor substantive, so a number above zero
+   *  means the closure rate is understated by up to that many documents. */
+  unreadable: number;
 }
 
 const EXCLUSION_LABELS: Record<string, string> = {
@@ -564,12 +570,19 @@ export function closures(): ClosureFigures {
   const byReason = new Map<string, number>();
   for (const r of excl) byReason.set(r.reason, (byReason.get(r.reason) ?? 0) + 1);
 
+  const dates = kept
+    .map((r) => r.tabled_senate || r.tabled_house)
+    .filter(Boolean)
+    .sort();
+
   return {
     corpus: kept.length,
     proforma,
     partial: count("partial_proforma"),
     substantive: count("substantive"),
     rate: kept.length ? proforma / kept.length : 0,
+    readTo: dates[dates.length - 1] ?? "",
+    unreadable: count("unreadable"),
     excluded: excl.length,
     exclusions: [...byReason.entries()]
       .map(([reason, count]) => ({ reason, label: EXCLUSION_LABELS[reason] ?? reason, count }))

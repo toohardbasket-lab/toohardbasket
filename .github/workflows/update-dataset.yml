@@ -20,7 +20,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests beautifulsoup4 playwright && playwright install chromium --with-deps
+      # Tesseract is here for the response corpus: a scanned response with no
+      # text layer would otherwise be classified "unreadable", which counts it
+      # in the corpus as neither a closure nor a substantive response and so
+      # understates the closure rate.
+      - run: sudo apt-get update && sudo apt-get install -y tesseract-ocr
+      - run: pip install requests beautifulsoup4 pdfplumber pytesseract pypdfium2 playwright && playwright install chromium --with-deps
       - name: Parser tests (gate)
         run: python tests/test_parser.py
       - name: Build dataset
@@ -43,6 +48,15 @@ jobs:
         run: python harvest_responses.py
       - name: Link reports to their responses
         run: python harvest_links.py && python link_reports.py
+      # The closure figures the home page leads with are computed from this
+      # file. Until this step existed, only a hand-run sweep wrote it, so the
+      # published rate froze on whatever day that sweep was last run and
+      # nothing on the site said so. The refresh enumerates every response
+      # document OTD holds and classifies only the ones not already on file.
+      - name: Refresh-step tests (gate)
+        run: python tests/test_refresh.py
+      - name: Classify newly tabled responses
+        run: python otd_sweep.py --refresh
       - name: Removal-step tests (gate)
         run: python tests/test_answered_since.py
       - name: Remove reports answered since the schedules
