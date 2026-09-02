@@ -1,0 +1,2768 @@
+Joint Select Committee on Northern Australia
+Final Report on the Cyclone Reinsurance Pool
+March 2025
+© Commonwealth of Australia 2025
+ISBN 978-1-76093-815-4 (Printed version)
+ISBN 978-1-76093-815-4 (HTML version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by the Senate Printing Unit, Parliament House, Canberra
+Contents
+Members ............................................................................................................................................... v
+List of recommendations ................................................................................................................ vii
+Chapter 1—Introduction .................................................................................................................... 1
+Conduct of the inquiry ........................................................................................................................ 2
+Note on terminology............................................................................................................................ 3
+How the pool operates ........................................................................................................................ 3
+The First Report .................................................................................................................................... 5
+Chapter 2—The current situation..................................................................................................... 7
+ACCC: Third insurance monitoring report ...................................................................................... 7
+ARPC 2024 Financial Outlook Report ............................................................................................... 9
+Current status of the pool ................................................................................................................. 10
+Membership ............................................................................................................................. 10
+The impact of the pool for consumers ................................................................................. 11
+External factors affecting the price of insurance ................................................................ 13
+Recent cyclones and claims on the pool .......................................................................................... 14
+Chapter 3—Issues with the operation of the pool ...................................................................... 17
+Increased cost of insurance ............................................................................................................... 18
+Increased building costs ......................................................................................................... 19
+Impact of natural disasters on the cost of insurance .......................................................... 20
+Insurer profits .......................................................................................................................... 20
+Proposed changes to the pool ........................................................................................................... 21
+Marine insurance .................................................................................................................... 21
+Business insurance .................................................................................................................. 23
+Strata insurance ....................................................................................................................... 24
+The 48-hour rule ...................................................................................................................... 26
+Chapter 4—Other measures to address insurance availability and affordability in
+Northern Australia ................................................................................................................. 35
+How to improve insurance affordability ........................................................................................ 35
+Reforms to tax settings ...................................................................................................................... 37
+Establishment of a flood reinsurance pool ..................................................................................... 39
+iii
+Views of other parliamentary committees on a flood reinsurance pool ......................... 42
+Overseas experiences of a flood pool ................................................................................... 44
+Mitigation and resilience measures ................................................................................................. 46
+Disaster Ready Fund .............................................................................................................. 47
+Hazards Insurance Partnership and Strategic Insurance Projects .................................. 47
+Insurance Affordability and Natural Hazards Risk Reduction Taskforce ..................... 48
+Resilient Homes Fund ............................................................................................................ 49
+Strata Resilience Program ...................................................................................................... 50
+Evidence to this inquiry on mitigation and resilience ....................................................... 50
+Funding government resilience and mitigation programs ............................................... 51
+Chapter 5—Committee view and recommendations ................................................................. 55
+Future of the pool ............................................................................................................................... 56
+Adjustments to the pool ................................................................................................................... 57
+Sum insured limit ................................................................................................................... 58
+48-hour rule ............................................................................................................................. 58
+Marine insurance .................................................................................................................... 59
+General flood reinsurance pool ............................................................................................. 59
+Mitigation ............................................................................................................................................ 60
+Mitigation discounts on insurance premiums .................................................................... 60
+Mitigation incentives through tax relief .............................................................................. 62
+Insurance monitoring ........................................................................................................................ 64
+Additional comments from Senator McDonald .......................................................................... 67
+Appendix 1—Submissions and additional information ........................................................... 69
+Appendix 2—Public hearings and witnesses .............................................................................. 73
+iv
+Members
+Chair
+Ms Marion Scrymgour MP ALP, Lingiari, NT
+Deputy Chair
+The Hon Warren Entsch MP LNP, Leichhardt, QLD
+Members
+Senator Dorinda Cox (from 25 March 2024) AG, WA
+Mr Luke Gosling OAM MP ALP, Solomon, NT
+Senator Nita Green ALP, QLD
+Senator Susan McDonald LNP, QLD
+The Hon Shayne Neumann MP ALP, Blair, QLD
+Senator Dean Smith LP, WA
+Senator Glenn Sterle (from 13 June 2023) ALP, WA
+Mr Andrew Willcox MP LNP, Dawson, QLD
+Former Members
+Senator Penny Allman-Payne (to 25 March 2024) AG, QLD
+Senator Patrick Dodson (to 13 June 2023) ALP, WA
+Secretariat
+Alan Raine, Committee Secretary
+Ros Hewett, Principal Research Officer
+Kate Gauthier, Principal Research Officer
+Jason See, Senior Research Officer
+Monique Nielsen, Senior Research Officer
+Jessica Brown, Administrative Officer
+Nina Mihaljcic, Administrative Officer
+PO Box 2600 Telephone: 02 6277 3547
+Parliament House northernaustralia.joint@aph.gov.au
+Canberra ACT 2600
+v
+
+List of recommendations
+Recommendation 1
+5.14 The committee recommends that the Australian Government must proceed
+with the planned legislated review of the Cyclone Reinsurance Pool in 2025.
+Recommendation 2
+5.29 The committee recommends that the Australian Government publish
+modelling on the cost and benefits of the inclusion of marine insurance in the
+Cyclone Reinsurance Pool.
+Recommendation 3
+5.49 The committee strongly recommends that the Australian Government
+support an ongoing, national resilience program on a permanent basis.
+Recommendation 4
+5.50 The committee recommends that the Australian Government consider a range
+of measures to improve resilience and mitigation of high-risk homes in
+Northern Australia, including:
+ providing targeted tax offsets for eligible households in Northern
+Australia; and
+ providing direct subsidies to eligible households in Northern Australia.
+Recommendation 5
+5.54 The committee recommends the Australian Competition and Consumer
+Commission, in its insurance monitoring role, investigate the impact of
+current taxation methods on insurance premium pricing.
+Recommendation 6
+5.58 The committee recommends that the Australian Government fund the
+Australian Competition and Consumer Commission to continue its insurance
+monitoring role until at least 2030.
+Recommendation 7
+5.59 The committee recommends that the Australian Government fund and
+expand the remit of the Australian Competition and Consumer Commission
+to examine the extent to which insurers are reducing insurance premiums in
+response to mitigation and resilience measures.
+vii
+Recommendation 8
+5.61 The committee recommends that the Australian Government publish the
+report of the 2025 scheduled review into the Terrorism and Cyclone Insurance
+Act 2003 once the report is finalised.
+viii
+Chapter 1
+Introduction
+1.1 This is the Joint Select Committee on Northern Australia’s second report on the
+operation and implementation of the Cyclone Reinsurance Pool (the pool).
+1.2 As a parliamentary committee, the Joint Select Committee on Northern
+Australia is responsible for scrutiny and oversight of the work of executive
+government related to Northern Australia.1 In particular, the committee’s role
+includes:
+ ensuring that government policy and programs for Northern Australia are
+fit-for-purpose and address the issues that they are designed to address; and
+ making recommendations to executive government to improve policy and
+programs for Northern Australia, based on issues identified by civil society,
+peak bodies, industry, businesses and individuals.
+1.3 Insurance affordability and availability is a key concern for many residents of
+Northern Australia, and a major factor in the decision to move to the region or
+stay in the region. The Cyclone Reinsurance Pool is one of the major levers used
+by the Australian Government to influence insurance affordability and
+availability in cyclone-prone areas of Northern Australia.
+1.4 The committee’s interest in conducting an inquiry into the pool arose because of
+concerns about:
+ the implementation of the pool to date;
+ the reasons for a slow initial take-up of the pool by insurers;
+ whether the pool is reducing the cost of insurance premiums for consumers
+to the extent anticipated; and, relatedly
+ community expectations about the extent and timeframe of the anticipated
+premium reductions.2
+1.5 All insurers required to join the pool have joined as they were required to do by
+31 December 2024 (for small insurers) and by 31 December 2023 (for large
+insurers).
+1.6 The Australian Government is required, under section 41 of the Terrorism and
+Cyclone Insurance Act 2003, to review the Act ‘as soon as practicable after 1 July
+1 See Chapter 16 of Odgers Australian Senate Practice, 14th edition with updates to 30 June 2022,
+www.aph.gov.au/About_Parliament/Senate/Powers_practice_n_procedures/Odgers_Australian_S
+enate_Practice (accessed 22 November 2024).
+2 Joint Select Committee on Northern Australia, First Report on the Cyclone Reinsurance Pool, March
+2023, p. 1.
+1
+2
+2025’ and ‘prepare a report that reviews the need for this Act to continue in
+operation’.
+1.7 As such, this report is timely. It is now two years since the committee tabled the
+First Report. The pool has been operating fully since 1 January 2025, and a
+review into the need for the scheme to continue is scheduled to occur later this
+year.
+1.8 This report examines in further detail whether the pool is operating as intended
+and meeting its policy objective of ‘improving insurance access and affordability
+for households and small businesses in cyclone-prone areas of Australia’.3 The
+report is divided into five chapters:
+ this chapter provides a brief background to the pool and notes the findings
+of this inquiry’s report tabled in March 2023, the First Report on the Cyclone
+Reinsurance Pool;
+ Chapter 2 summarises the current state of play by outlining the present
+status of the pool and recent relevant findings of the Australian Competition
+and Consumer Commission (ACCC) and the Australian Reinsurance Pool
+Corporation (ARPC);
+ Chapter 3 examines the evidence presented to the committee on the
+operation of the cyclone reinsurance pool, including areas where
+stakeholders suggested it could be improved;
+ Chapter 4 considers other measures proposed to improve insurance
+availability and affordability in Northern Australia; and
+ Chapter 5 presents the committee’s views, recommendations, and proposed
+next steps.
+Conduct of the inquiry
+1.9 Following a referral received on 11 October 2022 from the Assistant Treasurer
+and Minister for Financial Services, the Hon Stephen Jones MP, the Joint Select
+Committee on Northern Australia undertook to inquire into and report on the
+operation and implementation of the Cyclone Reinsurance Pool.4
+1.10 The committee wrote to relevant industry, consumer and government entities
+seeking submissions. The committee received 14 submissions, which are
+published on the inquiry webpage and listed at Appendix 1.
+3 Treasury Laws Amendment (Cyclone and Flood Damage Reinsurance Pool) Bill 2022, Explanatory
+Memorandum, p. 1.
+4 Joint Select Committee on Northern Australia, Cyclone Reinsurance Pool,
+www.aph.gov.au/Parliamentary_Business/Committees/Joint/Northern_Australia/CycloneReinsur
+ancePool (accessed 26 February 2025).
+3
+1.11 The committee held three public hearings:
+ 25 November 2022, in Canberra;
+ 19 April 2024, in Brisbane, Queensland; and
+ 7 February 2025 in Canberra.5
+1.12 Transcripts are available on the inquiry webpage. Witnesses are listed at
+Appendix 2.
+1.13 Hansard references in this report may refer to proof or final transcripts. Page
+numbers may vary between proof and final Hansard transcripts.
+1.14 Written questions on notice were answered by various Commonwealth entities
+and industry bodies. These are published on the inquiry website along with
+tabled documents, additional information and answers to questions taken at
+public hearings. The full list of documents the committee received can be found
+in Appendix 1.
+1.15 The committee thanks all those who have contributed to this inquiry by making
+submissions, giving evidence at public hearings and responding to questions on
+notice.
+Note on terminology
+1.16 To assist readers, three key definitions are provided below on how terms are
+used in this report:
+ Reinsurance: Reinsurance is where an insurer pays a premium to transfer
+part of its claims risk to a reinsurer. This allows the original insurer to
+underwrite larger or unique risks; in effect, it is insurance for insurers. For
+the purposes of this inquiry, it refers to reinsurance of cyclone-related
+damage risks.
+ Resilience: In this report, resilience refers to the physical capacity of a
+building to withstand cyclone and flood damage.
+ Mitigation: Mitigation refers to measures taken to improve the physical
+resilience of buildings to cyclone and flood damage.
+How the pool operates
+1.17 The pool is a reinsurance arrangement underwritten by the Australian
+Government for insurers who offer coverage for cyclone and related flood
+damage. The purpose of the pool is to improve ‘insurance access and
+5 Joint Select Committee on Northern Australia, Public hearings,
+www.aph.gov.au/Parliamentary_Business/Committees/Joint/Northern_Australia/CycloneReinsur
+ancePool/Public_Hearings (accessed 26 February 2025).
+4
+affordability for households and small businesses in cyclone-prone areas of
+Australia’.6
+1.18 The legislative framework for the Cyclone Reinsurance Pool and the
+government agency that administers it (the Australian Reinsurance Pool
+Corporation, or ARPC) is set out in the Terrorism and Cyclone Insurance Act 2003
+and Terrorism and Cyclone Insurance Regulations 2003.
+1.19 The pool covers reinsurance for household, strata and small business property
+insurance policies.7
+1.20 Although the pool operates Australia-wide, it targets support to cyclone-prone
+areas—in other words, much of Northern Australia.8
+1.21 The pool commenced operations from 1 July 2022. Participation in the pool is
+compulsory for Australian general insurers with eligible cyclone pool insurance
+contracts. Large insurers were required to join the pool by 31 December 2023,
+while small insurers were required to join by 31 December 2024. Joining is
+optional for insurers whose gross written premium is less than $10 million in
+the most recent financial year, but they must notify the ARPC of their intention
+not to join the pool for that year.9
+1.22 The pool is funded by charging reinsurance premiums to insurers who join the
+pool. The ARPC sets premium amounts, with the pricing formula designed to:
+ be cost-neutral to Government over the longer term;
+ lower the reinsurance cost for most policies with medium-to-high exposure
+to cyclone risk; and
+ maintain incentives for risk reduction and offer discounts for properties that
+undertake mitigation.10
+1.23 The pool is backed by an annually reinstated $10 billion guarantee from the
+Australian Government, which will cover any shortfall in reserves built up over
+time. The Australian Government has committed to increasing the guarantee if
+it is likely to be exceeded by a single cyclone event or series of cyclone events
+within a single year.11
+6 Explanatory Memorandum – Treasury Laws Amendment (Cyclone and Flood Damage Reinsurance Pool)
+Bill 2022, p. 1.
+7 Australian Reinsurance Pool Corporation, The Cyclone Pool, https://arpc.gov.au/?page_id=2265
+(accessed 25 November 2024).
+8 The Cyclone Pool.
+9 Australian Reinsurance Pool Corporation, Insurer Onboarding, https://arpc.gov.au/reinsurance-
+pools/cyclone/insurer-onboarding/ (accessed 25 November 2024).
+10 Insurer Onboarding.
+11 Insurer Onboarding.
+5
+1.24 The ARPC declares the start and end of a cyclone event for reinsurance
+purposes, based on advice from the Bureau of Meteorology. A ‘cyclone event’ is
+defined as the time a cyclone begins until 48 hours after it ends.12
+1.25 Government departments and agencies responsible for matters related to the
+pool’s operation include:
+ the ARPC, a public (government-run) financial corporation which provides
+reinsurance for cyclone (and terrorism) events, and has a ‘longer-term vision
+… to support insurers to deliver affordable terrorism and cyclone insurance
+in Australia’;
+ the Bureau of Meteorology, which notifies the ARPC when a cyclone exists,
+or has re-intensified, that has potential to affect Australia, along with when
+a cyclone ends;
+ the ACCC, which monitors insurance pricing to determine the impact of the
+pool and whether the savings from the pool are being passed on to policy-
+holders; and
+ the Treasury, which has broader policy responsibility for matters related to
+the pool and administers the legislation underpinning the establishment of
+the pool.13
+1.26 The Terrorism and Cyclone Insurance Act 2003 is due to be reviewed ‘as soon as
+practicable after 1 July 2025’ and ‘at least once every 5 years after that day’, with
+the review report to consider ‘the need for this Act to continue in operation’.14
+The First Report
+1.27 In March 2023, the committee tabled its First Report on the Cyclone Reinsurance
+Pool. The two main concerns canvassed in evidence, as outlined in that report,
+were:
+ the timing of the release of modelling by the ARPC; and
+ whether the anticipated savings generated by the pool for policy holders
+will materialise.15
+12 The Cyclone Pool.
+13 See Terrorism and Cyclone Insurance Act 2003 and Terrorism and Cyclone Insurance Regulations
+2003. Australian Reinsurance Pool Corporation, About us, https://arpc.gov.au/about/ (accessed 25
+November 2024); Tessa Satherley, Bills Digest: Treasury Laws Amendment (Cyclone and Flood Damage
+Reinsurance Pool) Bill 2022, Bills Digest No. 54, 2021–22; Australian Reinsurance Pool Corporation,
+The Cyclone Pool.
+14 Terrorism and Cyclone Insurance Act 2003, s. 41.
+15 Joint Select Committee on Northern Australia, First Report on the Cyclone Reinsurance Pool, March
+2023, p. 25.
+6
+1.28 Other concerns raised included what further incentives could be used to
+encourage insurers to offer coverage in Northern Australia (and join the pool),
+the impact of the 48-hour clause on the cost of insurance premiums in Northern
+Australia, and whether marine insurance would be included in the pool’s
+coverage.16
+1.29 The committee’s recommendations included that the Australian Government:
+ ensure that future releases of modelling are provided well in advance of key
+dates in the ongoing roll-out of the Cyclone Reinsurance Pool;
+ review the availability and coverage of insurance in Northern Australia,
+specifically the insured versus the uninsured, including non-participation;
+ review the impact of the 48-hour clause on the cost of insurance premiums,
+and the availability of insurance in the region, as part of a scheduled review
+in 2025;
+ direct the ACCC to monitor the cyclone insurance markets in Northern
+Australia, and report on thin markets, under-insurance and lack of
+insurance coverage in some areas;
+ announce a position on whether marine insurance will be included in the
+pool’s coverage;
+ facilitate a coordinated approach to land use planning, building codes,
+mitigation and disaster resilience;
+ consider, in the scheduled 2025 review of the pool:
+− whether to ‘sunset’ the pool’s coverage of policies for new builds past a
+certain date;
+− how to reinforce the policy objective of the pool to move to parity of cost
+and access for all Australians; and
+ consider, in future reviews of the pool, the sum insured limit under the
+business property policy.17
+1.30 As of March 2025, the Australian Government had not yet responded to the
+committee’s report and recommendations, despite being required to within
+three months of the report tabling.
+16 First Report on the Cyclone Reinsurance Pool, p. 25.
+17 First Report on the Cyclone Reinsurance Pool, pp. vii–viii.
+Chapter 2
+The current situation
+2.1 This chapter provides an overview of how the pool is currently operating, as of
+March 2025. The chapter examines the findings of recent reports from the
+Australian Competition and Consumer Commission (ACCC) and the Australian
+Reinsurance Pool Corporation (ARPC). It then details the current status of the
+pool, including who has joined and the impact of the pool on premium costs for
+consumers, and discusses external factors affecting the price of insurance more
+broadly. The chapter closes with a brief examination of recent cyclones that have
+led to claims from the pool.
+ACCC: Third insurance monitoring report
+2.2 In September 2024, the ACCC released its third insurance monitoring report
+following the introduction of the Pool. The report found that the ‘pool is
+beginning to deliver premium relief for some consumers in some regions facing
+higher risk of cyclones’. Despite this, ‘the cost savings generated by the pool
+have been offset to varying extents by other cost increases’, with premiums
+remaining very high for many consumers, as insurance premiums rise around
+the country.1
+2.3 Key findings of the report are:
+ Most insurers are now in the pool: as of April 2024, it is estimated that 95
+per cent of the insurance market is covered by the pool.
+ Cost savings passed on: generally, insurers are passing on savings from the
+pool in accordance with the policy intent of the pool.
+ Cost savings offset: cost savings generated by the pool have been offset to
+varying extents by other cost increases.
+ Premiums still high: while the pool may achieve some savings for
+consumers, premiums remain very high in Northern Australia and are
+generally rising around the country.
+ Insurance increases are smaller in Northern Australia: while the nominal
+premiums were higher in the northern regions, in percentage terms the rise
+in the median annual premium for a combined home and contents policy
+was highest in other parts of Australia.
+ Premiums for new policies in higher cyclone risk regions are reducing:
+home insurance premiums quoted in higher cyclone risk regions had an
+average decrease of 8–15 per cent per $100 000 sum insured and up to 24 per
+cent decrease for regions with the highest risk.
+1 Australian Competition and Consumer Commission, Insurance Monitoring: Third Report Following
+the Introduction of a Cyclone and Cyclone-Related Flood Damage Reinsurance Pool, September 2024, p. 1.
+7
+8
+ No increase in insurance availability: while the pool was designed to
+encourage insurers to enter or expand into Northern Australian insurance
+markets, insurers continue to maintain there are many other factors
+affecting their willingness to write policies in Northern Australia.
+ Risk mitigation: There has been some improvement in insurers’ appetite to
+use the pool to motivate private risk mitigation.2
+2.4 Overall, the report noted that rising premium costs have been impacted by
+‘economic and environmental factors beyond the pool, both locally and
+globally’. As a result, ‘even consumers who are benefiting from the pool may
+still be experiencing premium increases overall’.3
+2.5 The report did acknowledge that it may ‘take several years before most
+consumers’ experience the pool’s ‘full potential impact on their premiums’,
+because of insurers entering the pool at different times, different pricing
+approaches, the time required for insurers to implement pricing changes, and
+the typical 12-month policy renewal cycles.4
+2.6 The issues and findings of the September 2024 report are discussed in greater
+detail in Chapter 3, which undertakes an examination of the evidence given
+directly to this inquiry.
+2.7 The ACCC noted its reporting establishes ‘a dataset which allows an
+examination of the impact of the pool on prices, costs and profits of insurance’
+and that this reporting helps to inform views and expectations about the pool’s
+effectiveness:
+Ultimately, this work should assist governments in evaluating whether the
+pool is operating and delivering outcomes as intended.
+With this third report showing a partial picture of the pool’s impact, our
+future reporting will develop a more representative picture of the pool’s
+potential to deliver cost savings to insurers, and the extent to which those
+savings can then be seen in the premiums consumers face.5
+2 Insurance Monitoring: Third Report Following the Introduction of a Cyclone and Cyclone-Related Flood
+Damage Reinsurance Pool, pp. 1–7.
+3 Insurance Monitoring: Third Report Following the Introduction of a Cyclone and Cyclone-Related Flood
+Damage Reinsurance Pool, p. 1.
+4 Insurance Monitoring: Third Report Following the Introduction of a Cyclone and Cyclone-Related Flood
+Damage Reinsurance Pool, p. 1.
+5 Insurance Monitoring: Third Report Following the Introduction of a Cyclone and Cyclone-Related Flood
+Damage Reinsurance Pool, p. 7.
+9
+ARPC 2024 Financial Outlook Report
+2.8 In June 2024, the ARPC estimated that on 1 July 2024, as a proportion of ultimate
+cyclone pool exposure, the cyclone pool would reinsure:
+ 98 per cent of home properties;
+ almost 100 per cent of strata properties; and
+ 87 per cent of small-medium enterprise (SME) properties.6
+2.9 However, the ARPC noted in its 2024 Financial Outlook Report that actual
+earned premium ‘was significantly lower than initial expectations, primarily
+driven by fewer properties taking out insurance than originally modelled’. The
+report noted that ‘non-insurance is an important social issue’, but went on to
+comment that lower earned premium was not affecting the operation of the
+pool, ‘as the reduced premium income is offset by a reduction in modelled
+claims costs’.7
+2.10 The 2023–24 financial year saw total claims cost of $155 million despite five
+declared cyclones, well below the average annual loss forecast of $568 million,
+leading to an operating surplus for the ARPC of $436 million. The ARPC
+projected that earned premium for the 2024–25 financial year would be ‘around
+27 per cent lower than originally modelled when the pool was implemented,
+largely driven by fewer properties taking out insurance (that is, higher levels of
+non-insurance)’.8
+2.11 The report further noted that ‘significant proportions of policy holders’ were
+opting out of flood coverage in South East Queensland, Mid Coast Queensland,
+Inland Queensland and Southern Western Australia.9
+2.12 Despite this evidence of significant under-insurance or properties taking out no
+insurance, the ARPC was of the view that projected ‘overall premium adequacy
+levels are consistent with the cyclone pool’s target of a 100% premium adequacy
+ratio over the longer-term’.10
+2.13 The ARPC committed in its Financial Outlook Report to:
+ use property replacement cost data to provide insights into the impact,
+extent and spread of underinsurance; and
+6 Australian Reinsurance Pool Corporation (ARPC), Cyclone Reinsurance Pool Financial Outlook Report,
+30 June 2024, p. 12.
+7 Cyclone Reinsurance Pool Financial Outlook Report, p. 10.
+8 Cyclone Reinsurance Pool Financial Outlook Report, pp. 10, 12.
+9 Cyclone Reinsurance Pool Financial Outlook Report, p. 41.
+10 Cyclone Reinsurance Pool Financial Outlook Report, p. 10.
+10
+ use the cyclone pool exposure dataset and property replacement cost data to
+better understand the impact of under- and non-insurance on premium
+adequacy.11
+2.14 The ARPC also noted that ‘improving insurance take-up is a key objective of the
+cyclone pool’. It was of the view that if insurers change their practices when
+offering flood coverage in their insurance products, ‘this may have a material
+impact on take-up rates’. However, it stated that it was ‘seeking to further
+understand and quantify the drivers of non-insurance’.12
+Current status of the pool
+2.15 The pool has operated fully since 1 January 2025, at which point all eligible
+insurers had joined the pool.
+2.16 For the first time, the pool has been able to collect information on insurance
+coverage, where data was unavailable previously and existed only for
+individual insurers. In Far North Queensland, for example, the ARPC has found
+that 78 per cent of households have insurance. ARPC aims to use the data they
+are collecting to ‘highlight’ how insurance coverage is changing over time.13
+Membership
+2.17 All eligible insurers have joined the pool, as they were required to by 31
+December 2024. The pool now covers 2.9 million households, 90 000 small
+businesses and 78 000 residential strata properties, including small commercial
+strata.14
+2.18 According to the ARPC’s 2024 Financial Outlook Report, as of 30 June 2024, the
+pool was ‘close to having full coverage of expected ultimate exposure, with the
+overall outlook consistent with what was expected when the cyclone pool
+commenced’.15 Further, all large insurers ‘had entered the pool by the 31
+December 2023 deadline and small insurers have indicated they are on track to
+enter the pool by the 31 December 2024 deadline’. Many smaller insurers
+11 Cyclone Reinsurance Pool Financial Outlook Report, pp. 15, 17.
+12 Cyclone Reinsurance Pool Financial Outlook Report, p. 41.
+13 Dr Christopher Wallace, Chief Executive Officer, Australian Reinsurance Pool Corporation,
+Committee Hansard, 7 February 2025, p. 39.
+14 Australian Reinsurance Pool Corporation, Insurer Onboarding, https://arpc.gov.au/reinsurance-
+pools/cyclone/insurer-onboarding/ (accessed 25 November 2024); Dr Christopher Wallace,
+Australian Reinsurance Pool Corporation, Committee Hansard, 7 February 2025, p. 33.
+15 Cyclone Reinsurance Pool Financial Outlook Report, p. 10 and 15.
+11
+indicated their timing of entry is related to private reinsurance renewal periods
+and implementing necessary system and process changes’.16
+The impact of the pool for consumers
+2.19 Overall, evidence to this inquiry has shown that the pool is reducing the cost of
+insurance premiums to some extent, but these reductions have been offset by
+higher costs in external factors such as increased building costs.
+2.20 The ARPC advised the committee that, according to its Premium Assessment
+report, ‘the cyclone pool focuses its benefit towards those areas at greater risk of
+cyclone damage’. Their report noted some regional areas generating quotes 38
+per cent lower for both home and small business insurance as a consequence of
+the pool.17
+2.21 The ARPC further advised that as there has been a ‘significant reduction in
+average policyholder premiums for the highest risk bands following entry to the
+cyclone pool’, this is ‘a positive sign that cyclone pool premiums are increasing
+insurance availability and insurer underwriting appetite in high cyclone risk
+regions’.18
+2.22 The Insurance Council suggested that ‘there has been a mixed bag of results’
+and noted that the success of the pool will depend on ‘the appetite for insurers
+to extend their coverage into the north’.19
+2.23 Witnesses at the February 2025 hearing emphasised the following positive
+impacts of the pool:
+ Several new insurers have entered the market.20
+ Because of the presence of new insurers, there are more options for
+consumers, more choice and competition and significant savings for some
+consumers as a result.21
+16 Insurance Monitoring: Third Report Following the Introduction of a Cyclone and Cyclone-Related Flood
+Damage Reinsurance Pool, pp. 15–16.
+17 Australian Reinsurance Pool Corporation, answers to written questions on notice, 12 February 2025
+(received 24 February 2025), p. [2].
+18 Australian Reinsurance Pool Corporation, answers to written questions on notice, 12 February 2025
+(received 24 February 2025), p. [3].
+19 Mr Andrew Hall, Executive Director and Chief Executive Officer, Insurance Council of Australia,
+Committee Hansard, 7 February 2025, pp. 3 and 5. See also Insurance Council of Australia, answers
+to spoken and written questions on notice from the public hearing on 7 February 2025 (received 21
+February 2025), p. 2.
+20 Mr Andrew Hall, Insurance Council of Australia, Committee Hansard, 7 February 2025, p. 3.
+21 Mr Tyrone Shandiman, Chairperson, Australian Consumers Insurance Lobby, Committee Hansard,
+7 February 2025, p. 12.
+12
+ Cyclone reinsurance is now affordable for some insurers who previously
+would have been unable to afford it in the private market, meaning they are
+able to offer policies where they were previously unable to.22
+2.24 The committee heard directly from insurers as to the premium discounts that
+were being generated from the pool. At the inquiry hearing in April 2024 the
+committee was told:
+ Insurance Australia Group noted that since joining the pool it reduced
+related premiums by an average of 17 per cent, with premiums in high and
+extreme cyclone risk zones discounted up to 40 or 50 per cent.23
+ Suncorp had similarly reduced premiums by the mid- to high-teens, with a
+very small portion of policy-holders given premium reductions of over 50
+per cent.24
+ QBE had reduced premiums by around 18 per cent for householders.25
+ The Australian Consumers Insurance Lobby told the committee the pool has
+delivered ‘meaningful results’, with large strata buildings that previously
+relied on the insurer of last resort achieving premium reductions of up to 73
+per cent.26
+2.25 The ACCC, in its September 2024 review of the pool, emphasised that:
+It is important to bear in mind the pool was not designed to deliver premium
+savings to consumers in northern Australia facing low or no cyclone risk,
+nor to solve more generally the very acute affordability concerns facing
+some consumers. Where there continue to be other significant risks and
+factors that are acting together to sustain very high premiums, those risks
+and factors may ultimately limit the northern Australian community’s
+perceptions and expectations of the impact of the pool.27
+2.26 However, the ACCC noted the following views expressed by insurance
+consumers:
+ There were persistent concerns about high and rising premiums, and the
+impact of this on the liveability of communities, widespread across
+22 Mr Andrew Hall, Insurance Council of Australia, Committee Hansard, 7 February 2025, p. 5.
+23 Mr George Karagiannakis, Executive Manager, Government and Industry Affairs, Insurance
+Australia Group, and Ms Corinne Glasby, Executive General Manager, Product, Pricing and
+Governance, Direct Insurance, Committee Hansard, 19 April 2024, p. 7.
+24 Mr Andrew Huszczo, Appointed Actuary and Reinsurance Executive General Manager, Suncorp,
+Committee Hansard, 19 April 2024, p. 16.
+25 For example, Mr Andrew Ziolkowski, Chief Underwriting Officer, Australia Pacific, QBE Insurance
+Australia Ltd, Committee Hansard, 19 April 2024, p. 23.
+26 Mr Tyrone Shandiman, Chairperson, Australian Consumers Insurance Lobby, Committee Hansard,
+7 February 2025, p. 11.
+27 Insurance Monitoring: Third Report Following the Introduction of a Cyclone and Cyclone-Related Flood
+Damage Reinsurance Pool, p. 19.
+13
+Northern Australia, with uncertainty as to whether the pool will be able to
+deliver the types of savings that consumers are hoping for.
+ There are growing concerns about the risks and impacts of underinsurance
+and non-insurance on individuals and communities, with consequences that
+can be profound, long-lasting and widespread.
+ While the ACCC observed increasing potential for insurers to reward
+private mitigation actions and improve risk reduction and premium
+outcomes over time, consumers argued there appears to be no
+standardisation of risk mitigation measures that insurers will recognise and
+that incentives for the installation of mitigation measures are not being
+applied consistently.
+ The design of the pool is not widely understood by stakeholder groups.28
+2.27 Specific proposals witnesses put forward to improve the pool are discussed in
+Chapter 3 and Chapter 4.
+External factors affecting the price of insurance
+2.28 As noted by the ACCC in its September 2024 review of cyclone reinsurance,
+insurers have reported that obtaining reinsurance for cyclone events under the
+pool has led to cost savings compared with the prior year; however, despite any
+savings generated by the pool, reinsurance costs for most insurers have
+increased overall.29
+Figure 2.1 Generalised process diagram for calculating a retail premium
+& &
+Expected els- s coBIB • Concentration - • S rchargea
+Net reincSUranoe coats • Competitor pricing • Taxe-s
+Opseratin,g oost!l • Prioe optimisation • Dutie-s
+Commiasiona • Caf11Ping sm:I cupping
+Margi·n • Discoun1,s
+Source: Australian Competition and Consumer Commission, Insurance Monitoring: Third Report Following the
+Introduction of a Cyclone and Cyclone-Related Flood Damage Reinsurance Pool, September 2024, p. 53.
+2.29 The above figure outlines the broad parameters under which retail insurance
+premiums are calculated. The ACCC further noted that two key factors
+influencing the increasing price of insurance premiums are the more frequent
+instances of extreme weather events resulting in more insurance claims,
+28 Insurance Monitoring: Third Report Following the Introduction of a Cyclone and Cyclone-Related Flood
+Damage Reinsurance Pool, pp. 20–22.
+29 Insurance Monitoring: Third Report Following the Introduction of a Cyclone and Cyclone-Related Flood
+Damage Reinsurance Pool, p. 52.
+14
+combined with higher building material and labour costs to rebuild when a
+weather event causes damage.30
+2.30 It was reported to the ACCC that ‘reinsurance costs generally rose to 20-year
+highs following local and global extreme weather events, and contributed to
+increases in premiums’. This resulted in a reduced appetite for reinsurers to
+provide catastrophe cover given the frequency of such events in Australia.31
+2.31 The Royal Automobile Club of Queensland (RACQ) informed the committee
+that the pool assisted in reducing what would have been much larger premium
+rises due to these external factors. RACQ noted that the pool had kept ‘a cap on
+what the increase could have been for people. The average increases last year
+were early double-digit percentages. They would have been higher if the
+cyclone pool hadn’t been in operation’.32
+Recent cyclones and claims on the pool
+2.32 A number of severe tropical cyclones have affected North Queensland since the
+start of the pool, leading to significant claims being made on collected pool
+premiums. These include Tropical Cyclones Jasper (December 2023) and Kirrily
+(January 2024).
+2.33 Severe Tropical Cyclone Jasper was the first cyclone event declared by the ARPC
+for the 2023–24 season, running from 10–14 December 2023, with the pool’s
+claims period ending on 16 December 2023. The ARPC commented that ‘Jasper
+resulted in extreme impacts on the communities affected, but, from a global
+reinsurance perspective … was a relatively small to modest sized disaster’. As
+at April 2024, the ARPC estimated it would receive $83 million in claims from
+insurers covered under the pool.33
+2.34 Chapter 3 examines in more detail evidence suggesting that insurers were
+unable to claim significant losses arising from Tropical Cyclone Jasper from the
+pool because of the pool’s coverage being limited to 48 hours after a cyclone is
+downgraded.
+30 Insurance Monitoring: Third Report Following the Introduction of a Cyclone and Cyclone-Related Flood
+Damage Reinsurance Pool, pp. 59–60. See also Mr Andrew Hall, Insurance Council of Australia,
+Committee Hansard, 7 February 2025, p. 5.
+31 Insurance Monitoring: Third Report Following the Introduction of a Cyclone and Cyclone-Related Flood
+Damage Reinsurance Pool, pp. 58–59.
+32 Mr David Carter, Managing Director and Group Chief Executive Officer, Royal Automobile Club
+of Queensland (RACQ), Committee Hansard, 7 February 2025, pp. 23, 24.
+33 Insurance Monitoring: Third Report Following the Introduction of a Cyclone and Cyclone-Related Flood
+Damage Reinsurance Pool, p. 17.
+15
+2.35 Severe Tropical Cyclone Kirrily’s cyclone event period ran from 24–26 January
+2024, with the claims period ending on 28 January 2024. As at April 2024, the
+ARPC said it estimated that there would be $94 million in pool related claims
+arising from Kirrily.34
+2.36 At the time of drafting this report, ex-Tropical Cyclone Alfred had caused
+damage and widespread flooding across southeast Queensland and northern
+New South Wales. This included major flooding that occurred after the claims
+period for the pool had ended (6am Australian Eastern Standard Time on
+Monday 10 March 2025, 48 hours after the cyclone was downgraded).35
+2.37 As of March 2025, the full combined impact of Severe Tropical Cyclone Sean,
+Severe Tropical Cyclone Zelia and ex-Tropical Cyclone Alfred on claims to the
+pool was not yet apparent.
+34 Insurance Monitoring: Third Report Following the Introduction of a Cyclone and Cyclone-Related Flood
+Damage Reinsurance Pool, pp. 17–18.
+35 Australian Reinsurance Pool Corporation, Tropical Cyclone Alfred ends, 8 March 2025.
+
+Chapter 3
+Issues with the operation of the pool
+3.1 As outlined in Chapter 2, the Cyclone Reinsurance Pool is clearly having a
+positive impact, even if it is not as much as expected. However, under-insurance
+and non-insurance remain problematic in some areas, and the high inflation of
+insurance around Australia is impacting premium pricing.
+3.2 Witnesses at the committee’s public hearings were largely in agreement that
+further changes could improve the operation of the pool. For example, the Royal
+Automobile Club of Queensland (RACQ) told the committee that ‘the pool
+could have been a lot better than was ultimately legislated’.1
+3.3 The Australian Consumers Insurance Lobby acknowledged in February 2025
+that it was somewhat more optimistic about the benefits of the pool than it was
+when it gave evidence at the April 2024 public hearing. However:
+… the promises were that savings would be significantly more than what
+they are. They’re not. The reason for optimism is that we are here today to
+outline changes that are needed to get to that level of saving … Consumers
+are not seeing the savings that they need or expect, but we do believe that,
+with the right changes, you can get there.2
+3.4 The key questions the committee considered during this inquiry included the
+following:
+ Whether certain aspects of the pool should be amended to improve its
+policy objective of ‘improving insurance access and affordability for
+households and small businesses in cyclone-prone areas of Australia’.3
+ Whether the pool should be expanded in terms of the types of risks it covers
+– in particular, floods unrelated to a cyclone event.
+ What other measures are or should be in place to improve insurance
+availability and affordability.
+3.5 Accordingly, this chapter considers the key reasons for the increased cost of
+insurance across Australia, which has reduced the anticipated benefits from the
+establishment of the pool. The chapter then outlines proposals in evidence about
+1 Mr David Carter, Managing Director and Group Chief Executive Officer, Royal Automobile Club
+of Queensland (RACQ), Committee Hansard, 7 February 2025, p. 23.
+2 Mr Tyrone Shandiman, Australian Consumers Insurance Lobby, Committee Hansard, 7 February
+2025, p. 13.
+3 Treasury Laws Amendment (Cyclone and Flood Damage Reinsurance Pool) Bill 2022, Explanatory
+Memorandum, p. 1.
+17
+18
+possible changes to the pool to improve outcomes for consumers in Northern
+Australia. These include:
+ whether marine insurance should be covered by the pool;
+ the expansion of business insurance above the current threshold of $5
+million total sum insured;
+ ongoing issues with strata insurance coverage and cost in Northern
+Australia; and
+ whether the pool should continue to provide cover for 48 hours after the
+end of a cyclone, or for a longer period.
+3.6 Chapter 4 examines other measures to address insurance availability and
+affordability, including whether the pool should be expanded to cover flood
+risk. The committee’s view on the matters and recommendations discussed in
+both chapters are set out in Chapter 5.
+3.7 The committee also received a small amount of evidence calling for changes to
+other areas related to the pool’s scope, including:
+ farm insurance;4
+ motor insurance;5
+ changes to how aged and disability settings are recognised;6
+ subsidisation ‘from some of the lower risk consumers to high-risk
+consumers’ to bring down premium prices;7 and
+ barriers to entry for new insurers to the market, including mutuals.8
+3.8 Given the limited amount of evidence received on these matters, the committee
+does not discuss these issues further in this report.
+Increased cost of insurance
+3.9 In its September 2024 monitoring report into the implementation and impact of
+the pool, the ACCC noted the pool ‘is beginning to deliver premium relief for
+some consumers in some regions facing higher risk of cyclones’ but that these
+4 Mr Tyrone Shandiman, Chairperson, Australian Consumers Insurance Lobby, Committee Hansard,
+19 April 2024, p. 26.
+5 Mr David Carter, Managing Director and Group Chief Executive Officer, Royal Automobile Club
+of Queensland (RACQ), Committee Hansard, 7 February 2025, p. 23.
+6 Mr Tyrone Shandiman, Australian Consumers Insurance Lobby, Committee Hansard, 19 April 2024,
+p. 26.
+7 Mr Tyrone Shandiman, Australian Consumers Insurance Lobby, Committee Hansard, 7 February
+2025, p. 14.
+8 Mr Bradley Heath, Managing Director, Sure Insurance, Committee Hansard, 7 February 2025, p. 20.
+19
+‘cost savings generated by the pool have been offset to varying extents by other
+cost increases’.9
+3.10 RACQ noted that it had seen increases in the amount of excess that policy
+holders are opting for in their policies, indicating potential issues with premium
+affordability. In addition, RACQ had ‘seen coverage on contents often being
+reduced or dropped altogether and we have seen some people reduce their sum
+insured, which we take to be an affordability issue’.10
+3.11 In April 2024, the ARPC acknowledged that communities in Northern Australia
+‘would like to see larger savings’ but also noted that Northern Australia is likely
+‘the only part of Australia that’s getting price reductions at the moment in the
+insurance sector’ because of ‘significant price increases’ in the cost of
+insurance.11
+3.12 The committee received evidence outlining three key reasons for increases in the
+cost of insurance premiums in Northern Australia, namely:
+ increased building costs, in the face of a national housing crisis;
+ an increase in extreme weather events, causing broader increases in the
+price of insurance around the world; and
+ whether insurance companies were posting record profits because of the
+premiums they are charging policy holders.
+Increased building costs
+3.13 According to the Insurance Council of Australia (Insurance Council), the
+benefits of the pool on premium costs ‘are being eroded because of inflation and
+other price pressures’, such as a ’40 per cent increase in the cost of rebuilding in
+three years’ and a national housing crisis to accommodate builders and
+tradespeople.12 In particular, the Insurance Council pointed to inflationary
+pressures in construction, noting that the ‘cost of repairing or rebuilding a home
+9 Australian Competition and Consumer Commission, Insurance Monitoring: Third Report Following
+the Introduction of a Cyclone and Cyclone-Related Flood Damage Reinsurance Pool, September 2024, p. 1.
+10 Mr David Carter, Managing Director and Group Chief Executive Officer, Royal Automobile Club
+of Queensland (RACQ), Committee Hansard, 7 February 2025, p. 25.
+11 Dr Christopher Wallace, Chief Executive Officer, Australian Reinsurance Pool Corporation,
+Committee Hansard, 19 April 2024, p. 38.
+12 Mr Andrew Hall, Executive Director and Chief Executive Officer, Insurance Council of Australia,
+Committee Hansard, 7 February 2025, pp. 1, 3. See also Mr David Carter, Managing Director and
+Group Chief Executive Officer, Royal Automobile Club of Queensland Limited, Committee Hansard,
+19 April 2024, p. 18.
+20
+is now 27 per cent higher than it was at the start of the COVID-19 pandemic’,
+with Queensland experiencing the highest growth rate.13
+3.14 The committee examined the issue of housing affordability and availability in
+Northern Australia at length in the Workforce Development inquiry, in
+acknowledgement of housing being one of the key issues for workforce
+development in the region. The First Report for that inquiry, tabled in
+November 2023, made four recommendations intended to improve housing
+supply and the cost of housing.14 The Australian Government is yet to respond
+to those recommendations, or a further recommendation the committee made
+on housing in the Final Report for that inquiry, tabled in November 2024.15
+Impact of natural disasters on the cost of insurance
+3.15 The Insurance Council also highlighted the ’increasing frequency and severity
+of natural disasters’ and referenced 2022 research projecting that the cost of
+extreme weather events is anticipated to grow by five per cent each year. They
+reported that reinsurance premiums have increased by up to 30 per cent because
+of the risk posed by Australia’s worsening weather, and the recent wildfires in
+Los Angeles may lead to increasing pressure on reinsurance premiums
+globally.16
+3.16 At the April 2024 hearing, Suncorp similarly informed the committee that the
+reinsurance market is currently ‘what’s called a “hard market”. Global
+premiums for reinsurance are actually higher’.17
+Insurer profits
+3.17 In response to questions about recent, significant year-on-year increases to
+insurer profits,18 the Insurance Council argued that these reflected a recent
+recovery from relatively low levels and informed the committee that, between
+2020 and 2023, insurers made, on average, $1.50 for every $100 of premium
+collected. This compared to $5 for every $100 of premium collected from 2012 to
+13 Insurance Council of Australia, answers to spoken and written questions on notice from the public
+hearing on 7 February 2025 (received 21 February 2025), pp. 1, 2. See also Dr Christopher Wallace,
+Chief Executive, Australian Reinsurance Pool Corporation, Committee Hansard, 19 April 2024, p. 25.
+14 Joint Select Committee on Northern Australia, Northern Australia Workforce Development: First
+Report, November 2023, pp. 58–60.
+15 Northern Australia Workforce Development: Final Report, p. 149.
+16 Insurance Council of Australia, answers to spoken and written questions on notice from the public
+hearing on 7 February 2025 (received 21 February 2025), pp. 1, 3.
+17 Mr Andrew Huszczo, Appointed Actuary and Reinsurance Executive General Manager, Suncorp,
+Committee Hansard, 19 April 2024, p. 13. A ‘hard market’ refers to conditions when demand for
+insurance is higher than the supply.
+18 Australian Competition & Consumer Commission, Insurance Monitoring: Second Report Following the
+Introduction of a Cyclone and Cyclone-Related Flood Damage Reinsurance Pool, December 2023, p. 35.
+21
+2020. In addition, the Insurance Council suggested that this ‘recovery’ in recent
+years was not necessarily a reflection of more income generated from premiums
+but, rather, from ‘investment returns. In other words, the higher interest rates
+that the country has been enduring actually return more money to insurers’,
+with business insurance cross-subsidising home and contents insurance ‘for a
+number of years’.19
+3.18 On being asked what levers are being used so insurers are actually passing on
+savings generated from the pool to consumers, the Insurance Council
+responded:
+The ACCC’s most recent insurance monitoring report demonstrates that all
+insurers in the Pool intend to pass through any savings achieved by the Pool
+to consumers. There are varied approaches in how insurers are passing on
+the ARPC reinsurance premiums to consumers, and this is due to different
+systems and existing (pre-Pool) pricing approaches.
+The Insurance Council does not collect data on profitability in particular
+areas ….20
+Proposed changes to the pool
+3.19 The committee heard that, as currently structured, the pool is not providing
+sufficient coverage in several key areas:
+ marine insurance;
+ insurance for businesses;
+ strata insurance; and
+ damage caused beyond the 48 hours after a cyclone is downgraded, despite
+this damage in some instances being more significant than the damage
+caused during the cyclone itself.
+Marine insurance
+3.20 In the First Report for this inquiry, tabled in March 2023, the committee
+recommended that the Australian Government announce a position on the
+inclusion of marine insurance in the pool.21 Following the tabling of the First
+Report, the committee received subsequent evidence calling for the inclusion of
+marine insurance in the pool’s coverage.22
+19 Mr Andrew Hall, Insurance Council of Australia, Committee Hansard, 7 February 2025, p. 2.
+20 Insurance Council of Australia, answers to spoken and written questions on notice from the public
+hearing on 7 February 2025 (received 21 February 2025), p. 3.
+21 Joint Select Committee on Northern Australia, First Report on the Cyclone Reinsurance Pool, March
+2023, Recommendation 4, p. 60.
+22 Letter from Australian Consumers Insurance Lobby regarding marine insurance, received 28
+August 2023; Letter from Marina Industries Association regarding marine insurance, received 28
+August 2023; and Letter from Australian Consumers Insurance Lobby regarding the Cyclone
+Reinsurance Pool, received 19 September 2023.
+22
+3.21 The Australian Consumers Insurance Lobby critiqued what it argued are
+‘misleading claims’ from the insurance industry ‘that marina insurance in the
+pool would have only a five per cent impact on consumers’.23
+3.22 Insurance Australia Group considered that including marine-related
+infrastructure in the pool’s coverage ‘would likely involve additional cost to the
+ARPC and a higher premium charge by the cyclone reinsurance pool to
+insurers’. It expressed its commitment to working ‘constructively with the
+government on solutions to improve the affordability of marine insurance in
+Northern Australia’.24
+3.23 Conversely, Suncorp, while acknowledging that it had only a ‘small book of
+marine insurance’, suggested that expanding the pool to cover marine insurance
+would ‘probably not’ be ‘a significant cost to the pool’ because marine insurance
+claims for losses from cyclones tend to be ‘fairly small’ relative to large property
+losses.25
+3.24 The Australian Consumers Insurance Lobby also questioned whether the
+inclusion of marine insurance would ‘blow the cost of [reinsurance] out’. Mr
+Tyrone Shandiman argued:
+The first thing is that you've got two types of marine insurance. You've got
+fixed infrastructure and then you've got boats, which are not fixed. I think,
+at the very least, just focus on fixed infrastructure like marinas, jetties and
+pontoons. To suggest that that's going to blow the cost of insurance out—I
+would completely disagree with that, because if you look at things like the
+Airlie Beach marinas in your area, they're $20 million to rebuild. The pool
+collects $1 billion a year. How is that going to blow costs out significantly
+for consumers? So I don't agree with the assertion that this is going to
+significantly increase the cost of insurance because I don't believe there is
+enough property there to have such a significant impact on the pool. We
+would at least advocate, at the very minimum, looking at fixed marine
+infrastructure and including that in the pool.26
+3.25 At the April 2024 hearing, QBE proposed further modelling be undertaken ‘to
+understand whether, in fact, there is much relief that the pool could provide to
+marine before we seek to include marine policies into the pool’.27
+23 See Ms Aparna Reddy, General Manager Policy and Regulatory Affairs, Insurance Council of
+Australia, Committee Hansard, 25 November 2022, p. 20.
+24 Insurance Australia Group (IAG), answers to questions taken on notice - public hearing, 19 April
+2024, Brisbane (received 17 May 2024), p. 2.
+25 Mr Andrew Huszczo, Suncorp, Committee Hansard, 19 April 2024, p. 16.
+26 Mr Tyrone Shandiman, Chairperson, Australian Consumers Insurance Lobby, Committee Hansard,
+7 February 2025, p. 14.
+27 For example, Mr Andrew Ziolkowski, Chief Underwriting Officer, Australia Pacific, QBE Insurance
+Australia Ltd, Committee Hansard, 19 April 2024, p. 23.
+23
+3.26 The committee has not yet received a response from the Australian Government
+to its previous recommendation. In response to a question about this matter at
+the public hearing on 7 February 2025, Treasury informed the committee that it
+had conducted modelling on the impact of the inclusion of marine insurance in
+the pool in 2022, and:
+… we are aware of that recommendation. Treasury has provided advice to
+government on that matter. The timing and release of any government
+position on marine insurance, or, for that matter, the recommendations of
+the report, is a matter for government.28
+Business insurance
+3.27 The pool currently covers commercial property policies with less than $5 million
+total sum insured across risks covered by the pool and Small Medium
+Enterprises (SMEs) up to a maximum of $5 million sum insured.29
+3.28 However, the Townsville Chamber of Commerce (the Chamber) informed the
+committee that insurance was unavailable for some businesses, ’including and
+above $5 million … because of the lack of competition in the marketplace’.30
+3.29 The Chamber acknowledged that in previous submissions, it had ‘highlighted
+the issue of defining a business size by sum insured’. However, it suggested that
+businesses are now unable to access attainable and affordable insurance. The
+Chamber argued that ‘businesses need affordable and attainable insurance to
+operate freely, borrow money, employ staff and comply with their statutory
+obligations’. They called for the cap to be removed to assist businesses, arguing
+that removing the cap would help the pool to achieve its objectives, and increase
+the premiums the pool collects, thereby ‘ensuring the pool is cost neutral to the
+federal government’.31
+3.30 The Australian Consumers Insurance Lobby also called for the commercial limit
+for buildings to be increased to $20 million.32
+3.31 In the First Report, tabled in March 2023, the committee recommended that
+‘future reviews of the Cyclone Reinsurance Pool consider the sum insured limit’
+28 Mr Robb Preston, Assistant Secretary, Financial System Division, Department of the Treasury,
+Committee Hansard, 7 February 2025, p. 33.
+29 Australian Reinsurance Pool Corporation, Cyclone pool fact sheet,
+https://arpc.gov.au/resources/cyclone-reinsurance-pool-fact-sheet/ (accessed 18 February 2025).
+30 Townsville Chamber of Commerce, Insurance: The Market Failure of an Essential Service, tabled by Mr
+Andrew Willcox MP at the public hearing on 7 February 2025, p. 4.
+31 Townsville Chamber of Commerce, Insurance: The Market Failure of an Essential Service, tabled by Mr
+Andrew Willcox MP at the public hearing on 7 February 2025, p. 4.
+32 Mr Tyrone Shandiman, Chairperson, Australian Consumers Insurance Lobby, Committee Hansard,
+19 April 2024, p. 26.
+24
+for businesses.33 The Australian Government is yet to respond to this
+recommendation.
+Strata insurance
+3.32 It is a mandatory, legislative requirement across all jurisdictions to purchase
+strata insurance at full replacement value. According to the Insurance Council,
+this requirement is in place ‘to ensure consumers are protected from economic
+losses arising from damages and to minimise the risk of underinsurance’.34
+3.33 According to the ACCC, median strata prices for insurance premiums have
+fallen in some high-risk cyclone areas.35
+3.34 Insurance Australia Group stated at the April 2024 hearing that ‘for strata
+properties that have good building quality and are covered by the pool, there
+will definitely be savings passed through’.36
+3.35 At the April 2024 hearing, Allianz informed the committee that some of its
+policy-holders had seen savings of up to 40 or 50 per cent for strata insurance
+because of the pool, although average savings were far less than that amount.37
+3.36 At the April 2024 hearing, the Chairperson of the Australian Consumers
+Insurance Lobby (ACIL) acknowledged ‘promising developments … for large
+strata properties in Northern Australia’ which historically have had high
+insurance premiums. In particular, the ACIL reported that some larger strata
+buildings, whose insurance premiums were 10 to 20 times the cost of insurance
+premiums in other parts of Australia, had seen strata premium rates reduce to
+about three to four times the cost of insurance premiums in the rest of Australia.
+Even so, the ACIL pointed to ‘real problems in the strata space’ because of the
+limited number of insurers in the pool offering strata insurance for buildings
+with a sum insured of over $20 million.38
+33 Joint Select Committee on Northern Australia, First Report into the Cyclone Reinsurance Pool, March
+2023, p. 63 (Recommendation 7).
+34 Ms Leisha Watson, Director, Regulatory and Consumer Policy, Committee Hansard, 7 February 2025,
+p. 8.
+35 Mr Michael Eady, Australian Competition and Consumer Commission, Committee Hansard, 7
+February 2025, p. 29.
+36 Ms Christa Marjoribanks, Executive General Manager, Product, Pricing and Governance,
+Intermediated Insurance, Insurance Australia Group, Committee Hansard, 19 April 2024, p. 10.
+37 Mr James Fitzpatrick, Chief Technical Officer, Allianz Australia Limited, Committee Hansard, 19
+April 2024, p. 32.
+38 Mr Tyrone Shandiman, Chairperson, Australian Consumers Insurance Lobby, Committee Hansard,
+19 April 2024, p. 25.
+25
+3.37 The ACIL suggested that some insurers are not writing new businesses in strata,
+telling the committee that Allianz and Chubb ‘still refuse to underwrite new
+business in strata’. ACIL claimed that the ‘industry justifies this by essentially
+saying they might have to pay a claim, which of course is the entire purpose of
+why they’re in business’.39
+3.38 Where a body corporate in Queensland is unable to insure particular buildings
+for full replacement value, the body corporate is able to make an adjudication
+application for an alternative order.40
+3.39 While not directly raised in evidence to this inquiry, the committee is aware that
+in some instances, major strata properties valued at $15 million or more are not
+covered by the pool because they are unable to obtain standard insurance. Some
+of these properties may be underwritten by international underwriters who are
+not members of the pool.
+3.40 The Insurance Council informed the committee that from the perspective of the
+insurance industry, strata ‘insurance priced at full replacement value helps
+owners corporations afford the rebuild cost of their strata complex following an
+insured event and reduces the risk of underinsurance’. They further argued:
+Apartment owners have the benefit of sharing the cost of insurance between
+multiple lots of a strata complex, which helps to improve the affordability
+of strata insurance compared to other home buildings insurance. An
+insurance premium for a single lot of a strata complex is, on average, 32–26
+per cent lower than that of a detached home building.41
+3.41 The Insurance Council noted ‘bigger challenges … in some of the southern states
+around strata insurance, and it’s largely due to building quality and
+waterproofing’. Further, insurers ‘are seeing costs blow out enormously in strata
+claims, largely driven by water damage, and that is not just cyclone related.
+That’s across the country’. The Insurance Council pointed to recent work in New
+South Wales on building standards for strata, arguing that ‘other states need to
+start following suit to just bring about a level of confidence for underwriters that
+these apartment blocks … are going to be durable for the conditions that they’re
+being built for’. 42
+39 Mr Tyrone Shandiman, Chairperson, Australian Consumers Insurance Lobby, Committee Hansard,
+7 February 2025, p. 11.
+40 Insurance Council of Australia, answers to spoken and written questions on notice from the public
+hearing on 7 February 2025 (received 21 February 2025), p. 4.
+41 Insurance Council of Australia, answers to spoken and written questions on notice from the public
+hearing on 7 February 2025 (received 21 February 2025), p. 4.
+42 Mr Andrew Hall, Insurance Council of Australia, Committee Hansard, 19 April 2024, pp. 3–4.
+26
+3.42 In a similar vein, Suncorp also noted that ‘it’s fairly well known that there are
+some challenges in the whole strata insurance space which are outside cyclone
+pool-type issues’.43
+3.43 The ARPC will provide insurers with premium discounts for mitigation in strata
+buildings from April 2025.44
+The 48-hour rule
+3.44 As it currently stands, the pool covers the full duration of a cyclone as declared
+by the Bureau of Meteorology, regardless of how long a cyclone lasts, plus an
+additional 48 hours of cover after the cyclone is downgraded. The 48-hour
+stipulation is set out in delegated legislation.45
+3.45 The current industry standard allows insurers to recover the cost of event claims
+from private reinsurers up to a maximum of 168 hours, or seven days, from a
+point that an insurer chooses as the start of the event. Some insurers may
+purchase reinsurance contracts for more than 168 hours, depending on their
+commercial negotiations for how they place their risk internationally.46
+3.46 According to the Australian Government Actuary, the Australian Government
+initially decided on the 48-hour period because:
+ insurers wanted a clear start and end date to the period of coverage;
+ insurers wanted the statement on the end of a cyclone to be impartial and a
+scientific decision; hence, the decision that the Bureau of Meteorology
+would declare the beginning and the end of a cyclone event for the
+purposes of the pool; and
+ the available data and analysis suggested that the longer the period of time,
+the higher the likelihood that the resources of the pool would be drawn on
+for a broader geographic area, with the benefits of the pool spread across
+more policy holders paying lower premiums, who were not necessarily the
+reason why the pool was established.47
+43 Mr Andrew Huszczo, Suncorp, Committee Hansard, 19 April 2024, p. 13.
+44 Australian Reinsurance Pool Corporation, answers to written questions on notice, 12 February 2025
+(received 24 February 2025), p. 7.
+45 Dr Christopher Wallace, Chief Executive Officer, Australian Reinsurance Pool Corporation,
+Committee Hansard, 7 February 2025, p. 34.
+46 Mr Bradley Heath, Sure Insurance, Committee Hansard, 7 February 2025, p. 17; Mr David Carter,
+Royal Automobile Club of Queensland (RACQ), Committee Hansard, 7 February 2025, pp. 23, 26; Dr
+Christopher Wallace, Australian Reinsurance Pool Corporation, Committee Hansard, 7 February
+2025, p. 37.
+47 Mr Guy Thorburn, Australian Government Actuary, Department of the Treasury, Committee
+Hansard, 7 February 2025, p. 37.
+27
+3.47 At the April 2024 hearing, the ARPC informed the committee that ‘roughly 55
+per cent of flood exposure in Northern Australia is modelled as being included
+in the pool. The balance—the 45 per cent—is the part that needs to be reinsured
+by insurers into the global market’.48
+3.48 The Insurance Council did not have a view at the February 2025 hearing on
+whether to extend to seven days, suggesting only that such a change would
+increase the premiums the ARPC charges insurance companies.49 Previously,
+however, at the public hearing in April 2024, the Insurance Council suggested
+that, given the loss rate the insurance industry experiences in Northern
+Australia and the fact that the Government is not subsidising the pool, ‘it’s hard
+to see how any changes to the 48-hour rule would really, in effect, provide any
+relief from a premium perspective. But it’s something that could be
+modelled…’.50
+3.49 On the other hand, some insurers were strongly in favour of extending the
+period. For example, RACQ argued this would ‘align’ the pool with global
+reinsurance terms.51
+3.50 Similarly, Sure Insurance, which is not a member of the Insurance Council,
+called for the current 48-hour window of cover to be extended to 168 hours,
+suggesting that this would lead to further premium savings for customers. Sure
+Insurance pointed to its recent experience with cyclones to support this
+proposal:
+[There is a] need to ensure that there are no gaps between the cyclone pool
+coverage and what traditional reinsurance cover provides—essentially to
+ensure that customers are not paying twice. Unfortunately, our previous
+concerns have been highlighted in the Tropical Cyclone Jasper scenario.
+Sure holds the second-largest market share, we believe, in the Cairns home
+insurance market, and Sure Insurance losses from Jasper were over $94
+million. However, under the current 48-hour cover definition, only 22.8 per
+cent of that loss will be recovered from the pool. In comparison, had the 168-
+hour coverage period been in place, we estimate 99.3 per cent of the losses
+would have been recoverable from the pool ... The question is: how has this
+scenario impacted the cost of insurance for Sure customers? Unfortunately,
+the answer is in direct conflict with the government's current cost-of-living
+relief efforts, with premium increases of 20 plus per cent plus being
+48 Dr Christopher Wallace, Chief Executive Officer, Australian Reinsurance Pool Corporation,
+Committee Hansard, 19 April 2024, p. 37.
+49 Mr Andrew Hall, Insurance Council of Australia, Committee Hansard, 7 February 2025, p. 7.
+50 Mr Andrew Hall, Insurance Council of Australia, Committee Hansard, 19 April 2024, p. 3.
+51 Mr David Carter, Royal Automobile Club of Queensland (RACQ), Committee Hansard, 7 February
+2025, p. 23.
+28
+immediately requested by Sure's capacity providers when it was apparent
+that the majority of the loss would not be covered by the insurance pool.52
+3.51 RACQ informed the committee that 68 per cent of the claims made to it that
+were associated with the cyclone were not covered by the pool. RACQ noted
+that its earlier submissions had argued that one in two cyclones would not be
+‘substantially covered’ by the pool as designed, and pointed to the pool only
+covering one of the two most recent cyclones at the time of giving evidence
+(Tropical Cyclone Jasper versus Tropical Cyclone Kirrily).53
+3.52 At the April 2024 hearing, RACQ stated that it was ‘sensing … that the
+reinsurance markets are observing that the pool did not cover much of [Tropical
+Cyclone Jasper], so they now need to think about the residual risk. The residual
+risk we see in cyclone events is post the cyclone being a cyclone’.54
+3.53 Sure Insurance acknowledged that coverage of the pool depends on the event,
+noting that costs arising from Tropical Cyclone Kirrily were ‘100 per cent
+covered’. However, Sure informed the committee that the recent view of
+reinsurers from an overseas market was ‘they can’t give the discount that they
+would be able to give if it were the full 168 hours. They have to assume the
+worst-case scenario’. As such, if ‘certainty were created for reinsurers [around
+the pool covering a longer window of time], it’s quite clear from them that the
+price would be reduced’.55
+3.54 Sure Insurance argued that given the pool’s current surplus, ‘the annual average
+cost of adding the 168-hour provision can clearly be accommodated’. They
+informed the committee that under current reinsurance arrangements,
+customers will be subject to, on average, a $500-plus increase per policy, as
+compared with a $5 increase, on average, per policy, if the period of reinsurance
+the pool covers was extended to seven days after a cyclone is downgraded. In
+particular, ‘we can undertake that a five per cent increase in pool costs by
+extending the time coverage will result in a net premium benefit for Sure
+customers by avoiding some of the duplicated reinsurance costs our customers
+currently incur’.56
+3.55 Other insurers, such as Insurance Australia Group, also had most of their claims
+for Tropical Cyclone Jasper fall outside of the 48-hour period. However, on the
+matter of extending the 48-hour rule, Insurance Australia Group suggested that
+52 Mr Bradley Heath, Sure Insurance, Committee Hansard, 7 February 2025, p. 16.
+53 Mr David Carter, Royal Automobile Club of Queensland (RACQ), Committee Hansard, 7 February
+2025, p. 23.
+54 Mr David Carter, Managing Director and Group Chief Executive Officer, Royal Automobile Club
+of Queensland Limited, Committee Hansard, 19 April 2024, p. 17.
+55 Mr Bradley Heath, Sure Insurance, Committee Hansard, 7 February 2025, p. 17.
+56 Mr Bradley Heath, Sure Insurance, Committee Hansard, 7 February 2025, p. 16.
+29
+extending the rule would mean ‘a lot more flood damage. That would mean a
+lot more losses for us and in the flow on to the ARPC, which would mean, in
+consequence, higher insurance premiums from the ARPC back to us’. Insurance
+Australia Group argued that extending the 48 hours would ‘effectively’ mean
+that the Cyclone Reinsurance Pool would become ‘a flood pool … [W]e need to
+look at [flood affordability] holistically rather than simply extending the 48-hour
+limit’.57
+3.56 The broader question about whether the pool should be expanded to include
+flood is considered in Chapter 4.
+3.57 At the April 2024 hearing, Suncorp was of the view that ‘it would make sense’
+to expand coverage to accord roughly with reinsurance coverage, although ‘it’s
+probably not going to make a huge difference in cost to … the government or …
+to customers in terms of savings in premium. Cyclone Jasper was unusual …
+Most cyclones do downgrade very quickly and, in terms of material insurance
+losses, dissipate very quickly’.58
+3.58 QBE at the same hearing also reiterated its support for ‘further analysis and
+consideration by government to consider the 48 hours and whether that should
+be closer aligned to the seven days or similar effect that we see in commercial
+reinsurance markets’.59
+3.59 The committee in its First Report considered concerns from Allianz that
+extending the 48-hour period would mean ‘a dilution’ of the savings generated
+through the pool for people in Northern Australia, given the geographical scope
+of the pool could be expanded with cyclones tracking to the south over the
+extended period of time.60 At the hearing in April 2024, Allianz reiterated their
+view that extending the 48-hour period ‘will not deliver savings to high-cyclone-
+risk customers and is counter to the policy intent of improving affordability in
+these areas’. Allianz gave the following reasons for their position:
+ Extending the timeframe would effectively move claims further from
+cyclone affected areas, potentially as far south as Melbourne, thereby
+diluting savings.
+ Insurers are able to handle additional post-48-hour flood claims through
+their own funds and the private reinsurance market.
+ An extension of the 48-hour period would primarily be a flood pooling
+arrangement, but the pool’s design would not be effective for high-risk
+57 Mr George Karagiannakis, Insurance Australia Group, Committee Hansard, 19 April 2024, p. 7.
+58 Mr Andrew Huszczo, Suncorp, Committee Hansard, 19 April 2024, p. 12.
+59 For example, Mr Andrew Ziolkowski, QBE Insurance Australia Ltd, Committee Hansard, 19 April
+2024, p. 20.
+60 First Report on the Cyclone Reinsurance Pool, March 2023, p. 42.
+30
+flood customers, and no public modelling demonstrates that such an
+expansion would see premium savings for high cyclone risk.61
+3.60 Allianz also argued that the extension from 48 hours to seven days was more
+likely to lead to an increase in premium costs, rather than a decrease.62
+3.61 In response to this evidence, Sure Insurance’s Managing Director informed the
+committee that they had consulted with two senior global reinsurers who
+‘would have a contrary view to that … [W]e believe the change to 168 hours,
+certainly in our case, would have a direct and immediate effect on being able to
+reduce premiums. I can’t talk for Allianz’s business model; I can only talk for
+mine’.63
+3.62 In March 2023, the committee recommended in the First Report for this inquiry
+that the Australian Government, as part of the scheduled review of the
+legislation due to take place later in 2025, consider ‘the impact of the 48-hour
+clause on the cost of insurance premiums for Northern Australians, and the
+availability of insurance in the region … and adjust this clause if necessary’.64
+3.63 The Australian Government has not yet responded to the committee’s
+recommendation on the 48-hour rule. Treasury informed the committee at the
+February 2025 hearing that:
+We're conscious that one of the [committee’s] recommendations relates to
+the 48-hour rule, so, while there hasn't been a government response, we're
+obviously monitoring carefully the progress of this inquiry. The minister
+wrote to the ARPC to conduct some modelling on that issue, which the
+ARPC released in September of last year. So there has been activity in
+relation to your work. We continue to closely monitor commentary and
+developments in the pool … [T]here is an upcoming review … in 2025. That
+will be an opportunity to more thoroughly ventilate some of the issues that
+have been canvassed today.65
+3.64 According to the ARPC-commissioned modelling, a change from 48 hours to
+168 hours would likely cost the pool an additional $20 to $35 million per annum,
+with the additional cost comprising around five per cent of the pool’s current
+estimate of expected annual claims costs—in other words, the additional total
+61 Mr James Fitzpatrick, Chief Technical Officer, Allianz Australia Limited, Committee Hansard, 19
+April 2024, p. 31.
+62 Mr James Fitzpatrick, Chief Technical Officer, Allianz Australia Limited, Committee Hansard, 19
+April 2024, p. 31.
+63 Mr Bradley Heath, Sure Insurance, Committee Hansard, 7 February 2025, p. 18.
+64 First Report on the Cyclone Reinsurance Pool, March 2023, Recommendation 2, p. 59.
+65 Mr Robb Preston, Department of the Treasury, Committee Hansard, 7 February 2025, pp. 33–34.
+31
+premium that the pool would need to collect in aggregate to meet these
+increased costs.66
+3.65 As a result, the pool would likely need to change its premium rates and,
+potentially, its premium rating formula because ‘maintaining the current
+structure and premium rating parameters will not collect the additional
+premium needed to meet the increased cost’.67
+3.66 According to the modelling report, more policy holders would observe increases
+in their premium costs than those seeing decreases. However:
+ most policy holders would be offered very small increases, under $5 on
+average; while
+ policy holders benefiting from reductions would be likely to be offered
+much larger premium reductions, of $100 or more on average.68
+3.67 The report noted that the pool was designed to deliver the greatest benefit to the
+highest risk properties. Consumers in high flood risk regions, such as South East
+Queensland, would likely benefit the most from such a change. The report also
+referenced Northern New South Wales as an area subject to large exposure from
+cyclone-related flooding, suggesting that ‘consumers in these regions would
+stand to benefit the most from the increased coverage offset by modest premium
+increases across lower risk consumers’.69
+3.68 Mr Robb Preston from the Treasury informed the committee that if there was a
+large cyclone event, claims arising because of a change to 168 hours may ‘then
+exceed any capital buffers that ARPC has. In that case, it might lead to or
+increase the probability of the government guarantee to the ARPC being
+triggered’. In addition:
+The pool is required by law to be budget neutral in expectation. The board
+of the ARPC would have to change the premium rates, and that would have
+a distributional impact. I would crudely categorise it, my take on the
+modelling that ARPC conducted, as saying it reduced, slightly, the benefits
+that are available in high-wind risk areas and [would] increase the benefits
+that are available in the flood areas that are brought in through the extension
+… What our evidence is saying is that there would not be a large amount
+likely of additional aggregate savings that could be distributed. Extending
+the pool would change how the savings are distributed.70
+66 Dr Christopher Wallace, Australian Reinsurance Pool Corporation, Committee Hansard, 7 February
+2025, p. 34; Finity, Estimating Cyclone Pool Premiums with 168 Hour Coverage Period, September 2024,
+p. 2.
+67 Finity, Estimating Cyclone Pool Premiums with 168 Hour Coverage Period, September 2024, p. 2.
+68 Finity, Estimating Cyclone Pool Premiums with 168 Hour Coverage Period, September 2024, p. 2.
+69 Finity, Estimating Cyclone Pool Premiums with 168 Hour Coverage Period, September 2024, p. 2.
+70 Mr Robb Preston, Department of the Treasury, Committee Hansard, 7 February 2025, pp. 35, 36, 38.
+32
+3.69 The Australian Government Actuary considered that an extension to the 48-
+hour rule would be ‘unlikely on average to generate significant additional
+savings’. He did note, however, that ‘it’s a matter of judgement’ as to whether
+to extend the 48-hour period or not.71
+3.70 Similarly, Mr Preston from the Treasury was of the view that changing the 48-
+hour rule would not ‘lead to large improvements in affordability in general’.
+However, he believed that it would likely lead to benefits for high-risk
+properties and could see premium changes for some households of several
+hundred dollars.72
+3.71 The ARPC noted that the private reinsurance market typically provides cover
+for seven days overall, regardless of how long a cyclone is. The ARPC
+acknowledged that the current settings have created ‘some boundary issues for
+insurers. There is some friction around the way that they insure their flood
+risk’.73
+3.72 The ARPC considered that the ‘cost to the pool to increase the period is quite
+modest’. However, they argued that because the ‘legislation for the Cyclone
+Reinsurance Pool provides cover for the full duration of [a] cyclone plus an
+additional two days of cover’, the ‘consequence of changing that policy setting
+from a factual perspective is that the pool would cover a greater period of cover
+than would be covered in the international reinsurance markets’. In addition:
+… there are risks to the public, because the pool is made up of public funds.
+A consequence of extending the post-cyclone cover for flood will mean that
+areas of low cyclone risk will have much greater coverage of flood and there
+will be potential unintended consequences of having to extend payments
+into broader areas, which could cost the public funds.
+That's the reason why the legislation did try to contain the duration of the
+cyclone, to provide maximum savings to medium- and high-risk areas.74
+3.73 The ARPC made the following additional points on extending the 48-hour
+period:
+ The modelling was based on assumptions and projections, and actual
+outcomes will likely be different.
+ A longer period of cover would lead to more claims, with these likely to be
+from broader areas.
+71 Mr Guy Thorburn, Department of the Treasury, Committee Hansard, 7 February 2025, p. 37.
+72 Mr Robb Preston, Department of the Treasury, Committee Hansard, 7 February 2025, p. 36.
+73 Dr Christopher Wallace, Australian Reinsurance Pool Corporation, Committee Hansard, 7 February
+2025, p. 34.
+74 Dr Christopher Wallace, Australian Reinsurance Pool Corporation, Committee Hansard, 7 February
+2025, pp. 34–35.
+33
+ There would be an increased likelihood of the government balance sheet
+being drawn on for flooding in areas further from a cyclone.75
+3.74 With these caveats, the ARPC informed the committee that it ‘has the
+capabilities, systems and processes to be able to make that change’.76
+3.75 In January 2024, the Assistant Treasurer and Minister for Financial Services, the
+Hon Stephen Jones MP, stated that he had ‘an open mind’ about the 48-hour
+window.77
+75 Dr Christopher Wallace, Australian Reinsurance Pool Corporation, Committee Hansard, 7 February
+2025, p. 38.
+76 Dr Christopher Wallace, Australian Reinsurance Pool Corporation, Committee Hansard, 7 February
+2025, p. 35.
+77 The Hon Stephen Jones MP, Assistant Treasurer and Minister for Financial Services, Transcript:
+Interview with Amanda Cranston, 17 January 2024.
+
+Chapter 4
+Other measures to address insurance availability
+and affordability in Northern Australia
+4.1 While the focus of this inquiry is the operation and the implementation of the
+Cyclone Reinsurance Pool, the committee learned during the course of the
+inquiry that broader conditions, including inflation and severe weather events,
+are increasing the cost of insurance premiums, thereby eroding or offsetting the
+benefits that many consumers expected would arise once their insurer joined the
+pool.
+4.2 Evidence pointed to the importance of other measures to address the issues of
+insurance availability and affordability. The success of the pool is interwoven
+with the success, or otherwise, of these measures. As such, the committee
+considered in detail:
+ the appropriateness of taxes applied to insurance premiums—namely, GST
+and stamp duty;
+ whether the Cyclone Reinsurance Pool should be expanded to cover flood
+more broadly, or whether Northern Australia needs a flood reinsurance
+pool to cover extreme rainfall events that do not meet the definition of a
+cyclone; and
+ mitigation and resilience measures, including whether existing programs
+funded by the Australian Government are sufficient, and whether insurers
+are passing on premium decreases in response to mitigation and resilience
+measures that consumers carry out at the household and business level.
+How to improve insurance affordability
+4.3 Typically, measures to improve the affordability of insurance can be grouped
+into three categories:
+ cost-sharing, with all households contributing and lower-risk households
+cross-subsidising costs for higher risk households, as is the case with the
+Cyclone Reinsurance Pool;
+ risk reduction through mitigation and resilience measures, which reduce or
+shift the cost of premiums, and other measures to remove risk entirely, such
+as government-funded buyback programs to encourage residents to move
+from high-risk areas; and
+ government-funded measures, including subsidies and tax reforms.1
+1 Actuaries Institute, Funding for Flood Costs: Affordability, Availability and Public Policy Options, August
+2023, p. 15.
+35
+36
+4.4 Of the above measures, the general consensus is that risk reduction has the most
+meaningful, long-term impact for policy holders, but it may not always be
+possible, can be very expensive and may not immediately reduce the cost of
+insurance premiums. As such, policy-makers also typically consider cost
+sharing and government-funded measures.2
+4.5 As noted above, the pool is an example of a cost sharing method. However,
+according to the Insurance Council of Australia, the ‘pool is not a long-term
+solution to managing risk and reducing upward pressure on insurance
+premiums … The best way to address affordability problems is to reduce the
+risk in Northern Australia … through resilience and mitigation investment’.3
+4.6 Similarly, Insurance Australia Group acknowledged that ‘while reducing the
+cost of reinsurance is an important measure, the key lever is reducing or
+mitigating the level of risk faced by people and communities from severe
+weather’. Insurance Australia Group argued that reducing ‘risk protects lives,
+property and infrastructure and has a flow-on effect of reducing premiums’.4
+4.7 At the April 2024 hearing, the Royal Automobile Club of Queensland (RACQ)
+suggested that ‘the pool needs to further improve’ to ‘increase competition in
+North Queensland or Northern Australia and to lower the premiums for the
+sums insured’. RACQ argued that it is ‘very hard to achieve significant dollar
+savings in total premiums without finding a way to subsidise, on average’.5
+4.8 The Australian Competition & Consumer Commission (ACCC) told the
+committee in February 2025 that ‘the pool alone will not solve the very acute
+insurance affordability challenges facing some people in northern Australia’.
+The ACCC outlined areas of reform from their Northern Australia Insurance
+Inquiry that they considered could address the related issues of insurance
+affordability, under-insurance and non-insurance, including measures to:
+ make it easier for consumers to search for and compare products;
+ make it easier for consumers to choose the appropriate amount of cover for
+their property;
+ address conflicts of interest in the insurance market;
+ improve consumers’ rights; and
+2 Funding for Flood Costs: Affordability, Availability and Public Policy Options, p. 15.
+3 Insurance Council of Australia, answers to spoken and written questions on notice from the public
+hearing on 7 February 2025 (received 21 February 2025), p. 2.
+4 Mr George Karagiannakis, Executive Manager, Government and Industry Affairs, Insurance
+Australia Group, Committee Hansard, 19 April 2024, p. 7.
+5 Mr David Carter, Managing Director and Group Chief Executive Officer, Royal Automobile Club
+of Queensland, Committee Hansard, 19 April 2024, p. 18.
+37
+ reduce risk and build better homes.6
+4.9 In that report, the ACCC stated that they did ‘not consider government
+reinsurance pools or government insurers are well-suited to address
+affordability concerns in a targeted way’. Instead, the ACCC argued that
+reforms to stamp duty ‘have the potential to immediately relieve pricing
+pressure for all consumers in Northern Australia’. The ACCC proposed that the
+governments of Western Australia, the Northern Territory and Queensland levy
+stamp duties for home, contents and strata insurance with reference to the sum
+insured value, rather than the premium level. In addition, the ACCC proposed
+that part of the revenue collected from stamp duty be directed towards
+measures that would improve affordability for low-income consumers, or to
+fund mitigation works.7 Both of these proposals are addressed in further detail
+below.
+4.10 The ACCC further proposed that governments consider direct subsidies based
+on premium level and income eligibility requirements over other measures if
+they wish to provide immediate relief to consumers.8
+4.11 The ACCC also recommended that the Insurance Council of Australia work
+with the Australian Securities and Investments Commission (ASIC) to obtain
+ASIC approval for the General Insurance Code of Practice.9 Of note, the
+Insurance Council indicated to the House of Representatives Standing
+Committee on Economics in their 2023–2024 inquiry into insurers’ responses to
+2022 major flood claims that they intend to register the Code with ASIC. That
+committee also recommended that the Insurance Council seek to have ASIC
+approve the Code after the Insurance Council has implemented relevant
+recommendations of the Independent Review of the 2020 General Insurance
+Code of Practice.10
+Reforms to tax settings
+4.12 GST is applied to ten per cent of an insurance premium nationally. In addition,
+all states and territories impose stamp duty on insurance premiums except the
+6 Mr Michael Eady, General Manager, Insurance Monitoring, Australian Competition and Consumer
+Commission, Committee Hansard, 7 February 2025, pp. 29, 31; Australian Competition & Consumer
+Commission, Northern Australia Insurance Inquiry: Final Report, November 2020, pp. xv–xvi.
+7 Northern Australia Insurance Inquiry: Final Report, pp. xvi, xxiv.
+8 Northern Australia Insurance Inquiry: Final Report, p. xxiv.
+9 Northern Australia Insurance Inquiry: Final Report, p. xxvii.
+10 House of Representatives Standing Committee on Economics, Flood Failure to Future Fairness,
+October 2024, pp. 173, 194.
+38
+Australian Capital Territory.11 In Queensland, for example, stamp duty of nine
+per cent is charged on both the premium and GST attached to the premium of
+home and contents insurance policies.12
+4.13 In short, this means that when the cost of insurance premiums for consumers
+increases, the combined tax and duty applied to those premiums also increases,
+leading to a higher premium cost for consumers (in Queensland, around one-
+fifth of the total cost they pay for their premium) and greater revenue for
+governments.
+4.14 Insurers at the February 2025 hearing were united in their calls for reduced taxes
+on insurance premiums.13
+4.15 RACQ noted that ‘Northern Queensland is paying 50 per cent more in
+premiums [compared to the whole-of-Queensland average] and being charged
+higher taxes, but has lower sums insured’.14 RACQ proposed at the April 2024
+hearing that governments remove GST and stamp duty on insurance policies for
+owner-occupied residential properties in North Queensland, thereby reducing
+the gap in premium costs between North Queensland and the rest of the state.15
+4.16 On the matter of stamp duty, Sure Insurance suggested that the stamp duty
+formula be calculated on the basis of the sum insured (or the value of the home),
+rather than the cost of the premiums, noting that ‘much higher premiums are
+often associated not necessarily with high-value homes but with high-risk
+homes’. They argued that this would reflect how stamp duty on insurance was
+calculated in the Queensland market previously, which was based on the
+insured amount for the home rather than the cost of the premium.16
+4.17 Other witnesses called for the money generated by taxes on insurance premiums
+to be used to fund mitigation and resilience programs. This evidence is
+discussed later in this chapter.
+4.18 Tax reform to improve insurance affordability is not a new area of discussion.
+For example, the Senate Economics Legislation Committee, in its inquiry into
+11 Insurance Council of Australia, The Impact of Government Duties on Household Insurance, November
+2019, p. 5.
+12 Queensland Revenue Office, Insurance Duty Rates, 4 February 2025 (accessed 20 February 2025); Mr
+Andrew Hall, Insurance Council of Australia, Committee Hansard, 7 February 2025, p. 4.
+13 For example, Mr Andrew Hall, Insurance Council of Australia, Committee Hansard, 7 February 2025,
+p. 2.
+14 Mr David Carter, Royal Automobile Club of Queensland, Committee Hansard, 7 February 2025, p.
+23.
+15 Mr David Carter, Royal Automobile Club of Queensland, Committee Hansard, 19 April 2024, p. 17.
+16 Mr Bradley Heath, Managing Director, Sure Insurance, Committee Hansard, 7 February 2025, p. 21.
+39
+the bill that established the Cyclone Reinsurance Pool, received evidence calling
+for tax reform on insurance premiums.17
+4.19 As noted above, the ACCC in their Northern Australia Insurance Inquiry
+proposed that the governments of Western Australia, the Northern Territory
+and Queensland levy stamp duties for home, contents and strata insurance with
+reference to the sum insured value, rather than the premium level.18
+4.20 The House Standing Committee on Economics in its report on the Inquiry into
+Insurers’ Responses to 2022 Major Floods Claims recommended that ‘state and
+territory governments remove state-based taxes on general insurance products
+and shift the tax burden toward less distortionary taxes’. It also recommended
+that in this event, insurers commit to passing these savings on in full to
+consumers through lower premiums.19
+Establishment of a flood reinsurance pool
+4.21 Related to the 48-hour rule was the extent to which policy-holders are covered
+for flood damage caused by an initial cyclone that has been subsequently
+downgraded, and flood damage caused by separate lows that are not declared
+cyclone events. Committee members questioned witnesses closely at the April
+2024 hearing and the February 2025 hearing about whether the pool should be
+expanded to cover floods, or whether another mechanism should be introduced,
+separate to the Cyclone Reinsurance Pool, to address the issue of increased
+insurance premiums arising because of flooding caused by lows in Northern
+Australia.
+4.22 Some evidence raised concerns about the level of flood cover in Australia, with
+RACQ informing the committee that flood insurance is becoming quite
+expensive for over a million households in Australia, or 12 per cent of
+households. RACQ suggested that Australia could see a similar situation to the
+west coast of the United States of America (USA), where insurance companies
+refused to renew millions of policies for fire insurance in areas at high risk for
+wildfires, and the state has provided a last-resort insurance program with
+premiums costing more than the private market and providing less coverage.20
+4.23 The Insurance Council stated that one of the key issues with insurance that
+covers flooding is that homes in flood zones are largely in lower socio-economic
+17 Senate Economics Legislation Committee, Treasury Laws Amendment (Cyclone and Flood Damage
+Reinsurance Pool) Bill 2022 [Provisions], March 2022, pp. 25–27.
+18 Northern Australia Insurance Inquiry: Final Report, p. xxiv.
+19 Flood Failure to Future Fairness, p. xlvi (Recommendation 86).
+20 Mr David Carter, Royal Automobile Club of Queensland, Committee Hansard, 7 February 2025, p.
+27; Chris Isidore, ‘California’s insurance is in crisis. The solution will cost homeowners a ton’, CNN
+Business, 9 January 2025.
+40
+areas, with ‘a very large percentage of people that are already living below the
+poverty line, and they’ve got very low insurance penetration because they can’t
+afford it’.21 The Insurance Council considered that ‘we’re at a tipping point in
+Australia, where we have an option of going down the path’ of a flood pool ‘and
+spending billions of dollars covering flood risk’, arguing that this will be
+‘taxpayer dollars, and people who don’t live in flood zones would be covering
+it. Or we start making some hard decisions around land use planning and
+spending that money instead on flood mitigation’.22
+4.24 QBE noted there is ‘complexity’ to the question of whether to expand the
+Cyclone Reinsurance Pool to floods, telling the committee that for around ‘six
+per cent of properties that have a material exposure to flood broadly across
+Australia, there would be many questions and much analysis’ needed to answer
+the question of what the risks are and what ‘would be the most appropriate and
+effective funding mechanism’ . They considered that ‘mitigation will ultimately
+remain the best solution’, particularly ‘to keep those communities and families
+out of harm’s way’.23
+4.25 Suncorp considered that the evidence does not support expanding the Cyclone
+Reinsurance Pool to cover flood in general ‘because flood is clearly a national
+exposure rather than a northern Australia exposure’. They further noted that ‘an
+exposure of the government’s balance sheet to risk would be substantially
+greater for a flood than it would be for just a cyclone’.24
+4.26 Sure Insurance proposed that the government give consideration to establishing
+a high-risk reinsurance pool for floods, given that not all major flooding events
+in Northern Australia are caused by cyclones or ex-tropical cyclones. They noted
+that in many instances, quotes of high premiums to customers are ‘because of
+their extreme flood risk, not necessarily their extreme cyclone risk’,
+acknowledging that there is a percentage of people in this group who are not
+insured because they cannot afford the premium costs.25
+4.27 RACQ considered it ‘inevitable a flood pool will be required if the predictions
+about where the weather is headed come true’. However, they were of the view
+that ‘at the moment … the first and best and most important thing we can all do
+is improve resilience … We can’t change the weather, but what can we do to
+prevent people suffering the damage in the first place?’ RACQ argued that
+21 Mr Andrew Hall, Insurance Council of Australia, Committee Hansard, 7 February 2025, p. 3.
+22 Mr Andrew Hall, Insurance Council of Australia, Committee Hansard, 19 April 2024, p. 3.
+23 For example, Mr Andrew Ziolkowski, Chief Underwriting Officer, Australia Pacific, QBE Insurance
+Australia Ltd, Committee Hansard, 19 April 2024, p. 21.
+24 Mr Andrew Huszczo, Appointed Actuary and Reinsurance Executive General Manager, Suncorp,
+Committee Hansard, 19 April 2024, p. 13.
+25 Mr Bradley Heath, Sure Insurance, Committee Hansard, 7 February 2025, p. 21.
+41
+without appropriate resilience measures, ‘a pool will probably become a
+necessary solution’. RACQ considered that such a pool, if designed like the
+Cyclone Reinsurance Pool, would see limited benefits in premiums, though
+likely improve competition and the accessibility of insurance.26
+4.28 At the hearing in April 2024, the Australian Consumers Insurance Lobby
+proposed a national pool covering terrorism, cyclone and flood. However, their
+chairperson emphasised the importance of the current ‘pool working … [G]et
+this right for cyclone and then explore the issue of flood at a later date. But, right
+now, we don’t think the pool on the cyclone issue is working in its best capacity.
+It really just needs some tweaking ….’27
+4.29 The Actuaries Institute, in an analysis on policy options to address flood
+insurance unaffordability, suggested that flood risk ‘is highly localised and
+disproportionately affects a relatively small number of households’, who often
+experience affordability pressures. Conversely, cyclone risk tends to be more
+geographically widespread without differentiation between lower or higher
+socio-economic areas.28
+4.30 Further, most policyholders who have little or no flood risk pay no flood
+premium. The Actuaries Institute argued that if a flood pool only shared risk
+between policy holders who have meaningful exposure to flood risk, and
+therefore pay part of their premium to cover for flood risk, such a small group
+would be unlikely to significantly improve affordability given its size. However,
+the Institute did acknowledge that ‘Australian homeowners may be willing to
+accept some level of cross-subsidy and community rating, particularly if it is
+temporary in nature’, given there is precedent for similar aspects in other
+schemes, such as Compulsory Third Party motor insurance and private health
+insurance.29
+4.31 Nonetheless, the Actuaries Institute was of the view that if flood was included
+in the pool, the capital cost savings from the low-risk households would be a
+fraction of the total premiums from low and medium flood risk households, and
+therefore grossly insufficient to meaningfully reduce premiums for all
+households with high flood premiums. In particular, the Actuaries Institute
+suggested that:
+… if the 171,000 high flood risk and affordability stressed households with
+a total estimated flood premium of $1.5 billion per annum (after allowing
+26 Mr David Carter, Royal Automobile Club of Queensland, Committee Hansard, 7 February 2025, p.
+27.
+27 Mr Tyrone Shandiman, Chairperson, Australian Consumers Insurance Lobby, Committee Hansard,
+19 April 2024, p. 27.
+28 Funding for Flood Costs: Affordability, Availability and Public Policy Options, p. 5.
+29 Funding for Flood Costs: Affordability, Availability and Public Policy Options, pp. 5, 19–20.
+42
+for the impact of the existing Cyclone Pool) were to be fully insured, each of
+these households would have to pay an average flood risk premium of
+$8,800. This is likely to be considered unaffordable by many. The cross-
+subsidy required to reduce this to an affordable level will therefore be very
+high.30
+4.32 The Actuaries Institute noted that if a multi-peril pool were considered to cover
+flood and other disasters, such as bushfires and cyclone, it:
+… could also be more equitable if it is considered households facing high
+insurance affordability stress should be protected irrespective of the type of
+peril they face. While this would broaden the coverage and increase the cost
+of the pool, the benefits, as well as the costs, would be more widely shared.
+In addition, a multi-peril pool could derive diversification benefit across
+coverage of different perils compared to the aggregate cost of multiple
+single-peril pools.31
+Views of other parliamentary committees on a flood reinsurance pool
+4.33 This is not the only recent inquiry to receive evidence calling for the expansion
+of the Cyclone Reinsurance Pool to cover other disasters.
+4.34 For example, the Senate Select Committee on the Impact of Climate Risk on
+Insurance Premiums and Availability, in its final report tabled in November
+2024, ‘heard from a wide range of stakeholders who support[ed] the expansion
+of an improved reinsurance pool to cover other regions and types of disasters’.32
+4.35 The House of Representatives Economics Standing Committee (Committee on
+Economics) undertook an inquiry into insurers’ responses to the 2022 major
+flood claims. The inquiry’s October 2024 report, Flood failure to future fairness,
+noted that many inquiry participants supported further investigation into the
+feasibility of a reinsurance pool for flood, including the Australian Insurance
+Consumers Lobby, Disaster Legal Help Victoria, Ballina Shire Council, Financial
+Rights Legal Centre, CHOICE, Consumer Action Law Centre, Westjustice, and
+Legal Aid Queensland.33
+4.36 The report noted advice from the Productivity Commission that Australian
+governments should ‘avoid expansion of climate related insurance sector
+interventions, as it risks subsidising the movement of individuals, households
+and businesses into harm’s way, and increasing overall adaptation costs’.34
+30 Funding for Flood Costs: Affordability, Availability and Public Policy Options, pp. 18, 19.
+31 Funding for Flood Costs: Affordability, Availability and Public Policy Options, p. 18.
+32 Senate Select Committee on the Impact of Climate Risk on Insurance Premiums and Availability,
+Final Report: Impact of Climate Risk on Insurance Premiums and Availability, November 2024, p. 52.
+33 Flood Failure to Future Fairness, pp. 296–297.
+34 Flood Failure to Future Fairness, p. 299.
+43
+4.37 However, ultimately the Committee on Economics found that ‘the number of
+households and businesses at risk of not being able to afford flood insurance
+will increase over time as major floods become more common and insurers
+continue to reassess their comfort with flood risk exposure’. Because of this, the
+committee was of the view that ‘government intervention may be necessary to
+improve the affordability of flood insurance’ as long as the interventions occur
+where ‘accompanying policy measures limit and, over time, reduce the
+underlying risk’.35
+4.38 The Committee on Economics recommended the Australian Government
+consider ‘the appropriateness of a government supported reinsurance
+arrangement’ for flood insurance, based on the following principles (among
+others):
+ Flood insurance should be available to all Australian homeowners and body
+corporate lot owners at an affordable price, with conditions.
+ Any scheme involving public funding devoted to a reinsurance pool or
+subsidies should be phased out over time, in accordance with ongoing
+investment in mitigation to reduce the underlying risk.
+ Federal and state governments should commit to ongoing investment in
+community mitigation, including a guaranteed minimum annual
+investment level and the development of rigorous business cases.
+ Households and small businesses should be provided with information on
+mitigation options and their premiums should be reduced immediately
+when they undertake such mitigation.36
+4.39 That inquiry received evidence from Allianz on the forms a national flood
+reinsurance facility could take, including the possibility of expanding the
+Cyclone Reinsurance Pool to include cover for all high-risk flood nationally. The
+report examined views on whether the pool should only cover existing
+properties, or just properties within areas of coverage, to incentivise property
+development only in areas that are not at high risk of flooding. Of note, however,
+insurers and reinsurers who gave evidence to that inquiry were not in favour of
+government intervention to reduce premiums if this reduction was not driven
+primarily by efforts to reduce risks, such as through mitigation. Several global
+reinsurance providers considered premium reductions should only eventuate if
+such a pool was set up to put pressure on risk reduction.37
+35 Flood Failure to Future Fairness, pp. 307–310.
+36 Flood Failure to Future Fairness, pp. xlii–xliii (Recommendation 70).
+37 Flood Failure to Future Fairness, pp. 296–299.
+44
+4.40 Of relevance to this inquiry, the Committee on Economics in its report also
+recommended:
+ the Australian Government move towards a national, centralised, public-
+facing portal containing flood risk data at the household level for all
+households and small businesses, all land being considered for release for
+development, and land already released but not yet developed;
+ the Australian Government commission research into effective ways of
+communicating flood risk to communities;
+ the Australian Government investigate the advantages and risks of enabling
+access to the Home Equity Access Scheme38 for resilience improvements by
+people who cannot afford or access flood cover;
+ the Australian Government ensure funding of at least $200 million per year
+ongoing for community level mitigation;
+ a climate financing framework be developed for government mitigation and
+adaptation funding, to create incentives for public sector and private sector
+investment in mitigation and resilience;
+ the General Insurance Code of Practice be amended to require insurers to
+consider relevant property-level mitigation measures in new or renewing
+insurance policies and to demonstrate how the proposed premium
+reasonably reflects those measures, with the Code to be registered with
+ASIC and the Treasurer to direct a regulator to review insurers’ compliance
+with this clause; and
+ state and territory governments develop buyback and resilience programs
+for households with very high flood risk where alternative mitigation
+measures are unlikely to manage the risk, with the Australian Government
+to consider working with the state and territory governments, including
+through co-funding models.39
+4.41 The Australian Government has not yet provided a formal response to that
+report.
+Overseas experiences of a flood pool
+4.42 In considering the merits of a flood pool and whether the Cyclone Reinsurance
+Pool should be expanded to cover flood risks, Australia could look to the
+experiences of government intervention in flood markets overseas, notably in
+the United Kingdom (UK) and the United States of America (USA).40
+38 The Home Equity Access Scheme allows older Australians to access an Australian Government
+loan by using the equity in their home or other Australian real estate. See Department of Social
+Services, Home Equity Access Scheme, 28 November 2024 (accessed 27 February 2025).
+39 Flood Failure to Future Fairness, pp. xiv, xl–xli, xliv, xlv (Recommendations 63, 64, 67, 74, 75, 76, 81)
+40 Flood Failure to Future Fairness, p. xiv.
+45
+4.43 The UK Flood Re Scheme raises £135m every year by requiring every insurer
+that offers home insurance in the UK to pay into the scheme, which then covers
+the flood risks in home insurance policies. The scheme operates behind the
+scenes, where insurers can choose to pass the flood risk element of an individual
+policy to the scheme for a fixed price. When a valid claim for flooding is made
+by a consumer, the insurer pays the claim and then seeks reimbursement from
+the Flood Re fund.41
+4.44 The overall purpose of the scheme is to ‘promote the availability and
+affordability of household insurance for those most at risk of flooding’ and
+‘manage, over its 25-year lifetime, the transition of the market to risk reflective
+pricing for home insurance for these households’. Notably, this scheme is not
+intended to be permanent and has a 25 year lifespan.42
+4.45 The second five-year (quinquennial) review of the scheme, released in July 2024,
+found that the scheme overall ‘has continued to serve its purpose very well and
+is continuing to meet its statutory objectives’.43
+4.46 Flood Re Scheme has a Build Back Better (BBB) program which reimburses
+insurers for costs relating to claims for repairs up to a value of £10 000 above the
+cost of like-for-like replacement. The intention of the program is to incentivise
+the uptake of property level flood resilience and adaptation measures.44
+4.47 The scheme is seeing increasing uptake by households. Around one-third of
+claims submitted to Flood Re for three UK storms in 2023–24 included BBB
+provisions, though BBB usage varied significantly among insurers, ranging
+from 4 to 56 per cent.45
+4.48 The Insurance Council noted that the UK consumer base is around 60 million
+people, while in Australia the consumer base is around eight or nine million
+people. However, the Insurance Council indicated that the number of homes
+eligible at high risk of flood would be around the same, meaning an Australian
+flood pool would ‘have a much, much higher cost base to cover [a pool] than the
+UK does. They’re the sorts of design choices governments will have to weigh
+up, because ultimately it will invariably cost people who don’t live in flood
+zones a lot of money’. Even so, the Insurance Council was in favour of the
+following elements of Flood Re:
+41 Flood Re Limited, How Flood Re works, www.floodre.co.uk/how-flood-re-works/ (accessed 20
+February 2025).
+42 Flood Re Limited, The Quinquennial Review July 2024, pp. 6–7.
+43 The Quinquennial Review July 2024, p. 9.
+44 The Quinquennial Review July 2024, pp. 7–8.
+45 Katie Johnson, ‘Flood Re demonstrates resilience amidst record number of claims’, Today’s
+Conveyancer, 24 July 2024.
+46
+ Its time limited nature.
+ No new properties can enter the scheme.
+ It is designed to reinvest in resilience and mitigation and then sunset.46
+4.49 The USA has the National Flood Insurance Program (NFIP), which is managed
+by the Federal Emergency Management Agency (FEMA) and is delivered to the
+public by a network of more than 50 insurance companies and the NFIP Direct.
+Through the NFIP, flood insurance is available to anyone living in one of the
+almost 23 000 participating NFIP communities.47
+4.50 A report published in a US economic journal found that since the creation of the
+NFIP, the US government paid out over US$51 billion to cover flood losses, with
+almost half of these payouts going to just 25 counties, which are also among the
+fastest growing counties by population. The report ultimately concluded:
+Our findings show that population increases in flood-prone areas as a direct
+response to community enrollment into the NFIP. Moreover, we provide
+evidence of induced risk taking by demonstrating that the NFIP causes
+larger population increases in historically riskier areas. Thus, our findings
+suggest that the private benefit households receive in the form of a reduction
+in potential risks produces adverse behavior, imposing significant external
+costs.48
+4.51 It should be noted that according to the Insurance Council, ‘the US will give you
+plenty of examples of what you should never do. In the general insurance
+market now, because of interventions like pools and the rest, most major
+insurers in California, because of wildfire and flood risk, are no longer writing
+new policies’. In particular, the Insurance Council argued that US schemes have
+functioned as ‘a Trojan Horse for developers’ to continue development in high-
+risk areas.49
+Mitigation and resilience measures
+4.52 The committee heard that mitigation and resilience are the number one factor,
+over the long-term, to reducing the cost of insurance. QBE Insurance, for
+example, stressed the importance of reducing, not masking, underlying risk ‘so
+that the impacts of natural disasters are lessened’.50
+46 Mr Andrew Hall, Insurance Council of Australia, Committee Hansard, 19 April 2024, pp. 4–5.
+47 Federal Emergency Management Agency, Flood Insurance, www.fema.gov/flood-insurance
+(accessed 21 February 2025).
+48 Abigail Peralta and Jonathan B. Scott, ‘Does the National Flood Insurance Program Drive Migration
+to Higher Risk Areas?’, Journal of the Association of Environmental and Resource Economists, Vol 11, No
+2, March 2024, https://doi.org/10.1086/726155.
+49 Mr Andrew Hall, Insurance Council of Australia, Committee Hansard, 19 April 2024, pp. 4–5.
+50 For example, Mr Andrew Ziolkowski, QBE Insurance Australia Ltd, Committee Hansard, 19 April
+2024, p. 20.
+47
+4.53 Around 97 per cent of disaster funding is after an event.51 As the Insurance
+Council noted at the April 2024 hearing, ‘there is no better claim than the one
+that doesn’t need to happen’.52
+4.54 Governments in Australia have recognised the importance of resilience and
+mitigation and provided funding for programs to address these areas. These
+programs include:
+ the Disaster Ready Fund;
+ the Hazards Insurance Partnership and Strategic Insurance Projects;
+ the Insurance Affordability and Natural Hazards Risk Reduction Taskforce;
+ the Resilient Homes Fund; and
+ the Strata Resilience Program.
+Disaster Ready Fund
+4.55 The Australian Government has provided up to a billion dollars through the
+Disaster Ready Fund, over five years from 1 July 2023. Projects funded through
+the Disaster Ready Fund address the physical and social impacts of disasters
+caused by climate change and other natural hazards on communities. The Fund
+is co-administered with state and territory government agencies responsible for
+emergency management. Co-contributions are required, either by the agency,
+the applicant or the delivery partners.53
+4.56 While supportive of the Disaster Ready Fund, Insurance Australia Group’s
+position was that the Disaster Ready Fund be ‘a 10-year rolling program’, noting
+that relocation of residents living in legacy homes in flood areas would require
+a multi-billion dollar program over a long period of time.54
+Hazards Insurance Partnership and Strategic Insurance Projects
+4.57 The Australian Government has allocated $22.6 million over four years through
+the Hazards Insurance Partnership and Strategic Insurance Projects to identify
+where insurance is an issue in high-risk areas, and develop policy solutions to
+reduce both risk and cost. The Hazards Insurance Partnership brings the
+Australian Government and the insurance industry together to discuss how to
+lower risk and better ways to collect and share information, while the Strategic
+Insurance Projects include:
+51 Mr George Karagiannakis, Insurance Australia Group, Committee Hansard, 19 April 2024, p. 9.
+52 Mr Andrew Hall, Insurance Council of Australia, Committee Hansard, 19 April 2024, p. 1.
+53 National Emergency Management Agency, Disaster Ready Fund, 22 January 2025 (accessed 20
+February 2025); See National Emergency Management Agency, Disaster Ready Fund Round One
+Guidelines 2023–24, p. 14; National Emergency Management Agency, Disaster Ready Fund Round Two
+Guidelines 2024–25, p. 16; National Emergency Management Agency, Disaster Ready Fund Round
+Three Guidelines 2025–26, p. 10.
+54 Mr George Karagiannakis, Insurance Australia Group, Committee Hansard, 19 April 2024, p. 9.
+48
+ creating a national library of actions individuals and communities can take
+to reduce their risks;
+ exploring public-private partnerships to incentivise and deliver risk-
+reduction initiatives;
+ collecting information about insurance affordability and under-insurance;
+and
+ reviewing standard insurance cover and definitions.55
+4.58 Material produced by the Hazards Insurance Partnership include a booklet on
+making homes storm and cyclone resilient with suggestions, along with
+estimated cost, covering areas such as:
+ roof reinforcements, using a hip roof design with appropriate pitch, strong
+tie-downs and cyclone-related materials;
+ impact-resistant windows, using laminated glass windows or storm
+shutters;
+ reinforced garage doors to withstand high wind pressures; and
+ cyclone ties, bolts and straps to connect roofs to walls, walls to floors and
+floors to foundations.56
+4.59 The booklet also suggests that policy-holders ask their insurer how the Cyclone
+Reinsurance Pool affects their insurance, how their insurer defines ‘storm
+damage’, what additional coverage options are available for cyclone-related
+flood protection, and how the policy-holder can reduce their premiums by
+making their home more resilient to storms and cyclones. The booklet provides
+advice to policy-holders on what to check is included in their policy, such as
+whether:
+ the sum insured is sufficient to rebuild their home and replace all contents;
+ the policy provides for temporary accommodation in the event a home is
+uninhabitable; and
+ the policy has an ‘averaging’ or co-insurance’ clause, as these terms may
+reduce a payout if the policy-holder is under-insured.57
+Insurance Affordability and Natural Hazards Risk Reduction Taskforce
+4.60 The Australian Government announced in May 2024 that it would establish the
+Insurance Affordability and Natural Hazards Risk Reduction Taskforce ‘to
+develop an integrated, cross-government approach to minimising the impacts
+55 National Emergency Management Agency, Hazards Insurance Partnership, 8 September 2024
+(accessed 20 February 2025).
+56 National Emergency Management Agency, Your Storm and Cyclone Resilient Home: Your Guide to
+Building, Maintaining and Insuring a Resilient Home, pp. 5–6 (accessed 20 February 2025).
+57 Your Storm and Cyclone Resilient Home: Your Guide to Building, Maintaining and Insuring a Resilient
+Home, pp. 17–18.
+49
+of disaster on the community and help address insurance costs driven by more
+frequent and intense weather events’. Issues the Taskforce is examining include:
+ community-level risk reduction;
+ hazard risk reduction;
+ economic impacts of underinsurance;
+ standardising natural hazard definitions; and
+ other near-term solutions to improve affordability.58
+Resilient Homes Fund
+4.61 The Queensland and Australian Governments’ Resilient Home Fund (the fund)
+comprised $741 million of funding to repair (enhance resilience), raise, demolish
+and rebuild homes impacted by the 2021–2022 flood event across 39 local
+government areas in Queensland. It also offered voluntary home buy-backs for
+the most impacted or high-risk homes. The fund provided financial assistance
+to:
+ incorporate flood resilient design and materials in liveable rooms or areas;
+ raise or relocate services essential to the continued liveability of the home;
+ raise a home to reduce the impacts of future flood events; or
+ demolish and rebuild or relocate a home above the assessed flood level and
+2021–2022 flood event level.59
+4.62 RACQ provided the committee with an example of how the Resilient Homes
+Fund had led to improved resilience:
+The Resilient Homes Fund has allowed us, in areas of South-East
+Queensland, with support from government funding, when we go back and
+do those claims to spend that extra money to lift those power points up to a
+place where it's less likely, the next time that property floods—hopefully, it
+won't, but next time—they won't have such a significant experience. They
+won't have to strip it all out.60
+4.63 Suncorp and QBE expressed their support for the proposal that the Resilient
+Homes Program be continued and provide support on an ongoing, rather than
+a one-off, basis.61
+58 The Hon Stephen Jones MP, Assistant Treasurer and Minister for Financial Services, Media Release:
+Insurance Affordability and Natural Hazards Risk Reduction Taskforce, 31 May 2024 (accessed 20
+February 2025).
+59 Queensland Government, About the Resilient Homes Fund, 19 December 2024,
+www.qld.gov.au/housing/buying-owning-home/financial-help-concessions/resilient-homes-
+fund/overview/about (accessed 19 February 2025).
+60 Mr David Carter, Royal Automobile Club of Queensland, Committee Hansard, 7 February 2025, p.
+24.
+61 Mr Andrew Huszczo, Suncorp, Committee Hansard, 19 April 2024, p. 16; For example, Mr Andrew
+Ziolkowski, QBE Insurance Australia Ltd, Committee Hansard, 19 April 2024, p. 24.
+50
+4.64 Allianz also stated that they ‘would fully support the extension of programs’
+similar to the Resilient Homes Fund ‘across the whole of Australia, on an
+ongoing basis’.62
+Strata Resilience Program
+4.65 The Strata Resilience Program (Strata program) was similarly funded by the
+Queensland and Australian Governments ‘in the area from 100 kilometres of the
+coastline from Rockhampton, north to the Torres Strait and west to the
+Queensland/Northern Territory border – to improve the resilience of … strata
+properties against cyclones’. The Strata program provided funding of 75 per
+cent of the costs of approved eligible resilience strategies, up to $15 000 per
+residential tenancy to a maximum grant value of $150 000 per body corporate.
+Funding could cover resilience upgrades including:
+ roof upgrades;
+ window protection;
+ external solid core doors;
+ garage doors;
+ box gutter overflows;
+ old style louvres; and
+ cyclone preparedness planning.63
+Evidence to this inquiry on mitigation and resilience
+4.66 In January 2024, the Assistant Treasurer and Minister for Financial Services, the
+Hon Stephen Jones MP, stated that in 2023 he had a conversation with global
+insurers about how Australia could avoid market failure. According to the
+Assistant Treasurer, their advice was that Australia has ‘five years, it’s about
+mitigation, which is about firming up your infrastructure, ensuring that your
+houses are built to better standards’ and development approvals are not granted
+for high-risk areas.64
+4.67 Insurers at the 7 February 2025 hearing were all in favour of increased
+mitigation. For example, the Insurance Council argued that the pool ‘works best
+in concert with policies that reduce risk, such as programs to support household
+resilience to cyclones’.65
+62 Mr Nicholas Scofield, Chief Corporate Affairs Officer, Allianz Australia Limited, Committee
+Hansard, 19 April 2024, p. 32.
+63 Queensland Government, About the Strata Resilience Program, 19 June 2024,
+www.qld.gov.au/housing/buying-owning-home/financial-help-concessions/strata-resilience-
+program/about-the-strata-resilience-program (accessed 19 February 2025).
+64 The Hon Stephen Jones MP, Assistant Treasurer and Minister for Financial Services, Transcript –
+Interview with Murray Jones, 17 January 2024.
+65 Mr Andrew Hall, Insurance Council of Australia, Committee Hansard, 19 April 2024, p. 1.
+51
+4.68 RACQ informed the committee that the ‘preferred course’ to reduce the cost of
+insurance ‘remains eliminating the social and economic cost of flooding by
+taking as much risk out of the system as possible’. RACQ was of the view that
+progress ‘by all levels of government on prevention and resilience has been
+inadequate to date’.66
+4.69 Sure Insurance informed the committee that because of improvements to
+building standards, ‘a large stock of homes out there’ have been subject to
+significantly more damage than newer homes:
+… in previous cyclones we have seen the damage ratio between pre- and
+post-1982 constructed homes – that is, homes with or without cyclone
+standards – being a factor of four to one. A pre-1982 home will incur four
+times the amount of damage of that of a post-1982 claim in some cyclones.67
+4.70 The Insurance Council argued that for the pool to be more effective, ‘there needs
+to be a clear link reducing risk through increased investment in resilience and
+mitigation’, arguing that:
+… public reinsurance pools established without any link to mitigation and
+resilience measures only serve to mask risk, placing more people in harm's
+way and increasing exposure in the long term. This ultimately builds a
+growing problem for governments and communities down the track, as
+we've seen in other markets like the US.68
+4.71 Policy solutions to improve resilience and mitigation that the Insurance Council
+pointed to included:
+ better land use planning;
+ better building standards;
+ investment in community mitigation infrastructure; and
+ household-level risk mitigation.69
+Funding government resilience and mitigation programs
+4.72 As outlined below, proposals that witnesses put forward to increase mitigation
+and resilience included:
+ the Australian Government providing incentives for other levels of
+government to increase uptake of resilience and mitigation;
+ using tax collected on insurance premiums to fund mitigation programs;
+and
+ using the pool’s surplus to fund resilience and mitigation programs.
+66 Mr David Carter, Royal Automobile Club of Queensland, Committee Hansard, 7 February 2025, p.
+23.
+67 Mr Bradley Heath, Sure Insurance, Committee Hansard, 7 February 2025, p. 18.
+68 Mr Andrew Hall, Insurance Council of Australia, Committee Hansard, 7 February 2025, p. 1.
+69 Mr Andrew Hall, Insurance Council of Australia, Committee Hansard, 7 February 2025, p. 2.
+52
+4.73 The Insurance Council suggested that particular ‘mitigation measures that do
+have a significant return on investment … are just not being funded’. They
+argued that ‘year on year, state governments are collecting near on $7 billion in
+stamp duty’. However, we ‘are not seeing $7 billion go back into resilience and
+mitigation measures in this country’. The Insurance Council proposed that the
+Australian Government should provide money for local councils to work on the
+transition to more resilient homes, arguing:
+I think what we’ve got to do is incentivise local councils to have a plan on
+how to do managed buybacks so that residents that haven’t moved aren’t
+left living in suboptimal conditions … [A]ll of this needs to be linked with
+the plan that, while insurance affordability and availability is important,
+living in a safe home is what really matters. If you’re living in a home that’s
+got a 41 per cent chance of fully flooding in the next 10 years and
+government knows it, I think it’s incumbent on government to help those
+people find a way out of that….70
+4.74 The Insurance Council suggested that state governments are currently not
+incentivised to address disaster resilience, arguing that the Commonwealth is:
+… the insurer of last resort. When these major floods and disasters happen,
+the Commonwealth is often called upon. It's the first to put its hand in its
+pocket to provide the Army and to provide all of the other things on top of
+the state emergency response. Once it goes over a certain amount, like we
+saw with the Resilient Homes Fund, it's the Commonwealth taxpayer who
+is paying for the buybacks, who is paying for the house razings. There needs
+to be a really thorough examination of Commonwealth-state financial
+relations to try to either incentivise the states to put more money into
+preparing communities against natural disaster or for the Commonwealth
+to take it all on and deal with it. But we're in this problem where three levels
+of government are involved and one level of government is receiving all the
+revenue—that's the middle level—and the top level of government is left to
+pick up the bill.71
+4.75 Sure Insurance argued that retrofitting older homes to cyclone standards,
+particularly subsiding the cost of roof replacement, would have a considerable
+impact on their risk profiles. Sure Insurance called for money for mitigation in
+this area, suggesting the surplus from the pool could be used to this effect, as
+well as stamp duty.72
+4.76 The proposal that the pool’s surplus could be used to fund particular mitigation
+measures is discussed separately below.
+4.77 RACQ proposed that a ‘significant proportion of GST and stamp duty on
+premiums, particularly in northern Australia but also in flood-prone areas more
+broadly in Australia’, be put ‘into resilient homes funds’. They also expressed
+70 Mr Andrew Hall, Insurance Council of Australia, Committee Hansard, 7 February 2025, p. 4.
+71 Mr Andrew Hall, Insurance Council of Australia, Committee Hansard, 7 February 2025, p. 5.
+72 Mr Bradley Heath, Sure Insurance, Committee Hansard, 7 February 2025, p. 18.
+53
+support for the proposal that the money generated from GST and stamp duty
+be used for broader mitigation efforts.73
+4.78 The Australian Consumers Insurance Lobby (ACIL) considered that ‘there is
+enough evidence now’ to show that mitigation ‘will reduce claims in the
+Cyclone Reinsurance Pool’ and ‘it’s time to now just do the implementation and
+actually make buildings resilient’. However, they also called for an actuarial
+report to conduct a cost-benefit analysis of mitigation, arguing that ‘it is
+important … as policymakers, to know what the costs and benefits of any
+mitigation are, because there’s no point spending money if you’re not going to
+get a return’.74
+4.79 The ACIL also agreed with the proposal of an ongoing program to make homes
+more resilient, suggesting that such a program be funded in part through
+premiums collected through the pool (below), and through stamp duty revenue
+collected by state governments.75
+4.80 The ARPC advised the committee that risk mitigation is a ‘key focus area’ for
+them. Further, the ‘total discount for mitigation applied to in-force home
+insurance premiums as at 31 March 2024 was $5.8 million, and ARPC will
+pursue further initiatives to improve take-up rates’.76
+4.81 The ARPC reported in April 2024 that its premium formula provides discounts
+for the following mitigation measures:
+ Roller door bracing (for properties built before 2012).
+ Window protection measures.
+ Tied down roof.
+ New/replaced roof (for properties built before 1982).
+ Elevated ground floor.77
+4.82 At that time, ‘a small proportion of Home Buildings reinsured by the cyclone
+pool have completed mitigation and are accessing the cyclone pool premium
+discount allowances’. The ARPC expected ‘these figures to increase as insurers
+73 Mr David Carter, Royal Automobile Club of Queensland, Committee Hansard, 7 February 2025, pp.
+24, 28.
+74 Mr Tyrone Shandiman, Australian Consumers Insurance Lobby, Committee Hansard, 7 February
+2025, pp. 12, 13.
+75 Mr Tyrone Shandiman, Australian Consumers Insurance Lobby, Committee Hansard, 7 February
+2025, p. 13.
+76 Australian Reinsurance Pool Corporation, answers to written questions on notice, 12 February 2025
+(received 24 February 2025), p. [7].
+77 Australian Reinsurance Pool Corporation, Cyclone Reinsurance Pool Premium and Exposure Statistics
+as at 31 December 2023, April 2024, p. 7.
+54
+adjust their underwriting approaches and as policyholders are incentivised by
+cyclone pool premiums to implement mitigation measures’.78
+Using the pool’s surplus to fund mitigation and resilience measures
+4.83 As noted above, some witnesses called for the pool’s surplus to be used to fund
+mitigation and resilience measures, while others urged caution.
+4.84 For example, the Australian Consumers Insurance Lobby called for the pool’s
+reserves, once they have reached ‘sufficient levels to sustainably cover claims’,
+to be used to:
+ reduce premiums; and
+ invest in community resilience measures, such as roof strengthening, debris
+management and securing outdoor structures.79
+4.85 The ACCC has also previously proposed that part of the revenue collected from
+stamp duty be directed towards measures that would improve affordability for
+low-income consumers, or to fund mitigation works.80
+4.86 The Insurance Council considered that the pool should have been designed so
+that ‘in surplus years, money goes into a mitigation fund that people can apply
+for to have their home strengthened’. They did note, however, the need for the
+pool to build up reserves ‘because we will have a $10 billion event one day’.81
+4.87 RACQ was cautious about the possibility of using the pool’s surplus to fund
+subsidies to reduce premium costs, suggesting that ‘if you get to a place where,
+over a five-to-10 year period, there are surplus funds then, yes, it would make
+sense to use those funds to drop the premiums’. However, it considered that the
+pool ‘may not be able to generate that sort of surplus’, given recent cyclones
+were relatively small.82
+4.88 The ARPC informed the committee that there are years where it will have
+surpluses and years where there are large deficits, with most years over a five
+year period expected to be in surplus, ‘but one year in every five years will be
+very, very large in deficit – in the order of billions of dollars’. The ARPC is
+‘saving funds for the big loss event, which we haven’t had yet’.83
+78 Cyclone Reinsurance Pool Premium and Exposure Statistics as at 31 December 2023, April 2024, p. 7.
+79 Correspondence from the Australian Consumers Insurance Lobby, tabled at the public hearing on
+7 February 2025, p. 1.
+80 Northern Australia Insurance Inquiry: Final Report, p. xxiv.
+81 Mr Andrew Hall, Insurance Council of Australia, Committee Hansard, 7 February 2025, pp. 7–8.
+82 Mr David Carter, Royal Automobile Club of Queensland, Committee Hansard, 7 February 2025, p.
+27.
+83 Dr Christopher Wallace, Australian Reinsurance Pool Corporation, Committee Hansard, 7 February
+2025, p. 39.
+Chapter 5
+Committee view and recommendations
+5.1 The increasing prevalence and severity of cyclones—and the corresponding
+damage to homes, businesses and communities—has been a concern for many
+years, particularly in the high-risk areas of Northern Australia. One outcome of
+increased claims for cyclone-related damage has been the hesitancy of insurance
+companies to take on this ever-growing risk.
+5.2 While some insurance companies operating in Australia are still willing to
+operate in this elevated risk environment, many global reinsurance
+conglomerates have been reluctant to continue to provide reinsurance and have
+withdrawn from the Australian market or have increased prices to a level that
+is unsustainable for policy-holders. These higher costs are being paid by
+Australian insurers, with a flow-on effect of insurance premiums skyrocketing
+to unaffordable levels for people and businesses in those regions. Many
+individuals, families and businesses are unable to afford the insurance
+premiums and have found themselves with not enough, or even without any,
+coverage during cyclone events.
+5.3 The downstream effect for governments is that they must then step in to provide
+emergency relief for people with uninsured damage, which can often turn into
+long term welfare relief for families who may have lost their homes, or for
+employees of businesses that must close due to loss of assets. As noted in the
+explanatory memorandum for the bill establishing the Cyclone Reinsurance
+Pool:
+Households that are underinsured or have no insurance have reduced
+financial capacity to recover from a natural disaster or other event. Poor
+insurance coverage can exacerbate costs and pressures for communities and
+for governments through increased pressure on health, emergency and
+welfare systems. It can slow the economic recovery of a region following a
+disaster.1
+5.4 Clearly it was in the best interests of families, businesses and communities for
+government to step in to address this market failure. In early 2022, the Cyclone
+Reinsurance Pool (the pool) was established with bipartisan support, to allow
+insurance companies to transfer their risk for cyclones and cyclone-related flood
+damage.
+5.5 Since the establishment of the pool, there have been a number of significant
+cyclone and flooding events. At the time of drafting this report, parts of
+Northern Australia had experienced the effects of recent cyclone and high
+1 Treasury Laws Amendment (Cyclone and Flood Damage Reinsurance Pool) Bill 2022, Explanatory
+memorandum, p. 4.
+55
+56
+rainfall events, with devastating floodwaters still impacting many individual
+houses and entire communities. Members of this committee meet regularly,
+weekly even, with residents of Northern Australia whose homes have been
+flooded. People in Northern Australia are exhausted. They need certainty that
+they can continue to afford to live in parts of Australia that contribute
+significantly to Australia’s GDP.
+5.6 The key questions before the committee are:
+ whether the pool is operating in the best interests of impacted people;
+ if the pool is meeting its establishing principles to improve the accessibility
+and affordability of insurance for households and small businesses in
+cyclone-prone areas in Northern Australia; and
+ whether the pool providing sufficient incentives for risk reduction and
+encouraging cyclone and flood-related mitigation over time.
+5.7 The committee traversed many of these issues in its First Report of March 2023,
+which made 7 recommendations, for which the committee formally affirms its
+continued support.
+Future of the pool
+5.8 The committee acknowledges that the pool has been in operation for only a short
+time, with all eligible insurers joining by the 31 December 2024 deadline. Given
+the relative newness of the scheme, it would not be reasonable to expect
+significant changes to the overall cost of insurance premiums to consumers at
+this point.
+5.9 However, as noted by the Australian Competition and Consumer Commission
+(ACCC) in its September 2024 monitoring report, the pool ‘is beginning to
+deliver premium relief for some consumers in some regions facing higher risk
+of cyclones’.2
+5.10 Even so, as the ACCC acknowledged, these premium reductions are being offset
+by premium increases caused by other cost increases. The report further noted
+that, so far, there has been no increase in insurance availability in Northern
+Australia. In addition, while the pool does not show signs of failing to meet
+objectives, it does not yet show any signs of significant success.
+5.11 In January 2024, the Assistant Treasurer and Minister for Financial Services
+stated that the pool is ‘a good thing’ that will ‘make a difference’, but it will not
+‘be a silver bullet that halves insurance premiums … So, what we need to do is
+ensure that it’s operating as effectively as possible’. He considered that
+‘solutions in the area of insurance and insurance affordability actually lie
+outside of insurance and not inside’, arguing that insurance ‘is what happens
+2 Australian Competition and Consumer Commission, Insurance Monitoring: Third Report Following
+the Introduction of a Cyclone and Cyclone-Related Flood Damage Reinsurance Pool, September 2024, p. 1.
+57
+when everything goes wrong. The best solutions are about ensuring we have
+better buildings, better infrastructure and better resilience’.3
+5.12 The committee notes there is a scheduled review due to take place after 1 July
+2025, with the Terrorism and Cyclone Insurance Act 2003 requiring the review
+report to consider ‘the need for this Act to continue in operation’.4 Further, the
+Insurance Council has also called for the review to consider ‘how appropriate
+sunsetting the pool’s coverage would be to aid in forcing the market to deliver
+houses that can withstand cyclones’.5
+5.13 It is clear that the pool is having a positive, if limited so far, impact on the cost
+of premiums; this is apparent in both evidence to this inquiry and in feedback
+committee members have heard from constituents in Northern Australia.
+Further, evidence indicates that the pool is reducing premium costs. The
+committee calls on the Australian Government to provide continued support for
+the pool, given:
+ there has not yet been sufficient time to determine whether the pool is
+operating as intended;
+ the effect of mitigation and resilience measures on premium costs may take
+years to eventualise;
+ climate change is expected to lead to more disaster-level events; and
+ it is critical to Australia’s economy that populations continue to live and
+work in Northern Australia.
+Recommendation 1
+5.14 The committee recommends that the Australian Government must proceed
+with the planned legislated review of the Cyclone Reinsurance Pool in 2025.
+Adjustments to the pool
+5.15 Throughout the inquiry, stakeholders from all sides agreed that the pool is
+beneficial. However, many had differing ideas on how to improve its
+operations, including whether it should be expanded. The proposed areas for
+expansion, discussed further below, include:
+ lifting the sum insured limits;
+ extending the 48-hour period for flooding to be considered cyclone related;
+ including marine insurance; and
+ the potential for adding coverage for non-cyclone related flooding.
+3 The Hon Stephen Jones MP, Assistant Treasurer and Minister for Financial Services, Transcript:
+Interview with Amanda Cranston, 17 January 2024.
+4 Terrorism and Cyclone Insurance Act 2003, section 41.
+5 Insurance Council of Australia, answers to written questions on notice from Senator Susan
+McDonald on 7 February 2025 (received 21 February 2025), p. 3.
+58
+Sum insured limit
+5.16 The pool currently covers commercial property policies with less than $5 million
+total sum insured (for risks covered by the pool) and small and medium
+enterprises (SMEs) up to a maximum of $5 million insured. The First Report
+discussed calls to expand the sum insured limit for businesses. The committee
+recommended:
+Recommendation 7
+4.53 The committee recommends that future reviews of the Cyclone
+Reinsurance Pool consider the sum insured limit under the business
+property policy.
+5.17 The committee has received additional evidence that insurance is unavailable or
+unaffordable for businesses who may need to insure above this limit, which can
+impede their ability to continue operating and providing important jobs in
+regional locations.
+5.18 The committee reiterates its original recommendation that the limits should be
+reviewed for continued suitability.
+48-hour rule
+5.19 The First Report noted the 48-hour rule, in which the pool covers cyclone and
+cyclone-related flood damage that occurs from the time a cyclone begins until
+48 hours after the cyclone ends, as declared by the Bureau of Meteorology. The
+First Report recommended:
+Recommendation 2
+4.28 The committee recommends that the Australian Government review
+… the impact of the 48-hour clause on the cost of insurance premiums for
+Northern Australians, and the availability of insurance in the region as
+part of the built-in review in 2025, and adjust this clause if necessary.
+5.20 Since the tabling of the First Report, the committee has reviewed this issue in
+greater depth, with evidence discussed in Chapter 3. While some insurance
+entities did not agree with proposals to extend the 48-hour time limit, others
+insurers called for the extension of this arbitrary time limit, noting that in some
+cases over 60 per cent of cyclone-related insurance claims were not covered by
+the pool.
+5.21 Additionally, the committee gives great weight to evidence from Treasury that
+while extending the 48-hour rule would likely not lead to large, overall
+improvements in affordability, it would likely lead to benefits for high-risk
+properties.
+5.22 Given the pool’s overall objective in aggregating cyclone risk for homes and
+businesses in high-risk regions, the committee believes this is a worthy outcome
+and reiterates its recommendation that the 2025 review of the pool consider the
+benefits of extending the 48-hour damage period following the downgrading of
+a cyclone.
+59
+Marine insurance
+5.23 The committee heard opposing views on whether insurance for marine-related
+infrastructure should be included in the pool. Some insurers argued that this
+would increase reinsurance costs and ultimately increase insurance premiums
+for consumers.
+5.24 Conversely, other evidence argued that these increased costs would be minimal,
+and marine insurance should be included in some form, noting that there are
+two types of assets, being fixed assets like marinas and jetties, versus non-fixed
+assets such as boats. Extending the pool to fixed assets would be unlikely to
+increase costs significantly, due to the relatively small number of such assets
+across Northern Australian compared to other assets such as houses and other
+buildings.
+5.25 In the First Report for this inquiry, the committee noted calls for modelling on
+marine insurance.
+5.26 The committee was told by Treasury at the public hearing in February 2025 that
+Treasury had provided advice to government on the issue, and the timing and
+release of that advice or any government position on marine insurance is now
+in the hands of the Australian Government.
+5.27 The committee previously made a recommendation regarding marine insurance
+in its First Report:
+Recommendation 4
+4.36 The committee recommends that the Australian Government
+announce a position on the inclusion of marine insurance in the Cyclone
+Reinsurance Pool.
+5.28 The committee notes there has been no response from the Australian
+Government to date and reiterates its position. The committee further calls on
+the Australian Government to release modelling about the inclusion of marine
+insurance in the pool.
+Recommendation 2
+5.29 The committee recommends that the Australian Government publish
+modelling on the cost and benefits of the inclusion of marine insurance in the
+Cyclone Reinsurance Pool.
+General flood reinsurance pool
+5.30 The committee expressly considered in this report whether the pool should be
+expanded from cyclone-related flooding (within the allotted time limits) to
+include a general flood reinsurance pool.
+5.31 The committee heard from both consumer advocates and some insurers that
+without strong investment in resilience measures, a government-backed flood
+reinsurance pool may become a necessary solution. The committee also heard
+60
+that while flood risk impacts a much smaller number of homes and businesses,
+it is more geographically spread out across Australia. One common element,
+however, is that flood risk tends to be concentrated in areas of higher economic
+disadvantage.
+5.32 This inquiry is not the first to turn its mind to the issue of flood insurance
+beyond cyclone-related floods. The House of Representatives Economics
+Standing Committee, in its October 2024 report, Flood Failure to Future Fairness,
+noted significant support for further investigation into the feasibility of a
+reinsurance pool for flood, and made a detailed recommendation for the
+Australian Government to consider the appropriateness of a government
+supported reinsurance arrangement for flood insurance.
+5.33 The Australian Government has not yet responded to that inquiry report.
+Mitigation
+5.34 One of the purposes of the pool is to ‘keep [insurance] premiums as low as
+possible while maintaining incentives to reduce and mitigate the risk of eligible
+cyclone losses’.6 However, whether or not discounts are ultimately given to
+insurance policy holders for mitigation remains obscure. There appears to be no
+data collected to ensure this occurs proportionately, consistently, or even at all.
+Mitigation discounts on insurance premiums
+5.35 The committee notes the calls from the insurance industry for governments to
+commit to more resilience and mitigation efforts. The committee also recognises
+the Australian Government has made significant investments in programs to
+encourage mitigation and resilience, and the Australian Reinsurance Pool
+Corporation has applied premium discounts for insurers on the basis of
+particular mitigation efforts. However, such measures are only effective if they
+have a direct, measurable impact on the cost of insurance for consumers. The
+insurance industry has a key role to play in responding to mitigation by
+reducing the cost of insurance premiums accordingly, and by reassuring the
+public that it is doing so.
+5.36 While there was evidence presented to the committee on mitigation initiatives
+that are, or could be in future, taken outside of the pool, there was conspicuously
+little evidence on the effectiveness of the pool in incentivising the mitigation of
+cyclone losses at an individual claimant level. This absence of evidence speaks
+volumes as to how well mitigation incentives are being incorporated into
+individual insurance contracts that are underwritten by the pool. Clearly, there
+needs to be greater focus on incentivising mitigation via the pool—that is, by
+ensuring there are appropriate premium discounts applied to individuals who
+undertake agreed mitigation improvements to their houses or businesses.
+6 Treasury Laws Amendment (Cyclone and Flood Damage Reinsurance Pool) Act 2022, para. 8D(b).
+61
+5.37 The committee notes that the most recent independent review of the General
+Insurance Code of Conduct recommended that, subject to financial advice law, the
+code ‘should require insurers to provide transparency about the types of
+consumer risk-mitigation activities that result in a pricing benefit’.7 A similar
+recommendation was made by the House of Representatives Economics
+Committee’s October 2024 Inquiry into insurers’ responses to 2022 major floods
+claims.8
+5.38 The Insurance Council of Australia published a joint response to the General
+Insurance Code of Conduct and the Inquiry into insurers’ responses to 2022 major
+floods claims, focusing on ‘recommendations across both reports that can be
+supported or where the industry can work constructively with others to explore
+implementation’.9 No comment appeared to be made in that response to the
+recommendation around greater transparency for mitigation-related insurance
+premium discounts.10 However, the Insurance Council did note that further
+progress will be outlined in early 2025, and separately stated in February 2025
+that it ‘is now working on recommendations from the various inquiries and
+looks forward to consulting with consumer advocates and other key
+stakeholders on this work’.11
+5.39 The committee calls on the Insurance Council and other insurers to publicly
+commit to providing all insurance policyholders who engage in mitigation and
+resilience an estimate of how much these efforts have saved or will save them
+on their premium costs. The committee also calls on insurers to commit to
+publishing the overall net positive impact of mitigation and resilience measures
+on the cost of insurance premiums. The committee further calls on the Insurance
+Council and the insurers who have engaged in this inquiry to provide a public
+response to this recommendation.
+5.40 The committee further believes there is a role for the ACCC to monitor whether
+insurers are passing on premium discounts to customers who undertake
+approved mitigation activities. This will require expanding the ACCC’s remit
+and appropriately funding it. The committee’s recommendation on this matter
+is set out below.
+7 Insurance Council of Australia, General Insurance Code of Practice, Independent Review: Final Report,
+December 2024, p. 27.
+8 Flood failure to future fairness, Recommendation 76.
+9 Insurance Council of Australia, ‘Insurers Respond to Parliamentary Inquiry and Code Review recs’,
+Media Release, 18 December 2024.
+10 Insurance Council of Australia, Initial Industry Response: The General Insurance Code of Practice
+Independent Review and the 2022 Flood Inquiry Recommendations, December 2024.
+11 Insurance Council of Australia, Advancing Australia’s Resilience: Policy Recommendations for the Next
+Australian Government, February 2025, p. 4.
+62
+Mitigation incentives through tax relief
+5.41 The committee notes evidence calling for money from the pool’s surplus to be
+used for resilience and mitigation measures and to reduce the cost of premiums.
+However, the Australian Reinsurance Pool Corporation (ARPC) gave evidence
+that they are maintaining reserves for a ‘big loss event’, modelled to occur on
+average once every five years and cost billions of dollars. As such, the committee
+considers that it will be several years before the ARPC can safely consider using
+any surplus funds for such an initiative, without needing to draw on the
+Australian Government’s guarantee. Alternative mechanisms to incentivise
+mitigation should therefore be sought in the short-term.
+5.42 The committee acknowledges the Australian Government’s significant work in
+this space already, including up to a billion dollars provided through the
+Disaster Ready Fund, the Hazards Insurance Partnership and Strategic
+Insurance Projects, and the Insurance Affordability and Natural Hazards Risk
+Reduction Taskforce.
+5.43 However, the committee is also persuaded by arguments that more can and
+should be done, given the science indicating that climate change will lead to
+increased severity and intensity of weather events over the coming decades.
+5.44 The committee is of the view that consideration should be given to funding
+cyclone damage mitigation via a tax offset. This would enable more homes,
+including those homeowners who may be ineligible for existing subsidies, to be
+made more resilient, thereby reducing the long-term costs of insurance
+premiums.
+5.45 Any offset should be time-limited, restricted to existing homes in particular
+regions, and apply only to specific upgrades, such as those outlined in the
+National Emergency Management Agency’s booklet on building, maintaining
+and insuring a resilient home.12 Care should also be taken to ensure that home-
+owners are unable to ‘double-dip’ through other tax offsets, such as capital gains
+tax, or through other, government-funded programs to subsidise the cost of
+cyclone-proofing their homes, such as the Household Resilience Program.
+5.46 As an alternative, the Australian Government could consider providing direct
+subsidies to eligible households in Northern Australia to engage in household
+resilience and mitigation. However, this would require more government
+resources to administer such a program.
+5.47 The committee further notes the extensive state and federal government
+programs that fund, incentivise and otherwise provide support for improving
+resilience against climate-related damage to home and businesses. In particular,
+witnesses acknowledged the positive impact of the Resilient Homes Program
+12 National Emergency Management Agency, Your Storm and Cyclone Resilient Home: Your Guide to
+Building, Maintaining and Insuring a Resilient Home, pp. 5–6 (accessed 20 February 2025).
+63
+and Strata Resilience Program on improving cyclone and flood-related building
+resilience. There was strong support in evidence to this inquiry for programs
+such as these to become longer-term programs rather than offered as a one-off.
+The House of Representatives Standing Committee on Economics in its Flood
+Failure to Future Fairness report noted a significant body of evidence calling for
+policy solutions to reduce flood risk. This evidence proposed increased
+government investment in community mitigation infrastructure and expansion
+of the federal-Queensland Resilient Homes Fund beyond the southeast corner
+of Queensland. That report noted that ‘insurers may be more willing to re-enter
+the local market’ if they determine that resilience measures have materially
+reduced flood risk.13
+5.48 Given resilience and mitigation measures over the long-term reduce underlying
+risk and, therefore, premium costs, the committee concurs with the strong
+evidence given to both inquiries calling for a national, ongoing program to
+improve household resilience and mitigation.
+Recommendation 3
+5.49 The committee strongly recommends that the Australian Government
+support an ongoing, national resilience program on a permanent basis.
+Recommendation 4
+5.50 The committee recommends that the Australian Government consider a range
+of measures to improve resilience and mitigation of high-risk homes in
+Northern Australia, including:
+ providing targeted tax offsets for eligible households in Northern
+Australia; and
+ providing direct subsidies to eligible households in Northern Australia.
+5.51 An additional issue is the matter of taxation applied to insurance premiums.
+Currently, most insurance premiums are subject to state and territory stamp
+duty of around 10 per cent. Once stamp duty is added to the total, an additional
+10 per cent is calculated for the Goods and Services Tax (GST).
+5.52 And of course, as insurance premiums rise, the tax also rises, creating a doubling
+up effect on consumers. The median cost of premiums for combined home and
+contents insurance increased by 11 per cent for north Queensland and the
+Northern Territory in 2023.14 The cost of insurance overall across Australia rose
+13 Flood failure to future fairness, pp. 222, 274–277.
+14 Australian Competition & Consumer Commission, Insurance Monitoring: Third Report Following the
+Introduction of a Cyclone and Cyclone-Related Flood Damage Reinsurance Pool, September 2024, p. 4.
+64
+by 11 per cent in the twelve months to the December 2024 quarter.15 Given the
+increasing frequency and intensity of severe weather events, we can expect the
+cost of insurance to only increase over the coming years.
+5.53 The committee believes that greater investigation of the impact of current
+taxation methods on insurance premium pricing would be beneficial.
+Recommendation 5
+5.54 The committee recommends the Australian Competition and Consumer
+Commission, in its insurance monitoring role, investigate the impact of
+current taxation methods on insurance premium pricing.
+Insurance monitoring
+5.55 The ACCC, in its insurance monitoring role, provides reassurance to committee
+members and the public that the Cyclone Reinsurance Pool is contributing to
+lower insurance premiums as offered by insurers to consumers. The ACCC’s
+reports are an important accountability mechanism for insurers and give an
+indication as to whether the pool, as a policy lever, is working.
+5.56 Given the pool has only just commenced fully operating, the scale of changes
+required to see it operate more effectively, and broader inflationary pressures
+leading to increases in the cost of insurance, it is more important than ever that
+the ACCC is funded to continue this important role. As such, the committee
+takes the view that the ACCC should continue performing this important
+function until at least 2030, when the second scheduled review of the Terrorism
+and Cyclone Insurance Act 2003 is due to occur again.
+5.57 In addition, the committee considers that the ACCC’s role should be expanded
+to monitor the extent to which mitigation measures are reducing the cost of
+insurance premiums. This expanded role is crucial, in light of increased
+spending by governments in the form of billions of dollars on mitigation and
+resilience. The insurance industry has called for more spending on mitigation,
+arguing that this is the major factor to decrease the cost of premiums. If
+governments are to spend (or are already spending) this much money on
+mitigation and resilience, certainty should be provided that taxpayers’ money is
+achieving the intended effects by improving insurance affordability.
+Recommendation 6
+5.58 The committee recommends that the Australian Government fund the
+Australian Competition and Consumer Commission to continue its insurance
+monitoring role until at least 2030.
+15 Australian Bureau of Statistics, Consumer Price Index, Australia – December Quarter 2024, 29 January
+2025.
+65
+Recommendation 7
+5.59 The committee recommends that the Australian Government fund and
+expand the remit of the Australian Competition and Consumer Commission
+to examine the extent to which insurers are reducing insurance premiums in
+response to mitigation and resilience measures.
+5.60 Finally, given the committee’s recommendations that the scheduled review
+consider many of the issues raised in evidence to this inquiry, the committee
+calls on the Australian Government to commit to publicly releasing the report
+of the upcoming review. This would provide certainty to insurers, policy-
+holders and committee members that the review has given serious consideration
+to these issues before forming a view on the future of the Cyclone Reinsurance
+Pool.
+Recommendation 8
+5.61 The committee recommends that the Australian Government publish the
+report of the 2025 scheduled review into the Terrorism and Cyclone Insurance
+Act 2003 once the report is finalised.
+Ms Marion Scrymgour MP Hon Warren Entsch MP
+Chair Deputy Chair
+
+Additional comments from Senator McDonald
+Inclusion of agricultural industry
+1.1 Senator Susan McDonald proposes that the Cyclone Reinsurance Pool gives
+consideration to the agricultural industry, to include buildings that are on the
+same property where crops and/or livestock are produced to be covered by the
+Pool.
+1.2 The agricultural industry is critical to the continued development of Northern
+Australia communities, employment opportunities, critical supply chains and
+providing food security to the whole of Australia, and hence should be
+incentivised and supported.
+The law of large numbers – Geographical spread of risk
+1.3 Senator Susan McDonald proposes that the Australian Government intervenes
+to review insurer licencing requirements so that insurance providers are
+obligated to offer products across the whole of Australia, rather than
+regionalising profitability and exiting marketplaces with lower profitability,
+such as Northern Australia.
+1.4 The development and growth of Northern Australia relies on affordable and
+attainable insurance, and any insurer selectivity sets a dangerous precedent for
+other parts of regional Australia.
+Senator Susan McDonald
+LNP Senator for Queensland
+Shadow Minister for Northern Australia
+Shadow Minister for Resources
+67
+
+Appendix 1
+Submissions and additional information
+1 Ms Margaret Shaw OAM
+2 National Insurance Brokers Association of Australia
+3 Australian Consumers Insurance Lobby
+4 Australian Competition & Consumer Commission
+5 Bureau of Meteorology
+6 Australian Reinsurance Pool Corporation
+7 RACQ
+ Attachment 1
+ Attachment 2
+8 Allianz
+9 Townsville Chamber of Commerce
+10 Insurance Council of Australia
+11 Adjunct Professor Colin Dwyer
+12 Townsville Enterprise
+13 Townsville Lot Owners Group
+ Attachment 1
+14 Sure Insurance
+Additional Information
+1 Letter from Australian Consumers Insurance Lobby regarding marine
+insurance, received 28 August 2023
+2 Letter from Marina Industries Association regarding marine insurance,
+received 28 August 2023
+3 Letter from Australian Consumers Insurance Lobby regarding the Cyclone
+Reinsurance Pool, received 19 September 2023
+4 Call to action flyer from the Australian Consumers Insurance Lobby
+regarding the Cyclone Reinsurance Pool, received 19 September 2023
+5 Letter from NQ Strata Action Group regarding the Cyclone Reinsurance Pool,
+received 30 September 2023
+6 Letter from Australian Consumers Insurance Lobby regarding urgent action
+needed to ensure northern residents’ interests are considered in the ARPC
+review, received 19 July 2024
+7 Additional information from the Australian Consumers Insurance Lobby
+following the public hearing on 7 February 2025, received 12 February 2025
+69
+70
+Answers to Questions on Notice
+1 Australian Reinsurance Pool Corporation, answers to questions on notice, 25
+November 2022 (received 13 December 2022)
+2 Australian Competition and Consumer Commission, answers to questions on
+notice, 25 November 2022 (received 19 December 2022)
+3 Bureau of Meteorology, answers to questions on notice, 25 November 2022
+(received 21 December 2022)
+4 Insurance Council of Australia, answers to questions on notice, 25 November
+2022 (received 21 December 2022)
+5 Bureau of Meteorology, answers to written questions on notice, 16 December
+2022 (received 16 January 2023)
+6 QBE, answers to written questions on notice, 16 December 2022 (received 16
+January 2023)
+7 Australian Reinsurance Pool Corporation, answers to written questions on
+notice, 16 December 2022 (received 16 January 2023)
+8 Insurance Council of Australia, answers to written questions on notice, 16
+December 2022 (received 16 January 2023)
+9 Department of the Treasury, answers to written questions on notice, 16
+December 2022 (received 17 January 2023)
+10 IAG, answers to written questions on notice, 16 December 2022 (received 20
+January 2023)
+11 Allianz, answers to written questions on notice, 16 December 2022 (received
+20 January 2023)
+12 Department of the Treasury, answer to a written questions on notice, 16
+December 2022 (received 10 February 2023)
+13 Australian Reinsurance Pool Corporation, answers to questions taken on
+notice – public hearing, 19 April 2024, Brisbane (received 10 May 2024)
+14 Australian Consumers Insurance Lobby, answers to questions taken on notice
+– public hearing, 19 April 2024, Brisbane (received 2 May 2024)
+15 Insurance Council of Australia, answers to questions taken on notice – public
+hearing, 19 April 2024, Brisbane (received 13 May 2024)
+16 Insurance Australia Group (IAG), answers to questions taken on notice –
+public hearing, 19 April 2024, Brisbane (received 17 May 2024)
+17 Suncorp, answers to questions taken on notice - public hearing, 19 April 2024
+(received 10 May 2024)
+18 Australian Competition & Consumer Commission, answers to written
+questions on notice (received 13 September 2024)
+19 Insurance Council of Australia, answers to spoken and written questions on
+notice from the public hearing on 7 February 2025 (received 21 February 2025)
+20 Australian Reinsurance Pool Corporation, answers to written questions on
+notice, 12 February 2025 (received 24 February 2025)
+21 Department of the Treasury, answers to questions on notice, 7 February 2025
+(received 21 March 2025)
+71
+Tabled Documents
+1 Opening statement, QBE, tabled at the public hearing on 25 November 2022
+2 Opening statement, RACQ, tabled at the public hearing on 25 November 2022
+3 Townsville Chamber of Commerce, Insurance: The Market Failure of an
+Essential Service, tabled by Mr Andrew Willcox MP at the public hearing on 7
+February 2025
+4 Correspondence from the Australian Consumers Insurance Lobby, tabled at
+the public hearing on 7 February 2025
+
+Appendix 2
+Public hearings and witnesses
+Friday 25 November 2022
+Main Committee Room
+Parliament House
+Canberra and via videoconference
+Australian Consumers Insurance Lobby (via videoconference)
+ Mr Tyrone Shandiman, Chairperson
+National Insurance Brokers Association (via videoconference)
+ Mr Philip Kewin, Chief Executive Officer
+ Mr Steven Hill, Queensland Divisional Chairperson
+ Ms Allyssa Hextell, Policy & Research Manager
+Insurance Council of Australia
+ Mr Andrew Hall, Chief Executive Officer
+ Ms Aparna Reddy, General Manager Policy Regulation (via
+videoconferencing)
+QBE
+ Mr Andrew Ziolkowski, Chief Underwriting Officer
+RACQ
+ Mr Josh Cooney, General Manager Advocacy
+ Mr Trent Sayers, Group Executive Insurance
+Allianz
+ Mr Nicholas Scofield, Chief Corporate Affairs Officer
+ Mr James Fitzpatrick, Chief Technical Officer
+Insurance Australia Group (IAG)
+ Mrs Christa Marjoribanks, Executive General Manager, Product, Pricing and
+Governance, Intermediated Insurance
+NT Chamber of Commerce (via videoconference)
+ Mr Stephen Goodall, Chief Policy Officer
+ Mr Brett Hagan, Member/Authorised Representative
+Townsville Chamber of Commerce (via videoconference)
+ Mr Chris Rockemer, President
+ Mr Michael Kern, Chief Executive Officer
+73
+74
+Australian Competition & Consumer Commission (via videoconference)
+ Ms Sarah Proudfoot, Executive General Manager Infrastructure Division
+ Mr Michael Eady, General Manager Insurance Monitoring
+Department of the Treasury
+ Ms Mohita Zaheed, Acting First Assistant Secretary, Financial System
+Division
+ Mr Robb Preston, Banking, Credit and Insurance Branch
+ Mr Guy Thorburn, Australian Government Actuary
+Bureau of Meteorology
+ Dr Peter Stone, Group Executive, Business Solutions
+Australian Reinsurance Pool Corporation
+ Dr Christopher Wallace, Chief Executive
+ Mr Alexander Drake, Head of Public Affairs
+ Mr Pulkit Jain, Head of Actuarial
+ Ms Samantha Lawrence, Chief Risk and Governance Officer
+Friday 19 April 2024
+Terrace Room
+Hotel Grand Chancellor Brisbane
+23 Leichhardt Street
+Spring Hill
+Insurance Council of Australia
+ Mr Andrew Hall, Executive Director and Chief Executive Officer
+ Ms Alexandra Hordern, General Manager, Regulatory and Consumer Policy
+Insurance Australia Group (IAG)
+ Ms Corinne Glasby, Executive General Manager, Product, Pricing &
+Governance, Direct Insurance
+ Ms Christa Marjoribanks, Executive General Manager, Product, Pricing and
+Governance
+ Mr George Karagiannakis, Executive Manager Government & Industry
+Affairs
+Suncorp
+ Mr Andrew Huszczo, Appointed Actuary and Executive General Manager
+Reinsurance
+The Royal Automobile Club of Queensland Limited - RACQ Ltd
+ Mrs Karen Parkin, General Manager Insurance Product and Distribution
+ Mr David Carter, Managing Director and Group Chief Executive Officer
+75
+QBE Insurance (Australia) Ltd (via teleconference)
+ Mr Andrew Ziolkowski, Chief Underwriting Officer
+ Mr Chris Esson, Chief Financial Officer
+Australian Consumers Insurance Lobby Inc
+ Mr Tyrone Shandiman, Chairperson
+Allianz Australia Insurance Ltd (via teleconference)
+ Mr Nicholas Scofield, Chief Corporate Affairs Officer
+ Mr James Fitzpatrick, Chief Technical Officer
+ Mr Scott Cooper, National Manager Disaster and Recovery
+Australian Reinsurance Pool Corporation
+ Dr Christopher Wallace, Chief Executive
+ Mr Jason Flanagan, Chief Claims Officer
+ Ms Victoria Simpson, Chief Operations Officer
+ Mr Alexander Drake, Head of Public Affairs and Communications
+Friday 7 February 2025
+Committee Room 2S3
+Australian Parliament House
+Canberra
+Insurance Council of Australia
+ Mr Andrew Hall, Executive Director and CEO
+ Ms Leisha Watson, Director, Regulatory and Consumer Policy
+Australian Consumers Insurance Lobby
+ Mr Tyrone Shandiman, Chairperson (via videoconference)
+Sure Insurance
+ Mr Bradley Heath, Managing Director (via videoconference)
+RACQ (via videoconference)
+ Mr David Carter, Managing Director and Group Chief Executive Officer
+ Mr Joshua Cooney, General Manager Advocacy
+Australian Competition & Consumer Commission
+ Mr Michael Eady, General Manager, Insurance Monitoring
+ Ms Nicole Ross, Executive General Manager, Infrastructure Division
+Department of the Treasury
+ Mr Danial Gaudry, Director
+ Mr Robb Preston, Assistant Secretary
+ Mr Guy Thorburn, Australian Government Actuary
+76
+Australian Reinsurance Pool Corporation
+ Dr Christopher Wallace, Chief Executive Officer
+ Mr Jason Flanagan, Chief Claims Officer
