@@ -271,16 +271,28 @@ const SITE = "https://toohardbasket.org.au";
        * entry, so one 190-character report title squeezes the dates into two
        * lines and the table's shape changes with the data in it.
        */
-      table.register { table-layout: auto; }
+      /*
+       * Column widths for the two report registers, and only those: the
+       * summary tables on the same pages have different columns and are left
+       * to the browser.
+       *
+       * They are set on the header row because that is the only row a fixed
+       * layout reads. Set on the body cells — where the classes are — they did
+       * nothing at all except reflow the table, which is how the first attempt
+       * at this managed to make the titles worse while appearing to work.
+       *
+       * The report title is the column a reader actually reads, so it is the
+       * one with no width: it takes whatever the other four do not need. The
+       * committee wraps to two lines happily; the title should not have to.
+       */
+      table.register.stacks { table-layout: auto; }
       @media (min-width: 60rem) {
-        table.register { table-layout: fixed; }
-        table.register .c-wait  { width: 9.5rem; }
-        table.register .c-title { width: auto; }
-        table.register .cmte    { width: 15rem; }
-        table.register th.num + th + th + th.num,
-        table.register td.num + td + td + td.num { width: 7rem; }
-        table.register .src     { width: 11rem; }
-        table.register td { overflow-wrap: anywhere; }
+        table.register.stacks { table-layout: fixed; }
+        table.register.stacks thead th:nth-child(1) { width: 9rem; }   /* waiting */
+        table.register.stacks thead th:nth-child(3) { width: 11.5rem; } /* committee */
+        table.register.stacks thead th:nth-child(4) { width: 6.5rem; } /* tabled */
+        table.register.stacks thead th:nth-child(5) { width: 9rem; }   /* status */
+        table.register.stacks td { overflow-wrap: anywhere; }
       }
 
       /*
