@@ -5,8 +5,12 @@ on:
     - cron: "0 22 * * 1"   # Tuesdays 06:00 Perth (UTC+8)
   workflow_dispatch:
 
+# contents: to commit the rebuilt dataset. issues: to raise the alarm when a
+# run fails — without it the alarm step fails silently and a broken weekly job
+# looks like a quiet one, which is how a register goes stale unnoticed.
 permissions:
   contents: write
+  issues: write
 
 defaults:
   run:
@@ -88,8 +92,17 @@ jobs:
           git config user.name "thb-bot"
           git config user.email "bot@toohardbasket.org.au"
           git add data/ raw/
-          git diff --cached --quiet || git commit -m "Dataset update $(date -u +%F)"
-          git push
+          git diff --cached --quiet && { echo "No change to the dataset."; exit 0; }
+          git commit -m "Dataset update $(date -u +%F)"
+          # A push can be refused because main moved while the job was running,
+          # or because the run was started against an older commit. Rebasing
+          # the data commit onto the current tip is safe — this job only ever
+          # writes data/ and raw/, and it rebuilds both from source every run.
+          git push || {
+            echo "Push refused; rebasing onto the current main and retrying."
+            git pull --rebase origin main
+            git push
+          }
       - name: Open issue on failure
         if: failure()
         uses: actions/github-script@v7
@@ -98,5 +111,9 @@ jobs:
             github.rest.issues.create({
               owner: context.repo.owner, repo: context.repo.repo,
               title: `Dataset build failed ${new Date().toISOString().slice(0,10)}`,
-              body: "Validation or scrape failed — the site must NOT be updated until this is resolved. See the run log."
+              body: `Validation or scrape failed — the site must NOT be updated until this is resolved.\n\n`
+                  + `Run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}\n`
+                  + `Commit: ${context.sha}\n\n`
+                  + `The published site still shows the previous build, which is the intended behaviour: `
+                  + `nothing is committed unless every step passes. Fix the failing step and re-run.`
             })
