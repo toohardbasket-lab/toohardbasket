@@ -1,0 +1,13 @@
+# Where each report PDF came from — one per line:
+#
+#     <number from the list>   <the page you downloaded it from>
+#
+# for example:
+#     1   https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Legal_and_Constitutional_Affairs/FOI2014/Report
+#
+# The number is the one shown by "python harvest_manual_reports.py --list".
+# A key works too, if you prefer. Running the script folds these into
+# data/reports_manual.csv, which is what the site reads and links to — so you
+# never have to open that CSV in a spreadsheet.
+#
+# Lines beginning with # are ignored.

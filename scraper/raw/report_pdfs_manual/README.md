@@ -25,9 +25,15 @@ For each one:
 3. Save it here as its **number** from the list: `1.pdf`, `2.pdf`, and so on.
    The next step renames each one to its proper key. (Saving it under the long
    key directly works too.)
-4. Open `../../data/reports_manual.csv` and put the page you took it from in
-   `pdf_source_url` for that row. This is what the site links to, so a reader
-   can check a quotation against the same document.
+4. Put the page you took it from in `SOURCES.txt`, in this folder, as
+
+       1   https://www.aph.gov.au/...
+
+   one per line. The next step folds those into `../../data/reports_manual.csv`,
+   which is what the site links to, so a reader can check a quotation against
+   the same document. You can edit that CSV directly instead if you prefer, but
+   it holds em-dashes in the committee names and a spreadsheet will quietly
+   mangle them on save; `SOURCES.txt` avoids the question.
 
 The numbers are positions in the current list and nothing more — they are good
 until the list changes, which is why the rename happens immediately. Do a few at

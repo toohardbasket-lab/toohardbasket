@@ -23,7 +23,7 @@ data/reports_manual.csv records where each came from, so the claim is checkable.
 
     1. python harvest_manual_reports.py --list     what is still needed
     2. save each PDF in raw/report_pdfs_manual/ as its number — 1.pdf, 2.pdf —
-       and fill pdf_source_url in the CSV
+       and put the page it came from in that folder's SOURCES.txt, one per line
     3. python harvest_manual_reports.py            renames and reads them
     4. python extract_recommendations.py
        python extract_report_recommendations.py
@@ -138,6 +138,53 @@ def write_manifest(rows: list[dict]) -> None:
         w.writerows(rows)
 
 
+SOURCES = PDFS / "SOURCES.txt"
+
+
+def read_sources(rows: list[dict]) -> int:
+    """Fold URLs recorded in a plain text file into the manifest.
+
+    The manifest is a CSV with em-dashes in the committee names, and a
+    spreadsheet opened and saved without thinking about the encoding will
+    quietly replace them. Nobody should have to think about that to record
+    twenty-six URLs, so they can be written one per line here instead:
+
+        1  https://www.aph.gov.au/...
+        2  https://www.aph.gov.au/...
+
+    as a number from the list or a key, then any whitespace, then the URL.
+    Lines starting with # are ignored. The CSV stays the record; this is just a
+    safer way to write to it.
+    """
+    if not SOURCES.exists():
+        return 0
+    by_key = {r["key"]: r for r in rows}
+    by_num = {str(i): r for i, r in enumerate(rows, 1)}
+    n, unknown = 0, []
+    for line in SOURCES.read_text(encoding="utf-8", errors="replace").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        parts = line.split(None, 1)
+        if len(parts) != 2 or not parts[1].lower().startswith("http"):
+            unknown.append(line[:70])
+            continue
+        which, url = parts[0].strip(), parts[1].strip()
+        row = by_num.get(which) or by_key.get(which)
+        if not row:
+            unknown.append(line[:70])
+            continue
+        if row.get("pdf_source_url") != url:
+            row["pdf_source_url"] = url
+            n += 1
+    if unknown:
+        print(f"\n  {len(unknown)} line(s) in {SOURCES.name} were not understood "
+              "(expected: a number or key, then a URL):")
+        for u in unknown[:6]:
+            print(f"    {u}")
+    return n
+
+
 def claim_numbered(rows: list[dict]) -> list[str]:
     """Let a PDF be saved as 1.pdf and renamed into place.
 
@@ -185,6 +232,10 @@ def main(argv: list[str]) -> int:
     TEXT.mkdir(parents=True, exist_ok=True)
 
     write_manifest(rows)          # keep the list current with the registers
+    noted = read_sources(rows)
+    if noted:
+        print(f"  {noted} source URL(s) recorded from {SOURCES.name}")
+        write_manifest(rows)
     renamed = claim_numbered(rows)
     for line in renamed:
         print(f"  renamed {line}")
