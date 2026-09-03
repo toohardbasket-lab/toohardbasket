@@ -22,10 +22,16 @@ For each one:
    and the tabling date in the list are enough to search for.
 2. Download the PDF of the report itself — not the submissions, not a chapter,
    not the government response.
-3. Save it here under the filename the list gives, exactly.
+3. Save it here as its **number** from the list: `1.pdf`, `2.pdf`, and so on.
+   The next step renames each one to its proper key. (Saving it under the long
+   key directly works too.)
 4. Open `../../data/reports_manual.csv` and put the page you took it from in
    `pdf_source_url` for that row. This is what the site links to, so a reader
    can check a quotation against the same document.
+
+The numbers are positions in the current list and nothing more — they are good
+until the list changes, which is why the rename happens immediately. Do a few at
+a time and re-run `--list` rather than numbering all twenty-six in advance.
 
 Then:
 
@@ -33,7 +39,8 @@ Then:
 
 reads every PDF present into `raw/report_text/`, and marks the row collected.
 A PDF that yields almost no text is a scan; it is refused and named rather than
-half-read, and needs OCR.
+half-read, and needs OCR. A file that will not open as a PDF at all — a saved
+web page, a truncated download — is named too, and the run carries on.
 
 Finally, the ordinary chain:
 

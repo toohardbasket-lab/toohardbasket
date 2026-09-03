@@ -22,9 +22,12 @@ these were fetched by a person from a named URL, not by a script from an API.
 data/reports_manual.csv records where each came from, so the claim is checkable.
 
     1. python harvest_manual_reports.py --list     what is still needed
-    2. put <key>.pdf in raw/report_pdfs_manual/, fill pdf_source_url in the CSV
-    3. python harvest_manual_reports.py            read them into raw/report_text/
-    4. python extract_report_recommendations.py    as usual
+    2. save each PDF in raw/report_pdfs_manual/ as its number — 1.pdf, 2.pdf —
+       and fill pdf_source_url in the CSV
+    3. python harvest_manual_reports.py            renames and reads them
+    4. python extract_recommendations.py
+       python extract_report_recommendations.py
+       python verify_recommendations.py
 
 Nothing here downloads anything.
 """
@@ -135,18 +138,44 @@ def write_manifest(rows: list[dict]) -> None:
         w.writerows(rows)
 
 
+def claim_numbered(rows: list[dict]) -> list[str]:
+    """Let a PDF be saved as 1.pdf and renamed into place.
+
+    The keys are fifty characters long, and twenty-six of them have to be typed
+    exactly or the file is silently ignored. The number beside each entry in
+    --list is the position in this list, so a PDF saved under that number is
+    renamed to its key here. The number is not an identifier and is not stored
+    anywhere: it is only good until the list changes, which is why the rename
+    happens at once rather than the number being used as a key.
+    """
+    renamed = []
+    for i, r in enumerate(rows, 1):
+        n = PDFS / f"{i}.pdf"
+        if not n.exists():
+            continue
+        proper = PDFS / f"{r['key']}.pdf"
+        if proper.exists():
+            print(f"  {i}.pdf ignored — {r['key']}.pdf is already here")
+            continue
+        n.rename(proper)
+        renamed.append(f"{i}.pdf -> {r['title'][:56]}")
+    return renamed
+
+
 def show(rows: list[dict]) -> int:
-    todo = [r for r in rows if not (PDFS / f"{r['key']}.pdf").exists()]
-    have = len(rows) - len(todo)
+    have = [r for r in rows if (PDFS / f"{r['key']}.pdf").exists()]
     print(f"{len(rows)} reports on the registers have no Tabled Documents id.")
-    print(f"{have} collected, {len(todo)} still needed.\n")
-    print(f"Put each PDF in {PDFS.relative_to(HERE.parent)}/ named <key>.pdf, and put the "
-          f"page you took it from in pdf_source_url in {MANIFEST.name}.\n")
-    for r in sorted(todo, key=lambda r: r["report_tabled"]):
-        print(f"  {r['report_tabled']}  {str(r['days_outstanding']).rjust(5)} days waiting")
-        print(f"    {r['committee']}")
-        print(f"    {r['title']}")
-        print(f"    file: {r['key']}.pdf\n")
+    print(f"{len(have)} collected, {len(rows) - len(have)} still needed.\n")
+    print(f"Save each PDF in {PDFS.relative_to(HERE.parent)}/ as its NUMBER below — 1.pdf,")
+    print("2.pdf and so on — and this step renames it. Put the page you took it from in")
+    print(f"pdf_source_url in {MANIFEST.name}, which is what the site links to.\n")
+    for i, r in enumerate(rows, 1):
+        done = " [collected]" if (PDFS / f"{r['key']}.pdf").exists() else ""
+        print(f"  {str(i).rjust(2)}. {r['report_tabled']}  "
+              f"{str(r['days_outstanding']).rjust(5)} days waiting{done}")
+        print(f"      {r['committee']}")
+        print(f"      {r['title']}")
+        print(f"      save as: {i}.pdf      (becomes {r['key']}.pdf)\n")
     return 0
 
 
@@ -156,6 +185,9 @@ def main(argv: list[str]) -> int:
     TEXT.mkdir(parents=True, exist_ok=True)
 
     write_manifest(rows)          # keep the list current with the registers
+    renamed = claim_numbered(rows)
+    for line in renamed:
+        print(f"  renamed {line}")
     if "--list" in argv:
         return show(rows)
 
@@ -164,15 +196,22 @@ def main(argv: list[str]) -> int:
     except ImportError:
         sys.exit("pdfplumber is needed to read the PDFs: pip install -r requirements.txt")
 
-    read, skipped, thin = 0, 0, []
+    read, skipped, thin, bad = 0, 0, [], []
     for r in rows:
         pdf = PDFS / f"{r['key']}.pdf"
         if not pdf.exists():
             skipped += 1
             continue
         out = TEXT / f"{r['key']}.txt"
-        with pdfplumber.open(pdf) as doc:
-            text = "\n".join((p.extract_text() or "") for p in doc.pages)
+        # A saved web page, a truncated download or a login wall saved as .pdf
+        # are all likely in a job done by hand twenty-six times. Name the file
+        # and carry on rather than ending the run with a stack trace.
+        try:
+            with pdfplumber.open(pdf) as doc:
+                text = "\n".join((p.extract_text() or "") for p in doc.pages)
+        except Exception as exc:
+            bad.append((pdf.name, str(exc).split("\n")[0][:80]))
+            continue
         if len(text.strip()) < MIN_CHARS:
             thin.append((r["key"], len(text.strip())))
             r["collected"] = ""
@@ -190,6 +229,10 @@ def main(argv: list[str]) -> int:
         print("\nThese produced almost no text and were not written — a scanned PDF needs OCR:")
         for k, n in thin:
             print(f"  {k}  ({n} characters)")
+    if bad:
+        print("\nThese could not be opened as PDFs at all — check what was actually saved:")
+        for k, why in bad:
+            print(f"  {k}\n    {why}")
     if read:
         print("\nNow run: python extract_report_recommendations.py")
     return 0
