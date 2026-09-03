@@ -138,7 +138,13 @@ const chambers = [
       Awaiting a government response · as at {asAt}
       {checkedTo && <> · responses checked to {formatDate(checkedTo)}</>}
     </p>
-    <h1 class="claim">Committee reports the government has not answered.</h1>
+    {/*
+      Two lines where there is room: the subject, then what is said of it.
+      The break is set by hand because a measure cannot be trusted to put it
+      after "government" at every size; on a narrow screen the break is
+      dropped and the line wraps as it must.
+    */}
+    <h1 class="claim">Committee reports the government<br class="brk" />{" "}has not answered.</h1>
 
     <div class="chambers">
       {chambers.map((c) => (
@@ -405,6 +411,11 @@ const chambers = [
   .claim {
     font-size: clamp(1.375rem, 1rem + 1.2vw, 1.9rem); font-weight: 600;
     max-width: 26ch; margin: 0.15rem 0 1.75rem;
+  }
+  .claim .brk { display: none; }
+  @media (min-width: 44rem) {
+    .claim { max-width: none; }
+    .claim .brk { display: inline; }
   }
 
   .chambers {
