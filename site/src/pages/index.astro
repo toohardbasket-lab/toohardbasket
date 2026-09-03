@@ -153,37 +153,63 @@ const chambers = [
       ))}
     </div>
 
-    <div class="gap measure" data-register={oldest.register}>
-      <p>
-        The longest has been waiting <strong>{humanDuration(oldest.daysOutstanding)}</strong>
-        {" "}since the {oldest.body} committee tabled{" "}
-        <em>{oldest.title}</em> on {formatDate(oldest.owedSince)}. {oldestStatus}
-      </p>
-      {/*
-        The clock. The register counts whole days in Canberra, where the report
-        was tabled, and so does this: the days figure is the calendar count and
-        the rest is how far into today Canberra is. It is on its own line so
-        that a tick never reflows the sentence above it, and it is the only
-        number on the site that moves between builds — the register's own
-        figure stands in for it until the script runs, and for anyone without
-        one.
-      */}
-      <p class="clock" data-tabled={oldest.owedSince}>
-        <span class="clock-days">{fmt(oldest.daysOutstanding)}</span> days<span class="clock-time" aria-hidden="true"></span>
-        {" "}<span class="clock-note">— and counting.</span>
-      </p>
-    </div>
+    {/*
+      Two columns on a wide screen. The sentence about the longest wait is
+      held to a readable measure, and under two full-width tiles that left the
+      right half of a laptop screen empty. What fills it stays on the same
+      subject: the paragraph that explains the phrase the sentence ends on,
+      and the waits that come next — the answer to "is that one outlier?" —
+      with a link down to the full table. On a phone it stacks in the same
+      order.
+    */}
+    <div class="wait">
+      <div class="gap measure" data-register={oldest.register}>
+        <p>
+          The longest has been waiting <strong>{humanDuration(oldest.daysOutstanding)}</strong>
+          {" "}since the {oldest.body} committee tabled{" "}
+          <em>{oldest.title}</em> on {formatDate(oldest.owedSince)}. {oldestStatus}
+        </p>
+        {/*
+          The clock. The register counts whole days in Canberra, where the report
+          was tabled, and so does this: the days figure is the calendar count and
+          the rest is how far into today Canberra is. It is on its own line so
+          that a tick never reflows the sentence above it, and it is the only
+          number on the site that moves between builds — the register's own
+          figure stands in for it until the script runs, and for anyone without
+          one.
+        */}
+        <p class="clock" data-tabled={oldest.owedSince}>
+          <span class="clock-days">{fmt(oldest.daysOutstanding)}</span> days<span class="clock-time" aria-hidden="true"></span>
+          {" "}<span class="clock-note">— and counting.</span>
+        </p>
+      </div>
 
-    <p class="lede measure">
-      {oldest.beingConsidered
-        ? "That is the government’s own phrase, and it covers most of both registers —"
-        : "“Being considered” is the government’s own phrase, and it covers most of both registers —"}
-      {" "}all {fmt(f.house.outstanding)} on the House register, where it is the only
-      thing the government’s report can say about a report it has not answered, and
-      {" "}{fmt(f.beingConsidered)} of the {fmt(f.outstanding)} reports on the Senate
-      register.
-      {" "}<a href="/senate/#outstanding">What it means on each register →</a>
-    </p>
+      <div class="beside measure">
+        <p class="lede">
+          {oldest.beingConsidered
+            ? "That is the government’s own phrase, and it covers most of both registers —"
+            : "“Being considered” is the government’s own phrase, and it covers most of both registers —"}
+          {" "}all {fmt(f.house.outstanding)} on the House register, where it is the only
+          thing the government’s report can say about a report it has not answered, and
+          {" "}{fmt(f.beingConsidered)} of the {fmt(f.outstanding)} reports on the Senate
+          register.
+          {" "}<a href="/senate/#outstanding">What it means on each register →</a>
+        </p>
+        <p class="next-head">And the next longest</p>
+        <ul class="next">
+          {longest.slice(1, 4).map((r) => (
+            <li>
+              <span class="next-days">{fmt(r.daysOutstanding)} days</span>
+              <span class="next-what">
+                <span class="reg-dot" data-register={r.register} aria-hidden="true"></span>{r.url ? <a href={r.url} rel="external">{r.title}</a> : r.title}
+                <span class="next-meta"> · {r.body} · {formatDateShort(r.owedSince)}</span>
+              </span>
+            </li>
+          ))}
+        </ul>
+        <p class="next-more"><a href="#longest">All ten, across both registers →</a></p>
+      </div>
+    </div>
   </section>
 
   <section class="wrap">
@@ -266,7 +292,7 @@ const chambers = [
     </div>
   </section>
 
-  <section class="wrap longest">
+  <section class="wrap longest" id="longest">
     <h2>Longest outstanding</h2>
     <p class="note measure">
       Across both registers. The counts are kept apart because the rules differ and
@@ -399,8 +425,15 @@ const chambers = [
   .chamber-link { margin: 0.7rem 0 0; font-size: 0.875rem; }
 
   .hero .lede em { font-style: normal; color: var(--ink); }
+  /* The longest wait and what sits beside it: one column until the screen is
+     wide enough for the sentence to keep its measure with room to spare. */
+  .wait { margin-top: 1.75rem; }
+  @media (min-width: 62rem) {
+    .wait { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem 3rem; align-items: start; }
+    .beside { margin-top: 0.35rem; }
+  }
   .gap {
-    margin: 1.75rem 0 0;
+    margin: 0;
     padding-left: 0.9rem; border-left: 2px solid var(--series-1);
   }
   .gap p {
@@ -424,7 +457,22 @@ const chambers = [
   }
   .clock-days { font-weight: 600; color: var(--ink); }
   .clock-note { color: var(--ink-muted); }
-  .hero .lede { margin-top: 1.25rem; font-size: 0.9375rem; color: var(--ink-secondary); }
+  .hero .lede { margin: 1.25rem 0 0; font-size: 0.9375rem; color: var(--ink-secondary); }
+  @media (min-width: 62rem) { .hero .lede { margin-top: 0; } }
+  /* The next-longest waits: a rail, not a table — days in the sans, the
+     report in the serif, the chamber's dot before it as everywhere else. */
+  .next-head {
+    font-family: var(--sans); font-size: 0.6875rem; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--ink-muted); margin: 1.5rem 0 0.35rem;
+  }
+  .next { list-style: none; margin: 0; padding: 0; font-size: 0.875rem; line-height: 1.4; }
+  .next li {
+    display: grid; grid-template-columns: 5.75rem 1fr; gap: 0.75rem;
+    padding: 0.45rem 0; border-top: 1px solid var(--rule);
+  }
+  .next-days { font-family: var(--sans); font-variant-numeric: tabular-nums; font-weight: 600; white-space: nowrap; }
+  .next-meta { color: var(--ink-muted); }
+  .next-more { font-family: var(--sans); font-size: 0.875rem; margin: 0.6rem 0 0; }
 
   .two-up {
     display: grid; gap: 2rem 3rem; margin-block: 1rem 3rem;
