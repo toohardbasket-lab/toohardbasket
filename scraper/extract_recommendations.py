@@ -50,19 +50,42 @@ LABEL = re.compile(r"\bRecommendation\s*(?:no\.?\s*)?(\d{1,3}(?:\.\d{1,3})?)\b\s
 # committee recommendation containing "…to ensure that the government has a
 # complete picture" was split at "the government has", and the rest of what the
 # committee asked for was published as the government's answer.
+# The verbs the government answers with, at the start of a sentence. Most
+# responses since 2022 write "The Australian Government notes this
+# recommendation" rather than "The Government notes"; a split that only knew
+# the shorter form left the answer inside the recommendation in four hundred
+# rows and then said it could not find the government's words.
+GOV_VERBS = (r"notes|noted|accepts|accepted|agrees|agreed|supports|supported|does\s+not|"
+             r"will|has|is|considers|acknowledges|recognises|recognizes|partially|rejects|"
+             r"welcomes|remains|thanks|disagrees|endorses|commits|committed|intends|proposes")
+# Where the government's words may begin: at the start of the segment, just
+# after the end of a sentence, or after a blank line. A tabled response set
+# out as a table comes out of the PDF with the verdict on its own line, padded
+# with spaces and separated from the recommendation by blank lines — "Supported
+# in principle" there is not at a sentence end and not at column one.
+_AT = r"(?:^|(?<=[.;:!?])\s{1,3}|(?<=\n)\s*\n\s*)"
 HANDOVER = re.compile(
     r"(^\s*(?:australian\s+)?government(?:'s|’s)?\s+response\b"
-    r"|(?:^|(?<=[.;:!?])\s{1,3})(?:australian\s+)?government(?:'s|’s)?\s+response\b"
+    r"|" + _AT + r"(?:australian\s+)?government(?:'s|’s)?\s+response\b"
     r"|^\s*response\s*:"
-    r"|(?:^|(?<=[.;:!?])\s{1,3})the\s+government\s+(?:notes|accepts|accepted|agrees|"
-    r"agreed|supports|supported|does\s+not|will|has)\b"
-    r"|(?:^|(?<=[.;:!?])\s{1,3})(?:not\s+)?(?:agreed|noted|supported|accepted|"
-    r"partially\s+(?:agreed|supported))(?:\s+in\s+(?:principle|part))?\s*[.\n]"
+    # "Response" as a bare label with no colon, run straight into the answer
+    # by the text extraction: "...harvest strategies. Response The Australian
+    # Government notes this recommendation."
+    r"|" + _AT + r"response\s+(?=the\s+(?:australian\s+)?government\b)"
+    r"|" + _AT + r"the\s+(?:australian\s+)?government\s+(?:" + GOV_VERBS + r")\b"
+    # A bare verdict, ended by a full stop or a line break — or, where the
+    # extraction has run the lines together, by the capital that starts the
+    # government's next sentence: "Supported in principle The Australian
+    # Government will work with...".
+    r"|" + _AT + r"(?:not\s+)?(?:agreed|noted|supported|accepted|"
+    r"partially\s+(?:agreed|supported))(?:\s+in\s+(?:principle|part))?"
+    r"(?:\s*[.\n]|(?=\s+(?-i:[A-Z])))"
     r")", re.I | re.M)
 
 # A label the split leaves at the head of the government's words.
 GOV_LABEL = re.compile(r"^\s*(?:australian\s+)?government(?:'s|’s)?\s+response\s*[:.\-–—]?\s*"
-                       r"|^\s*response\s*[:.\-–—]\s*", re.I)
+                       r"|^\s*response\s*[:.\-–—]\s*"
+                       r"|^\s*response\s+(?=the\s)", re.I)
 
 # A recommendation that still ends in the government's verdict has been split in
 # the wrong place; publishing it would put the answer inside the question.
