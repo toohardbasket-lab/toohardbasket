@@ -58,9 +58,10 @@ const share = Math.round((strip.closures / strip.total) * 5);
     </div>
     <div class="measure">
       <p>
-        “The Government notes this recommendation. However, given the passage of time since
-        this report was tabled, a substantive Government response is no longer appropriate.”
-        That sentence closes {share === 2 ? "two in five" : `${fmt(strip.closures)} of ${fmt(strip.total)}`} of
+        <em class="sentence">“The Government notes this recommendation. However, given the passage of
+        time since this report was tabled, a substantive Government response is no longer
+        appropriate.”</em>
+        {" "}That sentence closes {share === 2 ? "two in five" : `${fmt(strip.closures)} of ${fmt(strip.total)}`} of
         the responses tabled since {strip.from.slice(0, 4)}, and takes a position on nothing.
       </p>
       <p>
@@ -74,6 +75,9 @@ const share = Math.round((strip.closures / strip.total) * 5);
 </section>
 
 <style>
+  /* The government's sentence, quoted, set apart from what is said about it. */
+  .measure em.sentence { font-style: italic; color: var(--ink); }
+
   .strip-section { margin-block: 2.5rem 2rem; padding-top: 2rem; border-top: 1px solid var(--rule); }
   .strip-grid {
     display: grid; gap: 2rem 3rem; align-items: start;
