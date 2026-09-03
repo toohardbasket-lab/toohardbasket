@@ -12,11 +12,13 @@ const year = new Date().getFullYear();
 // one-line change there rather than an edit here.
 const nav = [
   { href: "/", label: "Home" },
-  // Senate before House: it is the first claimant, the larger register, and the
-  // one every compliance figure on this site is drawn from.
+  // House before Senate, as the site's author wants it. A pre-launch review
+  // argued for the Senate first, on the grounds that it is the first claimant
+  // and the larger register; that is a reason, not a decision, and the decision
+  // is his. The home page is ordered to match — the two must never disagree.
   ...liveRegisters()
     .slice()
-    .sort((a, b) => (a.slug === "senate" ? -1 : b.slug === "senate" ? 1 : 0))
+    .sort((a, b) => (a.slug === "house" ? -1 : b.slug === "house" ? 1 : 0))
     .map((r) => ({ href: `/${r.slug}/`, label: r.shortName })),
   // Every other item in this bar names a thing the site holds. "Search" named
   // an action instead, and did not say what there was to search — a reader

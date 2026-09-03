@@ -78,17 +78,10 @@ const typical = typicalYear(perYear, "2023");
 // Senate first, as it is in the nav and everywhere else: it is the first
 // claimant, the larger register, and the one every compliance figure on
 // this site is drawn from. The order was the other way round here alone.
+// House first, matching the nav. The order is the author's choice, not a
+// judgement about which chamber matters more; what matters is that this
+// and the nav never disagree.
 const chambers = [
-  {
-    slug: "senate",
-    count: f.outstanding,
-    name: senate.name,
-    rule: "The Senate asks for a response within three months.",
-    overdue: f.ledger.filter((r) => r.overdue).length,
-    href: "/senate/",
-    link: "The Senate register",
-    ruleSince: senate.ruleSince,
-  },
   {
     slug: "house",
     count: f.house.outstanding,
@@ -98,6 +91,16 @@ const chambers = [
     href: "/house/",
     link: "The House register",
     ruleSince: house.ruleSince,
+  },
+  {
+    slug: "senate",
+    count: f.outstanding,
+    name: senate.name,
+    rule: "The Senate asks for a response within three months.",
+    overdue: f.ledger.filter((r) => r.overdue).length,
+    href: "/senate/",
+    link: "The Senate register",
+    ruleSince: senate.ruleSince,
   },
 ];
 ---
