@@ -53,18 +53,31 @@ const longest = longestWaits(10);
 const missing = registerReportsWithoutSource();
 const oldest = longest[0];
 /*
- * The clock under the longest wait counts from midnight in Canberra on the day
- * the report was tabled. The offset is worked out here, at build time, so a
- * reader in Perth, London or New York sees the same interval; the days figure
- * it prints is the register's own until midnight passes, when it advances one
- * — the only number on the site that moves between builds, and it moves
- * because time does.
+ * What the presiding officer's latest status report says about the longest
+ * wait. Today that is "being considered", but the sentence has to follow the
+ * row: the day this report is answered the next one takes its place, and the
+ * fourth-longest is one the government has answered in part.
  */
-const sinceMs = (() => {
-  const utc = Date.parse(`${oldest.owedSince}T00:00:00Z`);
-  const local = new Date(new Date(utc).toLocaleString("en-US", { timeZone: "Australia/Canberra" }));
-  return utc - (local.getTime() - utc);
-})();
+const oldestStatus = oldest.beingConsidered
+  ? "What the government’s latest status report says about it is that its response is “being considered”."
+  : oldest.partial
+    ? "The government has answered some of its recommendations and not the rest, and the presiding officer still lists it as waiting."
+    : oldest.interim
+      ? "The government has sent an interim response, and the presiding officer still lists it as waiting."
+      : "The government’s latest status report records nothing received.";
+/*
+ * "A report waiting eleven years is waiting eleven years" — in words, because
+ * the sentence is rhetoric, not a figure, and in the register's own unit of
+ * whole years so it never rounds up. Written out only where English does;
+ * past twenty the numeral is the plainer word.
+ */
+const yearsInWords = (days: number): string => {
+  const y = Math.floor(days / 365.25);
+  const words = ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+    "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty"];
+  return words[y] ?? String(y);
+};
+const oldestYears = yearsInWords(oldest.daysOutstanding);
 
 /**
  * The ten longest waits are, at the moment, all Senate reports — the Senate's
@@ -89,9 +102,6 @@ const chambersShown = new Set(longest.map((r) => r.register));
 const perYear = responsesByYear();
 const typical = typicalYear(perYear, "2023");
 
-// Senate first, as it is in the nav and everywhere else: it is the first
-// claimant, the larger register, and the one every compliance figure on
-// this site is drawn from. The order was the other way round here alone.
 // House first, matching the nav. The order is the author's choice, not a
 // judgement about which chamber matters more; what matters is that this
 // and the nav never disagree.
@@ -143,19 +153,35 @@ const chambers = [
       ))}
     </div>
 
-    <p class="gap measure" data-register={oldest.register}>
-      The longest has been waiting <strong>{humanDuration(oldest.daysOutstanding)}</strong>
-      {" "}— <span class="clock" data-since={sinceMs}><span class="clock-days">{fmt(oldest.daysOutstanding)}</span> days<span class="clock-time" aria-hidden="true"></span></span>
-      {" "}since the {oldest.body} committee tabled{" "}
-      <em>{oldest.title}</em> on {formatDate(oldest.owedSince)}. What the government’s
-      latest status report says about it is that its response is “being considered”.
-    </p>
+    <div class="gap measure" data-register={oldest.register}>
+      <p>
+        The longest has been waiting <strong>{humanDuration(oldest.daysOutstanding)}</strong>
+        {" "}since the {oldest.body} committee tabled{" "}
+        <em>{oldest.title}</em> on {formatDate(oldest.owedSince)}. {oldestStatus}
+      </p>
+      {/*
+        The clock. The register counts whole days in Canberra, where the report
+        was tabled, and so does this: the days figure is the calendar count and
+        the rest is how far into today Canberra is. It is on its own line so
+        that a tick never reflows the sentence above it, and it is the only
+        number on the site that moves between builds — the register's own
+        figure stands in for it until the script runs, and for anyone without
+        one.
+      */}
+      <p class="clock" data-tabled={oldest.owedSince}>
+        <span class="clock-days">{fmt(oldest.daysOutstanding)}</span> days<span class="clock-time" aria-hidden="true"></span>
+        {" "}<span class="clock-note">— and counting.</span>
+      </p>
+    </div>
 
     <p class="lede measure">
-      That is the government’s own phrase, and it covers most of both registers —
+      {oldest.beingConsidered
+        ? "That is the government’s own phrase, and it covers most of both registers —"
+        : "“Being considered” is the government’s own phrase, and it covers most of both registers —"}
+      {" "}all {fmt(f.house.outstanding)} on the House register, where it is the only
+      thing the government’s report can say about a report it has not answered, and
       {" "}{fmt(f.beingConsidered)} of the {fmt(f.outstanding)} reports on the Senate
-      register, and all {fmt(f.house.outstanding)} on the House register, where it is the
-      only thing the government’s report can say about a report it has not answered.
+      register.
       {" "}<a href="/senate/#outstanding">What it means on each register →</a>
     </p>
   </section>
@@ -245,11 +271,12 @@ const chambers = [
     <p class="note measure">
       Across both registers. The counts are kept apart because the rules differ and
       because most of what is on them is joint committee reports, listed by both presiding
-      officers — but a report waiting eleven years is waiting eleven years whichever
-      register it is on.
+      officers — but a report waiting {oldestYears} years is waiting {oldestYears} years
+      whichever register it is on.
       {chambersShown.size === 1 && firstHouse && (
         <>
-          {" "}All ten are from the Senate register, which reaches back to 2014 where the
+          {" "}All ten are from the Senate register, which reaches back to
+          {" "}{oldest.owedSince.slice(0, 4)} where the
           House register stops at {firstHouse.owedSince.slice(0, 4)}. That is not the House
           doing better: in 2023 its committee chairs agreed to recommend taking every report presented
           before July 2019 off the schedule unless the committee that made it asked to keep
@@ -297,30 +324,45 @@ const chambers = [
       </p>
     )}
     <p class="more">
-      <a href="/senate/">All {fmt(f.outstanding)} in the Senate register →</a>{" "}
-      <a href="/house/">All {fmt(f.house.outstanding)} in the House register →</a>
+      <a href="/house/">All {fmt(f.house.outstanding)} in the House register →</a>{" "}
+      <a href="/senate/">All {fmt(f.outstanding)} in the Senate register →</a>
     </p>
   </section>
 </Base>
 
 <script>
-  // The live clock under the longest wait. The days figure is the register's
-  // own and is only advanced when a whole day has passed since the build; the
-  // time beside it is the same interval, still running.
+  // The live clock under the longest wait, kept in Canberra time whoever is
+  // reading. The days figure is the calendar count from the day the report
+  // was tabled — the register's own arithmetic, so it agrees with the table
+  // on the day the register is rebuilt and runs one ahead of it by the week's
+  // end — and the rest is how far into today Canberra is, written out in
+  // words so that nobody reads it as a clock showing the wrong time. The
+  // first version printed "18:15:36" beside the days, which in Perth at 15:15
+  // and in Canberra at 17:15 looked broken, because it was measured from a
+  // summer-time midnight.
   const el = document.querySelector<HTMLElement>(".clock");
-  if (el) {
-    const since = Number(el.dataset.since);
+  if (el && el.dataset.tabled) {
+    const [ty, tm, td] = el.dataset.tabled.split("-").map(Number);
+    const tabled = Date.UTC(ty, tm - 1, td);
     const days = el.querySelector<HTMLElement>(".clock-days")!;
     const time = el.querySelector<HTMLElement>(".clock-time")!;
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const pad = (n: number) => String(n).padStart(2, "0");
+    const canberra = new Intl.DateTimeFormat("en-AU", {
+      timeZone: "Australia/Canberra", hourCycle: "h23",
+      year: "numeric", month: "numeric", day: "numeric",
+      hour: "numeric", minute: "numeric", second: "numeric",
+    });
+    const unit = (n: number, word: string) => `${n} ${word}${n === 1 ? "" : "s"}`;
     const tick = () => {
-      const ms = Date.now() - since;
-      const d = Math.floor(ms / 86_400_000);
-      const rem = ms - d * 86_400_000;
-      const h = Math.floor(rem / 3_600_000), m = Math.floor((rem % 3_600_000) / 60_000), s = Math.floor((rem % 60_000) / 1000);
+      const p: Record<string, number> = {};
+      for (const part of canberra.formatToParts(new Date())) {
+        if (part.type !== "literal") p[part.type] = Number(part.value);
+      }
+      const d = Math.round((Date.UTC(p.year, p.month - 1, p.day) - tabled) / 86_400_000);
       days.textContent = d.toLocaleString("en-AU");
-      time.textContent = `${pad(h)}:${pad(m)}${reduced ? "" : ":" + pad(s)}`;
+      time.textContent = reduced
+        ? `, ${unit(p.hour, "hour")} and ${unit(p.minute, "minute")}`
+        : `, ${unit(p.hour, "hour")}, ${unit(p.minute, "minute")} and ${unit(p.second, "second")}`;
     };
     tick();
     setInterval(tick, reduced ? 60_000 : 1000);
@@ -358,24 +400,30 @@ const chambers = [
 
   .hero .lede em { font-style: normal; color: var(--ink); }
   .gap {
-    font-size: clamp(1.0625rem, 0.95rem + 0.5vw, 1.25rem);
-    line-height: 1.45; margin: 1.75rem 0 0;
+    margin: 1.75rem 0 0;
     padding-left: 0.9rem; border-left: 2px solid var(--series-1);
+  }
+  .gap p {
+    font-size: clamp(1.0625rem, 0.95rem + 0.5vw, 1.25rem);
+    line-height: 1.45; margin: 0;
   }
   .gap[data-register="senate"] { border-left-color: var(--senate); }
   .gap[data-register="house"] { border-left-color: var(--house); }
   /*
-   * The clock. The register prints days; this adds the hours, minutes and
-   * seconds of the same interval, in the sans with tabular figures so it does
-   * not jitter. Decorative: aria-hidden, and it stops at minutes for anyone who
-   * has asked for less motion.
+   * The clock, on its own line under the sentence: the same interval in days,
+   * hours, minutes and seconds, in the sans with tabular figures so the
+   * seconds do not jitter, and the line's own width can change without moving
+   * a word above it. Decorative beyond the days figure — the time is
+   * aria-hidden — and it stops at minutes for anyone who has asked for less
+   * motion.
    */
-  .clock-days { font-variant-numeric: tabular-nums; }
-  .clock-time {
-    font-family: var(--sans); font-variant-numeric: tabular-nums; font-weight: 500;
-    font-size: 0.8em; color: var(--ink-secondary); margin-left: 0.45em;
+  .gap .clock {
+    font-family: var(--sans); font-variant-numeric: tabular-nums;
+    font-size: 0.9375rem; line-height: 1.5; color: var(--ink-secondary);
+    margin-top: 0.55rem;
   }
-  .clock-time:empty { display: none; }
+  .clock-days { font-weight: 600; color: var(--ink); }
+  .clock-note { color: var(--ink-muted); }
   .hero .lede { margin-top: 1.25rem; font-size: 0.9375rem; color: var(--ink-secondary); }
 
   .two-up {
