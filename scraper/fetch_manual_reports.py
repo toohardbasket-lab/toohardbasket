@@ -31,9 +31,11 @@ Then: python harvest_manual_reports.py, which reads them into the text cache.
 from __future__ import annotations
 
 import csv
+import html
 import pathlib
 import re
 import sys
+import tempfile
 import time
 import urllib.parse
 
@@ -78,11 +80,14 @@ def get(session, url: str, **kw):
     return session.get(url, headers=HEADERS, timeout=60, allow_redirects=True, **kw)
 
 
-def pdf_links(page_url: str, html: str) -> list[str]:
+def pdf_links(page_url: str, page_html: str) -> list[str]:
     """Every PDF on the page, best candidate for the whole report first."""
     found = []
-    for m in re.finditer(r'href="([^"]+)"', html):
-        href = m.group(1).replace("&amp;", "&")
+    for m in re.finditer(r'href="([^"]+)"', page_html):
+        # Full unescaping, not just &amp;. One report's URL carries an
+        # apostrophe written as &#39;, and half-unescaping it produced a link
+        # that fetched nothing and reported the page as having no PDF at all.
+        href = html.unescape(m.group(1))
         if ".pdf" not in href.lower():
             continue
         # aph writes site-root media links as "~/media/...". Stripping the
@@ -90,6 +95,9 @@ def pdf_links(page_url: str, html: str) -> list[str]:
         if href.startswith("~/"):
             href = "/-/" + href[2:]
         url = urllib.parse.urljoin(page_url, href)
+        # ParlInfo hands back a PDF either way, but says so only when asked.
+        if "parlinfo.aph.gov.au" in url and "fileType=" not in url:
+            url += ";fileType=application%2Fpdf"
         if url not in found:
             found.append(url)
 
@@ -141,30 +149,45 @@ def main(argv: list[str]) -> int:
         if target.exists():
             continue
         page = (r.get("report_page_url") or "").strip()
-        if not page:
+        # A few committee pages answer a browser and 404 a script, and one
+        # answers neither reliably. Where the PDF's own address is known, it is
+        # recorded and used directly; the check below still has to pass, so a
+        # wrong address is caught the same way a wrong link would be.
+        direct = (r.get("pdf_direct_url") or "").strip()
+        if not page and not direct:
             failed.append((i, r["title"], "no report_page_url in the manifest"))
             continue
 
         print(f"\n{i:>2}. {r['title'][:66]}")
-        try:
-            resp = get(session, page)
-            resp.raise_for_status()
-        except Exception as exc:
-            failed.append((i, r["title"], f"page: {str(exc)[:70]}"))
-            continue
-
-        candidates = pdf_links(page, resp.text)
-        if not candidates:
-            failed.append((i, r["title"], "no PDF linked from that page"))
-            continue
+        if direct:
+            candidates = [direct]
+        else:
+            try:
+                resp = get(session, page)
+                resp.raise_for_status()
+            except Exception as exc:
+                failed.append((i, r["title"], f"page: {str(exc)[:70]}"))
+                continue
+            candidates = pdf_links(page, resp.text)
+            if not candidates:
+                failed.append((i, r["title"], "no PDF linked from that page"))
+                continue
 
         best, chosen = None, None
         for url in candidates[:4]:
             try:
                 pr = get(session, url)
-                if pr.status_code != 200 or "pdf" not in pr.headers.get("content-type", ""):
+                # What it IS, not what it says it is. ParlInfo serves these
+                # with no content-type at all unless the URL carries a
+                # fileType parameter, and the header check silently skipped
+                # every report published through it.
+                if pr.status_code != 200 or not pr.content.startswith(b"%PDF"):
                     continue
-                tmp = PDFS / "_candidate.pdf"
+                # Scratch goes to a temp directory, never into the folder the
+                # collected reports live in: a half-downloaded candidate sitting
+                # beside them is one careless glob away from being published,
+                # and the folder is the user's, not ours to litter.
+                tmp = pathlib.Path(tempfile.gettempdir()) / "thb_candidate.pdf"
                 tmp.write_bytes(pr.content)
                 with pdfplumber.open(tmp) as doc:
                     head = "\n".join((p.extract_text() or "") for p in doc.pages[:3])
@@ -176,7 +199,6 @@ def main(argv: list[str]) -> int:
             except Exception as exc:
                 print(f"      --    {url.split('/')[-1][:44]}  ({str(exc)[:40]})")
 
-        (PDFS / "_candidate.pdf").unlink(missing_ok=True)
         if not chosen or best < 0.55:
             failed.append((i, r["title"],
                            f"nothing on the page reads like this report (best {best or 0:.2f})"))
@@ -184,7 +206,7 @@ def main(argv: list[str]) -> int:
 
         url, content, pages = chosen
         target.write_bytes(content)
-        r["pdf_source_url"] = page
+        r["pdf_source_url"] = page or url
         r["notes"] = (f"downloaded from {url.split('/')[-1]}, {pages} pages, "
                       f"title match {best:.2f}").strip()
         got += 1

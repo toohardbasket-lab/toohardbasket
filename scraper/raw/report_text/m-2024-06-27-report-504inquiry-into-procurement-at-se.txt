@@ -1,0 +1,946 @@
+Report 504: Inquiry into
+procurement at Services Australia
+and the NDIA
+Final Report
+Joint Committee of Public Accounts and Audit
+June 2024
+CANBERRA
+© Commonwealth of Australia 2024
+ISBN 978-1-76092-676-2 (Printed version)
+ISBN 978-1-76092-677-9 (HTML version)
+All material in this report is provided under a Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 Australia licence. The material may be shared, copied and redistributed provided that:
+• it is for non-commercial purposes
+• the committee named on the previous page is credited as the author
+• the committee is not represented as endorsing the use of the material
+• any changes are clearly identified
+• no additional legal or technical restrictions are applied to restrict use that complies with the
+licence.
+If the material is remixed, transformed or built upon, the modified material may not be distributed.
+Full details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Chair's Foreword
+The Committee’s Interim Report tabled in September 2023 focussed primarily on the
+activities of the Synergy 360 consulting firm in advising the multinational software company
+Infosys in obtaining Government contracts. The Committee also investigated the alleged
+involvement of Synergy 360 with former Minister Stuart Robert and whether misconduct had
+occurred due to its clients having privileged access to him while tendering for Government
+business.
+The Committee made no findings of malfeasance in relation to any individuals involved
+based on the evidence that it received. Regrettably, however, a number of the Committee’s
+requests via formal summons for witnesses to appear and for documents to be presented in
+relation to these alleged activities were wilfully ignored. These matters were therefore
+handed over by the Committee to the National Anti-Corruption Commission for its
+consideration as it has the necessary investigatory powers and resources to potentially
+resolve these questions should it choose to do so.
+As a second recommendation, the Committee sought approval from the Speaker of the
+House of Representatives to commission legal advice on the extent of its statutory powers to
+summon witnesses, particularly in circumstances where an individual is overseas. This was
+to provide clarity for future inquiries where these powers may again need to be exercised. A
+response to the Interim Report is awaited with interest.
+This final report focuses on the award of a large contract to the ICT vendor Salesforce by the
+National Disability Insurance Agency (NDIA) for a new customer relationship and
+management software platform, known as the PACE system. Evidence received indicates
+that PACE has been working appropriately.
+Unfortunately, however, aspects of this procurement conducted by NDIA fell short of the
+Commonwealth Procurement Rules and ethical requirements.
+The Watt review did not make specific findings of misconduct in relation to the PACE
+contract award but did identify deficiencies in NDIA’s procurement management. This led to
+an internal review being initiated by NDIA that remains ongoing.
+The Committee was surprised to find that no explicit price weighting was included in NDIA’s
+value for money assessments when ranking the tender proposals for this procurement and
+makes a recommendation regarding this.
+Very significant contract variations were examined closely by the Committee. Variations saw
+Salesforce’s contract value rise from an initial $27 million at inception in April 2020 to $135
+million by October 2023. While some of this was explicable by a necessary expansion of
+user licences, a substantial proportion was due to significant changes in scope. Of concern
+is that other vendors had no opportunity to tender for the product that was ultimately
+iii
+delivered as these variations in scope occurred after the contract had been awarded. In
+addition, more than $20 million was added to the Salesforce contract for ‘professional
+services’ raising questions about cost control and value for money assessments.
+The most egregious issue to arise from this procurement activity however is what appear to
+be clear breaches of the NDIA’s Gifts and Hospitality policy by officials over a long period of
+time.
+NDIA informed the Committee that any gifts or benefits of over $100 in value must be pre-
+approved and then recorded in a compliance log but that no such disclosures had been
+made in relation to the Salesforce contract.
+The Committee then received a detailed itemised list from Salesforce containing more than
+100 instances of hospitality and/or gifts passing to NDIA officials over an almost 5-year-
+period both before and after the PACE contract bid and award, and throughout the periods of
+the contract variations. These included close to 50 items above $100 in value per person
+including meals, drinks and golf outings.
+The premise stated by NDIA for its hospitality policy is that none of its officials should accept
+gifts that could be seen to compromise their integrity. NDIA further stated in a hearing for the
+inquiry that ‘it would be hard to see how a contract manager could maintain their integrity
+whilst accepting gifts from a vendor.’ The NDIA also gave evidence that an obligation on
+officials to not accept any gifts commences the moment a procurement starts to be planned.
+The Committee concurs fully with these principles.
+Breaches of disclosure requirements and gifts and hospitality policies are simply
+unacceptable. It is understood that NDIA officials would need to engage with counterparts at
+Salesforce during the operation of this substantial contract. Some social elements to this
+may be reasonable, but any such interactions must be carefully conducted and managed to
+ensure that probity and integrity standards are maintained.
+The Committee is not privy to, nor has it sought, the identities and roles of the NDIA officials
+who accepted gifts from Salesforce and does not have a remit to investigate these
+individuals. It is understood that NDIA is taking this matter seriously and the Committee
+welcomes this.
+This episode raises further serious questions about how widespread this sort of practice and
+culture may be in other Commonwealth entities by Salesforce and other major ICT vendors.
+The Committee has sought additional information from Salesforce regarding the operation of
+its self-styled ‘Office of Global Ethics and Integrity’ which is supposed to have individually
+approved every instance of hospitality to government officials worldwide.
+Given concerns regarding potential systemic inappropriate cultivation of public servants by
+Salesforce over a long period of time the Committee is requesting a further report on all
+hospitality Salesforce has provided to Commonwealth officials in all entities over the past
+three years.
+The evidence to the inquiry has shown overlap over a long period of time between the
+aforementioned hospitality events and gifts, undeclared meetings between former Minister
+iv
+Stuart Robert, Synergy 360, and Salesforce, and major and ongoing procurement activity
+and contract management by NDIA in relation to the PACE system.
+The Committee has already substantially addressed issues relating to former Minister Robert
+and Synergy 360 in its Interim Report but finds it concerning that no records of discussions
+at three separate meetings with Salesforce are available. There is no evidence either that
+other tenderers or potential vendors who were not clients of Synergy 360 were afforded the
+same opportunity to engage with the then Minister. Ultimately, it was Salesforce that had this
+access, secured a major government contract and later benefited from a series of lucrative
+variations and provided undeclared hospitality to government officials.
+The Committee makes five recommendations in this final report that include updates from
+NDIA on both its internal procurement review and on the continuing implementation of the
+PACE system, including anticipated cost savings; action by the Department of Finance and
+the Digital Transformation Agency to assess whether any inappropriate cultivation of
+Commonwealth officials by different ICT vendors is occurring; and a consideration by ANAO
+of possible future audits in relation to gifts and hospitality issues in the public sector.
+I acknowledge the work and the professionalism of the Committee secretariat in supporting
+this inquiry.
+Julian Hill MP
+Chair
+v
+
+Contents
+Chair's Foreword............................................................................................iii
+Abbreviations .................................................................................................ix
+Members..........................................................................................................xi
+Terms of reference.......................................................................................xiii
+List of recommendations..............................................................................xv
+Report
+1. Introduction .................................................................................................1
+Conduct of the inquiry..................................................................................................1
+Interim report on 13 September 2023..................................................................................1
+Present (Final) report...........................................................................................................3
+2. Procurement of the PACE platform by NDIA............................................5
+Overview......................................................................................................................5
+Contract variations.......................................................................................................6
+Increased user licences...............................................................................................7
+Value for money...........................................................................................................7
+Conduct of the PACE procurement ...........................................................................10
+Findings of the Watt review...............................................................................................10
+Hospitality and gifts...........................................................................................................10
+Engagement by Salesforce of Synergy 360 and David Milo.............................................11
+Meetings with former Minister Stuart Robert and Mr Milo.................................................12
+Committee comment..................................................................................................13
+Appendixes
+Additional comments....................................................................................19
+Appendix A. Submissions............................................................................21
+vii
+Appendix B. Public hearings........................................................................23
+List of Tables
+Table 1 Salesforce meetings with former Minister Robert in 2019 and 2020..............12
+List of Figures
+Figure 1 PACE procurement timeline from 2019-2023, including meetings and
+hospitality....................................................................................................................14
+viii
+Abbreviations
+CRM Customer Relationship Management System
+DSW Disability Support Workers
+JCPAA Joint Committee of Public Accounts and Audit
+NACC National Anti-Corruption Commission
+NDIA National Disability Insurance Agency
+NDIS National Disability Insurance Scheme
+NQSC Quality and Safeguards Commission
+ix
+
+Members
+Chair
+Mr Julian Hill MP
+Deputy Chair
+Senator the Hon Linda Reynolds CSC
+Members
+Dr Michelle Ananda-Rajah MP
+Senator Catryna Bilyk
+Senator the Hon Matthew Canavan
+Dr Carina Garland MP
+Mr Ian Goodenough MP (from 6 March 2023)
+Senator Karen Grogan
+Dr Daniel Mulino MP
+Ms Peta Murphy MP (to 1 August 2023, from 9 August to 4 December 2023)
+Mr Graham Perrett MP (from 20 June to 9 August 2023)
+Mr Henry Pike MP (from 22 March 2023)
+Senator Barbara Pocock (from 31 July 2023)
+Mr Sam Rae MP (to 20 June 2023, from 1 August 2023)
+Senator Tony Sheldon
+Mr Aaron Violi MP
+Mr Josh Wilson MP (from 28 November 2023)
+This committee is supported by staff of the Department of the House of Representatives
+xi
+
+Terms of reference
+The Committee will inquire into and report on:
+1 procurement matters at Services Australia and the National Disability Insurance
+Agency (NDIA) contained in or related to the Independent Review of Services
+Australia and NDIA Procurement and Contracting (the 'Watt review'), and
+2 the conduct of entities or persons involved in the activities considered by the
+Watt review, including issues of culture and probity.
+xiii
+
+List of recommendations
+Recommendation 1
+2.48 The Committee recommends that the National Disability Insurance Agency
+provides it with a detailed update on its own internal investigations into
+matters arising from the Watt Review, and its subsequent actions, at six
+months and again at 12 months from the date of this report.
+Recommendation 2
+2.49 The Committee recommends that the National Disability Insurance Agency
+updates it on the continuing implementation of the PACE system, including an
+assessment of value for money, productivity, user experience, and improved
+outcomes, at six months and again at 12 months from the date of this report.
+Recommendation 3
+2.50 The Committee recommends that the National Disability Insurance Agency
+provide an update in December 2024 regarding progress in the realisation of
+cost savings and anti-fraud measures as a result of the new PACE system.
+Recommendation 4
+2.51 The Committee recommends that the Department of Finance and the Digital
+Transformation Agency take appropriate action to understand the extent to
+which inappropriate cultivation of Commonwealth officials may be occurring
+as a result of hospitality and gifts by major ICT vendors.
+Recommendation 5
+2.52 The Committee recommends that the Australian National Audit Office consider
+the evidence and issues raised in this inquiry and consider further audits in
+relation to gifts and hospitality issues in the public sector to identify practices
+of concern, raise awareness, and help to build ethical cultures that operate
+with probity. This may include exercising its powers to obtain information from
+private sector entities that contract to the Commonwealth, in relation to gifts
+and hospitality provided to public officials.
+xv
+
+1. Introduction
+1.1 During the course of the Committee’s inquiry into Commonwealth procurement,
+completed in 2023,1 issues were raised regarding certain procurements undertaken
+by Services Australia and the National Disability Insurance Agency (NDIA).
+1.2 Dr Ian Watt AC had been appointed to lead an Independent Review of Services
+Australia and NDIA Procurement and Contracting (hereafter referred to as the 'Watt
+review'), which commenced in December 2022. That investigation addressed
+questions about the involvement of Milo Consulting (trading as Synergy 360) and
+associated entities in procurements at the two agencies and reported its findings on
+6 March 2023.2
+1.3 The Committee held a public hearing on 14 April 2023 to consider the findings of the
+Watt review, at that time as part of its existing procurement inquiry, and heard
+evidence from Dr Watt, Services Australia, the NDIA, and other witnesses involved or
+connected with Synergy 360.
+1.4 The Committee subsequently resolved on 11 May 2023 to conduct this separate
+inquiry into the issues arising from the Watt review and issued a media
+announcement on 17 May 2023. The Committee had determined that because the
+scope of the Watt review had been limited to the conduct of Australian public
+servants, it would inquire separately into the issues raised in and associated with its
+findings, rather than incorporate this new material into the existing procurement
+inquiry.
+Conduct of the inquiry
+Interim report on 13 September 2023
+1.5 The Committee conducted public hearings for the inquiry on 23 June and
+8 September 2023 (Appendix B). Six submissions were received by the inquiry at this
+stage, including one confidentially (Appendix A).
+1.6 The initial focus of the Committee were the activities of the Synergy 360 consulting
+firm and its role as an advisor to the technology company Infosys on growing its
+public sector business and obtaining Government IT contracts.
+1 Joint Committee of Public Accounts and Audit (JCPAA), Report 498: ‘Commitment Issues’ – An Inquiry into
+Commonwealth procurement, August 2023.
+2 Dr Ian Watt AC, Independent Review of Services Australia and NDIA Procurement and Contracting:
+Independent Reviewer’s Report, March 2023.
+1
+1.7 The Committee published an interim report for the inquiry on 13 September 20233 in
+which it drew the following conclusions:
+• Serious questions had arisen about financial impropriety and improper
+relationships with parties receiving contracts from the Commonwealth
+• Infosys paid significant funds to Synergy 360 for a number of contracts
+• Infosys held a range of meetings with former Minster Stuart Robert when it was
+bidding for, or delivering, a later troubled major IT contract, with no public servants
+present or records kept
+• Although alleged, no direct evidence was presented that former Minister Robert
+benefitted financially from the awards of any contracts, and these allegations were
+strongly rejected by him
+• The Committee’s efforts to obtain further documentation in relation to these
+allegations were frustrated by refusals to comply with requests for this information.
+1.8 The Committee noted also in these interim report findings that questions had arisen
+regarding its statutory powers under sections 13-15 of the Public Accounts and Audit
+Committee Act 1951. The Committee commented in this respect that:
+Comprehensive advice is not available to the Committee regarding the full extent
+of and procedures relating to these powers, which do not appear to have been
+used in recent memory. Legal advice is therefore required which can guide this
+and future Committees when necessary.4
+1.9 The Committee determined that as it did not have the resources or accounting
+expertise available to it to properly assess or make findings in relation to the
+allegations, a referral would be made to the newly established National Anti-
+Corruption Commission (NACC) to consider this matter. The Committee’s view was
+that consideration of these allegations would need to be made by an agency with
+compulsory questioning and document gathering and investigatory powers.
+1.10 The Committee made the following two recommendations in its interim report:
+1 The Committee recommends that the National Anti-Corruption Commission examine all
+material gathered through this inquiry to determine whether or not to conduct its own
+inquiry into procurements at Services Australia and the National Disability Insurance
+Agency involving Milo Consulting (trading as Synergy 360), the Hon Stuart Robert, and
+John Margerison [a part owner of Synergy 360 and former business partner of Mr
+Robert]. In making this recommendation the Committee is not making any findings in
+relation to the conduct of any individuals.
+2 The Committee recommends that the Speaker of the House of Representatives approve
+the commissioning of legal advice in relation to the Committee’s statutory powers under
+3 Joint Standing Committee of Public Accounts and Audit (JCPAA), Report 500: Inquiry into procurement at
+Services Australia and the NDIA - Interim Report, September 2023, Canberra.
+4 JCPAA, Report 500: Inquiry into procurement at Services Australia and the NDIA - Interim Report,
+September 2023, Canberra, p. 7.
+2
+sections 13-15 of the Public Accounts and Audit Committee Act 1951 including but not
+limited to situations in which a person claims to be resident overseas.
+1.11 Coalition members of the Committee presented a dissenting opinion in relation to
+recommendation 1 and the referral to the NACC.5 The Committee published a
+corrigendum to the interim report on 15 November 2023 in relation to a minor factual
+issue which had no impact on its findings or recommendations.6
+Present (Final) report
+1.12 The Committee conducted two further hearings for the inquiry on 20 November 2023
+and 1 February 2024 (Appendix B). Four additional submissions. including one
+confidential submission, and six supplementary submissions were received
+(Appendix A).
+1.13 The focus of the Committee in the latter part of the inquiry, discussed in this final
+report, was the procurement of the PACE system by NDIA from the IT company
+Salesforce. The PACE system replaced NDIA’s previous customer relationship
+platform to improve its management of the interactions between participants, staff
+and partners in the scheme.
+1.14 This procurement by NDIA had been evaluated by the Watt review, which did not
+report misconduct in relation to the contract award but did note certain behaviours
+that fell short of the standards expected of Australian public servants. NDIA accepted
+this assessment and initiated its own internal review, which was ongoing at the time
+of writing and was expected to conclude in late 2024.
+1.15 The Committee explored these issues further in the following areas:
+• Contract variations
+• Increased user licences
+• Value for money
+• Conduct of the procurement
+1.16 In its evaluation of the conduct of the procurement, the Committee assessed the
+findings of the Watt review relating to procurement practices, hospitality and gifts
+provided to NDIA officials by Salesforce, and the engagement of Synergy 360 by
+Salesforce to advise on Government contracts. The Committee further examined
+meetings between Salesforce and former Minister Robert, one of which also involved
+officials of NDIA, Services Australia, and Synergy 360 while all others were
+conducted only with Minister Robert, Synergy 360 and Salesforce with no officials
+present.
+5 JCPAA, Report 500: Inquiry into procurement at Services Australia and the NDIA - Interim Report,
+September 2023, Canberra, pages 9–12.
+6 JCPAA, Corrigendum to Report 500: Inquiry into procurement at Services Australia and the NDIA - Interim
+Report, November 2023, Canberra.
+3
+1.17 The Committee makes a number of observations and recommendations in relation to
+the NDIA response to the Watt review, and its internal investigations that arose from
+that report, and regarding the procurement, implementation and operation of the
+PACE system by NDIA.
+4
+2. Procurement of the PACE
+platform by NDIA
+Overview
+2.1 The PACE system is the new computer platform acquired by the National Disability
+Insurance Agency (NDIA) through the procurement process that was evaluated in the
+Watt review.
+2.2 NDIA outlined the central role of PACE in delivering on their core functions:
+PACE replaces our previous customer relationship platform which we use to
+manage interactions between NDIS participants, our staff and partners. They will
+use PACE every day, and it is a critical enabler for supporting NDIS participants.
+PACE relies on the Salesforce platform, which the agency procured in 2020.1
+2.3 NDIA informed the Committee at the public hearing on 1 February 2024 that it had
+implemented the recommendations from the independent review and was conducting
+its own internal investigations into some of the matters that had been considered:
+Following Dr Watt's review, we also commissioned an independent investigation
+to give further consideration to matters that Dr Watt referred to me following the
+review. The context for the investigation is that, while Dr Watt's task force did not
+find clear examples of misconduct, it did note behaviours that appeared to be
+well below the standard usually expected of Australian public servants and
+invited me to consider my options for further investigation. The investigation is
+underway, and we expect it will be finalised later this year.2
+2.4 The Committee received evidence that PACE appeared to be operating as expected
+and intended but had a number of queries regarding the processes and management
+activities that underpinned its procurement and contract management including:
+• Contract variations including costs and scope
+• Expansion of user licences and the fees involved
+• Demonstration of value for money
+• Conduct of the procurement itself, including
+o probity concerns i.e. whether hospitality or anything of a pecuniary nature
+occurred between NDIA and Salesforce
+1 Ms Rebecca Falkingham, Chief Executive Officer, National Disability Insurance Agency (NDIA),
+Committee Hansard, Canberra, 1 February 2024, p. 1.
+2 Ms Falkingham, CEO, NDIA, Committee Hansard, Canberra, 1 February 2024, p. 1.
+5
+o the involvement of any third party entities, including Synergy 360 specifically,
+in a consultative role for Salesforce during its NDIA bid
+o the involvement of other specific individuals, including Mr David Milo and
+former Minister Stuart Robert, especially during the NDIA tender bid.
+Contract variations
+2.5 The Committee noted that the initial value of the contract was $27 million but that this
+had expanded considerably to over $100 million. Both NDIA and the tenderer,
+Salesforce, were asked to state the rationale and business case for this considerable
+cost increase.
+2.6 Salesforce informed the Committee at the public hearing on 20 November 2023 that
+a number of client-driven factors underpinned this expansion of the contract:
+The initial cost of this contract was approximately $27 million. There were
+subsequent cost changes that were customer driven to support outcomes
+determined by the agency… These include: increasing NDIS users of 150 per
+cent; platform capability additions; and adding transactional capability, claims
+management and scheduling to CRM [customer relationship management]
+capability, all of which went through NDIS review and approval processes. Due to
+these changes and capability requirements, Salesforce costs associated with the
+agency to date are approximately $100 million over four years.3
+2.7 NDIA informed the Committee on this matter at the public hearing on 1 February
+2024 that ‘the total Salesforce value for contracts as of 31 December [2023] is
+$125.95 million.4 NDIA further stated:
+The agency and the scheme grew in size and there were changes in policy
+positions that had to be built into the CRM functionality. As we understood the
+system better, it was more tailored to the unique needs of the NDIA.5
+2.8 Salesforce further noted in terms of the increased contract scope that:
+… in 2022 we went from 5,000 users to 10,000 users; from October 2023, from
+10,000 users to 12,500 users… In addition, the NDIA specifically ask[ed] for
+further capability around campaign and event management, and that allows the
+capability for the NDIA and their partner communities to outreach to claimants
+and participants, so campaigning. In addition, case management—the ability to
+record, track, escalate and report on key business capabilities. So two pieces of
+scope, and that was increased at the ask of the NDIA.6
+3 Mr Sassoon Grigorian, Vice President, Government Affairs and Public Policy, Salesforce,
+Committee Hansard, Canberra, 20 November 2023, p. 1.
+4 Mr Ajay Satyan, Chief Information Officer, NDIA, Committee Hansard, Canberra, 1 February 2024, p. 2.
+5 Mr Satyan, NDIA, Committee Hansard, Canberra, 1 February 2024, p. 2.
+6 Ms Wendy Anderson, Vice President, Services, Salesforce, Committee Hansard, Canberra, 20 November
+2023, p. 3.
+6
+2.9 The Committee was interested also in the additional professional services that had
+formed part of the expanded scope of the contract, and in the rationale for including
+them at an additional cost of $20 million. NDIA responded on notice that this decision
+was taken due to the ‘complexity, size and criticality of the PACE Customer
+Relationship Management system.’7 NDIA stated:
+Salesforce professional services have significant expertise in their own product
+and have access to their internal product teams when specialist technical advice
+is required. This provides the Agency with an additional level of support,
+particularly when dealing with non-standard product requirements such as
+heightened accessibility.8
+Increased user licences
+2.10 The Committee further queried both Salesforce and NDIA on the need for the very
+large increase in PACE user licences from around 5,000 initially to over 12,000,
+given that NDIA does not employ that many people.
+2.11 NDIA further outlined the details underlying these increased licence requirements:
+Of the 12,500 licences, about 6,600 are allocated to NDIA staff—I am using the
+word 'staff' broadly—and contractors and labour hires and partners who work
+with the NDIA who have been allocated out of the 4,600 licences. So it is about
+6,600 plus 4,600 between staff and partners. The contact centre uses 1,100 and
+… a software government web team… uses 45 licences… of the 12,500 licences
+that the agency has procured, about 100 remain not assigned to people.9
+Value for money
+2.12 Value for money was of key interest to the Committee as a core criterion in
+Government procurement activities.
+2.13 NDIA commented on this issue on notice that it ‘reviews its price control framework
+and other market settings to determine whether they are appropriate and reflect the
+current market conditions.’10 NDIA further stated, in broad terms:
+For Disability Support Workers (DSW) supports, the NDIA has developed a Cost
+Model. This Cost Model is based off benchmarking data and aims to estimate the
+costs that a reasonably efficient provider would incur in delivering a billable hour
+of support. The DSW Cost Model is one of the factors considered when pricing
+these supports.
+For other sectors, the NDIA examines scheme data such as changes in the
+number of providers, the number of business entrance and exits, and payments
+7 NDIA, Supplementary Submission 10.2, p. [3].
+8 NDIA, Supplementary Submission 10.2, p. [3].
+9 Mr Satyan, NDIA, Committee Hansard, Canberra, 1 February 2024, p. 3.
+10 NDIA, Supplementary Submission 10.1, p. [2].
+7
+for the support to understand if the current pricing is sufficient to support the
+National Disability Insurance Scheme (NDIS) market.11
+2.14 NDIA further addressed this issue at the 1 February hearing, stating that:
+To the question of value for money, particularly the professional services… we
+had to take market scans both whether its thinking about having those skills in
+house and thinking about IP that companies such as Salesforce directly provide,
+given it is their product and their professional services as well as third party
+vendors. I can confirm that the spend to date for this financial year is much less
+than last year.12
+2.15 NDIA provided additional information on notice regarding the business case for
+investing in the new PACE system with respect to efficiencies, effectiveness and cost
+savings:
+… the PACE system is primarily intended to achieve an improved level of service
+for National Disability Insurance Scheme (NDIS) participants by delivering a fit-
+for-purpose Customer Relationship Management System (CRM). In addition, the
+highly configurable platform and implementing an in-house development
+workforce will result in more cost-effective enhancements to the CRM in the
+future.
+The business case for PACE estimated a 10% reduction in cost-to-serve, or a
+reduction of 1.8M hours from the time it takes staff to interact with the former
+CRM. These savings are being reinvested in increased participant contact.13
+2.16 NDIA emphasised in its responses to questions taken on notice that as the roll out of
+PACE commenced in October 2023, there are no reports yet on cost savings but that
+these were expected to manifest as the old system was replaced over time.14
+2.17 In responding on notice to questions from the Committee about how the PACE
+platform was being evaluated, NDIA indicated that it had conducted a trial in
+Tasmania over a period of 12 months. In terms of the participants, NDIA indicated
+that:
+• 72% of participants said their experience in the Tasmania test was good
+or very good
+• 55% of participants said their experience in the test was better, or a lot
+better than the last time they talked to the NDIA.15
+2.18 NDIA also surveyed disability providers in the Tasmania PACE trial and found that:
+11 NDIA, Supplementary Submission 10.1, p. [2].
+12 Mr Satyan, NDIA, Committee Hansard, Canberra, 1 February 2024, p. 3.
+13 NDIA, Supplementary Submission 10.1, p. [5].
+14 NDIA, Supplementary Submission 10.1, p. [8].
+15 NDIA, Supplementary Submission 10.1, p. [14].
+8
+• Providers liked the step-by-step guides, 28% said they were useful, and
+25% liked the quick reference guides and frequently asked questions
+• 26% of providers surveyed said they had enough training to understand
+our new computer system
+• 46% of providers disagreed that NDIA had helped them prepare and
+understand what to expect from the test.16
+2.19 NDIA further noted in this regard that the Australian Government had implemented a
+new framework to prevent possible market manipulation and overpricing by private
+sector providers:
+… the Australian Government will invest $6.7 million over 4 years to prohibit
+participants being over-charged when purchasing their supports. This includes
+the establishment of a multi-agency Taskforce comprising of the Australian
+Competition and Consumer Commission, the National Disability Insurance
+Scheme (NDIS) Quality and Safeguards Commission (NQSC) and the National
+Disability Insurance Agency (NDIA) as a key part of the Government’s efforts to
+reduce waste and combat fraud… The NQSC has now strengthened the NDIS
+Code of Conduct with new rules on price differentiation and has released
+additional resources to further empower participants and providers with
+information about their rights and responsibilities regarding price transparency.17
+2.20 The Committee queried however why no price weighting was used by NDIA as part
+of the tender assessments that eventually led to the contract award to Salesforce.
+NDIA commented at the public hearing on 1 February 2024 that price weighting was
+not always done for NDIA procurements, remarking that:
+… for example, we don't require, under our policy, that you assign 20 per cent of
+the overall evaluation to price. However, price is always considered as part of the
+assessment and value for money because you're comparing all potential benefits
+of the procurement against all potential costs. The pricing gets captured in that
+consideration of whole-of-life costs, but it's up to the general evaluation team who
+are looking at it to determine the relative benefit and cost. We don't set a
+weighting for costs in all our procurements.18
+2.21 NDIA further stated on this issue that it follows ‘whole-of-APS guidance’ on the issue
+of price weighting but that it was not possible to fully understand the decision-making
+processes in this regard for this particular procurement as the relevant officials were
+no longer with the agency.19
+16 NDIA, Supplementary Submission 10.1, p. [14].
+17 NDIA, Supplementary Submission 10.1, p. [4].
+18 Ms Phoebe Thompson, Acting Chief Corporate and Commercial Officer, NDIA, Committee Hansard,
+Canberra, 1 February 2024, p. 5.
+19 Ms Falkingham, CEO, NDIA, Committee Hansard, Canberra, 1 February 2024, p. 9.
+9
+Conduct of the PACE procurement
+Findings of the Watt review
+2.22 The Watt review made a number of findings and recommendations pertaining to
+NDIA’s procurement practices, most notably:
+• Properly documenting and monitoring the use of limited tenders due to claims of
+urgency
+• Publicly reporting on the number of suppliers invited to respond to a procurement
+offer
+• Requiring all procurement staff to declare any conflicts of interest
+• Reviewing procurement templates to ensure clarity in determining value for
+money and the preferred tenderer
+• Ensuring that internal probity and legal advice is accessible and consideration of
+external advice for larger high-risk procurements
+• Ensuring adequate record-keeping
+• Supporting adequate procurement training and professionalism.20
+Hospitality and gifts
+2.23 NDIA informed the Committee that it had strict rules around hospitality and gifts that
+were consistent with established principles for Government entities. NDIA confirmed
+that:
+The overarching premise of NDIA policy is that our officials must not accept gifts
+or benefits which might be seen to compromise their integrity. That applies at all
+times, whether we're in the market for a procurement or not. We publish any gifts
+or benefits accepted by all NDIA officials over $100 on our website. It must be
+recorded in a compliance log that we maintain internally, and any gifts valued at
+over $100 must be approved by the CFO or CEO before they're accepted.21
+2.24 NDIA further responded on notice that having reviewed its records ‘there is no
+evidence indicating that NDIA representatives hav[e] disclosed receipt of any gifts or
+benefits (including hospitality) from Salesforce during the 2019-20, 2020-21, 2021-22
+and 2022-23 financial years.’22
+2.25 Salesforce evidence to the Committee on notice however indicates extensive social
+interactions with various NDIA officials over several years both before and after the
+20 Dr Ian Watt AC, Independent Review of Services Australia and NDIA Procurement and Contracting:
+Independent Reviewer’s Report, March 2023.
+21 Ms Thompson, NDIA, Committee Hansard, Canberra, 1 February 2024, p. 3.
+22 NDIA, Supplementary Submission 10.1, p. [10].
+10
+awarding of the PACE contract, many of which above the $100 threshold stated by
+NDIA as requiring pre-approval.23
+2.26 Salesforce records contain 118 line items for hospitality and gifts given to NDIA
+representatives between March 2019 and December 2023. These included meals,
+drinks, taxi fares, clothing, and golf outings and equipment. These records indicate
+48 instances of when the value of the items was above $100 per person.24
+Engagement by Salesforce of Synergy 360 and David Milo
+2.27 The Committee queried on the role of Synergy 360 in providing business support to
+Salesforce in its bids for Government contracts.
+2.28 Salesforce outlined to the Committee that it uses consultants from around the world
+to provide assistance with its public sector procurement bids. Salesforce further
+stated in relation to its business relationship with Synergy 360 that:
+Synergy 360… approached Salesforce about providing advisory services to
+support Salesforce's strategy with the Australian federal government. Synergy
+360 informed Salesforce they'd specialised in areas such as strategic business
+advice; program and project management; business case development;
+information technology architecture; and information technology security and the
+like. In 2019, Salesforce had three locally based employees in the public sector
+area in Canberra to service the federal government. Salesforce engaged with
+Synergy 360 around July 2019 as a consultant on a monthly retainer. The
+Synergy 360 engagement had no success fee and none was paid.25
+2.29 Salesforce further remarked on this matter in relation to the PACE procurement:
+Synergy 360 was not engaged as part of our bid for the NDIA tender. That was a
+direct bid with our sales and professional services team. Overall, Synergy 360
+was paid $214,200, including GST, by Salesforce, over a period of 24 months.
+The Synergy 360 consulting contract was terminated in June 2021. Salesforce
+has not won any business with Services Australia.26
+2.30 Salesforce commented in relation to David Milo that he and Synergy 360’s services
+were engaged in 2019 to supplement its knowledge of the market for Federal
+Government services in Canberra.27 Salesforce further informed the Committee on
+notice that the approach by Mr Milo was through an introductory phone call with
+Synergy 360 on 30 May 2019.28
+23 Salesforce, Supplementary Submission 9.2 and Annexure.
+24 Salesforce, Supplementary Submission 9.2, Annexure.
+25 Mr Grigorian, Salesforce, Committee Hansard, Canberra, 20 November 2023, p. 2.
+26 Mr Grigorian, Salesforce, Committee Hansard, Canberra, 20 November 2023, p. 2.
+27 Mr Bradley Cook, Area Vice President, Public Sector, Salesforce, Committee Hansard, Canberra,
+20 November 2023, p. 8.
+28 Salesforce, Supplementary Submission 9.1, p. 4.
+11
+Meetings with former Minister Stuart Robert and Mr Milo
+2.31 Salesforce also informed the Committee in response to questions taken on notice
+that it held three meetings with former Minister Stuart Robert, two in 2019 and one in
+2020, at the request of the Minister. Mr Milo was also present at all three meetings.
+The NDIA attended the second of these three engagements. The subjects of these
+meetings and the attendees are outlined in Table 1 below.
+Table 1 Salesforce meetings with former Minister Robert in 2019 and 2020
+Date Location Topic of discussion Attendees
+4 June Parliament General introduction of Salesforce to Minister Stuart Robert
+2019 House, Stuart Robert and discussion on Services Barry Dietrich (Salesforce)
+Canberra Australia and Salesforce's experience
+Nick Slater (Salesforce)
+with Service NSW
+Michael de Hennin (Salesforce)
+Meeting focused on digital transformation
+David Milo
+in the Australian government and
+Salesforce platform capabilities
+12 June Salesforce Presentation and demonstration of Minister Stuart Robert
+2019 Offices, Darling Salesforce's capabilities for potential use Kathryn Campbell (Services
+Park, Sydney bv Commonwealth based on Service
+Australia)
+NSW offering.
+Paul O'Sullivan (NDIA)
+Meeting focused on digital transformation
+Barry Dietrich (Salesforce)
+in the Australian government and
+Bradley Cook (Salesforce)
+Salesforce platform capabilities
+Nick Slater (Salesforce)
+Michael de Hennin (Salesforce)
+David Milo
+30 Commonwealth Discussion on permissions, whole of Minister Stuart Robert
+September Parliamentary government case management, Barry Dietrich (Salesforce)
+2020 Offices, Bligh Customer Relationship Manager
+David Milo
+Street, Sydney products and national COVID-19 contact
+tracing coordination
+Meeting focused on digital transformation
+in the Australian government and
+Salesforce platform capabilities
+Source: Salesforce, Supplementary Submission 9.1, pages 4-5.
+2.32 Salesforce commented in its submission to the inquiry that none of these
+engagements with the former Minister Robert and Mr Milo were related to its
+tendering for NDIA contracts:
+None of the meetings with Minister Robert… took place during the first or second
+NDIA tender process. Our response was a direct bid with our direct sales and
+12
+professional services team. Synergy 360 was not paid any fees in relation to
+winning the NDIA contract.29
+Committee comment
+2.33 NDIA undertakes critical work and provides vital services to hundreds of thousands
+of Australians with a disability and an effective and efficient computer interface is
+critical to successful service delivery. The Committee acknowledges evidence from
+the NDIA that the PACE system is proving to be an effective computer platform that
+has so far delivered the intended capability.
+2.34 The Committee notes evidence that cost savings were anticipated as a result of the
+new system, expected to be realised as the system matures, with any savings to be
+reinvested in service delivery. It is important that agencies including the NDIA do
+eventually assess whether intended cost savings materialise, to help inform future
+business cases and projects and the Committee remains interested in this aspect.
+2.35 The Committee accepts the NDIA’s evidence that the system is progressing well, but
+is concerned however about a number of aspects of the procurement having
+considered evidence to the inquiry in detail.
+2.36 Firstly, while the Committee accepts that selecting the vendor and assessing value
+for money is not simply a matter of finding the lowest price available for a product or
+service, the Committee remains perplexed that in this procurement the value for
+money assessment gave no explicit weighting to price as a key factor in scoring and
+ranking proposals.
+2.37 Secondly, the size of the contract variations is significant; the initial contract value of
+$27 million at inception was subsequently varied to $135 million and is currently in
+the order of $126 million spent as at 31 December 2023. The Committee
+acknowledges evidence from the NDIA that business cases underpinned these very
+considerable contact variations which were driven primarily by changes to scope and
+functionality and in the number of user licences that had been acquired from
+Salesforce by NDIA.
+2.38 The Committee accepts the evidence provided regarding the growth in user licences
+and approach taken. The decision to add significant additional functionality after
+initial procurement, however, denied other tenderers the opportunity to tender for the
+product ultimately being delivered. While sometimes this is unavoidable it is far
+preferable that agencies tender initially for a well thought out scope of service.
+Ongoing variations of significant commercial value heighten concerns about probity
+and integrity issues discussed further below. As well, an approximately $20 million
+bucket in total over three years for ‘professional services’ added later as contract
+variations raises questions about cost control and how value for money is ensured
+and assured.
+29 Salesforce, Submission 9, p. 13.
+13
+2.39 The most serious issue however revealed as a result of this inquiry is what appears
+to be clear breaches of the NDIA’s Gifts and Hospitality policies by officials. The
+policy requires that all hospitality over $100 must be declared. The NDIA also gave
+evidence that an obligation on officials to not accept any gifts commences the
+moment a procurement starts to be planned.
+2.40 The NDIA gave evidence that no declarations were made by NDIA staff of any gifts
+or hospitality. Following sustained questioning during and after the public hearings,
+however, Salesforce provided written evidence to the Committee of 118 instances of
+hospitality and/or gifts passing to NDIA officials from Salesforce executives over an
+almost four-year period, both leading up to and after the award of the contract and
+throughout the period of extensive contract variations of more than $100 million.
+Notably, more than 40 of these instances of hospitality by Salesforce to NDIA
+representatives were above the $100 per person threshold that requires pre-approval
+in accordance with NDIA’s internal rules but had not been authorised or declared at
+any stage.
+2.41 The Committee has prepared a timeline to map the procurement and subsequent
+contract variations alongside hospitality provided by Salesforce to NDIA officials and
+meetings between Synergy 360, Salesforce and former Minister Robert. This graphic
+is provided as Figure 1 below and clearly shows continuous overlap between
+hospitality, undeclared meetings and offsite events and major and ongoing
+procurement activity by the NDIA.
+Figure 1 PACE procurement timeline from 2019-2023, including meetings and
+hospitality
+30 September 2020:meeting at Oct 2020: Drinks with 1 NR; Dec 2020: 1 lunch,
+4 June 2019:meeting Commonwealth Parliamentary 1 dinner, 1 golfouting, and 2taxi fareswith 1
+at Parliament House Offices, Sydney,between NR; 1 dinner with 3 NRs;Feb 2021: dinner with
+March-May2019:four between Minister Minister Robert, Salesforce and 1 NR; drinks with 2 NRs; Mar 2021: coffeewith 1
+m o (N n e R e a ) N ls D w IA it h re b p e r v e e s r e a n g t e a s ti w ve ith R a 1 n 2 o d b J u e S n r y t e n , S e 2 r a 0 g l 1 y e 9 s 3 : f 6 o 0 rce, N N p f e o u o w r b v t e o l e is m p n h e d b e n e e d r r r e o ( R 2 q n 0 F u 2 1 T e 9 ) 9 s t January 2020:meal Synergy 360 M m a e y a l 2 a 0 n 2 d 0 : a w e n a it c d h h t 4 w o N o f c R s o s e f ; p fe A a e p ra , r t m 2 e 0 e c 2 a o 1 l f , : f d e 3 r e i c s n o k w f s f i e t a h e n s 4 d w N g i o R th l s f ; 1 o d u N i t n R in n ; g e o r w n e it h
+May 2019, Synergy meeting at Salesforce [by Dept Human and drinkswith two drinks withone 1 NR.
+S 3 a 6 l 0 e s a f p o p rc ro e a a c b h o e u s t o b f e f t ic w e e s e i n n M Sy in d i n st e e y r Se S rv e i r c v e ic s e A s u ; s n t o ra w li a] NRs NR at golf
+provi s d e in rv g i c a e d s v . i sory Robert, NDIA, fo N r D th I e A p o r f o a v i c s l i o o u n d t o course
+[Salesforce Salesforce and platform solution Contract between
+engages Synergy Synergy 360 for ‘non-core’ Salesforce Salesforce and
+360 from 1 July services to replace selected as Synergy 360
+2019as a existing SAP preferred tenderer terminates on 30
+consultant] system inMarch 2020 June 2021.
+Late July 2019, Tender response Contract Contract variations
+DXC Technology as submitted by commences on 2 under the Strategic
+June2019:golfouting Sa p l r e im sfo e r a c n e d a s S J a a l n e u s a fo r r y c 2 e 0 o 2 n 0 3 . Ap to ri t l a 2 l 0 c 2 o 0 n . t r In ac it t ia l June 2020:meal Ente A r g p r r e is e e m L e ic n e t nse
+and lunch with 1 NR. product supplier value for licences and beverages commenced in
+July 2019:two meals respond jointly to August 2019:drinks with and services is (1) and lunch April 2021up to
+with 1 NR. a E n R x o p e p q re e u s n e s s m io t a f n o r k o r e f t 2 S e N p R t s em on b t e w r o 2 0 o 1 c 9 c : a d si r o in n k s s . appro m xi i m lli a o t n e . l y $27 a 1 n N d R t . axi (1) with O ne c w to v b m a e l i u r ll e 2 io 0 o n 2 f . 3 $1 to 3 5 a
+In f t r e o r m es N t D pr I o A c f e o s r s w 20 it 1 h 9 1 : t N w R o . d O r c in t k o s b ( e o r ne July 2020: spe $ n 1 t 2 a 5 s .8 a m t 3 il 1 li o D n e c
+Pr c c o l a o c p u u a d r b e C i m li R t e y M . n t w O i n th e d lu r n in c k h s ) w w i i t t h h 2 1 N N R R s . . g a o rr l a f n o g u e ti d n g 2023
+subsequently with 2 NRs
+cancelled. but later
+cancelled.
+Source: Compiled using evidence provided by Salesforce and NDIA to the inquiry
+14
+2.42 The Committee has not sought and is not privy to the identity or roles of the
+individuals who received Salesforce’s hospitality or gifts, and it is not the Committee’s
+role to make specific findings against individuals. The evidence does however raise
+serious concerns about the behaviour of public officials and Salesforce. The
+Committee accepts that once a contract is awarded it may be necessary for public
+officials and contractors to build strong trusted relationships to effectively implement
+projects and services and does not express a blanket opposition to engagement with
+some social character. But probity demands that any such efforts require very careful
+handling to preserve the integrity of contract management processes and avoid the
+perception of ‘capture’ or bias. As the NDIA stated in the public hearing, “as a
+general principle it would be hard to see how a contract manager could maintain their
+integrity whilst accepting gifts from a vendor.” A failure to declare repeated
+hospitality, and acceptance of lunches, dinners or golf days while variations continue
+to be struck is simply unacceptable to the Committee.
+2.43 The Committee has made the NDIA aware of this evidence and understands it is
+being taken seriously. The Committee has also written to Salesforce seeking
+additional information in the context of Salesforce’s Global Gifts and Entertainment
+Policy (which the Committee received a copy of and has considered). It appears that
+the types of gifts that were offered to NDIA officials meet Salesforce’s policy. The
+policy, however, states that gifts of over $150 must be approved by the Office of
+Global Ethics and Integrity. The policy is also clear that any gift or entertainment to a
+government official (defined broadly), regardless of amount, must be pre-approved
+by the Office of Global Ethics and Integrity. In particular the Committee has asked
+Salesforce to now advise:
+• If Salesforce’s Office of Global Ethics and Integrity had approved each and all of
+these payments in accordance with their own corporate policy?
+• Who makes these decisions within Salesforce’s Office of Global Ethics and
+Integrity?
+• If Salesforce’s Office of Global Ethics and Integrity has ever declined a request to
+approve hospitality for an Australian Commonwealth official?
+• Salesforce is also asked to provide a table within 3 months of the tabling of this
+report of all hospitality provided to all Commonwealth officials by agency for the
+last 3 years (names redacted) consistent with the format Salesforce helpfully
+provided in relation to the NDIA, and advice as to whether each item was
+approved by Salesforce’s Office of Global Ethics and Integrity.
+2.44 Beyond specific instances and individuals, the evidence received, coupled with
+informal advice to Committee members, raises concerns regarding potential systemic
+inappropriate cultivation of Commonwealth officials by Salesforce over a long period
+of time. The Committee is concerned to understand whether these practices may be
+more widespread across the public sector including by other major ICT vendors. The
+Committee therefore makes recommendations to the Department of Finance
+(Finance), the Digital Transformation Agency (DTA) and the Australian National Audit
+Office (ANAO) suggesting a broader examination of these issues in relation to a
+selection of major ICT vendors – for example Data#3 Group, SAP, Dell Australia,
+Oracle, and Amnesium Pty Ltd - or others as may be decided. The Committee will
+15
+make Salesforce’s answers to the above questions available to Finance, the DTA
+and the ANAO.
+2.45 The Watt review did not make specific findings of misconduct in relation to NDIA’s
+procurement of PACE from Salesforce. There were, however, recommendations from
+that report that reflected a number of deficiencies in NDIA’s procurement
+management which informed NDIA’s decision to conduct an internal assessment of
+how it will manage its acquisitions into the future on behalf of the Commonwealth.
+The Committee welcomes this approach by NDIA and is recommending that it be
+provided with future updates on these internal findings and also on its progress in
+implementing the PACE system.
+2.46 With regard to questions relating to former Minister Robert and Synergy 360 the
+Committee has substantially addressed these issues in its Interim Report. During the
+latter part of the inquiry after the Interim Report was tabled, evidence was received of
+meetings between former Minister Robert, Synergy 360 and Salesforce. Again, it is
+noted that Synergy 360 made an unsolicited approach to a vendor (Salesforce) in
+advance of a tender process which emerged very soon after. Three meetings with
+former Minister Robert occurred, twice without public servants or probity advisors
+present and with no written records available of what was discussed or assurance
+that similar meetings were held with other tenderers or potential vendors who were
+not clients of Synergy 360. Ultimately Salesforce secured a major government
+contract and later benefited from a series of lucrative variations.
+2.47 Consistent with the approach and recommendations in its interim report, the
+Committee does not make findings in relation to the conduct of any individuals, and
+will make the appropriate authorities aware of this final report and additional evidence
+via correspondence.
+Recommendation 1
+2.48 The Committee recommends that the National Disability Insurance Agency
+provides it with a detailed update on its own internal investigations into
+matters arising from the Watt Review, and its subsequent actions, at six
+months and again at 12 months from the date of this report.
+Recommendation 2
+2.49 The Committee recommends that the National Disability Insurance Agency
+updates it on the continuing implementation of the PACE system, including an
+assessment of value for money, productivity, user experience, and improved
+outcomes, at six months and again at 12 months from the date of this report.
+Recommendation 3
+2.50 The Committee recommends that the National Disability Insurance Agency
+provide an update in December 2024 regarding progress in the realisation of
+cost savings and anti-fraud measures as a result of the new PACE system.
+16
+Recommendation 4
+2.51 The Committee recommends that the Department of Finance and the Digital
+Transformation Agency take appropriate action to understand the extent to
+which inappropriate cultivation of Commonwealth officials may be occurring
+as a result of hospitality and gifts by major ICT vendors.
+Recommendation 5
+2.52 The Committee recommends that the Australian National Audit Office consider
+the evidence and issues raised in this inquiry and consider further audits in
+relation to gifts and hospitality issues in the public sector to identify practices
+of concern, raise awareness, and help to build ethical cultures that operate
+with probity. This may include exercising its powers to obtain information from
+private sector entities that contract to the Commonwealth, in relation to gifts
+and hospitality provided to public officials.
+Mr Julian Hill MP
+Chair
+19 June 2024
+17
+
+Additional comments
+1.1 Coalition committee members do not agree with the conclusions as written in
+paragraph 1.7 of this report. It is important to note that Coalition members presented
+a dissenting report to the initial Interim Report released by the JCPAA in September
+2023.
+1.2 Coalition members believe it is inappropriate to name specific individuals in this
+report, especially former Minister Stuart Robert and Mr David Milo, as the Committee
+has previously referred to other individuals connected with this inquiry as “officials” or
+“representatives.”
+1.3 For consistency and neutrality, it would be suitable to refer to all individuals as
+“officials” and Stuart Robert as “government minister.”
+1.4 As stated in our dissenting report to the Interim Report, Coalition committee
+members support the referral to the National Anti-Corruption Commission (NACC) of
+any serious allegations of corruption that are drawn to the Committee’s attention.
+1.5 However, it is not the role of the Committee to request that the NACC conduct an
+investigation into any matter. The NACC is an independent agency and consideration
+of an investigation is the responsibility of the NACC Commissioner.
+1.6 We further consider that paragraph 2.46 and 2.47 should be deleted as this matter
+was dealt with in the Interim Report published in September 2023.
+1.7 Coalition committee members are concerned about the intent of paragraph 2.47
+which states that consistent with the recommendations in its Interim Report, the
+Committee will make the appropriate authorities aware of this final report and
+additional evidence via correspondence.
+1.8 Coalition Members believe the appropriate response to all individuals or
+organisations who make corruption allegations to the Joint Standing Committee on
+Public Accounts and Audit (JCPAA) is for the Committee to write to the submitter
+advising them on how they can directly refer their allegations to the NACC
+at https://report.nacc.gov.au/.
+1.9 This approach ensures that referrals to the NACC are made by the person or
+persons who are best able to provide the NACC with the information and evidence
+relevant to the allegations and avoids the risk that the NACC Commissioner identified
+in his Opening Address on 3 July 2023 of the Commission being “weaponized”
+through inappropriate or unfounded referrals.
+19
+1.10 We also believe that this consistent and principles-based approach would avoid the
+circumstances described by Prime Minister Anthony Albanese; that it would be
+“entirely inappropriate for politicians to direct the national integrity commission to
+investigate a matter” and “it in fact could be regarded as an entirely inappropriate
+action by the Prime Minister, or any other politician for that matter, to try to direct the
+anti-commission into what to do.”
+Senator the Hon Linda Reynolds CSC
+Deputy Chair
+Senator the Hon Matthew Canavan Mr Ian Goodenough MP
+Mr Henry Pike MP Mr Aaron Violi MP
+20
+A. Submissions
+1 Mr Anthony Daly
+2 Ms Khamphone Xaysavanh
+2.1 Supplementary to submission 2
+3 Mr David Milo
+4 The Hon Stuart Robert
+5 Confidential
+6 Infosys
+6.1 Supplementary to submission 6 (response to questions on notice)
+7 Confidential
+8 Services Australia
+9 Salesforce
+9.1 Supplementary to submission 9 (response to questions on notice)
+9.2 Supplementary to submission 9 (response to questions on notice)
+10 National Disability Insurance Agency
+10.1 Supplementary to submission 10 (response to questions on notice)
+10.2 Supplementary to submission 10 (response to questions on notice)
+21
+
+B. Public hearings
+Friday, 23 June 2023
+Committee Room 2R1, Parliament House Canberra
+Infosys Technologies
+• Mr Andrew Growth
+Friday, 8 September 2023
+Committee Room 2R1, Parliament House Canberra
+Services Australia
+• Ms Rebecca Skinner PSM, Chief Executive Officer
+• Ms Susie Smith, Deputy Chief Executive Officer – Strategy and Performance
+• Mr Charles McHardie AM, Chief Information and Data Officer
+• Ms Lisa Carmody, General Manager, Enterprise Strategy and Governance
+Monday, 20 November 2023
+Committee Room 2R1, Parliament House Canberra
+Salesforce
+• Mr Sassoon Grigorian, Vice President, Government Affairs and Public Policy
+• Mr Bradley Cook, Area Vice President, Public Sector
+• Ms Wendy Andreson, Vice President, Services
+• Mr Michael de Hennin, Regional Vice President, Public Sector
+Thursday, 1 February 2024
+Committee Room 2R1, Parliament House Canberra and by videoconference
+National Disability Insurance Agency
+• Ms Rebecca Falkingham, Chief Executive Officer
+• Mr Sam Porter, Chief Operating Officer/Deputy Chief Executive Officer Enabling
+Services
+• Mr Ajay Satyan, Chief Information Officer
+• Ms Phoebe Thompson, Acting Chief Corporate and Commercial Officer
+23

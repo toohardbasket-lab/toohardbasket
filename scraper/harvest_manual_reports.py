@@ -256,8 +256,11 @@ def identify(text: str, candidates: list[dict]) -> tuple[dict | None, str]:
 def claim_by_content(rows: list[dict], pdfplumber) -> list[str]:
     """Adopt any PDF in the folder, whatever it is called, if it can be read."""
     taken = {f"{r['key']}.pdf" for r in rows}
+    # A leading underscore marks scratch — anything a run left behind. It is
+    # not a report and should not be offered as one.
     loose = [p for p in sorted(PDFS.glob("*.pdf"))
-             if p.name not in taken and not re.fullmatch(r"\d+\.pdf", p.name)]
+             if p.name not in taken and not p.name.startswith("_")
+             and not re.fullmatch(r"\d+\.pdf", p.name)]
     if not loose:
         return []
     wanted = [r for r in rows if not (PDFS / f"{r['key']}.pdf").exists()]
@@ -349,6 +352,13 @@ def main(argv: list[str]) -> int:
             skipped += 1
             continue
         out = TEXT / f"{r['key']}.txt"
+        # Already read, and the PDF has not changed since. Reading two dozen
+        # reports takes minutes, and a step that starts from the beginning every
+        # time cannot be run in the time a shell will give it.
+        if out.exists() and out.stat().st_mtime >= pdf.stat().st_mtime and "--again" not in argv:
+            r["collected"] = "yes"
+            read += 1
+            continue
         # A saved web page, a truncated download or a login wall saved as .pdf
         # are all likely in a job done by hand twenty-six times. Name the file
         # and carry on rather than ending the run with a stack trace.
@@ -370,7 +380,8 @@ def main(argv: list[str]) -> int:
         print(f"  {r['report_tabled']}  {len(text):>7,} chars  {r['title'][:56]}")
 
     write_manifest(rows)
-    print(f"\n{read} report(s) read into {TEXT.relative_to(HERE.parent)}/, {skipped} still to collect")
+    print(f"\n{read} report(s) read into {TEXT.relative_to(HERE.parent)}/, "
+          f"{skipped} still to collect")
     if thin:
         print("\nThese produced almost no text and were not written — a scanned PDF needs OCR:")
         for k, n in thin:

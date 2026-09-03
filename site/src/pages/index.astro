@@ -267,15 +267,13 @@ const chambers = [
     </table>
     {missing.predating > 0 && (
       <p class="note measure">
-        <strong>What these committees asked for is not yet searchable.</strong> The
-        {" "}<a href="/recommendations/">recommendations index</a> reads the reports from the
-        Parliament’s Tabled Documents register, which holds nothing before 2022, and the
-        reports at the top of this table are older than that — {fmt(missing.predating)} of them
-        across the two registers, the oldest tabled {formatDate(missing.oldestTabled)}. There is
-        no document there to read, so none of their recommendations can be found on this site.
-        They are published on their committees’ own pages and are being collected by hand.
-        Until that is done, searching for what these committees recommended finds nothing, and
-        that is a limit of this site rather than of the record.
+        <strong>{missing.predating === 1 ? "One report in this table is" : "Some reports in this table are"} not yet searchable.</strong>
+        {" "}The <a href="/recommendations/">recommendations index</a> reads reports from the
+        Parliament’s Tabled Documents register, which holds nothing before 2022. The reports
+        older than that were fetched from their committees’ own pages instead;
+        {" "}{fmt(missing.predating)} {missing.predating === 1 ? "has" : "have"} not been
+        found yet, so what {missing.predating === 1 ? "that committee" : "those committees"}
+        {" "}recommended cannot be searched here.
       </p>
     )}
     <p class="more">

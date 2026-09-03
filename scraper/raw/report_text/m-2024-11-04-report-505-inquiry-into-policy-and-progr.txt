@@ -1,0 +1,2580 @@
+Report 505: Inquiry into Policy and
+Program Design and
+Implementation
+Joint Committee of Public Accounts and Audit
+November 2024
+CANBERRA
+© Commonwealth of Australia 2024
+ISBN 978-1-76092-704-2 (Printed version)
+ISBN 978-1-76092-705-9 (HTML version)
+All material in this report is provided under a Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 Australia licence. The material may be shared, copied and redistributed provided that:
+• it is for non-commercial purposes
+• the committee named on the previous page is credited as the author
+• the committee is not represented as endorsing the use of the material
+• any changes are clearly identified
+• no additional legal or technical restrictions are applied to restrict use that complies with the
+licence.
+If the material is remixed, transformed or built upon, the modified material may not be distributed.
+Full details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Chair's foreword
+Policy and program design and implementation is an area that requires continuous
+improvement. The Delivering Great Policy model was introduced by the Department of Prime
+Minister and Cabinet (PM&C) in 2019 to equip Government decision-makers with core
+elements and agreed principles to make the best possible policy decisions. This model
+outlines four key components of policy advice—clear on intent, well-informed, practical to
+implement, and influential.
+Achieving sound and effective policies and programs using this model is supported through
+oversight by PM&C and the Australian Public Service Commission (APSC), as well as the
+development of training and resources to align public sector entities. There is an expectation
+that entities will adopt these practices, but this is not always the case and issues arise that
+can create lasting effects when best practice is not adhered to.
+The reports of the Auditor-General that were examined in this inquiry highlighted specific
+recurring issues that impact the effectiveness of government policy and program design and
+implementation. These included inadequate stakeholder engagement, a lack of effective
+performance measures, and deficiencies in the advice to government.
+Overall, the inquiry found that ineffective decision-making and a departure from best practice
+resulted in some common issues across the audits examined by the Committee, even
+though they involved very different programs. These policy and program areas included the
+Export Control Legislative Framework, expansion of Telehealth Services, Family Migration
+Program, cultural reform at the Department of Agriculture, the Government response to the
+Black Economy Taskforce, and access and participation programs for regional and remote
+students.
+The Delivering Great Policy model outlines the need for policymakers to be well-informed
+and for entities to actively conduct stakeholder consultation. Although some of the audited
+agencies in this inquiry undertook these discussions widely and diligently, others only did so
+at an executive level and thus excluded the views of some of the most impacted parties from
+consideration.
+On several occasions throughout this inquiry, examples were provided to the Committee of
+poor information management, a lack of coordination between agencies, inadequate
+communication to stakeholders, and a lack of support resulting in ineffective implementation
+and the need for additional resources to correct the problem.
+The Committee learned of three occurrences where critical deficiencies in the advice to
+government created additional strain in the delivery of the relevant program and policies.
+The Expansion of Telehealth Services by the Department of Health and Aged Care during
+COVID-19 yielded some valuable lessons for providing such advice if a global pandemic was
+to arise again in the future. The inquiry revealed that deficient advice by the Department of
+iii
+Home Affairs relating to the Family Migration Program and by the Treasury in its
+Implementation of the Black Economy Taskforce negatively impacted public trust in the
+effectiveness and transparency of government.
+Performance reporting and impact measurement are also fundamental components of
+effective policy and program design and implementation as they provide evidence-based
+data that enable adjustments and improvements by policymakers and that can ultimately
+determine whether the intended outcomes have been achieved. A lack of importance placed
+on these activities was found in three audit reports in this inquiry to have caused avoidable
+delays and inefficiencies which were wasteful of resources and time. Crucial information to
+assist with decision-making and future planning was also therefore lacking.
+The agencies involved in this inquiry provided substantial responses to their audit findings,
+as well as assisted the Committee’s investigation on the core practices that required future
+improvement. The Committee noted that there was still work to be done in relation to several
+of the programs resulting from the findings of the Auditor-General reports.
+The Committee has made 11 recommendations in this report. These include requests for
+progress updates from Home Affairs on its stakeholder engagement planning, Agriculture on
+its Transformation Action Plan, Health on legislative changes to allow digital assignment of
+benefit for the MBS, Treasury on strengthening its information management processes, and
+Education on its Performance and Data Framework Plan and Stakeholder Engagement
+Plan.
+The Committee has also recommended that the Australian Government prioritises legislation
+to align the Health Insurance Act with the modern technological requirements of telehealth
+and makes further reforms to make the partner and child family visa programs truly demand
+driven.
+This inquiry has highlighted that Commonwealth entities must remain vigilant in ensuring that
+they continue to meet best practice requirements when designing and implementing policies
+and programs for the benefit of the Australian public.
+I thank the Deputy Chair and other Committee members who participated in this important
+inquiry. I also thank the numerous contributors to the inquiry and the Committee Secretariat
+for their professionalism in supporting the work of the Committee.
+Hon Linda Burney MP
+Chair
+iv
+Contents
+Chair's foreword.............................................................................................iii
+Acronyms and abbreviations.......................................................................vii
+Members..........................................................................................................ix
+Terms of reference.........................................................................................xi
+List of recommendations.............................................................................xiii
+Report
+1. Introduction .................................................................................................1
+About the inquiry..........................................................................................................1
+Conduct of the inquiry..................................................................................................1
+Background..................................................................................................................2
+Areas of focus in the inquiry and report structure........................................................3
+Auditor-General report summaries ..............................................................................4
+2. Policy and program design........................................................................7
+Overview......................................................................................................................7
+Findings.......................................................................................................................8
+Agency responses.....................................................................................................12
+Committee comment..................................................................................................13
+3. Policy planning and implementation.......................................................15
+Overview....................................................................................................................15
+Findings.....................................................................................................................16
+Implementation planning and support...............................................................................17
+Communication..................................................................................................................19
+Coordination......................................................................................................................22
+Information management...................................................................................................23
+Agency Responses....................................................................................................25
+Implementation planning and support...............................................................................25
+v
+Communication..................................................................................................................27
+Coordination......................................................................................................................29
+Information management...................................................................................................30
+Committee comment..................................................................................................31
+4. Governance and risk management .........................................................33
+Overview....................................................................................................................33
+Robustness of risk advice to government..................................................................35
+Findings.............................................................................................................................35
+Agency response...............................................................................................................38
+Committee comment.........................................................................................................39
+Quality of evidence to inform policy advice................................................................40
+Overview............................................................................................................................40
+Findings.............................................................................................................................41
+Agency responses.............................................................................................................45
+Committee comment.........................................................................................................46
+5. Performance and impact measurement..................................................51
+Overview....................................................................................................................51
+Findings.....................................................................................................................52
+Agency Responses....................................................................................................55
+Committee Comment.................................................................................................58
+Appendixes
+Appendix A. Submissions............................................................................61
+Appendix B. Public hearings........................................................................63
+vi
+Acronyms and abbreviations
+ACRRM Australian College of Rural and Remote Medicine
+AHPPC Australian Health Protection Principal Committee
+AMA Australian Medical Association
+ANAO Australian National Audit Office
+APSC Australian Public Service Commission
+ATO Australian Taxation Office
+DAFF Department of Agriculture, Fisheries and Forestry
+DAWE Department of Agriculture, Water, and the Environment
+DCCEEW Department of Climate Change, Energy, the Environment and Water
+Education Department of Education
+Family Program Family Migration Program
+Finance Department of Finance
+Health Department of Health and Aged Care
+HII Act Health Insurance Act 1973
+Home Affairs Department of Home Affairs
+IMs Instructional materials
+JCPAA Joint Committee of Public Accounts and Audit
+MBS Medicare Benefits Scheme
+vii
+NACCHO National Aboriginal Community Controlled Health Organisation
+NDIS National Disability Insurance Scheme
+Noetic Noetic Group
+OECD Organisation for Economic Co-operation and Development
+OIA Office of Impact Analysis
+PGPA Act Public Governance, Performance and Accountability Act 2013 (Cth)
+PM&C Department of Prime Minister and Cabinet
+PRMA Public Management Reform Agenda
+PwC PricewaterhouseCoopers
+RACP Royal Australian College of Physicians
+RDAA Rural Doctors Association of Australia
+RIS Regulation Impact Statement
+Treasury Department of the Treasury
+viii
+Members
+Chair
+Mr Julian Hill MP (until 12 August 2024)
+The Hon Linda Burney MP (appointed to the Committee 12 August 2024, elected as Chair
+15 August 2024)
+Deputy Chair
+Senator the Hon Linda Reynolds CSC
+Members
+Dr Michelle Ananda-Rajah MP
+Senator Catryna Bilyk
+Senator the Hon Matthew Canavan
+Senator Lisa Darmanin (from 24 June 2024)
+Dr Carina Garland MP
+Mr Ian Goodenough MP
+Senator Karen Grogan (to 24 June 2024)
+Mr Brian Mitchell MP (from 12 August 2024)
+Dr Daniel Mulino MP
+Ms Peta Murphy MP (until 28 November 2023)
+Mr Henry Pike MP
+Senator Barbara Pocock
+Senator Tony Sheldon
+Mr Sam Rae MP
+Mr Aaron Violi MP
+Mr Josh Wilson MP (from 28 November 2023 to 12 August 2024)
+This committee is supported by staff of the Department of the House of Representatives.
+ix
+
+Terms of reference
+The Joint Committee of Public Accounts and Audit will inquire into and report on the
+effectiveness of policy and program planning, design and implementation in meeting
+government objectives.
+The inquiry will have particular regard to any matters contained in or connected to the
+following Auditor-General Reports:
+No. 6 (2022–23) Implementation of the Export Control Legislative Framework,
+particularly chapter 4 on performance monitoring and reporting;
+No. 10 (2022–23) Expansion of Telehealth Services, particularly chapter 3 on
+implementation arrangements and chapter 4 on monitoring and review;
+No. 16 (2022–23) Management of Migration to Australia—Family Migration Program,
+particularly chapter 3 on implementation and paragraphs 2.5 to 2.9 on stakeholder
+consultation;
+No. 17 (2022–23) Department of Agriculture, Fisheries and Forestry’s cultural reform,
+particularly chapter 3 on implementation and chapter 4 on monitoring and reporting;
+No. 39 (2022–23) Implementation of the government response to the Black Economy
+Taskforce; and
+No. 42 (2022–23) Access and Participation Programs for Regional and Remote
+Students.
+xi
+
+List of recommendations
+Recommendation 1
+2.33 The Committee requests that the Department of Home Affairs reports on its
+stakeholder engagement planning improvements within 12 months of the date
+of this report, including what performance indicators will be included in the
+policy design to reflect the collection of community sentiment.
+Recommendation 2
+3.71 The Committee recommends that the Department of Agriculture, Fisheries and
+Forestry reports back to it on its progress with its Transformation Action Plan
+within 12 months of the date of this report.
+Recommendation 3
+3.72 The Committee recommends that the Department of Home Affairs undertake
+further analysis of the efficient cost of administering the partner visa program
+(including integrity functions) and provide advice to government regarding the
+current fee.
+Recommendation 4
+4.31 The Committee requests that the Department of Health and Aged Care reports
+back to it on its progress in implementing legislative changes to allow digital
+assignment of benefit for the MBS.
+Recommendation 5
+4.32 The Committee recommends that the Australian Government prioritises any
+necessary legislative changes in order to address the current structure of the
+Health Insurance Act 1973 to align with the modern technological requirements
+of telehealth.
+Recommendation 6
+4.76 The Committee recommends that the Department of Home Affairs ensures that
+qualitative factors (including processing times and their impacts) are
+considered in the analysis of effective direct stakeholder consultation with the
+xiii
+Family Migration Program, to better inform and advise the Australian
+Government and the Parliament.
+Recommendation 7
+4.77 The Committee requests that the Department of Home Affairs reports back to it
+on its progress in including more qualitative data and engaging directly with
+stakeholders within 12 months of the date of this report.
+Recommendation 8
+4.78 The Committee recommends that the Australian Government consider further
+reforms to make the partner and child family visa programs truly demand
+driven with reasonable waiting times, excising these streams from the annual
+headline permanent migration cap and allocating sufficient processing
+resources annually to meet projected demand with a reasonable average
+processing time.
+Recommendation 9
+4.81 The Committee requests that the Department of the Treasury reports back to it
+on its progress in strengthening its information management processes,
+including providing the procedural documentation within 12 months of the date
+of this report.
+Recommendation 10
+5.30 The Committee requests that the Department of Health and Aged Care reports
+back on improvements to performance and impact measuring related to the
+telehealth expansion MBS items within 12 months of the date of this report.
+Recommendation 11
+5.31 The Committee requests that the Department of Education reports back on the
+implementation of its Performance and Data Framework Plan and Stakeholder
+Engagement Plan within 12 months of the date of this report.
+xiv
+
+
+1. Introduction
+About the inquiry
+1.1 Under section 8(1) of the legislation establishing the Joint Committee of Public
+Accounts and Audit (JCPAA), the Public Accounts and Audit Committee Act 1951,
+one of the duties of the Committee is to ‘examine all reports of the Auditor-General
+(including reports of the results of performance audits) that are tabled in each House
+of the Parliament. The Committee is empowered to ‘report to both Houses of the
+Parliament, with any comment it thinks fit, on any items or matters in those reports, or
+any circumstances connected with them, that the Committee thinks should be drawn
+to the attention of the Parliament’.
+1.2 On 10 August 2023, the JCPAA adopted an inquiry into the effectiveness of policy
+and program planning, design, and implementation in meeting government
+objectives.
+1.3 The inquiry examined any matters contained in or connected to the following Auditor-
+General reports:
+• No. 6 (2022–23) Implementation of the Export Control Legislative Framework,
+particularly chapter 4 on performance monitoring and reporting
+• No. 10 (2022–23) Expansion of Telehealth Services, particularly chapter 3 on
+implementation arrangements and chapter 4 on monitoring and review
+• No. 16 (2022–23) Management of Migration to Australia—Family Migration
+Program, particularly chapter 3 on implementation and paragraphs 2.5 to 2.9 on
+stakeholder consultation
+• No. 17 (2022–23) Department of Agriculture, Fisheries and Forestry’s cultural
+reform, particularly chapter 3 on implementation and chapter 4 on monitoring and
+reporting
+• No. 39 (2022–23) Implementation of the government response to the Black
+Economy Taskforce
+• No. 42 (2022–23) Access and Participation Programs for Regional and Remote
+Students.
+Conduct of the inquiry
+1.4 The inquiry received nine submissions and eight supplementary submissions (seven
+of which contained responses to questions provided in writing by the Committee or
+1
+taken on notice at public hearings). The Committee conducted two public hearings in
+Canberra and one public hearing via videoconference for the inquiry.
+1.5 The list of submissions and supplementary submissions is at Attachment A. Public
+hearings are listed at Attachment B.
+1.6 Summaries of each Auditor-General report undertaken by the Australian National
+Audit Office (ANAO) can be found in Chapter 1—paragraph 1.13.
+Background
+1.7 The Australian Government aims to improve policy design and implementation, and
+through the oversight of the Department of Prime Minister and Cabinet (PM&C), the
+Australian Public Service Commission (APSC) aims to deliver training and resources
+to align public sector entities in policy design and implementation.
+1.8 The Delivering Great Policy Model was introduced in 2019 by PM&C1, to equip
+Government decision-makers with core elements and agreed basic principles to
+make the best possible decision.2 The model outlines four components of great policy
+advice:
+• Clear on Intent—The agency is clear on the policy intent and what the role is, so
+the advice is relevant and focused on the intended outcome achieved.
+• Well-informed—The agency is forward looking and learns from the past. Multiple
+and diverse perspectives are actively sought including from stakeholders affected
+by the policy, so that robust evidence is provided for decision-making.
+• Practical to implement—Key stakeholders are involved in the implementation and
+vigorous testing of various options for practical solution and implementation
+planning.
+• Influential—The right stakeholders need to stay involved during the process, and
+advice should be audience tailored and contextually aligned to achieve the best
+outcome.3
+1.9 ANAO’s opening statement to the hearing 1 February 2024 supported this model,
+stating that:
+The Delivery Great Policy model and processes such as the Cabinet process or
+the process outlined in the Impact Analysis Framework provide that entities
+should have a clear implementation plan and evaluation plan as part of their
+1 Mr Grant Hehir, Auditor-General, Australian National Audit Office (ANAO), Committee Hansard, Canberra,
+1 February 2024, pages 1–2.
+2 Australian Public Sector (APS) Academy, Delivering Great Policy, https://www.apsacademy.gov.au/aps-
+craft/strategy-policy-evaluation/delivering-great-policy, accessed 10 April 2024.
+3 Mr Grant Hehir, Committee Hansard, Canberra, 1 February 2024, pages 1–2.
+2
+policy proposal. These plans, if they exist, should set out what each entity thinks
+successful implementation will look like.4
+Areas of focus in the inquiry and report structure
+1.10 The purpose of this inquiry is to review recurring issues that have arisen in recent
+years across several government agencies relating to the effectiveness of
+government policy and program design implementation. The areas the report will
+focus on across the six ANAO audit reports include:
+• policy and program design
+• policy planning and implementation
+• governance and risk management, and
+• performance and impact measurement.
+1.11 The report concentrates on six (6) of the ANAO’s performance audits across several
+government policy and program initiatives published in 2022–23, outlined in
+paragraph 1.3. Government agencies referred to in these audits include:
+• Australian Taxation Office (ATO)
+• Department of Agriculture, Fisheries and Forestry (DAFF)
+• Department of Education (Education)
+• Department of Health and Aged Care (Health)
+• Department of Home Affairs (Home Affairs)
+• Department of the Treasury (Treasury)
+• Australian Border Force
+1.12 The report focuses on key thematic issues, based on the ANAO’s findings and
+evidence collected by the committee. The structure of the report is as follows:
+• Chapter 2—Policy and program design, focusing on the effectiveness of
+stakeholder consultation.
+• Chapter 3—Policy and program implementation, looking at governance, risk
+management and assurance.
+• Chapter 4—Governance and Risk Management, including robustness of advice to
+government on risk and quality of evidence to inform policy advice.
+• Chapter 5—Performance and impact measurement, including performance and
+evaluation frameworks.
+4 Mr Grant Hehir, Committee Hansard, Canberra, 1 February 2024, pages 1–2.
+3
+Auditor-General report summaries
+Report No. 6 2022–23 Implementation of the Export Control Legislative Framework
+1.13 The Export Control Act 2020 that commenced on 28 March 2021, and subordinate
+legislation, provide the primary framework for the Australian Government to regulate
+goods exported from Australian territories. This framework aims to support
+international trade, protect Australia’s trade reputation, adapt to technological
+changes, and streamline export procedures. DAFF oversees the agriculture sector
+and is the main regulator for agricultural exports.5
+Report No. 10 2022–23 Expansion of Telehealth Services
+1.14 Through Medicare, Health introduced 281 temporary telehealth items on the
+Medicare Benefits Scheme (MBS) between March-May 2020 due to COVID-19, with
+their expiration postponed multiple times in 2020 and 2021. This aligned with the
+Australian Government’s objectives of ensuring continuous access to essential health
+services and promoting flexible healthcare.6
+1.15 On 13 December 2021, the Minister announced that telehealth was a permanent
+feature making the ‘most significant structural reform to Medicare since its inception’,
+with over 86.3 million telehealth services provided to 16.1 million patients, totalling
+$4.4 billion in benefits.7
+Report No.16 2022–23 Management of Migration to Australia—Family Migration Program
+1.16 Australia’s visa system since the 1970s is designed to be universal and non-
+discriminatory, allowing anyone who meets the criteria to apply regardless of gender,
+race, nationality, or religious belief. Almost 28 per cent of the Australian population
+was born overseas. The Family Migration Program facilitates family members’
+migration to Australia, with the Partner visa category representing 90.3 per cent of
+visa’s granted in 2021–22 and is overseen by Home Affairs through various national
+and international offices.8
+Report No. 17 2022–23 Department of Agriculture, Fisheries and Forestry’s Cultural Reform
+1.17 In February 2020, the Australian Government merged the Department of Agriculture
+with environment functions from the Department of the Environment and Energy to
+form the Department of Agriculture, Water, and the Environment (DAWE), which later
+released a reform roadmap, Being Future Ready: Our Future Department Blueprint
+2021–2025. By July 2022, following machinery of government changes, DAWE was
+5 Auditor-General Report No. 6 2022–23, Implementation of the Export Control Legislative Framework, p. 7.
+6 Auditor-General Report No. 10 2022–23, Expansion of telehealth services, p. 7.
+7 Auditor-General Report No. 10 2022–23, p. 7.
+8 Auditor-General Report No. 16 2022–23, Management of Migration to Australia—Family Migration Program,
+p. 7.
+4
+renamed DAFF, focusing primarily on agriculture, fisheries, and forestry, bringing
+together around 4,500 staff.9
+1.18 DAWE had implemented a strategic and delivery partner model to bolster reform
+efforts. However, post its renaming to DAFF in 2022, a taskforce titled ‘Designing
+DAFF’ was created to reassess its purpose and priorities, with decisions pending on
+the applicability of the earlier reform blueprint in the new developmental context.10
+Report No. 39 2022–23 Implementation of the Government Response to the Black Economy
+Taskforce
+1.19 As described by the Organisation for Economic Co-operation and Development
+(OECD), the Shadow economy (formally referred to as Black Economy) comprises
+economic activities not reported to tax administrations, whether legal or illegal, thus
+going untaxed. Treasury set up the Black Economy Taskforce in 2016 to address
+this, resulting in 80 recommendations by 2017. In response, the Government, starting
+from the 2018–19 Budget, allocated funds to various departments, including
+$12.3 million to Treasury, $153 million to Home Affairs, and $313.2 million to the
+ATO to counteract the shadow economy.11
+Report No. 42 2022–23 Access and Participation Programs for Regional and Remote Students
+1.20 Education’s Corporate Plan 2022–23 aims to boost Australia’s economic prosperity
+and social wellbeing by promoting access to quality education, with numerous
+programs assisting Australians in accessing higher education, irrespective of their
+background or location.12
+1.21 The Higher Education Support Act 2003 governs Australia’s higher education,
+offering legislative tools like grants and schemes to enhance higher education
+participation for Indigenous individuals, those from remote areas, and low
+socioeconomic backgrounds. This is supplemented by the Higher Education Support
+(Other Grants) Guidelines 2022 which contain requirements on grants payable to
+higher education providers and other eligible bodies for a variety of purposes.13
+9 Auditor-General Report No. 17 2022–23, Department of Agriculture, Fisheries and Forestry’s Cultural
+Reform, p. 7.
+10 Auditor-General Report No. 17 2022–23, p. 7.
+11 Auditor-General Report No. 39 2022–23, Implementation of the Government Response to the Black
+Economy Taskforce, p. 7.
+12 Auditor-General Report No. 42 2022–23, Access and Participation Programs for Regional and Remote
+Students, p. 7.
+13 Auditor-General Report No. 42 2022–23, p. 7.
+5
+
+2. Policy and program design
+Overview
+2.1 Policy and program design typically starts with a demonstrated need for a
+government intervention and a subsequent examination of different options to
+address the problem in question and/or deliver a benefit, for example, ‘turning an
+embryonic idea into something which can make a difference in the way people live’.1
+2.2 The Australian Policy Handbook advises that ‘design is fundamental’ to successful
+policies.2 This guide describes three common approaches to designing policies:
+research, analysis, and evaluation.3 The policy issue in question is thus understood,
+and potential solutions developed, under these headings.
+2.3 Policy and program design also incorporates advice from various stakeholders
+(particularly those affected by the potential changes) and subject matter experts,
+including from government and industry, considers the available and required
+resources, and sets clear and measurable objectives.4 The outcomes of this should,
+in principle, be clear on intent, well informed, and practical to implement.5
+2.4 A cornerstone principle of policy and program design is stakeholder consultation, as
+it can ‘enhance policy development and implementation’.6 The Australian Policy
+Handbook further states in this regard:
+Good policy processes demand connections between decision makers and the
+views of those affected by policy… A consultative process offers policy makers a
+way to structure debate, and to develop a solution that is more likely to ‘stick’
+because it reflects the realities of the problem and the competing interests of
+those involved.7
+1 Abbott, A 2022 in Althaus, C, Bridgman, P & Davis, G 2018, Australian policy handbook: a practical guide to
+the policy-making process, 6th edn, Allen & Unwin, Sydney, p. 249; University of Canberra 2023, ‘What is
+good public policy’, viewed 16 May 2024, https://studyonline.canberra.edu.au/blog/what-good-public-policy.
+2 Althaus et al 2018, Australian policy handbook: a practical guide to the policy-making process, 6th edn, Allen
+& Unwin, Sydney, p. 249.
+3 Owen, J 2015 in Althaus et al 2018, Australian policy handbook: a practical guide to the policy-making
+process, 6th edn, Allen & Unwin, Sydney, p. 249.
+4 University of Canberra 2023, ‘What is good public policy’, viewed 16 May 2024,
+https://studyonline.canberra.edu.au/blog/what-good-public-policy.
+5 Australian Public Service Academy 2023, ‘Delivering Great Policy’, Australian Government, viewed
+16 May 2024, https://www.apsacademy.gov.au/aps-craft/strategy-policy-evaluation/delivering-great-policy.
+6 Althaus, C, Bridgman, P & Davis, G 2018, Australian policy handbook: a practical guide to the policy-making
+process, 6th edn, Allen & Unwin, Sydney, p. 116.
+7 Althaus et al 2018, Australian policy handbook: a practical guide to the policy-making process, 6th edn, Allen
+& Unwin, Sydney, pages 30 and 117.
+7
+2.5 Consultation with stakeholders, particularly key stakeholders, is vital for the effective
+design, development and delivery of government policies and programs. It provides
+the connection between policy makers and those affected. Ultimately, a collaborative
+approach leads to successful outcomes.8
+2.6 The advantages of effective stakeholder engagement in policy and program design
+include innovation, meeting program objectives and seamless implementation.9 Both
+the Australian Public Service Framework for engagement and participation and the
+Australian Public Service Commission describe the principles for stakeholder
+engagement and the requirements for successful consultation as:
+• determine issues for feedback
+• develop an engagement strategy and methods, including identifying relevant
+stakeholders, and a process for recording and incorporating feedback
+• be inclusive of diverse voices and remove barriers to participation
+• manage expectations by being clear, open and transparent
+• continue to improve policy and program design based on feedback.10
+Findings
+2.7 The Australian National Audit Office (ANAO) concluded in its reporting that, for the
+most part, design processes were appropriate across the Auditor-General reports. It
+listed key messages regarding policy and program design which were identified as
+important, including:
+• People affected by policy and program proposals should have the opportunity to
+contribute to policy design, and decision-makers should be informed of the
+outcomes of this consultation.11
+• When co-designing policy, entities should assess whether the parties invited to
+co-design collectively represent all relevant interests, and, if they do not, consider
+whether additional targeted consultation is required to inform the co-design.12
+2.8 The ANAO noted that several of the audited programs yielded largely effective policy
+and program design. This included the Department of Agriculture, Fisheries and
+Forestry’s (DAFF) Implementation of the Export Control Legislative Framework13, the
+Department of Education’s (Education) design and implementation of the
+8 Althaus et al 2018, Australian policy handbook: a practical guide to the policy-making process, 6th edn, Allen
+& Unwin, Sydney, pages 30 and 117.
+9 Australian Public Service Commission [APSC] 2021, ‘Getting stakeholder engagement right’,
+https://www.apsc.gov.au/node/388, viewed 17 April 2024.
+10 APSC 2021, ‘Getting stakeholder engagement right’, https://www.apsc.gov.au/node/388, viewed
+17 April 2024; Althaus et al 2018, Australian policy handbook: a practical guide to the policy-making process,
+6th edn, Allen & Unwin, Sydney, p.139.
+11 Auditor-General Report No. 16 2022–23, Management of Migration to Australia—Family Migration Program,
+p. 11.
+12 Auditor-General Report No. 10 2022–23, Expansion of telehealth services, p. 11.
+13 Auditor-General Report No. 6 2022–23, Implementation of the Export Control Legislative Framework, p. 19.
+8
+participation programs for regional students14, and the Department of Home Affairs’
+(Home Affairs) design and delivery of its Family Migration Program.15 The
+Department of Health and Aged Care’s (Health) expansion of telehealth services was
+found by ANAO to be informed by largely robust policy advice and planning.16 The
+ANAO identified stakeholder consultation as an area for improvement in the design
+processes of both Health and Home Affairs.
+2.9 The ANAO concluded in Auditor-General Report’s No. 6 2022–23 and No. 17 2022–
+23 that stakeholder engagement in DAFF’s development and design processes ‘was
+transparent and consultative’ for the Revised Framework17, and that the planning and
+development phases of the Blueprint for cultural reform were informed by internal
+and external consultations.18
+2.10 It was noted by the ANAO in Auditor-General Report No. 42 2022–23 that
+consultation had taken place across the sector for Education’s RRR Education
+Strategy and was found to have informed policy and funding options.19 The ANAO
+also found that the design and planning of programs and initiatives had been
+developed on evidence drawn from the 2017 Halsey Review, which incorporated
+submissions from a wide range of stakeholders, including peak bodies, education
+authorities, corporate and community organisations, and the public.20
+2.11 In Auditor-General Report No. 10 2022–23, the ANAO found Health had consulted
+stakeholders, including peak bodies in allied health, general practice (GP), nursing,
+rural and Indigenous health, and state and territory governments.21 Consultation
+processes differed between the temporary and permanent expansion. Engagement
+for the temporary expansion of telehealth services occurred within a short timeframe
+and discussions were held at ad hoc and standing meetings regarding the broader
+COVID-19 response.22 Engagement on permanent telehealth services was
+undertaken by two departmental divisions—one for consultation on GP and allied
+health provider telehealth, and the other on specialist telehealth.23
+2.12 Consultation with peak bodies for GP and allied health providers largely aligned with
+Health’s stakeholder engagement strategy.24 A steering group and roundtable
+discussions were held as part of this strategy, as well as public consultation between
+March 2020 and November 2021.25 Additionally, the department negotiated and
+14 Auditor-General Report No. 42 2022–23, Access and Participation Programs and Remote Students, p. 8.
+15 Auditor-General Report No. 16 2022–23, p. 8.
+16 Auditor-General Report No. 10 2022–23, pages 6, 8 and 20.
+17 Auditor-General Report No. 6 2022–23, pages 8 and 34.
+18 Auditor-General Report No. 17 2022–23, pages 9, 16, 20, 24.
+19 Auditor-General Report No. 42 2022–23, p. 31.
+20 Auditor-General Report No. 42 2022–23, pages 21 and 31; Education 2024, ‘Independent Review into
+Regional, Rural and Remote Education’, Australian Government, viewed 10 April 2024,
+https://www.education.gov.au/recurrent-funding-schools/independent-review-regional-rural-and-remote-
+education.
+21 Auditor-General Report No. 10 2022–23, pages 8–9, 30–31.
+22 Auditor-General Report No. 10 2022–23, pages 8–9, 30–31.
+23 Auditor-General Report No. 10 2022–23, pages 32–33.
+24 Auditor-General Report No. 10 2022–23, pages 30 and 32.
+25 Auditor-General Report No. 10 2022–23, p. 32.
+9
+sought policy setting suggestions from the Royal Australian College of General
+Practitioners, Australian Medical Association (AMA), Australian College of Rural and
+Remote Medicine, Rural Doctors Association of Australia, and Royal Australasian
+College of Physicians (RACP) from July 2020.26
+2.13 Health commenced drafting a stakeholder engagement strategy to inform policy
+options for the introduction of permanent specialist telehealth. Although the draft
+strategy was never finalised, consultations did occur with peak bodies, including the
+AMA and RACP, between October 2020 and September 2021, with policy advice
+reflecting their views.27 Three non-peak body agencies reported having difficulty
+contributing to the development of telehealth policy.28
+2.14 The ANAO also reported that the National Aboriginal Community Controlled Health
+Organisation (NACCHO) advised it ‘was not involved in stakeholder meetings where
+the specifics of telehealth policy settings were discussed’.29 NACCO further advised
+that the decision to remove telehealth items from the MBS on 1 July 2021 was made
+without consultation.30
+2.15 Additionally, the ANAO reported that while state and territory governments
+participated in high level discussions, targeted consultation meetings with states and
+territories did not occur after June 2020, ‘and did not inform permanent telehealth
+policy’.31 According to the ANAO, Health advised that:
+• consultation and coordination via the Australian Health Protections
+Principal Committee (AHPPC) and National Cabinet was substantial
+throughout the pandemic and involved senior decision-makers from each
+jurisdiction…
+• Health would not normally consult with states and territories on the detail
+of MBS changes as the bulk of MBS funding is directed towards private
+providers…
+• New South Wales and Tasmania, however, were represented on the
+Primary Health Reform Steering Group…
+• the nature of consultation with state and territory health departments
+regarding changes to the MBS should be considered in the context of the
+consultation that is meant to occur under the National Health Reform
+Agreement 2020–2025.32
+2.16 Failure of adequate consultation for the planning of policy can lead to poorly
+implemented policy changes, as well as unintended impact to key stakeholders. To
+improve the co-design of policy settings, the ANAO advised Health to evaluate the
+26 Auditor-General Report No. 10 2022–23, pages 32–33.
+27 Auditor-General Report No. 10 2022–23, pages 30 and 33.
+28 Auditor-General Report No. 10 2022–23, p. 33.
+29 Auditor-General Report No. 10 2022–23, pages 30 and 34.
+30 Auditor-General Report No. 10 2022–23, p. 34.
+31 Auditor-General Report No. 10 2022–23, pages 32 and 34.
+32 Auditor-General Report No. 10 2022–23, p. 34.
+10
+parties invited to take part for their representation of relevant issues and consider
+whether ‘additional targeted consultation is required to complement the co-design
+process’.33
+2.17 The ANAO’s findings in the Auditor-General Report No. 16 2022–23, Home Affairs’
+implementation of the Family Program, lacked direct involvement from stakeholders
+affected by the policy proposal in the design consultation phase.34
+2.18 Home Affairs’ consultative process involved seeking views from state and territory
+governments, holding roundtable meetings with industry representatives and
+academics, obtaining advice from commonwealth government agencies, and
+releasing discussion papers inviting submissions from public community networks.35
+2.19 In its audit report, the ANAO acknowledge that Home Affairs had advised:
+…it takes community feedback into account when it develops planning options for
+the [G]overnment.36
+However, the ANAO observed that Home Affairs did not report on the outcomes of
+these consultations.37 The ANAO suggested that ‘there is scope for the department to
+explicitly set out how its advice reflects consideration of community views’.38 To
+remediate these shortcomings, the ANAO recommended Home Affairs develop
+processes to meaningfully capture client feedback39 and improve its advice to the
+Government by reporting on the outcomes of community consultation.40
+2.20 At the committee hearing in Canberra on 1 February 2024, the Auditor-General,
+reiterated this advice:
+The ANAO suggested that Home Affairs more clearly explain how advice
+prepared for government takes account of community views on family
+migration.41
+2.21 The Committee questioned Home Affairs as to what actions it had taken since the
+ANAO audit with regards to community consultation.42 Home Affairs responded by
+stating that:
+[T]here has been a significant increase in the terms of consultation we do in
+respect of the program and also outreach to affected communities. That
+33 Auditor-General Report No. 10 2022–23, p. 34.
+34 Auditor-General Report No. 16 2022–23, pages 8 and 22.
+35 Auditor-General Report No. 16 2022–23, pages 8 and 23.
+36 Auditor-General Report No. 16 2022–23, p. 24.
+37 Auditor-General Report No. 16 2022–23, p. 8.
+38 Auditor-General Report No. 16 2022–23, p. 24.
+39 Auditor-General Report No. 16 2022–23, pages 9 and 47.
+40 Auditor-General Report No. 16 2022–23, p. 22.
+41 Mr Grant Hehir, Auditory-General, Australian National Audit Office, Committee Hansard, Canberra,
+1 February 2024, p. 2.
+42 Committee Hansard, Canberra, 1 February 2024, p. 14.
+11
+information is fed back into the wider process by which government determines
+what the Migration Program composition may be each year.43
+2.22 Although the Committee acknowledges the positive changes Home Affairs has made
+in response to the ANAO audit findings, the committee is disturbed by the lack of
+genuine consultation by Home Affairs on the impact migration policies have on
+people—to properly provide advice to government on the human experience of these
+policies.44
+Agency responses
+2.23 In response to the ANAO’s audit findings, Health’s Acting Deputy Secretary,
+Mr Daniel McCabe, assured the Committee at the public hearing on 2 February 2024,
+that as part of the department’s ongoing improvement to its governance
+arrangements, it continues to focus on and consider all stakeholder implications.
+Mr McCabe also advised that Health recognised the role state and territory
+governments play in the provision of healthcare services.45
+2.24 In recognition of the ANAO’s feedback and Committee questions regarding adequate
+consultation concerning Indigenous community access to telehealth services, Health
+submitted that:
+NACCHO attended regular GP Peak Body video conferences chaired by the
+Deputy Chief Medical Officer. More than 120 GP Peak Body meetings were held
+between March 2020 and August 2022, providing an opportunity for dialogue
+between the department and key stakeholders on matters relating to the
+COVID-19 response including discussion of [MBS] telehealth policy.
+…
+[T]elehealth policies were and continue to be designed to minimise barriers to
+care by First Nations patients.46
+43 Mr Michael Willard, Acting Deputy Secretary, Immigration, Department of Home Affairs, Committee Hansard,
+Canberra, 1 February 2024, p. 14.
+44 Committee Hansard, Canberra, 1 February 2024, p. 14.
+45 Mr Daniel McCabe, Acting Deputy Secretary, Health Resourcing Group, Department of Health and Aged
+Care, Committee Hansard, Canberra, 2 February 2024, p. 37.
+46 Department of Health and Aged Care, Supplementary Submission 4.1, p. [17].
+12
+2.25 In response to the audit’s findings, Home Affairs submitted to the committee that it is
+making improvements:
+Through 2023–24 and beyond, the Department will be consulting Family
+Migration Program stakeholders through a variety of channels gathering their
+feedback and gauging sentiment on Family Migration Program settings.
+Feedback will be used to inform these settings over the coming program years
+coupled with feedback provided through the Migration Review.47
+2.26 Home Affairs also advised the introduction of an annual community organisation
+roundtable to improve and supplement existing consultation initiatives. Those existing
+initiatives involve consultation through the departmental Community Liaison Officer
+network, as well as with academic, industry and government stakeholders.48
+2.27 At the hearing in Canberra on 1 February 2024, the Acting Deputy Secretary,
+Mr Michael Willard, also reiterated that since the release of the ANAO’s audit report,
+Home Affairs is strengthening its capabilities regarding stakeholder consultation and
+feedback.49
+Committee comment
+2.28 The Committee is pleased to see that, apart from Health and Home Affairs, the
+findings from the Audit reporting showed generally sound policy and program design.
+The Committee would encourage all agencies to effectively engage with key
+stakeholders to better shape policy and decision-making.
+2.29 The Committee acknowledges the positive changes Home Affairs has made in
+response to the ANAO audit findings. The Committee however remains perplexed
+and disturbed by the lack of genuine consultation for years by Home Affairs on the
+impact migration policies have on people—to properly provide advice to government
+on the human experience and impacts of these policies.50
+2.30 Although Home Affairs’ evidence that it is strengthening its capabilities regarding
+stakeholder consultation and feedback is welcome, the Committee is concerned that
+there are no frameworks or performance criteria that reflect this in the current
+approach Home Affairs is taking in its improvement to the Family Migration Program.
+2.31 In the context of evidence received by the inquiry including through the public
+hearing, the Committee took a broader interest (than the initial remit of the ANAO’s
+performance audit) in the Family Migration Program given the significant impact of
+the design and delivery of this program on large swathes of the Australian
+community. The Committee examined associated policy and administrative issues in
+47 Department of Home Affairs, Submission 3, p. 4.
+48 Department of Home Affairs, Supplementary Submission 3.1, pages 23–24.
+49 Mr Michael Willard, Acting Deputy Secretary, Immigration, Department of Home Affairs, Committee Hansard,
+Canberra, 1 February 2024, p. 12.
+50 Committee Hansard, Canberra, 1 February 2024, p. 14.
+13
+more detail, including highlighting the lack of humanity reflected in some of the
+actions of Home Affairs, as well as the lack of human impact reflected in the ANAO
+audit reporting. These issues are reflected later in this report.
+2.32 With regard to the temporary telehealth expansion, the Committee appreciates that
+Health’s stakeholder consultation was limited based on urgency. However, more
+robust stakeholder consultation should have been undertaken in the planning of the
+permanent telehealth expansion, with additional efforts made to ensure that all
+identified stakeholders had adequate engagement.
+Recommendation 1
+2.33 The Committee requests that the Department of Home Affairs reports on its
+stakeholder engagement planning improvements within 12 months of the date
+of this report, including what performance indicators will be included in the
+policy design to reflect the collection of community sentiment.
+14
+3. Policy planning and
+implementation
+Overview
+3.1 The Department of Prime Minister and Cabinet (PM&C) through the branch of the
+Office of Impact Analysis (OIA) defines the considerations that need to be addressed
+for successful implementation of policy in its Delivering Great Policy Model.1 The
+Delivering Great Policy Model highlights that a good policy essentially is one that’s
+implemented and works.2 To deliver a successful policy or program, effective
+implementation is needed. This includes consideration of several policy impact
+analysis factors that impact the success of implementation, such as:
+• evidence supporting policy design, specifically an ability to reduce or remove
+information gaps through the implementation phase if they cannot be closed
+during the policy development phase3
+• policy option implementation considerations, ensuring that approaches to address
+regulation requirements are considered, and that those affected understand their
+legal rights and obligations4
+• ensuring there are no implementation barriers or unintended consequences and
+shaping evaluation5
+• the implementation planning includes appropriate risk management
+arrangements.6
+3.2 Included in best practice for implementation is a clear implementation plan for
+delivering the proposed policy option that includes a shared understanding among
+key stakeholders involved in the implementation, identification of challenges,
+timeframes, project phases of the implementation, and appropriate resources for
+delivery across the life of the implementation.7
+1 Office of Impact Analysis (OIA), Australian Government Guide to Policy Impact Analysis, viewed 3 June
+2024, https://oia.pmc.gov.au/sites/default/files/2024-01/australian-government-guide-to-policy-impact-
+analysis.pdf.
+2 Department of Prime Minister and Cabinet, Delivering Great Policy Model, Practical to Implement, viewed 3
+June 2024, https://www.apsacademy.gov.au/aps-craft/strategy-policy-evaluation/delivering-great-
+policy/practical-implement.
+3 OIA, Australian Government Guide to Policy Impact Analysis, p. 16.
+4 OIA, Australian Government Guide to Policy Impact Analysis, p. 22.
+5 OIA, Australian Government Guide to Policy Impact Analysis, p. 33.
+6 OIA, Australian Government Guide to Policy Impact Analysis, p. 40.
+7 OIA, Australian Government Guide to Policy Impact Analysis, pages 39–40.
+15
+Findings
+3.3 The Australian National Audit Office (ANAO) listed key messages from the audit
+reports included in the inquiry, regarding policy and program implementation that
+were identified as important for success:
+• Regulators should implement a risk and assurance program to ensure compliance
+frameworks remain effective, including when implementing organisational-wide
+changes that span over several years.8
+• Large-scale cultural change programs that are intended to be implemented over
+several years need ongoing and active oversight. This includes clearly articulated
+objectives, ongoing governance including active risk management as things
+change, and monitoring and reporting on the achievement of outcomes. Effective
+planning for cultural change programs includes identifying evidence and
+undertaking analysis to inform the objectives of the program. Program objectives
+should clearly define the intended outcomes of the program, in other words, what
+the change will look like. Program of outcomes should be measured using
+relevant performance measures and established baselines, and plans adjusted to
+reflect progress.9
+• Roles, responsibilities, and governance arrangements should be defined and
+implemented at the commencement of the cultural change program. It is worth
+reviewing them at points in the long-term change program to assess if they remain
+appropriate as change unfolds, including where new risks emerge. Changes in
+senior positions within organisations during long-term change programs reinforce
+the need for good records to ensure continuity of intent.10
+• For cross-entity programs and initiatives, establishing clear governance
+arrangements that facilitate horizontal collaboration and ensure a clear line of
+vertical accountability are particularly important for success.11
+• The likelihood of successfully implementing recommendations is increased by
+establishing fit-for-purpose arrangements such as: clearly specifying roles and
+responsibilities; appropriate planning; monitoring, evaluation and reporting
+arrangements; and a process to assure or check that recommendations have
+been implemented in full.12
+3.4 The ANAO found several issues regarding policy planning and implementation in the
+audits, including:
+• implementation planning and support
+• communication
+8 Auditor-General Report no. 6 2022–23, Implementation of Export Control Legislative Framework, p. 11.
+9 Auditor-General Report No. 17 2022–23, Department of Agricultura, Fisheries and Forestry Cultural Reform,
+p. 12.
+10 Auditor-General Report No. 17 2022–23, p. 12.
+11 Auditor-General Report No. 39 2022–23, Implementation of the Government Response to the Black
+Economy Taskforce Report, p. 13.
+12 Auditor-General Report No. 39 2022–23, p. 12.
+16
+• coordination, and
+• information management.
+Implementation planning and support
+Expansion of telehealth services
+3.5 In Auditor-General Report No. 10 2022–23, the ANAO found that while the
+Department of Health’s (Health) implementation of telehealth changes during the
+height of the pandemic ‘provided largely appropriate support to delivery partners’,13
+the expansion was ‘only partly supported by sound implementation arrangements’.14
+The ANAO noted that the expansion was largely based on the department’s routine
+processes for making changes to Medicare Benefits Schedule (MBS) items.15 It found
+that Health did not develop an implementation plan for the initial temporary
+expansion of telehealth services to address the impacts of COVID-19.16
+3.6 The ANAO observed that Ministerial 3C determinations under the Health Insurance
+Act 1973 (Cth) were used to implement the expansion of telehealth in response to
+the pandemic.17 The power to make such determinations had been ‘delegated to
+specified’ departmental senior executives, with Health advising this ‘is an established
+process’ and suited the implementation of the rapid temporary expansion of
+telehealth services.18 The audit identified that although this process was only partially
+documented, it was well understood by staff.19
+3.7 For the transition to permanent telehealth services, ANAO found that Health
+developed a high-level implementation plan to work alongside its Primary Health
+Care 10 Year Plan:
+• outlining deliverables and timeframes between April and December 2021
+• proposing that permanent telehealth services items would commence from
+January 2022
+• updating it in December 2021 to clarify timeframes and deliverables for 2022–23
+• deviating from the implementation plan in December 2021, in response to the
+COVID-19 Omicron variant outbreak.20
+3.8 To improve the implementation process for future changes to the MBS and telehealth
+services, the ANAO recommended that Health considers the lessons learned from
+13 Auditor-General Report No. 10 2022–23, Expansion of telehealth services, p. 40.
+14 Auditor-General Report No. 10 2022–23, p. 40.
+15 Auditor-General Report No. 10 2022–23, p. 8.
+16 Auditor-General Report No. 10 2022–23, p. 36.
+17 Department of Health and Aged Care (Health) 2020, Australian Health Sector Emergency Response Plan for
+Novel Coronavirus (COVID-19), Australian Government, p.36.
+18 Health 2020, Australian Health Sector Emergency Response Plan for Novel Coronavirus (COVID-19),
+Australian Government, p.36.
+19 Auditor-General Report No. 10 2022–23, p. 36.
+20 Auditor-General Report No. 10 2022–23, p. 38.
+17
+the temporary expansion in response to the COVID-19 to guide future pandemic
+preparedness and finalise plans to evaluate permanent telehealth measures.21 The
+audit report also recommended Health ‘strengthen its systems of control for the
+implementation of changes to the [MBS].’22
+Family Migration Program
+3.9 In Auditor-General Report No. 16 2022–23, the ANAO found that the Department of
+Home Affairs’ (Home Affairs) delivery of the Family Program lacked clear
+implementation frameworks that would ensure consistent and timely provision of visa
+services.23The audit identified the development of guidance material as an
+opportunity for improvement and made several business processing
+recommendations to:
+• …ensure its prioritisation and risk-tiering processes are fit for purpose and
+consistently applied.24
+• …develop an overarching policy and governance framework for its case
+allocation model to guide allocation decision-making and ensure that this
+supports effectiveness and efficiency in handling…visa applications.25
+• …establish processes to identify, analyse and remediate potential
+processing inactivity to support improvement of efficiency in its business
+process for finalising…visa applications.26
+• …establish systematic processes for detecting and remediating aged
+cases across all parts of the [Family Program] caseload to ensure
+applications are appropriately finalised, wherever feasible.27
+3.10 The ANAO further advised that this guidance material should:
+• assist managers and staff at local processing offices ‘to maintain records of case
+allocation practices to ensure decisions can be centrally monitored and verified, if
+required’,28 and
+• address the potential for unreasonable delays and remediation within policy and
+procedural documents.29
+21 Auditor-General Report No. 10 2022–23, pages 67 and 70.
+22 Auditor-General Report No. 10 2022–23, pages 10 and 50.
+23 Auditor-General Report No. 16 2022–23, Management of Migration to Australia—Family Migration Program,
+p. 8.
+24 Auditor-General Report No. 16 2022–23, p. 56.
+25 Auditor-General Report No. 16 2022–23, p. 62.
+26 Auditor-General Report No. 16 2022–23, p. 73.
+27 Auditor-General Report No. 16 2022–23, p. 76.
+28 Auditor-General Report No. 16 2022–23, p. 52.
+29 Auditor-General Report No. 16 2022–23, p. 61.
+18
+3.11 Case allocation practices were also identified in the audit as needing improvement
+and ANAO recommended the development of internal policies and procedures by
+Home Affairs to ensure applications are allotted and managed consistently, efficiently
+and effectively by staff, and in line with government directives.30
+3.12 A related issue that arose is the cost of visa applications. The Committee brought this
+issue of Visa Application Charges (VACs) to the attention of Home Affairs during the
+public hearing in Canberra on 1 February 2024. Home Affairs were unable to provide
+specific costs associated with the processing of applications but did confirm the
+current indexed cost to lodge a visa application—$8,850.00—is currently one of the
+highest globally (if not the highest).31 Home Affairs clarified in a response to the
+Committee the treatment of the charge as a tax, and is set by the Government and
+adjusted annually [usually] in line with the Consumer Price Index (CPI).32 Home
+Affairs further stated that:
+A range of policy considerations may be taken into account by the Government in
+setting individual VACs, however these are not restricted to the cost of assessing
+visa applications.
+…
+The Department does not record or track costs at visa level in its financial
+management information system to enable an average processing cost per
+partner visa to be derived.33
+Communication
+Expansion of telehealth services
+3.13 In Auditor-General Report No. 10 2022–23, the ANAO found that Health had not
+developed a communications plan to support stakeholders during the rapid
+expansion of the temporary telehealth services. This created an increased risk in
+changes being misunderstood by providers and patients, as well as a potential for
+increased risk in incorrect process for MBS claims through Services Australia.
+However, it noted that a substantial number of guidance documents had been
+developed to assist health providers and facilitate their enquiries.34
+3.14 The ANAO noted that service standards in responding to provider inquiries were
+inconsistently met between March 2020 and June 2022.35 Additionally, ANAO
+reported that submissions received by the audit relating to the department’s
+implementation approach consistently highlighted concerns regarding ‘the number,
+30 Auditor-General Report No. 16 2022–23, p. 62.
+31 Mr Matthew Noble, Acting Assistant Secretary, Family Visas, Department of Home Affairs, Committee
+Hansard, Canberra, 1 February 2024, pages. 15–16.
+32 Department of Home Affairs, Submission 3:1, Answer to Question on Notice, [p. 2].
+33 Department of Home Affairs, Submission 3:1, [p. 2].
+34 Auditor-General Report No. 10 2022–23, pages 50 and 52–53.
+35 Auditor-General Report No. 10 2022–23, pages 50–54.
+19
+frequency, and speed of changes to telehealth arrangements’.36 The issues noted by
+stakeholders included that:
+• the quality and timeliness of policy guidance was variable
+• policy guidance provided limited support
+• technology guidance provided limited support
+• changes to telehealth settings were made abruptly or without sufficient
+notice
+• the frequency of changes to telehealth settings created confusion
+• the expiry, extension and/or reinstatement of temporary items over short
+timeframes prevented long-term decision making by businesses
+• the frequency of changes to telehealth settings increased costs to
+businesses.37
+3.15 The ANAO concluded that the lack of a communications strategy resulted in content
+duplication between Health and Services Australia, and led to emerging risks
+associated with inconsistent messaging and uncertainty around which departmental
+teams were responsible for deleting obsolete guidance materials.38 Additional issues
+were raised by the Committee regarding changes undertaken by Health that failed to
+observe the requirements for Services Australia to be able to process MBS
+payments.39 This created the potential for fraudulent transactions to be processed.
+Services Australia did raise concerns about this with Health on 16 March 2020 and
+requested clarification of signature requirements, with Health stating that due to the
+‘exceptional and temporary circumstances’ of the pandemic at the time, providers
+could document those patients that had given verbal consent as adequate to address
+Services Australia’s concern.40
+3.16 Public facing guidance by Health also did not clarify that notating verbal consent
+alone in provider records would not legally address other statutory requirements
+requiring a signed copy of the agreement to be provided to the patient. This created
+legal issues that Health did not address or communicate to providers, including the
+potential for severe legal consequences, as there is no legal basis for Services
+Australia to pay benefits to the provider under the MBS if a signed agreement is not
+completed, and that providers can be criminally liable for failing to complete the
+agreement properly.41
+Family Migration Program
+3.17 In Auditor-General Report No. 16 2022–23, the ANAO found that feedback submitted
+both to a 2022 Senate Migration Program inquiry and its performance audit of this
+36 Auditor-General Report No. 10 2022–23, p. 39.
+37 Auditor-General Report No. 10 2022–23, pages 39 and 54.
+38 Auditor-General Report No. 10 2022–23, p. 52.
+39 Committee Hansard, Canberra, 2 February 2024, p. 31.
+40 Auditor-General Report No. 10 2022–23, p. 49.
+41 Auditor-General Report No. 10 2022–23, p. 49.
+20
+scheme highlighted a ‘lack of communication during the visa processing period’ as a
+concern.42
+3.18 It noted that some family visa clients were waiting more than 12 months for final
+decisions on their applications.43 It further reported that while determinations were
+quickly made if applications were invalid, there was limited communication with
+clients whose applications were in progress.44
+3.19 The ANAO found that automated ‘Application in Progress’ emails (reassurance
+emails) are sent a year after visa applications are lodged, or six months after
+previous reassurance emails are received, advising applicants to check their
+application status online.45 Home Affairs advised the ANAO in relation to this that:
+…its ability to provide updates to clients digitally is limited by its systems, and
+that ‘the nature of visa processing makes it difficult to breakdown information that
+would be meaningful and helpful’.46
+3.20 The ANAO further determined in the audit that ‘call centre and complaints reporting
+does not provide sufficient detail and analysis to support improvements to the
+delivery of the [Family Migration Program]’.47 The ANAO stated that Home Affairs
+does not monitor enquiries at the Family Program level to identify complaint trends.48
+Instead, it was indicated in the audit that quarterly complaint statistical reports
+broadly categorise issues into ‘digital service, policy, processing times, and
+decision’.49
+3.21 The audit noted that, in line with the Commonwealth Ombudsman’s advice, accurate
+recording and routine analysis of complaints data that identifies trends ‘can support
+business areas in making targeted improvements to their services’.50 These
+processes should also clearly define responsibilities for responding to identified
+issues and tracking ‘to ensure remedial action occurs.51 ANAO recommended that
+Home Affairs develop processes to meaningfully capture client feedback to enable
+the identification of opportunities to improve program service delivery.52
+3.22 The ANAO additionally reported that while information available on the Home Affairs
+website to assist applicants was relevant and was communicated in plain language, it
+‘may not be sufficient in helping clients to understand all requirements for lodging a
+valid visa application’.53 This was described as consistent with Home Affairs’ own
+42 Auditor-General Report No. 16 2022–23, p. 19.
+43 Auditor-General Report No. 16 2022–23, p. 41.
+44 Auditor-General Report No. 16 2022–23, pages 8–9.
+45 Auditor-General Report No. 16 2022–23, p. 41.
+46 Auditor-General Report No. 16 2022–23, p. 41.
+47 Auditor-General Report No. 16 2022–23, pages 8–9.
+48 Auditor-General Report No. 16 2022–23, p.45.
+49 Auditor-General Report No. 16 2022–23, p.46.
+50 Auditor-General Report No. 16 2022–23, pages 45–46.
+51 Auditor-General Report No. 16 2022–23, pages 45–46.
+52 Auditor-General Report No. 16 2022–23, pages 9 and 47.
+53 Auditor-General Report No. 16 2022–23, pages. 8 and 40–41.
+21
+analysis in November 2021, which identified web content as ‘not resolving client
+queries about partner visas’.54
+Department of Agriculture, Fisheries and Forestry Cultural Reform Program
+3.23 In the Auditor-General Report No. 17 2022–23, the ANAO stated that:
+Cultural change requires clear and persuasive communication about the change
+and behaviours required, supported by a clear purpose and vision of the future.55
+3.24 The ANAO concluded that the department’s communication in promoting and
+implementing the Blueprint was inadequate. Communication strategies and plans
+were not assessed for effectiveness; the planned approach to updating staff on
+progress was not implemented; and tailored communications to staff largely ceased
+beyond the release of the Blueprint in September 2021.56
+3.25 To improve, the ANAO suggested DAFF maintain regular and ongoing
+communication with staff throughout the remainder of the Blueprint’s implementation,
+and any future reform programs.57
+Coordination
+3.26 In the Auditor-General Report No. 10 2022–23, the ANAO found that Health did not
+consistently adhere to its bilateral agreement with Services Australia to rapidly
+expand temporary telehealth services, it acknowledged, however, Services
+Australia’s advice that the agency was generally comfortable with the timeliness and
+quantity of information provided.58
+3.27 Conversely, in the Auditor-General Report No. 39 2022–23, the ANAO reported that
+Treasury (Treasury) failed in its coordination role to implement the required taskforce
+recommendations.59 The ANAO concluded that Treasury failed to establish
+coordination arrangements in which there were clearly defined responsibilities and
+accountabilities that would underpin the implementation of the Black Economy
+Taskforce recommendations in a cooperative manner.60 It also reported that ‘there
+was no inter-agency operational group to support the coordinated implementation’.61
+3.28 An internal Treasury audit in November 2020 identified the lack of a framework for
+programs and projects.62 Treasury then launched its Program Management
+54 Auditor-General Report No. 16 2022–23, p. 40.
+55 Auditor-General Report No. 17 2022–23, Department of Agriculture, Fisheries and Forestry cultural reform,
+p. 17.
+56 Auditor-General Report No. 17 2022–23, pages 9–10 and 20, 24, 28, 31–33.
+57 Auditor-General Report No. 17 2022–23, p. 20.
+58 Health 2020, Australian Health Sector Emergency Response Plan for Novel Coronavirus (COVID-19),
+Australian Government, pages 50–51.
+59 Auditor-General Report No. 39 2022–23, Implementation of the Government Response to the Black
+Economy Taskforce Report, pages 6, 8 and 22.
+60 Auditor-General Report No. 39 2022–23, pages 6, 8–9, 22, 26, 32.
+61 Auditor-General Report No. 39 2022–23, p. 27.
+62 Auditor-General Report No. 39 2022–23, p. 32.
+22
+Framework in November 202263 but advised the ANAO that although staff were
+encouraged in its use, it was not mandatory.64 The audit report recommended that
+Treasury ‘review how its program management framework could better be applied’ in
+undertaking its coordination role.65
+Information management
+Implementation of the Export Control Legislative Framework
+3.29 The ANAO concluded from its performance audit that DAFF’s implementation of the
+revised Export Control Framework was only partially effective.66 It found that the
+development and updating of instructional materials (IM) and other documentation,
+including external website content, had not been completed prior to the
+commencement of this legislation.67
+3.30 The audit findings further revealed that internal stakeholders relied on up-to-date IM
+for a successful transition to the revised legislation, both for those implementing and
+those administering changes, and external stakeholders were dependent on website
+content and documentation to understand their rights and responsibilities under the
+new framework.68
+3.31 The ANAO noted that PricewaterhouseCoopers (PwC) had been engaged by DAFF
+to assess the preparedness of the department to implement the revised export
+framework in September 2020 and that Noetic Group (Noetic) was contracted in
+October 2020 to evaluate whether DAFF was on course to review and amend
+existing IM, as well as develop new IM as needed.69
+3.32 The audit findings indicated that both PwC and Noetic identified and communicated
+concerns regarding identified failings by DAFF to update existing and develop new
+IM in line with the new legislation prior to its implementation.70 PwC had reported that
+‘there remain[ed] a significant volume of IM and other documentation to be
+completed prior to commencement [and] there is a risk of errors being made in IM
+due to tight timeframes for completion’.71 Noetic had advised DAFF that the amount
+of IM requiring legal review had not been fully calculated, and there were ‘significant
+choke points’ in the legal review, clearance, approvals, editing and publishing
+process, with no clear understanding of the liability and processing schedule.72
+63 Mrs Laura Berger-Thomson, First Assistant Secretary, Personal and Indirect Tax and Charities Division,
+Department of the Treasury, Committee Hansard, Canberra, 1 February 2024, p. 5.
+64 Auditor-General Report No. 39 2022–23, p. 32.
+65 Auditor-General Report No. 39 2022–23, p. 32.
+66 Auditor-General Report No. 6 2022–23, p. 8.
+67 Auditor-General Report No. 6 2022–23, p. 37.
+68 Auditor-General Report No. 6 2022–23, p. 38.
+69 Auditor-General Report No. 6 2022–23, pages 23 and 35.
+70 Auditor-General Report No. 6 2022–23, pages 35–36.
+71 Auditor-General Report No. 6 2022–23, p. 35.
+72 Auditor-General Report No. 6 2022–23, pages 35–36.
+23
+3.33 It was noted that DAFF had agreed in response to these assessments to identify
+high-risk IM that required development or amendment prior to implementing the
+revised framework, while deferring those deemed medium to low risk until after
+commencement.73
+3.34 The ANAO also reported that although DAFF’s internal policy required that all IM
+should have been updated prior to commencement of the revised framework, the
+department had not complied with this. Upon assessment of 2,303 IM files in
+March 2022, the ANAO found that of the 850 relating to export activities and
+legislation, only 42 per cent had been updated. The audit report further stated that,
+other than the two-year review, no other requirement or timeframe had been set for
+the review and update of medium to low-risk IM that required this.74
+3.35 The audit also indicated that while the website project plan rated the risk of external
+stakeholders utilising outdated forms and templates with incorrect information as
+‘high’, no risk treatments had been identified and the residual risk had been reduced
+to ‘medium’. The ANAO further identified DAFF website content relating to export
+control that referenced already repealed legislation.75
+3.36 The ANAO’s in-audit observations on remedial actions undertaken by DAFF noted
+that the department had ‘developed a project plan to ensure contents on its external
+website [reflected] the revised export control legislative framework’.76 In its audit
+report, the ANAO recommended that the department should ensure policies and
+procedures relating to IM and website content were up-to-date, reflect current
+legislation, were appropriate, and would operate as intended.77
+Implementation of the Government Response to the Black Economy Taskforce
+3.37 In the Auditor-General Report No. 39 2022–23 the ANAO reiterated that information
+management is ‘fundamental to sound public sector administration, and that standard
+principles for the management of information are set out under the Archives Act 1983
+(Cth) and the Public Governance, Performance and Accountability Act 2013 (Cth)
+(PGPA Act).78
+3.38 The ANAO’s audit of the response to the Black Economy Taskforce
+recommendations identified that poor IM had impaired Treasury’s ability to effectively
+coordinate and implement these measures:
+[The audit] identified that Treasury had poor information management practices
+which created risks around Treasury's ability to provide quality and timely advice
+73 Auditor-General Report No. 6 2022–23, pages 35–36.
+74 Auditor-General Report No. 6 2022–23, pages 8 and 37.
+75 Auditor-General Report No. 6 2022–23, p. 38.
+76 Auditor-General Report No. 6 2022–23, p. 59.
+77 Auditor-General Report No. 6 2022–23, p. 39.
+78 Auditor-General Report No. 39 2022–23, p. 23.
+24
+and reporting on the shadow economy to the Government, and to create an
+effective shadow economy policy environment.79
+3.39 The audit additionally found that Treasury fell short of its recordkeeping
+responsibilities in implementing the Black Economy Taskforce response, such that
+neither Treasury staff nor implementation partners could ‘find information when
+need[ed] [nor] trust the completeness and accuracy of the information’.80 The ANAO
+highlighted the following concerns in this regard:
+• records were not always available to support efficient and continuous
+business
+• records of key decisions were not always documented
+• records did not always provide evidence of policy and program
+development and implementation
+• records did not allow for transparency and accountability.81
+3.40 The audit revealed that content relating to the shadow economy on Treasury’s
+website had not been updated and included information on a now defunct advisory
+board, used the term ‘black economy’ instead of ‘shadow economy’, and contained
+outdated policy information, news, and media,82 creating a risk of misinformation.
+3.41 The audit recommended that Treasury employ policies and procedures to ensure its
+IM systems were fit for purpose, and that it review and update content related to the
+shadow economy on its website.83
+Agency Responses
+Implementation planning and support
+Department of Health and Aged Care
+3.42 In response to the audit recommendations, Health advised the ANAO that it agreed
+in-principle to consider the lessons learned from the COVID-19 response, noting that
+parameters and an approach for a broader pandemic review were ‘yet to be
+determined by the Government’.84 Health also advised ANAO in its audit response
+that it had considered the lessons learned from the COVID-19 telehealth expansion
+when implementing the permanent telehealth measures.85 Health further noted that
+79 Mr Grant Hehir, Auditor-General, Australian National Audit Office, Committee Hansard, Canberra,
+1 February 2024, p. 2.
+80 Auditor-General Report No. 39 2022–23, p. 24.
+81 Auditor-General Report No. 39 2022–23, p. 23.
+82 Mr Grant Hehir, Auditor-General, Australian National Audit Office, Committee Hansard, Canberra,
+1 February 2024, pages 28, 35.
+83 Auditor-General Report No. 39 2022–23, pages 10, 22, 27–28.
+84 Auditor-General Report No. 10 2022–23, p. 67.
+85 Auditor-General Report No. 10 2022–23, p. 67.
+25
+the Minister for Health and Aged Care had requested the MBS Review Advisory
+Committee (MRAC) to undertake an evaluation of the permanent expansion of
+telehealth services.86
+3.43 In its submission to the inquiry, Health advised that its internal implementation
+planning and tracking is appropriate, but acknowledged that it is not geared towards
+changes to ‘the MBS which undergoes many amendments annually’.87 Health stated
+in this regard:
+The Department is taking steps to formalise, at the policy development stage,
+consideration of whether MBS amendments are ‘material’ and therefore should
+be managed as a project, whether additional specific post-implementation
+evaluation is required; and if so, identification of relevant resources required and
+suitable timing.
+…
+The outcome from this project will assist MBS policy staff with the documentation
+for the management of implementation...88
+3.44 Health also confirmed in its submission and at the public hearing on 2 February 2024
+that it was committed to improving its program monitoring and evaluation of the
+permanent telehealth measures, and is tracking its progress against the ANAO’s
+recommendations. Health further advised the Committee that MRAC’s post-
+implementation review of MBS telehealth arrangements was nearing completion
+following public consultation on the draft report at the end of 2023.89 MRAC’s final
+report had not been published at the time of writing.90
+Department of Home Affairs
+3.45 Home Affairs responded to the audit findings and recommendations that it had
+developed an assortment of management practices to support its efficiency and
+effectiveness in delivering the Family Migration Program and in meeting government
+requirements. The ANAO further advised however that these practices needed to be
+fully documented to ensure responsibilities for case management strategies are clear
+and that practices could be reviewed and evaluated.91
+86 Auditor-General Report No. 10 2022–23, p. 70.
+87 The Department of Health, Submission 4, p. 6.
+88 The Department of Health, Submission 4, p. 6.
+89 The Department of Health, Submission 4, p. 3, 10–11; Mr Daniel McCabe, Acting Deputy Secretary, Health
+Resourcing Group, Department of Health and Aged Care, Committee Hansard, Canberra, 2 February 2024,
+p. 27–28.
+90 The Department of Heath 2023, ‘Medicare Benefits Schedule Review Advisory Committee Draft Report: Post
+Implementation Review of Telehealth MBS items’, viewed 16 May 2024,
+https://consultations.health.gov.au/medicare-reviews-unit/mrac-draft-report-post-implementation-review-of-
+te/; The Department of Health 2021, ‘Medicare benefits Schedule continuous review to improve patient care’,
+viewed 16 May 2024, https://www.health.gov.au/news/medicare-benefits-schedule-continuous-review-to-
+improve-patient-care.
+91 Auditor-General Report No. 16 2022–23, p. 62.
+26
+3.46 Home Affairs submitted to the inquiry that it was undertaking work in response to the
+audit recommendations, to ensure consistency of its business processes.92 In
+particular, the department indicated that it had held six meetings since January 2023,
+to establish ‘overarching policy, governance and principles for case allocation’.93
+Home Affairs further indicated in its submission that written guidance was developed
+and distributed in April and June 2023, detailing case allocations, processes,
+treatment recommendations, and guidelines for prioritising visa applications on
+compassionate and compelling grounds.94
+3.47 Home Affairs also stated in its submission that it was developing ‘an overarching
+framework [to] support existing case allocation tools…guided by [its] Family Program
+Service Design and Immigration Programs Business Improvement Strategy to deliver
+united and holistic outcomes’.95 Home Affairs reiterated to the Committee at the
+public hearing on 1 February 2024 that it continues to strengthen its capabilities,
+including its business processes, in accordance with the ANAO’s recommendations.96
+Communication
+Department of Health and Aged Care
+3.48 Although Health did not respond directly to the ANAO’s criticism regarding an
+absence of a communications strategy in either its submissions or at the public
+hearing on 2 February 2024, it affirmed at the hearing that:
+The department recognises its responsibility to government and to the Australian
+community to ensure the integrity of the Medicare program. It continues to
+improve its internal processing response to the ANAO recommendations.97
+Department of Home Affairs
+3.49 In response to the audit findings and to Committee queries at the hearing on
+1 February 2024 regarding processing delays, Home Affairs advised that it
+recognised that some applicants were experiencing lengthy delays on the outcome of
+their visa applications:
+…our officers are very conscious that they’re real people…particularly in the
+family program.98
+...
+92 Home Affairs, Submission 3, p. 3.
+93 Home Affairs, Submission 3, p. 6.
+94 Home Affairs, Submission 3, p. 6.
+95 Home Affairs, Submission 3, p. 6.
+96 Mr Michael Willard, Acting Deputy Secretary, Immigration, Department of Home Affairs, Committee Hansard,
+Canberra, 1 February 2024, p. 12.
+97 Mr Daniel McCabe, Department of Health and Aged Care, Committee Hansard, Canberra, 2 February 2024,
+p. 28.
+98 Mr Michael Willard, Department of Home Affairs, Committee Hansard, Canberra, 1 February 2024, p. 14.
+27
+There’s a very close focus on what sorts of outputs we’re achieving. Government
+has made a significant investment…in providing us with 500 additional staff, and
+we are accounting for that. We report weekly to our ministers on progress across
+all of our case loads.99
+3.50 Home Affairs submitted to this inquiry that it is also undertaking initiatives to improve
+its communication with clients that include:
+• new tools ‘to proactively monitor and manage caseloads’
+• priority processing on compelling and compassionate grounds
+• regular monitoring for applications due to expire or that cannot be extended to
+ensure finalisation prior to expiry
+• website updates to provide applicants with ‘meaningful information… in an easy-
+to-access manner [and] convey a more realistic processing time’
+• new approaches to give clients timely and helpful advice on their applications,
+including digital and online self-service tools to assist with status-related enquiries
+• regular updates and enhancements to improve and streamline online applicant
+experiences.100
+3.51 In response to the audit, Home Affairs advised the ANAO that it has developed policy
+and procedural guidelines to provide clear directions on responding to client
+feedback, including family visa processing. Processes and structures had been
+developed within its Immigration Programs Division to support consistency and timely
+delivery across its visa programs. Quality control checks and assurance activities
+were also routinely being undertaken, both prior to applications being finalised and
+on completion.101
+Department of Agriculture, Fisheries and Forestry
+3.52 Since the ANAO’s audit, DAFF has advised it no longer uses the Blueprint102 to drive
+its cultural reform program and instead uses its new Transformation Action Plan—
+published in November 2023.103
+3.53 At the hearing on 12 March 2024, the Committee questioned how DAFF had
+addressed the concerns raised by the ANAO. DAFF advised that following the
+appointment of the new secretary in August 2023, an organisational transformation
+taskforce was commissioned to build on previous reviews and the Blueprint, to take
+99 Mr Michael Willard, Department of Home Affairs, Committee Hansard, Canberra, 1 February 2024, p. 15.
+100 Department of Home Affairs, Supplementary Submission 3.1, pages. [42–44].
+101 Auditor-General Report No. 16 2022–23, pages 3–4.
+102 Being Future Ready: Our Future Department Blueprint 2021–2025 (the Blueprint) was developed as a
+roadmap to coordinate ongoing reform activities and areas of reform focus, this was developed in September
+2021 by the Department of Agriculture, Water and the Environment (DAWE) now know as DAFF.
+103 Department of Agriculture, Fisheries and Forestry, Supplementary Submission 5.1, p. [18].
+28
+up recommendations that had not implemented, and develop the Transformation
+Action Plan.104 DAFF further commented that:
+If you've got a set of recommendations, it really is working through your full
+executive all the way to your frontline service delivery staff so that it's not just
+talked about but led from a cultural perspective. In the development of the
+transformation action plan, a very important part of the work for us was
+engagement across our entire organisation, in person and online.
+… that's been a particular focus of deep staff engagement, so that we're getting
+that cultural change as well as business change.105
+Coordination
+Department of the Treasury
+3.54 Treasury’s response to the ANAO noted its commitment to addressing the
+performance audit findings but asked for acknowledgement of the progress already
+achieved in relation to the taskforce recommendations, the impact of reprioritising
+resources to support the Government’s COVID-19 response, and that it was
+continuing to improve its program management approach.106
+3.55 At the hearing on 1 February 2024, the Committee noted that the poor findings in the
+ANAO’s report were uncharacteristic of those that Treasury received in other audits.
+Treasury responded:
+Treasury…is primarily a policy agency, not an implementation agency…It wasn’t
+our core business at the time.107
+…we did launch a program management framework in 2022 so that in future,
+when things come up, people have a place to start. That’s been an important
+stepping stone in the maturity of the organisation that didn’t exist at the time of
+the black economy.108
+3.56 The ATO indicated in its submission to the inquiry that it was liaising closely with
+Treasury on cross-agency working arrangements and that the following provisions
+would achieve the optimal outcomes in this regard:
+• cross-agency monitoring and evaluation arrangements
+• clearly defined responsibilities and accountabilities for coordination of
+cross-agency activities
+104 Mr Adam Fennessy, Secretary, Department of Agriculture, Fisheries and Forestry, Committee Hansard, via
+Videoconference, 12 March 2024, pages 1–2 and 6.
+105 Mr Fennessy, Department of Agriculture, Fisheries and Forestry, Committee Hansard, via Videoconference,
+12 March 2024, p. 6.
+106 Auditor-General Report No. 39 2022–23, p. 12.
+107 Mrs Berger-Thomson, Department of the Treasury, Committee Hansard, Canberra, 1 February 2024, p. 5.
+108 Dr Angela Barrett, Chief Operating Officer, Department of the Treasury, Committee Hansard, Canberra,
+1 February 2024, p. 5.
+29
+• high levels of mutual trust to support early facilitation and escalation to
+rapidly resolve issues.109
+Information management
+Department of Agriculture, Fisheries and Forestry
+3.57 DAFF advised in its audit response that it would continue progressing its project
+plans to update non-high-risk IM and website content; review its project plans to
+ensure ANAO observations were addressed; and use its assurance and compliance
+processes to ensure IM remained up-to-date and functioned correctly.110
+3.58 In its submission to the inquiry, DAFF stated that it had developed implementation
+plans to address the ANAO’s recommendations, and that these ‘are on track to be
+implemented within two years’ of the audit report’s publication.111
+3.59 In response to questions from the Committee at the public hearing on 2 February
+2024, DAFF advised that ‘all our high-risk stuff is still up to date, but the low-risk stuff
+comes and goes about being in and out of date all the time’.112
+3.60 DAFF again confirmed in its supplementary submission to the inquiry that all high-risk
+IM had been updated and published as of March 2021, in time for the
+commencement of the new Framework. DAFF submitted that updates to the
+remaining 189 medium and low risk IM are required to be completed by 18 October
+2024, and of these, 128 had been finalised. The department also confirmed that they
+are on track to complete the remaining 61 IM by October 2024.113
+3.61 DAFF remarked further in this regard at the 2 February 2024 hearing:
+Instructional material…is always something we have to keep a very close eye on,
+and we try to make sure that we're always up to date...We're always trying to find
+out ways to improve it and the timeliness of it…We're trying to move away from
+high levels of written material to more videos.114
+Department of the Treasury
+3.62 Treasury advised in its response to ANAO that it was continuing to make changes to
+improve its IM approach—this work commenced in December 2020.115 The
+department further noted that it had:
+109 Australian Tax Office, Supplementary Submission 7.1, p. [5].
+110 Auditor-General Report No. 6 2022–23, p. 39.
+111 Department of Agriculture, Fisheries and Forestry, Submission 5, p. 4.
+112 Mr Matthew Koval, First Assistant Secretary, Trade and International, Department of Agriculture, Fisheries
+and Forestry, Committee Hansard, Canberra, 2 February 2024, p. 7.
+113 Department of Agriculture, Fisheries and Forestry, Supplementary Submission 5.1, p. [15].
+114 Mr Matthew Koval, First Assistant Secretary, Department of Agriculture, Fisheries and Forestry, Committee
+Hansard, Canberra, 2 February 2024, p. 7.
+115 Auditor-General Report No. 39 2022–23, p. 27; Department of the Treasury, Submission 6, pages 2, 4–5.
+30
+• implemented an information strategy and established a governance Committee
+that focuses on information strategy
+• improved its information storage systems policies
+• transitioned to SharePoint Online, and
+• introduced mandatory information management training for all staff.116
+3.63 Treasury advised ANAO also that it had updated its content on 24 May 2023.117 While
+the ANAO acknowledged this response, it reported that these updates did not
+address all the issues it had identified during the audit process.118
+Committee comment
+3.64 Quality policy planning and implementation are critical to ensuring government policy
+and program success, providing an approach and guidance for effective
+implementation. Clear plans also establish responsibilities and ensure consistency,
+which lead to the fulfilment of policy objectives.
+3.65 Sound implementation plans are vital to ensuring the successful implementation and
+delivery of government policies and programs. Implementation support provides a
+transitional link between the initial implementation phase and long-term performance
+of programs. It allows for the incorporation of feedback, adjustments, and
+improvements to achieve positive outcomes and program objectives.
+3.66 DAFF did not provide any specifics on how it is improving communication with staff
+on its cultural reform program. It will, therefore, remain to be seen if this improves
+with the implementation of the department’s Transformation Action Plan.
+3.67 Effective communication fosters transparency and trust. A well-designed
+communication strategy ensures clarity, understanding and cooperation, helps to
+manage expectations and reduces duplication. A good communication plan and
+ongoing communication leads to successful outcomes and achievement of policy
+objectives.
+3.68 Coordination plays a pivotal role in successfully implementing policy programs and
+initiatives across multiple agencies. It ensures the various departments are aware of
+their roles and responsibilities and can work harmoniously towards policy objectives.
+3.69 Up-to-date instructional materials (IM) and documentation are essential to support
+public sector staff successfully implementation of government programs. They
+ensure understanding and consistency in executing and achieving policy objectives.
+3.70 Australia’s Partner Visa charge is amongst the highest globally, if not the highest.
+Notwithstanding the fact that visa charges are considered a tax and hence not
+116 Department of the Treasury, Submission 6, p. 2.
+117 Auditor-General Report No. 39 2022–23, p. 28; Department of the Treasury, Submission 6, p. 5.
+118 Auditor-General Report No. 39 2022–23, pages 28, 81.
+31
+subject to cost recovery policies, Home Affairs was unable to provide any evidence
+as to the efficient cost of administrating the partner visa program and the extent to
+which the current fee is linked to cost recovery even as a benchmark. Given the
+issues of social equity which arise when considering the ability of low-income
+Australians to afford the current fee, there is a strong case for Home Affairs to
+undertake further work and advise government on options which could include
+consideration of a freeze in the partner visa fee.
+Recommendation 2
+3.71 The Committee recommends that the Department of Agriculture, Fisheries and
+Forestry reports back to it on its progress with its Transformation Action Plan
+within 12 months of the date of this report.
+Recommendation 3
+3.72 The Committee recommends that the Department of Home Affairs undertake
+further analysis of the efficient cost of administering the partner visa program
+(including integrity functions) and provide advice to government regarding the
+current fee.
+32
+4. Governance and risk
+management
+Overview
+4.1 Public sector governance is defined as how an organisation is managed, its
+corporate and other structures, its culture, its policies and strategies and the way it
+deals with its various stakeholders. The concept encompasses the way public sector
+organisations acquit their responsibility of stewardship by being open, accountable,
+and prudent in decision-making, in providing policy advice, and in managing and
+delivering programs.1
+4.2 Good governance helps Commonwealth entities maintain strategic direction in
+programs and policy design and implementation by ‘enabling effective and efficient
+decision making, providing clear lines of authority to facilitate the escalation and
+resolution of issues, and enabling senior leaders to guide the direction of outcomes’.2
+4.3 In the Public Governance, Performance and Accountability Act 2013 (PGPA Act),
+section 16 outlines a duty of accountable authorities to establish and maintain
+systems relating to risk and control.3 To promote a coherent approach to performing
+these duties, the Australian Government released the Commonwealth Risk
+Management Policy (Commonwealth Policy) on 1 July 2014 as part of the Public
+Management Reform Agenda (PRMA). This policy supports section 16 of the
+PGPA Act and sets out the principles and mandatory requirements for managing risk
+in undertaking the activities of government.4
+4.4 The Commonwealth Policy defines risk as ‘the effect of uncertainty on objectives’ and
+risk management as ‘coordinated activities to direct and control an organisation with
+regard to risk’.5 The goal of this framework is to embed risk management as part of
+the culture of Commonwealth entities so that the shared understanding of risk leads
+to well informed decision making.6
+1 Australian National Audit Office (ANAO) 2013, Better Practice Guide Public Sector Governance, vol. 1, p. 6.
+2 Australian Public Service Commission (APSC), Governance, https://www.apsc.gov.au/initiatives-and-
+programs/aps-mobility-framework/taskforce-toolkit/governance, viewed 18 April 2024.
+3 Department of Finance, Duty to establish and maintain systems relating to risk and control, Duty to establish
+and maintain systems relating to risk and control | Department of Finance, viewed 11 April 2024.
+4 Department of Finance, Commonwealth Risk Management Policy,
+https://www.finance.gov.au/government/comcover/risk-services/management/commonwealth-risk-
+management-policy, viewed 11 April 2024.
+5 Department of Finance, Commonwealth Risk management Policy, Finance, para 2, viewed 18 April 2024.
+6 Department of Finance, Commonwealth Risk management Policy, Finance, para 2, viewed 18 April 2024.
+33
+4.5 In her Commonwealth Risk Management Policy forward statement, the Minister for
+Finance, the Senator the Hon Katy Gallagher, highlighted the importance of risk
+management:
+Risk management is fundamental to good governance and needs to be reflected
+in the behaviours and culture of the Australian Public service. Good risk
+management supports the better delivery of government services through more
+effective decision-making, greater preparedness for unexpected events and
+supports innovation.7
+4.6 Section 19 of the PGPA Act requires accountable authorities to assist their Minister in
+discharging their duties of accountability to the Parliament and the public. This
+includes:
+• keeping the Minister informed of the activities of the entity and any subsidiaries
+• providing the Minister and Finance Minister with any reports, documents, and
+information they require about the activities of the entity
+• notifying the Minister of any significant decisions made by the entity or any
+subsidiaries
+• giving the Minister reasonable notice of any significant issue that has affected the
+entity or any subsidiaries.8
+4.7 The Office of Impact Analysis (OIA) operates within the Department of Prime Minister
+and Cabinet (PM&C) as an independent body to assist agencies in the creation of
+government policy.9 The principles for Australian Government policy makers, outlined
+by the OIA in the Australian Government Guide to Policy Impact Analysis advises
+that:
+• policy makers should clearly demonstrate a public policy problem
+necessitating Australian Government intervention and should examine a
+range of genuine and viable options, including non-regulatory options, to
+address the problem
+• each proposal must include a clear set of objectives—these are used to
+select the best option and to shape evaluation
+• regulation should not be the default option: the policy option offering the
+greatest net benefit for Australia—regulatory or non-regulatory—should
+always be the recommended option
+• policy makers should consult in a genuine and timely way with affected
+businesses, community organisations and individuals, as well as other
+7 Department of Finance, Commonwealth Risk Management Policy,
+https://www.finance.gov.au/government/comcover/risk-services/management/commonwealth-risk-
+management-policy, viewed 11 April 2024.
+8 Department of Finance, Duty to keep your responsible Minister and the Finance Minister informed,
+https://www.finance.gov.au/government/managing-commonwealth-resources/duties-accountable-authorities-
+rmg-200/duty-keep-your-responsible-minister-and-finance-minister-informed, viewed 12 April 2024.
+9 Office of Impact Analysis [OIA], About Us, https://oia.pmc.gov.au/about, viewed 20 December 2023.
+34
+stakeholders, to ensure proposed changes deliver the best possible
+outcomes for Australia
+• the information upon which policy makers base their decisions must be
+published at the earliest opportunity
+• the most significant policy proposals must undergo a post-implementation
+review reflecting on the extent to which the stated objectives have been
+achieved to ensure settings remain focused on delivering the best
+possible outcomes for Australia.10
+4.8 These principles outline the core requirements that government agencies should
+include in the design and implementation of policies and programs. Additionally,
+agencies need to:
+• incorporate associated risk
+• establish governance arrangements
+• develop appropriate performance measures, and
+• determine monitoring and tracking arrangements for the performance of programs
+and policies being implemented.11
+4.9 Adherence to the PGPA Act and other guiding principles is regarded as vital in the
+development and implementation of policy and programs in the Australian Public
+Service agencies, with the aim to ensure accountability, transparency, and good
+governance by federal government agencies.
+Robustness of risk advice to government
+Findings
+4.10 The Australian National Audit Office (ANAO) listed key messages regarding
+governance and risk management that were identified as important for the successful
+implementation:
+• it is important for regulators to maintain the currency of all supporting
+documentation to ensure the implementation of legislative changes is consistent
+with achieving intended outcomes.12
+• rapid implementation usually involves new, changed, and heightened risks.
+Entities should ensure risk management tools are easy to apply in urgent
+circumstances.13
+10 OIA, Australian Government Guide to Policy Impact Analysis: Principles for Australian policy makers, oia-
+impact-analysis-guide-nov-22.pdf (pmc.gov.au), viewed 12 December 2023, p. 6.
+11 ANAO, Audit Insights: Performance Measurement and Monitoring—Developing Performance Measures and
+Tracking Progress, 11 November 2020, https://www.anao.gov.au/work/insights/performance-measurement-
+and-monitoring-developing-performance-measures-and-tracking-progress, viewed 20 December 2023.
+12 Auditor-General Report No. 6 2022–23 Implementation of the Export Control Legislative Framework, p. 11.
+13 Auditor-General Report No. 10 2022–23 Expansion of Telehealth Services, p. 11.
+35
+• entities delivering services from multiple sites should have in place governance
+and operational frameworks that provide consistent approaches to risk
+management and the measurement of efficiency to provide effective enterprise
+level assurance.14
+• decisions to reallocate funding that has been allocated for a specific purpose
+should be accompanied by transparent and accountable decision making and
+record keeping.15
+• when implementing discrete measures, an overarching framework that clearly
+articulates the purpose of the measure at both a macro and micro level can
+provide the Parliament with confidence that money is being spent in accordance
+with legislative requirements and intended outcomes are being monitored and
+achieved.16
+4.11 Of the six reports that have been the subject of this inquiry, the ANAO identified that
+the advice provided to government by the Department of Health and Aged Care
+(Health) on the temporary telehealth services did not present a structured
+assessment of risks or options for decision-making.17
+4.12 The temporary proposed telehealth policy was presented to government on
+10 March 2020, within seven days of Health being instructed by the Minister to be
+included alongside 17 other response measures to the pandemic response planning.
+The proposal included a generic statement that compliance risks would be
+adequately addressed by the existing Medicare compliance procedures and audit
+protocols and identified that a risk specific to telehealth would be a lack of experience
+among providers and patients with videoconferencing.18 Health received approval to
+implement telehealth services in line with this policy advice on 10 March 2020.
+4.13 On 16 March 2020, concerns were raised by Services Australia regarding the
+clarification of signature requirements for temporary telehealth items introduced in
+response to COVID-19. Health advised, on 24 March 2020, that due to ‘exceptional
+and temporary circumstances’, verbal consent was acceptable in lieu of a signature
+requirement on clinical notes. Health extended these temporary arrangements
+several times between 2020–22.19
+4.14 On 23 March 2020 the government announced that eligibility for telehealth services
+was expected to be expanded to the whole Medicare-eligible population. The
+announcement stated also that the bulk billing incentive for providers would be
+temporarily doubled for both face-to-face and telehealth services from
+14 Auditor-General Report No. 16 2022–23 Management of Migration to Australia—Family Migration Program,
+p. 11.
+15 Auditor-General Report No. 39 2022–23 Implementation of the Government Response to the Black Economy
+Taskforce Report, p. 13.
+16 Auditor-General Report No. 42 2022–23 Access and Participation Programs for Regional and Remote
+Students, p. 10.
+17 Auditor-General Report No. 10 2022–23, p. 8.
+18 Auditor-General Report No. 10 2022–23, p. 26.
+19 Auditor-General Report No. 10 2022–23, p. 49.
+36
+30 March 2020, to promote the provision of bulk billed services to vulnerable patient
+groups.20
+4.15 Health prepared advice to government in line with this announced approach. This
+advice stated that integrity risks would be adequately addressed through existing
+compliance arrangements.21 Additional detail was provided on benefits and risks of
+certain proposed policy settings, including the removal of a requirement for an
+existing provider and patient relationship to access telehealth services.22 Health did
+include in its advice concern regarding capacity constraints within Services Australia,
+and that a progressive implementation would be advisable to reduce this risk. To
+increase the implementation time, Health drafted regulatory changes in parallel with
+seeking policy authority.23
+4.16 A risk register was not prepared by Health, as the temporary telehealth changes
+were not classified by Health as a project, but instead as standard MBS changes.24
+The primary differences between standard MBS changes and project implementation
+are that formal approval of changes are not documented for MBS, and there are no
+controls to ensure staff follow current version of procedure.25
+4.17 How Health classified the telehealth expansion as an MBS change is important as it
+meant Health did not then undertake the appropriate frameworks that would have
+been completed if the telehealth expansion had been classified as a project, for
+example, appropriate risk assessment planning would have been undertaken, as well
+as performance measurements. Had Health classified the telehealth expansion as a
+project, the potential issues of fraud might have been realised prior to the
+implementation.
+4.18 During the public hearing in Canberra on 2 February 2024, Health reported it had
+reviewed the internal processes since the audit and had started to adjust the project
+classification based on the magnitude of change to the MBS.26
+4.19 As the Risk Management Framework was not included in their advice to government
+for the temporary telehealth benefits expansion, Health failed to identify the
+assignment of benefit for the bulk-billing telehealth services as a legal risk. The
+Committee sought clarification during the hearing on 2 February 2024, on the lack of
+risk analysis undertaken by Health, leading to issues regarding fraudulent
+transactions with the MBS. Health advised that:
+…[M]ost of the challenges were that we didn’t write things down properly. I
+mentioned before that we were meeting with stakeholders weekly, if not daily in
+some cases. Part of that was dealing with non-compliance risks that were starting
+20 Auditor-General Report No. 10 2022–23, p. 48.
+21 Auditor-General Report No. 10 2022–23, p. 27.
+22 Auditor-General Report No. 10 2022–23, p. 27.
+23 Auditor-General Report No. 10 2022–23, p. 48.
+24 Auditor-General Report No. 10 2022–23, p. 42.
+25 Auditor-General Report No. 10 2022–23, p. 42.
+26 Mr Daniel McCabe, Acting Deputy Secretary, Health Resourcing Group, Department of Health and Aged
+Care, Committee Hansard, Canberra, 2 February 2024, p. 28.
+37
+to emerge pretty quickly as we were doing both the temporary and the lead-up to
+permanent. 27
+4.20 Highlighted in paragraph 4.13, Services Australia raised concern regarding an
+inability to substantiate claims made through the MBS from providers due to a lack of
+physical paperwork that arose from the temporary telehealth expansion plans.
+4.21 The ANAO identified that processing MBS claims without signatures was not in
+accordance with the MBS policy.28
+Health did not manage implementation risks associated with temporary or
+permanent telehealth changes in accordance with its risk management policy.
+…
+Health did not conduct a risk assessment of integrity risks, such as provider fraud
+and non-compliance, prior to implementing the temporary and permanent MBS
+telehealth items. Treatments to prevent provider non-compliance with telehealth
+items were limited.29
+4.22 The ANAO findings determined that Health didn’t assess the legal risk associated
+with the temporary expansion policy, didn’t consider whether the risk could be
+mitigated through additional controls, or formally assign responsibility for monitoring
+the risks, as required by its management framework.30 This risk was identified in
+ANAO’s audit report findings. ANAO highlighted this issue in Recommendation 2,
+stating that Health needs to ‘develop procedures that ensure proposed material
+changes to the Medicare Benefits Schedule are subject to structured and
+documented risk assessment that covers implementation, integrity, and other risks’.31
+Agency response
+4.23 Although Health acknowledged the ANAO’s findings, it stated in its response that it
+identified relevant risks to in its advice to government, including policy proposals.32
+The ANAO concluded that the risk identification and treatment strategies in relation to
+policy development and monitoring advice provided to government were
+incomplete.33
+4.24 Health agreed to ANAO’s recommendation two and provided a progress update to
+the Committee in its submission. Health outlined the work that the Medicare Integrity
+27 Mr Daniel McCabe, Department of Health and Aged Care, Committee Hansard, Canberra, 2 February 2024,
+p. 30.
+28 Audit-General Report No. 10 2022–23, p. 9.
+29 Auditor-General Report No. 10 2022–23, p. 9.
+30 Auditor-General Report No. 10 2022–23, p. 49.
+31 Auditor-General Report No. 10 2022–23, p. 10.
+32 Department of Health and Aged Case, Submission 4, p. 7.
+33 Auditor-General Report No. 10 2022–23, p. 9.
+38
+Taskforce is currently undertaking to implement reforms to strengthen Medicare
+integrity and facilitate improved risk-based decision-making.34
+4.25 Health confirmed to the Committee that it was working to develop better risk models
+for the MBS:
+[W]e are developing a full risk model for the MBS that will look at thresholds
+where potential policy changes might increase fraud risk with our compliance
+colleagues; look at other parts of the department, where they’re making policy
+changes that interact with Medicare and what that means as well; make sure
+that, if we think there are risks with that, it’s well described and documented in
+regard to what they have to do in order to engage with that process; and then
+work with other parts of government, like Service Australia, to make sure that we
+continue to refine the systems that support Medicare and the integrity of the
+payments that they provide to Australians as well.35
+4.26 The ANAO findings highlighted that Health did not make plans to conduct an
+evaluation of temporary telehealth settings at the time of initial implementation in
+March 2020. Additional advice provided to Government contained little detail.36
+In response to the ANAO findings noted in paragraph 4.18 and 4.19, Health
+acknowledged that not assessing the legal risk introduced uncertainty about the legal
+authority for payments, specifically uncertainty about the requirements of Section 20
+of the Health Insurance Act 1973 (HII Act) which defines the requirements a person
+entitled to Medicare benefits must meet, and if not fulfilled, then there is a risk that no
+bulk-billed benefit is payable.37
+4.27 Health went on to highlight that the risks associated with non-standard assignment of
+benefit were referenced in advice to government on options to make the expansion of
+MBS telehealth permanent, with Health of the opinion that its advice could have been
+more detailed and robust if legal advice had been sought sooner.38
+Committee comment
+4.28 The Committee acknowledges the unprecedented circumstances that Health faced
+during the rapid implementation of the telehealth expansion during the COVID-19
+pandemic. The ANAO found in its audit that there were shortfalls in the governance
+and risk management of the expansion. The Committee appreciates the
+circumstances during the pandemic and reaches its conclusions in the spirit of
+34 Department of Health and Aged Care, Submission 4, p. 7.
+35 Mr Daniel McCabe, Acting Deputy Secretary, Health Resourcing Group, Department of Health and Aged
+Care, Committee Hansard, Canberra, 2 February 2024, p. 30.
+36 Auditor-General Report No. 10 2022–23, p. 66.
+37 Department of Health and Aged Care (Health), Submission 4.1, Answer to Question on Notice,
+pages 11–12; Health Insurance Act 1973, Section 20.
+38 Health, Submission 4: 1, pages 11–12.
+39
+learning for future such events, not undermining the work of committed public
+servants during the incredibly difficult time of the pandemic.
+4.29 Significant changes were made to the MBS, and although the type of changes were
+common practice for Health, the context of the changes should have been treated
+differently.
+4.30 The Committee’s primary concern on reviewing the evidence is that because the
+changes to the MBS that enabled the telehealth expansion were not treated as a
+project, appropriate risk assessments were not undertaken, and appropriate advice
+was not provided to government. This led to an increased risk of fraudulent
+transactions under the MBS and is still currently an issue that needs to be addressed
+with changes made to current legislative requirements.
+Recommendation 4
+4.31 The Committee requests that the Department of Health and Aged Care reports
+back to it on its progress in implementing legislative changes to allow digital
+assignment of benefit for the MBS.
+Recommendation 5
+4.32 The Committee recommends that the Australian Government prioritises any
+necessary legislative changes in order to address the current structure of the
+Health Insurance Act 1973 to align with the modern technological requirements
+of telehealth.
+Quality of evidence to inform policy advice
+Overview
+4.33 The Australian Policy Handbook, states that robust evidence is critical to the Impact
+Analysis process. The Office of Impact Analysis (OIA) provides guidance to federal
+government agencies on Impact Analysis through their website to assist policy
+makers.39 Relevant data that is or is not available must be identified. Where relevant
+data is not available, explanatory information must be provided. As robust data
+underpins evaluation, the evaluative process in the final report must set out a plan to
+close any data gaps that remain in the post-implementation phase.40
+4.34 The Australian Government Guide to Policy Impact Analysis, provided by OIA,
+defines the need to implement impact analysis when:
+39 Office of Impact Analysis (OIA), Guidance on Impact Analysis, viewed 22 May 2024,
+https://oia.pmc.gov.au/resources/guidance-impact-analysis.
+40 oia-impact-analysis-guide-nov-22.pdf (pmc.gov.au)
+40
+Any policy proposal or action of government, with an expectation of compliance,
+that would result in a more than minor change in behaviour or impact for people,
+business or community organisations.
+The public service has an obligation to ensure that the most significant decisions
+are supported by robust evidence and analysis covering the available options
+and how they could reasonably be expected to play out in the community.41
+Findings
+4.35 The ANAO audits undertaken as part of this inquiry identified two departments which
+did not provide effective advice to government on their programs, due to poor
+information management and a lack of clear evidence of stakeholder consultation—
+the Department of the Treasury and the Department of Home Affairs.
+Department of Home Affairs
+4.36 Auditor-General Report No. 16 (2022–23) Management of Migration to Australia—
+Family Migration Program examined information provided to the government by
+Home Affairs to inform decision-making on the size and composition of the annual
+migration program. Home Affairs’ representatives conducted community meetings
+however there was no clear evidence that family migration policy and specific
+proposals were routinely discussed or analysed. The ANAO suggested that Home
+Affairs more clearly explain how advice prepared for government takes account of
+community views on family migration.42
+4.37 ANAO re-affirmed in its audit report that advice to government on Australia’s Family
+Migration Program should be based on evidence and include information about the
+views of those affected by policy proposals and the program’s implementation.43
+4.38 The ANAO highlighted that effective planning of the Family Migration Program better
+prepares Home Affairs to deliver against priorities set by government and meet the
+intent of its policies. The ANAO emphasises that planning should be complemented
+by appropriate governance arrangements to ensure effective implementation of the
+program.44
+4.39 The ANAO determined that Home Affairs did not engage directly with community
+representatives or organisations. Home Affairs advised the ANAO that it brings its
+public discussion paper to the attention of community networks through its Regional
+Directors and Community Liaison Officers. Basic details of meetings are recorded in
+41 Office of Impact Analysis (OIA), Australian Government Guide to Policy Impact Analysis, viewed 22 May
+2024, australian-government-guide-to-policy-impact-analysis.pdf (pmc.gov.au), p. 8.
+42 Auditor-General Report No. 16, Management of Migration to Australia—Family Migration Program, p. 23.
+43 Department of Prime Minister and Cabinet, Policy Hub—‘Well-Informed’, accessed 26 April 2024; C Althaus,
+P Bridgman and G Davis, ‘The Australian Policy handbook’, Allen & Unwin, Crows Nest, NSW, 2018,
+pages 116–132.
+44 Auditor-General Report No. 16 2022–23, p. 22.
+41
+spreadsheets, but there was no specific record of consultation on Family Migration
+Program proposals.45
+Application waiting times
+4.40 Home Affairs’ advice to government regarding visa application waiting times is
+provided on a regular basis to assist in providing data on decision making around
+resource allocation.46 Home Affairs affirmed its process on application capacity
+forecasting, stating that:
+[W]e’re forecasting application rates, which is not a precise science, but that is
+something that we do look at. In previous years I think the impacts in terms of the
+whole migration program were certainly considered. I’d suggest probably the
+fiscal impacts are the strongest consideration.47
+4.41 The public hearing on 1 February 2024 in Canberra, highlighted what the Committee
+considered, the lack of transparency created by the introduction of the methodology
+used to calculate average processing times for visa applications. This has arisen due
+to the historic data collection and representation of KPIs, as the average processing
+times and figures have excluded visa applications not actively being processed.48
+4.42 Home Affairs provided evidence that staffing levels had improved in recent times,
+specifically in the processing of partner and child visa applications thanks to an
+increase in resourcing by the government in the last two years. This has resulted in a
+tangible improvement in productivity.49
+Visa planning levels
+4.43 In Auditor-General Report No. 16 (2022–23) the ANAO concluded that advice to
+support the review of the Home Affairs’ performance against annual Family Migration
+Program planning levels was not complete in its analysis of effectiveness and
+efficiency.50
+4.44 The government determines the scale and composition of the permanent migration
+program each year as part of the Budget process. It considers advice and options for
+granting Skilled and family program visas for the next financial year set out in an
+annual submission.51
+4.45 The current practice is for the government to set an overall limit (‘planning level’ or
+‘ceiling’) specifying the number of places for each of the visa categories within the
+limit. From 2012–12 to 2018–19, the total number of visas available under the
+45 Auditor-General Report No. 16 2022–23, p. 23.
+46 Mr Michael Willard, Department of Home Affairs, Committee Hansard, Canberra, 1 February 2024, p. 15.
+47 Mr Michael Willard, Department of Home Affairs, Committee Hansard, Canberra, 1 February 2024, p. 15.
+48 Committee Hansard, Canberra, 1 February 2024, p. 16.
+49 Mr Matthew Noble, Acting Assistant Secretary, Family Visas, Department of Home Affairs, Committee
+Hansard, Canberra, 1 February 2024, p. 13.
+50 Auditor-General Report No. 16 2022–23, p. 8.
+51 Auditor-General Report No. 16 2022–23, p. 22.
+42
+permanent migration program was 190,000. This level was reduced to 160,000
+between 2019–20 and 2021–22. On September 2022, the government announced a
+planning level of 195,000 for 2022–23.52
+4.46 In 2016–2017, the government agreed to a proposal to adopt the term ‘planning
+ceiling’ to establish an upper limit rather than a minimum number of visas to be
+finalised by the end of the financial year. In 2018–19, Home Affairs advised the
+government to reduce the planning ceiling for the following year from 190,000 to
+150,000 to better reflect its capacity to process visas. The government agreed to a
+planning level of 160,000, with the original level to be reinstated in 2023–24.53
+4.47 The ANAO observed that the use of annual planning ceilings may increase
+uncertainty about the actual number of visas likely to be granted by the end of the
+year, reducing the government’s ability to determine if its policy and fiscal objectives
+will be achieved. Advice to government should indicate Home Affairs’ confidence in
+being able to achieve targets and deliver against its policy objectives.54
+4.48 The ANAO highlighted an opportunity for improvement in providing complete
+information to the government relating to the department’s performance against
+planning levels and its management of the visa caseload, as part of its reconciliation
+of performance in delivering the annual migration program.55
+4.49 Evidence provided confirmed that the Migration Act 1958 does not allow a cap to be
+applied to partner and child visas.56 Home Affairs over several years has repeatedly
+acknowledged there is no power to impose a cap on partner and child visas, in
+departmental documents, Parliamentary hearings and in responses to questions on
+notice through the Senate Estimates process.57 However, the Committee recognises
+additional evidence through Freedom of Information (FOI) requests that show internal
+directives from Home Affairs to stop granting partner visas until the start of a new
+financial year, highlighting the use of de-facto ‘capping’ methods by Home Affairs.58
+Department of the Treasury
+4.50 Auditor-General Report No. 39 (2022–23) Implementation of the Government
+response to the Black Economy Taskforce identified that Treasury had poor
+information management practices which created risks around its ability to provide
+quality and timely advice and reporting on the shadow economy to the Government,
+52 Auditor-General Report No. 16 2022–23, pages. 22–23.
+53 Auditor-General Report No. 16 2022–23, p. 25.
+54 Auditor-General Report No. 16 2022–23, pages 25–26.
+55 Auditor-General Report No. 16 2022–23, p. 29.
+56 Migration Act 1958, s. 87 (1); Committee Hansard, Canberra, 1 February 2024, pages 19–20.
+57 Department of Home Affairs, ‘The Administration of the Immigration and Citizenship Programs’, 12th Edition,
+May 2024, p. 33, viewed 10 July 2024, administration-immigration-programs-12th-edition.pdf
+(homeaffairs.gov.au); Department of Home Affairs, Answer to Question on Notice, 17 October 2016, p. 1,
+viewed 9 July 2024, fa-190901576-document-released.PDF (homeaffairs.gov.au).
+58 Department of Home Affairs, Disclosure Logs, FA19/03/00642, Documents Released—Part 2, viewed 9 July
+2024, fa-190300642-document-part2.PDF (homeaffairs.gov.au).
+43
+and to create an effective shadow economy policy environment.59 The audit identified
+specific issues including incomplete advice provided inconsistently to government
+creating difficulty in tracking the progress of the implementation.60 Regular status
+updates of the implementation were not provided to government by Treasury.61
+4.51 Treasury made seven submissions to government between July 2018 and December
+2022. The ANAO determined that there were issues with the quality of this advice,
+advising that:
+• Treasury didn’t include five of the Taskforce’s supplementary recommendations
+due to an oversight and then assumed that government would note these
+recommendations.62
+• reporting to government was inconsistent with submission format and timing,
+creating difficulty with implementation progress tracking. An example used by the
+ANAO was that:
+In January 2019, Treasury reported that 12 of the 80 recommendations had been
+‘completed’. In this context, ‘completed’ meant implemented. Then in September
+2019, Treasury reported that 53 recommendations had been ‘actioned’ instead of
+‘completed’. In this context, ‘actioned’ included recommendations that were both
+implemented and being implemented.63
+• Treasury suggested to government that several recommendations had been
+implemented in updates provided in October 2019, but the ANAO found they had
+not.64
+• as of February 2023, Treasury had not provided updates to government since
+June 2021.65
+4.52 ANAO found also that Treasury did not provide evidence to government when its
+executive board paused the work of the Black Economy Division, but retained the
+funding provided of $12.5 million and redistributed those funds to other programs.66
+Treasury did not document this decision, or document the potential impact of this
+decision on the implementation of the taskforce report, failing to adhere to section 15
+of the PGPA Act around requirements to document key decisions.67
+59 Auditor-General Report No. 39 2022–23, Implementation of the Government Response to the Black
+Economy Taskforce Report, p. 9.
+60 Auditor-General Report No. 39 2022–23, p. 35.
+61 Auditor-General Report No. 39 2022–23, p. 35.
+62 Auditor-General Report No. 39 2022–23, p. 25, p. 35.
+63 Auditor-General Report No. 39 2022–23, p. 35.
+64 Auditor-General Report No. 39 2022–23, p. 35.
+65 Auditor-General Report No. 39 2022–23, p. 35.
+66 Auditor-General Report No. 39 2022–23, p. 26.
+67 Auditor-General Report No. 39 2022–23, p. 26; Section 15 of the Public Governance, Performance and
+Accountability Act 2013.
+44
+Agency responses
+4.53 Home Affairs and Treasury both acknowledged the ANAO findings in their
+submissions to the inquiry.
+4.54 Home Affairs agreed with the ANAO recommendation to establish processes for
+capturing meaningful client feedback from all sources to enable it to identify
+opportunities to improve and to inform government. However, Home Affairs
+maintained in its response to the recommendation that it is satisfied that such
+processes are already in place but will work to strengthen the way feedback is used
+to inform potential service delivery improvements.68
+4.55 When asked by the Committee during the public hearing in Canberra on
+1 February 2024 about the ANAO’s audit findings around community consultation,
+Home Affairs confirmed this in response:
+There has been a significant increase in the terms of consultation we do in
+respect of the program and also outreach to affected communities. That
+information is fed back into the wider process by which government determines
+what the Migration Program composition may be each year.69
+4.56 In response to the Committee’s questions on average wait times for visa applications,
+Home Affairs clarified the situation, stating that:
+The processing times are calculated based on the date of finalisation, so from the
+date of application to the date of finalisation…We have changed our approach—
+with partners, in particular. One of the challenges with partners is that we had this
+chunk of case load that we were not able, through a ministerial direction, to
+move. What I would characterise as a healthy case load would have, if you like, a
+sloping graph from shorter application periods to longer. You’d have more
+applications recently lodged and fewer applications lodged a long time ago.70
+4.57 Home Affairs provided information on recent visa application processing times in a
+response to questions on notice, emphasising an overall reduction across
+comparative years for partner visa applications. Home Affairs highlighted that it was
+unable to replicate the calculations used by ANAO to determine the average
+processing times outlined in Auditor-General Report No. 16 (2022–23) table 3.7 and
+provided its results in the response.71
+4.58 In response to the issues with planning levels for partner and child visas, as well as
+ambiguous terminology used to describe planning levels, Home Affairs stated in the
+public hearing that:
+68 Department of Home Affairs, Submission 3, p. 4.
+69 Mr Michael Willard, Acting Deputy Secretary, Immigration, Department of Home Affairs, Committee Hansard,
+Canberra, 1 February 2024, p. 14.
+70 Mr Michael Willard, Department of Home Affairs, Committee Hansard, Canberra, 1 February 2024, p. 16.
+71 Auditor-General Report No. 16 (2022–23), p. 71; Department of Home Affairs, Submission 3:1, Answer to
+Question on Notice, [p. 2].
+45
+We’re working towards the planning level that government has set for us.72
+…
+It’s not a cap…the Migration Act doesn’t allow for the application of a cap to the
+partner and child visas. Caps apply on other case load, like parent. What does
+happen though, is government sets a planning level in respect of a program, and
+the department allocated resources accordingly.73
+4.59 Treasury was also asked about the issues identified by the ANAO regarding its
+advice to government and documented evidence of decision-making by the Black
+Economy Taskforce during the 1 February 2024 hearing. The Committee highlighted
+the issue regarding the re-allocation of $12.3 million of funding by Treasury, without
+evidence of approval by the Minister or executive government. Treasury reflected on
+this situation, stating that:
+There were a number of briefs that were sent to the government on
+deprioritisation, so it wasn’t as if Treasury didn’t understand its responsibilities in
+this area—it certainly did. We don’t have a record on this, so I’m unable to
+provide a fulsome explanation, but it just so happens that this particular program
+appears to have been overlooked in those briefing documents.74
+4.60 In their submission to the inquiry, Treasury offered a justification for the issues
+outlined by the ANAO’s findings. Treasury agreed that the ANAO findings determined
+that information management and program governance was not effective. Treasury’s
+submission stated that the issues were compounded by the impact of COVID-19,
+which required a reallocation of resources from the shadow economy response, to be
+put toward designing and implementing the response to COVID-19.75
+Committee comment
+Department of Home Affairs
+4.61 The Committee paid particular attention to the family migration program audit both
+due to the significant administrative issues raised, and also because of the enormous
+importance of partner and child visas to numerous Australians. In a multicultural
+society such as Australia, a family migration program that operates efficiently and
+effectively with integrity and compassion is not a luxury – it’s an essential service to
+those Australians who fall in love and seek to exercise a basic right as an Australian
+to bring their genuine partner (and children where relevant) to build a life in our
+nation. When this core government function fails, it devastates individuals who are
+forced to endure for years the daily pain of separation from loved ones. In many
+72 Mr Michael Willard, Department of Home Affairs, Committee Hansard, Canberra, 1 February 2024, p. 20.
+73 Mr Michael Willard, Department of Home Affairs, Committee Hansard, Canberra, 1 February 2024, p. 20.
+74 Mrs Laura Berger-Thomson, First Assistant Secretary, Personal and Indirect Tax and Charities Division,
+Department of the Treasury, Committee Hansard, Canberra, 1 February 2024, p. 6.
+75 Department of the Treasury, Submission 6, p. 2.
+46
+cases Australians have missed months or years of their children growing up or lost
+the chance to start a family due to sustained delays in having a partner visa granted.
+4.62 The ANAO report coupled with evidence to the inquiry makes clear that in many
+respects the family program had been badly administered and under resourced by
+Home Affairs over many years. This, however, is overwhelmingly not the fault of the
+dedicated public servants. While there are clearly improvements required including in
+relation to policy advice to government, reporting of waiting times, client service and
+program evaluation, the primary issues are a combination of policy decisions in the
+way in which the program is conceived, exacerbated between by the impact of
+significant past cuts to staffing numbers in visa processing.
+4.63 A significant number of staff were cut from visa processing between 2013 and 2022.
+This led to the peculiar situation where staff resourcing became the limiting factor to
+the nation’s entire migration program in 2018-19. Home Affairs advised the then
+government to cut the permanent migration program to 150,000, not with reference to
+economic, social or other policy objectives, or an assessment of the human impacts
+of further delays to partner and child visas, but just because that was all that the
+resourcing permitted. Despite the fact that Australia’s partner visa charge is amongst
+the highest, if not the highest, in the world.
+4.64 The Committee welcomes the significant improvements in family and partner visa
+processing over the last two years. This appears to be partly a genuine response to
+the audit, but primarily due to the allocation of additional staff to Home Affairs and
+changes in policy which have led to a very significant reduction in the backlog of
+partner and child visas on hand and aggregate waiting times.
+4.65 To build recent improvements, the Committee makes a series of findings and
+recommendations regarding issues raised in the ANAO audit report and proposes
+additional actions for Home Affairs and government to consider.
+4.66 With regard to stakeholder consultation, the Committee considers that the community
+and stakeholder consultation undertaken by Home Affairs for many years to inform its
+advice to government regarding the Family Migration Program was inadequate. The
+stakeholder consultation effort was unbalanced, and overwhelmingly focussed on the
+skills and economic aspects of the permanent migration program without adequately
+considering the impacts of the family program. While it can be reasonably expected
+that most Members and Senators have some exposure to the family migration
+program through their electorate offices, governments should have very clear and
+well-informed advice regarding community views and the human as well as economic
+impacts of its policy choices and resourcing decisions. It is disappointing to the
+Committee that this clearly had not occurred for many years and the Committee
+welcomes Home Affairs evidence that improvements have been made.
+4.67 The Committee is concerned at the impact on Australians by excessive and highly
+variable delays and processing times for Partner and Child Visas. This is a complex
+issue that has arisen due to a combination of factors including:
+47
+• The previous Ministerial Direction 80 (now revoked) which in effect consigned
+thousands of partner and child visa applications to be stuck in permanent limbo,
+with little prospect of ever being granted.
+• The practical impact of annual ‘planning levels’ – while not technically a ‘cap’ in
+strict legislative terms, it has a similar practical impact as it is strictly applied by
+the Department in practice as part of the overall permanent migration program: it
+is a hard limit so that when the ‘planning level is reached then the queue and
+waiting times just starts growing.
+• Highly variable performance across the globe impacted by staff resourcing levels
+as well as caseload complexity.
+4.68 The most critical thing that drives waiting times in aggregate for partner and child
+visas is that the annual ‘planning level’ is currently managed as part of the permanent
+migration program just like every other permanent visa category. This is despite the
+legislation not permitting capping and queuing. In practical effect, partner and child
+visas are traded off against permanent humanitarian, skilled and business visas
+within whatever annual headline number government decides.
+4.69 One argument that is sometimes made for limiting or reducing the permanent visa
+program is the impact on housing. This is simply nonsensical in relation to partner
+visas as the spouse or partner lives in the same house (and usually bedroom) as
+their Australian partner.
+4.70 The key practical impact of a planning level that does not match demand is that
+waiting times increase but the impacts of this on individual Australians varies
+enormously across the caseload. Many applicants get a temporary visa and wait
+onshore with their partner however this has routinely been a key cause of the
+blowouts in the number of onshore bridging visas as seen over previous years. In
+essence, cutting the annual allocation of partner visas is in reality a fake cut to
+migration as numerous people are still living onshore, just waiting for a partner visa
+due to arbitrary planning levels. If, however, an applicant comes from a country
+where it is difficult or impossible to get a temporary visa to wait onshore (as they
+cannot meet the Genuine Temporary Entrant test) then the couple endure the pain of
+separation for months or often many years.
+4.71 The Committee welcomes the Department’s evidence of a shift in recent years to
+what they have termed ‘a demand driven system’. This appears to be a belated
+acknowledgment of the legislative reality. The current approach, however, is not truly
+demand driven and further reforms could be contemplated.
+4.72 Specifically, the Committee recommends that the Department give further
+consideration to excising the partner and child visa streams from the annual headline
+permanent visa number and separately report and resource them to make it truly a
+demand driven system. The key policy driver here would be to accept not just the
+letter but the spirit of the Migration Act provisions that do not permit partner or child
+visas to be capped and queued. Such a change would finally make real the illusory
+promise of a demand driven system whereby Australians could expect a visa for their
+48
+Partner and children to be granted in a reasonable timeframe (for example within an
+average of one year or so maximum).
+4.73 Obviously, there would still need to be annual planning levels but these could be
+linked to projected demand forecasting and anticipated processing resources, rather
+than the policy and political trade-offs against other parts of the permanent migration
+program. Governments could still take account of the anticipated economic and fiscal
+impacts of partner and child migration in establishing the annual planning level.
+4.74 With regard to processing times, the Committee stresses the need for greater
+transparency given the confusion and stress for applicants and their families,
+including an ability to start a family and plan for the future. Future reforms to the
+system should seek to provide greater insights for applicants—in aggregate and
+individually. The Committee appreciates however that unfortunately this is unlikely to
+be possible until major upgrades are undertaken in future years to the Home Affairs’
+antiquated IT and visa processing systems.
+4.75 The Committee is firmly of the view that greater attention to ongoing program and
+policy evaluation in family migration is warranted. Advice to government regarding
+policies that have such significant impacts on the lives of Australians should include
+far richer qualitative information about the benefits, failings and opportunities in the
+program, ensuring also that the human impacts on Australians are incorporated into
+policy analysis and advice.
+Recommendation 6
+4.76 The Committee recommends that the Department of Home Affairs ensures that
+qualitative factors (including processing times and their impacts) are
+considered in the analysis of effective direct stakeholder consultation with the
+Family Migration Program, to better inform and advise the Australian
+Government and the Parliament.
+Recommendation 7
+4.77 The Committee requests that the Department of Home Affairs reports back to it
+on its progress in including more qualitative data and engaging directly with
+stakeholders within 12 months of the date of this report.
+Recommendation 8
+4.78 The Committee recommends that the Australian Government consider further
+reforms to make the partner and child family visa programs truly demand
+driven with reasonable waiting times, excising these streams from the annual
+headline permanent migration cap and allocating sufficient processing
+resources annually to meet projected demand with a reasonable average
+processing time.
+49
+Department of the Treasury
+4.79 The Committee acknowledges Treasury’s advice regarding ‘de-prioritisation’ briefs
+that were sent to Government during this period and the substantive issues and
+arguments. Nevertheless, the Committee remains concerned that there is no
+evidence available that indicates advice was provided or approval received from the
+Government to discontinue and reallocate funding from the Shadow Economy work.
+4.80 On that basis the only conclusion the Committee can draw was that the justification
+to re-allocate funding by Treasury was inappropriate, and the situation made worse
+by the lack of records surrounding the lead up to, and after, the decision. The issue
+has been compounded by the need for Treasury to ask for the funding at a future
+date to complete the original task of the Black Economy Taskforce coordination.
+Recommendation 9
+4.81 The Committee requests that the Department of the Treasury reports back to it
+on its progress in strengthening its information management processes,
+including providing the procedural documentation within 12 months of the date
+of this report.
+50
+5. Performance and impact
+measurement
+Overview
+5.1 The Commonwealth Performance Framework, developed by the Department of
+Finance (Finance), states that:
+• commonwealth entities and companies must report on how their
+performance, in achieving its purposes, will be measured, and assessed.1
+• performance planning and reporting should draw clear links between the
+entity’s key activities and the results achieved and provides meaningful
+performance information with a clear line of sight between planned and
+actual performance.2
+5.2 Performance indicators allow qualified rather than absolute judgements. This allows
+programs to be reviewed and assessed on a variety of indicators, as few programs
+are unambiguous successes or failures3, and Commonwealth practice requires every
+new policy proposal to include a plan of action for evaluation. 4
+5.3 The ANAO highlights that all government agencies are required to evaluate
+programs, taking account of materiality, policy significance and risk. In addition to
+specific evaluation activity, the Public Governance, Performance and Accountability
+Act 2013 (PGPA Act) sets out a broad system for accountability and performance
+management in Commonwealth entities.5 Establishing an appropriate performance
+framework up front will position an entity to assess the extent to which it is achieving
+the intended purpose.6
+5.4 The Commonwealth Performance Framework requires entities to publish
+performance information that outlines how the entity’s performance will be measured,
+1 Department of Finance, Commonwealth Performance Framework,
+https://www.finance.gov.au/government/managing-commonwealth-resources/planning-and-
+reporting/commonwealth-performance-framework, viewed 1 May 2024.
+2 Department of Finance, Commonwealth Performance Framework,
+https://www.finance.gov.au/government/managing-commonwealth-resources/planning-and-
+reporting/commonwealth-performance-framework, viewed 1 May 2024.
+3 Althaus, C, Bridgman, P & Davis, G, The Australian Policy Handbook, p. 211.
+4 Althaus, C, Bridgman, P & Davis, G, The Australian Policy Handbook, p. 210.
+5 Althaus, C, Bridgman, P & Davis, G, The Australian Policy Handbook, p. 202.
+6 ANAO, Performance Measurement and Monitoring—Developing Performance Measures and Tracking
+Progress, 11 November 2020, accessed 14 May 2024, https://www.anao.gov.au/work/insights/performance-
+measurement-and-monitoring-developing-performance-measures-and-tracking-progress.
+51
+and the results of that measurement. This allows an assessment of an entity’s
+progress towards achieving the purposes and the objectives set by government for
+the funds received.7
+Findings
+5.5 The Australian National Audit Office (ANAO) listed key messages regarding
+performance and impact measurement that were identified as important for the
+successful implementation:
+• To support a meaningful assessment of progress and improvements, regulators
+should establish clear measurables so that performance can be monitored,
+evaluated, and reported on an ongoing basis.8
+• The need for fit-for-purpose monitoring and evaluation is heightened during
+periods of emergency response, when rapidly introduced measures may need to
+be refined based on early experiences.9
+• Entities delivering services through multiple teams should establish and maintain
+quality assurance frameworks that identify systemic issues, and ensure that these
+issues are communicated, addressed, and monitored to provide consistent
+outcomes across the network.10
+• Successful implementation is underpinned by effective monitoring, review and
+evaluation processes. Effective monitoring collects timely and relevant information
+allows progress to be tracked towards outcomes and adjustments made, as
+necessary. Progress should be tracked in a deliberate and systematic manner
+during implementation.11
+Department of Health and Aged Care
+5.6 In Auditor-General Report No.10 2022–23, the ANAO found that the Department of
+Health (Health) monitored MBS billing data had no performance monitoring plan or
+performance measures nominated for the telehealth expansion.12 Health did not have
+an evaluation plan for temporary or permanent telehealth.13 It did not establish
+performance measures for the telehealth expansion and used MBS billing data to
+monitor telehealth usage patterns, on the assumption that telehealth usage and
+billing behaviours were sufficient indicators of successful telehealth implementation.
+7 ANAO, Performance Measurement and Monitoring—Developing Performance Measures and Tracking
+Progress, 11 November 2020, viewed 14 May 2024, https://www.anao.gov.au/work/insights/performance-
+measurement-and-monitoring-developing-performance-measures-and-tracking-progress.
+8 Auditor-General Report No. 6 2022–23 Implementation of Export Control Legislative Framework, p. 11.
+9 Auditor-General Report No. 10 2022–23 Expansion of telehealth services, p. 11.
+10 Auditor-General Report No. 16 2022–23 Management of Migration to Australia—Family Migration Program,
+p. 11.
+11 Auditor-General No. 42 2022–23 Access and Participation Programs for Regional and Remote Students,
+p. 10.
+12 Auditor-General Report No. 10 2022–23, p. 60.
+13 Auditor-General Report No. 10 2022–23, pages 66–69.
+52
+There were no performance targets.14 Related performance audits undertaken by the
+ANAO identified weaknesses in Health’s integrity and quality controls, as third-party
+data sources were used to monitor and report on performance.15
+5.7 The ANAO determined that Health did not maintain a formal process to assess the
+implications of this research, and the extent to which the reporting was considered by
+responsible officials is undocumented. The ANAO identified evidence of
+implementation issues through complaints and inquiries received by Health that
+included a lack of clarity in policy guidance on telehealth use.16
+Department of Education
+5.8 In Auditor-General Report No. 42 2022–23 the ANAO identified that the Department
+of Education (Education) was unable to demonstrate how the higher education data it
+collects17 is used to measure progress against achieving package level outcomes.18
+Education undertook evaluation activities for individual programs and initiatives on an
+ad hoc basis but did not take a broader strategic approach to package evaluation. 19
+5.9 The ANAO audit findings concluded that Education was unable to demonstrate how
+higher education data is considered or used to inform progress of the access and
+participation program and initiative activities, or the measurement of progress against
+package level outcomes for regional and remote students.20
+5.10 Education is yet to implement a structured approach for monitoring and reporting
+access and participation programs and initiatives against the achievement of
+intended package outcomes.21 The consequence of an unstructured approach is that
+assessment cannot be measured, and trending data cannot be compared to similar
+programs.
+Department of Agriculture, Fisheries and Forestry
+5.11 The Auditor-General Report No.6 2022–23 identified that the Department of
+Agriculture, Fisheries and Forestry (DAFF) had not established arrangements to
+monitor and measure the intended benefits of the legislative framework for the
+implementation of the export control program by the commencement date. Post-
+commencement, there were documents outlining DAFF’s approach to benefits
+management. The ANAO also noted that implementation milestones had not been
+established to support the monitoring and reporting of benefits realisation.22
+14 Auditor-General Report No. 10 2022–23, p. 10.
+15 Auditor-General Report No. 10 2022–23, pages 60–61.
+16 Auditor-General Report No. 10 2022–23, p. 65.
+17 Auditor-General Report No. 42 2022–23, p. 53.
+18 Auditor-General Report No. 42 2022–23, p. 55.
+19 Auditor-General Report No. 42 2022–23, p. 62.
+20 Auditor-General Report No. 42 2022–23, p. 9.
+21 Auditor-General Report No. 42 2022–23, p. 9.
+22 Auditor-General Report No. 6 2022–23, pages 46–49.
+53
+5.12 DAFF has export-related performance measures in its corporate plan and annual
+reporting, most of which relate to the objects of the Act. It has reported an ‘emerging’
+maturity level under the regulatory performance framework.23 The Act sets out the
+overarching legal framework for the regulation of exported goods, including food and
+agricultural products from Australia. The objects of the Act include:
+• to ensure that goods that are exported meet the relevant importing country
+requirements, comply with government or industry standards, or other
+requirements relating to the goods exported from Australia
+• to ensure goods that are exported are traceable and, if necessary, can be recalled
+• to ensure the integrity of the goods
+• to ensure that trade descriptions of the exported goods are accurate
+• to give effect to Australia’s rights and obligations under international agreements
+(in relation to the goods that are exported), to which Australia is a party.24
+5.13 During a public hearing in Canberra, 2 February 2024, the ANAO outlined the
+requirements that need to be considered when undertaking large-scale changes,
+stating that:
+[W]hen you’re implementing a change and you develop a rationale for the change
+and expected benefits, unless you start the process for how you can evaluate
+and determine those benefits at the beginning and start collecting data, then
+you’re unlikely to be able to demonstrate success or otherwise of the program
+further down the track…[DAFF] talked about the establishment of a benefits
+realisation framework, which was linked to the RIS25-type activity, and then it
+wasn’t robustly implemented and data wasn’t collected et cetera in order to
+achieve that.26
+5.14 In Auditor-General Report No. 17 2022–23, the ANAO found that the Department of
+Agriculture, Water and Environment (DAWE, later DAFF) did not establish
+performance measures that enabled it to evaluate the achievement of desired
+outcomes for its cultural reform program.27
+5.15 The framework for monitoring and measuring reform progress did not provide
+sufficient information over the entire reform program. Progress reporting did not
+provide appropriate assurance over the status of the projects. Performance
+measures primarily focused on staff sentiment which provided some indication of the
+impact of the reform program. However, these indicators did not provide a complete
+23 Auditor-General Report No. 6 2022–23, p. 9.
+24 Auditor-General Report No. 6 2022–23, p. 50.
+25 Regulatory Impact Statement (RIS).
+26 Mr Grant Hehir, Auditor-General, Australian National Audit Office, Committee Hansard, Canberra, 2 February
+2024, p. 6.
+27 Auditor-General Report No. 17 2022–23, Department of Agriculture, Fisheries and Forestry’s Cultural
+Reform, p. 61.
+54
+measure of the impact of the reform program, clearly align to intended outcomes, or
+enable identification of significant trends in impact.28
+5.16 DAWE did not establish appropriate assurance over the achievement of the
+capability transfer and uplift under the strategic and delivery partner model.29
+Recommendation three from the ANAO report outlined the need for DAFF to
+establish fit-for-purpose performance criteria to support evaluation and provide a
+basis for assessing the performance of its current or any future reform program.
+DAFF agreed.30
+5.17 In support of the findings made by the ANAO regarding auditability of non-financial
+performance, specifically relating to performance and impact measurement
+requirements, ANAO articulated the shortcomings with the PGPA Rule in a public
+hearing in Canberra, on 2 February 2024, highlighting that:
+The PGPA Rule, which creates the framework to enable the parliament to look at
+the non-financial performance information, isn’t set up for auditability. It’s set up
+for the measures to assist the parliament understand the performance of the
+entity. One of our challenges, as we continue to roll out the performance
+statements auditing, is people doing it because of the audit, not because it is
+good practice. What we are hoping to see is some of the deficiencies that we
+identify through the auditing actually leading to better performance statements,
+not just auditable performance statements, so that they’re meaningful to the
+parliament.31
+Agency Responses
+Department of Health and Aged Care
+5.18 Health addressed recommendation one from the ANAO in its submission to the
+inquiry, which included Health needing to improve planning and performance
+monitoring and evaluation. Health outlined in its agreement to this recommendation a
+progress update, noting that it has a project underway and the benefits, specifically
+that:
+The outcome from this project will assist MBS policy staff with documentation for
+the management of implementation and integrity risks, and mechanisms for
+oversight, performance monitoring, and evaluation.32
+5.19 The Committee questioned Health at the public hearing in Canberra, 2 February
+2024, about what Health is doing to improve performance monitoring and evaluation
+28 Auditor-General Report No. 17 2022–23, p. 10.
+29 Auditor-General Report No. 17 2022–23, p. 10.
+30 Auditor-General Report No. 17 2022–23, p. 60.
+31 Ms Rona Mellor PSM, Deputy Auditor-General, Australian National Audit Office, Committee Hansard,
+Canberra, 2 February 2024, p. 6.
+32 Department of Health and Aged Care, Submission 4, p. 6.
+55
+for the permanent telehealth expansion. Health provided an update to the
+Committee, stating that:
+[W]e have a Medicare review advisory committee, an independent group, that is
+currently evaluating telehealth to give advice to government. These are things
+that we’ve done in the last two years, where we’ve actually looked at how we do
+formalise evaluation and review of all MBS changes, and we bring forward to the
+independent group things that are also significant to review and seek advice and
+submissions on.33
+5.20 Health went on to clarify the specific address of impact measure, highlighting the
+shortfalls of the MBS, stating that:
+In terms of measures of the effectiveness of telehealth, I think it’s important to
+note that an MBS item is a rather blunt item. It tells us if a service is being
+delivered. We don’t necessarily know what happens in a consultation with a GP.
+The data that we get out of the MBS essentially tells us that this service was
+delivered by this provider to that person.34
+Department of Education
+5.21 The ANAO’s first recommendation to Education was to establish a methodology to
+measure the performance of programs and initiatives that contribute to access and
+participation for regional and remote students, and their progress in achieving
+Strategy outcomes. Education agreed.35
+Education [is] reviewing its Performance and Data Framework covering Napthine
+Review36 measures to incorporate further relevant higher education programs
+and initiatives that improve access and participation outcomes for regional and
+remote higher education students.37
+5.22 The Committee revisited Education’s address of the ANAO recommendations in the
+public hearing held in Canberra, on 2 February 2024. The main concern highlighted
+was the repetition of issues previous ANAO reports had shown a pattern of being
+unable to demonstrate success of implemented programs. Education responded by
+stating that:
+…[W]e’ve agreed with the recommendation that we did need to step back from
+the individual initiatives and have a more joined up view of various programs and
+33 Mr Daniel McCabe, Acting Deputy Secretary, Health Resourcing Group, Department of Health and Aged
+Care, Committee Hansard, Canberra, 2 February 2024, p. 35.
+34 Ms Louise Riley, Assistant Secretary, MBS Policy and Reviews Branch, Department of Health and Aged
+Care, Committee Hansard, Canberra, 2 February 2024, p. 35.
+35 Auditor-General Report No. 42 2022–23, p. 9.
+36 The Napthine Review was the name of the final report produced for the National Regional, Rural and Remote
+Tertiary Education Strategy. Department of Education, National Regional, Rural and Remote Education
+Strategy, viewed 11 June 2024, https://www.education.gov.au/higher-education-reviews-and-
+consultations/national-regional-rural-and-remote-education-strategy.
+37 Department of Education, Submission 1, pages. 2–3.
+56
+initiatives to be able to then draw on the data that we have in the department to
+start to measure where those initiatives were making a difference.38
+5.23 Education continued its address to the Committee and highlighted the steps it’s
+taking in response to the ANAO findings. Education also provided updates on the
+progress of current initiatives and advised that it is too early to adequately measure
+impact, but that the data being regularly collected and reviewed is showing where
+impacts have been made.39
+5.24 In response to the ANAO’s findings in paragraph 5.10, Education confirmed that it
+has developed and finalised a Performance and Data Framework Plan and a
+Stakeholder Engagement Plan, to address recommendations one and two from the
+ANAO audit. Education provided a detailed response, stating that:
+• the Performance and Data Framework and Stakeholder Engagement
+Plan are the only tools specifically developed in response to the audit
+• the Performance and Data Framework sets out the measurement
+methodology at both package and individual measure levels, and the
+related data requirements, assurance processes, risk management and
+evaluation activities that will be monitored and reported on by the
+department. Under the framework, a report will be prepared annually and
+provided to the senior executive, covering all measures, and considering
+the way they operate as a package. The Stakeholder Engagement Plan
+supports the implementation of the Performance and Data Framework by
+identifying key stakeholders and outlining the timing of engagement.40
+Department of Agriculture, Fisheries and Forestry
+5.25 The Committee questioned DAFF in a public hearing, in Canberra on 2 February
+2024, about its claims of benefits that would result from the major legislative change
+and changes in the regulatory framework, but that DAFF was unable to demonstrate
+any benefits. DAFF addressed the Committee’s concerns, stating that:
+We have benefits we were trying to measure through our reform package and
+through the legislation at the same time. We were trying to work out how we
+combine that from how we actually, as a regulator, measure our performance, of
+which the legislation is one part of…[W]e actually have a better system as an
+agency around performance reporting more generally.41
+5.26 DAFF continued in its response to the Committee, highlighting that:
+38 Mr Drew Menzies-McVey, Acting First Assistant Secretary, Higher Education, Department of Education,
+Committee Hansard, 2 February 2024, Canberra, p. 22.
+39 Mr Drew Menzies-McVey, Department of Education, Committee Hansard, 2 February 2024, Canberra, p. 22.
+40 Department of Education, Submission 1:1, Answer to Question on Notice IQ24-000004, p. [1].
+41 Mr Matthew Koval, First Assistant Secretary, Trade and International, Department of Agriculture, Fisheries
+and Forestry, Committee Hansard, Canberra, 2 February 2024, p. 3.
+57
+As part of the benefits management approach, the department, and the
+Agricultural Trade Group in particular, have developed a portfolio benefits
+management strategy thorough the former trade reform portfolio office. This is
+consistent with Department of Finance guidelines. These benefit management
+arrangements have been fully implemented within the agricultural trade group.
+…
+In relation to the legislation itself, we have implemented ongoing monitoring and
+reporting of regulatory performance under the Export Control Act 2020. It
+includes external reviews, such as by the Inspector-General of Animal Welfare
+and Live Animal Exports.42
+5.27 In its submission to the inquiry, DAFF provided a brief review of its response to
+recommendations received by the audit report. The response provided little detail
+regarding how DAFF was going to improve its frameworks and process, stating that:
+The department is developing an action plan in response to both this audit and
+the recent Australian Public Service Commission (APSC) Capability Review.43
+5.28 During a follow up hearing with DAFF, the Committee discussed the changes that
+DAFF has implemented in response to the ANAO reports. DAFF highlighted the
+improvements it has made regarding improvements to performance and impact
+measurement, stating that:
+There’s a requirement now for a project plan chaired by a steering Committee
+that defines the problem, the objective, the activities, the benefits’ risks for each
+priority action—so very much picking up those ANAO recommendations—we’ve
+had monthly monitoring and reporting to the steering Committee and quarterly
+reporting to the department’s executive boars…on progress in implementing
+those actions and activities.44
+Committee Comment
+5.29 Regarding Health’s telehealth expansion, both the temporary and permanent
+expansion should have had performance and impact measurement as a key
+framework to ensure appropriate decision-making occurred based on evidence and
+data collected in response to the rapid implementation and changes to the MBS. The
+Committee would emphasise how invaluable performance measurement and the
+data created is in driving good decision-making practices and in adjustments to
+programs. Even in urgent circumstances such as temporary expansion, if it is not
+possible to finalise performance and impact measures immediately upon
+implementation, then they should be completed as quickly as possible.
+42 Ms Kristin Sykes, Principal Director, Divisional Planning and Strategy, Department of Agriculture, Fisheries
+and Forestry, Committee Hansard, Canberra, 2 February 2024, p. 3.
+43 Department of Agriculture, Fisheries, and Forestry, Submission 5, p. 4.
+44 Mr Adam Fennessy PSM, Secretary, Department of Agriculture, Committee Hansard, 12 March 2024, via
+videoconference, p. 2.
+58
+Recommendation 10
+5.30 The Committee requests that the Department of Health and Aged Care reports
+back on improvements to performance and impact measuring related to the
+telehealth expansion MBS items within 12 months of the date of this report.
+Recommendation 11
+5.31 The Committee requests that the Department of Education reports back on the
+implementation of its Performance and Data Framework Plan and Stakeholder
+Engagement Plan within 12 months of the date of this report.
+Hon Linda Burney MP
+Chair
+12 September 2024
+59
+
+A. Submissions
+1 Department of Education
+• 1.1 Supplementary to submission 1
+2 Mr Farshan Fairoos
+3 Department of Home Affairs
+• 3.1 Supplementary to submission 3
+• 3.2 Supplementary to submission 3
+• 3.3 Supplementary to submission 3
+4 Department of Health and Aged Care
+• 4.1 Supplementary to submission 4
+5 Department of Agriculture, Fisheries and Forestry
+• 5.1 Supplementary to submission 5
+6 The Treasury
+• 6.1 Supplementary to submission 6
+7 Australian Taxation Office
+• 7.1 Supplementary to submission 7
+8 Tax Practitioners Board
+9 Australian National Audit Office
+61
+
+B. Public hearings
+Thursday, 1 February 2024, Canberra
+Australian National Audit Office
+• Mr Grant Hehir, Auditory-General
+• Ms Rona Mellor PSM, Deputy Auditor-General
+• Ms Carla Jago, Group Executive Director, Performance Audit Services Group
+• Mr David Tellis, Executive Director, Performance Audit Services Group
+Australian Taxation Office
+• Mr Tony Goding, Assistant Commissioner, Small Business Assurance and
+Shadow Economy Program
+• Ms Debra Goldfinch, Senior Director, Small Business Experience [by video]
+Department of Home Affairs
+• Mr Michael Willard, Acting Deputy Secretary, Immigration
+• Ms Jodie Bjerregaard, Acting First Assistant Secretary, Immigration Programs
+• Mr Matthew Noble, Acting Assistant Secretary, Family Visas
+• Mr Tony Smith, Assistant Commissioner, Australian Border Force
+Department of the Treasury
+• Dr Angela Barrett, Chief Operating Officer
+• Mrs Laura Berger-Thomson, First Assistant Secretary, Personal and Indirect Tax
+and Charities Division
+63
+Friday, 2 February 2024, Canberra
+Australian National Audit Office
+• Mr Grant Hehir, Auditory-General
+• Ms Rona Mellor PSM, Deputy Auditor-General
+• Ms Carla Jago, Group Executive Director, Performance Audit Services Group
+• Ms Christine Chalmers, Executive Director, Performance Audit Services Group
+• Ms Corinne Horton, Executive Director, Performance Audit Services Group
+• Mr David Tellis, Executive Director, Performance Audit Services Group
+Department of Agriculture, Fisheries and Forestry
+• Mr Matthew Koval, First Assistant Secretary, Trade and International
+• Ms Peta Lane, First Assistant Secretary, Enterprise Strategy and Governance
+• Mr Chris McDonald, Assistant Secretary, Enterprise and Budget Strategy
+• Ms Kristin Sykes, Principal Director, Divisional Planning and Strategy
+Department of Education
+• Drew Menzies-McVey, Acting First Assistant Secretary, Higher Education
+• Ms Alexandra Mattinson, Acting Assistant Secretary, Higher Education Access
+and Equity Branch
+Department of Health and Aged Care
+• Mr Daniel McCabe, Acting Deputy Secretary, Health Resourcing Group
+• Ms Elizabeth Quinn, Acting First Assistant Secretary, Benefits Integrity Division
+• Ms Louise Riley, Assistant Secretary, MBS Policy and Reviews Branch
+Tuesday, 12 March 2024, Canberra
+Department of Agriculture, Fisheries and Forestry
+• Mr Adam Fennessy PSM, Secretary
+• Ms Tess Bishop, Deputy Secretary, Portfolio Strategy and Services
+• Ms Sophia Farmakis, Acting Chief Finance Officer
+• Mr Nick Blong, First Assistant Secretary, Sustainability, Climate and Strategy
+• Ms Kim Forbes, First Assistant Secretary, Transformation Taskforce
+• Ms Peta Lane, First Assistant Secretary, Enterprise Strategy and Governance
+• Dr Chris McDonald, Assistant Secretary, Enterprise and Budget Strategy
+64

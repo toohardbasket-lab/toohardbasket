@@ -173,23 +173,29 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       are {fmt(255)} such documents.
     </p>
     <p>
-      <strong>The gap runs oldest-first, and that is the wrong way round.</strong> Both halves
-      of this index come from the Parliament’s Tabled Documents register: the government
-      responses, and the PDFs of the reports still waiting. That register holds nothing before
-      2022, so {fmt(missing.predating)} reports on the two registers — every one of them older
-      than the register itself, the oldest tabled {formatDate(missing.oldestTabled)} — have no
-      document there to read, and not one of their recommendations can be found here. They are
-      the longest waits on the site, which makes this the wrong gap to have: the
-      freedom-of-information report the home page leads with is one of them, and a reader who
-      comes here to find out what that committee actually asked for finds nothing.
-      {missing.total > missing.predating && (
-        <> A further {fmt(missing.total - missing.predating)} more recent reports are missing
-        from the register’s index for the same reason.</>
+      <strong>The oldest reports are here because someone went and got them.</strong> Both
+      halves of this index come from the Parliament’s Tabled Documents register: the
+      government responses, and the PDFs of the reports still waiting. That register holds
+      nothing before 2022, so every report on the two registers older than that — the longest
+      waits on this site, the ones a reader is most likely to look for — was missing, and
+      nothing on the page said so. {fmt(missing.collected)} of them have since been fetched
+      from their committees’ own pages, read by the same parser as every other report and
+      checked the same way; each of those rows records that its document was collected that
+      way rather than taken from the register.
+      {missing.predating > 0 && (
+        <>
+          {" "}{fmt(missing.predating)} {missing.predating === 1 ? "report has" : "reports have"}
+          {" "}not been found yet, and {missing.predating === 1 ? "its" : "their"}
+          {" "}recommendations are still missing from this index.
+        </>
       )}
-      {" "}All of them are published on their committees’ own pages and are being collected by
-      hand; where a row comes from a document fetched that way rather than from the register,
-      the dataset says so.
-    </p>
+      {missing.total > missing.predating && (
+        <>
+          {" "}A further {fmt(missing.total - missing.predating)} more recent
+          {" "}{missing.total - missing.predating === 1 ? "report is" : "reports are"} missing
+          from the register’s index for the same reason.
+        </>
+      )}</p>
     <p>
       There is a second shape it cannot read, and it matters more than the first because the
       clearest example of a form-letter closure this site has is written in it. Where a

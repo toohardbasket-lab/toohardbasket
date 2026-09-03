@@ -1,0 +1,2012 @@
+Report 506: Inquiry into
+Commonwealth Financial
+Statements 2022-23
+Joint Committee of Public Accounts and Audit
+November 2024
+CANBERRA
+© Commonwealth of Australia 2024
+ISBN 978-1-76092-706-6 (Printed version)
+ISBN 978-1-76092-707-3 (HTML version)
+All material in this report is provided under a Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 Australia licence. The material may be shared, copied and redistributed provided that:
+• it is for non-commercial purposes
+• the committee named on the previous page is credited as the author
+• the committee is not represented as endorsing the use of the material
+• any changes are clearly identified
+• no additional legal or technical restrictions are applied to restrict use that complies with the
+licence.
+If the material is remixed, transformed or built upon, the modified material may not be distributed.
+Full details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Chair's foreword
+The annual auditing of the financial accounting and reporting by Commonwealth entities by
+the Australian National Audit Office provides assurance to the Parliament on the financial
+position of the Australian Government and the expenditure of taxpayers’ money. The
+financial statements audits of 243 separate entities in 2022-23 also provided a crucial
+assessment of the risks, governance arrangements, and internal control frameworks that
+exist across the Commonwealth.
+Most of the significant and moderate findings in the 2022-23 financial statements audits were
+in the categories of governance of legal and other matters impacting entity financial
+statements, IT governance including security, change management and user access, and
+the accounting and control of non-financial assets.
+The ANAO report also noted that, compared to 2021-22, there were increased weaknesses
+in change management policies and controls for IT systems and in the processes used by
+entities for accounting for computer software.
+There were a number of areas of concern for the Committee arising from these audits. One
+was the 14 legislative breaches identified, three of which were significant and involved two
+instances of payments and one where no legally required system of risk oversight was in
+place. Seven of the non-significant legislative breaches involved incorrect executive
+remuneration or non-compliance with the Remuneration Tribunal. The Committee agrees
+with the acting Auditor-General that executive remuneration issues have important
+implications for both the prevailing culture of an agency and public expectations regarding
+pay and entitlements for public servants.
+The first two recommendations of this Committee report require the three entities with the
+significant legislative breaches to update the Committee on their progress in addressing
+them. The Committee has also recommended that the Department of Finance amends its
+guidelines to require immediate notification of any remuneration breaches and subsequent
+engagement with the entity in question to discuss remediation steps.
+Problems with the timeliness of financial statement preparation by some entities were also of
+concern to the Committee. There was an increase over the previous year, from 86 to 91
+per cent of entities, in these statements being finalised and auditor reports issued within
+three months of the financial year-end. Whilst this was pleasing, the number of entities
+tabling their annual reports in time to be scrutinised at subsequent Senate Estimates
+hearings declined from 74 to 66 per cent over the previous year. The Committee’s view is
+that the Parliament must have this information, and is indeed entitled to expect it, in time to
+readily and properly scrutinise the expenditure of taxpayer funds.
+A third recommendation from this inquiry was that entities that had failed to table their annual
+reports on time for three consecutive years must provide an explanation to the Committee.
+iii
+The Committee was interested in the role that internal auditors play in assisting
+Commonwealth entities with the timeliness and robustness of their financial reporting. An
+internal audit function is currently not mandatory, and the Committee concurs with the view
+of the ANAO that this is puzzling given its well-established benefits for risk management,
+fraud control, and legislative compliance.
+The Committee notes and appreciates that the Department of Finance has commenced a
+consultation process to update and enhance its guidance on internal auditing. The fourth
+recommendation of the Committee in this report is that a mandatory framework with detailed
+guidelines for internal auditing be developed as part of this process.
+As in previous years, problems with IT governance were prominent among the significant
+and moderate findings by the ANAO in the 2022-23 financial statements audits.
+Unauthorised user access to IT systems across the Commonwealth has continued to be an
+issue over many years and the fifth recommendation of the Committee in this inquiry is for
+agencies with significant breaches relating to their governance and control of IT systems to
+provide progress updates on addressing this.
+It is to be hoped that recommendations of this nature will eventually no longer be needed.
+Unauthorised user access poses serious risks to the Commonwealth, particularly in
+agencies holding highly sensitive information. The Committee is becoming increasingly
+concerned by the persistent nature of this problem.
+Finally, the use and control of emerging technologies by public sector entities, particularly
+artificial intelligence, which came to light during this inquiry was of significant interest to the
+Committee. The Committee corresponded with each of 36 entities that reported the adoption
+of some form of emerging technology during the financial statements audits. However, given
+the scope of the information received, and the importance of this issue, it was subsequently
+decided to initiate a separate Committee inquiry into AI use and governance in the public
+sector with an intention to report in early 2025.
+I thank the Deputy Chair and other Committee members who participated in the inquiry. I
+also thank the contributors to the inquiry and the Secretariat for their continued
+professionalism in supporting the work of the Committee.
+Hon Linda Burney MP
+Chair
+iv
+Contents
+Chair's foreword.............................................................................................iii
+Abbreviations ................................................................................................vii
+Members..........................................................................................................ix
+Terms of reference.........................................................................................xi
+List of recommendations.............................................................................xiii
+Report
+1. Introduction .................................................................................................1
+Conduct of the inquiry..................................................................................................1
+Auditing of the Commonwealth Financial Statements.................................................2
+Areas of focus in the inquiry-Chapter 2 .......................................................................3
+Principal issues raised in the audit including significant legislative breaches.....................3
+Preparation of financial statements.....................................................................................3
+Role of internal auditing.......................................................................................................4
+Information technology governance....................................................................................4
+Use and governance of artificial intelligence in the public sector........................................4
+2. Areas of inquiry by the Committee............................................................5
+Principal audit findings.................................................................................................5
+Legislative breaches............................................................................................................5
+Other significant and moderate audit findings.....................................................................9
+Committee comment...........................................................................................................9
+Preparation of financial statements ...........................................................................10
+Overview............................................................................................................................10
+Weaknesses in consideration of legal matters..................................................................11
+Certain entities with high financial statements risks..........................................................14
+Timeliness of financial reporting........................................................................................16
+Committee comment.........................................................................................................18
+Internal auditing.........................................................................................................21
+v
+Overview............................................................................................................................21
+Overarching issues highlighted by ANAO.........................................................................21
+Issues for specific entities..................................................................................................23
+Committee comment.........................................................................................................24
+Governance of information technology......................................................................25
+Overview............................................................................................................................25
+Significant findings.............................................................................................................26
+Moderate findings mostly relate to removing IT user access............................................29
+Committee comment.........................................................................................................29
+Use and governance of artificial intelligence in the public sector ..............................30
+Separate inquiry................................................................................................................30
+Appendixes
+Appendix A. Submissions............................................................................33
+Appendix B. Public hearings........................................................................37
+Appendix C. Summary of unresolved moderate and significant audit
+findings ..........................................................................................................41
+Appendix D. Areas of higher material misstatement risk for certain
+entities in 2022-23 .........................................................................................49
+List of Tables
+Table 2.1 Annual reports that were tabled after the supplementary budget estimates
+hearings......................................................................................................................19
+List of Figures
+Figure 1.1 Comparison of findings between the past two ANAO audit reports on the
+Commonwealth Financial Statements..........................................................................3
+vi
+Abbreviations
+ANAO Australian National Audit Office
+AI artificial intelligence
+ATO Australian Taxation Office
+DAFF Department of Agriculture, Fisheries and Forestry
+DCCEEW Department of Climate Change, Energy, the Environment
+and Water
+Defence Department of Defence
+DISR Department of Industry, Science and Resources
+Education Department of Education
+Finance Department of Finance
+FMIS financial management information system
+Health Department of Health and Aged Care
+Home Affairs Department of Home Affairs
+ICT Information Communications Technology
+ISM Information Security Manual
+IT Information Technology
+JCPAA Joint Committee of Public Accounts and Audit
+KAM Key Audit Matter
+vii
+KMP key management personnel
+the Mint Royal Australian Mint
+NAA National Archives of Australia
+NDIA National Disability Insurance Agency
+NLC Northern Land Council
+PGPA Act Public Governance, Performance and Accountability Act
+2013
+PSPF Protective Security Policy Framework
+Social Services Department of Social Services
+viii
+Members
+Chair
+Hon Linda Burney MP (appointed to the Committee 12 August 2024, elected as Chair 15
+August 2024)
+Mr Julian Hill MP (until 12 August 2024)
+Deputy Chair
+Senator the Hon Linda Reynolds CSC
+Members
+Dr Michelle Ananda-Rajah MP
+Senator Catryna Bilyk
+Senator the Hon Matthew Canavan
+Senator Lisa Darmanin (from 24 June 2024)
+Dr Carina Garland MP
+Mr Ian Goodenough MP
+Senator Karen Grogan (until 24 June 2024)
+Mr Brian Mitchell MP (from 12 August 2024)
+Dr Daniel Mulino MP
+Mr Henry Pike MP
+Senator Barbara Pocock
+Mr Sam Rae MP
+Senator Tony Sheldon
+Mr Aaron Violi MP
+Mr Josh Wilson MP (until 12 August 2024)
+This committee is supported by staff of the Department of the House of Representatives
+ix
+
+Terms of reference
+On 8 February 2024, the Committee resolved to conduct an inquiry into any matters
+contained in and associated with Auditor-General Report No. 9 of 2023-24: Audits of the
+Financial Statements of Australian Government Entities for the Period Ended 30 June 2023.
+The Committee invited submissions to the inquiry, addressing the terms of reference by
+Friday 29 March 2024.
+Under section 8(1) of the legislation establishing the Joint Committee of Public Accounts and
+Audit, the Public Accounts and Audit Committee Act 1951, one of the duties of the
+Committee is to ‘examine all reports of the Auditor-General (including reports of the results
+of performance audits) that are tabled in each House of the Parliament’. The Committee is
+empowered to ‘report to both Houses of the Parliament, with any comment it thinks fit, on
+any items or matters in those reports, or any circumstances connected with them, that the
+Committee thinks should be drawn to the attention of the Parliament’.
+xi
+
+List of recommendations
+Recommendation 1
+2.26 The Committee requires an update within six months of the tabling of this
+report from the Northern Land Council, Tiwi Land Council, and the Department
+of Health and Aged Care on their respective progress in addressing the
+significant legislative breaches identified by the Australian National Audit
+Office.
+Recommendation 2
+2.27 The Committee recommends that the Department of Finance amends the
+current guidelines to require that it be notified immediately of any breach of the
+executive remuneration rules and then engage with the entity in question to
+discuss remediation steps. The Committee is requesting an anonymised
+update from the Department of Finance within 12 months of the tabling of this
+report on the number of reported breaches it has received, the amounts
+involved, and whether they have been adequately resolved.
+Recommendation 3
+2.70 The Committee recommends that the following entities provide a response
+within six months on why their annual report has not been tabled in time to be
+scrutinised at supplementary budget estimates for the past three years
+• High Court of Australia
+• Australian Strategy Policy Institute Ltd
+• Royal Australian Air Force Veterans’ Residences Trust Fund
+• RAAF Welfare Recreational Company
+• Royal Australian Navy Central Canteens Board
+• Bundanon Trust
+• Anindilyakwa Land Council
+• Central Land Council
+• Northern Land Council
+• Outback Stores Pty Ltd
+• Tiwi Land Council
+xiii
+• Workplace Gender Equality Agency
+• Wreck Bay Aboriginal Community Council
+Recommendation 4
+2.88 The Committee recommends that, as part of its ongoing consultation process,
+the Department of Finance now develops a mandatory framework with detailed
+guidelines for internal auditing for all Commonwealth entities within 12 months
+of the tabling of this report.
+Recommendation 5
+2.115 The Committee recommends that the Australian Taxation Office, Department of
+Defence, National Archives of Australia and Services Australia each report to
+the Committee within six months of this report on their progress in closing the
+significant breaches relating to their governance and control of IT systems.
+xiv
+
+
+1. Introduction
+1.1 The Consolidated Financial Statements are prepared annually by the Department of
+Finance and issued by the Minister for Finance. These statements present the
+consolidated whole-of-government financial results for all Australian Government-
+controlled entities and for the general Government sector.
+1.2 The Australian National Audit Office (ANAO) publishes two reports every year that
+independently examine the financial accounting and reporting by Commonwealth
+entities. These reports provide insights into the risks, governance arrangements and
+internal control frameworks of these agencies as follows:
+• Interim Report on Key Financial Controls of Major Entities: reports on specific
+entities’ internal controls (approximately 24 entities, known as ‘controls entities’),
+including IT system controls, to support the preparation of financial statements
+that are free from misstatement
+• Audits of the Financial Statements of Australian Government Entities: reports on
+the results of the financial statements audits of all Commonwealth entities
+(approximately 250 entities) and the Australian Government’s Consolidated
+Financial Statements.
+1.3 Audit findings are raised by the ANAO in response to the identification of a potential
+business or financial risk posed to an entity. Often these risks arise from deficiencies
+within an entity’s internal control processes or frameworks. Weaknesses in internal
+controls increase the possibility that an entity will not prevent or detect a material
+misstatement in its financial statements in a timely manner.
+Conduct of the inquiry
+1.4 Under section 8(1) of the legislation establishing the Joint Committee of Public
+Accounts and Audit (JCPAA), the Public Accounts and Audit Committee Act 1951,
+one of the duties of the Committee is to ‘examine all reports of the Auditor-General
+(including reports of the results of performance audits) that are tabled in each House
+of the Parliament’. The Committee is empowered to ‘report to both Houses of the
+Parliament, with any comment it thinks fit, on any items or matters in those reports, or
+any circumstances connected with them, that the Committee thinks should be drawn
+to the attention of the Parliament’.
+1.5 On 8 February 2024, the JCPAA resolved to conduct an inquiry into any matters
+contained in and associated with Auditor-General Report No. 9 of 2023-24: Audits of
+the Financial Statements of Australian Government Entities for the Period Ended
+30 June 2023.
+1
+1.6 The inquiry received 39 submissions and 22 supplementary submissions (see
+appendix A) and conducted two public hearings (see appendix B).
+Auditing of the Commonwealth Financial Statements
+1.7 The ANAO’s final report for the period 2022–23 examined the Consolidated Financial
+Statements and financial statements of 243 Australian Government entities.1 The
+overall findings of the ANAO audit are indicated below.
+1.8 The ANAO issued 241 unmodified auditors’ reports as at 30 November 20232,
+including the Consolidated Financial Statements, and the financial statements were
+finalised and auditor’s reports issued for 91 per cent (2021–22: 86 per cent) of
+entities within three months of financial year-end.3
+1.9 There were no significant or moderate audit issues identified in 2022–23 from the
+audit of the Australian Government’s Consolidated Financial Statements.
+1.10 A total of 196 findings were reported to individual Commonwealth entities from their
+financial statements audits. A breakdown of the type and number of findings made,
+compared to the previous year, is provided in Figure 1.1. A detailed list of the
+moderate and significant findings made by ANAO is provided at appendix C.
+1.11 The highest number of significant and moderate findings were in the categories of:
+• governance of legal and other matters impacting entity financial statements
+• IT governance including security, change management and user access
+• accounting and control of non-financial assets.4
+1.12 The ANAO noted also in its 2022–23 report, compared to 2021–22:
+• an increase in the number of audit findings relating to weaknesses in change
+management policies and controls for IT systems
+• an increase in weaknesses in entity processes for accounting for computer
+software, particularly with respect to Software as Service, impairment and
+software under construction
+• an increased number of areas of weakness in entities’ use of and reliance on IT
+following the application of ASA 315 by the ANAO.5
+1 Auditor-General Report No. 9 2023–24 Audits of the Financial Statements of Australian Government Entities
+for the Period Ended 30 June 2023 (hereafter, Auditor-General Report No. 9 2023–24).
+2 The audit report notes that, as at 30 November 2023, the 2022–23 financial statements audits had not been
+finalised for the following three entities: Bundanon Trust, Royal Australian Navy Central Canteens Board and
+Wreck Bay Aboriginal Community Council.
+3 Auditor-General Report No. 9 2023–24, p. 9.
+4 Auditor-General Report No. 9 2023–24, p. 11.
+5 Auditor-General Report No. 9 2023–24, pages 11-12.
+2
+Figure 1.1 Comparison of findings between the past two ANAO audit reports on the
+Commonwealth Financial Statements
+Number of findings
+Type of finding
+2021–22 2022–23
+Significant (A) 1 9
+Issues that pose a significant business or financial management risk
+to the entity. These include issues that could result in a material
+misstatement of the entity’s financial statements.
+Moderate (B) 27 36
+Issues that pose a moderate business or financial management risk
+to the entity. These may include prior year issues that have not been
+satisfactorily addressed.
+Minor (C) 132 137
+Issues that pose a low business or financial management risk to the
+entity. These may include accounting issues that, if not addressed,
+could pose a moderate risk in the future.
+Significant legislative breach (L1) 3 3
+Instances of significant potential or actual breaches of the
+Constitution; and instances of significant non-compliance with the
+entity’s enabling legislation, legislation that the entity is responsible
+for administering, and the PGPA Act.
+Moderate legislative breach (L2) 10 10
+Other instances of non-compliance with legislation the entity is
+required to comply with.
+Minor legislative breach (L3) 2 1
+Instances of non-compliance with subordinate legislation, such as
+the PGPA Rule.
+Total 175 196
+Source: Auditor-General Reports No. 8 of 2022-23 and No. 9 of 2023-24: Audits of the Financial Statements of Australian
+Government Entities for the Period Ended 30 June 2022 and 30 June 2023, respectively.
+Areas of focus in the inquiry-Chapter 2
+Principal issues raised in the audit including significant legislative breaches
+1.13 The ANAO reported nine significant findings and three significant legislative breaches
+in its financial statements audits for 2022-23. This was a considerable increase in
+significant findings from the prior year. There were 36 moderate findings from the
+audit, also an increase from the 2021-22 report (see Table 1.1).
+1.14 Descriptions of these findings are provided in Appendix C by portfolio and specific
+entity and are discussed in greater detail in chapter 2 under the relevant headings.
+Preparation of financial statements
+1.15 There were significant findings from the audit had implications for the preparation of
+financial statements for five entities, including weaknesses in the consideration of
+3
+legal matters and financial sustainability. These and other issues affecting the
+timeliness and accuracy of financial statement preparation are discussed, as are
+related issues around the failure of certain Commonwealth entities to table their
+annual reports in time for supplementary budget estimates hearings.
+Role of internal auditing
+1.16 Internal audits are not mandated for Commonwealth entities but are regarded by
+ANAO as important for providing assurance in terms of risk management and internal
+control. It was of interest to the Committee that more than 20 per cent of entities had
+decreased their internal audit budget since 2020. The issue of whether internal audits
+should continue to be discretionary activities is discussed.
+Information technology governance
+1.17 IT governance and control in the public sector has been a persistent issue over many
+years in the financial statements audits. In the 2022-23 audit, the ANAO found that
+78 per cent of entities did not have effective controls to monitor user access to their
+IT systems after cessation of employment. This and other issues were explored by
+the Committee.
+Use and governance of artificial intelligence in the public sector
+1.18 The emerging use of artificial intelligence (AI) by public sector agencies is of great
+interest to the Committee. ANAO noted in the Financial Statements audit that 36
+entities had reported the adoption of some form of emerging technology such as AI
+but also that no supporting policies or governance frameworks for this had been
+created in most cases.
+1.19 The Committee corresponded with most of these entities with a series of specific
+written questions on their use and governance of AI. The responses received were
+published as submissions to the inquiry but will now be considered by the Committee
+in a separate inquiry.
+4
+2. Areas of inquiry by the Committee
+Principal audit findings
+Legislative breaches
+2.1 The ANAO identified 14 legislative breaches in the Financial Statements Audits for
+2022-23. These included 10 moderate and one minor legislative breach which mostly
+related to incorrect payments of remuneration to key management personnel and/or
+non-compliance with determinations made by the Remuneration Tribunal.1 Three of
+the legislative breaches were categorised as significant (see Appendix C) and are
+discussed below.
+Northern Land Council
+2.2 One unresolved significant legislative breach by the Northern Land Council (NLC)
+had first been identified in 2012-13 and involved non-compliance with the legislative
+requirement [Aboriginal Land Rights (Northern Territory) Act 1976] that royalty trust
+funds be distributed to traditional owners within six months.
+2.3 In its submission to the inquiry addressing this long-standing issue, NLC commented
+that it had ‘no difficulty paying Land Rights Act sub-section 64(3) mining royalty-
+equivalents within the sub-section 35(2) six months timeframe’ as it had standing
+arrangements in place to make these payments to specific Aboriginal Corporations.2
+NLC further stated in this regard however:
+Failure to pay within six months has occurred only in respect of lease, licence
+and other income about which NLC staff needed to identify, assemble and
+consult traditional owners, after this income was received and accounted. These
+problematic categories of receipt, especially in respect of leases and license
+agreements made pursuant to Land Rights Act sections 15,16 and 19, increased
+markedly over the last decade.3
+2.4 NLC further remarked in its submission that it is continuing to implement strategies,
+particularly in relation to securing more multi-year standing payment agreements with
+traditional owners, that are increasing its capacity to meet the six-month
+requirement.4
+1 Auditor-General Report No. 9 2023–24, p. 11.
+2 Northern Land Council (NLC), Submission 22, p. 1.
+3 NLC, Submission 22, p. 1.
+4 NLC, Submission 22, p. 2.
+5
+Tiwi Land Council
+2.5 Tiwi Land Council was found to have an unresolved breach from 2021-22 in which no
+formal system of risk oversight and management had been put in place, in
+contravention of Section 16 of the Public Governance, Performance and
+Accountability Act 2013 (PGPA Act).
+2.6 Tiwi Land Council noted in its submission to the inquiry that it had ‘engaged an
+external consultant to (a) develop the Council's risk management framework and (b)
+advise the council in relation to implementing a risk monitoring framework in
+November 2023’.5
+2.7 Tiwi Land Council further stated in its submission that this work was progressing well
+against its objectives and that it was recruiting a Governance, Risk Management and
+Compliance Officer.6
+Department of Health and Aged Care
+2.8 The Department of Health and Aged Care (Health) was newly found to have
+potentially breached section 83 of the Constitution by not complying with finance law
+in respect of certain payments.7
+2.9 Health noted in its submission to the inquiry that there were four programs or
+payment types that may have had actual or potential section 83 breaches:
+• aged care subsidies and fees
+• Medicare Easyclaim program
+• telehealth assignment of benefits
+• services rendered or referred by midwives.8
+2.10 Health further submitted to the Committee that it was reviewing appropriate
+corrective actions in relation to compliance with section 83 and developing legislative
+or program changes to prevent future breaches.9
+2.11 At the public hearing on 24 April 2024, Health stated that:
+… there are a whole heap of different reasons why these issues are
+noncompliant with the Constitution, from administrative error within Services
+Australia and the way in which they were managing a particular issue through to
+5 Tiwi Land Council, Submission 21, p. [1].
+6 Tiwi Land Council, Submission 21, p. [1].
+7 Section 83 of the Commonwealth of Australia Constitution Act (the Constitution) provides that no amount
+may be paid out of the Consolidated Revenue Fund except under an appropriation made by law. Managing
+section 83 risks is part of an accountable authority’s obligations under section 16 of the Public Governance,
+Performance and Accountability Act 2013 (PGPA Act) in relation to establishing and maintaining systems in
+relation to risk and control.
+8 Department of Health and Aged Care (Health), Submission 5, p. [4].
+9 Health, Submission 5, p. [4].
+6
+legacy system issues that really only became apparent through this audit and
+inconsistencies in the way in which payments are made consistent with the
+relevant act. I think what has been really helpful for us to do is have a look at all
+of those to the degree we can to make sure, within Services Australia, that
+systems, processes and legislation are all regularly reviewed to make sure the
+way in which money is being paid is consistent with financial law.10
+2.12 Health further remarked at this hearing that it has a financial assurance census
+process that is designed to enhance financial governance and control, including any
+potential section 83 issues.11
+Executive remuneration
+2.13 Noting that 7 of the 11 non-significant legislative breaches identified in the 2022-23
+audit related to ‘incorrect payments of remuneration to key management personnel
+(KMP) and/or non-compliance with determinations made by the Remuneration
+Tribunal’, ANAO stated in the audit report:
+It is important that entities have a robust framework in place to govern payments
+made to KMP to ensure that they are consistent with policy or legal requirements.
+Effective management of remuneration includes aligning payroll process with
+policy, legal and contractual requirements.12
+2.14 ANAO found in the audit that the causes of these incorrect payments included:
+• incorrect rates of superannuation or incorrect calculation of base salary for
+superannuation being factored into total remuneration
+• allowances and other payments paid to executives that were not provided for in
+contracts or a Remuneration Tribunal determination
+• reportable fringe benefits that were provided by an entity that were not included in
+the calculation of salary
+• acting arrangements or engagements with other Commonwealth entities that did
+not attract remuneration being paid to executives or board members
+• bonus payments made to executives that were not provided for in the relevant
+determination or contract.13
+2.15 The acting Auditor-General noted at the 19 April 2024 public hearing for the inquiry
+that the entities in question were not named in the audit report.14
+10 Mr Daniel McCabe, Acting Deputy Secretary, Health Resourcing, Health, Committee Hansard, Canberra,
+24 April 2024, p. 2.
+11 Mr David Hicks, Chief Financial Officer and First Assistant Secretary, Financial Management Division,
+Health, Committee Hansard, Canberra, 24 April 2024, p. 2.
+12 Auditor-General Report No. 9 2023–24, p. 58.
+13 Auditor-General Report No. 9 2023–24, p. 79.
+14 Ms Rona Mellor PSM, Acting Auditor-General, Committee Hansard, Canberra, 19 April 2024, p. 8.
+7
+2.16 The Department of Finance (Finance) emphasised in its submission to the inquiry
+that it has responsibility for administering executive remuneration reporting
+requirements for Commonwealth entities, which are set out in the PGPA Rule15, but is
+not responsible for determining remuneration policies and practices. Finance stated:
+This is done through various mechanisms depending on the type of entity,
+employment arrangements (for example employing under the Public Service Act
+1999) and Remuneration Tribunal Determinations.16
+2.17 At the public hearing on 19 April 2024, the acting Auditor-General reflected on this
+issue more broadly upon questions from the Committee around agency culture and
+public expectations:
+It's making sure that the entitlements are monitored, assured, governed, and also
+that there's no risk that the person who's doing that is just saying, 'That's the
+boss—you have to do this' or 'I'll just tick it because it's the boss.' It's thinking
+about where in the organisation you can get assurance from. I'm concerned
+about non-compliance with determinations made by the Rem Tribunal. It's a long-
+standing framework and it ought to be well governed. So that's a concern.17
+2.18 The acting Auditor-General stressed at this same hearing that these were
+compliance breaches, and that nothing untoward had been reported by ANAO in
+relation to executive remuneration, but that ‘chief executives, secretaries, boards
+should be assured that their remuneration is being well managed’. The acting
+Auditor-General further commented:
+We have a very mobile workforce in many respects in Australia. It is an area that
+we're focussing on in our financial statements auditing this year, because we do
+see different arrangements even within the Rem Tribunal framework, where
+people live in a city and work in another, not just travelling for business purposes
+but almost commuting as a traveller interstate et cetera. We want to make sure
+that the frameworks that people are applying to all of that are well-managed and
+robust and that people comply.18
+2.19 ANAO also commented on prior instances where entities had not been aware of the
+restrictions under the Remuneration Tribunal Act that Commonwealth officials cannot
+receive any further remuneration if they perform a statutory role with another
+Commonwealth entity.19
+15 The PGPA Rule requires Commonwealth entities and companies to report remuneration policies and
+practices regarding the governance arrangements under which the policies and practices operate; and the
+basis on which the remuneration has been determined.
+16 Department of Finance (Finance), Submission 15, pages 6-7.
+17 Ms Rona Mellor PSM, Acting Auditor-General, Committee Hansard, Canberra, 19 April 2024, p. 7.
+18 Ms Rona Mellor PSM, Acting Auditor-General, Committee Hansard, Canberra, 19 April 2024, p. 7.
+19 Ms Rona Mellor PSM, Acting Auditor-General, Committee Hansard, Canberra, 19 April 2024, p. 8.
+8
+Other significant and moderate audit findings
+2.20 ANAO reported 9 significant (8 new, 1 repeat/unresolved) and 36 moderate (24 new,
+12 repeat/unresolved) findings in its audit of the 2022-23 financial statements
+(see Appendix C).
+2.21 These significant and moderate findings were predominantly in the categories of:
+• governance of legal and other matters impacting entity financial statements
+• IT governance including security, change management and user access
+• accounting and control of non-financial assets (including computer software).20
+2.22 Ineffective IT controls continued to be a key issue. There were an increased number
+of audit findings in 2022-23 in this respect, with 78 per cent of entities found not to
+have appropriate systems in place to monitor user access after employment
+cessation.21 These matters are scrutinised and commented on further below in this
+chapter.
+Committee comment
+2.23 Any legislative breaches uncovered by the financial statements audits are always of
+particular concern to the Committee given the central role that public sector entities
+must play in ensuring the robust application of Commonwealth laws and regulations.
+The actions being taken by the two land councils and by Health to address their
+respective significant breaches are noted. The Committee welcomes the fact that
+these entities appear to have accepted the seriousness of these issues and are
+taking active steps to mitigate them.
+2.24 The issue of executive remuneration breaches is no less troubling, notwithstanding
+the fact that they were compliance breaches and not classified as significant by
+ANAO. The Committee agrees with the acting Auditor-General’s comments that they
+have implications in terms of the prevailing culture of the agency and also public
+expectations regarding pay and other entitlements for public servants. The
+Committee fully agrees also that the frameworks around executive remuneration,
+such as the Remuneration Tribunal, are long-standing and there should be an
+expectation across all entities for robust governance and full compliance with the
+rules.
+2.25 Finance should take a more active role in dealing with instances of executive
+remuneration breaches and the Committee would like to see it actively engage with
+this issue to strengthen and increase future compliance.
+20 Auditor-General Report No. 9 2023–24, p. 32.
+21 Auditor-General Report No. 9 2023–24, p. 32.
+9
+Recommendation 1
+2.26 The Committee requires an update within six months of the tabling of this
+report from the Northern Land Council, Tiwi Land Council, and the Department
+of Health and Aged Care on their respective progress in addressing the
+significant legislative breaches identified by the Australian National Audit
+Office.
+Recommendation 2
+2.27 The Committee recommends that the Department of Finance amends the
+current guidelines to require that it be notified immediately of any breach of the
+executive remuneration rules and then engage with the entity in question to
+discuss remediation steps. The Committee is requesting an anonymised
+update from the Department of Finance within 12 months of the tabling of this
+report on the number of reported breaches it has received, the amounts
+involved, and whether they have been adequately resolved.
+Preparation of financial statements
+Overview
+2.28 The ANAO found overall that the financial statements had been finalised, and
+auditor’s reports issued, for 91 per cent of Commonwealth entities within three
+months of the 2022-23 financial year-end. This was an increase from the previous
+year (86 per cent).22 ANAO further stated that:
+A quality financial statements preparation process will reduce the risk of
+inaccurate or unreliable reporting. Seventy-two per cent of entities delivered
+financial statements in line with an agreed timetable, an increase compared with
+2021–22 (65 per cent).23
+2.29 ANAO also noted however that many annual reports were still not being tabled in
+time to be scrutinised at subsequent Senate Estimates hearings and that only
+66 per cent of entities met this timeframe in 2022-23, down from 74 per cent in 2021-
+22.24
+2.30 Noting that ‘an effective internal control framework provides a level of assurance that
+entities are able to prepare financial statements that are free from material
+misstatement’ the audit report indicated that this was the case for the majority of
+entities in 2022-23.25
+22 Auditor-General Report No. 9 2023–24, p. 9.
+23 Auditor-General Report No. 9 2023–24, pages 9-10.
+24 Auditor-General Report No. 9 2023–24, p. 10.
+25 Auditor-General Report No. 9 2023–24, p. 37.
+10
+2.31 ANAO further indicated in this regard that:
+For entities where audit findings were reported, the ANAO was required to
+undertake additional audit procedures to obtain sufficient and appropriate audit
+evidence that provided reasonable assurance the entity’s financial statements
+were not materially misstated.26
+2.32 The ANAO stated that its 2022–23 audit approach identified six key areas of financial
+statements risk that had the potential to impact the Australian Government, and
+which were therefore considered Key Audit Matters (KAM).27 These were:
+• accuracy of taxation revenue
+• accuracy and occurrence of personal benefits expense
+• valuation of superannuation liabilities
+• valuation of collective investment vehicles
+• valuation of specialist military equipment and other plant, equipment and
+infrastructure assets
+• valuation and disclosure of Australian Government Securities.28
+Weaknesses in consideration of legal matters
+2.33 Five of the nine significant and unresolved audit findings in 2022-23 had implications
+for the timely and accurate preparation of financial statements for the entity in
+question. Four of these related to weaknesses in the consideration of legal matters
+representing a failure of governance including the Department of Education
+(Education), Department of Health and Aged Care (Health), Department of Social
+Services (Social Services), and Services Australia.29
+2.34 ANAO found instances ‘where information on legal matters was not referred to entity
+Chief Financial Officers, or was not otherwise assessed for impact on the financial
+statements’.30
+Department of Education
+2.35 The ANAO stated in the audit report in relation to this significant issue for Education
+that it became aware of ‘legal matters from a source other than the Department that
+26 Auditor-General Report No. 9 2023–24, p. 37.
+27 Auditor-General Report No. 9 2023–24, p. 15; the ANAO notes in the Financial Statements Audit for 2022-23
+on page 35 that ‘… the Auditor-General considers including KAM to be good practice for financial statements
+auditing in the public sector and includes KAM in certain audit reports. Communicating KAM helps users of
+financial statements better understand those matters that, in the auditor’s professional judgement, were of
+the most significance in the audit of the financial statements.’
+28 Auditor-General Report No. 9 2023–24, pages 15-16.
+29 Auditor-General Report No. 9 2023–24, p. 11.
+30 Auditor-General Report No. 9 2023–24, p. 11.
+11
+had not been considered in the preparation of the financial statements, nor advised
+to the ANAO’.31
+2.36 Education noted in its submission to the inquiry that a late adjustment to its financial
+statements was required due to this matter and that it had since undertaken
+‘improvement actions’.32 Education further submitted:
+The department has developed a framework to support the timely communication
+of any systemic or otherwise significant legal non-compliance within the
+department and periodic reporting to senior executives and to the Audit and Risk
+Committee. A project closure pack was submitted to the ANAO, with a view to
+working with the ANAO during the 2023-24 financial statements audit to close the
+finding.33
+2.37 Education noted also in its submission in relation to closing this finding that ANAO
+had issued an ‘Interim Management Letter’ in May 2024 in which it downgraded this
+audit finding based on the evidence that had been presented in the year to date and
+that ‘the ANAO will finalise audit testing late August 2024, and the department
+continues to work with the ANAO to close the finding’.34
+Department of Health and Aged Care
+2.38 ANAO had not been notified by Health that legal advice had been sought in
+August 2022 in conjunction with Services Australia regarding the payment of
+residential aged care subsidies. This advice was not then considered in the
+preparation of Health’s financial statements.35
+2.39 Health commented in its submission that it has since strengthened its governance
+arrangements ‘to ensure that responsible program, legal, and finance areas within
+Health and Services Australia are aware of all relevant legal matters and legal
+advice.36
+2.40 Health further advised at the public hearing that it attends quarterly meetings with
+Services Australia on financial reporting matters, specifically including section 83 and
+other financial statement risks.37
+2.41 Health also stated in its submission:
+The Chief Financial Officer has been added to the membership of the Strategic
+Business Committee, which has responsibility for oversight of the Government's
+health and aged care related policy for which both the Department and Services
+Australia are jointly accountable, and where consideration of legal matters is a
+31 Auditor-General Report No. 9 2023–24, p. 201.
+32 Department of Education (Education), Submission 39, p. 5.
+33 Education, Submission 39, p. 5.
+34 Education, Submission 39, p. 5.
+35 Health, Submission 5, p. [2].
+36 Health, Submission 5, p. [2].
+37 Mr Hicks, Health, Committee Hansard, Canberra, 24 April 2024, p. 3.
+12
+standing agenda item. In addition, the Chief Counsels of the Department and
+Services Australia meet formally to report on and consider significant legal
+matters.38
+Department of Social Services
+2.42 Social Services indicated in its submission that its significant ‘governance of legal
+and other matters’ finding from the financial statements audit related to the late
+disclosure of information on income apportionment, which had been the subject of an
+own-motion investigation by the Commonwealth Ombudsman.39 Social Services
+commented in this regard that:
+The sensitive nature of the Ombudsman review and associated legal issues
+meant that the information was not widely shared across the department, despite
+the potential for financial statement implications.40
+2.43 Social Services noted in its submission that it had agreed with ANAO that this was an
+issue as soon as it was raised, and immediately implemented a new quarterly legal
+risk report as part of its response.41 Social Services further stated:
+The quarterly reporting cycle the department has instigated for the legal risk
+report will also provide the ANAO with greater visibility and assurance around the
+management of significant legal matters by the department with financial
+implications relevant to the ANAO’s audit.42
+Services Australia
+2.44 Services Australia also noted in its submission that several instances of non-
+compliance with laws and regulations had not been brought to the attention of the
+ANAO and that their possible material impact on the financial statements had
+therefore not been considered.43
+2.45 Services Australia recognised this deficiency in its submission to the inquiry, stating:
+The Agency acknowledges the requirement for strengthened legal risk
+identification and reporting mechanisms, and has implemented a new legal risk
+register which will be utilised to keep the ANAO, ARC, agency senior officials and
+partner agencies informed of potential significant legal issues that are likely to
+have a material impact on financial statements for affected agencies.44
+38 Health, Submission 5, p. [2].
+39 Department of Social Services (Social Services), Submission 6, p. 2.
+40 Social Services, Submission 6, p. 2.
+41 Social Services, Submission 6, p. 2.
+42 Social Services, Submission 6, p. 2.
+43 Services Australia, Submission 17, p. 3.
+44 Services Australia, Submission 17, p. 3.
+13
+Certain entities with high financial statements risks
+Financial sustainability
+2.46 The ANAO reported from its financial statements audit of the Department of
+Agriculture, Fisheries and Forestry (DAFF) that it had ‘identified an additional area of
+financial risk relating to financial sustainability for which specific audit procedures
+were performed during the course of the audit’.45 ANAO further indicated:
+In light of the key areas of risk and the ANAO’s understanding of the operations
+of DAFF, during the interim phase of the 2022–23 audit the ANAO increased the
+overall risk of material misstatement in the financial statements audit from
+moderate to high in 2022–23. This increase was a result of DAFF’s forecast
+financial position for 2022–23, which increased the risk that entity level and
+transactional internal controls important to financial management, preparation of
+the financial statements and the supporting information technology (IT)
+environment may not operate effectively.46
+2.47 DAFF stated in its submission that while the ANAO’s reassessment of this risk rating
+from moderate to high was appropriate, it regarded its financial sustainability as
+favourable in 2023-24 for the following reasons:
+• funding supplementation received in late 2022-23 which restored the department’s
+cash reserves to an acceptable level
+• increases to biosecurity fees and charges on 1 July 2023 approved by the
+Minister for Agriculture
+• additional funding provided by the government through MYEFO to sustain export
+regulatory functions.47
+Other risks of material misstatement
+2.48 ANAO identified three KAMs for the National Disability Insurance Agency (NDIA) that
+were associated with a high risk of material misstatement:
+• Accuracy and occurrence of participant plan expenses
+o continued growth in participant numbers entering the Scheme
+o the high volume of transactions
+o decisions as to the appropriate level of support and therefore the associated
+expenses are complex as the Scheme participants have varying needs
+• Valuation of participants’ plan provisions
+o significant judgements and assumptions about the timing and amount of
+cashflows need to be made due to the complexity of estimating the pattern of
+support claimed by participants or providers
+45 Auditor-General Report No. 9 2023–24, p. 125.
+46 Auditor-General Report No. 9 2023–24, pages 127-128.
+47 Department of Agriculture, Fisheries and Forestry (DAFF), Submission 8, p. 6.
+14
+• Completeness, occurrence and accuracy of contributions of in-kind services from
+state and territory governments
+o reliance on third party data from state and territory governments
+o in-kind revenue and expenses may be misstated if services provided directly
+to eligible participants by states and territories are not reported to the NDIA in
+line with bilateral agreements.48
+2.49 NDIA noted these areas of risk in its submission to the inquiry and commented that it
+‘undertakes a risk assessment of the potential for financial misstatement at a
+financial statement note level49, as part of its annual financial statement preparation
+process’.50 NDIA further submitted:
+[NDIA] then prepares a financial statement preparation plan which outlines its
+procedures to reduce each potential risk of misstatement to an acceptable level.
+This process addresses the ANAO’s key areas of financial statements risk.51
+2.50 ANAO also reported a high overall risk of material misstatement in the 2022–23
+financial statements audit for the Department of Climate Change, Energy, the
+Environment and Water (DCCEEW), which included three higher rated KAMs:
+• valuation of water entitlements assets
+• valuation of the Australian Government’s investment in Snowy Hydro Limited
+• valuation of the Antarctic restoration provision.52
+2.51 DCCEEW noted in its submission response to this issue that due to the machinery of
+government changes involved in its establishment, its first series of financial
+statements needed to draw information from three separate financial management
+information systems (FMISs), including DAFF and the Department of Industry,
+Science and Resources (DISR). DCCEEW stated:
+Relying on other entities system controls is not new; it is a feature of shared
+services; however, the Department was not just in a situation where its own FMIS
+was hosted by another ICT platform. The Department’s transactions were
+contained within DAFF and DISR’s financial systems, hence the Department was
+using three general ledgers, three sets of accounts, and three reporting suites.53
+2.52 These and other key areas identified by ANAO as having a higher risk of material
+misstatement across the 2022-23 financial statements of Commonwealth entities are
+included in a table at appendix D. Moderate areas of material misstatement risk are
+also included in this table if they represented a KAM. The underlying reasons why the
+48 Auditor-General Report No. 9 2023–24, pages 343-344.
+49 Financial statement notes typically communicate information necessary for a fair presentation of a financial
+position and the results of operations that is not readily apparent from, or not included in, the financial
+statements themselves.
+50 National Disability Insurance Agency (NDIA), Submission 19, p. 4.
+51 NDIA, Submission 19, p. 4.
+52 Auditor-General Report No. 9 2023–24, p. 147.
+53 Department of Climate Change, Energy, the Environment and Water (DCCEEW), Submission 4, pages 3-4.
+15
+financial statements for a particular entity can have been misstated include the
+requirements for significant assumptions and judgements, and the complexity of the
+information or required calculations.
+Timeliness of financial reporting
+2.53 Noting that ‘entities should prepare quality financial statements in a timely manner to
+support entities in meeting legislative reporting obligations including tabling of annual
+reports’ and that ‘effective project management underpins successful financial
+statements preparation processes’,54 ANAO reported a decline in the number of
+entities that tabled an annual report prior to the portfolio’s Senate estimates hearing,
+from 74 per cent in 2021-22 to 66 per cent in 2022-23.55
+2.54 The audit report indicated also that 12 per cent of entities tabled their annual report
+only one week before the estimates hearings, although noted that this was a marked
+reduction from the proportion of entities that had done this in the previous year
+(52 per cent in 2021-22).56
+2.55 ANAO further stated in the audit report that the number of entities that delivered
+financial statements in line with an agreed timetable had increased over this same
+period from 65 to 72 per cent.57 One of ANAO’s overarching conclusions from these
+assessments was that:
+… there are opportunities for entities to improve quality assurance frameworks, to
+ensure that significant accounting policies, estimates and adjustments
+underpinning financial statements are reviewed as early as possible in the
+preparation process.58
+2.56 There were two moderate and nine minor audit findings in 2022-23 relating to the
+quality and timeliness of financial statement preparation.
+2.57 One of the moderate findings was for the National Archives of Australia (NAA), which
+was found by ANAO to have a number of weaknesses in its financial statements
+processes including:
+• a deficiency in the timely preparation of workpapers to support the financial
+statements and associated notes
+• a lack of review and approval of year-end adjusting journals by an independent
+reviewer
+• an inability to provide sufficient supporting documentation to validate certain year-
+end transactions
+54 Auditor-General Report No. 9 2023–24, pages 60-61.
+55 Auditor-General Report No. 9 2023–24, p. 10.
+56 Auditor-General Report No. 9 2023–24, p. 31.
+57 Auditor-General Report No. 9 2023–24, p. 31.
+58 Auditor-General Report No. 9 2023–24, p. 80.
+16
+• the identification of a number of adjusted and unadjusted audit differences.59
+2.58 A number of recommendations were made by ANAO to resolve these issues, which
+were agreed to by NAA. These included the development of key timelines for a
+designated officer to complete key tasks, identification and management of risks
+associated with the financial statements close process, and the required level of
+management oversight and review to support the preparation of timely and quality
+financial statements.60
+2.59 NAA further noted in its submission that it had undertaken a necessary FMIS
+upgrade in the 2021-22 financial year and then used the new system to prepare its
+2022-23 financial statements. NAA stated:
+Whilst still in draft, a set of the 2022-23 financial statements was provided to the
+ANAO to commence their review. In reviewing this first draft and supporting
+documentation, the ANAO identified areas of concern including the use of a
+number of control ‘work arounds’ and other practices associated with a lack of
+accountable standards resulting from the agency’s upgrade to the
+TechnologyOne FMIS.61
+2.60 NAA further commented in its submission that serious other issues had also arisen
+over the lack of segregation of duties among staff with FMIS access.62 This significant
+IT controls finding is discussed further in the IT Governance section.
+2.61 NAA indicated in its submission that its Executive Board is continuously monitoring
+the actions that have been taken to address ANAO’s findings and that an
+independent Audit and Risk Committee works with the internal auditors also to
+assess these actions in addition to financial processes and controls.63
+2.62 A second unresolved moderate finding by ANAO that had material consequences for
+the timeliness of financial reporting was for the Royal Australian Mint (the Mint).
+ANAO reported in the audit that there were ‘a number of material unexplained and
+unreconciled differences in the reconciliations performed by management in
+preparing the Mint’s financial statements’.64
+2.63 ANAO commented with respect to this finding that reconciliations need to be
+supported by relevant information and that any differences should be explained,
+followed up, and adjusted. ANAO further indicated that material adjustments were
+eventually required for the Mint’s financial statements once the variances had been
+investigated and subsequently corrected.65
+59 National Archives of Australia (NAA), Submission 7, p. 2.
+60 Auditor-General Report No. 9 2023–24, p. 300; NAA, Submission 7, p. 2.
+61 NAA, Submission 7, p. 3.
+62 NAA, Submission 7, p. 3.
+63 NAA, Submission 7, p. 3.
+64 Auditor-General Report No. 9 2023–24, p. 379.
+65 Auditor-General Report No. 9 2023–24, p. 379.
+17
+2.64 The Mint agreed with ANAO that it needed to strengthen its reconciliation processes,
+particularly with respect to management’s review of reconciliations and reporting of
+variances.66
+Committee comment
+2.65 The timeliness of financial statements preparation and ultimately of annual reporting
+by Commonwealth entities who have a legislative requirement to prepare these
+reports is of considerable interest to the Committee. The Parliament must have this
+information on time to readily and properly scrutinise the effectiveness of the
+expenditure of taxpayer funds on behalf of the Australian public.
+2.66 There are quite simply too many entities failing to meet the annual reporting timetable
+required for the supplementary budget estimates hearings that take place towards
+the end of each year. The increase in the proportion of entities that failed to do so
+last year is certainly not a welcome trend.
+2.67 The Committee understands that there is a considerable degree of complexity and
+high workload involved in preparing an annual report, but the timelines are the same
+every year for every agency that is required to present one. The Committee notes in
+particular the ANAO’s comments at the public hearing that delays in its ability to
+complete the financial statements audits due to a lack of preparedness by an entity is
+a key reason why an annual report can be late.
+2.68 That one third of the required Commonwealth entities did not table their annual
+reports on time to be scrutinised at estimates hearings is not good enough in the
+Committee’s view. It is amazing to the Committee that 52 per cent of these entities
+tabled their annual report only one week before these hearings in 2022. It is
+acknowledged that this figure was only 12 per cent last year but there are clearly
+some perpetual issues that need to be looked at and the Committee cannot be
+confident at present that this figure will not markedly increase again in future years.
+2.69 The ANAO documents the entities that have failed to table their annual reports in
+time for the end-of-year estimates hearings in its Financial Statements Audit Reports
+and has collated this information from the past three years in its submission to this
+inquiry.67 This has been reproduced in Table 2.1 below. The Committee will be
+requesting a response from the agencies that have not met this timeline now for each
+of the past three years so that it can better understand what the underlying issues
+are.
+66 Auditor-General Report No. 9 2023–24, p. 379.
+67 ANAO, Submission 24, Attachment C, p. 5.
+18
+Table 2.1 Annual reports that were tabled after the supplementary budget
+estimates hearings
+Annual report tabled post relevant supplementary
+Entity budget estimates hearings
+2022–23 2021–22 2020–21
+Attorney General’s portfolio
+Australian Commission on Law
+Yes No No
+Enforcement Integrity
+High Court of Australia Yes Yes Yes
+Defence portfolio
+AAF Company Yes No No
+Army and Airforce Canteen Service Yes Yes No
+Australian Military Forces Relief Trust
+Yes No No
+Fund
+Australian Strategy Policy Institute Ltd Yes Yes Yes
+Royal Australian Air Force Veterans’ Yes Yes Yes
+Residences Trust Fund
+RAAF Welfare Recreational Company Yes Yes Yes
+Royal Australian Air Force Welfare Yes Yes No
+Trust Fund
+Royal Australian Navy Central Yes Yes Yes
+Canteens Board
+Royal Australian Navy Relief Trust Yes Yes No
+Fund
+Employment and Workplace Relations portfolio
+Seafarers Safety, Rehabilitation and
+Yes No No
+Compensation Authority
+Infrastructure, Transport, Regional Development, Communications and the Arts portfolio
+Bundanon Trust Yes Yes Yes
+National Archives of Australia Yes Yes No
+Prime Minister and Cabinet portfolio
+Anindilyakwa Land Council Yes Yes Yes
+Central Land Council Yes Yes Yes
+Northern Land Council Yes Yes Yes
+Northern Territory Aboriginal Yes N/A N/A
+Investment Corporation
+19
+Annual report tabled post relevant supplementary
+Entity budget estimates hearings
+2022–23 2021–22 2020–21
+Outback Stores Pty Ltd Yes Yes Yes
+Tiwi Land Council Yes Yes Yes
+Workplace Gender Equality Agency Yes Yes Yes
+Wreck Bay Aboriginal Community Yes Yes Yes
+Council
+Social Services portfolio
+NDIS Quality and Safeguards
+Yes No No
+Commission
+Source: ANAO, Submission 24, Attachment C, p. 5.
+Recommendation 3
+2.70 The Committee recommends that the following entities provide a response
+within six months on why their annual report has not been tabled in time to be
+scrutinised at supplementary budget estimates for the past three years
+• High Court of Australia
+• Australian Strategy Policy Institute Ltd
+• Royal Australian Air Force Veterans’ Residences Trust Fund
+• RAAF Welfare Recreational Company
+• Royal Australian Navy Central Canteens Board
+• Bundanon Trust
+• Anindilyakwa Land Council
+• Central Land Council
+• Northern Land Council
+• Outback Stores Pty Ltd
+• Tiwi Land Council
+• Workplace Gender Equality Agency
+• Wreck Bay Aboriginal Community Council
+20
+Internal auditing
+Overview
+2.71 The role that internal auditors play in assisting Commonwealth entities with the
+timeliness and robustness of their financial reporting was of interest to the
+Committee. The ANAO’s view of internal auditing is that it plays ‘an important role in
+providing assurance over an entity’s system of risk management and internal
+control’.68
+2.72 ANAO noted that there are a variety of models for delivering an internal auditing
+function ‘including outsourced to external service providers or insourced partially or
+fully with an entity’s own internal auditors’, but that it is most likely to be delivered
+among Commonwealth entities via outsourcing.69
+2.73 ANAO further noted that a majority of entities have an internal audit function,
+although it is not a mandatory requirement.70 ANAO’s analysis indicated that
+16 per cent of Commonwealth entities, comprising smaller organisations, did not
+have an internal audit function due to their views on the:
+• level of complexity or scale of their entity’s operations
+• system of risk management and internal control operated effectively.71
+Overarching issues highlighted by ANAO
+2.74 ANAO indicated in its 2022-23 audit that it had reviewed both the structure and
+coverage provided by internal audit function and found several areas for
+improvement, including:
+• adopting formal audit committee charters
+o As noted in the audit report:
+Fifty-five per cent of entities had internal audit charters. In the absence of a
+charter, there is a risk that the internal audit function’s mandate, authority and
+independence are not well understood with an entity, potentially limiting the
+effectiveness of the function
+• developing and monitoring internal audit budgets to determine they are fit for
+purpose
+o As noted in the audit report:
+68 Auditor-General Report No. 9 2023–24, p. 10.
+69 Auditor-General Report No. 9 2023–24, p. 45.
+70 There is no mandated requirement for Commonwealth entities or companies to establish an internal audit
+function. However, Section 16 of the PGPA Act requires the accountable authority to establish and maintain
+an appropriate system of risk oversight and management; and appropriate system of internal control.
+71 Auditor-General Report No. 9 2023–24, p. 45.
+21
+A safeguard to the independence and objectivity of the internal audit function is
+regular consideration of the appropriateness of the internal audit function’s
+budget by an entity’s audit committee (in providing advice on the function).
+Seventy-three per cent shared the budget with the audit committee
+• considering appropriate organisational structure for the officer overseeing the
+internal audit function
+o As noted in the audit report:
+In 77 per cent of entities the officer responsible for internal audit had shared
+responsibilities (including for financial management, or the system of internal
+control and risk management). Accountable authorities should be mindful of the
+potential for impairments to objectivity and implement appropriate safeguards in
+determining the organisational structure for internal audit.72
+2.75 ANAO found that 81 per cent of entities had established an internal audit function in
+2022–23 but also that 21 per cent had decreased their internal audit budget in the
+period 2020–21 to 2022–23.73 ANAO further stated in the audit report:
+There were 2,687 internal audits undertaken by Commonwealth entities between
+2020–21 and 2022–23. Most internal audits completed focused [on]: systems of
+risk management and governance; information, communications and technology,
+project and program management; and financial controls. Over this period there
+was a decrease in internal audits completed on procurement and information,
+communications and technology, but an increase in internal audits completed on
+cyber security and performance reporting.74
+2.76 In relation to entities without an internal audit function, ANAO comments in the audit
+report:
+There is merit for Accountable Authorities, with advice from audit committees, in
+entities without internal audit regularly reassessing this posture. This assessment
+should consider and document the sources of assurance available in forming a
+view on the effectiveness of governance and internal controls in the absence of
+internal audit.75
+2.77 ANAO also concluded that the Australian Government could consider whether
+providing guidance on internal audit delivery would enhance its system of internal
+control.76
+72 Auditor-General Report No. 9 2023–24, pages 42-43.
+73 Auditor-General Report No. 9 2023–24, p. 32.
+73 Auditor-General Report No. 9 2023–24, p. 10.
+74 Auditor-General Report No. 9 2023–24, p. 10.
+75 Auditor-General Report No. 9 2023–24, p. 45.
+76 Auditor-General Report No. 9 2023–24, p. 10.
+22
+2.78 At the public hearing on 19 April 2024, the acting Auditor-General commented on the
+lack of a mandatory requirement for Commonwealth entities to have an internal audit
+function:
+It's interesting, because in some domains there are mandatory requirements for
+internal audits. For example, APRA has mandated internal audit for financial
+institutions. For those people that are using quality standards like ISO 9001, you
+have to internally audit it but it's not a mandated requirement for the
+Commonwealth, which we just find strange… I guess we're bringing to the
+committee's attention that it's an area that could be more robust in a world of
+dynamic risk and an area where accountable authorities could get a stronger
+view about whether their duty and their obligations under the PGPA Act, to have
+systems of risk management and fraud control et cetera, are robust.77
+2.79 Finance stated in its submission to the inquiry that it agrees with ANAO that ‘an
+effective internal audit process is integral to a Commonwealth entity’s system of
+internal control’. Finance further indicated that it has commenced a consultation
+process for the development of enhanced guidance on internal audit as per the
+ANAO’s suggestion.78
+Issues for specific entities
+Social Services
+2.80 The Committee queried Social Services at the hearing on 24 April 2024 on why its
+own internal auditing did not pick up on the issue of income apportionment (see
+paragraphs 2.27-2.28), which was a significant finding by ANAO in the 2022-23 audit.
+2.81 Social Services responded that it had attended to this audit finding in many of the
+same ways that Health had done with respect to proper consideration of legal issues
+around certain payments and potential section 83 breaches (see paragraphs 2.21-
+2.24). Social services indicated that it had instigated ‘more regular and specific
+reporting around legal risk’, stating:
+That report is now available to the ANAO on a regular basis. Part of our finding
+was both that we didn't have a mechanism to inform the ANAO of emerging
+issues that could have a significant impact on our financial statements and that
+we didn't have a robust mechanism to ensure that the CFO had visibility of those
+so that we could make any adjustments that we needed to in the context of the
+statements… We're confident that people have visibility of the issues, and we're
+confident that the CFO now has visibility of all those things that might have
+implications for the financial statements.79
+77 Ms Rona Mellor PSM, Acting Auditor-General, Committee Hansard, Canberra, 19 April 2024, p. 10.
+78 Finance, Submission 15, p. 8.
+79 Mr Pat Hetherington, Chief Operating Officer, Social Services, Committee Hansard,
+Canberra, 24 April 2024, p. 8.
+23
+2.82 Social Services confirmed at the hearing for the Committee, and also on notice80, that
+it has reduced its internal audit budget by about 20 per cent over the three-year
+period up to 2022-23, commenting:
+We still did more than we did in a previous year—we've been gradually growing
+that capability, notwithstanding what looks like a dip. We've been trying to grow
+the capability of the audit and assurance function here, including fraud and audit,
+to make sure that we've got robust processes around internal audit.81
+DAFF
+2.83 DAFF noted in its submission that it was one of the entities identified by ANAO as
+having a 20 per cent or greater reduction in its internal audit budget in the three years
+up to 2022-23, and also having completed 40-49 percent fewer internal audits in that
+same period.82
+2.84 DAFF stated that both of these reductions were due to the 1 July 2022
+machinery- of- government changes, commenting that:
+These changes included the environment and water functions and funding being
+moved to the newly established Department of Climate Change, Energy, Water
+and the Environment (DCCEEW). The impact of the austerity measures also
+reduced the number of completed audits in 2022-23 however, since that time, the
+number of internal audits completed has returned to a level commensurate with
+the 2020-21 levels.83
+Committee comment
+2.85 The Committee agrees with the position taken by the ANAO that the lack of a
+mandatory internal audit function for Commonwealth entities is somewhat puzzling
+given the well-accepted benefits that result from this additional layer of oversight,
+including better risk management, fraud control, and legislative compliance.
+2.86 The Committee is therefore troubled that 1 in 5 entities have reduced their internal
+audit budgets over the past several years, regardless of the reasoning, as a less
+robust framework could possibly end up being far more costly for the
+Commonwealth. While it is understandable on one level why a number of smaller
+entities do not have an internal audit function at all, the Committee’s view is that this
+oversight should become mandatory across the Commonwealth public sector to
+foster better accountability, regardless of agency size.
+2.87 It is pleasing that Finance acknowledges the importance of internal auditing and is
+conducting a consultation process to update and enhance the guidance for this
+function. As mentioned above however, it should no longer be optional and the
+80 Social Services, Supplementary submission 6.1, p. 1.
+81 Mr Hetherington, Social Services, Committee Hansard, Canberra, 24 April 2024, p. 9.
+82 DAFF, Submission 8, p. 5.
+83 DAFF, Submission 8, p. 5.
+24
+Committee wishes to see a mandatory framework developed by Finance, with input
+from ANAO and other key stakeholders, that must be adhered to and fully resourced
+by everyone.
+Recommendation 4
+2.88 The Committee recommends that, as part of its ongoing consultation process,
+the Department of Finance now develops a mandatory framework with detailed
+guidelines for internal auditing for all Commonwealth entities within 12 months
+of the tabling of this report.
+Governance of information technology
+Overview
+2.89 Issues with the effective governance and control of information technology (IT) by
+Commonwealth entities, including user access and privileged access to core IT
+systems, were again prominent among the significant and moderate findings by the
+ANAO in its financial statements audits. The ANAO found that 78 per cent of entities
+did not have effective control to monitor user access to their IT systems after
+cessation of employment. This particular subject was therefore of continuing interest
+and of considerable concern to the Committee.
+2.90 ANAO defines the IT control environment as ‘the policies, procedures and controls
+that maintain the integrity of information and security of data in an entity’ which
+include:
+• IT security management, which incorporates user access management,
+privileged user activity logging and monitoring as well as security
+configuration settings such as password controls
+• IT change management and data centre and network operations,
+including management of backup and recovery processes.84
+2.91 The Acting Auditor-General noted more broadly at the public hearing on 19 April
+2024 that:
+I think one of the big gaps that we see is the lack of communication within an
+entity between its HR function and its IT function… When someone leaves an
+organisation, we need to turn them off. We just need to turn them off. That
+turning off often happens in the IT part of the organisation for the IT access, not
+in the HR part of the organisation.85
+84 Auditor-General Report No. 9 2023–24, p. 61.
+85 Ms Rona Mellor PSM, Acting Auditor-General, Committee Hansard, Canberra, 19 April 2024, p. 13.
+25
+Significant findings
+2.92 ANAO reported new significant and unresolved findings in the IT control environment
+for four Commonwealth entities in 2022-23: Australian Taxation Office (ATO),
+Defence, NAA, and Services Australia (see also Appendix C).86
+Australian Taxation Office
+2.93 Weaknesses were reported by ANAO in the ATO’s enterprise change management
+for key IT systems supporting financial statements preparation, including:
+• a disconnect between change management policy and procedural documentation
+in relation to segregation of duties particularly in relation to developers and
+migrators
+• an inability of ATO to provide a complete and accurate list of changes made to
+financial systems assessed as in scope for the financial statements audit.87
+2.94 ANAO stated in relation to these issues, and made recommendations accordingly to
+improve the change management framework, that:
+As a result of identified deficiencies, the ANAO was required to undertake
+significant additional testing to obtain assurance over the reliability of reports
+generated to support financial statements balances.88
+2.95 The ATO agreed with the findings and recommendations of the ANAO and stated in
+its submission to the inquiry that it has ‘already enhanced its governance controls to
+ensure evidence is consistently captured within the IT Service Management system’
+which includes uplifted Change Advisory Board controls, enhancements to the IT
+Service Management system and completed reconciliation of system change logs.89
+Defence
+2.96 There was a new and significant audit finding for Defence relating to the removal of
+access to its IT systems for both Defence personnel and also contractors who had
+ceased employment with the department. As noted by ANAO, this contravenes the
+requirements of the Protective Security Policy Framework (PSPF) which is designed
+to provide information security for the Australian Government.90
+2.97 The audit report stated in this regard:
+The ANAO identified 1,451 users whose access to the Defence Network was not
+removed in accordance with Information Security Manual (ISM) requirements.
+86 Auditor-General Report No. 9 2023–24, pages 62-63.
+87 Auditor-General Report No. 9 2023–24, p. 374.
+88 Auditor-General Report No. 9 2023–24, p. 375.
+89 Australian Taxation Office (ATO), Submission 20, p. 2.
+90 Auditor-General Report No. 9 2023–24, p. 171.
+26
+Testing also identified almost 2,000 instances where former employees and/or
+contractors had logged into and accessed data from Defence systems.91
+2.98 The Financial Statements audit report further noted in relation to Defence employees
+post-termination that:
+• some employees continued to receive salary payments
+• 215 users retained access to the FMIS
+• ANAO was unable to assess whether access to inventory management systems
+had been retained, or if these systems had been accessed, as data logs were
+unavailable
+• issues concerning user access had previously been reported by Defence’s
+Internal Audit Branch, which stated that insufficient controls were in place
+• a prior performance audit by ANAO of Defence’s management of contractors had
+found insufficient compliance with PSPF Policy 14: Separating personnel.92
+2.99 Noting the ‘significant fraud and reputational risk exposure to Defence as a result of
+the above system access weaknesses’ ANAO made a number of recommendations
+for remediation, which were agreed to by the department.93
+2.100 In its submission to the inquiry, Defence stated that it agreed with this category A
+finding and had undertaken a number of activities in response including:
+• an extensive review of the instances of unauthorised access to the
+Defence Network; and
+• investigated all alleged post separation network access by unauthorised
+persons.94
+2.101 Defence cited its actions that were underway to close this finding, which involved an
+integrated solution to prevent and detect unauthorised access, controls to strengthen
+the governance of the access and usage of its IT systems, and an automated
+capability to remove access upon cessation of employment.95
+National Archives of Australia
+2.102 The NAA was found by ANAO to have ineffective IT general controls to support the
+preparation of its financial statements, with the following weaknesses identified:
+• insufficient oversight and documentation of review of privilege user
+access and activity logs.
+• no formalised or documented periodic review of user access.
+91 Auditor-General Report No. 9 2023–24, p. 172.
+92 Auditor-General Report No. 9 2023–24, p. 172.
+93 Auditor-General Report No. 9 2023–24, p. 173.
+94 Department of Defence (Defence), Submission 25, p. 2.
+95 Defence, Submission 25, p. 2.
+27
+• inconsistent mapping of roles and responsibility configurations, including
+workflow approvers and inconsistent chart of accounts mapping
+configurations.96
+2.103 ANAO recommended a detailed review to address these significant issues, which
+was agreed to by NAA. In its submission to the inquiry, NAA stated that it had:
+… immediately engaged an independent external consultant to undertake a
+forensic audit review of all the underlying transactions on which the financial
+statements were based and identify any potential fraud resulting from the
+financial management processes that were in place. ANAO provided oversight
+into the scope of works undertaken by the forensic auditor to ensure a complete
+and accurate review was undertaken.97
+2.104 NAA indicated to the Committee in its submission that there would be continuous
+monitoring by its Executive Board and Audit and Risk Committee of the actions
+undertaken to address each of the ANAO findings until their implementation was
+completed.98
+Services Australia
+2.105 The audit reported ‘a significant audit risk in relation to the increasing number of
+issues in IT governance within Services Australia’ stating:
+… the ANAO identified weaknesses in IT controls in the implementation of a
+large-scale IT roll-out for residential aged care and the re-emergence of a large
+number of individual control issues affecting change and access management
+and business operations.99
+2.106 ANAO further noted in the report, and made recommendations accordingly, that the
+IT governance and monitoring processes at Services Australia were not providing
+sufficient assurance to its management that policy requirements were being met,
+further commenting that ‘this matter is considered to pose a significant financial,
+business and reputational risk to Services Australia.’100
+2.107 In its submission to the inquiry, Services Australia agreed with these assessments
+and the ANAO’s recommendations. Services Australia stated:
+Due to the Agency’s complex and large number of IT platforms, in excess of 50
+systems, that need to be reviewed to address the audit recommendations, the
+Agency has established a new Division to ensure the appropriate oversight and
+monitoring of remediation activities. Additional resources have also been
+96 Auditor-General Report No. 9 2023–24, p. 299.
+97 NAA, Submission 7, p. 3.
+98 NAA, Submission 7, p. 3.
+99 Auditor-General Report No. 9 2023–24, p. 349.
+100 Auditor-General Report No. 9 2023–24, pages 349-350.
+28
+onboarded to assist with remediation activities, including specialist resources with
+ICT policy, governance and assurance expertise.101
+2.108 Services Australia noted in its submission that it would require time to conduct its
+remediation due to the complexity of its systems but that the first phase of this
+process, ‘focussed on access management, change management and disaster
+recovery policies’ was expected to be completed by June 2024 with the expectation
+that ‘it will take until the 2025 interim audit process for all aspects of the
+recommendations to be fully resolved.’102
+Moderate findings mostly relate to removing IT user access
+2.109 The ANAO reported 20 moderate findings in 2022-23 relating to weaknesses in user
+access management, with nine pertaining to management of terminated user
+access.103 ANAO further stated:
+IT security management continues to remain the most common area of
+weakness in the IT control environment, with over 77 per cent of findings, and 82
+per cent of the significant and moderate findings, relating to this area. Focus is
+required by entities to ensure that the risks of unauthorised changes to systems
+and data and unauthorised data leakage are being appropriately managed.104
+2.110 ANAO comments that ‘timely removal of access from terminated staff continues to be
+an issue across entities in 2022–23’ indicating that despite some improvements in
+developing security policies relating to this removal and in implementing monitoring
+controls, the number of findings relating to the removal of access processes has
+increased.105
+Committee comment
+2.111 Failures in IT governance and control, most particularly with regard to unauthorised
+user access to IT systems across the Commonwealth, have become a staple of the
+Financial Statements audits findings for many years and this situation simply has to
+change. In its report on the 2021-22 Financial Statements audit, the Committee
+devoted a whole section to the wide scale lack of compliance with the IT
+requirements of the PSPF. The Committee sensibly recommended that an assurance
+mechanism for agencies’ self-reporting on cybersecurity be developed, and that
+appropriate performance measures be implemented on promoting compliance with
+the IT security aspects of this framework.106
+101 Services Australia, Submission 17, p. 4.
+102 Services Australia, Submission 17, p. 4.
+103 Auditor-General Report No. 9 2023–24, p. 63.
+104 Auditor-General Report No. 9 2023–24, p. 64.
+105 Auditor-General Report No. 9 2023–24, p. 65.
+106 Joint Committee of Public Accounts and Audit, Report 497: Inquiry into Commonwealth Financial Statements
+2021–22, June 2023, Canberra, pages 27-35.
+29
+2.112 The Department of Home Affairs, which has since taken over responsibility for the
+PSPF from the Attorney-General’s Department, has agreed to both
+recommendations and has indicated that they will commence the assurance
+mechanism following the 2024-25 PSPF reporting period. Home Affairs has also
+stated that it will develop the required performance measures for inclusion in its
+2024-25 corporate plan, in consultation with accountable officials, its audit and risk
+committee, and the accountable authority.
+2.113 These responses are fully welcomed by the Committee and the advent of these new
+processes and their future impact on the instances and nature of IT breaches will be
+monitored with interest.
+2.114 The Committee in the meantime will require updates from the four entities that had
+significant IT issues in this last audit cycle. It is the sincerest hope of the Committee
+that recommendations of this nature will eventually no longer be needed. There are
+once again just too many serious risks to the Commonwealth arising from persistent
+user access issues, particularly when considering the highly sensitive information
+that is held by many key agencies such as Defence.
+Recommendation 5
+2.115 The Committee recommends that the Australian Taxation Office, Department of
+Defence, National Archives of Australia and Services Australia each report to
+the Committee within six months of this report on their progress in closing the
+significant breaches relating to their governance and control of IT systems.
+Use and governance of artificial intelligence in the
+public sector
+Separate inquiry
+2.116 The Committee has a significant interest in the use and control of emerging
+technologies by public sector entities, particularly artificial intelligence. ANAO noted
+in the Financial Statements audit that 36 Commonwealth entities had reported the
+adoption of some form of emerging technology such as AI but also that no supporting
+policies or governance frameworks for this had been created in most cases.
+2.117 The Committee corresponded with most of these entities with a series of specific
+written questions on their use and governance of AI. The responses received were
+published as submissions to this inquiry but will now be considered by the Committee
+in a separate future inquiry that focuses specifically on the future use and regulation
+of AI by the public sector.
+30
+Hon Linda Burney MP
+Chair
+12 September 2024
+31
+
+A. Submissions
+1 Commonwealth Superannuation Corporation
+• 1.1 Supplementary to submission 1
+2 Australian Securities and Investments Commission
+3 Attorney-General's Department
+4 Department of Climate Change, Energy, the Environment and Water
+5 Department of Health and Aged Care
+• 5.1 Supplementary to submission 5
+• 5.2 Supplementary to submission 5
+• 5.3 Supplementary to submission 5
+6 Department of Social Services
+• 6.1 Supplementary to submission 6
+7 National Archives of Australia
+8 Department of Agriculture, Fisheries and Forestry
+• 8.1 Supplementary to submission 8
+9 Clean Energy Regulator
+10 Department of the Prime Minister and Cabinet
+• 10.1 Supplementary to submission 10
+11 Department of Foreign Affairs and Trade
+• 11.1 Supplementary to submission 11
+12 Department of Home Affairs
+• 12.1 Supplementary to submission 12
+• 12.2 Supplementary to submission 12
+13 Bureau of Meteorology
+14 Australian Nuclear Science and Technology Organisation
+33
+15 Department of Finance
+• 15.1 Supplementary to submission 15
+• 15.2 Supplementary to submission 15
+16 Department of Infrastructure, Transport, Regional Development, Communications
+and the Arts
+17 Services Australia
+• 17.1 Supplementary to submission 17
+18 Department of Employment and Workplace Relations
+• 18.1 Supplementary to submission 18
+19 National Disability Insurance Agency
+20 Australian Taxation Office
+• 20.1 Supplementary to submission 20
+• 20.2 Supplementary to submission 20
+21 Tiwi Land Council
+22 Northern Land Council
+23 Digital Transformation Agency
+• 23.1 Supplementary to submission 23
+24 Australian National Audit Office
+• 24.1 Supplementary to submission 24
+• 24.2 Supplementary to submission 24
+• 24.3 Supplementary to submission 24
+• 24.4 Supplementary to submission 24
+25 Department of Defence
+• 25.1 Supplementary to submission 25
+26 Australian Signals Directorate
+27 The Treasury
+28 Austrade
+29 Australian Bureau of Statistics
+30 Australian Charities and Not-for-profits Commission
+34
+31 Australian Prudential Regulation Authority
+32 IP Australia
+33 Australian Communications and Media Authority
+34 National Emergency Management Agency
+35 Australian Competition and Consumer Commission
+36 Australian Federal Police
+37 Commonwealth Scientific and Industrial Research Organisation
+38 Mr Simon Potter
+39 Department of Education
+35
+
+B. Public hearings
+Friday, 19 April 2024 – Canberra
+Australian National Audit Office
+• Ms Rona Mellor PSM, A/g Auditor-General
+• Ms Carlo Jago, A/g Deputy Auditor-General
+• Ms Lesa Craswell, A/g Group Executive Director, Financial Statements Audit
+Services Group
+• Ms Xiaoyan Lu, A/g Group Executive Director, Systems Assurance and Data
+Analytics
+• Mr Sean Benfield, Senior Executive Director, Financial Statements Audit Services
+Group
+• Mr Bradley Medina, Executive Director, Financial Statements Audit Services
+Group
+Australian Signals Directorate
+• Mr Karl Hanmore, First Assistant Director-General Mission Capability, and Chief
+Technology Officer
+Department of Finance
+• Ms Amy Fox, First Assistant Secretary, Financial Analysis
+• Mr Lasantha Samaranayake, Assistant Secretary, Accounting and Frameworks
+Branch
+Department of Home Affairs
+• Ms Charlotte Tressler, Chief Operating Officer
+• Mr Matt Jones, A/g Chief Information Officer
+• Ms Stephanie Cargill, Chief Finance Officer
+• Mr Peter Anstee, First Assistant Secretary, Cyber and Technology Security Policy
+• Ms Tracy Hobden, Assistant Secretary, Financial Operations
+37
+Digital Transformation Agency
+• Mr Chris Fechner, Chief Executive Officer
+• Mr Wayne Poels, General Manager, Digital Investment Advice and Sourcing
+• Mr Jamie Whitcomb, Branch Manager, Portfolio Assurance
+Wednesday, 24 April 2024 – Canberra
+Australian National Audit Office
+• Ms Rona Mellor PSM, A/g Auditor-General
+• Ms Carlo Jago, A/g Deputy Auditor-General
+• Ms Lesa Craswell, A/g Group Executive Director, Financial Statements Audit
+Services Group
+• Ms Xiaoyan Lu, A/g Group Executive Director, Systems Assurance and Data
+Analytics
+• Mr Bradley Medina, Executive Director, Financial Statements Audit Services
+Group
+• Mr Sean Benfield, Senior Executive Director, Financial Statements Audit Services
+Group
+Australian Taxation Office
+• Ms Janine Bristow, Chief Financial Officer
+• Mr Matthew Hay, Deputy Commissioner, Strategy and Architecture, Enterprise
+Solutions and Technology
+• Ms Jillian Kitto, Acting Deputy Commissioner, Lodge and Pay
+• Ms Anita Challen, Assistant Commissioner, Integrity, Lodge and Pay
+Department of Health and Aged Care
+• Mr Daniel McCabe, Acting Deputy Secretary, Health Resourcing
+• Mr Charles Wann, Chief Operating Officer, Corporate Operations Group
+• Mr David Hicks, Chief Financial Officer and First Assistant Secretary, Financial
+Management Division
+• Mrs Louise Riley, A/g First Assistant Secretary, Medicare and Digital Health
+Division
+• Mrs Chris Johnston, General Counsel and Assistant Secretary, Legal Advices and
+Legislation Branch
+38
+• Mrs Miriam Moore, Acting Chief Counsel and First Assistant Secretary, Legal
+Division
+• Ms Claudia Dukats, A/g Assistant Secretary, Funding Operations and Analysis
+Branch, Home and Residential Care Division
+Department of Social Services
+• Mr Pat Hetherington, Chief Operating Officer
+• Mr Andrew Harvey, Chief Financial Officer
+39
+
+C. Summary of unresolved moderate
+and significant audit findings
+41
+Portfolio Entity Rating New or repeat Description of finding
+Agriculture,
+Department of Agriculture, Unauthorised user access post
+Fisheries and Moderate (B) New
+Fisheries and Forestry termination
+Forestry
+Weaknesses in monitoring
+Attorney-General’s authorised access within the
+Attorney-General’s Moderate (B) New
+Department Financial Management Information
+System (FMIS)
+Department of Climate Change, Weaknesses in the effectiveness of
+Moderate (B) New
+Energy, the Environment and monitoring of privileged user
+Water Moderate (B) Repeat (2021-22) activities within the FMIS1
+Gaps in record keeping in relation
+Climate Change, to the measurement of property,
+Bureau of Meteorology Moderate (B) New
+Energy, the plant, equipment and intangibles;
+Environment and leases; and revenue
+Water
+Clean Energy Regulator Moderate (B) Repeat (2021-22) Privileged and other user access
+Great Barrier Reef Marine Park Privileged access to the FMIS in
+Moderate (B) New
+Authority excess of business requirements
+Removal of user access for Defence
+Significant (A) New
+personnel and contractors
+Department of Defence
+Continuing weaknesses around the
+Moderate (B) Repeat (2018–21)
+disposal of assets and inventory
+Defence
+Independence of an Audit
+Royal Australian Air Force
+Moderate (B) Repeat (2021-22) Committee member who is also a
+Veterans’ Residences Trust
+Trustee
+Department of Veterans’ Affairs Moderate (B) Repeat (2021-22) Security governance and
+1This finding was first reported to the former Department of Agriculture, Water and the Environment (DAWE) as part of the ANAO’s audit of the DAWE’s 2021–22 financial statements.
+Portfolio Entity Rating New or repeat Description of finding
+monitoring processes were not fully
+effective to address identified
+business risks
+Weaknesses relating to the
+management of security risks as
+Moderate (B) Repeat (2021-22)
+part of an upgrade to Process Direct
+in November 2020
+Legal matters from a source other
+than the Department had not been
+Significant (A) New
+considered in the preparation of
+the financial statements
+Assets under construction had not
+been appropriately assessed for
+Education Department of Education
+Moderate (B) New impairment or recognised as in use
+in accordance with Australian
+Accounting Standards
+User access to IT systems after
+Moderate (B) Repeat (2021-22)
+cessation of employment
+Employment and
+Department of Employment and User access to IT systems after
+Workplace Moderate (B) Repeat (2021-22)
+Workplace Relations cessation of employment
+Relations
+User access review: failure to
+Commonwealth Superannuation effectively perform periodic
+Finance Moderate (B) New
+Corporation comprehensive reviews of user
+access
+Inconsistent application of
+Department of Foreign Affairs centralised framework for
+Foreign Affairs Moderate (B) New
+and Trade administrating international
+development assistance payments
+Portfolio Entity Rating New or repeat Description of finding
+Potential breaches of section 83 of
+Significant legislative the Constitution: non-compliance
+New
+breach (L1) with finance law in relation to
+certain payments
+Legal advice regarding residential
+Department of Health and Aged aged care subsidies was not
+Significant (A) New
+Care considered in the preparation of
+Health and Aged the 2021–22 financial statements
+Care Sufficient progress not made to
+New (upgraded from
+address weaknesses in
+Moderate (B) minor finding in 2021-
+Commonwealth Home Support
+22)
+Programme (CHSP)
+Incorrect classification or allocation
+of funding and expenditure
+National Blood Authority Moderate (B) New
+between administered
+and departmental
+No regular monitoring of logs for
+Australian Nuclear Science and
+Moderate (B) New privileged users of FMIS with
+Technology Organisation
+Industry, Science, respect to DEBUG roles
+and Resources No regular monitoring of logs for
+Commonwealth Scientific and
+Moderate (B) New privileged users of FMIS with
+Industrial Research Organisation
+respect to DEBUG roles
+Portfolio Entity Rating New or repeat Description of finding
+Internally developed software did not
+Department of Infrastructure, Moderate (B) New meet intangible asset criteria resulting
+Transport, Regional in financial statement adjustments
+Development, Prior weaknesses in the processes for
+Communications and the Arts Moderate (B) Repeat (2021-22) removing user IT access post cessation
+not properly addressed
+Infrastructure,
+Australian Communications User access to IT systems after
+Transport, Regional Moderate (B) New
+and Media Authority cessation of employment
+Development,
+Disclosed a material uncertainty in
+Communications
+Bundanon Trust Significant (A) Repeat (2021-22) relation to going concern in its 2021–
+and the Arts
+22 financial statements2
+Ineffective IT general controls that
+Significant (A) New support the preparation of
+National Archives of Australia financial statements
+Weaknesses in the financial
+Moderate (B) New
+statements preparation process
+Department of the Prime User access to IT systems after
+Moderate (B) New
+Minister and Cabinet cessation of employment
+Non-compliance with the legislative
+Significant
+requirement that royalty trust funds
+Prime Minister and Northern Land Council legislative breach Repeat (2012–22)
+be distributed to traditional owners
+Cabinet (L1)
+within six months
+Significant
+No formal system of risk oversight and
+Tiwi Land Council legislative breach Repeat (2021–22)
+management in place
+(L1)
+2The audit of the Bundanon Trust’s 2022–23 financial statements had not been completed at 30 November 2023.
+Portfolio Entity Rating New or repeat Description of finding
+Risk that legal matters that may affect
+the financial statements were not
+Significant (A) New
+appropriately considered in their
+Department of Social Services
+preparation
+User access to IT systems after
+Moderate (B) Repeat (2021-22)
+cessation of employment
+No formal process to review privileged
+Moderate (B) New
+National Disability Insurance user activity in the PACE system
+Agency Weaknesses in IT user access
+Moderate (B) Repeat (2021-22)
+termination processes
+Management representations did not
+accord with evidence of known or
+Significant (A) New
+suspected instances of non-
+compliance with laws and regulations
+Social Services
+Significant audit risk in relation to the
+Significant (A) New increasing number of issues in
+IT governance
+Weaknesses in the effectiveness of
+Moderate (B) New monitoring of privileged user activities
+Services Australia
+within the FMIS
+No effective logging and monitoring
+process for privileged user
+Moderate (B) New
+activities within the Medicare, Child
+Support and Health IT mainframes
+No effective logging and monitoring
+process for privileged user
+Moderate (B) New
+activities within the Centrelink IT
+mainframes
+Portfolio Entity Rating New or repeat Description of finding
+Weaknesses in the monitoring of
+privileged and other user activities
+Moderate (B) New
+within the new residential aged care
+system
+Weaknesses in the segregation of
+duties controls associated with key
+Moderate (B) New
+change management processes within
+the new residential aged care system
+Control weaknesses and
+Australian Securities and
+Moderate (B) New improvements required relating to the
+Investments Commission
+asset management framework
+Weaknesses in enterprise change
+management for key IT systems
+Significant (A) New
+supporting financial statement
+Australian Taxation Office preparation
+Treasury Possibility of taxpayers receiving a full
+Moderate (B) Repeat (2021-22) credit for debts considered
+uneconomical to pursue
+Material unexplained and
+unreconciled differences in the
+Royal Australian Mint Moderate (B) New reconciliations performed by
+management in financial statement
+preparation
+8 New
+9 Significant (A)
+1 Repeat
+24 New
+Summary 36 Moderate (B)
+12 Repeat
+3 Significant 1 New
+legislative (L1) 2 Repeat
+
+D. Areas of higher material
+misstatement risk for certain entities
+in 2022-23
+49
+Areas of higher material misstatement risk for certain entities in 2022-23 (including areas
+identified as a key audit matter [KAM])
+Entity Areas of higher material misstatement risk
+Airservices Australia Impact of the COVID-19 pandemic (Government provided financial assistance
+grants for 2021–22 and 2020–21 and an equity injection in 2022–23);
+[$862.6 M] completeness and accuracy of airways revenue (complexity of the
+flight traffic data, dependence on multiple integrated IT systems);
+[$1.79 B] management, recognition and valuation of assets (assumptions and
+judgements required)
+ASC Pty Ltd (supports [$767.8 M] Revenue and profit recognition for Offshore Patrol Vessel projects
+Australia’s naval capabilities) and Collins Class submarine contracts (significant judgements required)
+Australian Bureau of Statistics [$78.3 M] Recognition of revenue from rendering of services (risks relating to
+when revenue is recorded, whether it is recognised accurately, and relating to
+the maintenance of supporting documentation)
+Australian Communications [$2.65 B] Recognition and measurement of administered income, receivables
+and Media Authority and unearned income (professional judgement is required in determining when
+to recognise revenue)
+Australian Federal Police [$1.44 B] Recognition and measurement of payroll expenses including
+underpayment of superannuation obligations (size and complex nature of the
+payroll function; underpayment of superannuation on certain allowances)
+Australian Hearing Services [$258.9 M] Completeness and accuracy of revenue (complexity of timing and
+(Hearing Australia) recognition of numerous revenue streams and judgement in determining
+balances)
+Australian Office of Financial [$825.5 B] Valuation and disclosure of Australian Government Securities
+Management (material impact of fair value movement; price changes in local and global
+markets; complex financial statements disclosure requirements) (moderate
+risk rating but KAM)
+Australian Naval Infrastructure [$1.44 B] Valuation of property, plant and equipment (uses the depreciated
+Pty Ltd replacement cost method which requires significant judgements and
+estimates); [$31.8 M] completeness and accuracy of capital work in progress
+(involves judgement in relation to capitalisation)
+Australian Nuclear Science Valuation of the decommissioning [$502.9 M] and nuclear waste management
+and Technology Organisation [$130.2 M] provisions (complexity of calculations and reliance upon significant
+judgement)
+Australian Postal Corporation [$8.86 B] Valuation of unearned revenue liability (judgement needed in
+(Australia Post) estimating postage products sold but still unused) (KAM); [component of
+intangible assets $501.6 M] valuation of goodwill (estimation process is
+complex and involves significant judgement) (KAM); [$800.5 M] valuation of the
+net superannuation asset (sensitive to movements in long-term assumptions,
+subject to judgement) (KAM)
+Australian Rail Track [$3.7 B] Fair value of infrastructure assets (estimated using a complex
+Corporation Ltd discounted cash flow model subject to high degree of judgement); [component
+50
+Entity Areas of higher material misstatement risk
+of impairment expenses for construction in progress of
+$866.5 M] impairment of Inland Rail assets (judgement and estimation
+required); [$796.9 M] recognition and measurement of access revenue (subject
+to management estimates and judgement; complexity of underlying processes)
+Australian Securities and [$519.0 M] Valuation of the provisions for future payments of unclaimed monies
+Investments Commission (relies on a legislative framework that can be subject to change; sensitive to
+movements in general market conditions); [$29.9 M] appropriate capitalisation
+of software (prior period error; increasing move to cloud-based systems and
+lower capitalisation rate of assets)
+Australian Signals Directorate [$1.58 B] Measurement and recognition of nonfinancial assets (significant
+capital budget, complexity, judgement, fair valuing of specialist assets)
+Australian Taxation Office [$592.1 B] Accuracy of taxation revenue (KAM) and [$29.3 B] accuracy of
+expenses (complexity and judgement; completeness and accuracy of source
+data; consideration of historical taxpayer behaviours together with assumptions
+about economic factors); [$126.7 B] valuation of taxation receivables and
+provisions for refunds (complex methodologies and assumptions; accuracy of
+source data) (KAM); [$592.1 B] completeness of taxation revenue and
+compliance and risk management process relating to its collection (taxpayer
+self-assessment; effectiveness of compliance risk management regime;
+judgements); accuracy and completeness of balances due to complex IT
+business systems (large and complex IT environment and reliance on bespoke
+reports)
+Australian War Memorial [$1.1 B] Valuation of the heritage and cultural assets collection (subject to
+judgement and assumptions)
+Bureau of Meteorology [$452.0 M] Valuation of plant and equipment, particularly specialised weather
+equipment; [$346.4 M] valuation of computer software; [$311.0 M] high volume
+of leases with varying terms and conditions and high level of manual input and
+judgement, and material prior period errors, related to estimating lease
+liabilities and right-of-use assets; [$81.8 M] recognition of own source revenue
+Clean Energy Finance [$202.0 M] Recognition and measurement of interest and fee income
+Corporation (calculating revenue from a diverse set of financial assets);
+[$3.61 B] accounting for complex finance agreements including adequacy of
+impairment provisions and concessional loan adjustments (complexity of
+information)
+Coal Mining Industry (Long [$1.9 B] Valuation of investments (complexity surrounding the valuation of
+Service Leave Funding) unlisted unit trusts); [$1.7 B] valuation of provision for reimbursements
+Corporation (complex methodology and estimation process)
+Comcare [$2.8 B] Valuation of workers’ compensation and asbestos related disease
+management claims provisions (complex nature of the valuation of the
+provisions including reliance on the accuracy of underlying assumptions)
+51
+Entity Areas of higher material misstatement risk
+Commonwealth Scientific and [$777.6 M] Completeness and accuracy of research and associated
+Industrial Research measurement of work-in-progress and unearned revenue (revenue is recorded
+Organisation with reference to contracted milestones and significant judgement is required);
+[$895.9 M] valuation of unlisted equity instruments (requires significant
+estimation and judgement)
+Defence Housing Australia [$179.3 M] Valuation of inventories –management’s assessment of net
+realisable value (significant judgement in the determination of market
+conditions); [$3.1 B] impairment of investment properties (complex valuation
+method, subject to management judgement); [$829.5 M] revenue recognition
+for services provided to Defence (complexity of transactions and systems;
+judgements and assumptions needed).
+Department of Agriculture, Financial sustainability (significance of forecast financial position during 2022-
+Fisheries and Forestry 23); [$521.1 M] accuracy and completeness of own-source revenue relating to
+import and export functions (complexity, reliance on services, decentralised
+approach) (moderate risk rating but KAM); [$2.83 B] valuation of loans to
+state and territory governments and farm businesses (complexity, assumptions
+and reliance on third parties) (KAM)
+Department of Climate [$4.1 B] Valuation of water entitlements assets (significant judgement required
+Change, Energy, the and a reliance on third party information) (KAM); [$8.75 B] valuation of the
+Environment and Water Australian Government’s investment in Snowy Hydro Limited (complex
+discounted cash flow models that require significant judgements; significance of
+the balance of administered investments) (KAM); [$451.3 M] valuation of the
+Antarctic restoration provision (nature of the Madrid Protocol obligations;
+complex mathematical model and significant judgement and estimation) (KAM)
+Department of Defence [$84.3 B] Accuracy and valuation of specialist military equipment (complexity,
+subjectivity, high degree of judgement) (KAM); [$137.9 B] accuracy, valuation
+and disclosure of administered employee provisions (complexity, significant
+judgement required) (KAM); [$8.7 B] existence and completeness of inventory
+balances (variety and number of inventory items which are managed
+differently) (moderate risk rating but KAM)
+Department of Education Completeness, accuracy and classification of transactions and balances
+resulting from machinery of government changes and complexity of IT systems;
+[component of trade and other receivables $47.4 B] valuation of the
+outstanding Higher Education Loan Program (HELP) loan receivable (KAM);
+[$5.1 B] valuation of the Higher Education Superannuation Program (HESP)
+provision (moderate risk rating but KAM); [component of personal benefits
+expenses of $11.1 B] accuracy of ‘assistance to families with children’ personal
+benefit expenses (may be significantly impacted by the provision of inaccurate
+information) (KAM)
+Department of Employment Completeness, accuracy and classification of transactions and balances
+and Workplace Relations resulting from machinery of government changes (judgement and assumptions
+in determining opening balances split between Education and DEWR) (KAM);
+[$1.6 B] accuracy of ‘Workforce Australia’ supplier expenses (new employment
+52
+Entity Areas of higher material misstatement risk
+service delivered by the department); [a component of trade and other
+receivables totalling $4.59 B] valuation of the vocational student and trade
+support loans receivables (complex judgments and assumptions needed)
+(moderate risk rating but KAM)
+Department of Finance [$1.4 B] Valuation of outstanding claims liability under the Government’s self-
+managed general insurance fund (involves significant judgement over key
+assumptions) (KAM); [$175 B] valuation of the non-defence superannuation
+provision (significant judgement in the selection of long-term assumptions)
+(KAM); [$3.3 B] valuation of properties (dependent on assumptions) (moderate
+risk rating but KAM); [$12.6 B] valuation of private market investments
+(inherent subjectivity and significant judgements) (KAM)
+Department of Foreign Affairs [$4.69 B] Valuation of overseas properties (KAM) (degree of subjectivity in
+and Trade valuing a large number of properties with a wide geographic spread);
+[$3.7 B] accuracy of international development assistance (broad range of
+agreements with multiple third parties) (moderate risk rating but KAM)
+Department of Health and [$59.3 B] Accuracy of personal benefits (payments calculated using multiple,
+Aged Care complex IT systems) (KAM); [$16.1 B] accuracy of subsidies (payments based
+on complex regulatory requirements) (KAM); [$1.1 B] valuation of personal
+benefits’ provisions (significant actuarial assumptions and judgements involved)
+(KAM); [$3.1 B] valuation of inventories (judgement applied to estimating
+current cost and service potential) (KAM)
+Department of Home Affairs [$17.1 B] Accuracy of customs duty (significant value, geographically dispersed
+revenue collection points and IT complexity) (KAM); [$3.2 B] accuracy of visa
+application charges (significant value and IT complexity) (KAM)
+Department of Industry, [$2.1 B] Completeness and accuracy of royalty revenue (reliance on third
+Science and Resources parties) (KAM); [$2.1 B] valuation of the rehabilitation provision (complexity of
+the valuation) (KAM)
+Department of Infrastructure, [$22.0 B] Valuation of administered investments accounted for using the
+Transport, Regional discounted cash flow method (complexity in determining the estimated fair
+Development, value) (KAM); [$9.4 B] valuation of administered advances and loans
+Communications and the Arts (complexity of model, judgements and assumptions) (moderate risk rating but
+KAM)
+Department of Parliamentary [$2.7 B] Valuation of buildings (complexity and judgement arising from unique
+Services nature of each building component that comprises Parliament House) (KAM)
+Department of Social Services [$125.8 B] Accuracy and occurrence of personal benefits expenses (reliance on
+the correct self-disclosure of personal circumstances; reliance on Services
+Australia’s complex IT processing system) (KAM); valuation of [$4.0 B]
+personal benefits provisions and [$5.4 B] personal benefits receivables (use of
+estimation models which require significant judgements; accuracy and
+completeness of the source data) (KAM); [$2.5 B] validity of grant expenses
+(large number of grants programs with differing legislative and policy
+requirements) (moderate risk rating but KAM)
+53
+Entity Areas of higher material misstatement risk
+Department of the Treasury [$6.5 B] Completeness and valuation of the Disaster Recovery Funding
+Arrangements (DRFA) Provision (reliance on information provided by state and
+territory governments; complexities in judgements) (KAM); [$118.9 B] accuracy
+and occurrence of payments to states and territories under the Federal
+Financial Relations Act 2009 (significance of the value and complex eligibility
+criteria; reliance on information from other entities) (moderate risk rating but
+KAM)
+Department of Veterans’ [$55.7 B] Valuation of military compensation provision (judgements involved in
+Affairs determining assumptions and calculations) (KAM); [$10.5 B] accuracy of
+personal benefits and health care payments (complexity of IT systems and
+applicable legislation, and reliance on accurate and complete veteran provided
+information)
+Future Fund Management [$103.4 B] Valuation of private market investments (inherent subjectivity and
+Agency significant judgements and estimates required where market data is not
+available) (KAM)
+National Archives of Australia [$1.55 B] valuation of archival collection (complexity)
+National Disability Insurance [$35.2 B] Accuracy and occurrence of participant plan expenses (growth and
+Agency varying needs of participants and high volume of transactions) (KAM);
+[$1.9 B] valuation of participants’ plan provisions (significant judgements and
+assumptions due to complexity in estimating support) (KAM);
+[$2.2 B] completeness, occurrence and accuracy of contributions of in-kind
+services from state and territory governments (reliance on third party data; in-
+kind revenue and expenses may be misstated) (KAM)
+National Gallery of Australia [$6.9 B] Valuation of items in the heritage and cultural collection (judgement
+required in valuations of artwork and complexity of the valuation model)
+National Indigenous [$1.6 B] Performance of grantees in meeting grant conditions (significant
+Australians Agency number and value of grants paid; complexity of grants management in remote
+areas; different IT systems operated by different entities) (KAM)
+National Intermodal [$169.2 M] Valuation of the land preparation; Moorebank Avenue works and
+Corporation Limited voluntary planning contributions (judgements and estimates involved and
+sensitivity of key inputs)
+National Library of Australia [$1.1 B] Valuation of the national collection (significant judgement and expertise
+required due to the unique nature of the collection assets)
+NBN Co Limited [$5.1 B] Accuracy and occurrence of telecommunications revenue (high volume
+of transactions and multiple IT systems and tools utilised) (KAM); [$1.95 B]
+valuation and disclosure of derivatives (judgements involved in determining the
+fair value; accounting complexity) (KAM [valuation]); [$3.1 B] accuracy and
+completeness of depreciation and amortisation (significant judgement needed
+and complexity of the manual depreciation models used) (KAM)
+Reserve Bank of Australia [$589.5 B] Valuation of Australian dollar securities and foreign currency
+investments (complexity in valuing a range of investments and securities;
+fluctuations in the Australian dollar exchange rate) (KAM); [$101.3 B] accuracy
+54
+Entity Areas of higher material misstatement risk
+of the liability for Australian banknotes (assumption that legal tender status is
+retained by all Australian notes on issue; significant financial impact from any
+fluctuations in the value of the Australian dollar supply and security of
+banknotes)
+Services Australia [$988.9 M] Valuation of child support receivables yet to be paid by noncustodial
+parents (significant judgements and assumptions around the collection rates of
+child support obligations; complexity around bespoke IT application) (moderate
+risk rating but KAM); [$894.3 M] valuation of intangible assets (significant
+judgements involved) (moderate risk rating but KAM); [$2.0 B] valuation of
+right-of- use assets (judgements associated with right-of-use valuations,
+particularly the treatment of lease options) (moderate risk rating but KAM)
+Snowy Hydro Limited [$1.77 B] Valuation, existence and completeness of financial instruments –
+energy derivatives (judgement and level of estimation; arithmetical and financial
+statement complexity) (KAM); [component of $5.3 B construction in progress]
+valuation of property, plant and equipment for Snowy 2.0 (complexity and
+judgement) (KAM); [$906.4 M] completeness and accuracy of the impairment
+of retail debtors (level of judgement and estimation involved in measuring the
+allowance for doubtful debts) (KAM)
+Voyages Indigenous Tourism [$435.0 M] Valuation of Ayers Rock Resort (complexity due to judgements and
+Australia Pty Ltd assumptions in determining future cash inflows)
+WSA Co Limited (construction [$1.6 B] Recognition of capital work in progress for airport construction
+and operation of Badgerys activities (judgement and estimation required in apportioning capital and
+Creek airport) operating costs)
+Source: Auditor-General Report No. 9 2023–24
+55

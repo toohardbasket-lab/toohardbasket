@@ -683,18 +683,26 @@ export function registerReportsWithoutSource(): {
   total: number;          // reports on either register with no readable document
   predating: number;      // those tabled before the Tabled Documents index begins
   oldestTabled: string;   // the oldest of them, so the page can name a date
+  collected: number;      // reports whose documents have since been fetched
 } {
   const manualPath = path.join(DATA_DIR, "reports_manual.csv");
-  if (!fs.existsSync(manualPath)) return { total: 0, predating: 0, oldestTabled: "" };
-  const rows = read("reports_manual.csv")
-    .filter((r) => (r.collected ?? "").trim().toLowerCase() !== "yes");
+  if (!fs.existsSync(manualPath)) {
+    return { total: 0, predating: 0, oldestTabled: "", collected: 0 };
+  }
+  const all = read("reports_manual.csv");
+  const rows = all.filter((r) => (r.collected ?? "").trim().toLowerCase() !== "yes");
   // Two different reasons a report has no document, and they deserve different
   // sentences. Most are older than the register itself, which is the failure
   // that matters: it hides exactly the longest waits. The rest are recent
   // reports the register happens not to index, which is untidy but not a story.
   const old = rows.filter((r) => (r.report_tabled ?? "") < "2022-01-01");
   const dates = rows.map((r) => r.report_tabled ?? "").filter(Boolean).sort();
-  return { total: rows.length, predating: old.length, oldestTabled: dates[0] ?? "" };
+  return {
+    total: rows.length,
+    predating: old.length,
+    oldestTabled: dates[0] ?? "",
+    collected: all.length - rows.length,
+  };
 }
 
 export interface Correction {
