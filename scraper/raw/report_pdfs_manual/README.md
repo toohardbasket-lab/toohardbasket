@@ -22,9 +22,14 @@ For each one:
    and the tabling date in the list are enough to search for.
 2. Download the PDF of the report itself — not the submissions, not a chapter,
    not the government response.
-3. Save it here as its **number** from the list: `1.pdf`, `2.pdf`, and so on.
-   The next step renames each one to its proper key. (Saving it under the long
-   key directly works too.)
+3. Save it here. **The name does not matter** — the next step opens each PDF,
+   reads the first pages, works out which report it is and files it. Saving it
+   as its number from the list (`1.pdf`, `2.pdf`) also works and skips the
+   guessing.
+
+   Where two reports are too alike to tell apart from their first pages — the
+   numbered Auditor-General series are nearly identical in wording — nothing is
+   filed and it says so; use the number for those.
 4. Put the page you took it from in `SOURCES.txt`, in this folder, as
 
        1   https://www.aph.gov.au/...
@@ -56,6 +61,17 @@ Finally, the ordinary chain:
 The reports collected here go through the same parser, the same verification
 and the same drop rules as every other report. The only difference is
 provenance, and each row records it.
+
+## What to collect
+
+The report the committee tabled. Not the submissions, not a single chapter, not
+the government's response.
+
+Some of these are inquiries into a **bill** rather than into a subject. Those
+are still committee reports, the Senate's three-month rule still applies to
+them, and that is why the presiding officer has them on the schedule of
+responses still owed — so they belong here. Expect few recommendations: a bill
+inquiry often makes one.
 
 ## Why the PDFs are not committed
 

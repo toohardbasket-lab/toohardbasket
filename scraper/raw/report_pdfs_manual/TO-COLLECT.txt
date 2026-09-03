@@ -1,5 +1,5 @@
 26 reports on the registers have no Tabled Documents id.
-0 collected, 26 still needed.
+1 collected, 25 still needed.
 
 Save each PDF in scraper/raw/report_pdfs_manual/ as its NUMBER below — 1.pdf,
 2.pdf and so on — and this step renames it. Put the page you took it from in
@@ -10,7 +10,7 @@ pdf_source_url in reports_manual.csv, which is what the site links to.
       Freedom of Information Amendment (New Arrangements) Bill 2014 [Provisions]
       save as: 1.pdf      (becomes m-2014-11-25-freedom-of-information-amendment-new-arr.pdf)
 
-   2. 2017-02-16   3485 days waiting
+   2. 2017-02-16   3485 days waiting [collected]
       Public Accounts and Audit—Joint Statutory
       Report 460—Public Sector Governance Inquiry based on Auditor- General’s report 29 (2015-16)
       save as: 2.pdf      (becomes m-2017-02-16-report-460public-sector-governance-inqui.pdf)

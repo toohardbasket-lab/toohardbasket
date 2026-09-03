@@ -185,6 +185,83 @@ def read_sources(rows: list[dict]) -> int:
     return n
 
 
+STOP = {"the", "and", "for", "into", "based", "report", "reports", "inquiry",
+        "australia", "australian", "government", "committee", "final", "second",
+        "first", "third", "interim", "provisions", "bill", "amendment", "act"}
+
+
+def title_terms(title: str) -> set[str]:
+    """The words in a title that actually distinguish it from another title."""
+    return {w for w in _norm(title).split() if len(w) > 3 and w not in STOP}
+
+
+def report_number(title: str) -> str | None:
+    m = re.search(r"report\s*(?:no\.?\s*)?(\d{2,4})", _norm(title))
+    return m.group(1) if m else None
+
+
+def identify(text: str, candidates: list[dict]) -> tuple[dict | None, str]:
+    """Work out which report a PDF is, by reading it.
+
+    Requiring an exact filename put the whole burden on transcription, and the
+    failure it invites is the worst one available here: a PDF filed against the
+    wrong report publishes that committee's recommendations under another
+    committee's name. Reading the first pages and matching them against the
+    titles we are looking for costs nothing and catches it.
+
+    A match has to be clear. Where two reports score alike — the numbered
+    Auditor-General series are near-identical in wording — nothing is claimed
+    and the file is left for the number to decide.
+    """
+    head = _norm(text[:6000])
+    scored = []
+    for r in candidates:
+        terms = title_terms(r["title"])
+        hit = sum(1 for t in terms if t in head)
+        score = hit / len(terms) if terms else 0.0
+        num = report_number(r["title"])
+        if num:
+            # "Report 460" in the document is worth more than any wording.
+            score += 0.75 if re.search(rf"report\s*{num}\b", head) else -0.25
+        year = (r.get("report_tabled") or "")[:4]
+        if year and year in head:
+            score += 0.15
+        scored.append((score, r))
+    scored.sort(key=lambda x: -x[0])
+    if not scored or scored[0][0] < 0.55:
+        return None, "nothing in the first pages matches a report on the list"
+    if len(scored) > 1 and scored[0][0] - scored[1][0] < 0.25:
+        return None, (f"could be {scored[0][1]['title'][:44]!r} or "
+                      f"{scored[1][1]['title'][:44]!r} — too close to call")
+    return scored[0][1], ""
+
+
+def claim_by_content(rows: list[dict], pdfplumber) -> list[str]:
+    """Adopt any PDF in the folder, whatever it is called, if it can be read."""
+    taken = {f"{r['key']}.pdf" for r in rows}
+    loose = [p for p in sorted(PDFS.glob("*.pdf"))
+             if p.name not in taken and not re.fullmatch(r"\d+\.pdf", p.name)]
+    if not loose:
+        return []
+    wanted = [r for r in rows if not (PDFS / f"{r['key']}.pdf").exists()]
+    out = []
+    for pdf in loose:
+        try:
+            with pdfplumber.open(pdf) as doc:
+                head = "\n".join((pg.extract_text() or "") for pg in doc.pages[:3])
+        except Exception as exc:
+            out.append(f"{pdf.name}: could not be opened — {str(exc).splitlines()[0][:60]}")
+            continue
+        match, why = identify(head, wanted)
+        if not match:
+            out.append(f"{pdf.name}: {why}")
+            continue
+        pdf.rename(PDFS / f"{match['key']}.pdf")
+        wanted = [r for r in wanted if r["key"] != match["key"]]
+        out.append(f"{pdf.name}\n      is {match['title'][:60]} — filed")
+    return out
+
+
 def claim_numbered(rows: list[dict]) -> list[str]:
     """Let a PDF be saved as 1.pdf and renamed into place.
 
@@ -230,6 +307,10 @@ def main(argv: list[str]) -> int:
     rows = manifest()
     PDFS.mkdir(parents=True, exist_ok=True)
     TEXT.mkdir(parents=True, exist_ok=True)
+    try:
+        import pdfplumber
+    except ImportError:
+        sys.exit("pdfplumber is needed to read the PDFs: pip install -r requirements.txt")
 
     write_manifest(rows)          # keep the list current with the registers
     noted = read_sources(rows)
@@ -239,13 +320,10 @@ def main(argv: list[str]) -> int:
     renamed = claim_numbered(rows)
     for line in renamed:
         print(f"  renamed {line}")
+    for line in claim_by_content(rows, pdfplumber):
+        print(f"  {line}")
     if "--list" in argv:
         return show(rows)
-
-    try:
-        import pdfplumber
-    except ImportError:
-        sys.exit("pdfplumber is needed to read the PDFs: pip install -r requirements.txt")
 
     read, skipped, thin, bad = 0, 0, [], []
     for r in rows:
