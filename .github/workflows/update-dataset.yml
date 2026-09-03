@@ -19,6 +19,14 @@ defaults:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # Every date this job writes — "as at" on the front page, each row's days
+    # outstanding, the edition file and its tag — is worked out from "today".
+    # GitHub's runners keep UTC, and the Tuesday 06:00 Perth run starts at
+    # 22:00 UTC on Monday, so without this the site would date Tuesday's build
+    # Monday and count every wait a day short of the Canberra calendar. The
+    # registers are kept in the Parliament's own time.
+    env:
+      TZ: Australia/Canberra
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -125,7 +133,7 @@ jobs:
           git config user.email "bot@toohardbasket.org.au"
           git add data/ raw/ ../site/public/og.png
           git diff --cached --quiet && { echo "No change to the dataset."; exit 0; }
-          git commit -m "Dataset update $(date -u +%F)"
+          git commit -m "Dataset update $(date +%F)"
           # A push can be refused because main moved while the job was running,
           # or because the run was started against an older commit. Rebasing
           # the data commit onto the current tip is safe — this job only ever
@@ -138,8 +146,8 @@ jobs:
           # The edition tag points at the commit that carries the edition file,
           # so /as-at/<date>/ can link to the whole dataset behind it. Forced,
           # because a second run on the same day replaces that day's edition.
-          git tag -f "edition-$(date -u +%F)"
-          git push -f origin "edition-$(date -u +%F)"
+          git tag -f "edition-$(date +%F)"
+          git push -f origin "edition-$(date +%F)"
       - name: Open issue on failure
         if: failure()
         uses: actions/github-script@v7
