@@ -187,10 +187,13 @@ const chambers = [
       </div>
 
       <div class="beside measure">
+        {/*
+          Named, not "That": since this paragraph moved beside the sentence
+          rather than under it, a pronoun would point across the gutter at
+          words the reader has not reached yet.
+        */}
         <p class="lede">
-          {oldest.beingConsidered
-            ? "That is the government’s own phrase, and it covers most of both registers —"
-            : "“Being considered” is the government’s own phrase, and it covers most of both registers —"}
+          “Being considered” is the government’s own phrase, and it covers most of both registers —
           {" "}all {fmt(f.house.outstanding)} on the House register, where it is the only
           thing the government’s report can say about a report it has not answered, and
           {" "}{fmt(f.beingConsidered)} of the {fmt(f.outstanding)} reports on the Senate
