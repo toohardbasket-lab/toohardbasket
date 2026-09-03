@@ -305,6 +305,13 @@ def main() -> int:
                 "tabled": d["tabled_senate"] or d["tabled_house"],
                 "chamber": "senate" if d["tabled_senate"] else "house",
                 "url": d["url"],
+                # How the document behind this row was obtained. Empty means the
+                # ordinary route: fetched from the Parliament's Tabled Documents
+                # API by the weekly job. The only other value marks a report
+                # collected by hand because that register holds nothing before
+                # 2022 — see harvest_manual_reports.py. It is carried into the
+                # published data so the provenance of every row is checkable.
+                "collection": "",
             })
 
     if not rows:

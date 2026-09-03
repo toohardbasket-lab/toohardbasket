@@ -3,7 +3,7 @@ import Base from "../layouts/Base.astro";
 import ResponsesChart from "../components/ResponsesChart.astro";
 import { LAUNCHED } from "../lib/launch";
 import {
-  homeFigures, complianceDetail, longestWaits, scheduleMeta,
+  homeFigures, complianceDetail, longestWaits, registerReportsWithoutSource, scheduleMeta,
   responsesByYear, typicalYear,
   humanDuration, inMonths, fmt, formatDate, formatDateShort,
 } from "../lib/data";
@@ -46,6 +46,10 @@ const checkedTo = [f.schedule.responsesCheckedTo, houseMeta.responsesCheckedTo]
 const pct = (comp.rate * 100).toFixed(1);
 const housePct = ((houseMeta.onTimeRate ?? 0) * 100).toFixed(0);
 const longest = longestWaits(10);
+/* Reports on either register the Tabled Documents index cannot supply, and so
+   whose recommendations cannot be searched here. Counted, so the sentence that
+   admits it disappears by itself once they have all been collected. */
+const missing = registerReportsWithoutSource();
 const oldest = longest[0];
 
 /**
@@ -261,9 +265,22 @@ const chambers = [
         ))}
       </tbody>
     </table>
+    {missing.predating > 0 && (
+      <p class="note measure">
+        <strong>What these committees asked for is not yet searchable.</strong> The
+        {" "}<a href="/recommendations/">recommendations index</a> reads the reports from the
+        Parliament’s Tabled Documents register, which holds nothing before 2022, and the
+        reports at the top of this table are older than that — {fmt(missing.predating)} of them
+        across the two registers, the oldest tabled {formatDate(missing.oldestTabled)}. There is
+        no document there to read, so none of their recommendations can be found on this site.
+        They are published on their committees’ own pages and are being collected by hand.
+        Until that is done, searching for what these committees recommended finds nothing, and
+        that is a limit of this site rather than of the record.
+      </p>
+    )}
     <p class="more">
-      <a href="/house/">All {fmt(f.house.outstanding)} in the House register →</a>{" "}
-      <a href="/senate/">All {fmt(f.outstanding)} in the Senate register →</a>
+      <a href="/senate/">All {fmt(f.outstanding)} in the Senate register →</a>{" "}
+      <a href="/house/">All {fmt(f.house.outstanding)} in the House register →</a>
     </p>
   </section>
 </Base>

@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import csv
 import pathlib
+import sys
 import re
 
 HERE = pathlib.Path(__file__).parent
@@ -174,12 +175,41 @@ def recommendations_in(body: str) -> list[dict]:
 
 
 def register_rows() -> dict[str, dict]:
+    """Every report whose text this step can read, keyed by the id of that text.
+
+    Two kinds. Most are keyed by a Tabled Documents id, downloaded by
+    harvest_report_pdfs.py. The rest are keyed by a manual key from
+    data/reports_manual.csv: reports on a register that the Tabled Documents
+    index does not hold, whose PDFs were collected by hand. That index begins in
+    2022, so the second kind is precisely the oldest and longest-waiting reports
+    on the site — the ones a reader is most likely to look for.
+
+    A joint report listed by both presiding officers is read once, as it always
+    has been: the first register to claim the id keeps it.
+    """
     seen: dict[str, dict] = {}
     for name, chamber in (("ledger_v2.csv", "senate"), ("house_ledger.csv", "house")):
         for r in csv.DictReader(open(DATA / name, encoding="utf-8-sig")):
             rid = r.get("report_otd_id")
             if rid and rid not in seen:
                 seen[rid] = {**r, "chamber": chamber}
+
+    manual = DATA / "reports_manual.csv"
+    if manual.exists():
+        for r in csv.DictReader(open(manual, encoding="utf-8-sig")):
+            key = (r.get("key") or "").strip()
+            if not key or key in seen:
+                continue
+            seen[key] = {
+                "committee": r.get("committee", ""),
+                "title": r.get("title", ""),
+                "report_tabled": r.get("report_tabled", ""),
+                # The link goes where the document was actually taken from, so
+                # a reader can check the quotation against the same file.
+                "report_url": r.get("pdf_source_url", ""),
+                "chamber": r.get("chamber", "senate"),
+                "collection": "collected by hand",
+            }
     return seen
 
 
@@ -187,6 +217,18 @@ def main() -> int:
     reports = register_rows()
     existing = list(csv.DictReader(open(OUT, encoding="utf-8-sig")))
     fields = list(existing[0].keys())
+
+    # This step appends to what extract_recommendations.py wrote, which is the
+    # response-derived rows and nothing else. Run twice — or run alone against a
+    # file that has already been through it — and every report recommendation is
+    # published twice, with no error and no visible symptom beyond a count that
+    # went up. Refusing is cheap; finding it afterwards is not.
+    already = sum(1 for r in existing if r.get("source") == "report")
+    if already:
+        print(f"REFUSING: {OUT.name} already holds {already} report recommendations. "
+              "This step appends, so it must run once, immediately after "
+              "extract_recommendations.py has rewritten the file.", file=sys.stderr)
+        return 1
     rows, empty = [], 0
     for rid, meta in reports.items():
         path = TEXT / f"{rid}.txt"
@@ -214,6 +256,7 @@ def main() -> int:
                 "tabled": meta.get("report_tabled", ""),
                 "chamber": meta["chamber"],
                 "url": meta.get("report_url", ""),
+                "collection": meta.get("collection", ""),
             })
     if not rows:
         print("REFUSING: no recommendations extracted from any report")

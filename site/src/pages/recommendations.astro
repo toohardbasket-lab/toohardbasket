@@ -13,7 +13,10 @@
  * the words to make it are on the screen.
  */
 import Base from "../layouts/Base.astro";
-import { recommendations, recommendationsDropped, scheduleMeta, fmt, formatDate } from "../lib/data";
+import {
+  recommendations, recommendationsDropped, registerReportsWithoutSource,
+  scheduleMeta, fmt, formatDate,
+} from "../lib/data";
 
 const rows = recommendations();
 const dropped = recommendationsDropped();
@@ -23,6 +26,9 @@ const withWords = rows.filter((r) => r.governmentWords).length;
 const covers = rows.map((r) => r.tabled).filter(Boolean).sort();
 const named = rows.filter((r) => r.recommendedBy).length;
 const examples = ["domestic violence", "aged care", "veterans", "housing", "PFAS", "First Nations"];
+/* How many reports on the registers predate the Tabled Documents index and so
+   have no readable source. Counted, not typed: it falls as they are collected. */
+const missing = registerReportsWithoutSource();
 /* The same date line as every other page. */
 const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
                    scheduleMeta("house").responsesCheckedTo].filter(Boolean).sort()[0];
@@ -165,6 +171,24 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       Documents system goes, and the reports currently on the two registers. A response that
       answers in narrative prose without numbered recommendations yields nothing, and there
       are {fmt(255)} such documents.
+    </p>
+    <p>
+      <strong>The gap runs oldest-first, and that is the wrong way round.</strong> Both halves
+      of this index come from the Parliament’s Tabled Documents register: the government
+      responses, and the PDFs of the reports still waiting. That register holds nothing before
+      2022, so {fmt(missing.predating)} reports on the two registers — every one of them older
+      than the register itself, the oldest tabled {formatDate(missing.oldestTabled)} — have no
+      document there to read, and not one of their recommendations can be found here. They are
+      the longest waits on the site, which makes this the wrong gap to have: the
+      freedom-of-information report the home page leads with is one of them, and a reader who
+      comes here to find out what that committee actually asked for finds nothing.
+      {missing.total > missing.predating && (
+        <> A further {fmt(missing.total - missing.predating)} more recent reports are missing
+        from the register’s index for the same reason.</>
+      )}
+      {" "}All of them are published on their committees’ own pages and are being collected by
+      hand; where a row comes from a document fetched that way rather than from the register,
+      the dataset says so.
     </p>
     <p>
       There is a second shape it cannot read, and it matters more than the first because the

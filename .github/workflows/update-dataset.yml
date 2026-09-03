@@ -74,6 +74,13 @@ jobs:
       # in the document it claims, so what publishes is checked by construction.
       - name: Read the reports on the registers
         run: python harvest_report_pdfs.py
+      # Keeps the list of reports the Tabled Documents register cannot supply in
+      # step with the registers, and reads any PDFs that have been collected by
+      # hand since the last run. It downloads nothing — aph.gov.au refuses
+      # automated requests, which is why those reports are collected by a person
+      # in the first place.
+      - name: Read the reports collected by hand
+        run: python harvest_manual_reports.py
       - name: Author-attribution tests (gate)
         run: python tests/test_report_authors.py
       - name: Extract recommendations
