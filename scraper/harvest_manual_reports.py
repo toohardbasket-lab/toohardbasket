@@ -160,7 +160,7 @@ def read_sources(rows: list[dict]) -> int:
         return 0
     by_key = {r["key"]: r for r in rows}
     by_num = {str(i): r for i, r in enumerate(rows, 1)}
-    n, unknown = 0, []
+    n, unknown, attached = 0, [], []
     for line in SOURCES.read_text(encoding="utf-8", errors="replace").splitlines():
         line = line.strip()
         if not line or line.startswith("#"):
@@ -176,7 +176,15 @@ def read_sources(rows: list[dict]) -> int:
             continue
         if row.get("pdf_source_url") != url:
             row["pdf_source_url"] = url
+            attached.append((which, row["title"]))
             n += 1
+    # Printed one per line, because a number is a position in this list and a
+    # position can move: if a report is answered and leaves the registers, every
+    # number after it shifts, and a URL written against the old numbering would
+    # silently attach to the wrong report. Seeing what each one landed on is
+    # the check. Writing the key instead of the number cannot go wrong at all.
+    for which, title in attached:
+        print(f"    {which} -> {title[:64]}")
     if unknown:
         print(f"\n  {len(unknown)} line(s) in {SOURCES.name} were not understood "
               "(expected: a number or key, then a URL):")
