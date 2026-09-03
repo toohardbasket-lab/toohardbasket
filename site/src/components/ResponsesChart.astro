@@ -269,7 +269,11 @@ const hoverData = bars.map((b) => ({
 <style>
   .chart { margin: 0 0 2.5rem; }
   .chart figcaption { max-width: var(--measure); margin-bottom: 1rem; }
-  .chart-note { font-size: 0.8125rem; color: var(--ink-muted); margin: 0; }
+  /* Two of these sit under the chart and ran together as one block, because
+     the margin was zeroed to stop the last one pushing the plot down. Space
+     between them, none after the last. */
+  .chart-note { font-size: 0.8125rem; color: var(--ink-muted); margin: 0 0 0.7rem; }
+  .chart-note:last-child { margin-bottom: 0; }
   .plot { position: relative; }
   svg { width: 100%; height: auto; display: block; overflow: visible; }
 
