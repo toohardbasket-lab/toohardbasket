@@ -164,23 +164,25 @@ const chambers = [
     */}
     <div class="wait">
       <div class="gap measure" data-register={oldest.register}>
-        <p>
+        {/*
+          The clock, first, in the shape the tiles above use — a figure and
+          then the words for it — at a size between the tiles and the sentence.
+          The register counts whole days in Canberra, where the report was
+          tabled, and so does this: the days figure is the calendar count and
+          the line under it is how far into today Canberra is. It is the only
+          number on the site that moves between builds; the register's own
+          figure stands in for it until the script runs, and for anyone
+          without one. Its line is its own, so a tick never reflows a word of
+          the sentence.
+        */}
+        <p class="clock" data-tabled={oldest.owedSince}>
+          <span class="clock-figure"><span class="clock-days">{fmt(oldest.daysOutstanding)}</span> <span class="clock-unit">days</span></span>
+          <span class="clock-rest"><span class="clock-time" aria-hidden="true"></span><span class="clock-note">and counting</span></span>
+        </p>
+        <p class="sentence">
           The longest has been waiting <strong>{humanDuration(oldest.daysOutstanding)}</strong>
           {" "}since the {oldest.body} committee tabled{" "}
           <em>{oldest.title}</em> on {formatDate(oldest.owedSince)}. {oldestStatus}
-        </p>
-        {/*
-          The clock. The register counts whole days in Canberra, where the report
-          was tabled, and so does this: the days figure is the calendar count and
-          the rest is how far into today Canberra is. It is on its own line so
-          that a tick never reflows the sentence above it, and it is the only
-          number on the site that moves between builds — the register's own
-          figure stands in for it until the script runs, and for anyone without
-          one.
-        */}
-        <p class="clock" data-tabled={oldest.owedSince}>
-          <span class="clock-days">{fmt(oldest.daysOutstanding)}</span> days<span class="clock-time" aria-hidden="true"></span>
-          {" "}<span class="clock-note">— and counting.</span>
         </p>
       </div>
 
@@ -387,8 +389,8 @@ const chambers = [
       const d = Math.round((Date.UTC(p.year, p.month - 1, p.day) - tabled) / 86_400_000);
       days.textContent = d.toLocaleString("en-AU");
       time.textContent = reduced
-        ? `, ${unit(p.hour, "hour")} and ${unit(p.minute, "minute")}`
-        : `, ${unit(p.hour, "hour")}, ${unit(p.minute, "minute")} and ${unit(p.second, "second")}`;
+        ? `${unit(p.hour, "hour")} and ${unit(p.minute, "minute")} — `
+        : `${unit(p.hour, "hour")}, ${unit(p.minute, "minute")} and ${unit(p.second, "second")} — `;
     };
     tick();
     setInterval(tick, reduced ? 60_000 : 1000);
@@ -436,26 +438,31 @@ const chambers = [
     margin: 0;
     padding-left: 0.9rem; border-left: 2px solid var(--series-1);
   }
-  .gap p {
+  .gap .sentence {
     font-size: clamp(1.0625rem, 0.95rem + 0.5vw, 1.25rem);
     line-height: 1.45; margin: 0;
   }
   .gap[data-register="senate"] { border-left-color: var(--senate); }
   .gap[data-register="house"] { border-left-color: var(--house); }
   /*
-   * The clock, on its own line under the sentence: the same interval in days,
-   * hours, minutes and seconds, in the sans with tabular figures so the
-   * seconds do not jitter, and the line's own width can change without moving
-   * a word above it. Decorative beyond the days figure — the time is
-   * aria-hidden — and it stops at minutes for anyone who has asked for less
-   * motion.
+   * The clock: the days as a figure in the tiles' own style, a size below
+   * them and above the sentence; then the hours, minutes and seconds in
+   * words on a line of their own, so nothing reflows when they tick.
+   * Decorative beyond the days figure — the time is aria-hidden — and it
+   * stops at minutes for anyone who has asked for less motion.
    */
-  .gap .clock {
-    font-family: var(--sans); font-variant-numeric: tabular-nums;
-    font-size: 0.9375rem; line-height: 1.5; color: var(--ink-secondary);
-    margin-top: 0.55rem;
+  .gap .clock { font-family: var(--sans); margin: 0 0 0.75rem; }
+  .clock-figure {
+    display: block; line-height: 1; letter-spacing: -0.03em;
+    font-size: clamp(2.125rem, 1.3rem + 2.6vw, 3rem); font-weight: 650;
+    font-variant-numeric: tabular-nums; color: var(--ink);
   }
-  .clock-days { font-weight: 600; color: var(--ink); }
+  .clock-unit { font-size: 0.5em; font-weight: 500; letter-spacing: 0; color: var(--ink-secondary); }
+  .clock-rest {
+    display: block; margin-top: 0.45rem;
+    font-size: 0.9375rem; line-height: 1.5; color: var(--ink-secondary);
+    font-variant-numeric: tabular-nums;
+  }
   .clock-note { color: var(--ink-muted); }
   .hero .lede { margin: 1.25rem 0 0; font-size: 0.9375rem; color: var(--ink-secondary); }
   @media (min-width: 62rem) { .hero .lede { margin-top: 0; } }
