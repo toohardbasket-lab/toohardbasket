@@ -2,3 +2,4 @@
 # distribute. Each row in data/reports_manual.csv records the page its PDF came
 # from, so anyone can fetch the same file.
 *.pdf
+_candidate.pdf

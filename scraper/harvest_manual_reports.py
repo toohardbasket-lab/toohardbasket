@@ -51,8 +51,12 @@ MANIFEST = DATA / "reports_manual.csv"
 MIN_CHARS = 3000
 
 
+# The columns this step maintains. Anything else already in the file is carried
+# through untouched — a rewrite that silently drops a column another step
+# depends on is a bug that only shows up as work having to be done twice.
 FIELDS = ["key", "chamber", "also_on", "report_tabled", "days_outstanding",
-          "committee", "title", "pdf_source_url", "collected", "notes"]
+          "committee", "title", "report_page_url", "pdf_source_url",
+          "collected", "notes"]
 
 
 def _norm(s: str) -> str:
@@ -114,6 +118,10 @@ def rebuild(existing: list[dict]) -> list[dict]:
             "collected": prior.get("collected", ""),
             "notes": prior.get("notes", ""),
         })
+        # Carry anything another step has added that this one knows nothing
+        # about, rather than dropping it on the next rewrite.
+        for k, v in prior.items():
+            out[-1].setdefault(k, v)
     out.sort(key=lambda r: r["report_tabled"])
     return out
 
@@ -132,8 +140,9 @@ def manifest() -> list[dict]:
 def write_manifest(rows: list[dict]) -> None:
     if not rows:
         return
+    extra = [k for k in rows[0] if k not in FIELDS]
     with MANIFEST.open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=FIELDS, extrasaction="ignore")
+        w = csv.DictWriter(f, fieldnames=FIELDS + extra, extrasaction="ignore")
         w.writeheader()
         w.writerows(rows)
 
