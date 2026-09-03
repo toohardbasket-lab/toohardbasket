@@ -69,7 +69,7 @@ const byCommittee = [...rows.reduce((m, r) => {
 >
   <section class="wrap intro">
     <p class="eyebrow">
-      Register · {reg.claimant} · the President’s report as at {formatDate(sched.asAt)}
+      <span class="reg-label" data-register="senate">Register · {reg.claimant}</span> · the President’s report as at {formatDate(sched.asAt)}
       {sched.responsesCheckedTo && <> · responses checked to {formatDate(sched.responsesCheckedTo)}</>}
     </p>
     <h1>The Senate register</h1>
@@ -80,7 +80,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       whatever that response says.
     </p>
 
-    <StatTiles stats={stats} note={statsNote} />
+    <StatTiles stats={stats} note={statsNote} register="senate" />
   </section>
 
 
@@ -113,7 +113,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       guessed one.
     </p>
     <RegisterControls target="senate-register" noun="reports" />
-    <table class="register stacks" id="senate-register">
+    <table class="register stacks" id="senate-register" data-register="senate">
       <thead>
         <tr>
           <th scope="col" class="num">Waiting</th>

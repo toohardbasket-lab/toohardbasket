@@ -1,0 +1,48 @@
+---
+/**
+ * /as-at/ — every edition kept, newest first. Each is a page that does not
+ * change; the current registers are elsewhere.
+ */
+import Base from "../../layouts/Base.astro";
+import { editions, fmt, formatDate } from "../../lib/data";
+const all = editions().slice().reverse();
+---
+
+<Base
+  title="Editions"
+  description="Every weekly edition of the Too Hard Basket's registers, kept unchanged at its own address so a figure quoted from the site can be cited to the page that showed it."
+>
+  <section class="wrap intro">
+    <p class="eyebrow">Editions · {fmt(all.length)} kept</p>
+    <h1>Every edition, as it was published</h1>
+    <p class="lede measure">
+      The registers rebuild every Tuesday, and each build is kept here at its own address,
+      unchanged. Quote the current page for what is outstanding now; cite an edition for what
+      the site said on a date.
+    </p>
+    <table class="register narrow">
+      <thead>
+        <tr>
+          <th scope="col">Edition</th>
+          <th scope="col">As at</th>
+          <th scope="col" class="num">Senate</th>
+          <th scope="col" class="num">House</th>
+          <th scope="col" class="num">Responses read</th>
+          <th scope="col" class="num">Form-letter closures</th>
+        </tr>
+      </thead>
+      <tbody>
+        {all.map((e) => (
+          <tr>
+            <td class="num">{e.number}</td>
+            <td><a href={`/as-at/${e.date}/`}>{formatDate(e.date)}</a></td>
+            <td class="num">{fmt(e.senate.outstanding)}</td>
+            <td class="num">{fmt(e.house.outstanding)}</td>
+            <td class="num">{fmt(e.corpus.documents_read)}</td>
+            <td class="num">{fmt(e.corpus.form_letter_closures)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+</Base>

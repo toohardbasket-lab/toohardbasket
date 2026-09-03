@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import ResponsesChart from "../components/ResponsesChart.astro";
+import Strip from "../components/Strip.astro";
 import { LAUNCHED } from "../lib/launch";
 import {
   homeFigures, complianceDetail, longestWaits, registerReportsWithoutSource, scheduleMeta,
@@ -51,6 +52,19 @@ const longest = longestWaits(10);
    admits it disappears by itself once they have all been collected. */
 const missing = registerReportsWithoutSource();
 const oldest = longest[0];
+/*
+ * The clock under the longest wait counts from midnight in Canberra on the day
+ * the report was tabled. The offset is worked out here, at build time, so a
+ * reader in Perth, London or New York sees the same interval; the days figure
+ * it prints is the register's own until midnight passes, when it advances one
+ * — the only number on the site that moves between builds, and it moves
+ * because time does.
+ */
+const sinceMs = (() => {
+  const utc = Date.parse(`${oldest.owedSince}T00:00:00Z`);
+  const local = new Date(new Date(utc).toLocaleString("en-US", { timeZone: "Australia/Canberra" }));
+  return utc - (local.getTime() - utc);
+})();
 
 /**
  * The ten longest waits are, at the moment, all Senate reports — the Senate's
@@ -118,7 +132,7 @@ const chambers = [
 
     <div class="chambers">
       {chambers.map((c) => (
-        <div class="chamber">
+        <div class="chamber" data-register={c.slug}>
           <p class="figure">{fmt(c.count)}</p>
           <p class="chamber-name">{c.name}</p>
           <p class="chamber-rule">
@@ -129,9 +143,10 @@ const chambers = [
       ))}
     </div>
 
-    <p class="gap measure">
+    <p class="gap measure" data-register={oldest.register}>
       The longest has been waiting <strong>{humanDuration(oldest.daysOutstanding)}</strong>
-      {" "}— {fmt(oldest.daysOutstanding)} days since the {oldest.body} committee tabled{" "}
+      {" "}— <span class="clock" data-since={sinceMs}><span class="clock-days">{fmt(oldest.daysOutstanding)}</span> days<span class="clock-time" aria-hidden="true"></span></span>
+      {" "}since the {oldest.body} committee tabled{" "}
       <em>{oldest.title}</em> on {formatDate(oldest.owedSince)}. What the government’s
       latest status report says about it is that its response is “being considered”.
     </p>
@@ -152,6 +167,8 @@ const chambers = [
       checkedTo={formatDate(f.schedule.responsesCheckedTo ?? f.schedule.asAt)}
     />
   </section>
+
+  <Strip />
 
   <section class="wrap two-up">
     <div class="measure">
@@ -260,7 +277,7 @@ const chambers = [
             <td class="c-title">{r.url ? <a href={r.url} rel="external">{r.title}</a> : r.title}</td>
             <td class="cmte c-meta">{r.body}</td>
             <td class="cmte c-meta" data-label="Register">
-              {r.register === "house" ? "House" : "Senate"}
+              <span class="reg-dot" data-register={r.register} aria-hidden="true"></span>{r.register === "house" ? "House" : "Senate"}
               {r.alsoOnOther && <span class="both"> · and {r.register === "house" ? "Senate" : "House"}</span>}
             </td>
             <td class="num nowrap c-meta" data-label="Tabled">{formatDateShort(r.owedSince)}</td>
@@ -286,6 +303,30 @@ const chambers = [
   </section>
 </Base>
 
+<script>
+  // The live clock under the longest wait. The days figure is the register's
+  // own and is only advanced when a whole day has passed since the build; the
+  // time beside it is the same interval, still running.
+  const el = document.querySelector<HTMLElement>(".clock");
+  if (el) {
+    const since = Number(el.dataset.since);
+    const days = el.querySelector<HTMLElement>(".clock-days")!;
+    const time = el.querySelector<HTMLElement>(".clock-time")!;
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const pad = (n: number) => String(n).padStart(2, "0");
+    const tick = () => {
+      const ms = Date.now() - since;
+      const d = Math.floor(ms / 86_400_000);
+      const rem = ms - d * 86_400_000;
+      const h = Math.floor(rem / 3_600_000), m = Math.floor((rem % 3_600_000) / 60_000), s = Math.floor((rem % 60_000) / 1000);
+      days.textContent = d.toLocaleString("en-AU");
+      time.textContent = `${pad(h)}:${pad(m)}${reduced ? "" : ":" + pad(s)}`;
+    };
+    tick();
+    setInterval(tick, reduced ? 60_000 : 1000);
+  }
+</script>
+
 <style>
   .hero { padding-bottom: 2.5rem; }
   .claim {
@@ -299,7 +340,12 @@ const chambers = [
     background: var(--rule);
     border-block: 1px solid var(--rule);
   }
-  .chamber { background: var(--surface); padding: 1.25rem 1.25rem 1.4rem; }
+  .chamber { background: var(--surface); padding: 1.25rem 1.25rem 1.4rem; border-top: 3px solid var(--rule); }
+  /* The chamber's colour rules its tile and names it; the figure stays in ink. */
+  .chamber[data-register="senate"] { border-top-color: var(--senate); }
+  .chamber[data-register="house"] { border-top-color: var(--house); }
+  .chamber[data-register="senate"] .chamber-name { color: var(--senate); }
+  .chamber[data-register="house"] .chamber-name { color: var(--house); }
   /* Hero figure: same sans, tabular figures, one per chamber. */
   .figure {
     font-size: clamp(3rem, 1.6rem + 6vw, 4.75rem);
@@ -316,6 +362,20 @@ const chambers = [
     line-height: 1.45; margin: 1.75rem 0 0;
     padding-left: 0.9rem; border-left: 2px solid var(--series-1);
   }
+  .gap[data-register="senate"] { border-left-color: var(--senate); }
+  .gap[data-register="house"] { border-left-color: var(--house); }
+  /*
+   * The clock. The register prints days; this adds the hours, minutes and
+   * seconds of the same interval, in the sans with tabular figures so it does
+   * not jitter. Decorative: aria-hidden, and it stops at minutes for anyone who
+   * has asked for less motion.
+   */
+  .clock-days { font-variant-numeric: tabular-nums; }
+  .clock-time {
+    font-family: var(--sans); font-variant-numeric: tabular-nums; font-weight: 500;
+    font-size: 0.8em; color: var(--ink-secondary); margin-left: 0.45em;
+  }
+  .clock-time:empty { display: none; }
   .hero .lede { margin-top: 1.25rem; font-size: 0.9375rem; color: var(--ink-secondary); }
 
   .two-up {

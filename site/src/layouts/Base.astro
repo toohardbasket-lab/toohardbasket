@@ -1,5 +1,6 @@
 ---
 import { liveRegisters } from "../lib/registers";
+import { currentEdition, editionDiff, formatDate } from "../lib/data";
 
 export interface Props {
   title: string;
@@ -18,8 +19,10 @@ const nav = [
   // is his. The home page is ordered to match — the two must never disagree.
   ...liveRegisters()
     .slice()
+    // House first, as the author asked; the register slug is carried through so
+    // each item can take its chamber's colour.
     .sort((a, b) => (a.slug === "house" ? -1 : b.slug === "house" ? 1 : 0))
-    .map((r) => ({ href: `/${r.slug}/`, label: r.shortName })),
+    .map((r) => ({ href: `/${r.slug}/`, label: r.shortName, register: r.slug })),
   // Every other item in this bar names a thing the site holds. "Search" named
   // an action instead, and did not say what there was to search — a reader
   // scanning the bar had no way to know the recommendations were there at all.
@@ -29,6 +32,13 @@ const nav = [
 ];
 const here = Astro.url.pathname.replace(/\/$/, "") || "/";
 const SITE = "https://toohardbasket.org.au";
+/*
+ * The edition this build is publishing: the last dated record the weekly job
+ * kept. Every page names it in the footer, with the address at which this
+ * build's figures will stay reachable after next week's run has moved them.
+ */
+const edition = currentEdition();
+const moved = editionDiff();
 ---
 
 <!doctype html>
@@ -74,6 +84,19 @@ const SITE = "https://toohardbasket.org.au";
         --rule:           #dedcd5;
         --rule-strong:    #b9b6ad;
         --series-1:       #2168c2;
+        /*
+         * The chambers' own colours — the House's eucalyptus and the Senate's
+         * ochre, as the building has them, not web red and green. They mark
+         * which register a thing belongs to: a rule above a tile, a label, the
+         * active item in the nav, the dot beside a register's name, the bar
+         * under a wait. They are never the colour of a number: an ochre 82
+         * beside a green 38 would say the Senate is failing and the House is
+         * fine, which is the one comparison this site says must not be made.
+         * Both clear 4.5:1 on the surface, and nothing relies on telling them
+         * apart — every use sits beside the chamber's name.
+         */
+        --house:          #356F4C;
+        --senate:         #A63D2F;
         --measure: 34rem;
         /*
          * Self-hosted, and the fallback is named rather than left to chance.
@@ -100,6 +123,8 @@ const SITE = "https://toohardbasket.org.au";
           --rule:           #34342f;
           --rule-strong:    #4c4c45;
           --series-1:       #3987e5;
+          --house:          #7FB58F;
+          --senate:         #E08A79;
         }
       }
       :root[data-theme="dark"] {
@@ -112,6 +137,8 @@ const SITE = "https://toohardbasket.org.au";
         --rule:           #34342f;
         --rule-strong:    #4c4c45;
         --series-1:       #3987e5;
+        --house:          #7FB58F;
+        --senate:         #E08A79;
       }
 
       /*
@@ -235,6 +262,22 @@ const SITE = "https://toohardbasket.org.au";
       header.site nav a[aria-current="page"] {
         color: var(--ink); box-shadow: inset 0 -2px 0 var(--series-1);
       }
+      /* On a register's own page the underline is that chamber's colour. */
+      header.site nav a[data-register="senate"][aria-current="page"] { box-shadow: inset 0 -2px 0 var(--senate); }
+      header.site nav a[data-register="house"][aria-current="page"] { box-shadow: inset 0 -2px 0 var(--house); }
+
+      /*
+       * The dot that names a register wherever a row could belong to either.
+       * Always beside the word, never instead of it.
+       */
+      .reg-dot {
+        display: inline-block; width: 0.5em; height: 0.5em; border-radius: 50%;
+        margin-right: 0.4em; vertical-align: 0.05em; background: var(--series-1);
+      }
+      .reg-dot[data-register="senate"] { background: var(--senate); }
+      .reg-dot[data-register="house"] { background: var(--house); }
+      .eyebrow .reg-label[data-register="senate"] { color: var(--senate); font-weight: 600; }
+      .eyebrow .reg-label[data-register="house"] { color: var(--house); font-weight: 600; }
 
       main { padding-block: 3rem 4rem; }
       h1 { font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.2rem); line-height: 1.2;
@@ -311,6 +354,10 @@ const SITE = "https://toohardbasket.org.au";
         background: var(--series-1); opacity: 0.5; border-radius: 2px;
         min-width: 3px;
       }
+      /* On a register's own page the bar is that chamber's colour, and a little
+         stronger, because there it is the only colour on the table. */
+      table.register[data-register="senate"] td.c-wait .bar { background: var(--senate); opacity: 0.75; }
+      table.register[data-register="house"] td.c-wait .bar { background: var(--house); opacity: 0.75; }
       /* The column is right-aligned, so the bars end where the figures end and
          grow leftwards from that edge. Growing from the left would put the
          short bars nowhere near the numbers they belong to. */
@@ -389,7 +436,7 @@ const SITE = "https://toohardbasket.org.au";
         <a class="mark" href="/">The Too Hard Basket <span>· toohardbasket.org.au</span></a>
         <nav aria-label="Primary">
           {nav.map((n) => (
-            <a href={n.href} aria-current={here === n.href.replace(/\/$/, "") || (n.href === "/" && here === "/") ? "page" : undefined}>{n.label}</a>
+            <a href={n.href} data-register={n.register} aria-current={here === n.href.replace(/\/$/, "") || (n.href === "/" && here === "/") ? "page" : undefined}>{n.label}</a>
           ))}
         </nav>
       </div>
@@ -413,6 +460,21 @@ const SITE = "https://toohardbasket.org.au";
           <a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a>,
           and see the <a href="/corrections/">corrections log</a>.
         </p>
+        {edition && (
+          <p class="edition">
+            Edition {edition.number}, as at {formatDate(edition.date)}, responses checked to
+            {" "}{formatDate(edition.responses_checked_to)}.
+            {moved && (
+              <>
+                {" "}Since the edition of {formatDate(moved.since)}: {moved.senate.left} left the Senate
+                register and {moved.senate.joined} joined it; {moved.house.left} left the House register and
+                {" "}{moved.house.joined} joined it.
+              </>
+            )}
+            {" "}Every edition is kept unchanged at its own address — cite this one as
+            {" "}<a href={`/as-at/${edition.date}/`}>toohardbasket.org.au/as-at/{edition.date}/</a>.
+          </p>
+        )}
         <p>
           Data licensed CC BY 4.0 · code MIT ·{" "}
           <a href="https://github.com/toohardbasket-lab/toohardbasket">source and dataset on GitHub</a> ·

@@ -1,0 +1,98 @@
+---
+/**
+ * The strip: one square per government response in the classified corpus, in
+ * the order they were tabled. Form-letter closures in ink, everything else in
+ * the rule grey, and the one day on which the most closures were tabled in the
+ * site's blue so the eye finds it. It is the closure count drawn a document at
+ * a time — the same 623 and 260 as everywhere else — and it shows the one
+ * thing the yearly chart cannot: that the closures arrive in runs.
+ *
+ * Inline SVG with a viewBox, so it scales to the column; forty to a row. The
+ * figures are printed beside it because nothing may depend on reading colour.
+ */
+import { responseStrip, fmt, formatDate } from "../lib/data";
+
+const strip = responseStrip();
+const COLS = 40;
+const CELL = 10, GAP = 2.5, STEP = CELL + GAP;
+const rows = Math.ceil(strip.cells.length / COLS);
+const width = COLS * STEP - GAP;
+const height = rows * STEP - GAP;
+const busiest = strip.cells.findIndex((c) => c.kind === "busiest");
+const busiestRow = busiest >= 0 ? Math.floor(busiest / COLS) : -1;
+const busiestCol = busiest >= 0 ? busiest % COLS : 0;
+const y = (i: number) => Math.floor(i / COLS) * STEP;
+const x = (i: number) => (i % COLS) * STEP;
+const share = Math.round((strip.closures / strip.total) * 5);
+---
+
+<section class="wrap strip-section">
+  <div class="strip-grid">
+    <div>
+      <h2 id="strip-title">
+        {fmt(strip.total)} responses since {formatDate(strip.from).replace(/^\d+ /, "")}.
+        {" "}{fmt(strip.closures)} said the same sentence.
+      </h2>
+      <p class="note">
+        One square per government response to a committee report, in the order they were
+        tabled, {formatDate(strip.from)} to {formatDate(strip.to)}.
+      </p>
+      <svg
+        class="strip"
+        viewBox={`0 0 ${width} ${height}`}
+        role="img"
+        aria-labelledby="strip-title"
+        aria-describedby="strip-legend"
+      >
+        {strip.cells.map((c, i) => (
+          <rect x={x(i)} y={y(i)} width={CELL} height={CELL} class={c.kind}>
+            <title>{formatDate(c.tabled)}{c.kind === "other" ? "" : " — form-letter closure"}</title>
+          </rect>
+        ))}
+      </svg>
+      <p class="legend" id="strip-legend">
+        <span><i class="sw closure"></i>Closed with the form letter — {fmt(strip.closures)}</span>
+        <span><i class="sw busiest"></i>The {fmt(strip.busiestCount)} tabled on {formatDate(strip.busiestDay)}</span>
+        <span><i class="sw other"></i>Every other response — {fmt(strip.others)}</span>
+      </p>
+    </div>
+    <div class="measure">
+      <p>
+        “The Government notes this recommendation. However, given the passage of time since
+        this report was tabled, a substantive Government response is no longer appropriate.”
+        That sentence closes {share === 2 ? "two in five" : `${fmt(strip.closures)} of ${fmt(strip.total)}`} of
+        the responses tabled since {strip.from.slice(0, 4)}, and takes a position on nothing.
+      </p>
+      <p>
+        It arrives in clear-outs, not steadily. On {formatDate(strip.busiestDay)} the government
+        tabled {fmt(strip.busiestCount)} responses; every one of them was the sentence.
+        {" "}<a href="/senate/responses/">What those responses said →</a>
+        {" "}· <a href="/methods#closures">How this is classified</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .strip-section { margin-block: 2.5rem 2rem; padding-top: 2rem; border-top: 1px solid var(--rule); }
+  .strip-grid {
+    display: grid; gap: 2rem 3rem; align-items: start;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+  .strip-grid h2 { margin-bottom: 0.35rem; }
+  .strip-grid .note { font-size: 0.875rem; color: var(--ink-muted); margin-bottom: 1rem; }
+  .strip { display: block; width: 100%; max-width: 40rem; height: auto; }
+  .strip rect.closure { fill: var(--ink); }
+  .strip rect.busiest { fill: var(--series-1); }
+  .strip rect.other { fill: var(--rule); }
+  .legend {
+    display: flex; flex-wrap: wrap; gap: 0.4rem 1.4rem; margin: 0.9rem 0 0;
+    font-family: var(--sans); font-size: 0.8125rem; color: var(--ink-secondary);
+  }
+  .legend span { display: inline-flex; align-items: center; gap: 0.5rem; }
+  .sw { display: inline-block; width: 0.7rem; height: 0.7rem; }
+  .sw.closure { background: var(--ink); }
+  .sw.busiest { background: var(--series-1); }
+  .sw.other { background: var(--rule); }
+  .strip-grid .measure p { margin-bottom: 0.9rem; }
+</style>

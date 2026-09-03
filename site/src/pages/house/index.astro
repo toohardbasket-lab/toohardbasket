@@ -104,7 +104,7 @@ const byCommittee = [...rows.reduce((m, r) => {
 >
   <section class="wrap intro">
     <p class="eyebrow">
-      Register · {reg.claimant} · the Speaker’s schedule as at {formatDate(sched.asAt)}
+      <span class="reg-label" data-register="house">Register · {reg.claimant}</span> · the Speaker’s schedule as at {formatDate(sched.asAt)}
       {sched.responsesCheckedTo && <> · responses checked to {formatDate(sched.responsesCheckedTo)}</>}
     </p>
     <h1>The House register</h1>
@@ -115,7 +115,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       whatever that response says.
     </p>
 
-    <StatTiles stats={stats} note={statsNote} />
+    <StatTiles stats={stats} note={statsNote} register="house" />
   </section>
 
 
@@ -142,7 +142,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       not a characterisation of ours.
     </p>
     <RegisterControls target="house-register" noun="reports" />
-    <table class="register stacks" id="house-register">
+    <table class="register stacks" id="house-register" data-register="house">
       <thead>
         <tr>
           <th scope="col" class="num">Waiting</th>

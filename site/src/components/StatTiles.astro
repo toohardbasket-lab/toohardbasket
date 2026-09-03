@@ -26,11 +26,13 @@ interface Props {
   stats: Stat[];
   /** What a figure in the row is measured over, where that is not obvious. */
   note?: string;
+  /** The register these figures describe; its colour rules the top of the row. */
+  register?: "senate" | "house";
 }
-const { stats, note } = Astro.props;
+const { stats, note, register } = Astro.props;
 ---
 
-<dl class="stats" style={`--cols:${stats.length}`}>
+<dl class="stats" data-register={register} style={`--cols:${stats.length}`}>
   {stats.map((s) => (
     <div>
       <dt>{s.label}</dt>
@@ -55,6 +57,9 @@ const { stats, note } = Astro.props;
     background: var(--surface);
     border-block: 1px solid var(--rule);
   }
+  /* A register's own row of figures is ruled in that chamber's colour. */
+  .stats[data-register="senate"] { border-top: 3px solid var(--senate); }
+  .stats[data-register="house"] { border-top: 3px solid var(--house); }
   .stats > div {
     display: flex;
     flex-direction: column;

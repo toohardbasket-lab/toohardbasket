@@ -113,6 +113,12 @@ jobs:
       # that quietly stopped moving is the failure this project cannot afford.
       - name: Is the dataset fit to publish (gate)
         run: python check_publishable.py
+      # A dated record of what this build said, published at /as-at/<date>/ so
+      # a figure quoted from the site stays reachable at the page that showed
+      # it. Written after the gate, so only a publishable build becomes an
+      # edition, and the commit is tagged so the dataset behind it can be found.
+      - name: Record this edition
+        run: python snapshot_edition.py
       - name: Commit on green
         run: |
           git config user.name "thb-bot"
@@ -129,6 +135,11 @@ jobs:
             git pull --rebase origin main
             git push
           }
+          # The edition tag points at the commit that carries the edition file,
+          # so /as-at/<date>/ can link to the whole dataset behind it. Forced,
+          # because a second run on the same day replaces that day's edition.
+          git tag -f "edition-$(date -u +%F)"
+          git push -f origin "edition-$(date -u +%F)"
       - name: Open issue on failure
         if: failure()
         uses: actions/github-script@v7

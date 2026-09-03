@@ -1,0 +1,118 @@
+---
+/**
+ * /as-at/<date>/ — one edition, as it was published, and never changed.
+ *
+ * The current registers move every week. This page does not: it is what the
+ * site said on the date in its address, kept so that a figure quoted from the
+ * site — in a story, in an estimates hearing — can be cited to a page that will
+ * still show it. It is built from scraper/data/editions/<date>.json, which the
+ * weekly job writes after the publishability gate and never rewrites, and it
+ * names the tag in the repository that holds the whole dataset behind it.
+ */
+import Base from "../../layouts/Base.astro";
+import { editions, fmt, formatDate, formatDateShort, humanDuration } from "../../lib/data";
+
+export function getStaticPaths() {
+  return editions().map((e) => ({ params: { date: e.date }, props: { edition: e } }));
+}
+const { edition: e } = Astro.props;
+const all = editions();
+const latest = all.at(-1)!.date === e.date;
+const REPO = "https://github.com/toohardbasket-lab/toohardbasket";
+const registers = [
+  { slug: "senate", name: "Senate register", officer: "the President’s report", reg: e.senate },
+  { slug: "house", name: "House register", officer: "the Speaker’s schedule", reg: e.house },
+];
+---
+
+<Base
+  title={`As at ${formatDate(e.date)}`}
+  description={`What the Too Hard Basket's registers said on ${formatDate(e.date)}: ${e.senate.outstanding} Senate and ${e.house.outstanding} House committee reports awaiting a government response. This page does not change.`}
+>
+  <section class="wrap intro">
+    <p class="eyebrow">
+      Edition {e.number} · as at {formatDate(e.date)} · responses checked to {formatDate(e.responses_checked_to)}
+    </p>
+    <h1>As at {formatDate(e.date)}</h1>
+    <p class="lede measure">
+      What this site said on {formatDate(e.date)}. This page does not change: the
+      {" "}<a href="/senate/">current registers</a> move every week, and this one is kept so a figure
+      quoted from it stays where it was quoted from. Cite it as
+      {" "}<code>toohardbasket.org.au/as-at/{e.date}/</code>.
+      {!latest && <> A <a href={`/as-at/${all.at(-1)!.date}/`}>later edition</a> has since been published.</>}
+    </p>
+    <dl class="figures">
+      <div data-register="senate"><dt>Senate register</dt><dd class="num">{fmt(e.senate.outstanding)}</dd><dd class="sub">{fmt(e.senate.overdue)} past the deadline · {fmt(e.senate.being_considered)} “being considered”</dd></div>
+      <div data-register="house"><dt>House register</dt><dd class="num">{fmt(e.house.outstanding)}</dd><dd class="sub">{fmt(e.house.overdue)} past the deadline</dd></div>
+      <div><dt>Responses read since {formatDate(e.corpus.read_from).replace(/^\d+ /, "")}</dt><dd class="num">{fmt(e.corpus.documents_read)}</dd><dd class="sub">{fmt(e.corpus.form_letter_closures)} closed with the form letter</dd></div>
+      <div><dt>Recommendations indexed</dt><dd class="num">{fmt(e.recommendations.rows)}</dd><dd class="sub">{fmt(e.recommendations.awaiting_a_response)} awaiting a response</dd></div>
+    </dl>
+    <p class="note measure">
+      The two register counts are never added: joint committee reports are listed by both
+      presiding officers. The dataset behind this edition is tagged
+      {" "}<a href={`${REPO}/tree/${e.dataset_tag}/scraper/data`}><code>{e.dataset_tag}</code></a> in the
+      repository, where every row can be traced to the document it came from.
+    </p>
+  </section>
+
+  {registers.map(({ slug, name, officer, reg }) => (
+    <section class="wrap">
+      <h2 id={slug}>
+        <span class="reg-dot" data-register={slug} aria-hidden="true"></span>{name} · {fmt(reg.outstanding)} awaiting a response
+      </h2>
+      <p class="note measure">
+        From {officer} as at {formatDate(reg.schedule_as_at)}, which listed {fmt(reg.outstanding_at_schedule)} as
+        waiting; {fmt(reg.answered_since_schedule)} answered since had been taken off. Longest wait
+        {" "}{fmt(reg.longest_days)} days ({humanDuration(reg.longest_days)}).
+      </p>
+      <table class="register stacks" data-register={slug}>
+        <thead>
+          <tr>
+            <th scope="col" class="num">Waiting</th>
+            <th scope="col">Report</th>
+            <th scope="col">Committee</th>
+            <th scope="col" class="num">Tabled</th>
+            <th scope="col">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          {reg.rows.map((r) => (
+            <tr>
+              <td class="num nowrap c-wait">{fmt(r.days)} days</td>
+              <td class="c-title">{r.url ? <a href={r.url} rel="external">{r.title}</a> : r.title}</td>
+              <td class="cmte c-meta">{r.committee}</td>
+              <td class="num nowrap c-meta" data-label="Tabled">{formatDateShort(r.tabled)}</td>
+              <td class="src c-meta" data-label="Status">{r.status}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  ))}
+
+  <section class="wrap">
+    <p class="note measure">
+      <a href="/as-at/">All editions →</a>
+    </p>
+  </section>
+</Base>
+
+<style>
+  .intro .lede code { font-family: var(--sans); font-size: 0.9em; }
+  .figures {
+    display: grid; gap: 1px; margin: 1.5rem 0 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    background: var(--rule); border-block: 1px solid var(--rule);
+  }
+  .figures > div { background: var(--surface); padding: 0.9rem 1rem 1rem; border-top: 3px solid var(--rule); }
+  .figures > div[data-register="senate"] { border-top-color: var(--senate); }
+  .figures > div[data-register="house"] { border-top-color: var(--house); }
+  .figures dt { font-family: var(--sans); font-size: 0.6875rem; letter-spacing: 0.09em; text-transform: uppercase; color: var(--ink-muted); }
+  .figures dd { margin: 0; }
+  .figures dd.num { font-family: var(--sans); font-size: 2rem; font-weight: 600; line-height: 1.1; margin-top: 0.3rem; font-variant-numeric: tabular-nums; }
+  .figures dd.sub { font-family: var(--sans); font-size: 0.8125rem; color: var(--ink-secondary); margin-top: 0.2rem; }
+  .note { font-size: 0.875rem; color: var(--ink-muted); }
+  h2 { margin-top: 2rem; }
+  .cmte { color: var(--ink-secondary); font-size: 0.8125rem; }
+  .nowrap { white-space: nowrap; }
+</style>

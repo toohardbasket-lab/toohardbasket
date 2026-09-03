@@ -417,6 +417,113 @@ export function responsesByYear(): ResponseYear[] {
   });
 }
 
+/**
+ * One entry per response document in the classified corpus, in tabling order,
+ * for the strip on the home page. The busiest day — the date on which the most
+ * form-letter closures were tabled — is marked so the strip can point at it.
+ * Nothing is counted here that the closure figures do not already count; the
+ * strip is those figures drawn one document at a time.
+ */
+export interface StripCell {
+  tabled: string;
+  kind: "closure" | "busiest" | "other";
+}
+export function responseStrip(): {
+  cells: StripCell[];
+  total: number;
+  closures: number;
+  others: number;
+  busiestDay: string;
+  busiestCount: number;
+  from: string;
+  to: string;
+} {
+  const excluded = new Set(read("scope_exclusions.csv").map((r) => r.id));
+  const docs = read("response_documents.csv")
+    .filter((r) => !excluded.has(r.id))
+    .map((r) => ({
+      id: Number(r.id),
+      tabled: (r.tabled_senate || r.tabled_house || "").slice(0, 10),
+      closure: r.classification === "proforma_closure",
+    }))
+    .filter((r) => r.tabled)
+    .sort((a, b) => a.tabled.localeCompare(b.tabled) || a.id - b.id);
+
+  const perDay = new Map<string, number>();
+  for (const d of docs) if (d.closure) perDay.set(d.tabled, (perDay.get(d.tabled) ?? 0) + 1);
+  const [busiestDay, busiestCount] = [...perDay.entries()].sort((a, b) => b[1] - a[1])[0] ?? ["", 0];
+
+  const cells: StripCell[] = docs.map((d) => ({
+    tabled: d.tabled,
+    kind: !d.closure ? "other" : d.tabled === busiestDay ? "busiest" : "closure",
+  }));
+  const closures = docs.filter((d) => d.closure).length;
+  return {
+    cells, total: docs.length, closures, others: docs.length - closures,
+    busiestDay, busiestCount, from: docs[0]?.tabled ?? "", to: docs.at(-1)?.tabled ?? "",
+  };
+}
+
+// ------------------------------------------------------------------ editions
+
+/**
+ * One file per weekly build, written by scraper/snapshot_edition.py after the
+ * publishability gate: what both registers and the closure figures said on
+ * that date. Published unchanged at /as-at/<date>/, so a figure quoted from
+ * this site stays reachable at the page that showed it. Editions are numbered
+ * in date order, from the first one kept.
+ */
+export interface EditionRow {
+  title: string; committee: string; tabled: string; days: number; status: string;
+  url: string; both: boolean;
+}
+export interface EditionRegister {
+  schedule_as_at: string; schedule_tabled: string; schedule_url: string;
+  outstanding_at_schedule: number; answered_since_schedule: number;
+  outstanding: number; overdue: number; being_considered: number; longest_days: number;
+  rows: EditionRow[];
+}
+export interface Edition {
+  number: number;
+  date: string;
+  responses_checked_to: string;
+  dataset_tag: string;
+  senate: EditionRegister;
+  house: EditionRegister;
+  corpus: { documents_read: number; form_letter_closures: number; read_from: string; read_to: string };
+  recommendations: { rows: number; awaiting_a_response: number };
+}
+
+export function editions(): Edition[] {
+  const dir = path.join(DATA_DIR, "editions");
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir)
+    .filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
+    .sort()
+    .map((f, i) => ({ number: i + 1, ...(JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")) as Omit<Edition, "number">) }));
+}
+
+/** The edition this build is publishing — the latest kept. */
+export function currentEdition(): Edition | null {
+  return editions().at(-1) ?? null;
+}
+
+/**
+ * What moved between the two latest editions, by report title: how many left
+ * each register (answered, or otherwise taken off) and how many joined it.
+ */
+export function editionDiff(): { since: string; senate: { left: number; joined: number }; house: { left: number; joined: number } } | null {
+  const all = editions();
+  if (all.length < 2) return null;
+  const [prev, cur] = all.slice(-2);
+  const diff = (a: EditionRow[], b: EditionRow[]) => {
+    const key = (r: EditionRow) => `${r.tabled}|${r.title}`;
+    const was = new Set(a.map(key)), is = new Set(b.map(key));
+    return { left: [...was].filter((k) => !is.has(k)).length, joined: [...is].filter((k) => !was.has(k)).length };
+  };
+  return { since: prev.date, senate: diff(prev.senate.rows, cur.senate.rows), house: diff(prev.house.rows, cur.house.rows) };
+}
+
 /** The long-run rate, for the reference line: the years before the clear-out. */
 export function typicalYear(rows: ResponseYear[], upTo = "2023") {
   const years = rows.filter((r) => r.year <= upTo);
