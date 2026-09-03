@@ -744,6 +744,22 @@ export interface AnsweredSince {
   url: string;
 }
 
+/**
+ * Where a removal's evidence can be read. A response the Senate's own register
+ * accounts for carries the scraper's key for the page it was read from —
+ * "statsnet/2026" — which was being printed into the link as it stood, and so
+ * pointed at /senate/statsnet/2026 on this site, which does not exist. The
+ * key names the year of the register; the Parliament's page takes the year as
+ * a date range and opens on the government-responses tab.
+ */
+function sourceUrl(source: string): string {
+  const m = /^(?:fixtures\/)?statsnet\/(\d{4})$/.exec(source);
+  if (m) {
+    return `https://www.aph.gov.au/Parliamentary_Business/Statistics/Senate_StatsNet?from=${m[1]}-01-01&to=${m[1]}-12-31#/government-responses`;
+  }
+  return /^https?:\/\//.test(source) ? source : "";
+}
+
 export function answeredSince(register: RegisterSlug): AnsweredSince[] {
   const file = `answered_since_${register}.csv`;
   if (!fs.existsSync(path.join(DATA_DIR, file))) return [];
@@ -763,7 +779,7 @@ export function answeredSince(register: RegisterSlug): AnsweredSince[] {
       basis: r.removal_basis,
       url: r.response_id
         ? `https://www.aph.gov.au/Parliamentary_Business/Tabled_Documents/${r.response_id}`
-        : (r.response_source ?? ""),
+        : sourceUrl(r.response_source ?? ""),
     }))
     .sort((a, b) => a.responseTabled.localeCompare(b.responseTabled));
 }
