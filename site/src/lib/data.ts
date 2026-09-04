@@ -1105,6 +1105,53 @@ export function recommendationsDropped(): number {
   return fs.existsSync(f) ? read("recommendations_dropped.csv").length : 0;
 }
 
+/**
+ * The responses the search cannot show a single recommendation from.
+ *
+ * A search for "gambling" found nothing about the House's online-gambling
+ * inquiry, because the government's response of May 2026 notes the
+ * committee's 31 recommendations as a group and describes a package of
+ * reforms, and never sets one recommendation out. The index is built from
+ * responses that quote recommendations one by one, so that document, and the
+ * fifty-odd like it, were invisible to the page whose purpose is to show
+ * what happened to what committees asked for. They are listed here so the
+ * search can name them — with the fact that they quote nothing, which is the
+ * point — and link to them.
+ */
+export interface QuietResponse {
+  id: string;
+  title: string;
+  committee: string;
+  department: string;
+  tabled: string;
+  chamber: "senate" | "house";
+  classification: string;
+  url: string;
+}
+
+export function responsesQuotingNothing(): QuietResponse[] {
+  const excluded = new Set(read("scope_exclusions.csv").map((r) => r.id));
+  const quoted = new Set(read("recommendations.csv").filter((r) => r.source === "response").map((r) => r.source_id));
+  const committeeOf = (title: string) => {
+    const m = /response(?:s)?\s+to\s+(?:the\s+)?(.*?)\s*(?:\breport\b|\binquiry\b|:|$)/i.exec(title || "");
+    const name = m ? m[1].replace(/\s+/g, " ").replace(/^[\s,:–—-]+|[\s,:–—-]+$/g, "") : "";
+    return /committee|commission/i.test(name) && name.length <= 120 ? name : "";
+  };
+  return read("response_documents.csv")
+    .filter((r) => !excluded.has(r.id) && !quoted.has(r.id))
+    .map((r) => ({
+      id: r.id,
+      title: r.title,
+      committee: committeeOf(r.title),
+      department: r.department || r.author || "",
+      tabled: r.tabled_senate || r.tabled_house || "",
+      chamber: (r.tabled_senate ? "senate" : "house") as "senate" | "house",
+      classification: r.classification,
+      url: r.url,
+    }))
+    .sort((a, b) => b.tabled.localeCompare(a.tabled));
+}
+
 export interface ClosureDetail extends ClosureFigures {
   byYear: { year: string; closures: number; responses: number; share: number }[];
   slowest: { days: number; reportTabled: string; responseTabled: string; inquiry: string } | null;

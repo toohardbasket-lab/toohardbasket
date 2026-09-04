@@ -94,6 +94,16 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     </noscript>
     <ol class="results" data-results></ol>
     <p class="more measure" data-more hidden></p>
+    <div class="quiet" data-quiet hidden>
+      <h2 class="quiet-head" data-quiet-head></h2>
+      <p class="note measure">
+        The government's response to each of these is in the corpus, but it does not set the
+        committee's recommendations out one by one — it notes them as a group, or answers
+        the report in prose — so there is no recommendation this page can show from it. The
+        document itself is a click away.
+      </p>
+      <ol class="results" data-quiet-list></ol>
+    </div>
   </section>
 
 
@@ -294,6 +304,8 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
   .more { font-size: 0.875rem; color: var(--ink-muted); margin-top: 1.5rem; }
   h2 { margin-top: 2.75rem; }
   .note { font-size: 0.875rem; color: var(--ink-secondary); }
+  .quiet { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
+  .quiet-head { font-size: 1.0625rem; margin-bottom: 0.4rem; }
 </style>
 
 <script is:inline>
@@ -304,15 +316,28 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     const more = document.querySelector("[data-more]");
     const filters = document.querySelector("[data-filters]");
     const LIMIT = 60;
-    let rows = null, loading = null, lastQuery = "";
+    const quiet = document.querySelector("[data-quiet]");
+    const quietHead = document.querySelector("[data-quiet-head]");
+    const quietList = document.querySelector("[data-quiet-list]");
+    let rows = null, docs = [], loading = null, lastQuery = "";
 
     const load = () => {
       if (loading) return loading;
+      // The responses that quote no recommendation travel in a second, small
+      // file. A search for "gambling" found nothing about the House's
+      // online-gambling inquiry because the government's response never set
+      // out one of the committee's 31 recommendations; the page could not
+      // even name the document. Now it can.
+      const quietDocs = fetch("/documents.json")
+        .then((r) => (r.ok ? r.json() : []))
+        .catch(() => []);
       loading = fetch("/recommendations.json")
         .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-        .then((data) => {
+        .then(async (data) => {
           rows = data;
           for (const r of rows) r._ = (r.t + " " + r.c + " " + r.d).toLowerCase();
+          docs = await quietDocs;
+          for (const d of docs) d._ = (d.d + " " + d.c + " " + d.p).toLowerCase();
           status.textContent = `${rows.length.toLocaleString("en-AU")} recommendations ready to search.`;
           filters.removeAttribute("hidden");
           if (lastQuery) run();
@@ -385,7 +410,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       lastQuery = q;
       if (!rows) { load(); return; }
       if (!q) {
-        list.innerHTML = ""; more.setAttribute("hidden", "");
+        list.innerHTML = ""; more.setAttribute("hidden", ""); quiet.setAttribute("hidden", "");
         status.textContent = `${rows.length.toLocaleString("en-AU")} recommendations ready to search.`;
         return;
       }
@@ -437,12 +462,39 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       // report about family violence does make its recommendations relevant to
       // that search — but that is not the same claim as "150 recommendations
       // mention domestic violence", and the page should not let anyone make it.
+      // The documents that quote nothing, on the same terms. They are
+      // responses, so the "no government response" filter excludes them; the
+      // form-letter filter keeps the closures among them; a dissent filter
+      // has nothing to say about a document, so it hides them.
+      const quietHits = (onlyUnanswered || whose === "dissent") ? [] : docs.filter((d) =>
+        (!onlyClosed || d.k === "proforma_closure") && res.every((re) => re.test(d._)));
+      if (quietHits.length) {
+        const m = quietHits.length;
+        quietHead.textContent = `${m.toLocaleString("en-AU")} response${m === 1 ? "" : "s"} on “${q}” that ${m === 1 ? "sets" : "set"} out no recommendation`;
+        quietList.innerHTML = quietHits.slice(0, 20).map((d) => {
+          const kind = d.k === "proforma_closure"
+            ? "closed the report with the form letter"
+            : "answered the report in prose, without taking the recommendations one by one";
+          return `<li>
+            <p class="rec">${mark(d.d, terms)}</p>
+            <p class="gov none">The government ${kind}.</p>
+            <p class="meta">${d.p ? esc(d.p) + " · " : ""}${esc(when(d.w))} · ${d.h === "house" ? "House" : "Senate"} ·
+              <a href="${esc(d.u)}">the response</a></p>
+          </li>`;
+        }).join("");
+        quiet.removeAttribute("hidden");
+      } else {
+        quiet.setAttribute("hidden", "");
+      }
+
       const n = hits.length;
       if (!n) {
-        status.textContent =
-          `Nothing found for “${q}”. This index covers responses tabled since mid-2022 and ` +
-          `the reports still on the registers. Responses that set out their answers in a ` +
-          `table rather than under numbered headings are not indexed yet.`;
+        status.textContent = quietHits.length
+          ? `No recommendation matches “${q}”, but ${quietHits.length === 1 ? "one response does" : quietHits.length + " responses do"} — see below. ` +
+            `This index covers responses tabled since mid-2022 and the reports still on the registers.`
+          : `Nothing found for “${q}”. This index covers responses tabled since mid-2022 and ` +
+            `the reports still on the registers. Responses that set out their answers in a ` +
+            `table rather than under numbered headings are not indexed yet.`;
       } else {
         const own = hits.filter((r) => r.__r === 0).length;
         const wait = hits.filter((r) => r.__s === 0).length;
