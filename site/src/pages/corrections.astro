@@ -38,8 +38,7 @@ const REPO = "https://github.com/toohardbasket-lab/toohardbasket";
       Write to{" "}
       <a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a>{" "}
       with the row or figure you think is wrong and, if you have it, the source that shows
-      it. You do not need to be certain — a question is enough, and we would rather check
-      ten things that turn out to be right than publish one that is wrong.
+      it. You do not need to be certain; a question is enough.
     </p>
 
     <h2>What happens then</h2>
@@ -53,11 +52,10 @@ const REPO = "https://github.com/toohardbasket-lab/toohardbasket";
       Underneath the list there is a second record: every change to the data and to these
       pages is a commit in the {" "}<a href={REPO}>public repository</a>, with a timestamp
       and an explanation. The list below is a plain-English index of the corrections in that
-      history — not a substitute for it.
+      history, not a substitute for it.
     </p>
     <p>
-      That history is inspectable, not immutable, and this site should not pretend
-      otherwise. It has been rewritten twice: on 28 August 2026, when the repository was
+      That history has been rewritten twice: on 28 August 2026, when the repository was
       recreated, and on 1 September 2026, to remove internal planning notes that should
       never have been committed to a public repository. No data and no page content was
       changed on either occasion, and it has not been rewritten since.
@@ -65,8 +63,8 @@ const REPO = "https://github.com/toohardbasket-lab/toohardbasket";
     <p>
       A figure moving is not the same as a correction. Both registers rebuild from their
       source documents, and the count changes when a government response is tabled or a
-      presiding officer publishes a new schedule. Those movements are the register working,
-      and they are not listed here. What is listed here is us having been wrong.
+      presiding officer publishes a new schedule. Those movements are not listed here; only
+      errors are.
     </p>
 
     <h2 id="log">The log</h2>
@@ -74,8 +72,7 @@ const REPO = "https://github.com/toohardbasket-lab/toohardbasket";
       <p class="empty">
         <strong>No corrections have been made since this site was published on
         {" "}{formatDate(FIRST_PUBLISHED)}.</strong>{" "}
-        That is a claim, not a boast, and it is checkable: the repository history shows
-        every change made since then and why.
+        The repository history shows every change made since then and why.
       </p>
     ) : (
       <ol class="log">
@@ -97,11 +94,10 @@ const REPO = "https://github.com/toohardbasket-lab/toohardbasket";
 
     <h2>Errors found before publication</h2>
     <p>
-      Several were, and they are in the repository history rather than in the list above,
-      because nothing published to this site carried them. The largest is worth naming
-      anyway, because it shows what this log is for: the Senate register was originally
-      built by treating every report on the President's schedule as though it were still
-      awaiting a response. His schedule is not a list of outstanding responses — it is a
+      Several were. They are in the repository history, not in the list above, because
+      nothing published to this site carried them. The largest: the Senate register was
+      originally built by treating every report on the President's report as though it were
+      still awaiting a response. Her report is not a list of outstanding responses; it is a
       status list, with a column recording which reports have been answered. Reading that
       column properly removed about 150 reports that had in fact been answered. The error
       was found and fixed before the register was published.

@@ -27,9 +27,7 @@ export const ABOUT = {
    * soloOperated records the reality Alan confirmed on 29 Aug 2026: the work is
    * one person's, and the other two committee members provide the governance an
    * incorporated association requires without directing the project. The About
-   * page says so, because "a committee of three" implies more institutional
-   * weight than exists, and a reader who discovered that later would be right to
-   * wonder what else was oversold.
+   * page says so.
    *
    * If names are added here once members consent, the page uses them.
    */

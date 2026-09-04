@@ -49,17 +49,16 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
       A report leaves the register when a response is tabled. It does not follow that the
       report was answered. Of the {fmt(c.corpus)} government responses tabled since mid-2022,
       {" "}<strong>{fmt(c.proforma)}</strong> disposed of the committee’s recommendations with a
-      repeated template sentence — that given the passage of time a substantive response is no
-      longer appropriate — and took a position on none of them. Nothing accepted, nothing
+      repeated template sentence, that given the passage of time a substantive response is no
+      longer appropriate, and took a position on none of them. Nothing accepted, nothing
       rejected, nothing qualified.
     </p>
     <p class="lede measure">
       That sentence is used <strong>{fmt(floor.templateUses)}</strong> times across those
-      {" "}{fmt(floor.closures)} documents — counting every form of it. A stricter count, of
+      {" "}{fmt(floor.closures)} documents, counting every form of it. A stricter count, of
       the “notes this recommendation” form alone, gives {fmt(floor.sentences)}, and that is
       the one the floor below is built from. How many individual recommendations the sentence
-      disposed of is a harder question, and the answer below is deliberately a floor rather
-      than a guess.
+      disposed of is a harder question, and the answer below is a floor, not an estimate.
     </p>
   </section>
 
@@ -68,7 +67,7 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
     <p>
       The Senate select committee’s report <em>{slowest.inquiry}</em> was tabled on
       {" "}{formatDate(slowest.reportTabled)}. The government responded on
-      {" "}{formatDate(slowest.responseTabled)} — {fmt(slowest.days)} days later, or
+      {" "}{formatDate(slowest.responseTabled)}, {fmt(slowest.days)} days later, or
       {" "}{humanDuration(slowest.days)}. It is the longest gap between a report and a
       response anywhere in the Senate’s register.
     </p>
@@ -77,7 +76,7 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
       {" "}for the committee’s own recommendations and one under the document’s own final
       heading, “Minority/dissenting recommendations”. Against every one of them it
       records that the government notes the recommendation and that, given the passage of
-      time, a substantive response is no longer appropriate — the same sentence,
+      time, a substantive response is no longer appropriate: the same sentence,
       {" "}{anchor.templateHits} times.
       {" "}{anchor.acceptances === 0 ? "Nothing is accepted, rejected or qualified." : ""}
       {" "}<a href={anchor.url}>Read it</a>.
@@ -104,7 +103,7 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
     <p>
       So: <strong>at least {fmt(floor.recommendations)} recommendations</strong> were disposed
       of by a sentence that took a position on none of them. At least, because the other{" "}
-      {fmt(floor.closures - floor.counted)} closures are excluded rather than estimated:
+      {fmt(floor.closures - floor.counted)} closures are excluded, not estimated:
     </p>
     <table class="register narrow">
       <thead>
@@ -183,12 +182,12 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
             <span class={f.detected ? "tag on" : "tag"}>{f.detected ? "counted above" : "not counted"}</span>
           </p>
           <p class="form-what">{f.what}</p>
-          <p class="note"><a href={formHref(f)}>{f.example}</a> — {f.exampleNote}</p>
+          <p class="note"><a href={formHref(f)}>{f.example}</a>. {f.exampleNote}</p>
         </li>
       ))}
     </ol>
     <p>
-      So {fmt(c.proforma)} is a floor. The honest figure for “answered nothing” is higher, and
+      So {fmt(c.proforma)} is a floor. The true figure for “answered nothing” is higher, and
       reaching it means asking, for every recommendation a committee made, whether the response
       stated a position on it. The first part of that work is published: wherever a response
       quotes nothing from the report it answers, the {" "}<a href="/recommendations/">search

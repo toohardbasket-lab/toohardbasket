@@ -33,13 +33,12 @@ const cap = (w: string) => w.charAt(0).toUpperCase() + w.slice(1);
 >
   <section class="wrap intro">
     <p class="eyebrow">About</p>
-    <h1>Who publishes this, and why you can check</h1>
+    <h1>Who publishes this</h1>
     <p class="lede measure">
-      This site keeps a record of obligations governments owe to parliaments: reports
-      answered, reports not answered, and how long it took. A record like that is only
-      worth as much as the confidence you can place in whoever keeps it. So this page sets
-      out who that is, how it is paid for, and every connection that could reasonably bear
-      on it — including the one that gave the project its name.
+      This site keeps a record of what governments owe parliaments: which committee
+      reports have been answered, which have not, and how long each has taken. This page
+      says who keeps that record, how it is paid for, and every connection that could bear
+      on it, including the one that gave the project its name.
     </p>
   </section>
 
@@ -66,11 +65,9 @@ const cap = (w: string) => w.charAt(0).toUpperCase() + w.slice(1);
     </p>
     <p>
       APIA exists to publish and maintain independent datasets about Australian government
-      performance. The emphasis is on <em>maintain</em>. Public-interest projects often begin
-      with strong intent and then stop being updated, and a register that goes stale is worse
-      than no register, because people go on citing it. Putting the dataset under an
-      incorporated body rather than a personal account is an attempt to make it outlive the
-      enthusiasm of the person who started it.
+      performance. A register that stops being updated is worse than none, because people
+      go on citing it, so the dataset sits under an incorporated body rather than a personal
+      account.
     </p>
     <p>
       APIA is governed by a committee of {inWords(ABOUT.committeeSize)}, of which
@@ -80,28 +77,17 @@ const cap = (w: string) => w.charAt(0).toUpperCase() + w.slice(1);
         : " The membership is on the public register maintained by Consumer Protection (WA)."}
       {" "}{ABOUT.fundingStatement} If that changes, this page will say so and name the source.
       {" "}<a href={ABOUT.governancePage}>APIA's governance page</a> carries its legal status,
-      the rules it operates under and the same funding statement, and APIA's About page carries
-      the first half of the disclosure below.
+      the rules it operates under and the same funding statement.
     </p>
     {ABOUT.soloOperated && (
-      <>
-        <p>
-          <strong>In practice this is one person's work.</strong> The other two committee
-          members provide the governance an incorporated association requires; they do not
-          direct the project or review it day to day. That is worth saying plainly, because
-          “a committee of {inWords(ABOUT.committeeSize)}” implies more institutional weight
-          than exists, and a reader who worked it out later would be entitled to wonder what
-          else had been oversold.
-        </p>
-        <p>
-          It also matters less than it might. Nothing here asks you to trust the organisation.
-          Every figure is computed by published code from published data, every row names and
-          links the official document it came from, and the {" "}<a href="/methods/">methods page</a>{" "}
-          sets out what the method cannot see as well as what it can. If something on this
-          site is wrong, it is wrong in a way you can demonstrate — which is a better
-          guarantee than a larger committee would be.
-        </p>
-      </>
+      <p>
+        <strong>In practice this is one person's work.</strong> The other two committee
+        members provide the governance an incorporated association requires; they do not
+        direct the project or review it day to day. Nothing on this site depends on trusting
+        the organisation: every figure is computed by published code from published data,
+        every row links to the official document it came from, and the
+        {" "}<a href="/methods/">methods page</a> sets out what the method cannot see.
+      </p>
     )}
   </section>
 
@@ -115,43 +101,38 @@ const cap = (w: string) => w.charAt(0).toUpperCase() + w.slice(1);
       or candidate, and this site was not requested by any of them.
     </p>
     <p>
-      There is a second half to that disclosure, and it is the more important one, because it
-      concerns where the project came from. The idea for this register — and the phrase
-      “too hard basket” — came from work done in that office in March 2026, when{" "}
-      {ABOUT.founderName.split(" ")[0]} compiled a list of House committee reports the
-      government had not answered, for a campaign page under that name. That page is no
-      longer published, and nothing from it is used here: this site was rebuilt from the
-      presiding officers’ own records, covers both chambers, names no member and has no
-      per-member columns. <strong>No one in her office has seen this site or been told of it
-      before publication</strong>, and she has been given nothing that other members of the
-      relevant committees were not. Several of the reports on that list were answered
-      afterwards. The
-      observation that followed was not about her: it was that a list of unanswered reports
-      only existed because one member happened to compile it, that it covered one chamber,
-      and that it stopped being maintained when the political moment passed. This site is an
-      attempt to keep that list permanently, for every chamber, so that making it does not
-      depend on anyone's attention.
+      The idea for this register, and the phrase “too hard basket”, came from work done in
+      that office in March 2026, when {ABOUT.founderName.split(" ")[0]} compiled a list of
+      House committee reports the government had not answered, for a campaign page under
+      that name. That page is no longer published and nothing from it is used here: this
+      site was rebuilt from the presiding officers’ own records, covers both chambers, names
+      no member and has no per-member columns. <strong>No one in her office saw this site or
+      was told of it before publication</strong>, and she has been given nothing that other
+      members of the relevant committees were not.
     </p>
-    <p class="note">
-      A disclosure volunteered reads as integrity. The identical fact discovered later reads
-      as concealment. That is the whole reason this section is near the top of the page rather
-      than in a footnote.
+    <p>
+      Several of the reports on that March list were answered afterwards. The list existed
+      only because one member compiled it, it covered one chamber, and it stopped being
+      maintained once the moment passed. This site keeps that list permanently, for every
+      chamber.
     </p>
+    {/*
+      Alan: your own words go here, in the first person — why you built this
+      and what you want it to do. A paragraph or two is enough. Leave this
+      comment in place until they are written; it renders nothing.
+    */}
   </section>
 
   <section class="wrap measure">
-    <h2>Independence, as commitments rather than adjectives</h2>
+    <h2>Independence</h2>
     <p>
-      “Independent” is a word anyone can print. These are the specific things it means here,
-      and each of them is checkable or falsifiable:
+      These are the specific commitments, each of which can be checked:
     </p>
     <ul>
       {commitments.map((c) => <li>{c}</li>)}
     </ul>
     <p>
-      It costs very little to run — a domain, a mailbox and a static host — and that is
-      deliberate: a register that needs money to survive eventually needs someone who has
-      money to like it.
+      The site costs very little to run: a domain, a mailbox and a static host.
     </p>
   </section>
 
@@ -159,29 +140,25 @@ const cap = (w: string) => w.charAt(0).toUpperCase() + w.slice(1);
     <h2>What this site does not do</h2>
     <p>
       It does not say whether a committee's recommendation was a good one, or whether the
-      government was right to accept or reject it. Those are arguments, and there are plenty
-      of people having them. This site records only what the official record shows: that a
-      report was tabled, that a response was or was not tabled, and when.
+      government was right to accept or reject it. It records only what the official record
+      shows: that a report was tabled, that a response was or was not tabled, and when.
     </p>
     <p>
       It does not attribute motive. Where a response is absent, this site says no response is
-      recorded — not that one was refused, suppressed or avoided. Where a judgment is finely
-      balanced, it is resolved in the government's favour, so that every figure here is a floor
-      rather than a ceiling.
+      recorded, not that one was refused, suppressed or avoided. Where a judgment is finely
+      balanced, it is resolved in the government's favour, so that every figure here is a floor.
     </p>
     <p>
-      And it is not partisan, which is easier to demonstrate than to assert: the
-      {" "}<a href="/senate/#by-government">record by government</a> shows four governments of
-      both persuasions inside the same narrow band, published under both of the two defensible
-      ways of attributing a late response, so that neither can be quoted alone.
+      It is not partisan. The {" "}<a href="/senate/#by-government">record by government</a>
+      {" "}shows four governments of both persuasions inside the same narrow band, under both
+      of the two defensible ways of attributing a late response.
     </p>
   </section>
 
   <section class="wrap measure">
     <h2>Corrections</h2>
     <p>
-      If something here is wrong, it should be fixed, and the fastest way to make that happen
-      is to say so. Write to
+      If something here is wrong, write to
       {" "}<a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a>{" "}
       with the row and the source. Corrections are made within 24 hours of being confirmed and
       listed in the {" "}<a href="/corrections/">corrections log</a>, so the record of what
@@ -190,7 +167,7 @@ const cap = (w: string) => w.charAt(0).toUpperCase() + w.slice(1);
     <p>
       Anything else: <a href="mailto:contact@toohardbasket.org.au">contact@toohardbasket.org.au</a>.
       The dataset and the code that produces every figure are in the
-      {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket">public repository</a> —
+      {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket">public repository</a>:
       data under CC BY 4.0, code under the MIT licence.
       {" "}<a href="/methods/">How the register is built</a>.
     </p>
@@ -199,12 +176,11 @@ const cap = (w: string) => w.charAt(0).toUpperCase() + w.slice(1);
   <section class="wrap measure">
     <h2>What comes next</h2>
     <p>
-      The Senate was the first register and the House of Representatives is the second.
-      {" "}{cap(words(plannedRegisters().length))} more {plannedRegisters().length === 1 ? "is" : "are"} planned —
-      {" "}{plannedRegisters().map((r) => r.name).join("; ")} —
-      and each is published as its own register with its own rule rather than merged into
-      the others, because the obligation is different in each case and averaging them would
-      hide that. The Senate asks for three months and the House for six; a single combined
+      The Senate register came first and the House of Representatives register second.
+      {" "}{cap(words(plannedRegisters().length))} more {plannedRegisters().length === 1 ? "is" : "are"} planned:
+      {" "}{plannedRegisters().map((r) => r.name).join("; ")}.
+      Each is published as its own register with its own rule, because the obligation
+      differs: the Senate asks for three months and the House for six, and a single combined
       number would mean nothing.
     </p>
     <p class="note">

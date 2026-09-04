@@ -153,10 +153,9 @@ const hoverData = bars.map((b) => ({
     </p>
     {bestYearYet && (
       <p class="chart-note">
-        The part year cuts the other way too, and it should be said here rather than left
-        for someone to say back to us. Of the {fmt(last.documents ?? 0)} documents read from
-        {" "}{last.year}, {fmt(lastSubstantive ?? 0)} do address the recommendations — more
-        than in any full year the Tabled Documents record covers, which begins in mid-2022.
+        The part year cuts the other way too. Of the {fmt(last.documents ?? 0)} documents
+        read from {last.year}, {fmt(lastSubstantive ?? 0)} do address the recommendations,
+        more than in any full year the Tabled Documents record covers, which begins in mid-2022.
         The form letter has not been retired alongside them: {fmt(last.closures ?? 0)} of
         this year’s responses used it
         {prevYear && <>, against {fmt(prevYear.closures ?? 0)} in the whole of {prevYear.year}</>}.
@@ -260,8 +259,8 @@ const hoverData = bars.map((b) => ({
       response record, which runs from 2000. Documents read comes from the Tabled Documents
       system, which holds no government response before mid-2022 and holds responses tabled in
       both chambers. Where a year has a dash, the documents have not been read, and nothing
-      here should be taken to mean the form letter was not in use before 2022 — only that we
-      have not looked.
+      here should be taken to mean the form letter was not in use before 2022, only that it
+      has not been checked.
     </p>
   </details>
 </figure>

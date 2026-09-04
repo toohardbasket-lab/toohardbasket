@@ -70,7 +70,7 @@ const stats = [
 ];
 const statsNote =
   `Met the deadline is the Speaker's own count, from the summary table on the fourth page of ` +
-  `his schedule — ${fmt(sched.answeredOnTime ?? 0)} of ${fmt(sched.answeredWithVerdict ?? 0)} ` +
+  `his schedule: ${fmt(sched.answeredOnTime ?? 0)} of ${fmt(sched.answeredWithVerdict ?? 0)} ` +
   `responses arrived within six months. Those are the responses received since his previous ` +
   `schedule, not a long-run record: unlike the Senate, the House publishes no register of ` +
   `responses going back to 2000, so this covers months where the Senate's equivalent covers ` +
@@ -117,7 +117,7 @@ const byCommittee = [...rows.reduce((m, r) => {
     <p class="lede measure">
       Every House of Representatives and joint committee report the Speaker records as
       still waiting for a government response. The House has asked for {reg.rule} since
-      {" "}{reg.ruleSince}. A report leaves this register when a response is tabled —
+      {" "}{reg.ruleSince}. A report leaves this register when a response is tabled,
       whatever that response says.
     </p>
 
@@ -142,7 +142,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       otherwise. Report titles link to the report itself on the Parliament’s website: to its
       entry in the Tabled Documents index, which begins in 2022, or for an older report to
       the committee’s own page for it, found and checked by hand. A report found on neither
-      is listed without a link rather than with a guessed one.
+      is listed without a link.
     </p>
     <p class="note measure">
       <em>Being considered</em> is the government’s own sentence, from its status report,
@@ -203,12 +203,12 @@ const byCommittee = [...rows.reduce((m, r) => {
         on the schedule’s fourth page counts {fmt(sched.officerSaysAnswered)} answered and
         {" "}{fmt(sched.listed - sched.officerSaysAnswered)} awaiting; reading the rows gives
         {" "}{fmt(sched.answeredAtSchedule)} and {fmt(sched.listed - sched.answeredAtSchedule)}.
-        The difference is one row — the Joint Committee on Law Enforcement’s summary report of
+        The difference is one row, the Joint Committee on Law Enforcement’s summary report of
         its 24 June 2020 hearing on the Australian Institute of Criminology’s National Deaths
-        in Custody Program — which the schedule lists with a response dated 29 March 2022. The
+        in Custody Program, which the schedule lists with a response dated 29 March 2022. The
         government’s own status report records the same response on the same date, so it is
-        treated here as answered. That is the whole of the difference, and it is the only
-        place this register departs from the Speaker’s count.
+        treated here as answered. That is the only place this register departs from the
+        Speaker’s count.
       </p>
     )}
     <p class="note measure">
@@ -217,8 +217,7 @@ const byCommittee = [...rows.reduce((m, r) => {
           Since that date {fmt(sched.answeredSince)} more
           {" "}{sched.answeredSince === 1 ? "response has" : "responses have"} been tabled, and
           {" "}{sched.answeredSince === 1 ? "that report has" : "those reports have"} been
-          removed — a report the government has answered must not be published here as
-          waiting. That is why this register shows {fmt(rows.length)} where the Speaker’s
+          removed. That is why this register shows {fmt(rows.length)} where the Speaker’s
           schedule lists {fmt(sched.listed - sched.answeredAtSchedule)} still waiting.
         </>
       ) : (
@@ -244,14 +243,14 @@ const byCommittee = [...rows.reduce((m, r) => {
         <strong>The two officers do not always agree.</strong> The Speaker records
         {" "}{sched.officersDisagree === 1 ? "one report" : `${fmt(sched.officersDisagree)} reports`}
         {" "}as fully responded to that the President still lists as awaiting a response in
-        part — Public Accounts and Audit reports
+        part: Public Accounts and Audit reports
         {" "}{sched.officersDisagreeReports.join(", ")}, answered by executive minute one
-        recommendation at a time. Executive minutes are the one thing this
-      register cannot see arriving: they are tabled by the committee rather than as a
-      government response, so a report answered that way stays here until the presiding
-      officer’s next schedule records it. Neither record is edited here. The Senate register follows
-        the President and the House register follows the Speaker, which is why the same
-        report can be waiting on one page and answered on the other.
+        recommendation at a time. Executive minutes are the one thing this register cannot
+        see arriving: they are tabled by the committee, not as a government response, so a
+        report answered that way stays here until the presiding officer’s next schedule
+        records it. Neither record is edited here. The Senate register follows the President
+        and the House register follows the Speaker, which is why the same report can be
+        waiting on one page and answered on the other.
       </p>
     )}
     <p class="note measure">
@@ -261,15 +260,15 @@ const byCommittee = [...rows.reduce((m, r) => {
       committee reports and only {fmt(sched.ownChamber)} are House committee reports.
       {" "}{fmt(sched.onBothRegisters)} are on {" "}<a href="/senate/">the Senate
       register</a> as well. That is why the two counts are never added: it would count the
-      same report twice. The two lists do not contain the same joint reports,
-      and they are not meant to: the President and the Speaker exclude different categories,
+      same report twice. The two lists do not contain the same joint reports: the President
+      and the Speaker exclude different categories,
       the House removed everything presented before July 2019 and the Senate did not, and on
       three reports the two officers disagree about whether a response has been received. So
       a joint report can be on one register and not the other without either being wrong.
       {sched.deadlineDiffers > 0 && (
         <>
-          {" "}It is also why the same report can be past the deadline on one register and
-          within time on the other — the House counts six months from House presentation,
+          {" "}The same report can also be past the deadline on one register and
+          within time on the other: the House counts six months from House presentation,
           the Senate three from Senate tabling, and
           {" "}{sched.deadlineDiffers === 1 ? "one report is" : `${fmt(sched.deadlineDiffers)} reports are`}
           {" "}in that position today.
@@ -286,8 +285,8 @@ const byCommittee = [...rows.reduce((m, r) => {
       status report</a>, presented on {formatDate(sched.beingConsideredTabled ?? "")} and
       covering the same date. That is where the words “the Government’s response is being
       considered” are actually written; the President of the Senate abbreviates the same
-      sentence to an asterisk in her report. It is read here for one purpose — to say what
-      the government has said about a report — and it can never add a report to this
+      sentence to an asterisk in her report. It is read here for one purpose, to say what
+      the government has said about a report, and it can never add a report to this
       register or remove one from it. Which reports are outstanding is the Speaker’s to
       say. All {fmt(sched.governmentReportMatched ?? rows.length)} of the reports the
       Speaker listed as waiting at 30 June were found in it, and against every one of them
@@ -295,15 +294,15 @@ const byCommittee = [...rows.reduce((m, r) => {
     </p>
     {sched.governmentStatuses && (
       <p class="note measure">
-        <strong>How much that is worth saying.</strong> The government’s report has three
+        <strong>What “being considered” means here.</strong> The government’s report has three
         things it can say about a report, and only three: that a response was tabled on a
         date ({fmt(sched.governmentStatuses.answered)} of the
         {" "}{fmt(sched.governmentReportListed ?? 0)} it lists), that a full response has
         been provided ({fmt(sched.governmentStatuses.full)}), or that the response is being
         considered ({fmt(sched.governmentStatuses.considered)}). A report it has not
         answered can only fall in the third. So “being considered” here is close to a
-        restatement of “outstanding”, and the number worth reading is not how many, but how
-        long: {fmt(overOne.length)} of these reports have been waiting more than a year, and
+        restatement of “outstanding”, and the figure that carries information is how long,
+        not how many: {fmt(overOne.length)} of these reports have been waiting more than a year, and
         {" "}{fmt(overFive.length)} more than five, with the government saying the same thing
         about each of them. On
         {" "}<a href="/senate/">the Senate register</a> the President distinguishes four
@@ -312,33 +311,32 @@ const byCommittee = [...rows.reduce((m, r) => {
     )}
     <p class="note measure">
       It also disagrees with the Speaker. He records a partial response for
-      {" "}{fmt(partial.length)} of the reports below — the Joint Committee of Public
-      Accounts and Audit is answered by executive minute, one recommendation at a time — and
+      {" "}{fmt(partial.length)} of the reports below (the Joint Committee of Public
+      Accounts and Audit is answered by executive minute, one recommendation at a time) and
       the government’s report calls those “being considered” too. The status column here
       follows the Speaker, because his is the record this register publishes.
     </p>
     {(sched.outOfPeriod ?? 0) > 0 && (
       <p class="note measure">
         The schedule counts itself, by Parliament, on its fourth page, and that tally says
-        {" "}{fmt(sched.scheduleSaysOutstanding ?? rows.length)} rather than the
+        {" "}{fmt(sched.scheduleSaysOutstanding ?? rows.length)}, not the
         {" "}{fmt(rows.length)} published here. {fmt(sched.answeredSince)} of the difference
         is the responses tabled since, listed above.
         {" "}{sched.outOfPeriod === 1 ? "The last is one report" : `The rest are ${fmt(sched.outOfPeriod ?? 0)} reports`}
         {" "}for which the schedule’s own entry records a response received before this
         reporting period, and for which the government’s report records the same response.
         Two records say the report was answered and one aggregate says it was not, so it is
-        not published here as waiting. We would rather be one short than name a report as
-        unanswered when it was answered.
+        not published here as waiting.
       </p>
     )}
     <p class="note measure">
       <strong>What it does not have.</strong> Reports tabled after
-      {" "}{formatDate(sched.coversTo)}, which the Speaker has not yet reported on — and
-      because the schedule is presented about twice a year, that gap can be months wide.
+      {" "}{formatDate(sched.coversTo)}, which the Speaker has not yet reported on; because
+      the schedule is presented about twice a year, that gap can be months wide.
       No compliance history: unlike the Senate, the House has no published register of
       responses going back to 2000. The Speaker gives his own on-time verdict on the
       responses each schedule records, which is what the figure above reports, but it
-      covers one reporting period rather than a quarter of a century.
+      covers one reporting period, not a quarter of a century.
     </p>
     <p class="note measure">
       <strong>What the schedule itself leaves out</strong>, on its own second page:
@@ -347,7 +345,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       reports of the Privileges and Members’ Interests and Publications committees.
     </p>
     <p class="note measure">
-      <strong>And one deliberate clearing.</strong> The Speaker’s footnote 3 records that
+      <strong>One clearing.</strong> The Speaker’s footnote 3 records that
       the Liaison Committee of Chairs and Deputy Chairs agreed in June 2023 to recommend
       “removal of all outstanding government responses for House or Joint committee
       reports presented prior to the commencement of the 46th Parliament (2 July 2019),
@@ -358,7 +356,7 @@ const byCommittee = [...rows.reduce((m, r) => {
         <>
           {" "}{fmt(keptBySenate.length)} joint committee reports from before that date are
           still on {" "}<a href="/senate/">the Senate register</a>, where the President kept
-          them — the oldest tabled in {keptBySenate[0].owedSince.slice(0, 4)}.
+          them; the oldest was tabled in {keptBySenate[0].owedSince.slice(0, 4)}.
         </>
       )}
     </p>
@@ -405,8 +403,8 @@ const byCommittee = [...rows.reduce((m, r) => {
       The whole register is available as CSV in the{" "}
       <a href="https://github.com/toohardbasket-lab/toohardbasket">public repository</a>,
       licensed CC BY 4.0. If you believe a row is wrong, please write to{" "}
-      <a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a> —
-      corrections are made within 24 hours of being confirmed and listed in the
+      <a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a>.
+      Corrections are made within 24 hours of being confirmed and listed in the
       {" "}<a href="/corrections/">corrections log</a>.
     </p>
   </section>

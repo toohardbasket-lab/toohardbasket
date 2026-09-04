@@ -41,7 +41,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
 
 <Base
   title="Search the recommendations"
-  description="Every recommendation this site can show from Australian parliamentary committee reports since 2022 — searchable by topic, each with the government's own words about it, or a note that no response has been tabled."
+  description="Every recommendation this site can show from Australian parliamentary committee reports since 2022, searchable by topic, each with the government's own words about it, or a note that no response has been tabled."
 >
   <section class="wrap intro">
     <p class="eyebrow">
@@ -51,7 +51,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     <h1>What committees asked for</h1>
     <p class="lede measure">
       Type a topic. Every recommendation this site can show on it appears below, with the
-      sentence the government wrote about it — or, where the report is still on a register,
+      sentence the government wrote about it, or, where the report is still on a register,
       the fact that it has written nothing. {fmt(awaiting)} of these are awaiting a response
       right now.
     </p>
@@ -93,7 +93,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       <p class="status measure">
         This search runs in the browser and needs JavaScript. The whole index is published as
         {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket/blob/main/scraper/data/recommendations.csv">recommendations.csv</a>
-        {" "}— one row per recommendation, with the government’s words about it — and can be
+        {" "}(one row per recommendation, with the government’s words about it) and can be
         opened in any spreadsheet.
       </p>
     </noscript>
@@ -103,9 +103,9 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       <h2 class="quiet-head" data-quiet-head></h2>
       <p class="note measure">
         The government's response to each of these is in the corpus, but it does not set the
-        committee's recommendations out one by one — it notes them as a group, or answers
-        the report in prose — so there is no recommendation this page can show from it. The
-        document itself is a click away.
+        committee's recommendations out one by one: it notes them as a group, or answers
+        the report in prose, so there is no recommendation this page can show from it. The
+        document itself is linked.
       </p>
       <ol class="results" data-quiet-list></ol>
       <p class="more measure" data-quiet-more hidden></p>
@@ -117,7 +117,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     <h2 id="reading">How to read a result</h2>
     <p>
       <strong>Where the words come from.</strong> A recommendation shown against a report on
-      one of the registers is the committee’s own text, taken from the report it tabled —
+      one of the registers is the committee’s own text, taken from the report it tabled:
       nobody has answered it, so no government document quotes it. So is a recommendation
       whose response never quotes it: where the government answered a report as a whole,
       or closed it with the form letter without listing what it recommended, the report
@@ -125,14 +125,14 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       {" "}results). Every other recommendation
       here is the committee’s text <em>as the government reproduced it</em> in its own
       response. That is the government’s transcription, not the committee’s original, and it
-      is quoted rather than paraphrased so the difference can be checked against the document
+      is quoted, not paraphrased, so the difference can be checked against the document
       linked on every result.
     </p>
     <p>
       <strong>What the government said.</strong> {fmt(withWords)} results carry the
       government’s own sentence about that recommendation. This site does not translate those
-      into a status — “accepted”, “rejected”, “ignored” — because the wording is the evidence
-      and a one-word label would be our summary rather than their answer. Where the sentence
+      into a status (“accepted”, “rejected”, “ignored”), because the wording is the evidence
+      and a one-word label would be our summary, not their answer. Where the sentence
       is the passage-of-time template, that is what a form-letter closure looks like, and
       {" "}<a href="/methods/#closures">Methods explains how those are identified</a>.
     </p>
@@ -141,7 +141,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       additional comments carry recommendations that are not the committee’s. Treating one of
       those as a committee recommendation would be a serious misstatement, and it is the
       mistake this page is most likely to make. Where the text or the section it sits in names
-      another author, the result says so and you can filter on it — {fmt(named)} of the
+      another author, the result says so and you can filter on it; {fmt(named)} of the
       {" "}{fmt(rows.length)} do.
     </p>
     <p>
@@ -153,36 +153,34 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     </p>
     <p>
       <strong>Where a number is contested, the committee holds it.</strong> A dissenting report
-      restarts its numbering, so one report can contain two “Recommendation 1” — the
+      restarts its numbering, so one report can contain two “Recommendation 1”: the
       committee’s and a party’s. This site publishes the committee’s under that number, and a
-      party’s recommendation appears only where it carries a number of its own. That means a
-      dissenting recommendation can be missing from this index; it does not mean one can be
-      published as the committee’s. Given the choice, the site would rather omit than
-      misattribute.
+      party’s recommendation appears only where it carries a number of its own. So a
+      dissenting recommendation can be missing from this index, but one cannot be published
+      as the committee’s.
     </p>
     <p>
       <strong>What a missing response does not tell you.</strong> This site can show that a
       committee made a recommendation and that no response was tabled. It cannot show whether
       anything was done about it. A government can act on a recommendation without ever
-      answering the committee — through a budget measure, a regulation, an agency's own
-      decision — and it can answer a committee at length and do nothing at all. The two are
+      answering the committee, through a budget measure, a regulation or an agency's own
+      decision, and it can answer a committee at length and do nothing at all. The two are
       independent, and this site measures only one of them.
     </p>
     <p>
-      That gap is not one we intend to close by inference. Establishing whether a
-      recommendation was implemented means reading budget papers, annual reports, estimates
-      transcripts and an agency's own record, one recommendation at a time, and forming a
-      judgement about them. That is journalism, and this index exists to make it possible
-      rather than to stand in for it.
+      This site does not close that gap by inference. Establishing whether a recommendation
+      was implemented means reading budget papers, annual reports, estimates transcripts and
+      an agency's own record, one recommendation at a time. That is journalism; this index
+      exists to make it possible.
     </p>
     <p>
-      What a missing response does establish is narrower, and still real. The Senate has
-      required a response within three months since 1973 and the House within six since 2010.
-      A report with no response is a failure to account to the chamber that asked for one,
-      whatever else may have happened. That obligation is owed to the Parliament, and it is
-      not discharged by acting quietly. <strong>Treat a result here as the beginning of a
-      question rather than the answer to one.</strong> If you know a recommendation was acted
-      on, tell us and we will record it.
+      What a missing response does establish is narrower. The Senate has required a response
+      within three months since 1973 and the House within six since 2010. A report with no
+      response is a failure to account to the chamber that asked for one, whatever else may
+      have happened. That obligation is owed to the Parliament, and it is not discharged by
+      acting quietly. <strong>Treat a result here as the start of a question, not the answer
+      to one.</strong> If you know a recommendation was acted on, tell us and we will record
+      it.
     </p>
     <p>
       <strong>What is not here.</strong> This is not every recommendation an Australian
@@ -196,15 +194,13 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       them when they match.
     </p>
     <p>
-      <strong>The oldest reports are here because someone went and got them.</strong> Both
-      halves of this index come from the Parliament’s Tabled Documents register: the
-      government responses, and the PDFs of the reports still waiting. That register holds
-      nothing before 2022, so every report on the two registers older than that — the longest
-      waits on this site, the ones a reader is most likely to look for — was missing, and
-      nothing on the page said so. {fmt(missing.collected)} of them have since been fetched
-      from their committees’ own pages, read by the same parser as every other report and
-      checked the same way; each of those rows records that its document was collected that
-      way rather than taken from the register.
+      <strong>Where the oldest reports come from.</strong> Both halves of this index come
+      from the Parliament’s Tabled Documents register: the government responses, and the PDFs
+      of the reports still waiting. That register holds nothing before 2022, so every report
+      on the two registers older than that, including the longest waits on this site, was
+      missing at first. {fmt(missing.collected)} of them have since been fetched from their
+      committees’ own pages, read by the same parser as every other report and checked the
+      same way; each of those rows records that its document was collected that way.
       {missing.predating > 0 && (
         <>
           {" "}{missing.predating === 1 ? "One report has" : fmt(missing.predating) + " reports have"}
@@ -220,13 +216,13 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
         </>
       )}</p>
     <p>
-      There is a second shape it cannot read, and it matters more than the first because the
-      clearest example of a form-letter closure this site has is written in it. Where a
-      response sets out its answers in a table and the numbering is the word processor’s
-      rather than typed, there is no “Recommendation 4” in the text for anything to find, and
-      the document yields nothing at all. The response to the 2002 <em>certain maritime
-      incident</em> report — the children-overboard inquiry, answered in 2026 — is one such
-      document, and searching for it here returns nothing. It is in the
+      There is a second shape the parser cannot read, and the clearest example of a
+      form-letter closure on this site is written in it. Where a response sets out its
+      answers in a table and the numbering is the word processor’s, not typed, there is no
+      “Recommendation 4” in the text for anything to find, and the document yields nothing at
+      all. The response to the 2002 <em>certain maritime incident</em> report (the
+      children-overboard inquiry, answered in 2026) is one such document, and searching for
+      it here returns nothing. It is in the
       {" "}<a href="/senate/responses/">Senate’s response record</a> and in the dataset; only
       its recommendations are missing from this index.
     </p>
@@ -406,8 +402,8 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
              : (r.s === "report"
                 ? (r.k === "proforma_closure"
                    ? `<p class="gov none">The government closed this report with the form letter on ${esc(when(r.x))}, without listing this recommendation. Its response does not address it individually.</p>`
-                   : `<p class="gov none">The government’s response of ${esc(when(r.x))} does not address this recommendation individually — it answers the report as a whole.</p>`)
-                : `<p class="gov none">This site could not separate the government's words for this recommendation — read the response.</p>`));
+                   : `<p class="gov none">The government’s response of ${esc(when(r.x))} does not address this recommendation individually; it answers the report as a whole.</p>`)
+                : `<p class="gov none">This site could not separate the government's words for this recommendation. Read the response.</p>`));
         // Every result links to the document its words came from, and to the
         // other document where that is known: the report a response answers,
         // the response a report received.
@@ -530,7 +526,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       const n = hits.length;
       if (!n) {
         status.textContent = quietHits.length
-          ? `No recommendation matches “${q}”, but ${quietHits.length === 1 ? "one response does" : quietHits.length + " responses do"} — see below. ` +
+          ? `No recommendation matches “${q}”, but ${quietHits.length === 1 ? "one response does" : quietHits.length + " responses do"}: see below. ` +
             `This index covers responses tabled since mid-2022 and the reports still on the registers.`
           : `Nothing found for “${q}”. This index covers responses tabled since mid-2022 and ` +
             `the reports still on the registers. Responses that set out their answers in a ` +
@@ -550,7 +546,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
         const rest = n - wait - shut - over;
         if (rest) parts.push(`${rest.toLocaleString("en-AU")} answered`);
         status.textContent =
-          `${n.toLocaleString("en-AU")} result${n === 1 ? "" : "s"} for “${q}” — ` +
+          `${n.toLocaleString("en-AU")} result${n === 1 ? "" : "s"} for “${q}”: ` +
           `${own.toLocaleString("en-AU")} with the words in the recommendation itself, ` +
           `the rest matching its committee or its report. ` + parts.join(", ") + ".";
       }

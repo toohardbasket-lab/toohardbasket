@@ -209,7 +209,7 @@ const chambers = [
           words the reader has not reached yet.
         */}
         <p class="lede">
-          “Being considered” is the government’s own phrase, and it covers most of both registers —
+          “Being considered” is the government’s own phrase, and it covers most of both registers:
           {" "}all {fmt(f.house.outstanding)} on the House register, where it is the only
           thing the government’s report can say about a report it has not answered, and
           {" "}{fmt(f.beingConsidered)} of the {fmt(f.outstanding)} reports on the Senate
@@ -252,15 +252,15 @@ const chambers = [
       <p>
         Of {fmt(comp.assessable)} responses to Senate committee reports tabled between
         {" "}{comp.firstYear} and {comp.lastYear}, {fmt(comp.onTime)} arrived inside the
-        required three months — {pct} per cent. The median took {fmt(comp.medianDays)} days.
+        required three months: {pct} per cent. The median took {fmt(comp.medianDays)} days.
         More than half took longer than a year.
       </p>
       <p>
         The House keeps no comparable record going back that far. What the Speaker does
         count is the responses in his most recent schedule: of the
         {" "}{fmt(houseMeta.answeredWithVerdict ?? 0)} received since his previous one,
-        {" "}{fmt(houseMeta.answeredOnTime ?? 0)} arrived within six months — {housePct} per
-        cent, over months rather than decades, so the two figures are not comparable.
+        {" "}{fmt(houseMeta.answeredOnTime ?? 0)} arrived within six months, {housePct} per
+        cent. That covers months, not decades, so the two figures are not comparable.
       </p>
       <p>
         None of this is a story about one government. Attribute every late response to
@@ -288,12 +288,11 @@ const chambers = [
         Four records already exist, and this site is built on all of them: the President of
         the Senate’s status report and the Speaker’s schedule, each presented about twice a
         year; the government’s own status report for each chamber; and the Senate’s live
-        tracker of reports awaiting a response. What none of them is, and what this is, is a
-        single list covering both chambers, kept current between those reports, with a report
-        taken off it at the first weekly rebuild after the government answers — so that the
-        number on the page is what is outstanding this week rather than what was outstanding
-        when a document was last printed. Where those records disagree with each other, this site says so and links
-        both.
+        tracker of reports awaiting a response. None of them is a single list covering both
+        chambers and kept current between those reports. This is: a report comes off it at the
+        first weekly rebuild after the government answers, so the number on the page is what
+        is outstanding this week, not what was outstanding when a document was last printed.
+        Where those records disagree with each other, this site says so and links both.
       </p>
       <p>
         Joint committee reports are presented to both houses and listed by both presiding
@@ -304,16 +303,16 @@ const chambers = [
         are not a ranking.
       </p>
       <p>
-        This is that record. Each register follows its presiding officer — the President of
-        the Senate and the Speaker of the House each report on the status of government
-        responses, at roughly six-monthly intervals — and publishes what each of them records,
+        Each register follows its presiding officer (the President of the Senate and the
+        Speaker of the House each report on the status of government responses, at roughly
+        six-monthly intervals) and publishes what each of them records,
         including the reports each marks as answered. Every page shows the date of the
         document behind it and says what that document does not cover. The whole dataset is{" "}
         <a href="https://github.com/toohardbasket-lab/toohardbasket">public</a>, and
         corrections are <a href="/corrections/">logged</a>.
       </p>
       <p>
-        Nothing here is an opinion about any recommendation — only whether an answer was
+        Nothing here is an opinion about any recommendation: only whether an answer was
         given, and when.
       </p>
     </div>
@@ -323,8 +322,8 @@ const chambers = [
     <h2>Longest outstanding</h2>
     <p class="note measure">
       Across both registers. The counts are kept apart because the rules differ and
-      because a joint committee report is listed by both presiding officers —
-      {" "}{fmt(onBoth)} reports are on both registers — but a report waiting {oldestYears} years is waiting {oldestYears} years
+      because a joint committee report is listed by both presiding officers
+      ({fmt(onBoth)} reports are on both registers). But a report waiting {oldestYears} years is waiting {oldestYears} years
       whichever register it is on.
       {chambersShown.size === 1 && firstHouse && (
         <>
@@ -334,8 +333,8 @@ const chambers = [
           doing better: in 2023 its committee chairs agreed to recommend taking every report presented
           before July 2019 off the schedule unless the committee that made it asked to keep
           it there.{" "}<a href="/house/#source">Why the House list is shorter →</a>
-          {" "}The longest-waiting report on the House register —{" "}
-          <em>{firstHouse.url ? <a href={firstHouse.url} rel="external">{firstHouse.title}</a> : firstHouse.title}</em>, at <span data-live-days={firstHouse.owedSince}>{fmt(firstHouse.daysOutstanding)} days</span> — comes
+          {" "}The longest-waiting report on the House register,{" "}
+          <em>{firstHouse.url ? <a href={firstHouse.url} rel="external">{firstHouse.title}</a> : firstHouse.title}</em> at <span data-live-days={firstHouse.owedSince}>{fmt(firstHouse.daysOutstanding)} days</span>, comes
           {" "}{firstHouseRank}th here.
         </>
       )}

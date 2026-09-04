@@ -7,6 +7,7 @@ import {
 } from "../lib/data";
 import { registerBySlug, plannedRegisters } from "../lib/registers";
 import { FORMS, formHref } from "../lib/forms";
+import { ABOUT } from "../lib/about";
 
 const senate = registerBySlug("senate")!;
 const rows = ledger();
@@ -35,10 +36,9 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     <h1>How this is built</h1>
     <p class="lede measure">
       Everything here is drawn from records the Parliament publishes itself. This page
-      states what is counted, what is left out and why, and — at the end — what the
+      states what is counted, what is left out and why, and, at the end, what the
       method cannot yet see. Where a judgment is finely balanced, it is resolved in the
-      government’s favour, so that every number on this site is a floor rather than a
-      ceiling.
+      government’s favour, so that every number on this site is a floor.
     </p>
   </section>
 
@@ -48,14 +48,13 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       The unit is an <strong>obligation</strong>: something a government undertook to
       answer, owed to a body with standing to demand it, by a date that can be
       established from the record. A register is admitted to this site only when all
-      three exist — a stated obligation, a claimant, and a date. That is what allows
-      this site to report rather than argue.
+      three exist: a stated obligation, a claimant, and a date.
     </p>
     <p>
       The Senate is the first claimant, not the only one. It has required {senate.rule}{" "}
       since {senate.ruleSince}. A report leaves the register when a response is tabled,
-      whatever that response says — the register measures whether an answer was given,
-      never whether it was a good one.
+      whatever that response says. The register measures whether an answer was given,
+      not whether it was a good one.
     </p>
     <p class="note">
       Planned registers: {plannedRegisters().map((r) => r.name).join("; ")}.
@@ -83,11 +82,11 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
         reports, published for each chamber alongside the presiding officer’s and covering
         the same date. It is where the sentence “the Government’s response is being
         considered” is actually written. It is read to say what the government has said
-        about a report — never to add a report to a register or remove one.
+        about a report, never to add a report to a register or remove one.
       </li>
       <li>
         <strong>The Senate’s live tracker</strong> of government responses, carried only for
-        reports tabled after the President’s report — the window she has not yet covered.
+        reports tabled after the President’s report, the window she has not yet covered.
       </li>
       <li>
         <strong>The Tabled Documents database</strong> (OTD), through its public API, for
@@ -99,25 +98,25 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       </li>
     </ul>
     <p>
-      The register follows the President. His report is fetched from the Tabled Documents
+      The register follows the President. Her report is fetched from the Tabled Documents
       database, not typed in by hand, and its status column decides every row: a date means
       the response has been received and the report leaves the register; a dash means nothing
-      has been received; “Interim” means an interim response; and “Interim*” means — in the
-      definition her own report gives — that the government has said only that “the
+      has been received; “Interim” means an interim response; and “Interim*” means, in the
+      definition her own report gives, that the government has said only that “the
       Government’s response is being considered”. Reports the President records as answered
-      are not published here as outstanding, and reports she lists are not filtered out by us.
+      are not published here as outstanding, and reports she lists are not filtered out.
     </p>
     <p>
       <strong>The House register works the same way</strong>, from the Speaker’s schedule
-      rather than the President’s report. Its status column reads slightly differently —
+      instead of the President’s report. Its status column reads slightly differently:
       a date, “no response to date”, “partial response received” or “fully responded”.
-      Two further differences matter. The Speaker states whether each report is past its deadline, and
-      we take his word for it rather than counting six months off a calendar, because the
-      2010 resolution excludes any period when the House was dissolved. And his schedule
-      is rolling: a report is dropped from later schedules once its response arrives, so a
-      row that still carries an older response date has been answered, and is not published
-      here as outstanding. That is a judgement, and it is worth stating plainly, because it
-      is the one place this register departs from the Speaker’s own count.
+      Two further differences matter. The Speaker states whether each report is past its
+      deadline, and this site takes his word for it instead of counting six months off a
+      calendar, because the 2010 resolution excludes any period when the House was dissolved.
+      And his schedule is rolling: a report is dropped from later schedules once its response
+      arrives, so a row that still carries an older response date has been answered, and is
+      not published here as outstanding. That is a judgement, and it is the one place this
+      register departs from the Speaker’s own count.
     </p>
     <p>
       There is one such row: the Joint Committee on Law Enforcement’s summary report of its
@@ -126,8 +125,8 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       dated 29 March 2022. The government’s own status report records the same response on
       the same date. Two records say it was answered and only the summary tally on the
       schedule’s fourth page says otherwise, so it is treated here as answered. The House
-      register sets out the arithmetic against the Speaker’s own summary, and that one row
-      is the whole of the difference.
+      register sets out the arithmetic against the Speaker’s own summary; that one row is
+      the whole of the difference.
     </p>
     <p>
       The tracker cannot add to, subtract from or overrule any of that. It is carried for one
@@ -141,11 +140,11 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     <p class="note">
       Currently {fmt(rows.length)} reports are outstanding, and {fmt(comp.assessable)} responses
       tabled between {comp.firstYear} and {comp.lastYear} can be measured against the deadline.
-      A further {fmt(comp.excluded)} cannot: for those responses — almost all of them tabled
-      in {comp.excludedYears} — the register does not record when the report was tabled, so no
-      deadline can be computed. They are excluded rather than counted as failures. The
-      practical effect is that the first two years of the register are barely represented in
-      any compliance figure on this site.
+      A further {fmt(comp.excluded)} cannot: for those responses, almost all of them tabled
+      in {comp.excludedYears}, the register does not record when the report was tabled, so no
+      deadline can be computed. They are excluded, not counted as failures. The practical
+      effect is that the first two years of the register are barely represented in any
+      compliance figure on this site.
     </p>
   </section>
 
@@ -153,15 +152,15 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     <h2 id="corpus">The response corpus</h2>
     <p>
       Separately from the Ledger, this site examines the text of every government response
-      tabled since mid-2022 — {fmt(cl.corpus)} documents — to ask what the response actually did.
+      tabled since mid-2022, {fmt(cl.corpus)} documents, to ask what the response actually did.
       {" "}<strong>Read to {formatDate(cl.readTo)}.</strong> The weekly job downloads and
       classifies whatever has been tabled since it last ran, so this date moves with the
-      register rather than with whenever the corpus was last gathered by hand.
+      register.
       {cl.unreadable > 0 && (
         <>
           {" "}{fmt(cl.unreadable)} document{cl.unreadable === 1 ? "" : "s"} could not be read
           as text. They are counted in the corpus and classified as neither a closure nor a
-          substantive response, which understates the closure rate rather than inflating it.
+          substantive response, which understates the closure rate.
         </>
       )}
     </p>
@@ -194,8 +193,8 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     </table>
     <p class="note">
       Every one of these would otherwise have been counted as a substantive response, so
-      the exclusions raise the reported failure rate rather than lowering it. The list is
-      published in full, with reasons, in the dataset.
+      excluding them raises the reported failure rate. The list is published in full, with
+      reasons, in the dataset.
     </p>
   </section>
 
@@ -216,22 +215,19 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       here with a document anyone can download and check.
     </p>
     <p>
-      They are undetected for one reason, and it is the same reason in all three cases.
       A form-letter closure gives itself away because the template <em>repeats</em>: the same
       sentence appears once per recommendation, and a machine can see that without knowing
       anything about the report. The other three forms are written in ordinary prose that
-      varies from document to document, and nothing in the text marks them out. Read on its
-      own, a response that says “the Government notes the recommendations of the Committee”
-      and then describes a policy is indistinguishable from a real answer — unless you already
-      know what the committee recommended, and can check the policy against it.
+      varies from document to document. Read on its own, a response that says “the Government
+      notes the recommendations of the Committee” and then describes a policy is
+      indistinguishable from a real answer, unless you already know what the committee
+      recommended and can check the policy against it.
     </p>
     <p>
-      That is the missing ingredient: the response alone is not enough evidence. You cannot
-      tell from its own words whether it disposed of five recommendations or forty, or whether
-      what it describes answers them. Only the report says what was owed. So these are not
-      gaps waiting for a cleverer pattern — a longer list of template phrases would only chase
-      the wording of the excuse, and there would be a fifth form next year. They are the same
-      gap, and it closes when the reports are parsed as well as the responses.
+      So the response alone is not enough evidence. You cannot tell from its own words whether
+      it disposed of five recommendations or forty, or whether what it describes answers them.
+      Only the report says what was owed. A longer list of template phrases would not close
+      that gap; parsing the reports as well as the responses will.
     </p>
     <ol class="forms">
       {FORMS.map((f) => (
@@ -242,43 +238,41 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
           </p>
           <p class="form-what">{f.what}</p>
           <p class="note">
-            <a href={formHref(f)}>{f.example}</a> — {f.exampleNote}
+            <a href={formHref(f)}>{f.example}</a>. {f.exampleNote}
           </p>
         </li>
       ))}
     </ol>
     <p>
-      This is why the published claim is stated narrowly. It is not that
-      {" "}{fmt(cl.proforma)} responses answered nothing; it is that {fmt(cl.proforma)} used a
-      form-letter closure that addressed no recommendation. The true figure for
-      “answered nothing” is higher, and the way to reach it is to ask a better question.
+      This is why the published claim is narrow. It is not that {fmt(cl.proforma)} responses
+      answered nothing; it is that {fmt(cl.proforma)} used a form-letter closure that
+      addressed no recommendation. The true figure for “answered nothing” is higher.
     </p>
     <p>
-      That question is <strong>coverage</strong>: for each recommendation a committee made,
-      did the response state a position on it? It is countable, it is neutral about whether
-      the position was right, and all four forms above score zero against it. Building it
-      requires parsing the reports for their recommendations as well as the responses. The
-      first part of that is done: wherever a response quotes nothing from the report it
-      answers, the {" "}<a href="/recommendations/">search index</a> reads the report and
-      shows each of its recommendations with the fact that the response did not address it
-      individually. The coverage figure itself — for each response, how many of the
-      recommendations it stated a position on — is not published yet.
+      The measure that would reach it is <strong>coverage</strong>: for each recommendation a
+      committee made, did the response state a position on it? It is countable, it is neutral
+      about whether the position was right, and all four forms above score zero against it.
+      Building it requires parsing the reports for their recommendations as well as the
+      responses. The first part of that is done: wherever a response quotes nothing from the
+      report it answers, the {" "}<a href="/recommendations/">search index</a> reads the
+      report and shows each of its recommendations with the fact that the response did not
+      address it individually. The coverage figure itself, how many of its recommendations
+      each response stated a position on, is not published yet.
     </p>
   </section>
 
   <section class="wrap">
     <h2 id="backlog-chart" class="measure">The backlog, and why it is not the headline</h2>
     <p class="measure">
-      This chart was on the home page until September 2026. It is here instead, because on
-      its own it misleads. The line falls from {fmt(peak.backlog)} to {fmt(hist[hist.length - 1].backlog)}
+      This chart was on the home page until September 2026. It was moved here because on
+      its own it misleads. The line falls from {fmt(peak.backlog)} to {fmt(hist[hist.length - 1].backlog)},
       {" "}and a reader who goes no further takes away that the government has caught up. It
       has not. A report leaves this chart when a response is tabled, and the chart cannot see
       whether that response addressed the committee’s recommendations or closed the report
       without addressing any of them. Most of the fall was the second kind.
       {" "}<a href="#closures">How those responses are classified</a>. The chart is still
-      published because the backlog is a real thing and this is the only long series of it
-      that exists — but it is a measure of how much is outstanding, not of how much has been
-      answered.
+      published because this is the only long series of the backlog that exists, but it
+      measures how much is outstanding, not how much has been answered.
     </p>
     <BacklogChart points={hist} peak={peak} observed={snapshots()} />
   </section>
@@ -287,27 +281,27 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     <h2 id="limits">Known limits and open questions</h2>
     <p id="acted-on">
       <strong>The largest limit, first: this measures answers, not outcomes.</strong> Every
-      figure on this site is about whether a government responded to a committee, and none of
-      them is about whether anything was done. A recommendation can be implemented without a
-      response ever being tabled — through a budget measure, a regulation, an agency's own
-      decision — and a recommendation can be answered warmly and never acted on. This site
-      cannot tell those apart, and does not try. Closing that gap means reading budget papers,
+      figure on this site is about whether a government responded to a committee, and none
+      is about whether anything was done. A recommendation can be implemented without a
+      response ever being tabled, through a budget measure, a regulation or an agency's own
+      decision, and a recommendation can be answered warmly and never acted on. This site
+      cannot tell those apart and does not try. Closing that gap means reading budget papers,
       annual reports and estimates transcripts one recommendation at a time and forming a
-      judgement, which is journalism rather than a register.
+      judgement, which is journalism, not a register.
     </p>
     <p>
-      What the record does establish is narrower and still worth establishing. The Senate has
-      required a response within three months since 1973, the House within six since 2010, and
-      a report with no response is a failure to account to the chamber that asked — an
-      obligation owed to the Parliament, not discharged by acting quietly. Read every count
-      here as a measure of that, and of nothing else.
+      What the record does establish is narrower. The Senate has required a response within
+      three months since 1973, the House within six since 2010, and a report with no response
+      is a failure to account to the chamber that asked. That obligation is owed to the
+      Parliament and is not discharged by acting quietly. Every count here measures that, and
+      nothing else.
       {" "}<a href="/recommendations/#reading">The same caution, on the recommendations</a>.
     </p>
     <p>
       <strong>Which reports attract the three-month rule.</strong> The President’s report
       sets out what it leaves out: reports on bills whose recommendations could only be dealt
       with during debate on the bill, estimates and annual-report scrutiny, the Senate’s
-      domestic committees, Selection of Bills, and — usually — Public Works. Some reports the
+      domestic committees, Selection of Bills, and usually Public Works. Some reports the
       President nonetheless lists appear to fall inside those categories. The two readings
       cannot both be right. We wrote to the Senate Procedure Office on 29 August 2026 asking
       which is correct, and will publish the answer here. Until then the register follows the
@@ -337,27 +331,26 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       The compliance rate therefore overstates performance, as does every other figure here.
     </p>
     <p>
-      <strong>Attributing a late response to a government</strong> can be done two ways — by who
-      tabled the response, or by who was in office when the report was tabled — and they give
+      <strong>Attributing a late response to a government</strong> can be done two ways, by who
+      tabled the response or by who was in office when the report was tabled, and they give
       different orderings. Both are published on the
-      {" "}<a href="/senate/#compliance">Senate register</a>, side by side, because choosing one
-      would be choosing a result.
+      {" "}<a href="/senate/#compliance">Senate register</a>, side by side.
     </p>
     <p>
       <strong>Interim reports are marked, not excluded.</strong> A committee's own interim
-      report is listed by both presiding officers as awaiting a response, so it is here —
-      taking it out would be this site overruling the record it publishes. It is flagged
-      instead, because a government that answers only the final report has not necessarily
-      left anything unanswered, and a reader counting the backlog should be able to see how
-      much of it is interim.
+      report is listed by both presiding officers as awaiting a response, so it is here;
+      taking it out would be this site overruling the record it publishes. It is flagged,
+      because a government that answers only the final report has not necessarily left
+      anything unanswered, and a reader counting the backlog should be able to see how much
+      of it is interim.
     </p>
     <p>
       <strong>The report index is Senate-weighted.</strong> The harvest of committee reports
       is drawn from the Tabled Documents database and covers Senate committees far more
       completely than House committees. This does not affect the Senate register. It does
       mean that where a response answers a House report, this site can identify the response
-      but often not the report behind it. The House register's own rows are linked — the
-      older ones to the committee's page for the report, found and checked by hand — but a
+      but often not the report behind it. The House register's own rows are linked (the
+      older ones to the committee's page for the report, found and checked by hand), but a
       House report answered before this site existed is often one the index cannot show.
     </p>
     <p id="backlog">
@@ -371,13 +364,11 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       the Senate has printed the number outstanding nine times since June 2022, and those
       counts are the dots on the chart. They do not match the line. Before the 2024
       clear-out the reconstruction runs about sixty reports high; after it, between
-      fourteen and thirty-one low; by mid-2026 they are two apart. The two count slightly different sets — her report
-      excludes categories the response register contains, and includes joint committee
-      reports it does not — so neither is a correction of the other, and the gap is the
-      measure of what a reconstruction cannot see. This page used to say the line was "a
-      floor, not an exact count". On the evidence of her own nine readings it is not
-      reliably a floor, and the chart now shows both rather than asking anyone to take the
-      reconstruction on trust.
+      fourteen and thirty-one low; by mid-2026 they are two apart. The two count slightly
+      different sets: her report excludes categories the response register contains, and
+      includes joint committee reports it does not. Neither is a correction of the other.
+      This page used to say the line was "a floor, not an exact count". On her own nine
+      readings it is not reliably a floor, so the chart now shows both.
     </p>
     <p>
       <strong>Refresh.</strong> A scheduled job rebuilds the dataset every Tuesday morning:
@@ -385,18 +376,18 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       report the government has since answered, and commits the result, which republishes
       the site. If any step fails, nothing is committed and the previous build stays up.
       Every page shows the date of the data behind it. Between those runs the figures do not
-      move — except the day counts, which are counted from each report's tabling date to
-      today in Canberra and so go up by one at midnight — so a number quoted from this site
-      on a Wednesday is the number it showed on the Tuesday, plus a day. A response tabled in
-      between will not appear until the next run.
+      move, except the day counts, which run from each report's tabling date to today in
+      Canberra and go up by one at midnight. A number quoted from this site on a Wednesday is
+      the number it showed on the Tuesday, plus a day. A response tabled in between will not
+      appear until the next run.
     </p>
   </section>
 
   <section class="wrap measure">
     <h2 id="corrections">Corrections</h2>
     <p>
-      If a row here is wrong, we want to know, and the fastest way to change it is to tell us.
-      Write to <a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a>{" "}
+      If a row here is wrong, write to
+      {" "}<a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a>{" "}
       with the row and the source. Corrections are made within 24 hours of being confirmed and
       listed in the {" "}<a href="/corrections/">corrections log</a>, alongside the dataset’s
       full change history, so the record of what this site said, and when it changed, stays
@@ -404,10 +395,22 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     </p>
     <p>
       The full dataset and the code that builds it are in the
-      {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket">public repository</a> —
+      {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket">public repository</a>:
       data under CC BY 4.0, code under the MIT licence. Every figure on this site is produced
       by that code from those files. Where a link or a pairing was checked by hand, the file
-      that records it says so, with the reasoning beside it.
+      that records it says so.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="made">How this was made</h2>
+    <p>
+      The code, the dataset and the text of this site were drafted with AI assistance,
+      working from the parliamentary records named above. Every figure is computed by the
+      published code from the published data, not written by a model; every row links to the
+      document it came from; and the text and the figures were checked by
+      {" "}{ABOUT.founderName}, who is responsible for them. Where an error gets through, the
+      {" "}<a href="/corrections/">corrections log</a> records it.
     </p>
   </section>
 </Base>

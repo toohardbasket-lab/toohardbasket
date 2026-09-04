@@ -49,7 +49,7 @@ const stats = [
 const statsNote =
   `Met the deadline is the only figure here not drawn from the current schedule: ` +
   `it is every response since ${comp.firstYear} whose report date the Senate's register ` +
-  `records — ${fmt(comp.onTime)} of ${fmt(comp.assessable)} arrived within three months. ` +
+  `records: ${fmt(comp.onTime)} of ${fmt(comp.assessable)} arrived within three months. ` +
   `The other six describe what is owed today.`;
 
 /** The status column of the schedule, in the register's own words. */
@@ -82,7 +82,7 @@ const byCommittee = [...rows.reduce((m, r) => {
     <p class="lede measure">
       Every Senate and joint committee report the President of the Senate records as still
       waiting for a government response. The Senate has required {reg.rule} since
-      {" "}{reg.ruleSince}. A report leaves this register when a response is tabled —
+      {" "}{reg.ruleSince}. A report leaves this register when a response is tabled,
       whatever that response says.
     </p>
 
@@ -116,8 +116,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       except any marked as the Senate tracker’s. Report titles link to the report itself on
       the Parliament’s website: to its entry in the Tabled Documents index, which begins in
       2022, or for an older report to the committee’s own page for it, found and checked by
-      hand. A report found on neither is listed without a link rather than with a guessed
-      one.
+      hand. A report found on neither is listed without a link.
     </p>
     <RegisterControls target="senate-register" noun="reports" />
     <table class="register stacks" id="senate-register" data-register="senate">
@@ -169,8 +168,8 @@ const byCommittee = [...rows.reduce((m, r) => {
         {" "}{formatDate(sched.editionsFrom ?? "")}, and every one of them is on the public
         record. Reading all {fmt(sched.editionsRead ?? 0)}:
         {" "}<strong>{fmt(sched.consideredEveryEdition ?? 0)}</strong> of the reports below
-        have been marked “being considered” in every single edition — the government has said
-        the same thing about them, twice a year, for {sched.editionsRead === 9 ? "four" : ""}
+        have been marked “being considered” in every one of them. The government has said
+        the same thing about those reports, twice a year, for {sched.editionsRead === 9 ? "four" : ""}
         {" "}years. That is a count of consecutive editions, not an estimate: where a report’s
         title is written differently in an older edition the run is broken and counted short.
       </p>
@@ -188,8 +187,7 @@ const byCommittee = [...rows.reduce((m, r) => {
     <p class="note measure">
       Since that date {fmt(sched.answeredSince)} of
       those {sched.answeredSince === 1 ? "has" : "have"} been answered, and those reports
-      have been removed — a report the government has answered must not be published here
-      as waiting. That is why this register shows <strong>{fmt(rows.length)}</strong> today
+      have been removed. That is why this register shows <strong>{fmt(rows.length)}</strong> today
       where the President recorded {fmt(sched.listed - sched.answeredAtSchedule)} at
       {" "}{formatDate(sched.asAt)}. The Senate also runs a live tracker of reports awaiting a
       response; it is carried here only for reports tabled after the President’s date, so it
@@ -214,32 +212,32 @@ const byCommittee = [...rows.reduce((m, r) => {
         <strong>The two officers do not always agree.</strong> The Speaker records
         {" "}{sched.officersDisagree === 1 ? "one report" : `${fmt(sched.officersDisagree)} reports`}
         {" "}as fully responded to that the President still lists as awaiting a response in
-        part — Public Accounts and Audit reports
+        part: Public Accounts and Audit reports
         {" "}{sched.officersDisagreeReports.join(", ")}, answered by executive minute one
-        recommendation at a time. Executive minutes are the one thing this
-      register cannot see arriving: they are tabled by the committee rather than as a
-      government response, so a report answered that way stays here until the presiding
-      officer’s next schedule records it. Neither record is edited here. The Senate register follows
-        the President and the House register follows the Speaker, which is why the same
-        report can be waiting on one page and answered on the other.
+        recommendation at a time. Executive minutes are the one thing this register cannot
+        see arriving: they are tabled by the committee, not as a government response, so a
+        report answered that way stays here until the presiding officer’s next schedule
+        records it. Neither record is edited here. The Senate register follows the President
+        and the House register follows the Speaker, which is why the same report can be
+        waiting on one page and answered on the other.
       </p>
     )}
     <p class="note measure">
       <strong>{jointWord} of what is here is not the Senate's own.</strong> A joint committee
       reports to both houses, so its report is listed by both presiding officers:
       {" "}{fmt(sched.jointCommittee)} of the {fmt(rows.length)} reports below are joint
-      committee reports — the President titles her own document “Senate and joint
-      committee reports” — and {fmt(sched.onBothRegisters)} of them are on
+      committee reports (the President titles her own document “Senate and joint
+      committee reports”) and {fmt(sched.onBothRegisters)} of them are on
       {" "}<a href="/house/">the House register</a> as well. That is why the two counts
-      are never added: it would count the same report twice. The two lists do not contain the same joint reports,
-      and they are not meant to: the President and the Speaker exclude different categories,
+      are never added: it would count the same report twice. The two lists do not contain
+      the same joint reports: the President and the Speaker exclude different categories,
       the House removed everything presented before July 2019 and the Senate did not, and on
       three reports the two officers disagree about whether a response has been received. So
       a joint report can be on one register and not the other without either being wrong.
       {sched.deadlineDiffers > 0 && (
         <>
-          {" "}It is also why the same report can be past the deadline on one register and
-          within time on the other — the Senate counts three months from Senate tabling,
+          {" "}The same report can also be past the deadline on one register and
+          within time on the other: the Senate counts three months from Senate tabling,
           the House six from House presentation, and
           {" "}{sched.deadlineDiffers === 1 ? "one report is" : `${fmt(sched.deadlineDiffers)} reports are`}
           {" "}in that position today.
@@ -286,8 +284,8 @@ const byCommittee = [...rows.reduce((m, r) => {
     <p class="note measure">
       The register above is what is owed now. This is the record over
       {" "}{comp.lastYear - comp.firstYear} years: every response tabled between{" "}
-      {comp.firstYear} and {comp.lastYear} whose report date the Senate’s register records —
-      {" "}{fmt(comp.assessable)} of them — measured against the three-month rule. The interval
+      {comp.firstYear} and {comp.lastYear} whose report date the Senate’s register records,
+      {" "}{fmt(comp.assessable)} of them, measured against the three-month rule. The interval
       runs from the report’s last tabling, which is the reading most favourable to the
       government. <a href="/methods/#limits">What this does and does not count</a>.
     </p>
@@ -324,10 +322,9 @@ const byCommittee = [...rows.reduce((m, r) => {
     <h3 id="by-government">By government</h3>
     <p class="note measure">
       A late response can be attributed to the government that tabled it, or to the government
-      in office when the report was tabled. The two readings disagree about who performs worst,
-      and the disagreement is the point: the ordering is an artefact of the choice, while the
-      range — never above single figures — is not. Both are shown so that neither can be quoted
-      alone.
+      in office when the report was tabled. The two readings disagree about who performs worst.
+      The ordering depends on the choice; the range, never above single figures, does not.
+      Both are shown.
     </p>
     <table class="register narrow">
       <thead>
@@ -364,8 +361,8 @@ const byCommittee = [...rows.reduce((m, r) => {
       The whole register is available as CSV in the{" "}
       <a href="https://github.com/toohardbasket-lab/toohardbasket">public repository</a>,
       licensed CC BY 4.0. If you believe a row is wrong, please write to{" "}
-      <a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a> —
-      corrections are made within 24 hours of being confirmed and listed in the
+      <a href="mailto:corrections@toohardbasket.org.au">corrections@toohardbasket.org.au</a>.
+      Corrections are made within 24 hours of being confirmed and listed in the
       {" "}<a href="/corrections/">corrections log</a>.
     </p>
   </section>
