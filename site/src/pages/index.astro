@@ -184,6 +184,9 @@ const chambers = [
         <p class="clock" data-tabled={oldest.owedSince}>
           <span class="clock-figure"><span class="clock-days">{fmt(oldest.daysOutstanding)}</span> <span class="clock-unit">days</span></span>
           <span class="clock-rest"><span class="clock-time" aria-hidden="true"></span><span class="clock-note">and counting</span></span>
+          {oldest.url && (
+            <span class="clock-link"><a href={oldest.url} rel="external">The report on aph.gov.au →</a></span>
+          )}
         </p>
         <p class="sentence">
           The longest has been waiting <strong data-live-human={oldest.owedSince}>{humanDuration(oldest.daysOutstanding)}</strong>
@@ -479,6 +482,7 @@ const chambers = [
     font-variant-numeric: tabular-nums;
   }
   .clock-note { color: var(--ink-muted); }
+  .clock-link { display: block; margin-top: 0.35rem; font-size: 0.875rem; }
   .hero .lede { margin: 1.25rem 0 0; font-size: 0.9375rem; color: var(--ink-secondary); }
   @media (min-width: 62rem) { .hero .lede { margin-top: 0; } }
   /* The next-longest waits: a rail, not a table — days in the sans, the
