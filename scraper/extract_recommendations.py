@@ -94,7 +94,13 @@ ENDS_IN_VERDICT = re.compile(
     r"(?:\s+in\s+(?:principle|part))?\s*\.?\s*$", re.I)
 # A contents page, not a recommendation.
 LEADERS = re.compile(r"[.…]{6,}")
-SAYS_RECOMMEND = re.compile(r"\brecommend", re.I)
+# What a recommendation sounds like. "Recommends" is the committee's own word,
+# but a dissent writes "That the Government withdraw the Bill" and "The bill
+# should be amended", and a response quotes those as it finds them. Requiring
+# "recommend" left 212 such rows out, 191 of them with the government's answer
+# sitting right beneath — the same test the report side has always used.
+SAYS_RECOMMEND = re.compile(r"\brecommend|\bshould\b|\bmust\b|\bthat the\b|\bbe amended\b|"
+                            r"\bbe established\b|\bbe passed\b|\bbe introduced\b", re.I)
 # pdfplumber sometimes breaks words apart: "do es not su pport", "The C ommittee".
 # A stray single letter is the tell; "a" and "I" are the only real ones in English.
 # A list marker — "a.", "(b)", "c)" — is a stray single letter that belongs
