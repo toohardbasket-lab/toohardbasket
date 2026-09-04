@@ -103,6 +103,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
         document itself is a click away.
       </p>
       <ol class="results" data-quiet-list></ol>
+      <p class="more measure" data-quiet-more hidden></p>
     </div>
   </section>
 
@@ -319,6 +320,12 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     const quiet = document.querySelector("[data-quiet]");
     const quietHead = document.querySelector("[data-quiet-head]");
     const quietList = document.querySelector("[data-quiet-list]");
+    const quietMore = document.querySelector("[data-quiet-more]");
+    // The heading counts every response that matched; the list shows this
+    // many. A search for "response" matched 219 and showed 20 with nothing
+    // saying so, and a page about counts that are not what they seem should
+    // not do that.
+    const QUIET_LIMIT = 20;
     let rows = null, docs = [], loading = null, lastQuery = "";
 
     const load = () => {
@@ -471,7 +478,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       if (quietHits.length) {
         const m = quietHits.length;
         quietHead.textContent = `${m.toLocaleString("en-AU")} response${m === 1 ? "" : "s"} on “${q}” that ${m === 1 ? "sets" : "set"} out no recommendation`;
-        quietList.innerHTML = quietHits.slice(0, 20).map((d) => {
+        quietList.innerHTML = quietHits.slice(0, QUIET_LIMIT).map((d) => {
           const kind = d.k === "proforma_closure"
             ? "closed the report with the form letter"
             : "answered the report in prose, without taking the recommendations one by one";
@@ -482,9 +489,16 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
               <a href="${esc(d.u)}">the response</a></p>
           </li>`;
         }).join("");
+        if (m > QUIET_LIMIT) {
+          quietMore.textContent = `Showing the first ${QUIET_LIMIT} of ${m.toLocaleString("en-AU")}. Add another word to narrow it.`;
+          quietMore.removeAttribute("hidden");
+        } else {
+          quietMore.setAttribute("hidden", "");
+        }
         quiet.removeAttribute("hidden");
       } else {
         quiet.setAttribute("hidden", "");
+        quietMore.setAttribute("hidden", "");
       }
 
       const n = hits.length;
