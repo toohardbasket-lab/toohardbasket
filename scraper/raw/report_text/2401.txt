@@ -1,0 +1,1545 @@
+The Senate
+Foreign Affairs, Defence and
+Trade Legislation Committee
+Defence Legislation Amendment (Naval
+Nuclear Propulsion) Bill 2023 [Provisions]
+June 2023
+© Commonwealth of Australia 2023
+ISBN 978-1-76093-505-4 (Printed version)
+ISBN 978-1-76093-505-4 (HTML version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by Printed by the Senate Printing Unit, Parliament House Canberra
+Contents
+Members ............................................................................................................................................... v
+Chapter 1—Introduction .................................................................................................................... 1
+Referral of the bill ................................................................................................................................. 1
+Conduct of the inquiry ........................................................................................................................ 1
+Structure of the report ......................................................................................................................... 2
+Background ........................................................................................................................................... 2
+Purpose of the bill ................................................................................................................................ 6
+Key provisions of the bill .................................................................................................................... 7
+Australian Radiation Protection and Nuclear Safety Act 1998 .......................................... 7
+Environment Protection and Biodiversity Conservation Act 1999 .................................... 7
+Compatibility with human rights and legislative scrutiny ............................................................ 8
+Financial impact statement ................................................................................................................. 9
+Chapter 2—Views on the bill.......................................................................................................... 11
+Support for the bill ............................................................................................................................. 11
+Enabling nuclear technology for civilian use ..................................................................... 13
+Criticism of the bill ............................................................................................................................. 14
+Concerns regarding the moratorium on civil nuclear power ........................................... 15
+Government response to the concerns about a weakening of protections .......... 18
+Concerns regarding Australia’s independent defence capability .................................... 20
+Opportunities for scrutiny and transparency in decision-making .................................. 21
+Committee view ................................................................................................................................. 22
+Coalition Senators' Additional Comments .................................................................................. 25
+Senator the Hon Matt Canavan's Additional Comments .......................................................... 27
+Australian Greens' Dissenting Report .......................................................................................... 33
+Appendix 1—Submissions .............................................................................................................. 41
+iii
+
+Members
+Chair
+Senator Raff Ciccone ALP, VIC
+Deputy Chair
+Senator Claire Chandler LP, TAS
+Members
+Senator the Hon David Fawcett LP, SA
+Senator Nita Green ALP, QLD
+Senator Jordon Steele-John AG, WA
+Senator Linda White ALP, VIC
+Secretariat
+Sean Turner, Acting Committee Secretary
+Andrew Gaczol, Principal Research Officer
+Natasha Rusjakovski, Principal Research Officer
+Emma Wannell, Senior Research Officer
+Michael Fisher, Research Officer
+Georgia O'Connor, Administrative Officer
+Committee Webpage: http://www.aph.gov.au/senate_fadt
+PO Box 6100 Phone: +61 2 6277 3535
+Parliament House Email: fadt.sen@aph.gov.au
+Canberra ACT 2600
+Australia
+v
+
+Chapter 1
+Introduction
+Referral of the bill
+1.1 On 10 May 2023, the Defence Legislation Amendment (Naval Nuclear
+Propulsion) Bill 2023 (the bill) was introduced into the House of Representatives
+by the Deputy Prime Minister and Minister for Defence, the Hon Richard Marles
+MP (the Minister).1
+1.2 As explained below, the bill would amend the Australian Radiation Protection and
+Nuclear Safety Act 1998 (ARPANS Act) and Environment Protection and
+Biodiversity Conservation Act 1999 (EPBC Act) to enable the Chief Executive
+Officer (CEO) of the Australian Radiation Protection and Nuclear Safety Agency
+(ARPANSA) and the Minister for the Environment and Water to perform their
+respective regulatory functions in relation to Australia’s acquisition and
+operation of conventionally armed nuclear-powered submarines and their
+supporting infrastructure and facilities.
+1.3 On 11 May 2023, the Senate referred the provisions of the bill to the Senate
+Foreign Affairs, Defence and Trade Legislation Committee (the committee) for
+inquiry and report by 9 June 2023.2
+Conduct of the inquiry
+1.4 Details of the inquiry were made available on the committee’s website.3 The
+committee also contacted a number of organisations and individuals inviting
+written submissions by 26 May 2023. The submission due date was later
+extended to 31 May 2023. The committee published 117 submissions, listed at
+Appendix 1. The committee also received a range of correspondence providing
+commentary that supported or objected to the AUKUS partnership, more
+broadly.
+1.5 The committee thanks the individuals and organisations that took the time to
+contribute to the inquiry.
+1 House of Representatives—Votes and Proceedings, No. 53, 10 May 2023, p. 678.
+2 Journals of the Senate, No. 48—11 May 2023, p. 1385.
+3 The committee’s website can be accessed via www.aph.gov.au/senate_fadt.
+1
+2
+Structure of the report
+1.6 This report contains two chapters. This chapter sets out:
+ background information on the establishment of the AUKUS trilateral
+security partnership and its initiative to support Australia in acquiring
+conventionally armed nuclear-powered submarines; and
+ the purpose of the bill and the key provisions of the bill.
+1.7 Chapter two cavasses the key issues raised by submitters and sets out the
+committee’s views and recommendation.
+Background
+1.8 This section provides background information on the establishment of the
+AUKUS trilateral security partnership and its initiative to support Australia in
+acquiring conventionally armed nuclear-powered submarines.
+1.9 On 15 September 2021, the leaders of Australia, the United Kingdom and the
+United States announced the creation of a new trilateral security partnership to
+promote a free and open Indo-Pacific that is secure and stable. This partnership
+is known as AUKUS.4 The joint statement announcing the new partnership
+indicated:
+Through AUKUS, our governments will strengthen the ability of each to
+support our security and defense interests, building on our longstanding
+and ongoing bilateral ties. We will promote deeper information and
+technology sharing. We will foster deeper integration of security and
+defense-related science, technology, industrial bases, and supply chains.
+And in particular, we will significantly deepen cooperation on a range of
+security and defense capabilities.5
+1.10 The first major initiative of AUKUS was the trilateral decision to support
+Australia acquiring conventionally armed nuclear-powered submarines to
+enhance interoperability, commonality, and mutual benefit between the three
+nations.6
+1.11 On 13 March 2023, 18 months after the announcement, the three leaders of
+AUKUS outlined the pathway for Australia to acquire these submarines:
+Australia’s future SSN—which we are calling “SSN-AUKUS”—will be a
+state-of-the-art platform designed to leverage the best of submarine
+technology from all three nations. SSN-AUKUS will be based upon the
+United Kingdom’s next-generation SSN design while incorporating cutting
+4 The White House, ‘Joint Leaders Statement on AUKUS’, 15 September 2021 (accessed 24 May 2023).
+5 The White House, ‘Joint Leaders Statement on AUKUS’, 15 September 2021 (accessed 24 May 2023).
+6 The White House, ‘Joint Leaders Statement on AUKUS’, 15 September 2021 (accessed 24 May 2023).
+3
+edge U.S. submarine technologies, and will be built and deployed by both
+Australia and the United Kingdom.7
+1.12 In a joint statement, Prime Minister Anthony Albanese MP and the Minister
+noted that Australia’s acquisition of nuclear-powered submarines is the single
+biggest defence investment in Australia’s history and ‘represents a
+transformational moment for our nation, our Defence Force and our economy’.8
+1.13 The initiative will contribute to AUKUS’s objective to promote a secure and
+stable Indo-Pacific by:
+ increasing the number of partner-nation SSNs in the Indo-Pacific, increasing
+AUKUS nations’ combined capacity in the undersea domain;
+ creating additional production capacity, enabling AUKUS partners to grow
+the size of their combined submarine forces;
+ strengthening and making more resilient trilateral supply chains, enhancing
+the industrial bases in all three nations; and
+ enhancing the ability of the three nations to deter aggression and contribute
+to stability in the Indo-Pacific, and globally.9
+1.14 A phased approach will be taken to deliver the submarines at the earliest
+possible date and to support Australia’s development of the infrastructure,
+technical capabilities, industry and human capital necessary to produce,
+maintain, operate, and steward a sovereign fleet of conventionally armed
+nuclear-powered submarines:
+ Beginning in 2023, Australian military and civilian personnel will embed
+with the U.S. Navy, the Royal Navy, and in the United States and United
+Kingdom submarine industrial bases to accelerate the training of
+Australian personnel. The United States plans to increase SSN port visits
+to Australia beginning in 2023, with Australian sailors joining U.S. crews
+for training and development; the United Kingdom will increase visits to
+Australia beginning in 2026.
+ As early as 2027, the United States and United Kingdom plan to begin
+forward rotations of SSNs to Australia to accelerate the development of
+the Australian naval personnel, workforce, infrastructure and regulatory
+system necessary to establish a sovereign SSN capability.
+ Starting in the early 2030s, pending Congressional approval, the United
+States intends to sell Australia three Virginia class submarines, with the
+7 The White House, ‘Fact sheet: Trilateral Australia-UK-US Partnership on Nuclear-Powered
+Submarines’, 13 March 2023 (accessed 24 May 2023).
+8 The Hon Anthony Albanese MP, Prime Minister, and the Hon Richard Marles MP, Deputy Prime
+Minister and Minister for Defence, ‘AUKUS nuclear-powered submarine pathway’, joint media
+release, 14 March 2023 (accessed 24 May 2023).
+9 The White House, ‘Fact sheet: Trilateral Australia-UK-US Partnership on Nuclear-Powered
+Submarines’, 13 March 2023 (accessed 24 May 2023).
+4
+potential to sell up to two more if needed. This step will systematically
+grow Australia’s sovereign SSN capability and support capacity.
+ In the late 2030s, the United Kingdom will deliver its first SSN-AUKUS
+to the Royal Navy. Australia will deliver the first SSN-AUKUS built in
+Australia to the Royal Australian Navy in the early 2040s.10
+1.15 The cost of the acquisition is estimated to be 0.15% of GDP through the life of
+the program.11 The program will create approximately 20 000 direct jobs over
+the next 30 years across industry, the Australian Defence Force and the
+Australian Public Service.12 Australia’s infrastructure and industrial capacity
+will also be upgraded, including:
+ the expansion of HMAS Stirling in Western Australia to support the scale of
+infrastructure required for nuclear-powered submarines—both for visiting
+and rotational submarines and for Australia’s own nuclear-powered
+submarines;
+ the SSN-AUKUS submarines being built at Australia’s future Submarine
+Construction Yard in Adelaide, South Australia—employing thousands of
+workers onsite at peak; and
+ the establishment of additional training, skilling and educational programs
+to achieve this growth for Australia’s local submarine and shipbuilding
+industry.13
+1.16 Australia has committed to managing all of the radioactive waste generated
+through its nuclear-powered submarine program. The UK and US will assist
+Australia in developing this capability, and Australia will manage these
+materials in accordance with its nuclear non-proliferation and other
+international obligations. To strengthen Australia’s commitment to nuclear non-
+proliferation in light of the initiative, Australia:
+ will not seek to acquire nuclear weapons;
+ will not enrich uranium or reprocess spent fuel as part of this program;
+ will not produce its own nuclear fuel for its SSNs;
+10 U.S. Embassy in Canberra, ‘AUKUS Joint Leaders’ Statement’, 14 March 2023 (accessed 24 May
+2023).
+11 The Hon Richard Marles MP, Acting Prime Minister and Minister for Defence, the Hon Pat Conroy
+MP, Minister for Defence Industry and Minister for International Development and the Pacific,
+‘Subjects: AUKUS’, press conference transcript, 14 March 2023, p. 2.
+12 The Hon Anthony Albanese MP, Prime Minister, the Hon Richard Marles MP, Deputy Prime
+Minister and Minister for Defence, and the Hon Pat Conroy MP, Minister for Defence Industry and
+Minister for International Development and the Pacific, ‘AUKUS submarine workforce and
+industry strategy’, 14 March 2023 (accessed 25 May 2023).
+13 The White House, ‘Fact sheet: Trilateral Australia-UK-US Partnership on Nuclear-Powered
+Submarines’, 13 March 2023 (accessed 24 May 2023).
+5
+ will be provided with nuclear material in complete, welded power units
+that will not require refuelling during their lifetime;
+ will be provided with nuclear fuel that cannot be used in nuclear weapons
+without further chemical processing, which would require facilities that
+Australia does not have and will not seek; and
+ will work within the framework of its Comprehensive Safeguards
+Agreement (CSA) and Additional Protocol (AP) with the International
+Atomic Energy Agency (IAEA).14
+1.17 The Minister has stated that Department of Defence (Defence) is working to
+establish a process for how a site will be identified within the next twelve
+months. The Minister stated that the ‘facility will be on Defence land, current or
+future’.15
+1.18 On 6 May 2023, the Minister announced the Government will establish a new
+agency—the Australian Submarine Agency (ASA)—and a new regulator—the
+Australian Nuclear-Powered Submarine Safety Regulator (the Regulator)—as
+part of its commitment to delivering Australia’s conventionally armed nuclear-
+powered submarines.16
+1.19 The ASA will be established by executive order and be responsible and
+accountable for the management and oversight of Australia’s nuclear-powered
+submarine program, including from acquisition to delivery, construction,
+technical governance, sustainment, and disposal. The ASA will also enable the
+necessary policy, legal, non-proliferation, workforce, security and safety
+arrangements. The Nuclear-Powered Submarine Taskforce, originally
+established in 2021 to develop the pathway to deliver AUKUS’s submarine
+initiative, will transition from Defence to the ASA on 1 July 2023.17
+1.20 The Regulator will be independent of the Australian Defence Force’s chain of
+command and directions from Defence. It will work with existing Australian
+regulators to support the safety of our submariners, Australian and
+international communities, and the environment. The Regulator will have the
+functions and powers necessary to regulate the unique circumstances associated
+14 The White House, ‘Fact sheet: Trilateral Australia-UK-US Partnership on Nuclear-Powered
+Submarines’, 13 March 2023 (accessed 24 May 2023).
+15 The Hon Richard Marles MP, Acting Prime Minister and Minister for Defence, the Hon Pat Conroy
+MP, Minister for Defence Industry and Minister for International Development and the Pacific,
+‘Subjects: AUKUS’, press conference transcript, 14 March 2023, p. 2.
+16 The Hon Richard Marles MP, Deputy Prime Minister and Minister for Defence, ‘New agency and
+new regulator to deliver Australia's nuclear-powered submarine program’, media release, 6 May
+2023 (accessed 24 May 2023).
+17 The Hon Richard Marles MP, Deputy Prime Minister and Minister for Defence, ‘New agency and
+new regulator to deliver Australia's nuclear-powered submarine program’, media release, 6 May
+2023 (accessed 24 May 2023).
+6
+with nuclear safety and radiological protection across the lifecycle of Australia’s
+nuclear-powered submarine enterprise, including associated infrastructure and
+facilities.18
+Purpose of the bill
+1.21 The Minister stated this bill ‘is the first legislative step in support of Australia's
+acquisition of conventionally armed nuclear-powered submarines’ and
+‘[b]uilding the legal architecture to support this endeavour will involve multiple
+tranches of legislation’.19
+1.22 This bill seeks to amend the ARPANS Act and the EPBC Act to make clear that
+the current moratorium on civil nuclear power does not prevent the relevant
+regulators (the CEO of the ARPANSA and the Minister for the Environment and
+Water) from exercising their regulatory powers and performing functions in
+respect of conventionally armed nuclear-powered submarines.20
+1.23 In evidence to a Senate committee inquiry on 15 May 2023, the CEO of ARPSNA
+stated ‘the proposed amendment was to seek to enable ARPNSA in the short
+term to have a regulatory role in the space until Defence is able to establish the
+defence nuclear submarine safety regulator’.21 The Bills Digest suggested this
+legislation would be introduced later in 2023.22
+1.24 The explanatory memorandum (EM) stated that the bill’s amendments will not
+disrupt Australia’s moratorium on civil nuclear power. The bill does not change
+the existing protections regarding the health and safety of people and the
+environment that are currently contained in the ARPANS Act and the
+EPBC Act.23
+1.25 Further details on the provisions of the bill are provided below.
+18 The Hon Richard Marles MP, Deputy Prime Minister and Minister for Defence, ‘New agency and
+new regulator to deliver Australia's nuclear-powered submarine program’, media release, 6 May
+2023 (accessed 24 May 2023).
+19 The Hon Richard Marles MP, Deputy Prime Minister and Minister for Defence, Second Reading
+Speech, 10 May 2023, p. 15.
+20 EM, p. 1.
+21 Dr Gillian Hirth, Chief Executive Officer, Australian Radiation Protection and Nuclear Safety
+Agency (ARPNSA), Committee Hansard, Senate Environment and Communications Legislation
+Committee, inquiry into the Environment and Other Legislation Amendment (Removing Nuclear
+Energy Prohibitions) Bill 2022, 15 May 2023, p. 51.
+22 Dr Emily Gibson and Dr Adam Broinowski, Bills Digest No. 81, 2022–23, Parliamentary Library,
+Canberra, 22 May 2023, p. 1.
+23 EM, p. 1.
+7
+Key provisions of the bill
+1.26 The bill contains only one schedule which sets out the proposed amendments to
+the ARPANS Act and the EPBC Act.
+1.27 The EM notes that the word ‘plant’, referenced below, is aligned with the
+ARPANS Act and the EPBC Act and encompasses the entire nuclear propulsion
+system of which the reactor is a part.24
+Australian Radiation Protection and Nuclear Safety Act 1998
+1.28 The object of the ARPANS Act is to protect the health and safety of people, and
+to protect the environment, from the harmful effects of radiation. It establishes
+the Australian Radiation Protection and Nuclear Safety Agency (ARPANSA)
+and the Office of the CEO of ARPANSA.25
+1.29 ARPANSA is the Australian Government's primary authority on radiation
+protection and nuclear safety. ARPANSA regulates Commonwealth entities that
+use or produce radiation with the objective of protecting people and the
+environment from the harmful effects of radiation.26
+1.30 The bill proposes to amend subsections 10(1) and 10(2) of the ARPANS Act:
+ Subsection 10(1) provides that nothing in the ARPANS Act is taken to
+authorise the construction or operation of any of the following nuclear
+installations: a nuclear fuel fabrication plant, a nuclear power plant, an
+enrichment plant or a reprocessing facility.
+ Subsection 10(2) provides that the CEO must not issue a licence in respect of
+any of the facilities mentioned in subsection 10(1).27
+1.31 The proposed amendment clarifies that these subsections do not apply to a naval
+nuclear propulsion plant related to use in a conventionally armed nuclear-
+powered submarine.28
+Environment Protection and Biodiversity Conservation Act 1999
+1.32 The EPBC Act is Australia’s primary environmental legislation and is focused
+on the protection of nine matters of national environmental significance
+(MNES), including nuclear actions. Actions that are likely to have a significant
+impact on MNES require environmental assessment and an approval from the
+24 EM, p. 5.
+25 Australian Radiation Protection and Nuclear Safety Act 1998.
+26 Australian Radiation Protection and Nuclear Safety Agency (ARPANSA), ‘About us’,
+www.arpansa.gov.au/about-us (accessed 25 May 2023).
+27 EM, p. 3.
+28 EM, p. 3.
+8
+federal Environment Minister. However, some actions, including nuclear-
+related actions, are expressly prohibited under the EPBC Act.29
+1.33 According to the Department of Climate Change, Energy, the Environment and
+Water (DCCEEW), the EPBC Act covers a range of nuclear actions, such as:
+ establishing or significantly modifying a nuclear installation;
+ transporting spent nuclear fuel or radioactive waste products;
+ establishing or significantly modifying a facility for storing radioactive
+waste products;
+ mining or milling uranium ore;
+ establishing or significantly modifying a large-scale disposal facility for
+radioactive waste;
+ decommissioning or rehabilitating any facility or area in which one of the
+activities above has occurred; and
+ any other type of action set out in the EPBC Regulations.30
+1.34 The bill proposes to amend the subsections of the EPBC Act which currently
+restrict the Minister’s decision making—including in relation to making
+declarations, providing approvals, or entering into conservation agreements—
+in relation to actions consisting of, or involving the construction or operation of
+any of the following nuclear installations: a nuclear fuel fabrication plant, a
+nuclear power plant, an enrichment plant or a reprocessing facility.31
+1.35 The proposed amendments clarify that the Minister is not prevented from
+making declarations, providing approvals, or entering into conservation
+agreements for an action consisting of, or involving the construction or
+operation of a naval nuclear propulsion plant related to use in a conventionally
+armed nuclear-powered submarine.32
+Compatibility with human rights and legislative scrutiny
+1.36 The statement of compatibility with human rights in the bill’s EM states that the
+bill is compatible with the human rights and freedoms recognised or declared
+in the international instruments listed in section 3 of the Human Rights
+(Parliamentary Scrutiny) Act 2011.33
+29 Dr Emily Gibson, ‘Reform of Australia’s national environmental law’, Parliamentary briefing book:
+key issues for the 47th Parliament, June 2022 (accessed 25 May 2023).
+30 Department of Climate Change, Energy, the Environment and Water (DCCEEW), ‘What’s protected
+under the EPBC Act’, www.dcceew.gov.au/environment/epbc/our-role/what-is-protected#nuclear-
+actions (accessed 25 May 2023). See, also: Environment Protection and Biodiversity Conservation
+Regulations 2000, Part 2, Division 2.1—Nuclear action.
+31 See: EPBC Act, subsections 37J, 140A, 146M and 305(2); EM, pp. 3–5.
+32 EM, pp. 3–5.
+33 EM, p. 6.
+9
+1.37 It noted that whilst the bill engages the right to health in Article 12 of the
+International Covenant on Economic, Social and Cultural Rights—the right of
+everyone to the enjoyment of the highest attainable standard of physical and
+mental health—it does not limit it, because:
+… the amendments introduced by the Bill are intended only to clarify, not
+disrupt, the moratorium on civil nuclear power, as it is expressed in the
+relevant sections of the ARPANS Act and the EPBC Act. In particular, the
+Bill does not change the existing protections regarding the health and safety
+of people and the environment contained in those Acts.
+…
+For these reasons, the Bill does not affect Australia’s ability to implement its
+obligations under Article 12 of the ICESCR.34
+1.38 The Parliamentary Joint Committee on Human Rights and the Senate Standing
+Committee for the Scrutiny of Bills had not considered the bill prior to this report
+tabling.
+Financial impact statement
+1.39 The EM’s financial impact statement indicated that the bill will have no
+significant financial impact on Commonwealth expenditure or revenue.35
+34 EM, pp. 6–7.
+35 EM, p. 1.
+
+Chapter 2
+Views on the bill
+2.1 This chapter summarises the views expressed by submitters on the Defence
+Legislation Amendment (Naval Nuclear Propulsion) Bill 2023 [Provisions] (the
+bill).
+2.2 This chapter considers the following matters raised in evidence:
+ the importance of the amendments as a first step in establishing the
+necessary legislative framework for the nuclear-powered submarine
+program;
+ calls for the bill to be expanded to enable the use of nuclear power for
+civilian use;
+ claims that the amendments to the Australian Radiation Protection and Nuclear
+Safety Act 1998 (ARPANS Act) and the Environment Protection and
+Biodiversity Conservation Act 1999 (EPBC Act) represent an adjustment to the
+moratorium on civil nuclear power;
+ concerns that the amendments may ultimately detract from Australia’s
+capacity to exercise an independent defence capability; and
+ opportunities for scrutiny and public consultation on Australia’s decision to
+acquire conventionally armed nuclear-powered submarines.
+2.3 This chapter concludes with the committee view and recommendation.
+Support for the bill
+2.4 The committee received a range of submissions in support of the bill.1
+2.5 Vice Admiral (VADM) Paul Maddison (Ret'd), Director of the University of
+New South Wales Defence Research Institute, explained his support of the bill
+in the context of the importance of Australia’s decision to acquire nuclear-
+powered submarines. This decision, he observed, came about following the:
+… recurring assessment over past several decades that the optimal
+submarine capability for Australia was a nuclear-powered capability and
+although Australia frequently raised this requirement with its US partners,
+the response previously has been Australia was not sufficiently prepared.
+This has now changed, building on the success and constant
+Commonwealth support to the Collins class submarines, our US partners
+have assessed Australia to be ready. This change comes at a time when there
+is significant geostrategic uncertainty in [the] Indo-Pacific region.
+1 See, for example: The Royal Institution of Naval Architects (Australian Division), Inc., Submission
+5, p. 1; Minerals Council of Australia (MCA), Submission 12, p. 2; Australian Nuclear Association
+(ANA), Submission 13, p. 1; Mike Goodall, Submission 37, p. 1; Babcock Australasia, Submission 53,
+p. 2; Women in Nuclear Australia, Submission 47, p. 1.
+11
+12
+…
+Becoming a nuclear-powered submarine capable nation brings Australia
+into very select group globally, to one of only seven nations. This capability
+lifts both our strategic weight and our global influence as one of the major
+free democratic societies.2
+2.6 VADM Maddison (Ret'd) supported passage of the bill because it:
+… addresses the need for legislative amendments, without which the
+nuclear-powered submarine program cannot progress. The proposed Bill
+allows for variation of the existing legislation whilst maintaining the
+existing protections of both the ARPANS Act and the EPBC Act. The
+changes proposed will only apply to nuclear-powered submarines and does
+not weaken any of the human or environmental protections provided by the
+Acts. The variations proposed are minimal and enable timely progression
+on the nuclear-powered submarine program. These changes will commence
+the associated legislative framework needed for the nuclear-powered
+submarine program and build upon the strong Australian regulatory
+framework already established. This Bill is the first step on the path to
+establishment of a complete regulatory framework and the provision of a
+separate fit-for-purpose regulator for nuclear-powered submarine
+program.3
+2.7 SMR Nuclear Technology Pty Ltd, an Australian-owned nuclear power
+technology consulting company, supported the passage of the bill for the
+following reasons:
+It is important to enable the CEO of ARPANSA [Australian Radiation
+Protection and Nuclear Safety Agency] and the Minister for Environment
+and Water to perform their regulatory functions in relation to the acquisition
+and operation of conventionally armed nuclear-powered submarines now,
+in so far as security requirements permit.
+It is particularly important at this stage to allow ARPANSA to have
+regulatory oversight of the proposals for infrastructure and facilities to
+allow work to proceed before the ANPSSR [Australian Nuclear-Powered
+Submarine Safety Regulator] and its supporting legislation is fully in place.
+The role, responsibilities, and interfaces between ARPANSA and ANPSSR
+should be formalised, particularly in the areas of radioactive waste
+management, safety standards and emergency preparedness. This will also
+require formalised interfaces with some State authorities.4
+2.8 Similarly, Women in Nuclear Australia, a global not-for-profit association of
+women and individuals of other genders who work professionally in various
+fields of nuclear technology and radiological applications, argued the bill would
+help ensure Australian nuclear safety and effective regulation:
+2 Vice Admiral (VADM) Paul Maddison (Ret'd), Submission 110, pp. 1–2.
+3 VADM Maddison (Ret'd), Submission 110, p. 1.
+4 SMR Nuclear Technology Pty Ltd, Submission 4, p. 1. Original emphasis.
+13
+The introduction of nuclear technologies in a Defence capacity will require
+thorough governance, oversight, and regulation from inception through to
+operational use, particularly regarding nuclear safety. Until the Australian
+Nuclear Powered Submarine Safety Regulator (ANPSSR) can be established
+and legislated as the standing regulator, it is essential that the current
+regulator for nuclear safety, CEO of the Australian Radiation Protection and
+Nuclear Safety Agency (ARPANSA) and the Minister for Environment and
+Water, be able to perform the required regulatory functions.5
+2.9 Babcock Australasia is a defence and security company which provides
+submarine in-service support to the Royal Navy, including Defence nuclear
+support. It argued for the bill to be passed without amendment, outlining that
+Australia’s acquisition of conventionally armed nuclear-powered submarines:
+… is a critical national endeavour that will assist in addressing the nation’s
+challenging strategic circumstances within the region and ensure Australia
+can play its part in protecting the international rules-based order. We stand
+ready to assist Australia in delivering its largest defence procurement and
+technological development since World War II.
+… we understand that the Bill clarifies the current moratorium on civil
+nuclear power in respect to conventionally armed, nuclear-powered
+submarines and enables necessary decisions relating to the nuclear
+submarine enterprise to be made, whilst maintaining existing regulatory
+powers.
+We note that the Bill also continues Australia’s ongoing commitment to its
+obligations under the Treaty on the Non-Proliferation of Nuclear Weapons,
+Non-Proliferations and Disarmament Initiative, Comprehensive Test Ban
+Treaty, Fissile Material Cut-Off Treaty and the Treaty of Rarotonga, and also
+maintains Australia’s moratorium on civil nuclear power.6
+Enabling nuclear technology for civilian use
+2.10 The Minerals Council of Australia (MCA) and the Australian Nuclear
+Association (ANA), an independent incorporated scientific institution,
+supported the amendments proposed in the bill but argued that the bill’s
+provisions should be expanded to enable the establishment of an Australian
+civilian nuclear industry.7 Save Our Surroundings (SOS), a network of like-
+minded concerned citizens, also supported lifting the ban on nuclear energy in
+Australia.8
+5 Women in Nuclear Australia, Submission 47, p. 1.
+6 Centre for Energy and Natural Resources Innovation and Transformation, Submission 52, p. 2.
+7 MCA, Submission 12, p. 2; ANA, Submission 13, p. 1.
+8 Save Our Surroundings (SOS), Submission 14, p. 1. Also see, Australian Citizens Party, Submission
+29, pp. 1–2; Ann Lawler, Submission 43, p. 1; Centre for Energy and Natural Resources Innovation
+and Transformation, Submission 52, pp. 3–5.
+14
+2.11 MCA called on the Government to take a consistent approach with respect to
+the availability of nuclear energy in defence and civilian contexts, arguing:
+There is clearly an opportunity for Australian uranium resources to
+underpin an expanded civilian nuclear industry that utilises a highly-skilled
+workforce to deliver low-emissions energy.
+… Amendments should be made to this Bill to ensure the ARPANS Act and
+the EPBC Act facilitate the use of nuclear energy to the benefit of all
+Australians.9
+2.12 Similarly, ANA submitted that the explanatory memorandum (EM) ‘incorrectly
+argues that nuclear reactors used in submarines are somehow safer than reactors
+used on land for energy generation’:
+The AUKUS submarines will be powered by pressurised water reactors
+(PWRs). It is clearly illogical to claim in the Explorative Memorandum “The
+Bill does not change the existing protections regarding the health and safety
+of people and the environment that are currently contained in the ARPANS
+Act and the EPBC Act” by allowing PWRs in submarines but somehow
+considering PWRs in engineered facilities on land more of a risk to the health
+and safety of people and the environment.
+The risk to health, safety and environment of a nuclear power reactor is
+clearly similar whether the reactor is in a submarine on the high seas or in
+port, or a nuclear power plant in a purpose-built facility on land.10
+2.13 Whilst supportive of Australia’s planned acquisition of nuclear submarines,
+SOS argued that the bill would not be necessary if the parliament instead
+removed the ban on nuclear power electricity generation in Australia more
+broadly. This would allow for not only a strong defence capability ‘to protect
+our sovereignty and independence in an uncertain world of increasing national
+hostilities and threats’, but also enable ‘a robust, reliable, plentiful and always
+available source of electricity across our nation is essential for our energy
+independence and our sovereign security’.11
+2.14 The Government’s position on lifting the ban on the use of civil nuclear power
+remains clear, and the EM emphasised that the bill’s amendments will not
+disrupt Australia’s moratorium on civil nuclear power.12
+Criticism of the bill
+2.15 A number of submitters raised concerns that the amendments to the ARPANS
+Act and EPBC Act may weaken Australia’s moratorium on civil nuclear power
+which prevents the use of nuclear energy in Australia for the protection of
+9 MCA, Submission 12, pp. 1–2.
+10 ANA, Submission 13, p. 1.
+11 SOS, Submission 14, p. 1.
+12 Explanatory memorandum (EM), p. 1.
+15
+Australians and the environment.13 Others questioned the impact of the bill on
+Australia’s capacity to exercise an independent defence capability.14
+Concerns regarding the moratorium on civil nuclear power
+2.16 The Australian Manufacturing Workers’ Union (AMWU) strongly opposed any
+changes to the ARPANS and EPBC Acts ‘that would lead to the development of
+a nuclear industry in this country or lead to a breach of [Australia’s] moratorium
+[on civil nuclear power]’.15
+2.17 International Volunteers for Peace, a small volunteer run organisation that
+facilitates international volunteering, agreed stating:
+The 1998 moratorium in place against nuclear infrastructure recognised the
+environmental and national risks in investment in nuclear technology.
+Making an exception for the proposed acquisition of craft propelled by
+nuclear energy steps Parliament back from this principled stand and is not
+worthy of Australia as a leader in nuclear nonprofileration.16
+2.18 The Medical Association for Prevention of War, a national organisation of health
+professionals, was concerned that because the Acts do not distinguish between
+civil and non-civil nuclear actions—effectively meaning that all actions are
+prohibited—the material effect of the amendments:
+… will be to permit the operation of naval nuclear reactors, and the
+development of associated infrastructure and facilities, including facilities
+for radioactive waste, which is in practice a disruption of the moratorium.
+The moratorium has broad public support and is enshrined in some state
+and territory legislation.17
+2.19 Associate Professor David Neville from Charles Sturt University argued the bill
+would erode the protections that are provided by the ARPANS and EPBC Acts
+to facilitate Australia’s acquisition of nuclear-powered submarines.18
+2.20 Dr Kathryn James submitted that the existing legislation exists to protect the
+safety of Australia, its residents and the environment, animals and plants within
+13 See, for example: Associate Professor David Neville, Submission 9, p. 1; Peace Studies, Submission
+25, p. 1; Dr Shirley Fitzgerald, Submission 26, p. 1; Ms Bronwyn Johnson and Dr David Batten,
+Submission 28, p. 1; Gregory John Olsen, Submission 33, p. 1; Hunter Community Forum, Submission
+51, p. 2; Medical Association for Prevention of War, Submission 49, p. 1.
+14 See, for example: Dr Hilary Green, Submission 16, p. 1; Jamie Shaw, Submission 19, p. 1; Adrienne
+Shilling, Submission 22, p. 1; Dr Shirley Fitzgerald, Submission 26, p. 1; Gregory John Olsen,
+Submission 33, p. 1.
+15 Australian Manufacturing Workers’ Union (AMWU), Submission 6, pp. 1–2.
+16 International Volunteers for Peace, Submission 8, p. 1.
+17 Medical Association for Prevention of War, Submission 49, p. 1.
+18 Associate Professor David Neville, Submission 9, p. 1.
+16
+it. Dr James stated that ‘[n]othing about the need for this protection has changed
+since the legislations were written’.19
+2.21 Nuclear Free WA and Stop AUKUS WA, an environmental non-government
+organisation and community campaign group, argued that there remain
+unresolved issues about nuclear power that make it incompatible with
+Australia’s environmental laws. They asserted that the safety, public health and
+environmental risks, and the long-term management of radioactive waste issues
+remain, regardless of whether nuclear power is used for commercial production
+or naval nuclear propulsion.20
+2.22 The Electrical Trades Union of Australia (ETU) stated that it does not support
+‘the watering down of long-standing nuclear prohibitions to allow for the
+acquisition of nuclear-powered submarines’, outlining:
+… we maintain our belief that the nuclear industry presents more issues to
+Australian workers and communities than it could possibly solve. From the
+extraction of uranium through to usage and waste disposal, there is no
+future for nuclear in Australia.
+… We hold serious concerns that the erosion of these prohibitions for
+military technology undermines the peaceful intent of the Treaty on the
+Non-Proliferation of Nuclear Weapons, presents a safety risk to workers and
+sailors, and risks stranding Australia with dangerous high-level nuclear
+waste requiring costly management for tens of thousands of years.21
+2.23 The AMWU similarly asserted that it does not support any changes to legislation
+that would ‘facilitate a breach of our international commitments to international,
+nuclear non-proliferation’.22 This was a concern also raised by other submitters.23
+2.24 The Australian Conservation Foundation (ACF), a national environmental
+organisation, requested further detail on how the proposed Bill and the actions
+it would enable align with Australia’s obligations under the Nuclear
+Non-Proliferation Treaty (NPT). It observed:
+Should AUKUS be advanced, Australia would be the only non-Nuclear
+Weapons State to have nuclear powered submarines. This unhelpful
+exercise in Australian exceptionalism and the proposed use of weapons
+grade highly enriched uranium (HEU) has clear proliferation sensitivities
+and is the focus of deep concern from nations in the region.
+…
+19 Dr Kathryn James, Submission 10, p. 1.
+20 Nuclear Free WA and Stop AUKUS WA, Submission 30, p. 2.
+21 Electrical Trades Union of Australia (ETU), Submission 7, p. 1.
+22 AMWU, Submission 6, pp. 1–2.
+23 See, for example: Dr Hilary Green, Submission 16, p. 1; Mr Michael Poole, Submission 98, p. 3; Medical
+Association for Prevention of War, Submission 49, p. 2.
+17
+The current approach to advancing AUKUS fails to recognise or reflect the
+complexity and significance of the AUKUS related non-proliferation
+concerns.
+[ACF] recommends Australia signs the UN Treaty on the Prohibition of
+Nuclear Weapons (TPNW) … Signing the TPNW is important as a regional
+assurance mechanism and to give effect to clear statements from the Prime,
+Defence and Foreign Ministers that AUKUS is not related to any future
+Australian ambition to acquire or facilitate nuclear weapons.24
+2.25 Other submitters raised concerns about the safety of nuclear-powered
+submarines both for those in the vicinity of ports and of the naval staff operating
+the submarines.25
+2.26 The processing of nuclear waste in Australia was also raised in a number of
+submissions.26 For example, Dr Hilary Green noted the lack of plans for the
+disposal and long-term storage of depleted fuel and reactors.27
+2.27 Mr David Noonan submitted that it was necessary to consider the capacity and
+preparedness of ARPANS and Department of Climate Change, Energy, the
+Environment, and Water (DCCEEW):
+… in taking up the powers, functions and roles provided for through these
+amendments, “if and when required”, and envisaged regarding nuclear
+powered submarine and supporting infrastructure and facilities.28
+2.28 The ACF argued that more clarity was needed around the short- and longer-
+term regulatory mechanisms for nuclear submarines, in particular the
+delineation of roles and responsibilities between Australian Radiation
+Protection and Nuclear Safety Agency (ARPANSA) and the proposed
+Australian Nuclear Powered Submarine Safety Regulator.29
+24 Australian Conservation Foundation (ACF), Submission 48, pp. 2–4.
+25 See, for example: Dr Hilary Green, Submission 16, p. 1; Jamie Shaw, Submission 19, p. 2. See, also:
+Gregory John Olsen, Submission 33, p. 1; Judith Crotty, Submission 21, p. 1; Adrienne Shilling,
+Submission 22, p. 2; Hunter Community Forum, Submission 51, p. 2.
+26 See, for example: AMWU, Submission 6, pp. 1–2; Dr Hilary Green, Submission 16, p. 1; Jamie Shaw,
+Submission 19, p. 2; Adrienne Shilling, Submission 22, p. 2; Dr Shirley Fitzgerald, Submission 26, p. 1;
+Medical Association for Prevention of War, Submission 49, p. 2.
+27 Dr Hilary Green, Submission 16, p. 1.
+28 Mr David Noonan, Submission 46, p. 1.
+29 ACF, Submission 48, p. 2.
+18
+Government response to the concerns about a weakening of protections
+2.29 ARPANSA is the Australian Government's primary authority on radiation
+protection and nuclear safety. ARPANSA’s CEO is responsible for protecting
+the Australian people and the environment from the harmful effects of radiation
+under the ARPANS Act.30
+2.30 ARPANSA confirmed that the amendments to the ARPANS Act proposed in
+the bill will enable ‘the CEO of ARPANSA to perform their legislated regulatory
+functions, if and when required, in relation to Australia’s acquisition and
+operation of conventionally-armed, nuclear-powered submarines and
+supporting infrastructure and facilities’. This means:
+… that the CEO of ARPANSA is not prevented from undertaking their
+regulatory functions under the ARPANS Act in respect of their normal
+duties or in the support of the nuclear-powered submarine program. The
+amendment achieves this by clarifying that the prohibitions that apply in
+s10 of the ARPANSA Act do not apply to naval nuclear propulsion.31
+2.31 The Department of Defence (Defence), DCCEEW and ARPANSA confirmed that
+the bill’s amendments do not disturb the civil nuclear power moratorium and
+will not affect the existing prohibition on the approval of civil nuclear power
+projects.32
+2.32 ARPANSA added that it does not consider it necessary to modify the
+moratorium on civil nuclear power with respect to nuclear-powered
+submarines, ‘other than to clarify that it does not prevent the performance of
+regulatory functions that might be necessary in respect of the nuclear-powered
+submarine program and its supporting infrastructure and facilities’.33
+2.33 In its submission, ARPANSA noted that it was consulted on the proposed
+amendments to its Act by Defence. ARPANSA supports the amendments as ‘an
+important step to providing regulatory clarity for nuclear-powered submarines
+in Australia’ and argued:
+… it is vital that Australia’s nuclear-powered submarine program is
+operated under a regulatory framework that upholds international best
+practice in nuclear and radiation safety. Nuclear safety regulation must
+apply to this enterprise as it does to any civilian nuclear facility and other
+Defence activities.34
+30 Australian Radiation Protection and Nuclear Safety Agency (ARPANSA), Submission 3, p. 1.
+31 ARPANSA, Submission 3, p. 1.
+32 Department of Defence (Defence), Submission 1, p. 2; Department of Climate Change, Energy,
+the Environment, and Water (DCCEEW), Submission 2, p. 2; ARPANSA, Submission 3, p. 1.
+33 ARPANSA, Submission 3, p. 1. See, also: Defence, Submission 1, p. 2.
+34 ARPANSA, Submission 3, pp. 1–2.
+19
+2.34 As noted in chapter 1, the Minister for Defence, the Hon Richard Marles MP (the
+Minister), announced that a new regulator would be established called the
+Australian Nuclear-Powered Submarine Safety Regulator. Defence indicated
+that the legislation to support the establishment of this new regulator is
+currently being developed. Defence confirmed the new regulator will:
+… have the functions and powers necessary to regulate the unique
+circumstances associated with nuclear safety and radiological protection
+across the life cycle of Australia's nuclear-powered submarine enterprise.
+This includes associated infrastructure and facilities. The new regulator will
+be a fundamental part of a system of regulation. It will work with existing
+Australian regulators, including ARAPNSA and the Department of Climate
+Change, Energy, the Environment and Water, to support the safety of our
+submariners, Australian and international communities, and the
+environment.35
+2.35 ARPANSA acknowledged it will be a part of a system of regulation for the
+submarine program and work with the new regulator. Its role will continue to
+be to ensure nuclear radiation protection for the Australian public and the
+environment.36
+2.36 In relation to the amendments to the EPBC Act, DCCEEW submitted that
+nuclear actions, such as those proposed within the conventionally armed
+nuclear submarine program, should be subject to an independent, rigorous
+environmental assessment.37 DCCEEW confirmed that the proposed
+amendments:
+… will have the effect of specifically enabling the Minister responsible
+(currently the Minister for the Environment and Water) to consider the
+approval of these actions under the EPBC Act.
+This means the amendments enable the independent, rigorous
+environmental assessment and approval of conventionally armed, nuclear-
+powered submarines, associated nuclear infrastructure, facilities and sites
+under Australia's national environmental laws. This assessment will cover
+potential impacts to matters of national environmental significance against
+the criteria for these matters, and potential impacts to the environment as a
+whole.
+The scope of the environmental assessment that will be enabled is expected
+to include Defence sites, facilities to be installed, as well as the operation of
+the conventionally armed nuclear powered submarines themselves. This
+program is expected to trigger assessment under the EPBC Act as a
+Commonwealth action and, for some components of the program, as a
+35 Defence, Submission 1, p. 2.
+36 ARPANSA, Submission 3, p. 1.
+37 DCCEEW, Submission 2, p. 1.
+20
+nuclear action, which it is anticipated will also cover the handling, storage
+and disposal of nuclear material.38
+2.37 Defence stated that the bill ‘demonstrates the action Australia is taking to safely
+and securely steward conventionally-armed nuclear-powered submarines
+throughout their entire life cycles’. The bill, it maintained, does not ‘change the
+existing protections regarding the health and safety of people and the
+environment that are currently contained in the ARPANS Act and the EPBC
+Act’.39
+Concerns regarding Australia’s independent defence capability
+2.38 Some submitters suggested that the bill would facilitate a situation where
+Australia would be overly reliant on the United States (US) and United
+Kingdom (UK) in relation to the submarines.40
+2.39 Jamie Shaw pointed to the potential dependency of Australia on nuclear fuel
+production in other countries:
+If the Bill is passed and the proposed submarines are to be nuclear-powered,
+presumably any nuclear fuel fabrication or enrichment plant or reprocessing
+facility could not be built in Australia. Australia’s sole task would be to
+assemble the submarines’ components.
+The technology upon which these submarines depend would, therefore, be
+subject to the agreement and control of foreign powers, namely the US and
+UK. This represents an extraordinary loss of Australian control over its
+sovereignty and its ability to oppose or distance Australia from any
+significant conflict in which either the US or UK were involved.41
+2.40 Ms Shilling also submitted that the acquisition of nuclear-powered submarines
+ensures Australia must depend on US technology for the building, maintenance
+and operation of the submarines:
+As such the Australian Government has aligned itself with US foreign policy
+and will need to maintain this close alignment to gain and maintain access
+to this technology for decades.42
+2.41 AMWU outlined its position as follows:
+The AMWU advocates for government investment in the domestic
+manufacture of all defence equipment, and their supply chains to build and
+sustain our sovereign capabilities in defence manufacture. In particular, our
+38 DCCEEW, Submission 2, p. 1.
+39 Defence, Submission 1, p. 2.
+40 See, for example: Friends of the Earth Adelaide, Submission 11, p. 1; Dr Hilary Green, Submission 16,
+p. 1; Jamie Shaw, Submission 19, p. 1; Adrienne Shilling, Submission 22, p. 1; Dr Shirley Fitzgerald,
+Submission 26, p. 1; Hunter Community Forum, Submission 51, p. 2.
+41 Jamie Shaw, Submission 19, p. 1.
+42 Adrienne Shilling, Submission 22, p. 1. Original emphasis.
+21
+vessels, submarines, weaponry, ordinance and military vehicles, and
+aircraft, which are at the heart of a modern self-sufficient ADF in Australia,
+must be built and maintained here, using Australian design and engineering
+capability and the skills of Australian workers.43
+2.42 Some submitters pointed to broader concerns regarding the impact of the
+AUKUS agreement and the nuclear-powered submarine pathway on Australia’s
+sovereignty. For example, Major-General Michael G. Smith AO (Ret’d) and
+Professor John Langmore AM were of the view that pursuing AUKUS ‘relegates
+Australia’s sovereignty’.44 A similar view was expressed by Mr Graeme
+Medhurst.45
+2.43 On the other hand, SOS welcomed Australia’s acquisition of ‘state-of-the art
+nuclear submarines’, noting that a ‘strong defence capability for our nation is
+essential to protect our sovereignty and independence in an uncertain world of
+increasing national hostilities and threats’.46
+2.44 In a statement to the House of Representatives, the Minister commented on the
+maintenance of Australia’s sovereignty in relation to Australia’s acquisition of
+the conventionally armed nuclear-powered submarines:
+The acquisition of this formidable capability is the single biggest leap in
+Australia’s defence capability.
+…
+These submarines will be based on a UK design, incorporating the very best
+of Australian, US and UK technology.
+Australia’s next-generation submarines will be Australian sovereign assets,
+commanded by Australian officers, and under the sovereign control of
+Australia. And they will be built by Australian workers in South Australia.47
+Opportunities for scrutiny and transparency in decision-making
+2.45 A number of submitters questioned whether there had been sufficient
+opportunity for public scrutiny of Australia’s decision to acquire nuclear-
+43 AMWU, Submission 6, p. 1.
+44 Major-General Michael G. Smith AO (Ret’d) and Professor John Langmore AM, Submission 23, p. 5.
+45 Mr Graeme Medhurst, Submission 27, p. 3.
+46 SOS, Submission 14, p. 1.
+47 The Hon Richard Marles MP, Deputy Prime Minister and Minister for Defence, ‘AUKUS nuclear-
+powered submarine pathway, House of Representatives, Parliament House, Canberra ACT’,
+22 March 2023 (accessed 1 June 2023).
+22
+powered submarines.48 Some submitters also called for a parliamentary inquiry
+into the broader AUKUS nuclear-powered submarine initiative.49
+2.46 The ETU questioned the level of public support for the decision to acquire
+nuclear-powered submarines and noted there is no ‘consensus within the
+defence establishment or parliament’.50 The ETU stated that the decision to
+acquire nuclear-powered submarines increases Australia’s risk profile and
+therefore should ‘be carefully, methodically, and transparently assessed by the
+Australian people, rather than moving to open up long held legislative
+protections to Australia’s sovereignty, safety, and environment’.51
+2.47 Associate Professor David Neville agreed, arguing that the bill should only be
+considered subsequent to a larger parliamentary inquiry into the AUKUS
+agreement.52
+2.48 The Medical Association for Prevention of War also supported the
+establishment of such an inquiry, stating:
+The committee should reject this bill, and recommend a full inquiry into the
+implications of the proposed acquisition of naval nuclear power for human
+health, the environment, security and sovereignty, regional relationships
+and non-proliferation obligations.53
+2.49 ACF also called for a broader inquiry into AUKUS, submitting:
+Given that this Bill is the first of a series of legislative moves related to
+advancing AUKUS there is a need for a dedicated and transparent Inquiry
+that explores but is not limited to issues around cost, rationale, nuclear
+proliferation, emergency and waste management concerns.54
+Committee view
+2.50 The committee recognises and agrees with the importance of the acquisition of
+conventionally armed nuclear-powered submarines in strengthening
+48 See, for example: Adrienne Shilling, Submission 22, p. 1; Major-General Smith AO (Ret’d) and
+Professor Langmore AM, Submission 23, p. 1; Ms Bronwyn Johnson and Dr David Batten, Submission
+28, p. 1; Nuclear Free WA and Stop AUKUS WA, Submission 30, pp. 1–2; Mr David Noonan,
+Submission 46, pp. 1–2; Hunter Community Forum, Submission 51, p. 2; Medical Association for
+Prevention of War, Submission 49, p. 1; ACF, Submission 48, p. 4.
+49 See, for example: International Volunteers for Peace, Submission 8, p. 1; Associate Professor David
+Neville, Submission 9, p. 1; Dr Kathryn James, Submission 10, p. 1; Friends of the Earth Adelaide,
+Submission 11, pp. 1–2; Adrienne Shilling, Submission 22, p. 4; Nuclear Free WA and Stop AUKUS
+WA, Submission 30, pp. 1–2.
+50 ETU, Submission 7, p. 1. See, also: Nuclear Free WA and Stop AUKUS WA, Submission 30, p. 5.
+51 ETU, Submission 7, p. 1.
+52 Associate Professor David Neville, Submission 9, p. 1.
+53 Medical Association for Prevention of War, Submission 49, p. 3.
+54 ACF, Submission 48, p. 4.
+23
+Australia’s defence capability, securing its national interest, and enhancing its
+contribution to the security and stability of the region. The committee notes that
+this bill represents the first legislative step in building the legal architecture
+required to support Australia's acquisition of conventionally armed nuclear-
+powered submarines and understands further tranches of legislation are
+forthcoming.
+2.51 The committee thanks all individuals and organisations who took the time to
+provide feedback on the bill. The committee acknowledges the concerns of some
+individuals who raised broader concerns about the AUKUS trilateral
+partnership and the initiative for Australia to acquire conventionally armed
+nuclear-powered submarines. However, the committee emphasises that the bill
+before it relates to a narrower technical change that seeks to make clear that the
+current moratorium on civil nuclear power does not prevent the relevant
+regulators from exercising their regulatory powers and performing functions in
+respect of conventionally armed nuclear-powered submarines.
+2.52 The committee notes that some submitters raised concerns that the bill may
+detract from Australia’s capacity to exercise an independent defence capability.
+The committee is of the view that maintaining Australia’s sovereignty is of the
+utmost importance and is central to the pursuit of Australia’s national interest.
+The committee agrees that Australia’s involvement in the AUKUS partnership
+in fact enhances Australia’s sovereign capability and security by cooperating
+with and capitalising on the strengths of trusted and reliable partners.
+The committee acknowledges that the conventionally armed nuclear-powered
+submarines will be Australian sovereign assets under the sovereign control of
+the Australian Government, commanded by the Royal Australian Navy and
+built and sustained by Australian workers in Australian shipyards.
+2.53 Some submitters raised concerns about the safety implications of the nuclear-
+powered submarines. The committee takes very seriously the safety of
+Australia’s submariners, the Australian public, international communities, and
+the environment. The committee has been reassured by Defence, DCCEEW and
+ARPANSA that the proposed amendments do not change the existing
+protections regarding the health and safety of people and the environment that
+are currently contained in the ARPANS and EPBC Acts. The committee was
+further reassured that the legislation to establish the new regulator—the
+Australian Nuclear-Powered Submarine Safety Regulator—is currently being
+drafted and will ensure that it has the necessary functions and powers to
+regulate the unique circumstances associated with nuclear safety and
+radiological protection across the life cycle of Australia's nuclear-powered
+submarine initiative. The committee understands that the new regulator will
+work alongside ARPANSA and DCCEEW to support the safety of all
+Australians, the international community, and the environment.
+24
+2.54 As the Australian Government's primary authority on radiation protection and
+nuclear safety, the committee was encouraged to receive information from
+ARPANSA that it had been consulted by Defence on the proposed amendments
+to its Act. ARPANSA supported the amendments as an important step in
+providing regulatory clarity for nuclear-powered submarines in Australia,
+where its role would be to continue to ensure nuclear radiation protection for
+the Australian public and the environment. Furthermore, ARPANSA confirmed
+that the proposed amendments would not prevent its CEO from undertaking
+their regulatory functions under the ARPANS Act in respect of their normal
+duties or in the support of the nuclear-powered submarine program.
+2.55 On the protection of the environment, the committee was also reassured by
+DCCEEW that the bill’s proposed amendments will ensure that independent,
+rigorous environmental assessments and approvals will still be conducted
+under the EPBC Act in relation to the acquisition and operation of
+conventionally armed nuclear-powered submarines, and associated nuclear
+infrastructure, facilities and sites. The committee notes that the Government
+announced that a process for determining its plans for the storage and disposal
+of nuclear waste associated with the submarines will be set out within the next
+12 months, and that these facilities will be located on current or future Defence
+estates.
+2.56 The committee notes the various perspectives raised by submitters in relation to
+the implications of the bill’s proposed amendments on the civil nuclear power
+moratorium. Importantly, the committee notes statements made by the Minister
+for Defence, Defence, DCCEEW and ARPANSA confirming that the bill’s
+amendments do not disturb the civil nuclear power moratorium and do not
+disturb the existing prohibition on the approval of civil nuclear power projects.
+2.57 The committee has been assured that appropriate steps have been taken to
+safeguard the ability of the ARPANS and EPBC Acts to continue to regulate and
+assess actions taken in relation to Australia’s acquisition and operation of
+conventionally armed nuclear-powered submarines. The committee sees this
+bill as the first legislative step towards strengthening Australia’s defence
+capability through the acquisition of the nuclear-powered submarines, which
+will also enhance Australia’s contribution to the security and stability of the
+region.
+Recommendation 1
+2.58 The committee recommends the bill be passed without delay.
+Senator Raff Ciccone
+Coalition Senators' Additional Comments
+1.1 Coalition Senators welcome the ongoing progress of the AUKUS partnership
+and the acquisition of nuclear-powered submarines through the AUKUS
+partnership.
+1.2 Both initiatives were commenced under the former Government and retain our
+full support on a bipartisan basis.
+1.3 Coalition Senators support the report’s recommendation that this Bill, which is
+a necessary step towards the acquisition of nuclear-powered submarines, be
+passed without delay.
+1.4 Coalition Senators note the views of submitters to this inquiry regarding
+Australia’s current moratorium on civil nuclear power.
+1.5 It is entirely reasonable that Australia has a conversation about whether it is
+necessary and appropriate to maintain a moratorium on civil nuclear power,
+considering the push to embrace clean technologies as part of efforts to
+decarbonise our economy, the fact that Australia will now be developing
+expertise and industry to support a safe and sustainable nuclear submarine
+program, and the relationship that exists in other jurisdictions between civil
+nuclear power programs and nuclear powered submarine programs.
+Senator Claire Chandler
+Deputy Chair, Senator for Tasmania
+Senator the Hon David Fawcett
+Senator for South Australia
+25
+
+Senator the Hon Matt Canavan's Additional
+Comments
+1.1 I support comments made by other Coalition senators.
+1.2 I support the Committee’s recommendations to support the passage of this Bill.
+However, I am concerned that the Government’s limited approach leaves
+Australia “half-pregnant” and puts at risk the proper servicing of an Australian
+nuclear powered submarine fleet.
+1.3 This Bill makes changes to the prohibitions on nuclear energy that were placed
+into two Acts in the 1990s. It is important to note that these prohibitions were
+introduced with little Parliamentary debate and were introduced in a
+last-minute Senate deal to garner sufficient support for the construction of a new
+nuclear reactor at Lucas Heights.1
+1.4 Australia’s “accidental” prohibitions on nuclear energy have never made much
+sense in a country that is the world’s largest exporter of uranium. We also house
+one of the world’s leading nuclear medical facilities just 30 kilometres from our
+largest city in Sydney.
+1.5 The nuclear prohibition makes even less sense now that Australia has made the
+decision to acquire nuclear submarines. How is it logical for us to decide that it
+is safe for nuclear reactors to travel around our coastlines and dock in our ports,
+yet apparently unsafe for the same type of nuclear reactors to be housed on
+land? The nuclear reactors in a Virginia class submarine have a capacity of
+260 megawatts, equivalent to the size of many gas power stations in Australia.
+1.6 The Bill amends the same provisions of the Australian Radiation Protection and
+Nuclear Safety Act 1998 (ARPANS Act) and Environment Protection and
+Biodiversity Conservation Act 1999 (EPBC Act) that a Private Senators’ Bill that
+I have introduced does. In fact, they are very similar Bills. My bill, however, is a
+cleaner solution in that it simply removes all of the nuclear prohibitions and
+hence removes any doubt around the legality of the Department of Defence’s
+acquisition of nuclear-powered submarines.
+1.7 The Government’s Bill is a “half-pregnant” approach of only removing the
+nuclear prohibition for the acquisition of submarines. The Chair’s report does
+not assure me that there are not residual legal risks that could threaten the
+validity of the nuclear submarine acquisition.
+1.8 While there is widespread community support for buying nuclear submarines,
+there remains a committed minority against the purchase of the submarines.
+There is a strong possibility that such groups may launch legal action against
+1 Senate Official Hansard No. 193, 10 December 1998, p. 1645–1646.
+27
+28
+the acquisition. Maintaining legal prohibitions against nuclear energy,
+therefore, risks legal actions successfully stopping some part of the Department
+of Defence’s acquisition of nuclear submarines.
+1.9 For example, what happens if the nuclear reactor from a submarine is
+transferred to land for testing or maintenance? At that point it is not connected
+to the submarine so do the limited exemptions in this Bill provide legal
+protection for that work to occur? Would this be legally valid under the
+Government’s approach? Even if the legal risk is minimal, it is not clear why we
+would let such a risk persist given how important the nuclear submarines are to
+our national security. The cleaner and less risky approach would be to simply
+remove the nuclear energy prohibition as my Private Senators’ Bill does.
+1.10 I have grave doubts that we can successfully support a nuclear submarine fleet
+without a domestic nuclear energy industry. We should not minimise the
+challenge we face to successfully develop a nuclear submarine fleet. If we are
+successful, Australia will become just the 7th country in the world to have
+nuclear submarines.
+1.11 Every other country with nuclear submarines also has a large domestic nuclear
+energy industry (see figure 1). There are clearly large synergies between a
+nuclear-powered submarine industry and a nuclear energy industry. Many
+nuclear trained submariners end up getting a job later in the domestic energy
+industry. Indeed, given how tough a career in submarining is we must provide
+other job opportunities to attract anyone to start a career in nuclear submarines
+in the first place? How will we attract enough young people to train in nuclear
+energy if the only job prospect they have for their entire working career is to
+work on a submarine that takes them away from home and their families for
+many months of the year. I worry that we are glossing over these important
+details because it is too politically inconvenient to deal with them.
+29
+Figure 1: All countries with nuclear submarines have nuclear energy reactors
+1.12 This is shown by the Chair’s report only selectively referencing submissions that
+support the Bill. For example, the report references the submissions from the
+Minerals Council of Australia (MCA),2 the Australian Nuclear Association
+(ANA)3 and Save Our Surroundings (SOS)4 as being among those which
+supported the amendments proposed in this Bill. But each went further to
+suggest the Bill’s provisions should be expanded to enable the establishment of
+an Australian civil nuclear industry.
+1.13 In its opening statement to a recent public hearing into the inquiry by the Senate
+Environment and Communications Legislation Committee into the Environment
+and Other Legislation Amendment (Removing Nuclear Energy Prohibitions) Bill 2022,
+the MCA pointed out:
+The aims of that bill [the Defence Legislation Amendment (Naval Nuclear
+Propulsion) Bill 2023] are very similar to what we are debating today,
+facilitating construction and operation of nuclear power reactors.
+Effectively the Navy will acquire Small Nuclear Reactors, expanding
+Australian’s nuclear sector beyond the exceptional nuclear research reactor
+at Lucas Heights.
+That Australia is willing to invest upwards of $370 billion on nuclear
+technology while intentionally excluding the capacity to reduce emissions
+and complement renewables is simply extraordinary.5
+2 Minerals Council of Australia (MCA), Submission 12.
+3 Australian Nuclear Association (ANA), Submission 13.
+4 Save Our Surroundings (SOS), Submission 14.
+5 Ms Tania Constable, Chief Executive Officer, Minerals Council of Australia, Committee Hansard,
+15 May 2023, Senate Environment and Communications Legislation Committee, inquiry into the
+Environment and Other Legislation Amendment (Removing Nuclear Energy Prohibitions) Bill
+2022, p. 16.
+30
+1.14 In its submission to this inquiry, the MCA goes on to state:
+The aims of the Defence Bill highlight the absurd inconsistency of using
+nuclear technology for naval propulsion while intentionally excluding its
+potential for low- emissions domestic energy generation. In fact, the manner
+in which this fact is overtly expressed within the bill’s Explanatory
+Memorandum suggest that the position is political rather than technical or
+environmental.6
+1.15 In addition to the quote used from the ANA submission in the report, it needs
+to be acknowledged that the ANA goes on to highlight the inconsistencies in the
+Government approach outlined in this Bill:
+The issues of siting, cost and waste are very similar for nuclear reactors used
+for propulsion in submarines and for nuclear reactors used for electricity
+and heat on land. It is disingenuous for the Government in the
+Memorandum to claim that nuclear power plants are safe in submarines but
+not on land.7
+1.16 The submission from SOS also went on to conclude:
+Exempting the building and maintenance of our proposed nuclear
+submarine fleet from the continued outdated ban on nuclear power
+generation in Australia is a short-sighted decision. SOS supports the repeal
+of Australia's ban on nuclear power and believes therefore that the proposed
+Defence Legislation Amendment (Naval Nuclear Propulsion) Bill 2023 is
+unnecessary.8
+1.17 The Centre for Energy and Natural Resources Innovation and Transformation
+(CENRIT), Macquarie University, highlights in its submission:
+It is illogical therefore that it is permissible that [Nuclear Propelled Naval
+Vessels] NPNVs with reactors akin to [Small Nuclear Reactors] SMRs to be
+located alongside docks in ports that are regulated by a civilian regulator,
+but not permit SMR reactors to generate energy as part of Australia’s
+essential shift from hydrocarbons to a net-zero future … It is logical that as
+the defence nuclear program is rolled out in the coming decade, including
+necessary policy, legal, non-proliferation, workforce, security, and safety
+arrangements, a concomitant civilian program for similar necessary reforms
+should also be developed.9
+1.18 A number of other submitters also rightly pointed out the inconsistency in this
+approach highlighted in this Bill, while not all coming from the same place,
+ending with the same conclusion:
+I have been opposed to the Government's ban on nuclear technology in our
+country, so rich in the natural resources available as the potential for high
+6 MCA, Submission 12, p. 1.
+7 ANA, Submission 13, p. 1.
+8 SOS, Submission 14, p. 5.
+9 Centre for Energy and Natural Resources Innovation and Transformation, Submission 52, p. 5.
+31
+energy -flux density fuel, to supply cheap, nonpolluting power … It seems
+it is okay for multinational mining cartels to "buy cheap, sell dear" our
+resources and yet deny us the intellectual knowledge and opportunities, to
+value-add this fuel to benefit our citizens ie isotopes for health treatments,
+industries and manufactures, to stimulate new technologies, develop our
+continent.10
+It intends to allow its use, but only in the case of the energy needed to power
+submarines while maintaining the ban on the production of energy using
+nuclear reactors for other uses in Australia … The argument being used, to
+validate this bill, is that Australia’s National Security is at risk and that our
+Naval resources must be upgraded to respond to this risk. It assumes that at
+the time that the current ban was enforced this new threat didn’t exist and
+that this amendment only became necessary only recently … It is completely
+hypocritical to make this amendment to the act, that restricts the use of
+nuclear energy for production of electricity, on the basis that we need it for
+military defense when we also need it to defend against the risk of climate
+change.11
+Regrettably the Bill is limiting by not allowing for new nuclear
+developments beyond submarines (and ANSTO). And, the Bill’s
+Explanatory Memorandum confirms prohibition on the construction or
+operation of nuclear fuel fabrication plants, nuclear power plants,
+enrichment plants and reprocessing facilities. World-wide the nuclear sector
+is continuingly advancing. In contrast, for Australia not to have a wider
+domestic nuclear sector is restricting, including for nuclear naval capability.
+In the national interest policy thinking needs to be broader not narrower …
+The rapid development of nuclear capabilities by other countries including
+for electricity generation is a matter of record. Australia by comparison is an
+oddity. On one hand, it is at the forefront of nuclear science and engineering
+technology in several ways. Its sole nuclear reactor, at Lucas Heights is
+world class and the source of several world advances. This reactor is far
+more complex than reactors needed for electricity generation and was
+designed by Australian engineers. Additionally, Australia participates at a
+high level in international nuclear forums and individual professionals
+contribute to electricity generation developments in several countries … But
+in stark contrast to this high-level functioning and to advancing world
+developments, Australia paradoxically has legislated prohibitions on
+nuclear powered generation of electricity.12
+It is completely disingenuous not to fully remove all prohibitions on the use
+of nuclear energy for both defence and civil installations … From a practical
+perspective, it should be understood that safety and security issues for
+submarine reactors using highly enriched fuel are at least an order of
+magnitude more stringent than in power generation commercial reactors
+using low enriched fuel. Australia has the intellectual and practical
+capability to manage both areas of nuclear engineering expertise to meet all
+10 Ms Trudy Campbell, Submission 114, p. 1.
+11 Mr Michael Durack, Submission 80, pp. 1–2.
+12 Mr Richard White, Submission 75, pp. 2–3.
+32
+international standards, as demonstrated by current operations at ANSTO
+and generally in the nuclear technology sector.13
+Finally, I will remark on the fundamental hypocrisy within the Bill that this
+inquiry is examining. That hypocrisy being that the Bill allows a military use
+for nuclear fission technologies, with civilian uses of the technology being
+banned. A political position that has the fascinating capacity of
+simultaneously annoying both proponents of nuclear fission technologies
+and those against the use of these technologies. With the proponents of
+nuclear fission technologies annoyed that the Bill doesn't allow a civilian use
+for the technologies, and those against nuclear fission technologies annoyed
+that the ban is not fully uniform in its implementation.14
+1.19 The points in these submissions are logical, consistent and coherent. The Chair’s
+report provides no sensible justification for allowing the absurd inconsistency
+to arise where we legalise nuclear reactors on submarines but not at power
+stations. While I support the passage of the Bill, I will consider during the
+Parliamentary debate whether amendments should be moved to simply remove
+the nuclear ban altogether.
+Senator the Hon Matthew Canavan
+LNP Senator for Queensland
+13 Mr Barrie Hill, Submission 72, p. 1.
+14 Name withheld, Submission 65, p. 2.
+Australian Greens' Dissenting Report
+From the extraction of uranium through to usage and waste disposal, there
+is no future for nuclear in Australia.1
+1.1 The Australian Greens strongly dissent against this report, the short time frame
+of this inquiry, and the broader AUKUS deal.
+1.2 To begin, we would like to thank all those who made submissions which
+brought to the attention of the Committee the severe implications of nuclear
+acquisition, concern about health, environment and safety impacts of the
+legislation and of AUKUS, and who wrote to the Committee in the interest of a
+nuclear free, peaceful future for Australia.
+1.3 In his second reading speech, Deputy Prime Minister and Minister for Defence
+Richard Marles MP stated this bill would allow Australia to take ‘the first
+legislative step in support of Australia’s acquisition of conventionally armed
+nuclear-powered submarines’.2 There are environmental, health, security and
+social risks associated with every facet of the nuclear industry. These risks
+disproportionately impact First Nations peoples and their lands.
+1.4 Nuclear weapons, nuclear accidents or attacks on reactors all pose unacceptable
+risks of catastrophic consequences for humans and the environment. There is no
+effective way to address nuclear disaster, therefore nuclear weapons should be
+eliminated and nuclear energy production should be phased out. Nuclear power
+is also not a safe, clean, timely, economic or practical solution to reducing global
+greenhouse gas emissions.
+1.5 Given the magnitude of what is being proposed in this legislation, it is
+disingenuous that the two major parties have worked together to ensure a short
+time frame on the reporting of this inquiry and not enabled time for public
+hearings. This inquiry has been pushed through the Senate without adequate
+time for proper consultation, scrutiny and transparency. It is clear in many
+submissions to this inquiry, and from general public sentiment, that the
+Australian public has not been properly consulted on the AUKUS proposal or
+any of its implications. This is another clear example of a Morrison Government
+policy being adopted by the Albanese Government without scrutiny.
+Insufficient time has been allowed for the full implications of the provisions to
+be assessed.
+1 Electrical Trades Union of Australia (ETU), Submission 7, p. 1.
+2 The Hon Richard Marles MP, Deputy Prime Minister and Minister for Defence, Second Reading
+Speech, 10 May 2023, p. 15.
+33
+34
+A flawed premise
+1.6 The Labor and Liberal Coalition have forced this bill through inquiry at a pace
+that prohibits meaningful consultation, transparency or accountability. This is
+yet another sad example of the passive, unchallenged bipartisanship on issues
+involving the Australian Defence Force (ADF).
+1.7 In line with many of the submissions, the Australian Greens fundamentally
+oppose the AUKUS political deal and the outcomes it will have on Australian
+sovereignty, the independence of the ADF and nuclear safety. We particularly
+agree with the submission of Major-General Michael G. Smith AO (Ret’d) and
+former Australian Labor Party MP Professor John Langmore AM which stated
+that pursuing AUKUS ‘relegates Australia’s sovereignty’.3
+1.8 Additionally, as a consequence of acquiring a nuclear-powered capability
+Australia will be reliant on other countries for its nuclear fuel, entrenching our
+reliance on the United States (US) and the United Kingdom (UK) or other
+jurisdictions and further undermining the Minister’s claim that this deal
+strengthens our sovereignty.
+1.9 The Australian Greens support the call made in many submissions for a public
+parliamentary inquiry into the AUKUS deal, its effects and how it eventuated,
+before any further related legislation is passed.
+Dangerous lack of oversight: Labor’s plan is to have Defence regulate
+Defence
+1.10 This bill is the first step in the largest nuclear program in Australian history and
+the Government has already signalled that it will violate international nuclear
+safety principles by exempting the nuclear power plants onboard SSN AUKUS
+submarines from independent regulation. It would be the first step in creating
+an apparatus that would allow the Department of Defence to operate the nuclear
+submarine program without any meaningful civilian oversight through the
+creation of a new Australian Nuclear-Powered Submarine Safety Regulator.
+Therefore, Australia’s nuclear submarine program will lack any civilian
+safeguard or oversight, from acquisition to disposal. The danger of this is a
+heightened risk of nuclear accidents and their disclosure, poor safeguarding and
+safety measures, which ultimately will put Australians at risk.
+1.11 The Defence Strategic Review proposes that the nuclear regulation of the
+Defence Force’s nuclear submarine program be undertaken by an internal body
+within the Defence portfolio. This rejects the official advice from the
+International Atomic Energy Agency (IAEA) and the Federal Government’s
+own nuclear safety advisory council which warned that significant global
+nuclear and radiation incidents resulted from a lack of regulatory independence.
+3 Major-General Michael G. Smith AO (Ret’d) and Professor John Langmore AM, Submission 23, p. 5.
+35
+1.12 This proposed bill to give the Department of Defence control of its own nuclear
+usage is poor practice and cannot comply with the IAEA Governmental, Legal
+and Regulatory Framework for Safety (GSR Part 1 Rev. 1) Requirement #4 which
+requires a regulatory body to be ‘effectively independent in ... safety related
+decision making and [have] functional separation from entities having
+responsibilities or interests that could unduly influence its decision making’.4
+The IAEA also requires as one of its 10 minimum standards for nuclear
+regulation that ‘an effective legal and governmental framework for safety,
+including an independent regulatory body, must be established and sustained
+… [that is] … independent of the licensee and of any other body, so that it is free
+from any undue pressure from interested parties’.5
+1.13 Labor has also now confirmed that the nuclear submarine regulator will report
+to the Minister for Defence. This is a lack of transparency that will further erode
+the social licence of this program.
+A watering down of an Australian landmark moratorium
+1.14 The Australian public has rejected the nuclearisation of our community for
+nearly a century. The community knows that even one nuclear accident has the
+potential to be catastrophic for generations.
+1.15 This legislation weakens the moratorium on nuclear energy which has been a
+landmark of Australian energy policy for decades and opens the door for a
+repeal of the moratorium under future governments. This is a view shared by
+many organisations representing workers across the country including the
+Electrical Trades Union (ETU) who stated in their submission that they did not
+support ‘the watering down of long-standing nuclear prohibitions to allow for
+the acquisition of nuclear-powered submarines’.6 Additionally, the Australian
+Manufacturing Workers’ Union (AMWU) strongly opposed any changes to the
+Australian Radiation Protection and Nuclear Safety Act 1998 (ARPANS Act) and
+Environment Protection and Biodiversity Conservation Act 1999 (EPBC Act) ‘that
+would lead to the development of a nuclear industry in this country or lead to a
+breach of [Australia’s] moratorium [on civil nuclear power]’.7 The Greens
+strongly align with these concerns.
+4 International Atomic Energy Agency (IAEA), ‘Government, Legal and Regulatory Framework for
+Safety: General Safety Requirements’, 2016, p. 6.
+5 IAEA, ‘Fundamental Safety Principles: Safety Fundamentals No. SF-1’, 2006, pp. 7–8.
+6 ETU, Submission 7, p. 1.
+7 Australian Manufacturing Workers’ Union, Submission 6, p. 1.
+36
+Disposal of depleted fuel
+1.16 Future generations must not be burdened with an unknown amount of toxic
+nuclear waste for which there is no safe disposal and which will persist in the
+environment for an estimated 1 million years.
+1.17 The burden of Australia’s nuclear supply chain and proposed waste storage is
+disproportionately borne by First Nations peoples. It significantly and
+negatively impacts on their culture, connection to country, well-being, and their
+right to manage land, natural resources, and water. Further, amongst public
+debate around a federal Voice, the Labor Government is disregarding the voices
+of First Nations people when it comes to nuclear waste. The Greens want to
+highlight the concerns raised in Australian Nuclear Free Alliance’s submission:
+Our members have borne the brunt of successive federal government
+attempts to impose a national radioactive waste facility on Aboriginal
+lands.8
+1.18 And from the Australian Conservation Foundation:
+ACF seeks clarification on what analysis has been undertaken to ensure
+proposed radioactive waste management aligns with the Free, Prior and
+Informed Consent (FPIC) provisions of the UN Declaration on the Rights of
+Indigenous People’s (2007).9
+1.19 The Government has already indicated an alarming approach to transparency
+around the nuclear submarines, blocking the publication of documents about
+nuclear safety and waste issues.
+1.20 Ian Low, Griffith University Emeritus Professor and radiation and nuclear
+safety expert, has noted that each Virginia class submarine carries 200 kilograms
+of weapons grade uranium, which is more than three times the amount of
+enriched uranium used for the destructive bombing of Hiroshima.10 The
+Government has not put forward any plan for how that material will be safely
+accommodated near major population centres like Port Kembla and the
+Illawarra. As noted by Dr Ziggy Switkowski:
+No country has yet commissioned and completed a spent fuel or high-level
+nuclear waste facility. Australia has even struggled to get traction to build a
+small, low-level facility in Central Australia. The costs of spent fuel storage
+8 Australian Nuclear Free Alliance, Submission 50, p. 1.
+9 Australian Conservation Foundation (ACF), Submission 48, p. 2.
+10 Senator David Shoebridge, ‘Labor refuses to say how much weapons-grade uranium will be on its
+nuclear submarines’, media release, 24 March 2023, p. 1.
+37
+in reactor decommissioning may be high and may be a potential burden on
+future generations extending into the hundreds of years.11
+1.21 The Medical Association for the Prevention of War also highlighted that through
+their commitment to the AUKUS deal, the Labor Party is backpedalling away
+from previous statements made in a previous inquiry:
+Nuclear energy involves unique risks to human health and the environment,
+and it is strongly associated with and related to the acquisition of nuclear
+weapons. Any decision to pursue nuclear energy technology would have
+regional geo-political consequences.12
+1.22 We know that nuclear waste and nuclear activity will have detrimental impacts
+on the environment and the Australian people. There’s clearly a need for
+stronger safeguards and stiffer penalties if we are to have any faith in the
+protective regimes around nuclear materials. There has been very little
+transparency or opportunity for public debate on the proposal to host and
+acquire nuclear submarines. In Western Australia, there are growing concerns
+about the potential impact of nuclear submarines docked at HMAS Stirling at
+Meeandip (Garden Island) in Derbal Nara (Cockburn Sound). This is echoed by
+communities across the country.
+1.23 The Greens have always strongly opposed the building of a nuclear waste
+facility in South Australia which has had widespread community opposition
+and a concerted campaign by First Nations custodians, the Barngarla people,
+who instigated court proceedings to stop this dump.
+Commitment to international norms
+1.24 As highlighted by the Australian Conservation Foundation:
+Australia would be the only non-Nuclear Weapons State to have nuclear
+powered submarines. This unhelpful exercise in Australian exceptionalism
+and the proposed use of weapons grade highly enriched uranium (HEU) has
+clear proliferation sensitivities and is the focus of deep concern from nations
+in the region.13
+1.25 The Greens have always been loud in calling for Australia to sign and ratify the
+Treaty on the Prohibition of Nuclear Weapons. The Labor Government has been
+severely disappointing in its inability to commit Australia to this, particularly
+amidst public concern around nuclear proliferation and capability here in
+Australia. It is the least we can do, but instead, the Labor Party has strengthened
+11 Dr Ziggy Switkowski, Committee Hansard, Sydney, 20 August 2019, House of Representatives
+Standing Committee on the Environment and Energy, inquiry into the prerequisites for nuclear
+energy in Australia.
+12 Medical Association for the Prevention of War, Submission 49, p. 2.
+13 ACF, Submission 48, p. 3.
+38
+its partnership with the US, to the detriment of our foreign policy independence,
+and therefore ability to ratify this widely supported treaty.
+1.26 The AUKUS deal has attracted attention and concern from the IAEA, which has
+stated that ‘with Australia, with the United States and with the United
+Kingdom, we have to enter into a very complex, technical negotiation to see to
+it that as a result of this there is no weakening of the nuclear non-proliferation
+regime’.14
+1.27 Despite the Government’s assurances that the SSN AUKUS nuclear-powered
+submarines will be conventionally armed, there is a strong link between the
+mining and export of uranium and nuclear weapons proliferation. The world
+should be free of nuclear weapons and the nuclear fuel chain.
+1.28 The Government must be clear with the Australian public about how the
+proposed bill and the actions it would enable align with Australia’s obligations
+under the Nuclear Non-Proliferation Treaty (NPT) and regional instruments
+including the South Pacific Nuclear Weapons Free Zone Treaty (aka the
+Rarotonga Treaty, 1985).
+Recommendation 1
+1.29 That this bill does not proceed.
+Recommendation 2
+1.30 That there be an immediate Parliamentary inquiry into the AUKUS
+arrangement prior to any further related legislation being passed.
+Recommendation 3
+1.31 A rejection of any calls for Australia to host international high level
+radioactive waste.
+Recommendation 4
+1.32 The Australian Labor Government suspend all plans for a national waste
+facility at Kimba in regional South Australia.
+14 Rafael Grossi, IAEA Director General, quoted in Stephen Dziedzic and Andrew Greene,
+‘International Atomic Energy Agency head to inspect safeguards for Australia's nuclear submarine
+program’, ABC News, 2 July 2022.
+39
+Recommendation 5
+1.33 That, as a priority, Australia signs the United Nations Treaty on the
+Prohibition of Nuclear Weapons.
+Senator Jordon Steele-John
+Senator for Western Australia
+
+Appendix 1
+Submissions
+1 Department of Defence
+2 Department of Climate Change, Energy, the Environment and Water
+3 Australian Radiation Protection and Nuclear Safety Agency
+4 SMR Nuclear Technology Pty Ltd
+5 Royal Institute of Naval Architects (Australia Division), Inc
+6 Australian Manufacturing Workers' Union
+7 Electrical Trades Union of Australia
+8 International Volunteers for Peace
+9 Associate Professor David Neville
+10 Dr Kathryn James
+11 Friends of the Earth Adelaide
+12 Minerals Council of Australia
+13 Australian Nuclear Association
+14 Save Our Surroundings (SOS)
+15 Synergetics Pty Ltd
+16 Dr Hilary Green
+17 A/Prof Wayne Reynolds
+18 Diana Rickard
+19 Jaime Shaw
+20 Robert Wilce
+21 Judith Crotty
+22 Adrienne Shilling
+23 Major-General Michael G. Smith AO (ret’d), Professor John Langmore AM
+24 Name Withheld
+25 Peace Studies
+26 Dr Shirley Fitzgerald
+27 Graeme Medhurst
+28 Ms Bronwyn Johnson, Dr David Batten
+29 Australian Citizens Party
+30 Nuclear Free WA & Stop AUKUS WA
+31 Hunter Peace Group
+32 Peter Remta
+33 Gregory Olsen
+34 Frances Murrell
+35 David Reynolds
+36 Rosemary and Gerald Christmas
+37 Michael Goodall
+38 Andrew Gaines
+39 Celia Farquharson
+41
+42
+40 Dale Hess
+41 Michael Tierney
+42 Jennifer Hole
+43 Ann Lawler
+44 Phu Thanh Chau
+45 Ken Blackman
+46 David Noonan
+47 Women in Nuclear Australia
+48 Australian Conservation Foundation
+49 Medical Association for Prevention of War
+50 Australian Nuclear Free Alliance
+51 Hunter Community Forum
+52 Centre for Energy and Natural Resources Innovation and Transformation
+(CENRIT)
+53 Babcock Australasia
+54 Mr Justin Tutty
+55 Mr Andreas Soulos
+56 Mr Peter Branjerdporn
+57 Dr Lucy Morris
+58 Mr Peter Reay
+59 Ms Julie Marlow
+60 Ms Judith Blyth
+61 Ms Kim Grierson
+62 Mr John Quelch
+63 Name Withheld
+64 Name Withheld
+65 Name Withheld
+66 Name Withheld
+67 Name Withheld
+68 Name Withheld
+69 Name Withheld
+70 Name Withheld
+71 Ms Pip Hinman
+72 Mr Barrie Hill
+73 Ms Susan Prentice
+74 Miss Nina Stick
+75 Mr Richard White
+76 Mr Karl Schaal
+77 Mr Donald Campbell
+78 Mr Peter Griffin
+79 Mr Stephen Young
+80 Mr Michael Durack
+81 Mr Mark Woodacre
+43
+82 Ms Sylvia Hale
+83 Mrs Brigid Mullane
+84 Mr Nick Deane
+85 Mr William Parker
+86 Mr David Hayes
+87 Mr Andrew Williams
+88 Mr George Dalidakis
+89 Mr Andrew Fullarton
+90 Name Withheld
+91 Name Withheld
+92 Name Withheld
+93 Name Withheld
+94 Name Withheld
+95 Mr John Curr
+96 Ms Anna Huband
+97 Mr Bevan Ramsden
+98 Mr Michael Poole
+99 Mr Penleigh Boyd
+100 Dr Richard Barnes
+101 Name Withheld
+102 Name Withheld
+103 Greg Chapman
+104 John Clark
+105 Frank Simpson
+106 Jo Errey
+107 Michele Madigan
+108 Lynden Joe Bird
+109 Thalia Collard
+110 VADM Paul Maddison
+111 Julie Hart
+112 Ruth Haig
+113 David Orr
+114 Trudy Campbell
+115 Lawry Herron
+116 Georgia Stubbs
+117 Nick Pastalazis

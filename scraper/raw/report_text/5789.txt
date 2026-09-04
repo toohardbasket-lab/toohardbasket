@@ -1,0 +1,2987 @@
+The Senate
+Economics Legislation Committee
+Treasury Laws Amendment (Financial
+Market Infrastructure and Other Measures)
+Bill 2024 [Provisions]
+May 2024
+© Commonwealth of Australia 2024
+ISBN 978-1-76093-655-6 (Printed version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by the Senate Printing Unit, Parliament House, Canberra
+Members
+Chair
+Senator Jess Walsh ALP, VIC
+Deputy Chair
+Senator Andrew Bragg LP, NSW
+Members
+Senator Deborah O'Neill ALP, NSW
+Senator Jana Stewart ALP, VIC
+Senator Nick McKim AG, TAS
+Senator Dean Smith LP, WA
+Secretariat
+Alan Raine, Committee Secretary
+Tegan Scott, Principal Research Officer
+Jai Maybury, Research Officer
+Bryn Catlin, Administrative Officer
+PO Box 6100
+Parliament House Ph: (02) 6277 3540
+Canberra ACT 2600 Email: economics.sen@aph.gov.au
+iii
+
+Contents
+Members ............................................................................................................................................. iii
+Abbreviations and acronyms ......................................................................................................... vii
+Chapter 1—Introduction .................................................................................................................... 1
+Referral of the inquiry ........................................................................................................................ 1
+Purpose of the bill ................................................................................................................................ 1
+Background ........................................................................................................................................... 2
+Financial market infrastructure reforms ............................................................................... 2
+Climate-related financial disclosures .................................................................................... 6
+Provisions of the bill ............................................................................................................................ 7
+Establishing a FMI crisis management regime — Schedule 1 ............................................ 7
+Crisis prevention — Schedules 1 and 2 ............................................................................... 11
+Enhancing and streamlining ASIC’s licencing and supervisory powers – Schedules 2
+and 3.......................................................................................................................................... 13
+Climate-related financial disclosures – Schedule 4 ............................................................ 15
+Schedule 5 ................................................................................................................................ 19
+Consultation ........................................................................................................................................ 19
+Commencement ................................................................................................................................ 19
+Financial market infrastructure regime .............................................................................. 19
+Climate-related financial disclosures .................................................................................. 20
+Financial impact ................................................................................................................................ 20
+Legislative scrutiny ............................................................................................................................ 20
+Human rights implications .............................................................................................................. 20
+Schedules 1 to 3 and 5: FMI reforms .................................................................................... 20
+Schedule 4 — Climate change reporting regime ................................................................ 24
+Regulatory impact ............................................................................................................................. 25
+Conduct of the inquiry ..................................................................................................................... 25
+Acknowledgements .......................................................................................................................... 25
+Note on references ............................................................................................................................ 25
+Chapter 2—Views on the bill.......................................................................................................... 27
+FMI crisis management reforms ..................................................................................................... 27
+v
+Climate-related reporting regime ................................................................................................... 29
+Broad support ......................................................................................................................... 29
+Issues raised by submitters .................................................................................................... 32
+Committee view ................................................................................................................................ 42
+Coalition Senators' Dissenting Report.......................................................................................... 45
+Greens Senators' Additional Comments ...................................................................................... 67
+Senator David Pocock's Additional Comments .......................................................................... 73
+Appendix 1—Submissions and answers to questions on notice ............................................. 79
+Appendix 2—Public Hearings and Witnesses ............................................................................. 81
+vi
+Abbreviations and acronyms
+AASB Australia Accounting Standards Board
+AGM Annual General Meeting
+APRA Australian Prudential Regulation Authority
+ASIC Australian Securities and Investment Commission
+ASIC Act Australian Securities and Investment Commission Act 2001 (Cth)
+ASX Australian Stock Exchange
+AUASB Auditing and Assurance Standards Board
+The bill Treasury Laws Amendment (Financial Market Infrastructure
+and Other Measures) Bill 2024
+CFR Council of Financial Regulators
+CFR Advice to Financial Market Infrastructure Regulatory Reforms: Advice to
+Government Government from the Council of Financial Regulators
+report
+The committee Senate Standing Legislation Committee on Economics
+Corporations Act Corporations Act 2001 (Cth)
+CS facilities Clearing and settlement facilities
+EM Explanatory Memorandum
+FMI Financial market infrastructure
+G20 Group of Twenty
+GFC 2008 Global Financial Crisis
+ICCPR International Covenant on Civil and Political Rights
+ICESCR International Covenant on Economic, Social and Cultural
+Rights
+IMF International Monetary Fund
+ISSB International Sustainability Standards Board
+NGER National Greenhouse and Energy Reporting Scheme
+NGER Act National Greenhouse and Energy Reporting Act 2007 (Cth)
+RBA Reserve Bank of Australia
+Treasury Department of the Treasury
+vii
+
+Chapter 1
+Introduction
+Referral of the inquiry
+1.1 The Treasury Laws Amendment (Financial Market Infrastructure and Other
+Measures) Bill 2024 (the bill) was introduced in the House of Representatives
+and read a first time on 27 March 2024.
+1.2 On 27 March 2024, the Senate referred the provisions of the bill to the Senate
+Economics Legislation Committee (the committee) for inquiry and report by
+30 April 2024.
+1.3 On 30 April 2024, the committee presented a progress report seeking an
+extension of time to report until 3 May 2024.
+Purpose of the bill
+1.4 The bill introduces two broad reforms.
+1.5 The first reform introduces a crisis management and resolution regime for
+Australia’s financial market infrastructure. Alongside this, the bill enhances the
+licencing, supervisory and enforcement powers of the Australian Securities and
+Investment Commission (ASIC) and the Reserve Bank of Australia (RBA), as
+well as making changes to roles and responsibilities of the Minister, the RBA
+and ASIC.1
+1.6 These amendments implement the recommendations of the July 2020 report
+Financial Market Infrastructure Regulatory Reforms: Advice to Government from the
+Council of Financial Regulators (CFR Advice to Government report).2 This report
+will be discussed further below.
+1.7 The second reform introduces mandatory climate-related financial disclosures
+for entities that meet one of the following requirements:
+(a) the entity is required to lodge financial reports under Chapter 2M of the
+Corporations Act 2001 (the Corporations Act) and meets certain size
+requirements; or
+(b) the entity has emissions reporting obligations under the National
+Greenhouse and Energy Reporting (NGER) scheme.3
+1 Explanatory Memorandum (EM), p. 1.
+2 EM, p. 1.
+3 EM, p. 5.
+1
+2
+1.8 These new disclosures will require the entities in question to make climate
+disclosures relevant to the sustainability standards made by the Australia
+Accounting Standards Board (AASB).4
+Background
+Financial market infrastructure reforms
+CFR Advice to Government Report
+1.9 As mentioned above, this bill implements the recommendations of the CFR
+Advice to Government report, which was delivered in July 2020.
+1.10 The Council of Financial Regulators (CFR) is a non-statutory body that is ‘the
+coordinating body for Australia’s main financial regulatory agencies’.5 It has
+four members: ASIC, the RBA, the Department of the Treasury (Treasury) and
+the Australian Prudential Regulation Authority (APRA); and lists its objectives
+as supporting effective regulation by Australia’s financial regulatory agencies
+and promoting the stability of the Australian financial system.6
+1.11 The CFR Advice to Government report noted the increasing importance of
+Financial Markert Infrastructure (FMI) to the Australian financial system,
+particularly since the 2008 global financial crisis (GFC). International reforms
+that were instigated after the GFC have led to a greater number of financial
+transactions taking place through financial markets, derivative trade
+repositories, and clearing and settlement facilities.7
+1.12 This report stated further:
+Where previously many FMIs were mutually owned and operated by
+market participants, they are increasingly run as for-profit entities that are
+exposed to commercial pressures that may create tensions between
+profitability and resilience. Meanwhile, the sudden outbreak of COVID-19
+has highlighted the serious operational and financial risks to which FMIs are
+exposed. During this event, FMIs had to rapidly transition to remote
+working at the same time as managing record transaction volumes and
+responding to highly volatile markets; the mismanagement of any one of
+these steps could have had catastrophic consequences in a highly stressed
+market. In addition, the increasing complexity and interconnectedness of
+4 EM, p. 5.
+5 Council of Financial Regulators (CFR), About, www.cfr.gov.au/about.html (accessed 3 April 2024).
+6 Council of Financial Regulators (CFR), About, www.cfr.gov.au/about.html (accessed 3 April 2024).
+7 Council of Financial Regulators (CFR), Financial Market Infrastructure Regulatory Reforms: Advice to
+Government from the Council of Financial Regulators, July 2020, p. 5.
+3
+systems is also increasing operational risk and FMIs’ exposure to growing
+cyber security threats.8
+1.13 The CFR Advice to Government report concluded that the current regulatory
+framework around FMIs required reform; in particular, identifying that there
+was a need for stronger powers for regulators to monitor and manage risk, that
+the distribution of powers between ASIC, the RBA and the Minister did not
+reflect international best practice or their respective legislative mandates, and
+that the current framework lacked a crisis management power for clearing and
+settlement facilities.9
+1.14 As such, the report made 16 recommendations which could be broadly
+summarised as intending to:
+ introduce a resolution regime for licensed clearing and settlement
+facilities;
+ strengthen the Regulators’ supervisory and enforcement powers in
+relation to FMIs; and
+ redistribute existing powers between ASIC, the RBA and the Minister to
+make the regulatory process more efficient and to better distinguish
+between operational and strategic functions.10
+1.15 Previous reviews had come to similar conclusions about Australia’s financial
+system, such as the 2014 Financial Systems Inquiry and the International
+Monetary Fund’s (IMF) Financial Sector Assessment Program completed in
+2019.11
+1.16 In December 2022, the Government announced it would implement FMI
+reforms consistent with the recommendations of the CFR Advice to Government
+report.12 The provisions of the bill implement these reforms.
+Financial market infrastructure
+1.17 FMI entities facilitate and support Australia’s financial markets and, when
+operating correctly, contribute to the effective management, operational
+efficiency and financial stability of the capital market. By necessity, they are
+8 Council of Financial Regulators (CFR), Financial Market Infrastructure Regulatory Reforms: Advice to
+Government from the Council of Financial Regulators, July 2020, p. 5.
+9 Council of Financial Regulators (CFR), Financial Market Infrastructure Regulatory Reforms: Advice to
+Government from the Council of Financial Regulators, July 2020, p. 5.
+10 Council of Financial Regulators (CFR), Financial Market Infrastructure Regulatory Reforms: Advice to
+Government from the Council of Financial Regulators, July 2020, p. 2.
+11 Council of Financial Regulators (CFR), Financial Market Infrastructure Regulatory Reforms: Advice to
+Government from the Council of Financial Regulators, July 2020, p. 6.
+12 The Hon Dr Jim Chalmers MP, Treasurer, and the Hon Steven Jones MP Assistant Treasurer and
+Minister for Financial Services, ‘Modernising Australia’s Financial System’ Media release,
+14 December 2022.
+4
+highly regulated entities as failure in any of them could have major
+repercussions for the financial system and Australia’s economy. FMI entities
+support trillions of dollars in securities and derivatives transactions each year.13
+1.18 These kinds of entities are supervised by ASIC and, in the case of clearing and
+settlement facilities, by ASIC and the RBA. All FMI entities have a specific
+regulatory regime in chapter 7 of the Corporations Act.14
+1.19 Australia’s FMI is made up of the following kinds of entities:
+ financial market operators;
+ clearing and settlement facilities (CS facilities);
+ derivative trade repositories; and
+ benchmark administrators.15
+Financial market operators
+1.20 Financial market operators are entities that provide listing and trading services
+for financial products on a financial market, facilitate competitive and
+transparent pricing of those products, and ensure fair and orderly trading. There
+are currently 51 licenced financial market operators in Australia, of which 37 are
+foreign bodies corporate.16 An example of this kind of entity is the Australian
+Stock Exchange (the ASX).17
+1.21 Part 7.2 of the Corporations Act governs these entities and requires a person
+operating a financial market to hold an Australian market licence. The Minister
+has the power to grant these licences and give directions to the licensee to
+promote compliance with the licensee’s obligations, among other things. The
+Ministerial Powers (ASIC) Delegations 2021 delegates these powers to ASIC.18
+Clearing and settlement facilities
+1.22 CS facilities are essential to the functioning of the financial market system in that
+they provide post-trade clearing and settlement of financial transactions.19
+13 EM, p. 8.
+14 EM, p. 8.
+15 EM, p. 8.
+16 EM, p. 9.
+17 Australian Securities and Investments Commission (ASIC), Licensed domestic financial markets
+operating in Australia, https://asic.gov.au/regulatory-resources/markets/market-structure/licensed-
+and-exempt-markets/licensed-domestic-financial-markets-operating-in-australia/ (accessed
+4 April 2024)
+18 EM, p. 9.
+19 EM, p. 9.
+5
+1.23 ‘Clearing’ is a process that allows financial market trades to occur efficiently and
+with centrally managed risk. It is effectively a risk management process which
+occurs after a trade and before settlement, and usually involves novating trades
+to a central counterparty who becomes the seller to every buyer and the buyer
+to every seller. ‘Settlement’ provides the final settlement of a securities
+transaction, with one party taking delivery of the security in question and the
+other receiving payment as per the terms of the trade.20
+1.24 Facilities that provide clearing and settlement services are regulated by Part 7.3
+of the Corporations Act. Operators of these facilities are required to be licensed,
+with there being separate licencing provisions for domestic and overseas-based
+CS facilities. Although the Minister has powers in relation to CS facility
+licensees,21 these powers are currently delegated to ASIC, as they are with
+financial market operators.22
+1.25 Licenced CS facilities are required to have operating rules that cover matters
+prescribed by regulations. Currently, these matters include the operation of the
+facility, risk management, ‘the requirements of participants in relation to the
+facility’ and other matters. Participants in a CS facility agree to observe the rules
+and carry out their obligations in compliance with these rules, with these rules
+having the same effects as a contract under seal between the various parties
+involved in transactions. CS facilities are required to advise ASIC of changes to
+these rules through lodging a notice.23
+1.26 Supervisory responsibilities in relation to CS facilities are split between ASIC
+and the RBA, with the RBA having responsibility for financial stability and the
+management of systemic risk and ASIC having responsibility for licencing and
+conduct of licensees. The RBA does not have enforcement powers in relation to
+CS facilities but can make Financial Stability Standards that CS facilities are
+required to comply with. The RBA can also advise the Minister and ASIC if a CS
+facility is not compliant with these standards.24
+1.27 In Australia, there are four systemically important25 domestic CS facility
+licensees and two overseas CS facility licensees currently operating.26
+20 EM, pp. 9–10.
+21 To do things such as granting licences, giving directions and promoting compliance, etc.
+22 EM, p. 10.
+23 EM, p. 11.
+24 EM, p. 11.
+25 The RBA categorises CS facilities as either systemically important, important, or neither. More
+stringent reporting is required from systemically important CS facilities.
+26 EM, p. 10.
+6
+Derivative trade repositories
+1.28 Derivative trade repositories are facilities that can receive reports about over-
+the-counter derivatives transactions or about positions relating to over-the-
+counter derivatives transactions. This information is then passed on to
+regulators to better advise them on the risks and activities in over-the-counter
+derivatives markets.
+1.29 The Corporations Act Part 7.5A governs the licensing of these entities and ASIC
+is empowered to make rules relating to them. These rules can cover the way
+licensees provide their services, governance of licensees, reporting, handling of
+data and other matters. There are currently two derivative trade repositories
+licensees in Australia.27
+Financial benchmark administrators
+1.30 According to the Explanatory Memorandum (EM) for the bill:
+Financial benchmarks measure the price or performance of certain financial
+products or classes of financial products. They are used to determine the
+price of, or payments due under, many financial products.28
+1.31 ASIC licenses administrators of significant financial benchmarks and has the
+power to declare a certain financial benchmark to be a significant financial
+benchmark through a legislative instrument. These licensees are regulated
+under Part 7.5B of the Corporations Act, which also provides ASIC with the
+power to impose, vary or revoke licence conditions. There are currently two
+licenced financial benchmark administrators in Australia.29
+Climate-related financial disclosures
+1.32 The bill also implements a new regulatory framework for climate-related
+financial disclosures. This section of the bill forms part of the Government's
+broader sustainable finance agenda.30
+1.33 As mentioned above, relevant entities will be required to report on their climate-
+related financial risks and opportunities in relation to the AASB’s proposed
+sustainability standards. These standards are intended to align as much as
+possible with the International Sustainability Standards Board (ISSB)’s
+International Financial Reporting Standards (IFRS) S1 General Requirements for
+Disclosure of Sustainability-related Financial Information and IFRS S2 Climate-related
+Disclosures, which were finalised in June 2023.31
+27 EM, p. 11.
+28 EM, p. 11.
+29 EM, p. 11.
+30 The Hon Dr Jim Chalmers MP, Treasurer, House of Representatives Hansard, 27 March 2024, p. 2.
+31 EM, pp. 138–139.
+7
+1.34 According to the EM:
+International alignment with the ISSB standards will also support
+Australia’s reputation as an attractive destination for international capital
+and help draw the investment required for the transition to net zero. For
+example, because investors have clear visibility of the steps entities are
+taking to reduce their exposure to climate-related risks and embrace
+relevant opportunities.32
+Provisions of the bill
+1.35 The bill is made up of five schedules and makes changes to various pieces of
+legislation:
+ Schedule 1 introduces the financial market infrastructure crisis management
+and resolution regime;
+ Schedule 2 enhances the licencing, supervisory and enforcement powers of
+ASIC and the RBA in relation to financial markets;
+ Schedule 3 streamlines the roles and responsibilities between the Minister,
+ASIC and the RBA;
+ Schedule 4 implements the climate-related financial reporting regime; and
+ Schedule 5 makes various minor and technical amendments.33
+1.36 While a variety of legislation is amended by the bill, the majority of amendments
+are made to the Corporations Act. Other Acts impacted by the bill include (but
+are not limited to) the Australian Securities and Investments Commission Act 2001
+(the ASIC Act), the Reserve Bank Act 1959 (the RB Act), the Insurance Act 1973 (the
+Insurance Act) and the Banking Act 1959 (the Banking Act).
+1.37 As can be seen above, Schedule 4 of the bill deals with one discrete set of reforms
+(climate change reporting), whereas Schedules 1 to 3 and 5 deal with reforms
+relating to Australia’s financial market infrastructure. As there is some overlap
+within the Schedules about which part of the reforms are implemented, these
+matters will be dealt with thematically.
+Establishing a FMI crisis management regime — Schedule 1
+1.38 Schedule 1 would introduce a crisis management regime for domestic CS
+facilities. Primarily, this schedule of the bill gives the RBA powers to resolve
+crises in CS facilities and establishes a funding mechanism in order to resolve
+these crises.34 The rules governing this new regime would be inserted in Part
+7.3B of the Corporations Act.35
+32 EM, p. 138.
+33 EM, p. 1.
+34 EM, p. 7.
+35 EM, p. 14.
+8
+When the powers may be used
+1.39 The RBA could use its new powers of resolution on a domestic CS facility
+licensee when at least one ‘condition for resolution’ has been met (overseas CS
+facility licensees are dealt with separately under the bill and will be discussed
+further below).36 A condition for resolution is met when:
+ the RBA reasonably believes that the CS facility licensee will be unable to
+continue to provide one or more of its services in a way that will be critical
+to the stability of the Australian financial system;
+ the CS facility licensee notifies the RBA, or the RBA reasonably believes,
+that the licensee’s financial viability is at risk, or is likely to be at risk;
+ the CS facility intends to appoint an external administrator, has already
+done so, or advises the RBA that it intends to appoint an external
+administrator; or
+ the RBA reasonably believes that a person is seeking to have an external
+administrator appointed to a CS facility licensee.37
+1.40 The following conditions of resolution may be met only in circumstances where
+the RBA believes that the circumstances are likely to pose a threat to the
+Australian financial system or the ability of the licensee to continue to provide
+a service which is critical to the functioning of the Australian financial system:
+ the CS facility requests the RBA’s assistance;
+ the CS facility has contravened a direction from the RBA;
+ the CS facility licensee notifies the RBA that the licensee has ceased, or
+would cease providing CS facility services without support;
+ the CS facility is doing, or is omitting to do, an act or thing; or
+ in relation to a related body corporate of a CS licensee, any of the following
+has taken place:
+− an external administrator has been appointed to the related body
+corporate of the CS facility, or similar has occurred overseas;
+− the RBA is advised by the related body corporate that it is considering
+appointing an external administrator or the RBA reasonably believes that
+a person is seeking to have an external administrator appointed; or
+− the RBA reasonably believes that the related body corporate is doing an
+act or a thing, or is omitting to do such an act or a thing, that is causing a
+threat to the ability of the licensee to provide critical services or a threat
+to Australia’s financial stability.38
+36 EM, p. 18.
+37 EM, p. 18.
+38 EM, pp. 18–19.
+9
+Powers available to the RBA
+1.41 The bill provides the RBA with a variety of powers to use when one of the
+conditions above is met:
+ Statutory management: the RBA can appoint itself or a third party as a
+statutory manager to a CS facility. The appointed manager has the powers
+of the board of directors and these powers can be used to stabilise a facility
+and ensure continuity of services for participants. These powers are
+intended to ensure an orderly resolution of services and could include
+maintaining some of the entity, facilitating recapitalisation or facilitating a
+transfer of the business of the entity to another entity.39
+ Transfer: this power allows the RBA to compulsorily transfer some or all of
+an entity’s shares or business to another consenting entity. This could
+include assets and liabilities, data and systems, and legal rights and
+obligations.40
+ Directions: the RBA is provided with directions powers to allow the RBA to
+act in a timely manner to a CS facility in crisis. These powers allow the RBA
+to compel a CS facility to take, or refrain from taking, an action to address
+issues of concern. These powers are coupled with specific immunity
+provisions for a body corporate and its directors that protect these entities
+from liability for actions taken as a result of the RBA using this power. This
+is intended to prevent questions around potential conflicts in obligations
+which may give rise to delays during a crisis event. The RBA may also
+provide its directions in a confidential manner in certain circumstances.41
+ Stays and moratorium provisions: these provisions allow the RBA to
+prevent counterparties of a CS facility’s body corporate from exercising
+contractual rights simply on the basis of the RBA exercising its powers in
+relation to the facility. This allows the RBA to implement an orderly
+resolution to the potential crisis without being impeded by the
+counterparties’ actions. These stays and moratorium provisions are not
+intended to prevent a party to a CS facility’s transactions from being able to
+close out their position with the facility. The provisions of the Payments
+Systems and Netting Act 1998 (PSN Act) prevail over the stays and
+moratorium powers that are proposed by the bill.42
+1.42 In addition to the above, the RBA is also empowered by the bill to apply to the
+Court to wind up a body corporate that is a CS facility licensee or a related body
+corporate of the licensee incorporated in Australia (or such a related body
+39 EM, pp. 15–16.
+40 EM, p. 16.
+41 EM, pp. 16–17.
+42 EM, p. 17.
+10
+corporate before the transfer of shares or business while it is still incorporated
+in Australia). ASIC must be advised as soon as possible of this application for
+winding up.43
+Overseas CS facilities
+1.43 The bill also provides for situations where overseas CS facilities (which are
+licensed separately to domestic CS facilities) are facing a crisis event. Overseas
+CS facility licensees are regulated by their ‘home’ country regulator and, as such,
+this ‘home regulator’ will be primarily responsible for dealing with the facility.
+Provisions of the bill allow for the RBA to cooperate with the home regulator’s
+actions if requested.44
+1.44 However, the RBA does not have the power to appoint a statutory manager to
+an overseas CS facility, wind up a CS facility licensee or conduct a transfer of
+shares.45
+Funding for crisis resolution
+1.45 The bill states that funds shall be made available from the Commonwealth in
+situations where a crisis has occurred and the RBA has decided that resolution
+powers must be used in order to protect the stability of the Australian financial
+system.46
+1.46 The maximum appropriation for use in these circumstances is $5 billion per
+event, which can be activated by the Treasurer with written approval of the
+Minister for Finance. These funds are to be used to maintain the functions of a
+CS facility during a crisis where at least one resolution condition (see above) has
+been triggered. The initial appropriation may be less than the $5 billion
+maximum amount with the Treasurer and Finance Minister being able to
+provide additional funds up to the maximum amount.47
+1.47 These public funds are intended to be used as a last resort in situations where
+the CS facility in question’s resources are insufficient to address losses or where
+the RBA considers that the use of other methods may pose a threat to financial
+stability or could compromise resolution objectives. It is expected that the funds
+used would be recovered after the crisis has been resolved and the bill allows
+for recovery mechanisms to be included in funding agreements.48
+43 EM, p. 22.
+44 EM, p. 21.
+45 EM, p. 22.
+46 EM, p. 22.
+47 EM, pp. 22–23.
+48 EM, p. 23.
+11
+1.48 The authorisation is a legislative instrument that is not subject to disallowance.
+This is due to the importance of funding being available during a crisis event
+and the need for that funding to be provided with maximum certainty. The
+authorisation cannot be revoked.49
+Interactions between regulators during a crisis
+1.49 According to the EM, it is intended that the RBA’s crisis management powers
+will take priority over any powers ASIC has in regards to CS facilities and, in
+some circumstances, over some Australian market licensees.
+1.50 These sections of the bill are intended to ensure close coordination between the
+RBA and ASIC so resolution actions on a CS facility can be undertaken in an
+efficient and effective matter. Although in this instance the powers of the RBA
+take precedence over those of ASIC, the EM states that this should not limit the
+communications of ASIC and the RBA regarding crisis resolution.50
+1.51 ASIC is required to act in a way that supports resolution of a CS facility licensee
+and may only exercise its directions or rule-making powers in respect of the CS
+facility in question at the RBA’s request.51 This also extends to CS facility licensee
+body corporates if the entity has been placed under statutory management, is
+subject to a resolution direction or is subject to a potential transfers of business
+or shares.52
+Crisis prevention — Schedules 1 and 2
+1.52 Schedules 1 and 2 provide the RBA with enforcement powers in respect of its
+role supervising CS facilities in order to mitigate the risk of a crisis event.53 The
+powers contained in Schedule 2 give the RBA increased general powers which
+can be used at any time and are intended to enhance supervision over CS
+facilities to prevent a crisis event.54
+1.53 These powers, discussed in more detail below, are:
+ imposing notification requirements;
+ issuing directions, including the power to request information;
+ resolution planning; and
+ setting resolvability standards.55
+49 EM, p. 23.
+50 EM, p. 65.
+51 EM, p. 63.
+52 EM, p. 64.
+53 EM, p. 69.
+54 EM, p. 70.
+55 EM, p. 70.
+12
+1.54 The bill would also provide the RBA with powers that mirror ASIC’s current
+powers in relation to CS facilities, such as the power to compel access to a facility
+or exempt a CS facility from certain obligations.56
+Notification requirements
+1.55 In order to increase the RBA’s awareness of pre-crisis, or potentially distressed,
+CS facilities (and, as such, to mitigate the risk of crisis), the bill contains
+amendments that require a CS facility to advise the RBA of any material changes
+in circumstances.57 A CS facility is required to notify the RBA of the following
+events:
+ breaches of the obligation to do all things necessary to reduce risk;
+ failure (or likely failure) of resolvability standards or the Financial Stability
+Standards;
+ the facility is no longer able to, or is likely to no longer be able to, provide
+critical CS facility services;
+ the facility’s financial viability is at risk, including if the financial viability is
+at risk without external support; or
+ a participant in the CS facility has met one or more of the default event
+conditions under the CS facility’s operating rules.58
+1.56 Failure to notify the RBA of one of these material changes of circumstances is a
+strict liability criminal offence with a penalty of imprisonment for two years.
+The strict liability nature of the offence is considered appropriate due to the
+potential impact an offence under this part of the bill would have on Australia’s
+financial system.59
+Directions powers
+1.57 According to the EM, ‘[t]he RBA will be equipped with powers to issue a
+direction to a CS facility at any time with the aim of preventing a crisis from
+crystalising’.60 These powers include the ability of the RBA to direct a CS facility
+to:
+ provide the RBA with information to assist the RBA in performing one of its
+functions;
+ comply with the CS facility’s obligations;
+ preserve stability in the financial system; and
+56 EM, p. 84.
+57 EM, p. 70.
+58 EM, pp. 70–71.
+59 EM, p. 74.
+60 EM, p. 70.
+13
+ increase compliance or reduce risk.61
+1.58 The power to reduce risk has been transferred to the RBA from ASIC while
+remaining largely the same. This is part of the move towards streamlining and
+clarifying the RBA’s role as the agency with oversight over CS facilities.62
+1.59 Under the current law, a CS facility is required to comply with the Financial
+Stability Standards ‘to the extent that it is reasonably practicable to do so’. This
+qualifier has been removed by the bill in order to ensure that the RBA can
+effectively exercise its powers when making a direction.63
+1.60 A CS facility can request that a direction from the RBA to increase compliance
+or reduce systemic risk be referred to the Minister. If appropriate, the Minister
+can then require the RBA to revoke or vary its direction.64
+1.61 For all directions, apart from directions issued to preserve the stability of the
+financial system, a CS facility may make an application for review to the
+Administrative Review Tribunal.65
+Resolution planning and resolvability standards
+1.62 These powers exist to complement the RBA’s new powers to intervene in a crisis
+by allowing it to have the powers needed to ensure an orderly resolution of a
+CS facility.66
+1.63 Under the bill, the RBA is empowered to make a resolution plan for a CS facility
+and set resolvability standards in order to facilitate a resolution.67
+Enhancing and streamlining ASIC’s licencing and supervisory powers –
+Schedules 2 and 3
+1.64 As mentioned above, the CFR Advice to Government report found that there
+was a need for enhanced powers for regulators in order to effectively manage
+the risks associated with FMI entities and also found that some of the powers of
+the Minister were operational in nature and that it would be more appropriate
+if they sat with regulators. The report also found that some of ASIC’s powers
+would be more appropriate sitting with the RBA.68
+61 EM, p. 74.
+62 EM, p. 75.
+63 EM, p. 75.
+64 EM, p. 79.
+65 EM, p. 79.
+66 EM, p. 71
+67 EM, p. 81.
+68 EM, p. 88.
+14
+1.65 Parts of Schedule 2 strengthen and enhance the regulatory and enforcement
+powers for regulators in relation to FMI entities. Schedule 3 of the bill
+redistributes powers of the Minister to ASIC which have already been delegated
+to ASIC through Ministerial Powers (ASIC) Delegations 2021.69
+1.66 The amendments in Schedule 2:
+ introduce a registration requirement for domestic CS facility licensees;
+ for ASIC-declared widely held market bodies, ensure Ministerial approval is
+required for changes in control;
+ increase the threshold for the Minister needing to approve proposals to
+acquire from more than 15 per cent to 20 per cent of the voting rights of a
+widely held market body; and
+ for individuals performing certain roles and functions in licenced entities,
+introduce a fit, proper, capable and competent standard.70
+1.67 This schedule also provides ASIC with a range of new powers to:
+ determine whether a CS facility or another overseas financial market has a
+material connection with Australia, as well as the power to request
+information to make such a determination, in order to provide certainty for
+stakeholders about the scope of the Australian licencing regime;
+ take licencing action to safeguard the integrity of the licencing regime;
+ make declarations, such as whether an entity is a widely held market body
+or a declared financial market;
+ require an expert report in relation to licenced entities;
+ make banning orders against individuals who do not meet the fit, proper
+and competent person standards;
+ approve proposals to acquire more than 20 per cent of the voting rights in a
+domestically incorporated licensee (other than a widely held market body);
+and
+ make rules in respect of operators of licenced CS facilities and the
+participants of those facilities, including emergency rules.71
+1.68 Schedule 2 also streamlines ASIC’s existing directions powers and removes the
+limits on the period during which certain directions issued by ASIC are
+effective.72
+1.69 Certain supervisory and licencing powers that have previously sat with the
+Minister would be officially moved to ASIC and the RBA. As mentioned above,
+these powers are largely already delegated to ASIC through a Ministerial
+69 EM, p. 88.
+70 EM, pp. 88–89.
+71 EM, p. 89.
+72 EM, p. 89.
+15
+delegation instrument. A full list of the powers delegated, the relevant sections
+of the Corporations Act and which agency the powers are delegated to is
+included in the EM on pages 89 to 92.73
+Climate-related financial disclosures – Schedule 4
+1.70 Schedule 4 contains the new climate-related financial disclosures regime.
+1.71 As mentioned above, this regime would require entities of a certain size that
+lodge Corporations Act Chapter 2M financial reports, or have emissions
+reporting obligations under the NGER scheme, to also make climate disclosures
+in accordance with the sustainability standards set out by the AASB. These new
+obligations will be phased in over a four-year period.74
+1.72 As at the time of writing, the sustainability standards had not been finalised.
+The AASB has released an Exposure Draft of its proposed sustainability
+standards: Australian Sustainability Reporting Standards – Disclosure of Climate-
+related Financial Information. This Exposure Draft was open for public comment
+until 1 March 2024.75
+Details of new disclosure requirements
+1.73 The bill introduces several new definitions to the Corporations Act while also
+leaving some terms to be defined by the AASB sustainability standards. Of
+particular note are the new definitions of ‘greenhouse gas emissions’ which are
+divided into four categories by the AASB standards:
+ Scope 1 greenhouse gas emissions – direct emissions that occur from sources
+owned or controlled by the entity.
+ Scope 2 greenhouse gas emissions – indirect emissions that occur from the
+generation of purchased or acquired electricity, steam, heating or cooling
+consumed by an entity. These emissions occur at the facility where the
+electricity is generated.
+ Scope 3 greenhouse gas emissions – indirect emissions that occur within the
+value chain of the entity, including both upstream and downstream
+emissions and financed emissions.
+ Financed emissions – ‘the portion of emissions of an investee or
+counterparty attributed to the loans and investments made by an entity to
+the investee or counterparty’.76
+73 EM, pp. 89–92.
+74 EM, p. 137.
+75 AASB, Exposure Draft SR1 Australian Sustainability Reporting Standards – Disclosure of Climate-related
+Financial Information, October 2023, https://aasb.gov.au/news/exposure-draft-ed-sr1-australian-
+sustainability-reporting-standards-disclosure-of-climate-related-financial-information/ (accessed
+19 April 2024).
+76 EM, p. 141.
+16
+1.74 As mentioned above, companies that are required to provide a financial report
+under Chapter 2M of the Corporations Act will now be required to also make
+climate disclosures, called a sustainability report. This report will be considered
+part of the entity’s annual general meeting (AGM).77
+1.75 An entity’s sustainability report will consist of the following:
+ the year’s climate statement and notes to this statement;
+ any statements as required by the regulations and any notes to these
+required statements; and
+ a director’s declaration about the compliance of the statement and its notes
+with the relevant sustainability standards.78
+1.76 The requirement to prepare a sustainability report will be phased in for different
+sizes of entity. The definitions of different kinds of entities and when they are
+required to begin sustainability reports are included in the table below.
+Table 1.1 Sustainability reporting entities
+Entity type Definition Time for reporting
+Group 1 The entity meets two of the Must prepare a
+following three criteria: sustainability report in
+ Consolidated revenue the first transitional
+equal or greater than period (see below).
+$500m
+ Consolidated gross assets
+equal or greater than $1b
+ 500 or more employees;
+OR
+The entity is a registered
+corporation under the NGER Act.79
+Group 2 The entity meets two of the Must prepare a
+following criteria: sustainability report in
+ Consolidated revenue the second transitional
+equal or greater to $200m period.
+ Consolidated gross assets
+equal or greater than
+$500m
+77 EM, pp. 141–142.
+78 EM, p. 139.
+79 Registered schemes, registrable superannuation entities and retail CCIV entities are not Group 1
+entities even if they meet these requirements: EM, p. 169.
+17
+ 250 or more employees
+OR
+The entity is a registered
+corporation under the NGER Act
+OR
+The entity is an asset owner with a
+value of assets is equal to or
+greater than $5b.
+Group 3 The entity meets two of the On or after 1 July 2027.
+following criteria
+ Consolidated revenue
+equal or greater than
+$50m
+ Consolidated gross assets
+equal or greater than
+$25m
+ 100 or more employees
+Source: EM, pp.168–170. Note: use of ‘m’ is reference to millions and ‘b’ is to billions.
+1.77 Due to the potential for different starting dates for the bill, start dates for the
+transitional periods are as follows:
+ First transitional period: 1 January 2025 or 1 July 2025 (depending on
+commencement of the bill) to 30 June 2026. If the bill has not commenced by
+1 July 2025 there will be no first transitional period.
+ Second transitional period: 1 July 2026 to 30 June 2027.80
+1.78 The bill includes a modified liability approach for the commencement of
+sustainability reporting for the first three years of the scheme. This will ‘ensure
+that reporting entities, auditors and directors are allowed time to develop
+experience and practice to report in line with the required standards’.81
+1.79 Under the bill, liability for misleading, deceptive and other conduct in relation
+to uncertain parts of the climate statement within the sustainability report are
+temporarily protected and are called ‘protected statements’. A protected
+statement is any statement in a sustainability report made within the first three
+years of the scheme, or in an auditor’s report or in another review of such a
+sustainability report that is about any of the following matters:
+ Scope 3 greenhouse gas emissions, including financed emissions;
+80 EM, pp. 168–170
+81 EM, p. 140.
+18
+ a transition plan; or
+ sustainability analysis made in those sustainability reports.82
+1.80 During this three-year period, no legal action is able to be brought against a
+person or entity in relation to these protected statements. This will not prevent
+ASIC from taking action for misleading and deceptive conduct during this time
+or other criminal proceedings being brought.83
+Audit and Assurance
+1.81 The bill makes amendments to the ASIC Act to allow the AASB to make
+sustainability standards. These standards are then given legal effect by
+amendments to the Corporations Act.84
+1.82 As with the requirements relating to financial reports under the Corporations
+Act, sustainability reports will be subject to audit. The auditor of these reports
+will have the same obligations as the auditor of the financial reports of an
+entity.85 The EM states that, for the avoidance of doubt, even where an entity’s
+climate statement is only a statement that the company has no climate risks or
+opportunities, that statement will also require auditing.86
+1.83 The auditor is required to come to an opinion about whether an entity’s
+sustainability report complies with the Corporations Act, with sustainability
+standards and with the climate statement disclosure requirements. The auditor
+must also form an opinion about whether they have been given all the
+information and assistance necessary, and whether the entity has kept sufficient
+records for the audit.87
+1.84 The Auditing and Assurance Standards Board (AUASB) maintains the function
+to formulate auditing and assurance standards for sustainability.88
+Review
+1.85 As soon as practicable after 1 July 2028, a review of the legislation must be
+completed and a report on this review tabled in both Houses of Parliament.89
+82 EM, pp. 171–172.
+83 EM, p. 171.
+84 EM, p. 165.
+85 EM, p. 159.
+86 EM, p. 160.
+87 EM, pp. 160–161.
+88 EM, p. 166.
+89 EM, p. 174.
+19
+Schedule 5
+1.86 Schedule 5 contains consequential and transitional amendments to the bill.
+Consultation
+1.87 As mentioned above, the FMI regulatory framework reforms contained in the
+bill have been recommended by various reports to Government going back to
+2014.90 The EM has collected the executive summaries and recommendations of
+these reports and included them as Attachment 1 to that document.91
+1.88 In addition, Treasury completed a consultation process on the FMI reforms,
+including an exposure draft of the legislation and regulations. This consultation
+received 15 submissions, 12 of which were public submissions.92
+1.89 Treasury has also completed several consultations for the climate-related
+financial disclosures regime contained in Schedule 4 of the bill. The most recent
+of these was the consultation on the exposure draft legislation, which was
+completed on 9 February 2024 and received 128 submissions, including seven
+confidential submissions.93
+1.90 Previous consultations were:
+ Climate-related financial disclosure, completed between 12 December 2022 and
+17 February 2023 and receiving 194 submissions;94 and
+ Climate-related financial disclosure: Second consultation, completed between
+27 June 2023 and 21 July 2023 and receiving 146 submissions.95
+Commencement
+Financial market infrastructure regime
+1.91 There is some variation of the commencement dates for each schedule of the bill
+that implements the new FMI regime, as shown in the table below:
+90 EM, pp. 3–4.
+91 See EM, pp. 189–258.
+92 The Treasury, Financial market infrastructure regulatory reforms, 9 February 2024,
+https://treasury.gov.au/consultation/c2023-475211 (accessed 19 April 2024).
+93 The Treasury, Climate-related financial disclosure: exposure draft legislation, 9 February 2024,
+https://treasury.gov.au/consultation/c2024-466491 (accessed 19 April 2024).
+94 The Treasury, Climate related financial disclosure, 17 February 2023,
+https://treasury.gov.au/consultation/c2022-314397 (accessed 19 April 2024).
+95 The Treasury, Climate related financial disclosure: Second consultation, 21 July 2023,
+https://treasury.gov.au/consultation/c2023-402245 (accessed 19 April 2024).
+20
+Table 1.2 Commencement dates for the FMI regime
+Schedule Commencement date Exemptions
+1 7 days after Royal Assent Sections 60–66
+(commencement of
+these sections is
+contingent on the
+passage of other Acts)
+2 Parts 1–10, 12 and 13: 7 days after Part 14
+Royal Assent (commencement is
+Part 11: 6 months after Royal Assent contingent on the
+passage of another Act)
+3 7 days after Royal Assent N/A
+5 The day after Royal Assent N/A
+Source: EM, p. 3.
+Climate-related financial disclosures
+1.92 Schedule 4 would commence the day after Royal Assent of the bill. The entities
+affected by the provisions of the bill would be required to begin reporting from
+financial years on or after 1 January 2025. Smaller affected entities not initially
+required to report will be phased in over a number of years.96
+Financial impact
+1.93 According to the EM, the bill will have a nil financial impact.
+Legislative scrutiny
+1.94 As at the time of writing, the Senate Standing Committee on the Scrutiny of Bills
+had not commented on the bill.
+Human rights implications
+1.95 The Parliamentary Joint Committee on Human Rights made no comment on the
+bill in its Scrutiny Report 3 of 2024.
+1.96 That said, the EM includes a discussion of the human rights implications of the
+bill.
+Schedules 1 to 3 and 5: FMI reforms
+1.97 The EM states that Schedules 1 to 3 (the schedules dealing with FMI
+infrastructure) engage the following human rights matters as set out in the
+guidance of the Parliamentary Joint Committee on Human Rights’ Guidance note
+2: Offence Provisions, civil penalties and human rights:
+96 EM, p. 5.
+21
+ the right to a fair trial (articles 14 and 15 of the International Covernant on
+Civil and Political Rights (ICCPR));
+ the imposition of strict liability in relation to some criminal offences;
+ the right against self-incrimination (article 14(3) of the ICCPR);
+ the right to work (article 6(1) of the International Covenant on Economic,
+Social and Cultural Rights (ICESCR));
+ the right to protection from arbitrary or unlawful interference with privacy
+(article 17 of the ICCPR); and
+ the right to freedom of expression and to seek information (article 19(2) of
+the ICCPR).97
+Right to a fair trial, imposition of strict liability and the right against self-
+incrimination
+1.98 The FMI reforms in Schedules 1 and 2 engage the right to a fair trial as they
+contain civil and criminal offences for breaches and place an evidentiary burden
+on the defendant.98
+1.99 Although there is a domestic distinction between civil and criminal offences in
+Australia, a ‘criminal’ offence is defined differently under international law. It
+is therefore important to determine whether a civil penalty under domestic law
+amounts to a criminal penalty for the purposes of determining whether the
+offence in question engages human rights matters.99
+1.100 The EM states the civil penalties contained within Schedules 1 to 3 do not
+amount to criminal offences under international law as the provisions are
+regulatory and disciplinary in nature, rather than punitive, and aim to
+encourage compliance. The judiciary also has discretion about the imposition of
+penalties, taking into account various factors such as the nature of the
+contravening conduct and the size of the organisation involved. The civil
+penalties available to be imposed are also relatively small in size and there is no
+sanction of imprisonment for non-payment.100
+1.101 The EM also states that the criminal penalties in Schedules 1 and 2 are compliant
+with international human rights law due to their consistency with other
+Australian criminal laws, the fact that an impartial court will preside over
+criminal proceedings brought, and the need for criminal sanctions due to the
+large impacts on the Australian finance system and broader economy that
+contravention of these provisions would cause.101
+97 EM, p. 178.
+98 EM, pp. 178–179.
+99 EM, p. 179.
+100 EM, pp. 179–180
+101 EM, p. 180.
+22
+1.102 Proposed section 821K(2) of the Corporations Act introduces a strict liability
+offence for individuals who do not provide the RBA with written notice prior to
+the appointment of an external administrator to a body corporate. The EM states
+that this strict liability offence is appropriate due to the serious nature of the
+offence and the need to deal with such offences expeditiously in order to
+maintain public confidence in the financial system.102
+1.103 The EM goes on to state that this section meets the requirements of the Attorney-
+General’s Guide to Framing Commonwealth Offences as:
+ the maximum penalty for the offence does not exceed the maximum
+allowable penalty for strict liability offences;
+ the harm caused by breach of this section is so significant to financial
+stability that fault should not be an element of the offence; and
+ the offence is not punishable by imprisonment.103
+1.104 As the offence is of strict liability rather than absolute liability, the defence of
+honest and reasonable mistake of fact is still open to the defendant in such a
+proceeding.104
+1.105 In Schedules 1 and 2, there are several offences that place the burden of proof
+on a defendant who wishes to raise a defence to these offences. Many of these
+offences relate to disclosing information or not implementing directions from
+the Regulators. This engages with the human rights protected by article 14(2) of
+the ICCPR, the right of presumed innocence.105
+1.106 The EM states that the reversal of burden of proof in relation to these offences is
+appropriate, proportionate and reasonable because:
+ in the case of the listed offences, it will be within the defendant’s knowledge
+about whether they received the information which was disclosed or how
+the conduct was authorised;
+ it would be more difficult for the prosecution to disprove these matters
+rather than for the defendant to establish them;
+ it ensures that directions given by a Regulator subject to secrecy are not
+disclosed in a way that causes harm; and
+ the public benefit of the maintenance of financial infrastructure outweighs
+the right to silence in these situations.106
+102 EM, p. 181.
+103 EM, p. 181.
+104 EM, p. 181.
+105 These offences and the proposed sections of the Corporations Act they are contained in are listed
+in the EM, pp. 181–182.
+106 EM, p. 182.
+23
+Merits review
+1.107 Within Schedules 1 and 2 (proposed Part 7.3B of the Corporations Act), there are
+some decisions that are exempt from merits review, engaging with article 14 of
+the ICCPR, being the right to procedural fairness and due judicial process. The
+exempt decisions are those which are consistent with the Administrative Review
+Council’s publication What Decisions Should be Subject to Merits Review?107
+1.108 These decisions do not engage the human rights contained in article 14. The EM
+states that these decisions are within the crisis management regime and, as such,
+relate to financial decisions with a significant impact on the Australian financial
+system and the public interest. These sections require the RBA, the Minister and
+ASIC to be able to act efficiently and efficiently to protect the financial system,
+and as such are an allowable exemption from merits review.108
+Right to work
+1.109 Article 6 of the ICESCR guarantees the right to work, and provides that
+‘everyone must be able to freely accept or choose their work and includes a right
+not to be unfairly deprived of work’.109
+1.110 Within Schedule 2, proposed sections 853H, 853K, 853L and 852M engage with
+this right. These sections relate to banning individuals from taking part in FMI
+institutions, including for failing a fit and proper person test. The EM states that
+these sections are appropriate and do not limit the operation of article 6 of the
+ICESCR for the following reasons:
+ participation in the Australian financial market is a privilege and not a right;
+ the inclusion of a fit and proper person test for financial market licensees is
+necessary to protect Australia’s financial system stability; and
+ a person entering employment with an FMI entity will do so with the
+knowledge that ASIC, acting in a regulatory capacity, will have regard to
+matters relating to non-compliance.110
+Information gathering and sharing
+1.111 Article 14(3) of the ICCPR relates to the right against self-incrimination. This
+right is potentially engaged by the RBA’s new information-gathering powers
+contained in the bill. These powers may also engage article 17 of the ICCPR,
+107 EM, p. 182; Administrative Review Council, ‘What Decisions Should be Subject to Merits Review?’
+1999, available at: www.ag.gov.au/legal-system/administrative-law/administrative-review-
+council-publications/what-decisions-should-be-subject-merit-review-1999 (accessed 18 April 2024)
+108 EM, pp. 182–183.
+109 EM, p. 183.
+110 EM, p. 183.
+24
+being the right to protection from unlawful or arbitrary interference with
+privacy.111
+1.112 Under the bill, the RBA can request CS facility licensees to provide critical
+information about the operations of domestic CS facilities. While this provision
+may engage the right against self-incrimination, it is balanced by the limitation
+that any incriminating information obtained by the RBA with these powers
+cannot be used against an individual in criminal proceedings.112
+1.113 The EM also notes that any information sharing between ASIC and the RBA
+during a crisis will be ‘protected information’ and will be subject to strict
+confidentiality protections.113
+1.114 Schedule 1’s powers also engage the rights to freedom of expression and
+freedom to seek information under the ICCPR due to the secrecy provisions in
+the bill, which allow persons to disclose protection information that would
+normally be subject to secrecy determinations. The EM states that these sections
+are proportionate to the objectives of preserving the stability of the Australian
+financial system and resolving a crisis in FMI.114
+Schedule 4 — Climate change reporting regime
+1.115 The EM states that this schedule is compatible with human rights and freedoms.
+The strict liability offences contained within the bill may engage with the right
+to a fair trial (ICCPR articles 14 and 15).
+1.116 All strict liability offences contained within this schedule meet conditions listed
+in the Attorney-General’s Department’s Guide to Framing Commonwealth
+Offences, Infringement Notices and Enforcement Powers. As mentioned above, the
+imposition of strict liability offences, as opposed to absolute liability offences,
+still preserves some defences for the accused. This provides some checks and
+balances on these provisions.115
+1.117 The EM also states that the imposition of strict liability offences is appropriate
+and necessary in order to deter misconduct and reduce non-compliance. In turn,
+this will maintain public confidence in the regime.116
+111 EM, pp. 183–184.
+112 EM, p. 184.
+113 EM, p. 104.
+114 EM, p. 184.
+115 EM, p. 186.
+116 EM, pp. 186–187.
+25
+Regulatory impact
+1.118 The EM offered no discussion about a Regulatory Impact Statement of the
+amendments contained within the bill.
+Conduct of the inquiry
+1.119 The committee advertised the inquiry on its website and wrote to relevant
+stakeholders and interested parties inviting written submissions by
+11 April 2024.
+1.120 The committee received 25 submissions as well as answers to questions on
+notice, which are listed at Appendix 1.
+1.121 The committee held one public hearing for the inquiry. The names of witnesses
+who appeared at the hearing can be found at Appendix 2.
+Acknowledgements
+1.122 The committee thanks all individuals and organisations who assisted with the
+inquiry, especially those who made written submissions and participated in the
+public hearing.
+Note on references
+1.123 In this report, references to the Committee Hansard are to the Proof Hansard
+and page numbers may vary between Proof and Official Hansard transcripts.
+
+Chapter 2
+Views on the bill
+2.1 This chapter examines stakeholder views on the provisions of the Treasury
+Laws Amendment (Financial Market Infrastructure and Other Measures)
+Bill 2024. It is informed by the bill’s explanatory materials, submissions received
+by the inquiry, evidence provided at the public hearing on 23 April 2024 and
+additional material submitted to the committee.
+2.2 As there are two distinct parts to the bill, the analysis in this chapter initially
+considers the Financial Market Infrastructure (FMI) crisis management reforms
+before exploring the climate-related reporting regime. It concludes with the
+committee’s views and a recommendation.
+FMI crisis management reforms
+2.3 There was a high degree of support for the FMI crisis management reforms
+introduced in the bill from those stakeholders who offered their views on this
+issue.
+2.4 For example, Ms Diane Lewis from the Australian Stock Exchange (ASX), which
+operates the main clearing and settlement facilities underpinning the Australian
+financial system, considered that the reforms would provide certainty to the
+market and:
+…that, in times of crisis, the regulatory agencies have the appropriate tools
+and legislative powers to ensure that the continuation of clearing and
+settlement services are provided throughout that crisis and to shore up the
+continued operation of the financial system.1
+2.5 The Australian Securities and Investments Commission (ASIC) commented that
+it had worked closely with the RBA and Treasury in the development of the
+legislation and felt that the reforms struck an appropriate balance between
+stakeholders and the broader Australian market.2 Further, Ms Calissa Aldridge
+from ASIC argued that the new powers afforded by the reforms:
+…will enable us to proactively be in a better position to monitor and identify
+risks and ensure that we're applying tools that are fit for purpose in the
+context of a whole range of financial market infrastructure, not just clearing
+and settlement facility providers.3
+1 Ms Diane Lewis, General Manager, Regulatory Strategy and Executive Adviser, Australian
+Securities Exchange, Committee Hansard, 23 April 2024, p. 21.
+2 Australian Securities and Investments Commission, Submission 2, p. 1
+3 Ms Calissa Aldridge, Executive Director, Australian Securities and Investments Commission,
+Committee Hansard, 23 April 2024, p. 28.
+27
+28
+2.6 The Reserve Bank of Australia (RBA) echoed these remarks:
+The proposed new crisis powers will be an important addition to the
+regulatory toolkit. They will greatly improve the RBA’s ability to respond
+effectively to a threat to the viability of a CS [clearing and settlement]
+facility, which could otherwise pose risks to the stability of the Australian
+financial system. The interconnected nature of CS facilities and their central
+role in the modern financial system means that the disorderly failure of one
+of these entities would likely lead to disruption to the wider financial
+system. Such a failure could result in the unwinding of payments, a delay or
+failure of settlement of transactions and/or a disruption to asset markets as
+large amounts of margin collateral is liquidated.4
+2.7 The RBA also noted that, although some of powers contained in the bill are
+stronger powers than those typical of regulators, this is proportionate as these
+powers are only meant to be used in response to serious threats to the financial
+system.5 The RBA was supportive of the changes to the test to determine if a CS
+facility is required to be licensed in Australia and considered that this will
+provide more certainty to CS facilities and regulators.6
+2.8 The Treasury and the ASX noted that the FMI reforms will bring Australia into
+alignment with similar G20 nations and are consistent with international best
+practice.7 Ms Khanh Hoang, Assistant Secretary at Treasury, noted that:
+The bill implements the 2020 recommendation of the Council of Financial
+Regulators that the government reform Australia's financial market
+infrastructure regulatory regime. It lines up with the G20 and the IMF, and
+follows post GFC global best practice. Similar regimes exist in the US,
+Canada and the UK.8
+2.9 The ASX commented that the bill as introduced into the Parliament has taken
+feedback from the Treasury consultations into account.9
+2.10 Mr Ellis Connolly, Head of the RBA Payments Policy Department, indicated that
+the RBA plans to put in place resolvability standards and additional guidelines
+4 Reserve Bank of Australia, Submission 8, p. 2.
+5 Reserve Bank of Australia, Submission 8, p. 2.
+6 Reserve Bank of Australia, Submission 8, p. 4.
+7 Ms Khanh Hoang, Assistant Secretary, Regulators and Capital Markets Branch, Treasury, Committee
+Hansard, 23 April 2024, p. 35; Ms Diane Lewis, General Manager, Regulatory Strategy and Executive
+Adviser, Australian Securities Exchange, Committee Hansard, 23 April 2024, p. 21.
+8 Ms Khanh Hoang, Assistant Secretary, Regulators and Capital Markets Branch, Treasury, Committee
+Hansard, 23 April 2024, p. 35.
+9 Australian Securities Exchange, Submission 23, p. 1.
+29
+to provide supervised entities with further information regarding the new
+powers.10
+2.11 In the context of related recent reforms to competition in clearing and settlement
+activities, Ms Alridge indicated that ASIC intended to take a ‘holistic and very
+thoughtful approach’ to developing guidance associated with both reforms,
+including in relation to fit and proper rule making and how ASIC proposes to
+use these powers.11
+2.12 Indeed, Treasury outlined its expectation that the regulators, the RBA and ASIC,
+would work closely with industry and provide guidance in a timely manner that
+provides confidence to market participants.12
+Climate-related reporting regime
+Broad support
+2.13 Evidence received by the committee illustrated broad support for the climate-
+related reporting regime that is to be introduced by the bill.13
+2.14 In their joint submission, Chartered Accountants Australia and New Zealand
+and CPA Australia (CAANZ and CPA Australia) were supportive of the regime:
+Internationally aligned and credible climate-related financial disclosures
+will be pivotal to maintain Australia's position within the global economy,
+particularly for those larger and public interest entities in Groups 1 and 2
+whose stakeholders are increasingly demanding climate disclosures.14
+2.15 The ASX commented that the successful implementation of a climate-reporting
+regime would be important for Australia’s position in the global financial
+landscape and its attractiveness as a destination for global capital. The ASX
+stated that it was supportive of the introduction of such a regime that aligns
+10 Mr Ellis Connolly, Head of Payments Policy Department, Reserve Bank of Australia, Committee
+Hansard, 23 April 2024, p. 32.
+11 Ms Calissa Aldridge, Executive Director, Australian Securities and Investments Commission,
+Committee Hansard, 23 April 2024, pp. 28–29.
+12 Ms Khanh Hoang, Assistant Secretary, Regulators and Capital Markets Branch, Treasury, Committee
+Hansard, 23 April 2024, p. 35.
+13 For example, see Internet of Things Alliance Australia, Submission 1, p. 1; Environmental Defenders
+Office, Submission 3, p. 3; Investor Group on Climate Change, Submission 5, p. 1; Climate Market
+Institute, Submission 7, p. 1; Financial Services Council, Submission 10, p. 1; Insurance Council of
+Australia, Submission 14, p. 1; Australian Institute of Company Directors, Submission 15, p. 1;
+Australian Council of Trade Unions, Submission 16, p. 1.
+14 Chartered Accountants Australia and New Zealand and CPA Australia (CAANZ and CPA
+Australia), Submission 4, p. 1.
+30
+with International Sustainability Standards Board (ISSB) standards in
+Australia.15
+2.16 The Australian Council of Trade Unions (ACTU) took a similar view:
+Mandatory disclosures against robust standards and a sustainable finance
+taxonomy will improve the ability for governments, regulators, investors,
+and the public to make informed decisions, encourage the management of
+climate-related risks and encourage the transition to a renewable energy
+economy.16
+2.17 This point was also emphasised by the Investor Group on Climate Change, who
+noted that mandatory sustainability reporting will ‘help Australia remain a
+competitive destination for investment capital’. They stated that such reporting
+could:
+ enable superannuation funds and investment managers to prudently
+manage the climate-related risks and opportunities affecting the
+retirement savings of Australians;
+ support efficient investment in companies and projects aligned with net
+zero emissions;
+ help Australian companies stay attractive in global capital markets;
+ help investors, regulators, and other stakeholders form a comprehensive,
+reliable understanding of the economy’s overall climate risks and
+opportunities;
+ avoid market fragmentation and reduce the reporting burden for
+companies that need to disclose into multiple jurisdictions; and
+ help protect against greenwashing.17
+2.18 The Carbon Market Institute (CMI) underlined that climate reporting would
+work alongside market-based mechanisms to help guide investment decisions
+which would support Australia’s climate targets and the goals of the Paris
+Agreement.18
+2.19 The modified liability regime for forward-looking climate statements in the
+sustainability report was welcomed by the Insurance Council of Australia (ICA):
+Under the proposed mandatory climate disclosure scheme, there are many
+types of forward-looking statements that require estimation of impacts of
+risks and opportunities which are inherently uncertain and may be deemed
+misleading or deceptive under the existing regulatory framework,
+specifically the misleading and deceptive conduct regime, for example
+15 Australian Securities Exchange, Submission 23, p. 1.
+16 Australian Council of Trade Unions, Submission 16, p. 1.
+17 Investor Group on Climate Change, Submission 5, p. 1.
+18 Carbon Market Institute, Submission 7, p. 1.
+31
+s.769C of the Australian Corporations Act, s12BB of the ASIC Act 2001 and
+s.4 of the Australian Consumer Law.19
+2.20 The Australian Institute of Company Directors (AICD) went further,
+underlining that the modified liability regime must remain in its current form
+in the bill, stating:
+Many forward-looking disclosures required under the Sustainability
+Standards suffer from a high degree of measurement and outcome
+uncertainty and are highly novel in the Australian market.20
+2.21 Another aspect of the legislation that was welcomed by participants in the
+inquiry was the phased-in approach for mandatory reporting. The Australian
+Council of Superannuation Investors (ACSI) made the point that although larger
+listed companies were well placed for the incoming regime, less mature market
+participants may require more time to adjust to their new reporting
+requirements.21
+2.22 ASIC highlighted the scale of the changes made by the bill and noted that
+industry will require significant capacity building in order to meet these
+changes. They welcomed the bill’s phased approach to implementation and
+commented that ASIC was developing regulatory resources and would work
+with affected entities to assist with the change.22
+2.23 Going further in their submission, the ACSI also strongly supported ‘the
+inclusion of an assets under management test to support consistent and effective
+application of the reporting requirements to registrable superannuation
+entities’.23
+2.24 The ICA also expressed support for the phased-in approach for reporting on
+Scope 3 emissions and recommended that this regime could be further
+improved by benchmarking Scope 3 reporting to the development of better
+methodologies and data sharing arrangements as they matured across
+industry.24
+2.25 The thorough consultation process undertaken by Treasury was welcomed by
+many of the submitters to the inquiry. The Internet of Things Alliances Australia
+stated that the Treasury consultation process had resulted in reasonable
+modifications to the proposed legislation, particularly changes around the
+19 Insurance Council of Australia, Submission 14, pp. 1–2.
+20 Australian Institute of Company Directors, Submission 15, p. 3.
+21 Australian Council of Superannuation Investors, Submission 20, p. 1.
+22 Australian Securities and Investments Commission, Submission 2, p. 2.
+23 Australian Council of Superannuation Investors, Submission 20, p. 2.
+24 Insurance Council of Australia, Submission 14, p. 2.
+32
+phased in approach for reporting requirements dependent on the size of the
+entity.25
+2.26 The Financial Services Council (FSC) echoed this sentiment and appreciated the
+collaborative approach taken by Treasury and the Government in engaging with
+their industry.26 In particular, the FSC listed the introduction of a modified
+liability regime and the improved clarity of the applicability of the regime for
+registered schemes and registrable superannuation entities as positive outcomes
+of the consultation.27
+2.27 CAANZ and CPA Australia were also complimentary of the engagement
+undertaken by Treasury throughout the consultation period of the bill,
+particularly the engagement with larger entities.28
+Issues raised by submitters
+2.28 Although submitters to the inquiry expressed broad support for the concept of
+a mandatory climate-reporting regime, several submitters and witnesses at the
+public hearing expressed concerns about aspects of the bill.
+Commencement date of the reforms
+2.29 Various submissions highlighted the delay in the commencement date of
+mandatory reporting for Group 1 entities from 1 July 2024 to 1 January 2025.
+2.30 For example, the Environmental Defenders Office (EDO) held the view that any
+delay in the commencement date would cause Australia to fall further behind
+other jurisdictions that had already implemented similar reporting regimes and
+would compound the climate-related risks to the financial system.29
+2.31 The EDO also made the point that many of Australia’s largest entities have
+already adopted voluntary climate disclosure frameworks, which have also
+informed the drafting of the bill, and considered that, given this familiarity,
+there should be no reason to further delay the reporting regime.30
+2.32 This view was echoed by the Australian Conservation Foundation (ACF), which
+also pointed out that consultation for the climate reporting regime had been
+ongoing since December 2022 and affected entities had had sufficient time to
+prepare.31
+25 Internet of Things Alliance Australia, Submission 1, p. 2.
+26 Financial Services Council, Submission 10, p. 1.
+27 Financial Services Council, Submission 10, p. 3.
+28 CAANZ and CPA Australia, Submission 4, p. 1.
+29 Environmental Defenders Office, Submission 3, p. 4.
+30 Environmental Defenders Office, Submission 3, p. 4.
+31 Australian Conservation Foundation, Submission 13, p. 2.
+33
+2.33 This view was not shared by all stakeholders. For example, the AICD was
+supportive of the delayed commencement date of the regime from 1 July 2024
+to 1 January 2025, as this would allow for the Australian Accounting Standards
+Board (AASB) and the Auditing and Assurance Standards Board (AUASB) to
+finalise the sustainability standards and sustainability audit standards
+respectively.32
+2.34 The ASX expressed that the 1 January 2025 commencement date was ambitious
+and considered that there should be a 12-month gap between the finalisation of
+the AASB’s climate disclosure standards and the commencement of the first
+reporting period. The ASX noted that the AASB’s consultation process on the
+sustainability reporting standards had only closed on 1 March 2024, saying
+further:
+Rushed implementation would not only negatively impact reporting
+entities, investors and efficient capital allocation, but may undermine the
+credibility of the regime and jeopardise Australia's attractiveness as an
+investment destination for global capital.33
+2.35 Treasury representatives noted that the standards are not anticipated to be
+finalised by the AASB until August 2024, which the committee notes is less than
+six months before the proposed starting date of 1 January 2025.34
+Three-year modified liability
+2.36 Another common theme in submissions was the inclusion in the bill of a three-
+year modified liability period for reporting entities, which would prevent third
+parties from making claims about misleading statements in transition plans. As
+mentioned above, several submitters to the inquiry were highly supportive of
+the inclusion of this in the bill. However, other submitters expressed
+reservations about its inclusion.
+2.37 The EDO noted that the modified liability regime was a significant departure
+both from proposals in the Exposure Draft (which did not prevent third parties
+from bringing claims, including for misleading and deceptive disclosures) and
+from the general application of misleading and deceptive conduct provisions in
+the Corporations Act, the ASIC Act or the Australian Consumer Law.35 It stated
+that the proposal in the bill was a ‘regressive step that removes important
+accountability mechanisms’.36
+32 Australian Institute of Company Directors, Submission 15, p. 8.
+33 Australian Securities Exchange, Submission 23, p. 2.
+34 Ms Rebecca McCallum, Director, Climate Change Reporting Unit, Treasury, Committee Hansard,
+23 April 2024, p. 35.
+35 Environmental Defenders Office, Submission 3, p. 5.
+36 Environmental Defenders Office, Submission 3, p. 5.
+34
+2.38 The CMI took a more measured view, stating that it appreciated the need to
+balance disclosing important information with protections for reporting entities,
+but also highlighting that similar protections were not established in other
+jurisdictions when they introduced similar regimes. It recommended that the
+modified liability provisions be amended to reduce their scope and duration.37
+2.39 Other submitters cautioned that the modified liability provisions could lead to
+‘widespread greenwashing’ through the first three years of the regime.38
+Concerns were also raised that these provisions undermine the benefits of
+transparency that the climate reporting scheme sought to achieve, and the
+modified liability regime does not provide a critical enforcement mechanism to
+ensure accountability. 39
+2.40 Conversely, various submitters advocated for an expansion of the modified
+liability regime, saying it should be expanded to apply to protected statements
+made outside of the sustainability report or the audit report and also include
+disclosures such as website statements and investor briefings to encourage
+broader engagement with climate issues.40
+2.41 Expanding on this, the AICD remarked that removing or reducing the modified
+liability regime could undermine the aims of mandatory climate reporting as
+organisations, concerned by the prospect of litigation, may make more
+generalised climate disclosures, which would be of limited use to investors.41
+2.42 Herbert Smith Freehills argued that the scope of the modified liability
+protections should be expanded to all substantively protected statements,
+writing in their submission:
+As drafted, the modified liability regime could prevent entities from
+communicating effectively with stakeholders about their Scope 3 emissions,
+scenario analysis and transition plans, risk distorting market information
+flows and create legal risks when entities are discussing their climate
+strategies in different forums (which is typical practice and expected by
+external stakeholders).42
+2.43 The Governance Institute of Australia (GIA) acknowledged that the modified
+liability regime had addressed some of its members’ concerns around the bill
+but echoed the calls for expanding these protections. They also recommended
+37 Carbon Market Institute, Submission 7, p. 2.
+38 Climate Integrity, Submission 12, p. 1; Australian Conservation Foundation, Submission 13, p. 2;
+Environmental Justice Australia, Submission 25, p. 3.
+39 Environmental Justice Australia, Submission 25, pp. 2–3.
+40 Australian Institute of Company Directors, Submission 15, p. 4; Baker McKenzie, Submission 26, p. 4.
+41 Australian Institute of Company Directors, Submission 15, p. 5.
+42 Herbert Smith Freehills, Submission 17, p. 1.
+35
+that limited immunity be expanded to all entities coming into the climate
+reporting scheme for the first three years of its existence.43
+2.44 Equity Generation Lawyers took the view that modified liability provisions
+should be limited to proceedings for misleading or deceptive conduct that seek
+loss or damage. In order to combat greenwashing, they recommended that
+public interest private litigation for misleading or deceptive conduct should be
+permitted if it does not seek losses or damages.44
+2.45 In its submission, the Law Council of Australia (LCA) made the comment that
+it had received a range of views from stakeholders regarding the modified
+liability provisions and had come to the view that it supported their inclusion,
+noting the policy objectives of the reform as well as the need for a transitional
+period for affected entities.45 The LCA went on to say:
+While private litigation is an important accountability mechanism for
+corporate disclosures, the Law Council considers it preferable that
+compliance is promoted in the early years of the regime through education
+and redirection by the regulator. Reserving legal action for ASIC over the
+transitional period has the added advantage of utilising less expensive
+and/or time-consuming compliance and enforcement tools prior to
+considering legal proceedings…whereas private litigation can be a more
+blunt compliance tool by comparison. The threat of private litigation may
+also result in conservative, bare minimum disclosures by reporting entities
+out of fear of getting it wrong in the early years of the regime.46
+2.46 Treasury acknowledged that there were differing views on the inclusion of the
+modified liability requirements and provided its reasoning for these provisions:
+The liability modifications that have been included support entities to
+develop confidence around the most uncertain elements of their reporting
+obligations before they are fully accountable to private litigants, while
+ensuring that they can’t escape accountability entirely because ASIC will be
+ensuring that reporting is appropriate.47
+Auditing requirements
+2.47 A variety of concerns were raised in submissions about the auditing
+requirements for sustainability reports introduced by the bill.
+2.48 Some submissions remarked that the starting date for the enduring provisions
+of the mandatory auditing requirements of 1 July 2030 will not achieve the
+policy goals of providing investment transparency and certainty for investors
+43 Governance Institute of Australia, Submission 18, p. 2.
+44 Equity Generation Lawyers, Submission 22, p. 6.
+45 Law Council of Australia, Submission 24, p. 3.
+46 Law Council of Australia, Submission 24, p. 3.
+47 Ms Rebecca McCallum, Director, Climate Change Reporting Unit, Treasury, Committee Hansard,
+23 April 2024, p. 37.
+36
+and companies. For example, Equity Generation Lawyers recommended that
+the enduring provisions for the mandatory auditing requirements commence
+from 1 January 2026.48
+2.49 The LCA took a similar view, noting that the delay until 2030 did not align with
+the transitional provisions for directors’ declarations.49 They recommended that
+the AUASB auditing standards be brought forward to 1 January 2027, to apply
+for the 2027-28 financial year.50
+2.50 GHD raised concerns about the cost and whether there will be a positive cost
+benefit for auditing on these kinds of disclosures, while also commenting on
+capability gaps for financial auditors in Australia having to now perform
+climate audits.51 GHD suggested that Australia could follow the EU’s example
+in creating a separate accreditation for sustainability or climate auditors.52
+2.51 GHD also suggested that the AASB and the AUASB undertake periodic reviews
+of any standards regarding sustainability reporting to ensure they meet global
+standards. Alternatively, GHD considered that the 2028 review of the scheme
+mandated by the bill could be amended to include sustainability and auditing
+standards.53
+Requirement for audit reporting for Group 3 companies
+2.52 Several submissions commented on the requirement that all Group 3 entities54
+undertake an audit if they have no material climate risks or opportunities.
+2.53 CAANZ and CPA Australia noted in their joint submission that it is anticipated
+that Group 3 will be made up of 7098 entities, most of which will likely be not-
+for-profits or smaller private companies.55 They estimated that the audit or
+‘reasonable assurance engagement’ would be a substantial process that would
+likely cost between $20 000 and $50 000 for the entities involved.56
+2.54 Aside from this, CAANZ and CPA Australia also noted that there may be
+limited skills and capacity for audit firms to serve the Group 3 cohort of
+48 Equity Generation Lawyers, Submission 22, p. 2.
+49 Law Council of Australia, Submission 24, p. 2.
+50 Law Council of Australia, Submission 24, p. 2.
+51 GHD, Submission 21, p. 1.
+52 GHD, Submission 21, p. 2.
+53 Baker McKenzie, Submission 26, pp. 6–7.
+54 An explanation of the groupings of entities under the bill and how these entities will be phased into
+the climate reporting scheme is contained in Chapter 1 of this report.
+55 CAANZ and CPA Australia, Submission 4, pp. 1–2.
+56 CAANZ and CPA Australia, Submission 4, p. 2.
+37
+companies. This would lead to increased pressure on small and medium
+practice auditors, which would in turn lead to a decrease in audit quality.57 They
+cautioned that ‘a significant pressure on the quality of auditing arises in
+situations where audits are used as an alternative to more appropriate and
+focused scoping of the entities impacted at a policy/legislative level’.58
+2.55 CAANZ and CPA Australia suggested that the threshold for Group 3 entities be
+increased to $100 million in consolidated revenue with an additional qualifier
+limiting this group to Public Interest Entities or Disclosing Entities.
+Alternatively, they suggested removing the audit requirement entirely for
+Group 3 entities or limiting the audit requirement to Public Interest Entities or
+Disclosing Entities.59
+2.56 Nexia Australia highlighted concerns regarding the mandatory auditing
+requirements in the bill:
+…we are concerned that the auditor will be required to undertake their own
+analyses, scenario assessments, and business strategy and risk assessment
+procedures in order to form an opinion as to whether the auditor concurs
+with the directors' assessment.60
+2.57 Nexia Australia also raised issues about the capacity of small and medium
+practice auditors to perform audits of sustainability reports, observing that
+some may choose not to perform these audits for risk management purposes.
+They noted that the requirement that the same firm audit both the financial
+report and the sustainability report may also lead to increased concentration of
+the auditing market in the larger firms and reduce competition in the market.61
+2.58 The AICD highlighted the potentially significant costs of mandatory audits of a
+statement of no material climate risks or opportunities. They also questioned
+why not-for-profit entities were not exempted from the auditing requirements
+alongside charities.62 They recommended that the audit requirement for Group
+3 entities be substituted for a review or similar that would provide external
+assurance without the expense of a full audit process. Alternatively, they
+suggested that there could be a narrowing of Group 3 entities, through either
+raising thresholds or omitting not-for-profits from this grouping.63
+57 CAANZ and CPA Australia, Submission 4, p. 2.
+58 CAANZ and CPA Australia, Submission 4, p. 3.
+59 CAANZ and CPA Australia, Submission 4, p. 3.
+60 Nexia Australia, Submission 11, p. 1.
+61 Nexia Australia, Submission 11, p. 1.
+62 Australian Institute of Company Directors, Submission 15, p. 6.
+63 Australian Institute of Company Directors, Submission 15, pp. 6–7.
+38
+2.59 The AICD went on to make the point that the purpose of climate reporting is
+primarily to advise potential investors in, or lenders to, for-profit companies,
+rather than the uses of reporting for smaller and not-for-profit entities.64
+2.60 The GIA also recommended that there should be a reduced reporting regime for
+Group 3 entities, that the threshold for Group 3 entities be raised to $100 million
+consolidated revenue, and that not-for-profit entities be excluded from this
+group.65
+2.61 In response, Treasury representatives highlighted the reduced reporting
+requirements for Group 3 entities:
+You’ll see in the transitional arrangements but also in the ongoing
+obligations that, for group 3 entities, where they consider they don’t have
+material financial risks, they’re not required to undertake the complete suite
+of reporting. They do need to ensure that they are giving due consideration
+to the risks that they face and ensuring that they have undertaken some form
+of process to ensure that they themselves are confident and comfortable that
+they don’t face material financial climate risks, but that, once they’ve done
+that and received assurance over that, that's the end of their reporting
+obligations.66
+2.62 Treasury representatives also emphasised the value in promoting consistency
+by using existing standards and existing definitions to reduce the burden of
+reporting:
+Ultimately, we design these thresholds to try and balance the needs of
+different stakeholders. We do understand that there are a number of
+concerns from these smaller entities, but ultimately the trade-offs that
+needed to be made were appropriately balanced here. That was also a
+function of the 'large proprietary company’ thresholds having been
+comprehensively reviewed in 2019 and adjusted at that time and found to
+be appropriate to the size of the companies and the reporting obligations
+required.67
+2.63 Following the consistency principle outlined above, Treasury representatives
+outlined why not-for-profit organisations were not referred to specifically in the
+legislation:
+Again, we didn’t want to create additional complexity or create incentives
+for businesses to establish or restructure themselves in ways that might
+enable them to avoid reporting where reporting would otherwise be
+appropriate. It’s for this same reason that we’ve included unlisted
+64 Australian Institute of Company Directors, Submission 15, pp. 6–7.
+65 Governance Institute of Australia, Submission 18, pp. 1–2.
+66 Ms Rebecca McCallum, Director, Climate Change Reporting Unit, Treasury, Committee Hansard,
+23 April 2024, p. 38.
+67 Ms Rebecca McCallum, Director, Climate Change Reporting Unit, Treasury, Committee Hansard,
+23 April 2024, p. 36.
+39
+companies as well as listed companies, to again avoid perverse incentives
+for companies to structure themselves to avoid certain types of reporting.
+But, obviously, if companies are genuinely not-for-profit companies and are
+registered with the Charities and Not-for-profits Commission then they will
+be exempt from reporting, as they are for financial reporting at the
+moment.68
+Substituted compliance for local subsidiaries
+2.64 Various submissions also raised questions about local subsidiaries of global
+companies, many of which may have parent companies already completing
+sustainability reports in their home jurisdictions.69 These stakeholders sought
+clarity about whether Australian-based local subsidiaries would be required to
+prepare reports separately from their parent companies.
+2.65 The Australian Financial Market Association (AFMA) was of the view that
+Australian-based subsidiaries should be exempt from preparation of a
+sustainability report under the proposed regime. An exemption would reduce
+compliance burdens and would encourage disclosure within the corporate
+group, leading to better sustainability insights for global institutions.70
+2.66 The ICA had similar views, writing that its members would like clarity in this
+area. They also questioned whether Australian companies with interests outside
+Australia would be allowed to align their sustainability reporting to global
+standards.71
+2.67 Herbert Smith Freehills recommended that an Australian subsidiary should be
+allowed to rely on a parent entity’s sustainability report without needing to
+produce its own Australian version of the report, arguing this would reduce
+duplication and costs.72 Baker McKenzie echoed these views, noting that the
+Australian climate reporting standards and the reporting standards of other
+major jurisdictions will be very closely aligned.73
+Workforce impact and reporting
+2.68 Some inquiry participants suggested that sustainability reporting should be
+expanded to include reporting on impacts on the workforce. For example, the
+ACTU wrote:
+68 Ms Rebecca McCallum, Director, Climate Change Reporting Unit, Treasury, Committee Hansard,
+23 April 2024, p. 36.
+69 See also Baker McKenzie, Submission 26, pp. 1–3.
+70 Australian Financial Markets Association, Submission 9, pp. 1–2.
+71 Insurance Council of Australia, Submission 14, p. 2.
+72 Herbert Smith Freehills, Submission 17, p. 2.
+73 Baker McKenzie, Submission 26, p. 2.
+40
+Australia’s transition to net zero must provide positive social outcomes for
+the workers powering the transition, the communities experiencing and
+enabling it and the workers and communities who support current carbon-
+intensive industries. Such social benefit should be built in as a fundamental
+component of the Government’s Sustainable Finance Strategy, including
+climate-related disclosures, through conditionalities on good quality jobs
+and fair labour standards and positive social outcomes.74
+2.69 This view was echoed by the Maritime Union of Australia, which recommended
+that sustainability reporting should include metrics and targets relating to
+workforce impact.75 This submission noted that the EU’s sustainability reporting
+regime includes workforce reporting.76
+2.70 The ACTU also pointed out that the ISSB, in its current stakeholder consultation
+on its future workplan, is considering proposed projects on, among other things,
+human rights and human capital. Including similar considerations in the
+Australian sustainability reporting regime would put Australia at the forefront
+of best practice and developments on climate disclosure.77
+The Minister’s discretionary powers
+2.71 Another matter raised by submitters was the Minister’s discretionary powers in
+the bill to potentially use delegated legislation to require disclosure of financial
+matters beyond climate matters, with the AICD claiming these were ‘significant
+policy matters which are inappropriate for delegated legislation’.78
+2.72 Herbert Smith Freehills expressed concern that, although associated legislative
+instruments would be subject to disallowance and would sunset after 10 years,
+there is the potential for the Minister to broaden the regime significantly without
+due consultative process or fulsome legislative oversight. Accordingly, Herbert
+Smith Freehills and the GIA both submitted that the Minister’s ability to expand
+the regime should more expressly require industry consultation.79
+2.73 On this point, Baker McKenzie argued that, after the extensive consultation
+undertaken for this legislation, any further proposals to amend the reporting
+requirements should follow a comparable process of policy formation:
+The current Bill is the culmination of a lengthy consultation process,
+attesting to the fact that climate-related disclosure raises significant and
+complex policy issues. It follows that any proposal to expand the suite of
+disclosures should be subject to a comparable process of policy formulation,
+74 Australian Council of Trade Unions, Submission 16, p. 2.
+75 Maritime Union of Australia, Submission 6, p. 3.
+76 Australian Council of Trade Unions, Submission 16, p. 2.
+77 Maritime Union of Australia, Submission 6, p. 5.
+78 Australian Institute of Company Directors, Submission 15, p. 8.
+79 Herbert Smith Freehills, Submission 17, p. 3; Governance Institute of Australia, Submission 18, p. 2.
+41
+public consultation and legislative scrutiny, and is not an appropriate
+subject of delegated, Ministerial power.80
+2.74 The LCA highlighted the ambiguity associated with ‘other matters relating to
+environmental sustainability and the related ministerial power to develop a
+legislative instrument to require a sustainability report to include
+environmental sustainability matters’.
+It is concerning that no further details are provided in the text of the Bill, nor
+the Explanatory Memorandum, other than to note that there may be
+international developments in environmental sustainability in the future.81
+Scope 3 emissions disclosures
+2.75 Some stakeholders raised concerns about how Scope 3 emissions disclosures
+would be undertaken, the potential value of this information and the potential
+costs associated with gathering the necessary information.
+2.76 For example, Baker McKenzie cautioned that:
+Requirements around scope 3 greenhouse gas emissions need to be carefully
+reconsidered to ensure that they achieve fairness of outcome, and do not
+inadvertently penalise the good actors who proactively implement
+sustainability initiatives, as compared with others who do not.82
+2.77 Mr David Hardidge outlined his views against Scope 3 emissions disclosures:
+Scope 3 reporting, that includes activities in the ‘value chain’, i.e. suppliers
+and customers, is not consistent with usual accounting reporting. Usual
+accounting reporting involves the reporting entity, or consolidated
+reporting entity. Consequently, usual accounting reporting does not include
+results of suppliers or customers that are not controlled.
+The costs on business (particularly small business), and government
+agencies, of Scope 3 reporting advocated by many advisers and consultants
+would be very significant. Not only would ‘value chain’ suppliers and
+customers be required to report their Scope 1 and Scope 2 emissions
+(information they are likely not to collect), but such entities would also be
+required to report their ‘Scope 3’ emissions. Which, then of course, would
+force additional costs onto their ‘value chain’ suppliers and customers, and
+so on and so on.83
+2.78 Indeed, Mr Hardidge considered that ‘Scope 3 emission disclosures should not
+be required by the legislation as they do not provide useful information’.84
+80 Baker McKenzie, Submission 26, p. 7.
+81 Law Council of Australia, Submission 24, p. 5.
+82 Baker McKenzie, Submission 26, p. 6.
+83 Mr David Hardidge, Submission 19, p. 2.
+84 Mr David Hardidge, Submission 19, p. 2.
+42
+2.79 In response, Treasury representatives argued that ‘Scope 3 is an important part
+of any climate-reporting regime’ and that it is ‘quite different to what companies
+have been doing in the past’.85
+2.80 Treasury representatives also highlighted that including Scope 3 emissions in
+the reporting regime is important for identifying and understanding the
+associated financial risks:
+…many of the financial risks that investors are trying to manage and that
+companies need to be aware of in their own activities are really affected by
+scope 3 emissions…It really is important to understand where emissions sit
+in company’s supply chains to enable them to really understand what their
+financial risks might be.86
+Committee view
+Financial Market Infrastructure
+2.81 The committee notes the overwhelmingly positive support for these reforms
+and welcomes the Government’s commitment to enact the recommendations
+from the Council of Financial Regulators to prevent and intervene during a
+crisis.
+2.82 As noted by many stakeholders, while it is hoped that these powers will never
+have to be used, they provide an important level of confidence and ensure the
+stability of Australia’s financial markets.
+2.83 The committee is encouraged by commitments from ASIC and the RBA to work
+collaboratively and constructively with market participants to develop guidance
+on new aspects of this regulatory regime in a timely manner.
+Climate reporting
+2.84 The committee considers that the introduction of high-quality climate-related
+financial disclosures will support Australia to continue to attract international
+capital and is consistent with international standards.
+2.85 The committee believes that these reforms will guide investors to maximise
+Australia’s economic opportunities and maintain and grow Australia’s
+reputation as a destination for international capital that will be needed in the
+transition to net-zero.
+2.86 The committee is encouraged by the broad support from stakeholders for the
+introduction of a regime that is a significant part of the government’s sustainable
+finance strategy.
+85 Dr Alex Heath, First Assistant Secretary, Climate and Energy Division, Treasury, Committee
+Hansard, 23 April 2024, p. 36.
+86 Ms Rebecca McCallum, Director, Climate Change Reporting Unit, Treasury, Committee Hansard,
+23 April 2024, p. 36.
+43
+2.87 The committee looks forward to the release of AASB and AUASB reporting
+standards and the certainty this will provide. The committee is also encouraged
+by the level of engagement in the consultation process and expects that this will
+continue as these standards are reviewed, brought in line with international
+benchmarks over time, and further developed in other areas such as human
+rights and human capital.
+2.88 The committee welcomes the phased-in approach to be taken over the next four
+years, and expects this approach will provide an appropriate transition period
+for entities involved in the new reporting regime.
+2.89 The committee considers the modified liability provisions provide an important
+transition for entities before they are fully accountable to private litigants, and
+notes that during this time, ASIC will have oversight to ensure that the climate-
+related financial reporting is appropriate.
+2.90 The committee welcomes provisions that address the potential compliance
+burden on Group 3 companies, particularly where they consider they do not
+have material financial risks. The committee also emphasises that genuine not-
+for-profits and registered charities will be exempt from climate reporting, like
+they are from financial reporting.
+2.91 The committee believes the Minister’s discretion to use delegated legislation to
+require the disclosure of additional matters is appropriate to give the Minister
+flexibility to ensure that Australia can continue to align with international
+standards as they develop.
+2.92 The committee appreciates that industry stakeholders and Treasury have
+reflected positively on the extensive consultation process undertaken prior to
+the climate-related reporting regime being introduced into the Parliament.
+2.93 The committee notes significant evidence from inquiry participants that these
+measures should pass without undue delay.
+Recommendation 1
+2.94 The committee recommends that the bill be passed.
+Senator Jess Walsh
+Chair
+Labor Senator for Victoria
+
+Coalition Senators' Dissenting Report
+1.1 Treasury Laws Amendment (Financial Market Infrastructure and Other
+Measures) Bill 2024 amends Australia’s financial market infrastructure (FMI)
+regulations and introduces a climate-related financial disclosure regime.
+Schedules 1, 2, 3 and 5: Financial Market Infrastructure Reforms
+1.2 Schedules 1, 2, 3 and 5 implement reforms committed by the former Coalition
+Government in 2021. The majority of these reforms are welcomed by Coalition
+senators.
+1.3 FMIs include financial markets, clearing and settlement facilities, benchmark
+administrators, and derivative trade repositories. FMIs enable businesses,
+investors and governments to raise capital, access liquidity, manage risks, and
+invest funds.
+1.4 In the 2021-22 Federal Budget, the former Coalition Government committed to
+a series of financial market infrastructure regulatory reforms to ensure
+Australian regulators are fully equipped to identify and manage risks or
+intervene in an FMI failure crisis. The reform package included:
+ allowing the Reserve Bank of Australia (RBA) to manage a failure at a
+clearing and settlement facility;
+ enhancing the supervisory and licensing power of the Australian Securities
+and Investments Commission (ASIC) and the RBA; and
+ streamlining regulatory powers to improve the efficiency of regulatory
+administration.
+1.5 This announcement followed the recommendations by the Council of Financial
+Regulators in 2019. It also delivered on the recommendations of the 2014
+Financial System Inquiry and the International Monetary Fund.
+1.6 Coalition senators consider FMI entities to play a critical role in the Australian
+market. Having sound regulations in place to manage crises and risks these
+entities have is therefore appropriate.
+Transfer of power to the Minister to approve increases in voting power
+1.7 Coalition senators are concerned about the amendment proposed in the Bill to
+section 850B of the Corporations Act 2001 (Cth) (Corporations Act). This
+amendment would remove the requirement for increases in voting power above
+15 per cent in ASX Limited to be approved through regulation and subject to
+disallowance in the Senate. Instead, the Minister would have total discretion to
+approve or reject such increases.
+1.8 In the case of foreign acquisitions, the Senate disallowance is a critical additional
+layer of oversight to prevent transactions that are not in the national interest.
+45
+46
+Where an acquisition is approved by the Foreign Investment Review Board
+(FIRB), the Parliament retains the power to disallow an acquisition under section
+850B. This is a good thing.
+1.9 For instance, in 2011 Wayne Swan rejected the FIRB application of Singapore
+Exchange Limited who sought to acquire a majority share in ASX Limited. If the
+Minister of the day took a different view to Mr Swan, the Parliament could have
+exercised its powers to block the acquisition. These sorts of acquisitions could
+have an enormous impact on the Australian market. It is not appropriate that a
+Minister in future, if they took such a view, could approve an application like
+that of Singapore Exchange Limited, without any further democratic scrutiny.
+1.10 There is also significant concern around domestic acquisitions. These
+transactions, which are not subject to a FIRB application, will now have a single
+regulatory hurdle to jump in acquiring a stake of over 15 per cent in the ASX:
+the Minister.
+1.11 The ASX is not just another widely held market body. It has a monopoly on
+clearing and settlement in Australian financial markets. As a recent report by
+the Parliamentary Joint Committee on Corporations and Financial Services
+noted:
+The ASX Group is a vertically integrated exchange and market
+infrastructure provider. Subsidiaries ASX Clear and ASX Settlement have a
+monopoly in providing cash equities clearing and settlement facility
+services. They facilitate the clearing and settlement trades in ASX-listed and
+non-ASX-listed securities.1
+1.12 If an institutional investor were to be granted a controlling interest in ASX
+Limited, this institutional investor could then exert significant influence on
+Australia’s financial markets and economy. Currently, UniSuper and
+AustralianSuper already have 13.2 per cent and 7.6 per cent ownership of ASX
+Limited respectively.2
+1.13 The argument of “regulatory consistency” is not compelling on its own in this
+case given the ASX’s monopoly status, particularly if the proposed change
+involves reducing Parliamentary scrutiny and oversight over Australia’s
+financial market infrastructure and handing powers exclusively to the Minister.
+Furthermore, the ASX noted that all the widely held market bodies currently
+prescribed in regulation are part of the ASX group:
+1 Parliamentary Joint Committee on Corporations and Financial Services, Statutory inquiry into ASIC,
+the Takeovers Panel, and the corporations legislation - Competition in clearing and settlement and the ASX
+CHESS Replacement Project: The CHESS Replacement Project is too important to fail, April 2024, p. 36.
+2 ASX - 001: Answers to Written Questions on Notice Asked by Senator Andrew Bragg - (received 29
+April 2024), p. 2.
+47
+ASX notes that all of the markets and clearing and settlement facilities
+prescribed as widely held market bodies are part of the ASX group, although
+some are referred to by previous names.3
+1.14 The Coalition position is not that increases in ownership of ASX Limited should
+not be allowed. Rather, Coalition Senators are of the view that the Parliament
+should retain some sovereignty over the approval of such applications for
+increased control beyond the legislated limit, instead of leaving it entirely to the
+Minister of the day.
+1.15 On notice, the ASX informed the committee that they were not aware of any
+occasion where they have received advice from the Treasurer of any intention
+to deploy regulations allowing an investor to exceed the prescribed ownership
+limits under section 850B(1)(c), nor are they aware of any occasion wherein an
+institutional investor has sought or applied for increased ownership beyond the
+15 per cent threshold.4
+1.16 If this regulation-making power has never been used before, then it's not clear
+what the problem is and what immediate rationale there is for removing it and
+transferring the approval mechanism entirely to the Treasurer.
+1.17 At the public hearing, the ASX said that they did not advocate for this change
+as part of the consultation on legislation:
+Senator DEAN SMITH: Did you ask for it from the government?
+Ms Lewis: No, we did not. We did not discuss those issues—
+Senator DEAN SMITH: Did you ask the government to remove it until you
+had an opportunity to properly consult and consider your views on the
+matter?
+Ms Lewis: No, we didn't. We didn't engage with policymakers on this issue
+at all. We were focused on the implementation of the other aspects of the
+crisis resolution regime, as we felt that they were the more important issues,
+as part of the legislative package, for ASX to engage on.5
+1.18 The Treasury confirmed this during their appearance before the Committee:
+To my knowledge, my experience of the consultation process was consistent
+with ASX's comments earlier. They didn't actually engage with this part of
+the reforms that heavily.6
+3 ASX - 001: Answers to Written Questions on Notice Asked by Senator Andrew Bragg - (received 29
+April 2024), p. 2.
+4 ASX - 001: Answers to Written Questions on Notice Asked by Senator Andrew Bragg - (received 29
+April 2024), p. 1.
+5 Dialogue between Senator Dean Smith and Ms Diane Lewis, General Manager, Regulatory Strategy
+and Executive Adviser, Australian Securities Exchange, Committee Hansard, 23 April 2024, p. 22.
+6 Mr Nicholas Milkey, Acting Director, Capital Markets Unit, Department of the Treasury, Committee
+Hansard, 23 April 2024, p. 39.
+48
+1.19 Furthermore, on notice, the ASX said this was a matter for the parliament:
+Ensuring appropriate oversight of material changes in the voting interests
+in important financial sector entities is ultimately a matter for the
+Parliament.7
+1.20 Based on the evidence received through this inquiry, Coalition Senators see no
+reason for why this change must proceed at this time, as part of the legislative
+package before this Committee.
+1.21 Regrettably, at the time of tabling, the Committee has not received answers to
+extensive questions on notice lodged with the Treasury on this matter.
+Recommendation 1
+1.22 That the Bill be amended to retain the requirement for regulations to be made
+for the purpose of subsection 850B(1)(c) of the Corporations Act 2001, and to
+retain their disallowability under subsection 850B(2).
+Schedule 4: Sustainability Reporting
+Overview: A Significant Increase in Compliance That Has Been Under-scrutinised
+1.23 The Coalition retains significant concerns about the scope, design, and
+implementation of Schedule 4 of the Bill.
+1.24 The measures described in the Bill have been described by ASIC Chair Joe Longo
+as “the biggest change to company reporting in a generation”8 – a point
+reiterated by the Australian Institute of Company Directors in their evidence to
+the committee.9
+1.25 Despite this, this committee was permitted just 14 days to receive submissions,
+just four hours of hearing time, and just a week to report what is a significant,
+permanent change to Australia’s corporate law.
+1.26 This is at a time when the Australian Law Reform Commission has noted in their
+report Confronting Complexity: Reforming Corporations and Financial Services
+Legislation that corporations law complexity is harming the Australian economy:
+Judges have described the current [corporations and financial services] laws
+as being like ‘porridge’, ‘tortuous’, ‘treacherous’, and ‘labyrinthine’. Others
+have described the legislation as ‘broken’. Complexity in the existing
+7 ASX - 001: Answers to Written Questions on Notice Asked by Senator Andrew Bragg - (received 29
+April 2024), p. 2.
+8 Australian Institute of Company Directors; Deloitte; Minter Ellison, A director’s guide to mandatory
+climate reporting, 3 October 2023, p. 2, https://www.aicd.com.au/content/dam/aicd/pdf/tools-
+resources/director-resources/directors-guide-to-mandatory-climate-reporting-web.pdf.
+9 Ms Louise Petschler, General Manager, Education and Policy Leadership, Australian Institute of
+Company Directors, Committee Hansard, 23 April 2024, p.7.
+49
+legislation is not an isolated problem — it costs businesses, consumers,
+investors, and the economy at large.10
+1.27 The Explanatory Memorandum notes that “Schedule 4 to the Bill is expected to
+increase regulatory costs by $1.0 to $1.3 million per year per entity, averaged
+over 10 years.”11
+1.28 Spread across the 1800 entities Treasury estimate will be captured at a
+minimum,12 that compliance cost could reach a potential annual cost of $2.3
+billion to the economy.
+1.29 The Cost Impact Analysis for the scheme notes the cost of modelling scope 3
+impacts to under the preferred option (1b) at $245 000 a year during the
+transitional period and $161 700 ongoing.13 The total ongoing compliance cost
+for captured entities will be in the scheme of $681 000, with a transitional cost of
+$1.3 million.14
+1.30 Across the minimum of 1800 entities the Treasury expect to be captured, the cost
+to the economy will settle at $1.23 billion per year. The Policy Impact Statement
+lays out the following compliance cost estimates:
+10 Australian Law Reform Commission, Media release, 18 January 2024. “ALRC recommends
+confronting complexity in corporations and financial services legislation”, www.alrc.gov.au/wp-
+content/uploads/2024/01/FSL-Media-Release.pdf
+11 Treasury Laws Amendment (Financial Market Infrastructure and Other Measures) Bill,
+Explanatory Memorandum, p. 6.
+12 Ms Rebecca McCallum, Director, Climate Disclosure Unit, Department of the Treasury, Committee
+Hansard, 23 April 2024, p. 35.
+13 Office of Impact Analysis, Policy Impact Statement, Climate risk disclosure, 17 January 2024
+https://oia.pmc.gov.au/published-impact-analyses-and-reports/climate-risk-disclosure, prepared
+by the Department of the Treasury, September 2023, Office of Impact Analysis, Table 13, p. 27-28.
+14 Office of Impact Analysis, Policy Impact Statement, Climate risk disclosure, 17 January 2024
+https://oia.pmc.gov.au/published-impact-analyses-and-reports/climate-risk-disclosure, prepared
+by the Department of the Treasury, September 2023, Office of Impact Analysis, Table 13, p. 27-28.
+50
+Activity Transitional Cost ($) Ongoing Cost ($)
+Familiarisation and 116,960 0
+education costs
+Legal Review 10,472 7,854
+Systems changes 245,000 0
+Data collection 245,000 242,550
+Scenario analysis 245,000 161,700
+Scope 3 modelling 245,000 161,700
+Preparation of climate 149,600 48,960
+report
+Assurance 49,815 49,815
+Total $1,306,847 $681,154
+1.31 According to the Policy Impact Analysis, this is a higher cost than the United
+States, New Zealand, the United Kingdom.15
+1.32 The compliance cost is particularly onerous when considering the additional
+context elucidated through this committee:
+ 75 per cent of ASX listed companies already voluntarily disclose climate
+related information to investors because they see a commercial imperative
+to do so.16
+ The vast majority of companies captured as Group 3 entities will be forced
+to do due diligence, and be vulnerable to enforcement action, regardless of
+materiality of risks.17
+ The lack of case law to determine subjective tests within the legislation, and
+the associated legal costs for companies.18
+15 Office of Impact Analysis, Policy Impact Statement, Climate risk disclosure, 17 January 2024
+https://oia.pmc.gov.au/published-impact-analyses-and-reports/climate-risk-disclosure, prepared
+by the Department of the Treasury, September 2023, Office of Impact Analysis, Appendix A,
+pp. 41-42.
+16 Ms Kate O'Rourke, Commissioner, Australian Securities and Investments Commission, Committee
+Hansard, 23 April 2024, p. 28.
+17 Ms Louise Petschler, General Manager, Education and Policy Leadership, Australian Institute of
+Company Directors, Committee Hansard, 23 April 2024, p. 8.
+18 Mr Christian Gergis, Head of Policy, Australian Institute of Company Directors, Committee Hansard,
+23 April 2024, p. 9.
+51
+ The lack of workforce to undertake the work associated with a fully
+assured regime, particularly if Australia’s reporting framework differs from
+major markets like the United States.
+ The clear appetite for climate litigants submitting to this committee to use
+the law to pursue potentially vexatious litigation and pressure regulatory
+action from ASIC and the ACCC.19
+ The willingness of ASIC to pursue enforcement actions during the modified
+liability period.20
+ The inability of any witness to ascertain whether the Australian Accounting
+Standards Board (AASB) standards would be completed by the proposed
+commencement date.21
+ The competition impacts: both to small and medium accountancy and audit
+firms,22 and to businesses seeking to win contracts within the supply chain
+of captured entities.
+1.33 As the ALRC has noted upon release of its review of the corporations law
+(emphasis added):
+Complexity costs consumers not only in the expenses that are passed on
+by financial services providers, but by failing to protect them from
+misconduct. The Royal Commission clearly demonstrated the economic and
+human costs of non-compliance with the law. [Simpler regulation] would
+strengthen consumer protection substantially and reduce costs for
+business by making the law simpler to comply with and easier to
+enforce.23
+1.34 The Senate inquiry did not hear from a major employer group or business
+operator about the mechanical and realised financial impact of complying with
+these laws on their business, their customers, or their supply chains. Evidence
+that was particularly lacking due to the limited scope of the inquiry were the
+impacts to small businesses in captured entities' supply chain, or emissions
+intensive industries like manufacturing, agriculture, forestry, transport, or
+resources.
+19 Mr David Leighton Barnden, Principal Lawyer, Equity Generation Lawyers, Committee Hansard,
+23 April 2024, p. 13.
+20 Ms Kate O'Rourke, Commissioner, Australian Securities and Investments Commission, Committee
+Hansard, 23 April 2024, p.29.
+21 See Committee Hansard, 23 April 2024, pp. 5-6; 14-15; 19; 23; 25; 31 and 39 .
+22 Mr Martin Olde, Technical Director, Nexia Australia, Committee Hansard, 23 April 2024, p.17; Mr
+Leon Olsen, APAC Sustainability Service Line Leader, GHD, Committee Hansard, 23 April 2024, p.18.
+23 Australian Law Reform Commission, Media Release, 18 January 2024, “ALRC recommends
+confronting complexity in corporations and financial services legislation”, <www.alrc.gov.au/news/fsl-
+final-report-
+tabled/#:~:text=Complexity%20costs%20consumers%20not%20only,non%2Dcompliance%20with
+%20the%20law> (Accessed 2 May 2024).
+52
+1.35 The Coalition has significant concerns about rushing this proposal through
+without that evidence, particularly in light of evidence from witnesses and the
+growing impact of compliance costs to Australia’s collapsing productivity.
+1.36 ASIC noted the inclusion of scope 3 emissions will mean that compliance for
+captured entities will be passed on to small businesses.24 ASIC noted that this
+issue is of significant concern to the Australian Small and Family Business
+Enterprise Ombudsman.25
+1.37 In consideration of the United States disclosure rules, the Securities and
+Exchange Commission (SEC) noted the compliance impact of small and private
+companies in the supply chain as a significant concern in their consideration of
+their final reasons for excluding scope 3 from the United States’ regime, stating:
+A number of commenters representing entities not subject to the
+Commission’s disclosure authority raised serious concerns about the costs
+and burdens they could face as a result of the requirement on registrants.
+Among those costs, they highlighted not only the cost of collecting and
+reporting information but also the potential competitive disadvantage for
+smaller suppliers, if registrants select larger suppliers that may be in a better
+position to supply information to use in their Scope 3 emissions
+disclosures.26
+1.38 It is also unclear, and has not been addressed substantively in submissions, on
+the role sustainability standards may play in dictating captured entities
+preparedness to offer essential financial products and services to non-captured
+entities. The law as proposed is significantly different from other regimes:
+ Captures a wider group of entities at lower thresholds than the UK, New
+Zealand, or proposed Canadian and US models.27
+24 Ms Kate O'Rourke, Commissioner, Australian Securities and Investments Commission, Committee
+Hansard, 23 April 2024, p.31.
+25 Ms Kate O'Rourke, Commissioner, Australian Securities and Investments Commission, Committee
+Hansard, 23 April 2024, p.31.
+26 Securities And Exchange Commission, Final Rule: The Enhancement and Standardization of Climate
+Related Disclosures for Investors, 6 March 2024, pp. 228-229,
+https://www.sec.gov/files/rules/final/2024/33-11275.pdf.
+27 Securities And Exchange Commission, Final Rule: The Enhancement and Standardization of Climate
+Related Disclosures for Investors, 6 March 2024, pp. 228-229,
+https://www.sec.gov/files/rules/final/2024/33-11275.pdf; HM Government, Environmental Reporting
+Guidelines: Including streamlined energy and carbon reporting guidance, March 2019
+https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/fil
+e/850130/Env-reporting-guidance_inc_SECR_31March.pdf; Financial Markets Authority - New
+Zealand, Aotearoa New Zealand Climate-related Disclosures Director Preparation guide, December 2022,
+https://www.xrb.govt.nz/dmsdocument/4773.
+53
+ Requires scope 3 emissions reporting, which has been excluded by the SEC,
+was excluded from the Canadian draft scheme, and is not mandatory under
+the United Kingdom scheme.28
+ Requires wider assurance of elements of the mandatory reporting scheme,
+despite significant questions about the extent to which they can be
+effectively assured at all.29
+1.39 These three points are particularly significant in respect to the treatment of scope
+3 emissions. Contrary to the view expressed by many witnesses to the
+committee, the SEC noted in its final rule decision on the USA’s climate
+disclosure regime a volume of significant concerns with scope 3 reporting,
+noting its unreliability, the difficulty of its collection, and its costly compliance
+burden.
+1.40 In the SEC’s own words: “these concerns would increase compliance costs and
+raise a registrant’s liability exposure so that the total cost of the scope 3
+emissions disclosure would likely exceed its benefit”.30
+1.41 Given the scope of this reform, the significant annual compliance cost, and
+significant variation from international standards, a more thorough evaluation
+of this legislation is essential to ensure Australia retains its economic
+competitiveness and that the regime - which will be subject to enforcement and
+litigation – is practical, feasible and does not leave small businesses or
+consumers behind.
+1.42 Accordingly, while Coalition senators will give consideration to amendments
+raised through the hearing and submissions, the Coalition will continue to
+reserve its final position on the schedule until it is satisfied these concerns are
+properly addressed.
+Recommendation 2
+1.43 The Senate should extend the committee’s consideration of this legislation,
+and additional hearings be scheduled to hear from a diverse range of
+witnesses, including small business representatives, to contemplate the
+impacts on supply chains, the regulatory burden, access to finance, and
+competition.
+28 Fasken, BULLETIN: The SEC's Final Rules on Climate Related Disclosure and What They May Mean for
+Canadian Issuers, 13 March 2024, www.fasken.com/en/knowledge/2024/03/the-secs-final-rules-on-
+climate-related-disclosure-and-what-they-may-mean-for-canadian-issuers.
+29 Mr Leon Olsen, APAC Sustainability Service Line Leader, GHD, Committee Hansard, 23 April 2024,
+p. 19.
+30 Securities And Exchange Commission, Final Rule: The Enhancement and Standardization of Climate
+Related Disclosures for Investors, 6 March 2024, p. 232, www.sec.gov/files/rules/final/2024/33-
+11275.pdf.
+54
+Background of the bill
+1.44 Australia is the 14th largest economy in the world in the great gross domestic
+product race because it is a stable, innovative market with strong corporate law
+settings. These features are critical in attracting the investment that allows
+Australian businesses to thrive.
+1.45 It is essential that the Australian market remains aligned with international
+standards and responsive to the concerns of investors and stakeholders.
+1.46 The global market is making a long-term shift to a lower emissions future.
+1.47 As former Treasurer, the Hon. Josh Frydenberg MP stated in an address to the
+Australian Industry Group in 2021:
+Climate change and its impacts are not going away. It represents a structural
+and systemic shift in our financial system, which will only gain pace over
+time. For Australia, this presents risks we must manage and opportunities
+we must seize.31
+1.48 In the same speech, the former Treasurer signalled the Coalition Government’s
+focus on establishing a clear reporting framework for the disclosure of material
+climate risks.
+1.49 Rather than banning investments in particular assets or activities, or prescribing
+certain approaches, the Coalition’s focus was on arming businesses with the
+right tools to assess, manage, and disclose the risks they face in a proportionate
+and pragmatic manner.
+1.50 This was a recognition that climate change is an economic imperative as much
+as it is an environmental one. The Research Bank of Australia found in its 2020
+Financial Stability Review that:
+Climate change is exposing financial institutions, and the financial system
+more broadly, to risks that will rise over time and, if not addressed, could
+become considerable... Addressing these early will help to both mitigate the
+transition risks and reduce the scale of the challenge that physical risk poses
+to financial stability in future.32
+1.51 Alongside the risks, there is also great opportunity.
+1.52 A Deloitte Access Economics and National Australia Bank report found that
+productivity and innovation arising from decarbonisation could grow
+Australian export opportunities by $420 billion by 2050.33
+31 The Hon Josh Frydenberg MP, Address to the Australian Industry Group, Melbourne, 24 September
+2021.
+32 Reserve Bank of Australia, The Australian Financial System: Financial Stability Review, October 2020,
+www.rba.gov.au/publications/fsr/2020/oct/australian-financial-system.html.
+33 Deloitte and National Australia Bank, All systems go: Powering ahead, August 2023.
+55
+1.53 The Bill before the Committee represents the Labor Government’s approach to
+climate-related disclosures. Coalition senators are supportive of the concept, but
+remain concerned by several aspects of the Bill that have not been given
+sufficient consideration by the Government.
+1.54 It is regrettable that the Government has sought to rush Senate scrutiny of this
+proposed scheme.
+1.55 The Bill was introduced to the Parliament and referred to the Committee late in
+the last week of parliamentary sitting. Stakeholders were then given a week
+between the due date for submissions being published and the deadline to lodge
+a submission with the Committee.
+1.56 The Law Council of Australia informed the Committee that “[s]ignificant
+concern has been expressed from all corners of the legal profession about the
+extraordinarily short timeframe for this inquiry.”34 The Law Council went on to
+say:
+This is particularly concerning given—to borrow the words of Australian
+Securities and Investments Commission (ASIC) Chair Joe Longo—that
+Schedule 4 to the Bill is the “biggest change in the financial services sector
+in a generation” resulting in a “seismic shift” for corporates and investors.35
+Summary of the regime
+1.57 The Bill requires entities with reporting obligations under Chapter 2M of the
+Corporations Act to disclose climate-related financial risks and opportunities in
+accordance with the sustainability standards made by the AASB.
+1.58 The regime captures the following entities:
+ Group 1: An entity with a consolidated revenue of $500 million or higher, or
+consolidated gross assets of $1 billion or higher.
+ Group 2: An entity with a consolidated revenue of $200 million or higher, or
+consolidated gross assets of $500 million or higher.
+ Group 3: An entity with a consolidated revenue of $50 million or higher, or
+consolidated gross assets of $25 million or higher.
+1.59 The disclosures must include information around scopes 1, 2 and 3 emissions.
+The Explanatory Memorandum provides the following guidance on what those
+disclosures require:
+ Scope 1 greenhouse gas emissions are direct greenhouse gas emissions that
+occur from sources that are owned or controlled by an entity.
+ Scope 2 greenhouse gas emissions are indirect greenhouse gas emissions
+from the generation of purchased or acquired electricity, steam, heating or
+cooling consumed by an entity. Purchased and acquired electricity is
+34 Law Council of Australia, Submission 24, pp. 1-2.
+35 Law Council of Australia, Submission 24, pp. 1-2.
+56
+electricity that is purchased or otherwise brought into an entity’s boundary.
+Scope 2 greenhouse gas emissions physically occur at the facility where
+electricity is generated.
+ Scope 3 greenhouse gas emissions are indirect greenhouse gas emissions
+(not included in scope 2 greenhouse gas emissions) that occur in the value
+chain of an entity, including both upstream and downstream emissions,
+including financed emissions.36
+1.60 Disclosures made by reporting entities must be assured by auditors.
+1.61 The obligations under the regime will be phased in over a four-year period, with
+the first round of disclosures to be made after 1 July 2025.
+There is space for pragmatic and sensible disclosures
+1.62 It is the position of Coalition senators that it would be appropriate for a
+pragmatic and sensible mandatory climate-related disclosure regime to apply to
+Group 1 and 2 entities who face material climate risks and opportunities. There
+are three key reasons for this:
+(a) It would streamline and improve the quality of disclosures that are already
+being made on a voluntary basis.
+(b) It would prevent poor decision-making, misallocation of capital, and the
+mispricing of assets.
+(c) It would make Australian businesses more attractive for investment and
+improve investor confidence.
+1.63 High quality disclosures have the ability to improve access to capital and
+productivity.
+1.64 A study of disclosures under the US Carbon Disclosure Project found that
+reporting firms had a 19 per cent greater access to capital than non-reporting
+firms.37 The Productivity Commission’s 5-year Productivity Inquiry February
+2023 Report found a link between high-quality, useful climate information and
+productivity.38
+1.65 In 2023, 88 per cent of ASX100 companies included environmental, social, and
+governance (ESG) or sustainability information in their annual financial
+reports.39 75 per cent of ASX200 companies have committed to reporting their
+36 Treasury Laws Amendment (Financial Market Infrastructure and Other Measures) Bill 2024,
+Explanatory Memorandum, p. 141.
+37 Millani, The Role of CDP Disclosure to Improve Access to Capital, October 2019, https://f01c8ee6-cac3-
+40ff-a0e4-8bfb54f2b88b.filesusr.com/ugd/66e92b_30b06fd11b9c43d88428f768676e9a8b.pdf.
+38 The Productivity Commission, Inquiry report – volume 6: 5-year Productivity Inquiry, Managing the
+climate transition, 7 February 2023.
+39 KPMG, Status of Australian Sustainability Reporting Trends, June 2023.
+57
+climate risks and opportunities in accordance with the Task Force on Climate-
+Related Financial Disclosures (TCFD) framework.40
+1.66 Companies like BHP, RioTinto, and Transurban have already begun publishing
+high quality disclosures, acknowledging the importance of this information for
+investors, long-term planning, and international alignment.41
+1.67 Mandatory disclosure regimes are emerging in over half of Australia’s top ten
+two-way trading partners.42 Regimes are in place in New Zealand, Hong Kong
+and the European Union, and soon to be in the United States, United Kingdom
+and Canada. The importance of keeping in-step with other competitive
+destinations was highlighted by the Governance Institute of Australia:
+It's very important for Australia to be able to be aligned internationally. We
+are a country which is an attractive investment country, particularly for
+overseas pension funds, and we need to be able to produce the sort of high-
+quality disclosures that these investors require.43
+1.68 The absence of a streamlined process for making disclosures has meant that
+“voluntary disclosures differ in content, depth and rigour… and thus suffer
+from a lack of comparability and transparency.”44 According to the Investor
+Group on Climate Change:
+[M]any of our investors, because their legal obligation is to deliver on the
+best long-term financial returns of their members, were seeking to invest in
+other countries to deliver those returns because they had clearer frameworks
+to understand what companies were doing and what companies were not
+doing.
+…
+We had an alphabet soup of different approaches across various
+jurisdictions. We needed to align those to avoid market fragmentation and
+inefficient capital allocation. Also, the accelerating race to net zero was
+seeing opportunities emerge in other jurisdictions which had these better
+40 ACSI, Promises, Pathways & Performance: Climate Change Disclosure in the ASX200, August 2023.
+41 BHP, Annual Report, 2023, p. 58; RioTinto, Annual Report, 2023, p. 13; Transurban, Corporate Report,
+2023, p. 59.
+42 Investor Group for Climate Change, Confusion to Clarity: A plan for mandatory TCFD-aligned disclosure
+in Australia, 5 June 2021, p. 9.
+43 Ms Catherine Maxwell, General Manager, Policy and Advocacy, Governance Institute of Australia,
+Committee Hansard, 23 April 2024, p. 8.
+44 Aon, The Transition to Mandatory Climate Disclosures in Australia – The Essential Facts,
+https://aoninsights.com.au/the-transition-to-mandatory-climate-disclosures-in-australia-the-
+essential-facts/.
+58
+disclosure frameworks, which was driving Australian investment
+offshore.45
+1.69 The vast majority of witnesses to the Committee agreed that the cost of
+compliance for Group 1 and 2 entities was justified by the benefits for those
+businesses:
+We recognise that there will be a bit of a cost, in terms of implementation,
+but we also recognise the big benefits of this bill to enable allocators of
+capital to price in climate risk. I think we also see, broadly, potential cost
+savings because, as we noted before, particularly in the ASX 200, a lot of
+companies are already reporting their climate risk but what this regime will
+do is to help standardise that sort of reporting. So we see a potential cost
+saving there as well.46
+1.70 The overvaluation of an entity’s risk profile in the absence of a standardised
+regime may also lead to the misallocation of capital:
+A lack of adequate information on climate risk and opportunities is
+contributing to overvaluation of emissions-intensive activities, underpricing
+of climate change risk and mispricing of assets. This results in poor decision-
+making and the misallocation of capital.47
+1.71 For Australian businesses with a consolidated revenue of $200 million or higher,
+the transition to mandatory disclosure will be relatively intuitive.
+1.72 However, there are significant methodology and data gaps which make scope 3
+emissions much more difficult to disclose when compared to scopes 1 and 2.48
+Disproportionate application to small and medium businesses
+1.73 Coalition senators are concerned that the Bill places a disproportionate
+compliance burden on Group 3 entities, the vast majority of whom do not have
+any material impact on the climate. This is inconsistent with the Government’s
+supposed “climate first, but not only” approach outlined in the Explanatory
+Memorandum.49
+1.74 Group 3 entities, those with a consolidated revenue of $50 million or higher, will
+only be required to disclose material climate risks and opportunities.
+45 Mr Erwin Jackson, Managing Director, Policy, Investor Group on Climate Change, Committee
+Hansard, 23 April 2024, p. 3.
+46 Mr Chaneg Torres, Policy Director Investments and Funds Management, Financial Services
+Council, Committee Hansard, 23 April 2024, p. 26.
+47 Investor Group for Climate Change, Confusion to Clarity: A plan for mandatory TCFD-aligned disclosure
+in Australia, 5 June 2021, p. 9.
+48 Insurance Council of Australia, Submission 14, p. 2.
+49 Treasury Laws Amendment (Financial Market Infrastructure and Other Measures) Bill 2024,
+Explanatory Memorandum, p. 139.
+59
+1.75 The problem identified by numerous witnesses is that firms can only assess
+materiality after conducting an audit. In practice, the materiality requirement
+does not ease the burden of reporting for these businesses:
+Our members consider this imposes a significant and unjustified regulatory
+and cost burden on these companies. It effectively imposes a requirement
+for an additional audit on a sector which is already under resource and cost
+constraints, noting that limited assurance will initially be required. An audit
+of this type of statement is not a ‘tick and flick’ exercise.50
+1.76 Treasury Policy Impact Analysis found that “only 5 per cent of Group 3
+companies have material climate risk and would be required to report.”51
+1.77 This means that the vast majority of Group 3 businesses will be required to
+undertake a costly audit and seek external assurances, all to find that they have
+nothing to report.
+1.78 The costs to these businesses are significant and appear to outweigh any
+perceived benefits to the economy.
+1.79 Nexia Australia estimates that the costs to Group 3 entities could be in the ranges
+of:52
+Requirement Approximate cost range
+First year implementation reporting $30,000 - $70,000
+Ongoing annual reporting $20,000 - $40,000
+Limited assurance of climate $15,000 - $30,000
+reporting
+Reasonable assurance of climate $25,000 - $50,000
+reporting
+1.80 This Dissenting Report has noted that a mandatory disclosure regime has the
+potential to improve access to capital by providing the information investors see
+as important in their risk assessments. It is a major concern to Coalition senators
+that the benefits canvassed may be achieved even if Group 3 entities are not
+captured.
+1.81 Group 3 entities are small and medium sized Australian businesses, usually
+closely-held by family groups with few or no external stakeholders.53 Critically,
+these businesses very rarely receive foreign capital.
+50 Governance Institute of Australia, Submission 18, p. 3.
+51 The Australian Government the Treasury, Policy Impact Analysis: Climate-related financial disclosures,
+September 2023, p. 26.
+52 Nexia Australia, Submission 11, pp. 2-3.
+53 Nexia Australia, Submission 11, p. 2.
+60
+1.82 The Governance Institute and the Australian Institute of Company Directors
+gave the following evidence:
+Senator DEAN SMITH: Does lifting the scope 3 threshold, in the manner
+suggested by you both, to $100 million compromise or undermine this
+initiative in terms of meeting our international obligations but also in
+bringing forward foreign investment to Australia? Does lifting the threshold
+compromise either of those two things?
+Ms Maxwell: … One of the things to think about is that larger investors,
+particularly from overseas, do not typically invest in these companies.
+They're really at a scale where they don't operate. They typically have few
+outside investors, and their investors are very close to them. Treasury has
+also done some analysis and considers that a very small number of
+companies in that group will be impacted. We don't think this will
+negatively impact attractiveness to capital, because you don't typically get
+outside capital in those entities.54
+…
+Mr Gergis: … Given the ISSB standards are primarily investor focused,
+there is a strong case to narrow the application. … We want to make sure
+that any reporting, any compliance burden, that is imposed on business is
+proportionate and necessary, and we're just not convinced, with current
+thresholds, that that is appropriate for the group 3 entitlement as currently
+put into bill.55
+1.83 The Australian Institute of Company Directors’ submission pointed the
+Committee to difficulties with generating information on scope 3 emissions,
+scenario analysis, and forward-looking statements for Group 3 entities:
+We are particularly concerned that some of the Sustainability Standard
+disclosures, such as scope 3 emissions, scenario analysis and complex
+forward-looking disclosures, will not be relevant or useful to Group 3 entity
+users. This appears to be acknowledged by the AASB itself. … [T]he cost of
+reporting against the full gamut of climate reporting requirements is likely
+to be significant, and disproportionate to the individual impact of those
+entities. Research suggests that significant uplifting in climate reporting
+practices is required to satisfy ISSB-based reporting, even amongst the
+largest Australian companies, let alone Group 3 entities which are
+significantly smaller and resource-constrained.56
+1.84 The Government has not justified the time, cost, and resources small and
+medium businesses will be required to dedicate to complying with this regime:
+Treasury has not indicated how Scope 1, Scope 2 and Scope 3 greenhouse
+gas data and other mandated climate-related information reported by
+54 Ms Catherine Maxwell, General Manager, Policy and Advocacy, Governance Institute of Australia,
+Committee Hansard, p. 9.
+55 Mr Christian Gergis, Head of Policy, Australian Institute of Company Directors, Committee Hansard,
+23 April 2024, p. 9.
+56 Australian Institute of Company Directors, Submission 15, pp. 6-7.
+61
+Group 3 entities is intended to be collated and used by either governments
+or others. Extending mandatory climate reporting to large proprietary
+companies would impose significant time, cost, and resource burden of
+preparing and auditing such information without explaining to this cohort
+the purpose, usefulness, or expected benefits of doing so.57
+1.85 Nexia Australia recommended that Group 3 entities be removed entirely from
+reporting obligations under the Bill.58
+1.86 The Australian Institute of Company Directors and the Governance Institute
+recommended that the revenue threshold for Group 3 entities be lifted from $50
+million to $100 million, and the gross assets threshold from $25 million to $50
+million.59 This would align the regime with other, similar reporting obligations
+under Australian law, such as those under the Payment Times Reporting
+Scheme, the Modern Slavery Act, and the Corporate Tax Transparency Code.60
+Recommendation 3
+1.87 That Group 3 entities be removed entirely from the regime. Alternatively, that
+the threshold for Group 3 entities be increased to $100 million in gross
+revenue or $50 million in gross assets.
+1.88 If the Government does not heed the witnesses’ advice, it is appropriate that
+additional safeguards be included in the Bill to ease the burden on Group 3
+entities.
+1.89 Witnesses told the Committee that a simplified disclosure regime would be
+appropriate for the size of these entities. They pointed the Committee’s attention
+to the ‘Simplified Disclosures’ Tier 2 financial reporting framework which came
+into effect on 1 July 2022.61 An adjustment of this kind would be consistent with
+the approach taken in the European Union.
+Recommendation 4
+1.90 In the event that Group 3 entities remain covered by the regime, those entities
+should be subject to simplified climate reporting standards, similar to the
+simplified financial accounting standards that apply to Tier 2 reporting
+entities. Critically, the requirement of an audit of a statement of no material
+climate risks or opportunities should be removed.
+57 Nexia Australia, Submission 11, p. 2.
+58 Nexia Australia, Submission 11, p. 3.
+59 Australian Institute of Company Directors, Submission 15, p. 2; Governance Institute of Australia,
+Submission 18, p. 2.
+60 Governance Institute of Australia, Submission 18, p. 2.
+61 Governance Institute of Australia, Submission 18, p. 3.
+62
+Additional concerns
+Ministerial direction
+1.91 Proposed subsections 296A(4)-(5) and 296C(2) arm the Minister with broad,
+unfettered discretion to require disclosure of “financial matters concerning
+environmental sustainability” in an entity’s sustainability report through
+legislative instrument. According to Baker McKenzie:
+The power conferred on the Minister … to require disclosures beyond those
+mandated by the legislation or the sustainability standards is unacceptably
+broad. The current Bill is the culmination of a lengthy consultation process,
+attesting to the fact that climate-related disclosure raises significant and
+complex policy issues. It follows that any proposal to expand the suite of
+disclosures should be subject to a comparable process of policy formulation,
+public consultation and legislative scrutiny, and is not an appropriate
+subject of delegated, Ministerial power.62
+1.92 Herbert Smith Freehills told the Committee that while any legislative
+instruments created under these powers would be disallowable, “the regime
+could nonetheless be broadened significantly without due consultative
+processes or fulsome legislative oversight.”63
+1.93 It was anticipated by witnesses that the Minister could seek to expand
+disclosures to matters beyond climate,64 lower the monetary thresholds for
+mandatory reporting,65 or otherwise make substantive policy amendments
+which would go beyond “minor or technical matters” appropriately dealt with
+by delegated legislation.66
+1.94 Witnesses pointed the Committee’s attention to a recent report by the Australian
+Law Reform Commission concerning the Corporations Act, which identified
+broad ministerial discretion as a particular problem creating unnecessary
+complexity and obfuscation.67
+1.95 Herbert Smith Freehills, the Governance Institute, the Australian Institute of
+Company Directors all agreed that the Minister’s discretion should be subject to
+62 Baker McKenzie, Submission 26, p. 7.
+63 Herbert Smith Freehills, Submission 17, p. 3.
+64 Australian Institute of Company Directors - 001:Answers to Written Questions on Notice asked by
+Senator Andrew Bragg - (received 29 April 2024).
+65 Australian Institute of Company Directors - 001:Answers to Written Questions on Notice asked by
+Senator Andrew Bragg - (received 29 April 2024); Governance Institute of Australia - 001: Answers
+to Written Questions on Notice asked by Senator Andrew Bragg - (received 29 April 2024).
+66 Australian Institute of Company Directors, Submission 15, p. 8.
+67 Mr Christian Gergis, Head of Policy, Australian Institute of Company Directors, Committee Hansard,
+23 April 2024, p. 10; Governance Institute of Australia, Submission 18, p. 4.
+63
+express requirements of industry consultation.68 Baker McKenzie and the Law
+Council were more critical, recommending those matters be subject to the
+proper legislative process.69
+Recommendation 5
+1.96 That the Minister’s proposed discretion in sections 296A(4)-(5) and 296(C) to
+require disclosure of “financial matters concerning environmental
+sustainability” be removed, or subject to explicit requirements of industry
+consultation.
+Modified liability
+1.97 Coalition senators are concerned that the potential benefits of the regime must
+not be undermined by vexatious private litigation.
+1.98 The Law Council told the Committee that it is preferable that compliance
+remains the responsibility of the regulator for the first few years of the regime’s
+operation:
+Reserving legal action for ASIC over the transitional period has the added
+advantage of utilising less expensive and/or time-consuming compliance
+and enforcement tools prior to considering legal proceedings (including the
+redirection power in the proposed section 296E in the Bill)—whereas private
+litigation can be a more blunt compliance tool by comparison. The threat of
+private litigation may also result in conservative, bare minimum disclosures
+by reporting entities out of fear of getting it wrong in the early years of the
+regime. Given that the overriding policy objective is transparency through
+expanded, high-quality disclosures, this would be an undesirable result—
+noting that affected entities will likely be in the process of understanding
+their reporting obligations and how to best discharge them.70
+1.99 There was also a view that the modified liability protections included in the Bill
+should be extended to protect statements replicated outside of Sustainability
+Reports or Audits Report, including in investor briefings or company websites:
+It is common practice for statements or information in a company's accounts
+or annual report to be duplicated elsewhere – for example, in investor
+presentations, in various sections of the company's website, and so on. In
+the context of climate-reporting, excluding such statements from the
+modified liability regime seems to us to be arbitrary and likely to yield
+incongruous outcomes – for example, by leaving directors exposed to
+liability for a statement made on their company's website, even though the
+statement is identical to a protected statement made in the company's
+sustainability report. This in turn is likely to discourage companies from
+68 Herbert Smith Freehills, Submission 17, p. 3; Governance Institute of Australia, Submission 18, p. 2;
+Australian Institute of Company Directors, Submission 15, p. 2.
+69 Baker McKenzie, Submission 26, p. 7; Law Council of Australia, Submission 24, p. 6.
+70 Law Council of Australia, Submission 24, p. 3.
+64
+engaging in open and effective communication with their stakeholders
+regarding those key areas of disclosure that the modified liability regime
+seeks to cover.71
+1.100 While private litigation concerning entity’s scope 3 disclosures, scenario
+analysis, and transition plans will be barred for the first three years of reporting,
+Coalition senators remain concerned that more should be done to prevent
+undue legal risk.
+1.101 The United States has taken a far more conservative approach. Its modified
+liability is not time-bound, and it explicitly covers disclosures regarding
+scenario analysis, transition planning, internal carbon pricing, and targets and
+goals disclosures. US businesses also have the benefit of existing safe harbour
+provisions for forward-looking statements, making litigation risk far less than
+for Australian firms.72
+Recommendation 6
+1.102 That modified liability protections be extended to statements replicating
+information in a Sustainability Report or Audit Report in investor briefings,
+website statements, public addresses, or other like documents, and that
+further consideration be given to the appropriateness of compliance
+remaining with the regulator for an extended period.
+Assurance requirements
+1.103 Proposed section 307AA requires a reasonable level of assurance of all climate
+disclosures for corporate reporting periods from 1 July 2030.
+1.104 GHD presented comprehensive evidence that such a broad assurance scope is
+not technically feasible, and goes well beyond the standards imposed in other
+jurisdictions:
+Aspects of the final assurance scope is likely not technically feasible. Many
+stakeholders in Treasury’s consultations have expressed concerns that
+several aspects of mandatory climate disclosures may not be possible to
+assure. This is in addition to a significant challenge relating to whether and
+when key aspects can be expected to be ‘assurance ready’ by companies
+having matured their reporting processes sufficiently to enable professional
+standards-based assurance. An aspect that may be technically unfeasible to
+assure relates to assuring whether forward-looking climate risk and
+opportunity disclosures are complete and accurate.
+…
+Due to concerns about technical feasibility and costs most other jurisdictions
+are not aiming for a similar assurance scope. Noting for example the
+requirements under the EU Corporate Sustainability Reporting Directive
+71 Baker McKenzie, Submission 26, pp. 4-5.
+72 Australian Institute of Company Directors, Submission 15, p. 3.
+65
+(CSRD), which are leading internationally in defining sustainability
+assurance requirements. Under the CSRD there is an aspirational objective
+of reasonable assurance of all disclosures – but it is not committed to yet
+because the EU recognises feasibility, capability and costs concerns may
+make it unrealistic to achieve. Accordingly, under the CSRD there will be an
+assessment after 4 years of what is possible and valuable to assure by the
+early 2030s. For Australia to fix by an Act of Parliament the final scope for
+all climate disclosures to undergo reasonable assurance by early 2030s is
+therefore clearly not internationally aligned.73
+1.105 The relevant auditing standards to be developed by the Auditing and Assurance
+Standards Board are not contemplated to operate until 1 July 2030. There is also
+a major capability gap of auditing professionals to conduct this level of
+assurance:
+We also note concerns with market availability and the need to develop
+capability across the Australian economy for third party assurance. … This
+expectation may place an undue burden on auditing professionals,
+particularly given the existing concerns around market capacity.74
+1.106 It is therefore appropriate that the assurance requirements be given further
+consideration before imposing an obligation on entities that they may find
+impossible to meet.
+Recommendation 7
+1.107 That the mandatory reasonable level assurance requirements of section
+307AA be removed and an assessment be done after four years to consider
+what is possible and important to assure by early 2030.
+Senator Andrew Bragg Senator Dean Smith
+Deputy Chair Senator for Western Australia
+Senator for New South Wales
+73 GHD, Submission 21, pp. 8-9.
+74 Financial Services Council, Submission 10, p. 4.
+
+Greens Senators' Additional Comments
+1.1 While the Australian Greens acknowledge that corporate climate reporting is
+long overdue, there are aspects of the regime that must be adjusted in order to
+ensure an enduring long-term framework is in place and that greenwashing is
+not legally encouraged.
+1.2 There are two accepted types of climate risks for companies. Transition risk,
+where companies are too slow to respond to the transition, with quickly
+changing markets and government policy leaving a company’s assets or
+business model stranded or severely impaired.
+1.3 The second is physical risk, which is the physical damage inflicted by natural
+disasters turbocharged by coal, oil and gas heating up our planet, so that a
+company’s assets or critical public infrastructure they use to get their goods or
+services to market is destroyed or rendered inoperable.
+1.4 Only one of these two risks is being guarded against and isn’t secured in
+primary legislation.
+1.5 The government’s policy statement says “entities should use at least two
+possible future scenarios and one of these scenarios must align with the most
+ambitious global temperature goal in the Climate Change Act 2022 (Cth) (i.e.
+limiting global warming to 1.5 degrees).”1
+1.6 This requirement forces the issue of transition risk to be considered by
+companies, but leaves confronting the physical impacts of climate damage on a
+company as a mere option.
+1.7 While limiting global warming to 1.5 degrees is the goal of existing legislation,
+the actions of this government having so far approved five new or expanded
+coal mines2 and eight gas projects,3 while also releasing 46 758 square kilometres
+of ocean for new oil and gas fields4 means that physical risks are more likely to
+impact companies’ future profitability than transition risks.
+1.8 As the Investor Group on Climate Change’s submission stated:
+Assessing the largest systemic risks from climate change should not be
+optional. The latest scenarios by a group of 127 central banks and financial
+supervisors estimate that even if warming is limited to 1.5°C, the costs of
+physical climate impacts to the global economy are (conservatively) five
+1 https://treasury.gov.au/sites/default/files/2024-01/c2024-466491-policy-state.pdf.
+2 Lake Vermont, Isaac River, Star Coal Mine, Ensham Coal Mine and Gregory Crinum.
+3 Spartan Gas Project, Wheatstone and Lago gas field, Beach Energy’s Otway gas, Towrie Arcadia
+CSG project, Dorado, Scarborough, Crux and Barossa Pipeline.
+4 www.minister.industry.gov.au/ministers/king/speeches/speech-nt-resources-week-conference.
+67
+68
+times higher than the cost of reducing emissions and around double the cost
+of other global events like COVID-19. Under current policies, economic costs
+of climate change are more than 10 times the cost of achieving 1.5°C
+emissions pathway
+1.9 Under the government’s proposal, entities will already be required to use at
+least two scenarios, so mandating higher warming scenarios in addition to the
+1.5 degree scenario will not add any more regulatory burden than what the
+government has already proposed. However, this change will ensure that both
+transition and physical risks are being internalised by decision-makers in
+companies.
+1.10 This high and low scenario structure would align with the Aotearoa New
+Zealand Climate Standard 1 requirements, however they also require a
+discretionary third scenario.5
+1.11 This mandatory required warming scenario should still contain flexibility for
+the AASB to adapt the reporting framework as the severity in warming becomes
+more or less likely. A certain level of flexibility should also be available for
+entities to elect one of three scenario options for physical risk:
+(1) The most current UNEP’s latest Emissions Gap report (which
+calculates where current global targets and policies have the world
+heading towards, currently a terrifying 2.5 -2.9 degrees this
+century); or
+(2) The most current IPCC report on the physical risks to Australia for
+current policy or high warming scenarios; or
+(3) Scenarios of 3 degrees or more of warming
+1.12 Finally, the requirements for scenario planning should be set in legislation and
+not just implemented through a government instruction for the Australian
+Accounting Standards Board. Reversing these instructions that created these
+warming scenario requirements will be the obvious first act of a hostile future
+Liberal Government in pursuit of ‘cutting red tape’.
+Recommendation 1
+1.13 The obligations of scenario analysis should be stipulated in legislation and
+should require companies to use at least two possible future scenarios and
+two of those scenarios must be set against a low (1.5 degree) and a high (>2.5
+degree) warming scenario.
+1.14 The Bill is providing entities with a three year immunity from civil actions over
+matters that relate to a company’s scope 3 emissions reporting, future scenario
+planning or transition plans.
+5 Clause 13 www.xrb.govt.nz/dmsdocument/4770.
+69
+1.15 Only ASIC will be able to institute proceedings, during this period, so
+shareholders or members of the public with legal standing are only able to plead
+with ASIC to commence proceedings on their behalf when companies make
+misleading public statements relating to scope 3 profiles or scenario and
+transition planning.
+1.16 While these three areas are novel for companies to report on, and by their nature,
+inherently involve some uncertainty when first commencing, the modified
+liability is an overreach in both scope and duration in order to achieve the policy
+objectives of transitional arrangements.
+1.17 KPMG’s submission to the government consultation noted that 90% of ASX100
+companies recognise climate as a financial risk while 74% are already reporting
+against the Task Force on Climate-Related Financial Disclosures (TCFD)
+framework.6
+1.18 Group 1 entities are already the best prepared to comply with this new
+framework, most are already doing it and yet they will receive the longest time
+period of immunity from their concerned investors. Conversely, Group 3
+entities are the least equipped and get the shortest time period for immunity.
+1.19 The public interest in preventing greenwashing is greatest when it involves
+companies with the highest capitalisation, the largest market power, and the
+greatest advertising reach into Australian society.
+1.20 The current structure of the immunity benefits the largest companies (those in
+Group 1) will enjoy three and a half years of modified liabilities while the
+smallest companies in Group 3, with relatively less capacity will only receive
+one year.
+Recommendation 2
+1.21 The modified liability should be spread out amongst the three groups to run
+for one, or at most two years from entry of that group so as not
+disproportionately benefit the biggest companies at the expense of smaller
+ones. ASIC should be given additional resources to prepare any necessary
+legal proceedings during this modified liability period.
+1.22 Similarly, the restrictions on the types of actions that can be instituted is
+disproportionate to the public policy objective of transitioning these reporting
+obligations in, which could encourage intentionally misleading greenwashing
+statements until 2029.
+1.23 As Equity Generation Lawyers submitted:
+Extending the immunity to more serious misconduct such as negligent
+misstatement, breach of statutory duty, and breach of fiduciary duties
+6 Page 4 https://treasury.gov.au/sites/default/files/2023-04/c2022-314397-kpmg.pdf
+70
+provides an unreasonable safe harbour from private litigation that does not
+fulfil the goals of promoting investor confidence or improving Australia’s
+reputation. Similarly, immunity for alleged breaches of directors’ duties is
+not appropriate. Private parties - in this case shareholders - are required to
+seek leave from the Court under s 237 of the Corporations Act for private
+actions on directors’ duties. Significant thresholds must be overcome and
+private actions of this type are rare
+1.24 And as the Environment Defenders Office added:
+The “reasonable grounds” requirements in the Corporations Act, the ACL
+and the ASIC Act are appropriate and sufficiently flexible to accommodate
+any uncertainties or assumptions that may be inherent in transition plans.
+Under those provisions, where a representation is made about a “future
+matter” – a disclosure about a net zero plan being an example – it is taken to
+be misleading unless the person making it had “reasonable grounds” for
+doing so.
+Where an entity has disclosed any assumptions, methodologies or
+uncertainties, the assessment of whether the disclosure was made on
+“reasonable grounds” will take those into account. Crucially, a forward-
+looking statement is not misleading merely because it later turns out to be
+wrong. As long as entities are adequately disclosing the assumptions,
+methodologies and uncertainties that underpin their disclosures, and had a
+reasonable basis for making those assumptions, the risk of being found
+liable for forward-looking statements should be minimal.
+1.25 The compromise proposal in the submission of Equity Generation Lawyers to
+restrict the proposed immunity to misleading and deceptive conduct that results
+in loss and damage is a sensible one. This cause of action seeking damages as
+this is one of the easier causes to instigate and carries the largest financial
+consequences for affected companies.
+Recommendation 3
+1.26 The modified liability provisions be reduced so that they only cover
+misleading and deceptive conduct seeking loss or damage.
+1.27 Finally, while the Australian Greens support the proposed framework for the
+crisis management regime in schedules 1-3 of the Bill, the proposal to weaken
+Ministerial approval powers over ownership of ASX Limited is not sufficiently
+justified.
+1.28 The ASX is public infrastructure that - like much of Australian public
+infrastructure and institutions - should never have been privatised.
+1.29 There was no compelling public policy rationale provided by the Government
+as to why the threshold for Ministerial approval should be lifted from 15% to
+20% ownership in section 850B of the Corporations Act 2001. In the absence of
+any clear argument for further weakening of government oversight, the existing
+regime should remain in place.
+71
+Recommendation 4
+1.30 In the absence of any compelling justification from the Government, Part 4 of
+Schedule 2 that lifts the ownership threshold from 15% to 20% voting power
+in ASX Limited in order to require Ministerial approval should be removed
+from the Bill.
+Senator Nick McKim
+Greens Senator for Tasmania
+
+Senator David Pocock's Additional Comments
+Introduction
+1.1 The Treasury Laws Amendment (Financial Market Infrastructure and Other
+Measures) Bill 2024 (the Bill) is transformative legislation poised to redefine
+financial disclosures in Australia. It is largely successful in aligning national
+practices with global standards, enhancing transparency, supporting
+sustainable investment, and fostering a proactive approach to climate-related
+risks and opportunities.
+1.2 Australia is a late adopter of mandatory climate-related financial disclosures.
+Jurisdictions such as the European Union, the United States, UK, Canada, New
+Zealand, Singapore, and Hong Kong already have in place or are implementing
+a mandatory climate-related financial disclosures regime.1 The delay presents
+an opportunity to learn from international best practice, but it also means that
+we should move swiftly to catch up and make up for lost time.
+1.3 The considerable positive changes in the bill are undermined by the modified
+liability regime in Schedule 4.
+Broad support for climate-related financial disclosures and the model
+contained in the Bill
+1.4 Submissions provide substantial support for the introduction of a climate-
+related financial disclosure regime, and for the model adopted in the Bill. The
+financial services sector, represented by the Financial Services Council (FSC)
+expects the disclosure regime to enhance investor confidence and assist in
+efficient capital allocation.2 Herbert Smith Freehills (HSF) agrees and
+emphasised the importance of proposed alignment with the International
+Sustainability Standards Board (ISSB) standards on climate-related disclosure.3
+This alignment not only fosters transparency but also ensures that Australian
+corporations remain attractive to global investors.
+1.5 The Australian Financial Markets Association (AFMA) and the Governance
+Institute of Australia (GIA) were also supportive, highlighting the Bill's
+potential to reduce compliance costs and simplify cross-border comparability
+through substituted compliance for local subsidiaries.4
+1 Financial Services Council, Submission 10, p.2.
+2 Financial Services Council, Submission 10, p.2.
+3 Herbert Smith Freehills, Submission 17, p. 1.
+4 Australian Financial Markets Association, Submission 9, p. 2; Governance Institute of Australia,
+Submission 18, p. 1.
+73
+74
+1.6 The Investor Group on Climate Change (IGCC) highlighted the critical role of
+disclosures in managing climate-related risks and opportunities affecting
+investments, thus aiding in the prudent management of assets totalling more
+than $35 trillion.5 This view is supported by the Insurance Council of Australia
+(ICA), which saw the Bill as enabling consistent climate-related financial
+disclosures, thereby leveraging capital to meet Australia’s emissions reduction
+targets effectively.6
+Risk of greenwashing
+1.7 Broad support for the Bill is undermined by serious concerns about the
+proposed modified liability regime. In short, the regime enables corporate
+greenwashing. Proposed section 1707D of the Bill provides legal protections that
+could shield companies from accountability by restricting third parties from
+initiating civil actions against entities for misleading statements concerning
+Scope 3 emissions, scenario analysis, and transition plans.
+1.8 Under the regime, only ASIC, rather than affected individuals or investor
+groups, can pursue civil actions against entities for false or misleading
+sustainability disclosures during a three-year period following the enactment of
+the Bill. This limitation is particularly troubling as it allows a crucial window in
+which companies might misrepresent their environmental impact without
+facing immediate legal repercussions from the public or investors.
+1.9 Concerns about the modified liability regime are briefly outlined at 2.36 to 2.39
+of the Chair’s Report. Regrettably, the details and depth of the concerns are not
+adequately discussed.
+1.10 The Australian Conservation Foundation (ACF) was critical of the regime,
+saying:
+The modified liability for false and misleading statements should not extend
+further than statements regarding Scope 3 emissions and scenario analysis,
+and for no longer than three years.7
+1.11 They argue that this could lead to a "concealment of greenwashing activity and
+therefore risks undermining Australia’s emission reduction goals and
+misallocation of capital".8
+1.12 Climate Integrity expressed concern that expanding the modified liability
+regime:
+5 Investor Group on Climate Change, Submission 5, p. 1.
+6 Insurance Council of Australia, Submission 14, p. 1.
+7 Australian Conservation Foundation, Submission 13, p. 2.
+8 Australian Conservation Foundation, Submission 13, p. 2.
+75
+…to include immunity from legal action by third parties, including
+investors, in relation to an entity’s transition plan undermines accountability
+and the enforcement of best-practice, science-based emissions reductions.9
+1.13 They argue that this provision "provides cover for widespread greenwashing to
+continue during the first three years of the new disclosures regime."10
+1.14 The Environmental Defenders Office (EDO) highlighted a significant
+contradiction:
+Including transition plans in the proposed modified liability regime will
+carry the unintended consequence of facilitating greenwashing at a time
+when urgent action is critical.11
+1.15 They emphasise that this protection could mislead investors and regulatory
+bodies about the actual environmental impacts and risks associated with
+corporate actions.
+1.16 Equity Generation Lawyers called for the removal of the proposed section
+1707D altogether, arguing it "does not support the policy goals of the reporting
+regime and could weaken investor confidence."12 They emphasise that the
+provision could delay essential auditing requirements, undermining the
+transparency and clarity necessary for informed investment decisions.
+Support for the modified liability regime
+1.17 Some submitters and witnesses gave evidence that the modified liability regime
+is necessary. The Chair’s Report refers to this support at 2.40 to 2.43.
+1.18 In referencing support for the regime, the Chair’s Report fails to distinguish
+between the circumstances of the largest and smallest companies intended to be
+subject to the new climate reporting regime. By its silence on the topic, it falsely
+treats the capacity of all companies as equal.
+1.19 Nothing could be further from the truth. The Bill itself separates companies into
+three cohorts for the purposes of the start date of the new regime, by reference
+to size of revenue, assets and number of employees.13
+1.20 Many of Australia’s largest companies are already sophisticated in their climate
+reporting. Some of Australia’s largest fossil fuel producers and emitters have
+been reporting annually on climate-related issues for around a decade, first
+under the National Greenhouse and Energy Reporting Act 2007 and later pursuant
+to the framework of the Task Force on Climate-Related Financial Disclosure
+9 Climate Integrity, Submission 12, pp. 1-2.
+10 Climate Integrity, Submission 12, pp. 1-2.
+11 Environmental Defenders Office, Submission 3, p. 4.
+12 Equity Generation Lawyers, Submission 22, p. 4.
+13 Proposed section 1707B.
+76
+(TCFD). Most if not all these corporations already enjoy the resources, the
+expertise, the advice and the experience to report competently on their climate
+performance.
+1.21 Additionally, since 2021 in response to investor demand, many carbon-intensive
+ASX-listed companies have been publishing transition plans to the market. The
+high level of investor interest in these plans, and the non-binding votes of
+shareholders that ensue suggest that investors’ legal rights to hold companies to
+account for their representations should not be diluted without a very good
+reason.
+1.22 It may be justifiable to afford some smaller corporations the benefit of a
+transitional opportunity to “gear up” for the new reporting regime: But why
+should large corporations that are already well familiar with climate reporting,
+and that also happen to be among the largest fossil fuel producers and emitters
+in this country, enjoy the same liability holiday?
+1.23 As set out at 1.76 of the Chair’s Report, only the largest ‘Group 1’ corporations
+will be required to prepare a sustainability report before 1 July 2026. Smaller
+‘Group 3’ corporations which meet two of the following criteria will not have to
+prepare sustainability reports before 1 July 2027:
+ Consolidated revenue equal to or greater than $50 million;
+ Consolidated gross assets equal to or greater than $25 million; and
+ 100 or more employees.
+1.24 The staged requirement for preparation of sustainability reports is sufficient to
+allow corporations that are not currently engaged in climate reporting to
+develop that capacity. That is in fact the purpose of the transitional period
+structure set out in the Bill. This approach fundamentally undermines the
+argument for a modified liability regime.
+1.25 The need for better corporate climate reporting is the very aim of these
+provisions of the Bill. How is that aim achieved by a proposal that denies
+investors their existing right to test the largest carbon producing and emitting
+companies’ representations?
+1.26 Given the decades of lost opportunity to address the impacts of climate change
+in this country, we simply don’t have the luxury of time any more to dispense
+liability holidays to large fossil fuel producers and emitters, especially absent
+any good articulated reason to do so.
+ASIC and enforcement of breaches covered by the modified liability regime
+1.27 At the hearing, representatives of the Treasury claimed that the risk of
+greenwashing is addressed by the fact that ASIC will ensure that “reporting is
+77
+appropriate.”14 This claim lacks credibility in light of the well documented
+under-resourcing and overburdening of the regulator. Indeed, James Shipton,
+the former ASIC chairman is reported to have said that the body has been asked
+to do too much with too little, leaving it chronically underfunded.15
+1.28 There can be no confidence that ASIC will act to prevent greenwashing in the
+context of sustainability reports in the absence of additional resources.
+Recommendation 1
+1.29 Remove the liability modification provisions in section 1707D so as to restore
+shareholders’ rights in relation to companies’ climate representations under
+the new regime.
+Recommendation 2
+1.30 If the proposed liability regime is to remain, the definition of ‘protected
+statement’ in subsection 1707D(3) should be amended to remove
+subparagraph (iii), ‘a transition plan’.
+Recommendation 3
+1.31 If the proposed liability modification regime is to proceed in any form,
+corporations currently listed under the corporate group threshold of the
+National Greenhouse and Energy Reporting Act 2007 should be excluded
+entirely from the liability modification regime.
+Disclosures and physical risk
+1.32 Climate change presents profound physical risks to assets. The National Climate
+Risk Assessment identifies 56 significant risks, including systemic risks to the
+economy from climate-related financial shocks.16
+1.33 Assessments of a company’s exposure and resilience to physical risks must
+include a scenario analysis that considers the climate trajectory on the basis of
+current policies rather than aspirational targets. Estimates from 127 central
+banks and financial supervisors indicate that under current policies, economic
+costs of climate change are more than 10 times the cost of achieving a 1.5°C
+emissions pathway.17
+14 Ms Rebecca McCallum, Director, Climate Change Reporting Unit, Treasury, Committee Hansard,
+23 April 2024, p. 37.
+15 Mr Ronald Mizen, Senior Reporter, It’s time to break ASIC in two: James Shipton, 20 February 2023.
+16 National Climate Risk Assessment: First pass assessment report, Department of Climate Change, Energy,
+the Environment and Water, www.dcceew.gov.au/climate-change/publications/ncra-first-pass-
+risk-assessment.
+17 Explore the NGFS scenarios here: www.ngfs.net/ngfs-scenarios-portal/explore/.
+78
+1.34 The Institutional Investor Group on Climate Change (IGCC) argues
+convincingly that climate related financial disclosures can play a key role in
+mitigating against this risk.18 Companies need to “have a good understanding
+of what physical risks they are exposed to and how best to prepare against them
+depending on various future states of warming.”19 Climate-related financial
+disclosures can help investors assess and address physical risks, improving
+resilience.
+Recommendation 4
+1.35 If the Bill passes, the Government should mandate scenario analyses to assess
+physical risk that includes a “current policies” scenario, anticipating a 3°C or
+higher temperature increase.
+Senator David Pocock
+Independent Senator for the Australian Capital Territory
+18 Institutional Investor Group on Climate Change, Submission 5, p. 2.
+19 Institutional Investor Group on Climate Change, Submission 5, p. 2.
+Appendix 1
+Submissions and answers to questions on notice
+1 IoTA Alliance Australia
+2 Australian Securities and Investments Commission
+3 Environmental Defenders Office
+4 Chartered Accountants Australia and New Zealand and CPA Australia
+5 Investor Group on Climate Change
+6 Maritime Union of Australia
+7 Carbon Market Institute
+8 Reserve Bank of Australia
+9 Australian Financial Markets Association
+10 Financial Services Council
+11 Nexia Australia
+12 Climate Integrity
+13 Australian Conservation Foundation
+14 Insurance Council of Australia
+15 Australian Institute of Company Directors
+16 Australian Council of Trade Unions
+17 Herbert Smith Freehills
+18 Governance Institute of Australia
+19 Mr David Hardidge
+20 ACSI
+21 GHD
+22 Equity Generation Lawyers
+23 ASX
+24 Law Council of Australia
+25 Environmental Justice Australia
+26 Baker McKenzie
+Answer to Question on Notice
+1 GHD - 001: Answers to Questions on Noticed asked by Senator Dean Smith at
+Public Hearing on 23 April 2024 - (received 26 April 2024)
+2 ASX - 001: Answers to Written Questions on Notice Asked by Senator
+Andrew Bragg - (received 29 April 2024)
+3 Australian Institute of Company Directors - 001: Answers to Written
+Questions on Notice asked by Senator Andrew Bragg - (received 29 April
+2024)
+4 Governance Institute of Australia - 001: Answers to Written Questions on
+Notice asked by Senator Andrew Bragg - (received 29 April 2024)
+79
+
+Appendix 2
+Public Hearings and Witnesses
+Tuesday, 23 April 2024
+Main Committee Room
+Parliament House
+Canberra
+Investor Group on Climate Change
+ Mr Erwin Jackson, Managing Director, Policy
+Carbon Market Institute
+ Mr Kurt Winter, Director, Corporate Transition
+Australian Sustainable Finance Institute
+ Ms Kirsty Graham, Chief Executive Officer
+Governance Institute of Australia
+ Ms Catherine Maxwell, General Manager. Policy and Advocacy
+ Mr Daniel Popovski, Senior Policy and Advocacy Advisor
+Australian Institute of Company Directors
+ Ms Louise Petschler, General Manager, Education and Policy Leadership
+ Mr Christian Gergis, Head of Policy
+Equity Generation Lawyers
+ Mr David Barnden, Principle Lawyer
+Australian Council of Trade Unions
+ Ms Casey Thompson, Workers' Capital Manager
+ Mr Joseph Mitchell, Assistant Secretary
+Maritime Union of Australia
+ Mr Rod Pickette, Workers’ Capital Manager
+Nexia Australia
+ Mr Martin Olde, Technical Director
+GHD
+ Mr Leon Olsen, APAC Sustainability Service Line Leader
+81
+82
+ASX
+ Ms Dianne Lewis, General Manager, Regulatory Strategy and Executive
+Advisor
+Financial Services Council
+ Mr Chaneg Torres, Policy Director - Investments and Funds Management
+ Mr Blake Briggs, Chief Executive Officer
+Australian Securities and Investments Commission
+ Ms Kate O'Rourke, Commissioner
+ Ms Calissa Aldridge, Executive Director
+Reserve Bank of Australia
+ Mr Ellis Connolly, Head of Payments Policy Department
+ Ms Nicole Pyner, Deputy Head, Payments Policy Department
+Department of the Treasury
+ Ms Khanh Hoang, Assistant Secretary, Regulators and Capital Markets
+Branch
+ Mr Nicholas Wilkey, A/g Director, Capital Markets Unit
+ Dr Alex Heath, First Assistant Secretary, Climate and Energy Division
+ Ms Rebecca McCallum, Director, Climate Disclosure Unit

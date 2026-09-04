@@ -1,0 +1,2057 @@
+The Senate
+Finance and Public
+Administration Legislation
+Committee
+Public Governance, Performance and
+Accountability Amendment (Vaccine
+Indemnity) Bill 2023
+March 2024
+© Commonwealth of Australia 2024
+ISBN 978-1-76093-622-8 (Printed version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by the Senate Printing Unit, Parliament House, Canberra
+Members
+Chair
+Senator Louise Pratt ALP, WA
+Deputy Chair
+Senator the Hon Richard Colbeck LP, TAS
+Members
+Senator the Hon James McGrath LNP, QLD
+Senator Barbara Pocock AG, SA
+Senator Tony Sheldon ALP, NSW
+Senator Jana Stewart ALP, VIC
+Participating Members
+Senator Ralph Babet UAP, VIC
+Senator Gerard Rennick LNP, QLD
+Senator Malcom Roberts PHON, QLD
+Secretariat
+Patrick Hodder, Committee Secretary
+Hugh Lane, Senior Research Officer
+Erika Rockstrom, Administrative Officer
+PO Box 6100 Telephone: (02) 6277 3846
+Parliament House E-mail: fpa.sen@aph.gov.au
+Canberra ACT 2600 Website: www.aph.gov.au/senate_fpa
+iii
+
+Abbreviations
+AEFI Adverse events following immunisation
+AHPPC Australian Health Protection Principal Committee
+AMA Australian Medical Association
+APA Advance Purchase Agreements
+ARTG Australian Register of Therapeutic Goods
+ASF Australians for Science & Freedom
+ATAGI Australian Technical Advisory Group on Immunisation
+CDNA Communicable Diseases Network Australia
+DAEN Database of Adverse Event Notifications
+ICEG Infection Control Expert Group
+mRNA Messenger Ribonucleic Acid
+NIP National Immunisation Program
+NSC National Security Committee of Cabinet
+PBAC Pharmaceutical Benefits Advisory Committee
+PGPA Act Public Governance, Performance and Accountability Act 2013
+PHLN Public Health Laboratory Network
+SITAG Science and Industry Technical Advisory Group
+TGA Therapeutic Goods Administration
+WELLBY Wellbeing year
+WHO World Health Organisation
+v
+
+Contents
+Members ............................................................................................................................................. iii
+Abbreviations ...................................................................................................................................... v
+Chapter 1—Introduction and background ..................................................................................... 1
+Conduct of the inquiry ........................................................................................................................ 1
+Acknowledgement of submitters and witnesses ............................................................................. 2
+Report structure ................................................................................................................................... 2
+Legislation governing Commonwealth indemnities ...................................................................... 2
+The issue that the bill seeks to address ............................................................................................. 3
+What currently happens—the process for registering vaccines for use in Australia ................. 4
+Policy rationale and history of indemnities granted to vaccine manufacturers ......................... 5
+Purpose of the bill ................................................................................................................................ 7
+Key provisions of the bill .................................................................................................................... 8
+Consideration by the Scrutiny of Bills Committee .......................................................................... 8
+Compatibility with human rights ...................................................................................................... 8
+Chapter 2—Key issues and committee view .................................................................................. 9
+Introduction .......................................................................................................................................... 9
+Support for the bill ............................................................................................................................... 9
+Opposition to the bill ......................................................................................................................... 10
+The role of indemnities in ensuring timely vaccine supply in pandemic and emergency
+situations ............................................................................................................................................. 10
+Risk-benefit profile of vaccine indemnities .................................................................................... 12
+Differing views on indemnified COVID-19 vaccines ................................................................... 13
+Effects of indemnification on access to compensation for vaccine related injuries through the
+COVID-19 Vaccine Claims Scheme ................................................................................................. 18
+Concerns regarding the COVID-19 Vaccine Claims Scheme ....................................................... 20
+A National no-fault vaccine injury compensation scheme .......................................................... 21
+Committee view ................................................................................................................................. 22
+Indemnification is vital for pandemic and/or emergency response capability .............. 23
+Indemnities do not incentivise risk taking by vaccine manufacturers nor compromise
+the rigour of TGA vaccine registration ................................................................................ 23
+The COVID-19 Vaccine Claims Scheme ............................................................................. 25
+vii
+Concluding remarks ............................................................................................................... 25
+Dissenting report from Senator Rennick ..................................................................................... 27
+Dissenting report from Senator Babet .......................................................................................... 33
+Appendix 1—Submissions .............................................................................................................. 51
+viii
+
+
+Chapter 1
+Introduction and background
+1.1 On 3 August 2023, the Public Governance, Performance and Accountability
+Amendment (Vaccine Indemnity) Bill 2023 (the bill) was introduced into the
+Senate by Senator Ralph Babet.1
+1.2 On 10 August 2023, following an amendment to Report No. 9 of 2023 of the
+Senate Selection of Bills Committee, the Senate agreed to refer the bill to the
+Finance and Public Administration Legislation Committee (the committee) for
+inquiry and report by 18 March 2024.2
+1.3 The committee welcomes the introduction of the bill as an opportunity to
+respond to concerns raised by submitters and contribute to a broader public
+debate about vaccines and the proper assessment of their benefits and risks.
+1.4 The committee considers it critical that public confidence in vaccine
+indemnification, for the exceptional occasions it is required, is not taken for
+granted and is based on sound public policy, risk benefit assessment and a
+strong public interest test.
+Conduct of the inquiry
+1.5 The committee agreed to open submissions on 10 August 2023 and set
+29 September 2023 as the closing date. The committee wrote to a range of key
+stakeholder groups, organisations, and individuals, drawing their attention to
+the inquiry and inviting them to make a written submission.
+1.6 The committee received 101 submissions, which are available on the
+committee’s webpage and listed at Appendix 1.
+1.7 The committee received 127 survey responses through Senator Gerard
+Rennick’s webpage. A representative sample of 15 de-identified survey
+responses was published as submission 66. The remainder of the survey
+responses were taken by the committee as correspondence.
+1.8 Details of the inquiry, including links to the bill and associated documents, are
+published on the committee's website.3
+1 Journals of the Senate, No. 60, 3 August 2023, pp. 1752–1753.
+2 Journals of the Senate, No. 64, 10 August 2023, p. 1835.
+3 Finance and Public Administration Legislation Committee, Public Governance, Performance and
+Accountability Amendment (Vaccine Indemnity) Bill 2023, https://www.aph.gov.au/Parliamentary
+Business/Committees/Senate/Finance and Public Administration/VaccineIndemnity47.
+1
+2
+Acknowledgement of submitters and witnesses
+1.9 The committee thanks all those who contributed to the inquiry by making
+submissions to the committee.
+1.10 The committee also acknowledges those submitters who provided personal
+accounts of vaccine related injuries and the effects on their health and wellbeing.
+Report structure
+1.11 This chapter begins with a brief description of the Public Governance, Performance
+and Accountability Act 2013 (PGPA Act) as it pertains to the granting of
+indemnities on behalf of the Commonwealth. The chapter finishes by setting out
+the purpose and key provisions of the bill.
+1.12 The second and concluding chapter outlines the key issues put forward in
+evidence and presents the committee's views and recommendations.
+Legislation governing Commonwealth indemnities
+1.13 A stated object of the PGPA Act is to:
+ ‘establish a coherent system of governance and accountability across
+Commonwealth entities’; 4and
+ act as ‘the cornerstone’ of the Commonwealth Resource Management
+Framework.5
+1.14 Section 60 of the PGPA Act provides that the Minister for Finance may, on behalf
+of the Commonwealth, grant an indemnity, guarantee, or warranty in
+accordance with any requirements prescribed by the rules.
+1.15 Section 107 of the Act provides that this power may, by written instrument, be
+delegated to the Finance Secretary.
+1.16 Section 109 of the Act provides that the Finance Secretary may, by written
+instrument, further delegate this power to an official of the Department of
+Finance.
+1.17 The Department of Finance defines a Commonwealth indemnity as ‘a legally
+binding promise whereby the Commonwealth undertakes to accept the risk of
+loss or damage another party may suffer’. 6
+4 Public Governance, Performance and Accountability Act 2013, div. 2(5a)
+5 Department of Finance, Managing Commonwealth Resources, 8 June 2022,
+https://www.finance.gov.au/government/managing-commonwealth-resources, (accessed
+8 November 2023).
+6 Department of Finance, Indemnities, guarantees and warranties by the Commonwealth (RMG 414),
+21 February 2023, https://www.finance.gov.au/publications/resource-management-
+guides/indemnities-guarantees-and-warranties-commonwealth-rmg-
+414#:~:text=The%20delegation%20from%20the%20Finance,should%20outweigh%20the%20risks%
+20involved, (accessed 8 November 2023).
+3
+1.18 When exercising the delegation, the delegate (or sub-delegate) must consider
+two overarching policy principles:
+ that risks should be borne by the party best placed to manage them; and
+ benefits to the Commonwealth should outweigh the risks involved.7
+1.19 The Department of Finance’s Resource Management Guide 400: Commitment of
+Relevant Money provides that delegation of the power to grant indemnities,
+guarantees and warranties on behalf of the Commonwealth is limited to
+circumstances in which:
+ the delegate is satisfied that the likelihood of the event occurring is less than
+5 per cent; and
+ the potential expenditure is likely to be less than $30 million.8
+1.20 In circumstances where an indemnity exceeds these thresholds, power to grant
+an indemnity on behalf of the Commonwealth must be explicitly agreed in a
+decision of Cabinet, the National Security Committee of Cabinet (NSC) or its
+successor or the Prime Minister, or a written determination of the Minister for
+Finance.9
+1.21 The Charter of Budget Honesty Act 1998 requires that contingent liabilities,
+including indemnities, with a possible impact on the forward estimates greater
+than $20 million in any one year, or $50 million over the forward estimates
+period are disclosed in Budget Paper 1 – Budget Strategy and Outlook.10
+The issue that the bill seeks to address
+1.22 The arguments put forward by the proponent of the bill, Senator Babet, are
+highly contested and the evidence is explored further in Chapter 2.
+1.23 Senator Babet argues that granting indemnities to vaccine manufacturers
+compromises the quality and safety of vaccines by incentivising risk-taking
+behaviour on the part of manufacturers, removing the legal, fiscal, and social
+responsibilities of manufacturers, and expediting, or short-cutting, the quality
+7 Department of Finance, Indemnities, guarantees and warranties by the Commonwealth (RMG 414),
+21 February 2023, https://www.finance.gov.au/publications/resource-management-guides/
+indemnities-guarantees-and-warranties-commonwealth-rmg-414#:~:text=The%20
+delegation%20from%20the%20Finance,should%20outweigh%20the%20risks%20involved,
+(accessed 8 November 2023); see also Department of Health and Aged Care, Supplementary
+Submission 59.1, p. 4.
+8 Department of Finance, Commitment of Relevant Money (RMG 400), 01 March 2017,
+https://www.finance.gov.au/publications/resource-management-guides/commitment-relevant-
+money-rmg-400, (accessed 8 November 2023).
+9 Department of Finance, Indemnities, guarantees and warranties by the Commonwealth (RMG 414),
+21 February 2023, https://www.finance.gov.au/publications/resource-management-guides/
+indemnities-guarantees-and-warranties-commonwealth-rmg-414, (accessed 8 November 2023).
+10 Charter of Budget Honesty Act 1998, s. 12(e).
+4
+assurance processes undertaken by manufacturers and regulatory bodies like
+the Therapeutic Goods Administration (TGA).
+1.24 This argument was stated in the explanatory memorandum to the bill:
+Indemnification has created an incentive for risk-taking in the
+pharmaceutical industry which is not aligned with the fundamental
+principles of medicine.11
+1.25 In the explanatory memorandum, Senator Babet also argued that the
+indemnification of vaccine manufacturers is, or risks becoming, ‘commonplace’
+in Australia.12
+What currently happens—the process for registering vaccines for use in
+Australia
+1.26 For a vaccine to be registered for use in Australia, a sponsor (generally a
+pharmaceutical company) is required to submit a complete and comprehensive
+package of data to the TGA. A formal evaluation is then carried out in multiple
+stages by technical experts, prior to a decision being made regarding the
+provisional or full registration of a vaccine.13
+1.27 Following a positive assessment on the quality, safety, and efficacy of the
+product by the TGA, vaccines must be registered on the Australian Register of
+Therapeutic Goods (ARTG) before supply can commence.14
+1.28 After receiving TGA approval, the Australian Technical Advisory Group on
+Immunisation (ATAGI) considers a range of information, including safety, and
+efficacy and effectiveness data from clinical trials. ATAGI provides
+recommendations to the Minister for Health and Aged Care on whether to
+include a vaccine in the national vaccine rollout program.15
+1.29 The process for registering vaccines is separate to the process for granting
+indemnities to vaccine manufacturers.16
+11 Public Governance, Performance and Accountability Amendment (Vaccine Indemnity) Bill 2023,
+Explanatory Memorandum, p. 3.
+12 Public Governance, Performance and Accountability Amendment (Vaccine Indemnity) Bill 2023,
+Explanatory Memorandum, p. 2.
+13 Department of Health and Aged Care, Vaccines overview, https://www.tga.gov.au/vaccines-
+overview (accessed 5 December 2023).
+14 Department of Health and Aged Care, Vaccines overview, https://www.tga.gov.au/vaccines-
+overview (accessed 5 December 2023).
+15 Department of Health and Aged Care, Australian Technical Advisory Group on Immunisation (ATAGI),
+November 2023, https://www.health.gov.au/committees-and-groups/australian-technical-
+advisory-group-on-immunisation-atagi?language=und (accessed 5 December 2023).
+16 Department of Health and Aged Care, Vaccines overview, https://www.tga.gov.au/vaccines-
+overview (accessed 5 December 2023).
+5
+Policy rationale and history of indemnities granted to vaccine manufacturers
+1.30 To understand the policy rationale and the history and nature of the indemnities
+offered to vaccine manufacturers, it is first necessary to distinguish between the
+routine provision of vaccines under the National Immunisation Program (NIP)
+and the exceptional circumstances in which an indemnity may be granted.
+1.31 The NIP provides a schedule of free, routine vaccinations over the life course to
+Australians eligible for Medicare. It is a joint initiative delivered by
+Commonwealth, State and Territory governments, in consultation with expert
+advisory groups.17
+1.32 None of the individual purchase agreements or Head Deeds for the 31 vaccines
+procured from four suppliers for the NIP are indemnified.18
+1.33 The Department of Health and Aged Care explained the policy rationale behind
+the consideration of indemnities in exceptional circumstances:
+…indemnities for use of vaccines can be a useful tool to allow the
+Commonwealth to appropriately share risk with vaccine providers, who
+incur significant upfront costs in bringing a vaccine candidate to market.
+While vaccine providers may in the ordinary course be able to price their
+upfront investment and risk of liability into the cost per dose of a vaccine,
+this may not be possible in the exceptional circumstances of a pandemic or
+public health emergency. These events often affect large sections of domestic
+and global populations and demand the urgent development and
+deployment of vaccines or treatments to prevent the spread of illness or to
+mitigate its effects. Even where utmost care is taken by vaccine providers,
+the uncertainty of pandemic and emergency circumstances may make the
+investment in vaccine development impossible to justify for vaccine
+providers (many of which are publicly listed and therefore responsible to
+shareholders) without a degree of risk sharing with purchasers.19
+1.34 The limited instances in which indemnities have been granted to vaccine
+manufacturers have been in relation to COVID-19, monkeypox, smallpox and
+pandemic influenza H1N1 (‘Swine flu’) and H5N1 (‘Bird flu’) strains. In other
+words, in pandemic, potential pandemic, and emergency situations.
+1.35 In December 2002, the Commonwealth Government granted an indemnity to
+the manufacturer of smallpox vaccine for an initial shipment of 50 000 as part of
+the 2002–03 Budget measure Incident Response Capability.20
+17 Department of Health and Aged Care, National Immunisation Program Schedule,
+https://www.health.gov.au/topics/immunisation/when-to-get-vaccinated/national-immunisation-
+program-schedule#about-the-national-immunisation-schedule (accessed 5 December 2023).
+18 Department of Health and Aged Care, Submission 59, p. 5.
+19 Department of Health and Aged Care, Supplementary Submission 59.1, p. 6.
+20 Commonwealth of Australia, Budget Strategy and Outlook Budget Paper No. 1 2003-04, p. 1116-1117
+(accessed 9 November 2023).
+6
+1.36 In December 2006, the Commonwealth Government granted certain indemnities
+to manufacturers of pandemic and pre-pandemic H5N1 vaccines for the supply
+or future supply of influenza vaccines under certain conditions.21
+1.37 In the May 2010–11 Budget, the Commonwealth Government granted certain
+indemnities to manufacturers of pandemic and pre-pandemic H1N1 vaccines
+for the supply or future supply of influenza vaccines under certain conditions.22
+1.38 In August 2020, in response to the COVID-19 pandemic, procurement decisions
+for COVID-19 vaccines were exempted from standard Commonwealth
+Procurement Rules which enabled the Commonwealth to enter into Advance
+Purchase Agreements (APAs) with early-stage vaccines in short supply and
+high international demand. Many of these vaccine manufacturers required
+indemnities as a condition of supply. These APAs have since been varied as
+required, including in response to new variants or changes in supply and
+demand. 23
+1.39 In the October 2020–21 Budget, the Commonwealth Government announced it
+had granted indemnities to the suppliers of two potential COVID-19 vaccine
+candidates: AstraZeneca and Seqirus.24
+1.40 In the May 2021–22 Budget, the Commonwealth Government announced it had
+granted two additional indemnities and entered into Advance Purchasing
+Agreements and risk-sharing arrangements for COVID-19 vaccines with Pfizer
+and Novavax.25
+1.41 In the May 2021–22 Budget, the Commonwealth Government also announced it
+had also joined the COVAX Facility (a global risk-sharing mechanism for pooled
+procurement and equitable distribution of COVID-19 vaccines26) and had made
+21 Commonwealth of Australia, Budget Strategy and Outlook Budget Paper No. 1 2008-09, 13 May 2008,
+https://archive.budget.gov.au/2008-09/index.htm, p. 818 (accessed 9 November 2023).
+22 Commonwealth of Australia, Budget Strategy and Outlook Budget Paper No. 1 2010-11, 11 May 2008,
+https://archive.budget.gov.au/2010-11/index.htm, p. 820 (accessed 9 November 2023).
+23 Department of Health and Aged Care, Government Response to the Review of COVID-19 Vaccine and
+Treatment Purchasing and Procurement, February 2023, https://www.health.gov.au/resources/
+publications/government-response-to-the-review-of-covid-19-vaccine-and-treatment-purchasing-
+and-procurement?language=en, p. 10 (accessed 9 November 2023).
+24 Commonwealth of Australia, Budget Strategy and Outlook Budget Paper No. 1 2020–21, 6 October 2020,
+https://archive.budget.gov.au/2020-21/, p. 928 (accessed 9 November 2023).
+25 Commonwealth of Australia, Budget Strategy and Outlook Budget Paper No. 1 2021–22, 11 May 2021,
+https://archive.budget.gov.au/2021-22/index.htm, p. 269 (accessed 9 November 2023).
+26 COVAX is a collaboration between Coalition for Epidemic Preparedness Innovations (CEPI), Gavi,
+the Vaccine Alliance, and the World Health Organization (WHO) with UNICEF. See COVAX, What
+is COVAX?, December 2023, https://www.gavi.org/covax-facility (accessed 5 December 2023).
+7
+an upfront payment towards Australia’s purchase of future COVID-19 vaccine
+doses through the Facility.27
+1.42 An international precedent was set, in accordance with guidance from the
+COVAX facility, requiring that all 172 member states, including Australia, who
+received vaccines through the COVAX Facility indemnify manufacturers.28
+1.43 In the March 2022–23 Budget, the Commonwealth Government announced it
+had granted an additional indemnity to Moderna as well as entered a
+partnership with Moderna for onshore end-to-end population scale mRNA
+manufacturing capability for COVID-19 vaccines.29
+1.44 In the October 2022–23 Budget, the Commonwealth Government announced it
+had granted an additional indemnity to a manufacturer of monkeypox vaccine
+held by the Australian Government.30
+1.45 Requests for indemnification would generally be raised in contract negotiations,
+which are managed by the Department of Health and Aged Care.31
+1.46 Indemnities granted by the Commonwealth Government to vaccine
+manufacturers are protected as ‘commercial in confidence’.32
+Purpose of the bill
+1.47 The bill seeks to remove the power of the Minister for Finance, or their delegate,
+to grant indemnities on behalf of the Commonwealth to vaccine manufacturers.
+1.48 This objective is highly contested by Australian medical experts who provided
+evidence to the inquiry that the ability of the Minister for Finance, or their
+delegate, to grant indemnities on behalf of the Commonwealth to vaccine
+manufacturers, though rarely exercised, is a vital pandemic and/or emergency
+response capability that should not be removed.
+1.49 In his second reading speech, Senator Babet stated that the bill would:
+27 World Health Organisation/COVAX, Briefing Note: Additional information on indemnification for
+COVAX AMC participants, November 2020, https://www.who.int/docs/default-
+source/coronaviruse/act-accelerator/briefing-note-indemnification-and-compensation-covax-amc-
+countries.pdf (accessed 5 December 2023), p. 2.
+28 COVAX, What is COVAX?, December 2023, https://www.gavi.org/covax-facility (accessed
+5 December 2023).
+29 Commonwealth of Australia, Budget Strategy and Outlook Budget Paper No. 1 2022–23, 29 March 2022,
+https://archive.budget.gov.au/2022-23/index.htm, p. 243-246 (accessed 9 November 2023).
+30 Commonwealth of Australia, Budget Strategy and Outlook Budget Paper No. 1 2022–23,
+25 October 2022, https://archive.budget.gov.au/2022-23-october/index.htm, p. 277 (accessed
+9 November 2023).
+31 Department of Health and Aged Care, Supplementary Submission 59.1, p. 9.
+32 Department of Health and Aged Care, Supplementary Submission 59.1, p. 9.
+8
+…ensure that no future indemnities are granted by the Commonwealth to
+the manufacturers of vaccines in relation to the use of vaccines. This bill will
+limit financial and legal risk to the Commonwealth and aid in the restoration
+of trust in medicine.33
+1.50 The committee acknowledges all those Australians who made adverse event
+reports and those who have died following the administration of COVID-19
+vaccines.34
+Key provisions of the bill
+1.51 The bill has one schedule with four items which would amend the PGPA Act
+and would commence the day after Royal Assent.
+1.52 Proposed subsection 61A(1) provides:
+The Finance Minister must not grant an indemnity on behalf of the
+Commonwealth to a manufacturer of a vaccine in relation to the use of the
+vaccine.
+1.53 Proposed subsection 61A(2) provides:
+A corporate Commonwealth entity must not grant an indemnity to a
+manufacturer of a vaccine in relation to the use of the vaccine.35
+1.54 The bill does not propose to retrospectively apply to existing indemnities.36
+Consideration by the Scrutiny of Bills Committee
+1.55 The Scrutiny of Bills Committee did not make any comment on the bill.37
+Compatibility with human rights
+1.56 The Parliamentary Joint Committee on Human Rights did not make any
+comment on the bill.38
+33 Senator Ralph Babet, Senate Hansard, 3 August 2023, p. 27.
+34 Senator Ralph Babet, Senate Hansard, 3 August 2023, p. 27.
+35 Public Governance, Performance and Accountability Amendment (Vaccine Indemnity) Bill 2023,
+Explanatory Memorandum, pp. 3-4.
+36 Public Governance, Performance and Accountability Amendment (Vaccine Indemnity) Bill 2023,
+Explanatory Memorandum, p. 4.
+37 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 9 of 2023, p. 36.
+38 Parliamentary Joint Committee on Human Rights, Report 9 of 2023, p. 7.
+Chapter 2
+Key issues and committee view
+Introduction
+2.1 This chapter sets out the views of submitters about key issues arising from the
+Public Governance, Performance and Accountability Amendment (Vaccine
+Indemnity) Bill 2023 (the bill).
+2.2 The chapter begins by outlining the key issues raised by submitters supporting,
+and opposing, the bill.
+2.3 The chapter then considers:
+ the role of indemnities in ensuring timely vaccine supply in pandemic and
+emergency situations;
+ the risk-benefit profile of vaccine indemnities;
+ contested views over the safety and efficacy of indemnified COVID-19
+vaccines;
+ the effects of indemnity on access to compensation for vaccine related
+injuries through the COVID-19 Vaccine Claims Scheme;
+ the risk of inadequate compensation schemes exacerbating vaccine
+hesitancy; and
+ a National no-fault vaccine injury compensation scheme.
+2.4 The chapter concludes with the committee view and recommendations.
+Support for the bill
+2.5 The committee received a significant number of submissions supporting the bill,
+including from individuals who shared their personal accounts of vaccine
+related injuries, as well as from organisations such as the Australian Medical
+Professionals’ Society, Australians for Science and Freedom, and COVERSE, a
+peak body representing individuals who have experienced COVID-19 vaccine
+related injuries.
+2.6 Collectively, these submitters raised issues around:
+ the fiscal, medical, and legal risks resulting from Commonwealth vaccine
+indemnities;
+ perceived limitations of the regulatory framework around the safety and
+quality assurance of vaccines in the face of an indemnified vaccine rollout;
+ the inaccessibility of the COVID-19 Vaccine Claims Scheme for claimants;
+and
+ experiences of discrimination, social exclusion, economic disadvantage, and
+poor health and wellbeing outcomes for vaccine injured persons.
+9
+10
+2.7 The committee also received submissions from individuals who were sceptical
+of the COVID-19 virus, pandemic response, and related vaccines.
+Opposition to the bill
+2.8 The Department of Health and Aged Care, the Australian Medical Association,
+and Medicines Australia made submissions opposing the bill.
+2.9 Collectively, these submitters raised issues around:
+ the need for indemnities to ensure the timely supply of vaccines in
+pandemic and/or emergency situations;
+ the rarity of granting indemnities to vaccine manufacturers;
+ international precedents for indemnities, particularly during the COVID-19
+pandemic;
+ the critical importance of reporting and monitoring all suspected adverse
+events for all therapeutic goods, including vaccines;
+ the rigour of the Therapeutic Goods Administration (TGA) vaccine
+registration, approval, monitoring, and regulatory processes to ensure
+safety and efficacy; and
+ vaccine related injury compensation.
+The role of indemnities in ensuring timely vaccine supply in pandemic and
+emergency situations
+2.10 The policy rationale for providing a vaccine indemnity was explained in
+Chapter 1, namely that in contrast to the routine supply of vaccines where the
+vaccine provider may be able to price their upfront investment and risk of
+liability into the cost per dose of a vaccine, this may not be possible in the
+exceptional circumstances of a pandemic or public health emergency which may
+require the urgent development and deployment of vaccines, and where ‘the
+uncertainty of pandemic and emergency circumstances may make the
+investment in vaccine development impossible to justify for vaccine providers’.1
+2.11 The Department of Health and Aged Care (the Department) pointed out that
+where risk sharing in the form of indemnities between the Commonwealth and
+a vaccine provider is not possible, vaccine providers may:
+ seek to reflect the risk of loss in the price per dose;
+ elect to not sell to the Australian Government; or
+ may otherwise elect not to develop vaccine candidates at all.2
+1 Department of Health and Aged Care, Supplementary Submission 59.1, p. 6.
+2 Department of Health and Aged Care, Supplementary Submission 59.1, p. 6.
+11
+2.12 The Department noted that where the third option occurs, ‘fewer vaccine
+candidates may enter the market, decreasing competition and having further
+impacts on the price and availability of vaccines’.3
+2.13 In this context, the Department argued that ‘risk sharing is either inevitable (that
+is, through price increases) or otherwise plays an important role in incentivising
+vaccine development’.4
+2.14 Considering the policy rationale set out above, opposition to the bill largely
+centred on the argument that without indemnification, the supply of pandemic
+vaccines (for example, during the COVID-19 pandemic) would likely be delayed
+and there would be a higher risk of increased rates of morbidity and mortality.
+2.15 The Department submitted that the ability to grant indemnities to vaccine
+manufacturers is:
+…critical in securing commitments to supply when vaccines are in the early
+stages of development and there may be global supply shortages and/or
+extreme global demand.5
+2.16 The Department further submitted that the operation of indemnities in the
+European Union, the United States, the United Kingdom, New Zealand, and
+many others states necessitated indemnification in Australia to secure the
+timely, adequate, and cost competitive supply of COVID-19 vaccines.6
+2.17 Medicines Australia, the peak body for the research-based pharmaceutical
+industry of Australia, submitted that indemnities are important for the entire
+supply chain from the doctors, nurses and pharmacists who administer and
+prescribe vaccines, to the researchers, distributers and manufacturers who make
+them. Medicines Australia emphasised that a fit-for-purpose legal liability
+framework, by way of indemnification, is essential to ensure Australia is in the
+best position to protect its citizens ahead of any future pandemic.7
+2.18 The Australian Medical Association, the peak professional body for doctors in
+Australia, submitted that indemnities were essential to securing contracts with
+vaccine suppliers in response to the COVID-19 pandemic and were a significant
+factor driving ‘one of the most successful COVID-19 vaccine rollouts globally’.8
+3 Department of Health and Aged Care, Supplementary Submission 59.1, p. 6.
+4 Department of Health and Aged Care, Supplementary Submission 59.1, p. 6.
+5 Department of Health and Aged Care, Submission 59, p. 3.
+6 Department of Health and Aged Care, Submission 59, p. 3.
+7 Medicines Australia, Submission 72, p. 2.
+8 Australian Medical Association, Submission 61, p. 1.
+12
+Risk-benefit profile of vaccine indemnities
+2.19 The committee received differing views on the risk-benefit profile of vaccine
+indemnities.
+2.20 The Department submitted that indemnities are only granted when the benefit
+of securing the timely supply of vaccines outweighs the risk of loss or damage
+another party may suffer. 9
+2.21 The Department explained that these benefits include achieving population
+level immunity, saving lives, and managing the health and economic effects of
+pandemics and other public health emergencies 10
+2.22 The Department also rejected as incorrect the assertion in the explanatory
+memorandum to the bill that ‘indemnities provided to vaccine manufacturers
+and sponsors have become commonplace during and post the COVID-19
+pandemic’. The Department noted that:
+ contractual indemnities to vaccine providers have only been granted in a
+limited number of occasions since 2013; and
+ the COVID-19 pandemic necessitated an approach to contracting for
+vaccines which reflected the urgency and scale of the health emergency.11
+2.23 The Australian Medical Association submitted that risk is inherent to all
+medicines, including vaccines, and the provision of medical care more
+generally. Therefore, healthcare providers and the health policy infrastructure
+cannot reasonably be expected to remove risk altogether, but rather can be
+expected to make the greatest efforts possible to minimise and mitigate risks.12
+2.24 By contrast, Australians for Science and Freedom (ASF), a network of clinicians,
+academics, and lawyers ‘united in growing disquiet at federal and state
+responses to the COVID-19 pandemic’, submitted that the notion of vaccines
+‘saving lives’ by preventing or delaying deaths resulting from infectious
+diseases, does not fully capture the cost-benefit trade-off of the COVID-19
+vaccine rollout. ASF proposed considering the WELLBY (wellbeing year)
+measure, in effect an economic proxy for life-satisfaction, as an alternative
+metric to assess the costs and benefits of granting indemnities to vaccine
+manufacturers.13
+2.25 Drawing on the WELLBY, ASF posited that by contrasting the human health
+and wellbeing costs caused by COVID-19 vaccine related injuries and harms
+9 Department of Health and Aged Care, Submission 59, p. 8.
+10 Department of Health and Aged Care, Submission 59.1, p. 1.
+11 Department of Health and Aged Care, Supplementary Submission 59.1, p. 6.
+12 Australian Medical Association, Submission 61, p. 1.
+13 Australians for Science and Freedom, Submission 65, p. 5.
+13
+with the human health benefits of preventing infection, illness, disease, and
+death, an approximate ‘$2 billion worth of human thriving would be taken from
+Australians and directed into company pockets via the granting of product
+indemnity’.14
+Differing views on indemnified COVID-19 vaccines
+2.26 As stated in Chapter 1, the process for registering vaccines for use in Australia
+is entirely separate to the process for granting indemnities to vaccine
+manufacturers.
+2.27 All TGA approved vaccines are required to meet high safety and efficacy
+standards and are subject to robust domestic and international
+pharmacovigilance mechanisms.
+2.28 Despite this, there are always expected to be a small number of adverse events
+following immunisation (AEFI) with all TGA approved vaccines, including
+COVID-19 vaccines. The occurrence of AEFI does not undermine the safety and
+efficacy of vaccines or the robust pharmacovigilance of the TGA.
+2.29 During the COVID-19 pandemic response, the Commonwealth Government
+was advised by a range of expert groups populated by epidemiologists, medical
+practitioners, economists, and senior public servants, including the:
+ Australian Health Protection Principal Committee (AHPPC);
+ Australian Technical Advisory Group on Immunisation (ATAGI);
+ Communicable Diseases Network Australia (CDNA);
+ Infection Control Expert Group (ICEG);
+ Public Health Laboratory Network (PHLN);
+ Pharmaceutical Benefits Advisory Committee (PBAC); and
+ COVID-19 Vaccines and Treatments for Australia – Science and Industry
+Technical Advisory Group (SITAG).
+2.30 The membership of each of these committees is publicly available and can be
+accessed via the Department of Health and Aged Care website.15
+2.31 With respect to the prevention of transmission of the virus in the community,
+the TGA has previously advised the Senate that the approved indication of
+effectiveness for any COVID-19 vaccine is not the prevention of transmission,
+but rather the prevention of severe coronavirus disease and death resulting from
+the SARS-CoV-2 virus.16
+14 Australians for Science and Freedom, Submission 65, p. 5.
+15 Department of Health and Aged Care, Committees and groups,
+https://www.health.gov.au/committees-and-groups/ (accessed 30 November 2023).
+16 Responses to questions via the Senate Estimates process and questions on notice addressing
+transmission have been previously provided to the Senate Community Affairs Legislation
+Committee on a number of occasions including Portfolio Question Numbers: SQ21-000627, SQ22-
+14
+2.32 This is clearly stated in the Product Information document for each TGA
+approved COVID-19 vaccine which are made available to healthcare
+professionals and the public and can be accessed via the TGA's website.17
+2.33 With respect to the incidence of AEFI and vaccine related harms and injuries,
+the TGA has previously advised the Senate that while there is no predetermined
+rate of AEFI, there are always expected to be a small number of adverse
+reactions to all TGA approved vaccines, including COVID-19 vaccines.18
+2.34 The Department of Health and Aged Care highlighted the systems in place to
+monitor the incidence of AEFI including:
+ TGA registration, approval, monitoring and regulation;
+ monitoring and certification of manufacturing practices;
+ batch release assessment;
+ consultation with expert advisory groups, including ATAGI and SITAG;
+and
+ robust domestic and international pharmacovigilance mechanisms (or the
+detection, assessment, understanding and prevention activities around
+AEFI).19
+2.35 The overwhelming majority of AEFI are expected to have minor and short-lived
+symptoms, such as:
+ nausea;
+ fatigue;
+ muscle pain;
+ chills;
+ low-level fever; and
+000421, SQ22-000422, SQ22-000485, SQ22-000521, and SQ23-000099. These responses can be
+publicly accessed on the Senate estimates database:
+https://www.aph.gov.au/Parliamentary Business/Senate estimates#qon (accessed 20 December
+2023).
+17 Therapeutic Goods Administration, COVID-19 vaccine: Information for consumers and health
+professionals, 28 September 2021, https://www.tga.gov.au/products/covid-19/covid-19-vaccines/
+covid-19-vaccine-information-consumers-and-health-professionals (accessed 5 December 2023).
+18 Responses to questions via the Senate Estimates process and questions on notice addressing
+adverse events following immunisation (AEFI) have been previously provided to the Senate
+Community Affairs Legislation Committee on a number of occasions including Portfolio Question
+Numbers: SQ22-000116, SQ22-000109, SQ22-000099, SQ22-000104, SQ22-000152, SQ22-000524, and
+SQ22-000527. These responses can be publicly accessed on the Senate estimates database:
+https://www.aph.gov.au/Parliamentary Business/Senate estimates#qon (accessed 20 December
+2023).
+19 Department of Health and Aged Care, Submission 59, p. 11-12.
+15
+ pain or redness at the injection site.20
+2.36 More severe AEFI are less common but do occur. Severe side effects linked to
+COVID-19 vaccines include:
+ myocarditis;
+ pericarditis;
+ thrombosis with thrombocytopenia syndrome;
+ Guillain-Barre syndrome; and
+ immune thrombocytopenia.21
+2.37 Monitoring of AEFI is ongoing and informs the TGA’s analysis and regulation
+and can change the registration status of a vaccine, or other therapeutic goods.
+For example, because of analysis by the TGA of reports of AEFI in people who
+had received the Vaxzevria (AstraZeneca) vaccine, this vaccine is no longer
+available in Australia from 21 March 2023 onwards.22
+2.38 In Australia, there have been 14 adult deaths recognised by the TGA as linked
+to COVID-19 vaccination. There have been no deaths in children or adolescents
+determined to be linked to COVID-19 vaccination.23
+2.39 A significant number of submissions raised concerns around the use of the
+language of ‘safe and effective’ in relation to TGA approved COVID-19 vaccines,
+referring to the high number of adverse event reports submitted to the TGA
+(139 654 as at 29 October 2023).24
+2.40 The TGA monitors the safety of therapeutic goods in Australia by encouraging
+the reporting of suspected adverse events to the TGA. Medical practitioners and
+individuals are strongly encouraged to report all suspected adverse events to
+20 Therapeutic Goods Administration, Reporting suspected side effects associated with a COVID-19 vaccine,
+10 July 2023, https://www.tga.gov.au/products/covid-19/covid-19-vaccines/covid-19-vaccine-
+safety-monitoring-and-reporting/reporting-suspected-side-effects-associated-covid-19-vaccine
+(accessed 5 December 2023).
+21 Therapeutic Goods Administration, COVID-19 vaccine safety report - 13-07-2023, 13 July 2023,
+https://www.tga.gov.au/news/covid-19-vaccine-safety-reports/covid-19-vaccine-safety-report-13-
+07-2023#myocarditis-and-pericarditis-after-covid19-vaccination (accessed 5 December 2023).
+22 Department of Health and Aged Care, Vaxzevria (AstraZeneca) vaccine and thrombosis with
+thrombocytopenia (TTS), 24 August 2023, https://www.health.gov.au/our-work/covid-19-
+vaccines/advice-for-providers/clinical-guidance/tts#:~:text=the%20AstraZeneca%20vaccine.-
+,AstraZeneca%20is%20no%20longer%20available%20in%20Australia%20from%2021%20March,T
+TS%20can%20occur%20in%20Australia (accessed 5 December 2023).
+23 Therapeutic Goods Administration, COVID-19 vaccine safety report - 13-07-2023, 13 July 2023,
+https://www.tga.gov.au/news/covid-19-vaccine-safety-reports/covid-19-vaccine-safety-report-13-
+07-2023#myocarditis-and-pericarditis-after-covid19-vaccination (accessed 5 December 2023).
+24 Therapeutic Goods Administration, COVID-19 vaccine safety report - 02-11-23, 02 November 2023,
+https://www.tga.gov.au/news/covid-19-vaccine-safety-reports/covid-19-vaccine-safety-report-02-
+11-23 (accessed 20 December 2023).
+16
+the TGA for all therapeutic goods, including vaccines, regardless of whether
+causality can be proven.25
+2.41 The TGA states that this approach increases the size of its open access Database
+of Adverse Event Notifications (DAEN) and in doing so strengthens the veracity
+of analysis and findings around patterns of adverse events in the Australian
+population.26
+2.42 However, the TGA notes that reporting an adverse event does not necessarily
+mean there is something wrong with the therapeutic good, or that the
+therapeutic good is the cause of the adverse event.27
+2.43 The TGA states that its monitoring of AEFI is aligned with international best
+practice pharmacovigilance as set out in the World Health Organisation’s
+(WHO) causality assessment process for individual serious adverse events
+following immunisation. The process for reporting and investigating adverse
+events associated with therapeutic goods, including vaccines, can be accessed
+via the TGA's website.28
+2.44 The TGA also argues that referring to the broad rate of AEFI reports
+decontextualised from the TGA analysis of AEFI, as released via the monthly
+COVID-19 vaccine safety reports, does not provide data-driven evidence that
+undermines the safety and efficacy of the COVID-19 vaccines. This is because
+reporting rates alone do not accurately capture the distinction between a
+suspected AEFI and causally verified severe side effects linked to COVID-19
+vaccines.29
+2.45 The committee also received markedly differing views on the safety and efficacy
+of indemnified vaccines, with a significant focus on COVID-19 vaccines.
+25 Therapeutic Goods Administration, Database of Adverse Event Notifications (DAEN), 16 February
+2023, https://www.tga.gov.au/safety/safety/safety-monitoring-daen-database-adverse-event-
+notifications/database-adverse-event-notifications-daen (accessed 20 December 2023).
+26 Therapeutic Goods Administration, Database of Adverse Event Notifications (DAEN), 16 February
+2023, https://www.tga.gov.au/safety/safety/safety-monitoring-daen-database-adverse-event-
+notifications/database-adverse-event-notifications-daen (accessed 20 December 2023).
+27 Therapeutic Goods Administration, Database of Adverse Event Notifications (DAEN), 16 February
+2023, https://www.tga.gov.au/safety/safety/safety-monitoring-daen-database-adverse-event-
+notifications/database-adverse-event-notifications-daen (accessed 20 December 2023).
+28 Therapeutic Goods Administration, Reporting adverse events, 19 August 2021,
+https://www.tga.gov.au/resources/resource/guidance/reporting-adverse-events (accessed
+5 December 2023).
+29 Therapeutic Goods Administration, COVID-19 vaccine safety reports, 02 November 2023,
+https://www.tga.gov.au/news/covid-19-vaccine-safety-reports (accessed 20 December 2023).
+17
+2.46 Several submitters who supported the bill raised concerns around the safety and
+efficacy of indemnified COVID-19 vaccines, arguing that in both the Australian
+and the global context, COVID-19 vaccines had:
+ failed to prevent transmission of the virus in the community; and
+ resulted in a range of adverse side-effects, harms, and injuries.30
+2.47 These concerns were encapsulated in the submission from Australians for
+Science and Freedom, which stated:
+Gifting product indemnity to vaccine manufacturers strengthens the
+incentives to produce shoddy vaccines, pushes the costs of that shoddiness
+onto the shoulders of Australians, and reinforces the social norm that
+vaccines are uniquely desirable health interventions, ingratiating them to
+the public and thereby hindering independent scientific evaluative efforts
+and lowering the minimum acceptable levels of safety and efficacy still
+further.31
+2.48 The committee received a significant number of submissions which echoed
+similar concerns to those articulated above, centred on the logic that granting
+indemnities compromises the quality and safety of vaccines by incentivising
+risk-taking, removing the legal, fiscal, and social responsibilities of
+manufacturers, and short-cutting quality assurance and regulation.
+2.49 Several submitters articulated these concerns:
+Giving indemnity has allowed them (vaccine manufacturers) to make
+profits at the expense of people like myself getting injured, with no
+responsibility whatsoever.32
+Vaccine indemnity can create a situation where the profits of pharmaceutical
+companies are prioritized over the well-being of those who receive their
+vaccines.33
+2.50 The Department rejected this assertion, submitting that there is a critical
+distinction between the reallocation of legal risk by way of indemnification and
+the robust regulatory and clinical environment in which vaccines are approved
+for use, tested, and monitored post-administration.34
+2.51 The Department, in both their initial and supplementary submissions, reiterated
+that the indemnification of vaccine manufacturers did not compromise the
+rigour and independence of TGA vaccine registration, approval, monitoring
+and regulation. The Department’s initial submission stated:
+30 Submission 66 – Sample of survey responses, p. 2, p. 9.
+31 Australians for Science and Freedom, Submission 65, p. 6.
+32 Submission 66 – Sample of survey responses, p. 1.
+33 Name withheld, Submission 90, p. 3.
+34 Department of Health and Aged Care, Supplementary Submission 59.1, p. 11.
+18
+The granting of indemnity in no way reduces the high safety and efficacy
+standards required by the TGA when approving a vaccine for provisional
+or full registration, and has no impact on the approval process itself.35
+Effects of indemnification on access to compensation for vaccine related
+injuries through the COVID-19 Vaccine Claims Scheme
+2.52 Several submitters shared personal accounts of the difficulties they had
+experienced accessing compensation for vaccine related injuries through the
+COVID-19 Vaccine Claims Scheme. For many of these submitters, these effects
+have been further compounded by the discrimination and social exclusion they
+experienced post-injury, leaving many, in their own words, devastated,
+stressed, and broke.36
+2.53 The committee also received a significant number of submissions from
+individuals who shared their personal accounts of vaccine related injuries and
+the effects of these injuries on their physical, mental, and economic health, and
+wellbeing.
+2.54 Many of these submitters reported loss of income and employment, out of
+pocket medical and legal expenses, alleged gaslighting by medical professionals
+and government officials, and general disappointment with what they
+experienced as a restrictive, complex, and onerous claims scheme.37
+2.55 Many of these submitters were unsuccessful in accessing the scheme altogether
+and received no compensation for vaccine related injuries, despite having the
+support of at least one medical professional. This experience was not uncommon
+among those submitters:
+I have received a clinical diagnosis of, and treatment for, myopericarditis
+due to mRNA vaccine from both a cardiologist and a GP… (however) due
+to the ridiculously restrictive nature of the government compensation
+scheme, I do not qualify to apply for any compensation.38
+2.56 Some of these submitters were successful in accessing the scheme but noted that
+the compensation received was below their initial request and inadequate for
+the economic, physical, and mental costs incurred.39
+2.57 The Department of Health and Aged Care submitted that the COVID-19 Vaccine
+Claims Scheme was designed to simplify compensation claims for individuals
+who suffer moderate to severe impact following an adverse reaction to a TGA
+35 Department of Health and Aged Care, Submission 59, p. 8.
+36 Submission 66 – Sample of survey responses, p. 3, p. 13, p. 39.
+37 Submission 66 – Sample of survey responses, p. 14.
+38 Submission 66 – Sample of survey responses, p. 19.
+39 Submission 66 – Sample of survey responses, p. 14.
+19
+approved COVID-19 vaccine and to support public confidence in the COVID-19
+vaccination roll-out.40
+2.58 To be eligible under the Scheme, the claimant must meet the following
+requirements:
+ suffered a clinical condition or administration related injury most likely as a
+result of receiving the COVID-19 vaccine;
+ received inpatient hospital treatment (with limited exceptions); and
+ met the threshold for accessing the Scheme of at least $1000 in losses (such
+as out of pocket medical costs and lost income); and
+ submit a medical report from their treating doctor or hospital physician
+with the treating doctor’s opinion on the diagnosed condition or injury and
+likely link to vaccination.41
+2.59 Several submitters felt the eligibility requirements for the scheme were
+restrictive, complex, and onerous. Some submitters suggested the eligibility
+requirements misplaced the responsibility to establish causal links to prove the
+relationship between the vaccine and the related injuries suffered onto
+claimants, rather than vaccine manufacturers and regulators. To that effect,
+Ms Stephanie Eaton pointed to the:
+…irony of seriously vaccine injured (people) having to prove causality when
+there was no longitudinal data for the novel vaccines.42
+2.60 COVERSE, a peak body advocating for individuals who have experienced
+COVID-19 vaccine related injuries, submitted that meeting the eligibility criteria
+of the scheme required a significant investment of time and money, as well as
+above average levels of scientific literacy, which prohibited many vaccine
+injured persons from submitting a claim in the first instance, let alone a
+successful claim.43
+2.61 Freedom of Information (FOI) documents from Services Australia revealed that,
+as at 30 August 2023, fewer than 200 of the 3803 claims made through the
+COVID-19 Vaccine Claims Scheme had received a compensation payment and
+fewer than 40 per cent of claims were finalised.44
+2.62 While the provisions of the bill itself do not speak directly to, or seek to address,
+the adequacy and/or accessibility of the COVID-19 Vaccine Claims Scheme,
+there was a shared perception among many vaccine injured submitters that
+40 Department of Health and Aged Care, Submission 59, p. 7.
+41 Department of Health and Aged Care, Submission 59, p. 7.
+42 Ms Stephanie Eaton, Submission 73, p. 2.
+43 COVERSE, Submission 60, p. 8.
+44 Services Australia, LEX 77433 - Disclosure Log Document - COVID-19 Vaccine Claims Scheme Dashboard
+| Data extracted as at 30 August 2023, 2023, p. 1.
+20
+indemnification has inhibited their ability to seek compensation for vaccine
+related injuries.
+2.63 This perception was challenged by the Department who submitted that, unlike
+in other jurisdictions which have legislated no-fault-compensation schemes
+such as the United States of America and New Zealand, Commonwealth
+indemnification does not preclude vaccine injured citizens from taking direct
+legal action against vaccine manufacturers.45
+2.64 The details of individual indemnity agreements are unknown. However, the
+Department noted:
+ a customer (party A) could agree in the contract to pay for court awarded
+damages that a vaccine provider (party B) would otherwise need to pay to a
+patient who suffered a vaccine injury, and associated court and solicitor
+costs;
+ the precise scope, or limits of the indemnity, are generally heavily
+negotiated, and must be agreed by the parties and documented in the
+contract; and
+ the granting of a contractual indemnity generally does not grant party B
+immunity from legal action,46 nor cap the liability of the indemnified party
+to a third party claimant.47
+2.65 The COVID-19 Vaccine Claims Scheme is currently scheduled to end on
+30 September 2024.48
+Concerns regarding the COVID-19 Vaccine Claims Scheme
+2.66 Robust compensation schemes providing support for the small, but expected
+number of people who experience severe AEFI are vital to maintaining public
+trust and participation in pandemic response vaccination efforts.
+2.67 As noted in several submissions, many Australians with personal experience
+navigating the COVID-19 Vaccine Claims Scheme have found it to be restrictive,
+complex, onerous, and ultimately unhelpful.
+2.68 Further, several submitters indicated that the inaccessibility and/or inadequacy
+of the COVID-19 Vaccine Claims Scheme has not only been a source of personal
+disappointment for claimants, but also a driver of future vaccine hesitancy.
+2.69 These sentiments were a recurrent theme throughout the inquiry and are
+exemplified in the below excerpts:
+45 Department of Health and Aged Care, Submission 59, p. 7.
+46 Department of Health and Aged Care, Supplementary Submission 59.1, p. 9.
+47 Department of Health and Aged Care, Supplementary Submission 59.1, p. 10.
+48 Department of Health and Aged Care, Submission 59, p. 7.
+21
+I was never an anti vaxer. I have had all my vaccinations and used to get my
+flu shot. I am so scarred by my injuries and experience from the Covid
+vaccine that I will never touch another vaccine.49
+I genuinely believed that rolling up my sleeve for the vaccine was the
+responsible and patriotic thing to do… (however, following vaccine related
+injury) I have endured significant financial losses …. (and) harbour no
+illusions about the possibility of ever receiving substantial compensation
+through the government's woefully inadequate vaccine claims scheme.50
+2.70 In addition, submissions from the Western Australian Department of Health
+and the Immunisation Foundation of Australia (a health promotion charity and
+patient advocacy organisation that supports the National Immunisation
+Program) spoke to the risk that inadequate support and compensation for
+vaccine related injuries may exacerbate vaccine hesitancy in the community and
+negatively impact public trust in future immunisation and pandemic response
+efforts.51
+A National no-fault vaccine injury compensation scheme
+2.71 Both the Western Australian Department of Health and the Immunisation
+Foundation of Australia supported the bill on the stipulation that the bill be
+amended to prohibit the indemnification of vaccine manufacturers ‘other than
+when provided as part of a National no-fault vaccine injury compensation
+scheme’.52
+2.72 The Western Australian Department of Health acknowledged that the bill in its
+present form:
+…would likely limit the Australian Government’s ability to establish a
+national no-fault vaccine injury compensation scheme, since the majority of
+similar schemes in other countries involve granting manufacturers
+indemnities in return for legally-mandated financial support of a publicly-
+managed compensation program. 53
+2.73 The Immunisation Foundation of Australia argued that a national no-fault
+vaccine injury compensation scheme is ‘the best way to ensure that individuals
+who suffer vaccine injuries have access to compensation’ and noted that:
+Such a scheme would provide compensation to victims of vaccine injuries
+without requiring them to prove fault on the part of the vaccine
+manufacturer. This would make it easier and faster for victims to receive
+49 Submission 66 – Sample of survey responses, p. 2.
+50 Name withheld, Submission 90, p. 1-2.
+51 Government of Western Australia Department of Health, Submission 49, p. 2; Immunisation
+Foundation of Australia, Submission 50, p. 1.
+52 Government of Western Australia Department of Health, Submission 49, p. 2; Immunisation
+Foundation of Australia, Submission 50, p. 1.
+53 Government of Western Australia Department of Health, Submission 49, p. 2.
+22
+compensation, and it would remove the financial burden of vaccine injuries
+from individuals and their families.54
+2.74 Both the Western Australian Department of Health and the Immunisation
+Foundation of Australia argued that a National no-fault vaccine injury
+compensation scheme would help enhance public trust in Australia’s National
+Immunisation Program.55
+2.75 The Western Australian Department of Health noted that National no-fault
+vaccine injury compensation schemes operated in 25 countries prior to the
+COVID-19 pandemic including the United States of America, the United
+Kingdom, Canada, and New Zealand.56 However, the accessibility, adequacy
+and transparency of these schemes vary considerably.57
+2.76 Although advocacy for a National no-fault vaccine injury compensation scheme
+does not neatly align with the core objectives of the bill, there are several shared
+concerns and objectives between the submissions from the Western Australian
+Department of Health and the Immunisation Foundation of Australia and many
+of the submissions received in support of the bill, namely:
+ streamlining access to timely and adequate compensation for vaccine
+related injuries;
+ alleviating the proof burden on claimants to vaccine compensation schemes;
+and
+ enhancing public confidence in the safety and efficacy of vaccines.
+Committee view
+2.77 The committee rejects the assertion by proponents of the bill that granting
+indemnities to vaccine manufacturers in any way compromises the quality and
+safety of TGA approved vaccines in Australia.
+2.78 The committee acknowledges that without indemnification, the supply of
+pandemic vaccines, as seen during the COVID-19 pandemic, would likely be
+delayed and there would be a higher risk of increased rates of morbidity and
+mortality.
+2.79 The committee considers three issues raised by the bill below.
+54 Immunisation Foundation of Australia, Submission 50, p. 1.
+55 Government of Western Australia Department of Health, Submission 49, p. 2; Immunisation
+Foundation of Australia, Submission 50, p. 1.
+56 Government of Western Australia Department of Health, Submission 49, p. 2.
+57 Fairgrieve, D, et al, ‘No-Fault Compensation Schemes for COVID-19 Vaccines: Best Practice
+Hallmarks’, Public Health Reviews, vol. 44, no. 1, 2023 p. 1.
+23
+Indemnification is vital for pandemic and/or emergency response capability
+2.80 The committee was persuaded by arguments presented by the Department of
+Health and Aged Care, the Australian Medical Association, and Medicines
+Australia that the ability of the Minister for Finance, or their delegate, to grant
+indemnities on behalf of the Commonwealth to vaccine manufacturers, though
+rarely exercised, is a vital pandemic and/or emergency response capability that
+should not be removed.
+2.81 There is no question that timely access to vaccines was, and continues to be,
+integral to an effective COVID-19 pandemic response in Australia and
+internationally. Removing the ability to indemnify vaccine manufacturers
+would almost certainly hinder the Commonwealth Government’s ability to
+respond to any future pandemic or emergency situations.
+2.82 The committee concurs with Medicines Australia that indemnities also provide
+critical protections for the doctors, nurses and pharmacists who administer and
+prescribe vaccines.
+2.83 The committee also rejects the assertion in the explanatory memorandum to the
+bill that the indemnification of vaccine manufacturers is, or risks becoming,
+commonplace in Australia.
+2.84 The committee understands that the Australian Government does not regularly
+or voluntarily offer indemnities to vaccine manufacturers. Indemnities are only
+considered in anticipation of, or in response to, emergency or pandemic
+situations where the public health benefits outweigh the risks. This is apparent
+in the limited number of indemnities granted to vaccine manufacturers,
+compared with the number of vaccines procured for the National Immunisation
+Program without indemnification.
+Indemnities do not incentivise risk taking by vaccine manufacturers nor
+compromise the rigour of TGA vaccine registration
+2.85 The committee accepts the view put by the Department of Health and Aged Care
+that the benefits of providing indemnities include achieving population level
+immunity, saving lives, and managing the health and economic effects of
+pandemics and other public health emergencies.
+2.86 The committee also accepts the view of organisations such as the Australian
+Medical Association that risk is inherent to all medicines, including vaccines,
+and that Australia’s health policy infrastructure cannot reasonably be expected
+to remove risk altogether, but rather make the greatest efforts possible to
+minimise and mitigate risks.
+2.87 Nevertheless, the committee recognises many submitters were concerned about
+the perceived relationship between indemnification and the incentivisation of
+risk taking by vaccine manufacturers.
+24
+2.88 The committee also recognises many submitters were concerned about the
+perceived relationship between indemnification and the expedited and/or
+reduced quality assurance of vaccines by the Therapeutic Goods Administration
+(TGA).
+2.89 That being acknowledged, the committee was convinced by arguments
+presented by the Department of Health and Aged Care that there is a critical
+distinction between the allocation of legal risk, by way of indemnification, and
+the robust regulatory and clinical environment in which vaccines are registered,
+approved, monitored, and regulated by the TGA.
+2.90 The COVID-19 pandemic saw an unprecedented global prioritisation by
+governments, scientific and medical researchers, experts, and pharmaceutical
+companies to develop effective vaccines against the SARS-CoV-2 virus.
+Although this process was expedited, the committee is considers it inaccurate to
+conflate expedition with short-cutting, or an increased risk appetite.
+2.91 The committee understands that the expedited vaccine development and
+registration process was enabled in large part by a combination of international
+collaboration, organisational prioritisation, surge resourcing efforts and
+considerable overtime, both rostered and unpaid, by those working to develop
+and register vaccines and support the pandemic response more broadly. These
+efforts are deserving of our gratitude and ultimately supported one of the most
+successful COVID-19 vaccine rollouts globally.
+2.92 The committee rejects the assertion in the explanatory memorandum to the bill
+that the indemnification of vaccine manufacturers has created an incentive for
+risk-taking in the pharmaceutical industry which is not aligned with the
+fundamental principles of medicine.
+2.93 There is no evidence to suggest that indemnification, or the expedited
+timeframes in which COVID-19 vaccines were developed, reduced the safety
+and efficacy of vaccines. These vaccines were registered for use and
+administered in Australia because they met the TGA’s high standards for safety
+and efficacy.
+2.94 The committee also accepts the argument put forward by the TGA that the
+approved indication of effectiveness for any COVID-19 vaccine is not the
+prevention of transmission, but rather the prevention of severe coronavirus
+disease and death resulting from the SARS-CoV-2 virus.
+2.95 In the committee’s view, gesturing towards community transmission rates to
+question the safety and efficacy of the COVID-19 vaccines is an argument that
+misunderstands, and potentially obfuscates, the core purpose of COVID-19
+vaccines.
+2.96 That is not to suggest the vaccine rollout has been a positive experience for all
+involved. The committee acknowledges the people who experienced severe
+25
+adverse events following immunisation. The committee also extends its
+condolences to the families and loved ones of the 14 Australians whose deaths
+have been linked to COVID-19 vaccination.
+The COVID-19 Vaccine Claims Scheme
+2.97 As noted earlier, opponents of the bill argued that the vaccine rollout and
+pandemic response more broadly has greatly benefitted the medical, social, and
+economic health of the Australian population.
+2.98 Nevertheless, it is clear from many submissions to this inquiry that the
+distribution of these costs within Australian society has not always been
+counterbalanced by accessible, timely and adequate support and compensation
+for those who have suffered severe vaccine related injuries.
+2.99 Over the course of the inquiry a significant number of submitters focussed the
+committee’s attention on issues surrounding the adequacy of the COVID-19
+Vaccine Claims Scheme, with many sharing their personal experiences of
+disappointment navigating the scheme.
+2.100 The committee understands that the scheme was designed to simplify
+compensation claims for the small number of people expected to suffer
+moderate to severe adverse reactions to TGA approved COVID-19 vaccines and
+to support public confidence in the COVID-19 vaccination roll-out. The scheme
+is an optional alternative to potentially costly and time-intensive litigation.
+2.101 The committee acknowledges the view that the eligibility requirements
+currently in place for the scheme appear to have been, on several occasions,
+prohibitively restrictive for many Australians and failed to meet the central
+stated aims of the scheme.
+2.102 Further, with most claims made to the scheme yet to be finalised, the committee
+is concerned with the resourcing levels of the team tasked with managing the
+scheme within Services Australia. While acknowledging that the assessment of
+claims is complex and spans the work of multiple agencies, greater efforts must
+be made to finalise claims within reasonable timeframes.
+2.103 The committee also recognises the risk that inadequate support and
+compensation schemes for vaccine injury may become a significant driver of
+vaccine hesitancy. This poses a threat to public trust and participation in future
+immunisation and pandemic response efforts, including the National
+Immunisation Program and maintaining ongoing COVID-19 vaccination.
+Concluding remarks
+2.104 The benefits of immunisation are vital in protecting the health of the Australian
+population. The committee is unanimous in its view that passage of this bill
+would have a severely detrimental effect on Australia’s future capacity to
+manage any future pandemic, and consequently on the health of the population.
+This is because Australia’s pandemic response would be inhibited by an
+26
+inability to source and secure the timely provision of life-saving vaccines in an
+emergency by a prohibition on the granting of indemnities.
+2.105 Further, it is clear to the committee that the granting of an indemnity for legal
+risk in an emergency does not compromise the efficacy and robustness of the
+vaccine assurance, monitoring, and regulatory processes undertaken by the
+Therapeutic Goods Association.
+2.106 That said, the committee acknowledges the risk of vaccine injury cannot be
+eliminated and there will be a small, but expected, number of people who may
+suffer vaccine injury. The committee accepts the principle, based on equity and
+fairness, that any person who is injured while helping to protect the
+community—in this case, by contributing to herd immunity—should not bear
+the consequences of the injury alone.
+2.107 Accordingly, the committee considers it incumbent on government to ensure
+that any vaccine injury claims scheme offers timely, easily accessed, and
+adequate compensation to persons suffering vaccine injury. Further, the
+committee considers it prudent to take seriously any risk of increased vaccine
+hesitancy associated with the view that the COVID-19 Vaccine Claims Scheme,
+or indeed any vaccine compensation scheme, is overly onerous. With new
+strains of COVID-19 continuing to emerge and the COVID-19 Vaccine Claims
+Scheme scheduled to end on 30 September 2024, the committee considers it
+appropriate to review the COVID-19 Vaccine Claims Scheme and consider the
+merits of a National no-fault vaccine injury compensation scheme as part of the
+National Immunisation Strategy.
+Recommendation 1
+2.108 The committee recommends that the Australian government review the
+COVID-19 Vaccine Claims Scheme and consider the merits of a National
+no-fault vaccine injury compensation scheme as part of the
+National Immunisation Strategy.
+Recommendation 2
+2.109 The committee recommends that the Senate not pass the bill.
+Senator Louise Pratt
+Chair
+Dissenting report from Senator Rennick
+1.1 Thank you for the committee’s report on the PGPA Amendment (Vaccine
+Indemnity) Bill 2023. On behalf of my Covid-19 vaccine injured constituents
+who made submissions to the Senate Inquiry, I was pleased to read that the
+committee acknowledged the inequities in the current federal Government
+vaccine injury claim scheme and will consider a National no-fault vaccine injury
+compensation scheme as per the following.
+1.2 “Recommendation 1
+2.108 The committee recommends that the Australian government review the
+COVID-19 Vaccine Claims Scheme and consider the merits of a National no-
+fault vaccine injury compensation scheme as part of the National Immunisation
+Strategy.”
+1.3 However, I was not so pleased about Recommendation 2
+2.109 The committee recommends that the Senate not pass the bill.”
+and I would like to make the following comments for your consideration.
+1.4 Disappointingly, the report in its entirety failed to mention the novelty of the
+Covid-19 mRNA (messenger or modified ribonucleic acid) -Lipid Nanoparticle
+(LNP) technology utilised in the Pfizer’s COMIRNATYTM product. The
+Department of Health (DoH), Therapeutic Goods Administration (TGA) and
+other taxpayer funded bureaucracies bandy the term ‘vaccine’ deliberately to
+blindside the Committee when knowing full well the mRNA-LNP technology is
+NOT the same as the traditional, tried and tested vaccines. This is important
+information and the basis of the majority of the submissions who supported the
+amendment.
+1.5 Under the heading, ‘Policy rationale and history of indemnities granted to
+vaccine manufacturers 1.34’ the DoH argue their case for Vaccine Indemnity
+“The limited instances in which indemnities have been granted to vaccine
+manufacturers have been in relation to Covid-19, monkeypox, smallpox and
+pandemic influenza H1N1 (Swine flu) and H5N1 (Bird Flu) strains”.
+1.6 In this statement, the DoH have failed to distinguish between the novel Covid-
+19 mRNA-LNP delivery systems and the other four traditional types of vaccines
+mentioned. The traditional vaccines consist of attenuated (weakened) live or
+killed viruses and have been around for centuries. These traditional tried and
+tested type of vaccines are antigens triggering an antibody response whereas the
+mRNA-LNP along with the AstraZeneca Viral vector products contain the
+mRNA genetic code to tell the human body to manufacture the spike protein
+(antigen) intracellularly to trigger an immune response.
+27
+28
+1.7 Although, the mRNA gene technology has been around for decades, it has failed
+to enter the market because of the lack of safety clinical data. It was the response
+to the SARS-CoV-2 pandemic that the mRNA-LNP technology first entered the
+global market. The consequences of approving and mandating the rollout of
+novel technologies have been heard by the Committee from the Covid-19
+vaccine injured submissions.
+1.8 Furthermore, many Australians and global constituents have questioned the
+rollout of the novel mRNA-LNP technology rather than the isolation of the
+SARS-CoV-2 virus and developing a traditional, tried and tested type of vaccine.
+If this had been the case, the policy rationale 1.34 put forward by the DoH may
+have been a valid argument against the amendment. However, they have failed
+to reveal this fact to the Committee who may have made recommendations for
+the amendment.
+1.9 In conclusion, I urge that the committee report include the differences between
+the tried and tested traditional vaccines and the novelty of the mRNA-LNP
+vaccines. The Committee could then reconsider recommending that the Senate
+pass the bill.
+1.10 Under the heading, ‘Effects of indemnification on access to compensation for
+vaccine related injuries through the COVID-19 Vaccine Claims Scheme’, point
+2.63:
+“This perception was challenged by the department of Health and Aged
+Care who submitted that, unlike in other jurisdictions which have legislated
+no-fault-compensation schemes such as the United Sates of America and
+New Zealand, Commonwealth indemnification does not preclude vaccine
+injured citizens from taking direct legal action against vaccine
+manufacturers”.
+1.11 Unbelievably, the underlined statement is the height of arrogance and lacks
+empathy from the Department of Health towards the Covid-19 vaccine injured
+constituents of Australia. Any Australian citizen would surmise that the remit
+of the federal Department of Health is to protect us from harmful
+pharmaceutical products. Why the Department of Health was so hell bent on
+signing off confidential indemnity agreements rather than protecting the health
+of its citizens contravenes its jurisdiction and brushing off the vaccine injured
+citizens telling them they can take direct legal action against Covid-19
+manufacturers is just mean and unsupportive. Does the Department of Health
+not understand that the many vaccine-injured Australian citizens are financially
+bereft and the possibility of them taking the wealthy, powerful and indemnified
+Covid-19 manufacturers to court is a fanciful notion? How has the federal
+Department of Health allowed itself to be gagged and not release the contract
+details of the Covid-19 manufacturers’ vaccine indemnity to the point that it
+refuses to support the citizens that it serves?
+29
+1.12 Regarding the comments in paragraph 2.10 there is never any justification for
+not performing safety and efficacy testing. The claims made by the TGA and
+health experts that adequate testing was performed on the Covid vaccine is
+false. The claims made by the TGA on page 31 of the Product Assessment Report
+that the safety concerns are considered acceptable is false. It is straight out
+negligence by the TGA to waive away these concerns, when there is no liability
+placed on the pharmaceutical company.
+Table: Summary of safety concerns
+1.13 Furthermore, the argument that there was a public health emergency is
+overblown. Covid-19 was of little risk to healthy people of working age
+population. There was no justification to roll out a novel vaccine that had next
+to no testing, especially longitudinal on people that had very little risk from
+Covid.
+1.14 It should also be noted that both the mRNA encoding spike protein and the
+novel lipids used in the vaccine were never tested in animals before the rollout
+to humans. The manufacturing process was also changed after human trials that
+29
+30
+introduced plasmid DNA’s into the manufacturing process. Plasmids can be
+toxic to the human body, yet this risk was completely ignored. (Refer Pfizer non-
+clinical report).
+1.15 Furthermore, there were no studies performed on the impact to the immune
+system of repeated booster shots. Immune imprinting is a well know
+phenomenon that has been completely ignored by the medical authorities.
+1.16 Regarding the comments in paragraph 2.21, the Covid-19 vaccine provided no
+herd immunity, so the claim that the vaccine achieved population immunity is
+wrong.
+1.17 Regarding the comments in paragraph 2.27, the Covid-19 vaccine bypassed
+numerous tests (see table above) and was rolled out before adequate testing was
+completed. The claim that the vaccine meet high safety and efficacy standards
+are wrong. It is well known that the vaccine was rolled out quickly in haste and
+that the claims of 95% efficacy made early in the rollout were proven to be
+completely false.
+1.18 Regarding the comments in paragraph 2.29, the “expert groups” gave incorrect
+advice, changed advice regularly, exaggerated claims, ignored risks and failed
+to disclose conflicts of interests with pharmaceutical companies. Just one
+example is that the fact that Professor Skerrit, the head of the TGA claimed in
+Senate estimates that the lipids used in the vaccine were the same as the lipids
+in the steak or sausages you eat for breakfast. This statement was either
+deliberately or negligently misleading as two of the lipids were completely
+novel to the human body, and one had a positive charge attracting it to the
+negatively charged phosphate groups in the phospholipid layer of the cell
+membrane.
+1.19 Regarding the comments in paragraph 2.31, the TGA’s own Product Assessment
+Report stated on page 7 and I quote:
+“Comirnaty (BNT162b2 (mRNA)) COVID-19 vaccine has provisional
+approval for the indication below: Active immunisation to prevent
+coronavirus disease 2019 (COVID-19) caused by SARS-CoV-2, in
+individuals 16 years of age and older.”
+1.20 The TGA’s claim that the vaccine was not never intended to prevent
+transmission is a blatant lie. By preventing Covid, the virus cannot be passed
+on. This is just one of the many lies told by TGA executives to cover for Pfizer
+and demonstrates why the agency needs to be overhauled. In particular, the role
+of testing the safety and efficacy of the vaccine must be separated from the role
+of reviewing vaccine injuries.
+1.21 Regarding the comments in paragraph 2.33, it’s not a question of whether there
+are a small number of adverse reactions, it’s a question of risk reward. There
+were only a small number of healthy people that got seriously ill from Covid.
+31
+The downside risk of being injured by the vaccine for people who had strong
+immune systems was much worse than Covid.
+1.22 Regarding the comments in paragraph 2.35, the Ausvax safety data revealed
+that after day 3, 44.1% of over 6 million respondents reported at least 1 adverse
+event from the Covid-19 vaccines, and 0.9% went to their GP or Emergency. This
+is an incredibly high rate of injury for a virus not much worse than influenza.
+People don’t go to see their GP or Emergency for minor and short-lived
+symptoms. The gaslighting by Health Authorities as to the seriousness of the
+side effects of the Covid-19 is another example of gaslighting to cover their
+negligence.
+1.23 Regarding the comments in paragraph 2.40, of the thousands of people that have
+contacted my office, not one of them was ever told how to lodge a vaccine injury
+report with the TGA by the heath professional who administered the vaccine.
+The claim that the TGA encourages reporting of vaccine injuries is another
+blatant lie that is not backed up in practice.
+1.24 As per paragraph 2.61 the low number of claims processed and paid out by
+Services Australia is disgraceful and more evidence of the Federal government
+gaslighting vaccine injuries in order to hide their lies and negligence.
+1.25 As per paragraph 2.86, where there is risk there must by choice. This was never
+granted to people who were forced to choose between their jobs and getting the
+vaccine.
+1.26 As per paragraph 2.93, the claims that indemnification or expeditated time
+frames did not reduce the safety of the vaccines are clearly wrong. The
+identification of myocarditis as a side effect of the vaccine after the rollout is just
+one example of how vaccine testing was clearly rushed.
+1.27 In conclusion, I urge the Committee to request the individual indemnity
+agreements between the Department of Health and the Covid-19 vaccine
+manufacturers are obtained, so that the Committee can determine where the
+accountability for the Covid-19 vaccine injuries lie behind the veil of vaccine
+indemnity. If the Committee had full access to this information, they may find
+amongst other things, that the novelty of the Covid-19 vaccines is bereft of safety
+data, that the sale of Covid-19 vaccines and additional pipeline products is
+manipulative and coercive and subject to the condition of vaccine indemnity.
+With full access to this information the Committee could then reconsider
+recommending that the Senate pass the bill.
+Recommendation 1
+1.28 The role of testing the safety and efficacy of the vaccine must be separated
+from the role of reviewing vaccine injuries. Both roles should not sit within
+the TGA.
+31
+32
+Recommendation 2
+1.29 That the TGA is funded out of General Revenue and fees paid by Drug and
+Medical Equipment sponsors be paid directly to Treasury.
+Senator Gerard Rennick
+Liberal National Party
+Senator for Queensland
+Dissenting report from Senator Babet
+Risk to the Commonwealth (Australian taxpayers) via unquantifiable,
+contingent liabilities must be limited.
+1.1 The Public Governance, Performance and Accountability Amendment (Vaccine
+Indemnity) Bill 2023 amends the Public Governance, Performance and
+Accountability Act 2013 to provide that indemnities cannot be granted to
+manufacturers of vaccines in relation to the use of a vaccine.
+1.2 The committee has published1 96 public submissions, listed 4 confidential
+submissions and a sample of 128 further submissions that were classified as
+survey responses from coordinated campaigns. Members and Senators also
+received a significant number of calls and emails from various people and
+professional organisations in support of this bill.
+1.3 All public submissions received by the committee, including the 128 that have
+been collated as a single sample submission (number 66) should have been
+uploaded individually. This lack of transparency is unacceptable and anti-
+democratic in nature.
+1.4 My analysis shows that more than 97% of submissions support the passage of
+this bill. Of the 101 submissions and 127 survey responses, only 5 appeared to
+oppose the bill.
+1.5 A public hearing was requested by multiple Senators but was repeatedly denied
+by the committee. This has prevented subject matter experts appearing as
+witnesses to present evidence to the committee and answer questions on matters
+of contention. By refusing to hold a public hearing the committee has failed in
+its duty to fully consider all aspects of this bill and will leave many questions
+unanswered.
+Current practice and the COVID-19 experience.
+1.6 Although the intention of granting indemnity is to provide faster access to
+medical products, the reality is that the most recent COVID-19 vaccination
+program has resulted in significant reported injury and death. Those who profit
+from the sale of these products have been indemnified.
+1 Finance and Public Administration Legislation Committee, Public Governance, Performance and
+Accountability Amendment (Vaccine Indemnity) Bill 2023, https://www.aph.gov.au/Parliamentary
+Business/Committees/Senate/Finance and Public Administration/VaccineIndemnity47.
+33
+34
+1.7 The final COVID-19 Vaccine Safety Report released by the Therapeutic Goods
+Administration2 includes a staggering 139,654 reported adverse events and
+1,004 reported deaths following vaccination.
+1.8 AusVaxSafety is an Australian Government Department of Health and Aged
+Care funded vaccine safety system. They conducted active vaccine safety
+surveillance during the COVID-19 vaccine rollout3. Surveys of over 6.6 million
+Australians have been conducted following vaccination. 44.1% of recipients
+surveyed reported at least one adverse event with 0.9% of recipients requiring a
+visit to their general practitioner or an emergency department.
+1.9 On 21 February 2021, Greg Hunt the Minister for Health and Aged Care stated4:
+The world is engaged in the largest clinical trial, the largest global
+vaccination trial ever, and we will have enormous amounts of data…But
+what’s the message for the public? It’s safe, it’s effective, it will help protect
+you, but it will also help protect your mum and dad, your grandparents,
+your nonna, all of Australia.
+1.10 The Western Australian Vaccine Safety Surveillance Annual Report 20215 shows
+that adverse events following immunisation (AEFIs) with the COVID-19
+vaccines were reported at 23.8 times the rate (per 100, 000 doses) of AEFIs for all
+other vaccines combined. The report refers to this phenomenon as an
+“exponential increase” on page 29.
+1.11 Australian Medical Professional Society stated6 that “our comprehension of the
+available COVID-19 vaccine mechanisms of action and their long-term
+performance, particularly in terms of safety and efficacy, still contains gaps. Yet
+the government indemnified huge multinational pharmaceutical corporations
+for all liability from novel therapeutics with minimal short-term data and zero
+long-term data”.
+1.12 Australians for Science and Freedom (ASF) raised concern7 around the
+indemnities provided to companies for COVID-19 Vaccines, with specific
+reference to a potential loophole re: the National Health Act’s implicit definition
+2 Covid-19 Vaccine Safety Report 2nd November 2023 COVID-19 vaccine safety report - 02-11-23 |
+Therapeutic Goods Administration (TGA) (accessed 8 March 2024).
+3 AusVaxSafety, Covid-19 Vaccine Safety Data COVID-19 vaccines | AusVaxSafety (accessed 8
+March 2024).
+4 https://www.health.gov.au/ministers/the-hon-greg-hunt-mp/media/interview-with-david-speers-
+on-abc-insiders-on-the-covid-19-vaccine-rollout.
+5 The Western Australian Vaccine Safety Surveillance Annual Report 2021, page 28 Western
+Australian Vaccine Safety Surveillance – Annual Report 2021 (health.wa.gov.au) (accessed 6 March
+2024).
+6 Australian Medical Professionals' Society, Submission 62, pp. 7-8.
+7 Australians for Science and Freedom, Submission 65.
+35
+of a vaccine, “a vaccine for the purpose of immunising persons.” ASF mentions
+that the COVID-19 vaccines, of which hundreds of millions were bought by
+Australia, have long been recognised not to provide immunisation for any
+reasonable length of time against COVID-19 infection”. They believe there is a
+potential loophole in our present legislative framework for the procurement of
+medical interventions, that could be exploited by companies selling medical
+interventions for which they would like to remain conveniently excused of
+liability. This concern appears relevant when you consider that the mRNA
+vaccine rollout began in early 2021 and the TGA only updated the definition of
+a vaccine8 to include mRNA technology on 10 March 2023 and their vaccines
+overview section to include mRNA technology on 14 November 2023.
+1.13 There appears to be a lack of clarity around the compliance of the delegate with
+the Public Governance Performance and Accountability framework when
+granting indemnity for COVID-19 vaccines. The granting of indemnity has
+created an unquantifiable, contingent liability and federal budget papers reveal
+a cost larger than that permitted in the framework.
+1.14 Sections 60 and 110 of the Public Governance Performance and Accountability
+Act 2013 enables the Finance Minister, or their delegate, to grant indemnities on
+behalf of the Commonwealth. Indemnities given by the Commonwealth create
+contingent liabilities (i.e. they may give rise to a liability on the occurrence of a
+future event). They are legally enforceable obligations included in contractual
+arrangements between the Commonwealth and another party whereby the
+Commonwealth undertakes to accept the risk of loss or damage another party
+may suffer.
+1.15 On 12 September 20239, during Senate Question Time, the Minister for Finance
+advised that the signing of COVID-19 vaccine contracts would have occurred at
+the public service level. The Department of Health and Aged care confirmed this
+detail, they said10: “For the purchase of COVID-19 vaccines, after Government
+agreed, the Advance Purchase Agreements (AstraZeneca, Moderna, Novavax
+and Pfizer) were all signed by the then Associate Secretary in the Department of
+Health and Aged Care as that position had the delegation to enter into these
+arrangements.” This is concerning because there is no accountability for the
+decision maker as this decision was made 'at the public service level' without
+the awareness of parliament, nor was it able to be debated in the House or
+Senate, nor released to the public in any meaningful way.
+8 Supplementary Budget Estimates 2023-2024 Outcome: 1 - Health Policy, Access and Support PDR
+Number: SQ23-002123
+9 Question time, Australian Senate, 12 September 2023, Hansard - Senate 12/09/2023 Parliament of
+Australia (aph.gov.au)
+10 Department of Health and Aged Care, Submission 59 - Supplementary Submission, p. 5.
+36
+1.16 As stated11 by the Department of Finance, the written delegation from the
+Finance Minister requires that an official who is delegated the power to enter
+indemnities must consider two overarching principles:
+(a) that risks should be borne by the party best placed to manage them; and
+(b) benefits to the Commonwealth should outweigh the risks involved.12
+Of specific concern is the requirement that the most probable expenditure if the
+event occurred is not significant (it would be less than $30 million).
+Indemnity, transparency, and compensation for the injured
+1.17 Services Australia Portfolio Budget Statements13 (page 187) show the
+compensation paid/to be paid via the COVID-19 vaccine claims scheme far
+exceeds the $30m threshold. The figures budgeted are $76.9m in 2022/23 and a
+further $28.8m in 23/24. This substantial cost blowout is a prime example of
+future risks posed to taxpayers should this bill not pass.
+1.18 Contracts containing indemnity clauses have not been publicly released in
+Australia. The exact details of these contracts remain unknown. Contracts have
+been requested by multiple Senators on 22 November 2023 via an unsuccessful
+order for production of documents (tied vote). Senator Babet has also asked for
+release of the contracts in Senate question time1415.
+1.19 Budget paper No. 116 shows an ‘unquantifiable contingent liability’ that has been
+created due to advance purchase agreements for COVID-19 vaccines. The
+specific details of these contracts are unknown to the public, all that is known is
+that these contracts have exposed the Commonwealth to a potential liability that
+is unquantifiable.
+1.20 Submission 5917 states that “except in limited circumstances (where the
+likelihood of the event occurring is less than 5% and the probable expenditure
+is less than $30M), approval from the Finance Minister, Cabinet, the National
+11 Department of Finance, RMG414, https://www.finance.gov.au/publications/resource-
+management-guides/indemnities-guarantees-and-warranties-commonwealth-rmg-414#-what-is-a-
+commonwealth-indemnity-
+12 Public Governance, Performance and Accountability (Finance Minister to Accountable Authorities
+of Non-Corporate Commonwealth Entities) Delegation 2022, Public Governance, Performance and
+Accountability (Finance Minister to Accountable Authorities of Non-Corporate Commonwealth
+Entities) Delegation 2014, p. 13.
+13 Department of Social Services, Portfolio Budget Statements, 2023/24, Portfolio Budget Statements
+2023-24 Budget Related Paper | Department of Social Services, Australian Government (dss.gov.au)
+14 Senate Official Hansard, 22 November 2022.
+15 Hansard - Senate 12/09/2023 Parliament of Australia (aph.gov.au) (page 4274)
+16 Budget Paper No. 1 2023/24, Budget Paper No. 1 | Budget 2023–24
+17 Department of Health and Aged Care, Submission 59.1 - Supplementary Submission, p. 4.
+37
+Security Committee of Cabinet (NSC) or the Prime Minister is required”. The
+question that remains unanswered is whether approval was provided by the
+Finance Minister, Cabinet, NSC, or the Prime Minister for the advance purchase
+agreements in relation to COVID-19 vaccines.
+1.21 It is concerning that Minister Gallagher stated during Senate question time18 on
+30 March 2023, regarding the COVID-19 vaccine claims scheme, that:
+because the vaccine was developed in a relatively short period compared to
+others, there were commercial discussions about how to manage schemes
+and claims like this, but I can’t go into those details. They are commercial-
+in-confidence.
+This is just another example of opacity around negotiations where the deal
+results in a financial risk to taxpayers that is unquantifiable. Why do
+corporations have the right to withhold all details from the taxpayers who pay
+for their products?
+1.22 Australians for Science and Freedom asked19:
+why would public transparency about government contracts be detrimental
+to corporate interests? The only way we can see this being true is if
+something in the contracts or the contracting process would seem unfair or
+otherwise inappropriate to the observing public. That sort of secrecy is not
+a legitimate protection for a company that has invested in a new product,
+but rather a fig leaf for poor behaviour. The “commercial in confidence”
+argument does not justify secrecy around contracting. Instead, by using this
+argument, cover is given to further the corporate interest in saving face
+while ignoring the interests of the people being represented by the
+government.
+1.23 With respect to vaccines, it is well known that “side effects occur after any dose,
+in both sexes, and with variable latency after vaccination”20. Dr Melissa McCann
+stated in her submission21 that:
+”Given the numbers of adverse events reported to the Therapeutic Goods
+Administration and the number of claims to the compensation scheme, there
+is an urgent need to ensure accountability and adequate governance in
+relation to both the financial and public health and safety obligations of
+Commonwealth entities such as the Department of Health, with respect to
+both the purchasing and indemnity arrangements for the COVID-19
+vaccination program and the administration of the associated compensation
+claim scheme."
+18 Senate question time, 30th March 2023, Hansard, page 1690, Hansard - Senate 30/03/2023 Parliament
+of Australia (aph.gov.au)
+19 Australians for Science and Freedom, Submission 65, p. 7.
+20 Neurological Adverse Reactions to SARS-CoV-2 Vaccines - PMC (nih.gov)
+21 Dr Melissa McCann, Submission 46.
+38
+1.24 Dr McCann referred to a statement by the Minister for Health and Aged Care,
+Greg Hunt on 28th August 202122, where he said:
+The COVID-19 Vaccine Claims Scheme offers protection to Australians
+receiving a TGA approved COVID-19 vaccine, irrespective of where that
+vaccination occurs.
+The Scheme will be administered by Services Australia and will provide
+Australians with a single front door to a simple and quick administrative
+process for compensation. The TGA will provide guidance on recognised
+adverse reactions as part of their established surveillance program.
+The COVID-19 Vaccine Rollout Scheme will be backdated to February 2021
+and provide Australians with an alternative, administrative option to seek
+compensation, rather than a complex and costly court process.
+Australians who receive a COVID-19 vaccination and have an adverse event
+are encouraged to report it to their doctor who can provide the information
+to the TGA to ensure such events are included in its reporting.
+1.25 There has been a hesitancy amongst clinicians to link injury to the indemnified,
+novel COVID-19 vaccines for fear of professional repercussions. For example, a
+personal injury lawyer stated that23 “among other hurdles for applicants,
+clinicians were reluctant to link injury and the vaccine – which the scheme
+requires for eligibility. “People generally are finding it difficult to gain
+appropriate expert evidence because medical specialists, generally, are non-
+accepting of their injuries or are fearful of repercussions professionally,” she
+said. This fear was irresponsibly perpetuated by Australia’s health regulator
+AHPRA and the National Boards via a statement made on 9 March 2021 as
+follows:
+“Any promotion of anti-vaccination statements or health advice which
+contradicts the best available scientific evidence or seeks to actively
+undermine the national immunisation campaign (including via social
+media) is not supported by the National Boards and may be in breach of the
+codes of conduct and subject to investigation and possible regulatory
+action,”
+1.26 The COVID-19 vaccine claims scheme has only recognised 10 conditions24. Just
+4 conditions have been recognised for mRNA products. In terms of adverse
+events, reference must be made to the serious adverse events of special interest
+22 https://www.health.gov.au/ministers/the-hon-greg-hunt-mp/media/no-fault-covid-19-indemnity-
+scheme
+23 https://www.news.com.au/national/the-major-problem-with-covid19-vaccine-compensation-
+claims/news-story/39b052c5ec6abd11ff933659d309a20f
+24 https://www.health.gov.au/sites/default/files/2023-12/covid-19-vaccine-claims-scheme-
+policy 0.pdf
+39
+included in25 the Pfizer 5.3.6 CUMULATIVE ANALYSIS OF POST-
+AUTHORIZATION ADVERSE EVENT REPORTS OF PF-07302048 (BNT162B2)
+RECEIVED THROUGH 28-FEB-2021 dated 30 April 2021. This is Pfizer’s
+Adverse Events Report, released in or about November 2021 pursuant to court
+ordered disclosure expedited under the Freedom of Information Act. It includes
+1223 deaths, as seen on page seven. Further, the report outlined nine pages,
+around 1200+, adverse events of special interest, many of which are identifiable
+on TGA’s Database of Adverse Event Notifications. These adverse events of
+special interest were discussed in the Journal Vaccine, in a paper titled “Serious
+adverse events of special interest following mRNA COVID-19 vaccination in
+randomized trials in adults.” This study reviewed the available data from both
+the Pfizer and Moderna phase-3 randomised trials in adults. The findings
+stated.26
+In the Moderna trial, the excess risk of serious AESIs (15.1 per 10,000
+participants) was higher than the risk reduction for COVID-19
+hospitalization relative to the placebo group (6.4 per 10,000 participants). [3]
+In the Pfizer trial, the excess risk of serious AESIs (10.1 per 10,000) was
+higher than the risk reduction for COVID-19 hospitalization relative to the
+placebo group (2.3 per 10,000 participants).
+“The excess risk of serious adverse events found in our study points to the
+need for formal harm-benefit analyses, particularly those that are stratified
+according to risk of serious COVID-19 outcomes. These analyses will require
+public release of participant level datasets.
+It is unsurprising that many hospitals around Australia are at or beyond
+capacity following the rollout of these jabs.
+1.27 We know from the most recent update regarding the Vaccine Claims Scheme 27
+that, as of August 31, 2023, 3,805 claims have been submitted, 199 claims have
+been approved, 1,252 claims have been deemed not payable, 729 claims have
+been withdrawn and 1,625 claims are in progress. The average claim is taking a
+massive 297 days to be paid, deemed not payable or be withdrawn. This is a
+very long wait for those injured by a novel product that they took in good faith
+at the recommendation of their government. Some individuals took these
+vaccines in response to a coercive vaccine mandate. The largest amount paid to
+a claimant has been $2.21 million and a total of $4.2 million has been paid as
+compensation for death.28
+25 COVID-19 Vaccination Status (Prevention of Discrimination) Bill 2022 and the Fair Work
+Amendment (Prohibiting COVID-19 Vaccine Discrimination) Bill 2023 Submission 4 (page 17)
+26 Fraiman et. al., Serious adverse events of special interest following mRNA COVID-19 vaccination
+in randomized trials in adults.
+27 Supplementary Budget Estimates – 25 October 2023 Answer to question on notice, SQ23-001034
+28 Supplementary Budget Estimates – 25 October 2023 Answer to question on notice, SQ23-001035
+40
+1.28 The COVID-19 Vaccine Claims Scheme has been widely criticised since its
+rollout29. For example:30 “Potential applicants and legal experts have criticised it
+as overly complex and difficult to access, since a medical professional is required
+to sign off on documentation linking the reaction to the vaccine, and only a small
+number of officially recognised side effects such as myocarditis are covered.”
+1.29 The Vaccine Claims Scheme is too limited in its scope. COVERSE stated in their
+submission31 that the claims scheme:
+“only provides compensation against a very short list of specified injuries
+attributed to specific brands of COVID-19 vaccines, as well as other arbitrary
+qualifying criteria. In other words, the scheme has been designed to exclude
+the vast majority of Australians who have been injured by a COVID-19
+vaccine.”
+1.30 The end date for the COVID-19 Vaccine Claims Scheme is currently scheduled
+for 17 April 2024 according to the Department of Health and Aged Care
+submission32, but their website states 30 September 202433. It is important to
+understand why the date has been brought forward or if this is an error.
+The power imbalance
+1.31 The Department of Health and Aged Care34 stated that:
+the Commonwealth only grants an indemnity where the benefits to the
+Commonwealth outweigh the risks.
+In the interests of transparency and accountability, the documentation used to
+justify their decision to grant indemnity should be publicly released for review
+by independent experts and the public.
+1.32 The Department of Health and Aged Care states35 “In this context, indemnities
+for use of vaccines can be a useful tool to allow the Commonwealth to
+29 https://www.smh.com.au/national/thousands-left-waiting-for-compensation-after-claims-of-
+covid-19-vaccine-injury-20230413-p5d03y.html;
+https://www.news.com.au/finance/economy/federal-budget/covid-vaccine-injury-payouts-
+explode-to-77-million-budget-reveals/news-story/df39fcf430c6cadb487a9914df7a3422
+30 https://www.news.com.au/national/the-major-problem-with-covid19-vaccine-compensation-
+claims/news-story/39b052c5ec6abd11ff933659d309a20f
+31 COVERSE, Submission 60, p. 4.
+32 Department of Health and Aged Care, Submission 59, p. 7.
+33 https://www.health.gov.au/our-work/covid-19-vaccine-claims-
+scheme#:~:text=Claims%20for%20compensation%20under%20the,lodged%20until%2030%20Septe
+mber%202024.
+34 Department of Health and Aged Care, Submission 59 - Supplementary Submission, p. 13.
+35 Department of Health and Aged Care, Submission 59 – Supplementary Submission, p. 6.
+41
+appropriately share risk with vaccine providers, who incur significant upfront
+costs in bringing a vaccine candidate to market.”
+When one party is indemnified, it does not appear to be a fair risk-sharing
+arrangement. It appears that the risk has been transferred from the vaccine
+provider to the Commonwealth.
+1.33 The Department of Health and Aged Care also advised36 that:
+the granting of indemnity to vaccine manufacturers is not a practice, which
+the Department seeks to offer voluntarily, nor are requests for indemnity
+entertained outside of emergency or pandemic situations.
+The Department has clearly stated that indemnity is not offered voluntarily. This
+implies that indemnity is demanded by vaccine manufacturers and sponsors as
+a condition of sale.
+1.34 In their submission to the committee,37 Moderna attempted to refute any
+assertion of coercive tactics, they emphasised that “matters of indemnities are
+solely the responsibility of the Commonwealth government.”
+1.35 It was noted by the authors of an article in the New England Journal of
+Medicine38, ‘Manufacturers won’t agree to procurement contracts or ship
+vaccine without liability protection’. The authors further stated:
+According to an AstraZeneca executive, for example, in the company’s
+bilateral contracts, it has been granted protection against legal claims arising
+from the use of its vaccine products, since it “cannot take the risk” of
+liability. As early as 2006, the International Federation of Pharmaceutical
+Manufacturers and Associations, the global pharmaceutical-industry
+lobbying group, publicly demanded that manufacturers be granted
+protection from lawsuits associated with vaccine-related adverse events if
+they were going to participate in pandemic responses.
+1.36 The Independent Review of COVID-19 Vaccine and Treatment Purchasing and
+Procurement39, which was released under FOI stated: “Early procurement of
+vaccines and treatments occurred in the context of uncertainty and a global
+vaccine shortage – a “sellers' market”. Agreement to conditions not usually
+included in ordinary procurement contracts was necessary to secure
+commitments to supply.”
+36 Department of Health and Aged Care, Submission 59, p. 9.
+37 Mr Stephen Kolano, Submission 5.
+38 NEJM, December 3, 2020, No-Fault Compensation for Vaccine Injury — The Other Side of Equitable
+Access to Covid-19 Vaccines | NEJM
+39 FOI 4049 – 4062 Review of COVID-19 Vaccine and Treatment Purchasing and Procurement
+(health.gov.au) (page 6)
+42
+1.37 COVERSE states in their submission40:
+By granting liability protections to vaccine manufacturers (including of
+mRNA vaccines), the government has created an industrial environment
+that favours profiteering by pharmaceutical companies over the
+advancement of new and safe innovative health products for the benefit of
+Australians.
+Innovation in health products demands that manufacturers are acutely
+concerned with the safety of new products and work hard to improve the
+safety profile of existing products.
+The legal threat of liability provides the necessary financial incentive to
+work towards those goals, and acts as a natural balance to profit motives
+that seek to downplay and ignore potential safety issues.
+By providing such companies with indemnities, the Australian Government
+is enabling pharmaceutical corporations to pursue “robber-baron” type
+behaviour at the expense of Australian citizens.
+1.38 The Department of Health and Aged Care said:41
+Where risk sharing is not possible, vaccine providers may seek to reflect the
+risk of loss in the price per dose, elect to not sell to the Australian
+Government, or may otherwise elect not to develop vaccine candidates at
+all.
+It is important to understand if negotiators discussed other terms of contracts
+before offering indemnity. E.g. has a higher price been offered in exchange for
+no indemnity?
+1.39 Pfizer has been accused of holding Brazil to ransom, over demands to shield
+itself from COVID-19 vaccine side-effect lawsuits.42 It is understood that Pfizer
+asked the South African government to put up sovereign assets guaranteeing an
+indemnity against the cost of any future legal cases.43 Latin American countries
+were asked by Pfizer to put up federal bank reserves, embassy buildings or
+military bases as a guarantee against the cost of future legal cases stemming
+from unlikely adverse effects.44 One needs to ask why they would request such
+significant collateral? Was Australia required to provide sovereign assets as
+security?
+1.40 Alarmingly, an international precedent was set, in accordance with guidance
+from the COVAX facility, requiring that all 172 member states, including
+40 COVERSE, Submission 60, p. 3.
+41 Department of Health and Aged Care, Submission 59.1 - Supplementary Submission, p. 6.
+42 https://www.theguardian.com/global-development/2021/sep/10/pfizer-accused-of-holding-brazil-
+to-ransom-over-vaccine-contract-demands
+43 https://www.thebureauinvestigates.com/stories/2021-04-19/pfizer-backs-down-over-asset-seizing-
+clause-in-south-africa-vaccine-deal/
+44 https://www.aljazeera.com/news/2021/3/11/investigation-pfizer-bullied-latin-american-nations
+43
+Australia, who received vaccines through the COVAX Facility indemnify
+manufacturers. 45 The international precedent appears to reinforce the belief that
+collusion occurred amongst pharmaceutical companies on a global scale. This is
+concerning and reinforces the need for Australia to thoroughly review the
+World Health Organisation’s 300+ amendments to International Health
+Regulations to ensure that sovereignty and autonomy are maintained.46
+1.41 It has been found that 47 “COVID-19 vaccine manufacturers’ indemnification
+demands constitute state capture in many low to middle income countries
+(LMICs) though not in high-income countries; this has enhanced global COVID-
+19 vaccine inequities. Results underscore the need to find alternatives to
+financial indemnification that do not hinder critical efforts to end the
+pandemic.”
+Unanswered questions and economic impacts
+1.42 The Department of Health and Aged Care also stated in their submission that
+“The Finance Minister has only granted an indemnity to a vaccine manufacturer
+in preparation for, or in response to, emergency and/or pandemic situations”.
+1.43 On 20 October 2023, the Chief Medical Officer, Professor Paul Kelly declared
+that COVID-19 is no longer a Communicable Disease Incident of National
+Significance (CDINS)48. It is important to understand if indemnification of
+existing COVID-19 vaccines continues beyond that date.
+1.44 On 20 November 2023, ATAGI provided a statement which announced TGA
+approval of the Moderna and Pfizer monovalent Omicron XBB.1.5 COVID-19
+vaccines49. It is important to understand if pharmaceutical companies continue
+to be indemnified for products which were approved and administered outside
+of an emergency or pandemic situation.
+45 https://www.gavi.org/covax-facility
+46 Proposed amendments to the International Health Regulations (2005) submitted in accordance with
+decision WHA75(9) (2022) https://apps.who.int/gb/wgihr/pdf_files/wgihr2/A_WGIHR2_6-en.pdf
+47 Gorodensky, A., Kohler, J.C. State capture through indemnification demands? Effects on equity in
+the global distribution of COVID-19 vaccines. J of Pharm Policy and Pract 15, 50 (2022).
+https://doi.org/10.1186/s40545-022-00442-y
+48 Professor Paul Kelly, 20 October 2023, End of COVID-19 emergency response | Australian
+Government Department of Health and Aged Care
+49 ATAGI, Monovalent announcement, 20th November 2023, ATAGI recommendations on use of the
+Moderna and Pfizer monovalent Omicron XBB.1.5 COVID-19 vaccines | Australian Government
+Department of Health and Aged Care
+44
+1.45 The Department of Health Annual Report50 for 2021-22 states regarding vaccines
+that:
+under certain conditions the Australian Government has provided an
+indemnity for the supply of certain vaccines to the suppliers of the vaccines.
+The contracts under which contingent liability is recognised will expire
+across a range of dates to 2036.
+This is another clear example of obscure statement being made regarding
+indemnity with no real detail or clarity. If contract terms remain out of sight,
+there will be a lack of clarity and a lingering cynicism amongst the Australian
+people.
+1.46 Australians for Science and Freedom stated in their submission51:
+Because the free gift of product indemnity will be handed over in the future
+as negative side effects develop, its size cannot be estimated in advance
+unless rigorous, independently validated, long-run, high-sample-size
+studies are conducted in advance of product rollout. Even then, the estimate
+of the size of the gift is just that: an estimate. Product indemnity is an
+unfunded contingent liability of unknown size that falls on the shoulders of
+Australians to finance.
+1.47 Federal budget paper number 152 refers to indemnities for specialised external
+advisers during the COVID-19 pandemic. It states that:
+“The Government has provided indemnities for certain specialised external
+advisers engaged to provide advice on emerging markets issues related to
+COVID-19. Indemnities were provided to mitigate personal risk and
+provide coverage for costs related to any legal proceedings that may arise in
+relation to the provision of that advice. The indemnities apply for the period
+of engagement as advisers and for claims that are notified within 12 years
+after cessation of the adviser’s engagement. Until the indemnity agreements
+are varied or expire, they will remain as contingent and unquantifiable
+liabilities”.
+It is unknown how many external advisers were indemnified and for what
+purpose. We do not know what role they had in vaccine procurement. This
+should be disclosed publicly along with any conflicts of interest.
+1.48 There have been multiple attempts via the courts by victims who are seeking
+compensation for injuries caused by indemnified vaccines. One example of
+current litigation is a class action filed by NR Barbi Solicitor P/L53. The potential
+cost to the Commonwealth if the claimant is successful cannot be quantified.
+50 Department of Health Annual Report 2021–22 | Australian Government Department of Health and
+Aged Care
+51 Australians for Science and Freedom, Submission 65, p. 4.
+52 Budget Paper No. 1 | Budget 2023–24
+53 https://www.covidvaxclassaction.com.au/
+45
+1.49 Australians for Science and Freedom aptly stated that54
+“medical innovation is implicitly suppressed in any areas not privileged by
+government regulation. For this reason, handing vaccine manufacturers
+product indemnity should be seen as equivalent to throwing cold water on
+the developers of future simple supplements, behavioural protocols,
+pharmaceutical medicines, architectural designs, or other prevention and
+treatment options that may hold far more potential to fight infection and
+symptoms of disease than vaccines.”
+International examples
+1.50 We know that not all countries gave in to indemnification requests by
+pharmaceutical companies for COVID-19 vaccines.
+1.51 According to media reports, India has not provided any contractual indemnities
+to COVID-19 vaccine manufacturers, which appear to have stalled negotiations
+with Moderna and Pfizer:
+The "indemnity clause" is reportedly one of the main reasons why the two
+vaccine manufacturers have stayed out of India.55
+1.52 It appears that India has continued to maintain its position and has not provided
+indemnities to COVID-19 vaccine manufacturers.56 Union minister Rajeev
+Chandrashekhar shared on his Twitter account a video of Pfizer CEO Albert
+Bourla. Sharing the video, the minister said, "Just to remind all Indians, that
+Pfizer tried to bully Govt of India into accepting conditions of indemnity”.
+1.53 India turned its back on the vaccine and decided to use other safe and effective
+early treatments, using inexpensive repurposed medication. The State of Uttar
+Pradesh in Northern India introduced Ivermectin as prophylaxis for close
+contacts of Covid patients, health workers as well as for the treatment of the
+patients themselves through a government order on 6 August 2020.
+1.54 Following a High Court ruling57, the Republic of South Africa’s COVID-19
+vaccine contracts have been released publicly. There are many concerning
+details within the Pfizer Laboratories P/L contract which include:
+5.5: Purchaser Acknowledgement:
+“Purchaser acknowledges that the Vaccine and materials related to the
+vaccine, and their components are constituent materials are being rapidly
+developed due to the emergency circumstances of the COVID-19 pandemic
+and will continue to be studied after provision of the Vaccine to the
+54 Australians for Science and Freedom, Submission 65, p. 8.
+55. FP Staff, ‘What the indemnity clause is and how its waiver will accelerate arrival of COVID-19
+vaccines in India’, Firstpost, 20 July 2021.
+56 Raajnandini Mukherjee, ‘BJP minister attacks Congress for backing vaccines, Jairam Ramesh says
+‘bullshit’’, India Today, 20 January 2023.
+57 Pandemic Transparency - Health Justice Initiative (HJI)
+46
+Purchaser under this Agreement. Purchaser further acknowledges that the
+long-term effects and efficacy of the Vaccine are not currently known and
+that there may be adverse effects of the Vaccine that are not currently
+known. Further, to the extent applicable, Purchaser acknowledges that the
+Product shall not be serialized”.
+6.5 (b): Effect of Termination:
+“The termination or expiration of this Agreement shall not affect the
+survival and continuing validity of Sections 1, 2.1(b)-(d), 2.6, 2.7 (b-e), 2.8,
+3.1, 3.3, 3.4, 4.4, 4.5, 4.6, 4.7, 5.4, 5.5, 6.2 (final sentence), 6.5, 7, 8, 9.2, 9.3, 9.4,
+9.5, 9.6, 10, 11, 12 or any other provision which is expressly or by implication
+intended to continue in force after such termination or expiration.
+8: Indemnification
+8.1. Indemnification by Purchaser. Purchaser hereby agrees to indemnify, defend and
+hold harmless Pfizer, BioNTech, each of their Affiliates, contractors, sub-contractors,
+licensors, licensees, sub-licensees, distributors, contract manufacturers, services
+providers, clinical trial researchers, third parties to whom Pfizer or BioNTech or any of
+their respective Affiliates may directly or indirectly owe an indemnity based on the
+research, development, manufacture, distribution, commercialization or use of the
+Vaccine, and each of the officers, directors, employees and other agents or
+representatives, and the respective predecessors, successors and assigns of any of the
+foregoing (“Indemnitees”), from and against any and all suits, claims, actions,
+demands, losses, damages, liabilities, settlements, penalties, fines, costs and expenses
+(including, without limitation, reasonable attorneys’ and other counsels’ fees and other
+expenses of an investigation or litigation), whether sounding in contract, tort (delict),
+intellectual property, or any other theory, and whether legal, statutory, equitable or
+otherwise by any natural or legal person (collectively, “Losses”) caused by, arising out
+of, relating to, or resulting from the Vaccine, including but not limited to any stage of
+design, development, investigation, formulation, testing, clinical testing, manufacture,
+labelling, packaging, transport, storage, distribution, marketing, promotion, sale,
+purchase, licensing, donation, dispensing, prescribing, administration, provision or
+use of the Vaccine, any information, instructions, advice or guidance provided by
+Pfizer, or BioNTech or any of their respective Affiliates and relating to use of the
+Vaccine, or any processing or transfer of anyone’s personal information processed and
+transferred by Purchaser to the Indemnitees (“Covered Activities”).
+9.3 Excluded liability
+Nothing in this Agreement excludes or limits the liability of either Party for:
+(i) Fraud or fraudulent misrepresentation
+(ii) Any breach of section 10 (Confidential Information)
+(iii) In the case of Purchaser, the indemnity given it under Section 8
+(indemnification); or
+(iv) In the case of the Purchaser, failure to pay the Price for the Product or
+any other sums properly owing to Pfizer under this agreement.
+1.55 If contract terms similar to the South African agreement were included in the
+Australian contracts, they should never have been entered into.
+47
+1.56 COVERSE58 referred to two countries that are worth mentioning for their
+approaches towards recognising and compensating COVID-19 vaccine injuries:
+Thailand and South Korea. They said:
+In both countries, the number of people who have been compensated
+demonstrates a level of acceptance and compassion not found in many other
+jurisdictions (including Australia and the USA). There are fewer limitations
+on the types of reactions eligible for compensation (as it is widely
+acknowledged that vaccines can precipitate a large and diverse range of
+serious reactions, though each type of reaction might only occur in a very
+small number of people).
+Recently, South Korea even extended its scheme to provide a commiseration
+payment to families of citizens who had died within 90 days of having a
+COVID-19 vaccine, regardless of proven causality.
+While such schemes may end up delivering payments to people who have
+suffered health conditions unrelated to their vaccinations, the approaches
+taken ensure that the number of genuine cases who slip through the cracks
+will be minimised, and the government conveys a very strong message to
+the public that they will be taken care of if their vaccinations cause harms.
+Despite compensating significantly more people than many other programs,
+it is worth noting that both of these programs maintain capped
+compensation payments, meaning that a number of people with extremely
+serious and ongoing medical conditions will not be adequately provided for,
+which again demonstrates the limitation of government programs.
+1.57 Submission 59 by the Department of Health and Aged Care challenges the
+assertion that indemnities have become commonplace. The very same
+submission59 by the Department provides two pages (page 14 and 15) of
+products and manufacturers which have been indemnified over the past 10
+years. The definition of ‘commonplace’ is open to interpretation, but what can
+be confirmed is that indemnity has been granted multiple times.
+1.58 The Department of Health and Aged Care’s original submission60 refers to
+Moderna’s onshore mRNA Manufacturing Agreement. It states that:
+The Commonwealth has entered into a strategic partnership with Moderna
+to establish domestic mRNA vaccine manufacturing capacity and capability
+in Australia. Under the agreement between the Commonwealth and
+Moderna, the Commonwealth may enter into a pandemic vaccine advance
+purchase agreement (PVAPA) with Moderna for locally manufactured
+mRNA vaccines in certain circumstances where an infectious disease
+pandemic is declared. Moderna will also have the capacity to supply the
+Commonwealth with non-pandemic vaccines through a non-pandemic
+vaccine supply agreement (NPSA).
+58 COVERSE, Submission 60, p. 5.
+59 Department of Health and Aged Care, Submission 59.1 - Supplementary Submission.
+60 Department of Health and Aged Care, Submission 59.
+48
+The submission confirms that the Commonwealth has provided indemnities to
+Moderna under the arrangements to cover ‘certain liabilities’. It is important to
+understand if the indemnity granted to Moderna will only apply in case of
+emergency, considering their capacity to supply the Commonwealth with non-
+pandemic vaccines via a NPSA.
+1.59 Australian Medical Professional Society proposed61 that any indemnified
+provisional vaccine should be part of the Black Triangle scheme. The scheme is
+designed to improve the rate of reporting by reminding health professionals and
+consumers to report suspected adverse events related to new medicines, or
+those being used in new ways.
+Recommendations
+Recommendation 1
+1.60 The Senate should pass this bill.
+1.61 There is strong public support, with more than 97% of submissions supporting
+the passage of the bill. As evidenced in the small number of negative
+submissions the government and bureaucracy are clearly out of touch with the
+public and many subject matter experts.
+1.62 The denial of public hearings has impacted the committee’s findings and has
+silenced many witnesses who have personally and professionally been impacted
+by indemnification.
+Recommendation 2
+1.63 The public release of all contracts containing indemnity clauses is necessary to
+retain and rebuild the trust of the Australian people.
+1.64 Communication between the minister and the delegate should be publicly
+disclosed to ensure there is no political pressure applied in cases of indemnity.
+1.65 Existing contracts that contain indemnity clauses should be audited to ensure
+compliance with the act.
+Recommendation 3
+1.66 The COVID-19 vaccine claims scheme is not fit for purpose and has left many
+injured Australians without sufficient compensation. The government must
+extend and amend the compensation program to make it easier for victims of
+vaccine injuries to be compensated. The re-design should be led by feedback
+from those who have been personally impacted.
+61 Australian Medical Professionals' Society, Submission 62, p, 6.
+49
+Recommendation 4
+1.67 Vaccine mandates must be prohibited, especially when enforced in conjunction
+with a novel product that has been indemnified.
+Senator Ralph Babet
+United Australia Party
+Senator for Victoria
+
+Appendix 1
+Submissions
+1 Ms Maureen Wildes
+2 Mr Simon Shields
+3 Ms Julie Vincent
+4 Mrs Marie Klarich
+5 Mr Stephen Kolano
+6 Mr Neil Skilbeck
+7 Ms Penny Barron
+8 Mr Glenn Wormald
+9 Mr Greg Ooi
+10 Mr Elliott Gwynne
+11 Mrs Christiena Ennis
+12 Mr Ken Helsby
+13 Mr Ty Lackmann
+14 Mr James Williams
+15 Mr Michael Gorman
+16 Mr Alan Currie
+17 Mr Darin Ryan
+18 Ms Barb Mason
+19 Ms Karen Quinn
+20 Mr Wade Cox
+21 Mr James McKellar
+22 Mr David Spong
+23 Mr Timothy Gudex
+24 Mr James Ellerman
+25 Miss Alex Scott
+26 Dr David James
+27 Ms Theresa Martin
+28 Ms Margaret Fairley
+29 Mr Ariel Casanova
+30 Mr Glen Hodgkiss
+31 Ms Barbara Humphreys
+32 Mrs Evelyne Clark
+33 Dr Phillip Altman
+34 Ms Susan Craig
+35 Mrs Linda Roberts
+36 Mr Roger Skelsey
+37 Ms Lyra Gattino
+38 Ms Claudia Snieders
+39 Mrs Lourdes Wyatt
+51
+52
+40 Mrs Christine Lehmann
+41 Mr Nicholas Hansen
+42 Mrs Renae Schmidt
+43 Mr Kon Zagoritis
+44 Mrs Christine Boyce
+45 Mr Murray Fleming
+46 Dr Melissa McCann
+47 Mr Stephen Balogh
+48 Mr Stephen Crothers
+49 WA Department of Health
+50 Immunisation Foundation of Australia
+51 Mr Brendan O'Donnell
+52 Ms Adrina Chia
+53 Ms Angela Kelly
+54 Mr Ken Grundy
+55 Mrs Sharon Ezzy
+56 Mr Alan Gray
+57 Mr Leo Leung
+58 Moderna
+59 Department of Health and Aged Care
+ 59.1 Supplementary to submission 59
+60 COVERSE
+61 Australian Medical Association
+62 Australian Medical Professionals' Society
+63 Mrs Julia Capon
+64 Mrs Debra Yuille
+65 Australians for Science and Freedom
+66 Sample of survey responses
+67 Mr Stephen English
+68 Mr David Campbell
+69 Ms Julie Urban
+70 Mr Lex Stewart
+71 Ms Maria Wong
+72 Medicines Australia
+73 Ms Stephanie Eaton
+74 Mr Tony Munroe
+75 Mrs Cecilia Ford
+76 Name Withheld
+77 Name Withheld
+78 Name Withheld
+79 Name Withheld
+80 Name Withheld
+81 Name Withheld
+53
+82 Name Withheld
+83 Name Withheld
+84 Name Withheld
+85 Name Withheld
+86 Name Withheld
+87 Name Withheld
+88 Name Withheld
+89 Name Withheld
+90 Name Withheld
+91 Name Withheld
+92 Name Withheld
+93 Name Withheld
+94 Name Withheld
+95 Name Withheld
+96 Name Withheld
+97 Name Withheld
+98 Confidential
+99 Confidential
+100 Confidential
+101 Confidential

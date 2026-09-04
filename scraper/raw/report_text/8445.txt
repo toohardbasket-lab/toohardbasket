@@ -1,0 +1,1929 @@
+The Senate
+Environment and
+Communications Legislation
+Committee
+Online Safety Amendment (Social Media
+Minimum Age) Bill 2024 [Provisions]
+November 2024
+© Commonwealth of Australia 2024
+ISBN 978-1-76093-760-7 (Printed version)
+ISBN 978-1-76093-760-7 (HTML version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by the Senate Printing Unit, Parliament House, Canberra
+Members
+Chair
+Senator Karen Grogan ALP, SA
+Deputy Chair
+Senator Sarah Hanson-Young AG, SA
+Members
+Senator Catryna Bilyk ALP, TAS
+Senator Ross Cadell NATS, NSW
+Senator Lisa Darmanin ALP, VIC
+Senator Dave Sharma LP, NSW
+Participating Members
+Senator the Hon Matthew Canavan NATS, QLD
+Senator the Hon Sarah Henderson LP, VIC
+Senator Maria Kovacic LP, NSW
+Senator Jacqui Lambie JLN, TAS
+Senator Matt O’Sullivan LP, WA
+Senator David Pocock IND, ACT
+Senator Gerard Rennick IND, QLD
+Senator Malcolm Roberts PHON, QLD
+Secretariat
+Aleshia Westgate, Acting Committee Secretary
+Patrick Hodder, Committee Secretary
+Azrianne Rahman, Principal Research Officer
+Meghan Olsen, Graduate
+James Blair, Research Officer
+Teagan Monaghan, Administrative Officer
+Thea Armstrong, Administrative Officer
+Diya Mehta, Administrative Officer
+PO Box 2600 Telephone: 02 6277 3526
+Parliament House Email: ec.sen@aph.gov.au
+Canberra ACT 2600 Website: www.aph.gov.au/senate ec
+iii
+
+Contents
+Members ............................................................................................................................................. iii
+Chair's Foreword .............................................................................................................................. vii
+List of recommendations .................................................................................................................. ix
+Chapter 1—Introduction .................................................................................................................... 1
+Conduct of the inquiry ........................................................................................................................ 1
+Structure of the report ......................................................................................................................... 1
+Acknowledgements ............................................................................................................................. 1
+Financial impact statement ................................................................................................................. 1
+Scrutiny of Bills Committee examination ......................................................................................... 1
+Human rights compatibility ............................................................................................................... 2
+Overview of the bill ............................................................................................................................. 2
+Purpose of the bill ..................................................................................................................... 2
+Background to the bill .............................................................................................................. 2
+Current minimum age of access ............................................................................................. 4
+Provisions of the bill ............................................................................................................................ 4
+Reasonable steps ....................................................................................................................... 4
+Age-restricted social media platform ..................................................................................... 5
+Regulatory instruments ................................................................................................ 5
+Regulated activity .......................................................................................................... 6
+Penalties ..................................................................................................................................... 6
+Privacy protections ................................................................................................................... 8
+Deferred commencement ......................................................................................................... 8
+Review ........................................................................................................................................ 8
+Age assurance trial ............................................................................................................................... 9
+Consultation .......................................................................................................................................... 9
+Chapter 2—Views on the bill.......................................................................................................... 11
+Introduction ........................................................................................................................................ 11
+Support for the minimum age access to social media................................................................... 11
+Mental health and behavioural harms from social media use ......................................... 12
+The bill would empower parents and reduce the burden on them ................................. 14
+v
+Opposition to the bill ......................................................................................................................... 16
+Bill does not appropriately reflect expert evidence ................................................ 16
+Safety risks: children’s social media use will become more hidden and secret . 17
+Implications for children’s rights .............................................................................. 18
+Importance of social media in education and social causes .................................. 20
+Delegation of power to the minister ......................................................................... 21
+Digital Duty of Care ............................................................................................................... 22
+Privacy and security risks ...................................................................................................... 22
+Age assurance technology .................................................................................................... 24
+Digital ID .................................................................................................................................. 25
+The need for greater consultation with children and young people .............................. 26
+Committee view ................................................................................................................................. 26
+Dissenting Report from Senator the Hon Matt Canavan .......................................................... 31
+Australian Greens' Dissenting Report .......................................................................................... 39
+Additional Comments from Senator David Pocock ................................................................... 43
+Appendix 1—Submissions and additional Information ........................................................... 47
+Appendix 2—Public Hearings and Witnesses ............................................................................. 51
+vi
+Chair's Foreword
+Social media offers young Australians opportunities for connection, learning, and
+creativity, but it is also a space fraught with risk. In an era where social media is as
+integral to daily life as the telephone or television once was, we must ask whether
+the environment it creates is fit for our most vulnerable citizens: our children and
+young people. Alarmingly, almost two-thirds of 14- to 17-year-olds report
+encountering extremely harmful content, including drug abuse, suicide or self-harm,
+as well as violent material, and a quarter have been exposed to material that
+promotes unsafe eating habits.1 These statistics are not just numbers; they represent
+young lives affected in ways that can have enduring consequences.
+Parents are at the frontline of these challenges. Research conducted by the eSafety
+Commissioner shows that 95 per cent of Australian caregivers consider online safety
+one of the hardest parts of parenting today.2 The committee heard about the anxiety
+and even despair experienced by parents. Parents have describing feelings of being
+overwhelmed and unsure how to protect their children in a digital world evolving
+faster than most can comprehend. Their voices demand our attention and action.
+The Online Safety Amendment (Social Media Minimum Age) Bill 2024 will amend
+the Online Safety Act 2021 by introducing a minimum age of 16 to have an account on
+age-restricted social media platforms, protecting young Australians at a critical stage
+of their development. It reflects the Australian Government’s commitment to
+holding platforms accountable for the safety of their users, particularly our young
+people.
+The evidence presented to this inquiry, including findings from the eSafety
+Commissioner, is clear: there is no robust evidence that social media is safe for
+children under 16, and significant data points to the harms it can cause. Adolescence
+is a time of critical development, and the fact that social media introduces or
+increases risks of harm from cyberbullying, sextortion, predatory behaviours,
+misogynism and concentration difficulties must be addressed.
+The committee also heard about the undeniable benefits of digital engagement and,
+indeed, the fact that not every interaction with social media is harmful. This bill aims
+to balance this with the need to mitigate the clear harms.
+1 eSafety Commissioner, Mind the Gap, February 2022, pp. 69–70.
+2 Explanatory Memorandum, p. 2.
+vii
+The Senate Inquiry process, though brief, was targeted and brought together a
+diversity of perspectives. It has also leveraged the work of other inquiries such as
+that of the Joint Select Committee on Social Media and Australian Society.
+Finally, I want to acknowledge the broader societal task we face. Legislation is a
+necessary tool, but it is not a panacea. Addressing the complex intersection of
+technology, development, and wellbeing requires ongoing collaboration between
+government, industry, families, and young people themselves.
+To that end, I wish to highlight the need to meaningfully engage with young people
+themselves through the implementation of the bill. Young people, and in particular
+diverse cohorts, must be at the centre of the conversation as an age restriction is
+implemented to ensure there are constructive pathways for connection.
+This bill is not just about regulating platforms; it is about the safety and flourishing
+of Australia’s children and adolescents. I urge my Senate colleagues as well as the
+industry to work constructively with the Government to ensure the wellbeing of
+future generations.
+viii
+List of recommendations
+Recommendation 1
+2.105 The committee recommends that the Australian Government legislate a
+Digital Duty of Care to place a legal obligation on digital platforms to take
+proactive steps to protect their users.
+Recommendation 2
+2.106 The committee recommends that the Australian Government meaningfully
+engage young people in the implementation of the legislation.
+Recommendation 3
+2.107 The committee recommends that the Minister for Communications provide a
+progress report to the Parliament on the age assurance trial by no later than 30
+September 2025.
+Recommendation 4
+2.108 The committee recommends that the bill be amended to prohibit providers of
+age restricted platforms from compelling a person to use an accredited service
+within the meaning of section 9 of the Digital ID Act 2024, or other
+government ID such as passports, and must set out alternative methods for
+assuring age as reasonable steps with consideration given to the age assurance
+trial.
+Recommendation 5
+2.109 The committee recommends that the Minister for Communications provide a
+commitment to setting the implementation date within 12 months, not later.
+Recommendation 6
+2.110 The committee recommends that there be appropriate consultation on all rule
+making associated with the bill.
+Recommendation 7
+2.111 The committee recommends that the Australian Government amend the
+review period for the legislation such that an independent review of the
+proposed new Part 4A of the Online Safety Act 2021 is conducted within
+18 months of the minimum age obligation taking effect.
+ix
+Recommendation 8
+2.112 The committee recommends that the bill be amended to enable the Minister
+for Communications to have review power over any ‘reasonable step’ rules
+determined by the eSafety Commissioner.
+Recommendation 9
+2.113 Subject to consideration of the above recommendations, the committee
+recommends that the bill be passed.
+x
+Chapter 1
+Introduction
+1.1 On 21 November 2024, the Senate referred the provisions of the Online Safety
+Amendment (Social Media Minimum Age) Bill 2024 (the bill) to the
+Environment and Communications Legislation Committee (the committee) for
+inquiry and report by 26 November 2024.1
+Conduct of the inquiry
+1.2 In accordance with its usual practice, the committee advertised the inquiry on
+its website and invited submissions by 22 November 2024.
+1.3 The committee published 107 submissions from organisations and individuals,
+which are listed in Appendix 1 and available on the committee's website.
+1.4 A public hearing was held on 25 November 2024 in Canberra. A list of witnesses
+who gave evidence at the hearing is available in Appendix 2.
+Structure of the report
+1.5 Chapter 1 outlines the context for the bill and conduct of the inquiry.
+1.6 Chapter 2 sets out the key provisions of the bill. It summarises the perspectives
+on the bill and contains the committee views and recommendations.
+Acknowledgements
+1.7 The committee thanks the organisations and individuals who made submissions
+to this inquiry, particularly given the tight timeframe.
+Financial impact statement
+1.8 The Explanatory Memorandum (EM) stated that the measures in the bill are
+expected to have a minor financial impact on Commonwealth expenditure and
+will primarily require funding for the Department of Infrastructure, Transport,
+Regional Development, Communications and the Arts (DITRDCA) and the
+Office of the eSafety Commissioner (eSafety Commissioner).2
+Scrutiny of Bills Committee examination
+1.9 At the time of writing, the bill has not been considered by the Senate Standing
+Committee for the Scrutiny of Bills.
+1 Journals of the Senate, No. 142, 21 November 2024, p. 4321.
+2 Explanatory Memorandum, p. 7.
+1
+2
+Human rights compatibility
+1.10 The EM to the bill stated that the bill is compatible with the human rights and
+freedoms recognised or declared in the international instruments listed in
+section 3 of the Human Rights (Parliamentary Scrutiny) Act 2011.3 The full
+statements regarding compatibility with human rights can be found attached to
+the explanatory memorandum for the bill.
+1.11 At the time of writing, the Parliamentary Joint Committee on Human Rights had
+made no comment on the bill.
+Overview of the bill
+Purpose of the bill
+1.12 The bill would amend the Online Safety Act 2021 (Online Safety Act) with the
+aim of establishing a minimum age for social media use and placing
+responsibility on social media platforms for the safety of their users.4
+1.13 The aim of the bill is to ‘help to mitigate the risks arising from harmful features
+that are largely associated with user accounts, or the ‘logged-in’ state, such as
+persistent notifications and alerts which have been found to have a negative
+impact on sleep, stress levels, and attention’.5
+1.14 In this regard, the bill would set clear parameters similar to ‘other age-based
+laws that seek to limit or minimise access to known harms, such as for the sale
+of alcohol and cigarettes’.6
+1.15 However, the bill also has mechanisms to ensure ‘that users under the minimum
+age retain access to platforms that predominately provide beneficial
+experiences, such as those that are grounded in connection, education, health
+and support’.7
+Background to the bill
+1.16 Social media is ubiquitous in the modern world. The technology and associated
+digital spaces have and will continue to rapidly alter how we communicate,
+socialise, and gain access to news and information. While the benefits of social
+3 Explanatory Memorandum, pp. 9–16.
+4 Explanatory Memorandum, p. 1.
+5 Explanatory Memorandum, p. 4.
+6 Explanatory Memorandum, p. 3.
+7 Explanatory Memorandum, p. 3.
+3
+media are many and integral to life today’s world, social media is also home to
+harmful content and products.8
+1.17 The EM stated that the use of social media by young people is a complex issue,
+as:
+ no two children’s experiences on social media are the same;
+ social media services vary greatly in their primary purpose and design
+features, and therefore present a different level of risk to end-users; and
+ children also vary substantially in how they use social media, including
+which platforms they access, the content and communities they engage in,
+and the digital features they are exposed to.9
+1.18 A recent survey conducted by the eSafety Commissioner found that 95 per cent
+of caregivers reported that ‘children’s online safety is the hardest parenting
+challenge they face’.10
+1.19 And yet, as stated in the EM, the current business model of social media
+companies creates an incentive for them to maximise user engagement with, and
+time spent on, their platforms.11
+1.20 Indeed, the recent final report of the Joint Select Committee on Social Media and
+Australian Society tabled on 18 November 2024 found that in Australia,
+approximately 81 per cent of the total population were active users of social
+media in 2023:
+Significant amounts of time each month are spent by users on social media
+platforms such as Facebook, Instagram, and TikTok, for social connection,
+communication, entertainment, news, and information.12
+1.21 Further, that report stated that social media companies do whatever they can to
+stop users from logging off by using ‘opaque algorithms that keep users
+scrolling, continuously feeding them what they think they want to see, even if
+it's harmful’.13
+1.22 These matters appear to be particularly problematic for users under 15 years of
+age:
+8 Joint Select Committee on Social Media and Australian Society, Chair’s Foreword, Final report,
+18 November 2024, pp. ix–x; The bill, EM, p. 3.
+9 Explanatory Memorandum, p. 1.
+10 Explanatory Memorandum, p. 2.
+11 Explanatory Memorandum, p. 1.
+12 Joint Select Committee on Social Media and Australian Society, Chair’s Foreword, Final report,
+18 November 2024, p. ix.
+13 Joint Select Committee on Social Media and Australian Society, Chair’s Foreword, Final report,
+18 November 2024, p. ix.
+4
+A United Kingdom (UK) study published in 2022, which examined
+longitudinal data from more than 17 400 participants, found that adolescent
+social media use is predictive of a subsequent decrease in life satisfaction for
+certain developmental stages including for girls aged 11 to 13 years old and
+boys 14 to 15 years old.14
+Current minimum age of access
+1.23 The current minimum age of access under the Terms of Service of all major social
+media services is 13 years. This stems from the 1998 decision by the United States
+(US) Congress in the Children’s Online Privacy Protection Act, which prohibits
+websites from collecting information on children younger than 13 years without
+consent.15
+Provisions of the bill
+1.24 This section sets out an overview of the key provisions of the bill.
+Reasonable steps
+1.25 The bill would introduce ‘an obligation on providers of an age-restricted social
+media platform to take reasonable steps to prevent age restricted users from
+having an account with the platform’.16
+1.26 The bill would put the onus ‘on platforms to introduce systems and processes
+that can be demonstrated to ensure that people under the minimum age cannot
+create and hold a social media account’.17
+1.27 The EM states that age-restricted social media platforms must be able to
+demonstrate having taken reasonable steps to prevent age-restricted users from
+‘having an account’.18
+1.28 While the bill does not dictate how platforms must comply with the minimum
+age obligation, the EM does set out provide some expectations:
+…it is expected that at a minimum, the obligation will require platforms to
+implement some form of age assurance, as a means of identifying whether
+a prospective or existing account holder is an Australian child under the age
+of 16 years. Whether an age assurance methodology meets the ‘reasonable
+steps’ test is to be determined objectively, having regard to the suite of
+methods available, their relative efficacy, costs associated with their
+14 Explanatory Memorandum, pp. 1–2.
+15 Explanatory Memorandum, p. 1.
+16 Explanatory Memorandum, p. 2.
+17 Explanatory Memorandum, p. 2.
+18 Explanatory Memorandum, p. 4.
+5
+implementation, and data and privacy implications on users, amongst other
+things.19
+1.29 The EM also advises that the outcomes of the Australian Government’s age
+assurance trial ‘are likely to be instructive for regulated entities and will form
+the basis of regulatory guidance issued by the Commissioner, in the first
+instance’.20
+1.30 Further, the EM notes that ‘reasonable steps’ is a standard that has been imposed
+for the purpose of demonstrating compliance and features in national security
+legislation, privacy law, and elsewhere in the Online Safety Act.21
+Age-restricted social media platform
+1.31 The bill introduces a new term to the Online Safety Act, ‘age-restricted social
+media platform’.22
+1.32 The EM notes that the definition of this term largely draws on the existing
+meaning of ‘social media service’ in section 13 of the Online Safety Act.
+However, the bill would expand the ‘sole or primary purpose’ test to a
+‘significant purpose’ test when examining whether a service enables online
+social interactions between 2 or more users.23
+1.33 The EM also notes that this definition will not apply to other parts of the Online
+Safety Act, with the existing definition in section 13 remaining in effect.24
+Regulatory instruments
+1.34 The bill provides flexibility to reduce the scope or further target the definition.
+This flexibility would occur through delegated legislation in the form of
+disallowable legislative rules made by the Minister for Communications.25
+1.35 In exercising the rule-making power, the Minister will be required to seek and
+have regard to advice from the eSafety Commissioner and may also seek advice
+from other relevant Commonwealth agencies.26
+1.36 Rule-making powers are also available to:
+19 Explanatory Memorandum, p. 3.
+20 Explanatory Memorandum, p. 3.
+21 Explanatory Memorandum, p. 4.
+22 Explanatory Memorandum, p. 3.
+23 Explanatory Memorandum, p. 3.
+24 Explanatory Memorandum, p. 3.
+25 Explanatory Memorandum, p. 3.
+26 Explanatory Memorandum, p. 3.
+6
+ provide additional conditions that must be met in order to fall within the
+definition of age-restricted social media platform; and
+ respond to emerging technologies and services that are relevant to be
+considered or captured by the definition.27
+1.37 The EM advises that the Government proposes to make legislative rules to
+exclude the following services from the definition of age-restricted social media
+platforms before the minimum age obligation becomes law:
+ messaging apps
+ online gaming services
+ services with the primary purpose of supporting the health and education
+of end-users.28
+Regulated activity
+1.38 The EM states that regulating the act of having an account would ‘prevent age-
+restricted users from accessing the content and features that are available to
+signed-in account holders on social media platforms’.29
+1.39 The EM states that the obligation would not affect user access to ‘logged-out’
+versions of a social media platform and provided the following examples:
+ …the obligation would not affect the current practice of users viewing
+content on YouTube without first signing into an account; and
+ similarly, Facebook offers users the ability to view some content, such as the
+landing page of a business or service that uses social media as their business
+host platform, without logging in.30
+Penalties
+1.40 The bill would create new civil penalty provisions and require age-restricted
+social media platforms to take reasonable steps to prevent age-restricted users
+from having an account.31
+1.41 A failure by the provider will be subject to 30 000 civil penalty units (currently
+equivalent to $9.9 million). This increases to 150 000 penalty units (currently
+equivalent to $49.5 million) if the provider is a body corporate, due to the
+application of section 82 of the Regulatory Powers (Standard Provisions) Act 2014
+(Regulatory Powers Act).32
+27 Explanatory Memorandum, p. 3.
+28 Explanatory Memorandum, p. 4.
+29 Explanatory Memorandum, p. 4.
+30 Explanatory Memorandum, p. 4.
+31 Explanatory Memorandum, p. 6.
+32 Explanatory Memorandum, p. 6.
+7
+1.42 Penalties do not apply to age-restricted users who may gain access to an age-
+restricted social media platform, or to their parents, carers or educators.33
+1.43 The bill would also increase maximum civil penalties in the Online Safety Act
+for:
+ non-compliance with a direction to comply with industry codes; and
+ non-compliance with industry standards.34
+1.44 Penalties would rise from 500 to 30 000 civil penalty units (currently equivalent
+to $9.9 million). For bodies corporate, this increases to 150 000 penalty units
+(currently equivalent to $49.5 million).35
+1.45 These amounts are consistent with the maximum penalties currently available
+for contravention of the Australian Consumer Law under the Competition and
+Consumer Act 2010, and for serious and repeated interferences with privacy
+under the Privacy Act 1988 (the Privacy Act).36
+1.46 The EM notes that the penalty amounts are intentionally large to reflect the
+significance of the harms the bill is intended to safeguard against and signal the
+expectation that age restricted social media platforms treat the minimum age
+obligation seriously.37
+1.47 The EM argues that the civil penalties are appropriate and in line with existing
+Commonwealth guidelines:
+The Guide to Framing Commonwealth Offences, Infringement Notices and
+Enforcement Powers outlines that larger penalties are more appropriate for
+bigger companies, such as platforms, as they provide an adequate deterrent
+against non-compliance. The civil penalties are therefore appropriate for
+regulatory and disciplinary purposes, while ensuring paying a financial
+penalty does not become a cost of doing business.38
+1.48 The EM states that the penalty provisions would operate consistently with Part
+10 of the Online Safety Act and Part 4 of the Regulatory Powers Act. These Acts
+provide that in determining pecuniary penalties, a court must take all relevant
+matters into account, including the circumstances of the contravention, the
+nature of the contravening conduct, the size of the organisation involved and
+whether the entity has previously been found to have engaged in similar
+conduct. Therefore, a court would have discretion to consider the seriousness of
+33 Explanatory Memorandum, p. 6.
+34 Explanatory Memorandum, p. 6.
+35 Explanatory Memorandum, p. 6.
+36 Explanatory Memorandum, p. 6.
+37 Explanatory Memorandum, p. 6.
+38 Explanatory Memorandum, p. 6.
+8
+the contravention and impose a penalty that is appropriate in the
+circumstances.39
+Privacy protections
+1.49 The bill introduces privacy protections, including prohibiting platforms from
+using information collected for age assurance purposes for any other purpose,
+unless the individual has provided their consent. This consent ‘must be
+voluntary, informed, current, specific and unambiguous’.
+This requirement precludes platforms from seeking consent through
+preselected settings or opt-outs.40
+1.50 Once the platform has used the information for age assurance or any other
+agreed purpose, it must be destroyed by the platform (or any third party
+contracted by the platform).41
+1.51 Serious and repeated breaches of these privacy provisions could result in
+penalties of up to $50 million under section 13G of the Privacy Act.42
+Deferred commencement
+1.52 The bill provides that the minimum age obligation will come into effect on a day
+to be specified by the Minister for Communications by way of notifiable
+instrument, not earlier than 12 months after Royal Assent.43
+1.53 The deferred commencement is intended to provide industry and the eSafety
+Commissioner with sufficient time to develop and implement appropriate
+systems.44
+Review
+1.54 An independent review of the part that will be introduced into the Online Safety
+Act by the bill (Part 4A) will be conducted within two years of the minimum age
+obligation taking effect.45
+1.55 The review will examine whether the measures are effective and delivering the
+desired outcomes for Australians, including if any changes to scope or the
+minimum age are required.46
+39 Explanatory Memorandum, p. 6.
+40 Explanatory Memorandum, p. 7.
+41 Explanatory Memorandum, p. 7.
+42 Explanatory Memorandum, p. 7.
+43 Explanatory Memorandum, p. 4.
+44 Explanatory Memorandum, p. 4.
+45 Explanatory Memorandum, p. 7.
+46 Explanatory Memorandum, p. 7.
+9
+Age assurance trial
+1.56 The EM explains that the government provided funding in the 2024–25 Budget
+to conduct a broad, three-phase trial of age assurance, including an
+assessment of technologies, to examine options to protect children from
+harmful online content, including on social media, and age-restricted
+content such as pornography.47
+1.57 The objective of the trial is to determine the effectiveness of available age
+assurance technologies as an option to:
+ prevent access to online pornography by people under the age of 18; and
+ age limit access to social media platforms for an age range of between 13
+and 16 years old.48
+1.58 The three elements to the trial are:
+ The technology trial: an independent testing and assessment of currently
+available age assurance technologies;
+ Research: including consumer research into Australian’s attitudes
+towards the use of age assurance technologies for access to the 2 use
+cases; and
+ Consultation: targeted stakeholder consultation with young Australians,
+parent groups, academics, the digital industry (including platforms),
+community and civil society groups, and First Nations representative
+groups.49
+Consultation
+1.59 During the development of the bill, the DITRDCA conducted extensive
+consultation with young people, parents, mental health professionals, legal
+professionals, community and civil society groups, state and territory first
+ministers and industry representatives.50
+1.60 The next chapter addresses views on the bill, and the committee view and
+recommendations.
+47 Explanatory Memorandum, p. 5.
+48 Explanatory Memorandum, p. 5.
+49 Explanatory Memorandum, p. 5.
+50 Explanatory Memorandum, p. 2.
+
+Chapter 2
+Views on the bill
+Introduction
+2.1 Due to the short timeframe that the committee had to consider the evidence, this
+chapter summarises the key views on the bill as received in submissions.
+2.2 A transcript of the hearing held on 25 November was not available at time of
+writing, and will be published when available.
+2.3 Almost all submitters raised concerns about the extremely short consultation
+period for the bill.
+Support for the minimum age access to social media
+2.4 The Explanatory Memorandum (EM) cited a New South Wales Government
+survey of over 21 000 people in 2024 regarding social media use and impacts:
+87% of respondents expressed support for a minimum age for social media.
+For respondents aged 16 or older, 16 years was the most commonly
+suggested minimum age (40 per cent) and 18 years the second most common
+(25 per cent).1
+2.5 Safe on Social stated that the bill is an urgent, enforceable measure that will
+protect children now, but acknowledged that a ban would not be perfect. It
+argued that if the bill reduced harm by even 10 per cent, that would be progress,
+particularly if it was supported by education, enforcement, and transparent
+algorithms.2
+2.6 Similarly, the Hon Peter Malinauskus MP, Premier of South Australia said:
+No legislative regime will be perfect. There will undoubtedly be
+workarounds by knowledgeable child users, just as some children still get
+around drug, alcohol or cigarette laws. That is not a reason not to legislate
+— the perfect should not be the enemy of the good.3
+2.7 Toby Walsh from the AI Institute, UNSW submitted:
+An age ban for social media will incentivise social media companies to
+improve services that fall both within and outside a ban. For instance, under
+a ban, a website like YouTube Kids will likely become a better and more
+useful service for young people.4
+1 Explanatory Memorandum, p. 2.
+2 Safe on Social, Submission 15, p. 2.
+3 The Hon Peter Malinauskus MP, Premier of South Australia, Submission 41, p. 6.
+4 AI Institute, Submission 72, p. 1.
+11
+12
+2.8 The Common Sense Party submitted that ‘the bill is beneficial and as a world
+first, could be phenomenal in setting up a precedence for the international
+community to follow’ and stated:
+Legislation is needed, as opposed to some pathetic voluntary code of
+conduct or simply asking parents or young people to be aware of the risks,
+because these social media platforms are run for profit. As they do not
+charge users, their revenue is from advertisers. The more engagement they
+have with their platform, the more they can charge. So the business model
+is about driving engagement.5
+2.9 Similarly, Youth Law Australia expressed its support for ‘stronger regulation to
+prevent children and young people from experiencing online harm and
+welcome[d] the introduction of an obligation on providers’.6
+2.10 Finally, the committee also heard from some young people supportive of the bill
+via the submission made by Bravehearts. Representatives from the Bravehearts
+Youth Advisory Committee said:
+I fully support the push to change social media access to age 16. Bullying,
+triggering content, and predators make social media a hostile and unsafe
+environment for young people to be in whilst their brains and emotions are
+still developing.7
+2.11 And also:
+The status quo isn't really acceptable and social media needs some
+guardrails. I am glad YouTube isn't included and nor should it be because it
+fundamentally differs from other social media e.g. FB where two end users
+can interact.
+It's an attempt to pursue a meaningful reform and I think the penalties for
+Meta are good.8
+Mental health and behavioural harms from social media use
+2.12 The committee received evidence in both submissions and at the public hearing
+about the negative mental health and behavioural impacts of social media on
+young adolescents.
+2.13 At the public hearing, Dr Danielle Einstein questioned whether there are any
+mental health benefits from social media. She was of the view that any minor
+benefits, if they existed, were massively outweighed by the downsides.9
+5 Common Sense Party, Submission 17, p. 1.
+6 Youth Law Australia, Submission 59, p. 2.
+7 Bravehearts, Submission 34, p. 6.
+8 Bravehearts, Submission 34, p. 5.
+9 Dr Danielle Einstein, Public hearing, 25 November 2024.
+13
+2.14 Dr Einstein supported a minimum age for social media use because depression
+and anxiety invariably improve when social media use is restricted. Dr Einstein
+also pointed out that the bill does not limit access to the internet, or to one-to-
+one messaging or to phone calls, and that the educational benefits of the internet
+would remain available.10
+2.15 Dr Einstein also argued that the unhealthy, addictive element of social media
+are the notifications, and that is what leads to overuse. This element can cause
+children to ignore face-to-face interactions in the playground or after school and
+instead turn to online interactions. And yet, mental health at a young age is built
+by a multitude of face-to-face connections. The bill would, therefore, improve
+the environment for a majority of young people.11
+2.16 Similarly, Dr Simon Wilksch stated that he was not aware of any research
+evidence that social media was safe for children under 16. By contrast, there was
+‘substantial evidence of harm’.12
+2.17 Professor Susan Sawyer from the Murdoch Children's Research Institute stated
+that their research on the child-to-adult transition using a large longitudinal
+cohort suggested that the greatest harms appear to be in younger female
+adolescents in the 10–13-year-old age group who were using social media for
+more than two hours a day:
+In a study of 1200 young people from Melbourne that recruited a group of
+grade three, 8-year-olds and then studied them annually…the analyses
+demonstrate that in relationship to depression there is significantly greater
+evidence of depression in particular and also reduced wellbeing overall but
+very much it’s younger adolescent girls aged 10-13.13
+2.18 Professor Sawyer acknowledged that while social media provides benefits in
+terms of education, information seeking, and connection to peer networks, the
+benefits in terms of the mental health of younger people are far less than is
+commonly assumed.14
+2.19 Professor Sawyer also stated that one of the greatest benefits of a potential ban
+is the message it gives to parents around setting expectations for the younger
+cohort of 10- to 12-year-old children that they will not be participating in social
+media at that age.15
+10 Dr Danielle Einstein, Public hearing, 25 November 2024.
+11 Dr Danielle Einstein, Public hearing, 25 November 2024.
+12 Dr Simon Wilksch, Additional information, ‘Psychologist explains why raising minimum age can
+reduce social media harm’, tabled by Senator Karen Grogan on 25 November 2024.
+13 Professor Susan Sawyer, Public hearing, 25 November 2024.
+14 Professor Susan Sawyer, Public hearing, 25 November 2024.
+15 Professor Susan Sawyer, Public hearing, 25 November 2024.
+14
+2.20 Catholic School Parents WA raised concerns about the harmful behavioural
+effects of social media:
+Parents are worried that children and young people are becoming
+desensitised to some of the content that they are seeing, and that it is leading
+to a distorted understanding of some serious topics. We see the instances of
+assault, domestic violence and misogynistic behaviour towards women
+increasing at an alarming rate and one cannot help but make a link back to
+what is being viewed online.16
+2.21 Catholic School Parents WA submitted that scamming and ‘sextortion’ are now
+becoming prevalent:
+Scamming, and particularly in the case of young people, sextortion, is a
+growing concern for many parents. It is incredibly common these days to
+speak to parents who have had this issue raised by one of their children,
+either because they have been approached by a scammer or know someone
+who has.17
+2.22 The Australian Gaming and Screens Alliance (AGASA) submitted there was an
+extensive body of evidence around the negative mental health and
+developmental impacts on children and teenagers arising from social media.
+AGASA supported the bill and argued that it could be justified on numerous
+grounds including the harms associated with overuse (including of games that
+are accessed via social media platforms), inappropriate content and associated
+risks of harm, as well as the dangers to wellbeing associated with
+cyberbullying.18
+2.23 AGASA considered the bill ‘opens the path for working with tech companies
+around structural change of their platforms, persuasive design, algorithms, and
+more robust parental controls’.19
+The bill would empower parents and reduce the burden on them
+2.24 Officials from the Department of Infrastructure, Transport, Regional
+Development, Communications and the Arts (DITRDCA) told the committee
+that it had received ‘very strong feedback from parents’ that ‘they do not want
+to bear the burden or responsibility of making decisions that should be better
+reflected in the law’:
+So, it’s really important for parents to point to a standard law, an age limit,
+that will apply to everybody and it’s also feedback we’ve received from a lot
+of children as well, that they would rather that there was a universal law
+16 The Catholic School Parents WA, Additional documents, Submission 121 to the Joint Committee on
+Social Media and Australian Society, p. 2, tabled by Senator Karen Grogan on 25 November 2024.
+17 The Catholic School Parents WA, Additional documents, Submission 121 to the Joint Committee on
+Social Media and Australian Society, p. 3, tabled by Senator Karen Grogan on 25 November 2024.
+18 Australian Gaming and Screens Alliance (AGASA), Submission 11, p. 1.
+19 AGASA, Submission 11, p. 1.
+15
+that applied to all children under the age of 16, rather than have a situation
+where some children have it and some don’t, and then all of the harms that
+we’re aware of through exposure to social media continue to magnify.20
+2.25 The ‘sense of overwhelming fatigue for parents’ was noted by the DITRDCA
+during its consultation, which was found through research as well’.21
+2.26 Parental fatigue was a point reiterated by Mr Chisholm who stated:
+Parents have told us that their fatigue would be reduced by having a very
+clear law in place that imposes, for example, a 16-year age limit, that that
+will be welcome by parents rather than have to fiddle around with apps to
+see if they work.22
+2.27 A representative of Headspace National Youth Mental Health Foundation
+stated that ‘families are completely overwhelmed by having to monitor their
+children’s social media use, and parents ‘are panicked and fearful and frankly
+they are looking for solutions’.23
+2.28 Ms Emma Mason stated that a legislated minimum access age to social media
+would empower parents:
+Even in my own household with my two other daughters, despite
+everything that has happened I fight the kids to get off their phones – to try
+and find peace against the never-ending 'need' to connect. It's completely
+out of control. A change to the law to not permit children access to social
+media accounts before the age of 16 is crucial to give the power back to
+parents.24
+2.29 Similarly, Catholic School Parents WA stated that legislation would help
+parents:
+Legislation supporting an increase to the age at which young people can
+access social media would provide a safety net for parents and would assist
+them in supporting each other in creating boundaries to keep their children
+and young people safe.25
+20 Mr James Chisholm, Deputy Secretary, Communications and Media Group, Department of
+Infrastructure, Transport, Regional Development, Communications and the Arts (DITRDCA),
+Public hearing, 25 November 2024.
+21 Mr Andrew Irwin, Assistant Secretary, Online Safety Branch, DITRDCA, Public hearing, 25
+November 2024.
+22 Mr Chisholm, DITRDCA, Public hearing, 25 November 2024.
+23 Ms Nicola Palfrey, Head of Clinical Leadership, Headspace National Youth Mental Health
+Foundation, Public hearing, 25 November 2024.
+24 Ms Emma Mason, Additional documents, Submission 207 to the Joint Committee on Social Media and
+Australian Society, p. 7, tabled by Senator Karen Grogan on 25 November 2024.
+25 Catholic School Parents WA, Additional documents, Submission 121 to the Joint Committee on Social
+Media and Australian Society, p. 3, tabled by Senator Karen Grogan on 25 November 2024.
+16
+2.30 Vanessa Treloar stated that: ‘As a parent, I am deeply fearful of the world my
+two-year-old child will grow up in if we do not take proactive steps to mitigate
+these risks.…This policy change would support parents in their efforts to protect
+their children.’26
+Opposition to the bill
+2.31 The committee received a body of submissions that expressed opposition to the
+bill. These submissions raised various concerns, including that the bill:
+ does not appropriately reflect expert evidence in the field;
+ will have unfortunate and unintended consequences, including that persons
+under 16 will circumvent the restrictions and risk being driven into hidden
+spaces where they may be less safe;
+ would have a disproportionate and negative effect on vulnerable and
+marginalised young people;
+ would undercut the important role of education in the development of
+young people;
+ provides a broad delegation of power to the minister; and
+ raises privacy and security risks.
+2.32 Pride in Swan ‘firmly believe that the proposed blanket ban on social media
+access for individuals under 16 is neither the most effective nor equitable
+solution.’27
+2.33 The Internet Association of Australia recognised ‘the risks and real harms
+associated with children and young people accessing social media’. However,
+they did not consider the bill an appropriate solution.28
+Bill does not appropriately reflect expert evidence
+2.34 Several submitters argued that there is a lack of scientific evidence to support
+the claims of harm from social media.
+2.35 The Shooters, Fishers and Farmers Party of Tasmania submitted that while
+studies such as the 2022 UK study cited by the bill suggest links between social
+media use and decreased life satisfaction for certain adolescent groups, these
+findings are highly contextual. The submission argued that broader research,
+including a 2023 Oxford Internet Institute study, found no consistent evidence
+26 Vanessa Treloar, Additional documents, Submission 70 to the Joint Committee on Social Media and
+Australian Society, pp. 1–2, tabled by Senator Karen Grogan on 25 November 2024.
+27 Pride in Swan Inc., Submission 5, p. 1.
+28 Internet Association of Australia, Submission 13, p. 1.
+17
+that social media use has significant negative effects on adolescent mental health
+overall.29
+2.36 Professor Marcus Carter, Dr Taylor Hardwick, and Dr Ben Egliston quoted Lucy
+Thomas OAM, cofounder and CEO of Project Rockit (Australia's youth-driven
+movement against bullying, hate and prejudice), who considered that there was
+to the bias in the government’s social media summit, describing it as:
+…carefully curated to amplify the (heavily contested) views of a select group
+of international speakers whose findings conveniently aligned with the
+government’s pre-determined stance. Meanwhile, globally respected
+Australian research was sidelined. By focusing exclusively on extreme
+harms—handpicked to suit a political agenda—the Summit created a public
+climate where balanced evidence and alternative perspectives have been
+erased and discredited.30
+Safety risks: children’s social media use will become more hidden and secret
+2.37 UNICEF Australia submitted that children under 16 will inevitably bypass
+restrictions, landing in unregulated, darker spaces. They argued that this not
+only undermines the effectiveness of the legislation but also exposes children to
+greater risks online.31
+2.38 The Shooters, Fishers and Farmers Party of Tasmania noted that when access to
+social media is restricted, young people often resort to creating fake accounts or
+using VPNs to bypass restrictions. The submission cited a 2021 Tech
+Transparency Project report that found nearly 70 per cent of teens under 16
+circumvented age restrictions on popular platforms.32
+2.39 Professor Marcus Carter, Dr Taylor Hardwick, and Dr Ben Egliston submitted
+that some children will certainly circumvent the methods for age verification
+and create adult accounts on social media platforms, effectively exacerbating the
+risk of online harm:
+Thus, instead of having children’s accounts on these platforms—which
+afford parents the ability to choose the appropriate safety settings for their
+children and monitor their children’s online activity—platforms will no
+longer be able to improve the design of social media for young people, and
+parents will not be able to support children to learn how to use social media
+safely. Children’s social media use will become more private, and more
+hidden from those able to support children to navigate the online world.33
+29 The Shooters, Fishers & Farmers Party of Tasmania, Submission 8, p. 1; see also Young Labor Left
+NSW, Submission 10, p. 1.
+30 Professor Marcus Carter, Dr Taylor Hardwick, and Dr Ben Egliston, Submission 90, p. 3.
+31 UNICEF Australia, Submission 9, p. 2.
+32 The Shooters, Fishers & Farmers Party of Tasmania, Submission 80, p. 1.
+33 Professor Marcus Carter, Dr Taylor Hardwick, and Dr Ben Egliston, Submission 90, p. 1.
+18
+2.40 Young Labor Left NSW argued that by banning access to goods and services,
+users face a harder time reporting, and seeking help for harm caused. Legally
+restricting social media for people under 16 years old will not significantly
+reduce the rate at which young people access social media and will not decrease
+instances of cyberbullying, abuse, or other forms of digital harm.34
+Implications for children’s rights
+2.41 UNICEF Australia submitted that the proposed bill has significant implications
+for children's rights:
+Article 12 of the United Nations Convention on the Rights of the Child
+(UNCRC) states that every child and young person under 18 has the right to
+participate and have their opinions included in decision-making processes
+that relate to their lives.35
+Disproportionate impact on vulnerable and marginalised young people
+2.42 6 News stated that the organisation is a streaming news channel founded in 2019
+and run entirely by young people—the majority of whom are teenagers in high
+school with ‘tens of thousands of followers and millions of views across our
+social media platforms, including Facebook, Twitter/X, Instagram and
+YouTube’.36
+2.43 6 News opposed the bill on the basis that it will only cause further problems for
+young people online:
+In particular, we are deeply concerned about the impact it will have on
+vulnerable teenagers who may use social media as a necessary escape from
+their day-to-day lives. Marginalised young people who may feel safe in an
+online community (including those who may not feel safe at home), teens in
+remote parts of our nation who have found friends online, and those who
+have built up important relationships and friendships online all benefit.
+Speaking to many young people in recent weeks, we have heard how they
+have been able to get through extremely difficult times in their own lives by
+using various social media platforms. Although we understand that
+students may experience bullying online, restricting all teenagers from
+using social media is not the solution.37
+2.44 Pride in Swan submitted that for many vulnerable youth particularly those from
+the LGBTIQA+SB community, social media is far more than a digital pastime, it
+is a critical lifeline:
+It is often the only way they can connect with others who share their
+experiences, access affirming spaces, and find support networks that
+34 Young Labor Left NSW, Submission 10, p. 1.
+35 UNICEF Australia, Submission 9, p. 1.
+36 6 News, Submission 6, p. 1.
+37 6 News, Submission, p. 1.
+19
+validate their identities. These connections are essential to their mental
+health and emotional well-being, especially in rural or remote areas where
+physical support systems may be unavailable.38
+2.45 That being said, Pride in Swan advocated ‘for a balanced approach that
+prioritises safety, accountability, inclusion, and education, without isolating
+young people who rely on these platforms for connection and support’.39
+2.46 Minus 18 submitted that for LGBTQIA+ youth, social media is a lifeline to safety,
+connection, and affirmation, and pointed to their recent survey of almost 1000
+LGBTQIA+ young people across Australia:
+ 95.7% of respondents rely on social media to access friends and emotional
+support.
+ 91.5% report that platforms, particularly Instagram, have been crucial for
+forming meaningful friendships with other queer people.
+ 83% fear that a ban on social media would sever them from their
+community and leave them feeling disconnected and isolated.40
+2.47 These findings underscore the critical role social media plays in supporting a
+demographic that already faces heightened risks of discrimination, rejection,
+and isolation.41
+2.48 Minus 18 submitted that the bill ‘inadvertently poses significant risks for
+LGBTQIA+ youth’ who:
+ Are more likely to lack supportive family environments, leaving social
+media as their primary source of connection.
+ Face unique barriers to accessing offline community support, such as fear
+of discrimination or lack of local services.
+ Are more likely to experience social isolation, which can compound
+mental health risks when disconnected from affirming online spaces.42
+2.49 Young Labor Left NSW noted the ban will have an adverse effect on young
+Australians who will be cut off from online support networks of friends and
+family, as well as people with similar identities, interests and passions. In a
+globally acknowledged loneliness crisis, restricting social media will worsen an
+already extreme epidemic.43
+2.50 The First Nations Peoples Aboriginal Corporation (FNPAC) raised concerns that
+many Aboriginal and Torres Strait Islander children and families, particularly
+38 Pride in Swan Inc., Submission 5, p. 1.
+39 Pride in Swan Inc., Submission 5, p. 1.
+40 Minus 18, Submission 1, p. 1.
+41 Minus 18, Submission 1, p. 1.
+42 Minus 18, Submission 1, p. 2.
+43 Young Labor Left NSW, Submission 10, p. 1.
+20
+in remote areas, lack access to such documentation. This could effectively block
+them from accessing platforms and services essential for education, healthcare,
+and community support, increasing their digital isolation.44
+2.51 The FNPAC also raised concerns that in remote communities, reliable internet
+and digital infrastructure are often unavailable or insufficient. Age verification
+systems requiring stable online access may further restrict Aboriginal and
+Torres Strait Islander people's ability to engage in digital activities like distance
+learning or online commerce.45
+2.52 In contrast, the Premier of South Australia made the point that a minimum age
+for social media access would in fact help protect vulnerable cohorts:
+I recognise this is even more important for vulnerable cohorts, including
+First Nations young people and young people who are living with disability,
+LGBTIQ+, culturally and linguistically diverse, or from rural and remote
+areas. I have been presented with evidence that suggests that while online
+spaces can offer connection for vulnerable cohorts, social media is
+disproportionately harming these cohorts and protections would likely
+benefit them the most.46
+Importance of social media in education and social causes
+2.53 Andrew Hamilton, solicitor at JPB Liberty, submitted that social media forms an
+important part of the lives of adults and is the main source of news, information
+and educational material for younger people.47
+A blanket ban on social media for U16s will cause severe damage to the
+education of children and teenagers. It will put them in an artificial bubble
+and they will suffer significant trauma when they are suddenly exposed to
+the world of social media at age 16 when is may be too late for parents and
+teachers to provide suitable guidance.48
+2.54 Young Labor Left NSW pointed to the importance of social media in pushing
+for progressive changes in society, such as the #MeToo movement, Black Lives
+Matter, and School Strike 4 Climate. Young Labor Left NSW argued that social
+media ‘is indispensable for movements like these, and restricting young
+people's access will cut them off from the movements that inspire and represent
+them’:49
+Finally, with more and more news consumed on social media, digital
+literacy is an increasingly important skill. Allowing young people to
+44 First Nations Peoples Aboriginal Corporation (FNPAC), Submission 8, p. 2.
+45 FNPAC, Submission 8, p. 2.
+46 The Hon Peter Malinauskus MP, Premier of South Australia, Submission 41, p. 5.
+47 JPB Liberty Pty Ltd, Submission 87, p. 1.
+48 JPB Liberty Pty Ltd, Submission 87, p. 1.
+49 Young Labor Left NSW, Submission 10, p. 1.
+21
+navigate the internet freely and with unimpeded support from family and
+educators is vital to ensuring misinformation and disinformation are
+combatted on the internet. By legally restricting access, young Australians
+will have less time to develop an understanding of digital environments
+upon reaching adulthood, leaving them vulnerable to dangerous online
+narratives. This must be combatted by education and guidance, not bans.50
+2.55 The Shooters, Fishers and Farmers Party of Tasmania pointed to a 2023
+ReachOut survey which found that 84 per cent of Australian teens believe social
+media is an important tool for maintaining friendships and accessing support
+networks and that restrictive policies risk isolating these teens from valuable
+online communities.51
+Delegation of power to the minister
+2.56 The Digital Industry Group Inc. (DIGI) submitted that the bill does not have
+sufficient detail on the ‘technical implementation regarding privacy, security,
+human rights or regulatory cost implications’ leading to concerns that there is
+too much weight on the discretionary powers of the Minister and the eSafety
+Commissioner.52
+2.57 Valid Agenda argued that the bill's reliance on future legislative rules to refine
+what constitutes an ‘age-restricted social media platform’ allows future
+regulators to decide what falls under this category, without current safeguards
+or specifics, potentially leading to overreach or misinterpretation in
+application.53
+2.58 Tech Council of Australia submitted:
+We also strongly recommend that the government introduce a requirement
+in legislation for the Minister to consult with industry and affected
+stakeholders on the legislative rules, and provide that any such rules be
+disallowable instruments to ensure adequate parliamentary oversight.54
+2.59 ReachOut submitted that research shows that 73 per cent of young people access
+mental health support on social media and 49 per cent of ReachOut youth
+service users find the service via social media. Therefore, ReachOut welcomed
+the exemptions for digital mental health services.55
+50 Young Labor Left NSW, Submission 10, p. 2.
+51 The Shooters, Fishers & Farmers Party of Tasmania, Submission 80, p. 1.
+52 Digital Industry Group Inc, Submission 43, p. 2.
+53 Valid Agenda, Submission 3, p. 1; see also Professor Marcus Carter, Dr Taylor Hardwick, and Dr
+Ben Egliston, Submission 90, p. 1.
+54 Tech Council of Australia, Submission 46, p. 3.
+55 ReachOut, Submission 30, p. 2.
+22
+2.60 That being said, ReachOut also urged ‘the Government to consult with the
+experts on how young people use digital technology to communicate, learn and
+connect as it develops the exemption framework—young people themselves’.56
+Digital Duty of Care
+2.61 The committee received evidence on the importance of a Digital Duty of Care to
+ensure that digital platform providers take appropriate steps to monitor content
+and be held responsible for users’ safety. These organisations also expressed the
+view that a Digital Duty of Care would be a more productive approach than the
+bill’s minimum age restriction.
+2.62 For example, Bravehearts Foundation submitted:
+We need the technology sector to do more to monitor what is happening
+online, supported by government rules and regulation. The recently
+announced Digital Duty of Care, is a positive step towards companies being
+held responsible for users’ safety.57
+2.63 Movember also submitted:
+We also acknowledge the proposed introduction of Digital Duty of Care,
+brining stronger penalties for both reacting to harms through content
+regulation and expanding their approach to include exploring systems-
+based prevention. This is a positive step, placing greater responsibility onto
+the tech companies to keep young Australians safe online.58
+2.64 Similarly, the ARC Centre of Excellence for the Digital Child stated:
+In regulatory terms, the government’s plan to focus on a Digital Duty of
+Care, which requires platforms to evaluate the potential risks of their tools
+before they release them, is a much more productive legislative direction,
+placing the initial burden on platforms, not parents.59
+Privacy and security risks
+2.65 Ms Carly Kind, Privacy Commissioner at the Office of the Australian
+Information Commissioner, expressed support for the additional privacy
+protections in the bill but noted that the introduction of a minimum age for
+access to social media will have privacy impacts for all Australian users of social
+media:
+While the bill does not dictate what ‘reasonable steps’ social media
+platforms must take to ensure users below the minimum age are prevented
+from holding an account, the inevitable outcome is that age assurance checks
+will need to be conducted for all Australian social media users (not just
+children). This is a significant departure from the status quo, and is likely to
+56 ReachOut, Submission 30, p. 2.
+57 Bravehearts Foundation, Submission 34, p. 3.
+58 Movember, Submission 44, p. 1.
+59 ARC Centre of Excellence for the Digital Child, Submission 23, p. 2.
+23
+incentivise the collection, use and storage of additional personal information
+about all users of the service, which increases privacy risks and impacts.60
+2.66 The Privacy Commissioner argued that wholesale reform of the Privacy Act 1988
+(Privacy Act) is the most effective way of tackling the most harmful aspects of
+the digital ecosystem:
+In particular, the introduction of a fair and reasonable test for the collection,
+use and disclosure of personal information would dramatically increase the
+ability of the OAIC to address harmful and unfair data practices in the online
+environment.61
+2.67 At the public hearing, the Privacy Commissioner added:
+This bill enshrines a much more robust definition of consent than exists
+already in the Privacy Act and it would be remiss of me not to remark that
+there are proposals on the table to strengthen the definition of consent in the
+Privacy Act writ large.
+…
+But importantly, in the context of this bill, it does impose that higher level
+of protections.62
+2.68 The FNPAC raised concerns that Indigenous communities often have
+heightened concerns about data privacy and the misuse of personal information:
+Broad and poorly defined requirements for age and identity verification
+could deter families from using digital services, reducing engagement in
+education, commerce, and social support networks critical to their well-
+being.
+Verification processes that collect personal data might not align with
+cultural sensitivities or privacy expectations within Indigenous
+communities. Fear of data misuse or lack of trust in external systems could
+discourage participation in online platforms, exacerbating digital
+exclusion.63
+2.69 Young Labor Left NSW had:
+…deep reservations should the legislation require the provision of
+government ID documents to platforms to social media companies, given
+how prone these companies are to leaks and data misuse. Young Labor Left
+sees this as a blatant infringement on people’s right to privacy and on their
+civil liberties.64
+60 Ms Carly Kind, Privacy Commissioner, Office of the Australian Information Commissioner
+Submission 12, p. 1; see also Professor Marcus Foth, Submission 88, p. 1.
+61 Ms Carly Kind, Privacy Commissioner, Submission 12, p. 3.
+62 Ms Carly Kind, Privacy Commissioner, Public hearing, 25 November 2024.
+63 FNPAC, Submission 8, p. 2.
+64 Young Labor Left NSW, Submission 10, p. 1.
+24
+2.70 The Shooters, Fishers and Farmers Party of Tasmania Age submitted that
+‘verification methods often require sensitive user data, such as government-
+issued IDs or biometric scans, creating privacy concerns’.
+2.71 UNICEF Australia submitted that population-wide age verification raises
+serious concerns about data security and privacy:
+We know that data is the currency of the online world, and children's data -
+where it's collected, traded and sold on mass scales - is considered a big
+business. Implementing the measures under the proposed bill would
+require the collection and storage of sensitive personal information,
+increasing the risk of data breaches and misuse.65
+2.72 JPB Liberty submitted that privacy is a fundamental human right:
+Requiring social media companies to conduct age verification will inevitably
+involve identifying all users of social media in a way that infringes privacy.
+People have the right to be anonymous online if they choose to be. There are
+many very good reasons including personal safety, the ability to express
+opinions privately that an employer or friends may not like.
+Again, tyrannies have always tried to prevent privacy and anonymity. Free
+countries preserve these freedoms.66
+2.73 The FNPAC proposed a range of recommendations to mitigate the risks posed
+by the bill to Indigenous children and communities, including to:
+Create provisions to exempt educational, cultural, and community-led
+platforms from broad regulations to guarantee access for Indigenous
+children to digital resources, learning tools, and cultural materials.67
+Age assurance technology
+2.74 The Age Verification Providers Association (AVPA) is the global trade body
+representing 30 providers of privacy-preserving online age assurance
+technology. AVPA confirmed that ‘the age assurance technologies required to
+facilitate the implementation of this bill are sufficiently accurate, accessible,
+privacy-preserving, cost-effective, and aligned with international standards’.68
+2.75 The Australian Democrats raised concerns regarding privacy and identification
+systems:
+There are many Australians who wish to live a private life, and ID
+verification requirements may disincentivise them from using social media,
+restricting their access to important information.69
+65 UNICEF Australia, Submission 9, p. 2.
+66 JPB Liberty Pty Ltd, Submission 87, p. 2.
+67 FNPAC, Submission 8, p. 2.
+68 Age Verification Providers Association (AVPA), Submission 7, p. 1.
+69 Australian Democrats, Submission 20, p. 1.
+25
+2.76 The Australian Democrats also expressed concern regarding the ease of
+circumventing ‘geo-protections’ by using VPNs and the ‘unprecedented risk for
+surveillance’ associated with ID based online verification.70
+2.77 The DITRDCA provided evidence about the current capabilities of social media
+companies, such as Instagram, to verify the age of their users on digital
+platforms:
+I point out that Instagram, in their announcement about their teen accounts,
+they already verify age when you are changing your age which effectively
+amounts to an admission that you are lying – why would you change your
+age otherwise?
+But they are already building technology – and I’ll quote from their
+announcement here – “to proactively find accounts belonging to teens, even
+if the account lists an adult birthday. This technology will allow us to
+proactively find these teens and place them in the same protections offered
+by teen account settings. We’ll start testing this change in the US early next
+year.71
+2.78 The committee also heard evidence about the ability of other social media
+platforms, such as TikTok, in removing underage accounts using both
+technology and human moderation to determine a user’s age.72 TikTok Australia
+outlined that it had ‘removed more than 20 million suspected underage accounts
+globally’ between April and June 2024 alone.73
+Digital ID
+2.79 Through the course of the inquiry there was some commentary relating to the
+Australian Government’s ‘Digital ID’ system and whether it would used by
+platforms in order to comply with the bill. On this, officials from the DITRDCA
+were clear:
+I know there have been questions raised in a few areas about whether there’s
+any linkage to the government’s Digital ID system and to be clear, there is
+no linkage, that is not the intention.74
+2.80 And:
+70 Australian Democrats, Submission 20, p. 2.
+71 Mr Andrew Irwin, Assistance Secretary, Online Safety Branch, DITRDCA, Public hearing,
+25 November 2024.
+72 Article by Anglra Bharadwaj, Tech Giants’ fib on kids, tabled by Senator the Hon Sarah Henderson,
+25 November 2024.
+73 TikTok Australia, Submission 102, p. 1.
+74 Ms Sarah Vandenbroek, First Assistant Secretary - Digital Platforms, Safety and Classification
+Division, DITRDCA, Public hearing, 25 November 2024.
+26
+There’s no requirement for platforms to use the Digital ID system to comply
+with the obligation.75
+2.81 The DITRDCA provided evidence that they cannot see any way the eSafety
+Commissioner could designate Digital ID from the legislation as a means of age
+verification.76 This would suggest the legislation could be strengthened to
+ensure this mechanism is not available.
+The need for greater consultation with children and young people
+2.82 Various submitters to the inquiry emphasised the need for greater consultation
+with those that would be directly affected by the bill, especially children and
+young people. These submitters advocated that the government should
+prioritise genuine and meaningful consultation with young people in
+developing online safety policies, recognising young people as experts in their
+own online experiences.
+2.83 For example, Youth Law Australia (YLA) recommended that ‘further
+meaningful consultation is undertaken with children and young people to
+determine how to effectively monitor their experiences of online harms and to
+engage children and young people in earlier help seeking’.77 The YLA also
+supported the deferred commencement of the bill to properly implement and
+educate children and young people on the changes:
+In the implementation, children should be provided with child-sensitive
+and age-appropriate information on how the Bill impacts them, including
+reporting and complaint mechanisms if they do experience online harm, and
+services and remedies available to them. Similar information should be
+provided to parents and caregivers.78
+2.84 Youth Affairs Council Victoria, expressed concern about the short timeframe for
+the inquiry. It emphasised the importance of co-designing reforms with young
+people to ensure that online safety reforms are ‘effective and fit-for-purpose’ as
+well as co-designing support and education programs.79
+Committee view
+2.85 The committee acknowledges the immense interest in the bill and the broad
+commitment to ensuring the best outcomes for young people and children.
+2.86 At the outset, therefore, the committee acknowledges that the inquiry timeframe
+was extremely short and that almost all submitters and witnesses expressed
+grave concerns that a bill of such import was not afforded sufficient time for
+75 Mr Chisholm, DITRDCA, Public hearing, 25 November 2024.
+76 Mr Chisholm, DITRDCA, Public hearing, 25 November 2024.
+77 Youth Law Australia, Submission 59, p. 2.
+78 Youth Law Australia, Submission 59, 3.
+79 Youth Affairs Council Victoria, Submission 60, p. 3.
+27
+thorough inquiry and report. The committee thanks the many submitters and
+witnesses who engaged with the inquiry in the tight inquiry timeframe.
+2.87 The committee recognises that persuasive arguments were put forward both in
+support for, and opposition to, the bill. The committee also recognises that while
+many inquiry participants supported the aims of the bill, concerns were raised
+about its implementation.
+2.88 Many of these concerns are reflected in the recommendations below. While it
+may be unusual for a legislation committee to make so many recommendations,
+the committee is firmly of the view that the recommendations set out below
+would improve the implementation of the bill and would address many of the
+concerns put forward by inquiry participants.
+2.89 The committee recognises that the rule-making powers invested in the Minister
+for Communications (the minister) under the bill are extensive and important in
+ensuring the optimum implementation of the bill and avoiding unintended
+consequences.
+2.90 The committee also notes that the bill seeks to capture services that are of the
+greatest community concern. The minister will have the power to determine that
+a particular service is in scope if its features evolve, and harms emerge to the
+point that action is considered necessary to reflect community standards.
+2.91 Importantly, the committee notes that these powers are in the form of
+disallowable legislative instruments, and as such, are subject to parliamentary
+oversight and potential amendment or veto.
+2.92 The committee also notes that in exercising the rule-making power, the minister
+will be required to seek and have regard to advice from the eSafety
+Commissioner and may also seek advice from other relevant Commonwealth
+agencies. The committee is therefore reassured that this should ensure that users
+under the minimum age retain access to platforms that predominately provide
+beneficial experiences, such as those that are grounded in connection, education,
+health and support.
+2.93 The committee considers that the requirement for the minister to have regard to
+advice from the eSafety Commissioner is very important given that many
+inquiry participants advocated for a balanced approach that prioritised safety,
+accountability, inclusion, and education, without isolating young people who
+rely on social media platforms for connection and support.
+2.94 To that end, the committee considers it vital that the government consults
+appropriately on all rule making associated with implementation of the bill,
+including with young people and their representative organisations.
+2.95 The committee notes that the explanatory memorandum to the bill currently
+provides that an independent review of the part that will be introduced into the
+Online Safety Act by the bill (Part 4A) will be conducted within two years of the
+28
+minimum age obligation taking effect. The committee considers that the
+independent review of proposed new Part 4A of the Online Safety Act should
+occur sooner and recommends that it be conducted within 18 months of the
+minimum age obligation taking effect.
+2.96 The committee also received evidence on the importance of a Digital Duty of
+Care to ensure that digital platform providers take appropriate steps to monitor
+content and be held responsible for users’ safety.
+2.97 The committee also acknowledges that several organisations calling for a
+legislated Digital Duty of Care were also of the view that legislating a minimum
+age restriction for social media may simply absolve technology companies from
+designing platforms that are safe and have children’s rights and best interests at
+the fore.
+2.98 To that end, the committee recommends that the Australian Government
+legislate a Digital Duty of Care to place a legal obligation on digital platforms to
+take proactive steps to protect their users.
+2.99 The committee also notes the concerns raised with respect to privacy.
+Nevertheless, the committee notes that the bill contains robust privacy
+provisions, over and above what is set out in existing privacy laws. The
+provisions in the bill will require platforms to destroy data collected for age
+assurance purposes when the age assurance process is complete. Not destroying
+data would be a breach of the Privacy Act, with penalties of up to $50 million.
+2.100 Some submitters were concerned that the age assurance trial should be
+completed prior to the passage of the legislation to enable it to inform the detail
+and implementation of the bill. However, the committee notes that there is a
+twelve-month implementation period for this legislation, and the results of the
+age assurance trial will provide the scope and detail rather than technology
+being prescribed in the bill.
+2.101 Further, the committee is reassured by the evidence from the Age Verification
+Providers Association that the age assurance technologies required to facilitate
+the implementation of the bill are sufficiently accurate, accessible, privacy-
+preserving, cost-effective, and aligned with international standards.
+2.102 Finally, the committee also recognises that many parents have expressed deep
+concern about the harmful impacts of social media, including screen addiction,
+hazards of excessive use, and some of the deeply addictive features on their
+children.
+2.103 The committee notes that the bill places the onus on platforms to introduce
+systems and processes that can be demonstrated to ensure that people under the
+minimum age cannot create and hold a social media account.
+29
+2.104 The committee therefore considers that the bill will have a normative effect that
+will enable parents to say ‘no’. On that basis, the committee recommends that
+the bill be passed.
+Recommendation 1
+2.105 The committee recommends that the Australian Government legislate a
+Digital Duty of Care to place a legal obligation on digital platforms to take
+proactive steps to protect their users.
+Recommendation 2
+2.106 The committee recommends that the Australian Government meaningfully
+engage young people in the implementation of the legislation.
+Recommendation 3
+2.107 The committee recommends that the Minister for Communications provide a
+progress report to the Parliament on the age assurance trial by no later than 30
+September 2025.
+Recommendation 4
+2.108 The committee recommends that the bill be amended to prohibit providers of
+age restricted platforms from compelling a person to use an accredited service
+within the meaning of section 9 of the Digital ID Act 2024, or other
+government ID such as passports, and must set out alternative methods for
+assuring age as reasonable steps with consideration given to the age assurance
+trial.
+Recommendation 5
+2.109 The committee recommends that the Minister for Communications provide a
+commitment to setting the implementation date within 12 months, not later.
+Recommendation 6
+2.110 The committee recommends that there be appropriate consultation on all rule
+making associated with the bill.
+Recommendation 7
+2.111 The committee recommends that the Australian Government amend the
+review period for the legislation such that an independent review of the
+proposed new Part 4A of the Online Safety Act 2021 is conducted within
+18 months of the minimum age obligation taking effect.
+30
+Recommendation 8
+2.112 The committee recommends that the bill be amended to enable the Minister
+for Communications to have review power over any ‘reasonable step’ rules
+determined by the eSafety Commissioner.
+Recommendation 9
+2.113 Subject to consideration of the above recommendations, the committee
+recommends that the bill be passed.
+Senator Karen Grogan Senator Ross Cadell
+Chair Member
+Dissenting Report from Senator the Hon Matt
+Canavan
+1.1 The passage of the Online Safety Amendment (Social Media Minimum Age) Bill
+2024 (the bill) has not been the Parliament's finest moment. The Government has
+called its proposal to ban children under 16 from social media as ‘world leading’.
+Yet such a change has been forced through the Parliament with a haste not
+befitting its radical and unprecedented nature.
+1.2 The public first saw the legislation to ban children under 16 from social media
+last Thursday, submissions closed on Friday, a public hearing was held on
+Monday and the committee's report is due on Tuesday. The bill is likely to be
+voted on by the end of this sitting week. That will mean that a bill that introduces
+a complex regulation of modern and evolving technologies will be subject to less
+than one week of public scrutiny.
+1.3 Such a condensed process removes the right of Australians to be involved in the
+creation of laws that impact them. Despite the less than 24 hours request for
+submissions, 15,000 submissions have been received on this bill. While the
+determination of people to make such an effort to submit their views should be
+applauded, Senators on this committee have had no ability to examine even a
+fraction of these submissions. At the time of writing, only 91 submissions (or
+just 0.6 per cent of submissions) have been published on the committee's
+website.
+1.4 The abuse of process also risks producing perverse outcomes and failing to
+reduce the real harms of young people accessing social media. These risks are
+evident by the Chair's draft recommending substantial changes to the bill with
+just days before its passing. While I welcome these recommendations, they are
+being made ‘on the run’.
+1.5 Given that even Government Senators have found significant defects in this bill
+in just a few days examination, the prudent approach would be for this inquiry
+to be extended into next year so a more fulsome examination can occur. For
+example, many supporters of the bill became frustrated in the hearing that the
+social media industry body (DIGI) did not have answers to their specific
+questions.
+1.6 Senator Henderson asked DIGI specifically about why some social media
+platforms like Instagram and snapchat do not use the same methods as TikTok
+around age verification and removing under-age accounts? Ms Sunita Bose,
+31
+32
+Managing Director, DIGI replied that they were an ‘an industry association
+…we cannot speak about specific companies.’1
+1.7 Dr Jennifer Duxbury, Director of Policy Regulatory Affairs and Research, DIGI
+added that ‘social media companies are currently under an obligation under the
+phase one codes to take steps to enforce the terms of use, including age
+restrictions.’2
+1.8 Under further questioning, Senator Henderson pointed out that Meta is
+claiming the technology is not there yet to ban underage users, stating ‘the big
+social media companies know how to get underage kids off their sites but they
+don't want to because this is going to cost them money. And you are simply
+making excuses for this failure.’3
+1.9 Such questions could be put directly to the social media companies if the
+committee is given more time to hold additional hearings. Effectively, the Senate
+is being asked to pass this bill ‘blind’ without being able to talk directly to the
+companies that will have to enforce an age verification process.
+1.10 There is no great urgency to pass this bill before Christmas. Even if it becomes
+law, the bill will not take effect until 12 months later. It would be much wiser to
+use this time to get the law right. If the Government still wanted to keep to a
+2026 start date, we could shorten the ‘grace’ period before enforcement occurs.
+1.11 I share the concerns expressed in the Chair's report about the harms of social
+media used by young people. While bullying and harassment can never be
+eradicated, social media intensifies anxiety because it becomes almost
+impossible to escape from. Because of these harms, this is a highly emotional
+issue and there is an understandable demand for politicians to be seen to be
+‘doing something’ about it. Yet it is also a highly complex area that should be
+examined carefully not in the hasty fashion that has beset this process.
+1.12 Australians have lost trust in the political process at an unprecedented rate in
+recent years. Trust will not be restored by the Senate ignoring good process and
+effectively blocking the Australian people from having their say on significant
+laws before their Parliament.
+Recommendation 1
+1.13 That the Senate extend the time for the Environment and Communications
+Legislation Committee to review the Online Safety Amendment (Social
+Media Minimum Age) Bill 2024.
+1 Ms Sunita Bose, Public hearing, Canberra, 25 November 2024.
+2 Dr Jennifer Duxbury, Public hearing, Canberra, 25 November 2024.
+3 Senator the Hon Sarah Henderson, Public hearing, Canberra, 25 November 2024.
+33
+Proposed amendments
+1.14 While I think it would be prudent to delay consideration of this bill, I realise
+there is a high chance that the Senate will move to vote on this bill within days.
+With that in mind, and with the limited time to review the legislation that I have,
+I propose the following changes to the bill.
+Preventing the use of Digital ID
+1.15 I support the Chair's proposal to amend the bill to rule out the use of Digital ID,
+however, I think further clarity is needed on whether the proposed amendment
+would seek to rule out Digital ID completely or simply ensure that alternatives
+to Digital ID are permissible.
+1.16 Given the nascent stage of Digital ID's development, all use of Digital ID should
+be ruled out. The Parliament could always seek to allow Digital ID by amending
+the law in the future if it becomes a widely accepted form of identification.
+Recommendation 2
+1.17 The bill should be amended to prevent any use of Digital ID for age
+verification purposes.
+Make ‘reasonable steps’ guidelines subject to Parliamentary accountability
+1.18 Under Item 5 of the bill, the eSafety Commissioner would have the role of
+writing guidelines for the taking of reasonable steps to prevent age-restricted
+users having accounts. At the hearing, Departmental officials provided little
+guidance on what these steps would be except that they would be guided by the
+Government's age verification trial which is not due to finish in mid-2025.
+1.19 The committee did not even have the time to take evidence from the eSafety
+Commissioner.
+1.20 The reasonable steps provisions are important because it is these details that will
+have the most impact on adult Australians. While Australians over 16 are not
+subject directly to constraints, to verify who is under 16, all Australians will have
+to be subject to some kind of age verification.
+1.21 Mandating age verification for all raises privacy and practicality issues. I am
+concerned that if the reasonable steps are made too onerous then they may
+inadvertently prevent older Australians (or Australians uncomfortable with
+technology) out of their accounts. Many older Australians rely on social media
+to stay in touch with their family and friends.
+1.22 Ironically, younger Australians are likely to have the savviness to
+circumnavigate the restrictions. If not designed properly, the social media ban
+may kick more 80-year-olds off social media than 8-year-olds.
+1.23 While the Explanatory Memorandum states that the eSafety Commissioner's
+guidelines ‘will not be binding’, in practice, and given the hefty fines for non-
+34
+compliance, social media platforms are unlikely to depart far from the safe
+harbour of the written guidelines.
+1.24 The eSafety Commissioner's guidelines will not be a regulatory instrument so
+they would not be subject to Parliamentary scrutiny such as through a
+disallowance motion. This is not appropriate given the ramifications of getting
+the guidelines wrong.
+1.25 A better way would be for the Minister to make the guidelines as a regulatory
+instrument and hence be subject to Parliamentary disallowance. The Minister
+may consult the eSafety Commissioner on the guidelines, but a decision of this
+magnitude should be made by an elected official subject to Parliamentary
+accountability.
+Recommendation 3
+1.26 The bill be amended such that the ‘reasonable steps’ guidance on how to
+conduct age verification be made by the Minister as a regulatory instrument
+disallowable by the Parliament.
+Destruction of age verification material
+1.27 The bill seeks to protect the privacy of personal information collected by social
+media platforms by requiring its destruction (see s 63F(3)). However, the
+requirement is not triggered until the entity has used it ‘for the purposes for
+which it was collected.’ If the bill only allowed the collection of this material for
+the purpose of age verification then these provisions would protect privacy.
+1.28 However, the bill allows social media companies to use age-verification
+information for any other purposes with the ‘consent of the individual’. If the
+other purpose is for an ongoing need, then the entity would in effect never have
+to destroy the information.
+1.29 The Department stressed that the consent provisions of this bill are strengthened
+from those normally contained in similar legislation. In summary, the bill
+requires that the consent be voluntary, informed, current, specific and
+unambiguous. The individual must also be able easily withdraw consent.
+1.30 While this is welcome it is not clear precisely how such consent will be provided.
+1.31 There was not a convincing reason provided about why social media companies
+needed an open-ended requirement to use age verification information even
+with consent. The only specific example provided was in the event of a parent
+company owning multiple social media platforms (such as Meta owning
+Facebook and Instagram). Notionally, these provisions would allow the
+subsidiaries to disclose the age-verification information to its partner companies
+preventing the need for multiple age verification requests.
+35
+1.32 Note that this example itself undermines the destruction provisions because an
+entity may be able to keep the information just in case someone is to open
+another account in the future.
+1.33 Ultimately, this is not a big enough reason to provide social media companies
+with broad powers to retain personal information. Given the recent, multiple
+instances of sensitive personal information being hacked, age verification
+information should be immediately destroyed once it is used for age
+verification. The only exceptions to this rule should be to comply with another
+law or a court ruling, and these exemptions are already covered in the bill
+through the reference to the Australian Privacy Principles.
+Recommendation 4
+1.34 The bill be amended to remove the ability of social media platforms to use or
+disclose information collected for age verification purposes for any other
+purpose, apart from the need to comply with the law or a court ruling.
+Inserting a role for parents
+1.35 Regardless of whether this bill passes, parents will remain at the frontline of
+monitoring and restricting children's use of social media. It is reasonable for the
+Government to help parents in this battle. It is unreasonable to expect any
+Government to completely replace the role of parents.
+1.36 It is strange then that this bill makes no mention of parents at all. This is despite
+the Government admitting that no law can prevent all harmful use of social
+media by children. A better approach would be for Government and parents to
+work together to limit harms.
+1.37 The original proposal for a social media ban by the South Australian
+Government included parental involvement. South Australia's proposal was for
+a ban to cover children under 14. Under this approach, 14- and 15-year-olds,
+could open social media accounts with parental consent. This approach has also
+been adopted in Florida.
+1.38 This would be a sensible alternative to the current Government heavy -handed
+approach. Parents are in the best position to understand the needs of their
+children. A partnership between Government and parents offers the best
+approach to reduce social media harm.
+1.39 To achieve this, the bill could be amended so that the Minister has the power to
+exempt classes of under-16 year olds from the provisions of the bill providing
+parental consent is provided in all such cases. One class could be children
+between 14 and 16 years old. Another class could be children with certain
+learning disabilities. Another could be children engaged in educational or
+vocational activities such as Leo Puglisi's @6NewsAu current affairs channel.
+Note that while the Minister can, at the moment, exempt entire social media
+36
+platforms, there is no such ability to exempt particular children who may have
+a legitimate need for social media access.
+Recommendation 5
+1.40 The bill be amended to allow the Minister to exempt classes of children from
+the age-verification restrictions provided that parental consent is given in
+these circumstances.
+Tightening the definition of social media platform
+1.41 In evidence to the committee, the Department accepted that the definition of
+social media platform has been made intentionally broad and further that the
+Minister can restrict the definition through particular exemptions. The current
+definition includes a service that enables ‘online social interaction between 2 or
+more end-users’. This would cover almost all interaction on the internet from
+Facebook to Strava and WhatsApp to newspaper apps (most newspapers allow
+for comments sections). There is no evidence that many of these services have
+played any role in harming young children.
+1.42 It is understandable that the Government has rested on a definition close to one
+that is already in the Online Safety Act. But that Act covers a much wider range
+of issues. For the social media ban to be successful, it is essential that it remains
+focused on those apps that do the most damage to young children.
+1.43 A better approach would be to focus the definition to only cover platforms with
+features most associated with harms to young children. This has been the
+approach in a Florida law passed earlier this year.
+1.44 The Florida law defines a social media platform as one that has all of the
+following features:
+ allows for upload of content or to view content of other users,
+ ten per cent of daily active users who are under 16 use the service for an
+average of 2 hours per day or longer, or
+ employs algorithms to select content for users,
+1.45 and the platform must have at least one of the following features:
+ infinite scrolling,
+ push notifications,
+ displays individual metric (likes, shares, etc),
+ auto-playing of videos, or
+ live-streaming.
+1.46 Ideally the committee would have more time to evaluate the suitably of a more
+targeted definition appropriate for the Australian context. Yet, given the
+condensed time frame it would be better to err on the side of a narrowly focused
+law that can concentrate on the main harms rather than a broad law that would
+distract the Minister by requiring him or her to make endless exemptions.
+37
+Recommendation 6
+1.47 That the bill be amended to more narrowly define a social media platform,
+similar to the definition of a social media law under the Florida Online
+Protection for Minors Act.
+Senator the Hon Matthew Canavan
+Participating Member
+
+Australian Greens' Dissenting Report
+1.1 The Australian Greens are extremely disappointed to see the major parties
+attempt to ram through this so-called ‘world-leading’ legislation without any
+scrutiny, despite its many complexities and far-reaching consequences. This has
+happened just days after the Joint Select Committee on Social Media and
+Australian Society (Joint Select Committee) handed down its final majority
+report which did not recommend an age ban on social media to lock young
+people out.
+1.2 The Joint Select Committee heard over and over that an age-ban will not make
+social media safer for anyone. Instead, what the recommendations in that
+majority report were designed to do is make platforms safer for all Australians,
+with fit-for-purpose regulation that will disrupt the predatory business models
+of the tech giants and help to hold them accountable. They were intended to
+empower and educate young people, and all social media users, not punish
+them, with the onus on the tech companies making enormous profits from hate,
+outrage and targeted advertising to act with a duty of care and be held
+accountable.
+1.3 With this context, the major parties’ intention to pass this legislation in under a
+week is rushed, reckless and goes against expert evidence. It also comes before
+the Australian Government has released the Online Safety Act 2021 review and
+its 67 recommendations, and ahead of the age assurance trial being undertaken
+by the Government.
+1.4 Despite experts, young people and the broader community having had minimal
+time to make submissions or be heard by the Senate, it has become evident that
+this bill is a complex idea with little support. It could have far-reaching
+consequences for privacy, mental health, silencing young peoples’ voices and
+online safety for everyone in the long-run ‒ and may even be unconstitutional.1
+These concerns must be appropriately considered before rushing in a ban to lock
+young people out of social media.
+1.5 Parents are rightly concerned about the safety of their children online—but
+while this bill seems like a solution, it is a band aid that does nothing to resolve
+the root causes of online harms. Prohibition is not how you make platforms safer
+or empower citizens, including young people, to navigate the online world in a
+safe way. Instead, young people will either get around it, be pushed into darker
+1 Professor Sarah Joseph, ‘Banning under-16s from social media may be unconstitutional – and ripe
+for High Court challenge’, The Conversation, 25 November 2024; Human Rights Law Centre,
+Albanese Government should curb social media harms, instead of banning social media for teens.
+39
+40
+and less safe corners of the internet, or be dropped in the deep end when they
+turn 16—and the platforms will be no safer when they do.
+1.6 Many mental health experts and academics have spoken against the bill,
+highlighting the benefits of online spaces for young people in connecting and
+learning. At particular risk are young people in regional and rural areas and
+LGBTIQA+ kids who use social media to feel less isolated and to connect with
+others which boosts their mental health. In addition, social media provides a
+platform for young people to engage in politics or kickstart future careers, and
+banning platforms would stifle this ability. Social media is a critical source of
+political information and communication for children − not only would this ban
+potentially impede on freedom of political communication, raising questions of
+constitutionality, but banning young people from these platforms would
+suppress future youth-led initiatives like the Schools Strike 4 Climate movement
+or Channel 6 news, founded by Leo Puglisi at the age of 12.
+1.7 Less explored and investigated due to the outrageous timeframe for this inquiry,
+is the impact that banning social media will have on other industries like
+Australian music. Discoverability is the major challenge for up-and-coming
+Australian artists, and many rely on social media platforms to reach new
+audiences. Banning young people from platforms will curb the ability of young
+audiences to discover new music, right at the age when they are developing and
+exploring their musical tastes. It will also stop younger artists sharing their work
+which has proven to be absolutely vital to the success of award-winning
+Australian artists like Troye Sivan and Ruel who were sharing their music on
+YouTube and other social media platforms years before they turned 16.
+1.8 Community members have raised privacy concerns about data being provided
+to platforms in order to enforce an age ban. The bill does not prescribe how
+platforms will monitor and enforce an age ban, and the Australian
+Government’s age assurance trial is yet to commence. While the bill implements
+some privacy protections to prohibit platforms from using information collected
+for age assurance, many community members and experts have concerns about
+the sharing of important data with historically untrustworthy platforms who
+profit from selling users’ data.
+1.9 The Australian Government has indicated its intention to create exemptions for
+certain websites under regulation down the track. However, the approach to
+implement a blanket ban and then exempt certain platforms later leaves a lot of
+responsibility to a future government and uncertainty remains for young people
+and platforms. Some platforms, like Google, have suggested a designation
+approach rather than exemption approach.
+1.10 Ultimately, as highlighted time and time again, the approach of a ban will not
+make online spaces safer for anyone. Everyone is on the same page about
+needing to make online spaces safer, but experts across a range of fields and
+41
+young people are calling strongly not for prohibition but for regulation of the
+platforms themselves, including legislating a duty of care. There are
+international examples to draw on, such as the European Union’s Digital Services
+Act which has a number of protections for minors, including banning use of
+profiling for ads on children, and implementing obligations for children’s safety
+that providers must abide by. We can’t let the tech giants off the hook, and need
+real solutions to address the root of harms including dangerous algorithms that
+target our communities with divisive and damaging content.
+1.11 Given this legislation would be a world first—with no country successfully
+implementing an age ban—it is more important than ever that the detail is
+thought out properly. Yet seemingly no evidence or consultation with experts
+has been taken into account. In this context, the Australian Government's
+proposed ban on social media appears to be a knee-jerk reaction to a complex
+problem. Parents are rightfully worried about the safety of their kids online, but
+they also know unless platforms are forced to clean up their act, their child won’t
+be safe online when they turn 16 either.
+Recommendation 1
+1.12 That the bill not pass.
+Recommendation 2
+1.13 That the bill be referred to further inquiry.
+Recommendation 3
+1.14 That the Australian Government introduce legislation to implement a digital
+duty of care and prohibit platforms from harvesting and exploiting the data
+of minors and protect young people from targeted, unsolicited advertisements
+and algorithms as a matter of priority.
+Recommendation 4
+1.15 That the Minister for Communications immediately release the Online Safety
+Act 2021 review.
+Recommendation 5
+1.16 That the Australian Government invest in education for young people and
+their families to help develop digital literacy and online safety skills, and
+equip them with the tools and resources they need for positive and
+responsible online use.
+42
+Senator Sarah Hanson-Young
+Deputy Chair
+Additional Comments from Senator David Pocock
+1.1 I support the intent of this bill. The harms of social media platforms are
+undeniable. Children are increasingly having a phone-based childhood and
+missing out on key developmental milestones as a result of spending hours
+every day on intentionally addictive platforms. As one young constituent who
+wrote to me said after hearing me quote a research paper that was based on
+self-reporting of social media use:
+Your generous estimate of 2–5 hours of daily screen time is far below what
+I’ve observed among my peers; some spend up to 10 hours a day scrolling.
+For me, it has been the first thing I check in the morning and the last thing I
+see before bed, as well as the time spent during the day, and I deeply regret
+how much of my childhood has been consumed by this habit.
+1.2 We need to address this as a Parliament and ensure we are doing everything we
+can to reduce screen time and the negative impacts of social media on young
+people and to ensure they have access to real world social connection and
+experiences to build critical communication and conflict resolution skills, as well
+as resilience.
+1.3 Engaging with experts through this process, it has become abundantly clear that
+a ban in isolation will not deliver the outcomes we seek. The lives of young
+people have become a blend of digital and real world and dealing with this
+intertwined relationship will require nuance and deep consideration. The fact
+that this bill was drafted in a couple of months and the only scrutiny it has
+received is a senate inquiry spanning less than three days is farcical and an insult
+to the democratic process.
+1.4 It seems strange to be rushing a bill like this through the Parliament when it
+doesn’t come into effect until 2026 and experts and stakeholders are warning us
+that it needs deep consideration.
+1.5 I acknowledge that the Australian Government is working to minimise the
+harms facing young people and I applaud this. But this has not been the case
+with my bill for a Duty of Care on climate, or banning gambling advertising as
+recommended by the Murphy Review (which the Prime Minister seems to have
+kicked beyond the next election), or the many recommendations of changes to
+the Privacy Act 1988 that have also been pushed into the future.
+1.6 It’s also not lost on me that no young people were represented at the inquiry. I
+had a motion in the senate to ensure young people were heard from, but due to
+the overly short senate inquiry timeline, the Senate did not even get to vote on
+the motion before the hearings took place.
+1.7 Young people may not vote, but they have a right to have a say about the laws
+that will impact them, including at inquiries of the Senate. This Parliament needs
+43
+44
+to do better in consulting young people about their views and thoughts on
+proposed legislation generally, but particularly on laws that are designed to
+restrict them from social media.
+1.8 The inquiry would have been richer if, as senators, we had the opportunity to
+speak with young people about the harms they feel digital platforms cause them
+or their peers and what they would like to see done to address those harms.
+1.9 While at least one witness brought the stories of some young people with them,
+it is not a substitute to hearing their views directly and I would urge the
+Government and the Senate to reflect on the absolute contempt that it shows to
+young people to not even try to facilitate hearing their views within this inquiry.
+1.10 It also cannot be ignored that we do not know how the platforms will be
+expected to run their age assurance systems. The age assurance trial is still
+underway and is not expected to report its results until next year.
+1.11 The recent report of the Covid-19 inquiry told us that trust and public
+confidence in our public institutions is lost when governments do not act
+transparently, fairly or proportionately.
+1.12 The lack of detail around how age assurance activities are expected to be
+undertaken gives way to arguments that the Government will seek to introduce
+a mandatory Digital ID.
+1.13 I don’t believe this is accurate, but it’s not fair to simply dismiss these concerns
+by Australians, which I’m sure are genuinely held. As politicians, it should be
+our duty to engage with these concerns when they arise and to consider how we
+can work to genuinely solve them, if that is an appropriate course of action. But
+of course, we just don’t know how age assurance will work under this bill. There
+are no answers, and a three-day Senate inquiry is ill-equipped to ensure senators
+are provided with the technical expertise they need to understand the
+limitations on age assurance technologies.
+1.14 At the very least, I believe the bill should be amended to specifically prohibit the
+use of the government’s Digital ID system as a means to conduct age assurance.
+I further believe that any determination of what would constitute ‘reasonable
+steps’ in terms of age assurance should be reviewable by the Parliament and
+should be disallowable, particularly when the Parliament can currently not
+make a judgement on what these reasonable steps will entail before it is asked
+to vote on this bill.
+45
+Recommendations
+1.15 If we truly want to say we have done everything we can to minimise the harms
+young people are exposed to, we should:
+Recommendation 1
+1.16 Extend the Senate inquiry to allow adequate time for the committee to engage
+with young people, mental health experts, technology experts, privacy
+experts, digital rights advocates and other interest groups, so that it can fully
+consider the implications of this bill.
+Recommendation 2
+1.17 Ensure that any ban is not made in isolation. It’s clear we need an ecosystem
+approach to improving the mental health of young people. If a ban is to be
+introduced, it should be part of a package including the Digital Duty of Care
+and strengthened privacy protections, as well as, but not limited to,
+investment in better mental health support, common spaces, community
+sport, arts and music, and other recreational activities. And as I recommended
+in my dissenting report into the Communications Legislation Amendment
+(Combatting Misinformation and Disinformation) Bill 2024, there is an
+urgent need for increased transparency and access to data for researchers to
+assess the impacts of these platforms.
+Recommendation 3
+1.18 Secure a commitment from the government to implement all
+recommendations from the Privacy Act 1988 review before this comes into
+effect in 2026.
+Recommendation 4
+1.19 Amend the bill to have all legislative instruments automatically referred for
+review by the Environment and Communications Legislation Committee.
+Recommendation 5
+1.20 Amend the bill so that data collected for the purposes of age assurance cannot
+be used for any other secondary purpose, other than to comply with the law.
+Recommendation 6
+1.21 Have the Australian Government develop and fund media literacy training to
+be delivered throughout Australian schools, community hubs like libraries
+and by other community organisations.
+46
+Recommendation 7
+1.22 Ban all forms of gambling advertising which are also causing immense harm
+to young people.
+1.23 Lastly, I would like to note the incredible work and dedication of the
+Environment and Communications Committee secretariat to facilitate this
+inquiry on extremely short notice. They have gone above and beyond to make
+this happen, working all weekend and making themselves available at all times
+of the day. It is embarrassing how little regard the parliament pays to the
+workload of secretariats in these sorts of circumstances.
+1.24 I will reserve my voting position on the bill and will continue to speak to my
+colleagues about ensuring the committee—and all senators—are provided
+enough time to scrutinise the bill and consider its implications.
+Senator David Pocock
+Participating Member
+Appendix 1
+Submissions and additional Information
+1 Minus18
+2 PivotNine Pty Ltd
+3 Valid Agenda Pty Ltd
+4 Property Owners' Association of Victoria
+5 Pride in Swan Inc.
+6 6 News Australia
+7 The Age Verification Providers Association
+8 First Nations Peoples Aboriginal Corporation
+9 UNICEF Australia
+10 Young Labor Left NSW
+11 Australian Gaming & Screens Alliance
+12 Office of the Australian Information Commissioner
+13 Internet Association of Australia
+14 Digital Games Research Association of Australia
+15 Safe on Social
+16 The University of Sydney
+17 Common Sense Party of Australia
+18 Western Sydney University School of Law Social Media Working Party
+19 Australian Psychological Society
+20 Australian Democrats
+21 Equality Building
+22 Digital Rights Watch
+23 ARC Centre of Excellence for the Digital Child
+24 Free Speech Union of Australia
+25 QUT Digital Media Research Centre
+26 Liberty Victoria
+27 Cybersecurity Research Group, University of Melbourne
+28 Office of the eSafety Commissioner
+29 Queensland Family & Child Commission
+30 ReachOut
+31 LinkedIn
+32 College of Arts, Business, Law and Social Sciences, Murdoch University
+33 Metis Law
+34 Bravehearts
+35 Bank Reform Now
+36 Electronic Frontiers Australia
+37 Advocacy for Inclusion
+47
+48
+38 Australian Communications Consumer Action Network
+39 Institute of Public Affairs
+40 Collective Shout
+41 Premier of South Australia
+42 X
+43 Digital Industry Group Inc.
+44 Snap Inc.
+45 Movember
+46 Tech Council of Australia
+47 CitizenGO Australia
+48 Australian Child Rights Taskforce
+49 Bloom-ed
+50 United Nations Youth Australia
+51 Dr Leila Green and academics at School of Arts and Humanities, Edith Cowan
+University
+52 Dr Susan Grantham, Griffith University
+53 United Notions Film
+54 Lidcombe Community Soccer Club
+55 National Electoral Representatives Alignment
+56 Meeum
+57 batyr
+58 Aligned Council of Australia
+59 Youth Law Australia
+60 Youth Affairs Council Victoria
+61 Social Media Research Institute
+62 Pirate Party Australia
+63 Outroll Pty Ltd
+64 LGBTIQ+ Health Australia
+65 Orygen
+66 PROJECT ROCKIT
+67 headspace
+68 Alannah & Madeline Foundation
+69 Selected Academics from Flinders University
+70 Queer Liberation Boorloo
+71 Australian Youth Affairs Coalition
+72 AI Institute
+73 Progressive Therapeutic Collective
+74 AI Ally Project
+75 Enriching Lives Psychology
+76 Inner West Youth Theatre
+77 Ashley, Francina, Leonard & Associates
+78 Libertarian Party
+79 Australian Business and Leadership School
+49
+80 Shooters Fishers & Farmers Tasmania
+81 Google
+82 Australian National University Law Reform and Social Justice Research Hub
+83 World Council for Health Australia
+84 Australian Citizens Party
+85 Lighthouse on Federal
+86 International Social Games Association
+87 JPB Liberty Pty Ltd
+88 Prof. Marcus Foth
+89 Gayaa Dhuwi (Proud Spirit) Australia
+90 Professor Marcus Carter, Dr Taylor Hardwick, and Dr Ben Egliston
+91 New World Alliances
+92 Children and Media Australia
+93 ChildFund Australia
+94 The Canberra Declaration
+95 WeCollaborate
+96 Australian Human Rights Commission
+97 Australians for Science and Freedom
+98 Australian Feminists for Women's Rights
+99 Amnesty International Australia
+100 Meta
+101 eSafety Youth Council
+102 TikTok Australia
+103 ARACY
+104 Human Rights Law Centre
+105 Children and Young People with Disability Australia
+106 Great Ocean Road Allied Health Pty Ltd
+107 International Centre for Missing & Exploited Children
+ Attachment 1
+50
+Answer to Question on Notice
+1 Department of Infrastructure, Transport, Regional Development,
+Communications and the Arts, answer to question on notice, 25 November
+2024 (received 25 November 2024)
+2 Department of Infrastructure, Transport, Regional Development,
+Communications and the Arts, answer to question on notice, 25 November
+2024 (received 26 November 2024)
+Tabled Documents
+1 Submission 70 from the Joint Select Committee on Social Media and
+Australian Society, tabled by Senator Karen Grogan on 25 November 2024.
+2 Submission 69 from the Joint Select Committee on Social Media and
+Australian Society, tabled by Senator Karen Grogan on 25 November 2024.
+3 Submission 207 from the Joint Select Committee on Social Media and
+Australian Society, tabled by Senator Karen Grogan on 25 November 2024.
+4 Submission 121 from the Joint Select Committee on Social Media and
+Australian Society, tabled by Senator Karen Grogan on 25 November 2024.
+5 Submission 220 from the Joint Select Committee on Social Media and
+Australian Society, tabled by Senator Karen Grogan on 25 November 2024.
+6 Submission 199 from the Joint Select Committee on Social Media and
+Australian Society, tabled by Senator Karen Grogan on 25 November 2024.
+7 Opinion article by Dr Simon Wilksch "Psychologist explains why raising
+minimum age can reduce social media harm", tabled by Senator Karen
+Grogan on 25 November 2024.
+8 Article by Anglra Bharadwaj "Tech giants' fibs on kids", tabled by Senator the
+Hon Sarah Henderson on 25 November 2024.
+9 Digital Industry Group Inc., Opening Statement, Tabled 25 November 2024.
+10 Project Rockit, Opening Statement, Tabled 25 November 2024.
+11 Professor Susan Sawyer, Opening Statement, Tabled 25 November 2024.
+12 Article by Zachary Ward, Centre for Health Decision Science, "Kids' Ad
+Revenue for Social Media", tabled by Senator Dave Sharma on 25 November
+2024.
+13 Dr Danielle Einstein, Opening Statement, 25 November 2024.
+14 Submission 1 from the Joint Select Committee on Social Media and Australian
+Society, tabled by Senator Lisa Darmanin on 25 November 2024.
+Appendix 2
+Public Hearings and Witnesses
+Monday 25 November 2024
+Committee Room 2S3
+Australian Parliament House
+Canberra
+Project Rockit
+ Ms Lucy Thomas OAM, Chief Executive Officer
+Headspace National Youth Mental Health Foundation
+ Ms Nicola Palfrey, Head of Clinical Leadership
+ Ms Julie Petering, Principal Policy Advisor
+Murdoch Children's Research Institute
+ Professor Susan Sawyer, Research Fellow
+Dr Danielle Einstein, Private capacity
+Digital Industry Group (DIGI)
+ Ms Sunita Bose, Managing Director
+ Dr Jennifer Duxbury, Director of Policy Regulatory Affairs and Research
+Department of Infrastructure, Transport, Regional Development, Communications and the
+Arts
+ Mr James Chisholm, Deputy Secretary, Communications and Media Group
+ Ms Sarah Vandenbroek, First Assistant Secretary, Digital Platforms, Safety
+and Classification Division
+ Mr Andrew Irwin, Assistant Secretary, Online Safety Branch
+ Mr Nolan Noeng, Specialist Advisor, Online Safety Branch
+Office of the Australian Information Commissioner
+ Ms Carly Kind, Privacy Commissioner
+51

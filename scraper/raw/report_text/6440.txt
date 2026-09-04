@@ -1,0 +1,2401 @@
+The Senate
+Economics Legislation Committee
+Treasury Laws Amendment (Delivering
+Better Financial Outcomes and Other
+Measures) Bill 2024 [Provisions]
+June 2024
+© Commonwealth of Australia 2024
+ISBN 978-1-76093-681-5 (Printed version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by the Senate Printing Unit, Parliament House, Canberra
+Members
+Chair
+Senator Jess Walsh ALP, VIC
+Deputy Chair
+Senator Andrew Bragg LP, NSW
+Members
+Senator Deborah O'Neill ALP, NSW
+Senator Jana Stewart ALP, VIC
+Senator Nick McKim AG, TAS
+Senator Dean Smith LP, WA
+Participating Members
+Senator Sarah Hanson-Young AG, SA
+Secretariat
+Sean Turner, Committee Secretary (from 27 May)
+Alan Raine, Committee Secretary (to 24 May)
+Daniel Greiss, Senior Research Officer
+Bryn Catlin, Administrative Officer
+PO Box 6100
+Parliament House Ph: (02) 6277 3540
+Canberra ACT 2600 Email: economics.sen@aph.gov.au
+iii
+
+Contents
+Members..............................................................................................................................................iii
+Abbreviations and Acronyms.........................................................................................................vii
+Chapter 1—Introduction.....................................................................................................................1
+Referral of the inquiry..........................................................................................................................1
+Conduct of the inquiry.........................................................................................................................1
+Structure of report.................................................................................................................................1
+Purpose of the bill.................................................................................................................................1
+Implementing the ‘Delivering Better Financial Outcomes’ package..................................1
+Recommendations to be implemented from the Quality of Advice Review.........2
+Petroleum resource rent tax changes......................................................................................3
+Improving legislative efficiency and remedying unintended consequences ...................4
+Increasing screen industry tax incentives through the location offset rebate...................4
+Provisions of the bill.............................................................................................................................4
+Schedule 1 – Financial outcomes amendments.....................................................................4
+Requirements for paying advice fees from member’s interest in a fund...............5
+Client consent requirements for fees...........................................................................6
+Termination of arrangements and refunds of fees....................................................9
+Tax deduction of superannuation fees......................................................................11
+Flexibility for providing Financial Services Guide information............................12
+Conflicted remuneration.............................................................................................13
+Commencement, application and transition for existing fee arrangements........16
+Schedule 2 – Petroleum resource rent tax anti-avoidance rules.......................................18
+Previous changes to the general anti-avoidance rules ...........................................18
+Proposed changes to the petroleum rent resource tax anti-avoidance rules ......19
+Schedule 3 – Capital allowances for mining, quarrying or prospecting rights, and
+clarifying the meaning of exploration for petroleum.........................................................20
+Commencement, application and transitional provisions.....................................21
+Schedule 4 – Multilateral development banks.....................................................................21
+Schedule 5 – Miscellaneous and technical amendments....................................................22
+Schedule 6 – Location offset and producer offset for films...............................................24
+v
+Legislative scrutiny.............................................................................................................................25
+Acknowledgements............................................................................................................................25
+Chapter 2—Views on the bill...........................................................................................................27
+Introduction.........................................................................................................................................27
+Amendments relating to financial advice and superannuation...................................................27
+Criteria for paying financial product advice fees from member’s interest in fund.......27
+Obligation on trustees to check advice......................................................................29
+Consent to fee arrangements .................................................................................................34
+Use of the term ‘relevant product’........................................................................................36
+Provision of Financial Services Guides.................................................................................36
+Receiving or giving conflicted remuneration......................................................................36
+Amendments relating to the oil and gas industry.........................................................................37
+Changes to the meaning of ‘exploration for petroleum’....................................................37
+Tax deductions for mining, quarrying and prospecting rights ........................................37
+Proposed retrospectivity of amendments............................................................................38
+Tax offsets for the film and screen industry....................................................................................38
+Support from industry............................................................................................................38
+Suggestions for further amendments....................................................................................39
+Miscellaneous and technical amendments......................................................................................41
+Multilateral development banks.......................................................................................................42
+Committee view..................................................................................................................................42
+Coalition Senators' Dissenting Report..........................................................................................45
+Greens Senators' additional comments.........................................................................................57
+Appendix 1—Submissions and additional information............................................................59
+Appendix 2—Public Hearings and Witnesses..............................................................................61
+vi
+Abbreviations and Acronyms
+ADIs authorised deposit-taking institutions
+AEP Australian Energy Producers
+AFS Australian Financial Services
+ASFA Australian Superannuation Funds Association
+ASIC Australian Securities and Investments Commission
+AWG Australian Writers’ Guild
+the bill Treasury Laws Amendment (Delivering Better Financial
+Outcomes and Other Measures) Bill 2024
+CALI Council of Australian Life Insurers
+The Committee Senate Economics Legislation Committee
+Corporations Act Corporations Act 2001
+EM Explanatory Memorandum
+FSG Financial Services Guide
+FSG Financial Services Guide
+GAAR general anti-avoidance rules
+ICA Insurance Council of Australia
+IMF International Monetary Fund
+ITA Act 1936 Income Tax Assessment Act 1936
+ITA Act 1997 Income Tax Assessment Act 1997
+MDBs Multilateral Development Banks
+MQPRs mining, quarrying, or prospecting rights
+OECD Organisation for Economic Co-operation and Development
+PRRT petroleum resource rent tax
+PRRTA Act Petroleum Resource Rent Tax Assessment Act 1987
+SAC Significant Australian Content
+SCA Super Consumers Australia
+SIAA Stockbrokers and Investment Advisers Association
+SIS Act Superannuation Industry (Supervision) Act 1993
+Treasury Department of the Treasury
+vii
+
+Chapter 1
+Introduction
+Referral of the inquiry
+1.1 The Treasury Laws Amendment (Delivering Better Financial Outcomes and
+Other Measures) Bill 2024 (the bill) was introduced in the House of
+Representatives and read for a first time on 27 March 2024.
+1.2 On 27 March 2024, the Senate referred the provisions of the bill to the Senate
+Economics Legislation Committee for inquiry and report by 20 June 2024.
+1.3 On 20 June 2024, the committee presented a progress report seeking an
+extension of time to report. This extension was to 21 June 2024.
+Conduct of the inquiry
+1.4 The committee advertised the inquiry on its website and wrote to relevant
+stakeholders and interested parties to invite written submissions by
+26 April 2024.
+1.5 The committee received and published 59 submissions, of which one was
+accepted as name withheld. The committee also received six
+confidential submissions.
+1.6 The committee held one public hearing for the inquiry at Parliament House on
+13 June 2024. The names of witnesses who appeared at the hearing can be found
+at Appendix 1. The committee also received additional information and answers
+to questions on notice, which are listed at Appendix 2.
+Structure of report
+1.7 Chapter 1 of this report provides an overview of the bill and the conduct of the
+inquiry. Chapter 2 summarises the views of inquiry participants on the bill, and
+in turn provides the committee view and recommendation.
+Purpose of the bill
+1.8 The bill contains six schedules, which would amend several Acts to achieve a
+range of outcomes, as outlined below.
+Implementing the ‘Delivering Better Financial Outcomes’ package
+1.9 In response to several recommendations of the 2019 Royal Commission into
+Misconduct in the Banking, Superannuation and Financial Services Industry, in
+March 2022 the then government initiated an independent review of the
+1
+2
+effectiveness of measures to improve the quality of financial advice.1 The
+resulting Quality of Advice Review (the Review), led by Ms Michelle Levy,
+considered ‘how the regulatory framework could better enable the provision of
+high quality, accessible and affordable financial advice for retail clients
+(consumers)’.2 The final report of the Review (December 2022) made 22
+recommendations.3
+1.10 Schedule 1 of the bill would implement 11 of those recommendations and
+deliver the first tranche of measures of the Government’s Delivering Better
+Financial Outcomes package.4
+1.11 Summarising the Tranche 1 reforms, the Explanatory Memorandum states the
+amendments will provide legal certainty for the payment of financial adviser
+fees from a member’s superannuation fund account, remove red tape that makes
+financial advice more costly than it needs to be, and support increased access to
+affordable financial advice for millions of Australians.5
+Recommendations to be implemented from the Quality of Advice Review
+1.12 The bill implements measures responding to the following recommendations of
+the Review:
+ Recommendation 7, to provide more certainty to superannuation fund
+trustees about deduction of adviser fees from members’
+superannuation accounts;6
+ Recommendation 8, to consolidate the administrative steps in obtaining
+clients’ consent to ongoing fee arrangements;7
+ Recommendation 10, to allow advice providers the flexibility to either
+provide clients with Financial Services Guides or to make information
+publicly available on their website;8
+ Recommendation 13.1, to clarify that clients may provide Australian
+Financial Services (AFS) licensees with monetary and non-monetary
+1 Treasury, ‘Quality of Advice Review’, https://treasury.gov.au/review/quality-advice-review
+(accessed 17 June 2024).
+2 Treasury, Quality of Advice Review – Final Report, February 2023,
+https://treasury.gov.au/publication/p2023-358632.
+3 Explanatory Memorandum (EM), p. 10.
+4 EM, p. 10.
+5 EM, p. 1.
+6 EM, p. 12.
+7 EM, p. 27.
+8 EM, p. 48.
+3
+benefits, and that the prohibition on accepting conflicted remuneration
+applies where these benefits are given by product issuers, not clients;9
+ Recommendation 13.2, to enable clients to authorise trustees to pay AFS
+licensees an advice fee directly from the client’s superannuation fund;10
+ Recommendation 13.3, to remove ‘likely redundant’ exceptions to the
+prohibition on AFS licensees accepting certain benefits from clients,
+following Recommendation 13.1;11
+ Recommendation 13.4, to remove an exception that allowed AFS licensees
+and representatives to accept monetary benefits for providing financial
+product advice, where they had not provided advice about that product or
+class of products for at least 12 months prior to the provision of the benefit;12
+ Recommendation 13.5, to remove an exception that allowed employees of
+authorised deposit-taking institutions (ADIs) to receive benefits for
+recommending certain banking, insurance, or credit insurance products;13
+ Recommendation 13.7, to maintain current commission arrangements for
+life risk insurance products, but requiring an adviser to obtain their retail
+client’s informed consent before accepting a commission;14
+ Recommendation 13.8, to maintain current remuneration allowances for
+advisers of retail clients in relation to general insurance products, but
+requiring an adviser to obtain their retail client’s informed consent before
+accepting a commission;15
+ Recommendation 13.9, to maintain current arrangements for consumer
+credit insurance advisers, who are currently able to obtain commissions for
+advising retail clients up to a cap of 20 per cent of the premium, but
+requiring an adviser to obtain their retail client’s informed consent before
+accepting a commission.16
+Petroleum resource rent tax changes
+1.13 Schedule 2 to the bill would update the petroleum resource rent tax (PRRT) anti-
+avoidance rules so they align with the more robust anti-avoidance rules
+contained in part IVA of the Income Tax Assessment Act 1936 (ITA Act 1936).17
+9 EM, p. 59.
+10 EM, p. 60.
+11 EM, p. 60.
+12 EM, pp. 63–64.
+13 EM, p. 64.
+14 EM, p. 67.
+15 EM, p. 68.
+16 EM, pp. 68–69.
+17 EM, p. 2.
+4
+1.14 Schedule 3 to the bill would amend the Petroleum Resource Rent Tax Assessment
+Act 1987 to clarify the meaning of the phrase ‘exploration for petroleum’. It
+would also clarify that mining, quarrying or prospecting rights cannot be
+depreciated for income tax purposes until those rights are used, as well as
+clarifying circumstances where issuing new rights over areas covered by
+existing rights leads to income tax adjustments.18
+Improving legislative efficiency and remedying unintended consequences
+1.15 Schedule 4 would amend legislation governing Australia’s agreements with
+various Multilateral Development Banks (MDBs)19 and the International
+Monetary Fund (IMF). As a result of these amendments, and consistent with
+modern drafting practice, changes to Australia’s agreements with these MDBs
+and the IMF would be automatically incorporated into domestic legislation
+by reference.20
+1.16 Schedule 5 would amend various laws falling within the Treasury portfolio,
+making minor changes to improve outcomes, address drafting defects and
+remedy unintended consequences.21
+Increasing screen industry tax incentives through the location offset rebate
+1.17 Schedule 6 would amend the Income Tax Assessment Act 1997 (ITA Act 1997) to
+increase the location offset and production offset tax rebates for qualifying
+Australian screen productions. It would also change the qualifying requirement
+for the location offset. According to the Explanatory Memorandum, these
+changes would incentivise international investment in the Australian screen
+industry and maximise the employment and training opportunities provided
+domestically.22
+Provisions of the bill
+Schedule 1 – Financial outcomes amendments
+1.18 As noted above, the amendments in Schedule 1 respond to several
+recommendations made by the Quality of Advice Review.
+1.19 Schedule 1 would amend the Corporations Act 2001 (Corporations Act), the
+Superannuation Industry (Supervision) Act 1993 (SIS Act), and other Acts to
+implement these changes.
+18 EM, p. 79.
+19 The Asian Development Bank, the European Bank for Reconstruction and Development, and the
+International Bank for Reconstruction and Development.
+20 EM, p. 89.
+21 EM, p. 95.
+22 EM, p. 107.
+5
+Requirements for paying advice fees from member’s interest in a fund
+1.20 Division 1 of Part 1 of Schedule 1 would repeal and replace section 99FA of the
+SIS Act to provide greater clarity about when and on what basis trustees can pay
+fees for advice from a member’s superannuation interest.23
+1.21 Members of superannuation funds are able to obtain advice from financial
+advisers about their superannuation interests. This includes where an adviser
+provides advice to a member individually, with the trustee paying the fee for
+advice from the member’s superannuation fund.24
+1.22 The stated intention of these changes to section 99FA is to provide clarity
+regarding the legal basis for charging these fees, and to provide superannuation
+fund trustees with certainty about paying advice fees from members’
+superannuation accounts.25
+1.23 The EM explains that the current section 99FA of the SIS Act was inserted by the
+Financial Sector Reform (Hayne Royal Commission Response No. 2) Act 2020 with the
+intention of preventing trustees from charging members for advice, except
+where the member had entered into an arrangement for the cost of advice, and
+the trustee held the member’s written, express consent to being charged for
+the advice.26
+1.24 The Quality of Advice Review found that section 99FA did not provide a clear
+legal basis for paying fees from a member’s superannuation funds and
+recommended that this section be replaced.27
+1.25 The new subsection 99FA(1) would introduce a number of requirements that
+must be satisfied before a trustee or trustees pay the cost of advice from a
+member’s interest in a fund.28 This includes new consent requirements, which
+are outlined below.
+1.26 The new section 99FA would require that fees for financial product advice are
+paid only where that advice is wholly or partly about the member’s interest in
+the fund. This is intended to ensure that the advice that members receive relates
+specifically to the member’s interest.29
+1.27 The changes would also introduce a requirement that the amount charged for
+providing advice about the member’s interest in the fund must not exceed the
+23 EM, p. 13.
+24 EM, p. 12.
+25 EM, pp. 12–13.
+26 EM, p. 12.
+27 EM, p. 13.
+28 EM, pp. 13–14.
+29 EM, p. 14.
+6
+cost of providing that advice. While advice may deal with matters in addition to
+the member’s superannuation interest, this requirement is intended to ensure
+that the cost of providing advice about these additional matters is not charged
+against the member’s interest in the fund.30
+1.28 The amendments relating to the payment of advice fees from superannuation
+would commence the day after the bill receives Royal Assent. However, the
+amendments would apply to costs that are charged on or after the start day,
+which would be six months after the commencement day of the amendments.31
+1.29 In order to ensure minimal impact on one-off advice arrangements, there is a
+grace period for such arrangements, so that a written consent which meets the
+current section 99FA requirements would be taken to meet the new section 99FA
+requirements until either the arrangement is terminated or until the end of a
+period of 12 months beginning on the start day, whichever occurs sooner.32
+Client consent requirements for fees
+1.30 The bill would introduce new requirements for obtaining a client’s consent to
+enter, or renew, ongoing fee arrangements for advice. The bill would impose
+additional requirements for obtaining consent for the deductions of ongoing
+fees from accounts. It would also include powers for the Minister to prescribe a
+standardised consent form for ongoing fee arrangements.33
+1.31 The new consent requirements would reflect and codify the requirements
+currently found in the ASIC Corporations (Consent to Deductions – Ongoing
+Fee Arrangements) Instrument 2021/124.34
+1.32 The new written consent requirements replicate the current requirements in the
+SIS Act under paragraph 99FA(1)(b), with two changes. The language ‘passing
+the cost on’ is replaced with ‘charging the cost’, reflecting an intention to
+prohibit certain costs being charged against members interests in
+superannuation. The ‘written request’ is included as an alternative to ‘written
+consent’, more clearly covering situations where payment is made in response
+to a member’s request or consent.35
+30 EM, p. 15.
+31 EM, p. 1.
+32 EM, pp. 19–20.
+33 EM, p. 28.
+34 EM, p. 28.
+35 EM, p. 15.
+7
+1.33 These new requirements are intended to achieve several outcomes, including to
+require more active consent from clients, to set out details of an arrangement in
+writing in advance, and to enable clients to make informed decisions.36
+1.34 Where there are ongoing fee arrangements,37 the amendments would provide
+additional protection by requiring that the consent requirements of the
+Corporations Act that apply to ongoing fee arrangements, and related deduction
+arrangements, are met.38
+1.35 Changes to service would require a variation of consent, or a new consent, but
+changes to the name or contact details of the fee recipients would not trigger the
+need to vary or obtain new consent. This is intended to balance the objective of
+ensuring clients provide informed consent to fee arrangements with the
+streamlining of the administration of ongoing fee arrangements.39
+1.36 The Corporations Regulations would be able to prescribe additional information
+which must be disclosed to a person before obtaining consent. This is intended
+to ensure that the regulatory framework is kept up to date while providing
+commercial certainty, in the context of the diversity, complexity and evolving
+practices of the financial services industry.40
+1.37 Part 2 of Division 2 to Schedule 1 would establish streamlined and consolidated
+consent processes for clients’ entry into ongoing fee arrangements. Currently,
+fee recipients are required to give clients fee disclosures annually, no later than
+60 days after the anniversary of entry into the ongoing fee arrangement. These
+disclosures must include information services provided, fees paid, and
+information or estimates about the upcoming year.41
+1.38 Given the proposed new consent requirements, the requirement to provide fee
+disclosure statements to clients has been removed to reduce the cost of advice
+for clients.42
+1.39 An explanatory note underneath subsection 99FA(1) would clarify that trustees
+do not have to agree to members’ requests to charge costs, even when these
+requirements are satisfied. This would reflect specific language of the
+recommendation in the Quality of Advice Review and would ensure trustees
+36 EM, p. 29.
+37 ‘Ongoing fee arrangement’ is defined in the SIS Act and identically in Part 7.7A of the Corporations
+Act. EM, p. 16.
+38 EM, p. 16.
+39 EM, p. 30.
+40 EM, p. 30.
+41 EM, p. 25.
+42 EM, p. 28.
+8
+are able to remain flexible to meet their other obligations under the SIS Act. The
+Explanatory Memorandum notes, for example, that a ‘trustee could decline the
+member’s request if in their view it does not relate to the member’s beneficial
+interest in the fund or if charging the cost would be inconsistent with the
+trustee’s other regulatory obligations’.43
+1.40 The current section 962X would be retained, which establishes that it is a
+criminal offence for a fee recipient to fail to keep records to enable compliance
+in relation to the ongoing fee arrangement to be readily ascertained.44
+Additional requirements would apply in given situations, depending on
+whether there are ongoing fee arrangements or one-off advice is provided. This
+is intended to enhance consistency with current law, to ensure good
+recordkeeping and to ensure that arrangements are compliant.45
+Consent and request forms for paying fees
+1.41 The bill would insert a new section 962Y, which would provide the Minister the
+power to approve one or more forms for giving consent to enter into or renew
+an ongoing fee arrangement. There would be no requirement for the Minister to
+approve a form, but if the Minister approves such a consent form, consent must
+be obtained in the approved form.46
+1.42 The bill would also ensure that forms to obtain clients’ annual written consent
+to renew ongoing fee arrangements and to obtain authorisation to deduct fees
+from their financial products would be combined into a single form.47
+1.43 Ongoing fee arrangements will terminate if a client has not given written
+consent that complies with the new consent requirements in section 962G.
+Section 962H also outlines circumstances under which consent would cease to
+have effect for ongoing fee arrangements.48
+1.44 For one-off advice, the amendments would create minimum requirements for
+the form and content of the written request or written consent. These minimum
+requirements include the contact details and names of the member and financial
+advice provider, a description of the services the member is entitled to under
+the arrangement, and information prescribed in the SIS Regulations.49
+43 EM, pp. 14, 18.
+44 EM, p. 34.
+45 EM, p. 15.
+46 EM, p. 33.
+47 EM, pp. 27–28.
+48 EM, pp. 28–29.
+49 EM, pp. 16–18.
+9
+Flexibility for renewal of consent
+1.45 While consent is required to be obtained at least annually, Part 2 of the bill
+would make amendments to provide an extended window of time around that
+annual date. Clients and advisers would have the ability to agree an earlier
+renewal date at the time a consent is first signed or renewed.50
+1.46 Schedule 1 would also introduce flexibility for renewal of consent. The bill
+would allow a consent to specify a reference day for determining when the
+renewal period will start, which must be specified in the consent
+documentation. The bill would allow new consents to be given up to 60 days
+before the reference day discussed above, allowing clients to provide consent
+earlier than the reference day. Additionally, a new compliant consent must be
+given on or before 150 days after the reference day.51
+1.47 If consent is not renewed, the consent ceases to have effect 150 days after the
+renewal day, at which point the arrangement terminates.52
+Redress for deduction of fees without consent
+1.48 Currently, section 962R requires fee recipients not to deduct ongoing fees
+without consent, and section 962S requires fee recipients to neither arrange for
+nor accept the deduction of ongoing fees without consent. These sections would
+not be directly amended by the bill.53
+1.49 If a client consents to the deduction of fees after an arrangement terminates due
+to the fee recipient not complying with sections 962R or 962S, the fee recipient
+will not be obliged to refund the amount deducted or received as a result of
+deductions made in accordance with the consent.54
+1.50 Where a fee recipient has knowingly or recklessly continued to deduct ongoing
+fees from the account after the arrangement, the EM indicates that a person
+could apply to a court to obtain a refund of those fees.55
+Termination of arrangements and refunds of fees
+1.51 Termination of ongoing fee arrangements will occur automatically, at the time
+that the relevant circumstances for termination are met. For example, an
+50 EM, p. 35.
+51 EM, pp. 35–36.
+52 EM, p. 36.
+53 Corporations Act 2001, ss. 962R and 962S.
+54 EM, p. 32.
+55 EM, p. 32.
+10
+arrangement that is entered into which does not meet the consent requirements
+automatically terminates on entry.56
+1.52 If a client makes a payment of an ongoing fee after the arrangement terminates
+automatically, the fee recipient is not obligated to refund the payment. Clients
+are not taken to have waived their rights by continuing to pay an ongoing fee
+after an arrangement terminates. They would have the right to apply to the court
+for a refund where fee recipients knowingly or recklessly continued to charge a
+client what purports to be an ongoing fee under an arrangement. Courts will not
+make an order if it is not reasonable in the circumstances and cannot make an
+order in relation to fees paid more than six years before the proceedings for the
+order are commenced.57
+1.53 If an ongoing fee arrangement terminates for any reason, the fee recipient must
+not continue to charge a fee that purports to be an ongoing fee under the
+arrangement to the client. Where a fee recipient does charge such a fee, the fee
+recipient is subject to a civil penalty provision.58
+1.54 The bill repeals certain civil penalties that currently apply to noncompliance
+with notification obligations. Where a fee recipient receives a notice from an
+account holder varying or withdrawing their consent to deductions, and the fee
+recipient fails to give written confirmation that the notice was received or fails
+to give a copy of the notice to any third-party account provider, the fee recipient
+will no longer be subject to a civil penalty.59
+1.55 A fee recipient who fails to give notice to any third-party account provider that
+consent for account deductions has ceased to have effect within 10 business days
+of the cessation will no longer be subject to a civil penalty.60
+1.56 However, the Explanatory Memorandum explains that, while the current civil
+penalty provisions are disproportionate to the consumer harm of
+noncompliance with notification obligations, fee recipients are still required to
+comply with these obligations. Other regulatory consequences continue to exist
+in relation to noncompliance, including banning, disqualification, or licence
+suspension powers by the Australian Securities and Investments Commission
+or Financial Services and Credit Panels.61
+56 EM, p. 38.
+57 EM, p. 38.
+58 EM, p. 39.
+59 EM, p. 37.
+60 EM, p. 37.
+61 EM, p. 38.
+11
+1.57 Clients retain the right to terminate an arrangement at any time by providing a
+notice to the fee recipient, in writing, that the client wishes to terminate the
+arrangement. The termination is effective on the day the notice is provided.62
+1.58 Where the continued provision of a service is dependent on the continued
+payment of ongoing fees, the obligation to provide that service will terminate
+upon termination of an ongoing fee arrangement. This provides certainty to fee
+recipients that their obligation to provide continued advice services will, in most
+cases, cease after termination. A fee recipient will not be liable for client losses
+because of a failure to provide advice to a client after termination.63
+1.59 Schedule 1 of the bill would also amend the Corporations Act to ensure that
+documents permitted to or required to be sent or signed in relation to ongoing
+fee arrangements can be sent or signed electronically.64
+1.60 Schedule 1 would make consequential amendments to the Corporations Act,
+namely to ensure that fee recipients may continue to be liable for a civil penalty
+in several circumstances, such as charging a fee that purports to be an ongoing
+fee under an arrangement after the arrangement is terminated, or accepting
+payment of ongoing fees from an account without consent.65
+Tax deduction of superannuation fees
+1.61 Division 2 of Part 1 of Schedule 1 would amend the ITA Act 1997 to ensure that
+fees charged under section 99FA of the SIS Act would be tax deductible for the
+superannuation funds that incur costs and would not be treated as
+superannuation benefits of the member.66
+1.62 These amendments would commence from the first day of the first quarter to
+occur after Royal Assent. They would apply to the 2019-20 income year and later
+income years, and deductions would be available for these income years.67
+1.63 A number of criteria must be met for the fees to be deductible for the fund and
+are listed in the Explanatory Memorandum.68 While there is already a provision
+62 EM, p. 39.
+63 EM, pp. 39–40.
+64 EM, pp. 40–42.
+65 EM, p. 42.
+66 EM, p. 20.
+67 EM, p. 23.
+68 EM, p. 21.
+12
+that provides for general deductions,69 these amendments are intended to
+provide more certainty for industry through providing a specific deduction.70
+1.64 The Quality of Advice Review raised concerns that a fee paid for advice given
+to a member could be treated as a benefit paid to the member, and if a member
+has not satisfied a condition of release, that benefit could be taxable in the hands
+of the member. Therefore, an amendment to section 307-10 of the ITA Act 1997
+would be made, in order to specify that such a payment would not be taxable in
+the hands of the member.71
+Flexibility for providing Financial Services Guide information
+1.65 Part 3 of Schedule 1 would implement recommendation 10 of the bill by
+amending the Corporations Act to allow providers of personal advice to make
+Financial Services Guide (FSG) information publicly available on their website
+(‘website disclosure information’), as an alternative to providing clients with an
+FSG.72
+1.66 The Quality of Advice Review found that the provision of an FSG contributes to
+the time, cost and volume of documents required to be prepared by advisors
+without providing a significant benefit to clients. The FSG is not tailored to each
+client, and content does not change based on the advice. The Review concluded
+that what is important is not the provision of an FSG, but that the information is
+available and accessible when the advice is provided.73
+1.67 Various sections of the Corporations Act require that AFS licensees comply with
+requirements relating to the provision of FSGs to clients, as well as outlining
+where an FSG is not required. Civil penalties and offences apply to failure to
+comply with FSG requirements.74
+1.68 The bill would allow financial service providers the option of fulfilling FSG
+requirements by providing website disclosure information where certain
+requirements are met.75
+1.69 Obligations relating to website disclosure information would be introduced by
+the bill. A person who fails to meet an obligation in the new Division 2A of Part
+7.7 of the Corporations Act may incur a penalty. An authorised representative
+of an AFS licensee must have authorisation from the licensee to distribute or to
+69 ITA Act 1997, s. 8-1.
+70 EM, p. 20.
+71 EM, p. 22.
+72 EM, p. 47.
+73 EM, p. 48.
+74 EM, pp. 47–48.
+75 EM, pp. 49–50.
+13
+alter website disclosure information, and the website disclosure information
+must be kept up to date and specify the day on which it was prepared or last
+updated.76
+1.70 Disclosure obligations generally will be subject to the same sanctions for failing
+to comply with disclosure obligations irrespective of whether they provide an
+FSG or website disclosure information.
+1.71 A number of offences exist regarding the provision of defective FSGs. These will
+be extended to include circumstances in which defective website disclosure
+information is made available.77
+1.72 Civil liability for any loss or damage suffered will generally fall on an AFS
+licensee, except in some circumstances where a person alters website disclosure
+information that results in the information being defective, or more defective,
+than it would otherwise have been without the authority of the AFS licensee, or
+where the AFS licensee took reasonable steps to ensure that the information
+would not be defective.78
+1.73 The amendments made by Part 3 of Schedule 1 will commence the day after the
+Bill receives Royal Assent.79
+Conflicted remuneration
+1.74 Part 4 of Schedule 1 to the bill would implement Recommendations 13.1, 13.2,
+and 13.3 of the Quality of Advice Review, which relate to conflicted
+remuneration.80
+1.75 The changes would mean that monetary benefits and non-monetary benefits
+given by a retail client to an AFS licensee or representative of the licensee, as
+well as fees for personal advice relating to a member’s interest in a fund, are not
+conflicted remuneration.81
+1.76 The Corporations Act establishes a prohibition for certain entities on giving or
+accepting conflicted remuneration. The issuer or seller of a financial product is
+currently prohibited from giving conflicted remuneration to an AFS licensee or
+an authorised representative of the licensee. This prohibition will be maintained
+by the bill.82
+76 EM, p. 51.
+77 EM, pp. 52–57.
+78 EM, p. 57.
+79 EM, p. 58.
+80 EM, p. 58.
+81 EM, p. 58.
+82 EM, p. 59.
+14
+1.77 A new definition of conflicted remuneration will be introduced to ensure that
+benefits given by retail clients are not conflicted remuneration. The new
+definition will also clarify that giving a benefit includes causing a benefit to be
+given.83
+1.78 As these amendments are intended to prohibit benefits given by product issuers
+or sellers rather than by retail clients, the unnecessary exceptions to the
+conflicted remuneration provisions will be removed. New exceptions will be
+introduced to ensure that the provision of benefits by clients to AFS licensees or
+authorised representatives will not be conflicted remuneration.84
+1.79 An exception to the prohibition on conflicted remuneration currently exists that
+allows an AFS licensee or authorised representative to receive a benefit for the
+issue or sale of a financial product to a retail client where the licensee or
+representative has not provided financial product advice about the product to
+the client in the 12 months before the benefit is given. This exception would be
+removed.85
+1.80 Another exception to the prohibition on conflicted remuneration exists which
+allows an Australian Authorised Deposit-taking Institute (ADI) to provide
+conflicted remuneration to a licensee or authorised representatives for
+recommending banking products, general insurance products, or consumer
+credit insurance. This bill would remove this exception on the basis that
+employees of ADIs should not be treated differently to employees of other
+financial institutions.86
+1.81 The changes made by Part 4 of Schedule 1 will commence immediately after the
+commencement of the Part 3 amendments, which will commence the day after
+the bill receives Royal Assent. All amendments made by Part 4, except for the
+repeal of the conflicted remuneration exception relating to Australian ADIs,
+apply to benefits given on or after commencement.87
+1.82 For removal of the remunerated conflict exception relating to Australian ADIs,
+the bill does not intend to extinguish existing benefits, rights or entitlements,
+and there would be a six-month transitional period allowing ADIs to adjust
+remuneration structured before the commencement of the repeal of the
+remunerated conflict exception relating to Australian ADIs.88
+83 EM, p. 61.
+84 EM, p. 62.
+85 EM, pp. 63–64.
+86 EM, pp. 64–65.
+87 EM, p. 65.
+88 EM, pp. 65–66.
+15
+Client consent for advice providers to receive insurance commissions
+1.83 Currently, exceptions exist to the prohibition on conflicted remuneration where
+an AFS licensee or an authorised representative is given a monetary benefit for
+certain insurance products. This means that providers of financial product
+advice to retail clients regarding those insurance products can receive
+commissions from product issuers.89
+1.84 The Quality of Advice Review recommended that the current commission
+arrangements for life risk, consumer credit, and general insurance products
+should be maintained. The Review observed, however, that the prospect of
+receiving a commission creates a conflict for the provider. The bill seeks to
+address this conflict by requiring advice providers to obtain informed consent
+of retail clients before accepting commissions. This requirement will help clients
+understand how providers’ personal interests might influence the advice they
+are receiving on these insurance products.90
+1.85 Certain information must be disclosed to the client before the client can provide
+informed consent. This includes, depending on the insurance product, the rate
+of monetary benefit as a percentage of the policy cost.91
+1.86 The AFS licensee or authorised representative must ensure that they have a
+written record of the client’s consent. They must also provide a copy of the
+consent to the client as soon as reasonably practicable after obtaining the
+consent.92
+1.87 To reduce administrative burden on licensees and clients, consent requirements
+are taken to be met regarding the renewal of general insurance products and in
+the event of transfer of business where certain conditions are met. A client’s
+original consent would cover renewal of the general insurance product where
+the provider has explained to the client before the original consent was given
+that the provider would be paid a commission on each occasion that the
+insurance is renewed. New consent would be required without such an
+explanation or if the rate of the commission increases above what was originally
+disclosed.93
+1.88 A client’s original consent will continue in effect where a licensee sells or
+transfers their financial product advice business dealing with the client’s
+89 EM, p. 66.
+90 EM, pp. 67–69.
+91 EM, pp. 69–70.
+92 EM, p. 71.
+93 EM, p. 71.
+16
+insurance. This is intended to ensure continued coverage of a client’s insurance
+in the event of corporate restructuring, and sales and transfers of business.94
+1.89 Consents may be varied, such as where a client consents to variation to the name
+of insurer, rates and frequency of benefits or the nature or services provided to
+the client in relation to the product.95
+1.90 The Corporations Act currently prohibits issuers and sellers of financial
+products from giving conflicted remuneration to AFS licensees and authorised
+representatives of AFS licensees. The bill would ensure that sellers and issuers
+of financial products are not held to have contravened the prohibition where the
+AFS licensee or its authorised representative has failed to obtain the client’s
+consent under the new consent provisions introduced by the bill. As the
+Explanatory Memorandum explains, this ensures that the obligation to seek the
+consent of the client only applies to the AFS licensee or authorised
+representative, and that the issuer or seller is not liable for ensuring or checking
+that this consent has been received.96
+1.91 The amendments made by Part 5 of Schedule 1 will apply to benefits given in
+connection with the issue or sale of insurance products on or after the end of the
+period of 12 months beginning on the day the bill receives Royal Assent.97
+1.92 The amendments will not apply to benefits in connection with products issued
+or sold in the period of 12 months beginning on the day the bill receives Royal
+Assent. This is intended to reduce the risk that a client could be left uninsured
+if the provider was required to wait for consent from a client prior to renewal.98
+Commencement, application and transition for existing fee arrangements
+1.93 The application and transitional arrangements would commence the day after
+the bill receives Royal Assent.99
+1.94 The amendments made by Part 2 of Schedule 1 do not apply until the ‘start day’,
+which is defined as six months after the commencement of Part 2. Some
+amendments will apply immediately, but others apply in different ways to new
+and existing ongoing fee arrangements.100
+94 EM, p. 72.
+95 EM, p. 72.
+96 EM, p. 72.
+97 EM, p. 73.
+98 EM, p. 73.
+99 EM, p. 43.
+100 EM, p. 43.
+17
+1.95 For ongoing fee arrangements entered into after the start day, the amendments
+apply to that arrangement without modification.101
+1.96 Where ongoing fee arrangements are entered into and remain in force
+immediately before the start day, the arrangements apply in a modified way
+that preserves the operation of these arrangements until new renewals would
+otherwise need to be put in place, at which point consents consistent with these
+amendments can be implemented.102
+1.97 For existing ongoing fee arrangements, after the start day, the first anniversary
+of the day which the arrangement was entered into is the ‘transition day’. The
+new obligations will apply in respect of existing ongoing fee arrangements
+starting from the transition day.103
+1.98 For existing ongoing fee arrangements in force immediately before the start
+date, a consent that complies with the new requirements must be put in place
+with a modified renewal period. The modified renewal period must start on
+either the start day, or 60 days before the arrangement’s transition day,
+whichever is later. If this is not done, the arrangement will terminate at the end
+of the renewal period, 150 days after the transition day. This is to ensure that
+existing ongoing fee arrangements have the benefit of the amendments that
+increase flexibility in renewing consent after the start day.104
+1.99 The repeal of subsection 962FA, which currently provides that an ongoing fee
+arrangement will cease upon non-compliance with certain terms, and
+amendments made to the consent required for deduction of ongoing fees from
+accounts, will not apply until 150 days from the transition day. This is to ensure
+that deductions which are consistent with a consent under current law but not
+the new law do not terminate until the end of the 150 day renewal period
+following the transition day for that fee arrangement.105
+1.100 As introduced by the bill, sections 962Y and 962YA relate to forms for consent,
+and will only apply to ongoing fee arrangements to the extent that an ongoing
+fee arrangement requires a consent in accordance with the law as amended by
+the bill. For example, if, before the start day, the Minister were to approve a form
+to be used in giving any consent, this would only be mandatory for new ongoing
+101 EM, p. 44.
+102 EM, p. 44.
+103 EM, p. 44.
+104 EM, p. 44.
+105 EM, p. 45.
+18
+fee arrangements and for the first consent for an existing ongoing fee
+arrangement that was put in place under new arrangements.106
+Schedule 2 – Petroleum resource rent tax anti-avoidance rules
+1.101 Schedule 2 would amend the Petroleum Resource Rent Tax Assessment Act 1987
+(PRRTA Act) in order to prevent entities from using contrived and artificial
+arrangements to avoid paying PRRT. These amendments would seek to make
+the anti-avoidance measures under the PRRTA Act consistent with the general
+anti-avoidance rules (GAAR) in the ITA Act 1936.107
+Previous changes to the general anti-avoidance rules
+1.102 Part IVA of the ITA Act 1936 deals with schemes to reduce income tax. In some
+circumstances, outlined in section 177F of the ITA Act 1936, the Commissioner
+of Taxation may cancel a tax benefit obtained by a taxpayer where the tax benefit
+was obtained in connection with a scheme to which Part IVA applies.108
+1.103 In order to determine whether a person obtained a tax benefit from a scheme,
+and whether the sole or dominant purpose of participating in the scheme was
+to obtain the tax benefit, it is necessary to compare the scheme and an
+‘alternative postulate’, that is, considering the alternative scenario in which the
+scheme was not implemented.109
+1.104 The GAAR were updated in 2013 to address weaknesses revealed due to a
+number of unfavourable court cases. Taxpayers had successfully argued that
+they did not obtain a tax benefit because, if the alleged tax avoidance scheme
+had not been entered into, then the taxpayer would not have entered into an
+arrangement where they would have paid tax. They successfully argued that, in
+the absence of the arrangement, they instead would have either entered into
+another arrangement that avoided tax, or otherwise would have avoided or
+deferred the commercial arrangements and thereby avoided tax.110
+1.105 The ITA Act 1936 was amended by the Tax Laws Amendment (Countering Tax
+Avoidance and Multinational Profit Shifting) Act 2013 to ensure several effects to
+address what were exposed as ‘deficiencies’ in the relevant sections of the ITA
+106 EM, p. 45.
+107 EM, p. 75.
+108 Tax Laws Amendment (Countering Tax Avoidance and Multinational Profit Shifting) Bill 2013
+Explanatory Memorandum, pp. 7–8; Income Tax Assessment Act 1936 s. 177F.
+109 Senate Standing Committee on Economics, Tax Laws Amendment (Countering Tax Avoidance and
+Multinational Profit Shifting) Bill 2013 [Provisions], May 2013, p. 2.
+110 Senate Standing Committee on Economics, Tax Laws Amendment (Countering Tax Avoidance and
+Multinational Profit Shifting) Bill 2013 [Provisions], May 2013, p. 3.
+19
+Act 1936. These effects were outlined in the Explanatory Memorandum for the
+2013 Act.111
+Proposed changes to the petroleum rent resource tax anti-avoidance rules
+1.106 In determining whether the PRRT anti-avoidance provision applies to an
+arrangement, it must be determined whether a person or people who
+participated in the arrangement did so for the sole or dominant purpose of
+enabling the taxpayer to obtain a tax benefit.112
+1.107 The relevant purpose must be established objectively based on the analysis of
+various matters. These include how the arrangement was implemented, the
+form and substance of the arrangement, what the arrangement actually
+achieved as a matter of substance or reality, and any changes in financial
+position of the taxpayer or any person who has a connection with the taxpayer
+as a result of the arrangement.113
+1.108 The new amendments would clarify the steps in the test for whether an
+arrangement enables a taxpayer to obtain a tax benefit. Section 52 of the PRRTA
+Act currently provides criteria for identifying relevant arrangements to obtain
+tax benefits. This section would be replaced by proposed sections 51A and 52.
+1.109 Proposed subsections 51A(2) and 51A(3) would make clearer the required steps
+in the process of deciding whether a tax effect would have, or might reasonably
+be expected to have, occurred if the arrangement had not been entered into or
+carried out. 114
+1.110 The amendments would provide clarity that there are two separate, alternative
+bases for determining whether an arrangement resulted in a tax effect. One basis
+is consideration of all the circumstances and events that actually occurred except
+for the arrangement; the other is consideration of a reasonable alternative
+postulate about what would have been expected to have happened in the
+absence of the arrangement.115
+1.111 Determining a postulate that is a reasonable alternative to the arrangement, in
+that it could reasonably take the place of the arrangement, will require
+considering what other courses of action were reasonably open to the
+participants in the arrangement, and will necessarily require speculation about
+111 EM, pp. 75–76; Tax Laws Amendment (Countering Tax Avoidance and Multinational Profit
+Shifting) Bill 2013, Explanatory Memorandum, pp. 16–17.
+112 EM, p. 77.
+113 EM, p. 77.
+114 EM, p. 78.
+115 EM, pp. 76–78.
+20
+the state of affairs that would have existed if the arrangement had not been
+entered into or carried out.116
+1.112 Under the new amendments, taxpayers will have obtained a tax benefit in
+connection with an arrangement if it is demonstrated that, after applying the
+provisions in the PRRTA Act to the facts once the arrangement is either assumed
+away or reconstructed, the effect secured in connection with the arrangement is
+greater than without the arrangement.117
+1.113 Schedule 2 will commence the day after the bill receives Royal Assent and would
+apply to any arrangements that were entered into on or after 1 July 2023, in order
+to minimise the potential for taxpayers to obtain what may be artificial and
+contrived tax benefits.118
+Schedule 3 – Capital allowances for mining, quarrying or prospecting rights, and
+clarifying the meaning of exploration for petroleum
+1.114 Schedule 3 to the bill would amend the PRRTA Act to clarify the meaning of
+‘exploration for petroleum’. It would also amend the ITA Act 1997 to clarify the
+circumstances in which the use or grant issuance of mining, quarrying, or
+prospecting rights (MQPRs) may lead to tax adjustments.119
+1.115 These amendments are made in response to a decision of the Full Federal Court,
+which related to, among other things, whether the taxpayer was entitled to a
+deduction under subsection 40-80(1) of the ITA Act 1997.120 The case broadly
+related to the issue of depreciation of MQPRs held by Shell, when Shell had first
+used these MPQRs, and whether they had been used for exploration.121
+1.116 The amendments would clarify the meaning of the phrase ‘exploration for
+petroleum’ in light of the decision of the Full Federal Court indicating potential
+ambiguity with the term. The amendments would clarify that the phrase is
+limited to ‘discovery and identification of the existence, extent and nature of the
+petroleum resource’, and does not extend to ‘activities and feasibility studies
+directed at evaluating whether the resource is commercially recoverable.’122
+116 EM, p. 78.
+117 EM, p. 78.
+118 EM, p. 78.
+119 EM, p. 79.
+120 EM, p. 79; Commissioner of Taxation v Shell Energy Holdings Australia Limited [2022] FCAFC 2.
+121 Commissioner of Taxation v Shell Energy Holdings Australia Limited [2022] FCAFC 2, [14]–[17]; EM,
+p. 80.
+122 EM, pp. 80–81
+21
+1.117 The amendments would clarify that ‘first use’ of MPQRs occurs where an
+activity authorised by the right is undertaken, rather than when the MQPR
+begins to be held without commencing activities authorised by the right.123
+1.118 The amendments also ensure that income tax balancing adjustments do not
+occur in relation to MQPRs where the MQPR is replaced by one or more MQPRs
+and those new MPQRs relate to part of the areas that the replaced MQPR related
+to.124
+Commencement, application and transitional provisions
+1.119 The amendments made by Schedule 3 would commence on the first day of the
+first quarter to occur after the day the bill received Royal Assent.125
+1.120 The amendments relating to section 37 of the PRRTA Act, which deals with
+exploration expenditure, apply to all expenditure incurred from
+21 August 2013. These amendments would not make a person criminally liable
+for acts or omissions before the day on which the amendments commence, if the
+person would not have been liable had the amendments had not been enacted.
+This is intended to avoid any retrospective criminal liability.126
+1.121 The amendments dealing with capital allowance provisions apply in respect of
+MQPRs that entities started to hold after the date of announcement on
+9 May 2023.127
+Schedule 4 – Multilateral development banks
+1.122 Schedule 4 to the bill would make amendments to several acts to streamline the
+process by which amendments that are made to relevant international
+agreements are incorporated into domestic legislation. The amendments
+incorporate the agreements into legislation by reference, and this will ensure
+any future amendments to the agreements are automatically incorporated.128
+1.123 The acts to be amended would be the following Acts:
+ the Asian Development Bank Act 1966;
+ the European Bank for Reconstruction and Development Act 1990; and,
+ the International Monetary Agreements Act 1947.129
+123 EM, p. 81.
+124 EM, p. 82.
+125 EM, p. 87.
+126 EM, p. 87.
+127 EM, p. 87.
+128 EM, p. 89.
+129 EM, p. 90.
+22
+1.124 The amendments would mean that the Acts would automatically incorporate
+amendments to the following agreements:
+ the Asian Development Bank Agreement;
+ the European Bank for Reconstruction and Development Agreement;
+ the International Bank for Reconstruction and Development Agreement;
+and
+ the International Monetary Fund Agreement.130
+1.125 The Explanatory Memorandum states that as international agreements are
+ordinarily available on the internet, there is no need for legislation to contain the
+full text of the international agreements. The requirement to pass legislation to
+update the text of amended agreements can be administratively burdensome,
+and some amendments will enter into force for Australia at international law
+regardless of whether there is domestic legislation implementing these
+amendments.131
+1.126 The Explanatory Memorandum also states that parliamentary oversight will be
+retained, as amendments to these agreements will constitute a treaty action and
+therefore be subject to Australia’s treaty-making procedures, such as
+consideration by the Joint Standing Committee on Treaties and approval by
+relevant ministers.132
+1.127 Several consequential amendments would also be made to these Acts. These
+amendments include the removal of references to redundant or repealed
+legislation, as well as correcting minor typographical errors.133
+1.128 Schedule 4 would commence the day after the bill received Royal Assent.134
+Schedule 5 – Miscellaneous and technical amendments
+1.129 Schedule 5 makes a number of miscellaneous and technical amendments to
+Treasury portfolio legislation. The miscellaneous and technical amendments are
+intended to maintain and improve the quality of Treasury legislation by
+repealing redundant and inoperative provisions, enhancing administrative
+efficiency and reducing unnecessary red tape, enhancing readability, and
+making other technical changes.135
+130 EM, p. 90.
+131 EM, p. 91.
+132 EM, p. 92.
+133 EM, pp. 92–93.
+134 EM, p. 93.
+135 EM, pp. 95–96.
+23
+1.130 Division 1 of Part 1 of Schedule 5 would amend the Corporations Act 2001 to
+make typographical amendments.136
+1.131 The amendments made by Division 2 of Part 1 of Schedule 5 include the
+implementation of recommendations regarding the safe harbour provisions for
+company directors to pursue restructures or other measures to deliver better
+outcomes for the company in the face of potential insolvency.137
+1.132 Subsequent to the effects of the Treasury Laws Amendment (2023 Law Improvement
+Package No. 1) Act 2023, Division 3 of Part 1 of Schedule 5 would be amended to
+renumber references so that they refer to the correct and updated paragraphs.138
+1.133 Division 4 of Part 1 of Schedule 5 would renumber section 1684 of the
+Corporations Act 2001 as introduced by the Treasury Laws Amendment (2022
+Measures No. 4) Act 2023 to section 1685, on the basis that the Corporations Act
+2001 already contained a different section 1684.139
+1.134 Division 5 of Part 1 of Schedule 5 would ensure that members of regulated
+superannuation funds are able to retain insurance coverage following successor
+fund transfers.140
+1.135 Division 6 of Part 1 of Schedule 5 would move certain requirements regarding
+the obligations of actuaries and auditors to report to the regulator. These would
+be moved from the Superannuation Industry (Supervision) Regulations 1994 to
+the Superannuation Industry (Supervision) Act 1993. This is stated to provide
+certainty to readers of the legislation that the obligations are legally valid.141
+1.136 The amendments made by Division 6 would also make changes to clarify that a
+person must consider matters prescribed by the regulations for the purpose of
+forming an opinion about whether the financial position of an entity may be
+about to become unsatisfactory, but that this does not limit the matters that they
+may consider.142
+1.137 Division 7 of Part 1 of Schedule 5 clarifies reporting obligations for
+superannuation entities regarding what information these entities are required
+to give and to whom the information is required to be given. It separates the
+obligation to provide information upon establishment of an entity, and the
+136 EM, p. 96.
+137 EM, pp. 96–98.
+138 EM, p. 98.
+139 EM, p. 98.
+140 EM, p. 99.
+141 EM, pp. 99–100.
+142 EM, p. 100.
+24
+obligation to comply with a request for certain information by the regulator or
+an authorised person.143
+1.138 Where a trustee is required to provide information under subsection 254(1) of
+the SIS Act, the trustee is required to provide information in the approved form,
+or if there is no such form, the information as prescribed by the regulations must
+be given. The Explanatory Memorandum explains that the regulation making
+power would reduce the complexity of the Act, would be appropriate and
+necessary, and would be subject to parliamentary scrutiny and sunsetting.144
+1.139 Existing offences and penalties would continue to apply. The strict liability that
+applies to such offences is stated by the Explanatory Memorandum as
+appropriate and as meeting all conditions listed in the Attorney-General’s
+Department’s Guide to Framing Commonwealth Offences.145
+1.140 Part 2 of Schedule 5 would clarify the operation of the indirect value shifting
+rules so that non-assessable non-exempt income is also covered by
+subsection 727–250(2) of the Income Tax Assessment Act 1997, which deals with
+distributions by entities to members or beneficiaries. It would also update
+guidance to the most recent version of the Transfer Pricing Guidelines for
+Multinational Enterprises and Tax Administrations which was adopted by the
+OECD’s Committee of Fiscal Affairs and published on 20 January 2022.146
+1.141 Parts 2 and 3 of Schedule 5 would also make typographical changes and to
+remove redundant references, and would make consequential amendments to
+the SIS Act following reforms made by the Treasury Laws Amendment (2022
+Measures No. 4) Act 2023 and the Treasury Laws Amendment (Financial
+Reporting and Auditing of Registrable Superannuation Entities) Regulations
+2023.147
+Schedule 6 – Location offset and producer offset for films
+1.142 Schedule 6 to the bill would amend the ITA Act 1997 to make changes to the
+location tax offset for Australian film productions.148
+1.143 The location tax offset is a refundable tax offset calculated by reference to
+qualifying Australian production expenditure incurred in making films. Film
+production companies may be entitled to this offset if they meet certain
+eligibility conditions. The conditions include that the production is of a certain
+143 EM, p. 100.
+144 EM, pp. 101–102.
+145 EM, p. 102.
+146 EM, pp. 104–105.
+147 EM, p. 105.
+148 EM, p. 107.
+25
+format and genre, meeting the minimum total qualifying production
+expenditure threshold, and that the company carried out or made the
+arrangements for all the activities in Australia which were necessary for the
+making of the film.149
+1.144 The amendments made by Schedule 6 modify existing conditions and introduce
+new eligibility conditions to be satisfied in order to qualify for the offset,
+including the use of Australian providers of post, digital and visual effects, and
+minimum training requirements.150
+1.145 Schedule 6 would increase the location tax offset rate from 16.5 per cent of a
+company’s total qualifying Australian production expenditure on a film to
+30 per cent.
+1.146 The minimum qualifying Australian production expenditure is currently
+$15 million, which would be increased by the amendments to $20 million.
+Television series must meet an additional expenditure threshold that is specific
+to television series.151
+1.147 The producer tax offset is a refundable tax offset calculated by reference to
+qualifying Australian production expenditure incurred in making a film. The
+amendments introduce an alternative means by which film production
+companies can access the producer tax offset, if it produces drama series that
+satisfy the new per-season qualifying Australian production expenditure
+threshold. A new category for eligibility for the producer tax offset was
+introduced because some long-form Australian drama series have high budgets
+per season but do not meet the existing per-hour expenditure threshold.152
+Legislative scrutiny
+1.148 In Scrutiny Digest 6 of 2024, the Senate Standing Committee on the Scrutiny of
+Bills made no comment in relation to the bill.153
+1.149 At the time of writing, there has been no further legislative scrutiny of the bill.
+Acknowledgements
+1.150 The committee thanks all individuals and organisations who assisted with the
+inquiry, especially those who made written submissions and participated in the
+public hearing.
+149 EM, pp. 107–108.
+150 EM, p. 108.
+151 EM, p. 108.
+152 EM, pp. 108–109.
+153 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 6 of 2024, May 2024, p. 53.
+
+Chapter 2
+Views on the bill
+Introduction
+2.1 This chapter examines inquiry participants views on the provisions of the
+Treasury Laws Amendment (Delivering Better Financial Outcomes and Other
+Measures) Bill 2024. It summarises what inquiry participants considered to be
+the key issues arising from the bill and concludes with the committee’s views
+and recommendation.
+2.2 This examination is informed by the bill’s explanatory material, submissions
+received by the inquiry, and evidence provided at a public hearing held on
+13 June 2024 at Parliament House, Canberra.
+Amendments relating to financial advice and superannuation
+2.3 Inquiry participants were broadly supportive of the policy intent of Schedule 1
+of the bill—namely, of improving the accessibility and affordability of quality
+financial advice for Australian consumers, and reducing unnecessary and costly
+red tape in the industry.1
+2.4 Generally, inquiry participants also welcomed the steps taken by this bill to
+implement recommendations made in the Quality of Advice Review, even as
+some argued for different approaches to the implementation of these
+recommendations.
+Criteria for paying financial product advice fees from member’s interest in fund
+2.5 At the public hearing, several witnesses focused on the proposal for the current
+bill to repeal and replace section 99FA of the Superannuation Industry
+(Supervision) Act 1993 (SIS Act).
+2.6 Industry stakeholders generally acknowledged and welcomed the
+government’s objective of reducing the current administrative burden on
+relevant parties arising from the payment of fees from superannuation for
+financial advice.2
+2.7 However, Super Consumers Australia disagreed with allowing the deduction
+advice fees from members’ superannuation accounts at all. They argued that
+people may be more likely to value advice if they pay for it from their own
+pocket rather than through superannuation. Super Consumers Australia
+submitted that if advice fees were to continue to be permitted to be deducted
+1 See, for example, AustralianSuper, Submission 23, p. 1; Association of Superannuation Funds of
+Australia, Submission 40, pp. 1–2.
+2 See, for example, Council of Australia Life Insurers, Submission 32, p. 1;
+27
+28
+from superannuation accounts, then they supported the position that advice fees
+must only be deducted for advice related to a member’s interest in the fund.3
+2.8 AustralianSuper expressed support for amendments made by the bill which
+would ensure that the payment of a personal advice fee from a member’s
+interest in a superannuation fund would not be treated as a superannuation
+benefit to that member.4
+2.9 While there was general support for reducing the administrative burden of
+paying fees for financial product advice from superannuation funds, several
+submitters raised concerns about how these amendments would be
+implemented. Some witnesses argued that the measures may be counter-
+productive to the intention of removing administrative burdens. Others
+suggested more could be done to reduce red tape.
+2.10 The Financial Services Council welcomed the provision of clarity regarding
+income tax aspects of the amendments but noted the absence of clarification of
+GST treatment of all financial advice fees paid by a superannuation fund. They
+argued that this omission would detract from certainty regarding the payment
+of advice fees.5
+2.11 An attachment to a submission from the Joint Association Working Group
+identified several concerns with the drafting of section 99FA. This attachment
+argued that, under the proposed amendments, there would no longer be any
+explicit statement that advice fees are permitted fund expenses, as only certain
+expenses would be prohibited. They stated:
+To simply prohibit certain expenses does not thereby expressly authorise
+every non-prohibited expenditure, in circumstances where a
+superannuation fund trustee:
+(a) can deal only with trust assets under authority (whether such
+authority is conferred by statute, the trust deed, or member consent); and
+(b) is subject to positive obligations, including the SIS Act covenants in s
+52, and the obligation under s 62, of the SIS Act to maintain the fund for
+the benefit of members, which guide how the trustee manages assets and
+expenses of the fund.6
+2.12 They argued that this would be an insufficient basis for the payment of advice
+fees from superannuation funds, because trustees must only deal with trust
+3 Super Consumers Australia, Submission 30, p. 2.
+4 AustralianSuper, Submission 23, p. 2.
+5 Financial Services Council, Submission 54, p. 10.
+6 Joint Association Working Group, Submission 57 Attachment 1, pp. 3–4.
+29
+assets under authority and are subject to positive obligations to maintain the
+fund for the benefit of members.7
+2.13 The Law Council of Australia also noted that the proposed section 99FA remains
+drafted as a prohibition on the payment of fees under certain circumstances and
+does not contain express permission to pay advice fees under certain
+circumstances. The Law Council therefore argued that the proposed
+amendment does not enhance legal clarity for payment of advice fees.8
+2.14 The attachment to Joint Association Working Group’s submission also claimed
+that it would be legally and operationally complex for trustees to be satisfied of
+some of the proposed requirements, such as the nature and scope of advice, and
+whether advisers’ fees are charged at cost.9
+2.15 In contrast, the Australian Superannuation Funds Association (ASFA) and the
+Super Members Council advised that section 99FA would provide a legal basis
+for the payment of fees for advice from superannuation.10 ASFA noted that the
+insertion by section 99FA of a legal basis for payment of fees from
+superannuation would also clarify when a breach of that basis occurs.11
+2.16 In addition, the Treasury, the Minister and the Explanatory Memorandum all
+reiterated that the proposed section 99FA will provide a legal basis for payment
+of these fees.12
+Obligation on trustees to check advice
+2.17 A key issue raised in evidence to the committee was whether the amendments
+would require superannuation trustees to check every individual piece of advice
+provided to members of that fund in order to discharge the trustees’ obligations.
+Some evidence suggested that the amendments would require each piece of
+7 Joint Association Working Group, Submission 57 Attachment 1, pp. 3–4.
+8 Mr Nathan Hodge, Head of Submissions, Superannuation Committee, Legal Practice Section, Law
+Council of Australia, Proof Committee Hansard, 13 June 2024, p. 17. In this report, references to the
+Committee Hansard are to the Proof Hansard; page numbers may vary between Proof and Official
+Hansard transcripts.
+9 Joint Association Working Group, Submission 57 Attachment 1, p. 4.
+10 Ms Misha Schubert, Chief Executive Officer, Super Members Council, Proof Committee Hansard,
+13 June 2024, p. 8; Ms Mary Delahunty, Chief Executive Officer, Association of Superannuation
+Funds of Australia, Proof Committee Hansard, 13 June 2024, p. 10.
+11 Ms Mary Delahunty, Chief Executive Officer, Association of Superannuation Funds of Australia,
+Proof Committee Hansard, 13 June 2024, p. 10.
+12 Dr Andre Moore, Acting First Assistant Secretary, Retirement Advice and Investment Division,
+Department of the Treasury, Proof Committee Hansard, 13 June 2024, p. 29; Andrew Leigh MP,
+Assistant Minister for Competition, Charities and Treasury, House of Representatives Hansard,
+27 March 2024, p. 10; EM, p. 11.
+30
+advice to be checked in this way, with other evidence suggesting that current,
+risk-based approaches to advice review should continue to be sufficient.
+2.18 Those witnesses who believed that the amendments would require checking of
+more or all advice provided to members considered that the proposed changes
+would run counter to the government’s stated intention of making financial
+advice cheaper. For example, the Joint Licensees Group estimated that if every
+piece of advice had to be checked, this would result in costs in the hundreds of
+millions of dollars annually to consumers’ retirement savings.13
+2.19 While the Joint Licensees Group expressed general support for the bill, they
+strongly opposed the new requirements under the proposed section 99FA,
+contending they would cause confusion, uncertainty and cost.14 They argued
+that costs would be passed onto members through increased trustee costs, and
+financial advisers would have to increase their fees to cover the added
+complexity and time involved in approval of fees by superannuation funds.15
+2.20 The Stockbrokers and Investment Advisers Association (SIAA) noted the aim of
+reducing unnecessary red tape in obtaining consent for payment of fees from
+superannuation and acknowledged that the Quality of Advice Review found
+that the current regime involves complexity and duplication. SIAA welcomed
+the bill’s proposal to repeal existing requirements for providing
+fee disclosure statements.16
+2.21 However, SIAA also expressed concern that the proposed changes to section
+99FA will establish an excessive obligation on trustees to ensure that advice and
+fee arrangements are compliant with the sole purpose test.17
+2.22 In contrast, Super Consumers Australia contended that there was no basis to
+argue that the bill would increase red tape for consumers and require checking
+of every piece of advice, and that the amendments should lead to greater
+consistency in interpretation of the deduction rules. 18
+2.23 Super Consumers Australia emphasised that trustees and advisors should have
+oversight processes in place already, and if they do, it would be difficult to see
+13 Mr Keith Cullen, Managing Director, WT Financial Group Ltd and Representative, Joint Licensees
+Group, Proof Committee Hansard, 13 June 2024, p. 14.
+14 Mr Keith Cullen, Managing Director, WT Financial Group Ltd and Representative, Joint Licensees
+Group, Proof Committee Hansard, 13 June 2024, pp. 13–14.
+15 Joint Licensees Group, Submission 53, pp. 3–5.
+16 The Stockbrokers and Investment Advisers Association, Submission 29, pp. 2–3.
+17 The Stockbrokers and Investment Advisers Association, Submission 29, p. 2.
+18 Super Consumers Australia, Submission 30, p. 4.
+31
+why the amendments proposed by the bill would require major changes to
+practice or regulatory guidance.19
+2.24 Some witnesses wanted clearer statements that not every single piece of advice
+would need to be checked. ASFA indicated the importance of certainty for
+superannuation trustees to discharge their oversight obligations concerning the
+deduction of advice fees from members’ accounts. On this basis, ASFA
+supported the inclusion of a clarification in the bill’s explanatory memorandum
+that the bill is not intended to impact trustee obligations.20
+2.25 The Super Members Council believed that the status quo, risk-based compliance
+approach would be appropriate under the proposed section 99FA, and that the
+compliance burden should not increase. They identified that the updated
+explanatory memorandum for the bill clearly stated that trustees should have
+robust assurance processes in place to satisfy themselves that they meet their
+obligations under the current section 99FA regarding fee deductions from
+members’ accounts.21
+2.26 The Law Council of Australia argued that courts would likely place limited
+weight on explanatory materials in the event of a dispute regarding the meaning
+of section 99FA, and that while the updated explanatory memorandum states
+that there should be robust assurance policies and processes to ensure
+compliance, the law does not refer to such policies or procedures. They
+concluded that trustees may still inadvertently breach section 99FA despite
+robust processes and controls, or otherwise would have to comply with section
+99FA in relation to each advice fee.22
+2.27 At the public hearing, the Financial Services Council argued in support of the
+Law Council of Australia’s contention that the bill would put an unacceptable
+regulatory cost on advice businesses and an unacceptable legal burden on
+trustees.23
+2.28 In its submission, the Financial Services Council acknowledged the positive
+intentions of the law but argued that the bill may make the existing situation
+worse. They cautioned that the provisions proposed by the bill may result in
+multiple interpretations of the law’s impacts and could reduce clarity.
+19 Super Consumers Australia, Submission 30, p. 4.
+20 Association of Superannuation Funds of Australia, Submission 40, p. 2.
+21 Ms Misha Schubert, Chief Executive Officer, Super Members Council, Proof Committee Hansard,
+13 June 2024, pp. 8–9; Mr Matthew Linden, Executive General Manager, Strategy, Super Members
+Council, Proof Committee Hansard, 13 June 2024, p. 9.
+22 Mr Nathan Hodge, Head of Submissions, Superannuation Committee, Legal Practice Section, Law
+Council of Australia, Proof Committee Hansard, 13 June 2024, p. 17.
+23 Mr Blake Briggs, Chief Executive Officer, Financial Services Council, Proof Committee Hansard,
+13 June 2024, p. 17.
+32
+Specifically, it outlined that a black letter interpretation of the provision may
+require superannuation trustees to check every single piece of advice, which will
+increase costs for consumers.24
+2.29 The Financial Services Council also stated that the amendments have the
+potential to force superannuation trustees to reject fee deductions on the basis
+that they are not charged at cost, and financial advisers would risk not being
+paid fair market rates for their advice. Additionally, providers would lose the
+ability to charge for services provided through general advice, which the
+Financial Services Council identified was not a stated policy objective of the
+Quality of Advice Review. The Financial Service Council submitted that the
+deduction of fees for personal advice should be allowed.25
+2.30 The Financial Services Council also warned that the unintended consequences
+of these changes could result in superannuation trustees not facilitating advice
+fee deductions where the adviser is independent of the superannuation fund.
+They cautioned that this could have a chilling effect on access to professional
+financial advice.26
+2.31 The Australian Securities and Investments Commission (ASIC) gave evidence
+that they had been consulted by Treasury on the drafting of the bill and had
+provided advice on whether they would be able to administer the law consistent
+with the government’s policy intent.27
+2.32 ASIC explained that its guidance on the existing law had been provided through
+joint letters with the Australian Prudential Regulatory Authority (APRA), and a
+recent report, report 781, which examined trustee oversight and laid out good
+practice expectations. ASIC explained that these guidance documents referred
+to reviewing samples of statements of advice on a risk basis, which may be
+appropriate as part of a trustee’s range of practices to ensure they meet their
+obligations.28
+2.33 Mr Kirkland of ASIC noted that:
+… trustees can access a range of evidence to make that assessment. That can
+include having agreements with financial advisers as part of their
+onboarding process, requiring attestations from financial advisers and
+24 Financial Services Council, Submission 54, pp. 2, 7.
+25 Financial Services Council, Submission 54, pp. 2, 9.
+26 Financial Services Council, Submission 54, pp. 2, 7.
+27 Mr Alan Kirkland, Commissioner, Australian Securities and Investments Commission,
+Proof Committee Hansard, 13 June 2024, p. 33.
+28 Mr Alan Kirkland, Commissioner, Australian Securities and Investments Commission,
+Proof Committee Hansard, 13 June 2024, p. 32.
+33
+requiring processes for checking that controls are working. Looking at some
+statements of advice is just one form of evidence that trustees can look to.29
+2.34 Treasury was asked how the proposed law would compare to current
+obligations on trustees regarding the checking of financial advice. Dr Andrew
+Moore of Treasury state that the Bill ‘provides … legal certainty, consistent with
+the trustees’ general obligations under the SIS Act. Broadly, otherwise, it is
+consistent with the existing provision. It’s an objective test, as is the current
+provision.’30
+2.35 Mr Kirkland supported this statement and said that ‘in relation to the sole
+purpose test, trustees currently need to satisfy themselves that a range of
+activities they undertake are consistent with that sole purpose test, and we’d see
+this provision being complied with in a similar sort of way.’31
+2.36 Dr Moore also responded to the concern that the proposed law will require
+trustees to check every advice document to release an advice fee. Dr Moore
+noted that the proposed law:
+… establishes an objective standard in law for deducting advice fees. The
+law’s not prescriptive about how a trustee might go about complying with
+that law. That really is a matter for the trustee to determine, based on the
+commercial arrangements that they have in place, the risk profile of their
+fund and the counterparties that they’re dealing with.’ Dr Moore noted this
+direction is consistent with ‘most of the key obligations that apply to trustees
+under the SIS Act.32
+2.37 Mr Kirkland agreed and said that ‘in commenting on how we would interpret
+the proposed changes in section 99FA, we have said on a number of occasions
+that it is not our view that the provision would require trustees to check every
+statement of advice.’33
+2.38 Treasury explained that there are a wide range of commercial arrangements and
+practices for different funds, and accordingly, different risk profiles. They
+argued that it would be a challenge for the law to prescribe how to comply with
+29 Mr Alan Kirkland, Commissioner, Australian Securities and Investments Commission, Proof
+Committee Hansard, 13 June 2024, p. 32.
+30 Dr Andre Moore, A/g First Assistant Secretary, Retirement, Advice and Investment Division
+Treasury, Proof Committee Hansard, 13 June 2024, p. 31.
+31 Mr Alan Kirkland, Commissioner, Australian Securities and Investments Commission, Proof
+Committee Hansard, 13 June 2024, p. 32.
+32 Dr Andre Moore, A/g First Assistant Secretary, Retirement, Advice and Investment Division
+Treasury, Proof Committee Hansard, 13 June 2024, p. 30.
+33 Mr Alan Kirkland, Commissioner, Australian Securities and Investments Commission, Proof
+Committee Hansard, 13 June 2024, p. 32.
+34
+this law without threatening to infringe on commercial arrangements, and in the
+process threatening to introduce additional cost and inefficiency.34
+2.39 Dr Moore also reiterated that ‘the regulators ASIC and APRA have indicated
+that trustees should be putting in place robust assurance processes and they’ve
+suggested that they could either take a risk based approach to that or a random
+sampling approach to that.’35
+2.40 In response to inquiries that the proposed law might be better drafted more
+prescriptively, Parliamentary amendments to the bill were accompanied by a
+supplementary explanatory memorandum that provides further detail to
+trustee obligation in subsection 99FA, confirming that a risk-based approach his
+appropriate:
+New subsections 99FA(1)(a) and (b) provide clarity to trustees in how their
+existing obligations (such as under the sole purpose test) apply to the
+deduction of advice fees from a members’ interest in the fund. Consistent
+with meeting their obligations under the current 99FA, trustees should have
+in place robust assurance processes to satisfy themselves that advice
+deductions from members’ superannuation accounts comply with their
+legal obligations. This may include random or risk-based sampling of
+advice.36
+Consent to fee arrangements
+2.41 Witnesses and submitters expressed various views on the new consent
+requirements for ongoing fee arrangements proposed in the bill.
+2.42 Some submitters expressed opposition to the provisions which would allow a
+superannuation trustee to refuse to pay costs out of superannuation, despite a
+member requesting, or consenting to, such costs being paid out of their fund.
+For example, SIAA argued that a member’s superannuation belongs to that
+member and that trustees should not have the right to override members’
+decisions where all legal requirements are met.37
+2.43 However, Super Consumers Australia specifically opposed calls to oblige
+trustees to pay advice fees if a member has directed them to do so. They
+characterised such an obligation as giving financial advisers the ability to
+override trustees regarding payment of money out of superannuation. They
+34 Dr Andre Moore, A/g First Assistant Secretary, Retirement, Advice and Investment Division,
+Treasury, Proof Committee Hansard, 13 June 2024, p. 30.
+35 Dr Andre Moore, A/g First Assistant Secretary, Retirement, Advice and Investment Division,
+Treasury, Proof Committee Hansard, 13 June 2024, p. 31.
+36 Supplementary Explanatory Memorandum, p. 10.
+37 The Stockbrokers and Investment Advisers Association, Submission 29, p. 2.
+35
+argued that this would be at odds with trustees’ duties under trust law and the
+SIS Act.38
+2.44 AustralianSuper suggested the bill would benefit from more clarity that, in the
+absence of an approved form for requests or consents, superannuation funds
+can continue to use their own consent forms if they meet the minimum
+requirements in law.39
+2.45 SIAA supported amendments which would provide flexibility around
+providing consent. They supported flexibility concerning the ‘anniversary date’
+of fee arrangements to establish consent for such arrangements, the repeal of
+certain civil penalties relating to noncompliance with notification obligations,
+and the availability of technologically neutral signatures for documents related
+to ongoing fee arrangements.40
+2.46 SIAA reiterated their position, expressed during previous Treasury
+consultations on the bill, that advisers should not be required to provide signed
+consent forms to product issuers and should instead be permitted to rely on
+advisers and licensees meeting fee consent obligations under the Code of Ethics
+and the Corporations Act 2001 (Corporations Act). While SIAA noted the bill did
+not remove the requirement, they welcomed the option for the Minister to
+approve prescribed consent forms.41
+2.47 SIAA also expressed concern over the proposed section 962Y of the bill, which
+would allow account providers to request additional information from a fee
+recipient before deducting ongoing fees. They emphasised that it was important
+for parties to be able to rely on standard forms and important to avoid situations
+where product issuers effectively become auditors of fee arrangements between
+advisors and clients.42
+2.48 At the public hearing, Treasury explained that the reason the standard
+mandatory consent form is subject to Ministerial approval rather than being
+contained in the legislation is due to flexibility. Treasury advised the committee
+that the design and evolution of the form over time would provide the ability to
+respond to changing circumstances in the future.43
+38 Super Consumers Australia, Submission 30, p. 2.
+39 AustralianSuper, Submission 23, p. 2.
+40 Stockbrokers and Investment Advisers Association, Submission 29, pp. 3, 5–6.
+41 The Stockbrokers and Investment Advisers Association, Submission 29, p. 4.
+42 The Stockbrokers and Investment Advisers Association, Submission 29, p. 5.
+43 Dr Andre Moore, A/g First Assistant Secretary, Retirement, Advice and Investment Division
+Treasury, Proof Committee Hansard, 13 June 2024, p. 31.
+36
+Use of the term ‘relevant product’
+2.49 The Insurance Council of Australia suggested that the use of the term ‘relevant
+product’ in proposed section 963BB could cause confusion with the term
+‘relevant financial product’ as defined in section 910A.44
+2.50 The Institute of Public Accountants echoed this concern and recommended that
+either specific insurance products be listed, or that the term ‘financial product’
+be used instead.45
+Provision of Financial Services Guides
+2.51 The Financial Council of Australia welcomed the bill’s support for provision of
+Financial Services Guides on a company website. However, they supported
+expanding the circumstances for provision of a Financial Services Guide in this
+way to circumstances where general advice is provided, instead of only where
+personal advice is provided.46 Government amendments to the bill have
+subsequently provided this additional flexibility.
+Receiving or giving conflicted remuneration
+2.52 Several submitters observed an issue with the drafting of provisions relating to
+consent for advice about certain insurance products. In their written
+submissions, both the Insurance Council of Australia and the Council of
+Australian Life Insurers (CALI) identified that the proposed section 963BB
+would unintentionally remove the operation of the conflicted remuneration
+exemptions for persons providing general, not personal, advice.47 This issue has
+since been rectified by parliamentary amendments to Schedule 1 to the bill.48 At
+the public hearing, CALI agreed that these amendments have now aligned the
+provisions with the stated intent of the bill.49
+2.53 The Australian Banking Association expressed support for the proposed
+exemptions from the prohibition on receiving conflicted remuneration but
+asserted that they did not align with the Quality of Advice Review. They stated
+that it is unclear why carve-outs are given only in relation to financial products
+or financial services provided to the client. Instead, they suggested all benefits
+44 The Insurance Council of Australia, Submission 28, p. 2.
+45 Institute of Public Accountants, Submission 48, p. 5.
+46 Financial Council of Australia, Submission 54, p. 14.
+47 The Insurance Council of Australia, Submission 28, pp. 1–2; Council of Australian Life Insurers,
+Submission 32, p. 1.
+48 Supplementary Explanatory Memorandum, pp. 3–4, 6–7.
+49 Ms Christine Cupitt, Chief Executive Officer, Council of Australian Life Insurers, Proof Committee
+Hansard, 13 June 2024, p. 2.
+37
+provided by a client should be exempt, irrespective of what the benefit is
+provided for.50
+Amendments relating to the oil and gas industry
+2.54 Some submitters raised concerns about the amendments in Schedules 2 and 3 to
+the bill.
+Changes to the meaning of ‘exploration for petroleum’
+2.55 Australian Energy Producers (AEP) considered that the proposed definition of
+‘exploration for petroleum’ goes past what was intended in TR 2014/9.51 The
+AEP characterised the proposed amendments as not aligning with the realities
+of activities undertaken in relation to the exploration for petroleum. They
+submitted that the proposed definition would create uncertainty for projects
+aiming to develop new gas supplies.52
+2.56 The AEP argued that the activities undertaken, and the data collected in
+appraisal activities are used in a range of applications, from discovery of
+petroleum resources through to understanding the commercial, economic or
+technical viability of a project. AEP suggested that a dominant purpose test
+should be introduced to reflect the fact that the dominant purpose of an
+appraisal well is for the discovery of petroleum, but that such a well may capture
+data that will be used for subsequent activities that go to the viability of a
+project.53
+2.57 The Tax Institute noted that there is a common theme between the revisions
+made to section 37 of the Petroleum Resource Rent Tax Act 1987 (PRRT Act) and
+TR 2014/9. However, the Tax Institute also contended that the proposed
+amendments go beyond TR 2014/9, and that the amending provision uses
+language which creates uncertainty. They argued that, overall, the proposed
+changes may result in complex legal and financial issues for affected taxpayers
+and detract from Australia’s appeal as a destination for investment in the
+resource sector.54
+Tax deductions for mining, quarrying and prospecting rights
+2.58 Few comments were made regarding the tax deduction changes concerning
+mining, quarrying, and prospecting rights. However, the Tax Justice Network
+50 Australian Banking Association, Submission 45, p. 1.
+51 TR 2014/9 is the taxation ruling which considers the meaning of the phrase ‘involved in or in
+connection with exploration for petroleum’ in paragraph 37(1)(a) of the Petroleum Rent Resource Tax
+Assessment Act 1987.
+52 Australian Energy Producers, Submission 22, p. 2.
+53 Australian Energy Producers, Submission 22, p. 2.
+54 The Tax Institute, Submission 36, pp. 2–3.
+38
+Australia and the Centre for International Corporate Tax Accountability and
+Research stated their support for the amendments to ensure that these rights
+cannot be depreciated for income tax purposes until they are actually used.55
+Proposed retrospectivity of amendments
+2.59 Some submitters raised concerns with the proposed retrospective operation of
+the amendments proposed in the bill.
+2.60 The Corporate Tax Association acknowledged that from time-to-time laws will
+have retrospective operation, but cautioned against the implementation of
+measures which would have retrospective operation from 21 August 2013. They
+also characterised this as contrary to a Full Federal Court decision.56
+2.61 The Tax Institute suggested that the uncertainty caused by retrospective
+amendments could result in taxpayers seeking professional advice and
+undergoing time-consuming, resource-intensive reviews. The Tax Institute
+submitted that this could result in taxpayers entering into costly disputes with
+tax authorities.57
+2.62 The Tax Institute was also concerned that proposed retrospective changes could
+result in the nullification of transfer notices issued by affected taxpayers, which
+may mean taxpayers could be found guilty of certain strict liability offences.58
+2.63 In addition to criticising the changes to the meaning of ‘exploration for
+petroleum’, the AEP opposed retrospective changes to the definition of the term
+in relation to the petroleum resource rent tax (PRRT).
+2.64 The AEP stressed that the oil and gas industry has made significant investments
+over a sustained period in long-lived, capital-intensive assets, and underscored
+the importance of political and regulatory stability for attracting foreign
+investment.59
+Tax offsets for the film and screen industry
+Support from industry
+2.65 A majority of submissions to this inquiry were made by stakeholders from the
+film and screen industry, including individuals and small businesses working
+in the industry. These submissions were strongly in support of the amendments
+55 Tax Justice Network Australia and the Centre for International Corporate Tax Accountability and
+Research, Submission 44, p. 1.
+56 Corporate Tax Association, Submission 20, p. 2.
+57 The Tax Institute, Submission 36, p. 4.
+58 The Tax Institute, Submission 36, p. 4.
+59 Australian Energy Producers, Submission 22, p. 1.
+39
+proposed to the location offset and producer offset, urging that the bill be passed
+as quickly as possible.
+2.66 Submitters identified that the industry benefits greatly from international
+productions choosing Australia as a film and TV project destination. They
+emphasised that these international productions provide an increase in the
+available work for many stakeholders and provide valuable access to industry
+knowledge and training.60
+2.67 These submissions supported the increase to the tax offsets available for eligible
+international productions. They recognised that the amendments to the tax
+offsets would help Australia remain a competitive destination for international
+productions and would attract more of these productions to Australia.61
+2.68 These submissions emphasised the need for reforms to these offsets to be
+reviewed and passed as quickly as possible. Several submissions pointed to the
+long-term impacts of the COVID-19 pandemic and recent American film
+industrial strikes, which they explained as having caused significant disruption
+and negatively impacting income for the industry. Several individuals gave
+personal accounts of financial difficulties which industry participants have
+faced. For this reason, these submitters urged swift review and passage of these
+amendments.62
+Suggestions for further amendments
+2.69 Some stakeholders considered that further changes should be made to the tax
+regime concerning offsets for film and screen productions.
+2.70 Screen Producers Australia supported the training obligations being attached to
+the offset and the increase of the rebate to 30 per cent.63 They also expressed
+concern that these amendments would mean that taxpayer support would be
+increasingly balanced towards international productions.
+2.71 Screen Producers Australia stated that some of their members had expressed
+concern that ‘local screen storytelling faces restrictions that do not apply to
+international projects.’64 Such restrictions were identified as meeting the
+60 See, for example, Cumulus Visual Effects, Submission 4, p. 1; Entertainment Partners, Submission 7,
+p. 1; Soundfirm, Submission 15, p. 2.
+61 See, for example, Blackbird VFX, Submission 8, p. 1; Myriad Studios, Submission 10, p. 1; Jungle
+Entertainment, Submission 13, p. 1.
+62 See, for example, KOJO, Submission 1, p. 2; Ausfilm, Submission 9, pp. 4–5; Melbourne Screen Hub,
+Submission 16, pp. 1–2; Offshoot Rentals, Submission 38, p. 2.
+63 Mr Matthew Deaner, Chief Executive Officer, Screen Producers Australia, Proof Committee Hansard,
+13 June 2024, p. 21.
+64 Screen Producers Australia, Submission 46, p. 3.
+40
+Significant Australian Content (SAC) test and meeting stringent guidelines on
+the importation of international artists.65
+2.72 While reiterating their support for the strengthened training and infrastructure
+obligations, Screen Producers Australia wanted to ensure that training benefits
+the entire screen industry and minimises inefficiencies and wastage. For these
+purposes, Screen Producers Australia noted that training must be done in
+partnership with and coordinated by government to ensure training takes place
+in areas of skills shortage.66
+2.73 The Australian Writers’ Guild commented on the SAC test, suggesting further
+amendments should be made to improve its operation. They described it as a
+discretionary test which is inferior to an objective and more transparent point-
+based system, such as that used in Canada.67
+2.74 The Australian Writers’ Guild also commented on the producer offset
+guidelines, which list matters that the film authority should take into account
+when considering if a work meets the SAC test. The Australian Writers’ Guild
+stated that creative control, copyright and intellectual property resting with
+Australians are significant and should be the primary consideration for the
+SAC test.68
+2.75 Screen Producers Australia highlighted differences in treatment between
+producers of documentary series and producers of other series and suggested
+that the bill should address these differences.
+2.76 Specifically, Screen Producers Australia identified that there had previously
+been a 65-hour cap on the producer offset, allowing companies to only claim for
+the tax offset on the first 65 commercial hours of a production series. This cap
+was removed for drama series, but not documentary series, by a 2021 reform to
+the producer offset.69
+2.77 Screen Producers Australia submitted that the bill should abolish the cap for
+documentary series, and that the post, digital and visual effects offset which is
+not currently available for feature documentaries should be available for such
+documentaries.70
+65 Screen Producers Australia, Submission 46, pp. 3–4.
+66 Screen Producers Australia, Submission 46, p. 5.
+67 Australian Writers’ Guild, Submission 50, pp. 2–3.
+68 Australian Writers’ Guild, Submission 50, pp. 4–5.
+69 Screen Producers Australia, Submission 46, p. 6; Treasury Laws Amendment (2021 Measures No. 5) Act
+2021, sch. 1.
+70 Screen Producers Australia, Submission 46, pp. 6–7.
+41
+2.78 Ausfilm strongly supported the bill and noted that the provisions had been
+subject to detailed industry consultation. They outlined the consultation
+procedures undertaken throughout 2023 and early 2024 and emphasised that
+the amendments have the broad support of industry.71
+2.79 Ausfilm concluded that the bill strikes a healthy balance by ensuring benefits
+flow from international productions to Australia’s industry, and by ensuring
+that Australia has competitive incentives for international projects.72
+2.80 Screen Producers Australia opposed increasing the current minimum qualifying
+Australian production expenditure threshold from $15 million to $20 million.
+They expressed concerns about a lack of policy rationale for the increase, and
+that the higher threshold may cause problems if the AUD to USD exchange rate
+becomes less favourable for financiers in the United States. They also believed it
+may make it more difficult for smaller Australian businesses to obtain
+opportunities provided by international productions.73
+2.81 At the public hearing, representatives from the Office of the Arts appeared
+alongside representatives from Treasury to give evidence regarding the tax
+offsets for the film and screen industry.
+2.82 Representatives from the Office of the Arts explained that the minimum
+qualifying Australian production expenditure threshold had been set at $15
+million in 2007 and there had been significant increases in the costs of
+production since then. They explained that after consultation with stakeholders,
+and analysis of the offset, they identified only two productions since 2007 had
+fallen below the $20 million threshold. On this basis, it appeared there would be
+minimal impact from raising the threshold from $15 million to $20 million.74
+Miscellaneous and technical amendments
+2.83 Schedule 5 proposes a number of miscellaneous and technical amendments to
+Treasury portfolio legislation.
+2.84 Some comments made on this schedule related to successor fund transfers,
+which are effectively bulk transfers of members from one fund to another.
+Stakeholders wanted to ensure that insurance coverage for members was
+continued through successor fund transfers.
+71 Ausfilm, Submission 9, pp. 3–4.
+72 Ausfilm, Submission 9, p. 4.
+73 Screen Producers Australia, Submission 46, pp. 5–6.
+74 Mr Philip Smith, First Assistant Secretary, Office for the Arts, Department of Infrastructure,
+Transport, Regional Development, Communications and the Arts, Proof Committee Hansard,
+13 June 2024, p. 31.
+42
+2.85 The Law Council of Australia observed a gap in the proposed section 99FA,
+which would mean that a member’s consent to advice fee deductions terminate
+when they transfer out of the fund. The Law Council expressed concern that the
+termination of advice fees would be to the detriment of members where
+successor fund transfers occur, because these members would lose access to
+advice, and that this could be a significant barrier for mergers.75
+2.86 ASFA also observed that there would be instances where successor funds cannot
+continue members’ insurance coverage unless individuals elect to be covered,
+and that an individual is likely to assume that insurance would continue as part
+of a seamless fund transfer, and an individual is likely to assume that insurance
+would continue as part of a seamless fund transfer.
+2.87 However, ASFA noted that the bill contains measures to amend sections 68AAB
+and 68AAC of the SIS Act, and that they believed these amendments would
+ensure continuity of insurance coverage for members where a successor fund
+transfer occurs. They endorsed these amendments and suggested that they be
+legislated without delay.76
+2.88 Schedule 5 would also implement recommendations relating to safe harbour
+provisions for company directors who believe a company is facing potential
+insolvency. The Joint Licensees Group commented on these measures and stated
+that an opportunity exists to remove a catch-all provision to reduce or remove
+legal uncertainty. They identified the catch-all provision under paragraph
+961B(2)(g) of the Corporations Act
+Multilateral development banks
+2.89 During the inquiry, no comments were made on the proposed measures which
+would streamline the implementation of international agreements relating to
+multilateral development banks, contained in Schedule 4 to the bill.
+Committee view
+2.90 The committee is encouraged by the significant level of support from industry
+for the government’s Delivering Better Financial Outcomes package of reforms,
+and in particular the reforms in Schedule 1 of this bill that form Tranche 1 of the
+package.
+2.91 The committee notes that Schedule 1 of the bill is a critical first step in
+implementing the government’s response to the Quality of Advice Review, and
+is a faithful implementation of those recommendations.
+75 Mr Nathan Hodge, Head of Submissions, Superannuation Committee, Legal Practice Section, Law
+Council of Australia, Proof Committee Hansard, 13 June 2024, pp. 17–18; Law Council of Australia,
+Submission 31, pp. 5–6.
+76 Association of Superannuation Funds of Australia, Submission 40, pp. 3–4.
+43
+2.92 The committee welcomes evidence from the financial advice industry and other
+inquiry participants that reforms in Schedule 1 will remove unnecessary and
+costly red tape in relation to financial advice fee payments, while helping ensure
+millions of Australians have access to affordable, high-quality financial advice.
+2.93 The committee notes the views of some inquiry participants that super trustees
+may interpret this bill to require them to review every piece of financial advice
+for which fees are paid out of superannuation to satisfy their duties.
+2.94 The committee notes the intent of the government is to ensure that financial
+advice can be paid from superannuation in accordance with trustees
+discharging their general obligations that are designed to protect the retirement
+incomes of members. The committee supports this intent and is reassured by
+evidence that the status quo can continue, supported by greater legal clarity, and
+that trustees would not be obliged to check every piece of financial advice as the
+bill simply codifies current practice into law.
+2.95 In particular, the committee draws attention to the supplementary explanatory
+memorandum which states ‘Consistent with meeting their obligations under the
+current 99FA, trustees should have in place robust assurance processes to satisfy
+themselves that advice deductions from members’ superannuation accounts
+comply with their legal obligations. This may include random or risk-based
+sampling of advice.’77
+2.96 Further, the committee notes that ASIC clearly supports a risk and sample based
+approach by trustees, as referenced in joint regulatory guidance from ASIC and
+APRA, in the recent 781 report, in multiple recent speeches and in evidence to
+this committee.
+2.97 The committee notes views that the primary law should be more prescriptive in
+outlining steps that trustees must take to meet their obligations. However, the
+committee is convinced by evidence from ASIC and Treasury that a prescriptive
+approach is likely to be impractical given the diversity within the
+superannuation industry.
+2.98 The committee also notes evidence that the general obligations on
+superannuation funds are not prescriptive, even though they are objective
+standards for funds to meet. ASIC noted that a range of approaches may be
+satisfactory to meeting these obligations.
+2.99 On the basis of this evidence, the committee is satisfied that existing audit and
+review mechanisms will continue to be effective for trustees’ assurance
+purposes.
+77 Supplementary Explanatory Memorandum, p. 10.
+44
+2.100 The committee acknowledges views from the resources industry that the
+proposed changes to the PRRT includes retrospective application of the anti-
+avoidance measures in the bill.
+2.101 However, the committee notes the importance of legislation which provides a
+consistent, modern regulatory environment for industry, and the need to
+address the exploitation of tax loopholes.
+2.102 The committee welcomes the commitment from the government to address tax
+avoidance loopholes, adopt modern drafting practices for agreements with
+international financial institutions and modernise treasury laws to ensure that
+they are consistent.
+2.103 The committee welcomes amendments to the location and producer offsets that
+will improve opportunities for the film and screen industry in Australia.
+2.104 The committee is pleased to hear evidence that the training opportunities and
+commercial benefits to Australian industry are expected to be strong.
+2.105 The committee notes the extensive industry consultation that has informed these
+changes. The committee is confident that the bill strikes the right balance
+between remaining a competitive destination for international productions and
+ensuring that local producers and workforces benefit from the investment that
+these productions make in Australia.
+Recommendation 1
+2.106 The committee recommends that the bill be passed.
+Senator Jess Walsh
+Chair
+Labor Senator for Victoria
+Coalition Senators' Dissenting Report
+1.1 Coalition Senators note that this Bill is the first legislative response to the Quality
+of Advice review, which was commissioned by the former Coalition
+Government and delivered to the Albanese Government in December 2022.
+1.2 Coalition Senators note the significant delay in this bill’s arrival, which has
+caused deep uncertainty for the struggling financial advice sector, who have
+been slugged with higher fees, higher taxes, and more red tape under this
+Government. This Bill arrives over 15 months after the Government received the
+Quality of Advice Review final report from independent reviewer,
+Ms Michelle Levy.
+1.3 Furthermore, as the FSC noted, the Bill in itself is not a significant step forward
+in terms of implementing the Levy Review:
+This bill is a very, very small piece in that broader objective. I think it would
+be difficult to reach a conclusion that this bill is a significant step forward.1
+1.4 Despite this significant delay, Coalition Senators note that this bill contained
+several widely publicised drafting errors that would have gutted the financial
+advice industry’s revenue streams. In addition to this, the Bill contains
+fundamental flaws that will make it harder for Australians to pay for financial
+advice through their super.
+1.5 Unsurprisingly, the Albanese Government has decided to include this schedule
+alongside the location offset and producer offset for films in another omnibus
+Bill. The location and producer offsets reflect a continuation of Coalition policy
+in the 46th Parliament, that formed part of the JobMaker plan that underpinned
+the 2020-21 Budget and supported a revival of Australia’s film industry.
+1.6 The increase to the Location Offset which this Bill implements, will build on the
+success of the Coalition Government’s Location Incentive measure, which
+demonstrated that we can successfully build a long-term pipeline of large-scale
+global screen productions in Australia – in turn generating thousands of jobs for
+Australian screen professionals.
+1.7 Severe deficiencies with the provisions of Part 1 Schedule 1 put at risk the
+passage of important tax incentives for the Australian film industry.
+1.8 The Labor Government has decided to play politics with these measures by
+combining them into an omnibus Treasury Laws Amendment Bill that purports
+to implement the recommendations of the Quality of Advice Review.
+1 Mr Blake Briggs, Chief Executive Officer, Financial Services Council, Committee Hansard,
+13 June 2024, p. 20.
+45
+46
+The proposed Section 99FA fails to achieve the aim of Quality of Advice
+review
+1.9 Recommendation 7 of the Quality of Advice Review pertained to the deduction
+of adviser fees from superannuation.2 The independent reviewer, Ms Michelle
+Levy, recommended that superannuation trustees be able to pay a fee from a
+member’s superannuation account to an adviser for personal advice provided
+to the member about the member’s interest in the fund on the direction of
+the member.
+1.10 Ms Levy clarified the objective of this recommendation:
+The objective of this recommendation is to provide superannuation fund
+trustees with more certainty about paying advice fees agreed between a
+member and their financial adviser from the member’s superannuation
+account and ensure that adviser fees are not paid in breach of the SIS Act
+and are not taxable benefits for members.3
+1.11 Submitting to the inquiry, the Financial Advice Association of Australia (FAAA)
+laid out what they believed to be the intent of the recommendation, which the
+Bill purports to reflect:
+The intent of the changes in the Bill, as recommended by Michelle Levy and
+agreed to by the Government, was to address this issue and provide
+certainty to allow consumers to choose to pay for financial advice from their
+superannuation account in accordance with the SPT [Sole Purpose Test], to
+make advice more affordable and accessible for consumers.4
+1.12 However, the Committee has heard from numerous industry witnesses that the
+proposed measures in Part 1 Schedule 1 of this Bill do not achieve the policy
+intent and objective of this recommendation.
+1.13 The Stockbrokers and Investment Advisers Association said in their submission
+that the proposed changes to Section 99FA of the Superannuation Industry
+(Supervision) Act 1993 are unworkable:
+… the proposed changes to section 99FA of the SIS Act will establish a
+particularly excessive obligation on trustees to closely review advice and fee
+arrangements to confirm compliance with the sole purpose test. Under the
+proposed legislation, superannuation trustees that allow fee deductions will
+need to check every piece of advice individually and duplicate valid checks
+2 Department of the Treasury, Quality of Advice Review - Final Report, 8 February 2023,
+https://treasury.gov.au/publication/p2023-358632 (accessed 19 June 2024), p. 7.
+3 Department of the Treasury, Quality of Advice Review - Final Report, 8 February 2023,
+https://treasury.gov.au/publication/p2023-358632 (accessed 19 June 2024), p. 117.
+4 Financial Advice Association of Australia, Submission 41, p. 4.
+47
+already undertaken by financial advisers and their licensees. The proposal
+is unworkable and worse for all than the current situation.5
+1.14 Furthermore, it was argued that this provision would undermine the intent of
+the recommendation to provide members the choice to use their super to cover
+financial advice costs:
+What is of the most concern is that the Bill provides that a superannuation
+trustee is not required to agree to the member’s request to charge the
+relevant costs even when the requirements are satisfied. Superannuation is
+the member’s money and no trustee should have the right to override a
+member’s decision in the context of all legal requirements having been met.6
+1.15 Whilst the Government has claimed that this Bill is intended to reduce red tape,
+the Stockbrokers and Investment Advisers Association said ‘this provision
+increases it exponentially’.7
+1.16 At the public hearing, the Law Council of Australia said that ‘the provision does
+not achieve the stated policy intent’ of the change or the recommendation.8 In
+their submission they noted that:
+The new drafting does not include any substantive provisions which
+provide a clear legal basis for the charging of the fee.9
+1.17 At the public hearing, the Law Council confirmed that the drafting was
+effectively prohibitive on advice fees being paid out of super:
+Senator BRAGG: I want to know whether I understand your evidence
+correctly. To the Law Council: is the bill, as drafted, effectively prohibitive
+on people who want to use super to pay financial advice fees?
+Mr Hodge: Yes. The current section 99FA contains limits on the use of
+superannuation for advice fees. The new section 99FA also contains a
+prohibition on the use of superannuation for personal advice fees, unless the
+conditions are satisfied.10
+1.18 In their submission, the Law Council argued that the ‘proposed replacement
+paragraph 99FA(1)(d) could not be regarded as an instance of “reducing red
+tape” and, contrary to the EM, it would not “provide superannuation fund
+trustees with more legal certainty about paying advice fees agreed between a
+member and their financial adviser from the member’s superannuation
+5 Stockbrokers and Investment Advisers Association, Submission 29, p. 2.
+6 Stockbrokers and Investment Advisers Association, Submission 29, p. 2.
+7 Stockbrokers and Investment Advisers Association, Submission 29, p. 2.
+8 Mr Nathan Hodge, Head of Submissions, Superannuation Committee, Legal Practice Section, Law
+Council of Australia, Committee Hansard, 13 June 2024, p. 17.
+9 Law Council of Australia, Submission 31, p. 4.
+10 Mr Nathan Hodge, Head of Submissions, Superannuation Committee, Legal Practice Section, Law
+Council of Australia, Committee Hansard, 13 June 2024, p. 20.
+48
+account” (at [1.14]).’11 Furthermore, the new proposed Section 99FA ‘would
+provide less legal certainty’ than the current provisions.12
+1.19 Chartered Accountants Australian and New Zealand (CAANZ) and CPA
+Australia submitted that the proposed Section 99FA is ‘an inappropriate
+solution to the payment of personal advice fees from superannuation funds
+because, in our view, it creates too many risks for the trustees of APRA regulated
+superannuation funds’.13 Furthermore, it would lead to ‘inefficiencies and a lack
+of certainty’.14
+1.20 At the hearing, CAANZ argued that providing clarity through the Explanatory
+Memorandum or through ASIC assurances was not sufficient:
+Unfortunately, the steps that trustees take to meet those obligations in the
+law are spelt out in the EM and ASIC's assurances. Those do not have the
+weight of law. They may change at any time, and so, at the end of the day,
+the law itself is not clear and is open to interpretation. That is our primary
+concern.15
+1.21 This was confirmed by the Law Council during their appearance, noting that
+having the procedures and policies detailed in the EM with respect to the
+payment of advice fees through super would not hold sufficient legal weight:
+As a result, we would say that the courts would likely place limited weight
+on the explanatory memorandum in this situation. The courts have come
+across this type of issue before, and the following statement, which has been
+adopted by the High Court, states, 'Where the extrinsic material appears to
+cast doubt on the construction of words favoured by a plain meaning of
+those words, then the explanatory memorandum cannot override the clear
+purpose of the act as deduced from its own language.' In effect, the words
+in the explanatory memorandum cannot be substituted for the text in the
+law. That means that trustees would be faced with a choice of relying on
+robust processes and controls and accept the risk of breaching 99FA in a
+particular situation or take steps to comply with 99FA in relation to each
+advice fee.16
+1.22 The FAAA submitted that the proposed new Section 99FA is ‘impractical and
+inconsistent with the overall objective’ of the reform package, and would in
+11 Law Council of Australia, Submission 31, p. 4.
+12 Law Council of Australia, Submission 31, p. 4.
+13 Chartered Accountants ANZ and CPA Australia, Submission 39, p. 3.
+14 Chartered Accountants ANZ and CPA Australia, Submission 39, p. 3.
+15 Mr Michael Davison, Financial Advice Leader, Chartered Accountants Australia and New Zealand,
+Committee Hansard, 13 June 2024, p. 28.
+16 Mr Nathan Hodge, Head of Submissions, Superannuation Committee, Legal Practice Section, Law
+Council of Australia, Committee Hansard, 13 June 2024, p. 17.
+49
+practice ‘significantly increase red tape for both super fund trustees and for
+financial advisers’.17
+1.23 FAAA argues that this is because the new section would effectively require
+advisers to provide full Statements of Advice (SOAs) to superannuation funds
+to review individually in order for funds to fulfill the legal requirements, ‘which
+would be costly and inefficient for both trustees and advisers, with the cost
+ultimately being paid by consumers’.18
+1.24 At the public hearing, the FAAA explained risks of this approach, and why it
+would increase costs in providing advice:
+Firstly, for advisers, answering an audit request from a super fund generally
+involves giving copies of documents, such as statements of advice, which
+include their clients' sensitive personal information. Providing this
+unredacted to trustees could be a breach of the Privacy Act. Completing this
+redaction task is time-consuming, as it is for super funds who must read
+these documents and form a view on whether that advice meets the sole
+purpose test. Thus, we're concerned that this new wording could
+significantly increase the costs of both providing financial advice and
+administering super funds. That is certainly not in the best interests of
+members.19
+1.25 Submitting to the inquiry, the Institute of Public Accountants agreed, noting that
+proposed Subsections 99FA(1)(a) and (b) would ‘drive up compliance costs of
+both the trustee and the adviser and serve as further red tape, slowing down the
+provision of financial advice’.20
+1.26 In a submission from the Joint-Licensees Group, which includes ‘senior
+executives of leading AFS licensees’, it was put to the Committee that the current
+drafting of the Bill ‘will likely reduce access to quality financial advice and
+increase its cost through the introduction of additional red tape that consumers
+will pay for’.21
+1.27 They further explained how the changes grant considerable discretion to
+superannuation trustees with respect to ‘whether or not accept a member’s
+request/direction to pay advice fees from their superannuation account’.22 The
+consequences would be that funds have greater control over member choice:
+17 Financial Advice Association of Australia, Submission 41, p. 1
+18 Financial Advice Association of Australia, Submission 41, p. 5
+19 Ms Sarah Abood, Chief Executive Officer, Financial Advice Association of Australia, Committee
+Hansard, 13 June 2024, p. 12.
+20 Institute of Public Accountants, Submission 48, p. 3.
+21 Joint Licensees Group, Submission 53, p. 2.
+22 Joint Licensees Group, Submission 53, p. 3.
+50
+This change effectively makes superannuation funds act as gatekeepers or
+monitors of the fees their members wish to pay for financial advice; and
+requires they make subjective determinations as to whether the fees align
+with the member's superannuation interest. This added layer of scrutiny
+would see super funds taking on a role as quasi AFSL regulators. That is,
+the fund would be duplicating the role and responsibilities of both AFSLs
+and ASIC.
+…
+With its current drafting, the Bill, by increasing superannuation funds'
+required oversight of members’ wishes with respect to the payment of
+financial advice fees, will reduce consumer agency. Members who seek
+financial advice will face additional hurdles in getting their adviser fees paid
+from their superannuation accounts, as these payments will now require
+rigorous vetting by the fund trustees. This could limit members' freedom
+and ease in choosing and using financial advisers. Some funds (quite
+understandably) may decide the burden of responsibility is all too much and
+choose to not allow members the freedom they seek.23
+1.28 Appearing before the Committee at the public hearing, the Managing Director
+of WT Financial Group said that the new proposed s99FA would be devastating
+to members financially, and estimates it could cost members $400 more per
+advice request:
+With respect to 99FA, the bill as currently drafted is a ticking time bomb. It
+threatens the financial wellbeing of Australians. It aims to reshape
+provisions for advice fee deductions from super in a way that, in our view,
+will inflate costs with redundant compliance requirements and potentially
+devastate access to quality of advice while adding no value for consumers
+at all.
+…
+The proposed changes to 99FA add nothing but confusion, uncertainty and
+cost, when this is the exact opposite of what was being sought to be achieved
+through recommendation 7. We estimate that the additional cost burden, if
+trustees are forced to scrutinise each advice document, would be in the order
+of $400 per member request, and this will siphon away literally hundreds of
+millions of dollars of consumers' retirement savings annually. That doesn't
+just fail to make advice more affordable; it's a sabotage of consumers'
+financial security.24
+1.29 Furthermore, the Committee heard evidence that this one provision alone
+created the risk that the new arrangements could mean funds do not permit their
+members using their super to pay advice fees:
+23 Joint Licensees Group, Submission 53, p. 3.
+24 Mr Keith Cullen, Managing Director, WT Financial Group Ltd; and Representative, Joint Licensees
+Group, Committee Hansard, 13 June 2024, pp. 13–14.
+51
+Senator BRAGG: Is there a risk here, though, that cherry-picking one
+provision out of the whole package creates a risk of misuse of the new
+arrangements by the super funds?
+…
+Mr Cullen: I certainly think that there is a risk of having the exact opposite
+outcome than the implementation of the recommendation seeks to have. As
+Mr Younger and Ms Abood have said, there's a real risk here that super
+funds will take this legislation, notwithstanding what the EM says, on its
+literal meaning. I draw everybody's attention to the drafting of that relevant
+section, 99FA, as is before the parliament and this committee at the moment.
+It does not say that superannuation funds can charge a fee. The first thing it
+says is that they must not. So it's an outright prohibition to start with.25
+1.30 The Financial Services Council (FSC) submitted that the Bill as drafted ‘will on
+the whole make advice less affordable and more inaccessible for consumers’,
+and that the legislative changes in Schedule 1, Part 1 ‘are defective’.26
+Furthermore, if enacted as drafted, the provision would ‘make the existing
+situation worse’.27
+1.31 The FSC, in their submission, said the proposed Section 99FA departs from both
+the existing law and the policy intent of the Levy Review recommendations:
+The legislative stance of the amendments may result in a black letter
+interpretation of the provision by superannuation trustees. This
+interpretation will necessitate superannuation trustee to move beyond their
+existing risk-based practices of ensuring compliance with the sole purpose
+test and best financial interest duty when deducting adviser fees from
+member accounts. As a result, superannuation trustees will instead need to
+check every single piece of advice, which is inconsistent with current
+industry practice and the stated policy intent of the Government.
+…
+The impacts of these unintended consequences may be that some
+superannuation trustees will decide not to facilitate advice deductions from
+members accounts where the adviser is independent of the superannuation
+fund. The choice by some superannuation trustees to remove the facility to
+allow a member to fund financial advice through their superannuation
+account will have a chilling effect on the access to professional financial
+advice provided by independent, appropriately trained and qualified
+individuals, as members will not be able to fund advice on their
+superannuation from their own superannuation account.28
+25 Mr Keith Cullen, Managing Director, WT Financial Group Ltd; and Representative, Joint Licensees
+Group, Committee Hansard, 13 June 2024, p. 16.
+26 Financial Services Council, Submission 54, pp. 1–2.
+27 Financial Services Council, Submission 54, p. 2.
+28 Financial Services Council, Submission 54, p. 2.
+52
+1.32 Appearing before the Committee, the FSC also disputed claims that ASIC would
+be able to clarify and interpret the law appropriately later:
+Public statements from the regulator don't bind the regulator. So, with all
+due respect to the current commissioners, they could say whatever they like
+now, and the future commissioner, or even themselves at a future point in
+time, would not be bound by those comments. This would not be the only
+possible situation where ASIC has changed its opinion or changed a course
+of action after legislation has come into effect. What you've heard today
+from all of the superannuation representatives is called a diversity of
+opinions on how these provisions work. So, if the intent was to provide legal
+certainty, the drafting has absolutely failed to do that, and it can't be rectified
+by a regulator saying that its current interpretation at this point in time is as
+follows, because it has no legal effect.29
+1.33 In evidence before the Committee, the Association of Superannuation Funds of
+Australia (ASFA) confirmed that funds will have different risk tolerances, and
+some may determine that they will have to check every SOA, noting that:
+… funds will reconsider their risk tolerances to that particular edition in the
+legislation. They will have differing views about whether or not they need
+to react in a way that suggests that they check every piece of advice or that
+they can take a risk based approach.30
+1.34 Evidence given to the Committee demonstrating the flawed drafting of the new
+Section 99FA also coincided with comments from the Super Members Council
+(SMC), claiming that ‘dodgy advisers are using click bait-style social media
+posts, cold calls and high-pressure sales tactics to convince people to change
+super funds.’31 The comment was in reference to an ASIC report released
+last month.
+1.35 The FSC described these comments as not contributing to a sensible debate, and
+questioned why ASIC wasn’t enforcing the law instead of just writing another
+report:
+Some of the language, around dodgy advisers and that, that we've seen from
+the industry super side of things probably hasn't contributed to a sensible
+policy debate
+…
+It's quite extraordinary, to be honest. My observation would be: if the ASIC
+report found evidence of dodgy advisers, ASIC has the power to take action
+in relation to those advisers. It's done its report. If it found evidence of dodgy
+29 Mr Blake Briggs, Chief Executive Officer, Financial Services Council, Committee Hansard,
+13 June 2024, p. 19.
+30 Ms Mary Delahunty, Chief Executive Officer, Association of Superannuation Funds of Australia,
+Committee Hansard, 13 June 2024, p. 8.
+31 Cliona O’Dowd, ‘Industry, retail super funds clash over advice reforms’, The Australian, 11 June
+2024, https://www.theaustralian.com.au/business/industry-retail-super-funds-clash-over-advice-
+reforms/news-story/13724d85d9e641d759a4e4e5cad01752 (accessed 19 June 2024).
+53
+advisers, we would encourage it to take legal action. If all it has done is
+written a report on it, whilst it's found evidence of misconduct, then you do
+have to ask: what's ASIC doing with its time?32
+1.36 At the hearing, the FAAA described the language as inappropriate and
+misleading:
+I think that language is pretty inappropriate. It is not the case that financial
+advisers are dodgy, and I think it's unfortunate that that language was used.
+I mentioned in my opening statement that ASIC report 781 found that less
+than one per cent of advice cases that they reviewed showed evidence of fee
+for no service, and even smaller proportions showed evidence of excessively
+high fees. That report did not provide any statistics on cold calling.33
+1.37 The Chair of the FAAA described the comments as ‘offensive’ and ‘a broad
+brush slur’.34 WT Financial managing director Keith Cullen said that the SMC is
+‘evidently out to undermine the advice profession’.35
+1.38 Even ASFA described the comments as inaccurate:
+I don't think it's correct to use the term 'adviser' in that particular
+categorisation, because, by and large, there are not many licensed advisers
+left, as I have said, and I wouldn't say you could categorise them as doing
+cold calling.36
+1.39 Given these derogatory comments directed towards the advice profession, it is
+therefore no surprise that the SMC recommended that the Parliament ‘fast-
+tracks’ this Bill without amendments.37
+1.40 When asked about the prohibitive drafting of Section 99FA, as detailed in
+evidence from the Law Council provided to the Committee, the Treasury
+officials at the hearing said they hadn't listened to that evidence because they
+were apparently too busy:
+Senator BRAGG: You think that the Law Council was wrong?
+32 Mr Blake Briggs, Chief Executive Officer, Financial Services Council, Committee Hansard, 13 June
+2024, pp. 18–20.
+33 Ms Sarah Abood, Chief Executive Officer, Financial Advice Association of Australia, Committee
+Hansard, 13 June 2024, pp. 15–16.
+34 Keith Ford, ‘‘Broad brush slur’: Broader profession unites against SMC’, Independent Financial
+Adviser, 14 June 2024, https://www.ifa.com.au/news/34378-broad-brush-slur-broader-profession-
+unites-against-smc (accessed 19 June 2024).
+35 Keith Ford, ‘‘Broad brush slur’: Broader profession unites against SMC’, Independent Financial
+Adviser, 14 June 2024, https://www.ifa.com.au/news/34378-broad-brush-slur-broader-profession-
+unites-against-smc (accessed 19 June 2024).
+36 Ms Mary Delahunty, Chief Executive Officer, Association of Superannuation Funds of Australia,
+Committee Hansard, 13 June 2024, p. 10.
+37 Super Members Council, Submission 51, p. 2.
+54
+Dr Moore: I didn't hear the Law Council's evidence earlier today, so I can't
+comment on that, but what I can say is that the existing test and the new test
+are both objective tests. They both reflect trustee obligations in the law, and
+the difference is that the new one, as opposed to the current one, provides
+greater clarity by more fully stepping out the elements of that objective test.
+Senator BRAGG: You didn't listen to the evidence today?
+Dr Moore: I did listen to some of the evidence, but, you know, I've got a few
+things on my plate, so I wasn't able to sit right through the whole morning.38
+1.41 ASIC said it was given a copy of the Bill prior to it being introduced to the
+Parliament as part of ‘a quality assurance process’.39 Regrettably, ASIC, along
+with the Minister's office, was unable to detect a drafting error in the Bill which
+would have effectively banned the current exemption for financial advisers
+from life insurance commissions:
+Senator BRAGG: Did you know about this drafting error?
+Mr Kirkland: I became aware of the drafting error when I saw the media
+reports of it.
+Senator BRAGG: So ASIC didn't pick it up. That could have been one
+benefit of you guys being involved with drafting new laws.40
+1.42 Given this failure to detect drafting errors, it’s unclear what role ASIC’s ‘quality
+assurance process’ plays in the drafting process beyond that of policy
+formulation, which should be the domain of government and the Parliament.
+1.43 The FSC also noted that ASIC’s involvement in the policy formulation and
+drafting process lacks transparency, which is particularly concerning when
+supporters of the new Section 99FA are claiming that ASIC will provide clarity
+to the provision:
+The other point I'll make is that ASIC hasn't released its submission on this
+bill. I think it would be a really useful evidence point to be able to see ASIC's
+submission and say, 'Okay, did what it submit on the draft of the bill align
+with what it is now saying publicly, or are they actually saying different
+things behind closed doors to what they're saying publicly?' We would love
+to have that transparency in the regulator's contribution on these issues to
+give the industry more confidence about what it says in public forums.41
+38 Dialogue between Senator Bragg and Dr Andre Moore, Acting First Assistant Secretary, Retirement,
+Advice and Investment Division, Department of the Treasury, Committee Hansard, 13 June 2024,
+p. 33.
+39 Mr Alan Kirkland, Commissioner, Australian Securities and Investments Commission, Committee
+Hansard, 13 June 2024, p. 34.
+40 Dialogue between Senator Bragg and Mr Alan Kirkland, Commissioner, Australian Securities and
+Investments Commission, Committee Hansard, 13 June 2024, p. 34.
+41 Mr Blake Briggs, Chief Executive Officer, Financial Services Council, Committee Hansard,
+13 June 2024, p. 19.
+55
+1.44 Ultimately, given the evidence provided to the inquiry, Coalition Senators are
+of the view that the proposed Section 99FA is not currently fit for purpose, and
+could lead to increased costs to financial advice. This would be entirely
+antithetical to the intent and recommendations of the Levy Review.
+1.45 The FAAA argued that the current risk-based approach for adviser fee
+deductions from super funds should continue:
+The current generally accepted practice is for trustees to take a risk based
+approach. It's already been mentioned this morning—reviewing a sample of
+advice documents based on risk indicators, such as a high fee relative to the
+member's balance, to confirm that the fee is compliant with the sole purpose
+test. We're supportive of this approach and we believe it should continue.42
+1.46 In evidence to the Committee, CAANZ said that Part 1 Schedule 1 should be
+removed from the Bill and alternative solution considered later:
+In light of these concerns and in the interest of this bill proceeding, we
+respectfully recommend that part 1 of schedule 1 be removed from the bill
+and further consultation take place to discuss a more efficient and less
+wasteful solution.43
+1.47 In order to advance the other parts of Schedule 1, the FSC also recommended
+that the new Section 99FA be excised, re-drafted and reconsidered as part of
+tranche 2:
+So our recommendation at this point is that the bill shouldn't be held up. It
+is actually quite easy to excise the offending provisions from this bill, get the
+remainder of the items through and deal with this specific provision as part
+of the tranche 2 legislation that is expected to be released before the end of
+the month. It gives the government plenty of space to consult further with
+industry and come up with a suitable solution but not hold up other
+provisions relating to financial services in other sectors that might have
+great merit to them.44
+1.48 In a letter to the Committee from the Joint Associations Working Group (JAWG)
+of 12 industry and professional bodies, including the FAAA, FSC and CAANZ,
+it was submitted that ‘the proposed Section 99FA, as it stands, imposes several
+significant challenges that will lead to poor outcomes for consumers,
+particularly in terms of access to financial advice.’45
+42 Ms Sarah Abood, Chief Executive Officer, Financial Advice Association of Australia, Committee
+Hansard, 13 June 2024, p. 12.
+43 Mr Michael Davison, Financial Advice Leader, Chartered Accountants Australia and New Zealand,
+Committee Hansard, 13 June 2024, p. 26.
+44 Mr Blake Briggs, Chief Executive Officer, Financial Services Council, Committee Hansard,
+13 June 2024, p. 19
+45 Joint Association Working Group, Submission 57, p. 1.
+56
+1.49 To consider the necessary legislative amendments required, as made clear by
+their senior counsel advice, the JAWG recommended that Part 1 Schedule 1 be
+removed:
+We urge the Committee to recommend that the Government remove Part 1
+of Schedule 1 from the DBFO Bill and return with an updated proposal in
+Tranche 2 of the Delivering Better Financial Outcomes Package after
+transparent consultation with industry, including the JAWG associations.46
+1.50 If the Albanese Government is serious about providing cheaper and more
+accessible financial advice to Australians, rather than tailoring legislation to
+their favourite vested interests at the super funds, then they should take their
+proposed Section 99FA back to the drawing board.
+1.51 Financial advisers and Australian consumers should not have to bear the brunt
+of Labor’s incompetent legislative drafting.
+1.52 By removing Section 99FA in Division 1 of Schedule 1 from the Bill, speedy
+passage of the rest of the Bill through the Senate and the House can be facilitated.
+The Coalition believes such an approach would deliver certainty to a range of
+affected sectors including Australia’s screen production sector.
+Recommendation 1
+1.53 That Part 1 Schedule 1 of the Bill be removed and the provisions re-consulted
+on by the Treasury in anticipation of Tranche 2 of the Government’s
+legislation implementing the Quality of Advice review recommendations.
+Senator Andrew Bragg Senator Dean Smith
+Deputy Chair Liberal Senator for Western Australia
+Liberal Senator for New South Wales
+46 Joint Association Working Group, Submission 57, p. 2.
+Greens Senators' additional comments
+1.1 These comments are constrained to Schedule 6 of the bill.
+1.2 The Australian Greens are disappointed that measures relating to Australia’s
+screen sector are wrapped up in a Treasury bill, rather than introduced
+alongside other reforms promised by the Government that remain undelivered.
+1.3 The Albanese Government committed to implementing local content
+requirements for global streaming giants by 1 July 2024, yet that date is fast
+approaching and no legislation has been introduced.
+1.4 The failure to introduce streaming quotas is a broken promise to Australia’s
+screen sector. Streaming giants make huge profits off Australian consumers and
+should reinvest their fair share back into making stories for and about our
+communities. These quotas are critical to building up the sustainability of the
+screen sector and ensuring Australians see themselves reflected on their screens.
+1.5 Given the Government’s promise to act on this, their failure to prioritise this
+legislation is deeply frustrating.
+1.6 The Government’s silence on this promise is made all the more evident by
+piecemeal reforms put forward in Schedule 6 of this Bill. While the increase of
+the location offset to 30% is welcomed by the sector, the Government should be
+prioritising building our home-grown screen sector, not solely attracting foreign
+projects to our shores.
+1.7 Further, the Greens hold concerns around potential unintended consequences
+of the changes to the minimum qualifying expenditure threshold. As heard
+throughout this inquiry, raising the threshold from $15 million to $20 million
+may jeopardise capacity of Australian companies to attract smaller budget, often
+independent projects to Australia. There does not appear to be a clear reason for
+the increase, nor any cost impact made evident.
+1.8 As such, we feel it important to retain the $15 million threshold and ensure the
+film sector has flexibility to attract a wider diversity of projects to Australia.
+Recommendation 1
+1.9 The Australian Government prioritise the introduction of its legislative
+reforms for local requirements for streaming services to the Australian
+Parliament.
+57
+58
+Recommendation 2
+1.10 Remove Item 8 from Schedule 6, Part 2 of the bill to maintain the threshold at
+$15 million.
+Senator Sarah Hanson-Young
+Greens Senator for South Australia
+Appendix 1
+Submissions and additional information
+1 KOJO
+2 Fin
+3 Beyond
+4 Cumulus VFX
+5 Rising Sun Pictures
+6 Servo Production Services Pty Ltd
+7 Entertainment Partners
+8 Blackbird VFX Pty Ltd
+9 Ausfilm
+10 Myriad Studios
+11 The Vision House
+12 Broom Tracks
+13 Jungle Entertainment
+14 Mr Joel Mitchell
+15 Soundfirm
+16 Msh
+17 Mr Aidan McDonnell
+18 Illusions
+19 Mr Manel Lopez
+20 Corporate Tax Association
+21 Seven West Media
+22 Australian Energy Producers
+23 Australian Super
+24 Ms Tami Holton
+25 Big Bang Sound Design
+26 Ms Anne Kinnane
+27 Ms Kris Maric
+28 The Insurance Council of Australia
+29 Stockbrokers and Investment Advisers Association
+30 Super Consumers Australia
+31 Law Council of Australia
+32 Council of Australian Life Insurers (CALI)
+33 Media, Entertainment and Arts Alliance
+34 Douglas Shire Council
+35 Lemac Film and Digital
+36 The Tax Institute
+37 Sustainable Life Solutions
+38 Offshoot Rentals
+39 Chartered Accountants ANZ and CPA Australia
+59
+60
+40 The Association of Superannuation Funds of Australia Ltd
+41 Financial Advice Association of Australia
+42 National Insurance Brokers Association
+43 Media Entertainment and Arts Alliance - Victorian members
+44 Tax Justice Network Australia and CICTAR
+45 Australian Banking Association
+46 Screen Producers Australia
+47 Ms Elizabeth Sarsfield
+48 Institute of Public Accountants
+49 Screen Queensland
+50 Australian Writers' Guild
+51 Super Members Council
+52 City of Gold Coast
+53 Joint Licensees Group
+54 Financial Services Council
+55 MPC
+56 Victorian Government
+57 Joint Association Working Group
+ Attachment 1
+58 Australian Restructuring Insolvency & Turnaround Association
+59 Name Withheld
+60 Confidential
+61 Confidential
+62 Confidential
+63 Confidential
+64 Confidential
+65 Confidential
+66 Confidential
+67 Confidential
+Answer to Question on Notice
+1 Australian Securities and Investments Commission-001: Answers to written
+questions on notice asked by Senator Andrew Bragg on the 13 June 2024 -
+ASIC advice on the Bill (received 17 June 2024)
+Appendix 2
+Public Hearings and Witnesses
+Thursday, 13 June 2024
+Committee Room 2S1
+Parliament House
+Canberra
+Council of Australian Life Insurers
+ Ms Christine Cupitt, Chief Executive Officer
+National Insurance Brokers Association
+ Mr Gary Okely, President
+ Ms Allyssa Hextel, Head of Policy
+ Mr Richard Kilpin, Chief Executive Officer
+Super Members Council
+ Ms Misha Schubert, Chief Executive Officer
+ Mr Matthew Linden, Executive GM, Strategy
+The Association of Superannuation Funds of Australia Ltd
+ Ms Mary Delahunty, Chief Executive Officer
+ Mr James Koval, Head of Policy and Advocacy
+Stockbrokers and Investment Advisers Association
+ Ms Michelle Huckel, Policy Manager
+Financial Advice Association of Australia
+ Ms Sarah Abood, Chief Executive Officer
+ Mr Philip Anderson, General Manager Policy, Advocacy and Standards
+ Mr George John, Senior Manager, Government Relations & Policy
+Joint Licensees Group
+ Mr Keith Cullen, Managing director, WT Financial Group Limited
+ Mr Neil Younger, Managing director, Fortnum Private Wealth Limited
+Financial Services Council
+ Mr Blake Briggs, Chief Executive Officer
+ Mr Spiro Premetis, Executive Director, Policy and Advocacy
+Law Council of Australia
+ Mr John Farrell, Executive Policy Lawyer
+ Mr Nathan Hodge, Head of Submissions, Superannuation Committee
+61
+62
+Screen Producers Australia
+ Ms Tracey Viera, President
+ Mr Matthew Deaner, Chief Executive Officer
+Ausfilm
+ Ms Kate Marks, Chief Executive Officer
+ Mr Patrick May, Director of Policy and Research
+Chartered Accountants Australia & New Zealand
+ Mr Michael Davison, Financial Advice Leader
+CPA Australia
+ Mr Richard Webb, Superannuation Lead
+Institute of Public Accountants
+ Mr Tony Greco, General Manager Technical Policy
+Department of the Treasury
+ Ms Susan Bultitude, Assistant Secretary, Corporate Tax Branch
+ Mr Simon Winckler, Director, Corporate Tax Branch
+ Ms Karina Capri, Director, Advice and Investment Branch
+ Dr Andre Moore, Assistant Secretary, Advice and Investment Branch
+ Mr Adam Hawkins, Assistant Secretary, Tax and Transfer Branch
+ Ms Bianca Bauer, Director, Tax and Transfer Branch
+Department of Infrastructure, Transport, Regional Development, Communications and the
+Arts
+ Mr Philip Smith, First Assistant Secretary, Office for the Arts
+ Mr Jason Potkins, A/g Assistant Secretary, Screen and Arts Workforce
+Development Branch
+Australian Securities and Investments Commission
+ Mr Alan Kirkland, Commissioner
+ Ms Leah Sciacca, Senior Executive Leader

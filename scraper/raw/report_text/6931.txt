@@ -1,0 +1,2385 @@
+The Senate
+Legal and Constitutional Affairs
+Legislation Committee
+Criminal Code Amendment (Deepfake
+Sexual Material) Bill 2024 [Provisions]
+August 2024
+© Commonwealth of Australia 2024
+ISBN 978-1-76093-701-0 (Printed version)
+ISBN 978-1-76093-701-0 (HTML version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by the Senate Printing Unit, Parliament House, Canberra
+Contents
+Members ............................................................................................................................................... v
+Acronyms and abbreviations ......................................................................................................... vii
+List of recommendations .................................................................................................................. ix
+Chapter 1—Introduction .................................................................................................................... 1
+Conduct of the inquiry and acknowledgement .................................................................... 1
+Structure and scope of the report ........................................................................................... 1
+Purpose of the Bill ..................................................................................................................... 2
+Background ................................................................................................................................ 2
+Key provisions ........................................................................................................................... 4
+Consideration by other parliamentary committees ............................................................. 8
+Chapter 2—Key Issues ..................................................................................................................... 11
+Harms of non-consensual sharing of sexual material ....................................................... 11
+Causes of and motivations for technology-facilitated abuse ........................................... 14
+Ease of access ........................................................................................................................... 16
+Scope and purpose of the Bill ................................................................................................ 17
+Inadequacy of the current legal framework ........................................................................ 19
+New underlying offence ........................................................................................................ 20
+Aggravated offences ............................................................................................................... 25
+Penalties ................................................................................................................................... 28
+Application to children .......................................................................................................... 29
+Overlap with current state and territory offences .............................................................. 33
+Gaps in the Bill ........................................................................................................................ 34
+The role of social media and technology companies ......................................................... 38
+Non-legislative responses ...................................................................................................... 43
+Committee view ...................................................................................................................... 48
+Additional Comments by Senator Paul Scarr .............................................................................. 53
+Appendix 1—Submissions and Additional Information .......................................................... 59
+Appendix 2—Public hearings ......................................................................................................... 61
+iii
+
+Members
+Chair
+Senator Nita Green ALP, QLD
+Deputy Chair
+Senator Paul Scarr LP, QLD
+Members
+Senator Alex Antic LP, SA
+Senator Varun Ghosh ALP, WA
+Senator Helen Polley ALP, TAS
+Senator David Shoebridge AG, NSW
+Substitute Members
+Senator Larissa Waters AG, QLD
+(for Senator David Shoebridge, from 4 July 2024)
+Secretariat
+Sophie Dunstone, Committee Secretary
+Alice Read, Parliamentary Graduate
+Leah Schamschurin, Administrative Officer
+Suite S1.61 Telephone: (02) 6277 3560
+Parliament House
+Canberra ACT 2600 Email: legcon.sen@aph.gov.au
+v
+
+Acronyms and abbreviations
+AFP Australian Federal Police
+AFPA Australian Federal Police Association
+AGD Attorney-General’s Department
+AHRC Australian Human Rights
+Commission
+AI artificial intelligence
+the Bill Criminal Code Amendment
+(Deepfake Sexual Material) Bill 2024
+CDPP Commonwealth Director of Public
+Prosecutions
+the committee Legal and Constitutional Affairs
+Legislation Committee
+the Criminal Code Criminal Code Act 1995
+EM explanatory memorandum
+Human Rights Committee the Parliamentary Joint Committee
+on Human Rights
+ISA Independent Schools Australia
+ISPI Involuntary Synthetic Pornographic
+Imagery
+the Law Council Law Council of Australia
+NASASV National Association of Services
+Against Sexual Violence
+NCEI Non-consensual explicit imagery
+NSWCCL New South Wales Council of Civil
+Liberties
+OSA Online Safety Act 2001
+QPS Queensland Police Service
+QSAN Queensland Sexual Assault Network
+RASARA Rape and Sexual Assault Research
+and Advocacy
+SASV Sexual Assault Services Victoria
+vii
+Scrutiny of Bills Committee Senate Standing Committee for the
+Scrutiny of Bills
+viii
+List of recommendations
+Recommendation 1
+2.193 The committee recommends that the Attorney-General reviews the threshold
+outlined in proposed subsection 474.17AA(1) after two years of the Bill’s
+operation.
+Recommendation 2
+2.200 The committee recommends that the Attorney-General continues work
+already underway via the Standing Council of Attorneys-General in relation
+to development of harmonised offences across Australian jurisdictions for
+the:
+ non-consensual creation of sexual material; and
+ threat to non-consensual creation and/or distribution of sexual material
+that does not use a carriage service.
+Recommendation 3
+2.207 The committee notes the work of Education Ministers to implement version
+9 of the Australian Curriculum and the work of schooling systems to
+implement age and developmentally appropriate programs on consent and
+online safety within the context of respectful relationships. The committee
+recommends the Education Ministers Meeting continues to progress their
+work to strengthen respectful relationships in schools.
+Recommendation 4
+2.208 Subject to the preceding recommendations, the committee recommends that
+the Senate urgently passes the Bill.
+ix
+
+Chapter 1
+Introduction
+1.1 On 27 June 2024, the Senate referred the provisions of the Criminal Code
+Amendment (Deepfake Sexual Material) Bill 2024 (the Bill) to the Legal and
+Constitutional Affairs Legislation Committee (the committee) for inquiry and
+report by 8 August 2024.1
+1.2 The referral of the provisions of the Bill followed a recommendation of the
+Senate Standing Committee for the Selection of Bills.2
+Conduct of the inquiry and acknowledgement
+1.3 In accordance with its usual practice, the committee advertised the inquiry on
+its website and wrote to organisations and individuals, inviting them to make a
+submission by 19 July 2024. The committee received and published
+35 submissions, which are listed at Appendix 1.
+1.4 The committee held a public hearing in Canberra on 23 July 2024. A list of the
+witnesses who appeared at the hearing is at Appendix 2.
+1.5 The committee also thanks those organisations and individuals who made
+submissions and who gave evidence at the public hearing.
+1.6 The committee was disappointed by the level of engagement by technology and
+social media companies with this inquiry. The committee thanks Google and
+TikTok Australia for providing written submissions.
+Structure and scope of the report
+1.7 This report comprises two chapters:
+ Chapter 1 provides background information and identifies the Bill’s key
+provisions; and
+ Chapter 2 examines some of the key issues raised in relation to the Bill
+before setting out the committee’s findings and recommendations.
+Note on references
+1.8 In this report, references to the Committee Hansard are to the proof (that is,
+uncorrected) transcript. Page numbers may vary between the proof and the
+official transcript.
+1 Journals of the Senate, No. 115, 27 June 2024, p. 3529.
+2 Senate Standing Committee for the Selection of Bills, Report No. 6 of 2024, 27 June 2024, p. 1.
+1
+2
+Purpose of the Bill
+1.9 The Bill would amend Part 10.6 of the Criminal Code Act 1995 (the Criminal
+Code) to ‘modernise and strengthen offences that deal with the non-consensual
+sharing of sexually explicit material online, including material created or altered
+using technology’.3
+1.10 In his second reading speech, the Hon Mark Dreyfus KC MP, Attorney-General,
+described the Bill’s purpose to be to strengthen:
+…existing Commonwealth criminal offences and create new offences to
+respond to the online harm caused by deepfakes and other artificially
+generated sexual material.
+Digitally created and altered sexually explicit material that is shared without
+consent is a damaging and deeply distressing form of abuse. This insidious
+behaviour is degrading, humiliating and dehumanising for victims.4
+1.11 The Bill would also deliver on a commitment made by the Albanese
+government, following the meeting of National Cabinet in May 2024 on
+gender-based violence, which recognises the ‘urgent and collective need to
+respond to the growing challenges associated with artificially generated sexual
+material’.5
+Background
+What are deepfakes?
+1.12 The term deepfake is a portmanteau of ‘deep learning’ and ‘fake’.6
+Deepfakes are:
+…images, videos or sound files, generated using [artificial intelligence (AI)],
+of a real person that has been edited to create an extremely realistic but false
+depiction of them doing or saying something that they did not actually do
+or say.7
+Deepfakes are created using ‘facial mapping technology and AI that swaps the
+face of a person on a [video or photo] into the face of another person’.8
+3 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, Explanatory Memorandum, p. 4.
+4 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Hansard, 5 June 2024,
+p. 9.
+5 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Hansard, 5 June 2024,
+p. 9.
+6 Attorney-General’s Department (AGD), Submission 17, p. [3].
+7 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, Explanatory Memorandum, p. 3.
+8 Mika Westerlund, ‘The Emergency of Deepfake Technology: A Review’, Technology Innovation
+Management Review, vol. 9, no. 11, 2019, pp. 39–52, http://doi.org/10.22215/timreview/1282.
+3
+1.13 Recent technological advances, particularly in relation to AI, have led to
+increasingly sophisticated deepfake techniques which makes the deepfake
+material nearly impossible to detect.9 The technology to create deepfakes is also
+‘increasingly available as open source’ which allows the general public,
+including those with limited technical skills, to produce high-quality and
+realistic deepfakes.10
+1.14 As explained by the eSafety Commissioner:
+Creating a deepfake typically involves using a combination of machine
+learning and face-tracking algorithms. This allows a fake face to be
+seamlessly stitched onto a real one. This gives anyone, including those with
+malicious intent, the capability to control what an image appears to say or
+do.
+While this technology is not new, the ability to create a realistic
+impersonation of a person in video is a relatively new frontier.11
+Current legal framework
+1.15 The current relevant offences in the Criminal Code criminalise using a carriage
+service to menace, harass or cause offence where private sexual material is
+involved.
+1.16 The standard aggravated offence requires the person to use a carriage service to
+menace, harass or cause offence and transmit private sexual material.12
+The penalty for the aggravated offence is imprisonment for 6 years. There is a
+special aggravated offence with a penalty of 7 years imprisonment where certain
+civil penalty orders have been made in relation to the Online Safety Act 2021
+(OSA).13
+1.17 These offences require the sharing of private sexual material online where a
+reasonable expectation of privacy attaches to the depiction of the person and the
+material. As explained in the Bill’s Explanatory Memorandum (EM), this creates
+an issue where the relevant material is a deepfake because the victim themselves
+is not involved in the creation of the material and ‘an expectation of privacy may
+not attach to the depiction of the victim’.14
+9 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, Explanatory Memorandum, p. 3.
+10 Mika Westerlund, ‘The Emergency of Deepfake Technology: A Review’, Technology Innovation
+Management Review, vol. 9, no. 11, 2019, pp. 39–52, http://doi.org/10.22215/timreview/1282.
+11 eSafety Commissioner, Submission 28, p. 3.
+12 Criminal Code Act 1995, ss. 474.17A(1).
+13 Criminal Code Act 1995, ss. 474.17A(4).
+14 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, Explanatory Memorandum, p. 4.
+4
+1.18 There are also civil provisions under the OSA which prohibit the posting of,
+or the threatening to post, an intimate image of another person.15 The penalty
+for doing so is a fine of 500 penalty units.16 The eSafety Commissioner may issue
+a formal warning if a person contravenes section 75.17 The eSafety Commissioner
+may also give a removal notice to the social media service, the person who
+posted the image or the hosting service provider in certain circumstances.18
+Refusal to comply with a removal notice could result in a fine of 500 penalty
+units.19
+1.19 The OSA does not apply to the creation of images without consent, it only
+applies to the posting of, or threatening to post, images without consent.20 It does
+apply to both unaltered and synthetic material and thus captures AI and
+deepfake material.21 There is also a requirement that the posting, or threatening
+to post, of the material is done so in circumstances ‘in which an ordinary
+reasonable person would reasonably expect to be afforded privacy’.22
+Key provisions
+1.20 The Bill comprises one schedule of amendments which would:
+ repeal the definition of ‘private sexual material’ and ‘subject’ in section 473.1
+of the Criminal Code;
+ repeal subsections 473.3(2) to (4) of the Criminal Code;
+ introduce new offences relating to the transmission of sexual material
+without consent (proposed sections 474.17A and 474.17AA); and
+ introduce new provisions for double jeopardy and alternative verdicts
+(proposed sections 474.17AB and 474.17B).
+Repealed provisions
+1.21 The Bill would repeal the definition of ‘private sexual material’. The offence that
+relies on this definition, section 474.17A, would be repealed by the Bill and thus
+the definition is no longer necessary. The definition of ‘subject’, used in the
+definition of ‘private sexual material’, would be also repealed as a consequential
+change.
+15 Online Safety Act 2021, s. 75.
+16 Online Safety Act 2021, s. 75.
+17 Online Safety Act 2021, s. 76.
+18 Online Safety Act 2021, s. 77, 78.
+19 Online Safety Act 2021, s. 80.
+20 eSafety Commissioner, Submission 28, p. 6.
+21 eSafety Commissioner, Submission 28, p. 6.
+22 eSafety Commissioner, Submission 28, p. 7.
+5
+1.22 The Bill would also repeal subsections 473.4(2) to (4) of the Criminal Code which
+relate to determining whether the transmission of private sexual material is
+offensive.23 As the definition of ‘private sexual material’ would be repealed,
+these sections would no longer be required.
+New offence of transmitting sexual material without consent
+1.23 The Bill seeks to repeal the current offences in section 474.17A of the
+Criminal Code (aggravated offences involving private sexual material – using a
+carriage service to menace, harass or cause offence) and replace them with a new
+offence of using a carriage service to transmit sexual material without consent.24
+1.24 The new offence, proposed section 474.17A, would include four elements:
+(a) a carriage service was used to transmit material; 25 and
+(b) the other person is, or appears to be, 18 years of age or older; and
+(c) the material depicts, or appears to depict:
+(i) the other person engaging in a sexual pose or sexual activity; or
+(ii) a sexual organ or the anal region of the other person; or
+(iii) if the other person is female – the other person’s breasts; and
+(d) the first person knows the other person does not consent to the
+transmission of the material or is reckless as to whether they consent.26
+1.25 For the proposed offence, it would be irrelevant whether the material is
+unaltered or created or altered using technology.27
+1.26 The presumption in section 475.1B of the Criminal Code also would apply to the
+proposed offence, which states that if the prosecution can prove that the person
+engaged in the particular conduct, it is presumed that the person used a carriage
+service to engage in the conduct.28
+1.27 The proposed offence would carry a maximum penalty of 6 years
+imprisonment.29 This is consistent with the penalty for the current standard
+aggravated offence in section 474.17A of the Criminal Code.30
+23 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, schedule 1, item 4.
+24 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, schedule 1, item 5.
+25 Carriage service is defined in s 7 of the Telecommunications Act 1997 to mean a service for carrying
+communications by means of guided and/or unguided electromagnetic energy.
+26 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, proposed ss. 474.17A(1).
+27 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, proposed ss. 474.17A(2).
+28 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, Explanatory Memorandum, p. 11.
+29 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, proposed s. 474.17A.
+30 AGD, Submission 17, p. [5].
+6
+1.28 Material depicting persons under the age of 18 will continue to be criminalised
+in the Criminal Code under the existing child abuse material provisions,
+including child abuse material generated by AI in division 474, subdivision D.31
+Exceptions
+1.29 The Bill proposes four exceptions to the proposed offence which state that the
+offence would not apply if:
+(a) transmitting the material is necessary for, or of assistance in, enforcing,
+monitoring compliance with, or investigating a contravention of,
+a Commonwealth, state or territory law;32
+(b) transmitting the material is for the purpose of proceedings in a court or
+tribunal;33
+(c) transmitting the material is for a genuine medical or scientific purpose;34 or
+(d) a reasonable person would consider the transmission of the material to be
+acceptable.35
+1.30 In relation to the fourth proposed exception, the Bill sets out a range of factors
+that could be considered when making the determination, including:
+ the nature and content of the material
+ the circumstances in which the material was transmitted
+ the age, intellectual capacity, vulnerability, or other relevant circumstance of
+the person depicted in the material
+ the degree to which the transmission affects the privacy of the depicted
+person
+ the relationship between the person transmitting the material and the
+person depicted
+ any other relevant matters.36
+1.31 The defendant would bear the evidential burden of proving an exception.
+New aggravated offences
+1.32 The Bill would introduce two aggravated offences relating to the transmission
+of sexual material without consent.37 These offences would require the
+underlying offence of using a carriage service to transmit sexual material
+31 AGD, Submission 17, p. [5].
+32 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, proposed para. 474.17A(3)(a).
+33 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, proposed para. 474.17A(3)(b).
+34 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, proposed para. 474.17A(3)(c).
+35 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, proposed para. 474.17A(3)(d).
+36 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, proposed para. 474.17A(3)(d).
+37 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, proposed s. 474.17AA.
+7
+without consent (proposed section 474.17A – see paragraphs 1.23–1.28 above) to
+be established first.
+1.33 The first aggravated offence, proposed subsection 474.17AA(1), would apply
+where a person commits the underlying offence, and the person has had three
+or more civil penalty orders made against them under the Regulatory Powers
+(Standard Provisions) Act 2014 in relation to contraventions of:
+ subsection 75(1) of the OSA; or
+ section 91 of the OSA that relate to removal notices given under section 89
+of that Act.38
+1.34 The second aggravated offence, proposed subsection 474.17AA(5), would apply
+where the person created or altered the sexual material, in addition to
+transmitting the material without consent.39
+1.35 Both aggravated offences would carry a maximum penalty of 7 years
+imprisonment.40
+Double jeopardy and associated provisions
+1.36 The Bill includes double jeopardy provisions which would prevent a person that
+has been convicted or acquitted of one of the aggravated offences
+(see paragraphs 1.32–1.35 above) from also being convicted of the underlying
+offence or the other aggravated offence, in relation to the same conduct.41
+This would also apply where a person is convicted of the underlying offence;
+they would not be able to be convicted of either aggravating offence in relation
+to the same conduct.42
+1.37 Furthermore, the Bill would allow for the setting aside of a conviction under
+proposed subsection 474.17AA(1) where one or more of the relevant civil
+penalty orders are set aside or reversed on appeal and if these civil penalty
+orders had not been made, the person would not have been convicted of the
+aggravated offence. If this occurs and the person applies to the court for the
+conviction to be set aside, the Bill would require the court to set aside the
+conviction.43
+38 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, proposed ss. 474.17AA(1).
+39 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, proposed ss. 474.17AA(5).
+40 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, proposed s. 474.17AA.
+41 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, proposed ss. 474.17AB(1).
+42 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, proposed ss. 474.17AB(2).
+43 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, proposed ss. 474.17AB(4).
+8
+1.38 Should the conviction be set aside in these circumstances, the Bill proposes not
+to prevent proceedings from being instituted for the underlying offence or
+under proposed subsection 474.17AA(5).44
+Alternative verdicts
+1.39 The Bill includes provisions for alternative verdicts if an aggravated offence is
+not proven.
+1.40 The Bill would provide that where the court is not satisfied that a person is guilty
+of an aggravated offence beyond reasonable doubt but is satisfied that the
+person is guilty of either the underlying offence or the other aggravated offence,
+the court may find the person guilty of either of these alternative offences
+instead.45
+Application of amendments
+1.41 Were the Bill to pass, the amendments would apply to material transmitted after
+the commencement of the Bill and would retrospectively apply to material
+created or altered prior to or after the commencement of the Bill.46 For example,
+material created or altered prior to the commencement but transmitted after the
+commencement of the Bill would be captured by the amendments.
+Consideration by other parliamentary committees
+1.42 When examining a bill, the committee takes into account any relevant comments
+published by the Senate Standing Committee for the Scrutiny of Bills
+(Scrutiny of Bills Committee) and the Parliamentary Joint Committee on Human
+Rights (Human Rights Committee).
+Senate Standing Committee for the Scrutiny of Bills
+1.43 The Scrutiny of Bills Committee examined the Bill and noted there might be
+concerns in relation to three matters: the broad scope of the offence provisions,
+a reversal of the evidential burden of proof, and undue trespass on rights and
+liberties.47
+1.44 The Scrutiny of Bills Committee recognised that the repeal of the definition of
+‘private sexual material’ means that the new offence provision in proposed
+section 474.17A ‘does not require that the transmission has occurred in
+circumstances that the reasonable person would regard as giving rise to an
+44 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, proposed ss. 474.17AB(5).
+45 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, proposed ss. 474.17B(1).
+46 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, schedule 1, item 7.
+47 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 7 of 2024, 26 June 2024,
+pp. 17–23.
+9
+expectation of privacy’.48 Consequently, it queried whether the new offence in
+proposed section 474.17A may capture material that was not intended to be
+captured in relation to unaltered material, for example in relation to non-sexual
+nudity.49
+1.45 The Scrutiny of Bills Committee was also concerned that ‘sexual pose’ was not
+defined in the legislation and that there was a lack of clarity about how this
+would be prosecuted.50
+1.46 Given the broad scope of the offence provisions, the Scrutiny of Bills Committee
+further queried whether retaining the existing offence in section 474.17A and
+creating a new offence only targeted at deepfake material was considered.51
+1.47 The Scrutiny of Bills Committee recognised the Bill proposes that the defendant
+bear the evidential burden in relation to proving the exceptions to the
+underlying offence.52 At common law it is the prosecution’s duty ‘to prove all
+elements of an offence’ and any reversal of the burden must be justified and
+consistent with the Guide to Framing Commonwealth Offences.53 The Scrutiny of
+Bills Committee considered it was unclear how the relevant matters would be
+peculiarly within the knowledge of the defendant which would justify a reversal
+of the burden.54
+1.48 The Scrutiny of Bills Committee raised concerns regarding the setting aside of a
+conviction under proposed subsection 474.17AA(1) and the ability to institute
+proceedings for the underlying offence or under proposed subsection
+474.17AA(5) in relation to the same conduct.55 It was concerned this could result
+in a defendant standing trial twice for the same factual circumstances,
+unduly trespassing on their rights and liberties, and given the impact criminal
+trial have on individuals, doing so needs a strong justification.56
+1.49 The Scrutiny of Bills Committee sought further information and justification
+from the Attorney-General in relation to the above matters. At the time of
+writing, the Attorney-General had not responded to the Scrutiny of Bills
+Committee’s request.
+48 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 7 of 2024, 26 June 2024, p. 18.
+49 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 7 of 2024, 26 June 2024, p. 19.
+50 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 7 of 2024, 26 June 2024, p. 18.
+51 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 7 of 2024, 26 June 2024, p. 19.
+52 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 7 of 2024, 26 June 2024, p. 20.
+53 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 7 of 2024, 26 June 2024, p. 20.
+54 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 7 of 2024, 26 June 2024, p. 21.
+55 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 7 of 2024, 26 June 2024, p. 22.
+56 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 7 of 2024, 26 June 2024, p. 22.
+10
+Parliamentary Joint Committee on Human Rights
+1.50 The Human Rights Committee examined the Bill but made no comment.57
+57 Parliamentary Joint Committee on Human Rights, Report 5 of 2024, 26 June 2024, p. 2.
+Chapter 2
+Key Issues
+2.1 Most submitters commended the purpose of the Criminal Code Amendment
+(Deepfake Sexual Material) Bill 2024 (the Bill) to strengthen and modernise
+offences relating to the non-consensual transmission of sexual material.
+Many also noted that the current legal framework has gaps and is inadequate to
+deal with the increased sophistication of technology and artificial intelligence
+(AI).
+2.2 This chapter sets out the key issues raised by submitters and witnesses to the
+inquiry, such as:
+ harms caused by the non-consensual transmission of sexual material;
+ ease of access to technology;
+ the scope and purpose of the Bill;
+ inadequacy of the current legal framework;
+ application of both the new underlying and aggravated offences;
+ proportionality of the penalties in the Bill;
+ the Bill’s application to children;
+ overlap with current state and territory offences;
+ gaps in the Bill;
+ the role of social media and technology companies; and
+ non-legislative responses, including prevention and education.
+Harms of non-consensual sharing of sexual material
+2.3 The harms to victims of non-consensual sharing of sexually explicit material are
+varied and deeply damaging. It is conduct that is part of the wider phenomenon
+of technology-facilitated abuse. Technology-facilitated abuse can include
+‘revenge porn’ (where images are created consensually but later shared
+non-consensually to cause people, mainly women, pain) and victims of sexual
+assault may have this recorded by the perpetrators and shared online.1
+It can also include deepfake sexual material which can be used to harass,
+blackmail, and attack victims or used to extort sex acts.2
+2.4 A study conducted by Sensity AI has found that 90–95 per cent of deepfakes are
+nonconsensual porn.3 Another study conducted in 2023 found that 99 per cent
+1 Richie Hardcore, Submission 23, p. [2].
+2 Richie Hardcore, Submission 23, p. [1].
+3 Dr Rebecca Delfino, Submission 13, p. 1.
+11
+12
+of victims of deepfake pornography were women.4 According to the same study,
+‘deepfakes are growing exponentially, doubling every six months’.5 The eSafety
+Commissioner explained, ‘explicit deepfakes have increased on the internet as
+much as 550 per cent year on year since 2019’ (emphasis added).6
+2.5 Professor Rebecca Delfino observed that the COVID-19 pandemic resulted in an
+increase in technology-enabled abuse:
+…this trend is even more worrying in the context of the pandemic.
+A deepfake helpline in the UK’s caseload has nearly doubled since the
+pandemic started. Existing abusive relationships have worsened, and digital
+abuse has seen an uptick as people have grown increasingly isolated and
+spend more time online.7
+2.6 The Australian Human Rights Commission (AHRC) submitted that persons
+with disability, First Nations people, the LGBTIQA+ community and those aged
+between 16–29 are ‘heavily targeted by deepfake sexual material’.8
+2.7 From an offending perspective, the Victorian Law Reform Commission found
+that sentencing trends from 2015-16 to 2018-19 showed ‘almost all offenders
+sentenced were male (91 per cent) and more than half the cases sentenced
+involved family violence (54 per cent)’.9
+2.8 The Australian Federal Police (AFP) emphasised that the creation of sexually
+explicit deepfake material ‘is a form of abuse and the non-consensual sharing of
+the material can cause long-lasting harm to victims, regardless of the way in
+which the image was created’.10
+2.9 While deepfake images are fake, the impacts are very real. The events depicted
+in the material do not need to have happened, nor do the images or videos need
+to be real, to cause damage to someone’s life.11 Professor Delfino advised the
+committee that victims of non-consensual transmission of deepfake sexual
+material have experienced panic attacks and been afraid to leave their homes.
+She explained that some victims ‘have equated their deepfake pornography
+4 Australian Human Rights Commission (AHRC), Submission 8, p. 5.
+5 Dr Delfino, Submission 13, p. 1.
+6 Ms Julie Inman Grant, eSafety Commissioner, Committee Hansard, 23 July 2024, p. 37.
+7 Submission 13, p. 2.
+8 AHRC, Submission 8, p. 5.
+9 Law Council of Australia (LCA), Submission 33, p. 8.
+10 Australian Federal Police (AFP), Submission 11, p. [1].
+11 Submission 23, p. [2].
+13
+victimisation to their prior real-life experiences with sexual assaults and
+violence’.12
+2.10 Ms Noelle Martin is a victim-survivor of non-consensual sharing of deepfake
+sexual images. Ms Martin explained that non-consensual sharing of sexual
+material is ‘life-destroying and shattering’, compromising and threatening
+‘people’s capacity to self-determine, to flourish and to exercise their sexual
+agency’.13
+2.11 The eSafety Commissioner advised:
+Victim-survivors have also described how their experiences of image-based
+abuse victimisation radically disrupted their lives, altering their sense of
+self, identity and their relationships with their bodies and with others.14
+2.12 Furthermore, the impacts on a victim’s life can be far reaching, from reputational
+damage to negative impacts on careers, friendships and social networks.15
+Victims may also withdraw from the internet completely, called the
+‘silencing effect’, where ‘women feel discouraged from participating online and
+in other public spaces’.16
+2.13 Due to the nature of the online environment, victims also live in fear of being
+retraumatised as the deepfake images could reappear at any time.17 As deepfake
+images can be difficult to remove once shared online, ‘there is an indelible
+element to the offending, that may cause further and ongoing damage and
+distress to victim survivors’.18 Once material has been disseminated, it is very
+difficult to completely remove and, even if the material is removed, the victim
+has already been harmed.19
+2.14 At a societal level, the creation and sharing of deepfake sexual material is
+normalising violent sexual assault.20
+2.15 The AHRC reflected on the impact of non-consensual sharing of deepfake sexual
+material on the cornerstone human right to privacy, as well as the right to
+12 Submission 13, p. 2.
+13 Ms Noelle Martin, private capacity, Committee Hansard, 23 July 2024, p. 4.
+14 eSafety Commissioner, Submission 28, p. 5.
+15 Submission 23, p. [1]. See also: Submission 13.
+16 Submission 13, p. 2. See also: Professor Clare McGlynn and Ms Rüya Tuna Toparlak, Submission 6,
+p. 4.
+17 Submission 13, p. 2.
+18 Submission 23, p. [2].
+19 Professor McGlynn and Ms Toparlak, Submission 6, p. 5.
+20 Ms Nicole Lambert, Chair, National Association of Services Against Sexual Violence (NASASV),
+Committee Hansard, 23 July 2024, p. 7.
+14
+security of a person – articles 17 and 9 of the International Covenant on Civil
+and Political Rights, respectively.21 Because deepfake sexual material can
+negatively impact a person’s reputation, personal and family relationships,
+and employment opportunities, it can also affect the enjoyment of additional
+human rights such as the right to work.22
+Causes of and motivations for technology-facilitated abuse
+2.16 Cultural values and norms play a pivotal role in the causes of
+technology-facilitated abuse, but motivations of perpetrators can vary
+considerably.
+2.17 Mr Richie Hardcore, advocate and educator, submitted:
+…when we discuss what causes gendered violence it is the social attitudes
+about violence, sexism, and expectations of gendered norms of behaviour
+[that] play a role in creating an individual’s scheme of core beliefs. Core
+beliefs are shaped in childhood by many things, and our digital media
+environment has quickly become a key source of ideas and values which
+people digest and internalise.23
+2.18 Mr Daniel Principe, youth advocate and educator, and Mr Hardcore both
+further reflected on the role of societal norms. Mr Principe told the committee:
+Obviously norms influence what we do or don't do. An example that I think
+is very relevant and current is sexual strangulation right now. It wasn't
+normative 10 years ago. It has become increasingly normative. There are
+huge risks for women especially, who are often receiving this. And why has
+that happened? Well, culture. And when I talk about porn culture I don't
+mean just watching pornography but that the ideas, the jokes, the memes,
+the things expressed on Netflix shows that reinforce this idea that we should
+strangle and seek to strangle and that is something that is sought after—and
+we can debate that. But in this instance it's the same. It's: 'I've seen someone
+else do it. That was funny.' And it usually starts, schools tell me, as not
+necessarily sexual but definitely depicting somebody, through A, in an
+inappropriate or degrading way that's not necessarily sexualised, and that
+may get a laugh. So there is this peer affirmation, whether or not we want to
+call this toxic affirmation, especially for boys to get cred. There is that.
+I think there is a sense, and a growing sense—and in my workshops I ask
+boys explicitly, 'Do you feel that there is a push to get back at women and
+put them in their place?' And they tell me, yes, they do—because I'm not
+asking them to fess up to that. I'm saying, 'Culturally, do you see that as a
+trend?' And they say yes. And we talk about that from kitchen jokes and
+'Make me a sandwich' jokes all the way to pornography and image-based
+abuse. They acknowledge that. So there is this rise. This is where there are
+signs for hope. I think young men are increasingly able to critique their
+21 AHRC, Submission 8, p. 5.
+22 AHRC, Submission 8, p. 5.
+23 Submission 23, p. [2].
+15
+culture. It's how we help them to abstain from it or resist it and not pay a
+high price for being an upstander and having empathy. These platforms and
+the research that I've seen and engaged with—both the mediums themselves
+and the message that we encounter do reinforce a callousness. Within free
+existing hegemonic ideas of masculinity, it reinforces this callousness:
+'I'm unaffected by what's happening to this other.' And this is just another
+tool and device, as I mentioned in my opening statement, to embolden and
+weaponise what's already there. So I think it's all of that. And of
+course— you know me—I'm going to talk about how pornography does
+reinforce and drive these appetites as a significant conditioning tool for boys
+especially, who experience this well before their first kiss and sexual
+experience, and creates very toxic sexual scripts in a lot of instances.24
+2.19 Mr Hardcore explained:
+We're exposed to these normative ideas from a really young age…We have
+a really gender-normative script that children impose on one another
+because of what they're consuming from the adults around them. That plays
+out in culture. Depending on the socio-economics of any given family or
+community, you have all these different influences, whether it's the
+high-powered Wolf of Wall Street stereotype or the working-class tradie
+who's wolf-whistling at a woman when she walks by. So our boys take cues
+from that. We have to know that many boys don't have good male role
+models, and when they don't have good male role models they're raised by
+media environments and by their peers, and social media and digital
+technology is a big part of that now.
+Broadly I think our young men are getting caught up in this political culture
+war that has really taken off in a lot of the Western world over the last 10 to
+20 years. For better or worse, many of them do feel excluded as society
+radically changes, and they do feel embittered. It's not to excuse their
+behaviour but to understand it in order to address it. We need to think why
+someone like Andrew Tate was one of the most popular social media figures
+of 2022 and 2023, despite criminal charges for rape and human trafficking.
+And, while he might have fallen out of favour, we have this new rise of
+neo- masculinist ideas being presented by Twitch streamers and YouTubers.
+Young men gravitate towards that, and that leads to things like using
+deepfake technology to humiliate and hurt your female peers. So how we
+call our boys in is, I think, really important. I think in the #MeToo era we did
+a good job of calling out bad behaviour and pointing out what harassment
+and assault and violence is. How do we take that a step further to a
+preventive lens, a preventive angle, and give them a critical media literacy?
+As Daniel said, it's not just a porn or deepfake. You listen to top 50 charting
+songs on YouTube and they're singing about choking people, men and
+women. And that's presented as…really normative and cool. If you question
+that, you're not cool anymore. You pay a social price for critiquing popular
+culture, and you get pigeonholed as conservative or Christian or whatever
+it may be, rather than: 'I'm just not down with potentially strangling
+someone for my [sexual] gratification. Does that make me uncool? So be it.'
+24 Mr Daniel Principe, private capacity, Committee Hansard, 23 July 2024, pp. 34–35.
+16
+So how do we help?...How do we make empathy, kindness and
+connection…cool again, man? Make kindness cool again.25
+2.20 Professor Asher Flynn observed that the motivations of perpetrators vary
+considerably: some wish to humiliate and harm victims while others do it for
+exploitative purposes.26 Other perpetrators are ‘just having a bit of a laugh’ and
+think it is a joke.27 Professor Flynn explained:
+…people acknowledge that they are doing it in the context of a relationship
+breakup or in order to harm, humiliate or control the victim from not leaving
+a relationship or to ask them to engage in some type of sexual activity or to
+give them something in exchange for either not sharing that image with
+other people or not creating that image in the first place.28
+Ease of access
+2.21 A significant contributor to the proliferation of technology-facilitated abuse is
+the ease at which technology can be accessed and used for nefarious purposes.
+2.22 AI technology is a powerful tool and, when used appropriately, can advance
+economies and create jobs. However, it also presents risks:
+…the possibilities for its use in technology-facilitated abuse are growing
+exponentially as such technologies become more publicly accessible and the
+tools to create deepfakes become relatively cheap, user-friendly and
+mainstream.29
+2.23 While the ability to alter images is not new, AI has increased the ease at which
+it can be done by reducing ‘the expertise, cost and time required to generate
+sexually-explicit deepfakes’.30 This has the effect of ‘lowering the barrier to entry
+when used to facilitate crime’.31
+2.24 As the AFP explained, deepfakes are ‘increasingly realistic, preventing detection
+by visual inspection and making it difficult for individuals to understand that
+images are fake and do not reflect reality’.32
+2.25 The eSafety Commissioner highlighted that ‘[t]housands of open-source AI apps
+have proliferated online are often free and easy to use by anyone with a
+25 Mr Richie Hardcore Steward, private capacity, Committee Hansard, 23 July 2024, p. 35.
+26 Professor Asher Flynn, private capacity, Committee Hansard, 23 July 2024, p. 19.
+27 Professor Flynn, private capacity, Committee Hansard, 23 July 2024, p. 20.
+28 Professor Flynn, private capacity, Committee Hansard, 23 July 2024, p. 21.
+29 Attorney-General’s Department (AGD), Submission 17, p. [3].
+30 AGD, Submission 17, p. [3].
+31 AFP, Submission 11, p. [1]. See also: Queensland Police Service (QPS), Submission 30, p. 1.
+32 AFP, Submission 11, p. [1].
+17
+smartphone’.33 The eSafety Commissioner also raised concerns that ‘these apps
+are using sophisticated monetisation tactics and are increasingly being found on
+mainstream social media platforms’.34
+2.26 Further, Ms Inman Grant explained ‘these apps make it simple and cost-fee for
+the perpetrator, while the cost to the target is one of lingering and incalculable
+devastation’.35
+2.27 Independent Schools Australia (ISA) expressed concern about the ease of access
+to this type of technology in a school context.36 There have been several recent
+instances where deepfake sexual material has been created and/or shared by
+students of both other students and school staff.37
+2.28 The ease of access to technology for the creation, and transmission, of deepfake
+sexual material may risk ‘normalising non-consensual sexual activity’.
+Professor Clare McGlynn and Ms Rüya Tuna Toparlak argued that this has
+repercussions for society as a whole, but particularly for women and girls.38
+Scope and purpose of the Bill
+2.29 Mr Parker Reeve, Assistant Secretary, Attorney-General’s Department (AGD),
+outlined the scope and purpose of the Bill as:
+…the criminalisation of the non-essential sharing of sexually explicit
+material applies both to real material, such as unaltered images and
+recordings, and to fake material or altered material that has been created or
+altered using technology, such as deepfakes.39
+2.30 Submitters were of the view that the Bill would act as a deterrent against the
+non-consensual transmission of sexual material.40 As Professor McGlynn and
+Ms Toparlak stated:
+A new criminal law can send a clear message to victims, perpetrators and
+society as a whole that conduct is wrong, harmful and should not be
+tolerated.
+33 eSafety Commissioner, Submission 28, p. 4.
+34 eSafety Commissioner, Submission 28, p. 4.
+35 Ms Inman Grant, eSafety Commissioner, Committee Hansard, 23 July 2024, p. 38.
+36 Independent Schools Australia (ISA), Submission 14, p. 5.
+37 ISA, Submission 14, p. 5.
+38 Submission 6, p. 4.
+39 Mr Parker Reeve, Assistant Secretary, High Tech Crime Branch, AGD, Committee Hansard,
+23 July 2024, p. 45.
+40 See for example: ISA, Submission 14, p. 7.
+18
+Adopting new criminal laws can help shift attitudes and behaviours,
+reducing harm and prevalence.41
+2.31 Mr Hardcore shared the view that the Bill signals what is considered
+inappropriate conduct. Mr Hardcore said:
+The proposed criminal amendment provisions are part of the required
+cultural change we need. Criminal prosecution alone does not prevent
+offending. However, it is an important tool to leverage which demonstrates
+society’s values, serves as a disincentive to some potential offenders and
+gives victim-survivors the ability to pursue justice.42
+2.32 Mr Michael Bradley commented on the potential impact of the Bill on corporate
+entities, such as technology companies, that play a role in this space. Mr Bradley
+remarked:
+The signalling that this type of legislation includes is, we think,
+very important from both the community perspective but also from the
+perspective of the corporate entities that have the ability to control much of
+what happens online and to date haven’t really exercised that social
+responsibility well.43
+2.33 In contrast, the New South Wales Council of Civil Liberties (NSWCCL) and
+Scarlet Alliance, described what they considered the reactionary approach of the
+Bill. They submitted:
+The Bill’s focus on criminal penalties is a reactive policy which aims to
+punish offenders, rather than creating a proactive framework geared
+towards preventing the non-consensual creation and distribution of sexual
+material, and developing measures aimed at the objective of assisting those
+who have suffered harm as a result.
+…
+Not only is there already existing federal legislation, but there are also
+existing state and territory laws that have been tackling non-consensual
+distribution of intimate images with existing laws on the subject matter.44
+2.34 Ms Julie Inman Grant, eSafety Commissioner, was supportive of the Bill.
+Ms Inman Grant stated ‘[c]riminalisation of these actions is entirely appropriate,
+serving as an important deterrent function while expressing our collective moral
+repugnance to this conduct’.45
+41 Submission 6, p. 4.
+42 Mr Hardcore Steward, private capacity, Committee Hansard, 23 July 2024, p. 29.
+43 Mr Michael Bradley, private capacity, Committee Hansard, 23 July 2024, p. 14.
+44 Scarlet Alliance & New South Wales Council for Civil Liberties (NSWCCL), Submission 29, p. 3.
+45 Ms Inman Grant, eSafety Commissioner, Committee Hansard, 23 July 2024, p. 37.
+19
+2.35 The Law Council of Australia (the Law Council) considered it was important
+that these reforms are considered together with related work underway,
+including the Privacy Act Review and the Online Safety Act Review.46
+Interaction with the eSafety Commissioner’s role
+2.36 The eSafety Commissioner stated that the Bill would ‘work in conjunction with
+eSafety’s image-based abuse scheme under the Online Safety Act’,
+and ‘provide victim-survivors with more choice’.47
+2.37 As Ms Inman Grant highlighted, the scheme that sits under the
+eSafety Commissioner is not a punitive regime, but rather about harm
+remediation. The eSafety Commissioner explained that the two systems would
+work in concert because there would be a criminal penalty regime for more
+egregious instances of technology-facilitated abuse.48
+2.38 Professor Jonathon Clough also emphasised the importance of non-criminal
+measures in this space and stated that the aggravated offence reinforces the civil
+penalty regime under the Online Safety Act 2021 (OSA).49
+Inadequacy of the current legal framework
+2.39 The Australian Federal Police Association (AFPA) submitted that ‘most people
+believe that the current legal framework is insufficient, both in its capacity to
+punish offenders and in its ability to act as a deterrent’; a view the AFPA
+shared.50 Numerous stakeholders raised shortcomings of the civil regime and
+legal issues concerning the existing criminal offences.
+Issues with the civil regime
+2.40 While there are both criminal and civil provisions operating in this space,
+the AFPA considered that civil proceedings have limitations, notably, they are
+expensive and the offender could be ‘a low-income, asset-light individual who
+is, therefore, effectively impervious to civil proceedings’.51
+2.41 Similarly, the AHRC explained that while the civil regime under the
+OSA is important in this space, the effectiveness of civil penalties may be
+reduced due to the cost of litigation and the potential inability of perpetrators to
+pay the penalties.52 It also submitted that while the removal powers of the
+46 LCA, Submission 33, p. 9.
+47 eSafety Commissioner, Submission 28, p. 8.
+48 Ms Inman Grant, eSafety Commissioner, Committee Hansard, 23 July 2023, p. 42.
+49 Professor Jonathan Clough, private capacity, Committee Hansard, 23 July 2024, p. 24.
+50 Australian Federal Police Association (AFPA), Submission 2, p. 3.
+51 AFPA, Submission 2, p. 3.
+52 AHRC, Submission 8, p. 6.
+20
+eSafety Commissioner are crucial, they are still reactionary powers and do not
+have the same deterrent effect that other proactive approaches may.53
+Deficiencies in existing criminal offences
+2.42 The Commonwealth Director of Public Prosecutions (CDPP) raised deficiencies
+in the existing offence in section 474.17A of the Criminal Code Act 1995 (the
+Criminal Code). It submitted that depending on the circumstances, the non-
+consensual transmission of deepfake sexual material using a carriage service
+may not constitute an offence under the existing offences because of the way
+private sexual material is defined.54
+The issue with deepfake material is, as the CDPP explained, ‘it cannot be said
+that any expectation of privacy attaches to the depiction of a victim’.55
+2.43 The CDPP provided an example to illustrate this point:
+For example, if an accused were to transpose an image of a victim’s face onto
+a publicly available pornographic video, this would generally speaking,
+not be “private sexual material”. This is because the creator of the deepfake
+uses, as source material, a depiction of a part of the victim (for example, their
+face) with respect to which it cannot be said there would be an expectation
+of privacy.56
+2.44 The CDPP did consider that ‘where the source material used by an accused was
+itself “private sexual material”‘ then it would likely satisfy the definition of
+‘private sexual material’ and thus would be covered by the current offences.57
+2.45 The CDPP also illustrated this by way of an example:
+For example, if the source material used by a defendant is a sexual image of
+a victim taken without the victim’s knowledge or shared by the victim on a
+private basis, and the defendant then transposed into that image depictions
+of other sexual activities, this would constitute “private sexual material”.
+This is because even though the activity ultimately depicted did not in fact
+take place, the underlying material was “private sexual material”, and so the
+use of that underlying material will fall within the ambit of the offence in
+s 474.17A(1).58
+New underlying offence
+2.46 The Bill proposes to introduce a new offence of using a carriage service to
+transmit sexual material without consent, proposed section 474.17A of the
+53 AHRC, Submission 8, p. 6.
+54 Commonwealth Director of Public Prosecutions (CDPP), Submission 18, pp. 1–2.
+55 CDPP, Submission 18, p. 2.
+56 CDPP, Submission 18, p. 2.
+57 CDPP, Submission 18, p. 2.
+58 CDPP, Submission 18, p. 2.
+21
+Criminal Code. This offence would act as an underlying offence for the
+aggravated offences also outlined in the Bill.
+2.47 The NSWCCL and Scarlet Alliance argued that the proposed underlying offence
+provides insufficient protection to victims. They noted that the requirement that
+the material ‘depicts, or appears to depict’ a person ‘does not cover material that
+alludes to the fact that the individual is participating in sexually explicit
+behaviours’.59
+2.48 The Law Council submitted that proposed section 474.17A could potentially
+apply to a wide range of innocuous conduct due to its broad drafting.
+It explained that offence provisions should not be overly broad and to the point
+that they are dependent on the discretion of the police and prosecutors to
+determine what conduct constitutes an offence.60
+Consent and the removal of an expectation of privacy
+2.49 The existing offences in the Criminal Code require that the material that is
+shared is ‘private sexual material’. For material to be ‘private sexual material’
+under the Criminal Code, it must be shared in circumstances ‘that [a] reasonable
+person would regard as giving rise to an expectation of privacy’. The Bill would
+repeal the definition of ‘private sexual material’ as well as the current offences
+relying on this definition.
+2.50 As indicated above, the existing offences may not cover the full range of conduct
+in relation to the non-consensual transmission of sexual material, particularly in
+the case of deepfakes. The Bill is intended to address this because the new
+offences would not rely on the definition of ‘private sexual material’ and
+‘instead turn on whether the person depicted in the material consents to its
+transmission’.61
+2.51 The proposed underlying offence requires that the perpetrator has knowledge
+that the other person did not consent to the transmission of the sexual material
+or was reckless as to whether the other person consented. Consent is not defined
+in the legislation itself.
+2.52 Professors Clough and Flynn both raised some concerns about the failure to
+define consent in the legislation. Professor Clough argued that:
+…my reading of the provision [is] that it does not require proof of absence
+of consent; it requires the accused to either know or be reckless as to the
+absence of consent. Unless I'm missing a provision, which I may well be
+doing, I couldn't see it as an element of the offence to be proved that the
+transmission of the material is without consent. It moves straight from what
+59 Scarlet Alliance & NSWCCL, Submission 29, p. 9.
+60 LCA, Submission 33, p. 11.
+61 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, Explanatory Memorandum, p. 4.
+22
+the material is in the transmission to the first person knowing or being
+reckless in particular. As I say, I may have misunderstood that. It seemed to
+me potentially important that be elevated as an element given, again,
+the seriousness of the crime that is really at the heart of this, and this is
+without consent. The Victorian provision places consent as a defence rather
+than as an element. That would be another way of looking at it—making
+expressly the position that the person is acting—placing it as a defence.
+…I think the advantage of enumerating it in the way that the Victorian
+provisions do, and that makes it consistent with other Victorian provisions,
+is making clear that positive aspect of consent. But this must be positively
+communicated. You can't simply assume. That's a real danger in this space:
+'I just assumed everyone was sharing it, therefore I could share it'.
+I think there is something very positive in making it clear that it must be
+positively communicated.62
+2.53 Professor Flynn concurred that ‘clarity is always useful and to be able to have a
+clear definition of what consent is and what it isn’t’:
+I think that the idea that this bill accepts that consent is—it means that it's
+just freely and voluntary agreed and, if you don't give any thought to that,
+you're still committing an offence is a useful element of this legislation. So
+you should be thinking that you have to be getting consent before you're
+engaging in this activity. Having said that, I do think that there is
+importance in clarity to make sure that people can't therefore come up with
+reasons as to why the law didn't cover that aspect of consent.63
+2.54 Mr Principe argued that what consent is needs to be clear in the legislation
+because not only can consent be coerced, ‘ignorance, especially for young
+people, can limit how much they understand what it is they are consenting to’.64
+2.55 Ms Nicole Lambert, Chair, National Association of Services Against Sexual
+Violence (NASASV) supported further clarity around consent to be included in
+the legislation, stating ‘[t]he more clarity we can have around the concept of
+consent the better because it, otherwise, does provide an avenue for defence to
+question that’.65
+2.56 Ms Angela Lynch, Executive Officer, Queensland Sexual Assault Network
+(QSAN), agreed, arguing that consent should be as explicit as possible and
+defined in legislation. She also stated that consent in this context really requires
+explicit consent in the relation to transmission of material due to its sexual
+62 Professor Clough, private capacity, Committee Hansard, 23 July 2024, p. 23.
+63 Professor Flynn, private capacity, Committee Hansard, 23 July 2024, p. 23.
+64 Mr Principe, private capacity, Committee Hansard, 23 July 2024, p. 33.
+65 Ms Lambert, NASASV, 23 July 2024, p. 8.
+23
+nature. Ms Lynch advocated for affirmative consent, to ensure the consent
+provisions capture coercive control.66
+2.57 The AGD explained that the Bill moves to ‘a consent-based model’ focusing on
+knowledge or recklessness in relation to non-consent.67 Recklessness in this
+context ‘includes not giving any thought at all to whether the person is
+consenting’.68
+2.58 The AGD explained that consent relies on its ordinary meaning and is
+‘generally understood as ‘free’ and/or ‘voluntary’ decision or agreement,
+which exclude instances of obtaining consent through fear, force or deception’.69
+2.59 The AGD further explained that consent was not further defined in the Bill
+because:
+This is of course a targeted reform dealing with consent as a single aspect of
+sexual abuse rather than a more comprehensive reform looking at how the
+Commonwealth Criminal Code deals with consent more broadly.
+For that variety of reasons, including that it is under consideration by the
+Law Reform Commission as part of its current inquiry, and to maintain
+consistency across the Commonwealth Criminal Code, it adopts the
+standard definition of consent as it exists at present, which is free and
+voluntary consent.70
+Realism of images: altered and unaltered material
+2.60 For the purposes of the Bill, it would be irrelevant for an offence under proposed
+section 474.17A whether the sexual material is in unaltered form, or whether the
+material has been created or altered by technology (for example, a deepfake).
+2.61 Professor Clough stated that the fact that the material is realistic should be
+clearer in the bill, beyond using ‘depict’, as this appears to be the intention of
+the Bill.71 Professor Clough further explained that:
+If the assumption is that realistic fakes are harmful in a same or similar way
+to, if I may say, real images then that should be made clear – they’re treated
+as equivalent and they’re given the same maximum penalty.72
+2.62 In contrast, the AFP supported the current drafting. From its perspective:
+66 Ms Angela Lynch, Executive Officer, Queensland Sexual Assault Network (QSAN), Committee
+Hansard, 23 July 2024, p. 8.
+67 Mr Reeve, AGD, Committee Hansard, 23 July 2024, p. 45.
+68 Mr Reeve, AGD, Committee Hansard, 23 July 2024, p. 45.
+69 AGD, Submission 17, p. [5].
+70 Mr Reeve, AGD, Committee Hansard, 23 July 2024, p. 47.
+71 Professor Clough, private capacity, Committee Hansard, 23 July 2024, p. 22.
+72 Professor Clough, private capacity, Committee Hansard, 23 July 2024, p. 22.
+24
+…it is important that criminal offences be drafted in a technology neutral
+way, to ensure they are future focused, and don’t become outdated or
+ambiguous by quickly emerging and evolving technologies. The Bill as
+drafted should achieve this.73
+2.63 The AGD explained this element was explicitly included in the offences,
+to ensure that there is no doubt that realistic but false depictions of a person are
+captured by the proposed offence.74
+Exceptions
+2.64 The proposed new underlying offence has four exceptions ‘to ensure legitimate
+scenarios involving the transmission of the sexual material without consent are
+not criminalised’.75
+2.65 The Law Council submitted that the reference to community standards of
+acceptable conduct, proposed paragraph 474.17A(3)(d), should be included as
+an element of the offence such as that in section 53S(1)(d) of the Crimes Act 1958
+(Vic).76 The Law Council considered the matters covered by the proposed
+paragraph to be ‘central to establishing the criminality of the proscribed
+conduct’.77
+2.66 Professor Clough was also of the view that the matters covered by the exceptions
+should be elements of the offence, rather than defences.78 He argued that this
+would be consistent with other jurisdictions, including Victoria.79
+2.67 The Law Council raised further concerns about the reversal of the evidential
+onus of the exceptions. The Law Council considered that this approach is
+inconsistent with the Guide to Framing Commonwealth Offences and agreed with
+the Scrutiny of Bills Committee that there is not enough justification for
+reversing the burden.80
+2.68 The NSWCCL and Scarlet Alliance submitted that:
+…the definition of ‘private sexual material’ under the Criminal Code
+requires the depiction to be in circumstances that reasonable persons would
+regard as giving rise to an expectation of privacy. Comparatively, the
+proposed legislation shifts this element and sets out an exception where a
+reasonable person would consider the transmission acceptable instead. This
+73 AFP, Submission 11, p. [1].
+74 AGD, Submission 17, pp. [4]–[5].
+75 AGD, Submission 17, p. [6].
+76 LCA, Submission 33, p. 13.
+77 LCA, Submission 33, p. 14.
+78 Professor Clough, private capacity, Committee Hansard, 23 July 2024, p. 20.
+79 Professor Clough, private capacity, Committee Hansard, 23 July 2024, p. 20.
+80 LCA, Submission 33, pp. 13–14.
+25
+change, from a ‘reasonable expectation of privacy’ to a ‘reasonable
+consideration of acceptability’ shifts the realm of prosecution whereby not
+only is there not an onus to establish an expectation of privacy, but there is
+also an exception for defendants to plead in that a reasonable person would
+consider the transmission acceptable.81
+2.69 The AGD stated that the inclusion of the exceptions ensures that ‘the offences
+are proportionate and reflect community standards on both artificial
+intelligence and real sexual material’.82
+2.70 With regard to the fourth proposed exception in proposed paragraph
+474.17A(3)(d), the AGD explained that this would introduce a reasonable person
+test to ensure conduct considered acceptable by a reasonable person, ‘is not
+subject to overly broad criminalisation’.83 It is an objective test and would allow
+socially acceptable material to be transmitted even if it met the requirements for
+classification as sexual material under proposed subsection 474.17A(1).84
+Aggravated offences
+2.71 The Bill includes two aggravated offences that both require the proposed
+underlying offence to be established first: they are enlivened where certain civil
+penalty orders have been made or where the person who transmitted the sexual
+material without consent also created or altered the material.
+Offence where civil penalty orders have been made
+2.72 The first proposed aggravated offence would be established when a person
+commits the underlying offence and has three or more civil penalty orders made
+against them in relation to contraventions of the OSA.
+Threshold
+2.73 Several submitters suggested that the number of civil penalty provisions
+required to meet the threshold is too high and should be reduced to one civil
+penalty order.85
+81 Scarlet Alliance & NSWCCL, Submission 29, p. 5.
+82 AGD, Submission 17, p. [6].
+83 AGD, Submission 17, p. [7].
+84 AGD, Submission 17, p. [7].
+85 Sexual Assault Services Victoria (SASV), Submission 31, p. 2. See also: Ms Lynch, QSAN, Committee
+Hansard, 23 July 2024, p. 2; Dr Rachael Burgin, CEO, Rape and Sexual Assault Research and
+Advocacy (RASARA), Committee Hansard, 23 July 2024, p. 2; Ms Lambert, NASASV, Committee
+Hansard, 23 July 2024, p. 3.
+26
+2.74 Ms Martin raised concerns with the practicality of the offence, given it is
+dependent on the conduct of the eSafety Commissioner and few civil penalty
+orders have been sought by the Commissioner.86
+2.75 Sexual Assault Services Victoria (SASV) was similarly concerned by this
+threshold:
+Requiring that the person has repeatedly been found liable for similar
+conduct at the civil standard in order for the aggravated offence/higher
+penalty to be reached is a prohibitive bar to set and may not be effective or
+workable in the context of rapid proliferation of deepfakes and the number
+of people producing and depicted in them. By the time a person is found
+guilty of a criminal offence, they are likely to have already produced
+material without being investigated for a civil penalty breach.87
+2.76 The AHRC also raised concerns with the threshold. It argued this would mean
+impacted individuals would have to be subjected to multiple harmful
+occurrences of breaches of the OSA before the aggravated offence could be
+considered.88 Consistent with SASV, the AHRC recommended reducing the
+threshold to one civil penalty order, on the basis of the harm that can arise from
+this conduct, and suggested that lowering the threshold would increase the
+offence’s deterrent effect.89
+2.77 The Queensland Police Service (QPS) voiced concerns about the practicality of
+prosecuting this offence due to the difficulty of knowing whether a perpetrator
+has had civil penalty orders made against them. The QPS argued that it would
+require notification about the civil penalty orders and related relevant
+evidentiary information to be shared, as such orders do not appear on an
+interstate criminal history check like criminal orders.90
+2.78 The eSafety Commissioner advised that, in relation to the issuance of civil
+penalty orders, eSafety is usually able to take action informally as opposed to
+actually issuing civil penalty orders. Therefore, meeting the threshold of three
+civil penalty orders ‘is likely only to be enlivened in rare and serious
+circumstances’.91
+2.79 Further, the eSafety Commissioner submitted that:
+86 Ms Martin, private capacity, Committee Hansard, 23 July 2024, p. 1.
+87 SASV, Submission 31, p. 2.
+88 AHRC, Submission 8, p. 7.
+89 AHRC, Submission 8, p. 7.
+90 QPS, Submission 30, p. 7.
+91 eSafety Commissioner, Submission 28, p. 7.
+27
+…we have only needed to issue a small number of removal notices, as our
+informal action has been successful in most instances (over 80%), which
+makes giving formal removal notices unnecessary.92
+2.80 Ms Inman Grant explained that, in her knowledge, her office has never had
+someone offend more than three times. For that reason,
+the eSafety Commissioner was unsure how often the aggravated offence would
+be used given the patterns of conduct they have seen.93
+2.81 The AGD explained that the threshold was set at three civil penalty orders
+because that replicates the existing aggravated offence in section 474.17A of the
+Criminal Code.94 Mr Reeve explained the reasons for this:
+The rationale for three [civil penalty orders] turns on there being a continual
+pattern of conduct that the person has been formally notified of, called out
+on and had a civil penalty imposed on them for. So it is that pattern of prior
+behaviour, which could be escalating behaviour, of other forms of online
+abuse against a person that then escalates into the transmission of sexually
+explicit material about that person, which then attracts the offences under
+this bill. In terms of the aggravated offence, it is where there is that
+demonstrated pattern of prior serious behaviour that has attracted legal
+consequences previously. If a person does not meet the threshold for the
+aggravated offence, which has the higher penalty under the act, they may
+still be liable for the standard offence under the bill.95
+Offence where the material was altered or created and transmitted
+2.82 A second proposed aggravated offence would be enlivened where a person who
+transmits the sexual material without consent, also created or altered the sexual
+material.
+2.83 The AGD argued that creating or altering deepfake sexual material is more
+serious than simply transmitting already created or altered material without
+consent, warranting an aggravated offence dealing with the creation of the
+non-consensual sexual material.96 This is especially the case because it can be
+used ‘as a tool for sexual exploitation, extortion and harassment’.97
+Retrospectivity
+2.84 The Bill sets out that material created before the commencement of the Bill
+would be captured by the Bill but only if it was transmitted after the
+commencement.
+92 eSafety Commissioner, Submission 28, p. 10.
+93 Ms Inman Grant, eSafety Commissioner, Committee Hansard, 23 July 2024, p. 39.
+94 Mr Reeve, AGD, Committee Hansard, 23 July 2024, p. 48.
+95 Mr Reeve, AGD, Committee Hansard, 23 July 2024, p. 48.
+96 AGD, Submission 17, p. [6].
+97 AGD, Submission 17, p. [6].
+28
+2.85 Mr Bradley believed the offence was not retrospective because it would be the
+creation or alteration of material combined with its transmission, which must
+occur after the Bill commences, that is the violation.98
+2.86 AGD confirmed that this is not retrospective application because a person still
+has to transmit the material after the commencement of the Bill, and thus the
+necessary conduct occurs after the offence enters into force.99
+2.87 Ms Eliza Amparo, Acting Deputy Director, CDPP, explained that this was not a
+new approach, referring to a similar approach in relation to the Commonwealth
+child sex offence scheme.100
+Penalties
+2.88 The proposed underlying offence would carry a maximum penalty of 6 years
+imprisonment and both proposed aggravated offences would carry maximum
+penalties of 7 years imprisonment.
+2.89 The Law Council viewed these penalties as ‘potentially disproportionate when
+considered in light of maximum penalties under comparable state and territory
+offences in relation to technology-facilitated intimate image-based sexual
+abuse’.101
+2.90 The Law Council argued that it is undesirable to have large discrepancies
+between the penalties at the Commonwealth level and the state and territory
+level for the same conduct, noting that state and territory offences have
+maximum penalties of around 3 years imprisonment.102 The Law Council was
+concerned that this would lead to Commonwealth offenders being treated more
+harshly than state or territory offenders.103
+2.91 As one of the mental elements for the offences is recklessness, the Law Council
+further considered that ‘recklessness is an insufficient mental element to ground
+liability’ for these offences where the maximum penalties are six- or seven-years
+imprisonment.104
+2.92 The NSWCCL and Scarlet Alliance similarly considered the penalties are
+‘excessive’, disputing and rejecting the arguments in the Explanatory
+98 Mr Bradley, private capacity, Committee Hansard, 23 July 2024, p. 18.
+99 Mr Reeve, AGD, Committee Hansard, 23 July 2024, p. 47.
+100 Ms Eliza Amparo, Acting Deputy Director, Human Exploitation and Border Protection, CDPP,
+Committee Hansard, 23 July 2024, p. 47.
+101 LCA, Submission 33, p. 17.
+102 LCA, Submission 33, p. 18.
+103 LCA, Submission 33, p. 18.
+104 LCA, Submission 33, p. 21.
+29
+Memorandum that the penalties are appropriate, reasonable and reflect the
+seriousness of the crime. They argued that ‘the severity of the penalties are not
+proportionate with the gravity of the offence, particularly when juxtaposed with
+the existing maximum penalties under state legislation’.105 They further claimed
+that:
+…the seven-year maximum sentence for the aggravated offences, may result
+in convicted individuals being eligible for post-sentence supervision and
+detention regimes. The NSWCCL and Scarlet Alliance are concerned with
+the incremental broadening of the scope of offences included in such
+regimes. The proposed legislation, in the NSWCCL and Scarlet Alliance’s
+view, represents another step in that direction, thereby increasing the
+post-conviction consequences faced by offenders.106
+2.93 In contrast, the AHRC opined that the penalties are ‘appropriately significant
+reflecting the seriousness of offences, the severely detrimental impact they can
+have, and the deterrent effect against offending conduct’.107
+2.94 The AGD argued, in relation to the civil penalty order aggravated offence,
+that the penalty is appropriate because:
+The aggravated offence applies where a person commits an offence to the
+criminal standard and after repeatedly being found liable for repeated
+contraventions of the Online Safety Act concerning either the
+non-consensual sharing of intimate images, or adult cyber abuse.
+These circumstances would indicate that the person has had a continued
+disregard of the harmful impacts that their conduct can have upon victims,
+justifying the imposition of a higher maximum penalty where that person
+subsequently disseminates sexual material concerning the victim online
+with consent.108
+Application to children
+2.95 During the course of the inquiry, various stakeholders reflected on
+circumstances in which children are offenders, sharing sexually explicit images
+of peers or adults. In that context, several stakeholders raised the issue of the
+Bill’s application to children.
+2.96 For conduct to be an offence, it must depict or appear to depict a person 18 years
+of age or older. However, as the age of criminal responsibility for
+Commonwealth offences is 10 years of age, sexual material non-consensually
+shared by children depicting someone over the age of 18 would be captured by
+the Bill.
+105 Scarlet Alliance & NSWCCL, Submission 29, p. 7.
+106 Scarlet Alliance & NSWCCL, Submission 29, p. 7.
+107 AHRC, Submission 8, p. 9.
+108 AGD, Submission 17, p. [6].
+30
+2.97 Ms Jacqueline McGowan-Jones, Commissioner for Children and Young People
+in Western Australia, welcomed the intention to strengthen offences for the
+non-consensual sharing of sexual material but submitted that some children and
+young people do engage in harmful sexual behaviour, ‘which could include
+image-abuse of adults’.109 While recognising that the impact of
+technology-facilitated abuse is significant, Ms McGowan-Jones explained that
+‘as a function of their developmental stage, children and young people may
+have less ability to judge the appropriateness and impact of their actions or
+manage risks and impulsivity’.110
+2.98 Mr Hardcore similarly explained why children and young people might be
+more inclined to create and share sexually explicit material:
+…it's not just about the legality of it, because not everyone who commits a
+crime necessarily pauses and thinks about the logical outcome of their
+behaviour and how it might lead them to incarceration. There is an emotive
+element, an impulsive element, particularly for young people, whose brains
+are underdeveloped, who don't neurologically mature until they're in their
+mid-20s, who are also steeped in a culture…that is currently sexist,
+hypersexualised through mainstream entertainment, through pornography,
+through TikTok, through YouTube. So the blurring of lines towards creating
+that material themselves really needs to be fleshed out and explained.111
+2.99 Mr Principe concurred, stating:
+…it's about what becomes normative. Young people are just guided by what
+is common to them. I wasn't speaking to young people about sextortion and
+dick pics eight years ago, but, sadly—and forgive me for stating that—we
+have to talk to them about these topics now. This all becomes
+normative— what we allow. I hold the view that laws can be educative
+while certainly not being the full solution. So I think there is a huge lack of
+understanding for young people. From my understanding, from reading
+submissions and a lot of the research that that's [sic] gone into this, it creates
+such a vulnerability for the victims of image-based abuse because they don't
+appreciate the scale of the harm done to them. They're experiencing it, but,
+from one piece of research I saw, 71 per cent of them never spoke about up
+about it [sic] or sought to report it. There's a huge part not just for the
+perpetrators but for the victims to know that, as a society, our laws are
+actually going to support them.112
+2.100 The Law Council observed:
+…children and young people are over-represented in the offences of
+producing and sharing sexual images, in part due to a lack of understanding
+109 Commissioner for Children and Young People (WA), Submission 1, p. 1.
+110 Commissioner for Children and Young People (WA), Submission 1, p. 1.
+111 Mr Hardcore Steward, private capacity, Committee Hansard, 23 July 2024, p. 31.
+112 Mr Principe, private capacity, Committee Hansard, 23 July 224, p. 31.
+31
+of the criminality of their actions and experience lifelong difficulties that
+flow from a finding of guilt for a sexual offence.113
+2.101 ISA highlighted the need for children and young people guilty of
+non-consensually sharing sexually explicit material to have ‘developmentally
+appropriate consequences’.114 ISA suggested that ‘the justice system can provide
+a level of punishment appropriate to the perpetrator’s development age,
+motive for the offence and level of harm caused’.115
+2.102 Ms McGowan-Jones argued that punishment should be developmentally
+appropriate:
+…the principle that justice should be developmentally appropriate is
+relevant across the justice system, including in legislation, policy and the
+administration of justice, as well as in the development and delivery of
+prevention, intervention, diversion and detention services.116
+2.103 Ms McGowan-Jones further submitted that:
+Although children and young people are understood to have lesser
+culpability (and therefore lesser criminal responsibility), this does not
+reduce the impact on victims, and there is a legitimate need for legislation
+that improves public safety. However, criminalisation of young people is
+not necessarily effective in addressing or preventing further offending.117
+2.104 Professor Delfino was concerned by the application to children, advocating for
+case-by-case consideration in circumstances where the legislation applied to
+children. She suggested including the age of the perpetrator among the
+exceptions in proposed paragraph 474.17A(3)(d).118
+2.105 Mr Vinny Vijay, Senior Associate, Sydney Criminal Lawyers, explained that for
+children between 10 and 14 years of age, the presumption of doli incapax would
+operate in these circumstances:
+…from a legal perspective, meaning that the state bears a burden to prove
+beyond a reasonable doubt that the young person knew what they were
+doing was seriously wrong in a criminal sense rather than morally wrong.119
+113 LCA, Submission 33, p. 15.
+114 ISA, Submission 14, p. 7.
+115 ISA, Submission 14, p. 7.
+116 Commissioner for Children and Young People (WA), Submission 1, p. 2.
+117 Commissioner for Children and Young People (WA), Submission 1, p. 2.
+118 Submission 13, p. 4.
+119 Mr Vinny Vijay, Senior Associate, Sydney Criminal Lawyers, Committee Hansard, 23 July 2024,
+p. 16.
+32
+Statutory safeguard
+2.106 SASV suggested that ‘targeted statutory safeguards’ are needed in the context
+of children as perpetrators, instead of relying on the discretion of police and
+judges.120 Further to this, SASV explained that in Victoria, their image-based
+offences require the consent of the Director of Public Prosecutions to commence
+proceedings against a person under 16 years of age.121
+2.107 The Law Council supported the inclusion of a new requirement for consent to
+be sought from the CDPP prior to commencing prosecutions against children
+under 16 years of age, replicating requirements in Victoria and New South
+Wales.122 The Law Council also recommended including the ability for police to
+issue cautions to children and young people who are alleged to have engaged
+in this creating or transmitting of sexual material, as an alternative to
+prosecution.123
+2.108 Similarly, Professor Flynn argued that there is ‘a very delicate balance’ to be
+found:
+I think that, when we're talking about quite severe penalties of up to six
+years or seven years, there is a need to be getting approval or insight or just
+the expertise of the Director of Public Prosecutions before prosecuting a
+child for these types of offences. There's also the issue, of course, that,
+when you are talking about children, if they're engaging in this behaviour
+against other children as opposed to adults, which this law is covering, then
+we're talking about a different type of offence in a sense. We're talking about
+child exploitation material in that sense. That needs to be treated in a
+different way from when we're talking about imagery that involves adults.
+I would lean towards having this as something that, from 16 and above, you
+should be getting approval from the Director of Public Prosecutions on.
+I think that's working well in the Victorian context. I do think we need to be
+focusing on education and other forms of prevention when we're talking
+about children.124
+2.109 Deputy Commissioner Ian McCartney stated that the AFP had never charged
+anyone under 18 under the existing legislation.125 He said the ‘key thing is
+120 SASV, Submission 31, p. 3.
+121 SASV, Submission 31, p. 3.
+122 LCA, Submission 33, p. 15.
+123 LCA, Submission 33, p. 15.
+124 Professor Flynn, private capacity, Committee Hansard, 23 July 2024, p. 24.
+125 Deputy Commissioner Ian McCartney, Deputy Commissioner Crime, AFP, Committee Hansard,
+23 July 2024, p. 52.
+33
+discretion based on the circumstances’ and each instance must be looked at on
+a case-by-case basis.126
+2.110 The CDPP explained that the decision to seek consent from the
+Attorney-General to commence proceedings to charge a juvenile for an offence
+relating to child abuse material is made by the Director.127 Other decisions
+regarding whether to commence or continue the prosecution of a juvenile must
+be made by a CDPP Assistant Director or higher.128
+Overlap with current state and territory offences
+2.111 The NSWCCL and Scarlet Alliance highlighted that there are existing state and
+territory laws that cover the non-consensual distribution of intimate images.129
+They considered that the Bill would overlap with the state and territory laws.130
+2.112 The QPS submitted that the non-consensual sharing of intimate images is
+criminalised under the Queensland criminal code.131 Where the images are
+non-consensually shared, and in a way that would cause the other person
+distress, the offence is made out; it carries a maximum penalty of three years’
+imprisonment.132
+2.113 The Northern Territory Department of the Attorney-General and Justice also
+submitted that there are territory offences that cover the ‘capturing’ of material
+without consent and showing, delivering or supplying the material.133
+2.114 The Law Council submitted that states and territory have ‘made efforts to
+proscribe the non-consensual distribution of intimate images’. As a result, it also
+raised the potential for overlap between the proposed Commonwealth offences
+in the Bill and state and territory offences relating to the distribution of intimate
+images.134
+126 Deputy Commissioner Ian McCartney, Deputy Commissioner Crime, AFP, Committee Hansard,
+23 July 2024, p. 52.
+127 CDPP, answer to question on notice, 23 July 2024 (received 26 July 2024).
+128 CDPP, answer to question on notice, 23 July 2024 (received 26 July 2024).
+129 Scarlet Alliance & NSWCCL, Submission 29, p. 6.
+130 Scarlet Alliance & NSWCCL, Submission 29, p. 6.
+131 QPS, Submission 30, p. 2.
+132 QPS, Submission 30, p. 2.
+133 Department of the Attorney-General and Justice (NT), Submission 34, p. 1.
+134 LCA, Submission 33, p. 9.
+34
+2.115 The AHRC acknowledged that states and territories have criminal provisions
+covering this area; however, in the commission’s view, these are inconsistent
+and ‘a patchwork of protections’.135
+2.116 The AGD advised that the Bill is intended to complement related offences that
+already exist at the state and territory level.136 Additionally, state and territory
+police would be able to rely on the proposed Commonwealth offence to
+investigate and prosecute.137 This is particularly pertinent given, in some
+circumstances—such as instances of offending in a domestic violence
+context– state and territory police will likely be best placed to respond in their
+community policing role.138
+Gaps in the Bill
+2.117 Submitters repeatedly highlighted two gaps in the proposed legislation and
+suggested two offences to address them: a creation offence and an offence of
+threatening to create or distribute sexual material.
+Creation offence
+2.118 Many submitters and witnesses observed that the Bill does not criminalise the
+creation of deepfake sexual material as a standalone offence.139 The creation of
+the deepfake material would only be an aggravating factor under the Bill,
+enlivened when a person has also non-consensually transmitted the deepfake
+sexual material.
+2.119 Professor Delfino submitted that the culpability of those that create deepfake
+sexual material is equal to, or more than, those that transmit the material and
+thus the absence of a creation offence is problematic.140 She recommended that
+the term ‘create’ be included in the definition of ‘transmit’ in the Bill, as a way
+to criminalise the creation of this material, covering off a gap in the legislative
+framework, within the existing offences.141
+2.120 While the AHRC commended the inclusion of the aggravated offence where the
+person responsible for transmitting the sexual material is also responsible for its
+135 AHRC, Submission 8, p. 6.
+136 AGD, Submission 17, p. [4].
+137 AFP, Submission 11, p. [2].
+138 AFP, Submission 11, p. [2].
+139 See: Professor Michael Flood, Submission 2, p. 1; Professor Flynn, private capacity, Committee
+Hansard, 23 July 2024, p. 19. Ms Lynch, QSAN, Committee Hansard, 23 July 2024, p. 2; Dr Burgin,
+RASARA, Committee Hansard, 23 July 2024, p. 2; Ms Lambert, NASASV, Committee Hansard, 23 July
+2024, p. 3.
+140 Submission 13, p. 3.
+141 Submission 13, p. 3.
+35
+creation, it similarly recommended enactment of a standalone creation
+offence.142
+2.121 The AHRC argued:
+Establishing a standalone offence would recognise the violation and harms
+to women and other targeted persons, in the very creation of non-consensual
+sexual material – including for solely personal purposes. The law can also
+lay a strong ‘foundation for education and cultural change’ on
+non-consensual deepfake sexual material.143
+2.122 Professor McGlynn and Ms Toparlak explained that there are ‘distinct harms in
+creating, threatening to share, and sharing sexually explicit deepfakes’
+experienced at the individual and societal level.144 They submitted that failing to
+include a creation offence ‘sends a message that this conduct is acceptable and
+normalises it’, revealing ‘a collective societal tolerance and even acceptance of
+sexual violence against women’.145
+2.123 According to Professor McGlynn and Ms Toparlak, criminalising the creation of
+deepfake sexual material would recognise the harm to victims of this conduct.146
+It may also incentivise technology companies to develop effective tools to
+combat the proliferation of deepfake sexual material online.147
+2.124 NASASV argued that criminalising creation is important from a prevention
+perspective148 because, as Dr Rachael Burgin, Chief Executive Officer, Rape and
+Sexual Assault Research and Advocacy (RASARA) explained, ‘harm is enacted
+at the point of creation’.149
+2.125 Professor McGlynn and Ms Toparlak submitted that creating deepfake sexual
+material should be considered the ‘new voyeurism’. They explained that
+jurisdictions criminalise voyeurism even where the victim does not know about
+the conduct of the perpetrator or where the perpetrator does not intend to
+distribute the material.150
+2.126 Mr Vijay said he would like to see the states and territories moving in
+coordination with the Commonwealth to address legislative gaps in this
+142 AHRC, Submission 8, p. 8.
+143 AHRC, Submission 8, p. 8.
+144 Submission 6, p. 5.
+145 Submission 6, p. 4.
+146 Submission 6, p. 4.
+147 Submission 6, p. 4.
+148 Ms Lambert, NASASV, Committee Hansard, 23 July 2024, p. 7.
+149 Dr Burgin, RASARA, Committee Hansard, 23 July 2024, p. 11.
+150 Submission 6, p. 1.
+36
+space.151 He considered that the creation of AI content would necessitate the use
+of a carriage service which would be enough for the Commonwealth to
+legislate.152
+2.127 As an alternative to a creation offence, Professor Clough suggested that an
+accessing offence could be considered, in a similar way to accessing child
+exploitation material, and that would be within the Commonwealth’s
+jurisdictional power.153
+Commonwealth constitutional limitations
+2.128 The AGD observed that:
+The Commonwealth does have limited constitutional powers in terms of the
+types of criminal offences that we can enact...The offences for the pure
+creation of either adult material or child sexual abuse material are typically
+dealt with by the states and territories.154
+2.129 SASV recognised that there may be constitutional limitations on the
+Commonwealth’s ability to legislate a standalone creation offence. However,
+it submitted that, in this case, the Commonwealth should work with the states
+and territories to ensure the creation of deepfake sexual material is consistently
+criminalised as a standalone offence across jurisdictions.155
+2.130 QSAN had a similar view, suggesting:
+…through the meetings of Attorneys-General, something can be done
+around this issue to get some real coordination under the National Plan to
+End Violence against Women and Children and some consistency from the
+states as well, or perhaps it's a handing over of powers to the
+Commonwealth to deal with it under this.156
+2.131 Professor Clough considered that using the external affairs power, grounded in
+Australia’s international obligations, could be one avenue to consider when
+exploring whether the Commonwealth could legislate a creation offence.157
+2.132 Mr Bradley supported further consideration being given to a creation offence
+and a threat to create offence:
+[p]articularly in domestic contexts or relationship contexts,
+deepfake imagery, as well as actual imagery or video content or sexualised
+151 Mr Vijay, Sydney Criminal Lawyers, Committee Hansard, 23 July 2024, p. 14.
+152 Mr Vijay, Sydney Criminal Lawyers, Committee Hansard, 23 July 2024, p. 14.
+153 Professor Clough, private capacity, Committee Hansard, 23 July 2024, p. 26.
+154 Mr Reeve, AGD, Committee Hansard, 23 July 2024, p. 44.
+155 SASV, Submission 31, p. 3.
+156 Ms Lynch, QSAN, Committee Hansard, 23 July 2024, p. 5.
+157 Professor Clough, private capacity, Committee Hansard, 23 July 2024, p. 25.
+37
+content, is often created in consensual conditions but then the threat of usage
+can arise.158
+2.133 He suggested that the Commonwealth’s constitutional power ‘would stretch to
+that, provided there’s an intention’:
+In terms of the constitutional question, I think there are a couple of ways,
+potentially, of approaching that. The creation of certainly AI content or
+animated content, for example, would necessitate the use of a carriage
+service anyway. That's certainly going to fall within the constitutional reach.
+Where we're talking about something like threatened usage, I would think
+that, provided there's a purpose element that connects to use of the carriage
+service, there's probably enough there. In the terrorism realm, there are
+some pretty broad offences that pick up—that come well before
+dissemination but still criminalise accessing and creating content for that
+purpose. So I don't think it's that much of a stretch.159
+2.134 The AGD explained that family, domestic and sexual violence is a standing
+discussion at the Standing Council of Attorneys-General meeting, of which
+Attorneys-General from all nine jurisdictions are members.160
+Threat to create and/or distribute offence
+2.135 Several submitters raised the absence of a threat to create and/or distribute
+offence in the Bill.161
+2.136 Mr Bradley explained that the ‘threat of dissemination is frequently a feature of
+coercive control type situations and is an act of abuse in itself’.162 Professor Flynn
+explained that research demonstrates that ‘it is not uncommon for perpetrators
+to threaten to create or distribute images, regardless of whether that image
+actually exists’.163
+2.137 These types of images are also used in family violence contexts as a mechanism
+for one partner to exert control over the other partner.164 Particularly in coercive
+relationships, ‘the knowledge that the image exists is, in itself, an implied
+threat’.165
+158 Mr Bradley, private capacity, Committee Hansard, 23 July 2024, p. 13.
+159 Mr Bradley, private capacity, Committee Hansard, 23 July 2024, p. 14.
+160 Mr Reeve, AGD, Committee Hansard, 23 July 2024, p. 46.
+161 See: Professor Flynn, private capacity, Committee Hansard, 23 July 2024, p. 19;
+Ms Lynch, QSAN, Committee Hansard, 23 July 2024, p. 2; Dr Burgin, RASARA, Committee Hansard,
+23 July 2024, p. 2; Ms Lambert, NASASV, Committee Hansard, 23 July 2024, p. 3.
+162 Mr Bradley, private capacity, Committee Hansard, 23 July 2024, p. 13.
+163 Professor Flynn, private capacity, Committee Hansard, 23 July 2024, p. 19.
+164 Dr Burgin, RASARA, Committee Hansard, 23 July 2024, p. 5.
+165 Dr Burgin, RASARA, Committee Hansard, 23 July 2024, p. 5.
+38
+2.138 As the eSafety Commissioner remarked, the Bill does not apply to threats to
+transmit sexual material without consent.166 As a result, the Bill would not cover
+sexual extortion (‘sextortion’), unless that conduct resulted in sexual material
+being shared.167 However, the eSafety Commissioner submitted that sexual
+extortion ‘remains the most-reported form of image-based abuse to eSafety’.168
+2.139 Ms Christina Choi, Acting Deputy Director, CDDP, explained that making a
+threat to distribute sexual material could be covered by the existing offence in
+section 474.17 which deals with using a carriage service to harass or menace.169
+However, the threat would only be captured if made using a carriage service
+(for example, by phone or email) as the offence criminalises threatening
+someone in and of itself, not the type of threat.170
+The role of social media and technology companies
+2.140 The role of social media and technology companies was the subject of much
+discussion during the inquiry.
+2.141 For example, Professor Flynn stated:
+I think it’s also important that we are remembering to include a focus on
+technology providers, platforms and developers to be answerable to
+community standards and to remove apps or technologies from their
+platforms where those are promoting criminally harmful behaviours.171
+…I would argue that there's no place for [nudify apps] to be advertised
+freely on our social media platforms or networks or websites. I'd be looking
+at if there are ways for us to control the types of websites or things that can
+be made available or accessed in the Australian context. That would be
+useful.172
+2.142 Mr Principe considered that technology companies must be held accountable
+for their role:
+…the law must come down, in my opinion, far more strongly against the
+creators of these programs—the app stores and the [internet service
+providers] who make these abuses possible. Until very recently nudifying
+166 eSafety Commissioner, Submission 28, p. 7.
+167 eSafety Commissioner, Submission 28, p. 7.
+168 eSafety Commissioner, Submission 28, p. 7.
+169 Ms Christina Choi, Acting Deputy Director, Legal Capability and Performance, CDPP, Committee
+Hansard, 23 July 2024, p. 51.
+170 Ms Choi, CDPP, Committee Hansard, 23 July 2024, p. 51.
+171 Professor Flynn, private capacity, Committee Hansard, 23 July 2024, p. 20.
+172 Professor Flynn, private capacity, Committee Hansard, 23 July 2024, p. 26.
+39
+apps, as they’re called, were accessible on the app store and were rated for
+ages four and above.173
+2.143 In relation to removing content that violates its policies, TikTok Australia
+submitted that:
+TikTok uses a combination of machine moderation technology and
+specialist teams to identify, review, and, where appropriate, remove content
+that violates our Community Guidelines. Our Trust and Safety teams
+include Australian-based specialists who are familiar with our local culture
+and norms, as well as global team focused on product safety.174
+2.144 In relation to adult sexual and physical abuse, TikTok noted:
+We do not allow showing, promoting, or engaging in adult sexual or
+physical abuse or exploitation. This includes non-consensual sexual acts,
+image-based sexual abuse, sextortion, physical abuse, and sexual
+harassment. If users believe they have experienced an intimate privacy
+violation on our platform, they can report it through our Privacy Portal.175
+2.145 Google stated that ‘[a]utomation is generally Google’s first line of defence in
+dealing with policy-violating content. Our systems are designed…not to surface
+content that violates our content policies’.176
+2.146 Google explained that victims are able to report non-consensual explicit imagery
+and ‘other issues directly within the Image Search results page’, making it easier
+to request the removal of such material.177
+2.147 With regards to images removed from Google search under Google’s
+non-consensual explicit imagery (NCEI) or involuntary synthetic pornographic
+imagery (ISPI) policies, Google explained ‘we have systems in place to detect
+and remove duplicates of that image, to reduce the need for victim-survivors to
+request removals one by one’.178
+2.148 In relation to sites that have a high proportion of NCEI, Google noted:
+If we process a high volume of such removal involving a particular site,
+we use that as a signal to improve our results. For sites that received a high
+volume of NCEI removals, we demote other content from the site in our
+Search results.179
+173 Mr Principe, private capacity, Committee Hansard, 23 July 2024, p. 28.
+174 TikTok Australia, Submission 24, p. 2.
+175 TikTok Australia, Submission 24, p. 6.
+176 Google, Submission 19, p. [2].
+177 Google, Submission 19, p. [2].
+178 Google, Submission 19, p. [3].
+179 Google, Submission 19, p. [3].
+40
+2.149 Google submitted that apps that contain ‘nonconsensual sexual content created
+via deepfake’ are prohibited.180 Apps undergo an automated review, and where
+this review determines that there is a risk the app may violate Google Play policy
+it will then undergo manual review, before being approved for the Googe Play
+store.181 Apps that the automated review determines with a high level of
+confidence that the app violates Google Play policy will be rejected; and the
+same would apply for the manual review.182
+2.150 Google further explained its enforcement actions for Google Play:
+If an app or developer account violates any of our policies, we may reject,
+remove, suspend, or limit the visibility of the app. Google Play may also
+restrict a developer’s account or terminate the developer’s account entirely,
+for violations.183
+2.151 Content that violates YouTube Community Guidelines is removed and channels
+or accounts may be terminated for repeated violations or after one violation if it
+constitutes severe abuse.184
+2.152 Google’s generative AI tools are governed by its Generative AI Prohibited Use
+Policy which prohibits their use for the creation of sexually explicit content.185
+Google has also developed the SynthID tool ‘that watermarks and detects
+AI-generated content’ which are embedded directly into the images, audio,
+text and video content.186
+2.153 TikTok submitted that AI-generated content or ‘edited media that shows
+realistic-appearing scenes or people’ now must be labelled with either the
+AI-generated content label or by adding a caption, watermark or sticker of the
+user’s own.187 If content is uploaded from certain other platforms, TiKTok has
+begun automatically labelling AI-generated content.188
+2.154 Both TikTok and Google argued that they work with law enforcement agencies
+in Australia.189
+180 Google, Submission 19, p. [4].
+181 Google, Submission 19, p. [6].
+182 Google, Submission 19, p. [6].
+183 Google, Submission 19, p. [6].
+184 Google, Submission 19, p. [7].
+185 Google, Submission 19, p. [8].
+186 Google, Submission 19, p. [9].
+187 TikTok Australia, Submission 24, p. 4.
+188 TikTok Australia, Submission 24, p. 7.
+189 TikTok Australia, Submission 24, p. 7 and Google, Submission 19, p. [10].
+41
+2.155 However, the eSafety Commissioner stated:
+…we're not really seeing very consistent enforcement of app store policies.
+I'm sure that if we did an own-motion investigation, we'd find plenty of
+apps that are hosted on Google Play and the iTunes Store that would show
+intimate images shared without consent. We had Apple in a couple of
+months ago. It's against their policies to be able to host apps that have porn,
+and we were able to pull up porn in the room with them there. Well,
+these clearly aren't working. Again, we're just ramping up our compliance
+efforts around search engines and app stores. That, to me, would be a clear
+violation of their app store policies. We have seen them occasionally act
+when a regulator, a trusted flagger or a news outlet points out that they have
+apps like Wizz, which was being widely used for sexual extortion. Then they
+will temporarily remove that app.190
+2.156 The eSafety Commissioner argued, based on her experience in the industry,
+that reputation and revenue impacts drive tech companies’ behaviour.191
+She further remarked:
+…a lot of these US based companies, they’re not incentivised and will not
+act unless it is strictly illegal. The challenge with image-based abuse to date
+is that it’s what we would call legal but harmful, or lawful but awful.192
+2.157 In support of the Bill, Ms Inman Grant stated:
+I believe that the bill adds powerfully to the existing interlocking civil
+powers and proactive safety by design interventions championed by eSafety
+but also contained in some of our systems and process powers.
+Through these, we should feel justified putting the burden on AI companies
+themselves to engineer out potential misuse.
+To demonstrate, here's the description of a popular open-source AI
+nudifying app: ‘Nudify any girl with the power of AI. Just choose a body
+type and get a result in a few seconds.’ And another: ‘Undress anyone
+instantly. Just upload a photo and undress AI will remove the clothes within
+seconds. We are the best deep nude service.’ So it's really difficult to
+conceive of a purpose for these apps outside of the nefarious. Some might
+wonder why apps like this are allowed to exist at all, given that their
+primary purpose is to sexualise, humiliate, demoralise, denigrate and create
+child sexual abuse material of girls, according to the predator's personal
+predilection.
+A Bellingcat investigation found that many such apps are part of a complex
+network of nudifying apps owned by the same holding company that
+effectively disguises detection of the primary purpose of these apps in order
+to evade enforcement action. Shockingly, thousands of open-source AI apps
+like these have proliferated online and are often free and easy to use by
+anyone with a smartphone. So these apps make it simple and cost-free for
+190 Ms Inman Grant, eSafety Commissioner, Committee Hansard, 23 July 2024, p. 41.
+191 Ms Inman Grant, eSafety Commissioner, Committee Hansard, 23 July 2024, p. 39.
+192 Ms Inman Grant, eSafety Commissioner, Committee Hansard, 23 July 2024, p. 40.
+42
+the perpetrator, while the cost to the target is one of lingering and
+incalculable devastation.193
+Penalties for technology and social media companies
+2.158 Some stakeholders acknowledged that social media platforms are used for a
+range of technology-facilitated abuse, not just the non-consensual transmission
+of sexual material.
+2.159 For example, the QPS submitted that ‘[s]ocial media is the primary facilitator of
+technology-facilitated abuse and has become a means for offenders to perpetrate
+domestic and family violence’.194
+2.160 As a means to reduce the proliferation of deepfake material, ISA recommended
+that greater penalties be imposed on social media companies who allow this
+material to be shared on their platforms,195 as well as:
+Stronger requirements should also be established for social media websites
+and platforms hosting deepfake content to proactively prevent harmful
+content being uploaded, and quickly removed when it is identified in hosted
+content.196
+2.161 NASASV also recommended penalties for technology companies:
+…we do need to create some accountability for the tech companies that
+promote and support this kind of material…but who at the same time deny
+any role in it or any responsibility.197
+2.162 Ms Martin and Dr Burgin were similarly supportive of greater accountability for
+technology companies, including penalties for companies who profit from this
+conduct.198
+2.163 SASV recommended ‘taking down’ the apps, platforms or software that enable
+to creation of deepfake sexual material as well as criminalising companies that
+own or sell the apps or software.199 It was also supportive of strengthening civil
+penalties.200
+2.164 While NSWCCL and Scarlet Alliance considered there were benefits from
+additional regulation of third-party content providers and those platforms that
+193 Ms Inman Grant, eSafety Commissioner, Committee Hansard, 23 July 2024, pp. 37–38.
+194 QPS, Submission 30, p. 4.
+195 ISA, Submission 14, p. 6.
+196 ISA, Submission 14, p. 7.
+197 Ms Lambert, NASASV, Committee Hansard, 23 July 2024, p. 9.
+198 Ms Martin, private capacity, Committee Hansard, 23 July 2024, p. 12; Dr Burgin, RASARA, Committee
+Hansard, 23 July 2024, p. 12.
+199 SASV, Submission 31, p. 5.
+200 SASV, Submission 31, p. 5.
+43
+facilitate the creation or sharing of deepfake sexual material, they cautioned that
+‘this must not come at the cost of deplatforming or shadowbanning sex
+workers’.201
+Non-legislative responses
+2.165 While supportive of the legislation, many submitters and witnesses
+recommended that additional non-legislative responses are also needed to
+address the problem of technology-facilitated abuse and the non-consensual
+transmission of sexual material.202
+2.166 For example, ISA regarded ‘the misuse of deepfake technology as a societal
+challenge and believes that global collaboration will be required to address the
+misuse of deepfake generation technologies’.203
+Primary prevention and education
+2.167 Most stakeholders raised the importance of primary prevention and education
+in concert with legislative reform, to address the underlying societal issues
+fuelling the non-consensual creation, alteration and/or transmission of sexual
+material.
+2.168 Primary prevention is key.204 As Mr Graham Catt, Chief Executive Officer,
+ISA, said, ‘[p]rosecution is what we need to be doing to people where we’ve
+failed to prevent the behaviour’ but preventing the behaviour in the first place
+should be the goal.205
+2.169 RASARA emphasised the importance of primary prevention whilst
+underscoring ‘[w]hat we’re [currently] doing for prevention in Australia doesn’t
+work’:
+…we need more than signs at bus stops…That's why we've had more than
+50 women killed at the hands of men this year. Prevention isn't working in
+the way we've thought about it and the way we've done it. We need actual
+meaningful investment into services. Sexual assault services are the most
+critically underfunded sector. Ms Lynch flagged 12-year-olds on waiting
+lists who've been raped in Queensland. That's not just Queensland; that'll be
+everywhere. If we think that it's okay for a 12-year-old to sit on a waitlist for
+specialist support counselling—that's the context we're in. Sexual violence
+is the poor cousin of family violence. What we need to understand is that it
+requires a specialist response, but it's also a precursor offence to homicide.
+It's a serious risk factor for homicide—murder. We have to start taking it
+seriously. And we just don't. We haven't got a meaningful prevention
+201 Scarlet Alliance & NSWCCL, Submission 29, p. 13.
+202 See: Commissioner for Children and Young People (WA), Submission 1; ISA, Submission 14.
+203 ISA, Submission 14, p. 5.
+204 Ms Lambert, NASASV, Committee Hansard, 23 July 2024, p. 3.
+205 Mr Graham Catt, CEO, ISA, Committee Hansard, 23 July 2024, p. 32.
+44
+framework for sexual violence. We haven't got a meaningful response
+framework. Survivors do this work—like Ms Martin here today, absolutely
+advocating her heart out for seven years, doing a damned good job and
+doing that damned good job for free. It's just not good enough.206
+2.170 NASASV remarked:
+I would note that the community impact could be looked at as well. It has
+been raised by some of my colleagues here, today, but I think it's very
+important for us to come back to the prolific rise in the creation and sharing
+of this material, which is having a very damaging and harmful impact on
+normalising violent sexual assault. The long-term impact of this, in terms of
+the degradation of women and gender-based violence, is also profound,
+hence the importance for action now and not just in this criminal space but
+also more in the prevention space.207
+2.171 SASV highlighted that ‘deepfake pornography is accessible to young people
+without proper safeguards’,208 and argued that:
+…we currently do not have sufficient programs in place providing young
+people with the education necessary to help them understand the illegality
+of, and harms caused by, the creation and distribution of deepfake
+pornography and image-based offending more generally.209
+2.172 Similarly, in relation to freely accessible pornographic websites, Mr Principe
+observed:
+An estimated 90 per cent of all deepfakes are explicit, with the majority
+depicting women and girls. In less time than it will take me to finish this
+statement, a realistic sexual image of you or I could be created through these
+platforms. These websites and apps should not be allowed to exist when
+they are created and utilised to abuse. They should not profit until they can
+prove they are safe by design and have implemented all measures to prevent
+these harmful crimes. This why [sic] we also need our government to
+urgently implement age verification for pornographic websites. The ideas
+and attitudes from porn are shaping young people who are exposed, and
+the sites themselves are a primary gateway for promoting deepfakes and the
+AI tools themselves to then abuse other individuals. We must put the rights
+and wellbeing of women and children ahead of the profits of these
+industries.210
+2.173 Professor Flynn suggested that there is a gap in education about the
+non-consensual transmission of sexual material, the consequences of which
+normalise the sexualisation of women and girls.211 As such, ‘targeted, wide-scale
+206 Dr Burgin, RASARA, Committee Hansard, 23 July 2024, p. 12.
+207 Ms Lambert, NASASV, Committee Hansard, 23 July 2023, p. 7.
+208 SASV, Submission 31, p. 2.
+209 SASV, Submission 31, p. 2.
+210 Mr Principe, private capacity, Committee Hansard, 23 July 2024, p. 28.
+211 Professor Flynn, private capacity, Committee Hansard, 23 July 2024, p. 21.
+45
+messaging around the criminality of these offences’ is needed but so is work
+around gender-based violence.212 NSWCCL and Scarlet Alliance recommended
+greater investment into consent education and awareness campaigns around the
+consequences of the non-consensual transmission of sexual material.213
+2.174 ISA recommended that a national education campaign be implemented to raise
+awareness about the harms of deepfake technology and the legal consequences
+of its misuse.214 ISA submitted that ‘immediate education on generative AI
+literacy and to make young people aware they are breaking the law if they
+participate’ in the non-consensual transmission of sexual material is essential.215
+However, ISA expressed that this cannot be the sole responsibility of schools or
+parents, given the pressure already on teachers to upskill regarding generative
+AI.216
+2.175 The AHRC supported the need for education and training programs to
+accompany the introduction of this legislation to ‘facilitate the effect application
+and enforcement’ of the Bill. It also recommended further education for the
+public regarding the ‘legal and social harms of utilising tools to create deepfake
+sexual materials’.217
+2.176 The eSafety Commissioner recommended education for law enforcement and
+the judiciary, as well as the public:
+The Bill’s implementation would benefit from a broad community education
+and awareness raising campaign to reduce stigma and promote
+help-seeking among victim-survivors, while highlighting the harms of
+image-based abuse and that perpetration is never okay. Specific training and
+upskilling on trauma-informed approaches for law enforcement and the
+judicial system should be considered…218
+2.177 With specific regard to children and young people, Ms McGowan-Jones
+indicated that ‘developmentally appropriate guidance and advice’ is needed to
+accompany the legislation to ensure they are aware that the non-consensual
+transmission of sexual material of adults is illegal.219 Further,
+Ms McGowan-Jones argued for tailored education and support for children and
+212 Ms Lambert, NASASV, Committee Hansard, 23 July 2024, p. 9.
+213 Scarlet Alliance & NSWCCL, Submission 29, p. 12.
+214 ISA, Submission 14, p. 6.
+215 ISA, Submission 14, p. 6.
+216 ISA, Submission 14, p. 6.
+217 AHRC, Submission 8, p. 9.
+218 eSafety Commissioner, Submission 28, p. 8.
+219 Commissioner for Children and Young People (WA), Submission 1, p. 2.
+46
+young people with developmental delays, neurological disorders or disability,
+and those who have experienced sexual abuse and trauma.220
+2.178 Mr Hardcore described the role of the online environment in the development
+of children and young people’s core beliefs, and the digital media environment
+as ‘a key source of ideas and values which people digest and internalise’.
+For those reasons, he emphasised the importance of society doing more:
+…to provide positive online environments for children and young people,
+the better the end result. By limiting harmful content that we are exposed to
+and by rejecting the idea that it is acceptable to dehumanise and degrade
+others by using technology, we can produce more positive long-term
+outcomes in our society.221
+2.179 Both Mr Hardcore and Mr Principe highlighted the need for education,
+but stressed how essential the ‘empathy piece’ is to achieving change:
+I am obviously an educator and I am a consent ambassador for the
+government, which I'm grateful for. However, as I say at the end of all my
+talks to young people, I don't need to write on a board to a group of young,
+empathetic, kind young men, 'Don't sexually assault an unconscious
+woman. Don't make jokes about rape.' Yes, I think we have to educate,
+and I want to educate, but Richie's touched on it: it is the empathy piece,
+and that's why I share so many stories. I ask young people to not just give
+me the right facts or answers; I ask them, 'How would this make someone
+feel, what would that be like to rock up to school if this happened, and how
+would you feel talking about this?' because I actually want to engage their
+hearts. And call me a chronic idealist—I am—but that's what I seek to do,
+beyond just the laws.222
+2.180 And:
+How do we put empathy at the forefront of their education? I truly believe
+that it's not what we tell people and graphs and charts that lead to behaviour
+change; it's how we make them feel. How do we help them understand that
+if you're—I feel upset myself talking about it—putting your young
+classmate's face over a pornographic movie star's video or whatever it may
+be, that can really destroy a person internally? How do we, in 'ages and
+stages' ways, ensure that our young people, boys and girls—because no
+doubt young men have been victims and will be victims of deepfake
+pornography too—understand that there are real consequences for your
+actions? Yes, you'll be held accountable for them, but, through a preventive
+lens, why do you want to do this? I think that's a really important
+component to it.223
+2.181 ISA agreed:
+220 Commissioner for Children and Young People (WA), Submission 1, p. 2.
+221 Mr Hardcore Steward, private capacity, Committee Hansard, 23 July 2024, p. 29.
+222 Mr Principe, private capacity, Committee Hansard, 23 July 2024, pp. 31–32.
+223 Mr Hardcore Steward, private capacity, Committee Hansard, 23 July 2024, p. 31.
+47
+…from an educator's point of view, the fact that there is such ease of access
+to a platform which actually allows you to create this, when you're dealing
+with young minds and people in their formative stages, is incredibly
+difficult to deal with…What we hear from educators is that, yes, it is helpful
+to point to the law and say, 'Look, this is illegal.' That's part of that education
+campaign, because that resonates with people. But from an education point
+of view this is—as we've described in our submission, it's an incredibly
+extreme form of bullying facilitated by technology. Therefore, when we
+think about bullying and the best way to educate and how that's done and
+has been done, effectively, as we're saying, it's through empathy, it's through
+helping them understand that this has an impact, which isn't, 'You run a risk
+of being prosecuted.' The impact has to be understanding the impact that
+has on another young person, such as a classmate, and trying to get that
+across.
+When we talk about education, yes, understanding that you've done
+something illegal is part of that. I think understanding from a school point
+of view—this is one of those challenging things as well. What schools
+increasingly deal with is what is inside the school gate, what is outside the
+school gate and where your responsibility starts and finishes. Again,
+I think the feedback from educators…is basically that this is a societal
+problem that we're trying to educate our children about. That's the
+education piece that needs to sit alongside criminality. So, yes, you can be
+prosecuted for this, but actually this is going on around us. This actually
+guides people's behaviours and people's thinking. This is the impact it has
+on people like you. The education about preventing that from—prevention
+is so important.224
+Deepfake detection tools
+2.182 Some stakeholders discussed the role of deepfake detection tools. For example,
+ISA argued for an increased focus on ‘the early detection and removal of
+deepfake material from websites and online platforms’.225
+2.183 ISA suggested that supporting DigiTech companies to develop and implement
+technology that can identify deepfake material and stop its transmission online
+would be advantageous.226 ISA also explained that social media platforms,
+forums and private messaging applications are the main platforms by which
+deepfake sexual material is transmitted in a school context, and that the
+integration or application of detection tools to these platforms would be
+beneficial, allowing ‘a more rapid response to illegal activity’.227
+2.184 The eSafety Commissioner observed that ‘deepfake detection tools are
+significantly falling behind the rapid proliferation of powerful AI models for
+224 Mr Catt, ISA, Committee Hansard, 23 July 2024, p. 32.
+225 ISA, Submission 14, p. 6.
+226 ISA, Submission 14, p. 6.
+227 ISA, Submission 14, p. 6.
+48
+imagery, audio and video’ and that detection tools ‘are also applied at the
+back-end of this abuse, which means harm has already occurred’.228
+2.185 Despite this, the eSafety Commissioner considered there is a role for deepfake
+detection tools (emphasis added):
+What we need is effective detection tools. This will require multiple
+technical interventions, including manual forensics analysis to effectively
+flag media manipulation that may be so photo-realistic that it isn’t
+discernible to the naked eye.229
+2.186 NASASV also expressed the need for investment in technology to help identify
+and remove deepfakes and violent pornography.230
+Committee view
+2.187 The Criminal Code Amendment (Deepfake Sexual Material Bill) 2024 aims to
+modernise and strengthen Commonwealth offences for the non-consensual
+transmission of sexual material, both unaltered material and material created or
+altered by technology, such as deepfakes. The Bill would implement a
+commitment made by the government following the National Cabinet in
+May 2024 on gender-based violence.
+2.188 The committee acknowledges the devastating impacts the non-consensual
+transmission of sexual material has on victims, both personally and
+professionally, and that the resulting harm is often enduring. The committee
+recognises the harms this conduct has both at an individual and a societal level,
+by normalising sexual violence particularly against women and girls.
+2.189 The committee regards the Bill as an important deterrent to this conduct,
+communicating to the Australian public that this behaviour is unacceptable and
+will be met with serious criminal consequences.
+2.190 The committee considers that the Bill is a necessary step in addressing the
+proliferation of non-consensual transmission of sexual material. It regards the
+new offences as clear and sufficiently technology neutral that they will respond
+to advances in technology, a key issue with the existing offences. The committee
+acknowledges that the proposed underlying offence, proposed section 474.17A,
+is based on a consent model and not tied to the definition of ‘private sexual
+material’ which would be repealed by the Bill. By removing the requirement for
+material shared to be ‘private sexual material’, the new offences would
+importantly cover both unaltered and altered material, such as deepfakes.
+2.191 The Bill includes two aggravated offences that would rely on the proposed
+underlying offence being established first. The first aggravating circumstance,
+228 eSafety Commissioner, Submission 28, p. 4.
+229 eSafety Commissioner, Submission 28, p. 4.
+230 Ms Lambert, NASASV, Committee Hansard, 23 July 2024, p. 3.
+49
+proposed subsection 474.17AA(1), is the existence of three civil penalty orders
+being made against the perpetrator prior to the criminal offending.
+2.192 The committee is sympathetic to concerns raised by some stakeholders about
+this threshold being too high. Given the seriousness of the conduct sought to be
+addressed by the Bill, the committee considers that the Attorney-General should
+review this threshold after two years of the Bill’s operation, consistent with a
+recommendation of the Law Council of Australia.
+Recommendation 1
+2.193 The committee recommends that the Attorney-General reviews the threshold
+outlined in proposed subsection 474.17AA(1) after two years of the Bill’s
+operation.
+2.194 The second aggravating circumstance, proposed subsection 474.17AA(5),
+occurs where the person who transmitted the sexual material non-consensually,
+also created or altered the material. The committee regards this as a crucial and
+appropriate aggravated circumstance given the level of harm that arises from
+the creation of the material alone.
+2.195 The committee regards the penalties—6 years imprisonment for the underlying
+offence, and 7 years for the aggravated offences—as proportionate to the
+seriousness of offending and expects that they will serve as an appropriate
+deterrent.
+2.196 The committee acknowledges that stakeholders considered there to be gaps in
+the Bill as it does not criminalise the creation of sexual material, including
+deepfakes, nor does it criminalise threatening to create or distribute sexual
+material, where those threats are made in person.
+2.197 The committee thanks the Attorney-General’s Department for the advice that
+the Commonwealth is working with states and territories, through the Standing
+Council of Attorneys-General, on options to improve responses to
+technology-facilitated abuse and deepfakes.231
+2.198 Given the serious harm that occurs from the act of creation itself and threats to
+create and/or distribute, the committee considers it important that there are
+harmonised offences across Australian jurisdictions in relation to the
+non-consensual creation of sexual material; and the threat to non-consensual
+creation and/or distribution of sexual material that does not use a carriage
+service.
+2.199 The committee acknowledges that the Commonwealth offences proposed in the
+Bill are intended to complement related offences at the state and territory level,
+such as state offences addressing the non-consensual creation of sexual material.
+It also understands that state and territory police would be able to investigate
+231 AGD, answer to question on notice, 23 July 2024 (received 2 August 2024).
+50
+and prosecute perpetrators under Commonwealth offences as well as state and
+territory offences, increasing the prosecutorial options for police.
+Recommendation 2
+2.200 The committee recommends that the Attorney-General continues work
+already underway via the Standing Council of Attorneys-General in relation
+to development of harmonised offences across Australian jurisdictions for
+the:
+ non-consensual creation of sexual material; and
+ threat to non-consensual creation and/or distribution of sexual material
+that does not use a carriage service.
+2.201 The committee considers that while the Bill is important and necessary to
+ensure that our criminal laws keep pace with technology, criminalisation is not
+the whole response to this issue. As the committee heard from many submitters
+and witnesses, education and primary prevention are other key parts of the
+response.
+2.202 It is imperative that the public, and young people in particular, understand both
+the illegality of this conduct and the serious and long-lasting individual
+consequences for victims.
+2.203 The committee commends the work of educators such as Mr Daniel Principe
+and Mr Richie Hardcore, as well as that of advocates such as Ms Noelle Martin
+and specialist sexual violence support services. These individuals and
+organisations undertake profoundly important work on behalf of the Australian
+community, with enduring impacts on children, young people and victim
+survivors.
+2.204 For these reasons, the committee urges the Commonwealth government to
+develop and implement a public education and awareness campaign about the
+impact of non-consensual creation and distribution of sexual material on
+victims, and the serious consequences for perpetrators.
+2.205 In the committee’s opinion, meaningful societal change around the
+non-consensual creation and distribution of sexual material will only occur if
+we continue to engage with our children and young people in empathetic and
+accessible ways, such as peer-facilitated fora.
+2.206 The committee therefore considers it essential that the Commonwealth
+government leads, through the Education Ministers Meeting, the development
+and implementation of age-appropriate education programs and resources for
+school-aged children about sexuality, sexual expression and safety online.
+51
+Recommendation 3
+2.207 The committee notes the work of Education Ministers to implement version
+9 of the Australian Curriculum and the work of schooling systems to
+implement age and developmentally appropriate programs on consent and
+online safety within the context of respectful relationships. The committee
+recommends the Education Ministers Meeting continues to progress their
+work to strengthen respectful relationships in schools.
+Recommendation 4
+2.208 Subject to the preceding recommendations, the committee recommends that
+the Senate urgently passes the Bill.
+Senator Nita Green
+Chair
+
+Additional Comments by Senator Paul Scarr
+Introduction
+1.1 The Coalition strongly supports the policy intent of the Bill. The previous
+Coalition Government introduced important legislation in this regard;
+namely, the Enhancing Online Safety (Non-Consensual Sharing of Intimate Images)
+Act 2018. The Coalition’s objective is to enhance the law in this area. There is
+no policy difference with the Government.
+1.2 The scourge of non-consensual sharing of intimate images (including deepfake
+material) is well documented in the Majority Report. The ready access to apps
+which have no apparent legitimate purpose except to produce deepfake porn is
+abhorrent and truly horrifying. Again, this is well documented in the
+Majority Report. There needs to be strong civil remedies and criminal penalties
+to discourage and punish the non-consensual creation and dissemination
+(and threat to disseminate) of intimate images. Due to constitutional issues,
+action is needed at both a Commonwealth and State level. There needs to be
+education. There needs to be increased awareness.
+1.3 The purpose of these additional comments is to raise a number of issues and
+propose additional recommendations for the consideration of the Senate.
+Legislative Process
+1.4 It is unfortunate that there was not a longer period to consider the Bill prior to
+the Committee having to report. Unfortunately, this has become a hallmark of
+the legislative process under the current Government. This is not intended to be,
+nor should it be interpreted as, a reflection on Government members of this
+Committee. They are not responsible for the timing of the legislative
+programme.
+1.5 In my view, the Bill would have benefitted from an additional period of scrutiny
+and review, for the reasons detailed below.
+1.6 Due to timing issues, the Law Council of Australia made its submission after the
+public hearing into the Bill. Their submission was received on 30 July 2024.
+The public hearing was held on 23 July 2024. Hence, the Committee was
+deprived of the opportunity to consider the submission of the Law Council of
+Australia prior to the public hearing or to hear witnesses from the
+Law Council of Australia. In my view, the material issues raised in the
+submission from the Law Council of Australia warranted additional
+consideration.
+53
+54
+1.7 The lack of consultation time was raised by the Law Council of Australia.
+Concerningly, this has become a usual refrain.1 The Law Council of Australia
+submitted:
+Because of the limited time available between referral of this inquiry for
+review by this Committee and the deadline for public submissions,
+our Constituent Bodies and expert advisory committees have not been able
+to consider completely all the issues raised by this Bill. As a general point,
+we reiterate the importance of appropriate consultation timelines to enable
+informed scrutiny of what are important changes to Australia’s criminal law
+frameworks. Additionally, as we have explained below, the explanatory
+materials have been of limited assistance in understanding the rationale for
+certain unusual drafting choices.2
+1.8 Notwithstanding these reservations, it is noted that the Law Council of
+Australia supports the passage of the bill, albeit with some drafting
+recommendations.3
+1.9 The other issue with respect to process arises from the incomplete status of the
+enquiries of the Scrutiny of Bills Committee of the Senate. The issues raised by
+the Scrutiny of Bills Committee are summarised in the Majority Report.4
+However, as noted in the Majority Report:
+The Scrutiny of Bills Committee sought further information and justification
+from the Attorney General in relation to the above matters. At the time of
+writing, the Attorney-General had not responded to the Scrutiny of Bills
+Committee’s request.5
+1.10 Again, it would have been preferable had the Committee had the benefit of the
+Attorney-General’s response to the Scrutiny of Bills Committee report.
+This is especially so given that the Law Council of Australia in their submission
+referred to a number of matters raised in the Scrutiny of Bills Committee report.6
+Rationale for Bill
+1.11 A further matter warrants comment prior to providing additional
+recommendations. That is the technical reason for the Bill.
+1 Refer to my comments in previous Committee reports citing the concerns of the Law Council of
+Australia in relation to each of the following Bills: Administrative Review Tribunal Bill 2023; Migration
+Amendment (Removal and Other Measures) Bill 2024; Identification Verification Services Bill 2023.
+2 Law Council of Australia (LCA), Submission 33, p. 5.
+3 LCA, Submission 33, p. 6.
+4 Paragraphs 1.43–1.49 of the Majority Report.
+5 Paragraph 1.49 of the Majority Report.
+6 LCA, Submission 33, pp. 12, 14.
+55
+1.12 In the Explanatory Memorandum it is stated:
+In recent years, the creation and distribution of sexual material created or
+altered using technology is increasingly more common as AI programs
+become more accessible and ubiquitous. This type of AI-generated material
+is commonly referred to as ‘deepfakes’. The issue that arises when dealing
+with such material under the current framework is that because the victim
+is not involved in the creation of the fictional deepfake version of
+themselves, an expectation of privacy may not attach to the depiction of the
+victim. This issue does not arise with the new offences, which do not rely
+on this definition and instead turn on whether the person depicted in the
+material consents to its transmission.7
+1.13 This reflects the submission made by the Attorney-General’s Department to the
+Committee which in turn cross-references concerns raised by the
+Commonwealth Director of Public Prosecutions in relation to the definition of
+‘private sexual material’ under the existing law.8
+1.14 Hence, the rationale for the Bill is based on the concerns of the Commonwealth
+Director of Public Prosecutions. In its submission, the Commonwealth Director
+of Public Prosecutions states:
+The issue that arises here is that, with certain deepfakes, it cannot be said
+that any expectation of privacy attaches to the depiction of the victim.
+For example, if an accused were to transpose an image of a victim’s face onto
+a publicly available pornographic video, this would generally speaking, not
+be ‘private sexual material’. This is because the creator of the deepfake uses,
+as source material, a depiction of a part of the victim (for example, their face)
+with respect to which it cannot be said there would be an expectation of
+privacy.9
+1.15 However, this begs the following question: Why cannot it be said that an
+expectation of privacy arises with respect to the image of one’s face being
+attached to pornographic video? This is not explained. There is no case
+authority cited for this conclusion. Presumably, the issue is untested in the
+courts.
+1.16 The counter argument is that in many cases (perhaps the vast majority) there
+would be every expectation (based upon privacy grounds and otherwise) that a
+person’s consent would be obtained prior to an image of the person’s face being
+attached to a pornographic image so as to appear to depict the person engaging
+in a sexual act.
+1.17 There is commentary on the website of the Office of the Australian Information
+Commissioner in relation to photographs or images that deals with matters such
+as obtaining the consent of a person to the use of a photograph or image,
+7 Criminal Code Amendment (Deepfake Sexual Material) Bill 2024, Explanatory Memorandum, p. 4.
+8 Attorney-General’s Department (AGD), Submission 17, p. 4.
+9 Commonwealth Director of Public Prosecutions, Submission 18, p. 2.
+56
+particularly where it is intended to disseminate the image.10 It does not draw
+distinctions between particular parts of the body. Wouldn’t the expectation of
+privacy apply at its highest level to a case where the photo of a person’s face is
+being attached to a pornographic video or image?
+1.18 In this regard, it is important to note what was said at the time of introduction
+of the provisions in the Enhancing Online Safety (Non-Consensual Sharing of
+Intimate Images) Act 2018. The supplementary Explanatory Memorandum states:
+The definition of private sexual material captures material that appears to
+depict a person engaged in sexual activity or a sexual pose. The use of the
+phrase ‘appears to depict’ is intended to capture material that has been
+altered or doctored to falsely portray a person in a sexual activity or a
+sexual pose. [my emphasis] For example, an image of a person’s face taken
+from an innocuous image may be transposed onto an image of another
+person’s body in a sexual pose.11
+1.19 Hence, the Explanatory Memorandum for the existing legislation puts the
+scenario provided by the Commonwealth Director of Public Prosecutions within
+the ambit of the existing law, and expressly so.
+1.20 With all due respect, the submission from the Commonwealth Director of Public
+Prosecutions does not meaningfully engage with the use of the phrase: ‘appears
+to be engaged in’ under the current legislation. The intention under the previous
+legislation was to cover altered or doctored images where the depiction is fake
+(i.e. the person is not actually engaged in the act, but only appears to be).
+Further, the current law necessarily presupposes that in the case of a fake image
+a reasonable person may regard it as: ‘giving rise to an expectation of privacy’.
+Otherwise, why include the phrase: ‘appears to be engaged in’? What purpose
+do those words have if not to deal with the scenario raised by the
+Commonwealth Director of Public Prosecutions? It is somewhat perplexing.
+1.21 In commenting on the rationale for the Bill, the Law Council of Australia
+commented:
+While we agree that the existing aggravated offences in the Criminal Code
+may not apply to deepfake material, for the reasons explained below we
+consider that this Committee should keep in mind the advantages of the
+framing of the existing primary offence in section 474. 17, noting that this
+provision is likely to be engaged for such material.
+In our view, there are certain features of the framing of the existing
+offence in section 474.17 that promote certainty. These features should be
+10 Office of the Australian Information Commissioner, Posting photos and videos, 13 June 2019,
+https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-
+agencies/handling-personal-information/posting-photos-and-videos (accessed 7 August 2024).
+11 Enhancing Online Safety (Non-Consensual Sharing of Intimate Images) Bill 2018,
+Supplementary Explanatory Memorandum, p. 2.
+57
+considered by the Committee in considering improvements to the new
+offences contained in the Bill.12
+1.22 This then begs the question as to why the existing offence structure could not be
+retained with the removal of any doubt through amendment, rather than
+reframing the offence provisions.
+Recommendation 1
+1.23 It is recommended that the Senate consider whether the policy objectives of
+the Bill could be better achieved by retaining features of the framing of the
+offence in section 474.17 of the Criminal Code Act 1995 that promote certainty,
+with appropriate amendments made to the current offence to address the
+concerns raised by the Commonwealth Director of Public Prosecutions.
+1.24 As referred to earlier in these comments, the consideration of the Bill by the
+Scrutiny of Bills Committee has not been finalised. In particular, the Scrutiny of
+Bills Committee has not had the opportunity to consider the response of the
+Attorney-General to the issues raised by the Scrutiny of Bills Committee.
+Recommendation 2
+1.25 It is recommended that, prior to passing the Bill, the Senate should have the
+opportunity to consider the response of the Scrutiny of Bills Committee to
+any response received from the Attorney General to the issues raised by the
+Scrutiny of Bills Committee in its report dated 26 June 2024.
+Statutory Review
+1.26 Given the issues raised by the Law Council of Australia and other stakeholders,
+it is important that there be an independent review of the operation of the
+legislation. This should occur within a reasonable time of the legislation having
+been in effect (two or three years).
+1.27 In my view, that review should not be limited to the matter specified in the
+Majority Report (the threshold for three civil penalty orders having been issued
+prior to one of the aggravated offences having been committed).
+1.28 A number of further matters have been identified by the Law Council of
+Australia for possible review, including:
+(a) the consistency of technology-facilitated intimate image-based sexual
+abuse offences across the Commonwealth, state and territory jurisdictions;
+and
+12 LCA, Submission 33, p. 10.
+58
+(b) ensuring the provisions under the Bill are complementary to,
+and harmonised with, the measures under the Online Safety Act 2021 (Cth)
+and Privacy Act 1988 (Cth).13
+1.29 There are other issues relating to the Bill which are canvassed in the
+Majority Report. These include:
+(a) the definition of consent and related issues (refer to paragraphs 2.49 to 2.59
+of the Majority Report);
+(b) the exception related to genuine medical or scientific purposes with
+concerns raised by Relationships Australia that the exception does not
+align with guidance provided by the Australian Medical Association and
+the Medical Indemnity Industry Association of Australia14 (in this regard,
+it is noted that the Attorney General’s Department in response to a
+question on notice submitted that professional standards and guidelines
+needed to be considered in context).15
+Recommendation 3
+1.30 It is recommended that the Bill be amended to provide for an independent
+statutory review of the operation of the Bill and related matters after 2 years
+of operation. Preparation of the terms of reference for the review should be
+informed by (amongst other things) the issues raised during this inquiry.
+Senator Paul Scarr
+Deputy Chair
+13 LCA, Submission 33, p. 6.
+14 Relationships Australia, Submission 4, pp. 15–16.
+15 AGD, answer to question on notice, 23 July 2024 (received 5 August 2024).
+Appendix 1
+Submissions and Additional Information
+1 Commissioner for Children and Young People (WA)
+2 Australian Federal Police Association (AFPA)
+3 Professor Michael Flood
+4 Relationships Australia
+5 First Nations Advocates Against Family Violence
+6 Professor Clare McGlyyn and Ms Rüya Tuna Toparlak
+7 International Centre for Missing and Exploited Children - Australia
+8 Australian Human Rights Commission
+9 Northern Territory Police Force
+10 Queensland Family & Child Commission
+11 Australian Federal Police (AFP)
+12 Universities Australia
+13 Dr Rebecca Delfino
+14 Independent Schools Australia
+15 Australian Information Industry Association
+16 Enterprise AI and Data Analytics Hub, RMIT University
+17 Attorney-General's Department
+18 Commonwealth Director of Public Prosecutions
+19 Google
+20 Tobias Kennett
+21 Uniting Church in Australia, Synod of Victoria and Tasmania
+22 Kingston AI Group (Australian Professors of Artificial Intelligence)
+23 Richie Hardcore
+24 TikTok Australia
+25 Collective Shout
+26 Susan McLean
+27 Confidential
+28 eSafety Commissioner
+29 Scarlet Alliance & New South Wales Council for Civil Liberties
+30 Queensland Police Service
+31 Sexual Assault Services Victoria
+32 Teach Us Consent
+33 Law Council of Australia
+ Attachment 1
+34 Department of the Attorney-General and Justice (NT)
+35 Name Withheld
+59
+60
+Answer to Question on Notice
+1 Commonwealth Director of Public Prosecutions (CDPP) - answers to
+questions taken on notice, Canberra, 23 July 2024 (received 26 July 2024)
+2 Australian Federal Police (AFP) - answers to questions taken on notice,
+Canberra, 23 July 2024 (received 2 August 2024)
+3 Attorney-General's Department (AGD) - answers to questions taken on notice,
+Canberra, 23 July 2024 (received 2 August 2024)
+4 Attorney-General's Department (AGD) - answers to questions taken on notice,
+Canberra, 23 July 2024 (received 5 August 2024)
+5 Universities Australia - answers to questions taken on notice, Canberra, 23
+July 2024 (received 2 August 2024)
+6 Noelle Martin - answers to questions taken on notice, Canberra, 23 July 2024
+(received 5 August 2024)
+7 Independent Schools Australia (ISA) - answers to questions taken on notice,
+Canberra, 23 July 2023 (received 6 August 2024)
+Appendix 2
+Public hearings
+Tuesday, 23 July 2024
+Committee Room 2S3, Parliament House
+Canberra
+Ms Noelle Martin (via videoconference), Private capacity
+Rape and Sexual Assault Research and Advocacy (RASARA) (via videoconference)
+ Dr Rachel Burgin, Chief Executive Officer
+National Association of Services Against Sexual Violence (via videoconference)
+ Ms Nicole Lambert, Chief Executive Officer
+Queensland Sexual Assault Network (QSAN) (via videoconference)
+ Ms Angela Lynch, Executive Officer
+Mr Michael Bradley (via videoconference), Private capacity
+Sydney Criminal Lawyers (via videoconference)
+ Mr Vinny Vijay, Senior Associate
+Professor Asher Flynn (via videoconference), Private capacity
+Professor Jonathon Clough (via teleconference), Private capacity
+Mr Daniel Principe (via videoconference), Private capacity
+Mr Richie Hardcore (via videoconference), Private capacity
+Independent Schools Australia
+ Mr Graham Catt, Chief Executive Officer
+ Ms Tracey Taylor, Director, Education Policy
+Universities Australia (via videoconference)
+ Mr Luke Sheehy, Chief Executive Officer
+Office of the eSafety Commissioner (via videoconference)
+ Ms Julie Inman Grant, eSafety Commissioner
+ Ms Alanna Harper, Manager, Strategic Policy & Tech Futures
+Attorney-General's Department
+ Mr Parker Reeve, Assistant Secretary, High Tech Crime Branch
+61
+62
+ Mr Nathan Whiteman, Director, Cybercrime, Child Abuse Policy and
+Engagement
+Australian Federal Police (AFP)
+ Deputy Commissioner Ian McCartney, Deputy Commissioner Crime
+ Assistant Commissioner Kirsty Schofield, Assistant Commissioner Crime
+Commonwealth Director of Public Prosecutions (CDPP)
+ Ms Eliza Amparo, Acting Deputy Director, Human Exploitation and Border
+Protection
+ Ms Christina Choi, Acting Deputy Director, Legal Capability and
+Performance

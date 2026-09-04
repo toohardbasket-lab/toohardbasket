@@ -1,0 +1,1499 @@
+Advisory Report on the Counter-
+Terrorism Legislation Amendment
+(Declared Areas) Bill 2024
+Parliamentary Joint Committee on Intelligence and Security
+July 2024
+CANBERRA
+© Commonwealth of Australia 2024
+ISBN 978-1-76092-670-0 (Printed version)
+ISBN 978-1-76092-671-7 (HTML version)
+All material in this report is provided under a Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 Australia licence. The material may be shared, copied and redistributed provided that:
+• it is for non-commercial purposes
+• the committee named on the previous page is credited as the author
+• the committee is not represented as endorsing the use of the material
+• any changes are clearly identified
+• no additional legal or technical restrictions are applied to restrict use that complies with the
+licence.
+If the material is remixed, transformed or built upon, the modified material may not be distributed.
+Full details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Contents
+Abbreviations .................................................................................................. v
+Members ......................................................................................................... vii
+Terms of reference ......................................................................................... ix
+List of recommendations ............................................................................... xi
+Report
+1. Introduction ................................................................................................. 1
+The Bill and its referral ............................................................................................... 1
+Conduct of the inquiry ................................................................................................ 2
+Report structure ......................................................................................................... 2
+Overview of the declared areas provisions ................................................................. 2
+Section 119.2: Entering, or remaining in, declared areas ................................................. 3
+Exceptions—entering or remaining in a declared area solely for ‘legitimate purposes’ 4
+Section 119.3: declaration of areas for the purposes of section 119.2 .............................. 5
+Previous reviews of the declared areas provisions by this Committee .............................. 6
+2. Consideration of the Bill ............................................................................. 9
+Section 119.2: the offence of entering, or remaining in, declared areas .................... 9
+Necessity of declared areas provisions .......................................................................... 10
+Prosecution of returning foreign terrorist fighters and their associates ....................... 11
+Deterring Australians from travelling to dangerous locations ..................................... 12
+Nature and proportionality of the declared areas offence ................................................ 14
+Criminalising ‘mere presence’ in a place .................................................................... 14
+Proportionality of the offence and the changed security context ................................ 15
+Exemptions and defences to the offence ........................................................................ 16
+The UK ‘designated area’ regime and its ‘reasonable excuse’ defence ...................... 19
+Section 119.3: Declaration of areas ........................................................................ 21
+Repealing paragraph 29(1)(bbaa) of the IS Act ........................................................ 24
+iii
+3. Committee comment ................................................................................. 27
+Appendixes
+Appendix A. List of submissions ................................................................. 35
+Appendix B. List of witnesses at public hearing ....................................... 37
+Appendix C. UK-Australia comparative table ............................................. 39
+iv
+Abbreviations
+AFP Australian Federal Police
+AHRC Australian Human Rights Commission
+ASIO Australian Security Intelligence Organisation
+Criminal Code Schedule 1 of the Criminal Code Act 1995
+DFAT Department of Foreign Affairs and Trade
+EM Explanatory Memorandum
+ISLAB Intelligence Services Legislation Amendment Bill 2023
+IS Act Intelligence Services Act 2001
+Law Council Law Council of Australia
+PJCHR Parliamentary Joint Committee on Human Rights
+PJCIS Parliamentary Joint Committee on Intelligence and Security
+UK Act Terrorism Act 2000 (UK)
+v
+
+Members
+Chair
+Mr Peter Khalil MP Wills, VIC
+Deputy Chair
+Mr Andrew Wallace MP Fisher, QLD
+Members
+Senator the Hon Simon Birmingham LP, SA
+Senator Raff Ciccone ALP, VIC
+Mr Luke Gosling OAM MP Solomon, NT
+Hon Andrew Hastie MP Canning, WA
+Ms Zoe McKenzie MP Flinders, VIC
+Senator James Paterson LP, VIC
+Senator Marielle Smith ALP, SA
+Senator Jess Walsh ALP, VIC
+Mr Julian Hill MP (to 29 July 2024) Bruce, VIC
+Mr Josh Wilson MP (to 29 July 2024) Fremantle, WA
+vii
+
+Terms of reference
+The Attorney-General, the Hon Mark Dreyfus KC MP, wrote to the Parliamentary Joint
+Committee on Intelligence and Security on 3 April 2024 to refer the Counter-Terrorism
+Legislation Amendment (Declared Areas) Bill 2024 for inquiry and report pursuant to
+subparagraph 29(1)(b)(ia) of the Intelligence Services Act 2001.
+ix
+
+List of recommendations
+Recommendation 1
+3.14 The Committee recommends that, following passage of the Bill and before the
+next sunsetting of the provisions in 2027, the Government consider reviewing
+the list of ‘legitimate purpose’ exceptions for entering or remaining in a
+declared area in subsection 119.2(3) of the Criminal Code. This includes
+considering whether any additional exceptions should be prescribed by
+regulations.
+Recommendation 2
+3.21 The Committee recommends that, following passage of the Bill and before the
+next sunsetting of the provisions in 2027, the Government consider an
+additional exception to the offence of entering, or remaining in, an area that
+has been declared under section 119.3 of the Criminal Code. The exception
+would apply where:
+• the person is already travelling to, or is already in, the area on the day on
+which it becomes a declared area, and
+• the person leaves the area as soon as practicable, but no later than the
+period of one month beginning with that day.
+Recommendation 3
+3.27 The Committee recommends that, following passage of the Bill and before the
+next sunsetting of the provisions in 2027, the Government consider reviewing
+the existing safeguards on the Minister for Foreign Affairs’ discretion to
+declare an area under section 119.3 of the Criminal Code. This would include
+reviewing the Minister’s protocol and the list of factors to be taken into
+consideration by the Minister for Foreign Affairs before declaring an area.
+Recommendation 4
+3.34 The Committee recommends that the Independent National Security
+Legislation Monitor review Division 119 of the Criminal Code, with particular
+attention to the declared areas provisions and their ongoing necessity within
+the broader counter-terrorism legislative framework. The INSLM should report
+its findings in relation to the declared areas by 7 January 2027.
+xi
+Recommendation 5
+3.37 The Committee recommends that the Counter-Terrorism Legislation
+Amendment (Declared Areas) Bill 2024 be passed by the Parliament.
+xii
+
+
+1. Introduction
+The Bill and its referral
+1.1 The Counter-Terrorism Legislation Amendment (Declared Areas) Bill 2024 (the Bill)
+was introduced into the House of Representatives by the Attorney-General, the Hon
+Mark Dreyfus KC MP, on 27 March 2024. On 3 April 2024, the Bill was referred to
+this Committee for review.
+1.2 The ‘declared areas’ offence in section 119.2 of Schedule 1 of the Criminal Code Act
+1995 (Criminal Code) is presently due to cease (‘sunset’) on 7 September 2024. The
+Bill would ensure the continuation of the offence for a further three years, until
+7 September 2027. In addition, the Bill provides that section 119.3—the provision
+under which the Minister for Foreign Affairs can declare an area for the purpose of
+the offence in section 119.2—ceases to have effect on 7 September 2027. Currently,
+section 119.3 is not subject to a sunsetting provision.
+1.3 In his second reading speech, the Attorney-General said:
+The threat of terrorism is enduring and we must remain resolute in our response.
+To this end, this bill ensures the continuation of a key component of our
+counterterrorism legal framework: the declared areas provisions. …
+Although there are currently no areas declared, these provisions remain a
+necessary component of our framework in the current threat environment. The
+offence plays a role in the disruption and prosecution of returning foreign fighters
+and their associates. The limited number of areas that have been declared, and
+the limited use of the offence to date, demonstrate its exceptional nature and
+judicious use of this power.1
+1.4 The Bill would also amend the Intelligence Services Act 2001 (IS Act) to remove
+paragraph 29(1)(bbaa), which provides for the Committee to review the ‘operation,
+effectiveness and proportionality’ of sections 119.2 and 119.3 (declared areas
+provisions) before 7 January 2024. The Committee exercised its discretion not to do
+so before 7 January 2024, making this paragraph redundant.
+1.5 The Bill does not propose a replacement paragraph in the IS Act to re-vest the
+Committee with that specific review power. The justification for this is that the
+Intelligence Services Legislation Amendment Bill 2023 (ISLAB), which is currently
+before the Parliament, proposes to empower the Committee to conduct own motion
+1 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Hansard, 27 March 2024, p. 8.
+1
+reviews of legislation such as the declared areas provisions before they sunset in
+future.2
+Conduct of the inquiry
+1.6 The Committee commenced its inquiry on 11 April 2024 and invited submissions by
+29 April 2024. The Committee received 13 submissions, including five supplementary
+submissions responding to questions on notice from the Committee. Appendix A
+sets out a list of the submissions received.
+1.7 The Committee held a public hearing on 20 May 2024. Appendix B sets out a list of
+witnesses who appeared at the public hearing.
+1.8 Copies of submissions received, a transcript of the public hearing and links to the Bill
+and Explanatory Memorandum (EM) can be accessed at the Committee’s website.3
+1.9 The Committee is, as always, grateful to the Government departments and non-
+Government bodies and individuals who contributed their expertise to this inquiry.
+Report structure
+1.10 This report contains three chapters:
+• The remainder of Chapter 1 provides an overview of the declared areas regime
+and the review history of the provisions.
+• Chapter 2 examines the evidence received in relation to the Bill.
+• Chapter 3 offers the Committee’s comments and recommendations on the
+continued utility of the declared areas provisions and proposals for their reform.
+Overview of the declared areas provisions
+1.11 Section 119.2 of the Criminal Code makes it an offence, punishable by up to 10
+years’ imprisonment, for an Australian citizen, resident or visa-holder to enter or
+remain in an area of a foreign country that has been declared by the Minister for
+Foreign Affairs under section 119.3 of the Criminal Code,4 unless it can be
+demonstrated that their presence in the area was solely for one of the ‘legitimate
+purposes’ explicitly listed in the Criminal Code.5
+2 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Hansard, 27 March 2024, p. 8.
+3 www.aph.gov.au/DeclaredAreasBill2024.
+4 Criminal Code Act 1995, Sch 1 (Criminal Code), s. 119.2(1).
+5 Criminal Code, s. 119.2(3)–(4).
+2
+Section 119.2: Entering, or remaining in, declared areas
+1.12 A person commits the offence in section 119.2(1) of the Criminal Code, subject to the
+exceptions in subsections 119.2(3) and (4), if each of the following physical elements
+is satisfied:
+a. The person enters, or remains in, an area in a foreign country;
+b. The area is an area declared by the Minister for Foreign Affairs under
+section 119.3; and
+c. When the person enters the area, or at any time when the person is in the
+area, one of the following applies—the person:
+i. is an Australian citizen; or
+ii. is a resident of Australia; or
+iii. is a holder under the Migration Act 1958 of a visa; or
+iv. has voluntarily put himself or herself under the protection of
+Australia.6
+1.13 In addition to demonstrating the above physical elements, a fault element must also
+be established for each physical element, unless stated otherwise.7
+1.14 No fault element is specified for the first two physical elements—entering, or
+remaining in, an area in a foreign country (paragraph 119.2(1)(a)) and that the area is
+a ‘declared area’ (paragraph 119.2(1)(b))—and therefore the default fault elements
+apply for both.8 The fault elements are intention and recklessness, respectively.
+1.15 For the third physical element—being an Australian citizen, resident, visa holder or
+under Australia’s protection while present in the declared area—absolute liability
+applies.9 This means there is no fault element that needs to be proven and the
+mistake of fact general defence under section 9.2 of the Criminal Code is not
+available (i.e. a person cannot claim they did not know that they had such ties to
+Australia when committing the offence).
+1.16 The below table sets out the three physical elements of the declared areas offence
+and the corresponding fault elements to be proved to be found guilty of the offence.
+6 Criminal Code, s. 119.2(1).
+7 Generally, an offence consists of both a physical element (conduct, circumstance or result) and a fault
+element (intention, knowledge, recklessness or negligence): Criminal Code, s. 3.1. For a person to be found
+guilty of committing an offence, it must be proved beyond a reasonable doubt that the requisite physical and
+fault elements exist, and then that no defences or legal exceptions apply.
+8 Criminal Code, s. 5.6.
+9 Criminal Code, s. 119.2(2).
+3
+Table 1.1 Elements of the declared areas offence
+Physical element Fault element
+Entering, or remaining in, an area in a foreign Intention
+country
+a person has intention with respect to conduct if
+he or she means to engage in that conduct10
+The area is a ‘declared area’ under section 119.3 Recklessness
+of the Criminal Code
+a person is reckless with respect to a
+circumstance if: (a) he or she is aware of a
+substantial risk that the circumstance exists or will
+exist; and (b) having regard to the circumstances
+known to him or her, it is unjustifiable to take the
+risk11
+At the time of being in the area, the person is an Absolute liability
+Australian citizen, resident or visa holder
+there is no fault element for this physical element
+and the defence of mistake of fact under section
+9.2 of the Criminal Code is unavailable in relation
+to this physical element12
+Source: Criminal Code Act 1995 (Cth), Sch 1 (Criminal Code).
+Exceptions—entering or remaining in a declared area solely for ‘legitimate purposes’
+1.17 An individual will not contravene the declared areas offence if they entered or
+remained in the declared area solely for one or more of the legitimate purposes set
+out in subsection 119.2(3) of the Criminal Code.
+1.18 The purposes are:
+a. providing aid of a humanitarian nature;
+b. satisfying an obligation to appear before a court or other body exercising
+judicial power;
+c. performing an official duty for the Commonwealth, a State or a Territory;
+d. performing an official duty for the government of a foreign country or the
+government of part of a foreign country (including service in the armed
+forces of the government of a foreign country), where that performance
+10 Section 5.6(1) of the Criminal Code states that if the law creating the offence does not specify a fault element
+for a physical element that consists only of conduct, intention is the fault element for that physical element.
+See Criminal Code, s 5.2(1) for a definition of intention in relation to conduct.
+11 Section 5.6(2) of the Criminal Code states that if the law creating the offence does not specify a fault element
+for a physical element that consists of a circumstance or a result, recklessness is the fault element for that
+physical element. See Criminal Code, s 5.4(1) for a definition of recklessness in relation to circumstances.
+12 Section 119.2(2) provides that absolute liability applies to paragraph (1)(c); section 6.2(2) of the Criminal
+Code provides that if a law that creates an offence provides that absolute liability applies to a particular
+physical element of the offence: (a) there are no fault elements for that physical element; and (b) the defence
+of mistake of fact under section 9.2 is unavailable to that physical element. But other defences are available.
+4
+would not be a violation of the law of the Commonwealth, a State or a
+Territory;
+e. performing an official duty for:
+v. the United Nations or an agency of the United Nations; or
+vi. the International Committee of the Red Cross;
+f. making a news report of events in the area, where the person is working in a
+professional capacity as a journalist or is assisting another person working in
+a professional capacity as a journalist;
+g. making a bona fide visit to a family member;
+h. any other purpose prescribed by the regulations.13
+1.19 The defendant bears the evidential burden in relation to demonstrating that they
+entered or remained in a declared area solely for one or more of the specified
+legitimate purposes.14
+1.20 In addition to these specific purposes, the offence does not apply to a person who
+enters, or remains in, the area solely in the course of, and as part of, the person’s
+service with the armed forces of a foreign government or any other armed force
+declared by the Minister.15 The offence also does not apply to conduct engaged in by
+‘a person acting in the course of the person’s duty to the Commonwealth in relation
+to the defence or international relations of Australia’.16
+1.21 A defendant also has recourse to the general defences in Part 2.3 of the Criminal
+Code, including the defence of intervening conduct or event,17 or a sudden or
+extraordinary emergency.18
+Section 119.3: declaration of areas for the purposes of section 119.2
+1.22 Section 119.3 provides that the Minister for Foreign Affairs may, by legislative
+instrument, declare an area in a foreign country for the purposes of section 119.2 if
+they are satisfied a listed terrorist organisation is ‘engaging in a hostile activity’ in that
+area.19 A declaration must not cover an entire country20 but a single declaration may
+cover areas in two or more foreign countries if the Minister is satisfied that one or
+13 Criminal Code, s. 119.2(3).
+14 Criminal Code, s. 119.2(3); Criminal Code, s. 13.3: An ‘evidential burden’ is defined as the burden of
+adducing or pointing to evidence that suggests a reasonable possibility that a matter exists or does not exist.
+15 Criminal Code, s. 119.2(4).
+16 Criminal Code, s. 119.9.
+17 Criminal Code, s. 10.1: intervening conduct or event.
+18 Criminal Code, s. 10.3: sudden or extraordinary emergency.
+19 A ‘listed terrorist organisation’ is an organisation, specified by regulations under section 102.1 of the Criminal
+Code, where the Attorney-General is satisfied on reasonable grounds that the organisation is directly or
+indirectly engaged in, preparing, planning, assisting in or fostering the doing of a terrorist act; or advocates
+the doing of a terrorist act. ‘Engage in a hostile activity’ is defined at section 117.1 of the Criminal Code.
+20 Criminal Code, s. 119.3(2A).
+5
+more listed terrorist organisations is engaging in a hostile activity in each of those
+areas.21
+1.23 A declaration ceases to have effect three years from the date it came into effect,
+unless it is revoked by the Minister for Foreign Affairs earlier.22 The Minister must
+revoke the declaration if they cease to be satisfied that a listed terrorist organisation
+is engaging in a hostile activity in the area23 and may revoke the declaration if they
+consider it necessary or desirable to do so.24 The Minister may also make a new
+declaration which is the same in substance as the previous declaration.25
+1.24 Before making a declaration, the Minister for Foreign Affairs must arrange for the
+Leader of the Opposition in the House of Representatives to be briefed in relation to
+the proposed declaration.26
+1.25 The Parliamentary Joint Committee on Intelligence and Security may review any
+declaration made by the Minister for Foreign Affairs under section 119.3 of the
+Criminal Code and report its findings to each House of the Parliament before the end
+of the applicable disallowance period for that House.27 Additionally, the Committee
+may review and report on a declaration at any time while a declaration is in effect.28
+1.26 At the time of the Committee’s review, no declarations were in effect. Two areas
+have previously been declared under section 119.3 of the Criminal Code:
+• al-Raqqa Province, Syria was declared on 4 December 2014. The declaration for
+al-Raqqa Province was revoked by the Minister for Foreign Affairs on 27
+November 2017.
+• Mosul district, Ninewa Province, Iraq was first declared on 2 March 2015 and re-
+declared on 2 March 2018. The declaration for Mosul district was revoked by the
+Minister for Foreign Affairs on 19 December 2019.
+1.27 Unless extended by the Parliament, section 119.2 will cease to have effect at the end
+of 7 September 2024.29 There is currently no equivalent sunset provision for section
+119.3.
+Previous reviews of the declared areas provisions by this Committee
+1.28 The declared areas provisions were inserted into the Criminal Code in November
+2014, following the passage of the Counter-Terrorism Legislation Amendment
+(Foreign Fighters) Act 2014. The declared areas provisions have been reviewed in
+21 Criminal Code, s. 119.3(2).
+22 Criminal Code, s. 119.3(4).
+23 Criminal Code, s. 119.3(5).
+24 Criminal Code, s. 119.3(5A).
+25 Criminal Code, s. 119.3(4)(b).
+26 Criminal Code, s. 119.3(3).
+27 Criminal Code, s. 119.3(7).
+28 Criminal Code, s. 119.3(8).
+29 Criminal Code, s. 119.2(6).
+6
+their entirety four times by this Committee, and once by the Independent National
+Security Legislation Monitor (INSLM).
+• The Committee reviewed the provisions when they were first introduced as part of
+the Counter-Terrorism Legislation Amendment (Foreign Fighters) Bill 2014. The
+Committee made four recommendations, all of which were accepted by the
+Government and implemented.30
+• On the Committee’s recommendation the INSLM conducted a review of the
+declared areas provisions in 2017.31
+• In February 2018, the Committee tabled its first statutory review of the provisions
+as required by the IS Act. The report made five recommendations, which were
+accepted by the Government. These included implementing the INSLM’s
+recommendation that the Committee be empowered to review and report on any
+declaration while in force, and that the key non-legislative factors considered in
+making a declaration should be addressed in an unclassified Statement of
+Reasons provided to the Minister for Foreign Affairs and made publicly available.32
+• In May 2018, the Government introduced the Counter-Terrorism Legislation
+Amendment Bill (No. 1) 2018, which implemented the Government’s response to
+the Committee’s recommendations.33 The Committee reviewed that Bill and
+considered that it was consistent with the Committee’s recommendations.34
+• In February 2021, following its second statutory review, the Committee
+recommended the provisions be extended for another three years with the
+Committee retaining the power to conduct a statutory review at its discretion on
+the provisions’ operation, effectiveness and proportionality. To this end, the
+relevant government agencies would be required to provide a briefing to the
+Committee within 18 months of the report.
+The Committee also recommended that the Criminal Code be amended to
+o
+allow Australian citizens to request an exemption from the Minister for Foreign
+Affairs to travel to a declared area for reasons not listed in section 119.2 but
+which would not be otherwise illegitimate under Australian law, with the
+Minister’s decision not subject to merits review.35 The Government did not
+support this recommendation, noting that a ‘pre-authorisation scheme could
+not be effectively implemented and monitored, and it would be contrary to
+Government travel advice to issue a pre-authorisation’.36
+30 Parliamentary Joint Committee on Intelligence and Security (PJCIS), Advisory Report on the Counter-
+Terrorism Legislation Amendment (Foreign Fighters) Bill 2014, 17 October 2014, pp. xv–xvi.
+31 Commonwealth of Australia, Independent National Security Legislation Monitor, Declared Areas, p. 38.
+32 PJCIS, Review of the ‘declared areas’ provisions, February 2018, p. xii.
+33 This included through non-legislative amendments to the Government’s protocol for declaring an area: see
+Australian National Security, ‘Protocol for declaring an area’, https://www.nationalsecurity.gov.au/what-
+australia-is-doing/places-you-cant-go/protocol-for-declaring-an-area, viewed 19 June 2024.
+34 PJCIS, Advisory Report on the Counter Terrorism Legislation Amendment Bill (No. 1) 2018, June 2018, p. 8.
+35 PJCIS, Review of ‘Declared Areas’ Provisions, February 2021, p. xi.
+36 Australian Government Response to the Parliamentary Joint Committee on Intelligence and Security report
+Review of ‘Declared Area’ Provisions: Sections 119.2 and 119.3 of the Criminal Code, 4 August 2021.
+7
+1.29 Pursuant to section 119.3(8) of the Criminal Code, the Committee reviewed each of
+the three declarations made by the Minister.37
+• The Committee used its review of the re-declaration of Mosul in 2018 to
+recommend that the key non-legislative factors used to guide and prioritise the
+selection of an area in a foreign country be expanded to include the extent to
+which the listed terrorist organisation exercises territorial control over the area and
+other relevant factors.38 The Government accepted the recommendation and
+amended its protocol for declaring an area.39
+1.30 The declared areas provisions have also been independently reviewed by other
+parliamentary committees including the Senate Standing Committee for the Scrutiny
+of Bills and the Parliamentary Joint Committee on Human Rights.40
+37 PJCIS, Review of the declaration of al-Raqqa province, Syria, March 2015; PJCIS, Review of the declaration
+of Mosul district, Ninewa province, Iraq, May 2015; PJCIS, Review of the re-declaration of Mosul District,
+Ninewa Province, Iraq, June 2018.
+38 PJCIS, Review of the re-declaration of Mosul District, Ninewa Province, Iraq, June 2018, p. 14.
+39 See Australian National Security, ‘Protocol for declaring an area’, https://www.nationalsecurity.gov.au/what-
+australia-is-doing/places-you-cant-go/protocol-for-declaring-an-area, viewed 19 June 2024.
+40 Most recently, see Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 6 of 2024, 15 May
+2024, p. 6; Parliamentary Joint Committee on Human Rights, Human rights scrutiny report: report 3 of 2024,
+17 April 2024, p. 9.
+8
+2. Consideration of the Bill
+2.1 As outlined in Chapter 1, the effect of the Counter-Terrorism Legislation Amendment
+(Declared Areas) Bill 2024 (the Bill) would be to:
+• extend for a further three years the offence contained within section 119.2 of
+Schedule 1 of the Criminal Code Act 1995 (Criminal Code), to 7 September 2027;
+• insert a sunsetting provision on the power for the Minister for Foreign Affairs to
+declare an area for the purpose of the offence in section 119.2 of the Criminal
+Code, which would also cease to have effect on 7 September 2027; and
+• amend the Intelligence Services Act 2001 (IS Act) to repeal the provision for
+review by this Committee in paragraph 29(1)(bbaa).
+2.2 The Bill does not propose to amend the scope or operation of the declared areas
+provisions in any respect but it would continue their operation for a further three
+years. As such, much of the evidence provided to the Committee focused on the
+overall desirability of the declared areas provisions, including whether they should be
+allowed to sunset or to be renewed. Some evidence offered views on how, if
+continued, the provisions should be amended.
+2.3 The other substantive change proposed in the Bill is the removal of the explicit
+authority for the Committee to conduct a statutory review and report to Parliament on
+the operation, effectiveness and proportionality of the declared areas provisions, prior
+to their future sunsetting dates.
+2.4 This chapter examines the evidence received in relation to each of the proposed
+amendments contained in the Bill.
+Section 119.2: the offence of entering, or remaining
+in, declared areas
+2.5 Currently, the declared areas offence in section 119.2 of the Criminal Code is due to
+cease operation on 7 September 2024.1 Schedule 1, Item 1 of the Bill would amend
+the sunset date contained in subsection 119.2(6) of the Criminal Code from
+7 September 2024 to 7 September 2027. The effect of this would be to continue the
+operation of the declared areas offence for another three years.
+2.6 As detailed in Chapter 1, subsection 119.2(1) sets out the offence of entering, or
+remaining in, declared areas, including the elements that must be proved to be found
+1 Criminal Code Act 1995, Sch 1 (Criminal Code), s. 119.2(6).
+9
+guilty of the offence. Subsections 119.2(3)–(4) of the Criminal Code set out, by way
+of exceptions, several legitimate purposes for which a person may enter, or remain
+in, declared areas without committing an offence. In addition to these specific
+exceptions, a person may also rely on the general defences set out in Part 2.3 of the
+Criminal Code.
+Necessity of declared areas provisions
+2.7 The Attorney-General’s Department, the Australian Federal Police (AFP), the
+Australian Security Intelligence Organisation (ASIO) and the Department of Foreign
+Affairs and Trade (DFAT) all submitted that the declared areas provisions remain a
+necessary and proportionate part of Australia’s counter-terrorism laws. The Attorney-
+General’s Department stated in its submission to this inquiry:
+The declared areas provisions in the Criminal Code are an important part of the
+Australian Government’s efforts to stop the flow of foreign fighters, and mitigate
+the risk they pose to Australia on their return.2
+2.8 The AFP submitted that there is still a need for the declared areas provisions and
+that they ‘remain appropriate and proportionate in the current terrorism threat
+environment’.3
+The AFP continues to be concerned that individuals who travel, without any
+legitimate purpose, to areas where terrorist organisations are engaging in hostile
+activities, present a threat to Australia and Australians (both domestically and
+overseas). In particular, there is a risk that such individuals may develop
+enhanced capabilities, connections to terrorist organisations, and/or an ideology
+and motivation to cause harm to Australians. The provisions at sections 119.2
+and 119.3 of the Criminal Code Act 1995 (the declared area provisions) create a
+mechanism that can be used to deter Australians from travelling to such areas.4
+2.9 The AFP submitted that despite there being no areas declared at present, ‘the
+existence of the declared area provisions ensures the Government is able to pivot
+quickly to address emerging risks’.5 Similarly, ASIO submitted that the security
+environment remains ‘complex, challenging and changing’:
+The National Terrorism Threat Level is POSSIBLE and terrorism remains a real
+and pervasive threat. In this regard, ASIO acknowledges that the declared areas
+offence is a necessary and proportionate tool to manage the terrorist risk to
+Australia in the current threat environment.6
+2.10 The Committee inquired about whether any conversations were presently underway
+within ASIO or the Government about using the declared areas provisions, making
+2 Attorney-General’s Department, Submission 6, para. 5.
+3 Australian Federal Police, Submission 8, p. 2.
+4 Australian Federal Police, Submission 8, p. 2.
+5 Australian Federal Police, Submission 8, p. 2.
+6 Australian Security Intelligence Organisation, Submission 1, p. 2.
+10
+reference to the current situations in southern Lebanon and Gaza. ASIO advised
+that, while at the time of the hearing it had not received a formal request for advice
+on any particular areas it might consider ‘worthy’ of being declared under section
+119.3 of the Criminal Code,7 ASIO was aware of ‘general conversations’ regarding
+the declared areas provisions within the Government.8
+2.11 While emphasising that ASIO’s role was providing advice to Government, not
+instigating or making its decisions about declarations,9 Director-General of Security
+Mr Mike Burgess considered that there was a ‘very real possibility’ that the provisions
+may need to be used to declare an area in the future:
+If we look at our security environment and what’s happening globally, we
+continue to keep a close eye on developments in Afghanistan, further into the
+Middle East and in Africa. We could well see the need to have the government
+call on this [the declared areas provisions] in terms of our toolkit to respond to the
+terrorist threat in the future. It’s a very real possibility.10
+2.12 The Attorney-General’s Department submitted that the declared areas provisions
+serve a dual purpose: to disrupt and prosecute returning foreign fighters and to deter
+Australians from traveling to conflict zones overseas where terrorist organisations are
+operating.11 The Department’s submission explained:
+The declared areas offence was designed to fill a crucial gap in the disruption
+and prosecution of returning foreign terrorist fighters by reducing the ability of
+offenders to contribute to conflict in foreign countries. It was also designed to
+deter persons from travelling to conflict zones overseas where a listed terrorist
+organisation is engaged in a hostile activity.12
+Prosecution of returning foreign terrorist fighters and their associates
+2.13 As at the time of this report, four Australians had been charged under the declared
+areas offence.13 These constituted a small proportion of the 168 people charged with
+terrorism offences since 2014, including 37 persons charged with offences related to
+travel or activity overseas.14
+2.14 The AFP provided additional details about the four individuals charged:
+Of the four charged, one was convicted of the declared area offence and is also
+subject to other charges and convictions. … one had the charge withdrawn and
+7 Mr Mike Burgess, Director-General, Security, Australian Security Intelligence Organisation, Committee
+Hansard, Canberra, 20 May 2024, p. 16.
+8 Australian Security Intelligence Organisation, Submission 1.1.
+9 Mr Mike Burgess, Director-General, Security, Australian Security Intelligence Organisation, Committee
+Hansard, Canberra, 20 May 2024, p. 16.
+10 Mr Mike Burgess, Director-General, Security, Australian Security Intelligence Organisation, Committee
+Hansard, Canberra, 20 May 2024, p. 15.
+11 Attorney-General’s Department, Submission 6, para. 7.
+12 Attorney-General’s Department, Submission 6, para. 7.
+13 Department of Foreign Affairs and Trade, Submission 2, p. 3.
+14 Australian Federal Police, Submission 8.1, p. 1.
+11
+was subject to other offences. Of the two matters before the court, one of those
+matters in addition to the declared area offence has other offences for which they
+are being prosecuted, which leaves, of course, by deduction, one person whose
+only conduct was the declared area offence.15
+2.15 The Law Council of Australia (Law Council) and the Australian Human Rights
+Commission (AHRC) both submitted that the declared areas provisions should be
+allowed to sunset on 7 September 2024 because the offence is no longer a
+necessary nor proportionate response to the security threat presented by foreign
+terrorist fighters.16
+2.16 DFAT and the Attorney-General’s Department both submitted that the limited use of
+the provisions to date was an indication of their exceptional nature and judicious use,
+rather than an indication of a lack of utility.17 DFAT stated:
+The declared areas provisions are used infrequently, and only four Australians
+have been charged under the declared areas offence to date. They remain an
+important element of Australia’s counter-terrorism policy response however.
+Having this framework available, should it be required, allows the Government to
+respond to evolving circumstances in an appropriate and measured way. The
+limited use of the declared areas provisions is reflective of its exceptional nature
+and the judicious use of the powers.18
+Deterring Australians from travelling to dangerous locations
+2.17 In addition to the prosecution of returned foreign terrorist fighters, the declared
+provisions also seek to deter Australians from travelling to dangerous locations in the
+first place. Australians who have travelled to areas where terrorist organisations have
+been operating can pose a serious risk to Australia’s national security, as the
+Attorney-General’s Department submitted:
+Persons who return from a declared area could return with enhanced capabilities,
+skills, expertise and knowledge; and the ideology and motivation to facilitate acts
+of terrorism or related harms in Australia, thereby endangering the Australian
+community. Persons returning from a declared area may have developed or
+maintained connections with other violent extremists in different parts of the
+15 Mr Stephen Nutt, Acting Assistant Commissioner, Counter-Terrorism and Special Investigations Command,
+Australian Federal Police, Committee Hansard, Canberra, 20 May 2024, p. 20. Since this evidence was
+received, Mariam Raad, who was charged with remaining in a declared area in January 2023, plead guilty to
+the offence and was sentenced by the New South Wales Magistrates Court on 12 June 2024. She was
+discharged of the convictions subject to certain conditions: ABC News, ‘Returned ISIS wife Mariam Raad
+sentenced over charges of entering terrorist-controlled region, 12 June 2024, www.abc.net.au/news, viewed
+2 July 2024.
+16 Law Council of Australia, Submission 7, p. 3, para. 9; Australian Human Rights Commission, Submission 4,
+p.2 (Recommendation 1).
+17 Explanatory Memorandum to the Counter-Terrorism Legislation Amendment (Declared Areas) Bill 2024,
+para. 5 (Explanatory Memorandum); Attorney-General’s Department, Submission 6, para. 10; Department of
+Foreign Affairs and Trade, Submission 2, p. 3.
+18 Department of Foreign Affairs and Trade, Submission 2, p. 3, para. 8.
+12
+world. The enduring power of violent extremist ideologies means that some
+behaviours, connections or networks may only emerge in the future. The
+seriousness of the threat posed by these individuals will depend on their
+experiences, capability, ideology at the time of their return and in future, and their
+inclination to participate in or support violence in Australia.19
+2.18 The Attorney-General’s Department explained the importance of deterrence as an
+additional purpose of the declared areas offence:
+Where this deterrent effect is realised, it reduces access to training, tools and
+motivation to carry out terrorism offences in Australia, and protects Australians by
+preventing them from travelling to a dangerous area without a legitimate
+purpose.20
+2.19 According to DFAT, there is still a risk Australians want to travel offshore to fight.
+Despite the defeat of the self-declared caliphate of the Islamic State of Iraq and
+the Levant (ISIL) in 2019, the potential for Australians to travel offshore to fight
+for or engage with a terrorist organisation continues to be a focus for our national
+security agencies. The declared areas provisions in the Criminal Code are
+critically important to these agencies’ efforts to manage the risk foreign fighters
+pose to Australia.21
+2.20 The Attorney-General’s Department, the AFP, DFAT and ASIO all considered the
+declared areas provisions to have effectively deterred Australians from travelling to
+conflict zones. According to the Attorney-General’s Department:
+There was a significant reduction in Australians travelling to the Syria/Iraq conflict
+zone after the declarations were made. The [declared areas] provisions are likely
+to have contributed to discouraging people who might otherwise have considered
+entering Mosul and al-Raqqa while the respective declarations were in effect, and
+discouraging parents from taking their children into those areas.22
+2.21 The Committee queried how this reduction could be attributed specifically to the
+declared areas provisions given they were introduced as part of a suite of counter-
+terrorism offences and reforms.23 The Director-General of Security, Mr Mike Burgess,
+said that this conclusion was in part informed by what ASIO had observed in its work:
+In part, that would be driven by our investigative subjects, the cohorts we are
+watching under our powers, and seeing them make different decisions based on
+19 Attorney-General’s Department, Submission 6, para. 8.
+20 Attorney-General’s Department, Submission 6, para. 7.
+21 Department of Foreign Affairs and Trade, Submission 2, p. 3, para. 4.
+22 Attorney-General’s Department, Submission 6, para. 11.
+23 Mr Peter Khalil MP, Chair, Parliamentary Joint Committee on Intelligence and Security, Committee Hansard,
+Canberra, 20 May 2024, p. 14.
+13
+areas being declared and how the Government and its entire toolkit in responding
+to this incident is being executed.24
+Nature and proportionality of the declared areas offence
+Criminalising ‘mere presence’ in a place
+2.22 Division 119 (foreign incursions and recruitment) of the Criminal Code—in which the
+declared areas provisions appear—establishes several other foreign incursion
+offences, but these offences require law enforcement to establish factors such as the
+intention behind a person’s travel or the activities that a person actually engaged in
+while offshore. For example, subsection 119.1(1) criminalises entering a foreign
+country with the intention of engaging in hostile activities25 and subsection 119.1(2)
+criminalises the act of engaging in a hostile activity in a foreign country.26
+2.23 According to the Attorney-General’s Department, the need to only prove intent to
+enter a defined area and not an intention to engage in a terrorism-related act is part
+of the justification for the declared areas offence. The Department advised that the
+offence is drafted in this manner to allow ‘for the prosecution of suspected terrorists
+in circumstances where it is challenging to collect evidence relating to the intention
+elements of more serious terrorism offences, including in conflict zones’.27 These
+factors can be difficult to establish given the challenges with obtaining admissible
+evidence from other jurisdictions or from ungoverned spaces such as active conflict
+zones.28
+2.24 Acting Assistant Commissioner Stephen Nutt of the AFP described the difficulties of
+gathering evidence from a declared area:
+It's extremely tricky and extremely challenging. … when we’re talking about
+ungoverned spaces, which generally fit the characteristic of a declared area,
+there are no formal mechanisms through which we can collect evidence in the
+usual way—through the other usual international cooperation mechanisms.29
+2.25 Mr Nutt indicated that many of the same evidence collection difficulties faced for
+related terrorism offences also existed when investigating declared areas offences.30
+24 Mr Mike Burgess, Director-General of Security, Australian Security Intelligence Organisation, Committee
+Hansard, Canberra, 20 May 2024, p. 14.
+25 Criminal Code, s. 119.1(1).
+26 Criminal Code, s. 119.1(2).
+27 Explanatory Memorandum, para. 4.
+28 Attorney-General’s Department, Submission 6, para. 9.
+29 Mr Stephen Nutt, Acting Assistant Commissioner, Counter-Terrorism and Special Investigations Command,
+Australian Federal Police, Committee Hansard, Canberra, 20 May 2024, p. 20.
+30 Mr Stephen Nutt, Acting Assistant Commissioner, Counter-Terrorism and Special Investigations Command,
+Australian Federal Police, Committee Hansard, Canberra, 20 May 2024, p. 20.
+14
+Mr Nutt provided an example of a charge under section 119.2 being withdrawn due to
+‘insufficient evidence available to proffer a conviction’.31
+Proportionality of the offence and the changed security context
+2.26 Under international human rights law, limitations on human rights are considered
+permissible so long as they are expressed in clear and unambiguous terms, are
+necessary to advance a legitimate objective, and are reasonable, necessary, and
+proportionate to achieving that legitimate objective.32 The legitimate objective of the
+declared areas offence was described in the Bill’s Statement of Compatibility with
+Human Rights as
+protecting Australia’s national security interests, deterring Australians from
+travelling to dangerous conflict areas where listed terrorist organisations are
+engaged in hostile activity, and protecting children by discouraging their parents
+and guardians from taking them to declared areas.33
+2.27 None of the evidence provided to the Committee called into question the
+legitimateness of this objective34 but some evidence did dispute whether the declared
+areas provisions remained necessary or proportionate to achieving it. The Law
+Council and the AHRC submitted that the declared areas provisions and the resultant
+restrictions on human rights are no longer proportionate to the pursuit of that
+objective, owing to the changed security environment.
+2.28 When the declared areas provisions were introduced in 2014, then Attorney-General
+Senator George Brandis QC described the risk posed by returning foreign fighters as
+‘one of the most significant threats to Australia’s national security in recent years’ and
+stated:
+While this is not the first time Australians have been involved in overseas
+conflicts, the scale and scope of the conflicts in Syria and Iraq, and the number of
+Australians presently involved, is unparalleled and demands specific and
+targeted measures to mitigate this threat.35
+2.29 ASIO submitted that, although the security environment had changed since the
+offence was introduced in 2014, ASIO still considered the declared areas provisions
+to be necessary and proportionate:
+While there are currently no areas declared, the security environment remains
+complex, challenging and changing. The National Terrorism Threat Level is
+POSSIBLE and terrorism remains a real and pervasive threat. In this regard,
+ASIO acknowledges that the declared areas offence is a necessary and
+31 Mr Stephen Nutt, Acting Assistant Commissioner, Counter-Terrorism and Special Investigations Command,
+Australian Federal Police, Committee Hansard, Canberra, 20 May 2024, p. 18.
+32 Australian Human Rights Commission, Submission 4—Attachment 2, p. 5.
+33 Explanatory Memorandum, Statement of Compatibility, para. 21.
+34 See, eg, Australian Human Rights Commission, Submission 4—Attachment 2, p. 5, para. 14.
+35 Commonwealth of Australia, Parliamentary Debates, Senate, 24 September 2014, p. 6999 (George Brandis,
+Attorney-General) quoted in Law Council of Australia, Submission 7, p. 6, para. 13.
+15
+proportionate tool to manage the terrorist risk to Australia in the current threat
+environment.36
+2.30 Similarly, the AFP considered it appropriate to retain the offence to enable Australia
+to respond to any emerging situations:
+Overseas conflicts and terrorist groups operating offshore can change and
+escalate quickly, and the continued existence of the framework ensures that the
+government is able to pivot quickly to address emerging situations.37
+2.31 In addition to the changed threat landscape, the Law Council submitted that when the
+declared areas provisions were introduced, there was ‘understandable uncertainty
+about the adequacy of tools’ available to combat the emerging threat.38 The Law
+Council argued that that is no longer the case, because Australia’s counter-terrorism
+legislative posture has matured and there is now a range of established counter-
+terrorism tools available which are better tailored to combat future terror risks.
+2.32 The Attorney-General’s Department, when asked about the role of these additional
+powers and offences available to the Government, stated:
+Yes, there are other powers. It is part of having a framework. These are complex
+and difficult problems, and it’s important we have something suited to the various
+aspects of that. … We’re talking about criminal offences, and these are filling a
+clear legislative gap where the foreign incursion offences, the other ones in
+Division 119, require proof of the activities undertaken in those areas. We heard
+just before from the AFP and ASIO about the difficulties in doing that, and
+therefore the role these offences can play to contribute to that broader
+framework.39
+Exemptions and defences to the offence
+2.33 Currently, a person will not be criminally liable for the offence of entering, or
+remaining in, a declared area if they can demonstrate they were there solely for one
+or more of the ‘legitimate purposes’ listed in subsection 119.2(3) of the Criminal
+Code. These are in addition to the general defences to criminal liability contained in
+Part 2.3 of the Criminal Code.
+2.34 As outlined in Chapter 1, there are currently eight specific ‘legitimate purposes’ in the
+Criminal Code for which a person may enter or remain in a declared area without
+committing an offence. The legislation also allows for other legitimate purposes to be
+36 Australian Security Intelligence Organisation, Submission 1, p. 2.
+37 Mr Stephen Nutt, Acting Assistant Commissioner, Counter-Terrorism and Special Investigations Command,
+Australian Federal Police, Committee Hansard, Canberra, 20 May 2024, p. 14.
+38 Law Council of Australia, Submission 7, p. 5, para. 12.
+39 Mr Luke Muffett, Assistant Secretary, Security Law and Policy Branch, Attorney-General’s Department,
+Committee Hansard, Canberra, 20 May 2024, pp. 21–22.
+16
+prescribed by regulations.40 There are no regulations currently in place nor have any
+ever been made.
+2.35 The Law Council submitted that the structure of the offence in section 119.2 is
+problematic because it combines a very broad offence with only a narrow ‘sole
+legitimate purpose’ exception. The Law Council argued that this creates a
+disproportionate limitation on the right to freedom of movement under Article 12 of
+the International Covenant on Civil and Political Rights.41
+2.36 However, the Attorney-General’s Department stated that this construction of the
+offence was deliberate because ‘the circumstances in which a person would
+legitimately travel to a declared area are by nature narrow’,42 and that such a
+construction is consistent with Australia’s criminal law policy:
+There’s a strong preference for relying on the general defences in the Criminal
+Code or, where they are not appropriate, having very specific defences
+articulated alongside the offence.43
+2.37 Nevertheless, the Law Council and the AHRC both recommended expanding the
+scope of the legitimate purposes defence contained in subsections 119.2(3)–(4). The
+AHRC made three recommendations in the event its primary recommendation—that
+the offence be repealed—was not accepted:
+• The exception contained in section 119.2(3) should be amended so that section
+119.2(1) does not apply to a person if that person enters, or remains in, an area
+solely for a purpose or purposes not connected with engaging in hostile activities
+(AHRC Recommendation 3).
+• If the above recommendation is not accepted:
+the list of legitimate reasons for travel to declared areas in section 119.2(3)
+o
+should be expanded to be made as comprehensive as possible to include, for
+instance, visiting friends, transacting business, retrieving personal property
+and attending to personal or financial affairs; and
+section 119.2 should be amended so that it is a defence to a charge of
+o
+entering or remaining in a declared area if a person establishes they were in a
+country for a purpose other than engaging in a hostile activity (AHRC
+Recommendation 4).
+• The Criminal Code be amended to allow Australian citizens to request an
+exemption from the Minister for Foreign Affairs to travel to a declared area for
+reasons not listed in section 119.2, but which are not otherwise illegitimate under
+Australian law (AHRC Recommendation 5) (preauthorisation regime).44
+40 Criminal Code, s. 119.2(3)–(4).
+41 Law Council of Australia, Submission 7, p. 10, para. 26.
+42 Attorney-General’s Department, Submission 6—Attachment 1, p. 7.
+43 Mr Luke Muffett, Assistant Secretary, Security Law and Policy Branch, Attorney-General’s Department,
+Committee Hansard, Canberra, 20 May 2024, p. 24.
+44 Australian Human Rights Commission, Submission 4, p. 3 (Recommendations 3, 4 and 5).
+This Committee previously recommended the introduction of such a regime in its 2021 Review of ‘Declared
+Areas’ Provisions: Sections 119.2 and 119.3 of the Criminal Code, p. 21, para. 2.56: ‘The Committee
+17
+2.38 Additionally, the Law Council recommended the listed ‘legitimate purposes’ in
+subsection 119.2(3) should be expanded to include:
+• bona fide, necessary and urgent business to protect legitimate business
+interests domiciled in a foreign country; and
+• providing legal advice to an Australian person who is detained in the
+declared area.45
+2.39 In its review of the Bill, the Parliamentary Joint Committee on Human Rights also
+considered that ‘[p]roviding for greater flexibility to allow for travel to a declared area
+for legitimate purposes would assist with proportionality’.46
+2.40 However, the AFP considered that the legitimate purpose excuse should remain as
+drafted for two main reasons:
+One is … being able to actually investigate and conduct due diligence around
+any legitimate purpose that may be raised, so there’s a question of enforceability
+of any such provision. The second aspect is that it does not sufficiently reinforce
+the deterrent effect of persons travelling to the region, if there is an increase or
+broader range of legitimate excuses.47
+2.41 In 2021, the Australian Government rejected the recommendation made by this
+Committee in 2021 and the Independent National Security Legislation Monitor in
+201748 to introduce a provision for prior authorisation of travel, stating:
+The Government considers that a pre-authorisation scheme could not be
+effectively implemented and monitored, and it would be contrary to Government
+travel advice to issue a pre-authorisation.49
+2.42 The reasons for which the Government considered a pre-authorisation regime
+untenable included:
+• insufficient information available to assess an application and whether it was
+genuine
+• significant time and resource impost which would divert resources from other
+national security priorities
+recommends that the Criminal Code Act 1995 be amended to allow Australian citizens to request an
+exemption from the Minister for Foreign Affairs to travel to a declared area for reasons not listed in section
+119.2, but which are not otherwise illegitimate under Australia Law. The Committee recommends that the
+Minister for Foreign Affair’s decision is not subject to merit review.’
+45 Law Council of Australia, Submission 7, p. 5, para. 11.
+46 Parliamentary Joint Committee on Human Rights (PJCHR), Report 3 of 2024, p. 14, para. 1.11.
+47 Mr Stephen Nutt, Acting Assistant Commissioner, Counter-Terrorism and Special Investigations Command,
+Australian Federal Police, Committee Hansard, Canberra, 20 May 2024, p. 17.
+48 Dr James Renwick SC, Independent National Security Legislation Monitor, Section 119.2 and 119.3 of the
+Criminal Code: Declared Areas, p. 35, para. 8.35.
+49 Australian Government Response to the Parliamentary Joint Committee on Intelligence and Security report
+Review of ‘Declared Area’ Provisions: Sections 119.2 and 119.3 of the Criminal Code, 4 August 2021, p. 1.
+18
+• significant practical difficulties in monitoring and determining whether a person
+authorised to travel had complied with any conditions to which their travel
+authorisation was subject
+• any declared area would also likely be recommended as ‘do not travel’
+destinations by DFAT and it would be contrary to Government travel advice to
+implement a pre-authorisation regime that would consider whether to permit
+Australians to travel to such a declaration
+• legislation already provides for a range of exceptions and there is provision to
+regulate for additional exceptions.50
+The UK ‘designated area’ regime and its ‘reasonable excuse’ defence
+2.43 The Law Council recommended that the Criminal Code be amended to create a
+wider ‘reasonable excuse’ defence modelled on subsection 58B(2) of the Terrorism
+Act 2000 (UK).51 The Law Council submitted that, owing to the declared areas
+offence’s criminalisation of a person’s mere presence in a declared area rather than
+their conduct or intended conduct, the general defences in Chapter 2 of the Criminal
+Code, such as duress, mistake of fact, intervening conduct or lawful authority, would
+not assist in exculpating a person who was present in a declared area for purely
+innocent reasons other than those listed in the ‘sole legitimate purpose’ exception.52
+In the Law Council’s opinion, providing defendants with access to a general
+‘reasonable excuse’ defence would somewhat ameliorate this problem.
+2.44 The Law Council also considered that adding such a defence would bring Australia in
+line with like-minded jurisdictions:
+Australia is an outlier among like-minded international jurisdictions in retaining
+and using a declared area offence that criminalises mere presence. … the United
+Kingdom offence provision provides a reasonable-excuse defence rather than the
+limited list of exceptions that appears in the Australian equivalent.53
+2.45 The UK regime also includes a list of ‘significantly expanded exceptions’ to the
+offence of entering, or remaining in, a designated area and a ‘grace period’ of one
+month for people who are present in, or are travelling to, an area at the time it
+becomes designated.54 A table comparing Australia and the UK’s regimes, provided
+by the Law Council in 2020, is replicated at Appendix C.55
+50 Australian Government Response to the Parliamentary Joint Committee on Intelligence and Security report
+Review of ‘Declared Area’ Provisions: Sections 119.2 and 119.3 of the Criminal Code, 4 August 2021.
+51 Law Council of Australia, Submission 7, p. 5, para. 11.
+52 Law Council of Australia, Review of ‘declared areas’ regime—supplementary submission, 28 September
+2020, p. 4, paras. 9–11.
+53 Dr David Neal SC, Co-Chair, National Criminal Law Committee, Law Council of Australia, Committee
+Hansard, Canberra, 20 May 2024, p. 8.
+54 Terrorism Act 2000 (UK), ss. 58B(2), (4)–(8) and 58B(3); Law Council of Australia, Review of ‘declared
+areas’ regime—supplementary submission, 28 September 2020, p. 1, para. 2.
+55 Law Council of Australia, Review of ‘declared areas’ regime—supplementary submission, 28 September
+2020, pp. 20.
+19
+2.46 The AHRC also recommended that the United Kingdom’s approach be considered as
+an alternative recommendation, and that the UK approach should be combined with
+the pre-authorisation regime in the AHRC’s recommendation 5.56
+2.47 The Attorney-General’s Department considered the reasonable excuse approach to
+be inappropriate due to the lack of clarity it would introduce into the legislation:
+As a matter of general criminal law policy, there’s a preference against having
+reasonable excuse defences because of the lack of clarity around what is caught.
+[…] It’s not an ideal situation to be in where you’ve got to predict whether a court
+is going to consider that to be a reasonable excuse or not, so having clearly
+articulated legitimate reasons is certainly [the Attorney-General’s Department’s]
+preferred approach.57
+2.48 The AFP also considered that introducing a reasonable excuse provision would
+‘weaken’ the declared areas provisions, stating:
+There are questions around enforceability on such an approach. It takes away
+from the deterrent effect of the legislation to help protect people from being in
+dangerous places in the first place.58
+2.49 The AHRC submitted that in addition to the ‘reasonable excuse’ defence and the list
+of specific purposes, the other defences in the UK Act should also be incorporated
+into the Australian offence.59
+• A one month grace period: subsection 58B(3) provides that a person does not
+commit an offence of entering, or remaining in, a designated area if
+a. the person is already travelling to, or is already in, the area on the day on
+which it becomes a designated area, and
+b. the person leaves the area before the end of the period of one month
+beginning with that day.
+• Involuntariness: a person does not commit the offence if the person enters, or
+remains in, a designated area involuntarily.60
+2.50 DFAT advised that it does not have a specific mechanism for alerting travellers who
+are in a country where an area has been declared. Following the declarations of al-
+Raqqa province in 2014 and Mosul District in 2015, the notification processes
+included a media release and publication of the declarations on the Australian
+National Security webpage; updated travel advice published to the ‘Smartraveller’
+webpage and sent to registered travellers. ‘Smartraveller’ registration no longer
+56 Australian Human Rights Commission, Submission 4.1, p. 1; Australian Human Rights Commission,
+Submission 4, p. 3 (Recommendations 3, 4 and 5).
+57 Mr Luke Muffett, Assistant Secretary, Security Law and Policy Branch, Attorney-General’s Department,
+Committee Hansard, Canberra, 20 May 2024, p. 24.
+58 Mr Stephen Nutt, Acting Assistant Commissioner, Counter-Terrorism and Special Investigations Command,
+Australian Federal Police, Committee Hansard, Canberra, 20 May 2024, p. 20.
+59 Australian Human Rights Commission, Submission 4.1, p. 4.
+60 Terrorism Act 2000 (UK), s. 58B(3)–(4).
+20
+exists and is therefore no longer a notification option. In addition the Government
+developed a travel warning brochure advising potential travellers in both Arabic and
+English and distributed to community groups and at airports.61
+Section 119.3: Declaration of areas
+2.51 Currently, section 119.3 empowers the Minister for Foreign Affairs to declare an area
+for the purpose of the offence in section 119.2 of the Criminal Code.
+2.52 Schedule 1, Item 2 of the Bill would provide that section 119.3 also ceases to have
+effect on 7 September 2027; currently, section 119.3 does not have a sunset
+provision. The Attorney-General’s Department explained:
+This would align the relevant declaration and offence provisions in the Criminal
+Code, reflecting that there is no utility in empowering the Minister to declare an
+area, without a mechanism for enforcing the declaration.62
+2.53 Currently, to declare an area under section 119.3 for the purposes of enlivening the
+offence in section 119.2, the Minister for Foreign Affairs need only be satisfied that ‘a
+listed terrorist organisation is engaging in a hostile activity in that area of the foreign
+country’.63
+2.54 A ‘listed terrorist organisation’ is an organisation, specified by regulations under
+section 102.1 of the Criminal Code, for which the Attorney-General is satisfied on
+reasonable grounds that the organisation is directly or indirectly engaged in,
+preparing, planning, assisting in or fostering the doing of a terrorist act, or advocates
+the doing of a terrorist act.64 There are currently 30 listed terrorist organisations
+operating around the world.65
+2.55 ‘Engage in a hostile activity’ is defined in section 117.1 of the Criminal Code. A
+person engages in a hostile activity in a foreign country if the person engages in
+conduct in that country with the intention of achieving one or more of the following
+objectives, regardless of whether the objective is achieved:
+the overthrow by force or violence of the government of a foreign country;
+o
+engaging in conduct that in Australia would be a serious offence;66
+o
+intimidating the public or a section of the public;
+o
+causing the death of, or bodily injury to, a person who is the head of state or
+o
+holds or performs any of the duties of a public office; or
+61 Department of Foreign Affairs and Trade, Submission 2.1, p. 1.
+62 Attorney-General’s Department, Submission 6, para. 16.
+63 Criminal Code, s. 119.3(1).
+64 Criminal Code, s. 102.1.
+65 Current 19 June 2024. Additional detail on the listed terrorist organisations and basis for their listings can be
+found at www.nationalsecurity.gov.au/what-australia-is-doing/terrorist-organisations/listed-terrorist-
+organisations, viewed 19 June 2024.
+66 ‘Serious offence’ is defined as an offence against a law of the Commonwealth, a State or a Territory that is
+punishable by imprisonment for 2 years or more. See Criminal Code, s. 117.1(1).
+21
+unlawfully destroying or damaging any real or personal property belonging to
+o
+the government of a foreign country.67
+2.56 The Minister for Foreign Affairs also has recourse to a ‘Protocol for declaring an
+area’. The Protocol provides guidance on the process for declaring an area for the
+purposes of section 119.2 of the Criminal Code including a list of non-legislative
+factors that may be taken into consideration, but do not need to be.68
+2.57 The AHRC and the Law Council both considered the Minister’s discretion to declare
+an area solely on this basis too broad.69 The Law Council stated that the application
+and enforcement of the declared areas offence is ‘substantially dependent’ on the
+exercise of discretion by the Minister; this ‘creates an unacceptably high risk of
+arbitrariness in the operation of the regime’.70
+2.58 Similarly, the AHRC raised concerns that, for many parts of the world, the ability for
+an area to be declared solely on the basis of the Minister’s satisfaction that a terrorist
+organisation is engaging in a hostile activity in that area ‘is a low bar to be met, and
+so has the potential to “cast the net” too widely’.71
+2.59 Both the Law Council and the AHRC considered that additional safeguards ought to
+be put in place to narrow the Minister’s currently broad discretion to declare an area
+and thus enliven the declared areas offence in section 119.2 of the Criminal Code.
+The Law Council submitted:
+We reiterate support for legislative amendments directed to strengthening the
+statutory criteria and process by which the Minister for Foreign Affairs may
+prescribe an area as a ‘declared area’ in section 119.3, and the circumstances in
+which a declaration must be reviewed by the Minister.72
+2.60 The Law Council reiterated its 2020 recommendations to this Committee that the
+statutory issuing criterion in subsection 119.3(1) should be supplemented with a
+further requirement that the Minister must not declare an area unless satisfied, on
+reasonable grounds, that:
+• A listed terrorist organisation has engaged in a substantial hostile act in the
+declared area;
+• Making the declaration is necessary to protect Australia’s national security, and
+the safety of individual Australians; and
+• The effects of making the declaration area are reasonable and proportionate.73
+67 Criminal Code, s. 117.1(1)(a)–(e).
+68 Australian National Security, ‘Protocol for declaring an area’, 14 April 2022,
+www.nationalsecurity.gov.au/what-australia-is-doing/places-you-cant-go/protocol-for-declaring-an-area,
+viewed 19 June 2024.
+69 Australian Human Rights Commission, Submission 4, p. 2; Law Council of Australia, Submission 7, para. 9.
+70 Law Council of Australia, Submission 7, para. 9.
+71 Australian Human Rights Commission, Submission 4, p. 2.
+72 Law Council of Australia, Submission 7, para. 11.
+73 Law Council of Australia, Submission to the PJCIS, Review of the ‘declared areas’ provisions of the Criminal
+Code Act 1995 (Cth), 25 August 2020, p. 23 (Recommendation 3).
+22
+2.61 Similarly, the AHRC recommended that section 119.3 of the Criminal Code be
+amended so that the Minister for Foreign Affairs may declare an area ‘only if the
+Minister is satisfied that a listed terrorist organisation is engaging in a hostile activity
+to a significant degree in that area’.74 According to the AHRC, that recommendation
+recognise[s] the fact that, unfortunately, there are levels of hostile activity
+occurring in a significant number of places around the world, and that adding a
+level of precision to this offence assists with the proportionality analysis in terms
+of assuring that the provision does what it is intended to do, which is to be an
+extraordinary provision that is only used in the most serious and extraordinary of
+circumstances.75
+2.62 The Law Council further submitted that declaration of an area should be a matter for
+parliamentary, not Executive, decision:
+the need to publicly denounce the activities of terrorist organisations whose
+security threat may be linked to control over geographic areas … is the legitimate
+province of Parliament and should be subject to democratic debate.76
+2.63 The Attorney-General’s Department submitted that there are already appropriate
+safeguards in place to ‘ensure the declaration and prosecution processes are
+rigorous’:
+• the requirement for the Minister for Foreign Affairs to be ‘satisfied’ that a listed
+terrorist organisation is engaging in a hostile activity in that area of the foreign
+country ensures that a declaration will not be made in an arbitrary manner
+• the requirement for the Minister for Foreign Affairs to arrange for the Leader of the
+Opposition in the House of Representatives to be briefed in relation to a proposed
+declaration
+• Parliament is able to disallow a declaration if it considers this appropriate; and the
+Committee is able to review a declaration before the end of the disallowance
+period and at any time a declaration is in effect
+• the INSLM reviews Australia’s national security and counter-terrorism law,
+including the declared areas provisions
+• the Commonwealth Director of Public Prosecutions must be satisfied that it is in
+the public interest to pursue a prosecution; and the Attorney-General’s consent is
+required prior to the institution of proceedings in respect of offences in relation to
+the declared area
+• the regular sunsetting of the declared areas provisions provides an additional
+point of review and means the provisions are only in place for a finite time.77
+74 Australian Human Rights Commission, Submission 4, pp. 2–3 (emphasis added).
+75 Ms Lorraine Finlay, Commissioner, Australian Human Rights Commission, Committee Hansard, Canberra,
+20 May 2024, p. 3.
+76 Law Council of Australia, Submission 7, pp. 3–4, para. 9.
+77 Attorney-General’s Department, Submission 6—Attachment 1.
+23
+Repealing paragraph 29(1)(bbaa) of the IS Act
+2.64 Section 29 of the Intelligence Services Act 2001 (IS Act) sets out the Committee’s
+functions. Currently, paragraph 29(1)(bbaa) of the IS Act states it is a function of the
+Committee—
+if the Committee resolves to do so—to review, by 7 January 2024, the operation,
+effectiveness and proportionality of sections 119.2 and 119.3 of the Criminal
+Code (which provide for declared areas in relation to foreign incursion and
+recruitment).
+2.65 Schedule 1, Item 3 of the Bill would repeal paragraph 29(1)(bbaa) of the IS Act.
+2.66 The date for review has passed and therefore the provision in its current form is
+obsolete. The Bill does not propose a replacement provision to continue this function
+of the Committee. The Explanatory Memorandum (EM) to the Bill states:
+The Intelligence Services Legislation Amendment Bill 2023, which is currently
+before the Parliament would empower the PJCIS to review these provisions
+before they sunset, ensuring that due consideration is given to the continued
+utility of the provisions.78
+2.67 While the Intelligence Services Legislation Amendment Bill 2024 as presented to
+Parliament would not affect the Committee’s ability to review a declaration made
+under section 119.3 of the Criminal Code,79 and would vest in the Committee an
+‘own-motion’ power for legislative review which could enable the legislative scheme
+to be reviewed in future, some witnesses expressed concern over the removal of a
+specific statutory prompt for the review of the declared areas provisions. The AHRC
+stated:
+The commission's view is that having those mandated reviews set out in
+legislation is a really useful prompt for committees that are structured to look at
+these particular issues. They are reminded and prompted by the legislation to do
+so, so we think there is some real value in that timetable coming up in the
+Intelligence Services Act or in another appropriate piece of legislation. We note
+this particular hearing wasn't mandated by legislation and so was prompted by
+the bill amending the sunset clause. There is some room for that still to happen
+even if it is not embedded in the legislation, but we think embedding those sorts
+of timetables in the legislation is a really useful safeguard.80
+78 Explanatory Memorandum, para. 11.
+79 Criminal Code, ss. 119.3(7)–(8): these two subsections state the PJCIS may review a declaration and report
+the Committee’s comments and recommendations to each House of the Parliament before the end of the
+applicable disallowance period for that House as well as may review a declaration and report to each House
+of Parliament at any time while a declaration is in effect.
+80 Mr Graeme Edgerton, Deputy General Counsel, Australian Human Rights Commission, Committee Hansard,
+Canberra, 20 May 2024, p. 6.
+24
+2.68 Similarly, in its submission the Law Council also expressed support for maintaining a
+specific legislative prompt to review these provisions before sunsetting.
+We have long argued for giving this Committee a general mandate to review any
+counter-terrorism or national security legislation prior to its sunsetting. However,
+that general function is no substitute for a specific legislative prompt to justify the
+continued necessity and proportionality of this exceptional scheme prior to its
+next sunsetting date in September 2027. That is because, given the significant
+demands already placed on this Committee, it is possible that the declared areas
+regime (which has been rarely used in practice) will not be reviewed prior to the
+next sunset in September 2027 and will be renewed without scrutiny. In our
+experience, a specific legislative prompt for review can trigger reassessments of
+necessity.81
+2.69 The Senate Standing Committee for the Scrutiny of Bills also supported the retention
+of a mandatory review requirement in the legislation.
+The committee is of the view that providing for a discretion for a review to be
+conducted of the continued appropriateness of such measures rather than
+mandating such a review may operate so as to impact the efficacy of
+parliamentary scrutiny of the exercise of legislative power.82
+2.70 In addition, the Law Council recommended the need for another review by the INSLM
+because at the time of the INSLM’s 2017 review the offence provision had not yet
+been used. Furthermore, the principal recommendation of both the INSLM’s 2017
+report and this Committee’s 2021 report (to introduce a pre-authorisation regime) has
+been repeatedly rejected by the Government. The Law Council submitted that due to
+this there is a need to review the necessity and proportionality of the scheme afresh,
+and therefore recommended that section 6 of the Independent National Security
+Legislation Monitor Act 2010 should be amended to require that the declared areas
+regime be subject to review by the INSLM prior to any future renewal in September
+2027.83
+81 Law Council of Australia, Submission 7, p. 13, para. 38.
+82 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 6 of 24, 15 May 2024, pp. 8–9, para.
+1.26.
+83 Law Council of Australia, Submission 7, p. 13, paras. 41–42.
+25
+
+3. Committee comment
+3.1 In its last review of sections 119.2 and 119.3 of the Criminal Code (the declared
+areas provisions) in 2021, the Committee recommended the provisions be extended
+for a further three-year period, to sunset on 7 September 2024.
+3.2 The Committee considered at the time that it would be imprudent to repeal the
+provisions during a period of great uncertainty but recommended that the Committee
+be given the opportunity to review the provisions again before 7 January 2024. It was
+considered that such a review would allow for the reassessment of the operation,
+effectiveness and proportionality of the declared areas provisions after the
+geopolitical, economic and political outcomes of COVID-19 had become apparent.1
+3.3 The scheduled date for review has come and gone and, while COVID-19 may no
+longer be dominating the public consciousness as it was three years ago, uncertainty
+still abounds. Since 2021 international conflicts have broken out and the security
+landscape has grown increasingly complex. But uncertainty is not the metric by which
+the Committee should evaluate these provisions, instead it should consider whether
+the law is still fulfilling its intended purpose effectively and proportionately.
+3.4 However, the Director-General of Security has noted that terrorism remains an
+enduring ‘real and pervasive’ threat to Australia and that the declared areas offence
+is a necessary and proportionate tool to manage the terrorist risk to Australia in the
+current environment.
+3.5 The Committee’s view is that the declared areas provisions continue to serve an
+important purpose within the broader framework of Australia’s robust counter-
+terrorism laws. As evidence from the Australian Security Intelligence Organisation
+and the Attorney-General’s Department stressed, the declared areas provisions do
+not operate in a vacuum but as part of a much larger legislative scheme to achieve
+Australia’s counter-terrorism objectives. This includes deterring, disrupting and
+supporting successful investigations and prosecutions of individuals who pose a risk
+to Australia, including foreign fighters.
+3.6 While the Committee notes that no areas have been declared since the revocation of
+the declaration of Mosul on 19 December 2019, criminal proceedings against
+individuals charged with the offence of entering, or remaining in, a declared area
+have progressed.
+3.7 Further, the Committee acknowledges ASIO and AFP comments emphasising that
+the global counter-terrorism environment is complex and changing. The Committee
+1 Parliamentary Joint Committee on Intelligence and Security, Review of ‘Declared Areas’ Provisions: Sections
+119.2 and 119.3 of the Criminal Code, Report, February 2021, p. 18.
+27
+observes that this is evident in recent events: since the October 7 Hamas-led attacks
+on Israel, there has been significant deterioration in the security environment in Gaza
+and southern Lebanon.
+3.8 In light of the recent escalation in operations by the listed terrorist organisation
+Hezbollah in the southern area of Lebanon, the Committee believes there would be
+merit in the Government proactively seeking advice from relevant security agencies
+regarding a declaration under section 119.3 of the Criminal Code of Hezbollah-
+controlled areas of Lebanon south of the Litani River, consistent with United Nations
+Security Council Resolution 1701.
+3.9 Based on the evidence received during this inquiry, the Committee’s view is that the
+declared areas provisions in the Criminal Code continue to serve an important
+purpose.
+3.10 There are already robust safeguards and limitations in place under the legislation.
+However, the Committee considers that the necessity and scope of these safeguards
+and limitations should be regularly reviewed and considered, to reflect the current
+threat environment and in the context of Australia’s counter-terrorism legislative
+framework.
+3.11 The Committee, as well as the former Independent National Security Legislation
+Monitor (INSLM) Dr James Renwick SC, had previously recommended amending the
+Criminal Code to allow Australian citizens to request an exemption from the Minister
+for Foreign Affairs in advance of travel to a declared area for reasons not listed in
+section 119.2(3), but which would not otherwise be illegitimate under Australian law.
+3.12 While the Committee stands by the principle underpinning this recommendation, the
+Committee respects the objections raised in the Government’s 2021 rejection of this
+recommendation and the evidence to this inquiry reiterating those objections.
+3.13 The Committee notes that there is a regulation-making power in paragraph
+119.2(3)(h) of the Criminal Code which enables additional purposes of travel to be
+prescribed. The regulation-making power is still a valuable safeguard and, while it is
+yet to be used, could be used as a vehicle to prescribe additional legitimate purpose
+exemptions.
+Recommendation 1
+3.14 The Committee recommends that, following passage of the Bill and before the
+next sunsetting of the provisions in 2027, the Government consider reviewing
+the list of ‘legitimate purpose’ exceptions for entering or remaining in a
+declared area in subsection 119.2(3) of the Criminal Code. This includes
+considering whether any additional exceptions should be prescribed by
+regulations.
+3.15 The evidence also drew attention to the prominent roles ministerial and prosecutorial
+discretion play in the operation of the declared areas provisions. The Committee
+28
+agrees that the discretion to declare an area and to proceed with prosecutions has
+been exercised sensibly and judiciously; and the Committee has no expectation that
+this approach would change. However, it is important to ensure that the current
+safeguards and limitations on such discretionary powers are appropriate.
+3.16 The declared areas provisions operate so that, as soon as an area is declared, it
+becomes an offence to enter or remain in that area for any reason other than one of
+the prescribed legitimate purposes in subsection 119.2(3). The punishment for
+having been in that area for any other reason while it was declared is up to 10 years’
+imprisonment. The fault element is that the person intended to enter or remain in the
+area and that they were reckless as to whether it was subject to a declaration under
+section 119.3 of the Criminal Code.
+3.17 It is ultimately a matter for the Attorney-General’s discretion whether to consent to
+the prosecution of such an individual.
+3.18 Moreover, throughout this inquiry, it became apparent that, while information may be
+provided to those in Australia at the time of a declaration such as via the distribution
+of brochures to community groups and at airports, no specific mechanism currently
+exists for notifying a person travelling in a country where an area is declared.
+Persons already offshore must proactively check the Smartraveller.gov.au website;
+and it is no longer possible for a person to register their overseas travel to receive
+travel advice. In light of the extreme circumstances that would have likely precipitated
+the declaration of an area, it cannot be assumed that a person in or near that area
+would have regular access to reliable internet or methods of communication to learn
+of such a declaration immediately.
+3.19 As such, the Committee considers that the Government should review the
+exemptions and consider whether a grace period needs to be explicitly provided for,
+rather than relying solely on ministerial or prosecutorial discretion to not charge an
+individual who found themselves in a declared area in the immediate aftermath of its
+declaration. The Committee also notes the general defences in Part 2.3 of the
+Criminal Code, including the defence of intervening conduct or event,2 or a sudden or
+extraordinary emergency,3 available to an accused person as detailed in paragraph
+1.21 herein.
+3.20 The United Kingdom’s ‘designated area’ regime detailed in the Terrorism Act 2000
+(UK) provides individuals with a grace period of one month provided that the person
+was already travelling to, or already in, the area on the day on which it became
+designated, and the person left the area before the end of the period of one month
+beginning with the day of the designation.
+2 Criminal Code Act 1995, Sch 1 (Criminal Code), s. 10.1.
+3 Criminal Code, s. 19.3.
+29
+Recommendation 2
+3.21 The Committee recommends that, following passage of the Bill and before the
+next sunsetting of the provisions in 2027, the Government consider an
+additional exception to the offence of entering, or remaining in, an area that
+has been declared under section 119.3 of the Criminal Code. The exception
+would apply where:
+• the person is already travelling to, or is already in, the area on the day on
+which it becomes a declared area, and
+• the person leaves the area as soon as practicable, but no later than the
+period of one month beginning with that day.
+3.22 Section 119.3(1) empowers the Minister for Foreign Affairs to declare an area in a
+foreign country provided the Minister is satisfied that a listed terrorist organisation is
+engaging in a hostile activity in that area of the foreign country. As above, the
+Committee notes that this discretion has been used appropriately and sparingly since
+the law came into effect—however, that does not negate the case for ensuring there
+are strong safeguards.
+3.23 During the public hearing it was repeatedly stated that the law has only been used in
+extreme circumstances and in relation to ungoverned spaces controlled by a terrorist
+organisation.
+• For example, during questioning regarding the declaration of an area at the public
+hearing for this inquiry, Mr Burgess stated that ‘for this power to be used, there
+has to be a declared area, and that declared area has to mean there is an
+ungoverned space where terrorists freely operate’.4
+• Similarly, Mr Burgess later described a declared area as ‘an ungoverned or
+uncontrolled space where a terrorist organisation operates, and that’s why it has
+been declared an area’.5
+• Mr Nutt from the AFP reiterated this definition of a declared area stating: ‘We are
+talking … about an ungoverned space where a listed terrorist organisation is
+undertaking activities … we are talking about extreme situations.’6
+• The Explanatory Memorandum to the Bill stated the objective of the provisions is
+in part to deter Australians from travelling to ‘dangerous conflict areas’ where
+listed terrorist organisations are engaging in hostile activity.7
+4 Mr Mike Burgess, Director-General, Security, Australian Security Intelligence Organisation, Committee
+Hansard, Canberra, 20 May 2024, p. 18.
+5 Mr Mike Burgess, Director-General, Security, Australian Security Intelligence Organisation, Committee
+Hansard, Canberra, 20 May 2024, p. 18.
+6 Mr Stephen Nutt, Acting Assistant Commissioner, Counter-Terrorism and Special Investigations Command,
+Australian Federal Police, Committee Hansard, Canberra, 20 May 2024, p. 19.
+7 Explanatory Memorandum to the Counter-Terrorism Legislation Amendment (Declared Areas) Bill 2024,
+Statement of Compatibility, para. 21.
+30
+3.24 While this is consistent with how the power has been used up to now and how the
+Government and operational agencies intend to use the power going forward, the
+legislation does not impose such limitations.
+3.25 The Committee agrees this represents an area of potential ambiguity. To give effect
+to the intention that an area be declared only in the most extreme circumstances, the
+Committee therefore considers that additional legislative safeguards on the Minister
+for Foreign Affairs’ discretion to declare an area should be considered following the
+passage of the Bill but before its proposed sunsetting date in 2027.
+3.26 A review of the process for declaring an area would also include a review of the
+Minister’s protocol listing the non-legislative factors to be taken into account.
+Reforming the protocol could include giving greater prominence to the extent of
+territorial control exercised by a listed terrorist organisation.
+Recommendation 3
+3.27 The Committee recommends that, following passage of the Bill and before the
+next sunsetting of the provisions in 2027, the Government consider reviewing
+the existing safeguards on the Minister for Foreign Affairs’ discretion to
+declare an area under section 119.3 of the Criminal Code. This would include
+reviewing the Minister’s protocol and the list of factors to be taken into
+consideration by the Minister for Foreign Affairs before declaring an area.
+3.28 The Committee notes the Law Council’s view that the declaration of an area should
+be a matter for parliamentary, not Executive, decision. Noting that the Committee is
+empowered to review a declaration when made or at any time it is in effect, and that
+the legislative instrument declaring an area is subject to disallowance by either
+House of Parliament, the Committee considers current mechanisms for parliamentary
+scrutiny are sufficient. The Committee will undoubtedly give close consideration to
+any future declarations made and considers it highly likely that it would elect to
+review any declaration, as has been its practice to date.
+3.29 The Committee is also aware of the concerns of some participants in the inquiry
+regarding the accretion and continuation of terrorism-related powers and offences
+that were initially introduced as temporary or exceptional measures in response to a
+specific set of circumstances.
+3.30 While extenuating circumstances in recent decades have precipitated the significant
+expansion of offences and powers, these should not be seen as permanent. The
+limitations these laws place on rights is justified only so long as the law remains
+necessary and proportionate to achieve the legitimate aim of protecting Australians
+and their way of life. The retention of these laws for retention’s sake risks
+undermining the faith Australians have in lawmakers.
+3.31 The regular and considered review of these laws is a key mechanism by which
+Australians can be assured of their ongoing necessity and proportionality. The
+Committee considers following passage of this Bill, it will be an appropriate time to
+31
+take stock of Australia’s national counter-terrorism laws and whether they remain fit
+for purpose, necessary and proportionate in the current security landscape. It has
+been a decade since the passage of the Counter-Terrorism Legislation Amendment
+(Foreign Fighters) Act 2014 and the country is facing a much-changed security
+landscape.
+3.32 As noted above, the declared areas provisions do not operate in a vacuum. Indeed,
+evidence from the Australian Security Intelligence Organisation and the Attorney-
+General’s Department stressed that these provisions operate as part of a framework.
+Therefore, in considering the future of the declared areas provisions, it is necessary
+to consider the broader legislative architecture that contributes to Australia’s counter-
+terrorism objectives. The Committee considers that the INSLM is best placed to
+conduct such an inquiry and report before the powers are due to sunset on 7
+September 2027.
+3.33 Noting that the Committee has the ability to refer matters to the INSLM under section
+7A of the Independent National Security Legislation Monitor Act 2010, the Committee
+considers the following recommendation will provide a basis for further discussion
+with the INSLM about the form and scope such a review might take.
+Recommendation 4
+3.34 The Committee recommends that the Independent National Security
+Legislation Monitor review Division 119 of the Criminal Code, with particular
+attention to the declared areas provisions and their ongoing necessity within
+the broader counter-terrorism legislative framework. The INSLM should report
+its findings in relation to the declared areas by 7 January 2027.
+3.35 This Committee is also integral to oversight of the terrorism powers within the
+Criminal Code, including the declared areas provisions, and takes its responsibility
+seriously. The Committee welcomes the proposed creation of an own-motion review
+power as part of the Intelligence Services Legislation Amendment Bill 2023 that is
+currently before the Parliament. Noting that these laws will remain subject to a
+sunsetting provision which requires legislative amendment of the Criminal Code
+before the declared areas provisions can continue beyond 2027, the Committee
+would expect to conduct an inquiry into any Bill proposing to extend sunsetting at that
+time, as has been the case to date. Findings and recommendations made by the
+INSLM pursuant to the above recommendation would usefully inform the
+Committee’s review in that regard.
+3.36 In conclusion, the Committee supports the continuation of the declared areas
+provisions in sections 119.2 and 119.3 of the Criminal Code for a further three years,
+on the condition that additional safeguards be considered to account for the changed
+security landscape. While the Committee agrees that the provisions have an ongoing
+role to play in Australia’s suite of counter-terrorism measures at this time, the
+Committee would urge the Government to maintain careful consideration of whether
+these laws remain necessary and appropriate, and be ready to provide a convincing
+32
+rationale for any request to prolong the operation of the provisions beyond
+September 2027.
+Recommendation 5
+3.37 The Committee recommends that the Counter-Terrorism Legislation
+Amendment (Declared Areas) Bill 2024 be passed by the Parliament.
+Mr Peter Khalil MP
+Chair
+July 2024
+33
+
+A. List of submissions
+1 Australian Security Intelligence Organisation
+• 1.1 Supplementary to submission 1
+2 Department of Foreign Affairs and Trade
+• 2.1 Supplementary to submission 2
+3 Mr Reza Parsaee
+4 Australian Human Rights Commission
+• 4.1 Supplementary to submission 4
+• Attachment 1
+• Attachment 2
+• Attachment 3
+5 Mr Arash Behgoo
+6 Attorney-General's Department
+• 6.1 Supplementary to submission 6
+• Attachment 1
+7 Law Council of Australia
+8 Australian Federal Police
+• 8.1 Supplementary to submission 8
+35
+
+B. List of witnesses at public hearing
+Monday, 20 May 2024
+Committee Room 2R1
+Canberra
+Australian Human Rights Commission
+• Ms Lorraine Finlay, Human Rights Commissioner
+• Mr Graeme Edgerton, Deputy General Counsel
+Law Council of Australia
+• Dr David Neal SC, Co-Chair, National Criminal Law Committee
+• Mr Shounok Chatterjee, Senior Policy Lawyer
+Australian Federal Police
+• A/G Assistant Commissioner Stephen Nutt, CT & Special Investigations
+Command
+• Commander Anthony Fox, CT Headquarters
+Australian Security Intelligence Organisation
+• Mr Mike Burgess, Director-General, Security
+Attorney-General's Department
+• Mr Luke Muffett, Assistant Secretary, Security Law and Policy Branch
+• Mr Jordan Tsirimokos, A/G Director, Counter-Terrorism Legislation Section
+Department of Foreign Affairs and Trade
+• Mr Richard Feakes, Ambassador for Counter-Terrorism
+• Ms Zoe Moses, Counter-Terrorism, Americas, Europe and Middle East Section
+37
+
+C. UK-Australia comparative table
+Table C.1 Differences in the exceptions in the UK and Australian regimes
+UK exceptions (designated areas Aus exceptions (declared areas offence):
+offence): UK Terrorism Act ss 58B(2)–(6) Criminal Code, s 119.2(3)
+Reasonable excuse defence: s 58B(2). No equivalent
+Exception for a person who is already travelling No equivalent
+to, or is already in the area on the day on which it The offence applies as soon as the instrument of
+became a designated area, and leaves the area declaration commences (generally upon its
+within one month: s 58B(3). registration: Legislation Act 2003, s 12)
+Exception for a person who enters, or remains in, No equivalent.
+a designated area involuntarily. (For example, A person would have to rely on the general
+this is likely to cover spouses and children who defence of duress in s 10.2 of the Criminal Code,
+are dependent on the person who decides to and which requires specific proof of a threat being
+takes their family): s 58B(4)(a). made against the defendant unless they commit
+the offence, and an assessment that committing
+the offence is a reasonable response to the threat
+made against them.
+Exception for a person who enters, or remains in, Narrower prescribed legitimate purposes than UK:
+a designated area for or in connection with one s 119.2(3) (see below comparison)
+or more of the prescribed purposes: ss 58B(4)(b)
+and 58B(5) (see purposes below)
+Prescribed, legitimate purposes: s 58B(5) Prescribed, legitimate purposes: s 119.2(3)
+Entering or remaining in an area for, or in Entering the area for the sole purpose of one
+connection with, one of the following purposes: or more of the following:
+(a) Providing aid of a humanitarian nature • Equivalent: s 119.2(3)(a)
+(provided that it is not delivered in
+contravention of internationally
+recognised principles and standards
+applicable to the provision of
+humanitarian aid)
+(b) Satisfying an obligation to appear
+before a court or other body exercising • Equivalent: s 119.2(3)(b)
+judicial power.
+(c) Carrying out work for a government of a
+country other than the United Kingdom
+• Equivalent:
+(including service in or with the
+s 119.2(3)(c) (Australian
+country’s armed forces) (provided that it o
+government)
+39
+does not constitute an offence against a s 119.2(3)(d) (foreign
+o
+law of the UK, if done in the UK) government)
+See also: s 58B(12): the offence does s 119.2(4) (armed forces of
+o
+not apply to persons acting on behalf of, foreign government)
+or holding office under, the Crown.
+(d) Carrying out work for the United Nations
+or an agency of the United Nations • Equivalent: s 119.2(3)(e). Also covers
+(provided it would not constitute an the International Committee of the Red
+offence against UK law, if done in the Cross.
+UK)
+• Narrower: making a news report of
+(e) Carrying out work as a journalist events in the area, where the person is
+(provided that it would not constitute an working in a professional capacity as a
+offence against UK law, if done in the journalist, or is assisting another person
+UK) working in a professional capacity as a
+journalist: s 119.2(3)(f).
+(f) Attending the funeral of a relative or
+visiting relative who is terminally ill • Potentially covered by the exception of
+making a bona fide visit to a family
+member: s 119.2(3)(g)
+• Potentially covered by the exception of
+(g) Providing care for a relative who is
+making a bona fide visit to a family
+unable to care for themselves
+member: s 119.2(3)(g)
+• Equivalent: s 119.2(3)(h).
+Other purposes prescribed by regulations: s
+58B(7)
+Combined purposes of presence in a designated No equivalent
+area – prescribed and non-prescribed: s 58B(6) The exception in subsection 119.2(3) is limited to
+It is an exception if a person travels for multiple the sole legitimate purpose of a person’s
+purposes, some of which are prescribed in s presence in the declared area.
+58B(5) and others are not.
+This is provided that the other, non-prescribed
+purposes fall within the ‘reasonable excuse’
+defence in s 58B(2).
+Source: Law Council of Australia, Supplementary submission: ‘Declared areas’ provisions of ss 119.2 and 119.3 Criminal
+Code Act 1995 (Cth), 28 September 2020.
+40

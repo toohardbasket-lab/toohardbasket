@@ -1,0 +1,768 @@
+The Senate
+Legal and Constitutional Affairs
+Legislation Committee
+Oversight Legislation Amendment
+(Robodebt Royal Commission Response
+and Other Measures) Bill 2024 [Provisions]
+January 2025
+© Commonwealth of Australia 2025
+ISBN 978-1-76093-776-8 (Printed version)
+ISBN 978-1-76093-776-8 (HTML version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by the Senate Printing Unit, Parliament House, Canberra
+Members
+Chair
+Senator Nita Green ALP, QLD
+Deputy Chair
+Senator Paul Scarr LP, QLD
+Members
+Senator Alex Antic LP, SA
+Senator Varun Ghosh ALP, WA
+Senator Helen Polley ALP, TAS
+Senator David Shoebridge AG, NSW
+Secretariat
+Sophie Dunstone, Committee Secretary
+Mervyn Piesse, Senior Research Officer
+Jessica Brown, Administrative Officer
+Suite S1.61 Telephone: (02) 6277 3560
+Parliament House
+Canberra ACT 2600 Email: legcon.sen@aph.gov.au
+iii
+
+Contents
+Members ............................................................................................................................................. iii
+List of recommendations ................................................................................................................ vii
+Chapter 1—Introduction and key issues ........................................................................................ 1
+Conduct of the inquiry and acknowledgement ............................................................................... 1
+Structure of the report ......................................................................................................................... 1
+Purpose of the bill ................................................................................................................................ 1
+Background ........................................................................................................................................... 2
+Recommendation 21.1: Statutory duty to assist with Ombudsman investigations ........ 3
+Recommendation 21.2: Enhanced powers to obtain information ...................................... 5
+Structure of the bill .............................................................................................................................. 6
+Key issues .............................................................................................................................................. 7
+Enhanced investigatory powers for the Commonwealth Ombudsman ........................... 8
+Statutory duty to assist the Ombudsman ............................................................................ 14
+Committee view ................................................................................................................................. 17
+Appendix 1—Submissions and Additional Information .......................................................... 19
+v
+
+List of recommendations
+Recommendation 1
+1.83 The committee recommends that the government considers amending
+paragraph 58 of the Explanatory Memorandum to clarify that the purpose of
+the remote access power is to enable the Office of the Commonwealth
+Ombudsman to independently search for information relevant to its
+investigations.
+Recommendation 2
+1.85 Subject to the preceding recommendation, the committee recommends that
+the Senate pass the bill.
+vii
+
+Chapter 1
+Introduction and key issues
+1.1 On 21 November 2024, the Senate referred the provisions of the Oversight
+Legislation Amendment (Robodebt Royal Commission Response and Other
+Measures) Bill 2024 (the bill) to the Legal and Constitutional Affairs Legislation
+Committee (the committee) for inquiry and report by 30 January 2025.1
+1.2 The referral of the bill followed a recommendation of the Senate Standing
+Committee for the Selection of Bills.2 Appendix 3 to that report called for the
+inquiry to scrutinise the legislation.3
+Conduct of the inquiry and acknowledgement
+1.3 The committee advertised the inquiry on its website and invited organisations
+and individuals to make submissions by 20 December 2024. The committee
+received eight submissions, which are listed at Appendix 1. The committee
+resolved not to hold a public hearing for this inquiry and to report to the Senate
+‘on the papers’. The committee thanks those individuals and organisations who
+made submissions.
+Structure of the report
+1.4 The report comprises one chapter that outlines the background to the inquiry,
+provides an overview of the bill, discusses the key issues raised by submitters,
+and sets out the committee’s views and recommendations.
+Purpose of the bill
+1.5 The bill would amend the Ombudsman Act 1976 (Ombudsman Act) and the
+Inspector-General of Taxation Act 2003 (IGT Act) to implement recommendations
+21.1 and 21.2 of the Report of the Royal Commission into the Robodebt Scheme (Royal
+Commission report). The bill would enhance the oversight powers of the
+Commonwealth Ombudsman (Ombudsman) and the Inspector-General of
+Taxation and Taxation Ombudsman (IGTO). It would also introduce a statutory
+duty to assist those offices in performing their functions.
+1 Journals of the Senate, No. 142, 21 November 2024, pp. 4319–4323.
+2 Senate Standing Committee for the Selection of Bills (selection of bills committee), Report No. 13
+of 2024, 21 November 2024, [p. 7].
+3 Selection of bills committee, Report No. 13 of 2024, 21 November 2024, [p. 7].
+1
+2
+Background
+1.6 On 18 August 2022, the government established the Royal Commission into the
+Robodebt Scheme (Royal Commission). The Royal Commission presented its
+final report on 7 July 2023.4
+1.7 The Royal Commission report stated that in 2016 and 2017 the Ombudsman
+received a large volume of complaints about the Robodebt Scheme.5 As a result
+of those complaints, the Ombudsman conducted two investigations into the
+scheme.6
+1.8 The Royal Commission found that the Department of Human Services (DHS)
+and the Department of Social Services (DSS) did not properly engage with the
+Ombudsman’s investigations. The Royal Commission report detailed how
+those:
+…departments acted to deceive the Ombudsman’s office, avoid effective
+scrutiny of the Scheme and, in doing so, thwart one of the best opportunities
+that existed to bring the Scheme to an end.7
+1.9 The Royal Commission explained that officers from those departments:
+…engaged in behaviour designed to mislead and impede the Ombudsman
+in the exercise of his functions. This, coupled with deficiencies in the
+Ombudsman’s own processes, had the consequence of diluting the
+effectiveness of the investigation. The illegality of the Scheme was not
+brought to light. The Scheme continued for years after the Ombudsman’s
+work was done.8
+1.10 The Hon Mark Dreyfus KC MP, Attorney-General, outlined the main findings
+of the Royal Commission:
+The report of the robodebt royal commission made it clear. Strong and
+effective oversight mechanisms are fundamental to safeguard the
+community in their dealings with government. Trust in government
+depends on this.
+The robodebt royal commission concluded that the robodebt scheme was a
+crude and cruel mechanism, neither fair nor legal.9
+4 Royal Commission into the Robodebt Scheme (Royal Commission), About the Royal Commission,
+www.robodebt.royalcommission.gov.au/about (accessed 9 December 2024).
+5 Royal Commission, Royal Commission into the Robodebt Scheme: Report Volume 1, 7 July 2023, p. 208.
+6 Royal Commission, Royal Commission into the Robodebt Scheme: Report Volume 2, 7 July 2023, p. 573.
+7 Royal Commission, Royal Commission into the Robodebt Scheme: Report Volume 1, 7 July 2023, p. 208.
+8 Royal Commission, Royal Commission into the Robodebt Scheme: Report Volume 1, 7 July 2023, p. 208.
+9 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Hansard,
+10 October 2024, p. 4.
+3
+1.11 The Attorney-General argued that stronger oversight measures would help to
+ensure that similar maladministration does not occur again:
+This bill delivers on recommendations of the robodebt royal commission. It
+will bolster the powers and capabilities of oversight agencies to ensure a
+failure like the robodebt scheme can never happen again, because central to
+the institutional checks and balances that could have made a difference to
+the outcomes of the robodebt scheme are independent and external
+oversight bodies.
+Oversight makes our institutions stronger. Oversight makes our democracy
+better. And most importantly, oversight keeps government agencies
+accountable to the people they serve.10
+1.12 In commending the bill to the House, the Attorney-General emphasised:
+The public must be confident that government agencies are acting with
+integrity and accountability and that they act in a manner that is lawful, fair
+and transparent.
+The government has committed to improve this public trust.
+This bill bolsters the powers and capability of oversight bodies to ensure
+that government agencies are accountable.11
+1.13 The government has implemented most of the recommendations made by the
+Royal Commission and ‘work to implement the Government’s response to other
+recommendations is well advanced and underway’.12
+Recommendation 21.1: Statutory duty to assist with Ombudsman investigations
+1.14 The Ombudsman Act does not require departments or agencies to respond to
+requests for information from the Ombudsman and does not set out what would
+happen in the event of non-compliance with such a request. The Royal
+Commission suggested that it would be reasonable to assume public servants
+would provide the Ombudsman with all relevant information when requested
+to do so.13
+1.15 The Royal Commission report observed:
+The Ombudsman Act contains no sanction for non-compliance with a
+request made under s 8(3). Section 36 of the Act makes it an offence to refuse
+or fail without reasonable excuse to furnish information or to answer a
+10 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Hansard,
+10 October 2024, p. 4.
+11 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Hansard,
+10 October 2024, p. 5.
+12 Senator the Hon Katy Gallagher, Minister for the Public Service, the Hon Bill Shorten MP, Minister
+for the National Disability Insurance Scheme, Minister for Government Services, and the Hon Mark
+Dreyfus KC MP, Attorney-General, ‘Update on Robodebt royal commission reforms’, Joint media
+release, 7 November 2024.
+13 Royal Commission, Royal Commission into the Robodebt Scheme: Report Volume 2, 7 July 2023, p. 576.
+4
+question or produce a document when required pursuant to the Act, but in
+this case the Ombudsman’s Office was making requests for information,
+rather than requiring its provision.14
+1.16 During the Ombudsman’s investigations into the Robodebt Scheme, ‘[b]oth
+DHS and DSS provided incomplete responses to the Ombudsman’s various s 8
+notices and withheld key documents that fell within the scope of the requests’.15
+1.17 If it has reason to believe that a person has information relevant to an
+investigation, the Ombudsman has the power to issue a formal notice that
+requires a person to provide information, produce documents, or answer
+questions relating to that investigation.16 Penalties may apply if that notice is not
+complied with.17
+1.18 The Royal Commission observed that while the Ombudsman requested
+information from DHS and DSS, it did not issue any formal notice that required
+the provision of information, documents, or answers to questions.18 The Royal
+Commission suggested that the Ombudsman had ‘assume[d] that public
+servants would comply with the [Australian Public Service] Code of Conduct’
+and comply with requests for information in good faith.19
+1.19 The Royal Commission suggested that during the Ombudsman’s investigations
+into the Robodebt Scheme, some departmental staff had displayed a ‘readiness
+to conceal and mislead’. To avoid this behaviour from occurring again, the Royal
+Commission recommended:
+A statutory duty be imposed on departmental secretaries and agency chief
+executive officers to ensure that their department or agency use its best
+endeavours to assist the Ombudsman in any investigation concerning it,
+with a corresponding statutory duty on the part of Commonwealth public
+servants within a department or agency being investigated to use their best
+endeavours to assist the Ombudsman in the investigation.20
+1.20 In its response to the Royal Commission, the government stated:
+The Government agrees that a clearly stated statutory duty, imposed on
+departmental secretaries and agency chief executive officers, to ensure that
+their department or agency use its best endeavours to assist the
+Ombudsman would reinforce the responsibility on heads of agencies to
+14 Royal Commission, Royal Commission into the Robodebt Scheme: Report Volume 2, 7 July 2023, p. 581.
+15 Royal Commission, Royal Commission into the Robodebt Scheme: Report Volume 2, 7 July 2023, p. 576.
+16 Ombudsman Act 1976 (Ombudsman Act), s. 9.
+17 Ombudsman Act, s. 36.
+18 Royal Commission, Royal Commission into the Robodebt Scheme: Report Volume 2, 7 July 2023, p. 576.
+19 Royal Commission, Royal Commission into the Robodebt Scheme: Report Volume 2, 7 July 2023, p. 581.
+20 Royal Commission, Royal Commission into the Robodebt Scheme: Report Volume 2, 7 July 2023, p. 582.
+5
+ensure their agency engages in good faith and proactively assists the
+Commonwealth Ombudsman.
+The Government agrees that a corresponding statutory duty on
+Commonwealth public servants within a department or agency being
+investigated to use their best endeavours to assist the Commonwealth
+Ombudsman would ensure the responsibility to assist is clearly individually
+borne by each of those responsible.
+The Government also recognises the importance of the Inspector-General of
+Taxation and Taxation Ombudsman in providing assurance to the
+community that taxation laws are being administered with integrity. The
+Government supports also introducing equivalent statutory duties to
+investigations conducted by the IGTO.21
+1.21 In introducing the bill, the Attorney-General, the Hon Mark Dreyfus KC MP,
+stated that the bill goes further than the recommendation:
+The bill extends the statutory duty to assist the Ombudsman to all of the
+Ombudsman’s functions.
+This means that agencies will be required to assist regardless of whether the
+Ombudsman is making preliminary inquiries, conducting an investigation,
+or following up on implementation of its recommendations.22
+Recommendation 21.2: Enhanced powers to obtain information
+1.22 While conducting its investigation, the Ombudsman has the power to enter
+premises occupied by the department, authority, or Commonwealth service
+provider subject to that investigation.23
+1.23 The Royal Commission suggested this power is similar to that available to the
+Auditor-General. Unlike the power available to the Auditor-General, the
+Ombudsman is not able to compel officers of the department or agency under
+investigation ‘to provide the authorised person with all reasonable facilities for
+the effective exercise of powers’.24
+1.24 Mr Iain Anderson, Commonwealth Ombudsman, informed the Royal
+Commission that the Auditor-General uses these powers ‘to directly access the
+21 Department of the Prime Minister and Cabinet (PM&C), Government Response: Royal Commission into
+the Robodebt Scheme, 13 November 2023, p. 33.
+22 Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Hansard, 10 October 2024,
+p. 4.
+23 Ombudsman Act, ss. 14(1).
+24 Royal Commission, Royal Commission into the Robodebt Scheme: Report Volume 2, 7 July 2023, p. 582.
+Note: if during an investigation an official authorised by the Auditor-General enters the premises
+occupied by the Commonwealth, a corporate Commonwealth entity, a Commonwealth company
+or a Commonwealth partner, the occupier must provide ‘all reasonable facilities’ to allow ‘full and
+free access at all reasonable times to any documents or other property’. The occupier must also
+provide ‘all reasonable facilities’ to allow the official to ‘examine, make copies of or take extracts
+from any document’, see: Auditor-General Act 1997, s. 33.
+6
+IT systems of agencies’. His office does not have a legislated power to access IT
+systems to check that departments and agencies under investigation have
+provided all relevant documents.25
+1.25 The Royal Commission suggested the Ombudsman should be provided with a
+similar power to the Auditor-General as public servants may not always assist
+with investigations in good faith:
+A power equivalent to that in s 33(3) of the Auditor-General Act would not,
+of course, be necessary if one could assume good faith participation in
+Ombudsman investigations. The departmental responses to the 2017 own
+motion investigation make it abundantly clear that good faith cooperation
+cannot be assumed, although it might reasonably be expected, and that
+greater power is needed in what one would hope would be the exceptional
+case where a department or agency sets out to thwart the investigation
+through non-compliance or deliberate misleading. In the Commission’s
+view, the Ombudsman should be given the additional power.26
+1.26 The Royal Commission recommended that ‘[t]he Ombudsman Act be amended
+to confer on the Ombudsman a power in equivalent terms to that in s 33(3) of
+the Auditor-General Act’.27
+1.27 In its response to the Royal Commission report, the government recognised that
+providing the Ombudsman with a similar investigatory power to that provided
+to the Auditor-General:
+…would ensure the Ombudsman is not dependent upon agencies to
+undertake searches and provide documents and information, and will
+complement the Ombudsman’s existing powers to request and compel
+agencies to provide information.28
+Structure of the bill
+1.28 The bill consists of one schedule with five parts as follows:
+ Part 1 contains the main amendments to the Ombudsman Act, including:
+− enhanced investigatory powers for the Ombudsman;
+− a new statutory duty on agency heads and their staff to assist the
+Ombudsman; and
+− provisions that extend those powers and duties to apply to all statutory
+offices held by the Ombudsman.29
+25 Royal Commission, Royal Commission into the Robodebt Scheme: Report Volume 2, 7 July 2023, p. 582.
+26 Royal Commission, Royal Commission into the Robodebt Scheme: Report Volume 2, 7 July 2023, p. 582.
+27 Royal Commission, Royal Commission into the Robodebt Scheme: Report Volume 2, 7 July 2023, p. 582.
+28 PM&C, Government Response: Royal Commission into the Robodebt Scheme, 13 November 2023, p. 34.
+29 Note: the Commonwealth Ombudsman performs five other statutory functions. Those functions
+are: the Defence Force Ombudsman, the Postal Industry Ombudsman (PIO), the Overseas Students
+7
+ Part 2 would amend the IGT Act to introduce an equivalent statutory duty
+for agencies to assist the IGTO.
+ Part 3 consists of technical amendments that would clarify certain
+provisions of the Ombudsman Act.
+ Part 4 includes amendments that are contingent on the passage of the
+Universities Accord (National Student Ombudsman) Bill 2024.30
+ Part 5 would ensure that the bill applies to investigations already on foot at
+the time of its passage.
+1.29 As submissions received by the committee related to the provisions contained
+in parts 1 and 2 of the bill, this report focusses on the:
+ enhanced investigatory powers for the Ombudsman; and
+ statutory duty to assist the Ombudsman.
+Key issues
+1.30 Submitters broadly supported the intent of the bill to enhance the investigatory
+powers of the Ombudsman and introduce a statutory duty for officials to assist
+with their office’s investigations.
+1.31 Some submitters argued that the bill would not be a comprehensive response to
+the shortcomings of the oversight system identified by the Royal Commission.31
+1.32 For example, Civil Liberties Australia (CLA) argued the amendments contained
+in the bill ‘are piecemeal’ and would not guarantee that complaints about
+services would be resolved. In its view, ‘[t]hey do nothing to address or solve
+an individual’s legitimate complaints or possible breaches of human rights.
+They do not address the fundamental issue of complaints handling by people’.32
+1.33 CLA outlined the power that the Ombudsman has and determined that the bill
+would not meaningfully empower that office to resolve complaints:
+The Ombudsman has no power to conciliate and adjudicate complaints. The
+Ombudsman is only an effective, final oversight body for complaint
+resolution if two parameters are met:
+ The Ombudsman can be relied on to be a tough, external arbiter of truth
+and honesty: the proposed amendments contain no such guarantee; and
+Ombudsman (OSO), the Private Health Insurance Ombudsman (PHIO), and the Vocational
+Education and Training (VET) Student Loans Ombudsman (VSLO).
+30 Note: on 10 December 2024, the Universities Accord (National Student Ombudsman) Act 2024 received
+Royal assent, see: Attorney-General’s Department (AGD), Submission 4, p. 5.
+31 Civil Liberties Australia (CLA), Submission 2, p. [1]; Fotra Group Consulting, Submission 8, [p. 1].
+32 CLA, Submission 2, [p. 1].
+8
+ The agency, provider or organisation must be open to re-evaluating,
+re-thinking and changing their stance or decision: the amendments
+contain no such guarantee.33
+1.34 Professor Matthew Groves disagreed with the CLA’s argument:
+When this Bill is viewed as one aspect of the wider official response to the
+Royal Commission, it is a small and sensible step. The more wide-ranging
+responses to Robodebt include replacement of the Administrative Appeals
+Tribunal with the Administrative Review Tribunal and the revival of the
+Administrative Review Council. While each of those reforms mark an
+important addition to our framework of governance and oversight, smaller
+more refined reforms are also required. The Oversight Legislation Amendment
+Bill is one and when viewed against the wider framework of changes, it is
+not piecemeal. It is one part of coherent and integrated reforms.34
+1.35 The IGTO strongly supported the provisions of the bill, arguing that the bill
+responds to the public administration and oversight failures that were revealed
+by the Royal Commission. In reflecting upon the findings of the Royal
+Commission, the IGTO stated:
+Not only did the administration of the Scheme fail both legally and ethically,
+the checks and balances in the system to avoid such failures did not identify
+or stop the maladministration. The powers in this Bill respond to those
+failures by bolstering the powers and independence of those of us with the
+responsibility to uphold the integrity of the system(s) and to shine a light on
+areas that are not operating as intended, without fear or favour.35
+Enhanced investigatory powers for the Commonwealth Ombudsman
+1.36 During an investigation, the Ombudsman may authorise an officer to enter
+premises occupied by a department, agency, or Commonwealth service
+provider. While physically in those premises, the officer may inspect any
+documents that are deemed to be relevant to the investigation.36
+1.37 The bill would allow an authorised officer to not only inspect documents, but
+also other records relevant to the investigation. They would be permitted to
+‘inspect, take extracts from, or make copies of, any such documents or other
+records’.37
+33 CLA, Submission 2, [p. 2].
+34 Professor Matthew Groves, Submission 6, p. 1.
+35 IGTO, Submission 1, p. 2.
+36 Ombudsman Act, s. 14.
+37 Item 2 in Part 1 of Schedule 1 of the Oversight Legislation Amendment (Robodebt Royal
+Commission Response and Other Measures) Bill 2024 (the bill); proposed subsection 14(4) of the
+bill.
+9
+1.38 The officer would also be able to access electronic documents or other records
+remotely. They would be permitted to ‘inspect, take extracts from, or make
+copies of, any such documents or other records’.38
+1.39 It would be an offence to fail to provide the officer ‘with reasonable facilities and
+assistance’ in exercising their investigatory powers.39
+1.40 According to the EM, whether the level of assistance and access to facilities:
+…is reasonable will depend on the circumstances of the investigation, the
+material sought and the nature of the function being performed. Provision
+of reasonable facilities and assistance would generally include providing
+facilities such as office space, computers or other devices, network
+connectivity, or filing cabinets and other secure storage. It would also
+include provision of assistance to physically enter and access premises (such
+as an agency escort or relevant security passes), assistance to locate and
+access relevant records (such as arranging for appropriate access controls in
+agency record management and email systems and filing cabinets) and
+assistance to inspect and make copies of documents (including extraction of
+data to portable drives, access to printers, scanners and photocopiers).40
+1.41 Similarly, an entity under investigation would not be expected to provide
+remote access to all of its documents and records. According to the EM:
+Agencies would not be expected to give the Ombudsman access to all
+systems and databases where these were not relevant to the investigation
+and it is anticipated that agencies would apply access controls or otherwise
+partition their systems to ensure that the Ombudsman can only access the
+information and data relevant to the matter being investigated.41
+1.42 The Ombudsman reminded the committee that the findings of the Robodebt
+Royal Commission demonstrated that ‘the question of relevance is a matter that
+must be determined by my Office, not by an agency’. He suggested that if there
+is uncertainty ‘about the relevance of particular databases, information or data,
+an agency should openly raise these issues with my Office in the course of our
+investigation’. He anticipated that the agency and his office would be able to
+come to an agreement on what is relevant to any investigation.42
+1.43 The Ombudsman suggested that the committee consider amending the EM:
+…to remove any doubt that the purpose of the power is to enable my
+authorised officers to independently search for relevant information. This
+intention is reflected on the face of the legislation, which provides that only
+38 Item 4 in Part 1 of Schedule 1 of the bill; proposed subsection 14A(1) of the bill.
+39 Item 3 in Part 1 of Schedule 1 of the bill; proposed subsection 14(5A) of the bill; Item 4 in Part 1 of
+Schedule 1 of the bill; proposed subsection 14A(5) of the bill.
+40 EM, p. 13.
+41 EM, p. 18.
+42 Office of the Commonwealth Ombudsman, Submission 3, p. 6.
+10
+a certificate issued by the Attorney-General under subsection 9(3) of the
+Ombudsman Act can prevent the disclosure of specific information to the
+Ombudsman on public interest grounds.43
+1.44 In instances where a risk may be posed to the security of the documents, other
+records, or the system where they are stored, the Ombudsman may be refused
+remote access.44 The EM indicates that in this situation, the Ombudsman would
+still be able to exercise their powers to view those documents or records in
+person.45
+1.45 The enhanced investigatory powers would be extended to the:
+ IGTO;46
+ Defence Force Ombudsman;47
+ Postal Industry Ombudsman;48
+ Overseas Student Ombudsman (OSO);49
+ Private Health Insurance Ombudsman;50 and
+ Vocational Education and Training (VET) Student Loans Ombudsman
+(VSLO).51
+43 Office of the Commonwealth Ombudsman, Submission 3, p. 6.
+44 Item 4 in Part 1 of Schedule 1 of the bill; proposed subsection 14A(7) of the bill.
+45 EM, pp. 18–19.
+46 Inspector-General of Taxation Act 2003, para. 15(i).
+47 Ombudsman Act, ss. 19F(1).
+48 Item 5 in Part 1 of Schedule 1 of the bill; proposed subparagraph 19R(3)(b)(xii) of the bill. Note: the
+PIO does not currently have the power to enter premises or access documents and other records
+remotely. The bill would enable the PIO to enter premises or remotely access documents and other
+records that belong to Australia Post or a wholly owned subsidiary of Australia Post, see:
+Ombudsman Act, subpara. 19R(3)(b)(xii) and Item 6 in Part 1 of Schedule 1 of the bill; proposed
+subsection 19R(4A) of the bill.
+49 Item 7 in Part 1 of Schedule 1 of the bill; proposed paragraph 19ZM(3)(h) of the bill. Note: the OSO
+currently has the power to enter the premises of private registered education providers, see:
+Ombudsman Act, para. 19ZM(3)(h). The bill would enable the OSO to access documents and other
+records remotely.
+50 Item 9 in Part 1 of Schedule 1 of the bill; proposed subsection 20WA(1) of the bill. Note: the PHIO
+may receive complaints about private health insurers or private health insurance brokers, see:
+Ombudsman Act, s. 20F. The PHIO may also initiate investigations into the practices or procedures
+of those entities, see: Ombudsman Act, s. 20T. The bill would enable the PHIO to remotely access
+electronic documents and other electronic records for the purposes of verifying evidence provided
+in response to a complaint or while conducting an investigation.
+51 Item 12 in Part 1 of Schedule 1 of the bill; proposed subsection 20ZS(3A) of the bill. Note: the VSLO
+has the power to enter the premises of the VET loan scheme providers, see: Ombudsman Act, ss.
+20ZS(3). The bill would enable the VSLO to remotely access electronic documents and other
+electronic records for the purposes of conducting investigations into VET loan scheme providers.
+11
+1.46 The bill would also amend the Inspector-General of Intelligence and Security Act
+1986 (IGIS Act) to clarify that during its preliminary investigations the
+Inspector-General of Intelligence and Security (IGIS) ‘is entitled to all reasonable
+facilities and assistance’ that the head of an intelligence agency is capable of
+providing.52
+1.47 Heads of intelligence agencies have an obligation to provide the IGIS with ‘all
+reasonable facilities and assistance’ that they are capable of providing when the
+IGIS is exercising their inspection functions.53 The Hon Christopher Jessup KC,
+IGIS, informed the committee that he ‘currently receive[s] a very high level of
+cooperation from the heads of intelligence agencies with respect to the work of
+my Office across both my inspection and inquiry functions’. Mr Jessup
+welcomed the proposed amendment to the IGIS Act as it would extend that
+obligation to his office’s preliminary inquiry functions and thereby improve the
+‘consistency of the obligations on agency heads in relation to my powers and
+functions under the IGIS Act’.54
+1.48 When he gave evidence to the Royal Commission, Mr Anderson ‘noted that,
+unlike my Office, the Australian National Audit Office directly accessed the IT
+systems of agencies’. The Ombudsman:
+…suggested that this would be a very useful power for circumstances where
+we had a concern that an agency was not engaging in good faith and not
+providing relevant information.55
+1.49 The Ombudsman reported that his office has the power to ‘enter an agency’s
+premises under section 14 of the Ombudsman Act to inspect any documents
+relevant to an investigation’. He stated that the bill:
+…would put beyond doubt that my authorised officers would be
+empowered to access, take extracts, copy and inspect any document or other
+records. This would ensure my Office has full and free access to all records
+and IT systems, not just hardcopy documents, that we identify as relevant
+to the investigation.56
+1.50 This new power would also enable officers ‘to independently and directly
+gather information by remote means’. The Ombudsman expected that it would
+allow his office ‘to work more efficiently’. He did not anticipate the remote
+52 Item 15 in Part 2 of Schedule 1 of the bill; proposed subsection 14(4) of the bill.
+53 Inspector-General of Intelligence and Security Act 1986, para. 9A(2)(c).
+54 Office of the Inspector-General of Intelligence and Security, Submission 5, [p. 2].
+55 Office of the Commonwealth Ombudsman, Submission 3, p. 3.
+56 Office of the Commonwealth Ombudsman, Submission 3, p. 5.
+12
+access power would be routinely used and would only be exercised when
+necessary.57
+1.51 Similarly, the IGTO explained that gaining the legislated right to remotely access
+documents and other records would assist in its investigations. Currently:
+The IGTO has direct access to some of the ATO’s main customer record
+systems. This access is specified in the IGTO-ATO Protocol and is subject to
+the ongoing agreement of the ATO. Having full and free access as a right
+would assist my office to expedite inquiries and strengthen my
+independence in conducting investigations.58
+1.52 Having a right to physically and remotely access documents and records would
+expedite certain aspects of the IGTO’s investigations, as the IGTO explained:
+At the commencement of an investigation, my office would normally submit
+a “request for information” to the ATO or TPB for data, documents or
+records that we believe will inform our analysis and investigations. This is
+reliant on tax officials searching for and seeking appropriate clearance to
+provide the requested information. It also relies on clear and unambiguous
+requests from my agency and on the ATO/TPB understanding the request
+and responding to the intent of the request. There can be instances where
+documents exist that the IGTO is not aware of, and thus are not included
+within the request for information but which are material to our enquiries.59
+1.53 The current model relies upon ‘public servants doing the right thing and
+providing what is asked for, or offering alternatives if what is asked for is not
+available, including additional materials for context or background’. The bill
+would allow IGTO officers to directly access ATO or TPB systems and records
+to pursue ‘an important line of enquiry’. That power would be exercised
+transparently with IGTO officers ‘explaining what they are looking for and
+why’. There would be ‘clear consequences’ for failures to provide access to
+relevant systems and records which, in the IGTO’s view, ‘brings appropriate
+“teeth” to the requirement’. The IGTO ‘expects these powers to be used only in
+exceptional circumstances’.60
+1.54 The Independent Tertiary Education Council Australia (ITECA) raised concerns
+about extending the remote access power to the OSO and VSLO. It argued that
+granting remote access powers to those offices could have unintended
+consequences that prejudice investigations:
+ITECA urges caution regarding a proposal to grant both the OSO and the
+VSLO an additional capability for remote access to potentially
+confidential business information, student records, and other documents
+57 Office of the Commonwealth Ombudsman, Submission 3, pp. 5–6.
+58 Inspector-General of Taxation and Taxation Ombudsman (IGTO), Submission 1, p. 4.
+59 IGTO, Submission 1, p. 4.
+60 IGTO, Submission 1, p. 4.
+13
+in the absence of any context, purely because they may be potentially
+relevant to a complaint (which may or may not lead to an investigation).
+Such records may prejudice an investigation rather than assist it and in cases
+where students have genuine and well-founded complaints, may be more
+likely to harm any subsequent investigation than assist it.61
+1.55 The EM explains that the OSO provides ‘assurance to the public that private
+education providers operate with integrity and accountability in their dealings
+with overseas students’.62
+1.56 Similarly, the VSLO provides ‘assurance to the public that [vocational education
+and training (VET)] student loans scheme providers operate with integrity and
+accountability in their dealings with VET students’.63
+1.57 Extending the remote access powers to the OSO and VSLO would ensure that
+those offices have ‘access to modern powers necessary to undertake full,
+independent and transparent investigations’.64
+1.58 The Attorney-General’s Department (AGD) explained that the remote access
+powers:
+…would not expand the scope or type of information that the Ombudsman
+is able to access under its existing powers but would instead ensure powers
+can be exercised consistent with contemporary practices and without first
+having to enter an agency’s premises.65
+1.59 The AGD also assured the committee there would be limitations on the remote
+access power:
+The remote access power would not be unfettered. Access would be
+required to be undertaken by an authorised officer of the Ombudsman for
+the purposes of a specific investigation. The Ombudsman would also be
+required to give notice of the intention for one or more authorised persons
+to access the documents or records and the period of access.66
+1.60 A failure to provide the Ombudsman with reasonable facilities and assistance to
+facilitate its remote access power would be an offence. The offence ‘is intended
+to ensure that agencies cannot frustrate the Ombudsman’s ability to access the
+information it needs to conduct effective investigations’.67
+61 Independent Tertiary Education Council Australia, Submission 7, p. 2.
+62 EM, p. 20.
+63 EM, p. 25.
+64 EM, p. 20; p. 25.
+65 AGD, Submission 4, p. 3.
+66 AGD, Submission 4, p. 4.
+67 AGD, Submission 4, p. 4.
+14
+1.61 Agencies would be able to mount a defence against this requirement in instances
+‘where facilitating access would pose an unacceptable risk to the security of any
+documents or records or to the system where they are stored’. According to the
+AGD:
+The defence is intended to clarify that it would not be unreasonable for an
+agency to refuse to provide facilities and assistance to the Ombudsman
+provided there are legitimate and serious security reasons that mean remote
+access would not be appropriate.68
+1.62 The AGD stated that the enhancement of the investigatory powers available to
+the Ombudsman and IGTO would ‘provide greater assurance to the public that
+agencies are acting with integrity and accountability’.69
+1.63 The enhanced investigatory powers would be applied ‘to all statutory offices
+held by the Ombudsman under the Ombudsman Act’. The extension of those
+powers to all of the Ombudsman’s statutory offices:
+…would ensure there is clear responsibility on the part of all bodies within
+jurisdiction to provide assistance to the Ombudsman and would provide the
+Ombudsman with access to modern powers that support full, independent
+and transparent investigations regardless of the function it is performing.70
+1.64 The AGD indicated that the amendments would:
+…implement recommendation 21.2 of the Royal Commission in full, and are
+intended to strengthen the Ombudsman’s powers and reinforce the
+responsibility of agencies to proactively assist the Ombudsman in an
+investigation.71
+Statutory duty to assist the Ombudsman
+1.65 The bill would impose a statutory duty on principal officers of government
+departments or prescribed authorities to ‘ensure the Department or prescribed
+authority uses its best endeavours to assist the Ombudsman in the performance
+of the Ombudsman’s functions’.72
+1.66 That duty would also apply to staff working within those departments or
+prescribed authorities.73
+1.67 According to the EM:
+The introduction of this statutory duty is intended to reinforce the
+responsibility of agency heads to ensure their agency acts in good faith and
+68 AGD, Submission 4, p. 4.
+69 AGD, Submission 4, p. 1.
+70 AGD, Submission 4, p. 4.
+71 AGD, Submission 4, p. 3.
+72 Item 13 in Part 1 of Schedule 1 of the bill; proposed subsection 32(1) of the bill.
+73 Item 13 in Part 1 of Schedule 1 of the bill; proposed subsection 32(2) of the bill.
+15
+proactively assists the Ombudsman in the performance of their functions. It
+is also intended to make it clear that responsibility to assist the Ombudsman
+rests with every member of the public service.74
+1.68 The EM clarifies that a failure to comply with the statutory duty could constitute
+a breach of the APS Code of Conduct and may attract sanctions.75
+1.69 The statutory duty would apply to all of the Ombudsman’s statutory offices.
+According to the EM, this would require ‘all bodies within jurisdiction, as well
+as their staff, to use their best endeavours to assist the Ombudsman in the
+performance of the Ombudsman’s functions’.76
+1.70 The EM outlines the importance of ensuring that the statutory duty applies to
+all of the Ombudsman’s functions:
+Each of these statutory offices play an important role in ensuring that
+complaints about the actions of government and key private industries, are
+resolved effectively and providing assurance to the public that these sectors
+are operating with integrity and accountability. Extending the statutory
+duty to assist the Ombudsman to each of these statutory offices is intended
+to support the performance of these important functions by ensuring that
+there is clear responsibility on the part of bodies within jurisdiction to
+provide assistance to the Ombudsman.77
+1.71 Commonwealth agencies that are involved in the oversight system universally
+submitted that while the current system works well, the statutory duty that
+would be introduced by the bill would improve it.78
+1.72 For example, the IGTO stated:
+Overall, the current system works well and everyone involved in the system
+generally acts to do the right thing and to respect the important role of
+independent oversight authorities. However, the relationship between
+scrutineer and the subject of scrutiny can give rise to tensions or to create
+reticence and defensiveness, which can impact the efficiency or effectiveness
+of investigations.79
+1.73 The Ombudsman and the IGTO indicated that the bill would make it clear that
+public servants are required to assist in their investigations and that failing to
+74 EM, p. 26.
+75 EM, p. 26. Note: the sanctions are outlined in section 15 of the Public Service Act 1999.
+76 EM, p. 26.
+77 EM, p. 26.
+78 IGTO, Submission 1, p. 3; Office of the Commonwealth Ombudsman, Submission 3, p. 5; Office of the
+Inspector-General of Intelligence and Security, Submission 5, [p. 2].
+79 IGTO, Submission 1, p. 3.
+16
+do so may constitute a breach of the Australian Public Service Code of
+Conduct.80
+1.74 The IGTO viewed the introduction of the statutory duty as ‘an important
+addition to our checks and balances’. It referred to the lessons of the Robodebt
+scheme, which demonstrated:
+…that investigations should not be solely reliant on the co-operation of
+those under scrutiny for access to relevant information or documentation.
+This new measure is unequivocal and timely: all public servants have a legal
+duty to assist the Ombudsman (and for [Australian Taxation Office
+(ATO)/Tax Practitioners Board (TPB)] officials to assist the IGTO) without
+undue delay, distraction or withholding of relevant material.81
+1.75 The IGTO indicated that the statutory duty ‘would act as a prevention and
+deterrent measure to any tax official considering blocking or delaying the
+progress of an IGTO investigation’. If an official does not assist with an
+investigation, the IGTO would be in a position:
+…to confidently resolve the issue with the Commissioner so that the
+investigation could proceed and that light can be shone on any part of the
+tax system where there is a complaint, cause for concern or opportunity for
+improvement.82
+1.76 Professor Groves argued that the introduction of the statutory duty could foster
+a cultural change across the public service that would be of benefit to public
+oversight:
+The duties to assist contained in the Bill have the potential to foster a culture
+in departments and agencies that they should move beyond the literal words
+used in an inquiry by an oversight agency to ask “is there anything more we
+should draw to their attention?”. The potential of the Bill to help this sort of
+cultural change is commendable.83
+1.77 The AGD stated that the bill would not only implement recommendation 21.1
+of the Royal Commission report in full, but extend to all of the functions
+performed by the Ombudsman:
+The inclusion of the statutory duty implements recommendation 21.1 of the
+Royal Commission in full. While the Royal Commission recommended the
+statutory duty apply in the context of investigations by the Ombudsman, the
+Bill would extend the statutory duty to assisting the Ombudsman in the
+performance of all of their functions. This would include making preliminary
+inquiries, conducting investigations and following up on implementation of
+recommendations. This is intended to reflect the full spectrum of the
+Ombudsman’s functions, which are not limited to investigations, and
+80 IGTO, Submission 1, p. 3; Office of the Commonwealth Ombudsman, Submission 3, p. 5.
+81 IGTO, Submission 1, p. 3.
+82 IGTO, Submission 1, pp. 3–4.
+83 Professor Groves, Submission 6, p. 3.
+17
+emphasise the importance of engaging with the Ombudsman in good faith
+at all times.84
+Committee view
+1.78 The Oversight Legislation Amendment (Robodebt Royal Commission Response
+and Other Measures) Bill 2024 would amend the Ombudsman Act 1976 and the
+Inspector-General of Taxation Act 2003 to implement recommendations 21.1 and
+21.2 of the Report of the Royal Commission into the Robodebt Scheme. The bill would
+enhance the oversight powers of the Commonwealth Ombudsman and the
+Inspector-General of Taxation and Taxation Ombudsman. It would also
+introduce a statutory duty to assist those offices in performing their functions.
+1.79 The Royal Commission into the Robodebt Scheme found that it cannot be
+assumed that public servants will participate in good faith with investigations
+conducted by the Commonwealth Ombudsman. For that reason, it
+recommended that a statutory duty be imposed on public servants to ensure
+that they use their best endeavours to assist the Office of the Commonwealth
+Ombudsman in its investigations.
+1.80 To further strengthen the investigatory powers available to the Commonwealth
+Ombudsman, the bill would also require agencies to provide reasonable
+facilities and assistance during investigations. Allowing the Commonwealth
+Ombudsman to remotely access documents and information belonging to
+entities under investigation would modernise the investigatory powers
+available to it.
+1.81 The Office of the Commonwealth Ombudsman told the committee that the
+findings of the Royal Commission into the Robodebt Scheme demonstrated that
+it must be responsible for determining the relevance of information and not the
+agency under investigation.
+1.82 In the Office of the Commonwealth Ombudsman’s view, the Explanatory
+Memorandum is not clear on this point in relation to the new remote access
+power. It indicated that an agency under investigation may deliberately or
+accidentally obfuscate information relevant to an investigation on the grounds
+that particular databases, information or data are not relevant.
+Recommendation 1
+1.83 The committee recommends that the government considers amending
+paragraph 58 of the Explanatory Memorandum to clarify that the purpose of
+the remote access power is to enable the Office of the Commonwealth
+Ombudsman to independently search for information relevant to its
+investigations.
+84 AGD, Submission 4, p. 3.
+18
+1.84 In the committee’s view, the bill strengthens the Commonwealth’s oversight
+agencies by making it clear that all entities under their jurisdiction have a duty
+to cooperate in good faith with their investigations. The bill also enhances the
+powers available to the Commonwealth’s oversight agencies. Those measures
+would assist in building faith in the Commonwealth’s system of accountability
+and would help to ensure that the public service operates for the benefit of all
+Australians.
+Recommendation 2
+1.85 Subject to the preceding recommendation, the committee recommends that
+the Senate pass the bill.
+Senator Nita Green
+Chair
+Appendix 1
+Submissions and Additional Information
+Submissions
+1 Inspector-General of Taxation and Taxation Ombudsman
+2 Civil Liberties Australia
+3 Office of the Commonwealth Ombudsman
+4 Attorney-General's Department
+5 Office of the Inspector-General of Intelligence and Security
+6 Professor Matthew Groves
+7 Independent Tertiary Education Council Australia
+8 Fotra Group Consulting
+ Attachment 1
+19

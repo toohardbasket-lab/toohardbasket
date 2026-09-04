@@ -1,0 +1,1879 @@
+The Senate
+Economics Legislation Committee
+Future Made in Australia (Production Tax
+Credits and Other Measures) Bill 2024
+[Provisions]
+January 2025
+© Commonwealth of Australia 2025
+ISBN 978-1-76093-772-0 (Printed version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by the Senate Printing Unit, Parliament House, Canberra
+Members
+Chair
+Senator Jess Walsh ALP, VIC
+Deputy Chair
+Senator Andrew Bragg LP, NSW
+Members
+Senator Deborah O'Neill ALP, NSW
+Senator Jana Stewart ALP, VIC
+Senator Nick McKim AG, TAS
+Senator Dean Smith LP, WA
+Secretariat
+Sean Turner, Committee Secretary
+Michael Fisher, Research Officer
+Bryn Catlin, Administrative Officer
+PO Box 6100
+Parliament House Ph: (02) 6277 3540
+Canberra ACT 2600 Email: economics.sen@aph.gov.au
+iii
+
+Contents
+Members ............................................................................................................................................. iii
+Abbreviations and acronyms ......................................................................................................... vii
+Chapter 1—Introduction .................................................................................................................... 1
+Purpose of the bill ................................................................................................................................ 1
+Background ........................................................................................................................................... 2
+Guarantee of Origin Scheme ................................................................................................... 3
+Community Benefit Principles ................................................................................................ 4
+Previous reports ........................................................................................................................ 5
+Provisions of the bill ............................................................................................................................ 5
+Schedule 1 .................................................................................................................................. 5
+Eligible companies ......................................................................................................... 6
+Eligible hydrogen .......................................................................................................... 7
+Administration ............................................................................................................... 8
+Schedule 2 .................................................................................................................................. 8
+Schedule 3 .................................................................................................................................. 9
+Financial impact ................................................................................................................................. 10
+Human rights implications ............................................................................................................... 10
+Schedules 1 and 2......................................................................................................... 10
+Schedule 3 ..................................................................................................................... 11
+Conduct of the inquiry ...................................................................................................................... 11
+Acknowledgements ........................................................................................................................... 12
+Notes on references ............................................................................................................................ 12
+Chapter 2—Views on the bill.......................................................................................................... 13
+Overview ............................................................................................................................................. 13
+Hydrogen Production Tax Incentive ............................................................................................... 16
+Minimum project size threshold ............................................................................... 18
+Extending the timeframe for support ....................................................................... 19
+Eligibility of different hydrogen production types ................................................ 20
+Critical Minerals Production Tax Incentive ................................................................................... 20
+Reform of Indigenous Business Australia borrowing powers .................................................... 23
+v
+Community benefit principles ......................................................................................................... 23
+Other issues raised ............................................................................................................................. 26
+Indexation of payments ......................................................................................................... 26
+Level of incentive for investment ......................................................................................... 27
+Increasing demand for hydrogen ......................................................................................... 28
+Dual agency arrangements .................................................................................................... 28
+Commencement dates for production tax incentives ........................................................ 29
+Committee view ................................................................................................................................. 29
+Hydrogen and Critical Minerals Production Tax Incentives ............................................ 29
+Indigenous Business Australia .............................................................................................. 30
+Coalition Senators' Dissenting Report.......................................................................................... 33
+Greens Senators' Additional Comments ...................................................................................... 45
+Appendix 1—Submissions and additional information ........................................................... 47
+Appendix 2—Public Hearings and Witnesses ............................................................................. 49
+vi
+Abbreviations and acronyms
+ACCI Australian Chamber of Commerce and Industry
+ACTU Australian Council of Trade Unions
+AMEC Association of Mining and Exploration Companies
+ATO Australian Taxation Office
+ATSI Act Aboriginal and Torres Strait Islander Act 2005
+AWU Australian Workers’ Union
+the bill Future Made in Australia (Production Tax Credits and
+Other Measures) Bill 2024
+BZE Beyond Zero Emissions
+CCTC Clean Commodities Trading Company
+CEC Clean Energy Council
+CER Clean Energy Regulator
+CMEWA Chamber of Minerals and Energy of Western Australia
+CMPTI Critical Minerals Production Tax Incentive
+the committee Senate Economics Legislation Committee
+DISR Department of Industry, Science and Resources
+FID final investment decisions
+GHO Green Hydrogen Organisation
+GO Scheme Guarantee of Origin Scheme
+HPTI Hydrogen Production Tax Incentive
+IBA Indigenous Business Australia
+ICCPR International Covenant on Civil and Political Rights
+ICESCR International Covenant on Economic, Social and Cultural
+Rights
+IPA Institute of Public Affairs
+MCA Minerals council of Australia
+PGO Product Guarantee of Origin
+PGPA Act Public Governance, Performance and Accountability Act 2013
+PTI Production tax incentives
+Treasury Department of the Treasury
+UK United Kingdom of Great Britian and Northern Ireland
+UNDRIP United Nations Declarations on the Rights of Indigenous
+Peoples
+US United States of America
+WGEH Western Green Energy Hub
+vii
+
+Chapter 1
+Introduction
+1.1 On 28 November 2024, the Senate referred the provisions of the Future Made in
+Australia (Production Tax Credits and Other Measures) Bill 2024 (the bill) to the
+Senate Economics Legislation Committee (the committee) for inquiry and report
+by 30 January 2025.1
+1.2 The first chapter of this report outlines the purpose and provisions of the bill.
+Chapter two examines stakeholder views on the bill and provides the committee
+view and recommendation.
+Purpose of the bill
+1.3 Key features of the bill include:
+ the establishment of the Hydrogen Production Tax Incentive (HPTI) in the
+form of a new tax offset;
+ the establishment of the Critical Minerals Production Tax Incentive (CMPTI)
+in the form of a new refundable tax offset; and
+ the amendment of the Aboriginal and Torres Strait Islander Act 2005 (ATSI
+Act) to reform Indigenous Business Australia’s (IBA) borrowing powers to
+enable greater investment in First Nations individuals, communities and
+businesses.2
+1.4 The bill partially implements the Future Made in Australia – Making Australia a
+Renewable Energy Superpower and the Future Made in Australia – Attracting
+Investment in Key Industries measures in the 2024-25 Budget.
+1.5 In his second reading speech, the Treasurer, the Hon Dr Jim Chalmers MP,
+stated:
+We have been dealt the most incredible set of cards as a country to make
+ourselves the primary beneficiaries of the global net zero economy. We have
+a unique combination of geological, meteorological, geographical and
+geopolitical advantages. And we know that it would be an egregious breach
+of our generational responsibilities as a government if we didn't play this
+winning hand. This legislation is part of how we make the most of that
+opportunity.3
+1.6 Further, the Treasurer asserted that the bill:
+1 Journals of the Senate, No. 146, 28 November 2024, p. 4492.
+2 Explanatory Memorandum (EM), pp. 1–3.
+3 The Hon Dr Jim Chalmers MP, Treasurer, House of Representatives Hansard, 25 November 2024, p.
+35.
+1
+2
+ provides industry the clarity and certainty that it needs to invest in
+Australian renewable hydrogen and critical minerals projects;
+ opens the door to create green metals including iron, steel, alumina, and
+aluminium;
+ creates trade opportunities in products that are produced from green
+hydrogen, like green ammonia or green metals;
+ takes advantage of Australia’s ownership of some of the world's largest
+reserves of lithium, cobalt and rare earths;
+ encourages critical mineral companies to create more value within Australia
+by helping critical minerals miners to become critical minerals refiners and
+processors as well.4
+1.7 The final part of the bill expands the role and remit of IBA by amending the
+ATSI Act to give IBA the flexibility to pursue a range of opportunities with
+government and private partners to support First Nations economic
+empowerment.5 IBA promotes First Nations economic self-determination
+through lending and investment in home ownership, business support, and
+assets and investments. These activities support First Nations people to start,
+grow, and sustain businesses, purchase homes, and invest in commercial
+ventures with the aim of long-term self-sufficiency and economic
+empowerment.6
+1.8 The Explanatory Memorandum states that the amendments to the ATSI Bill
+enable IBA to directly borrow to allow increased investment to support First
+Nations economic empowerment. Access to capital continues to be a significant
+barrier to First Nations economic development and empowerment, and without
+amendments to the ATSI Act, the IBA is constrained in its ability to pursue
+opportunities to finance activities that align with government priorities.7
+Background
+1.9 In the 2024-25 Budget, the government announced a $22.7 billion Future Made
+in Australia agenda.8 The initiatives in the package aim to create new jobs and
+opportunities across Australia by maximising the economic and industrial
+benefits of the move to net zero carbon emissions. The agenda included a
+4 The Hon Dr Jim Chalmers MP, Treasurer, House of Representatives Hansard, 25 November 2024, pp.
+35–36.
+5 The Hon Dr Jim Chalmers MP, Treasurer, House of Representatives Hansard, 25 November 2024, p.
+37.
+6 EM, p. 77.
+7 EM, pp. 77–78.
+8 Australian Government, Cost of living help & a future made in Australia, May 2024, p. 30.
+3
+National Interest Framework to guide targeted public investment into priority
+industries and sectors.9
+1.10 Renewable hydrogen was identified as being aligned with the Net Zero
+Transformation Stream of the National Interest Framework as it was assessed
+that public investment could aid in unlocking private investment to drive the
+development of a renewable hydrogen industry. Australia has committed to
+reaching net zero greenhouse gas emissions by 2050, and the development of
+the renewable hydrogen industry will go towards facilitating the net zero
+transition and meeting Australia’s international commitments.10
+1.11 Similarly, the processing of critical minerals was identified as a priority sector
+under the Economic Resilience and Security stream of the National Interest
+Framework. Investment in downstream critical minerals processing is seen as a
+way to value-add from the initial stages of mining critical minerals and growing
+capability in processing and refinement.11
+Guarantee of Origin Scheme
+1.12 Supporting the Future Made in Australia agenda is the Guarantee of Origin
+Scheme (GO Scheme). The GO Scheme is a voluntary framework to track and
+verify emissions associated with renewable electricity and clean products,
+including hydrogen. Participants in the scheme will be able to use emissions
+accounting methodologies to create certificates for each kilogram of hydrogen
+produced. These certificates can then be used as evidence of the characteristics
+associated with their product.12
+1.13 The GO Scheme uses profiles to capture information about users of the scheme.
+Three types of profiles can be registered:
+ A production profile – which captures information about the production
+facility, including the owners, the location, capacity, or electrolyser size.
+ A delivery profile – which captures information about entities transporting
+or storing the product between the point of production and point of use.
+ A consumption profile – which captures details about the end consumption
+of the product.13
+1.14 Holders of a production profile can create certificates for each kilogram of
+hydrogen. These will contain details including the production pathway and the
+emissions-intensity of the hydrogen. Once a delivery profile holder has added
+9 EM, p. 7.
+10 EM, p. 7.
+11 EM, pp. 35–36.
+12 EM, p. 7.
+13 EM, pp. 7–8.
+4
+post-production information to the certificate, the holder of the production
+profile can apply to the Clean Energy Regulator (CER) to register the certificate.
+If the CER approves, the certificate will be published on the register.14
+Community Benefit Principles
+1.15 As part of the Future Made in Australia agenda, the government established the
+Community Benefit Principles. These principles aim to ensure that public
+investment, and the private investment it attracts, flows to communities in ways
+that benefit local workers and businesses. The Community Benefit Principles
+are:
+ promote safe and secure jobs that are well paid and have good conditions;
+ develop more skilled and inclusive workforces, including by investing in
+training and skills development and broadening opportunities for
+workforce participation;
+ engage collaboratively with and achieve positive outcomes for local
+communities, such as First Nations communities and communities directly
+affected by the transition to net zero;
+ supporting First Nations communities and traditional owners to participate
+in, and share in the benefits of, the transition to net zero;
+ strengthen domestic industrial capabilities including through stronger local
+supply chains; and
+ demonstrate transparency and compliance in relation to the management of
+tax affairs, including benefits received under Future Made in Australia
+Supports.15
+1.16 Decision makers must consider these principles when delivering Future Made
+in Australia programs to ensure that the benefits of these investments are widely
+shared. As the explanatory memorandum to the Future Made in Australia Bill
+2024 sets out, this requirement:
+…can be satisfied through further specification of requirements for Future
+Made in Australia supports on a program-by-program basis, such as by
+issuing guidance in a Statement of Expectations to an independent
+authority, implementing specific requirements as part of relevant legislation
+or program guidelines, or requiring the satisfaction of a Future Made in
+Australia Plan.16
+14 EM, p. 8.
+15 Future Made in Australia (Omnibus Amendments No. 1) Bill 2024, Revised Explanatory Memorandum,
+pp. 9–10.
+16 Future Made in Australia Bill 2024, Explanatory Memorandum, p. 10.
+5
+1.17 Specific commitments can be made enforceable through contractual or legal
+mechanisms, which could also specify appropriate consequences if these
+conditions are not met.17
+Previous reports
+1.18 In September 2024, this committee tabled its report into the provisions of the
+Future Made in Australia Bill 2024 and the Future Made in Australia (Omnibus
+Amendments No. 1) Bill 2024. The committee recommended that the bills be
+passed and was strongly of the view that ‘the Community Benefit Principles are
+an integral aspect of the Future Made in Australia agenda’. The committee
+particularly supported the requirement for government to have regard to these
+principles during decision-making, and for recipients of Future Made in
+Australia funding to adhere to them, to ensure that ‘the public benefit of the
+Future Made in Australia agenda is genuinely felt in the community and the
+economy’.18
+Provisions of the bill
+1.19 The bill contains three schedules:
+ Schedule 1 established the HPTI in the form of a new tax offset called the
+hydrogen production tax offset. This is a refundable tax offset that is
+available at a rate of $2 per kilogram of eligible hydrogen.19
+ Schedule 2 establishes the CMTPI, in the form of a new refundable tax
+offset, to support the processing of critical minerals in Australia.20
+ Schedule 3 amends the ATSI Act to reform IBA’s borrowing powers to
+enable greater investment in First Nations individuals, communities and
+businesses.21
+Schedule 1
+1.20 Schedule 1 to the bill amends the tax law to allow the establishment of the HPTI.
+The HPTI takes the form of a refundable tax offset of $2 per kilogram of eligible
+hydrogen. The offset is available to companies that meet the requirements set
+out in the bill and there is no cap on the amount a company can receive under
+the offset. The HPTI can only be claimed for hydrogen produced between 1 July
+17 Future Made in Australia Bill 2024, Explanatory Memorandum, p. 10.
+18 Senate Economics Legislation Committee, Future Made in Australia Bill 2024 [Provisions] and the
+Future Made in Australia (Omnibus Amendments No. 1) Bill 2024 [Provisions], September 2024, p. 59.
+19 EM, p. 5.
+20 EM, p. 33.
+21 EM, p. 77.
+6
+2027 and 1 July 2040, as it is the government’s intention that this measure
+support early investment.22
+1.21 The Department of Climate Change, Energy, the Environment and Water
+(DCCEEW) reported that hydrogen production and export targets are central
+aspects of Australia’s 2024 National Hydrogen Strategy. The strategy sets a target
+for Australia to produce at least 15 million tonnes of renewable hydrogen per
+year by 2050, supported by 5-yearly milestones. Achieving these targets requires
+significant private investment. According to DCCEEW, the HPTI will ‘help to
+bridge the commercial gap currently facing renewable hydrogen projects and
+enable the sector to achieve scale by supporting early movers and building
+familiarity within the hydrogen and finance sectors with large scale projects’.23
+Eligible companies
+1.22 There are four requirements for a company to be eligible for the HPTI in any
+income year. A company must:
+ be a constitutional corporation;
+ hold the GO Scheme production profile under which the hydrogen was
+produced;
+ be subject to Australian tax in relation to any income from its activities
+relating to the production of the hydrogen; and
+ comply with the rules implementing the community benefit principles for
+the HPTI.24
+1.23 The first requirement for a company to be entitled to the tax offset is that it is a
+constitutional corporation. Entities that are not corporations, such as trusts or
+partnerships, cannot be constitutional corporations and are not eligible for the
+hydrogen production tax offset. If a company that is a member of a consolidated
+group is a constitutional corporation and satisfies all the other requirements to
+be eligible for the hydrogen production tax offset, the head entity for the group
+will be able to claim the hydrogen production tax offset in respect of the
+member’s entitlement.25
+1.24 The second requirement for a company to be entitled to the offset is the creation
+of the Product Guarantee of Origin (PGO) certificate for hydrogen under the GO
+Scheme. To be able to create a PGO certificate, the company must be the holder
+of the production profile related to the hydrogen. This requirement will make it
+22 EM, p. 9.
+23 Department of Climate Change, Energy, the Environment and Water, Submission 14, pp. 3–5.
+24 EM, p. 10.
+25 EM, p. 10.
+7
+clear which company exactly is entitled to the tax offset for any quantity of
+hydrogen.26
+1.25 The third requirement for tax offset eligibility is the need to be subject to
+Australian tax on income from ‘the activities in the course of which it created
+the PGO certificate’. This makes it so that a company must be in a position where
+any income derived from their activities relating to the production of hydrogen
+must be taxable in Australia. It should be noted that this does not mean that the
+company must derive taxable income in a particular income year, just that it
+must be subject to tax on any income it might derive.27
+1.26 The final requirement for a company to be eligible is the need for the company
+to comply with the community benefit principles for the HPTI. The rules
+implementing the community benefit principles for the HPTI are made by the
+Treasurer and specify conditions that must be met for a company to be eligible
+for the offset. A company may also have its offset reduced in a given year if they
+do not comply with the rules. The Explanatory Memorandum notes that the
+rules will need regular updating to address changing circumstances, and so it is
+not considered feasible to include the requirements in primary law. However,
+the rules will be subject to disallowance and sunsetting after ten years and will
+therefore be subject to appropriate parliamentary scrutiny.28
+Eligible hydrogen
+1.27 Eligibility rules also apply to the hydrogen produced. For a kilogram of
+hydrogen to be eligible for the offset it must meet the following criteria:
+ produced in Australia between 1 July 2027 and 1 July 2040;
+ a registered PGO certificate for the kilogram of hydrogen that indicates the
+hydrogen was:
+− produced at the facility specified in the production profile,
+− the production emissions intensity of the hydrogen did not exceed 0.6 kg
+of carbon dioxide per kilogram of hydrogen, and
+− if electricity used to produce the hydrogen was sourced from a grid, it
+meets the grid matching requirements;
+ the nominated production profile was certified at the time of production;
+ the kilogram of hydrogen was produced during the offset period for the
+facility and the production pathway; and
+ no correction notice for the PGO certificate is in force.29
+26 EM, p. 11.
+27 EM, pp. 11–12.
+28 EM, p. 13.
+29 EM, p. 14.
+8
+Administration
+1.28 The HPTI will be jointly administered by the Australian Taxation Office (ATO)
+and CER. The CER’s responsibilities are mainly in the certification of production
+profiles. All significant decisions of the CER are subject to administrative review
+by the Administrative Review Tribunal.30
+1.29 The ATO will be the main administrator of the tax offset. The tax offset will be
+self-assessed by the company with an amount included in the company’s
+income tax return in relation to a given income year. The ATO’s general
+administration, dispute, and compliance powers and functions will apply.31
+Schedule 2
+1.30 Schedule 2 to the Bill establishes the CMPTI in the form of a new refundable tax
+offset. The offset is available for income years starting 1 July 2027 and ending
+1 July 2040 and is equal to ten per cent of the eligible expenditure of the
+company.32
+1.31 A company is eligible for the offset if it meets the following requirements:
+ it is a constitutional corporation;
+ the income year starts on or after 1 July 2027 and ends on or before 30 June
+2040;
+ it carries out one or more CMPTI processing activities for which it is
+registered within the income year;
+ it incurred CMPTI expenditure for the income year through carrying out
+one or more of these processing activities;
+ it is not an exempt entity;
+ the company meets the conditions of any rules implementing the
+community benefit principles for that income year; and
+ it satisfies residency requirements during the income year.33
+1.32 A company can register an activity for the CMPTI by applying to the Secretary
+of the Department of Industry, Science and Resources (DISR). The application
+must detail the critical mineral processing activities, the facilities at which the
+activities will occur, and the basis on which the company considers it will satisfy
+the requirements to be eligible for the CMPTI tax offset.34
+1.33 Eligible activities are those that involve transforming a critical mineral through
+extractive metallurgical processing into a purer or more refined form of the
+30 EM, p. 26.
+31 EM, p. 26.
+32 EM, p. 36.
+33 EM, pp. 37–38.
+34 EM, p. 36.
+9
+mineral.35 Eligible critical minerals can be found on DISR’s Critical Minerals List
+as of 14 May 2024. Any minerals added or removed from the Critical Minerals
+List after this time will not automatically result in changes to the status of critical
+minerals in the legislation for the purposes of the CMPTI tax offset.36
+1.34 Activities including mining, beneficiation, and manufacturing are not included
+as CMPTI processing activities. In most cases, these activities would not involve
+extractive metallurgical processing or transformation of a critical mineral. Also,
+it does not matter if these activities occur as part of a wider process. If an activity
+involves one of these excluded activities it is not a CMPTI processing activity.
+The regulations may prescribe further exclusions in future.37
+Schedule 3
+1.35 According to the Explanatory Memorandum, Schedule 3 of the bill:
+…amends the ATSI Act to give IBA a power to borrow money in connection
+with the performance of its functions where it is authorised by the PGPA
+Act or where the Minister for Finance has agreed to rules prescribing the
+circumstances and limits of the borrowing.38
+1.36 IBA’s objective is to promote self-sufficiency and long-term economic
+empowerment for First Nations communities across Australia. It does this
+through lending, investment, and support for First Nations home ownership,
+business support, and assets and investments. Access to capital is a key barrier
+for economic development and empowerment and, without amendments to the
+ATSI Act, IBA is constrained in how it can pursue opportunities for finance.39
+1.37 The amendments provided for in Schedule 3 would repeal and substitute the
+existing Section 183 with the following:
+183 Borrowing
+(a) Indigenous Business Australia must not borrow money for a purpose in
+connection with Indigenous Business Australia’s functions unless the
+borrowing is authorised by subsection (2) or under section 57 of the
+Public Governance, Performance and Accountability Act 2013.
+(b) Indigenous Business Australia rules (see section 189A) may prescribe:
+(i) circumstances in which Indigenous Business Australia may borrow
+money for a purpose in connection with Indigenous Business
+Australia’s functions; and
+35 EM, p. 36.
+36 Department of Industry, Science and Resources, Australia’s Critical Minerals List and Strategic
+Materials List, 20 February 2024 (accessed 17 January 2025).
+37 EM, p. 57.
+38 EM, p. 78.
+39 EM, p. 77.
+10
+(ii) limits or conditions on the borrowing of such money.40
+1.38 These amendments allow IBA to borrow for a purpose connected to its
+functions, as long as the borrowing is authorised by rules agreed to by the
+Minister for Finance or under section 57 of the Public Governance, Performance and
+Accountability Act 2013 (PGPA Act). Doing so allows IBA to borrow in a tailored
+way while maintaining appropriate controls to limit financial risks.41
+1.39 Schedule 3 also enables the Minister to make rules, in the form of a legislative
+instrument, called the Indigenous Business Australia rules. The rules would
+prescribe the circumstances and limits for borrowing by IBA and will be subject
+to the same level of parliamentary scrutiny as regulations, including
+consideration by the Senate Standing Committee for the Scrutiny of Delegated
+Legislation.42
+1.40 Any rules that are inconsistent with the ATSI Act are taken to be consistent to
+the extent that they can operate concurrently with existing regulations.43
+Financial impact
+1.41 Schedule 1 of the bill is estimated to have a financial impact of $6.7 billion over
+the ten years from 2024-25, beginning in 2027-28.44 Schedule 2 of the bill is
+estimated to have a financial impact of $7 billion over the 11 years from 2023-24,
+beginning in 2027-28.45
+1.42 Schedule 3 to the bill has been assessed to have no financial impact.46
+Human rights implications
+Schedules 1 and 2
+1.43 The Explanatory Memorandum states that Schedules 1 and 2 of the bill are
+‘compatible with human rights as [they do] not raise any human rights issues.’
+The sole effect of these two schedules is to provide for payments and reductions
+in tax liabilities for affected companies and industries. 47
+40 Future Made in Australia (Production Tax Credits and Other Measures) Bill 2024 (FMIA Bill),
+Schedule 3, Item 2.
+41 EM, p. 78.
+42 EM, p. 79.
+43 EM, p. 79.
+44 EM, p. 1.
+45 EM, p. 2.
+46 EM, p. 4.
+47 EM, pp. 83–84.
+11
+Schedule 3
+1.44 Schedule 3 to the Bill engages the right to self-determination in Article 1 of the
+International Covenant on Civil and Political Rights (ICCPR) and Article 1 of the
+International Covenant on Economic, Social and Cultural Rights (ICESCR). The
+right to self-determination under the ICCPR and ICESCR is a collective right
+that applies to groups of peoples and entails the entitlement of people to have
+control over their destiny and to be treated respectfully. This includes the
+freedom to collectively pursue their economic, social and cultural development
+without interference.48
+1.45 Additionally, the United Nations Declarations on the Rights of Indigenous
+Peoples (UNDRIP) provides for Indigenous peoples to participate in decision-
+making for matters which would affect their rights. Participation is through
+representatives chosen by themselves in accordance with their own procedures.
+The Explanatory Memorandum explains that although UNDRIP is not included
+in the definition of ‘human rights’ under the Human Rights (Parliamentary
+Scrutiny) Act 2011, it informs the way governments engage with and protect the
+rights of First Nations people.49
+1.46 The Explanatory Memorandum states that:
+Access to capital continues to be a significant barrier to First Nations
+economic development and empowerment. Schedule 3 to the Bill 2024 will
+allow IBA to borrow and raise funds, providing IBA with flexibility to
+pursue a range investment opportunities and ultimately deploy a greater
+amount of finance and investment to support First Nations economic
+empowerment.50
+1.47 The Explanatory Memorandum concludes that Schedule 3 to the bill is
+compatible with human rights as it promotes the right to self-determination
+under the ICCPR and ICESCR.51
+Conduct of the inquiry
+1.48 The committee advertised the inquiry on its website and wrote to relevant
+stakeholders and interested parties inviting written submissions by 9 January
+2025.
+1.49 The committee received 49 submissions as well as answers to questions on
+notice, which are listed at Appendix 1.
+48 EM, p. 85.
+49 EM, p. 85.
+50 EM, pp. 85–86.
+51 EM, p. 86.
+12
+1.50 The committee held a public hearing for the inquiry in Canberra on
+23 January 2025. The names of witnesses who appeared at the hearing can be
+found at Appendix 2.
+Acknowledgements
+1.51 The committee thanks all individuals and organisations who assisted with the
+inquiry, especially those who made written submissions and participated in the
+public hearing.
+Notes on references
+1.52 In this report, references to the Committee Hansard are to the Proof Hansard
+and page numbers may vary between Proof and Official Hansard transcripts.
+Chapter 2
+Views on the bill
+2.1 This chapter considers inquiry participants’ evidence on the provisions of the
+Future Made in Australia (Production Tax Credits and Other Measures) Bill 2024 (the
+bill). The chapter begins by giving an overview of general views on the bill,
+before outlining views on specific provisions to establish the hydrogen
+production tax incentive (HPTI) and critical minerals production tax incentive
+(CMPTI), and amendments to the Aboriginal and Torres Strait Islander Act (ATSI
+Act) to enhance the borrowing powers of Indigenous Business Australia (IBA).
+2.2 The chapter concludes with the committee’s views and recommendation.
+Overview
+2.3 In general, inquiry participants were supportive of the bill.1 Submitters were
+encouraged by the intent to promote economic resilience and bring more value-
+adding processing onshore. The committee heard that production tax credits
+contained in the bill will help to lower production costs in green hydrogen and
+critical minerals, helping to build and support a globally competitive,
+sustainable, and value-adding critical minerals sector.2
+2.4 Several submitters noted that similar schemes are in place in other countries –
+including the United States (US), Japan, South Korea, Canada, the European
+Union, and the United Kingdom (UK) – and stressed that Australia must
+implement similar measures to remain competitive.3 Broadly, most submitters
+believe the bill goes towards achieving that goal. The Australian Chamber of
+Commerce and Industry (ACCI) welcomed the proposed production tax
+incentives and put Australia’s current levels of investment in clean energy in
+context compared to international competitors:
+Compared to our international competitors, Australia has low rates of
+private investment in clean energy relative to the size of its economy.
+Businesses face significant challenges when considering large scale
+investments as Australia is a high input cost country. Construction costs,
+regulatory and environmental approval processes, as well as labour costs
+and an onerous industrial relations system, weigh heavily on the cost of
+production in Australia. A business is likely to think twice about
+1 Australian Hydrogen Council, Submission 8; Climate Energy Finance, Submission 10; BP Australia,
+Submission 28; Bloom Energy, Submission 34.
+2 Chamber of Minerals and Energy of Western Australia (CMEWA), Submission 15, p. 1.
+3 Minerals Council of Australia (MCA), Submission 3, pp. 1–2; Association of Mining and
+Exploration Companies (AMEC), Submission 6, p. 1; Green Hydrogen Organisation (GHO),
+Submission 39, p. 1; Clean Energy Council (CEC), Submission 40, p. 1.
+13
+14
+establishing or re-investing in Australia, when the cost, regulatory
+constraints and time to realise their investment is likely to be much greater
+in another country … Production tax incentives (PTI) are one such measure
+to make it easier for new industries to establish and become competitive.4
+2.5 The Australian Workers’ Union (AWU) estimated that Australia’s current
+pipeline of proposed hydrogen projects would create around 20 000 operational
+jobs and over 160 000 roles in the construction phase, while the critical minerals
+project pipeline could deliver another 21 000 ongoing jobs in the coming years.
+This is in addition to the thousands of indirect roles in construction, energy,
+chemical supply, and transportation that would also be created.5
+2.6 The Australian Council of Trade Unions (ACTU) praised the bill for boosting
+Australia’s contribution to global climate mitigation. Ms Michele O’Neil,
+President, ACTU, told the committee that the bill represented:
+… an essential investment in Australia's economy, in Australian workers, in
+Australian jobs and in keeping Australians safe from the worst impacts of
+the climate crisis—impacts that we saw all too closely in terms of the
+devastating urban wildfires we saw sweep through Los Angeles in just the
+last few weeks. It's an investment in re-industrialising our country, with the
+cornerstone net zero industries of green hydrogen and critical minerals
+mining and processing.6
+2.7 ACTU advised that Australia's critical minerals industry alone has the potential
+of reducing the global emissions profile of critical minerals industries by 47 per
+cent. At full capacity, this would make Australia the third largest contributor to
+global climate mitigation, behind China and the US.7 ACTU argued that
+‘renewable hydrogen is the best long-term decarbonisation solution for
+Australia's highest greenhouse gas emitters’ but that it won’t be produced at
+scale without early support. Hence, it believed that the bill is an ‘essential and
+timely’ investment in Australia’s de-carbonised future.8
+2.8 Ms O’Neil told the committee that the Future Made in Australia agenda and the
+support for the green hydrogen and critical minerals industries would help
+create the jobs of the future, including for current workers in fossil fuel
+industries:
+You would understand that the transition is something that causes concern
+for working people, particularly those who have worked in fossil fuel
+industries for many years. They've had good, secure jobs, where their unions
+4 Australian Chamber of Commerce and Industry (ACCI), Submission 48, p. 1.
+5 Australian Workers’ Union (AWU), Submission 47, pp. 2–3.
+6 Ms Michele O’Neil, President, Australian Council of Trade Unions (ACTU), Proof Hansard, 23
+January 2025, p. 21.
+7 ACTU, Submission 49, p. 2.
+8 ACTU, Submission 49, pp. 3–4.
+15
+have won, over many years, improvements in pay, conditions and safety.
+People want to make sure that the jobs that are created in the future are
+similarly secure jobs—that they're safe jobs, jobs where people themselves,
+their kids and their grandkids have a future. So there is broad support for
+the need to make sure that we don't wait. We don't want to see people losing
+jobs in sectors and industries that are inevitably going to be affected by the
+transition without the new jobs of the future being created and being there.
+There needs to be a strong bridge for people to be able to walk from one job
+into another without a gap in between. So there is broad support for the
+Future Made in Australia bill, in a broader sense, but also, in particular, this
+work in terms of critical minerals and green hydrogen.9
+2.9 Mr Neil van Drunen, Acting Chief Executive Officer, Association of Mining and
+Exploration Companies (AMEC), praised the Treasury and the Australian
+Taxation Office (ATO) for efforts in consulting with industry on the bill. Mr van
+Drunen described the process as ‘excellent’, particularly in listening to concerns
+over testing regimes.10 Mr Aaron Walker, Manager, Industry Competitiveness
+and Economics, and Head, Economics, Chamber of Minerals and Energy of
+Western Australia (CMEWA), concurred, describing CMEWA’s experience in
+consultation as ‘fruitful and collaborative’.11
+2.10 Mr Walker elaborated at the public hearing that the measures will assist in
+keeping up with other jurisdictions:
+It's an important signal to investors who are looking to make decisions on
+where to deploy capital, so the sooner we can legislate this and have it
+available in Australia the sooner investors will know that there is support
+and that we compete with what is available in other countries.12
+2.11 The CMEWA expressed their support or the bill and requested it’s swift passage
+as drafted:
+[CMEWA] supports the swift passage of the CMPTI as drafted but believes
+further adjustments would maximise its impact and ability to effectively
+compete with other jurisdictions.
+With respect to the HPTI, [CMEWA] supports its swift passage as drafted to
+stimulate investment and the supply of renewable hydrogen, which will, in
+turn, support the decarbonisation of hard-to-abate sectors, including the
+potential to develop a domestic green iron industry.13
+9 Ms O’Neil, ACTU, Proof Hansard, 23 January 2025, p. 22.
+10 Mr Neil van Drunen, Acting Chief Executive Officer, Association of Mining and Exploration
+Companies AMEC, Proof Hansard, 23 January 2025, p. 13.
+11 Mr Aaron Walker, Manager, Industry Competitiveness and Economics, and Head, Economics,
+CMEWA, Proof Hansard, 23 January 2025, p. 13.
+12 Mr Walker, CMEWA, Proof Hansard, 23 January 2025, p. 13.
+13 Mrs Anita Logiudice, Assistant Director, Policy and Advocacy, CMEWA, Proof Hansard, 23 January
+2025, p. 12
+16
+2.12 Overall, submitters welcomed the bill as a positive and forward-looking
+measure that can help support Australia's competitiveness in these strategic
+industries. Stakeholders believed that passage of the bill would be instrumental
+in fostering sustainable industries, creating high-value jobs, and adjusting to a
+decarbonised economy.14
+Hydrogen Production Tax Incentive
+2.13 Participants in the inquiry were strongly supportive of the introduction of the
+HPTI. Submitters praised the measure as a relatively simple, transparent, and
+efficient mechanism to support early movers in the green hydrogen industry.15
+While placing the hydrogen tax incentive within a larger suite of government
+policies to support the hydrogen industry—including policies in
+development—Dr Fiona Simon, Chief Executive Officer, Hydrogen Energy
+Council, suggested that the HPTI would play a key role in making hydrogen
+commercial and signalling to investors that Australia was serious about
+attracting project investment:
+With hydrogen, we talk about the commercial gap. We should note that this
+is the gap between what it costs to make it now—with first-of-its-kind small
+complex integrated facilities without a market or ecosystem—and the cost
+of achieving the same energy or product outcome by relying on the
+established fossil fuel industry without a carbon price. Hydrogen is
+currently uncommercial as a result, despite it being able to solve the hardest
+part of humanity's existential climate crisis. That's because we haven't
+sufficiently valued solving the problem. This is where the hydrogen
+production tax incentive comes in. It's not the only solution, but it plays a
+vital role in closing the economic gap. Companies only receive it when they
+are eligible, including once they've produced hydrogen which meets the
+criteria. It's an elegant means of incentivising the private sector to make
+investments that are in the Australian public interest.16
+2.14 Industry was strongly supportive of the bill and encouraged its swift passage
+through parliament.17 Fortescue submitted that the introduction of the HPTI will
+be critical to the deployment of commercial scale green hydrogen projects, green
+metals processing (particularly green iron), and low carbon liquid fuel
+developments. This will then enable downstream industries to prosper,
+including manufacturing. Fortescue advised that by processing iron ore onshore
+14 Beyond Zero Emission (BZE), Submission 2, p. 3.
+15 GHO, Submission 39, p. 1; CEC, Submission 40, p. 3.
+16 Dr Fiona Simon, Chief Executive Officer, Hydrogen Energy Council, Proof Hansard, 23 January 2025,
+p. 16.
+17 Fortescue, Submission 20, p. 1; BP Australia, Submission 28, p. 1.
+17
+into value-added green iron this could add up to up to $170 billion in export
+revenue from Western Australia alone by 2050.18
+2.15 Dr Simon emphasised that, in addition to the ‘enormous’ economics and
+strategic opportunities that a strong hydrogen industry would provide,
+industry would also be a critical part of Australia’s decarbonisation, and
+government support was in turn critical to supporting that industry:
+We know we don't get to net zero without hydrogen, but we don't get to
+hydrogen if we don't have serious government support to kickstart the
+nascent industry, given that we haven't costed into our economy the
+externality of carbon emissions and therefore pass it onto the private sector
+to manage.19
+2.16 InterContinental Energy highlighted that the HPTI aligns with other large-scale
+renewable energy initiatives, such as the Western Green Energy Hub (WGEH),
+and has the potential to establish Australia as a leading exporter of green
+hydrogen. It argued that by mitigating some of the financial risk, the measure
+‘provides a more stable and attractive environment for investors in this
+emerging sector, which requires substantial upfront capital’. InterContinental
+illustrated the effect of the HPTI on Australia’s prospects as an exporter of green
+hydrogen and associated products, advising that in the months since the
+announcement of the HPTI there has been increased interest in WGEH from
+international buyers. In the ammonia market, the HPTI will bring the forecast
+cost of green ammonia down from over $800 per tonne to under $650 per tonne.20
+2.17 The ACCI acknowledged that the technology for large-scale production of
+renewable hydrogen is still evolving and is limited by cost barriers. While
+technological advancements will aid in reducing the costs over time, the HPTI
+is a welcome mechanism to increase support for this emerging industry.21 The
+CMEWA agreed, saying that the measure would stimulate investment in the
+supply of renewable hydrogen, and the decision to award the offset regardless
+of end-use would be critical for establishing new, long-term trading
+opportunities for Australian hydrogen.22
+2.18 The Clean Energy Council (CEC) welcomed the stipulation that the credit can
+only be claimed after the verified production of the hydrogen, meaning that
+public support is not provided if the company does not produce the
+commodity.23 The CEC pointed out that an internationally competitive clean
+18 Fortescue, Submission 20, pp. 1–2.
+19 Dr Simon, Hydrogen Energy Council, Proof Hansard, 23 January 2025, p. 16.
+20 InterContinental Energy, Submission 22, p. 2.
+21 ACCI, Submission 48, p. 2.
+22 CMEWA, Submission 15, p. 3.
+23 CEC, Submission 40, p. 3.
+18
+hydrogen production industry would help to position Australia to develop its
+own sovereign production capability in low-carbon liquid fuels. Such fuels
+would be particularly important for hard-to-electrify transport modes, such as
+aviation and shipping, and would reduce our dependence on fuel imports. For
+example, renewable ammonia and methanol are top prospects for the
+decarbonisation of maritime fuels, both of which rely on green hydrogen for
+production.24
+2.19 The CEC was also welcoming of the proposed emissions intensity threshold of
+0.6kg/CO2-e or less per kilogram of hydrogen. The CEC noted that this was
+more stringent than the international Green Hydrogen Organisation’s (GHO)
+‘Green Hydrogen Standard’ of 1kg or less of CO2-e per kilogram of hydrogen,
+however, it is readily achievable for renewable hydrogen projects via
+electrolysis.25 The GHO concurred, stating that ‘low carbon hydrogen produced
+from fossil fuels should not benefit from taxpayer support’ given the large
+subsidies already received by those industries and the need for Australia to
+move its energy system away from fossil fuels and focus more on renewables.26
+2.20 The Institute of Public Affairs (IPA) opposed the bill on the grounds that
+‘hydrogen as an energy storage mechanism is an unproven and experimental
+solution’ to energy reliability problems. The IPA expressed concern about heavy
+intervention and subsidies being used to support an industry that it asserts ‘is
+not economically viable’ and ‘is simply too risky to invest in – both for taxpayers
+and the private sector’. Instead, the IPA proposed extending support to
+Australia’s existing baseload power stations to support Australia’s energy
+security.27
+Minimum project size threshold
+2.21 Numerous submitters recommended expanding the minimum project size
+threshold from 10MW or greater to just 1MW or greater in order to capture more
+potential projects. The CEC supported such a measure, saying that it would
+serve for administrative simplicity and avoid creating a two-tiered funding
+system which would force smaller projects to seek out alternative support
+options.28
+2.22 The CMEWA also advocated for a minimum threshold of 1MW. The proposed
+threshold of 10 MW would exclude small-scale hydrogen production – used for
+distributed passenger or heavy-duty transport – or energy storage and
+24 CEC, Submission 40, p. 1.
+25 CEC, Submission 40, p. 3.
+26 GHO, Submission 39, p. 2.
+27 Institute of Public Affairs, Submission 42, p. 1–2.
+28 CEC, Submission 40, p. 4.
+19
+generation on microgrids. Opening the scheme up to smaller operators will be
+particularly useful to support localised, off-grid projects.29
+Extending the timeframe for support
+2.23 The CEC pointed out that hydrogen production facilities typically have a life in
+the range of 20-30 years. Despite this, the bill limits the maximum support to ten
+years of production. By limiting support in this way, the CEC argued, investors
+will be subject to higher risk in the project’s later years of operation.
+Additionally, these early-mover projects would need to pass on higher costs to
+consumers as they mature out of the ten-year range, just as newer and lower-
+cost projects could be expected to begin operations. The CEC recommended
+extending the subsidy’s effects over a longer time frame to lower the effective
+price per kilogram over the life of the support, improve the bankability of the
+project, and ensure that the value of the credit is not diluted.30
+2.24 The ACCI opposed such a measure, instead describing the ten-year time limit
+as ‘sensible’ and asserting that government should not be supporting an
+industry if it is not sustainable over the long-term. While supportive of the
+measure to help in establishing projects, the ACCI expects that, over the long
+term, ‘production of renewable hydrogen industry will increase in scale, the
+technology will be further refined, competition between producers will increase,
+and production costs will steadily decrease’. It was strongly of the view that if
+Australia is to build a renewable hydrogen industry it must be self-sustaining
+and profitable over the long term without government assistance.31
+2.25 The ACCI did express concern that the window of time to access the HPTI may
+be too narrow. With a business needing to make the final investment decisions
+(FID) on a prospective facility before 1 July 2030 to be eligible for the HPTI, the
+ACCI felt that the five-year timeframe may be too short for some projects to meet
+necessary regulatory requirements, form agreements with suppliers and
+customers, and gain environmental approvals. As such, it recommended
+extending the date for the final investment decision to 1 July 2035 while
+maintaining the conclusion of the scheme on 1 July 2040. Those entering the
+scheme after 2030 would simply have a shorter period of access to the HPTI.32
+2.26 This view was shared by the CMEWA. It pointed out that many projects will be
+conditional on the build-out of renewable generation capacity and of
+transmission infrastructure. Given that some of this is managed by the states,
+there is a risk that some companies may not be able to meet the 2030 deadline
+29 CMEWA, Submission 15, p. 4.
+30 CEC, Submission 40, p. 4.
+31 ACCI, Submission 48, p. 2.
+32 ACCI, Submission 48, pp. 2–3.
+20
+for reasons that are out of their control. Ark Energy also advised that labour may
+be an issue for the extensive buildout of infrastructure given the isolated
+location of many projects and competition with other significant projects like the
+2032 Brisbane Olympics.33 Even projects that are able to meet the 2030 deadline
+may not begin production until the mid-2030s. In contrast to the ACCI, the
+CMEWA suggested that the current end date of 1 July 2040 be extended further
+out to allow companies additional ramp up time.34
+Eligibility of different hydrogen production types
+2.27 Some inquiry participants argued that the HPTI should be available to types of
+hydrogen other than green hydrogen. For example, ACCI suggested that
+consideration should also be given the eligibility of blue hydrogen (that is,
+processes involving carbon capture and storage) where the production
+processes are kept below a certain emissions intensity.35
+2.28 The CMEWA noted that while the HPTI was limited to electrolytic hydrogen,
+other jurisdictions, such the US and the UK, provided government supports or
+incentives to low-carbon hydrogen production from other production
+pathways. It recommended that the government ‘should consider support for
+other low-carbon production pathways including CCUS [Carbon Capture,
+Utilisation and Storage]-enabled production’.36
+2.29 Beyond Zero Emissions (BZE), on the other hand, submitted that the legislation
+should explicitly state that the tax credit is limited to green hydrogen only and
+exclude hydrogen production methods reliant on fossil fuels.37
+Critical Minerals Production Tax Incentive
+2.30 Stakeholders expressed strong support for the establishment of the CMPTI. BZE
+submitted that the establishment of the ten per cent tax offset represents a
+significant and welcome shift from the ‘dig and ship’ model and indicates a
+move towards value-added critical minerals production.38 AMEC commented
+that the introduction of the CMPTI will reduce the production cost disadvantage
+currently faced by Australian projects. Doing so will make the cost of doing
+business, once in production, more competitive on an international scale.39
+33 Ark Energy, Submission 17, p. 2.
+34 CMEWA, Submission 15, pp. 3–4.
+35 ACCI, Submission 48, p. 3.
+36 CMEWA, Submission 15, p. 4.
+37 BZE, Submission 2, p. 3.
+38 BZE, Submission 2, p. 1.
+39 AMEC, Submission 6, p. 2.
+21
+2.31 While holding some concerns, the Minerals Council of Australia (MCA)
+expressed their support for the CMPTI during the public hearing. Mr Ross
+Lyons, Chief Economist at the Minerals Council of Australia told the inquiry:
+The MCA supports the critical minerals production tax incentive because it
+is a positive step towards attracting investment in the critical minerals
+industry
+…
+We support the bill because the bill is going to help to reduce the cost of
+production for people that develop facilities downstream
+…
+we've got member companies that have existing downstream facilities—
+they've already invested—so they will benefit from the critical minerals
+production tax incentive when it commences on 1 July 2027. We've got a lot
+of other members that are mining the mineral–obviously, that's not eligible
+for the critical minerals production tax incentive—and they're in
+consideration of whether they will go to downstream processing as well.
+This will assist with the decision-making.40
+2.32 The MCA commended the eligibility for the CMPTI being limited to value-
+adding processing activities post extraction rather than on the purity of the
+output. The MCA said that this focuses investment on downstream processing
+activity and reduces complexity and uncertainty about what activities may be
+covered.41 The AWU was also welcoming of the CMPTI’s downstream effects
+and suggested that such benefits could be further utilised by offering a larger
+incentive to recipients that prioritise offtake by domestic operations. Such a
+measure could ‘help drive the creation of near-complete value chains within
+Australia’ and add further jobs, returns, and capability than processing and
+refining alone.42
+2.33 Submitters were supportive of the time limitation on the scheme. The ACCI
+supported the ten-year window of eligibility, submitting that if we are to build
+‘a critical mineral processing industry in Australia it must be self-sustaining and
+profitable over the long term without government assistance’.43 BZE agreed that
+the CMPTI ‘should be time limited to ensure that production is incentivised to
+achieve long term economic viability’ and that doing so would encourage
+‘companies to scale operations and achieve profitability within a defined
+period’.44
+40 Mr Ross Lyons, Chief Economist, MCA, Proof Hansard, 23 January 2025, pp. 6–7.
+41 MCA, Submission 3, p. 2.
+42 AWU, Submission 47, p. 6.
+43 ACCI, Submission 48, p. 4.
+44 BZE, Submission 2, p. 2.
+22
+2.34 In consultations with industry prior to the announcement of the CMPTI, Mr
+Marty Robinson, First Assistant Secretary, Corporate and International Tax
+Division, Department of the Treasury (Treasury), noted that the originally
+proposed 30 June 2030 cutoff date for FIDs had been an area of concern:
+We received some feedback from stakeholders that raised some concerns
+around the proposed 30 June 2030 cut-off date for final investment decisions,
+for projects to be eligible for assistance. Some of that feedback was that the
+timeframes for the development of projects, from conception through to the
+technical design phases, environmental approvals and other forms of
+regulatory approvals, can take some time. There was a concern that the cut-
+off date might preclude projects that might even be underway for
+development at the moment, so the government elected to remove that final
+investment decision cut-off requirement.45
+2.35 The FID cutoff was removed ‘to not exclude any new investment into critical
+minerals processing given the long lead times for projects’ and to ensure the
+measure would not favour existing producers.46
+2.36 The ACCI supported the introduction of the CMPTI, while at the same time
+arguing that one of the reasons for the lack of onshore processing in the past has
+been Australia's high environmental standards and emissions reduction
+regulations. It suggested that ‘significant changes to environmental standards
+and environmental approval processes … will also be needed to encourage
+investment in further transformation of critical minerals in Australia’.47
+2.37 AMEC, while supportive of the CMPTI, also touched on the need for
+complementary measures, observing that there are other issues in the Australian
+regulatory system that affect competitiveness on the international market and
+that the CMPTI is not a ‘silver bullet’ to solving such concerns. AMEC noted the
+‘long approval timeframes, fundamental land access issues and high
+construction costs’ have frustrated producers in Australia, as well as ‘immature
+common-user infrastructure and utilities services’ that will remain an issue even
+after the introduction of the CMPTI.48
+2.38 CMEWA agreed, commenting that ‘the introduction of a CMPTI by itself is
+unlikely to shift the dial for Australia's competitiveness against other
+jurisdictions’. Instead, the CMPTI should be one of a range of complimentary
+measures including streamlined federal-state approvals processes, the provision
+of shared infrastructure, further training for required skills, and the timely
+delivery of a low emission, reliable and cost-competitive energy system. The
+45 Mr Marty Robinson, First Assistant Secretary, Corporate and International Tax Division,
+Department of the Treasury (Treasury), Proof Hansard, 23 January 2025, pp. 27–28.
+46 Explanatory Memorandum, p. 166.
+47 ACCI, Submission 48, p. 4.
+48 AMEC, Submission 6, p. 2.
+23
+CMEWA also recommended that the tax offset be extended to include all
+minerals on Australia's Critical Minerals List and Strategic Materials List to
+capture copper, bauxite-alumina (aluminium), zinc, and uranium.49
+Reform of Indigenous Business Australia borrowing powers
+2.39 The UNSW Energy Institute submitted that the proposed amendments to IBA’s
+borrowing capacity would provide help for more First Nations communities to
+benefit from investments in the net zero transformation. Raising capital to
+support Indigenous interests, the UNSW Energy Institute submitted, has long
+been a barrier to investment and this concern is directly addressed by these
+amendments. The UNSW Energy Institute told the committee that it has
+received reports from Indigenous groups that they have been unsuccessful in
+approaches to IBA for support to raise capital for an equity interest in projects.
+This new measure should aid in future approaches.50
+2.40 However, the UNSW Energy Institute did not believe that the amendments
+would unlock all the additional resources required to fully support
+communities’ engagement and investment in the Future Made in Australia
+agenda. While a good start, the UNSW Energy Institute explained that the
+amendments need to be supplemented by additional and complementary
+initiatives, such as an increase in First Nations people’s access to Special
+Investment Vehicles and the establishment of a First Nations Clean Energy and
+Investment Fund, as recommended by the First Nations Clean Energy and
+Climate Change Advisory Committee.51
+Community benefit principles
+2.41 The AWU welcomed the community benefit principles (CBPs) and called for a
+strengthening of the CBPs in the bill. In applauding the goal of the CBPs in
+promoting secure, well-paid jobs and stronger domestic capability, the AWU
+felt that the bill’s requirement for the Treasurer to have ‘regard’ for the CBPs
+when setting community benefit rules was too weak. Mere regard for the CBPs,
+the AWU submitted, would allow for rules that are ‘only broadly consistent,
+partly consistent, or even inconsistent’ with the CBPs. Rather than having regard
+for the rules, the AWU recommended that the bill should explicitly state that the
+community benefit rules for the HPTI and CMPTI must be consistent with the
+CBPs.52
+49 CMEWA, Submission 15, p. 3.
+50 UNSW Energy Institute, Submission 30, p. 3.
+51 UNSW Energy Institute, Submission 30, p. 3.
+52 AWU, Submission 47, p. 5.
+24
+2.42 Ms O’Neil spoke firmly in favour of the CBPs, suggesting they would be critical
+to the success of the measures:
+They are the mechanism through which we ensure a fair share of the wealth
+that will be generated by these tax credits goes directly to Australian
+workers and communities, not just corporate shareholders. The US Inflation
+Reduction Act attached very similar conditions to its tax credits—conditions
+on payment of prevailing wages, on apprenticeship utilisation, the number
+of apprentices, domestic content and community benefits, particularly for
+low-income, energy transition and First Nations communities.53
+2.43 Ms O’Neil added that the CBPs would help ensure that the benefits from the
+Future Made in Australia agenda ‘flow fairly’:
+… that they flow, of course, to the companies that are investing—that they
+are profitable and they see their shareholders benefit—but not solely to
+them. We want to make sure that those very communities—and the
+Australian community who owns these resources, if you think of critical
+minerals as an example—are able to also share those benefits. Those benefits
+need to be tangible. You need to see local jobs, as I've been focusing on
+today. But you also need to make sure that they are good-quality jobs,
+because those communities will not thrive if the jobs aren't secure, safe, well-
+paid and fair jobs.54
+2.44 The ACTU also called for tighter rules around the CBPs, noting that if they were
+going to succeed they would need to be ‘specific and verifiable, with clear
+metrics to determine whether a project proponent is compliant’. The ACTU
+warned that vague or ambiguous rules will result in ‘little material benefit for
+workers and communities, and risk facilitating ‘social washing’ of the critical
+minerals industry and the emerging green hydrogen industry‘.55 In order to
+avoid having the CBPs sacrificed to the concerns of special interest groups and
+corporate shareholders, the ACTU recommended that they be ‘firmly cemented
+with rules that ensure the community benefits described are fully delivered’.56
+2.45 However, some submitters urged caution in applying CBPs too rigidly so as not
+to stifle the aims of the bill. The Business Council of Australia (BCA) said it does
+not oppose CBPs, but that their consideration in eligibility for the production
+tax incentives should be designed so as not to be too restrictive. BCA asserted
+that just by funding projects there would be downstream benefits to the
+community and that the fundamental criterion for support should be ‘the extent
+to which government assistance will help turn around our current poor
+53 Ms O’Neil, ACTU, Proof Hansard, 23 January 2025, p. 21.
+54 Ms O’Neil, ACTU, Proof Hansard, 23 January 2025, p. 23.
+55 ACTU, Submission 49, p. 5.
+56 ACTU, Submission 49, p. 7.
+25
+productivity performance by making Australian industry more competitive and
+our nation more attractive for investment.’57
+2.46 BCA also warned that a rigid interpretation of the CBPs risked increasing costs,
+duplicating existing processes, and offsetting any competitive gains created by
+the tax incentives.58 This view was shared by the MCA, who further noted that
+the approvals processes for mining and mineral processing projects are already
+‘extensive and rigorous’ and that adding further conditions makes for an
+‘unnecessary and duplicative’ feature of the CMPTI. The MCA contended that
+uncertainty about the application of the CBPs could leave some companies
+confused about eligibility for the CMPTI and that if companies have to re-apply
+on a year-by-year basis, it would contradict the intent of the bill to provide
+certainty for investors.59 The bill, however, does not impose an annual
+registration requirement.
+2.47 Mr Robinson explained at the public hearing:
+[the] PTIs will be designed such that they are then going to be available to
+taxpayers on that self-assessment basis and would be claimed through the
+tax system in the way that taxpayers might claim other types of concessions
+or assistance through the tax system.60
+2.48 AMEC observed that the bill is largely silent on how the CBPs will be applied,
+leading to fear that they will be so onerous that they will not make the CMPTI
+worthwhile. To avoid this, AMEC recommended that ‘the whole tax group is
+considered, rather than the specific sub-unit that is the mineral processing unit’.
+This would, it argued, alleviate the challenge of apportioning the community
+benefit between the mine, which will have hundreds of jobs, and the
+downstream processing part, which may have fewer roles but more technical
+skill sets.61
+2.49 ACCI questioned the relevance of the CBPs, noting that they are ‘unrelated to
+the investment or the efficient production of hydrogen or critical minerals’. In
+the ACCI’s view, CBPs could potentially lead to inflexible contracting
+arrangements, higher operating costs, and reduced productivity. Additionally,
+they submitted that if an annual renewal of the certificate of registration were
+required, it could represent a considerable risk to investors as a failure to renew
+57 Business Council of Australia (BCA), Submission 16, p. 1.
+58 BCA, Submission 16, p. 1.
+59 MCA, Submission 3, p. 2.
+60 Mr Robinson, Treasury, Proof Hansard, 23 January 2025, p. 29.
+61 AMEC, Submission 6, p. 4.
+26
+could result in the shutdown of the project.62 The bill however does not impose
+and annual registration requirement.
+2.50 AMEC expressed concern that the legislation does not provide clarity as to how
+burdensome the annual reporting requirements will be as that level of detail is
+managed via the regulations and rules. AMEC reported that industry members
+have raised concerns that CBP reporting requirements, if too onerous, risk
+outweighing the benefits of the tax offset.63
+2.51 The CMEWA highlighted that different communities across Australia seek
+different benefits that reflect their local needs. As such, a CBPs assessment
+process should not be so stringent that it ignores the desires of the communities
+that it purports to help. The CMEWA advised the committee that the Western
+Australian resources sector is committed to high environmental, social, and
+governance standards and, in many cases, CBPs are already being met.64
+2.52 Mr Robinson responded to concerns about the application of CBPs, highlighting
+that the government:
+…will be distinguishing between how the community benefit principles are
+designed and how they might operate for general support programs versus
+how they will apply for the production tax incentives. In particular, in the
+tax system it is going to be important that the benefit principles are rules
+based and objective rather than subjective in their application. That's
+consistent with the general approach in the tax system and implementation
+of policies in the tax system. They need to be generally applicable, non-
+arbitrary, enable and support the self-assessment system used by taxpayers
+and give certainty.65
+2.53 Mr Robinson also reiterated the importance of the CBPs, underscoring that:
+the government's objective here is to ensure that, when it's providing
+substantial support to business, there is a reciprocal obligation on business
+to ensure that the communities in which they operate benefit from the
+economic opportunities that are created.66
+Other issues raised
+Indexation of payments
+2.54 Both the CEC and GHO felt that the HPTI should be indexed to avoid a
+devaluation of the offset over time. The CEC noted that 70 per cent of the
+operating expenditure of renewable hydrogen projects is accounted for by
+62 ACCI, Submission 48, p. 5.
+63 AMEC, Submission 6, p. 3.
+64 CMEWA, Submission 15, p. 5.
+65 Mr Robinson, Treasury, Proof Hansard, 23 January 2025, p. 28.
+66 Mr Robinson, Treasury, Proof Hansard, 23 January 2025, p. 28.
+27
+electricity and that the industry standard is for electricity power purchase
+agreements to be indexed to inflation or the Consumer Price Index. As such, the
+CEC and GHO believe the $2 per kilogram payment should be indexed to avoid
+an inherently diminishing subsidy over time.67
+2.55 The indexation of payments was also supported by Fortescue. Fortescue pointed
+out that a lack of inflation adjustment means that real value of the tax offset will
+have declined more than ten per cent by the time the HPTI comes into effect,
+and by around a third by the time it expires. Indexing the payments would
+provide a ‘much stronger investment signal for green hydrogen projects until
+the legislation sunsets in 2040’.68
+2.56 When questioned over the decision not to index the payments, Mr Robinson
+explained that the expectation would be for costs of production to lower as the
+industry matures, thereby offsetting any loss of value:
+I think our view was that this assistance is really around trying to bring
+forward and support investment, particularly for those early movers. This
+is partly by design, with the time limited nature of the production tax
+incentives. Over time we expect that, as the technologies and the production
+of approaches firm up and develop, the effective costs of production are
+likely to decline. Essentially, holding the $2 fixed at that nominal level acts
+as a sort of natural taper over the length of the program.69
+Level of incentive for investment
+2.57 In analysis of both the HPTI and CMPTI, the University of New South Wales
+Energy Institute questioned if the two schemes offered enough of an incentive
+to entice a significant number of investors. The UNSW Energy Institute outlined
+two key reasons as to why it is currently challenging to establish green hydrogen
+projects: the cost – comparatively with other countries – of engineering and
+installation, and high operating costs of facilities due to high electricity costs.
+The UNSW Energy Institute noted that this second issue may be solved if
+Australia is able to capitalise on its potential comparative advantage in
+abundant and relatively cheap renewable energy generation; however, this
+would require significant private investment and an increased pace of
+deployment. Without addressing these issues first, a $2 per kilogram offset, it
+argued, may not be enough enticement for companies in comparison to other
+international options.70
+2.58 In regard to the CMPTI, the ACCI also questioned whether a ten per cent offset
+would be enough to entice new investment. It argued that Australian processors
+67 CEC, Submission 40, pp. 3–4; GHO, Submission 39, p. 2.
+68 Fortescue, Submission 20, pp. 2–3.
+69 Mr Robinson, Treasury, Proof Hansard, 23 January 2025, p. 29.
+70 UNSW Energy Institute, Submission 30, p. 2.
+28
+face substantially higher operating costs than their international competitors
+and recommended that a 25 per cent offset may be more appropriate ‘given the
+more stringent regulatory hurdles and high labour cost businesses face in
+Australia.’71
+Increasing demand for hydrogen
+2.59 Dr Elizabeth Thurnbon and Mr Oliver Yates recognised that the production tax
+incentives will spur supply but believed that complementary measures are
+needed to increase demand. They identified the lack of guaranteed demand at
+viable prices as a key barrier, alongside cost of production, to gaining private
+sector investment. Without demand assurance, financing institutions are
+constrained in their ability to support project proposals. Unless a potential
+producer can demonstrate that there exists real demand for their products at a
+guaranteed price sustained over time, significant financial risk remains for the
+lender.72
+2.60 This issue was also raised by the AWU. It observed that, in Australia, green
+hydrogen faces a ‘chicken and egg’ problem – producers are reluctant to invest
+in a product lacking mature offtake markets and buyers ‘will not adopt green
+hydrogen until reliable production emerges and a significant price premium
+over incumbent fuels is addressed’. The AWU contended that multi-faceted
+support is required to overcome such barriers.73
+2.61 To solve this problem, Dr Thurnbon and Mr Yates recommended the
+establishment of a Clean Commodities Trading Company (CCTC). A CCTC
+could ‘act as a state-owned entity that guarantees demand for clean
+commodities by issuing offtake agreements to producers’. Such agreements
+would provide producers with long term purchase commitments and reduce
+the risk in investing in clean energy production facilities. Guaranteeing
+sustained demand over time would complement the production tax credits in
+this bill and ‘ensure that Australia’s clean industrial strategy delivers the
+intended outcomes’.74
+Dual agency arrangements
+2.62 AMEC expressed concern regarding how the dual-agency model of
+administration might work in practice. AMEC was supportive of the
+Department of Industry, Science and Resources (DISR) and the ATO co-sharing
+administrative arrangements. However, AMEC noted the recommendations of
+the Board of Taxation’s Review of R&D tax incentive dual agency administrative
+71 ACCI, Submission 48, p. 4.
+72 Dr Elizabeth Thurnbon & Oliver Yates, Submission 37, p. 3.
+73 AWU, Submission 47, p. 3.
+74 Dr Elizabeth Thurnbon & Oliver Yates, Submission 37, p. 3.
+29
+model, including defining the roles of DISR and the ATO, increased information
+sharing between the two agencies, the issuing of clear and relevant guidance
+material in a timely manner, and an alternative dispute resolution process to
+resolve reviews undertaken by either agency. AMEC recommended that each of
+these recommendations be applied to the CMPTI before any applications are
+accepted.75
+Commencement dates for production tax incentives
+2.63 The CMEWA called for the commencement date of the HPTI and CMPTI offsets
+to be moved forward to 1 July 2026, believing that, given intense international
+competition, industry needs the support as soon as possible.76 This position was
+shared by the BCA, who submitted that bringing forward the start date for the
+tax incentives would help maximise their benefits by beginning earlier. The BCA
+claimed that doing so would not increase the budget impact given the ten-year
+cap on claiming the tax incentives and that bringing the date forward would
+allow for faster approvals for relevant projects.77
+Committee view
+2.1 The Albanese Government’s focus on a Future Made in Australia is a critical
+initiative to ensure Australian industry and workers benefit from the industrial
+transition to decarbonise the economy, promote economic resilience and bring
+more value-adding processing onshore.
+Hydrogen and Critical Minerals Production Tax Incentives
+2.2 The committee is encouraged by the significant amount of support received for
+both the Hydrogen Production Tax Credits and the Critical Minerals Production
+Tax Credits (Production Tax Incentives) from inquiry participants, including
+minerals and hydrogen peaks and producers.
+2.3 In particular, the committee notes and supports calls for the bill to be passed as
+a priority by the Parliament.
+2.4 The committee believes the Production Tax Incentives will be a critical enabler
+to the growth and development of Australia’s renewable hydrogen and critical
+minerals processing sectors, and aligns directly with the government’s
+intentions to attract global capital, accelerate investment in the net zero
+transition and support economic resilience and security.
+2.5 The committee notes views from inquiry participants that the design of the
+Production Tax Incentive is a simple and effective program that will address the
+green premium, support investment confidence, allow Australian industry to
+75 AMEC, Submission 6, p. 3.
+76 CMEWA, Submission 15, p. 2.
+77 BCA, Submission 16, p. 1.
+30
+remain competitive globally and contribute to climate mitigation. The
+committee notes the Production Tax Incentives does not impose an annual
+registration requirement, and is assured by Treasury evidence that it will take
+place through ordinary tax filings.
+2.6 Importantly, the Production Tax Incentives will reward production allowing for
+an efficient use of public support, and encourage early investment in projects to
+secure the full value of the Production Tax Incentives over the 10 years of the
+program.
+2.7 The committee notes calls for the Production Tax Incentives to be expanded in
+various ways, and notes this is an indication of the success the program will
+have for producers and the Australian economy. The committee is of the view
+that the measures strike the right balance between supporting appropriate
+projects and the allocation of public support.
+2.8 The committee welcomes that Community Benefits Principles – which have
+been legislated in the Future Made in Australia Act – will be applied to
+recipients of the Production Tax Incentives, and asserts they will be critical to
+ensuring the benefits of public support are shared with the broader community
+including First Nations, and a skilled workforce.
+2.9 The committee notes the requirements relating to the Community Benefit
+Principles will be set out in rules to be issued by the Minister, and subject to
+further consultation ahead of the program’s commencement. The committee
+welcomes that there will for opportunities for further consultation.
+2.10 The committee notes concerns from some inquiry participants about the
+potential carbon emission in the production process attracting the Production
+Tax Incentives. The committee believes the bill is positively balanced to reduce
+reliance on fossil fuels in the economy, and welcomes features of the bill which
+limit carbon emissions in production.
+Indigenous Business Australia
+2.11 The committee welcomes this schedule which expands the role and remit of
+Indigenous Business Australia (IBA), allowing IBA to undertake capital raising
+and support investment in First Nations communities and businesses around
+the country.
+2.12 The committee is encouraged that this measure will positively support
+economic self-determination for First Nations peoples and communities.
+2.13 The committee notes the cross-party support which has existed for this reform
+for some time and welcomes that there will wider community benefit as a result
+of permitting IBA to make investments into critical projects.
+Recommendation 1
+2.64 The committee recommends that the bill be passed.
+31
+Senator Jess Walsh
+Chair
+Labor Senator for Victoria
+
+Coalition Senators' Dissenting Report
+Overview
+1.1 The legislation presented to this committee, like all elements of the Future Made
+in Australia plan, appears closer to a slogan without detail. Indeed, it seems the
+main thing the government will be manufacturing in the future are the details
+of how the plan will work.
+1.2 It is alarming that a government seeking re-election is building its second term
+agenda on a slogan, not a policy agenda. This is more confounding when
+looking at the stark reality of Labor’s failures on economic management:
+(a) Prices have risen by around 10%, and approaching 18% for working
+families, with trimmed mean inflation remains outside the RBA’s target
+band.
+(b) Real wages have fallen by 1%, and significantly more for working families.
+(c) Labour productivity has collapsed by 6%.
+(d) Australian living standards have collapsed faster than any other advanced
+economy.
+(e) Consumer and business confidence remain at recessionary lows.
+(f) Australia is experiencing record business insolvencies, and rising business
+costs – with 1 in 2 businesses considering closing.
+1.3 In this context it is important to note the following about this legislation that
+was undisputed by Treasury officials, supportive witnesses, and hostile
+witnesses to this policy:
+(a) The tax credits do not come into effect for over two years.
+(b) There will be a compliance cost of up to $100,000 just to claim the tax
+credit, and an ongoing cost each year of up to $22,000.
+(c) A failure to comply with the Community Benefits Principles will lead to a
+reduction in the tax credits available.
+(d) The Community Benefits Principles could range from union agreements,
+duplicative environmental or Indigenous consultation practices, onerous
+tax disclosures, and . There are significant concerns that even if these
+principles aren’t embedded in the rules, the threat of compliance could be
+used to induce such outcomes.
+(e) The Community Benefits Principles will be decided by a Minister at the
+stroke of a pen, and the government has failed to produce guidance on
+what will be included in those regulations.
+1.4 Alarmingly, all these points have been disputed in the press by government
+ministers, who have variously called such assertions “fear mongering” and
+33
+34
+“[lies]” and “[made] up”.1 The Ministers are at odds with their officials and
+witnesses to this hearing and express clauses of the legislation and the
+explanatory memorandum, put to witnesses in this hearing, specifically
+paragraphs 1.48 and 1.51 of the explanatory memorandum and S419-145 and
+S421-45 of the Bill. This raises serious questions if the Ministers understand the
+legislation in the same way as their officials and the witnesses who appeared at
+this committee.
+1.5 The AMWU were clear in their evidence to this committee on the Future Made
+in Australia Act that in their view, the Community Benefits Principles should
+extend to union agreements being made in exchange for taxpayer support.2
+1.6 Witnesses confirmed that the Government has failed to respond to consultation
+concerns about the practice of the Community Benefits Principles, and failed to
+provide clarity about what will be included in the final rules.
+1.7 Tying the value of the tax credit to the Community Benefits Principles raises an
+important policy question: what is actually being incentivised here? The
+Community Benefits Principles mean the tax credits are intrinsically linked to
+social objectives, not economic ones. If the policy objective is to support the
+growth of new industries, tying them down in red tape and compliance costs
+seems at odds with the policy objective.
+1.8 This not only adds significant complexity, but it reveals the lack of vision for
+what Labor’s Future Made in Australia is trying to achieve. This legislative
+design is complex to the point where it appears to be deliberately opaque – and
+the lack of clarity will do nothing to support investment or drive new business
+creation.
+1.9 This stands in stark contrast to the Coalition’s commitment to make the Instant
+Asset Write Off permanent, which will remove the complexity of depreciation
+schedules and support 98% of Australian businesses with tax relief when they
+invest. Similarly, the Coalition’s simplified meal deductions will remove
+complexity of FBT administration for 98% of Australian businesses who accrue
+hospitality meal expenses in the course of legitimate business activities. Both
+these initiatives have significantly lower fiscal costs than the legislation before
+this committee, will come into effect sooner, will support a wider range of
+businesses – yet are opposed by the Labor party.
+1.10 Further, noting the complexity of the legislation and the lack of clarity of the
+policy objectives raised by Coalition Senators and witnesses, the government
+1 Katina Curtis, ‘Ministers label Michaelia Cash a liar on production tax credit union claim,’ The West
+Australian, 6 December 2024. https://thewest.com.au/politics/federal-politics/ministers-label-
+michaelia-cash-a-liar-on-production-tax-credit-union-claim-c-16994471 (accessed 31 January 2025).
+2 Mr Steven Murphy, National Secretary, Australian Manufacturing Workers Union, Committee
+Hansard, 28 August 2024, p. 21; AMWU, Submission 36, p. 5.
+35
+has not been cooperative with this committee with its inquiries. Officials from
+Departments of the Treasury and Department of Industry, Science and
+Resources have failed to respond to questions on notice in time for this report,
+despite the due date being communicated to them at the beginning of their
+evidence. This is an egregious failure of accountability of the executive arm of
+government to the Parliament. Collectively, the government promotes that these
+measures are estimated to cost $22.7 billion of taxpayers money over their
+operation. Parliamentary accountability is a foundational concept of our
+democracy, particularly on tax legislation. It is not sufficient to rely on
+consultations conducted under the non-disclosure agreements, particularly
+when the evidence to this committee was that many concerns raised during the
+consultations – particularly regarding the Community Benefits Principles –
+were ignored.
+1.11 The Future Made in Australia agenda has been criticised by economists, the
+Productivity Commission, and business groups.3 Labor has a failed record of
+industry policy interventions. The Rudd Labor government spent billions of
+taxpayers’ money on manufacturing subsidies to offshore companies, yet saw 1
+in 8 manufacturing jobs lost, a collapse in manufacturing businesses, and
+declining manufacturing exports.
+1.12 This legislation does nothing to support Australian businesses in the next two
+years. Its opaque and deliberately complex design is adding complexity to our
+tax system, not simplifying it. The government has failed to answer basic
+questions about its operation, and the policy is incentivising social objectives,
+not economic ones.
+1.13 For all these reasons, the Coalition believes the legislation should not be passed
+and the Community Benefits Principles provisions amended to expressly
+preclude requirements for union agreements, duplicative environmental
+approvals, or Indigenous consultations.
+Detailed Comments
+1.14 The bill amends the Income Tax Assessment Act 1936, Income Tax Assessment Act
+1997 and Taxation Administration Act 1953 to establish a hydrogen production
+tax offset and to establish a critical minerals production tax incentive; and the
+bill amends the Aboriginal and Torres Strait Islander Act 2005 to enable Indigenous
+Business Australia to borrow money.
+1.15 Through the inquiry, the overarching criticism of the bill has been its total lack
+of clarity regarding the Community Benefit Principles (CBPs), including:
+ The potential requirement for union agreements;
+3 Senate Economics Legislation Committee, Senate Economics Legislation Committee. Future Made in
+Australia Bill 2024 [Provisions] and the Future Made in Australia (Omnibus Amendments No. 1) Bill 2024
+[Provisions], September 2024, pp. 61-72.
+36
+ Uncertainty regarding non-compliance penalties;
+ Increased, potentially duplicative regulatory burden that will likely increase
+project costs and deter investment.
+1.16 Among other key concerns raised were the risk of an increased number of tax
+disputes, given the Australian Tax Office’s potential role in determining
+eligibility, similar to past disputes over R&D incentives, and why the bill must
+pass the Parliament before the 2025 election, when financial incentives do not
+take effect until 2027
+Compulsory Union Agreements
+1.17 There is concern that the CBPs will include compulsory unionism and increased
+industrial relations complexity, which has the potential to deter investment and
+unnecessarily increase costs of production.
+1.18 Senator Smith questioned witnesses about their knowledge of a union
+agreement requirement:
+Senator SMITH: "The AMWU has told this committee, when it was
+considering the Future Made in Australia Act, that these requirements—the
+CBPs—would include a requirement for a union agreement. Is that your
+understanding of the CBPs, and would you agree with that?"4
+1.19 The Minerals Council of Australia was emphatic about the risk these agreements
+would pose:
+Mr Lyons: "No, and that's quite concerning. I wasn't aware of that. I don't
+know whether my colleague Matt Denyer has any comment on that, but it
+would be a concern. It would certainly add a lot of complexity."5
+Risk of Regulatory Burden
+1.20 The lack of clarity regarding CBPs may significantly increase project costs.
+Senator SMITH: "Can you both share with the committee whether or not you
+consider yourself to have a mature, detailed understanding of how the CBPs
+will work or whether your understanding is very broad and shallow?"
+Ms Freeman: "I would say that we have a broad understanding of what the
+CBPs are in general, and we support the intent of those principles. My
+understanding is that there will need to be work done on the rules in terms
+of how this will be applied, and it is important that there is ministerial
+engagement on that. One issue we raised in our submission was that
+investors will need some clarity about how those CBPs will be applied and
+4 Senator Dean Smith, Member, Australian Senate, Committee Hansard, 23 January 2025, p. 4.
+5 Mr Ross Lyons, General Manager, Taxation, Minerals Council of Australia Committee Hansard,
+23 January 2025, p. 9.
+37
+what the expectations will be at the outset of the project—what is involved
+in meeting them."6
+Mr Lyons: We also remain concerned about the potential duplication of
+process created by the CBPs. We support CBPs, but the processes may create
+further barriers and uncertainty as to project eligibility. These concerns are
+not ours in isolation; they've been raised by the Western Australian
+government and other industry groups. We encourage the government to
+consult with industry in relation to this important aspect of the bill.7
+1.21 The Minerals Council of Australia also noted the duplicative administrative
+burden in their inquiry submission:
+The Australian minerals industry produces critical minerals utilising world
+leading sustainability standards, including best practice environmental
+management and community engagement…
+We understand that the requirement to comply with 'community benefit
+principles' is an overarching requirement of the Future Made in Australia
+Act. However, there are already extensive and rigorous approvals process
+that mining and mineral processing projects must adhere to makes this an
+unnecessary and duplicative feature of the CMPTI.8
+1.22 The Australian Chamber of Commerce and Industry also noted this in their
+submission to the inquiry:
+"The additional engagement processes required by the community benefit
+principles parallel existing requirements of the planning and approval
+process. This is simply adding a further layer of administration and
+compliance, without any clear benefit." 9
+1.23 Treasury acknowledged during the inquiry hearing that the lack of detail
+contained within the bill, leads to high compliance costs for businesses – with as
+much as $22,000 a year and $100,000 in its very first year.
+Senator SMITH: "What is the compliance regime to look like, and have I
+understood the regulatory impact statement correctly when it says that
+there's a $100,000 application fee and a $12,000 annual or per-year fee? How
+do those two costs work?"
+Mr Robinson: "I will ask Mr Gebers to respond to that."
+Mr Gebers: "The $100,000 is an estimated compliance cost. There's not
+currently a fee. That regulatory impact statement cost that you reference is
+an estimated amount that it might cost a business as part of that process for
+their internal application fees. I understand that includes seeking tax advice
+6 Ms Anna Freeman, General Manager, Advocacy and Investment, Clean Energy Council, Committee
+Hansard, 23 January 2025, p. 3.
+7 Mr Lyons, Minerals Council of Australia, Committee Hansard, 23 January 2025, p. 6.
+8 Minerals Council of Australia, Submission 3, pp. 1–2.
+9 Australian Chamber of Commerce and Industry, Submission 48, p.6.
+38
+and legal advice and completing that registration process. Then there is an
+ongoing regulatory cost as part of that."
+Senator SMITH: "And the ongoing regulatory cost is $12,000?"
+Mr Gebers: "I will be corrected; I understand it might be $22,000 though."
+Senator SMITH: "Does the Treasury have full confidence that they will be
+the costs in 2027?"
+Mr Robinson: "These are estimates of the cost of compliance. We routinely
+estimate these types of costs in relation to new policies. There's uncertainty,
+and of course costs might vary from business to business."
+Senator SMITH: "So they could go up?"
+Mr Robinson: "It may vary from business to business. It may be lower for
+some businesses."10
+1.24 The Chamber of Minerals and Energy of Western Australia said the CBPs would
+provide no benefit while providing additional costs to businesses:
+"Introducing CBPs with separate reporting requirements under the Future
+Made in Australia will introduce additional compliance burden and
+duplication without enhancing the benefits to Australian communities." 11
+1.25 During the inquiry hearing, Treasury and Department of Industry, Science and
+Resources officials, did not rule out that the Community Benefits Principles
+would duplicate compliance. This raises concerns the bill will increase the
+regulatory burden upon businesses and investors.
+Senator SMITH: "Do officials from the Treasury and other departments that
+are present expect the removal of any regulatory processes or regulatory
+requirements in order to give effect to the CBPs? Will there be a net
+reduction in approvals as a result of the existence of the CBPs and the
+requirements that are contained in the rules?"
+Mr Chesworth: "It's probably too early to tell—I may have gotten the wrong
+end of the question. We don't know how many approvals there are going to
+be, because the system isn't in place yet and that sort of thing."
+…
+Senator SMITH: "Has the government asked that the stock of regulation be
+decreased as a result of giving effect to the CBPs?"
+Mr Robinson: "As I mentioned before, we're still in the process of design
+work, and we will obviously need to—"
+Senator SMITH: "Is it a design expectation that there be a reduction in the
+stock of regulation and regulatory approval?"
+10 Mr Marty Robinson, First Assistant Secretary, Corporate and International Tax Division and Mr
+Adrian Gerbers, Director, Production Tax Incentives Unit, Department of the Treasury, Committee
+Hansard, 23 January 2025, p. 32.
+11 Chamber of Minerals and Energy of Western Australia, Submission 15, p. 5.
+39
+Mr Robinson: "I don't know that there have been any specific requests
+around a reduction in the stock. I think the government would probably
+want to take the opportunity to see what is being proposed."12
+Uncertainty on Community Benefit Principles Enforcement
+1.26 Treasury remains uncertain on how CBPs will be measured, monitored and
+enforced. CBPs are a novel and untested framework, and represent potential
+risks and uncertainty for businesses.
+Senator SMITH: "You talked about the reciprocal obligations that are
+contained in the community benefit principles. Can you provide to the
+committee an understanding of how they will, firstly, be monitored and
+then, secondly, enforced?"
+Mr Robinson: "As I mentioned earlier, we are currently going through the
+work in Treasury to consider how the community benefit principles might
+be developed and applied in practice, so it's probably a little bit early to be
+getting into detail around things like monitoring arrangements or how
+they'll apply in practice. What I would just emphasise, as I mentioned
+earlier, is that we will be going through a public consultation process to
+work through those issues. I imagine that monitoring and those sorts of
+things would be part of that."
+Senator Dean Smith: "Is the Treasury modelling its approach on any pre-
+existing arrangements that might exist across the federal government, or is
+it creating a whole new model?"
+Mr Robinson: "What I would say is that we're certainly very mindful of not
+wanting to duplicate things that are out there. I know that a number of the
+submissions, both to the Treasury process and, I see, to this committee's
+process, have underscored the importance of avoiding duplication. We will
+be drawing on existing frameworks, I would imagine, where possible, to
+avoid any duplication, but in some respects this is a novel approach, in
+having a framework underpin those broad supports."
+Senator Dean Smith: "When I hear the word 'novel' I think of risk and
+uncertainty. Is that unfair?"
+Mr Robinson: "I don't know that I'd characterise it that way. I think maybe I
+would describe 'novel' as a way—we're thinking about how we can bring a
+lot of these elements together under a single framework." 13
+1.27 Concerns about the lack of detail on potential financial penalties for non-
+compliance with CBPs, were shared by industry bodies, and what the associated
+financial penalties will be.
+Senator SMITH: "Do you expect that non-compliance with the CBPs will
+incur financial penalties?"
+12 Mr Peter Chesworth, Head, Minerals and Resources Division, Department of Industry, Science and
+Resources, and Mr Robinson, Treasury, Committee Hansard, 23 January 2025, p. 30.
+13 Mr Robinson, Treasury, Committee Hansard, 23 January 2025, pp. 29–30.
+40
+Ms Freeman: …I don't know. I guess there is no clarity, really, at the
+moment. I may have missed something in terms of how that would work,
+but presumably that will come forth as part of the consultation.14
+…
+Mr Lyons: “We've spoken with Treasury and expressed grave concern that
+the penalty for failing to meet one of the prescribed community benefit
+principles, if it's going to mean that someone becomes ineligible for the
+incentive, will just cut across the entire purpose of the incentive.15
+1.28 The Association of Mining and Exploration Companies said that the uncertainty
+of how CPBs will be applied, might outweigh the incentives:
+"The legislation is largely silent on how the Future Made in Australia CBPs
+will be applied… [leading] to…speculation among industry and fear within
+the industry that the CBPs will be onerous to the extent they will undercut
+the appeal of the critical minerals PTI." 16
+ATO Decisions May Lead to Potential Disputes
+1.29 Witnesses expressed concern about the ATO’s enforcement of the complexities
+around the CPBs would lead to tax disputes and stymie investment:
+Senator SMITH: “Mr Lyons, in your remarks, do you expect the complexities
+and uncertainties that exist in the research and development incentives to
+be replicated in this initiative with regard to engagement between
+proponents and the Australian Tax Office?"
+Mr Lyons: "Unfortunately, I do because of this concern about having to
+identify costs that have a nexus with the project, particularly for people who
+have a mine and then a facility. Generally, in the costs within a company,
+there will be crossovers of people that are working on both, there will be
+costs that relate to both, and there will need to be allocation in portions. I
+suspect that there will be disputes between taxpayers and the ATO in
+relation to trying to solve those issues." 17
+Government is Rushing Legislation Before the Election
+1.30 Despite the lack of clarity on key points and other problems raised by
+stakeholders in relation to the bill, the Albanese Government is clearly rushing
+to pass this legislation in the lead up to the 2025 election.
+1.31 There is evidently a hope that Treasury will resolve any uncertainties regarding
+the bill after the fact, which not only cannot be guaranteed, but disregards its
+potentially costly consequences.
+14 Ms Freeman, Clean Energy Council, Committee Hansard, 23 January 2025, p. 4
+15 Mr Lyons, Minerals Council of Australia, Committee Hansard, 23 January 2025, p. 9.
+16 Association of Mining and Exploration Companies, Submission, p. 3.
+17 Mr Lyons, Minerals Council of Australia, Committee Hansard, 23 January 2025, page 9.
+41
+1.32 Senator Smith questioned hearing witnesses on whether it might be more
+prudent to insist on greater clarity before the bill is passed:
+Mr Lyons: That was the view that we put to Treasury.
+Mr Grist:…We have expressed serious concerns about the CBPs and yes,
+we’d like greater clarity on them.
+Senator SMITH: If I understand the evidence from the MCA and ACCI, there
+are actually two significant risks that give rise to the argument that the bill
+should not be passed until these two risks are resolved—that is, the
+complexities that arise with regard to the operation of the research and
+development incentives and, in addition to that, the risks that arise from
+unclarified, possibly complex and definitely duplicative CBPs approach. Is
+that a fair summation of the evidence?
+Mr Lyons: I wouldn't agree that the complexities should necessarily stop the
+bill, because there are other ways they could be dealt with in terms of ATO
+rulings. That is often the way things are dealt with, in terms of the ATO and
+Treasury working with taxpayers to come up with rulings that can be used
+and followed to determine the nexus issue. But we would be hopeful that
+the community benefit principles issue could be dealt with ASAP so that this
+bill can be moved forward.
+Senator SMITH: What’s your level of confidence that it will be dealt with
+ASAP?
+Mr Lyons: Treasury were very responsive in consultation last year, but this
+was one sticking point that never got addressed and continuously sat there.
+So I really couldn’t comment.18
+1.33 It is important to note that the Albanese Government’s intention to pass the bill
+as soon as possible, in an effort to bolster its legislative record prior to calling
+the election, still will not deliver the tax credit benefit until 2027.
+Senator SMITH: "Let me be clear that the commencement date at the
+moment is 2027, and submissions made to bring that forward by a year have
+not been accepted by the government."
+Mr Robinson: "As I mentioned, the legislation, as you know, has a start date
+of 1 July 2027."
+Senator Dean Smith: "So no business in Western Australia will get the
+benefit of this tax incentive until 2027?"
+Mr Robinson: "That’s correct."
+Senator SMITH: "No business in Queensland will get the benefit of this tax
+incentive until 2027?"
+Mr Robinson: "That’s correct."
+18 Mr Lyons, Minerals Council of Australia, and Mr Peter Grist, Director, Economics, Industry and
+Sustainability, Australian Chamber of Commerce and Industry, Committee Hansard,
+23 January 2025, p. 10.
+42
+Senator SMITH: …"No single business in any state in Australia will get the
+benefit of this tax incentive until 2027?"19
+Concerns for Western Australia’s competitiveness
+1.34 Western Australia faces unique challenges in competing for critical minerals
+investment, from increasing global competition. Renewed commitment and
+technological advancement in the US, Canada, South Africa, Indonesia, and
+China, presents serious challenges to Western Australian critical mineral
+projects.
+1.35 Evidence to the inquiry suggested WA is losing out to global competitors who
+are already implementing incentives like those in the bill. WA is at risk of falling
+behind the US and Canada, among others, if it cannot compete on cost and
+investment certainty.
+Mr van Drunen: "Since 2010, globally there have been at least 1,500 market
+interventions to secure domestic development of critical minerals...
+Accordingly, the government needs to do more to lower investment risk and
+development and operating costs, provide greater certainty on risks and
+reduce timeframes to market to make Australia a more competitive place to
+go downstream. 20
+1.36 It is important to note, however, that the tax credit is not available until 2027
+and that this characteristic of the bill actually creates a further competitive
+disadvantage for WA.
+1.37 Western Australian projects already face significant regulatory delays, which
+the bill fails to address. It was noted during the inquiry hearing that the bill does
+not present a remedy to WA’s long project approval times, making WA less
+attractive for investment.
+Mr van Drunen: "Australia has long approval timeframes, land access issues
+and high construction costs. The Production Tax Incentive (PTI) must be
+paired with serious regulatory reform to reduce the regulatory burden faced
+by companies developing projects."21
+1.38 It was further discussed that WA's resource sector needs more than tax credits—
+it requires streamlined approvals and infrastructure support.
+19 Mr Robinson, Treasury, Committee Hansard, 23 January 2025, p.31.
+20 Mr Niel van Drunen, Action Chief Executive Officer, Association of Mining and Exploration
+Companies, Committee Hansard, 23 January 2025, p. 11.
+21 Mr Niel van Drunen, Action Chief Executive Officer, Association of Mining and Exploration
+Companies, Committee Hansard, 23 January 2025, p. 11.
+43
+Mr van Drunen: "If Australia wants to diversify and achieve its aspirations
+to further downstream critical minerals, a PTI will make Australia more
+competitive. However, introducing PTIs will not be sufficient by itself."22
+1.39 WA’s high existing regulatory standards make the CBPs an unnecessary
+regulatory burden for the state. WA mining firms already adhere to strict
+regulations, so CBPs represent both unnecessary bureaucracy and costs to
+Western Australian projects. This was discussed during the inquiry hearing.
+Mrs Logiudice: "CME believes that the WA resources sector is already
+meeting the intent of the stated CBPs. As a result, the implementation of the
+CBPs should not introduce additional duplication and administrative
+burden."23
+Findings
+1.40 There is a concerning lack of clarity regarding the CBPs, with considerable
+uncertainty about how they will operate and the risk of penalties.
+1.41 Major questions remain about the potential requirement for union agreements,
+with multiple industry representatives unaware of this issue when questioned.
+1.42 The potential for disputes with the Australian Tax Office determining eligibility,
+have been identified, drawing comparisons to past disputes over R&D
+incentives.
+1.43 Labor has not provided an explanation as to the bill’s urgency, when financial
+incentives won’t take effect until 2027.
+1.44 Multiple industry bodies identified that duplicative regulations that may
+increase costs and deter investment.
+1.45 Further industrial relations obligations may impose excessive burdens upon
+businesses and investors.
+1.46 Treasury’s response to industry concerns must have greater transparency.
+Recommendation 1
+1.47 That the bill not be passed.
+Recommendation 2
+1.48 That the community benefit principles cannot include union agreement
+requirements
+22 Mr Niel van Drunen, Action Chief Executive Officer, Association of Mining and Exploration
+Companies, Committee Hansard, 23 January 2025, p. 11.
+23 Mrs Anita Logiudice, Assistant Director, Policy and Advocacy, Chamber of Minerals and Energy
+Western Australia, Committee Hansard, 23 January 2025, p. 12.
+44
+Recommendation 3
+1.49 That the community benefit principles need urgent clarification
+Senator Andrew Bragg Senator Dean Smith
+Deputy Chair Member
+Liberal Senator for New South Wales Liberal Senator for Western Australia
+Greens Senators' Additional Comments
+1.1 Government support for clean energy industries is essential for the rapid
+decarbonisation needed to address the climate crisis. As such, the Australian
+Greens are supportive of the intent of this bill to encourage investment in
+renewable hydrogen and critical minerals, and expand the remit of Indigenous
+Business Australia.
+1.2 The urgent need to rapidly transition to renewable economies presents a unique
+opportunity for Australia to become a renewable energy superpower, and
+schemes like the tax credits proposed in the bill are important for creating
+market confidence and encouraging the investment needed for Australia to do
+so.
+1.3 Australia is well positioned to help unblock global bottlenecks on the resources
+needed for global decarbonisation. Inputs like renewable hydrogen and critical
+minerals will be a critical part of this, with great potential to contribute
+significantly to Australia’s economy and job creation in the renewable
+transition. Doing so properly can help us transform our old industries and look
+after workers and communities at the same time as protecting our climate and
+environment.
+1.4 While this bill and the broader Future Made in Australia agenda is welcomed
+by the Australian Greens as an important step to realising Australia’s global
+renewable potential, climate benefits will only eventuate if the Australian
+Government commits to ending support for coal and gas. Under the Albanese
+Government emissions have gone up, with 32 new coal and gas projects
+approved since coming into power. They have committed to a future for gas
+beyond 2050 in their Future Gas Strategy, and billions of taxpayer dollars
+continue to be poured into sustaining these polluting industries, including
+funding for Darwin’s Middle Arm project.
+1.5 Meanwhile, the climate crisis is threatening to overwhelm our economy,
+environment and communities. Australia has already shot past 1.5 degrees of
+warming, and the world is on track for a catastrophic 3.1 degrees of warming.1
+One of the biggest threats to our wildlife and ecosystems is climate change—yet
+around half of Australia’s economy, and the global economy, directly depends
+on nature.2 Without a commitment to stop subsidising and opening new coal
+1 John Ainger, ‘UN says world is now on course for warming of up to 3.1C’, Bloomberg,
+25 October 2024.
+2 Australian Conservation Foundation, ‘$900bn of Australia’s economy directly depends on nature’,
+Media release, 6 September 2022.
+45
+46
+and gas fields that fuel the climate crisis, we are risking the future of our climate,
+environment and economy and will be unable to meet international imperatives.
+1.6 Australia’s future is in clean energy, not fossil fuels, and the Future Made in
+Australia agenda done right is an opportunity to replace our coal and gas
+exports with green energy and green products we manufacture here. This bill is
+an important measure to reduce barriers for green industries and set Australia
+up as a future renewable superpower—but the Australian Government’s
+continued support for the growth of polluting industries like coal and gas is
+incompatible with this goal.
+Senator Nick McKim
+Member
+Greens Senator for Tasmania
+Appendix 1
+Submissions and additional information
+1 Solarig Development Australia
+2 Beyond Zero Emissions
+3 Minerals Council Australia
+4 Clean Energy Regulator
+5 Jobs and Skills Australia
+6 Association of Mining and Exploration Companies
+8 Australian Hydrogen Council
+9 Star Scientific Ltd
+10 Climate Energy Finance
+11 Climate Capital Forum
+12 Government of Western Australia
+13 Pilot Energy Ltd
+14 Department of Climate Change, Energy, the Environment and Water
+15 The Chamber of Minerals & Energy of Western Australia
+16 Business Council of Australia
+17 Ark Energy
+18 Lion H2 Energy
+19 Fair Futures
+20 Fortescue
+21 Alpha HPA
+22 InterContinental Energy
+23 BDO Services Pty Ltd
+24 The Superpower Institute Ltd
+25 Springmount Advisory
+26 Heavy Industry Low-carbon Transition CRC
+27 Zero Carbon Hydrogen Australia
+28 bp Australia
+29 Australian Renewable Energy Hub (AREH)
+30 UNSW Energy Institute
+31 Australian Conservation Foundation
+32 APA
+33 The Centre for Policy Development (CPD)
+34 Bloom Energy
+35 Corporate Tax Association
+36 Australian Gas Infrastructure Group
+37 Dr Elizabeth Thurnbon & Oliver Yates
+38 Copenhagen Infrastructure Partners
+39 Green Hydrogen Organisation
+47
+48
+40 Clean Energy Council
+41 Australian Pipelines & Gas Association
+42 Institute of Public Affairs’
+43 Mr Tim Kelly
+44 CWP Global
+45 Bioenergy Australia
+46 Hiringa Energy Pty Ltd
+47 Australian Workers' Union
+48 Australian Chamber of Commerce and Industry
+49 Australian Council of Trade Unions
+50 Aboriginal Clean Energy Partnership
+Appendix 2
+Public Hearings and Witnesses
+Thursday 23 January 2025
+Committee Room 2S1
+Parliament House
+Canberra
+Clean Energy Council
+ Ms Anna Freeman, General Manager Advocacy and Investment
+The Superpower Institute Ltd
+ Ms Baethen Mullen, CEO
+Minerals Council Australia
+ Mr Ross Lyons, General Manager Taxation
+ Mr Matt Denyer, Principal Adviser – Indigenous Partnerships &
+Communities
+ Mr Demus King, General Manager – Trade & Investment
+ Mr Ross Lambie, Chief Economist
+Australian Chamber of Commerce and Industry
+ Mr Peter Grist, Director - Economics, Industry and Sustainability
+Association of Mining and Exploration Companies
+ Mr Neil Van Drumen, Director Western Australia, Northern Territory &
+Commonwealth Policy
+The Chamber of Minerals & Energy of Western Australia
+ Mrs Anita Logiudice, Assistant Director, Policy and Advocacy
+ Mr Aaron Walker, Manager - Industry Competitiveness and Economics |
+Head of Economics
+Australian Hydrogen Council
+ Ms Natasha Cerexhe, Policy Manager
+ Dr Fiona Simon, CEO
+ Mr Leigh Kennedy, General Manager – Industry and Supply Chain
+Development
+Zero Carbon Hydrogen Australia / Smart Energy Council
+ Ms Joanna Kay
+ Mr Wayne Smith, External Affairs Manager
+49
+50
+The Centre for Policy Development (CPD)
+ Mr Toby Philips, Economic Director
+ Dr Mara Hammerle, Senior Economic Advisor
+Australian Council of Trade Unions
+ Ms Michele O'Niel, President
+ Mr Daniel Sherrell, Senior Climate & Energy Policy officer
+Department of the Treasury
+ Mr Marty Robinson, First Assistant Secretary, Corporate and International
+Tax Division
+ Mr Patrick Boyd, Director, Law Division
+ Mr Adrian Gebers, Director, Production Tax Incentives Unit, Corporate Tax
+Division
+Department of Industry, Science and Resources
+ Ms Samantha Robertson, General Manager
+ Mr Peter Chesworth, Head of Division
+Department of Climate Change, Energy, the Environment and Water
+ Ms Catherine Zerger, Branch Head, Hydrogen Strategy
+ Ms Julia Eecen, Director, Hydrogen Financing Mechanisms
+ Ms Rebecca Thomson, Director, Guarantee of Origin and Trade

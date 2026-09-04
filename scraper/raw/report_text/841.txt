@@ -1,0 +1,1796 @@
+The Senate
+Legal and Constitutional Affairs
+Legislation Committee
+Privacy Legislation Amendment
+(Enforcement and Other Measures) Bill
+2022 [Provisions]
+November 2022
+© Commonwealth of Australia 2022
+ISBN 978-1-76093-439-2
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by the Senate Printing Unit, Department of the Senate, Parliament House, Canberra
+Contents
+Members ............................................................................................................................................... v
+List of Recommendations ............................................................................................................... vii
+Chapter 1—Introduction .................................................................................................................... 1
+Conduct of the inquiry and acknowledgement ............................................................................... 1
+Scope of the report ............................................................................................................................... 1
+Note on references .................................................................................................................... 1
+Background to the inquiry .................................................................................................................. 2
+Introduction of the Bill ............................................................................................................. 3
+Key provisions of the Bill .................................................................................................................... 3
+Penalties ..................................................................................................................................... 4
+Enforcement powers ................................................................................................................. 4
+Information sharing powers .................................................................................................... 8
+Examination by other parliamentary committees ........................................................................... 9
+Chapter 2—Key issues...................................................................................................................... 11
+Review of the Privacy Act 1988 ......................................................................................................... 12
+Increased maximum penalties for certain interferences with privacy ....................................... 14
+Protecting personal data ........................................................................................................ 14
+Compensation for harms ....................................................................................................... 15
+Comparative regimes ............................................................................................................. 17
+Imposition of the maximum penalties ................................................................................. 19
+Legislative terminology ......................................................................................................... 24
+Enforcement powers .......................................................................................................................... 28
+Extraterritorial operation ....................................................................................................... 28
+Information gathering powers .............................................................................................. 30
+OAIC funding .......................................................................................................................... 32
+Information sharing powers ............................................................................................................. 33
+Privacy Act ............................................................................................................................... 33
+Chapter 3—Conclusions and recommendations ......................................................................... 37
+Additional Comments by Senator Paul Scarr .............................................................................. 41
+Additional Comments by Senator David Shoebridge ............................................................... 43
+iii
+Appendix 1—Submissions and Additional Information .......................................................... 45
+Appendix 2—Public Hearing .......................................................................................................... 47
+iv
+Members
+Chair
+Senator Nita Green ALP, QLD
+Deputy Chair
+Senator Paul Scarr LP, QLD
+Members
+Senator Alex Antic LP, SA
+Senator Raff Ciccone ALP, VIC
+Senator Helen Polley ALP, TAS
+Senator David Shoebridge AG, NSW
+Secretariat
+Ms Sophie Dunstone, Committee Secretary
+Ms Monika Sheppard, Senior Research Officer
+Mr Aaron Murphy, Administrative Officer
+Suite S1.61 Telephone: (02) 6277 3560
+Parliament House
+CANBERRA ACT 2600 Email: legcon.sen@aph.gov.au
+v
+
+List of Recommendations
+Recommendation 1
+3.9 The committee recommends that the Attorney-General’s Department, as part
+of its review of the Privacy Act 1988, recommend amending section 13G of the
+Act to define the terms ‘serious interference’ and ‘repeated’ interference and
+that the Australian government implement such a recommendation.
+Recommendation 2
+3.14 The committee recommends that the Attorney-General’s Department, as part
+of its review of the Privacy Act 1988, examine the appropriateness of section
+5B providing for any additional ‘Australian link’.
+Recommendation 3
+3.16 Subject to the above recommendations, the committee recommends that the
+Bill be passed.
+vii
+
+Chapter 1
+Introduction
+1.1 On 27 October 2022, the Senate referred the provisions of the
+Privacy Legislation Amendment (Enforcement and Other Measures) Bill 2022
+(the Bill) to the Senate Legal and Constitutional Affairs Legislation Committee
+(the committee) for inquiry and report by 22 November 2022.1
+1.2 The Bill would amend three Commonwealth Acts to increase penalties for
+serious or repeated interferences with privacy, enhance enforcement powers for
+the Australian Information Commissioner (the Commissioner), and provide the
+Commissioner and the Australian Communications and
+Media Authority (ACMA) with greater information sharing powers.2
+Conduct of the inquiry and acknowledgement
+1.3 In accordance with its usual practice, the committee advertised the inquiry on
+its website and wrote to organisations and individuals inviting submissions by
+7 November 2022. The committee received 32 submissions, which are listed at
+Appendix 1.
+1.4 The committee held a public hearing in Canberra on 17 November 2022. A list
+of the witnesses who appeared at the hearing is at Appendix 2.
+1.5 The committee thanks those individuals and organisations who made
+submissions and gave evidence at the public hearing.
+Scope of the report
+1.6 This report comprises three chapters:
+ Chapter 1 provides background information relating to the Bill, outlines the
+Bill's key provisions, and notes any consideration of the Bill undertaken by
+other parliamentary committees;
+ Chapter 2 examines some of the key issues raised by stakeholders; and
+ Chapter 3 sets out the committee's findings and recommendations.
+Note on references
+1.7 In this report, references to the Committee Hansard are to the proof
+(that is, uncorrected) transcript. Page numbers may vary between the proof and
+the official transcript.
+1 Journals of the Senate, No. 18—27 October 2022, pp. 527–528.
+2 Explanatory Memorandum (EM), p. 2.
+1
+2
+Background to the inquiry
+1.8 On 22 September 2022, Australia’s second largest telecommunications company,
+SingTel Optus Pty Limited (Optus), a fully owned subsidiary of Singapore
+Telecommunications Limited, announced that the personal and other sensitive
+information of up to 9.8 million customers had been accessed and stolen during
+a cyberattack (Optus data breach).3
+1.9 In the following weeks, MyDeal.com.au Pty Ltd (MyDeal), an online retail
+company and subsidiary of the Woolworths Group, and
+Medibank Private Limited (Medibank), one of Australia’s largest private health
+insurers, announced that they had also been the subject of cyberattacks, where
+millions of customers’ personal and sensitive data had been stolen by criminals.4
+1.10 The Privacy Act 1988 (Privacy Act) establishes the Notifiable Data Breaches
+(NDB) scheme, which requires regulated entities to notify affected individuals
+and the Commissioner if an entity has reasonable grounds to believe that an
+‘eligible data breach’ (as defined in section 26WE) has occurred.5
+1.11 On 22 September 2022, the Office of the Australian Information Commissioner
+(OAIC) was notified of the Optus data breach and on 11 October 2022
+commenced an investigation into the personal information handling practices
+of Optus and its associated companies, Optus Mobile Pty Ltd and
+Optus Internet Pty Ltd (all three collectively called
+‘the Optus companies’).6
+1.12 On 25 October 2022, the Australian government delivered the 2022-2023 Federal
+Budget, in which an additional $5.5 million over two years was allocated to the
+OAIC to investigate and respond to the Optus data breach.7
+3 Optus, ‘Optus notifies customers of cyberattack compromising customer information’, Media
+Release, 22 September 2022, www.optus.com.au/about/media-centre/media-releases/2022/09/optus-
+notifies-customers-of-cyberattack (accessed 17 November 2022).
+4 MyDeal, ‘Data Breach’, https://help.mydeal.com.au/hc/en-us/articles/5672443315087-Cyber-
+Incident (accessed 17 November 2022); Medibank, ‘Cyber Event Timeline’,
+www.medibank.com.au/health-insurance/info/cyber-security/timeline/ (accessed 17 November
+2022).
+5 Privacy Act 1988 (Privacy Act), Part IIIC. Note: at its simplest, a data breach is eligible if it results in
+serious harm to any of the individuals to whom the information relates.
+6 Office of the Australian Information Commissioner (OAIC), ‘OAIC statement on Optus data breach’,
+22 September 2022, www.oaic.gov.au/updates/news-and-media/oaic-statement-on-optus-data-
+breach; OAIC, ‘OAIC opens investigation into Optus over data breach’, 11 October 2022,
+www.oaic.gov.au/updates/news-and-media/oaic-opens-investigation-into-optus-over-data-breach
+(both accessed 17 November 2022). Note: as at the date of writing, the OAIC has not commenced an
+investigation into MyDeal.com.au Pty Ltd or Medibank Private Limited.
+7 Commonwealth of Australia, Budget Measures: Budget Paper No. 2, 2022-23, p. 47.
+3
+1.13 In addition, as a result of the data breaches, on 12 November 2022 the Australian
+government announced an ongoing, joint standing operation by the Australian
+Federal Police and the Australian Signals Directorate to investigate, target and
+disrupt cybercriminal syndicates with a priority on ransomware threat groups.8
+Introduction of the Bill
+1.14 The Attorney-General, the Hon Mark Dreyfus KC MP, introduced the Bill into
+the House of Representatives on 26 October 2022, stating:
+…the Albanese government takes privacy, security and data protection
+seriously. As the Optus, Medibank and MyDeal cyberattacks have recently
+highlighted, data beaches have the potential to cause serious financial and
+emotional harm to Australians, and this is unacceptable.9
+1.15 The Attorney-General stated that the Bill would give Australians confidence
+that their data will be protected, with a targeted and measured response to the
+most pressing issues arising from the Optus data breach and other recent
+cyberattacks.10
+1.16 The Attorney-General also highlighted the Attorney-General’s Department
+(AGD) ongoing review of the Privacy Act,11 which will recommend further
+reforms designed to ensure ‘Australia's privacy framework protects the
+personal information of Australians, supports an innovative economy and
+responds to new challenges in the digital age’.12
+Key provisions of the Bill
+1.17 The Bill comprises one schedule that sets out proposed amendments to the
+Privacy Act, the Australian Information Commissioner Act 2010 (AIC Act) and the
+Australian Communications and Media Authority Act 2005 (ACMA Act).
+8 The Hon Clare O’Neil MP, Minister for Home Affairs, ‘Standing Operation Against Cyber Crime
+Syndicates’, Joint Media Release, 12 November 2022,
+https://minister.homeaffairs.gov.au/ClareONeil/Pages/standing-operation-against-cyber-criminal-
+syndicates.aspx (accessed 17 November 2022).
+9 The Hon Mark Dreyfus KC MP, Attorney-General and Cabinet Secretary, House Hansard, 26 October
+2022, p. 8. Also see: Votes and Proceedings, No. 17—26 October 2022, pp. 239–240.
+10 The Hon Mark Dreyfus KC MP, Attorney-General and Cabinet Secretary, House Hansard, 26 October
+2022, p. 8.
+11 Attorney-General’s Department, ‘Review of the Privacy Act 1988’,
+www.ag.gov.au/integrity/consultations/review-privacy-act-1988 (accessed 17 November 2022).
+12 The Hon Mark Dreyfus KC MP, Attorney-General and Cabinet Secretary, House Hansard, 26 October
+2022, p. 8.
+4
+Penalties
+1.18 The Bill would amend the Privacy Act to increase the civil penalty for a serious
+interference with the privacy of an individual, or a repeated interference with
+the privacy of one or more individuals:
+ by a person other than a body corporate, from 2000 penalty units to an
+amount not exceeding $2.5 million (proposed subsection 13G(2)); and
+ by a body corporate, from 10 000 penalty units to an amount calculated with
+reference to a formula:
+…not more than the greater of: $50 million; three times the value of any
+benefit obtained through the misuse of the information; or, if the value of
+the benefit obtained cannot be determined, 30 per cent of a company's
+domestic turnover in the relevant period [proposed subsection 13G(3)].13
+1.19 In his second reading speech, the Attorney-General stated:
+Setting these penalties at a higher level will accord with Australian
+community expectations about the importance of protecting their personal
+data. Further, penalties for privacy breaches cannot be seen as simply the
+cost of doing business. Entities must be incentivised to have strong cyber
+and data security safeguards in place to protect Australians.14
+Enforcement powers
+1.20 The Attorney-General highlighted that the Bill would also provide the
+Commissioner with ‘a suite of improved and new powers to resolve privacy
+breaches efficiently and effectively’.15
+Extra-territorial operation
+1.21 The Privacy Act, a ‘registered APP code’ (as defined in section 26B) and a
+‘registered CR code’ (as defined in section 26M) currently extend to
+organisations or small business operators that have an ‘Australian link’.16
+The term ‘Australian link’ is defined in subsections 5B(2)-(3) of the Act.
+1.22 The Explanatory Memorandum (EM) explains that part of the definition of
+‘Australian link’ has become problematic:
+13 The Hon Mark Dreyfus KC MP, Attorney-General and Cabinet Secretary, House Hansard, 26 October
+2022, p. 8. Also see: Item 14 in the Privacy Legislation Amendment (Enforcement and Other
+Measures) Bill 2022 (the Bill).
+14 The Hon Mark Dreyfus KC MP, Attorney-General and Cabinet Secretary, House Hansard, 26 October
+2022, p. 8.
+15 The Hon Mark Dreyfus KC MP, Attorney-General and Cabinet Secretary, House Hansard, 26 October
+2022, p. 8.
+16 Privacy Act, ss. 5B(1A). Note: a ‘registered APP code’ is a written code of practice for the handling
+of personal information; a ‘registered CR code’ is an industry code of practice for the handling of
+credit reporting information.
+5
+A foreign organisation will have an Australian link if the organisation or
+operator carries on business in Australia and collects or holds information
+from a source inside Australia. However, when a breach of the Privacy Act
+occurs, it may be difficult to establish that these foreign organisations collect
+or hold personal information from a source in Australia. For example,
+foreign organisations may collect personal information about Australians
+but do not collect Australians’ information directly from Australia, and
+instead collect the information from a digital platform that does not have
+servers in Australia and may therefore not be considered ‘in Australia’.17
+1.23 The Bill would remove the requirement for an organisation or small business
+operator to collect or hold personal information in Australia or an external
+territory, before or at the time of the act or practice in question, in order to have
+an ‘Australian link’.18
+1.24 The Attorney-General explained:
+To ensure Australia's privacy laws remain fit for purpose in a globalised
+world and to ensure the Privacy Act can be enforced against global
+technology companies who may process Australians' information on servers
+offshore, the bill will amend the act's extraterritoriality provisions. This will
+mean that, even if foreign organisations do not collect or hold Australians'
+information directly from a source in Australia, they must still meet the
+obligations under the Privacy Act so long as they 'carry on a business' in
+Australia.19
+Commissioner’s declarations
+1.25 The Privacy Act provides a discretion for the Commissioner, following an
+investigation, to make binding and enforceable determinations
+(subsections 52(1) and 52(1A)).
+1.26 The Bill would insert proposed subparagraph 52(1)(b)(iia) and proposed
+paragraph 52(1A)(ba) to enable the Commissioner to make a declaration that the
+respondent must prepare and publish, or otherwise communicate, a statement
+about the conduct that was the subject of the investigation.20
+Information gathering and assessment
+1.27 The Bill would insert Division 4 into Part IIIC of the Privacy Act to give
+the Commissioner the power to require the giving of information, the
+production of documents or the answering of questions in relation to actual or
+17 EM, pp. 12–13.
+18 Item 10 in the Bill.
+19 The Hon Mark Dreyfus KC MP, Attorney-General and Cabinet Secretary, House Hansard, 26 October
+2022, p. 8.
+20 Items 29–30 in the Bill.
+6
+suspected ‘eligible data breaches’, or an entity’s compliance with the notification
+requirements (proposed section 26WU).21
+1.28 The EM states that the proposed information gathering power would strengthen
+the NDB scheme, by ensuring that the Commissioner has ‘a comprehensive
+knowledge of the information compromised in an actual or suspected eligible
+data breach in order to assess the particular risk of harm to individuals’.22
+1.29 Proposed section 26WU of the Privacy Act would be complemented by
+proposed amendments to section 33C of the Act:
+ to extend the Commissioner’s power to assess an entity’s compliance with
+the Act to specifically include compliance with the NDB scheme
+(proposed paragraph 33C(1)(ca));23 and
+ to give the Commissioner the power to require an entity or ‘file number
+recipient’ (as defined in section 11) to produce information or a document
+that is relevant to the Commissioner undertaking an assessment of that
+entity or file number recipient under section 33C when conducting an
+assessment relating to the Australian Privacy Principles (proposed
+subsection 33C(3)).24
+1.30 According to the EM:
+The purpose of subsection 33C(3) is to ensure entities cooperate with an
+assessment by providing the relevant information and documents the
+Commissioner needs to undertake an assessment. This will ensure that
+assessments are thorough, and not limited to information that is publicly
+available.25
+Infringement notice
+1.31 The Bill would replace the criminal penalty in subsection 66(1) of the
+Privacy Act with a civil penalty for a person’s failure to give information,
+produce documents or records, or answer questions when required to do so
+under the Act (the basic contravention, proposed new subsection 66(1)). The
+21 Item 18 in the Bill. In particular, see proposed subsections 26WU(1) and (3).
+22 EM, pp. 2 and 15. Also see: the Hon Mark Dreyfus KC MP, Attorney-General and Cabinet Secretary,
+House Hansard, 26 October 2022, p. 8, who noted that compliance assessment would also serve as ‘an
+important educative tool’.
+23 Item 21 in the Bill. Note: this would include assessment of an entity’s processes and procedures to
+assess suspected ‘eligible data breaches’ and to provide notice of ‘eligible data breaches’ to the
+Commissioner and to individuals at risk from such breaches: EM, p. 18.
+24 Item 22 in the Bill. Note: proposed subsections 33C(4)–(5) would provide safeguards to the exercise
+of this power.
+25 EM, p. 18.
+7
+penalty would be 60 penalty units for a person and 300 penalty units for a body
+corporate.26
+1.32 According to the EM:
+The purpose of converting subsection 66(1) from a criminal offence to a civil
+penalty provision is to allow the Commissioner to issue a civil penalty or an
+infringement notice for minor instances of non-compliance without having
+to resort to the prosecution of a criminal offence. Infringement notices will
+provide the Commissioner with a timely, cost-efficient enforcement
+outcome in relation to minor contraventions of section 66. The infringement
+notice provision will provide an alternative to litigation of a civil matter.
+This will enable the Commissioner to resolve privacy complaints and
+investigations more efficiently.27
+1.33 The Bill would also insert proposed subsection 66(1AA) into the Privacy Act to
+create a criminal offence for a body corporate that engages in conduct that
+constitutes a system of conduct or a pattern of behaviours resulting in at least
+two contraventions of the basic contravention. The penalty for the offence would
+be 300 penalty units.28
+1.34 The EM acknowledges:
+Although this matches the civil penalty units for a basic contravention under
+subsection 66(1) by a body corporate, conduct regarded as criminal carries a
+greater stigma and this reflects the more serious nature of an offence under
+subsection 66(1AA). The purpose of subsection 66(1AA) is to enable the
+OAIC to refer matters to the Commonwealth Director of Public Prosecutions
+involving more serious, systemic conduct.29
+1.35 The civil penalty set out in proposed subsections 66(1) and 66(1AA) of the
+Privacy Act would not apply if a person has a reasonable excuse
+(subsection 66(1B) of the Act). A person who relies on this defence would bear
+an evidential burden.30
+1.36 In addition, the Bill would insert Division 1A into Part VIB of the Privacy Act to
+enable the basic contravention for failing to provide information, etc. to be
+subject to an infringement notice under Part 5 of the
+Regulatory Powers (Standard Provisions) Act 2014 (proposed subsection
+80UB(1)).31
+1.37 The EM reiterates that the purpose of this proposed provision is to allow:
+26 Item 38 in the Bill.
+27 EM, p. 22.
+28 Item 39 in the Bill.
+29 EM, p. 22.
+30 Items 40–41 in the Bill.
+31 Item 44 in the Bill.
+8
+…an infringement officer to issue an infringement notice instead of seeking
+a civil penalty for contraventions of subsection 66(1) where a person is
+required to give information, answer a question, produce a document or
+record, and the person refuses or fails to do so. This will enable the OAIC to
+resolve matters more efficiently.32
+Information sharing powers
+1.38 The AIC Act currently prohibits unauthorised dealings with information that
+has been acquired while performing functions or exercising powers conferred
+for the purposes of an information commissioner, a freedom of information or a
+privacy function. There are a limited number of exceptions to the statutory
+offence (section 29 of the Act).
+1.39 The Bill would amend the AIC Act by replacing paragraph 29(2)(a) with
+proposed paragraphs 29(2)(a), (aa) and (ab).33 According to the EM,
+the amendment would clarify that there is an exception for:
+…any uses of information for the same function (being either an information
+commissioner function, freedom of information function, or a privacy
+function) under the AIC Act for which it was collected. This would allow,
+for example, information from a [notification of a data breach in the
+prescribed form] to be used in a subsequent investigation into potential
+Australian Privacy Principle (APP) 11 breaches, as they both fall within the
+Commissioner’s privacy functions.34
+1.40 The Bill would insert proposed section 33A into the Privacy Act to enable the
+Commissioner to share information or documents with a ‘receiving body’
+(as defined in proposed subsection 33A(2) of the Act) for the purposes of the
+Commissioner or the ‘receiving body’ exercising their powers or performing
+their functions or duties.35
+1.41 The EM states:
+The purpose of this section is to ensure the Commissioner is able to transfer
+a complaint to a receiving body, and also share information for the purposes
+of the Commissioner or the receiving body exercising their powers, or
+performing their functions and duties. This may occur when, for example,
+the Commissioner is holding information that relates to both an
+investigation under the Privacy Act, and under the receiving body’s
+framework.36
+1.42 The Bill would also insert proposed section 33B into the Privacy Act to give the
+Commissioner a discretion to disclose information acquired in the course of
+32 EM, p. 23.
+33 Item 7 in the Bill.
+34 EM, p. 12.
+35 Item 20 in the Bill.
+36 EM, p. 16.
+9
+exercising powers, or performing functions or duties, under the Act if the
+Commissioner were satisfied that it is in the public interest to do so.37
+1.43 According to the EM:
+The purpose of subsection 33B(1) is to empower the Commissioner to
+disclose or publish information relating to privacy and personal
+information, for example information about an ongoing investigation on the
+OAIC’s website. This will ensure Australians are informed about privacy
+issues and to reassure the community that the OAIC is discharging its
+duties.38
+1.44 Similarly, the Bill would amend the ACMA Act to enable the ACMA to disclose
+information to a ‘non-corporate Commonwealth entity’ (as defined in section 11
+of the Public Governance, Performance and Accountability Act 2013) that is
+responsible for enforcing one or more laws of the Commonwealth.39
+1.45 The EM explains:
+The amendment is important because for many functions and powers that
+non-corporate Commonwealth entities are exercising, taking prompt action
+is critical to help ensure further harm is minimised or avoided. For example,
+prompt disclosure of information by the ACMA following a data breach
+could help ensure that financial crime and fraud does not occur.40
+The Attorney-General noted also that the proposed information sharing
+powers for the Commissioner and the ACMA will ‘drive better cooperation
+between regulators in order to deliver better outcomes for Australians’.41
+Examination by other parliamentary committees
+1.46 When examining a bill, the committee takes into account any relevant comments
+published by the Senate Standing Committee for the
+Scrutiny of Bills (Scrutiny of Bills Committee) and the Parliamentary Joint
+Committee on Human Rights (Human Rights Committee).
+1.47 The Scrutiny of Bills Committee assesses legislative proposals against a set of
+accountability standards that focus on the effect of proposed legislation on
+individual rights, liberties and obligations, the rule of law and on parliamentary
+37 Item 20 in the Bill.
+38 EM, p. 17. Note: proposed paragraph 33B(2)(a) would set out mandatory considerations to which
+the Commissioner must have regard when determining whether disclosure would be in the ‘public
+interest’.
+39 Item 1 in the Bill; proposed paragraph 59D(1)(q) of the Australian Communications and Media
+Authority Act 2005.
+40 EM, p. 10.
+41 The Hon Mark Dreyfus KC MP, Attorney-General and Cabinet Secretary, House Hansard,
+27 September 2022, p. 9.
+10
+scrutiny. As at the time of writing, the Scrutiny of Bills Committee has not
+examined the Bill.42
+1.48 The Human Rights Committee examines bills and legislative instruments for
+compatibility with human rights, and reports its findings to both Houses of
+Parliament. As at the time of writing, the Human Rights Committee has not
+examined the Bill.43
+42 Standing Committee for the Scrutiny of Bills, Scrutiny Digest No. 6 of 2022, 26 October 2022,
+www.aph.gov.au/Parliamentary_Business/Committees/Senate/Scrutiny_of_Bills/Scrutiny_Digest
+(accessed 17 November 2022).
+43 Parliamentary Joint Committee on Human Rights, Index of Bills Considered by the Committee,
+28 September 2022, www.aph.gov.au/Parliamentary_Business/Committees/Joint/Human_Rights/
+Index_of_bills_and_instruments (accessed 17 November 2022).
+Chapter 2
+Key issues
+2.1 Submitters and witnesses supported stronger protections for the security of
+personal information, with some describing the Privacy Legislation
+Amendment (Enforcement and Other Measures) Bill 2022 (the Bill) as long
+overdue.1
+2.2 The Law Council of Australia (Law Council) noted that individuals are
+increasingly required to provide personal and sensitive data to participate in
+Australia’s digital economy and to access services.2 However, as the Office of
+the Australian Information Commissioner (OAIC) highlighted:
+…[W]e have seen several recent high-profile data breaches involving the
+personal information of millions of Australians and the resulting impacts
+this has had on the community. It is essential that the Australian privacy
+framework provides the right regulatory tools to enable the OAIC to
+respond efficiently and effectively to privacy harms emerging through the
+digital environment and [to] deter non-compliant behaviour.3
+2.3 CHOICE concurred that the ‘case for strengthening Australia’s privacy laws and
+regulatory enforcement powers has never been clearer’.4 While the Business
+Council of Australia (BCA) agreed on the need to protect Australians’ personal
+information, it emphasised that businesses operate in an ‘increasingly
+challenging environment’ where cyber incidents are inevitable:
+It will be impossible to prevent all attacks. All frameworks put in place to
+respond to cyber incidents must recognise this. New attack methods, the
+discovery of zero-day vulnerabilities, leaking of government cyberattack
+tools, and sophisticated attackers all make it impossible for businesses to be
+immune to cyber incidents.5
+2.4 Submitters and witnesses commented broadly on potential legislative reforms
+to address transnational cybercrime and to enhance Australian privacy law,
+as well as the proposals contained in the Bill.
+1 See, for example: CHOICE, Submission 7, p. 1; Office of the Australian Information Commissioner
+(OAIC), Submission 8, p. 1; Electronic Frontiers Australia, Submission 29, p. 1. Also see: Australian
+Privacy Principle (APP) 11, which provides for the security of personal information,
+www.oaic.gov.au/privacy/australian-privacy-principles (accessed 15 November 2022).
+2 Law Council of Australia (Law Council), Submission 27, p. 5.
+3 OAIC, Submission 8, p. 1.
+4 CHOICE, Submission 7, p. 1.
+5 Business Council of Australia (BCA), Submission 22, p. 3. Also see: Australian Federal Police,
+Submission 11, p. 1; Australian Banking Association, Submission 24, p. 1.
+11
+12
+2.5 This chapter examines the following key issues raised in submissions and at the
+public hearing in relation to the Bill:
+ the ongoing review of the Privacy Act 1988 (Privacy Act);
+ the proposed increase to maximum penalties for serious or repeated
+interferences with privacy;
+ the proposed expansion of enforcement powers for the Australian
+Information Commissioner (the Commissioner); and
+ the proposed information sharing powers for the Commissioner and the
+Australian Communications and Media Authority (ACMA).
+Review of the Privacy Act 1988
+2.6 On 30 October 2020, the Attorney-General’s Department (AGD) commenced a
+review of the Privacy Act (Privacy Act Review), as recommended by the
+2019 Digital Platforms Inquiry (Digital Platforms Inquiry).6
+2.7 The AGD conducted consultations and received numerous submissions on a
+broad range of potential reforms spanning the scope and application of the
+Privacy Act. The review is due to be completed shortly, with the report to be
+presented to the Attorney-General by the end of 2022.7
+2.8 Several submitters and witnesses engaged with the Privacy Act Review.8
+Business stakeholders especially noted the importance of industry working with
+government to improve privacy protections and cyber security.9
+2.9 Some stakeholders commented also on the timing and interaction of the Privacy
+Act Review and the Bill. The Law Council, while supportive of the Bill,
+emphasised the importance of a holistic approach to privacy law reform:
+[The Law Council] continues to welcome and engage with the holistic
+review of the Privacy Act, which is being concurrently conducted by the
+Attorney-General’s Department. The Law Council considers that it will be
+important to maintain the momentum of this review to avoid uncertainty
+6 Australian Competition and Consumer Commission, Digital Platforms Inquiry, Final Report, June
+2019, Recommendation 17, www.accc.gov.au/publications/digital-platforms-inquiry-final-report
+(accessed 14 November 2022).
+7 Attorney-General’s Department (AGD), Submission 12, p. 5.
+8 See, for example: Digital Rights Watch, Submission 2, p. 1; OAIC, Submission 8, p. 5; Amazon Web
+Services, Submission 14, p. 1; Privacy 108 Consulting, Submission 16, p. 1; DIGI, Submission 25, p. 1;
+Australian Privacy Foundation, Submission 28, p. 1; Electronic Frontiers Australia, Submission 29,
+p. 1.
+9 See, for example: Internet Association of Australia, Submission 4, p. 3; Tech Council of Australia,
+Submission 19, pp. 1–2; BCA, Submission 22, p. 3.
+13
+and unintended consequences created by the fragmented approach to
+reform, to which the Privacy Bill is contributing.10
+2.10 A few submitters suggested that it might be preferable to wait for completion of
+the Privacy Act Review. The Australian Privacy Foundation (APF), for example,
+submitted:
+The APF strongly recommends that any amendments to the Privacy Act
+only be made as part of the comprehensive reforms that have been under
+consideration by the Australian government for three years.11
+2.11 The Law Council and BCA noted the importance of ensuring that all privacy
+law reforms are consistent. The BCA highlighted also that the Bill would have
+broader implications than just responding to the recent cyber incidents.
+For example, increased maximum penalties would apply to ‘the range of
+relevant offences under the [Privacy] Act, and potentially to any new provisions
+legislated as part of the Privacy Act Review’.12
+2.12 In response to these concerns, and consistent with the Attorney-General’s
+second reading speech, the AGD submitted that the Bill needed to be introduced
+now to address ‘the more pressing issues arising from recent serious data
+breaches and cyber incidents’.13
+2.13 The AGD noted that, once the Privacy Act Review has been completed, a broad
+range of potential reforms will be recommended to the Australian government:
+This review will recommend further reforms to ensure Australia's privacy
+framework protects the personal information of Australians, supports an
+innovative economy and responds to the new challenges in the digital age.
+Broader proposals, including measures to address the amount of personal
+information that entities are collecting and how they are storing it, are issues
+that have been raised and considered through this review process, and it's
+appropriate that these reforms be considered holistically in that process,
+given the range of complex and interconnected issues and other work across
+government.14
+10 Law Council, Submission 27, p. 6. Also see, for example: Digital Rights Watch, Submission 2, p. 1;
+Salinger Privacy, Submission 10, p. 4; Dr Katharine Kemp, Submission 31, p. 5.
+11 Australian Privacy Foundation, Submission 29, p. 1. Also see, for example: BCA, Submission 22, p. 4.
+12 BCA, Submission 22, pp. 3 and 7. Also see: Law Council, Submission 27, p. 8.
+13 AGD, Submission 12, p. 2. Also see: the Hon Mark Dreyfus KC MP, Attorney-General and Cabinet
+Secretary, House Hansard, 26 October 2022, p. 8.
+14 Ms Elizabeth Brayshaw, Acting First Assistant Secretary, Integrity Frameworks Division, AGD,
+Committee Hansard, 17 November 2022, p. 27.
+14
+2.14 With respect to momentum, an official noted that ‘the Attorney-General has a
+real interest in this area and certainly has expectations in terms of this review
+being finalised so that we can move to that next step’.15
+Increased maximum penalties for certain interferences with privacy
+2.15 The Bill proposes to amend section 13G of the Privacy Act. This section sets out
+a contravention for a ‘serious interference’ with an individual’s privacy or a
+‘repeated’ interference with the privacy of one or more individuals. The Bill
+would convert this existing provision into subsection 13G(1).16 The following
+proposed subsections 13G(2)-(3) would increase the civil penalty for the ‘serious
+interference’ or ‘repeated’ interference (see paragraph 1.18).17
+Protecting personal data
+2.16 A broad range of stakeholders supported increasing the penalties for serious or
+repeated interferences with individuals’ privacy. Salinger Privacy, a private
+consultancy specialising in privacy matters, considered that, at present,
+corporations are not appropriately respecting or protecting privacy:
+It is essential that the regulatory regime in Australia makes the cost of
+non-compliance with the Privacy Act more expensive than the cost of
+compliance. Fines under the Privacy Act should not be seen as simply a cost
+of doing business. Increasing the penalties available under the Privacy Act
+will send a strong signal to businesses and other entities around Australia
+that they must take their legal obligation seriously.18
+2.17 Professor David Lacey, Managing Director of IDCARE, a specialist support
+service, considered that the proposed penalties are robust enough to sharpen
+the focus on data security. He added:
+…[F]rom what we're seeing in the environment at the moment, there's
+perhaps a degree of under-reporting, and that's in the absence of these types
+of penalties in any case. So we don't necessarily feel as though the increase
+of penalties or what organisations might be up for will necessarily create
+that disincentive to report.19
+2.18 Digital Rights Watch described the proposed penalty increases as ‘an important
+improvement’ to the ‘woefully inadequate’ fines that are currently provided for
+in the Privacy Act. In its view, the need to take privacy more seriously is
+15 Ms Elizabeth Brayshaw, Acting First Assistant Secretary, Integrity Frameworks Division, AGD,
+Committee Hansard, 17 November 2022, p. 30.
+16 Item 12 of the Privacy Legislation Amendment (Enforcement and Other Measures) Bill 2022
+(the Bill).
+17 Items 13–14 of the Bill.
+18 Salinger Privacy, Submission 10, p. 2. Also see: OAIC, Submission 8, p. 2; DIGI, Submission 25, p. 3,
+which both commented on the deterrence value of increased maximum penalties.
+19 Professor David Lacey, Managing Director, IDCARE, Committee Hansard, 17 November 2022, p. 16.
+15
+reflected in proposed subsections 13G(2)-(3), and it expressed hope that these
+might lead to widespread organisational change:
+It is our hope that increased penalties will also contribute to changing the
+culture regarding data gluttony, and compel organisations to consider data
+lakes containing personal information to be a toxic asset. Too many
+organisations currently collect and retain far too much personal information
+for a variety of reasons. Without appropriate disincentives, many
+organisations consider retaining information to be easier than deletion, or
+opt to hold onto more data than they need ‘just in case’ there is a use for it
+later. However, we would emphasise that fines alone are not enough to
+change this culture of over-collection.20
+2.19 The Digital Industry Group Inc. (DIGI) added that ‘recent data breach events
+have underscored the importance of data minimisation’, noting that the Privacy
+Act Review provides an opportunity to ‘retain and refresh the data
+minimisation principle’ in the Australian Privacy Principles (APPs).21
+2.20 In response to the perceived ‘data gluttony’, the BCA reiterated that businesses
+collect and use data to deliver better, as well as basic and essential, services and
+experiences for all Australians. It noted also that long-standing legislation and
+regulation at both federal and state levels continues to compel businesses to
+collect information:
+Many organisations…have long argued that government should pursue
+reforms that bring the priorities of these various pieces of work into
+alignment, and harmonise the various regimes governing the use of data in
+Australia. Despite this, further reforms requiring greater collection of
+personal information have also been broached, including as part of online
+safety regimes and electronic surveillance reforms. Existing laws are opaque
+about whether businesses are required to hold the data necessary to fulfill
+their obligations. Realistically, to be able to demonstrate compliance and
+support government priorities, businesses must retain this information.22
+Compensation for harms
+2.21 Some submitters and witnesses commented on the various harms that can result
+from the inadequate protection of personal data. Dr Katharine Kemp, a legal
+expert in the fields of competition, consumer protection and data privacy
+regulation, highlighted that ‘privacy breaches may have open-ended,
+20 Digital Rights Watch, Submission 2, p. 2. Also see: CHOICE, Submission 7, p. 1; Dr Bruce Baer Arnold,
+Submission 13, p. 2, who argued that large organisations will continue to view the proposed penalties
+as ‘an acceptable cost of doing business’, as they are not large enough; A/Associate Professor
+Elizabeth Coombs, Submission 17, p. 1.
+21 DIGI, Submission 25, p. 5. Also see: Australian Banking Association, Submission 24, p. 4.
+22 BCA, Submission 22, p. 5. Also see: Council of Small Business Organisations Australia (COSBOA),
+Submission 21, p. 3.
+16
+often-hidden impacts on an individual’s opportunities, vulnerabilities, financial
+security and health for years after the breach’.23
+2.22 Professor Lacey informed the committee:
+Around a quarter of the people that engage IDCARE services and speak
+with our specialist case managers have no idea how their information was
+actually compromised or stolen, and they have experienced the exploitation
+of their details by criminals through, for example, the establishment of
+accounts with financial institutions, accessing of government services and
+hacking of social media accounts, email accounts or the like. For that cohort
+in the community, you can imagine the impact that will have on them
+emotionally but also financially and, going forward, their participation
+online in other arrangements that they may have in their lives.24
+2.23 Specifically in respect of the Medibank Private Limited data breach, Professor
+Lacey highlighted that the harm is not so much about the credential exposure
+and risk but the release of deeply personal and sensitive information:
+Medibank—what its customers are experiencing and what that threat actor
+is trying to achieve through its information operations and through using
+the media in the way that it is—is amongst the ugliest breaches we've ever
+seen…[S]ensitive, personal information has been accessed by a third party
+that wasn't authorised, and, in some sad and sinister cases, published online.
+The human cost is a very emotional, psychological and, in some cases,
+physiological impact. It is not uncommon for us, even beyond the Medibank
+breach, to have people come to us and say, 'I was physically sick when I
+found out this happened. I am no longer sleeping. I don't answer the phone.'
+It has quite a detrimental impact on people's core being.25
+2.24 Digital Rights Watch submitted that, although the Bill would provide for
+increased maximum penalties for interferences with privacy, these penalties
+would not necessarily translate to redress for those individuals harmed by
+interference(s):
+Stronger fines will not get people’s personal information back once it has
+been compromised. One area where this could be improved is
+compensation. The current test for compensation is based on harm suffered,
+yet data breaches such as Optus or Medibank require people to take
+proactive steps to guard against harm, and they may suffer harm much later
+and in unexpected ways. The test for compensation needs to change. There
+23 Dr Katharine Kemp, Submission 31, p. 2. Also see: Ms Samantha Floreani, Program Lead, Digital
+Rights Watch, Committee Hansard, 17 November 2022, p. 9.
+24 Professor David Lacey, Managing Director, IDCARE, Committee Hansard, 17 November 2022, p. 15.
+Professor Lacey suggested that the Bill could usefully prohibit or create an offence around the
+payment of ransom, which costs each affected entity on average over $1 million: pp. 15 and 16.
+25 Professor David Lacey, Managing Director, IDCARE, Committee Hansard, 17 November 2022, pp. 16
+and 17.
+17
+is a serious need to give power to individuals to seek redress for the harm
+they have suffered as a consequence of privacy invasion.26
+2.25 The Council of Small Business Organisations of Australia (COSBOA) agreed
+that individuals and small businesses have been significantly harmed by the
+recent data breaches, yet there is no appropriate compensation available:
+An individual who has not been an Optus customer for years has been
+offered Optus credit rather than a cash reimbursement to cover their losses.
+This is of absolutely no use to them and is extremely frustrating. Had their
+data not been retained by Optus after all these years, they would not have
+had to experience the stress, financial hardship, and consequential losses
+they have suffered.27
+Comparative regimes
+2.26 The OAIC submitted that proposed subsections 13G(2)-(3) would ‘ensure
+penalties under the Privacy Act are comparable with those of other domestic
+and international regulators’.28 For example, the OAIC, the AGD and Dr Kemp
+all referenced similar provisions recently introduced into the
+Competition and Consumer Act 2010 (Consumer Law), in response to the
+2019 Digital Platforms Inquiry.29
+2.27 The Law Council noted that, at the time of the recommendation, the maximum
+financial penalties available under section 151 of the Consumer Law were much
+lower. Further:
+…[T]he penalties under the Consumer Law that the Privacy Bill seeks to
+‘mirror’ are new and untested—they have been subject to limited
+consultation, and their practical ramifications are currently unknown…[The
+Law Council is] troubled by the extent to which the Explanatory
+Memorandum to the Privacy Bill relies on the new penalty regime under the
+Consumer Law as the primary justification for the proposed changes to
+section 13G of the Privacy Act.30
+2.28 The AGD acknowledged that the maximum penalties available under the
+Consumer Law have increased since 2019 but explained that the rationale
+underpinning the Digital Platforms Inquiry recommendation remains sound: ‘it
+26 Digital Rights Watch, Submission 2, pp. 2–3. Also see: A/Associate Professor Elizabeth Coombs,
+Submission 17, p. 2; Australian Privacy Foundation, Submission 28, p. 2; Electronic Frontiers Australia,
+Submission 29, pp. 2–3.
+27 COSBOA, Submission 21, p. 3.
+28 OAIC, Submission 8, p. 2.
+29 OAIC, Submission 8, p. 2; AGD, Submission 12, p. 3; Dr Katharine Kemp, Submission 31, p. 2.
+30 Law Council, Submission 27, pp. 15–16. Also see: Australian Information Industry Alliance,
+Submission 18, p. 2.
+18
+highlighted the close links between competition, consumer and privacy laws,
+and that there was a need to avoid a siloed approach to how we address those’.31
+2.29 With regard to the international jurisdiction, the AGD referred explicitly to the
+European Union’s General Data Protection Regulation (GDPR), submitting that
+the penalty provisions in this privacy framework also provide for significant
+penalties:
+…[T]he European Union’s General Data Protection Regulation has a
+maximum penalty of €20 million or 4 per cent of a company’s annual global
+turnover, whichever is higher. This has led to significant fines against large
+digital platforms, including a €746 million (AUD $1.15 billion) fine against
+Amazon, €405 million (AUD $626 million) fine against Meta Platforms, €225
+million (AUD $348 million) fine against WhatsApp and €90 million (AUD
+$139 million) fine against Google.32
+2.30 However, some submitters—such as Dr Kemp and the
+Australia Banking Association—disagreed that the GDPR penalty regime is
+comparable to the Bill, as the EU framework notably provides for a system of
+tiered penalties (see ‘A tiered approach’ below).33
+2.31 A few submitters cautioned that the effect of proposed subsections 13G(2)-(3)
+would be limited, as more comprehensive reforms are required to address issues
+of privacy protection and cybercrime prevention. The Tech Council of Australia
+highlighted that skills shortages, regulatory gaps, and lack of investment in
+more secure technology and practices need to be addressed. On the first of these
+points:
+We believe that cyber security skills and talent is an area in need of far
+greater attention. Australia does not have enough cyber security
+professionals. In 2021, the vacancy rate for cyber security roles was over
+double the economy-wide vacancy rate…The skills shortages are
+concentrated in roles with 3+ years’ experience, and which require
+University degrees. That means they cannot be solved in the short-term by
+labour market adjustments or training. If businesses cannot hire experienced
+cyber security and tech talent, their capacity to prevent and manage
+incidents is far lower.34
+2.32 COSBOA commented similarly:
+A greater investment from Government in secure technology and practices
+is required, while also addressing urgent skills shortages, improving cyber
+skills and awareness, and providing greater resources for education and
+training in conjunction with new technology solutions…[T]he cost of
+31 Ms Elizabeth Brayshaw, Acting First Assistant Secretary, Integrity Frameworks Division, AGD,
+Committee Hansard, 17 November 2022, p. 27.
+32 AGD, Submission 12, p. 3.
+33 Australian Banking Association, Submission 24, p. 2; Dr Katharine Kemp, Submission 31, p. 3.
+34 Tech Council of Australia, Submission 19, p. 2. Also see: BCA, Submission 22, p. 3.
+19
+increased penalties will likely have a flow on effect causing supply chain
+issues.35
+2.33 Dr Kemp submitted that, while substantive amendments to obligations,
+exemptions and definitions in the Privacy Act would provide far greater privacy
+protections:
+…increasing maximum penalties in the short term at least assures
+organisations that if they do contravene the current relatively weak privacy
+obligations and do so in a way that amounts to a ‘serious’ or ‘repeated’
+interference with privacy which the OAIC manages to prove in the Federal
+Court, the consequences for the organisation may be severe and not merely
+a commercial speed bump.36
+Imposition of the maximum penalties
+2.34 Some submitters argued that the maximum penalties set out in proposed
+subsections 13G(2) and 13G(3) are too high. The Law Council pointed out that
+regulated entities include smaller organisations and, as noted by the
+Community Council for Australia, charitable organisations, both of which, they
+argued, would cease to be viable if penalised under the proposed provisions.37
+2.35 The Commissioner, Ms Angelene Falk, noted that the penalty provisions apply
+to a broad range of privacy requirements and are only one of the options
+available to her:
+…the increased amounts would apply in a range of contexts, not only in a
+data breach context but also where there's a misuse of personal information
+by an entity, where there has been a secondary disclosure or where there has
+been a failure to obtain consent and so on…[W]e need to ensure that
+Australians' personal information is protected from known risks…[W]e
+know that there are particular risks in our environment at present. One is
+malicious criminal actors; the other is human error…Because they are
+known risks, we need to ensure that businesses put in place reasonable steps
+to prevent them. If they have done so, it will not constitute an interference
+with privacy, and therefore the issue of applying for a penalty doesn't arise.
+But, for example, if there has been a failure to mitigate known risks—if
+there's been a failure, for example, to train staff or to alert them to how to
+identify phishing emails, or if the information is sensitive and warrants
+particular protection, such as multifactor authentication, and that's not
+provided—then they're the situations where I'd be more inclined to
+investigate a data breach and then consider regulatory options. A civil
+penalty would be only one regulatory option. The others are seeking an
+enforceable undertaking for the entity to rectify the problem and ensure it's
+not repeated; I can also make a determination, which is an administrative
+35 COSBOA, Submission 21, p. 1. Also see: Tech Council of Australia, Submission 19, p. 2; Community
+Council for Australia, Submission 32, p. 2.
+36 Dr Katharine Kemp, Submission 31, p. 4.
+37 Law Council, Submission 27, pp. 13–14; Community Council for Australia, Submission 32, p. 1.
+Also see: COSBOA, Submission 21, p. 2.
+20
+decision ordering or declaring that the entity rectify the situation; or, as you
+say, in more egregious circumstances, I can seek a civil penalty.38
+2.36 The AGD considered that ‘the penalties that we have in our bill would really
+only apply to the most egregious breaches’. With respect to smaller
+organisations, it further noted that most small businesses are currently exempt
+from the application of the Privacy Act, and the size of the business would also
+be considered in determining whether it had taken reasonable steps in relation
+to the security of personal information.39
+A tiered approach
+2.37 Several submitters and witnesses argued that the proposal to increase maximum
+penalties should adopt a tiered approach, as was put forward in the Discussion
+Paper released for the Privacy Act Review and/or as is the case under the
+GDPR.40
+2.38 COSBOA submitted that a scaled approach to setting and capping maximum
+penalties would ensure that they are proportionate to the seriousness and
+frequency of potential breaches. Further:
+It is also worthwhile considering a different penalty regime which is
+dependent on the entity type and ensures appropriate and proportionate
+penalties are applied to companies, partnerships, microbusinesses and sole
+traders.41
+2.39 The Community Council for Australia concurred with this suggestion,
+submitting that the size of an organisation and the nature of its work should be
+a relevant consideration: ‘penalties of up to 30% of an organisation’s turnover
+would break the vast majority of charities and force them to close’.42 The BCA
+expressed a similar concern in relation to large businesses due to the size of the
+proposed maximum penalties.43
+2.40 Salinger Privacy questioned whether the proposed maximum penalties would
+have any impact on the non-compliant conduct of most organisations.
+It explained that there are two significant problems with the current
+38 Ms Angelene Falk, Australian Information Commissioner and Privacy Commissioner, OAIC,
+Committee Hansard, 17 November 2022, pp. 3–4.
+39 Ms Julia Galluccio, Assistant Secretary, Information Law Branch, AGD, Committee Hansard,
+17 November 2022, pp. 28 and 29.
+40 See, for example: BCA, Submission 22, p. 7; Ms Samantha Floreani, Program Lead, Digital Rights
+Watch, Committee Hansard, 17 November 2022, p. 12; Professor David Lacey, Managing Director,
+IDCARE, Committee Hansard, 17 November 2022, p. 19.
+41 COSBOA, Submission 21, p. 2.
+42 Community Council for Australia, Submission 32, p. 1.
+43 BCA, Submission 22, p. 6.
+21
+enforcement regime: only ‘serious’ or ‘repeat’ conduct attracts a fine; and the
+OAIC cannot levy fines directly:
+Business from banks to dentists, from real estate agents to app developers,
+should be motivated to implement good practices due to concern about the
+likely consequences of not complying with the Privacy Act. So long as the
+enforcement regime is only for ‘serious’ or ‘repeat’ conduct, and fines can
+only be levied by the Federal Court, many organisations will continue to
+ignore their obligations in the hope that the regulator is too overwhelmed to
+bother taking them to court, and that they could easily defend most conduct
+as either not serious or not repeat anyway.
+We suggest that the perceived likelihood of being penalised is a more
+powerful motivator than simply the amount of the maximum penalty. Until
+this limitation is addressed, it will not matter that the top fine is $50M or
+more; most organisations will not imagine themselves ever being subject to
+such a penalty, and thus will continue their information handling practices
+without improvement.44
+2.41 Salinger Privacy suggested that a more effective, fair and scalable penalty
+regime would be a tiered approach, with provision for aggravating factors and
+a need to involve the Federal Court for ‘serious’ or ‘repeat’ interferences only at
+the maximum penalty level specified in the Bill.45
+2.42 The Tech Council of Australia agreed that ‘penalties should be proportionately
+applied’, agreeing that the Bill could be amended to provide for lower maximum
+penalties for less severe infringements:
+ for example, the GDPR adopts a tiered approach to maximum penalties,
+with a smaller maximum penalty for less severe infringements, and
+larger maximum penalties reserved only for the most severe
+infringements.
+ introducing a tiered model would also provide more legal clarity for
+smaller businesses about their potential risk levels and exposure to the
+increased penalties.46
+2.43 In response, the AGD advised that the department is considering a tiered
+approach to penalties as part of the Privacy Act Review, noting that there is an
+argument for a mid-tier penalty:
+…[T]he Information Commissioner…has a range of regulatory action that
+she can take. It’s quite a spectrum, so at the very low end she can provide
+guidance and education; if there's a complaint she can attempt to conciliate;
+for more serious issues she may decide to make a determination; for a
+serious or repeated breach of privacy she can pursue a civil penalty. The
+44 Salinger Privacy, Submission 10, p. 3. Also see: A/Associate Professor Elizabeth Coombs, Submission
+17, p. 2; Electronic Frontiers Australia, Submission 29, p. 2; Ms Samantha Floreani, Program Lead,
+Digital Rights Watch, Committee Hansard, 17 November 2022, p. 9.
+45 Salinger Privacy, Submission 10, pp. 3–4.
+46 Tech Council of Australia, Submission 19, p. 3.
+22
+feedback that we've had through the review to date is that perhaps there's
+not enough of a spectrum in terms of being able to address the different
+types of seriousness of privacy breaches that can occur and, in particular,
+that there's not much in between a determination that the Commissioner can
+make and when there's a very serious or repeated breach of privacy. One of
+the ideas that we are considering through the review is whether there should
+be a mid-tier penalty that could apply for any breach of the Privacy Act.47
+Safe harbour mechanism
+2.44 Several business stakeholders called for the Bill to incorporate a
+‘safe harbour mechanism’, whereby entities that take reasonable steps to protect
+personal information they hold from misuse, interference and loss, and from
+unauthorised access, modification or disclosure, as required by Australian
+Privacy Principle 11, would not be penalised. The BCA submitted:
+…any policy framework and response must clearly differentiate between
+incidents which occur due to negligent or reckless failure by an entity to take
+reasonable steps and those where the entity is a victim of sophisticated,
+targeted, and unprecedented actions by criminal and/or state actors. Duties
+of entities in this area and the consequences of a breach must be appropriate
+and proportionate to the actual wrongdoing or failure by the entity and the
+damage resulting to the entity, its employees, customers, and other
+stakeholders.48
+2.45 Similarly, Amazon Web Services submitted:
+…civil penalties frameworks should not impose undue hardship on an
+otherwise responsible entity that already undertakes robust privacy and
+security practices. Entities should have the opportunity to demonstrate that
+they have taken appropriate security and organisational measures to protect
+personal information if an interference occurs, and these factors should be
+taken into consideration.49
+2.46 The Australian Privacy Foundation, Electronic Frontiers Australia and
+Digital Rights Watch did not support the creation of a safe harbour mechanism
+in relation to the maximum penalties proposed in the Bill. Mr David Vaile, Chair
+of the Australian Privacy Foundation, said:
+In the European and US context it was eventually found that there was no
+basis for that, and it was used to lower the benchmark and lower the
+standards of protection for half a billion people in Europe.50
+47 Ms Julia Galluccio, Assistant Secretary, Information Law Branch, AGD, Committee Hansard,
+17 November 2022, p. 28.
+48 BCA, Submission 22, p. 6.
+49 Amazon Web Services, Submission 14, p. 2. Also see, for example: Australian Information Industry
+Alliance, Submission 18, pp. 2–3; Australian Banking Association, Submission 24, p. 2.
+50 Mr David Vaile, Chair, Australian Privacy Foundation, Committee Hansard, 17 November 2022, p. 11.
+Also see: Ms Samantha Floreani, Program Lead, Digital Rights Watch, Committee Hansard,
+17 November 2022, p. 11.
+23
+2.47 Similarly, Mr Justin Warren, Chair of Electronic Frontiers Australia, stated that
+‘often these safe harbour mechanisms are used as a way of avoiding
+consequences rather than as an incentive towards good behaviour’.51
+2.48 Ms Rachel Bailes, Head of Policy at the Australian Information
+Industry Association (AIIA), expressed a different view, however, stating that a
+properly drafted mechanism would incentivise good behaviour:
+A properly drafted safe harbour regime wouldn't act as a hammock or a get-
+out-of-jail-free card. Rather it's the other side; it's the carrot, the incentive,
+for organisations to take a good hard look at how their staff, organisational
+levels and boards are functioning and to leverage fantastic tools, such as the
+Essential Eight and other cybersecurity frameworks. Rather than that safe
+harbour being an opportunity to sit back, it's an opportunity to lean forward
+and have a look at the legislation. Rather than just going, 'We better make
+sure we never fall victim to a data breach,' it's about being resilient and
+cybersecure by putting practical steps in place so that you can satisfy that
+safe harbour.52
+2.49 Several submitters—such as the Tech Council of Australia and AIIA—
+contended that businesses need more clarity about the grounds on which the
+Commissioner might find a regulated entity liable for the imposition of a
+penalty. The former submitted that this lack of clarity is particularly acute where
+an entity has been the victim of a cyberattack. It added:
+Clarity is not just important for industry certainty, it can also help
+incentivise good cyber and privacy practices, and encourage disclosure of
+data breaches which is a positive behaviour that helps keep the community
+safe by ensuring there is an effective response to incidents as they are
+unfolding, and by learning from them once they are concluded.53
+2.50 The Australian Banking Association observed that, at present, there is not even
+any caselaw on the application of the penalty provision in section 13G of the
+Privacy Act:
+In the current Facebook matter, the Office of the Australian Information
+Commissioner…has taken a broad interpretation of how civil penalties
+should be applied for serious and repeated privacy breaches and the penalty
+sought would far exceed $50 million.54
+2.51 The AGD acknowledged concerns about the maximum penalties proposed in
+subsections 13G(2)-(3) but submitted that these penalties will not apply in all
+circumstances:
+51 Mr Justin Warren, Chair, Electronic Frontiers, Committee Hansard, 17 November 2022, p. 11.
+52 Ms Rachel Bailes, Head of Policy, Australian Information Industry Association, Committee Hansard,
+17 November 2022, p. 23.
+53 Tech Council of Australia, Submission 19, p. 5. Also see: Law Council, Submission 27, pp. 13–14.
+54 Australian Banking Association, Submission 24, p. 2. Also see: BCA, Submission 22, p. 7.
+24
+Although the Bill proposes to increase the maximum penalties that can
+apply under the Privacy Act, a court would retain discretion to determine a
+penalty which is appropriate and proportionate to the seriousness of the
+misconduct and harm or potential harm. The court may consider factors
+such as the nature and extent of the contravening conduct, the damage or
+loss suffered, the size of the contravening entity and whether the entity has
+previously been found to have engaged in similar conduct.55
+Legislative terminology
+2.52 Some submitters and witnesses highlighted key terms within proposed
+subsections 13G(1)-(3) of the Privacy Act, which they argued are uncertain,
+including the terms: ‘benefit’, ‘serious’, ‘repeated’, ‘turnover’ and
+‘breach turnover period’.
+2.53 Mr Vaile said that ‘there are very few legal precedents in this area, very little
+court analysis of the meaning of particular provisions, because there is no easy
+way to get into court’.56 Reinforcing this point, Ms Samantha Floreani, Program
+Lead at Digital Rights Watch, pointed out:
+…[N]ot a single penalty has been imposed under the Privacy Act since the
+provision came into effect in 2014. The OAIC has only sought a penalty in
+one case, against Facebook, which is ongoing.57
+2.54 The Law Council suggested that the terminology has been inappropriately
+adopted from the Consumer Law, without regard to the nuances of the privacy
+regime and the types of harms it seeks to address.58
+2.55 With respect to the term ‘benefit’, for example, the Law Council argued that the
+potential ‘benefit’ to a corporation resulting from serious or repeated data
+mismanagement is not as clear as it might be under the Consumer Law:
+…the reference to ‘benefit’, as proposed to be inserted into section 13G of
+the Privacy Act, will likely need additional discussion and clarity, as it is
+currently unclear how one would determine the benefit obtained from a
+breach of the Privacy Act. The Law Council cautions that penalty and benefit
+calculations may, once formalised, be utilised as loss quantification
+frameworks in civil claims and class actions. The Law Council accordingly
+suggests that consideration be given to reframing section 13G to reflect the
+55 AGD, Submission 12, p. 3.
+56 Mr David Vaile, Chair, Australian Privacy Foundation, Committee Hansard, 17 November 2022, p. 10.
+57 Ms Samantha Floreani, Program Lead, Digital Rights Watch, Committee Hansard, 17 November 2022,
+p. 9.
+58 Law Council, Submission 27, p. 17. Also see, for example: Australian Banking Association, Submission
+24, p. 3; Ms Kate Pounder, Chief Executive Officer, Tech Council of Australia, Committee Hansard, 17
+November 2022, p. 24; Ms Rachel Bailes, Head of Policy, Australian Information Industry
+Association, Committee Hansard, 17 November 2022, p. 24.
+25
+harm caused by serious privacy infringements, rather than the value of the
+benefit obtained by the breaching entity.59
+2.56 The BCA also questioned use of the term ‘benefit’ in the Bill:
+These penalties are being introduced in the context of cyberattacks affecting
+organisations across Australia. But for cyberattacks, the logic of deriving
+penalties through looking at ‘benefits’ (or, where these can’t be determined,
+turnover) is nonsensical. The ‘benefits’ an entity derives from being the
+victim of crime can only be measured in the negative—through lost
+reputation, customers, revenue, intellectual property, or other assets, and
+the costs of remediating and mitigating the fallout.60
+2.57 In evidence, the AGD also discussed how the mechanism in proposed
+subsection 13G(3) might operate, with particular attention to determining the
+value of a ‘benefit’. One official explained that there is a difference between a
+privacy breach and a cyberattack, which the proposed provision is seeking to
+consider: however, ‘there will be some circumstances where there just isn't a
+benefit, and that's when the maximum penalty of $50 million will apply’.61
+2.58 In a similar vein, the Commissioner contemplated a scenario in which there was
+a malicious hack where the ‘benefit’ to the regulated entity would need to be
+assessed:
+[This] may be difficult to determine…[T]here are likely to be submissions by
+the entity that's been breached to say that the concept of benefit doesn't arise
+in the circumstances…in which case the maximum of $50 million may be
+operable. I need to stress: a court needs to assess the amount of penalty to
+be provided. It doesn't necessarily flow that $50 million will be what's
+awarded. Currently, section 13G of the Privacy Act is subject to section 80 of
+the regulatory powers act, which provides that the court must take account
+of all relevant matters, including the circumstances of the contravention, the
+nature and extent of any loss or damage suffered because of the
+contravention and whether the entity has previously been found to have
+engaged in similar conduct.62
+2.59 Ms Kate Pounder, Chief Executive Officer of the Tech Council of Australia, also
+agreed with the AGD that there are distinctions to be made in the application of
+the proposed maximum penalties:
+When determining the penalties, the questions are: has there been a breach
+of the act; what is the nature of that breach—is it serious, is it repeated; and
+did the company take reasonable steps to prevent it? We can see that, where
+59 Law Council, Submission 27, p. 17.
+60 BCA, Submission 22, p. 6.
+61 Ms Julia Galluccio, Assistant Secretary, Information Law Branch, AGD, Committee Hansard,
+17 November 2022, p. 33. Also see: Ms Elizabeth Brayshaw, Acting First Assistant Secretary,
+Integrity Frameworks Division, AGD, Committee Hansard, 17 November 2022, p. 33.
+62 Ms Angelene Falk, Australian Information Commissioner and Privacy Commissioner, OAIC,
+Committee Hansard, 17 November 2022, p. 5.
+26
+a company has intentionally tried to do the wrong thing, all of those answers
+may readily flow from each other, but in the case of a malicious hack we
+have to ask those questions very carefully. Firstly, a company can be the
+victim of a malicious cyberattack, and we know from the information that
+the commission is reporting that about two-thirds of the mandatory data
+breaches they receive are the result of a malicious hack. The company may
+not have actually breached the Privacy Act when that attack has occurred,
+firstly because cyber incidents don't necessarily result in a data breach and
+secondly because the data breach itself may not have been a breach of the
+Privacy Act. It's important not to lose sight of that distinction.
+Secondly, when we think about the sophistication of some of the state-based
+actors or significant criminal syndicates, there can be some very
+sophisticated types of cyberattacks where a company may well have taken
+a number of reasonable steps, such as having the right, being legally
+required to hold the data in the first place or maintaining it securely. They
+may have very sophisticated systems, security and penetrating testing, or
+internal cybersecurity teams that are constantly monitoring for either errors
+or attacks. They may have trained all their staff. They may have detected an
+incident very quickly and instantly notified authorities and started
+cooperating with them—yet still they may have had a terrible attack. When
+we question whether there has been a breach of the act—how serious it was,
+if it was repeated, and whether they took reasonable steps—all of those
+factors are very material. They should, therefore, also be material to the
+question of the right penalty.63
+‘Serious interference’ or ‘repeated interference’
+2.60 The majority of submitters and witnesses focussed on the terms ‘serious
+interference’ and ‘repeated’ interference in proposed subsection 13G(1) of the
+Privacy Act, submitting that this provision should be amended or reconsidered.
+The Law Council highlighted:
+…the terms of ‘serious interference’ and ‘repeated interference’…are not
+defined, and unlike other sections of the Privacy Act, are not supported by
+a non-exhaustive list of factors that would give rise to such a
+contravention.64
+2.61 DIGI argued that, in view of the substantial penalties proposed under the Bill,
+what constitutes a serious or repeated interference with privacy must be better
+defined:
+…their scope and application need to be exceedingly clear, and greater
+clarity will ultimately assist APP entities’ compliance efforts. We are
+concerned that the Act does not define a 'serious' or 'repeated' interference
+with privacy, creating uncertainty as to the circumstances in which this civil
+penalty provision may apply. To provide APP entities with greater clarity
+as to the potential application of the amended penalty provision, we submit
+63 Ms Kate Pounder, Chief Executive Officer, Tech Council of Australia, Committee Hansard,
+17 November 2022, pp. 22–23.
+64 Law Council, Submission 27, p. 17. Also see, for example: Australian Privacy Foundation, Submission
+28, p. 1.
+27
+that the Bill be amended to include a definition of both a 'serious' and
+'repeated' interference with privacy that covers only the most egregious
+breaches of the Act.65
+2.62 The Law Council acknowledged that the OAIC has published guidance,
+identifying factors and conduct which it would take into account when deciding
+whether to seek a civil penalty under existing section 13G of the Privacy Act.
+However, ‘while such guidance material is helpful to providing a degree of
+clarity, these key threshold terms have not had the benefit of substantive
+interpretation through case law’.66
+2.63 Rather than amend the definitions in section 13G, the BCA suggested that
+greater clarity could be provided by amending section 80U of the Privacy Act,
+which sets out factors to be taken into consideration when a court determines
+pecuniary penalties. It argued that the following factors should be included:
+ Whether a breach was the result of deliberate, reckless, or negligent
+behaviour on the part of the regulated entity;
+ Whether a regulated entity was compliant with recognised or prevailing
+standards for security and had robust privacy frameworks in place;
+ Whether an entity acted promptly to investigate the matter, sought
+appropriate expert assistance, and worked in good faith to address harms
+to citizens; and
+ Whether an entity disclosed the breach at an appropriate time to mitigate
+damage to all involved.67
+2.64 AGD representatives noted that the Bill seeks to amend ‘quantum’ under section
+13G of the Privacy Act and does not touch upon the existing terminology of
+‘serious interferences’ or ‘repeated’ interferences:
+It's not affecting the existing obligations under the act, nor is it affecting the
+way in which, in cases of serious or repeated breaches where the
+commissioner is of the view that civil penalties are warranted, she would go
+to the court to seek those, and it would be a matter for the court to determine,
+in the circumstances of that case, what would be appropriate.68
+2.65 In relation to what might constitute ‘serious interferences’ or ‘repeated’
+interferences, the AGD acknowledged that the OAIC already provides guidance
+on these matters but recognised that it would be appropriate for the identified
+factors to be updated on passage of the Bill. Further:
+65 DIGI, Submission 25, p. 3. Also see: Law Council, Submission 27, p. 18. Note: these two submitters
+noted that definitions would also be relevant to other reform recommendations, such as a tiered
+civil penalties infringement regime.
+66 Law Council, Submission 27, pp. 17–18. Also see: BCA, Submission 22, p. 8, which stated that the
+guidance currently provided by the OAIC is too broad and punitive.
+67 BCA, Submission 22, pp. 7–8.
+68 Ms Elizabeth Brayshaw, Acting First Assistant Secretary, Integrity Frameworks Division, AGD,
+Committee Hansard, 17 November 2022, p. 28.
+28
+Another one of the issues that we are considering as part of the Privacy Act
+review is whether the provision could be made clearer. One of those options
+might be through guidance. Another idea might be to take the guidance
+which the OAIC has done and specify those factors in the provision itself.
+They're all options that we're currently considering.69
+Enforcement powers
+2.66 As noted by the Attorney-General in his second reading speech, the Bill would
+provide the Commissioner with ‘a suite of improved and new powers to resolve
+privacy breaches efficiently and effectively’.70 This section discusses two of the
+proposed powers and the related issue of OAIC resourcing.
+Extraterritorial operation
+2.67 Item 10 in the Bill would repeal paragraph 5B(3)(c) of the Privacy Act to remove
+the requirement for an organisation or small business operator to collect or hold
+personal information in Australia or an external territory, before or at the time
+of the act or practice in question, to have an ‘Australian link’.
+2.68 Some submitters welcomed this proposal which would extend the operation of
+the Privacy Act to overseas organisations and small business operators who
+‘carry on a business’ in Australia.71 Electronic Frontiers Australia submitted that
+‘it is right and proper that Australians should expect data about them to be kept
+safe no matter how it came to be in the possession of an organisation’.72
+2.69 Digital Rights Watch argued that the repeal of paragraph 5B(3)(c) would make
+the Privacy Act ‘more fit for purpose in the global internet economy’ and ‘make
+it harder for foreign companies to avoid meeting the requirements of the Privacy
+Act’.73
+2.70 Similarly, CHOICE viewed the current provision as ‘an unfair loophole that
+means some international corporations may be exempt from adhering to critical
+privacy protections’.74
+2.71 Some submitters did not, however, support the proposed repeal of paragraph
+5B(3)(c). The Law Council expressed its concern that ‘there is no balancing
+69 Ms Julia Galluccio, Assistant Secretary, Information Law Branch, AGD, Committee Hansard,
+17 November 2022, p. 29. Also see: Ms Elizabeth Brayshaw, Acting First Assistant Secretary,
+Integrity Frameworks Division, AGD, Committee Hansard, 17 November 2022, p. 29.
+70 The Hon Mark Dreyfus KC MP, Attorney-General and Cabinet Secretary, House Hansard, 26 October
+2022, p. 8.
+71 See, for example: CHOICE, Submission 7, p. 1.
+72 Electronic Frontiers Australia, Submission 29, p. 5.
+73 Digital Rights Watch, Submission 2, p. 3. Note: three international equivalents were cited, that is, the
+European Union’s General Data Protection Regulation, the California Consumer Privacy Act in
+California, and the Personal Data Protection Act in Singapore
+74 CHOICE, Submission 7, pp. 1–2.
+29
+reform that would limit the effect of the Privacy Act to information that has some
+connection with Australia’. It explained:
+…removing paragraph 5B(3)(c), without replacing it with any other
+provision, may have broader implications and consequences than is
+intended. Repealing this paragraph would likely not limit the
+extraterritorial application to personal information ‘from a source in
+Australia’ as envisaged in the Explanatory Memorandum. Rather, this
+repeal could have the unintended effect of being applicable to all foreign
+organisations operating in Australia for all their privacy practices, including
+those that affect citizens of other nations who do not have any link to
+Australia, because the amendment would mean that the threshold to satisfy
+the ‘Australian link’ is that the foreign operation carries on business in
+Australia.75
+2.72 Both the BCA and DIGI agreed with this assessment. DIGI commented that ‘it
+is not clear why Australian laws seek to regulate the management of personal
+information that has no direct connection with Australia or with Australians’.
+The BCA added that the proposed provision also ‘risks bringing Australian laws
+into conflict with requirements made in other jurisdictions’.76
+2.73 On this point, the Law Council submitted:
+…it will be important to understand the scope and impact of the proposed
+changes and consider the potential for conflicts of laws and unintended legal
+consequences for sectors that are already regulated, either under their
+applicable home data protection regimes or industry-specific regulations
+that authorise and regulate their sphere of operations in Australia.77
+2.74 The OAIC supported the repeal of paragraph 5B(3)(c) of the Privacy Act, which
+it considered would, among other things, ‘simplify the requirements around the
+circumstances in which the Privacy Act extends to an act or practice of an
+organisation outside Australia’.78
+2.75 In evidence, the AGD affirmed its view that ‘the nexus that comes from carrying
+on a business provides a useful nexus’ for the purposes of section 5B of the
+Privacy Act, adding that this approach is consistent with at least one
+international jurisdiction:
+The focus, if that second limb is removed [in paragraph 5B(3)(c)], is that the
+nexus in that circumstance would be to demonstrate that the foreign
+organisation is carrying on a business in Australia. That mirrors the
+approach taken to foreign organisations in relation to competition and
+consumer law in Australia, and we know that, while it is framed slightly
+75 Law Council, Submission 27, p. 9.
+76 BCA, Submission 22, p. 8; DIGI, Submission 25, p. 3. Also see: Ms Rachel Bailes, Head of Policy,
+Australian Information Industry Alliance, Committee Hansard, 17 November 2022, p. 26.
+77 Law Council, Submission 27, p. 9.
+78 OAIC, Submission 8, p. 2.
+30
+differently, the New Zealand Privacy Act has a similar way of dealing with
+that type of extraterritorial provision.79
+General Data Protection Regulation
+2.76 Several submitters did not agree with the OAIC that the proposal would
+simplify the circumstances in which organisations or small business operators
+overseas would be subject to Australian privacy law. Many referenced article 3
+of the GDPR which deals with extraterritoriality. DIGI summarised the effect of
+this article, as follows:
+…the EU’s regulation…applies to (1) individuals that are EU residents,
+(2) organisations that are based in the EU, or (3) organisations based outside
+the EU that monitor the behaviour of EU citizens. This still enables
+compliance from foreign entities, while still requiring a connection to the
+EU. This is important as it provides foreign companies with a degree of
+clarity as to which organisation is the responsible international regulator.80
+2.77 The Law Council, the Australian Privacy Foundation and
+Privacy 108 Consulting argued that the Bill should align with the approach
+adopted by the GDPR. The Law Council considered that this would address its
+concern with the repeal of paragraph 5B(3)(c), by allowing for the relevant
+personal information to have some link with Australia for the attachment of
+Australia’s privacy law.81
+2.78 While the Law Council suggested that the Bill could alternately be amended to
+include a balancing limitation, it considered that the extraterritorial operation of
+the Privacy Act is a matter best considered as part of the
+Privacy Act Review. In addition:
+…[A]lthough it is not a bar to enacting legislative change now, the Law
+Council notes that the effect of existing subsection 5(3) of the Privacy Act is
+a significant issue in a current appeal before the High Court of Australia in
+Facebook Inc v Australian Information Commissioner.82
+Information gathering powers
+2.79 The Notifiable Data Breaches (NDB) scheme requires regulated entities to notify
+affected individuals and the Commissioner if an entity has reasonable grounds
+to believe that an ‘eligible data breach’ (as defined in section 26WE) has
+79 Ms Elizabeth Brayshaw, Acting First Assistant Secretary, Integrity Frameworks Division, AGD,
+Committee Hansard, 17 November 2022, p. 29.
+80 DIGI, Submission 25, p. 3.
+81 Law Council, Submission 27, p. 9. Also see: Privacy 108 Consulting, Submission 16, p. 4; Australian
+Privacy Foundation, Submission 28, p. 2.
+82 Law Council, Submission 27, p. 11.
+31
+occurred.83 A key objective of the scheme is to enhance entities’ accountability
+for privacy protection.84
+2.80 Proposed section 26WU of the Privacy Act would give the Commissioner the
+power to require the giving of information, the production of documents or the
+answering of questions in relation to actual or suspected
+‘eligible data breaches’, or an entity’s compliance with the notification
+requirements.85
+2.81 The OAIC submitted that the proposed section would help to inform the
+Commissioner in the exercise of her functions and powers:
+[The information gathering powers] will help to ensure the OAIC has a
+comprehensive knowledge of the information compromised in a breach, and
+other relevant facts and circumstances, to assess the particular risk of harm
+to individuals, and whether the recommendations about the steps that
+individuals should take in response to the eligible data breach outlined in a
+notification are sufficient.86
+2.82 CHOICE supported enabling the Commissioner to access, request and assess a
+regulated entity’s compliance with the NDB scheme, pointing out that the
+scheme ‘relies on the discretion of businesses to disclose data breaches and
+individual harm’.87
+2.83 However, the BCA considered that the proposed power should be
+‘bounded by some form of time-based requirement’, such as expiration of a
+30-day assessment period after first notification to the Commissioner of an
+actual or suspected data breach:
+Businesses may not have notified Commissioner as they actively investigate
+and determine the extent of the breach. Information requests at this time
+may well be at best a distraction and at worst actually cause the relevant
+entity to take its focus away from the main objective of securing the breach
+and protecting data subjects. It is important to ensure that disclosure is well
+managed and avoids confusion or misinformation. Any regime that is
+intended to cause early disclosure should be carefully considered when
+compared with the harm that may occur either to stakeholders as a result,
+or to the effective investigation into or remediation of the breach itself.88
+83 Privacy Act, Part IIIC.
+84 OAIC, Submission 8, p. 3.
+85 Item 18 in the Bill.
+86 OAIC, Submission 8, p. 3.
+87 CHOICE, Submission 7, p. 2.
+88 BCA, Submission 22, p. 9.
+32
+OAIC funding
+2.84 Many submitters expressed concern about the proposed expansion of the
+OAIC’s enforcement powers without a commensurate increase in resourcing.89
+The Law Council argued:
+The OAIC must be sufficiently resourced to perform and implement the
+proposed enhanced enforcement powers, while also discharging its other
+key statutory functions and activities, including providing information to
+the public, organisations, and agencies about their rights and obligations
+under the Privacy Act.90
+2.85 Similarly, Digital Rights Watch commented on the need for requisite and stable
+funding, which it argued is fundamental for the OAIC to be a strong and
+effective regulator:
+The additional $5.5 million allocated to the OAIC to investigate the
+Optus data breach in the most recent budget does not meet the ongoing
+funding needs of the OAIC. The digital ecosystem and privacy issues that
+come with it are only increasing in complexity, severity and frequency.
+The OAIC urgently needs increased funding that is not tied to one specific
+investigation to be able to meet its growing responsibilities.91
+2.86 Dr Kemp agreed, submitting:
+…an active, properly funded privacy regulator is essential if we are to
+reduce the scope and frequency of data breaches rather than simply turning
+to the regulator for the ‘clean-up effort’. While major data breaches
+obviously dominate recent headlines in Australia, it is also important to
+remember that many substantial privacy harms are imposed on individuals
+even where there is no eligible data breach. Australians currently face long
+delays in having their complaints addressed by the OAIC and some
+apparently clear and long-standing breaches of the APPs have not been
+addressed at all.92
+2.87 The AGD noted the additional funding provided to the OAIC in the Federal
+Budget 2022-2023, as well as $17 million over two years to support the OAIC in
+its response to the increasing complexity of privacy complaints, and to
+undertake effective enforcement action and litigation.93 Officials further
+advised:
+[AGD is] always carefully looking at the resourcing requirements and the
+government is mindful of that. We're very conscious that the Privacy Act
+review could indeed look at the approach and the way in which the office
+89 See, for example: Australian Privacy Foundation, Submission 28, p. 2; Electronic Frontiers Australia,
+Submission 29, p. 2.
+90 Law Council, Submission 27, p. 19.
+91 Digital Rights Watch, Submission 2, p. 2.
+92 Dr Katharine Kemp, Submission 31, p. 4. Also see: Australian Privacy Foundation, Submission 28, p. 2;
+Electronic Frontiers Australia, Submission 29, p. 2.
+93 AGD, Submission 12, p. 2.
+33
+operates and how we can support that, so there will be further consideration
+there.94
+2.88 When asked about resourcing levels, the Commissioner stated that the Bill
+would create efficiencies for the OAIC and does not present additional resources
+imposts. However, Ms Falk advised:
+I am continuing to be in discussions with government around the resourcing
+requirements of the office into the future, noting the significant issues facing
+Australian businesses, not only around data breaches but around
+complexity of information-handling practices.95
+2.89 With reference to the recent funding to investigate the Optus data breaches (see
+paragraph 1.12), the Commissioner stated:
+…[W]e will always take the regulatory action warranted in the
+circumstances. On this occasion, I have gone to government, I have sought
+the funding and it has been provided. I will continue to raise the issue of the
+need to have access to a funding base that takes account of the need to bring
+litigation.96
+Information sharing powers
+2.90 The Bill would provide information sharing powers to the OAIC and
+the ACMA. Some submitters commented on these proposed provisions.
+Privacy Act
+2.91 Proposed section 33A of the Privacy Act would enable the Commissioner to
+share information or documents with a ‘receiving body’
+(as defined in proposed subsection 33A(2) of the Act) for the purposes of the
+Commissioner or the ‘receiving body’ exercising their powers or performing
+their functions or duties.97
+2.92 Submitters—such as the OAIC and the Australian Federal Police (AFP)—
+explicitly supported the proposed provision. The AFP considered that proposed
+section 33A would ‘contribute to better outcomes for affected individuals and
+entities’,98 while the OAIC emphasised the benefits of efficient and effective
+regulatory cooperation:
+94 Ms Elizabeth Brayshaw, Acting First Assistant Secretary, Integrity Frameworks Division, AGD,
+Committee Hansard, 17 November 2022, p. 32.
+95 Ms Angelene Falk, Australian Information Commissioner and Privacy Commissioner, OAIC,
+Committee Hansard, 17 November 2022, p. 6.
+96 Ms Angelene Falk, Australian Information Commissioner and Privacy Commissioner, OAIC,
+Committee Hansard, 17 November 2022, p. 6.
+97 Item 20 in the Bill. Note: similar powers would be provided to the Australian Communications and
+Media Authority in item 1 of the Bill. As this proposed power was only raised in a few submissions,
+it is not discussed in this chapter.
+98 AFP, Submission 11, p. 1.
+34
+The Bill will provide clear circumstances in which the Commissioner may
+share information with other bodies where necessary, including law
+enforcement bodies, an alternative complaint body and State, Territory or
+foreign privacy regulators. These measures will help to ensure that
+duplicative investigation and regulatory responses – both domestically and
+globally – are avoided and limited resources are directed appropriately.99
+2.93 The Law Council expressed its concern with the broad power that it argued is
+subject to limited safeguards:
+Beyond the restriction that the information or documents must have been
+acquired by the Commissioner in the course of exercising powers,
+or performing functions or duties, under the Privacy Act, the only other
+condition imposed with respect to the Commissioner’s decision to share this
+information, per proposed paragraph 33A(3)(b), is that:
+ …the Commissioner is satisfied on reasonable grounds that the receiving
+body has satisfactory arrangements in place for protecting the
+information or documents.100
+2.94 The BCA agreed that the safeguards in proposed section 33A are insufficient,
+submitting that affected organisations—and therefore individuals also—will be
+unaware of the sharing and use of personal information:
+…at a minimum, the information sharing powers be amended to require the
+OAIC to inform the relevant organisation that both the sharing is occurring
+and for what purpose. This will allow the organisation to provide additional
+or supporting context to the receiving agency, if needed…The proposed
+information sharing powers could also create a double jeopardy risk for
+entities where information is shared between regulators under broadly
+defined powers. In addition, we are concerned that information gained in
+one context, when provided to another agency for an associated but perhaps
+different context, may be incorrectly relied upon.101
+2.95 Amazon Web Services shared the Law Council and the BCA’s concerns,
+submitting that proposed section 33A is overly broad, not subject to appropriate
+safeguards, and may cause significant privacy concerns for organisations and
+the wider community:
+The effect of the powers under section 33A is such that an organisation could
+share information regarding an eligible data breach with the Commissioner,
+who may then share that information (including the personal information
+of Australians) with any “receiving body” for any purpose of the receiving
+body—including to pursue investigations or matters that are not related to
+the data breach in question. This could all occur without the consent or
+knowledge of the organisation, or any affected individuals. It is also
+concerning that any of this information, especially personal information,
+99 OAIC, Submission 8, p. 4.
+100 Law Council, Submission 27, p. 23. Also see: Mr David Vail, Chair, Australian Privacy Foundation,
+Committee Hansard, 17 November 2022, p. 12.
+101 BCA, Submission 22, p. 10.
+35
+may be given to a foreign authority without the consent or knowledge of the
+organisation or affected individuals.102
+2.96 The Law Council identified an additional concern with the proposal to allow
+broader information sharing: there is a significant risk that the regime proposed
+under proposed section 33A may act as a deterrent for entities that would
+otherwise pursue early and voluntary engagement with the regulator:
+The sharing of information by the Commissioner with other bodies…has the
+potential to undermine the voluntary aspects of OAIC’s regulatory
+approach, which may be necessary to mitigate or resolve privacy issues at
+an early stage. The risk of disincentivising voluntary reporting might be
+compounded by the indefinite, and potentially expansive list of bodies
+authorised to receive information…The Law Council suggests consideration
+be given to amending this provision to provide an exhaustive list of relevant
+bodies authorised to receive information under the Privacy Act.103
+Disclosure in the public interest
+2.97 Proposed subsection 33B(1) of the Privacy Act would give the Commissioner a
+discretion to disclose information acquired in the course of exercising powers,
+or performing functions or duties, under the Act if the Commissioner were
+satisfied that it is in the public interest to do so. A list of mandatory and
+discretionary factors that would need to be taken into consideration are set out
+in proposed subsection 33B(2).104
+2.98 The OAIC submitting that the proposed provision would provide clear
+authority for the publication of information, if it is in the public interest.
+It argued that publication would ensure that Australians are informed about
+privacy issues and reassured that the OAIC is discharging its duties.105
+2.99 The BCA expressed its concern with the risk of disclosure prior to completion of
+an investigation: ‘this is completely contrary to how the OAIC currently
+conducts investigations and contrary to how most regulators conduct their
+investigations’.106 Further, it voiced concerns about the ‘blanket power’ which
+does not limit the nature of information that can be disclosed:
+…[D]isclosed information might include any information supplied to the
+Commissioner in the course of an investigation, regardless of whether that
+information is contested as to accuracy, completeness or relevance.107
+102 Amazon Web Services, Submission 14, p. 3.
+103 Law Council, Submission 27, p. 24.
+104 Item 20 in the Bill.
+105 OAIC, Submission 8, p. 5.
+106 BCA, Submission 22, p. 9.
+107 BCA, Submission 22, p. 9.
+36
+2.100 The BCA submitted that proposed section 33B(1) does not contain sufficient
+safeguards and, similar to the Law Council’s concerns in relation to information
+sharing powers, may discourage companies from disclosing matters to the
+Commissioner, with adverse effect:
+There is no requirement of prior consultation with the person or entity that
+provides the relevant information or to whom the information relates. There
+is also no requirement for the Commissioner to consider proportionality or
+to balance benefit to the person or entity that provide the relevant
+information or to whom the information relates against, merely to “have
+regard” to the matters proposed [in] section 33B(2). This could lead to
+situations where the OAIC publishes information that will allow further
+attacks to be made against an organisation, if the OAIC fails to understand
+the nature of the information it is releasing. Moreover, disclosing during an
+investigation information obtained as part of the investigation has the
+potential to undermine, compromise and delay any such investigation.108
+108 BCA, Submission 22, p. 9. Also see: Australian Federal Police, Submission 11, p. 1, which noted the
+safeguard in relation to potential prejudice to law enforcement activities.
+Chapter 3
+Conclusions and recommendations
+3.1 The Privacy Legislation Amendment (Enforcement and Other Measures)
+Bill 2022 (the Bill) comprises the Australian government’s earliest possible and
+interim response to recent large-scale data breaches.
+3.2 The committee recognises that millions of Australians have been harmed by the
+hacking of and subsequent criminal release of personal and other sensitive data
+that individuals provided to government and business for legitimate reasons.
+3.3 The committee supports the Australian government, its departments and
+agencies in developing comprehensive and robust policies and measures to
+combat cybercrime, to protect personal and other sensitive data, and to assure
+Australians that the security of their personal information is of the utmost
+importance.
+3.4 The Attorney-General’s Department (AGD) review of the Privacy Act 1988
+(Privacy Act) was referenced throughout the inquiry, with several suggestions
+for matters that should be included as part of that holistic review.
+3.5 The committee acknowledges that the AGD is aware of these suggestions, many
+of which are already being considered. While not part of this inquiry,
+the committee especially notes data minimisation, safe harbour mechanisms for
+compliant regulated entities, compensation for identifiable harms and civil
+actions (such as a statutory tort for serious invasions of privacy), as particular
+matters for consideration.
+3.6 AGD advised that the Privacy Act review is nearing completion, with the
+Australian government keen to introduce reform to Australian privacy law. The
+committee agrees that this reform, more than 30 years after introduction of the
+Privacy Act and in a dynamic digital landscape, is long overdue. The committee
+would welcome a five-year statutory review of the privacy law reforms,
+following completion of the Privacy Law Review.
+3.7 The committee welcomes the Australian government’s attention to modernising
+and strengthening Australian privacy law. With this report, the committee
+makes recommendations that are aimed at enhancing these objectives. In
+particular, the committee accepts submitters’ and witnesses’ views that certain
+provisions in the Bill require further examination.
+3.8 Strictly speaking, proposed subsection 13G(1) of the Privacy Act is a technical
+amendment in the Bill, however, submitters and witnesses raised concerns
+about the clarity of two key definitions: ‘serious interference’ and ‘repeated’
+interference. Given the proposed quantum for contraventions of this provision,
+and notwithstanding that the Office of the Australian Information
+37
+38
+Commissioner (OAIC) has provided some guidance on the matter,
+the committee agrees that the legislation should provide more clarity about
+what would comprise a ‘serious interference’ and a ‘repeated’ interference.
+Recommendation 1
+3.9 The committee recommends that the Attorney-General’s Department, as part
+of its review of the Privacy Act 1988, recommend amending section 13G of the
+Act to define the terms ‘serious interference’ and ‘repeated’ interference and
+that the Australian government implement such a recommendation.
+3.10 The committee received considerable evidence on the maximum penalties in
+proposed subsection 13G(3) of the Privacy Act, as well as the practical operation
+of that provision.
+3.11 The committee is concerned about the proposed mechanism for determining the
+maximum penalty for a regulated entity in the event of a data breach. In its view,
+the difficulty in identifying and determining the requisite ‘benefit’ has the
+potential to lead to perverse outcomes. The committee suggests that the
+incorporation of the term ‘benefit’ from the Competition and Consumer Act 2010
+has not been helpful. While the test of ‘reasonable steps’ might mitigate the
+operation of the proposed provision, the committee considers that the AGD
+should further consider the way in which this provision has been drafted.
+3.12 In principle, the committee supports the proposed repeal of paragraph 5B(3)(c)
+of the Privacy Act. As highlighted by Electronic Frontiers Australia, ‘Australians
+should expect data about them to be kept safe no matter how it came to be in the
+possession of an organisation’.1
+3.13 The committee acknowledges, however, the argument raised by multiple
+submitters and witnesses—including the Law Council of Australia—that the
+proposed provision has been too broadly drafted and must retain some
+connection with Australians’ information, as is the case in the
+European Union’s General Data Protection Regulation.
+Recommendation 2
+3.14 The committee recommends that the Attorney-General’s Department, as part
+of its review of the Privacy Act 1988, examine the appropriateness of section
+5B providing for any additional ‘Australian link’.
+3.15 The Australian government provided additional funding to the Office of the
+Australian Information Commissioner in the Federal Budget 2022-2023.
+The committee heard that there are concerns about the OAIC’s ability to
+perform its functions without ongoing and stable funding. However, the
+Commissioner assured the committee that both the OAIC and the AGD closely
+1 Electronic Frontiers Australia, Submission 29, p. 5.
+39
+monitor the situation and to date, extra funding has been provided as and when
+required.
+Recommendation 3
+3.16 Subject to the above recommendations, the committee recommends that the
+Bill be passed.
+Senator Nita Green
+Chair
+
+Additional Comments by Senator Paul Scarr
+1.1 I agree with each of the three recommendations of the committee detailed in the
+report.
+1.2 In relation to the review of the Privacy Act 1988 (the Privacy Act) referred to in
+paragraph 3.4, I support the consideration by the
+Attorney General’s Department of the matters referred to in paragraph 3.5.
+1.3 There is an additional matter which, in my view, should be the subject of a
+recommendation; namely, the drafting of the maximum penalty provision.
+1.4 I note the discussion in the report in relation to the increase in maximum
+penalties and the structure of the maximum penalties proposed to be inserted
+in section 13G for body corporates. In my view, the report does not go far
+enough in this regard. Numerous stakeholders have raised concerns with
+respect to the drafting of this section and rightly so.
+1.5 For ease of reference, I quote the proposed wording:
+(3) The amount of the penalty for [a serious or repeated interference of
+privacy] is an amount not more than the greater of the following:
+(a) $50,000,000;
+(b) if the court can determine the value of the benefit that the body
+corporate, and any related body corporate, have obtained directly or
+indirectly, and that is reasonably attributable to the conduct constituting
+the contravention – 3 times the value of that benefit; and
+(c) if the court cannot determine the value of that benefit – 30% of the
+adjusted turnover of the body corporate during the breach turnover
+period for that contravention.
+1.6 The proposed wording is problematic for a number of reasons:
+(a) It presupposes that there has been some benefit generated through the conduct
+constituting the contravention (it refers to ‘the benefit’ in paragraph (b) rather
+than ‘any benefit’). However, in circumstances where a body corporate has
+been the subject of a cyber-attack and is found to have engaged in conduct
+constituting the contravention because it was (for example) wilfully reckless or
+grossly negligent in protecting the personal information/data, what is the
+benefit that the body corporate received? There is no readily identifiable
+benefit. (It is noted that one could possibly attempt to construct a ‘benefit’ based
+on the additional cost that the body corporate would have incurred had it had
+in place sufficient protections to prevent the hack, but this is a somewhat
+torturous exercise, and it is not clear that the term ‘benefit’ is intended to cover
+such cost savings).
+(b) The issue in paragraph (a) leads to the observation that the maximum penalty
+clause makes no distinction between circumstances where a body corporate
+41
+42
+may be the subject of a cyber-attack and therefore an unwilling participant in
+the privacy breach, as opposed to a body corporate that is a willing participant
+(or actively initiates) a privacy breach for financial benefit.
+(c) There is a potentially precipitous escalation of the maximum penalty to
+30 per cent of adjusted turnover which could be disproportionate because there
+is an issue of calculation of the benefit.
+(d) There is no tiering of the penalty to account for the spectrum of body corporates
+(based on size and purpose) that could be subject to the penalty which means
+that a small to medium sized enterprise/charity is subject to the same maximum
+penalty as a very large multinational company which should have the most
+sophisticated cyber defences available.
+Recommendation 1
+1.7 Given the amount by which the existing penalty is proposed to be increased,
+it is strongly recommended that the maximum penalty clause be reconsidered
+to address the above issues.
+Senator Paul Scarr
+Deputy Chair
+Additional Comments by Senator David
+Shoebridge
+1.1 There was significant concern amongst stakeholders and witnesses regarding
+the structure of the proposed new penalty regime. While there was near
+universal support for increasing the maximum penalty to up to $50 million,
+the lack of a tiered penalty regime and the drafting of the amendments to section
+13G of the Privacy Act 1988 created significant weaknesses in the privacy regime.
+1.2 The proposed model that seeks to link the maximum penalty for breaches to the
+benefit received through the privacy breach was modelled from competition
+law. There is common sense in linking maximum penalties to the benefit
+received when the offense in question is a breach of competition laws. When
+corporations engage in practices to manipulate markets or engage in other anti-
+competitive conduct the returns can be in the billions of dollars. For this reason,
+a maximum fine in the tens of millions of dollars would be ineffective.
+1.3 In the privacy space, the benefit that corporations obtain from privacy breaches
+is far more ambiguous. For many entities there is a net loss from privacy
+breaches, think for a moment of the reputational damage currently being done
+to Optus and Medicare from their data breaches. It appears that in neither of
+these cases was the privacy breach intentional, the ‘benefit’ if there was one was
+historic underinvestment in cyber security.
+1.4 It is not clear from the drafting if the ‘benefit’ is the net benefit received. It is also
+not clear how the proposed alternative maximum fine, of up to one-third of the
+annual turnover, will be engaged where there is no benefit or the benefit is hard
+to determine. These difficulties arise from taking provisions designed for one
+part of the law and unthinkingly applying them to this. There is a need for the
+government to closely consider these drafting issues as a matter of urgency.
+1.5 As noted above, the proposed increase to a maximum $50 million penalty is
+broadly supported, including by the Greens. However, by removing the existing
+penalty and having only a one-size-fits-all offense with a maximum penalty of
+$50 million leaves the regulator with only one button to push, the nuclear button
+with a potentially financially disastrous fine. As the majority of contributors to
+the inquiry made clear, there is a need for a far more nuanced approach with
+tiered penalties. For that reason, there would be real benefit in agreeing to the
+larger maximum fine for serious or repeated breaches then keeping the existing
+penalty for lesser breaches which are not necessarily serious or repeating.
+1.6 When it comes to resourcing, it was abundantly clear from this inquiry that the
+Office of the Australian Information Commission is seriously underfunded.
+As the Commissioner noted in her evidence, her UK equivalent regulator has 10
+times the staff. The Commissioner also noted that the $5.5 million obtained to
+43
+44
+undertake her investigation into just one breach, the Optus breach, fairly
+represented what a complex investigation would cost. So it is fair to ask how the
+office will properly investigate the raft of other data breaches already seen, not
+least Medibank.
+1.7 With a total budget of just over $33 million annually, from which all of the FOI
+and privacy work must be undertaken there is an obvious lack of practical
+capacity for the OAIC to undertake any more than one serious privacy breach
+investigation at a time. This lack of financial capacity is even clearer when you
+consider that the FOI work is already chronically delayed and underfunded
+causing year long delays in resolving reviews. The end result may well be that
+the Parliament agrees to tougher penalties but the government starves the
+regulator of the funds to ever seriously enforce them. That at best is a pyrrhic
+victory for data security.
+Senator David Shoebridge
+Greens Senator for New South Wales
+Appendix 1
+Submissions and Additional Information
+Submissions
+1 Australian Communications and Media Authority
+2 Digital Rights Watch
+3 Australian Computer Society
+4 Internet Association of Australia Ltd
+5 Australian Communications Consumer Action Network
+6 Australian Association of National Advertisers
+7 CHOICE
+8 Office of the Australian Information Commissioner
+9 BSA | The Software Alliance
+10 Salinger Privacy
+11 Australian Federal Police
+12 Attorney-General's Department
+13 Dr Bruce Baer Arnold
+14 Amazon Web Services
+15 Consumer Policy Research Centre
+16 Privacy 108 Consulting
+17 A/Assoc Professor Elizabeth Coombs
+18 Australian Information Industry Association
+19 Tech Council of Australia
+20 Australasian Higher Education Cybersecurity Service
+21 Council of Small Business Organisations of Australia
+22 Business Council of Australia
+23 Australian Institute of Company Directors
+24 Australian Banking Association
+25 Digital Industry Group Inc. (DIGI)
+26 Centre for Responsible Technology
+27 Law Council of Australia
+28 Australian Privacy Foundation
+29 Electronic Frontiers Australia
+30 National Australia Bank
+31 Dr Katharine Kemp
+32 Community Council for Australia
+Additional Information
+1 Opening statement provided by Justin Warren, Chair, Electronic Frontiers
+Australia at a public hearing on 17 November 2022
+45
+46
+Answer to Question on Notice
+1 Attorney-General's Department - Answers to spoken questions on notice,
+17 November 2022 (received 18 November 2022)
+Appendix 2
+Public Hearing
+Thursday, 17 November 2022
+Parliament House
+Canberra
+Office of the Australian Information Commissioner
+ Ms Angelene Falk, Australian Information Commissioner and Privacy
+Commissioner
+ Ms Sarah Ghali, A/g Assistant Commissioner, Regulation and Strategy
+Branch
+Australian Privacy Foundation (via videoconference)
+ Mr David Vaile, Chairperson
+Digital Rights Watch (via videoconference)
+ Ms Samantha Floreani, Program Lead
+Electronic Frontiers Australia (via videoconference)
+ Mr Justin Warren, Chair
+IDCARE (via videoconference)
+ Professor David Lacey, Managing Director
+Business Council of Australia (via videoconference)
+ Mr Chris Louie, Director, Digital, Cyber and Future Industries
+ Ms Wendy Black, Head of Policy
+Australian Information Industry Association (via videoconference)
+ Ms Rachel Bailes, Head of Policy
+Tech Council of Australia (via videoconference)
+ Ms Kate Pounder, Chief Executive Officer
+Attorney-General's Department
+ Ms Elizabeth Brayshaw, Acting First Assistant Secretary, Integrity
+Frameworks Division
+ Ms Julia Galluccio, Assistant Secretary, Information Law Unit
+ Mr Daniel Nguyen, Acting Director, Information Law Unit
+ Ms Isobel Hennessy, Senior Legal Officer, Information Law Unit
+Australian Communications and Media Authority
+ Ms Nerida O'Loughlin, Chairperson
+47
+48
+ Ms Sarah Grimm, Assistant Director, Performance, Governance, Audit and
+Risk Research, Data, Regulation and Governance Branch
+ Ms Cathy Rainsford, General Manager Content and Media Authority

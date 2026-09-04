@@ -1,0 +1,1403 @@
+The Senate
+Economics Legislation Committee
+Treasury Laws Amendment (Consumer
+Data Right) Bill 2022 [Provisions]
+May 2023
+© Commonwealth of Australia
+ISBN 978-1-76093-497-2 (Printed version)
+ISBN 978-1-76093-497-2 (HTML version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Members
+Chair
+Senator Jess Walsh ALP, VIC
+Deputy Chair
+Senator Andrew Bragg LP, NSW
+Members
+Senator Deborah O'Neill ALP, NSW
+Senator Jana Stewart ALP, VIC
+Senator Nick McKim AG, TAS
+Senator Dean Smith LP, WA
+Secretariat
+Mr Tas Larnach, Committee Secretary
+Ms Rachel Benzie, Senior Research Officer
+Ms Parabhjot Saini, Administrative Officer
+PO Box 6100
+Parliament House Ph: 02 6277 3540
+Canberra ACT 2600 Email: economics.sen@aph.gov.au
+iii
+
+Contents
+Members ............................................................................................................................................. iii
+Acronyms and abbreviations ......................................................................................................... vii
+Chapter 1—Introduction .................................................................................................................... 1
+Referral of the inquiry ........................................................................................................................ 1
+Background .......................................................................................................................................... 1
+Relevant reviews and inquiries ......................................................................................................... 2
+Inquiry into Future Directions for the Consumer Data Right ........................................... 2
+Statutory Review of the Consumer Data Right ................................................................... 3
+Purpose of the bill ............................................................................................................................... 4
+Provisions of the bill ........................................................................................................................... 6
+Overview of amendments ...................................................................................................... 6
+Consultation ......................................................................................................................................... 8
+Commencement .................................................................................................................................. 8
+Financial impact .................................................................................................................................. 9
+Legislative scrutiny ............................................................................................................................. 9
+Reversal of the evidential burden of proof .......................................................................... 9
+Incorporation of external material as in force from time to time .................................... 10
+Immunity from civil and criminal liability—Reversal of the evidential burden of proof
+........................................................................................................................................ 10
+Broad discretionary power ................................................................................................... 11
+Human rights implications .............................................................................................................. 11
+Regulatory impact statements ......................................................................................................... 11
+Conduct of the inquiry ..................................................................................................................... 12
+Acknowledgements .......................................................................................................................... 12
+Chapter 2—Views on the bill.......................................................................................................... 13
+Introduction ....................................................................................................................................... 13
+Overall support for the measure ..................................................................................................... 13
+Specific matters raised by stakeholders ......................................................................................... 15
+Committee view ................................................................................................................................ 28
+Coalition Senators Additional Comments ................................................................................... 31
+v
+Appendix 1—Submissions and additional information ........................................................... 35
+Appendix 2—Public Hearing .......................................................................................................... 37
+vi
+Acronyms and abbreviations
+ACCC Australian Competition and Consumer Commission
+ACCAN Australian Communications Consumer Action Network
+AAI Accredited Action Initiators
+ABA Australian Banking Association
+AI Action Initiation
+ARCA Australian Retail Credit Association
+CAANZ Chartered Accountants Australia and New Zealand
+CBA Commonwealth Bank of Australia
+CCA Competition and Consumer Act 2010
+CDR Consumer Data Right
+CPA Certified Practising Accountant
+EM Explanatory Memorandum
+FBAA Finance Brokers Association of Australia
+FRLC Financial Rights Legal Centre
+ICA Insurance Council of Australia
+IPA Institute of Public Accountants
+OIAC Office of the Australian Information Commissioner
+PLA Act Privacy Legislation Amendment (Enforcement and Other Measures)
+Act 2022
+RIS Regulation Impact Statement
+vii
+
+Chapter 1
+Introduction
+Referral of the inquiry
+1.1 The Treasury Laws Amendment (Consumer Data Right) Bill 2022 (the bill) was
+introduced into the House of Representatives and read a first time on
+30 November 2022.1
+1.2 On 9 February 2023, the Senate referred the provisions of the bill to the
+Senate Economics Legislation Committee (the committee) for inquiry and report
+by 23 March 2023.2
+1.3 On 6 March 2023 the committee was granted an extension of time for reporting
+until 3 May 2023.3
+Background
+1.4 In August 2019, the Australian Parliament passed the Treasury Laws Amendment
+(Consumer Data Right) Act 2019 creating the Consumer Data Right (CDR)—an
+economy-wide reform empowering consumers to access better products and
+services across a range of industries.4
+1.5 The creation of the CDR framework followed a range of reviews, including the
+Productivity Commission’s Inquiry Report into Data Availability and Use, and
+the Review into Open Banking in Australia.5
+1.6 The CDR is also known as ‘Australia’s national data portability initiative’ and
+has been designed to give customers, including individuals and business, the
+1 House of Representatives Votes and Proceedings, No. 29, 30 November 2022, p. 401.
+2 Journals of the Senate, No. 32, 9 February 2023, p. 962.
+3 Journals of the Senate, No. 33, 6 March 2023, p. 1000; The Hon Stephen Jones MP, House of
+Representatives Hansard, 30 November 2022, p. 3929.
+4 Parliament of Australia, Treasury Laws Amendment (Consumer Data Right) Bill 2019,
+https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bI
+d=r6370 (accessed 20 March 2023).
+5 Explanatory Memorandum (EM), p. 4. Productivity Commission, Data Availability and Use—
+Productivity Commission Inquiry Report, No. 82, 31 March 2017, https://www.pc.gov.au/inquiries/
+completed/data-access/report/data-access.pdf (accessed 8 March 2023); Department of the Treasury
+(Treasury), Review into Open Banking in Australia—Final Report, December 2017,
+https://treasury.gov.au/sites/default/files/2019-03/Review-into-Open-Banking-_For-web-1.pdf
+(accessed 8 March 2023).
+1
+2
+right to safely access certain data held by businesses, and direct that their
+information be transferred to accredited, trusted third parties of their choice.6
+1.7 The framework places consumers at the centre of a data-sharing system that
+protects their privacy, giving consumers the ability to opt-in and determine
+when and how their data is shared with accredited businesses and professionals
+of their choosing.
+1.8 The CDR scheme is being rolled out progressively across the Australian
+economy on a sector-by-sector basis. It has been in operation in the banking
+sector for over two years and has recently commenced in the energy sector. The
+telecommunications and ‘Open Finance’ sectors are the next priority areas for
+expansion of the CDR.7
+Relevant reviews and inquiries
+Inquiry into Future Directions for the Consumer Data Right
+1.9 On 23 December 2020, the former Treasurer, the Hon Josh Frydenberg MP,
+announced the Inquiry into Future Directions for the CDR (the Inquiry).8 The
+Inquiry examined the risks and benefits of various actions which are considered
+high value such as payments and switching providers. It analysed how the
+CDR’s functionality could be expanded to include action initiation, and
+discussed the potential process to bring new action types into the CDR.9
+1.10 On 23 December 2020, the former Minister for Superannuation, Financial
+Services and the Digital Economy, Senator the Hon Jane Hume, announced the
+release of the Final Report for the Inquiry, which was informed by extensive
+targeted consultation with industry, consumer and privacy advocates,
+regulators, and academia.10
+1.11 The Final Report provided options to expand and enhance the functionality of
+the CDR and made 100 recommendations. A key recommendation was to
+expand the CDR framework to enable accredited third parties, with the
+6 Treasury, Consumer Data Right, https://treasury.gov.au/policy-topics/economy/consumer-data-
+right (accessed 7 March 2023).
+7 Treasury, Consumer Data Right rules—expansion of the telecommunications sector and other operational
+enhancements, October 2022, https://treasury.gov.au/consultation/c2022-315575
+(accessed 14 March 2023).
+8 Treasury, Inquiry into Future Directions for the Consumer Data Right, October 2020, p.x,
+https://treasury.gov.au/sites/default/files/2021-02/cdrinquiry-final.pdf (accessed 8 March 2023).
+9 EM, p. 2.
+10 Treasury, Inquiry into Future Directions for the Consumer Data Right, 2020,
+https://treasury.gov.au/review/future-directions-consumer-data-right (accessed 7 March 2023);
+EM, p. 2. The inquiry considered 73 formal submissions in response to the issues paper and met
+with over 300 stakeholders.
+3
+consumer’s consent, to initiate actions beyond requests for data sharing (known
+as action initiation), building on trust developed in the system through the
+successful operation of the regime in enabling data sharing.11 The report
+recommended that action initiation first apply in the banking sector and include
+the initiation of payments.12
+1.12 The rationale for the implementation of an action initiation framework was
+outlined in the report as follows:
+The CDR provides a secure set of channels through which accredited
+persons can communicate with data holders. These channels should also be
+opened to suitably accredited persons to initiate actions on a consumer’s
+behalf with the consumer’s consent. Enabling action initiation in this way
+would allow the CDR to facilitate a much broader range of functions, and
+increase the range of products and services available to consumers. The
+legislation that gives legal basis to the CDR should be amended to enable
+action initiation.13
+1.13 On 14 December 2021, the former Coalition Government released its response
+to the Inquiry, endorsing its findings. The then government committed to
+expand the functionality of the CDR regime to include support for consumer-
+directed third-party action initiation with appropriate consumer and privacy
+safeguards.14
+Statutory Review of the Consumer Data Right
+1.14 On 14 February 2022, the government announced a statutory review on the
+operation of the CDR. The review explored the extent to which implementation
+of the CDR statutory framework supported the core policy objectives of driving
+value for consumers, increasing competition within designated sectors, and
+driving innovation across the data services sector. Focus was also on the
+government’s response to the Final Report of the Inquiry into Future Directions
+for the CDR.15
+11 Treasury, Inquiry into Future Directions for the Consumer Data Right—Final Report, 23 December 2020,
+https://treasury.gov.au/publication/inquiry-future-directions-consumer-data-right-final-report
+(accessed 7 March 2023). See recommendations in Chapter 4 of the Final Report on the Action
+initiation framework.
+12 Treasury, Inquiry into Future Directions for the Consumer Data Right, October 2020, pp. x–xi and
+Chapter 5.
+13 Treasury, Inquiry into Future Directions for the Consumer Data Right, October 2020, p. x,
+https://treasury.gov.au/sites/default/files/2021-02/cdrinquiry-final.pdf (accessed 8 March 2023).
+14 Department of the Treasury (Treasury), Government Response to the Inquiry into Future Directions
+for the Consumer Data Right, December 2021, p. 2, https://treasury.gov.au/sites/default/files/2021-
+12/p2021-225462.pdf (accessed 20 March 2023).
+15 Treasury, Statutory Review of the Consumer Data Right, 2022,
+https://treasury.gov.au/review/statutory-review-consumer-data-right (accessed 9 March 2023).
+4
+1.15 The report found that there was significant enthusiasm for the delivery of action
+initiation under the CDR, with many submissions noting, where possible, that
+the CDR should ‘minimise potential friction points and reduce regulatory
+compliance for participants, with the objective to create more streamlined
+consumer experiences’.16
+Purpose of the bill
+1.16 This bill would implement the recommendations from the Inquiry into Future
+Directions for the Consumer Data Right that introduce reforms to the CDR
+framework, referred to as the ‘action initiation reforms’.17
+1.17 The overall intent of the bill was explained by the Assistant Treasurer and
+Minister for Financial Services, the Hon Stephen Jones MP, on
+30 November 2022. The Minister stated that the measure to enable action
+initiation is a function of the CDR that is expected to empower consumers to
+authorise, manage and facilitate actions securely in the digital economy18:
+[…] these changes will support a range of innovative business models,
+driving the development of new CDR-powered products and services. This
+will offer entirely new ways of doing things, boost competition and reduce
+the time pressures, cost and complexity experienced by consumers and
+small businesses when carrying out everyday tasks.19
+1.18 The bill proposes to make amendments to the Competition and Consumer Act 2010
+(CCA) to expand the CDR from a data sharing scheme to a scheme that allows
+consumers to act on information they receive.20
+1.19 Under the current framework, consumers initiate the sharing of their data by
+giving consent to an accredited data recipient to request a transfer of their data
+from one or more data holders. The consumer then authorises each data holder
+to transfer their data to the accredited data recipient.21
+1.20 The introduction of action initiation into the CDR will allow accredited third
+parties to initiate actions beyond their current capacity of data sharing with a
+16 Treasury, Statutory Review of the Consumer Data Right Report, 2022, 29 September 2022, p. 67,
+https://treasury.gov.au/sites/default/files/2022-09/p2022-314513-report.pdf
+(accessed 9 March 2023).
+17 Explanatory Memorandum (EM), p. 1.
+18 EM, p. 3. For example, these actions could include making a payment, opening or closing an
+account, switching providers, and updating personal details (such as an address) across providers.
+19 The Hon Stephen Jones MP, House of Representatives Hansard, 30 November 2022, pp. 3929–3931.
+20 EM, p. 3.
+21 Office of the Australian Information Commissioner (OAIC), Consumer Data Right data,
+https://www.oaic.gov.au/consumer-data-right/consumer-data-right-legislation,-regulation-and-
+definitions/consumer-data-right-data#key-information-flow-diagram (accessed 20 March 2023).
+5
+customer’s consent.22 A third-party would be able to receive powers equivalent
+to a ‘digital power of attorney’.23
+Figure 1.1 Action initiation in the CDR
+Source: Treasury, Exposure draft legislation to enable action initiation in the Consumer Data Right,
+September 2022, p. 4.
+Action initiation is made up of two parts: the instruction layer and the action layer. The instruction layer would sit
+within the CDR scheme and enable a consumer to give consent for a third party, known as an Accredited Action
+Initiator (AAI), to send an action initiation request to an Action Service Provider (ASP). The ASP would then
+authenticate the consumer and carry out the action as they would if the request came directly from the consumer.
+The ASP would carry out the action in the action layer, which is outside the scope of the CDR.
+1.21 Increasing the functionality of the CDR scheme to include action initiation
+would empower consumers to authorise, manage and facilitate actions securely
+in the digital economy. As outlined in the Explanatory Memorandum (EM), this
+would ‘reduce complexity, time and cost for consumers looking to securely get
+better deals and services that meet their needs, unlock new business models,
+drive innovation and increase competition’.24
+1.22 Details and context of the proposed amendments within the bill are outlined
+below.
+22 EM, p. 3.
+23 The objective being that consumers could ‘push a button’ and be able to grant a third party the
+power to apply for, accept, pay for, and manage new products and services on behalf of the
+consumer.
+24 EM, p. 4.
+6
+Provisions of the bill
+Overview of amendments
+1.23 The bill consists of one schedule, divided into nine parts, and amends the CCA
+to establish enabling provisions for action initiation in the CDR. The proposed
+legislation is designed to build on the existing CDR infrastructure, where
+individuals and businesses can directly access or direct that their data be shared
+with certain participants.25
+1.24 The bill contains several amendments which will, among other things, outline
+ministerial declarations regarding types of actions that can be initiated under
+the consumer data right, insert key terms and changes to Ministers powers to
+make rules in relation to action initiation, compliance obligations and
+amendments to privacy safeguards.
+1.25 Under the proposed action initiation framework, the Minister would have the
+ability to declare types of actions that can be initiated under the CDR, akin to
+the current designation process for new sectors for data-sharing. Prior to
+declaring an action type declaration, a period of public consultation would need
+to occur, and the Minister would be required to consider the likely effect on the
+interests of consumers, market efficiency, competition, innovation and the
+public interest.26
+1.26 The declaration of action types would specify which data holders would be
+obliged to accept valid action instructions received from third party accredited
+action initiators, in the same way as if those instructions came directly from the
+consumer. The instrument would also declare classes of data holders that are to
+be action service providers—entities that would receive instructions through the
+CDR to perform an action.27 The framework would also allow for other entities
+to participate voluntarily in CDR action initiation upon approval with
+appropriate safeguards.28
+1.27 Following a declaration, the Minister would be able to make high-level rules for
+an action type that would enliven the obligations for the action type set out in
+25 EM, pp. 6 and 15.
+26 EM, pp. 7–8.
+27 EM, p. 7. For example, banks and energy providers.
+28 EM, p. 12.
+7
+the declaration.29 Accredited action initiators would need to meet strict
+accreditation requirements set by the rules and would also be required to:30
+ act efficiently, honestly, and fairly when initiating CDR actions initiated on
+the consumers behalf with their consent;
+ only initiate actions in accordance with a consumer’s valid request; and
+ comply with existing privacy safeguards.31
+1.28 The framework for action initiation in the CDR would primarily regulate the
+‘instruction layer’ of an action (the communication channel between the
+accredited action initiator and the action service provider), including:
+ consumers’ requests to give instructions;
+ accredited action initiators giving instructions to action service providers;
+ how action service providers process instructions; and
+ communication from the action service provider back to the accredited
+action initiator (including after action has been performed).32
+1.29 While the bill does not seek to reach into the ‘action layer’, or the performance
+of the action itself, it would not alter how performing the action operates, and
+would prevent action service providers from discriminating against a valid
+action request that came through the CDR.33
+1.30 As outlined above, the bill proposes amendments to privacy protections
+(‘privacy safeguards’) within the current CDR framework, comparable to the
+Australian Privacy Principles. These safeguards are intended to provide a
+higher level of protection for data used and shared within the CDR framework
+and would generally apply to action service providers in relation to the
+instruction layer (action service providers would handle any data received in
+accordance with the Privacy Act).34
+29 The Minister would have comprehensive rule-making powers for action initiation, including on
+accreditation of action initiators, how actions are initiated, how requests are processed and factors
+relevant to assessing discrimination.
+30 EM, p. 23.
+31 EM, pp. 10 and 19–20. Treasury, Inquiry into Future Directions for the Consumer Data Right,
+October 2020, p. xxviii, https://treasury.gov.au/sites/default/files/2021-02/cdrinquiry-final.pdf
+(accessed 8 March 2023). These obligations implement Recommendation 7.6—Action initiation and
+accredited person'.
+32 EM, p. 6. Under the proposed scheme, action service providers would be permitted to charge fees
+for processing requests received through the CDR if the Minister makes rules permitting it. They
+would be able charge fees for performing the action, subject to a non-discrimination principle.
+33 EM, p. 6; The Hon Stephen Jones MP, House of Representatives Hansard, 30 November 2022, pp. 3929.
+34 EM, p. 31. See also, Treasury, Exposure draft legislation to enable action initiation in the Consumer Data
+Right, September 2022, Appendix: Privacy safeguards, https://treasury.gov.au/sites/default/
+files/2022-09/c2022-317468-proposed-changes-summary.pdf (accessed 20 March 2023).
+8
+1.31 The privacy safeguards would apply to Accredited Action Initiators (AAI) (who
+are required to be Accredited Persons) and would mean that the safeguards
+would continue to apply to CDR data regardless of whether they receive CDR
+data as an AAI or an Accredited Data Recipient.35
+Consultation
+1.32 The Department of the Treasury (Treasury) sought stakeholder views on the
+exposure draft legislation to enable action initiation in the CDR.
+1.33 A detailed consultation process was undertaken between 26 September and
+24 October 2022, receiving 36 submissions, including two confidential
+submissions, from a broad range of industry stakeholders representing a range
+of sectors.36
+Commencement
+1.34 The proposed amendments would commence on the day after Royal Assent,
+except for a small number of amendments (to Part IIIC of the Privacy Act 1988
+to ensure their application to the CDR operates as intended37), which commence:
+ immediately after the commencement of the balance of the bill; and
+ on commencement of the Privacy Legislation Amendment (Enforcement and
+Other Measures) Act 2022 (PLA Act).
+1.35 The later amendments would not commence at all if the PLA Act does not
+commence.
+1.36 However, before any substantive rights or obligations can come into effect, the
+Minister must make an action type declaration and make CDR rules establishing
+such rights and obligations. The substantive rights or obligations would then
+come into effect on the application date set by those CDR rules.
+1.37 An exemption under proposed subsection 56GD(2) of the CCA that is in force
+immediately before the commencement of the amendments continues in force
+(and may be dealt with) as if the exemption had been given under that
+subsection as amended by the bill.38
+35 Treasury, Exposure draft legislation to enable action initiation in the Consumer Data Right,
+September 2022, Appendix: Privacy safeguards, https://treasury.gov.au/sites/default/files/2022-
+09/c2022-317468-proposed-changes-summary.pdf (accessed 20 March 2023).
+36 Treasury, Consumer Data Right—Exposure draft legislation to enable action initiation, October 2022,
+https://treasury.gov.au/consultation/c2022-317468 (accessed 9 March 2023).
+37 EM, pp. 38 and 45.
+38 EM, p. 46.
+9
+Financial impact
+1.38 The EM states that this measure has no financial impact over the forward
+estimates period.39
+Legislative scrutiny
+1.39 In its Scrutiny Digest 1 of 2023, the Senate Standing Committee on the Scrutiny
+of Bills (the Scrutiny Committee) raised concerns with the bill regarding several
+significant matters which are outlined in more detail below.
+Reversal of the evidential burden of proof
+1.40 The bill seeks to establish several defences which reverse the evidential burden
+of proof.40 Proposed section 56BN of the bill makes it an offence where a person
+engages in conduct that the person knows is misleading or deceptive and the
+conduct has the effect of making another person believe a person is CDR
+consumer for CDR data, or is acting in accordance with a valid request or
+consent for the disclosure of CDR data. Subsection 56BN(2) provides an
+exception (offence-specific defence) to this offence, stating that the offence does
+not apply if the conduct is not misleading or deceptive. A defendant bears the
+evidential burden of proof in relation to this defence.
+1.41 The Scrutiny Committee considers that the rational for the evidential burden of
+proof be comprehensively justified in the EM, with the EM stating that it would
+be unduly onerous to require the prosecution to prove the materiality of a
+matter, and that by contrast, being able to produce this material should place no
+additional burden on the defendant.41 The Scrutiny Committee commented that
+this justification made in the statement of compatibility with human rights is
+overbroad, given the number of matters that could be included within an
+assessment of whether a matter is significant enough to be considered a material
+particular. As such:
+The committee requests the Treasurer’s advice in relation to the inclusion of
+subsection 56B(2) as an offence-specific defence, rather than as an element
+of the offence.42
+39 EM, p. 1.
+40 Scrutiny of Bills Committee, Scrutiny Digest 1/23, 8 February 2023, p. 55. Schedule 1, item 78,
+proposed subparagraphs 56NB(1)(c)(iii) and (iv). The committee draws Senators’ attention to these
+provisions pursuant to Senate standing order 24(1)(a)(i).
+41 Scrutiny of Bills Committee, Scrutiny Digest 1/23, 8 February 2023, p. 56.
+42 Scrutiny of Bills Committee, Scrutiny Digest 1/23, 8 February 2023, p. 56.
+10
+Incorporation of external material as in force from time to time
+1.42 Item 179 of Schedule 1 of the bill seeks to introduce paragraph 56GB(1)(aa) to
+extend the power to make instruments as in force from time to time in paragraph
+56GB(2)(b) to CDR declarations for types of CDR actions.
+1.43 The Scrutiny Committee observed that where material is incorporated by
+reference into the law it should be freely and readily available to all those who
+may be interested in the law. The Scrutiny Committee commented that it is not
+apparent from the EM, whether the incorporated material will be made freely
+and readily available to all persons as outlined above and requests the
+Treasurer’s advice on this matter.43
+Immunity from civil and criminal liability—Reversal of the evidential burden of
+proof
+1.44 Subsection 56GC(1) of the bill provides civil and criminal immunity for different
+CDR entities performing particular actions if performed in good faith, in
+compliance with the CDR provisions and any law prescribed by the regulations.
+1.45 The Scrutiny Committee considers that if a bill seeks to provide immunity from
+civil or criminal liability, particularly where such immunity could affect
+individual rights, this should be soundly justified. In this instance, the EM has
+not provided an explanation for the inclusion of the immunity.44
+1.46 Concerns regarding the reversal of the evidential proof were also raised, with
+the Scrutiny Committee noting that provisions that reverse the burden of proof
+and require the defendant to disprove one or more elements of an offence,
+interferes with the common law right to be presume innocent until proven
+guilty. The EM outlines that this is appropriate as the individual will know
+whether they received evidence of a valid consent or request and otherwise met
+their CDR obligations and, as this material will be within a person’s knowledge,
+it should place no additional burden on the person.45 The committee noted that
+it is not clear that the information would be within the knowledge of the
+defendant, or that it would be difficult or costly for the prosecution to establish
+the matters.
+1.47 As such the committee requests the Treasurer’s advice as to:
+ why it is necessary and appropriate to confer immunity from civil and
+criminal proceedings on a potentially broad range of persons, so that
+affected persons have their right to bring an action to enforce their legal
+rights limited to situations where a lack of good faith is shown;
+43 Scrutiny of Bills Committee, Scrutiny Digest 1/23, 8 February 2023, p. 57.
+44 Scrutiny of Bills Committee, Scrutiny Digest 1/23, 8 February 2023, p. 58.
+45 Scrutiny of Bills Committee, Scrutiny Digest 1/23, 8 February 2023, p. 58.
+11
+ where there is not a sufficient justification, consideration be given to
+amending the bill so that a more limited immunity is conferred; and
+ why it is proposed to use offence-specific defences (which reverse the
+evidential burden of proof) in this instance. The committee's
+consideration of the appropriateness of a provision which reverses the
+burden of proof is assisted if it explicitly addresses relevant principles as
+set out in the Guide to Framing Commonwealth Offences.46
+Broad discretionary power
+1.48 Concerns were also raised by the Scrutiny Committee around the bill’s inclusion
+of a broad discretionary power for the ACCC to exempt persons from the
+operation of primary and delegated legislation and in relation for the
+regulations to exempt persons or classes of persons from the operation of
+primary and delegated legislation and to modify how that legislation would
+operate.
+1.49 In particular, the committee noted the lack of detail on the face of the primary
+legislation in relation to the circumstances in which an exemption may be
+granted and general guidance in relation to the conditions which may apply to
+an exemption. As such, the committee requests the Treasurer’s advice as to:
+ why it is considered necessary and appropriate to provide a broad power
+to grant exemptions from the operation of the consumer data right
+scheme, including within delegated legislation; and
+ whether the bill can be amended to include appropriate safeguards on
+the exercise of the discretionary power to provide those exemptions.47
+Human rights implications
+1.50 As discussed in the EM, the Statement of Compatibility with Human Rights
+argues that the bill is compatible with human rights and freedoms recognised
+in the international instruments listed in section 3 of the Human Rights
+(Parliamentary Scrutiny) Act 2011, and thus does not raise any human rights
+concerns.48
+Regulatory impact statements
+1.51 The EM notes that the following four reports were certified as being informed
+by a process and analysis equivalent to a Regulation Impact Statement relating
+to the amendments in the bill:
+(1) Issues Paper of the Inquiry into Future Directions for the
+Consumer Data Right.
+46 Scrutiny of Bills Committee, Scrutiny Digest 1/23, 8 February 2023, p. 58.
+47 Scrutiny of Bills Committee, Scrutiny Digest 1/23, 8 February 2023, p. 60.
+48 EM, p. 47.
+12
+(2) Final Report of the Inquiry into Future Directions for the
+Consumer Data Right.
+(3) Supplementary analysis.
+(4) Decision map.
+1.52 The Issues Paper of the Inquiry into Future Directions for the Consumer Data
+Right, the supplementary analysis and the decision map can be found in
+Attachment 1 of the EM.49
+Conduct of the inquiry
+1.53 The committee advertised the inquiry on its website and wrote to relevant
+stakeholders and interested parties inviting written submissions by
+6 March 2023.
+1.54 The committee received 17 submissions as well as additional information and
+answers to questions on notice, which are listed at Appendix 1.
+1.55 The committee held one public hearing for the inquiry on 18 April 2023. The
+names of witnesses who appeared at the hearing can be found at Appendix 2.
+Acknowledgements
+1.56 The committee thanks all individuals and organisations who assisted with the
+inquiry, especially those who made written submissions and participated in the
+public hearing.
+49 EM, ‘Attachment 1: Regulatory Impact Analysis: Inquiry into Future Directions for the Consumer
+Data Right’, p. 55.
+Chapter 2
+Views on the bill
+Introduction
+2.1 This chapter examines stakeholder views on the provisions of the Treasury
+Laws Amendment (Consumer Data Right) Bill 2022 (the bill). It is informed by
+the bill’s explanatory materials, submissions received by this inquiry, evidence
+provided at a public hearing in Canberra on Tuesday, 18 April 2023, and
+additional material submitted to the committee.
+2.2 This chapter provides an indicative account of the key issues raised during the
+inquiry and concludes with the committee’s views with recommendations on
+the bill. The discussion is separated into the key, high level reforms in relation
+to the bill.
+Overall support for the measure
+2.3 The majority of submissions to the inquiry supported the bill and its intent to
+expand the Consumer Data Right (CDR) by introducing a framework to enable
+action initiation, a functionality which submitters across the board argued,
+would empower consumers to authorise, manage and facilitate actions securely
+in the digital economy.1
+2.4 Many submitters noted that the proposed bill would importantly, implement
+key recommendations and findings from the Inquiry into Future Directions for
+the Consumer Data Right (the Future Directions Inquiry), and the recent
+Statutory Review of the CDR undertaken in 2022.2
+2.5 Noting the approach taken in the bill is consistent with recommendations from
+the Future Directions Inquiry, FinTech Australia expressed its strong support
+for the proposed amendments:
+The consumer data right is a transformational reform which is world leading
+in its ambition and scope. It is already a key driver for fintech innovation
+and will be even more so with the implementation of action initiation. We
+1 See, for example: Finder, Submission 7, [pp. 1–2]; Adatree, Submission 15, p. 1; FinTech Australia,
+Submission 6, p. 1; EnergyAustralia, Submission 5, [p. 1]; Zepto, Submission 3, p. 1; Commonwealth
+Bank of Australia (CBA), Submission 14, [p. 1]; Cuscal, Submission 13, [p. 2]; Australian
+Communications Consumer Action Network (ACCAN), Submission 8, p. 1; Mr Peter White,
+Managing Director, Finance Brokers Association of Australia (FBAA), Proof Committee Hansard,
+18 April 2023, p. 16.
+2 Department of the Treasury (Treasury), Statutory Review of the Consumer Data Right Report,
+29 September 2022; Treasury, Inquiry into Future Directions for the Consumer Data Right Final Report,
+23 December 2020. Ms Emily Martin, Assistant Secretary, Policy and Engagement Branch,
+Consumer Data and Digital Division, Treasury, Proof Committee Hansard, 18 April 2023, p. 18.
+13
+14
+agree that action initiation will be a game changer for the CDR and support
+passage of this bill and the enabling framework for the action initiation it
+will establish. There is a strong foundation for action initiation to be a
+success.3
+2.6 FinTech Australia emphasised the benefits that the amendments would have in
+establishing a CDR framework which is flexible and adaptable to new models
+over time. These benefits include empowering consumers and businesses to do
+more with the CDR, driving fintech innovation and greater participation in the
+scheme, as well as building on the existing regulatory framework for
+information sharing.4
+2.7 Summarising the view widely shared by stakeholders, Finder argued that
+launching action initiation capabilities through the CDR framework is a crucial
+legislative step, stating:
+Finder has strongly supported the introduction of “action initiation” to the
+CDR since we first outlined this recommendation in 2019. We strongly
+believe that the CDR can offer more value to both consumers and industry
+participants by allowing consumers to do more than just access data through
+the regime.5
+2.8 Zepto articulated that the bill will empower consumers to authorise, manage
+and facilitate actions securely in the digital economy. As well as strongly
+believing that action initiation will play a critical role in driving innovation and
+delivering better experiences and outcomes for consumers and businesses,
+Zepto argued that the quick expansion of the CDR is beneficial for Australia to
+keep moving forward in this space.6
+2.9 Adatree argued that increasing consumers’ ability to access and control their
+data through action initiation would be instrumental:
+This bill represents a fantastic step forward for consumer empowerment…
+Action Initiation will cement CDR as a cornerstone for Australia’s digital
+economy at large… We are strong proponents of integrating Action
+Initiation in the CDR and are eager for these proposed changes to be put into
+effect.7
+2.10 Finally, the Commonwealth Bank of Australia (CBA) advised the committee of
+its overall support for the proposed measure and the importance it will play in
+ensuring Australia remains globally competitive, stating:
+3 Mr Nick Kavass, Policy Lead, FinTech Australia, Proof Committee Hansard, 18 April 2022, p. 1.
+4 FinTech Australia, Submissions 6, p. 2; Mr Nick Kavass, Policy Lead, FinTech Australia, Proof
+Committee Hansard, 18 April 2022, p. 1.
+5 Finder, Submission 7, [p. 2].
+6 Zepto, Submission 14, p. 1; Mr Gabriel Perrottet, Senior Legal Counsel, Public Policy and Regulation,
+Zepto Payment, Proof Committee Hansard, 18 April 2023, p. 7.
+7 Adatree, Submission 15, p. 1.
+15
+CBA believes the introduction of action initiation will further position
+Australia at the forefront of advanced digital economies, and we support the
+government’s commitment to the economy wide rollout of the CDR.8
+Specific matters raised by stakeholders
+2.11 Despite supporting the intent of the bill to enable action initiation within the
+CDR, some submitters provided suggestions regarding the government’s
+proposed reforms. Key recommendations received by submitters are discussed
+below.
+Privacy safeguards
+2.12 As outlined in Chapter 1, the new CDR framework encompasses privacy
+protections (privacy safeguards) comparable to the Australian Privacy
+Principles that intend to provide a higher level of protection for data used and
+shared within the CDR framework. The privacy safeguards apply to consumer
+data belonging to individuals and businesses, however, generally contain more
+restrictive requirements on the handling of CDR data than requirements
+applying to personal information under the Privacy Act 1988 (Privacy Act). The
+objective of the proposed amendments in the bill is to extend the privacy
+safeguards for action initiation so that they apply to CDR data that flows in the
+instruction layer of the framework, from an accredited action initiator to an
+action service provider.9
+2.13 Some stakeholders expressed concern that the privacy safeguards provided
+through both the Privacy Act and the CDR framework are not sufficient, have
+the potential to increase consumer harms and, that relevant reviews in this
+sphere should be completed before commencement of the proposed reforms.
+2.14 For example, the Australian Banking Association (ABA) and Adatree both
+suggested that the outcomes of the Privacy Act Review undertaken by the
+government, and other proposed amendments to the Privacy Act, are
+considered before settling revisions to the privacy safeguards within the bill.10
+2.15 The ABA argued that the bill be amended to provide certainty that the
+obligation to carry out a valid CDR action request does not exclude necessary
+8 CBA, Submission 14, [p. 1].
+9 Explanatory Memorandum (EM), p. 30.
+10 Australian Banking Association (ABA), Submission 12, pp. 2–3; Attorney-Generals Department,
+Privacy Act Review Report, 16 February 2023, https://www.ag.gov.au/rights-and-
+protections/publications/privacy-act-review-report (accessed 19 April 2023). The proposed reforms
+are aimed at strengthening the protection of personal information and the control individuals have
+over their information. The Privacy Act Report contained 116 proposals to strengthen and
+modernise Australian privacy law. Stakeholder feedback through a consultation process is
+currently underway to inform the government’s response to the report.
+16
+and appropriate anti-scam and cyber security checks and precautions.11 The
+ABA also suggested that banks should be able to refuse an instruction where
+they detect or determine an elevated risk to their customers or have not received
+confirmation from the customer of an instruction and that this should be made
+clear within the bill.12 The ABA stated:
+As more Australians experience scams, frauds and cyber-attacks, banks are
+actively working with regulators, conducting awareness campaigns and
+building a range of sophisticated detection tools to pick up on unusual
+behaviours in close to real time to stop suspicious transactions. By the
+engagement of a third party standing in the shoes of the customer, action
+initiation potentially introduces a range of new risks for which banks may
+need to develop specific scam, fraud and cyber mitigation tools.
+…the rules and standards can assist in reducing some risks, the draft
+legislation appears to open the door to actions carrying high risk (e.g.,
+payments), while limiting the ability of banks as Action Service Providers
+(ASPs) to address them. This is in the context of the need to rapidly increase
+the maturity and scale of such preventative measures and the growing
+number and complexity of scams, frauds and cyber-attacks.13
+2.16 The Financial Rights Legal Centre (FRLC) supported the suggested
+amendments by the ABA to provide banks with the ability to apply a stronger
+scams approach to payments, underpinned by the view that the introduction of
+action initiation has the potential to increase the risks to the payment system by
+introducing a third party between the bank and the consumer.14 Accordingly,
+the FRLC suggested that the introduction of action initiation is delayed.15
+2.17 Noting that the increase in scams and fraud is an economy-wide issue and not
+a risk that is unique to the CDR, Treasury confirmed the need to ensure that the
+CDR has the right protections in place to minimise the risk of harm for
+consumers and small businesses.16 Treasury officials explained that the bill
+positively expands on the privacy and security safeguards from what currently
+exists and forms part of the government’s broader approach to combatting
+scams:
+The bill includes privacy and security protections, such as requiring
+consumers' explicit and informed consent, consumer authentication and
+authorisation. Importantly, the bill would not prevent action service
+providers, such as banks, from undertaking security and other checks or
+11 ABA, Submission 12, pp. 2–3.
+12 ABA, Submission 12, p. 2.
+13 ABA, Submission 12, pp. 3–4.
+14 Financial Rights Legal Centre, Submission 11, p. 3.
+15 Financial Rights Legal Centre, Submission 11, p. 2.
+16 Ms Emily Martin, Assistant Secretary, Policy and Engagement Branch, Consumer Data and Digital
+Division, Treasury, Proof Committee Hansard, 18 April 2023, p. 21.
+17
+refusing to perform an action provided they do not discriminate against
+actions provided by the CDR… the existing sectoral laws, such as those in
+the banking sector, would continue to govern how an action is performed.
+It is important that those existing regulations are fit for purpose here, and
+that's something that we're very mindful of in the CDR.17
+2.18 While arguing that stronger consumer protections to address scams must be put
+in place before moving ahead with action initiation, Mr Drew MacRae, Senior
+Policy and Advocacy Officer from the FRLC, supported the privacy safeguards
+within the bill which bring the privacy principles into CDR and action initiation
+as a start to dealing with privacy and security in this next phase of CDR:
+CHAIR: Do you support the privacy safeguards that are in the bill now,
+which bring the privacy principles into CDR and action initiation as a start
+to dealing with privacy and security in this next phase of CDR?
+Mr MacRae: Generally speaking, yes. As many of the privacy safeguards
+should be applied to the action initiation level as possible.18
+2.19 Concerns highlighted above, were not however shared by all inquiry
+participants. Cuscal who strongly articulated its support for the extension of the
+privacy safeguards within the bill:
+The protections provided by the Privacy safeguards for CDR consumers
+ensure sensitive and confidential information remains protected at all stages
+of the process and helps to build trust within the ecosystem. Cuscal supports
+the bill’s extension of the Privacy safeguards.19
+2.20 Similarly, the Australian Communications Consumer Action Network
+(ACCAN) submitted:
+Wherever possible, the most comprehensive privacy protections should
+apply to the CDR data used by [accredited action initiators] AAIs and
+[action service providers] ASPs. Ensuring that consumer data is protected
+when consumers interact with AAI and CDR services is crucial as in order
+to see significant uptake of the CDR, consumers must trust that their data
+will be adequately safeguarded.20
+2.21 Commenting on how consumer data and privacy issues are dealt with in the
+existing CDR framework and the rollout of action initiation with the privacy
+safeguards being introduced, the Finance Brokers Association of Australia
+(FBAA) advised the committee that the existing CDR framework has advantages
+17 Ms Emily Martin, Assistant Secretary, Policy and Engagement Branch, Consumer Data and Digital
+Division, Treasury, Proof Committee Hansard, 18 April 2023, p. 21.
+18 Exchange between Senator Jess Walsh, Chair, and Mr Drew MacRae, Senior Policy and Advocacy
+Officer, Financial Rights Legal Centre, Proof Committee Hansard, 18 April 2023, p. 14.
+19 Cuscal, Submission 13, p. 2; Mr Kieran McKenna, Chief Risk Officer, Cuscal Ltd and Mr Damir Ćuća,
+CEO and Founder, Basiq Pty Ltd, a subsidiary of Cuscal Ltd, Proof Committee Hansard, 18 April 2023,
+p. 11.
+20 ACCAN, Submission 8, p. 2.
+18
+in terms of data protection when compared to what consumers are undertaking
+on their own. For example, in the context of applying for finance through a
+broker, Mr David Carson, Regulatory Advisor from the FBAA, stated:
+…if a consumer wants to apply for finance through a broker, they will likely
+email a lot of their documents. There are provisions to make bank statements
+available online through secure portals, but the methods of document
+transmission are still anchored in the older technology of emailing and
+sending them in. So I think any push to have that data controlled by entities
+that are subject to more stringent requirements would mean that the
+integrity of that data is better, it would mean that lenders and brokers can
+place greater reliance on that data not being fraudulent, and it also gives a
+greater level of protection to the consumers because the holders of that data
+meet certain minimum requirements before they're entitled to deal. Overall,
+we've been very supportive of the move for the CDR because we think it
+will produce a better customer experience; it will produce a better service
+provider experience; and it will increase the integrity of the whole process,
+which I think is important.21
+2.22 The Office of the Australian Information Commissioner (OIAC), the
+independent Commonwealth Regulator responsible for co-regulating the CDR,
+articulated that implementation of the bill would positively expand their role in
+relation to investigating privacy safeguard breaches or possible breaches in
+relation to action service providers. The OIAC explained that these powers
+include assessment and auditing powers to ensure that participants are
+managing CDR data in accordance with the privacy safeguards, and complaint
+management tools, such as conciliation and alternative dispute resolution.22
+2.23 Furthermore, in relation to the expansion of privacy protections, Ms Elizabeth
+Hampton, Deputy Commissioner, OIAC, informed the committee that the bill
+will further protect consumers data and privacy alongside other privacy
+protections in place which require compliance from CDR participants:
+Ms Hampton: …The CDR does include very specific privacy protections
+that go to the CDR regime that build on some of the fundamentals that
+already exist in the Privacy Act but apply them with greater specificity to
+the particular acts and practices of the CDR regime.
+CHAIR: In relation to the controls on action initiation, does that extend
+privacy protections further?
+21 Mr David Carson, Regulatory Compliance Consultant, FBAA, Proof Committee Hansard, 18 April
+2023, p. 17.
+22 Ms Elizabeth Hampton, Deputy Chair, Office of the Australian Information Commissioner, Proof
+Committee Hansard, 18 April 2023, p. 22.
+19
+Ms Hampton: It does. In the way that I have mentioned earlier, it takes the
+strengthened CDR protections and applies them with specificity to the
+particular actions that are contemplated in the bill.23
+Duty to act efficiently, honestly and fairly when initiating CDR actions
+2.24 The proposed action initiation framework requires accredited persons to act
+efficiently, honestly, and fairly when initiating CDR actions. Initiating CDR
+actions include proposing to give an instruction on behalf a potential CDR
+consumer for a type of CDR action. Under the bill, failing to act in this manner
+would be a contravention of the Competition and Consumer Act 2010 (CCA).
+Modelled on a core obligation in the Australian financial services licensing
+regime in the Corporations Act 2001 and adapted for the CDR context, the
+obligation is intended to capture actions contrary to a consumer’s interest.24
+Some stakeholders suggested that the obligation should be more broadly
+applied across the CDR framework and made recommendations to strengthen
+the bill to this effect.
+2.25 While concerned with the obligation to act honestly and fairly (but not
+efficiently), Zepto suggested that the obligations on accredited persons should
+be fit-for-purpose and reflect the responsibilities the persons are taking on.25
+2.26 EnergyAustralia submitted that the bill should go further to mitigate risks and
+capture actions contrary to a consumer’s interest, stating:
+A stronger consumer protection and high standard would be an obligation
+to act in the consumer's best interests. This would squarely and more
+effectively address the risks around an AAI acting as the customer's agent
+which is the core concept behind AI.26
+2.27 The FRLC suggested that the duty should extend to all accredited persons
+activities under the CDR, including the collection, handling, and use of CDR
+data under the read only access regime—not limited only to initiating actions. It
+was argued that this would be an important step ‘in light of the over-reliance on
+consent and disclosure as the two key protections for consumers who engage
+with the CDR…’27 Despite this concern, the organisation noted in its submission
+its overall support for the obligation.28
+23 Exchange between Senator Jess Walsh, Chair and Ms Elizabeth Hampton, Deputy Chair, Office of
+the Australian Information Commissioner, Proof Committee Hansard, 18 April 2023, p. 22.
+24 EM, pp. 19–20.
+25 Zepto, Submission 3, p. 4.
+26 EnergyAustralia, Submission 4, p. 2.
+27 Financial Rights Legal Centre (FRLC), Submission 11, p. 1.
+28 Mr Drew MacRae, Senior Policy and Advocacy Officer, Financial Rights Legal Centre, Proof
+Committee Hansard, 18 April 2023, pp. 14–15.
+20
+2.28 Notwithstanding the above suggestions, the Telecommunications Industry
+Ombudsman outlined its support for, and importance of the extended privacy
+protections with the bill:
+Our position on the CDR action initiation amendment bill is that we support
+reforms that continue to reduce complexity for consumers but are
+underpinned by strong privacy protections.29
+2.29 Treasury articulated the policy underpinning the introduction of the duty
+within the bill to capture actions contrary to a consumer’s best interest and noted
+that it is an obligation familiar to many CDR participants:
+[…] the bill obliges accredited action initiators to act efficiently, honestly and
+fairly when seeking to or sending action instructions on behalf of a
+consumer… The policy basis for including this for action initiation is that it's
+consistent with a recommendation of the future directions inquiry and it's
+intended to be closely aligned with the obligation in the Australian financial
+services licensing regime. It's an obligation that is readily understood and is
+quite familiar to many CDR participants. It's not the sole obligation on
+accredited persons initiating actions, but it's expected to form an important
+part of the consumer protection framework. It recognises that in issuing an
+instruction to undertake an action there will be some more risk introduced
+into the CDR framework. It was considered to be an important inclusion and
+protection for consumers.30
+Sectorial coverage and stakeholder consultation
+2.30 As outlined in Chapter 1, the CDR is in the process of being rolled out on a
+sector-by-sector basis to create an economy wide framework.31 Some
+stakeholders raised concerns regarding sectorial coverage of the CDR
+framework and the introduction of action initiation, which are outlined below.
+2.31 For example, the Insurance Council of Australia (ICA) stated that while the CDR
+does not currently apply in the insurance industry, the extension of the CDR to
+the general insurance sector (after a sectoral assessment and consultation with
+the industry), will arguably pose unique issues.32 In this regard, the ICA
+suggested that the government should undertake comprehensive consultation
+prior to expansion of the CDR to the industry, and that overall, its application
+to the sector would not be beneficial to consumers nor the industry. The primary
+basis for this concern, which is also shared by others, being that accreditation
+29 Ms Cynthia Gerbert, Ombudsman, Telecommunications Industry Ombudsman, Proof Committee
+Hansard, 18 April 2023, p. 12.
+30 Ms Emily Martin, Assistant Secretary, Policy and Engagement Branch, Consumer Data and Digital
+Division, Treasury, Proof Committee Hansard, 18 April 2023, p. 22.
+31 EM, p. 57.
+32 Insurance Council of Australia (ICA), Submission 9, p. 3.
+21
+costs are likely to be substantial for the industry and beyond the capacity of
+some businesses.33
+2.32 Expressing the view that beyond the banking sector, the CDR is relatively new
+to Australia, Telstra felt that the implementation of action initiation across all
+sectors is premature. Considering that current reviews in relation to cyber
+security, electronic surveillance and data breaches are underway, which may
+influence the way in which the CDR is optimally designed and implemented by
+business, it was suggested that progression of the proposed legislation to the
+telecommunications sector is delayed until the surrounding legislative and
+policy environments are more settled:
+We look forward to working with Treasury on the continuing
+implementation of CDR in the telecommunications sector but urge caution
+on enabling the new legislation which could apply to all sectors when
+enacted until the CDR is more fully understood and embedded in the
+economy. In our view, given CDR in banking is much more progressed, we
+consider a more appropriate policy response at this time is to proceed with
+action initiation in banking only. Only once CDR is more fully embedded in
+other industries such as energy and telco should extending action initiation
+be considered.34
+2.33 However, the above concerns were not shared by all, with submitters
+commenting that the bill establishes enabling framework and that
+commencement of action initiation would occur following periods of
+consultation and through legislative instruments issued by the Minister.
+2.34 Several inquiry participants highlighted that it is important that the framework
+legislation for action initiation (which would have substantial work being
+undertaken through regulations), is implemented in a sustainable way,
+involving a high level of involvement and consultation with stakeholders
+enthusiastic to participate.
+2.35 The Financial Data and Technology Association commented on some of the
+practical aspects of rolling out action initiation within the bill:
+We started with banking. We've moved on to energy. We have non-bank
+lending. We've got telco in the works. What action initiation also does is to
+give us an insight into what datasets are not there to enable the use cases
+that might matter to consumers. We can't quite narrow in on that until we
+have the opportunity to actually learn by doing and start practising some of
+these things. I think the ability for industry to have that, be it class
+exemptions or a particular ability to explore within certain bounds, such as
+in pilots, definitely creates the opportunity for businesses and the public
+sector to actually learn how to develop a CDR framework as critical
+33 ICA, Submission 9, pp. 1–2. Regarding accreditation costs, see also, Chartered Accountants
+Australia and New Zealand, CPA Australia, IPA (CA ANZ, CPA Australia, IPA), Submission 17,
+pp.1–2.
+34 Telstra, Submission 1, [p. 2].
+22
+infrastructure for Australia to move us towards this top 10 digital economy
+by 2030.35
+2.36 Emphasising that consultation is a crucial part of ensuring the successful rollout
+of action initiation, Mr Kieran McKenna, Chief Risk Officer from Cuscal stated:
+In terms of the engagement, I think we've proven to date that that's been
+really important, and it's super important in the next stage of action
+initiation, because we as industries and cross-industries need to test these
+things. The big thing is that the engagement should be around how the
+technology is going to look and feel and then how it appears in the
+consumer's hands. You need to focus on what that consumer experience is
+going to be, and part of that process can be a testing strategy.36
+2.37 In relation to the expansion of the CDR framework, officials from Treasury
+outlined in detail the multiple and comprehensive consultation processes and
+stakeholder engagement involved in relation to the rollout of action initiation
+that would be undertaken under the proposed framework. Ms Emily Martin
+from Treasury advised the committee:
+We've already held an action initiation workshop with industry—that had
+over 100 participants—and looked at a number of the issues you would have
+heard raised this morning around the technical flows of information, the
+potential use cases, the benefits for consumers and how we might go about
+thinking about this because it is new reform for the CDR. In addition to that,
+we also have a number of forums in which industry participate. We have a
+CDR implementation advisory committee. We have a CDR design and
+strategy forum. Under the DSB…we have the Data Standards Advisory
+Committee. They advise on the technical standards that come into play after
+rules are made in the CDR system. There are multiple opportunities for
+industry and others to interact with the CDR and be involved in
+consultation. The ACCC and OAIC also have other mechanisms for
+undertaking consultations on their specific parts of the program. I would
+say that we're constantly engaged in consultation.37
+2.38 Finally, from an industry stakeholder perspective on the framework legislation,
+FinTech Australia succinctly summarised the views broadly held by inquiry
+participants, stating:
+We understand there is a long implementation road ahead. Action initiation
+won't be up and running overnight. Significant further work and
+consultation will be required to implement specific action types and new
+35 Mr Mathew Mytka, Regional Director, Regional Director for Australia and New Zealand, Financial
+Data and Technology Association, Proof Committee Hansard, p. 6.
+36 Mr Kieran McKenna, Chief Risk Officer, Cuscal Ltd, Proof Committee Hansard, 18 April 2023, p. 10.
+37 Ms Emily Martin, Assistant Secretary, Policy and Engagement Branch, Consumer Data and Digital
+Division, Treasury, Proof Committee Hansard, 18 April 2023, p. 20.
+23
+data standards. But this bill is an important first step which will kickstart a
+new era of CDR powered innovation.38
+Fee determinations
+2.39 A minority of submitters raised potential concerns regarding the regulation of
+Ministerial powers to make decisions regarding fee charging under the
+proposed action initiation framework and suggested that this aspect of the
+measure could be to the detriment to consumers.
+2.40 In a joint submission to the inquiry, Chartered Accountants Australia and New
+Zealand, CPA Australia and the Institute of Public Accountants (CA ANZ, CPA
+Australia, IPA) stated:
+We are concerned by the proposal in the bill to allow the Minister to make a
+decision that an accredited action initiator may charge fees to transmit an
+instruction. This is not something that is for the benefit of consumers but
+appears to incentivise persons to become accredited action initiators in the
+CDR eco-system.... Where fees are charged, it may not be transparent to the
+consumer why those fees are being charged. Moreover, where a consumer
+considers the fees unreasonable, the avenue for review is lengthy and
+complex.39
+2.41 FinTech Australia expressed potential concerns regarding the lack of clarity or
+a framework for the regulation of fee charging, arguing there is currently no
+regulation of the fees that can be charged by action service providers for
+receiving instructions. As a result, FinTech indicated that this may result in price
+discrimination, explaining that:
+[…] if an [Action Service Provider] ASP charges a fee to an [Accredited
+Action Initiator] AAI, CDR action initiation may not be a price competitive
+option for consumers and they may not choose to engage with action
+initiation through the CDR as a result. The anti-discrimination principles for
+the action layer in the Draft Legislation will be of limited value if ASPs are
+able to charge unlimited fees for receiving instructions.
+2.42 Similarly, ACCAN considered that should a cost be associated with accessing
+accredited action initiation enabled CDR services it would have the potential to
+dissuade consumers from using the service. Accordingly, the organisation
+suggested action initiation in the CDR should not impose additional fees to
+ensure maximum utilisation and benefit for consumers. ACCAN stated:
+Ensuring that an AAI enabled CDR does not impose additional fees on
+consumers is crucial to its effectiveness and widespread adoption. Should a
+cost be associated with accessing AAI enabled CDR services it would likely
+dissuade consumers from using the service.40
+38 Mr Nick Kavass, Policy Lead, FinTech Australia, Proof Committee Hansard, 18 April 2022, p. 2.
+39 Charted Accountants Australia and New Zealand, CPA Australia and the Institute of Public
+Accountants (CA ANZ, CPA Australia, IPA), Submission 17, p. 2.
+40 Australian Communications Consumer Action Network (ACCAN), Submission 8, p. 2.
+24
+2.43 Addressing the concerns raised by submitters in relation to fee determinations,
+Treasury informed the committee the mechanisms that the Australian
+Competition and Consumer Commission (ACCC) would have in place under
+the framework, to monitor and intervene if any issues arose in this area:
+The bill would enable the CDR rules—so that's the next stage after the
+legislation, and the minister makes the rules—to determine if a fee could be
+charged by an action service provider for processing an instruction received
+from an accredited action initiator. The ACCC would be able to intervene if
+it considered charges were unreasonable. Action service providers would be
+able to charge fees in the action provided they do not charge a higher fee
+because the instruction was received through the CDR. So if they already
+charge fees, they couldn't charge something higher just because the
+instruction is coming through the CDR framework. For example, if opening
+new home loan accounts was an action type, a bank would be able to charge
+a consumer a home loan application fee for a request that came through the
+CDR—banks charge these fees now—but it could not charge a higher fee
+than what would be applied outside the CDR.41
+Effectiveness of the measure
+2.44 While inquiry participants welcomed action initiation, some stakeholders were
+concerned about the potential effectiveness of action initiation within the CDR.
+Namely, that it would increase the complexity of the existing CDR framework
+and may not be beneficial for consumers and industry alike.
+2.45 CA ANZ, CPA Australia, IPA felt:
+The bill significantly increases the complexity around “who can do what”
+within the CDR ecosystem. This makes it challenging for a consumer to
+make an informed choice when they first need to determine if the person,
+they wish to initiate an action is accredited for that specific action.42
+2.46 Mr Damir Ćuća, CEO and founder of Basiq Pty Ltd, outlined concerns in relation
+to the standardisation of practices across sectors and the potential impacts that
+this may have on industry. In particular, he noted a possibility for industry
+consolidation under larger banks, and under large platforms providing action
+initiation.43
+2.47 While specifically commenting on dispute resolution pathways available to
+consumers if a complaint arises as part of the action initiation process, the
+Telecommunications Industry Ombudsman were concerned that the
+introduction of a third party (accredited action initiator) could create complexity
+for consumers trying to understand how to resolve a dispute. For example, a
+41 Ms Emily Martin, Assistant Secretary, Policy and Engagement Branch, Consumer Data and Digital
+Division, Treasury, Proof Committee Hansard, 18 April 2023, p. 23.
+42 CPA ANZ, CPA Australia, IPA, Submission 17, p. 1.
+43 Mr Damir Ćuća, CEO and Founder of Basiq Pty Ltd, a subsidiary of Cuscal Pty Ltd, Proof Committee
+Hansard, 18 April 2023, p. 10.
+25
+situation may arise where consumers are not aware of whether it was the
+initiator of the action request or the entity taking the action that they should
+raise a complaint against, or both. Notwithstanding these concerns the
+Ombudsman noted broad consultation would help address these issues. The
+Ombudsman acknowledged that ‘the solution to this problem doesn't
+necessarily need to be addressed in the bill, and it could be resolved through
+subordinate instruments or government coordinated action’.44
+2.48 Despite the concerns outlined above, many inquiry participants articulated that
+the measure would, among other things, have a positive impact on industry and
+consumers by streamlining processes and improving competition.
+2.49 For example, Adatree argued that the consumer benefits of action initiation are
+obvious and that the reforms will empower consumers to interact with their
+service providers and simplify the process of switching accounts.45
+One way that we can think about action initiation is it's opening it up to be
+a two-way method of communication. I can receive all the information from
+my bank and then, through the same process that I actually receive that
+information, I can act on that information immediately or directly with my
+bank so that they can then use it to make more informed choices and smooth
+all the processes around things like… switching or account management or
+any of those kinds of areas… It really does reduce the mental load and it has
+the opportunity to reduce the mental load in more of that everyday
+management of financial services, and additional services as we move to
+have energy and telcos included as all of these systems…46
+2.50 Adatree further stated that the changes provided by action initiation ‘will be
+instrumental improving competition and reducing the concentration of power
+among a few large players’.47
+2.51 ACCAN and ARCA also indicated that the bill has the potential to improve
+competition and save consumers time and money by easily allowing them to
+compare plans (for example in sectors such as telecommunications).48
+Summarising the views of both organisations on this point, ARCA submitted:
+[…] beyond simply receiving and using data, the ability for a consumer to
+have an action initiated on their behalf will also have a significant impact on
+44 Ms Cynthia Gerbert, Ombudsman, Telecommunications Industry Ombudsman, Proof Committee
+Hansard, 18 April 2023, p. 13.
+45 Adatree, Submission, p. 3.
+46 Mr D'Arcy Mullamphy, Policy and Compliance Lead, Adatree Pty Ltd, Proof Committee Hansard, 18
+April 2023, p. 5.
+47 Adatree, Submission 15, p. 4.
+48 ACCAN, Submission 8, p. 1.
+26
+the provision of credit, which could bring increased competition and other
+consumer benefits…49
+2.52 Similarly, Finder explained the difference that action initiation will make for
+consumers in comparison to the current read-only CDR framework. For
+example, the organisation submitted that without action, a customer will still
+need to go through the same onerous process, for example, to change providers
+or make or cancel a payment.50 Finder drew the committee’s attention to recent
+analysis it has undertaken and its findings in relation to the possible savings that
+action initiation will have for consumers. Extrapolated data presented in
+Finder’s submission outlined that action initiation enabled switching in the
+sectors where CDR is designated could save consumers more than $1 000 a
+year.51 Finder argued:
+Payment initiation through the CDR will help to reduce transaction costs for
+consumers and businesses. It will also ensure that the existing
+CDR/payment infrastructure already present in the banking sector is better
+utilised…as a result, we believe that action-initiation CDR will be the
+catalyst to make CDR highly valuable for Australian consumers.52
+2.53 Cuscal succinctly expressed its views on the benefits of action initiation as
+follows:
+By enabling third-party providers to take actions on behalf of consenting
+consumers, the Bill will make consumer interactions with the CDR more
+efficient, removing friction and so realising the benefits of CDR for both
+companies and individuals.53
+2.54 Likewise, FinTech Australia commented:
+We spend a lot of time as consumers managing our money, for instance
+moving things around, checking our balances, going through finding better
+deals to save money that might be in banking and financial services but also
+in energy, insurance and other areas. This particular bill enables industry to
+actually do what it does well, which is exploring product service and
+business model innovation. That leverages this digital infrastructure of
+critical national importance to give people their time back. Time is the most
+precious resource that we have, and I think at this point in time, with all the
+macroeconomic forces that are at play, the importance of payments and
+enabling people to save money, get better deals, is extremely important to
+our society and our economy. I think this supports that trajectory with
+49 ARCA, Submission 4, p. 1.
+50 Finder, Submission 7, p. 3.
+51 Finder, Submission 7, p. 3. This analysis is based on the following products/ services: home loans,
+savings accounts, electricity, phone and internet plans, credit cards, personal and car loans.
+52 Finder, Submission 7, p. 2.
+53 Cuscal, Submission 13, [p. 2].
+27
+existing infrastructure that has been laid down already in this world-leading
+reform.54
+2.55 As outlined above, inquiry participants also argued that the proposed
+amendments would enable industry to grow across a range of sectors, in more
+ways than one, which would have a positive impact on competition.
+2.56 Speaking in relation to the financial services industry and the CDR, Zepto
+argued:
+[…] there are two things that CDR offers. The first is promoting
+innovation…The second is access to infrastructure… by allowing
+companies, and smaller companies and fintech companies—after they've
+been accredited of course—to access that infrastructure is creating a level
+playing field, and that's critical in order to allow and promote competition
+in the industry and, ultimately, for the benefit of consumers through better,
+cheaper products. That's an important point. It's something that we see in
+the payments industry as well, with the new payments platform. The major
+banks have been the traditional custodians of that area but now,
+increasingly, smaller players have a role to play there in trying to compete.
+The great thing about the consumer data right is that we're starting from a
+base level, from a level playing field, and that's the second way I think this
+piece of legislation would be promoting competition.55
+2.57 During the public hearing, the FBAA discussed the interaction of finance and
+mortgage brokers with the CDR and argued that action initiation is an
+appropriate next step in the rollout of the framework and would be ‘extremely
+beneficial to this industry and to consumers’.56 In particular, that action
+initiation would round out the regime by empowering consumers to better
+utilise and access information, further strengthening the current framework that
+is in place.57
+2.58 In relation to stakeholder perspectives on the anticipated positive aspects of the
+bill, Treasury informed the committee that it is expected that action initiation
+will assist consumers to better manage their circumstances and, ‘will reduce
+complexity, time and cost for consumers looking to safely get better deals and
+services and will unlock new business models, drive innovation and boost
+54 Mr Mathew Mytak, Regional Director, Financial Data and Technology Association ANZ (FinTech
+Australia), Proof Committee Hansard, 18 April 2023, p. 4.
+55 Mr Gabriel Perrottet, Senior Legal Counsel, Public Policy and Regulation, Zepto Payment, Proof
+Committee Hansard, 18 April 2023, p. 5.
+56 Mr David Carson, Regulatory Compliance Consultant, FBAA, Proof Committee Hansard,
+18 April 2023, pp. 17-18.
+57 Mr David Carson, Regulatory Compliance Consultant, FBAA, Proof Committee Hansard,
+18 April 2023, p. 18.
+28
+competition’.58 Treasury also said the proposed amendments are expected to
+increase in participation of businesses providing and offering services to
+consumers through the introduction of action initiation.59 Ms Emily Martin from
+Treasury stated:
+[…] the bill has largely been designed to mirror the existing data sharing
+legislation in order to build off the strong foundation that is already in place
+for the CDR. This approach minimises the complexity and regulatory
+burden of action initiation for CDR participants by leveraging a framework
+that is familiar to the industry. Enabling action initiation in the CDR is part
+of the government's commitment to expand the CDR across the economy
+and grow the opportunities for consumers to make use of their own data for
+their benefit.60
+Committee view
+2.59 The committee welcomes the strong support for the bill to amend the
+Competition and Consumer Act 2010 to expand the CDR to enable action initiation.
+2.60 The committee notes that for the intended benefits of action initiation to be
+realised, extensive consultation and consideration, road mapping and a
+measured rollout of action initiation will be required.
+2.61 The committee is reassured by the extensive, ongoing and continual
+consultation processes industry has openly been engaged with which will
+continue to inform and resolve any roll out issues in relation to action initiation
+as and when they arise.
+2.62 The committee is encouraged by evidence that data sharing within the CDR has
+far greater protections than standard non-CDR data sharing practices, and that
+the privacy principles of the CDR are good.
+2.63 The committee is reassured that the CDR and proposed reforms in the bill to
+expand safeguards to action initiation are an enhanced privacy regime and
+acknowledges businesses also play an important role in appropriately
+protecting CDR data and privacy.
+2.64 The committee is of the view that the mechanisms for facilitating fees in the CDR
+rules, and the capacity to monitor and intervene fee determinations, are
+appropriate. The committee is of the view that the mechanisms for facilitating
+fees in the CDR rules, and the capacity of the ACCC to monitor and intervene
+fee determinations are appropriate.
+58 Ms Emily Martin, Assistant Secretary, Policy and Engagement Branch, Consumer Data and Digital
+Division, Treasury, Proof Committee Hansard, 18 April 2023, p. 18.
+59 Ms Emily Martin, Assistant Secretary, Policy and Engagement Branch, Consumer Data and Digital
+Division, Treasury, Proof Committee Hansard, 18 April 2023, p. 19.
+60 Ms Emily Martin, Assistant Secretary, Policy and Engagement Branch, Consumer Data and Digital
+Division, Treasury, Proof Committee Hansard, 18 April 2023, p. 18.
+29
+2.65 The committee is persuaded by evidence from a broad range of stakeholders
+that the implementation of action initiation will have many advantages,
+allowing consumers to better manage their circumstances, reduce the
+complexity of data sharing as well as significantly save time and costs in relation
+to important, every day activities involving their finances.
+2.66 The committee is satisfied that the bill will support a range of innovative
+business models and agrees with evidence from industry stakeholders that the
+reforms would drive the development of new CDR powered products and
+services. The committee believes that in turn, this will boost competition and
+reduce the time pressures, cost and complexity experiences by consumers and
+small businesses.
+2.67 On balance, the committee believes that the proposed amendments reflect
+recommendations by recent reforms and reviews on the CDR to enable action
+initiation and, that this framework legislation will place consumers at the centre
+of an innovative data-sharing system that protects their privacy, giving them the
+ability to opt-in and determine when and how they share their data with
+accredited businesses and professionals of their choosing.
+Recommendation 1
+2.68 The committee recommends that the bill be passed.
+Senator Jess Walsh
+Chair
+Senator for Victoria
+
+Coalition Senators Additional Comments
+1.1 Coalition Senators note that the Consumer Data Right (CDR) was introduced by
+the Coalition Government during the 46th Parliament.
+1.2 Coalition Senators believe that extensions to the scheme need to be carefully
+considered to ensure the implementation of the scheme is done properly. This
+will ensure this policy is successful.
+1.3 The scheme has cost the Commonwealth Government approximately
+$200 million since the 2018 Budget in terms of the implementation and its roll
+out, and we need to ensure that this expenditure does not blow out with no
+obvious output.
+1.4 There have been concerns articulated by industry stakeholders about the scale
+and pace of the CDR roll out, considering the complexity of the scheme and the
+IT skills, legal processes and management required.
+The need for a careful CDR roll-out and implementation
+1.5 Telstra has raised concerns about the introduction of action initiation (AI) to the
+telecommunications sector, arguing that it could “complicate CDR
+implementation and could harm the very efficient processes the
+telecommunications sector has developed for customers”.1 Accordingly, Telstra
+recommends that AI should only be introduced when the implementation is at
+a mature stage.
+1.6 Furthermore, they have stated that any new legislation should only be
+considered once the “CDR is more fully understood and embedded in the
+economy” and that AI should be limited to the banking sector for now.2
+1.7 Zepto has emphasised “…the regulatory framework for action initiation in the
+CDR needs to be simple, clear and, to the extent possible, centralised” to ensure
+a “competitive and compliant framework”.3
+1.8 Regarding AI, the Australian Retail Credit Association (ARCA) submitted that
+“any material implementation failures are likely to put the widespread
+consumer adoption of the regime back by years”.4 Therefore, they have
+recommended that:
+1 Telstra, Submission 1, p. 2.
+2 Telstra, Submission 1, p. 2.
+3 Zepto, Submission 3, p. 3.
+4 Australian Retail Credit Association (ARCA), Submission 4, p. 2.
+31
+32
+ Minimum timeframes for implementation of each type of action
+initiation; and
+ Detailed principles for establishing what is otherwise an appropriate
+implementation timeframe (beyond those minimum timeframes). Those
+principles could, for example, require adequate consultation before
+setting timeframes and include an expectation that the implementation
+timeframes only commence from the point that the relevant requirements
+are certain (and be adjusted if those requirements are subsequently
+changed).5
+1.9 During the public hearing, FinTech Australia advised that they:
+“…would like clarity on the implementation road map and the potential
+phase-in for different action types and how they will apply to designated
+sectors”.6
+1.10 FinTech Australia further said “inclusive consultation” and phasing would be
+crucial to ensure “good levels of compliance”.7 In their Submission, the
+organisation noted that:
+“Trust and confidence in the CDR regime are also vitally important and
+persistent compliance issues among data holders and data quality must
+improve. …. Sectoral and functional expansion through initiatives like the
+rollout of Open Finance and action initiation are undoubtedly important but
+there is room for improvement to support and ensure the success of the CDR
+ecosystem which has already been built. Maintenance and compliance of the
+existing regime must be prioritised and balanced with the complexities of
+functional and sectoral expansion.”8
+1.11 Cuscal emphasised that their main concern with the bill is about the method and
+implementation of AI. They expressed concerns about ministerial discretion to
+designate certain actions under the CDR.9
+1.12 To ensure the roll-out of the CDR is efficient and done properly, Coalition
+Senators agree with Finder’s recommendation that there be regular legislative
+reviews to ensure all CDR legislation is fit-for-purpose.10 It is crucial that these
+reviews take a holistic view of the CDR implementation, complexity, level of
+take-up and the capacity for businesses to comply.
+1.13 The ABA noted in their submission that:
+“The CDR is yet to mature, and there are several sectors that are either being
+progressed for designation or still implementing their compliance
+obligations as data holders. Use cases are still developing, and customer
+5 ARCA, Submission 4, pp. 2-3.
+6 Mr Nick Kavass, Policy Lead, FinTech Australia, Committee Hansard, 18 April 2023, p. 2.
+7 Mr Nick Kavass, Policy Lead, FinTech Australia, Committee Hansard, 18 April 2023, p. 6.
+8 FinTech Australia, Submission 6, p. 2.
+9 Mr Damir Cuca, Chief Executive Officer and Founder, Basiq Pty Ltd, a subsidiary of Cuscal Ltd,
+Committee Hansard, 18 April 2023, p. 9.
+10 Finder, Submission 7, p. 5.
+33
+usage is still low. Research has found that only 18% of consumers feel
+comfortable sharing data.”11
+1.14 The ABA further noted that increasing functionality may not result in an
+increase in customers using the CDR, and that the market should be allowed to
+absorb these changes. The roll-out and implementation of the scheme should be
+motivated by compliant market integration.
+1.15 Several submitters also expressed concern about the extension of the CDR into
+their industries. For example, the Insurance Council of Australia (ICA) said that
+there should be a “separate sectorial assessment” and consultation before the
+CDR is extended to the insurance industry.12 In their submission, they noted that
+the cost of accreditation for insurance brokers, under this amendment to the
+CDR Act:
+“…could be beyond the capacity of some of these businesses and may result
+[in] some brokers leaving the insurance industry reducing competition and
+access to risk advice, especially in regional areas.”13
+1.16 As Cuscal has noted, the rate and the size of the change in the CDR space will
+have an important impact on the industry, and should be carefully managed by
+Treasury and the Australian Competition and Consumer Commission
+(ACCC).14
+1.17 In their joint submission, the Chartered Accounts Australia and New Zealand
+(CA ANZ), CPA Australia and the Institute of Public Accountants (IPA) argued
+that it is important that the government educate consumers on the scheme to
+increase its utilisation.15 Without this, investment in this space by government
+and businesses will not produce the intended return as a result of the policy in
+the form of increased productivity and competition.
+1.18 Since 2018, nearly $200 million has been expended through the federal budget
+towards the implementation of the CDR which must be cost effective. The
+benefits of the scheme to consumers and the market should be measurable and
+carefully monitored.
+1.19 Further expenditure on the CDR should be guided by this measurable benefit,
+and legislative reviews should take this into account.
+11 Australian Banking Association (ABA), Submission 12, p. 6.
+12 Insurance Council of Australia (ICA), Submission 9, p. 1.
+13 ICA, Submission 9, p. 3.
+14 Cuscal Limited, Submission 13, p. 2.
+15 Charted Accountants Australia and New Zealand (CA ANZ), CPA Australia (CPA Australia) and
+Institute of Public Accountants (IPA), Submission 17, p.2.
+34
+Recommendation 1
+1.20 The government should consult closely and continuously with a wide range
+of industry stakeholders to ensure the roll-out and implementation of the
+CDR occurs carefully and orderly, ensuring the best possible benefit to
+consumers and businesses.
+Recommendation 2
+1.21 The government undertakes regular legislative reviews of the CDR
+legislation, guided by measurable market outputs from the scheme along
+with consumer uptake.
+Senator Andrew Bragg Senator Dean Smith
+Deputy Chair Member
+Senator for New South Wales Senator for Western Australia
+Appendix 1
+Submissions and additional information
+1 Telstra
+2 Finance Brokers Association of Australia
+3 Zepto
+4 Australian Retail Credit Association
+5 EnergyAustralia
+6 FinTech Australia
+7 Finder
+8 Australian Communications Consumer Action Network
+9 Insurance Council of Australia
+10 Australian Payments Plus
+11 Financial Rights Legal Centre
+12 Australian Banking Association
+13 Cuscal Ltd
+14 Commonwealth Bank of Australia
+15 Adatree
+16 Telecommunications Industry Ombudsman
+17 Chartered Accountants Australia and New Zealand, CPA Australia, and
+Institute of Public Accountants
+Additional Information
+1 Additional information received from the Cuscal on Monday, 17 April 2023.
+Answer to Question on Notice
+1 Department of the Treasury - Responses to questions on notice from Senator
+Walsh received 1 May 2023.
+35
+
+Appendix 2
+Public Hearing
+Tuesday, 18 April 2023
+Committee Room 2S1
+Parliament House
+Canberra
+FinTech Australia
+ Mr Nick Cavass, Policy Lead
+ Mr Mathew Mytka, Regional Director, Financial Data and Technology
+Association ANZ
+Adatree
+ Mr D’ Arcy Mullamphy, Policy and Compliance Lead
+Zepto
+ Mr Gabe Perrottet, Public Policy Lead
+Cuscal Ltd
+ Mr Kieran McKenna, Chief Risk Officer
+ Mr Danir Ćuća, CEO and Founde, Basiq Pty Ltd
+Financial Rights Legal Centre
+ Mr Drew McRae, Senior Policy and Advocacy Officer
+Telecommunications Industry Ombudsman
+ Ms Cynthia Gerbert, Ombudsman
+ Ms Erin Dempsey, Policy and Regulatory Affairs Lead
+Finance Brokers Association of Australia (FBAA)
+ Mr Peter White AM, Managing Director
+ Mr David Carson, Regulatory Advisor
+Australian Competition and Consumer Commission (ACCC)
+ Mr Paul Franklin, Executive General Manager, Consumer Data Right
+Division
+ Ms Sheriden de Kruiff, General Manager Consumer Data Right Regulatory
+Branch
+Office of the Australian Information Commissioner (OIAC)
+ Ms Elizabeth Hampton, Deputy Commissioner
+ Mr Andrew Castaldi, Acting Assistant Commissioner Regulation and
+Strategy
+37
+38
+Treasury
+ Ms Kate O’Rourke, First Assistant Secretary, Consumer Data and Digital
+Division
+ Ms Emily Martin, Assistant Secretary, Policy and Engagement Branch,
+Consumer Data and Digital Division

@@ -10,6 +10,10 @@ whole register rather than part of it.
 Text is cached under raw/report_text/ and tracked, like the response text: the
 evidence behind a published quotation belongs in the repository, and it means a
 re-parse costs nothing and downloads nothing.
+
+    python harvest_report_pdfs.py              # the reports on the registers
+    python harvest_report_pdfs.py --answered   # the reports whose response quotes
+                                               # none of their recommendations
 """
 from __future__ import annotations
 
@@ -43,6 +47,28 @@ def register_report_ids() -> list[str]:
     return sorted(ids, key=int)
 
 
+def answered_quietly_report_ids() -> list[str]:
+    """The reports answered by a response that quotes none of their
+    recommendations — see link_responses_to_reports.py. The response gives
+    the index nothing to show, so the report is read instead, exactly as a
+    report still on a register is. Needs recommendations.csv as
+    extract_recommendations.py has just written it, and the pairing file.
+    """
+    pairs = DATA / "response_reports.csv"
+    recs = DATA / "recommendations.csv"
+    if not pairs.exists() or not recs.exists():
+        return []
+    quoted = {r["source_id"] for r in csv.DictReader(open(recs, encoding="utf-8-sig"))
+              if r["source"] == "response"}
+    excluded = {r["id"] for r in csv.DictReader(open(DATA / "scope_exclusions.csv", encoding="utf-8-sig"))}
+    ids: list[str] = []
+    for r in csv.DictReader(open(pairs, encoding="utf-8-sig")):
+        if r["report_id"] and r["response_id"] not in quoted and r["response_id"] not in excluded:
+            if r["report_id"] not in ids:
+                ids.append(r["report_id"])
+    return sorted(ids, key=int)
+
+
 def fetch(session: requests.Session, doc_id: str) -> tuple[str, str]:
     """Returns (status, note). Text lands in the cache; nothing is returned."""
     import pdfplumber
@@ -69,7 +95,9 @@ def fetch(session: requests.Session, doc_id: str) -> tuple[str, str]:
 
 
 def main(argv: list[str]) -> int:
-    ids = register_report_ids()
+    answered = "--answered" in argv
+    argv = [a for a in argv if a != "--answered"]
+    ids = answered_quietly_report_ids() if answered else register_report_ids()
     if len(argv) > 1:
         ids = ids[:int(argv[1])]
     session = requests.Session()
@@ -83,7 +111,7 @@ def main(argv: list[str]) -> int:
         if status != "cached":
             print(f"  {i}/{len(ids)} {doc_id}: {status} {note}", flush=True)
         time.sleep(0.2)
-    print(f"\n{len(ids)} reports on the registers: " +
+    print(f"\n{len(ids)} reports {'answered without their recommendations being quoted' if answered else 'on the registers'}: " +
           ", ".join(f"{v} {k}" for k, v in sorted(done.items())))
     print(f"text cache: {len(list(TEXT.glob('*.txt')))} files in {TEXT}")
     return 0 if done.get("failed", 0) == 0 else 1

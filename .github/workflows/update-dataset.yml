@@ -91,8 +91,16 @@ jobs:
         run: python harvest_manual_reports.py
       - name: Author-attribution tests (gate)
         run: python tests/test_report_authors.py
+      # Three steps between the two extractors: which report each response
+      # answers, then the text of every report whose response quotes none of
+      # its recommendations, so those recommendations can be shown too — with
+      # the fact that the response does not address them one by one.
       - name: Extract recommendations
-        run: python extract_recommendations.py && python extract_report_recommendations.py
+        run: |
+          python extract_recommendations.py
+          python link_responses_to_reports.py
+          python harvest_report_pdfs.py --answered
+          python extract_report_recommendations.py
       - name: Verify every recommendation against its source (gate)
         run: python verify_recommendations.py
       - name: Removal-step tests (gate)

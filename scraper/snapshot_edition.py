@@ -102,7 +102,7 @@ def main() -> int:
         },
         "recommendations": {
             "rows": len(recs),
-            "awaiting_a_response": sum(1 for r in recs if r["source"] == "report"),
+            "awaiting_a_response": sum(1 for r in recs if r["response_classification"] == "awaiting a response"),
         },
     }
     if edition["senate"]["outstanding"] == 0 or edition["house"]["outstanding"] == 0:

@@ -1,0 +1,2535 @@
+The Senate
+Legal and Constitutional Affairs
+Legislation Committee
+Whistleblower Protection Authority Bill
+2025
+August 2025
+© Commonwealth of Australia 2025
+ISBN 978-1-76093-843-7 (Printed version)
+ISBN 978-1-76093-843-7 (HTML version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by the Senate Printing Unit, Parliament House, Canberra
+Members
+Chair
+Senator Jana Stewart ALP, VIC
+Deputy Chair
+Senator Claire Chandler LP, TAS
+Members
+Senator Dorinda Cox ALP, WA
+Senator Andrew McLachlan CSC LP, SA
+Senator Helen Polley ALP, TAS
+Senator David Shoebridge AG, NSW
+Participating Members
+Senator David Pocock IND, ACT
+Senator Jacqui Lambie JLN, TAS
+Secretariat
+Monika Sheppard, A/g Committee Secretary
+Mervyn Piesse, Senior Research Officer
+Jessica Brown, Administrative Officer
+Bryn Catlin, Administrative Officer
+Suite S1.61 Telephone: (02) 6277 3560
+Parliament House
+Canberra ACT 2600 Email: legcon.sen@aph.gov.au
+iii
+
+Contents
+Members ............................................................................................................................................. iii
+Chapter 1—Introduction and background ..................................................................................... 1
+Conduct of the inquiry and acknowledgement ............................................................................... 1
+Scope and structure of the report ...................................................................................................... 2
+Note on references .................................................................................................................... 2
+Background and purpose of the Bill .................................................................................................. 2
+The current public sector whistleblower framework .......................................................... 4
+Key provisions ...................................................................................................................................... 6
+Part 2: The Whistleblower Protection Authority .................................................................. 6
+Part 3: Whistleblower protections .......................................................................................... 7
+Part 4: Administrative provisions for the Whistleblower Protection Authority ........... 12
+Part 5: Whistleblower Protection Advisory Council .......................................................... 14
+Part 6: Parliamentary Joint Committee on the Whistleblower Protection Authority ... 15
+Financial impact ................................................................................................................................. 16
+Consideration by other parliamentary committees ...................................................................... 16
+Chapter 2—Key issues...................................................................................................................... 19
+Experiences of Australian whistleblowers ..................................................................................... 19
+Limitations of the existing whistleblower framework .................................................................. 23
+Functions of the Whistleblower Protection Authority.................................................................. 28
+Clearinghouse for disclosures of wrongdoing ................................................................... 29
+Support and protections for whistleblowers ...................................................................... 32
+Costs ..................................................................................................................................................... 41
+Committee view ................................................................................................................................. 42
+Coalition Senators' additional comments .................................................................................... 45
+Dissenting report from Senator David Shoebridge ................................................................... 49
+Dissenting report from Senator David Pocock ............................................................................ 53
+Appendix 1—Submissions and additional information ........................................................... 67
+Appendix 2—Public hearings and witnesses .............................................................................. 71
+v
+
+Chapter 1
+Introduction and background
+1.1 On 13 February 2025, the Senate referred the Whistleblower Protection
+Authority Bill 2025 (No. 2) to the Legal and Constitutional Affairs Legislation
+Committee (the committee) for inquiry and report by 29 August 2025.1
+1.2 On 21 July 2025, the inquiry lapsed at the conclusion of the 47th Parliament.
+On 23 July 2025, the Senate referred the Whistleblower Protection Authority Bill
+2025 (Bill) to the committee for inquiry and report by 29 August 2025.2
+1.3 The Bill would establish an independent statutory authority, the Whistleblower
+Protection Authority (WPA), and provide for the appointment of the
+Whistleblower Protection Commissioner (the Commissioner).3
+1.4 According to the Bill, the Commissioner would have three broad functions:
+(a) receiving and facilitating the investigation of disclosures of wrongdoing;
+(b) providing assistance, advice, guidance and support to whistleblowers
+and potential whistleblowers in relation to making a disclosure of
+wrongdoing; and
+(c) investigating any mistreatment of whistleblowers and undertaking
+enforcement activities as necessary.4
+Conduct of the inquiry and acknowledgement
+1.5 In accordance with its usual practice, the committee advertised the inquiry on
+its website and wrote to organisations and individuals inviting submissions by
+30 June 2025. The committee extended that date to 7 July 2025. The committee
+received 80 submissions, which are listed at Appendix 1, and held a public
+hearing in Canberra on 13 August 2025.5 A list of the witnesses who appeared
+at the hearing is at Appendix 2. The committee thanks those organisations and
+individuals who made submissions and who gave evidence at the public
+hearing.
+1 Journals of the Senate, No. 153, 13 February 2025, pp. 4958–4961.
+2 Journals of the Senate, No. 2, 23 July 2025, pp. 71–72.
+3 Explanatory Memorandum to the Whistleblower Protection Authority Bill 2025 (EM), [p. 1].
+4 Whistleblower Protection Authority Bill 2025 (Bill), cl. 3. Also see: Bill, cl. 10.
+5 Note: the committee received 49 submissions in the 47th Parliament and 31 submissions in the 48th
+Parliament. Unless otherwise specified, all references in this report are to submissions received by
+the committee in the 47th Parliament.
+1
+2
+Scope and structure of the report
+1.6 This report comprises two chapters:
+ Chapter 1 provides information on the inquiry and outlines key provisions
+of the Bill; and
+ Chapter 2 discusses some of the key issues raised in relation to the Bill
+before setting out the committee’s findings and recommendations.
+Note on references
+1.7 In this report, references to the Committee Hansard are to the proof (that is,
+uncorrected) transcript. Page numbers may vary between the proof and official
+transcript.
+Background and purpose of the Bill
+1.8 In 1994, the Senate Select Committee on Public Interest Whistleblowing tabled
+its report entitled In the Public Interest.6 This select committee recommended that
+legislation be enacted to establish an independent agency, whose role would
+include receiving and arranging for the investigation of public interest
+disclosures (PIDs), and ensuring the protection of people making such
+disclosures.7
+1.9 In 2013, the Public Interest Disclosure Act 2013 (PID Act) came into force. It aims
+to 'promote the integrity and accountability of the Commonwealth public
+sector'. The PID Act introduced a framework to encourage public officials to
+make PIDs by ensuring they 'are supported and are protected from adverse
+consequences'.8
+1.10 On 15 July 2016, the independent statutory review of the whistleblower
+framework conducted by Mr Philip Moss AM (Moss Review) was presented to
+government. The Moss Review did not recommend the establishment of a
+whistleblower protection authority. It found:
+The experience of whistleblowers under the PID Act is not a happy one. Few
+individuals who had made PIDs reported that they felt supported. Some felt
+that their disclosure had not been adequately investigated or that their
+agency had not adequately addressed the conduct reported. Many
+disclosers reported experiencing reprisal as a result of bringing forward
+their concerns.9
+6 Journals of the Senate, No. 104, 31 August 1994, p. 2120.
+7 Senate Select Committee on Public Interest Whistleblowing, In the Public Interest, August 1994, p. xv,
+www.aph.gov.au/Parliamentary_Business/Committees/Senate/Significant_Reports/uwbctte/pi/ind
+ex (accessed 28 February 2025).
+8 Public Interest Disclosure Act 2013, s. 6.
+9 Philip Moss AM, Review of the Public Interest Disclosure Act 2013 (Moss Review), 15 July 2016, p. 6.
+3
+1.11 Agencies similarly reported difficulties in applying the PID Act:
+Most agencies noted that the bulk of disclosures related to personal
+employment-related grievances and were better addressed through other
+processes. Agencies noted also that the PID Act's procedures and mandatory
+obligations upon individuals are ill-adapted to addressing such
+disclosures.10
+1.12 In June 2023, the independent review of the Public Interest Disclosure Act 2010
+(QLD) was presented to the Queensland Government. The Review of the Public
+Interest Disclosure Act 2010 (review of the Queensland PID Act) did not
+recommend the establishment of a standalone whistleblower protection
+authority. It suggested:
+The multiplicity of roles urged by advocates – support, advocacy, assisting
+agencies in managing disclosures, legal advice, intervention in litigation and
+investigating reprisals – bespeak an organisation of considerable size,
+resource-heavy and, arguably, redolent of inherent conflicts of interest.11
+1.13 The review of the Queensland PID Act found:
+Given the relatively small number of whistleblower cases that result in
+disputes in Queensland, it is not certain that the resources necessary to
+establish a separate body to undertake [the whistleblower protection
+authority role] would be justified.12
+1.14 Senator David Pocock, who introduced the Bill into the Parliament, stated that,
+essentially, the Senate Select Committee on Public Interest Whistleblowing had
+recommended the creation of a whistleblower protection authority, a radical
+idea for the time when whistleblowers were often considered 'traitors':
+Fast-forward thirty years, and things have changed. Now, we better
+understand the true value of whistleblowers. They are an important part of
+accountability and a healthy democracy—risking their jobs, reputations,
+and safety to shine a light on wrongdoing.
+But for all that risk, we've fallen short. For decades, whistleblowers have had
+to fend for themselves. And today, the need for a Whistleblower Protection
+Authority is greater than ever.
+It's time we finally gave whistleblowers the support they deserve—because
+when they are protected, all of us benefit.13
+10 Philip Moss AM, Moss Review, 15 July 2016, p. 6.
+11 Queensland Government, Review of the Public Interest Disclosure Act 2010, 8 August 2023, p. 148.
+12 Queensland Government, Review of the Public Interest Disclosure Act 2010, 8 August 2023, p. 148.
+13 Senator David Pocock, Senate Hansard, 11 February 2025, p. 472.
+4
+The current public sector whistleblower framework
+1.15 Within the current whistleblower framework, the Attorney-General's
+Department (AGD) highlighted the role of whistleblower protections in
+maintaining the integrity of public institutions:
+Whistleblower protections play an important role in promoting the integrity
+of public institutions and ensuring public trust and confidence in those
+institutions by helping bring to light allegations of wrongdoing.14
+1.16 The AGD administers the PID Act which aims:
+…to encourage and facilitate reporting on wrongdoing by public officials by
+providing protections to public officials who make public interest
+disclosures and ensuring that Commonwealth agencies properly investigate
+and respond to such disclosures.15
+1.17 The AGD stated that the government is committed to a 'staged reform of the PID
+Act'. It has implemented stage 1 reforms and is committed to further stage 2
+reforms.16
+Stage 1 reforms
+1.18 On 1 July 2023, the amendments to the PID Act made by the Public Interest
+Disclosure Amendment (Review) Act 2023 commenced. According to the AGD,
+those amendments:
+ strengthened protections for disclosers and witnesses
+ focused the framework on integrity-related wrongdoing
+ made the framework easier to administer, and
+ enhanced oversight of the framework by the Ombudsman and the
+[Inspector-General of Intelligence and Security].17
+1.19 The AGD reported the stage 1 reforms implemented:
+ 21 of the 33 recommendations of the Moss Review;
+ recommendations 6.1 and 6.3 of the 2017 Parliamentary Joint Committee on
+Corporations and Financial Services Whistleblower Protections report; and
+ recommendations 10 and 11 of the 2020 Parliamentary Joint Committee on
+Intelligence and Security Press Freedom report.18
+1.20 The department noted that the government is considering the remaining
+recommendations as part of stage 2 reforms. Some of those 'recommendations
+14 Attorney-General's Department (AGD), Submission 37, [p. 3].
+15 AGD, Submission 37, [p. 3].
+16 AGD, Submission 37, [pp. 3–6].
+17 AGD, Submission 37, [p. 3].
+18 AGD, Submission 37, [pp. 4–5].
+5
+are more complex and relate to structural or broader issues in the public sector
+whistleblowing framework'.19
+Stage 2 reforms
+1.21 The government has committed to further reforms to the PID Act. In late 2023,
+the AGD 'released a Consultation Paper, seeking views on what reforms are
+needed to ensure the public sector whistleblowing framework remains
+fit-for-purpose and accessible for public officials to report wrongdoing'.20
+1.22 The Consultation Paper invited submissions that engaged with the following
+areas of reform:
+ making a disclosure within government;
+ pathways to make disclosures outside of government;
+ protections and remedies under the PID Act;
+ oversight and integrity agencies, including consideration of an
+independent body to support whistleblowers or a potential
+Whistleblower Protection Authority or Commissioner; and
+ clarity of the PID Act.21
+1.23 The AGD received 56 submissions during the consultation process. The
+submissions broadly supported:
+ expanding the range of public officials who can receive protected
+disclosures to better ensure disclosures are provided to an appropriate
+agency for consideration;
+ clarification of when disclosures can be made outside of government;
+ increased access to professional assistance for whistleblowers and witnesses;
+ increased consistency between whistleblower protection frameworks that
+apply to the public, private and not-for-profit sectors; and
+ the simplification and clarification of the PID Act.22
+1.24 In its response to the AGD consultation, the Australian Human Rights
+Commission (AHRC) suggested 'there is merit in the establishment of an
+independent public sector whistleblower protection authority in a form that
+could be expanded to cover the private sector in the future'.23
+1.25 The AHRC indicated such a body could have the following functions:
+19 AGD, Submission 37, [p. 5].
+20 AGD, Submission 37, [p. 5]. Note: the AGD Consultation Paper is available on the Public sector
+whistleblowing stage 2 reforms website, see: AGD, Public sector whistleblowing stage 2 reforms, no
+date, www.consultations.ag.gov.au/integrity/pswr-stage2/ (accessed 29 July 2025).
+21 AGD, Submission 37, [p. 5].
+22 AGD, Submission 37, [pp. 5–6].
+23 Australian Human Rights Commission (AHRC), Submission 19, p. 3.
+6
+ acting as a clearinghouse for whistleblowers bringing forward public
+interest disclosures;
+ providing advice and assistance to whistleblowers; and
+ investigating allegations of reprisals against whistleblowers.24
+1.26 The AHRC stated that the Bill provides 'a useful and timely contribution to the
+public debate on this issue'. In its view, the Bill is not:
+…in a form that is currently able to be passed, however, a review of the
+provisions of this Bill is a useful exercise and will hopefully inform
+government legislation directed to the same issue.25
+1.27 According to the AGD, the government is currently considering the submissions
+received during the consultation process.26
+Key provisions
+1.28 The Bill comprises seven Parts, with the substantive provisions set out in
+Parts 2–6.27
+Part 2: The Whistleblower Protection Authority
+1.29 The Commissioner would be an independent officer of the Parliament.28
+The Commissioner's functions would include, for example:
+(a) to provide advice, assistance, guidance and support to any public official,
+Commonwealth agency or other person on rights, obligations and processes
+relating to the making of disclosures of wrongdoing as defined by this Act;
+…
+(c) to safeguard the identity and confidentiality of persons who make
+disclosures of wrongdoing, to the maximum extent possible by law and
+appropriate to the circumstances;
+(d) to assess and, where appropriate, refer disclosures of wrongdoing to
+appropriate Commonwealth agencies, other government agencies, or other
+bodies, with functions and powers to deal with those disclosures;
+…
+(g) to ensure appropriate support and protection is provided to persons who
+make disclosures of wrongdoing;
+…
+(n) to provide or arrange for the provision of legal advice, representation or
+other practical support, as appropriate, to persons who make disclosures of
+wrongdoing and who are, or may become, a party to proceedings in a court
+24 AHRC, Submission 19, p. 3.
+25 AHRC, Submission 19, pp. 3–4.
+26 AGD, Submission 37, [p. 6].
+27 Note: Part 1 of the Bill sets out preliminary matters; Part 7 of the Bill sets out miscellaneous matters.
+28 Bill, cl. 9.
+7
+or to a matter before an industrial, civil or administrative body, under any
+law, if the Commissioner considers that representing the person will
+promote compliance with whistleblower protection responsibilities.29
+1.30 There would be up to two Deputy Commissioners appointed to the WPA.30
+Their functions would include giving input and approving the strategy, policies
+and operational plan of the WPA.31
+Part 3: Whistleblower protections
+1.31 The Bill would provide for the making of a 'disclosure of wrongdoing' and set
+out how the Commissioner would deal with that disclosure. The term
+'disclosure of wrongdoing' is defined as:
+disclosure of wrongdoing means:
+(a) a public interest disclosure within the meaning of the Public Interest
+Disclosure Act 2013; or
+(b) a disclosure of information qualifying for protection under Part 9.4AAA
+of the Corporations Act 2001; or
+(c) a referral of an allegation, or information, that raises a corruption issue
+under the National Anti-Corruption Commission Act 2022, where made or
+provided by a current or former employee, volunteer or contractor of any
+Commonwealth agency, corporation or other entity to whom the corruption
+issue relates; or
+(d) an alleged or suspected contravention of a code of conduct for
+parliamentarians provided for in an Act of Parliament, where made by a
+current or former employee, volunteer or contractor of an organisation to
+whom the contravention also relates; or
+(e) a disclosure about wrongdoing in accordance with any other
+Commonwealth law, including the laws outlined at paragraph 4(1)(b),
+where made by a current or former employee, volunteer or contractor of any
+Commonwealth agency, corporation or other entity to whom the alleged or
+suspected wrongdoing relates; or
+(f) a disclosure of wrongdoing of a type prescribed by the rules for the
+purposes of this paragraph.32
+1.32 Another key definition in clause 8 of the Bill is 'whistleblower protection issue':
+whistleblower protection issue means:
+(a) an act or omission constituting reprisal or victimisation or which causes
+detriment to any person, as a result of that person or any other person
+making a disclosure of wrongdoing under a Commonwealth law to which
+this Act applies; or
+29 Bill, cl. 10.
+30 Bill, cl. 11.
+31 Bill, cl. 12.
+32 Bill, cl. 8.
+8
+(b) a failure of any person or body to fulfil whistleblower protection
+responsibilities in respect of a disclosure of wrongdoing, in circumstances
+where the failure has led, will lead or is likely to lead to detriment or harm
+to any person;
+and includes an allegation, reasonable suspicion, or information relating to
+such an act, omission or failure.33
+Disclosures, information or requests
+1.33 A person would be able to make, or provide information about, a disclosure of
+wrongdoing to the Commissioner. A person would also be able to request
+information, advice, guidance or assistance in relation to a disclosure of
+wrongdoing or a whistleblower protection issue from the Commissioner.34
+1.34 The person would be able to make, or provide information about, a disclosure
+of wrongdoing on behalf of another person, a Commonwealth agency, or a body
+or association of persons. They would be able to do so either orally or in writing
+and may choose to remain anonymous.35
+1.35 The Commissioner would be required to ask the person making, or providing
+information about, a disclosure to elect whether or not they want to be kept
+informed about the action taken in relation to that disclosure.36
+1.36 A 'public official' (as defined) would be required, as soon as practicable after
+becoming aware of an allegation, or information, that raises a whistleblower
+protection issue, to:
+ refer the allegation or information to the Commissioner; or
+ if the public official is an employee of a Commonwealth agency other than
+the head of the agency, notify the head of the agency of the allegation or
+information.37
+1.37 The Bill would direct the Commissioner to provide general information, advice,
+guidance and assistance to a range of people, which must be determined in
+consultation with various agencies and organisations.38 The Commissioner must
+ensure that the relevant staff of the WPA have the appropriate specialist training
+and experience to provide advice, guidance and support.39
+33 Bill, cl. 8.
+34 Bill, subcl. 16(1).
+35 Bill, subcl. 16(2).
+36 Bill, subcl. 17(1).
+37 Bill, subcl. 18(1).
+38 Bill, subcl. 20(1)–(2).
+39 Bill, subcl. 20(3).
+9
+Dealing with disclosures of wrongdoing and whistleblower protection issues
+1.38 The Commissioner would be able to deal with a disclosure of, or information
+about, wrongdoing in any of the following ways:
+(a) if the disclosure of wrongdoing relates to a Commonwealth agency—by
+referring the disclosure or information to the agency for investigation;
+(b) if the disclosure of wrongdoing relates to a matter that is within the
+functions and powers of a government agency to investigate or
+otherwise deal with—by referring the disclosure or information to the
+agency for investigation or to be otherwise dealt with.40
+1.39 If the disclosure or information is referred to another government agency, the
+Commissioner would be able to fulfil their whistleblower protection
+responsibilities by:
+ monitoring how the agency investigates or deals with the disclosure or
+information;
+ providing advice, guidance or assistance to the person who made the
+disclosure or provided the information; and
+ providing advice, guidance or assistance to the agency in how it investigates
+or deals with the disclosure or information.41
+1.40 The Commissioner would be able to investigate a whistleblower protection
+issue either alone or jointly with another government agency that has the
+appropriate functions or powers if the issue relates to a Commonwealth
+agency.42
+1.41 If a whistleblower protection issue relates to a Commonwealth agency, the
+Commissioner would be able to refer the issue to the agency for investigation.
+After doing so, the Commissioner would be able to choose to:
+ manage the investigation;
+ oversee the investigation; or
+ neither manage nor oversee the investigation.43
+1.42 When deciding on how to deal with a disclosure of wrongdoing or
+whistleblower protection issue, the Commissioner would be required to have
+regard to the:
+ need to ensure those matters are fully investigated;
+ rights and obligations of other agencies to investigate those matters;
+40 Bill, subcl. 21(1).
+41 Bill, subcl. 21(2).
+42 Bill, para. 22(1)(a) and subcl. 22(2).
+43 Bill, subcl. 22(1).
+10
+ rights and obligations of anyone who raises those matters, including any
+need to protect personal identities and confidentiality or to protect
+individuals from reprisal or detrimental action;
+ extent to which another agency is able to cooperate in the investigation if
+the Commissioner is considering a joint investigation;
+ resources available to other agencies to investigate the whistleblower
+protection issue;
+ need to ensure a balance between the Commissioner's role in dealing with
+whistleblower protection issues and the responsibility of the heads of
+Commonwealth agencies to manage their agency or investigate and deal
+with whistleblower protection issues; and
+ likely significance of the whistleblower protection issue for any person it
+relates to, for any agency and for the Commonwealth.44
+1.43 The Commissioner would be required to decide to either deal with the
+whistleblower protection issue or take no further action.45 To assist in making
+that decision, the Commissioner may request information from the head of any
+government agency.46 The head of the agency would be required to comply with
+that request.47
+1.44 If a whistleblower protection issue relates to a Commonwealth agency, the
+Commissioner would be able to investigate the issue and direct the agency to
+not investigate it.48 The Commissioner would be able to decide to not take any
+further action only if they are satisfied that the:
+ whistleblower protection issue is or will be investigated by another
+government agency;
+ material that raises the whistleblower protection issue is frivolous or
+vexatious;
+ whistleblower protection issue has been, is or will be, the subject of court
+proceedings or an application to an industrial, civil or administrative body;
+or
+ investigation of the whistleblower protection issue is not warranted having
+regard to all the circumstances.49
+1.45 If the person who disclosed the whistleblower protection issue elected to be kept
+informed about the action taken in relation to that issue, the Commissioner
+44 Bill, subcl. 22(2).
+45 Bill, subcl. 25(1).
+46 Bill, subcl. 25(2).
+47 Bill, subcl. 25(3).
+48 Bill, subcl. 25(5).
+49 Bill, subcl. 25(7).
+11
+would be required to provide written advice to them about the decision.50 There
+would be exceptions to this requirement if providing that information would be
+likely to harm the investigation or any of the people who referred or provided
+information in relation to the whistleblower protection issue.51
+1.46 If the Commissioner becomes aware of an allegation or information that raises
+a whistleblower protection issue, they would have the power to deal with that
+issue on their own initiative.52 If the Commissioner decides to do so and the issue
+relates to the conduct of an employee of a Commonwealth agency, the
+Commissioner would need to advise the head of that agency of the decision.53
+There would be no need to advise the head of the agency if doing so would be
+likely to prejudice the investigation or any action taken as a result of it.54
+1.47 If the whistleblower protection issue relates to the disclosure of wrongdoing and
+the Commissioner decides to deal with it on their own initiative, the
+Commissioner would be able to advise the person of their decision.55
+Information sharing when decision made on how to deal with whistleblower
+protection issue
+1.48 If a whistleblower protection issue is being investigated by a Commonwealth
+agency, the Commissioner would be required to share any information related
+to that investigation with the head of the agency conducting the investigation.56
+1.49 If the Commissioner decided to deal with a whistleblower protection issue that
+a Commonwealth agency had been investigating, the Commissioner would
+have the power to obtain information related to that investigation from the head
+of the agency.57
+Investigations and public inquiries by the Commissioner
+1.50 The Commissioner would be granted the same powers available to the National
+Anti-Corruption Commissioner under Parts 7, 8 and 9 of the National Anti-
+Corruption Commission Act 2022 when conducting an investigation or public
+inquiry into a whistleblower protection issue.58
+50 Bill, subcl. 26(1).
+51 Bill, subcl. 26(3).
+52 Bill, subcl. 28(1).
+53 Bill, subcl. 29(1)–(2).
+54 Bill, subcl. 29(4).
+55 Bill, cl. 30.
+56 Bill, cl. 32.
+57 Bill, cl. 33.
+58 Bill, cl. 34.
+12
+Remedial functions and powers
+1.51 The Commissioner would have the authority to make recommendations in a
+report that follows an investigation or public inquiry that they consider
+necessary to protect a person from, or compensate them for, detrimental actions
+or omissions caused by the disclosure of wrongdoing.59
+1.52 If the Commissioner is satisfied there is a public interest in so doing, they would
+have the power to commence proceedings in a court or make applications to an
+industrial, civil or administrative body in respect of a whistleblower protection
+issue.60
+1.53 The Commissioner would be able to mediate or arbitrate a dispute between
+parties involved in a whistleblower protection issue if they are satisfied that
+doing so would be in the public interest and the interests of all parties involved.61
+1.54 If the Commissioner reasonably believes that a person has contravened a civil
+remedy provision related to a whistleblowing protection responsibility, they
+would be able to accept a written undertaking by the person. If the
+Commissioner believes that person has contravened the undertaking, they
+would be able to apply for a court order.62
+Part 4: Administrative provisions for the Whistleblower Protection Authority
+1.55 The Bill would set out the administrative provisions for the WPA, including the
+appointment of the Commissioner, Deputy Commissioners, Chief Executive
+Officer (CEO) and staff.
+Appointment of the Whistleblower Protection Commissioners
+1.56 The Governor-General would appoint the Commissioner on the
+recommendation of the minister. Prior to making the recommendation, the
+Parliamentary Joint Committee on the Whistleblower Protection Authority
+(whistleblower committee) would need to approve it. The Commissioner would
+be appointed for up to seven years and could be reappointed once.63
+1.57 Deputy Commissioners would be appointed by the Governor-General on the
+recommendation of the minister. Prior to making the recommendation, the
+whistleblower committee would need to approve it. At least one of the Deputy
+Commissioners would be required to 'have appropriate experience in relation
+to government investigation or regulatory, accountability or enforcement
+practices'. At least one Deputy Commissioner would also be required to 'have
+59 Bill, cl. 35.
+60 Bill, subcl. 36(2).
+61 Bill, cl. 37.
+62 Bill, cl. 38.
+63 Bill, cl. 39.
+13
+appropriate experience in relation to relevant private sector law'. A former
+Commissioner would not be able to be appointed as a Deputy Commissioner. A
+Deputy Commissioner would be able to be appointed for a maximum of seven
+years and would be able to be reappointed once.64
+The Chief Executive Officer, staff and authorised officers
+1.58 The Governor-General would appoint the CEO on the recommendation of the
+minister, for a maximum term of five years. Before making the recommendation,
+the minister would be required to refer the proposed recommendation to the
+Commissioner.65
+1.59 The CEO would have two functions: to manage the affairs of the WPA and to
+ensure the WPA performs its functions.66
+1.60 The Bill would provide for the engagement of staff, consultants and people
+whose services are made available to the WPA.67
+Immunities of staff members of the Authority
+1.61 Staff members of the WPA would be immune from civil proceedings in relation
+to an act done, or omitted to be done, in good faith and in the performance or
+purported performance, or exercise or purported exercise, of the staff member’s
+functions, powers or duties under the Act. The immunity would extend to
+people who have been requested by the Commissioner in writing to assist the
+staff members.68
+Annual report by Commissioner
+1.62 The Commissioner would be required to give the minister a report on the
+performance of the Commissioner's functions during each financial year (the
+annual report).69 After receiving the annual report, the minister would be
+required to table it in each House of the Parliament within 15 sitting days.70 The
+annual report would need to include:
+ the whistleblower protection issues referred to the Commissioner;
+ the whistleblower protection issues dealt with by the Commissioner;
+ the investigations conducted by the Commissioner;
+64 Bill, cl. 40.
+65 Bill, cl. 52.
+66 Bill, subcl. 50(1).
+67 Bill, cl. 60–63.
+68 Bill, cl. 64–65.
+69 Bill, subcl. 66(1).
+70 Bill, subcl. 66(3).
+14
+ the whistleblower protection issues referred to a Commonwealth agency or
+State or Territory government entity for investigation;
+ the public inquiries conducted by the Commissioner;
+ a description of investigations conducted by the Commissioner that raised
+significant issues for, or reflected developments in, Commonwealth
+agencies; and
+ recommendations for changes to Commonwealth laws or administrative
+practices of Commonwealth agencies that the Commissioner considers
+should be made.71
+Part 5: Whistleblower Protection Advisory Council
+1.63 The Bill would establish the Whistleblower Protection Advisory Council
+(the Council). It would have the following three functions:
+(a) on its own initiative or at the request of the Commissioner, to provide
+advice to the Commissioner in relation to the Commissioner's functions;
+(b) on its own initiative, to provide advice to the Commissioner in relation
+to the Authority's function; and
+(c) at the request of the Minister, to provide advice to the Minister about
+matters arising in relation to the operations of the Authority or to the
+performance of the Commissioner's functions.72
+1.64 The Council would comprise a Chair and between six to 10 other members.73 All
+members of the Council would be appointed by the minister on a part-time basis
+for a maximum period of three years.74 A person would not be able to be
+appointed to the Council unless:
+(a) the Minister is satisfied that the person has substantial experience or
+knowledge in at least one of the following fields:
+(i) whistleblower protection law or policy;
+(ii) disclosure law;
+(iii) intelligence and information gathering;
+(iv) law enforcement;
+(v) formulation of government policy and public administration;
+(vi) any other appropriate field of expertise; or
+(b) the person was previously appointed as the Commonwealth
+Ombudsman, a Commissioner of the [National Anti-Corruption
+Commission] (within the meaning of the National Anti-Corruption Act 2022)
+71 Bill, subcl. 66(2).
+72 Bill, subcl. 69(1).
+73 Bill, cl. 70.
+74 Bill, subcl. 71(1)–(2).
+15
+or the Chairperson of the Australian Securities and Investments
+Commission.75
+1.65 At least one member of the Council would be required to 'have lived experience
+as a former whistleblower'.76
+1.66 The Commissioner would not be able to be appointed as a member of the
+Council.77
+Part 6: Parliamentary Joint Committee on the Whistleblower Protection Authority
+1.67 The Parliament would appoint the whistleblower committee, as soon as
+practicable after the commencement of the first session of each Parliament.78
+The functions of this committee would be threefold:
+(a) to consider proposed recommendations for the appointment of the
+following positions:
+(i) the Commissioner;
+(ii) any Deputy Commissioners;
+(b) to monitor and review the performance by the Commissioner of their
+functions;
+(c) to report to both Houses of the Parliament, with such comments as it
+thinks fit, on any matter connected with the performance of the functions of
+the Commissioner that the Committee considers should be directed to the
+attention of the Parliament.79
+1.68 The whistleblower committee would consist of six members of the Senate
+appointed by the Senate and six members of the House of Representatives
+appointed by that House.80
+1.69 The six members appointed by the Senate and the House of Representatives
+would need to consist of:
+ three members of the government;
+ two members of the opposition; and
+ one member of the Parliament who is not a member of the government or
+the opposition.81
+75 Bill, subcl. 71(3).
+76 Bill, subcl. 71(4).
+77 Bill, subcl. 71(5).
+78 Bill, cl. 80.
+79 Bill, subcl. 85(1).
+80 Bill, subcl. 80(2).
+81 Bill, subcl. 80(3).
+16
+1.70 The Chair of the whistleblower committee would need to be a member of the
+government. The Chair would be elected by that committee.82
+Financial impact
+1.71 According to the Explanatory Memorandum (EM), '[t]he bill will have no
+financial impact'.83
+1.72 The Parliamentary Budget Office (PBO) prepared a costing for the WPA as
+proposed in the Bill with 80 full-time equivalent staff. The PBO estimated that
+the proposed WPA would cost $99.5 million over the 2025–26 Budget forward
+estimates period.84
+1.73 The financial implications of establishing a WPA as calculated by the PBO are
+set out in Figure 1.1 below.
+Figure 1.1 Establish an independent Whistleblower Protection Authority –
+Financial implications ($m)
+Source: Parliamentary Budget Office, Establish an independent Whistleblower Protection Authority: 2025 Election
+Commitment Cost ECR-2025-6800, [p. 1].
+Consideration by other parliamentary committees
+1.74 When examining a bill or bills, the committee takes into account any relevant
+comments published by the Senate Standing Committee for the Scrutiny of Bills
+(Scrutiny of Bills Committee) and the Parliamentary Joint Committee on Human
+Rights (Human Rights Committee).
+1.75 The Scrutiny of Bills Committee noted that various provisions of the Bill may
+raise scrutiny concerns in relation to privacy and clause 64 may raise concerns
+in relation to immunity from liability. The Scrutiny of Bills Committee indicated
+that it may request further information in relation to those concerns from the
+proponent of the Bill.85
+82 Bill, subcl. 81(1).
+83 EM, [p. 1].
+84 Parliamentary Budget Office, Establish an independent Whistleblower Protection Authority: 2025
+Election Commitment Cost ECR-2025-6800, [p. 1].
+85 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 3 of 2025, 27 March 2025, p. 9.
+17
+1.76 The Human Rights Committee examines bills and legislative instruments for
+compatibility with human rights and reports its findings to both Houses of
+Parliament. The Human Rights Committee stated:
+…this non-government bill appears to engage and may limit human rights.
+Should this bill proceed to further stages of debate, the committee may
+request further information from the legislation proponent as to the human
+rights compatibility of the bill.86
+1.77 According to the EM’s Statement of Compatibility with Human Rights, the Bill
+might engage human rights contained in the International Covenant on Civil
+and Political Rights (articles 14(2), 17 and 19(2)) and the International Covenant
+on Economic, Social and Cultural Rights (articles 6(1), 7 and 8(1)(a)).87 However,
+according to the EM:
+This Bill is compatible with the human rights and freedoms recognised or
+declared in the international instruments listed in section 3 of the Human
+Rights (Parliamentary Scrutiny) Act 2011. To the extent that the measures in
+the Bill may limit human rights, each of those limitations are necessary,
+reasonable and proportionate.88
+86 Parliamentary Joint Committee on Human Rights, Report 2 of 2025, 3 March 2025, p. 5.
+87 EM, Statement of Compatibility with Human Rights, [p. 1].
+88 EM, Statement of Compatibility with Human Rights, [p. 2].
+
+Chapter 2
+Key issues
+2.1 This chapter outlines key issues raised in evidence to the committee about the
+Whistleblower Protection Authority Bill 2025 (Bill). Those issues include the:
+ experiences of Australian whistleblowers;
+ limitations of the existing whistleblower framework;
+ functions of the Whistleblower Protection Authority (WPA);
+ interaction the WPA would have with the Public Interest Disclosure (PID)
+framework; and
+ costs associated with the establishment and operation of the WPA.
+2.2 The chapter also articulates the committee's views and recommendations in
+relation to the Bill.
+Experiences of Australian whistleblowers
+2.3 The committee received several accounts from whistleblowers who shared their
+firsthand experience of the existing whistleblower framework. Not all
+whistleblowers were comfortable publicly sharing their experiences which, for
+the most part, were not positive.
+2.4 One whistleblower who reported corporate wrongdoing informed the
+committee that 'the decision to speak up is a profoundly lonely, terrifying, and
+isolating ordeal'.1
+2.5 The whistleblower identified one shortcoming with the Bill related to how a
+private sector whistleblower may understand the protections afforded to them.
+The whistleblower explained:
+When a whistleblower reads this Bill, they will be making the hard decision
+of whether they should speak up—and fearful of the consequences if they
+do. Not only for themselves, but for their family. They are looking for
+certainty and reassurance—and they need to see that support in writing.
+They need the comfort of knowing they are explicitly included—not as a
+secondary category, not as an afterthought, and certainly not as an "other
+person," but as a full and equal participant in the national framework for
+truth-telling and protection.2
+2.6 The whistleblower recommended:
+The Bill must be corrected to clearly state that the Whistleblower Protection
+Authority exists to protect all whistleblowers—public and private sector
+alike. No one should have to read between the lines to find out if they are
+1 Name withheld, Submission 18 (48th Parliament), [p. 2].
+2 Name withheld, Submission 18 (48th Parliament), [p. 2].
+19
+20
+covered. They must be able to read this legislation and feel protected, feel
+acknowledged, and feel that the law is written for them too.3
+2.7 Another whistleblower shared this concern:
+The Bill provides a clear avenue for making disclosures about wrongdoing
+in the public sector. It provides a less clear avenue for making disclosures
+about wrongdoing in the private sector and does not deal with the overlap
+involved in the significant work performed with and for the public sector by
+the private sector (including corporations).4
+2.8 That whistleblower raised concerns about the financial costs associated with
+disclosing wrongdoing. They indicated that the costs associated with preparing
+one claim related to their whistleblowing exceeded $100 000 and estimated that
+once it is litigated it will cost at least one million dollars.5
+2.9 The whistleblower explained 'I have only been able to realistically contemplate
+action because I am a small business operator supported by other company
+income'. They suggested:
+Even if a whistleblower is successful, an award of costs on an ordinary basis
+may fall well short of making them whole, and the financial cost of success
+in many cases may represent a real and significant cost of their
+whistleblowing. What a whistleblower can realistically hope for presently is
+a Pyrrhic victory (and one potentially of less consequence to their opponent
+than was felt by the Romans).6
+2.10 Ms Jeannie-marie Blake shared the same kind of trauma that was partly caused
+by a lack of institutional support described by other whistleblowers:
+I blew the whistle on robodebt. I experienced firsthand the absence of
+support for whistleblowers and that's why I'm firm in my belief that we need
+whistleblower reform, now including the establishment of a whistleblower
+protection authority.7
+2.11 Ms Blake stated that her 'involvement in robodebt was a deeply traumatic
+experience'. She attempted to raise concerns about the scheme 'from the very
+beginning'. Ms Blake 'immediately saw robodebt for what the royal commission
+eventually concluded it to be—unlawful and deeply unethical'. Her concerns
+with the scheme were shared by some of her colleagues and when they
+attempted to blow the whistle, they 'were met with a stark message: resign,
+transfer or comply. The message was as blunt as that: shut up or leave'.8
+3 Name withheld, Submission 18 (48th Parliament), [p. 2].
+4 Name withheld, Submission 19 (48th Parliament), [p. 3].
+5 Name withheld, Submission 19 (48th Parliament), [p. 5].
+6 Name withheld, Submission 19 (48th Parliament), [p. 5].
+7 Ms Jeannie-marie Blake, Private capacity, Committee Hansard, 13 August 2025, p. 1.
+8 Ms Blake, Private capacity, Committee Hansard, 13 August 2025, p. 1.
+21
+2.12 Ms Blake spoke about the sacrifice that she and other whistleblowers make for
+the benefit of wider society:
+Society benefits when whistleblowers speak up. Ultimately robodebt was
+stopped, but we're left here on a scrapheap, paying the high price for our
+sacrifice—a sacrifice that I made in the public's best interest. I'm not the only
+one. In recent years, Australians have been prosecuted for blowing the
+whistle. A whistleblower was imprisoned for speaking up. There are dozens
+more that have had their careers ended or sidelined for doing the right thing,
+not to mention those many, like my colleagues during robodebt, who simply
+walked away in disgust. For this reason alone there should be some sort of
+mechanism for whistleblower support to support whistleblowers who
+speak up in the public's best interest.9
+2.13 In reflecting about how her experience could have been different if an
+independent support body, such as the proposed WPA, had existed at the time,
+Ms Blake suggested:
+There was no safe, independent mechanism for staff to report concerns
+without fear of reprisal. If such a body had existed I believe that many more
+staff would have spoken out and robodebt may have been stopped before it
+had even started. Think about what that might have prevented: the trauma
+avoided, the beautiful lives not lost as a result and billions in taxpayer
+dollars not wasted. If whistleblowers had been protected and empowered,
+not punished, maybe we could have avoided robodebt altogether.10
+2.14 Ms Sharon Kelsey, the former Chief Executive Officer of the Logan City Council
+in Queensland, shared a similar whistleblowing experience. In 2017, Ms Kelsey
+made a PID to the Queensland Crime and Corruption Commission about the
+conduct of the then mayor of the Logan City Council. In February 2018, her
+employment was terminated.11
+2.15 Reflecting on her experience as a whistleblower in Queensland, Ms Kelsey
+submitted:
+What is evident is that my PID offered me little to no real protection as a
+whistleblower. There was no agency with the adequate function and powers
+to protect or support me. I was alone, left with only my finite resources. This
+meant I had to personally fund a protracted, complex and arduous legal
+process in an attempt to assert my rights.12
+2.16 The perspective shared by these whistleblowers is supported by limited
+research quoted by Transparency International Australia (TIA) which
+submitted:
+9 Ms Blake, Private capacity, Committee Hansard, 13 August 2025, p. 2.
+10 Ms Blake, Private capacity, Committee Hansard, 13 August 2025, p. 1.
+11 Ms Sharon Kelsey, Submission 49, p. 2.
+12 Ms Kelsey, Submission 49, p. 3.
+22
+…according to the managers and governance staff, 56 per cent of public
+interest whistleblowers suffered serious repercussions – whether as
+indirect/collateral damage, or in 30 per cent of cases, as direct harm
+including adverse employment actions, harassment or intimidation. This
+was despite the fact that in over 90 per cent of cases, managers and
+governance staff assessed the whistleblower as being correct and deserving
+of the organisation's support.13
+2.17 Griffith University cited similar figures and added that of the 56 per cent of
+public interest whistleblowers who suffered serious repercussions, six per cent
+received compensation and 48 per cent received no remedy at all. Most
+whistleblowers—up to 82 per cent—have reported 'indirect or 'collateral'
+damage of unmanaged stress, lost time, ostracism, impacted performance and
+alienation produced by the whistleblowing process, at some level'.14
+2.18 Mr Dennis Gentilin provided a contrasting perspective to that shared by the
+other whistleblowers. He described his whistleblowing experience as 'relatively
+positive'. Mr Gentilin said that there are two sources from which whistleblowers
+can 'suffer recrimination'. The first relates to how the institution they work for,
+and disclose to, handles the disclosure. In some cases where the whistleblower
+experiences recrimination 'that institution just fails to protect them'. In his case,
+Mr Gentilin's employer 'did a great job'.15
+2.19 The second source of recrimination 'is the people that are impacted by their
+disclosure'. Mr Gentilin stated that even though his experience was positive, he
+is not immune from this second source of recrimination:
+I've gone on to have a relatively successful career, but employers that I've
+worked for have received anonymous whistleblowing disclosures against
+me, suggesting that I'm in there conducting covert investigations and I'll be
+leaking to the media et cetera. These are totally baseless and malicious.
+They've been done to try and compromise or to sow seeds of doubt in my
+employer by suggesting I am a person of questionable character.16
+2.20 Mr Gentilin argued that even if their experience is comparatively positive,
+whistleblowers will:
+13 Transparency International Australia (TIA), Submission 21, [p. 3]. Note: the research referred to by
+the TIA was conducted by Griffith University over five years ago. It is based on survey data which
+preceded the Stage 1 reforms implemented by the Australian government. See: Griffith University,
+Clean as a whistle: a five step guide to better whistleblowing policy and practice in business and government.
+Key findings and actions of Whistling While They Work 2, August 2019.
+14 Griffith University, Submission 26, [pp. 23–24].
+15 Mr Dennis Gentilin, Private capacity, Committee Hansard, 13 August 2025, p. 3.
+16 Mr Gentilin, Private capacity, Committee Hansard, 13 August 2025, p. 3.
+23
+…inevitably suffer some form of recrimination and retaliation. That's why
+it's important we have some sort of authority that helps, especially those
+whose stories are far more detrimental than mine.17
+2.21 Mr Gentilin stated that he is an 'outlier' among whistleblowers. After reflecting
+upon his experience, he indicated:
+…there are a lot of things that came together that made me lucky, to be
+totally frank. I think it was, in some ways, more by accident than by design
+that my story ended up the way it did.18
+2.22 The International Bar Association Anti-Corruption Committee reflected on how
+Australian whistleblowers have been treated:
+Historically, despite some important reforms, Australia has, and continues
+to have, a patchy record in the way public and private sector whistleblowers
+are treated. Robust whistleblower protections are important in fostering a
+culture of integrity, transparency and accountability that applies across all
+sectors.19
+2.23 The Australian Human Rights Commission (AHRC) highlighted the 'invaluable
+public service' that whistleblowers provide. Whistleblowers identify 'issues of
+maladministration, corruption and other wrongdoing so that they can be
+addressed and remedied'.20
+2.24 In performing that service, whistleblowers may experience 'great personal cost'.
+For that reason, 'it is important that the privacy of whistleblowers is
+protected…Similarly, it is important that whistleblowers are protected from
+reprisals and victimisation for doing the right thing'.21
+2.25 In the AHRC's view, a whistleblower protection authority would help to protect
+whistleblowers:
+…by making it easy for whistleblowers to know where to go to make a
+report about wrongdoing, by assisting them with appropriate advice, and
+by taking steps to protect them from reprisals and victimisation.22
+Limitations of the existing whistleblower framework
+2.26 The committee received evidence from whistleblower advocacy and support
+organisations that outlined the limitations of the existing whistleblower
+framework. Those limitations primarily related to the complex and fragmented
+nature of the existing whistleblower framework. Those organisations proposed
+17 Mr Gentilin, Private capacity, Committee Hansard, 13 August 2025, p. 4.
+18 Mr Gentilin, Private capacity, Committee Hansard, 13 August 2025, p. 6.
+19 International Bar Association Anti-Corruption Committee, Submission 15, p. 2.
+20 Australian Human Rights Commission (AHRC), Submission 19, p. 6.
+21 AHRC, Submission 19, p. 6.
+22 AHRC, Submission 19, p. 7.
+24
+that the establishment of a Whistleblower Protection Authority would address
+those limitations.
+2.27 At the federal level, the Human Rights Law Centre (HRLC) identified nine laws
+that contain 'substantive whistleblower protections'. Those laws are overseen by
+a range of regulatory agencies which 'have statutory obligations in relation to
+the receipt and investigation of whistleblower disclosures, yet not one of those
+regulators have a dedicated whistleblower support function'.23
+2.28 According to the HRLC, the whistleblower framework has become more
+fragmented over time. That fragmentation:
+…is bad for whistleblowers who may have to navigate multiple
+contradictory disclosure regimes, bad for businesses and government
+bodies that are often subject to overlapping compliance and reporting
+obligations, and bad for regulators which face limitations to their
+investigatory and enforcement oversight.24
+2.29 The Governance Institute of Australia indicated the existing framework places
+'an unfair and disproportionate burden on whistleblowers [who are] left to
+contend with a complex patchwork of state and federal legislation that is leading
+to suboptimal outcomes'.25
+2.30 TIA highlighted the deficiencies of the current PID scheme. In its view,
+'Australia's whistleblower protections are fragmented, inconsistent, confusing,
+and under-enforced. For whistleblowers, the current system often means one
+thing: they are left vulnerable, unsupported, and at risk'.26
+2.31 The Whistleblower Justice Fund (WJF) argued the current lack of support does
+not work for potential whistleblowers as many of them do not 'know the proper
+process to blow the whistle'. Many of those who have disclosed wrongdoing,
+have later indicated 'they would take a different path if they knew what they
+learned of the process only after disclosing'.27
+2.32 TIA, the HRLC and Griffith University jointly identified one of the greatest
+deficiencies of the current whistleblower framework:
+…there is little institutional support for whistleblowers to navigate the
+protections available to them. Unlike other areas of workplace law, where
+the Fair Work Ombudsman or human rights commissions oversee and
+enforce employment and anti-discrimination rights, whistleblowers are left
+alone and unsupported. This can and must change, through institutional
+23 Human Rights Law Centre (HRLC), Submission 40, pp. 12–13.
+24 HRLC, Submission 40, p. 13.
+25 Governance Institute of Australia, Submission 28, p. 2.
+26 TIA, Submission 21, [p. 3].
+27 Whistleblower Justice Fund (WJF), Submission 38, p. 1.
+25
+and practical reforms to make the protections in all whistleblowing laws
+actually work.28
+2.33 Griffith University suggested existing Commonwealth integrity agencies 'may
+not be well placed to take on more proactive whistleblower protection
+functions'. It provided the following reasons to support that view:
+ While the [Commonwealth] Ombudsman and [Inspector-General of
+Intelligence and Security (IGIS)] can make recommendations, they do not
+have the power to take legal action or issue binding orders against
+individuals or agencies to enforce protections. [The Australian Securities
+and Investments Commission (ASIC)] has shown only limited
+willingness to engage in such enforcement action since 2019.
+ These bodies typically reactively respond to a complaint being made,
+when detriment to a whistleblower has already occurred, rather than
+exercising early intervention powers to prevent harm from occurring.
+ Assessment, communication and investigation processes and timeframes
+are not well aligned with the acute support needs of a whistleblower in a
+workplace.
+ Resources are frequently under pressure for use on other strategic or
+organisational priorities.
+ Decisions about which matters to address are also often made
+considering broader enforcement priorities, rather than simply
+protecting whistleblowers as a core function.
+ Administrative complaint-handling and investigation staff typically lack
+the knowledge and capability to handle employment-related matters or
+disputes, provide practical support or legal aid, or mediate disputes.29
+2.34 Individual public bodies and companies are required 'to implement protections
+through their own internal procedures'. As the TIA, HRLC and Griffith
+University explained, when those:
+…internal procedures fail or an organisation turns on a whistleblower, there
+is no federal agency tasked with independent investigation of detrimental
+actions or enforcement of the legal protections theoretically afforded by the
+law.30
+2.35 According to TIA, the public sector whistleblower scheme is further weakened
+by '[l]oopholes, inconsistencies and poor enforcement [which] mean that even
+legally protected whistleblowers often face retaliation, with few remedies in
+practice'.31
+2.36 In TIA's view, the current whistleblowing scheme:
+28 TIA, HRLC and Griffith University, Submission 39, [p. 2].
+29 Griffith University, Submission 26, [pp. 18–19].
+30 TIA, HRLC and Griffith University, Submission 39, [p. 2].
+31 TIA, Submission 21, [p. 3].
+26
+…demonstrates that even the best legal protections are paper tigers, without
+legal resources for whistleblowers to activate their rights, and institutional
+support to assist and enforce more effective responses to whistleblowing in
+the first place, by public sector bodies, employers and other regulators.32
+2.37 To strengthen the public sector whistleblower scheme, TIA called for the
+establishment of 'a fully resourced whistleblower protection authority…to
+ensure workers can access their rights, especially the most vulnerable and least
+powerful'.33
+2.38 The HRLC argued the establishment of a whistleblower protection authority
+would help to coordinate and harmonise the fragmented whistleblower
+framework.34
+2.39 The HRLC proposed that the WPA 'should be an independent body, separate
+and distinct from any existing integrity agency'. It suggested the existing bodies
+that investigate misconduct, including the Commonwealth Ombudsman,
+would not be best suited to also investigate alleged reprisals against
+whistleblowers.35
+2.40 The International Bar Association Anti-Corruption Committee highlighted the
+role the proposed WPA could play in fostering a culture of whistleblowing in
+Australia:
+Not only will the creation of an independent agency (outside an existing
+government entity) add weight to the cause of whistleblowers, but the
+creation of a really independent authority is highly likely to incentivise
+whistleblowers to come forward and report misconduct with the belief that
+they will be respected and properly protected. Existing Commonwealth
+agencies are not designed and do not have the culture to represent the
+interests of whistleblowers and are limited by their own powers in terms of
+what they can do. In turn, both the public and the private sectors will
+increasingly realise that a meaningful and transparent response to internal
+complaints is the best way to respond to allegations of misconduct rather
+than putting up the barricades, attacking the messenger and hoping to
+survive the reputational storm clouds sweeping over those involved.36
+2.41 Mr Clancy Moore, Chief Executive Officer of the TIA, explained the role of the
+WPA would be to:
+…help implement all federal whistleblowing laws by being a source of
+practical guidance and support for prospective, current and former
+whistleblowers but also by assisting agencies, companies and regulatory
+bodies with the coordination and management of disclosures. A
+32 TIA, Submission 21, [p. 3].
+33 TIA, Submission 21, [p. 3].
+34 HRLC, Submission 40, p. 13.
+35 HRLC, Submission 40, p. 16.
+36 International Bar Association Anti-Corruption Committee, Submission 15, pp. 59–60.
+27
+whistleblower protection authority would also promote best-practice
+whistleblowing across the Commonwealth, investigate alleged detrimental
+actions and support enforcement litigation where necessary.37
+2.42 The Alliance for Journalists' Freedom (AJF) referred to the prosecutions of
+whistleblowers David McBride and Richard Boyle. In its view:
+Their cases raise important questions about whether our legal system is
+appropriately balancing legitimate secrecy and privacy concerns with the
+need for transparency and accountability. In both cases the defendants were
+denied the option to use the existing "public interest" defences.38
+2.43 The AJF argued that the WPA would help journalists and whistleblowers come
+forward with disclosures of wrongdoing by providing them with 'the surety that
+the stories they tell won't result in a prosecution against them'.39
+2.44 The WJF contended that increased protections for whistleblowers would serve
+the national interest as:
+Where there exists public confidence in national whistleblowing regimes,
+potential perpetrators of wrongdoing will know that every person
+surrounding them in their workplace is a possible, and likely,
+whistleblower. That serves the nation.
+Such public confidence is severely lacking in Australia's current
+whistleblower protection scheme.40
+2.45 The WJF argued the WPA would not just protect individual whistleblowers. Its
+purpose would be much broader so that on a societal level:
+…the public has confidence in whistleblower protection so that a) those
+contemplating involvement in wrongdoing are deterred from doing so and
+b) any and all public servants, corporate employees and officials/members
+feel confident that they can safely blow the whistle.
+Without strong whistleblower protections, society loses the benefit that
+could otherwise come from insiders identifying wrongdoing and assisting
+investigators identify, stamp out and prosecute perpetrators.41
+2.46 The HRLC gave examples of how:
+Whistleblowers make Australia a better place. In recent decades alone,
+whistleblowers have proven critical in exposing wrongdoing including
+human rights abuses, environmental wrongdoing, corporate misconduct,
+fraud and government wrongdoing.42
+37 Mr Clancy Moore, Chief Executive Officer, TIA, Committee Hansard, 13 August 2025, p. 9.
+38 Alliance for Journalists' Freedom (AJF), Submission 35, [p. 2].
+39 AJF, Submission 35, [pp. 2–3].
+40 WJF, Submission 38, p. 1.
+41 WJF, Submission 38, pp. 4–5.
+42 HRLC, Submission 40, p. 4.
+28
+2.47 The TIA, HRLC and Griffith University argued a whistleblower protection
+authority:
+…would help implement all federal whistleblowing laws, by:
+ Being a source of practical guidance and support for whistleblowers;
+ Assisting agencies, companies and regulatory bodies with coordination
+and management of disclosures;
+ Promoting best-practice whistleblowing policies and procedures in
+collaboration with existing oversight agencies (e.g. the Commonwealth
+Ombudsman and ASIC);
+ Investigating alleged detrimental action and recommending remedies;
+ Supporting enforcement litigation in strategic cases where
+whistleblowers deserve remedies in the Fair Work Commission or
+federal courts; and
+ Administering a rewards scheme for whistleblowers, also unanimously
+recommended by the 2017 Parliamentary Joint Committee.43
+2.48 In the Commonwealth Ombudsman's understanding, the Bill would provide:
+…another avenue for disclosures but does not appear to offer
+whistleblowers protections from liability. Whistleblowers may not be
+comfortable disclosing to the Authority without being sure they have
+immunity from any liability that may flow from making a disclosure.44
+2.49 The Commonwealth Ombudsman assured the committee that whistleblowers
+who believe they have experienced reprisal as a result of their disclosure may
+make a new disclosure to his Office. Similarly, public officials may lodge a
+complaint with his 'Office if they are dissatisfied with the way the agency
+handles their reprisal claim'. The Commonwealth Ombudsman submitted:
+My Office may investigate a disclosure of a reprisal or a reprisal complaint.
+My Office is also empowered to undertake own motion investigations into
+PID agencies' handling of reprisals but is limited in resources to be able to
+do this. However, the decentralised nature of the PID Scheme means by
+design the Scheme primarily relies on agencies to investigate reprisals.45
+Functions of the Whistleblower Protection Authority
+2.50 Inquiry participants discussed the proposed functions of the WPA. Those
+functions would broadly relate to acting as a clearinghouse for disclosures of
+wrongdoing and providing support and protections for whistleblowers.
+2.51 For example, Griffith University indicated the primary purpose of the Bill would
+be:
+…to protect those who report serious wrongdoing from detriment or
+adverse consequences that might flow from their reporting, including
+43 TIA, HRLC and Griffith University, Submission 39, [p. 3].
+44 Commonwealth Ombudsman, Submission 14, p. 3.
+45 Commonwealth Ombudsman, Submission 14, p. 4.
+29
+proactive support and protection to prevent or minimise such consequences,
+and just outcomes via remedies and compensation if negative consequences
+in fact occur.46
+2.52 Ms Jane Olsen, PhD candidate at Griffith University, identified two areas that
+the WPA would focus on:
+The first is in terms of preventing harm from occurring in the first place. A
+whistleblower protection authority would be able to support
+whistleblowers through what can be a really difficult process, either legally,
+psychologically or in other practical ways, as well as having that early
+intervention with agencies and organisations to deal with matters properly
+so that they don't spiral out of control.
+…
+The second major gap is what happens when, unfortunately, harm does
+occur. Currently there are no easily accessible ways for whistleblowers to
+have those allegations of detriment against them looked into, whether that's
+preferably, resolved informally through an easy conciliation and mediation
+process, for example, or, failing that, a proper independent investigation
+into what has happened, and then no clear enforcement so that
+whistleblowers do receive some redress or some form of justice when they
+suffer simply for speaking up about matters that are in the public interest.47
+Clearinghouse for disclosures of wrongdoing
+2.53 Several submitters welcomed the introduction of a whistleblower protection
+authority that would operate under a 'no wrong doors' approach.
+2.54 For example, the Accountability Round Table (ART) indicated the Bill would
+promote the 'no wrong doors' principle by making it clear that anyone may
+make a disclosure of wrongdoing or provide information about wrongdoing to
+the Whistleblower Protection Commissioner (the Commissioner).48
+2.55 The Information Rights Project suggested the WPA would 'become the central
+point of contact for whistleblowers in both the public and private sectors'. That
+role 'would help reduce confusion and prevent whistleblowers from seeking
+multiple avenues for protection'.49
+2.56 Griffith University argued the WPA:
+…should act as a clearinghouse for receiving, referring, and monitoring the
+progress of disclosures among other agencies, including investigatory
+46 Griffith University, Submission 26, [p. 20].
+47 Ms Jane Olsen, PhD candidate, Griffith University, Committee Hansard, 13 August 2025, p. 15.
+48 Accountability Round Table, Submission 24, p. 3.
+49 The Information Rights Project, Submission 36, p. 2.
+30
+agencies, as well as directly investigating (or mediating) alleged detriment
+or reprisals.50
+2.57 The Governance Institute of Australia referred to the complexity of the current
+whistleblower framework and suggested:
+A whistleblower should not require a nuanced knowledge of the complex
+tapestry of legal and regulatory frameworks to know to which regulator or
+law enforcement agency they should make their disclosure to qualify for
+protection. The WPA should act as a one-stop-shop of information and
+resources to assist whistleblowers or those contemplating whistleblowing
+with understanding their rights and protections.51
+2.58 The WPA would assist potential whistleblower by providing them with a single
+place to seek advice. Professor AJ Brown, Professor of Public Policy & Law,
+Griffith University; and Chair of TIA, stated:
+…whenever potential whistleblowers are confused or uncertain about
+where to go, they may well go to an existing agency that they see as most
+relevant, but, if in doubt, there would always be the whistleblower
+protection authority that someone could tell them to go to. It would have
+the benefit of being able to give them confidential advice on how the process
+would work before they commenced, which is often the key step in a
+whistleblower's mind about approaching an agency full of people that they
+don't know.52
+2.59 The AHRC reported '[e]very review of whistleblower protections at the federal
+level in Australia has noted how complex and confusing the system is for a
+whistleblower to navigate'. For that reason, the AHRC supported the creation of
+'[a] centralised and high-profile whistleblower protection authority'.53
+2.60 In the AHRC's view, a centralised authority that operates under a 'no wrong
+doors approach' should ensure that PIDs can be directed to the appropriate
+agency for investigation. The whistleblower should also be provided the same
+protection after approaching the authority as if they had made their disclosure
+directly to the relevant body.54
+2.61 Mr Philip Reed, Chief Executive Officer of the National Anti-Corruption
+Commission (NACC), stated that 'anyone can make a voluntary referral to the
+commission'. When an individual makes such a referral, they are privy to 'the
+50 Griffith University, Submission 26, [p. 20].
+51 Governance Institute of Australia, Submission 28, p. 2.
+52 Professor AJ Brown, Professor of Public Policy & Law, Griffith University; and Chair, TIA,
+Committee Hansard, 13 August 2025, pp. 11–12.
+53 AHRC, Submission 19, p. 8.
+54 AHRC, Submission 19, p. 10.
+31
+protections that are afforded under the [National Anti-Corruption Commission Act
+2022 (NACC Act)]'.55
+2.62 Those provisions protect:
+…any person who makes a referral, provides information or gives evidence
+to the commission about a corruption issue…from all civil, criminal or
+administrative liability, including disciplinary action, for doing so, and no
+contractual right or remedy can be taken against them.56
+2.63 Mr Reed considered that the proposed WPA 'may assist potential disclosers who
+may be uncertain about correct reporting pathways and available protections
+and give them some further assistance'. However, he raised a concern that the
+NACC and the WPA would need to ascertain 'how to manage the interplay that
+is going to occur in terms of dealing with whistleblowers that come through our
+system or potentially come via the authority'. In his view, that process would
+probably operate in a similar way to how the NACC currently engages:
+…with a large number of other integrity agencies already in existence within
+the Commonwealth. We ended up having to work with those authorities;
+those integrity authorities are defined under our act. For some of them,
+we've ended up with regular meetings. We have [Memorandums of
+Understandings (MOUs)] with others as a way of managing that interplay.
+I'm sure we would do similar things were this authority to emerge.57
+2.64 Mr Iain Anderson, Commonwealth Ombudsman, emphasised the lack of clarity
+in the Bill on how the WPA would intersect with his agency. In the same vein as
+Mr Reed, he suggested:
+One of the challenges with the bill is that it would give similar or duplicative
+functions to the authority. The authority would also be able to engage with
+the agencies and engage with us about matters we were looking at or
+separately about matters that they wish to look at. So there is the potential
+for multiple handling on the same issues, which may not be in the interests
+of disclosers or, indeed, of other parties. It's better to have overlaps than to
+have gaps, I think, and these things can be addressed in a range of ways,
+through MOUs and protocols and things like that. But it is something that
+would need to be considered very early on if an authority were created on
+this model.58
+2.65 Ms Deepti Paton, Acting Assistant Secretary in the Corporations Branch at the
+Department of the Treasury (Treasury), explained that the current
+whistleblower framework is:
+55 Mr Philip Reed, Chief Executive Officer, National Anti-Corruption Commission (NACC),
+Committee Hansard, 13 August 2025, p. 33.
+56 Mr Reed, NACC, Committee Hansard, 13 August 2025, p. 33.
+57 Mr Reed, NACC, Committee Hansard, 13 August 2025, p. 36.
+58 Mr Iain Anderson, Commonwealth Ombudsman, Office of the Commonwealth Ombudsman,
+Committee Hansard, 13 August 2025, p. 37.
+32
+…in effect a system of referrals. That is going to create both advantages and
+disadvantages in context, and the onus is on the recipient of the disclosure
+to handle it in a way that sees it go to its rightful home for action. The
+question of whether an overarching authority would improve that
+coordination would depend on the way the overarching authority was set
+up and the way it relates to all the existing bodies and whether there are
+arrangements in place to make sure the information travels speedily. There's
+also a possibility that the addition of another authority could create some
+confusion for stakeholders.59
+2.66 Ms Paton provided a contrasting view on the adoption of a 'no wrong doors'
+approach. She foresaw a potential source of confusion for people seeking to
+disclose wrongdoing if such an approach were adopted. She gave the example
+of a whistleblower making a disclosure related to corporate wrongdoing:
+At the moment we talk about 'no wrong door' as being a policy aim in terms
+of there being many recipients of disclosures, and ASIC is the appropriate
+recipient of disclosures in relation to corporate wrongdoing in this context.
+If there were another authority that sat beside or on top of ASIC, I can see
+there being circumstances where stakeholders might wonder what the
+nature of the engagement is between ASIC and the authority, whereas at the
+moment their queries are with ASIC directly in relation to corporate
+whistleblowing.60
+Support and protections for whistleblowers
+2.67 Inquiry participants highlighted the importance of ensuring that the WPA can
+provide robust support and protection to whistleblowers.
+2.68 For example, the Community and Public Sector Union (CPSU) highlighted the
+importance of ensuring there are robust protections for whistleblowers. It
+referred to the experience of public servants raising concerns about the robodebt
+scheme:
+As a union, we have seen situations where public servants are aware of
+wrongdoing, but their attempts are hobbled by the existing structures and a
+lack of protections, most notably with robodebt. In our submission to the
+Royal Commission into the Robodebt Scheme, we highlighted how Services
+Australia weaponised the [Australian Public Service (APS)] Code of
+Conduct to silence legitimate concerns from frontline workers that were
+raised internally. They were silenced, ignored or punished.61
+2.69 Ms Rebecca Fawcett, Deputy Secretary of the CPSU, explained that code of
+conduct investigations could be used by agencies to take reprisal action against
+employees who make PIDs. To deter that from occurring, she suggested that the
+59 Ms Deepti Paton, Acting Assistant Secretary, Corporations Branch, Department of the Treasury
+(Treasury), Committee Hansard, 13 August 2025, p. 47.
+60 Ms Paton, Treasury, Committee Hansard, 13 August 2025, p. 47.
+61 Community and Public Sector Union (CPSU), Submission 8, [p. 1].
+33
+WPA 'have the power to investigate that sort of conduct. So it would hopefully
+prevent it from happening but certainly be able to take action if it did occur'.62
+2.70 In the CPSU's view, the protections afforded to whistleblowers should extend
+to being able to safely and effectively access union support:
+Public sector workers should not be forced to decide between their own job
+security and making whistleblower disclosures. It is in the public interest for
+APS employees to be able to do both. Workers should also not have to
+choose between doing what is right and their psychological safety. Potential
+whistleblowers need to be protected when they access support and advice
+such as from their relevant union, which they cannot do right now.63
+2.71 The Australia Institute explained that whistleblower protection laws are
+currently set out in the Public Interest Disclosure Act 2013 (PID Act). In its view:
+These laws are deeply flawed. Under the PID Act, Australia has prosecuted
+whistleblowers who exposed serious alleged misconduct.
+Recommendations from the 2016 Moss review to improve the laws have
+only partially been implemented. The Albanese Government's reforms so
+far are welcome but inadequate.64
+2.72 Professor Brown stated the WPA would support existing regulatory and
+investigative agencies that operate within the PID framework. The 'no wrong
+doors' approach would mean that:
+…when those agencies receive disclosures where there are protection
+obligations that need to go with managing the people who make those
+disclosures, then basically this agency can take on the burden of helping
+ensure those protection obligations are met and helping manage and
+support the whistleblowers in a way that makes it cheaper and easier for the
+other agencies.65
+2.73 Professor Brown recognised that approach would require close cooperation and
+collaboration between agencies. In his view, the WPA would reduce some of the
+duplication related to whistleblower support functions that each agency should
+provide. He explained:
+Basically it would alleviate a lot of the responsibility. Rather than every
+agency having to provide in-depth witness support functions,
+compensation functions and protection functions for their whistleblowers,
+you would have one agency that would do that for all the other agencies.66
+62 Ms Rebecca Fawcett, Deputy Secretary, CPSU, Committee Hansard, 13 August 2025, p. 20.
+63 CPSU, Submission 8, [p. 1].
+64 The Australia Institute, Submission 10, p. 2.
+65 Professor AJ Brown, Professor of Public Policy & Law, Griffith University; and Chair, TIA,
+Committee Hansard, 13 August 2025, p. 11.
+66 Professor Brown, Griffith University and TIA, Committee Hansard, 13 August 2025, p. 11.
+34
+2.74 Mr Kieran Pender, Associate Legal Director at the HRLC, argued the Bill was
+specifically designed to complement the existing whistleblower framework:
+There are currently nine different federal whistleblowing laws. This bill sits
+on top and interacts with them. Now, in an ideal world, we would get the
+establishment of a federal whistleblower protection authority alongside
+reform to those laws, and harmonisation and consistency.67
+2.75 The CPSU's Ms Fawcett explained how the existing federal whistleblower
+framework does not currently have the means to effectively protect and support
+whistleblowers. She argued:
+Existing oversight bodies lack powers, resources and mandate to effectively
+protect whistleblowers from reprisals or to enforce agency compliance…The
+Commonwealth Ombudsman does not possess the power or obligation to
+independently investigate alleged reprisals or detrimental actions against a
+whistleblower, and it cannot take legal action or make binding orders
+against individuals or agencies to enforce those protections. It also lacks the
+necessary resources to carry out such functions.68
+2.76 Ms Skye Predavec, Anne Kantor Fellow at the Australia Institute, agreed that
+the Bill would 'fill a crucial gap in the functions of the [NACC]'.69
+2.77 Mr Pender explained that the HRLC provides legal advice and support to
+whistleblowers, including those who have approached the NACC. He explained
+that while the NACC does provide some support to whistleblowers, that is not
+its 'dedicated function'. The WPA would be able to provide the support to
+whistleblowers that is currently being provided through philanthropy.70
+2.78 Thrive Integrity reported that people who are considering making a disclosure
+of wrongdoing often 'fail to speak up due to fear of reprisal, a lack of clarity
+around how and where to speak up, or a belief that "nothing will be done"'. It
+suggested the WPA could assist these people by providing 'early advice,
+education and support'.71
+2.79 The International Bar Association Anti-Corruption Committee identified a
+series of minimum protections that should be extended to whistleblowers. They
+are:
+(i) Immunity from any civil, administrative or criminal liability when
+making a protected disclosure that satisfies the statutory definition of what
+67 Mr Kieran Pender, Associate Legal Director, HRLC, Committee Hansard, 13 August 2025, p. 12.
+68 Ms Fawcett, CPSU, Committee Hansard, 13 August 2025, pp. 17–18.
+69 Ms Skye Predavec, Anne Kantor Fellow, Australia Institute, Committee Hansard, 13 August 2025,
+p. 17.
+70 Mr Pender, HRLC, Committee Hansard, 13 August 2025, p. 16.
+71 Thrive Integrity, Submission 27, [p. 4].
+35
+is disclosable conduct (excluding conduct that constitutes perjury or false
+evidence by a whistleblower or their own wrongdoing);
+(ii) Protection from all forms of direct or indirect reprisals, including
+reprisals of a psychological nature and harm beyond a person's
+employment; and
+(iii) Anonymity from having a whistleblower's identity disclosed (to the
+extent permissible and ultimately subject to any legal process and court
+orders).72
+2.80 The AJF argued that every step in the process of making a PID should be
+protected. To illustrate that point it introduced:
+…the concept of the 'chain of disclosure' – the idea that every element of
+disclosure should be protected, from a whistleblower gathering evidence to
+seeking legal advice, to disclosing their complaint (including to a journalist),
+to – where appropriate – publishing their evidence in the media. Any
+disruption to that chain weakens the entire system.73
+2.81 Professor Peter Greste, Executive Director, AJF, further explained why it is
+critical that the whole 'chain of disclosure' is protected:
+If any part of that chain is compromised, the integrity of the entire system
+collapses. This is particularly important because the existence of a safe and
+credible system for whistleblowing that includes the media is itself a
+deterrent.74
+2.82 The International Bar Association Anti-Corruption Committee argued that
+individual whistleblowers should not have to rely on the court system to seek
+compensation, an apology or an injunction to restrain reprisals. Prospective
+whistleblowers are likely to be disincentivised when it is clear that 'no one is
+realistically looking after them or their interests'.75
+2.83 The Commonwealth Ombudsman noted that the Bill would empower the
+Commissioner to provide 'appropriate' support, legal advice, representation, or
+other 'practical support'.76 He submitted that, in his view:
+…legal advice and personalised legal advocacy and support would be best
+delivered by an entity separate to the responsible oversight body. This
+separation of functions would mitigate risks of perceived or actual conflicts
+of interest.77
+72 International Bar Association Anti-Corruption Committee, Submission 15, p. 64.
+73 AJF, Submission 35, [p. 2].
+74 Professor Peter Greste, Executive Director, AJF, Committee Hansard, 13 August 2025, p. 18.
+75 International Bar Association Anti-Corruption Committee, Submission 15, p. 64.
+76 Commonwealth Ombudsman, Submission 14, p. 3.
+77 Commonwealth Ombudsman, Submission 14, p. 5.
+36
+2.84 The AHRC also raised concerns that 'the broad range of functions proposed in
+the Bill…raises the potential for conflicts of interest to arise between the
+functions'.78
+2.85 The AHRC also queried the appropriateness of the Bill borrowing heavily from
+the NACC Act for 'its administrative structure and proposed investigatory
+powers'. The AHRC submitted:
+…that far more consideration would need to be given to whether the suite
+of very intrusive investigatory powers available to the [NACC] was
+appropriate for a whistleblower protection authority primarily focused on
+issues of reprisals and victimisation directed to whistleblowers.79
+2.86 The AHRC further identified:
+…a range of significant human rights issues that are not addressed in the
+extrinsic material for this Bill but would need to be considered before such
+investigatory powers were replicated in this new context.80
+2.87 The NSW Ombudsman outlined the protections that are available to public
+officials who make a PID in NSW. Those protections include:
+ Detrimental action offence: it is a criminal offence for persons to take
+detrimental action on the basis that a person has or may make a PID.
+ Recovery of damages: PID-makers who are the subject of unlawful
+detrimental action can seek compensation from individuals and public
+sector agencies.
+ Injunctions relating to detrimental action: PID-makers affected by
+actual or potential detrimental action can seek injunctions from the
+Supreme Court of NSW.
+ Protection from civil and criminal liability and disciplinary action:
+PID-makers do not incur civil or criminal liability for making a PID and
+are not liable to disciplinary action.81
+2.88 Mr Christopher Clayton, Senior Deputy Ombudsman, Systems Oversight and
+Review, NSW Ombudsman, discussed the oversight role of the NSW
+Ombudsman. He stated:
+At its broadest, this includes promoting a 'speak up' culture across the New
+South Wales state, local government and university sectors. While this
+involves supporting sector-wide capability, it also includes helping
+individual public officials navigate the process of making a public interest
+disclosure.82
+78 AHRC, Submission 19, p. 5.
+79 AHRC, Submission 19, p. 4.
+80 AHRC, Submission 19, pp. 4–5.
+81 NSW Ombudsman, Submission 20, [p. 2].
+82 Mr Christopher Clayton, Senior Deputy Ombudsman, Systems Oversight and Reviews, NSW
+Ombudsman, Committee Hansard, 13 August 2025, p. 34.
+37
+2.89 In fulfilling its support role, the NSW Ombudsman assists whistleblowers by:
+…talking through the PID process, providing guidance on how to make an
+effective disclosure and providing ways for people to protect themselves
+from risks from making the disclosure. However, we are evolving the type
+of support we provide. For instance, we are commencing two externally
+operated pilot programs; one providing dedicated wellbeing support and
+another providing legal advice that will supplement the work and support
+we currently provide.83
+2.90 The NSW Ombudsman's whistleblower support function officially commenced
+in November 2024 and aims:
+…to bring forward support to people that are looking to make disclosures
+in a way that better informs them about the process that they might be about
+to expect if they choose to make a disclosure. That's also available to people
+that made disclosures already and are seeking support or advice in the
+middle of the process.84
+2.91 Mr Clayton made it clear that, in NSW, individual agencies are still expected to
+support whistleblowers and the NSW Ombudsman's 'whistleblower support
+function is intended to complement, not replace' that duty.85
+Support and protections for whistleblowers provided by existing agencies
+2.92 Commonwealth agencies that are engaged in the existing whistleblower
+framework informed the committee about the support and protections they
+currently provide to whistleblowers.
+2.93 Mr Graeme Edgerton, Deputy General Counsel, AHRC, suggested the WPA
+could duplicate the investigatory functions of other Commonwealth agencies.
+For example, it could duplicate some of the oversight functions of the
+Commonwealth Ombudsman, IGIS, and the Australian Taxation Office.86
+2.94 In Mr Edgerton's view, that could result in unnecessary duplication:
+…if, for example, a referral were made to the ombudsman and the
+ombudsman were conducting an investigation into a substantial disclosure,
+the bill would allow the whistleblower protection agency oversight of the
+ombudsman's investigation of the substantive disclosure. That's where we
+think there may be too much duplication involved.87
+2.95 Dr Lorraine Finlay, Human Rights Commissioner, AHRC, added to that
+observation by suggesting there are two broad purposes to the Bill that are in
+tension and require careful consideration to ensure the right balance is struck:
+83 Mr Clayton, NSW Ombudsman, Committee Hansard, 13 August 2025, p. 34.
+84 Mr Clayton, NSW Ombudsman, Committee Hansard, 13 August 2025, p. 35.
+85 Mr Clayton, NSW Ombudsman, Committee Hansard, 13 August 2025, p. 34.
+86 Mr Graeme Edgerton, Deputy General Counsel, AHRC, Committee Hansard, 13 August 2025, p. 27.
+87 Mr Edgerton, AHRC, Committee Hansard, 13 August 2025, p. 27.
+38
+…on one hand, part of the purpose of establishing this authority is to avoid
+any gaps, but, on the other, part of the purpose is to ensure a clearer, more
+straightforward and accessible process for whistleblowers.88
+2.96 Mr Chris Savundra, Executive Director of Enforcement and Compliance at
+ASIC, explained that the Corporations Act 2001 (Corporations Act) contains two
+protections for whistleblowers:
+The first is a prohibition on whistleblower victimisation and the second is a
+breach of confidentiality in relation to the whistleblower's identity. ASIC is
+empowered to investigate and to take enforcement action in response to
+contraventions of those prohibitions. Civil remedies are also available to a
+whistleblower who has been victimised or who has had their confidentiality
+breached.89
+2.97 Mr Savundra indicated that to be protected under the provisions of the
+Corporations Act, a whistleblower must make their disclosure:
+…to ASIC, [the Australian Prudential Regulation Authority], the
+[Australian Federal Police] or a legal practitioner. Where the disclosure does
+not relate to conduct within ASIC's remit, ASIC may refer the matter to
+another Commonwealth, state or territory agency. We may also ask the
+whistleblower to raise their concerns directly with the relevant authorities.90
+2.98 Mr Greg Hackett, Senior Manager of Companies, Registered Liquidators and
+Small Business at ASIC, described the process the agency has to follow to
+support whistleblowers. He assured the committee that ASIC has:
+…information available to whistleblowers about the legal protections and
+how the regime works. We give that to them when they lodge reports with
+us. We also provide them with information and ask a series of questions,
+when they come to us, to try to get an understanding of any risk they may
+face about a potential breach of the whistleblower protections, such as
+suffering detriment or a breach of their confidentiality, to understand
+whether that aspect is relevant to them or they are just lodging an alleged
+breach of the law with us.91
+2.99 Mr Savundra stated that ASIC 'seek[s] to support whistleblowers to the extent
+that we can but there are significant limitations to the extent of that support'. He
+said:
+Whistleblowers will often want legal advice from us, and our role is not to
+provide legal advice. The other expectation gap is I think we have to be
+necessarily selective in the cases that we pursue, given the resources
+88 Dr Lorraine Finlay, Human Rights Commissioner, AHRC, Committee Hansard, 13 August 2025,
+p. 27.
+89 Mr Chris Savundra, Executive Director, Enforcement and Compliance, Australian Securities and
+Investments Commission (ASIC), Committee Hansard, 13 August 2025, p. 34.
+90 Mr Savundra, ASIC, Committee Hansard, 13 August 2025, p. 34.
+91 Mr Greg Hackett, Senior Manager, Companies, Registered Liquidators and Small Business, ASIC,
+Committee Hansard, 13 August 2025, p. 38.
+39
+available to ASIC and the breadth of our remit. We do, nevertheless, seek to
+provide limited support. On occasions, we have procured limited legal
+advice for a whistleblower. We've also recently engaged a specialist
+whistleblower liaison officer with clinical skills. Many of the whistleblowers
+we're dealing with are under enormous stress, and sometimes they are in
+distress, so engaging with them in those circumstances can be challenging.92
+2.100 The main issue that the Commonwealth Ombudsman brought to the
+committee's attention is 'that the Bill does not address how it would interact
+with [the] existing framework'.93
+2.101 The Commonwealth Ombudsman explained:
+The information and advice my Office provides to whistleblowers and
+agencies under the PID Act is varied. It includes information and advice on
+the kinds of information that can be disclosed, the mechanics of making or
+investigating a disclosure, or information on protections which may apply.
+Demand for this information and advice is increasing: my Office received
+and responded to 374 enquiries from agencies and disclosers in 2023–24,
+compared with 192 in 2022–23 and 174 in 2021–22. My Office also publishes
+information and advice for agencies disclosers online.
+The Bill would empower the Commissioner with a similar function to
+provide advice, assistance, guidance and support to any public official,
+Commonwealth agency or other person on rights, obligations and processes
+relating to the making of disclosures of wrongdoing (cl 10(1)(a)). Insofar as
+this function supports public officials to make disclosures under the PID
+Act, the Commissioner's function would overlap with mine under that Act.
+Such overlap would need to be carefully managed to mitigate risks such as
+whistleblower confusion about which body they should disclose to or seek
+advice from, the potential for the provision of inconsistent advice to
+whistleblowers or agencies, and the potential for forum shopping.94
+2.102 The Commonwealth Ombudsman, Mr Anderson, contended that there are
+'gaps' in the PID regime, particularly in relation to the protection of
+whistleblowers. In his view:
+The whistleblower protection authority, as proposed in this bill, won't
+actually address some of those issues of protections that are required for
+whistleblowers. For example, on the time from which the protections under
+the PID regime actually commence, it's my view—and we've suggested this
+publicly—that those protections should commence as soon as an internal
+disclosure is made, not as soon as it's actually accepted as a PID by an
+authorised officer. So there are things that could be reformed in the
+legislation, providing additional support for whistleblowers that is not in
+this bill.95
+92 Mr Savundra, ASIC, Committee Hansard, 13 August 2025, pp. 35–36.
+93 Commonwealth Ombudsman, Submission 14, p. 2.
+94 Commonwealth Ombudsman, Submission 14, p. 3.
+95 Mr Anderson, Commonwealth Ombudsman, Committee Hansard, 13 August 2025, p. 40.
+40
+2.103 Mr Anderson indicated that the Office of the Commonwealth Ombudsman
+would not be best placed to provide some forms of support to whistleblowers.
+He suggested those supports may be:
+…best procured or provided by a separate body. They could be funded
+through government but nonetheless provided through a community legal
+centre that has expertise in these areas, for example. That's something we
+would not do and I think would be challenging if a whistleblower protection
+authority was created.96
+2.104 Ms Susan McKeag, Assistant Secretary, Transparency Frameworks Branch at the
+Attorney-General's Department (AGD), emphasised that the Bill is unclear on
+how the WPA would interact with the functions of the Commonwealth
+Ombudsman. She reminded the committee that the:
+…government has committed to staged reform of the PID Act. In that sense,
+stage 1 is already complete. It was completed in 2023 to make immediate
+improvements to support the establishment of the NACC. Government has
+committed to a second stage of reform. Those reforms are currently under
+consideration.97
+2.105 Ms McKeag reported the stage 2 reform process is focussed on improving the
+PID Act to 'reduce complexity and improve its accessibility'. In her view, the
+existing protections do not 'necessitate a standalone whistleblower protection
+authority as currently proposed'.98
+2.106 Ms McKeag indicated that, while the AGD had received submissions that
+advocated for the establishment of a whistleblower protection authority, it also
+received 'submissions which have taken a contrary view, for example, and
+would seek to leverage existing frameworks or propose, perhaps, different
+models again'.99
+2.107 In addition to that reform, Ms McKeag informed the committee that Treasury is
+undertaking a statutory review of the Corporations Act and the Taxation
+Administration Act 1953 frameworks. In her view:
+…it would be premature, in that context, in the absence of findings from the
+Treasury review and also having regard to government's commitment to
+progress stage 2 reforms, to proceed with the bill as currently framed.100
+96 Mr Anderson, Office of the Commonwealth Ombudsman, Committee Hansard, 13 August 2025,
+p. 36.
+97 Ms Susan McKeag, Assistant Secretary, Transparency Frameworks Branch, Attorney-General's
+Department (AGD), Committee Hansard, 13 August 2025, p. 44.
+98 Ms McKeag, AGD, Committee Hansard, 13 August 2025, p. 45.
+99 Ms McKeag, AGD, Committee Hansard, 13 August 2025, p. 45.
+100 Ms McKeag, AGD, Committee Hansard, 13 August 2025, p. 44.
+41
+2.108 Ms Paton from Treasury agreed with Ms McKeag that, given the consultation
+process is ongoing, it would be 'premature' to propose the establishment of a
+whistleblower protection authority. She reported that Treasury's consultation
+process would begin by 'looking to get a full read on the issues and concerns
+that exist in the community about the current state of the law'.101
+2.109 In relation to the potential duplication of functions performed by existing
+agencies, Ms McKeag supported careful consideration of how that would work
+in practice to ensure maximum efficiency is achieved. To that end, 'there would
+need to be clear consideration given to the interactions and hand-offs between
+agencies in the system'.102
+Costs
+2.110 Some inquiry participants discussed the cost of establishing and running the
+WPA based on the costing provided by the Parliamentary Budget Office and
+outlined in Chapter 1.
+2.111 Mr Pender, HRLC, suggested the additional cost over the 2025–26 Budget
+forward estimates is not 'a high price to pay for ensuring our whistleblowing
+regimes work'. In his view, $99.5 million 'is a very small investment that will
+reap significant savings'.103
+2.112 Griffith University argued that the costs associated with the establishment of the
+WPA 'will need to be made in light of the scale of need which the agency is
+intended to fill'. That would be determined by:
+…not only the functions to be fulfilled, but the scope and number of cases it
+is expected to deal with, dependent on it also being given the resources to
+properly promote its functions.104
+2.113 In Griffith University's estimation, 'perhaps 1,507 Commonwealth employees
+each year experience serious detriment for reporting perceived corruption'.
+While Griffith University did not estimate the number of people detrimentally
+affected by whistleblowing in the private or not-for-profit sectors, it noted that
+'there is very little difference in the rates of reporting across sectors'.105
+2.114 Mr Rex Patrick, Director of the WJF, asserted that the cost of establishing and
+running the WPA 'is a relatively small amount of money in the context of the
+operations of government'. He indicated that reporting wrongdoing often saves
+government expenditure:
+101 Ms Paton, Treasury, Committee Hansard, 13 August 2025, p. 47.
+102 Ms McKeag, AGD, Committee Hansard, 13 August 2025, p. 45.
+103 Mr Pender, HRLC, Committee Hansard, 13 August 2025, p. 11.
+104 Griffith University, Submission 26, [pp. 38–39].
+105 Griffith University, Submission 26, [p. 38].
+42
+Sometimes whistleblowers don't necessarily stop activities that would
+otherwise generate money for the Commonwealth, but they also detect
+activity that would otherwise cost the Commonwealth…The cost of this is
+small, but the benefit to society is large, and indeed there can be revenue
+that can flow to the government.106
+2.115 Mr Pender gave an example of the costs associated with the robodebt scheme:
+…$1.8 billion paid out in a class action, $33 million to run a royal
+commission, not to mention the lives lost and the impact on integrity and
+public confidence in our systems. If a whistleblower protection authority
+avoids the next robodebt, then it's paid for itself for hundreds of years into
+the future.107
+2.116 The AGD submitted that the government is considering the Bill. It reported that
+the establishment of a WPA 'would raise significant legal, operational and
+resourcing issues that require careful consideration'.108
+2.117 Ms McKeag from AGD also indicated potential costs impacts overlap with
+existing functions, noting that there is a lack of clarity with respect to the
+functions of the Commonwealth Ombudsman:
+As other government representatives have identified, there is a degree of
+overlap with functions particularly. I'll speak to the public sector
+whistleblower framework with respect to the functions of the Ombudsman.
+I think it would be very important that there was clarity as to how the
+proposed Whistleblower Protection Authority would interrelate with those
+functions of the Ombudsman.109
+2.118 Ms McKeag agreed that clarity on the relationship between the WPA and the
+Ombudsman was not currently in the Bill.110
+Committee view
+2.119 The Whistleblower Protection Authority Bill 2025 would establish an
+independent statutory authority, the Whistleblower Protection Authority, and
+provide for the appointment of the Whistleblower Protection Commissioner.
+2.120 The committee received evidence from whistleblowers who have lived
+experience with the current public interest disclosure system. It is concerning
+that, for most of these people, their experience was not a positive one, with many
+left feeling traumatised, isolated and fearful.
+2.121 The committee also received evidence about a number of limitations with the
+Bill. These included the duplication with existing regulatory and oversight
+106 Mr Patrick, WJF, Committee Hansard, 13 August 2025, p. 21.
+107 Mr Pender, HRLC, Committee Hansard, 13 August 2025, p. 11.
+108 AGD, Submission 37, [p. 7].
+109 Ms McKeag, AGD, Committee Hansard, 13 August 2025, p. 44.
+110 Ms McKeag, AGD, Committee Hansard, 13 August 2025, p. 44.
+43
+bodies, concerns about perceived or actual conflicts of interest, a lack of
+protections for whistleblowers from liability, and the appropriateness of the
+body being based on the structure of the National Anti-Corruption Commission
+with far-reaching investigatory powers.
+2.122 In 2016, the independent statutory review of the Public Interest Disclosure
+Act 2013 (Moss Review) made 33 reform recommendations.
+2.123 The Attorney-General's Department confirmed that the government has already
+implemented a majority of those recommendations, with stage 2 reforms
+currently underway and well advanced.
+2.124 The committee understands that some of the remaining recommendations are
+complex and relate to structural or broader issues in the whistleblower
+framework.
+2.125 The committee is also aware that the Department of the Treasury (Treasury) is
+conducting a review into the Corporations Act 2001 and the Taxation
+Administration Act 1953. That review may also have implications for the wider
+reform of the whistleblower framework.
+2.126 In this context, the committee concludes that it would be prudent to allow the
+government to complete the stage 2 reforms currently underway in relation to
+the Public Interest Disclosure Act 2013. In so doing and in the course of the
+Treasury review, the government should consider the evidence received during
+this inquiry.
+Recommendation 1
+2.127 The committee recommends that the government consider the evidence
+received during this inquiry as part of the second stage of reforms to the
+Public Interest Disclosure Act 2013, the statutory review of the Corporations
+Act 2001, and the Taxation Administration Act 1953 frameworks.
+Recommendation 2
+2.128 The committee recommends that the Senate does not pass the Bill.
+Senator Jana Stewart
+Chair
+
+Coalition Senators' additional comments
+Purpose of Whistleblower Laws
+1.1 Public interest disclosures, commonly referred to as whistleblower laws, aim to:
+ Promote integrity within institutions;
+ Provide pathways for disclosures and appropriate responses;
+ Protect individuals making disclosures from adverse consequences; and
+ Ensure disclosures are made lawfully through established legal
+mechanisms.
+1.2 Existing whistleblower laws in Australia have come under significant criticism
+in recent years.
+Challenges in Public Sector
+1.3 The Public Interest Disclosure Act 2013 (PID Act), which governs whistleblower
+protections in the Commonwealth public sector, has been widely criticised for
+its complexity and lack of clarity. Despite amendments introduced in 2023, the
+legislation remains difficult to interpret and apply, both for legal professionals
+and public servants.
+1.4 Justice Griffiths of the Federal Court described the PID Act as containing
+‘complex interlocking substantive provisions and definitions,’ and noted that it
+is largely impenetrable even for experienced legal practitioners.1 This sentiment
+is echoed by the Commonwealth Ombudsman, who reported that the PID Act
+is still not well understood across the public sector.2
+1.5 Key challenges include:
+ Ambiguity in roles and responsibilities: There is confusion about whether
+disclosures should be managed internally within agencies, by the
+Ombudsman, or by other oversight bodies such as the Inspector-General of
+Intelligence and Security.
+ Unclear thresholds for valid disclosures: Many disclosures fail to meet the
+legislative criteria required to trigger protections under the PID Act. In the
+2023–24 financial year, nearly twice as many disclosures were rejected (444)
+as were accepted (243).
+ Resource intensity: Managing disclosures under the PID framework is time-
+consuming and resource-intensive, adding administrative burden to
+agencies.
+1 Applicant ACD13/2019 v Stefanic [2019] FCA 548 at [17].
+2 Commonwealth Ombudsman, Submission 14, p. 2.
+45
+46
+1.6 These issues suggest that the current legislative framework does not adequately
+support whistleblowers or the agencies tasked with handling disclosures. The
+complexity of the system undermines its effectiveness and accessibility,
+particularly for non-experts within the public service.
+Complexity in Private Sector Legislation
+1.7 Whistleblower protections in the private sector are marked by fragmentation
+and inconsistency. Multiple overlapping legislative regimes create confusion for
+both individuals seeking to make disclosures and the entities responsible for
+responding to them. Transparency International Australia and the Human
+Rights Law Centre have highlighted that there are currently nine different
+federal whistleblower laws in operation, contributing to a lack of clarity and
+coherence.
+1.8 Although the Treasury Laws Amendment (Enhancing Whistleblower Protections) Act
+2019 introduced improvements, the broader framework remains difficult to
+navigate. Enforcement is limited, and understanding of the laws is uneven
+across corporate entities. These challenges are compounded by the absence of a
+unified approach, which undermines the effectiveness of whistleblower
+protections and increases compliance burdens.
+1.9 Submissions from the private sector to the committee were limited, likely due
+to the Bill’s primary focus on establishing a new oversight body. However, the
+complexity and cost of compliance remain relevant considerations, especially in
+evaluating the potential impact of adding another regulatory layer.
+Implications of the Proposed Bill
+1.10 The WPA Bill proposes the establishment of a new oversight body for
+whistleblower protections. While the intent is to strengthen the framework,
+several concerns have been raised regarding its practical implications.
+1.11 The Bill introduces additional layers of bureaucracy, which may compound the
+existing complexity of Australia’s whistleblower laws. Rather than streamlining
+the system, it risks duplicating functions already performed by existing
+regulatory and oversight bodies. This could lead to confusion over jurisdiction,
+increased administrative burden, and inefficiencies in managing disclosures.
+1.12 Financial implications are also unclear. Although the explanatory memorandum
+claims the Bill will have ‘no financial impact,’ the Parliamentary Budget Office
+estimates costs approaching $100 million over the forward estimates.3 This
+discrepancy raises questions about transparency and the adequacy of the Bill’s
+cost-benefit justification.
+3 Parliamentary Budget Office, Establish an independent Whistleblower Protection Authority: 2025
+Election Commitment Cost ECR-2025-6800, [p. 1].
+47
+1.13 Concerns have also been raised about potential conflicts of interest, the lack of
+liability protections, and the appropriateness of modelling the new body on the
+structure of the National Anti-Corruption Commission. These issues suggest
+that the Bill may not adequately address the shortcomings of the current system
+and could introduce new challenges.
+Coalition Position
+1.14 Coalition Senators expressed concern that the Bill increases legislative and
+organisational complexity without sufficient justification. The majority report
+highlights issues such as duplication, conflicts of interest, and lack of liability
+protections.
+1.15 Based on the analysis, Coalition Senators concur with the recommendation that
+the Senate not pass the Bill.
+Senator Claire Chandler
+Deputy Chair
+
+Dissenting report from Senator David Shoebridge
+1.1 It is deeply disappointing to see this missed opportunity to support sensible and
+well-grounded law reform to protect whistleblowers. The response of this
+committee based on evidence should have been to support a Whistleblower
+Commission and further law reform. Instead the recommendations are weak
+and non-committal.
+1.2 Again and again this Parliament refuses to take the action needed to protect
+brave truth tellers and the inevitable result is the protection of the powerful and
+corrupt.
+1.3 The resistance by the Parliament is quite baffling when The Australia Institute
+tells us that research shows 84 per cent of Australians support establishing a
+Whistleblower Protection Authority.
+1.4 Support for this measure isn't new either. As the Whistleblower Justice Fund
+points out, even Parliamentary endorsement spans decades—from 1994 to 2024,
+multiple committees have consistently recommended a single whistleblower
+protection authority to cut through the current complexity and confusion.
+1.5 The evidence of this is in the fact that not a single whistleblower has won under
+Australia's primary federal protection laws, it's why the Human Rights Law
+Centre launched Australia's first specialist whistleblower legal service to help
+fill the gap through which too many have fallen without support.
+1.6 In 2024, David McBride was sentenced to nearly six years in prison for leaking
+documents that exposed war crimes in Afghanistan. McBride's case shows the
+huge gap between Australia's stated commitment to transparency and the harsh
+reality faced by those who risk everything to serve the public interest.
+1.7 McBride's experience is part of a worrying pattern. Research shows that almost
+half of all public interest whistleblowers in Australia suffer serious harm as a
+direct result of speaking out. These consequences go beyond individual damage,
+creating a 'chilling effect' that actively stops other potential whistleblowers from
+coming forward with important information about misconduct, corruption, or
+illegal activities.
+1.8 The current laws are broken. The Information Rights Project pointed out that the
+fragmentation of whistleblower laws, at a federal level spread across at least
+nine separate pieces of legislation, is another key reason people don't disclose.
+If you can't work out where to go, who to tell, or if you will be protected then of
+course this will often silence whistleblowers.
+1.9 You shouldn't have to risk your job, your family, your freedom and your mental
+health just for telling the truth.
+49
+50
+1.10 David McBride's imprisonment, and the prosecution of Richard Boyle, Witness
+X and Bernard Collaery, highlight exactly why we need both a Whistleblower
+Commission and broader legal reform.
+1.11 We heard from multiple witnesses that a Commission alone is not enough
+because the underpinning legal framework remains stacked against truth tellers.
+However, a Commission working within a reformed legal environment, would
+be gamechanging. It could:
+ Provide early intervention and support
+ Coordinate with relevant agencies to find alternative pathways for
+disclosures
+ Advocate publicly for protection
+ Ensure whistleblowers have access to proper legal support
+1.12 We envision the Whistleblower Commission working within a transformed
+legal landscape that includes:
+(1) Strong legal immunity for public interest disclosures including
+good faith protections that don't see protections lost for minor
+errors or mis-steps
+(2) Robust enforcement powers for the Commission to investigate
+retaliation and compel remedies
+(3) Clear, accessible pathways for making disclosures safely including
+recognising the need to protect preparatory actions
+(4) Comprehensive support services for whistleblowers throughout
+the process including for affected family members
+(5) Regular review and improvement of the protection framework
+driven by the Commission and based on evidence on scheme
+function
+1.13 The test of our commitment to protecting whistleblowers isn't just whether we
+create new institutions, but whether individuals like David McBride and
+Richard Boyle would gain protection rather than imprisonment for their
+disclosures. Achieving this requires both the institutional innovation of the
+Commission and broader reform to the substantive law.
+1.14 The proposed Whistleblower Commission represents an important step forward
+that we strongly support. However, the Commission can only be truly effective
+if it operates within a legal framework that actually protects whistleblowers
+rather than exposing them to prosecution and retaliation.
+1.15 It must be both. It's disappointing to see a Labor dominated committee failing
+to embrace reform.
+51
+1.16 Truth telling deserves better, the public deserves better and the Greens will
+continue to offer the legislative and political pathway to this government to do
+just that.
+Senator David Shoebridge
+Member
+
+Dissenting report from Senator David Pocock
+Introduction: A moral imperative and a public necessity
+1.1 The failure of the majority report to support the establishment of a
+whistleblower protection authority in any form is not the product of policy
+disagreement. It is a failure of political will.
+1.2 The case for a whistleblower protection authority has been made over and over
+again: in Senate inquires and law reform reports dating back three decades. Yet
+whistleblowers in this country continue to be punished, prosecuted, and
+abandoned after speaking out in the public interest.
+1.3 This Bill offers Parliament the opportunity to change course. To move from
+patchwork to principle. From rhetoric to reform. From betrayal to protection.
+1.4 Whistleblowers are essential to the health of our democracy. They are not
+troublemakers. They act for the public good. But the current system does not
+protect them. A statutory review of the federal public sector whistleblowing law
+found that 'the experience of whistleblowers under the [Public Interest Disclosure
+Act 2013 (PID Act)] is not a happy one'.1 A Federal Court judge, meanwhile,
+lambasted the scheme as 'technical, obtuse and intractable,' noting the
+legislation was 'largely impenetrable, not only for a lawyer, but even more so
+for an ordinary member of the public or a person employed in the
+Commonwealth bureaucracy'.2 And in some cases, such as that of Richard Boyle
+and David McBride, the system has punished rather than protected.
+1.5 The committee heard from Ms Jeannie-Marie Blake, who blew the whistle on
+Robodebt, only to lose her job, her health, and her future. She told the
+committee:
+If such a body had existed I believe that many more staff would have spoken
+out and [R]obodebt may have been stopped before it had even started. Think
+about what that might have been prevented: the trauma avoided, the
+beautiful lives not lost as a result and billions in taxpayer dollars not wasted.
+If whistleblowers had been protected and empowered, not punished, maybe
+we could have avoided [R]obodebt altogether.3
+1.6 The committee also heard from Ms Sharon Kelsey, former CEO of Logan City
+Council, who made a public interest disclosure (PID) and was subsequently
+dismissed, dragged through multiple legal proceedings, and financially ruined.
+She described the toll of speaking up:
+1 Philip Moss AM, Review of the Public Interest Disclosure Act 2013, 15 July 2016, p. 6.
+2 Applicant ACD13/2019 v Stefanic [2019] FCA 548 [17]–[18].
+3 Ms Jeannie-marie Blake, Private capacity, Committee Hansard, 13 August 2025, p. 1.
+53
+54
+My legal costs have amounted to almost $4 million…I lost the family rural
+property in Victoria…[W]hile I'm one person, I know there are many people
+who have experienced similar and traumatising experiences of blowing the
+whistle.4
+1.7 These are not isolated stories. Just in the past year, David McBride was handed
+a prison sentence for revealing credible evidence of war crimes, and just this
+week Richard Boyle was sentenced, after blowing the whistle on unconscionable
+practices at the Australian Taxation Office (ATO). These stories reveal a system
+that has failed; not only for the individuals involved, but the public who rely on
+the integrity of our institutions.
+1.8 Public trust in government is not an abstract concept. It is built on the
+assumption that when someone sees wrongdoing and speaks up, the
+wrongdoing is addressed and that person is protected. Right now, that
+assumption cannot be made.
+1.9 Australians are rightly angry at the treatment of whistleblowers. They see the
+injustice, retaliation, and silence. And they ask the obvious question: where is
+the body that protects the people who protect the public?
+1.10 This Bill answers that question.
+1.11 This dissenting report sets out why a whistleblower protection authority is not
+just a good idea, it is a democratic necessity. It makes the moral case, the public
+value case, and the policy case for establishing a national whistleblower
+protection authority. It addresses, head on, the objections raised by opponents
+of reform, including claims about cost, duplication, and institutional conflict.
+1.12 I thank the committee for taking the time to conduct this hearing, and the
+committee secretariat for their hard work in dealing with this difficult topic. I
+extend my heartfelt thanks to all submitters and witnesses, and in particular the
+many brave whistleblowers – some of whom were able to give evidence, but
+many of whom were not.
+Whistleblowing is worthy of protection
+The democratic value of whistleblowers
+1.13 Whistleblowers are not enemies of the institutions they serve, they are their last
+line of defence. In exposing wrongdoing, corruption, and abuse of power,
+whistleblowers protect the integrity of our democracy itself.
+1.14 The committee heard from multiple witnesses that whistleblowing is an act of
+public service, not private grievance. When Dennis Gentilin blew the whistle on
+transaction misreporting at NAB in 2001, his actions revealed a $326 million
+trading loss which led to regulatory investigation and remedial action.
+4 Ms Sharon Kelsey, Private capacity, Committee Hansard, 13 August 2025, pp. 2–3.
+55
+Robodebt whistleblower Jeannie-marie Blake repeatedly expressed what the $30
+million Royal Commission into the Robodebt scheme ultimately found, that it
+was 'unlawful and deeply unethical'.5 Tony Watson, who blew the whistle on
+construction and real estate company Lendlease, saving the ATO upwards of
+$112 million in revenue.6
+1.15 Yet, those who blow the whistle face a high likelihood of retaliation and a low
+likelihood of legal remedy. According to Kieran Pender, Associate Legal
+Director at the Human Rights Law Centre:
+There have been about 80 whistleblowing cases go to judgement. Only one
+whistleblower, under federal law, has ever received court ordered
+compensation. That whistleblower received $5,000.7
+1.16 This is not just a failure of legislation. It is a failure of institutional design.
+Whistleblowers are not just information sources at the disposal of regulators and
+law enforcement; Parliaments have long recognised the human dimension of
+whistleblowing and the social, financial and psychological impacts
+whistleblowers face. Without a dedicated authority to support and enforce
+whistleblower protections, the message to would-be whistleblowers is clear:
+speak up, and you're on your own.
+The missing integrity institution
+1.17 Without whistleblowers, the National Anti-Corruption Commission (NACC)
+cannot see corruption; the Australian Securities and Investments Commission
+(ASIC) cannot see corporate misconduct; the Commonwealth Ombudsman
+cannot see maladministration. Our accountability framework depends on the
+flow of information from individuals who are prepared to speak up.
+1.18 The committee heard repeated evidence that Australia's integrity system is
+currently 'blindfolded' because whistleblowers are unsupported and silenced.
+Whistleblowers are the indispensable linchpin of any integrity regime. Without
+protection, that information is never brought forward, and wrongdoing remains
+hidden.
+1.19 Unlike other areas of workplace law, where the Fair Work Ombudsman or
+human rights commissions oversee and enforce rights, whistleblowers are left
+alone and unsupported. This undermines the integrity of all other institutions
+that rely on whistleblower disclosures to function.
+5 Ms Blake, Private capacity, Committee Hansard, 13 August 2025, p. 1.
+6 Mr Rex Patrick, Director, Whistleblower Justice Fund (WJF), Committee Hansard, 13 August 2025, p.
+19.
+7 Mr Kieran Pender, Associate Legal Director, Human Rights Law Centre, Committee Hansard, 13
+August 2025, p. 15.
+56
+1.20 The Governance Institute of Australia reinforced the point, describing the
+current framework as a 'complex tapestry' that creates confusion, deters
+disclosures, and undermines confidence:
+A whistleblower should not require a nuanced knowledge of the complex
+tapestry of legal and regulatory frameworks to know to which regulator or
+law enforcement agency they should make their disclosure to qualify for
+protection.8
+1.21 This institutional gap is not theoretical. It has consequences. Without
+whistleblowers, integrity agencies are paralysed. A whistleblower protection
+authority would ensure that disclosures are made safely, investigated fairly, and
+channelled to the right institutions to act. The lesson from every inquiry into
+corruption or misconduct is the same: integrity agencies cannot act on what they
+cannot see. The Whistleblower Protection Authority (WPA) is the institution
+that makes seeing possible.
+Increased public trust and savings
+1.22 The establishment of a whistleblower protection authority is not only the right
+thing to do, it is a cost-effective integrity reform.
+1.23 A whistleblower protection authority would help implement whistleblowing
+laws by coordinating disclosures, supporting whistleblowers, investigating
+reprisals and administering a rewards scheme all of which would lead to greater
+transparency and earlier detection of wrongdoing.9
+1.24 That support is well-founded. International evidence shows that strong
+whistleblower protections can deliver enormous financial returns. For example,
+the United States (US) Securities and Exchange Commission (SEC)
+whistleblower program and equivalent American programs have returned
+billions in recovered funds, supported by dedicated units and agencies that both
+enforces protections and processes disclosures. As Transparency International
+Australia explained:
+The poor results from current regimes demonstrate that even the best legal
+protections are paper tigers without legal resources for whistleblowers to
+activate their rights, and institutional support to assist and enforce more
+effective responses.10
+1.25 The financial case for the WPA is addressed further below. Broadly, a
+whistleblower protection authority will save taxpayer money, through
+8 Governance Institute of Australia, Submission 28, p. 2.
+9 AJ Brown and Kieran Pender, Protecting Australia's Whistleblowers: The Federal Roadmap, Griffith
+University, Human Rights Law Centre and Transparency International Australia, 2022, p. 6.
+10 Transparency International Australia, Submission 21, p. 3. Note: Transparency International
+Australia quoted from AJ Brown et al., Australia's National Integrity System: The Blueprint for Action,
+Transparency International Australia and Griffith University, 2020, [p. 101].
+57
+increased regulatory enforcements, reduced downstream costs and more
+effective institutions. The financial and democratic cases are strong; the value of
+whistleblowers in bringing forward information in the public interest has been
+demonstrated time and time again.
+Answering the critics
+1.26 Opposition to a whistleblower protection authority has largely taken three
+forms: concerns about cost, duplication of existing functions, and potential
+conflicts of interest. Each of these objections were raised during the inquiry, and
+can be addressed by looking at comparable international and domestic
+examples.
+Concerns about cost are misplaced
+1.27 Some submissions and witnesses argued that the WPA would require
+substantial funding and that this should prevent its establishment. But the
+question is not whether a whistleblower protection authority would require
+funding, the question is whether we can afford not to fund it.
+1.28 In powerful evidence to the committee, Jeannie-marie Blake pointed out that
+'[i]t's hard to put a price on integrity'.11
+1.29 But even if we do attempt to put a price on integrity, the economic case remains
+overwhelming. International evidence is clear. In the United States, the SEC
+whistleblower program has led to the recovery of substantial sums of money. In
+total in 2024, the SEC collected approximately $8.2 billion in penalties and
+disgorgement from public companies and awarded $255 million to 47
+whistleblower for their assistance with matters. Since 2011, it has paid $2.2
+billion in awards to 444 whistleblowers, representing a significant return on
+public investment.12 As former Senator Rex Patrick told the committee, 'the cost
+[of a whistleblower protection authority] is minuscule compared to the benefit
+that flows from it'.13
+1.30 In his opening statement, Mr Patrick also pointed out that 'the question is not
+how much this is going to cost. It is: how much is it going to cost if we don't do
+it?'14 A well-designed whistleblower protection authority can prevent the next
+Robodebt. Further to the huge human cost of the scheme, the Robodebt tragedy
+11 Ms Blake, Private capacity, Committee Hansard, 13 August 2025, p. 2.
+12 International Bar Association Anti-Corruption Committee, Submission 15, p. 52.
+13 Mr Patrick, WJF, Committee Hansard, 13 August 2025, p. 21.
+14 Mr Patrick, WJF, Committee Hansard, 13 August 2025, p. 19.
+58
+cost Australian taxpayers more than half a billion dollars in addition to the $1.8
+billion that had to be refunded.15
+1.31 On the basis of a costing of the WPA conducted by the Parliamentary Budget
+Office on behalf of Dr Helen Haines MP, the cost of the Authority would be
+around $20 million per annum, with some additional startup costs.16 Preventing
+the next Robodebt would pay for the cost of the WPA until past 2050 alone.
+1.32 There is every reason to expect that, like the NACC and the SEC in the US, a
+whistleblower protection authority would more than pay for itself in avoided
+waste, recovered funds, and prevented harm. As recently as the week this report
+was finalised, the corporate regulator ASIC recovered $7.5 million in penalties
+and $1 million in legal costs in the first-ever settlement of an enforcement action
+for breach of whistleblower protection provisions in the Corporations Act 2001.
+Empowering a whistleblower protection authority to be a specialist regulator
+for such actions will protect whistleblowers and be highly cost-effective.17
+Duplication is overstated and unproblematic
+1.33 Some critics claim that a whistleblower protection authority would overlap with
+existing regulators, particularly the Commonwealth Ombudsman. But as the
+evidence makes clear, there is almost no meaningful institutional support for
+whistleblowers under current arrangements, so there is virtually nothing to
+duplicate.
+1.34 The Commonwealth Ombudsman told the committee that in 2023–24, its office
+responded to just 374 PID enquiries, and had only 1.5 full-time equivalent staff
+overseeing the PID Act regime.18 For an entire federal jurisdiction, that figure is
+not just insufficient, it is negligent.
+1.35 A whistleblower protection authority would not replace existing agencies. It
+would fill the clear and dangerous vacuum between them, creating a central
+body to advise, protect and enforce, with clear powers and coordination
+authority. The Commonwealth Ombudsman, the NACC and ASIC all gave
+15 Senator the Hon Katy Gallagher, Minister for Finance, Minister for Women, Minister for the Public
+Service, Minister for Government Services, 'Update on Robodebt royal commission reforms', Media
+Release, 7 November 2024.
+16 Parliamentary Budget Office, Establish an independent Whistleblower Protection Authority: 2025
+Election Commitment Cost ECR-2025-6800, [p. 1].
+17 Australian Securities and Investments Commission v TerraCom Ltd (No 3) [2025] FCA 1017.
+18 Ms Carmen Miragaya, Director, Public Interest Disclosure, Office of the Commonwealth
+Ombudsman, Committee Hansard, 13 August 2025, p. 39; Commonwealth Ombudsman, Submission
+14, p. 8.
+59
+evidence that resourcing limitations and their respective legislative regimes
+limit their ability to provide support and advice to whistleblowers.19
+1.36 In particular, Mr Iain Anderson, the Commonwealth Ombudsman, told the
+committee:
+It's absolutely the case that whistleblowers need support and protection, and
+there are some gaps in the current regime. The bill proposes a model that
+would address some of those gaps.20
+1.37 Professor AJ Brown from Griffith University highlighted the supportive role
+that a whistleblower protection authority would play in respect of these
+regulatory and investigative agencies:
+…it would alleviate a lot of the responsibility. Rather than every agency
+having to provide in-depth witness support functions, compensation
+functions and protection functions for their whistleblowers, you would have
+one agency that would do that for all the other agencies.21
+1.38 Unlike other areas of workplace law, where the Fair Work Ombudsman or
+human rights commissions oversee and enforce employment and anti-
+discrimination rights, whistleblowers are left alone and unsupported.22
+1.39 This is not duplication. It is repair. The Design Principles for a Whistleblower
+Protection Authority, published by Transparency International Australia, the
+Human Rights Law Centre and Griffith University, map the gaps in oversight
+under federal whistleblowing laws.23
+19 Mr Iain Anderson, Commonwealth Ombudsman, Office of the Commonwealth Ombudsman; Mr
+Greg Hackett, Senior Manager, Companies, Registered Liquidators and Small Business, Australian
+Securities and Investments Commission (ASIC); Mr Philip Reed, Chief Executive Officer, National
+Anti-Corruption Commission; Mr Chris Savundra, Executive Director, Enforcement and
+Compliance, ASIC, Committee Hansard, 13 August 2025, pp. 33–43.
+20 Mr Anderson, Office of the Commonwealth Ombudsman, Committee Hansard, 13 August 2025, p.
+34.
+21 Professor AJ Brown, Professor of Public Policy & Law, Griffith University; and Chair, Transparency
+International Australia, Committee Hansard, 13 August 2025, p. 11.
+22 Human Rights Law Centre, Submission 40.
+23 Transparency International Australia, Griffith University and Human Rights Law Centre, A Fair Go
+for Speaking Up: Design Principles for Australia's Federal Whistleblower Protection Authority, June 2025.
+60
+1.40 Figure 2 of the Design Principles, extracted above, shows that support and
+protections for whistleblowers, and institutional oversight of whistleblowing
+regimes are substantially or completely absent.
+61
+Potential conflicts of interest can be managed
+1.41 A small number of submissions raised concerns that the WPA could experience
+internal conflicts. For instance, if it provided advice to a whistleblower and later
+needed to investigate a related complaint.
+1.42 This is not a novel problem. Regulatory bodies such as ASIC, the Australian
+Prudential Regulation Authority (APRA) and the ATO routinely manage such
+risks through:
+(1) Separation of advisory and enforcement teams;
+(2) Outsourcing of investigations where appropriate;
+(3) Safeguards and internal protocols.
+1.43 No institution is immune to operational challenges. But the risk of internal
+conflict is far outweighed by the certainty of ongoing failure if we continue
+without reform.
+1.44 The NSW Ombudsman effectively manages potential conflicts in its various
+functions in overseeing the NSW public sector whistleblowing regime. It told
+the committee that it's advisory, investigatory and support functions are
+delineated into separate operational teams, and:
+Where it is theoretically possible for these separate functions to become
+involved in the same matter, internal protocols are in place to avoid
+conflicts. For example, in order to assist a client, the Whistleblower Support
+Team may need to seek advice for the PID Advice Team about how a
+particular statutory provision would operate in given circumstances. To
+avoid disclosing client information and/or creating a potential conflict for
+the PID Advice Team…the request for advice would be framed as a
+hypothetical.24
+1.45 A particular concern raised was in relation to the provision of legal support for
+whistleblowers. The Bill gives the proposed Whistleblower Protection
+Commissioner the function of providing or arranging for the provision of legal
+advice, representation or other practical legal support, as appropriate, to
+persons who make disclosures of wrongdoing. Paragraph 10(1)(n) of the Bill
+would empower the Commissioner to provide for in-house support of
+whistleblowers where appropriate, and establish a scheme where
+whistleblowers may seek independent legal advice, representation or support,
+funded by the Authority.
+1.46 The Human Rights Law Centre gave evidence to the committee on the scope of
+this function:
+…the inclusion of the function listed at s 10(1)(n) recognises the current gap
+in access to justice when it comes to the provision of legal advice and
+support to whistleblowers.
+24 NSW Ombudsman – answers to written questions on notice, 19 August 2025 (received 21 August
+2025).
+62
+…
+We note that under s 36(3) of the Bill, the Commissioner is required to
+consider whether providing advice or support is appropriate in all
+circumstances. This may provide an appropriate safeguard in respect of the
+risk of actual conflicts of interest.25
+1.47 Similarly, the Centre for Public Integrity told the committee a:
+…solution to this situation is that the Whistleblower Protection
+Commissioner provide support other than in the direct provision of legal
+advice or representation, including for instance arranging for the persons
+who make disclosures to access legal advice and representation from
+another party, and providing financial assistance to do so, as is
+contemplated in clause 35(4) and (5).26
+1.48 The evidence before the committee establishes that the potential for conflicts of
+interest between different functions are able to be appropriately and effectively
+managed.
+Australians want a Whistleblower Protection Authority
+1.49 Australians understand that whistleblowers protect the public interest. They
+know that when corruption, abuse or misconduct goes unreported, it is ordinary
+people who suffer, whether through failed services, wasted funds or lost trust
+in government.
+1.50 The overwhelming public support for a whistleblower protection authority
+reflects this understanding. In polling conducted by the Australia Institute in
+collaboration with the Human Rights Law Centre and the Whistleblower Justice
+Fund, 84 per cent of Australians expressed support for the creation of a
+whistleblower protection authority, with just five per cent opposed.27
+1.51 Support is broad and not partisan. Voters across party lines, from Labor to
+Liberal, from Greens to independents, want a system that protects people who
+speak out for what's right.
+1.52 This aligns with consistent public sentiment in Australia and abroad. Integrity
+institutions enjoy strong and sustained public backing when their mandates are
+clear and their operations are independent. Australians have supported anti-
+corruption bodies, whistleblower protections and freedom of information laws
+for decades.
+25 Human Rights Law Centre – answers to spoken and written questions on notice (received 22
+August 2025).
+26 Centre for Public Integrity – answers to written questions on notice, 18 August 2025 (received 19
+August 2025).
+27 The Australia Institute, Submission 10, p. 1. Note: the Australia Institute polling is available on its
+website, see: Australia Institute, Polling – Whistleblowers, 24 April 2025,
+www.australiainstitute.org.au/report/polling-whistleblowers-2/ (accessed 28 August 2025).
+63
+1.53 In a democracy, Parliament should listen when the public speaks so clearly.
+Australians want a whistleblower protection authority. They want it because
+they know, instinctively and experientially, that truth needs protection. That
+integrity needs infrastructure. And that whistleblowers need more than lip
+service; they need laws that work, and an agency that stands behind them.
+A moment of opportunity
+1.54 Presently, the Attorney-General's Department is reviewing the PID Act with a
+view to making what has been described as 'Stage 2' reforms – more
+comprehensive improvements to the public sector whistleblowing regime,
+following initial, technical changes to coincide with the establishment of the
+National Anti-Corruption Commission. This reform process has heard of
+extensive support for a whistleblower protection authority. As the department
+told the committee:
+Of the 56 submissions received in response to the public consultation paper
+on stage two of public sector whistleblowing reforms, 45 submissions
+responded to the question about establishment of an independent
+[whistleblower protection authority].28
+1.55 Separately, from 1 July 2024, the Department of the Treasury (Treasury) has
+been reviewing whistleblower protections in the private sector and the tax
+sector, as required by the relevant legislation. The problem is that these
+respective reviews are only required to consider their respective contexts. While
+the Attorney-General's Department is reviewing public sector whistleblowing,
+Treasury is reviewing private sector whistleblowing, and neither has the
+mandate to consider whether, across the entirety of federal law, the nine
+different whistleblowing regimes, a whistleblower protection authority is
+needed. There is a risk the need for a whistleblower protection authority will fall
+through this gap.
+1.56 But these two reviews also provide a critical moment of opportunity. The most
+effective model for a whistleblower protection authority would be one that is
+established alongside comprehensive law reform. It is critical that the Attorney-
+General's Department and Treasury work together to progress holistic rather
+than siloed reform, with a whole-of-economy whistleblower protection
+authority at the heart of reform.
+Conclusion
+1.57 For decades, Australia has failed its whistleblowers. We have passed laws that
+look good on paper but provide little in practice. The result is that lives have
+been ruined, corruption has been left unexposed, and public trust has been
+eroded.
+28 Attorney-General's Department – answers to questions on notice, 13 August 2025 (received 21
+August 2025).
+64
+1.58 The evidence before this committee could not be clearer. Whistleblowers are
+essential to the functioning of our democracy. They protect the public from
+waste, abuse and corruption. Yet without real institutional support, they are left
+isolated and punished for their courage.
+1.59 Establishment of a whistleblower protection authority is not a luxury. It is the
+missing piece in Australia's integrity framework. It would provide the
+infrastructure of trust: a single, independent body with the power to support
+whistleblowers, investigate reprisals, and enforce protections. It would return
+more than it costs, both in financial savings and in public confidence.
+1.60 This dissenting report has set out the moral, economic and democratic case for
+a whistleblower protection authority. It is a case Parliament has known for
+decades, but failed to act upon.
+1.61 Yesterday, Australian Taxation Office (ATO) whistleblower Richard Boyle—
+whose courageous whistleblowing led to reform to tax practices at the ATO—
+was sentenced by the District Court in Adelaide, following an eight-year saga.
+His case underscores the failings of Australia's current whistleblowing regime,
+and the very real human toll of those shortcomings. In his speech at the 2024
+Walkley Awards last year, Richard said:
+What do we need to do to re-establish faith and confidence in our public
+service, and our Commonwealth institutions? I proposed we need three vital
+qualities: fairness, trust and transparency.29
+1.62 The time for delay is over.
+1.63 If the government is serious about integrity, about accountability, and about
+restoring public trust, then it must support the establishment of a whistleblower
+protection authority.
+1.64 Anything less would be a betrayal of those who speak up, and of the Australian
+public they seek to protect.
+Recommendations
+Recommendation 1
+1.65 That the Bill be passed.
+Recommendation 2
+1.66 Should the Bill not be passed, the government establish and properly
+resource the key functions of the proposed Whistleblower Protection
+Authority in existing agencies, in particular, practical and psychological
+29 The Walkley Foundation, Whistleblower Richard Boyle: 'I didn't have a chance, did I?', 21 November
+2024, www.walkleys.com/david-boyle-speech/ (accessed 28 August 2025).
+65
+support for whistleblowers, investigation into detrimental action, and a
+scheme to arrange for the provision of legal advice to whistleblowers.
+Recommendation 3
+1.67 That the government pursue reforms to harmonise whistleblower protections
+at the federal level.
+Recommendation 4
+1.68 That the government explore the introduction of a rewards scheme for
+whistleblowers, modelled on the successful programs in the United States,
+where billions of dollars in penalties have been recovered through
+incentivised disclosures.
+Recommendation 5
+1.69 That the government pass reforms to the Public Interest Disclosure Act 2013
+as a matter of urgency, broadening the scope of protected disclosers to fill
+gaps in the context of public and private sector overlap, and improving
+accessibility of the protections for whistleblowers who suffer retaliation.
+Recommendation 6
+1.70 That the Department of the Treasury consider the need for a Whistleblower
+Protection Authority as part of the upcoming review of the Corporations Act
+2001.
+Senator David Pocock
+Participating member
+
+Appendix 1
+Submissions and additional information
+Submissions from the 47th Parliament
+1 Mr Greg Peak
+2 Mr Chris Mader
+3 Mr William Luu and Mr Warwick Senjak
+4 Australian Multicultural Action Network (AMAN)
+5 Edith Cowan University
+6 UQ Pro Bono Centre
+7 Robert Heron
+8 Community and Public Sector Union
+9 Mr Raymond Keefe
+10 The Australia Institute
+11 Ms Michele Madigan
+12 Dr Kevin Cox
+13 Associate Professor Steven Maras
+14 Commonwealth Ombudsman
+15 International Bar Association Anti-Corruption Committee
+16 Electronic Frontiers Australia Inc.
+17 Mr John Haly
+18 Ms Lyndal Peattie
+19 Australian Human Rights Commission
+20 NSW Ombudsman
+21 Transparency International Australia
+22 Clayton Utz
+23 Human Rights Watch
+24 Accountability Round Table
+25 Uniting Church in Australia Synod of Victoria and Tasmania
+26 Griffith University
+27 Thrive Integrity
+28 Governance Institute of Australia
+29 ANU Law Reform and Social Justice Research Hub
+30 Mr Jack Davenport
+31 Dr Denis Muller
+32 Mr Sebastian Marquez Musso
+33 Dr José-Miguel Bello y Villarino
+34 Ms Celeste Pater
+35 Alliance for Journalists' Freedom
+36 The Information Rights Project
+37 Attorney-General's Department
+38 Whistleblower Justice Fund
+67
+68
+39 Joint Submission from Transparency International Australia, Human Rights
+Law Centre and Griffith University
+ Attachment 1
+ Attachment 2
+ Attachment 3
+40 Human Rights Law Centre
+ Attachment 1
+41 Mrs Mona Krombholz
+42 Dr Michael Cole
+43 Kasey Craddock
+44 Ms Maggie Beven
+45 Mr John Philpott
+46 Dr Ken Wilson
+47 Mr Tom Marwick
+48 Alliance Against Political Prosecutions
+49 Ms Sharon Kelsey
+Submissions from the 48th Parliament
+1 Name Withheld
+2 Confidential
+3 Confidential
+4 Confidential
+5 Professor Adrian Barnett
+6 Confidential
+7 Confidential
+8 Confidential
+9 Confidential
+10 Confidential
+11 Name Withheld
+12 Name Withheld
+13 Name Withheld
+14 Name Withheld
+15 Name Withheld
+16 Name Withheld
+17 Name Withheld
+18 Name Withheld
+19 Name Withheld
+20 Kylie Jones
+21 Confidential
+22 Confidential
+23 Confidential
+24 Confidential
+25 Confidential
+69
+26 Confidential
+27 Confidential
+28 Confidential
+29 Confidential
+30 Media, Entertainment and Arts Alliance
+31 Confidential
+Additional Information
+1 Clarification of evidence provided at a public hearing on 13 August 2025 by
+Mr Iain Anderson, Commonwealth Ombudsman, Office of the
+Commonwealth Ombudsman
+Answer to Question on Notice
+1 Griffith University – answers to written question on notice, 19 August 2025
+(received 19 August 2025)
+2 Alliance for Journalists’ Freedom – answers to written questions on notice, 19
+August 2025 (received 19 August 2025)
+3 Centre for Public Integrity – answers to written questions on notice, 18
+August 2025 (received 19 August 2025)
+4 Griffith University – answers to written questions on notice, 19 August 2025
+(received 20 August 2025)
+5 Australia Institute – answers to written questions on notice, 18 August 2025
+(received 20 August 2025)
+6 Australian Human Rights Commission – answer to question on notice, 13
+August 2025 (received 21 August 2025)
+7 NSW Ombudsman – answers to written questions on notice, 19 August 2025
+(received 21 August 2025)
+8 Transparency International Australia – answers to written questions on
+notice, 19 August 2025 (received 21 August 2025)
+9 National Anti-Corruption Commission – answer to question on notice, 13
+August 2025 (received 21 August 2025)
+10 National Anti-Corruption Commission – answer to written question on
+notice, 19 August 2025 (received 21 August 2025)
+11 Australian Securities and Investments Commission – answer to question on
+notice, 13 August 2025 (received 21 August 2025)
+12 Community and Public Sector Union – answers to written questions on
+notice, 19 August 2025 (received 21 August 2025)
+13 Thrive Integrity – answers to questions on notice, 19 August 2025 (received 21
+August 2025).
+14 Attorney-General’s Department – answers to questions on notice, 13 August
+2025 (received 21 August 2025)
+15 Australian Securities and Investments Commission – answers to written
+questions on notice, 19 August 2025 (received 21 August 2025)
+70
+16 Clayton Utz – answers to written questions on notice, 19 August 2025
+(received 21 August 2025)
+17 Human Rights Law Centre – answers to spoken and written questions on
+notice (received 22 August 2025)
+18 Office of the Commonwealth Ombudsman – answer to written question on
+notice, 19 August 2025 (received 21 August 2025)
+19 Office of the Commonwealth Ombudsman – answers to questions on notice,
+13 August 2025 (received 21 August 2025)
+Appendix 2
+Public hearings and witnesses
+Wednesday 13 August 2025
+Committee Room 2S1
+Canberra
+Ms Sharon Kelsey, Private capacity
+Ms Jeannie-marie Blake, Private capacity
+Mr Dennis Gentilin (via videoconference), Private capacity
+Transparency International Australia (via videoconference)
+ Mr Clancy Moore, CEO
+Griffith University (via videoconference)
+ Dr A J Brown, Professor of Public Policy & Law / Chair
+ Ms Jane Olsen, PhD Candidate
+Human Rights Law Centre
+ Mr Kieran Pender, Associate Legal Director
+ Ms Madeleine Howle, Lawyer
+Community and Public Sector Union (via videoconference)
+ Ms Rebecca Fawcett, Deputy Secretary
+The Australia Institute
+ Mr William Browne, Director, Democracy & Accountability Program
+ Ms Skye Predavec, Anne Kantor Fellow
+Alliance for Journalists' Freedom (via videoconference)
+ Professor Peter Greste, Executive Director
+Whistleblower Justice Fund (via videoconference)
+ Mr Rex Patrick, Director
+Australian Human Rights Commission
+ Dr Lorraine Finlay, Human Rights Commissioner
+ Mr Graeme Edgerton, Deputy Legal Counsel
+Clayton Utz (via videoconference)
+ Ms Amanda Lyras, Partner
+71
+72
+Thrive Integrity
+ Ms Lauren Witherdin, Principal
+Commonwealth Ombudsman
+ Ms Iain Anderson, Commonwealth Ombudsman
+ Ms Carmen Miragaya, Director, Public Interest Disclosure
+NSW Ombudsman (via videoconference)
+ Mr Chris Clayton, Senior Deputy Ombudsman, Systems Oversight &
+Reviews
+ Mr Chris Banks, Manager Whistleblower Support
+National Anti-Corruption Commission
+ Mr Philip Reed, CEO
+ Ms Rebekah O'Meagher, General Manager Lead
+Australian Securities and Investments Commission (via videoconference)
+ Mr Chris Savundra, Executive Director, Enforcement and Compliance
+ Mr Greg Hackett, Senior Manager – Companies, Registered Liquidators &
+Small Business
+Attorney-General's Department
+ Ms Susan McKeag, Assistant Secretary, Transparency Frameworks Branch
+ Ms Erin Emerson, Director, Transparency Frameworks Branch
+The Treasury
+ Ms Deepti Paton, Acting Assistant Secretary – Corporations Branch
+ Mr Barton Hoyle, Director – Legal Policy Unit
+ Ms Anne Robertson, Acting Director – Whistleblowing Review Unit

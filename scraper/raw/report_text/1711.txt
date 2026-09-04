@@ -1,0 +1,686 @@
+The Senate
+Education and Employment
+Legislation Committee
+National Vocational Education and
+Training Regulator (Data Streamlining)
+Amendment Bill 2023 [Provisions]
+April 2023
+© Commonwealth of Australia 2023
+ISBN 978-1-76093-485-9 (Printed version)
+ISBN 978-1-76093-485-9 (HTML version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by Senate Printing Unit, Parliament House, Canberra
+Contents
+Members ............................................................................................................................................... v
+List of recommendations ................................................................................................................ vii
+Chapter 1—Introduction .................................................................................................................... 1
+Purpose of the bill ................................................................................................................................ 1
+Background ........................................................................................................................................... 1
+National VET data reporting ................................................................................................... 1
+Improving the collection and use of VET activity data ....................................................... 2
+Overview of the bill ............................................................................................................................. 3
+Definitions .................................................................................................................................. 3
+Delegation of powers ............................................................................................................... 3
+Granting of exemptions ........................................................................................................... 3
+Release of information ............................................................................................................. 4
+Information management ........................................................................................................ 4
+Minor consequential amendments ......................................................................................... 4
+Consideration by other parliamentary committees ........................................................................ 5
+Conduct of the committee's inquiry .................................................................................................. 5
+Chapter 2—Key issues........................................................................................................................ 7
+Overall views on the bill ..................................................................................................................... 7
+Need for better data, faster ................................................................................................................. 7
+Improved monitoring and evaluation of skills programs .............................................................. 8
+Concerns about the bill ........................................................................................................................ 9
+Release of RTO level information ........................................................................................... 9
+Parliamentary oversight and accountability ....................................................................... 11
+Potential financial and regulatory impact ........................................................................... 12
+Committee view ................................................................................................................................. 13
+Coalition Senators' additional comments .................................................................................... 15
+Appendix 1—Submissions .............................................................................................................. 19
+Appendix 2—Public Hearing .......................................................................................................... 21
+iii
+
+Members
+Chair
+Senator Tony Sheldon ALP, NSW
+Deputy Chair
+Senator Matt O'Sullivan LP, WA
+Members
+Senator Mehreen Faruqi AG, NSW
+Senator Karen Grogan ALP, SA
+Senator Fatima Payman ALP, WA
+Senator Kerrynne Liddle LP, SA
+Substitute Members
+Senator Perin Davey NP, NSW
+(For Senator O’Sullivan on 5 April 2023)
+Secretariat
+Sarah Redden, Acting Committee Secretary
+Aysha Osborne, Principal Research Officer
+Michael Perks, Senior Research Officer
+Sarah Batts, Senior Research Officer
+Aisha Bottrill, Research Officer
+James Blair, Administrative Officer
+Committee web page: www.aph.gov.au/senate_eec
+PO Box 6100 Email: eec.sen@aph.gov.au
+Parliament House Ph: 02 6277 3521
+Canberra ACT 2600
+v
+
+List of recommendations
+Recommendation 1
+2.34 The committee recommends that the Senate pass the bill.
+vii
+
+Chapter 1
+Introduction
+Purpose of the bill
+1.1 The purpose of the National Vocational Education and Training Regulator (Data
+Streamlining) Amendment Bill 2023 (bill) is to amend the National Vocational
+Education and Training Regulator Act 2011 (NVETR Act) to better support data
+collection and other related measures being implemented as part of the
+Vocational Education and Training (VET) Data Streamlining reforms.
+1.2 According to the Minister's second reading speech, these changes 'will enhance
+both the quality and relevance of VET by making timely and quality VET
+activity data available to governments, regulators, training providers, students
+and the VET sector as a whole'.1
+1.3 Several minor consequential amendments to the National Vocational Education
+and Training Regulator (Transitional Provisions) Act 2011 (NVETR Transitional
+Provisions Act) are also contained in the bill.
+Background
+1.4 The NVETR Act establishes the National VET Regulator (NVR) and a framework to
+provide nationally consistent regulation across the VET sector. As the current NVR,
+the Australian Skills Quality Authority (ASQA) is responsible for the regulation of
+approximately 90 per cent of Australia's registered training organisations (RTOs).2
+National VET data reporting
+1.5 To inform the regulation of the sector, the NVETR Act imposes an obligation on
+RTOs to report data in accordance with the National Vocational Education and
+Training Regulator (Data Provision Requirements) Instrument 2020 (DPRs).
+The DPRs sets out the requirement for providers to supply ASQA with data
+upon request, and to submit quality indicator data at least annually.3
+1.6 The National Centre for Vocational Education Research (NCVER) is responsible
+for collecting, managing, analysing, and communicating research and statistics
+about the VET sector. The data must conform to the Australian Vocational
+Education and Training Management Information Statistical Standard
+1 The Hon Brendan O'Connor MP, Minister for Skills and Training, House of Representatives Hansard,
+9 March 2023, p. 22.
+2 Australian Skills Quality Authority, Submission 1, p. 1.
+3 The National Vocational Education and Training Regulator (Data Provision Requirements)
+Instrument 2020 is made under section 187 of the NVETR Act and requires the agreement of the
+Ministerial Council (currently known as the Skills & Workforce Ministerial Council).
+1
+2
+(AVETMISS), as per the National VET Data Policy.4 The data collected is used
+by 'government policy makers, VET regulators, independent researchers,
+training providers, employers and students to help inform decisions
+surrounding their respective interests in vocational educational and training'.5
+1.7 Currently, the NVETR Act imposes limitations on the use and disclosure of
+information collected under the DPRs. According to the bill's Explanatory
+Memorandum (EM), the 'current limitations mean for example, that potential
+students may not have a ready source of information to inform their decision to
+study, or the courses they might undertake'.6
+1.8 Any changes to the DPRs, including any decision to collect new information
+from VET students or their training providers, requires the endorsement of the
+Ministerial Council, which comprises Commonwealth, State and Territory Skills
+Ministers.7 The EM states that this 'involves unnecessary administration and
+makes the data standard less responsive to the needs of individual jurisdictions'
+and limits the 'ability of jurisdictions to collect information they need to
+administer their own programs'.8
+Improving the collection and use of VET activity data
+1.9 In July 2020, the Commonwealth and state and territory governments agreed to
+the Heads of Agreement for Skills Reform, which committed to improvements
+in the VET sector, including increasing data collection and analysis to support
+regular assessment of governments' policies and performance.9
+1.10 The VET Data Streamlining program was established to improve the timeliness
+and quality of VET activity data, including introducing:
+ modern technology that enables real-time submission of VET activity data;
+ a new VET Information Standard to replace the existing AVETMISS; and
+ updated regulatory and governance settings.10
+4 The National VET Data Policy brings together requirements for collecting nationally consistent data
+about VET activity and processes. AVETMISS describes the files, fields, formats and rules that
+govern the collection of data for these statistical collections.
+5 Explanatory Memorandum, p. 3.
+6 Explanatory Memorandum, p. 3.
+7 Explanatory Memorandum, p. 14.
+8 Explanatory Memorandum, p. 14.
+9 Department of the Prime Minister and Cabinet, Heads of Agreement for Skills Reform, 17 July 2020,
+https://www.pmc.gov.au/sites/default/files/resource/download/heads-of-agreement-skills-
+reform.pdf (accessed 28 March 2023).
+10 Department of Employment and Workplace Relations, VET Data Streamlining program overview, VET
+Data Streamlining is coming... Better data, faster, https://www.dewr.gov.au/download/14548/vet-data-
+streamlining-program-overview/30149/document/pdf (accessed 28 March 2023).
+3
+1.11 According to the EM, the bill will support these reforms by ensuring that 'the
+information collected from students and training providers, and the data
+systems being built to facilitate the transfer of that data into the national [VET]
+data set, are flexible and responsive to the needs of governments and other users
+of VET data'.11
+Overview of the bill
+1.12 The bill seeks to amend a number of provisions in the NVETR Act to better
+support data collection and arrangements in relation to the use and disclosure
+of national VET data and allow skills ministers to delegate their powers to agree
+to all, or parts, of the DPRs to other individuals or bodies.
+Definitions
+1.13 For the purposes of the proposed amendments, the bill would insert definitions
+to distinguish between VET data systems used by the Department of
+Employment and Workplace Relations (DEWR) and other entities, such as state
+and territory authorities, and those operated and maintained by the
+Commonwealth.12
+Delegation of powers
+1.14 The bill would amend the NVETR Act to enable the Ministerial Council to
+delegate their powers to agree to all, or parts, of the DPRs to other individuals
+or bodies, such as senior officials of the Commonwealth and states and
+territories.13 This would allow the DPRs to be 'amended more readily and
+without Ministerial Council approval for specified circumstances that the
+Ministerial Council considers appropriate'.14
+Granting of exemptions
+1.15 The bill would explicitly incorporate the authorisation for the NVR to make an
+administrative decision to exempt an RTO from providing data that is
+prescribed by the DPRs.15 As a result, decisions made relying on this amendment
+to the NVETR Act would not be subject to merits review. 16 According to the EM,
+this would be 'consistent with the current position in relation to decisions as to
+11 Explanatory Memorandum, p. 3.
+12 Explanatory Memorandum, pp. 12–13.
+13 Explanatory Memorandum, pp. 13–14.
+14 Explanatory Memorandum, p. 14.
+15 Proposed subsection 187(1A), National Vocational Education and Training Regulator (Data
+Streamlining) Amendment Bill 2023.
+16 Explanatory Memorandum, p. 4.
+4
+whether to grant an exemption from the requirement to report data which are
+made under the National VET Data Policy'.17
+Release of information
+1.16 The bill would enable the Secretary of DEWR to release information (which
+excludes personal information, unless the personal information is the name of
+the RTO) to the public about VET training, subject only to ministerial
+agreement.18 The proposed amendments would allow the Secretary to disclose
+information for the purposes of the NVETR Act, the department or a
+Commonwealth authority, where that information has been disclosed to the
+department by NCVER in accordance with current requirements.19
+Information management
+1.17 The bill would add a provision to the NVETR Act to allow the Secretary of
+DEWR to make a determination permitting the collection, use or disclosure of
+information for the purposes of designing, building, operating, maintaining or
+testing a VET data system.20 The EM notes that this could include 'circumstances
+covering systems used by state training authorities, and RTOs, including via
+student management system providers, to collect and transfer data provided by
+RTOs to meet their obligations under the DPRs'.21
+1.18 The circumstances in which the Secretary could make such a determination in
+respect of a VET data system that is not a National VET data system would be
+limited.22 The Secretary would need to be satisfied that the circumstances
+specified 'are for the purpose of facilitating the provision of data in accordance
+with the DPRs or any equivalent requirements in a non-referring state'.23
+Minor consequential amendments
+1.19 The bill would amend the NVETR Transitional Provisions Act to provide that
+the proposed amendments to the NVETR Act would apply to the use, disclosure
+or release of information before, on or after the commencement of the bill, and
+that DPRs made before the commencement of the bill would remain in force.24
+17 Explanatory Memorandum, p. 4.
+18 Explanatory Memorandum, pp. 16–17.
+19 Explanatory Memorandum, p. 16.
+20 Explanatory Memorandum, pp. 17–18.
+21 Explanatory Memorandum, pp. 18–19.
+22 Explanatory Memorandum, p. 19.
+23 Explanatory Memorandum, p. 19.
+24 Proposed Schedule 6— Transitional provisions relating to the National Vocational Education and
+Training Regulator (Data Streamlining) Amendment Bill 2023.
+5
+Consideration by other parliamentary committees
+1.20 When examining a bill, the Senate Education and Employment Legislation
+Committee (committee) considers any relevant comments published by the
+Senate Standing Committee for the Scrutiny of Bills (Scrutiny Committee) and
+the Parliamentary Joint Committee on Human Rights (Human Rights
+Committee).
+1.21 The Scrutiny Committee considered the bill in its Scrutiny Digest 3 of 2023 and
+stated that it had no comment on the bill.25
+1.22 The Human Rights Committee did not make any comment on the bill.26
+However, the statement of compatibility with human rights concluded that the
+bill is compatible with human rights because 'it advances the right to education
+and work, while taking appropriate measures to protect the right to privacy'.27
+Conduct of the committee's inquiry
+1.23 On 23 March 2023, the Senate referred the provisions of the bill to the committee
+for inquiry and report by 14 April 2023.28
+1.24 The committee advertised the inquiry on its website and invited submissions by
+4 April 2023. The committee received eight submissions which are listed at
+Appendix 1 of this report. The public submissions are available on the
+committee's website.
+1.25 The committee held a public hearing in Canberra on 5 April 2023. A list of the
+witnesses who gave evidence at the hearing is included at Appendix 2.
+1.26 The committee thanks those individuals and organisations who contributed to
+the inquiry by preparing written submissions and giving evidence at the public
+hearing.
+25 Standing Committee for the Scrutiny of Bills, Scrutiny Digest 3 of 2023, 22 March 2023, p. 21.
+26 Parliamentary Joint Committee on Human Rights, Report 4 of 2023, 29 March 2023, p. 2.
+27 Explanatory Memorandum, p. 11.
+28 Journals of the Senate, No. 40, Thursday, 23 March 2023, p. 1177.
+
+Chapter 2
+Key issues
+Overall views on the bill
+2.1 The National Vocational Education and Training Regulator (Data Streamlining)
+Amendment Bill 2023 (bill) was broadly supported by stakeholders. The need to
+modernise the way that Vocational Education and Training (VET) activity data
+is collected and used was recognised by participants, including the Australian
+Skills Quality Authority (ASQA), Australian Education Union (AEU), and
+Master Builders Australia (MBA).1
+2.2 Indeed, Jobs and Skills Australia (JSA) argued that the proposed amendments
+would support the work of the JSA to provide advice to government on current
+and emerging skills and training needs:
+Flexible and responsive VET data collection and disclosure will assist JSA to
+provide evidence-based advice on the adequacy of the VET system in
+meeting Australia's skill needs as well as to conduct impactful analysis of
+the pathways and outcomes of VET.2
+2.3 While generally supportive of the VET Data Streamlining (VDS) program, some
+stakeholders highlighted concerns about the impact of the bill on independent
+registered training organisations (RTOs), particularly the potential
+inappropriate collection and release of RTO level data.3 These stakeholders
+called for further engagement with the independent VET sector to address these
+concerns.4
+Need for better data, faster
+2.4 Underpinning support for the bill was the need for more accurate and consistent
+provision of VET activity data, with several stakeholders pointing to the
+limitations of the current system. For example, the AEU noted that VET 'student
+activity data collection is currently published annually, which can result in a
+time lag of up to twenty months before the data is made publicly available'.5
+1 Australian Skills Quality Authority, Submission 1, p. 1; Master Builders Australia, Submission 4,
+[p. 1]; Australian Education Union, Submission 7, p. 2.
+2 Jobs and Skills Australia, Submission 6, p. 3.
+3 See, for example, Australian Chamber of Commerce and Industry, Submission 2, [pp. 1–2] and
+Independent Tertiary Education Council Australia, Submission 3, p. 3.
+4 See, for example, Australian Chamber of Commerce and Industry, Submission 2, [p. 2] and
+Independent Tertiary Education Council Australia, Submission 3, p. 3.
+5 Australian Education Union, Submission 7, p. 2.
+7
+8
+2.5 This view was echoed by the JSA, which observed that the 'current data lag
+makes it difficult to respond and provide timely and accurate advice to inform
+both government and business decisions on investments'.6 JSA went on to state:
+… the time lags make it challenging to identify current VET activity and
+which qualifications students are enrolling in. Particularly in the aftermath
+of the COVID-19 lockdowns, it would have been useful to have seen how
+RTOs and students were responding, and whether any new skills shortages
+were emerging. As it stands, total VET Activity data is still only available
+for 2021 and may not be reflective of where the market is now.7
+2.6 The National Centre for Vocational Education Research (NCVER) noted that 'the
+single biggest issue is timeliness and frequency of the data' and went on to
+explain the need to modernise the way data is collected:
+… it will absolutely help to have new technology and new data standard to
+assist that, so in every respect we think this is a good initiative and an
+appropriate one. We have been operating under our current technologies for
+about 25 years. As you would all appreciate, data moves on very quickly in
+this world, so it is a timely change to make, and we fully support it.8
+2.7 The Department of Employment and Workplace Relations (DEWR) indicated
+that the 'current legislative framework does not permit the department on behalf
+of the Secretary to release information collected in accordance with the DPRs
+Instrument'. DEWR argued that this 'information could otherwise be shared
+publicly to support regular and ongoing assessment and review of the VET
+sector and to inform a student's decision to undertake VET study'.9
+Improved monitoring and evaluation of skills programs
+2.8 Stakeholders argued that the proposed amendments would improve existing
+processes for reporting, monitoring, and evaluating skills training programs in
+the VET sector. For example, MBA indicated that improved RTO level data 'will
+assist governments to better align funding decisions with measures of quality
+that align with their policy priorities and jurisdictional needs'.10 MBA argued:
+Information on quality at the RTO level will also provide assurance to
+industry and governments paving the way for less prescriptive, more
+flexible, and more responsive training products, that are better able to meet
+current and emerging training and skills needs.11
+6 Jobs and Skills Australia, Submission 6, p. 4.
+7 Jobs and Skills Australia, Submission 6, p. 4.
+8 Mr Simon Walker, Managing Director, National Centre for Vocational Education Research, Proof
+Committee Hansard, 5 April 2023, p. 4.
+9 Department of Employment and Workplace Relations, Submission 5, p. 5.
+10 Master Builders Australia, Submission 4, [p. 1].
+11 Master Builders Australia, Submission 4, [p. 2].
+9
+2.9 Similarly, the AEU strongly supported the publishing of RTO level 'student
+activity and qualification records to government and the regulator as soon as
+milestones are achieved'. The AEU noted:
+This is particularly important given the Commonwealth's commitment to
+increasing funding to TAFE, the provision of 480,000 fee free TAFE places
+including 180,000 in 2023 (120,000 existing places made free and 60,000 new
+free places) as part of the interim one year National Skills Agreement.12
+2.10 In addition, the National Indigenous Australians Agency submitted that the
+proposed changes would 'allow for timely, accurate and consistent data
+regarding VET to inform policy and program development and management'
+and this would provide 'more flexibility to work in partnership with First
+Nations people regarding data governance and use'.13
+2.11 DEWR indicated that, overall, the bill would support greater transparency and
+responsiveness to the needs of students and providers in the VET sector.14
+Mr Matthew Hardy, First Assistant Secretary, VET Data, Loans and Compliance
+Division, told the committee:
+I think the key thing here with the whole [VDS] program is, as we mentioned
+earlier, about 'collect once and use many times'. It's about trying to reduce
+the burden on RTOs, and it's about trying to provide more information in a
+far more timely way. Of course, as we've heard, data can be up to 20 months
+out of date to actually have a full picture of what's actually going on. What
+this will allow is for information and, importantly, prospective information
+to be provided on websites for students.15
+Concerns about the bill
+2.12 While broadly welcoming the VDS program, some stakeholders expressed
+concern about potential unintended consequences of the bill, including the
+impact of some measures on independent RTOs, which support most students
+undertaking skills training.
+Release of RTO level information
+2.13 The Independent Tertiary Education Council Australia (ITECA) and the
+Australian Chamber of Commerce and Industry (ACCI) expressed concern that
+the proposed amendments could allow the release of RTO level information in
+inappropriate contexts.16
+12 Australian Education Union, Submission 7, p. 2.
+13 National Indigenous Australians Agency, Submission 8, p. 3.
+14 Department of Employment and Workplace Relations, Submission 5, pp. 3–4.
+15 Proof Committee Hansard, 5 April 2023, p. 18.
+16 Independent Tertiary Education Council Australia, Submission 3, p. 3; Australian Chamber of
+Commerce and Industry, Submission 2, [pp. 1–2].
+10
+2.14 Indeed, ITECA argued that the bill would 'empower the DEWR Secretary, and
+by extension the Department, to use data collected via the [VDS] program for
+performance reporting at an RTO level'. It claimed that this 'not only seeks to
+use activity data inappropriately for performance monitoring, it does so in a
+manner in which there are no safeguards with respect to either data integrity or
+source context'.17 ITECA argued that:
+Independent RTOs are a diverse range of small and large providers with
+different ownership structures and business models that support different
+student cohorts. Australian Government initiatives to improve data quality
+and timeliness across the sector for policy making purposes is welcome;
+however, these data need to be appropriately collected, require expert
+analysis and contextualisation often using multi-factor techniques. These
+data cannot be utilised – let alone published – outside the appropriate
+context lest improper and irrelevant conclusions are drawn.18
+2.15 The ACCI expressed similar concerns and claimed that the bill appeared to
+authorise the release of RTO-specific information, which could be perceived by
+independent RTOs as commercially sensitive.19 Likewise, ITECA argued that
+'the Parliament should consider issues associated with the publication of
+commercially sensitive data to ensure that the release of information does not
+harm the interests of those independent RTOs, their student cohorts and
+relevant employers'.20
+2.16 In response, DEWR pointed out that the measures in the bill would 'not increase
+the range of personal information that may be shared under the National
+Vocational Education and Training Regulator Act 2011 (NVETR Act)' and noted the
+'VDS program will be implemented in accordance with the Privacy Act 1988 and
+the Australian Privacy Principles to ensure that the personal information of VET
+students is appropriately protected'.21 DEWR also stated:
+Similar to the current requirements for the department to consult in relation
+to the release of other types of RTO unit record data (i.e. not information
+collected under the DPRs Instrument) under the National VET Data Policy
+2020, the department, on behalf of the Secretary, would undertake
+comprehensive consultation with the VET sector before settling on the
+information to be released.22
+17 Independent Tertiary Education Council Australia, Submission 3, p. 3. See also, Mr Troy Williams,
+Chief Executive Officer, Independent Tertiary Education Council Australia, Proof Committee
+Hansard, 5 April 2023, pp. 7–8.
+18 Independent Tertiary Education Council Australia, Submission 3, p. 5.
+19 Australian Chamber of Commerce and Industry, Submission 2, [pp. 1–2].
+20 Independent Tertiary Education Council Australia, Submission 3, p. 11.
+21 Department of Employment and Workplace Relations, Submission 5, p. 3.
+22 Department of Employment and Workplace Relations, Submission 5, p. 6.
+11
+2.17 In addition, Mr Hardy pointed out that the Ministerial Council would continue
+to remain the ultimate decision maker when determining what delegations are
+given to another person or body under the DPRs Instrument:
+They are the ones responsible, and nothing changes under the introduction
+of this bill. For instance, if the department, in this case, wanted to provide
+more information than it does right now, it would have to seek ministerial
+agreement to do that, and additionally we would have to consult. Taking on
+ITECA's particular point about performance data or anything else like that—
+which, of course, hasn't happened; we're talking about 'ifs'—what the
+department would have to do is seek agreement from ministers…23
+Parliamentary oversight and accountability
+2.18 In relation to the release of information under the VDS program, ITECA
+expressed concern that independent RTOs 'will have no recourse to prevent this
+disclosure from happening, for example, in instances that may be commercially
+sensitive or in cases relating to the delivery of programs of national
+significance'.24 ITECA suggested that '[g]iven the new scope of activities (e.g.
+publication of commercially sensitive information), that decisions made under
+the [DPRs Instrument] be subject to a merit review'.25
+2.19 However, DEWR maintained that the proposed changes would provide 'a
+strong and appropriate level of ministerial oversight which reflects the
+intergovernmental scheme under which VET activity data is collected'. DEWR
+argued that 'this change ensures that the Ministerial Council remains the
+ultimate decision maker that can determine what decisions can be agreed to by
+another person or body in relation to the DPRs Instrument'.26
+2.20 Further, DEWR observed that the amendment would 'remove any ambiguity
+about the legislative basis for ASQA to exempt an RTO from providing required
+data under the DPRs Instrument' and noted that the measure 'will not change
+the way ASQA operates in relation to decisions to grant exemptions to RTOs
+from their data provision obligations'.27
+2.21 The ACCI raised additional concerns in relation to the proposal to allow DEWR
+to make determinations permitting the collection, use or disclosure of
+information for the purposes of designing, building, operating, maintaining, or
+testing a VET data system. The ACCI argued:
+23 Proof Committee Hansard, 5 April 2023, p. 16.
+24 Independent Tertiary Education Council Australia, Submission 3, p. 11.
+25 Independent Tertiary Education Council Australia, Submission 3, p. 12.
+26 Department of Employment and Workplace Relations, Submission 5, p. 5.
+27 Department of Employment and Workplace Relations, Submission 5, p. 6. See also, Australian Skills
+Quality Authority, Submission 1, p. 1.
+12
+… the delegation of these powers may impose compliance costs on
+independent RTOs and the value of collected data, and any requirements
+associated with mandatory reporting obligations should be established
+through regulations that allow for parliamentary oversight and
+accountability of the regulatory process. This will enhance transparency and
+ensure that if the regulations are not in the public interest, they can be
+challenged and disallowed by parliament.28
+2.22 However, in its submission, DEWR indicated:
+The National VET data system contract will include appropriate measures
+relating to the handling of personal information, including standard
+comprehensive terms incorporating contractors' and the Commonwealth's
+statutory obligations in relation to privacy, information and security. This
+will ensure that personal information is handled in accordance with the
+Privacy Act 1988 and the Australian Privacy Principles.29
+Potential financial and regulatory impact
+2.23 Some stakeholders called for further consultation in relation to the potential
+regulatory and financial impacts on independent RTOs, particularly in relation
+to the broader VDS program. For example, the ACCI argued that:
+The legislation, however, lacks specific requirements on the method and
+frequency of data collection, thus making it difficult to estimate the
+associated costs. RTOs (many of which are small businesses) are likely to
+experience a financial impact. As noted in the Explanatory Memorandum,
+the additional compliance burden will come at a cost to RTOs, yet the
+Financial Impact Statement suggests no financial impact. This burden will
+ultimately be reflected in potentially higher fees for students.30
+2.24 Similarly, ITECA indicated that the 'Australian Government consider the
+financial impacts of the bill in more detail, and also in the context of the broader
+[VDS]program'.31 ITECA argued that:
+… there is no certainty for RTOs on what the new arrangements will be like
+in terms of frequency of reporting and thus cost to RTOs are impossible to
+account for. These costs are critical to account for as they can directly affect
+the bottom line for RTOs, which affects peoples' jobs.
+The direct costs to small RTOs, many of which are not-for-profit family-run
+entities, will add significant administrative burden and cost, which can be
+challenging for them to manage alongside their task of delivering quality
+training for students without corresponding cost increases to students.32
+28 Australian Chamber of Commerce and Industry, Submission 2, [p. 2].
+29 Department of Employment and Workplace Relations, Submission 5, p. 7.
+30 Australian Chamber of Commerce and Industry, Submission 2, [p. 1].
+31 Independent Tertiary Education Council Australia, Submission 3, p. 3.
+32 Independent Tertiary Education Council Australia, Submission 3, pp. 6–7.
+13
+2.25 In response to these concerns, DEWR indicated that the bill itself would have no
+financial or regulatory impact on RTOs. Mr Hardy told the committee:
+For the introduction of this bill, we've actually not changed or introduced
+the data provision requirements. It's the subordinate legislation which talks
+about what could be collected and how often that information will be
+collected. Therefore, there's no cost or regulatory impact from the
+introduction of this bill. As I mentioned, the department is undertaking an
+extensive consultation process through our external user reference group.
+This is where we're talking directly to RTOs, to the student management
+system providers—the ones that actually help with the transfer of that data.
+And, of course, we're undertaking an impact analysis.33
+2.26 Notwithstanding this, some stakeholders called for additional resourcing for the
+implementation of reforms under the VDS program. For example, the AEU
+called for additional funding beyond that provided by the TAFE Technology
+Fund for technological improvements to TAFE campuses. AEU argued that this
+would be 'required to ensure that funds proposed for general technological
+improvements to TAFE campuses through the TAFE Technology Fund are not
+diverted to the technological upgrades required by the [bill]'.34
+2.27 Similarly, Mr Simon Walker, Managing Director of NCVER, noted that extra
+resources would be required to implement the proposed changes from the
+perspective of data collection and analysis:
+…. just the sheer fact that you might be reporting more frequently,
+particularly for us because we report statistical collections. It's not just a case
+of data in and data out. We've got to make sure it's all quality assured. We've
+got to make sure it's statistically desirable and the like. If you're moving
+from an annual collection to some other frequency, then clearly you've got
+extra work to do. On the technology side, as you might be aware, that's
+currently being filled by the Commonwealth, and the intention is to pass
+that over to us once it's fully implemented.35
+Committee view
+2.28 The committee notes the broad support for the bill, particularly those
+amendments which would assist data collection and other related measures
+being implemented as part of the VET Data Streamlining (VDS) program. The
+proposed changes will help to modernise the way that TAFEs and registered
+training organisations (RTOs) manage the collection, validation, and submission
+of VET activity data.
+33 Proof Committee Hansard, 5 April 2023, pp. 18–19. See also, Department of Employment and
+Workplace Relations, Submission 5, p. 7.
+34 Australian Education Union, Submission 7, p. 3.
+35 Proof Committee Hansard, 5 April 2023, p. 6.
+14
+2.29 Most stakeholders indicated that the proposed amendments would help to
+reduce the burden on RTOs and provide information in a more timely way,
+which would assist students and authorised users alike. The bill would also help
+improve monitoring and evaluation of skills programs in the VET sector,
+particularly for organisations such as Jobs and Skills Australia, which is
+expected to play a critical role in addressing Australia's workforce skills and
+training needs.
+2.30 The committee acknowledges the concerns raised by the Australian Chamber of
+Commerce and Industry and the Independent Tertiary Education Council
+Australia, regarding the appropriate use and release of RTO-specific data.
+However, the committee believes that these concerns are misplaced and notes
+the evidence of the Department of Employment and Workplace Relations
+(DEWR) that the Ministerial Council would continue to remain the ultimate
+decision maker when determining what delegations are given to another person
+or body under the proposed changes.
+2.31 Indeed, the committee is satisfied that the measures proposed in the bill do not
+increase the range of personal information that may be shared under the
+National Vocational Education and Training Regulator Act 2011 and the current
+requirements for DEWR to consult in relation to the release of RTO level data
+by the department, would continue to involve comprehensive consultation with
+the VET sector before determining the type of information to be released.
+2.32 Further, the committee notes that DEWR is undertaking an extensive
+consultation process through its external user reference group and is conducting
+a best practice impact analysis in relation to these changes. DEWR has also
+indicated that it will continue to work with states and territories, the National
+Centre for Vocational Education Research, Australian Skills Quality Authority,
+and training providers to improve the timeliness and quality of VET activity
+data through the VDS reforms. The committee is confident that any
+implementation issues, including the costs and benefits, will be identified and
+addressed through this process.
+2.33 Overall, the committee believes the proposed changes will complement the
+Australian Government's reforms in the VET sector, including the delivery of
+180,000 Fee-Free TAFE and VET places, upgrading of infrastructure through the
+TAFE Technology Fund, and by supporting the New Energy Apprenticeships.
+Therefore, the committee recommends that the Senate pass the bill.
+Recommendation 1
+2.34 The committee recommends that the Senate pass the bill.
+Senator Tony Sheldon
+Chair
+Coalition Senators' additional comments
+1.1 The Coalition wholeheartedly supports measures that improve the efficient
+operation of government, reducing costs to taxpayers and easing the burden of
+bureaucracy. The purpose of the bill is to better support data collection and
+other related measures being implemented as part of the VET Data Streamlining
+(VDS) reforms. In principle, Coalition Senators support the purpose of the bill.
+1.2 The bill seeks to amend the National Vocational Education and Training Regulator
+Act 2011 (the Act) to 'ensure that the information being collected from students
+and training providers, and the data systems being built to facilitate the transfer
+of that data into the national [VET] data set, are flexible and responsive to the
+needs of governments and other users of VET data'.1 Coalition Senators support
+this guiding purpose of the proposed amendments.
+1.3 Coalition Senators note while consultations have been held with the National
+Centre for Vocational Education Research (NCVER), the Skills Senior Officials'
+Network, the state and territory ministers responsible for skills, and VET
+regulators, other key stakeholders such as the Independent Tertiary Education
+Council Australia (ITECA) and other members of the independent skills training
+sector were not consulted.
+1.4 These key stakeholders still hold valid concerns which this bill does not address.
+Coalition Senators urge the Government to heed these concerns to ensure a well-
+intentioned proposal does not backfire and result in the overburdening of the
+skills and training sector with additional red tape.
+1.5 It has been noted in the Explanatory Memorandum that the bill has no financial
+impact on the Commonwealth or National Vocational Education and Training
+Regulator Registered Training Organisation (NVR RTOs).2 This is contradictory
+to ITECA's submission to the committee, which states key elements of the
+proposed VDS program will result in a 'costly upgrade of [Student Management
+Systems]' for some RTOs.3
+1 National Vocational Education and Training Regulator (Data Streamlining) Amendment Bill 2023,
+Explanatory Memorandum, p. 3.
+2 National Vocational Education and Training Regulator (Data Streamlining) Amendment Bill 2023,
+Explanatory Memorandum, p. 5.
+3 Independent Tertiary Education Council Australia, Submission 3, p. 6.
+15
+16
+1.6 Coalition Senators are dismayed by the confusion and uncertainty for RTOs this
+bill will cause, including concerns around how frequently RTOs will be required
+to submit data under the program, adding a financial burden on RTOs that
+cannot be properly accounted for.4
+1.7 Data analysis is a powerful tool when used properly to evaluate and monitor
+progress and identify areas of improvement. Coalition Senators hold serious
+reservations on the too-narrow focus on training outcomes, which does not
+capture the full impact of training on students, to evaluate the performance of
+independent RTOs, which have individual missions, operate in different
+contexts, and have separate student outcomes.
+1.8 The Coalition emphatically maintains that the privacy of individuals and
+organisations is of the utmost importance. It is extremely concerning that
+limitations on data access, disclosure, and use are being scrapped in this
+proposal.
+Recommendations
+1.9 Adequate consultation would result in better outcomes not just for the sector,
+but for Australia's future as a whole. In principle, the Coalition wholly
+supports amendments that cut red tape and reduce the bureaucratic burden
+on the skills and training sector.
+• Coalition Senators urge the Albanese Labor Government to conduct a
+thorough impact assessment to identify and mitigate potential
+unintended consequences of this bill.
+• Coalition Senators urge the Albanese Labor Government to carefully
+consider the financial impacts of this bill, which until now have not been
+properly calculated due to the uncertainty these amendments cause for
+RTOs.
+• Coalition Senators call on the Albanese Labor Government to properly
+evaluate the privacy concerns around access and disclosure of information
+that this bill will force through changes in reporting requirements.
+Senator Matt O'Sullivan Senator Kerrynne Liddle
+Deputy Chair Member
+Liberal Senator for Western Australia Liberal Senator for South Australia
+4 Independent Tertiary Education Council Australia, Submission 3, p. 7.
+17
+Senator Perin Davey
+Participating Member
+Nationals Senator for New South Wales
+
+Appendix 1
+Submissions
+1 Australian Skills Quality Authority
+2 Australian Chamber of Commerce and Industry
+3 Independent Tertiary Education Council Australia
+4 Master Builders Australia
+5 The Department of Employment and Workplace Relations
+6 Jobs and Skills Australia
+7 Australian Education Union Federal Office
+8 National Indigenous Australians Agency
+19
+
+Appendix 2
+Public Hearing
+Wednesday, 5 April 2023
+Committee Room 2S1
+Australian Parliament House
+Canberra
+Australian Skills Quality Authority (via videoconference)
+ Ms Kellie Spence, Executive Director
+ Mr John Pritchard, Director, Legal Services
+National Centre for Vocational Education Research (via videoconference)
+ Mr Simon Walker, Managing Director
+Independent Tertiary Education Council Australia
+ Mr Troy Williams, Chief Executive (via videoconference)
+ Mr Felix Pirie, Deputy Chief Executive (via teleconference)
+Department of Employment and Workplace Relations
+ Mr Matthew Hardy, First Assistant Secretary, VET Data Loans and
+Compliance Division
+ Mr Allan Campbell, A/g Director, VDS Legislation Policy
+21

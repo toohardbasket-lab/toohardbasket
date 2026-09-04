@@ -129,6 +129,11 @@ def tidy(raw: str) -> str:
     raw = NOISE.sub("", raw[:MAX_CHARS * 2])
     raw = PARA_NO.sub("", raw.strip())
     raw = re.sub(r"[ \t]*\n[ \t]*", " ", raw)
+    # A Word document's second-level bullet comes out of the PDF as the letter
+    # "o" on its own, and five of them read to the stray-letter test as a
+    # broken extraction; the online-gambling report's fifth recommendation
+    # was refused for its sub-points. A lone "o" is a bullet, not a word.
+    raw = re.sub(r"(?<![\w'’-])o(?![\w'’-])", "•", raw)
     return re.sub(r"\s{2,}", " ", raw).strip(" .:;-—–•")[:MAX_CHARS]
 
 
@@ -247,8 +252,70 @@ def register_rows() -> dict[str, dict]:
     return seen
 
 
+def answered_quietly() -> dict[str, dict]:
+    """Reports answered by a response that quotes none of their recommendations.
+
+    The House's online-gambling inquiry of 2023 made 31 recommendations; the
+    government's response of May 2026 notes them as a group and sets out
+    none. A response like that gives the index nothing, so the report is
+    read instead — exactly as a report still on a register is — and every
+    recommendation is shown with the fact that the response does not address
+    it individually, and a link to the response. Pairings come from
+    link_responses_to_reports.py; the text from harvest_report_pdfs.py
+    --answered. Keyed by report id; a report answered twice is read once.
+    """
+    pairs = DATA / "response_reports.csv"
+    if not pairs.exists():
+        return {}
+    excluded = {r["id"] for r in csv.DictReader(open(DATA / "scope_exclusions.csv", encoding="utf-8-sig"))}
+    docs = {r["id"]: r for r in csv.DictReader(open(DATA / "response_documents.csv", encoding="utf-8-sig"))
+            if r["id"] not in excluded}
+    quoted = {r["source_id"] for r in csv.DictReader(open(OUT, encoding="utf-8-sig"))
+              if r.get("source") == "response"}
+    out: dict[str, dict] = {}
+    for p in csv.DictReader(open(pairs, encoding="utf-8-sig")):
+        resp = docs.get(p["response_id"])
+        if not resp or not p["report_id"] or p["response_id"] in quoted or p["report_id"] in out:
+            continue
+        out[p["report_id"]] = {
+            "committee": committee_from(resp["title"]),
+            "title": p["report_title"],
+            "report_tabled": p["report_tabled"],
+            "report_url": p["report_url"],
+            "chamber": "senate" if resp["tabled_senate"] else "house",
+            "collection": "",
+            # What became of it: the response, which does not take the
+            # recommendations one by one.
+            "response_classification": resp["classification"],
+            "response_id": resp["id"],
+            "response_url": resp["url"],
+            "response_tabled": resp["tabled_senate"] or resp["tabled_house"],
+        }
+    return out
+
+
+# The committee is named in the response's title, as the response side reads
+# it: "Australian Government response to the House of Representatives Standing
+# Committee on Social Policy and Legal Affairs report: ...".
+COMMITTEE = re.compile(
+    r"response(?:s)?\s+to\s+(?:the\s+)?(.*?)\s*(?:\breport\b|\binquiry\b|:|$)", re.I)
+
+
+def committee_from(title: str) -> str:
+    m = COMMITTEE.search(title or "")
+    if not m:
+        return ""
+    name = re.sub(r"\s+", " ", m.group(1)).strip(" ,:–—-")
+    if not re.search(r"committee|commission", name, re.I) or len(name) > 120:
+        return ""
+    return name
+
+
 def main() -> int:
     reports = register_rows()
+    answered = answered_quietly()
+    for rid, meta in answered.items():
+        reports.setdefault(rid, meta)
     existing = list(csv.DictReader(open(OUT, encoding="utf-8-sig")))
     fields = list(existing[0].keys())
 
@@ -283,7 +350,7 @@ def main() -> int:
                     (TEXT / f"{rid}.txt").read_text(encoding="utf-8", errors="replace")) else "",
                 "recommendation": f["recommendation"],
                 "government_words": "",
-                "response_classification": "awaiting a response",
+                "response_classification": meta.get("response_classification", "awaiting a response"),
                 "committee": meta.get("committee", ""),
                 "department": "",
                 "document_title": meta.get("title", ""),
@@ -291,6 +358,12 @@ def main() -> int:
                 "chamber": meta["chamber"],
                 "url": meta.get("report_url", ""),
                 "collection": meta.get("collection", ""),
+                "response_id": meta.get("response_id", ""),
+                "response_url": meta.get("response_url", ""),
+                "response_tabled": meta.get("response_tabled", ""),
+                "report_id": rid,
+                "report_url": meta.get("report_url", ""),
+                "report_title": meta.get("title", ""),
             })
     if not rows:
         print("REFUSING: no recommendations extracted from any report")
@@ -302,8 +375,10 @@ def main() -> int:
         w.writeheader(); w.writerows(merged)
     tmp.replace(OUT)
     flagged = sum(1 for r in rows if r["recommended_by"])
-    print(f"{len(rows)} recommendations from {len(reports) - empty} of {len(reports)} "
-          f"reports on the registers")
+    from_answered = sum(1 for r in rows if r["response_classification"] != "awaiting a response")
+    print(f"{len(rows)} recommendations from {len(reports) - empty} of {len(reports)} reports "
+          f"({len(reports) - len(answered)} on the registers, {len(answered)} answered without "
+          f"their recommendations being quoted — {from_answered} rows)")
     print(f"  {flagged} name a dissenting, minority or party author rather than the committee")
     print(f"  {empty} reports yielded none")
     print(f"{len(merged)} rows in {OUT}")

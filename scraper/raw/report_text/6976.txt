@@ -1,0 +1,1396 @@
+Advisory report on the Crimes and
+Other Legislation Amendment
+(Omnibus No. 1) Bill 2024
+Parliamentary Joint Committee on Intelligence and Security
+July 2024
+CANBERRA
+© Commonwealth of Australia 2024
+ISBN 978-1-76092-668-7 (Printed version)
+ISBN 978-1-76092-669-4 (HTML version)
+All material in this report is provided under a Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 Australia licence. The material may be shared, copied and redistributed provided that:
+• it is for non-commercial purposes
+• the committee named on the previous page is credited as the author
+• the committee is not represented as endorsing the use of the material
+• any changes are clearly identified
+• no additional legal or technical restrictions are applied to restrict use that complies with the
+licence.
+If the material is remixed, transformed or built upon, the modified material may not be distributed.
+Full details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Contents
+Abbreviations ..................................................................................................v
+Members.........................................................................................................vii
+Terms of reference.........................................................................................ix
+List of recommendations...............................................................................xi
+Report
+1. Introduction .................................................................................................1
+The Bill and its referral.................................................................................................1
+Conduct of the inquiry..................................................................................................1
+Report structure...........................................................................................................1
+Overview of the Bill......................................................................................................2
+2. The Committee's review .............................................................................3
+Schedule 1 – seizure of digital assets .........................................................................3
+Amendments to Crimes Act search warrant powers.......................................................4
+Amendments to POCA search warrant powers..............................................................7
+Consequential amendments to the NACC Act................................................................8
+Committee comment...........................................................................................................9
+Schedule 2 – digital currency exchanges..................................................................10
+Committee comment.........................................................................................................11
+Schedule 3 – Commonwealth penalty unit ................................................................11
+Committee comment.........................................................................................................13
+Schedule 4 – Communications Access Coordinator and Communications Security
+Coordinator................................................................................................................13
+Committee comment.........................................................................................................17
+Schedule 5 – access to telecommunications intercept by state-based oversight
+agencies ....................................................................................................................18
+Expanded information-sharing for state-based oversight bodies..................................18
+Introducing information-sharing for the Inspector of the Independent Commission
+Against Corruption (SA)................................................................................................23
+iii
+Minor amendments to specify jurisdictions...................................................................23
+Committee comment.........................................................................................................25
+Mandatory referral of amendments to section 110A, 176A, 187A and 187AA of the TIA
+Act.................................................................................................................................27
+Concluding remarks...................................................................................................31
+Appendixes
+Appendix A. List of submissions.................................................................33
+iv
+Abbreviations
+AFP Australian Federal Police
+CAC Communications Access Coordinator
+COLA Omnibus Bill Crimes and Other Legislation Amendment (Omnibus No. 1) Bill
+2024
+Crimes Act Crimes Act 1914
+CSC Communications Security Coordinator
+NACC National Anti-Corruption Commission
+NACC Act National Anti-Corruption Commission Act 2022
+POCA Proceeds of Crime Act 2002
+Telecommunications Act Telecommunications Act 1997
+TIA Act Telecommunications (Interception and Access) Act 1979
+TOLA Act Telecommunications and Other Legislation Amendment
+(Assistance and Access) Act 1979
+TSSR Telecommunications Sector Security Reforms
+v
+
+Members
+Chair
+Mr Peter Khalil MP Wills, VIC
+Deputy Chair
+Mr Andrew Wallace MP Fisher, QLD
+Members
+Senator the Hon Simon Birmingham LP, SA
+Senator Raff Ciccone ALP, VIC
+Mr Luke Gosling OAM MP Solomon, NT
+Hon Andrew Hastie MP Canning, WA
+Mr Julian Hill MP Bruce, VIC
+Ms Zoe McKenzie MP Flinders, VIC
+Senator James Paterson LP, VIC
+Senator Marielle Smith ALP, SA
+Senator Jess Walsh ALP, VIC
+Mr Josh Wilson MP Fremantle, WA
+vii
+
+Terms of reference
+The Attorney-General, the Hon Mark Dreyfus KC MP, wrote to the Parliamentary Joint
+Committee on Intelligence and Security on 15 March 2024 to refer items 153 to 158 of
+Schedule 5 to the Crimes and Other Legislation Amendment (Omnibus No. 1) Bill 2024 for
+inquiry and report, pursuant to subsection 110A(11) of the Telecommunications (Interception
+and Access) Act 1979.
+The Attorney-General wrote to the Committee again on 3 April 2024 to refer the remaining
+parts of the Bill.
+ix
+
+List of recommendations
+Recommendation 1
+2.85 The Committee recommends that the Bill be amended to provide that the
+definition of ‘prescribed investigation’ in section 5(1) of the
+Telecommunications (Interception and Access) Act 1979 include, for the
+purposes of the Parliamentary Inspector of the Corruption and Crime
+Commission of Western Australia, an investigation that the Parliamentary
+Inspector is conducting in the performance of the Parliamentary Inspector’s
+functions under the Corruption, Crime and Misconduct Act 2003 (WA).
+Recommendation 2
+2.90 The Committee recommends that, as part of the proposed electronic
+surveillance reforms or other future reforms to the Telecommunications
+(Interception and Access) Act 1979, the Government consider whether state-
+based oversight bodies should be given access to stored communications and
+telecommunications data held by the agencies within their jurisdiction, in
+addition to the access to lawfully intercepted information and interception
+warrant information conferred by the Bill.
+Recommendation 3
+2.105 The Committee recommends that, as part of future reforms, the Government
+consider amending sections 110A, 176A, 187A and 187AA of the
+Telecommunications (Interception and Access) Act 1979 to:
+• require that if a Minister makes a declaration by legislative instrument
+declaring an entity to be an ‘enforcement agency’ or a ‘criminal law
+enforcement agency’, or amending the data retention obligations placed on
+carriers and carriage service providers, the declaration must be referred to
+the Parliamentary Joint Committee on Intelligence and Security for review
+and report within the parliamentary disallowance period;
+• retain the existing provision that such declarations cease to have effect
+after 40 sitting days of either House; and
+• remove the existing requirement within each of these sections for
+amendments to the primary legislation to be referred to the Committee.
+xi
+Recommendation 4
+2.108 The Committee recommends that, subject to implementation of the
+recommendations in this report, the Crimes and Other Legislation Amendment
+(Omnibus No. 1) Bill 2024 be passed by the Parliament.
+xii
+
+
+1. Introduction
+The Bill and its referral
+1.1 The Crimes and Other Legislation Amendment (Omnibus No. 1) Bill 2024 (the Bill)
+was introduced into the House of Representatives by the Attorney-General, the Hon
+Mark Dreyfus KC MP, on 27 March 2024.
+1.2 The Bill contains five schedules which make various amendments to the Crimes Act
+1914 (Crimes Act), the Proceeds of Crime Act 2002 (POCA), the National Anti-
+Corruption Commission Act 2022 (NACC Act), the Telecommunications (Interception
+and Access) Act 1979 (TIA Act) and the Telecommunications Act 1997
+(Telecommunications Act). The Attorney-General told the Parliament that the
+amendments are intended to ‘support the proper administration of government, law
+enforcement, and oversight processes’.1
+1.3 Items 153 to 158 of Schedule 5 to the Bill make minor amendments to subsection
+110A(1) of the TIA Act. As required by subsection 110A(11) of the TIA Act, the
+Attorney-General referred these amendments to the Committee and requested a
+report ‘as soon as practicable and on a date that is not less than 15 sitting days of
+the House of Representatives after introduction of the Bill’. The Attorney-General
+separately referred the remaining elements of the Bill to the Committee for review.
+This report relates to both referrals.
+Conduct of the inquiry
+1.4 The Committee commenced its inquiry on 11 April 2024 and invited public
+submissions.
+1.5 The Committee received 7 submissions and 1 supplementary submission.
+Appendix A sets out a list of submissions received.
+Report structure
+1.6 This report consists of two chapters:
+• this introduction, which includes a brief overview of the Bill, and
+• Chapter 2, which outlines the evidence received and the Committee’s comments
+and recommendations in relation to each of the Bill’s schedules.
+1 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Hansard, 27 March 2024, p. 6.
+1
+Overview of the Bill
+1.7 The Bill consists of 5 schedules.
+1 Schedule 1 amends the Crimes Act and the POCA to expressly authorise police,
+when executing search warrants, to seize digital assets, such as cryptocurrency,
+including by accessing a person’s digital wallet and transferring its contents.
+Schedule 1 also makes consequential amendments to the NACC Act.
+2 Schedule 2 amends the POCA to extend the investigative and freezing powers
+that currently apply to financial institutions to also apply in relation to digital
+currency exchanges.
+3 Schedule 3 amends the Crimes Act to increase the value of the Commonwealth
+‘penalty unit’ from $313 to $330.
+4 Schedule 4 amends the Telecommunications Act and TIA Act to create a
+position of Communications Security Coordinator in the Department of Home
+Affairs, with responsibility for certain telecommunications security functions
+currently assigned to the Communications Access Coordinator in the Attorney-
+General’s Department.
+5 Schedule 5 amends information-sharing provisions in the TIA Act to enhance
+the ability of oversight bodies for state-based integrity agencies to access
+interception information and interception warrant information held by agencies
+within their jurisdictions.
+2
+2. The Committee's review
+2.1 This chapter reviews the Bill in more detail and outlines the evidence received and
+the Committee’s comments and recommendations in relation to each of the Bill’s five
+schedules.
+Schedule 1 – seizure of digital assets
+2.2 Schedule 1 to the Bill would amend the Crimes Act 1914 (Crimes Act) and the
+Proceeds of Crimes Act 2002 (POCA) to expressly authorise police, when executing
+search warrants, to seize digital assets, such as cryptocurrency, including by
+accessing a person’s digital wallet and transferring its contents.
+2.3 The Explanatory Memorandum notes that digital assets are being increasingly used
+to enable crime:
+Law enforcement agencies have identified an increase in criminals’ use of digital
+assets (including cryptocurrency) to facilitate their offending and as a means to
+hold and distribute the benefits derived from their offending. Investigations
+involving digital assets have been associated with a variety of crime types
+including the purchase of drugs, child exploitation material and firearms through
+dark web markets; ransomware and cyber related offences; and money
+laundering and financing of terrorist organisations.1
+2.4 The Australian Federal Police (AFP) informed the Committee that it ‘frequently
+encounters’ digital assets, including cryptocurrencies, being used to ‘hold and
+distribute the benefits of illicit activities’.2 The AFP highlighted a 2023 disruption of a
+‘large-scale Australian money laundering organisation’ (codenamed Operation
+AVARUS-MIDAS), under which the AFP ‘executed 13 warrants and charged
+10 alleged offenders, with approximately $215 million in criminal assets restrained to-
+date, including over $30 million in cryptocurrency’. The AFP added that it had
+restrained more than $41 million in cryptocurrency across the 2022–23 financial year,
+which equated to ‘approximately 11.7 per cent of all AFP restraints in this period’.3
+2.5 The Bill’s amendments are intended to ‘enhance the legal framework’ for such digital
+assets to be seized.4 The AFP submitted that Schedules 1 and 2 to the Bill would
+assist the work of its dedicated Cryptocurrencies Capability Team, as well as
+1 Crimes and Other Legislation Amendment (Omnibus No. 1) Bill 2024 (COLA Omnibus Bill), Explanatory
+Memorandum, p. 2.
+2 Australian Federal Police, Submission 7, p. [1].
+3 Australian Federal Police, Submission 7, p. [1].
+4 COLA Omnibus Bill, Explanatory Memorandum, p. 2.
+3
+assisting ‘all AFP members who may encounter digital assets and digital currencies
+in the course of their investigations and proceeds of crime litigation’.5
+Amendments to Crimes Act search warrant powers
+2.6 The Bill would amend the search warrant powers available to the AFP and state and
+territory police under section 3E of the Crimes Act. Section 3E warrants authorise
+police to search a premises or a person if the issuing officer is satisfied that there are
+reasonable grounds for suspecting that there is, or there will be within the next 72
+hours, any evidential material at the premises or in the person’s possession.6
+‘Evidential material’ is defined as ‘a thing relevant to an indictable offence or a thing
+relevant to a summary offence, including such a thing in electronic form’.7 The issuing
+officer for the warrant may be either a magistrate, or a justice of the peace or other
+employee of a State or Territory court who is authorised to issue search warrants.8
+2.7 The things currently authorised by a search warrant are listed in section 3F of the
+Crimes Act. For warrants issued in relation to premises, these include entering the
+premises, taking fingerprints and other forensic samples, searching for and seizing
+evidential material, and (if authorised under the warrant) conducting ordinary or frisk
+searches of persons at or near the premises.9 Since new computer-related search
+provisions were introduced by the Telecommunications and Other Legislation
+Amendment (Assistance and Access) Act 1979 (TOLA Act) in December 2018,10
+police are also authorised to:
+• use a computer, telecommunications facility, data storage device or other
+electronic equipment for the purpose of obtaining access to data held on a
+computer or data storage device found during the search11
+• add, copy, delete or alter other data in the computer or device, if necessary in
+order to obtain access to data held in a computer or device found during the
+search12
+• use a third party computer or communication in transit to access the relevant data
+(and, if necessary, to add, copy, delete or alter other data in that computer or
+communication) if reasonable in all the circumstances, having regard to other
+methods (if any) of obtaining access to the relevant data which are likely to be as
+effective13
+• use a computer, telecommunications facility or other electronic equipment for the
+purpose of accessing account-based data in relation to the user of a computer
+found during the search;14 to add, copy, delete or alter other data if necessary to
+5 Australian Federal Police, Submission 7, p. [2].
+6 Crimes Act 1914 (Crimes Act), ss. 3E(1)–(2).
+7 Crimes Act, s 3C (definition of ‘evidential material’).
+8 Crimes Act, s 3C (definition of ‘issuing officer’).
+9 Crimes Act, s 3F(1)
+10 Telecommunications and Other Legislation Amendment (Assistance and Access) Act 1979, sch 3.
+11 Crimes Act, s 3F(2A)(a).
+12 Crimes Act, s 3F(2A)(b).
+13 Crimes Act, s 3F(2A)(c).
+14 Crimes Act, s 3F(2B)(a).
+4
+achieve that purpose;15 and, if reasonable in all the circumstances, to use a third
+party computer or communication in transit to access the relevant account-based
+data16
+• move a computer or data storage device from the warrant premises to another
+place for examination, ‘in order to determine whether it may be seized under a
+warrant’, for up to 30 days.17
+2.8 Schedule 1 to the Bill proposes to further extend the things authorised by a search
+warrant to account for digital assets, such as cryptocurrency. Proposed new section
+3FA of the Crimes Act provides express authority for police to seize a digital asset if:
+• the executing officer or constable assisting finds one or more things that suggest
+the existence of the digital asset,
+• the officer or constable reasonably suspects the digital asset to be ‘evidential
+material’18 or ‘tainted property’19, and
+• the officer or constable reasonably suspects that seizing the digital asset is
+necessary to prevent its ‘concealment, loss or destruction or its use in committing
+an offence’.20
+2.9 Using provisions modelled on the existing computer-related search provisions
+introduced by the TOLA Act, proposed new section 3FA also provides authority for
+police to:
+• use a computer, telecommunications facility, data storage device or other
+electronic equipment for the purpose of seizing a digital asset21
+• use a computer, telecommunications facility, data storage device or other
+electronic equipment for the purpose of obtaining access to data held on a
+computer or data storage device found during the search, in order to determine
+whether the data suggests the existence of a digital asset that may be seized22
+• use a computer, telecommunications facility or other electronic equipment for the
+purpose of accessing account-based data in relation to the user of a computer
+found during the search, in order to determine whether the data suggests the
+existence of a digital asset that may be seized.23
+2.10 Similarly to the existing provisions, the proposed new powers include the authority for
+police to add, copy, delete or alter other data, if necessary, and to use a third party
+15 Crimes Act, s 3F(2B)(b).
+16 Crimes Act, s 3F(2B)(c). ‘Account-based data’ means particular data that a person can access using an
+account held with an electronic service—see 3CAA., such as
+17 Crimes Act, s 3K(2), (3A). The initial 30-day period may be extended on one or more occasions by up to a
+further 14 days, on application to an issuing authority—see s 3K(3B)–(3D).
+18 In relation to the offence to which the warrant relates, another indictable offence, or within the meaning of the
+Proceeds of Crime Act 2002 (POCA).
+19 Within the meaning of the POCA.
+20 COLA Omnibus Bill, sch 1, item 6, proposed ss. 3FA(1)–(2).
+21 COLA Omnibus Bill, sch 1, item 6, proposed s. 3FA(3).
+22 COLA Omnibus Bill, sch 1, item 6, proposed s. 3FA(4).
+23 COLA Omnibus Bill, sch 1, item 6, proposed s. 3FA(5).
+5
+computer or communication in transit, if reasonable in all the circumstances.24 Like
+the existing powers,25 the exercise of the new powers must not ‘materially interfere
+with, interrupt or obstruct’ a communication in transit or the lawful use by other
+persons of a computer unless ‘necessary’ for executing the warrant; and it must not
+cause ‘any other material loss or damage to other persons lawfully using a
+computer’.26
+2.11 ‘Seizing’ a digital asset is defined non-exhaustively to include any of the following:
+(a) transferring the digital asset from an existing digital wallet (or some other
+thing) to a digital wallet (or other thing) controlled by the Australian Federal
+Police or a police force or police service of a State or Territory;
+(b) transferring the digital asset:
+(i) from a digital wallet (or some other thing) recreated or recovered by
+the Australian Federal Police or a police force or police service of a State
+or Territory using things found in the course of the search authorised by
+the warrant; and
+(ii) to a digital wallet (or other thing) controlled by the Australian Federal
+Police or a police force or police service of a State or Territory;
+(c) transferring the digital asset in circumstances prescribed by regulations
+made for the purposes of this paragraph.27
+2.12 The Attorney-General’s Department emphasised that these amendments would not
+grant additional powers to agencies, but instead ‘ensure the existing powers
+available to law enforcement can account for the increasing prevalence of digital
+assets in law enforcement operations’.28
+2.13 The AFP added that the Schedule 1 amendments would ‘ensure provisions relating
+to the seizure of evidential material and tainted property under warrant reflect the
+complexities involved in searching for, and seizing, digital assets’,29 including by
+• providing ‘a framework that better addresses the circumstances in which law
+enforcement may come across digital assets in the course of exercising search
+warrant powers’, and
+• ‘more accurately reflecting the steps that need to be taken by law enforcement
+when seizing digital assets’.30
+24 COLA Omnibus Bill, sch 1, item 6, proposed ss 3FA(3)(b)–(c), (4)(b)–(c), 5(b)–(c).
+25 Crimes Act, s. 3F(2C).
+26 COLA Omnibus Bill, sch 1, item 6, proposed s 3FA(6).
+27 COLA Omnibus Bill, sch 1, item 6, proposed s. 3FA(8).
+28 Attorney-General’s Department, Submission 6, p. [2].
+29 Australian Federal Police, Submission 7, p. [2].
+30 Australian Federal Police, Submission 7, p. [2].
+6
+2.14 The term ‘digital asset’ is intended to capture a range of assets that ‘could hold value
+and be capable of restraint or forfeiture action under the POCA’.31 It is defined in the
+Bill as follows:
+digital asset means:
+(a) a digital representation of value or rights (including rights to property), the
+ownership of which is evidenced cryptographically and that is held and
+transferred electronically by:
+(i) a type of distributed ledger technology; or
+(ii) another distributed cryptographically verifiable data structure; or
+(b) a right or thing prescribed by the regulations;
+but does not include any right or thing that, under the regulations, is taken not to
+be a digital asset for the purposes of this Part.32
+2.15 The Explanatory Memorandum notes that the first part of the definition ‘reflects the
+definition used by the Australian Securities and Investments Commission to
+administer the Australian financial services licensing regime’, and the second part of
+the definition is ‘designed to provide the flexibility to expand and tailor the definition
+as technology and the use of digital assets in criminal offending evolves’.33 It states:
+A regulation-making power is justified in this context because digital assets are
+highly technical, ever-evolving and uncertain. The regulation-making power will
+ensure the legislation is future-proofed and able to adapt to technological
+developments and innovations.34
+2.16 The Attorney-General’s Department submitted that the definition of ‘digital asset’ is
+‘flexible enough to encompass both the terms that are currently used in the crypto-
+asset industry like coins, stablecoins and tokens, and those that may emerge as the
+technology evolves’.35
+Amendments to POCA search warrant powers
+2.17 Schedule 1 proposes similar amendments to the things authorised by POCA search
+warrants, which currently do not have express provisions authorising access to data
+held on computers.36 A POCA search warrant is issued by a magistrate on
+application by an authorised officer of the AFP, the National Anti-Corruption
+Commission (NACC), the Australian Criminal Intelligence Commission, the Australian
+Border Force, the Australian Securities and Investments Commission or the
+Australian Taxation Office.37 POCA search warrants authorise these agencies to
+31 COLA Omnibus Bill, Explanatory Memorandum, p. 15.
+32 COLA Omnibus Bill, sch 1, item 1.
+33 COLA Omnibus Bill, Explanatory Memorandum, p. 15.
+34 COLA Omnibus Bill, Explanatory Memorandum, p. 16.
+35 Attorney-General’s Department, Submission 6, p. [2].
+36 See POCA, s. 228.
+37 POCA, ss. 225(3), 338 (definitions of ‘enforcement agency’ and ‘authorised officer’); Proceeds of Crime
+Regulations 2019, cls. 6, 8.
+7
+enter premises; take fingerprints and other forensic samples; search for and seize
+‘tainted property’,38 ‘evidential material’,39 or things believed to be relevant to
+unexplained wealth proceedings; and (if authorised under the warrant) conduct an
+ordinary or frisk search of a person at or near the premises.40
+2.18 The Bill proposes to authorise officers executing POCA search warrants to:
+• seize a digital asset, if
+o the executing officer or person assisting finds one or more things that suggest
+the existence of the digital asset, and
+o the officer or person assisting reasonably suspects the digital asset to be
+tainted property or evidential material, and
+o the officer or constable reasonably suspects that seizing the digital asset is
+necessary to prevent its ‘concealment, loss or destruction or its use in
+committing an offence’,41
+• use a computer, telecommunications facility, data storage device or other
+electronic equipment for the purpose of seizing the digital asset,42 and
+• use a computer, telecommunications facility, data storage device or other
+electronic equipment for the purpose of obtaining access to data held on a
+computer or data storage device found during the search, in order to determine
+whether the data suggests the existence of a digital asset that may be seized.43
+2.19 Consistent with Crimes Act search warrants, the proposed new powers include the
+authority for officers to add, copy, delete or alter other data, if necessary; and to use
+a third party computer or communication in transit, if reasonable in all the
+circumstances.44 The same limitations on material interference and material loss or
+damage also apply.45 The terms ‘seizing’ and ‘digital asset’ are defined consistently
+with the proposed definitions in the Crimes Act, discussed above.46
+Consequential amendments to the NACC Act
+2.20 Schedule 1 also makes consequential amendments to the National Anti-Corruption
+Commission Act 2022 (NACC Act).47 Under the existing NACC Act, for the purposes
+of a corruption investigation, an authorised officer of the NACC who is not a
+constable is able to exercise the Crimes Act’s search powers,48 subject to certain
+38 Defined to include the proceeds or an instrument of an indictable offence. See POCA, s. 338 (definition of
+‘tainted property’).
+39 Defined as evidence relating to property in respect of which action has been or could be taken under the
+POCA, benefits derived from the commission of an indictable offence, or literary proceeds.
+40 POCA, s. 228(1).
+41 COLA Omnibus Bill, sch 1, item 30, proposed s. 228A(1).
+42 COLA Omnibus Bill, sch 1, item 30, proposed s. 228A(2).
+43 COLA Omnibus Bill, sch 1, item 30, proposed s. 228A(3).
+44 COLA Omnibus Bill, sch 1, item 30, proposed ss. 228A(2)(b)–(c), 3(b)–(c).
+45 COLA Omnibus Bill, sch 1, item 30, proposed s. 228A(4).
+46 COLA Omnibus Bill, sch 1, items 30 (proposed s. 228(6)), 42.
+47 COLA Omnibus Bill, sch 1, items 44–47.
+48 National Anti-Corruption Commission Act 2022 (NACC Act), s. 119.
+8
+modifications.49 The Bill makes consequential amendments to these modifications to
+reflect the proposed changes to the Crimes Act discussed above. The Explanatory
+Memorandum explains that the intent of the amendments is to
+allow the NACC to seize digital assets that afford evidential materials of:
+• the offence or corruption issue in relation to which the warrant was
+issued,
+• any indictable offence, or
+• a corruption issue being investigated by the NACC other than the one to
+which the warrant relates.50
+Committee comment
+2.21 The Committee supports the amendments proposed by Schedule 1 to the Bill. The
+Committee notes evidence from the AFP about the increasing prevalence of
+cryptocurrencies in criminal investigations. The proposed amendments do not grant
+substantive new powers to the AFP or state and territory police to address this issue,
+but rather amend the existing search powers to make explicit that they can be
+applied in relation to digital assets, including cryptocurrency, in the same way as
+physical assets. This will help the legislation keep up with technological change,
+ensuring it remains fit for purpose in the modern environment.
+2.22 The Committee did not receive any submissions opposing the proposed
+amendments.
+2.23 The Committee has previously examined the Crimes Act search warrant powers in its
+reviews of the TOLA Act in 2019 and 2021, as well as its 2020 inquiry into press
+freedom.51 In its report on the press freedom inquiry, the Committee recommended
+an expanded role for Public Interest Advocates in relation to search warrants
+concerning journalists or media organisations, and that such warrants be required to
+be issued by a judge of a superior court.52 The Committee notes that this
+49 NACC Act, pt 7, div 7, sub-div B. An ‘authorised officer’ of the NACC includes the Commissioner, a Deputy
+Commissioner or a person appointed in writing by the Commissioner for the purpose of investigation
+corruption issues. The person must be either a member of the AFP; or a staff member of the NACC who the
+Commissioner considers has suitable qualifications or experience, or who is also a member of the AFP or a
+State or Territory police force—see NACC Act, ss. 7 (definition of ‘authorised officer’), 267.
+50 COLA Omnibus Bill, Explanatory Memorandum, p. 31.
+51 PJCIS, Review of the Telecommunications and Other Legislation Amendment (Assistance and Access) Act
+2018, April 2019, pages 103–5, 107–9; Inquiry into the impact of the exercise of law enforcement and
+intelligence powers on the freedom of the press, August 2020, pages 76–78; Review of the amendments
+made by the Telecommunications and Other Legislation Amendment (Assistance and Access) Act 2018,
+December 2021, pages 57–58, 69.
+52 PJCIS, Inquiry into the impact of the exercise of law enforcement and intelligence powers on the freedom of
+the press, August 2020, pages 79–83 (Recommendation 2).
+9
+recommendation was agreed to by the Government but is yet to be implemented in
+legislation.53
+Schedule 2 – digital currency exchanges
+2.24 Schedule 2 to the Bill seeks to amend the POCA to extend the investigative and
+freezing powers that currently apply to financial institutions to also apply in relation to
+certain digital currency exchanges. The Bill achieves this by amending the existing
+POCA definition of ‘financial institution’ to include a corporation that provides a digital
+currency exchange.54 The Bill also amends the definition of ‘account’ to include:
+(ea) an account relating to *digital currency, including:
+(i) an account representing an amount of digital currency; and
+(ii) an account provided as part of a *digital currency exchange.55
+2.25 The Bill expressly provides that it is ‘immaterial’ whether the balance of the account
+is expressed as an amount of digital currency, Australian currency or any other
+currency.56
+2.26 ‘Digital currency’ and ‘digital currency exchange’ are defined by reference to existing
+definitions in the Anti-Money Laundering and Counter-Terrorism Financing Act
+2006.57
+2.27 The AFP explained that the amendments would ensure that POCA investigative
+powers—including freezing orders, monitoring orders and notices to financial
+institutions—can be used on Australian-based digital currency exchanges.58 It stated
+that this would assist the AFP’s Criminal Assets Confiscation Taskforce to
+more effectively identify digital currencies associated with criminal offending, and
+then freeze the relevant asset … to prevent the dissipation of that property (and
+prevent potential reinvestment or reuse in future criminal activity), before any
+restraint action can be taken under POCA.59
+2.28 The Attorney-General’s Department advised that the expansion of the POCA regime
+to include digital currency exchanges ‘retains existing safeguards’, including that
+• freezing orders and monitoring orders are subject to independent
+oversight, such that the relevant orders must be made by a magistrate
+53 See Australian Government response to the Parliamentary Joint Committee on Intelligence and Security
+report: Inquiry into the impact of the exercise of law enforcement and intelligence powers on the freedom of
+the press, October 2020, pages [3]–[4].
+54 COLA Omnibus Bill, sch 2, item 13.
+55 COLA Omnibus Bill, sch 2, item 10.
+56 COLA Omnibus Bill, sch 2, item 11.
+57 COLA Omnibus Bill, sch 2, item 12.
+58 Australian Federal Police, Submission 7, p. [2].
+59 Australian Federal Police, Submission 7, p. [2].
+10
+after considering whether the legislative requirements for making the
+order have been met
+• the orders only operate for a set period of time and need to be reviewed
+by a magistrate if they are to be extended, and
+• a magistrate would have the power to vary a freezing order to enable a
+financial institution to allow a withdrawal from the account to meet the
+reasonable living expenses of the person, dependents of the person,
+business expenses of the person, or a specified debt incurred in good
+faith by the person.60
+Committee comment
+2.29 The Committee supports the amendments proposed by Schedule 2 to the Bill, which
+will ensure that POCA freezing orders and monitoring orders can be applied in
+relation to Australian-based cryptocurrency exchanges in the same way as to
+traditional financial institutions. Similarly to the Schedule 1 amendments, this will help
+ensure laws governing the investigation and seizure of proceeds of crime remain fit
+for purpose in the modern technological environment.
+2.30 No concerns about these amendments were raised in submissions to the
+Committee’s review.
+Schedule 3 – Commonwealth penalty unit
+2.31 Schedule 3 to the Bill would amend section 4AA of the Crimes Act to increase the
+value of a Commonwealth penalty unit to $330,61 with a commencement date of 1
+July 2024.62
+2.32 Penalty units are used to describe the monetary penalties for all criminal offences
+across Commonwealth legislation and territory ordinances, including serious
+Commonwealth criminal offences such as importation of drugs, people smuggling,
+theft or destruction of Commonwealth property, and social security fraud.63
+Adjustments to the value of a penalty unit allows for the maximum monetary penalty
+for all offences to be adjusted with a single amendment.64 The Bill’s Explanatory
+Memorandum states that:
+Maintaining the value of the penalty unit over time ensures that financial penalties
+for Commonwealth offences reflect community expectations and continue to
+remain effective in deterring unlawful behaviour.65
+60 Attorney-General’s Department, Submission 6, p. [3].
+61 COLA Omnibus Bill, sch 3, item 1.
+62 COLA Omnibus Bill, cl 2.
+63 COLA Omnibus Bill, Explanatory Memorandum, p. 3.
+64 COLA Omnibus Bill, Explanatory Memorandum, p. 3.
+65 COLA Omnibus Bill, Explanatory Memorandum, p. 3.
+11
+2.33 According to the Explanatory Memorandum, the current value of the penalty unit
+‘does not act as an effective deterrent for the most serious offending’.66 It states that
+increases to the value of the penalty unit since it was first instituted in 1992 represent
+an increase of 213 per cent, whereas average incomes have increased by 282 per
+cent during the same period.67
+2.34 To address this issue, the Bill proposes to increase the value of the penalty unit from
+$313 to $330.68 The Attorney-General’s Department noted:
+Increasing the value of a penalty unit does not curb the court’s existing discretion
+to impose a penalty that is appropriate with regard to all the circumstances.
+Rather, increasing the value of a penalty unit increases the maximum penalty
+that the court can impose as punishment for the most serious offending.69
+2.35 Existing subsection 4AA(3) of the Crimes Act provides that the value of a penalty unit
+is automatically indexed on 1 July every three years, in line with the increase in the
+consumer price index during the previous three years. The most recent indexation,
+which occurred on 1 July 2023, increased the value of the penalty unit from $275 to
+the current value of $313.70
+2.36 Table 2.1 shows how the value of the penalty unit has increased over time.
+Table 2.1 Value of Commonwealth penalty unit over time
+Date Value Increase (%) Legislative source
+7 Jan 1993 $100 - Crimes Legislation Amendment Act 1992
+7 Apr 1997 $110 $10 (10.0%) Crimes and Other Legislation Amendment Act 1997
+28 Dec 2012 $170 $60 (54.5%) Crimes Legislation Amendment (Serious Drugs, Identity Crime and
+Other Measures) Act 2012
+31 Jul 2015 $180 $10 (5.9%) Crimes Legislation Amendment (Penalty Unit) Act 2015
+1 Jul 2017 $210 $30 (16.7%) Crimes Amendment (Penalty Unit) Act 2017
+1 Jul 2020 $222 $12 (5.7%) Indexation pursuant to s 4AA(3) – see Notice of Indexation of the
+Penalty Unit Amount (14 May 2020)
+1 Jan 2023 $275 $53 (23.9%) Crimes Amendment (Penalty Unit) Act 2022
+1 Jul 2023 $313 $38 (13.8%) Indexation pursuant to s 4AA(3) – see Crimes (Amount of Penalty
+Unit) Instrument 2023
+*1 Jul 2024 *$330 *$17 (5.4%) Crimes and Other Legislation Amendment (Omnibus No. 1)
+Bill 2024
+66 COLA Omnibus Bill, Explanatory Memorandum, p. 3.
+67 COLA Omnibus Bill, Explanatory Memorandum, p. 3. See also Attorney-General’s Department,
+Submission 6, p. [3]–[4].
+68 COLA Omnibus Bill, sch 3, item 1
+69 Attorney-General’s Department, Submission 6, p. [4].
+70 See Crimes (Amount of Penalty Unit) Instrument 2023.
+12
+* Proposed under the Crimes and Other Legislation Amendment (Omnibus No. 1) Bill 2024
+2.37 In addition to increasing the value of a penalty unit to $330, the Bill includes an
+amendment to ensure that automatic indexation will continue to occur from the next
+scheduled date of 1 July 2026.71
+Committee comment
+2.38 The Committee supports the proposed increase in the value of the Commonwealth
+penalty unit from $313 to $330, which will apply across the full range of
+Commonwealth offences carrying monetary penalties. Maintaining the value of the
+penalty unit over time helps ensure these penalties deter criminal behaviour and
+reflect community expectations, and the Committee received no submissions
+opposing the change.
+2.39 As noted above, the Explanatory Memorandum states that the increase is intended to
+address the current value of the penalty unit not acting as an effective deterrent for
+the most serious offending.
+2.40 The Bill provides for Schedule 3 to commence on 1 July 2024. Noting this date has
+now passed, the Committee supports the Bill being amended to slightly delay the
+commencement. Having regard to the commencement dates for previous legislative
+amendments to the value of the penalty unit (as listed at Table 2.1 above), the
+Committee notes there is no pressing need for an increase to start on 1 July.72
+Schedule 4 – Communications Access Coordinator
+and Communications Security Coordinator
+2.41 Schedule 4 to the Bill consists of amendments to the Telecommunications Act 1997
+(Telecommunications Act) and the Telecommunications (Interception and Access)
+Act 1979 (TIA Act) intended to ‘clarify the functions of the Communications Access
+Coordinator (CAC) in the Attorney-General’s Department and create the position of
+Communications Security Coordinator (CSC) in the Department of Home Affairs’.73
+2.42 Currently, the CAC is defined in section 6R of the TIA Act as follows:
+(1) In this Act:
+Communications Access Co‑ordinator means:
+(a) the Secretary of the Department; or
+71 COLA Omnibus Bill, sch 3, item 2.
+72 Of the five previous legislative increases to the value of the penalty unit since it was first instituted, only one
+has commenced on 1 July. See Crimes and Other Legislation Amendment Act 1997, Crimes Legislation
+Amendment (Serious Drugs, Identity Crime and Other Measures) Act 2012, Crimes Legislation Amendment
+(Penalty Unit) Act 2015; Crimes Amendment (Penalty Unit) Act 2017; Crimes Amendment (Penalty Unit) Act
+2022.
+73 COLA Omnibus Bill, Explanatory Memorandum, p. 4.
+13
+(b) if a person or body is covered by an instrument under
+subsection (2)—that person or body.
+(2) The Minister may, by legislative instrument, specify a person or body for the
+purposes of paragraph (b) of the definition of Communications Access
+Co‑ordinator in subsection (1).
+(3) Unless the context otherwise requires, an act done by or in relation to the
+Communications Access Co‑ordinator is taken to be an act done by or in relation
+to the Co‑ordinator on behalf of all the interception agencies and all the
+enforcement agencies.
+2.43 The ‘Department’ in this case is the Attorney-General’s Department, which has had
+responsibility for administering the TIA Act since June 2022, except to the extent that
+it is administered by the Department of Home Affairs in relation to the Australian
+Security Intelligence Organisation.74 Similarly, the ‘Minister’ is now the Attorney-
+General.
+2.44 The CAC has various functions interspersed through the TIA Act, including
+• determining, by legislative instrument, procedural requirements in relation to
+authorisations for the disclosure of telecommunications data75
+• declaring that data retention obligations apply in relation to relevant services
+operated by a service provider76
+• considering and approving data retention implementation plans77
+• granting exemptions or variations to data retention obligations78
+• coordinating with carriers and interception agencies the locations of delivery
+points for lawfully intercepted communications79
+• granting exemptions to certain obligations concerning interception capabilities80
+• considering and approving interception capability plans81
+• receiving notifications from carriers and carriage service providers of certain
+proposed changes to telecommunications services or systems, and notifying
+agencies that may be interested82
+• making determinations in relation to capabilities for the delivery of lawfully
+intercepted information to agencies.83
+74 See Administrative Arrangements Orders made on 23 June and 13 October 2022.
+75 TIA Act, s. 183.
+76 TIA Act, s. 187B.
+77 TIA Act, ss. 187E–187J.
+78 TIA Act, s. 187K.
+79 TIA Act, s. 188.
+80 TIA Act, s. 192.
+81 TIA Act, ss. 196–202.
+82 TIA Act, ss. 202A–202C.
+83 TIA Act, s. 203.
+14
+2.45 The CAC also has functions under the Telecommunications Act, including
+• being consulted by the Australian Communications and Media Authority on
+applications for carrier licences84
+• exercising certain limited functions in relation to the industry assistance provisions
+in Part 15 of the Telecommunications Act85
+• exercising functions under Part 14 of the Telecommunications Act, including
+o receiving notifications from carriers and carriage service providers of
+proposed changes to their telecommunications services or systems that are
+‘likely to have a material adverse effect’ on their capacity to comply with their
+obligations to, for the purposes of security, protect telecommunications
+networks and facilities from unauthorised interference or unauthorised
+access86
+o assessing each proposed change for the risk of unauthorised interference or
+access, and notifying the relevant carrier or carriage service provider of the
+outcome of those assessments87
+o receiving and assessing security capability plans provided by carriers or
+providers, and notifying the relevant carrier or carriage service provider of the
+outcome of those assessments.88
+2.46 Part 14 of the Telecommunications Act was introduced in 2017 under the
+Telecommunications Sector Security Reforms (TSSR), which were reviewed by this
+Committee.89 The TSSR scheme is managed by the Cyber and Infrastructure
+Security Centre in the Department of Home Affairs.90
+2.47 The Department of Home Affairs described the administrative steps involved in
+sending Part 14 notifications to the Attorney-General’s Department for ‘clearance’ by
+the CAC as an ‘unnecessary increased burden for both departments’. It submitted
+that
+The imposed burden has reduced the time available for assessments conducted
+by the Department [of Home Affairs] as it demands an extended period for
+clearance procedures. Given the significant national security function served by
+the notification obligation, the unnecessary administrative complexity of current
+arrangements poses direct national security risks and imposes unnecessary
+bureaucracy on agencies.91
+84 Telecommunications Act 1997 (Telecommunications Act), ss. 53A, 56A.
+85 Telecommunications Act, ss. 317ZC–317ZE; 317ZF(6), (10)–(12A); 317ZL.
+86 Telecommunications Act, s. 314A.
+87 Telecommunications Act, s. 314B.
+88 Telecommunications Act, ss. 314C-314D.
+89 See PJCIS, Advisory report on the Telecommunications and Other Legislation Amendment Bill 2016, June
+2017.
+90 Attorney-General’s Department, Submission 6, p. [4]. See also Cyber and Infrastructure Security Centre,
+‘Telecommunications’, https://www.cisc.gov.au/information-for-your-
+industry/communications/telecommunications, accessed 30 May 2024.
+91 Department of Home Affairs, Submission 5, p. 3.
+15
+2.48 To address this issue, Schedule 4 to the Bill proposes to insert new section 7A into
+the Telecommunications Act to establish the new position of CSC within the
+Department of Home Affairs:
+(1) In this Act:
+Communications Security Coordinator means:
+(a) the Home Affairs Secretary; or
+(b) if a person or body is covered by an instrument made under subsection (2)—
+that person or body.
+(2) The Home Affairs Minister may, by legislative instrument, specify one or more
+persons or bodies, or one or more classes of persons or bodies, for the purposes
+of paragraph (b) of the definition of Communications Security Coordinator in
+subsection (1).
+(3) The Home Affairs Minister must only specify a person or class of persons in
+an instrument made under subsection (2) if the person is an [Australian Public
+Service (APS)] employee, or the class consists wholly of APS employees, in the
+Home Affairs Department.
+Instrument must specify certain functions or powers
+(4) An instrument made under subsection (2) must specify the functions or
+powers of a Communications Security Coordinatorunder this Act or any other Act
+that a person or body, or a class ofpersons or bodies, specified in the instrument
+may perform or exercise.
+9
+(5) A person or body, or a class of persons or bodies, specified in an instrument
+made under subsection (2) may only perform the functions or exercise the
+powers specified in that instrument in relation to that person or body, or class of
+persons or bodies.92
+2.49 The Bill would confer on the CSC the functions that are currently conferred on the
+CAC under Part 14 of the Telecommunications Act.93
+2.50 The Attorney-General’s Department noted that the Bill ‘does not propose any new
+functions’, but rather:
+aligns the performance of the existing functions under Part 14 with the
+responsibilities of the Attorney General’s Department and the Department of
+Home Affairs following changes to Administrative Arrangements in 2022.
+Currently the CAC (in the Attorney-General’s Department) relies entirely on
+advice from the Department of Home Affairs to perform these functions, which is
+an inefficiency this measure will address.94
+92 COLA Omnibus Bill, sch 4, item 3.
+93 COLA Omnibus Bill, sch 4, items 15–48.
+94 Attorney-General’s Department, Submission 6, p. [4].
+16
+2.51 The other functions currently conferred on the CAC remain unchanged by the Bill.
+The Bill reframes the existing CAC definition in section 6R of the TIA Act in similar
+terms to the new CSC definition (set out above). It specifies that the CAC means the
+Secretary of the Attorney-General’s Department, or a person or body covered by a
+legislative instrument made by the Attorney-General.95
+2.52 Schedule 4 also contains a series of minor amendments to replace the existing
+references to ‘Communications Access Co-ordinator’ with ‘a Communications Access
+Coordinator’.96 These amendments are intended to ‘reflect modern spelling’ and to
+‘reflect that more than one person or body, or classes of persons or bodies, may be
+specified and carry out a particular function of the Communications Access
+Coordinator’.97
+Committee comment
+2.53 The Committee supports the proposed amendments to the definition of
+Communications Access Coordinator (CAC) and the establishment of a new position
+of Communications Security Coordinator (CSC). The Committee notes that the Bill
+does not seek to create any new functions, but to transfer certain functions currently
+performed by the CAC under Part 14 of the Telecommunications Act to the CSC. The
+CAC’s other existing functions under the Telecommunications Act, and all its
+functions under the TIA Act, would remain with the CAC.
+2.54 Part 14 of the Telecommunications Act—known as the TSSR legislation—has been
+reviewed by the Committee on two previous occasions.98 At the time it was
+introduced, the Attorney-General’s Department had responsibility for administering
+the scheme and it was appropriate for the CAC to perform functions under the
+scheme. This is no longer the case under current administrative arrangements. The
+TSSR regime is administered by the Department of Home Affairs alongside its other
+critical infrastructure functions, and the CAC relies entirely on the advice of the
+Department of Home Affairs to perform their functions in relation to Part 14. The
+Committee therefore considers it appropriate that the legislation be amended to
+carve the TSSR-related functions from the CAC’s responsibilities and to confer them
+on the proposed new CSC.
+2.55 The Committee considers this a sensible change that accords with the existing
+administration of the TSSR regime and will improve administrative efficiency. No
+concerns were raised about Schedule 4 in submissions to the Committee’s review.
+95 COLA Omnibus Bill, sch 4, items 61–62. The Attorney-General may only specify a person or class of persons
+in the instrument if the person is an APS employee, or the class of persons consists wholly of APS
+employees, in the Attorney-General’s Department.
+96 COLA Omnibus Bill, sch 4, items 4–14, 49–57, 60, 63–161.
+97 COLA Omnibus Bill, Explanatory Memorandum, pages 39–57.
+98 PJCIS, Review of the Telecommunications and Other Legislation Amendment Bill 2016, June 2017; Review
+of Part 14 of the Telecommunications Act 1997 – Telecommunications Sector Security Reforms, February
+2022.
+17
+Schedule 5 – access to telecommunications
+intercept by state-based oversight agencies
+Expanded information-sharing for state-based oversight bodies
+2.56 Schedule 5 to the Bill proposes to amend information-sharing provisions in the TIA
+Act to enhance the ability of bodies which oversight state-based integrity agencies to
+receive lawfully intercepted information and interception warrant information from
+agencies within their jurisdictions. The following oversight bodies are affected:
+• Inspector of the Independent Commission Against Corruption (NSW)
+• Inspector of the Law Enforcement Conduct Commission (NSW)
+• Parliamentary Inspector of the Corruption and Crime Commission (WA)
+• Victorian Inspectorate.99
+2.57 Section 63 of the TIA Act prohibits agencies from communicating, making use of, or
+making records of intercepted information or interception warrant information.
+However, lawfully intercepted information and interception warrant information may
+be communicated, used or recorded for certain ‘permitted purposes’ set out in
+section 67.100 Additionally, the chief officer of an agency may communicate lawfully
+intercepted information or interception warrant information to other parties for the
+purposes listed in section 68.
+2.58 For the four oversight bodies listed above, the current ‘permitted purposes’ and
+purposes listed in section 68 cover only a limited subset of their functions.101 For
+example, in the case of the Inspector of the Law Enforcement Conduct Commission
+(NSW), the ‘permitted purposes’ are limited to dealing with conduct amounting to
+agency maladministration, officer misconduct, or officer maladministration;102 and the
+purposes listed in section 68 are limited to ‘if the information relates, or appears to
+relate, to a matter that may give rise to an investigation’.103 This limits the ability of the
+Inspector to scrutinise and audit the Law Enforcement Conduct Commission’s
+interception powers and to ensure compliance with the TIA Act.104
+2.59 There are similar limitations on the use, disclosure and recording of intercepted
+information obtained under an international production order, or information that
+99 The Victorian Inspectorate has oversight and complaints functions relating to several Victorian integrity
+agencies. This includes a statutory role to monitor compliance by Victoria’s Independent Broad-based Anti-
+corruption Commission with applicable laws, policies and procedures: Victorian Inspectorate, Submission 4,
+p. [1].
+100 TIA Act, ss. 67(1)–(1A).
+101 TIA Act, s. 5(1) (definition of ‘permitted purpose’, paras (db), (dc), (fa), (h)); 68(be), (ed), (fa), (k)).
+102 TIA Act, s. 5(1) (definition of ‘permitted purpose’, para (dc)).
+103 TIA Act, s. 68(fa).
+104 Law Enforcement Conduct Commission (NSW), Submission 3, p. 2.
+18
+relates to an international production order, set out in the definition of ‘eligible
+purpose’ in Schedule 1 to the TIA Act.105
+2.60 The Committee heard from state-based oversight bodies that limitations in the
+current definitions of ‘permitted purpose’ and ‘eligible purpose’ are causing difficulty
+for them in discharging their functions. For example, the Parliamentary Inspector of
+the Corruption and Crime Commission (WA) submitted that he is ‘unable to monitor
+the Commission’s use of warrants under the [TIA Act] in any comprehensive way’.
+The Inspector explained:
+This is because I may only receive and use interception warrant information and
+interception information where it relates to a matter of misconduct on the part of
+the Commission, an officer of the Commission or my own officers. These
+functions, which are a relatively small aspect of my overall role, are the only
+activities of my office presently included in the TIA Act’s definition of ‘permitted
+purpose’.
+Accordingly, in any Commission files that I review on a matter that does not
+relate to these purposes, any interception warrant information or interception
+information must be redacted.106
+2.61 To address this issue, the Bill amends the definitions of ‘permitted purpose’ and
+‘eligible purpose’ to cover a broader range of each agency’s functions.107 The Bill also
+amends section 68 to authorise communication if the information ‘relates, or appears
+to relate, to a matter referred to’ in the applicable part of the definition of ‘permitted
+purpose’.108 In relation to the Inspector of the Law Enforcement Conduct Commission
+(NSW), for example, the amended purposes include auditing the operation of the
+Law Enforcement Conduct Commission (NSW) and assessing the effectiveness and
+appropriateness of its policies and procedures, in addition to the existing purposes.109
+2.62 The amendments received support from state-based oversight bodies,110 as well as
+some of the anti-corruption agencies that they oversee.111 The Victorian Inspectorate,
+for example, submitted that the amendments are ‘important and necessary to remedy
+limitations’ on the Inspectorate’s current ability to access lawfully intercepted
+information and interception warrant information for its broad function of monitoring
+the Independent Broad-based Anti-corruption Commission’s compliance with its
+enabling Act and other laws.112
+105 TIA Act, s. 157.
+106 Parliamentary Inspector of the Corruption and Crime Commission (WA), Submission 2, p. 1.
+107 COLA Omnibus Bill, sch 5, items 65, 70, 75, 182, 187, 192.
+108 COLA Omnibus Bill, sch 5, items 143, 145, 148, 152.
+109 COLA Omnibus Bill, sch 5, items 65, 182.
+110 Parliamentary Inspector of the Corruption and Crime Commission of Western Australia, Submission 2,
+pages 2–3; Victorian Inspectorate, Submission 4, p. 1. The Inspector of the Law Enforcement Conduct
+Commission (NSW) also expressed support for the amendments in correspondence to the Committee.
+111 Independent Commission Against Corruption (NSW), Submission 1, p. 3; Law Enforcement Conduct
+Commission (NSW), Submission 3, p. 3.
+112 Victorian Inspectorate, Submission 4, p. 1.
+19
+2.63 The Independent Commission Against Corruption (NSW) advised that it had
+‘consistently supported’ amendments to the TIA Act to enable its Inspector to have
+access to its telecommunication interception records.113 It noted that:
+The need for the ICAC Inspector to have access to interception warrant
+information and interception information held by the ICAC was identified in the
+ICAC Inspector's October 2020 report Telecommunications (Interception and
+Access) Act 1979 (Cth) - Serious Gap in Inspector's Powers. The ICAC Inspector
+there noted the long-standing deficiency in the current statutory scheme under
+the TIA Act whereby the ICAC Inspector is unable to access ICAC
+telecommunications interception material for the purpose of conducting an audit
+(as opposed to conducting a specific investigation).114
+2.64 In 2020, the then Inspector of the Independent Commission Against Corruption
+(NSW) had raised the need for relevant amendments to the TIA Act with both the
+Independent National Security Legislation Monitor and the Department of Home
+Affairs.115 His predecessors had similarly identified the need for amendments from as
+early as 2009,116 including in a submission to this Committee in 2012.117
+2.65 The Parliamentary Inspector of the Corruption and Crime Commission of Western
+Australia welcomed the changes in Schedule 5. However, the Parliamentary
+Inspector noted that the changes are not picked up in the definition of ‘prescribed
+investigation’ in section 5(1) of the TIA Act.118 ‘Prescribed investigation’ forms part of
+the definition of ‘relevant offence’,119 which defines circumstances in which the chief
+officer of an intercepting agency may communicate lawfully intercepted information
+and interception warrant information to a member of the AFP or state or territory
+police, or to the chief officer of another agency.120 ‘Prescribed investigation’ also
+forms part of the TIA Act’s definition of ‘relevant proceeding’,121 which in turn forms
+part of the definition of ‘permitted purpose’ in section 67.122
+2.66 The Parliamentary Inspector of the Corruption and Crime Commission of Western
+Australia submitted that the existing language in the definition of prescribed
+investigation, as it relates to the Parliamentary Inspector, is narrower than the
+language used in in relation to the other similar oversight bodies listed in that
+113 Independent Commission Against Corruption (NSW), Submission 1, p. 3.
+114 Independent Commission Against Corruption (NSW), Submission 1, p. 2.
+115 Office of the Inspector of the Independent Commission Against Corruption (NSW), Telecommunications
+(Interception and Access) Act 1979 (Cth) – Serious Gap in Inspector's Powers, 27 October 2020, pages 6–8.
+116 Office of the Inspector of the Independent Commission Against Corruption (NSW), Telecommunications
+(Interception and Access) Act 1979 (Cth) – Serious Gap in Inspector's Powers, 27 October 2020, p. 4.
+117 Office of the Inspector of the Independent Commission Against Corruption (NSW), Telecommunications
+(Interception and Access) Act 1979 (Cth) – Serious Gap in Inspector's Powers, 27 October 2020,
+Attachment B; Submission 10 to PJCIS, Inquiry into Potential Reforms of Australia’s National Security
+Legislation, 17 July 2012, p. 3.
+118 Parliamentary Inspector of the Corruption and Crime Commission of Western Australia, Submission 2, p. 2.
+119 TIA Act, s. 5(1) (definition of ‘relevant offence’).
+120 TIA Act, ss. 68(b), (da).
+121 TIA Act, s. 6L(2).
+122 TIA Act, s. 5(1) (definition of ‘permitted purpose’).
+20
+definition and excludes investigations that do not involve misconduct.123 The
+Parliamentary Inspector explained:
+By way of an example, a sizeable part of my workload involves assessing the
+effectiveness and appropriateness of the Commission’s procedures pursuant to
+section 195(1)(c) of the [Corruption, Crime and Misconduct Act 2003 (WA)]. This
+often requires me to investigate the manner in which the Commission has
+handled a complaint it has received from a member of the public. From time to
+time, following an investigation of this kind, I will conclude that the Commission
+has made material errors in the course of dealing with a complaint. However, in
+the absence of any misconduct by a Commission officer (as distinct from factors
+such as human error, negligence or inattention), such an investigation would not
+be a ‘prescribed investigation’ for the purposes of the TIA Act.124
+2.67 To address this issue, the Parliamentary Inspector proposed that the existing
+language of subsection 5(1), which defines a prescribed investigation as
+dealing with a matter of misconduct in the performance of the Parliamentary
+Inspector’s functions under the Corruption and Crime Commission Act
+be replaced with
+an investigation that the Parliamentary Inspector is conducting in the
+performance of the Parliamentary Inspector’s functions under the Corruption,
+Crime and Misconduct Act 2003 (WA).125
+2.68 The Parliamentary Inspector argued that without this amendment, the intended
+outcome of the amendments ‘will only be partially realised’.126
+2.69 In response to a written question from the Committee, the Attorney-General’s
+Department agreed with the Parliamentary Inspector’s submission:
+The department agrees with the Parliamentary Inspector that the drafting of this
+provision is inconsistent with analogous amendments applying to other oversight
+bodies within Schedule 5 of the Bill, and should be corrected. As noted in the
+Explanatory Memorandum (at paragraph 21), the intention of the measure is to
+expand the definition of ‘permitted purpose’ for each oversight body to align with
+the definition within the oversight bodies’ respective enabling legislation to
+accurately encompass their oversight functions [emphasis added].127
+2.70 The Law Enforcement Conduct Commission (NSW) supported the proposed
+amendments in Schedule 5, noting their significance in ‘ensuring holistic and robust
+123 Parliamentary Inspector of the Corruption and Crime Commission of Western Australia, Submission 2, p. 2.
+124 Parliamentary Inspector of the Corruption and Crime Commission of Western Australia, Submission 2,
+pages 2–3.
+125 Parliamentary Inspector of the Corruption and Crime Commission of Western Australia, Submission 2, p. 3.
+126 Parliamentary Inspector of the Corruption and Crime Commission of Western Australia, Submission 2, p. 3.
+127 Attorney-General’s Department, Submission 6.1, p. 1.
+21
+oversight’ of its operations.128 However, the Commission requested that the
+Committee consider extending the new disclosure powers to include stored
+communications information accessed under Chapter 3 of the TIA Act, and
+telecommunications data accessed under Chapter 4.129 As drafted, Schedule 5 only
+permits the disclosure of information relating to telecommunications interception.
+2.71 In response to a written question from the Committee, the Attorney-General’s
+Department urged caution in relation to any extension to disclosure provisions:
+As with intercepted information and interception warrant information, stored
+communications and telecommunications data contain sensitive information. As
+such, any extension to agencies’ ability to receive and use the information would
+need to be robustly justified as being necessary to the performance of that
+agency’s functions, balanced with the resulting impact on human rights such as
+the right to privacy and right to freedom of expression as outlined in the
+International Covenant on Civil and Political Rights (ICCPR).130
+2.72 Unlike for telecommunications interception, the Commonwealth Ombudsman has a
+statutory oversight function in relation to access to stored communications and
+telecommunications data which requires it to conduct inspections of the records of
+enforcement agency records to determine ‘the extent of compliance’ with the relevant
+TIA Act provisions.131 The Attorney-General’s Department considered the benefit of
+extending access to stored communications and telecommunications data to state-
+based oversight agencies is therefore ‘less clear cut’ compared to interception
+information:
+Given state and territory integrity agencies’ use of Chapters 3 and 4 of the TIA
+Act is already overseen by the Commonwealth Ombudsman, allowing those
+agencies’ oversight bodies to receive and use stored communications and
+telecommunications data would likely duplicate the role of the Commonwealth
+Ombudsman. This may be viewed as an unnecessary extension of the use and
+disclosure provisions for sensitive information obtained through covert
+surveillance.132
+2.73 The Attorney-General’s Department noted that an existing provision in the TIA Act
+which authorises the Commonwealth Ombudsman to give information obtained from
+its inspections to state-based oversight bodies may provide an avenue for those
+bodies to ‘be made aware of issues pertaining to the broader range of their functions
+without needing to receive and use stored communications or telecommunications
+data’.133 However it added:
+128 Law Enforcement Conduct Commission (NSW), Submission 3, pages 2, 3.
+129 Law Enforcement Conduct Commission (NSW), Submission 3, p. 2.
+130 Attorney-General’s Department, Submission 6.1, p. [2].
+131 TIA Act, s. 186B.
+132 Attorney-General’s Department, Submission 6.1, p. [3].
+133 Attorney-General’s Department, Submission 6.1, p. [3]. See also TIA Act, s. 186F.
+22
+The department is open to consulting state and territory integrity agencies and
+their oversight bodies in relation to the suggestion proposed in the submission of
+the Law Enforcement Conduct Commission (NSW) before finalising a policy
+position. Such an amendment, if determined to be necessary following this
+consultation, could form part of wider electronic surveillance reforms to be
+undertaken by the department in response to the Comprehensive Review of the
+Legal Framework of the National Intelligence Community.134
+Introducing information-sharing for the Inspector of the Independent Commission Against
+Corruption (SA)
+2.74 Schedule 5 to the Bill also adds the Inspector of the Independent Commission
+Against Corruption (SA) to the list of state-based oversight bodies that can receive
+lawfully intercepted information and interception warrant information.135 Consistent
+with the proposed amendments relating to the other state-based oversight bodies
+covered by the TIA Act, the Bill proposes that the permitted purposes and eligible
+purposes for which information may be shared with the Inspector cover a broad
+range of functions. These include annual reviews, reviews relating to complaints,
+reviews conducted on the Inspector’s own motion and ‘other functions conferred on
+the Inspector’.136
+2.75 The Explanatory Memorandum advises that the ‘entirety’ of the Inspector of the
+Independent Commission Against Corruption (SA)’s oversight functions will be
+specified in the TIA Act, supporting its ability to ‘scrutinise and audit the interception
+activities of the South Australia Independent Commission Against Corruption and
+ensure it complies with its obligations under the TIA Act’.137
+2.76 The Attorney-General’s Department noted that the Inspector of the Independent
+Commission Against Corruption (SA) absorbed the functions of the former Reviewer
+of the Independent Commissioner Against Corruption in 2022.138
+Minor amendments to specify jurisdictions
+2.77 Schedule 5 to the Bill also contains a series of minor amendments to specify, in the
+TIA Act’s description of certain state-based integrity agencies and their oversight
+bodies, the jurisdiction in which each agency or oversight body is established.139 The
+affected agencies and oversight bodies are:
+• Law Enforcement Conduct Commission (NSW)
+• Corruption and Crime Commission (WA)
+134 Attorney-General’s Department, Submission 6.1, p. [3].
+135 COLA Omnibus Bill, sch 5, items 16, 32, 40, 47, 58, 76, 96, 103, 121, 128, 135, 151, 172, 193–194.
+136 COLA Omnibus Bill, sch 5, items 76, 193.
+137 COLA Omnibus Bill, Explanatory Memorandum, p. 5.
+138 Attorney-General’s Department, Submission 6, p. [5].
+139 COLA Omnibus Bill, sch 5, items 1–15, 17–31, 33–39, 41–46, 48– 57, 59, 61–64, 66–69, 71–74, 77–95, 97–
+102, 105–120, 122–127, 129–134, 136–150, 152–171, 173–178, 180–181, 183–186, 188–191.
+23
+• Crime Commission (NSW)
+• Crime and Corruption Commission (Qld)
+• Independent Broad-based Anti-corruption Commission (IBAC) (Vic)
+• Independent Commission Against Corruption (NSW)
+• Inspector of the Independent Commission Against Corruption (NSW)
+• Inspector of the Law Enforcement Conduct Commission (NSW)
+• Parliamentary Inspector of the Corruption and Crime Commission (WA).
+2.78 The amendments include specifying the jurisdiction of agencies that fall within the
+definition of ‘criminal law enforcement agency’ in subsection 110A(1) of the TIA
+Act.140 As noted in Chapter 1, these amendments were required under subsection
+110A(11) of the TIA Act to be referred to the Committee for review. Under that
+subsection, if a Bill is introduced into either House of the Parliament that includes an
+amendment to subsection 110A(1) of the TIA Act, the Attorney-General must:
+a. refer the amendment to the Committee; and
+b. must not in that referral specify, as the period within which the Committee is
+to report on its review, a period that will end earlier than 15 sitting days of a
+House of the Parliament after the introduction of the Bill.
+2.79 Being listed as a criminal law enforcement agency under subsection 110A(1) of the
+TIA Act empowers an agency to
+• issue a preservation notice to a telecommunications carrier requiring the carrier to
+preserve all communications it holds which relate to the person or
+telecommunications service specified in the notice,141
+• apply to an independent issuing authority for a warrant to access stored
+communications (such as emails or SMS messages) to support an investigation of
+a ‘serious contravention’,142
+• authorise the disclosure of historical telecommunications data where it is
+reasonably necessary for the enforcement of the criminal law or a law imposing a
+pecuniary penalty, for the protection of the public revenue, or for the finding of a
+missing person,143 and
+• authorise the disclosure of telecommunications data on a prospective basis for up
+to 45 days, where the disclosure is reasonably necessary for the investigation of a
+‘serious offence’ or a criminal offence punishable by at least three years’
+imprisonment.144
+140 COLA Omnibus Bill, sch 5, items 153–158.
+141 TIA Act, pt. 3-1A.
+142 TIA Act, s. 116. As a general rule, a ‘serious contravention’ is an offence that carries a maximum penalty of
+at least three years’ imprisonment or 180 penalty units—see TIA Act, s. 5E.
+143 TIA Act, ss. 178–179.
+144 TIA Act, s. 180.
+24
+2.80 The Attorney-General’s Department noted that Schedule 5’s amendments to
+subsection 110A(1) ‘do not change, or otherwise alter, the existing powers available
+to these agencies under the TIA Act’.145
+2.81 No concerns were raised by submitters in relation to these amendments, and several
+submitters expressed their support.146 For example, the Law Enforcement Conduct
+Commission (NSW) submitted that the proposed amendments would ‘provide further
+clarity and distinguish between oversight and integrity agencies with similar
+names’.147
+Committee comment
+2.82 The Committee welcomes the amendments in Schedule 5, which will improve the
+ability of oversight bodies for state-based integrity agencies to access material that
+has been lawfully intercepted under the TIA Act, and material related to interception
+warrants, in support of their important oversight functions. The amendments have the
+clear support of all integrity agencies and oversight bodies who participated in the
+inquiry.
+2.83 Notwithstanding this support, two suggestions for further amendments to the TIA Act
+were raised in submissions to the Committee.
+2.84 The Parliamentary Inspector of the Corruption and Crime Commission (WA) drew to
+the Committee’s attention a discrete issue concerning language used in the TIA Act’s
+definition of ‘prescribed investigation’, which does not appear to affect other agencies
+or their oversight bodies. The Committee notes that the Attorney-General’s
+Department agreed with the Parliamentary Inspector’s submission and did not
+identify any concerns with the proposed amendment. The Committee considers the
+Parliamentary Inspector’s request to be reasonable and therefore recommends that
+this matter be addressed in the Bill.
+Recommendation 1
+2.85 The Committee recommends that the Bill be amended to provide that the
+definition of ‘prescribed investigation’ in section 5(1) of the
+Telecommunications (Interception and Access) Act 1979 include, for the
+purposes of the Parliamentary Inspector of the Corruption and Crime
+Commission of Western Australia, an investigation that the Parliamentary
+Inspector is conducting in the performance of the Parliamentary Inspector’s
+functions under the Corruption, Crime and Misconduct Act 2003 (WA).
+2.86 The Law Enforcement Conduct Commission (NSW) asked the Committee to consider
+whether, in addition to intercepted communications, the TIA Act should also authorise
+145 Attorney-General’s Department, Submission 6, p. [5].
+146 Independent Commission Against Corruption (NSW), Submission 1, p. 3; Law Enforcement Conduct
+Commission (NSW), Submission 3, p. 3.
+147 Law Enforcement Conduct Commission (NSW), Submission 3, p. 3.
+25
+stored communications and telecommunications data held by state-based integrity
+agencies to be disclosable to their oversight bodies. The Committee supports this
+proposal in principle. The Committee considers that the bodies with holistic
+responsibility for oversight of state-based integrity agencies should generally be
+unhindered in their access to the information held by those agencies for the purpose
+of carrying out their functions.
+2.87 The Committee acknowledges the Commonwealth Ombudsman’s existing role of
+inspecting agencies, including state-based agencies, for compliance with the TIA
+Act’s requirements in relation to stored communications and telecommunications
+data. However, the Committee is conscious that the Commonwealth Ombudsman’s
+role, while important, does not extend to all questions that a body with holistic
+oversight of a state-based agency might seek to answer. For example, a state-based
+oversight agency may wish to inquire into whether the stored communications or
+telecommunications data an agency acquired under the TIA Act provided reasonable
+grounds to support the agency’s subsequent investigative activities under other legal
+regimes, which would be outside the Commonwealth Ombudsman’s remit.
+2.88 Nevertheless, the Committee considers that a further extension to the TIA Act’s
+disclosure provisions is outside the scope of this Bill. The Committee did not receive
+enough evidence in this inquiry to justify recommending immediate amendments.
+Any extension of the disclosure provisions to include stored communications and
+telecommunications data should follow broad consultation with affected parties and
+careful consideration of any privacy and security implications, as well as mechanisms
+to minimise duplication with the role of the Commonwealth Ombudsman.
+2.89 The Committee therefore recommends that the Government consider this matter for
+future legislative reform. The Government’s electronic surveillance reform project,
+which among other things aims to improve consistency within the current legislative
+framework,148 would be an appropriate mechanism for considering how consistency
+can be improved regarding the way in which state-based oversight bodies can
+access information held by agencies within their jurisdiction.
+Recommendation 2
+2.90 The Committee recommends that, as part of the proposed electronic
+surveillance reforms or other future reforms to the Telecommunications
+(Interception and Access) Act 1979, the Government consider whether state-
+based oversight bodies should be given access to stored communications and
+telecommunications data held by the agencies within their jurisdiction, in
+addition to the access to lawfully intercepted information and interception
+warrant information conferred by the Bill.
+148 Department of Home Affairs, Reform of Australia’s electronic surveillance framework: Discussion Paper,
+2021, p. 6.
+26
+Mandatory referral of amendments to section 110A, 176A, 187A and 187AA of the TIA Act
+2.91 The Committee notes that items 153 to 158 of Schedule 5, which seek to amend
+subsection 110A(1) of the TIA Act, were required by subsection 110A(11) of the Act
+to be referred to the Committee for review. Subsection 110A(1) lists ‘criminal law
+enforcement agencies’, which are empowered to issue preservation notices, seek
+warrants for access to stored communications, and to internally authorise access to
+existing and prospective telecommunications data.
+2.92 In this instance, the Bill’s proposed amendments to subsection 110A(1) of the TIA
+Act are minor and cosmetic in nature. The amendments simply specify the
+jurisdiction in which each integrity body operates in parentheses after its name. The
+Committee has identified no concerns and does not make any recommendations for
+change in relation to these proposed amendments.
+2.93 However, this review raises the question of whether the mandatory referral provision
+in subsection 110A(11) of the TIA Act is working as intended. Subsection 110A(11)
+was added to the TIA Act in 2015, as a result of a recommendation by the Committee
+in its Advisory Report on the Telecommunications (Interception and Access)
+Amendment (Data Retention) Bill 2014.149 In the context of concerns raised by
+submitters about the power of the Minister to declare, by legislative instrument,
+additions to the list of agencies under subsection 110A(1),150 the Committee
+recommended as follows:
+The Committee recommends that criminal law-enforcement agencies, which are
+agencies that can obtain a stored communications warrant, be specifically listed
+in the Telecommunications (Interception and Access) Act 1979.
+To provide for emergency circumstances, the Committee recommends that the
+Telecommunications (Interception and Access) Amendment (Data Retention) Bill
+2014 be amended so that the Attorney-General can declare an authority or body
+as a criminal law-enforcement agency subject to the following conditions:
+• the declaration ceases to have effect after 40 sitting days of either House;
+• an amendment to specify the authority or body as a criminal law-
+enforcement agency in legislation should be brought before the
+Parliament before the expiry of the 40 sitting days; and
+• the amendment should be referred to the Parliamentary Joint Committee
+on Intelligence and Security with a minimum of 15 sittings days for review
+and report.151
+149 PJCIS, Advisory Report on the Telecommunications (Interception and Access) Amendment (Data Retention)
+Bill 2014, February 2015, p. 194 (Recommendation 17).
+150 PJCIS, Advisory Report on the Telecommunications (Interception and Access) Amendment (Data Retention)
+Bill 2014, February 2015, pages 189–192.
+151 PJCIS, Advisory Report on the Telecommunications (Interception and Access) Amendment (Data Retention)
+Bill 2014, February 2015, p. 194 (Recommendation 17).
+27
+2.94 The Committee also made nearly identical recommendations in relation to
+amendments to
+• the definition of ‘enforcement agency’ in section 176A of the TIA Act,152 which lists
+agencies authorised to access telecommunications data under internal
+authorisation,153
+• the scope of services to which data retention obligations apply,154 which is set out
+in section 187A(3) of the TIA Act, and
+• the data set that is required to be retained under the data retention scheme,155
+which is prescribed by subsections 187A(4) and 187AA of the TIA Act,
+all of which may be amended via Ministerial declaration.156
+2.95 As with subsection 110A(1), Ministerial declarations under subsection 176A(1),
+187A(3A) and 187AA(2) cease after 40 sitting days,157 and any amendments to
+primary legislation must be referred to the Committee for review.158
+2.96 Prior to the current review, the Committee has been referred three other
+amendments to subsection 110A(1) of the TIA Act for review:
+• On 18 November 2016, following a review, the Committee supported an
+amendment to include the Law Enforcement Conduct Commission (NSW) in the
+list of criminal law enforcement agencies in subsection 110A(1), in lieu of the
+former Police Integrity Commission which it replaced.159
+• On 29 March 2023, the Committee reported on its review of an amendment to
+subsection 110A(1) to include the National Anti-Corruption Commission in lieu of
+the Australian Commission for Law Enforcement Integrity. The Committee made
+recommendations directed at ensuring adequate protection of parliamentary
+privilege and security of information.160
+• On 29 March 2023, the Committee was referred an amendment which substituted
+‘Independent Commissioner Against Corruption’ for ‘Independent Commission
+Against Corruption (SA)’ in subsection 110A(1).161 The Committee declined to
+conduct an inquiry into the amendment.
+152 PJCIS, Advisory Report on the Telecommunications (Interception and Access) Amendment (Data Retention)
+Bill 2014, February 2015, p. 215 (Recommendation 21).
+153 All criminal law enforcement agencies are included within the definition of enforcement agency. See TIA Act,
+s. 176A(1).
+154 PJCIS, Advisory Report on the Telecommunications (Interception and Access) Amendment (Data Retention)
+Bill 2014, February 2015, p. 163 (Recommendation 14).
+155 PJCIS, Advisory Report on the Telecommunications (Interception and Access) Amendment (Data Retention)
+Bill 2014, February 2015, p. 80 (Recommendation 3).
+156 TIA Act, ss. 187A(3A), 187AA(2).
+157 TIA Act, s 176A(10), 187A(3B), 187AA(3).
+158 TIA Act, s 176A(11), 187A(3C), 187AA(4).
+159 PJCIS, Advisory Report on item 28 of the Law Enforcement Legislation Amendment (State Bodies and Other
+Measures) Bill 2016, November 2016.
+160 PJCIS, Advisory Report on Item 250 of the National Anti-Corruption Commission (Consequential and
+Transitional Provisions) Bill 2022, May 2023.
+161 See Crimes and Other Legislation Amendment (Omnibus) Bill 2023, sch 10, item 27.
+28
+2.97 None of the above amendments were preceded by a Ministerial declaration before
+the Bill was introduced to amend the primary legislation.
+2.98 The Committee understands that the intent of the mandatory referral provisions in
+sections 110A and 176A is to ensure that the agencies which are authorised to
+access stored communications and telecommunications data are appropriately
+restricted, and that any proposed additions are subject to scrutiny. While the
+Committee continues to accept that it is appropriate for the responsible Minister to
+have the power to declare additional agencies on an ‘emergency’ basis (for example,
+in response to a temporary requirement or to account for changes in agency
+structures or functions that cannot be reflected in primary legislation in a timely
+manner), it is important that such declarations are subject to adequate scrutiny.
+2.99 As at May 2024, there had been no declarations under sections 110A, 187A or
+187AA of the TIA Act. Only one agency had been subject to a declaration, under
+section 176A: in February 2022, the NSW Department of Communities and Justice
+was declared to be an ‘enforcement agency’ for the purpose of s 176A in relation to
+Corrective Services NSW.162 The same organisation was subject to a new declaration
+in March 2023 and again in May 2024.163 These declarations were not subject to
+review by the Committee, as the legislation only requires that Bills which seek to
+amend the primary legislation be referred to the Committee for review.
+2.100 Following the February 2022 declaration, the Minister for Home Affairs introduced a
+Bill into the Parliament which would have inserted new section 176B into the TIA Act
+to include state and territory corrective services authorities within the definition of
+‘enforcement agency’, giving them access to telecommunications data on an ongoing
+basis, subject to a request from the relevant state or territory minister and a separate
+declaration by the Minister for Home Affairs.164 The Bill was referred to the Committee
+for review, but lapsed shortly after at the end of the 46th Parliament. Since then, no
+legislation has been brought before the Parliament to list Corrective Services NSW
+(or any other corrective services authority) as an enforcement body on an ongoing
+basis.
+2.101 The Committee has no reason to doubt the appropriateness of the declaration of
+Corrective Services NSW: in 2019, the Comprehensive Review of the Legal
+Framework of the National Intelligence Community recommended that, as part of the
+development of a new electronic surveillance Act, corrective services authorities
+should be granted the power to access telecommunications data, if the relevant state
+or territory government considers it to be necessary ‘having regard to the
+162 See Telecommunications (Interception and Access) (Enforcement Agency—NSW Department of
+Communities and Justice) Declaration 2022.
+163 Telecommunications (Interception and Access) (Enforcement Agency—NSW Department of Communities
+and Justice) Declaration 2023; Telecommunications (Interception and Access) (Enforcement Agency—NSW
+Department of Communities and Justice) Declaration 2024.
+164 Telecommunications (Interception and Access) Amendment (Corrective Services Authorities) Bill 2022.
+Unlike a declaration under s. 176A, a declaration of a corrective services authority under proposed section
+176B would not have expired after 40 sitting days.
+29
+effectiveness of any existing arrangements in place within their jurisdiction’.165 The
+Corrective Services Administrators’ Council has also previously written to the
+Committee setting out a case for state and territory corrective services authorities to
+have ‘enforcement agency’ status.166 However, the fact that Corrective Services NSW
+has been subject to multiple declarations without legislative change means that
+1 the parliamentary scrutiny process that would have applied if Corrective Services
+NSW had been listed in primary legislation has not occurred, and
+2 the lawful access to telecommunications data by Corrective Services NSW has
+been subject to interruptions due to gaps between declarations, given the expiry
+of each after 40 sitting days.167
+2.102 To address these issues, the Committee recommends that the TIA Act should be
+amended to require that declarations made under sections 110A, 176A, 187A and
+187AA be referred to the Committee for review within the 15 sitting day parliamentary
+disallowance period, similarly to other legislative instruments in respect of which the
+Committee has a review function.168 The declarations should continue to cease after
+40 sitting days, as currently occurs. Consistent with the Committee’s 2015
+recommendations, the Committee continues to expect that, where ongoing access by
+an organisation is justified, an amendment to the primary legislation will be brought
+forward.
+2.103 In relation to the primary legislation, the Committee does not consider it necessary
+that all proposed amendments to sections 110A, 176A, 187A and 187AA be
+mandatorily referred to the Committee for review. While there are some occasions
+where detailed review by this Committee may be warranted—for example, the recent
+amendment to include the National Anti-Corruption Commission in subsection
+110A(1)—those amendments are capable of being referred to the Committee by the
+relevant Minister in the same way as other bills within the Committee’s remit. In any
+case, subject to passage of the Intelligence and Security Legislation Amendment Bill
+2023, the Committee will have the power to self-initiate inquiries into future
+amendments insofar as they are related to counter-terrorism or national security.
+2.104 The Committee therefore recommends that the above provisions be amended to
+require the referral of all Ministerial declarations to the Committee for review, while
+removing the mandatory referral of amendments to the provisions in the primary
+legislation. To avoid delaying the commencement of the current Bill, the Committee
+considers these amendments could be put forward as part of separate reforms to the
+TIA Act in a future Bill.
+165 Comprehensive Review of the Legal Framework of the National Intelligence Committee, December 2019,
+vol 2, pages 278–79.
+166 Corrective Services Administrators’ Council, Submission 45 to PJCIS, Review of the mandatory data
+retention regime, March 2020.
+167 The initial declaration commenced on 18 February 2022 and remained in effect until 9 February 2023; the
+second declaration commenced on 1 April 2023 and remained in effect until 15 November 2023; the third
+declaration commenced on 15 May 2024 and will remain in effect for 40 sitting days.
+168 See Criminal Code, ss. 102.1A, 119.3(7).
+30
+Recommendation 3
+2.105 The Committee recommends that, as part of future reforms, the Government
+consider amending sections 110A, 176A, 187A and 187AA of the
+Telecommunications (Interception and Access) Act 1979 to:
+• require that if a Minister makes a declaration by legislative instrument
+declaring an entity to be an ‘enforcement agency’ or a ‘criminal law
+enforcement agency’, or amending the data retention obligations placed on
+carriers and carriage service providers, the declaration must be referred to
+the Parliamentary Joint Committee on Intelligence and Security for review
+and report within the parliamentary disallowance period;
+• retain the existing provision that such declarations cease to have effect
+after 40 sitting days of either House; and
+• remove the existing requirement within each of these sections for
+amendments to the primary legislation to be referred to the Committee.
+Concluding remarks
+2.106 The Committee acknowledges the importance of bills, such as this one, that make
+incremental updates to legislation to help ensure it remains effective, fit-for-purpose
+and subject to appropriate oversight. Parliamentary review of such bills is also
+important as a safeguard against unintended consequences. The Committee
+supports passage of the Bill and thanks submitters for their participation in the
+review.
+2.107 The Committee notes that more substantial reforms to electronic surveillance
+legislation remain under development, and looks forward to being engaged in review
+of those reforms when they are presented to the Parliament.
+Recommendation 4
+2.108 The Committee recommends that, subject to implementation of the
+recommendations in this report, the Crimes and Other Legislation Amendment
+(Omnibus No. 1) Bill 2024 be passed by the Parliament.
+Mr Peter Khalil MP
+Chair
+25 July 2024
+31
+
+A. List of submissions
+1 Independent Commission Against Corruption (NSW)
+2 Parliamentary Inspector of the Corruption and Crime Commission of Western
+Australia
+3 Law Enforcement Conduct Commission (NSW)
+4 Victorian Inspectorate
+5 Department of Home Affairs
+6 Attorney-General's Department
+• 6.1 Supplementary to submission 6
+7 Australian Federal Police
+33

@@ -292,7 +292,7 @@ def main(as_json: bool = False) -> int:
         out["recommendations_index"] = {
             "rows": len(recs),
             "documents": len({(r["source"], r["source_id"]) for r in recs}),
-            "awaiting_a_response": sum(1 for r in recs if r["source"] == "report"),
+            "awaiting_a_response": sum(1 for r in recs if r["response_classification"] == "awaiting a response"),
             "with_government_words": sum(1 for r in recs if r["government_words"]),
             "flagged_other_author_NOTE_undercount_until_finding_2_fixed":
                 sum(1 for r in recs if r["recommended_by"]),

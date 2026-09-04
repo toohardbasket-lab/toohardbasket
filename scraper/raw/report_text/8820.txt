@@ -1,0 +1,2613 @@
+Report 507
+Defence 2022–23 Major Projects Report
+Joint Committee of Public Accounts and Audit
+December 2024
+CANBERRA
+© Commonwealth of Australia 2024
+ISBN 978-1-76092-730-1 (Printed version)
+ISBN 978-1-76092-731-8 (HTML version)
+All material in this report is provided under a Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 Australia licence. The material may be shared, copied and redistributed provided that:
+• it is for non-commercial purposes
+• the committee named on the previous page is credited as the author
+• the committee is not represented as endorsing the use of the material
+• any changes are clearly identified
+• no additional legal or technical restrictions are applied to restrict use that complies with the
+licence.
+If the material is remixed, transformed or built upon, the modified material may not be distributed.
+Full details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Contents
+Chair's foreword ............................................................................................ vii
+Membership of the Committee ...................................................................... ix
+Terms of reference ......................................................................................... xi
+List of abbreviations .................................................................................... xiii
+List of recommendations .............................................................................. xv
+Report
+1. Overview of the 2022-23 Major Projects Report ....................................... 1
+Introduction ............................................................................................................... 1
+Conduct of the inquiry ................................................................................................ 1
+Report outline ............................................................................................................. 2
+Background ................................................................................................................ 2
+History of the MPR ........................................................................................................... 2
+Transparency and accountability in Defence reviews ....................................................... 3
+Conduct of the MPR review .............................................................................................. 4
+Quality and completeness of PDSSs............................................................................ 5
+Overview of the 2022–23 Major Projects Report ........................................................ 6
+Project performance analysis ........................................................................................... 8
+Cost analysis .............................................................................................................. 8
+Schedule analysis ...................................................................................................... 10
+Capability analysis ..................................................................................................... 12
+Auditor-General’s Qualified Conclusion .................................................................... 13
+Bases for qualified conclusion ........................................................................................ 13
+LAND 200 Tranche 2 Battlefield Command System ................................................... 14
+Lessons learned ........................................................................................................ 15
+Emphasis of matter......................................................................................................... 15
+iii
+2. Themes and issues ................................................................................... 17
+Creeping secrecy through ‘not for publication’ ......................................................... 17
+Committee comment ...................................................................................................... 22
+Lessons learned ....................................................................................................... 23
+Removal of lessons learned from PDSSs ....................................................................... 26
+Defence policy approach ............................................................................................ 26
+Committee comment ...................................................................................................... 29
+PDSS accuracy—Battlefield Command System ...................................................... 30
+Background .................................................................................................................... 30
+2019 ANAO performance audit .................................................................................. 31
+Subsequent amendments to LAND 200 ..................................................................... 34
+2022–23 MPR and concerns with accuracy of the PDSS ............................................... 35
+Committee comment ...................................................................................................... 37
+Australian industry capability .................................................................................... 38
+Committee comment ...................................................................................................... 39
+Implementation of a risk management system ......................................................... 39
+Committee comment ...................................................................................................... 41
+Contingency statements and management .............................................................. 41
+Committee comment ...................................................................................................... 43
+Terminology ............................................................................................................. 43
+Committee comment ...................................................................................................... 45
+Scope and the relationship between capability and delivery managers ................... 45
+Governance arrangements for scope changes ........................................................... 46
+Management of scope prior to Gate 2 ........................................................................ 48
+Minimum viable capability .......................................................................................... 49
+Compliance with Commonwealth Procurement Rules ................................................ 50
+Committee comment ...................................................................................................... 50
+Military off-the-shelf .................................................................................................. 52
+Committee Comment ...................................................................................................... 55
+Future of the MPR .................................................................................................... 55
+Considering projects of strategic importance .............................................................. 56
+Better capture thematic and systemic findings ........................................................... 56
+Focus of findings ........................................................................................................ 57
+iv
+Refinement of in-year longitudinal analysis ............................................................... 57
+Committee comment ...................................................................................................... 57
+Appendixes
+Appendix A. Submissions ............................................................................ 61
+Appendix B. Witnesses ................................................................................. 63
+v
+
+Chair's foreword
+Now in its sixteenth year, the Major Projects Report (MPR) continues to be an important tool
+for Defence accountability and transparency. In 2022–23, the twenty projects contained in
+the MPR constitute around 31 per cent ($58.6 billion) of Defence’s total acquisition budget.
+In adopting the annual MPR inquiries, the Committee establishes expansive terms of
+reference that allow it to consider any matters contained in and associated with the MPR.
+This year, the Committee paid attention to growing secrecy and the need to maintain
+transparency; the lessons learned process; Australian Industry Capability plans; the
+implementation of Defence’s risk management system; contingency statements and the
+continuing misalignment of contingency allocation with identified risks; and the use of
+terminology.
+Further, the Committee examined scope creep in the context of the relationship between
+capability managers and delivery managers; discipline in the inclusion of off-the-shelf options
+in Defence procurements; the accuracy of the Battlefield Command System project data
+summary sheet (PDSS); and the future of the MPR itself. Two of these matters were the
+subject of the Auditor-General’s qualified conclusion (Battlefield Command System PDSS
+and lessons learned), and one the subject of the emphasis of matter (secrecy).
+The Committee made four recommendations, which when implemented, will result in
+important corrections and introduce evolutions to the MPR process to improve its
+transparency and Defence’s accountability to the Parliament and the Australian public for
+what are large amounts of public expenditure.
+Broadly, these recommendations deal with the reinstatement of lessons to PDSSs; reporting
+on improved governance and assurance processes; assessments of the full project costs of
+each project, including fundamental inputs to capability; and more clearly identifying scope,
+schedule and budget changes, both in-year and life-to-date for each project.
+I would like to acknowledge the work of the previous chair, Hon Julian Hill MP, for his
+dedicated and skilled leadership of the Committee, and also the Deputy Chair, Senator the
+Hon Linda Reynolds CSC, for her commitment to the importance of public scrutiny and for
+the collegiate manner in which she actively participates in the work of the Committee. I also
+acknowledge the work and professionalism of the Committee secretariat in supporting this
+inquiry.
+Hon Linda Burney MP
+Chair
+vii
+
+Membership of the Committee
+Chair
+Hon Linda Burney MP (from 12 August 2024)
+Mr Julian Hill MP (to 29 July 2024)
+Deputy Chair
+Senator the Hon Linda Reynolds CSC
+Members
+Dr Michelle Ananda-Rajah MP
+Senator Catryna Bilyk
+Senator the Hon Matthew Canavan
+Senator Lisa Darmanin (from 24 June 2024)
+Dr Carina Garland MP
+Mr Ian Goodenough MP
+Senator Karen Grogan (to 24 June 2024)
+Mr Brian Mitchell MP (from 12 August 2024)
+Dr Daniel Mulino MP
+Mr Henry Pike MP
+Senator Barbara Pocock
+Mr Sam Rae MP
+Senator Tony Sheldon
+Mr Aaron Violi MP
+Mr Josh Wilson MP (from 28 November 2023 to 2 August 2024)
+ix
+
+Terms of reference
+On 29 February 2024, the Joint Committee of Public Accounts and Audit adopted an inquiry
+into the Defence Major Projects Report (MPR) 2022–23, including any matters contained
+and associated with Auditor-General Report No. 14 2023–24: 2022–23 Major Projects
+Report.
+This review will also make specific consideration of the scope and Guidelines which underlie
+the MPR, and assess whether the MPR process continues to provide appropriate
+transparency and accountability to the Parliament in relation to Defence's capability
+acquisition expenditure and remains fit for purpose into the future.
+xi
+
+List of abbreviations
+Act Auditor-General Act 1997
+AIC Australian Industry Capability
+ANAO Australian National Audit Office
+BCS Battlefield Command System
+BMS Battle Management System
+CASG Capability Acquisition and Sustainment Group
+CMATS Civil Military Air Management System
+Committee Joint Committee of Public Accounts and Audit
+CPRs Commonwealth Procurement Rules
+Defence Department of Defence
+DLR Defence Lessons Repository
+FMR Final Materiel Release
+FOC Final Operational Capability
+Guidelines Major Projects Report Guidelines
+IMR Initial Materiel Release
+IOC Initial Operational Capability
+JCPAA Joint Committee of Public Accounts and Audit
+Kinnaird review Defence Procurement Review 2003
+Mortimer review Going to the Next Level: The Report of the Defence Procurement and
+Sustainment Review
+MOTS Military off-the-shelf
+MPR Major Projects Report
+NFP Not for publication
+xiii
+NSSG Naval Shipbuilding and Sustainment Group
+PDSS Project Data Summary Sheet
+Report 411 Progress on equipment acquisition and financial reporting in Defence
+Report 503 Inquiry into the Defence Major Projects Report 2020–21 and 2021–22
+and Procurement of Hunter Class Frigates: Final Report
+TCN Tactical Communications Network
+xiv
+List of recommendations
+Recommendation 1
+2.44 The Committee recommends that the Australian National Audit Office and
+Department of Defence put forward amendments to the Major Projects Report
+Guidelines that ensure lessons are reinstated to the PDSSs and clarity is
+provided on the nature and scope of lessons to be included so the intent of
+this section of the Guidelines is fulfilled.
+Recommendation 2
+2.153 The Committee recommends that Defence provides an annual update to the
+Committee on the implementation of its improved governance and assurance
+process as it applies to acquisitions, including progress on embedding this
+across all projects, and detail on the procedure for scope change decision
+escalation.
+Recommendation 3
+2.187 The Committee recommends the Department of Defence examines and
+provides to the Committee in the Major Projects Report 2025–26, an
+assessment of the full project costs for each project, including fundamental
+inputs to capability: organisation, command and management, personnel,
+collective training, major systems, facilities and training areas, supplies,
+support, and industry.
+Recommendation 4
+2.188 The Committee recommends the ANAO and Department of Defence examine
+and provide to the Committee in the draft 2025–26 Major Projects Report
+Guidelines, options for including in the MPR, in an easily accessible format, a
+high-level summary of modifications to scope, schedule and budget for ‘in-
+year’ and ‘life-to-date’ of each project. This would allow for the easy
+identification of project variations, scope changes, and real cost increases. It
+would include an explanation of: the source of funding for scope changes,
+whether scope was transferred to other projects/phases, the extent of real
+budget increases and how they have been met, and whether timeframes were
+extended.
+xv
+
+1. Overview of the 2022-23 Major
+Projects Report
+Introduction
+1.1 The Major Projects Report (MPR) is prepared jointly by the Department of Defence
+(Defence) and the Australian National Audit Office (ANAO), at the request of the
+Parliament. This is the sixteenth annual MPR.1
+1.2 The objective of the MPR is to improve the accountability and transparency of
+Defence acquisitions for the benefit of Parliament and other stakeholders. It informs
+parliamentary scrutiny and broader discussions on major Defence acquisitions.
+Defence major projects are characterised by their high cost and the fact completion
+within budget, to schedule, and to the projected capability, continues to be a
+challenge. Defence acquisitions typically also have significant industry and
+employment implications. Further, matters of defence acquisitions and capability are
+increasingly important given the rapidly evolving strategic environment in our region.
+1.3 At 30 June 2023, Defence was managing 609 major and 93 minor acquisition
+projects, with a total acquisition cost of $190 billion. The total approved budget for the
+20 major projects included in the MPR (see Table 1.1) is approximately $58.6 billion,
+30.8 per cent of the total acquisition budget.2
+1.4 The MPR is prepared according to the Major Projects Report Guidelines (the
+Guidelines), which are approved annually by the Joint Committee of Public Accounts
+and Audit (the Committee). It contains four parts:
+• Part 1—Review and analysis by the ANAO
+• Part 2—Department of Defence MPR
+• Part 3—Independent Assurance Report by the Auditor-General, Statement by the
+Secretary of Defence, and Project Data Summary Sheets (PDSSs)
+• Part 4—MPR Guidelines.
+Conduct of the inquiry
+1.5 The Committee adopted the Inquiry into the 2022–23 Major Projects Report on
+29 February 2024, with terms of reference to consider any matters contained in and
+1 Australian National Audit Office (ANAO), 2022–23 Major Projects Report, Report No. 14 2023–24, February
+2024, hereafter 2022–23 MPR, p. 3.
+2 ANAO, 2022–23 MPR, pages 3–4.
+1
+associated with the MPR. The inquiry was to also make specific consideration of the
+scope and Guidelines that underlie the MPR, and assess whether the MPR process
+continues to provide appropriate transparency and accountability to the Parliament in
+relation to Defence’s capability acquisition expenditure, and whether it remains fit for
+purpose into the future.
+1.6 The inquiry received 1 submission, and 3 public supplementary submissions
+containing responses to questions provided in writing by the Committee or taken on
+notice at the public hearings. The Committee held two public hearings in Canberra
+and by videoconference on Wednesday, 24 April 2024, and in Canberra on Friday,
+28 June 2024.
+1.7 The list of submissions and supplementary submissions is at Attachment A.
+Witnesses to the public hearings are listed at Attachment B.
+Report outline
+1.8 Chapter 1 of the report discusses briefly the history of the MPR, and provides an
+overview of the ANAO’s analysis, covering Defence’s cost, schedule and capability
+performance. It then discusses the Auditor-General’s qualified conclusion and
+emphasis of matter.
+1.9 Chapter 2 addresses the issues examined by the Committee during its inquiry,
+including: growing secrecy and the need to maintain transparency; Australian
+Industry Capability plans; the implementation of Defence’s risk management system;
+contingency statements and the continuing misalignment of contingency allocation
+with identified risks; and the use of terminology.
+1.10 Chapter 2 also examines scope creep in the context of the relationship between
+capability managers and delivery managers; discipline in the inclusion of off-the-shelf
+options in Defence procurements; the accuracy of the Battlefield Command System
+PDSS; and the future of the MPR.
+Background
+History of the MPR
+1.11 The need for transparency and accountability has always been at the heart of the
+MPR process. The broad outline of the MPR was first discussed in the Committee’s
+2008 report, Progress on equipment acquisition and financial reporting in Defence
+(Report 411). In that report, the Committee expressed its views on transparency in
+defence acquisitions:
+One of the major frustrations the Committee experienced during this inquiry was
+an absence of clear, consistent and precise information on which to make an
+assessment about the status and history of troubled acquisition projects.
+2
+A lack of transparency around Defence acquisition projects is not a recent
+phenomenon.3
+1.12 The Committee noted, in particular, the following issues when examining progress on
+Defence acquisitions: the use of ambiguous and inconstant language such as
+‘military-off-the-shelf’, ‘legacy project’ and ‘pricing’; the need for a holistic approach
+that distinguished between delivery of equipment and delivery of capability; the
+necessity to monitor projects over ‘whole of life’ particularly as difficulties with
+projects tended to appear toward the latter stages of an acquisition; and an
+acknowledgement of context, specifically, the impact the capacity of industry had on
+project progression.4
+1.13 The initial structure of the MPR, examined in Report 411, was proposed by the
+ANAO, in consultation with the then Defence Materiel Organisation. It was modelled,
+in part, on the Ministry of Defence and United Kingdom National Audit Office Major
+Projects Report, which existed at that time.5
+1.14 In its first MPR report in 2009, examining the 2007–08 MPR, the Committee stated
+‘the aim of the MPR is to provide the Parliament and the Australian public with
+accessible, transparent and accurate information about the state of Defence’s major
+acquisitions projects while these projects are still in train’.6
+Transparency and accountability in Defence reviews
+1.15 The interrelated issues of transparency and accountability for Defence acquisitions
+have also be raised in other reviews, broadly in the context of failures in Defence
+procurement processes that increased costs and delayed projects. For instance, the
+Defence Procurement Review 2003, known colloquially as the Kinnaird review,
+stated any model for Defence capability acquisitions ‘must be transparent and
+accountable’.7 ‘The practical consequences of how well these tasks have been
+performed can be measured in terms of the protection of the nation’s interests and
+the safety of its front line defence personnel’.8
+1.16 A key preoccupation in Going to the Next Level: The Report of the Defence
+Procurement and Sustainment Review, the Mortimer review, was also greater
+transparency and accountability across many aspects of Defence procurement.9 It
+cited two projects, in particular, where scope creep and poor commercial practices
+had resulted in the defence force being ‘left waiting for capability that it needs, and …
+3 Joint Committee of Public Accounts and Audit (JCPAA), Report 411: Progress on equipment acquisition and
+financial reporting in Defence, August 2008, hereafter Report 411, p. 157.
+4 JCPAA, Report 411, pages 164–169.
+5 JCPAA, Report 411, p. 158.
+6 JCPAA, Report 416: Review of the Major Projects Report 2007–2008, November 2009, p. 1.
+7 M. Kinnaird, L. Early, B Schofield, Defence Procurement Review 2003, August 2003, hereafter Defence
+Procurement Review, p. 34.
+8 Kinnaird et al, Defence Procurement Review, p. i.
+9 See, for instance, D Mortimer, Going to the Next Level: The Report of the Defence Procurement and
+Sustainment Review, September 2008, hereafter Mortimer review, pages VII, 22, 60–63.
+3
+Australian taxpayers … [having] no result for their investment. This is plainly
+unacceptable’.10
+Conduct of the MPR review
+1.17 The ANAO’s review of the Defence PDSSs (part 3 of the MPR) is a ‘priority
+assurance review’ under subsection 19A(5) of the Auditor-General Act 1997 (the
+Act), giving the ANAO full access to the information gathering powers under the Act.
+The ANAO’s review provides limited assurance, which is a level of assurance that is
+‘substantially lower’ than the assurance that would be obtained from a ‘reasonable
+assurance’ engagement, such as a performance audit. The nature and scope of the
+procedures performed, and the supporting evidence required by the ANAO in a
+limited assurance review differs from that in a reasonable assurance review.11
+1.18 An assurance review is not an audit. The purpose of an assurance review is to
+indicate the level of confidence one might have in the information that has been
+reviewed. Assurance reviews can be undertaken to different levels of scrutiny and
+provide different levels of confidence. In effect, a limited assurance review relies
+primarily on an agency’s representations and other evidence generated by the
+agency; it entails a lower level of verification of source documents than would occur
+in a reasonable assurance review. The opinion expressed from a limited assurance
+review is typically expressed in negative terms—nothing has come to the auditor’s
+attention to indicate there is a concern.12
+1.19 The ANAO’s review includes an assessment of Defence’s systems and controls,
+including the governance and oversight in place, to ensure appropriate project
+management. The ANAO also seeks representations and confirmation from Defence
+senior management and industry (through Defence) on the status of selected major
+projects.13
+1.20 The assurance provided by the ANAO does not extend to all the information in the
+PDSSs. Certain forecast Information in the PDSSs is out of scope of the ANAO’s
+assurance review: Australian Industry Capability (AIC), forecast dates, expected
+capability/scope delivery performance, and future risks.14 The Auditor-General’s
+Independent Assurance Report does not provide assurance in relation to this
+information. However, material inconsistencies identified in relation to the information
+are considered in forming the Auditor-General’s conclusions.15
+10 Mortimer, Mortimer review, p. VIII.
+11 ANAO, 2022–23 MPR, pages 5, 25.
+12 For a discussion of the assurance standard, see: ANAO, 2022–23 MPR, p. 25. For a general discussion of
+assurance, see: Victorian Auditor-General’s Office, Our assurance services, www.audit.vic.gov.au/sites/
+default/files/Our%20role/Our-assurance-services.pdf, viewed 27 March 2024.
+13 ANAO, 2022–23 MPR, p. 5.
+14 These are sections 1.2, 1.3, 2.4, 4.1, and 5, and forecast dates included in each PDSS. This is because of
+Defence systems are unable to provide complete and/or accurate information. ANAO, 2022–23 MPR,
+pages 5, 25.
+15 ANAO, 2022–23 MPR, pages 5, 25.
+4
+1.21 The ANAO advises the exclusions from the scope of the review:
+… are due to a lack of Defence systems from which to provide complete and/or
+accurate evidence in a sufficiently timely manner to facilitate the review … it is
+intended that all components of the PDSSs will eventually be included within the
+scope of the ANAO’s review.16
+1.22 Information on significant events that have occurred after 30 June 2023 is provided in
+the Statement by the Secretary of Defence, contained in part 3 of the MPR and is
+included in the scope of the ANAO’s assurance review. Additional insights and
+context provided by Defence in its commentary and analysis in Part 2 of the MPR is
+excluded from the scope of the ANAO’s assurance review.17
+1.23 In addition to the formal assurance review, the ANAO has undertaken analysis of the
+PDSSs, and on some measures, provided longitudinal analysis.18 The ANAO
+considers developments in Defence’s acquisition governance processes (Part 1,
+chapter 1) and undertakes analysis of Defence’s PDSSs. Information and
+commentary on systemic issues, and in-year and longitudinal analysis for the major
+projects is contained in chapter 2 (Part 1).19
+Quality and completeness of PDSSs
+1.24 As part of the MPR process, the ANAO undertakes a range of educative activities to
+mitigate errors in PDSS preparation, and Defence is given multiple opportunities to
+refine the PDSSs before the ANAO finalises its assurance review. The ANAO’s
+expectation for this MPR was that it would base its assurance review on the third
+post-30 June 2023 version of the PDSS submitted by Defence.20
+1.25 The ANAO commented that while Defence had implemented a new internal
+management methodology and quality assurance approach, it nonetheless ‘observed
+ongoing quality issues relating to Defence’s preparation of iterations of the PDSSs
+…’21
+1.26 The ANAO found instances where internal project reporting—relating to financial
+data, schedule milestone dates, quantities of materiel, and risks and issues—was not
+accurately reflected in the PDSSs even after the third post-30 June version,
+notwithstanding the fact the ANAO continued to advise Defence of material errors
+and quality issues. The ANAO stated:
+… a number of unresolved material errors persisted in some PDSSs and this has
+informed the ANAO assurance review and the Auditor-General’s conclusion.22
+16 ANAO, 2022–23 MPR, pages 5–6.
+17 ANAO, 2022–23 MPR, p. 6.
+18 ANAO, 2022–23 MPR, p. 6.
+19 ANAO, 2022–23 MPR, p. 25.
+20 ANAO, 2022–23 MPR, p. 27.
+21 ANAO, 2022–23 MPR, p. 27.
+22 ANAO, 2022–23 MPR, p. 27.
+5
+Overview of the 2022–23 Major Projects Report
+1.27 There are twenty major projects in the 2022–23 MPR: two projects entered the MPR
+(Advanced Growler and Heavy Armoured Capability),23 and three projects exited:
+Future Submarines (SEA 1000 Phase 1B); Maritime Operational Support Capability
+(SEA 1654 Phase 3); and Battlefield Airlift – Caribou Replacement (AIR 8000
+Phase 2).24
+Table 1.1 MPR selected projects, budget, slippage, lessons
+Approved Slippage Slippage
+Project Budget (in-year) (total) Lessons*
+(m) (months) (months)
+AIR 6000 Phase 2A/2B—New Air Combat
+$16,424.6 NFP# NFP# Yes
+Capability [Joint Strike Fighter]∞
+SEA 5000 Phase 1—Hunter Class Frigate Design
+$6,148.2 N/A N/A No
+and Construction [Hunter Class Frigate]∞
+LAND 400 Phase 2—Combat Reconnaissance
+$5,657.3 0# 0# No
+Vehicles∞
+AIR 9000 Phase 2/4/6—Multi-Role Helicopter25
+$3,654.5 6# 110# NoΩ
+[MHR90 Helicopters]∞
+SEA 1180 Phase 1—Offshore Patrol Vessel∞ $3,664.1 -2# 0# No
+LAND 121 Phase 3B—Medium Heavy Capability,
+Field Vehicles, Modules and Trailers [Overlander $3,399.7 36# 36# No
+Medium/Heavy]∞
+AIR 555 Phase 1—Airborne Intelligence,
+Surveillance, Reconnaissance and Electronic $2,360.2 NFP NFP26 Yes
+Warfare (ISREW) Capability [Peregrine]
+LAND 907 Phase 2 LAND 8160 Phase 1—Main
+Battle Tank Upgrade, Combat Engineering Vehicles $2,283.0 NFP NFP No
+[Heavy Armoured Capability]
+AIR 7000 Phase 1B—MQ-4C Triton Remotely
+$2,403.7 0# 66# YesΩ
+Piloted Aircraft System [MQ-4C Triton]
+23 These projects applied the Smart Byer framework. ANAO, 2022–23 MPR, pages 4, 35.
+24 These projects had outstanding caveats and significant remaining materiel capability/scope or milestones to
+be delivered. ANAO, 2022–23 MPR, pages 12, 105–106, 126–127.
+25 In December 2021, the government announced plans to investigate other aircraft types to immediately
+replace the MRH90 helicopter fleets. In 2023 there were two incidents, in March and July, involving Army
+MRH90 helicopters, which have resulted in the fleet’s permanent grounding and a subsequent government
+decision that MRH90 helicopters will not return to flying operations prior to the planned withdrawal date in
+December 2024. ANAO, 2022–23 MPR, pages 29–30.
+26 Notification was received from USAF in October 2022 and June 203 of additional delays of aircraft delivery
+and impacting flight test and certification requirements. ANAO, 2022–23 MPR, p. 238.
+6
+Approved Slippage Slippage
+Project Budget (in-year) (total) Lessons*
+(m) (months) (months)
+LAND 121 Phase 4—Protected Mobility Vehicle –
+$1,971.5 12# 12# No
+Light (PMV-L) [Hawkei]∞
+LAND 19 Phase 7B—Short Range Ground Based
+$1,232.8 0# 0# YesΩ
+Air Defence [SRGB Air Defence]
+AIR 2025 Phase 6—Jindalee Operational Radar
+$1,288.0 NFP NFP No
+Network [JORN Mid-Life Upgrade]∞
+AIR 5431 Phase 3—Civil Miliary Air Management
+$1,010.0 0# 57# No
+System [CMATS]∞
+LAND 200 Tranche 2—Battlefield Command
+$971.4 NFP# NFP# NoΩ
+System∞
+JNT 2072 Phase 2B—Battlespace Communications
+$947.4 0# 36# NoΩ
+System Phase 2B [Battle Comm. Sys (Land) 2B]
+SEA 1439 Phase 5B2—Collins Class
+Communications and Electronic Warfare $614.2 0# 30# No
+Improvement Program [Collins Comms and EW]∞
+AIR 5349 Phase 6—Advanced Growler
+$3,200.1 0 0 No
+Development [Advanced Growler]
+SEA 3036 Phase 1—Pacific Patrol Boat
+$502.9 10# 12# No
+Replacement
+SEA 1442 Phase 4—Maritime Communications
+$436.4 NFP# NFP# No
+Modernisation [Maritime Comms]∞
+SEA 1448 Phase 4B—ANZAC Air Search Radar
+$429.5 NFP# NFP# No
+Replacement∞
+TOTAL $58,599 101 (5%) 453 (23%)
+Shading indicates projects where PDSSs indicate certain information is not for publication (NFP).
+∞ ANAO performance audit has been undertaken on this project.
+* Lessons accepted into the Defence Lessons Repository in 2022–23. See discussion on Lessons Learned in chapter 2.
+Ω Project has not established a Lessons Learned Log or Lessons Collection and Management Plan.
+# Slippage data published in 2020–21 (noting not all projects in 2022–23 report were contained in 2020–21 report). The
+ANAO did not publish a complete analysis of schedule performance in 2021–22.27
+Source: ANAO, 2022–23 Major Projects Report, pages 3–4, 7–8, 19, 44, 83.
+1.28 Thirteen of the projects have been examined in an ANAO performance audit.28 An
+audit in 2021 on the implementation by Defence of ANAO and Parliamentary
+Committee Recommendations found:
+27 Aggregate schedule data for 2021–22 was not reported in the MPR due to the combined effect of four
+projects not having a settled final operational capability (FOC) date, and Defence’s decision to not publish
+FOC forecast dates in three PDSSs. ANAO, 2021–22 Major Projects Report, p. 43; ANAO, 2020–21 Major
+Projects Report, p. 13.
+28 For a full list of ANAO reports, see: ANAO, 2022–23 MPR, p. 83.
+7
+With respect to the 32 agreed parliamentary committee and ANAO performance
+audit recommendations examined in this audit, the ANAO assessed 15 (46.9 per
+cent) as implemented, six (18.8 per cent) as largely implemented, four (12.5 per
+cent) as partially implemented and seven (21.9 per cent) as not implemented.
+Defence has appropriate governance arrangements for responding to, monitoring
+and implementing ANAO recommendations and partially appropriate governance
+arrangements for parliamentary committee recommendations.29
+Project performance analysis
+1.29 In addition to its limited assurance review, the ANAO analyses the Defence PDSSs
+to provide information on project performance. It does so on the basis of: cost,
+schedule, and capability/scope. The ANAO found cost management was an ongoing
+process in Defence’s administration of major projects, and delivery of major projects
+on schedule continues to present challenges.30
+Cost analysis
+1.30 While Defence reported the projects in the MPR could continue to operate within the
+total approved budget of $58.6 billion, this total approved budget had increased by
+$22.8 billion, or 39 per cent, since initial second pass approval by government.31
+1.31 The MPR does not report on a range of acquisition-related expenses including
+ongoing costs of project offices, training, and replacement capability.32
+1.32 Projects where budget variations were greater than $500 million included:
+• Budget variations due to scope increases
+MHR90 Helicopters—$2.6 billion (34 additional aircraft at Phase 4/6 Second
+o
+Pass Approval)33
+Joint Strike Fighter—$10.5 billion (58 additional aircraft at Stage 2 Second
+o
+Pass Approval)34
+MQ-4C Triton—$1.4 billion (approvals including Second Pass Approvals for
+o
+three additional aircraft and supplemental funding for first 7 years)35
+29 ANAO, Implementation of ANAO and Parliamentary Committee Recommendations – Department of
+Defence, Report No. 34 2020–21, p. 6.
+30 ANAO, 2022–23 MPR, pages 15, 17, 19, 20.
+31 ANAO, 2022–23 MPR, p. 15.
+32 ANAO, 2022–23 MPR, p. 15. See also, pages 39–40.
+33 Net increase of $2.7 billion from approved budget at initial Second Pass Approval and approved budget at
+30 June 2023. ANAO, 2022–23 MPR, pages 17, 55.
+34 Net increase of $13.7 billion from approved budget at initial Second Pass Approval and approved budget at
+30 June 2023.. ANAO, 2022–23 MPR, pages 17, 55.
+35 Net increase of $1.5 billion from approved budget at initial Second Pass Approval and approved budget at
+30 June 2023.. ANAO, 2022–23 MPR, pages 17, 56.
+8
+Advanced Growler—$2.9 billion (Second Pass Approval for Tranche 1
+o
+acquisition and sustainment of midband capability and training range
+upgrades)36
+• Budget variations due to real cost increases
+Overlander Medium/Heavy—$0.7 billion (project supplementation ($684.2
+o
+million) and additional vehicles, trailers and equipment ($28 million) at
+Revised Second Pass Approval).37
+1.33 During the hearing, Defence told the Committee ‘in terms of real cost increases—
+where the project has gone over its government approved budget—there hasn’t been
+a real cost increase for these projects captured in the MPR since … 2018’.38
+1.34 The Overlander Medium/Heavy is identified in the ANAO’s MPR review and analysis
+as a project subject to real cost increases: a combination of ‘project supplementation’
+($684.2 million) and additional vehicles/trailers/equipment ($28 million). The ANAO
+stated:
+Defence has advised that ‘project supplementation’ is a unique term used to
+describe the approvals history of this project as follows: ‘The original amount of
+$2549.2, was the Government decision to split Phase 3 into Phase 3A and 3B. In
+2011, Government approved Second Pass approval of Phase 3A and the ‘Interim
+Pass’ Government approval for Phase 3B. The decision to grant Phase 3B
+‘Interim Pass’ was to allow greater bargaining power for Defence while
+negotiating Phase 3A. Phase 3B was always going to return to Government for
+formal Second Pass approval, which occurred in July 2013, once contract
+negotiations were complete.39
+1.35 In-year budget variance analysis found a 7.9 per cent increase ($4.3 billion) in the
+approved budget for the selected projects at 30 June 2023, in comparison to their
+approved budget a year earlier, due to:
+• net real increase of $3 billion, primarily reflecting changes in scope, transfers
+between projects for approved capability/equipment and budgetary adjustments
+(Advanced Growler, MQ-4C Triton, and JORN Mid-Life Upgrade had significant
+real variations)
+• exchange rate variation of $1.3 billion (including Joint Strike Fighter, Heavy
+Armoured Capability, MQ-4C Triton).40
+1.36 Actual in-year expenditure for the major projects was $4.2 billion, compared to the
+initial portfolio budget statements forecast expenditure of $4.4 billion; mid-year
+36 Increase of $2.9 billion from approved budget at initial Second Pass Approval and approved budget at
+30 June 2023. ANAO, 2022–23 MPR, pages 17, 56.
+37 Net increase of $0.8 billion from approved budget at initial Second Pass Approval and approved budget at
+30 June 2023. ANAO, 2022–23 MPR, pages 17, 55.
+38 Mr Chris Deeble, Deputy Secretary, Capability Acquisition and Sustainment Group, Department of Defence
+(Defence), Committee Hansard, 24 April 2024, p. 3.
+39 ANAO, 2022–23 MPR, p. 17.
+40 Note: amounts rounded. ANAO, 2022–23 MPR, p. 60.
+9
+portfolio additional estimates statements of $4.7 billion; and a final forecast of $4.3
+billion.41 Variances (both under and over) reflected a number of factors, including:
+• Joint Strike Fighter: deferrals and delays, earlier contracts invoicing, and
+reconciled historical invoices
+• Hunter Class Frigates: payments of UK Licence fee
+• Combat Reconnaissance Vehicles: milestone schedule and commercial reset of
+prime contract, and delays to prime contract milestones, procurement and delivery
+• Offshore Patrol Vessel: expected delivery of milestones and delays to milestones;
+funding of some activities by another area in Defence
+• Heavy Armoured Capability: timing of Second Pass Approval, timing of
+disbursements
+• Battlefield Command System: milestone slippage and imposition of Stop
+Payments, reduction in contract scope.42
+Schedule analysis
+1.37 The ANAO found schedule performance continues to be an issue in delivering and
+sustaining Defence equipment and capability, which can introduce or exacerbate a
+capability gap, or require the extension to the planned withdrawal date of platforms.43
+1.38 Defence continues to argue the longitudinal schedule delay measure (aggregated in
+year schedule slippage) used by the ANAO ‘is not necessarily a helpful measure in
+understanding … performance’. Defence is of the view that ‘schedule delay needs to
+be contextualised by a delivery delay context and risk’.44
+1.39 Defence appears to be arguing aggregated slippage gives some impression of an
+even distribution of slippage across projects. Defence stated, ‘removal of Multi Role
+Helicopter MRH 90 AIR9000 Phase 246 alone from the 2023–24 Major Projects
+Report will improve Defence's schedule performance by around 25 per cent’.45
+1.40 Further, Defence stated ‘schedule risk increases proportionally with complexity of the
+undertaking’.46 In and of itself, this suggests Defence might account for project
+complexity in its schedules, particularly where projects are, as explained by Defence,
+at the ‘cutting edge of technological engineering and industrial capability’ and
+inevitably involving risk.47 The ANAO itself emphasised the importance of accurate
+initial assessments of project complexity, noting the troubled MHR 90 project was
+originally categorised by Defence as ACATII, amended by Defence to ACAT I
+41 Note: amounts rounded. ANAO, 2022–23 MPR, p. 62.
+42 ANAO, 2022–23 MPR, pages 62–63.
+43 ANAO, 2022–23 MPR, p. 66.
+44 Mr Chris Deeble, Defence, Committee Hansard, 24 April 2024, p. 2.
+45 Mr Chris Deeble, Defence, Committee Hansard, 24 April 2024, p. 2.
+46 Mr Chris Deeble, Defence, Committee Hansard, 24 April 2024, p. 2.
+47 Mr Chris Deeble, Defence, Committee Hansard, 24 April 2024, p. 2.
+10
+subsequent to second pass approval, then in December 2020 identified as a
+‘developmental platform’.48
+1.41 In the past a range of factors have contributed to slippage of final operational
+capability (FOC), including management of platform availability, projects with
+developmental content, and projects with greater complexity.49 ANAO analysis found
+current MPR projects showing significant slippage tended to be developmental in
+nature, including the MHR90 Helicopters, MQ-4C Triton, and CMATS.50
+1.42 Defence identified a broad range reasons for schedule slippage in the following
+projects with large published FOC variations:
+• Collins Class Comm and EW: difficulties engaging subcontractors in the project’s
+early phases; delays associated with cyber security accreditation and end-to-end
+sustainment requirements
+• CMATS: protracted negotiations; schedule delays from post-contract inclusion of
+scope incorporated through contract change proposals; persistent schedule
+performance issues due to design and technical issues
+• MQ-4C Triton: incremental approach to acquisition incurred a four-year delay to
+FOC when the United States Navy prioritised other capabilities during the
+production phase
+• Battlespace Communications System: COVID-19 related delays.51
+Table 1.2 Major projects schedule slippage
+Detail 2023–24 2020–21
+Total schedule slippage compared to initial schedule* 453 months 405 months
+Increase of total schedule slippage since Second Pass Approval 23% –
+Average schedule slippage 25 months 23 months
+In-year schedule slippage 101 months 73 months
+Increase in-year schedule slippage since Second Pass Approval 5% –
+* Battlefield Command System excluded form analysis due to Auditor-General’s Qualified Conclusion.
+Source: ANAO, 2022–23 Major Projects Report, pages 18–19.
+1.43 In 2022–23, nine projects (45 per cent) did not disclose an FOC forecast date in the
+PDSS (eight projects),52 or did not have a settled FOC date (one).53
+48 ANAO, 2022–23 MPR, p. 75.
+49 ANAO, 2022–23 MPR, p. 20.
+50 ANAO, 2022–23 MPR, p. 71.
+51 ANAO, 2022–23 MPR, p. 93.
+52 Joint Strike Fighter, Advanced Growler, Peregrine, Heavy Armoured Capability, JORN Mid-Life Upgrade,
+Battlefield Command System, Maritime Comms, ANZAC Air Search Radar Replacement.
+53 Hunter Class Frigate—no FOC date was approved by government at 30 June 2023. ANAO, 2022–23 MPR,
+pages 19, 66.
+11
+1.44 Forty percent of in-year schedule slippage was accounted for by seven of the eight
+projects where FOC forecast dates were not disclosed.54 Due to the non-inclusion of
+key schedule information by Defence in several PDSSs, the ANAO was not in a
+position to publish a complete analysis of schedule performance on a project-by-
+project basis, as it had in the past.55
+Capability analysis
+1.45 While outside the scope of the Auditor-General’s formal review conclusion, the ANAO
+provides an assessment of progress towards the delivery of capability as approved
+by government, to provide perspective on project performance.56
+Table 1.3 MPR capability analysis
+Detail Number
+Green: Projects reporting they will deliver all capability/scope 9 (45%)
+Amber: Projects reporting challenges with expected capability/scope delivery; some
+elements of capability/scope to be delivered may be ‘under threat,’ but the risk is 5 (25%)
+assessed as ‘manageable’57
+Red: Projects reporting they are unable to deliver all required capability/scope by FOC58 6 (30%)
+Source: ANAO, 2022–23 Major Projects Report, pages 20–21, 78–80.
+1.46 In the previous MPR, the ANAO stated Defence’s MPR capability reporting was
+subjective because Defence made certain assumptions in forecasting
+achievements.59
+1.47 It is not clear whether Defence has updated its methodology for capability forecasting
+for the 2022–23 MPR, though the Committee has, in several past reports,
+encouraged Defence to find a more robust and objective measure of capability
+performance.60
+1.48 The Auditor-General issued a qualified conclusion on the MPR in part due to material
+inconsistencies in the Battlefield Command System PDSS regarding the degree of
+confidence that materiel capability would be met (see below).61 Forecast information
+is not included in the limited assurance engagement due to the lack of Defence
+systems to provide complete and accurate evidence, in a sufficiently timely manner,
+54 ANAO, 2022–23 MPR, p. 19.
+55 ANAO, 2022–23 MPR, p. 75.
+56 ANAO, 2022–23 MPR, p. 20.
+57 Hunter Class Frigate, Offshore Patrol Vessel, Overlander Medium/Heavy, MQ-4C Triton, Battlefield
+Command System.
+58 Joint Strike Fighter; MHR90 Helicopters; Hawkei; JORN Mid-Life Upgrade; Battle Comm. Sys. (Land) 2B,
+Battlefield Command System.
+59 ANAO, 2022–23 MPR, p. 80.
+60 See: JCPAA, Report 496 Inquiry into Defence Major Projects Report 2020–21 and 2021–22 and
+Procurement of Hunter Class Frigates: Interim Report on the 2020–21 and 2021–22 Defence Major Projects
+Report, p. 6. See also, footnote 21.
+61 ANAO, 2022–23 MPR, p. 120.
+12
+to facilitate the review. However, material inconsistencies are considered in forming
+the Auditor-General’s conclusion.62
+Auditor-General’s Qualified Conclusion
+1.49 The Auditor-General issued a ‘Qualified Conclusion’ for the 2022–23 MPR:
+Based on the procedures I have performed and the evidence I have obtained,
+except for the effects of the matters described in the Bases for Qualified
+Conclusion, nothing has come to my attention that causes me to believe that the
+information in the 20 Project Data Summary Sheets (PDSSs) in Part 3 and the
+Statement by the Secretary of Defence, excluding the forecast information, and
+major risks and issues, has not been prepared in all material respects in
+accordance with the 2022–23 Major Projects Report Guidelines (the Guidelines),
+as endorsed by the Joint Committee of Public Accounts and Audit (JCPAA) on
+23 September 2022.63
+1.50 The following information was excluded from the scope of the engagement, though
+material inconsistencies identified in relation to forecast information and major risks
+and issues, were considered in forming the conclusion:
+• Section 1.2 Current Status — Materiel Capability/Scope Delivery Performance
+and Section 4.1 — Measures of Materiel Capability/Scope Delivery Performance
+• Section 1.3 Project Context — Major Risks and Issues, and Section 5 — Major
+Risks and Issues
+• Section 2.4 — Australian Industry Capability
+• forecast dates where included in each PDSS.64
+1.51 As a limited assurance engagement, the Auditor-General stated the level of
+assurance is ‘substantially lower’ than the assurance that would be obtained from a
+reasonable assurance opinion. The Auditor-General did ‘not express a reasonable
+assurance opinion on whether the PDSSs and the Statement by the Secretary of
+Defence are prepared in all material respects in accordance with the Guidelines.65
+Bases for qualified conclusion
+1.52 The Auditor-General provided two reasons for the qualified conclusion:
+• The LAND 200 Tranche 2 Battlefield Command System PDSS is
+materially inconsistent with evidence obtained during the course of the
+62 ANAO, 2022–23 MPR, p. 119.
+63 ANAO, 2022–23 MPR, p. 119.
+64 ANAO, 2022–23 MPR, p. 119.
+65 ANAO, 2022–23 MPR, p. 124.
+13
+review. The material inconsistencies relate to the degree of confidence
+that materiel capability will be met; and
+• Defence removed previously reported lessons learned from all 2022–23
+PDSSs. The information disclosed instead does not satisfy the
+requirements of the Guidelines and is materially inconsistent with
+evidence obtained by the ANAO.66
+1.53 The Statement by the Secretary of Defence was signed on 23 January 2024, prior to
+the Auditor-General’s Independent Assurance Report (30 January 2024). The
+Secretary’s statement provides his opinion that the PDSSs for the 20 major
+acquisition projects that form part of the MPR ‘comply in all material respects with the
+Guidelines and reflect the status of the projects, as at 30 June 2023’.67
+1.54 The Secretary of Defence was responsible for the preparation and presentation of
+the PDSSs in accordance with the Guidelines; and the Guidelines require that the
+PDSSs and supporting evidence are complete and accurate.68
+LAND 200 Tranche 2 Battlefield Command System
+1.55 The Auditor-General stated with regard to the LAND 200 Tranche 2 Battlefield
+Command System:
+The disclosed degree of confidence that materiel capability will be met has not
+changed from the prior year despite evidence that there has been a reduction in
+materiel capability and scope delivery.69
+1.56 Further, the ANAO found further material inconsistencies in the PDSS in section 1.3
+which does not specifically acknowledge the following ‘Other current related
+projects/phases’:
+• the LAND 400 Phase 2 Combat Reconnaissance Vehicles PDSS reports it is
+reliant on delivery of two subsystems to be delivered by LAND 200 Tranche 2
+(the Battlefield Management System and Tactical Communications Network)70
+• the JNT 2072 Phase 2B Battle Comm. Sys. (LAND) 2B PDSS reports that the
+JNT 2072 Phase 3 project capability is a related project and that JNT 2072 Phase
+3 is aligned with LAND 75 Phase 4 as part of a second tranche of LAND 200, with
+the capability being a vital function of the Battle Management System (BMS).71
+1.57 During the public hearing, the ANAO stated:
+… what the PDSS doesn't mention sufficiently clearly is that other projects, such
+as LAND 400, are also reliant on delivery of LAND 200 capabilities. You have to
+66 ANAO, 2022–23 MPR, pages 11, 120.
+67 ANAO, 2022–23 MPR, pages 124, 125, 128.
+68 ANAO, 2022–23 MPR, p. 123.
+69 ANAO, 2022–23 MPR, p. 120.
+70 ANAO, 2022–23 MPR, pages 120, 218.
+71 ANAO, 2022–23 MPR, pages 120, 305.
+14
+go to page 218, which is a different PDSS, to find that information disclosed …
+what we were trying to draw out was that the PDSS on its face did not provide all
+the disclosures that were necessary for the Parliament to track through the
+consequences, and there were elements of other projects that were also
+dependent on LAND 200.72
+Lessons learned
+1.58 On the removal of lessons learned from all PDSSs, the Auditor-General stated the
+Guidelines required disclosure of a description of the project lesson (at the strategic
+level) that has been learned. Projects are also to state whether ‘Systemic Lessons’
+have been identified.73
+1.59 The Auditor-General stated Defence’s statement in each PDSS that ‘the project has
+not categorised any of its lessons information as a whole-of-Defence Lessons
+Learned’, and the disclosure of only three project level lessons and a summary of the
+lesson categories applied overall to each project:
+… does not satisfy the requirements of the MPR Guidelines and is materially
+inconsistent with evidence obtained during the course of the review.74
+Emphasis of matter
+1.60 The Auditor-General emphasised the impact of the Security Review undertaken by
+Defence that resulted in information being classified as ‘not for publication’ in 12 of
+the 20 PDSSs, noting this was an increase from 4 in the 2021–22 MPR.75
+1.61 Defence’s responses to these three issues will be discussed in chapter 2.
+72 Dr Tom Ioannou, ANAO, p. 5.
+73 ANAO, 2022–23 MPR, p. 120.
+74 ANAO, 2022–23 MPR, p. 120.
+75 ANAO, 2022–23 MPR, p. 121.
+15
+
+2. Themes and issues
+2.1 The Committee, during the course of its inquiry, examined a number of issues as it
+considered how to ensure the continuing value of the MPR as a mechanism to
+improve the accountability and transparency of the Department of Defence’s
+(Defence) acquisitions. A number of matters were raised in the Auditor-General’s
+Independent Assurance Report, which the Committee examined in further detail. The
+Committee sought to understand the rationale for a growing amount of data being
+classified as not for publication (NFP), which was the subject of an emphasis of
+matter by the Auditor-General, and how transparency might be maintained in a more
+complex strategic environment. It also addressed the bases for the Auditor-General’s
+qualified conclusion: the removal of lessons learned from the project data summary
+sheets (PDSSs) and the applicability to the MPR of internal Defence policy changes;
+and the accuracy of the PDSS for the Battlefield Command System (BCS).
+2.2 The Committee also returned to issues that have been of interest over past MPRs,
+including the requirement for, and publication of, Australian Industry Capability (AIC)
+plans, considered a key means to grow the sovereign industrial base; the
+implementation and administration of a risk management system; contingency
+statements and management of contingency budgets, including the continuing
+misalignment of contingency allocation and identified risks; and the use of non-
+specific terminology to describe milestones that have been achieved in principle but
+have outstanding actions to be rectified or mitigated.
+2.3 More generally with regard to Defence acquisitions, the Committee was interested to
+understand the interface between capability and delivery managers in the context of
+scope creep; compliance with Commonwealth Procurement Rules; and the inclusion
+of military-off-the-shelf options in all procurements so as to provide a baseline for
+timeliness and value for money considerations.
+2.4 Given the importance of the MPR as a tool for accountability, the Committee, as it
+has done previously, considered views on how the MPR might evolve so as to fulfil
+its primary purpose, which as discussed in chapter 1, is to provide the Parliament
+and the Australian public with accessible, transparent and accurate information about
+the state of Defence’s major acquisitions projects while these projects are still in
+train.
+Creeping secrecy through ‘not for publication’
+2.5 As it has previously, the Committee examined again the impact of the classification of
+data as NFP, noting the ANAO’s view NFP classifications were producing a reduced
+17
+level of transparency and accountability.1 Given the purpose of the MPR is to provide
+transparency and accountability to the Parliament and other stakeholders, the
+Committee considered whether it was sufficient for the ANAO to provide assurance
+on classified data, and whether this was appropriately the role of the Auditor-General.
+2.6 The growing classification of information as NFP was the subject of an ‘emphasis of
+matter’ in both the 2021–22 and 2022–23 Independent Assurance Reports. The
+purpose of an emphasis of matter is to draw attention to a matter where the Auditor-
+General is of the view awareness of the disclosure is fundamental to the reader’s
+understanding of the PDSSs and the Statement by the Secretary of Defence.2
+2.7 In the 2021–22 MPR, schedule information for four (19 per cent) of the 21 projects
+was affected by NFP classifications.3 While this information was provided to the
+ANAO for review and the ANAO obtained assurance over the information, the
+Auditor-General noted it was the first time forecast dates and variance information
+were not available to users of the MPR. As a consequence, the ANAO stated that
+year it ‘was not in a position to publish a complete analysis of schedule performance
+for the suite of MPR projects, as in the past’. The extent of the NFP information was
+such that the ANAO judged the 2021–22 MPR provided a ’reduced level of
+transparency and accountability to Parliament and other stakeholders’.4
+2.8 In the 2022–23 MPR, Defence advised the ANAO it had decided certain information
+relating to forecast dates, capability delivery information and variance information
+was classified NFP and would not be included in the PDSSs for 12 of the 20
+projects—or 60 per cent of the PDSSs. The affected projects account for almost 64
+percent of the aggregate budget of projects contained in the MPR.5
+2.9 Specifically, eight projects in 2022–23 (three in 2021–22) did not disclose a Final
+Operational Capability (FOC) forecast date—affecting 40 per cent of PDSSs.6 Final
+operational capability is the key milestone that forms the basis for the majority of the
+ANAO’s schedule analysis, including aggregate analysis of total schedule slippage
+across projects, average schedule slippage across projects, and in-year schedule
+slippage across projects.7
+2.10 The ANAO judged the extent of the NFP information meant the MPR, again, provided
+a ‘reduced level of transparency and accountability to Parliament and other
+stakeholders’.8 While it was possible for the ANAO to provide greater aggregate
+performance information than previously—with the large number of projects subject
+1 Australian National Audit Office (ANAO), 2022–23 Major Projects Report, Report No. 14, 2023–24, hereafter
+2022–23 MPR, p. 18.
+2 ANAO, 2022–23 MPR, p. 6.
+3 Offshore Patrol Vessel, Peregrine, SRGB Air Defence, JORM Mid-Life Upgrade. ANAO, 2022–23 MPR, p. 6.
+4 ANAO, 2022–23 MPR, pages 6–7.
+5 ANAO, 2022–23 MPR, pages 7, 28.
+6 These projects are the Joint Strike Fighter, Advanced Growler, Peregrine, Heavy Armoured Capability, JORN
+Mid-Life Upgrade, Battlefield Command System, Maritime Comms, and ANZAC Air Search Radar
+Replacement. ANAO, 2022–23 MPR, p. 18.
+7 ANAO, 2022–23 MPR, p. 48 (fn 90).
+8 ANAO, 2022–23 MPR, p. 11.
+18
+to classification, it was not possible to derive NFP information for individual projects
+from the aggregate analysis—the MPR did not provide the same level of information
+on individual project performance compared to 2020–21 and previous years.9
+2.11 The ANAO stated with regard to the trend:
+There has been a reduction in the level of transparency and accountability, to the
+Parliament and other stakeholders, over the MPR projects since the 2020–21
+MPR.10
+2.12 The table below, reproduced from the report, identifies the projects and respective
+sections of the PDSSs affected by NFP decisions. It is reproduced in its entirety to
+provide an accurate picture of the classification Defence is assigning to PDSS
+information.
+Table 2.1 Project Data Summary Sheets affected by not for publication decisions
+NFP in section 3.3 of PDSS
+NFP in other sections of PDSS
+(material release/operational capability)
+AIR6000 Phase 2A/2B Joint Strike Fighter
+Final Materiel Release (FMR) Sections 1.3, 2.1, 3.2, 5.1 and 5.2 – Information relating to
+capability, weapons delivery and delays of acceptance of
+Final Operational Capability (FOC)
+final air vehicles
+Post-Final Operational Capability
+Section 4.2 – Post-Final Operational Capability details
+Milestone dates and variance information
+LAND400 Phase 2 Combat Reconnaissance Vehicles
+N/A Sections 1.3, 5.1 and 5.2 – Information relating to Issue 4
+and air transport dates
+AIR5349 Phase 6 Advanced Growler
+Initial Materiel Release (IMR) Section 1.1 – Jammer type information
+Initial Operational Capability (IOC) Section 2.3B – Information relating to weapons quantities
+Final Materiel Release (FMR) Section 4.2 – IMR, IOC, FMR and FOC forecast dates
+Final Operational Capability (FOC)
+Milestone dates and variance information
+AIR7000 Phase 1B MQ-4C Triton
+N/A Section 3.2 – Information relating to the delivery date for
+Test and Evaluation–Acceptance
+Section 1.2 and 4.1 – Delays in delivery of the initial
+Misson Control System
+9 ANAO, 2022–23 MPR, p. 13.
+10 ANAO, 2022–23 MPR, p. 48.
+19
+NFP in section 3.3 of PDSS
+NFP in other sections of PDSS
+(material release/operational capability)
+AIR555 Phase 1 Peregrine
+Initial Materiel Release (IMR) Section 1.2 – Information relating to schedule dates
+Initial Operational Capability (IOC) Section 3.2 – Information relating to delivery dates for test
+and evaluation
+Final Materiel Release (FMR)
+Section 4.2 – IMR, IOC, FMR and FOC forecast dates
+Final Operational Capability (FOC)
+Milestone dates and variance information
+LAND907 Phase 2/LAND8160 Phase 1 Heavy Armoured Capability
+Initial Materiel Release (IMR) Section 3.1 – Information relating to achievement of Major
+System/Platform Variants
+Initial Operational Capability (IOC)
+Section 3.2 – Information relating to delivery dates for test
+Final Materiel Release (FMR)
+and evaluation
+Final Operational Capability (FOC)
+Section 4.2 – IMR, IOC, FMR and FOC forecast dates
+Milestone dates and variance information
+AIR2025 Phase 6 JORN Mid-Life Upgrade
+Initial Materiel Release (IMR) Section 1.2 – Schedule performance modified
+Initial Operational Capability (IOC) Section 3.1– Information relating to delivery dates for
+Design Review Progress
+Final Materiel Release (FMR)
+Section 3.2 – Information relating to delays in delivery,
+Final Operational Capability (FOC)
+including variance
+Milestone dates and variance information
+Section 4.2 – IMR, IOC, FMR and FOC forecast dates
+LAND19 Phase 7B SRGB Air Defence
+Initial Materiel Release (IMR) and Initial Section 1.2 – Schedule performance modified
+Operational Capability (IOC) reported as Section 2.3B – Information relating to quantities of
+‘delayed’ equipment purchased from the US government.
+Milestone dates and variance information not for Section 3.2 – Information relating to delivery date for test
+publication and evaluation, delays in delivery of Fire Units, and CEA
+Radars
+Section 4.2 – IMR and IOC forecast dates
+LAND 200 Tranche 2 Battlefield Command System
+Initial Materiel Release (IMR) Section 3.1 – Information relating to delivery dates for
+design review including delivery and variance
+Initial Operational Capability (IOC)
+Section 3.2 – Information relating to delivery dates for test
+Final Materiel Release (FMR)
+and evaluation, and delays in delivery, including variance
+Final Operational Capability (FOC)
+Section 4.2 – IMR, IOC, FMR and FOC forecast dates
+Milestone dates and variance information
+SEA1439 Phase 5B2 Collins Comms and EW
+Initial Operational Capability (IOC) (Stage 1, 2 Section 1.2 – Delays in delivery, including variance
+and MWES)
+Section 4.2 – IOC forecast date
+20
+NFP in section 3.3 of PDSS
+NFP in other sections of PDSS
+(material release/operational capability)
+Final Materiel Release (Stage 1)
+Milestone dates and variance information
+Reasons for delays not for publication
+SEA1442 Phase 4 Maritime Comms
+Initial Operational Capability (IOC) Section 1.2 and 2.2A – Milestone dates and variance
+Materiel Releases (Ships 6 and 7) Section 3.2 – information relating to: delivery dates for test
+and evaluation; delays in delivery of ships 6, 7 and 8; and
+Final Materiel Release (FMR)
+variance
+Final Operational Capability (FOC)
+Section 4.2 – IOC, FMR and FOC forecast dates
+Milestone dates and variance information
+SEA1448 Phase 4B ANZAC Air Search Radar Replacement
+Final Materiel Release (FMR) Section 1.2 – schedule performance modified in relation to
+FMR and FOC delays
+Final Operational Capability (FOC)
+Section 3.2 – information relating to delivery dates for test
+Milestone dates and variance information
+and evaluation, system integration and acceptance, and
+variance
+Section 4.2 – FMR and FOC forecast dates
+Source: ANAO, 2022-23 Major Projects Report, pages 8-11.
+2.13 Defence explains its NFP classifications as responsible decision making in the
+context of changing strategic circumstances over the past 16 years:
+Defence is responsible for ensuring that the information in the MPR is suitable for
+unclassified publication … Defence has assessed that some details, both in
+respect of individual projects and in aggregate, would or could reasonably be
+expected to cause damage to the security, defence or international relations of
+the Commonwealth without sanitisation of the data.11
+2.14 Nevertheless, the Committee was told the NFP assessment was a ‘subjective
+assessment’:
+There is no empirical data. It's on the basis of us looking at what the capability
+implications might be. Certain components of the information will come to light,
+but certain things like scope changes, inventory changes, when a capability
+comes online, what it can and it can't do—these become very important from an
+operational security perspective.12
+2.15 Defence acknowledged the amount of information on the public record changed over
+time. However, Defence’s reliance on a ‘geostrategic circumstances’ rationale means
+11 ANAO, 2022–23 MPR, p. 90.
+12 Major General Anthony Rawlins, Head of Force Design, Department of Defence (Defence), Committee
+Hansard, 24 April 2024, p. 10.
+21
+given the current geostrategic context the direction is towards greater secrecy not
+transparency. For instance, Defence stated where certain types of information were
+previously approved for publication, it may be decided if that information remains on
+the public record, ‘it could do us egregious damage in terms of our operational
+security’.13 Problematically, if the information was in the public domain already it
+would remain public. The implication is classifying information as NFP is considered
+prudent.
+2.16 Defence stated it understood the requirement for transparency as to capabilities,
+delays and scope changes. However, it stated:
+As you start to work your way down through the MPR, there comes an
+assessment as to which elements of them in the changing geostrategic
+circumstance would potentially confer an advantage to those who will either
+coerce or bring to play capabilities against us.14
+Committee comment
+2.17 The Committee has previously considered the tension between the need for
+transparency and accountability through the MPR process and the fact there may be
+legitimate national security grounds upon which some information might be classified.
+The Committee does not dispute, as a matter of principle, that the classification of
+some information is reasonable. Accountability runs two ways: to the Parliament, and
+for the information that is put in the public domain.
+2.18 However, the ANAO has previously raised justified concerns about its duty to provide
+adequate transparency to the Parliament, and about continuing to provide assurance
+over information that is not published.
+2.19 Defence acquisitions involve the expenditure of significant sums of public money and
+transparency and accountability, provided through such mechanisms as the MPR,
+are important for fostering public confidence in the activities of government.
+2.20 The Committee previously recommended in Report 503 that the ANAO provides a
+confidential submission dealing with information required to be withheld from
+publication in the PDSSs due to national security considerations; and that Defence
+organises a confidential briefing with regard to that information.15 The Committee
+awaits a response from the ANAO and Defence on this recommendation.
+2.21 In the interim, the Committee notes with further concern the continuing decline in
+transparency since 2020–21, with NFP decisions now affecting 60 percent of PDSSs
+for projects accounting for almost 64 per cent of the aggregate budget of projects in
+the MPR. The acceleration in classification, from affecting 19 per cent of PDSSs in
+13 Major General Anthony Rawlins, Defence, Committee Hansard, 24 April 2024, p. 10.
+14 Major General Anthony Rawlins, Defence, Committee Hansard, 24 April 2024, p. 10.
+15 Joint Committee of Public Accounts and Audit (JCPAA), Report 503: Inquiry into the Defence Major Projects
+Report 2020–21 and 2021–22 and Procurement of Hunter Class Frigates: Final Report, June 2024, hereafter
+Report 503, p. 14.
+22
+2021–22 to 60 percent in 2022–23, has occurred without an assurance the increased
+redactions are reasonable.
+2.22 The Committee will review with interest the 2023–24 MPR—an ongoing reduction in
+transparency to the extent observed between 2020–21 and 2022–23 raises
+fundamental questions about the value and purpose of the MPR, and legitimate
+questions as to how the Committee receives assurance that Defence’s redactions or
+judgements, which it admits are based on subjective assessments, are reasonable.
+2.23 Should it become necessary, the Committee may need to seek more detailed
+briefings on an item by item basis to satisfy its scrutiny function.
+Lessons learned
+2.24 In its interim report to the 2020–21 and 2021–22 MPRs, Report 496, the Committee
+emphasised the importance of capturing centrally, lessons learned for new projects in
+a broader strategic context where Defence is required to accelerate its capability
+acquisitions processes. The Committee also noted consistent issues with lessons
+across previous MPRs, for instance, compliance with requirements for lessons
+learned logs.16 In combination with the trend towards increasingly technical and
+complex acquisitions, Defence cannot successfully accelerate its acquisition process
+unless it has the ability to learn from past challenges.
+2.25 In May 2020, Defence’s Capability Acquisition and Sustainment Group (CASG),
+released version 2.0 of its Lessons Program Policy. Full compliance with the policy
+was expected by May 2021.17 In the 2020–21 MPR, it was reported Defence was yet
+to fully implement a lessons learned framework and compliance monitoring process;
+full implementation was expected to enable projects to review and apply lessons
+learned to enable more consistent and improved project outcomes.18
+2.26 In February 2022, CASG released version 3.0 of its Lessons Program Policy, and in
+the 2021–22 MPR, the ANAO observed again that Defence was yet to fully
+implement the lessons learned framework and compliance monitoring process. In
+particular, lessons from nine projects were not available in the Defence Lessons
+Repository, and seven projects did not maintain a lessons learned log at all.19
+2.27 In the 2022–23 MPR, the ANAO again observed the major projects were yet to fully
+implement the lessons learned framework and compliance monitoring process.20 Five
+projects have not established a lessons learned log or lessons collection and
+management plan, which is a mandatory requirement under the lessons policy.21 The
+16 JCPAA, Report 496: Inquiry into the Defence Major Projects Report 2020–21 and 2021–22 and Procurement
+of Hunter Class Frigates – Interim Report on the 2020–-21 and 2021–22 Defence Major Projects Report,
+hereafter Report 496, pages 21, 25.
+17 ANAO, 2019–20 MPR, pages 33–34.
+18 ANAO, 2020–21 MPR, p. 35.
+19 JCPAA, Report 496, pages 21–22; ANAO, 2021–22 MPR, p. 39.
+20 ANAO, 2022–23 MPR, p. 44.
+21 ANAO, 2022–23 MPR, p. 44.
+23
+lessons collection and management plan draws on information in the Defence
+Lessons Repository (DLR), which is relevant for the particular project. Projects are
+also required to record their own observations, insights and lessons so as to support
+the planning of future projects.22
+2.28 Of the five projects that have not established a lessons learned log or lessons
+collection and management plan, three have nevertheless had lessons accepted into
+the DLR, suggesting there is some lessons learned process. Two projects did not
+maintain a lessons learned log or lessons collection management plan, or have
+lessons accepted into the DLR in 2022–23—the MHR90 Helicopters and Battlefield
+Command system.23
+2.29 The following table summarises data on lessons learned on projects in the 2022–23
+MPR, across the 2021–22 and 2022–23 MPR. Of the twenty projects in the MPR,
+none of the lessons have been categorized as applicable to the ‘whole-of-defence’ in
+the 2022–23 MPR.
+Table 2.2 2022-23 MPR Projects Lessons Learned - 2021-22 MPR and 2022-23 MPR
+Project Established Accepted into Lessons in Lessons
+(2nd pass approval) Log/Plan CASG/DLR PDSS* Captured#
+[slippage - months] 21-22 22-23 21-22 22-23 21-22 22-23 (*)
+Joint Strike Fighter
+Yes Yes No Yes 8 3 8 (0)
+(Nov 09; Apr 14) [NFP]24
+MHR90 Helicopters
+No No No No 4 3 4 (0)
+(Aug 04; Apr 06) [110]
+Hunter Class Frigate
+Yes Yes No No 3 3 5 (0)
+(Jun 18) [N/A]
+Combat Recon Vehicle
+Yes Yes Yes No 8 3 8 (0)
+(Mar 18) [0]
+Offshore Patrol Vessel
+No Yes No No 0 3 15 (0)
+(Nov 07) [0]
+Overlander Medium/Heavy
+Yes Yes Yes No 17 3 17 (0)
+(Phase 3B: Jul 13) [36]
+Advanced Growler
+- DLR - No - 3 3 (0)
+(Dec 16; Dec 22) [0]
+MQ-4C Triton
+No No No Yes 0 3 3 (0)
+(Tranche 1: Jun 18) [66]
+22 ANAO, 2022–23 MPR, p. 101.
+23 ANAO, 2022–23 MPR, p. 44.
+24 Original planned final operational capability: December 2023. ANAO, 2022–23 MPR, p. 278.
+24
+Project Established Accepted into Lessons in Lessons
+(2nd pass approval) Log/Plan CASG/DLR PDSS* Captured#
+[slippage - months] 21-22 22-23 21-22 22-23 21-22 22-23 (*)
+Peregrine
+Yes Yes No Yes 4 3 4 (0)
+(Sep 17) [NFP]25
+Heavy Armoured Capability
+- Yes - No - 1 1 (0)
+(Dec 21) [NFP]
+Hawkei
+Yes DLR Yes No 6 3 6 (0)
+(Aug 15) [12]
+JORN Mid-Life Upgrade
+Yes DLR Yes No 6 3 6 (0)
+(Dec 17) [NFP]26
+SRGB Air Defence
+No No Yes Yes 4 2 5 (0)
+(Feb 19) [0]
+CMATS
+Yes DLR Yes No 6 3 7 (0)
+(Dec 14) [57]
+Battlefield Command System
+No No Yes No 4 3 4 (0)
+(Sept 17) [NFP]27
+Battle Comm. Sys. (Land) 2B
+No No Yes No 3 3 3 (0)
+(May 15) [36]
+Collins Comms and EW
+Yes Yes Yes No 7 3 8 (0)
+(June 15; Mar 17) [30]
+Pacific Patrol Boat Repl
+Yes Yes No No 4 3 4 (0)
+(Apr 16) [12]
+Maritime Comms
+Yes Yes Yes No 10 3 10 (0)
+(Jul 13) [NFP]28
+ANZAC Air Search Radar Repl
+No Yes No No 5 3 5 (0)
+(Jun 17) [(1)]29
+# Number of lessons captured taken from statement in 2022-23 PDSSs. (*) Lessons categorized as whole-of-defence
+lessons learned.
+Source: ANAO, 2022–23 MPR, p. 44, and project PDSSs; ANAO, 2021–22 MPR, p. 40, and project PDSSs.
+25 Original planned final operational capability: NFP. ANAO, 2022–23 MPR, p. 238.
+26 Original planned final operational capability: January 2029. ANAO, 2022–23 MPR, p. 248.
+27 Original planned final operational capability: June 2022. ANAO, 2022–23 MPR, p. 213.
+28 Original planned final operational capability: December 2023. ANAO, 2022–23 MPR, p. 151.
+29 Original planned final operational capability: June 2024. ANAO, 2022–23 MPR, p. 159.
+25
+Removal of lessons learned from PDSSs
+Defence policy approach
+2.30 The Guidelines require Defence to describe project lessons (at the strategic or
+systemic level) that have been learned.30 Rather than dealing with each lesson
+individually, lessons are grouped under systemic category headings. These
+categories were intended to reflect the strategies adopted at the enterprise level to
+address organisational level lessons, and in the early years of the MPR many of the
+lessons identified were generic across projects and had enterprise-wide
+applicability.31 There are presently seven categories of systemic lessons:
+requirements management; first of type equipment; off-the-shelf equipment; contract
+management; schedule management; resourcing; and governance.32
+2.31 In the 2022–23 MPR, Defence reassessed its approach to reporting on lessons
+learned in its PDSSs and made the unilateral decision to remove content previously
+reported in the PDSSs on the grounds no project identified ‘”systemic” or “strategic”
+“lessons learned”, as defined by the [Defence 2022 CASG Lessons Policy] policy’.33
+In the MPR, 18 projects identify three key project-level lessons; one project identifies
+two lessons; and one project identifies one lesson. These lessons are said to have
+‘potential “systemic” or “strategic” relevance’, have been entered in the DLR, and will
+be formally assessed to be validated as ‘lessons learned’, though the timeframe for
+this is not specified.34
+2.32 The PDSS for each project, at the lessons learned section, now provides a statement
+that specifies a number of lessons that have been captured for each project (which
+may not be the total number of lessons captured) and Defence’s approach to lessons
+learned. The following example is taken from the Battlefield Command System,
+which with only minor variations, is the same for the other major projects in the
+report:
+In line with Defence Instructions and CASG Lessons policy, the project conducts
+scheduled reviews of its captured lessons information (including any
+observations, insights and/or lessons identified) as well as lessons Information
+contained within the Defence Lessons Repository. The project has captured four
+lessons related to Commercial and Schedule Management. Three project
+lessons are provided below (note this does not include all project lessons) …35
+Three lessons are then published—two identified as ‘commercial’ and one as
+‘schedule management’. One of the ‘commercial’ lessons appears to be an evolution
+from a previously published ‘resourcing’ lesson; the other two lessons do not appear
+30 ANAO, 2022–23 MPR, p. 338.
+31 ANAO, 2009–10 MPR, pages 122, 273.
+32 ANAO, 2022–23 MPR, p. 338.
+33 ANAO, 2022–23 MPR, pages 45, 102.
+34 ANAO, 2022–23 MPR, p. 102.
+35 ANAO, 2022–23 MPR, p. 216.
+26
+to have been published since LAND 200 entered the MPR.36 Though the statement
+identifies that four lessons have been captured related to commercial and schedule
+management, since the 2019–20 MPR, six lessons with regard to the Battlefield
+Command System have been published encompassing resourcing, schedule
+management, contract management, and commercial.37
+2.33 The basis for the lesson count in the PDSS is not clear. In addition to the situation
+noted above for the Battlefield Command System, the Joint Strike Fighter PDSS
+specifies eight lessons have been captured; since 2019–20, nine have been
+published in the MPRs.38 It is also not clear why 18 of the major projects
+coincidentally have only three potential systemic or strategic lessons.
+2.34 Defence made several statements to the ANAO explaining its internal policy change
+and how it applied this to the MPR Guidelines, including:
+• Many of the lessons previously included in PDSSs were at a project level and
+would not be considered strategic lessons of the sort that must be captured under
+Defence’s revised policy.
+• For a ‘lesson’ to be considered a strategic/systemic lesson learned, Defence
+policy requires that it undergoes a lessons assessment and review process.
+• Defence considered that under its lessons assessment and review process, none
+of the 20 major projects had ‘learned’ any strategic/systemic lessons.
+• Defence removed all but three previously reported lessons from its PDSSs.39
+2.35 It is worth reiterating the ANAO’s observation, noted above, that the major projects
+are yet to fully implement the lessons learned framework and compliance monitoring
+process.40
+2.36 Defence told the Committee it was not seeking to reduce transparency by reducing
+the number of lessons contained in the PDSSs:
+I think the approach is to make sure that, in aggregate, as we're looking at these
+projects, we are talking about strategic and systemic issues rather than what
+might be captured at a low project level. So, by default, when you start to
+aggregate a lot of those lessons learnt within individual project activity, there is a
+degree to which, if you try to capture all of those, they can be quite repetitive and
+not necessarily joined at the hip. What we're doing through our change in policy
+in the early 2022 time frame is trying to make sure that we are bringing those to
+36 LAND 200 Tranche 2 entered the MPR in 2019–20; LAND75 Phase 4 was first reported in the 2015–16
+MPR.
+37 ANAO, 2022–23 MPR, p. 216; ANAO, 2019–20 MPR, p. 302; ANAO, 2020–21 MPR, p. 266;
+ANAO, 2021–22 MPR, p. 264.
+38 All nine were published in 2019–20 and 2020–21; eight were published in 2021–22; three in 2022–23.
+ANAO, 2019–20 MPR, p. 140; ANAO, 2020–21 MPR, p. 134; ANAO, 2021–22 MPR, pages 134–135;
+ANAO, 2022–23 MPR, p. 281.
+39 ANAO, 2022–23 MPR, p. 45.
+40 ANAO, 2022–23 MPR, p. 44.
+27
+that strategic level and looking at systemic issues, which often requires an
+interpretation.41
+2.37 Defence suggested it was ‘trying to focus the reader and provide a better
+understanding of what those systemic issues are that we’re confronting and how
+we’re going after and resolving those across all of our projects’.42 This explanation, in
+and of itself, is difficult to understand, given Defence maintains there were no
+validated strategic/systemic lessons learned through any of the 20 major projects in
+the 2022–23 MPR.
+2.38 Some lessons that have been removed from the MPR would potentially seem to have
+broader systemic and strategic applicability. For instance, the following lessons,
+published in the 2021–22 MPR, were removed from the 2022–23 MPR:
+• Battlefield Command System
+The integration of complex ICT systems onto platforms, especially complex,
+developmental platforms, should not be the responsibility of the ICT acquisition
+project. This is because coordination and alignment of outcomes between both
+complex projects becomes increasingly difficult and unmanageable. Instead, the
+scope of the ICT acquisition project should be limited to delivery of the ICT
+mission system (hardware and software) to the platform acquisition project. The
+platform acquisition project should then assume responsibility for integrating the
+ICT mission system onto the platform.43
+• Hawkei
+First-of-type projects contain significant levels of complexity and require
+substantial effort to fulfil the right balance of technical, performance, risk, cost
+and schedule requirements. Appropriate investment is required by projects and
+the contractor from the outset to ensure such requirements are not over-
+optimistically represented or underestimated.
+Projects operating in a developmental environment are to pay greater attention to
+workforce management and project governance. The project is also to frequently
+assess contractor resources, capabilities and capacity in the lead up and during
+project delivery.44
+• Joint Strike Fighter
+Having a dedicated ICT SME team (CIOG) embedded within the Project Office
+was a significant contributor to reducing ICT risks.45
+41 Mr Chris Deeble, Deputy Secretary, Capability Acquisition and Sustainment Group, Defence, Committee
+Hansard, 24 April 2024, p. 7.
+42 Mr Chris Deeble, Defence, Committee Hansard, 24 April 2024, p. 7.
+43 ANAO, 2021–22 MPR, p. 264.
+44 ANAO, 2021–22 MPR, p. 212.
+45 ANAO, 2021–22 MPR, p. 135.
+28
+2.39 Some lessons that remain in the PDSSs are:
+• Hunter Class Frigate
+A Lessons and Opportunities Framework finalised and agreed to ensure lessons
+learnt are more robustly captured, assessed and where relevant encapsulated
+within processes, plans and procedures.46
+• JORN Mid-Life Upgrade
+Maintaining collaboration, transparent communication and disciplined
+engagement with all stakeholders is critical for managing technical requirements
+and effective risk management.47
+• Battlespace Communications System Phase 2B
+Collaborative engagement by the Contractor, CASG and the Capability Manager
+has resulted in better outcomes for the delivered capability.48
+• Pacific Patrol Boat Replacement
+Work with Contractor to ensure the broader implications of key milestone delay
+and quality issues are understood and encourage early advice on delay.49
+Committee comment
+2.40 With regard to the omitted lessons, the Committee notes that in effect Defence has
+changed its own policy for determining lessons and applied this to the MPR, in the
+place of the requirements set out in the Guidelines. The basis for the classification of
+lessons as potentially strategic/systemic and thus contained in the MPR, and not
+strategic/systemic and thus omitted, is not readily evident.
+2.41 The result, in the Committee’s judgement, has been that strategic/systemic lessons
+that hold important insights for Defence are now missing from the MPR, and the
+action has not met Defence’s intention to ‘focus the reader’ by providing a better
+understanding of systemic issues. It would be expected that strategic and systemic
+lessons would in fact be derived from project-level lessons.
+2.42 A change in Defence policy does not override the requirements of the MPR
+Guidelines. While the Committee is always mindful not to require Defence to
+undertake tasks that ultimately offer no value, it is the case that Defence projects are
+required to establish and maintain a lessons learned log and lessons collection and
+management plan, with the ultimate aim of improving project outcomes.
+2.43 Defence should reinstate the lessons learned to the MPR, as required by the
+Guidelines, and the Committee recommends accordingly. However, should Defence
+or the ANAO propose an amendment to the Guidelines that would meet the intent of
+this part of the Guidelines—that Defence projects should review and apply lessons
+46 ANAO, 2022–23 MPR, p. 178.
+47 ANAO, 2022–23 MPR, p. 250.
+48 ANAO, 2022–23 MPR, p. 311.
+49 ANAO, 2022–23 MPR, p. 169.
+29
+learned to enable more consistent and improved project outcomes—the Committee
+would consider it with interest.
+Recommendation 1
+2.44 The Committee recommends that the Australian National Audit Office and
+Department of Defence put forward amendments to the Major Projects Report
+Guidelines that ensure lessons are reinstated to the PDSSs and clarity is
+provided on the nature and scope of lessons to be included so the intent of
+this section of the Guidelines is fulfilled.
+2.45 Since the 2019–20 MPR, the ANAO has noted that Defence has yet to fully
+implement a lessons learned framework and compliance monitoring process. While
+Defence has issued new versions of its policy, compliance remains patchy. Projects
+that arguably could provide some systemic or strategic lessons, such as the
+Battlefield Command System, are identified as not having a lessons learned log or
+lessons collection and management plan. It is notable the MHR90 helicopter project
+did not have a lessons learned log or lessons collection and management plan. This
+is plainly unacceptable. Without full implementation of the lessons learned
+framework, the achievement of more consistent and improved project outcomes is at
+risk. The Committee will monitor this issue with interest in future MPRs.
+PDSS accuracy—Battlefield Command System
+Background
+2.46 As discussed in chapter 1, the accuracy of the PDSS for the Battlefield Command
+System (LAND 200 Tranche 2) was one of the bases for the Auditor-General’s
+qualified conclusion. For the ANAO, between 2021–22 and 2022–23,
+… despite evidence that there had been a reduction in material capability and
+scope delivery … notwithstanding various commercial arrangements that had
+occurred through the year, there continued to be a fairly high level of confidence
+around delivery.50
+2.47 Defence referenced incremental improvements to capability and stated the
+assessment should remain the same as it had been previously.51 The ANAO and
+Defence appear to have fundamentally different interpretations of the trajectory of
+capability and scope delivery.
+50 Dr Tom Ioannou, Group Executive Director, Performance Audit Services Group, ANAO, Committee Hansard,
+24 April 2024, p. 5.
+51 Mr Chris Deeble, Defence, Committee Hansard, 24 April 2024, p. 2; ANAO, 2022–23 MPR, p. 95.
+30
+2.48 The LAND 200 project has, over many years, experienced delays and scope
+reductions but remains envisioned as a project to transform command and control of
+land forces.52 It was the subject of an ANAO performance audit in 2019.
+2019 ANAO performance audit
+2.49 LAND 200, comprising three tranches, is intended to transition the Army’s command
+and control from a paper-based system to a digital system to provide real-time
+situational awareness, combat planning tools and complex combat messaging. In
+2017, LAND 200 was described by the Chief of Army as the ‘highest-priority project
+in the Army’.53
+2.50 LAND 200 has replaced an existing system, the Battlefield Command Support
+System, which was an incremental redevelopment between 1999 and 2014 of the
+earlier AUSTACCS, which had been delivered between 1982 and 1998. The
+Battlefield Command Support System was, according to the ANAO, ‘recognised as
+being significantly limited in its networking and data distribution capability’.54
+2.51 The capability being acquired through LAND 200 comprises two major systems:
+• Battle Management System (BMS)—electronic displays of maps of combat data
+• Tactical Communications Network (TCN)—secure mobile infrastructure (such as
+radios) to support the data and voice distribution of the BMS and other combat
+systems.55
+2.52 Details of the schedule include:
+• Tranche 1 achieved FOC in 2015, two years behind schedule56
+• first pass approval for Tranche 2 was obtained in August 2013, with second pass
+(work packages B-D) scheduled for September 2015 and FOC expected
+December 201857
+• second pass approval was obtained in September 2017, with FOC initially
+expected in mid-2022; it remains to be achieved58
+52 Defence, ‘Battlefield Command System’, www.defence.gov.au/defence-activities/projects/battlefield-
+command-system, viewed 23 July 2024.
+53 ANAO, Modernising Army Command and Control—The LAND 200 Program, Report No. 40 2018–19,
+May 2019, hereafter LAND 200 report, p. 14.
+54 ANAO, LAND 200 report, p. 14.
+55 ANAO, LAND 200 report, pages 7, 14.
+56 According to the ANAO, Tranche 1 comprised 3 separate projects intended to equip a third of the Army:
+LAND75 Phase 3.4—Battle Management System; LAND125 Phase 3A—dismounted (soldier carried) Battle
+Management System; JP2072 Phase 1—vehicle-mounted radios and vehicle installation kits. ANAO, LAND
+200 report, pages 14–16.
+57 ANAO, LAND 200 report, p. 19.
+58 Tranche 2 contained four work packages: A - follow on purchase of mounted Battle Management System
+and associated radios and integration into certain vehicles; B – Integration of BMS into certain vehicles, TCN;
+C – integration of capability into the Army training system; D – development of software to enable
+interoperability with joint and coalitions systems, development of weapon-integrated BMS for the M1A1 tank.
+Work Package A obtained simultaneous first and second pass approval on 5 August 2013, and first pass
+31
+• first pass approval was given for Tranche 3 in July 2023.59
+2.53 For several years until February 2017, Tranche 2 was managed by two Defence
+project offices who undertook their own definition and refinement processes prior to
+tender, despite a need to align the requirements for the interconnected projects:
+• LAND75 Phase 4—upgrade of the Battle Management System60 and installation
+into further vehicle fleets
+September 2015: sole-source request for tender to Elbit released
+o
+November 2016: Elbit tender found to represent value for money, following
+o
+quantity reductions and other requirements adjustments
+• JP2072 Phase 3—Tactical Communications Network
+April 2015: open request for tender released, one tender received from Harris
+o
+September 2016: Harris tender found to represent value for money, but
+o
+unaffordable, despite significant reductions in scope.61
+2.54 A May 2016 Gate Review found, amongst other things, the project had a moving
+scope and approach, an inadequate budget, and an unworkable schedule. The total
+tendered price was over $1.5 billion, more than $720 million over Defence’s budget.
+There was also a lack of timely, technical expert advice on emerging technologies.
+The tender outcomes reflected a lack of alignment between the two projects, and
+there had been a lack of project management diligence. Further, the Army had
+moved its preference for the central capability for land platforms from the BMS on
+which the LAND75 request for tender was based, to an open architecture option,
+which it recognised as ‘currently unaffordable’.62
+2.55 At second pass (work packages B–D) on 12 September 2017, the Government
+approved:
+• expansion of the Battle Management System into Brigade and Joint Task Force
+Headquarters
+• introduction of the Battle Management System into four additional vehicle fleets:
+M1A1 tank, M88 recovery vehicles, Hawkei, and medium-heavy trucks
+• introduction of Battle Management System training and simulation facilities across
+Australia
+approval for packages B–D was obtained on the same date—the day the writs were issued for the 2013
+federal election. ANAO, LAND 200 report, pages 17, 19.
+59 ANAO, LAND 200 report, p. 14; Department of Defence, ‘New battlefield command system to improve
+Defence’s tactical communications’, www.defence.gov.au/news-events/releases/2023-07-13/new-battlefield-
+command-system-improve-defences-tactical-communications, viewed 22 July 2024.
+60 This was described as a ‘major software enhancement’ for Army headquarters functions. ANAO, LAND 200
+report, p. 29.
+61 The tender price was over half a billion dollars or 370 per cent greater than the $180 million expected.
+ANAO, LAND 200 report, pages 8–9, 17, 21, 24–25, 27, 31.
+62 ANAO, LAND 200 report, p. 40.
+32
+• software development to assist in managing the network and to support the
+exchange of data.63
+2.56 In September 2017, Defence identified the technical risk of Tranche 2 as ‘high’ and
+the overall risk as ‘medium-high’ consequent of ‘the complexity of the system; the
+lack of a clear and robust design for some network elements; and the technical
+challenges involved'.64 Contracts with Elbit and Harris for Tranche 2 were signed on
+26 September 2017.65
+2.57 In 2019, the ANAO audited the LAND 200 Tranche 2 program and concluded
+Defence had not conducted a fully effective acquisition process for LAND 200
+Tranche 2 work packages B–D, but could achieve value for money if the contracted
+quality and quantity of goods and services were delivered according to the agreed
+scheduled and successfully integrated by Defence.66
+2.58 The ANAO also found, amongst other things:
+• Defence did not conduct an effective requirements definition process—the two
+project offices developed different conceptions of the capability and requirements
+were not aligned prior to the release of requests for tender
+• the 2015 procurement of the TCN was not effective, requiring a lengthy post-
+tender refinement process to bring the project within budget
+• the 2015 sole-source procurement for the BMS was ultimately effective, following
+significant refinement and scope reductions, though cost and risk ratings were
+adjusted to be more positive in successive tender evaluation reports with no
+reasons documented
+• Defence addressed affordability issues through project rationalisation and by
+adopting a ‘design to price’ strategy, significantly reducing project scope, and
+assuming additional risk and cost by taking on the role of Prime Systems
+Integrator
+• fully effective project governance arrangements were not established
+• Defence established an appropriate project review framework, though did not act
+on some of the advice provided for several years
+• effective contracting arrangements to monitor and manage the performance of the
+contractors were established.67
+2.59 The ANAO found the ‘difficulties encountered’ in LAND 200 Tranche 2 stemmed in
+large measure from one project office (TCN) releasing a request for tender with a
+scope that exceeded the approved cost and did not fully assess the budget
+consequences or governance coordination arrangements at a program level. The
+desired outcome had shifted from the simple procurement of radios to the
+63 ANAO, LAND 200 report, p. 19.
+64 ANAO, LAND 200 report, p. 20.
+65 ANAO, LAND 200 report, p. 21.
+66 ANAO, LAND 200 report, p. 8.
+67 ANAO, LAND 200 report, pages 8–10, 23–24.
+33
+procurement of a complex digital communications solution, at a time when Defence
+had not determined how it would operate in a digital environment. The ANAO found
+there was no documented government approval for the shift in scope from radios
+(approved at First Pass in 2013) to a complete, new network solution contained in the
+request for tender.68
+2.60 Internally, Defence’s approach to resolving the unaffordability impasse for both
+tender processes—which involved bringing the two tenderers together and seeking a
+‘design to price’ solution—was described as ‘unique’, ‘unusual’, and ‘atypical’.69
+2.61 Defence concluded both tenders after accepting a significantly reduced project
+scope, and additional risk (and cost) by assuming the role of Prime Systems
+Integrator (neither tenderer could absorb this role within the affordability constraints).
+In September 2018, an Independent Assurance Review found the most significant
+challenge facing LAND 200 Tranche 2 was ‘Defence’s ability to effectively discharge
+its responsibilities as the Prime Systems Integrator’ and it did not support the project
+teams’ confidence the projects could be delivered as planned. In December 2018,
+Defence acknowledged it had limited resources to run the integration aspect of LAND
+200, in its role as Prime Systems Integrator .70
+2.62 Because funding was insufficient, the cost for integrating the LAND 200 Tranche 2
+capability into vehicles (tanks, recovery vehicles, some Bushmasters, Hawkeis) was
+removed from the 2017 acquisition contracts, in the expectation the contracts would
+be amended later for this purpose. Defence did not advise the Government at
+Second Pass in 2017 of this scope reduction and subsequently drew on project
+contingency funds to reinstate the scope.71
+2.63 Due to unaffordability, scope was moved from Tranche 2 to Tranche 3, without
+additional funding. An internal review of Tranche 3 (which commenced in 2017 and
+achieved First Pass approval in 2023) stated Tranche 1 and Tranche 2 ‘delivered
+well below expectations both in terms of capability and Basis of Provisioning’
+[reductions in the amount of equipment acquired].72
+2.64 When speaking to the Committee during the inquiry, Defence stated, ‘We talked
+about LAND 200 phase 2. If you look at other failed projects, they've often failed in
+the first two steps, which meant they failed to achieve requirement certainty and
+failed to achieve or tailor the right approach to the outcome’.73
+Subsequent amendments to LAND 200
+2.65 Subsequent to the ANAO report, Defence told the Committee that while LAND 200
+Tranche 2 was to deliver tactical communications networks and a battle management
+68 ANAO, LAND 200, pages 8–9, 23, 25–26.
+69 ANAO, LAND 200 report, p. 34.
+70 ANAO, LAND 200 report, pages 9–10, 35, 42, 48.
+71 ANAO, LAND 200 report, pages 10, 35–36, 43, 47.
+72 ANAO, LAND 200 report, p. 43.
+73 Mr Chris Deeble, Defence, Committee Hansard, 28 June 2024, pp. 3-4.
+34
+system, it had removed the battle management system scope from LAND 200
+Tranche 2 ‘a couple of years ago’ and,
+… installed an interim battle management system and we capped, in the force,
+where that battle management system would be used down to. We then
+transferred the responsibility to deliver the battle management system, which will
+equip the full force. Initially it was transferred to LAND 200 phase 3 as part of the
+National Defence Strategy and the integrated investment plan. We recast that
+scope from LAND 200 phase 3, and the remaining scope of LAND 200 phase 2
+was transferred into LAND4140, which is going to be considered by government
+in the near future.74
+2.66 Defence confirmed it would progress a permanent battle management system
+solution through LAND4140, the LAND C4 (command and control communications
+capability) program.75
+2.67 As to the tactical communications network, Defence stated commercial negotiations
+were ongoing but L3Harris had not been able to deliver a viable digital wave form
+and this would be removed from the scope, along with other networking elements.76
+2.68 Defence told the Committee the only component of the land force it would not fit out
+under LAND 200 Tranche 2 was the Hawkei protected mobility vehicles:
+… we believe we have enough time and finances in the LAND 200 project to
+equip probably about half the Hawkei fleet from LAND 200 Tranche 2, and that's
+with the radios. The remainder of the fleet will look to either equip through
+sustainment or through LAND4140.77
+2022–23 MPR and concerns with accuracy of the PDSS
+2.69 The ANAO’s concern about the accuracy of the PDSS for the Battlefield Command
+System was that between 2021–22 and 2022–23, the disclosed degree of confidence
+the capability would be met did not change, despite evidence there had been a
+reduction in materiel capability and scope delivery.78
+2.70 In the MPR, Defence acknowledged the Auditor-General’s opinion regarding the
+degree of confidence materiel capability would be met for the Battlefield Command
+System.79 However, it considered ‘the forecast scope for LAND 200 as at 30 June
+2023 to be essentially the same as the previous years’.80
+74 Major General Richard Vagg, Head of Land Capability, Defence, Committee Hansard, 24 April 2024, p. 5.
+75 Major General Vagg, Defence, Committee Hansard, 24 April 2024, pages 4, 6.
+76 Major General Vagg, Defence, Committee Hansard, 24 April 2024, p. 5.
+77 Major General Vagg, Defence, Committee Hansard, 24 April 2024, p. 6.
+78 ANAO, 2022–23 MPR, p. 120.
+79 ANAO, 2022–23 MPR, p. 94.
+80 Mr Chris Deeble, Defence, Committee Hansard, 24 April 2024, p. 2.
+35
+2.71 Defence stated:
+In 2023, the project closed the BMS contract through a commercial agreement
+between Elbit Systems Limited and the Commonwealth, leaving the L3Harris
+Technologies TCN element as the remaining component of the BCS to be
+delivered.
+… the Commonwealth continues to work with L3Harris Technologies relating to
+the inability to achieve contracted milestones affecting the schedule for TCN
+Systems Acceptance.
+The effect of these actions in the BMS and TCN components of the BCS has
+meant that during the MPR process, only incremental improvements to capability
+have been achieved, leaving the current overall capability and scope assessment
+essentially the same as that in last year’s report.
+In relation to remaining open commercial issues, Defence remain in negotiation
+with L3Harris Technologies to reach a solution for the TCN delay. Once this
+delay is resolved, an overall assessment of the BCS capability delivered and the
+Capability Manager’s requirements will be able to be undertaken.81
+2.72 The basis for the ANAO assessment was that Defence’s confidence in the
+achievement of materiel capability had not changed despite evidence of a reduction
+in material capability and scope delivery. Defence countered by arguing because
+there had been only incremental improvements to capability, the overall capability
+and scope assessment remained essentially the same.82
+2.73 Changes in the PDSSs between 2021-22 and 2022-23, show in 2022-23:
+• Battle management system: The scope was reduced in March 2023, and a
+version of the software (R1.1) was accepted,83 which in the 2021–22 MPR had
+issues sufficiently significant to prevent it exiting the Software Release Review
+milestone.84
+Following a demonstration in March/April 2022 of R1.1, Defence and Elbit were
+unable to agree issues of concern had been remediated such that ‘R1.1 was not
+achieved as at June 2022’.85
+Defence subsequently agreed to accept nine configurations of the BMS R1.1
+software in the state it existed on 30 June 2022, ‘with the remaining scope
+removed’.86
+• Tactical communications network: in April 2022 the contract was subject to a
+Stop Payment Notice (due to an inability to achieve system acceptance), in the
+2022–23 MPR it was subject to a Default Notice.87
+81 ANAO, 2022–23 MPR, p. 95.
+82 ANAO, 2022–23 MPR, pages 95, 120.
+83 ANAO, 2022-23 MPR, pages 211–213.
+84 ANAO, 2021-22 MPR, pages 255–256, 260.
+85 ANAO, 2021-22 MPR, pages 92, 256–257.
+86 ANAO, 2022-23 MPR, pages 208, 210, 212, 214.
+87 ANAO, 2022-23 MPR, p. 208; ANAO, 2021-22 MPR, pages 255–256.
+36
+Defence did not approve L3Harris remediation planning and both parties ‘continue
+to engage constructively to ensure that there is a clear understanding of open
+matters between them’.88
+2.74 The LAND 200 Tranche 2 scope, according the PDSS, was focused on further
+development of the battle management system that had commenced under LAND75.
+The 2022-23 PDSS states, ‘the Elbit Systems of Australia scope component of the
+project has been reduced by agreement …’89
+2.75 During a public hearing, Defence stated further scope would be removed from the
+TCN contract:
+There are currently commercial negotiations to close down that arrangement with
+L3Harris and for them to deliver the elements of scope that they have been
+contracted to deliver. One of those elements was a digital wave form. That wave
+form couldn't be delivered and wasn't viable. So that's going to be removed from
+scope as well as some other networking elements.90
+2.76 Defence admitted it had not articulated the impact of issues in the LAND 200
+Tranche 2 project across other projects that would rely on the implementation of the
+LAND 200 Tranche 2 capabilities. It stated, ‘we will take that on notice and ensure
+that, when we update for the next MPR, that impact across those other programs is
+clear’.91
+2.77 LAND400 is reliant on the delivery of LAND 200 Tranche 2 capabilities,92 which as
+noted above have been descoped. In a supplementary submission it stated:
+LAND 400 has adopted the current Tactical Communications Network baseline
+as well as a temporary Battle Management System to support platform
+development along its project schedule. This mitigates potential impacts to
+LAND400.93
+2.78 Defence stated delivery of a mature battle management systems and tactical
+communications networks would now be undertaken by LAND4140, which is
+‘adopting a continuous delivery approach’, and is expected from 2026.94
+Committee comment
+2.79 In general, with regard to the LAND 200 Tranche 2 project, the Committee notes
+evidence from Defence that LAND 200 Tranche 2 and other failed projects failed
+because they did not achieve ‘requirement certainty’ or ‘tailor the right approach to
+the outcome’. The Committee surmises that what Defence means by this is Defence
+88 ANAO, 2022-23 MPR, pages 208, 212–213.
+89 ANAO, 2022-23 MPR, pages 207–208.
+90 Major General Vagg, Defence, Committee Hansard, 24 April 2024, p. 5.
+91 Mr Chris Deeble, Defence, Committee Hansard, 24 April 2024, p. 5.
+92 ANAO, MPR 2022–23, p. 218.
+93 Defence, Submission 1.1, p. [3].
+94 Defence, Submission 1.1, pages [2], [3].
+37
+had not finalised its requirements prior to going to tender, and did not apply
+appropriate expertise to manage the project to its successful conclusion.
+2.80 It is notable a Defence internal review described LAND 200 Tranche 1 and Tranche 2
+as having delivered well below expectations in terms of capability and the actual
+amount of equipment that was acquired. Defence stated it transferred responsibility
+to deliver the battlefield management system, which will equip the full force, to other
+projects. The PDSS makes clear the battle management system was descoped and
+the tactical communications network was descoped.
+2.81 With regard to the Auditor-General’s independent assurance review and qualified
+conclusion, the Committee received no evidence that would lead it to question the
+Auditor-General’s conclusion that the identified sections of the PDSS ‘are materially
+inconsistent with evidence obtained during the course of the review’.95
+2.82 Project data summary sheets must accurately convey the information required by the
+Guidelines. The Committee will examine with interest, the status of this project in
+future MPRs.
+Australian industry capability
+2.83 The AIC Program is intended to, amongst other things, provide opportunities for
+Australian companies to compete for Defence work, facilitate technology transfer and
+access to intellectual property rights, and encourage investment in Australian
+industry.96
+2.84 Tenderers for material and non-material procurements valued at or above $4 million
+(or $7.5 million for construction services), are required to demonstrate appropriate
+formal consideration of Australian industry capability through a schedule or plan in
+their tender response—with a version for public release. The exact requirements are
+determined by the size and the nature of the procurement. Government-to-
+Government procurements, including Foreign Military Sales and Direct Commercial
+Sales, are not exempt from AIC Program requirements.97
+2.85 The MPR Guidelines require the reporting on whether there is an AIC plan for
+disclosed major contracts, and a short description of the key elements of the plan. If
+there is no AIC plan relevant to the disclosed major contracts, this is to be disclosed,
+along with the reason.98
+2.86 The ANAO found three major projects did not have AIC plans in place—Joint Strike
+Fighter, Peregrine, and MQ-4C Triton. Defence stated these were collaborative
+programs with other countries, foreign military sales, or involved sole source
+95 ANAO, 2022–23 MPR, p. 120.
+96 ANAO, 2022–23 MPR, pages 35–36.
+97 ANAO, 2022–23 MPR, p. 36.
+98 Defence and ANAO, 2022–23 Major Projects Report Guidelines, 23 September 2022, hereafter MPR
+Guidelines, section 2.4.
+38
+procurement.99 As noted above, Government-to-Government procurements, including
+Foreign Military Sales, and Direct Commercial Sales, are not exempt from the AIC
+Program requirements.100
+2.87 The ANAO also found several major projects where public AIC plans had not been
+published (when required) for at least one eligible contractor: Hunter Class Frigates;
+Combat Reconnaissance Vehicles; Advanced Growler; and Battlefield Command
+System.101
+Committee comment
+2.88 Australian industry has been recognised as a fundamental input to capability, and
+more recently, Defence has identified the need for a number of sovereign industrial
+capabilities.102
+2.89 Having an industrial base that can effectively support Australia’s national security is
+crucial. The AIC requirements, which aim to ensure the consideration and inclusion
+of Australian industry capability in Defence acquisitions, are an important mechanism
+for building Australian industry, particularly by facilitating technology transfer and
+access to intellectual property, and encouraging investment. Publication of the AIC
+plans, where required, is an important transparency mechanism. The Committee has
+an expectation that where required, AIC plans will be in place and versions made
+available publicly.
+2.90 Foreign Military Sales and Direct Commercial Sales are not exempt from the AIC
+Program and the Committee will monitor this issue in future MPRs.
+Implementation of a risk management system
+2.91 Risk management has been a long-running focus of the MPR, with the Committee
+recommending in 2018 the transitioning from spreadsheets to risk registers with more
+robust version control.103 The ANAO has observed the use of spreadsheets as a
+primary form of record for risk management is itself a high-risk approach, particularly
+as spreadsheets lack formalised change/version control and reporting.104 In May
+2020, Defence advised it would mandate Predict! as its risk management system.105
+2.92 Though major risks and issues data is excluded from the formal scope of the Auditor-
+General’s assurance report because Defence systems are unable to provide
+complete and/or accurate evidence in a sufficiently timely manner, in forming the
+99 ANAO, 2022–23 MPR, p. 37.
+100 ANAO, 2022–23 MPR, p. 36.
+101 ANAO, 2022–23 MPR, p. 37.
+102 Department of Defence, ‘Sovereign Defence Industrial Priorities’, www.defence.gov.au/business-
+industry/industry-capability-programs/sovereign-defence-industrial-priorities, viewed 15 July 2024.
+103 JCPAA, Report 473: Defence Major Projects Report (2016–17), September 2018, pages 2, 5, 13–14.
+104 ANAO, 2022–23 MPR, p. 42.
+105 ANAO, 2022–23 MPR, p. 41.
+39
+Auditor-General’s conclusion, the ANAO is required to consider material
+inconsistencies identified.106
+2.93 Of the 20 projects in the MPR, Predict! is in use in 19. In two of those 19, other risk
+management systems are also in use, CapabilityOne (Hunter Class Frigates) and
+MS SharePoint (CMATS). In one project, the MHR90 Helicopters, the primary risk
+management system remains MS Excel.107
+2.94 Notwithstanding the adoption of a risk management system, in its examination of
+project offers’ risk and issue logs at the Group and Service level, the ANAO found a
+number of risk management issues. These included:
+• variable compliance with corporate guidance—only six projects had reviewed or
+updated their risk management plan within six months, as required
+• visibility of risks and issues when a project is transitioning to sustainment
+• frequency with which risks and issues logs are reviewed to ensure accuracy and
+completeness, management in a timely manner, and accurate reporting to senior
+management
+• lack of quality control resulting in inconsistent approaches in recording of issues
+• lack of a clear link between allocations against risk in the contingency log and risk
+log
+• risk management logs and supporting documentation of variably quality.108
+2.95 Further, the ANAO found some controls within Predict! were not operating effectively,
+which increased the risk data generated from Predict! and information derived from
+that data, may not be reliable. The ANAO found the following control weaknesses in
+Predict!:
+• lack of segregation of duties between capturing and approving data in Predict! as
+well as capturing, and approving, any changes to risk identifiers or fields that
+determine the risk rating
+• no logging or reviewing high-risk user actions on application level and no controls
+in place to ensure that logs, or log descriptions, cannot be changed by users
+being logged
+• no identification of privileged user accounts, including ensuring that only those
+who require privileged access are assigned those roles, and no regular monitoring
+controls over the actions performed by privileged users
+• no regular process for the revalidation of user access to Predict! including
+privileged user access.109
+106 ANAO, 2022–23 MPR, pages 25, 40.
+107 ANAO, 2022–23 MPR, pages 41–42.
+108 ANAO, 2022–23 MPR, p. 42.
+109 ANAO, 2022–23 MPR, p. 42.
+40
+2.96 For the projects in the MPR, the ANAO found instances where risks and issues
+information in Predict! had not been updated in a timely manner, and instances
+where it was not a complete and accurate record of the current mitigations or ratings.
+The ANAO did not rely solely on Predict! to gain assurance over the risks and issues
+disclosures within the PDSSs.110 The ANAO stated that while progress had been
+made, ‘there’s still disorder in the system’.111
+2.97 During the inquiry, Defence acknowledged a lack of capacity in its workforce:
+One vexing problem is associated with the professionalisation of our project
+management workforce. That is an issue for us … Professionalisation of our
+project management, our procurement and commercial, our engineering and our
+logistics teams is critical moving forward. We have let some of that lapse, and
+that's one of my primary focuses—building that skill set through
+professionalisation and through making sure our internal processes and policies
+are implemented.112
+Committee comment
+2.98 The Committee has been following Defence’s attempts to improve its risk
+management since the beginning of the MPR. It notes with satisfaction that in 2022–
+23, 19 of the 20 projects in the MPR are now using Defence’s risk management
+system, Predict! However, there remain shortcomings, as identified by the ANAO, in
+the use of that system.
+2.99 In particular, the Committee notes the lack of quality control that results in
+inconsistent approaches to the recording of issues; the lack of a clear link between
+allocations against risk in the contingency log and risk log; and the variable quality of
+documentation that supports risk management logs.
+2.100 It goes without saying the value of a robust risk management system can be
+undercut by the quality of the information in that system. The Committee will continue
+to monitor this issue.
+Contingency statements and management
+2.101 The total approved budget for a project comprises the allocated budget and the
+contingency budget. The allocated budget covers the project’s approved activities.
+The contingency budget is set aside for the eventuality of risks occurring, including
+the need for unforeseen work that arises within the delivery of the planned scope of
+work.113
+110 ANAO, 2022–23 MPR, p. 43.
+111 Ms Rona Mellor, Acting Auditor-General, ANAO, Committee Hansard, 24 April 2024, p. 9.
+112 Mr Chris Deeble, Defence, Committee Hansard, 24 April 2024, p. 9.
+113 ANAO, 2022–23 MPR, p. 38.
+41
+2.102 The intent of contingency funding is to provide for cost, schedule and technical
+uncertainties that may arise over the life of a project. The use of funding from the
+contingency budget is dependent on the occurrence of a contingency risk—
+contingency funding cannot be used to pay for activities that increase the scope or
+capability of a project. Project managers are required to maintain a project
+contingency log to support control of the project contingency and facilitate reporting
+on its use.114
+2.103 The PDSSs in the MPR are required to include a statement regarding the application
+of contingency funds during the year, and where applicable, a disclosure of the risks
+mitigated by the application of the contingency funds.115 This requirement was
+introduced in the 2013–14 MPR.116 In 2022–23, two projects applied contingency to
+manage project risks: MHR90 Helicopters (supportability and performance risks) and
+SRGB Air Defence (additional contract costs associated with pandemic-related
+delays). In the ANAO’s judgement, all major projects had ‘complied with Defence’s
+financial policy relating to contingency funding’.117
+2.104 However, the ANAO examined the project contingency logs and highlighted a lack of
+clarity in the relationship between contingency allocation and identified risks. The
+ANAO found:
+Two projects (Collins Comms and EW and ANZAC Air Search Radar Repl.) did
+not explicitly align the contingency log with the risk log to ensure that the
+expected cost impact of risks is maintained effectively, as required by the
+Capability Acquisition and Sustainment Risk Management Manual (CAS RMM)
+V1.0.118
+2.105 A similar observation with regard to the misalignment of contingency allocation and
+identified risks was made in the 2021–22 MPR on the Joint Strike Fighter, Hunter
+Class Frigate, and MHR90 Helicopter projects; and in relation to five projects in the
+2020–21 MPR.119 In the Committee’s Report 496, it was noted that Defence
+acknowledged the lack of alignment in the 2021–22 MPR projects and stated it was
+being addressed as part of the risk management processes. Nevertheless, the
+Committee recommended Defence provided a detailed update on the implementation
+of, and compliance with, internal policies for contingency funding.120
+2.106 The response from Defence does not go to the full intent of the recommendation. The
+discussion in Report 496 from which the recommendation arose raised specifically
+the issue of non-alignment between contingency allocations/funding and risk logs, as
+required by Defence guidance.121
+114 ANAO, 2022–23 MPR, p. 38.
+115 ANAO, 2022–23 MPR, p. 39.
+116 ANAO, 2013–14 MPR, p. 31.
+117 ANAO, 2022–23 MPR, p. 39.
+118 ANAO, 2022–23 MPR, p. 39.
+119 ANAO, 2022–23 MPR, p. 39; ANAO, 2020–21 MPR, p. 30.
+120 JCPAA, Report 496, pages 21, 25.
+121 JCPAA, Report 496, p. 21.
+42
+2.107 In its response to the recommendation, Defence stated:
+An assessment of the projects in scope of the 2022–23 Major Project Report
+identified that all five projects that had used contingency had linked this to a risk
+in their respective logs, and followed the Defence policy. Defence continues to
+assess compliance for all major projects.122
+2.108 While the ANAO stated in the 2022–23 MPR all major projects had complied with
+contingency funding requirements—that is, that the use of contingency funding was
+dependent on the occurrence of a contingency risk event—it stated: the clarity of the
+relationship between contingency allocation and identified risks continues to be an
+issue’, and as noted above, identified two projects where there was no explicit
+alignment between the contingency log and risk log to ensure the expected cost
+impact of risks was maintained effectively.123
+2.109 The ANAO also highlighted in relation to the risk management framework, the lack of
+clear link between allocations against risk in the contingency log and risk log.124
+2.110 On this basis, it is not clear how Defence’s update on its compliance with internal
+policies for contingency funding, requested by the Committee, deals with the lack of
+alignment between risk logs and contingency allocation.
+Committee comment
+2.111 It was noted in Report 496 that issues relating to risk management, including
+contingency, have been ongoing.125 The MPR has been highlighting issues in the
+clarity of the relationship between contingency allocation and identified risks even
+before the 2013–14 MPR when the requirement for a contingency statement was
+introduced. In fact, all MPRs since 2011–12 have made a similar observation.126
+2.112 The Committee notes that while Defence may have responded to the letter of
+Recommendation 2 in Report 496, it has not responded the intent of the
+recommendation.
+2.113 The Committee will consider future recommendations should this long-running issue
+be reported as unresolved in future MPRs.
+Terminology
+2.114 In previous reports, the Committee has commented on Defence’s creative use of
+non-specific terminology to obscure the extent to which key milestones identified as
+122 Australian Government Response to Report 496, 24 June 2024, p. 3.
+123 ANAO, 2022–23 MPR, p. 39.
+124 ANAO, 2022–23 MPR, p. 42.
+125 JCPAA, Report 496, p. 21.
+126 See the following MPRs: 2011–12 MPR, pages 99-100; 2012-13 MPR, pages 33-34; 2013–14 MPR, pages
+31-32; 2014–15 MPR, pages 26-27; 2015–16 MPR, p. 24; 2016–17 MPR, p. 24; 2017-18 MPR, p. 27; 2018–
+19 MPR, p. 28; 2019–20 MPR, p. 29; 2020–21 MPR, p. 30; 2021–22 MPR, p. 35.
+43
+‘achieved in principle’ have outstanding actions to be rectified or mitigated, given the
+common sense understanding of the concept ‘achieved’.127 In Report 489, the
+Committee recommended that Defence clarify the definition of any term used in the
+MPR associated with a deviation from project milestones being achieved.128
+2.115 Defence subsequently defined ‘caveat’ and ‘deficiency’ but not terms like challenge,
+concession, condition, exception, impact, issue, and risk, which had previously been
+used, and then closed the recommendation.129 These nebulous terms can be used to
+confound readers as to what ‘achieving’ a milestone actually means. The Committee
+found Defence’s definition of ‘caveat’ and ‘deficiency’ only, did not meet the
+Committee’s recommendation to clarify any term relating to a deviation from project
+milestones being achieved. The Committee noted that Defence continued to use
+other non-defined terms with regard to milestone achievement such as ‘minor
+exception’, and ‘issues for resolution’.130
+2.116 The ANAO advised that in 2022–23, Defence did not declare the achievement of any
+IOC, FOC, or other capability milestones for the major projects131 and as such,
+declaring milestones with ‘caveats’ and ‘deficiencies’ or other hazy qualifications, did
+not arise for the major projects.
+2.117 In its commentary, Defence stated its definitions of ‘caveat’ and ‘deficiency’ were
+‘endorsed’ and ‘authorised terms describing a … deviation from project milestones
+being achieved’. It defines these terms as follows:
+• Caveat—In relation to the declaration of IOC or FOC or other capability milestone,
+is a plan, stipulation, condition or limitation to mitigate the capability impact of a
+Deficiency.
+• Deficiency—In relation to the declaration of IOC or FOC or other capability
+milestone, is a shortfall between the Government agreed requirements and that
+which is provided at the milestone.132
+2.118 The definitions were ‘endorsed’ and ‘authorised’ by Defence, and clarified in its
+Product Life Cycle Guidance glossary in late 2022.133
+2.119 Defence stated in the 2022–23 MPR, three projects continued to use the ‘legacy’
+term ‘exception’ but it would ‘adhere consistently to these [caveat and deficiency]
+definitions for all future project milestones’.134
+127 Key milestones are: Initial Material Release (IMR), Initial Operational Capability (IOC), Final Material Release
+(FMR), Final Operational Capability (FOC).
+128 JCPAA, Report 489: Defence Major Projects Report 2019–20, March 2022, hereafter Report 489, p. 26.
+129 Defence did not define these terms in the Executive Minute to the recommendation, but in a later update to
+its internal capability guidance. Executive Minute on Joint Committee of Public Accounts and Audit Report
+489: Defence Major Projects Report 2019–20, 13 September 2022, p. 7.
+130 See discussion in: JCPAA, Report 496, pages 23–24.
+131 ANAO, 2022–23 MPR, p. 47.
+132 ANAO, 2022–23 MPR, p. 111.
+133 ANAO, 2022–23 MPR, p. 47.
+134 ANAO, 2022–23 MPR, p. 111.
+44
+2.120 In its response to a recommendation arising from Report 496 that was dealing with
+Defence’s decision to close the recommendation from Report 489 despite not
+defining all terms used to modify achievement of a milestone, Defence
+acknowledged:
+… the definition of the two terms does not meet the intention of the Committee’s
+recommendation to clarify any terms relating to a deviation from project
+milestones being achieved.135
+2.121 However, Defence stated its intention at the time was that ‘caveat’ and ‘deficiency’
+would be the only terms used henceforth, and that it intended to define in the
+2022–23 MPR any remaining legacy references. Subsequently, it provided definitions
+for ‘exception’, ‘issue’, and ‘risk’ in the 2022–23 MPR glossary. Defence stated ‘all
+projects will adhere to the endorsed terms of “caveats” and “deficiencies” going
+forward’.136
+2.122 The Committee notes that Defence’s response to the recommendation was dated
+December 2023, but not received by the Committee until 24 June 2024.
+Committee comment
+2.123 The Committee has a long-standing interest in the use of precise definitions so as to
+ensure transparency and accountability as to the achievement of milestones. In
+general, it questions whether a milestone can be ‘achieved’ with a ‘deficiency’ when a
+deficiency means the requirements of a milestone have not been met,
+notwithstanding there may be a caveat as to how the impact of failing to deliver the
+requirements of a milestone might be mitigated.
+2.124 The Committee will continue to monitor with interest, the use of qualifications to the
+achievement of milestones in future MPRs.
+Scope and the relationship between capability and
+delivery managers
+2.125 Considering the broader strategic environment and the need to accelerate the
+delivery of capability, the Committee examined the issue of scope creep, which can
+be a key reason for delays and cost escalations, and in this context, the relationship
+between capability and delivery managers.
+135 Australian Government Response to the Joint Committee of Public Accounts and Audit Interim Report:
+Inquiry into the Defence Major Projects Report 2020–21 and 2021–22 and the Procurement of Hunter Class
+Frigates, 24 June 2024, hereafter Australian Government Response to Report 496, p. 4.
+136 Australian Government Response to Report 496, p. 4.
+45
+Governance arrangements for scope changes
+2.126 The Mortimer review in 2008 addressed the issue of capability managers and
+changes to scope, including through a recommendation to improve governance:
+Recommendation 3.13
+Changes to the scope of projects should occur through a disciplined process that
+considers the merit of the change mindful of the impact on cost and schedule.137
+2.127 The review also called for more formal and robust arrangements when scope
+changes were proposed:
+Changes to the scope of a project should only occur after assessing their merit
+mindful of the impact on cost and schedule. PMSG [Project Management
+Stakeholder Groups] are an appropriate venue to carry out such an assessment.
+Proposed changes should be assessed by the relevant PMSG and a
+recommendation made to the delegated authority. For significant changes this
+will mean formally going back to one of the capability committees convened by
+CDG [Capability Development Group] and may, in some cases, require a
+decision from Government.138
+2.128 More than fifteen years later, Defence acknowledged governance of scope changes
+remained an area that needed to be better managed:
+This has always been a vexing problem for projects, and in particular large,
+complex projects, where scope is expansive and often open to interpretation, no
+matter how hard you try to get a functional performance specification laid out.
+There are always trade-offs that need to be made through the life of a project.139
+2.129 Defence stated there was ‘a natural tension’ between the capability manager, who
+desires the best possible capability and has particular expertise that is critical from a
+war-fighting perspective; and the delivery manager, who is responsible for delivering
+the contracted scope. It was important that where tensions existed they had to be
+escalated, and in this area, Defence’s ‘governance needs to be strengthened’.140
+2.130 In a supplementary submission to the inquiry, Defence stated that through a
+strengthened One Defence Capability System and the acquisition and sustainment
+procurement processes within it, there would be ‘reinforcement of the accountability
+model for managing agreed baselines and articulating escalation criteria for where
+there are required or proposed changes to scope’.141
+137 D Mortimer, Going to the Next Level: The Report of the Defence Procurement and Sustainment Review,
+September 2008, hereafter Mortimer Review, p. xiv.
+138 D Mortimer, Mortimer review, pages 43–44.
+139 Mr Chris Deeble, Defence, Committee Hansard, 28 June 2024, p. 1.
+140 Mr Chris Deeble, Defence, Committee Hansard, 28 June 2024, p. 2.
+141 Defence, Submission 1.3, p. 2.
+46
+2.131 This same submission stated in reforming the One Defence Capability System,
+‘many lessons from previous reviews would inform implementation’, specifically, the
+following:
+• Kinnaird Review—Defence Procurement Review – 2003
+• Mortimer Review—Going to the Next Level: Report of the Defence Procurement
+and Sustainment Review – 2008
+• Black Review—Review of the Defence Accountability Framework – 2011
+• First Principles Review—Creating One Defence – 2015
+• ANAO audit—Department of Defence’s Procurement of the Hunter Class Frigates
+– 2023.142
+2.132 The First Principles Review noted that, notwithstanding many reviews, there had
+been only incremental change within Defence. Reviews have identified recurring
+issues with a lack of accountability, ill-defined authority, unclear allocation of
+responsibility and great difficulty measuring and monitoring real performance; the
+requirement for fundamental and sustained changes in attitude and culture across all
+arms of the organisation; and the persistence of fundamental problems in the
+Defence capability system, from capability and planning to acquisition, delivery and
+finally sustainment. The review stated, ‘the recurring themes and the continuing need
+for external review are symptomatic of an organisational culture within Defence that
+is risk-averse and resistant to change’.143
+2.133 During the hearings, the Committee was assured by Defence that as part of its
+procurement reform, it was looking at how it could put in place ‘more disciplined
+processes’144 and further:
+… in CASG … we provided explicit advice to all of our team, from the deputy
+secretary level down, that there will be no changes to requirements that aren’t
+escalated up. On your point around the triggers, we need to work on what those
+triggers might be’.145
+2.134 Defence stated it had to strengthen its governance processes to ensure that where
+there was a significant deviation from scope proposed, it was ‘escalated back up
+through the committee process, the decision-makers and to government,’ rather than
+being agreed at a lower level.146
+2.135 However, the extent to which changes to governance processes may be
+implemented across projects is not clear. The Committee was told governance
+arrangements are still made at the project level:
+142 Defence, Submission 1.3, p. 2.
+143 D Peever, 2015, First Principles Review: Creating One Defence, hereafter First Principles Review,
+pages 14, 15.
+144 Mr Chirs Deeble, Defence, Committee Hansard, 28 June 2024, p. 1.
+145 Mr Chris Deeble, Defence, Committee Hansard, 28 June 2024, p. 8.
+146 Mr Chris Deeble, Defence, Committee Hansard, 28 June 2024, p. 1.
+47
+… we’re a big and complex organisation … it is our express intent that scope is
+not changed without appropriate authority, but it is not codified in a set of rules
+yet because we are making decisions per project about the governance system
+that that project needs to have … we certainly endeavour to ensure CMs
+[capability managers] and DMs [delivery managers] are connected and there is
+attention to that, and the Joint Force Authority is the mechanism we are using to
+resolve that.147
+2.136 Defence agreed that in the case of the Hunter Class Frigate and the Offshore Patrol
+Vessel, governance arrangements for scope changes had fallen short: delegations
+for scope changes were ‘most probably set too low … we didn’t set ourselves up
+right’.148
+Management of scope prior to Gate 2
+2.137 While scope has the potential to creep post-Gate 2, where scope, budget and
+delivery have apparently been agreed and the project is being executed,
+management of scope begins at the point of capability consideration.149
+2.138 ‘The worst part of the equation,’ according to Defence, is where high-level
+requirements are insufficiently defined at the commencement of a program and
+where subsequent definition and realisation of the actual lower-level requirements
+results in difficult judgements:
+… where scope may be ill-defined, and that is used to then expand scope, and,
+in expanding scope, adding risk and cost to the program. Sometimes we may do
+that within a fixed price context, which sets the contractor up for failure because
+they now have to increase the scope of the work being conducted within a
+constrained budgetary environment.150
+2.139 Defence emphasised the need for discipline:
+… as people—the good-ideas fairies—look to continue to refine that capability.
+There will be times when that is justified, where the threat may change … But
+there will be times when that may not be affordable, in the context of our
+overarching budgets, and this is where those opportunity costs associated with
+doing something new, versus continuing the journey and investing in other things,
+need to be traded off.151
+2.140 Though procurement has long been a key capability requirement for Defence, it said
+it had learnt from the procurement of the Hunter Class Frigate and ‘recent’ ANAO
+reports the importance of ‘[setting] ourselves up strategically for success, rather than
+147 Mr Matt Yannopoulos, Associate Secretary, Defence, Committee Hansard, 29 June 2024, p. 5.
+148 Rear Admiral Stephen Hughes, Head, Navy Capability, Defence, Committee Hansard, 28 June 2024,
+pages 6–7.
+149 Mr Chris Deeble, Defence, Committee Hansard, 28 June 2024, p. 1.
+150 Mr Chris Deeble, Defence, Committee Hansard, 28 June 2024, p. 1.
+151 Mr Chris Deeble, Defence, Committee Hansard, 28 June 2024, p. 2.
+48
+where we have potentially rushed that strategy phase and not established the firm
+foundations for a successful program’.152
+Minimum viable capability
+2.141 Notwithstanding Defence’s failure to learn until recently the importance of setting
+itself up strategically for success, or to properly implement recommendations from
+Defence reviews as to governance arrangements, it suggested a new imperative
+would provide the necessary discipline in project planning. Discipline on scope prior
+to Gate 2 may be provided by the strategic context, as described in the 2023
+Defence Strategic Review, the classified version of which had given Defence a ‘very
+clear direction’ on the functional requirements for acquisitions, and where previously
+Defence had focussed on getting ‘the best’ that it could:
+We are now in an environment where we talk about the minimum viable
+capability that meets the specification of performance criteria in a timeframe. With
+that trinity of resources—people, money, and time—in the past time was the
+sacrificial variable; you would go for quality. Now we have a time imperative.
+That's completely reset the structure.153
+2.142 Defence stated, ‘time is now of the essence,’ and it had to determine the ‘minimal
+viable capability’ aspect of the capability need during the strategy phase at Gate 0
+and then implement the necessary systems to keep scope bounded:
+What I'm trying to do from a procurement acquisition perspective is start to get
+the strategy right at that early stage and to establish an implementation risk
+assessment from a delivery manager perspective, which ties into the capability
+manager view of the capability need.154
+2.143 In Defence’s definition of the concept provided in its supplementary submission,
+however, it was not clear what might tightly bind scope other than the suggestion
+capability might be obtained ‘quickly’. Defence defined the attributes of minimum
+viable capability as a capability that provides what is required to achieve a military
+effect, quickly, demonstrating value for money155 and with manageable technical and
+operational risk. Such capability, may be further developed through sustainment or
+subsequent investment phases. Minimum viable capability was also a capability ‘that
+can successfully achieve the lowest acceptable level of the directed effect in the
+required time, able to be acquired, introduced into service and sustained
+effectively’.156
+2.144 At this point, it might be noted Defence’s ability to meet deadlines has not been
+consistently demonstrated, even when it was attempting to be quick. The Committee
+was told Defence already ‘sets ambitious schedules to drive performance and
+152 Mr Chris Deeble, Defence, Committee Hansard, 28 June 2024, p. 3.
+153 Major General Anthony Rawlins, Acting Vice Chief of the Defence Force, Defence, Committee Hansard,
+28 June 2024, p. 3.
+154 Mr Chris Deeble, Defence, Committee Hansard, 28 June 2024, p. 3.
+155 Demonstrating value for money is an existing legal requirement under finance law.
+156 Defence, Submission 1.3, pages 3–4.
+49
+efficiency and to get capability to the war fighter’.157 However, there is a point at
+which ambitious schedules become unrealistic and damage the prospects for
+success, as suggested by a lesson from the CMATS PDSS:
+Aggressive timeframes to meet schedule milestones often results in compressed
+timeframes to engage stakeholders (operational, engineering/technical and
+strategic), leading to compromises to proper requirements management.
+Consequently, a schedule needs to be developed to include opportunities for
+specified periods of stakeholder consultation and alignment during the capability
+delivery life-cycle.158
+2.145 Further, Defence stated the requirements for minimum viable capability were based
+on the strategic need, timing for delivery, approval pathway, procurement method,
+and industry capability and capacity.159
+Compliance with Commonwealth Procurement Rules
+2.146 Defence acknowledged if a project was established professionally, there was
+appropriate flexibility in the Commonwealth Procurement Rules (CPRs) to determine
+the correct approach to market:
+We can work within the CPRs … Part of the problem that we've got is how we
+make our people aware of what the CPRs are and how they best need to be
+applied. In particular, one of the areas that we need to strengthen is value for
+money … This is where we again need to do better work in training our people to
+understand the application of the CPRs. I still firmly believe that the CPRs are
+workable, that we can work within that framework.160
+Committee comment
+2.147 The Committee notes that in its supplementary submission, Defence provided words
+to the effect that it would define roles and strengthen accountabilities; the Joint Force
+Authority would provide more direction and oversight; there would be disciplined
+management of requirements and baselines; Defence would comply with legislated
+requirements; assurance would be provided against operational scenarios; a new
+governance model would enhance the use of the test and evaluation framework;
+there would be continuing reporting and assurance; performance would be
+measured; and Defence would be skilling and professionalising its people. In an of
+itself, this reflects basic but sound management practices.
+2.148 However, the record of Defence’s performance on procurement leaves questions as
+to how effective the reforms will be in improving project performance. Defence stated
+lessons from the Mortimer review more than fifteen years ago, which recommended
+157 Mr Chris Deeble, Defence, 24 April 2024, p. 2.
+158 ANAO, 2022–23 MPR, p. 269.
+159 Defence, Submission 1.3, p. 4.
+160 Mr Chris Deeble, Defence, Committee Hansard, 28 June 2024, p. 4.
+50
+improvements to Defence governance, will inform its systemic reforms. The
+Committee will observe with interest the progress Defence makes in embedding
+these arrangements, in particular, the governance arrangements for scope changes.
+2.149 With regard to the suggestion ‘minimum viable capability’ will serve as something of a
+brake on scope changes, the Committee reserves its judgement. Given the plethora
+of considerations—strategic need, timing for delivery, approval pathway,
+procurement method, industry capability, manageable technical and operational risk,
+value for money, and the possibility for further development—it is not immediately
+clear how the concept of ‘minimum viable capability’ might introduce a level of
+discipline into Defence procurements.
+2.150 Quite aside from that, the potentially nebulous nature of terms like ‘minimum’ and
+‘viable’ and ‘lowest acceptable’, which themselves could be subject to wide
+interpretation involving value judgements in practice, leaves questions as to the
+capacity of ‘minimum viable capability’ to resolve delays in Defence acquisitions. The
+suggestion that capability may be ‘further developed through sustainment or
+subsequent investment phases’ would seem to be an invitation for endlessly
+tranched or phased projects stretching into the future.
+2.151 Defence told the Committee it was implementing a more disciplined process for
+scope changes. Over the years the Committee has heard Defence state it is
+strengthening various aspects of its procurement process. The Committee cannot be
+certain how substantive this guarantee might be, given Defence acknowledged there
+was no agreement on triggers and the supplementary submission provided nothing
+further beyond there would be ‘mechanisms for escalation’ applied across all projects
+and tailored escalation arrangements for some projects appropriate to their urgency
+and complexity.161
+2.152 The Committee therefore recommends that Defence provides an annual update on
+the implementation of its improved governance and assurance process, including
+detail on triggers.
+Recommendation 2
+2.153 The Committee recommends that Defence provides an annual update to the
+Committee on the implementation of its improved governance and assurance
+process as it applies to acquisitions, including progress on embedding this
+across all projects, and detail on the procedure for scope change decision
+escalation.
+2.154 The Committee notes Defence’s assurances that it is able to comply with the
+Commonwealth Procurement Rules, which as part of finance law, is a legal
+obligation.
+161 Defence, Submission 1.3, p. 2.
+51
+Military off-the-shelf
+2.155 An issue of relevance to scope, and the relationship between capability and delivery
+managers, is the extent to which Defence legitimately considers off-the-shelf options
+in its procurements. Many Defence reviews have included discussion, and in some
+cases, recommendations, about consideration of off-the-shelf options in Defence
+procurements, including: Defence Governance, Acquisition and Support (2000);
+Kinnaird review (2003); Mortimer review (2008); Pappas review (2009); Black review
+(2011); First Principles Review (2015);162 and the Defence Strategic Review (2023).163
+2.156 The Kinnaird review stated:
+… an off-the-shelf alternative must be part of any set of options put to
+government to ensure that a benchmark is established against which the costs,
+military effects, and schedule of all proposals can be assessed.164
+2.157 The Mortimer review in 2008 noted that while the Kinnaird review had recommended
+an off-the-shelf solution must be put to government to ensure a benchmark for the
+comparison of options, this had not always occurred:
+While project requirements must ultimately reflect the demands of operational
+performance, they need to be tempered by the realities of cost, risk and what the
+market can deliver off-the-shelf and otherwise. Unless this is done, informed
+decisions about the appropriate mix of cost, schedule, risk and capability are
+impossible.
+… Defence should increase its use of off-the-shelf equipment … this can and will
+occur if Defence is more business-like in analysing its requirements against what
+is available in the marketplace.
+… Recommendation 2.3: Any decisions to move beyond the requirements of an
+off-the-shelf solution must be based on a rigorous cost-benefit analysis of the
+additional capability sought against the cost and risk of doing so. This analysis
+must be clearly communicated to Government so that it is informed for decision-
+making purposes.165
+2.158 In 2013, the ANAO noted if the desired effect of the requirement announced in 2011
+that all projects seeking Second Pass approval that are not off-the-shelf would
+include a rigorous cost-benefit analysis against an off-the-shelf option, Defence
+would ‘need to improve on previous performance and ensure routine compliance’.166
+2.159 In 2023, the Defence Strategic Review again stated:
+162 While the First Principles Review did not specifically call for MOTS, it noted it as a recurring theme in other
+reviews. D Peever, First Principles Review, p. 92.
+163 ANAO, Capability Development Reform, Report No. 6 2013–14, hereafter Capability Development Reform
+report, p. 20; D Peever, First Principles Review, p. 92; Defence, Defence Strategic Review, 2023, p. 91.
+164 M Kinnaird, L Early, B Schofield, Defence Procurement Review 2003, August 2003, p. 19.
+165 D Mortimer, Mortimer review, pages 17, 19–20.
+166 ANAO, Capability Development Reform report, pages 36–37.
+52
+When capability is readily available there should be an emphasis on getting it into
+service without delay and achieving value for money. Defence must, where
+possible, acquire more platforms and capabilities via sole source or off-the-shelf
+procurement, and limit or eliminate design changes and modifications. When
+subsequent design changes or enhancements to capabilities are proposed, we
+recommend these be independently tested by sceptical and truster advisers.167
+2.160 The requirement for a military off-the-shelf consideration and justification for any
+bespoke solution being presented to government is today, according to Defence ‘not
+as explicit. It's now evolved through that Smart Buyer process. We don't force that
+there must be a COTS [commercial off-the-shelf] or MOTS [military off-the-shelf]
+exemplar to be assessed against’.168
+2.161 The relationship between Smart Buyer and the consideration of military off-the-shelf
+options to provide a benchmark for time, cost and capability assessments is not
+clear. Smart Buyer was introduced in the First Principles Review (and has since been
+incorporated into the CASG Business Framework),169 which described Smart Buyer
+as such:
+A smart buyer is one who retains an in-house staff who understands the
+organization’s mission, its requirements, and its customer needs, and who can
+translate those needs and requirements into corporate direction. A smart buyer
+also retains the requisite capabilities and technical knowledge to lead and
+conduct teaming activities, accurately define the technical services needed,
+recognize value during the acquisition of such technical services, and evaluate
+the quality of services ultimately provided. As long as the owner retains the in-
+house capabilities to operate as a smart buyer of facilities, there does not appear
+to be any greater risk from contracting out a broad range of design review-related
+functions, so long as such functions are widely available from a competitive
+commercial marketplace. If the owner does not have the capacity to operate as a
+smart buyer, the owner risks project schedule and cost overruns and facilities
+that do not meet performance objectives.170
+2.162 It is not clear why the introduction of the Smart Buyer program was accompanied by
+a phase out of the consideration of military off-the-shelf options, given, as described
+by Defence itself, Smart Buyer is a decision-making framework, ‘which enables
+project sponsors and integrated project teams to identify key project risks and use
+that risk analysis to develop tailored project execution strategies’171 and assists
+167 Defence, Defence Strategic Review, p. 91.
+168 COTS—commercial off-the-shelf; MOTS—military off-the-shelf. Mr Matt Yannopoulos, Defence, Committee
+Hansard, 28 June 2024, p. 9.
+169 Defence, The CASG Business Framework: Working together to deliver Defence capability to our customers,
+2017, p. 5.
+170 D Peever, First Principles Review, p. 33.
+171 ANAO, 2015–16 MPR, p. 66.
+53
+Defence in ‘setting projects up for success at Gate Zero’.172 The Committee surmises
+Defence is of the view it can benchmark absent an exemplar.
+2.163 Information currently contained in the PDSSs does not always provide a clear
+understanding of the extent to which MOTS options were seriously considered, or
+used for the purposes of benchmarking. The following table summarises the
+information on MOTS in the 2022–23 MPR.
+Table 2.3 Off-the-shelf considerations noted in the 2022-23 Major Projects Report
+Project Consideration
+MHR 90 AIR 9000 Phase 2/4/6: Incorrectly viewed as military off-the-shelf173
+Collins Comms SEA1439 Phase 5B2: Stage 1 updated the obsolete COMCEN equipment on-board
+and EW the Collins Class with a military off-the-shelf solution174
+SEA 1448 Phase 4B: Government at Gate 1 (March 2015) was presented multiple
+ANZAC Air Search options including Developmental and military off-the-shelf (MOTS) options, with the
+Radar Replacement MOTS approach based on an upgraded variant of AN/SPS-49(V) not progressing
+further as it did not resolve the obsolescence issues175
+JNT 2072 Phase 2B: I-BTN (Integrated Battlespace Communications System
+Battlespace Network) capability is developmental as no off-the-shelf systems were available to
+Communications meet the requirements for the I-BTN; the I-BTN is being developed to integrate
+System developmental components and a range of off-the-shelf components, to meet
+requirements; Boeing Australia is buying and integrating off-the-shelf equipment176
+LAND 121 Phase 4/LAND154 Phase 4: Joint Counter Improvised Explosive Device
+Hawkei-related
+Capability - This project replaces the ADF’s existing Force Protection Electronic
+project – LAND 154
+Counter Measures (FPECM) capability through improved military off-the-shelf
+Phase 4
+technology, procured via the US Foreign Military Sales program177
+Battlefield Command LAND 200 Tranche 2: Scope - no military off-the-shelf BMS product was available
+System that provided all of the Army’s requirements178
+Combat
+LAND 400 Phase 2: An assessment prior to First Pass Approval identified current
+Reconnaissance
+MOTS solutions were unlikely to meet all of Army’s capability requirements179
+Vehicles
+LAND 907 Phase 2/LAND 8160 Phase 1: As a largely off-the-shelf purchase of MBT
+Heavy Armoured (Main Battle Tank), CEV (Combat Engineering Vehicle) and ARV (Armoured
+Capability Recovery Vehicles) via FMS (Foreign Military Sales), no major risks or issues have
+been identified at this stage180
+172 ANAO, 2016–17 MPR, p. 67.
+173 ANAO, 2022–23 MPR, p. 302.
+174 ANAO, 2022–23 MPR, p. 140.
+175 ANAO, 2022–23 MPR, p. 156.
+176 ANAO, 2022–23 MPR, p. 304.
+177 ANAO, 2022–23 MPR, p. 199.
+178 ANAO, 2022–23 MPR, p. 208.
+179 ANAO, 2022–23 MPR, p. 217.
+180 ANAO, 2022–23 MPR, p. 226.
+54
+Project Consideration
+AIR 5349 Phase 6: ADVM7, ADVM8, ADVM9 and ADVM11 systems are off-the-
+Advanced Growler
+shelf CEA Technologies Pty Ltd products without any development required181
+Source: 2022-23 Major Projects Report
+2.164 As noted above, Defence suggested to the Committee the introduction of the
+concept, ‘minimal viable capability, speed to capability being the mantra now …
+That’s going to change us back to looking at the MOTS-COTS solutions’.182
+2.165 Defence confirmed in a supplementary submission it would ‘consider more off-the-
+shelf, readily available options that require minimal or no modification,’ and the Smart
+Buyer process would support the consideration of these options in the early stages of
+a project.183
+Committee Comment
+2.166 The Committee welcomes Defence’s confirmation it will consider more off-the-shelf,
+readily available options, however, is of the view absent a requirement, this cannot
+be guaranteed. Previous Defence reviews have made recommendations to this
+effect. Without a requirement, capability managers may be tempted to specify
+timelines, processes or requirements that rule out certain options.
+2.167 The Committee will consider whether the Guidelines might be amended at some
+future stage to require the provision of clear and unambiguous evidence an off-the-
+shelf option has been seriously considered for all projects.
+Future of the MPR
+2.168 The MPR is intended to provide information and assurance on the performance of
+selected major Defence acquisition projects. Its objective is to improve the
+accountability and transparency of Defence acquisitions for the benefit of Parliament
+and other stakeholders.184
+2.169 As it stands:
+• limited assurance standard: the level of assurance provided by the Auditor-
+General relies primarily on an agency’s representations and other evidence
+generated by the agency, and expresses opinion in negative terms
+• PDSS information excluded from assurance: AIC, forecast dates, expected
+capability/scope delivery performance, and future risks are out of scope of
+181 ADVM—Advanced MTTES (Mobile Threat Training Emitter System) ANAO, 2022–23 MPR, p. 255.
+182 Mr Chris Deeble, Defence, Committee Hansard, 28 June 2024, p. 9.
+183 Defence, Submission 1.3, p. 4.
+184 ANAO, 2022–23 MPR, pages viii, 4; Defence and ANAO, MPR Guidelines, paragraph 1.1.
+55
+ANAO’s assurance because Defence systems cannot provide complete and/or
+accurate evidence in a sufficiently timely manner185
+• accuracy of PDSSs: the ANAO ‘observed ongoing quality issues relating to
+Defence’s preparation of iterations of the PDSSs,’ including instances where
+internal project reporting—relating to financial data, schedule milestone dates,
+quantities of material, and risks and issues—though accurate, was not accurately
+reflected in the PDSSs186
+• secrecy: classification of information has led the ANAO to conclude ‘there has
+been a reduction in the level of transparency and accountability, to the Parliament
+and other stakeholders since the 2020–21 MPR’,187 a trend that will continue
+• risk management: the MPR process provides limited insight into the accuracy of
+risk assessments and effectiveness of risk management.
+2.170 Defence put forward its views on how the MPR might evolve in a context where it is
+classifying increasing amounts of information on national security grounds. It
+suggested, broadly, considering projects of strategic importance; better capturing
+thematic and systemic findings; focusing findings on certain matters; and refining in-
+year longitudinal analysis. Each of these is considered below.
+Considering projects of strategic importance
+2.171 Defence suggested the report could evolve to ‘present a similarly holistic view of the
+Defence major project portfolio by considering projects of strategic importance’.188
+2.172 Defence does not explain what is meant by ‘strategic importance’. The projects in the
+MPR represent a selection of the most significant major projects managed by CASG
+and the Naval Shipbuilding and Sustainment Group (NSSG). The selected projects
+are ‘strategic’ in the sense that they are generally high cost, complex and important
+in terms of expected capability.
+Better capture thematic and systemic findings
+2.173 Defence suggested a future MPR could focus on the performance categories of:
+capability, schedule, cost and delivery and in so doing, better capture thematic and
+systemic findings.189
+2.174 The MPR presently requires Defence to report on capability, schedule, cost and
+delivery. However, Defence’s decision to classify information as ‘not for publication’
+means full public reporting on schedule has not been possible. This impacts on the
+ability of the Parliament to understand capability and delivery.
+185 ANAO, 2022–23 MPR, pages 5–6.
+186 ANAO, 2022–23 MPR, p. 27.
+187 ANAO, 2022–23 MPR, p. 48.
+188 Mr Chris Deeble, Defence, Committee Hansard, 24 April 2024, p. 2.
+189 Mr Chris Deeble, Defence, Committee Hansard, 24 April 2024, p. 2.
+56
+Focus of findings
+2.175 Defence suggested findings, thematic and systemic, could focus on actual cost
+pressures resulting in a real cost increase, and schedule delays which impact on the
+achievement of operational capabilities, milestones, and the realisation of delivery
+risks, which impact on scope.190
+2.176 The disclosure of such issues is expected of Defence in the PDSS, and the ANAO
+provides assurance over this information.
+Refinement of in-year longitudinal analysis
+2.177 Defence suggested the ANAO’s in-year longitudinal analysis of aggregate project
+data could be refined ‘to provide meaningful and insightful understanding of the risk
+relating to financial, schedule and performance associated with project complexity’. It
+stated the focus should be on the lessons that can be learnt for application to future
+projects.191
+2.178 The MPR is a limited assurance engagement that focuses on the integrity of Defence
+reporting in the PDSSs against the requirements of the MPR guidelines. This allows
+the ANAO to cover a broad range of projects annually in a structured way.
+2.179 A performance audit would allow the ANAO to look deeply to form an independent
+and holistic view on the full range of risks—financial, schedule, performance, and
+corresponding project complexity. However, a positive assurance, or performance
+audit, approach would require significant ANAO and Defence resources and would
+be considerably more intrusive than the current limited assurance approach.
+2.180 The MPR does not prevent Defence from learning lessons, and indeed it could
+readily draw from the PDSSs, lessons for its own purposes.
+Committee comment
+2.181 Now in its sixteenth year, the Committee considers it timely to assess whether the
+MPR continues to provide the necessary scrutiny and accountability for Defence
+acquisitions that was intended at its inception.
+2.182 While the Committee has previously noted that the discipline of the MPR has had
+positive impacts on Defence’s internal management of major projects, it is notable
+that the ANAO experiences ongoing quality issues in Defence’s preparation of
+PDSSs. In 2022–23, the ANAO assessed the PDSSs through four key milestones: a
+preliminary assessment of the initial drafts; a first assurance review; a second
+assurance review; and a third and final assurance review. Even after the third and
+190 Mr Chris Deeble, Defence, Committee Hansard, 24 April 2024, p. 2.
+191 Mr Chris Deeble, Defence, Committee Hansard, 24 April 2024, p. 2.
+57
+final assurance review, the ANAO continued to advise Defence of material errors and
+quality issues in the PDSSs.192
+2.183 Further, forecast information relating to Australian Industry Capability, material
+capability/scope delivery performance, risks and issues, and forecast dates is
+excluded from the scope of the ANAO’s review because Defence systems cannot
+provide complete and/or accurate evidence in a sufficiently timely manner to
+complete the review.193
+2.184 In Report 503, the Committee examined major projects reports undertaken in other
+jurisdictions. Alternative models have both benefits and drawbacks; but no
+jurisdiction has in place the type of structured scrutiny and granularity across projects
+provided by the MPR, conducted with the rigour of public, independent assurance via
+a national audit institution.194
+2.185 The Committee has considered bespoke options, including a hybrid option that would
+slightly reduce the number of projects but examine each in greater detail. This would
+be complemented with a higher level dashboard-type approach on a broader suite of
+projects.
+2.186 As it considers how the MPR can best deliver on its intent, the Committee continues
+to support the work undertaken by Defence and the ANAO to evolve the Guidelines
+through the annual Guidelines process. It has been noted in this report that the MPR
+is an important mechanism for scrutiny and accountability and as such, the
+Committee recommends it be strengthened to provide a more thoroughgoing account
+of project costs and greater transparency as to project modifications over the life of
+each project. Accordingly, the Committee makes the following recommendations.
+Recommendation 3
+2.187 The Committee recommends the Department of Defence examines and
+provides to the Committee in the Major Projects Report 2025–26, an
+assessment of the full project costs for each project, including fundamental
+inputs to capability: organisation, command and management, personnel,
+collective training, major systems, facilities and training areas, supplies,
+support, and industry.
+Recommendation 4
+2.188 The Committee recommends the ANAO and Department of Defence examine
+and provide to the Committee in the draft 2025–26 Major Projects Report
+Guidelines, options for including in the MPR, in an easily accessible format, a
+high-level summary of modifications to scope, schedule and budget for ‘in-
+year’ and ‘life-to-date’ of each project. This would allow for the easy
+192 ANAO, 2022–23 MPR, p. 27.
+193 ANAO, 2022–23 MPR, p. 25.
+194 JCPAA, Report 503, p. 12.
+58
+identification of project variations, scope changes, and real cost increases. It
+would include an explanation of: the source of funding for scope changes,
+whether scope was transferred to other projects/phases, the extent of real
+budget increases and how they have been met, and whether timeframes were
+extended.
+Hon Linda Burney MP
+Chair
+10 December 2024
+59
+
+A. Submissions
+1 Department of Defence
+• 1.1 Supplementary to submission 1
+• 1.2 Confidential
+• 1.3 Supplementary to submission 1
+• 1.4 Confidential
+• 1.5 Supplementary to submission 1
+61
+
+B. Witnesses
+Wednesday 24 April 2024
+Committee Room 2R1
+Parliament House, Canberra
+Australian National Audit Office
+• Ms Rona Mellow PSM, Acting Auditor-General
+• Ms Carla Jago, Acting Deputy Auditor-General
+• Dr Tom Ioannou, Group Executive Director, Performance Audit Services Group
+Department of Defence
+• Mr Matt Yannopoulos, Associate Secretary
+• Mr Chris Deeble, Deputy Secretary, Capability Acquisition and Sustainment
+Group
+• Mr James McDowell, Deputy Secretary, Naval Shipbuilding and Sustainment
+Group
+• Major General Anthony Rawlins, Head Force Design
+• Major General Richard Vagg, Head Land Capability
+• Mr Graham Weber, First Assistant Secretary Financial Performance and
+Management
+Friday 28 June 2024
+Committee Room 2R1
+Parliament House
+Department of Defence
+• Mr Chris Deeble, Deputy Secretary, Capability Acquisition and Sustainment
+Group
+• Rear Admiral Stephen Hughes, Head, Navy Capability
+• Major General Anthony Rawlins, Head Force Design
+• Mr Matt Yannopoulos, Associate Secretary
+• Ms Sheryl Lutz, First Assistant Secretary, Major Surface Combatants and Combat
+Systems
+63

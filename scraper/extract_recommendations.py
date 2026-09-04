@@ -309,11 +309,23 @@ def main() -> int:
         open(DATA / "response_documents.csv", encoding="utf-8-sig"))
         if r["id"] not in excluded]
 
+    # Which report each response answers, where that is known — see
+    # link_responses_to_reports.py. A result that shows the government's
+    # words about a recommendation should let the reader open the report the
+    # recommendation came from, not only the response.
+    pairs: dict[str, dict] = {}
+    pairs_path = DATA / "response_reports.csv"
+    if pairs_path.exists():
+        for r in csv.DictReader(open(pairs_path, encoding="utf-8-sig")):
+            if r["report_id"]:
+                pairs[r["response_id"]] = r
+
     rows, empty = [], 0
     for d in docs:
         body = text_for(d["id"])
         others = bool(DOC_HAS_OTHERS.search(body))
         found = recommendations_in(body)
+        pair = pairs.get(d["id"], {})
         if not found:
             empty += 1
             continue
@@ -341,6 +353,16 @@ def main() -> int:
                 # 2022 — see harvest_manual_reports.py. It is carried into the
                 # published data so the provenance of every row is checkable.
                 "collection": "",
+                # The response this row's words come from, and the report it
+                # answers. On a response-derived row the response is the source
+                # itself; the report is known where the Parliament links the two
+                # or the title search found it.
+                "response_id": d["id"],
+                "response_url": d["url"],
+                "response_tabled": d["tabled_senate"] or d["tabled_house"],
+                "report_id": pair.get("report_id", ""),
+                "report_url": pair.get("report_url", ""),
+                "report_title": pair.get("report_title", ""),
             })
 
     if not rows:

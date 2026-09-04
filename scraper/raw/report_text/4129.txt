@@ -1,0 +1,2625 @@
+The Senate
+Legal and Constitutional Affairs
+Legislation Committee
+Identity Verification Services Bill 2023 and
+the Identity Verification Services
+(Consequential Amendments) Bill 2023
+[Provisions]
+November 2023
+© Commonwealth of Australia 2023
+ISBN 978-1-76093-574-0 (Printed version)
+ISBN 978-1-76093-574-0 (HTML version)
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 International License.
+The details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Printed by Senate Printing Unit, Parliament House, Canberra
+Contents
+Members ............................................................................................................................................... v
+List of recommendations ................................................................................................................ vii
+Chapter 1—Introduction .................................................................................................................... 1
+Conduct of the inquiry ........................................................................................................................ 1
+Structure of the report ......................................................................................................................... 1
+Purpose of the bills .............................................................................................................................. 2
+Background ........................................................................................................................................... 2
+Key provisions of the bills .................................................................................................................. 8
+Consideration by other parliamentary committees ...................................................................... 20
+Note on references ............................................................................................................................. 21
+Chapter 2—Key issues...................................................................................................................... 23
+Rationale and legislative basis for the identity verification services .......................................... 23
+Privacy provisions ............................................................................................................................. 27
+Consent provisions ............................................................................................................................ 37
+Review of the legislation ................................................................................................................... 39
+Committee view ................................................................................................................................. 40
+Dissenting Report by Senator Paul Scarr ..................................................................................... 47
+Additional Comments by Senator David Shoebridge ............................................................... 63
+Appendix 1—Submissions and additional information ........................................................... 67
+Appendix 2—Public hearings ......................................................................................................... 69
+iii
+
+Members
+Chair
+Senator Nita Green ALP, QLD
+Deputy Chair
+Senator Paul Scarr LP, QLD
+Members
+Senator Raff Ciccone ALP, VIC
+Senator Helen Polley ALP, TAS
+Senator David Shoebridge AG, NSW
+Senator Alex Antic LP, SA
+Secretariat
+Sophie Dunstone, Committee Secretary
+Mervyn Piesse, Acting Senior Research Officer
+Madeleine Wainwright, Graduate
+Grace McElholum, Administrative Officer
+Suite S1.61 Telephone: (02) 6277 3560
+Parliament House
+Canberra ACT 2600 Email: legcon.sen@aph.gov.au
+v
+
+List of recommendations
+Recommendation 1
+2.107 The committee recommends that the IVS bill is amended to provide a rule
+making power to strengthen privacy safeguards.
+Recommendation 2
+2.109 The committee recommends that the IVS bill is amended to provide that
+'identification information' as defined in clause 6 is 'personal information' for
+the purposes of the Privacy Act.
+Recommendation 3
+2.111 The committee recommends that the IVS bill is amended to provide that a
+breach of a participation agreement that relates to a privacy matter by an APP
+entity constitutes an interference with privacy under the Privacy Act.
+Recommendation 4
+2.113 The committee recommends that the Explanatory Memorandum is amended
+to make clear that participation agreements must be privacy-enhancing and
+consistent with the APPs.
+Recommendation 5
+2.115 The committee recommends that the Explanatory Memorandum is amended
+to clarify that the compliance obligations under the bills do not alter a
+participating entity's obligations under the Privacy Act.
+Recommendation 6
+2.117 The committee recommends that clause 40 of the IVS bill is amended to
+enliven the OAIC's existing assessment powers in subsection 33C(1) of the
+Privacy Act in relation to the annual assessment requirements.
+Recommendation 7
+2.119 The committee recommends that the IVS bill is amended to ensure that
+individuals are notified when there is a data breach that is likely to cause
+them serious harm.
+Recommendation 8
+2.121 The committee recommends that the IVS bill is amended to allow entrusted
+persons (for example, a departmental employee) to disclose protected
+information to the Information Commissioner or an OAIC staff member, for
+vii
+the purpose of the Commissioner or OAIC exercising a power, or performing
+a function or duty.
+Recommendation 9
+2.123 The committee recommends that clause 44 of the IVS bill is amended to
+require the Information Commissioner to be consulted on the rules, as they
+relate to privacy, before they are made under clause 44.
+Recommendation 10
+2.125 The committee recommends that the IVS bill is amended to only include
+express consent and not implied consent.
+Recommendation 11
+2.127 The committee recommends that the IVS bill is amended to provide for an
+interim review after 12 months. That interim review should focus on the
+adequacy of the privacy and security protections operating in the IVS scheme
+and whether there is merit in developing a civil penalties framework within
+the IVS scheme.
+Recommendation 12
+2.128 Subject to the preceding recommendations, the committee recommends that
+the Senate pass the bills.
+viii
+
+
+Chapter 1
+Introduction
+1.1 On 14 September 2023, the Senate referred the provisions of the
+Identity Verification Services Bill 2023 (IVS bill) and the Identity Verification
+Services (Consequential Amendments) Bill 2023 (Consequential Amendments
+bill) (collectively the bills) to the Legal and Constitutional Affairs Legislation
+Committee (the committee) for inquiry and report by 9 November 2023.1
+1.2 The referral followed a recommendation of the Senate Standing Committee for
+the Selection of Bills (Selection of Bills Committee). Appendix 2 to that
+committee's report suggested an inquiry would '[p]rovide stakeholders an
+opportunity to speak to the measures in the Bills'.2 The Selection of Bills
+Committee further suggested that an inquiry could focus on matters relating to
+privacy, security, and the collection of and access to personal information and
+data.3
+Conduct of the inquiry
+1.3 In accordance with its usual practice, the committee advertised the inquiry on
+its website and wrote to relevant organisations and individuals inviting
+submissions by 2 October 2023. The committee received 17 submissions, which
+are listed at Appendix 1 and are available on the committee's website.
+1.4 The committee held a public hearing in Brisbane on 30 October 2023. A list of
+witnesses is provided at Appendix 2.
+1.5 Answers to questions on notice and other material received by the committee
+are listed at Appendix 1. Submissions and the Hansard transcript of evidence
+may be accessed through the committee website.
+1.6 The committee thanks the organisations and individuals who gave evidence at
+the public hearing as well as those who made written submissions.
+Structure of the report
+1.7 The report comprises two chapters as follows:
+ Chapter 1 outlines the administrative details of the inquiry, background to
+the inquiry, and the key provisions of the bills.
+ Chapter 2 explores the key issues raised in evidence and provides the
+committee's views and recommendations in relation to the bills.
+1 Journals of the Senate, No. 72—14 September 2023, pp. 2042–2044.
+2 Senate Standing Committee for the Selection of Bills, Report No. 11 of 2023, Appendix 2, p. 10.
+3 Senate Standing Committee for the Selection of Bills, Report No. 11 of 2023, Appendix 2, p. 7.
+1
+2
+Purpose of the bills
+1.8 The bills would provide a legislative framework for the operation of three
+approved identity verification facilities, and provide privacy and security
+protections for those using them.
+Background
+Council of Australian Government agreement on identity matching services
+1.9 On 27 September 2005, the Council of Australian Governments (COAG)
+recognised that there was an 'operational need for a national capability to
+support identity verification'.4 It was agreed that there was a need for 'a national
+document verification service to combat identity theft and fraudulent use of
+stolen and assumed identities'.5
+1.10 On 13 April 2017, COAG agreed to the Intergovernmental Agreement to a
+National Identity Security Strategy (NISS).6
+1.11 The NISS assists the Commonwealth, states and territories:
+…to work collaboratively to enhance national security, combat crime and
+increase service delivery opportunities through nationally consistent
+processes for enrolling, securing, verifying and authenticating identities and
+identity credentials. The Document Verification Service [DVS] is a key
+initiative of the NISS that provides a practical means of promoting identity
+security across the Australian community.7
+1.12 On 5 October 2017, COAG entered into the Intergovernmental Agreement on
+Identity Matching Services (Intergovernmental Agreement). Under that
+agreement, jurisdictions agreed 'to share and match identity information, with
+robust privacy safeguards, to prevent identity crime and promote law
+enforcement, national security, road safety, community safety and service
+delivery outcomes'.8
+1.13 The parties to the Intergovernmental Agreement agreed to participate in the
+National Driver Licence Facial Recognition Service (NDLFRS).9 They agreed
+that the NDLFRS would be hosted, operated, and managed by the
+Commonwealth.10 The NDLFRS would 'contain identity information
+4 Attorney-General's Department (AGD), Submission 2, p. 4.
+5 Attorney-General's Department, Submission 2, p. 4.
+6 Council of Australian Governments (COAG), Intergovernmental Agreement on Identity Matching
+Services (Intergovernmental Agreement), 5 October 2017, p. 3.
+7 COAG, Intergovernmental Agreement, 5 October 2017, p. 3.
+8 COAG, Intergovernmental Agreement, 5 October 2017, p. 1.
+9 COAG, Intergovernmental Agreement, 5 October 2017, p. 16.
+10 COAG, Intergovernmental Agreement, 5 October 2017, p. 16.
+3
+contributed by state and territory Data Holding Agencies and the biometric
+templates generated from that identity information'.11
+1.14 The Explanatory Memorandum (EM) to the bills notes that the IVS bill 'reflects
+and seeks to implement aspects of the Commonwealth's commitments under
+the [Intergovernmental Agreement]'.12
+1.15 The EM suggests that, under the Intergovernmental Agreement, 'jurisdictions
+would share and match biographic and biometric information, with robust
+privacy safeguards, through the identity verification services'.13
+The inquiry into the Identity-matching Services Bill 2019
+1.16 In October 2019, the Parliamentary Joint Committee on Intelligence and Security
+(PJCIS) completed its inquiry into the Identity-matching Services Bill 2019.14
+1.17 The Attorney-General's Department (AGD) stated that '[t]he IVS Bill addresses
+the recommendations made by [the PJCIS]'.15 In the view of the AGD, the IVS
+bill 'aligns with the following principles' recommended by the PJCIS:
+ the regime is built around privacy, transparency and subject to robust
+safeguards
+ privacy obligations and safeguards are required by the IVS Bill and will
+be implemented in practice through a participation agreement
+ the regime is subject to Parliamentary oversight and reasonable,
+proportionate and transparent functionality, and
+ annual reporting requirements for the identity verification services are
+included.16
+1.18 Ms Tara Inverarity, Acting Deputy Secretary, National Security and
+Criminal Justice Group, AGD, stated:
+The design of the bill has been informed by the principles and
+recommendations from the previous [PJCIS] inquiry into the
+Identity Matching Services Bill 2019. Those principles were that the regime
+should be built around privacy and transparency and be subject to robust
+safeguards; the regime should be subject to parliamentary oversight and
+reasonable, proportionate and transparent functionality; the regime should
+be one that requires annual reporting on the use of identity-matching
+11 COAG, Intergovernmental Agreement, 5 October 2017, p. 16.
+12 Explanatory Memorandum to the Identity Verification Services Bill 2023 and the
+Identity Verification Services (Consequential Amendments) Bill 2023 (EM), p. 4.
+13 EM, p. 4.
+14 Parliamentary Joint Committee on Intelligence and Security, Advisory report on the Identity-matching
+Services Bill 2019 and the Australian Passports Amendment (Identity-matching Services) Bill 2019,
+October 2019.
+15 AGD, Submission 2, p. 3.
+16 AGD, Submission 2, p. 3.
+4
+services; and the primary legislation should specifically require that there is
+a participation agreement that sets out the obligations of all parties
+participating in the identity-matching services in detail.17
+Identity verification services
+1.19 The EM defines the identity verification services as:
+…a series of automated national services offered by the Commonwealth to
+allow government agencies and industry to efficiently compare or verify
+personal information on identity documents against existing government
+records, such as passports, driver licences and birth certificates.18
+1.20 The Attorney-General, the Hon Mark Dreyfus KC MP, explained:
+Secure and efficient identity verification that protects the privacy of
+Australians is vital to the digital economy. It ensures Australians can access
+the services they need without exposing them to identity crime.19
+1.21 He noted that the Document Verification Service (DVS) and Face Verification
+Service (FVS) 'are the only national capability that can be used by industry and
+government to securely verify the identity of their customers'.20
+1.22 Identity verification services are used by government agencies, banks, and
+telecommunications providers to authenticate identity documents.21 The EM
+explains that they are used by '[g]overnment agencies when providing services,
+disaster relief and welfare payments, and Commonwealth, state and territory
+government agencies verifying identity in order to provide or change
+credentials'.22 They are also used by 'financial service providers…when seeking
+to verify the identity of their customers and to meet the "know your customer"
+obligation under the Anti-Money Laundering and Counter-Terrorism Financing
+Act 2006'.23
+17 Committee Hansard, 30 October 2023, p. 36.
+18 EM, p. 3.
+19 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 13.
+20 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 13.
+21 The Hon Mark Dreyfus KC MP, Attorney-General, and Senator the Hon Katy Gallagher,
+Minister for Finance, Minister for Women, Minister for the Public Service, 'Supporting secure
+identity verification services', Media Release, 13 September 2023.
+22 EM, p. 3.
+23 EM, p. 3.
+5
+1.23 The DVS 'was used over 140 million times by approximately 2,700 government
+agencies and industry organisations' in 2022.24 During 'the 2022–23 financial
+year, there were approximately 2.6 million [FVS] transactions'.25
+1.24 The DVS has been used to create 'more than 11.3 million myGovID accounts that
+people can use to authenticate their identity for government websites and
+services'.26 The FVS has been used to verify one-third of those myGovID
+accounts.27 A myGovID account 'provides access to Centrelink, the Australian
+tax office and other critical services'.28
+1.25 The Attorney-General stated that '[t]he government is committed to supporting
+the effective ongoing operation of identity verification services, and ensuring
+they provide appropriate privacy protections and security safeguards'.29
+1.26 He explained that the IVS bill:
+…will provide clear legislative authority to ensure the continued operation
+of identity verification services. It will limit the purposes for which requests
+can be made using the services, providing increased certainty and
+transparency for Australians about how the services can be used.30
+1.27 In addition to that legislative authority, the Attorney-General also pointed out
+that the IVS bill contains 'robust privacy safeguards'.31 Those safeguards would
+'give the Australian community confidence that the government is protecting
+their personal information'.32
+24 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 13.
+25 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 13.
+26 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 13.
+27 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 13.
+28 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 13.
+29 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 13.
+30 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 13.
+31 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 14.
+32 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 14.
+6
+1.28 Some of the proposed privacy safeguards include:
+ a requirement for organisations that request information from identification
+verification services to be subject to privacy laws or the Australian Privacy
+Principles; 33
+ when a request is made for the verification of a person's identity, informed
+consent from that person is required; 34
+ a requirement that agencies or organisations that request information from
+identification verification services 'have appropriate complaint-handling
+processes, and [that] data breaches must be reported';35
+ imposing limitations on 'the purposes for which information may be
+collected, used or disclosed';36 and
+ making it 'an offence to prevent unauthorised recording, disclosure, or
+access to information by departmental officers'.37
+1.29 The privacy safeguards would 'be implemented through participation
+agreements between the department and the requesting agencies and
+organisations, which can be suspended or terminated if terms are breached'.38
+The participation agreements would also be available to the public, 'to ensure
+transparency'.39
+1.30 The Attorney-General also explained that the IVS bill includes measures to
+secure and protect the communications to and from the identity verification
+services, and the information stored in the NDLFRS.40
+33 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 14.
+34 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 14.
+35 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 14.
+36 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 14.
+37 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 14.
+38 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 14.
+39 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 14.
+40 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 14.
+7
+1.31 The Attorney-General's Department would be required to implement measures
+to 'protect information from unauthorised interference or unauthorised access'.41
+1.32 The Attorney-General stated that there are 'transparency, accountability and
+oversight measures [in the IVS bill] to ensure privacy standards are upheld'.42
+Those measures include:
+ the requirement to publish participation agreements, access policies and
+other relevant documents;
+ provision for entrusted persons to disclose protected information to the
+Inspector-General of Intelligence and Security or the Commonwealth
+Ombudsman, to assist either agency to exercise their oversight functions;
+mandatory annual assessments by the Information Commissioner of the
+operation and management of identity verification services; and
+ annual reporting requirements, including providing information about
+data breaches and security incidents, and the accuracy of facial
+recognition systems.43
+1.33 He observed that a statutory review of the IVS bill would be required within
+two years of its commencement.44
+1.34 The Attorney-General stated that the IVS bill would 'ensure the continued use
+of strong and secure identity verification…[It also ensures] that identity
+verification services have extensive privacy safeguards and effective oversight
+and transparency requirements'.45
+1.35 In commending the IVS bill to the House, the Attorney-General stated that it
+would enable 'Australians to conveniently and securely engage with the digital
+economy and access critical services while minimising the risk of identity fraud
+and theft'.46
+41 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 14.
+42 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 15.
+43 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 15.
+44 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 15.
+45 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 15.
+46 The Hon Mark Dreyfus KC MP, Attorney-General, House of Representatives Proof Hansard,
+13 September 2023, p. 15.
+8
+Key provisions of the bills
+1.36 The IVS bill would allow the Attorney-General's Department 'to develop,
+operate and maintain' three approved identity verification facilities.47 Those
+facilities are the:
+ DVS hub;48
+ Face Matching Service Hub;49 and
+ NDLFRS.50
+1.37 The identity verification facilities would 'provide the identity verification
+services. These facilities will relay electronic communications between persons
+and bodies for the purposes of requesting and providing identity verification
+services'.51
+1.38 The DVS hub and the Face Matching Service Hub would not relay information
+relating to an individual's:
+(i) racial or ethnic origin; or
+(ii) political opinions; or
+(iii) membership of a political organisation; or
+(iv) religious beliefs or affiliations; or
+(v) philosophical beliefs; or
+(vi) membership of a professional or trade association; or
+(vii) membership of a trade union; or
+(viii) sexual orientation or practices; or
+(ix) criminal record.52
+1.39 Those two identity verification facilities would not relay an individual's health
+information or their genetic information.53
+1.40 Each of the facilities are outlined in the following section of the report.
+The Document Verification Service hub
+1.41 The DVS became available for government use in 2008.54 It was made available
+to industry in 2014, 'subject to privacy safeguards and protections'.55
+47 IVS bill, cl. 3.
+48 IVS bill, subcl. 27(3).
+49 IVS bill, subcl. 27(4).
+50 IVS bill, subcl. 27(5).
+51 EM, p. 4.
+52 IVS bill, para. 6(4)(a).
+53 IVS bill, para. 6(4)(b) and 6(4)(c).
+54 AGD, Submission 2, p. 4.
+55 AGD, Submission 2, p. 4.
+9
+1.42 The DVS hub would be a facility that relays information about DVSs
+electronically to persons and bodies requesting or providing that information.56
+The information relayed by the DVS hub would be obtained from DVS
+documents and would not contain facial images or biometric data.57
+1.43 A DVS document may be any of the following:
+(a) a birth certificate issued by or on behalf of an authority of a State or
+Territory;
+(b) a death certificate issued on behalf of an authority of a State or Territory;
+(c) a concession card (within the meaning of the Social Security Act 1991);
+(d) a notice given under section 37 of the Australian Citizenship Act 2007
+stating that a person is an Australian citizen at a particular time;
+(e) a certificate issued by an authority of a State or Territory indicating that
+an individual has changed the individual's name;
+(f) a driver's licence (however described) issued by or on behalf of an
+authority of a State or Territory;
+(g) a document issued by or on behalf of an authority of a State or Territory
+to assist an individual to prove the individual's age or identity;
+(h) a document issued to an individual, as a person who is not an Australian
+citizen, by the Department administered by the Minister administering
+the Migration Act 1958 to assist the individual to prove the individual's
+identity;
+(i) a certificate of marriage issued by or on behalf of an authority of a State
+or Territory whose function is to register marriages;
+(j) a document issued by a court setting out a divorce order made under
+the Family Law Act 1975;
+(k) an Australian travel document (within the meaning of the
+Australian Passports Act 2005);
+(l) a certificate signed by an officer (within the meaning of the
+Migration Act 1958) stating that, at a specified time, or during a specified
+period, a specified person was the holder of a visa that was in effect;
+(m) an entry in a Roll (within the meaning of the Commonwealth Electoral
+Act 1918) relating to a particular individual;
+(n) an aviation security identification card issued under regulations made
+for the purposes of the Aviation Transport Security Act 2004;
+(o) an MSIC issued under regulations made for the purposes of the
+Maritime Transport and Offshore Facilities Security Act 2003;
+(p) a medicare card (within the meaning of subsection 84(1) of the
+National Health Act 1953).58
+56 IVS bill, cl. 5.
+57 IVS bill, subcl. 6(4).
+58 IVS bill, cl. 5.
+10
+1.44 A DVS 'provides 1:1 matching to verify biographic information (such as a name
+or date of birth), with consent, against government issued identification
+documents'.59
+1.45 A DVS electronically compares information related to an individual with a DVS
+document.60 A DVS would communicate the results of the comparison with the
+requesting party by stating that the compared information either did or did not
+match.61 If the compared information did not match, a DVS may provide reasons
+as to why.62
+1.46 The IVS bill would require both the request and the response to it to be
+communicated electronically via the DVS hub or the Face Matching Service
+Hub.63
+The Face Matching Service Hub
+1.47 The Face Matching Service Hub would be a facility that relays electronic
+communications between persons and bodies that request or provide identity
+verification services.64
+1.48 Those identity verification services would be provided by a Face Identification
+Service (FIS) or a Face Verification Service (FVS).
+Face Identification Service
+1.49 The EM explains that '[t]he FIS is a 1:many matching service', the authorised use
+of which would be limited to a specific group of Commonwealth, state, and
+territory agencies.65 The IVS bill would allow a FIS request to be made by:
+ 'a law enforcement officer or intelligence officer';66
+ 'an officer…of an agency authorised under a corresponding assumed
+identity law';67 or
+59 EM, p. 3.
+60 IVS bill, para. 15(1)(d).
+61 IVS bill, para. 15(1)(g).
+62 IVS bill, subpara. 15(1)(g)(ii).
+63 IVS bill, para. 15(1)(h).
+64 IVS bill, cl. 5.
+65 EM, p. 9.
+66 IVS bill, subpara. 17(1)(a)(i). Note: 'law enforcement officer' and 'intelligence officer' are defined in
+section 15K of the Crimes Act 1914 (Crimes Act).
+67 IVS bill, subpara. 17(1)(a)(ii). Note: 'corresponding assumed identity law' is defined in section
+15K of the Crimes Act.
+11
+ an officer of an approved authority that is permitted to participate in the
+National Witness Protection Program.68
+1.50 Limitations on access to the FIS ensures that it 'is only used by those government
+entities with an operational need to manage and protect shielded persons, and
+their associates'.69
+1.51 An officer making a FIS request would need to be 'approved as a suitable person
+to make the request'.70 The head of the authority, or someone delegated by them,
+would need to endorse FIS requests.71
+1.52 A FIS request would only be able to be made 'for the purpose of protecting the
+identity of a shielded person or someone else associated with a shielded
+person'.72 The person endorsing the FIS request would also need to be satisfied
+that the request is being made to protect 'the shielded person, or associate, stated
+in the request; and [in accordance with] the performance of the authority's
+functions'.73
+1.53 The AGD highlighted the importance of this limitation as it 'provides certainty
+that the FIS will not be used for general law enforcement and intelligence
+purposes, or mass surveillance'.74 It also noted that the 'authorisation process
+will ensure requests made for a FIS are appropriate and subject to senior level
+oversight'.75
+1.54 A FIS request would need to include a facial image of an individual and 'specify
+the kinds of government identification documents against which the
+face-matching service information in the request is to be compared'.76
+68 IVS bill, subpara. 17(1)(a)(iii). Note: 'approved authority' is defined in the Witness Protection
+Act 1994.
+69 AGD, Submission 2, p. 11.
+70 IVS bill, subcl. 17(2).
+71 IVS bill, subcl. 17(4). Note: the individuals who may be delegated to endorse FIS requests are listed
+in IVS bill, para. 17(4)(a).
+72 IVS bill, para. 17(1)(b). Shielded persons are defined as: 'a person who requires an assumed identity,
+such as a covert officer, or a person who is a participant of the witness protection program or
+involved in administering the witness protection program', see: Mr Hans Koenderink,
+Assistant Commissioner, Intelligence and Covert Services, Australian Federal Police,
+Committee Hansard, 30 October 2023, p. 24.
+73 IVS bill, subcl. 17(5).
+74 AGD, Submission 2, p. 11.
+75 AGD, Submission 2, p. 12.
+76 IVS bill, subcl. 17(3).
+12
+1.55 FIS requests would be communicated electronically to the Face Matching
+Service Hub.77
+1.56 The FIS electronically compares a facial image of an individual and other
+face-matching service information that is included in the FIS request with:
+…face-matching service information that:
+(a) relates to one or more individuals; and
+(a) is contained in, or associated with, one or more government
+identification documents of one or more kinds specified in the request;
+and
+(a) is made available for the comparison by a government authority…that
+is a party to a participation agreement.78
+1.57 The AGD reported that the FIS 'has been used on three occasions between
+2018 and 2021, in limited trials and pilot programs by state police'.79
+1.58 The AGD explained that the FIS is required to ensure that law enforcement
+agencies 'can carry out their functions in protecting shielded persons'.80 Without
+the FIS:
+…there is a real risk that a nefarious actor could lawfully verify the identity
+of a shielded person through a DVS or FVS request. This could compromise
+the safety and security of a shielded person and their family, and undermine
+a law enforcement or national security investigation.81
+1.59 Mr Hans Koenderink, Assistant Commissioner, Australian Federal Police (AFP),
+similarly explained that the AFP's:
+…ability to protect these people is a fundamental necessity in maintaining
+the trust of our community as well as domestic and foreign partners.
+It enables us to successfully fulfil our role of enforcing Commonwealth law
+and protecting Commonwealth interests from criminal activity in Australia
+and overseas…The protections in this bill are essential for the critical
+functions of the AFP to protect our members, witnesses and operations
+where shielded persons are involved.82
+1.60 He argued that without access to 'the 1:many matching service' provided in the
+IVS bill:
+…there is a real risk that the safety and security of a shielded person and
+their family could be compromised…There is also a risk that, in turn,
+77 IVS bill, para. 17(4)(b).
+78 IVS bill, subcl. 18(1).
+79 AGD, Submission 2, p. 4.
+80 AGD, Submission 2, p. 10.
+81 AGD, Submission 2, p. 10.
+82 Committee Hansard, 30 October 2023, p. 24.
+13
+compromising the identity of a shielded person will undermine a law
+enforcement or national security investigation.83
+Face Verification Service
+1.61 A FVS:
+…provides 1:1 matching to verify biometric information (in this case a
+photograph or facial image of an individual), with consent, against a
+Commonwealth, state or territory issued identification document (for
+example, passports and driver licences).84
+1.62 A FVS request would be 'made by or on behalf of a party…to a participation
+agreement'.85 Unlike the DVS, FVS requests may not 'be provided to an authority
+of, or entity in, New Zealand…The FVS is solely being provided to Australian
+agencies and entities'.86
+1.63 A FVS request would include 'face-matching service information that relates to
+the individual'.87
+1.64 A FVS would electronically compare:
+…face-matching service information that relates to the individual that is
+included in the request…[with] face-matching service information that:
+(i) is contained in, or associated with, a government identification
+document of a kind specified in the request that was issued to the
+individual; and
+(ii) is made available for the comparison by a government
+authority…that is a party to a participation agreement.88
+1.65 The purpose of comparing that information would be to:
+ verify an individual's identity;89 or
+ protect a shielded person or someone associated with them.90
+1.66 If the party making the request is a non-government entity, the response would
+either indicate 'that the comparison resulted in a match for the individual or that
+the comparison did not result in a match for the individual'.91 In that case, the
+83 Mr Hans Koenderink, Assistant Commissioner, Australin Federal Police, Committee Hansard,
+30 October 2023, p. 24.
+84 EM, p. 3.
+85 IVS bill, para. 19(a).
+86 EM, p. 44. Also see, IVS bill, para. 19(a).
+87 IVS bill, para. 19(b).
+88 IVS bill, subcl. 20(1).
+89 IVS bill, para. 20(3)(a).
+90 IVS bill, para. 20(3)(b).
+91 IVS bill, para. 19(d).
+14
+response would 'not contain any other face-matching service information that
+relates to the individual'.92
+1.67 Both the request and the response to it would be communicated electronically
+via the Face Matching Service Hub.93
+1.68 The AGD reported that the FVS 'commenced in 2016 for transactions by
+government agencies only'.94
+National Driver Licence Facial Recognition Service
+1.69 The DVS and FVS would use the NDLFRS to provide identity verification
+services.95
+1.70 The NDLFRS is a database of identification information that is supplied by state
+and territory authorities that is gathered from government identification
+documents issued by those authorities.96 The NDLFRS allows for the biometric
+comparison of facial images with facial images that are contained in the
+database.97
+1.71 As 'approximately 80 per cent of Australians have a driver licence', the NDLFRS
+would ensure that a broad range of people can utilise identity verification
+services to create a 'strong' MyGovID.98 A 'strong' MyGovID is required
+'to access certain government services, such as those provided by Centrelink and
+the Australian Tax Office'.99
+1.72 The EM notes that approximately 50 per cent of the population hold an
+Australian passport, which is the only other identity document permitted to
+create a 'strong' MyGovID.100 It indicates that without the NDLFRS,
+approximately half of the Australian population would not be able to create a
+'strong' MyGovID.101
+92 IVS bill, cl. 19.
+93 IVS bill, para. 19(e).
+94 AGD, Submission 2, p. 4.
+95 AGD, Submission 2, p. 9.
+96 IVS bill, cl. 5. Note: the AGD advised that driver's licence information is currently the only type of
+identification document supplied by state and territory authorities, see: AGD, Submission 2, p. 10.
+97 IVS bill, cl. 5.
+98 EM, p. 7.
+99 EM, p. 7.
+100 EM, p. 7.
+101 EM, p. 7.
+15
+Privacy provisions
+1.73 The IVS bill contains provisions that are designed to protect the privacy of
+individuals whose identification information is collected, used, and disclosed
+by the department.
+1.74 In operating the identity verification facilities, the AGD may collect
+identification information for purposes relating to:
+ verifying an individual's identity using a DVS or FVS; or
+ protecting a shielded person or someone associated with that shielded
+person using an FVS or FIS; or
+ developing identity verification services, or facilities that provide those
+services, for the purpose of verifying an individual's identity, or protecting a
+shielded person or someone associated with that shielded person; or
+ the development, operation, or maintenance of the NDLFRS.102
+1.75 In operating and maintaining the identity verification facilities, the AGD must
+ensure that electronic communications to and from those facilities are secure,
+'including by encrypting the information'.103 It must also 'protect the information
+from unauthorised interference or unauthorised access'.104
+1.76 The identity verification services would operate as either a 1:1 or 1:many
+matching service. The difference between those two kinds of identity
+verification services is explained as follows:
+A 1:1 matching service matches particular biometric information (such as a
+photograph) or biographic information (such as a name or date of birth)
+against a particular record. A 1:many matching service compares a facial
+image (such as a photograph) against other facial images.105
+1.77 The FVS and DVS operate as 1:1 matching services and the FIS operates as a
+'1:many matching service'.106
+1.78 There are two types of agreements that would 'govern the requesting and
+provision of identity verification services':
+ participation agreements; and
+ the NDLFRS hosting agreement.107
+1.79 Those agreements are outlined in the following section of the report.
+102 IVS bill, subcl. 27(2).
+103 IVS bill, cl. 25.
+104 IVS bill, cl. 25.
+105 Item 4 in Division 1 of Part 1 of the IVS Bill.
+106 Item 4 in Division 1 of Part 1 of the IVS Bill.
+107 IVS bill, cl. 7.
+16
+Participation agreements
+1.80 An entity requesting an identity verification service would need to be party to a
+participation agreement. Identification information would only be provided to
+an entity that is party to a participation agreement.108
+1.81 A participation agreement would be a written agreement between the
+department and other parties that outlines the roles, rights, and obligations of
+each party to the agreement.109
+1.82 Parties to a participation agreement would need to:
+ 'be subject to the Privacy Act 1988';110 or
+ be subject to a state or territory privacy law that is prescribed by the
+rules;111 or
+ agree to comply with the Australian Privacy Principles;112 or
+ 'be a government authority prescribed by the rules';113 or
+ be subject to the Privacy Act 1993 of New Zealand if the agreement only
+deals with the requesting of DVSs by, and provision of DVSs to, an
+authority of New Zealand or the party operates in New Zealand.114
+1.83 A participation agreement would need to provide for:
+ privacy impact assessments of requesting identity verification services;115
+and
+ each party to have arrangements for dealing with complaints by individuals
+whose identification information is held by the party;116 and
+ an agreement that parties (except the department) will report breaches of
+security to the department;117 and
+ that the department inform the Information Commissioner of a breach of
+security that is reasonably likely to cause serious harm to an individual who
+has provided identification information involved in the breach.118
+108 IVS bill, cl. 7.
+109 IVS bill, subcl. 8(1).
+110 IVS bill, para. 9(1)(a).
+111 IVS bill, para. 9(1)(b).
+112 IVS bill, para. 9(1)(c).
+113 IVS bill, para. 9(1)(d).
+114 IVS bill, para. 9(1)(e).
+115 IVS bill, para. 9(2)(a).
+116 IVS bill, para. 9(2)(d).
+117 IVS bill, para. 9(2)(e).
+118 IVS bill, para. 9(2)(f).
+17
+1.84 Participation agreements would also include provisions that allow for 'the
+obtaining of an individual's consent to the collection, use and disclosure' of their
+identification information.119 An individual's consent would not be required if
+the request for that information:
+…is made by or on behalf of a government authority…[and the] collection,
+use and disclosure of that information for the purposes of protecting a
+shielded person, or someone else associated with a shielded person, are
+implicit in functions conferred by law on the authority.120
+1.85 Participation agreements would contain provisions that allow individuals from
+whom identification information is being sought to be provided with details
+about:
+(a) how the party seeking consent uses identity verification services;
+(b) how any facial images of the individual collected by the party from the
+individual for requesting an identity verification service or from a
+response to a request for an identity verification service will be used and
+disposed of;
+(c) whether any such facial images will be retained or used for purposes
+other than those for which the identity verification is to be requested;
+(d) what legal obligations the party seeking to collect the identification
+information has in relation to that collection;
+(e) what rights the individual has in relation to the collection of the
+identification information;
+(f) the consequences of the individual declining to consent;
+(g) where the individual can get information about making complaints
+relating to the collection, use and disclosure of the identification
+information for the purposes of requesting and provision of identity
+verification services;
+(h) where the individual can get information about the operation and
+management of the approved identity verification facilities by the
+Department in connection with the requesting and provision of identity
+verification services.121
+1.86 A participation agreement would require each party to:
+ outline which identity verification service it is requesting;122
+ 'comply with the access policy for each service' it requests;123
+119 IVS bill, para. 9(2)(b).
+120 IVS bill, para. 9(2)(b).
+121 IVS bill, subcl. 9(3).
+122 IVS bill, para. 10(1)(a).
+123 IVS bill, para. 10(1)(b).
+18
+ not use information obtained from an identity verification service 'as the
+only evidence of the individual's identity in criminal or civil proceedings to
+which the individual is a party; 124
+ not disclose information obtained from an identity verification service
+unless required to by law or in circumstances permitted by the terms of the
+participation agreement;125 and
+ stipulate that officers, staff, employees, or contractors of government
+authorities are not permitted to make a request to an identity verification
+service that could result in the service providing that person with a facial
+image, unless they are 'trained in facial recognition and image
+comparison'.126
+NDLFRS hosting agreement
+1.87 The department would be required to enter into a written NDLFRS hosting
+agreement with each state or territory authority that 'supplies or proposes to
+supply identification information to the Department for inclusion in a database
+in the NDLFRS'.127
+1.88 Each state or territory that would be party to the NDLFRS hosting agreement
+must also be subject to a state or territory privacy law, the Privacy Act 1988
+(Privacy Act), or agree to comply with the Australian Privacy Principles.128
+1.89 The NDLFRS hosting agreement would need to include provisions for the state
+or territory to:
+ inform individuals that their identification information is, or is intended to
+be, included in the NDLFRS;129
+ provide individuals whose identification information is in the NDLFRS with
+the means to find out what that information is and to have any errors
+corrected;130
+ inform individuals of any data breach that involves their identification
+information in the NDLFRS and is likely to pose serious harm to them;131
+124 IVS bill, para. 10(1)(c).
+125 IVS bill, para. 10(2)(a).
+126 IVS bill, para. 10(2)(b).
+127 IVS bill, subcl. 13(1).
+128 IVS bill, subcl. 13(2).
+129 IVS bill, para. 13(3)(a).
+130 IVS bill, para. 13(3)(b).
+131 IVS bill, para. 13(3)(c).
+19
+ have appropriate complaint handling procedures for individuals with
+identification information in the NDLFRS;132 and
+ report annually to the AGD on its compliance with the NDLFRS hosting
+agreement.133
+1.90 The NDLFRS hosting agreement would be required to include provisions for
+the department to:
+ ensure the security of the information in the NDLFRS, including through
+the encryption of that information;134 and
+ inform other parties to the NDLFRS hosting agreement and the
+Information Commissioner of data breaches that involve information in the
+NDLFRS.135
+1.91 There would also be a requirement to include a provision in the NDLFRS
+hosting agreement for the suspension or termination of the ability of a party to
+request NDLFRS identity verification services if they do not comply with the
+terms of the agreement.136
+The Consequential Amendments bill
+1.92 The Consequential Amendments bill would amend the Australian Passports
+Act 2005 to enable the minister to, on request, disclose the personal information
+of individuals participating in the DVS, FVS, or 'any other service specified, or
+of a kind specified, in the Minister's determination'.137 That disclosure would
+allow for the sharing or matching of information related to an individual's
+identity.138
+1.93 That information may be provided to an identity verification service 'before
+being disclosed to the person participating in the service'.139
+1.94 The information may be disclosed using computer programs.140
+1.95 The EM explains that the Consequential Amendments bill would:
+…allow for automated disclosures of personal information to a specified
+person via the DVS or the FVS…this comprehensively authorises the
+132 IVS bill, para. 13(3)(d).
+133 IVS bill, para. 13(3)(e).
+134 IVS bill, para. 13(4)(a).
+135 IVS bill, para. 13(4)(b) and 13(4)(c).
+136 IVS bill, subcl. 13(5).
+137 Proposed paragraph 46(1)(da) of the Australian Passports Act 2005 (Passports Act).
+138 Proposed paragraph 46(1)(da) of the Passports Act.
+139 Proposed subsection 46(2) of the Passports Act.
+140 Proposed section 46A of the Passports Act.
+20
+operation of the DVS and FVS in relation to Australian travel documents
+regulated by the Australian Passports Act.141
+1.96 The Department of Foreign Affairs and Trade (DFAT) uses the DVS to issue
+passports.142 That identity verification service allows it 'to securely validate
+biographical information contained in Australian state/territory
+government-issued identity credentials, such as driver's licences or birth
+certificates'.143
+1.97 DFAT explained that the DVS plays a critical role in ensuring that the Australian
+passport retains 'its National Identity Proofing Guidelines (NIPG) level of
+assurance of four — Very High ("Gold standard")'.144 The retention of that
+standard 'gives other government agencies a high level of confidence when
+verifying biometric information through the [FVS]'.145
+Consideration by other parliamentary committees
+1.98 When examining a bill, the committee takes into account any relevant comments
+published by other parliamentary committees.
+Senate Scrutiny of Bills Committee
+1.99 The Senate Scrutiny of Bills Committee (Scrutiny Committee) considered the
+bills in its report of 18 October 2023.146
+1.100 The Scrutiny Committee raised issues regarding the disclosure of personal
+information that would occur as a result of the amendments contained in the
+Consequential Amendments bill.147
+1.101 In relation to the IVS bill, the Scrutiny Committee welcomed the inclusion of a
+range of oversight measures and left it:
+…to the Senate as a whole [to determine] the appropriateness of enabling
+the extensive sharing of personal information for a broad range of purposes,
+and to a broad range of agencies.148
+141 EM, pp. 4–5.
+142 Department of Foreign Affairs and Trade (DFAT), Submission 1, p. 1.
+143 DFAT, Submission 1, p. 1.
+144 DFAT, Submission 1, p. 1.
+145 DFAT, Submission 1, p. 1.
+146 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 12/23, 18 October 2023,
+pp. 24–32.
+147 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 12/23, 18 October 2023,
+pp. 25–27.
+148 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 12/23, 18 October 2023, p. 30.
+21
+Parliamentary Joint Committee on Human Rights
+1.102 The Parliamentary Joint Committee on Human Rights (PJCHR) considered the
+bills in its report of 18 October 2023.149
+1.103 The PJCHR noted that the IVS bill engages the rights to privacy, social security,
+equality and non-discrimination, and effective remedy.150
+1.104 The PJCHR sought further information from the Attorney-General in relation to
+the identity verification facilities and services with the rights to privacy, social
+security, equality and non-discrimination and effective remedy.151
+1.105 At the time of tabling this report, the Attorney-General had not provided his
+response.
+Note on references
+1.106 In this report, references to Committee Hansard are to the proof transcript. Page
+numbers may vary between proof and official transcripts.
+149 Parliamentary Joint Committee on Human Rights, Report 11 of 2023, 18 October 2023, pp. 15–41.
+150 Parliamentary Joint Committee on Human Rights, Report 11 of 2023, 18 October 2023, pp. 22–29.
+151 Parliamentary Joint Committee on Human Rights, Report 11 of 2023, 18 October 2023, p. 4.
+
+Chapter 2
+Key issues
+2.1 This chapter outlines key issues raised in evidence to the committee about the
+Identity Verification Services Bill 2023 (IVS bill) and the Identity Verification
+Services (Consequential Amendments) Bill 2023 (Consequential Amendments
+bill) (collectively the bills), including the:
+ rationale and legislative basis for the identity verification services;
+ privacy provisions contained in the IVS bill;
+ consent models most appropriate for the IVS bill; and
+ timeframe for a review of the IVS bill.
+2.2 This chapter also articulates the committee's views and recommendations in
+relation to the bills.
+Rationale and legislative basis for the identity verification services
+2.3 Several government and non-government entities outlined the rationale for the
+identity verification services and explained that the bills would provide the
+legislative basis for their ongoing operation.1
+Rationale for the identity verification services
+2.4 The Australian Banking Association (ABA) supported the bills as they would
+provide:
+…a secure way for banks to check the identity of those opening and using
+accounts against passports and drivers licence databases to ensure that they
+are not criminals impersonating a real customer. This bill enables a material
+improvement on some of the existing ways that customers can confirm their
+identity.2
+2.5 The ABA remarked that Australian identity documents are available to
+criminals on the dark web and, '[a]s a result, it is critical that industry can
+confirm not only the legitimacy of an identity document but the identity of the
+person presenting it'.3
+1 See, for example: Australian Banking Association (ABA), Submission 5, p. 1; Office of the Australian
+Information Commissioner (OAIC), Submission 11, p. 2; Mr Daniel Mossop, National Manager,
+Reform Policy and Mutual Evaluation, Australian Transaction Reports and Analysis Centre
+(AUSTRAC), Committee Hansard, 30 October 2023, p. 33; Ms Lucelle Veneros, Executive Director,
+Australian Passport Office, Department of Foreign Affairs and Trade (DFAT), Committee Hansard,
+30 October 2023, p. 34.
+2 Mr Christopher Taylor, Chief of Policy, ABA, Committee Hansard, 30 October 2023, p. 1.
+3 Mr Taylor, ABA, Committee Hansard, 30 October 2023, p. 1.
+23
+24
+2.6 The identification verification services provide the confirmation that industry
+requires 'to verify the person providing the document is in fact who they say
+they are'.4 To that end, the IVS bill would make Australians safer by providing
+'the banking industry with a critical weapon in the fight to protect customers
+from scams, fraud and identity theft'.5
+2.7 The ABA argued that the identity verification services would 'enable banks to
+take additional steps to verify the person providing the document is in fact who
+they say they are'.6
+2.8 Westpac Banking Group highlighted the importance of the IVS bill in protecting
+Australians and the financial sector from fraud and money laundering.
+It explained that scammers:
+…use counterfeit IDs to enable certain [bank] accounts to be opened. Those
+accounts are then used as part of the moving of bad actor moneys across the
+banking system and outside the banking system. We need to have as many
+tools as we possibly can to maximise our chance of finding bad actors as
+quickly as we possibly can and, ultimately, to stop the avenues for them
+being able to use the banking system. That's why this bill for us is quite
+critical—it closes the loop; it's the last piece of the jigsaw puzzle from the
+IDs aspects of muling. There are other aspects of muling that this won't
+stop…One of the big parts of muling is ID takeover, and this will really
+help.7
+2.9 The Australian Transaction Reports and Analysis Centre (AUSTRAC) explained
+that there are more than 17 000 Australian businesses that must comply with the
+Anti-Money Laundering and Counter-Terrorism Financing Act 2006 (AML/CTF Act)
+and associated rules.8 Those entities must 'implement effective AML/CTF
+systems and controls to identify and mitigate money laundering and terrorism
+financing risk'.9
+2.10 Under the AML/CTF Act, businesses are required 'to conduct customer due
+diligence ("know your customer"/KYC procedures)'.10 The DVS is used by many
+businesses to satisfy that requirement.11
+4 Mr Taylor, ABA, Committee Hansard, 30 October 2023, p. 1.
+5 Mr Taylor, ABA, Committee Hansard, 30 October 2023, p. 1.
+6 Mr Taylor, ABA, Committee Hansard, 30 October 2023, p. 1.
+7 Mr Chris Whittingham, General Manager, Financial Crime and Fraud Prevention, Westpac Banking
+Group, Committee Hansard, 30 October 2023, p. 6.
+8 AUSTRAC, Submission 16, p. 1.
+9 AUSTRAC, Submission 16, p. 1.
+10 AUSTRAC, Submission 16, p. 2.
+11 AUSTRAC, Submission 16, p. 2.
+25
+2.11 The Attorney-General's Department (AGD) stated that the identification
+verification services:
+…are essential to support fast, secure and private identity verification.
+The services support Australians to engage with the digital economy and
+access government services in a way that minimises collection and retention
+of identity information.
+Importantly, the services are used for beneficial purposes: either to support
+Australians access to products and services that they are seeking or to
+protect shielded persons who have a legally assumed identity. This provides
+significant value to the Australian community, including by reducing the
+risk and impact of identity crime and allowing Australians to access
+essential services in a streamlined manner.12
+Legislative basis for the identity verification services
+2.12 Some submitters noted that the Document Verification Service (DVS),
+Facial Verification Service (FVS), and Facial Identification Service (FIS) appear
+to be currently operating without a legislative basis.13
+2.13 Professor Edward Santow, Director, Policy and Governance,
+Human Technology Institute, University of Technology Sydney (HTI), stated
+that the IVS bill as it is currently drafted would provide the identification
+verification services with 'some legislative foundation'.14 He explained that the
+scheme currently:
+…operates really by a series of agreements where the people of Australia are
+not parties to those agreements. They're agreements either within
+government or between a government agency and a private sector
+organisation'.15
+2.14 The Law Council of Australia (Law Council) similarly indicated that the IVS bill
+would increase transparency of the identity verification services, by creating:
+…a legislative framework on operations that are already
+occurring…allow[ing] individuals to see how this framework works and
+have parliament consider a legislative framework that balances the interests
+of individuals with the benefits of the bill.16
+12 Ms Tara Inverarity, Acting Deputy Secretary, National Security and Criminal Justice Group,
+Attorney-General's Department (AGD), Committee Hansard, 30 October 2023, p. 36.
+13 See, for example: Law Council of Australia (Law Council), Submission 12, p. 1; Human Technology
+Institute, UTS (HTI), Submission 4, p. 6; Digital Rights Watch (DRW), Submission 9, p. 2;
+Human Rights Law Centre, Submission 10, p. 2; Professor Edward Santow, Director, Policy and
+Governance, HTI, Committee Hansard, 30 October 2023, p. 8.
+14 Professor Santow, HTI, Committee Hansard, 30 October 2023, p. 10.
+15 Professor Santow, HTI, Committee Hansard, 30 October 2023, p. 10.
+16 Mr Nathan MacDonald, Deputy Director of Policy, Law Council, Committee Hansard,
+30 October 2023, p. 22.
+26
+2.15 The IVS bill would also ensure that identification verification services operate
+according to existing privacy legislation. Professor Santow suggested that while
+'that's a very weak, flimsy protection…it is better than nothing'.17
+2.16 The HTI agreed that urgent action is needed and opined that the lack of a
+legislative basis for the identity verification services 'may be a motivating factor
+in the Australian Government deciding to proceed urgently with the IVS Bill'.18
+2.17 It noted that one 'unfortunate consequence of that urgency is that there is very
+limited scope for public consultation on a major reform that affects Australians'
+right to privacy, among other rights'.19
+2.18 The Law Council noted that it would be 'vastly preferable to have a legislative
+foundation in place for an identity verification framework' and that 'the bills
+appear to be more robust, both in terms of privacy and human rights safeguards,
+compared to the [Identity-matching Services Bill 2019]'.20
+2.19 The Digital Transformation Agency (DTA) indicated that there is a strong need
+to provide a legislative basis for the identity verification services:
+The need to legislate for the identity verification services is more important
+today than ever before. The identity verification services are a foundational
+capability to the Australian economy that is used every day by governments
+and industry.21
+2.20 The AGD explained:
+The IVS Bill provides clear legislative authority for the identity verification
+services and ensures the services operate subject to strong privacy
+safeguards, oversight and transparency arrangements. The identity
+verification services are a critical capability provided by the Commonwealth
+and are used every day by government and industry to verify the personal
+information on a passport, driver's licence, birth certificate or other
+government issued credential.22
+2.21 The AGD pointed out:
+…there are extremely good reasons that the services that are being provided
+now should have appropriate legislative authority that provides parameters
+within which the services can be used that have been set by the parliament
+and have on their face strong privacy protections to ensure that there's
+certainty for entities who are requesting the services and of course for the
+customer, at the end of the day, whose identity is being verified.
+17 Professor Santow, HTI, Committee Hansard, 30 October 2023, pp. 10–11.
+18 HTI, Submission 4, p. 2.
+19 HTI, Submission 4, p. 2.
+20 Law Council, Submission 12, p. 2.
+21 Digital Transformation Agency (DTA), Submission 3.1, p. 2.
+22 AGD, Submission 2, p. 3.
+27
+…
+And now that it's before the parliament we think it is highly desirable for
+that legislative authority to be in place in a timely way.23
+Privacy provisions
+2.22 Evidence to the committee reflected on the privacy provisions contained in the
+IVS bill. That evidence related to the:
+ harmonisation of privacy safeguards in the IVS bill, the draft Digital
+Identity Bill 2023 (Digital ID bill), and the Attorney-General's review into
+Australian privacy legislation;
+ modernisation of the Privacy Act 1988 (Privacy Act);
+ definition of 'personal information' in the IVS bill;
+ participation agreements; and
+ powers available to the Australian Information Commissioner
+(the Information Commissioner).
+Harmonisation of privacy safeguards
+2.23 Some organisations drew connections between the IVS bill, the Digital ID bill,
+and the Attorney-General's review into Australian privacy legislation.24
+2.24 Due to those linkages, the HTI suggested that 'it would be both logical and
+practical for the schemes to operate harmoniously, and subject to consistent
+legal standards'.25 It reiterated its view that the government should 'proceed in
+a more deliberate way' through increased public consultation and ensuring that
+these three reform processes operate harmoniously.26
+2.25 The Law Council pointed out that the Digital ID bill:
+…contains a specific division that sets out several additional privacy
+safeguards that go beyond those in the Privacy Act. These safeguards must
+be adhered to by accredited Digital ID services under the proposed
+arrangement. The inclusion of these safeguards in the draft Digital ID Bill
+indicates that compliance with the Privacy Act in its current form is not
+regarded as providing adequate protections for the collection and handling
+of biometric data.27
+23 Ms Inverarity, AGD, Committee Hansard, 30 October 2023, p. 37.
+24 See, for example: HTI, Submission 4, p. 2; DRW, Submission 9, p. 2; Law Council, Submission 12, p. 5;
+IIS Partners, Submission 15, p. 1.
+25 HTI, Submission 4, p. 9.
+26 HTI, Submission 4, p. 2.
+27 Law Council, Submission 12, p. 5.
+28
+2.26 Digital Rights Watch (DRW) argued that, if there are inconsistencies between
+the Digital ID bill and the IVS bill, there would be increased risk of 'the creation
+of loopholes and ineffective governance processes'.28
+2.27 Ms Lizzie O'Shea, Chair, DRW, reiterated:
+There's also a regulatory burden that's been created for government. They're
+implementing two different privacy regimes, one of which is much more
+substandard than the other, which is this one. Also, in a context where we're
+going through pretty significant privacy reforms, it looks likely, if the
+Attorney's plan is enacted, that we will have considerable reforms made to
+the Privacy Act, which will again create another change to the scenario in
+which these schemes are implemented. All of these seem excessively
+cumbersome, unclear for people who are subjected to these schemes and
+costly in terms of regulatory burden.29
+2.28 IIS Partners suggested that the Digital ID bill and the IVS bill 'need to be
+consistent with each other and potentially enacted in the right sequence'.30
+2.29 In a similar vein, Professor Lyria Bennett Moses, Director, University of
+New South Wales Allens Hub for Technology, Law and Innovation
+(Allens Hub), argued that the bills would not 'achieve their full objectives…until
+they are considered holistically alongside the digital identity legislation
+and…the Privacy Act reform'.31
+2.30 To better promote harmonisation and clarity in relation to those frameworks,
+the Law Council reiterated 'its calls for a roadmap for the harmonisation of
+Australia's privacy and data laws, to ensure the development of a national
+privacy framework that is consistent, clear and accessible'.32
+2.31 The Office of the Australian Information Commissioner (OAIC) similarly
+advocated for the harmonisation of privacy laws and called for
+'a Commonwealth, state and territory working group [to] be convened to
+harmonise privacy laws'.33
+2.32 In regard to the harmonisation of privacy legislation, the AGD stated:
+In many ways we agree that it is desirable for consistency between the
+operation of these services and privacy law…that's why we think it's
+28 DRW, Submission 9, p. 2.
+29 Committee Hansard, 30 October 2023, p. 16.
+30 IIS Partners, Submission 15, p. 1.
+31 Committee Hansard, 30 October 2023, p. 9.
+32 Law Council, Submission 12, p. 3. Also see: Ms Olga Ganopolsky, Chair, Privacy Law Committee of
+the Business Law Section, Law Council, Committee Hansard, 30 October 2023, p. 20.
+33 Ms Angelene Falk, Australian Information Commissioner and Privacy Commissioner, OAIC,
+Committee Hansard, 30 October 2023, p. 29.
+29
+important for it to be linked to the Privacy Act rather than creating a bespoke
+regime that could drift out of alignment over time.34
+2.33 Ms Tara Inverarity, Acting Deputy Secretary, National Security and
+Criminal Justice Group, AGD, outlined that there is a 'different scope and policy
+intent' behind the Digital ID bill and the IVS bill:
+The Digital ID Bill creates a framework for an economy-wide digital ID
+system and has privacy protections that have been designed and are fit for
+purpose in the context of that comprehensive regime. By contrast, the
+one-to-one matching services regulated by this bill are used for identity
+verification for a single transaction when a person is seeking to access a
+service or obtain a product, with the consent of that person. The response
+that will be provided by the customer match those that are held by the owner
+of the government issued document. No personal information will be shared
+back to the requesting entity. On this basis, the department does not accept
+that identical privacy protections are necessarily required and thinks that
+the privacy protections for each scheme are appropriate to their context and
+policy intent.35
+Modernisation of the Privacy Act
+2.34 The DTA pointed out that Australians expect 'greater convenience and
+efficiency when accessing digital services with a high standard of privacy in
+order to maintain trust in Government'.36
+2.35 The Law Council indicated that there are 'serious deficiencies in the current
+[privacy] regime, which has been in operation for more than 30 years and is in
+urgent need of modernisation'.37
+2.36 The Law Council remarked that there is a need for 'the secure and efficient
+verification of identities…[that is balanced with] adequate privacy safeguards
+and oversight'.38 That requirement is particularly pertinent as '[t]here is no
+opportunity for individuals to opt out of being subject to these schemes'.39
+2.37 Professor Santow stated:
+the privacy protections in the IVS bill are inadequate. Essentially the bill
+provides that an organisation need only comply with the existing federal,
+state, territory or New Zealand privacy laws. That position is untenable.40
+34 Ms Inverarity, AGD, Committee Hansard, 30 October 2023, p. 37.
+35 Committee Hansard, 30 October 2023, pp. 36–37.
+36 DTA, Submission 3.1, p. 2.
+37 Law Council, Submission 12, p. 5.
+38 Law Council of Australia, Submission 12, p. 1.
+39 Law Council of Australia, Submission 12, pp. 1–2. Also see: Ms Ganopolsky, Law Council,
+Committee Hansard, 30 October 2023, p. 20.
+40 Professor Santow, HTI, Committee Hansard, 30 October 2023, p. 8. Also see: HTI, Submission 4, p. 7.
+30
+2.38 Professor Santow stated that the bill relies:
+…on fundamentally inadequate privacy protections...[and that] it be
+amended to ensure adequate privacy protections. That could be achieved
+through any of the following options: firstly, the government could
+introduce the Privacy Act reforms before proceeding with the IVS bill;
+secondly, the IVS bill could be amended to include an equivalent to chapter
+3 of the digital ID bill, so that the digital ID scheme as a whole would contain
+consistent and more effective privacy protections; or, thirdly, clause 44 of
+the IVS bill could be amended to empower the minister to make rules to
+strengthen the privacy protections of the IVS bill.41
+2.39 The Australian Human Rights Commission (AHRC) echoed Professor Santow's
+view regarding the inadequacy of relying on the provisions of the Privacy Act.
+It suggested that because the Privacy Act has not yet been modernised:
+…the privacy protections built into the Verification Services Bills are
+currently incomplete and not appropriate to safeguard privacy against
+verification technologies. The Privacy Act reforms must be completed before
+the Verification Services Bills are enacted.42
+2.40 The AHRC suggested that the creation of a bespoke privacy framework
+specifically for the IVS bill would be one option to strengthen the privacy
+provisions of that bill.43 It reiterated that its preference is for the Privacy Act to
+be reformed first, to avoid complicating 'the already highly technical privacy
+legislative landscape'.44
+2.41 The HTI suggested that as the Digital ID bill does not rely on the Privacy Act,
+its privacy provisions are 'superior' to those contained in the IVS bill.45 It noted
+that 'Chapter 3 of the Digital ID Bill contains a number of additional provisions
+that provide stronger privacy safeguards'.46 The HTI recommended 'that the IVS
+Bill be amended to include privacy protections that bring the IVS Bill in line with
+the privacy protections in the Digital ID Bill'.47
+41 Professor Santow, HTI, Committee Hansard, 30 October 2023, p. 8. Also see: HTI, Submission 4, p. 3.
+42 Australian Human Rights Commission (AHRC), Submission 7, p. 2.
+43 AHRC, Submission 7, p. 2.
+44 AHRC, Submission 7, p. 2.
+45 HTI, Submission 4, p. 9.
+46 HTI, Submission 4, p. 9.
+47 HTI, Submission 4, p. 9.
+31
+2.42 Ms O'Shea supported the reform of the Privacy Act before the passage of the IVS
+bill.48 She suggested as a second preference that the privacy protections in the
+Digital ID bill 'be imported into' the IVS bill.49
+2.43 The Law Council suggested that, if additional safeguards cannot be included in
+the bill, 'it would be prudent for rules to be developed, pursuant to clause 44,
+which can lift the compliance expectations on entities within the framework
+beyond what is currently required'.50
+2.44 The OAIC recommended that the Information Commissioner should be
+consulted prior to any rules being developed under clause 44.51
+2.45 The HTI argued that amending the Privacy Act prior to the passage of the IVS
+bill would improve privacy protections for Australians and 'provide regulatory
+certainty for the government and non-government organisations currently
+participating in the IVS scheme'.52
+2.46 It suggested that passing the IVS bill before amending the Privacy Act 'would
+create a significant regulatory burden for the approximately 2700 organisations
+that already participate in the IVS scheme and those that join it'.53
+2.47 The ABA argued that the IVS bill should be passed urgently, even before the
+review of the Privacy Act is completed, as it would 'enable a higher degree of
+protection for Australians against cybersecurity fraud and scams around their
+identity documents'.54
+2.48 The AGD agreed with the ABA, and suggested that waiting for the completion
+of the Privacy Act review and the passage of the Digital ID bill would risk:
+…making the perfect the enemy of the good, in that there is a strong
+argument for legislative authority to be in place for the identity verification
+services…You could wait, but the sequencing may never align, and we think
+there are strong reasons to act now.55
+2.49 Ms Inverarity disagreed with the Law Council's assessment of the Privacy Act:
+…we don't necessarily accept that the Privacy Act isn't a good and strong
+regime for protecting the privacy of Australians. It is a comprehensive
+48 Ms O'Shea, DRW, Committee Hansard, 30 October 2023, p. 15. Also see: DRW, Submission 9, p. 3.
+49 Ms O'Shea, DRW, Committee Hansard, 30 October 2023, p. 15. Also see: DRW, Submission 9, p. 3.
+50 Law Council, Submission 12, p. 5. Also see: Ms Ganopolsky, Law Council, Committee Hansard,
+30 October 2023, p. 20.
+51 OAIC, Submission 11, p. 6.
+52 HTI, Submission 4, p. 8.
+53 HTI, Submission 4, p. 8.
+54 Mr Taylor, ABA, Committee Hansard, 30 October 2023, pp. 5–6.
+55 Ms Inverarity, AGD, Committee Hansard, 30 October 2023, p. 37.
+32
+regime. It is in place. It has been in place for a long time. It can be enhanced,
+obviously, through the reforms the government has indicated it will
+undertake. But as the government administering the service we are strongly
+supportive of it operating under a legislative framework as soon as
+possible.56
+2.50 Ms Inverarity argued in favour of connecting the privacy safeguards in the IVS
+bill to the Privacy Act:
+Linking the privacy protections in the bill to existing privacy legislation
+ensures that these protections remain consistent and contemporary as
+privacy law evolves over time—for example, through the amendments
+following from the government's response to the Privacy Act review.57
+Definition of 'personal information'
+2.51 Evidence to the committee discussed the importance of protecting personal
+information and noted that the legal definition of 'personal information' is
+currently in a state of flux.
+2.52 For example, the HTI argued that as:
+…the IVS scheme deals with sensitive personal information…there is a need
+for strong privacy law protections to guard against the misuse or
+non-consensual use of individuals' personal information, and also to build
+trust in the IVS scheme.58
+2.53 The Law Council pointed out 'that the definition of "personal information" in
+the Privacy Act is currently under review and the Government has agreed, in
+principle, to amend it'.59 It submitted that key concepts, such as personal
+information, should be consistently defined 'across Australia's digital identity,
+privacy, and identity verification frameworks'.60 It suggested that 'the
+fragmented and expedited reform approach that the Government is taking is not
+conducive to promoting harmonisation and clarity'.61
+2.54 The OAIC suggested 'that the IVS Bill should be amended to provide that
+"identification information" as defined in clause 6 of the bill is personal
+information for the purposes of the Privacy Act'.62
+56 Ms Inverarity, AGD, Committee Hansard, 30 October 2023, p. 38.
+57 Ms Inverarity, AGD, Committee Hansard, 30 October 2023, p. 36.
+58 HTI, Submission 4, p. 7.
+59 Law Council, Submission 12, p. 3.
+60 Law Council, Submission 12, p. 3.
+61 Law Council, Submission 12, p. 3.
+62 OAIC, Submission 11, p. 3.
+33
+2.55 The AGD stated it 'adopted the terminology that we think is appropriate in light
+of the framework that the bill is creating'.63
+Participation agreements
+2.56 In addition to the concerns relating to the IVS bill's reliance on the Privacy Act,
+some of the evidence received by the committee critiqued the design of the
+participation agreements.64
+2.57 The NSW Council for Civil Liberties (NSWCCL), for example, proposed that
+privacy protections should be contained in the primary legislation and not 'in
+subordinate documents or delegated legislation'.65
+2.58 The Law Council suggested that due to the identity verification services holding
+'sensitive personal information…higher standards of compliance should apply
+to parties, beyond reliance on the existing Privacy Act, which is not fit for
+purpose in the digital landscape'.66 It welcomed the inclusion of participation
+agreements but stated that they 'are limited in scope and unlikely to promote
+public trust in the scheme'.67
+2.59 The Law Council welcomed the transparency that would be provided by the
+publication of participation agreements.68 Mr Nathan MacDonald,
+Deputy Director of Policy, of the Law Council, noted that 'having a little bit more
+oversight around the development of those participation agreements is
+probably something that this bill could benefit from'.69
+2.60 Equifax outlined some areas of consideration in relation to the participation
+agreements. Ms Tehani Legeay, General Manager, Identity, Fraud and
+Anti-Money Laundering Compliance, Equifax, indicated that her organisation
+had not been provided with a draft of those agreements, which has led to some
+uncertainty about compliance costs and whether new business capabilities
+would be required.70
+2.61 She noted that there can be significant lead times in the implementation of new
+measures. For example, the addition of a new field to drivers licence verification
+63 Ms Inverarity, AGD, Committee Hansard, 30 October 2023, p. 40.
+64 See, for example: Law Council of Australia, Submission 12, p. 5; NSW Council for Civil Liberties
+(NSWCCL), Submission 13, p. 2; Equifax, Submission 17, p. 3.
+65 NSWCCL, Submission 13, p. 2.
+66 Law Council, Submission 12, p. 5.
+67 Law Council, Submission 12, p. 5.
+68 Mr MacDonald, Law Council, Committee Hansard, 30 October 2023, p. 22.
+69 Committee Hansard, 30 October 2023, p. 22.
+70 Committee Hansard, 30 October 2023, p. 2. Also see: Equifax, Submission 17, p. 3.
+34
+took over two years to implement nationally.71 She expected that it would take
+longer than 12 months to operationalise new compliance measures in relation to
+the new participation agreements.72
+2.62 The ABA stated that the participation agreement model ensures a balance
+between providing businesses with the tools to verify a person's identity and
+protect individual privacy.73
+2.63 A participant's access to the identification verification services may be
+suspended or terminated if they breach the participation agreement.
+Professor Santow suggested that 'there should be much stronger consequences
+for that noncompliance'.74
+2.64 DRW similarly argued that the suspension or termination of access to the
+identification verification services 'is a positive and necessary step, [however]
+we do not believe it to be a strong enough deterrent from misuse of the
+identification services'.75
+2.65 The OAIC recommended greater clarity around 'how any privacy-related
+requirements contained in the participation agreements are intended to interact
+with the [Australian Privacy Principles (APP)]'.76 To that end it suggested:
+…the IVS Bill could state that participation agreements are intended to be
+privacy-enhancing and may therefore impose additional requirements to
+the APPs, but any such requirements must not be contrary to, or inconsistent
+with, the APPs.77
+2.66 The OAIC also recommended that the IVS bill 'clarify that the compliance
+obligations under it do not alter entities' obligations under the Privacy Act, and
+in particular the general obligation to notify the OAIC of eligible data
+breaches'.78
+2.67 The OAIC suggested that those recommendations could be implemented
+through amendments to the EM.79
+71 Ms Tehani Legeay, General Manager, Identity, Fraud and Anti-Money Laundering Compliance,
+Equifax, Committee Hansard, 30 October 2023, p. 2.
+72 Ms Legeay, Equifax, Committee Hansard, 30 October 2023, pp. 2–3.
+73 Mr Taylor, ABA, Committee Hansard 30 October 2023, p. 1.
+74 Professor Santow, HTI, Committee Hansard, 30 October 2023, p. 12.
+75 DRW, Submission 9, p. 4.
+76 OAIC, Submission 11, p. 4.
+77 OAIC, Submission 11, p. 4.
+78 OAIC, Submission 11, p. 4.
+79 Ms Falk, OAIC, Committee Hansard, 30 October 2023, pp. 34–35.
+35
+2.68 AGD remarked that it has engaged in:
+…productive conversations with the [OAIC] about the suggestions that they
+have made…If there are aspects of the digital ID bill that could sensibly be
+replicated in this bill then we are certainly not closed to that, but it is not
+immediately clear to us what those protections necessarily are and how they
+would sit within the scheme that this bill creates.80
+Powers available to the Information Commissioner
+2.69 DRW recommended that 'the IVS Bill be amended to provide the OAIC with
+additional powers and resources to manage a more comprehensive redress
+mechanism for individuals affected by the operation of the IVS scheme'.81
+2.70 It proposed:
+Such a redress mechanism should allow an individual to submit complaints
+about the handling of their identification information by either the
+Department, or a party to a participation agreement or the NDLFRS hosting
+agreement, and include appropriate measures to remedy any harm suffered
+by the individual.82
+2.71 The OAIC pointed out that the IVS bill 'does not provide a clear framework for
+the OAIC to enforce these [privacy] agreements'.83 It noted that its enforcement
+powers in relation to a breach of a participation agreement would rely on:
+…the ordinary mechanisms of the APPs/Privacy Act. However, a breach of
+a participation agreement may not necessarily be a breach of the
+Privacy Act, even where the agreement clearly sets out privacy-related
+safeguards.84
+2.72 The OAIC reported that it 'would have no ability to enforce breaches of
+participation agreements in relation to State and Territory entities'.85 It also
+indicated that it would be 'difficult' for it to terminate or suspend an entity's
+access to the identity verification systems, particularly if those entities 'provide
+essential services to the community'.86
+2.73 The OAIC suggested that 'it would be more appropriate to include a provision
+in the IVS Bill that will make certain (privacy-related) breaches of a participation
+agreement…an interference with privacy under the Privacy Act'.87 Doing so
+80 Ms Inverarity, AGD, Committee Hansard, 30 October 2023, p. 38.
+81 DRW, Submission 9, p. 5.
+82 DRW, Submission 9, p. 5.
+83 OAIC, Submission 11, p. 3.
+84 OAIC, Submission 11, p. 3.
+85 OAIC, Submission 11, p. 3.
+86 OAIC, Submission 11, p. 3.
+87 OAIC, Submission 11, p. 3.
+36
+would 'clearly enable enforcement (including the ability to deal with
+complaints) by the OAIC under the Privacy Act in relation to entities with a
+participation agreement'.88
+2.74 The OAIC submitted 'that the IVS Bill should clearly set out the OAIC's
+regulatory role, including clear enforcement mechanisms, to ensure that the
+Information Commissioner can efficiently and effectively carry out their
+oversight functions'.89
+2.75 In relation to the annual assessments by the Information Commissioner, the
+OAIC submitted that the provisions contained in 'clause 40 are unusual in that
+they do not activate the OAIC's usual assessment regulatory powers'.90 It noted
+that it would have to rely 'on information agreed to be provided by the
+department when carrying out this specific annual function'.91
+2.76 The OAIC suggested that the Information Commissioner's 'oversight role and
+enforcement powers' would be strengthened by allowing entrusted persons to
+disclose protected information to the OAIC or the Information Commissioner.92
+2.77 The Law Council noted that clause 40 of the IVS bill 'merely grants the
+Information Commissioner the function, or power, to conduct an assessment'.93
+It suggested that there should be some consideration given to amending the IVS
+bill to make the Information Commissioner's annual assessments obligatory.94
+2.78 It further noted that the annual assessment provisions are currently 'likely [to]
+be inconsistent with public expectations in relation to the oversight,
+transparency and accountability for the IVS system'.95 To bring the annual
+assessment provisions into line with public expectations, the OAIC suggested
+'that clause 40 needs to provide the Information Commissioner with the ability
+to discharge the assessment function in a manner that is appropriately
+independent'.96
+2.79 The OAIC argued that amending the IVS bill to bring the annual assessment
+provisions into line 'with the OAIC's usual assessment powers as set out in s
+33C of the Privacy Act' would assist in providing a greater level of
+88 OAIC, Submission 11, p. 3.
+89 OAIC, Submission 11, p. 2.
+90 OAIC, Submission 11, p. 4.
+91 OAIC, Submission 11, p. 4.
+92 OAIC, Submission 11, p. 5.
+93 Law Council, Submission 12, p. 8.
+94 Law Council, Submission 12, p. 8.
+95 OAIC, Submission 11, p. 4.
+96 OAIC, Submission 11, p. 4.
+37
+independence.97 That section of the Privacy Act provides the
+Information Commissioner with the 'power to require an entity to give
+information or produce documents relevant to the assessment, without reliance
+on the agreement of the entity'.98
+2.80 The AGD submitted that the nature of the OAIC's annual assessments would
+'likely change each year, the intended outcome is that the identity verification
+services will operate in accordance with best practice privacy standards'.99
+The OAIC would maintain its independence by determining 'the scope of the
+assessments following consultation with the Department'.100
+Consent provisions
+2.81 Evidence to the committee discussed whether the IVS bill should operate on an
+implied or express consent model.101
+2.82 DRW suggested that 'the IVS Bill is dependent on the concept of "consent"'.102
+It noted that the EM explains that the IVS bill 'is intended to include express
+consent or implied consent'.103
+2.83 It referred to subclause 35(1) of the IVS bill, which 'includes a carve out that
+permits an entrusted person to make a record of, disclose or access protected
+information "if the person has consented"'.104 It expressed concern:
+…that such a provision could be subject to misuse where individuals may
+not be in a position to meaningfully refuse if an entrusted person compels
+them to provide consent, or where "implied" consent is unreasonably
+applied.105
+2.84 To alleviate that concern, DRW suggested that consideration be given to 'the
+addition of a fair and reasonable test, in line with the proposal contained in the
+Privacy Act Review'.106
+2.85 The NSWCCL argued that '[i]t has become abundantly clear…that standard
+consent and notice requirements are totally inadequate for obtaining
+97 OAIC, Submission 11, pp. 4–5.
+98 OAIC, Submission 11, p. 5.
+99 AGD, Submission 2, p. 19.
+100 AGD, Submission 2, p. 19.
+101 Mr MacDonald, Law Council, Committee Hansard, 30 October 2023, p. 21.
+102 DRW, Submission 9, p. 5.
+103 DRW, Submission 9, p. 5. Also see: EM, p. 53.
+104 DRW, Submission 9, p. 5.
+105 DRW, Submission 9, p. 5.
+106 DRW, Submission 9, p. 5.
+38
+meaningful consent of participant citizens. Without offering alternative easy
+methods of verification there is no consent'.107
+2.86 The IVS bill would adopt an implied consent model.108 The HTI suggested that
+an implied consent model would result 'in individuals having less control and
+autonomy over the uses of their personal information for the purposes of the
+IVS Bill'.109 The Law Council indicated that the EM's reference to implied consent
+'is concerning'.110 Mr MacDonald suggested that the express consent framework
+referenced in the Digital ID bill 'is something that could easily make its way into
+[the IVS bill]'.111
+2.87 The HTI pointed out that the Digital ID Bill adopts an express consent model,
+which 'requires that accredited entities obtain express consent from individuals
+in relation to the collection, use, disclosure and subsequent destruction of
+biometric information and disclosure of restricted attributes'.112
+2.88 The HTI suggested that amending the IVS bill to require express consent before
+participating entities collect, use or disclose sensitive information would
+harmonise the privacy protections contained in the IVS and digital identity
+schemes.113
+2.89 The ABA stated that the banking industry would not object to a requirement for
+customers to give express, rather than implied, consent when their identity
+information is used by verification services.114
+2.90 Professor Bennett Moses explained that consent:
+…should be expressed, it should be voluntary, it should be informed and it
+should be unbundled…But I think, in particular for schemes like this, that
+people should be given another means of accessing services without
+participating in what is meant to be a voluntary scheme.115
+2.91 Ms Shohini Sengupta, PhD student, Allens Hub, further explained:
+…if people are given the option to get a service based on consent and the
+other option is to not get the service if they do not consent, then that consent
+becomes meaningless. So we would advise caution against only using the
+107 NSWCCL, Submission 13, p. 2.
+108 EM, p. 53.
+109 HTI, Submission 4, p. 9.
+110 Mr MacDonald, Law Council, Committee Hansard, 30 October 2023, p. 21.
+111 Mr MacDonald, Law Council, Committee Hansard, 30 October 2023, p. 21.
+112 HTI, Submission 4, p. 9.
+113 HTI, Submission 4, p. 9.
+114 Mr Taylor, ABA, Committee Hansard, 30 October 2023, p. 4.
+115 Professor Bennett Moses, Allens Hub, Committee Hansard, 30 October 2023, p. 12.
+39
+consent framework as a means for people to obtain services—essential
+services in particular'.116
+2.92 The Law Council echoed her view:
+…informed consent is key to compliance with both domestic and
+international privacy protections. Australians are…already precluded from
+opting out of inclusion in the federal databases. In addition, the
+Explanatory Memorandum [EM] acknowledges that access to crucial
+Government services often depends on the DVS and FVS. The informed
+consent requirements in the Bill are likely to be of little value to those who
+lack reasonable alternative means to access the relevant services.117
+2.93 The AGD pointed out:
+There's nothing in this bill that requires an entity to use the identity
+verification services. If a customer does not consent to use the identity
+verification services, it's absolutely open to that entity to undertake other
+forms of identity verification that might be considered appropriate, perhaps
+in line with other practices that may have occurred in the past. A person not
+consenting to the use of the identity verification service does not necessarily
+mean that they won't be able to access the service.118
+Review of the legislation
+2.94 The IVS bill would require a statutory review of the legislation and the identity
+verification services within two years of its passage.119 Some submitters
+recommended that a statutory review of the legislation occur after 12 months of
+operation.120
+2.95 The HTI suggested that there should be an interim review of the operation of
+the law 12 months from when the bill becomes operational.121 That interim
+review would focus on privacy and assess whether the IVS framework,
+Privacy Act, and Digital ID bill are aligned in terms of the privacy protections
+offered to Australians.122
+2.96 The Law Council welcomed the requirement for a review of the legislation,
+noting that it would 'provide a clearer picture of how the identity verification
+scheme operates in practice'.123 It suggested that the review should occur
+116 Ms Shohini Sengupta, PhD student, Allens Hub, Committee Hansard, 30 October 2023, p. 12.
+117 Law Council, Submission 12, p. 7.
+118 Ms Inverarity, AGD, Committee Hansard, 30 October 2023, p. 44.
+119 Identity Verification Services Bill 2023, cl. 43.
+120 See, for example: HTI, Submission 4, p. 3; Law Council, Submission 12, p. 8.
+121 Professor Santow, HTI, Committee Hansard, 30 October 2023, p. 13. Also see: HTI, Submission 4, p. 19.
+122 Professor Santow, HTI, Committee Hansard, 30 October 2023, p. 13.
+123 Law Council, Submission 12, p. 8. Also see: Ms Ganopolsky, Law Council, Committee Hansard,
+30 October 2023, p. 20.
+40
+'12 months after commencement. This change will ensure that any unintended
+consequences can be identified and addressed in a timelier manner'.124
+2.97 Professor Bennett Moses agreed that an interim review as proposed by the HTI
+would be appropriate and added that it should also assess security matters.125
+In particular, it should examine 'whether, in fact, it has improved things or not
+and also to see whether it has led to any data breaches of its own'.126
+2.98 The AHRC submitted that a review mechanism should be included in the IVS
+bill, if it is passed prior to the modernisation of the Privacy Act.127 That review
+'would ensure that 12 months after receiving royal assent, the
+Verification Services Bill would be reviewed alongside the Privacy Act to ensure
+that subsequent privacy reforms are adequate to protect individuals' data'.128
+The AHRC proposed that further reviews be conducted every 12 months until
+the Privacy Act reforms are passed before a final examination 12 months later to
+determine 'the adequacy of privacy protection for individuals'.129
+2.99 DRW favoured the introduction of 'friction' in the introduction of the IVS bill.130
+That 'friction' would slow down the use of identity verification services:
+…to guard against expansion and mission creep, and the documentation of
+that can assist to allow the public to have a proper assessment of whether
+legislation is still serving its purposes and the limitation are still working in
+a way that the parliament intended.131
+2.100 The AGD submitted that a statutory review two years after the passage of the
+legislation would 'allow sufficient time for the identity verification services to
+operate which will enable a more meaningful review to be conducted'.132
+Committee view
+2.101 The Identity Verification Services Bill 2023 would provide a clear legislative
+framework for the operation of three approved identity verification facilities,
+and provide privacy and security for users of them.
+124 Law Council, Submission 12, p. 8. Also see: Ms Ganopolsky, Law Council, Committee Hansard,
+30 October 2023, p. 20.
+125 Professor Lyria Bennett Moses, Director, University of New South Wales Allens Hub for
+Technology, Law and Innovation (Allens Hub), Committee Hansard, 30 October 2023, p. 14.
+126 Professor Bennett Moses, Allens Hub, Committee Hansard, 30 October 2023, p. 14.
+127 AHRC, Submission 7, p. 2.
+128 AHRC, Submission 7, p. 2.
+129 AHRC, Submission 7, p. 2.
+130 Ms O'Shea, DRW, Committee Hansard, 30 October 2023, p. 17.
+131 Ms O'Shea, DRW, Committee Hansard, 30 October 2023, p. 17.
+132 AGD, Submission 2, p. 20.
+41
+2.102 The Identity Verification Services (Consequential Amendments) Bill 2023 would
+amend the Australian Passports Act 2005 to enable the Attorney-General to
+disclose the personal information of individuals participating in the DVS or FVS.
+2.103 The committee acknowledges that there is a need to provide a legislative basis
+for the ongoing operation of the identity verification services which, as the
+Attorney-General's Department highlighted, provide a critical capability to
+government and industry.
+2.104 The committee recognised that there is ongoing work on the
+Digital Identification Bill 2023 and reform of the Privacy Act. The committee
+welcomes the government's commitment to modernising the privacy regime
+and ensuring that new legislation aligns with community expectations in
+relation to the protection of personal information.
+2.105 The committee is of the view that it is imperative that the IVS bill strikes an
+appropriate balance between the provision of identity verification services and
+the protection of individual privacy.
+2.106 The committee received evidence from several civil society organisations that
+suggested that the IVS bill should be amended to provide a rule making power
+to strengthen privacy safeguards. The AGD stated that the Digital Identification
+Bill 2023 would serve a different purpose and provide a different regulatory
+framework and, in the committee's view, the rules do not need to be the same
+as the privacy safeguards outlined in that bill. The committee notes that
+stakeholders indicated the importance of consultation on any rules made under
+the new rule making power. A new rule making power to strengthen privacy
+safeguards should not be subject to a sunset provision to enable proper
+consultation to occur.
+Recommendation 1
+2.107 The committee recommends that the IVS bill is amended to provide a rule
+making power to strengthen privacy safeguards.
+2.108 Evidence to the committee indicated that the terms 'identification information'
+and 'personal information' are in a state of flux due to the ongoing review of the
+Privacy Act. The committee agrees with the recommendation made by the OAIC
+that 'identification information' under the IVS Bill should be considered
+'personal information' for the purposes of the Privacy Act. This will clarify the
+application of the Privacy Act and will more easily enliven the Information
+Commissioner's functions and powers.
+Recommendation 2
+2.109 The committee recommends that the IVS bill is amended to provide that
+'identification information' as defined in clause 6 is 'personal information' for
+the purposes of the Privacy Act.
+42
+2.110 The committee agrees with the OAIC's position that it would be appropriate to
+include a provision in the IVS bill to make certain that a breach of a participation
+agreement that relates to a privacy matter by an APP entity constitute an
+interference with privacy under the Privacy Act. The inclusion of such a
+provision would enable the Information Commissioner to carry out their
+enforcement powers, including the ability to deal with privacy complaints.
+Recommendation 3
+2.111 The committee recommends that the IVS bill is amended to provide that a
+breach of a participation agreement that relates to a privacy matter by an APP
+entity constitutes an interference with privacy under the Privacy Act.
+2.112 The committee supports the OAIC's view that the Explanatory Memorandum
+could be amended to make it clear that participation agreements are intended
+to be privacy-enhancing and may therefore impose additional requirements to
+the APPs, but any such requirements must not be contrary to, or inconsistent
+with, the APPs. Such an amendment would provide additional clarity in relation
+to the privacy safeguards included in the IVS scheme.
+Recommendation 4
+2.113 The committee recommends that the Explanatory Memorandum is amended
+to make clear that participation agreements must be privacy-enhancing and
+consistent with the APPs.
+2.114 The committee notes evidence from the OAIC that the
+Explanatory Memorandum should be amended to make it clear that compliance
+obligations under the IVS bill would not alter entities' obligations under the
+Privacy Act. The committee supports such an amendment to the
+Explanatory Memorandum to further clarify entities' privacy obligations.
+Recommendation 5
+2.115 The committee recommends that the Explanatory Memorandum is amended
+to clarify that the compliance obligations under the bills do not alter a
+participating entity's obligations under the Privacy Act.
+2.116 The OAIC advised the committee that the provisions contained in clause 40 of
+the IVS bill are 'unusual' as they would not activate that office's usual
+assessment regulatory powers. The HTI, DRW and Law Council also called for
+an enhanced oversight function and role of the Information Commissioner. The
+committee agrees that the Information Commissioner should have the power to
+compel a party to a participation agreement to provide documents relevant to
+the OAIC's annual assessment without relying on the party's agreement.
+Bringing the provisions contained in clause 40 of the IVS bill into line with the
+43
+OAIC's existing assessment powers would assist in securing the independence
+of the office and strengthen the annual assessment provision of the IVS bill.
+Recommendation 6
+2.117 The committee recommends that clause 40 of the IVS bill is amended to
+enliven the OAIC's existing assessment powers in subsection 33C(1) of the
+Privacy Act in relation to the annual assessment requirements.
+2.118 The committee agrees with the OAIC's recommendation that the IVS bill should
+be amended to better align the data breach notification requirements with the
+Notifiable Data Breach Scheme in Part IIIC of the Privacy Act. In particular, it is
+critical that parties to a participation agreement that is notified by the
+department of a data breach takes reasonable steps to notify each individual
+affected by an eligible data breach. That amendment would assist in building
+public trust in the IVS scheme.
+Recommendation 7
+2.119 The committee recommends that the IVS bill is amended to ensure that
+individuals are notified when there is a data breach that is likely to cause
+them serious harm.
+2.120 The committee supports the strengthening of the OAIC's oversight role and
+enforcement powers by allowing entrusted persons to disclose protected
+information to the OAIC or the Information Commissioner. Strengthening those
+powers would also increase public trust in the IVS scheme.
+Recommendation 8
+2.121 The committee recommends that the IVS bill is amended to allow entrusted
+persons (for example, a departmental employee) to disclose protected
+information to the Information Commissioner or an OAIC staff member, for
+the purpose of the Commissioner or OAIC exercising a power, or performing
+a function or duty.
+2.122 The committee supports the OAIC's and HTI's recommendation that the
+Information Commissioner be consulted prior to any rules being developed
+under clause 44 of the IVS bill. That consultation would ensure that any rules
+developed under that clause are privacy-enhancing.
+Recommendation 9
+2.123 The committee recommends that clause 44 of the IVS bill is amended to
+require the Information Commissioner to be consulted on the rules, as they
+relate to privacy, before they are made under clause 44.
+2.124 The committee acknowledges that many civil society organisations indicated
+that there should be greater consistency between the Digital Identification
+44
+Bill 2023 and the Identification Verification Services Bill 2023. The committee
+notes evidence from the AGD that the privacy safeguards and protection in
+these two bills reflect their differing purposes, scope and policy intent. While
+the committee acknowledges the differences between the two bills, the
+committee considers that requiring express consent in the IVS bill would
+improve consistency and public confidence in the identity verification services.
+The Australian Banking Association indicated that it did not have any concerns
+with the Identification Verification Services Bill 2023 requiring express consent.
+By requiring express consent, individuals will be able to give meaningful
+consent when they participate in the IVS scheme. The adoption of an expressed
+consent model would also more closely align the IVS bill with the draft
+Digital Identification Bill 2023.
+Recommendation 10
+2.125 The committee recommends that the IVS bill is amended to only include
+express consent and not implied consent.
+2.126 The committee acknowledges that the IVS bill contains a provision that would
+require a statutory review of the legislation to commence within two years of
+the bill's passage. The committee received compelling arguments in favour of
+an interim 12–month review into the adequacy of the privacy and security
+protections related to the operation of the IVS scheme. Conflicting evidence was
+also received about whether the IVS scheme should include a civil penalties
+framework in addition to the proposed criminal offences in the IVS bill.
+The committee considers that there should be an interim review to examine the
+privacy and security protections related to the IVS scheme and determine
+whether there is merit in developing a civil penalties framework within the
+scheme. Conducting an interim 12–month review would assist in ensuring that
+any shortcomings with the privacy and security provisions are identified in a
+timely manner.
+Recommendation 11
+2.127 The committee recommends that the IVS bill is amended to provide for an
+interim review after 12 months. That interim review should focus on the
+adequacy of the privacy and security protections operating in the IVS scheme
+and whether there is merit in developing a civil penalties framework within
+the IVS scheme.
+45
+Recommendation 12
+2.128 Subject to the preceding recommendations, the committee recommends that
+the Senate pass the bills.
+Senator Nita Green
+Chair
+
+Dissenting Report by Senator Paul Scarr
+Introduction
+1.1 These are important Bills where the balance must be struck between the privacy
+rights of Australian citizens and the scourge of identity theft and fraud.
+If passed, these Bills will form part of a complicated matrix of both existing
+legislation (which is subject to review) and proposed legislation. Hence, it is
+profoundly disappointing that the Attorney-General has been responsible for a
+legislative process which has been (at least thus far) shambolic and less than
+satisfactory.
+1.2 The Senate is now placed in the invidious position of having to balance the
+merits of introducing a legislative basis for identity verification services against
+the material concerns raised by expert stakeholders with respect to the adequacy
+of the proposed Bills which have been presented for the scrutiny of this
+Committee.
+Context of preparation of this Dissenting Report
+1.3 In preparing this Dissenting Report, I reviewed the contributions made by both
+the Attorney-General and the Hon. Paul Fletcher MP, Shadow Minister for
+Government Services and the Digital Economy, in the House of Representatives.
+1.4 In a speech made on 17 October 2023, the Hon. Paul Fletcher MP,
+Shadow Minister for Government Services and the Digital Economy, concluded
+as follows:
+I conclude by making the point that there are too many unknowns for the
+opposition to support these bills as they stand. We will consider our position
+carefully, including through the committee process. Once the committee has
+completed its review and it has been possible to properly consider these
+questions and the answers that have been provided, it may be that the
+opposition will be in a position to support these bills at that time. I simply
+cannot make a commitment on that now. At their heart, these bills involve a
+good idea and follow a policy direction that was set down by the former
+government; but they also represent a missed opportunity, a failure to
+follow through on commitments and a botched process. These bills need
+proper scrutiny, and this opposition will not be waiving anything through
+until that proper scrutiny has occurred.1
+1.5 These comments were made only 22 days ago. That is all the time that this
+Committee has had to consider this complicated piece of legislation. During that
+time, serious concerns have been raised by expert stakeholders. If anything,
+there are now even more unknowns at the end of the Committee process, then
+1 The Hon. Paul Fletcher MP, Shadow Minister for Government Services and the Digital Economy,
+House of Representatives Proof Hansard, 17 October 2023, p. 13.
+47
+48
+there were at the start. First and foremost of these is to what extent is the
+government prepared to accept the eleven recommendations made in the
+majority report? If so, to what extent will the amendments truly address the
+deep concerns of stakeholders? Will expert stakeholders have the opportunity
+to consider and comment on amendments made to the Bills (if any) in response
+to the majority report? (In the absence of such an opportunity, Senators need to
+be extremely wary of passing Bills which deal with complicated subject matter
+of grave concern to Australians). Moreover, what is the road map (if any) to
+implement a cohesive review and implementation of reform of a complicated
+matrix of legislation including the Privacy Act 1988 (Privacy Act), the Digital ID
+Bill and the Bills the subject of this inquiry?
+Exchange with Professor Edward Santow, Co-Director of the Human
+Technology Institute – Senate now in an 'invidious' position
+1.6 The unsatisfactory position the Senate now finds itself in is perhaps best
+exemplified by the following exchange I had with Professor Edward Santow (an
+expert in the field who is well known to the Committee through his previous
+position as Human Rights Commissioner with the Australian Human Rights
+Commission) during the public hearing of the Committee inquiry held on
+30 October 2023 and his subsequent answer to my question taken on notice:
+Senator SCARR: I appreciate the answers you've both given to those
+questions. It is likely— I'm just trying to be realistic here—that this bill is
+going to be put forward without substantive amendment for consideration
+of the parliament. Unless those changes which you're proposing in terms of
+protection of privacy are made, do you think the parliament should pass the
+legislation?
+Prof. Santow: I think we're put in an invidious position here, because, at the
+moment—
+Senator SCARR: We are, but that's the position we're in, I'm afraid.
+Prof. Santow: I accept that. So, being pragmatic, in a perfect world, you'd go
+first with the privacy reform and then move forward with this idea. Still, I
+understand why the government may not wish to do that. I think what that
+then means is that you need to bring those two bills in line.
+I absolutely endorse Professor Bennett Moses's suggestion of sunsetting, but
+you could bring the digital ID bill in line with this bill. Most of chapter 3 of
+the digital ID bill can be imported into this bill. That would be very easy to
+do. If there were such extraordinary urgency, then it could be done through
+subordinate legislation. That's the least attractive option, but it would still
+be better than the bill as it currently appears. It would require a relatively
+small amendment to clause 44 of the bill. That would then put the onus on
+the minister to uplift those privacy protections so you don't have a
+completely fragmented regime, which would not only be very difficult for
+business and government agencies to comply with but also would leave
+Australians inadequately protected with respect to their privacy rights.
+49
+Senator SCARR: What if none of those things occur and the parliament is
+left with the bill unamended, without the sunsetting, without the
+regulations and without the privacy obligations being imported from the
+draft digital ID bill?
+Prof. Santow: I feel very uncomfortable answering that question because it's
+entirely within the gift of the parliament, and especially the minister, the
+government, to fix that. I need to, perhaps, take that question on notice.
+But it would not be difficult to, at the very least amend, clause 44 in the way
+I just described.
+Senator SCARR: Could you take the question on notice? I'm anticipating that
+could well be the position that parliament's in...2
+1.7 Professor Santow’s answer to the question on notice:
+My answer to this question is as follows. The Government has not made a
+compelling argument that it would be impossible or impractical to improve
+the privacy protections applicable to these two Bills – at least by adopting
+one of the solutions proposed in the Human Technology Institute’s written
+submission. I recommend that these Bills proceed only if those privacy
+protections have been enhanced, adopting one of the solutions proposed in
+the Institute’s submission or another mechanism proposed by the
+Government itself.3
+1.8 As Professor Santow has commented, it is indeed an “invidious” position.
+It does not reflect well on the Attorney-General’s management of this legislative
+process.
+What is not contained in the Bills – departure from approach of the previous
+Coalition Government
+1.9 It is noted that the previous Coalition Government introduced identity
+legislation bills; however, those Bills dealt with other safety and security
+functions which are not contained in the current Bills. Why? There is no coherent
+explanation provided by the Attorney-General. Again, I quote from the remarks
+made by the Hon. Paul Fletcher MP, Shadow Minister for Government Services
+and the Digital Economy:
+This is not the first time the parliament has been asked to deal with identity
+legislation. Like much of the legislation that we have seen from the
+Albanese Labor government, these bills draw on and are based on coalition
+legislation, at least in theory.
+In 2018, the coalition introduced the Identity-matching Services Bill and a
+related bill amending the Australian Passports Act. We referred them to the
+2 Human Technology Institute responses to spoken questions on notice, taken at a public hearing on
+30 October 2023 (received 3 November 2023).
+3 Human Technology Institute responses to spoken questions on notice, taken at a public hearing on
+30 October 2023 (received 3 November 2023).
+50
+Parliamentary Joint Committee on Intelligence and Security. Together they
+lapsed at the 2019 election, and we reintroduced them.
+This government would have you believe that the bills currently before the
+House are successors to these original coalition bills, but scratch beneath the
+surface and much has changed—indeed, almost changed beyond
+recognition.
+The coalition bills were not solely about identity matching. The coalition
+bills aimed to give effect to commitments made by the Commonwealth
+government in an intergovernmental agreement with all of the states and
+territories. That agreement is called the Intergovernmental Agreement on
+Identity Matching Services, and the very first page describes it as: “An
+Agreement to share and match identity information, with robust privacy
+safeguards, to prevent identity crime and promote law enforcement,
+national security, road safety, community safety and service delivery
+outcomes” [my emphasis].
+The coalition's bills dealt with services to share and match identity
+information with robust privacy safeguards for the purposes of preventing
+identity crime and promoting law enforcement, national security, road
+safety, community safety and service delivery outcomes. None of these
+purposes are addressed by the bill which is now before the House.
+The only point at which national security is mentioned in a substantive way
+in either the main bill or the explanatory memorandum is in relation to a
+clause which allows the secretary to redact participation agreements. This is
+despite the states and territories having agreed to share photos and data for
+the express purposes of identity protection and community safety. This
+raises many questions. What gaps have been left by the Attorney-General's
+failure to follow through on the purposes of the intergovernmental
+agreement? Has he weakened our national security? Is he asking police to
+fight crime with their hands tied? Is he opening the door to fraudsters and
+identity thieves? Will our roads be more dangerous? We should know these
+things before we vote.
+The Attorney-General sat on the PJCIS when in opposition and scrutinised
+these coalition bills. A review of the public hearing transcripts suggests he
+was very keen to avoid following through on the national security
+obligations. As the Attorney-General knows, the PJCIS recommended the
+bills be redrafted and then come back to the PJCIS. Instead, the
+Attorney-General has redrafted the bills and, in doing so, ensured that they
+do not include the safety and security functions that our state and territory
+partners might expect. He's graciously taken the view that, because of the
+way he redrafted them, it was not necessary for him to refer them back to
+the PJCIS, even though he, himself, sitting on that committee, contributed to
+the request that the bills come back to the PJCIS.4
+1.10 Again, there is a lack of explanation for, and coherency in, the approach adopted
+by the Attorney-General.
+4 The Hon. Paul Fletcher MP, Shadow Minister for Government Services and the Digital Economy,
+House of Representatives Proof Hansard, 17 October 2023, p. 11.
+51
+The failure of the Attorney-General to implement an appropriate legislative
+process
+1.11 Expert stakeholders raised concerns with the short time frame for the inquiry
+into these Bills. The Law Council of Australia (Law Council) stated:
+It is troubling that such a short reporting period has been imposed on this
+inquiry, providing a little over two weeks for stakeholders to make
+submissions about a proposed legislative framework for identity
+verification services…The Law Council is concerned that the timeframe for
+this inquiry does not reasonably enable the Committee to carefully
+scrutinise whether the Bills strike the correct balance.5
+1.12 The concern raised by the Law Council is compounded by the complicated
+nature of the legislation and the risk of 'unintended consequences', including in
+a situation where the Bills may be the subject of detailed amendments.
+1.13 Ms Lizzie O'Shea, Digital Rights Watch, made the following point:
+Partly, it's also quite concerning in this instance, given that there was a bill
+proposed which was withdrawn and that a number of years passed in which
+the scheme was implemented notwithstanding, apparently without a
+legislative basis, and then we're given three weeks to consider both that
+context and the proposal to implement the legislative basis. It feels pretty
+disappointing, given this has been going on for some time, that the pressure
+is applied at this point in the process.6
+1.14 Of additional concern is how the Bills operate in conjunction with the Digital ID
+Bill and the review of the Privacy Act. The concerns of Digital Rights Watch are
+relevant in this regard:
+The legislative framework proposed in the [Identity Verification Bills] must
+be consistent with the [proposed] Digital ID Bill. These systems are
+inextricably linked, and will inevitably end up complementing (or
+contradicting) each other. Inconsistencies between them risk the creation of
+loopholes and ineffective governance processes.
+…
+The current deficiencies in Australia’s privacy law leave a number of
+privacy risks unaddressed in the IVS Bill. As privacy is a core part of making
+this scheme work safely, we strongly urge that reform of the Privacy Act be
+completed before such potentially pivotal systems such as IVS are built on
+top of its guarantees.7
+1.15 Ms Shohini Sengupta of the UNSW Allens Hub for Technology, Law and
+Innovation also added:
+We've made an argument for both the IVS bill and the IVS consequential
+amendments bill to be considered congruously with the digital ID bill
+5 Law Council of Australia (Law Council), Submission 12, p. 1.
+6 Ms Lizzie O'Shea, Chair, Digital Rights Watch, Committee Hansard, 30 October 2023, p. 16.
+7 Digital Rights Watch, Submission 9, pp. 2–3.
+52
+because we believe that the issues we raise refer to the subject matter in both.
+Broadly, we recommend a more considered approach towards the adoption
+of biometric technology in identification, specifically on facial recognition
+technology.8
+1.16 Similar concerns were raised by Professor Lyria Bennett Moses, Director of the
+University of New South Wales Allens Hub for Technology, Law and
+Innovation, in evidence to the Committee:
+What we are essentially arguing is that these bills cannot achieve their full
+objectives, including protecting Australians from some of the risks inherent
+in the deidentification systems and services, until they are considered
+holistically alongside the digital identity legislation and, as has also been
+mentioned, the Privacy Act reform.
+…
+Clause 6 of that bill, inserting section 46A into the Australian Passports Act,
+gives the minister carte blanche to arrange for the use of an automated
+system to disclose personal information to those participating in two of the
+schemes. Robodebt highlighted that automated systems can yield errors at
+scale. It also goes without saying that there are significant cybersecurity
+risks associated with any automated process for personal information
+disclosure. So we need to worry not only about bugs but also about
+vulnerabilities that might be exploited by malicious actors. We strongly
+suggest—either now or when the bills come back for review in more depth
+after a sunset provision—that consideration is given to adding requirements
+around evaluation, including that they meet performance standards in
+accordance with statutory criteria for disclosure, that regular threat
+assessment is done, that security testing is done, and so forth.9
+1.17 Ms Lizzie O’Shea, Digital Rights Watch, made the following point to the
+Committee:
+Partly, it's also quite concerning in this instance, given that there was a bill
+proposed which was withdrawn and that a number of years passed in which
+the scheme was implemented notwithstanding, apparently without a
+legislative basis, and then we're given three weeks to consider both that
+context and the proposal to implement the legislative basis. It feels pretty
+disappointing, given this has been going on for some time, that the pressure
+is applied at this point in the process.
+…
+Also, it's surprising to me that you would have different privacy regimes in
+each, given the way in which they are linked. There's also a regulatory
+burden that's been created for government. They're implementing two
+different privacy regimes, one of which is much more substandard than the
+other, which is this one. Also, in a context where we're going through pretty
+8 Ms Shohini Sengupta, PhD student, University of New South Wales Allens Hub for Technology,
+Law and Innovation, Committee Hansard, 30 October 2023, p. 9.
+9 Professor Lyria Bennett Moses, Director, University of New South Wales Allens Hub for
+Technology, Law and Innovation, Committee Hansard, 30 October 2023, p. 9.
+53
+significant privacy reforms, it looks likely, if the Attorney's plan is enacted,
+that we will have considerable reforms made to the Privacy Act, which will
+again create another change to the scenario in which these schemes are
+implemented. All of these seem excessively cumbersome, unclear for people
+who are subjected to these schemes and costly in terms of regulatory burden.
+…
+In terms of protecting people from criminal conduct, among other things,
+including what we'd call identity theft, I think the reform of the Privacy Act
+is the most urgent priority of the current parliament. That ought to be
+brought on as quickly as possible. We completely understand the need for
+this scheme—we're not suggesting that such a scheme not be implemented
+at all—but, in our opinion, it's simply inappropriate to do that without
+proper protection for people's rights. It is vital that privacy reform take
+place. In the absence of that, at a very minimum, we would have thought
+that the same protections that apply in the digital identity bill would be
+introduced here; it would make sense, obviously. We understand the
+urgency of protecting people from criminal conduct, but we don't think this
+rushed process without proper protections is necessarily the solution that
+we ought to adopt. There are better ones available, in the form of the privacy
+reform, that are straightforward and already in progress. It's not clear to us
+why this position is justified or why this particular bill is justified in those
+contexts.10
+1.18 The Law Council made the same point during its evidence at the public hearing:
+Much of the Law Council's submission, like those of many other
+contributors, focuses on the interaction between the proposed scheme and
+the Commonwealth Privacy Act. As a general comment, the fragmented
+approach to privacy and data reform that is illustrated by these bills is not
+conducive to promoting harmonisation and clarity across Australia's
+digital identity, privacy and identity verification frameworks.
+The Law Council reiterates its call for a roadmap of the harmonisation of
+Australia's privacy and data laws to ensure the development of a national
+privacy framework that is consistent, clear and accessible [my emphasis].
+…
+Ideally, it would be, in our view, much more efficient to have a consolidated
+review of the privacy regime, which is one of the core topics of debate
+regarding this legislative theme. As many of the contributors, in our view,
+rightly pointed out, the comprehensive review of the Privacy Act and the
+government responses issued on 28 September which agreed either directly
+or in principle with most of the recommendations, that would be our
+proposed more efficient way of dealing with these types matters.11
+10 Ms Lizzie O'Shea, Chair, Digital Rights Watch, Committee Hansard, 30 October 2023, pp. 16–17.
+11 Ms Olga Ganopolsky, Chair, Privacy Law Committee of the Business Law Section, Law Council,
+Committee Hansard, 30 October 2023, pp. 20–21.
+54
+1.19 The Human Rights Commissioner of the Australian Human Rights Commission
+echoed the concerns of the other stakeholders:
+We have concerns about proceeding with the Verification Services Bills
+(which rely upon the yet-to-be-modernised Privacy Act, before the privacy
+law reform process is completed. For this reason, the privacy protections
+built into the Verification Services Bills are currently incomplete and not
+appropriate to safeguard privacy against verification technologies.
+The Privacy Act reforms must be completed before the Verification Services
+Bills are enacted.12
+1.20 Commissioner Finlay also made the following point at the public hearing for the
+Inquiry:
+The first thing we would say is that, as a bare minimum—and I'd refer to
+our written submission here—we'd see the need for a subsequent review
+mechanism to be built into the legislation to ensure that, once those privacy
+law reforms are completed, there is a subsequent review so that we can try
+and ensure not only that the current bill now, if it is passed, has those
+minimum protections but that, in the longer term, we're not creating an
+additional problem of disjointed regimes when it comes to privacy and that,
+even if it is in the long term rather than today, we end up with a harmonised
+regime.13
+Higher standards of privacy required than those provided by the
+Attorney-General in the Bills
+1.21 There was strong evidence from the expert stakeholders with respect to the
+inadequacy of the privacy protections in the Bills.
+1.22 Professor Edward Santow of the Human Technology Institute, University of
+Technology Sydney, advised:
+The goal of digital ID is to increase convenience for citizens, reduce privacy
+and other risks and save money for the government and the private sector.
+But this goal can only be achieved if the underlying technology is sound and
+if there are strong legal safeguards; otherwise digital IT brings enormous
+risks, especially to Australians' privacy rights.
+…
+Our submission recognises that improvement and points to a number of
+good provisions in the bill. However, the privacy protections in the IVS bill
+are inadequate. Essentially the bill provides that an organisation need only
+comply with the existing federal, state, territory or New Zealand privacy
+laws. That position is untenable.
+…
+12 Australian Human Rights Commission, Submission 7, p. 2.
+13 Mrs Lorraine Finlay, Human Rights Commissioner, Australian Human Rights Commission,
+Committee Hansard, 30 October 2023, p. 29.
+55
+The government recently committed to reform the Privacy Act in accordance
+with recommendations from the Attorney-General's Department; however,
+there's no time line for that reform. If this bill is passed, it will rely on
+fundamentally inadequate privacy protections. Meanwhile, the finance
+minister has released an exposure draft Digital Identity Bill—legislation that
+is intimately connected to the IVS bill. The digital ID bill recognises the flaws
+with existing privacy legislation, and it contains an entire chapter with
+additional privacy protections for digital ID.
+…
+We urge the committee to recommend clearer legislation to govern all uses
+of one-to-many facial-recognition technology.14
+1.23 Ms Lizzie O’Shea of Digital Rights Watch made the following point to the
+Committee:
+In terms of protecting people from criminal conduct, among other things,
+including what we'd call identity theft, I think the reform of the Privacy Act
+is the most urgent priority of the current parliament. That ought to be
+brought on as quickly as possible. We completely understand the need for
+this scheme—we're not suggesting that such a scheme not be implemented
+at all—but, in our opinion, it's simply inappropriate to do that without
+proper protection for people's rights. It is vital that privacy reform take
+place. In the absence of that, at a very minimum, we would have thought
+that the same protections that apply in the digital identity bill would be
+introduced here; it would make sense, obviously. We understand the
+urgency of protecting people from criminal conduct, but we don't think this
+rushed process without proper protections is necessarily the solution that
+we ought to adopt. There are better ones available, in the form of the privacy
+reform, that are straightforward and already in progress. It's not clear to us
+why this position is justified or why this particular bill is justified in those
+contexts.15
+1.24 The Law Council stated:
+Given the sensitive personal information, including biometric information,
+held within the framework, higher standards of compliance should apply to
+parties, beyond reliance on the existing Privacy Act, which is not fit for
+purpose in the digital landscape. Clause 10 of the Bill imposes minor
+additional privacy obligations on parties to a participation agreement that
+proposes to request identity verification services, however these are limited
+in scope and unlikely to promote public trust in the scheme.16
+1.25 The Human Rights Commissioner, Mrs Lorraine Finlay, stated to the
+Committee:
+14 Professor Edward Santow, Director, Policy and Governance, Human Technology Institute,
+University of Technology Sydney, Committee Hansard, 30 October 2023, p. 8.
+15 Ms Lizzie O'Shea, Chair, Digital Rights Watch, Committee Hansard, 30 October 2023, pp. 16–17.
+16 Law Council, Submission 12, p. 5.
+56
+… the privacy protections currently contained within the bills are, in our
+view, incomplete and insufficient. The bills rely primarily on the protections
+provided under the existing Privacy Act, which the Attorney-General
+himself has stated has 'not kept pace with changes in the digital world'.
+The Privacy Act review conducted by the Attorney-General's Department
+and released last year made 116 recommendations to reform the Privacy Act
+so it remains fit for purpose. The government response to this review, which
+was released just over a month ago, recognises that stronger privacy
+protections for Australians are needed and acknowledges that there is still
+work to be done before this reform process is completed. Given this, we have
+concerns about proceeding with the current bills, which substantially rely
+upon the yet-to-be-completed privacy law reforms, before that reform
+process is completed. Our primary submission, therefore, is that the
+Privacy Act reform should be completed before the identity verification
+services bills are enacted. The final point we wish to highlight is that these
+bills are inextricably linked to not only the Privacy Act reforms but also the
+exposure drafts that have been released for the proposed digital
+identification legislation rules. It is highly desirable for Australia's digital
+identity, privacy and identity verification framework to be consistent, and
+we would encourage this committee to emphasise the need for these three
+reform processes to be more expressly and effectively harmonised.17
+Should the government decide to proceed with passing the Verification
+Services Bills prior to reforming the Privacy Act, an additional
+privacy-focused review mechanism should be included. Such a mechanism
+would ensure that 12 months after receiving royal assent, the
+Verification Services Bills would be reviewed alongside the Privacy Act to
+ensure that subsequent privacy reforms are adequate to protect individuals’
+data. Should privacy reform still be ongoing, the Verification Services Bills
+should be reviewed at 12-month intervals until the Privacy Act reforms are
+passed. Then a final examination of the interaction between the Privacy Act
+and Verification Services Bills should be undertaken with the aim of
+determining the adequacy of privacy protection for individuals.
+Another solution while the Privacy Act is under review, would be to create
+a privacy framework specifically for the Verification Services Bills. This may
+offer a solution in the short to medium term, while waiting for the
+Privacy Act reforms to be finalised. However, a distinct privacy framework
+would further complicate the already highly technical privacy legislative
+landscape – which is why reliance on a reformed Privacy Act is preferred.18
+1.26 Digital Rights Watch stated:
+In particular, we note that the Digital ID Bill proposes markedly more robust
+privacy protections, and as a bare minimum, the IVS Bill ought to be
+amended to match the privacy protections proposed under the Digital ID
+framework.19
+17 Mrs Lorraine Finlay, Human Rights Commissioner, Australian Human Rights Commission,
+Committee Hansard, 30 October 2023, pp. 27–28.
+18 Australian Human Rights Commission, Submission 7, p. 2.
+19 Digital Rights Watch, Submission 9, p. 2.
+57
+1.27 Privacy concerns were also raised by the Parliamentary Joint Committee on
+Human Rights which noted:
+The committee is concerned about the impact on the right to privacy for the
+millions of Australians whose data is contained in the National Driver
+Licence Facial Recognition Solution database and the use of biometric
+identity verification services. The committee also considers that facilitating
+the use of biometric identity verification for the purposes of accessing social
+security and other government services engages and may limit the right to
+social security. In addition, the measures may engage and limit the right to
+equality and non-discrimination if the measures were to have a
+disproportionate impact on members of certain groups or if biased or
+erroneous data led to discriminatory decisions. Further, if the measures
+impermissibly limited one or more of these rights, it is not clear whether an
+individual would have access to an effective remedy with respect to any
+violation of rights.20
+1.28 There is a material question as to whether the Attorney-General would be open
+to making appropriate amendments to the Bills. In this regard, I note the
+following commentary by the Attorney-General's Department during the course
+of this inquiry:
+On this basis, the department does not accept that identical privacy
+protections are necessarily required and thinks that the privacy protections
+for each scheme are appropriate to their context and policy intent.21
+1.29 The Attorney-General’s Department stated in response to the following
+question asked at the public hearing:
+Senator SCARR: A number of stakeholders have put forward the
+proposition that, as a bare minimum, this bill should be amended to include
+additional privacy protections, and they've referred to the exposure draft of
+the Digital Identity Bill 2023. In fact, I asked at least one witness, maybe two,
+to take on notice specific provisions in that bill which could be transplanted
+into this bill. From your opening statement it seems you don't think that's
+going to work.
+Ms Inverarity: We don't think it would work for them to be identical in
+every respect; they are doing slightly different things in slightly different
+ways. But we are extremely open to sensible suggestions for privacy
+enhancements. We have had productive conversations with the Office of the
+Australian Information Commissioner about the suggestions that they have
+made. We think, in many ways, the privacy protections are aligned;
+although, they are slightly different in how they are described between the
+two pieces of legislation. If there are aspects of the digital ID bill that could
+sensibly be replicated in this bill then we are certainly not closed to that, but
+it is not immediately clear to us what those protections necessarily are and
+20 Parliamentary Joint Committee on Human Rights, Report 11 of 2023, 18 October 2023, p. 39.
+21 Ms Tara Inverarity, Acting Deputy Secretary, National Security and Criminal Justice Group,
+Attorney-General's Department, Committee Hansard, 30 October 2023, pp. 36–37.
+58
+how they would sit within the scheme that this bill creates
+[my emphasis].22
+The issue with 'mission creep'
+1.30 In response to a question taken on notice, the UNSW Allens Hub for
+Technology, Law and Innovation raised the following issue with respect to
+'mission creep' based on the experience overseas during the COVID–19
+pandemic:
+We believe that the fundamental issue of excessive delegated legislation,
+without adequate Parliamentary checks and balances may lead to an
+eventual mission creep of identification technologies as highlighted in our
+earlier submission to the Committee. We draw attention to India’s Digital
+identity Program (Aadhaar) which saw a similar creeping expansion,
+without adequate legal safeguards particularly during the COVID-19
+pandemic. In 2020, India introduced a contact tracing app (Aarogya Setu),
+connecting each individual user with their unique identification number
+(Aadhaar number) for validation of their data. Although the app was
+introduced as ‘voluntary’, it was soon pushed aggressively by multiple State
+authorities including the Ministry of Home Affairs. Aarogya Setu derived
+its legality from the Disaster Management Act 2005 which is a comparable
+legislation to Australia’s Biosecurity Act 2015. The Disaster Management
+Act 2005 in India allowed the Union Government to lay down guidelines
+for, or give directions to other State authorities, Ministries and Departments
+regarding any measures to be taken in light of a disaster. The law also
+allowed the State to make, or amend any rule, regulation, notification,
+guideline, instruction, order, scheme or bye-laws for the prevention or
+mitigation of disasters.
+…
+The other issue with excessive and unchecked delegated power, especially
+during times of disasters is the convergence of multiple digital technologies
+of identification that exacerbate conditions of surveillance and data
+breaches. In the case of India, COVID-19 saw the roll-out of a dozen
+government applications that used a combination of features, including GPS
+surveillance, facial recognition and thermal imaging, to identify and trace
+the potential carriers of the virus, enforce quarantines and lockdowns, and
+allocate additional healthcare resources. Despite privacy protections, and
+the collection of aggregated and anonymised data through such digital
+technologies, the threats of such data being leaked and anonymised
+information being re-identified nevertheless persist. Scholars have
+persistently pointed out how Aarogya Setu violated the proportionality
+principle through expansive provisions giving the executive wide powers,
+lacked a sunset clause, and facilitated excessive collection, processing,
+storage, and sharing of sensitive personal data with an increasing number
+of State authorities. This poses concerns for both cybersecurity and
+surveillance.
+22 Ms Tara Inverarity, Acting Deputy Secretary, National Security and Criminal Justice Group,
+Attorney-General's Department, Committee Hansard, 30 October 2023, p. 38.
+59
+…
+As such, we advise caution and careful consideration of the impacts of
+other legislation such as the Biosecurity Act 2005 on privacy and the IVS
+Bill. This is because certain provisions of the Biosecurity Act 2005 may lay
+the foundations for indiscriminate use of digital identification
+technologies, in combination with other technologies, particularly in
+times of national disasters. As has been seen in the context of COVID, this
+can lead to legitimate cybersecurity and surveillance concerns
+[my emphasis]. There is a need for adequate legislative safeguards around
+actual practices surrounding the national digital identity system, voluntary
+or otherwise, and to protect against any future mission creep.
+Following on from our oral testimony, we suggest that further consideration
+be given to amending the Bills either before they are passed or, if that is not
+possible due to urgency, then after a sunset period that would enable full
+consideration alongside the digital identity system as a whole and the
+Privacy Act 1988 reforms.23
+Material concerns raised by the Senate Legislation Scrutiny Committee
+inadequately responded to by the Acting Attorney-General
+1.31 The above issue of 'mission creep' is compounded by the scrutiny concerns
+raised by the Senate Legislation Scrutiny Committee in relation to the Bills.
+1.32 Under the proposed amendment to the Australian Passports Act 2005, the
+Minister may by determination nominate additional services for the sharing or
+matching of information relating to the identity of a person.24 There is no
+guidance provided in the proposed amendment in relation to what matters
+should be considered by the Minister in making such a determination.
+1.33 It is noted that the Acting Attorney-General was not prepared to make any
+material amendments to the Bill to address the concern of the Senate Scrutiny of
+Legislation Committee. In response to the legitimate and material concern raised
+by the committee, the most recent digest summarises the
+Acting Attorney-General’s response as follows:
+2.61 In relation to whether high-level guidance could be provided about
+what can be included in a ministerial determination under proposed
+paragraph 46(da)(iii) and any considerations the minister must make
+before making such a determination, the Acting Attorney-General
+advised that it is not necessary to include these matters in the bill.
+The Acting Attorney-General advised that it is intended to provide
+flexibility should the need arise for a new type of identity verification
+service to share or match information and any such service would operate
+23 UNSW Allens Hub for Technology, Law and Innovation, responses to spoken questions on notice
+taken at a public hearing on 30 October 2023 (received 6 November 2023).
+24 Item 3 of Schedule 1 of the Identity Verification Services (Consequential Amendments) Bill 2023.
+60
+in accordance with the legislative framework set out in the
+Identity Verification Services Bill 2023.25
+1.34 With respect, that is the concern. The executive government’s desire for
+'flexibility' undermines the Parliament’s legislative function to consider the
+ambit of the legislation and its application. As the Scrutiny Committee noted in
+its most recent digest:
+2.68 The committee draws this matter to the attention of senators and
+leaves to the Senate as a whole the appropriateness of expanding the
+purposes for which personal information may be disclosed by ministerial
+determination, with limited high-level guidance as to what can be
+included in a ministerial determination and any considerations that must
+be taken into account before such a determination is made.26
+1.35 This scrutiny issue should be considered in the context of the concerns raised by
+expert specialist stakeholders in the context of identity verification legislation of
+so called 'mission creep' in relation to such legislation.27 Given the sensitivity
+and privacy issues arising in connection with such services, this is not
+acceptable.
+Transition issues for the Private Sector inadequately considered by the
+Attorney-General
+1.36 Material issues were raised around the transition issues for the private sector,
+including the content of 'participation agreements' and the time required to
+prepare for transition. As stated by Equifax management at the public hearing:
+Our three areas of consideration relate to the participation agreement.
+We do understand that these will be different to our existing agreements
+with the department; however, we haven't seen a draft of those agreements
+yet. For us, this creates uncertainty around the level of investment required
+to establish our compliance with these obligations. It could mean new
+business capability is required. That's especially in the light of the digital ID
+regime. The costs of the services are yet to be shared, which generates
+further uncertainty for industry around our ability to recover costs.28
+1.37 In addition, Equifax gave an example of the time taken to implement an
+operational change to simply add an additional field for a driver's licence
+number:
+…our second point of consideration relates to the time frame of the
+participation agreements to come into effect, which right now is listed as
+being 12 months after the bill has been given royal assent. By way of
+25 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 13/23, 8 November 2023, p. 54.
+26 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 13/23, 8 November 2023, p. 55.
+27 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 13/23, 8 November 2023, p. 55.
+28 Ms Tehani Legeay, General Manager, Identity, Fraud and Anti-Money Laundering Compliance,
+Equifax, Committee Hansard, 30 October 2023, p. 2.
+61
+example, when we added one field for a drivers licence verification, the card
+number field, this took over two years to implement nationally. So we expect
+significant time will be required to operationalise our compliance and the
+compliance of our 600 customers with these new participation agreements.
+Really, we're seeing that that's a significant risk that those new obligations
+cannot be met within 12 months. We recommend a longer transition
+period.29
+1.38 This highlights issues relating to the practical implementation of this legislation.
+If there needs to be such a lengthy transition, why can't a more coherent
+legislative approach be adopted?
+The issue of consent – express, implied or Hobson's choice?
+1.39 The issue of consent was discussed at the hearing. A number of stakeholders
+recommended defining the required consent as being 'express'. However, the
+Attorney-General’s Department appeared to consider it appropriate that the
+current approach be adopted, which permits both express and implied consent.
+A further issue is what happens if the services will not be provided unless
+consent is granted – does this then become a Hobson’s choice for the consumer?
+1.40 The concerns in this regard were put in the following terms by the Law Council
+in their evidence at the public inquiry:
+There may be no real or practical opportunity for individuals to opt out of
+these schemes, thereby placing a heavy onus on the government to ensure
+that adequate safeguards and oversight mechanisms are in place.30
+Yes, there are a number of safeguards in that other bill which we think could
+easily apply in this instance. The issue of consent has come up quite a bit in
+this morning's discussions. I think the digital ID bill's reference to 'express
+consent' is something that could easily make its way into this bill.
+The reference to 'implied consent' in the explanatory memorandum is
+concerning. We also think that, with the oversight of the Information
+Commissioner in the digital ID bill, there is a stronger role for the
+commissioner there, and we think that could certainly improve this current
+bill.31
+Conclusion
+1.41 In all the circumstances detailed above, I cannot in good faith recommend the
+passage of the Bills. It is noted that the Majority Report recognises that
+amendments are required to the Bills. However, I am not convinced that the
+recommendations provided by the Majority Report would be sufficient (even if
+29 Ms Tehani Legeay, General Manager, Identity, Fraud and Anti-Money Laundering Compliance,
+Equifax, Committee Hansard, 30 October 2023, pp. 2–3.
+30 Ms Olga Ganopolsky, Chair, Privacy Law Committee of the Business Law Section, Law Council,
+Committee Hansard, 30 October 2023, p. 20.
+31 Mr Nathan MacDonald, Deputy Director of Policy, Law Council, Committee Hansard,
+30 October 2023, p. 21.
+62
+adopted in full) to address the material and significant concerns raised by a
+range of expert stakeholders. This is an entirely unsatisfactory situation. At the
+very least, there would need to be detailed amendments made to the Bills with
+a reasonable opportunity for expert stakeholders to provide detailed comments
+prior to further consideration of the Bills by the Senate. Ideally, the Bills would
+be reworked in conjunction with the review of the Privacy Act and consideration
+of the Digital ID Bill. An explanation should also be provided as to the exclusion
+of the safety and security matters provided for in the previous iteration of these
+Bills proposed by the previous government. Why have these matters been
+excluded? What is proposed in this regard?
+Recommendation 1
+1.42 It is recommended that the Bills not be passed in their current form and that
+they be withdrawn for further detailed consideration and rework (informed
+by the expert evidence received by this inquiry) in conjunction with the
+review of the Privacy Act and the consideration of the Digital ID Bill.
+Senator Paul Scarr
+Deputy Chair
+Liberal Senator for Queensland
+Additional Comments by Senator David
+Shoebridge
+1.1 The majority report contains a detailed, accurate and comprehensive review of
+the history of this Bill and its potential impacts, and each of the
+recommendations point the Senate in the right direction to improve the Bill.
+However, both the timing and content of the Bill remains problematic.
+1.2 The government has yet to provide a public rationale for why this Bill must be
+rushed through Parliament. The digital identity scheme in question commenced
+in 2005, was expanded in 2017 and considered closely in a parliamentary inquiry
+in 2019. That 2019 review found significant privacy concerns with national
+digital data matching, most especially with a national facial verification
+database. These concerns remain alive.
+1.3 The most appropriate path forward is to defer this Bill until the Parliament has
+seen the government’s legislative response to the Privacy Act review. This
+would allow the existing national verification services to be placed on a more
+solid and evaluated privacy basis where individual rights are appropriately
+respected.
+1.4 There is a very real concern that this Bill is being so aggressively pursued by the
+government because it knows the existing regime is unlawful and subject to
+legal challenge. This became clear in the obfuscation from the government when
+the question was put to departmental witnesses in the inquiry as follows:
+Senator SHOEBRIDGE: Why are we rushing to legislate it now? What's
+special about October 2023 that means we have to push this through? Is it
+because there's some legal advice that the department or the minister has
+received suggesting there are legal threats to the current arrangement?
+Is that what's driving it?
+Ms Inverarity: Clearly, we don't disclose legal advice. I think we've already
+discussed some issues that show why it is highly desirable to have
+legislative authority in place to guide the use of these services.
+The Parliamentary Joint Committee on Intelligence and Security reported in
+2019. The government has now brought this bill to the parliament, and we
+think it's highly desirable for that legislative authority and those strong
+privacy protections to be in place.
+Senator SHOEBRIDGE: Are the current arrangements lawful?
+Ms Inverarity: The current services are being used on a daily basis.
+Senator SHOEBRIDGE: Are they lawful? Are the current arrangements
+lawful?
+Ms Inverarity: I'm not going to discuss the content of legal advice with you,
+and I believe that's what your question goes to.
+63
+64
+Senator SHOEBRIDGE: There may be an argument to rush legislation
+through if the whole scheme's unlawful and subject to legal challenge, but
+you're not in a position to tell us that. Given every other agency has basically
+said, 'This is legislating the status quo,' it's hard to see what the rush is.
+Ms Inverarity: There is no legislation to refer to as the status quo. This
+would be the first time that the parliament had spoken as to the appropriate
+parameters for the use of the services and the limits on them. In that regard,
+there is no legislative status quo, and that is what we are seeking to achieve.1
+1.5 If the existing identity matching services, which were used more than
+140 million times last year, are illegal then the Attorney-General should clearly
+say this to the public. That would at least be a clear rationale for the undue haste
+that is driving this untidy legislation.
+1.6 The Australian Greens are not in Parliament to shield the
+Commonwealth Government from valid legal challenges where it has breached
+peoples’ privacy rights. We approach these Bills with the aim of providing the
+highest possible privacy protections to give public confidence in a robust and
+important national identity verification scheme. We hope this is the goal of other
+parties in the Parliament.
+1.7 In the event this Bill proceeds, there is a higher standard for privacy protections
+that has been proposed by the government in its draft Digital Identification
+Bill 2023 that should be incorporated into this Bill. There are two reasons for this.
+The first is that these higher protections are both appropriate and important.
+Second, it is important to have the greatest possible consistency in privacy law,
+set at the highest standard, so that our national privacy laws are readily
+understood and effective.
+1.8 A series of submissions set out the preferred approach of deferring the Bill, not
+least of which is the extremely helpful submission from the Human Technology
+Institute at the UTS. This submission proceeded to set out a hierarchy of
+preferred amendments to the Bill in the event it proceeded as follows:
+HTI recommends that the privacy protections in the IVS Bill be strengthened
+to make them at least consistent with the Government’s exposure draft
+Digital ID Bill 2023. This could be achieved in any of the following ways, set
+out below in order of HTI’s preference:
+(a) amend the Privacy Act in a way that implements the relevant
+recommendations from the AGD Privacy Review 2022, prior to the
+passage of the IVS Bill
+(b) amend the IVS Bill to include additional privacy protections,
+substantially mirroring the relevant additional privacy protections in
+Chapter 3 of the exposure draft Digital ID Bill 2023
+(c) amend cl 44 of the IVS Bill to empower the Minister to make rules to
+strengthen the privacy protections in the IVS Bill, with a sunset clause
+1 Committee Hansard, 30 October 2023, p. 43.
+65
+applicable to the IVS Bill as a whole, if the Minister fails to enact such
+rules within a specified period (eg. six months).2
+1.9 This is an approach the Australian Greens endorse and will seek to implement
+through amendments in the Senate in the event the Bill proceeds before the
+comprehensive privacy response is introduced into the Parliament.
+1.10 The majority report, quite rightly, recommends expanded oversight powers be
+given to the Office of the Australian Information Commissioner (OAIC).
+However, these powers will not be effective in the absence of the resources that
+are needed to use them. The OAIC is already grossly underfunded and subject
+to gross delays in all of its existing regulatory functions. It is not a privacy
+solution to simply hand them additional powers without the funding needed to
+make them work.
+1.11 Finally, I thank all the stakeholders and individuals who made submissions to
+the inquiry that gave us the assistance we needed to understand the issues and
+seek a way forward, as well as the help from the professional team in the
+committee secretariat.
+Senator David Shoebridge
+Member
+2 Human Technology Institute, UTS, Submission 4, pp. 3–4.
+
+Appendix 1
+Submissions and additional information
+Submissions
+1 Department of Foreign Affairs and Trade
+2 Attorney-General's Department
+3 Digital Transformation Agency
+ 3.1 Supplementary to submission 3
+4 Human Technology Institute, UTS
+5 Australian Banking Association
+6 UNSW Allens Hub for Technology, Law and Innovation
+7 Australian Human Rights Commission
+8 Mrs Deborah Browne
+9 Digital Rights Watch
+10 Human Rights Law Centre
+11 Office of the Australian Information Commissioner
+12 Law Council of Australia
+13 NSW Council for Civil Liberties
+ Attachment 1
+14 Name Withheld
+15 IIS Partners
+16 AUSTRAC
+17 Equifax
+Answer to Question on Notice
+1 Human Technology Institute responses to spoken questions on notice, taken
+at a public hearing on 30 October 2023 (received 3 November 2023).
+2 UNSW Allens Hub for Technology, Law and Innovation, responses to spoken
+questions on notice taken at a public hearing on 30 October 2023 (received 6
+November 2023).
+3 Attorney General's Department responses to spoken questions on notice,
+taken at a public hearing on 30 October 2023 (received 6 November 2023).
+4 Office of the Australian Information Commissioner response to spoken
+questions on notice, taken at a public hearing on 30 October 2023 (received 6
+November 2023).
+5 Equifax response to spoken question on notice, taken at a public hearing on 30
+October 2023 (received 6 November 2023).
+6 Law Council of Australia response to spoken question on notice, taken at a
+public hearing on 30 October 2023 (received 7 November 2023).
+7 Digital Rights Watch response to spoken question on notice, taken at a public
+hearing on 30 October 2023 (received 7 November 2023).
+67
+68
+Appendix 2
+Public hearings
+Monday, 30 October 2023
+Royal on the Park
+152 Alice Street
+Brisbane
+Australian Banking Association (via teleconference)
+ Mr Chris Taylor, Chief of Policy
+ Mr Christopher Whittingham, Westpac Banking Corporation
+Equifax
+ Ms Melanie Cochrane, Managing Director AU/NZ
+ Ms Tehani Legeay, General Manager - Identity, Fraud and AML
+Human Technology Institute, UTS (via teleconference)
+ Professor Edward Santow, Director - Policy & Governance
+UNSW Allens Hub for Technology, Law and Innovation (via teleconference)
+ Professor Lyria Bennett Moses, Director
+ Ms Shohini Sengupta, PhD Student, UNSW
+Digital Rights Watch (via teleconference)
+ Ms Lizzie O'Shea, Chair
+Law Council of Australia (via teleconference)
+ Ms Olga Ganopolsky, Chair, Privacy Law Committee, Business Law Section
+ Mr Nathan MacDonald, Deputy Director of Policy
+Australian Federal Police (via teleconference)
+ Assistant Commissioner Hans Koenderink, Intelligence and Covert Services
+Department of Foreign Affairs and Trade
+ Ms Tori Lamb, Assistant Secretary, Passport Strategy and Modernisation
+Branch
+ Ms Lucelle Veneros, Executive Director, Australian Passport Office
+Australian Human Rights Commission (via teleconference)
+ Mrs Lorraine Finlay, Human Rights Commissioner
+69
+70
+Office of the Australian Information Commissioner (via teleconference)
+ Ms Angelene Falk, Australian Information Commissioner and Privacy
+Commissioner
+ Ms Sarah Ghali, Assistant Commissioner, Regulation and Strategy
+AUSTRAC (via teleconference)
+ Mr Daniel Mossop, National Manager, Reform Policy and Mutual
+Evaluation
+Attorney-General's Department
+ Ms Tara Inverarity, First Assistant Secretary, International and Security
+Cooperation Division
+ Ms Claire Major, Director, Identity Matching Service Operations and
+Delivery
+ Mr Kanish Oberoi, Director, National Identity Legislation Section
