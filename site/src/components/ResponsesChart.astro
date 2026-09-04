@@ -322,11 +322,22 @@ const hoverData = bars.map((b) => ({
    * restores the rendered size rather than enlarging anything.
    */
   @media (max-width: 46rem) {
-    .tick { font-size: 20px; }
-    .callout { font-size: 22px; }
-    .callout-sub { font-size: 17px; }
-    .ref-label { font-size: 19px; }
-    .ref-label.sub { font-size: 17px; }
+    .tick { font-size: 26px; }
+    .callout { font-size: 28px; }
+    .callout-sub { font-size: 22px; }
+    .ref-label { font-size: 24px; }
+    .ref-label.sub { font-size: 21px; }
+  }
+  /* A phone: the 900-unit drawing renders at about four tenths, so a label
+     needs about 30 units to come out at the size of the small type. */
+  @media (max-width: 30rem) {
+    .tick { font-size: 30px; }
+    .callout { font-size: 32px; }
+    /* The small capitals over the part-year bar collide with the year
+       before it at this size; the hatching and the caption carry it. */
+    .callout-sub { display: none; }
+    .ref-label { font-size: 26px; }
+    .ref-label.sub { font-size: 22px; }
   }
 
   .table-view { max-width: var(--measure); }

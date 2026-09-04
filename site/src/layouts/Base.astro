@@ -237,6 +237,9 @@ const moved = editionDiff();
       /* The label style that makes it read as a register rather than an essay. */
       .eyebrow {
         font-size: 0.6875rem;
+        /* Eleven pixels of capitals is a label on a laptop and a squint on a
+           phone, where the line also wraps three deep. */
+        @media (max-width: 30rem) { font-size: 0.75rem; }
         letter-spacing: 0.11em;
         text-transform: uppercase;
         color: var(--ink-muted);
@@ -256,7 +259,7 @@ const moved = editionDiff();
       header.site nav { display: flex; flex-wrap: wrap; gap: 1.4rem;
                         font-size: 0.875rem; min-width: 0; }
       @media (max-width: 30rem) {
-        header.site nav { gap: 0.9rem; font-size: 0.8125rem; }
+        header.site nav { gap: 0.9rem; font-size: 0.875rem; }
       }
       header.site nav a { color: var(--ink-secondary); text-decoration: none; padding-block: 0.15rem; }
       header.site nav a[aria-current="page"] {
