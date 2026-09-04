@@ -235,10 +235,13 @@ const chambers = [
     />
   </section>
 
-  <Strip />
-
-  <section class="wrap two-up">
+  {/*
+    Two columns that run the whole way down: the strip, the sentence it
+    counts, and the deadline on the left; what this site is on the right.
+  */}
+  <section class="wrap two-up middle">
     <div class="measure">
+      <Strip />
       <h2>The deadline is not a deadline</h2>
       <p>
         Of {fmt(comp.assessable)} responses to Senate committee reports tabled between
@@ -504,6 +507,7 @@ const chambers = [
     display: grid; gap: 2rem 3rem; margin-block: 1rem 3rem;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   }
+  .middle { margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--rule); }
 
   .longest h2 { margin-bottom: 0.5rem; }
   .longest .note { font-size: 0.875rem; color: var(--ink-secondary); margin-bottom: 1rem; }

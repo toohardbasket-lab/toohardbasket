@@ -26,7 +26,15 @@ const x = (i: number) => (i % COLS) * STEP;
 const share = Math.round((strip.closures / strip.total) * 5);
 ---
 
-<section class="wrap strip-section">
+{/*
+  One column: the heading, the strip, its legend, then the sentence and what
+  follows it, in reading order. It used to be two columns with the sentence
+  beside the strip, which left the column under the sentence empty and the
+  page's two-up sections stepping past each other. The home page places this
+  at the top of its left column, with "What this site is" running down the
+  right.
+*/}
+<div class="strip-section">
   <div class="strip-grid">
     <div>
       <h2 id="strip-title">
@@ -56,7 +64,7 @@ const share = Math.round((strip.closures / strip.total) * 5);
         <span><i class="sw other"></i>Every other response — {fmt(strip.others)}</span>
       </p>
     </div>
-    <div class="measure">
+    <div class="measure said">
       <p>
         <em class="sentence">“The Government notes this recommendation. However, given the passage of
         time since this report was tabled, a substantive Government response is no longer
@@ -72,17 +80,14 @@ const share = Math.round((strip.closures / strip.total) * 5);
       </p>
     </div>
   </div>
-</section>
+</div>
 
 <style>
   /* The government's sentence, quoted, set apart from what is said about it. */
   .measure em.sentence { font-style: italic; color: var(--ink); }
 
-  .strip-section { margin-block: 2.5rem 2rem; padding-top: 2rem; border-top: 1px solid var(--rule); }
-  .strip-grid {
-    display: grid; gap: 2rem 3rem; align-items: start;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  }
+  .strip-section { margin-bottom: 2.5rem; }
+  .strip-grid { display: grid; gap: 1.25rem; }
   .strip-grid h2 { margin-bottom: 0.35rem; }
   .strip-grid .note { font-size: 0.875rem; color: var(--ink-secondary); margin-bottom: 1rem; }
   .strip { display: block; width: 100%; max-width: 40rem; height: auto; }
@@ -98,5 +103,6 @@ const share = Math.round((strip.closures / strip.total) * 5);
   .sw.closure { background: var(--ink); }
   .sw.busiest { background: var(--series-1); }
   .sw.other { background: var(--rule); }
-  .strip-grid .measure p { margin-bottom: 0.9rem; }
+  .said p { margin-bottom: 0.9rem; }
+  .said p:last-child { margin-bottom: 0; }
 </style>
