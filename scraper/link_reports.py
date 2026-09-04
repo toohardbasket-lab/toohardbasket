@@ -158,6 +158,53 @@ def load_overrides(ledger: str, reports: list[dict]) -> dict[str, dict]:
     return out
 
 
+# The reports collected by hand because the Tabled Documents index does not
+# reach them — see harvest_manual_reports.py. Keyed the way the register names
+# a report: its tabling date and its title, normalised.
+COLLECTED = DATA / "reports_manual.csv"
+
+
+def _norm_title(s: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
+
+
+def load_collected() -> dict[tuple[str, str], str]:
+    """(tabled, normalised title) -> the page the report was collected from.
+
+    The committee's own page for the report where the manifest records one;
+    otherwise the PDF itself. A manifest row with neither yields nothing, and
+    the register row stays unlinked rather than pointing somewhere vague.
+    """
+    if not COLLECTED.exists():
+        return {}
+    out: dict[tuple[str, str], str] = {}
+    with COLLECTED.open(newline="", encoding="utf-8-sig") as f:
+        for r in csv.DictReader(f):
+            url = (r.get("report_page_url") or "").strip() or (r.get("pdf_direct_url") or "").strip()
+            if not url:
+                continue
+            out[(r["report_tabled"], _norm_title(r["title"]))] = url
+            # A joint report is one document presented to each chamber on its
+            # own day, and the manifest keeps one row for it under one of those
+            # days. The other register's row carries the other date, so the
+            # title alone is kept as a second key. Only 26 hand-collected
+            # reports exist and no two share a title, so this cannot cross
+            # two reports; it is not the rule for the 1,200-report index.
+            out.setdefault(("", _norm_title(r["title"])), url)
+            # And the numbered reports by their number, which the two
+            # presiding officers agree on even when they punctuate the rest
+            # of the title differently.
+            num = _report_number(r["title"])
+            if num:
+                out.setdefault(("#", num), url)
+    return out
+
+
+def _report_number(title: str) -> str:
+    m = re.match(r"\s*report\s+(\d{1,4})\b", title or "", re.I)
+    return m.group(1) if m else ""
+
+
 def link(path: pathlib.Path, reports: list[dict], verbose: bool) -> tuple[int, int, list]:
     if not path.exists():
         print(f"  {path.name}: not built yet, skipped")
@@ -168,7 +215,8 @@ def link(path: pathlib.Path, reports: list[dict], verbose: bool) -> tuple[int, i
         return 0, 0, []
 
     overrides = load_overrides(path.name, reports)
-    matched, unmatched, overridden = 0, [], 0
+    collected = load_collected()
+    matched, unmatched, overridden, by_hand = 0, [], 0, 0
     for row in rows:
         tabled = dt.date.fromisoformat(row["report_tabled"])
         hit, _ = best_match(row["title"], tabled, reports)
@@ -181,6 +229,18 @@ def link(path: pathlib.Path, reports: list[dict], verbose: bool) -> tuple[int, i
         row["report_url"] = hit["url"] if hit else ""
         if hit:
             matched += 1
+            continue
+        # Nothing in the Tabled Documents index — usually because the report
+        # predates it. The report may still have been collected by hand from
+        # its committee's own page, and that page is a link a reader can
+        # follow; the row keeps an empty OTD id so the two kinds of link stay
+        # distinguishable in the data.
+        page = (collected.get((row["report_tabled"], _norm_title(row["title"])))
+                or collected.get(("", _norm_title(row["title"])))
+                or (collected.get(("#", _report_number(row["title"]))) if _report_number(row["title"]) else None))
+        if page:
+            row["report_url"] = page
+            by_hand += 1
         else:
             unmatched.append((row["title"], tabled))
 
@@ -193,14 +253,15 @@ def link(path: pathlib.Path, reports: list[dict], verbose: bool) -> tuple[int, i
     tmp.replace(path)
 
     before = sum(1 for _, d in unmatched if d < COVERAGE_FROM)
-    print(f"  {path.name}: {matched} of {len(rows)} linked; "
-          f"{len(unmatched)} not ({before} tabled before OTD's index begins)"
+    print(f"  {path.name}: {matched} of {len(rows)} linked to the Tabled Documents index"
+          + (f", {by_hand} to the committee page the report was collected from" if by_hand else "")
+          + f"; {len(unmatched)} not ({before} tabled before OTD's index begins)"
           + (f"; {overridden} corrected by hand" if overridden else ""))
     if verbose and unmatched:
         for title, d in sorted(unmatched, key=lambda x: x[1]):
             era = "pre-2022" if d < COVERAGE_FROM else "in coverage — check"
             print(f"      {d}  [{era}]  {title[:66]}")
-    return matched, len(rows), unmatched
+    return matched + by_hand, len(rows), unmatched
 
 
 def main() -> int:
@@ -217,7 +278,8 @@ def main() -> int:
         total_rows += rows
     if total_rows:
         print(f"linked {total_hit} of {total_rows} register rows "
-              f"({total_hit * 100 // total_rows}%)")
+              f"({total_hit * 100 // total_rows}%) — to the Tabled Documents index, "
+              "or to the committee page a report was collected from")
     return 0
 
 

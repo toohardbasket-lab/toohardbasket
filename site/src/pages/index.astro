@@ -188,7 +188,8 @@ const chambers = [
         <p class="sentence">
           The longest has been waiting <strong>{humanDuration(oldest.daysOutstanding)}</strong>
           {" "}since the {oldest.body} committee tabled{" "}
-          <em>{oldest.title}</em> on {formatDate(oldest.owedSince)}. {oldestStatus}
+          <em>{oldest.url ? <a href={oldest.url} rel="external">{oldest.title}</a> : oldest.title}</em>
+          {" "}on {formatDate(oldest.owedSince)}. {oldestStatus}
         </p>
       </div>
 
@@ -319,7 +320,7 @@ const chambers = [
           before July 2019 off the schedule unless the committee that made it asked to keep
           it there.{" "}<a href="/house/#source">Why the House list is shorter →</a>
           {" "}The longest-waiting report on the House register —{" "}
-          <em>{firstHouse.title}</em>, at {fmt(firstHouse.daysOutstanding)} days — comes
+          <em>{firstHouse.url ? <a href={firstHouse.url} rel="external">{firstHouse.title}</a> : firstHouse.title}</em>, at {fmt(firstHouse.daysOutstanding)} days — comes
           {" "}{firstHouseRank}th here.
         </>
       )}
