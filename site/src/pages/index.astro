@@ -24,6 +24,12 @@ import { registerBySlug } from "../lib/registers";
 const f = homeFigures();
 const comp = complianceDetail();
 const houseMeta = scheduleMeta("house");
+const senateMeta = scheduleMeta("senate");
+/* How much of each register is joint committee reports, said in the register's
+   own numbers. It is most of the House register and nearly half of the
+   Senate's, and this page used to say "most of both" — a claim the Senate
+   page's own figures contradicted two clicks away. */
+const onBoth = senateMeta.onBothRegisters || houseMeta.onBothRegisters || 0;
 const senate = registerBySlug("senate")!;
 const house = registerBySlug("house")!;
 /**
@@ -284,21 +290,24 @@ const chambers = [
         year; the government’s own status report for each chamber; and the Senate’s live
         tracker of reports awaiting a response. What none of them is, and what this is, is a
         single list covering both chambers, kept current between those reports, with a report
-        taken off it the day the government answers — so that the number on the page is what
-        is outstanding today rather than what was outstanding when a document was last
-        printed. Where those records disagree with each other, this site says so and links
+        taken off it at the first weekly rebuild after the government answers — so that the
+        number on the page is what is outstanding this week rather than what was outstanding
+        when a document was last printed. Where those records disagree with each other, this site says so and links
         both.
       </p>
       <p>
-        Most of what is on both registers is joint committee reports, which are presented
-        to both houses and listed by both presiding officers, so the same report can appear
-        on each. The two counts are never added together, and they are not a ranking.
+        Joint committee reports are presented to both houses and listed by both presiding
+        officers, so the same report can appear on each register: {fmt(houseMeta.jointCommittee)} of
+        the {fmt(houseMeta.rows)} reports on the House register and {fmt(senateMeta.jointCommittee)} of
+        the {fmt(senateMeta.rows)} on the Senate register are joint committee reports, and
+        {" "}{fmt(onBoth)} reports are on both. The two counts are never added together, and they
+        are not a ranking.
       </p>
       <p>
         This is that record. Each register follows its presiding officer — the President of
         the Senate and the Speaker of the House each report on the status of government
-        responses, at roughly six-monthly intervals — and publishes what he records,
-        including the reports he marks as answered. Every page shows the date of the
+        responses, at roughly six-monthly intervals — and publishes what each of them records,
+        including the reports each marks as answered. Every page shows the date of the
         document behind it and says what that document does not cover. The whole dataset is{" "}
         <a href="https://github.com/toohardbasket-lab/toohardbasket">public</a>, and
         corrections are <a href="/corrections/">logged</a>.
@@ -314,8 +323,8 @@ const chambers = [
     <h2>Longest outstanding</h2>
     <p class="note measure">
       Across both registers. The counts are kept apart because the rules differ and
-      because most of what is on them is joint committee reports, listed by both presiding
-      officers — but a report waiting {oldestYears} years is waiting {oldestYears} years
+      because a joint committee report is listed by both presiding officers —
+      {" "}{fmt(onBoth)} reports are on both registers — but a report waiting {oldestYears} years is waiting {oldestYears} years
       whichever register it is on.
       {chambersShown.size === 1 && firstHouse && (
         <>
@@ -362,7 +371,7 @@ const chambers = [
         {" "}The <a href="/recommendations/">recommendations index</a> reads reports from the
         Parliament’s Tabled Documents register, which holds nothing before 2022. The reports
         older than that were fetched from their committees’ own pages instead;
-        {" "}{fmt(missing.predating)} {missing.predating === 1 ? "has" : "have"} not been
+        {" "}{missing.predating === 1 ? "one" : fmt(missing.predating)} {missing.predating === 1 ? "has" : "have"} not been
         found yet, so what {missing.predating === 1 ? "that committee" : "those committees"}
         {" "}recommended cannot be searched here.
       </p>

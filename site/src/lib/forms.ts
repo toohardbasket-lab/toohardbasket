@@ -32,7 +32,7 @@ export const FORMS: Form[] = [
       ? {
           example: "A Certain Maritime Incident",
           exampleNote:
-            "18 recommendations, the same sentence 18 times, 23 years after the report was tabled.",
+            "17 recommendations and a heading for the dissenting ones, the same sentence 18 times, 23 years after the report was tabled.",
           otd: "15895",
         }
       : {
@@ -48,7 +48,7 @@ export const FORMS: Form[] = [
     detected: false,
     what: "The recommendations are noted as a group because the thing they concerned has been withdrawn or replaced.",
     example: "Nature Positive (Environment Protection Australia) Bill 2024",
-    exampleNote: "40 recommendations noted together; the bills were withdrawn in February 2025.",
+    exampleNote: "40 recommendations — five of the committee’s and 35 from dissenting reports — noted together; the bills were withdrawn in February 2025.",
     otd: "16059",
   },
   {

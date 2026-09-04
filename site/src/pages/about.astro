@@ -79,8 +79,9 @@ const cap = (w: string) => w.charAt(0).toUpperCase() + w.slice(1);
         ? ` The committee is ${ABOUT.committeeNames.join(", ")}.`
         : " The membership is on the public register maintained by Consumer Protection (WA)."}
       {" "}{ABOUT.fundingStatement} If that changes, this page will say so and name the source.
-      {" "}<a href={ABOUT.governancePage}>APIA's governance page</a> carries the constitution,
-      the legal status and the same disclosures.
+      {" "}<a href={ABOUT.governancePage}>APIA's governance page</a> carries its legal status,
+      the rules it operates under and the same funding statement, and APIA's About page carries
+      the first half of the disclosure below.
     </p>
     {ABOUT.soloOperated && (
       <>
@@ -123,7 +124,8 @@ const cap = (w: string) => w.charAt(0).toUpperCase() + w.slice(1);
       presiding officers’ own records, covers both chambers, names no member and has no
       per-member columns. <strong>No one in her office has seen this site or been told of it
       before publication</strong>, and she has been given nothing that other members of the
-      relevant committees were not. Several were answered afterwards. The
+      relevant committees were not. Several of the reports on that list were answered
+      afterwards. The
       observation that followed was not about her: it was that a list of unanswered reports
       only existed because one member happened to compile it, that it covered one chamber,
       and that it stopped being maintained when the political moment passed. This site is an
@@ -198,7 +200,7 @@ const cap = (w: string) => w.charAt(0).toUpperCase() + w.slice(1);
     <h2>What comes next</h2>
     <p>
       The Senate was the first register and the House of Representatives is the second.
-      {" "}{words(plannedRegisters().length)} more {plannedRegisters().length === 1 ? "is" : "are"} planned —
+      {" "}{cap(words(plannedRegisters().length))} more {plannedRegisters().length === 1 ? "is" : "are"} planned —
       {" "}{plannedRegisters().map((r) => r.name).join("; ")} —
       and each is published as its own register with its own rule rather than merged into
       the others, because the obligation is different in each case and averaging them would

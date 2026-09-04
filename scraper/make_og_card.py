@@ -108,8 +108,11 @@ def duration(days: int) -> str:
 
 def main() -> int:
     senate, house = meta("ledger_meta.json"), meta("house_ledger_meta.json")
-    counts = [("Senate", len(rows("ledger_v2.csv"))),
-              ("House", len(rows("house_ledger.csv")))]
+    # House first, as on the site: the House register is the one the site
+    # leads with, and a card that reverses the order reads as a different site.
+    counts = [("House", len(rows("house_ledger.csv"))),
+              ("Senate", len(rows("ledger_v2.csv")))]
+    on_both = senate.get("on_both_registers") or house.get("on_both_registers") or 0
     if not any(n for _, n in counts):
         sys.exit("Both registers are empty — refusing to draw a card that says nothing.")
 
@@ -140,8 +143,8 @@ def main() -> int:
     d.text((MARGIN, y), "THE TOO HARD BASKET", font=sans(22), fill=MUTED)
     y += 58
 
-    # Two figures, side by side, never added. Most of what is on both registers
-    # is joint committee reports, listed by both presiding officers, so a total
+    # Two figures, side by side, never added. A joint committee report is
+    # listed by both presiding officers, so a total
     # would double-count them — and the site says on every page that the two
     # counts are never added. A card that adds them would be the first thing a
     # departmental officer noticed.
@@ -168,9 +171,10 @@ def main() -> int:
     y += 6
 
     if longest:
-        note = (f"The two registers are never added: most of what is on both is joint "
-                f"committee reports. The longest wait is {longest:,} days — "
-                f"{duration(longest)}.")
+        both = (f"{on_both} reports are on both" if on_both
+                else "a joint committee report is listed on both")
+        note = (f"The two registers are never added: {both}. "
+                f"The longest wait is {longest:,} days — {duration(longest)}.")
         for line in wrap(d, note, serif_r(26), inner):
             d.text((MARGIN, y), line, font=serif_r(26), fill=SECONDARY)
             y += 36

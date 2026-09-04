@@ -42,9 +42,9 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
   description="Since mid-2022 the government has closed hundreds of committee reports with a template sentence that states no position on any recommendation. This is the count, the pattern, and the documents."
 >
   <section class="wrap hero">
-    <p class="eyebrow">Government responses · Senate and joint committee reports · as at {asAt}</p>
+    <p class="eyebrow">Government responses · both chambers · as at {asAt}</p>
     <p class="figure">{fmt(c.proforma)}</p>
-    <h1 class="claim">committee reports closed without answering a single recommendation.</h1>
+    <h1 class="claim">government responses that closed a committee report without answering a single recommendation.</h1>
     <p class="lede measure">
       A report leaves the register when a response is tabled. It does not follow that the
       report was answered. Of the {fmt(c.corpus)} government responses tabled since mid-2022,
@@ -91,7 +91,8 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
       not print one as though it were. The authoritative number of recommendations a
       committee made is in the committee’s report, and for this corpus those reports cannot
       be reached: the Tabled Documents system’s own report-to-response links reach one of the{" "}
-      {fmt(floor.closures)} closures, and matching by title finds a confident report for six.
+      {fmt(floor.closures)} closures, and a title search of that system finds none of the
+      others, because the reports they closed were tabled before its index begins.
     </p>
     <p>
       What each response can prove about itself is another matter. Where a closure sets out
@@ -189,7 +190,10 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
     <p>
       So {fmt(c.proforma)} is a floor. The honest figure for “answered nothing” is higher, and
       reaching it means asking, for every recommendation a committee made, whether the response
-      stated a position on it. That work is under way and is not published yet.
+      stated a position on it. The first part of that work is published: wherever a response
+      quotes nothing from the report it answers, the {" "}<a href="/recommendations/">search
+      index</a> reads the report and shows each recommendation with the fact that the response
+      did not address it individually. The figure itself is not published yet.
       {" "}<a href="/methods#closures">How this is classified, and why the other three are not</a>.
     </p>
   </section>

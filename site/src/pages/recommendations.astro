@@ -15,11 +15,12 @@
 import Base from "../layouts/Base.astro";
 import {
   recommendations, recommendationsDropped, registerReportsWithoutSource,
-  scheduleMeta, fmt, formatDate,
+  quietResponseCounts, scheduleMeta, fmt, formatDate,
 } from "../lib/data";
 
 const rows = recommendations();
 const dropped = recommendationsDropped();
+const quiet = quietResponseCounts();
 const sources = new Set(rows.map((r) => `${r.source}:${r.sourceId}`)).size;
 const awaiting = rows.filter((r) => r.classification === "awaiting a response").length;
 /* Recommendations read from a report because the government's response to it
@@ -121,7 +122,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       whose response never quotes it: where the government answered a report as a whole,
       or closed it with the form letter without listing what it recommended, the report
       itself was read and each recommendation is shown with that fact ({fmt(unaddressed)}
-      results). Every other recommendation
+      {" "}results). Every other recommendation
       here is the committee’s text <em>as the government reproduced it</em> in its own
       response. That is the government’s transcription, not the committee’s original, and it
       is quoted rather than paraphrased so the difference can be checked against the document
@@ -141,7 +142,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       those as a committee recommendation would be a serious misstatement, and it is the
       mistake this page is most likely to make. Where the text or the section it sits in names
       another author, the result says so and you can filter on it — {fmt(named)} of the
-      {fmt(rows.length)} do.
+      {" "}{fmt(rows.length)} do.
     </p>
     <p>
       That filter is not a guarantee in the other direction. It finds what names itself: a
@@ -188,8 +189,11 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       parliamentary committee has made. It is every one this site can show from the documents
       it holds: government responses tabled since mid-2022, which is as far back as the Tabled
       Documents system goes, and the reports currently on the two registers. A response that
-      answers in narrative prose without numbered recommendations yields nothing, and there
-      are {fmt(255)} such documents.
+      answers in narrative prose without numbered recommendations yields nothing of its own;
+      {" "}{fmt(quiet.ofTheirOwn)} of the responses in the corpus are like that. For
+      {" "}{fmt(quiet.reportReadInstead)} of them the report was read instead, which leaves
+      {" "}{fmt(quiet.nothingAtAll)} that this index can show nothing from; a search names
+      them when they match.
     </p>
     <p>
       <strong>The oldest reports are here because someone went and got them.</strong> Both
@@ -203,7 +207,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       way rather than taken from the register.
       {missing.predating > 0 && (
         <>
-          {" "}{fmt(missing.predating)} {missing.predating === 1 ? "report has" : "reports have"}
+          {" "}{missing.predating === 1 ? "One report has" : fmt(missing.predating) + " reports have"}
           {" "}not been found yet, and {missing.predating === 1 ? "its" : "their"}
           {" "}recommendations are still missing from this index.
         </>
@@ -222,14 +226,14 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       rather than typed, there is no “Recommendation 4” in the text for anything to find, and
       the document yields nothing at all. The response to the 2002 <em>certain maritime
       incident</em> report — the children-overboard inquiry, answered in 2026 — is one such
-      document, and searching for it here returns nothing. It is on the
-      {" "}<a href="/senate/">Senate register</a> and in the dataset; only its recommendations
-      are missing from this index.
+      document, and searching for it here returns nothing. It is in the
+      {" "}<a href="/senate/responses/">Senate’s response record</a> and in the dataset; only
+      its recommendations are missing from this index.
     </p>
     <p class="note">
       Every recommendation here was located in the extracted text of its own document, under
       the number it claims, and any row whose words could not be found there was removed.
-      {dropped > 0 ? ` ${fmt(dropped)} did not pass that check; they are listed in recommendations_dropped.csv.` : ""}
+      {dropped > 0 ? ` ${dropped === 1 ? "One row" : fmt(dropped) + " rows"} did not pass that check and ${dropped === 1 ? "is" : "are"} listed in recommendations_dropped.csv.` : ""}
       {" "}That is a consistency check, not an independent one: it catches a row assembled
       from text that is not in the document, or filed under a number printed only on a
       contents page. It cannot tell whether the split between the committee’s words and the

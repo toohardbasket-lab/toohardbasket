@@ -87,7 +87,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       </li>
       <li>
         <strong>The Senate’s live tracker</strong> of government responses, carried only for
-        reports tabled after the President’s report — the window he has not yet covered.
+        reports tabled after the President’s report — the window she has not yet covered.
       </li>
       <li>
         <strong>The Tabled Documents database</strong> (OTD), through its public API, for
@@ -103,9 +103,9 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       database, not typed in by hand, and its status column decides every row: a date means
       the response has been received and the report leaves the register; a dash means nothing
       has been received; “Interim” means an interim response; and “Interim*” means — in the
-      definition his own report gives — that the government has said only that “the
+      definition her own report gives — that the government has said only that “the
       Government’s response is being considered”. Reports the President records as answered
-      are not published here as outstanding, and reports he lists are not filtered out by us.
+      are not published here as outstanding, and reports she lists are not filtered out by us.
     </p>
     <p>
       <strong>The House register works the same way</strong>, from the Speaker’s schedule
@@ -131,7 +131,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     </p>
     <p>
       The tracker cannot add to, subtract from or overrule any of that. It is carried for one
-      purpose: reports tabled after the President’s as-at date, which he has not yet reported
+      purpose: reports tabled after the President’s as-at date, which she has not yet reported
       on. Those rows are marked as the tracker’s in the register’s source column, and on many
       builds there are none. Where a response has been tabled since the President’s date, the
       report is removed and the response named. The build refuses to write a file if the
@@ -193,7 +193,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       </tbody>
     </table>
     <p class="note">
-      All but one of these would otherwise have been counted as substantive responses, so
+      Every one of these would otherwise have been counted as a substantive response, so
       the exclusions raise the reported failure rate rather than lowering it. The list is
       published in full, with reasons, in the dataset.
     </p>
@@ -262,8 +262,12 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       That question is <strong>coverage</strong>: for each recommendation a committee made,
       did the response state a position on it? It is countable, it is neutral about whether
       the position was right, and all four forms above score zero against it. Building it
-      requires parsing the reports for their recommendations as well as the responses. It is
-      the next substantial piece of work on this project, and it is not published yet.
+      requires parsing the reports for their recommendations as well as the responses. The
+      first part of that is done: wherever a response quotes nothing from the report it
+      answers, the {" "}<a href="/recommendations/">search index</a> reads the report and
+      shows each of its recommendations with the fact that the response did not address it
+      individually. The coverage figure itself — for each response, how many of the
+      recommendations it stated a position on — is not published yet.
     </p>
   </section>
 
@@ -317,7 +321,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     <p>
       <strong>The deadline is three calendar months, not ninety days.</strong> The Senate's
       1973 resolution says three months and the President's report says three months, and
-      his own “Response provided within 3 months” column marks a 92-day response as within
+      her own “Response provided within 3 months” column marks a 92-day response as within
       time. Ninety days is a shorter test than the Senate applies, and using it counted
       eleven responses late that the Senate counts on time. Every figure here is meant to
       be a floor, so the rule is read as the Senate reads it.
@@ -357,8 +361,9 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       is drawn from the Tabled Documents database and covers Senate committees far more
       completely than House committees. This does not affect the Senate register. It does
       mean that where a response answers a House report, this site can identify the response
-      but often not the report behind it. That is why some report titles on the House
-      register are not links: a wrong link is worse than none.
+      but often not the report behind it. The House register's own rows are linked — the
+      older ones to the committee's page for the report, found and checked by hand — but a
+      House report answered before this site existed is often one the index cannot show.
     </p>
     <p id="backlog">
       <strong>History before this site existed is reconstructed.</strong> The line on the
@@ -370,12 +375,12 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       <strong>And the reconstruction is not the same as the record.</strong> The President of
       the Senate has printed the number outstanding nine times since June 2022, and those
       counts are the dots on the chart. They do not match the line. Before the 2024
-      clear-out the reconstruction runs about sixty reports high; after it, twenty to thirty
-      low; by mid-2026 they are two apart. The two count slightly different sets — his report
+      clear-out the reconstruction runs about sixty reports high; after it, between
+      fourteen and thirty-one low; by mid-2026 they are two apart. The two count slightly different sets — her report
       excludes categories the response register contains, and includes joint committee
       reports it does not — so neither is a correction of the other, and the gap is the
       measure of what a reconstruction cannot see. This page used to say the line was "a
-      floor, not an exact count". On the evidence of his own nine readings it is not
+      floor, not an exact count". On the evidence of her own nine readings it is not
       reliably a floor, and the chart now shows both rather than asking anyone to take the
       reconstruction on trust.
     </p>
@@ -385,8 +390,10 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       report the government has since answered, and commits the result, which republishes
       the site. If any step fails, nothing is committed and the previous build stays up.
       Every page shows the date of the data behind it. Between those runs the figures do not
-      move, so a number quoted from this site on a Wednesday is the number it showed on the
-      Tuesday. A response tabled in between will not appear until the next run.
+      move — except the day counts, which are counted from each report's tabling date to
+      today in Canberra and so go up by one at midnight — so a number quoted from this site
+      on a Wednesday is the number it showed on the Tuesday, plus a day. A response tabled in
+      between will not appear until the next run.
     </p>
   </section>
 
@@ -404,7 +411,8 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       The full dataset and the code that builds it are in the
       {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket">public repository</a> —
       data under CC BY 4.0, code under the MIT licence. Every figure on this site is produced
-      by that code from those files. Nothing is typed in by hand.
+      by that code from those files. Where a link or a pairing was checked by hand, the file
+      that records it says so, with the reasoning beside it.
     </p>
   </section>
 </Base>

@@ -19,12 +19,18 @@ import { registerBySlug } from "../../lib/registers";
 const reg = registerBySlug("house")!;
 const rows = ledger("house");
 const sched = scheduleMeta("house");
+
+/* "Most", only when it is most. The share of a register that is joint
+   committee reports is 84 per cent on the House side and 46 on the Senate's,
+   and one word cannot cover both. */
+const jointShare = rows.length ? sched.jointCommittee / rows.length : 0;
+const jointWord = jointShare > 0.5 ? "Most" : jointShare >= 0.4 ? "Nearly half" : "A large part";
 const removedSince = answeredSince("house");
 
 /**
  * The Liaison Committee's June 2023 clearing (footnote 3 of the schedule) took
  * every House and joint report presented before 2 July 2019 off this list. The
- * President took nothing off his, so the joint reports from that period are
+ * President took nothing off hers, so the joint reports from that period are
  * still on the Senate register — which is the measure of what was cleared.
  */
 const CLEARED_BEFORE = "2019-07-02";
@@ -133,9 +139,10 @@ const byCommittee = [...rows.reduce((m, r) => {
       Every row below comes from
       {" "}<a href={sched.url} rel="external">the Speaker’s schedule as at {formatDate(sched.asAt)}</a>.
       Unlike the Senate register, this one has no second source, so nothing here is marked
-      otherwise. Report titles link to the report itself on the Parliament’s website where
-      the Tabled Documents index has it. That index begins in 2022, so reports tabled before
-      then are listed here without a link rather than with a guessed one.
+      otherwise. Report titles link to the report itself on the Parliament’s website: to its
+      entry in the Tabled Documents index, which begins in 2022, or for an older report to
+      the committee’s own page for it, found and checked by hand. A report found on neither
+      is listed without a link rather than with a guessed one.
     </p>
     <p class="note measure">
       <em>Being considered</em> is the government’s own sentence, from its status report,
@@ -186,7 +193,8 @@ const byCommittee = [...rows.reduce((m, r) => {
       status of government responses to committee reports. The most recent is
       {" "}<a href={sched.url}>the schedule as at {formatDate(sched.asAt)}</a>, presented on
       {" "}{formatDate(sched.tabled)}. It lists {fmt(sched.listed)} reports and records a
-      response received for {fmt(sched.answeredAtSchedule)} of them. The rest are here.
+      response received for {fmt(sched.answeredAtSchedule)} of them; the other
+      {" "}{fmt(sched.listed - sched.answeredAtSchedule)} were still waiting at that date.
     </p>
     {sched.officerSaysAnswered !== undefined
       && sched.officerSaysAnswered !== sched.answeredAtSchedule && (
@@ -224,9 +232,11 @@ const byCommittee = [...rows.reduce((m, r) => {
     {sched.responsesCheckedTo && (
       <p class="note measure">
         <strong>How current that is.</strong> A register is only as current as the responses
-        it has seen. This build checked every government response tabled up to
-        {" "}{formatDate(sched.responsesCheckedTo)}; a response tabled after that date will
-        not have removed its report yet, and will do so on the next rebuild.
+        it has seen. This build, made on {formatDate(sched.rebuilt)}, read every government
+        response the Tabled Documents register held when it ran; the latest was tabled on
+        {" "}{formatDate(sched.responsesCheckedTo)}, and nothing tabled after it had been
+        recorded there. A response tabled since will take its report off the register on the
+        next weekly rebuild, not before.
       </p>
     )}
     {sched.officersDisagree > 0 && (
@@ -245,7 +255,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       </p>
     )}
     <p class="note measure">
-      <strong>Most of what is here is not the House's own.</strong> A joint committee
+      <strong>{jointWord} of what is here is not the House's own.</strong> A joint committee
       reports to both houses, so its report is listed by both presiding officers:
       {" "}{fmt(sched.jointCommittee)} of the {fmt(rows.length)} reports below are joint
       committee reports and only {fmt(sched.ownChamber)} are House committee reports.
@@ -276,7 +286,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       status report</a>, presented on {formatDate(sched.beingConsideredTabled ?? "")} and
       covering the same date. That is where the words “the Government’s response is being
       considered” are actually written; the President of the Senate abbreviates the same
-      sentence to an asterisk in his report. It is read here for one purpose — to say what
+      sentence to an asterisk in her report. It is read here for one purpose — to say what
       the government has said about a report — and it can never add a report to this
       register or remove one from it. Which reports are outstanding is the Speaker’s to
       say. All {fmt(sched.governmentReportMatched ?? rows.length)} of the reports the
@@ -328,9 +338,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       No compliance history: unlike the Senate, the House has no published register of
       responses going back to 2000. The Speaker gives his own on-time verdict on the
       responses each schedule records, which is what the figure above reports, but it
-      covers one reporting period rather than a quarter of a century. And no submission
-      counts yet — the figures on how many people and organisations wrote to these
-      inquiries have to be collected inquiry by inquiry, and that has not been done.
+      covers one reporting period rather than a quarter of a century.
     </p>
     <p class="note measure">
       <strong>What the schedule itself leaves out</strong>, on its own second page:

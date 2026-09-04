@@ -4,7 +4,7 @@ import type { HistoryPoint, Snapshot } from "../lib/data";
 export interface Props {
   points: HistoryPoint[];
   peak: HistoryPoint;
-  /** What the President printed, on the nine dates he printed it. */
+  /** What the President printed, on the nine dates she printed it. */
   observed?: Snapshot[];
 }
 const { points, peak, observed = [] } = Astro.props;
@@ -87,10 +87,10 @@ const hoverData = points.map((p) => ({
       {marks.length > 1 && (
         <>
           {" "}The dots are different: they are the counts the President of the Senate
-          actually printed, in each of the {marks.length} reports he has tabled since
+          actually printed, in each of the {marks.length} reports she has tabled since
           {" "}{marks[0].asAt.slice(0, 4)}. The two do not agree — the reconstruction runs
           high before the 2024 clear-out and low after it, by up to {worstGap} reports —
-          because they count slightly different sets. Where his record exists it is the
+          because they count slightly different sets. Where her record exists it is the
           better number, and it is shown rather than smoothed away.
         </>
       )}

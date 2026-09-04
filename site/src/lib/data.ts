@@ -86,7 +86,7 @@ export interface Obligation {
   /**
    * The presiding officer records nothing but "the Government's response is
    * being considered". The President marks these "Interim*" and defines the
-   * asterisk on page 2 of his own report; the Speaker writes the sentence out.
+   * asterisk on page 2 of her own report; the Speaker writes the sentence out.
    */
   beingConsidered: boolean;
   /** Answered for some recommendations and not others. */
@@ -98,8 +98,9 @@ export interface Obligation {
    */
   overdue: boolean;
   /**
-   * A joint committee's report, presented to both houses. Most of what is on
-   * both registers is joint, which is why neither is only its own chamber's.
+   * A joint committee's report, presented to both houses. Most of the House
+   * register and nearly half of the Senate's is joint, which is why neither is
+   * only its own chamber's.
    */
   joint: boolean;
   /** The same report is listed on the other register too. Never add the counts. */
@@ -179,7 +180,7 @@ export interface ScheduleMeta {
   beingConsideredTabled?: string;
   /**
    * The date the government's status report is as at, which is NOT the date of
-   * the register. The President's report is as at 30 June and his "Interim*"
+   * the register. The President's report is as at 30 June and her "Interim*"
    * marks come from a government report as at 31 March; presenting both as one
    * date would be dating a March fact June.
    */
@@ -321,12 +322,12 @@ export function history(): HistoryPoint[] {
 }
 
 /**
- * What the President himself recorded as outstanding, edition by edition.
+ * What the President herself recorded as outstanding, edition by edition.
  *
  * The history chart reconstructs the backlog from tabling dates. These are the
- * counts he actually printed. They are not the same number, and the difference
+ * counts she actually printed. They are not the same number, and the difference
  * is not noise: the reconstruction runs about sixty reports high in 2022 and
- * 2023 and twenty to thirty low after the 2024 clear-out, because the two
+ * 2023 and fourteen to thirty-one low after the 2024 clear-out, because the two
  * count slightly different populations. Publishing both is the only honest way
  * to show a series that reaches back further than the record does.
  */
@@ -867,7 +868,7 @@ export function corrections(): Correction[] {
  *
  * The deadline is three calendar months from tabling, not ninety days. The
  * Senate's 1973 resolution says three months, the President's own report says
- * three months, and his "Response provided within 3 months" column marks a
+ * three months, and her "Response provided within 3 months" column marks a
  * 92-day response Yes. Testing 90 days instead counted eleven responses late
  * that the Senate counts on time — an error running against the government,
  * on a site whose whole claim is that every figure it gives is a floor.
@@ -1141,6 +1142,24 @@ export interface QuietResponse {
   chamber: "senate" | "house";
   classification: string;
   url: string;
+}
+
+/**
+ * How many responses in the corpus yield nothing of their own, and how many of
+ * those had their report read instead. The search page used to print a typed
+ * figure for the first — 255, on a page whose whole argument is that its
+ * numbers are counted — and it was wrong by the time it was read.
+ */
+export function quietResponseCounts(): { ofTheirOwn: number; reportReadInstead: number; nothingAtAll: number } {
+  const excluded = new Set(read("scope_exclusions.csv").map((r) => r.id));
+  const rows = read("recommendations.csv");
+  const own = new Set(rows.filter((r) => r.source === "response").map((r) => r.source_id));
+  const viaReport = new Set(rows.filter((r) => r.source === "report" && r.response_id).map((r) => r.response_id));
+  const corpus = read("response_documents.csv").filter((r) => !excluded.has(r.id));
+  const quiet = corpus.filter((r) => !own.has(r.id));
+  const readInstead = quiet.filter((r) => viaReport.has(r.id));
+  return { ofTheirOwn: quiet.length, reportReadInstead: readInstead.length,
+           nothingAtAll: quiet.length - readInstead.length };
 }
 
 export function responsesQuotingNothing(): QuietResponse[] {

@@ -14,6 +14,12 @@ const observed = history().filter((p) => p.basis === "observed").at(-1);
 const asAt = formatDate(observed?.asAt ?? new Date().toISOString().slice(0, 10));
 
 const sched = scheduleMeta();
+
+/* "Most", only when it is most. The share of a register that is joint
+   committee reports is 84 per cent on the House side and 46 on the Senate's,
+   and one word cannot cover both. */
+const jointShare = rows.length ? sched.jointCommittee / rows.length : 0;
+const jointWord = jointShare > 0.5 ? "Most" : jointShare >= 0.4 ? "Nearly half" : "A large part";
 const removedSince = answeredSince("senate");
 const overFive = rows.filter((r) => r.daysOutstanding > 1826);
 /* The scale the waiting bars are drawn against: the longest wait on this
@@ -74,7 +80,7 @@ const byCommittee = [...rows.reduce((m, r) => {
     </p>
     <h1>The Senate register</h1>
     <p class="lede measure">
-      Every Senate committee report the President of the Senate records as still
+      Every Senate and joint committee report the President of the Senate records as still
       waiting for a government response. The Senate has required {reg.rule} since
       {" "}{reg.ruleSince}. A report leaves this register when a response is tabled —
       whatever that response says.
@@ -88,15 +94,15 @@ const byCommittee = [...rows.reduce((m, r) => {
     <h2 id="outstanding">Outstanding reports</h2>
     <p class="note measure">
       Ordered by how long each has waited. The status column is the President’s own:
-      {" "}<em>being considered</em> is what he records as “Interim*”, and defines in his
+      {" "}<em>being considered</em> is what she records as “Interim*”, and defines in her
       report as the government saying only that “the Government’s response is being
       considered”.{" "}<a href="/methods">How this is built</a>.
     </p>
     {sched.beingConsideredAsAt && (
       <p class="note measure">
         <strong>That column has its own date.</strong> The President takes those marks from
-        the government’s own status report, which he says on his second page should be read
-        with his: it is as at {formatDate(sched.beingConsideredAsAt)} and was tabled on
+        the government’s own status report, which she says on her second page should be read
+        with hers: it is as at {formatDate(sched.beingConsideredAsAt)} and was tabled on
         {" "}{formatDate(sched.beingConsideredTabled ?? "")}, where this register is as at
         {" "}{formatDate(sched.asAt)}. A report tabled after
         {" "}{formatDate(sched.beingConsideredAsAt)} has not been through a status cycle
@@ -108,9 +114,10 @@ const byCommittee = [...rows.reduce((m, r) => {
       Every row below comes from
       {" "}<a href={sched.url} rel="external">the President’s report as at {formatDate(sched.asAt)}</a>,
       except any marked as the Senate tracker’s. Report titles link to the report itself on
-      the Parliament’s website where the Tabled Documents index has it. That index begins in
-      2022, so reports tabled before then are listed here without a link rather than with a
-      guessed one.
+      the Parliament’s website: to its entry in the Tabled Documents index, which begins in
+      2022, or for an older report to the committee’s own page for it, found and checked by
+      hand. A report found on neither is listed without a link rather than with a guessed
+      one.
     </p>
     <RegisterControls target="senate-register" noun="reports" />
     <table class="register stacks" id="senate-register" data-register="senate">
@@ -195,9 +202,11 @@ const byCommittee = [...rows.reduce((m, r) => {
     {sched.responsesCheckedTo && (
       <p class="note measure">
         <strong>How current that is.</strong> A register is only as current as the responses
-        it has seen. This build checked every government response tabled up to
-        {" "}{formatDate(sched.responsesCheckedTo)}; a response tabled after that date will
-        not have removed its report yet, and will do so on the next rebuild.
+        it has seen. This build, made on {formatDate(sched.rebuilt)}, read every government
+        response the Tabled Documents register held when it ran; the latest was tabled on
+        {" "}{formatDate(sched.responsesCheckedTo)}, and nothing tabled after it had been
+        recorded there. A response tabled since will take its report off the register on the
+        next weekly rebuild, not before.
       </p>
     )}
     {sched.officersDisagree > 0 && (
@@ -216,10 +225,10 @@ const byCommittee = [...rows.reduce((m, r) => {
       </p>
     )}
     <p class="note measure">
-      <strong>Most of what is here is not the Senate's own.</strong> A joint committee
+      <strong>{jointWord} of what is here is not the Senate's own.</strong> A joint committee
       reports to both houses, so its report is listed by both presiding officers:
       {" "}{fmt(sched.jointCommittee)} of the {fmt(rows.length)} reports below are joint
-      committee reports — the President titles his own document “Senate and joint
+      committee reports — the President titles her own document “Senate and joint
       committee reports” — and {fmt(sched.onBothRegisters)} of them are on
       {" "}<a href="/house/">the House register</a> as well. That is why the two counts
       are never added: it would count the same report twice. The two lists do not contain the same joint reports,
@@ -240,7 +249,7 @@ const byCommittee = [...rows.reduce((m, r) => {
     <p class="note measure">
       <strong>What it does not have:</strong> reports tabled after
       {" "}{formatDate(sched.coversTo)}, which neither source yet lists; anything the
-      President excludes from his report, which includes reports on bills whose
+      President excludes from her report, which includes reports on bills whose
       recommendations can only be dealt with in debate, estimates and annual-report
       scrutiny, and the Senate’s domestic committees; and the House of Representatives,
       which has its own presiding officer, its own schedule and its own six-month rule.
