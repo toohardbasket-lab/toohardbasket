@@ -50,12 +50,22 @@ _PARTY = (r"(?:ALP|Labor|Coalition|Liberal|Nationals?|Greens|Australian\s+Greens
           r"One\s+Nation|Opposition|Government)(?:\s+(?:Senators?|Members?|Party))?")
 _KIND = (r"Dissenting\s+(?:Report|Recommendations?)|Minority\s+Report|"
          r"Additional\s+(?:Comments|Remarks|Recommendations?)")
+# A senator is named in full — "Senator David Pocock", "Senator the Hon
+# Michaelia Cash" — and a party may carry its article: "Dissenting Report from
+# the Australian Greens". Allowing one word of name and no article left the
+# Pocock and Greens headings in the FOI Bill 2025 report unrecognised, so
+# their recommendations were filed under the last heading that was — the
+# Coalition's.
+# Spaces, not any whitespace: the heading is one line, and "\s" reached over
+# the line break to take "Introduction" as a surname.
+_SENATOR = (r"Senator[ \t]+(?:the[ \t]+Hon\.?[ \t]+)?[A-Z][A-Za-z'’-]+(?:[ \t]+[A-Z][A-Za-z'’-]+){0,3}"
+            r"(?:[ \t]+and[ \t]+Senator[ \t]+[A-Z][A-Za-z'’-]+(?:[ \t]+[A-Z][A-Za-z'’-]+){0,3})?")
 SECTION = re.compile(
     rf"^[ \t]*("
     rf"(?:{_PARTY}(?:'|’)?s?\s+)?(?:{_KIND})"        # party first, or bare
-    rf"|(?:{_KIND})\s*[-–—:]\s*(?:{_PARTY}|Senator\s+[A-Z][A-Za-z'’-]+)"
-    rf"|(?:{_KIND})\s+(?:by|from)\s+(?:{_PARTY}|Senator\s+[A-Z][A-Za-z'’-]+)"
-    rf")[ \t]*[-–—:]?[ \t]*(?:Senator\s+[A-Z][A-Za-z'’-]+)?[ \t]*\d*[ \t]*$",
+    rf"|(?:{_KIND})\s*[-–—:]\s*(?:(?:the\s+)?{_PARTY}|{_SENATOR})"
+    rf"|(?:{_KIND})\s+(?:by|from)\s+(?:(?:the\s+)?{_PARTY}|{_SENATOR})"
+    rf")[ \t]*[-–—:]?[ \t]*(?:{_SENATOR})?[ \t]*(?:and)?[ \t]*\d*[ \t]*$",
     re.I | re.M)
 
 # A recommendation that names its own author, wherever it sits. The section
@@ -67,7 +77,7 @@ SECTION = re.compile(
 NAMES_AUTHOR = re.compile(
     rf"\b({_PARTY}\s+(?:Senators?|Members?)?\s*recommends?"
     rf"|{_PARTY}\s+(?:Senators?|Members?)"
-    r"|Senator\s+[A-Z][a-z]+)\b", re.I)
+    r"|Senator\s+[A-Z][a-z]+(?:\s+[A-Z][A-Za-z'’-]+)?)\b", re.I)
 # Only where it OPENS the recommendation. A dissent says who is speaking before
 # it says what it wants — "Coalition Senators note…", "The Australian Greens
 # recommend…" — whereas a committee recommendation that happens to mention a
@@ -86,6 +96,20 @@ SAYS_RECOMMEND = re.compile(r"\brecommend|\bshould\b|\bmust\b|\bthat the\b", re.
 
 MIN_CHARS, MAX_CHARS = 40, 1500
 
+# A recommendation is one numbered paragraph. Where the report has no further
+# "Recommendation N" heading and none of the headings END knows, the text ran
+# on into whatever followed — in the FOI Bill 2025 report, from Senator
+# Pocock's second recommendation through his thanks, three footnotes and his
+# signature. So it stops where the next numbered paragraph begins, taking with
+# it any short unpunctuated heading line that introduces that paragraph
+# ("Thanks and post script").
+NEXT_PARA = re.compile(r"\n(?:(?:\d{1,2}\.[ \t]+)?[A-Z][^\n.!?]{0,60}\n(?:[A-Z][^\n.!?]{0,60}\n)?)?(?=\d{1,2}\.\d{1,3}\s)")
+# A footnote: a line beginning with a bare number and a capitalised word,
+# after the recommendation has had its say.
+FOOTNOTE = re.compile(r"\n\d{1,3}\s+(?=[A-Z])")
+# The marker a footnote leaves glued to the last word: "Integrity.26".
+FOOTNOTE_MARK = re.compile(r"(?<=[a-z][a-z.)\]’”])\d{1,3}(?=\s|$)")
+
 
 def tidy(raw: str) -> str:
     cut = END.search(raw)
@@ -94,6 +118,14 @@ def tidy(raw: str) -> str:
     sign = SIGNOFF.search(raw)
     if sign:
         raw = raw[:sign.start()]
+    raw = raw.lstrip()
+    nxt = NEXT_PARA.search(raw, 1)
+    if nxt:
+        raw = raw[:nxt.start()]
+    foot = FOOTNOTE.search(raw, MIN_CHARS)
+    if foot:
+        raw = raw[:foot.start()]
+    raw = FOOTNOTE_MARK.sub("", raw)
     raw = NOISE.sub("", raw[:MAX_CHARS * 2])
     raw = PARA_NO.sub("", raw.strip())
     raw = re.sub(r"[ \t]*\n[ \t]*", " ", raw)
@@ -125,7 +157,9 @@ def author_at(body: str, position: int) -> str:
 # leading article come off. Broadening the patterns to catch "the Greens
 # recommend" (they had required the word "Senators", and missed sixty rows)
 # is what made this necessary.
-_AUTHOR_TAIL = re.compile(r"\s+(?:recommends?|recommended|proposed?|made)\s*$", re.I)
+# "…from Senator David Pocock and" is a heading broken over two lines; the
+# first-named author is kept and the conjunction dropped.
+_AUTHOR_TAIL = re.compile(r"\s+(?:recommends?|recommended|proposed?|made|and)\s*$", re.I)
 _AUTHOR_HEAD = re.compile(r"^\s*the\s+", re.I)
 
 
