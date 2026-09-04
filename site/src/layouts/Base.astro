@@ -76,11 +76,13 @@ const moved = editionDiff();
         --surface:        #fcfcfb;
         --surface-sunken: #f4f4f1;
         --ink:            #0b0b0b;
-        --ink-secondary:  #52514e;
-        /* 5.0:1 and 5.4:1 on the surface. The previous pair were 4.43 and 4.30,
-           both a fraction under WCAG AA for small text, and the small-caps
-           labels are the smallest type on the site. */
-        --ink-muted:      #6f6d66;
+        --ink-secondary:  #4c4b48;
+        /* 6.2:1 on the surface for the muted, 8.5:1 for the secondary. The
+           first pair were 4.43 and 4.30, a fraction under WCAG AA for small
+           text; the second, 5.0 and 7.7, passed on paper and still read as
+           faint on a phone, where the small-caps labels are the smallest type
+           on the site. Muted is for a label or a legend, never a paragraph. */
+        --ink-muted:      #605f5a;
         --rule:           #dedcd5;
         --rule-strong:    #b9b6ad;
         --series-1:       #2168c2;
@@ -118,8 +120,8 @@ const moved = editionDiff();
           --surface:        #1a1a19;
           --surface-sunken: #232322;
           --ink:            #ffffff;
-          --ink-secondary:  #c3c2b7;
-          --ink-muted:      #98968c;
+          --ink-secondary:  #d3d2c8;
+          --ink-muted:      #aeaca1;
           --rule:           #34342f;
           --rule-strong:    #4c4c45;
           --series-1:       #3987e5;
@@ -132,8 +134,8 @@ const moved = editionDiff();
         --surface:        #1a1a19;
         --surface-sunken: #232322;
         --ink:            #ffffff;
-        --ink-secondary:  #c3c2b7;
-        --ink-muted:      #98968c;
+        --ink-secondary:  #d3d2c8;
+        --ink-muted:      #aeaca1;
         --rule:           #34342f;
         --rule-strong:    #4c4c45;
         --series-1:       #3987e5;
@@ -186,6 +188,10 @@ const moved = editionDiff();
 
       * { box-sizing: border-box; }
       html { -webkit-text-size-adjust: 100%; }
+      /* A phone is read closer and in worse light than a laptop. One step up
+         at the root and everything set in rem — the small type included —
+         comes up with it, in proportion. */
+      @media (max-width: 30rem) { html { font-size: 106.25%; } }
       body {
         margin: 0;
         background: var(--surface);
@@ -292,7 +298,7 @@ const moved = editionDiff();
       footer.site {
         border-top: 1px solid var(--rule);
         margin-top: 4rem; padding-block: 1.75rem 3rem;
-        font-size: 0.875rem; color: var(--ink-muted);
+        font-size: 0.875rem; color: var(--ink-secondary);
       }
       footer.site p { margin: 0 0 0.5rem; }
 
