@@ -161,8 +161,8 @@ const byCommittee = [...rows.reduce((m, r) => {
             data-search={`${r.title} ${r.body} ${statusOf(r)} ${formatDateShort(r.owedSince)} ${r.owedSince}`.toLowerCase()}
           >
             <td class="num nowrap c-wait">
-              {fmt(r.daysOutstanding)} days
-              <span class="human">{humanDuration(r.daysOutstanding)}</span>
+              <span data-live-days={r.owedSince}>{fmt(r.daysOutstanding)} days</span>
+              <span class="human" data-live-human={r.owedSince}>{humanDuration(r.daysOutstanding)}</span>
               <span class="bar" aria-hidden="true"
                     style={`width: ${Math.max(2, Math.round((r.daysOutstanding / longestWait) * 100))}%`}></span>
             </td>

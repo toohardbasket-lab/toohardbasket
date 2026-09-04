@@ -186,7 +186,7 @@ const chambers = [
           <span class="clock-rest"><span class="clock-time" aria-hidden="true"></span><span class="clock-note">and counting</span></span>
         </p>
         <p class="sentence">
-          The longest has been waiting <strong>{humanDuration(oldest.daysOutstanding)}</strong>
+          The longest has been waiting <strong data-live-human={oldest.owedSince}>{humanDuration(oldest.daysOutstanding)}</strong>
           {" "}since the {oldest.body} committee tabled{" "}
           <em>{oldest.url ? <a href={oldest.url} rel="external">{oldest.title}</a> : oldest.title}</em>
           {" "}on {formatDate(oldest.owedSince)}. {oldestStatus}
@@ -211,7 +211,7 @@ const chambers = [
         <ul class="next">
           {longest.slice(1, 4).map((r) => (
             <li>
-              <span class="next-days">{fmt(r.daysOutstanding)} days</span>
+              <span class="next-days" data-live-days={r.owedSince}>{fmt(r.daysOutstanding)} days</span>
               <span class="next-what">
                 <span class="reg-dot" data-register={r.register} aria-hidden="true"></span>{r.url ? <a href={r.url} rel="external">{r.title}</a> : r.title}
                 <span class="next-meta"> · {r.body} · {formatDateShort(r.owedSince)}</span>
@@ -320,7 +320,7 @@ const chambers = [
           before July 2019 off the schedule unless the committee that made it asked to keep
           it there.{" "}<a href="/house/#source">Why the House list is shorter →</a>
           {" "}The longest-waiting report on the House register —{" "}
-          <em>{firstHouse.url ? <a href={firstHouse.url} rel="external">{firstHouse.title}</a> : firstHouse.title}</em>, at {fmt(firstHouse.daysOutstanding)} days — comes
+          <em>{firstHouse.url ? <a href={firstHouse.url} rel="external">{firstHouse.title}</a> : firstHouse.title}</em>, at <span data-live-days={firstHouse.owedSince}>{fmt(firstHouse.daysOutstanding)} days</span> — comes
           {" "}{firstHouseRank}th here.
         </>
       )}
@@ -338,7 +338,7 @@ const chambers = [
       <tbody>
         {longest.map((r) => (
           <tr>
-            <td class="num nowrap c-wait">{fmt(r.daysOutstanding)} days</td>
+            <td class="num nowrap c-wait"><span data-live-days={r.owedSince}>{fmt(r.daysOutstanding)} days</span></td>
             <td class="c-title">{r.url ? <a href={r.url} rel="external">{r.title}</a> : r.title}</td>
             <td class="cmte c-meta">{r.body}</td>
             <td class="cmte c-meta" data-label="Register">

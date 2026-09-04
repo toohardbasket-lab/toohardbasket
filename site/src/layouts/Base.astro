@@ -491,5 +491,46 @@ const moved = editionDiff();
         </p>
       </div>
     </footer>
+    <script>
+      // Every day count on the page is arithmetic — the day a report was
+      // tabled, and today in Canberra — and the register is rebuilt weekly, so
+      // between builds the numbers printed into the page fall behind the clock
+      // on the home page, which counts live. A reader saw 4,301 beside 4,299
+      // for the same report and called it an anomaly, and it was. So every
+      // element that carries a tabling date is recounted from today when the
+      // page opens, with the register's own arithmetic; without a script the
+      // page shows the figures as at the date in its eyebrow, all agreeing.
+      // The dated editions under /as-at/ carry no such marks and never move.
+      (() => {
+        const els = document.querySelectorAll("[data-live-days], [data-live-human]");
+        if (!els.length) return;
+        const parts = new Intl.DateTimeFormat("en-AU", {
+          timeZone: "Australia/Canberra", year: "numeric", month: "numeric", day: "numeric",
+        }).formatToParts(new Date());
+        const p: Record<string, number> = {};
+        for (const part of parts) if (part.type !== "literal") p[part.type] = Number(part.value);
+        const today = Date.UTC(p.year, p.month - 1, p.day);
+        const days = (iso: string) => {
+          const [y, m, d] = iso.split("-").map(Number);
+          return Math.round((today - Date.UTC(y, m - 1, d)) / 86_400_000);
+        };
+        const human = (n: number) => {
+          const years = Math.floor(n / 365.25);
+          const months = Math.floor((n - years * 365.25) / 30.44);
+          if (years === 0) return `${months} month${months === 1 ? "" : "s"}`;
+          const y = `${years} year${years === 1 ? "" : "s"}`;
+          return months === 0 ? y : `${y}, ${months} month${months === 1 ? "" : "s"}`;
+        };
+        for (const el of els as NodeListOf<HTMLElement>) {
+          if (el.dataset.liveDays) {
+            const n = days(el.dataset.liveDays);
+            if (n >= 0) el.textContent = `${n.toLocaleString("en-AU")} days`;
+          } else if (el.dataset.liveHuman) {
+            const n = days(el.dataset.liveHuman);
+            if (n >= 0) el.textContent = human(n);
+          }
+        }
+      })();
+    </script>
   </body>
 </html>
