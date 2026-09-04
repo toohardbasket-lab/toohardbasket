@@ -12,6 +12,12 @@ permissions:
   contents: write
   issues: write
 
+# One run at a time. A manual dispatch while the Tuesday run is still going
+# would have two jobs rebuilding the same files and pushing over each other.
+concurrency:
+  group: update-dataset
+  cancel-in-progress: false
+
 defaults:
   run:
     working-directory: scraper   # scripts + data/ + raw/ all live under scraper/
@@ -83,10 +89,9 @@ jobs:
       - name: Read the reports on the registers
         run: python harvest_report_pdfs.py
       # Keeps the list of reports the Tabled Documents register cannot supply in
-      # step with the registers, and reads any PDFs that have been collected by
-      # hand since the last run. It downloads nothing — aph.gov.au refuses
-      # automated requests, which is why those reports are collected by a person
-      # in the first place.
+      # step with the registers, and reads any PDFs that have been collected
+      # since the last run (fetch_manual_reports.py collects them from the
+      # committees' own pages; this step only reads what is on disk).
       - name: Read the reports collected by hand
         run: python harvest_manual_reports.py
       - name: Author-attribution tests (gate)
@@ -129,6 +134,19 @@ jobs:
       # that quietly stopped moving is the failure this project cannot afford.
       - name: Is the dataset fit to publish (gate)
         run: python check_publishable.py
+      # The site is built from these files by Cloudflare Pages on push, and a
+      # data file that breaks the build would leave last week's site up with
+      # nothing to say so — Pages' own failure is visible only in its dashboard.
+      # Building here first makes a broken build a failed run, which opens an
+      # issue, rather than a silent week.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: The site builds from this dataset (gate)
+        working-directory: site
+        run: npm ci && npx astro build
       # A dated record of what this build said, published at /as-at/<date>/ so
       # a figure quoted from the site stays reachable at the page that showed
       # it. Written after the gate, so only a publishable build becomes an

@@ -170,12 +170,36 @@ def nothing_has_gone_backwards() -> None:
         ok(f"newest response on file: {newest or 'none'}")
 
 
+def every_report_link_is_the_committees_own() -> None:
+    """A register row linked to the Tabled Documents index must be linked to a
+    document of its own committee. Three rows once linked to Public Works
+    Committee reports tabled the same day as the report they named, and the
+    index then published Public Works recommendations under two select
+    committees' names. The matcher no longer does that; this makes sure nothing
+    else does either, before the rows are published."""
+    from link_reports import committees_agree
+    index = {r["id"]: r for r in rows("committee_reports.csv")}
+    wrong = []
+    for name in ("ledger_v2.csv", "house_ledger.csv"):
+        for r in rows(name):
+            doc = index.get(r.get("report_otd_id") or "")
+            if doc and not committees_agree(r.get("committee") or "", doc.get("committee") or ""):
+                wrong.append(f"{name}: {r['title'][:50]!r} ({r['committee']}) -> OTD {doc['id']} "
+                             f"by {doc['committee']}")
+    if wrong:
+        for w in wrong:
+            fail(f"report link names another committee's document — {w}")
+    else:
+        ok("every register row's report link is a document of its own committee")
+
+
 def main() -> int:
     responses = rows("response_documents.csv")
     if responses:
         every_response_has_been_read(responses)
         the_closure_columns_add_up(responses)
     the_registers_are_not_empty()
+    every_report_link_is_the_committees_own()
     the_removals_are_counted_and_listed_alike()
     the_recommendation_index_is_populated()
     nothing_has_gone_backwards()

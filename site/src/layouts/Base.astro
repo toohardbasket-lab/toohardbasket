@@ -26,9 +26,9 @@ const nav = [
   // Every other item in this bar names a thing the site holds. "Search" named
   // an action instead, and did not say what there was to search — a reader
   // scanning the bar had no way to know the recommendations were there at all.
-  { href: "/recommendations", label: "Recommendations" },
-  { href: "/methods", label: "Methods" },
-  { href: "/about", label: "About" },
+  { href: "/recommendations/", label: "Recommendations" },
+  { href: "/methods/", label: "Methods" },
+  { href: "/about/", label: "About" },
 ];
 const here = Astro.url.pathname.replace(/\/$/, "") || "/";
 const SITE = "https://toohardbasket.org.au";
@@ -266,6 +266,9 @@ const moved = editionDiff();
                         font-size: 0.875rem; min-width: 0; }
       @media (max-width: 30rem) {
         header.site nav { gap: 0.9rem; font-size: 0.875rem; }
+        /* On a phone the masthead wraps and leaves its middle dot hanging at
+           the end of the first line; the domain is in the address bar anyway. */
+        header.site .mark span { display: none; }
       }
       header.site nav a { color: var(--ink-secondary); text-decoration: none; padding-block: 0.15rem; }
       header.site nav a[aria-current="page"] {
@@ -406,6 +409,10 @@ const moved = editionDiff();
         }
         table.register.stacks td.c-wait .human { display: inline; }
         table.register.stacks td.c-wait .human::before { content: " · "; }
+        /* The bar grows leftwards from the figures in the table; in a card it
+           was floating at the right edge under nothing. Under the figure, from
+           the left, it reads as what it is. */
+        table.register.stacks td.c-wait .bar { margin-left: 0; margin-top: 0.4rem; }
         table.register.stacks td.c-meta {
           order: 3; font-size: 0.875rem; color: var(--ink-secondary);
           margin-top: 0.15rem;
