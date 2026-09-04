@@ -472,7 +472,12 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       // to show, and on the suggested searches not one of them appeared in the
       // first sixty results. Newest first inside that.
       const inRec = (r) => res.every((re) => re.test(r.t));
-      const stage = (r) => (r.k === "awaiting a response" ? 0 : r.k === "proforma_closure" ? 1 : 2);
+      // Four states, in the order the page cares about them: still waiting;
+      // closed with the form letter; answered by a response that never took
+      // this recommendation up (the report was read instead — a row from a
+      // report whose response is on file); answered, with words about it.
+      const passedOver = (r) => r.s === "report" && r.k !== "awaiting a response" && r.k !== "proforma_closure";
+      const stage = (r) => (r.k === "awaiting a response" ? 0 : r.k === "proforma_closure" ? 1 : passedOver(r) ? 2 : 3);
       for (const r of hits) { r.__r = inRec(r) ? 0 : 1; r.__s = stage(r); }
       hits.sort((a, b) =>
         a.__r - b.__r || a.__s - b.__s || String(b.w || "").localeCompare(String(a.w || "")));
@@ -530,10 +535,15 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
         const own = hits.filter((r) => r.__r === 0).length;
         const wait = hits.filter((r) => r.__s === 0).length;
         const shut = hits.filter((r) => r.__s === 1).length;
+        const over = hits.filter((r) => r.__s === 2).length;
         const parts = [];
         if (wait) parts.push(`${wait.toLocaleString("en-AU")} awaiting a response`);
         if (shut) parts.push(`${shut.toLocaleString("en-AU")} closed with the form letter`);
-        const rest = n - wait - shut;
+        // Not "answered": a response that notes the report as a whole has
+        // said nothing about this recommendation, and on a site that argues
+        // about counts the one-line tally must not fold that in.
+        if (over) parts.push(`${over.toLocaleString("en-AU")} passed over by a response that does not address them individually`);
+        const rest = n - wait - shut - over;
         if (rest) parts.push(`${rest.toLocaleString("en-AU")} answered`);
         status.textContent =
           `${n.toLocaleString("en-AU")} result${n === 1 ? "" : "s"} for “${q}” — ` +
