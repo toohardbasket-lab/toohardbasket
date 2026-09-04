@@ -389,7 +389,15 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
         status.textContent = `${rows.length.toLocaleString("en-AU")} recommendations ready to search.`;
         return;
       }
-      const terms = q.split(/\s+/).filter(Boolean);
+      // The words that carry no meaning on their own are not searched for
+      // and not marked: "freedom of information" was finding every "of" on
+      // the page and painting it. If the whole query is such words, they are
+      // searched for as typed.
+      const STOP = new Set(["a", "an", "and", "as", "at", "by", "for", "from", "in", "into",
+        "is", "of", "on", "or", "the", "to", "with"]);
+      const typed = q.split(/\s+/).filter(Boolean);
+      const meaningful = typed.filter((t) => !STOP.has(t.toLowerCase()));
+      const terms = meaningful.length ? meaningful : typed;
       // Match at word starts, not anywhere in a string. Raw substring made
       // "aged" find "managed", "damaged" and "engaged", and every one of those
       // counted towards the number a journalist would write down.
