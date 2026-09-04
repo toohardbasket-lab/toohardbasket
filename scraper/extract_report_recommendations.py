@@ -102,8 +102,11 @@ MIN_CHARS, MAX_CHARS = 40, 1500
 # Pocock's second recommendation through his thanks, three footnotes and his
 # signature. So it stops where the next numbered paragraph begins, taking with
 # it any short unpunctuated heading line that introduces that paragraph
-# ("Thanks and post script").
-NEXT_PARA = re.compile(r"\n(?:(?:\d{1,2}\.[ \t]+)?[A-Z][^\n.!?]{0,60}\n(?:[A-Z][^\n.!?]{0,60}\n)?)?(?=\d{1,2}\.\d{1,3}\s)")
+# ("Thanks and post script"). A paragraph number opens a sentence, so the
+# digits are followed by a capital, a quote or a bracket; "implement
+# Recommendations\n17.1 and 17.2 of the Robodebt Royal Commission" is one
+# recommendation citing two others, and it was being cut at the line break.
+NEXT_PARA = re.compile(r"\n(?:(?:\d{1,2}\.[ \t]+)?[A-Z][^\n.!?]{0,60}\n(?:[A-Z][^\n.!?]{0,60}\n)?)?(?=\d{1,2}\.\d{1,3}\s+[A-Z“\"‘'(\[])")
 # A footnote: a line beginning with a bare number and a capitalised word,
 # after the recommendation has had its say.
 FOOTNOTE = re.compile(r"\n\d{1,3}\s+(?=[A-Z])")

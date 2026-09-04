@@ -28,7 +28,7 @@
     "tabled": "2017-02-16",
     "days": 3485,
     "status": "Being considered",
-    "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Public_Accounts_and_Audit/PublicSectorGovernance/Report",
+    "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Public_Accounts_and_Audit/PSG/Report460",
     "both": false
    },
    {
@@ -478,7 +478,7 @@
     "tabled": "2024-11-26",
     "days": 645,
     "status": "Being considered",
-    "url": "https://www.aph.gov.au/Parliamentary_Business/Tabled_Documents/8455",
+    "url": "https://www.aph.gov.au/Parliamentary_Business/Tabled_Documents/8437",
     "both": false
    },
    {
@@ -658,7 +658,7 @@
     "tabled": "2026-05-07",
     "days": 118,
     "status": "Nothing received",
-    "url": "https://www.aph.gov.au/Parliamentary_Business/Tabled_Documents/16226",
+    "url": "https://www.aph.gov.au/Parliamentary_Business/Tabled_Documents/16204",
     "both": false
    },
    {
@@ -721,7 +721,7 @@
     "tabled": "2026-06-23",
     "days": 71,
     "status": "Nothing received",
-    "url": "https://www.aph.gov.au/Parliamentary_Business/Tabled_Documents/16546",
+    "url": "https://www.aph.gov.au/Parliamentary_Business/Tabled_Documents/16992",
     "both": false
    },
    {
@@ -1115,7 +1115,7 @@
   "read_to": "2026-08-27"
  },
  "recommendations": {
-  "rows": 5146,
-  "awaiting_a_response": 1091
+  "rows": 5164,
+  "awaiting_a_response": 1109
  }
 }

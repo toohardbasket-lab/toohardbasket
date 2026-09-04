@@ -54,6 +54,16 @@ TITLE_NOISE = {
     "matters", "review",
 }
 YEAR = re.compile(r"^(19|20)\d{2}$")
+# The words every committee name carries. What is left after them is the name:
+# "Impact of Climate Risk on Insurance—Senate Select" and "Select Committee on
+# the Impact of Climate Risk on Insurance Premiums and Availability" agree on
+# impact, climate, risk and insurance; "Public works—Joint Standing" and the
+# Community Affairs Legislation Committee agree on nothing.
+COMMITTEE_NOISE = {
+    "committee", "committees", "joint", "standing", "select", "statutory",
+    "senate", "house", "representatives", "parliamentary", "references",
+    "legislation", "affairs", "inquiry", "into", "the", "and",
+}
 # Public Accounts and Audit, Public Works and Treaties number their reports, and
 # the number is the single most reliable thing about the title: "Report 488" and
 # "Report 506" are both "Commonwealth financial statements" once the years are
@@ -69,6 +79,28 @@ def distinctive(text: str) -> set[str]:
     return {t for t in tokens(text) - TITLE_NOISE if not YEAR.match(t)}
 
 
+def committee_tokens(text: str) -> set[str]:
+    return tokens(text) - COMMITTEE_NOISE
+
+
+def committees_agree(row_committee: str, candidate_committee: str) -> bool:
+    """Whether the register's committee and the document's author can be the
+    same body. Either side blank is not a disagreement — the schedules and the
+    index do not both name the committee on every row — but two names that
+    share no word are, whatever the titles say."""
+    a, b = committee_tokens(row_committee), committee_tokens(candidate_committee)
+    return not a or not b or bool(a & b)
+
+
+def same_committee(row_committee: str, candidate_committee: str) -> bool:
+    """The stronger test, for a row whose title says nothing: the document's
+    author carries the register's name for the committee nearly whole. One
+    shared word is not enough — the NDIS committee and the Select Committee on
+    the Impact of Climate Risk on Insurance share "insurance"."""
+    a, b = committee_tokens(row_committee), committee_tokens(candidate_committee)
+    return bool(a) and bool(b) and len(a & b) / len(a) >= 0.75
+
+
 def load_reports() -> list[dict]:
     if not REPORTS.exists():
         sys.exit(f"{REPORTS} missing — run the OTD harvest first.")
@@ -82,6 +114,7 @@ def load_reports() -> list[dict]:
                 "id": r["id"],
                 "url": r["url"],
                 "title": r["title"],
+                "committee": r.get("committee") or "",
                 "date": dt.date.fromisoformat(tabled[:10]),
                 "key": distinctive(r["title"]),
                 "all": tokens(r["title"]),
@@ -94,7 +127,8 @@ def report_number(title: str) -> str | None:
     return m.group(1) if m else None
 
 
-def best_match(title: str, tabled: dt.date, reports: list[dict]) -> tuple[dict | None, float]:
+def best_match(title: str, tabled: dt.date, reports: list[dict],
+               committee: str = "") -> tuple[dict | None, float]:
     """The report this row refers to, or nothing.
 
     Two records of the same report rarely agree exactly. The chambers table it
@@ -106,10 +140,18 @@ def best_match(title: str, tabled: dt.date, reports: list[dict]) -> tuple[dict |
     A numbered report is the easy case and is treated as one: where both records
     carry a report number, that number decides it, and a mismatch rules the
     candidate out however similar the words are.
+
+    A title that is only scaffolding — a select committee's "Report", a bill
+    committee's "Interim report" — carries nothing to compare, and comparing it
+    anyway is how three register rows came to link to Public Works Committee
+    reports tabled the same day: one shared word, "report", against a one-word
+    title, is a perfect score. Such a row is linked only to a document of the
+    same committee tabled the same day, and only if there is exactly one.
     """
     key, whole = distinctive(title), tokens(title)
     number = report_number(title)
     best, best_score = None, 0.0
+    same_day: list[dict] = []
     for r in reports:
         gap = abs((r["date"] - tabled).days)
         r_number = report_number(r["title"])
@@ -127,15 +169,28 @@ def best_match(title: str, tabled: dt.date, reports: list[dict]) -> tuple[dict |
         else:
             if gap > 30:
                 continue
+            # The committee is the one thing the schedule and the index both
+            # name. A title match against a document of another committee is
+            # a coincidence of wording, not the report.
+            if not committees_agree(committee, r["committee"]):
+                continue
+            if not key:
+                if gap == 0 and same_committee(committee, r["committee"]):
+                    same_day.append(r)
+                continue
             shared = key & r["key"]
             d_ratio = len(shared) / min(len(key), len(r["key"])) if key and r["key"] else 0.0
-            f_ratio = (len(whole & r["all"]) / min(len(whole), len(r["all"]))
+            f_shared = whole & r["all"]
+            f_ratio = (len(f_shared) / min(len(whole), len(r["all"]))
                        if whole and r["all"] else 0.0)
-            if not ((len(shared) >= 2 and d_ratio >= 0.6) or f_ratio >= 0.8):
+            if not ((len(shared) >= 2 and d_ratio >= 0.6)
+                    or (f_ratio >= 0.8 and len(f_shared) >= 2)):
                 continue
             score = max(d_ratio, f_ratio) - gap / 1000
         if score > best_score:
             best, best_score = r, score
+    if best is None and len(same_day) == 1:
+        return same_day[0], 0.5
     return best, best_score
 
 
@@ -150,7 +205,11 @@ def load_overrides(ledger: str, reports: list[dict]) -> dict[str, dict]:
                 continue
             hit = by_id.get(r["report_otd_id"])
             if hit:
-                out[r["title"].strip()] = hit
+                # Two select committees can both title their report "Report",
+                # so an override may carry the tabling date as well; a row
+                # matches on the pair when the date is given, on the title
+                # alone when it is not.
+                out[(r["title"].strip(), (r.get("report_tabled") or "").strip())] = hit
             else:
                 print(f"      override for {r['title'][:40]!r} names OTD "
                       f"{r['report_otd_id']}, which is not in the report index",
@@ -219,8 +278,9 @@ def link(path: pathlib.Path, reports: list[dict], verbose: bool) -> tuple[int, i
     matched, unmatched, overridden, by_hand = 0, [], 0, 0
     for row in rows:
         tabled = dt.date.fromisoformat(row["report_tabled"])
-        hit, _ = best_match(row["title"], tabled, reports)
-        forced = overrides.get(row["title"].strip())
+        hit, _ = best_match(row["title"], tabled, reports, row.get("committee") or "")
+        forced = (overrides.get((row["title"].strip(), row["report_tabled"]))
+                  or overrides.get((row["title"].strip(), "")))
         if forced is not None:
             if forced is not hit:
                 overridden += 1
