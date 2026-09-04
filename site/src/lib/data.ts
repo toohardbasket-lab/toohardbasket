@@ -1078,6 +1078,17 @@ export interface Recommendation {
   tabled: string;
   chamber: string;
   url: string;
+  /**
+   * The response that answered (or closed) the report this row is from, and
+   * the report itself, where each is known. A response-derived row always
+   * has its response; it has its report where the Parliament links the two
+   * or the title search found it. A report-derived row always has its
+   * report; it has a response only when the report was answered by one that
+   * quotes no recommendation, which is why the report was read.
+   */
+  responseUrl: string;
+  responseTabled: string;
+  reportUrl: string;
 }
 
 export function recommendations(): Recommendation[] {
@@ -1096,6 +1107,9 @@ export function recommendations(): Recommendation[] {
     tabled: r.tabled ?? "",
     chamber: r.chamber ?? "",
     url: r.url ?? "",
+    responseUrl: r.response_url ?? "",
+    responseTabled: r.response_tabled ?? "",
+    reportUrl: r.report_url ?? "",
   }));
 }
 
@@ -1131,7 +1145,14 @@ export interface QuietResponse {
 
 export function responsesQuotingNothing(): QuietResponse[] {
   const excluded = new Set(read("scope_exclusions.csv").map((r) => r.id));
-  const quoted = new Set(read("recommendations.csv").filter((r) => r.source === "response").map((r) => r.source_id));
+  // A response is accounted for if the index holds rows from it, or rows
+  // from the report it answered — the second is what happens when the
+  // response quotes nothing and the report was read instead.
+  const rows = read("recommendations.csv");
+  const quoted = new Set([
+    ...rows.filter((r) => r.source === "response").map((r) => r.source_id),
+    ...rows.filter((r) => r.source === "report" && r.response_id).map((r) => r.response_id),
+  ]);
   const committeeOf = (title: string) => {
     const m = /response(?:s)?\s+to\s+(?:the\s+)?(.*?)\s*(?:\breport\b|\binquiry\b|:|$)/i.exec(title || "");
     const name = m ? m[1].replace(/\s+/g, " ").replace(/^[\s,:–—-]+|[\s,:–—-]+$/g, "") : "";

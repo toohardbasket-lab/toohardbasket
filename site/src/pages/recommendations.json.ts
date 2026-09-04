@@ -27,6 +27,9 @@ export const GET: APIRoute = () => {
     h: r.chamber,
     u: r.url,
     s: r.source,
+    r: r.responseUrl,
+    x: r.responseTabled,
+    p: r.reportUrl,
   }));
   return new Response(JSON.stringify(rows), {
     headers: { "content-type": "application/json; charset=utf-8" },

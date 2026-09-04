@@ -21,7 +21,11 @@ import {
 const rows = recommendations();
 const dropped = recommendationsDropped();
 const sources = new Set(rows.map((r) => `${r.source}:${r.sourceId}`)).size;
-const awaiting = rows.filter((r) => r.source === "report").length;
+const awaiting = rows.filter((r) => r.classification === "awaiting a response").length;
+/* Recommendations read from a report because the government's response to it
+   quotes none of them — noted as a group, or closed with the form letter
+   without being listed. */
+const unaddressed = rows.filter((r) => r.source === "report" && r.classification !== "awaiting a response").length;
 const withWords = rows.filter((r) => r.governmentWords).length;
 const covers = rows.map((r) => r.tabled).filter(Boolean).sort();
 const named = rows.filter((r) => r.recommendedBy).length;
@@ -113,7 +117,11 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     <p>
       <strong>Where the words come from.</strong> A recommendation shown against a report on
       one of the registers is the committee’s own text, taken from the report it tabled —
-      nobody has answered it, so no government document quotes it. Every other recommendation
+      nobody has answered it, so no government document quotes it. So is a recommendation
+      whose response never quotes it: where the government answered a report as a whole,
+      or closed it with the form letter without listing what it recommended, the report
+      itself was read and each recommendation is shown with that fact ({fmt(unaddressed)}
+      results). Every other recommendation
       here is the committee’s text <em>as the government reproduced it</em> in its own
       response. That is the government’s transcription, not the committee’s original, and it
       is quoted rather than paraphrased so the difference can be checked against the document
@@ -389,9 +397,19 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
         const words = r.g.length > 420 ? r.g.slice(0, 420).replace(/\s+\S*$/, "") + "…" : r.g;
         const said = r.g
           ? `<p class="gov">The government said: “${esc(words)}”</p>`
-          : (r.s === "report"
+          : (r.k === "awaiting a response"
              ? `<p class="gov none">No government response has been tabled. This report is on the register.</p>`
-             : `<p class="gov none">This site could not separate the government's words for this recommendation — read the response.</p>`);
+             : (r.s === "report"
+                ? (r.k === "proforma_closure"
+                   ? `<p class="gov none">The government closed this report with the form letter on ${esc(when(r.x))}, without listing this recommendation. Its response does not address it individually.</p>`
+                   : `<p class="gov none">The government’s response of ${esc(when(r.x))} does not address this recommendation individually — it answers the report as a whole.</p>`)
+                : `<p class="gov none">This site could not separate the government's words for this recommendation — read the response.</p>`));
+        // Every result links to the document its words came from, and to the
+        // other document where that is known: the report a response answers,
+        // the response a report received.
+        const links = r.s === "report"
+          ? `<a href="${esc(r.u)}">the report</a>` + (r.r ? ` · <a href="${esc(r.r)}">the response</a>` : "")
+          : `<a href="${esc(r.u)}">the response</a>` + (r.p ? ` · <a href="${esc(r.p)}">the report</a>` : "");
         const by = r.b
           ? `<span class="byline">${esc(r.b)}</span>`
           : (r.o ? `<span class="byline muted" title="This document also contains dissenting, minority or additional recommendations. This row's own author could not be established from its wording or its heading.">document also carries dissents</span>` : "");
@@ -400,8 +418,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
           <p class="rec">${mark(r.t, terms)}</p>
           ${said}
           <p class="meta">${who}Recommendation ${esc(r.l)}${by} ·
-            ${esc(when(r.w))} · ${r.h === "house" ? "House" : "Senate"} ·
-            <a href="${esc(r.u)}">${r.s === "report" ? "the report" : "the response"}</a></p>
+            ${esc(when(r.w))} · ${r.h === "house" ? "House" : "Senate"} · ${links}</p>
         </li>`;
       }).join("");
       if (hits.length > LIMIT) {
@@ -438,7 +455,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       const onlyClosed = document.querySelector('[data-filter="closed"]').checked;
       const whose = (document.querySelector('input[name="whose"]:checked') || {}).value || "any";
       const hits = rows.filter((r) => {
-        if (onlyUnanswered && r.s !== "report") return false;
+        if (onlyUnanswered && r.k !== "awaiting a response") return false;
         if (onlyClosed && r.k !== "proforma_closure") return false;
         // r.b holds the named author when the recommendation is a dissenting,
         // minority or party one, and is empty when nothing names another author.
@@ -455,7 +472,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       // to show, and on the suggested searches not one of them appeared in the
       // first sixty results. Newest first inside that.
       const inRec = (r) => res.every((re) => re.test(r.t));
-      const stage = (r) => (r.s === "report" ? 0 : r.k === "proforma_closure" ? 1 : 2);
+      const stage = (r) => (r.k === "awaiting a response" ? 0 : r.k === "proforma_closure" ? 1 : 2);
       for (const r of hits) { r.__r = inRec(r) ? 0 : 1; r.__s = stage(r); }
       hits.sort((a, b) =>
         a.__r - b.__r || a.__s - b.__s || String(b.w || "").localeCompare(String(a.w || "")));
