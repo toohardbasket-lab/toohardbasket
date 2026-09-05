@@ -16,7 +16,7 @@ Usage:
     python statsnet_scraper.py 2012 2026
 """
 from __future__ import annotations
-import sys, csv, pathlib
+import sys, csv, json, pathlib
 from datetime import date
 from playwright.sync_api import sync_playwright
 from thb_parser import parse_statsnet_cells, Row
@@ -169,6 +169,42 @@ def scrape_with_retry(page, year: int, attempts: int = ATTEMPTS) -> list[Row]:
     raise last                                       # type: ignore[misc]
 
 
+FRESHNESS = pathlib.Path(__file__).parent / "data" / "statsnet_freshness.json"
+
+
+def record_freshness(attempted: list[int], stale: list[int]) -> None:
+    """Write down which years the live page actually gave us today.
+
+    Falling back to the cached cells keeps the build green, which is right —
+    but it is also quiet: the site publishes, the registers refresh, and the
+    compliance series stops moving without anything saying so. This file is
+    the evidence. statsnet_alert.py reads it and speaks when the current year
+    has not been read for a fortnight.
+
+    Only years we actually tried are recorded. A year served from cache by
+    design (because a finished year cannot change) is not a failure and does
+    not touch its date.
+    """
+    try:
+        state = (json.loads(FRESHNESS.read_text(encoding="utf-8"))
+                 if FRESHNESS.exists() else {})
+        if not isinstance(state, dict):
+            state = {}
+    except Exception:                              # a corrupt file starts again
+        state = {}
+    live = state.setdefault("last_live_scrape", {})
+    today = date.today().isoformat()
+    for year in attempted:
+        if year not in stale:
+            live[str(year)] = today
+    try:
+        FRESHNESS.parent.mkdir(parents=True, exist_ok=True)
+        FRESHNESS.write_text(json.dumps(state, indent=1, sort_keys=True) + "\n",
+                             encoding="utf-8")
+    except Exception as exc:                       # never fail a build over this
+        print(f"statsnet: could not record freshness ({exc})", file=sys.stderr)
+
+
 def scrape(year_from: int, year_to: int, refresh: set[int] | None = None) -> list[Row]:
     """Build the modern register, scraping only the years that can still change.
 
@@ -215,9 +251,12 @@ def scrape(year_from: int, year_to: int, refresh: set[int] | None = None) -> lis
                     all_rows.extend(rows)
             finally:
                 browser.close()
+    if todo:
+        record_freshness(todo, stale)
     if stale:
         print(f"\nWARNING: {len(stale)} year(s) came from cache after a failed "
               f"scrape: {', '.join(map(str, stale))}")
+        print("If this keeps happening, statsnet_alert.py will raise it as an issue.")
     return all_rows
 
 

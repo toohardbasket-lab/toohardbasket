@@ -187,6 +187,35 @@ jobs:
                   + `/actions/runs/${context.runId}`,
             });
 
+      # Falling back to the cached StatsNet cells keeps the build green when
+      # aph.gov.au refuses us, which is right for a week and wrong for two
+      # months: the site keeps publishing while the compliance series quietly
+      # stops moving. This says so, once a fortnight, until it is fixed.
+      # scraper/data/statsnet_freshness.json records the last date the live
+      # page actually gave us each year; the commit step below picks it up
+      # with the rest of data/.
+      - name: Quiet-register tests (gate)
+        run: python tests/test_statsnet_alert.py
+
+      - name: The Senate register has gone quiet
+        run: python statsnet_alert.py
+
+      - name: Raise the quiet register as an issue
+        if: hashFiles('/tmp/statsnet_alert.md') != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const raw = fs.readFileSync('/tmp/statsnet_alert.md', 'utf8');
+            const cut = raw.indexOf('\n---\n');
+            await github.rest.issues.create({
+              owner: context.repo.owner, repo: context.repo.repo,
+              title: raw.slice(0, cut).trim(),
+              body: raw.slice(cut + 5).trim()
+                  + `\n\nRun: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}`
+                  + `/actions/runs/${context.runId}`,
+            });
+
       - name: Commit on green
         run: |
           git config user.name "thb-bot"
