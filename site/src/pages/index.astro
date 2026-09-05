@@ -77,19 +77,6 @@ const oldestStatus = oldest.beingConsidered
     : oldest.interim
       ? "The government has sent an interim response, and the presiding officer still lists it as waiting."
       : "The government’s latest status report records nothing received.";
-/*
- * "A report waiting eleven years is waiting eleven years" — in words, because
- * the sentence is rhetoric, not a figure, and in the register's own unit of
- * whole years so it never rounds up. Written out only where English does;
- * past twenty the numeral is the plainer word.
- */
-const yearsInWords = (days: number): string => {
-  const y = Math.floor(days / 365.25);
-  const words = ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
-    "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty"];
-  return words[y] ?? String(y);
-};
-const oldestYears = yearsInWords(oldest.daysOutstanding);
 
 /**
  * The ten longest waits are, at the moment, all Senate reports — the Senate's
@@ -280,7 +267,7 @@ const chambers = [
   {/* Two findings side by side where there is room; stacked on a phone. */}
   <section class="wrap findings">
     <div class="measure">
-    <h2>The deadline is not a deadline</h2>
+    <h2>Whether the deadline was met</h2>
     <p>
       Of {fmt(comp.assessable)} responses to Senate committee reports tabled between
       {" "}{comp.firstYear} and {comp.lastYear}, {fmt(comp.onTime)} arrived inside the
@@ -327,8 +314,8 @@ const chambers = [
     <p class="note measure">
       Across both registers. The counts are kept apart because the rules differ and
       because a joint committee report is listed by both presiding officers
-      ({fmt(onBoth)} reports are on both registers). But a report waiting {oldestYears} years is waiting {oldestYears} years
-      whichever register it is on.
+      ({fmt(onBoth)} reports are on both registers). A wait is measured the same way on
+      either register, so this table ranks reports from both.
       {chambersShown.size === 1 && firstHouse && (
         <>
           {" "}All ten are from the Senate register, which reaches back to
