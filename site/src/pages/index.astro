@@ -519,13 +519,13 @@ const chambers = [
   .what {
     display: grid; gap: 2rem 3rem; margin-top: 2.5rem; padding-top: 2rem;
     border-top: 1px solid var(--rule);
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
   }
   .what h2, .findings h2 { margin-bottom: 0.5rem; }
   .findings {
     display: grid; gap: 2rem 3rem; margin-top: 2.5rem; padding-top: 2rem;
     border-top: 1px solid var(--rule);
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
   }
   .findings h2 + p { margin-top: 0; }
 

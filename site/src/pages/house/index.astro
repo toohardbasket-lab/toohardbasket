@@ -181,8 +181,9 @@ const byCommittee = [...rows.reduce((m, r) => {
     <p class="note measure">
       Committees with reports still outstanding, most first.
     </p>
+    <div class="scroll" role="region" aria-labelledby="house-by-committee-caption" tabindex="0">
     <table class="register narrow" id="house-by-committee">
-      <caption class="sr-only">House register by committee: reports outstanding and longest wait</caption>
+      <caption class="sr-only" id="house-by-committee-caption">House register by committee: reports outstanding and longest wait</caption>
       <thead>
         <tr>
           <th scope="col">Committee</th>
@@ -200,6 +201,7 @@ const byCommittee = [...rows.reduce((m, r) => {
         ))}
       </tbody>
     </table>
+    </div>
     <Collapse target="house-by-committee" limit={10} noun="committees" />
   </section>
 

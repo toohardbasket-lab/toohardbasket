@@ -20,8 +20,9 @@ const all = editions().slice().reverse();
       unchanged. Quote the current page for what is outstanding now; cite an edition for what
       the site said on a date.
     </p>
+    <div class="scroll" role="region" aria-labelledby="every-edition-with-its-caption" tabindex="0">
     <table class="register narrow">
-      <caption class="sr-only">Every edition, with its register counts and responses read</caption>
+      <caption class="sr-only" id="every-edition-with-its-caption">Every edition, with its register counts and responses read</caption>
       <thead>
         <tr>
           <th scope="col">Edition</th>
@@ -45,5 +46,6 @@ const all = editions().slice().reverse();
         ))}
       </tbody>
     </table>
+    </div>
   </section>
 </Base>

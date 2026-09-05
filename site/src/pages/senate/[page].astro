@@ -110,8 +110,9 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
       of by a sentence that took a position on none of them. At least, because the other{" "}
       {fmt(floor.closures - floor.counted)} closures are excluded, not estimated:
     </p>
+    <div class="scroll" role="region" aria-labelledby="form-letter-closures-not-counted-caption" tabindex="0">
     <table class="register narrow">
-      <caption class="sr-only">Form-letter closures not counted in the recommendation floor, by reason</caption>
+      <caption class="sr-only" id="form-letter-closures-not-counted-caption">Form-letter closures not counted in the recommendation floor, by reason</caption>
       <thead>
         <tr>
           <th scope="col">Not counted, because</th>
@@ -127,6 +128,7 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
         ))}
       </tbody>
     </table>
+    </div>
     <p class="note">
       The largest of those groups is the one that matters most: those documents close a report
       without naming a single recommendation, often in two or three sentences. Whatever they
@@ -145,8 +147,9 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
       Form-letter closures are not spread evenly across the years. There were none at all in
       the first two years of the corpus, and then two clearing events.
     </p>
+    <div class="scroll" role="region" aria-labelledby="form-letter-closures-by-year-caption" tabindex="0">
     <table class="register narrow">
-      <caption class="sr-only">Form-letter closures by year tabled</caption>
+      <caption class="sr-only" id="form-letter-closures-by-year-caption">Form-letter closures by year tabled</caption>
       <thead>
         <tr>
           <th scope="col">Year tabled</th>
@@ -166,6 +169,7 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
         ))}
       </tbody>
     </table>
+    </div>
     <p class="note">
       {peakYear && `In ${peakYear.year}, ${(peakYear.share * 100).toFixed(0)} per cent of all government responses tabled were form-letter closures.`}
       {" "}A backlog cleared this way falls just as fast on a chart as one cleared by answering.
@@ -234,9 +238,10 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
       </p>
       <PositionsBar total={cov.total} id="positions" />
       <details class="tv">
-      <summary>Table view — recommendations by what the response said</summary>
+      <summary>Table view: recommendations by what the response said</summary>
+      <div class="scroll" role="region" aria-labelledby="recommendations-by-what-the-caption" tabindex="0">
       <table class="register narrow">
-        <caption class="sr-only">Recommendations by what the response said about them</caption>
+        <caption class="sr-only" id="recommendations-by-what-the-caption">Recommendations by what the response said about them</caption>
         <thead>
           <tr>
             <th scope="col">What the response said</th>
@@ -261,10 +266,12 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
           ))}
         </tbody>
       </table>
+      </div>
       </details>
       <h3>By year</h3>
+      <div class="scroll" role="region" aria-labelledby="stated-positions-by-year-caption" tabindex="0">
       <table class="register narrow">
-        <caption class="sr-only">Stated positions by year the response was tabled</caption>
+        <caption class="sr-only" id="stated-positions-by-year-caption">Stated positions by year the response was tabled</caption>
         <thead>
           <tr>
             <th scope="col">Year tabled</th>
@@ -292,6 +299,7 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
           ))}
         </tbody>
       </table>
+      </div>
       <p class="note">
         Excluded, and why. {fmt(cov.responsesWithNothingIndexed)} of the {fmt(cov.responsesInCorpus)} responses
         in the corpus hold nothing the index can read (no numbered recommendations in the response and

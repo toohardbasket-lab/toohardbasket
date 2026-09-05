@@ -346,6 +346,15 @@ const moved = editionDiff();
       table.register td:last-child, table.register th:last-child { padding-right: 0; }
 
       /*
+       * A summary table wider than the screen scrolls inside its own box
+       * instead of taking the whole page sideways with it. The box is a
+       * labelled region that can take focus, so a keyboard can scroll it too.
+       * The report registers do not need this: below 46rem they stack.
+       */
+      .scroll { overflow-x: auto; max-width: 100%; }
+      .scroll:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+
+      /*
        * Fixed widths for everything except the report title, which takes the
        * slack. Without this the browser sizes every column to its longest
        * entry, so one 190-character report title squeezes the dates into two

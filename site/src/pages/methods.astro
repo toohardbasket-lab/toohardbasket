@@ -210,8 +210,9 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       that are not responses at all. {fmt(cl.excluded)} documents are excluded by identifier,
       each with a recorded reason:
     </p>
+    <div class="scroll" role="region" aria-labelledby="documents-excluded-from-the-caption" tabindex="0">
     <table class="register narrow">
-      <caption class="sr-only">Documents excluded from the response corpus, with counts</caption>
+      <caption class="sr-only" id="documents-excluded-from-the-caption">Documents excluded from the response corpus, with counts</caption>
       <thead>
         <tr>
           <th scope="col">Excluded</th>
@@ -227,6 +228,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
         ))}
       </tbody>
     </table>
+    </div>
     <p class="note">
       Every one of these would otherwise have been counted as a substantive response, so
       excluding them raises the reported failure rate. The list is published in full, with

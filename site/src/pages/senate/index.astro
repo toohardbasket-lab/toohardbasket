@@ -166,8 +166,9 @@ const byCommittee = [...rows.reduce((m, r) => {
       government. <a href="/methods/#limits">What this does and does not count</a>.
     </p>
 
+    <div class="scroll" role="region" aria-labelledby="senate-responses-since-2000-caption" tabindex="0">
     <table class="register narrow">
-      <caption class="sr-only">Senate responses since 2000 by time taken against the three-month rule</caption>
+      <caption class="sr-only" id="senate-responses-since-2000-caption">Senate responses since 2000 by time taken against the three-month rule</caption>
       <thead>
         <tr>
           <th scope="col">Time taken to respond</th>
@@ -185,6 +186,7 @@ const byCommittee = [...rows.reduce((m, r) => {
         ))}
       </tbody>
     </table>
+    </div>
     <p class="note measure">
       Median: {fmt(comp.medianDays)} days, or about {inMonths(comp.medianDays)}, against a
       rule of three.
@@ -202,8 +204,9 @@ const byCommittee = [...rows.reduce((m, r) => {
       in office when the report was tabled. Which government comes out worst depends on the
       choice; that none of them reaches ten per cent does not. Both are shown.
     </p>
+    <div class="scroll" role="region" aria-labelledby="share-of-responses-within-caption" tabindex="0">
     <table class="register narrow">
-      <caption class="sr-only">Share of responses within the deadline, by government, on two attributions</caption>
+      <caption class="sr-only" id="share-of-responses-within-caption">Share of responses within the deadline, by government, on two attributions</caption>
       <thead>
         <tr>
           <th scope="col">Government</th>
@@ -225,6 +228,7 @@ const byCommittee = [...rows.reduce((m, r) => {
         ))}
       </tbody>
     </table>
+    </div>
     <p class="note measure">
       Columns two and three count responses by who tabled them; columns four and five count
       them by who was in office when the report was tabled. No government in
@@ -238,8 +242,9 @@ const byCommittee = [...rows.reduce((m, r) => {
     <p class="note measure">
       Committees with reports still outstanding, most first.
     </p>
+    <div class="scroll" role="region" aria-labelledby="senate-by-committee-caption" tabindex="0">
     <table class="register narrow" id="senate-by-committee">
-      <caption class="sr-only">Senate register by committee: reports outstanding and longest wait</caption>
+      <caption class="sr-only" id="senate-by-committee-caption">Senate register by committee: reports outstanding and longest wait</caption>
       <thead>
         <tr>
           <th scope="col">Committee</th>
@@ -257,6 +262,7 @@ const byCommittee = [...rows.reduce((m, r) => {
         ))}
       </tbody>
     </table>
+    </div>
     <Collapse target="senate-by-committee" limit={10} noun="committees" />
   </section>
 
