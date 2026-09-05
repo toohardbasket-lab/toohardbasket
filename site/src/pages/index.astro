@@ -10,6 +10,7 @@ import {
 } from "../lib/data";
 import { registerBySlug } from "../lib/registers";
 import { coverage, editions } from "../lib/data";
+import PositionsBar from "../components/PositionsBar.astro";
 
 const cov = coverage();
 /* The latest frozen edition, which is what a citation should point at. */
@@ -312,7 +313,10 @@ const chambers = [
           part or in principle, and {fmt(cov.total.notAccepted)} not accepted. The rest were noted
           without a position, closed with the form letter, or passed over by a response that answered
           the report as a whole.
-          {" "}<a href="/senate/responses/#coverage">How that is counted →</a>
+        </p>
+        <PositionsBar total={cov.total} id="home-positions" compact />
+        <p>
+          <a href="/senate/responses/#coverage">How that is counted →</a>
         </p>
       </div>
     )}

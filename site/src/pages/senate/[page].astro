@@ -12,6 +12,7 @@ import {
   coverage,
 } from "../../lib/data";
 import { FORMS, formHref } from "../../lib/forms";
+import PositionsBar from "../../components/PositionsBar.astro";
 import { LAUNCHED } from "../../lib/launch";
 
 export function getStaticPaths() {
@@ -231,6 +232,9 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
         it); <em>not accepted</em> (negated, or rejected, declined, disagreed). “Supports in
         principle” therefore counts as in part or in principle, whatever it goes on to promise.
       </p>
+      <PositionsBar total={cov.total} id="positions" />
+      <details class="tv">
+      <summary>Table view — recommendations by what the response said</summary>
       <table class="register narrow">
         <caption class="sr-only">Recommendations by what the response said about them</caption>
         <thead>
@@ -257,6 +261,7 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
           ))}
         </tbody>
       </table>
+      </details>
       <h3>By year</h3>
       <table class="register narrow">
         <caption class="sr-only">Stated positions by year the response was tabled</caption>
@@ -334,6 +339,8 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
   table.register { margin-bottom: 1rem; }
   table.register td { padding-right: 1rem; }
   table.narrow { max-width: 44rem; }
+  .tv { margin: 0.5rem 0 1.5rem; }
+  .tv summary { font-family: var(--sans); font-size: 0.875rem; color: var(--ink-secondary); cursor: pointer; }
 
   ol.forms { list-style: decimal; padding-left: 1.4rem; margin: 1.25rem 0; }
   ol.forms li { margin-bottom: 1.4rem; }

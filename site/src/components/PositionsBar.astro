@@ -1,0 +1,86 @@
+---
+/**
+ * One bar, six segments: what the government said about each recommendation
+ * the site can show. Drawn from coverage_summary.json, so it moves with the
+ * weekly rebuild and cannot disagree with the table beside it.
+ *
+ * Colour carries one distinction: a position was stated (the site's blue,
+ * solid for accepted, hatched for in part or in principle, outlined for not
+ * accepted) or it was not (greys, and black for the form letter, which is
+ * black everywhere else on the site too). The legend is always visible and
+ * carries the counts; the bar carries a percentage only where a segment is
+ * wide enough to hold one.
+ */
+import { fmt } from "../lib/data";
+import type { CoverageBucket } from "../lib/data";
+
+interface Props {
+  total: CoverageBucket;
+  /** id prefix, so two bars on one page do not share pattern ids */
+  id?: string;
+  /** shorter legend labels for a narrow column */
+  compact?: boolean;
+}
+const { total: t, id = "positions", compact = false } = Astro.props;
+
+const segments = [
+  { key: "accepted", label: "Accepted, supported or agreed", short: "Accepted", n: t.accepted },
+  { key: "part", label: "In part or in principle", short: "In part or in principle", n: t.inPartOrInPrinciple },
+  { key: "not", label: "Not accepted", short: "Not accepted", n: t.notAccepted },
+  { key: "noted", label: "Noted, no position stated", short: "Noted, no position", n: t.notedNoPosition },
+  { key: "letter", label: "Closed with the form letter", short: "Form letter", n: t.formLetter },
+  { key: "passed", label: "Not addressed individually", short: "Not addressed individually", n: t.notAddressedIndividually },
+];
+const N = t.recommendations || 1;
+const bars = segments.map((s) => ({ ...s, share: s.n / N }));
+const pct = (v: number) => `${Math.round(v * 100)}%`;
+---
+
+<figure class="positions">
+  <figcaption class="sr-only" id={`${id}-title`}>
+    What the government said about each of the {fmt(t.recommendations)} recommendations this site can show
+  </figcaption>
+  <div class="bar" role="img" aria-labelledby={`${id}-title`}>
+    {bars.map((b) => (
+      <span class={`seg ${b.key}`} style={`width: ${(b.share * 100).toFixed(2)}%`}
+            title={`${b.label}: ${fmt(b.n)} of ${fmt(t.recommendations)} (${pct(b.share)})`}>
+        {b.share >= 0.09 && <b>{pct(b.share)}</b>}
+      </span>
+    ))}
+  </div>
+  <ul class="legend">
+    {bars.map((b) => (
+      <li><i class={`sw ${b.key}`}></i>{compact ? b.short : b.label}: {fmt(b.n)} ({pct(b.share)})</li>
+    ))}
+  </ul>
+</figure>
+
+<style>
+  .positions { margin: 1rem 0 1.25rem; }
+  .bar { display: flex; width: 100%; height: 1.9rem; }
+  .seg {
+    display: flex; align-items: center; justify-content: center; overflow: hidden;
+    font-family: var(--sans); font-size: 0.8125rem; font-weight: 600; color: var(--surface);
+  }
+  .seg b { font-weight: 600; }
+  .seg.accepted { background: var(--series-1); }
+  .seg.part { background: repeating-linear-gradient(45deg, var(--series-1) 0 3px, var(--surface) 3px 6px); color: var(--ink); }
+  .seg.not { background: var(--surface); box-shadow: inset 0 0 0 2px var(--series-1); color: var(--ink); }
+  .seg.noted { background: var(--rule-strong); color: var(--ink); }
+  .seg.letter { background: var(--ink); }
+  .seg.passed { background: var(--rule); color: var(--ink); }
+  .seg.part b { background: var(--surface); padding: 0 0.3rem; }
+  .legend {
+    list-style: none; padding: 0; margin: 0.75rem 0 0;
+    display: flex; flex-wrap: wrap; gap: 0.35rem 1.4rem;
+    font-family: var(--sans); font-size: 0.875rem; color: var(--ink-secondary);
+  }
+  .legend li { display: inline-flex; align-items: center; gap: 0.5rem; }
+  .sw { display: inline-block; width: 0.7rem; height: 0.7rem; flex: none; }
+  .sw.accepted { background: var(--series-1); }
+  .sw.part { background: repeating-linear-gradient(45deg, var(--series-1) 0 2px, var(--surface) 2px 4px); }
+  .sw.not { background: var(--surface); box-shadow: inset 0 0 0 2px var(--series-1); }
+  .sw.noted { background: var(--rule-strong); }
+  .sw.letter { background: var(--ink); }
+  .sw.passed { background: var(--rule); }
+</style>
