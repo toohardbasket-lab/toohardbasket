@@ -46,7 +46,11 @@ same sentence qualifies it (in principle, in part, partially, partly, broadly,
 generally); "not accepted" when the word is negated (does not support, not
 agreed, cannot accept) or is reject, decline or disagree. The verdict is read
 from the sentence the verdict word is in, not the whole response, so a later
-"does not" about something else cannot flip it.
+"does not" about something else cannot flip it. A verdict whose object is a
+numbered list of recommendations ("does not accept recommendations one and
+two") counts for a row only if that row's number is in the list; otherwise it
+is a verdict on other recommendations and this row stays noted. The qualifier
+test tolerates the hyphen a PDF breaks with spaces ("in - principle").
 
 Why this is a floor on positions and a ceiling on their absence: a response
 that commits to action without using a verdict word ("The Government will
@@ -81,7 +85,8 @@ VERDICT = (r"(?:support|supported|supports|agree|agreed|agrees|accept|accepted|a
            r"endorse|endorsed|endorses|reject|rejected|rejects|decline|declined|declines|"
            r"disagree|disagreed|disagrees|not\s+supported|not\s+agreed|not\s+accepted|"
            r"partially\s+(?:supported|agreed|accepted)|implemented)")
-QUAL = r"(?:\s+(?:in[-\s]principle|in[-\s]part|partially|in\s+full))?"
+# "in principle", "in-principle", and the PDF's "in - principle" / "in- principle".
+QUAL = r"(?:\s+(?:in\s*-?\s*principle|in\s*-?\s*part|partially|in\s+full))?"
 
 # A verdict label at the very start of the government's words: "Supported",
 # "Agreed in part.", "Not supported", "Supported in principle The Government…"
@@ -103,26 +108,77 @@ IMPLEMENTED = re.compile(r"\brecommendations?\b[^.]{0,60}\b(?:has|have|had|is|ar
 TEMPLATE = re.compile(r"passage\s+of\s+time", re.I)
 
 
-def position(words: str) -> bool:
-    w = words.strip()
-    if not w:
-        return False
-    return bool(LABEL.match(w) or VERB.search(w) or IMPLEMENTED.search(w))
-
-
 NEGATED = re.compile(r"(?:does\s+not|do\s+not|did\s+not|cannot|can\s+not|will\s+not|is\s+unable\s+to|"
                      r"not\s+supported|not\s+agreed|not\s+accepted|reject|declin|disagree)", re.I)
-QUALIFIED = re.compile(r"\b(?:in[-\s]principle|in[-\s]part|partially|partly|broadly|generally)\b", re.I)
+QUALIFIED = re.compile(r"\b(?:in\s*-?\s*principle|in\s*-?\s*part|partially|partly|broadly|generally)\b", re.I)
+
+# A verdict whose object is a numbered list of recommendations: "does not
+# accept recommendations one and two", "agrees in principle with
+# recommendations 10 and 11". It is about this row only if this row's number
+# is in the list.
+NUMBERED = re.compile(r"^\s*((?:\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|"
+                      r"twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty)"
+                      r"(?:\s*(?:,|and|to|&)\s*(?:\d+|one|two|three|four|five|six|seven|eight|nine|"
+                      r"ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|"
+                      r"nineteen|twenty))*)", re.I)
+WORDS = {w: str(i) for i, w in enumerate(["zero", "one", "two", "three", "four", "five", "six",
+                                          "seven", "eight", "nine", "ten", "eleven", "twelve",
+                                          "thirteen", "fourteen", "fifteen", "sixteen",
+                                          "seventeen", "eighteen", "nineteen", "twenty"])}
 
 
-def verdict(words: str) -> str:
+def numbers_in(text: str) -> set[str]:
+    """The recommendation numbers a numbered list names, with 'to' ranges expanded."""
+    out: set[str] = set()
+    for x in re.findall(r"\d+|[a-z]+", text, re.I):
+        n = WORDS.get(x.lower(), x)
+        if n.isdigit():
+            out.add(n)
+    for m in re.finditer(r"(\d+|[a-z]+)\s*to\s*(\d+|[a-z]+)", text, re.I):
+        a, b = WORDS.get(m.group(1).lower(), m.group(1)), WORDS.get(m.group(2).lower(), m.group(2))
+        if a.isdigit() and b.isdigit():
+            out.update(str(k) for k in range(int(a), int(b) + 1))
+    return out
+
+
+def about_this(m: "re.Match[str]", words: str, label: str) -> bool:
+    """False when the matched verdict is about other, numbered recommendations."""
+    if not m.group(0).lower().rstrip().endswith("recommendations"):
+        return True
+    tail = NUMBERED.match(words[m.end():])
+    if not tail:
+        return True
+    return bool(label) and str(label).strip() in numbers_in(tail.group(1))
+
+
+def find(words: str, label: str = "") -> "re.Match[str] | None":
+    w = words.strip()
+    if not w:
+        return None
+    lab = LABEL.match(w)
+    # A label at the start can also be the head of a verb phrase whose object
+    # is a numbered list of other recommendations ("The Government agrees in
+    # principle with recommendations 10 and 11"); in that case it is not a
+    # label for this row.
+    if lab and not any(m.start() < lab.end() and not about_this(m, w, label)
+                       for m in VERB.finditer(w)):
+        return lab
+    for m in VERB.finditer(w):
+        if about_this(m, w, label):
+            return m
+    return IMPLEMENTED.search(w)
+
+
+def position(words: str, label: str = "") -> bool:
+    return find(words, label) is not None
+
+
+def verdict(words: str, label: str = "") -> str:
     """The government's own verdict word, sorted three ways, for a row that
     has a stated position: 'accepted', 'in part or in principle', or
     'not accepted'. '' for a row with no position."""
     w = words.strip()
-    if not w:
-        return ""
-    m = LABEL.match(w) or VERB.search(w) or IMPLEMENTED.search(w)
+    m = find(w, label)
     if not m:
         return ""
     if NEGATED.search(m.group(0)):
@@ -142,7 +198,7 @@ def state(row: dict) -> str:
         return "not individual"
     if not words:
         return "unreadable"
-    if position(words):
+    if position(words, row.get("label") or ""):
         return "position"
     if TEMPLATE.search(words):
         return "form letter"
@@ -191,7 +247,7 @@ def main() -> int:
             positions.append({**key(r), "state": "out of scope", "verdict": ""})
             continue
         s = state(r)
-        v = verdict(r.get("government_words") or "") if s == "position" else ""
+        v = verdict(r.get("government_words") or "", r.get("label") or "") if s == "position" else ""
         positions.append({**key(r), "state": s, "verdict": v})
         per_doc[rid][s] += 1
         if v:

@@ -82,6 +82,24 @@ VERDICTS = [
     ("The Government is unable to accept this recommendation at this time.", "not accepted"),
     ("The Government declines to accept this recommendation.", "not accepted"),
     ("The Government notes this recommendation.", ""),
+    # The PDF's broken hyphen: three rows of the diabetes response.
+    ("Support in - principle The Government supports access to affordable medicines", "in part or in principle"),
+    ("Support in- principle The Australian Government notes that a determination", "in part or in principle"),
+    ("Support in -principle", "in part or in principle"),
+]
+
+# A verdict about other, numbered recommendations is not a verdict on this
+# row: (words, this row's label, expected state, expected verdict).
+NUMBERED = [
+    ("Noted. The Government notes this recommendation. Although the Government does not accept "
+     "recommendations one and two, it notes the intent of this recommendation", "3", "noted", ""),
+    ("The Government agrees in principle with the recommendations 10 and 11. The Concussion",
+     "11", "position", "in part or in principle"),
+    ("The Government agrees in principle with the recommendations 10 and 11. The Concussion",
+     "12", "noted", ""),
+    ("The Government does not support recommendations 4 to 6.", "5", "position", "not accepted"),
+    ("The Government does not support recommendations 4 to 6.", "7", "noted", ""),
+    ("The Government agrees to Recommendation 4.", "9", "position", "accepted"),
 ]
 
 
@@ -91,6 +109,13 @@ def main() -> int:
         got = C.verdict(words)
         if got != want:
             bad.append((words, want, got))
+    for words, label, want_state, want_verdict in NUMBERED:
+        got = C.state({"source": "response", "government_words": words, "label": label})
+        if got != want_state:
+            bad.append((f"[{label}] {words}", want_state, got))
+        gv = C.verdict(words, label) if got == "position" else ""
+        if gv != want_verdict:
+            bad.append((f"[{label}] {words}", want_verdict, gv))
     for words, want in CASES:
         got = C.position(words)
         if got != want:
@@ -105,7 +130,7 @@ def main() -> int:
         bad.append(("empty response row", "unreadable", "?"))
     for words, want, got in bad:
         print(f"FAIL want {want!r} got {got!r}: {words[:90]}")
-    n = len(CASES) + len(VERDICTS) + 3
+    n = len(CASES) + len(VERDICTS) + len(NUMBERED) + 3
     print(f"{n - len(bad)} of {n} coverage cases pass")
     return 1 if bad else 0
 
