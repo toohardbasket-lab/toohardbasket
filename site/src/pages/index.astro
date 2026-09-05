@@ -305,8 +305,10 @@ const chambers = [
           A response arriving is not the same as a report being answered. Recommendation by
           recommendation, {fmt(cov.total.positionStated)} of the {fmt(cov.total.recommendations)}
           {" "}this site can show received a stated position: {(cov.total.coverage * 100).toFixed(0)} per
-          cent. The rest were noted without one, closed with the form letter, or passed over by a
-          response that answered the report as a whole.
+          cent. {fmt(cov.total.accepted)} were accepted outright, {fmt(cov.total.inPartOrInPrinciple)} in
+          part or in principle, and {fmt(cov.total.notAccepted)} not accepted. The rest were noted
+          without a position, closed with the form letter, or passed over by a response that answered
+          the report as a whole.
           {" "}<a href="/senate/responses/#coverage">How that is counted →</a>
         </p>
       </div>

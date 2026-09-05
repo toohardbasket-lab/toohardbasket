@@ -1097,15 +1097,22 @@ export interface Recommendation {
    * "dissent", or "" when the positions file has not been built.
    */
   position: string;
+  /**
+   * For a row with a stated position, the government's own verdict word
+   * sorted three ways: "accepted", "in part or in principle", "not accepted".
+   * "" otherwise.
+   */
+  verdict: string;
 }
 
 /** The state coverage.py gave each index row, keyed the way that file keys it. */
-function positionStates(): Map<string, string> {
+function positionStates(): Map<string, { state: string; verdict: string }> {
   const f = path.join(DATA_DIR, "recommendation_positions.csv");
-  const m = new Map<string, string>();
+  const m = new Map<string, { state: string; verdict: string }>();
   if (!fs.existsSync(f)) return m;
   for (const r of read("recommendation_positions.csv")) {
-    m.set(`${r.source}|${r.source_id}|${r.label}|${r.recommended_by ?? ""}`, r.state);
+    m.set(`${r.source}|${r.source_id}|${r.label}|${r.recommended_by ?? ""}`,
+          { state: r.state, verdict: r.verdict ?? "" });
   }
   return m;
 }
@@ -1113,7 +1120,8 @@ function positionStates(): Map<string, string> {
 export function recommendations(): Recommendation[] {
   const states = positionStates();
   return read("recommendations.csv").map((r) => ({
-    position: states.get(`${r.source}|${r.source_id}|${r.label}|${r.recommended_by ?? ""}`) ?? "",
+    position: states.get(`${r.source}|${r.source_id}|${r.label}|${r.recommended_by ?? ""}`)?.state ?? "",
+    verdict: states.get(`${r.source}|${r.source_id}|${r.label}|${r.recommended_by ?? ""}`)?.verdict ?? "",
     source: r.source as Recommendation["source"],
     sourceId: r.source_id,
     label: r.label,
@@ -1250,6 +1258,9 @@ export interface CoverageBucket {
   responsesFullyCovered: number;
   recommendations: number;
   positionStated: number;
+  accepted: number;
+  inPartOrInPrinciple: number;
+  notAccepted: number;
   notedNoPosition: number;
   formLetter: number;
   notAddressedIndividually: number;
@@ -1278,7 +1289,8 @@ export function coverage(): Coverage | null {
   if (!fs.existsSync(f)) return null;
   type Raw = {
     responses: number; responses_with_no_position_at_all: number; responses_fully_covered: number;
-    recommendations: number; position_stated: number; noted_no_position: number; form_letter: number;
+    recommendations: number; position_stated: number; accepted?: number; in_part_or_in_principle?: number;
+    not_accepted?: number; noted_no_position: number; form_letter: number;
     not_addressed_individually: number; unreadable: number; coverage: number | null;
   };
   const bucket = (b: Raw): CoverageBucket => ({
@@ -1287,6 +1299,9 @@ export function coverage(): Coverage | null {
     responsesFullyCovered: b.responses_fully_covered,
     recommendations: b.recommendations,
     positionStated: b.position_stated,
+    accepted: b.accepted ?? 0,
+    inPartOrInPrinciple: b.in_part_or_in_principle ?? 0,
+    notAccepted: b.not_accepted ?? 0,
     notedNoPosition: b.noted_no_position,
     formLetter: b.form_letter,
     notAddressedIndividually: b.not_addressed_individually,

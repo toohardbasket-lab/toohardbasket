@@ -39,6 +39,15 @@ because nothing can be said about them either way. Recommendations that name
 another author (a dissenting or minority report) are excluded throughout: a
 government owes the committee a response, not the minority.
 
+Each stated position is also given the government's own verdict word, and
+nothing more: "accepted" when the word is supported, agreed, accepted,
+endorsed or implemented with no qualifier; "in part or in principle" when the
+same sentence qualifies it (in principle, in part, partially, partly, broadly,
+generally); "not accepted" when the word is negated (does not support, not
+agreed, cannot accept) or is reject, decline or disagree. The verdict is read
+from the sentence the verdict word is in, not the whole response, so a later
+"does not" about something else cannot flip it.
+
 Why this is a floor on positions and a ceiling on their absence: a response
 that commits to action without using a verdict word ("The Government will
 legislate this in 2027") is counted as noted, not as a position, because the
@@ -101,6 +110,32 @@ def position(words: str) -> bool:
     return bool(LABEL.match(w) or VERB.search(w) or IMPLEMENTED.search(w))
 
 
+NEGATED = re.compile(r"(?:does\s+not|do\s+not|did\s+not|cannot|can\s+not|will\s+not|is\s+unable\s+to|"
+                     r"not\s+supported|not\s+agreed|not\s+accepted|reject|declin|disagree)", re.I)
+QUALIFIED = re.compile(r"\b(?:in[-\s]principle|in[-\s]part|partially|partly|broadly|generally)\b", re.I)
+
+
+def verdict(words: str) -> str:
+    """The government's own verdict word, sorted three ways, for a row that
+    has a stated position: 'accepted', 'in part or in principle', or
+    'not accepted'. '' for a row with no position."""
+    w = words.strip()
+    if not w:
+        return ""
+    m = LABEL.match(w) or VERB.search(w) or IMPLEMENTED.search(w)
+    if not m:
+        return ""
+    if NEGATED.search(m.group(0)):
+        return "not accepted"
+    # The sentence the verdict word is in: from the start of the words (a
+    # label has nothing before it) to the first full stop after the match.
+    end = w.find(".", m.end())
+    sentence = w[: end if end != -1 else min(len(w), m.end() + 160)]
+    if QUALIFIED.search(sentence):
+        return "in part or in principle"
+    return "accepted"
+
+
 def state(row: dict) -> str:
     words = (row.get("government_words") or "").strip()
     if row["source"] == "report":
@@ -145,19 +180,22 @@ def main() -> int:
     for r in recs:
         if r.get("response_classification") == "awaiting a response" or not r.get("response_id"):
             awaiting += 1
-            positions.append({**key(r), "state": "awaiting"})
+            positions.append({**key(r), "state": "awaiting", "verdict": ""})
             continue
         if (r.get("recommended_by") or "").strip():
             dissent += 1
-            positions.append({**key(r), "state": "dissent"})
+            positions.append({**key(r), "state": "dissent", "verdict": ""})
             continue
         rid = r["response_id"]
         if rid not in docs:
-            positions.append({**key(r), "state": "out of scope"})
+            positions.append({**key(r), "state": "out of scope", "verdict": ""})
             continue
         s = state(r)
-        positions.append({**key(r), "state": s})
+        v = verdict(r.get("government_words") or "") if s == "position" else ""
+        positions.append({**key(r), "state": s, "verdict": v})
         per_doc[rid][s] += 1
+        if v:
+            per_doc[rid][v] += 1
         meta.setdefault(rid, {
             "response_id": rid,
             "response_tabled": r.get("response_tabled") or "",
@@ -181,6 +219,9 @@ def main() -> int:
             "report_title": m["report_title"],
             "recommendations": assessable,
             "position_stated": c["position"],
+            "accepted": c["accepted"],
+            "in_part_or_in_principle": c["in part or in principle"],
+            "not_accepted": c["not accepted"],
             "noted_no_position": c["noted"],
             "form_letter": c["form letter"],
             "not_addressed_individually": c["not individual"],
@@ -191,7 +232,8 @@ def main() -> int:
     out_rows.sort(key=lambda r: (r["response_tabled"], r["response_id"]))
 
     fields = ["response_id", "response_tabled", "government", "classification", "committee",
-              "report_title", "recommendations", "position_stated", "noted_no_position",
+              "report_title", "recommendations", "position_stated", "accepted",
+              "in_part_or_in_principle", "not_accepted", "noted_no_position",
               "form_letter", "not_addressed_individually", "unreadable", "coverage", "response_url"]
     with open(DATA / "coverage.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=fields)
@@ -199,14 +241,15 @@ def main() -> int:
         w.writerows(out_rows)
 
     with open(DATA / "recommendation_positions.csv", "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["source", "source_id", "label", "recommended_by", "state"])
+        w = csv.DictWriter(f, fieldnames=["source", "source_id", "label", "recommended_by", "state", "verdict"])
         w.writeheader()
         w.writerows(positions)
 
     def bucket(rows: list[dict]) -> dict:
         t = Counter()
         for r in rows:
-            for k in ("recommendations", "position_stated", "noted_no_position", "form_letter",
+            for k in ("recommendations", "position_stated", "accepted", "in_part_or_in_principle",
+                      "not_accepted", "noted_no_position", "form_letter",
                       "not_addressed_individually", "unreadable"):
                 t[k] += r[k]
         n = t["recommendations"]
@@ -216,6 +259,9 @@ def main() -> int:
             "responses_fully_covered": sum(1 for r in rows if r["recommendations"] and r["position_stated"] == r["recommendations"]),
             "recommendations": n,
             "position_stated": t["position_stated"],
+            "accepted": t["accepted"],
+            "in_part_or_in_principle": t["in_part_or_in_principle"],
+            "not_accepted": t["not_accepted"],
             "noted_no_position": t["noted_no_position"],
             "form_letter": t["form_letter"],
             "not_addressed_individually": t["not_addressed_individually"],
@@ -234,7 +280,11 @@ def main() -> int:
                       "say it is supported, agreed, accepted, endorsed, rejected, declined, not supported, "
                       "not agreed, not accepted or implemented, in full, in part or in principle. "
                       "Coverage is stated positions over recommendations the index holds for the response, "
-                      "excluding dissenting recommendations and rows whose government words could not be read.",
+                      "excluding dissenting recommendations and rows whose government words could not be read. "
+                      "Each stated position carries the government's own verdict word, sorted three ways: "
+                      "accepted (supported, agreed, accepted, endorsed or implemented, unqualified); in part or "
+                      "in principle (the same sentence qualifies it); not accepted (negated, or rejected, "
+                      "declined, disagreed).",
         "responses_in_corpus": len(docs),
         "responses_with_nothing_indexed": len(docs) - len(per_doc),
         "dissenting_recommendations_excluded": dissent,
@@ -249,7 +299,9 @@ def main() -> int:
 
     t = summary["total"]
     print(f"coverage: {len(out_rows)} responses, {t['recommendations']} recommendations; "
-          f"position stated {t['position_stated']} ({(t['coverage'] or 0)*100:.1f}%), "
+          f"position stated {t['position_stated']} ({(t['coverage'] or 0)*100:.1f}%: "
+          f"accepted {t['accepted']}, in part/principle {t['in_part_or_in_principle']}, "
+          f"not accepted {t['not_accepted']}), "
           f"noted {t['noted_no_position']}, form letter {t['form_letter']}, "
           f"not individually {t['not_addressed_individually']}, unreadable {t['unreadable']}; "
           f"{summary['responses_with_nothing_indexed']} responses with nothing indexed; "

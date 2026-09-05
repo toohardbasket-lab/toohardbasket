@@ -59,8 +59,38 @@ CASES = [
 ]
 
 
+# The verdict word, sorted three ways, for rows with a stated position.
+VERDICTS = [
+    ("The Government supports this recommendation. The Department will", "accepted"),
+    ("Supported The Department of Home Affairs will work with", "accepted"),
+    ("The Government accepts the Committee’s recommendation.", "accepted"),
+    ("This recommendation has been implemented", "accepted"),
+    ("The Government accepts this recommendation. Noting that the Committee is generally satisfied with", "accepted"),
+    ("The Government supports this recommendation, which does not require legislation.", "accepted"),
+    ("The Government supports this recommendation in principle. The Government moved", "in part or in principle"),
+    ("Supported in principle The Australian Government considers that", "in part or in principle"),
+    ("Agreed in part. The Government supports re-writing the compliance", "in part or in principle"),
+    ("The Australian Government supports in-principle this recommendation.", "in part or in principle"),
+    ("The Government partially accepts this recommendation.", "in part or in principle"),
+    ("Partially Supported The Australian Government supports this recommendation and will", "in part or in principle"),
+    ("The Government broadly agrees with this recommendation.", "in part or in principle"),
+    ("The Australian Government does not support this recommendation.", "not accepted"),
+    ("Not supported The Government has funded the Personal Safety Survey", "not accepted"),
+    ("Not agreed. Replacing the presumption of equal shared parental responsibility", "not accepted"),
+    ("The Government does not agree to this recommendation. All applicants", "not accepted"),
+    ("The Government rejects the recommendation.", "not accepted"),
+    ("The Government is unable to accept this recommendation at this time.", "not accepted"),
+    ("The Government declines to accept this recommendation.", "not accepted"),
+    ("The Government notes this recommendation.", ""),
+]
+
+
 def main() -> int:
     bad = []
+    for words, want in VERDICTS:
+        got = C.verdict(words)
+        if got != want:
+            bad.append((words, want, got))
     for words, want in CASES:
         got = C.position(words)
         if got != want:
@@ -75,7 +105,8 @@ def main() -> int:
         bad.append(("empty response row", "unreadable", "?"))
     for words, want, got in bad:
         print(f"FAIL want {want!r} got {got!r}: {words[:90]}")
-    print(f"{len(CASES) + 3 - len(bad)} of {len(CASES) + 3} coverage cases pass")
+    n = len(CASES) + len(VERDICTS) + 3
+    print(f"{n - len(bad)} of {n} coverage cases pass")
     return 1 if bad else 0
 
 

@@ -76,6 +76,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       <label><input type="checkbox" data-filter="unanswered" /> Only those with no government response</label>
       <label><input type="checkbox" data-filter="closed" /> Only those closed with the form letter</label>
       <label><input type="checkbox" data-filter="noposition" /> Only those answered without a stated position</label>
+      <label><input type="checkbox" data-filter="notaccepted" /> Only those not accepted</label>
       {/*
         A radio group rather than two more tick boxes: "only the committee's"
         and "only dissenting" are mutually exclusive, and two boxes would let a
@@ -139,12 +140,14 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     </p>
     <p>
       <strong>Whether a position was stated.</strong> Each result that carries the
-      government’s words is marked <em>position stated</em> or <em>noted, no position
-      stated</em>. A position is a verdict word used of the recommendation: supported,
-      agreed, accepted, endorsed, rejected, declined, not supported, not agreed, not
-      accepted or implemented, in full, in part or in principle. “Noted” followed by a
-      description of existing policy is not a position. The test is mechanical and the
-      words are on the screen, so the label can be checked against them.
+      government’s words is marked with the government’s own verdict, sorted three ways
+      (<em>accepted</em>; <em>in part or in principle</em>; <em>not accepted</em>), or
+      <em>noted, no position stated</em>. A position is a verdict word used of the
+      recommendation: supported, agreed, accepted, endorsed, rejected, declined, not
+      supported, not agreed, not accepted or implemented. “Supported in principle” is
+      sorted as in part or in principle; “noted” followed by a description of existing
+      policy is not a position. The test is mechanical and the words are on the screen,
+      so the label can be checked against them.
       {" "}<a href="/senate/responses/#coverage">How often a position is stated</a>.
     </p>
     <p>
@@ -416,8 +419,10 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
         // What the response did with it, from coverage.py: a verdict word used
         // of the recommendation, or words without one. The form letter and
         // the not-individually cases already say so in the sentence below.
+        // The tag is the government's own verdict word, sorted three ways,
+        // never a summary of what it said.
         const stance = r.n === "position"
-          ? `<span class="state on">position stated</span>`
+          ? `<span class="state on">${esc(r.v || "position stated")}</span>`
           : (r.n === "noted" ? `<span class="state">noted, no position stated</span>` : "");
         const said = r.g
           ? `<p class="gov">The government said: “${esc(words)}”${stance}</p>`
@@ -478,6 +483,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       const onlyUnanswered = document.querySelector('[data-filter="unanswered"]').checked;
       const onlyClosed = document.querySelector('[data-filter="closed"]').checked;
       const onlyNoPosition = document.querySelector('[data-filter="noposition"]').checked;
+      const onlyNotAccepted = document.querySelector('[data-filter="notaccepted"]').checked;
       const whose = (document.querySelector('input[name="whose"]:checked') || {}).value || "any";
       const hits = rows.filter((r) => {
         if (onlyUnanswered && r.k !== "awaiting a response") return false;
@@ -485,6 +491,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
         // Answered, but without a verdict: noted, closed with the form letter,
         // or passed over by a response that answers the report as a whole.
         if (onlyNoPosition && !(r.n === "noted" || r.n === "form letter" || r.n === "not individual")) return false;
+        if (onlyNotAccepted && r.v !== "not accepted") return false;
         // r.b holds the named author when the recommendation is a dissenting,
         // minority or party one, and is empty when nothing names another author.
         if (whose === "dissent" && !r.b) return false;
@@ -573,8 +580,10 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
         if (over) parts.push(`${over.toLocaleString("en-AU")} passed over by a response that does not address them individually`);
         const rest = n - wait - shut - over;
         const stated = hits.filter((r) => r.n === "position").length;
+        const refused = hits.filter((r) => r.v === "not accepted").length;
         if (rest) parts.push(`${rest.toLocaleString("en-AU")} answered individually, ` +
-          `${stated.toLocaleString("en-AU")} of them with a stated position`);
+          `${stated.toLocaleString("en-AU")} of them with a stated position` +
+          (refused ? ` (${refused.toLocaleString("en-AU")} not accepted)` : ""));
         status.textContent =
           `${n.toLocaleString("en-AU")} result${n === 1 ? "" : "s"} for “${q}”: ` +
           `${own.toLocaleString("en-AU")} with the words in the recommendation itself, ` +

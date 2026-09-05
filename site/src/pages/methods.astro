@@ -278,6 +278,15 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       name another author (a dissenting or minority report) are excluded throughout.
     </p>
     <p>
+      Where a position is stated, the verdict word is sorted three ways and nothing is inferred
+      from it: <em>accepted</em> when the word is supported, agreed, accepted, endorsed or
+      implemented with no qualifier; <em>in part or in principle</em> when the same sentence
+      qualifies it (in principle, in part, partially, partly, broadly, generally); <em>not
+      accepted</em> when the word is negated or is reject, decline or disagree. The verdict is
+      read from the sentence the word is in, so a “does not” later in the response about
+      something else cannot change it.
+    </p>
+    <p>
       The test is mechanical and errs one way on purpose. A response that commits to action
       without a verdict word (“the Government will legislate this in 2027”) is counted as
       noted, because the test cannot see it. So the figure published as “position stated” is
@@ -290,8 +299,9 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
         <>
           {" "}On this build: {fmt(cov.total.positionStated)} of {fmt(cov.total.recommendations)} recommendations
           in {fmt(cov.total.responses)} responses have a stated position
-          ({((cov.total.coverage ?? 0) * 100).toFixed(0)}%); {fmt(cov.responsesWithNothingIndexed)} responses
-          hold nothing the index can read.
+          ({((cov.total.coverage ?? 0) * 100).toFixed(0)}%): {fmt(cov.total.accepted)} accepted,
+          {" "}{fmt(cov.total.inPartOrInPrinciple)} in part or in principle, {fmt(cov.total.notAccepted)} not
+          accepted. {fmt(cov.responsesWithNothingIndexed)} responses hold nothing the index can read.
           {" "}<a href="/senate/responses/#coverage">The figures, by year</a>.
         </>
       )}

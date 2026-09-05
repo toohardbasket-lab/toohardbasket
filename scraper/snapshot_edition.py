@@ -86,6 +86,7 @@ def coverage_totals() -> dict:
     s = json.loads(f.read_text(encoding="utf-8"))
     t = s.get("total", {})
     return {k: t.get(k) for k in ("responses", "recommendations", "position_stated",
+                                  "accepted", "in_part_or_in_principle", "not_accepted",
                                   "noted_no_position", "form_letter",
                                   "not_addressed_individually", "unreadable", "coverage")}
 

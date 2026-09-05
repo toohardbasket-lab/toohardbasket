@@ -126,8 +126,16 @@ def the_coverage_file_agrees_with_the_index() -> None:
         fail(f"coverage.csv counts {stated} stated positions; recommendation_positions.csv "
              f"has {counted}")
         return
+    split = sum(int(r.get(k) or 0) for r in cov
+                for k in ("accepted", "in_part_or_in_principle", "not_accepted"))
+    if split != stated:
+        fail(f"coverage.csv: {stated} stated positions but the verdicts add to {split}")
+        return
+    if sum(1 for r in pos if r["state"] == "position" and not r.get("verdict")):
+        fail("recommendation_positions.csv has a stated position with no verdict")
+        return
     ok(f"coverage: {len(cov)} responses, {counted} recommendations with a stated position, "
-       f"one state per index row")
+       f"verdicts add up, one state per index row")
 
 
 def the_removals_are_counted_and_listed_alike() -> None:

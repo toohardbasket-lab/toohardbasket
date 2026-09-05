@@ -222,6 +222,40 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
         {" "}{fmt(cov.total.responses)} responses stated a position on none of their recommendations;
         {" "}{fmt(cov.total.responsesFullyCovered)} stated one on every recommendation.
       </p>
+      <h3>What the positions were</h3>
+      <p>
+        Where a position was stated, the government’s own verdict word is sorted three ways and
+        nothing is inferred from it: <em>accepted</em> (supported, agreed, accepted, endorsed or
+        implemented, unqualified); <em>in part or in principle</em> (the same sentence qualifies
+        it); <em>not accepted</em> (negated, or rejected, declined, disagreed). “Supports in
+        principle” therefore counts as in part or in principle, whatever it goes on to promise.
+      </p>
+      <table class="register narrow">
+        <thead>
+          <tr>
+            <th scope="col">What the response said</th>
+            <th scope="col" class="num">Recommendations</th>
+            <th scope="col" class="num">Share of all shown</th>
+          </tr>
+        </thead>
+        <tbody>
+          {[
+            ["Accepted, supported or agreed", cov.total.accepted],
+            ["In part or in principle", cov.total.inPartOrInPrinciple],
+            ["Not accepted", cov.total.notAccepted],
+            ["Noted, no position stated", cov.total.notedNoPosition],
+            ["Closed with the form letter", cov.total.formLetter],
+            ["Not addressed individually", cov.total.notAddressedIndividually],
+          ].map(([label, n]) => (
+            <tr>
+              <td>{label}</td>
+              <td class="num">{fmt(n as number)}</td>
+              <td class="num">{cov.total.recommendations ? `${(((n as number) / cov.total.recommendations) * 100).toFixed(0)}%` : "—"}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <h3>By year</h3>
       <table class="register narrow">
         <thead>
           <tr>
@@ -230,6 +264,9 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
             <th scope="col" class="num">Recommendations</th>
             <th scope="col" class="num">Position stated</th>
             <th scope="col" class="num">Share</th>
+            <th scope="col" class="num">Accepted</th>
+            <th scope="col" class="num">In part or in principle</th>
+            <th scope="col" class="num">Not accepted</th>
           </tr>
         </thead>
         <tbody>
@@ -240,6 +277,9 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
               <td class="num">{fmt(bucket.recommendations)}</td>
               <td class="num">{fmt(bucket.positionStated)}</td>
               <td class="num">{pct(bucket.coverage)}</td>
+              <td class="num">{fmt(bucket.accepted)}</td>
+              <td class="num">{fmt(bucket.inPartOrInPrinciple)}</td>
+              <td class="num">{fmt(bucket.notAccepted)}</td>
             </tr>
           ))}
         </tbody>
