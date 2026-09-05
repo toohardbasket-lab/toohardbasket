@@ -1,0 +1,43 @@
+---
+/**
+ * Show the first few rows of a table and a button for the rest.
+ *
+ * For tables that need no search or sort (by committee). The whole table is
+ * in the HTML; without JavaScript every row shows. With it, rows past the
+ * limit are hidden until the reader asks, so a long table does not push the
+ * next section off the screen.
+ */
+interface Props {
+  /** id of the table */
+  target: string;
+  limit?: number;
+  noun?: string;
+}
+const { target, limit = 10, noun = "rows" } = Astro.props;
+---
+
+<span data-collapse={target} data-limit={limit} data-noun={noun} hidden></span>
+
+<script>
+  document.querySelectorAll<HTMLElement>("[data-collapse]").forEach((tag) => {
+    const table = document.getElementById(tag.dataset.collapse!) as HTMLTableElement | null;
+    const body = table?.tBodies[0];
+    if (!body) return;
+    const limit = Number(tag.dataset.limit ?? 10);
+    const rows = Array.from(body.rows);
+    if (rows.length <= limit) return;
+    const noun = tag.dataset.noun ?? "rows";
+    for (const r of rows.slice(limit)) r.hidden = true;
+    const more = document.createElement("p");
+    more.className = "show-all";
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = `Show all ${rows.length} ${noun}`;
+    button.addEventListener("click", () => {
+      for (const r of rows) r.hidden = false;
+      more.remove();
+    });
+    more.appendChild(button);
+    table!.insertAdjacentElement("afterend", more);
+  });
+</script>

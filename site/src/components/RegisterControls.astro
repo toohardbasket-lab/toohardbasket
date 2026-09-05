@@ -21,12 +21,19 @@ interface Props {
   target: string;
   /** what one row is, in prose: "reports" */
   noun?: string;
+  /**
+   * How many rows to show before a "show all" button. The whole table is in
+   * the HTML and a reader without JavaScript sees all of it; the collapse is
+   * only for the page's length on a phone, where 82 rows put everything
+   * after the table a long way down.
+   */
+  limit?: number;
 }
-const { target, noun = "reports" } = Astro.props;
+const { target, noun = "reports", limit = 20 } = Astro.props;
 const id = `controls-${target}`;
 ---
 
-<div class="controls" id={id} data-target={target} data-noun={noun} hidden>
+<div class="controls" id={id} data-target={target} data-noun={noun} data-limit={limit} hidden>
   <div class="field">
     <label for={`${id}-q`}>Search</label>
     <input
@@ -57,6 +64,8 @@ const id = `controls-${target}`;
     if (!body) return;
 
     const noun = panel.dataset.noun ?? "rows";
+    const limit = Number(panel.dataset.limit ?? 0) || Infinity;
+    let expanded = false;
     const search = panel.querySelector("input[type=search]") as HTMLInputElement;
     const order = panel.querySelector("select") as HTMLSelectElement;
     const count = panel.querySelector(".count") as HTMLParagraphElement;
@@ -69,6 +78,17 @@ const id = `controls-${target}`;
     const cell = document.createElement("td");
     cell.colSpan = table!.tHead?.rows[0]?.cells.length ?? 1;
     empty.appendChild(cell);
+
+    // The "show all" control, after the table. It only ever reveals rows the
+    // page already holds.
+    const more = document.createElement("p");
+    more.className = "show-all";
+    const button = document.createElement("button");
+    button.type = "button";
+    more.appendChild(button);
+    table!.insertAdjacentElement("afterend", more);
+    more.hidden = true;
+    button.addEventListener("click", () => { expanded = true; apply(); });
 
     const num = (r: HTMLTableRowElement) => Number(r.dataset.days ?? 0);
     const text = (r: HTMLTableRowElement, k: string) => (r.dataset[k] ?? "").toLowerCase();
@@ -90,18 +110,25 @@ const id = `controls-${target}`;
       });
       shown.sort(sorters[order.value] ?? sorters.longest);
 
+      const visible = expanded ? shown : shown.slice(0, limit);
+      const collapsed = visible.length < shown.length;
+
       empty.remove();
-      for (const r of rows) if (!shown.includes(r)) r.remove();
-      for (const r of shown) body.appendChild(r);
+      for (const r of rows) if (!visible.includes(r)) r.remove();
+      for (const r of visible) body.appendChild(r);
 
       if (shown.length === 0) {
         cell.textContent = `No ${noun} match “${search.value.trim()}”.`;
         body.appendChild(empty);
       }
       count.textContent =
-        shown.length === total
-          ? `${total} ${noun}`
-          : `${shown.length} of ${total} ${noun}`;
+        collapsed
+          ? `Showing ${visible.length} of ${shown.length === total ? total : `${shown.length} matching`} ${noun}`
+          : shown.length === total
+            ? `${total} ${noun}`
+            : `${shown.length} of ${total} ${noun}`;
+      button.textContent = `Show all ${shown.length} ${noun}${shown.length === total ? "" : " that match"}`;
+      more.hidden = !collapsed;
     }
 
     search.addEventListener("input", apply);

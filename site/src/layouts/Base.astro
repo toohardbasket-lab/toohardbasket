@@ -71,6 +71,16 @@ const moved = editionDiff();
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <style is:global>
+      /* Rows a "show all" control has folded away; the attribute must win
+         over the phone layout's display rules on table rows. */
+      [hidden] { display: none !important; }
+      .show-all { margin: 0.75rem 0 0; font-family: var(--sans); font-size: 0.875rem; }
+      .show-all button {
+        font: inherit; background: none; border: 1px solid var(--rule-strong); border-radius: 2px;
+        padding: 0.4rem 0.8rem; color: inherit; cursor: pointer;
+      }
+      .show-all button:hover { border-color: currentColor; }
+      .show-all button:focus-visible { outline: 2px solid currentColor; outline-offset: 1px; }
       :root {
         color-scheme: light;
         --surface:        #fcfcfb;

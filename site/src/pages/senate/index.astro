@@ -2,6 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import RegisterControls from "../../components/RegisterControls.astro";
 import StatTiles from "../../components/StatTiles.astro";
+import Collapse from "../../components/Collapse.astro";
 import AnsweredSinceList from "../../components/AnsweredSince.astro";
 import { ledger, answeredSince, complianceDetail, history, humanDuration, fmt, formatDate, formatDateShort, inMonths, scheduleMeta } from "../../lib/data";
 import { registerBySlug } from "../../lib/registers";
@@ -234,7 +235,7 @@ const byCommittee = [...rows.reduce((m, r) => {
     <p class="note measure">
       Committees with reports still outstanding, most first.
     </p>
-    <table class="register narrow">
+    <table class="register narrow" id="senate-by-committee">
       <thead>
         <tr>
           <th scope="col">Committee</th>
@@ -252,6 +253,7 @@ const byCommittee = [...rows.reduce((m, r) => {
         ))}
       </tbody>
     </table>
+    <Collapse target="senate-by-committee" limit={10} noun="committees" />
   </section>
 
   <section class="wrap">
