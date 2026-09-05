@@ -108,6 +108,14 @@ jobs:
           python extract_report_recommendations.py
       - name: Verify every recommendation against its source (gate)
         run: python verify_recommendations.py
+      # For each recommendation the index holds: did the response state a
+      # position on it? A mechanical test (tests/test_coverage.py says what it
+      # must and must not count), written out per recommendation and per
+      # response so the search page and the responses page read one file.
+      - name: Stated-position tests (gate)
+        run: python tests/test_coverage.py
+      - name: Measure coverage
+        run: python coverage.py
       - name: Removal-step tests (gate)
         run: python tests/test_answered_since.py
       - name: Remove reports answered since the schedules

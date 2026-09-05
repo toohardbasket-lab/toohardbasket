@@ -302,6 +302,31 @@ def main(as_json: bool = False) -> int:
     except FileNotFoundError:
         pass
 
+    # ------------------------------------------------------------ coverage
+    # For each recommendation the index holds, whether the response stated a
+    # position on it. Produced by coverage.py; read back here so the brief
+    # quotes the same file the site does.
+    cov_file = DATA / "coverage_summary.json"
+    if cov_file.exists():
+        cov = read_json("coverage_summary.json")
+        t = cov["total"]
+        out["coverage"] = {
+            "definition": cov["definition"],
+            "responses_with_recommendations_indexed": t["responses"],
+            "responses_with_nothing_indexed": cov["responses_with_nothing_indexed"],
+            "recommendations_assessed": t["recommendations"],
+            "position_stated": t["position_stated"],
+            "position_stated_share": t["coverage"],
+            "noted_no_position": t["noted_no_position"],
+            "form_letter": t["form_letter"],
+            "not_addressed_individually": t["not_addressed_individually"],
+            "unreadable_excluded": t["unreadable"],
+            "responses_with_no_position_on_any_recommendation": t["responses_with_no_position_at_all"],
+            "responses_with_a_position_on_every_recommendation": t["responses_fully_covered"],
+            "by_year": {y: {"recommendations": v["recommendations"], "position_stated": v["position_stated"],
+                            "share": v["coverage"]} for y, v in cov["by_year"].items()},
+        }
+
     out["generated"] = date.today().isoformat()
 
     if as_json:

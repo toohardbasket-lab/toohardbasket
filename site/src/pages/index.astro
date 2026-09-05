@@ -9,6 +9,9 @@ import {
   humanDuration, inMonths, fmt, formatDate, formatDateShort,
 } from "../lib/data";
 import { registerBySlug } from "../lib/registers";
+import { coverage } from "../lib/data";
+
+const cov = coverage();
 
 /**
  * The home page covers both chambers, and does it without adding them together.
@@ -273,6 +276,14 @@ const chambers = [
         <p>
           And a response arriving is not the same as a report being answered:
           {" "}<a href="/senate/responses/">how the government answered →</a>
+          {cov && cov.total.coverage !== null && (
+            <>
+              {" "}Recommendation by recommendation, {fmt(cov.total.positionStated)} of the
+              {" "}{fmt(cov.total.recommendations)} this site can show received a stated position,
+              {" "}{(cov.total.coverage * 100).toFixed(0)} per cent.
+              {" "}<a href="/senate/responses/#coverage">How that is counted →</a>
+            </>
+          )}
         </p>
       )}
     </div>

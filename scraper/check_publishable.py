@@ -102,6 +102,34 @@ def the_recommendation_index_is_populated() -> None:
     ok(f"recommendations.csv: {len(recs)} recommendations from {docs} documents")
 
 
+def the_coverage_file_agrees_with_the_index() -> None:
+    """coverage.csv and recommendation_positions.csv are derived from
+    recommendations.csv by coverage.py. If the index was rebuilt and coverage
+    was not, the search page would label rows from one build with states from
+    another, and the responses page would publish a rate for a corpus that no
+    longer exists."""
+    recs = rows("recommendations.csv")
+    if not recs:
+        return
+    pos = rows("recommendation_positions.csv")
+    if not pos:
+        fail("recommendation_positions.csv is missing or empty — run coverage.py after the index")
+        return
+    if len(pos) != len(recs):
+        fail(f"recommendation_positions.csv has {len(pos)} rows; recommendations.csv has "
+             f"{len(recs)} — coverage.py has not been run on this index")
+        return
+    cov = rows("coverage.csv")
+    stated = sum(int(r["position_stated"] or 0) for r in cov)
+    counted = sum(1 for r in pos if r["state"] == "position")
+    if stated != counted:
+        fail(f"coverage.csv counts {stated} stated positions; recommendation_positions.csv "
+             f"has {counted}")
+        return
+    ok(f"coverage: {len(cov)} responses, {counted} recommendations with a stated position, "
+       f"one state per index row")
+
+
 def the_removals_are_counted_and_listed_alike() -> None:
     """Each register states how many reports it removed and lists them.
 
@@ -202,6 +230,7 @@ def main() -> int:
     every_report_link_is_the_committees_own()
     the_removals_are_counted_and_listed_alike()
     the_recommendation_index_is_populated()
+    the_coverage_file_agrees_with_the_index()
     nothing_has_gone_backwards()
 
     if failures:

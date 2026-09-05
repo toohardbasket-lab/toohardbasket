@@ -8,6 +8,9 @@ import {
 import { registerBySlug, plannedRegisters } from "../lib/registers";
 import { FORMS, formHref } from "../lib/forms";
 import { ABOUT } from "../lib/about";
+import { coverage } from "../lib/data";
+
+const cov = coverage();
 
 const senate = registerBySlug("senate")!;
 const rows = ledger();
@@ -249,15 +252,49 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       addressed no recommendation. The true figure for “answered nothing” is higher.
     </p>
     <p>
-      The measure that would reach it is <strong>coverage</strong>: for each recommendation a
+      The measure that reaches it is <strong>coverage</strong>: for each recommendation a
       committee made, did the response state a position on it? It is countable, it is neutral
       about whether the position was right, and all four forms above score zero against it.
-      Building it requires parsing the reports for their recommendations as well as the
-      responses. The first part of that is done: wherever a response quotes nothing from the
-      report it answers, the {" "}<a href="/recommendations/">search index</a> reads the
-      report and shows each of its recommendations with the fact that the response did not
-      address it individually. The coverage figure itself, how many of its recommendations
-      each response stated a position on, is not published yet.
+    </p>
+    <h3 id="coverage">How coverage is measured</h3>
+    <p>
+      A recommendation has a <strong>stated position</strong> when the government’s own words
+      about it use a verdict word of the recommendation: supported, agreed, accepted, endorsed,
+      rejected, declined, not supported, not agreed, not accepted or implemented, in full, in
+      part or in principle. The word can be a label at the start (“Supported in principle”) or
+      a verb whose object is the recommendation (“The Government does not agree to this
+      recommendation”). “Supports the intent” counts, because it is a position; whether it is
+      much of one is for the reader, and the words are on the search page.
+    </p>
+    <p>
+      Every other recommendation is in one of four states, each a fact about the document:
+      <em>noted</em>, where the government’s words are there but no verdict word is used of the
+      recommendation; <em>form letter</em>, the passage-of-time template; <em>not addressed
+      individually</em>, where the response does not set the recommendation out at all and it
+      was read from the committee’s report instead; and <em>unreadable</em>, where the
+      response quotes the recommendation but its words about it could not be separated from
+      the recommendation’s own text. Coverage is stated positions over recommendations in the
+      first three states; unreadable rows are counted on neither side. Recommendations that
+      name another author (a dissenting or minority report) are excluded throughout.
+    </p>
+    <p>
+      The test is mechanical and errs one way on purpose. A response that commits to action
+      without a verdict word (“the Government will legislate this in 2027”) is counted as
+      noted, because the test cannot see it. So the figure published as “position stated” is
+      a floor and the figure for “noted” a ceiling; the method cannot inflate the first.
+      The sentences the test must and must not count are fixed in
+      {" "}<code>tests/test_coverage.py</code>, which the weekly job runs before it measures
+      anything. Responses that hold nothing the index can read are outside the measure and
+      counted separately.
+      {cov && (
+        <>
+          {" "}On this build: {fmt(cov.total.positionStated)} of {fmt(cov.total.recommendations)} recommendations
+          in {fmt(cov.total.responses)} responses have a stated position
+          ({((cov.total.coverage ?? 0) * 100).toFixed(0)}%); {fmt(cov.responsesWithNothingIndexed)} responses
+          hold nothing the index can read.
+          {" "}<a href="/senate/responses/#coverage">The figures, by year</a>.
+        </>
+      )}
     </p>
   </section>
 

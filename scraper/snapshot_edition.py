@@ -76,6 +76,20 @@ def register(name: str, ledger: str, meta_name: str, status) -> dict:
     }
 
 
+def coverage_totals() -> dict:
+    """The stated-position totals for this build, from coverage_summary.json,
+    so an edition records what the responses page said as well as what the
+    registers said. Absent (an older dataset) reads as an empty dict."""
+    f = DATA / "coverage_summary.json"
+    if not f.exists():
+        return {}
+    s = json.loads(f.read_text(encoding="utf-8"))
+    t = s.get("total", {})
+    return {k: t.get(k) for k in ("responses", "recommendations", "position_stated",
+                                  "noted_no_position", "form_letter",
+                                  "not_addressed_individually", "unreadable", "coverage")}
+
+
 def main() -> int:
     senate_meta = json.loads((DATA / "ledger_meta.json").read_text(encoding="utf-8"))
     house_meta = json.loads((DATA / "house_ledger_meta.json").read_text(encoding="utf-8"))
@@ -104,6 +118,7 @@ def main() -> int:
             "rows": len(recs),
             "awaiting_a_response": sum(1 for r in recs if r["response_classification"] == "awaiting a response"),
         },
+        "coverage": coverage_totals(),
     }
     if edition["senate"]["outstanding"] == 0 or edition["house"]["outstanding"] == 0:
         print("REFUSING: an empty register is not an edition", file=sys.stderr)

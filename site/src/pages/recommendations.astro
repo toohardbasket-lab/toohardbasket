@@ -75,6 +75,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     <div class="filters" data-filters hidden>
       <label><input type="checkbox" data-filter="unanswered" /> Only those with no government response</label>
       <label><input type="checkbox" data-filter="closed" /> Only those closed with the form letter</label>
+      <label><input type="checkbox" data-filter="noposition" /> Only those answered without a stated position</label>
       {/*
         A radio group rather than two more tick boxes: "only the committee's"
         and "only dissenting" are mutually exclusive, and two boxes would let a
@@ -135,6 +136,16 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       and a one-word label would be our summary, not their answer. Where the sentence
       is the passage-of-time template, that is what a form-letter closure looks like, and
       {" "}<a href="/methods/#closures">Methods explains how those are identified</a>.
+    </p>
+    <p>
+      <strong>Whether a position was stated.</strong> Each result that carries the
+      government’s words is marked <em>position stated</em> or <em>noted, no position
+      stated</em>. A position is a verdict word used of the recommendation: supported,
+      agreed, accepted, endorsed, rejected, declined, not supported, not agreed, not
+      accepted or implemented, in full, in part or in principle. “Noted” followed by a
+      description of existing policy is not a position. The test is mechanical and the
+      words are on the screen, so the label can be checked against them.
+      {" "}<a href="/senate/responses/#coverage">How often a position is stated</a>.
     </p>
     <p>
       <strong>Whose recommendation it is.</strong> Dissenting reports, minority reports and
@@ -305,6 +316,13 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
   :global(.results .meta) { font-size: 0.875rem; color: var(--ink-muted); margin: 0; }
   :global(.results .who) { color: var(--ink-secondary); }
   :global(.results .byline.muted) { color: var(--ink-muted); border-style: dashed; }
+  :global(.results .state) {
+    display: inline-block; margin-left: 0.5rem; padding: 0.05rem 0.4rem;
+    font-size: 0.6875rem; letter-spacing: 0.05em; text-transform: uppercase;
+    font-style: normal; color: var(--ink-muted);
+    border: 1px solid var(--rule-strong); border-radius: 2px; vertical-align: 0.1em;
+  }
+  :global(.results .state.on) { color: var(--series-1); border-color: var(--series-1); }
   :global(.results .byline) {
     display: inline-block; margin-left: 0.4rem; padding: 0.05rem 0.4rem;
     font-size: 0.6875rem; letter-spacing: 0.05em; text-transform: uppercase;
@@ -395,8 +413,14 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     const render = (hits, terms) => {
       list.innerHTML = hits.slice(0, LIMIT).map((r) => {
         const words = r.g.length > 420 ? r.g.slice(0, 420).replace(/\s+\S*$/, "") + "…" : r.g;
+        // What the response did with it, from coverage.py: a verdict word used
+        // of the recommendation, or words without one. The form letter and
+        // the not-individually cases already say so in the sentence below.
+        const stance = r.n === "position"
+          ? `<span class="state on">position stated</span>`
+          : (r.n === "noted" ? `<span class="state">noted, no position stated</span>` : "");
         const said = r.g
-          ? `<p class="gov">The government said: “${esc(words)}”</p>`
+          ? `<p class="gov">The government said: “${esc(words)}”${stance}</p>`
           : (r.k === "awaiting a response"
              ? `<p class="gov none">No government response has been tabled. This report is on the register.</p>`
              : (r.s === "report"
@@ -453,10 +477,14 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       const res = terms.map((t) => new RegExp("\\b" + t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i"));
       const onlyUnanswered = document.querySelector('[data-filter="unanswered"]').checked;
       const onlyClosed = document.querySelector('[data-filter="closed"]').checked;
+      const onlyNoPosition = document.querySelector('[data-filter="noposition"]').checked;
       const whose = (document.querySelector('input[name="whose"]:checked') || {}).value || "any";
       const hits = rows.filter((r) => {
         if (onlyUnanswered && r.k !== "awaiting a response") return false;
         if (onlyClosed && r.k !== "proforma_closure") return false;
+        // Answered, but without a verdict: noted, closed with the form letter,
+        // or passed over by a response that answers the report as a whole.
+        if (onlyNoPosition && !(r.n === "noted" || r.n === "form letter" || r.n === "not individual")) return false;
         // r.b holds the named author when the recommendation is a dissenting,
         // minority or party one, and is empty when nothing names another author.
         if (whose === "dissent" && !r.b) return false;
@@ -544,7 +572,9 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
         // about counts the one-line tally must not fold that in.
         if (over) parts.push(`${over.toLocaleString("en-AU")} passed over by a response that does not address them individually`);
         const rest = n - wait - shut - over;
-        if (rest) parts.push(`${rest.toLocaleString("en-AU")} answered`);
+        const stated = hits.filter((r) => r.n === "position").length;
+        if (rest) parts.push(`${rest.toLocaleString("en-AU")} answered individually, ` +
+          `${stated.toLocaleString("en-AU")} of them with a stated position`);
         status.textContent =
           `${n.toLocaleString("en-AU")} result${n === 1 ? "" : "s"} for “${q}”: ` +
           `${own.toLocaleString("en-AU")} with the words in the recommendation itself, ` +

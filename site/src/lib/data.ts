@@ -1090,10 +1090,30 @@ export interface Recommendation {
   responseUrl: string;
   responseTabled: string;
   reportUrl: string;
+  /**
+   * What the response did with this recommendation, from coverage.py:
+   * "position" (a verdict word used of the recommendation), "noted" (words,
+   * no verdict), "form letter", "not individual", "unreadable", "awaiting",
+   * "dissent", or "" when the positions file has not been built.
+   */
+  position: string;
+}
+
+/** The state coverage.py gave each index row, keyed the way that file keys it. */
+function positionStates(): Map<string, string> {
+  const f = path.join(DATA_DIR, "recommendation_positions.csv");
+  const m = new Map<string, string>();
+  if (!fs.existsSync(f)) return m;
+  for (const r of read("recommendation_positions.csv")) {
+    m.set(`${r.source}|${r.source_id}|${r.label}|${r.recommended_by ?? ""}`, r.state);
+  }
+  return m;
 }
 
 export function recommendations(): Recommendation[] {
+  const states = positionStates();
   return read("recommendations.csv").map((r) => ({
+    position: states.get(`${r.source}|${r.source_id}|${r.label}|${r.recommended_by ?? ""}`) ?? "",
     source: r.source as Recommendation["source"],
     sourceId: r.source_id,
     label: r.label,
@@ -1221,6 +1241,72 @@ export function closureDetail(): ClosureDetail {
     ...closures(),
     byYear,
     slowest,
+  };
+}
+
+export interface CoverageBucket {
+  responses: number;
+  responsesWithNoPositionAtAll: number;
+  responsesFullyCovered: number;
+  recommendations: number;
+  positionStated: number;
+  notedNoPosition: number;
+  formLetter: number;
+  notAddressedIndividually: number;
+  unreadable: number;
+  /** positionStated / recommendations, or null when nothing is assessable. */
+  coverage: number | null;
+}
+
+export interface Coverage {
+  definition: string;
+  responsesInCorpus: number;
+  responsesWithNothingIndexed: number;
+  dissentingExcluded: number;
+  total: CoverageBucket;
+  byYear: { year: string; bucket: CoverageBucket }[];
+  byClassification: Record<string, CoverageBucket>;
+}
+
+/**
+ * For each recommendation the index holds, did the response state a position
+ * on it? Read from coverage_summary.json, which coverage.py writes from the
+ * same recommendations.csv the search page is built from.
+ */
+export function coverage(): Coverage | null {
+  const f = path.join(DATA_DIR, "coverage_summary.json");
+  if (!fs.existsSync(f)) return null;
+  type Raw = {
+    responses: number; responses_with_no_position_at_all: number; responses_fully_covered: number;
+    recommendations: number; position_stated: number; noted_no_position: number; form_letter: number;
+    not_addressed_individually: number; unreadable: number; coverage: number | null;
+  };
+  const bucket = (b: Raw): CoverageBucket => ({
+    responses: b.responses,
+    responsesWithNoPositionAtAll: b.responses_with_no_position_at_all,
+    responsesFullyCovered: b.responses_fully_covered,
+    recommendations: b.recommendations,
+    positionStated: b.position_stated,
+    notedNoPosition: b.noted_no_position,
+    formLetter: b.form_letter,
+    notAddressedIndividually: b.not_addressed_individually,
+    unreadable: b.unreadable,
+    coverage: b.coverage,
+  });
+  const s = readJson<{
+    definition: string; responses_in_corpus: number; responses_with_nothing_indexed: number;
+    dissenting_recommendations_excluded: number; total: Raw; by_year: Record<string, Raw>;
+    by_classification: Record<string, Raw>;
+  }>("coverage_summary.json");
+  return {
+    definition: s.definition,
+    responsesInCorpus: s.responses_in_corpus,
+    responsesWithNothingIndexed: s.responses_with_nothing_indexed,
+    dissentingExcluded: s.dissenting_recommendations_excluded,
+    total: bucket(s.total),
+    byYear: Object.entries(s.by_year).sort(([a], [b]) => a.localeCompare(b))
+      .map(([year, b]) => ({ year, bucket: bucket(b) })),
+    byClassification: Object.fromEntries(Object.entries(s.by_classification).map(([k, b]) => [k, bucket(b)])),
   };
 }
 

@@ -9,6 +9,7 @@
 import Base from "../../layouts/Base.astro";
 import {
   closureDetail, recommendationFloor, responseDoc, history, humanDuration, fmt, formatDate,
+  coverage,
 } from "../../lib/data";
 import { FORMS, formHref } from "../../lib/forms";
 import { LAUNCHED } from "../../lib/launch";
@@ -18,6 +19,10 @@ export function getStaticPaths() {
 }
 
 const c = closureDetail();
+/* Whether the response stated a position, recommendation by recommendation.
+   Null only on a dataset built before coverage.py existed. */
+const cov = coverage();
+const pct = (x: number | null) => (x === null ? "—" : `${(x * 100).toFixed(0)}%`);
 /**
  * The page used to lead with the count of "the Government notes this
  * recommendation" sentences, presented as a count of recommendations. It is
@@ -189,13 +194,72 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
     <p>
       So {fmt(c.proforma)} is a floor. The true figure for “answered nothing” is higher, and
       reaching it means asking, for every recommendation a committee made, whether the response
-      stated a position on it. The first part of that work is published: wherever a response
-      quotes nothing from the report it answers, the {" "}<a href="/recommendations/">search
-      index</a> reads the report and shows each recommendation with the fact that the response
-      did not address it individually. The figure itself is not published yet.
+      stated a position on it. That count is below.
       {" "}<a href="/methods/#closures">How this is classified, and why the other three are not</a>.
     </p>
   </section>
+
+  {cov && (
+    <section class="wrap measure" id="coverage">
+      <h2>Whether a position was stated, recommendation by recommendation</h2>
+      <p>
+        For each recommendation this site can show, the question is whether the response
+        stated a position on it. A position is a verdict word used of the recommendation:
+        supported, agreed, accepted, endorsed, rejected, declined, not supported, not agreed,
+        not accepted or implemented, in full, in part or in principle. “The Government notes
+        this recommendation” followed by a description of existing policy is not a position.
+        The test is mechanical, and every result on the
+        {" "}<a href="/recommendations/">search page</a> carries its label beside the
+        government’s words, so the label can be checked against them.
+      </p>
+      <p>
+        Of the <strong>{fmt(cov.total.recommendations)}</strong> recommendations in
+        {" "}{fmt(cov.total.responses)} responses, <strong>{fmt(cov.total.positionStated)}</strong>
+        {" "}({pct(cov.total.coverage)}) received a stated position. {fmt(cov.total.notedNoPosition)} were
+        noted without one, {fmt(cov.total.formLetter)} were closed with the form letter, and
+        {" "}{fmt(cov.total.notAddressedIndividually)} were passed over by a response that answered the
+        report as a whole. {fmt(cov.total.responsesWithNoPositionAtAll)} of the
+        {" "}{fmt(cov.total.responses)} responses stated a position on none of their recommendations;
+        {" "}{fmt(cov.total.responsesFullyCovered)} stated one on every recommendation.
+      </p>
+      <table class="register narrow">
+        <thead>
+          <tr>
+            <th scope="col">Year tabled</th>
+            <th scope="col" class="num">Responses</th>
+            <th scope="col" class="num">Recommendations</th>
+            <th scope="col" class="num">Position stated</th>
+            <th scope="col" class="num">Share</th>
+          </tr>
+        </thead>
+        <tbody>
+          {cov.byYear.map(({ year, bucket }) => (
+            <tr>
+              <td>{year}</td>
+              <td class="num">{fmt(bucket.responses)}</td>
+              <td class="num">{fmt(bucket.recommendations)}</td>
+              <td class="num">{fmt(bucket.positionStated)}</td>
+              <td class="num">{pct(bucket.coverage)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <p class="note">
+        Excluded, and why. {fmt(cov.responsesWithNothingIndexed)} of the {fmt(cov.responsesInCorpus)} responses
+        in the corpus hold nothing the index can read (no numbered recommendations in the response and
+        no readable report), so they are not in these figures. {fmt(cov.total.unreadable)} recommendations
+        whose government words could not be separated from the recommendation’s own text are counted on
+        neither side. {fmt(cov.dissentingExcluded)} dissenting, minority or party recommendations are left
+        out, because the government owes the committee a response, not the minority. The corpus is every
+        response since mid-2022, all but two of them tabled under one government, so this figure cannot
+        compare governments. A response that commits to action without a verdict word (“the Government
+        will legislate this”) is counted as noted, because the test cannot see it; “position stated” is
+        therefore a floor and “noted” a ceiling. Every response, with its counts, is in
+        {" "}<code>coverage.csv</code> in the
+        {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket">public dataset</a>.
+      </p>
+    </section>
+  )}
 
   <section class="wrap measure">
     <p class="note">

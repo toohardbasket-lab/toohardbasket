@@ -1,0 +1,145 @@
+{
+  "definition": "A recommendation has a stated position when the government's words about it say it is supported, agreed, accepted, endorsed, rejected, declined, not supported, not agreed, not accepted or implemented, in full, in part or in principle. Coverage is stated positions over recommendations the index holds for the response, excluding dissenting recommendations and rows whose government words could not be read.",
+  "responses_in_corpus": 623,
+  "responses_with_nothing_indexed": 179,
+  "dissenting_recommendations_excluded": 257,
+  "awaiting_a_response_excluded": 1109,
+  "total": {
+    "responses": 444,
+    "responses_with_no_position_at_all": 250,
+    "responses_fully_covered": 58,
+    "recommendations": 3493,
+    "position_stated": 1025,
+    "noted_no_position": 561,
+    "form_letter": 1427,
+    "not_addressed_individually": 480,
+    "unreadable": 305,
+    "coverage": 0.2934
+  },
+  "by_year": {
+    "2022": {
+      "responses": 8,
+      "responses_with_no_position_at_all": 1,
+      "responses_fully_covered": 2,
+      "recommendations": 88,
+      "position_stated": 77,
+      "noted_no_position": 11,
+      "form_letter": 0,
+      "not_addressed_individually": 0,
+      "unreadable": 12,
+      "coverage": 0.875
+    },
+    "2023": {
+      "responses": 40,
+      "responses_with_no_position_at_all": 5,
+      "responses_fully_covered": 14,
+      "recommendations": 341,
+      "position_stated": 255,
+      "noted_no_position": 82,
+      "form_letter": 0,
+      "not_addressed_individually": 4,
+      "unreadable": 40,
+      "coverage": 0.7478
+    },
+    "2024": {
+      "responses": 197,
+      "responses_with_no_position_at_all": 149,
+      "responses_fully_covered": 17,
+      "recommendations": 1730,
+      "position_stated": 179,
+      "noted_no_position": 163,
+      "form_letter": 1285,
+      "not_addressed_individually": 103,
+      "unreadable": 76,
+      "coverage": 0.1035
+    },
+    "2025": {
+      "responses": 48,
+      "responses_with_no_position_at_all": 18,
+      "responses_fully_covered": 9,
+      "recommendations": 355,
+      "position_stated": 148,
+      "noted_no_position": 61,
+      "form_letter": 80,
+      "not_addressed_individually": 66,
+      "unreadable": 30,
+      "coverage": 0.4169
+    },
+    "2026": {
+      "responses": 151,
+      "responses_with_no_position_at_all": 77,
+      "responses_fully_covered": 16,
+      "recommendations": 979,
+      "position_stated": 366,
+      "noted_no_position": 244,
+      "form_letter": 62,
+      "not_addressed_individually": 307,
+      "unreadable": 147,
+      "coverage": 0.3739
+    }
+  },
+  "by_government": {
+    "Abbott / Turnbull / Morrison": {
+      "responses": 2,
+      "responses_with_no_position_at_all": 0,
+      "responses_fully_covered": 1,
+      "recommendations": 9,
+      "position_stated": 9,
+      "noted_no_position": 0,
+      "form_letter": 0,
+      "not_addressed_individually": 0,
+      "unreadable": 2,
+      "coverage": 1.0
+    },
+    "Albanese": {
+      "responses": 442,
+      "responses_with_no_position_at_all": 250,
+      "responses_fully_covered": 57,
+      "recommendations": 3484,
+      "position_stated": 1016,
+      "noted_no_position": 561,
+      "form_letter": 1427,
+      "not_addressed_individually": 480,
+      "unreadable": 303,
+      "coverage": 0.2916
+    }
+  },
+  "by_classification": {
+    "partial_proforma": {
+      "responses": 4,
+      "responses_with_no_position_at_all": 4,
+      "responses_fully_covered": 0,
+      "recommendations": 41,
+      "position_stated": 0,
+      "noted_no_position": 1,
+      "form_letter": 40,
+      "not_addressed_individually": 0,
+      "unreadable": 4,
+      "coverage": 0.0
+    },
+    "proforma_closure": {
+      "responses": 137,
+      "responses_with_no_position_at_all": 133,
+      "responses_fully_covered": 0,
+      "recommendations": 1410,
+      "position_stated": 0,
+      "noted_no_position": 8,
+      "form_letter": 1387,
+      "not_addressed_individually": 15,
+      "unreadable": 63,
+      "coverage": 0.0
+    },
+    "substantive": {
+      "responses": 303,
+      "responses_with_no_position_at_all": 113,
+      "responses_fully_covered": 58,
+      "recommendations": 2042,
+      "position_stated": 1025,
+      "noted_no_position": 552,
+      "form_letter": 0,
+      "not_addressed_individually": 465,
+      "unreadable": 238,
+      "coverage": 0.502
+    }
+  }
+}
