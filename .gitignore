@@ -35,3 +35,6 @@ scraper/ledger/*_parsed.json
 
 # Built pages copied out for eyeballing; never part of the site.
 site/_preview/
+
+# Patch files relayed between working copies live beside the repo, not in it.
+*.patch

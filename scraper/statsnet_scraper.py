@@ -131,6 +131,44 @@ def rows_from_cache(year: int) -> list[Row] | None:
     return out
 
 
+ATTEMPTS = 3
+
+
+def scrape_with_retry(page, year: int, attempts: int = ATTEMPTS) -> list[Row]:
+    """Scrape one year, trying more than once before giving up on the live page.
+
+    Nearly every failure of this step has been the same thing: aph.gov.au
+    taking longer than the wait allows, on a page that loads fine a minute
+    later. The scheduled run of 1 September and the manual run of 2 September
+    both died that way, and both succeeded on a retry by hand. Doing the retry
+    here means the fallback below is reserved for the page genuinely refusing
+    us, rather than being reached on a slow morning — which matters, because
+    falling back to cache is silent in the sense that the build stays green
+    and the compliance series quietly stops moving.
+
+    Each attempt re-navigates (scrape_range begins with page.goto), so a
+    part-loaded page from a failed attempt cannot poison the next one.
+    """
+    last: Exception | None = None
+    for attempt in range(1, attempts + 1):
+        try:
+            rows = scrape_range(page, f"01/01/{year}", f"31/12/{year}",
+                                source=f"statsnet/{year}")
+            if attempt > 1:
+                print(f"{year}: {len(rows)} responses (scraped on attempt {attempt})")
+            else:
+                print(f"{year}: {len(rows)} responses (scraped)")
+            return rows
+        except Exception as e:                       # noqa: BLE001 - reported below
+            last = e
+            if attempt < attempts:
+                print(f".. {year}: attempt {attempt} of {attempts} failed "
+                      f"({type(e).__name__}: {str(e).splitlines()[0][:100]}); "
+                      f"waiting {attempt * 10}s and trying again.")
+                page.wait_for_timeout(attempt * 10_000)
+    raise last                                       # type: ignore[misc]
+
+
 def scrape(year_from: int, year_to: int, refresh: set[int] | None = None) -> list[Row]:
     """Build the modern register, scraping only the years that can still change.
 
@@ -158,9 +196,7 @@ def scrape(year_from: int, year_to: int, refresh: set[int] | None = None) -> lis
             try:
                 for year in todo:
                     try:
-                        rows = scrape_range(page, f"01/01/{year}", f"31/12/{year}",
-                                            source=f"statsnet/{year}")
-                        print(f"{year}: {len(rows)} responses (scraped)")
+                        rows = scrape_with_retry(page, year)
                     except Exception as e:
                         # aph.gov.au filters automated traffic and the run may
                         # be refused on any given day. Falling back to the
