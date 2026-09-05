@@ -70,16 +70,16 @@ const stats = [
 ];
 const statsNote =
   `Met the deadline is the Speaker's own count, from the summary table on the fourth page of ` +
-  `his schedule: ${fmt(sched.answeredOnTime ?? 0)} of ${fmt(sched.answeredWithVerdict ?? 0)} ` +
-  `responses arrived within six months. Those are the responses received since his previous ` +
+  `the schedule: ${fmt(sched.answeredOnTime ?? 0)} of ${fmt(sched.answeredWithVerdict ?? 0)} ` +
+  `responses arrived within six months. Those are the responses received since the previous ` +
   `schedule, not a long-run record: unlike the Senate, the House publishes no register of ` +
   `responses going back to 2000, so this covers months where the Senate's equivalent covers ` +
   `decades. The two are not comparable and should not be quoted against each other.` +
   ((sched.onTimeGap ?? 0) > 0
-    ? ` Counting the rows of his own list instead gives ${fmt(sched.rowsMarkedOnTime ?? 0)}; ` +
+    ? ` Counting the rows of the schedule instead gives ${fmt(sched.rowsMarkedOnTime ?? 0)}; ` +
       `the ${fmt(sched.onTimeGap ?? 0)} in the gap are Public Accounts and Audit reports, ` +
       `answered by executive minute rather than by a government response. The smaller figure ` +
-      `is published because it is his own total.`
+      `is published because it is the Speaker’s own total.`
     : "");
 
 /**
@@ -230,8 +230,8 @@ const byCommittee = [...rows.reduce((m, r) => {
     <AnsweredSinceList rows={removedSince} officer="the Speaker" />
     {sched.responsesCheckedTo && (
       <p class="note measure">
-        <strong>How current that is.</strong> A register is only as current as the responses
-        it has seen. This build, made on {formatDate(sched.rebuilt)}, read every government
+        <strong>How current this is.</strong> This build, made on {formatDate(sched.rebuilt)},
+        read every government
         response the Tabled Documents register held when it ran; the latest was tabled on
         {" "}{formatDate(sched.responsesCheckedTo)}, and nothing tabled after it had been
         recorded there. A response tabled since will take its report off the register on the
@@ -284,8 +284,8 @@ const byCommittee = [...rows.reduce((m, r) => {
       Alongside it, the government publishes <a href={sched.beingConsideredSource}>its own
       status report</a>, presented on {formatDate(sched.beingConsideredTabled ?? "")} and
       covering the same date. That is where the words “the Government’s response is being
-      considered” are actually written; the President of the Senate abbreviates the same
-      sentence to an asterisk in her report. It is read here for one purpose, to say what
+      considered” are actually written; the President of the Senate’s report abbreviates
+      the same sentence to an asterisk. It is read here for one purpose, to say what
       the government has said about a report, and it can never add a report to this
       register or remove one from it. Which reports are outstanding is the Speaker’s to
       say. All {fmt(sched.governmentReportMatched ?? rows.length)} of the reports the
@@ -301,27 +301,27 @@ const byCommittee = [...rows.reduce((m, r) => {
         been provided ({fmt(sched.governmentStatuses.full)}), or that the response is being
         considered ({fmt(sched.governmentStatuses.considered)}). A report it has not
         answered can only fall in the third. So “being considered” here is close to a
-        restatement of “outstanding”, and the figure that carries information is how long,
-        not how many: {fmt(overOne.length)} of these reports have been waiting more than a year, and
+        restatement of “outstanding”, and the useful figure is how long, not how many:
+        {" "}{fmt(overOne.length)} of these reports have been waiting more than a year, and
         {" "}{fmt(overFive.length)} more than five, with the government saying the same thing
         about each of them. On
-        {" "}<a href="/senate/">the Senate register</a> the President distinguishes four
-        states, so the same phrase carries more there.
+        {" "}<a href="/senate/">the Senate register</a> the President’s report distinguishes
+        four states, so the phrase means more there.
       </p>
     )}
     <p class="note measure">
-      It also disagrees with the Speaker. He records a partial response for
+      It also disagrees with the Speaker. The schedule records a partial response for
       {" "}{fmt(partial.length)} of the reports below (the Joint Committee of Public
       Accounts and Audit is answered by executive minute, one recommendation at a time) and
       the government’s report calls those “being considered” too. The status column here
-      follows the Speaker, because his is the record this register publishes.
+      follows the Speaker, because the schedule is the record this register publishes.
     </p>
     {(sched.outOfPeriod ?? 0) > 0 && (
       <p class="note measure">
-        The schedule counts itself, by Parliament, on its fourth page, and that tally says
+        The schedule’s own tally, on its fourth page, says
         {" "}{fmt(sched.scheduleSaysOutstanding ?? rows.length)}, not the
         {" "}{fmt(rows.length)} published here. {fmt(sched.answeredSince)} of the difference
-        is the responses tabled since, listed above.
+        are the responses tabled since, listed above.
         {" "}{sched.outOfPeriod === 1 ? "The last is one report" : `The rest are ${fmt(sched.outOfPeriod ?? 0)} reports`}
         {" "}for which the schedule’s own entry records a response received before this
         reporting period, and for which the government’s report records the same response.
@@ -334,7 +334,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       {" "}{formatDate(sched.coversTo)}, which the Speaker has not yet reported on; because
       the schedule is presented about twice a year, that gap can be months wide.
       No compliance history: unlike the Senate, the House has no published register of
-      responses going back to 2000. The Speaker gives his own on-time verdict on the
+      responses going back to 2000. The Speaker’s schedule gives an on-time verdict on the
       responses each schedule records, which is what the figure above reports, but it
       covers one reporting period, not a quarter of a century.
     </p>
@@ -355,8 +355,8 @@ const byCommittee = [...rows.reduce((m, r) => {
       {keptBySenate.length > 0 && (
         <>
           {" "}{fmt(keptBySenate.length)} joint committee reports from before that date are
-          still on {" "}<a href="/senate/">the Senate register</a>, where the President kept
-          them; the oldest was tabled in {keptBySenate[0].owedSince.slice(0, 4)}.
+          still on {" "}<a href="/senate/">the Senate register</a>, which kept them; the
+          oldest was tabled in {keptBySenate[0].owedSince.slice(0, 4)}.
         </>
       )}
     </p>

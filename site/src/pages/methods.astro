@@ -51,7 +51,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       three exist: a stated obligation, a claimant, and a date.
     </p>
     <p>
-      The Senate is the first claimant, not the only one. It has required {senate.rule}{" "}
+      The Senate was the first claimant and the House is the second. The Senate has required {senate.rule}{" "}
       since {senate.ruleSince}. A report leaves the register when a response is tabled,
       whatever that response says. The register measures whether an answer was given,
       not whether it was a good one.
@@ -86,7 +86,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       </li>
       <li>
         <strong>The Senate’s live tracker</strong> of government responses, carried only for
-        reports tabled after the President’s report, the window she has not yet covered.
+        reports tabled after the President’s report, the period that report does not yet cover.
       </li>
       <li>
         <strong>The Tabled Documents database</strong> (OTD), through its public API, for
@@ -98,22 +98,22 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       </li>
     </ul>
     <p>
-      The register follows the President. Her report is fetched from the Tabled Documents
+      The register follows the President. The report is fetched from the Tabled Documents
       database, not typed in by hand, and its status column decides every row: a date means
       the response has been received and the report leaves the register; a dash means nothing
       has been received; “Interim” means an interim response; and “Interim*” means, in the
-      definition her own report gives, that the government has said only that “the
+      report’s own definition, that the government has said only that “the
       Government’s response is being considered”. Reports the President records as answered
-      are not published here as outstanding, and reports she lists are not filtered out.
+      are not published here as outstanding, and reports the President lists are not filtered out.
     </p>
     <p>
       <strong>The House register works the same way</strong>, from the Speaker’s schedule
       instead of the President’s report. Its status column reads slightly differently:
       a date, “no response to date”, “partial response received” or “fully responded”.
       Two further differences matter. The Speaker states whether each report is past its
-      deadline, and this site takes his word for it instead of counting six months off a
+      deadline, and this site follows the schedule instead of counting six months off a
       calendar, because the 2010 resolution excludes any period when the House was dissolved.
-      And his schedule is rolling: a report is dropped from later schedules once its response
+      And the schedule is rolling: a report is dropped from later schedules once its response
       arrives, so a row that still carries an older response date has been answered, and is
       not published here as outstanding. That is a judgement, and it is the one place this
       register departs from the Speaker’s own count.
@@ -130,8 +130,8 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     </p>
     <p>
       The tracker cannot add to, subtract from or overrule any of that. It is carried for one
-      purpose: reports tabled after the President’s as-at date, which she has not yet reported
-      on. Those rows are marked as the tracker’s in the register’s source column, and on many
+      purpose: reports tabled after the President’s as-at date, which the report does not yet
+      cover. Those rows are marked as the tracker’s in the register’s source column, and on many
       builds there are none. Where a response has been tabled since the President’s date, the
       report is removed and the response named. The build refuses to write a file if the
       President’s report comes back short, so a failed fetch cannot quietly shrink the
@@ -151,7 +151,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
   <section class="wrap measure">
     <h2 id="corpus">The response corpus</h2>
     <p>
-      Separately from the Ledger, this site examines the text of every government response
+      Separately from the registers, this site examines the text of every government response
       tabled since mid-2022, {fmt(cl.corpus)} documents, to ask what the response actually did.
       {" "}<strong>Read to {formatDate(cl.readTo)}.</strong> The weekly job downloads and
       classifies whatever has been tabled since it last ran, so this date moves with the
@@ -165,12 +165,12 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       )}
     </p>
     <p class="note">
-      Mid-2022 is not a judgment about when this began. It is where the Tabled Documents
-      system starts: it holds no government response tabled before then, so the classification
-      cannot reach further back and this site does not claim the practice is new.
+      Mid-2022 is where the Tabled Documents system starts, not a judgement about when the
+      practice began: the system holds no government response tabled before then, so the
+      classification cannot reach further back, and this site does not claim the practice is new.
     </p>
     <p>
-      The database category <em>Government response</em> is broader than that question. It
+      The database category <em>Government response</em> is broader than that. It
       also holds documents that answer somebody other than a parliamentary committee, or
       that are not responses at all. {fmt(cl.excluded)} documents are excluded by identifier,
       each with a recorded reason:
@@ -310,7 +310,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     <p>
       <strong>The deadline is three calendar months, not ninety days.</strong> The Senate's
       1973 resolution says three months and the President's report says three months, and
-      her own “Response provided within 3 months” column marks a 92-day response as within
+      the report’s own “Response provided within 3 months” column marks a 92-day response as within
       time. Ninety days is a shorter test than the Senate applies, and using it counted
       eleven responses late that the Senate counts on time. Every figure here is meant to
       be a floor, so the rule is read as the Senate reads it.
@@ -365,10 +365,10 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       counts are the dots on the chart. They do not match the line. Before the 2024
       clear-out the reconstruction runs about sixty reports high; after it, between
       fourteen and thirty-one low; by mid-2026 they are two apart. The two count slightly
-      different sets: her report excludes categories the response register contains, and
-      includes joint committee reports it does not. Neither is a correction of the other.
-      This page used to say the line was "a floor, not an exact count". On her own nine
-      readings it is not reliably a floor, so the chart now shows both.
+      different sets: the President’s report excludes categories the response register
+      contains, and includes joint committee reports it does not. Neither is a correction of
+      the other. This page used to say the line was "a floor, not an exact count". Against
+      the President’s nine counts it is not reliably a floor, so the chart now shows both.
     </p>
     <p>
       <strong>Refresh.</strong> A scheduled job rebuilds the dataset every Tuesday morning:

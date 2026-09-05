@@ -93,21 +93,22 @@ const byCommittee = [...rows.reduce((m, r) => {
   <section class="wrap">
     <h2 id="outstanding">Outstanding reports</h2>
     <p class="note measure">
-      Ordered by how long each has waited. The status column is the President’s own:
-      {" "}<em>being considered</em> is what she records as “Interim*”, and defines in her
-      report as the government saying only that “the Government’s response is being
+      Ordered by how long each has waited. The status column is the President’s:
+      {" "}<em>being considered</em> is the report’s “Interim*”, which the report defines
+      as the government saying only that “the Government’s response is being
       considered”.{" "}<a href="/methods/">How this is built</a>.
     </p>
     {sched.beingConsideredAsAt && (
       <p class="note measure">
-        <strong>That column has its own date.</strong> The President takes those marks from
-        the government’s own status report, which she says on her second page should be read
-        with hers: it is as at {formatDate(sched.beingConsideredAsAt)} and was tabled on
-        {" "}{formatDate(sched.beingConsideredTabled ?? "")}, where this register is as at
-        {" "}{formatDate(sched.asAt)}. A report tabled after
-        {" "}{formatDate(sched.beingConsideredAsAt)} has not been through a status cycle
-        yet, so “nothing received” against a recent report means the government has not yet
-        been asked to say, not that it has refused to.
+        <strong>The status column is dated differently from the rest of the register.</strong>
+        {" "}The President’s report takes those marks from the government’s own status
+        report, which is as at {formatDate(sched.beingConsideredAsAt)} and was tabled on
+        {" "}{formatDate(sched.beingConsideredTabled ?? "")}; the register itself is as at
+        {" "}{formatDate(sched.asAt)}. (The President’s report says on its second page that
+        the two should be read together.) A report tabled after
+        {" "}{formatDate(sched.beingConsideredAsAt)} has not yet appeared in a government
+        status report, so “nothing received” against a recent report means the government
+        has not yet reported on it, not that it has refused to.
       </p>
     )}
     <p class="note measure">
@@ -163,13 +164,12 @@ const byCommittee = [...rows.reduce((m, r) => {
     <h2 id="source">Where this comes from, and what it leaves out</h2>
     {(sched.editionsRead ?? 0) > 1 && (
       <p class="note measure">
-        <strong>How long it has been saying it.</strong> The President has tabled
-        {" "}{fmt(sched.editionsRead ?? 0)} of these reports since
-        {" "}{formatDate(sched.editionsFrom ?? "")}, and every one of them is on the public
-        record. Reading all {fmt(sched.editionsRead ?? 0)}:
-        {" "}<strong>{fmt(sched.consideredEveryEdition ?? 0)}</strong> of the reports below
-        have been marked “being considered” in every one of them. The government has said
-        the same thing about those reports, twice a year, for {sched.editionsRead === 9 ? "four" : ""}
+        <strong>How long the government has been saying it.</strong>
+        {" "}The President’s report has been tabled {fmt(sched.editionsRead ?? 0)} times since
+        {" "}{formatDate(sched.editionsFrom ?? "")}, and every edition is on the public record.
+        In every one of them, <strong>{fmt(sched.consideredEveryEdition ?? 0)}</strong> of the reports below
+        are marked “being considered”. The government has said the same thing about those
+        reports, twice a year, for {sched.editionsRead === 9 ? "four" : ""}
         {" "}years. That is a count of consecutive editions, not an estimate: where a report’s
         title is written differently in an older edition the run is broken and counted short.
       </p>
@@ -199,8 +199,8 @@ const byCommittee = [...rows.reduce((m, r) => {
     <AnsweredSinceList rows={removedSince} officer="the President" />
     {sched.responsesCheckedTo && (
       <p class="note measure">
-        <strong>How current that is.</strong> A register is only as current as the responses
-        it has seen. This build, made on {formatDate(sched.rebuilt)}, read every government
+        <strong>How current this is.</strong> This build, made on {formatDate(sched.rebuilt)},
+        read every government
         response the Tabled Documents register held when it ran; the latest was tabled on
         {" "}{formatDate(sched.responsesCheckedTo)}, and nothing tabled after it had been
         recorded there. A response tabled since will take its report off the register on the
@@ -226,7 +226,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       <strong>{jointWord} of what is here is not the Senate's own.</strong> A joint committee
       reports to both houses, so its report is listed by both presiding officers:
       {" "}{fmt(sched.jointCommittee)} of the {fmt(rows.length)} reports below are joint
-      committee reports (the President titles her own document “Senate and joint
+      committee reports (the President’s report is titled “Senate and joint
       committee reports”) and {fmt(sched.onBothRegisters)} of them are on
       {" "}<a href="/house/">the House register</a> as well. That is why the two counts
       are never added: it would count the same report twice. The two lists do not contain
@@ -247,7 +247,7 @@ const byCommittee = [...rows.reduce((m, r) => {
     <p class="note measure">
       <strong>What it does not have:</strong> reports tabled after
       {" "}{formatDate(sched.coversTo)}, which neither source yet lists; anything the
-      President excludes from her report, which includes reports on bills whose
+      President’s report excludes, which includes reports on bills whose
       recommendations can only be dealt with in debate, estimates and annual-report
       scrutiny, and the Senate’s domestic committees; and the House of Representatives,
       which has its own presiding officer, its own schedule and its own six-month rule.
@@ -322,9 +322,8 @@ const byCommittee = [...rows.reduce((m, r) => {
     <h3 id="by-government">By government</h3>
     <p class="note measure">
       A late response can be attributed to the government that tabled it, or to the government
-      in office when the report was tabled. The two readings disagree about who performs worst.
-      The ordering depends on the choice; the range, never above single figures, does not.
-      Both are shown.
+      in office when the report was tabled. Which government comes out worst depends on the
+      choice; that none of them reaches ten per cent does not. Both are shown.
     </p>
     <table class="register narrow">
       <thead>

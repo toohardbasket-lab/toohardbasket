@@ -65,7 +65,7 @@ const oldest = longest[0];
  * fourth-longest is one the government has answered in part.
  */
 const oldestStatus = oldest.beingConsidered
-  ? "What the government’s latest status report says about it is that its response is “being considered”."
+  ? "The government’s latest status report says its response is “being considered”."
   : oldest.partial
     ? "The government has answered some of its recommendations and not the rest, and the presiding officer still lists it as waiting."
     : oldest.interim
@@ -256,14 +256,14 @@ const chambers = [
         More than half took longer than a year.
       </p>
       <p>
-        The House keeps no comparable record going back that far. What the Speaker does
-        count is the responses in his most recent schedule: of the
-        {" "}{fmt(houseMeta.answeredWithVerdict ?? 0)} received since his previous one,
+        The House keeps no comparable record going back that far. The Speaker’s schedule
+        counts only the responses received since the previous schedule: of those
+        {" "}{fmt(houseMeta.answeredWithVerdict ?? 0)},
         {" "}{fmt(houseMeta.answeredOnTime ?? 0)} arrived within six months, {housePct} per
         cent. That covers months, not decades, so the two figures are not comparable.
       </p>
       <p>
-        None of this is a story about one government. Attribute every late response to
+        This is not about one government. Attribute every late response to
         whoever tabled it, or to whoever was in office when the report was tabled: the
         two readings disagree about which government performs worst, and on neither
         reading does any of the four reach one response in ten inside the deadline.
@@ -289,9 +289,10 @@ const chambers = [
         the Senate’s status report and the Speaker’s schedule, each presented about twice a
         year; the government’s own status report for each chamber; and the Senate’s live
         tracker of reports awaiting a response. None of them is a single list covering both
-        chambers and kept current between those reports. This is: a report comes off it at the
-        first weekly rebuild after the government answers, so the number on the page is what
-        is outstanding this week, not what was outstanding when a document was last printed.
+        chambers and updated between those reports. This site is that list. A report comes off
+        it at the first weekly rebuild after the government answers, so the number on the page
+        is what is outstanding this week, not what was outstanding when a document was last
+        printed.
         Where those records disagree with each other, this site says so and links both.
       </p>
       <p>
@@ -299,8 +300,8 @@ const chambers = [
         officers, so the same report can appear on each register: {fmt(houseMeta.jointCommittee)} of
         the {fmt(houseMeta.rows)} reports on the House register and {fmt(senateMeta.jointCommittee)} of
         the {fmt(senateMeta.rows)} on the Senate register are joint committee reports, and
-        {" "}{fmt(onBoth)} reports are on both. The two counts are never added together, and they
-        are not a ranking.
+        {" "}{fmt(onBoth)} reports are on both. The two counts are never added together, and
+        neither chamber is being ranked against the other.
       </p>
       <p>
         Each register follows its presiding officer (the President of the Senate and the
@@ -329,8 +330,8 @@ const chambers = [
         <>
           {" "}All ten are from the Senate register, which reaches back to
           {" "}{oldest.owedSince.slice(0, 4)} where the
-          House register stops at {firstHouse.owedSince.slice(0, 4)}. That is not the House
-          doing better: in 2023 its committee chairs agreed to recommend taking every report presented
+          House register stops at {firstHouse.owedSince.slice(0, 4)}. That does not mean the
+          House does better: in 2023 its committee chairs agreed to recommend taking every report presented
           before July 2019 off the schedule unless the committee that made it asked to keep
           it there.{" "}<a href="/house/#source">Why the House list is shorter →</a>
           {" "}The longest-waiting report on the House register,{" "}

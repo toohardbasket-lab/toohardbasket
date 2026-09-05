@@ -147,16 +147,16 @@ const hoverData = bars.map((b) => ({
           {" "}<a href={evidenceHref}>What those responses said</a>.
         </>
       )}
-      {" "}A report leaves the backlog whichever kind of response it gets, so the count of
-      responses is where the difference shows. The {partYear} bar runs to {checkedTo}, not to
-      the year’s end.
+      {" "}A report comes off the backlog whether or not the response answered its
+      recommendations, so the backlog cannot show the difference. The number of responses
+      tabled can. The {partYear} bar runs to {checkedTo}, not to the year’s end.
     </p>
     {bestYearYet && (
       <p class="chart-note">
-        The part year cuts the other way too. Of the {fmt(last.documents ?? 0)} documents
+        The part year also shows the opposite. Of the {fmt(last.documents ?? 0)} documents
         read from {last.year}, {fmt(lastSubstantive ?? 0)} do address the recommendations,
         more than in any full year the Tabled Documents record covers, which begins in mid-2022.
-        The form letter has not been retired alongside them: {fmt(last.closures ?? 0)} of
+        The form letter is still in use: {fmt(last.closures ?? 0)} of
         this year’s responses used it
         {prevYear && <>, against {fmt(prevYear.closures ?? 0)} in the whole of {prevYear.year}</>}.
       </p>
