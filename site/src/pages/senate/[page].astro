@@ -48,8 +48,7 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
 >
   <section class="wrap hero">
     <p class="eyebrow">Government responses · both chambers · as at {asAt}</p>
-    <p class="figure">{fmt(c.proforma)}</p>
-    <h1 class="claim">government responses that closed a committee report without answering a single recommendation.</h1>
+    <h1 class="claim"><span class="figure">{fmt(c.proforma)}</span> government responses that closed a committee report without stating a position on any recommendation.</h1>
     <p class="lede measure">
       A report leaves the register when a response is tabled. It does not follow that the
       report was answered. Of the {fmt(c.corpus)} government responses tabled since mid-2022,
@@ -111,6 +110,7 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
       {fmt(floor.closures - floor.counted)} closures are excluded, not estimated:
     </p>
     <table class="register narrow">
+      <caption class="sr-only">Form-letter closures not counted in the recommendation floor, by reason</caption>
       <thead>
         <tr>
           <th scope="col">Not counted, because</th>
@@ -145,6 +145,7 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
       the first two years of the corpus, and then two clearing events.
     </p>
     <table class="register narrow">
+      <caption class="sr-only">Form-letter closures by year tabled</caption>
       <thead>
         <tr>
           <th scope="col">Year tabled</th>
@@ -231,6 +232,7 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
         principle” therefore counts as in part or in principle, whatever it goes on to promise.
       </p>
       <table class="register narrow">
+        <caption class="sr-only">Recommendations by what the response said about them</caption>
         <thead>
           <tr>
             <th scope="col">What the response said</th>
@@ -257,6 +259,7 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
       </table>
       <h3>By year</h3>
       <table class="register narrow">
+        <caption class="sr-only">Stated positions by year the response was tabled</caption>
         <thead>
           <tr>
             <th scope="col">Year tabled</th>
@@ -317,6 +320,7 @@ const peakYear = c.byYear.filter((y) => y.closures > 0)
 <style>
   .hero { padding-bottom: 2rem; }
   .figure {
+    display: block;
     font-size: clamp(3.5rem, 2rem + 8vw, 6.5rem);
     line-height: 0.95; font-weight: 650; letter-spacing: -0.035em;
     margin: 0.25rem 0 0.5rem;

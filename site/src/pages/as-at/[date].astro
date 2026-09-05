@@ -12,6 +12,11 @@
 import Base from "../../layouts/Base.astro";
 import { editions, fmt, formatDate, formatDateShort, humanDuration } from "../../lib/data";
 
+/* The lines a reader can paste, each with its denominator and its date, and
+   a citation naming this edition. Built as plain text once so the copy
+   buttons and the visible list cannot differ. */
+const SITE = "https://toohardbasket.org.au";
+
 export function getStaticPaths() {
   return editions().map((e) => ({ params: { date: e.date }, props: { edition: e } }));
 }
@@ -23,6 +28,24 @@ const registers = [
   { slug: "senate", name: "Senate register", officer: "the President’s report", reg: e.senate },
   { slug: "house", name: "House register", officer: "the Speaker’s schedule", reg: e.house },
 ];
+const asAt = formatDate(e.date);
+const cov = e.coverage && e.coverage.recommendations ? e.coverage : null;
+const pct = (a: number, b: number) => (b ? `${Math.round((a / b) * 100)} per cent` : "");
+const lines: string[] = [
+  `${fmt(e.senate.outstanding)} Senate and joint committee reports were awaiting a government response as at ${asAt}; ${fmt(e.senate.overdue)} were past the Senate’s three-month deadline.`,
+  `${fmt(e.house.outstanding)} House and joint committee reports were awaiting a government response as at ${asAt}; ${fmt(e.house.overdue)} were past the House’s six-month deadline.`,
+  `The two counts are not added together: joint committee reports are listed by both presiding officers${e.on_both_registers ? ` (${fmt(e.on_both_registers)} reports were on both registers)` : ""}.`,
+  `The longest wait on either register was ${fmt(Math.max(e.senate.longest_days, e.house.longest_days))} days (${humanDuration(Math.max(e.senate.longest_days, e.house.longest_days))}) as at ${asAt}.`,
+  `Of ${fmt(e.corpus.documents_read)} government responses tabled since ${formatDate(e.corpus.read_from)} and read to ${formatDate(e.responses_checked_to)}, ${fmt(e.corpus.form_letter_closures)} (${pct(e.corpus.form_letter_closures, e.corpus.documents_read)}) closed the report with the same one-sentence “passage of time” letter, stating no position on any recommendation.`,
+];
+if (cov) {
+  lines.push(
+    `Of ${fmt(cov.recommendations!)} recommendations the site could show as at ${asAt}, ${fmt(cov.position_stated!)} (${pct(cov.position_stated!, cov.recommendations!)}) received a stated position` +
+    (cov.accepted !== undefined ? `: ${fmt(cov.accepted!)} accepted, ${fmt(cov.in_part_or_in_principle!)} in part or in principle, ${fmt(cov.not_accepted!)} not accepted.` : ".")
+  );
+}
+const citation = `Australian Public Interest Alliance, The Too Hard Basket, Edition ${e.number}, as at ${asAt}, responses checked to ${formatDate(e.responses_checked_to)}, ${SITE}/as-at/${e.date}/`;
+const figuresText = lines.join("\n") + "\n\nSource: " + citation;
 ---
 
 <Base
@@ -55,6 +78,25 @@ const registers = [
     </p>
   </section>
 
+  <section class="wrap measure" id="use">
+    <h2>Use these figures</h2>
+    <p class="note">
+      Each line carries its own denominator and date, so it can be quoted as it stands.
+      The citation names this edition, which does not change.
+    </p>
+    <ul class="use">
+      {lines.map((l) => <li>{l}</li>)}
+    </ul>
+    <p class="cite"><span class="k">Cite as</span> {citation}</p>
+    <p class="copy" data-copy hidden>
+      <button type="button" data-copy-figures>Copy these figures</button>
+      <button type="button" data-copy-citation>Copy the citation</button>
+      <span class="copied" role="status" aria-live="polite"></span>
+    </p>
+    <textarea class="sr-only" data-figures-text readonly aria-hidden="true">{figuresText}</textarea>
+    <textarea class="sr-only" data-citation-text readonly aria-hidden="true">{citation}</textarea>
+  </section>
+
   {registers.map(({ slug, name, officer, reg }) => (
     <section class="wrap">
       <h2 id={slug}>
@@ -66,6 +108,7 @@ const registers = [
         {" "}{fmt(reg.longest_days)} days ({humanDuration(reg.longest_days)}).
       </p>
       <table class="register stacks" data-register={slug}>
+        <caption class="sr-only">{name} awaiting a government response, as at {formatDate(e.date)}</caption>
         <thead>
           <tr>
             <th scope="col" class="num">Waiting</th>
@@ -112,7 +155,35 @@ const registers = [
   .figures dd.num { font-family: var(--sans); font-size: 2rem; font-weight: 600; line-height: 1.1; margin-top: 0.3rem; font-variant-numeric: tabular-nums; }
   .figures dd.sub { font-family: var(--sans); font-size: 0.875rem; color: var(--ink-secondary); margin-top: 0.2rem; }
   .note { font-size: 0.875rem; color: var(--ink-secondary); }
+  #use h2 { margin-top: 2.5rem; }
+  .use { padding-left: 1.1rem; margin: 0.75rem 0 1rem; }
+  .use li { margin-bottom: 0.6rem; }
+  .cite { font-family: var(--sans); font-size: 0.875rem; color: var(--ink-secondary); border-left: 3px solid var(--rule-strong); padding-left: 0.85rem; }
+  .cite .k { font-size: 0.6875rem; letter-spacing: 0.09em; text-transform: uppercase; color: var(--ink-muted); margin-right: 0.5rem; }
+  .copy button {
+    font: inherit; font-family: var(--sans); font-size: 0.875rem; background: none;
+    border: 1px solid var(--rule-strong); border-radius: 2px; padding: 0.4rem 0.8rem;
+    color: inherit; cursor: pointer; margin-right: 0.5rem;
+  }
+  .copy button:hover { border-color: currentColor; }
+  .copied { font-family: var(--sans); font-size: 0.875rem; color: var(--ink-muted); }
   h2 { margin-top: 2rem; }
   .cmte { color: var(--ink-secondary); font-size: 0.875rem; }
   .nowrap { white-space: nowrap; }
 </style>
+
+<script>
+  // The copy buttons appear only when the clipboard is available; the text
+  // is on the page either way.
+  const panel = document.querySelector<HTMLElement>("[data-copy]");
+  if (panel && navigator.clipboard) {
+    const note = panel.querySelector<HTMLElement>(".copied")!;
+    const say = (s: string) => { note.textContent = s; setTimeout(() => { note.textContent = ""; }, 2500); };
+    const text = (sel: string) => (document.querySelector(sel) as HTMLTextAreaElement).value;
+    panel.querySelector("[data-copy-figures]")!.addEventListener("click", () =>
+      navigator.clipboard.writeText(text("[data-figures-text]")).then(() => say("Copied the figures and the citation.")));
+    panel.querySelector("[data-copy-citation]")!.addEventListener("click", () =>
+      navigator.clipboard.writeText(text("[data-citation-text]")).then(() => say("Copied the citation.")));
+    panel.hidden = false;
+  }
+</script>

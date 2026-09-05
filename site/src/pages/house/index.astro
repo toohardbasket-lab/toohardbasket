@@ -140,6 +140,7 @@ const byCommittee = [...rows.reduce((m, r) => {
     </p>
     <RegisterControls target="house-register" noun="reports" />
     <table class="register stacks" id="house-register" data-register="house">
+      <caption class="sr-only">House of Representatives and joint committee reports awaiting a government response</caption>
       <thead>
         <tr>
           <th scope="col" class="num">Waiting</th>
@@ -181,6 +182,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       Committees with reports still outstanding, most first.
     </p>
     <table class="register narrow" id="house-by-committee">
+      <caption class="sr-only">House register by committee: reports outstanding and longest wait</caption>
       <thead>
         <tr>
           <th scope="col">Committee</th>

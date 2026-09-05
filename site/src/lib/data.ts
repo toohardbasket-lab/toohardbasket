@@ -493,6 +493,15 @@ export interface Edition {
   house: EditionRegister;
   corpus: { documents_read: number; form_letter_closures: number; read_from: string; read_to: string };
   recommendations: { rows: number; awaiting_a_response: number };
+  /** Reports on both registers; absent in editions before September 2026. */
+  on_both_registers?: number;
+  /** Coverage totals; absent in editions before coverage was measured. */
+  coverage?: {
+    responses?: number; recommendations?: number; position_stated?: number;
+    accepted?: number; in_part_or_in_principle?: number; not_accepted?: number;
+    noted_no_position?: number; form_letter?: number; not_addressed_individually?: number;
+    unreadable?: number; coverage?: number | null;
+  };
 }
 
 export function editions(): Edition[] {

@@ -120,6 +120,7 @@ def main() -> int:
             "awaiting_a_response": sum(1 for r in recs if r["response_classification"] == "awaiting a response"),
         },
         "coverage": coverage_totals(),
+        "on_both_registers": senate_meta.get("on_both_registers") or house_meta.get("on_both_registers") or 0,
     }
     if edition["senate"]["outstanding"] == 0 or edition["house"]["outstanding"] == 0:
         print("REFUSING: an empty register is not an edition", file=sys.stderr)

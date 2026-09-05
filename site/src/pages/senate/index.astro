@@ -102,6 +102,7 @@ const byCommittee = [...rows.reduce((m, r) => {
     </p>
     <RegisterControls target="senate-register" noun="reports" />
     <table class="register stacks" id="senate-register" data-register="senate">
+      <caption class="sr-only">Senate and joint committee reports awaiting a government response</caption>
       <thead>
         <tr>
           <th scope="col" class="num">Waiting</th>
@@ -166,6 +167,7 @@ const byCommittee = [...rows.reduce((m, r) => {
     </p>
 
     <table class="register narrow">
+      <caption class="sr-only">Senate responses since 2000 by time taken against the three-month rule</caption>
       <thead>
         <tr>
           <th scope="col">Time taken to respond</th>
@@ -201,6 +203,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       choice; that none of them reaches ten per cent does not. Both are shown.
     </p>
     <table class="register narrow">
+      <caption class="sr-only">Share of responses within the deadline, by government, on two attributions</caption>
       <thead>
         <tr>
           <th scope="col">Government</th>
@@ -236,6 +239,7 @@ const byCommittee = [...rows.reduce((m, r) => {
       Committees with reports still outstanding, most first.
     </p>
     <table class="register narrow" id="senate-by-committee">
+      <caption class="sr-only">Senate register by committee: reports outstanding and longest wait</caption>
       <thead>
         <tr>
           <th scope="col">Committee</th>

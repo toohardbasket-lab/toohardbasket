@@ -2,7 +2,7 @@
 import Base from "../layouts/Base.astro";
 import BacklogChart from "../components/BacklogChart.astro";
 import {
-  ledger, complianceDetail, closures, history, snapshots, scheduleMeta,
+  ledger, complianceDetail, closures, closureDetail, history, snapshots, scheduleMeta,
   fmt, formatDate, inMonths,
 } from "../lib/data";
 import { registerBySlug, plannedRegisters } from "../lib/registers";
@@ -11,6 +11,9 @@ import { ABOUT } from "../lib/about";
 import { coverage } from "../lib/data";
 
 const cov = coverage();
+/* Form-letter closures tabled in a year, for the backlog paragraph. */
+const byYear = closureDetail().byYear;
+const closuresIn = (y: string) => byYear.find((b) => b.year === y)?.closures ?? 0;
 
 const senate = registerBySlug("senate")!;
 const rows = ledger();
@@ -40,8 +43,37 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     <p class="lede measure">
       Everything here is drawn from records the Parliament publishes itself. This page
       states what is counted, what is left out and why, and, at the end, what the
-      method cannot yet see. Where a judgment is finely balanced, it is resolved in the
-      government’s favour, so that every number on this site is a floor.
+      method cannot yet see. Where a classification is uncertain, the reading least likely
+      to overstate non-response is chosen. The register counts are exact under the rules
+      stated below; a figure this site calls a floor is a lower bound, and says so.
+    </p>
+  </section>
+
+  <section class="wrap measure" id="in-short">
+    <h2>In short</h2>
+    <p class="note">The terms every page uses, in one line each. The sections below say how each is measured.</p>
+    <dl class="defs">
+      <div><dt>Response</dt><dd>A government response to a committee report, tabled in the chamber. A report leaves a register when one is tabled, whatever it says.</dd></div>
+      <div><dt>Awaiting a response</dt><dd>Listed by the presiding officer as still waiting. The Senate register follows the President’s report; the House register follows the Speaker’s schedule.</dd></div>
+      <div><dt>Overdue</dt><dd>Past the chamber’s deadline: three calendar months from tabling in the Senate (since 1973), six months in the House (since 2010), as the presiding officer counts it.</dd></div>
+      <div><dt>Being considered</dt><dd>The government’s own phrase, from its status report: the response “is being considered”. Not a characterisation of ours.</dd></div>
+      <div><dt>Form-letter closure</dt><dd>A response that disposes of every recommendation with the repeated “passage of time” sentence and states a position on none.</dd></div>
+      <div><dt>Position stated</dt><dd>The response uses a verdict word of the recommendation: supported, agreed, accepted, endorsed, rejected, declined, not supported, not agreed, not accepted or implemented; sorted as accepted, in part or in principle, or not accepted. “Noted” is not a position.</dd></div>
+      <div><dt>Floor</dt><dd>A figure the method can undercount but not inflate. The register counts are exact under the rules above; figures called floors are lower bounds.</dd></div>
+      <div><dt>Edition</dt><dd>What the site said on a Tuesday, kept unchanged at /as-at/&lt;date&gt;/ for citation.</dd></div>
+      <div><dt>Checked to</dt><dd>The tabling date of the latest government response the build had read. A response tabled after it appears on the next weekly rebuild.</dd></div>
+    </dl>
+    <p class="note contents">
+      On this page:
+      {" "}<a href="#unit">what is counted</a> ·
+      {" "}<a href="#sources">sources</a> ·
+      {" "}<a href="#corpus">the response corpus</a> ·
+      {" "}<a href="#closures">how responses are classified</a> ·
+      {" "}<a href="#coverage">how coverage is measured</a> ·
+      {" "}<a href="#backlog-chart">the backlog</a> ·
+      {" "}<a href="#limits">known limits</a> ·
+      {" "}<a href="#corrections">corrections</a> ·
+      {" "}<a href="#made">how this was made</a>
     </p>
   </section>
 
@@ -179,6 +211,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       each with a recorded reason:
     </p>
     <table class="register narrow">
+      <caption class="sr-only">Documents excluded from the response corpus, with counts</caption>
       <thead>
         <tr>
           <th scope="col">Excluded</th>
@@ -316,7 +349,9 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       {" "}and a reader who goes no further takes away that the government has caught up. It
       has not. A report leaves this chart when a response is tabled, and the chart cannot see
       whether that response addressed the committee’s recommendations or closed the report
-      without addressing any of them. Most of the fall was the second kind.
+      without addressing any of them. The fall coincides with two bursts of form-letter
+      closures, {fmt(closuresIn("2024"))} in 2024 and {fmt(closuresIn("2026"))} in 2026 so far;
+      the line alone cannot tell those from substantive responses.
       {" "}<a href="#closures">How those responses are classified</a>. The chart is still
       published because this is the only long series of the backlog that exists, but it
       measures how much is outstanding, not how much has been answered.
@@ -467,6 +502,12 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
   h2 { margin-top: 2.75rem; }
   h3 { font-size: 1rem; margin: 2rem 0 0.5rem; }
   .note { font-size: 0.875rem; color: var(--ink-secondary); }
+  .defs { margin: 1rem 0 1.25rem; padding: 0; border-top: 1px solid var(--rule); }
+  .defs div { display: grid; grid-template-columns: 9rem 1fr; gap: 0 1rem; padding: 0.55rem 0; border-bottom: 1px solid var(--rule); }
+  .defs dt { font-family: var(--sans); font-weight: 600; font-size: 0.9375rem; padding-top: 0.1rem; }
+  .defs dd { margin: 0; font-size: 0.9375rem; }
+  @media (max-width: 34rem) { .defs div { grid-template-columns: 1fr; gap: 0.15rem; } }
+  .contents a { white-space: nowrap; }
   ul, ol { padding-left: 1.1rem; margin: 0 0 1rem; }
   li { margin-bottom: 0.6rem; }
 

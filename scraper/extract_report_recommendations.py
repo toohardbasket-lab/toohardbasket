@@ -247,8 +247,12 @@ def register_rows() -> dict[str, dict]:
                 "title": r.get("title", ""),
                 "report_tabled": r.get("report_tabled", ""),
                 # The link goes where the document was actually taken from, so
-                # a reader can check the quotation against the same file.
-                "report_url": r.get("pdf_source_url", ""),
+                # a reader can check the quotation against the same file; where
+                # the manifest records no file source, the committee's own page
+                # for the report, which the register rows link to as well. Eight
+                # PFAS recommendations published with no link at all because
+                # only the page was recorded.
+                "report_url": r.get("pdf_source_url", "") or r.get("report_page_url", ""),
                 "chamber": r.get("chamber", "senate"),
                 "collection": "collected by hand",
             }

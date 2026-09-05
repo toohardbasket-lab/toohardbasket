@@ -2,7 +2,7 @@
 
 Builds the dataset of Australian Government responses to Senate and joint
 committee reports: every response recorded in the Senate's own registers,
-with days-to-respond computed against the Senate's 90-day rule
+with days-to-respond computed against the Senate’s three-calendar-month rule
 (order of 14 March 1973; the House allows six months).
 
 ## Layout
@@ -57,16 +57,25 @@ The whole Classic era is 12 requests, once ever.
   the date-range REFINE control selects responses tabled/presented in the
   range; "Show All" puts every row in the DOM. There is also a
   "Download results as CSV" button — a manual fallback.
-- 2026 register (to 20 Aug): 181 responses; median 769 days after report;
-  4 of 181 within 90 days; max 8,561 days (*A certain maritime incident*,
-  2002 report, response tabled 1 April 2026).
+- The register is read afresh every Tuesday; the current figures are on the
+  site, not here. (For the record, an early read on 20 August 2026 found 181
+  responses in the 2026 register and a maximum of 8,561 days: *A certain
+  maritime incident*, 2002 report, response tabled 1 April 2026.)
 
-## Roadmap
+## What runs each week
 
-- Cross-check against the President's twice-yearly outstanding-responses
-  PDFs (aph.gov.au → Senate → Government responses) — these list what is
-  STILL unanswered, which the year registers by definition never show.
-  That is the "still waiting" half of the site.
-- House of Representatives: Speaker's schedule (6-month rule, since 2010).
-- GitHub Actions: weekly run of `build_dataset.py --statsnet` (current
-  year only) + validation; commit on green, open an issue on red.
+Everything below is implemented and runs in `.github/workflows/update-dataset.yml`
+every Tuesday at 06:00 Perth time, in this order: the Senate response
+registers; the President's report and the Speaker's schedule (the two
+registers of what is still waiting); the government's own status reports;
+every response document from the Tabled Documents system, read and
+classified; the recommendations index, verified against its sources;
+coverage (whether each response stated a position); removal of reports
+answered since the schedules; the backlog history; the link-preview card;
+the publish gate; the site build; an edition snapshot; commit and tag.
+A failed step commits nothing and opens an issue.
+
+To run the tests and the gate by hand, from `scraper/`:
+
+    for t in tests/test_*.py; do python "$t" || exit 1; done
+    python check_publishable.py

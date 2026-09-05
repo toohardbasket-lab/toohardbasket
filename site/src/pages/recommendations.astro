@@ -317,6 +317,12 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     color: var(--ink-muted); font-style: italic; border-left-style: dashed;
   }
   :global(.results .meta) { font-size: 0.875rem; color: var(--ink-muted); margin: 0; }
+  :global(.results .nolink) { font-style: italic; }
+  .more button {
+    font: inherit; background: none; border: 1px solid var(--rule-strong); border-radius: 2px;
+    padding: 0.3rem 0.7rem; color: inherit; cursor: pointer; margin-left: 0.25rem;
+  }
+  .more button:hover { border-color: currentColor; }
   :global(.results .who) { color: var(--ink-secondary); }
   :global(.results .byline.muted) { color: var(--ink-muted); border-style: dashed; }
   :global(.results .state) {
@@ -413,8 +419,14 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       return out;
     };
 
+    // How many of the current hits are rendered. Sixty at first; "show next
+    // sixty" and "show all" add to it, and a new query resets it. A search for
+    // "housing" matched 91 and showed 60 with only a suggestion to narrow it.
+    let shownLimit = LIMIT;
+    let lastHits = [], lastTerms = [];
     const render = (hits, terms) => {
-      list.innerHTML = hits.slice(0, LIMIT).map((r) => {
+      lastHits = hits; lastTerms = terms;
+      list.innerHTML = hits.slice(0, shownLimit).map((r) => {
         const words = r.g.length > 420 ? r.g.slice(0, 420).replace(/\s+\S*$/, "") + "…" : r.g;
         // What the response did with it, from coverage.py: a verdict word used
         // of the recommendation, or words without one. The form letter and
@@ -436,9 +448,12 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
         // Every result links to the document its words came from, and to the
         // other document where that is known: the report a response answers,
         // the response a report received.
+        // Never an empty link: a row with no URL says so instead of sending
+        // the reader back to this page.
+        const link = (href, label) => (href ? `<a href="${esc(href)}">${label}</a>` : `<span class="nolink">${label} (no link on record)</span>`);
         const links = r.s === "report"
-          ? `<a href="${esc(r.u)}">the report</a>` + (r.r ? ` · <a href="${esc(r.r)}">the response</a>` : "")
-          : `<a href="${esc(r.u)}">the response</a>` + (r.p ? ` · <a href="${esc(r.p)}">the report</a>` : "");
+          ? link(r.u, "the committee’s report") + (r.r ? ` · ${link(r.r, "the government’s response")}` : "")
+          : link(r.u, "the government’s response") + (r.p ? ` · ${link(r.p, "the committee’s report")}` : "");
         const by = r.b
           ? `<span class="byline">${esc(r.b)}</span>`
           : (r.o ? `<span class="byline muted" title="This document also contains dissenting, minority or additional recommendations. This row's own author could not be established from its wording or its heading.">document also carries dissents</span>` : "");
@@ -450,16 +465,30 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
             ${esc(when(r.w))} · ${r.h === "house" ? "House" : "Senate"} · ${links}</p>
         </li>`;
       }).join("");
-      if (hits.length > LIMIT) {
-        more.textContent = `Showing the first ${LIMIT} of ${hits.length.toLocaleString("en-AU")}. Add another word to narrow it.`;
+      if (hits.length > shownLimit) {
+        const n = hits.length.toLocaleString("en-AU");
+        more.innerHTML = `Showing the first ${shownLimit.toLocaleString("en-AU")} of ${n}. ` +
+          `<button type="button" data-next>Show next ${Math.min(LIMIT, hits.length - shownLimit)}</button> ` +
+          `<button type="button" data-all>Show all ${n}</button>`;
         more.removeAttribute("hidden");
       } else {
         more.setAttribute("hidden", "");
       }
     };
+    more.addEventListener("click", (e) => {
+      const b = e.target.closest("button");
+      if (!b) return;
+      const was = shownLimit;
+      shownLimit = b.hasAttribute("data-all") ? lastHits.length : shownLimit + LIMIT;
+      render(lastHits, lastTerms);
+      // Keep the reader's place: focus the first newly shown result.
+      const first = list.children[was];
+      if (first) { first.setAttribute("tabindex", "-1"); first.focus(); }
+    });
 
     const run = () => {
       const q = input.value.trim().toLowerCase();
+      if (q !== lastQuery) shownLimit = LIMIT;
       lastQuery = q;
       if (!rows) { load(); return; }
       if (!q) {

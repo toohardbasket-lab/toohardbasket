@@ -102,6 +102,22 @@ def the_recommendation_index_is_populated() -> None:
     ok(f"recommendations.csv: {len(recs)} recommendations from {docs} documents")
 
 
+def every_recommendation_links_to_its_source() -> None:
+    """Every row of the index names a document a reader can open. Eight PFAS
+    recommendations once published with an empty link, which sent the reader
+    back to the search page; the footer says every row links to its source,
+    so an empty one is a false statement, not a gap."""
+    recs = rows("recommendations.csv")
+    if not recs:
+        return
+    bad = [r for r in recs if not (r.get("url") or "").strip().startswith("https://")]
+    if bad:
+        sample = ", ".join(f"{r['source']}:{r['source_id']} rec {r['label']}" for r in bad[:5])
+        fail(f"{len(bad)} recommendation(s) carry no https source URL — {sample}")
+        return
+    ok(f"every one of {len(recs)} recommendations links to an https source")
+
+
 def the_coverage_file_agrees_with_the_index() -> None:
     """coverage.csv and recommendation_positions.csv are derived from
     recommendations.csv by coverage.py. If the index was rebuilt and coverage
@@ -238,6 +254,7 @@ def main() -> int:
     every_report_link_is_the_committees_own()
     the_removals_are_counted_and_listed_alike()
     the_recommendation_index_is_populated()
+    every_recommendation_links_to_its_source()
     the_coverage_file_agrees_with_the_index()
     nothing_has_gone_backwards()
 

@@ -9,9 +9,11 @@ import {
   humanDuration, inMonths, fmt, formatDate, formatDateShort,
 } from "../lib/data";
 import { registerBySlug } from "../lib/registers";
-import { coverage } from "../lib/data";
+import { coverage, editions } from "../lib/data";
 
 const cov = coverage();
+/* The latest frozen edition, which is what a citation should point at. */
+const latestEdition = editions().at(-1);
 
 /**
  * The home page covers both chambers, and does it without adding them together.
@@ -146,6 +148,7 @@ const chambers = [
     <p class="eyebrow">
       Awaiting a government response · as at {asAt}
       {checkedTo && <> · responses checked to {formatDate(checkedTo)}</>}
+      {latestEdition && <> · <a href={`/as-at/${latestEdition.date}/#use`}>Cite this edition →</a></>}
     </p>
     {/*
       Two lines where there is room: the subject, then what is said of it.
@@ -153,7 +156,7 @@ const chambers = [
       after "government" at every size; on a narrow screen the break is
       dropped and the line wraps as it must.
     */}
-    <h1 class="claim">Committee reports the government<br class="brk" />{" "}has not answered.</h1>
+    <h1 class="claim">Committee reports still waiting<br class="brk" />{" "}for a government response.</h1>
 
     <div class="chambers">
       {chambers.map((c) => (
@@ -337,6 +340,7 @@ const chambers = [
       )}
     </p>
     <table class="register stacks">
+      <caption class="sr-only">The ten longest-waiting reports across both registers</caption>
       <thead>
         <tr>
           <th scope="col" class="num">Waiting</th>
