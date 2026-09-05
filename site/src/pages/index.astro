@@ -236,6 +236,35 @@ const chambers = [
     </div>
   </section>
 
+  {/*
+    What this is, in two paragraphs, before any finding: a first-time reader
+    should not have to scroll past a chart to learn what the page is.
+  */}
+  <section class="wrap what">
+    <div class="measure">
+    <h2>What this is</h2>
+    <p>
+      When a parliamentary committee reports, the government is expected to say what it
+      will do about the recommendations. The Senate has asked for that within three
+      months since {senate.ruleSince}; the House within six since {house.ruleSince}.
+      Often the response does not come, or comes years later.
+    </p>
+    <p>
+      This site is the list of reports still waiting, in both chambers, taken from the
+      presiding officers’ own schedules and rebuilt every week, so the number on the page
+      is what is outstanding now. It also reads every response tabled since 2022 and says
+      what each one did. Every row links to the document it came from; the whole dataset
+      is <a href="https://github.com/toohardbasket-lab/toohardbasket">public</a> and
+      corrections are <a href="/corrections/">logged</a>. Nothing here is an opinion about
+      any recommendation: only whether an answer was given, and when.
+    </p>
+    </div>
+    {/* The finding beside it, and before the chart that shows it as a volume event. */}
+    <div class="measure">
+      <Strip />
+    </div>
+  </section>
+
   <section class="wrap">
     <ResponsesChart
       rows={perYear}
@@ -244,90 +273,44 @@ const chambers = [
     />
   </section>
 
-  {/*
-    Two columns that run the whole way down: the strip, the sentence it
-    counts, and the deadline on the left; what this site is on the right.
-  */}
-  <section class="wrap two-up middle">
+  {/* Two findings side by side where there is room; stacked on a phone. */}
+  <section class="wrap findings">
     <div class="measure">
-      <Strip />
-      <h2>The deadline is not a deadline</h2>
-      <p>
-        Of {fmt(comp.assessable)} responses to Senate committee reports tabled between
-        {" "}{comp.firstYear} and {comp.lastYear}, {fmt(comp.onTime)} arrived inside the
-        required three months: {pct} per cent. The median took {fmt(comp.medianDays)} days.
-        More than half took longer than a year.
-      </p>
-      <p>
-        The House keeps no comparable record going back that far. The Speaker’s schedule
-        counts only the responses received since the previous schedule: of those
-        {" "}{fmt(houseMeta.answeredWithVerdict ?? 0)},
-        {" "}{fmt(houseMeta.answeredOnTime ?? 0)} arrived within six months, {housePct} per
-        cent. That covers months, not decades, so the two figures are not comparable.
-      </p>
-      <p>
-        This is not about one government. Attribute every late response to
-        whoever tabled it, or to whoever was in office when the report was tabled: the
-        two readings disagree about which government performs worst, and on neither
-        reading does any of the four reach one response in ten inside the deadline.
-        {" "}<a href="/senate/#compliance">Both readings, side by side →</a>
-      </p>
-      {LAUNCHED && (
+    <h2>The deadline is not a deadline</h2>
+    <p>
+      Of {fmt(comp.assessable)} responses to Senate committee reports tabled between
+      {" "}{comp.firstYear} and {comp.lastYear}, {fmt(comp.onTime)} arrived inside the
+      required three months: {pct} per cent. The median took {fmt(comp.medianDays)} days.
+      More than half took longer than a year.
+    </p>
+    <p>
+      The House keeps no comparable record going back that far. The Speaker’s schedule
+      counts only the responses received since the previous schedule: of those
+      {" "}{fmt(houseMeta.answeredWithVerdict ?? 0)},
+      {" "}{fmt(houseMeta.answeredOnTime ?? 0)} arrived within six months, {housePct} per
+      cent. That covers months, not decades, so the two figures are not comparable.
+    </p>
+    <p>
+      This is not about one government. Attribute every late response to
+      whoever tabled it, or to whoever was in office when the report was tabled: the
+      two readings disagree about which government performs worst, and on neither
+      reading does any of the four reach one response in ten inside the deadline.
+      {" "}<a href="/senate/#compliance">Both readings, side by side →</a>
+    </p>
+    </div>
+    {LAUNCHED && cov && cov.total.coverage !== null && (
+      <div class="measure">
+        <h2>Whether a position was stated</h2>
         <p>
-          And a response arriving is not the same as a report being answered:
-          {" "}<a href="/senate/responses/">how the government answered →</a>
-          {cov && cov.total.coverage !== null && (
-            <>
-              {" "}Recommendation by recommendation, {fmt(cov.total.positionStated)} of the
-              {" "}{fmt(cov.total.recommendations)} this site can show received a stated position,
-              {" "}{(cov.total.coverage * 100).toFixed(0)} per cent.
-              {" "}<a href="/senate/responses/#coverage">How that is counted →</a>
-            </>
-          )}
+          A response arriving is not the same as a report being answered. Recommendation by
+          recommendation, {fmt(cov.total.positionStated)} of the {fmt(cov.total.recommendations)}
+          {" "}this site can show received a stated position: {(cov.total.coverage * 100).toFixed(0)} per
+          cent. The rest were noted without one, closed with the form letter, or passed over by a
+          response that answered the report as a whole.
+          {" "}<a href="/senate/responses/#coverage">How that is counted →</a>
         </p>
-      )}
-    </div>
-    <div class="measure">
-      <h2>What this site is</h2>
-      <p>
-        When a parliamentary committee reports, the government is expected to say what it
-        will do about the recommendations. The Senate has asked for that within three
-        months since {senate.ruleSince}; the House within six since {house.ruleSince}.
-        Often it does not come, or comes years later.
-      </p>
-      <p>
-        Four records already exist, and this site is built on all of them: the President of
-        the Senate’s status report and the Speaker’s schedule, each presented about twice a
-        year; the government’s own status report for each chamber; and the Senate’s live
-        tracker of reports awaiting a response. None of them is a single list covering both
-        chambers and updated between those reports. This site is that list. A report comes off
-        it at the first weekly rebuild after the government answers, so the number on the page
-        is what is outstanding this week, not what was outstanding when a document was last
-        printed.
-        Where those records disagree with each other, this site says so and links both.
-      </p>
-      <p>
-        Joint committee reports are presented to both houses and listed by both presiding
-        officers, so the same report can appear on each register: {fmt(houseMeta.jointCommittee)} of
-        the {fmt(houseMeta.rows)} reports on the House register and {fmt(senateMeta.jointCommittee)} of
-        the {fmt(senateMeta.rows)} on the Senate register are joint committee reports, and
-        {" "}{fmt(onBoth)} reports are on both. The two counts are never added together, and
-        neither chamber is being ranked against the other.
-      </p>
-      <p>
-        Each register follows its presiding officer (the President of the Senate and the
-        Speaker of the House each report on the status of government responses, at roughly
-        six-monthly intervals) and publishes what each of them records,
-        including the reports each marks as answered. Every page shows the date of the
-        document behind it and says what that document does not cover. The whole dataset is{" "}
-        <a href="https://github.com/toohardbasket-lab/toohardbasket">public</a>, and
-        corrections are <a href="/corrections/">logged</a>.
-      </p>
-      <p>
-        Nothing here is an opinion about any recommendation: only whether an answer was
-        given, and when.
-      </p>
-    </div>
+      </div>
+    )}
   </section>
 
   <section class="wrap longest" id="longest">
@@ -523,11 +506,18 @@ const chambers = [
   .next-meta { color: var(--ink-muted); }
   .next-more { font-family: var(--sans); font-size: 0.875rem; margin: 0.6rem 0 0; }
 
-  .two-up {
-    display: grid; gap: 2rem 3rem; margin-block: 1rem 3rem;
+  .what {
+    display: grid; gap: 2rem 3rem; margin-top: 2.5rem; padding-top: 2rem;
+    border-top: 1px solid var(--rule);
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   }
-  .middle { margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--rule); }
+  .what h2, .findings h2 { margin-bottom: 0.5rem; }
+  .findings {
+    display: grid; gap: 2rem 3rem; margin-top: 2.5rem; padding-top: 2rem;
+    border-top: 1px solid var(--rule);
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+  .findings h2 + p { margin-top: 0; }
 
   .longest h2 { margin-bottom: 0.5rem; }
   .longest .note { font-size: 0.875rem; color: var(--ink-secondary); margin-bottom: 1rem; }
