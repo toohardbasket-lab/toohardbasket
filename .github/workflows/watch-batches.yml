@@ -1,0 +1,92 @@
+name: Watch for a batch of closures
+
+# The weekly rebuild runs on Tuesday morning in Canberra and catches Monday's
+# tablings. A clear-out on a Wednesday would wait six days to be seen, and the
+# window in which a batch is news is about forty-eight hours.
+#
+# So this looks every weekday morning, Canberra time, at the responses tabled
+# the day before. It is deliberately a superset of the sitting calendar: no
+# calendar to publish, maintain, or find stale in a year's time, and in a
+# non-sitting week it finds nothing and says nothing.
+#
+# It does the smallest part of the pipeline that can tell a form letter from a
+# real response — the metadata sweep, then reading and classifying whatever is
+# new — and it publishes NOTHING. The only thing it commits is the record of
+# which days it has already reported, so the same batch is never raised twice.
+# Everything the site shows still comes from Tuesday's gated rebuild.
+
+on:
+  schedule:
+    # 22:00 UTC Tue-Fri = 08:00 Wednesday-Saturday in Canberra (09:00 in daylight
+    # saving), the morning after each sitting day. Monday's 22:00 UTC slot
+    # belongs to the weekly rebuild, which raises the same alert itself.
+    - cron: "0 22 * * 2-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+# The weekly rebuild writes the same files. Sharing its concurrency group means
+# the two never run at once; whichever starts second waits.
+concurrency:
+  group: update-dataset
+  cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: scraper
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Australia/Canberra
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # A scanned response with no text layer is unreadable without this, and an
+      # unreadable response is classified as neither a closure nor a substantive
+      # response — which would let a batch pass unnoticed.
+      - run: sudo apt-get update && sudo apt-get install -y tesseract-ocr
+      - run: pip install -r requirements.txt
+      - name: See what has been tabled
+        run: python harvest_responses.py
+      - name: Read and classify anything new
+        run: python otd_sweep.py --refresh
+      - name: A batch of closures in one day
+        run: python batch_alert.py
+      - name: Raise the batch as an issue
+        if: hashFiles('/tmp/batch_alert.md') != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const raw = fs.readFileSync('/tmp/batch_alert.md', 'utf8');
+            const cut = raw.indexOf('\n---\n');
+            await github.rest.issues.create({
+              owner: context.repo.owner, repo: context.repo.repo,
+              title: raw.slice(0, cut).trim(),
+              body: raw.slice(cut + 5).trim()
+                  + `\n\nSeen by the daily watch, not by the weekly rebuild, so the site does `
+                  + `not show it yet — Tuesday's build will.`
+                  + `\n\nRun: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}`
+                  + `/actions/runs/${context.runId}`,
+            });
+      - name: Record the day so it is not raised again
+        run: |
+          git config user.name "thb-bot"
+          git config user.email "bot@toohardbasket.org.au"
+          # Only the record of what has been reported. The dataset the site is
+          # built from is committed by the weekly job, after its gates, and
+          # nothing here is allowed to reach it.
+          git add data/alerted_batches.json
+          git diff --cached --quiet && { echo "Nothing new to record."; exit 0; }
+          git commit -m "Batch alert: record the day(s) reported $(date +%F)"
+          git push || {
+            echo "Push refused; rebasing onto the current main and retrying."
+            git pull --rebase origin main
+            git push
+          }

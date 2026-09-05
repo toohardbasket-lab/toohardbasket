@@ -1,0 +1,21 @@
+{
+ "reported": [
+  "2024-05-02",
+  "2024-05-09",
+  "2024-05-14",
+  "2024-05-16",
+  "2024-05-17",
+  "2024-05-23",
+  "2024-06-07",
+  "2024-06-20",
+  "2024-06-25",
+  "2024-07-04",
+  "2024-08-13",
+  "2024-10-03",
+  "2026-03-04",
+  "2026-03-19",
+  "2026-04-01"
+ ],
+ "threshold": 5,
+ "note": "Days batch_alert.py has already reported. Every day that qualified when the alert was written is seeded here, so it speaks about the next batch rather than the last four years. The script adds a day when it reports it; a day is never reported twice."
+}

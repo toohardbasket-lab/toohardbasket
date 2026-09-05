@@ -161,6 +161,32 @@ jobs:
       # edition, and the commit is tagged so the dataset behind it can be found.
       - name: Record this edition
         run: python snapshot_edition.py
+      # The most reportable thing this dataset holds is a day, not a number: a
+      # sitting Tuesday on which the government tables a stack of responses and
+      # most of them close the report with the passage-of-time sentence. Those
+      # days were being found weeks later by looking. This finds them the morning
+      # the dataset is rebuilt; the step below turns the note into an issue,
+      # which is an email. Days already reported are recorded in
+      # data/alerted_batches.json and are never reported twice.
+      - name: A batch of closures in one day
+        run: python batch_alert.py
+
+      - name: Raise the batch as an issue
+        if: hashFiles('/tmp/batch_alert.md') != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const raw = fs.readFileSync('/tmp/batch_alert.md', 'utf8');
+            const cut = raw.indexOf('\n---\n');
+            await github.rest.issues.create({
+              owner: context.repo.owner, repo: context.repo.repo,
+              title: raw.slice(0, cut).trim(),
+              body: raw.slice(cut + 5).trim()
+                  + `\n\nRun: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}`
+                  + `/actions/runs/${context.runId}`,
+            });
+
       - name: Commit on green
         run: |
           git config user.name "thb-bot"
