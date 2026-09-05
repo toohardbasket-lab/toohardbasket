@@ -93,31 +93,11 @@ const byCommittee = [...rows.reduce((m, r) => {
   <section class="wrap">
     <h2 id="outstanding">Outstanding reports</h2>
     <p class="note measure">
-      Ordered by how long each has waited. The status column is the President’s:
-      {" "}<em>being considered</em> is the report’s “Interim*”, which the report defines
-      as the government saying only that “the Government’s response is being
-      considered”.{" "}<a href="/methods/">How this is built</a>.
-    </p>
-    {sched.beingConsideredAsAt && (
-      <p class="note measure">
-        <strong>The status column is dated differently from the rest of the register.</strong>
-        {" "}The President’s report takes those marks from the government’s own status
-        report, which is as at {formatDate(sched.beingConsideredAsAt)} and was tabled on
-        {" "}{formatDate(sched.beingConsideredTabled ?? "")}; the register itself is as at
-        {" "}{formatDate(sched.asAt)}. (The President’s report says on its second page that
-        the two should be read together.) A report tabled after
-        {" "}{formatDate(sched.beingConsideredAsAt)} has not yet appeared in a government
-        status report, so “nothing received” against a recent report means the government
-        has not yet reported on it, not that it has refused to.
-      </p>
-    )}
-    <p class="note measure">
-      Every row below comes from
-      {" "}<a href={sched.url} rel="external">the President’s report as at {formatDate(sched.asAt)}</a>,
-      except any marked as the Senate tracker’s. Report titles link to the report itself on
-      the Parliament’s website: to its entry in the Tabled Documents index, which begins in
-      2022, or for an older report to the committee’s own page for it, found and checked by
-      hand. A report found on neither is listed without a link.
+      Ordered by how long each has waited. Every row is from
+      {" "}<a href={sched.url} rel="external">the President’s report as at {formatDate(sched.asAt)}</a>;
+      the status column is the President’s, and <em>being considered</em> is the report’s
+      “Interim*”, the government saying only that its response is being considered.
+      {" "}<a href="#source">Where this comes from</a> · <a href="/methods/">How it is built</a>.
     </p>
     <RegisterControls target="senate-register" noun="reports" />
     <table class="register stacks" id="senate-register" data-register="senate">
@@ -161,19 +141,121 @@ const byCommittee = [...rows.reduce((m, r) => {
   </section>
 
   <section class="wrap">
-    <h2 id="source">Where this comes from, and what it leaves out</h2>
+    <h2 id="record">What the record shows</h2>
     {(sched.editionsRead ?? 0) > 1 && (
       <p class="note measure">
-        <strong>How long the government has been saying it.</strong>
+        <strong>How long the government has been saying “being considered”.</strong>
         {" "}The President’s report has been tabled {fmt(sched.editionsRead ?? 0)} times since
         {" "}{formatDate(sched.editionsFrom ?? "")}, and every edition is on the public record.
-        In every one of them, <strong>{fmt(sched.consideredEveryEdition ?? 0)}</strong> of the reports below
+        In every one of them, <strong>{fmt(sched.consideredEveryEdition ?? 0)}</strong> of the reports above
         are marked “being considered”. The government has said the same thing about those
         reports, twice a year, for {sched.editionsRead === 9 ? "four" : ""}
         {" "}years. That is a count of consecutive editions, not an estimate: where a report’s
         title is written differently in an older edition the run is broken and counted short.
       </p>
     )}
+    <h3 id="compliance">Whether the deadline is met</h3>
+    <p class="note measure">
+      The register above is what is owed now. This is the record over
+      {" "}{comp.lastYear - comp.firstYear} years: every response tabled between{" "}
+      {comp.firstYear} and {comp.lastYear} whose report date the Senate’s register records,
+      {" "}{fmt(comp.assessable)} of them, measured against the three-month rule. The interval
+      runs from the report’s last tabling, which is the reading most favourable to the
+      government. <a href="/methods/#limits">What this does and does not count</a>.
+    </p>
+
+    <table class="register narrow">
+      <thead>
+        <tr>
+          <th scope="col">Time taken to respond</th>
+          <th scope="col" class="num">Responses</th>
+          <th scope="col" class="num">Share</th>
+        </tr>
+      </thead>
+      <tbody>
+        {comp.buckets.map((b) => (
+          <tr>
+            <td>{b.label}</td>
+            <td class="num">{fmt(b.count)}</td>
+            <td class="num">{(b.share * 100).toFixed(1)}%</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="note measure">
+      Median: {fmt(comp.medianDays)} days, or about {inMonths(comp.medianDays)}, against a
+      rule of three.
+    </p>
+    {LAUNCHED && (
+      <p class="note measure">
+        This measures only whether a response arrived, not whether it answered anything.
+        {" "}<a href="/senate/responses/">How the government answered →</a>
+      </p>
+    )}
+
+    <h3 id="by-government">By government</h3>
+    <p class="note measure">
+      A late response can be attributed to the government that tabled it, or to the government
+      in office when the report was tabled. Which government comes out worst depends on the
+      choice; that none of them reaches ten per cent does not. Both are shown.
+    </p>
+    <table class="register narrow">
+      <thead>
+        <tr>
+          <th scope="col">Government</th>
+          <th scope="col" class="num">Responses tabled</th>
+          <th scope="col" class="num">Met the rule</th>
+          <th scope="col" class="num">Reports tabled</th>
+          <th scope="col" class="num">Met the rule</th>
+        </tr>
+      </thead>
+      <tbody>
+        {comp.governments.map((g) => (
+          <tr>
+            <td>{g.name}</td>
+            <td class="num">{fmt(g.byResponse.n)}</td>
+            <td class="num">{(g.byResponse.rate * 100).toFixed(1)}%</td>
+            <td class="num">{fmt(g.byReport.n)}</td>
+            <td class="num">{(g.byReport.rate * 100).toFixed(1)}%</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="note measure">
+      Columns two and three count responses by who tabled them; columns four and five count
+      them by who was in office when the report was tabled. No government in
+      {" "}{comp.lastYear - comp.firstYear} years reaches one response in ten inside the deadline,
+      on either reading.
+    </p>
+  </section>
+
+  <section class="wrap">
+    <h2 id="by-committee">By committee</h2>
+    <p class="note measure">
+      Committees with reports still outstanding, most first.
+    </p>
+    <table class="register narrow">
+      <thead>
+        <tr>
+          <th scope="col">Committee</th>
+          <th scope="col" class="num">Outstanding</th>
+          <th scope="col" class="num">Longest wait</th>
+        </tr>
+      </thead>
+      <tbody>
+        {byCommittee.map((c) => (
+          <tr>
+            <td>{c.body}</td>
+            <td class="num">{fmt(c.count)}</td>
+            <td class="num nowrap">{fmt(c.longest)} days</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="wrap">
+    <h2 id="source">Where this comes from, and what it leaves out</h2>
     <p class="note measure">
       This register publishes what the presiding officer records, and nothing else.
       Twice a year the President reports to the Senate on the status of every committee
@@ -252,107 +334,27 @@ const byCommittee = [...rows.reduce((m, r) => {
       scrutiny, and the Senate’s domestic committees; and the House of Representatives,
       which has its own presiding officer, its own schedule and its own six-month rule.
     </p>
-  </section>
-
-  <section class="wrap">
-    <h2 id="by-committee">By committee</h2>
     <p class="note measure">
-      Committees with reports still outstanding, most first.
+      Every row in the register comes from
+      {" "}<a href={sched.url} rel="external">the President’s report as at {formatDate(sched.asAt)}</a>,
+      except any marked as the Senate tracker’s. Report titles link to the report itself on
+      the Parliament’s website: to its entry in the Tabled Documents index, which begins in
+      2022, or for an older report to the committee’s own page for it, found and checked by
+      hand. A report found on neither is listed without a link.
     </p>
-    <table class="register narrow">
-      <thead>
-        <tr>
-          <th scope="col">Committee</th>
-          <th scope="col" class="num">Outstanding</th>
-          <th scope="col" class="num">Longest wait</th>
-        </tr>
-      </thead>
-      <tbody>
-        {byCommittee.map((c) => (
-          <tr>
-            <td>{c.body}</td>
-            <td class="num">{fmt(c.count)}</td>
-            <td class="num nowrap">{fmt(c.longest)} days</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  </section>
-
-  <section class="wrap">
-    <h2 id="compliance">Whether the deadline is met</h2>
-    <p class="note measure">
-      The register above is what is owed now. This is the record over
-      {" "}{comp.lastYear - comp.firstYear} years: every response tabled between{" "}
-      {comp.firstYear} and {comp.lastYear} whose report date the Senate’s register records,
-      {" "}{fmt(comp.assessable)} of them, measured against the three-month rule. The interval
-      runs from the report’s last tabling, which is the reading most favourable to the
-      government. <a href="/methods/#limits">What this does and does not count</a>.
-    </p>
-
-    <table class="register narrow">
-      <thead>
-        <tr>
-          <th scope="col">Time taken to respond</th>
-          <th scope="col" class="num">Responses</th>
-          <th scope="col" class="num">Share</th>
-        </tr>
-      </thead>
-      <tbody>
-        {comp.buckets.map((b) => (
-          <tr>
-            <td>{b.label}</td>
-            <td class="num">{fmt(b.count)}</td>
-            <td class="num">{(b.share * 100).toFixed(1)}%</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-    <p class="note measure">
-      Median: {fmt(comp.medianDays)} days, or about {inMonths(comp.medianDays)}, against a
-      rule of three.
-    </p>
-    {LAUNCHED && (
+    {sched.beingConsideredAsAt && (
       <p class="note measure">
-        This measures only whether a response arrived, not whether it answered anything.
-        {" "}<a href="/senate/responses/">How the government answered →</a>
+        <strong>The status column is dated differently from the rest of the register.</strong>
+        {" "}The President’s report takes those marks from the government’s own status
+        report, which is as at {formatDate(sched.beingConsideredAsAt)} and was tabled on
+        {" "}{formatDate(sched.beingConsideredTabled ?? "")}; the register itself is as at
+        {" "}{formatDate(sched.asAt)}. (The President’s report says on its second page that
+        the two should be read together.) A report tabled after
+        {" "}{formatDate(sched.beingConsideredAsAt)} has not yet appeared in a government
+        status report, so “nothing received” against a recent report means the government
+        has not yet reported on it, not that it has refused to.
       </p>
     )}
-
-    <h3 id="by-government">By government</h3>
-    <p class="note measure">
-      A late response can be attributed to the government that tabled it, or to the government
-      in office when the report was tabled. Which government comes out worst depends on the
-      choice; that none of them reaches ten per cent does not. Both are shown.
-    </p>
-    <table class="register narrow">
-      <thead>
-        <tr>
-          <th scope="col">Government</th>
-          <th scope="col" class="num">Responses tabled</th>
-          <th scope="col" class="num">Met the rule</th>
-          <th scope="col" class="num">Reports tabled</th>
-          <th scope="col" class="num">Met the rule</th>
-        </tr>
-      </thead>
-      <tbody>
-        {comp.governments.map((g) => (
-          <tr>
-            <td>{g.name}</td>
-            <td class="num">{fmt(g.byResponse.n)}</td>
-            <td class="num">{(g.byResponse.rate * 100).toFixed(1)}%</td>
-            <td class="num">{fmt(g.byReport.n)}</td>
-            <td class="num">{(g.byReport.rate * 100).toFixed(1)}%</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-    <p class="note measure">
-      Columns two and three count responses by who tabled them; columns four and five count
-      them by who was in office when the report was tabled. No government in
-      {" "}{comp.lastYear - comp.firstYear} years reaches one response in ten inside the deadline,
-      on either reading.
-    </p>
   </section>
 
   <section class="wrap">

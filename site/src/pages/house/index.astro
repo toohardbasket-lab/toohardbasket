@@ -128,25 +128,14 @@ const byCommittee = [...rows.reduce((m, r) => {
   <section class="wrap">
     <h2 id="outstanding">Outstanding reports</h2>
     <p class="note measure">
-      Ordered by how long each has waited. <em>Answered in part</em> is the Speaker’s
-      “partial response received”: the Joint Committee of Public Accounts and Audit is
-      answered by executive minute, one recommendation at a time, and a report is not
-      treated as finished until every recommendation has been answered.
-      {" "}{partial.length > 0 && `${fmt(partial.length)} reports are in that state.`}
-      {" "}<a href="/methods/">How this is built</a>.
-    </p>
-    <p class="note measure">
-      Every row below comes from
+      Ordered by how long each has waited. Every row is from
       {" "}<a href={sched.url} rel="external">the Speaker’s schedule as at {formatDate(sched.asAt)}</a>.
-      Unlike the Senate register, this one has no second source, so nothing here is marked
-      otherwise. Report titles link to the report itself on the Parliament’s website: to its
-      entry in the Tabled Documents index, which begins in 2022, or for an older report to
-      the committee’s own page for it, found and checked by hand. A report found on neither
-      is listed without a link.
-    </p>
-    <p class="note measure">
-      <em>Being considered</em> is the government’s own sentence, from its status report,
-      not a characterisation of ours.
+      {" "}<em>Answered in part</em> is the Speaker’s “partial response received”: the Joint
+      Committee of Public Accounts and Audit is answered by executive minute, one
+      recommendation at a time.
+      {" "}{partial.length > 0 && `${fmt(partial.length)} reports are in that state.`}
+      {" "}<em>Being considered</em> is the government’s own sentence, from its status report.
+      {" "}<a href="#source">Where this comes from</a> · <a href="/methods/">How it is built</a>.
     </p>
     <RegisterControls target="house-register" noun="reports" />
     <table class="register stacks" id="house-register" data-register="house">
@@ -183,6 +172,42 @@ const byCommittee = [...rows.reduce((m, r) => {
         ))}
       </tbody>
     </table>
+  </section>
+
+  <section class="wrap">
+    <h2 id="by-committee">By committee</h2>
+    <p class="note measure">
+      Committees with reports still outstanding, most first.
+    </p>
+    <table class="register narrow">
+      <thead>
+        <tr>
+          <th scope="col">Committee</th>
+          <th scope="col" class="num">Outstanding</th>
+          <th scope="col" class="num">Longest wait</th>
+        </tr>
+      </thead>
+      <tbody>
+        {byCommittee.map((c) => (
+          <tr>
+            <td>{c.body}</td>
+            <td class="num">{fmt(c.count)}</td>
+            <td class="num nowrap">{fmt(c.longest)} days</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="wrap">
+    <h2 id="compared">Compared with the Senate</h2>
+    <p class="note measure">
+      The two chambers are asked for different things: the Senate wants a response within
+      three months, the House within six. So the two registers are not a league table, and
+      the counts should not be added together without saying what each covers. Both are
+      drawn from their presiding officer’s own record, and both currently stand as at
+      {" "}{formatDate(sched.asAt)}. <a href="/senate/">The Senate register →</a>
+    </p>
   </section>
 
   <section class="wrap">
@@ -360,41 +385,14 @@ const byCommittee = [...rows.reduce((m, r) => {
         </>
       )}
     </p>
-  </section>
-
-  <section class="wrap">
-    <h2 id="by-committee">By committee</h2>
     <p class="note measure">
-      Committees with reports still outstanding, most first.
-    </p>
-    <table class="register narrow">
-      <thead>
-        <tr>
-          <th scope="col">Committee</th>
-          <th scope="col" class="num">Outstanding</th>
-          <th scope="col" class="num">Longest wait</th>
-        </tr>
-      </thead>
-      <tbody>
-        {byCommittee.map((c) => (
-          <tr>
-            <td>{c.body}</td>
-            <td class="num">{fmt(c.count)}</td>
-            <td class="num nowrap">{fmt(c.longest)} days</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  </section>
-
-  <section class="wrap">
-    <h2 id="compared">Compared with the Senate</h2>
-    <p class="note measure">
-      The two chambers are asked for different things: the Senate wants a response within
-      three months, the House within six. So the two registers are not a league table, and
-      the counts should not be added together without saying what each covers. Both are
-      drawn from their presiding officer’s own record, and both currently stand as at
-      {" "}{formatDate(sched.asAt)}. <a href="/senate/">The Senate register →</a>
+      Every row in the register comes from
+      {" "}<a href={sched.url} rel="external">the Speaker’s schedule as at {formatDate(sched.asAt)}</a>.
+      Unlike the Senate register, this one has no second source, so nothing here is marked
+      otherwise. Report titles link to the report itself on the Parliament’s website: to its
+      entry in the Tabled Documents index, which begins in 2022, or for an older report to
+      the committee’s own page for it, found and checked by hand. A report found on neither
+      is listed without a link.
     </p>
   </section>
 
