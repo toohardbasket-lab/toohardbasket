@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import pathlib
 import statistics
 import sys
@@ -329,6 +330,75 @@ def main(as_json: bool = False) -> int:
             "by_year": {y: {"recommendations": v["recommendations"], "position_stated": v["position_stated"],
                             "share": v["coverage"]} for y, v in cov["by_year"].items()},
         }
+
+    # ---- the covering email ------------------------------------------------
+    # The brief is careful about these; the email that carries it was not, and
+    # one of its hand-typed figures ("191 responses, 46 form letters since the
+    # story") was never true. So the email's numbers are computed here too,
+    # from the same files, and the two traps it fell into are named rather
+    # than left for a reader to fall into.
+    STORY = os.environ.get("THB_STORY_DATE", "2026-03-03")   # Brittany Busch, SMH/Age
+    BATCH = os.environ.get("THB_BATCH_DAY", "2026-03-19")
+    AS_AT = os.environ.get("THB_AS_AT", date.today().isoformat())
+
+    resp = [r for r in read("response_documents.csv")
+            if (r.get("tabled_senate") or r.get("tabled_house") or "").strip()]
+    tabled = lambda r: (r.get("tabled_senate") or r.get("tabled_house") or "").strip()
+    closure = lambda r: r.get("classification") == "proforma_closure"
+
+    since = [r for r in resp if tabled(r) >= STORY]
+    day = [r for r in resp if tabled(r) == BATCH]
+    per_day = Counter(tabled(r) for r in resp)
+    rank = sorted(per_day.items(), key=lambda kv: -kv[1])
+
+    senate_n = out["registers"]["senate"]["outstanding_now"]
+    house_n = out["registers"]["house"]["outstanding_now"]
+    both_n = out["registers"]["on_both_registers"]
+
+    # Overdue carries the same double-count as the totals: a joint report
+    # overdue on both registers is two rows and one report.
+    yes = lambda v: (v or "").strip().lower() in ("true", "1", "yes")
+    cross = read("cross_register.csv")
+    both_overdue = sum(1 for r in cross if yes(r.get("senate_overdue"))
+                       and yes(r.get("house_overdue")))
+    overdue_rows = out["registers"]["senate"]["overdue"] + out["registers"]["house"]["overdue"]
+
+    # Only some register removals name the response that caused them. Without
+    # most of them attributed, nothing here can say WHY the backlog fell.
+    removed = read("answered_since_senate.csv") + read("answered_since_house.csv")
+    by_id = {(r.get("id") or "").strip(): r for r in resp}
+    named = [by_id[i] for i in
+             {(r.get("response_id") or "").strip() for r in removed} - {""} if i in by_id]
+
+    out["the_pitch"] = {
+        "as_at": AS_AT,
+        "story_date": STORY,
+        "since_story_responses": len(since),
+        "since_story_form_letters": sum(1 for r in since if closure(r)),
+        "days_story_to_batch": (iso(BATCH) - iso(STORY)).days,
+        "batch_day": BATCH,
+        "batch_day_responses": len(day),
+        "batch_day_form_letters": sum(1 for r in day if closure(r)),
+        "batch_day_substantive": sum(1 for r in day if r.get("classification") == "substantive"),
+        "batch_day_departments": sorted({(r.get("department") or r.get("author") or "").strip()
+                                         for r in day} - {""}),
+        "batch_day_rank_of_all_tabling_days": next(
+            (i + 1 for i, (k, _) in enumerate(rank) if k == BATCH), None),
+        "biggest_tabling_days": [
+            {"date": k, "responses": n,
+             "form_letters": sum(1 for r in resp if tabled(r) == k and closure(r))}
+            for k, n in rank[:5]],
+        "awaiting_distinct_reports": senate_n + house_n - both_n,
+        "awaiting_if_wrongly_added_DO_NOT_USE": senate_n + house_n,
+        "overdue_distinct_reports": overdue_rows - both_overdue,
+        "overdue_register_rows": overdue_rows,
+        "removed_since_schedules": len(removed),
+        "removed_with_a_named_response": len(named),
+        "removed_by_a_form_letter": sum(1 for r in named if closure(r)),
+        "removed_by_a_substantive_response": sum(
+            1 for r in named if r.get("classification") == "substantive"),
+        "may_say_why_the_backlog_fell": bool(removed) and len(named) >= 0.8 * len(removed),
+    }
 
     out["generated"] = date.today().isoformat()
 
