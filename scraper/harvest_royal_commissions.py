@@ -176,15 +176,21 @@ def phrases(commissions: list[dict]) -> list[tuple[str, str]]:
     return out
 
 
-DOCUMENT_FIELDS = ["commission_id", "role", "id", "type", "additional_type", "category",
-                   "title", "author", "department", "tabled_senate", "tabled_house",
-                   "parliament", "files", "url", "note"]
+DOCUMENT_FIELDS = ["commission_id", "role", "carries_recommendations", "id", "type",
+                   "additional_type", "category", "title", "author", "department",
+                   "tabled_senate", "tabled_house", "parliament", "files", "url", "note"]
 CANDIDATE_FIELDS = ["id", "type", "title", "tabled_senate", "tabled_house", "reason", "url"]
 
 
 def row_for(seed_row: dict, d: dict) -> dict:
     return {
         "commission_id": seed_row["commission_id"], "role": seed_row["role"],
+        # Which report document sets the recommendations out under their own
+        # numbers. The Disability Royal Commission's final report is thirteen
+        # documents and puts all 222 in one of them; Robodebt's is one document.
+        # It is a fact about the report, checked by the extraction step against
+        # the number the report itself states, not a shortcut taken on trust.
+        "carries_recommendations": seed_row.get("carries_recommendations") or "",
         "id": str(d.get("id", "")), "type": d.get("type") or "",
         "additional_type": d.get("additionalType") or "",
         "category": d.get("category") or "", "title": title_of(d),

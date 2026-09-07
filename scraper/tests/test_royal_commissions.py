@@ -43,7 +43,8 @@ def bed(commissions, seed, records, rejected=None):
         w = csv.DictWriter(f, fieldnames=["commission_id", "name", "short_names", "notes"])
         w.writeheader(); w.writerows(commissions)
     with (d / "rc_seed.csv").open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["commission_id", "otd_id", "role", "note"])
+        w = csv.DictWriter(f, fieldnames=["commission_id", "otd_id", "role",
+                                          "carries_recommendations", "note"])
         w.writeheader(); w.writerows(seed)
     H.COMMISSIONS, H.SEED = d / "royal_commissions.csv", d / "rc_seed.csv"
     H.DOCUMENTS, H.CANDIDATES = d / "rc_documents.csv", d / "rc_candidates.csv"
@@ -65,8 +66,10 @@ def rows(path):
 
 ONE = [{"commission_id": "robodebt", "name": "Royal Commission into the Robodebt Scheme",
         "short_names": "Robodebt Royal Commission", "notes": ""}]
-SEEDED = [{"commission_id": "robodebt", "otd_id": "2743", "role": "report", "note": ""},
-          {"commission_id": "robodebt", "otd_id": "4163", "role": "response", "note": ""}]
+SEEDED = [{"commission_id": "robodebt", "otd_id": "2743", "role": "report",
+           "carries_recommendations": "yes", "note": ""},
+          {"commission_id": "robodebt", "otd_id": "4163", "role": "response",
+           "carries_recommendations": "", "note": ""}]
 # Twenty of these, because the sweep refuses a register holding almost none.
 FILLER = [record(9000 + i) for i in range(H.FEWEST_ROYAL_COMMISSION_RECORDS + 1)]
 LIVE = [record("2743", title="Royal Commission into the Robodebt Scheme"),
@@ -84,6 +87,8 @@ check("records the register's own type beside it",
       {r["id"]: r["type"] for r in got} == {"2743": "Royal commission", "4163": "Other"})
 check("carries the file list, so nothing has to ask the register twice",
       all(r["files"] == "1|report.pdf" for r in got))
+check("carries the flag saying which report document holds the recommendations",
+      {r["id"]: r["carries_recommendations"] for r in got} == {"2743": "yes", "4163": ""})
 check("a seeded document is never also a candidate",
       not any(c["id"] in {"2743", "4163"} for c in rows(H.CANDIDATES)))
 

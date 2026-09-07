@@ -38,3 +38,6 @@ site/_preview/
 
 # Patch files relayed between working copies live beside the repo, not in it.
 *.patch
+
+# Chunks of a report being read; they are joined into the cached text and removed.
+scraper/raw/rc_report_text/parts/
