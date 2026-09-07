@@ -57,9 +57,14 @@ jobs:
       - name: Read and classify anything new
         run: python otd_sweep.py --refresh
       - name: A batch of closures in one day
-        run: python batch_alert.py
+        id: batch
+        run: |
+          python batch_alert.py
+          # hashFiles() cannot see outside the workspace, so it can never
+          # detect a note written to /tmp. Set an output instead.
+          if [ -f /tmp/batch_alert.md ]; then echo "note=yes" >> "$GITHUB_OUTPUT"; fi
       - name: Raise the batch as an issue
-        if: hashFiles('/tmp/batch_alert.md') != ''
+        if: steps.batch.outputs.note == 'yes'
         uses: actions/github-script@v7
         with:
           script: |
@@ -97,10 +102,15 @@ jobs:
         run: python tests/test_digest.py
 
       - name: What has been tabled since the last digest
-        run: python digest.py
+        id: digest
+        run: |
+          python digest.py
+          # hashFiles() cannot see outside the workspace, so it can never
+          # detect a note written to /tmp. Set an output instead.
+          if [ -f /tmp/digest.md ]; then echo "note=yes" >> "$GITHUB_OUTPUT"; fi
 
       - name: Send the digest as an issue
-        if: hashFiles('/tmp/digest.md') != ''
+        if: steps.digest.outputs.note == 'yes'
         uses: actions/github-script@v7
         with:
           script: |
