@@ -47,7 +47,7 @@ number is adopted.
     python3 extract_rc_recommendations.py
     python3 extract_rc_recommendations.py --commission robodebt
 
-Reads  data/rc_documents.csv and raw/rc_report_text/
+Reads  data/rc_documents.csv and raw/rc_text/
 Writes data/rc_recommendations.csv        one row per recommendation
        data/rc_recommendation_counts.csv  what was found against what is stated
 """
@@ -60,7 +60,7 @@ import sys
 
 HERE = pathlib.Path(__file__).resolve().parent
 DATA = HERE / "data"
-TEXT = HERE / "raw" / "rc_report_text"
+TEXT = HERE / "raw" / "rc_text"
 DOCUMENTS = DATA / "rc_documents.csv"
 COMMISSIONS = DATA / "royal_commissions.csv"
 OUT = DATA / "rc_recommendations.csv"
@@ -242,7 +242,7 @@ def main(argv: list[str]) -> int:
               + (f"; {unreadable} whose end could not be read" if unreadable else ""))
 
     for d in unread:
-        print(f"  OTD {d['id']}: no cached text — run harvest_rc_reports.py", file=sys.stderr)
+        print(f"  OTD {d['id']}: no cached text — run harvest_rc_text.py", file=sys.stderr)
     if unread:
         print(f"REFUSING: {len(unread)} report documents have not been read", file=sys.stderr)
         return 1

@@ -1,9 +1,11 @@
-"""harvest_rc_reports.py — read the royal commission reports, and keep the text.
+"""harvest_rc_text.py — read the royal commission documents, and keep the text.
 
-harvest_royal_commissions.py says which tabled documents are a commission's
-report. This downloads those documents and keeps their text, so a
-recommendation can be published in the commission's own words rather than in a
-government's transcription of them.
+harvest_royal_commissions.py says which tabled documents belong to which
+commission and what each one is. This downloads the ones the register reads —
+the report that carries the recommendations, and the government's response to
+it — and keeps their text. So a recommendation is published in the commission's
+own words rather than in a government's transcription of them, and a position
+is published in the government's own words rather than in ours.
 
 It reads a PDF the way harvest_report_pdfs.py does — pdfplumber, page by page,
 joined with a newline — and for a reason that was measured rather than assumed.
@@ -17,7 +19,7 @@ and neither needs OCR. Four of Robodebt's 364 front-matter pages and three of
 the Disability executive summary's 356 come back empty; those are covers and
 dividers.
 
-Text is cached under raw/rc_report_text/<document id>_<file id>.txt and is
+Text is cached under raw/rc_text/<document id>_<file id>.txt and is
 tracked, like the response and report text already in the repository: the
 evidence behind a published quotation belongs here, and a re-parse then costs
 nothing and downloads nothing. A document published as several files gets one
@@ -30,21 +32,22 @@ file is read in chunks against a time budget, the chunks are kept beside the
 text until the file is finished, and running the step again carries on where it
 stopped. Nothing is published from a half-read file.
 
-By default it reads the report documents marked in rc_seed.csv as carrying the
-recommendations, because that is what this register needs and because a royal
-commission report can be very long: the Disability Royal Commission's twelve
-volumes run to some thousands of pages, and all 222 of its recommendations are
-set out in the thirteenth document. The extraction step checks what it found
-against the number the report itself states, so a recommendation that lived
-only in a volume would show up as a shortfall rather than as nothing. --all
-reads every report document.
+By default it reads every response, and the report documents marked in
+rc_seed.csv as carrying the recommendations — not every volume of every report,
+because a royal commission report can be very long: the Disability Royal
+Commission's twelve volumes run to some thousands of pages, and all 222 of its
+recommendations are set out in the thirteenth document. The extraction step
+checks what it found against the number the report itself states, so a
+recommendation that lived only in a volume would show up as a shortfall rather
+than as nothing. --all reads every document of every role.
 
-    python3 harvest_rc_reports.py                          # the recommendation volumes
-    python3 harvest_rc_reports.py --commission robodebt    # one commission, repeatable
-    python3 harvest_rc_reports.py --only 3444              # one document
-    python3 harvest_rc_reports.py --seconds 300            # a longer budget per run
-    python3 harvest_rc_reports.py --all                    # every report document
-    python3 harvest_rc_reports.py --list                   # what is read and what is not
+    python3 harvest_rc_text.py                          # what the register reads
+    python3 harvest_rc_text.py --role response          # one role, repeatable
+    python3 harvest_rc_text.py --commission robodebt    # one commission, repeatable
+    python3 harvest_rc_text.py --only 3444              # one document
+    python3 harvest_rc_text.py --seconds 300            # a longer budget per run
+    python3 harvest_rc_text.py --all                    # every document of every role
+    python3 harvest_rc_text.py --list                   # what is read and what is not
 """
 from __future__ import annotations
 
@@ -59,7 +62,7 @@ import requests
 
 HERE = pathlib.Path(__file__).resolve().parent
 DATA = HERE / "data"
-TEXT = HERE / "raw" / "rc_report_text"
+TEXT = HERE / "raw" / "rc_text"
 PARTS = TEXT / "parts"
 DOCUMENTS = DATA / "rc_documents.csv"
 FILE = "https://otd.aph.gov.au/public-api/api/documents/{id}/files/{file_id}"
@@ -77,16 +80,26 @@ DEFAULT_SECONDS = 90
 PART = re.compile(r"\.part-(\d+)-(\d+)\.txt$")
 
 
-def reports(argv: list[str]) -> list[dict]:
-    """The report documents to read, and the PDF files each is published as."""
+# The roles the register reads. A corrigendum, a ministerial statement and the
+# closed chapter are in the table and are not read: nothing yet extracts from
+# them, and text nothing reads is text nobody has checked.
+READS = ("report", "response")
+
+
+def documents(argv: list[str]) -> list[dict]:
+    """The documents to read, and the PDF files each is published as."""
     wanted = {argv[i + 1] for i, a in enumerate(argv) if a == "--commission"}
+    roles = {argv[i + 1] for i, a in enumerate(argv) if a == "--role"} or set(READS)
     only = argv[argv.index("--only") + 1] if "--only" in argv else ""
     out = []
     with DOCUMENTS.open(newline="", encoding="utf-8-sig") as f:
         for r in csv.DictReader(f):
-            if r["role"] != "report":
+            if "--all" not in argv and r["role"] not in roles:
                 continue
-            if "--all" not in argv and not (r.get("carries_recommendations") or "").strip():
+            # Every response is read. Of the reports, only the document that
+            # sets the recommendations out under their own numbers.
+            if ("--all" not in argv and r["role"] == "report"
+                    and not (r.get("carries_recommendations") or "").strip()):
                 continue
             if wanted and r["commission_id"] not in wanted:
                 continue
@@ -149,7 +162,7 @@ def finish(job: dict) -> int:
 
 
 def main(argv: list[str]) -> int:
-    jobs = reports(argv)
+    jobs = documents(argv)
     if not jobs:
         print("no report documents match", file=sys.stderr)
         return 1
@@ -162,7 +175,8 @@ def main(argv: list[str]) -> int:
                 state = f"part read to page {read_from(j)}"
             else:
                 state = "not read"
-            print(f"{j['id']:>6} {j['file_id']:>6}  {state:>22}  {j['file_name'][:56]}")
+            print(f"{j['id']:>6} {j['file_id']:>6}  {j['role']:<9}  {state:>22}  "
+                  f"{j['file_name'][:46]}")
         done = sum(1 for j in jobs if cached(j).exists())
         print(f"{done} of {len(jobs)} files read")
         return 0
