@@ -175,6 +175,28 @@ const SHOWN = 25;
           </button>
         ))}
       </span>
+      {/*
+        One group, and the boxes in it widen the result rather than narrowing
+        it. "The response does not address it" and "answered without a stated
+        position" are two different ways of getting no answer, and a reader who
+        wants both means the 92 rows that are one or the other — not the none
+        that are both, which is what tick boxes that narrow would show.
+      */}
+      <fieldset class="filters">
+        <legend>Show only</legend>
+        <label>
+          <input type="checkbox" data-rc-only="not addressed" />
+          Recommendations the response does not address ({fmt(f.notAddressed)})
+        </label>
+        <label>
+          <input type="checkbox" data-rc-only="noted" />
+          Answered without a stated position ({fmt(f.noted)})
+        </label>
+        <label>
+          <input type="checkbox" data-rc-only="not accepted" />
+          Not accepted ({fmt(f.notAccepted)})
+        </label>
+      </fieldset>
       <p class="status" data-rc-status role="status" aria-live="polite"></p>
     </div>
 
@@ -188,7 +210,7 @@ const SHOWN = 25;
       </thead>
       <tbody>
         {rows.map((r) => (
-          <tr data-commission={r.commissionId} data-state={r.state}
+          <tr data-commission={r.commissionId} data-state={r.state} data-verdict={r.verdict}
               data-search={`${r.label} ${r.commission} ${r.text} ${saidOf(r)} ${r.governmentWords}`.toLowerCase()}>
             <td class="c-rec">
               <p class="rec-head">
@@ -357,6 +379,16 @@ const SHOWN = 25;
   }
   .chip[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
   .controls .status { margin: 0.6rem 0 0; font-size: 0.875rem; color: var(--ink-secondary); }
+  .filters {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1.25rem;
+    margin: 0.75rem 0 0; padding: 0; border: 0; font-size: 0.875rem;
+    color: var(--ink-secondary);
+  }
+  .filters legend {
+    padding: 0; margin-right: 0.25rem; font-size: 0.8125rem;
+    text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-secondary);
+  }
+  .filters label { display: flex; align-items: center; gap: 0.35rem; cursor: pointer; }
 
   .rec-head { margin: 0 0 0.35rem; font-family: var(--sans); font-size: 0.8125rem; color: var(--ink-secondary); }
   .rec-no { font-weight: 600; color: var(--ink); }
@@ -387,12 +419,20 @@ const SHOWN = 25;
     const LIMIT = 25;
     let commission = "";
     let showAll = false;
+    const only = Array.from(
+      controls.querySelectorAll<HTMLInputElement>("[data-rc-only]"),
+    );
 
     const apply = () => {
       const q = box.value.trim().toLowerCase();
       const terms = q ? q.split(/\s+/) : [];
+      /* The ticked boxes are a union; the commission and the words narrow it. */
+      const wanted = only.filter((b) => b.checked).map((b) => b.dataset.rcOnly);
       const matching = rows.filter((r) => {
         if (commission && r.dataset.commission !== commission) return false;
+        if (wanted.length
+            && !wanted.includes(r.dataset.state ?? "")
+            && !wanted.includes(r.dataset.verdict ?? "")) return false;
         const hay = r.dataset.search ?? "";
         return terms.every((t) => hay.includes(t));
       });
@@ -401,7 +441,8 @@ const SHOWN = 25;
       for (const r of rows) r.hidden = !show.has(r);
       status.textContent = matching.length === rows.length
         ? `Showing ${shown.length} of ${rows.length} recommendations`
-        : `${matching.length} of ${rows.length} recommendations match`;
+        : `${matching.length} of ${rows.length} recommendations match`
+          + (matching.length && matching.length > shown.length ? `; showing ${shown.length}` : "");
       if (matching.length > shown.length) {
         more.hidden = false;
         more.innerHTML = "";
@@ -417,6 +458,9 @@ const SHOWN = 25;
     };
 
     box.addEventListener("input", () => { showAll = false; apply(); });
+    for (const b of only) {
+      b.addEventListener("change", () => { showAll = false; apply(); });
+    }
     for (const chip of controls.querySelectorAll<HTMLButtonElement>("[data-rc-filter]")) {
       chip.addEventListener("click", () => {
         commission = chip.dataset.rcFilter ?? "";
