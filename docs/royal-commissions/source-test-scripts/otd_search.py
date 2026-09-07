@@ -2,9 +2,11 @@
 
 harvest_responses.py posts to the same search endpoint with an empty
 searchTerm and asks for one document type. Passing a searchTerm to that
-endpoint returned the same 17,380 records as passing none, so the term is not
+endpoint returned the same records as passing none, so the term is not
 filtering and nothing here relies on it: this walks the register and matches
-the title with a regular expression locally.
+the title with a regular expression locally. The walk is driven by the
+register's own pageCount and checked against its rowCount, because stopping at
+the first short page read 17,380 of 17,486 records with no error.
 
     python3 otd_search.py                                  # every document
     python3 otd_search.py --type "Royal commission"        # one type
@@ -26,7 +28,7 @@ def opt(name, default=""):
 types = [opt("--type")] if "--type" in args else []
 title = re.compile(opt("--title", "."), re.I)
 
-rows, page = [], 1
+rows, page, pages, expected = [], 1, None, None
 while True:
     payload = {"searchTerm": "", "documentCategories": [], "documentTypes": types,
                "departments": [], "parliamentNumbers": [], "isDisallowable": [],
@@ -36,11 +38,17 @@ while True:
                                  headers={"Content-Type": "application/json",
                                           "Accept": "application/json"})
     data = json.load(urllib.request.urlopen(req, timeout=60))
-    results = data.get("results") or []
-    rows += results
-    if len(results) < 100:
+    if pages is None:
+        pages, expected = data.get("pageCount"), data.get("rowCount")
+    rows += data.get("results") or []
+    if page >= pages:
         break
     page += 1
+# Not "stop at the first short page": a page that comes back short for its own
+# reasons ends the walk early and the count is quietly too low. This read
+# 17,380 of 17,486 records that way.
+if len({str(d.get("id")) for d in rows}) != expected:
+    raise SystemExit(f"read {len(rows)} records, register says {expected}")
 
 kept = 0
 for d in rows:
@@ -51,7 +59,7 @@ for d in rows:
     print("|".join([str(d.get("id", "")),
                     (d.get("tabledSenate") or "")[:10],
                     (d.get("tabledHouse") or "")[:10],
-                    str(d.get("typeDescription") or ""),
+                    str(d.get("type") or ""),
                     name]))
 terms = []
 if types:

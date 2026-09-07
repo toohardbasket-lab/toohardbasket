@@ -4,6 +4,14 @@ Done 6 September 2026, as `docs/ROYAL_COMMISSIONS.md` asks: two commissions,
 end to end, before any pipeline code. Nothing here was added to `scraper/`
 and nothing on the site changed.
 
+Corrected 6 September 2026, after this was first committed: `otd_search.py`
+stopped walking the register at the first page that came back short, which read
+17,380 of the register's 17,486 records without any error. It now follows the
+register's own page count and checks the total it was given. The records this
+finding names were all inside the part that was read, and no statement here
+changed; what changed is the register total in the last command's output, and
+the type column, which was reading a field name the search results do not use.
+
 Every number below was produced by the command printed beside it. The scripts
 are in `source-test-scripts/`; they are evidence of how this was reached, not
 pipeline steps. Run them from that directory. Documents come from
@@ -56,8 +64,8 @@ The corrigendum is id **2915** (Senate 27 July 2023, House 31 July 2023).
 
 ```
 python3 otd_search.py --type "Royal commission" | grep -i robodebt
-2915|2023-07-27|2023-07-31||Royal Commission into the Robodebt Scheme [Corrigendum]
-2743|2023-07-07|2023-07-31||Royal Commission into the Robodebt Scheme
+2915|2023-07-27|2023-07-31|Royal commission|Royal Commission into the Robodebt Scheme [Corrigendum]
+2743|2023-07-07|2023-07-31|Royal commission|Royal Commission into the Robodebt Scheme
 ```
 
 The text is native. No page needed OCR:
@@ -308,10 +316,10 @@ October 2023**, with a corrigendum (id 4072) on 2 and 16 November 2023.
 
 ```
 python3 otd_search.py --type "Royal commission"
-3444|2023-09-29|2023-10-18||Executive Summary, Our vision for an inclusive Australia and Recommendations [Final report]
-3446|2023-09-29|2023-10-18||Voices of people with disability [Final report - volume 1]
+3444|2023-09-29|2023-10-18|Royal commission|Executive Summary, Our vision for an inclusive Australia and Recommendations [Final report]
+3446|2023-09-29|2023-10-18|Royal commission|Voices of people with disability [Final report - volume 1]
    (ten more volumes, all 2023-09-29 and 2023-10-18)
-3458|2023-09-29|2023-10-18||Beyond the Royal Commission [Final report - volume 12]
+3458|2023-09-29|2023-10-18|Royal commission|Beyond the Royal Commission [Final report - volume 12]
    (then the corrigendum, and the six records of the three other commissions)
 # 20 of 20 register records match type 'Royal commission'
 ```
@@ -558,11 +566,11 @@ because their titles do not carry the commission's name.
 
 ```
 python3 otd_search.py --title 'disability royal commission|violence, abuse, neglect'
-4072|2023-11-02|2023-11-16||Royal Commission into Violence, Abuse, Neglect and Exploitation of People with Disability [Final report - Corrigendum]
-3448|2023-09-29|2023-10-18||Nature and extent of violence, abuse, neglect and exploitation [Final report - volume 3]
-6982|2024-08-12|2024-08-12||Ministerial Statement on the Australian Government Response to the Final Report ...
-6874|2024-07-31|2024-08-12||Australian Government Response to the Disability Royal Commission
-# 4 of 17380 register records match title /disability royal commission|violence, abuse, neglect/
+4072|2023-11-02|2023-11-16|Royal commission|Royal Commission into Violence, Abuse, Neglect and Exploitation ... [Final report - Corrigendum]
+3448|2023-09-29|2023-10-18|Royal commission|Nature and extent of violence, abuse, neglect and exploitation [Final report - volume 3]
+6982|2024-08-12|2024-08-12|Ministerial statement|Ministerial Statement on the Australian Government Response to the Final Report ...
+6874|2024-07-31|2024-08-12|Government response|Australian Government Response to the Disability Royal Commission
+# 4 of 17487 register records match title /disability royal commission|violence, abuse, neglect/
 ```
 
 Nothing was extracted from the progress report.
