@@ -1,0 +1,432 @@
+---
+/**
+ * The royal commissions register — draft.
+ *
+ * A second register on the same site, sharing the recommendation index's shape
+ * and the verdict vocabulary, and making no deadline claim. The committee
+ * registers stand on the President's report and the Speaker's schedule, which
+ * decide every row. There is no officer of the Parliament keeping a schedule of
+ * royal commission recommendations a government has not answered, and no
+ * statute requiring one to answer at all, so nothing here is overdue and no
+ * clock runs against anybody. What is shown instead is elapsed time, which is
+ * arithmetic on two tabling dates.
+ *
+ * Every figure comes from the dataset at build time. Nothing on this page is
+ * typed in.
+ */
+import Base from "../layouts/Base.astro";
+import StatTiles from "../components/StatTiles.astro";
+import { fmt, formatDate, formatDateShort, humanDuration } from "../lib/data";
+import { commissions, rcRecommendations, rcFigures, rcLabels } from "../lib/royalCommissions";
+
+const all = commissions();
+const rows = rcRecommendations();
+const f = rcFigures();
+const labels = rcLabels();
+
+const stats = [
+  { label: "Recommendations", value: fmt(f.recommendations) },
+  { label: "Commissions", value: fmt(f.commissions) },
+  { label: "With a stated position", value: fmt(f.position) },
+  { label: "Answered without one", value: fmt(f.noted) },
+  { label: "Not addressed", value: fmt(f.notAddressed) },
+];
+
+/* The bar. Four segments, not the committee register's six: there is no form
+   letter here, and "not addressed individually" means something different — a
+   response that never mentions the recommendation at all. */
+const segments = [
+  { key: "accepted", label: "Accepted", n: f.accepted },
+  { key: "part", label: "In part or in principle", n: f.inPartOrInPrinciple },
+  { key: "not", label: "Not accepted", n: f.notAccepted },
+  { key: "noted", label: "Answered, no position stated", n: f.noted },
+  { key: "passed", label: "Not addressed by the response", n: f.notAddressed },
+].map((s) => ({ ...s, share: s.n / (f.recommendations || 1) }));
+const pct = (v: number) => `${Math.round(v * 100)}%`;
+
+/* How a row reads in the "what the government said" column. */
+function saidOf(r: (typeof rows)[number]): string {
+  if (r.state === "not addressed") return "The response does not address it";
+  if (r.governmentLabel) return r.governmentLabel;
+  return "No words could be read";
+}
+const SHOWN = 25;
+---
+
+<Base
+  title="Royal commissions — draft"
+  description="Draft: every recommendation the Robodebt and Disability royal commissions made, with the government's own words about each one, and no deadline claim of any kind."
+>
+  <p class="draft wrap">
+    <strong>Draft.</strong> This page is not part of the published register. It is
+    here to be looked at and argued with; the figures on it are built from the
+    dataset like every other page, but nothing about it is settled.
+  </p>
+
+  <section class="wrap intro">
+    <p class="eyebrow">
+      Royal commissions · {fmt(f.recommendations)} recommendations from {fmt(f.commissions)} commissions
+    </p>
+    <h1>What royal commissions asked for</h1>
+    <p class="lede measure">
+      Two commissions, {fmt(f.recommendations)} recommendations, and what the Australian
+      Government said about each one in its own words. {fmt(f.position)} carry a stated
+      position. {fmt(f.noted)} were answered without one. {fmt(f.notAddressed)} the response
+      does not mention.
+    </p>
+    <StatTiles stats={stats} note="Counted over every recommendation both commissions made." />
+  </section>
+
+  <section class="wrap">
+    <h2 id="no-deadline">There is no deadline here</h2>
+    <p class="measure">
+      The other registers on this site measure a wait against a rule: a Senate committee
+      report is owed a response in three months, a House report in six. No such rule exists
+      for a royal commission. A government answers one when it decides to, so nothing on this
+      page is overdue, nothing is late, and no clock runs against anybody. What the table
+      below shows instead is elapsed time — the days between the report being tabled and the
+      response being tabled — because that is arithmetic rather than judgement.
+    </p>
+
+    <table class="register narrow">
+      <caption class="sr-only">Each commission, its report, and the government's response</caption>
+      <thead>
+        <tr>
+          <th scope="col">Commission</th>
+          <th scope="col" class="num">Report tabled</th>
+          <th scope="col" class="num">Response tabled</th>
+          <th scope="col" class="num">Time taken</th>
+          <th scope="col" class="num">Recommendations</th>
+        </tr>
+      </thead>
+      <tbody>
+        {all.map((c) => (
+          <tr>
+            <td>{c.name}</td>
+            <td class="num nowrap" data-label="Report tabled">
+              {c.reportUrl
+                ? <a href={c.reportUrl} rel="external">{formatDateShort(c.reportTabled)}</a>
+                : formatDateShort(c.reportTabled)}
+            </td>
+            <td class="num nowrap" data-label="Response tabled">
+              {c.responseUrl
+                ? <a href={c.responseUrl} rel="external">{formatDateShort(c.responseTabled)}</a>
+                : "None tabled"}
+            </td>
+            <td class="num nowrap" data-label="Time taken">
+              {c.daysToRespond === null
+                ? `${fmt(c.daysSinceReport)} days and counting`
+                : `${fmt(c.daysToRespond)} days`}
+            </td>
+            <td class="num nowrap" data-label="Recommendations">
+              {fmt(c.found)}{c.stated && String(c.found) !== c.stated && (
+                <span class="disagree"> · the report says {c.stated}</span>
+              )}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="wrap">
+    <h2 id="split">What the government said</h2>
+    <figure class="positions">
+      <figcaption class="sr-only" id="rc-positions-title">
+        What the Australian Government said about each of the {fmt(f.recommendations)} recommendations
+      </figcaption>
+      <div class="bar" role="img" aria-labelledby="rc-positions-title">
+        {segments.map((s) => (
+          <span class={`seg ${s.key}`} style={`width: ${(s.share * 100).toFixed(2)}%`}
+                title={`${s.label}: ${fmt(s.n)} of ${fmt(f.recommendations)} (${pct(s.share)})`}>
+            {s.share >= 0.09 && <b>{pct(s.share)}</b>}
+          </span>
+        ))}
+      </div>
+      <ul class="legend">
+        {segments.map((s) => (
+          <li><i class={`sw ${s.key}`}></i>{s.label}: {fmt(s.n)} ({pct(s.share)})</li>
+        ))}
+      </ul>
+    </figure>
+    <p class="note measure">
+      The vocabulary is the one the rest of the site uses, and it is not extended for these
+      documents. A government's own word is sorted three ways — accepted, in part or in
+      principle, not accepted — and anything else states no position and is shown as the
+      government wrote it. Neither government refused a single recommendation.
+    </p>
+  </section>
+
+  <section class="wrap">
+    <h2 id="register">The register</h2>
+    <p class="measure">
+      Every recommendation, in the commission's own words, with the government's own words
+      about it. Both are quoted from tabled documents, and both are linked.
+    </p>
+    <div class="controls" data-rc-controls>
+      <label for="rc-q" class="sr-only">Search the recommendations</label>
+      <input id="rc-q" type="search" data-rc-q autocomplete="off" spellcheck="false"
+             placeholder="Search: health, legal, data…" enterkeyhint="search" />
+      <span class="chips">
+        <button type="button" class="chip" data-rc-filter="" aria-pressed="true">Both</button>
+        {all.map((c) => (
+          <button type="button" class="chip" data-rc-filter={c.id} aria-pressed="false">
+            {c.id === "robodebt" ? "Robodebt" : "Disability"}
+          </button>
+        ))}
+      </span>
+      <p class="status" data-rc-status role="status" aria-live="polite"></p>
+    </div>
+
+    <table class="register stacks" id="rc-register">
+      <caption class="sr-only">Royal commission recommendations and the government's position on each</caption>
+      <thead>
+        <tr>
+          <th scope="col">Recommendation</th>
+          <th scope="col">What the government said</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((r) => (
+          <tr data-commission={r.commissionId} data-state={r.state}
+              data-search={`${r.label} ${r.commission} ${r.text} ${saidOf(r)} ${r.governmentWords}`.toLowerCase()}>
+            <td class="c-rec">
+              <p class="rec-head">
+                <span class="rec-no">{r.commissionId === "robodebt" ? "Robodebt" : "Disability"} {r.label}</span>
+                {r.reportUrl && <> · <a href={r.reportUrl} rel="external">the report</a></>}
+              </p>
+              {r.text
+                ? <p class="rec-text">{r.text}</p>
+                : <p class="rec-text missing">The report's own words could not be read: {r.textNote}.</p>}
+            </td>
+            <td class="c-said" data-label="What the government said">
+              <p class={`said ${r.verdict ? "stated" : "unstated"}`}>{saidOf(r)}</p>
+              {r.verdict && <p class="sorted">Sorted as: {r.verdict}</p>}
+              {r.otherGovernments && (
+                <p class="others">The states and territories: {r.otherGovernments}</p>
+              )}
+              {r.governmentWords && <p class="words">{r.governmentWords}</p>}
+              {r.responseUrl && (
+                <p class="src">
+                  <a href={r.responseUrl} rel="external">the response</a>
+                  {r.responseTabled && <> · tabled {formatDateShort(r.responseTabled)}</>}
+                </p>
+              )}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="more measure" data-rc-more hidden></p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="record">What the record shows</h2>
+
+    <h3>The counts, against the reports' own</h3>
+    <p>
+      A report usually says how many recommendations it makes, and that sentence is checked
+      against what was extracted rather than trusted or ignored.
+      {all.map((c) => (
+        <>
+          {" "}The {c.name} {c.stated && String(c.found) === c.stated
+            ? <>says it makes {c.stated} and {c.stated} is what is there.</>
+            : <>says it makes {c.stated || "no stated number"}, and {fmt(c.found)} are printed
+              under their own numbers; neither figure is adopted here.</>}
+        </>
+      ))}
+    </p>
+
+    {f.textUnreadable > 0 && (
+      <>
+        <h3>Where the words could not be read</h3>
+        <p>
+          {fmt(f.textUnreadable)} of the {fmt(f.recommendations)} carry no text. In each case the
+          report names nothing between the recommendation and whatever follows it, so where it
+          ends cannot be read mechanically. The row says so and links to the report, rather than
+          guessing at a boundary the report did not draw. Note that the government's position on
+          it is known even where its words are not.
+        </p>
+      </>
+    )}
+
+    <h3>The government's own words, and how they were sorted</h3>
+    <table class="register narrow">
+      <caption class="sr-only">Each label a government used, and how the site sorts it</caption>
+      <thead>
+        <tr>
+          <th scope="col">What the government wrote</th>
+          <th scope="col">Sorted as</th>
+          <th scope="col" class="num">Recommendations</th>
+        </tr>
+      </thead>
+      <tbody>
+        {labels.map((l) => (
+          <tr>
+            <td>{l.label}</td>
+            <td data-label="Sorted as">{l.verdict || "no position stated"}</td>
+            <td class="num" data-label="Recommendations">{fmt(l.n)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="note">
+      "Subject to further consideration" and "Note" use no verdict word, so they state no
+      position. They are shown as written and counted as neither an acceptance nor a refusal.
+    </p>
+
+    <h3>Where a recommendation was for more than one government</h3>
+    <p>
+      {fmt(f.withTheStates)} of these recommendations are answered by the Commonwealth together
+      with the states and territories. Where the response gives them separate verdicts, only the
+      Commonwealth's is counted here, decided by which government the response names on the
+      line; the states' answer is recorded beside it because the document says it. Where the
+      Commonwealth is not named on any line, this register shows no Commonwealth position, even
+      if every state accepted.
+    </p>
+
+    <h3>What is not here</h3>
+    <p>
+      Two commissions, both Commonwealth. The Royal Commission into Defence and Veteran Suicide
+      and the Royal Commission on Antisemitism and Social Cohesion are in the document table and
+      have not been read. State royal commissions are not in scope. Nothing on this page is
+      rebuilt weekly yet.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="source">Where this comes from</h2>
+    <p>
+      Everything above is built from four files in the published dataset, each produced by a
+      script in the same repository:
+      {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket/blob/main/scraper/data/rc_documents.csv">rc_documents.csv</a>,
+      {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket/blob/main/scraper/data/rc_recommendations.csv">rc_recommendations.csv</a>,
+      {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket/blob/main/scraper/data/rc_positions.csv">rc_positions.csv</a>
+      {" "}and the two count files beside them. The reports and responses are the copies tabled
+      in Parliament, not the copies on department websites, because the tabled copies come back
+      the same every time they are fetched and the departmental ones do not. Why that matters is
+      set out in
+      {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket/blob/main/docs/royal-commissions/source-test-2026-09.md">the source test</a>.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .draft {
+    margin: 1rem auto 0; padding: 0.7rem 1rem;
+    border-left: 3px solid var(--ink);
+    background: var(--rule); font-family: var(--sans); font-size: 0.9375rem;
+  }
+  .disagree { color: var(--ink-secondary); font-family: var(--sans); font-size: 0.8125rem; }
+
+  .positions { margin: 1rem 0 1.25rem; }
+  .bar { display: flex; width: 100%; height: 1.9rem; }
+  .seg {
+    display: flex; align-items: center; justify-content: center; overflow: hidden;
+    font-family: var(--sans); font-size: 0.8125rem; font-weight: 600; color: var(--surface);
+  }
+  .seg.accepted { background: var(--series-1); }
+  .seg.part { background: repeating-linear-gradient(45deg, var(--series-1) 0 3px, var(--surface) 3px 6px); color: var(--ink); }
+  .seg.not { background: var(--surface); box-shadow: inset 0 0 0 2px var(--series-1); color: var(--ink); }
+  .seg.noted { background: var(--rule-strong); color: var(--ink); }
+  .seg.passed { background: var(--rule); color: var(--ink); }
+  .seg.part b { background: var(--surface); padding: 0 0.3rem; }
+  .legend {
+    list-style: none; padding: 0; margin: 0.75rem 0 0;
+    display: flex; flex-wrap: wrap; gap: 0.35rem 1.4rem;
+    font-family: var(--sans); font-size: 0.875rem; color: var(--ink-secondary);
+  }
+  .legend li { display: inline-flex; align-items: center; gap: 0.5rem; }
+  .sw { display: inline-block; width: 0.7rem; height: 0.7rem; flex: none; }
+  .sw.accepted { background: var(--series-1); }
+  .sw.part { background: repeating-linear-gradient(45deg, var(--series-1) 0 2px, var(--surface) 2px 4px); }
+  .sw.not { background: var(--surface); box-shadow: inset 0 0 0 2px var(--series-1); }
+  .sw.noted { background: var(--rule-strong); }
+  .sw.passed { background: var(--rule); }
+
+  .controls { margin: 1rem 0; font-family: var(--sans); }
+  .controls input[type="search"] {
+    width: 100%; max-width: 28rem; padding: 0.55rem 0.7rem;
+    border: 1px solid var(--rule-strong); background: var(--surface); color: var(--ink);
+    font: inherit; font-size: 1rem;
+  }
+  .chips { display: inline-flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.6rem; }
+  .chip {
+    font: inherit; font-size: 0.875rem; padding: 0.25rem 0.7rem; cursor: pointer;
+    border: 1px solid var(--rule-strong); background: var(--surface); color: var(--ink-secondary);
+  }
+  .chip[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+  .controls .status { margin: 0.6rem 0 0; font-size: 0.875rem; color: var(--ink-secondary); }
+
+  .rec-head { margin: 0 0 0.35rem; font-family: var(--sans); font-size: 0.8125rem; color: var(--ink-secondary); }
+  .rec-no { font-weight: 600; color: var(--ink); }
+  .rec-text { margin: 0; }
+  .rec-text.missing { color: var(--ink-secondary); font-style: italic; }
+  .c-rec, .c-said { vertical-align: top; }
+  .said { margin: 0; font-family: var(--sans); font-weight: 600; }
+  .said.unstated { font-weight: 400; color: var(--ink-secondary); }
+  .sorted, .others, .src { margin: 0.3rem 0 0; font-family: var(--sans); font-size: 0.8125rem; color: var(--ink-secondary); }
+  .words { margin: 0.45rem 0 0; font-size: 0.9375rem; color: var(--ink-secondary); }
+  @media (min-width: 60rem) {
+    #rc-register th:first-child, #rc-register td:first-child { width: 48%; }
+  }
+</style>
+
+<script>
+  /* Filter and search over rows already in the page, and show the first
+     twenty-five until a reader asks for more. No index is fetched: the whole
+     register is in the HTML, so this works from a saved copy and degrades to
+     every row with JavaScript off. */
+  const table = document.getElementById("rc-register") as HTMLTableElement | null;
+  const controls = document.querySelector<HTMLElement>("[data-rc-controls]");
+  const box = document.querySelector<HTMLInputElement>("[data-rc-q]");
+  const status = document.querySelector<HTMLElement>("[data-rc-status]");
+  const more = document.querySelector<HTMLElement>("[data-rc-more]");
+  if (table && controls && box && status && more) {
+    const rows = Array.from(table.tBodies[0].rows);
+    const LIMIT = 25;
+    let commission = "";
+    let showAll = false;
+
+    const apply = () => {
+      const q = box.value.trim().toLowerCase();
+      const terms = q ? q.split(/\s+/) : [];
+      const matching = rows.filter((r) => {
+        if (commission && r.dataset.commission !== commission) return false;
+        const hay = r.dataset.search ?? "";
+        return terms.every((t) => hay.includes(t));
+      });
+      const shown = showAll ? matching : matching.slice(0, LIMIT);
+      const show = new Set(shown);
+      for (const r of rows) r.hidden = !show.has(r);
+      status.textContent = matching.length === rows.length
+        ? `Showing ${shown.length} of ${rows.length} recommendations`
+        : `${matching.length} of ${rows.length} recommendations match`;
+      if (matching.length > shown.length) {
+        more.hidden = false;
+        more.innerHTML = "";
+        const b = document.createElement("button");
+        b.type = "button";
+        b.className = "chip";
+        b.textContent = `Show all ${matching.length}`;
+        b.addEventListener("click", () => { showAll = true; apply(); });
+        more.appendChild(b);
+      } else {
+        more.hidden = true;
+      }
+    };
+
+    box.addEventListener("input", () => { showAll = false; apply(); });
+    for (const chip of controls.querySelectorAll<HTMLButtonElement>("[data-rc-filter]")) {
+      chip.addEventListener("click", () => {
+        commission = chip.dataset.rcFilter ?? "";
+        showAll = false;
+        for (const c of controls.querySelectorAll<HTMLButtonElement>("[data-rc-filter]")) {
+          c.setAttribute("aria-pressed", String(c === chip));
+        }
+        apply();
+      });
+    }
+    apply();
+  }
+</script>
