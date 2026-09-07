@@ -1,23 +1,23 @@
 {
   "definition": "A recommendation has a stated position when the government's words about it say it is supported, agreed, accepted, endorsed, rejected, declined, not supported, not agreed, not accepted or implemented, in full, in part or in principle. Coverage is stated positions over recommendations the index holds for the response, excluding dissenting recommendations and rows whose government words could not be read. Each stated position carries the government's own verdict word, sorted three ways: accepted (supported, agreed, accepted, endorsed or implemented, unqualified); in part or in principle (the same sentence qualifies it); not accepted (negated, or rejected, declined, disagreed).",
-  "responses_in_corpus": 623,
+  "responses_in_corpus": 624,
   "responses_with_nothing_indexed": 179,
   "dissenting_recommendations_excluded": 257,
-  "awaiting_a_response_excluded": 1109,
+  "awaiting_a_response_excluded": 1193,
   "total": {
-    "responses": 444,
+    "responses": 445,
     "responses_with_no_position_at_all": 250,
     "responses_fully_covered": 58,
-    "recommendations": 3493,
-    "position_stated": 1023,
-    "accepted": 499,
-    "in_part_or_in_principle": 444,
-    "not_accepted": 80,
-    "noted_no_position": 563,
+    "recommendations": 3504,
+    "position_stated": 1030,
+    "accepted": 504,
+    "in_part_or_in_principle": 445,
+    "not_accepted": 81,
+    "noted_no_position": 567,
     "form_letter": 1427,
     "not_addressed_individually": 480,
     "unreadable": 305,
-    "coverage": 0.2929
+    "coverage": 0.2939
   },
   "by_year": {
     "2022": {
@@ -81,19 +81,19 @@
       "coverage": 0.4169
     },
     "2026": {
-      "responses": 151,
+      "responses": 152,
       "responses_with_no_position_at_all": 77,
       "responses_fully_covered": 16,
-      "recommendations": 979,
-      "position_stated": 366,
-      "accepted": 181,
-      "in_part_or_in_principle": 160,
-      "not_accepted": 25,
-      "noted_no_position": 244,
+      "recommendations": 990,
+      "position_stated": 373,
+      "accepted": 186,
+      "in_part_or_in_principle": 161,
+      "not_accepted": 26,
+      "noted_no_position": 248,
       "form_letter": 62,
       "not_addressed_individually": 307,
       "unreadable": 147,
-      "coverage": 0.3739
+      "coverage": 0.3768
     }
   },
   "by_government": {
@@ -113,19 +113,19 @@
       "coverage": 1.0
     },
     "Albanese": {
-      "responses": 442,
+      "responses": 443,
       "responses_with_no_position_at_all": 250,
       "responses_fully_covered": 57,
-      "recommendations": 3484,
-      "position_stated": 1014,
-      "accepted": 493,
-      "in_part_or_in_principle": 441,
-      "not_accepted": 80,
-      "noted_no_position": 563,
+      "recommendations": 3495,
+      "position_stated": 1021,
+      "accepted": 498,
+      "in_part_or_in_principle": 442,
+      "not_accepted": 81,
+      "noted_no_position": 567,
       "form_letter": 1427,
       "not_addressed_individually": 480,
       "unreadable": 303,
-      "coverage": 0.291
+      "coverage": 0.2921
     }
   },
   "by_classification": {
@@ -160,19 +160,19 @@
       "coverage": 0.0
     },
     "substantive": {
-      "responses": 303,
+      "responses": 304,
       "responses_with_no_position_at_all": 113,
       "responses_fully_covered": 58,
-      "recommendations": 2042,
-      "position_stated": 1023,
-      "accepted": 499,
-      "in_part_or_in_principle": 444,
-      "not_accepted": 80,
-      "noted_no_position": 554,
+      "recommendations": 2053,
+      "position_stated": 1030,
+      "accepted": 504,
+      "in_part_or_in_principle": 445,
+      "not_accepted": 81,
+      "noted_no_position": 558,
       "form_letter": 0,
       "not_addressed_individually": 465,
       "unreadable": 238,
-      "coverage": 0.501
+      "coverage": 0.5017
     }
   }
 }
