@@ -202,6 +202,18 @@ const SHOWN = 25;
 
     <table class="register stacks" id="rc-register">
       <caption class="sr-only">Royal commission recommendations and the government's position on each</caption>
+      {/*
+        The widths are set here, on the columns, rather than in the stylesheet.
+        Base.astro lays a stacks table out fixed above 60rem and sets its first
+        column to 9rem, because on the two committee registers that column
+        holds a number of days. Here it holds the recommendation, and 9rem wrapped
+        it to about twenty characters a line. A col carries the width past that
+        rule without either page having to know about the other.
+      */}
+      <colgroup>
+        <col style="width: 55%" />
+        <col style="width: 45%" />
+      </colgroup>
       <thead>
         <tr>
           <th scope="col">Recommendation</th>
@@ -399,9 +411,16 @@ const SHOWN = 25;
   .said.unstated { font-weight: 400; color: var(--ink-secondary); }
   .sorted, .others, .src { margin: 0.3rem 0 0; font-family: var(--sans); font-size: 0.8125rem; color: var(--ink-secondary); }
   .words { margin: 0.45rem 0 0; font-size: 0.9375rem; color: var(--ink-secondary); }
-  @media (min-width: 60rem) {
-    #rc-register th:first-child, #rc-register td:first-child { width: 48%; }
-  }
+  /* Long prose in a wide column is as hard to read as short prose in a narrow
+     one: the eye loses the line coming back. The column is wide enough for the
+     government's answer beside it; the recommendation itself keeps to a
+     reading measure inside it, as prose does everywhere else on the site. And
+     the recommendation is a sentence rather than a URL, so it wraps between
+     words: the stacks rule breaks anywhere, which is right for a long report
+     title and wrong here. */
+  #rc-register td.c-rec { overflow-wrap: normal; }
+  #rc-register .rec-text { max-width: 62ch; }
+  #rc-register .c-said > * { max-width: 54ch; }
 </style>
 
 <script>
