@@ -176,7 +176,11 @@ def response_text(document_id: str) -> str:
     lines = [line.strip() for line in body.split("\n")]
     words = re.sub(r"\[.*?\]", " ", title_of(document_id)).split()
     if len(words) >= 3:
-        stem = re.compile(r"\s+".join(re.escape(w) for w in words[:3]), re.I)
+        # A head may carry a word the register's title does not — "Australian
+        # Government Response to …" for a document filed as "Government
+        # Response to …" — and only at the front of it.
+        stem = re.compile(r"(?:the\s+|australian\s+)?"
+                          + r"\s+".join(re.escape(w) for w in words[:3]), re.I)
         # The page number sits before the head on a left-hand page and after
         # it on a right-hand one; both are the same line.
         number = re.compile(r"^\s*\d{1,4}\s+|\s+\d{1,4}\s*$")

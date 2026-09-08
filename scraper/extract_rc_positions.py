@@ -220,7 +220,16 @@ def furniture(body: str, title: str) -> set[str]:
     words = re.sub(r"\[.*?\]", " ", title or "").split()
     if len(words) < 3:
         return set()
-    stem = re.compile(r"\s+".join(re.escape(w) for w in words[:3]), re.I)
+    # The head may carry a word the register's title does not. The final
+    # Defence and Veteran Suicide response is filed as "Government Response to
+    # the Final report of the Royal Commission Inquiry into Defence and Veteran
+    # Suicide" and heads its pages "Australian Government Response to the Royal
+    # Commission into Defence and Veteran Suicide", so an anchored match on the
+    # title's first three words missed it and three answers were published with
+    # the head inside them. Only what a document puts in front of its own name
+    # is allowed to differ, and only at the front.
+    stem = re.compile(r"(?:the\s+|australian\s+)?" + r"\s+".join(re.escape(w) for w in words[:3]),
+                      re.I)
     counted: collections.Counter = collections.Counter()
     for line in body.split("\n"):
         line = re.sub(r"[^\S\n]+", " ", line).strip()
