@@ -34,6 +34,17 @@ cut in half.
 | Robodebt 20.5 cut to eleven words at the government's own cross-reference — "The Government accepts this recommendation. As noted in the response to" | 1 | `prose_end()`, which stops at a heading and not at a mention |
 | The quotation stopping in the middle of a word at the 900-character cap | 29 | `cut()`, which stops at the end of a sentence and sets `government_words_more` so the row says the answer goes on |
 
+A fifth of the same kind turned up when the Royal Commission into Defence and
+Veteran Suicide was added on 8 September, and was found the same way — by
+scanning the new rows for the defects the earlier reading had named. Its
+response is filed in the register as "Government Response to the Final report
+of the Royal Commission Inquiry into Defence and Veteran Suicide" and heads its
+pages "**Australian** Government Response to the Royal Commission into Defence
+and Veteran Suicide", so the rule that finds a running head by the document's
+own title missed it by one word and three answers were published with the head,
+a page number and the next volume's title inside them. A head may now carry a
+word in front of the title's own opening, and only there.
+
 A fifth, found while checking disability 6.31: where a response answers a
 recommendation part by part — "Recommendation 6.31 (a)" and "(b)", with a
 different verdict for each — the row quoted part (a) and said nothing to
