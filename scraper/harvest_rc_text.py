@@ -19,6 +19,17 @@ and neither needs OCR. Four of Robodebt's 364 front-matter pages and three of
 the Disability executive summary's 356 come back empty; those are covers and
 dividers.
 
+Beside the text of a report it writes a second file, <id>_<file id>.lines.tsv,
+holding one row per line of the PDF: the font the line is set in, its size, and
+its text. That is how a recommendation's own heading is told from the
+recommendation. In the report the two are distinguished by type and nothing
+else — Robodebt sets a heading in Calibri-Bold above a Calibri body of the same
+size, the Disability report sets one in DINPro-Medium 13pt above an Arial 11pt
+body — and a plain text extraction throws that away, which is why the two ran
+together in the first version of this register. The sidecar keeps it. No list
+of font names is needed anywhere: the rule is that a heading is set in whatever
+the label line is set in, and the body begins where that changes.
+
 Text is cached under raw/rc_text/<document id>_<file id>.txt and is
 tracked, like the response and report text already in the repository: the
 evidence behind a published quotation belongs here, and a re-parse then costs
@@ -77,7 +88,7 @@ HEADERS = {
 # written, and the extraction will have nothing from it and will say so.
 FEWEST_CHARACTERS = 500
 DEFAULT_SECONDS = 90
-PART = re.compile(r"\.part-(\d+)-(\d+)\.txt$")
+PART = re.compile(r"\.part-(\d+)-(\d+)\.(?:txt|tsv)$")
 
 
 # The roles the register reads. A corrigendum, a ministerial statement and the
@@ -116,9 +127,20 @@ def cached(job: dict) -> pathlib.Path:
     return TEXT / f"{job['id']}_{job['file_id']}.txt"
 
 
-def parts_of(job: dict) -> list[pathlib.Path]:
+def lines_file(job: dict) -> pathlib.Path:
+    return TEXT / f"{job['id']}_{job['file_id']}.lines.tsv"
+
+
+def wants_lines(job: dict) -> bool:
+    """Only a report needs its typography kept; a response has no headings to find."""
+    return job["role"] == "report"
+
+
+def parts_of(job: dict, kind: str = "txt") -> list[pathlib.Path]:
     """The chunks read so far, in page order."""
-    found = list(PARTS.glob(f"{job['id']}_{job['file_id']}.part-*.txt")) if PARTS.exists() else []
+    pattern = (f"{job['id']}_{job['file_id']}.part-*.txt" if kind == "txt"
+               else f"{job['id']}_{job['file_id']}.lines.part-*.tsv")
+    found = list(PARTS.glob(pattern)) if PARTS.exists() else []
     return sorted(found, key=lambda p: int(PART.search(p.name).group(1)))
 
 
@@ -133,30 +155,57 @@ def download(session: requests.Session, job: dict) -> bytes:
                        headers=HEADERS, timeout=300).content
 
 
-def read_pages(data: bytes, start: int, seconds: int) -> tuple[str, int, int, int]:
+def typography(page) -> list[str]:
+    """One row per line: the font it is mostly set in, its size, and its text.
+
+    The font is the one most of the line's characters use, so a single italic
+    word inside a heading does not make it a different kind of line. The size is
+    rounded to the point, because a PDF's sizes carry noise below that.
+    """
+    rows = []
+    for line in page.extract_text_lines():
+        fonts: dict[str, int] = {}
+        for c in line["chars"]:
+            name = c["fontname"].split("+")[-1]
+            fonts[name] = fonts.get(name, 0) + 1
+        font = max(fonts, key=lambda f: fonts[f]) if fonts else ""
+        size = round(max((c["size"] for c in line["chars"]), default=0))
+        text = " ".join(line["text"].split()).replace("\t", " ")
+        rows.append(f"{font}\t{size}\t{text}")
+    return rows
+
+
+def read_pages(data: bytes, start: int, seconds: int,
+               with_lines: bool = False) -> tuple[str, list[str], int, int, int]:
     """Read from page `start` until the budget is spent. Returns text and counts."""
     import pdfplumber
-    pages, blank, until = [], 0, time.monotonic() + seconds
+    pages, lines, blank, until = [], [], 0, time.monotonic() + seconds
     with pdfplumber.open(io.BytesIO(data)) as pdf:
         total = len(pdf.pages)
         for page in pdf.pages[start:]:
             text = page.extract_text() or ""
             pages.append(text)
+            if with_lines:
+                lines += typography(page)
             blank += 0 if text.strip() else 1
             if time.monotonic() > until:
                 break
-    return "\n".join(pages), start + len(pages), total, blank
+    return "\n".join(pages), lines, start + len(pages), total, blank
 
 
 def finish(job: dict) -> int:
-    """Join the chunks into the cached text and take the chunks away."""
+    """Join the chunks into the cached files and take the chunks away."""
     done = parts_of(job)
     body = "\n".join(p.read_text(encoding="utf-8") for p in done)
     if len(body.strip()) < FEWEST_CHARACTERS:
         print(f"{job['id']}_{job['file_id']}: no text layer — nothing written", file=sys.stderr)
     else:
         cached(job).write_text(body, encoding="utf-8")
-    for p in done:
+        if wants_lines(job):
+            rows = parts_of(job, "lines")
+            lines_file(job).write_text(
+                "\n".join(p.read_text(encoding="utf-8") for p in rows) + "\n", encoding="utf-8")
+    for p in done + parts_of(job, "lines"):
         p.unlink()
     return len(body)
 
@@ -169,8 +218,10 @@ def main(argv: list[str]) -> int:
     if "--list" in argv:
         for j in jobs:
             path = cached(j)
-            if path.exists():
+            if path.exists() and (not wants_lines(j) or lines_file(j).exists()):
                 state = f"{path.stat().st_size:>10,} bytes"
+            elif path.exists():
+                state = "text only, no typography"
             elif parts_of(j):
                 state = f"part read to page {read_from(j)}"
             else:
@@ -188,15 +239,21 @@ def main(argv: list[str]) -> int:
     finished, unfinished = [], []
     until = time.monotonic() + seconds
     for job in jobs:
-        if cached(job).exists():
+        # A report cached before the typography sidecar existed is read again:
+        # the text alone cannot tell a heading from what it introduces.
+        if cached(job).exists() and (not wants_lines(job) or lines_file(job).exists()):
             continue
         if time.monotonic() > until:
             break
         start = read_from(job)
         data = download(session, job)
-        body, read_to, total, blank = read_pages(data, start, int(until - time.monotonic()))
+        body, lines, read_to, total, blank = read_pages(
+            data, start, int(until - time.monotonic()), with_lines=wants_lines(job))
         (PARTS / f"{job['id']}_{job['file_id']}.part-{start}-{read_to}.txt").write_text(
             body, encoding="utf-8")
+        if wants_lines(job):
+            (PARTS / f"{job['id']}_{job['file_id']}.lines.part-{start}-{read_to}.tsv").write_text(
+                "\n".join(lines), encoding="utf-8")
         if read_to >= total:
             size = finish(job)
             finished.append(job)

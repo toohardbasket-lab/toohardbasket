@@ -124,6 +124,50 @@ unpunctuated = ("Recommendation 8.1: A title\n"
 check("a recommendation that ends without a full stop is not trimmed",
       found(unpunctuated)["8.1"]["recommendation"].endswith("other key stakeholders"))
 
+# --- telling the heading from the recommendation ----------------------------
+def sidecar(rows):
+    """A typography sidecar: (font, size, text) per line."""
+    d = pathlib.Path(tempfile.mkdtemp()) / "99_1.lines.tsv"
+    d.write_text("\n".join(f"{f}\t{s}\t{t}" for f, s, t in rows) + "\n", encoding="utf-8")
+    return d
+
+
+got = E.headings_in(sidecar([
+    ("Calibri-Bold", 11, "Recommendation 10.1: Design policies and processes with emphasis"),
+    ("Calibri-Bold", 11, "on the people they are meant to serve"),
+    ("Calibri", 11, "Services Australia design its policies and processes."),
+]))
+check("a heading that wraps is read to the end of the wrap",
+      got["10.1"] == "Design policies and processes with emphasis on the people they are meant to serve")
+
+got = E.headings_in(sidecar([
+    ("DINPro-Medium", 13, "Recommendation 6.1 A short heading"),
+    ("ArialMT", 11, "The Australian Government should do the thing."),
+    ("DINPro-Medium", 16, "A section heading, larger"),
+]))
+check("the heading stops where the type changes", got["6.1"] == "A short heading")
+
+got = E.headings_in(sidecar([
+    ("Calibri-Bold", 11, "Recommendation 7.1: The first"),
+    ("Calibri-Bold", 11, "Recommendation 7.2: The second"),
+    ("Calibri", 11, "The Commonwealth should do the thing."),
+]))
+check("one recommendation's heading never swallows the next one's",
+      got == {"7.1": "The first", "7.2": "The second"})
+
+check("no sidecar at all: no headings, and nothing invented",
+      E.headings_in(pathlib.Path("/nowhere/99_1.lines.tsv")) == {})
+
+check("the split happens only where the text begins with the heading",
+      E.split_heading("A title The Commonwealth should act.", "A title")
+      == ("A title", "The Commonwealth should act."))
+check("and where it does not, the row keeps the whole block and no heading",
+      E.split_heading("The Commonwealth should act.", "Some other title")
+      == ("", "The Commonwealth should act."))
+check("no heading found: the block is left exactly as it was",
+      E.split_heading("The Commonwealth should act.", "")
+      == ("", "The Commonwealth should act."))
+
 # --- what the report says it recommends -------------------------------------
 check("the report's own count is read from its own words",
       E.stated_total("The following is a list of 57 recommendations of this Commission.")

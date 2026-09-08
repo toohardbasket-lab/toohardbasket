@@ -19,12 +19,23 @@ is how a Senate committee prints it. Both of these put the number and the
 recommendation's own heading on one line, with or without a colon, so that step
 finds nothing at all in either report.
 
-The heading is not separated from the recommendation here. In the report the
-two are told apart by weight — the heading is bold — and a plain text
-extraction cannot see weight. A heading also wraps onto the next line often
-enough that no punctuation rule tells where it ends. So the row carries what
-the report prints, heading and all, rather than a split that would sometimes
-cut a recommendation in half.
+The heading is separated from the recommendation, and the report itself says
+where the line falls. In print the two are told apart by type and by nothing
+else: Robodebt sets a heading in Calibri-Bold above a Calibri body of the same
+size, and the Disability report sets one in DINPro-Medium 13pt above an Arial
+11pt body. Plain text throws that away, which is why the first version of this
+file ran them together — "Review and update of disability strategies and plans
+State and territory governments should review and update their..." — and no
+punctuation rule can recover it, because a heading wraps onto a second line as
+often as not and carries no full stop either way.
+
+So harvest_rc_text.py keeps the typography beside the text, one row per line,
+and the heading is the run of lines set the way the label line is set. No font
+is named anywhere in this file: the rule is that a heading is whatever the
+label is set in, and the recommendation begins where that changes. Where the
+sidecar is missing, or the heading it finds is not where the text begins, the
+row keeps the whole block as it did before and the heading column is empty —
+the split is never guessed at.
 
 Where a recommendation stops:
 
@@ -107,7 +118,7 @@ STATED = re.compile(r"(?:list|total)\s+of\s+(\d{1,3})\s+recommendations", re.I)
 # one. What a contents entry is caught by is its leaders, not its length.
 MIN_CHARS, MAX_CHARS = 25, 6000
 
-FIELDS = ["commission_id", "source", "source_id", "label", "recommendation",
+FIELDS = ["commission_id", "source", "source_id", "label", "heading", "recommendation",
           "report_title", "report_tabled", "report_url", "note"]
 COUNT_FIELDS = ["commission_id", "source_id", "found", "stated", "agree", "note"]
 
@@ -178,6 +189,54 @@ def recommendations_in(body: str, name: str = "") -> dict[str, dict]:
     return out
 
 
+# A line of the typography sidecar: the font it is mostly set in, its size in
+# points, and its text.
+LINE = re.compile(r"^([^\t]*)\t(\d+)\t(.*)$")
+
+
+def headings_in(path: pathlib.Path) -> dict[str, str]:
+    """label -> the recommendation's own heading, as the report sets it.
+
+    The heading is the label's line and any line after it set the same way. It
+    stops at the first line set differently, and at the next recommendation,
+    which is set the same way and is not a continuation of this one.
+    """
+    if not path.exists():
+        return {}
+    rows = []
+    for line in path.read_text(encoding="utf-8", errors="replace").splitlines():
+        m = LINE.match(line)
+        if m:
+            rows.append((m.group(1), m.group(2), m.group(3)))
+    out: dict[str, str] = {}
+    for i, (font, size, text) in enumerate(rows):
+        head = HEAD.match(text)
+        if not head:
+            continue
+        parts = [head.group(2)]
+        for font2, size2, text2 in rows[i + 1:]:
+            if (font2, size2) != (font, size) or HEAD.match(text2):
+                break
+            parts.append(text2)
+        heading = " ".join(" ".join(parts).split())
+        label = head.group(1)
+        # A number is printed twice, and the two headings are the same words;
+        # the shorter is the one the page did not break oddly.
+        if label not in out or len(heading) < len(out[label]):
+            out[label] = heading
+    return out
+
+
+def split_heading(text: str, heading: str) -> tuple[str, str]:
+    """The heading and what follows it, where the text does begin with it."""
+    if not heading:
+        return "", text
+    trimmed = heading.strip(" .:;-—–•")
+    if text.startswith(trimmed):
+        return trimmed, text[len(trimmed):].lstrip(" .:;-—–•")
+    return "", text
+
+
 def stated_total(body: str) -> tuple[str, str]:
     """What the report says it recommends, and a note when it says it twice."""
     found = sorted({m.group(1) for m in STATED.finditer(body)})
@@ -224,11 +283,19 @@ def main(argv: list[str]) -> int:
             unread.append(d)
             continue
         found = recommendations_in(body, names.get(d["commission_id"], ""))
+        headings = {}
+        for path in sorted(TEXT.glob(f"{d['id']}_*.lines.tsv")):
+            headings.update(headings_in(path))
         stated, note = stated_total(body)
+        unsplit = 0
         for label in sorted(found, key=label_key):
+            heading, text = split_heading(found[label]["recommendation"],
+                                          headings.get(label, ""))
+            if found[label]["recommendation"] and not heading:
+                unsplit += 1
             rows.append({
                 "commission_id": d["commission_id"], "source": "report", "source_id": d["id"],
-                "label": label, "recommendation": found[label]["recommendation"],
+                "label": label, "heading": heading, "recommendation": text,
                 "report_title": d["title"], "report_tabled": d["tabled_senate"] or d["tabled_house"],
                 "report_url": d["url"], "note": found[label]["note"],
             })
@@ -239,7 +306,8 @@ def main(argv: list[str]) -> int:
         print(f"{d['commission_id']}: {len(found)} recommendations from OTD {d['id']}"
               + (f", the report states {stated}" if stated else f" — {note}")
               + (f" — THEY DISAGREE by {abs(len(found) - int(stated))}" if agree == "no" else "")
-              + (f"; {unreadable} whose end could not be read" if unreadable else ""))
+              + (f"; {unreadable} whose end could not be read" if unreadable else "")
+              + (f"; {unsplit} whose heading could not be told from the text" if unsplit else ""))
 
     for d in unread:
         print(f"  OTD {d['id']}: no cached text — run harvest_rc_text.py", file=sys.stderr)
