@@ -182,6 +182,22 @@ def from_blocks(body: str) -> dict[str, dict]:
             # recommendation, answered partly — which is what the existing
             # vocabulary already means.
             state, verdict = "position", "in part or in principle"
+        notes = []
+        if "state" in block["responsibility"].lower():
+            notes.append("answered with the states and territories together")
+        # A sorted verdict is the register's word, not the government's, and
+        # where they could differ the row has to say so. "In part or in
+        # principle" is fair when the parts are accepted and accepted in
+        # principle; it is not what the government said when one part was
+        # accepted and another was noted, because nobody qualified anything —
+        # a position was stated on one part and withheld on the other. The
+        # register's own CLAUDE.md carries the same lesson under a different
+        # name: interim_response does not mean an interim response. So where
+        # the parts do not all state a verdict, the row carries the fact
+        # rather than leaving the sorted word to speak for the government.
+        if len(mine) > 1 and len(stated) != len(mine):
+            notes.append("the government states a position on some parts of this "
+                         "recommendation and not on others")
         for label in block["labels"]:
             keep = found.get(label)
             if keep and keep["state"] == "position" and state != "position":
@@ -191,8 +207,7 @@ def from_blocks(body: str) -> dict[str, dict]:
                 "government_label": "; ".join(mine),
                 "other_governments": "; ".join(others),
                 "government_words": block["words"],
-                "note": ("answered with the states and territories together"
-                         if "state" in block["responsibility"].lower() else ""),
+                "note": "; ".join(notes),
             }
     return found
 
