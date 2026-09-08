@@ -79,6 +79,9 @@ COUNTS = DATA / "rc_position_counts.csv"
 
 sys.path.insert(0, str(HERE))
 import coverage as cov                    # noqa: E402
+# A footnote is small type at the foot of the page, and the sidecar beside
+# the response says which lines are both.
+from extract_rc_recommendations import apparatus_in  # noqa: E402
 import extract_recommendations as ex      # noqa: E402
 
 # --- the block grammar ------------------------------------------------------
@@ -668,8 +671,33 @@ def write(path: pathlib.Path, fields: list[str], rows: list[dict]) -> None:
 
 
 def text_for(document_id: str) -> str:
-    return "\n".join(p.read_text(encoding="utf-8", errors="replace")
+    """The response, with the apparatus at the foot of its pages taken out.
+
+    A footnote is not the government's answer and neither is a running footer,
+    but flattened to characters they are indistinguishable from it: where a
+    page breaks inside an answer, whatever is at the foot of that page lands in
+    the middle of the sentence. Four of the Robodebt answers were published
+    carrying the references from the foot of the page — "Independent Review of
+    the National Legal Assistance Partnership (ag.gov.au). 19 The Independent
+    Review of the NLAP (nlapreview.com.au). 20 Issues Paper | NLAP review..."
+    in the middle of the answer to 13.1 — and one of the Antisemitism answers
+    the same way.
+
+    The recommendation side has taken a report's apparatus out since the
+    Antisemitism report was read, on size alone, and that test cannot be used
+    here: a fifth of the lines in the Defence and Veteran Suicide response are
+    set below its majority size and they are its own recommendations. What
+    identifies a footnote in a response is the pair — small type, at the foot
+    of the page — and apparatus_in() reads both off the sidecar.
+    """
+    body = "\n".join(p.read_text(encoding="utf-8", errors="replace")
                      for p in sorted(TEXT.glob(f"{document_id}_*.txt")))
+    apparatus: set[str] = set()
+    for path in sorted(TEXT.glob(f"{document_id}_*.lines.tsv")):
+        apparatus |= apparatus_in(path)
+    if not apparatus:
+        return body
+    return "\n".join(line for line in body.split("\n") if line.strip() not in apparatus)
 
 
 def positions_in(body: str, title: str = "") -> tuple[dict[str, dict], str]:

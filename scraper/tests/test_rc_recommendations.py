@@ -158,6 +158,74 @@ check("one recommendation's heading never swallows the next one's",
 check("no sidecar at all: no headings, and nothing invented",
       E.headings_in(pathlib.Path("/nowhere/99_1.lines.tsv")) == {})
 
+# --- the apparatus at the foot of a page ------------------------------------
+# Three government answers were published carrying the references printed under
+# them. Four rules were tried before this one; the three that failed each took
+# words out of an answer, which is worse than leaving a reference in.
+def placed(rows):
+    """A sidecar that keeps how far down the page each line sits."""
+    d = pathlib.Path(tempfile.mkdtemp()) / "88_1.lines.tsv"
+    d.write_text("\n".join(f"{f}\t{s}\t{y}\t{t}" for f, s, y, t in rows) + "\n", encoding="utf-8")
+    return d
+
+
+page = [
+    ("Calibri", 11, 20, "The Government accepts this recommendation."),
+    ("Calibri", 11, 40, "The Government will consult with peak advocacy groups."),
+    ("Calibri", 9, 92, "19 The Independent Review of the NLAP (nlapreview.com.au)."),
+    ("Calibri", 9, 95, "20 Issues Paper | NLAP review (nlapreview.com.au)."),
+]
+check("a numbered reference at the foot of the page is apparatus",
+      E.apparatus_in(placed(page)) == {"19 The Independent Review of the NLAP (nlapreview.com.au).",
+                                       "20 Issues Paper | NLAP review (nlapreview.com.au)."})
+
+check("the government's own words low on the page are not, whatever size they are set in",
+      E.apparatus_in(placed(page + [
+          ("Calibri", 9, 90, "Defence families, including services that support partners.")])) ==
+      {"19 The Independent Review of the NLAP (nlapreview.com.au).",
+       "20 Issues Paper | NLAP review (nlapreview.com.au)."})
+
+check("a line that appears again anywhere but the foot of a page is the document's own",
+      E.apparatus_in(placed(page + [
+          ("Calibri", 11, 30, "19 The Independent Review of the NLAP (nlapreview.com.au).")])) ==
+      {"20 Issues Paper | NLAP review (nlapreview.com.au)."})
+
+check("a numbered line high on the page is not a footnote",
+      E.apparatus_in(placed([
+          ("Calibri", 11, 10, "1 The Government agrees with this."),
+          ("Calibri", 11, 30, "The rest of the answer follows.")])) == set())
+
+check("a sidecar written before positions were kept: nothing is guessed at",
+      E.apparatus_in(sidecar([("Calibri", 9, "19 The Independent Review of the NLAP.")])) == set())
+
+# --- the fragment after the last full stop ----------------------------------
+# A heading, usually. Sometimes the recommendation still going, and cutting
+# there took the end off two of the 427.
+check("a bulleted fragment with no full stop is the recommendation, not a heading",
+      found("Recommendation 19.2: Training for lawyers\n"
+            "Services Australia should provide regular training, including:\n"
+            "\u2022 an emphasis on the duty to avoid any compromise to their integrity.\n"
+            "\u2022 appropriate statutory and case authority references in advice writing\n"
+            "Glossary\n")["19.2"]["recommendation"].endswith("references in advice writing"))
+
+check("a clause after a full stop inside the sentence is kept",
+      found("Recommendation 7.12: A title\n"
+            "e. Authorities should require schools to complete the template mentioned at d. "
+            "and submit the template to the relevant education department\n"
+            "Glossary\n")["7.12"]["recommendation"].endswith("to the relevant education department"))
+
+check("a heading after the last full stop is still dropped",
+      found("Recommendation 8.1: A title\n"
+            "The Commonwealth should do the thing and should do it well.\n"
+            "Improving Service\n"
+            "Glossary\n")["8.1"]["recommendation"].endswith("should do it well"))
+
+check("one word in lower case is the page's doing, not the report's",
+      not E.continues("and"))
+check("and a fragment that begins in upper case is a heading however long",
+      not E.continues("Improving Service Delivery Across The Commonwealth"))
+check("a bullet is never a heading", E.continues("\u2022 appropriate statutory references"))
+
 # --- what the report's own list heads but does not number -------------------
 # Robodebt says it makes 57 and prints 56 numbers. The 57th is the last item in
 # its own list, set exactly as every recommendation heading in that list is set

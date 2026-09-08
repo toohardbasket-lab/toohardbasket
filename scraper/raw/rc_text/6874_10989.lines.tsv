@@ -1,0 +1,608 @@
+REM-Bold	25	15	The Australian Government response
+REM-Bold	25	19	to the Disability Royal Commission
+REM-Regular	14	27	Easy Read version
+REM-Light	14	36	Helen Butcher created the art on the front cover of this document.
+REM-Light	14	41	She is an artist. Her picture is called ‘Belonging’.
+REM-Light	14	46	It is about inclusion.
+REM-Light	14	50	She made this art for the Australian Government Response
+REM-Light	14	54	to the Disability Royal Commission.
+REM-Light	14	58	We thank Helen for sharing her art with us.
+REM-Light	14	63	Cover artwork © Helen Butcher / Copyright Agency, 2024
+REM-Bold	23	8	What’s in this document?
+REM-Light	14	14	How to use this document 4
+REM-Light	14	19	What was the Disability Royal Commission? 7
+REM-Light	14	23	What are the recommendations? 8
+REM-Light	14	28	What is the Australian Government Response? 9
+REM-Light	14	33	Our response to the recommendations 15
+REM-Light	14	37	Part 4: The rights of people with disability 16
+REM-Light	14	42	Part 5: Guiding government plans 19
+REM-Light	14	46	Part 6: Being accessible and people’s choices 21
+REM-Light	14	51	Part 7: Education, housing and employment 24
+REM-Light	14	55	Part 8: The justice system 27
+REM-Light	14	60	Part 9: First Nations people with disability 29
+REM-Light	14	64	Part 10: Safe services for people with disability 30
+REM-Light	14	69	Part 11: Managing and reporting problems 32
+REM-Light	14	74	Part 12: What happens after the Disability Royal Commission 34
+REM-Light	14	78	Where you can find support 36
+REM-Light	14	83	Word list 41
+REM-Light	14	87	Contact us 46
+REM-Bold	12	96	Page 3
+REM-Bold	23	8	How to use this document
+REM-Regular	21	15	We
+REM-Light	14	16	The Australian Government wrote this document.
+REM-Light	14	20	When you see the word ‘we’, it means
+REM-Light	14	24	the Australian Government.
+REM-Light	14	33	We wrote this document in an easy to read way.
+REM-Light	14	38	We use pictures to explain some ideas.
+REM-Light	14	47	We wrote some important words in bold.
+REM-Light	14	52	This means the letters are thicker and darker.
+REM-Regular	14	60	Word list
+REM-Light	14	62	We explain what these words mean.
+REM-Light	14	67	There is a list of these words on page 41.
+REM-Light	14	76	This is an Easy Read summary of
+REM-Light	14	80	another document.
+REM-Light	14	84	This means it only includes the most
+REM-Light	14	88	important ideas.
+REM-Bold	12	96	Page 4
+REM-Light	14	13	You can find the other document on
+REM-Light	14	16	our website.
+REM-Bold	14	21	www.dss.gov.au/DRC-Aus-Gov-Response
+REM-Light	14	33	You can ask for help to read this document.
+REM-Light	14	37	A friend, family member or support person
+REM-Light	14	41	might be able to help you.
+REM-Light	14	52	We have a list of organisations you can use
+REM-Light	14	55	if you need support.
+REM-Light	14	60	You can find this list of organisations on
+REM-Light	14	63	page 36.
+REM-Light	14	74	This is a long document.
+REM-Light	14	79	You don’t need to read it all at once.
+REM-Light	14	83	You can take your time.
+REM-Bold	12	96	Page 5
+REM-Light	14	15	We recognise Aboriginal and Torres Strait
+REM-Light	14	19	Islander peoples as the traditional owners of
+REM-Light	14	22	the land we live on – Australia.
+REM-Light	14	36	They were the first people to live on and use the:
+REM-Light	14	49	● land
+REM-Light	14	66	● waters.
+REM-Bold	12	96	Page 6
+REM-Bold	23	8	What was the Disability Royal Commission?
+REM-Bold	14	15	The Disability Royal Commission looked
+REM-Light	14	18	into problems people with disability
+REM-Light	14	22	have experienced.
+REM-Light	14	30	It helped us find out:
+REM-Light	14	35	● what went wrong
+REM-Light	14	39	● what we can improve.
+REM-Light	14	49	It wanted to find ways to make Australia safer
+REM-Light	14	52	and more inclusive for people with disability.
+REM-Light	14	61	When something is inclusive, everyone:
+REM-Light	14	66	● can take part
+REM-Light	14	70	● feels like they belong.
+REM-Light	14	78	The Disability Royal Commission:
+Tahoma-Bold	21	81	2019
+REM-Light	14	83	● started in 2019
+REM-Light	21	87	2023 ● finished in 2023.
+REM-Bold	12	96	Page 7
+REM-Bold	23	8	What are the recommendations?
+REM-Light	14	14	The Disability Royal Commission shared
+REM-Light	14	17	ideas about what governments and services
+REM-Light	14	21	can change.
+REM-Light	14	25	These ideas are called recommendations.
+REM-Light	14	34	They explained the recommendations in
+REM-Light	14	37	their final report.
+REM-Light	14	49	The final report has 12 parts.
+REM-Light	14	54	In the final report, they call the parts ‘volumes’.
+REM-Light	14	65	Parts 4 to 12 of the final report include all
+REM-Light	14	68	the recommendations.
+REM-Light	14	77	You can find the final report on the
+REM-Light	14	80	Disability Royal Commission website.
+REM-Bold	14	85	www.disability.royalcommission.gov.au/
+REM-Bold	14	88	publications/final-report
+REM-Bold	12	96	Page 8
+REM-Bold	22	8	What is the Australian Government Response?
+REM-Light	14	14	The Australian Government Response
+REM-Light	14	17	is a document that explains the
+REM-Light	14	21	recommendations we:
+REM-Light	14	28	● agree with
+REM-Light	14	41	● mostly agree with
+REM-Light	14	54	● need to think about more
+REM-Light	14	67	● cannot respond to.
+REM-Light	14	82	Our response also explains the work we are
+REM-Light	14	85	doing to help make Australia more inclusive.
+REM-Bold	12	96	Page 9
+REM-Regular	18	7	Who did we hear from?
+REM-Light	14	14	We wanted to find out what people thought
+REM-Light	14	18	about the recommendations.
+REM-Light	14	22	We asked a lot of people to have their say.
+REM-Light	14	29	This included:
+REM-Light	14	39	● people with disability
+REM-Light	14	53	● their families and carers
+REM-Light	14	66	● providers – who support people with
+REM-Light	14	69	disability by delivering a service
+REM-Bold	14	83	● advocacy organisations.
+REM-Bold	12	96	Page 10
+REM-Light	14	13	Advocacy organisations support people
+REM-Light	14	17	with disability:
+REM-Light	14	21	● to have their say
+REM-Light	14	26	● with advice and information.
+REM-Light	14	40	We listened to their thoughts and ideas about
+REM-Light	14	44	the recommendations.
+REM-Light	14	60	A lot of people were happy with
+REM-Light	14	64	the recommendations.
+REM-Light	14	79	But some people had different thoughts about
+REM-Light	14	82	some of the recommendations.
+REM-Bold	12	96	Page 11
+REM-Light	14	17	We thank everyone for sharing their thoughts.
+REM-Light	14	35	This has helped us understand what is
+REM-Light	14	38	most important to people with disability.
+REM-Bold	12	96	Page 12
+REM-Regular	18	7	What are we doing?
+REM-Light	14	18	We are doing some important work.
+REM-Light	14	35	We are focusing on what people with disability
+REM-Light	14	38	told us is most important.
+REM-Light	14	49	For example, we are:
+REM-Light	14	62	● making services safer
+REM-Light	14	80	● making our community more inclusive.
+REM-Bold	12	96	Page 13
+REM-Light	14	13	We are also:
+REM-Light	14	22	● helping people with disability find and
+REM-Light	14	26	keep a good job
+REM-Light	14	41	● helping people with disability to
+REM-Light	14	44	speak up for their rights.
+REM-Light	14	61	Rights are rules about how people
+REM-Light	14	64	must treat you:
+REM-Light	14	69	● equally
+REM-Light	14	73	● fairly.
+REM-Bold	12	96	Page 14
+REM-Bold	23	8	Our response to the recommendations
+REM-Light	14	18	There are 172 recommendations for the
+REM-Light	14	21	Australian Government.
+REM-Light	14	30	We mostly agree with the goals of
+REM-Light	14	34	130 recommendations.
+REM-Light	14	38	But we need to think about the best ways to
+REM-Light	14	42	follow some of these recommendations.
+REM-Light	14	50	We need more time before we decide
+REM-Light	14	53	what to do about 36 recommendations.
+REM-Light	14	65	There are 6 recommendations that we
+REM-Light	14	68	cannot respond to.
+REM-Light	14	79	We explain our responses to the
+REM-Light	14	83	recommendations for each part of the
+REM-Light	14	86	final report on the following pages.
+REM-Bold	12	96	Page 15
+REM-Bold	23	8	Part 4: The rights of people with disability
+REM-Light	14	20	Part 4 includes recommendations about
+REM-Light	14	23	supporting the rights of people with disability.
+REM-Light	14	39	There are 34 recommendations for the
+REM-Light	14	43	Australian Government in Part 4.
+REM-Light	14	58	Some of the recommendations
+REM-Light	14	61	are about making a new law called
+REM-Light	14	64	a Disability Rights Act.
+REM-Light	14	78	At the end of May 2024, we got a different
+REM-Light	14	82	report about this.
+REM-Bold	12	96	Page 16
+REM-Light	14	17	We need to look at that report to help us
+REM-Light	14	20	make a decision about a Disability Rights Act.
+REM-Light	14	33	Part 4 also includes recommendations about
+REM-Light	14	36	changing the Disability Discrimination Act.
+REM-Light	14	48	The Disability Discrimination Act is a law
+REM-Light	14	51	that aims to protect people with disability
+REM-Bold	14	54	from discrimination.
+REM-Light	14	66	Discrimination is when someone treats you
+REM-Light	14	70	unfairly because of a part of who you are.
+REM-Light	14	81	We mostly agree with the goals of
+REM-Light	14	84	these recommendations.
+REM-Bold	12	96	Page 17
+REM-Light	14	18	We will review the Disability Discrimination Act
+REM-Light	14	21	to see how we can make it stronger.
+REM-Light	14	37	When we review something, we check to
+REM-Light	14	40	see what:
+REM-Light	14	45	● works well
+REM-Light	14	49	● needs to be better.
+REM-Light	14	64	We will work on this together with
+REM-Light	14	67	people with disability.
+REM-Bold	12	96	Page 18
+REM-Bold	23	8	Part 5: Guiding government plans
+REM-Light	14	18	Part 5 includes recommendations about
+REM-Light	14	21	helping governments work together to
+REM-Light	14	25	support people with disability.
+REM-Light	14	39	There are 6 recommendations for the
+REM-Light	14	42	Australian Government in Part 5.
+REM-Light	14	54	We mostly agree with the goals of
+REM-Light	14	57	these recommendations.
+REM-Light	14	62	But we need to think more about some
+REM-Light	14	65	of them.
+REM-Light	14	78	There is a recommendation about improving
+REM-Light	14	81	Australia’s Disability Strategy.
+REM-Bold	12	96	Page 19
+REM-Light	14	16	Australia’s Disability Strategy is a plan to
+REM-Light	14	20	support people with disability in all areas of
+REM-Light	14	23	their lives.
+REM-Light	14	39	We agree to follow this recommendation.
+REM-Light	14	58	We will review Australia’s Disability Strategy
+Tahoma-Bold	28	60	2024
+REM-Light	14	62	in 2024.
+REM-Bold	12	96	Page 20
+REM-Bold	23	8	Part 6: Being accessible and people’s choices
+REM-Light	14	16	Part 6 includes recommendations about:
+REM-Light	14	25	● supporting people with disability to
+REM-Light	14	28	make their own decisions
+REM-Light	14	41	● making sure healthcare workers have
+REM-Light	14	45	the skills to help people with disability
+REM-Light	14	57	● making services and information
+REM-Bold	14	61	more accessible.
+REM-Light	14	73	When services and information are accessible,
+REM-Light	14	76	they are easy to:
+REM-Light	14	81	● find and use
+REM-Light	14	85	● understand.
+REM-Bold	12	96	Page 21
+REM-Light	14	10	Part 6 also includes recommendations about:
+REM-Light	14	22	● advocacy
+REM-Light	14	38	● stopping disability services from using
+REM-Bold	14	41	restrictive practices.
+REM-Light	14	55	Restrictive practices are actions that stop
+REM-Light	14	58	people from:
+REM-Light	14	63	● moving
+REM-Light	14	67	● doing what they want.
+REM-Light	14	79	For example, when someone locks a door
+REM-Light	14	82	to stop you leaving a room.
+REM-Bold	12	96	Page 22
+REM-Light	14	12	There are 24 recommendations for the
+REM-Light	14	15	Australian Government in Part 6.
+REM-Light	14	23	We mostly agree with the goals of
+REM-Light	14	26	these recommendations.
+REM-Light	14	31	But we need to think more about some
+REM-Light	14	34	of them.
+REM-Light	14	41	We are starting work on a new plan to
+REM-Light	14	44	improve accessible information.
+REM-Light	14	49	We will work with people with disability
+REM-Light	14	52	to make this plan.
+REM-Light	14	59	We are starting a new advocacy program.
+REM-Light	14	63	This will help people with disability:
+REM-Light	14	68	● protect their rights
+REM-Light	14	72	● have their say.
+REM-Light	14	79	We are also working with state and
+REM-Light	14	83	territory governments to reduce and
+REM-Light	14	86	stop restrictive practices.
+REM-Bold	12	96	Page 23
+REM-Bold	23	8	Part 7: Education, housing and employment
+REM-Light	14	14	Part 7 includes recommendations about how
+REM-Light	14	18	to support people with disability in:
+REM-Light	14	28	● housing
+REM-Light	14	44	● education, like schools
+REM-Bold	14	59	● employment.
+REM-Light	14	72	Employment means you:
+REM-Light	14	77	● have a job
+REM-Light	14	81	● go to work
+REM-Light	14	86	● get paid.
+REM-Bold	12	96	Page 24
+REM-Light	14	15	There are 35 recommendations for the
+REM-Light	14	18	Australian Government in Part 7.
+REM-Light	14	31	We mostly agree with the goals of
+REM-Light	14	34	these recommendations.
+REM-Light	14	39	But we need to think more about some
+REM-Light	14	42	of them.
+REM-Light	14	54	Some of the recommendations are about
+REM-Light	14	57	places that are just for people with disability.
+REM-Light	14	62	For example, places where only
+REM-Light	14	65	people with disability live, study or work.
+REM-Light	14	78	People have different ideas about places that
+REM-Light	14	82	are just for people with disability.
+REM-Bold	12	96	Page 25
+REM-Light	14	16	We will keep working with people in the
+REM-Light	14	20	community who are affected by the ideas
+REM-Light	14	23	in these recommendations.
+REM-Light	14	37	We are starting a new disability
+REM-Light	14	40	employment services program to help more
+REM-Light	14	44	people with a disability find and keep a job.
+REM-Light	14	58	We will work with state and territory
+REM-Light	14	61	governments and people with disability to
+REM-Light	14	64	help make schools more inclusive.
+REM-Bold	12	96	Page 26
+REM-Bold	23	8	Part 8: The justice system
+REM-Light	14	16	Part 8 includes recommendations about
+REM-Light	14	20	supporting people with disability who
+REM-Light	14	23	have contact with the justice system.
+REM-Light	14	32	The justice system includes:
+REM-Light	14	36	● police
+REM-Light	14	41	● the courts
+REM-Light	14	45	● the law
+REM-Light	14	49	● prisons.
+REM-Light	14	61	Part 8 also includes recommendations
+REM-Light	14	65	about the safety of women and
+REM-Light	14	68	children with disability.
+REM-Light	14	80	There are 10 recommendations for the
+REM-Light	14	83	Australian Government in Part 8.
+REM-Bold	12	96	Page 27
+REM-Light	14	14	We mostly agree with the goals of
+REM-Light	14	17	these recommendations.
+REM-Light	14	22	But we need to think more about some
+REM-Light	14	25	of them.
+REM-Light	14	37	We want to make sure the justice system:
+REM-Light	14	42	● is fair
+REM-Light	14	46	● works well for people with disability.
+REM-Light	14	61	We also want to improve the safety of
+REM-Light	14	64	women and children with disability.
+REM-Bold	12	96	Page 28
+REM-Bold	23	8	Part 9: First Nations people with disability
+REM-Light	14	18	Part 9 includes recommendations about
+REM-Light	14	21	supporting First Nations people with disability.
+REM-Light	14	30	This includes:
+REM-Light	14	35	● making sure services work well for
+REM-Light	14	38	First Nations people with disability
+REM-Light	14	43	● listening to First Nations peoples.
+REM-Light	14	51	We will listen to First Nations communities to
+REM-Light	14	54	learn about the best ways to work together to
+REM-Light	14	58	support First Nations people with disability.
+REM-Light	14	67	There are 10 recommendations for the
+REM-Light	14	71	Australian Government in Part 9.
+Tahoma-Bold	22	73	10
+REM-Light	14	82	We mostly agree with the goals of
+REM-Light	14	85	these recommendations.
+REM-Bold	12	96	Page 29
+REM-Bold	22	8	Part 10: Safe services for people with disability
+REM-Light	14	19	Part 10 includes recommendations about
+REM-Light	14	22	making sure disability services are safe.
+REM-Light	14	34	This includes recommendations that might
+REM-Light	14	37	help disability service providers do a better job
+REM-Light	14	40	of keeping people with disability safe.
+REM-Light	14	52	Part 10 is also about the NDIS Quality
+REM-Bold	14	55	and Safeguards Commission
+REM-Bold	14	59	(NDIS Commission).
+REM-Light	14	70	The NDIS Commission makes sure
+REM-Light	14	73	people with disability who take part
+REM-Light	14	76	in the NDIS:
+REM-Light	14	81	● are safe
+REM-Light	14	85	● get good services.
+REM-Bold	12	96	Page 30
+REM-Light	14	13	There are 33 recommendations for the
+REM-Light	14	17	Australian Government in Part 10.
+REM-Light	14	27	We mostly agree with the goals of
+REM-Light	14	31	these recommendations.
+REM-Light	14	35	But we need to think more about some
+REM-Light	14	39	of them.
+REM-Light	14	49	We have been doing a lot of work to
+REM-Light	14	53	make sure the NDIS Commission can keep
+REM-Light	14	56	people with disability safe.
+REM-Light	14	68	We will keep working with:
+REM-Light	14	72	● the NDIS Commission
+REM-Light	14	77	● providers
+REM-Light	14	81	● people with disability
+REM-Light	14	85	● state and territory governments.
+REM-Bold	12	96	Page 31
+REM-Bold	23	8	Part 11: Managing and reporting problems
+REM-Light	14	14	Part 11 includes recommendations about
+REM-Light	14	17	making sure:
+REM-Light	14	25	● we know when things go wrong or
+REM-Light	14	28	aren’t working well
+REM-Light	14	40	● there are ways to report and fix
+REM-Light	14	43	these problems.
+REM-Light	14	52	This includes making sure that people
+REM-Light	14	55	with disability can make a complaint.
+REM-Light	14	60	When you make a complaint, you tell someone
+REM-Light	14	63	that something:
+REM-Light	14	68	● has gone wrong
+REM-Light	14	72	● isn’t working well.
+REM-Light	14	81	There are 12 recommendations for the
+REM-Light	14	84	Australian Government in Part 11.
+REM-Bold	12	96	Page 32
+REM-Light	14	12	We mostly agree with the goals of
+REM-Light	14	15	these recommendations.
+REM-Light	14	20	But we need to think more about
+REM-Light	14	23	some of them.
+REM-Light	14	34	We will work with state and
+REM-Light	14	37	territory governments to make sure
+REM-Bold	14	40	Community Visitors work well.
+REM-Light	14	53	Community Visitors are people who check
+REM-Light	14	56	that people with disability are safe when they
+REM-Light	14	59	use services.
+REM-Light	14	71	They check how well services:
+REM-Light	14	75	● protect the rights of
+REM-Light	14	79	people with disability
+REM-Light	14	83	● support the wellbeing of
+REM-Light	14	86	people with disability.
+REM-Bold	12	96	Page 33
+REM-Bold	22	8	Part 12: What happens after the
+REM-Bold	22	12	Disability Royal Commission
+REM-Light	14	21	Part 12 includes recommendations about
+REM-Light	14	24	reporting on how changes are going after
+REM-Light	14	28	the Disability Royal Commission.
+REM-Light	14	39	It also includes recommendations about
+REM-Light	14	43	making sure we have good information
+REM-Light	14	46	about disability.
+REM-Light	14	60	There are 8 recommendations for the
+REM-Light	14	63	Australian Government in Part 12.
+REM-Light	14	78	We mostly agree with the goals of
+REM-Light	14	81	these recommendations.
+REM-Bold	12	96	Page 34
+REM-Light	14	11	We want to improve the way we collect
+REM-Light	14	15	information about what:
+REM-Light	14	19	● is working
+REM-Light	14	24	● needs to change.
+REM-Light	14	38	We also want to share reports with
+REM-Light	14	41	the community about our work to deliver
+REM-Light	14	44	the recommendations.
+REM-Light	18	62	We will publish 2 of these reports each year.
+Tahoma-Bold	15	67	each
+Tahoma-Bold	15	68	year
+REM-Bold	12	96	Page 35
+REM-Bold	23	8	Where you can find support
+REM-Light	14	17	There are different organisations you
+REM-Light	14	21	can contact for support.
+REM-Regular	18	31	National Disability Abuse and Neglect Hotline
+REM-Light	14	41	You can contact the National Disability Abuse
+REM-Light	14	44	and Neglect Hotline.
+REM-Light	14	54	They can give you advice if someone:
+REM-Light	14	59	● hurt you
+REM-Light	14	63	● is not helping you the way they are
+REM-Light	14	66	supposed to help you.
+REM-Light	14	71	They will keep what you say private.
+REM-Light	14	79	You can call them.
+REM-Bold	14	83	1800 880 052
+REM-Bold	12	96	Page 36
+REM-Regular	18	7	1800RESPECT
+REM-Light	14	13	You can contact 1800RESPECT for support if
+REM-Light	14	17	someone close to you hurts you, such as:
+REM-Light	14	21	● your partner, like your boyfriend,
+REM-Light	14	25	girlfriend, husband or wife
+REM-Light	14	29	● a member of your family
+REM-Light	14	33	● someone who takes care of you
+REM-Light	14	38	● someone you live with.
+REM-Light	14	48	For example, they can get you counselling.
+REM-Light	14	60	Counselling is when you work with someone
+REM-Light	14	63	to explore how you think and feel.
+REM-Light	14	68	This can help you:
+REM-Light	14	73	● reach goals
+REM-Light	14	77	● feel safe
+REM-Light	14	81	● learn skills
+REM-Light	14	86	● understand what happened to you.
+REM-Bold	12	96	Page 37
+REM-Light	14	11	You can call 1800RESPECT.
+REM-Bold	14	16	1800 737 732
+REM-Light	14	24	You can send them a text message.
+Tahoma-Bold	23	28	HELLO
+REM-Light	14	29	If you do, you can just send the word ‘HELLO’.
+REM-Bold	14	33	0458 737 732
+REM-Regular	18	41	Disability Advocacy Support Helpline
+REM-Light	14	49	You can contact the Disability Advocacy
+REM-Light	14	53	Support Helpline.
+REM-Light	14	60	They can:
+REM-Light	14	64	● support you
+REM-Light	14	69	● help you have your say
+REM-Light	14	73	● give you information and advice.
+REM-Light	14	80	You can call them.
+REM-Bold	14	85	1800 643 787
+REM-Bold	12	96	Page 38
+REM-Regular	18	7	Disability Advocacy Finder
+REM-Light	14	14	You can use a tool called the Disability
+REM-Light	14	17	Advocacy Finder to find someone who can:
+REM-Light	14	22	● support you
+REM-Light	14	26	● help you have your say
+REM-Light	14	30	● give you information and advice.
+REM-Light	14	37	You can find the tool on the Ask Izzy website.
+REM-Bold	14	41	www.askizzy.org.au/disability-
+REM-Bold	14	45	advocacy-finder
+REM-Regular	18	52	Beyond Blue
+REM-Light	14	63	Beyond Blue is a service that can support
+REM-Light	14	67	people with their mental health.
+REM-Light	14	80	You can call them any time.
+REM-Bold	14	85	1300 224 636
+REM-Bold	12	96	Page 39
+REM-Regular	18	7	Lifeline
+REM-Light	14	15	Lifeline is a service for people at risk of:
+REM-Light	14	20	● hurting themself because of their
+REM-Light	14	23	mental health
+REM-Light	14	27	● ending their own life.
+REM-Light	14	39	You can call Lifeline any time.
+REM-Bold	14	44	13 11 14
+REM-Light	14	56	You can send them a text message.
+Tahoma-Bold	24	60	HELLO
+REM-Light	14	61	If you do, you can just send the word ‘HELLO’.
+REM-Bold	14	66	0477 13 11 14
+REM-Light	14	80	They will get you counselling straight away.
+REM-Bold	12	96	Page 40
+REM-Bold	23	8	Word list
+REM-Light	14	12	This list explains what the bold words in this document mean.
+REM-Bold	14	17	Accessible
+REM-Light	14	22	When services and information are accessible,
+REM-Light	14	25	they are easy to:
+REM-Light	14	29	● find and use
+REM-Light	14	32	● understand.
+REM-Bold	14	39	Advocacy organisations
+REM-Light	14	43	Advocacy organisations support people
+REM-Light	14	46	with disability:
+REM-Light	14	50	● to have their say
+REM-Light	14	54	● with advice and information.
+REM-Bold	14	61	Community Visitors
+REM-Light	14	65	Community Visitors are people who check
+REM-Light	14	68	that people with disability are safe when
+REM-Light	14	71	they use services.
+REM-Light	14	74	They check how well services:
+REM-Light	14	79	● protect the rights of
+REM-Light	14	82	people with disability
+REM-Light	14	85	● support the wellbeing of
+REM-Light	14	88	people with disability.
+REM-Bold	12	96	Page 41
+REM-Bold	14	8	Complaint
+REM-Light	14	13	When you make a complaint, you tell someone
+REM-Light	14	16	that something:
+REM-Light	14	20	● has gone wrong
+REM-Light	14	24	● isn’t working well.
+REM-Bold	14	31	Counselling
+REM-Light	14	36	Counselling is when you work with someone
+REM-Light	14	39	to explore how you think and feel.
+REM-Light	14	44	This can help you:
+REM-Light	14	48	● reach goals
+REM-Light	14	52	● feel safe
+REM-Light	14	56	● learn skills
+REM-Light	14	59	● understand what happened to you.
+REM-Bold	14	67	Disability Royal Commission
+REM-Light	14	71	The Disability Royal Commission looked into
+REM-Light	14	74	problems people with disability have experienced.
+REM-Light	14	79	It helped us find out:
+REM-Light	14	84	● what went wrong
+REM-Light	14	87	● what we can improve.
+REM-Bold	12	96	Page 42
+REM-Bold	14	11	Discrimination
+REM-Light	14	15	Discrimination is when someone treats you
+REM-Light	14	18	unfairly because of a part of who you are.
+REM-Bold	14	25	Employment
+REM-Light	14	30	Employment means you:
+REM-Light	14	34	● have a job
+REM-Light	14	38	● go to work
+REM-Light	14	42	● get paid.
+REM-Bold	14	48	Inclusive
+REM-Light	14	53	When something is inclusive, everyone:
+REM-Light	14	57	● can take part
+REM-Light	14	61	● feels like they belong.
+REM-Bold	14	68	Justice system
+REM-Light	14	72	The justice system includes:
+REM-Light	14	77	● police
+REM-Light	14	80	● the courts
+REM-Light	14	84	● the law
+REM-Light	14	88	● prisons.
+REM-Bold	12	96	Page 43
+REM-Bold	14	14	NDIS Quality and Safeguards Commission
+REM-Bold	14	17	(NDIS Commission)
+REM-Light	14	22	The NDIS Commission makes sure
+REM-Light	14	25	people with disability who take part in the NDIS:
+REM-Light	14	29	● are safe
+REM-Light	14	33	● get good services.
+REM-Bold	14	46	Providers
+REM-Light	14	50	Providers support people by delivering
+REM-Light	14	53	a service.
+REM-Bold	14	67	Recommendations
+REM-Light	14	72	The Disability Royal Commission shared
+REM-Light	14	75	ideas about what governments and services
+REM-Light	14	78	can change.
+REM-Light	14	83	These ideas are called recommendations.
+REM-Bold	12	96	Page 44
+REM-Bold	14	14	Restrictive practices
+REM-Light	14	18	Restrictive practices are actions that stop
+REM-Light	14	22	people from:
+REM-Light	14	26	● moving
+REM-Light	14	30	● doing what they want.
+REM-Bold	14	40	Review
+REM-Light	14	44	When we review something, we check to
+REM-Light	14	47	see what:
+REM-Light	14	52	● works well
+REM-Light	14	56	● needs to be better.
+REM-Bold	14	68	Rights
+REM-Light	14	72	Rights are rules about how people
+REM-Light	14	76	must treat you:
+REM-Light	14	80	● equally
+REM-Light	14	84	● fairly.
+REM-Bold	12	96	Page 45
+REM-Bold	23	8	Contact us
+REM-Light	14	19	You can find more information on our website.
+REM-Bold	14	24	www.dss.gov.au/DRC-Aus-Gov-Response
+REM-Light	14	37	You can send us an email.
+REM-Bold	14	42	DRCResponseConsultation@dss.gov.au
+REM-Light	14	53	You can write to us.
+REM-Bold	14	58	GPO Box 9820
+REM-Bold	14	62	Canberra ACT 2601
+REM-Bold	12	96	Page 46
+REM-Light	14	78	The Information Access Group created this Easy Read
+REM-Light	14	81	document using stock photography and custom images.
+REM-Light	14	84	The images may not be reused without permission.
+REM-Light	14	86	For any enquiries about the images, please visit
+REM-Bold	14	89	www.informationaccessgroup.com.
+REM-Light	14	92	Quote job number 5808–A.

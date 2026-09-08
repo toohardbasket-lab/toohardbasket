@@ -155,8 +155,18 @@ def lines_file(job: dict) -> pathlib.Path:
 
 
 def wants_lines(job: dict) -> bool:
-    """Only a report needs its typography kept; a response has no headings to find."""
-    return job["role"] == "report"
+    """Every document read here keeps its typography.
+
+    This once said "only a report needs it; a response has no headings to
+    find", and that was true while the sidecar had one job. It has two. The
+    second is telling a page's apparatus from the document's own words — a
+    footnote, a running footer — which flattened to characters are
+    indistinguishable from the text they interrupt, and the only thing that
+    separates them is that they are set smaller. A response has footnotes like
+    anything else: four of the Robodebt answers were published carrying the
+    references from the foot of the page, one of them three of them at once.
+    """
+    return job["role"] in READS
 
 
 def parts_of(job: dict, kind: str = "txt") -> list[pathlib.Path]:
@@ -179,13 +189,20 @@ def download(session: requests.Session, job: dict) -> bytes:
 
 
 def typography(page) -> list[str]:
-    """One row per line: the font it is mostly set in, its size, and its text.
+    """One row per line: the font it is mostly set in, its size, where down the
+    page it sits, and its text.
 
     The font is the one most of the line's characters use, so a single italic
     word inside a heading does not make it a different kind of line. The size is
-    rounded to the point, because a PDF's sizes carry noise below that.
+    rounded to the point, because a PDF's sizes carry noise below that. The
+    position is the top of the line as a percentage of the page's height,
+    rounded to the point, because size alone does not say what a footnote is: a
+    footnote is small type at the foot of the page, and a document can set its
+    own words small too. Sidecars written before this column existed have three
+    fields and are read as having no position.
     """
     rows = []
+    height = page.height or 1
     for line in page.extract_text_lines():
         fonts: dict[str, int] = {}
         for c in line["chars"]:
@@ -193,8 +210,9 @@ def typography(page) -> list[str]:
             fonts[name] = fonts.get(name, 0) + 1
         font = max(fonts, key=lambda f: fonts[f]) if fonts else ""
         size = round(max((c["size"] for c in line["chars"]), default=0))
+        down = round(100 * line["top"] / height)
         text = " ".join(line["text"].split()).replace("\t", " ")
-        rows.append(f"{font}\t{size}\t{text}")
+        rows.append(f"{font}\t{size}\t{down}\t{text}")
     return rows
 
 
