@@ -87,11 +87,16 @@ requests, and the other moved department, changed its URL and published a
 different file from the one it tabled. So a stored Tabled Documents id is the
 address, not a departmental URL.
 
-**4. One site, a second register.** It shares the recommendation index and the
-verdict vocabulary and makes no deadline claim of any kind. Methods is the main
-heading, with types of methods beneath it if the two registers need to say
-different things — which they will, because one follows the presiding officers
-and the other follows nobody.
+**4. One site, and an index rather than a register.** Settled on 8 September,
+after writing the page: this site's own admission test requires an obligation, a
+claimant with standing to demand an answer, and a date, and a royal commission
+has none of the three. A royal commissions *register* could not be admitted
+without bending that rule, and the rule is worth more than the word. What is
+published is an index of the same shape as the committee recommendations index
+— what was recommended, and what the government said about it — over a second
+corpus, sharing its verdict vocabulary and its test of a stated position. Methods
+is the main heading and `/methods/royal-commissions/` is beneath it, carrying
+only what differs.
 
 The first step built from all that is `scraper/harvest_royal_commissions.py`,
 which decides which tabled documents belong to which commission and extracts

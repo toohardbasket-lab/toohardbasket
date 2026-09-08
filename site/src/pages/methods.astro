@@ -66,6 +66,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     <p class="note contents">
       On this page:
       {" "}<a href="#unit">what is counted</a> ·
+      {" "}<a href="#indexes">registers and indexes</a> ·
       {" "}<a href="#sources">sources</a> ·
       {" "}<a href="#corpus">the response corpus</a> ·
       {" "}<a href="#closures">how responses are classified</a> ·
@@ -94,6 +95,32 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     <p class="note">
       Planned registers: {plannedRegisters().map((r) => r.name).join("; ")}.
       Each will be published as its own register with its own rule, not merged into this one.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="indexes">Registers and indexes are not the same thing</h2>
+    <p>
+      A <strong>register</strong> counts reports awaiting an answer against a rule, and is
+      admitted only when the three things above exist. An <strong>index</strong> counts
+      something narrower and needs none of them: what was recommended, and what the government
+      said about each recommendation in its own words. The
+      {" "}<a href="/recommendations/">recommendations index</a> has always been the second
+      kind — it has no deadline in it anywhere — and the same test of what counts as a stated
+      position governs both.
+    </p>
+    <p>
+      That distinction is what lets a royal commission onto this site without bending the
+      admission rule. No statute requires a government to answer a royal commission, no
+      officer of the Parliament keeps a schedule of the answers, and there is no date to be
+      past, so a royal commissions <em>register</em> could not be admitted and is not claimed.
+      What is published is an index of the same shape as the recommendations index, over a
+      second corpus.
+      {" "}<a href="/methods/royal-commissions/">How that index is built</a> is set out
+      separately, because it differs at almost every point that matters: where the documents
+      come from, whose words a row carries, and two words that mean something different there
+      from what they mean here.
+      <span class="tag">Draft</span>
     </p>
   </section>
 
