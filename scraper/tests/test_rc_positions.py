@@ -282,15 +282,15 @@ def bed(text, labels=("6.1", "6.2", "6.3")):
     P.RECOMMENDATIONS, P.DOCUMENTS = d / "rc_recommendations.csv", d / "rc_documents.csv"
     P.OUT, P.COUNTS = d / "rc_positions.csv", d / "rc_position_counts.csv"
     with P.RECOMMENDATIONS.open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["commission_id", "label"])
+        w = csv.DictWriter(f, fieldnames=["commission_id", "source_id", "label"])
         w.writeheader()
-        w.writerows({"commission_id": "example", "label": x} for x in labels)
+        w.writerows({"commission_id": "example", "source_id": "55", "label": x} for x in labels)
     with P.DOCUMENTS.open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["commission_id", "role", "id", "tabled_senate",
-                                          "tabled_house", "url"])
+        w = csv.DictWriter(f, fieldnames=["commission_id", "role", "id", "answers",
+                                          "tabled_senate", "tabled_house", "url"])
         w.writeheader()
         w.writerow({"commission_id": "example", "role": "response", "id": "77",
-                    "tabled_senate": "2024-05-05", "tabled_house": "",
+                    "answers": "55", "tabled_senate": "2024-05-05", "tabled_house": "",
                     "url": "https://example.invalid/77"})
     if text is not None:
         (P.TEXT / "77_1.txt").write_text(text, encoding="utf-8")

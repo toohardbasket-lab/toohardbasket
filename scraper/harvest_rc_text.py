@@ -116,8 +116,20 @@ def documents(argv: list[str]) -> list[dict]:
                 continue
             if only and r["id"] != only:
                 continue
+            # Where a record's recommendations are in one of its files, only
+            # that file is read. The Defence and Veteran Suicide final report
+            # is seven volumes published as seven files of a single record,
+            # forty megabytes of them, and all 122 recommendations are in
+            # volume 1. Reading the other six would be an hour of pdfplumber
+            # for text nothing extracts from, and text nothing reads is text
+            # nobody has checked.
+            carries = (r.get("carries_recommendations") or "").strip()
+            only_files = set() if carries in ("", "yes") else {
+                x.strip() for x in carries.split(";") if x.strip()}
             for pair in (r["files"] or "").split(";"):
                 file_id, _, name = pair.strip().partition("|")
+                if only_files and file_id not in only_files:
+                    continue
                 if file_id and name.lower().endswith(".pdf"):
                     out.append({**r, "file_id": file_id, "file_name": name})
     return out

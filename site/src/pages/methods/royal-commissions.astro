@@ -26,8 +26,13 @@ const f = rcFigures();
 const labels = rcLabels();
 const src = rcSources();
 const grammars = rcGrammars();
-const agree = all.filter((c) => c.stated && String(c.found) === c.stated);
-const disagree = all.filter((c) => c.stated && String(c.found) !== c.stated);
+const pairs = all.flatMap((c) => c.reports.map((r) => ({
+  ...r, commission: c.name, only: c.reports.length === 1,
+})));
+const named = (c: typeof pairs[number]) =>
+  c.commission + (!c.only && c.label ? ` ${c.label.toLowerCase()}` : "");
+const agree = pairs.filter((c) => c.stated && String(c.found) === c.stated);
+const disagree = pairs.filter((c) => c.stated && String(c.found) !== c.stated);
 const prose = grammars.filter((g) => g.grammar === "prose").length;
 const blocks = grammars.filter((g) => g.grammar === "blocks").length;
 const quoted = rcRecommendations().filter((r) => r.governmentWords);
@@ -75,8 +80,9 @@ const wordsMore = quoted.filter((r) => r.governmentWordsMore).length;
     </p>
     <p>
       Elapsed time is shown because it is arithmetic on two tabling dates and not a
-      judgement: {all.map((c, i) => (
-        <>{i ? "; " : ""}{c.name.replace("Royal Commission into ", "")} took
+      judgement: {pairs.map((c, i) => (
+        <>{i ? "; " : ""}{named(c).replace("Royal Commission into ", "")
+          .replace("Royal Commission on ", "")} took
         {" "}{fmt(c.daysToRespond ?? c.daysSinceReport)} days</>
       ))}. Nothing is computed against those numbers.
     </p>
@@ -136,6 +142,23 @@ const wordsMore = quoted.filter((r) => r.governmentWordsMore).length;
       said is a separate question on the same row.
     </p>
     <p>
+      A row is identified by its report and its number, not by its number alone. A commission
+      can recommend twice and be answered twice — the Royal Commission into Defence and Veteran
+      Suicide made 13 recommendations in an interim report the government answered in 2022 and
+      122 more in its final report, answered in 2024 — and both sets start at one. Which report
+      a response answers is kept in the data beside the document, and a response that does not
+      say is refused rather than read against everything.
+    </p>
+    <p>
+      How a report numbers its recommendations is counted, not assumed: by chapter
+      ("Recommendation 20.5"), straight through ("Recommendation 61"), or straight through with
+      no titles at all, which is how one report does it. Whichever form heads more of them is
+      the report's, and it is never close. The minority is what the rule keeps out — a bare
+      number in the first two reports is a citation of another commission's numbering, and the
+      Defence and Veteran Suicide interim report cites the Productivity Commission's three
+      times.
+    </p>
+    <p>
       A recommendation's own heading is told from the recommendation by the type the report
       sets each in, because in print that is the only thing that separates them: Robodebt
       sets a heading in Calibri-Bold above a Calibri body of the same size, and the
@@ -162,10 +185,10 @@ const wordsMore = quoted.filter((r) => r.governmentWordsMore).length;
       A report usually states how many recommendations it makes, and that sentence is checked
       against what was extracted rather than trusted or ignored.
       {agree.map((c) => (
-        <>{" "}The {c.name} says it makes {c.stated}, and {c.stated} is what is there.</>
+        <>{" "}The {named(c)} says it makes {c.stated}, and {c.stated} is what is there.</>
       ))}
       {disagree.map((c) => (
-        <>{" "}The {c.name} says it makes {c.stated} and prints {fmt(c.found)} under their own
+        <>{" "}The {named(c)} says it makes {c.stated} and prints {fmt(c.found)} under their own
         numbers. Neither figure is adopted here: the shortfall is not a recommendation this
         index is hiding, and the report's own sentence is not evidence that a
         {" "}{Number(c.stated) - c.found === 1 ? "further recommendation" : "further recommendations"}
@@ -191,8 +214,8 @@ const wordsMore = quoted.filter((r) => r.governmentWordsMore).length;
       government wrote it.
     </p>
     <p>
-      The two responses read so far answer in two different grammars, and which one a document
-      uses is read from the document rather than configured.
+      The responses read so far answer in two different grammars, and which one a document uses
+      is read from the document rather than configured.
       {prose > 0 && (
         <>{" "}{prose === 1 ? "One answers" : `${fmt(prose)} answer`} in prose, the way a
         response to a committee does — "The Government accepts this recommendation" — and the

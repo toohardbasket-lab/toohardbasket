@@ -1,29 +1,29 @@
-commission_id,otd_id,role,carries_recommendations,note
-robodebt,2743,report,yes,"The whole report in one file, list of recommendations and all"
-robodebt,2915,corrigendum,,
-robodebt,4163,response,,Typed Other in the register rather than Government response
-robodebt,15488,other,,The closed chapter; referrals rather than numbered recommendations
-disability,3444,report,yes,The volume the final report puts all 222 recommendations in
-disability,3446,report,,Volume 1
-disability,3447,report,,Volume 2
-disability,3448,report,,Volume 3
-disability,3449,report,,Volume 4
-disability,3450,report,,Volume 5
-disability,3451,report,,Volume 6
-disability,3452,report,,Volume 7
-disability,3453,report,,Volume 8
-disability,3454,report,,Volume 9
-disability,3456,report,,Volume 10
-disability,3457,report,,Volume 11
-disability,3458,report,,Volume 12
-disability,4072,corrigendum,,
-disability,6874,response,,
-disability,6982,statement,,Ministerial statement on the response
-defence-veteran-suicide,143,report,,Interim report
-defence-veteran-suicide,6405,report,,Shining a Light
-defence-veteran-suicide,7262,report,,Final report
-defence-veteran-suicide,349,response,,Response to the interim report
-defence-veteran-suicide,348,statement,,Ministerial statement on the interim response
-defence-veteran-suicide,8578,response,,Response to the final report; typed Other in the register
-antisemitism-social-cohesion,16086,report,,Interim report
-antisemitism-social-cohesion,16392,response,,Response to the interim report; typed Other in the register
+commission_id,otd_id,role,carries_recommendations,answers,note
+robodebt,2743,report,yes,,"The whole report in one file, list of recommendations and all"
+robodebt,2915,corrigendum,,,
+robodebt,4163,response,,2743,Typed Other in the register rather than Government response
+robodebt,15488,other,,,The closed chapter; referrals rather than numbered recommendations
+disability,3444,report,yes,,The volume the final report puts all 222 recommendations in
+disability,3446,report,,,Volume 1
+disability,3447,report,,,Volume 2
+disability,3448,report,,,Volume 3
+disability,3449,report,,,Volume 4
+disability,3450,report,,,Volume 5
+disability,3451,report,,,Volume 6
+disability,3452,report,,,Volume 7
+disability,3453,report,,,Volume 8
+disability,3454,report,,,Volume 9
+disability,3456,report,,,Volume 10
+disability,3457,report,,,Volume 11
+disability,3458,report,,,Volume 12
+disability,4072,corrigendum,,,
+disability,6874,response,,3444,
+disability,6982,statement,,,Ministerial statement on the response
+defence-veteran-suicide,143,report,yes,,"Interim report; 13 recommendations, answered by OTD 349"
+defence-veteran-suicide,6405,report,,,"Shining a Light; a volume of accounts, no numbered recommendations"
+defence-veteran-suicide,7262,report,11763,,"Final report; seven volumes on one record, volume 1 (file 11763) sets out all 122 recommendations, answered by OTD 8578"
+defence-veteran-suicide,349,response,,143,Response to the interim report
+defence-veteran-suicide,348,statement,,,Ministerial statement on the interim response
+defence-veteran-suicide,8578,response,,7262,Response to the final report; typed Other in the register
+antisemitism-social-cohesion,16086,report,,,"Interim report; 5 of its 14 recommendations are in a confidential report and neither their text nor a position on them is public, which this index has no way to say — not read until it does"
+antisemitism-social-cohesion,16392,response,,,Response to the interim report; typed Other in the register. Not read while the report it answers is not read

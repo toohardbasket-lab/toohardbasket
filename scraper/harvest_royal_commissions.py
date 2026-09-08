@@ -176,7 +176,7 @@ def phrases(commissions: list[dict]) -> list[tuple[str, str]]:
     return out
 
 
-DOCUMENT_FIELDS = ["commission_id", "role", "carries_recommendations", "id", "type",
+DOCUMENT_FIELDS = ["commission_id", "role", "carries_recommendations", "answers", "id", "type",
                    "additional_type", "category", "title", "author", "department",
                    "tabled_senate", "tabled_house", "parliament", "files", "url", "note"]
 CANDIDATE_FIELDS = ["id", "type", "title", "tabled_senate", "tabled_house", "reason", "url"]
@@ -186,11 +186,22 @@ def row_for(seed_row: dict, d: dict) -> dict:
     return {
         "commission_id": seed_row["commission_id"], "role": seed_row["role"],
         # Which report document sets the recommendations out under their own
-        # numbers. The Disability Royal Commission's final report is thirteen
-        # documents and puts all 222 in one of them; Robodebt's is one document.
-        # It is a fact about the report, checked by the extraction step against
-        # the number the report itself states, not a shortcut taken on trust.
+        # numbers, and — where the record holds several files — which file.
+        # The Disability Royal Commission's final report is thirteen documents
+        # and puts all 222 in one of them; Robodebt's is one document; the
+        # Defence and Veteran Suicide final report is seven volumes published
+        # as seven files of a single record, and all 122 are in volume 1. So
+        # this is "yes" for every file of the record, or the file ids that
+        # carry them. It is a fact about the report, checked by the extraction
+        # step against the number the report itself states, not a shortcut
+        # taken on trust.
         "carries_recommendations": seed_row.get("carries_recommendations") or "",
+        # Which report this document answers. A commission can be answered
+        # more than once: Defence and Veteran Suicide made 13 recommendations
+        # in an interim report the government answered in 2022, and 122 more
+        # in its final report, answered in 2024. Without this the two
+        # responses would each be read against all 135 recommendations.
+        "answers": seed_row.get("answers") or "",
         "id": str(d.get("id", "")), "type": d.get("type") or "",
         "additional_type": d.get("additionalType") or "",
         "category": d.get("category") or "", "title": title_of(d),

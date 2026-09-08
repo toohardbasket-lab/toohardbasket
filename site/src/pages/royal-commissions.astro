@@ -23,6 +23,11 @@ import { fmt, formatDate, formatDateShort, humanDuration } from "../lib/data";
 import { commissions, rcRecommendations, rcFigures, rcLabels } from "../lib/royalCommissions";
 
 const all = commissions();
+// One row per report that carries recommendations, not one per commission: a
+// commission can make recommendations twice and be answered twice.
+const pairs = all.flatMap((c) => c.reports.map((r) => ({
+  ...r, commission: c.name, only: c.reports.length === 1,
+})));
 const rows = rcRecommendations();
 const f = rcFigures();
 const labels = rcLabels();
@@ -73,7 +78,7 @@ const SHOWN = 25;
     </p>
     <h1>What royal commissions asked for</h1>
     <p class="lede measure">
-      Two commissions, {fmt(f.recommendations)} recommendations, and what the Australian
+      {fmt(f.commissions)} commissions, {fmt(f.recommendations)} recommendations, and what the Australian
       Government said about each one in its own words. {fmt(f.position)} carry a stated
       position. {fmt(f.noted)} were answered without one. {fmt(f.notAddressed)} the response
       does not mention.
@@ -107,13 +112,16 @@ const SHOWN = 25;
         </tr>
       </thead>
       <tbody>
-        {all.map((c) => (
+        {pairs.map((c) => (
           <tr>
-            <td>{c.name}</td>
+            <td>
+              {c.commission}
+              {!c.only && c.label && <span class="which"> · {c.label.toLowerCase()}</span>}
+            </td>
             <td class="num nowrap" data-label="Report tabled">
-              {c.reportUrl
-                ? <a href={c.reportUrl} rel="external">{formatDateShort(c.reportTabled)}</a>
-                : formatDateShort(c.reportTabled)}
+              {c.url
+                ? <a href={c.url} rel="external">{formatDateShort(c.tabled)}</a>
+                : formatDateShort(c.tabled)}
             </td>
             <td class="num nowrap" data-label="Response tabled">
               {c.responseUrl
@@ -175,7 +183,7 @@ const SHOWN = 25;
       <input id="rc-q" type="search" data-rc-q autocomplete="off" spellcheck="false"
              placeholder="Search: health, legal, data…" enterkeyhint="search" />
       <span class="chips">
-        <button type="button" class="chip" data-rc-filter="" aria-pressed="true">Both</button>
+        <button type="button" class="chip" data-rc-filter="" aria-pressed="true">All</button>
         {all.map((c) => (
           <button type="button" class="chip" data-rc-filter={c.id} aria-pressed="false">
             {c.id === "robodebt" ? "Robodebt" : "Disability"}
@@ -274,9 +282,10 @@ const SHOWN = 25;
     <p>
       A report usually says how many recommendations it makes, and that sentence is checked
       against what was extracted rather than trusted or ignored.
-      {all.map((c) => (
+      {pairs.map((c) => (
         <>
-          {" "}The {c.name} {c.stated && String(c.found) === c.stated
+          {" "}The {c.commission}{!c.only && c.label ? ` ${c.label.toLowerCase()}` : ""}
+          {" "}{c.stated && String(c.found) === c.stated
             ? <>says it makes {c.stated} and {c.stated} is what is there.</>
             : <>says it makes {c.stated || "no stated number"}, and {fmt(c.found)} are printed
               under their own numbers; neither figure is adopted here.</>}
@@ -334,10 +343,12 @@ const SHOWN = 25;
 
     <h3>What is not here</h3>
     <p>
-      Two commissions, both Commonwealth. The Royal Commission into Defence and Veteran Suicide
-      and the Royal Commission on Antisemitism and Social Cohesion are in the document table and
-      have not been read. State royal commissions are not in scope. Nothing on this page is
-      rebuilt weekly yet.
+      {fmt(f.commissions)} commissions, all Commonwealth. The Royal Commission on Antisemitism
+      and Social Cohesion is in the document table and has not been read: five of the fourteen
+      recommendations in its interim report are in a confidential report, so neither their words
+      nor a position on them is public, and this index has no way yet to say that about a row
+      without saying something untrue. State royal commissions are not in scope. Nothing on this
+      page is rebuilt weekly yet.
     </p>
   </section>
 
@@ -432,6 +443,8 @@ const SHOWN = 25;
      rather than shown as a bare ellipsis, which a reader can read as the
      document trailing off rather than as this page stopping. */
   .words .more { color: var(--ink-secondary); font-style: italic; }
+  /* Which of a commission's reports a row is about, where it has more than one. */
+  .which { color: var(--ink-secondary); }
   /* Long prose in a wide column is as hard to read as short prose in a narrow
      one: the eye loses the line coming back. The column is wide enough for the
      government's answer beside it; the recommendation itself keeps to a

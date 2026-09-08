@@ -92,16 +92,19 @@ CONTINUATION = re.compile(r"^[a-z][^:]{0,40}$")
 # government answering, the Commonwealth among them.
 COMMONWEALTH = re.compile(r"^(?:response|joint\s+response|australian\s+government\s+response"
                           r"|commonwealth)\b", re.I)
-NUMBER = re.compile(r"\d+\.\d+")
+# A recommendation's number, either way a report writes it: "4.22" by chapter,
+# or "61" straight through. Greedy, so a dotted number is never read as its
+# chapter alone.
+NUMBER = re.compile(r"\d{1,3}(?:\.\d{1,3})?")
 # Where a document stops answering one recommendation and starts on the next.
 # Both grammars head that with the recommendation's number on a line of its
 # own: "Response to Recommendation 4.22" in the disability response, and
 # "Recommendation 20.5: Administrative Review Council" in the robodebt one.
 HEAD_LINE = re.compile(r"^[ \t]*(?:Response to[ \t]+)?Recommendations?[ \t]+"
-                       r"(\d{1,3}\.\d{1,3}[^\n]*)$", re.M)
+                       r"(\d{1,3}(?:\.\d{1,3})?[^\n]*)$", re.M)
 # The run of numbers a heading names, and whatever follows them.
-LABEL_RUN = re.compile(r"\d{1,3}\.\d{1,3}"
-                       r"(?:\s*(?:[,\u2013\u2014-]|and|to)\s*\d{1,3}\.\d{1,3})*\s*(.*)$")
+LABEL_RUN = re.compile(r"\d{1,3}(?:\.\d{1,3})?"
+                       r"(?:\s*(?:[,\u2013\u2014-]|and|to)\s*\d{1,3}(?:\.\d{1,3})?)*\s*(.*)$")
 # The page number a running head is printed with, at either end of it. The
 # disability response puts it after the head on a right-hand page and before it
 # on a left-hand one — "Australian Government Response – Volume 4 51" and "54
@@ -163,6 +166,17 @@ def cut(text: str) -> tuple[str, str]:
     return text.strip(), "yes" if more else ""
 
 
+# What can follow a number when the line is not a heading but the tail of a
+# sentence the page broke: a lower-case word, or the punctuation that ends a
+# clause or closes a bracket. "as part of the process set out in /
+# Recommendation 74." and "against wellbeing targets (see / Recommendation 11)
+# as part of the check" each ended one of the Defence and Veteran Suicide
+# answers before it began. No document in this corpus heads a recommendation
+# with a full stop after the number — 361 of that response's headings use a
+# colon and one line in it uses a stop, and that line is a cross-reference.
+CONTINUES = frozenset("abcdefghijklmnopqrstuvwxyz.)],;")
+
+
 def is_heading(line: str) -> bool:
     """Does this line head a recommendation, or only begin with the look of one?
 
@@ -178,7 +192,7 @@ def is_heading(line: str) -> bool:
     if not head:
         return False
     run = LABEL_RUN.match(head.group(1).strip())
-    return not (run and run.group(1).lstrip()[:1].islower())
+    return not (run and run.group(1).lstrip()[:1] in CONTINUES)
 
 
 def furniture(body: str, title: str) -> set[str]:
@@ -234,10 +248,10 @@ SENTENCE_END = re.compile(r"[.!?][”’\")\]]?(?=\s+[\"“(A-Z0-9]|$)")
 # page of the government's answer to tidy an ending is the worse of the two.
 TRAILING_SENTENCE = 300
 
-FIELDS = ["commission_id", "label", "response_id", "response_tabled", "response_url",
+FIELDS = ["commission_id", "report_id", "label", "response_id", "response_tabled", "response_url",
           "state", "verdict", "government_label", "other_governments",
           "government_words", "government_words_more", "note"]
-COUNT_FIELDS = ["commission_id", "response_id", "grammar", "recommendations", "position",
+COUNT_FIELDS = ["commission_id", "report_id", "response_id", "grammar", "recommendations", "position",
                 "noted", "not addressed", "unreadable", "accepted",
                 "in part or in principle", "not accepted"]
 
@@ -252,9 +266,10 @@ def labels_in(heading: str) -> list[str]:
     """
     out: list[str] = []
     for part in re.split(r",|\band\b", heading):
-        span = re.search(r"(\d+)\.(\d+)\s*(?:–|—|-|\bto\b)\s*(\d+)\.(\d+)", part)
+        span = re.search(r"(?:(\d+)\.)?(\d+)\s*(?:–|—|-|\bto\b)\s*(?:(\d+)\.)?(\d+)", part)
         if span and span.group(1) == span.group(3) and int(span.group(2)) <= int(span.group(4)):
-            out += [f"{span.group(1)}.{n}"
+            prefix = f"{span.group(1)}." if span.group(1) else ""
+            out += [f"{prefix}{n}"
                     for n in range(int(span.group(2)), int(span.group(4)) + 1)]
         else:
             out += NUMBER.findall(part)
@@ -409,7 +424,38 @@ def from_blocks(body: str, title: str = "") -> dict[str, dict]:
 # the robodebt response wrote "The Government accepts this recommendation. As
 # noted in the response to recommendation 20.4, ..." and the register
 # published the eleven words before the mention.
-LABEL = re.compile(r"^[ \t]*Recommendation[ \t]+(\d{1,3}\.\d{1,3})\b", re.M)
+BY_CHAPTER, STRAIGHT_THROUGH = r"\d{1,3}\.\d{1,3}", r"\d{1,3}"
+
+
+def label_pattern(numbering: str) -> "re.Pattern[str]":
+    return re.compile(r"^[ \t]*Recommendation[ \t]+(" + numbering + r")\b", re.M)
+
+
+LABEL = label_pattern(BY_CHAPTER)
+
+
+def numbering_in(body: str) -> str:
+    """How this response numbers the recommendations, counted rather than assumed.
+
+    The same question the report side asks of the report, asked again here
+    rather than carried across, because a response is a different document and
+    could number them its own way. Neither of the two that answer in prose is
+    close: the robodebt response heads 56 by chapter and 1 straight through,
+    the Antisemitism response none by chapter and 14 straight through.
+    """
+    by_chapter = {m.group(1) for m in label_pattern(BY_CHAPTER).finditer(body)}
+    straight = {m.group(1) for m in label_pattern(STRAIGHT_THROUGH).finditer(body)}
+    return BY_CHAPTER if len(by_chapter) >= len(straight) else STRAIGHT_THROUGH
+
+
+# The answer's opening sentence, where it is about the recommendation.
+OPENING = re.compile(r"^.*?[.!?](?=\s|$)")
+ABOUT_IT = re.compile(r"\brecommendations?\b", re.I)
+# A qualifier the document hyphenates onto the verdict — "agrees-in-principle".
+# coverage.py reads the verdict from it but its label stops at the verb, and a
+# label that says "agrees" where the document says "agrees-in-principle" is the
+# misstatement this index is most careful about everywhere else.
+HYPHENATED = re.compile(r"\s*-\s*(?:in\s*-?\s*principle|in\s*-?\s*part|in\s+full)\b", re.I)
 
 
 # Where the government's answer plainly ends and the document moves on, other
@@ -440,6 +486,22 @@ def prose_end(raw: str) -> int:
     return min(stops, default=len(raw))
 
 
+def label_said(words: str, label: str) -> str:
+    """The government's own verdict words, to the end of them.
+
+    coverage.py finds the verb; where the document hyphenates the qualifier
+    onto it the label has to carry that too. "The Australian Government agrees"
+    is not what the response to recommendation 96 says, and the difference
+    between agreeing and agreeing in principle is the whole of what this column
+    is for.
+    """
+    found = cov.find(words, label)
+    if not found:
+        return ""
+    tail = HYPHENATED.match(words, found.end())
+    return words[found.start():tail.end() if tail else found.end()].strip()
+
+
 def from_prose(body: str, title: str = "") -> dict[str, dict]:
     """label -> the government's words after the recommendation, and their verdict.
 
@@ -451,7 +513,8 @@ def from_prose(body: str, title: str = "") -> dict[str, dict]:
         stop = body.find("\n", start)
         return body[start:stop if stop >= 0 else len(body)]
 
-    marks = [(m.group(1), m.start(), m.end()) for m in LABEL.finditer(body)
+    label = label_pattern(numbering_in(body))
+    marks = [(m.group(1), m.start(), m.end()) for m in label.finditer(body)
              if is_heading(line_at(m.start()))]
     heads = furniture(body, title)
     found: dict[str, dict] = {}
@@ -467,13 +530,26 @@ def from_prose(body: str, title: str = "") -> dict[str, dict]:
         words, more = cut(tidy_words(ex.GOV_LABEL.sub("", raw.strip())))
         if not words:
             continue
-        state = cov.state({"source": "response", "government_words": words, "label": label})
-        verdict = cov.verdict(words, label) if state == "position" else ""
+        # Read the position from the answer's opening sentence where that
+        # sentence is about the recommendation, and from the whole answer
+        # otherwise. These responses open by saying what they are doing —
+        # "The Government agrees to this recommendation." — and what follows is
+        # the reasoning, which can carry a verdict word about something else.
+        # The final Defence and Veteran Suicide response answers recommendation
+        # 42 "The Government notes this recommendation" and then says all
+        # related recommendations "will be implemented with regard to the
+        # recommendations of the Twenty-Year Review". Read whole, that is an
+        # acceptance the government did not state. It is the only row of the
+        # 191 answered in prose that the two readings disagree about.
+        opening = OPENING.match(words)
+        decisive = opening.group(0) if opening and ABOUT_IT.search(opening.group(0)) else words
+        state = cov.state({"source": "response", "government_words": decisive, "label": label})
+        verdict = cov.verdict(decisive, label) if state == "position" else ""
         keep = found.get(label)
         if keep and keep["state"] == "position" and state != "position":
             continue
         found[label] = {"state": state, "verdict": verdict,
-                        "government_label": (cov.find(words, label).group(0).strip()
+                        "government_label": (label_said(decisive, label)
                                              if state == "position" else ""),
                         "other_governments": "", "government_words": words,
                         "government_words_more": more, "note": ""}
@@ -512,14 +588,29 @@ def label_key(label: str) -> list[int]:
 
 def main(argv: list[str]) -> int:
     wanted = {argv[i + 1] for i, a in enumerate(argv) if a == "--commission"}
+    # Keyed by the report, not by the commission. A commission can be answered
+    # more than once and number each set from one: Defence and Veteran Suicide
+    # made recommendations 1 to 13 in an interim report and 1 to 122 in its
+    # final report, so thirteen numbers mean two different things and a row is
+    # only identified by which report it came out of.
     recommendations = collections.defaultdict(list)
     for r in read(RECOMMENDATIONS):
         if not wanted or r["commission_id"] in wanted:
-            recommendations[r["commission_id"]].append(r["label"])
+            recommendations[(r["commission_id"], r["source_id"])].append(r["label"])
     responses = [d for d in read(DOCUMENTS) if d["role"] == "response"
-                 and d["commission_id"] in recommendations]
+                 and any(c == d["commission_id"] for c, _ in recommendations)]
     if not responses:
         print("no response documents for any commission with recommendations", file=sys.stderr)
+        return 1
+    # A response that does not say which report it answers is not read against
+    # all of them: it is refused, and the seed is where that is fixed.
+    unpaired = [d for d in responses
+                if (d["commission_id"], (d.get("answers") or "").strip()) not in recommendations]
+    for d in unpaired:
+        print(f"  OTD {d['id']}: does not say which report it answers — set `answers` in "
+              f"rc_seed.csv", file=sys.stderr)
+    if unpaired:
+        print(f"REFUSING: {len(unpaired)} responses are not paired with a report", file=sys.stderr)
         return 1
 
     rows, counts, unread, empty = [], [], [], []
@@ -532,7 +623,8 @@ def main(argv: list[str]) -> int:
         if not found:
             empty.append(d)
             continue
-        labels = recommendations[d["commission_id"]]
+        report_id = (d.get("answers") or "").strip()
+        labels = recommendations[(d["commission_id"], report_id)]
         tally = collections.Counter()
         for label in sorted(labels, key=label_key):
             got = found.get(label)
@@ -544,16 +636,17 @@ def main(argv: list[str]) -> int:
             tally[got["state"]] += 1
             if got["verdict"]:
                 tally[got["verdict"]] += 1
-            rows.append({"commission_id": d["commission_id"], "label": label,
-                         "response_id": d["id"],
+            rows.append({"commission_id": d["commission_id"], "report_id": report_id,
+                         "label": label, "response_id": d["id"],
                          "response_tabled": d["tabled_senate"] or d["tabled_house"],
                          "response_url": d["url"], **got})
-        counts.append({"commission_id": d["commission_id"], "response_id": d["id"],
+        counts.append({"commission_id": d["commission_id"], "report_id": report_id,
+                       "response_id": d["id"],
                        "grammar": grammar, "recommendations": len(labels),
                        **{k: tally[k] for k in STATES},
                        **{k: tally[k] for k in ("accepted", "in part or in principle",
                                                 "not accepted")}})
-        print(f"{d['commission_id']}: OTD {d['id']} read as {grammar}; "
+        print(f"{d['commission_id']}: OTD {d['id']} answering OTD {report_id}, read as {grammar}; "
               + ", ".join(f"{tally[k]} {k}" for k in STATES if tally[k])
               + (" — " + ", ".join(f"{tally[k]} {k}" for k in
                  ("accepted", "in part or in principle", "not accepted") if tally[k])))

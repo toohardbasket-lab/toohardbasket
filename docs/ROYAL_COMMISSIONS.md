@@ -137,6 +137,62 @@ fixed in `extract_rc_positions.py`, and a fifth — a recommendation answered
 part by part, quoting only the first part with nothing to say the rest existed
 — is now marked by `government_words_more`.
 
+**6. A row is a report's recommendation, not a commission's.** Settled 8
+September, adding the Royal Commission into Defence and Veteran Suicide. That
+commission made 13 recommendations in an interim report the government answered
+in 2022 and 122 more in its final report, answered in 2024, and both sets are
+numbered from one. So the pair — a report that sets recommendations out under
+their own numbers, and the response to it — is the unit, and a row is
+identified by its commission, its report and its number. Which report a
+response answers is data: `answers` in `rc_seed.csv`, and a response that does
+not say is refused rather than read against everything the commission ever
+recommended.
+
+Three things about that commission's documents broke rules written from the
+first two, which is what a third corpus is for:
+
+  * **Numbering.** It numbers straight through — "Recommendation 61" — where
+    the first two number by chapter. The pattern now counts all three shapes it
+    has seen (by chapter, straight through, straight through with no titles at
+    all) and takes whichever heads more of the report's recommendations. It is
+    never close, and the minority is exactly what the rule keeps out: a bare
+    number in the first two reports is a citation of another commission, and
+    the Defence interim report cites the Productivity Commission's numbering
+    three times.
+  * **Where a heading stops.** A line beginning with a number is not a heading
+    when it is the tail of a sentence the page broke — "as part of the process
+    set out in / Recommendation 74.", "(see / Recommendation 11) as part of the
+    check". Reading those as headings ended two answers before they began and
+    truncated a recommendation. The rule is that a title never begins in lower
+    case or with the punctuation that closes a clause. It also fixed a
+    recommendation in the *published* Disability index, 7.30, which had been
+    stopped at 537 characters by "Recommendation 7.30 until ADEs are phased
+    out" and now runs to its real end at 1,629.
+  * **Where a verdict is read from.** The response to recommendation 42 opens
+    "The Government notes this recommendation" and later says related
+    recommendations "will be implemented with regard to the recommendations of
+    the Twenty-Year Review". Read whole, that was published as *accepted* — an
+    acceptance the government did not state. A prose response is now read from
+    its opening sentence where that sentence is about the recommendation, and
+    from the whole answer otherwise. It is the only row of the 191 answered in
+    prose that the two readings disagree about, and coverage.py is untouched,
+    so nothing on the committee register moves.
+
+The verifier caught the last of those and two more: a label published as "The
+Australian Government agrees" where the document says "agrees-in-principle",
+and one where the document's own slip, "The Australian agrees", is now
+published as written. Its label check on a prose response is now the same test
+it applies to a block one — the label has to end where the row says it ends.
+
+**The Royal Commission on Antisemitism and Social Cohesion is not read.** Five
+of the fourteen recommendations in its interim report are in a confidential
+report; the public report and the response both say only "This recommendation
+is contained in the confidential Interim Report". The index has no way to carry
+that: "not addressed" would be false, because the response does name them, and
+there is nothing to quote. The documents are in the table with the reason
+written beside them, and the next piece of design is what a row says when the
+recommendation itself is not public.
+
 The first step built from all that is `scraper/harvest_royal_commissions.py`,
 which decides which tabled documents belong to which commission and extracts
 nothing. It is run by hand and is not in the weekly job, because nothing

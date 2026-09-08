@@ -65,7 +65,21 @@ DROPPED = DATA / "rc_index_dropped.csv"
 sys.path.insert(0, str(HERE))
 from extract_rc_recommendations import running_head   # noqa: E402
 
-LABEL = re.compile(r"Recommendation\s+(\d{1,3}\.\d{1,3})", re.I)
+BY_CHAPTER = re.compile(r"Recommendation\s+(\d{1,3}\.\d{1,3})", re.I)
+STRAIGHT_THROUGH = re.compile(r"Recommendation\s+(\d{1,3})(?!\s*\.\s*\d)", re.I)
+LABEL = BY_CHAPTER
+
+
+def labels_of(body: str) -> "re.Pattern[str]":
+    """How this report numbers its recommendations, counted here rather than
+    taken from the extractor, which is the point of this file.
+
+    "4.22" by chapter or "61" straight through. Counting distinct numbers
+    rather than occurrences: a report cites another commission's numbering a
+    handful of times and prints its own a hundred.
+    """
+    return (BY_CHAPTER if len(set(BY_CHAPTER.findall(body))) >= len(set(STRAIGHT_THROUGH.findall(body)))
+            else STRAIGHT_THROUGH)
 # How far above a slice to look for the label that governs it. A recommendation
 # runs to a few thousand characters, so this is the whole of a long one.
 LOOKBACK = 4000
@@ -85,13 +99,13 @@ SHORTEST_PROBE = 30
 # where the line happens to break just before one, case is the only thing left
 # that tells the two apart. Read case-blind, a sentence in the robodebt
 # response manufactured a heading for recommendation 20.5.
-HEADING = re.compile(r"^(?:Response to )?Recommendations?\s+(\d{1,3}\.\d{1,3}[^\n]*)", re.M)
+HEADING = re.compile(r"^(?:Response to )?Recommendations?\s+(\d{1,3}(?:\.\d{1,3})?[^\n]*)", re.M)
 # The numbers a heading names, and nothing after them. A title can carry digits
 # of its own — "Recommendation 17.1: Amend section 5.1 of the Act" — so the run
 # of labels is read from the start of the heading and stops at the first thing
 # that is not another label or a separator between two.
-LABEL_RUN = re.compile(r"\d{1,3}\.\d{1,3}"
-                       r"(?:\s*(?:[,\u2013\u2014-]|and|to)\s*\d{1,3}\.\d{1,3})*")
+LABEL_RUN = re.compile(r"\d{1,3}(?:\.\d{1,3})?"
+                       r"(?:\s*(?:[,\u2013\u2014-]|and|to)\s*\d{1,3}(?:\.\d{1,3})?)*")
 
 _cache: dict[str, str] = {}
 _lines: dict[str, str] = {}
@@ -182,6 +196,25 @@ def loosely(text: str) -> re.Pattern:
     return re.compile(r"\s+".join(re.escape(w) for w in text.split()))
 
 
+def says_label(segment: str, label: str) -> bool:
+    """Does this segment say that, as the whole of what it says?
+
+    A prose response states its verdict in its own sentence, so the label is
+    looked for as it stands rather than after a colon. It still has to end
+    where the row says it ends: the response to recommendation 96 says "The
+    Australian Government agrees-in-principle", and a row claiming the
+    government "agrees" would be found inside it by a plain search. So what
+    follows the label may not continue the word — no letter, and no hyphen,
+    which is how these documents write "agrees-in-principle".
+    """
+    for m in loosely(label).finditer(segment):
+        after = segment[m.end():m.end() + 1]
+        if after.isalpha() or after in "-\u2010\u2011\u2013":
+            continue
+        return True
+    return False
+
+
 def states_label(segment: str, label: str) -> bool:
     """Does this segment state that verdict, as its own verdict?
 
@@ -210,6 +243,15 @@ def states_label(segment: str, label: str) -> bool:
     return False
 
 
+# What follows a number when the line is the tail of a sentence the page broke
+# rather than a heading: a lower-case word, or the punctuation that ends a
+# clause or closes a bracket. "as part of the process set out in /
+# Recommendation 74." and "(see / Recommendation 11) as part of" are both in
+# the Defence and Veteran Suicide response, and reading either as a heading
+# puts an answer outside every window it could be in.
+CONTINUES = frozenset("abcdefghijklmnopqrstuvwxyz.)],;")
+
+
 def labels_named(heading: str) -> set[str]:
     """Every recommendation a heading is the answer to, or nothing if it is not
     a heading at all.
@@ -230,14 +272,17 @@ def labels_named(heading: str) -> set[str]:
     run = LABEL_RUN.match(heading.strip())
     if not run:
         return set()
-    if heading.strip()[run.end():].lstrip()[:1].islower():
+    if heading.strip()[run.end():].lstrip()[:1] in CONTINUES:
         return set()
     text = run.group(0)
-    numbers = re.findall(r"\d{1,3}\.\d{1,3}", text)
+    numbers = re.findall(r"\d{1,3}(?:\.\d{1,3})?", text)
     if len(numbers) == 2 and re.search(r"\d\s*(?:[\u2013\u2014-]|to)\s*\d", text):
-        (first, low), (second, high) = (tuple(int(x) for x in n.split(".")) for n in numbers)
-        if first == second and low <= high:
-            return {f"{first}.{n}" for n in range(low, high + 1)}
+        parts = [n.split(".") for n in numbers]
+        if len({len(x) for x in parts}) == 1 and parts[0][:-1] == parts[1][:-1]:
+            low, high = int(parts[0][-1]), int(parts[1][-1])
+            prefix = "".join(x + "." for x in parts[0][:-1])
+            if low <= high:
+                return {f"{prefix}{n}" for n in range(low, high + 1)}
     return set(numbers)
 
 
@@ -246,6 +291,9 @@ def labels_named(heading: str) -> set[str]:
 # Accept", "Joint Response to 6.31 (a): Accept". Short, and opening with a name
 # and a colon.
 PARTICULAR = re.compile(r"[A-Z][^:\n]{0,60}:")
+# A response that heads each answer "Response to Recommendation 4.22" and
+# prints a verdict under it, against one that answers in its own sentences.
+BLOCK_RESPONSE = re.compile(r"^Response to Recommendations?\s+\d", re.M)
 
 
 def is_particular(line: str) -> bool:
@@ -299,6 +347,7 @@ def check_recommendation(row: dict, name: str) -> str:
     if len(probe) < SHORTEST_PROBE:
         return "too short to verify"
     heading = re.sub(r"\s+", " ", row.get("heading") or "").strip()
+    labels = labels_of(body)
     want = row["label"]
     seen, start, anywhere, label_matched = [], 0, False, False
     while True:
@@ -308,17 +357,17 @@ def check_recommendation(row: dict, name: str) -> str:
         anywhere = True
         start = at + 1
         above = body[max(0, at - LOOKBACK):at]
-        labels = LABEL.findall(above)
-        if not labels:
+        above_labels = labels.findall(above)
+        if not above_labels:
             continue
-        seen.append(labels[-1])
-        if labels[-1] != want:
+        seen.append(above_labels[-1])
+        if above_labels[-1] != want:
             continue
         label_matched = True
         # The heading the row publishes has to be the one the report puts over
         # these words, not one from further up the page.
         if heading:
-            after_label = above[above.rfind(labels[-1]) + len(labels[-1]):]
+            after_label = above[above.rfind(above_labels[-1]) + len(above_labels[-1]):]
             if heading not in after_label:
                 continue
         return "verified"
@@ -348,14 +397,18 @@ def check_position(row: dict) -> str:
     if not words:
         return "no words to check"
 
+    blocks = BLOCK_RESPONSE.search(body) is not None
     here = windows(body, row["label"])
     for lo, hi in (here or [(0, len(body))]):
         segment = body[lo:hi]
-        # A prose response states no verdict; its label is a fragment of the
-        # sentence it is making — "The Government accepts" — so it is looked
-        # for as it stands, and the sentence around it is the check.
-        if not all(loosely(label).search(segment)
-                   if label.lower().startswith("the government") else states_label(segment, label)
+        # A block response prints its verdict on a line after a colon and the
+        # whole of that line has to be the row's label. A prose response states
+        # no verdict anywhere: its label is a fragment of the sentence it is
+        # making — "The Government agrees", and in one place "The Australian
+        # agrees", which is the document's own slip and is published as it
+        # stands — so it is looked for as it stands. Which kind of document
+        # this is, is read from the document.
+        if not all(states_label(segment, label) if blocks else says_label(segment, label)
                    for label in labels):
             continue
         if not loosely(words).search(segment):
@@ -443,10 +496,14 @@ def main(argv: list[str]) -> int:
     for why, n in tally.most_common():
         print(f"  {n:>5}  {why}")
 
-    verified = {(r["commission_id"], r["label"]) for r in kept}
+    # Keyed by the report as well as the number: a commission answered twice
+    # numbers each set from one, so "recommendation 1" of the Defence and
+    # Veteran Suicide interim report and "recommendation 1" of its final report
+    # are different rows that happen to share a label.
+    verified = {(r["commission_id"], r["source_id"], r["label"]) for r in kept}
     ptally, pkept = collections.Counter(), []
     for p in positions:
-        if (p["commission_id"], p["label"]) not in verified:
+        if (p["commission_id"], p["report_id"], p["label"]) not in verified:
             dropped.append({**p, "part": "position",
                             "why": "its recommendation was not verified"})
             continue
@@ -484,14 +541,18 @@ def main(argv: list[str]) -> int:
     # was found is now what survived this check.
     counts = read(COUNTS) if COUNTS.exists() else []
     if counts:
-        by_commission = collections.Counter(r["commission_id"] for r in kept)
+        # By the report, not the commission: a commission with two reports has
+        # a count row for each, and counting by commission gave both of them
+        # the sum.
+        by_report = collections.Counter((r["commission_id"], r["source_id"]) for r in kept)
         for c in counts:
-            c["found"] = by_commission[c["commission_id"]]
+            c["found"] = by_report[(c["commission_id"], c["source_id"])]
             c["agree"] = "yes" if c["stated"] and str(c["found"]) == c["stated"] else (
                 "no" if c["stated"] else "")
         write(COUNTS, list(counts[0]) + ([] if "dropped" in counts[0] else ["dropped"]),
               [{**c, "dropped": sum(1 for d in dropped if d["part"] == "recommendation"
-                                    and d["commission_id"] == c["commission_id"])}
+                                    and d["commission_id"] == c["commission_id"]
+                                    and d.get("source_id") == c["source_id"])}
                for c in counts])
     print(f"{len(kept)} recommendations and {len(pkept)} positions published; "
           f"{len(dropped)} rows removed")

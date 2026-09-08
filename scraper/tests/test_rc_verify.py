@@ -68,8 +68,8 @@ def bed(rec_rows, pos_rows=()):
     with V.RECOMMENDATIONS.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=rec_fields)
         w.writeheader(); w.writerows(rec_rows)
-    pos_fields = ["commission_id", "label", "response_id", "state", "government_label",
-                  "government_words"]
+    pos_fields = ["commission_id", "report_id", "label", "response_id", "state",
+                  "government_label", "government_words"]
     with V.POSITIONS.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=pos_fields)
         w.writeheader(); w.writerows(pos_rows)
@@ -82,8 +82,8 @@ def rec(label, heading, text):
 
 
 def pos(label, state, gov_label, words):
-    return {"commission_id": "example", "label": label, "response_id": "77", "state": state,
-            "government_label": gov_label, "government_words": words}
+    return {"commission_id": "example", "report_id": "99", "label": label, "response_id": "77",
+            "state": state, "government_label": gov_label, "government_words": words}
 
 
 GOOD = rec("6.31", "Embed the right to equitable access",
