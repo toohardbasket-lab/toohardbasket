@@ -206,6 +206,27 @@ except SystemExit:
     ok = True
 check("reading fewer records than the register says it holds: refuses", ok)
 
+# A live register moves under a reader: a document tabled while the sweep is
+# running re-sorts the pages and a record is read twice or not at all. That is
+# an ordinary sitting Tuesday, and an alarm that fires on it is one somebody
+# learns to close without reading.
+nearly = [record(4000 + i) for i in range(100)], [record(5000 + i) for i in range(98)]
+calls = fake_register(list(nearly), 200)
+try:
+    got = H.register_records()
+    ok = len(got) == 198
+except SystemExit:
+    ok = False
+check("a document tabled while the sweep runs is reported, not refused", ok)
+
+wide = [record(6000 + i) for i in range(100)], [record(7000 + i) for i in range(94)]
+calls = fake_register(list(wide), 200)
+try:
+    H.register_records(); ok = False
+except SystemExit:
+    ok = True
+check("and a gap wider than that is still a gap", ok)
+
 fake_register([[]], 0, shape={"documents": []})
 try:
     H.register_records(); ok = False

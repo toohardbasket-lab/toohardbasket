@@ -56,6 +56,14 @@ DOCUMENTS = DATA / "rc_documents.csv"
 CANDIDATES = DATA / "rc_candidates.csv"
 NOT_OURS = DATA / "rc_not_ours.csv"
 
+# How many records a page of the search holds.
+PAGE_SIZE = 100
+# How far the sweep and the register's own count may disagree before it is a
+# fault rather than a document tabled while the sweep was running. Small on
+# purpose: a live register moves by a record or two under a reader, and the
+# failure this is here to catch moved by a hundred.
+DRIFT = 5
+
 SEARCH = "https://otd.aph.gov.au/public-api/api/search"
 PAGE = "https://www.aph.gov.au/Parliamentary_Business/Tabled_Documents/{id}"
 HEADERS = {"Content-Type": "application/json", "Accept": "application/json",
@@ -94,7 +102,7 @@ def register_records() -> list[dict]:
     while True:
         payload = {"searchTerm": "", "documentCategories": [], "documentTypes": [],
                    "departments": [], "parliamentNumbers": [], "isDisallowable": [],
-                   "sortBy": 1, "sortDirection": 1, "pageSize": 100, "currentPage": page,
+                   "sortBy": 1, "sortDirection": 1, "pageSize": PAGE_SIZE, "currentPage": page,
                    "tableHouse": True, "tableSenate": True}
         req = urllib.request.Request(SEARCH, data=json.dumps(payload).encode(), headers=HEADERS)
         with urllib.request.urlopen(req, timeout=60) as r:
@@ -130,12 +138,30 @@ def register_records() -> list[dict]:
         if page >= pages:
             break
         page += 1
+    # The count the register stated on page one, against what the sweep read.
+    # These disagree by one or two whenever a document is tabled while the
+    # sweep is running: the register re-sorts, a record crosses a page boundary
+    # behind the reader, and it is read twice or not at all. That is a live
+    # register behaving normally on an ordinary sitting week, and it is not
+    # what this check is for. The check is for the sweep stopping early, which
+    # it once did — 17,380 records read of the 17,486 held, a hundred missing
+    # and nothing to show for it.
+    #
+    # So a handful is reported and read past; more than that stops the run. An
+    # alarm that cries wolf on a sitting Tuesday is an alarm somebody learns to
+    # close without reading, and this one has to be believed the week it is
+    # right.
     seen = {str(d.get("id")) for d in out}
-    if len(seen) != expected:
+    drift = expected - len(seen)
+    if abs(drift) > DRIFT:
         raise SystemExit(
             f"The register said it holds {expected} records and the sweep read {len(seen)} "
-            "distinct ones. Stopping rather than reporting a register with documents "
+            f"distinct ones, {abs(drift)} out — more than the {DRIFT} a live register moves "
+            "under a reader. Stopping rather than reporting a register with documents "
             "missing from it.")
+    if drift:
+        print(f"  the register said {expected} records and the sweep read {len(seen)}; "
+              f"{abs(drift)} moved while it was reading")
     return out
 
 
