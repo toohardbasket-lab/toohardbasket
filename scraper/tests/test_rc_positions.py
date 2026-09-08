@@ -132,6 +132,27 @@ check("and where the parts disagree it sorts as in part or in principle, "
       got["6.31"]["verdict"] == "in part or in principle"
       and got["6.31"]["government_label"] == "Accept; Accept in principle")
 
+mixed = ("Response to Recommendation 6.32\n"
+         "Responsibility: Australian Government\n"
+         "Response to 6.32 (a): Accept\n"
+         "Response to 6.32 (b): Note\n"
+         "The Government is committed to something.\n")
+got, _ = P.positions_in(mixed)
+check("a position stated on one part and withheld on another is still a position",
+      got["6.32"]["state"] == "position")
+check("and the row says so, because 'in part or in principle' is the register's "
+      "word there and not the government's",
+      "not on others" in got["6.32"]["note"]
+      and got["6.32"]["government_label"] == "Accept; Note")
+
+agreed = ("Response to Recommendation 6.33\n"
+          "Responsibility: Australian Government\n"
+          "Response to 6.33 (a): Accept\n"
+          "Response to 6.33 (b): Accept in principle\n"
+          "The Government is committed to something.\n")
+check("where every part states a verdict, no such note is added",
+      "not on others" not in P.positions_in(agreed)[0]["6.33"]["note"])
+
 # --- end to end -------------------------------------------------------------
 def bed(text, labels=("6.1", "6.2", "6.3")):
     d = pathlib.Path(tempfile.mkdtemp())
