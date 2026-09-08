@@ -35,6 +35,18 @@ is the whole product. Protect it ahead of any feature.
 - **The registers follow the presiding officers.** The Senate rows are the
   President's status column and the House rows are the Speaker's. The site
   does not second-guess them; where the two officers disagree, it says so.
+- **`interim_response` does not mean an interim response.** In
+  `build_ledger.py`, `being_considered = resp.startswith("Interim*")` and
+  `interim = resp.startswith("Interim")`, so an `Interim*` row sets **both**
+  flags. Page 2 of the President's report defines `Interim*` as the government
+  saying only that its response is being considered — nothing was received.
+  Read `being_considered` first: where it is true, the correct words are
+  "being considered", and the site renders exactly that. Only a row with
+  `interim_response` true and `being_considered` false is a real interim
+  response; there is currently one of them on the Senate register out of 46
+  rows carrying the flag. This was written the wrong way round into a media
+  email that had already gone to a journalist.
+
 - **Never add the two registers together.** They overlap — currently by 24
   reports — so 82 plus 38 is not 120 awaiting, it is 96 distinct reports.
   `brief_figures.py` reports both and names the trap.
