@@ -247,7 +247,12 @@ const SHOWN = 25;
               {r.otherGovernments && (
                 <p class="others">The states and territories: {r.otherGovernments}</p>
               )}
-              {r.governmentWords && <p class="words">{r.governmentWords}</p>}
+              {r.governmentWords && (
+                <p class="words">
+                  {r.governmentWords}
+                  {r.governmentWordsMore && <span class="more"> … the answer continues</span>}
+                </p>
+              )}
               {r.responseUrl && (
                 <p class="src">
                   <a href={r.responseUrl} rel="external">the response</a>
@@ -423,6 +428,10 @@ const SHOWN = 25;
   .said.unstated { font-weight: 400; color: var(--ink-secondary); }
   .sorted, .others, .src { margin: 0.3rem 0 0; font-family: var(--sans); font-size: 0.8125rem; color: var(--ink-secondary); }
   .words { margin: 0.45rem 0 0; font-size: 0.9375rem; color: var(--ink-secondary); }
+  /* Where the government's answer runs on past what is printed here. Said
+     rather than shown as a bare ellipsis, which a reader can read as the
+     document trailing off rather than as this page stopping. */
+  .words .more { color: var(--ink-secondary); font-style: italic; }
   /* Long prose in a wide column is as hard to read as short prose in a narrow
      one: the eye loses the line coming back. The column is wide enough for the
      government's answer beside it; the recommendation itself keeps to a
