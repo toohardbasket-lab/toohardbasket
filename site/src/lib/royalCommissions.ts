@@ -92,7 +92,7 @@ export interface RcRecommendation {
   textNote: string;
   reportUrl: string;
   reportTabled: string;
-  /** "position", "noted", "not addressed" or "unreadable". */
+  /** "position", "noted", "named, not answered", "not addressed" or "unreadable". */
   state: string;
   /** "accepted", "in part or in principle", "not accepted", or "". */
   verdict: string;
@@ -211,6 +211,12 @@ export interface RcFigures {
   recommendations: number;
   position: number;
   noted: number;
+  /**
+   * Named in the response, and not answered there. A government that lists a
+   * recommendation and says why it is not answering it has not been silent
+   * about it, and must not be shown as though it were.
+   */
+  namedNotAnswered: number;
   notAddressed: number;
   unreadable: number;
   accepted: number;
@@ -231,6 +237,7 @@ export function rcFigures(): RcFigures {
     recommendations: rows.length,
     position: n((r) => r.state === "position"),
     noted: n((r) => r.state === "noted"),
+    namedNotAnswered: n((r) => r.state === "named, not answered"),
     notAddressed: n((r) => r.state === "not addressed"),
     unreadable: n((r) => r.state === "unreadable"),
     accepted: n((r) => r.verdict === "accepted"),

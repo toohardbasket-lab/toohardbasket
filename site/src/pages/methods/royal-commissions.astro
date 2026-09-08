@@ -177,6 +177,12 @@ const wordsMore = quoted.filter((r) => r.governmentWordsMore).length;
       bounded, the row carries no text and says so rather than guessing; there are
       {" "}{f.textUnreadable === 0 ? "none of those at present" : `${fmt(f.textUnreadable)} of those`}.
     </p>
+    <p class="note">
+      One thing is taken off every quotation on this site, here and on the
+      {" "}<a href="/recommendations/">recommendations index</a>: the full stop at the end of
+      it. Nothing else is added, removed or reordered, so a row read beside the document it
+      came from matches it word for word and differs by that one character.
+    </p>
   </section>
 
   <section class="wrap measure">
@@ -251,6 +257,27 @@ const wordsMore = quoted.filter((r) => r.governmentWordsMore).length;
       words are this site's and the labels are the government's.
     </p>
 
+    <h3 id="named">A recommendation the response names and does not answer</h3>
+    <p>
+      A response can name a recommendation somewhere other than under an answer to it. The
+      Australian Government's response to the Disability Royal Commission answers 172 of the
+      222 and lists the other 50 in an appendix, by number and title, under its own sentence
+      saying they are "within the sole responsibility of state and territory governments"; its
+      reader's guide says the same in the other direction. Read as silence, those
+      {" "}{fmt(f.namedNotAnswered)} rows said the response did not address them, of a
+      government that had named every one and given its reason.
+    </p>
+    <p>
+      They are read now, and the rule is the shape of the thing rather than that document: a
+      run of at least five lines each opening with a recommendation's number, where none of
+      those recommendations is answered anywhere in the response. Below five, a number at the
+      start of a line is a cross-reference or a row of a table. The words the row carries are
+      the sentence that ends nearest above the list — the list's own caption, in the
+      government's words, found by code and checked back against the response like every other
+      quotation here. The count is checked too: the response says how many it answers and how
+      many it does not, and those two numbers are what this index found.
+    </p>
+
     <h3 id="labels">Every label, and what it was sorted into</h3>
     <table class="register narrow">
       <caption class="sr-only">Each label a government used, and how this index sorts it</caption>
@@ -315,18 +342,31 @@ const wordsMore = quoted.filter((r) => r.governmentWordsMore).length;
   <section class="wrap measure">
     <h2 id="vocabulary">Where this vocabulary differs from the committee index</h2>
     <p>
-      Two words mean different things on the two indexes, and reading across them without
-      knowing that would mislead.
+      One term here has no equivalent on the committee index, and two more mean something
+      different there. Reading across the two without knowing that would mislead.
     </p>
     <dl class="defs">
       <div>
+        <dt>Named, not answered</dt>
+        <dd>
+          The response names the recommendation somewhere other than under an answer to it,
+          in a list of recommendations it answers none of, and the row carries that list's own
+          sentence — {fmt(f.namedNotAnswered)} of them, all in the response to the Disability
+          Royal Commission, which answers 172 of the 222 and lists the other 50 in an appendix
+          as being "within the sole responsibility of state and territory governments". A
+          government that says which recommendations it is not answering, and why, has not
+          been silent about them.
+        </dd>
+      </div>
+      <div>
         <dt>Not addressed</dt>
         <dd>
-          Here: the government's response does not mention the recommendation at all —
-          {" "}{fmt(f.notAddressed)} of them. On the committee index, "not addressed
-          individually" means the response answers the report without setting its
-          recommendations out one by one, and the recommendation was read from the committee's
-          report instead. Neither is a refusal, and they are not the same fact.
+          Here: the response does not mention the recommendation at all —
+          {" "}{f.notAddressed === 0 ? "no row is one of these today" : `${fmt(f.notAddressed)} of them`}.
+          On the committee index, "not addressed individually" means the response answers the
+          report without setting its recommendations out one by one, and the recommendation was
+          read from the committee's report instead. Neither is a refusal, and they are not the
+          same fact.
         </dd>
       </div>
       <div>

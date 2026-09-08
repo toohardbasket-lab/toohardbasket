@@ -302,6 +302,43 @@ running from the line that says "List of Recommendations", set larger again, to
 the next line set that way. The Disability report, which agrees with itself at
 222, yields nothing, and so do the three reports that state no total.
 
+**10. A response that names a recommendation and does not answer it has not
+been silent, and is not shown as though it were.** Settled 8 September, in the
+hand check of the Robodebt and Disability rows.
+
+Fifty of the Disability report's 222 recommendations were published as "not
+addressed", which this index defines as the response not mentioning the
+recommendation at all. The response mentions every one of them. Its reader's
+guide says: "This document includes responses to the 172 recommendations within
+the Australian Government's primary or shared responsibility. It does not
+include responses to the 50 recommendations within state and territory
+governments' primary responsibility." Appendix B then lists all fifty by number
+and title under "The table below includes the 50 Disability Royal Commission
+recommendations within the sole responsibility of state and territory
+governments."
+
+The sorting was right — the index found 172 answered and 50 not, which is
+exactly the split the response states — and the words on it were wrong. A
+government that says which recommendations it is not answering, and why, is not
+a government that ignored them, and 50 rows of 427 said otherwise. The verifier
+could not have caught it: it checks the words a row carries against the
+document, and these rows carried none.
+
+So there is a fourth state, `named, not answered`. The row says "The response
+names it and does not answer it" and carries the list's own caption as its
+quotation, so the reason given is the government's. `not addressed` stays in the
+vocabulary and no row is one today; a response that never mentions a
+recommendation is a thing that can happen, and when it does it will not be
+confused with this.
+
+The rule is the shape of the thing rather than that document: a run of at least
+five lines each opening with a recommendation's number, where none of those
+recommendations is answered anywhere in the response — below five, a number
+opening a line is a cross-reference or a row of a table. The words are the
+sentence that ends nearest above the list, rebuilt across a line the page broke,
+and because the row now has words the verifier checks them like any other
+quotation. Fifty rows moved from unverifiable to verified.
+
 ## What transfers, and what does not
 
 Transfers: the recommendation index and its schema; the verdict vocabulary
