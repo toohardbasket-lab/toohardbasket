@@ -230,6 +230,45 @@ got, grammar = P.positions_in(crossed, TITLE)
 check("a prose answer is not cut off where it mentions another recommendation",
       grammar == "prose" and got["20.5"]["government_words"].endswith("already underway."))
 
+# --- named, and answered with nothing ----------------------------------------
+# Five of the Antisemitism commission's fourteen recommendations are in a
+# confidential report. Both the public report and the response print, under the
+# number and nothing else, "This recommendation is contained in the confidential
+# Interim Report." Saying the response does not address them would be false: it
+# names them.
+named = ("Recommendation 20.4: A fourth thing\n"
+         "The Commonwealth should do the fourth thing.\n"
+         "The Government accepts this recommendation. It will do the fourth thing.\n"
+         "Recommendation 20.5: A fifth thing\n"
+         "This recommendation is contained in the confidential Interim Report.\n")
+got, _ = P.positions_in(named, TITLE)
+check("a recommendation the response names and answers nothing about is noted",
+      got["20.5"]["state"] == "noted" and got["20.5"]["verdict"] == "")
+check("and no words are put in the government's mouth for it",
+      got["20.5"]["government_words"] == "" and got["20.5"]["government_label"] == "")
+check("and the row says what happened rather than leaving it blank",
+      "names this recommendation" in got["20.5"]["note"])
+
+# A contents page names every recommendation in the document. It is not the
+# response addressing any of them, and reading it as one would turn every
+# recommendation a response never answers into an answered one.
+contents = ("Recommendation 20.4 ....................... 12\n"
+            "Recommendation 20.5 ....................... 14\n"
+            "Recommendation 20.4: A fourth thing\n"
+            "The Commonwealth should do the fourth thing.\n"
+            "The Government accepts this recommendation. It will do the fourth thing.\n")
+got, _ = P.positions_in(contents, TITLE)
+check("a contents entry is not the response addressing a recommendation",
+      "20.5" not in got)
+
+# Nor is a heading with nothing under it at all.
+bare = ("Recommendation 20.4: A fourth thing\n"
+        "The Commonwealth should do the fourth thing.\n"
+        "The Government accepts this recommendation. It will do the fourth thing.\n"
+        "Recommendation 20.5: A fifth thing\n")
+got, _ = P.positions_in(bare, TITLE)
+check("nor is a heading with nothing under it", "20.5" not in got)
+
 # --- how much of it is published --------------------------------------------
 titled = block("6.1", "Australian Government", "Response: Accept",
                words=("The Government will do the thing, and has funded it.\n"

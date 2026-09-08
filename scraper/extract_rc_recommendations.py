@@ -72,6 +72,7 @@ Writes data/rc_recommendations.csv        one row per recommendation
 from __future__ import annotations
 
 import bisect
+import collections
 import csv
 import pathlib
 import re
@@ -221,7 +222,8 @@ def label_key(label: str) -> list[int]:
 
 def recommendations_in(body: str, name: str = "", stops: list[int] | None = None,
                        headings: dict[str, str] | None = None,
-                       label_head: "re.Pattern[str] | None" = None) -> dict[str, dict]:
+                       label_head: "re.Pattern[str] | None" = None,
+                       apparatus: set[str] | None = None) -> dict[str, dict]:
     """label -> {"recommendation", "note"}; the shortest usable text for each.
 
     Every occurrence of a number is tried. A recommendation ends at the next
@@ -264,6 +266,8 @@ def recommendations_in(body: str, name: str = "", stops: list[int] | None = None
         where = LOCATOR.search(raw)
         if where:
             raw = raw[:where.start()]
+        if apparatus:
+            raw = "\n".join(l for l in raw.split("\n") if l.strip() not in apparatus)
         # The leaders are looked for before the text is tidied: tidying takes
         # the trailing dots off, and a contents entry then reads as a very
         # short recommendation rather than as a contents entry.
@@ -367,6 +371,42 @@ def stops_in(body: str, headings: list[str]) -> list[int]:
         if body.endswith("\n" + heading):
             offsets.append(len(body) - len(heading) - 1)
     return sorted(offsets)
+
+
+def small_type_in(path: pathlib.Path) -> set[str]:
+    """The lines this report sets smaller than it sets its own text.
+
+    A footnote is not part of a recommendation, and neither is a page's
+    running footer, but flattened to characters they are indistinguishable
+    from it: where a page breaks inside a recommendation the whole apparatus
+    at the foot of that page lands in the middle of the sentence. Four of the
+    Antisemitism report's fourteen recommendations were published that way,
+    one of them cut mid-clause — "should participate in a counter-terrorism
+    289 Home Affairs, Written Response to Notice C2026/0029 …".
+
+    The report says which is which in the only way print can, and the same way
+    this file already tells a heading from the text under it: by the type. The
+    body is whatever size most of the document is set in; anything smaller is
+    apparatus. In that report the recommendations are Calibri 11, its
+    footnotes Calibri 9 and its footer Calibri 8.
+    """
+    rows = _lines(path)
+    if not rows:
+        return set()
+    sizes: collections.Counter = collections.Counter()
+    for _, size, text in rows:
+        if text.strip():
+            sizes[size] += 1
+    body = sizes.most_common(1)[0][0]
+    small = {text.strip() for _, size, text in rows if size < body and text.strip()}
+    # A line is taken out by its words, not by where it is, so a short line
+    # that is apparatus in one place and the report's own text in another must
+    # be left alone. "mental health" is a footnote line somewhere in the
+    # Defence and Veteran Suicide final report and the wrapped tail of
+    # recommendation 117 — "lived experience of service life, suicidality and
+    # mental health" — and taking it out of both lost two words of what was
+    # recommended.
+    return small - {text.strip() for _, size, text in rows if size >= body and text.strip()}
 
 
 def headings_in(path: pathlib.Path, label_head: "re.Pattern[str] | None" = None) -> dict[str, str]:
@@ -473,15 +513,17 @@ def main(argv: list[str]) -> int:
             unread.append(d)
             continue
         label_head = head_in(body)
-        headings, sections = {}, []
+        headings, sections, apparatus = {}, [], set()
         wanted = files_of(d)
         for path in sorted(TEXT.glob(f"{d['id']}_*.lines.tsv")):
             if wanted and path.name.split("_", 1)[1].removesuffix(".lines.tsv") not in wanted:
                 continue
             headings.update(headings_in(path, label_head))
             sections += section_headings_in(path, label_head)
+            apparatus |= small_type_in(path)
         found = recommendations_in(body, names.get(d["commission_id"], ""),
-                                   stops_in(body, sorted(set(sections))), headings, label_head)
+                                   stops_in(body, sorted(set(sections))), headings, label_head,
+                                   apparatus)
         stated, note = stated_total(body)
         unsplit = 0
         for label in sorted(found, key=label_key):
