@@ -11,6 +11,11 @@ venv/
 # extracted text) stays tracked, per scraper/README.md's audit-trail design.
 scraper/raw/otd/
 
+# Page images rendered for a hand check — regenerated from the OTD cache with
+# the pdftoppm command written down in the hand check itself, and megabytes of
+# pictures of pages the repository already links to.
+scraper/raw/handcheck/
+
 # OS / editor cruft
 .DS_Store
 Thumbs.db
