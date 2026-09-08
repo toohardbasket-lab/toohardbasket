@@ -2,4 +2,4 @@ commission_id,report_id,response_id,grammar,recommendations,position,noted,not a
 defence-veteran-suicide,143,349,prose,13,10,3,0,0,9,1,0
 robodebt,2743,4163,prose,56,56,0,0,0,49,7,0
 disability,3444,6874,blocks,222,130,42,50,0,13,117,0
-defence-veteran-suicide,7262,8578,prose,122,104,18,0,0,86,18,0
+defence-veteran-suicide,7262,8578,prose,122,105,17,0,0,86,18,1

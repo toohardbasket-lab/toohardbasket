@@ -120,8 +120,8 @@ just changed plus the rows the automated checks had already argued about.
 Twelve of the fourteen are right in every particular: the label, the heading,
 the recommendation's own words, the government's words, and the position.
 
-Two are not, and neither could have been caught by `verify_rc_index.py`,
-because in both the published words are the document's words.
+Two were not, and neither could have been caught by `verify_rc_index.py`,
+because in both the published words are the document's words. Both are fixed.
 
 ### Recommendation 90 — a refusal published as no position
 
@@ -160,10 +160,25 @@ not agree —
 > The Government does not agree with the assertions contained in this
 > recommendation.
 
-So it is a correction on both indexes rather than a reinterpretation. It is not
-made here, because `coverage.py` is the live register's machinery and this
-branch is under an embargo on disturbing the published site. It is the decision
-this hand check exists to surface.
+So it is a correction on both indexes rather than a reinterpretation, and it
+was made: `coverage.py` now reads a negation written in front of the verb as
+well as into it. Recommendation 90 reads "not accepted", and the index page
+says one recommendation was refused outright instead of none.
+
+Two of those four committee rows are inside coverage.py's own scope and move
+its published figures: 1,030 recommendations with a stated position becomes
+1,032, and 81 not accepted becomes 83. Both are on responses that plainly
+refuse — the advisory report on the Voice referendum bill and the supermarket
+prices report — and both were read before the change was kept. The entry is in
+`data/corrections.csv`, so the site says what moved and why on its own
+corrections page rather than leaving the figures to change quietly.
+
+What this did not touch is the rule that a verdict's object has to be the
+recommendation. That rule governs a verdict found anywhere in an answer; this
+one governs the answer's opening sentence, where a government is answering the
+recommendation it has just been asked about. Reading recommendation 90's first
+sentence any other way requires believing the government set "does not
+support" in bold about something else.
 
 ### Recommendation 60 and ten others — the report's own furniture
 
@@ -203,7 +218,7 @@ Report and response page numbers are the pages' own.
 | 68 Strike the right balance between confidentiality and disclosure | 143 | 92 | Its own text ends "as part of the process set out in / Recommendation 74." Read as a heading, that put the answer outside every window; now it does not. |
 | 72 Expand and strengthen healthcare services for veterans | 146 | 96 | "The Government notes this recommendation for further consideration by the Taskforce" — no position, correctly. This is also the row whose heading was taken from a sentence broken before its number, and is now the report's. |
 | 78 Consider moral injury in the Australian military population | 150 | 102 | Running head removed; the answer ends at its own last sentence. |
-| 90 Remove the service differential | 157 | 114 | **Wrong.** See above. |
+| 90 Remove the service differential | 157 | 114 | **Was wrong.** Refused in bold, published as no position stated. Fixed; see above. |
 | 96 Ongoing funding for Provisional Access to Medical Treatment | 159 | 120 | "The Australian Government **agrees-in-principle**", and the label now says so; until today it said "agrees". |
 | 122 Establish a new statutory entity to oversee system reform | 175 | 147 | Exact, after the running head and "Annex A" were taken off the end of it. |
 
