@@ -186,6 +186,29 @@ def running_head(name: str) -> "re.Pattern[str]":
 # ending of its own, it belongs to what comes next, not to the recommendation.
 TRAILING_HEADING = 80
 
+# Except where it is the recommendation still going. Two of the 427 ended
+# early on this rule: Robodebt's 19.2 lost its second bullet, "appropriate
+# statutory and case authority references in advice writing", which the report
+# prints without a full stop; and the Disability report's 7.12 lost "and submit
+# the template to the relevant state or territory education department",
+# because the last stop in it is the one in "the funding template mentioned at
+# d." Neither is a heading, and the report says so in the way it sets them: no
+# heading in these reports is bulleted, and none begins in lower case, which is
+# the same test this file already applies to a number at the start of a line.
+#
+# One or two words in lower case are the page's doing rather than the report's.
+# The chapter that argues for 19.5 has "Lawyers and legal services" printed
+# down the margin, and "and" is what is left of it after the rest was taken
+# out; kept, it would have ended that recommendation with a conjunction the
+# commission did not write.
+CONTINUATION = re.compile(r"^(?:[•*▪‣]|[a-z])")
+MIN_TAIL_WORDS = 3
+
+
+def continues(tail: str) -> bool:
+    """Is the fragment after the last full stop the recommendation, not a heading?"""
+    return bool(CONTINUATION.match(tail)) and len(tail.split()) >= MIN_TAIL_WORDS
+
 # The report's own statement of how many recommendations it makes. Each of the
 # two reports read so far says it once.
 STATED = re.compile(r"(?:list|total)\s+of\s+(\d{1,3})\s+recommendations", re.I)
@@ -210,7 +233,7 @@ def tidy(raw: str, head: "re.Pattern[str] | None" = None) -> str:
     # because the report does not punctuate its headings.
     end = max(text.rfind(c) for c in ".!?")
     tail = text[end + 1:].strip()
-    if end > MIN_CHARS and 0 < len(tail) <= TRAILING_HEADING:
+    if end > MIN_CHARS and 0 < len(tail) <= TRAILING_HEADING and not continues(tail):
         text = text[:end + 1]
     return text.strip(" .:;-—–•")
 
@@ -296,19 +319,33 @@ def recommendations_in(body: str, name: str = "", stops: list[int] | None = None
 
 
 # A line of the typography sidecar: the font it is mostly set in, its size in
-# points, and its text.
-LINE = re.compile(r"^([^\t]*)\t(\d+)\t(.*)$")
+# points, how far down the page it sits as a percentage of the page's height,
+# and its text. Sidecars written before the position column have three fields;
+# they are read with a position of -1, which no rule that uses position will
+# match.
+LINE = re.compile(r"^([^\t]*)\t(\d+)\t(\d+)\t(.*)$")
+LINE_NO_POSITION = re.compile(r"^([^\t]*)\t(\d+)\t(.*)$")
 
 
 def _lines(path: pathlib.Path) -> list[tuple[str, int, str]]:
     """The typography sidecar: font, size in points, and text, per line."""
+    return [(font, size, text) for font, size, _, text in _placed(path)]
+
+
+def _placed(path: pathlib.Path) -> list[tuple[str, int, int, str]]:
+    """The same, with how far down the page each line sits, or -1 where the
+    sidecar was written before that was kept."""
     if not path.exists():
         return []
     out = []
     for line in path.read_text(encoding="utf-8", errors="replace").splitlines():
         m = LINE.match(line)
         if m:
-            out.append((m.group(1), int(m.group(2)), m.group(3)))
+            out.append((m.group(1), int(m.group(2)), int(m.group(3)), m.group(4)))
+            continue
+        m = LINE_NO_POSITION.match(line)
+        if m:
+            out.append((m.group(1), int(m.group(2)), -1, m.group(3)))
     return out
 
 
@@ -463,6 +500,51 @@ def unnumbered_in_list(path: pathlib.Path, label_head: "re.Pattern[str] | None" 
     return out
 
 
+# A footnote, in a document that has no list of recommendations to be read out
+# of it. Three of the government answers were published carrying the references
+# from the foot of the page: the answer to Robodebt's 13.1 ended "Independent
+# Review of the National Legal Assistance Partnership (ag.gov.au). 19 The
+# Independent Review of the NLAP (nlapreview.com.au). 20 Issues Paper | NLAP
+# review (nlapreview.com.au)."
+#
+# Size alone will not find them, which is what the recommendation side uses. A
+# fifth of the lines in the Defence and Veteran Suicide response are set below
+# its majority size and they are its own recommendations; taking those out
+# destroyed forty answers. Nor does size with the page's own majority, which on
+# a page of headings is above the paragraphs. Nor size at the foot of the page,
+# which took a clause out of the middle of the answer to recommendation 103.
+# And the Antisemitism response sets its footnotes at the same size as its text,
+# so there is no size to find.
+#
+# What every one of them has is what a footnote is: its marker, printed at the
+# foot of the page. A line that begins with a bare number and then a capital or
+# a quotation mark, low on the page, is a footnote or a running footer in all
+# five responses read here, and nothing else in them is. It is checked against
+# the rest of the document like every other rule of this kind: a line whose
+# words also appear anywhere that is not the foot of a page is the document's
+# own and is left alone.
+FOOT = 80
+MARKER = re.compile(r"^\d{1,3}\s+[A-Z\u201c\u201d\u2018\u2019\"'(]")
+
+
+def apparatus_in(path: pathlib.Path) -> set[str]:
+    """The footnotes and footers a document prints at the foot of its pages.
+
+    Where the sidecar was written before positions were kept there is nothing
+    to test and nothing is returned: a rule that cannot see the foot of the
+    page does not guess at it.
+    """
+    rows = _placed(path)
+    if not rows or all(down < 0 for _, _, down, _ in rows):
+        return set()
+    def at_foot(down: int, text: str) -> bool:
+        return down >= FOOT and bool(MARKER.match(text.strip()))
+    footnotes = {text.strip() for _, _, down, text in rows
+                 if text.strip() and at_foot(down, text)}
+    return footnotes - {text.strip() for _, _, down, text in rows
+                        if text.strip() and not at_foot(down, text)}
+
+
 def headings_in(path: pathlib.Path, label_head: "re.Pattern[str] | None" = None) -> dict[str, str]:
     """label -> the recommendation's own heading, as the report sets it.
 
@@ -470,13 +552,7 @@ def headings_in(path: pathlib.Path, label_head: "re.Pattern[str] | None" = None)
     stops at the first line set differently, and at the next recommendation,
     which is set the same way and is not a continuation of this one.
     """
-    if not path.exists():
-        return {}
-    rows = []
-    for line in path.read_text(encoding="utf-8", errors="replace").splitlines():
-        m = LINE.match(line)
-        if m:
-            rows.append((m.group(1), m.group(2), m.group(3)))
+    rows = _lines(path)
     label_head = label_head or HEAD
     out: dict[str, str] = {}
     for i, (font, size, text) in enumerate(rows):
