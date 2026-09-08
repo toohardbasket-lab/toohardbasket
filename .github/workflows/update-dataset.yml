@@ -149,6 +149,76 @@ jobs:
       # was true when someone last made one by hand.
       - name: Draw the link preview card
         run: python make_og_card.py
+      # --- royal commissions -------------------------------------------
+      # A second corpus — what each Commonwealth royal commission recommended
+      # and what the government said about each recommendation — on the same
+      # site, sharing the verdict vocabulary and the test of a stated position.
+      # It is not published yet, and while that is true it does not gate this
+      # run: no page the site publishes reads any of these files, and a draft
+      # index that cannot be built is a reason to tell somebody, not a reason
+      # to leave the live registers a week stale.
+      #
+      # THE SWITCH. When the index goes live, delete the
+      # `continue-on-error: true` line below. Every refusal in this block then
+      # stops the run the way the committee side's gates do, which is what the
+      # site's own rule requires of anything it publishes. Nothing else about
+      # this block needs to change; the alarm below is worth keeping either
+      # way, because the candidate list is not a failure and still needs a
+      # person.
+      #
+      # The steps in order: the four test files as a gate, then which tabled
+      # documents belong to which commission, the text of the ones that carry
+      # recommendations or answer them, the recommendations, the positions,
+      # and last the check that every published row can be found in the
+      # document it names. The text step is the slow one — pdfplumber, page by
+      # page, because pdftotext loses the type that tells a recommendation's
+      # heading from its text — but it only reads a document it has not read
+      # before, and what it has read is committed under raw/rc_text/.
+      - name: Royal commissions (draft — alarms, does not gate)
+        id: rc
+        continue-on-error: true
+        run: |
+          set -e
+          python tests/test_royal_commissions.py
+          python tests/test_rc_recommendations.py
+          python tests/test_rc_positions.py
+          python tests/test_rc_verify.py
+          python tests/test_rc_alert.py
+          python harvest_royal_commissions.py
+          python harvest_rc_text.py --seconds 2400
+          python extract_rc_recommendations.py
+          python extract_rc_positions.py
+          python verify_rc_index.py
+
+      # Two things there are worth an email. A step that refused — every one of
+      # them refuses rather than write something it cannot stand behind, and
+      # unheard that is decoration. And a record in the Tabled Documents
+      # register that looks like a royal commission document the seed does not
+      # hold: the list is empty today, and the week a further response is
+      # tabled it will not be.
+      - name: Was there anything to say about the royal commissions
+        id: rc-note
+        if: always()
+        run: |
+          python rc_alert.py ${{ steps.rc.outcome == 'failure' && '--failed' || '' }}
+          if [ -f /tmp/rc_alert.md ]; then echo "note=yes" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Raise it as an issue
+        if: always() && steps.rc-note.outputs.note == 'yes'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const raw = fs.readFileSync('/tmp/rc_alert.md', 'utf8');
+            const cut = raw.indexOf('\n---\n');
+            await github.rest.issues.create({
+              owner: context.repo.owner, repo: context.repo.repo,
+              title: raw.slice(0, cut).trim(),
+              body: raw.slice(cut + 5).trim()
+                  + `\n\nRun: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}`
+                  + `/actions/runs/${context.runId}`,
+            });
+
       # The last gate, and the only one that tests the dataset rather than a
       # step. Every check here is a claim the site is about to publish: that
       # every response has been read, that the removals are counted and listed

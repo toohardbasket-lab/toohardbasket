@@ -193,10 +193,35 @@ there is nothing to quote. The documents are in the table with the reason
 written beside them, and the next piece of design is what a row says when the
 recommendation itself is not public.
 
+**7. It is rebuilt weekly, and it alarms rather than gates while it is a
+draft.** Settled 8 September. The five steps — harvest, read, recommendations,
+positions, verify — are in `update-dataset.yml` behind the four test files,
+between the link-preview card and `check_publishable.py`, so what they write is
+committed with the rest of the dataset. Every one of them refuses rather than
+write something it cannot stand behind, and unheard a refusal is decoration, so
+`rc_alert.py` turns one into an issue. It does the same for a record in the
+Tabled Documents register that looks like a royal commission document the seed
+does not hold: that list is empty today, nothing was watching the file, and the
+week a further response is tabled it will not be.
+
+The block carries `continue-on-error: true`. No page the site publishes reads
+any of these files, and a draft index that cannot be built is a reason to tell
+somebody rather than a reason to leave the live registers a week stale. **When
+the index goes live, delete that one line.** Every refusal in the block then
+stops the run the way the committee side's gates do, which is what this site's
+own rule requires of anything it publishes. Nothing else needs to change: the
+alarm is worth keeping either way, because a candidate waiting is not a failure
+and still needs a person.
+
+A partial read cannot become a quiet undercount. `harvest_rc_text.py` writes
+the cached text only when it reaches the last page, so a run that hits its
+budget leaves no file and the extraction refuses by name — "OTD 7262: no cached
+text" — rather than extracting from half a report whose own total it has no way
+to check.
+
 The first step built from all that is `scraper/harvest_royal_commissions.py`,
 which decides which tabled documents belong to which commission and extracts
-nothing. It is run by hand and is not in the weekly job, because nothing
-consumes what it writes yet.
+nothing.
 
 ## What transfers, and what does not
 
