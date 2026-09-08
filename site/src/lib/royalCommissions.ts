@@ -45,6 +45,12 @@ export interface RcRecommendation {
   commissionId: string;
   commission: string;
   label: string;
+  /**
+   * The recommendation's own heading, as the report sets it — told from the
+   * text below it by the type the report used, not by a guess. Empty where the
+   * report's typography could not be read.
+   */
+  heading: string;
   /** The commission's own words. Empty where the report's boundary could not be read. */
   text: string;
   textNote: string;
@@ -122,6 +128,7 @@ export function rcRecommendations(): RcRecommendation[] {
       commissionId: r.commission_id,
       commission: names.get(r.commission_id) ?? r.commission_id,
       label: r.label,
+      heading: r.heading ?? "",
       text: r.recommendation,
       textNote: r.note ?? "",
       reportUrl: r.report_url ?? "",

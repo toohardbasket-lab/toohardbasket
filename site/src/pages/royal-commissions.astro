@@ -223,12 +223,13 @@ const SHOWN = 25;
       <tbody>
         {rows.map((r) => (
           <tr data-commission={r.commissionId} data-state={r.state} data-verdict={r.verdict}
-              data-search={`${r.label} ${r.commission} ${r.text} ${saidOf(r)} ${r.governmentWords}`.toLowerCase()}>
+              data-search={`${r.label} ${r.commission} ${r.heading} ${r.text} ${saidOf(r)} ${r.governmentWords}`.toLowerCase()}>
             <td class="c-rec">
               <p class="rec-head">
                 <span class="rec-no">{r.commissionId === "robodebt" ? "Robodebt" : "Disability"} {r.label}</span>
                 {r.reportUrl && <> · <a href={r.reportUrl} rel="external">the report</a></>}
               </p>
+              {r.heading && <p class="rec-title">{r.heading}</p>}
               {r.text
                 ? <p class="rec-text">{r.text}</p>
                 : <p class="rec-text missing">The report's own words could not be read: {r.textNote}.</p>}
@@ -404,6 +405,10 @@ const SHOWN = 25;
 
   .rec-head { margin: 0 0 0.35rem; font-family: var(--sans); font-size: 0.8125rem; color: var(--ink-secondary); }
   .rec-no { font-weight: 600; color: var(--ink); }
+  /* The report's own heading, set the way the report sets it: above the
+     recommendation and in a heavier weight. It is the commission's words, not
+     a label of ours, so it is not styled as furniture. */
+  .rec-title { margin: 0 0 0.3rem; font-weight: 600; }
   .rec-text { margin: 0; }
   .rec-text.missing { color: var(--ink-secondary); font-style: italic; }
   .c-rec, .c-said { vertical-align: top; }
@@ -419,7 +424,7 @@ const SHOWN = 25;
      words: the stacks rule breaks anywhere, which is right for a long report
      title and wrong here. */
   #rc-register td.c-rec { overflow-wrap: normal; }
-  #rc-register .rec-text { max-width: 62ch; }
+  #rc-register .rec-text, #rc-register .rec-title { max-width: 62ch; }
   #rc-register .c-said > * { max-width: 54ch; }
 </style>
 
