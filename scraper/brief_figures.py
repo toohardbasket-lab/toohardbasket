@@ -341,10 +341,18 @@ def main(as_json: bool = False) -> int:
     BATCH = os.environ.get("THB_BATCH_DAY", "2026-03-19")
     AS_AT = os.environ.get("THB_AS_AT", date.today().isoformat())
 
-    resp = [r for r in read("response_documents.csv")
+    # SCOPE. These figures must come from the same corpus as everything above:
+    # `docs`, which already has scope_exclusions.csv applied. Reading
+    # response_documents.csv directly here counts the 35 responses that answer
+    # somebody other than a parliamentary committee, and in an email whose whole
+    # claim is about committee reports that is simply the wrong number. It gave
+    # 199 responses since 3 March 2026 where the answer is 197.
+    resp = [r for r in docs
             if (r.get("tabled_senate") or r.get("tabled_house") or "").strip()]
     tabled = lambda r: (r.get("tabled_senate") or r.get("tabled_house") or "").strip()
     closure = lambda r: r.get("classification") == "proforma_closure"
+    assert len(resp) <= out["corpus"]["documents_read"], (
+        "the_pitch is counting outside the corpus; scope_exclusions is not applied")
 
     since = [r for r in resp if tabled(r) >= STORY]
     day = [r for r in resp if tabled(r) == BATCH]

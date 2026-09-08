@@ -199,6 +199,13 @@ jobs:
       # scraper/data/statsnet_freshness.json records the last date the live
       # page actually gave us each year; the commit step below picks it up
       # with the rest of data/.
+      # The media pack's figures must come from the same corpus as the site.
+      # They did not, once, and nothing failed: the raw response file holds 35
+      # responses to bodies other than parliamentary committees, and counting
+      # them put a wrong number in a document written to be checked.
+      - name: Media-figure tests (gate)
+        run: python tests/test_brief_figures.py
+
       - name: Quiet-register tests (gate)
         run: python tests/test_statsnet_alert.py
 
