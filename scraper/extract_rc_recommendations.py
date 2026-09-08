@@ -41,11 +41,18 @@ Where a recommendation stops:
 
   * at the next recommendation's heading, which is where 55 of Robodebt's 56
     and 221 of the Disability Royal Commission's 222 stop;
-  * or, for the last one in a document, at the first thing the report names
-    after its list — Glossary, Appendix, Contents, a chapter or a volume;
-  * and if neither of those is found before MAX_CHARS, the row is written with
-    no text and a note saying its boundary could not be found. It is not
-    guessed at and it is not dropped.
+  * or at the report's next section heading, which the typography sidecar
+    finds: a heading set in the same face as the recommendation headings and at
+    a larger size. That is what ends the last recommendation in a list, and
+    nothing in the words themselves says so — Robodebt's 23.8 is followed by
+    "Closing observations", which is a heading in print and an ordinary line of
+    text once the type is thrown away;
+  * or at the first thing the report names after its list — Glossary, Appendix,
+    Contents, a chapter or a volume — which is the fallback where there is no
+    sidecar;
+  * and if none of those is found before MAX_CHARS, the row is written with no
+    text and a note saying its boundary could not be found. It is not guessed
+    at and it is not dropped.
 
 Where a number appears more than once — a contents page, the list at the front,
 the chapter that argues for it — the shortest usable text is kept, as the
@@ -64,6 +71,7 @@ Writes data/rc_recommendations.csv        one row per recommendation
 """
 from __future__ import annotations
 
+import bisect
 import csv
 import pathlib
 import re
@@ -141,7 +149,8 @@ def label_key(label: str) -> list[int]:
     return [int(p) for p in label.split(".")]
 
 
-def recommendations_in(body: str, name: str = "") -> dict[str, dict]:
+def recommendations_in(body: str, name: str = "", stops: list[int] | None = None,
+                       headings: dict[str, str] | None = None) -> dict[str, dict]:
     """label -> {"recommendation", "note"}; the shortest usable text for each.
 
     Every occurrence of a number is tried. A recommendation ends at the next
@@ -152,11 +161,27 @@ def recommendations_in(body: str, name: str = "") -> dict[str, dict]:
     next heading appears.
     """
     head = running_head(name) if name.strip() else None
-    marks = [(m.group(1), m.start(), m.end()) for m in HEAD.finditer(body)]
+    stops = stops or []
+    headings = headings or {}
+    marks = [(m.group(1), m.start(), m.end(), m.group(2)) for m in HEAD.finditer(body)]
     usable: dict[str, list[str]] = {}
     seen: dict[str, str] = {}
-    for i, (label, start, end) in enumerate(marks):
+    for i, (label, start, end, first_line) in enumerate(marks):
         stop = marks[i + 1][1] if i + 1 < len(marks) else len(body)
+        # The report's next section heading, where it comes before the next
+        # recommendation. bisect rather than a search per recommendation: the
+        # offsets are found once for the document.
+        #
+        # Not inside the recommendation's own heading, though. A heading that
+        # wraps can have a second line the report also uses as a section
+        # heading elsewhere — "with disability" is one — and stopping there
+        # would cut a recommendation off in the middle of its own title. The
+        # heading's words are known, and a newline stands where a space does,
+        # so its end is that many characters past the label.
+        after_heading = end - len(first_line) + len(headings.get(label, first_line))
+        section = bisect.bisect_right(stops, max(start, after_heading))
+        if section < len(stops):
+            stop = min(stop, stops[section])
         raw = body[start:stop]
         # Take the label off the front; everything after it is the report's.
         raw = re.sub(r"^[ \t]*Recommendation[ \t]+\d{1,3}\.\d{1,3}[ \t]*:?[ \t]*", "", raw)
@@ -192,6 +217,70 @@ def recommendations_in(body: str, name: str = "") -> dict[str, dict]:
 # A line of the typography sidecar: the font it is mostly set in, its size in
 # points, and its text.
 LINE = re.compile(r"^([^\t]*)\t(\d+)\t(.*)$")
+
+
+def _lines(path: pathlib.Path) -> list[tuple[str, int, str]]:
+    """The typography sidecar: font, size in points, and text, per line."""
+    if not path.exists():
+        return []
+    out = []
+    for line in path.read_text(encoding="utf-8", errors="replace").splitlines():
+        m = LINE.match(line)
+        if m:
+            out.append((m.group(1), int(m.group(2)), m.group(3)))
+    return out
+
+
+def section_headings_in(path: pathlib.Path) -> list[str]:
+    """The report's own section headings, which is where a recommendation stops.
+
+    A section heading is set in the same face as the recommendation headings and
+    in a larger size: Calibri-Bold 16 over Calibri-Bold 11 in Robodebt,
+    DINPro-Medium 16 over DINPro-Medium 13 in the Disability report. The face has
+    to match as well as the size, or the running footer qualifies — Robodebt sets
+    its footer in Calibri 12, larger than the 11pt heading — and every
+    recommendation that crosses a page would stop at the bottom of it.
+    """
+    rows = _lines(path)
+    styles = {(font, size) for font, size, text in rows if HEAD.match(text)}
+    if not styles:
+        return []
+    faces = {font for font, _ in styles}
+    biggest = max(size for _, size in styles)
+    out, run = set(), []
+    for font, size, text in rows + [("", 0, "")]:
+        if font in faces and size > biggest and text.strip() and not HEAD.match(text):
+            run.append(text.strip())
+            continue
+        if run:
+            # The whole heading, its wrap included. A section heading that wraps
+            # has a second line like "with disability" or "mainstream services",
+            # and those turn up as ordinary wrapped lines in the body of a
+            # recommendation; matching one on its own truncated twenty-five of
+            # them mid-sentence.
+            out.add("\n".join(run))
+        run = []
+    return sorted(out)
+
+
+def stops_in(body: str, headings: list[str]) -> list[int]:
+    """Where in the text each of those headings is a line of its own, in order.
+
+    A whole line, not a line that begins with one. Robodebt sets the single word
+    "Services" as a divider in Calibri-Bold 20, and matching it as a prefix
+    stopped a dozen recommendations at the first line of their own text —
+    "Services Australia design its policies and processes…".
+    """
+    offsets: list[int] = []
+    for heading in headings:
+        needle = "\n" + heading + "\n"
+        at = body.find(needle)
+        while at != -1:
+            offsets.append(at)
+            at = body.find(needle, at + 1)
+        if body.endswith("\n" + heading):
+            offsets.append(len(body) - len(heading) - 1)
+    return sorted(offsets)
 
 
 def headings_in(path: pathlib.Path) -> dict[str, str]:
@@ -282,10 +371,12 @@ def main(argv: list[str]) -> int:
         if not body.strip():
             unread.append(d)
             continue
-        found = recommendations_in(body, names.get(d["commission_id"], ""))
-        headings = {}
+        headings, sections = {}, []
         for path in sorted(TEXT.glob(f"{d['id']}_*.lines.tsv")):
             headings.update(headings_in(path))
+            sections += section_headings_in(path)
+        found = recommendations_in(body, names.get(d["commission_id"], ""),
+                                   stops_in(body, sorted(set(sections))), headings)
         stated, note = stated_total(body)
         unsplit = 0
         for label in sorted(found, key=label_key):
