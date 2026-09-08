@@ -1,15 +1,18 @@
 ---
 /**
- * The royal commissions register — draft.
+ * The royal commissions index — draft.
  *
- * A second register on the same site, sharing the recommendation index's shape
- * and the verdict vocabulary, and making no deadline claim. The committee
- * registers stand on the President's report and the Speaker's schedule, which
- * decide every row. There is no officer of the Parliament keeping a schedule of
- * royal commission recommendations a government has not answered, and no
- * statute requiring one to answer at all, so nothing here is overdue and no
- * clock runs against anybody. What is shown instead is elapsed time, which is
- * arithmetic on two tabling dates.
+ * An index, not a register, and the distinction is the site's own. A register
+ * counts reports awaiting an answer against a rule, and /methods/ admits one
+ * only where an obligation, a claimant and a date can all be established. A
+ * royal commission has none of the three: no statute requires a government to
+ * answer one, no officer of the Parliament keeps a schedule of the answers, and
+ * there is no date to be past. What is published here is the same shape as the
+ * committee recommendations index — what was recommended, and what the
+ * government said about it — over a second corpus, sharing that index's verdict
+ * vocabulary and its test of what counts as a stated position. Elapsed time is
+ * shown because it is arithmetic on two tabling dates; nothing is computed
+ * against it.
  *
  * Every figure comes from the dataset at build time. Nothing on this page is
  * typed in.
@@ -58,9 +61,10 @@ const SHOWN = 25;
   description="Draft: every recommendation the Robodebt and Disability royal commissions made, with the government's own words about each one, and no deadline claim of any kind."
 >
   <p class="draft wrap">
-    <strong>Draft.</strong> This page is not part of the published register. It is
-    here to be looked at and argued with; the figures on it are built from the
-    dataset like every other page, but nothing about it is settled.
+    <strong>Draft.</strong> This page is not published. It is here to be looked at and
+    argued with; the figures on it are built from the dataset like every other page, but
+    nothing about it is settled.
+    {" "}<a href="/methods/royal-commissions/">How it is built</a>.
   </p>
 
   <section class="wrap intro">
@@ -80,11 +84,14 @@ const SHOWN = 25;
   <section class="wrap">
     <h2 id="no-deadline">There is no deadline here</h2>
     <p class="measure">
-      The other registers on this site measure a wait against a rule: a Senate committee
-      report is owed a response in three months, a House report in six. No such rule exists
-      for a royal commission. A government answers one when it decides to, so nothing on this
-      page is overdue, nothing is late, and no clock runs against anybody. What the table
-      below shows instead is elapsed time — the days between the report being tabled and the
+      The registers on this site measure a wait against a rule: a Senate committee report is
+      owed a response in three months, a House report in six. No such rule exists for a royal
+      commission. A government answers one when it decides to, so nothing on this page is
+      overdue, nothing is late, and no clock runs against anybody. That is why this is an
+      index rather than a register: it sets out what was recommended and what the government
+      said about each recommendation, and claims nothing about time.
+      {" "}<a href="/methods/royal-commissions/">How it is built</a>. What the table below
+      shows is elapsed time — the days between the report being tabled and the
       response being tabled — because that is arithmetic rather than judgement.
     </p>
 
@@ -158,7 +165,7 @@ const SHOWN = 25;
   </section>
 
   <section class="wrap">
-    <h2 id="register">The register</h2>
+    <h2 id="index">The index</h2>
     <p class="measure">
       Every recommendation, in the commission's own words, with the government's own words
       about it. Both are quoted from tabled documents, and both are linked.
@@ -316,7 +323,7 @@ const SHOWN = 25;
       with the states and territories. Where the response gives them separate verdicts, only the
       Commonwealth's is counted here, decided by which government the response names on the
       line; the states' answer is recorded beside it because the document says it. Where the
-      Commonwealth is not named on any line, this register shows no Commonwealth position, even
+      Commonwealth is not named on any line, this index shows no Commonwealth position, even
       if every state accepted.
     </p>
 
@@ -431,7 +438,7 @@ const SHOWN = 25;
 <script>
   /* Filter and search over rows already in the page, and show the first
      twenty-five until a reader asks for more. No index is fetched: the whole
-     register is in the HTML, so this works from a saved copy and degrades to
+     index is in the HTML, so this works from a saved copy and degrades to
      every row with JavaScript off. */
   const table = document.getElementById("rc-register") as HTMLTableElement | null;
   const controls = document.querySelector<HTMLElement>("[data-rc-controls]");

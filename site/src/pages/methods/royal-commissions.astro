@@ -1,0 +1,339 @@
+---
+/**
+ * How the royal commissions index is built — draft.
+ *
+ * A child of /methods/. The parent page states what this site counts and why a
+ * register is admitted to it: a stated obligation, a claimant with standing to
+ * demand an answer, and a date. A royal commission has none of the three, and
+ * this page does not pretend otherwise. What is published here is not a
+ * register of things awaiting an answer; it is an index of recommendations and
+ * of what a government said about each one, which is the same shape as the
+ * committee recommendations index and stands on the same rules.
+ *
+ * So this page says only what differs. Everything shared — what a stated
+ * position is, how a verdict is sorted, what a floor is, editions, corrections
+ * — is on the parent and is not restated here, because two statements of one
+ * rule are two chances to disagree.
+ */
+import Base from "../../layouts/Base.astro";
+import { fmt, formatDate, formatDateShort } from "../../lib/data";
+import {
+  commissions, rcFigures, rcLabels, rcSources, rcGrammars,
+} from "../../lib/royalCommissions";
+
+const all = commissions();
+const f = rcFigures();
+const labels = rcLabels();
+const src = rcSources();
+const grammars = rcGrammars();
+const agree = all.filter((c) => c.stated && String(c.found) === c.stated);
+const disagree = all.filter((c) => c.stated && String(c.found) !== c.stated);
+const prose = grammars.filter((g) => g.grammar === "prose").length;
+const blocks = grammars.filter((g) => g.grammar === "blocks").length;
+---
+
+<Base
+  title="Methods: royal commissions"
+  description="Draft: how the royal commissions index is built — where the documents come from, whose words a row carries, what counts as a position, and what this index does not claim."
+>
+  <p class="draft wrap">
+    <strong>Draft.</strong> The index this page describes is not published. Both are
+    here to be read and argued with.
+  </p>
+
+  <section class="wrap intro">
+    <p class="eyebrow">Methods · royal commissions</p>
+    <h1>How the royal commissions index is built</h1>
+    <p class="lede measure">
+      {fmt(f.recommendations)} recommendations from {fmt(f.commissions)} Commonwealth royal
+      commissions, each in the commission's own words, each with what the Australian
+      Government said about it in its own words. This page says how, and what it does not
+      claim. It assumes {" "}<a href="/methods/">the methods page</a>, which states the rules
+      both indexes share.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="not-a-register">Why this is an index and not a register</h2>
+    <p>
+      The registers on this site measure one thing: a report was owed an answer by a date,
+      and the answer came or it did not. They are admitted because an obligation, a claimant
+      and a date can all be established from the record — the Senate requires a response in
+      three months, the House in six, and a presiding officer keeps the list.
+    </p>
+    <p>
+      A royal commission has none of those. No statute requires a government to answer one,
+      no officer of the Parliament keeps a schedule of the answers, and there is no date to
+      be past. So nothing here is overdue, nothing is late, and this index makes no claim of
+      that kind at all. What it does is narrower and can be checked: it sets out what each
+      commission recommended and what the government said about each recommendation. That is
+      the same thing the {" "}<a href="/recommendations/">committee recommendations index</a>
+      {" "}does, and it stands on the same test of what counts as a stated position.
+    </p>
+    <p>
+      Elapsed time is shown because it is arithmetic on two tabling dates and not a
+      judgement: {all.map((c, i) => (
+        <>{i ? "; " : ""}{c.name.replace("Royal Commission into ", "")} took
+        {" "}{fmt(c.daysToRespond ?? c.daysSinceReport)} days</>
+      ))}. Nothing is computed against those numbers.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="sources">Where the documents come from</h2>
+    <p>
+      Only from the copies tabled in Parliament, in the Tabled Documents register on
+      aph.gov.au. That is not a preference. Before any of this was built, every document was
+      fetched four times into empty directories: the tabled copies came back byte for byte
+      identical every time, with no redirects, nothing refused and nothing needing a browser
+      or a login. The copies on department websites did not. One host refuses automated
+      requests outright, and the other moved department, changed its address, and published a
+      file that differs from the one it tabled — a corrected sentence, with no corrigendum to
+      say so. A weekly rebuild cannot stand on sources that behave that way, so a stored
+      Tabled Documents id is the address of a document here, never a departmental URL.
+    </p>
+    <p class="note">
+      The test is written up in
+      {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket/blob/main/docs/royal-commissions/source-test-2026-09.md">the source test</a>,
+      with every command that produced every number in it.
+    </p>
+
+    <h3 id="which-documents">Which documents belong to which commission</h3>
+    <p>
+      This is kept by hand, in {" "}<code>royal_commissions.csv</code> and
+      {" "}<code>rc_seed.csv</code>: {fmt(src.documents)} documents across
+      {" "}{fmt(src.commissionsHeld)} commissions, each named with the part it plays — report,
+      corrigendum, response, ministerial statement. It is kept by hand because the register
+      has no field that says it, and all three rules that look as though they would work do
+      not. Twelve of the thirteen records that make up the Disability Royal Commission's
+      final report are titled by their volume, so no title rule reaches them. Three of the
+      five government responses on file are typed "Other" rather than "Government response",
+      so no type filter reaches them. The author field names the commission for fourteen of
+      the twenty records typed "Royal commission", is empty for five — including both
+      Robodebt records — and names a department for the twentieth.
+    </p>
+    <p>
+      What keeps a hand-kept list honest is that nothing is allowed to arrive silently. Every
+      record in the register that is typed "Royal commission", or whose title names one of
+      the commissions, and that the list does not hold, is written out as a candidate for a
+      person to accept or reject. A rejected record is recorded with the reason —
+      {" "}{fmt(src.rejected)} so far, mostly returns to Senate orders about a commission
+      rather than documents of one — so the candidate list empties, and the next thing to
+      arrive is visible in it.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="row">What a row is, and whose words it carries</h2>
+    <p>
+      One recommendation. Its words are the commission's own, taken from the report, which is
+      the opposite of what the committee index does — there the recommendation is read out of
+      the government's response, because the committee's report is usually unreachable.
+      Here the report is tabled, so the commission speaks for itself and what the government
+      said is a separate question on the same row.
+    </p>
+    <p>
+      A recommendation's own heading is told from the recommendation by the type the report
+      sets each in, because in print that is the only thing that separates them: Robodebt
+      sets a heading in Calibri-Bold above a Calibri body of the same size, and the
+      Disability report sets one in DINPro-Medium 13pt above an Arial 11pt body. The
+      extraction keeps the font and size of every line beside the text, and a heading is the
+      run of lines set the way the label line is set. No font is named in the rule — a
+      heading is whatever the label is set in, and the recommendation begins where that
+      changes.
+    </p>
+    <p>
+      A recommendation stops at the next recommendation, or at the report's next section
+      heading, which is found the same way: a heading in the same face at a larger size. That
+      is what ends the last recommendation in a list, where the words alone say nothing —
+      Robodebt's 23.8 is followed by "Closing observations", which is a heading in print and
+      an ordinary line of text once the type is thrown away. Where a recommendation cannot be
+      bounded, the row carries no text and says so rather than guessing; there are
+      {" "}{f.textUnreadable === 0 ? "none of those at present" : `${fmt(f.textUnreadable)} of those`}.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="counts">The counts, against the reports' own</h2>
+    <p>
+      A report usually states how many recommendations it makes, and that sentence is checked
+      against what was extracted rather than trusted or ignored.
+      {agree.map((c) => (
+        <>{" "}The {c.name} says it makes {c.stated}, and {c.stated} is what is there.</>
+      ))}
+      {disagree.map((c) => (
+        <>{" "}The {c.name} says it makes {c.stated} and prints {fmt(c.found)} under their own
+        numbers. Neither figure is adopted here: the shortfall is not a recommendation this
+        index is hiding, and the report's own sentence is not evidence that a
+        {" "}{Number(c.stated) - c.found === 1 ? "further recommendation" : "further recommendations"}
+        {" "}exists. Both numbers are shown wherever the count appears.</>
+      ))}
+    </p>
+    <p class="note">
+      The check is what makes it safe to read one document of a report rather than all of
+      them. The Disability Royal Commission's final report is thirteen documents and sets all
+      of its recommendations out in one of them; a recommendation that lived only in a volume
+      would show up as a shortfall against the report's own total, which is what a shortfall
+      is for.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="positions">What the government said</h2>
+    <p>
+      The test for a stated position is the one on
+      {" "}<a href="/methods/#coverage">the methods page</a> and it is not extended for these
+      documents. A government's own verdict word is sorted three ways — accepted, in part or
+      in principle, not accepted — and anything else states no position and is shown as the
+      government wrote it.
+    </p>
+    <p>
+      The two responses read so far answer in two different grammars, and which one a document
+      uses is read from the document rather than configured.
+      {prose > 0 && (
+        <>{" "}{prose === 1 ? "One answers" : `${fmt(prose)} answer`} in prose, the way a
+        response to a committee does — "The Government accepts this recommendation" — and the
+        register's existing test reads it unchanged.</>
+      )}
+      {blocks > 0 && (
+        <>{" "}{blocks === 1 ? "The other answers" : `${fmt(blocks)} answer`} with a label on a
+        line of its own, under a line naming which governments are answering, and the existing
+        test finds nothing in it at all, because there is no sentence to find. A response
+        carrying those lines is read as blocks: one block can answer a range of
+        recommendations at once, and a recommendation can be answered a lettered part at a
+        time.</>
+      )}
+    </p>
+    <p>
+      Where the parts of one recommendation are answered differently, the row is one
+      recommendation and sorts as in part or in principle, with every exact label kept beside
+      it. Where the parts do not all state a verdict, the row says so, because the sorted
+      words are this site's and the labels are the government's.
+    </p>
+
+    <h3 id="labels">Every label, and what it was sorted into</h3>
+    <table class="register narrow">
+      <caption class="sr-only">Each label a government used, and how this index sorts it</caption>
+      <thead>
+        <tr>
+          <th scope="col">What the government wrote</th>
+          <th scope="col">Sorted as</th>
+          <th scope="col" class="num">Recommendations</th>
+        </tr>
+      </thead>
+      <tbody>
+        {labels.map((l) => (
+          <tr>
+            <td>{l.label}</td>
+            <td data-label="Sorted as">{l.verdict || "no position stated"}</td>
+            <td class="num" data-label="Recommendations">{fmt(l.n)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p class="note">
+      "Note" and "Subject to further consideration" use no verdict word, so they state no
+      position. They are counted as neither an acceptance nor a refusal, and the vocabulary is
+      not extended to hold them: a fourth verdict here would stop the two indexes' figures
+      meaning the same thing.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="governments">Where a recommendation is for more than one government</h2>
+    <p>
+      {fmt(f.withTheStates)} of these recommendations are answered by the Commonwealth
+      together with the states and territories. Where the response gives them separate
+      verdicts, which line is the Commonwealth's is decided by the government the response
+      names on it and by nothing else: "Response", "Joint response", "Australian Government
+      Response" and "Commonwealth" speak for it, and a list of states that does not name it
+      does not. The states' verdicts are recorded beside it, because the document says them,
+      and they are not counted here: this is a Commonwealth index. Where the Commonwealth is
+      not named on any line, no Commonwealth position is shown, even where every state
+      accepted.
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="vocabulary">Where this vocabulary differs from the committee index</h2>
+    <p>
+      Two words mean different things on the two indexes, and reading across them without
+      knowing that would mislead.
+    </p>
+    <dl class="defs">
+      <div>
+        <dt>Not addressed</dt>
+        <dd>
+          Here: the government's response does not mention the recommendation at all —
+          {" "}{fmt(f.notAddressed)} of them. On the committee index, "not addressed
+          individually" means the response answers the report without setting its
+          recommendations out one by one, and the recommendation was read from the committee's
+          report instead. Neither is a refusal, and they are not the same fact.
+        </dd>
+      </div>
+      <div>
+        <dt>Noted</dt>
+        <dd>
+          Here: the response answers the recommendation and states no position —
+          {" "}{fmt(f.noted)} of them, most of them "Subject to further consideration". On the
+          committee index the word covers the same idea but the wording that produces it is a
+          government's prose rather than a label.
+        </dd>
+      </div>
+      <div>
+        <dt>Form letter</dt>
+        <dd>
+          Not used here. The passage-of-time template is a thing governments do to committee
+          reports; neither response in this index contains it, and the segment does not appear
+          on the page.
+        </dd>
+      </div>
+    </dl>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="limits">What this index does not do</h2>
+    <p>
+      It does not say whether anything was implemented. It records the position a government
+      stated on a recommendation, which is a different question from what was then done, and
+      the site has no source for the second that meets the standard it holds the first to.
+      Where a response commits to a date, the sentence is recorded as written and linked;
+      nothing is computed against it and no clock runs from it.
+    </p>
+    <p>
+      It covers {fmt(f.commissions)} of the {fmt(src.commissionsHeld)} commissions the
+      document table holds. The Royal Commission into Defence and Veteran Suicide and the
+      Royal Commission on Antisemitism and Social Cohesion are in the table and have not been
+      read. State and territory royal commissions are not in scope, and neither are the state
+      and territory responses to a Commonwealth commission.
+    </p>
+    <p>
+      Nothing here is rebuilt weekly yet. The registers are; this is not, and until it is, a
+      figure on these pages is as current as the day it was built and no more.
+    </p>
+    <p class="note">
+      Corrections, licensing and how this site was made are on
+      {" "}<a href="/methods/#corrections">the methods page</a> and apply here unchanged.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .draft {
+    margin: 1rem auto 0; padding: 0.7rem 1rem;
+    border-left: 3px solid var(--ink);
+    background: var(--rule); font-family: var(--sans); font-size: 0.9375rem;
+  }
+  .intro { padding-bottom: 1rem; }
+  h2 { margin-top: 2.75rem; }
+  h3 { font-size: 1rem; margin: 2rem 0 0.5rem; }
+  .note { font-size: 0.875rem; color: var(--ink-secondary); }
+  .defs { margin: 1rem 0 1.25rem; padding: 0; border-top: 1px solid var(--rule); }
+  .defs div { display: grid; grid-template-columns: 9rem 1fr; gap: 0 1rem; padding: 0.55rem 0; border-bottom: 1px solid var(--rule); }
+  .defs dt { font-family: var(--sans); font-weight: 600; font-size: 0.9375rem; padding-top: 0.1rem; }
+  .defs dd { margin: 0; font-size: 0.9375rem; }
+  @media (max-width: 34rem) { .defs div { grid-template-columns: 1fr; gap: 0.15rem; } }
+  table.register { margin-bottom: 1rem; }
+  table.register td { padding-right: 1rem; }
+  table.narrow { max-width: 100%; }
+</style>

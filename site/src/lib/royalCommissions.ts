@@ -1,11 +1,12 @@
 /**
  * Build-time access to the royal commissions dataset.
  *
- * A second register, on the same site, sharing this one's recommendation index
- * and its verdict vocabulary, and making no deadline claim of any kind. There
- * is no statute requiring a government to answer a royal commission, so
- * nothing here is ever overdue and no clock runs against anybody: what the
- * page shows is elapsed time, which is arithmetic on two tabling dates.
+ * A second corpus for the recommendation index, on the same site, sharing its
+ * verdict vocabulary and its test of what counts as a stated position. Not a
+ * register: /methods/ admits one only where an obligation, a claimant and a
+ * date all exist, and a royal commission has none of them. Nothing here is ever
+ * overdue and no clock runs against anybody; what the page shows is elapsed
+ * time, which is arithmetic on two tabling dates.
  *
  * Everything is read from scraper/data/ while the site builds, like the rest of
  * the dataset. The files come from harvest_royal_commissions.py,
@@ -192,4 +193,41 @@ export function rcLabels(): { label: string; verdict: string; n: number }[] {
     seen.set(key, got);
   }
   return [...seen.values()].sort((a, b) => b.n - a.n);
+}
+
+export interface RcSources {
+  /** Commissions the document table holds, whether or not they have been read. */
+  commissionsHeld: number;
+  /** Documents in the table, by the role each plays for its commission. */
+  documents: number;
+  reports: number;
+  responses: number;
+  /** Documents whose text has been read, which is what the index is built from. */
+  read: number;
+  /** Register records the table does not claim, which a person has looked at. */
+  rejected: number;
+}
+
+/** What the document table holds, so the page need not say it from memory. */
+export function rcSources(): RcSources {
+  const docs = read("rc_documents.csv");
+  const readable = new Set(rcRecommendations().map((r) => r.commissionId));
+  return {
+    commissionsHeld: new Set(docs.map((d) => d.commission_id)).size,
+    documents: docs.length,
+    reports: docs.filter((d) => d.role === "report").length,
+    responses: docs.filter((d) => d.role === "response").length,
+    read: docs.filter((d) => readable.has(d.commission_id)
+      && (d.role === "response" || d.carries_recommendations)).length,
+    rejected: read("rc_not_ours.csv").length,
+  };
+}
+
+/** How each response was read: as prose, or as labelled blocks. */
+export function rcGrammars(): { commissionId: string; grammar: string; responseId: string }[] {
+  return read("rc_position_counts.csv").map((r) => ({
+    commissionId: r.commission_id,
+    grammar: r.grammar,
+    responseId: r.response_id,
+  }));
 }
