@@ -53,6 +53,12 @@ export interface CommissionReport {
 export interface Commission {
   id: string;
   name: string;
+  /**
+   * What to call it in a space too small for its name — the first of the
+   * short names the dataset holds, with "Royal Commission" taken off where it
+   * is the tail of it. From the data, so a fourth commission names itself.
+   */
+  short: string;
   /** Its reports that carry recommendations, earliest tabling first. */
   reports: CommissionReport[];
   /** Every recommendation of every one of them. */
@@ -134,9 +140,11 @@ export function commissions(): Commission[] {
             daysSinceReport: days(reportTabled, today) ?? 0,
           };
         });
+      const short = (c.short_names ?? "").split("|")[0].trim();
       return {
         id: c.commission_id,
         name: c.name,
+        short: short.replace(/\s*Royal Commission$/, "") || c.name,
         reports,
         found: reports.reduce((n, r) => n + r.found, 0),
       };

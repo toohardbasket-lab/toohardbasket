@@ -168,7 +168,10 @@ const SHOWN = 25;
       The vocabulary is the one the rest of the site uses, and it is not extended for these
       documents. A government's own word is sorted three ways — accepted, in part or in
       principle, not accepted — and anything else states no position and is shown as the
-      government wrote it. Neither government refused a single recommendation.
+      government wrote it.
+      {f.notAccepted === 0
+        ? " No response in this index refuses a recommendation outright."
+        : ` ${fmt(f.notAccepted)} ${f.notAccepted === 1 ? "recommendation was" : "recommendations were"} refused outright.`}
     </p>
   </section>
 
@@ -186,7 +189,7 @@ const SHOWN = 25;
         <button type="button" class="chip" data-rc-filter="" aria-pressed="true">All</button>
         {all.map((c) => (
           <button type="button" class="chip" data-rc-filter={c.id} aria-pressed="false">
-            {c.id === "robodebt" ? "Robodebt" : "Disability"}
+            {c.short}
           </button>
         ))}
       </span>
