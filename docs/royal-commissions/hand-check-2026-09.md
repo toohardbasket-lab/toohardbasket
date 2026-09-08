@@ -227,3 +227,53 @@ Report and response page numbers are the pages' own.
 Fourteen rows of 135. Every rule that changed today is covered by at least one
 of them, and the two defects found were both in the class the automated check
 cannot see. Nothing here says anything about the other 121.
+
+## Robodebt's 57 against 56, read off both documents — 8 September 2026
+
+The index showed "56 · the report says 57" and said, on the methods page, that
+"the report's own sentence is not evidence that a further recommendation
+exists". That was an assertion nobody had checked. Here is the check.
+
+**The report's own list.** In the typography sidecar for OTD 2743, the List of
+Recommendations runs from the line "List of Recommendations" (Calibri-Bold 27)
+to "Overview of Robodebt" (Calibri-Bold 27). Inside it, 61 lines are set in
+Calibri-Bold 11 — the face and size every recommendation heading in that list
+is set in, with the recommendation underneath in Calibri 11. Four of the 61 are
+the wrapped second lines of headings ("to serve", "compliance activity",
+"including consultation with advocacy bodies", "reporting"), leaving 57
+headings. Fifty-six begin "Recommendation" and a number. One does not:
+
+> Closing observations
+> **Section 34 of the Cth FOI Act should be repealed**
+> The Commonwealth Cabinet Handbook should be amended so that the description
+> of a document as a Cabinet document is no longer itself justification for
+> maintaining the confidentiality of the document…
+
+The list's own opening sentence is "The following is a list of 57
+recommendations of this Commission." 56 numbered plus this one is 57.
+
+**Cross-check on the list itself.** The 56 numbered entries in the list are the
+same 56 the index publishes — in the list and not in the index: none; in the
+index and not in the list: none — and there are no gaps within any chapter.
+Chapters 14 and 22 make no recommendations at all.
+
+**The government's response.** OTD 4163 opens its answers: "The Royal
+Commission into the Robodebt Scheme made 56 recommendations and one closing
+observation." It answers the closing observation separately — "For these
+reasons, the Government does not consider that section 34 of the FOI Act should
+be repealed" — and then says it "accepts or accepts in principle all 56
+recommendations".
+
+**What was done.** Both documents count 56 recommendations and one further item
+that neither calls a recommendation. It is not published as a row: it has no
+number, this is an index of recommendations, and every check in the pipeline
+reaches a row by the number the report printed. `unnumbered_in_list()` now finds
+it by the same typographic rule the pipeline already uses to tell a heading from
+the text under it, bounded by the list because bold at body size is a lead-in, a
+column head and a chart label everywhere else in that report — 101 of those
+outside the list against the one inside it. The words go to
+`rc_recommendation_counts.csv` and both pages print them. The false sentence on
+the methods page is gone.
+
+Nothing published in the index changed. No row was added, removed or altered,
+and the 427 remain 427.

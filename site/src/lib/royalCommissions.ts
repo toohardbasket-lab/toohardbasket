@@ -44,6 +44,14 @@ export interface CommissionReport {
   /** What the report says it recommends, and what the extraction found. */
   stated: string;
   found: number;
+  /**
+   * What the report's own list of recommendations heads the way it heads a
+   * recommendation and then leaves unnumbered, and the words it heads it with.
+   * Robodebt's list holds one, which is the whole of why that report says 57
+   * and prints 56 numbers.
+   */
+  unnumbered: number;
+  unnumberedWords: string;
   /** Days from the report being tabled to the response being tabled. */
   daysToRespond: number | null;
   /** Days from the report being tabled to today. */
@@ -140,6 +148,8 @@ export function commissions(): Commission[] {
             responseUrl: response?.url ?? "",
             stated: count?.stated ?? "",
             found: Number(count?.found ?? 0),
+            unnumbered: Number(count?.unnumbered ?? 0),
+            unnumberedWords: count?.unnumbered_words ?? "",
             daysToRespond: days(reportTabled, responseTabled),
             daysSinceReport: days(reportTabled, today) ?? 0,
           };
