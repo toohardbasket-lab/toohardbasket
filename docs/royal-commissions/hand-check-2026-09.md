@@ -101,3 +101,114 @@ The pages were rendered with `pdftoppm -r 100 -gray -png` from the files cached
 under `scraper/raw/otd/`, which are the bytes the Tabled Documents register
 serves; the source test of 6 September established those are stable across
 fetches.
+
+---
+
+# Fourteen Defence and Veteran Suicide rows, read the same way
+
+8 September 2026, after adding the third commission.
+
+The rules that read this commission were changed the same day: a new numbering
+shape, a new test of where a heading stops, and a new rule about which sentence
+a verdict is read from. None of its 135 rows had been looked at. Fourteen were
+read off the tabled PDFs — three of the interim report's thirteen and eleven of
+the final report's hundred and twenty-two — chosen to cover every rule that had
+just changed plus the rows the automated checks had already argued about.
+
+## What it found
+
+Twelve of the fourteen are right in every particular: the label, the heading,
+the recommendation's own words, the government's words, and the position.
+
+Two are not, and neither could have been caught by `verify_rc_index.py`,
+because in both the published words are the document's words.
+
+### Recommendation 90 — a refusal published as no position
+
+The response to recommendation 90 reads, with the verdict in bold exactly where
+every other answer in the document puts it:
+
+> The Government **does not support** the removal of the service differential as
+> it relates to permanent impairment compensation.
+
+and three paragraphs later:
+
+> The Government agrees-in-principle to further expanding non-liability health
+> care for mental health conditions to all reserve personnel.
+
+Part (a) is refused and part (b) is agreed in principle. The index records the
+row as answered without a stated position.
+
+The cause is an asymmetry in `coverage.py`, which both indexes share. Its test
+for a verdict at the opening of an answer recognises "The Government agrees…"
+but not "The Government does not support…", because the negation is not part of
+the verdict vocabulary it looks for at that position; and its other test wants
+the verb's object to be the recommendation, where here the object is "the
+removal of the service differential". So a positive verdict about a part of a
+recommendation is read as a position and a negative one about a part is not.
+
+This matters more than one row. The index page states, from the figure, that no
+response in it refuses a recommendation outright. On this reading that sentence
+is true; on the document's own reading it is false.
+
+Allowing a negation in front of the verdict at the opening of an answer was
+measured against the committee register before being proposed: of its 3,172
+answers, **four** would move, all of them from "answered without a stated
+position" to "not accepted", and all four say plainly that the government does
+not agree —
+
+> The Government does not agree with the assertions contained in this
+> recommendation.
+
+So it is a correction on both indexes rather than a reinterpretation. It is not
+made here, because `coverage.py` is the live register's machinery and this
+branch is under an embargo on disturbing the published site. It is the decision
+this hand check exists to surface.
+
+### Recommendation 60 and ten others — the report's own furniture
+
+The Defence and Veteran Suicide final report prints, inside each recommendation
+box and at the end of it, where the recommendation is discussed:
+
+> (Chapter 13: Oversight of Defence workplace health and safety)
+
+and where the page broke after that, the running footer came with it —
+"Recommendations 129", the word and the page number. Eleven recommendations
+carried the locator and ten of those carried the footer as well. The other 111
+had been cut before it by the next section heading, so the same locator was
+published on some rows and not others. A recommendation now ends at the locator.
+Fixed, and the eleven rows are the report's words again.
+
+## The rows
+
+Report and response page numbers are the pages' own.
+
+### Interim report, tabled 11 August 2022; response 26 September 2022
+
+| Row | Report | Response | Checked |
+| --- | --- | --- | --- |
+| 1 Improve the capacity of future royal commissions | 226 | 6 | Exact. |
+| 4 The Department of Veterans' Affairs to provide advice on its funding needs | 275 | 9 | The response really does open "**Government** agrees to this recommendation", without the "The". Published as written, which is why the verifier's label test on a prose response looks for the label as it stands. |
+| 13 Co-design education on information access mechanisms | 319 | 14 | Exact. |
+
+### Final report, tabled 9 September 2024; response 2 December 2024
+
+| Row | Report | Response | Checked |
+| --- | --- | --- | --- |
+| 1 Improve the capacity of future royal commissions | 102 | 161 | Exact. |
+| 12 Consider emotional intelligence and performance against wellbeing targets | 109 | 36 | Its own text contains "(see / Recommendation 11) as part of the check", broken across lines. Read as a heading that ended the row before its answer; now it does not. |
+| 42 Ensure that future Inspectors-General will not have served in the ADF | 127 | 66 | "The Government **notes** this recommendation." Published as accepted until today, on the strength of a later sentence about a Twenty-Year Review. Now noted, which is what the page says. |
+| 60 Improve strategies for harm prevention by sharing quality data | 136 | 84 | The answer is two sentences and ends at the second. Until today it also carried the running head, a page number and the next volume's title. The recommendation carried the chapter locator and the footer. Both fixed. |
+| 61 Establish a brain injury program | 137 | 85 | Exact; "agrees-in-principle" sorted as in part or in principle. |
+| 68 Strike the right balance between confidentiality and disclosure | 143 | 92 | Its own text ends "as part of the process set out in / Recommendation 74." Read as a heading, that put the answer outside every window; now it does not. |
+| 72 Expand and strengthen healthcare services for veterans | 146 | 96 | "The Government notes this recommendation for further consideration by the Taskforce" — no position, correctly. This is also the row whose heading was taken from a sentence broken before its number, and is now the report's. |
+| 78 Consider moral injury in the Australian military population | 150 | 102 | Running head removed; the answer ends at its own last sentence. |
+| 90 Remove the service differential | 157 | 114 | **Wrong.** See above. |
+| 96 Ongoing funding for Provisional Access to Medical Treatment | 159 | 120 | "The Australian Government **agrees-in-principle**", and the label now says so; until today it said "agrees". |
+| 122 Establish a new statutory entity to oversee system reform | 175 | 147 | Exact, after the running head and "Annex A" were taken off the end of it. |
+
+## What this does not establish
+
+Fourteen rows of 135. Every rule that changed today is covered by at least one
+of them, and the two defects found were both in the class the automated check
+cannot see. Nothing here says anything about the other 121.

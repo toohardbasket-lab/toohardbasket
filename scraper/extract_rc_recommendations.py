@@ -150,6 +150,17 @@ END = re.compile(r"\n[ \t]*(Glossary|Glossaries|Appendix\b|Appendices|Annexure|I
                  r"Endnotes|Bibliography|Abbreviations|Acronyms|Contents\b|"
                  r"Chapter[ \t]+\d|Volume[ \t]+\d|Part[ \t]+\d|List of [A-Z])")
 
+# Where the report says the recommendation is discussed, printed inside the box
+# at the end of it: "(Chapter 13: Oversight of Defence workplace health and
+# safety)". It is the report pointing at itself, not part of what was
+# recommended, and where the page broke after it the running footer —
+# "Recommendations 129" — came along behind it. Eleven of the Defence and
+# Veteran Suicide final report's recommendations carried one and ten of those
+# carried the footer too; the other 111 had already been cut before it by the
+# next section heading, so the same locator was published on some rows and not
+# others.
+LOCATOR = re.compile(r"\(Chapter\s+\d+:[^)]*\)")
+
 # A paragraph the report numbers: "6.54. In the event of a domestic terrorist
 # attack". A recommendation is never one.
 NUMBERED_PARAGRAPH = re.compile(r"(?m)^[ \t]*\d{1,2}\.\d{1,3}\.[ \t]")
@@ -250,6 +261,9 @@ def recommendations_in(body: str, name: str = "", stops: list[int] | None = None
         cut = END.search(raw)
         if cut:
             raw = raw[:cut.start()]
+        where = LOCATOR.search(raw)
+        if where:
+            raw = raw[:where.start()]
         # The leaders are looked for before the text is tidied: tidying takes
         # the trailing dots off, and a contents entry then reads as a very
         # short recommendation rather than as a contents entry.
