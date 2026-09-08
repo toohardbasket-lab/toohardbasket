@@ -9,6 +9,7 @@ import { registerBySlug, plannedRegisters } from "../lib/registers";
 import { FORMS, formHref } from "../lib/forms";
 import { ABOUT } from "../lib/about";
 import { coverage } from "../lib/data";
+import { ROYAL_COMMISSIONS_DRAFT } from "../lib/draft";
 
 const cov = coverage();
 /* Form-letter closures tabled in a year, for the backlog paragraph. */
@@ -66,7 +67,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     <p class="note contents">
       On this page:
       {" "}<a href="#unit">what is counted</a> ·
-      {" "}<a href="#indexes">registers and indexes</a> ·
+      {!ROYAL_COMMISSIONS_DRAFT && <>{" "}<a href="#indexes">registers and indexes</a> ·</>}
       {" "}<a href="#sources">sources</a> ·
       {" "}<a href="#corpus">the response corpus</a> ·
       {" "}<a href="#closures">how responses are classified</a> ·
@@ -98,6 +99,11 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     </p>
   </section>
 
+  {/* Written, and not shown until the index it points at is published: a
+      methods page that describes a page the site is not standing behind yet
+      would be the site failing its own rule in the one place that states it.
+      lib/draft.ts is the flag. */}
+  {!ROYAL_COMMISSIONS_DRAFT && (
   <section class="wrap measure">
     <h2 id="indexes">Registers and indexes are not the same thing</h2>
     <p>
@@ -118,11 +124,11 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       second corpus.
       {" "}<a href="/methods/royal-commissions/">How that index is built</a> is set out
       separately, because it differs at almost every point that matters: where the documents
-      come from, whose words a row carries, and two words that mean something different there
-      from what they mean here.
-      <span class="tag">Draft</span>
+      come from, whose words a row carries, and three terms that do not mean there what they
+      mean here.
     </p>
   </section>
+  )}
 
   <section class="wrap measure">
     <h2 id="sources">Sources</h2>

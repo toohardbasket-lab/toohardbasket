@@ -339,6 +339,32 @@ sentence that ends nearest above the list, rebuilt across a line the page broke,
 and because the row now has words the verifier checks them like any other
 quotation. Fifty rows moved from unverifiable to verified.
 
+**11. Going live is one flag and one line, and a test refuses half of it.**
+Settled 8 September.
+
+The index reached four things outside its own two pages: the navigation bar,
+a section of the live methods page, the sitemap, and `continue-on-error: true`
+in the weekly job. Three of those were edits somebody had to remember on the
+day, and the branch was held back from `main` partly because merging it would
+have done the first two by accident. Three things to remember at merge is how a
+half-finished page reaches the public.
+
+`site/src/lib/draft.ts` now holds `ROYAL_COMMISSIONS_DRAFT`, and the nav item,
+the methods section and the sitemap entries all read it. While it is true the
+two pages are still built and still reachable at their own addresses — which is
+what makes them reviewable — and they carry `noindex`; `astro dev` shows the
+nav item anyway, so working on the index does not mean typing its URL. Merging
+the branch to `main` today publishes nothing.
+
+The fourth cannot read a TypeScript file, so `tests/test_going_live.py` checks
+it from the other side: a draft's block must carry `continue-on-error`, and a
+published index's must not. It runs as a gate in the weekly job, above the royal
+commissions block, because it is about what the site publishes rather than about
+the draft. Published-with-continue-on-error is now a state the build refuses.
+
+The embargo is unchanged and is a separate thing: it is about when the work is
+shown, not about whether a merge is safe.
+
 ## What transfers, and what does not
 
 Transfers: the recommendation index and its schema; the verdict vocabulary

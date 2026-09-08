@@ -1,12 +1,15 @@
 ---
 import { liveRegisters } from "../lib/registers";
+import { ROYAL_COMMISSIONS_DRAFT } from "../lib/draft";
 import { currentEdition, editionDiff, formatDate } from "../lib/data";
 
 export interface Props {
   title: string;
   description: string;
+  /** Keep this page out of search engines. See lib/draft.ts. */
+  noindex?: boolean;
 }
-const { title, description } = Astro.props;
+const { title, description, noindex } = Astro.props;
 const year = new Date().getFullYear();
 
 // Nav is generated from the register config, so adding the House or WA is a
@@ -27,11 +30,15 @@ const nav = [
   // an action instead, and did not say what there was to search — a reader
   // scanning the bar had no way to know the recommendations were there at all.
   { href: "/recommendations/", label: "Recommendations" },
-  // Draft. The royal commissions register is reachable while it is being
-  // reviewed, and is deliberately absent from the sitemap: nothing about it is
-  // settled, and a search engine should not be offered a page the site is not
-  // yet standing behind.
-  { href: "/royal-commissions/", label: "Royal commissions" },
+  // The royal commissions index, once it is published. While it is a draft it
+  // is not in this bar, not in the sitemap and not offered to a search engine —
+  // nothing about it is settled, and merging the branch it is on must not put
+  // it in front of anybody. It is still built and still reachable at its own
+  // address, which is what makes it reviewable, and `astro dev` shows it here
+  // so working on it does not mean typing the URL every time. lib/draft.ts is
+  // the one place that says which of those two states the site is in.
+  ...(!ROYAL_COMMISSIONS_DRAFT || import.meta.env.DEV
+      ? [{ href: "/royal-commissions/", label: "Royal commissions" }] : []),
   { href: "/methods/", label: "Methods" },
   { href: "/about/", label: "About" },
 ];
@@ -54,6 +61,7 @@ const moved = editionDiff();
     <title>{title} — The Too Hard Basket</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={new URL(Astro.url.pathname, SITE).href} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     {/* A link pasted into an editor's Slack or an email preview should say what
         it is. Without these it shows as a bare URL, which reads as a link
         someone is not sure about — and the way this register travels is one

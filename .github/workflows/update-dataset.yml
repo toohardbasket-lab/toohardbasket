@@ -149,6 +149,12 @@ jobs:
       # was true when someone last made one by hand.
       - name: Draw the link preview card
         run: python make_og_card.py
+      # Not a data step. It refuses a site that says the royal commissions
+      # index is published while the block below is still allowed to fail
+      # without stopping the run. It gates, because it is about what the site
+      # publishes rather than about the draft.
+      - name: Draft-and-published consistency (gate)
+        run: python tests/test_going_live.py
       # --- royal commissions -------------------------------------------
       # A second corpus — what each Commonwealth royal commission recommended
       # and what the government said about each recommendation — on the same
@@ -158,13 +164,15 @@ jobs:
       # index that cannot be built is a reason to tell somebody, not a reason
       # to leave the live registers a week stale.
       #
-      # THE SWITCH. When the index goes live, delete the
-      # `continue-on-error: true` line below. Every refusal in this block then
-      # stops the run the way the committee side's gates do, which is what the
-      # site's own rule requires of anything it publishes. Nothing else about
-      # this block needs to change; the alarm below is worth keeping either
-      # way, because the candidate list is not a failure and still needs a
-      # person.
+      # THE SWITCH. Going live is two edits and nothing else: set
+      # ROYAL_COMMISSIONS_DRAFT to false in site/src/lib/draft.ts, which puts
+      # the index in the navigation, in the sitemap and on the live methods
+      # page; and delete the `continue-on-error: true` line below, so every
+      # refusal in this block stops the run the way the committee side's gates
+      # do. tests/test_going_live.py, which runs above and gates, refuses a
+      # build where one of those two has been done and the other has not. The
+      # alarm below is worth keeping either way, because the candidate list is
+      # not a failure and still needs a person.
       #
       # The steps in order: the four test files as a gate, then which tabled
       # documents belong to which commission, the text of the ones that carry
