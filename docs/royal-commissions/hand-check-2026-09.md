@@ -329,3 +329,66 @@ of left for a reader to find.
 
 Fourteen rows of 278. The defect found was in the class no automated check
 could see, which is now three hand checks in a row.
+
+## Reading out the Robodebt and Disability rows — 8 September 2026, second pass
+
+Asked to read the remaining 264 of the 278 Robodebt and Disability rows off the
+tabled PDFs. What was done, exactly:
+
+**Read off the page, row by row.** All 56 Robodebt recommendations, against the
+report's own List of Recommendations, pages xiii to xxi — every page of it. Six
+pages of the Robodebt response, covering the answers to 10.1, 11.1, 11.2, 13.2,
+13.3, 13.4, 15.1, 17.2 and 23.8. Fifteen pages of the Disability report,
+covering about forty-five recommendations from every one of its nine chapters
+and chosen to include the page breaks: of the 116 pages that carry
+recommendations, 70 continue one from the page before, which is where a footer
+lands, and the pages read include those. One page of the Disability response,
+page 50, where a single answer covers recommendations 4.1 to 4.21.
+
+**Checked by command, over all 427 rows.** Every defect the eye found was then
+looked for everywhere: a fragment dropped after the last full stop (43 of them,
+each one read); a line the document prints on many pages appearing inside a row;
+the commission's name or the report's title inside a row (12, all of them the
+report's own words — "this Final report", "the Royal Commission into
+Institutional Responses to Child Sexual Abuse"); a footnote's marker or a
+footnote's text inside a quotation; a row beginning in lower case, ending on a
+comma, carrying no heading, or naming another recommendation. Each sweep is a
+command, and each is repeatable.
+
+### What was wrong
+
+| Row | What | Fixed |
+| --- | --- | --- |
+| Robodebt 19.2 | Published without its second bullet, "appropriate statutory and case authority references in advice writing", which the report prints with no full stop after it. Taken for the next heading. | A trailing fragment that is bulleted, or begins in lower case and runs to three words or more, is the recommendation. |
+| Disability 7.12 | Published without "and submit the template to the relevant state or territory education department". The last full stop in it is the one in "the funding template mentioned at d." | Same rule. |
+| Robodebt 12.3, 13.1, 20.3 | The answers carried the references printed at the foot of the page: 13.1 ended "…(ag.gov.au). 19 The Independent Review of the NLAP (nlapreview.com.au). 20 Issues Paper | NLAP review (nlapreview.com.au)." | The sidecar now keeps how far down the page each line sits, and a line that opens with a footnote's marker low on the page is taken out. Four rules were tried; three of them took words out of an answer and were abandoned. |
+
+### What was checked and left alone
+
+*The terminal full stop.* Every quotation on this site ends without it, here
+and on the live recommendations index, and that is now said on the methods page.
+
+*A footnote's marker printed in the sentence.* Three answers read "…have been
+achieved.19 The Issues Paper…", "…in a government context.23 Services
+Australia…", "…operational requirements. 6 The Australian Government Crisis
+Management Framework…". The marker is a superscript in the PDF and an ordinary
+digit once the type is thrown away, and every rule here works on whole lines.
+Nothing is missing from those three; the marker is still in them, and the
+methods page says so.
+
+*Robodebt 23.4* ends at "…about the Commonwealth administrative law system",
+where the report goes on "(see Automated Decision-Making and the Administrative
+Appeals Tribunal chapters)". That is the report pointing at itself, which this
+index already takes off the Defence rows by the locator rule, so the outcome is
+the settled one even though a different rule reached it.
+
+*"AAT1"* in Robodebt 20.1 and 20.2 is the commission's own term for first-tier
+review, not a footnote marker attached to "AAT". Left as printed.
+
+### What this does not establish
+
+About 150 of the 278 rows were read off the page; the rest were checked by the
+sweeps above. Every defect found by eye in three hand checks has been in one of
+three classes — a boundary, the page's furniture, or a claim about what a
+document does not say — and each class now has a command that looks for it in
+all 427 rows. That is not the same as having read all 427.
