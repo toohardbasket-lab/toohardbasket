@@ -457,6 +457,10 @@ def numbering_in(body: str) -> str:
     return BY_CHAPTER if len(by_chapter) >= len(straight) else STRAIGHT_THROUGH
 
 
+# Something was printed under the heading and it is a sentence, not a contents
+# entry: at least one sentence ending, and a few words in front of it.
+NAMED_ONLY = re.compile(r"\w[^.!?]{20,}[.!?]")
+
 # The answer's opening sentence, where it is about the recommendation.
 OPENING = re.compile(r"^.*?[.!?](?=\s|$)")
 ABOUT_IT = re.compile(r"\brecommendations?\b", re.I)
@@ -532,6 +536,32 @@ def from_prose(body: str, title: str = "") -> dict[str, dict]:
         segment = body[end:stop]
         hand = ex.HANDOVER.search(segment)
         if not hand:
+            # A response can name a recommendation and still answer nothing.
+            # The Royal Commission on Antisemitism and Social Cohesion put five
+            # of its fourteen recommendations in a confidential report, and
+            # both the public report and the response print, under the number
+            # and nothing else, "This recommendation is contained in the
+            # confidential Interim Report." The recommendation is not public,
+            # so no position on it can be.
+            #
+            # That is a response addressing a recommendation and stating no
+            # position, which is what noted means here. It is not "not
+            # addressed", which on this index means the response does not
+            # mention the recommendation at all — and saying that of a
+            # recommendation the response names by number would be false.
+            #
+            # No words are published for it. Under every other heading in a
+            # prose response the recommendation is reprinted first and the
+            # government's answer follows, so what sits under these headings
+            # could be either, and this index does not put words in a
+            # government's mouth on a guess.
+            if NAMED_ONLY.search(segment) and not ex.LEADERS.search(segment):
+                found.setdefault(label, {
+                    "state": "noted", "verdict": "", "government_label": "",
+                    "other_governments": "", "government_words": "",
+                    "government_words_more": "",
+                    "note": "the response names this recommendation and states no position on it",
+                })
             continue
         raw = segment[hand.start():]
         raw = raw[:prose_end(raw)]

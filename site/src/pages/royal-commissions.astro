@@ -56,6 +56,10 @@ const pct = (v: number) => `${Math.round(v * 100)}%`;
 function saidOf(r: (typeof rows)[number]): string {
   if (r.state === "not addressed") return "The response does not address it";
   if (r.governmentLabel) return r.governmentLabel;
+  // A response can name a recommendation and answer nothing about it, and then
+  // the row's own note is what happened. "No words could be read" would say the
+  // reading failed, when nothing failed and there was nothing to read.
+  if (!r.governmentWords && r.positionNote) return r.positionNote;
   return "No words could be read";
 }
 const SHOWN = 25;
@@ -244,7 +248,8 @@ const SHOWN = 25;
               data-search={`${r.label} ${r.commission} ${r.heading} ${r.text} ${saidOf(r)} ${r.governmentWords}`.toLowerCase()}>
             <td class="c-rec">
               <p class="rec-head">
-                <span class="rec-no">{r.commissionId === "robodebt" ? "Robodebt" : "Disability"} {r.label}</span>
+                <span class="rec-no">{r.commissionShort} {r.label}</span>
+                {r.reportLabel && <span class="which"> · {r.reportLabel}</span>}
                 {r.reportUrl && <> · <a href={r.reportUrl} rel="external">the report</a></>}
               </p>
               {r.heading && <p class="rec-title">{r.heading}</p>}
@@ -309,6 +314,24 @@ const SHOWN = 25;
       </>
     )}
 
+    <h3>A recommendation that is not public</h3>
+    <p>
+      The Royal Commission on Antisemitism and Social Cohesion put five of the fourteen
+      recommendations in its interim report into a confidential report. Where the recommendation
+      would be, the public report prints its number and one sentence saying so, and the
+      government's response prints the same. Those five are here, with their numbers and that
+      sentence, because a gap in the numbering with no explanation would tell a reader less than
+      the truth does.
+    </p>
+    <p>
+      Their rows say the response names the recommendation and states no position on it. That is
+      not the same as the response not addressing it, which on this index means the response does
+      not mention the recommendation at all — and of these five it plainly does. No words are
+      shown as the government's: under every other heading in that response the recommendation is
+      reprinted before the answer, so the one sentence under these could be either, and this index
+      does not decide that by guessing.
+    </p>
+
     <h3>The government's own words, and how they were sorted</h3>
     <table class="register narrow">
       <caption class="sr-only">Each label a government used, and how the site sorts it</caption>
@@ -346,11 +369,10 @@ const SHOWN = 25;
 
     <h3>What is not here</h3>
     <p>
-      {fmt(f.commissions)} commissions, all Commonwealth. The Royal Commission on Antisemitism
-      and Social Cohesion is in the document table and has not been read: five of the fourteen
-      recommendations in its interim report are in a confidential report, so neither their words
-      nor a position on them is public, and this index has no way yet to say that about a row
-      without saying something untrue. State royal commissions are not in scope.
+      {fmt(f.commissions)} commissions, all Commonwealth. State royal commissions are not in
+      scope. Where a commission has reported more than once and been answered more than once,
+      each report and its own response is a pair of its own, because the numbering starts again
+      at one in each of them.
     </p>
     <p>
       This index is rebuilt with the rest of the dataset every Tuesday, and every step of it

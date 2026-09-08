@@ -398,11 +398,22 @@ def check_position(row: dict) -> str:
     # joined string never appears anywhere and checking for it proves nothing.
     labels = [x.strip() for x in (row.get("government_label") or "").split(";") if x.strip()]
     words = probe_of(row.get("government_words") or "")
-    if not words:
-        return "no words to check"
-
     blocks = BLOCK_RESPONSE.search(body) is not None
     here = windows(body, row["label"])
+    if not words:
+        # A row can state no position and quote nothing. Where a response names
+        # a recommendation and answers nothing about it — the five the
+        # Antisemitism commission put in a confidential report, where under
+        # every other heading the recommendation is reprinted before the
+        # government answers, so what sits under these could be either — there
+        # is nothing to quote and this index invents none. The claim such a row
+        # makes is that the response names the recommendation, so that is what
+        # is checked. A row claiming a stated position still has to have the
+        # government's words behind it.
+        if row["state"] == "noted":
+            return "verified" if here else "the response does not name this recommendation"
+        return "no words to check"
+
     for lo, hi in (here or [(0, len(body))]):
         segment = body[lo:hi]
         # A block response prints its verdict on a line after a colon and the

@@ -160,6 +160,18 @@ check("a recommendation answered inside a range is verified on its words alone",
 check("a recommendation the response does not address needs no words",
       V.check_position(pos("6.20", "not addressed", "", "")) == "verified")
 
+# A response can name a recommendation and answer nothing about it. Such a row
+# quotes nothing, so what it claims is that the response names it — and that is
+# what has to be true.
+check("a row that quotes nothing is checked on the response naming it",
+      V.check_position(pos("6.31", "noted", "", "")) == "verified")
+check("and refused when the response does not name it",
+      V.check_position(pos("9.99", "noted", "", ""))
+      == "the response does not name this recommendation")
+check("a row claiming a stated position still has to have words behind it",
+      V.check_position(pos("6.31", "position", "Accept in principle", ""))
+      == "no words to check")
+
 # --- what it does with them -------------------------------------------------
 FILL_ROWS = [rec(f"7.{i}", f"A filler heading {i}",
                  f"A filler heading {i} The Commission should do the {i}th thing, plainly "

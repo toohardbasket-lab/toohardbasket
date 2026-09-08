@@ -184,14 +184,44 @@ and one where the document's own slip, "The Australian agrees", is now
 published as written. Its label check on a prose response is now the same test
 it applies to a block one — the label has to end where the row says it ends.
 
-**The Royal Commission on Antisemitism and Social Cohesion is not read.** Five
-of the fourteen recommendations in its interim report are in a confidential
-report; the public report and the response both say only "This recommendation
-is contained in the confidential Interim Report". The index has no way to carry
-that: "not addressed" would be false, because the response does name them, and
-there is nothing to quote. The documents are in the table with the reason
-written beside them, and the next piece of design is what a row says when the
-recommendation itself is not public.
+**8. A recommendation that is not public is a row, and says so.** Settled 8
+September, adding the Royal Commission on Antisemitism and Social Cohesion.
+Five of the fourteen recommendations in its interim report are in a
+confidential report. Where the recommendation would be, the public report
+prints its number and one sentence saying so, and the response prints the same.
+
+They are rows. A gap in the numbering with no explanation tells a reader less
+than the truth does, and that five of fourteen recommendations of a royal
+commission into antisemitism are not public is a fact of the record, not an
+inconvenience to hide. Their rows carry the number and the sentence the report
+printed, and say the response names the recommendation and states no position
+on it — which is what "noted" means here, and is not "not addressed", which on
+this index means the response does not mention it at all. Of these five it
+plainly does, and saying otherwise would be false.
+
+No words are published as the government's. Under every other heading in that
+response the recommendation is reprinted before the answer, so the single
+sentence under these could be either the commission's or the government's, and
+the index does not decide that by guessing. `verify_rc_index.py` checks such a
+row on the claim it actually makes — that the response names the recommendation
+— and still refuses a row that claims a stated position with nothing behind it.
+
+Reading that report also found the last of the furniture problems, and the
+biggest. A footnote is not part of a recommendation and neither is a page's
+running footer, but flattened to characters they are indistinguishable from it:
+where a page breaks inside a recommendation, the whole apparatus at the foot of
+that page lands in the middle of the sentence. The report says which is which
+in the only way print can, and the same way this pipeline already tells a
+heading from the text under it — by the type. The body is whatever size most of
+the document is set in; anything smaller is apparatus. That fixed four of the
+Antisemitism report's recommendations, one cut mid-clause, and **thirty of the
+Disability report's**, which had been carrying "Executive Summary, Our vision
+for an inclusive Australia and Recommendations 193" and the like in the middle
+of the commission's words since the index was built. A line is taken out by its
+words rather than by where it is, so a line that is apparatus in one place and
+the report's own text in another is left alone: "mental health" is a footnote
+somewhere in the Defence final report and the wrapped tail of its
+recommendation 117.
 
 **7. It is rebuilt weekly, and it alarms rather than gates while it is a
 draft.** Settled 8 September. The five steps — harvest, read, recommendations,

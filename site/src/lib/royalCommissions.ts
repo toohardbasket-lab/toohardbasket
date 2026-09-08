@@ -68,6 +68,10 @@ export interface Commission {
 export interface RcRecommendation {
   commissionId: string;
   commission: string;
+  /** What to call the commission where its full name will not fit. */
+  commissionShort: string;
+  /** Which of the commission's reports this came from, where it has more than one. */
+  reportLabel: string;
   label: string;
   /**
    * The recommendation's own heading, as the report sets it — told from the
@@ -153,7 +157,13 @@ export function commissions(): Commission[] {
 
 /** One row per recommendation: what was recommended, and what was said back. */
 export function rcRecommendations(): RcRecommendation[] {
+  const all = commissions();
   const names = new Map(read("royal_commissions.csv").map((c) => [c.commission_id, c.name]));
+  const shorts = new Map(all.map((c) => [c.id, c.short]));
+  // Only where a commission has more than one report does it matter which one a
+  // row came from; naming it on every row would be noise on the other three.
+  const reports = new Map(all.flatMap((c) => c.reports.length > 1
+    ? c.reports.map((r) => [`${c.id}|${r.id}`, r.label.toLowerCase()] as const) : []));
   // Keyed by the report as well as the number. A commission answered twice
   // numbers each set from one, so recommendation 1 of an interim report and
   // recommendation 1 of a final report are different rows.
@@ -165,6 +175,8 @@ export function rcRecommendations(): RcRecommendation[] {
     return {
       commissionId: r.commission_id,
       commission: names.get(r.commission_id) ?? r.commission_id,
+      commissionShort: shorts.get(r.commission_id) ?? r.commission_id,
+      reportLabel: reports.get(`${r.commission_id}|${r.source_id}`) ?? "",
       label: r.label,
       heading: r.heading ?? "",
       text: r.recommendation,
