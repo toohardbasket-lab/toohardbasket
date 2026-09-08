@@ -296,7 +296,15 @@ const SHOWN = 25;
           {" "}{c.stated && String(c.found) === c.stated
             ? <>says it makes {c.stated} and {c.stated} is what is there.</>
             : <>says it makes {c.stated || "no stated number"}, and {fmt(c.found)} are printed
-              under their own numbers; neither figure is adopted here.</>}
+              under their own numbers; neither figure is adopted here.
+              {c.unnumbered > 0 && c.found + c.unnumbered === Number(c.stated) && (
+                <>{" "}The difference is in the report's own list, which heads
+                {" "}{c.unnumbered === 1 ? "one more item" : `${fmt(c.unnumbered)} more items`} the
+                way it heads a recommendation and gives
+                {" "}{c.unnumbered === 1 ? "it" : "them"} no number: “{c.unnumberedWords}”.
+                {" "}Every row here is keyed by the number the report prints, so that
+                {" "}{c.unnumbered === 1 ? "one has" : "those have"} none.</>
+              )}</>}
         </>
       ))}
     </p>

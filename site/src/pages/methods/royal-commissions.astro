@@ -189,10 +189,24 @@ const wordsMore = quoted.filter((r) => r.governmentWordsMore).length;
       ))}
       {disagree.map((c) => (
         <>{" "}The {named(c)} says it makes {c.stated} and prints {fmt(c.found)} under their own
-        numbers. Neither figure is adopted here: the shortfall is not a recommendation this
-        index is hiding, and the report's own sentence is not evidence that a
-        {" "}{Number(c.stated) - c.found === 1 ? "further recommendation" : "further recommendations"}
-        {" "}exists. Both numbers are shown wherever the count appears.</>
+        numbers. {c.unnumbered > 0 && c.found + c.unnumbered === Number(c.stated)
+          ? <>The difference is in the report's own list of recommendations. After the last
+            numbered one it heads
+            {" "}{c.unnumbered === 1 ? "one more item" : `${fmt(c.unnumbered)} more items`} the way
+            it heads every recommendation — the same face at the same size, with the
+            recommendation set underneath — and gives
+            {" "}{c.unnumbered === 1 ? "it" : "them"} no number: “{c.unnumberedWords}”.
+            {" "}That is read off the type in the tabled PDF by the same rule that tells a
+            heading from the text under it, and only inside the list, where the report bounds
+            it: bold at body size is a lead-in, a column head and a chart label everywhere else
+            in a report this long. It is still not a row. Every row in this index is keyed by
+            the number the report prints, and the check against the government's response looks
+            for that number in the response;
+            {" "}{c.unnumbered === 1 ? "this item has" : "these items have"} no number to look
+            for. Both figures are shown wherever the count appears, and so is what accounts for
+            the difference.</>
+          : <>Neither figure is adopted here: the shortfall is not a recommendation this index
+            is hiding, and nothing in the report has been read that accounts for it.</>}</>
       ))}
     </p>
     <p class="note">

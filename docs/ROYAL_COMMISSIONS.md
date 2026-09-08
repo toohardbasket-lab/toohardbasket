@@ -253,6 +253,55 @@ The first step built from all that is `scraper/harvest_royal_commissions.py`,
 which decides which tabled documents belong to which commission and extracts
 nothing.
 
+**9. Where a report's own total disagrees with its numbering, the report is
+read again rather than argued with.** Settled 8 September, on Robodebt's 57
+against 56.
+
+The report says "The following is a list of 57 recommendations of this
+Commission" and prints 56 numbers. Until now the index showed both figures,
+adopted neither, and said the shortfall was not a recommendation it was hiding
+and that the report's sentence was not evidence a further one existed. The
+first half of that was true. The second was not, and it had never been checked.
+
+It is checked now, by the same rule that tells a heading from the text under
+it. In the report's own List of Recommendations there are 57 headings set in
+Calibri-Bold 11 with the recommendation set underneath in Calibri 11. Fifty-six
+of them begin "Recommendation" and a number. The fifty-seventh is the last item
+in the list, under the section heading "Closing observations": "Section 34 of
+the Cth FOI Act should be repealed", with the Cabinet Handbook amendment
+underneath it. The report counts it. It gives it no number.
+
+The government read it the same way. Its response opens its answers with "The
+Royal Commission into the Robodebt Scheme made 56 recommendations and one
+closing observation", answers the closing observation on its own — "For these
+reasons, the Government does not consider that section 34 of the FOI Act should
+be repealed" — and then says it "accepts or accepts in principle all 56
+recommendations". Both documents count 56 numbered recommendations and one
+further item that is not one of them.
+
+It is not a row. Both the report and the response call it a closing observation
+rather than a recommendation, and this is an index of recommendations. Beyond
+that, every row here is keyed by the number the report prints;
+`verify_rc_index.py` checks a position by looking for that number in the
+government's response; and a row with no number would be a row no check could
+reach. Publishing it as "recommendation 57" would be inventing a number the
+commission did not print, which is the one thing this index must never do.
+
+So it is explained instead, and the explanation is produced by code, not typed
+into a CSV: `unnumbered_in_list()` reads the sidecar, finds the headings inside
+the list that carry no label, and writes them to
+`rc_recommendation_counts.csv`. The page prints the words the report printed and
+says why they are not a row. Where the arithmetic reconciles — found plus
+unnumbered equals stated — the page says so; where it does not, it says only
+that the difference has not been accounted for, which is what it said before.
+
+Only the list is read, never the whole report. Bold at body size is a lead-in,
+a table's column head and a chart's label everywhere else: 101 of those in
+Robodebt against the one in the list. The list is bounded by the report itself,
+running from the line that says "List of Recommendations", set larger again, to
+the next line set that way. The Disability report, which agrees with itself at
+222, yields nothing, and so do the three reports that state no total.
+
 ## What transfers, and what does not
 
 Transfers: the recommendation index and its schema; the verdict vocabulary

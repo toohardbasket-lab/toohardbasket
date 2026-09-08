@@ -158,6 +158,38 @@ check("one recommendation's heading never swallows the next one's",
 check("no sidecar at all: no headings, and nothing invented",
       E.headings_in(pathlib.Path("/nowhere/99_1.lines.tsv")) == {})
 
+# --- what the report's own list heads but does not number -------------------
+# Robodebt says it makes 57 and prints 56 numbers. The 57th is the last item in
+# its own list, set exactly as every recommendation heading in that list is set
+# and given no number. Finding it explains the count; it never makes a row.
+listed = [
+    ("Calibri-Bold", 27, "List of Recommendations"),
+    ("Calibri", 11, "The following is a list of 3 recommendations of this Commission."),
+    ("Calibri-Bold", 16, "A theme the report groups them under"),
+    ("Calibri-Bold", 11, "Recommendation 10.1: A title that wraps onto"),
+    ("Calibri-Bold", 11, "a second line"),
+    ("Calibri", 11, "The Commonwealth should do the first thing."),
+    ("Calibri-Bold", 11, "Recommendation 10.2: A second title"),
+    ("Calibri", 11, "The Commonwealth should do the second thing."),
+    ("Calibri-Bold", 16, "Closing observations"),
+    ("Calibri-Bold", 11, "Section 34 of the Cth FOI Act should be repealed"),
+    ("Calibri", 11, "The Commonwealth should repeal it."),
+    ("Calibri-Bold", 27, "Overview of the Scheme"),
+    ("Calibri-Bold", 11, "A bold lead-in in the body of the report"),
+]
+check("the item the list heads like a recommendation and does not number is found",
+      E.unnumbered_in_list(sidecar(listed)) == ["Section 34 of the Cth FOI Act should be repealed"])
+check("the wrapped tail of a numbered heading is not one of them",
+      "a second line" not in E.unnumbered_in_list(sidecar(listed)))
+check("nothing outside the list is read: the list ends where the report ends it",
+      "A bold lead-in in the body of the report" not in E.unnumbered_in_list(sidecar(listed)))
+check("a report with no list of its own: nothing is found and nothing invented",
+      E.unnumbered_in_list(sidecar(listed[3:])) == [])
+check("a contents entry for the list is not the list",
+      E.unnumbered_in_list(sidecar(
+          [("Calibri", 11, "List of Recommendations ....................... xii")] + listed[1:]))
+      == [])
+
 check("the split happens only where the text begins with the heading",
       E.split_heading("A title The Commonwealth should act.", "A title")
       == ("A title", "The Commonwealth should act."))

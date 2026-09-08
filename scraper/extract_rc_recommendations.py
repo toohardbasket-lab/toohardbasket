@@ -197,7 +197,8 @@ MIN_CHARS, MAX_CHARS = 25, 6000
 
 FIELDS = ["commission_id", "source", "source_id", "label", "heading", "recommendation",
           "report_title", "report_tabled", "report_url", "note"]
-COUNT_FIELDS = ["commission_id", "source_id", "found", "stated", "agree", "note"]
+COUNT_FIELDS = ["commission_id", "source_id", "found", "stated", "agree", "note",
+                "unnumbered", "unnumbered_words"]
 
 
 def tidy(raw: str, head: "re.Pattern[str] | None" = None) -> str:
@@ -409,6 +410,59 @@ def small_type_in(path: pathlib.Path) -> set[str]:
     return small - {text.strip() for _, size, text in rows if size >= body and text.strip()}
 
 
+# The report's own list of recommendations, by the name it prints over it. Not
+# the contents entry for it, which prints leaders after the same words and so
+# does not match a line that is only those words.
+LIST_HEAD = re.compile(r"^\s*List of Recommendations\s*$", re.I)
+
+
+def unnumbered_in_list(path: pathlib.Path, label_head: "re.Pattern[str] | None" = None) -> list[str]:
+    """What the report's own list heads like a recommendation but does not number.
+
+    Robodebt says it makes 57 and prints 56 numbers. The 57th is in the list,
+    at the end, under the section heading "Closing observations": "Section 34
+    of the Cth FOI Act should be repealed", set in Calibri-Bold 11 — the face
+    and size this report sets every one of its recommendation headings in —
+    with the recommendation underneath it in Calibri 11. It carries no number
+    and no "Recommendation" label, and flattened to characters it is an
+    ordinary sentence, which is why the shortfall could be counted but not
+    explained.
+
+    Only the list is read, not the whole report. Bold at body size is a
+    lead-in, a table's column head and a chart's label everywhere else in a
+    report this size — 101 of them in Robodebt against 1 here — so a rule
+    loosed on the document would say almost anything. The list is bounded by
+    the report itself: it runs from the line that says "List of
+    Recommendations", set larger again, to the next line set that way.
+
+    This explains a count. It makes no row: a row here is keyed by the number
+    the report prints, and this has none.
+    """
+    rows = _lines(path)
+    label_head = label_head or HEAD
+    styles = {(font, size) for font, size, text in rows if label_head.match(text)}
+    if not styles:
+        return []
+    start = next((i for i, (font, size, text) in enumerate(rows)
+                  if LIST_HEAD.match(text) and (font, size) not in styles), None)
+    if start is None:
+        return []
+    title = (rows[start][0], rows[start][1])
+    end = next((i for i in range(start + 1, len(rows))
+                if (rows[i][0], rows[i][1]) == title and rows[i][2].strip()), len(rows))
+    out, prev = [], None
+    for font, size, text in rows[start + 1:end]:
+        if not text.strip():
+            continue
+        # A heading that wraps is two lines set the same way; the second is not
+        # a heading of its own. "to serve", "compliance activity" and two more
+        # in this list are the tails of numbered headings.
+        if (font, size) in styles and prev not in styles and not label_head.match(text):
+            out.append(text.strip())
+        prev = (font, size)
+    return out
+
+
 def headings_in(path: pathlib.Path, label_head: "re.Pattern[str] | None" = None) -> dict[str, str]:
     """label -> the recommendation's own heading, as the report sets it.
 
@@ -513,7 +567,7 @@ def main(argv: list[str]) -> int:
             unread.append(d)
             continue
         label_head = head_in(body)
-        headings, sections, apparatus = {}, [], set()
+        headings, sections, apparatus, unnumbered = {}, [], set(), []
         wanted = files_of(d)
         for path in sorted(TEXT.glob(f"{d['id']}_*.lines.tsv")):
             if wanted and path.name.split("_", 1)[1].removesuffix(".lines.tsv") not in wanted:
@@ -521,6 +575,7 @@ def main(argv: list[str]) -> int:
             headings.update(headings_in(path, label_head))
             sections += section_headings_in(path, label_head)
             apparatus |= small_type_in(path)
+            unnumbered += unnumbered_in_list(path, label_head)
         found = recommendations_in(body, names.get(d["commission_id"], ""),
                                    stops_in(body, sorted(set(sections))), headings, label_head,
                                    apparatus)
@@ -538,12 +593,21 @@ def main(argv: list[str]) -> int:
                 "report_url": d["url"], "note": found[label]["note"],
             })
         agree = "yes" if stated and str(len(found)) == stated else "no" if stated else ""
+        # The report's own list, headed the way it heads a recommendation and
+        # left unnumbered. It is written down whether or not it accounts for a
+        # difference; whether it does is arithmetic anyone can check against
+        # the two numbers beside it.
         counts.append({"commission_id": d["commission_id"], "source_id": d["id"],
-                       "found": len(found), "stated": stated, "agree": agree, "note": note})
+                       "found": len(found), "stated": stated, "agree": agree, "note": note,
+                       "unnumbered": len(unnumbered),
+                       "unnumbered_words": "; ".join(unnumbered)})
         unreadable = sum(1 for label in found if not found[label]["recommendation"])
         print(f"{d['commission_id']}: {len(found)} recommendations from OTD {d['id']}"
               + (f", the report states {stated}" if stated else f" — {note}")
               + (f" — THEY DISAGREE by {abs(len(found) - int(stated))}" if agree == "no" else "")
+              + (f"; its own list heads {len(unnumbered)} more the same way and gives "
+                 f"{'them' if len(unnumbered) > 1 else 'it'} no number: "
+                 + "; ".join(unnumbered) if unnumbered else "")
               + (f"; {unreadable} whose end could not be read" if unreadable else "")
               + (f"; {unsplit} whose heading could not be told from the text" if unsplit else ""))
 
