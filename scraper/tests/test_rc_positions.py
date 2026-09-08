@@ -361,6 +361,48 @@ bed("A response document with no recommendation in it at all.\n")
 check("a response nothing can be read from: refuses",
       P.main(["extract_rc_positions.py"]) == 1 and not P.OUT.exists())
 
+# --- a recommendation the response names and does not answer ----------------
+# The Australian Government's response to the Disability Royal Commission
+# answers 172 of 222 and lists the other 50 in an appendix, under its own
+# sentence saying whose responsibility they are. Read as silence, those fifty
+# rows said the response did not address them.
+LIST = """Appendix B 287
+Appendix B: State and territory
+recommendations
+The table below includes the 50 Disability Royal Commission recommendations
+within the sole responsibility of state and territory governments.
+State and territory recommendations
+5.3: Review and update of disability strategies and plans
+6.4: Terms and definitions in guardianship and administration legislation
+6.5: Objects of guardianship and administration legislation
+6.7: Decision-making ability
+6.8: Formal supporters
+6.9: Representatives as a last resort
+"""
+CAPTION = ("The table below includes the 50 Disability Royal Commission recommendations "
+           "within the sole responsibility of state and territory governments.")
+unanswered = {"5.3", "6.4", "6.5", "6.7", "6.8", "6.9"}
+
+got = P.named_in_a_list(LIST, unanswered)
+check("every recommendation in the list is found",
+      set(got) == unanswered)
+check("and each carries the list's own sentence, rebuilt across the line the page broke",
+      set(got.values()) == {CAPTION})
+check("the heading between the sentence and the list is not mistaken for the sentence",
+      "State and territory recommendations 5.3" not in " ".join(got.values()))
+
+check("a recommendation the response does answer is not looked for in a list",
+      P.named_in_a_list(LIST, unanswered - {"5.3"}).get("5.3") is None)
+
+check("too few to be a list: a number opening a line is a cross-reference, not a list",
+      P.named_in_a_list(LIST, {"5.3", "6.4"}) == {})
+
+check("a list with no sentence above it: nothing is put in the government's mouth",
+      P.named_in_a_list("\n".join(LIST.splitlines()[6:]), unanswered) == {})
+
+check("a caption too short to be a sentence is not one",
+      P.caption_above(["Yes.", "5.3: A recommendation"], 1) == "")
+
 print(f"\n{len(PASS)} passed, {len(FAIL)} failed")
 if FAIL:
     for f in FAIL:

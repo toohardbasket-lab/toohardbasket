@@ -37,24 +37,33 @@ const stats = [
   { label: "Commissions", value: fmt(f.commissions) },
   { label: "With a stated position", value: fmt(f.position) },
   { label: "Answered without one", value: fmt(f.noted) },
-  { label: "Not addressed", value: fmt(f.notAddressed) },
+  { label: "Named, not answered", value: fmt(f.namedNotAnswered) },
 ];
 
-/* The bar. Four segments, not the committee register's six: there is no form
-   letter here, and "not addressed individually" means something different — a
-   response that never mentions the recommendation at all. */
+/* The bar. Not the committee register's six: there is no form letter here, and
+   there is a segment that register has no need of. A government that names a
+   recommendation and says it is not the one answering it has not been silent
+   about it, and is not shown as though it were. A segment nothing falls into
+   is left off rather than drawn at nothing, which is what "not addressed" is
+   today: it is kept because a response that never mentions a recommendation is
+   a thing that can happen, not because one has. */
 const segments = [
   { key: "accepted", label: "Accepted", n: f.accepted },
   { key: "part", label: "In part or in principle", n: f.inPartOrInPrinciple },
   { key: "not", label: "Not accepted", n: f.notAccepted },
   { key: "noted", label: "Answered, no position stated", n: f.noted },
-  { key: "passed", label: "Not addressed by the response", n: f.notAddressed },
-].map((s) => ({ ...s, share: s.n / (f.recommendations || 1) }));
+  { key: "passed", label: "Named, not answered", n: f.namedNotAnswered },
+  { key: "silent", label: "Not addressed by the response", n: f.notAddressed },
+].filter((s) => s.n > 0).map((s) => ({ ...s, share: s.n / (f.recommendations || 1) }));
 const pct = (v: number) => `${Math.round(v * 100)}%`;
 
 /* How a row reads in the "what the government said" column. */
 function saidOf(r: (typeof rows)[number]): string {
   if (r.state === "not addressed") return "The response does not address it";
+  // Named somewhere other than under an answer to it — in a list of what the
+  // government is not answering. The response's own sentence about that list
+  // is the row's quotation, so the reason given is the government's, not ours.
+  if (r.state === "named, not answered") return "The response names it and does not answer it";
   if (r.governmentLabel) return r.governmentLabel;
   // A response can name a recommendation and answer nothing about it, and then
   // the row's own note is what happened. "No words could be read" would say the
@@ -84,10 +93,10 @@ const SHOWN = 25;
     <p class="lede measure">
       {fmt(f.commissions)} commissions, {fmt(f.recommendations)} recommendations, and what the Australian
       Government said about each one in its own words. {fmt(f.position)} carry a stated
-      position. {fmt(f.noted)} were answered without one. {fmt(f.notAddressed)} the response
-      does not mention.
+      position. {fmt(f.noted)} were answered without one. {fmt(f.namedNotAnswered)} the response
+      names and does not answer.
     </p>
-    <StatTiles stats={stats} note="Counted over every recommendation both commissions made." />
+    <StatTiles stats={stats} note="Counted over every recommendation every commission here made." />
   </section>
 
   <section class="wrap">
@@ -199,16 +208,16 @@ const SHOWN = 25;
       </span>
       {/*
         One group, and the boxes in it widen the result rather than narrowing
-        it. "The response does not address it" and "answered without a stated
-        position" are two different ways of getting no answer, and a reader who
-        wants both means the 92 rows that are one or the other — not the none
-        that are both, which is what tick boxes that narrow would show.
+        it. "Named but not answered" and "answered without a stated position"
+        are two different ways of getting no answer, and a reader who wants
+        both means the 92 rows that are one or the other — not the none that
+        are both, which is what tick boxes that narrow would show.
       */}
       <fieldset class="filters">
         <legend>Show only</legend>
         <label>
-          <input type="checkbox" data-rc-only="not addressed" />
-          Recommendations the response does not address ({fmt(f.notAddressed)})
+          <input type="checkbox" data-rc-only="named, not answered" />
+          Named by the response, not answered ({fmt(f.namedNotAnswered)})
         </label>
         <label>
           <input type="checkbox" data-rc-only="noted" />
@@ -430,6 +439,7 @@ const SHOWN = 25;
   .seg.not { background: var(--surface); box-shadow: inset 0 0 0 2px var(--series-1); color: var(--ink); }
   .seg.noted { background: var(--rule-strong); color: var(--ink); }
   .seg.passed { background: var(--rule); color: var(--ink); }
+  .seg.silent { background: var(--surface); box-shadow: inset 0 0 0 1px var(--rule-strong); color: var(--ink); }
   .seg.part b { background: var(--surface); padding: 0 0.3rem; }
   .legend {
     list-style: none; padding: 0; margin: 0.75rem 0 0;
@@ -443,6 +453,7 @@ const SHOWN = 25;
   .sw.not { background: var(--surface); box-shadow: inset 0 0 0 2px var(--series-1); }
   .sw.noted { background: var(--rule-strong); }
   .sw.passed { background: var(--rule); }
+  .sw.silent { background: var(--surface); box-shadow: inset 0 0 0 1px var(--rule-strong); }
 
   .controls { margin: 1rem 0; font-family: var(--sans); }
   .controls input[type="search"] {

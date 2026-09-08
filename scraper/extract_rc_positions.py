@@ -242,7 +242,7 @@ def furniture(body: str, title: str) -> set[str]:
 def is_furniture(line: str, heads: set[str]) -> bool:
     return PAGE_NUMBER.sub("", line.strip()).strip() in heads
 
-STATES = ("position", "noted", "not addressed", "unreadable")
+STATES = ("position", "noted", "named, not answered", "not addressed", "unreadable")
 GOV_CHARS = 900
 # A fragment this short at the end, with no sentence in it, is the page's doing
 # rather than the government's: the section title the response prints between
@@ -261,8 +261,66 @@ FIELDS = ["commission_id", "report_id", "label", "response_id", "response_tabled
           "state", "verdict", "government_label", "other_governments",
           "government_words", "government_words_more", "note"]
 COUNT_FIELDS = ["commission_id", "report_id", "response_id", "grammar", "recommendations", "position",
-                "noted", "not addressed", "unreadable", "accepted",
+                "noted", "named, not answered", "not addressed", "unreadable", "accepted",
                 "in part or in principle", "not accepted"]
+
+# A response can name a recommendation somewhere other than under an answer to
+# it, and say why it is not answering. The Australian Government's response to
+# the Disability Royal Commission answers 172 of 222 and lists the other 50 in
+# an appendix, by number and title, under its own sentence: "The table below
+# includes the 50 Disability Royal Commission recommendations within the sole
+# responsibility of state and territory governments." Its reader's guide says
+# the same in the other direction. Read as silence, those fifty rows said "The
+# response does not address it" — of a government that had named every one of
+# them and given its reason. That is not a defect a check on the words of a row
+# can find, because the row had no words; it was found by reading the response.
+#
+# The rule is the shape of the thing rather than this document: a run of lines
+# each opening with a recommendation's number, where none of those
+# recommendations has an answer. Below this many, a number at the start of a
+# line is a cross-reference or a table row, not a list of what went unanswered.
+LIST_MIN = 5
+# The list's own sentence: the one that ends nearest above it. Three lines of
+# slack for a heading between the sentence and the list, and four for a
+# sentence the page broke — a line that begins in lower case continues the one
+# above it.
+CAPTION_SKIP, CAPTION_LINES, CAPTION_CHARS = 3, 4, 40
+LIST_LINE = re.compile(r"[ \t]*(\d{1,3}(?:\.\d{1,3})?)[ \t]*[:.]?[ \t]+\S")
+
+
+def caption_above(lines: list[str], at: int) -> str:
+    """The sentence the response prints above a list, in its own words."""
+    end = None
+    for i in range(at - 1, max(-1, at - 1 - CAPTION_SKIP), -1):
+        if lines[i].strip().endswith((".", "!", "?")):
+            end = i
+            break
+    if end is None:
+        return ""
+    parts = [lines[end].strip()]
+    while len(parts) < CAPTION_LINES and end > 0 and parts[0][:1].islower():
+        end -= 1
+        parts.insert(0, lines[end].strip())
+    caption = " ".join(" ".join(parts).split())
+    return caption if len(caption) >= CAPTION_CHARS else ""
+
+
+def named_in_a_list(body: str, unanswered: set[str]) -> dict[str, str]:
+    """label -> what the response says about the list it names the label in.
+
+    Only recommendations the response never answered are looked for, so a
+    number that opens a line inside an answer is not one of these.
+    """
+    lines = body.splitlines()
+    at: dict[str, int] = {}
+    for i, line in enumerate(lines):
+        m = LIST_LINE.match(line)
+        if m and m.group(1) in unanswered:
+            at.setdefault(m.group(1), i)
+    if len(at) < LIST_MIN:
+        return {}
+    caption = caption_above(lines, min(at.values()))
+    return {label: caption for label in at} if caption else {}
 
 
 def labels_in(heading: str) -> list[str]:
@@ -665,8 +723,15 @@ def main(argv: list[str]) -> int:
         report_id = (d.get("answers") or "").strip()
         labels = recommendations[(d["commission_id"], report_id)]
         tally = collections.Counter()
+        listed = named_in_a_list(body, {l for l in labels if l not in found})
         for label in sorted(labels, key=label_key):
             got = found.get(label)
+            if got is None and label in listed:
+                got = {"state": "named, not answered", "verdict": "", "government_label": "",
+                       "other_governments": "", "government_words": listed[label],
+                       "government_words_more": "",
+                       "note": "the response names this recommendation in a list and answers "
+                               "none of the recommendations in it"}
             if got is None:
                 got = {"state": "not addressed", "verdict": "", "government_label": "",
                        "other_governments": "", "government_words": "",

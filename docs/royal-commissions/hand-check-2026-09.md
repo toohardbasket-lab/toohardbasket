@@ -277,3 +277,55 @@ the methods page is gone.
 
 Nothing published in the index changed. No row was added, removed or altered,
 and the 427 remain 427.
+
+## Robodebt and Disability, read off the tabled PDFs — 8 September 2026
+
+Fourteen rows across the two biggest sets in the index — 56 and 222 of the 427
+— read page by page against the printed reports and responses.
+
+### The Robodebt list, pages xiii to xxi of the report
+
+| Row | Report page | Checked |
+| --- | --- | --- |
+| 10.1 Design policies and processes with emphasis on the people they are meant to serve | xiii | Exact, including the report's own "the particular difficulties rural and remote living". Heading split correctly across the line the page broke. |
+| 11.1 Clear documentation of exclusion criteria | xiii | Exact. |
+| 11.2 Identification of circumstances affecting the capacity to engage with compliance activity | xiii | Exact; two-line heading. |
+| 13.3 "Face-to-face" support | xv | Exact, curly quotes and all. Response page 15: "The Government **accepts in principle** this recommendation", quoted to the end of a sentence with the rest marked as continuing. |
+| 13.4 Increased number of social workers | xv | Exact. |
+| 15.2 Include legal advices with New Policy Proposals | xv | Exact. |
+| 23.8 Documenting decisions and discussions | xxi | Exact, and it stops where it should: what follows on the page is "Closing observations", which is a section heading in print. Response page 39 quoted exactly. |
+
+### The Disability report and the Australian Government's response
+
+| Row | Report page | Checked |
+| --- | --- | --- |
+| 8.21 Diversion of people with cognitive disability from criminal proceedings | 277–278 | Exact across the page break: both lists, all six bullets, no running footer, and it stops before "Raising the age of criminal responsibility". This is the class the apparatus rule fixed. |
+| 8.22 Age of criminal responsibility | 278 | Exact. |
+| 5.3, 8.21, 8.22, 11.17 and the other 46 marked "not addressed" | — | **Was wrong.** See below. |
+
+### What was wrong
+
+The index published 50 Disability rows as "not addressed", which it defines as
+the response not mentioning the recommendation at all. Searching the response
+for each of the fifty numbers found every one of them — once each, in Appendix
+B, "State and territory recommendations", under the sentence "The table below
+includes the 50 Disability Royal Commission recommendations within the sole
+responsibility of state and territory governments." The reader's guide at the
+front says the same the other way round: 172 answered, 50 not, because they are
+the states' responsibility. The index's own split is 172 and 50.
+
+Fixed the same day: a fourth state, "named, not answered", with the list's own
+caption as the row's words. Written up as decision 10 in `ROYAL_COMMISSIONS.md`.
+
+### One thing checked and left alone
+
+Every quotation on this site ends without its full stop, on this index and on
+the live recommendations index alike — `tidy()` strips it. It is consistent
+across both corpora and it is the only difference between a row and the
+document it came from, so it stays; it is now said on the methods page instead
+of left for a reader to find.
+
+## What this does not establish
+
+Fourteen rows of 278. The defect found was in the class no automated check
+could see, which is now three hand checks in a row.
