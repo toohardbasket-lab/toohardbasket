@@ -66,6 +66,8 @@ export interface RcRecommendation {
   /** What the states and territories said, where they answered separately. */
   otherGovernments: string;
   governmentWords: string;
+  /** True where the answer runs on past what the index prints of it. */
+  governmentWordsMore: boolean;
   positionNote: string;
   responseUrl: string;
   responseTabled: string;
@@ -139,6 +141,7 @@ export function rcRecommendations(): RcRecommendation[] {
       governmentLabel: p?.government_label ?? "",
       otherGovernments: p?.other_governments ?? "",
       governmentWords: p?.government_words ?? "",
+      governmentWordsMore: p?.government_words_more === "yes",
       positionNote: p?.note ?? "",
       responseUrl: p?.response_url ?? "",
       responseTabled: p?.response_tabled ?? "",

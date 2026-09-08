@@ -153,6 +153,128 @@ agreed = ("Response to Recommendation 6.33\n"
 check("where every part states a verdict, no such note is added",
       "not on others" not in P.positions_in(agreed)[0]["6.33"]["note"])
 
+# --- what is the government's words, and what is the page's -----------------
+TITLE = "Australian Government Response to the Example Royal Commission"
+HEAD = TITLE + "\n"
+
+paged = (block("6.1", "Australian Government", "Response: Accept",
+               words=("The Government will do the first thing, at length and over several\n"
+                      + HEAD + "Australian Government Response - Volume 4 51\n"
+                      + "years, beginning with the second half of it."))
+         + block("6.2", "Australian Government", "Response: Accept",
+                 words="The Government will do the second thing.")
+         + block("6.3", "Australian Government", "Response: Accept",
+                 words="The Government will do the third thing.")
+         + block("6.4", "Australian Government", "Response: Accept",
+                 words="The Government will do the fourth thing.")
+         + HEAD + "Australian Government Response - Volume 4 52\n"
+         + block("6.5", "Australian Government", "Response: Accept",
+                 words="The Government will do the fifth thing.")
+         + HEAD + "Australian Government Response - Volume 4 53\n")
+got, _ = P.positions_in(paged, TITLE)
+check("the running head does not become the government's words",
+      "Volume" not in got["6.1"]["government_words"]
+      and "Royal Commission" not in got["6.1"]["government_words"])
+check("and the sentence it interrupted is rejoined",
+      got["6.1"]["government_words"] ==
+      "The Government will do the first thing, at length and over several years, "
+      "beginning with the second half of it.")
+
+repeated = (block("6.1", "Australian Government", "Response: Accept",
+                  words="The Government accepts this recommendation.")
+            + block("6.2", "Australian Government", "Response: Accept",
+                    words="The Government accepts this recommendation.")
+            + block("6.3", "Australian Government", "Response: Accept",
+                    words="The Government accepts this recommendation."))
+got, _ = P.positions_in(repeated, TITLE)
+check("a sentence the government repeats on every page is still its answer",
+      got["6.2"]["government_words"] == "The Government accepts this recommendation.")
+
+# The disability response prints "Response to Recommendations 7.18, 7.19, 7.21,
+# 7.22 and 7.23" and, immediately under it, "Response to Recommendation 7.20":
+# six recommendations, one body, printed below the second heading.
+shared = ("Response to Recommendations 6.1, 6.2 and 6.4\n"
+          "Responsibility: Australian Government\n"
+          "Joint Response: Accept in principle\n"
+          "Response to Recommendation 6.3\n"
+          "Responsibility: Australian Government\n"
+          "Joint Response: Accept in principle\n"
+          "All four of these will be done together, in one programme of work.\n")
+got, _ = P.positions_in(shared, TITLE)
+check("two headings printed back to back share the answer below them",
+      all(got[x]["government_words"]
+          == "All four of these will be done together, in one programme of work."
+          for x in ("6.1", "6.2", "6.3", "6.4")))
+
+# "The Government will consider / Recommendation 7.26 as part of its review of
+# the Disability Discrimination Act" is one sentence the page broke in two.
+split = block("6.1", "Australian Government", "Response: Accept",
+              words=("The Government will amend the Act. It will consider\n"
+                     "Recommendation 6.9 as part of that review, which is underway."))
+got, _ = P.positions_in(split, TITLE)
+check("a sentence that breaks before a number is not read as the next heading",
+      got["6.1"]["government_words"].endswith("which is underway.")
+      and "6.9" not in got)
+
+# The robodebt response answers "The Government accepts this recommendation. As
+# noted in the response to recommendation 20.4, ..." and the mention is not a
+# heading either.
+crossed = ("Recommendation 20.4: A fourth thing\n"
+           "The Commonwealth should do the fourth thing.\n"
+           "The Government accepts this recommendation. It will do the fourth thing.\n"
+           "Recommendation 20.5: A fifth thing\n"
+           "The Commonwealth should do the fifth thing.\n"
+           "The Government accepts this recommendation. As noted in the response to\n"
+           "recommendation 20.4, this work is already underway.\n")
+got, grammar = P.positions_in(crossed, TITLE)
+check("a prose answer is not cut off where it mentions another recommendation",
+      grammar == "prose" and got["20.5"]["government_words"].endswith("already underway."))
+
+# --- how much of it is published --------------------------------------------
+titled = block("6.1", "Australian Government", "Response: Accept",
+               words=("The Government will do the thing, and has funded it.\n"
+                      "Disability discrimination reform (Recommendations 6.2-6.4)"))
+got, _ = P.positions_in(titled, TITLE)
+check("a section title left at the end of a block is not part of the answer",
+      got["6.1"]["government_words"] == "The Government will do the thing, and has funded it."
+      and got["6.1"]["government_words_more"] == "")
+
+long_answer = block("6.1", "Australian Government", "Response: Accept",
+                    words=" ".join(["The Government will do the thing thoroughly."] * 40))
+got, _ = P.positions_in(long_answer, TITLE)
+check("an answer longer than the register prints stops at the end of a sentence",
+      got["6.1"]["government_words"].endswith("thoroughly.")
+      and len(got["6.1"]["government_words"]) <= P.GOV_CHARS)
+check("and the row says the answer goes on, rather than reading as the whole of it",
+      got["6.1"]["government_words_more"] == "yes")
+
+# The disability response answers 6.31 under "Recommendation 6.31 (a)" and
+# again under "(b)", with a different verdict for each part.
+in_parts = ("Response to Recommendation 6.1\n"
+            "Responsibility: Australian, state and territory governments\n"
+            "Joint Response to 6.1 (a): Accept\n"
+            "Joint Response to 6.1 (b): Accept in principle\n"
+            "Recommendation 6.1 (a)\n"
+            "The Government will do the first part of it, in full.\n"
+            "Recommendation 6.1 (b)\n"
+            "The Government will consider the second part of it.\n")
+got, _ = P.positions_in(in_parts, TITLE)
+check("a recommendation answered part by part quotes the first part",
+      got["6.1"]["government_words"]
+      == "The Government will do the first part of it, in full.")
+check("and says the answer goes on, because the other part is its answer too",
+      got["6.1"]["government_words_more"] == "yes")
+check("with both verdicts kept, and sorted as answered in part",
+      got["6.1"]["government_label"] == "Accept; Accept in principle"
+      and got["6.1"]["verdict"] == "in part or in principle")
+
+one_long_sentence = block("6.1", "Australian Government", "Response: Accept",
+                          words="The Government will " + "do the thing and " * 90 + "stop.")
+got, _ = P.positions_in(one_long_sentence, TITLE)
+check("a single sentence too long to print is cut at a word, not inside one",
+      got["6.1"]["government_words"].endswith(("do", "the", "thing", "and"))
+      and got["6.1"]["government_words_more"] == "yes")
+
 # --- end to end -------------------------------------------------------------
 def bed(text, labels=("6.1", "6.2", "6.3")):
     d = pathlib.Path(tempfile.mkdtemp())

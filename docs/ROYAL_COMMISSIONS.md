@@ -98,6 +98,45 @@ corpus, sharing its verdict vocabulary and its test of a stated position. Method
 is the main heading and `/methods/royal-commissions/` is beneath it, carrying
 only what differs.
 
+**5. Nothing is published that has not been found in its own document.**
+Settled 8 September. `scraper/verify_rc_index.py` is the same job
+`verify_recommendations.py` does for the committee side and for the same
+reason: the failure that matters is not a garbled quotation, which a reader
+can see, but the right words under the wrong number, which nothing on the page
+would show. Every published recommendation is looked for in the report it
+names — a distinctive slice of its text, with the row's own heading above it
+and the row's own label above that — and every government quotation is looked
+for under the heading the response itself puts over it, with the government's
+label stated there as the whole of what the document states and not the
+opening of it. A row that cannot be found that way is removed and counted, not
+flagged. The step refuses outright if nothing verifies, or if less than nine
+tenths of the index does, because this index is built from two documents by
+rules written against them and anything short of nearly all of it is a broken
+rule rather than a difficult document.
+
+`--control` answers the objection that a check written from the same documents
+as the extraction will pass whatever the extraction did. It gives every row a
+neighbour's number, heading and words and counts what survives: at 8 September,
+276 of 276 pairs refuse a neighbour's number, 276 of 276 refuse a neighbour's
+heading, 173 of 176 refuse the words of the row after them and 153 of 154
+refuse the words of the row 37 further on. The handful that pass are rows a
+response answers in the same words on purpose; the control names them rather
+than claiming a clean sweep.
+
+Neither of those reaches the cached text itself, so twenty rows were read off
+the tabled PDFs by eye —
+`docs/royal-commissions/hand-check-2026-09.md`. All twenty carry the label,
+heading and text their report prints and the position their response states.
+The hand check found four faults in the published quotations that the
+automatic check could not, because in every one the published words really
+were the document's: the running head printed inside the quotation (120 of 228
+answers), the next block's heading and verdict lines at the front of it (6),
+one answer cut to eleven words at the government's own cross-reference, and 29
+quotations stopping in the middle of a word at the character cap. All four are
+fixed in `extract_rc_positions.py`, and a fifth — a recommendation answered
+part by part, quoting only the first part with nothing to say the rest existed
+— is now marked by `government_words_more`.
+
 The first step built from all that is `scraper/harvest_royal_commissions.py`,
 which decides which tabled documents belong to which commission and extracts
 nothing. It is run by hand and is not in the weekly job, because nothing

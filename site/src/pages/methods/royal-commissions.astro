@@ -18,7 +18,7 @@
 import Base from "../../layouts/Base.astro";
 import { fmt, formatDate, formatDateShort } from "../../lib/data";
 import {
-  commissions, rcFigures, rcLabels, rcSources, rcGrammars,
+  commissions, rcFigures, rcLabels, rcSources, rcGrammars, rcRecommendations,
 } from "../../lib/royalCommissions";
 
 const all = commissions();
@@ -30,6 +30,9 @@ const agree = all.filter((c) => c.stated && String(c.found) === c.stated);
 const disagree = all.filter((c) => c.stated && String(c.found) !== c.stated);
 const prose = grammars.filter((g) => g.grammar === "prose").length;
 const blocks = grammars.filter((g) => g.grammar === "blocks").length;
+const quoted = rcRecommendations().filter((r) => r.governmentWords);
+const wordsShown = quoted.length;
+const wordsMore = quoted.filter((r) => r.governmentWordsMore).length;
 ---
 
 <Base
@@ -231,6 +234,24 @@ const blocks = grammars.filter((g) => g.grammar === "blocks").length;
         ))}
       </tbody>
     </table>
+    <h3 id="quotation">How much of the answer is quoted</h3>
+    <p>
+      The words on a row are the answer as the document prints it, from under the heading
+      that names the recommendation to the next heading. What is taken out is the page's
+      furniture and nothing else: the running head, which lands in the middle of any answer
+      that crosses a page and which is found by asking the Tabled Documents register what the
+      document is called and taking the lines that begin the way that title begins. The
+      block's own "Responsibility" and "Response" lines are not part of the answer either and
+      are shown separately, as the label.
+    </p>
+    <p>
+      An answer longer than about nine hundred characters stops at the end of a sentence and
+      the row says the answer goes on — {fmt(wordsMore)} of {fmt(wordsShown)} do. A
+      recommendation answered a part at a time carries the first part's words and says the
+      same thing, because the other part is its answer too. Nothing is elided inside a
+      quotation, and nothing is joined across a heading.
+    </p>
+
     <p class="note">
       "Note" and "Subject to further consideration" use no verdict word, so they state no
       position. They are counted as neither an acceptance nor a refusal, and the vocabulary is
@@ -289,6 +310,44 @@ const blocks = grammars.filter((g) => g.grammar === "blocks").length;
         </dd>
       </div>
     </dl>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="checking">How the index is checked against the documents</h2>
+    <p>
+      Every row is looked for in the document it names before it is published. A distinctive
+      slice of the recommendation has to be in the report's text, with the row's own heading
+      above it and the row's own number above that; the government's words have to be under
+      the heading the response itself puts over them, and the government's label has to be
+      stated under that heading as the whole of what the document states and not the opening
+      of it — "Accept" printed where a document says "Accept in principle" is the one
+      misstatement on this side that would matter most. A row that cannot be found that way
+      is removed and counted, not flagged, so what is published is verified by construction.
+      Nothing is removed at present.
+    </p>
+    <p>
+      A check written from the same two documents as the extraction will pass whatever the
+      extraction did, and passing everything on its first run is exactly what that would look
+      like. So the check is checked: every row is handed a neighbour's number, heading and
+      words, and what survives is counted —
+      {" "}<code>python3 verify_rc_index.py --control</code>. Every pair refuses a neighbour's
+      number and every pair refuses a neighbour's heading. Nearly every one refuses a
+      neighbour's words; the few that do not are rows the response answers in the same words
+      on purpose, and this check cannot tell those from a mistake, so it names them rather
+      than claiming a clean sweep.
+    </p>
+    <p>
+      None of that reaches the cached text itself. If a page of a report never made it into
+      the cache, the check compares the index against the same gap and passes. So twenty rows
+      were read off the tabled PDFs by eye, page image beside published row, and written up —
+      {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket/blob/main/docs/royal-commissions/hand-check-2026-09.md">the hand check</a>.
+      All twenty carry the label, heading and text their report prints and the position their
+      response states. It found four faults in the quotations that the automatic check could
+      not, because in every one of them the published words really were the document's words
+      — with the running head attached, or the next block's heading, or the government's
+      sentence cut at its own cross-reference. Those are fixed, and the rules that fixed them
+      are the ones described above.
+    </p>
   </section>
 
   <section class="wrap measure">
