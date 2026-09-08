@@ -168,6 +168,73 @@ check("no heading found: the block is left exactly as it was",
       E.split_heading("The Commonwealth should act.", "")
       == ("", "The Commonwealth should act."))
 
+# --- where a recommendation stops, when the words do not say ----------------
+LINES = [
+    ("Calibri-Bold", 16, "Improving the Australian Public Service"),
+    ("Calibri-Bold", 11, "Recommendation 23.8: Documenting decisions and discussions"),
+    ("Calibri", 11, "The Commission should develop standards for documenting decisions."),
+    ("Calibri-Bold", 16, "Closing observations"),
+    ("Calibri", 11, "Section 34 of the Cth FOI Act should be repealed."),
+]
+stops = E.section_headings_in(sidecar(LINES))
+check("a section heading is the report's own, found by the type it is set in",
+      stops == ["Closing observations", "Improving the Australian Public Service"])
+
+sample = "\n".join(t for _, _, t in LINES)
+got = E.recommendations_in(sample, "", E.stops_in(sample, stops),
+                           {"23.8": "Documenting decisions and discussions"})
+check("the last recommendation in a list stops at the report's next section heading",
+      got["23.8"]["recommendation"].endswith("standards for documenting decisions"))
+check("and it is not left unreadable", got["23.8"]["note"] == "")
+
+# A one-word divider set large and bold: matching it as a prefix stopped a
+# dozen recommendations at the first line of their own text.
+DIVIDER = [
+    ("Calibri-Bold", 20, "Services"),
+    ("Calibri-Bold", 11, "Recommendation 10.1: A title"),
+    ("Calibri", 11, "Services Australia should design its policies with care for recipients."),
+    ("Calibri-Bold", 16, "The concept of vulnerability"),
+]
+sample = "\n".join(t for _, _, t in DIVIDER)
+got = E.recommendations_in(sample, "", E.stops_in(sample, E.section_headings_in(sidecar(DIVIDER))),
+                           {"10.1": "A title"})
+check("a heading is matched as a whole line, not as the start of one",
+      got["10.1"]["recommendation"].endswith("care for recipients"))
+
+# A section heading that wraps has a second line that also turns up as an
+# ordinary wrapped line inside a recommendation.
+WRAPPED = [
+    ("DINPro-Medium", 16, "Realising the human rights of people"),
+    ("DINPro-Medium", 16, "with disability"),
+    ("DINPro-Medium", 13, "Recommendation 6.31 Embed the right to equitable access"),
+    ("ArialMT", 11, "The Commission should amend the Charter to include the rights of people"),
+    ("ArialMT", 11, "with disability"),
+    ("ArialMT", 11, "and align it with the Act."),
+]
+sample = "\n".join(t for _, _, t in WRAPPED)
+got = E.recommendations_in(sample, "", E.stops_in(sample, E.section_headings_in(sidecar(WRAPPED))),
+                           {"6.31": "Embed the right to equitable access"})
+check("a wrapped section heading matches only where the whole of it does",
+      got["6.31"]["recommendation"].endswith("and align it with the Act"))
+
+# The recommendation's own heading can wrap onto a line the report uses as a
+# section heading elsewhere; stopping there would cut it off inside its title.
+OWN = [
+    ("DINPro-Medium", 16, "mainstream services"),
+    ("DINPro-Medium", 13, "Recommendation 12.6 Disability flags in data collection for"),
+    ("DINPro-Medium", 13, "mainstream services"),
+    ("ArialMT", 11, "All governments should collect disability data in mainstream services."),
+    ("DINPro-Medium", 16, "A later section"),
+]
+sample = "\n".join(t for _, _, t in OWN)
+got = E.recommendations_in(sample, "", E.stops_in(sample, E.section_headings_in(sidecar(OWN))),
+                           {"12.6": "Disability flags in data collection for mainstream services"})
+check("a recommendation is never stopped inside its own heading",
+      got["12.6"]["recommendation"].endswith("data in mainstream services"))
+
+check("no sidecar: no section headings, and the old behaviour stands",
+      E.section_headings_in(pathlib.Path("/nowhere/x.lines.tsv")) == [])
+
 # --- what the report says it recommends -------------------------------------
 check("the report's own count is read from its own words",
       E.stated_total("The following is a list of 57 recommendations of this Commission.")
