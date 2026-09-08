@@ -25,12 +25,20 @@ function read(name: string): Record<string, string>[] {
   return parseCsv(fs.readFileSync(f, "utf8").replace(/^﻿/, ""));
 }
 
-export interface Commission {
+/**
+ * A report that sets recommendations out under their own numbers, and the
+ * response to it. A commission can have more than one: the Royal Commission
+ * into Defence and Veteran Suicide made 13 recommendations in an interim
+ * report the government answered in 2022, and 122 more in its final report,
+ * answered in 2024. The pair is the unit here because the numbers start again
+ * at one in each of them.
+ */
+export interface CommissionReport {
   id: string;
-  name: string;
-  /** The report documents, earliest tabling first. */
-  reportTabled: string;
-  reportUrl: string;
+  /** "Interim report", "Final report" — what the register's own note calls it. */
+  label: string;
+  tabled: string;
+  url: string;
   responseTabled: string;
   responseUrl: string;
   /** What the report says it recommends, and what the extraction found. */
@@ -40,6 +48,15 @@ export interface Commission {
   daysToRespond: number | null;
   /** Days from the report being tabled to today. */
   daysSinceReport: number;
+}
+
+export interface Commission {
+  id: string;
+  name: string;
+  /** Its reports that carry recommendations, earliest tabling first. */
+  reports: CommissionReport[];
+  /** Every recommendation of every one of them. */
+  found: number;
 }
 
 export interface RcRecommendation {
@@ -84,7 +101,7 @@ const days = (from: string, to: string): number | null => {
 const tabled = (d: Record<string, string>): string =>
   [d.tabled_senate, d.tabled_house].filter(Boolean).sort()[0] ?? "";
 
-/** Every commission the register holds a recommendation for. */
+/** Every commission the index holds a recommendation for. */
 export function commissions(): Commission[] {
   const docs = read("rc_documents.csv");
   const counts = read("rc_recommendation_counts.csv");
@@ -95,26 +112,33 @@ export function commissions(): Commission[] {
     .filter((c) => ids.includes(c.commission_id))
     .map((c) => {
       const mine = docs.filter((d) => d.commission_id === c.commission_id);
-      const report = mine
+      const reports = mine
         .filter((d) => d.role === "report" && d.carries_recommendations)
-        .sort((a, b) => tabled(a).localeCompare(tabled(b)))[0];
-      const response = mine
-        .filter((d) => d.role === "response")
-        .sort((a, b) => tabled(a).localeCompare(tabled(b)))[0];
-      const count = counts.find((x) => x.commission_id === c.commission_id);
-      const reportTabled = report ? tabled(report) : "";
-      const responseTabled = response ? tabled(response) : "";
+        .sort((a, b) => tabled(a).localeCompare(tabled(b)))
+        .map((report) => {
+          // The response that says it answers this report, and no other.
+          const response = mine.find((d) => d.role === "response" && d.answers === report.id);
+          const count = counts.find((x) => x.source_id === report.id);
+          const reportTabled = tabled(report);
+          const responseTabled = response ? tabled(response) : "";
+          return {
+            id: report.id,
+            label: (report.note ?? "").split(";")[0].trim(),
+            tabled: reportTabled,
+            url: report.url ?? "",
+            responseTabled,
+            responseUrl: response?.url ?? "",
+            stated: count?.stated ?? "",
+            found: Number(count?.found ?? 0),
+            daysToRespond: days(reportTabled, responseTabled),
+            daysSinceReport: days(reportTabled, today) ?? 0,
+          };
+        });
       return {
         id: c.commission_id,
         name: c.name,
-        reportTabled,
-        reportUrl: report?.url ?? "",
-        responseTabled,
-        responseUrl: response?.url ?? "",
-        stated: count?.stated ?? "",
-        found: Number(count?.found ?? 0),
-        daysToRespond: days(reportTabled, responseTabled),
-        daysSinceReport: days(reportTabled, today) ?? 0,
+        reports,
+        found: reports.reduce((n, r) => n + r.found, 0),
       };
     });
 }
@@ -122,11 +146,14 @@ export function commissions(): Commission[] {
 /** One row per recommendation: what was recommended, and what was said back. */
 export function rcRecommendations(): RcRecommendation[] {
   const names = new Map(read("royal_commissions.csv").map((c) => [c.commission_id, c.name]));
+  // Keyed by the report as well as the number. A commission answered twice
+  // numbers each set from one, so recommendation 1 of an interim report and
+  // recommendation 1 of a final report are different rows.
   const positions = new Map(
-    read("rc_positions.csv").map((p) => [`${p.commission_id}|${p.label}`, p]),
+    read("rc_positions.csv").map((p) => [`${p.commission_id}|${p.report_id}|${p.label}`, p]),
   );
   return read("rc_recommendations.csv").map((r) => {
-    const p = positions.get(`${r.commission_id}|${r.label}`);
+    const p = positions.get(`${r.commission_id}|${r.source_id}|${r.label}`);
     return {
       commissionId: r.commission_id,
       commission: names.get(r.commission_id) ?? r.commission_id,

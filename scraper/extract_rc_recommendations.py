@@ -85,10 +85,64 @@ COMMISSIONS = DATA / "royal_commissions.csv"
 OUT = DATA / "rc_recommendations.csv"
 COUNTS = DATA / "rc_recommendation_counts.csv"
 
-# The label and the recommendation's own heading, on one line. The chapter
-# number is required: a bare "Recommendation 28" in this corpus is a citation
-# of another commission's report, and the Disability final report carries two.
-HEAD = re.compile(r"(?m)^[ \t]*Recommendation[ \t]+(\d{1,3}\.\d{1,3})[ \t]*:?[ \t]+(\S.*)$")
+# The label and the recommendation's own heading, on one line. Reports do this
+# three ways and which one a report uses is read from the report rather than
+# configured, because getting it wrong either way is silent. Robodebt and the
+# Disability Royal Commission number by chapter — "Recommendation 20.5:
+# Administrative Review Council". Defence and Veteran Suicide numbers straight
+# through — "Recommendation 61: Establish a brain injury program". The Royal
+# Commission on Antisemitism and Social Cohesion gives its recommendations no
+# titles at all: "Recommendation 1" on a line of its own, and the
+# recommendation underneath.
+#
+# Reading them all at once is not an option. A bare number is a citation of
+# somebody else's numbering in the first two reports — the Defence interim
+# report cites the Productivity Commission's three times — and a line carrying
+# nothing but a number is common enough that admitting it everywhere put five
+# of the Disability report's headings under the wrong text.
+# A title never begins in lower case, or with the punctuation that closes a
+# bracket or a clause. What does is a sentence the page broke before a number:
+# "The Government will consider / Recommendation 7.26 as part of its review",
+# "should support / Recommendation 72 by expanding its efforts", "against
+# culture, health and wellbeing targets (see / Recommendation 11) as part of
+# the check". Read as headings, the first two put a heading over the wrong
+# words and the third ended a recommendation before its own answer.
+SHAPES = (
+    ("numbered by chapter", r"(\d{1,3}\.\d{1,3})[ \t]*:?[ \t]+(?![a-z.)\],;])(\S.*)"),
+    ("numbered straight through", r"(\d{1,3})[ \t]*:?[ \t]+(?![a-z.)\],;])(\S.*)"),
+    ("numbered straight through, with no titles", r"(\d{1,3})[ \t]*()"),
+)
+
+
+def head_pattern(shape: str) -> "re.Pattern[str]":
+    return re.compile(r"(?m)^[ \t]*Recommendation[ \t]+" + shape + r"$")
+
+
+HEAD = head_pattern(SHAPES[0][1])
+
+# A contents entry prints its leaders where the title would be. Those are not
+# titles, and a report whose only titles are leaders has no titles.
+LEADERS = re.compile(r"[.…]{6,}")
+
+
+def head_in(body: str) -> "re.Pattern[str]":
+    """How this report heads its recommendations, counted rather than assumed.
+
+    Whichever shape heads more of them, not counting the contents page. It is
+    not close in any report read so far: robodebt 56 by chapter against 1
+    straight through, the Disability report 222 against none, the Defence and
+    Veteran Suicide interim report 3 against 13, its final report none against
+    122, and the Antisemitism report none of either against 14 untitled.
+    """
+    best, most = HEAD, 0
+    for _, shape in SHAPES:
+        pattern = head_pattern(shape)
+        found = {m.group(1) for m in pattern.finditer(body)
+                 if not LEADERS.search(m.group(2) or "")}
+        if len(found) > most:
+            best, most = pattern, len(found)
+    return best
+
 
 # What a report names after its recommendations. Generic on purpose: a list of
 # one report's own section headings would not survive the next report.
@@ -96,8 +150,11 @@ END = re.compile(r"\n[ \t]*(Glossary|Glossaries|Appendix\b|Appendices|Annexure|I
                  r"Endnotes|Bibliography|Abbreviations|Acronyms|Contents\b|"
                  r"Chapter[ \t]+\d|Volume[ \t]+\d|Part[ \t]+\d|List of [A-Z])")
 
+# A paragraph the report numbers: "6.54. In the event of a domestic terrorist
+# attack". A recommendation is never one.
+NUMBERED_PARAGRAPH = re.compile(r"(?m)^[ \t]*\d{1,2}\.\d{1,3}\.[ \t]")
+
 # A contents page prints its leaders. Nothing else in these reports does.
-LEADERS = re.compile(r"[.…]{6,}")
 
 # The line every page carries, which lands in the middle of a recommendation
 # that runs over a page: the commission's name, with the page number before or
@@ -146,11 +203,14 @@ def tidy(raw: str, head: "re.Pattern[str] | None" = None) -> str:
 
 
 def label_key(label: str) -> list[int]:
+    """Sort order. A report numbers one way or the other, never both, so a
+    one-part key and a two-part key are never compared with each other."""
     return [int(p) for p in label.split(".")]
 
 
 def recommendations_in(body: str, name: str = "", stops: list[int] | None = None,
-                       headings: dict[str, str] | None = None) -> dict[str, dict]:
+                       headings: dict[str, str] | None = None,
+                       label_head: "re.Pattern[str] | None" = None) -> dict[str, dict]:
     """label -> {"recommendation", "note"}; the shortest usable text for each.
 
     Every occurrence of a number is tried. A recommendation ends at the next
@@ -161,9 +221,10 @@ def recommendations_in(body: str, name: str = "", stops: list[int] | None = None
     next heading appears.
     """
     head = running_head(name) if name.strip() else None
+    label_head = label_head or head_in(body)
     stops = stops or []
     headings = headings or {}
-    marks = [(m.group(1), m.start(), m.end(), m.group(2)) for m in HEAD.finditer(body)]
+    marks = [(m.group(1), m.start(), m.end(), m.group(2) or "") for m in label_head.finditer(body)]
     usable: dict[str, list[str]] = {}
     seen: dict[str, str] = {}
     for i, (label, start, end, first_line) in enumerate(marks):
@@ -184,7 +245,8 @@ def recommendations_in(body: str, name: str = "", stops: list[int] | None = None
             stop = min(stop, stops[section])
         raw = body[start:stop]
         # Take the label off the front; everything after it is the report's.
-        raw = re.sub(r"^[ \t]*Recommendation[ \t]+\d{1,3}\.\d{1,3}[ \t]*:?[ \t]*", "", raw)
+        raw = (label_head.sub(lambda m: m.group(2) or "", raw, count=1)
+               if label_head.match(raw) else raw)
         cut = END.search(raw)
         if cut:
             raw = raw[:cut.start()]
@@ -231,7 +293,7 @@ def _lines(path: pathlib.Path) -> list[tuple[str, int, str]]:
     return out
 
 
-def section_headings_in(path: pathlib.Path) -> list[str]:
+def section_headings_in(path: pathlib.Path, label_head: "re.Pattern[str] | None" = None) -> list[str]:
     """The report's own section headings, which is where a recommendation stops.
 
     A section heading is set in the same face as the recommendation headings and
@@ -242,14 +304,15 @@ def section_headings_in(path: pathlib.Path) -> list[str]:
     recommendation that crosses a page would stop at the bottom of it.
     """
     rows = _lines(path)
-    styles = {(font, size) for font, size, text in rows if HEAD.match(text)}
+    label_head = label_head or HEAD
+    styles = {(font, size) for font, size, text in rows if label_head.match(text)}
     if not styles:
         return []
     faces = {font for font, _ in styles}
     biggest = max(size for _, size in styles)
     out, run = set(), []
     for font, size, text in rows + [("", 0, "")]:
-        if font in faces and size > biggest and text.strip() and not HEAD.match(text):
+        if font in faces and size > biggest and text.strip() and not label_head.match(text):
             run.append(text.strip())
             continue
         if run:
@@ -270,8 +333,17 @@ def stops_in(body: str, headings: list[str]) -> list[int]:
     "Services" as a divider in Calibri-Bold 20, and matching it as a prefix
     stopped a dozen recommendations at the first line of their own text —
     "Services Australia design its policies and processes…".
+
+    A numbered paragraph stops a recommendation too, and for the same reason a
+    heading does: it is the report resuming. The Antisemitism report numbers
+    every paragraph — "6.54. In the event of a domestic terrorist attack" —
+    and sets its section headings no larger than its recommendation labels, so
+    the typography says nothing and two recommendations ran on with no end.
+    None of the other four documents numbers a paragraph at all, and no
+    published recommendation in any of them contains one, so this can only cut
+    where the report itself says to.
     """
-    offsets: list[int] = []
+    offsets: list[int] = [m.start() for m in NUMBERED_PARAGRAPH.finditer(body)]
     for heading in headings:
         needle = "\n" + heading + "\n"
         at = body.find(needle)
@@ -283,7 +355,7 @@ def stops_in(body: str, headings: list[str]) -> list[int]:
     return sorted(offsets)
 
 
-def headings_in(path: pathlib.Path) -> dict[str, str]:
+def headings_in(path: pathlib.Path, label_head: "re.Pattern[str] | None" = None) -> dict[str, str]:
     """label -> the recommendation's own heading, as the report sets it.
 
     The heading is the label's line and any line after it set the same way. It
@@ -297,14 +369,15 @@ def headings_in(path: pathlib.Path) -> dict[str, str]:
         m = LINE.match(line)
         if m:
             rows.append((m.group(1), m.group(2), m.group(3)))
+    label_head = label_head or HEAD
     out: dict[str, str] = {}
     for i, (font, size, text) in enumerate(rows):
-        head = HEAD.match(text)
+        head = label_head.match(text)
         if not head:
             continue
-        parts = [head.group(2)]
+        parts = [head.group(2) or ""]
         for font2, size2, text2 in rows[i + 1:]:
-            if (font2, size2) != (font, size) or HEAD.match(text2):
+            if (font2, size2) != (font, size) or label_head.match(text2):
                 break
             parts.append(text2)
         heading = " ".join(" ".join(parts).split())
@@ -349,9 +422,23 @@ def write(path: pathlib.Path, fields: list[str], rows: list[dict]) -> None:
     tmp.replace(path)
 
 
+def files_of(document: dict) -> set[str]:
+    """The file ids of this record that carry the recommendations, if it says.
+
+    "yes" means the whole record. A list of file ids means those files: the
+    Defence and Veteran Suicide final report is seven volumes on one record and
+    the recommendations are all in volume 1.
+    """
+    carries = (document.get("carries_recommendations") or "").strip()
+    return set() if carries in ("", "yes") else {x.strip() for x in carries.split(";") if x.strip()}
+
+
 def text_for(document: dict) -> str:
-    """Every cached file of a document, joined as the document is."""
-    parts = sorted(TEXT.glob(f"{document['id']}_*.txt"))
+    """Every cached file of a document that carries recommendations, joined as
+    the document is."""
+    wanted = files_of(document)
+    parts = [p for p in sorted(TEXT.glob(f"{document['id']}_*.txt"))
+             if not wanted or p.stem.split("_", 1)[1] in wanted]
     return "\n".join(p.read_text(encoding="utf-8", errors="replace") for p in parts)
 
 
@@ -371,12 +458,16 @@ def main(argv: list[str]) -> int:
         if not body.strip():
             unread.append(d)
             continue
+        label_head = head_in(body)
         headings, sections = {}, []
+        wanted = files_of(d)
         for path in sorted(TEXT.glob(f"{d['id']}_*.lines.tsv")):
-            headings.update(headings_in(path))
-            sections += section_headings_in(path)
+            if wanted and path.name.split("_", 1)[1].removesuffix(".lines.tsv") not in wanted:
+                continue
+            headings.update(headings_in(path, label_head))
+            sections += section_headings_in(path, label_head)
         found = recommendations_in(body, names.get(d["commission_id"], ""),
-                                   stops_in(body, sorted(set(sections))), headings)
+                                   stops_in(body, sorted(set(sections))), headings, label_head)
         stated, note = stated_total(body)
         unsplit = 0
         for label in sorted(found, key=label_key):
