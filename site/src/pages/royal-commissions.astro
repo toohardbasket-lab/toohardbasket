@@ -18,6 +18,7 @@
  * typed in.
  */
 import Base from "../layouts/Base.astro";
+import { ROYAL_COMMISSIONS_DRAFT } from "../lib/draft";
 import StatTiles from "../components/StatTiles.astro";
 import { fmt, formatDate, formatDateShort, humanDuration } from "../lib/data";
 import { commissions, rcRecommendations, rcFigures, rcLabels } from "../lib/royalCommissions";
@@ -75,6 +76,7 @@ const SHOWN = 25;
 ---
 
 <Base
+  noindex={ROYAL_COMMISSIONS_DRAFT}
   title="Royal commissions — draft"
   description="Draft: every recommendation the Robodebt and Disability royal commissions made, with the government's own words about each one, and no deadline claim of any kind."
 >

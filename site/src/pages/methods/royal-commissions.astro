@@ -16,6 +16,7 @@
  * rule are two chances to disagree.
  */
 import Base from "../../layouts/Base.astro";
+import { ROYAL_COMMISSIONS_DRAFT } from "../../lib/draft";
 import { fmt, formatDate, formatDateShort } from "../../lib/data";
 import {
   commissions, rcFigures, rcLabels, rcSources, rcGrammars, rcRecommendations,
@@ -41,6 +42,7 @@ const wordsMore = quoted.filter((r) => r.governmentWordsMore).length;
 ---
 
 <Base
+  noindex={ROYAL_COMMISSIONS_DRAFT}
   title="Methods: royal commissions"
   description="Draft: how the royal commissions index is built — where the documents come from, whose words a row carries, what counts as a position, and what this index does not claim."
 >
