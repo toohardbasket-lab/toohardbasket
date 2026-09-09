@@ -171,6 +171,34 @@ def existing() -> dict[str, dict]:
         return {r["response_id"]: r for r in csv.DictReader(f)}
 
 
+# A government response is not a committee report, however the pairing arrives.
+RESPONSE_TITLE = re.compile(r"^\s*(australian\s+)?government\s+response\b", re.I)
+
+
+def not_a_report(row: dict, response_ids: set[str]) -> str:
+    """Why this pairing cannot stand, or "" if it can.
+
+    Every route into this file can pair a response with another response. OTD
+    linked response 10128 to document 11618, which is the same answer tabled a
+    second time; the title search paired response 9463 with itself, at 0.83,
+    because a response quotes the report's title and so scores against it. Both
+    were published as "the report it answers".
+
+    The check is cheap and it is the last one before a row is written, so it
+    catches every route at once rather than each of them separately.
+    """
+    rid, target = row["response_id"], row["report_id"]
+    if not target:
+        return ""
+    if target == rid:
+        return "a response cannot answer itself"
+    if target in response_ids:
+        return "the document paired to is itself a government response"
+    if RESPONSE_TITLE.match(row.get("report_title") or ""):
+        return "the document paired to is titled as a government response"
+    return ""
+
+
 def main(argv: list[str]) -> int:
     refetch = "--refetch" in argv
     excluded = {r["id"] for r in csv.DictReader(open(DATA / "scope_exclusions.csv", encoding="utf-8-sig"))}
@@ -193,6 +221,20 @@ def main(argv: list[str]) -> int:
     session = requests.Session()
     counts = {"otd link": 0, "by hand": 0, "title search": 0, "not found": 0, "kept": 0}
     searched = 0
+    response_ids = {d["id"] for d in docs}
+
+    # A row already in the file is kept without being looked at again, which is
+    # what makes the run cheap and is also how a bad pairing survives forever.
+    # Sweep them once against the same check, so a fix here repairs the file
+    # rather than only the rows this run happens to touch.
+    for prior in rows.values():
+        why = not_a_report(prior, response_ids)
+        if why:
+            print(f"  {prior['response_id']}: dropped an existing pairing with "
+                  f"{prior['report_id']} — {why}")
+            prior.update(report_id="", report_title="", report_tabled="", report_url="",
+                         basis=f"refused: {why}")
+
     for d in docs:
         rid = d["id"]
         prior = rows.get(rid)
@@ -242,6 +284,12 @@ def main(argv: list[str]) -> int:
             else:
                 row["basis"] = "not found" if title else "no title in response"
                 counts["not found"] += 1
+        why = not_a_report(row, response_ids)
+        if why:
+            print(f"  {rid}: refused {row['report_id']} — {why}")
+            counts["refused"] = counts.get("refused", 0) + 1
+            row.update(report_id="", report_title="", report_tabled="", report_url="",
+                       basis=f"refused: {why}")
         rows[rid] = row
 
     tmp = OUT.with_suffix(".csv.tmp")

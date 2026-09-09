@@ -9,6 +9,9 @@ import { responsesQuotingNothing } from "../lib/data";
 export const GET: APIRoute = () => {
   const docs = responsesQuotingNothing().map((d) => ({
     i: d.id, d: d.title, c: d.committee, p: d.department, w: d.tabled, h: d.chamber, k: d.classification, u: d.url,
+    // The report answered, where it is known. Absent on most of them; the
+    // page says so rather than leaving the reader at a dead end.
+    rt: d.reportTitle, ru: d.reportUrl,
   }));
   return new Response(JSON.stringify(docs), {
     headers: { "content-type": "application/json; charset=utf-8" },

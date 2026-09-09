@@ -1179,6 +1179,15 @@ export interface QuietResponse {
   chamber: "senate" | "house";
   classification: string;
   url: string;
+  /**
+   * The report this response answers, where the site has established which
+   * one it is. Empty for most of them, and that is the honest state rather
+   * than a gap to be filled by guessing: these are the responses that set out
+   * no recommendations, so they are the hardest in the corpus to pair, and
+   * the page says so rather than showing nothing.
+   */
+  reportTitle: string;
+  reportUrl: string;
 }
 
 /**
@@ -1214,6 +1223,13 @@ export function responsesQuotingNothing(): QuietResponse[] {
     const name = m ? m[1].replace(/\s+/g, " ").replace(/^[\s,:–—-]+|[\s,:–—-]+$/g, "") : "";
     return /committee|commission/i.test(name) && name.length <= 120 ? name : "";
   };
+  // The report each response answers, where link_responses_to_reports.py was
+  // able to establish it. Rows it could not settle carry an empty url and a
+  // basis of "not found" or "no title in response"; they stay empty here.
+  const paired = new Map(read("response_reports.csv")
+    .filter((r) => (r.report_url || "").trim())
+    .map((r) => [r.response_id, { title: r.report_title || "", url: r.report_url }]));
+
   return read("response_documents.csv")
     .filter((r) => !excluded.has(r.id) && !quoted.has(r.id))
     .map((r) => ({
@@ -1225,6 +1241,8 @@ export function responsesQuotingNothing(): QuietResponse[] {
       chamber: (r.tabled_senate ? "senate" : "house") as "senate" | "house",
       classification: r.classification,
       url: r.url,
+      reportTitle: paired.get(r.id)?.title ?? "",
+      reportUrl: paired.get(r.id)?.url ?? "",
     }))
     .sort((a, b) => b.tabled.localeCompare(a.tabled));
 }

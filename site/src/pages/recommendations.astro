@@ -107,7 +107,10 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
         The government's response to each of these is in the corpus, but it does not set the
         committee's recommendations out one by one: it notes them as a group, or answers
         the report in prose, so there is no recommendation this page can show from it. The
-        document itself is linked.
+        response itself is linked, and so is the report it answers where the site has
+        established which report that is. For most of these it has not, and each row says
+        so: a response that sets out no recommendations is the hardest kind to tie to a
+        report, and the site does not guess at one.
       </p>
       <ol class="results" data-quiet-list></ol>
       <p class="more measure" data-quiet-more hidden></p>
@@ -572,7 +575,10 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
             <p class="rec">${mark(d.d, terms)}</p>
             <p class="gov none">The government ${kind}.</p>
             <p class="meta">${d.p ? esc(d.p) + " · " : ""}${esc(when(d.w))} · ${d.h === "house" ? "House" : "Senate"} ·
-              <a href="${esc(d.u)}">the response</a></p>
+              <a href="${esc(d.u)}">the response</a>${d.ru
+                ? ` · <a href="${esc(d.ru)}">the report it answers</a>`
+                : ""}</p>
+            ${d.ru ? "" : `<p class="meta">Which report this answers has not been identified, so it is not linked. The response names it where the response says so.</p>`}
           </li>`;
         }).join("");
         if (m > QUIET_LIMIT) {

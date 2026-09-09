@@ -98,6 +98,9 @@ jobs:
           python harvest_links.py && python link_responses_to_reports.py \
             || echo "Pairing failed; the digest will say the report is unidentified."
 
+      - name: Pairing tests (gate)
+        run: python tests/test_pairing.py
+
       - name: Digest tests (gate)
         run: python tests/test_digest.py
 
