@@ -22,7 +22,9 @@ Three ways a response is tied to the report it answers, in order of strength:
      reasoning written down in the file and the date it was checked. Used only
      where OTD has no link and the titles do not carry the match. Every entry
      is a judgement the site has to be able to defend, so it is kept in the
-     repository next to the data rather than in code.
+     repository next to the data rather than in code. An entry names the report
+     by its OTD id, or, for a report older than the Tabled Documents register,
+     by its exact title and exact tabling date together.
 
   3. The response document's title, which nearly always quotes the report's.
      Strict: four fifths of the report title's distinctive words have to appear
@@ -115,6 +117,40 @@ def _links() -> dict[str, list[str]]:
     return out
 
 
+def _norm(s: str) -> str:
+    """A title reduced to what a person would call the same title."""
+    return " ".join((s or "").split()).casefold()
+
+
+def _by_title() -> dict[tuple[str, str], list[str]]:
+    """(report title, report tabling date) -> response ids, hand-checked.
+
+    The Tabled Documents register begins in April 2022, so a report older than
+    that carries no OTD id and cannot be named by one. JCPAA Report 477 was
+    tabled on 2 April 2019 and answered on 8 September 2026; it has no id, OTD
+    published no link, and the title test cannot see the match, because the
+    register's title carries a whole two-part inquiry and the response names
+    only the first part. The row would have stayed on a public register as
+    unanswered nine weeks after it was answered.
+
+    Keyed on the exact title and the exact tabling date together, so an entry
+    names one row of one register and can name nothing else. Same file, same
+    discipline as the id-keyed entries: the reasoning and the date it was
+    checked are written down beside it.
+    """
+    out: dict[tuple[str, str], list[str]] = {}
+    path = DATA / "response_report_links_manual.csv"
+    if not path.exists():
+        return out
+    with open(path, newline="", encoding="utf-8-sig") as f:
+        for r in csv.DictReader(f):
+            title = (r.get("report_title") or "").strip()
+            tabled = (r.get("report_tabled") or "").strip()[:10]
+            if title and tabled:
+                out.setdefault((_norm(title), tabled), []).append(r["response_id"])
+    return out
+
+
 REPORT_NO = re.compile(r"\breport\s+(?:no\.?\s*)?(\d{1,4})\b", re.I)
 
 
@@ -137,12 +173,20 @@ def finder(as_at: date, chamber: str = ""):
     responses = responses_since(as_at, chamber)
     by_id = {r["response_id"]: r for r in responses}
     links = _links()
+    by_title = _by_title()
 
     def find(row: dict) -> dict | None:
         report_id = (row.get("report_otd_id") or "").strip()
         for rid in links.get(report_id, []):
             if rid in by_id:
                 return dict(by_id[rid], basis="OTD link")
+
+        # A report with no OTD id can still be named, by its exact title and
+        # its exact tabling date, in the hand-checked file.
+        key = (_norm(row.get("title", "")), (row.get("report_tabled") or "").strip()[:10])
+        for rid in by_title.get(key, []):
+            if rid in by_id:
+                return dict(by_id[rid], basis="checked by hand")
 
         t = _key(row.get("title", ""))
         c = _key(row.get("committee", ""))

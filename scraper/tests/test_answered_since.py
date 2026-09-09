@@ -112,11 +112,139 @@ def the_published_list_accounts_for_every_removal() -> bool:
         A.DATA = saved
 
 
+
+def a_hand_checked_entry_names_one_row_and_no_other() -> bool:
+    """The hand-checked file may name a report that has no OTD id.
+
+    The Tabled Documents register starts in April 2022, so an older report
+    carries no id and an id-keyed entry cannot reach it. Such an entry names
+    the report by its title and its tabling date together, and both have to
+    match: a title alone would reach a re-tabled report of the same name, and
+    a date alone would reach every report tabled that day.
+    """
+    import csv
+
+    ok = True
+    manual = list(csv.DictReader(
+        open(A.DATA / "response_report_links_manual.csv", encoding="utf-8-sig")))
+
+    ok &= check("every entry names a report, by id or by title and date",
+                all(r.get("report_id") or (r.get("report_title") and r.get("report_tabled"))
+                    for r in manual), True)
+    ok &= check("every entry says why, and when it was checked",
+                all(len(r.get("basis") or "") > 40 and len(r.get("verified_on") or "") == 10
+                    for r in manual), True)
+
+    # Each title-keyed entry must name exactly one row of one register. A typo
+    # in a copied title is the way this file goes wrong, and it fails silently:
+    # the report simply stays on the register.
+    rows = []
+    for f in ("ledger_v2.csv", "house_ledger.csv"):
+        rows += list(csv.DictReader(open(A.DATA / f, encoding="utf-8-sig")))
+    for r in manual:
+        if not r.get("report_title"):
+            continue
+        key = (A._norm(r["report_title"]), r["report_tabled"][:10])
+        hits = [x for x in rows
+                if (A._norm(x.get("title", "")), (x.get("report_tabled") or "")[:10]) == key]
+        ok &= check(f"entry for response {r['response_id']} names exactly one register row",
+                    len(hits), 1)
+
+    # Both halves of the key are load-bearing.
+    by_title = A._by_title()
+    for r in manual:
+        if not r.get("report_title"):
+            continue
+        title, tabled = A._norm(r["report_title"]), r["report_tabled"][:10]
+        ok &= check("the entry is found by title and date together",
+                    r["response_id"] in by_title.get((title, tabled), []), True)
+        ok &= check("the same title on another date is not the same report",
+                    (title, "1999-01-01") in by_title, False)
+        ok &= check("another title on the same date is not the same report",
+                    ("a report of some other name", tabled) in by_title, False)
+    return bool(ok)
+
+
+def a_hand_checked_entry_removes_nothing_until_the_response_is_on_file() -> bool:
+    """An entry is evidence, not an instruction.
+
+    It names a response by id. Until that response is in the dataset with a
+    tabling date, the row it points at stays on the register, because what
+    removes a report is a tabled government document and not a line in a file.
+    """
+    import csv
+
+    find = A.finder(dt.date(2000, 1, 1))
+    on_file = {r["response_id"] for r in A.responses_since(dt.date(2000, 1, 1))}
+    manual = list(csv.DictReader(
+        open(A.DATA / "response_report_links_manual.csv", encoding="utf-8-sig")))
+
+    ok = True
+    for r in manual:
+        if not r.get("report_title") or r["response_id"] in on_file:
+            continue
+        rows = []
+        for f in ("ledger_v2.csv", "house_ledger.csv"):
+            rows += list(csv.DictReader(open(A.DATA / f, encoding="utf-8-sig")))
+        key = (A._norm(r["report_title"]), r["report_tabled"][:10])
+        for x in rows:
+            if (A._norm(x.get("title", "")), (x.get("report_tabled") or "")[:10]) == key:
+                ok &= check(f"response {r['response_id']} is not on file, so the row stays",
+                            find(x), None)
+    return bool(ok)
+
+
+
+def the_entry_removes_the_row_once_the_response_is_tabled() -> bool:
+    """And when the response is on file, the row does leave.
+
+    The negative test above passes whether the lookup works or was never
+    written, so this one puts the named response on file and requires the
+    removal, on the stated basis.
+    """
+    import csv
+
+    manual = [r for r in csv.DictReader(
+        open(A.DATA / "response_report_links_manual.csv", encoding="utf-8-sig"))
+        if r.get("report_title")]
+    if not manual:
+        return check("no title-keyed entries to exercise", True, True)
+
+    rows = []
+    for f in ("ledger_v2.csv", "house_ledger.csv"):
+        rows += list(csv.DictReader(open(A.DATA / f, encoding="utf-8-sig")))
+
+    ok = True
+    saved = A.responses_since
+    try:
+        for r in manual:
+            key = (A._norm(r["report_title"]), r["report_tabled"][:10])
+            row = next(x for x in rows
+                       if (A._norm(x.get("title", "")), (x.get("report_tabled") or "")[:10]) == key)
+            stub = {"response_id": r["response_id"], "title": "a title that matches nothing",
+                    "tabled": "2026-09-08"}
+            A.responses_since = lambda as_at, chamber="", _s=stub: [dict(_s)]
+            hit = A.finder(dt.date(2026, 1, 1))(row)
+            ok &= check(f"response {r['response_id']} on file removes the row it names",
+                        bool(hit), True)
+            ok &= check("and says the basis was a hand check",
+                        (hit or {}).get("basis"), "checked by hand")
+            # the same response must not carry off a different row
+            others = [x for x in rows if x is not row and A.finder(dt.date(2026, 1, 1))(x)]
+            ok &= check("and removes nothing else", len(others), 0)
+    finally:
+        A.responses_since = saved
+    return bool(ok)
+
+
 def main() -> int:
     results = [numbered_reports_need_matching_numbers(),
                the_published_list_accounts_for_every_removal(),
                a_chamber_only_answers_its_own_register(),
-               the_register_is_current_to_a_date_it_can_state()]
+               the_register_is_current_to_a_date_it_can_state(),
+               a_hand_checked_entry_names_one_row_and_no_other(),
+               a_hand_checked_entry_removes_nothing_until_the_response_is_on_file(),
+               the_entry_removes_the_row_once_the_response_is_tabled()]
     if all(results):
         print("all tests passed")
         return 0
