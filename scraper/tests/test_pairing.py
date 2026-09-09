@@ -16,6 +16,7 @@ response with a response, because nothing was checking what the target was.
 from __future__ import annotations
 
 import csv
+import json
 import pathlib
 import sys
 
@@ -77,6 +78,75 @@ check("every linked pairing points at aph.gov.au",
       all(r["report_url"].startswith("https://www.aph.gov.au/") for r in linked))
 check("a pairing with no report carries no url",
       all(not (r["report_url"] or "").strip() for r in pairs if not r["report_id"]))
+
+# --- the accept test, against real search results ----------------------------
+# Twelve responses the pairing could not settle, and two it should still refuse.
+# The results are what otd.aph.gov.au actually returned on 9 September 2026,
+# kept in tests/fixtures so this runs offline and cannot quietly change when the
+# API's ranking does. Each of the twelve was checked by hand against the
+# committee's own record: one candidate, exact title, right committee, report
+# tabled before the response.
+FIX = pathlib.Path(__file__).resolve().parent / "fixtures" / "pairing_cases_2026-09-09.json"
+cases = json.loads(FIX.read_text(encoding="utf-8"))["cases"]
+wanted = [c for c in cases if c["expect_report_id"]]
+refused = [c for c in cases if not c["expect_report_id"]]
+
+check("the fixture still holds every case", len(wanted) == 12 and len(refused) == 2,
+      f"{len(wanted)} wanted, {len(refused)} refused")
+
+for c in wanted:
+    hit, score = L.best(c["results"], c["query"], c["before"])
+    got = str(hit["id"]) if hit else ""
+    check(f"response {c['response_id']} pairs with report {c['expect_report_id']}",
+          got == c["expect_report_id"] and score >= 0.8, f"got {got or 'nothing'} at {score:.2f}")
+
+# Refused means "not accepted at the bar the pipeline uses" — best() reports its
+# top candidate and its score, and the caller takes it only at 0.8 or better.
+for c in refused:
+    hit, score = L.best(c["results"], c["query"], c["before"])
+    check(f"response {c['response_id']} is still refused — {c['why'][:60]}",
+          hit is None or score < 0.8,
+          f"paired with {hit['id'] if hit else ''} at {score:.2f}")
+
+# --- what the trailing-date rule may and may not touch ------------------------
+check("a trailing month and year is ignored",
+      L.strip_qualifier("Project known as the Iron Boomerang [August 2023]")
+      == "Project known as the Iron Boomerang")
+check("a trailing year alone is ignored",
+      L.strip_qualifier("Eighty Seventh Annual Report (2023)") == "Eighty Seventh Annual Report")
+check("[Provisions] is part of the title and stays",
+      L.strip_qualifier("Fair Work Legislation Amendment Bill 2023 [Provisions]")
+      == "Fair Work Legislation Amendment Bill 2023 [Provisions]")
+check("a year inside the title stays",
+      L.strip_qualifier("Conduct of the 2022 federal election")
+      == "Conduct of the 2022 federal election")
+
+# The year test reads the raw titles, so stripping the qualifier for the score
+# cannot let one year's report answer another year's.
+check("the year test is unaffected by the stripping",
+      not L.agree("Annual report 2021-22", "Annual report 2022-23 [October 2023]"))
+check("an interim report does not answer a final one",
+      not L.agree("Inquiry into X — Final Report", "Inquiry into X [Interim report]"))
+
+# --- a short title has to be unique, not merely exact -------------------------
+def doc(i, title, tabled="2023-01-01"):
+    return {"id": i, "title": title, "author": "A Committee", "department": "A Committee",
+            "tabledSenate": tabled, "tabledHouse": ""}
+
+two = [doc(1, "Corporate insolvency in Australia"), doc(2, "Corporate insolvency in Australia")]
+hit, _ = L.best(two, "Corporate insolvency in Australia", "2026-01-01")
+check("a two-word title with two exact candidates pairs with neither", hit is None,
+      f"paired with {(hit or {}).get('id')}")
+
+one = [doc(1, "Corporate insolvency in Australia"), doc(2, "Corporate plans of Commonwealth entities")]
+hit, score = L.best(one, "Corporate insolvency in Australia", "2026-01-01")
+check("a two-word title with one exact candidate pairs with it",
+      (hit or {}).get("id") == 1, f"got {(hit or {}).get('id')} at {score:.2f}")
+
+near = [doc(1, "Corporate insolvency in Australia and New Zealand")]
+hit, score = L.best(near, "Corporate insolvency in Australia", "2026-01-01")
+check("a two-word title that is only nearly exact pairs with nothing", hit is None,
+      f"paired at {score:.2f}")
 
 print(f"\n{len(PASS)} passed, {len(FAIL)} failed")
 if FAIL:

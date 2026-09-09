@@ -139,13 +139,36 @@ def agree(title: str, candidate: str) -> bool:
     return yt <= yc
 
 
+# The register often titles a report with the month it was tabled — "Project
+# known as the Iron Boomerang [August 2023]" — where the response answering it
+# calls it "Project known as the Iron Boomerang". overlap() takes the lesser of
+# the two directions, so those extra words cost a match that is otherwise
+# exact. Stripped for the SCORE only: agree() keeps reading the raw titles, so
+# the year test that tells one year's report from another is untouched.
+QUALIFIER = re.compile(r"\s*[\[(](?:[A-Z][a-z]+ )?(?:19|20)\d{2}[\])]\s*$")
+
+
+def strip_qualifier(title: str) -> str:
+    prev = None
+    t = (title or "").strip()
+    while t != prev:
+        prev, t = t, QUALIFIER.sub("", t).strip()
+    return t
+
+
 def best(results: list[dict], title: str, before: str) -> tuple[dict | None, float]:
     """The committee document that carries this title, tabled before the response."""
-    top, score = None, 0.0
-    # "Interim Report" or "Report 6/2021" is not enough to search on: too
-    # many documents carry those words and nothing else in common.
-    if len(_tokens(title)) < 3:
+    top, score, exact = None, 0.0, 0
+    if not _tokens(title):
         return None, 0.0
+    # "Interim Report" or "Report 6/2021" is not enough to carry a match on its
+    # own: too many documents share those words and nothing else. But the guard
+    # used to return before any score was looked at, which also threw away
+    # "Corporate insolvency in Australia" — two distinctive words, matching its
+    # report exactly, uniquely, from the right committee. So a short title is
+    # held to the only standard that means anything at that length: one
+    # candidate, matching in full.
+    short = len(_tokens(title)) < 3
     for d in results:
         dtitle = d.get("title") or ""
         if is_response(dtitle):
@@ -158,9 +181,13 @@ def best(results: list[dict], title: str, before: str) -> tuple[dict | None, flo
             continue
         if not agree(title, dtitle):
             continue
-        s = overlap(title, dtitle)
+        s = overlap(strip_qualifier(title), strip_qualifier(dtitle))
+        if s >= 1.0:
+            exact += 1
         if s > score:
             top, score = d, s
+    if short and (score < 1.0 or exact != 1):
+        return None, 0.0
     return top, score
 
 

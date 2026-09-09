@@ -1,0 +1,2946 @@
+{
+ "_note": "Real search results from otd.aph.gov.au, captured 9 September 2026, for the responses the pairing could not settle. Kept verbatim so the accept test can be exercised offline against what the API actually returns.",
+ "captured": "2026-09-09",
+ "cases": [
+  {
+   "response_id": "3386",
+   "response_title": "Australian Government response to the Senate Finance and Public Administration References Committee report: Administration of the referendum into an Aboriginal and Torres Strait Islander Voice [September 2023]",
+   "query": "Administration of the referendum into an Aboriginal and Torres Strait Islander Voice",
+   "before": "2023-09-14",
+   "expect_report_id": "2400",
+   "why": "one candidate, exact once a trailing bracketed date is ignored",
+   "results": [
+    {
+     "id": 2086,
+     "title": "Advisory Report on the Constitution Alteration (Aboriginal and Torres Strait Islander Voice) 2023 [May 2023]",
+     "author": "Joint Select Committee on the Aboriginal and Torres Strait Islander Voice Referendum",
+     "department": "Joint Select Committee on the Aboriginal and Torres Strait Islander Voice Referendum",
+     "tabledSenate": "2023-05-12T14:03:00+10:00",
+     "tabledHouse": "2023-05-22T00:00:00+10:00"
+    },
+    {
+     "id": 3060,
+     "title": "Administration of the referendum into an Aboriginal and Torres Strait Islander Voice [Additional information]",
+     "author": "Finance and Public Administration References Committee",
+     "department": "Finance and Public Administration References Committee",
+     "tabledSenate": "2023-08-10T16:49:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 2400,
+     "title": "Administration of the referendum into an Aboriginal and Torres Strait Islander Voice [June 2023]",
+     "author": "Finance and Public Administration References Committee",
+     "department": "Finance and Public Administration References Committee",
+     "tabledSenate": "2023-06-09T15:56:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 740,
+     "title": "Australian Institute of Aboriginal and Torres Strait Islander Studies Annual Report 2021-22",
+     "author": "Australian Institute of Aboriginal and Torres Strait Islander Studies",
+     "department": "Australian Institute of Aboriginal and Torres Strait Islander Studies",
+     "tabledSenate": "2022-11-21T10:03:00+11:00",
+     "tabledHouse": "2022-11-07T00:00:00+11:00"
+    },
+    {
+     "id": 3386,
+     "title": "Australian Government response to the Senate Finance and Public Administration References Committee report: Administration of the referendum into an Aboriginal and Torres Strait Islander Voice [September 2023]",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-09-14T16:38:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 2493,
+     "title": "Australian Government response to the Joint Select Committee on the Aboriginal and Torres Strait Islander Voice Referendum report: Advisory Report on the Constitution Alteration (Aboriginal and Torres Strait Islander Voice) 2023 [May 2023]",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-06-14T18:14:00+10:00",
+     "tabledHouse": "2023-05-24T00:00:00+10:00"
+    },
+    {
+     "id": 922,
+     "title": "Torres Strait Regional Authority Annual Report 2021-22",
+     "author": "Torres Strait Regional Authority",
+     "department": "Torres Strait Regional Authority",
+     "tabledSenate": "2022-12-08T12:30:00+11:00",
+     "tabledHouse": "2023-02-06T00:00:00+11:00"
+    },
+    {
+     "id": 1182,
+     "title": "Inquiry into community safety, support services and job opportunities in the Northern Territory [February 2023]",
+     "author": "Joint Standing Committee on Aboriginal and Torres Strait Islander Affairs",
+     "department": "Joint Standing Committee on Aboriginal and Torres Strait Islander Affairs",
+     "tabledSenate": "2023-03-01T14:24:00+11:00",
+     "tabledHouse": "2023-03-08T00:00:00+11:00"
+    },
+    {
+     "id": 14454,
+     "title": "Aboriginal and Torres Strait Islander Heritage Protection (Huskisson Churchyard) Emergency Declaration 2022 – Extension",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-02-06T10:02:00+11:00",
+     "tabledHouse": "2023-02-06T00:00:00+11:00"
+    },
+    {
+     "id": 14267,
+     "title": "Aboriginal and Torres Strait Islander Heritage Protection (Huskisson Churchyard) Emergency Declaration 2022",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2022-11-23T09:01:00+11:00",
+     "tabledHouse": "2022-11-22T00:00:00+11:00"
+    },
+    {
+     "id": 1199,
+     "title": "Corporations (Aboriginal and Torres Strait Islander) (Eligible Officer Exclusion – resigned directors) Determination 2023",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-03-06T10:01:00+11:00",
+     "tabledHouse": "2023-03-06T00:00:00+11:00"
+    },
+    {
+     "id": 2736,
+     "title": "Australian Government response to the Joint Standing Committee on Aboriginal and Torres Strait Islander Affairs report: Inquiry into community safety support services and job opportunities in the Northern Territory [June 2023]",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-07-06T14:00:00+10:00",
+     "tabledHouse": "2023-07-31T00:00:00+10:00"
+    },
+    {
+     "id": 867,
+     "title": "Aboriginal Land Commissioner Annual Report 2021-22",
+     "author": "Aboriginal Land Commissioner",
+     "department": "Aboriginal Land Commissioner",
+     "tabledSenate": "2022-11-28T10:01:00+11:00",
+     "tabledHouse": "2022-11-24T00:00:00+11:00"
+    },
+    {
+     "id": 640,
+     "title": "Aboriginal Hostels Limited 2021-22 Annual Report",
+     "author": "Aboriginal Hostels Limited",
+     "department": "Aboriginal Hostels Limited",
+     "tabledSenate": "2022-10-26T09:13:00+11:00",
+     "tabledHouse": "2022-10-26T00:00:00+11:00"
+    },
+    {
+     "id": 2143,
+     "title": "Wreck Bay Aboriginal Community Council annual report 2021-22",
+     "author": "Wreck Bay Aboriginal Community Council",
+     "department": "Wreck Bay Aboriginal Community Council",
+     "tabledSenate": "2023-06-14T09:01:00+10:00",
+     "tabledHouse": "2023-05-11T00:00:00+10:00"
+    },
+    {
+     "id": 2890,
+     "title": "Torres Strait Fisheries (Furnishing of Logbooks) Instrument 2023",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-07-31T11:01:00+10:00",
+     "tabledHouse": "2023-07-31T00:00:00+10:00"
+    },
+    {
+     "id": 2549,
+     "title": "Letter from the Referendum Working Group relating to sovereignty and a Voice to Parliament, dated 2 February 2023",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-06-16T20:17:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 11289,
+     "title": "Appropriations and Administration Report No. 26: Budget estimates 2023-24—Report, May 2023",
+     "author": "Standing Committee on Appropriations and Administration",
+     "department": "Standing Committee on Appropriations and Administration",
+     "tabledSenate": null,
+     "tabledHouse": "2023-05-11T00:00:00+10:00"
+    },
+    {
+     "id": 13839,
+     "title": "Statement relating to the delay in presentation of periodic reports [Torres Strait Regional Authority]",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2022-10-27T09:01:00+11:00",
+     "tabledHouse": "2022-10-27T00:00:00+11:00"
+    },
+    {
+     "id": 11759,
+     "title": "Torres Strait Fisheries Amendment (Finfish) Management Instrument 2022",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2022-07-26T17:01:00+10:00",
+     "tabledHouse": "2022-07-26T00:00:00+10:00"
+    },
+    {
+     "id": 11287,
+     "title": "Appropriations and Administration Report No. 24: Annual Report 2021-22—Report, October 2022",
+     "author": "Standing Committee on Appropriations and Administration",
+     "department": "Standing Committee on Appropriations and Administration",
+     "tabledSenate": null,
+     "tabledHouse": "2022-10-27T00:00:00+11:00"
+    },
+    {
+     "id": 15159,
+     "title": "Fisheries Levy (Torres Strait Prawn Fishery) Amendment (Levy Amount) Repeal Regulations 2022",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-02-06T10:02:00+11:00",
+     "tabledHouse": "2023-02-06T00:00:00+11:00"
+    },
+    {
+     "id": 13783,
+     "title": "Torres Strait Fisheries Tropical Rock Lobster (Total Allowable Catch) Determination 2022",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2022-10-25T12:16:00+11:00",
+     "tabledHouse": "2022-10-25T00:00:00+11:00"
+    },
+    {
+     "id": 15158,
+     "title": "Fisheries Levy (Torres Strait Prawn Fishery) Amendment (Levy Amount) Regulations 2022",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-02-06T10:02:00+11:00",
+     "tabledHouse": "2023-02-06T00:00:00+11:00"
+    },
+    {
+     "id": 2629,
+     "title": "Report 495: Inquiry into Commonwealth grants administration [June 2023]",
+     "author": "Joint Committee of Public Accounts and Audit",
+     "department": "Joint Committee of Public Accounts and Audit",
+     "tabledSenate": "2023-06-29T14:06:00+10:00",
+     "tabledHouse": "2023-07-31T00:00:00+10:00"
+    }
+   ]
+  },
+  {
+   "response_id": "3519",
+   "response_title": "Government Response to the Joint Select Committee on Road Safety report: Driving Reform: final report for the Inquiry into Road Safety [October 2023]",
+   "query": "Driving Reform: final report for the Inquiry into Road Safety",
+   "before": "2023-10-09",
+   "expect_report_id": "11348",
+   "why": "one candidate, exact once a trailing bracketed date is ignored",
+   "results": [
+    {
+     "id": 11348,
+     "title": "Driving reform: Final report for the inquiry into road safety [March 2022]",
+     "author": "Joint Select Committee on Road Safety",
+     "department": "Joint Select Committee on Road Safety",
+     "tabledSenate": null,
+     "tabledHouse": "2022-07-27T00:00:00+10:00"
+    },
+    {
+     "id": 3519,
+     "title": "Government Response to the Joint Select Committee on Road Safety report: Driving Reform: final report for the Inquiry into Road Safety [October 2023]",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-10-09T14:23:00+11:00",
+     "tabledHouse": "2023-10-18T00:00:00+11:00"
+    },
+    {
+     "id": 11413,
+     "title": "Australian Law Reform Commission—Report No. 131—Elder Abuse—A National Legal Response—Final report, May 2017",
+     "author": "Australian Law Reform Commission",
+     "department": "Australian Law Reform Commission",
+     "tabledSenate": null,
+     "tabledHouse": "2022-07-27T00:00:00+10:00"
+    },
+    {
+     "id": 447,
+     "title": "Australian Law Reform Commission Annual Report 2021-22",
+     "author": "Australian Law Reform Commission",
+     "department": "Australian Law Reform Commission",
+     "tabledSenate": "2022-10-19T14:24:00+11:00",
+     "tabledHouse": "2022-10-25T00:00:00+11:00"
+    },
+    {
+     "id": 1182,
+     "title": "Inquiry into community safety, support services and job opportunities in the Northern Territory [February 2023]",
+     "author": "Joint Standing Committee on Aboriginal and Torres Strait Islander Affairs",
+     "department": "Joint Standing Committee on Aboriginal and Torres Strait Islander Affairs",
+     "tabledSenate": "2023-03-01T14:24:00+11:00",
+     "tabledHouse": "2023-03-08T00:00:00+11:00"
+    },
+    {
+     "id": 11336,
+     "title": "Raising the standard: Inquiry into recommendations 10 and 27 of Set the standard: Report on the independent review into Commonwealth parliamentary workplaces",
+     "author": "Standing Committee on Procedure",
+     "department": "Standing Committee on Procedure",
+     "tabledSenate": null,
+     "tabledHouse": "2023-08-07T00:00:00+10:00"
+    },
+    {
+     "id": 736,
+     "title": "Asbestos Safety and Eradication Agency Annual Report 2021-22",
+     "author": "Asbestos Safety and Eradication Agency",
+     "department": "Asbestos Safety and Eradication Agency",
+     "tabledSenate": "2022-11-21T10:03:00+11:00",
+     "tabledHouse": "2022-10-27T00:00:00+11:00"
+    },
+    {
+     "id": 3422,
+     "title": "Inquiry into the Department of Defence Annual Report 2021–22",
+     "author": "Joint Standing Committee on Foreign Affairs, Defence and Trade",
+     "department": "Joint Standing Committee on Foreign Affairs, Defence and Trade",
+     "tabledSenate": "2023-09-14T15:42:00+10:00",
+     "tabledHouse": "2023-09-14T00:00:00+10:00"
+    },
+    {
+     "id": 2629,
+     "title": "Report 495: Inquiry into Commonwealth grants administration [June 2023]",
+     "author": "Joint Committee of Public Accounts and Audit",
+     "department": "Joint Committee of Public Accounts and Audit",
+     "tabledSenate": "2023-06-29T14:06:00+10:00",
+     "tabledHouse": "2023-07-31T00:00:00+10:00"
+    },
+    {
+     "id": 99,
+     "title": "Report 138: Without fear or favour: judicial impartiality and the law on bias—Final and Summary Reports, December 2021",
+     "author": "Australian Law Reform Commission",
+     "department": "Australian Law Reform Commission",
+     "tabledSenate": "2022-08-02T12:04:00+10:00",
+     "tabledHouse": "2022-08-02T00:00:00+10:00"
+    },
+    {
+     "id": 2844,
+     "title": "Inquiry into ASIC investigation and enforcement - Report on compliance with orders for the production of documents",
+     "author": "Economics References Committee",
+     "department": "Economics References Committee",
+     "tabledSenate": "2023-07-19T14:08:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 137,
+     "title": "References not disposed of at the end of the 46th parliament - Inquiry into oil and gas exploration in the Beetaloo Basin; Inquiry into Australia's faunal extinction crisis (to be renamed Inquiry into Australia's extinction crisis)",
+     "author": "Environment and Communications Legislation Committee",
+     "department": "Environment and Communications Legislation Committee",
+     "tabledSenate": "2022-08-04T16:02:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 244,
+     "title": "Inquiry into Extremist Movements and Radicalism in Australia",
+     "author": "Parliamentary Joint Committee on Intelligence and Security",
+     "department": "Parliamentary Joint Committee on Intelligence and Security",
+     "tabledSenate": "2022-09-07T17:56:00+10:00",
+     "tabledHouse": "2022-09-07T00:00:00+10:00"
+    },
+    {
+     "id": 421,
+     "title": "Australian Transport Safety Bureau (ATSB) annual report 2021-22",
+     "author": "Australian Transport Safety Bureau",
+     "department": "Australian Transport Safety Bureau",
+     "tabledSenate": "2022-10-14T14:18:00+11:00",
+     "tabledHouse": "2022-10-25T00:00:00+11:00"
+    },
+    {
+     "id": 554,
+     "title": "Civil Aviation Safety Authority Annual Report 2021-2022",
+     "author": "Civil Aviation Safety Authority",
+     "department": "Civil Aviation Safety Authority",
+     "tabledSenate": "2022-10-25T12:15:00+11:00",
+     "tabledHouse": "2022-10-25T00:00:00+11:00"
+    },
+    {
+     "id": 1645,
+     "title": "Inquiry into the Cyclone Reinsurance Pool First report [March 2023]",
+     "author": "Joint Select Committee on Northern Australia",
+     "department": "Joint Select Committee on Northern Australia",
+     "tabledSenate": "2023-03-30T16:48:00+11:00",
+     "tabledHouse": "2023-03-27T00:00:00+11:00"
+    },
+    {
+     "id": 545,
+     "title": "Aged Care Quality and Safety Commission Annual Report 2021-22",
+     "author": "Aged Care Quality and Safety Commission",
+     "department": "Aged Care Quality and Safety Commission",
+     "tabledSenate": "2022-10-25T12:15:00+11:00",
+     "tabledHouse": "2022-10-25T00:00:00+11:00"
+    },
+    {
+     "id": 558,
+     "title": "Seafarers Safety, Rehabilitation and Compensation Authority Report 2021-22",
+     "author": "Seafarers Safety, Rehabilitation and Compensation Authority",
+     "department": "Seafarers Safety, Rehabilitation and Compensation Authority",
+     "tabledSenate": "2022-10-25T12:15:00+11:00",
+     "tabledHouse": "2022-10-25T00:00:00+11:00"
+    },
+    {
+     "id": 510,
+     "title": "Australian Radiation Protection and Nuclear Safety Agency Annual Report 2021-22",
+     "author": "Australian Radiation Protection and Nuclear Safety Agency",
+     "department": "Australian Radiation Protection and Nuclear Safety Agency",
+     "tabledSenate": "2022-10-24T13:49:00+11:00",
+     "tabledHouse": "2022-10-25T00:00:00+11:00"
+    },
+    {
+     "id": 2736,
+     "title": "Australian Government response to the Joint Standing Committee on Aboriginal and Torres Strait Islander Affairs report: Inquiry into community safety support services and job opportunities in the Northern Territory [June 2023]",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-07-06T14:00:00+10:00",
+     "tabledHouse": "2023-07-31T00:00:00+10:00"
+    },
+    {
+     "id": 744,
+     "title": "Australian Maritime Safety Authority Annual Report 2021-22",
+     "author": "Australian Maritime Safety Authority",
+     "department": "Australian Maritime Safety Authority",
+     "tabledSenate": "2022-11-21T10:03:00+11:00",
+     "tabledHouse": "2022-10-27T00:00:00+11:00"
+    },
+    {
+     "id": 1676,
+     "title": "Report 494: Inquiry into the Department of Foreign Affairs and Trade’s crisis management arrangements [March 2023]",
+     "author": "Joint Committee of Public Accounts and Audit",
+     "department": "Joint Committee of Public Accounts and Audit",
+     "tabledSenate": "2023-03-30T16:48:00+11:00",
+     "tabledHouse": "2023-03-30T00:00:00+11:00"
+    },
+    {
+     "id": 3399,
+     "title": "Report 500: Inquiry into procurement at Services Australia and the NDIA - Interim Report [September 2023]",
+     "author": "Joint Committee of Public Accounts and Audit",
+     "department": "Joint Committee of Public Accounts and Audit",
+     "tabledSenate": "2023-09-14T15:42:00+10:00",
+     "tabledHouse": "2023-09-13T00:00:00+10:00"
+    },
+    {
+     "id": 1700,
+     "title": "Inquiry into international armed conflict decision making [March 2023]",
+     "author": "Joint Standing Committee on Foreign Affairs, Defence and Trade",
+     "department": "Joint Standing Committee on Foreign Affairs, Defence and Trade",
+     "tabledSenate": "2023-03-31T12:46:00+11:00",
+     "tabledHouse": "2023-05-11T00:00:00+10:00"
+    },
+    {
+     "id": 857,
+     "title": "Government response to the parliamentary inquiry into the destruction of the Juukan Gorge",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2022-11-28T17:05:00+11:00",
+     "tabledHouse": null
+    }
+   ]
+  },
+  {
+   "response_id": "5631",
+   "response_title": "Australian Government response to the Education and Employment References Committee report: The national trend of school refusal and related matters [April 2024]",
+   "query": "The national trend of school refusal and related matters",
+   "before": "2024-04-11",
+   "expect_report_id": "3063",
+   "why": "one candidate, exact once a trailing bracketed date is ignored",
+   "results": [
+    {
+     "id": 3063,
+     "title": "The national trend of school refusal and related matters [August 2023]",
+     "author": "Education and Employment References Committee",
+     "department": "Education and Employment References Committee",
+     "tabledSenate": "2023-08-10T16:37:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5631,
+     "title": "Australian Government response to the Education and Employment References Committee report: The national trend of school refusal and related matters [April 2024]",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-04-11T14:55:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 4324,
+     "title": "Conduct of the 2022 federal election and other matters [November 2023]",
+     "author": "Joint Standing Committee on Electoral Matters",
+     "department": "Joint Standing Committee on Electoral Matters",
+     "tabledSenate": "2023-11-29T17:19:00+11:00",
+     "tabledHouse": "2023-11-27T00:00:00+11:00"
+    },
+    {
+     "id": 2565,
+     "title": "Conduct of the 2022 federal election and other matters [Interim report - June 2023]",
+     "author": "Joint Standing Committee on Electoral Matters",
+     "department": "Joint Standing Committee on Electoral Matters",
+     "tabledSenate": "2023-06-20T17:18:00+10:00",
+     "tabledHouse": "2023-06-19T00:00:00+10:00"
+    },
+    {
+     "id": 739,
+     "title": "Australian Film, Television and Radio School Annual Report 2021-22",
+     "author": "Australian Film, Television and Radio School",
+     "department": "Australian Film, Television and Radio School",
+     "tabledSenate": "2022-11-21T10:03:00+11:00",
+     "tabledHouse": "2022-10-27T00:00:00+11:00"
+    },
+    {
+     "id": 3946,
+     "title": "Australian Film, Television and Radio School Annual Report 2022-23",
+     "author": "Australian Film, Television and Radio School",
+     "department": "Australian Film, Television and Radio School",
+     "tabledSenate": "2023-10-26T14:27:00+11:00",
+     "tabledHouse": "2023-11-16T00:00:00+11:00"
+    },
+    {
+     "id": 3924,
+     "title": "Australian Institute for Teaching and School Leadership Annual Report 2022-23",
+     "author": "Australian Institute for Teaching and School Leadership Limited",
+     "department": "Australian Institute for Teaching and School Leadership Limited",
+     "tabledSenate": "2023-10-24T14:00:00+11:00",
+     "tabledHouse": "2023-11-16T00:00:00+11:00"
+    },
+    {
+     "id": 5573,
+     "title": "Annual review of state and territory compliance with section 22A of the Australian Education Act 2013 [2022 funding year]",
+     "author": "National School Resourcing Board",
+     "department": "National School Resourcing Board",
+     "tabledSenate": "2024-04-04T14:08:00+11:00",
+     "tabledHouse": "2024-05-14T00:00:00+10:00"
+    },
+    {
+     "id": 446,
+     "title": "Australian Institute for Teaching and School Leadership Annual Report 2021-22",
+     "author": "Australian Institute for Teaching and School Leadership Limited",
+     "department": "Australian Institute for Teaching and School Leadership Limited",
+     "tabledSenate": "2022-10-19T14:24:00+11:00",
+     "tabledHouse": "2022-10-25T00:00:00+11:00"
+    },
+    {
+     "id": 2127,
+     "title": "Annual review of state and territory compliance with section 22A of the Australian Education Act 2013 2020 funding year",
+     "author": "National School Resourcing Board",
+     "department": "National School Resourcing Board",
+     "tabledSenate": "2023-05-18T14:25:00+10:00",
+     "tabledHouse": "2023-05-23T00:00:00+10:00"
+    },
+    {
+     "id": 15302,
+     "title": "Finance Legislation Amendment (National Intermodal Corporation and other Matters) Regulations 2022",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-02-06T10:02:00+11:00",
+     "tabledHouse": "2022-12-15T00:00:00+11:00"
+    },
+    {
+     "id": 11568,
+     "title": "Taxation Administration (Defence Related International Obligations and Other Matters – Indirect Tax Refunds) Determination 2022",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2022-07-26T17:01:00+10:00",
+     "tabledHouse": "2022-07-26T00:00:00+10:00"
+    },
+    {
+     "id": 93,
+     "title": "Review into the operation of Part 3, Division 1 of the National Security Information (Criminal and Civil Proceedings) Act 2004 as it applies in the Alan Johns matter",
+     "author": "Independent National Security Legislation Monitor",
+     "department": "Independent National Security Legislation Monitor",
+     "tabledSenate": "2022-08-01T10:08:00+10:00",
+     "tabledHouse": "2022-07-28T00:00:00+10:00"
+    },
+    {
+     "id": 2882,
+     "title": "Taxation Administration (Defence Related International Obligations and Other Matters – Indirect Tax Refunds) Determination 2023",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-07-31T11:01:00+10:00",
+     "tabledHouse": "2023-07-31T00:00:00+10:00"
+    },
+    {
+     "id": 9,
+     "title": "Audit report no. 34 of 2021-22—Effectiveness of Public Sector Boards—Australian Film, Television and Radio School: Australian Film, Television and Radio School",
+     "author": "Australian National Audit Office",
+     "department": "Australian National Audit Office",
+     "tabledSenate": "2022-06-16T09:28:00+10:00",
+     "tabledHouse": "2022-07-27T00:00:00+10:00"
+    },
+    {
+     "id": 3071,
+     "title": "National School Resourcing Board — Review of Regional Schooling Resource Standard Loadings: February 2023",
+     "author": "Department of Education",
+     "department": "Department of Education",
+     "tabledSenate": "2023-08-17T14:02:00+10:00",
+     "tabledHouse": "2023-09-05T00:00:00+10:00"
+    },
+    {
+     "id": 762,
+     "title": "National Schools Constitutional Convention - Civics and Citizenship - Communiqué",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2022-11-21T10:03:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5483,
+     "title": "29th National Schools Constitutional Convention Communiquè",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-03-25T10:01:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 350,
+     "title": "Order of 7 September 2022 (29), dated 26 September 2022, relating to industrial relations matters",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2022-09-26T18:09:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5635,
+     "title": "National School Resourcing Board — Review of the Schooling Resource Standard indexation arrangements: March 2024",
+     "author": "Department of Education",
+     "department": "Department of Education",
+     "tabledSenate": "2024-04-11T14:55:00+10:00",
+     "tabledHouse": "2024-05-14T00:00:00+10:00"
+    },
+    {
+     "id": 225,
+     "title": "27th National Schools Constitutional Convention communiqué",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2022-09-05T10:03:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 293,
+     "title": "Order of 7 September 2022 (30), dated 14 September 2022 relating to industrial relations matters",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2022-09-15T14:55:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5249,
+     "title": "Orders of 8 February 2024 (459 and 460) relating to Students with disability loadings settings, and School funding",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-03-01T13:58:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5161,
+     "title": "Orders of 8 February 2024 (459 and 460) relating to Students with disability loadings settings; School funding",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-02-26T17:30:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 4130,
+     "title": "Australian Government response to the Joint Standing Committee on Electoral Matters report: Conduct of the 2022 federal election and other matters – Interim Report [November 2023]",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-11-09T16:05:00+11:00",
+     "tabledHouse": "2023-11-16T00:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "response_id": "6020",
+   "response_title": "Australian Government response to the Senate Rural and Regional Affairs and Transport Legislation Committee report: Primary Industries (Excise) Levies Bill 2023 [Provisions] and related bills [May 2024]",
+   "query": "Primary Industries (Excise) Levies Bill 2023 [Provisions] and related bills",
+   "before": "2024-05-17",
+   "expect_report_id": "4896",
+   "why": "one candidate, exact once a trailing bracketed date is ignored",
+   "results": [
+    {
+     "id": 4896,
+     "title": "Primary Industries (Excise) Levies Bill 2023 [Provisions] and related bills [February 2024]",
+     "author": "Rural and Regional Affairs and Transport Legislation Committee",
+     "department": "Rural and Regional Affairs and Transport Legislation Committee",
+     "tabledSenate": "2024-02-05T14:08:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 6020,
+     "title": "Australian Government response to the Senate Rural and Regional Affairs and Transport Legislation Committee report: Primary Industries (Excise) Levies Bill 2023 [Provisions] and related bills [May 2024]",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-05-17T14:11:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 3500,
+     "title": "Primary Industries (Excise) Levies Amendment (Rubus) Regulations 2023",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-10-16T10:01:00+11:00",
+     "tabledHouse": "2023-10-16T00:00:00+11:00"
+    },
+    {
+     "id": 11263,
+     "title": "Primary Industries (Excise) Levies Amendment (Forest Growers Levies) Regulations 2022",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2022-07-26T17:01:00+10:00",
+     "tabledHouse": "2022-07-26T00:00:00+10:00"
+    },
+    {
+     "id": 2661,
+     "title": "Primary Industries (Excise) Levies Amendment (Stone Fruit) Regulations 2023",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-07-31T11:01:00+10:00",
+     "tabledHouse": "2023-07-31T00:00:00+10:00"
+    },
+    {
+     "id": 5865,
+     "title": "Agriculture (Biosecurity Protection) Levies Bill 2024 [Provisions] and related bills [May 2024]",
+     "author": "Rural and Regional Affairs and Transport Legislation Committee",
+     "department": "Rural and Regional Affairs and Transport Legislation Committee",
+     "tabledSenate": "2024-05-10T14:10:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 1670,
+     "title": "Legislation (Deferral of Sunsetting—Primary Industries (Excise) Levies (Designated Bodies) Declaration) Certificate 2023",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-03-29T09:01:00+11:00",
+     "tabledHouse": "2023-03-28T00:00:00+11:00"
+    },
+    {
+     "id": 2459,
+     "title": "Excise Tariff Amendment (Product Stewardship for Oil) Bill 2023 [Provisions] and Customs Tariff Amendment (Product Stewardship for Oil) Bill 2023 [Provisions] [June 2023]",
+     "author": "Environment and Communications Legislation Committee",
+     "department": "Environment and Communications Legislation Committee",
+     "tabledSenate": "2023-06-13T20:22:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5881,
+     "title": "Administrative Review Tribunal Bill 2023 [Provisions] and related bills",
+     "author": "Legal and Constitutional Affairs Legislation Committee",
+     "department": "Legal and Constitutional Affairs Legislation Committee",
+     "tabledSenate": "2024-05-13T14:16:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 1681,
+     "title": "Housing Australia Future Fund Bill 2023 [Provisions] and related bills",
+     "author": "Economics Legislation Committee",
+     "department": "Economics Legislation Committee",
+     "tabledSenate": "2023-03-30T16:48:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5647,
+     "title": "Help to Buy Bill 2023 [Provisions] and the Help to Buy Bill (Consequential Provisions) Bill 2023 [Provisions] Progress Report",
+     "author": "Economics Legislation Committee",
+     "department": "Economics Legislation Committee",
+     "tabledSenate": "2024-04-16T15:29:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 520,
+     "title": "Financial Accountability Regime Bill 2022 [Provisions], Financial Sector Reform Bill 2022 [Provisions], Financial Services Compensation Scheme of Last Resort Levy Bill 2022 [Provisions] and Financial Services Compensation Scheme of Last Resort Levy (Collection) Bill 2022 [Provisions]",
+     "author": "Economics Legislation Committee",
+     "department": "Economics Legislation Committee",
+     "tabledSenate": "2022-10-24T13:49:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 1567,
+     "title": "Housing Australia Future Fund Bill 2023 [Provisions] and related bills [March 2023]",
+     "author": "Economics Legislation Committee",
+     "department": "Economics Legislation Committee",
+     "tabledSenate": "2023-03-22T20:26:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5659,
+     "title": "Help to Buy Bill 2023 [Provisions] and the Help to Buy Bill (Consequential Provisions) Bill 2023 [Provisions]",
+     "author": "Economics Legislation Committee",
+     "department": "Economics Legislation Committee",
+     "tabledSenate": "2024-04-18T14:04:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 492,
+     "title": "Financial Accountability Regime Bill 2022 [Provisions], Financial Sector Reform Bill 2022 [Provisions], Financial Services Compensation Scheme of Last Resort Levy Bill 2022 [Provisions] and Financial Services Compensation Scheme of Last Resort Levy (Collection) Bill 2022 [Provisions]",
+     "author": "Economics Legislation Committee",
+     "department": "Economics Legislation Committee",
+     "tabledSenate": "2022-10-20T13:59:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5110,
+     "title": "Australian Government Response to the Senate Economics Legislation Committee Report Housing Australia Future Fund Bill 2023 [Provisions] and related bills [January 2024]",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-02-22T14:14:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5880,
+     "title": "Australian Naval Nuclear Power Safety Bill 2023 [Provisions] and Australian Naval Nuclear Power Safety (Transitional Provisions) Bill 2023 [Provisions]",
+     "author": "Foreign Affairs, Defence and Trade Legislation Committee",
+     "department": "Foreign Affairs, Defence and Trade Legislation Committee",
+     "tabledSenate": "2024-05-13T14:16:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 767,
+     "title": "Treasury Laws Amendment (2022 Measures No. 3) Bill 2022 [Provisions] and related bills",
+     "author": "Economics Legislation Committee",
+     "department": "Economics Legislation Committee",
+     "tabledSenate": "2022-11-17T13:57:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 1725,
+     "title": "Inspector-General of Aged Care Bill 2023 [Provisions] and Inspector-General of Aged Care (Consequential and Transitional Provisions) Bill 2023 [Provisions] [April 2023]",
+     "author": "Community Affairs Legislation Committee",
+     "department": "Community Affairs Legislation Committee",
+     "tabledSenate": "2023-04-28T13:54:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5648,
+     "title": "Australian Naval Nuclear Power Safety Bill 2023 [Provisions] and Australian Naval Nuclear Power Safety (Transitional Provisions) Bill 2023 [Provisions] - Progress report",
+     "author": "Foreign Affairs, Defence and Trade Legislation Committee",
+     "department": "Foreign Affairs, Defence and Trade Legislation Committee",
+     "tabledSenate": "2024-04-16T15:29:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 4142,
+     "title": "Water Amendment (Restoring Our Rivers) Bill 2023 [Provisions] [November 2023]",
+     "author": "Environment and Communications Legislation Committee",
+     "department": "Environment and Communications Legislation Committee",
+     "tabledSenate": "2023-11-10T09:41:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5332,
+     "title": "COAG Legislation Amendment Bill 2023 [Provisions]",
+     "author": "Finance and Public Administration Legislation Committee",
+     "department": "Finance and Public Administration Legislation Committee",
+     "tabledSenate": "2024-03-14T14:36:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 1301,
+     "title": "Safeguard Mechanism (Crediting) Amendment Bill 2022 [Provisions] [March 2023]",
+     "author": "Environment and Communications Legislation Committee",
+     "department": "Environment and Communications Legislation Committee",
+     "tabledSenate": "2023-03-06T18:30:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5572,
+     "title": "Superannuation (Objective) Bill 2023 [Provisions]",
+     "author": "Economics Legislation Committee",
+     "department": "Economics Legislation Committee",
+     "tabledSenate": "2024-03-28T14:33:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5879,
+     "title": "Net Zero Economy Authority Bill 2024 [Provisions] and the Net Zero Economy Authority (Transitional Provisions) Bill 2024 [Provisions]",
+     "author": "Finance and Public Administration Legislation Committee",
+     "department": "Finance and Public Administration Legislation Committee",
+     "tabledSenate": "2024-05-13T14:16:00+10:00",
+     "tabledHouse": null
+    }
+   ]
+  },
+  {
+   "response_id": "6238",
+   "response_title": "Australian Government response to the Education and Employment Legislation Committee report: Fair Work Legislation Amendment (Closing Loopholes No.2) Bill 2023 [Provisions] [May 2024]",
+   "query": "Fair Work Legislation Amendment (Closing Loopholes No.2) Bill 2023 [Provisions]",
+   "before": "2024-05-31",
+   "expect_report_id": "4795",
+   "why": "one candidate, exact once a trailing bracketed date is ignored",
+   "results": [
+    {
+     "id": 5206,
+     "title": "Fair Work Legislation Amendment (Closing Loopholes No.2) Bill 2023 [Provisions] [Additional information]",
+     "author": "Education and Employment Legislation Committee",
+     "department": "Education and Employment Legislation Committee",
+     "tabledSenate": "2024-02-29T16:27:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 4795,
+     "title": "Fair Work Legislation Amendment (Closing Loopholes No. 2) Bill 2023 [Provisions] [February 2024]",
+     "author": "Education and Employment Legislation Committee",
+     "department": "Education and Employment Legislation Committee",
+     "tabledSenate": "2024-02-01T14:38:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 6238,
+     "title": "Australian Government response to the Education and Employment Legislation Committee report: Fair Work Legislation Amendment (Closing Loopholes No.2) Bill 2023 [Provisions] [May 2024]",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-05-31T14:03:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 163,
+     "title": "General Manager’s report for 2018-21—Operation of the provisions of the National Employment Standards relating to requests for flexible working arrangements and extensions of unpaid parental leave under the Fair Work Act 2009",
+     "author": "Fair Work Commission",
+     "department": "Fair Work Commission",
+     "tabledSenate": "2022-04-14T13:42:00+10:00",
+     "tabledHouse": "2022-07-27T00:00:00+10:00"
+    },
+    {
+     "id": 3806,
+     "title": "Fair Work Commission Annual Report 2022-23",
+     "author": "Fair Work Commission",
+     "department": "Fair Work Commission",
+     "tabledSenate": "2023-10-18T09:01:00+11:00",
+     "tabledHouse": "2023-10-18T00:00:00+11:00"
+    },
+    {
+     "id": 1728,
+     "title": "Fair Work Legislation Amendment (Protecting Worker Entitlements) Bill 2023 [Provisions] [April 2023]",
+     "author": "Education and Employment Legislation Committee",
+     "department": "Education and Employment Legislation Committee",
+     "tabledSenate": "2023-04-28T13:54:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 840,
+     "title": "Fair Work Legislation Amendment (Secure Jobs, Better Pay) Bill 2022 [Provisions]",
+     "author": "Education and Employment Legislation Committee",
+     "department": "Education and Employment Legislation Committee",
+     "tabledSenate": "2022-11-22T18:47:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 768,
+     "title": "Fair Work Legislation Amendment (Secure Jobs, Better Pay) Bill 2022 [Provisions]",
+     "author": "Education and Employment Legislation Committee",
+     "department": "Education and Employment Legislation Committee",
+     "tabledSenate": "2022-11-17T13:57:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 1326,
+     "title": "Fair Work Legislation Amendment (Secure Jobs, Better Pay) Bill 2022 [Provisions]",
+     "author": "Education and Employment Legislation Committee",
+     "department": "Education and Employment Legislation Committee",
+     "tabledSenate": "2023-03-07T17:55:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 632,
+     "title": "Fair Work Commission Annual Report 2021-22",
+     "author": "Fair Work Commission",
+     "department": "Fair Work Commission",
+     "tabledSenate": "2022-10-26T09:13:00+11:00",
+     "tabledHouse": "2022-10-26T00:00:00+11:00"
+    },
+    {
+     "id": 892,
+     "title": "Fair Work Legislation Amendment (Secure Jobs, Better Pay) Bill 2022 [Provisions]",
+     "author": "Education and Employment Legislation Committee",
+     "department": "Education and Employment Legislation Committee",
+     "tabledSenate": "2022-11-30T16:46:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 1064,
+     "title": "Fair Work Legislation Amendment (Secure Jobs, Better Pay) Bill 2022 [Provisions]",
+     "author": "Education and Employment Legislation Committee",
+     "department": "Education and Employment Legislation Committee",
+     "tabledSenate": "2023-02-07T18:43:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 162,
+     "title": "General Manager’s report for 2018-21—Individual flexibility arrangements under the Fair Work Act 2009",
+     "author": "Fair Work Commission",
+     "department": "Fair Work Commission",
+     "tabledSenate": "2022-04-14T13:42:00+10:00",
+     "tabledHouse": "2022-07-27T00:00:00+10:00"
+    },
+    {
+     "id": 161,
+     "title": "General Manager’s report for 2018-21—Developments in making enterprise agreements under the Fair Work Act 2009",
+     "author": "Fair Work Commission",
+     "department": "Fair Work Commission",
+     "tabledSenate": "2022-04-14T13:42:00+10:00",
+     "tabledHouse": "2022-07-27T00:00:00+10:00"
+    },
+    {
+     "id": 3914,
+     "title": "Fair Work Ombudsman, Registered Organisations Commission Entity and Australian Building Construction Commission Annual Report 2022-23",
+     "author": "Fair Work Ombudsman",
+     "department": "Fair Work Ombudsman and Registered Organisations Commission Entity",
+     "tabledSenate": "2023-10-23T13:59:00+11:00",
+     "tabledHouse": "2023-11-28T00:00:00+11:00"
+    },
+    {
+     "id": 3935,
+     "title": "Housing Australia Future Fund Bill 2023 [No. 2] [Provisions], National Housing Supply and Affordability Council Bill 2023 [No. 2] [Provisions] and Treasury Laws Amendment (Housing Measures No. 1) Bill 2023 [No. 2] [Provisions] 24 October 2023]",
+     "author": "Economics Legislation Committee",
+     "department": "Economics Legislation Committee",
+     "tabledSenate": "2023-10-24T14:00:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 210,
+     "title": "Fair Work Amendment (Paid Family and Domestic Violence Leave) Bill 2022 [Provisions]",
+     "author": "Education and Employment Legislation Committee",
+     "department": "Education and Employment Legislation Committee",
+     "tabledSenate": "2022-09-01T14:00:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5340,
+     "title": "Fair Work Amendment Bill 2024",
+     "author": "Education and Employment Legislation Committee",
+     "department": "Education and Employment Legislation Committee",
+     "tabledSenate": "2024-03-14T14:36:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5332,
+     "title": "COAG Legislation Amendment Bill 2023 [Provisions]",
+     "author": "Finance and Public Administration Legislation Committee",
+     "department": "Finance and Public Administration Legislation Committee",
+     "tabledSenate": "2024-03-14T14:36:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5375,
+     "title": "Indexed lists of departmental and agency files for the period 1 July to 31 December 2023 - Fair Work Ombudsman",
+     "author": "Fair Work Ombudsman",
+     "department": "Employment and Workplace Relations portfolio",
+     "tabledSenate": "2024-03-19T12:01:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 515,
+     "title": "Fair Work Amendment (Equal Pay for Equal Work) Bill 2022",
+     "author": "Education and Employment Legislation Committee",
+     "department": "Education and Employment Legislation Committee",
+     "tabledSenate": "2022-10-24T13:49:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 717,
+     "title": "Anti-Discrimination and Human Rights Legislation Amendment (Respect at Work) Bill 2022 [Provisions]",
+     "author": "Legal and Constitutional Affairs Legislation Committee",
+     "department": "Legal and Constitutional Affairs Legislation Committee",
+     "tabledSenate": "2022-11-03T14:00:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 1375,
+     "title": "Workplace Gender Equality Amendment (Closing the Gender Pay Gap) Bill 2023",
+     "author": "Finance and Public Administration Legislation Committee",
+     "department": "Finance and Public Administration Legislation Committee",
+     "tabledSenate": "2023-03-16T13:45:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5173,
+     "title": "Treasury Laws Amendment (Making Multinationals Pay Their Fair Share—Integrity and Transparency) Bill 2023 [Provisions] [Additional information]",
+     "author": "Economics Legislation Committee",
+     "department": "Economics Legislation Committee",
+     "tabledSenate": "2024-02-27T18:32:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 1555,
+     "title": "Fair Work and Other Legislation Amendment Regulations 2023",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-03-22T09:01:00+11:00",
+     "tabledHouse": "2023-03-21T00:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "response_id": "7094",
+   "response_title": "Australian Government response to the Parliamentary Standing Committee on Public Works report: Eighty Seventh Annual Report",
+   "query": "Eighty Seventh Annual Report",
+   "before": "2024-08-20",
+   "expect_report_id": "5549",
+   "why": "one candidate, exact once a trailing bracketed date is ignored",
+   "results": [
+    {
+     "id": 5549,
+     "title": "Eighty Seventh Annual Report (2023)",
+     "author": "Parliamentary Standing Committee on Public Works",
+     "department": "Parliamentary Standing Committee on Public Works",
+     "tabledSenate": "2024-05-14T16:58:00+10:00",
+     "tabledHouse": "2024-03-26T00:00:00+11:00"
+    },
+    {
+     "id": 7094,
+     "title": "Australian Government response to the Parliamentary Standing Committee on Public Works report: Eighty Seventh Annual Report",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-08-20T17:27:00+10:00",
+     "tabledHouse": "2024-08-20T00:00:00+10:00"
+    },
+    {
+     "id": 1507,
+     "title": "Eighty Sixth Annual Report (2022)",
+     "author": "Parliamentary Standing Committee on Public Works",
+     "department": "Parliamentary Standing Committee on Public Works",
+     "tabledSenate": "2023-03-21T17:38:00+11:00",
+     "tabledHouse": "2023-03-21T00:00:00+11:00"
+    },
+    {
+     "id": 238,
+     "title": "Eighty Fifth Annual Report (2021)",
+     "author": "Parliamentary Standing Committee on Public Works",
+     "department": "Parliamentary Standing Committee on Public Works",
+     "tabledSenate": "2022-09-06T16:56:00+10:00",
+     "tabledHouse": "2022-09-06T00:00:00+10:00"
+    },
+    {
+     "id": 3649,
+     "title": "Higher Education Support Amendment (Response to the Australian Universities Accord Interim Report) Bill 2023 [Provisions] [Dissenting report]",
+     "author": "Dissenting report from Coalition senators",
+     "department": "Education and Employment Legislation Committee",
+     "tabledSenate": "2023-10-12T14:10:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 4991,
+     "title": "List of Specimens taken to be Suitable for Live Import Amendment (seven species of rainbowfish) Instrument 2023",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-02-08T09:01:00+11:00",
+     "tabledHouse": "2024-02-07T00:00:00+11:00"
+    },
+    {
+     "id": 5850,
+     "title": "Annual report 2023",
+     "author": "Standing Committee for the Scrutiny of Bills",
+     "department": "Standing Committee for the Scrutiny of Bills",
+     "tabledSenate": "2024-05-09T14:35:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 6735,
+     "title": "Annual report 2023 [Corrigendum]",
+     "author": "Standing Committee for the Scrutiny of Delegated Legislation",
+     "department": "Standing Committee for the Scrutiny of Delegated Legislation",
+     "tabledSenate": "2024-07-05T14:20:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 6016,
+     "title": "Annual report 2023",
+     "author": "Standing Committee for the Scrutiny of Delegated Legislation",
+     "department": "Standing Committee for the Scrutiny of Delegated Legislation",
+     "tabledSenate": "2024-05-17T14:11:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 7078,
+     "title": "Annual reports (No. 2 of 2024)",
+     "author": "Finance and Public Administration Legislation Committee",
+     "department": "Finance and Public Administration Legislation Committee",
+     "tabledSenate": "2024-08-20T17:11:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 595,
+     "title": "Report 493: Annual Report 2021-22",
+     "author": "Joint Committee of Public Accounts and Audit",
+     "department": "Joint Committee of Public Accounts and Audit",
+     "tabledSenate": "2022-10-25T17:44:00+11:00",
+     "tabledHouse": "2022-10-25T00:00:00+11:00"
+    },
+    {
+     "id": 4177,
+     "title": "Report 501: Annual report 2022-23",
+     "author": "Joint Committee of Public Accounts and Audit",
+     "department": "Joint Committee of Public Accounts and Audit",
+     "tabledSenate": "2023-11-15T17:10:00+11:00",
+     "tabledHouse": "2023-11-15T00:00:00+11:00"
+    },
+    {
+     "id": 7079,
+     "title": "Annual reports (No. 2 of 2024)",
+     "author": "Economics Legislation Committee",
+     "department": "Economics Legislation Committee",
+     "tabledSenate": "2024-08-20T17:11:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 7081,
+     "title": "Annual reports (No. 2 of 2024)",
+     "author": "Rural and Regional Affairs and Transport Legislation Committee",
+     "department": "Rural and Regional Affairs and Transport Legislation Committee",
+     "tabledSenate": "2024-08-20T17:11:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5570,
+     "title": "Annual reports (No. 1 of 2024)",
+     "author": "Environment and Communications Legislation Committee",
+     "department": "Environment and Communications Legislation Committee",
+     "tabledSenate": "2024-03-28T14:33:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 4407,
+     "title": "Screenrights Annual Report 2022-23",
+     "author": "Screenrights",
+     "department": "Screenrights",
+     "tabledSenate": "2023-12-04T10:01:00+11:00",
+     "tabledHouse": "2023-12-07T00:00:00+11:00"
+    },
+    {
+     "id": 4904,
+     "title": "Bundanon annual report 2022-23",
+     "author": "Bundanon Trust",
+     "department": "Bundanon Trust",
+     "tabledSenate": "2024-02-07T09:01:00+11:00",
+     "tabledHouse": "2024-02-07T00:00:00+11:00"
+    },
+    {
+     "id": 7059,
+     "title": "Annual reports (No. 2 of 2024)",
+     "author": "Community Affairs Legislation Committee",
+     "department": "Community Affairs Legislation Committee",
+     "tabledSenate": "2024-08-20T17:11:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 422,
+     "title": "ASIC annual report 2021-22",
+     "author": "Australian Securities and Investments Commission",
+     "department": "Australian Securities and Investments Commission",
+     "tabledSenate": "2022-10-14T14:18:00+11:00",
+     "tabledHouse": "2022-10-25T00:00:00+11:00"
+    },
+    {
+     "id": 7082,
+     "title": "Annual reports (No. 2 of 2024)",
+     "author": "Environment and Communications Legislation Committee",
+     "department": "Environment and Communications Legislation Committee",
+     "tabledSenate": "2024-08-20T17:12:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5452,
+     "title": "Annual reports (No. 1 of 2024)",
+     "author": "Community Affairs Legislation Committee",
+     "department": "Community Affairs Legislation Committee",
+     "tabledSenate": "2024-03-20T18:09:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 3791,
+     "title": "ASIO Annual Report 2022-23",
+     "author": "Australian Security Intelligence Organisation",
+     "department": "Australian Security Intelligence Organisation",
+     "tabledSenate": "2023-10-18T09:01:00+11:00",
+     "tabledHouse": "2023-10-18T00:00:00+11:00"
+    },
+    {
+     "id": 7036,
+     "title": "Annual reports (No. 2 of 2024)",
+     "author": "Legal and Constitutional Affairs Legislation Committee",
+     "department": "Legal and Constitutional Affairs Legislation Committee",
+     "tabledSenate": "2024-08-20T17:11:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5450,
+     "title": "Annual reports (No. 1 of 2024)",
+     "author": "Education and Employment Legislation Committee",
+     "department": "Education and Employment Legislation Committee",
+     "tabledSenate": "2024-03-20T18:09:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 919,
+     "title": "Screenrights Annual Report 2021-22",
+     "author": "Screenrights",
+     "department": "Screenrights",
+     "tabledSenate": "2022-12-08T12:30:00+11:00",
+     "tabledHouse": "2023-02-06T00:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "response_id": "8364",
+   "response_title": "Australian Government Response to the Rural and Regional Affairs and Transport References Committee report: Project known as the Iron Boomerang",
+   "query": "Project known as the Iron Boomerang",
+   "before": "2024-11-26",
+   "expect_report_id": "3061",
+   "why": "one candidate, exact once a trailing bracketed date is ignored",
+   "results": [
+    {
+     "id": 3061,
+     "title": "Project known as the Iron Boomerang [August 2023]",
+     "author": "Rural and Regional Affairs and Transport References Committee",
+     "department": "Rural and Regional Affairs and Transport References Committee",
+     "tabledSenate": "2023-08-10T16:49:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 8364,
+     "title": "Australian Government Response to the Rural and Regional Affairs and Transport References Committee report: Project known as the Iron Boomerang",
+     "author": "Department of Industry, Science and Resources",
+     "department": "Department of Industry, Science and Resources",
+     "tabledSenate": "2024-11-26T18:28:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 1614,
+     "title": "A New Tax System (Goods and Services Tax): Waiver of Tax Invoice Requirement (Acquisitions Where Total Consideration Not Known) Determination 2023",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-03-27T10:01:00+11:00",
+     "tabledHouse": "2023-03-27T00:00:00+11:00"
+    },
+    {
+     "id": 28,
+     "title": "The planning, construction and management of the Western Sydney Airport project",
+     "author": "Finance and Public Administration References Committee",
+     "department": "Finance and Public Administration References Committee",
+     "tabledSenate": "2022-06-30T14:19:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 8434,
+     "title": "Infrastructure projects in the division of Lyne",
+     "author": "Dr Gillespie",
+     "department": null,
+     "tabledSenate": null,
+     "tabledHouse": "2024-11-25T00:00:00+11:00"
+    },
+    {
+     "id": 6783,
+     "title": "Glencore’s proposed carbon capture and storage project",
+     "author": "Environment and Communications References Committee",
+     "department": "Environment and Communications References Committee",
+     "tabledSenate": "2024-07-11T13:58:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 1974,
+     "title": "Clean Energy Regulator (Human-Induced Regeneration Projects) Direction 2023",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-05-09T12:02:00+10:00",
+     "tabledHouse": "2023-05-09T00:00:00+10:00"
+    },
+    {
+     "id": 1124,
+     "title": "Agency advertising and public information projects - National Asbestos Awareness Campaign",
+     "author": "Asbestos Safety and Eradication Agency",
+     "department": "Employment and Workplace Relations portfolio",
+     "tabledSenate": "2023-02-13T14:16:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 401,
+     "title": "Reference of works - Department of Defence - HMAS Harman redevelopment project",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2022-09-27T15:37:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 6952,
+     "title": "Linkage Program Grant Guidelines (2024 edition): Linkage Projects",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-08-12T10:01:00+10:00",
+     "tabledHouse": "2024-08-12T00:00:00+10:00"
+    },
+    {
+     "id": 4462,
+     "title": "Order of 14 November 2023 (386) relating to the Smoky Creek solar project",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-12-07T17:54:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 9008,
+     "title": "Do you or anyone know where Stuart Robert’s mate John Margerison is?—Julian Hill MP, Twitter (X) post, 28 July 2023",
+     "author": null,
+     "department": null,
+     "tabledSenate": null,
+     "tabledHouse": "2024-08-12T00:00:00+10:00"
+    },
+    {
+     "id": 6550,
+     "title": "Telecommunications (Statutory Infrastructure Providers—Exempt Real Estate Development Projects and Building Redevelopment Projects) Amendment Determination (No. 1) 2024",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-07-01T11:31:00+10:00",
+     "tabledHouse": "2024-06-27T00:00:00+10:00"
+    },
+    {
+     "id": 8170,
+     "title": "Order of 10 September 2024 (602) relating to McPhillamys gold mine project",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-11-05T14:02:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 6956,
+     "title": "Discovery Program Grant Guidelines (2024 edition): Discovery Projects",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-08-12T10:01:00+10:00",
+     "tabledHouse": "2024-08-12T00:00:00+10:00"
+    },
+    {
+     "id": 6263,
+     "title": "Order of 15 May 2024 (514) relating to the Research Supply Icebreaker Project",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-05-31T14:03:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 4936,
+     "title": "Order of 7 December 2023 (443) relating to Launceston City Deal projects",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-02-06T18:09:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 4524,
+     "title": "Order of 6 December 2023 (434) relating to Snowy 2.0 project",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-12-14T13:57:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 10360,
+     "title": "Linkage Program Grant Guidelines (2022 edition): Linkage Projects",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2022-07-26T17:01:00+10:00",
+     "tabledHouse": "2022-07-26T00:00:00+10:00"
+    },
+    {
+     "id": 6216,
+     "title": "Order of 15 May 2024 (514) relating to the Research Supply Icebreaker Project",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-05-29T14:03:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 4327,
+     "title": "Order of 9 November 2023 (381) relating to Barossa gas project",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-11-28T18:37:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 6021,
+     "title": "Government response to the Senate Economics References Committee Australia's sovereign naval shipbuilding capability – Future Submarine Acquisition: A shambles - we don't think, we know [May 2024]",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-06-25T17:24:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 7730,
+     "title": "Order of 19 September 2024 (630) relating to the Macquarie Island modernisation project",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-10-14T12:47:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 7423,
+     "title": "Order of 10 September 2024 (603) relating to the Macquarie Island modernisation project",
+     "author": "Department of Climate Change, Energy, the Environment and Water",
+     "department": "Department of Climate Change, Energy, the Environment and Water",
+     "tabledSenate": "2024-09-17T17:58:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5484,
+     "title": "Order of 6 December 2023 (430) relating to the Barossa gas project",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-03-21T15:42:00+11:00",
+     "tabledHouse": null
+    }
+   ]
+  },
+  {
+   "response_id": "16602",
+   "response_title": "Government Response - Joint Standing Committee on the National Capital and External Territories report: A Capital for All Australians Report of the inquiry into fostering and promoting the significance of Australia’s National Capital",
+   "query": "A Capital for All Australians Report of the inquiry into fostering and promoting the significance of Australia’s National Capital",
+   "before": "2026-05-29",
+   "expect_report_id": "5996",
+   "why": "one candidate, exact once a trailing bracketed date is ignored",
+   "results": [
+    {
+     "id": 16602,
+     "title": "Government Response - Joint Standing Committee on the National Capital and External Territories report: A Capital for All Australians Report of the inquiry into fostering and promoting the significance of Australia’s National Capital",
+     "author": "Infrastructure, Transport, Regional Development, Communications, Sport and the Arts portfolio",
+     "department": "Infrastructure, Transport, Regional Development, Communications, Sport and the Arts portfolio",
+     "tabledSenate": "2026-05-29T14:06:00+10:00",
+     "tabledHouse": "2026-06-02T00:00:00+10:00"
+    },
+    {
+     "id": 5996,
+     "title": "A Capital for All Australians Report of the inquiry into fostering and promoting the significance of Australia's National Capital [May 2024]",
+     "author": "Joint Standing Committee on the National Capital and External Territories",
+     "department": "Joint Standing Committee on the National Capital and External Territories",
+     "tabledSenate": "2024-06-25T17:24:00+10:00",
+     "tabledHouse": "2024-05-15T00:00:00+10:00"
+    },
+    {
+     "id": 16381,
+     "title": "Government Response to the PWC Report National Capital Authority - Commonwealth Avenue Bridge Renewal Project",
+     "author": "National Capital Authority",
+     "department": "Infrastructure, Transport, Regional Development, Communications, Sport and the Arts portfolio",
+     "tabledSenate": "2026-05-14T16:04:00+10:00",
+     "tabledHouse": "2026-05-14T00:00:00+10:00"
+    },
+    {
+     "id": 15584,
+     "title": "Report on the Operation of the Capital Gains Tax Discount",
+     "author": "Select Committee on the Operation of the Capital Gains Tax Discount",
+     "department": "Select Committee on the Operation of the Capital Gains Tax Discount",
+     "tabledSenate": "2026-03-17T15:10:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 3972,
+     "title": "National Capital Authority Annual Report 2022-23",
+     "author": "National Capital Authority",
+     "department": "National Capital Authority",
+     "tabledSenate": "2023-10-31T14:13:00+11:00",
+     "tabledHouse": "2023-11-16T00:00:00+11:00"
+    },
+    {
+     "id": 9293,
+     "title": "Australia's Antarctic Territory: Inquiry into the Importance of Antarctica to Australia's National Interests",
+     "author": "Joint Standing Committee on the National Capital and External Territories",
+     "department": "Joint Standing Committee on the National Capital and External Territories",
+     "tabledSenate": "2025-02-11T18:46:00+11:00",
+     "tabledHouse": "2025-02-10T00:00:00+11:00"
+    },
+    {
+     "id": 703,
+     "title": "National Capital Authority Annual Report 2021-22",
+     "author": "National Capital Authority",
+     "department": "National Capital Authority",
+     "tabledSenate": "2022-11-03T14:00:00+11:00",
+     "tabledHouse": "2022-11-07T00:00:00+11:00"
+    },
+    {
+     "id": 16240,
+     "title": "Australian Government response to the Joint Standing Committee on the National Capital and External Territories report on Australia’s Antarctic Territory",
+     "author": "Department of Climate Change, Energy, the Environment and Water",
+     "department": "Department of Climate Change, Energy, the Environment and Water",
+     "tabledSenate": "2026-05-12T17:54:00+10:00",
+     "tabledHouse": "2026-05-12T00:00:00+10:00"
+    },
+    {
+     "id": 7824,
+     "title": "National Capital Authority Annual Report 2023-24",
+     "author": "National Capital Authority",
+     "department": "Infrastructure, Transport, Regional Development, Communications and the Arts portfolio",
+     "tabledSenate": "2024-10-25T14:03:00+11:00",
+     "tabledHouse": "2024-11-04T00:00:00+11:00"
+    },
+    {
+     "id": 15504,
+     "title": "Report 515: Inquiry into the effectiveness of Australia's National Anti-Doping Scheme",
+     "author": "Joint Committee of Public Accounts and Audit",
+     "department": "Joint Committee of Public Accounts and Audit",
+     "tabledSenate": "2026-03-12T17:15:00+11:00",
+     "tabledHouse": "2026-03-12T00:00:00+11:00"
+    },
+    {
+     "id": 13583,
+     "title": "National Capital Authority Annual Report 2024-25",
+     "author": "National Capital Authority",
+     "department": "Infrastructure, Transport, Regional Development, Communications, Sport and the Arts portfolio",
+     "tabledSenate": "2025-11-04T12:01:00+11:00",
+     "tabledHouse": "2025-11-04T00:00:00+11:00"
+    },
+    {
+     "id": 15534,
+     "title": "Government response to the Inquiry into the jurisdiction of the Australian Commission for Law Enforcement Integrity",
+     "author": "Attorney-General's Department",
+     "department": "Attorney-General's Department",
+     "tabledSenate": "2026-03-19T15:00:00+11:00",
+     "tabledHouse": "2026-03-23T00:00:00+11:00"
+    },
+    {
+     "id": 4325,
+     "title": "Restoring Democracy: Report of the inquiry into local governance on Norfolk Island",
+     "author": "Joint Standing Committee on the National Capital and External Territories",
+     "department": "Joint Standing Committee on the National Capital and External Territories",
+     "tabledSenate": "2023-11-28T17:49:00+11:00",
+     "tabledHouse": "2023-11-27T00:00:00+11:00"
+    },
+    {
+     "id": 6715,
+     "title": "Australian Government response to the House Committee on Economics report: Inquiry into the implications of common ownership and capital concentration in Australia",
+     "author": null,
+     "department": null,
+     "tabledSenate": null,
+     "tabledHouse": "2024-07-04T00:00:00+10:00"
+    },
+    {
+     "id": 15903,
+     "title": "Australian Government response to the Joint Standing Committee on Northern Australia report on the engagement of traditional owners in the economic development of northern Australia",
+     "author": "National Indigenous Australians Agency",
+     "department": "National Indigenous Australians Agency",
+     "tabledSenate": "2026-04-01T15:21:00+11:00",
+     "tabledHouse": "2026-04-01T00:00:00+11:00"
+    },
+    {
+     "id": 16382,
+     "title": "Australian Government response to the Parliamentary Joint Standing Committee on Foreign Affairs, Defence and Trade first report on the Inquiry into Australia's aid program in the Indo-Pacific",
+     "author": "Department of Foreign Affairs and Trade",
+     "department": "Department of Foreign Affairs and Trade",
+     "tabledSenate": "2026-05-14T16:04:00+10:00",
+     "tabledHouse": "2026-05-14T00:00:00+10:00"
+    },
+    {
+     "id": 15889,
+     "title": "Australian Government response to the Senate Community Affairs References Committee report - Inquiry into the extent and nature of poverty in Australia",
+     "author": "Department of Social Services",
+     "department": "Department of Social Services",
+     "tabledSenate": "2026-04-01T15:21:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 16521,
+     "title": "Australian Capital Territory National Land (Road Transport) (Parking Fees) Amendment Determination 2026",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2026-06-22T10:01:00+10:00",
+     "tabledHouse": "2026-05-25T00:00:00+10:00"
+    },
+    {
+     "id": 5853,
+     "title": "Australian Government response to the Joint Standing Committee on the National Capital and External Territories report: Telling Australia’s story – and why it’s important: Report on the inquiry into Canberra’s national institutions [May 2024]",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-05-10T14:10:00+10:00",
+     "tabledHouse": "2024-05-14T00:00:00+10:00"
+    },
+    {
+     "id": 16241,
+     "title": "Pursuing the Priorities of the Pacific: Inquiry into Australia's alignment with the priorities of Pacific Island countries",
+     "author": "Department of Foreign Affairs and Trade",
+     "department": "Department of Foreign Affairs and Trade",
+     "tabledSenate": "2026-05-12T17:54:00+10:00",
+     "tabledHouse": "2026-05-12T00:00:00+10:00"
+    },
+    {
+     "id": 15907,
+     "title": "Australian Government response to the Final Report of the Joint Select Committee on Constitutional Recognition relating to Aboriginal and Torres Strait Islander Peoples",
+     "author": "National Indigenous Australians Agency",
+     "department": "National Indigenous Australians Agency",
+     "tabledSenate": "2026-04-01T15:21:00+11:00",
+     "tabledHouse": "2026-04-01T00:00:00+11:00"
+    },
+    {
+     "id": 16075,
+     "title": "Parliamentary Joint Committee on Intelligence and Security Inquiry into the Defence Amendment (Safeguarding Australia's Military Secrets) Bill 2023",
+     "author": "Department of Defence",
+     "department": "Department of Defence",
+     "tabledSenate": "2026-04-30T14:32:00+10:00",
+     "tabledHouse": "2026-05-12T00:00:00+10:00"
+    },
+    {
+     "id": 16545,
+     "title": "AUSTRALIAN GOVERNMENT RESPONSE TO THE SENATE COMMITTEE ECONOMICS REPORT: INQUIRY INTO SCAMS PREVENTION FRAMEWORK BILL 2024 [PROVISIONS]",
+     "author": "Department of the Treasury",
+     "department": "Department of the Treasury",
+     "tabledSenate": "2026-05-29T14:06:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 15993,
+     "title": "Australian Government Response to the Joint Select Committee on Northern Australia Inquiry: Northern Australia Workforce Development - first and final reports",
+     "author": "Infrastructure, Transport, Regional Development, Communications, Sport and the Arts portfolio",
+     "department": "Infrastructure, Transport, Regional Development, Communications, Sport and the Arts portfolio",
+     "tabledSenate": "2026-04-16T10:59:00+10:00",
+     "tabledHouse": "2026-05-12T00:00:00+10:00"
+    },
+    {
+     "id": 15844,
+     "title": "Australian Government Response to the Joint Standing Committee on Foreign Affairs, Defence and Trade Inquiry into Australia’s Tourism and International Education Sectors  ‘Are we there yet?’: From recovery to resilience - opportunities and challenges for Australia’s tourism sector’",
+     "author": "Australian Trade and Investment Commission (Austrade)",
+     "department": "Australian Trade and Investment Commission (Austrade)",
+     "tabledSenate": "2026-03-31T12:27:00+11:00",
+     "tabledHouse": "2026-03-31T00:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "response_id": "17097",
+   "response_title": "Australian Government response to the  Foreign Affairs, Defence and Trade References Committee report: Australia’s sanctions regime",
+   "query": "Australia’s sanctions regime",
+   "before": "2026-06-30",
+   "expect_report_id": "9336",
+   "why": "one candidate, exact once a trailing bracketed date is ignored",
+   "results": [
+    {
+     "id": 17097,
+     "title": "Australian Government response to the  Foreign Affairs, Defence and Trade References Committee report: Australia’s sanctions regime",
+     "author": "Department of Foreign Affairs and Trade ",
+     "department": "Department of Foreign Affairs and Trade",
+     "tabledSenate": "2026-06-30T18:10:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 9336,
+     "title": "Australia’s sanctions regime",
+     "author": "Foreign Affairs, Defence and Trade References Committee",
+     "department": "Foreign Affairs, Defence and Trade References Committee",
+     "tabledSenate": "2025-02-11T18:46:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 17003,
+     "title": "ALRC Report 144 – Fulfilling the Promise of Mabo: Reforming the Future Acts Regime in the Native Title Act 1993 (Cth) (Summary Report)",
+     "author": "Attorney-General's Department",
+     "department": "Australian Law Reform Commission",
+     "tabledSenate": "2026-06-24T09:01:00+10:00",
+     "tabledHouse": "2026-06-24T00:00:00+10:00"
+    },
+    {
+     "id": 17099,
+     "title": "Australian Government response to the  Joint Committee on Foreign Affairs, Defence and Trade report: Australia’s thematic sanctions framework",
+     "author": "Department of Foreign Affairs and Trade ",
+     "department": "Foreign Affairs and Trade portfolio",
+     "tabledSenate": "2026-06-30T18:10:00+10:00",
+     "tabledHouse": "2026-06-30T00:00:00+10:00"
+    },
+    {
+     "id": 17004,
+     "title": "ALRC Report 144 – Fulfilling the Promise of Mabo: Reforming the Future Acts Regime in the Native Title Act 1993 (Cth) (Final Report)",
+     "author": "Attorney-General's Department",
+     "department": "Australian Law Reform Commission",
+     "tabledSenate": "2026-06-24T09:01:00+10:00",
+     "tabledHouse": "2026-06-24T00:00:00+10:00"
+    },
+    {
+     "id": 16345,
+     "title": "Estimated costs for Enhanced Income Management regime for the period 4 March 2025 to 3 March 2026",
+     "author": "Department of Social Services",
+     "department": "Department of Social Services",
+     "tabledSenate": "2026-05-13T09:01:00+10:00",
+     "tabledHouse": "2026-05-13T00:00:00+10:00"
+    },
+    {
+     "id": 17013,
+     "title": "Estimates hearings - Unanswered questions on notice - Budget estimates 2025-26 (Supplementary) - Tourism Australia",
+     "author": "Tourism Australia",
+     "department": "Tourism Australia",
+     "tabledSenate": "2026-06-25T09:01:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 16665,
+     "title": "Autonomous Sanctions (Designated Persons and Entities and Declared Persons—Thematic Sanctions) Amendment (No. 1) Instrument 2026",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2026-06-22T10:01:00+10:00",
+     "tabledHouse": "2026-06-03T00:00:00+10:00"
+    },
+    {
+     "id": 16606,
+     "title": "Ms BH v Commonwealth of Australia (Department of Home Affairs) [2025] AusHRC 189",
+     "author": "Attorney-General's Department",
+     "department": "Attorney-General's Department",
+     "tabledSenate": null,
+     "tabledHouse": "2026-06-04T00:00:00+10:00"
+    },
+    {
+     "id": 15878,
+     "title": "Australia's Article 51 Notification to the United Nations Security Council",
+     "author": "Attorney-General's Department",
+     "department": "Attorney-General's Department",
+     "tabledSenate": "2026-03-31T12:56:00+11:00",
+     "tabledHouse": "2026-03-31T00:00:00+11:00"
+    },
+    {
+     "id": 13380,
+     "title": "Federal Court of Australia - Annual Report 2024-25",
+     "author": "Attorney-General's Department ",
+     "department": "Federal Court of Australia",
+     "tabledSenate": "2025-10-27T10:02:00+11:00",
+     "tabledHouse": "2025-10-27T00:00:00+11:00"
+    },
+    {
+     "id": 15550,
+     "title": "Government response to The performance and integrity of Australia's administrative review system",
+     "author": "Attorney-General's Department",
+     "department": "Attorney-General's Department",
+     "tabledSenate": "2026-03-19T15:00:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 2568,
+     "title": "Answer to question relating to Australia’s offshore environmental and carbon capture and storage management regime [20 June 2023]",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-06-20T15:31:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 9749,
+     "title": "Australia’s thematic sanctions framework: A legislated review of the operation of the Autonomous Sanctions Amendment (Magnitsky-style and other Thematic Sanctions) Act 2021",
+     "author": "Joint Standing Committee on Foreign Affairs, Defence and Trade",
+     "department": "Joint Standing Committee on Foreign Affairs, Defence and Trade",
+     "tabledSenate": "2025-03-25T18:00:00+11:00",
+     "tabledHouse": "2025-03-26T00:00:00+11:00"
+    },
+    {
+     "id": 14167,
+     "title": "Federal Circuit and Family Law Courts of Australia Annual Report 2024-25 [Replacement]",
+     "author": "Federal Circuit and Family Court of Australia",
+     "department": "Attorney-General’s portfolio",
+     "tabledSenate": "2025-12-04T14:19:00+11:00",
+     "tabledHouse": "2026-02-03T00:00:00+11:00"
+    },
+    {
+     "id": 16067,
+     "title": "Government response to the report on the Indefinite detention of people with cognitive and psychiatric impairment in Australia",
+     "author": "Attorney-General's Department",
+     "department": "Attorney-General's Department",
+     "tabledSenate": "2026-04-30T14:32:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 14184,
+     "title": "Autonomous Sanctions (Sanctioned Vessels – Russia) Amendment (No. 2) Designation 2025",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2026-01-19T09:31:00+11:00",
+     "tabledHouse": "2026-01-19T00:00:00+11:00"
+    },
+    {
+     "id": 8788,
+     "title": "High Court of Australia's 2023-24 Annual Report",
+     "author": "High Court of Australia",
+     "department": "Attorney-General’s portfolio",
+     "tabledSenate": "2024-12-19T14:09:00+11:00",
+     "tabledHouse": "2025-02-04T00:00:00+11:00"
+    },
+    {
+     "id": 12958,
+     "title": "High Court of Australia - Annual Report 2024-25",
+     "author": "Attorney-General's Department ",
+     "department": "High Court of Australia",
+     "tabledSenate": "2025-10-03T13:58:00+10:00",
+     "tabledHouse": "2025-10-07T00:00:00+11:00"
+    },
+    {
+     "id": 15299,
+     "title": "Entity contracts for 2025 - Defence Housing Australia",
+     "author": "Defence Housing Australia",
+     "department": "Defence portfolio",
+     "tabledSenate": "2026-03-03T12:01:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 16422,
+     "title": "Estimates hearings - Unanswered questions on notice - Additional estimates 2025-26 - National Australia Day Council Limited",
+     "author": "National Australia Day Council Limited",
+     "department": "National Australia Day Council Limited",
+     "tabledSenate": "2026-05-15T11:12:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 3421,
+     "title": "Australia’s Disaster Resilience interim report [September 2023]",
+     "author": "Select Committee on Australia’s Disaster Resilience",
+     "department": "Select Committee on Australia’s Disaster Resilience",
+     "tabledSenate": "2023-09-14T16:35:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 16352,
+     "title": "Estimates hearings - Unanswered questions on notice - Additional estimates 2025-26 - Defence Housing Australia",
+     "author": "Defence Housing Australia",
+     "department": "Defence portfolio",
+     "tabledSenate": "2026-05-13T09:01:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 3267,
+     "title": "Social Security (Administration) (Enhanced Income Management Regime—Volunteers) Determination 2023",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-09-05T12:01:00+10:00",
+     "tabledHouse": "2023-09-04T00:00:00+10:00"
+    },
+    {
+     "id": 9335,
+     "title": "Order of 5 February 2025 (736) relating to future acts regime",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2025-02-11T18:47:00+11:00",
+     "tabledHouse": null
+    }
+   ]
+  },
+  {
+   "response_id": "17400",
+   "response_title": "Australian Government Response to the Parliamentary Joint Committee on Corporations and Financial Services Report: Corporate insolvency in Australia",
+   "query": "Corporate insolvency in Australia",
+   "before": "2026-08-06",
+   "expect_report_id": "2837",
+   "why": "one candidate, exact once a trailing bracketed date is ignored",
+   "results": [
+    {
+     "id": 17400,
+     "title": "Australian Government Response to the Parliamentary Joint Committee on Corporations and Financial Services Report: Corporate insolvency in Australia",
+     "author": "Department of the Treasury",
+     "department": "Department of the Treasury",
+     "tabledSenate": "2026-08-06T15:43:00+10:00",
+     "tabledHouse": "2026-08-11T00:00:00+10:00"
+    },
+    {
+     "id": 2837,
+     "title": "Corporate insolvency in Australia",
+     "author": "Parliamentary Joint Committee on Corporations and Financial Services",
+     "department": "Parliamentary Joint Committee on Corporations and Financial Services",
+     "tabledSenate": "2023-07-12T14:48:00+10:00",
+     "tabledHouse": "2023-08-01T00:00:00+10:00"
+    },
+    {
+     "id": 187,
+     "title": "Airservices Australia—Corporate plan 2022-23",
+     "author": "Airservices Australia",
+     "department": "Airservices Australia",
+     "tabledSenate": "2022-08-25T13:57:00+10:00",
+     "tabledHouse": "2022-09-06T00:00:00+10:00"
+    },
+    {
+     "id": 3165,
+     "title": "Airservices Australia corporate plan 2023-24",
+     "author": "Airservices Australia",
+     "department": "Airservices Australia",
+     "tabledSenate": "2023-08-31T14:01:00+10:00",
+     "tabledHouse": "2023-09-05T00:00:00+10:00"
+    },
+    {
+     "id": 17013,
+     "title": "Estimates hearings - Unanswered questions on notice - Budget estimates 2025-26 (Supplementary) - Tourism Australia",
+     "author": "Tourism Australia",
+     "department": "Tourism Australia",
+     "tabledSenate": "2026-06-25T09:01:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 17390,
+     "title": "Australian Sports Commission Corporate Plan 2026-30",
+     "author": "Australian Sports Commission",
+     "department": "Infrastructure, Transport, Regional Development, Communications, Sport and the Arts portfolio",
+     "tabledSenate": "2026-08-06T15:43:00+10:00",
+     "tabledHouse": "2026-08-11T00:00:00+10:00"
+    },
+    {
+     "id": 7131,
+     "title": "Airservices Australia 2024-2025 Corporate Plan",
+     "author": "Department of Infrastructure, Transport, Regional Development, Communications and the Arts",
+     "department": "Infrastructure, Transport, Regional Development, Communications and the Arts portfolio",
+     "tabledSenate": "2024-08-29T13:58:00+10:00",
+     "tabledHouse": "2024-09-09T00:00:00+10:00"
+    },
+    {
+     "id": 15299,
+     "title": "Entity contracts for 2025 - Defence Housing Australia",
+     "author": "Defence Housing Australia",
+     "department": "Defence portfolio",
+     "tabledSenate": "2026-03-03T12:01:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 16422,
+     "title": "Estimates hearings - Unanswered questions on notice - Additional estimates 2025-26 - National Australia Day Council Limited",
+     "author": "National Australia Day Council Limited",
+     "department": "National Australia Day Council Limited",
+     "tabledSenate": "2026-05-15T11:12:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 16352,
+     "title": "Estimates hearings - Unanswered questions on notice - Additional estimates 2025-26 - Defence Housing Australia",
+     "author": "Defence Housing Australia",
+     "department": "Defence portfolio",
+     "tabledSenate": "2026-05-13T09:01:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 15875,
+     "title": "Infrastructure Australia Annual Performance Statement 2026",
+     "author": "Infrastructure Australia",
+     "department": "Department of Infrastructure, Transport, Regional Development, Communications and the Arts",
+     "tabledSenate": "2026-04-01T09:01:00+11:00",
+     "tabledHouse": "2026-03-31T00:00:00+11:00"
+    },
+    {
+     "id": 16759,
+     "title": "Estimates hearings - Unanswered questions on notice - Additional estimates 2025-26 - Tourism Australia",
+     "author": "Tourism Australia",
+     "department": "Department of Foreign Affairs and Trade",
+     "tabledSenate": "2026-06-11T11:04:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 13764,
+     "title": "Housing Australia Annual Report 2024-25",
+     "author": "Housing Australia",
+     "department": "Department of the Treasury",
+     "tabledSenate": "2026-02-03T12:01:00+11:00",
+     "tabledHouse": "2025-11-27T00:00:00+11:00"
+    },
+    {
+     "id": 12401,
+     "title": "Airservices Australia Corporate Plan 2025-26",
+     "author": "Department of Infrastructure, Transport, Regional Development, Communications and the Arts",
+     "department": "Department of Infrastructure, Transport, Regional Development, Communications and the Arts",
+     "tabledSenate": "2025-09-03T09:01:00+10:00",
+     "tabledHouse": "2025-09-03T00:00:00+10:00"
+    },
+    {
+     "id": 13561,
+     "title": "Tourism Australia 2024-25 Annual Report",
+     "author": "Tourism Australia",
+     "department": "Tourism Australia",
+     "tabledSenate": "2025-11-04T12:01:00+11:00",
+     "tabledHouse": "2025-11-03T00:00:00+11:00"
+    },
+    {
+     "id": 13264,
+     "title": "Services Australia Annual Report 2024-25",
+     "author": "Services Australia",
+     "department": "Services Australia",
+     "tabledSenate": "2025-10-17T14:00:00+11:00",
+     "tabledHouse": "2025-10-27T00:00:00+11:00"
+    },
+    {
+     "id": 15835,
+     "title": "Infrastructure Australia Annual Budget Statement 2026",
+     "author": "Infrastructure Australia",
+     "department": "Infrastructure, Transport, Regional Development, Communications, Sport and the Arts portfolio",
+     "tabledSenate": "2026-04-01T09:01:00+11:00",
+     "tabledHouse": "2026-03-31T00:00:00+11:00"
+    },
+    {
+     "id": 8059,
+     "title": "Tourism Australia Annual Report 2023/24",
+     "author": "Tourism Australia",
+     "department": "Tourism Australia",
+     "tabledSenate": "2024-10-30T14:04:00+11:00",
+     "tabledHouse": "2024-11-04T00:00:00+11:00"
+    },
+    {
+     "id": 3734,
+     "title": "Cancer Australia Annual Report 2022-23",
+     "author": "Cancer Australia",
+     "department": "Cancer Australia",
+     "tabledSenate": "2023-10-17T12:10:00+11:00",
+     "tabledHouse": "2023-10-17T00:00:00+11:00"
+    },
+    {
+     "id": 936,
+     "title": "Dairy Australia Annual Report 2021-22",
+     "author": "Dairy Australia",
+     "department": "Dairy Australia",
+     "tabledSenate": "2022-12-16T12:23:00+11:00",
+     "tabledHouse": "2023-02-06T00:00:00+11:00"
+    },
+    {
+     "id": 4410,
+     "title": "Dairy Australia Performance Report 2022-23",
+     "author": "Dairy Australia",
+     "department": "Dairy Australia",
+     "tabledSenate": "2023-12-06T09:01:00+11:00",
+     "tabledHouse": "2023-12-07T00:00:00+11:00"
+    },
+    {
+     "id": 14762,
+     "title": "Estimates hearings - Unanswered questions on notice - Budget estimates 2025-26 (Supplementary) - Defence portfolio - Defence Housing Australia",
+     "author": "Defence Housing Australia",
+     "department": "Defence portfolio",
+     "tabledSenate": "2026-01-30T13:44:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 13185,
+     "title": "Reserve Bank of Australia Annual Report 2024-25",
+     "author": "Reserve Bank of Australia",
+     "department": "Department of the Treasury",
+     "tabledSenate": "2025-10-27T10:02:00+11:00",
+     "tabledHouse": "2025-10-08T00:00:00+11:00"
+    },
+    {
+     "id": 13428,
+     "title": "Defence Housing Australia Annual Report 2024-25",
+     "author": "Defence Housing Australia",
+     "department": "Defence Housing Australia",
+     "tabledSenate": "2025-10-31T14:09:00+11:00",
+     "tabledHouse": "2025-11-03T00:00:00+11:00"
+    },
+    {
+     "id": 7860,
+     "title": "Services Australia Annual Report 2023-24",
+     "author": "Services Australia",
+     "department": "Services Australia",
+     "tabledSenate": "2024-10-25T14:03:00+11:00",
+     "tabledHouse": "2024-11-04T00:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "response_id": "17569",
+   "response_title": "Government response to the Senate Legal and Constitutional Affairs References Committee’s Inquiry report on Current and Proposed Sexual Consent Laws in Australia",
+   "query": "Current and Proposed Sexual Consent Laws in Australia",
+   "before": "2026-08-20",
+   "expect_report_id": "3419",
+   "why": "one candidate, exact once a trailing bracketed date is ignored",
+   "results": [
+    {
+     "id": 17569,
+     "title": "Government response to the Senate Legal and Constitutional Affairs References Committee’s Inquiry report on Current and Proposed Sexual Consent Laws in Australia",
+     "author": "Attorney-General's Department",
+     "department": "Attorney-General's Department",
+     "tabledSenate": "2026-08-20T16:31:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 3419,
+     "title": "Current and proposed sexual consent laws in Australia [September 2023]",
+     "author": "Legal and Constitutional Affairs References Committee",
+     "department": "Legal and Constitutional Affairs References Committee",
+     "tabledSenate": "2023-09-14T15:42:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 4487,
+     "title": "Current and proposed sexual consent laws in Australia [Additional information]",
+     "author": "Legal and Constitutional Affairs References Committee",
+     "department": "Legal and Constitutional Affairs References Committee",
+     "tabledSenate": "2023-12-07T17:01:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 17622,
+     "title": "Public Works Referral Speech  - Services Australia - Proposed fit-out of leased premises at 10 Macquarie Street, Parramatta, New South Wales",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2026-08-19T17:22:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 13694,
+     "title": "DOMESTIC, FAMILY AND SEXUAL VIOLENCE COMMISSION 2024-25 ANNUAL REPORT",
+     "author": "Domestic, Family and Sexual Violence Commission",
+     "department": "Department of Social Services",
+     "tabledSenate": "2025-11-13T14:07:00+11:00",
+     "tabledHouse": "2025-11-24T00:00:00+11:00"
+    },
+    {
+     "id": 17013,
+     "title": "Estimates hearings - Unanswered questions on notice - Budget estimates 2025-26 (Supplementary) - Tourism Australia",
+     "author": "Tourism Australia",
+     "department": "Tourism Australia",
+     "tabledSenate": "2026-06-25T09:01:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 7093,
+     "title": "The Domestic, Family and Sexual Violence Commission Yearly Report to Parliament",
+     "author": "Domestic, Family and Sexual Violence Commission",
+     "department": "Domestic, Family and Sexual Violence Commission",
+     "tabledSenate": "2024-09-10T12:01:00+10:00",
+     "tabledHouse": "2024-08-21T00:00:00+10:00"
+    },
+    {
+     "id": 14167,
+     "title": "Federal Circuit and Family Law Courts of Australia Annual Report 2024-25 [Replacement]",
+     "author": "Federal Circuit and Family Court of Australia",
+     "department": "Attorney-General’s portfolio",
+     "tabledSenate": "2025-12-04T14:19:00+11:00",
+     "tabledHouse": "2026-02-03T00:00:00+11:00"
+    },
+    {
+     "id": 15751,
+     "title": "ASIC Corporations (Consents to Statements) Instrument 2026/89",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2026-03-30T10:01:00+11:00",
+     "tabledHouse": "2026-03-26T00:00:00+11:00"
+    },
+    {
+     "id": 4408,
+     "title": "Domestic, Family and Sexual Violence Commission—Interim statement to Parliament",
+     "author": "Domestic, Family and Sexual Violence Commission",
+     "department": "Domestic, Family and Sexual Violence Commission",
+     "tabledSenate": "2023-12-04T10:01:00+11:00",
+     "tabledHouse": "2023-11-30T00:00:00+11:00"
+    },
+    {
+     "id": 3939,
+     "title": "Domestic, Family and Sexual Violence Commission annual report for 2022-23",
+     "author": "Domestic, Family and Sexual Violence Commission",
+     "department": "Domestic, Family and Sexual Violence Commission",
+     "tabledSenate": "2023-10-25T14:05:00+11:00",
+     "tabledHouse": "2023-11-16T00:00:00+11:00"
+    },
+    {
+     "id": 16771,
+     "title": "Parliamentary Approval for proposed works within the Parliamentary Zone [Nangar (Jimmy Clements) and Ooloogan (George John Noble)]",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2026-06-29T15:56:00+10:00",
+     "tabledHouse": "2026-06-22T00:00:00+10:00"
+    },
+    {
+     "id": 13505,
+     "title": "Domestic, Family and Sexual Violence Commission Yearly Report to Parliament 2025",
+     "author": "Domestic, Family and Sexual Violence Commission",
+     "department": "Department of Social Services",
+     "tabledSenate": "2025-11-04T18:36:00+11:00",
+     "tabledHouse": "2025-10-30T00:00:00+11:00"
+    },
+    {
+     "id": 16002,
+     "title": "Australian Government response to the Parliamentary Joint Committee on Law Enforcement Report: Australia’s illicit drug problem: Challenges and opportunities for law enforcement",
+     "author": "The Department of Home Affairs ",
+     "department": "Department of Home Affairs",
+     "tabledSenate": "2026-04-23T11:00:00+10:00",
+     "tabledHouse": "2026-05-12T00:00:00+10:00"
+    },
+    {
+     "id": 15299,
+     "title": "Entity contracts for 2025 - Defence Housing Australia",
+     "author": "Defence Housing Australia",
+     "department": "Defence portfolio",
+     "tabledSenate": "2026-03-03T12:01:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 16422,
+     "title": "Estimates hearings - Unanswered questions on notice - Additional estimates 2025-26 - National Australia Day Council Limited",
+     "author": "National Australia Day Council Limited",
+     "department": "National Australia Day Council Limited",
+     "tabledSenate": "2026-05-15T11:12:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 16352,
+     "title": "Estimates hearings - Unanswered questions on notice - Additional estimates 2025-26 - Defence Housing Australia",
+     "author": "Defence Housing Australia",
+     "department": "Defence portfolio",
+     "tabledSenate": "2026-05-13T09:01:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 15669,
+     "title": "Public Works Referral Speech  - Australian Federal Police - Proposed fitout of leased premises 949 Ann Street, Brisbane",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2026-03-23T16:46:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 17530,
+     "title": "Treasury Laws Amendment (Tax Reform No. 2) Bill 2026",
+     "author": "Economics Legislation Committee",
+     "department": "Economics Legislation Committee",
+     "tabledSenate": "2026-08-13T15:41:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 16113,
+     "title": "Statement of Principles concerning female sexual dysfunction (Balance of Probabilities)",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2026-05-12T12:01:00+10:00",
+     "tabledHouse": "2026-05-12T00:00:00+10:00"
+    },
+    {
+     "id": 15875,
+     "title": "Infrastructure Australia Annual Performance Statement 2026",
+     "author": "Infrastructure Australia",
+     "department": "Department of Infrastructure, Transport, Regional Development, Communications and the Arts",
+     "tabledSenate": "2026-04-01T09:01:00+11:00",
+     "tabledHouse": "2026-03-31T00:00:00+11:00"
+    },
+    {
+     "id": 16759,
+     "title": "Estimates hearings - Unanswered questions on notice - Additional estimates 2025-26 - Tourism Australia",
+     "author": "Tourism Australia",
+     "department": "Department of Foreign Affairs and Trade",
+     "tabledSenate": "2026-06-11T11:04:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 13764,
+     "title": "Housing Australia Annual Report 2024-25",
+     "author": "Housing Australia",
+     "department": "Department of the Treasury",
+     "tabledSenate": "2026-02-03T12:01:00+11:00",
+     "tabledHouse": "2025-11-27T00:00:00+11:00"
+    },
+    {
+     "id": 17478,
+     "title": "Treasury Laws Amendment (Professional Standards Schemes) Regulations 2026",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2026-08-12T10:02:00+10:00",
+     "tabledHouse": "2026-08-11T00:00:00+10:00"
+    },
+    {
+     "id": 17398,
+     "title": "Treasury Laws Amendment (Payday Superannuation) Regulations 2026 [Replacement explanatory statement]",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2026-08-11T12:03:00+10:00",
+     "tabledHouse": "2026-08-11T00:00:00+10:00"
+    }
+   ]
+  },
+  {
+   "response_id": "17624",
+   "response_title": "Australian Government response to the Senate Finance and Public Administration References Committee report: Access to Australian Parliament House by lobbyists",
+   "query": "Access to Australian Parliament House by lobbyists",
+   "before": "2026-08-20",
+   "expect_report_id": "5807",
+   "why": "one candidate, exact once a trailing bracketed date is ignored",
+   "results": [
+    {
+     "id": 17624,
+     "title": "Australian Government response to the Senate Finance and Public Administration References Committee report: Access to Australian Parliament House by lobbyists",
+     "author": "Attorney-General's Department ",
+     "department": "Attorney-General's Department",
+     "tabledSenate": "2026-08-20T16:31:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5807,
+     "title": "Access to Australian Parliament House by lobbyists [May 2024]",
+     "author": "Finance and Public Administration References Committee",
+     "department": "Finance and Public Administration References Committee",
+     "tabledSenate": "2024-05-07T14:22:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5712,
+     "title": "Access to Australian Parliament House by lobbyists: progress report",
+     "author": "Finance and Public Administration References Committee",
+     "department": "Finance and Public Administration References Committee",
+     "tabledSenate": "2024-04-30T13:58:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 13664,
+     "title": "Museum of Australian Democracy at Old Parliament House",
+     "author": "Museum of Australian Democracy at Old Parliament House",
+     "department": "Infrastructure, Transport, Regional Development, Communications, Sport and the Arts portfolio",
+     "tabledSenate": "2025-11-24T10:01:00+11:00",
+     "tabledHouse": "2025-11-06T00:00:00+11:00"
+    },
+    {
+     "id": 15341,
+     "title": "Letter from the Prime Minister, Anthony Albanese MP, to the Presiding Officers of the Parliament of Australia, on unescorted access to Australian Parliament House by sponsored passholders, 2 March 2026—Document presented by Mr Albanese, 3 March 2026",
+     "author": null,
+     "department": null,
+     "tabledSenate": null,
+     "tabledHouse": "2026-03-03T00:00:00+11:00"
+    },
+    {
+     "id": 17217,
+     "title": "Fix unfair law so regional Australians can access assisted dying",
+     "author": null,
+     "department": null,
+     "tabledSenate": null,
+     "tabledHouse": "2026-07-02T00:00:00+10:00"
+    },
+    {
+     "id": 17303,
+     "title": "Department of the Treasury’s design and delivery of the Housing Australia Future Fund and the National Housing Accord Facility [Auditor-General Report No.3 2026–27]",
+     "author": "Australian National Audit Office",
+     "department": "Australian National Audit Office",
+     "tabledSenate": "2026-07-21T14:45:00+10:00",
+     "tabledHouse": "2026-08-11T00:00:00+10:00"
+    },
+    {
+     "id": 3966,
+     "title": "Museum of Australian Democracy – Old Parliament House Annual Report 2022-23",
+     "author": "Museum of Australian Democracy",
+     "department": "Museum of Australian Democracy",
+     "tabledSenate": "2023-10-30T14:24:00+11:00",
+     "tabledHouse": "2023-11-16T00:00:00+11:00"
+    },
+    {
+     "id": 691,
+     "title": "Museum of Australian Democracy – Old Parliament House Annual Report 2021-22",
+     "author": "Museum of Australian Democracy",
+     "department": "Museum of Australian Democracy",
+     "tabledSenate": "2022-10-31T14:02:00+11:00",
+     "tabledHouse": "2022-11-07T00:00:00+11:00"
+    },
+    {
+     "id": 12767,
+     "title": "Department of the House of Representatives—Report for 2022-23",
+     "author": "Department of the House of Representatives",
+     "department": "Department of the House of Representatives",
+     "tabledSenate": null,
+     "tabledHouse": "2023-10-16T00:00:00+11:00"
+    },
+    {
+     "id": 16921,
+     "title": "Notification to Parliament under s56(2) of the Australian Research Council Act 2001",
+     "author": "Department of Education",
+     "department": "Department of Education",
+     "tabledSenate": "2026-06-22T10:01:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 7711,
+     "title": "Department of the House of Representatives—Report for 2023-24",
+     "author": "Department of the House of Representatives",
+     "department": "Department of the House of Representatives",
+     "tabledSenate": null,
+     "tabledHouse": "2024-10-10T00:00:00+11:00"
+    },
+    {
+     "id": 723,
+     "title": "Department of the House of Representatives—Report for 2021-22",
+     "author": "Department of the House of Representatives",
+     "department": "Department of the House of Representatives",
+     "tabledSenate": null,
+     "tabledHouse": "2022-10-25T00:00:00+11:00"
+    },
+    {
+     "id": 16387,
+     "title": "Notification to Parliament under s56(2) of the Australian Research Council Act 2001",
+     "author": "Department of Education",
+     "department": "Department of Education",
+     "tabledSenate": null,
+     "tabledHouse": "2026-05-14T00:00:00+10:00"
+    },
+    {
+     "id": 17526,
+     "title": "Australian Government Response to the House Standing Committee on Health, Aged Care and Disability Inquiry into Thriving Kids.",
+     "author": "Department of Health, Disability and Ageing",
+     "department": "Department of Health, Disability and Ageing",
+     "tabledSenate": null,
+     "tabledHouse": "2026-08-13T00:00:00+10:00"
+    },
+    {
+     "id": 17046,
+     "title": "Telecommunications (Interception and Access) (Enforcement Agency—Corrective Services NSW) Declaration 2026",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2026-06-29T10:01:00+10:00",
+     "tabledHouse": "2026-06-29T00:00:00+10:00"
+    },
+    {
+     "id": 17487,
+     "title": "Interim report: Housing",
+     "author": "Select Committee on Productivity in Australia",
+     "department": "Select Committee on Productivity in Australia",
+     "tabledSenate": "2026-08-11T17:37:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 13681,
+     "title": "Presiding Officers’ statement regarding the condition of Parliament House [November 2025]",
+     "author": null,
+     "department": null,
+     "tabledSenate": null,
+     "tabledHouse": "2025-11-06T00:00:00+11:00"
+    },
+    {
+     "id": 16923,
+     "title": "Australian Government response to the House of Representatives Standing Committee on Agriculture report: Australian Food Story: Feeding the Nation and Beyond (Food Security in Australia)",
+     "author": "Department of Agriculture, Fisheries and Forestry",
+     "department": "Department of Agriculture, Fisheries and Forestry",
+     "tabledSenate": null,
+     "tabledHouse": "2026-06-22T00:00:00+10:00"
+    },
+    {
+     "id": 17603,
+     "title": "Parliament must end the ASIC CDDA claims blockade—2,057 petitioners",
+     "author": null,
+     "department": null,
+     "tabledSenate": null,
+     "tabledHouse": "2026-08-19T00:00:00+10:00"
+    },
+    {
+     "id": 17457,
+     "title": "Australian Research Council grant recommendations - July 2026",
+     "author": "Australian Research Council",
+     "department": "Australian Research Council",
+     "tabledSenate": "2026-08-11T12:02:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 16713,
+     "title": "Treatment Benefits (Special Access) Rules 2026",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2026-06-22T10:01:00+10:00",
+     "tabledHouse": "2026-06-22T00:00:00+10:00"
+    },
+    {
+     "id": 15057,
+     "title": "Telecommunications (Interception and Access) (Communications Access Coordinator) Amendment Instrument 2026",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2026-03-02T10:01:00+11:00",
+     "tabledHouse": "2026-03-02T00:00:00+11:00"
+    },
+    {
+     "id": 8127,
+     "title": "Presiding Officers statement regarding the condition of Parliament House [November 2024]",
+     "author": null,
+     "department": null,
+     "tabledSenate": null,
+     "tabledHouse": "2024-11-04T00:00:00+11:00"
+    },
+    {
+     "id": 2567,
+     "title": "Select Committee into the Provision of and Access to Dental Services in Australia [Interim report - June 2023]",
+     "author": "Select Committee into the Provision of and Access to Dental Services in Australia",
+     "department": "Select Committee into the Provision of and Access to Dental Services in Australia",
+     "tabledSenate": "2023-06-20T17:12:00+10:00",
+     "tabledHouse": null
+    }
+   ]
+  },
+  {
+   "response_id": "9714",
+   "response_title": "Government Response to the Joint Standing Committee on Electoral Matters report: Conduct of the 2022 federal election and other matters – Final Report",
+   "query": "Conduct of the 2022 federal election and other matters – Final Report",
+   "before": "2025-03-06",
+   "expect_report_id": "",
+   "why": "the register titles the final report by date and only the interim carries a stage word; the interim is in the same result set, so this is a judgement, not a match",
+   "results": [
+    {
+     "id": 2565,
+     "title": "Conduct of the 2022 federal election and other matters [Interim report - June 2023]",
+     "author": "Joint Standing Committee on Electoral Matters",
+     "department": "Joint Standing Committee on Electoral Matters",
+     "tabledSenate": "2023-06-20T17:18:00+10:00",
+     "tabledHouse": "2023-06-19T00:00:00+10:00"
+    },
+    {
+     "id": 4324,
+     "title": "Conduct of the 2022 federal election and other matters [November 2023]",
+     "author": "Joint Standing Committee on Electoral Matters",
+     "department": "Joint Standing Committee on Electoral Matters",
+     "tabledSenate": "2023-11-29T17:19:00+11:00",
+     "tabledHouse": "2023-11-27T00:00:00+11:00"
+    },
+    {
+     "id": 9714,
+     "title": "Government Response to the Joint Standing Committee on Electoral Matters report: Conduct of the 2022 federal election and other matters – Final Report",
+     "author": "Department of Finance",
+     "department": "Department of Finance",
+     "tabledSenate": "2025-03-06T14:04:00+11:00",
+     "tabledHouse": "2025-03-25T00:00:00+11:00"
+    },
+    {
+     "id": 4130,
+     "title": "Australian Government response to the Joint Standing Committee on Electoral Matters report: Conduct of the 2022 federal election and other matters – Interim Report [November 2023]",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-11-09T16:05:00+11:00",
+     "tabledHouse": "2023-11-16T00:00:00+11:00"
+    },
+    {
+     "id": 5899,
+     "title": "Australian Government response to the Joint Standing Committee on Electoral Matters report: Interim report on the inquiry into the conduct of the 2013 Federal Election: Senate voting practices",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-05-14T16:58:00+10:00",
+     "tabledHouse": "2024-05-14T00:00:00+10:00"
+    },
+    {
+     "id": 5901,
+     "title": "Australian Government response to the Joint Standing Committee on Electoral Matters report: The 2013 Federal Election: Report on all aspects of the conduct of the 2013 election and matters related thereto",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-05-14T16:58:00+10:00",
+     "tabledHouse": "2024-05-14T00:00:00+10:00"
+    },
+    {
+     "id": 5904,
+     "title": "Australian Government response to the Joint Standing Committee on Electoral Matters report: Report on the conduct of the 2016 federal election and matters related thereto",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-05-14T16:58:00+10:00",
+     "tabledHouse": "2024-05-14T00:00:00+10:00"
+    },
+    {
+     "id": 5905,
+     "title": "Australian Government response to the Joint Standing Committee on Electoral Matters report: Report on the conduct of the 2019 federal election and matters related thereto",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-05-14T16:58:00+10:00",
+     "tabledHouse": "2024-05-14T00:00:00+10:00"
+    },
+    {
+     "id": 5902,
+     "title": "Australian Government response to the Joint Standing Committee on Electoral Matters report: Third interim report on the inquiry into the conduct of the 2016 federal election: AEC modernisation",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-05-14T16:58:00+10:00",
+     "tabledHouse": "2024-05-14T00:00:00+10:00"
+    },
+    {
+     "id": 5907,
+     "title": "Australian Government response to the Joint Standing Committee on Electoral Matters report: Interim report on all aspects of the conduct of the 2019 Federal Election and matters related thereto Delegation to the International Grand Committee, Dublin, Ireland",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-05-14T16:58:00+10:00",
+     "tabledHouse": "2024-05-14T00:00:00+10:00"
+    },
+    {
+     "id": 5900,
+     "title": "Australian Government response to the Joint Standing Committee on Electoral Matters report: Second interim report on the inquiry into the conduct of the 2013 federal election: An assessment of electronic voting options",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-05-14T16:58:00+10:00",
+     "tabledHouse": "2024-05-14T00:00:00+10:00"
+    },
+    {
+     "id": 3730,
+     "title": "Election Funding and Disclosure Report - Federal Election 2022",
+     "author": "Australian Electoral Commission",
+     "department": "Australian Electoral Commission",
+     "tabledSenate": "2023-11-07T12:08:00+11:00",
+     "tabledHouse": "2023-10-18T00:00:00+11:00"
+    },
+    {
+     "id": 3808,
+     "title": "Federal Court of Australia Annual Report 2022-23",
+     "author": "Federal Court of Australia",
+     "department": "Federal Court of Australia",
+     "tabledSenate": "2023-10-18T09:01:00+11:00",
+     "tabledHouse": "2023-10-18T00:00:00+11:00"
+    },
+    {
+     "id": 3881,
+     "title": "Australian Federal Police Annual Report 2022-23",
+     "author": "Australian Federal Police",
+     "department": "Australian Federal Police",
+     "tabledSenate": "2023-10-20T14:18:00+11:00",
+     "tabledHouse": "2023-11-16T00:00:00+11:00"
+    },
+    {
+     "id": 3807,
+     "title": "Federal Circuit and Family Court of Australia Annual Report 2022-23",
+     "author": "Federal Circuit and Family Court of Australia",
+     "department": "Federal Circuit and Family Court of Australia",
+     "tabledSenate": "2023-10-18T09:01:00+11:00",
+     "tabledHouse": "2023-10-18T00:00:00+11:00"
+    },
+    {
+     "id": 481,
+     "title": "Australian Federal Police Annual Report 2021-22",
+     "author": "Australian Federal Police",
+     "department": "Australian Federal Police",
+     "tabledSenate": "2022-10-21T13:56:00+11:00",
+     "tabledHouse": "2022-10-25T00:00:00+11:00"
+    },
+    {
+     "id": 15302,
+     "title": "Finance Legislation Amendment (National Intermodal Corporation and other Matters) Regulations 2022",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-02-06T10:02:00+11:00",
+     "tabledHouse": "2022-12-15T00:00:00+11:00"
+    },
+    {
+     "id": 14269,
+     "title": "High Court Amendment (Forms and Other Matters) Rules 2022",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2022-11-23T09:01:00+11:00",
+     "tabledHouse": "2022-11-22T00:00:00+11:00"
+    },
+    {
+     "id": 44,
+     "title": "Qualification checklists for elected senators: 2022 Federal election",
+     "author": "Australian Electoral Commission",
+     "department": "Australian Electoral Commission",
+     "tabledSenate": "2022-07-26T17:01:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 449,
+     "title": "Federal Circuit and Family Court of Australia Annual Report 2021-22",
+     "author": "Federal Circuit and Family Court of Australia",
+     "department": "Federal Circuit and Family Court of Australia",
+     "tabledSenate": "2022-10-19T14:24:00+11:00",
+     "tabledHouse": "2022-10-25T00:00:00+11:00"
+    },
+    {
+     "id": 450,
+     "title": "Federal Court of Australia Annual Report 2021-22",
+     "author": "Federal Court of Australia",
+     "department": "Federal Court of Australia",
+     "tabledSenate": "2022-10-19T14:24:00+11:00",
+     "tabledHouse": "2022-10-25T00:00:00+11:00"
+    },
+    {
+     "id": 10422,
+     "title": "Amendment of CASA EX81/21 (Aerobatic Activities, Experimental Aircraft, and Other Matters) Instrument (No. 1) 2022",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2022-07-26T17:01:00+10:00",
+     "tabledHouse": "2022-07-26T00:00:00+10:00"
+    },
+    {
+     "id": 844,
+     "title": "Australian Federal Police Annual Report 2021-22 [Corrigendum]",
+     "author": "Australian Federal Police",
+     "department": "Australian Federal Police",
+     "tabledSenate": "2022-11-23T09:02:00+11:00",
+     "tabledHouse": "2022-11-23T00:00:00+11:00"
+    },
+    {
+     "id": 1374,
+     "title": "Second reading speech on the Counter-Terrorism Legislation Amendment (AFP Powers and Other Matters) Bill 2022",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2022-10-27T10:33:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 7947,
+     "title": "Australian Federal Police Annual Report 2023-24",
+     "author": "Australian Federal Police",
+     "department": "Attorney-General’s portfolio",
+     "tabledSenate": "2024-10-28T14:11:00+11:00",
+     "tabledHouse": "2024-11-04T00:00:00+11:00"
+    }
+   ]
+  },
+  {
+   "response_id": "8251",
+   "response_title": "Australian Government response to the Senate Community Affairs References Committee report: Provision of general practitioner and related primary health services to outer metropolitan, rural and regional Australians - Interim Report",
+   "query": "Provision of general practitioner and related primary health services to outer metropolitan, rural and regional Australians - Interim Report",
+   "before": "2024-11-14",
+   "expect_report_id": "",
+   "why": "the response says Interim Report and the committee's title carries no stage word",
+   "results": [
+    {
+     "id": 14,
+     "title": "Provision of general practitioner and related primary health services to outer metropolitan, rural, and regional Australians",
+     "author": "Community Affairs References Committee",
+     "department": "Community Affairs References Committee",
+     "tabledSenate": "2022-06-20T09:46:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 8251,
+     "title": "Australian Government response to the Senate Community Affairs References Committee report: Provision of general practitioner and related primary health services to outer metropolitan, rural and regional Australians - Interim Report",
+     "author": "Department of Health and Aged Care",
+     "department": "Department of Health and Aged Care",
+     "tabledSenate": "2024-11-14T14:13:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 1027,
+     "title": "National Health Practitioner Ombudsman Annual Report 2021-22",
+     "author": "National Health Practitioner Ombudsman",
+     "department": "National Health Practitioner Ombudsman",
+     "tabledSenate": "2023-02-06T10:01:00+11:00",
+     "tabledHouse": "2022-12-01T00:00:00+11:00"
+    },
+    {
+     "id": 2567,
+     "title": "Select Committee into the Provision of and Access to Dental Services in Australia [Interim report - June 2023]",
+     "author": "Select Committee into the Provision of and Access to Dental Services in Australia",
+     "department": "Select Committee into the Provision of and Access to Dental Services in Australia",
+     "tabledSenate": "2023-06-20T17:12:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 4429,
+     "title": "National Health Practitioner Ombudsman Annual Report 2022-23",
+     "author": "National Health Practitioner Ombudsman",
+     "department": "National Health Practitioner Ombudsman",
+     "tabledSenate": "2023-12-06T09:01:00+11:00",
+     "tabledHouse": "2023-12-07T00:00:00+11:00"
+    },
+    {
+     "id": 3965,
+     "title": "Office of the National Rural Health Commissioner Annual Report for 2022-23",
+     "author": "National Rural Health Commissioner",
+     "department": "National Rural Health Commissioner",
+     "tabledSenate": "2023-10-30T14:24:00+11:00",
+     "tabledHouse": "2023-11-16T00:00:00+11:00"
+    },
+    {
+     "id": 850,
+     "title": "National Rural Health Commissioner Annual Report for 2021-22",
+     "author": "National Rural Health Commissioner",
+     "department": "National Rural Health Commissioner",
+     "tabledSenate": "2022-11-23T09:02:00+11:00",
+     "tabledHouse": "2022-11-23T00:00:00+11:00"
+    },
+    {
+     "id": 1013,
+     "title": "Australian Health Practitioner Regulation Agency and National Boards Annual Report 2021-22",
+     "author": "Australian Health Practitioner Regulation Agency and National Boards",
+     "department": "Australian Health Practitioner Regulation Agency and National Boards",
+     "tabledSenate": "2023-02-06T10:01:00+11:00",
+     "tabledHouse": "2022-12-01T00:00:00+11:00"
+    },
+    {
+     "id": 4430,
+     "title": "Australian Health Practitioner Regulation Agency and National Boards Annual Report 2022-23",
+     "author": "Australian Health Practitioner Regulation Agency and National Boards",
+     "department": "Australian Health Practitioner Regulation Agency and National Boards",
+     "tabledSenate": "2023-12-06T09:01:00+11:00",
+     "tabledHouse": "2023-12-07T00:00:00+11:00"
+    },
+    {
+     "id": 7561,
+     "title": "Australian Government Response to Administration of registration and notification by the Australian Health Practitioner Regulation Agency and related entities under the Health Practitioner Regulation National Law",
+     "author": "Department of Health and Aged Care",
+     "department": "Department of Health and Aged Care",
+     "tabledSenate": "2024-10-03T14:04:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 4896,
+     "title": "Primary Industries (Excise) Levies Bill 2023 [Provisions] and related bills [February 2024]",
+     "author": "Rural and Regional Affairs and Transport Legislation Committee",
+     "department": "Rural and Regional Affairs and Transport Legislation Committee",
+     "tabledSenate": "2024-02-05T14:08:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 6020,
+     "title": "Australian Government response to the Senate Rural and Regional Affairs and Transport Legislation Committee report: Primary Industries (Excise) Levies Bill 2023 [Provisions] and related bills [May 2024]",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2024-05-17T14:11:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 7573,
+     "title": "Australian Government Response to The factors affecting the supply of health services and medical professionals in rural areas",
+     "author": "Department of Health and Aged Care",
+     "department": "Department of Health and Aged Care",
+     "tabledSenate": "2024-10-03T14:04:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 7652,
+     "title": "Office of the National Rural Health Commissioner Annual Report 2023-2024",
+     "author": "Office of the National Rural Health Commissioner ",
+     "department": "Department of Health and Aged Care",
+     "tabledSenate": "2024-10-15T12:46:00+11:00",
+     "tabledHouse": "2024-11-04T00:00:00+11:00"
+    },
+    {
+     "id": 8038,
+     "title": "Estimates hearings - Unanswered questions on notice - Budget estimates 2024-25 - Australian Health Practitioner Regulation Agency and National Boards",
+     "author": "Australian Health Practitioner Regulation Agency and National Boards",
+     "department": "Health and Aged Care portfolio",
+     "tabledSenate": "2024-10-29T14:11:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 3649,
+     "title": "Higher Education Support Amendment (Response to the Australian Universities Accord Interim Report) Bill 2023 [Provisions] [Dissenting report]",
+     "author": "Dissenting report from Coalition senators",
+     "department": "Education and Employment Legislation Committee",
+     "tabledSenate": "2023-10-12T14:10:00+11:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 7591,
+     "title": "Australian Government Response to Fourth interim report—Mental health: A consensus for action",
+     "author": "Department of Health and Aged Care",
+     "department": "Department of Health and Aged Care",
+     "tabledSenate": "2024-10-03T14:04:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 6998,
+     "title": "Senate Standing Committees on Rural and Regional Affairs and Transport Delegation Vietnam 11–16 April 2023",
+     "author": "Rural and Regional Affairs and Transport References Committee",
+     "department": "Rural and Regional Affairs and Transport References Committee",
+     "tabledSenate": "2024-08-14T17:24:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 5865,
+     "title": "Agriculture (Biosecurity Protection) Levies Bill 2024 [Provisions] and related bills [May 2024]",
+     "author": "Rural and Regional Affairs and Transport Legislation Committee",
+     "department": "Rural and Regional Affairs and Transport Legislation Committee",
+     "tabledSenate": "2024-05-10T14:10:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 2725,
+     "title": "Health Insurance (Section 3C General Medical Services – Other Medical Practitioner) Amendment (No. 1) Determination 2023",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-07-31T11:01:00+10:00",
+     "tabledHouse": "2023-07-31T00:00:00+10:00"
+    },
+    {
+     "id": 6892,
+     "title": "Shutdown of the 3G mobile network: Interim report",
+     "author": "Rural and Regional Affairs and Transport References Committee",
+     "department": "Rural and Regional Affairs and Transport References Committee",
+     "tabledSenate": "2024-08-01T14:10:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 6805,
+     "title": "Australian Government response to the Senate Select Committee into the Provision of and Access to Dental Services in Australia Report",
+     "author": "Department of Health and Aged Care",
+     "department": "Department of Health and Aged Care",
+     "tabledSenate": "2024-07-18T14:15:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 7592,
+     "title": "Australian Government Response to Sixth Interim Report—Big health data: Australia's big potential",
+     "author": "Department of Health and Aged Care",
+     "department": "Department of Health and Aged Care",
+     "tabledSenate": "2024-10-03T14:04:00+10:00",
+     "tabledHouse": null
+    },
+    {
+     "id": 3529,
+     "title": "Health Insurance (Section 3C General Medical Services – Other Medical Practitioner) Amendment (No. 2) Determination 2023",
+     "author": null,
+     "department": null,
+     "tabledSenate": "2023-10-16T10:01:00+11:00",
+     "tabledHouse": "2023-10-16T00:00:00+11:00"
+    },
+    {
+     "id": 4356,
+     "title": "A system in decay: a review into dental services in Australia [November 2023]",
+     "author": "Select Committee into the Provision of and Access to Dental Services in Australia",
+     "department": "Select Committee into the Provision of and Access to Dental Services in Australia",
+     "tabledSenate": "2023-11-30T15:42:00+11:00",
+     "tabledHouse": null
+    }
+   ]
+  }
+ ]
+}
