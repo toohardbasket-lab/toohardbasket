@@ -365,6 +365,49 @@ the draft. Published-with-continue-on-error is now a state the build refuses.
 The embargo is unchanged and is a separate thing: it is about when the work is
 shown, not about whether a merge is safe.
 
+**12. Four is not a start; it is what the source holds.** Settled 9 September,
+after looking for a fifth.
+
+The whole Tabled Documents register — 17,566 records, back to October 2002 —
+was read and every title naming a royal commission was pulled out. There are 42.
+Twenty are typed "Royal commission" and every one of them belongs to a
+commission already here. Of the rest, none is a report and response pair this
+index could take.
+
+The near miss is Aged Care Quality and Safety. Its final report *is* on the
+register — OTD 11400 to 11407, "Final report: Care, dignity and respect", eight
+volumes with volume 1 titled "Summary and recommendations", the same shape as
+the Disability report — but presented by a Member on 27 July 2022 and typed
+Other, and **no government response to it is on the register**. What the
+register holds instead is two annual progress reports on implementation, in 2024
+and 2025. A commission with
+no response on the register cannot produce a single row on this index: there is
+nothing to read a position out of. The same is true of Institutional Responses
+to Child Sexual Abuse, where the register holds a progress report and nothing
+else.
+
+So the index does not have four commissions because four is where the work got
+to. It has four because four are all the register can support, and the page now
+says so rather than letting a reader assume the rest are coming.
+
+Two things follow.
+
+The candidate rule was too narrow to have found this. It flagged a record typed
+"Royal commission", or one whose title names a commission already seeded — so a
+commission nobody here had thought of was invisible, and the only way to a fifth
+was for a person to go looking. It now also flags any title naming a royal
+commission this index does not hold. Running it turned up 18 records; all 18
+were read and rejected with a reason, and `rc_not_ours.csv` holds 29 rejections
+where it held 10. The candidate list is empty again, and the week a fifth
+commission's report is tabled it will not be — `rc_alert.py` raises an issue.
+
+And the progress reports are a question this index has not answered. A
+government's account, years later, of what it has done about a recommendation is
+a different record from its response to the report, and `ROYAL_COMMISSIONS.md`
+has said since the source test that what counts as an answer must be settled
+before pipeline code is written. Three of them are on the register. Nothing is
+read from them.
+
 ## What transfers, and what does not
 
 Transfers: the recommendation index and its schema; the verdict vocabulary
