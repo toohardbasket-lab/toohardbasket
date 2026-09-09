@@ -126,6 +126,11 @@ jobs:
         run: python tests/test_coverage.py
       - name: Measure coverage
         run: python coverage.py
+      # One rule for who the government owes an answer to. The stated-position
+      # figure and the awaiting figure both exclude a dissent's recommendations,
+      # and this checks the three places that compute it still agree.
+      - name: Owed-an-answer tests (gate)
+        run: python tests/test_awaiting.py
       - name: Removal-step tests (gate)
         run: python tests/test_answered_since.py
       - name: Remove reports answered since the schedules

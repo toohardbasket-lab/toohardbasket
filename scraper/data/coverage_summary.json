@@ -2,8 +2,8 @@
   "definition": "A recommendation has a stated position when the government's words about it say it is supported, agreed, accepted, endorsed, rejected, declined, not supported, not agreed, not accepted or implemented, in full, in part or in principle. Coverage is stated positions over recommendations the index holds for the response, excluding dissenting recommendations and rows whose government words could not be read. Each stated position carries the government's own verdict word, sorted three ways: accepted (supported, agreed, accepted, endorsed or implemented, unqualified); in part or in principle (the same sentence qualifies it); not accepted (negated, or rejected, declined, disagreed).",
   "responses_in_corpus": 624,
   "responses_with_nothing_indexed": 179,
-  "dissenting_recommendations_excluded": 257,
-  "awaiting_a_response_excluded": 1193,
+  "dissenting_recommendations_excluded": 388,
+  "awaiting_a_response_excluded": 1062,
   "total": {
     "responses": 445,
     "responses_with_no_position_at_all": 250,

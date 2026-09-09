@@ -248,13 +248,18 @@ def main() -> int:
     dissent = 0
     awaiting = 0
     for r in recs:
-        if r.get("response_classification") == "awaiting a response" or not r.get("response_id"):
-            awaiting += 1
-            positions.append({**key(r), "state": "awaiting", "verdict": ""})
-            continue
+        # Authorship is asked first. A dissenting recommendation on a report
+        # that has had no response is a dissent, not something the government
+        # is failing to answer, and counting it as awaiting made this file
+        # disagree with itself: it excluded the minority from the coverage
+        # figure for a reason that applies just as much to the other one.
         if (r.get("recommended_by") or "").strip():
             dissent += 1
             positions.append({**key(r), "state": "dissent", "verdict": ""})
+            continue
+        if r.get("response_classification") == "awaiting a response" or not r.get("response_id"):
+            awaiting += 1
+            positions.append({**key(r), "state": "awaiting", "verdict": ""})
             continue
         rid = r["response_id"]
         if rid not in docs:

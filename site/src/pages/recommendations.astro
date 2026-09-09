@@ -22,7 +22,14 @@ const rows = recommendations();
 const dropped = recommendationsDropped();
 const quiet = quietResponseCounts();
 const sources = new Set(rows.map((r) => `${r.source}:${r.sourceId}`)).size;
-const awaiting = rows.filter((r) => r.classification === "awaiting a response").length;
+/* Owed an answer: the committee's recommendations on a report the government
+   has not responded to. A dissenting report's and a member's additional
+   comments are published here too, but the government answers the committee
+   and not the minority — the reason coverage.py has always given for leaving
+   them out of the stated-position figure, and now the reason this figure
+   leaves them out as well. */
+const awaiting = rows.filter(
+  (r) => r.classification === "awaiting a response" && !r.recommendedBy).length;
 /* Recommendations read from a report because the government's response to it
    quotes none of them — noted as a group, or closed with the form letter
    without being listed. */
@@ -53,7 +60,9 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       Type a topic. Every recommendation this site can show on it appears below, with the
       sentence the government wrote about it, or, where the report is still on a register,
       the fact that it has written nothing. {fmt(awaiting)} of these are awaiting a response
-      right now.
+      right now — committee recommendations only, because a government answers the committee
+      and not a dissenting report or one member's additional comments. Those are here, and
+      searchable, but they are not counted as owed an answer.
     </p>
   </section>
 
@@ -544,7 +553,11 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       // this recommendation up (the report was read instead — a row from a
       // report whose response is on file); answered, with words about it.
       const passedOver = (r) => r.s === "report" && r.k !== "awaiting a response" && r.k !== "proforma_closure";
-      const stage = (r) => (r.k === "awaiting a response" ? 0 : r.k === "proforma_closure" ? 1 : passedOver(r) ? 2 : 3);
+      // Same rule as the figure in the lede: a dissent's recommendation is not
+      // one the government has left unanswered, so it does not lead the order
+      // and is not counted as awaiting in the line above the results.
+      const owed = (r) => r.k === "awaiting a response" && !r.b;
+      const stage = (r) => (owed(r) ? 0 : r.k === "proforma_closure" ? 1 : passedOver(r) ? 2 : 3);
       for (const r of hits) { r.__r = inRec(r) ? 0 : 1; r.__s = stage(r); }
       hits.sort((a, b) =>
         a.__r - b.__r || a.__s - b.__s || String(b.w || "").localeCompare(String(a.w || "")));

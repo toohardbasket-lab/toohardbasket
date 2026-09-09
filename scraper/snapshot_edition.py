@@ -117,7 +117,13 @@ def main() -> int:
         },
         "recommendations": {
             "rows": len(recs),
-            "awaiting_a_response": sum(1 for r in recs if r["response_classification"] == "awaiting a response"),
+            # See coverage.py: the government answers the committee, not the
+            # minority, so a dissent's recommendations are published but not
+            # counted as owed an answer.
+            "awaiting_a_response": sum(
+                1 for r in recs
+                if r["response_classification"] == "awaiting a response"
+                and not (r.get("recommended_by") or "").strip()),
         },
         "coverage": coverage_totals(),
         "on_both_registers": senate_meta.get("on_both_registers") or house_meta.get("on_both_registers") or 0,
