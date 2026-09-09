@@ -61,38 +61,83 @@ pair is exactly the subset where the page has least else to show.
   now accepts an exact title plus an exact tabling date instead. See
   `answered_since.py`.
 
-## What a real fix would have to settle
+## What the hand-check found, 9 September 2026
 
-**1. Is 39 per cent a problem, or is it the honest ceiling?** OTD publishes a
-link for about a third of responses and that is not going to change. The
-question is whether the remaining pairings can be established to a standard the
-site can defend, or whether the answer is to say "not identified" well — which
-is what the pages now do. Decide that before writing a matcher.
+The plan was to hand-check 50 of the 284 unpaired rows to find the ceiling.
+The sample said the ceiling was low, so all 284 were re-searched instead and
+the answer is measured rather than extrapolated. The working file is
+`scraper/data/pairing_sample_2026-09-09.csv`, one row per response with the
+best candidate the search returns and a verdict.
 
-**2. What evidence exists besides the title?** The current search uses the
-response title alone. Unused: the committee named in the response, the tabling
-dates (a response follows its report, usually by months), the department, and
-the text of the response itself, which very often names the report in its first
-paragraph. A rule combining committee plus a date window plus a weaker title
-score may be both tighter and broader than one strong title test — but "may" is
-the word, and it has to be measured against a hand-checked sample, not asserted.
+**Under the rules as they stand, none of the 284 pair.** Two narrow changes
+recover 12, and every one of the 12 is an exact title match with exactly one
+candidate, the right committee, and the report tabled before the response.
+Each was checked by hand.
 
-**3. What is the acceptable error rate, and in which direction?** For the reader
-a wrong link is worse than none. For the register a wrong removal is far worse
-than a stale row. These are the same evidence with different thresholds, and the
-code currently uses one bar (0.8) for both. Consider separating them: a pairing
-good enough to show a reader may not be good enough to remove a row.
+```
+  222  nothing close — the report is not in the Tabled Documents register
+   37  the search returns no committee document at all
+   12  recovered by the two changes below, hand-checked
+   11  a candidate exists but below the bar for a reason other than a date
+    2  correct, checked by hand, and not safely automatable
+```
 
-**4. How is it checked?** Any new matcher needs a hand-labelled set to measure
-against. Build that first — a few hundred rows, checked on aph.gov.au, kept in
-the repository — or there is no way to tell an improvement from a regression.
+**Change one: ignore a trailing bracketed date when scoring.** The register
+titles a report "Project known as the Iron Boomerang [August 2023]" while the
+response calls it "Project known as the Iron Boomerang". `overlap()` takes the
+lesser of the two directions, so the extra words cost the match. Strip a
+trailing `[Month Year]` or `(Year)` from both titles for the score only, and
+leave `agree()` reading the raw titles so the year test is untouched. Ten of
+the twelve.
 
-## How to start
+**Change two: the short-title guard fires before the score.** `best()` returns
+nothing when the query has fewer than three distinctive words, to stop
+"Interim Report" matching everything. But it also discards
+"Corporate insolvency in Australia" — two distinctive words — which matches its
+report exactly, uniquely, from the right committee. The guard belongs on weak
+matches, not on exact ones: require a short title to score 1.0 rather than
+refusing to look. Two of the twelve.
 
-Take a random sample of 50 of the 284 "not found" rows and establish by hand
-what the right answer is for each. That tells you the ceiling — how many are
-even findable — and gives you the beginning of the labelled set. Report what you
-find, including the ones that cannot be settled at all.
+**What the year and stage test is worth.** Two more rows have a candidate at
+0.8 that `agree()` refuses, and it is right to refuse both automatically. One
+is the response to the *final* report on the conduct of the 2022 federal
+election, where the register titles the final report by date and only the
+interim carries a stage word; the other says "Interim Report" against a
+committee title with no stage word at all. Both are correct pairings, and both
+are judgements rather than matches — the manual file is where they belong. Do
+not relax `agree()` to catch them: the interim report of that same inquiry is
+sitting in the same result set.
 
-Do not tune the threshold against the whole corpus and look at the totals. The
-totals cannot tell you whether the new matches are right.
+## Why the rest cannot be paired
+
+259 of the 284 have nothing to pair with, and the reason is not the matcher.
+
+Of the 284, **201 are form-letter closures** — the one-sentence letters that
+close an inquiry years later — against 1 of the 199 responses OTD links itself.
+Every report that has ever paired was tabled in 2022 or later, bar one. The
+Tabled Documents register begins in April 2022, and a closure by definition
+answers something old. The document being searched for is not in the corpus
+being searched.
+
+So a better matcher is not the work. If these are to be linked at all, the site
+needs a pre-2022 report corpus, which means the committee report pages on
+aph.gov.au — the source `reports_manual.csv` already covers by hand for 26
+reports. That is a scraper, and a different job from this one.
+
+## One thing to fix regardless
+
+**A row that fails once is never tried again.** `link_responses_to_reports.py`
+keeps any row already in the file unless `--refetch` is given, and no workflow
+gives it: all 284 unfound rows carry `checked_on` of 2026-09-04, the day of the
+bulk run. OTD publishes a response record and its report record at different
+times, so a response harvested before its report reaches the register is
+recorded as unpairable permanently. Re-searching the unfound rows costs about
+five minutes of API calls; doing it weekly, or monthly, would cost little and
+would catch the cases this file cannot predict.
+
+## How to start on the pre-2022 corpus
+
+Pick ten of the 201 closures, find their reports on the committee pages by
+hand, and record what it took. That says whether the committee pages can be
+scraped repeatably or whether this stays a hand-checked file forever. Report
+what could not be found, and do not build the scraper first.
