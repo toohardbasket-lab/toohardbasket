@@ -111,6 +111,11 @@ jobs:
       # makes a checkable claim uncheckable, so it gates the run.
       - name: Response-to-report pairing tests (gate)
         run: python tests/test_pairing.py
+      # Whose recommendation is it? A report's are the committee's; its dissents
+      # and additional comments are somebody's, and publishing one member's
+      # demand as a committee's finding is the worst mistake that step can make.
+      - name: Recommendation authorship tests (gate)
+        run: python tests/test_report_recommendations.py
       - name: Verify every recommendation against its source (gate)
         run: python verify_recommendations.py
       # For each recommendation the index holds: did the response state a

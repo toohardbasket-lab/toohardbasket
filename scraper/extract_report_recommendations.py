@@ -86,9 +86,33 @@ AUTHOR_WINDOW = 100
 
 # A report signs off after its recommendations. Everything from the signature
 # block on belongs to the document, not to what was recommended.
-SIGNOFF = re.compile(r"\b(?:Senator|Mr|Ms|Mrs|Dr|Hon)\.?\s+[A-Z][A-Za-z'’-]+"
-                     r"(?:\s+[A-Z][A-Za-z'’-]+){0,3}\s+(?:MP\s+)?"
-                     r"(?:Chair|Deputy\s+Chair|Presiding\s+Member)\b")
+#
+# The roles matter: a signature is only recognised as a signature when a role
+# follows the name. "Independent Member for Curtin" was not among them, so a
+# recommendation by the Member for Curtin kept her sign-off inside its own text
+# and the site published "…Job-Ready Graduates Package Ms Kate Chaney MP
+# Independent Member for Curtin" as though the words were part of what was
+# recommended.
+_SIGNER = (r"(?:Senator|Mr|Ms|Mrs|Dr|Hon)\.?\s+[A-Z][A-Za-z'’-]+"
+           r"(?:\s+[A-Z][A-Za-z'’-]+){0,3}\s+(?:MP\s+)?")
+# "Member" on its own is a word a recommendation might use, so the looser roles
+# only count where the line ends after them, as a signature block's line does.
+# Chair and its variants keep the older, laxer rule they were written with.
+_ROLE = (r"(?:Chair\b|Deputy\s+Chair\b|Presiding\s+Member\b"
+         r"|(?:Independent\s+|Committee\s+)?Member(?:\s+for\s+[A-Z][A-Za-z'’-]+)?"
+         r"(?=\s*(?:\n|$)))")
+SIGNOFF = re.compile(rf"\b{_SIGNER}{_ROLE}")
+# The same signature with the name kept, so a recommendation written in the
+# first person can be attributed to the person who signed it. The name is taken
+# lazily: without that, "Ms Kate Chaney MP Independent" reads as the name and
+# "Member for Curtin" as the role.
+SIGNED_BY = re.compile(
+    r"\b((?:Senator|Mr|Ms|Mrs|Dr|Hon)\.?\s+[A-Z][A-Za-z'’-]+"
+    r"(?:\s+[A-Z][A-Za-z'’-]+){0,2}?)(?:\s+MP)?\s+" + _ROLE)
+# "I recommend" is one member speaking. A committee recommends as a committee;
+# where a report says "I", the recommendation belongs to whoever signed it and
+# not to the committee, whatever section of the report it sits in.
+FIRST_PERSON = re.compile(r"^\s*I\s+(?:recommend|would\s+recommend)\b", re.I)
 LEADERS = re.compile(r"[.…]{6,}")
 LIST_MARKER = re.compile(r"(?<![\w'’])\(?[a-h]\)?[.)]")
 STRAY = re.compile(r"(?<![\w'’])[B-HJ-Zb-hj-z](?![\w'’])")
@@ -179,12 +203,26 @@ def author_label(phrase: str) -> str:
     return t.strip(" ,;:—–-")
 
 
-def author_of(text: str, body: str, position: int) -> str:
+def signed_in_the_first_person(raw: str, text: str) -> str:
+    """The member who signed a recommendation they wrote as "I", or "".
+
+    Both halves are required. A signature alone is just the end of a report;
+    "I recommend" alone could be a quotation. Together they are one member
+    speaking under their own name, which is a dissent or an additional comment
+    however the report is laid out.
+    """
+    if not FIRST_PERSON.search(text or ""):
+        return ""
+    m = SIGNED_BY.search(raw or "")
+    return author_label(m.group(1)) if m else ""
+
+
+def author_of(text: str, body: str, position: int, raw: str = "") -> str:
     """Who made this recommendation, by its own words first and its section second."""
     named = NAMES_AUTHOR.search(text[:AUTHOR_WINDOW])
     if named:
         return author_label(named.group(1))
-    return author_at(body, position)
+    return author_at(body, position) or signed_in_the_first_person(raw, text)
 
 
 def recommendations_in(body: str) -> list[dict]:
@@ -192,12 +230,13 @@ def recommendations_in(body: str) -> list[dict]:
     best: dict[str, dict] = {}
     for i, (label, start, end) in enumerate(marks):
         stop = marks[i + 1][1] if i + 1 < len(marks) else len(body)
-        text = tidy(body[end:stop])
+        raw = body[end:stop]
+        text = tidy(raw)
         if not (MIN_CHARS <= len(text) <= MAX_CHARS) or bad(text):
             continue
         if not SAYS_RECOMMEND.search(text):
             continue
-        author = author_of(text, body, start)
+        author = author_of(text, body, start, raw)
         keep = best.get(label)
         # A dissent restarts its numbering, so one report can hold two
         # "Recommendation 1" — the committee's and a party's. The committee's
