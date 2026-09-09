@@ -24,6 +24,13 @@ CASES = [
     ("Accepted", True),
     ("Agreed in-principle The Government will", True),
     ("Partially accepted. The Government agrees to the first limb", True),
+    # The negation written in front of the verb rather than into it. Without
+    # it, a government that opens by agreeing to part of a recommendation
+    # states a position and one that opens by refusing part of it does not.
+    ("The Government does not support the removal of the service differential as it "
+     "relates to permanent impairment compensation.", True),
+    ("The Government does not agree with the assertions contained in this recommendation.", True),
+    ("The Australian Government cannot support the approach the Committee proposes.", True),
     # --- stated positions: verb with the recommendation as object
     ("The Government supports this recommendation. The Department will", True),
     ("The Australian Government supports this recommendation in principle.", True),
@@ -82,6 +89,14 @@ VERDICTS = [
     ("The Government is unable to accept this recommendation at this time.", "not accepted"),
     ("The Government declines to accept this recommendation.", "not accepted"),
     ("The Government notes this recommendation.", ""),
+    ("The Government does not support the removal of the service differential as it "
+     "relates to permanent impairment compensation.", "not accepted"),
+    ("The Government does not agree with the assertions contained in this recommendation.",
+     "not accepted"),
+    ("The Government cannot support this approach.", "not accepted"),
+    # Still not a verdict on this row: the negation in front of the verb does
+    # not make a sentence about something else into an answer.
+    ("The Government will not be commenting further on this matter.", ""),
     # The PDF's broken hyphen: three rows of the diabetes response.
     ("Support in - principle The Government supports access to affordable medicines", "in part or in principle"),
     ("Support in- principle The Australian Government notes that a determination", "in part or in principle"),

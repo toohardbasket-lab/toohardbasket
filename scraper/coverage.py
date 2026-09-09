@@ -44,7 +44,8 @@ nothing more: "accepted" when the word is supported, agreed, accepted,
 endorsed or implemented with no qualifier; "in part or in principle" when the
 same sentence qualifies it (in principle, in part, partially, partly, broadly,
 generally); "not accepted" when the word is negated (does not support, not
-agreed, cannot accept) or is reject, decline or disagree. The verdict is read
+agreed, cannot accept) or is reject, decline or disagree — and the negation
+counts whether the government writes it into the word or in front of it. The verdict is read
 from the sentence the verdict word is in, not the whole response, so a later
 "does not" about something else cannot flip it. A verdict whose object is a
 numbered list of recommendations ("does not accept recommendations one and
@@ -88,9 +89,22 @@ VERDICT = (r"(?:support|supported|supports|agree|agreed|agrees|accept|accepted|a
 # "in principle", "in-principle", and the PDF's "in - principle" / "in- principle".
 QUAL = r"(?:\s+(?:in\s*-?\s*principle|in\s*-?\s*part|partially|in\s+full))?"
 
+# The negation a government writes in front of the verb rather than into it:
+# "The Government does not support…" against "Not supported". The verb list
+# holds the second form and not the first, so without this a government that
+# opens by agreeing to part of a recommendation states a position and one that
+# opens by refusing part of it does not. The Royal Commission into Defence and
+# Veteran Suicide's recommendation 90 is refused in bold in exactly the place
+# every other answer in that document states its verdict, and was read as no
+# position at all.
+NOT = r"(?:does\s+not\s+|do\s+not\s+|did\s+not\s+|cannot\s+|can\s+not\s+|will\s+not\s+"\
+      r"|is\s+unable\s+to\s+)"
+
 # A verdict label at the very start of the government's words: "Supported",
-# "Agreed in part.", "Not supported", "Supported in principle The Government…"
-LABEL = re.compile(r"^\W*(?:the\s+)?(?:australian\s+)?(?:government\s+)?" + VERDICT + QUAL + r"\b", re.I)
+# "Agreed in part.", "Not supported", "Supported in principle The Government…",
+# "The Government does not support…"
+LABEL = re.compile(r"^\W*(?:the\s+)?(?:australian\s+)?(?:government\s+)?" + NOT + "?"
+                   + VERDICT + QUAL + r"\b", re.I)
 
 # A verdict verb whose object is the recommendation, within a short span:
 # "supports this recommendation", "does not agree to the recommendation",
