@@ -112,7 +112,7 @@ const byCommittee = [...rows.reduce((m, r) => {
   <section class="wrap intro">
     <p class="eyebrow">
       <span class="reg-label" data-register="house">Register · {reg.claimant}</span> · the Speaker’s schedule as at {formatDate(sched.asAt)}
-      {sched.responsesCheckedTo && <> · responses checked to {formatDate(sched.responsesCheckedTo)}</>}
+      {sched.responsesCheckedTo && <> · responses harvested to {formatDate(sched.responsesCheckedTo)}</>}
     </p>
     <h1>The House register</h1>
     <p class="lede measure">
@@ -265,8 +265,11 @@ const byCommittee = [...rows.reduce((m, r) => {
         read every government
         response the Tabled Documents register held when it ran; the latest was tabled on
         {" "}{formatDate(sched.responsesCheckedTo)}, and nothing tabled after it had been
-        recorded there. A response tabled since will take its report off the register on the
-        next weekly rebuild, not before.
+        recorded there. That is the date the harvest reaches, not a guarantee that every
+        response tabled by then had been published: the Tabled Documents register records a
+        response some days after it is tabled, so one tabled on or before that date may not
+        have reached it when this build ran. A response tabled since, or recorded since, will
+        take its report off the register on the next weekly rebuild, not before.
       </p>
     )}
     {sched.officersDisagree > 0 && (

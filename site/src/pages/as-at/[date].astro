@@ -36,7 +36,7 @@ const lines: string[] = [
   `${fmt(e.house.outstanding)} House and joint committee reports were awaiting a government response as at ${asAt}; ${fmt(e.house.overdue)} were past the House’s six-month deadline.`,
   `The two counts are not added together: joint committee reports are listed by both presiding officers${e.on_both_registers ? ` (${fmt(e.on_both_registers)} reports were on both registers)` : ""}.`,
   `The longest wait on either register was ${fmt(Math.max(e.senate.longest_days, e.house.longest_days))} days (${humanDuration(Math.max(e.senate.longest_days, e.house.longest_days))}) as at ${asAt}.`,
-  `Of ${fmt(e.corpus.documents_read)} government responses tabled since ${formatDate(e.corpus.read_from)} and read to ${formatDate(e.responses_checked_to)}, ${fmt(e.corpus.form_letter_closures)} (${pct(e.corpus.form_letter_closures, e.corpus.documents_read)}) closed the report with the same one-sentence “passage of time” letter, stating no position on any recommendation.`,
+  `Of ${fmt(e.corpus.documents_read)} government responses tabled since ${formatDate(e.corpus.read_from)} and harvested to ${formatDate(e.responses_checked_to)}, ${fmt(e.corpus.form_letter_closures)} (${pct(e.corpus.form_letter_closures, e.corpus.documents_read)}) closed the report with the same one-sentence “passage of time” letter, stating no position on any recommendation.`,
 ];
 if (cov) {
   lines.push(
@@ -44,7 +44,7 @@ if (cov) {
     (cov.accepted !== undefined ? `: ${fmt(cov.accepted!)} accepted, ${fmt(cov.in_part_or_in_principle!)} in part or in principle, ${fmt(cov.not_accepted!)} not accepted.` : ".")
   );
 }
-const citation = `Australian Public Interest Alliance, The Too Hard Basket, Edition ${e.number}, as at ${asAt}, responses checked to ${formatDate(e.responses_checked_to)}, ${SITE}/as-at/${e.date}/`;
+const citation = `Australian Public Interest Alliance, The Too Hard Basket, Edition ${e.number}, as at ${asAt}, responses harvested to ${formatDate(e.responses_checked_to)}, ${SITE}/as-at/${e.date}/`;
 const figuresText = lines.join("\n") + "\n\nSource: " + citation;
 ---
 
@@ -54,7 +54,7 @@ const figuresText = lines.join("\n") + "\n\nSource: " + citation;
 >
   <section class="wrap intro">
     <p class="eyebrow">
-      Edition {e.number} · as at {formatDate(e.date)} · responses checked to {formatDate(e.responses_checked_to)}
+      Edition {e.number} · as at {formatDate(e.date)} · responses harvested to {formatDate(e.responses_checked_to)}
     </p>
     <h1>As at {formatDate(e.date)}</h1>
     <p class="lede measure">

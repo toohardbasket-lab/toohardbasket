@@ -94,6 +94,15 @@ def checked_to() -> str:
     A register is only as current as the responses it has seen. Publishing the
     schedule's date alone implies the register is current to today, which it is
     not: it is current to the last response anyone harvested.
+
+    The site says "responses harvested to" this date, not "checked to". The
+    difference is real. This is the newest tabling date the harvest holds, and
+    it is not a statement that everything tabled by then has been seen: the
+    Tabled Documents register publishes a response some days after it is
+    tabled. On 8 September 2026 the build put the date at 7 September while two
+    responses tabled in the House on 7 September had not yet been recorded
+    there; the watcher picked them up the following morning. The register pages
+    say so in the paragraph under the table.
     """
     path = DATA / "response_documents.csv"
     if not path.exists():
