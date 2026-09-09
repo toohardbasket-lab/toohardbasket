@@ -81,6 +81,10 @@ ROYAL = "Royal commission"
 # one of them is a report of one of the four seeded commissions. A sweep that
 # suddenly returns far fewer has not found a quiet week; it has failed.
 FEWEST_ROYAL_COMMISSION_RECORDS = 15
+# What a title says, where the type does not. Matched on the words rather than
+# on a list of commissions, so a commission nobody here has thought of still
+# reaches the candidate list and a person still has to say yes or no to it.
+ROYAL_IN_TITLE = re.compile(r"royal\s+commission", re.I)
 
 
 def register_records() -> list[dict]:
@@ -310,6 +314,15 @@ def main(argv: list[str]) -> int:
                 if re.search(re.escape(phrase), title, re.I):
                     reason = f"title names {commission_id}: {phrase!r}"
                     break
+            else:
+                # A commission this index has never heard of. The type is no
+                # help: the Aged Care Royal Commission's final report is on the
+                # register typed "Other", as eight volumes presented by a
+                # Member, and nothing about the record says what it is except
+                # its title. Without this the index could only ever find a
+                # fifth commission because somebody thought to look.
+                if ROYAL_IN_TITLE.search(title):
+                    reason = "title names a royal commission this index does not hold"
         if not reason:
             continue
         candidates.append({

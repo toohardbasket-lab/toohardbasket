@@ -115,6 +115,17 @@ H.main(["harvest_royal_commissions.py"])
 check("a document that names no commission is not a candidate",
       "5557" not in {c["id"] for c in rows(H.CANDIDATES)})
 
+# A commission this index has never heard of. The type is no help — the Aged
+# Care commission's final report is on the register typed "Other", as volumes
+# presented by a Member — so the title has to be enough, or a fifth commission
+# could only ever be found because somebody thought to look for it.
+d = bed(ONE, SEEDED, LIVE + [record("5559", type_="Other", title="Final report of the Royal "
+        "Commission into Something Nobody Here Has Heard Of")])
+H.main(["harvest_royal_commissions.py"])
+unheld = [c for c in rows(H.CANDIDATES) if c["id"] == "5559"]
+check("a commission the index does not hold still reaches the candidate list",
+      len(unheld) == 1 and "does not hold" in unheld[0]["reason"])
+
 # --- what a person has already rejected -------------------------------------
 NOISE = record("5558", type_="Other", title="Return to an order about the Robodebt Royal "
                "Commission")
