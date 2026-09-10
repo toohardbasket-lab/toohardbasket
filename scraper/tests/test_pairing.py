@@ -148,6 +148,28 @@ hit, score = L.best(near, "Corporate insolvency in Australia", "2026-01-01")
 check("a two-word title that is only nearly exact pairs with nothing", hit is None,
       f"paired at {score:.2f}")
 
+# --- the hand-checked file has two shapes, and this step can only use one -----
+# An entry may name the report by its OTD id, or, for a report older than the
+# Tabled Documents register, by its exact title and tabling date. Only the first
+# is usable here. Taking the second anyway built a link ending in nothing —
+# ".../Tabled_Documents/" — on a row with no report id, and the invariants above
+# caught it in the watcher before it reached the site.
+manual = list(csv.DictReader(
+    open(DATA / "response_report_links_manual.csv", encoding="utf-8-sig")))
+usable = L.manual_links()
+
+by_title = [r for r in manual if not (r.get("report_id") or "").strip()]
+check("the hand-checked file holds an entry with no report id",
+      bool(by_title),
+      "every entry names an id, so this suite cannot detect the fault it exists for")
+check("an entry with no report id is not used to build a link",
+      all(r["response_id"] not in usable for r in by_title),
+      ", ".join(r["response_id"] for r in by_title if r["response_id"] in usable))
+check("every entry that names an id is used",
+      all(r["response_id"] in usable
+          for r in manual if (r.get("report_id") or "").strip()))
+check("no usable entry carries an empty id", all(v for v in usable.values()))
+
 print(f"\n{len(PASS)} passed, {len(FAIL)} failed")
 if FAIL:
     for x in FAIL:

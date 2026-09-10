@@ -191,6 +191,27 @@ def best(results: list[dict], title: str, before: str) -> tuple[dict | None, flo
     return top, score
 
 
+def manual_links() -> dict[str, str]:
+    """response id -> report id, from the hand-checked file.
+
+    Only the entries that name a report by its OTD id are of any use here. An
+    entry may instead name a report by its exact title and tabling date, for a
+    report older than the Tabled Documents register and so having no id at all
+    — answered_since.py reads those, this step cannot. Taking them anyway built
+    a report_url ending in nothing, ".../Tabled_Documents/", on a row carrying
+    no report id, which is how the first such entry broke the watcher.
+    """
+    out: dict[str, str] = {}
+    p = DATA / "response_report_links_manual.csv"
+    if not p.exists():
+        return out
+    with p.open(newline="", encoding="utf-8-sig") as f:
+        for r in csv.DictReader(f):
+            if (r.get("report_id") or "").strip():
+                out[r["response_id"]] = r["report_id"].strip()
+    return out
+
+
 def existing() -> dict[str, dict]:
     if not OUT.exists():
         return {}
@@ -236,11 +257,7 @@ def main(argv: list[str]) -> int:
     if p.exists():
         for r in csv.DictReader(open(p, encoding="utf-8-sig")):
             otd_links.setdefault(r["response_id"], r)
-    manual: dict[str, str] = {}
-    p = DATA / "response_report_links_manual.csv"
-    if p.exists():
-        for r in csv.DictReader(open(p, encoding="utf-8-sig")):
-            manual[r["response_id"]] = r["report_id"]
+    manual = manual_links()
     reports_index = {r["id"]: r for r in csv.DictReader(open(DATA / "committee_reports.csv", encoding="utf-8-sig"))}
 
     rows = existing()
