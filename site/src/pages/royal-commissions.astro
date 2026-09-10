@@ -203,7 +203,8 @@ const SHOWN = 25;
       <span class="chips">
         <button type="button" class="chip" data-rc-filter="" aria-pressed="true">All</button>
         {all.map((c) => (
-          <button type="button" class="chip" data-rc-filter={c.id} aria-pressed="false">
+          <button type="button" class="chip" data-rc-filter={c.id} data-name={c.name}
+                  aria-pressed="false">
             {c.short}
           </button>
         ))}
@@ -255,8 +256,7 @@ const SHOWN = 25;
       </thead>
       <tbody>
         {rows.map((r) => (
-          <tr data-commission={r.commissionId} data-state={r.state} data-verdict={r.verdict}
-              data-search={`${r.label} ${r.commission} ${r.heading} ${r.text} ${saidOf(r)} ${r.governmentWords}`.toLowerCase()}>
+          <tr data-commission={r.commissionId} data-state={r.state} data-verdict={r.verdict}>
             <td class="c-rec">
               <p class="rec-head">
                 <span class="rec-no">{r.commissionShort} {r.label}</span>
@@ -516,7 +516,20 @@ const SHOWN = 25;
   /* Filter and search over rows already in the page, and show the first
      twenty-five until a reader asks for more. No index is fetched: the whole
      index is in the HTML, so this works from a saved copy and degrades to
-     every row with JavaScript off. */
+     every row with JavaScript off.
+
+     What a row is searched on is read out of the row itself, once, at load.
+     Until 10 September each row also carried a `data-search` attribute holding
+     a lower-cased copy of its own words — 644 KB of the page, 38 per cent of
+     it, saying a second time what the row already said. The row's own text is
+     the same words, so the copy is gone and the page is 1,055 KB instead of
+     1,703, and 159 KB over the wire instead of 199.
+
+     The parts are named rather than taking the whole row, because a row also
+     contains "the report", "the response" and a tabling date, and searching
+     "report" should not match all 427. The one thing a row does not print is
+     its commission's full name — it prints the short one — so that comes off
+     the filter chip, which carries it for this reason. */
   const table = document.getElementById("rc-register") as HTMLTableElement | null;
   const controls = document.querySelector<HTMLElement>("[data-rc-controls]");
   const box = document.querySelector<HTMLInputElement>("[data-rc-q]");
@@ -525,6 +538,26 @@ const SHOWN = 25;
   if (table && controls && box && status && more) {
     const rows = Array.from(table.tBodies[0].rows);
     const LIMIT = 25;
+
+    /* The parts of a row a reader is searching: its number, which report it
+       came from, its heading, the commission's words, the government's label,
+       the other governments, and the government's words. The sorted verdict
+       comes off the row's own data attribute rather than out of the printed
+       line, which begins "Sorted as:" and would make "sorted" match 309 rows
+       and mean nothing. */
+    const SEARCHABLE = ".rec-no, .which, .rec-title, .rec-text, .said, .others, .words";
+    const names = new Map(
+      Array.from(controls.querySelectorAll<HTMLElement>("[data-rc-filter]"))
+        .filter((c) => c.dataset.rcFilter)
+        .map((c) => [c.dataset.rcFilter as string, c.dataset.name ?? ""]),
+    );
+    const haystack = new WeakMap<HTMLTableRowElement, string>();
+    for (const r of rows) {
+      const own = Array.from(r.querySelectorAll<HTMLElement>(SEARCHABLE))
+        .map((el) => el.textContent ?? "").join(" ");
+      haystack.set(r, `${own} ${r.dataset.verdict ?? ""} ${names.get(r.dataset.commission ?? "") ?? ""}`
+        .toLowerCase().replace(/\s+/g, " "));
+    }
     let commission = "";
     let showAll = false;
     const only = Array.from(
@@ -541,7 +574,7 @@ const SHOWN = 25;
         if (wanted.length
             && !wanted.includes(r.dataset.state ?? "")
             && !wanted.includes(r.dataset.verdict ?? "")) return false;
-        const hay = r.dataset.search ?? "";
+        const hay = haystack.get(r) ?? "";
         return terms.every((t) => hay.includes(t));
       });
       const shown = showAll ? matching : matching.slice(0, LIMIT);
