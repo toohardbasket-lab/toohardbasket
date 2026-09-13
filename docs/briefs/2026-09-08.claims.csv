@@ -1,0 +1,54 @@
+keys,pattern
+corpus/form_letter_closures|busiest_day/form_letter_closures_tabled,"One template sentence has closed {} parliamentary inquiries since May 2024, {} of them on a"
+corpus/form_letter_closures|corpus/documents_read,"{} of the {} government responses to committee reports tabled since April 2022, two in five, dispose of"
+coverage/position_stated|coverage/recommendations_assessed,"the responses state a position on {} of the {}"
+corpus/documents_read,"machine-read every government response to a committee report tabled since April 2022: {} documents."
+corpus/template_sentence_occurrences|corpus/form_letter_closures,"It has been written {} times across those {} documents."
+corpus/closures_using_sentence_once|corpus/form_letter_closures,"{} of the {} use it once, closing a committee's entire report in a single line"
+recommendation_floor/closures_that_prove_their_own_count|recommendation_floor/closures_examined|recommendation_floor/recommendations_floor,"{} of the {}, at least {} individual recommendations were disposed of this way"
+recommendation_floor/closures_excluded|recommendation_floor/excluded_reasons/no recommendation labels in the text,"it sets aside the other {} closures entirely, including {} that close a report without naming"
+busiest_day/all_responses_tabled_that_day|busiest_day/form_letter_closures_tabled|busiest_day/template_sentences_that_day,"the government tabled {} responses to committee reports. All {} were the form letter: {} copies of the sentence in a single day's"
+examples/corporate_tax_avoidance_parts_1_to_3/template_sentences,"the sentence {} times between them"
+examples/superbad_wage_theft/template_sentences,"the 2017 report on wage theft and unpaid superannuation ({}"
+examples/life_insurance_industry/template_sentences,"the 2018 report on the life insurance industry ({})"
+examples/bushfire_lessons_2019_20/register/days|examples/bushfire_lessons_2019_20/template_sentences,"closed in May 2024, {} days later, with the sentence {} times"
+examples/national_disgrace_temporary_visas/template_sentences,"the exploitation of temporary work visa holders ({}"
+by_year/2022/documents_read|by_year/2022/form_letter_closures,2022 {} {} –
+by_year/2023/documents_read|by_year/2023/form_letter_closures,2023 {} {} –
+by_year/2024/documents_read|by_year/2024/form_letter_closures,2024 {} {} 69 per cent
+by_year/2025/documents_read|by_year/2025/form_letter_closures,2025 {} {} 7 per cent
+by_year/2026/documents_read|by_year/2026/form_letter_closures,2026 (to 3 {} {} 25 per cent
+corpus/excluded_by_scope,"excluding {} that answer somebody other than a parliamentary committee"
+coverage/recommendations_assessed|coverage/responses_with_recommendations_indexed,"{} recommendations across {} responses, each matched to the"
+coverage/position_stated|coverage/recommendations_assessed,"{} of the {}, 29 per cent, received a stated position"
+coverage/accepted|coverage/in_part_or_in_principle|coverage/not_accepted,"Of those, {} were accepted outright, {} in part or in principle, and {} were not accepted."
+coverage/recommendations_assessed - coverage/position_stated|coverage/noted_no_position|coverage/form_letter,"The other {} were noted without a position ({}), closed with the form letter ({})"
+coverage/not_addressed_individually,"never reached the recommendations ({})."
+coverage/responses_with_recommendations_indexed|coverage/responses_with_no_position_on_any_recommendation|coverage/responses_with_a_position_on_every_recommendation,"Of the {} responses, {} took a position on nothing the committee asked; {} took"
+coverage/by_year/2022/recommendations|coverage/by_year/2022/position_stated,2022 {} {} 88 per cent
+coverage/by_year/2023/recommendations|coverage/by_year/2023/position_stated,2023 {} {} 75 per cent
+coverage/by_year/2024/recommendations|coverage/by_year/2024/position_stated,2024 {} {} 10 per cent
+coverage/by_year/2025/recommendations|coverage/by_year/2025/position_stated,2025 {} {} 42 per cent
+coverage/by_year/2026/recommendations|coverage/by_year/2026/position_stated,2026 (to 3 September {} {} 38 per cent
+coverage/unreadable_excluded|coverage/responses_with_nothing_indexed,"Rows whose government words could not be read ({}) and responses with nothing indexed against them ({})"
+by_year/2024/form_letter_closures|by_year/2025/form_letter_closures|by_year/2026/form_letter_closures,"{} in 2024, {} in 2025 and {} so"
+by_year/2026/documents_read|by_year/2026/substantive,"{} responses read so far in 2026, {} take a position on at least some recommendations"
+coverage/by_year/2026/position_stated|coverage/by_year/2026/recommendations,"this year's responses stated a position on {} of the {} recommendations put to them"
+reports_on_bills_aside/closures_on_bill_reports|corpus/form_letter_closures,"by title, {} of the {} closures answer"
+reports_on_bills_aside/closures_remaining|reports_on_bills_aside/responses_remaining,"{} of the remaining {} responses, 46 per cent, are form letters"
+slowest_response/days,"The response arrived {} days, 23 years and 5 months, after the report"
+registers/senate/outstanding_now|registers/senate/outstanding_at_schedule|registers/senate/answered_since_schedule,"leaves {} reports awaiting a government response: the report recorded {} at 30 June, and {} have been answered since"
+registers/house/schedule_own_tally_awaiting,"The Speaker's schedule counts {} as awaiting a response"
+registers/house/answered_since_schedule|registers/house/outstanding_now,"{} more have been answered since, leaving {}."
+registers/on_both_registers,"{} reports appear on both registers at once"
+registers/senate/outstanding_now|registers/senate/being_considered,"Of the {} Senate reports outstanding today, {} were recorded as"
+registers/senate/editions_read,"The President has tabled {} of these status reports since June 2022"
+registers/senate/editions_read,"We read all {}: that report is marked"
+registers/senate/being_considered_in_every_edition,"The government has been saying the same thing about those {}, twice a year, for four years."
+registers/house/being_considered,"So “all {} House reports are being considered”"
+compliance/measurable_responses_2000_on|compliance/within_three_months,"Of the {} responses since 2000 whose report date the Senate's own register records, {} arrived within"
+compliance/rate%,"arrived within three months: {} per cent."
+compliance/median_days,"The median took {} days"
+compliance/highest_rate_any_government_either_reading%,"either reading, is {} per cent."
+coverage/noted_no_position,"without a position since 2022, {} so far"
+recommendations_index/rows|recommendations_index/documents|recommendations_index/awaiting_a_response,"indexes {} recommendations from {} documents, {} of them awaiting a response right now"
