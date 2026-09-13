@@ -264,6 +264,9 @@ const SHOWN = 25;
                 {r.reportUrl && <> · <a href={r.reportUrl} rel="external">the report</a></>}
               </p>
               {r.heading && <p class="rec-title">{r.heading}</p>}
+              {r.recommendedBy && (
+                <p class="by">Recommended by {r.recommendedBy}, not by the commission</p>
+              )}
               {r.text
                 ? <p class="rec-text">{r.text}</p>
                 : <p class="rec-text missing">The report's own words could not be read: {r.textNote}.</p>}
@@ -509,6 +512,13 @@ const SHOWN = 25;
      title and wrong here. */
   #rc-register td.c-rec { overflow-wrap: normal; }
   #rc-register .rec-text, #rc-register .rec-title { max-width: 62ch; }
+  /* A recommendation only some commissioners made. It reads before the words
+     rather than after them, because a reader who takes the words as the
+     commission's has already been misled by the time a footnote arrives. */
+  #rc-register .by {
+    margin: 0 0 0.4rem; max-width: 62ch;
+    font-family: var(--sans); font-size: 0.8125rem; color: var(--ink-secondary);
+  }
   #rc-register .c-said > * { max-width: 54ch; }
 </style>
 
@@ -545,7 +555,7 @@ const SHOWN = 25;
        comes off the row's own data attribute rather than out of the printed
        line, which begins "Sorted as:" and would make "sorted" match 309 rows
        and mean nothing. */
-    const SEARCHABLE = ".rec-no, .which, .rec-title, .rec-text, .said, .others, .words";
+    const SEARCHABLE = ".rec-no, .which, .rec-title, .by, .rec-text, .said, .others, .words";
     const names = new Map(
       Array.from(controls.querySelectorAll<HTMLElement>("[data-rc-filter]"))
         .filter((c) => c.dataset.rcFilter)

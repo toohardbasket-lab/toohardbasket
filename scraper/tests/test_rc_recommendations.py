@@ -158,6 +158,38 @@ check("one recommendation's heading never swallows the next one's",
 check("no sidecar at all: no headings, and nothing invented",
       E.headings_in(pathlib.Path("/nowhere/99_1.lines.tsv")) == {})
 
+# --- who recommended it, where that is not the whole commission -------------
+# The Disability Royal Commission divided three times. Published without the
+# attribution, the page shows both halves of each split as something the Royal
+# Commission recommended.
+check("a recommendation of named commissioners carries their names",
+      E.recommended_by("Commissioners Bennett, Galbally and McEwin recommend: a. The "
+                       "Australian Government should act.")
+      == "Commissioners Bennett, Galbally and McEwin")
+check("a surname with a capital inside it is still a surname",
+      "McEwin" in E.recommended_by("Commissioners Bennett, Galbally, Mason and McEwin "
+                                   "recommend the Government withdraw it."))
+check("the Chair recommending with others is read the same way",
+      E.recommended_by("The Chair and Commissioners Mason and Ryan recommend: a. Do the thing.")
+      == "The Chair and Commissioners Mason and Ryan")
+check("one commissioner, recommending in the singular",
+      E.recommended_by("Commissioner Ryan recommends the Government commit to stages.")
+      == "Commissioner Ryan")
+check("a lettered part may come first",
+      E.recommended_by("a. Commissioners Bennett and Mason recommend the Government act.")
+      == "Commissioners Bennett and Mason")
+check("alternatively recommending is still recommending",
+      E.recommended_by("Commissioners Bennett and McEwin alternatively recommend the thing.")
+      != "")
+check("commissioners named in the middle of the commission's own recommendation are not "
+      "the authors of it",
+      E.recommended_by("The Department should develop a plan. Commissioners Bennett, Galbally, "
+                       "Mason and McEwin provide a recommendation to phase out ADEs by 2034.")
+      == "")
+check("an ordinary recommendation is the commission's",
+      E.recommended_by("The Australian Government should commit to the enactment of an Act.")
+      == "")
+
 # --- the apparatus at the foot of a page ------------------------------------
 # Three government answers were published carrying the references printed under
 # them. Four rules were tried before this one; the three that failed each took

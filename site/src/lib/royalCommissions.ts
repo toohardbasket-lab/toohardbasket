@@ -89,6 +89,12 @@ export interface RcRecommendation {
   heading: string;
   /** The commission's own words. Empty where the report's boundary could not be read. */
   text: string;
+  /**
+   * The commissioners the report attributes it to, where that is not the whole
+   * commission — "Commissioners Bennett, Galbally and McEwin", "Commissioner
+   * Ryan". Empty for a recommendation of the commission, which is all but six.
+   */
+  recommendedBy: string;
   textNote: string;
   reportUrl: string;
   reportTabled: string;
@@ -190,6 +196,7 @@ export function rcRecommendations(): RcRecommendation[] {
       label: r.label,
       heading: r.heading ?? "",
       text: r.recommendation,
+      recommendedBy: r.recommended_by ?? "",
       textNote: r.note ?? "",
       reportUrl: r.report_url ?? "",
       reportTabled: r.report_tabled ?? "",
@@ -224,6 +231,8 @@ export interface RcFigures {
   notAccepted: number;
   /** Recommendations whose own words could not be read from the report. */
   textUnreadable: number;
+  /** Recommendations the report attributes to named commissioners, not the commission. */
+  byNamedCommissioners: number;
   /** Recommendations the response answers together with the states. */
   withTheStates: number;
 }
@@ -244,6 +253,7 @@ export function rcFigures(): RcFigures {
     inPartOrInPrinciple: n((r) => r.verdict === "in part or in principle"),
     notAccepted: n((r) => r.verdict === "not accepted"),
     textUnreadable: n((r) => !r.text),
+    byNamedCommissioners: n((r) => r.recommendedBy !== ""),
     withTheStates: n((r) => r.otherGovernments !== "" ||
                             r.positionNote.includes("states and territories")),
   };

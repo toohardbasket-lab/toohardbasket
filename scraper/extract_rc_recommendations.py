@@ -219,7 +219,7 @@ STATED = re.compile(r"(?:list|total)\s+of\s+(\d{1,3})\s+recommendations", re.I)
 MIN_CHARS, MAX_CHARS = 25, 6000
 
 FIELDS = ["commission_id", "source", "source_id", "label", "heading", "recommendation",
-          "report_title", "report_tabled", "report_url", "note"]
+          "recommended_by", "report_title", "report_tabled", "report_url", "note"]
 COUNT_FIELDS = ["commission_id", "source_id", "found", "stated", "agree", "note",
                 "unnumbered", "unnumbered_words"]
 
@@ -583,6 +583,45 @@ def split_heading(text: str, heading: str) -> tuple[str, str]:
     return "", text
 
 
+# Who recommended it, where that is not the whole commission. The Disability
+# Royal Commission divided three times and the report says so at the top of the
+# recommendation: "Commissioners Bennett, Galbally and McEwin recommend:",
+# "The Chair and Commissioners Mason and Ryan recommend:", "Commissioner Ryan
+# recommends". Those three splits are six recommendations, and they are three
+# pairs of opposites — inclusive education, segregated employment, group homes.
+# Published without the attribution the page shows both halves of each as
+# something the Royal Commission recommended, which is not what the report says
+# and is not what happened.
+#
+# It has to be the opening. Recommendation 7.30 is the commission's own and
+# mentions the other four commissioners in the middle of it — "Commissioners
+# Bennett, Galbally, Mason and McEwin provide a recommendation to phase out ADEs
+# by 2034 (Recommendation 7.32)" — and attributing 7.30 to them would be exactly
+# backwards. A lettered marker may come first: 7.32 opens "a. Commissioners
+# Bennett, Galbally, Mason and McEwin recommend".
+#
+# A surname is not always a capital and then lower case: four of the six are
+# "Commissioners Bennett, Galbally, Mason and McEwin", and a pattern that read
+# a name as one capital followed by small letters found two of the six and
+# silently left the other four as the commission's.
+#
+# Where only a part is theirs the row is still the commission's and the report's
+# own words carry the qualification inside it. Recommendation 4.4 is that shape:
+# item a is the commission's and item b is three commissioners recommending an
+# alternative. Nothing is asserted about it here.
+ATTRIBUTION = re.compile(
+    r"^(?:[a-z]\.[ \t]+)?"
+    r"((?:The Chair(?:[ \t]+and)?[ \t]+)?Commissioners?[ \t]+"
+    r"[A-Z][A-Za-z'\u2019-]+(?:(?:,[ \t]+|[ \t]+and[ \t]+)[A-Z][A-Za-z'\u2019-]+)*)"
+    r"[ \t]+(?:alternatively[ \t]+)?recommends?\b")
+
+
+def recommended_by(text: str) -> str:
+    """The commissioners a recommendation is attributed to, or "" for the commission."""
+    m = ATTRIBUTION.match(text.strip())
+    return " ".join(m.group(1).split()) if m else ""
+
+
 def stated_total(body: str) -> tuple[str, str]:
     """What the report says it recommends, and a note when it says it twice."""
     found = sorted({m.group(1) for m in STATED.finditer(body)})
@@ -665,6 +704,7 @@ def main(argv: list[str]) -> int:
             rows.append({
                 "commission_id": d["commission_id"], "source": "report", "source_id": d["id"],
                 "label": label, "heading": heading, "recommendation": text,
+                "recommended_by": recommended_by(text),
                 "report_title": d["title"], "report_tabled": d["tabled_senate"] or d["tabled_house"],
                 "report_url": d["url"], "note": found[label]["note"],
             })

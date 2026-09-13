@@ -53,6 +53,8 @@ import re
 import sys
 
 HERE = pathlib.Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE))
+from extract_rc_recommendations import recommended_by  # noqa: E402
 DATA = HERE / "data"
 TEXT = HERE / "raw" / "rc_text"
 RECOMMENDATIONS = DATA / "rc_recommendations.csv"
@@ -347,6 +349,12 @@ def check_recommendation(row: dict, name: str) -> str:
         return "source text missing"
     if not row["recommendation"]:
         return "no text to check"
+    # Who the report says recommended it, where that is not the whole
+    # commission. The column is not taken on trust: it has to be what the
+    # published words themselves open with, so a name cannot be put on a row
+    # the report does not put it on, or taken off one it does.
+    if recommended_by(row["recommendation"]) != (row.get("recommended_by") or ""):
+        return "the commissioners named do not match the words"
     probe = probe_of(row["recommendation"])
     if len(probe) < SHORTEST_PROBE:
         return "too short to verify"
