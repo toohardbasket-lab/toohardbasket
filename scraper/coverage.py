@@ -68,6 +68,16 @@ import pathlib
 import re
 import sys
 from collections import Counter, defaultdict
+# A promise without a verdict word. "The Government will legislate this in 2027"
+# states no position the verdict test can read, and is counted as noted; these
+# are the words that make that a real limit rather than a hypothetical one.
+COMMITMENT = re.compile(
+    r"(?i)\b(?:will\s+(?:legislate|introduce|establish|develop|implement|provide|fund|"
+    r"commence|deliver|release|publish|consult|review|continue|work)"
+    r"|has\s+(?:implemented|established|introduced|delivered|commenced|begun)"
+    r"|is\s+(?:implementing|developing|establishing|delivering))\b")
+
+
 
 HERE = pathlib.Path(__file__).resolve().parent
 CANDIDATES = [HERE / "data", HERE / "scraper" / "data", HERE.parent / "scraper" / "data"]
@@ -320,6 +330,18 @@ def main() -> int:
         w.writeheader()
         w.writerows(positions)
 
+    def noted_with_a_commitment_verb(recs: list[dict], states: list[dict]) -> int:
+        """Recommendations counted as noted whose words promise something anyway."""
+        noted = {(p["source"], p["source_id"], p["label"], p["recommended_by"])
+                 for p in states if p["state"] == "noted"}
+        n = 0
+        for r in recs:
+            key = (r["source"], r["source_id"], r["label"], r.get("recommended_by") or "")
+            if key in noted and COMMITMENT.search(r.get("government_words") or ""):
+                n += 1
+        return n
+
+
     def bucket(rows: list[dict]) -> dict:
         t = Counter()
         for r in rows:
@@ -360,6 +382,16 @@ def main() -> int:
                       "accepted (supported, agreed, accepted, endorsed or implemented, unqualified); in part or "
                       "in principle (the same sentence qualifies it); not accepted (negated, or rejected, "
                       "declined, disagreed).",
+        # How loose the ceiling is. A response that commits to action without
+        # using a verdict word is counted as noted, because the test cannot see
+        # it, and the methods page has always said so. This counts them, so the
+        # limit is published with a figure beside it rather than as a worry: a
+        # commitment to something adjacent is not a position on the
+        # recommendation, so this is an upper bound on how far "noted" overcounts,
+        # not an estimate of how far it does.
+        "noted": {
+            "with_a_commitment_verb": noted_with_a_commitment_verb(recs, positions),
+        },
         "responses_in_corpus": len(docs),
         "responses_with_nothing_indexed": len(docs) - len(per_doc),
         "dissenting_recommendations_excluded": dissent,

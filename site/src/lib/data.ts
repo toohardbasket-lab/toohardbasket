@@ -1298,6 +1298,14 @@ export interface CoverageBucket {
 
 export interface Coverage {
   definition: string;
+  /**
+   * How loose the "noted" ceiling is. A response that promises action without
+   * using a verdict word is counted as noted because the test cannot read it as
+   * a position; this is how many of them do promise something. An upper bound on
+   * the overcount, not an estimate of it — a commitment to something adjacent is
+   * not a position on the recommendation.
+   */
+  noted: { withACommitmentVerb: number };
   responsesInCorpus: number;
   responsesWithNothingIndexed: number;
   dissentingExcluded: number;
@@ -1339,9 +1347,11 @@ export function coverage(): Coverage | null {
     definition: string; responses_in_corpus: number; responses_with_nothing_indexed: number;
     dissenting_recommendations_excluded: number; total: Raw; by_year: Record<string, Raw>;
     by_classification: Record<string, Raw>;
+    noted?: { with_a_commitment_verb?: number };
   }>("coverage_summary.json");
   return {
     definition: s.definition,
+    noted: { withACommitmentVerb: s.noted?.with_a_commitment_verb ?? 0 },
     responsesInCorpus: s.responses_in_corpus,
     responsesWithNothingIndexed: s.responses_with_nothing_indexed,
     dissentingExcluded: s.dissenting_recommendations_excluded,

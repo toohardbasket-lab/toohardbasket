@@ -46,7 +46,9 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       states what is counted, what is left out and why, and, at the end, what the
       method cannot yet see. Where a classification is uncertain, the reading least likely
       to overstate non-response is chosen. The register counts are exact under the rules
-      stated below; a figure this site calls a floor is a lower bound, and says so.
+      stated below; a figure this site calls a floor is meant to undercount rather than
+      overcount, and what is known about whether it does is set out under
+      {" "}<a href="#one-way">what a one-way test can and cannot promise</a>.
     </p>
   </section>
 
@@ -60,7 +62,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       <div><dt>Being considered</dt><dd>The government’s own phrase, from its status report: the response “is being considered”. Not a characterisation of ours.</dd></div>
       <div><dt>Form-letter closure</dt><dd>A response that disposes of every recommendation with the repeated “passage of time” sentence and states a position on none.</dd></div>
       <div><dt>Position stated</dt><dd>The response uses a verdict word of the recommendation: supported, agreed, accepted, endorsed, rejected, declined, not supported, not agreed, not accepted or implemented; sorted as accepted, in part or in principle, or not accepted. “Noted” is not a position.</dd></div>
-      <div><dt>Floor</dt><dd>A figure the method can undercount but not inflate. The register counts are exact under the rules above; figures called floors are lower bounds.</dd></div>
+      <div><dt>Floor</dt><dd>A figure built to undercount rather than overcount. The rule that produces it errs one way; whether the figure itself does depends on the words being attached to the right recommendation, which is a separate question — see <a href="#one-way">what a one-way test can and cannot promise</a>. The register counts are exact under the rules above.</dd></div>
       <div><dt>Edition</dt><dd>What the site said on a Tuesday, kept unchanged at /as-at/&lt;date&gt;/ for citation.</dd></div>
       <div><dt>Checked to</dt><dd>The tabling date of the latest government response the build had read. A response tabled after it appears on the next weekly rebuild.</dd></div>
     </dl>
@@ -357,8 +359,13 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     <p>
       The test is mechanical and errs one way on purpose. A response that commits to action
       without a verdict word (“the Government will legislate this in 2027”) is counted as
-      noted, because the test cannot see it. So the figure published as “position stated” is
-      a floor and the figure for “noted” a ceiling; the method cannot inflate the first.
+      noted, because the test cannot see it. {cov && <>Of the
+      {" "}{fmt(cov.total.notedNoPosition)} recommendations counted as noted,
+      {" "}{fmt(cov.noted.withACommitmentVerb)} carry a phrase of that kind — “will introduce”,
+      “is implementing”, “has established” — so the ceiling is loose by at most that many, and
+      by fewer in substance, because a commitment to something adjacent is not a position on
+      the recommendation. </>}So the figure published as “position stated” is built to
+      undercount and the figure for “noted” to overcount.
       The sentences the test must and must not count are fixed in
       {" "}<code>tests/test_coverage.py</code>, which the weekly job runs before it measures
       anything. Responses that hold nothing the index can read are outside the measure and
@@ -373,6 +380,38 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
           {" "}<a href="/senate/responses/#coverage">The figures, by year</a>.
         </>
       )}
+    </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="one-way">What a one-way test can and cannot promise</h2>
+    <p>
+      Until 13 September this page said the method “cannot inflate” the number of
+      recommendations with a stated position. That was a stronger claim than the evidence
+      supports, and a reviewer was right to say so. The rule errs one way: it counts a position
+      only where the government used a verdict word, so it misses positions and cannot invent
+      one. But that holds only if the words being read are the government's words about
+      <em>that</em> recommendation. Where a response is read as answering recommendation 12
+      when it was answering 11, a position is recorded that was never given, and no amount of
+      care in the verdict rule prevents it.
+    </p>
+    <p>
+      That is not hypothetical. The same verdict test runs over the royal commissions index,
+      and reading fourteen of its rows against the tabled PDFs on 8 September found one
+      published as accepted on the strength of a sentence further down the page that was about
+      something else. One error of that kind, found by eye in fourteen rows, is enough to
+      retire the word “cannot”. It says nothing about how often it happens here, because those
+      fourteen rows were royal commission rows, not committee ones — which is the point: nobody
+      has checked these.
+    </p>
+    <p>
+      So the figures are described as built to undercount rather than proven to. What would
+      settle it is a sample of this index's own rows, read against the response documents, with
+      every error found published and counted in both directions. That has not been done. This
+      page said once that it had been, on the strength of a sample file whose verdict column
+      was empty on all 56 rows; that claim was withdrawn on 4 September and is in
+      {" "}<a href="/corrections/">the corrections log</a>. It will not be made again before
+      the check exists.
     </p>
   </section>
 
