@@ -1362,6 +1362,44 @@ export function coverage(): Coverage | null {
   };
 }
 
+export interface Jurisdiction {
+  measured: string;
+  /** Every recommendation the index holds. */
+  recommendations: number;
+  /** How many name a state, territory or local government in their own words.
+   * Naming is not being addressed to: a recommendation can ask the
+   * Commonwealth to work WITH the states. */
+  namesAnotherGovernment: number;
+  /** How many are answered in words saying the matter is one of theirs. */
+  answerPointsElsewhere: number;
+  /** Of those, how many carry a stated Commonwealth position anyway. */
+  pointsElsewhereWithAPosition: number;
+  pointsElsewhereNoted: number;
+}
+
+/**
+ * Which government a recommendation names, and which one answered it. Read
+ * from jurisdiction.json, which jurisdiction.py writes. Null before it has
+ * run, so a page must handle its absence rather than print a zero.
+ */
+export function jurisdiction(): Jurisdiction | null {
+  const f = path.join(DATA_DIR, "jurisdiction.json");
+  if (!fs.existsSync(f)) return null;
+  const s = readJson<{
+    measured: string; recommendations: number; names_another_government: number;
+    answer_points_elsewhere: number; points_elsewhere_with_a_position: number;
+    points_elsewhere_noted: number;
+  }>("jurisdiction.json");
+  return {
+    measured: s.measured,
+    recommendations: s.recommendations,
+    namesAnotherGovernment: s.names_another_government,
+    answerPointsElsewhere: s.answer_points_elsewhere,
+    pointsElsewhereWithAPosition: s.points_elsewhere_with_a_position,
+    pointsElsewhereNoted: s.points_elsewhere_noted,
+  };
+}
+
 export interface PositionChecks {
   /** The day verify_positions.py last ran over the index. */
   checked: string;

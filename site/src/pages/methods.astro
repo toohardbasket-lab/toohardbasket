@@ -8,11 +8,12 @@ import {
 import { registerBySlug, plannedRegisters } from "../lib/registers";
 import { FORMS, formHref } from "../lib/forms";
 import { ABOUT } from "../lib/about";
-import { coverage, positionChecks } from "../lib/data";
+import { coverage, positionChecks, jurisdiction } from "../lib/data";
 import { ROYAL_COMMISSIONS_DRAFT } from "../lib/draft";
 
 const cov = coverage();
 const checks = positionChecks();
+const jur = jurisdiction();
 /* Form-letter closures tabled in a year, for the backlog paragraph. */
 const byYear = closureDetail().byYear;
 const closuresIn = (y: string) => byYear.find((b) => b.year === y)?.closures ?? 0;
@@ -70,6 +71,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     <p class="note contents">
       On this page:
       {" "}<a href="#unit">what is counted</a> ·
+      {" "}<a href="#jurisdiction">which government</a> ·
       {!ROYAL_COMMISSIONS_DRAFT && <>{" "}<a href="#indexes">registers and indexes</a> ·</>}
       {" "}<a href="#sources">sources</a> ·
       {" "}<a href="#corpus">the response corpus</a> ·
@@ -100,6 +102,61 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       Planned registers: {plannedRegisters().map((r) => r.name).join("; ")}.
       Each will be published as its own register with its own rule, not merged into this one.
     </p>
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="jurisdiction">Which government this holds to account</h2>
+    <p>
+      <strong>One: the Commonwealth.</strong> Every committee on this site is a committee of
+      the Commonwealth Parliament, every response is a response of the Australian Government,
+      and both deadlines are the two chambers' own standing orders. No state or territory
+      parliament is in it, and no council. A recommendation a state ignored for a decade does
+      not appear here, and its absence is not evidence of anything.
+      {plannedRegisters().length > 0 && <>
+        {" "}That is a limit of what has been built, not a judgement about what matters:
+        {" "}{plannedRegisters().map((r) => r.name).join("; ")}
+        {plannedRegisters().length === 1
+          ? " is planned, as its own register with its own rule."
+          : " are planned, each as its own register with its own rule."}
+      </>}
+    </p>
+    {jur && (
+    <p>
+      The limit bites hardest where a recommendation is not the Commonwealth's to act on.
+      {" "}{fmt(jur.namesAnotherGovernment)} of the {fmt(jur.recommendations)} recommendations
+      in the index name a state, a territory or a local government in their own words. That
+      is not the same as being addressed to one — a committee often asks the Commonwealth to
+      work <em>with</em> the states — and nothing here decides who a recommendation is for,
+      because deciding would be this site's judgement rather than the document's.
+    </p>
+    )}
+    {jur && (
+    <p>
+      What can be read is the answer. In {fmt(jur.answerPointsElsewhere)} rows the
+      government's own words say the matter belongs to a state, a territory or a council:
+      “this is a matter for state and territory governments”, “the responsibility of states
+      and territories”. {fmt(jur.pointsElsewhereNoted)} of those are noted without a
+      position. {fmt(jur.pointsElsewhereWithAPosition)} carry a stated position anyway — the
+      Commonwealth supporting or accepting a recommendation and saying, in the same answer,
+      that it is not the government who would act on it. The response to the Select Committee
+      on Autism does it more than once: “Supported in principle. This recommendation is
+      principally a matter for state and territory governments.” This site counts the verdict
+      the government stated; it does not resolve the tension, and every one of the rows is
+      published so a reader can see it.
+    </p>
+    )}
+    {jur && (
+    <p class="note">
+      A sentence that calls the responsibility <em>shared</em> is not counted as handing it
+      over, however it goes on — “all Australian governments have a shared responsibility,
+      and states and territories lead delivery” is the Commonwealth including itself. Four
+      rows read the other way before that rule was written. The test is
+      {" "}<code>scraper/tests/test_jurisdiction.py</code>, the rows are
+      {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket/blob/main/scraper/data/jurisdiction.csv">jurisdiction.csv</a>{" "}
+      with the sentence that matched beside each one, and they have not been read by hand.
+      Measured {formatDate(jur.measured)}.
+    </p>
+    )}
   </section>
 
   {/* Written, and not shown until the index it points at is published: a
