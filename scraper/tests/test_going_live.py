@@ -20,6 +20,11 @@ import sys
 HERE = pathlib.Path(__file__).resolve().parent.parent.parent
 DRAFT_TS = HERE / "site" / "src" / "lib" / "draft.ts"
 WORKFLOW = HERE / ".github" / "workflows" / "update-dataset.yml"
+DATA = HERE / "scraper" / "data"
+# Files the index page needs before it can tell a reader what it does not hold.
+# Without them the page renders without the section and looks complete, which
+# is the one failure this whole change exists to prevent.
+BOUNDARY = ["rc_not_held.csv", "rc_sweep.json"]
 
 PASS, FAIL = [], []
 
@@ -64,6 +69,16 @@ if draft:
 else:
     check("a published index gates the weekly run: delete the `continue-on-error: true` "
           "line from the royal commissions step", not forgiving)
+
+# A reader who arrives looking for the Aged Care royal commission has to be told
+# it is not here and why. That section is built from two files, and the page
+# hides it when they are absent — so a missing file does not break the build, it
+# quietly produces a page that reads as though four commissions were all of
+# them. Both are committed to the repository, so this is required in either
+# state: a check that cannot fail is not a check.
+for name in BOUNDARY:
+    check(f"{name} is in the dataset, so the page can say what it does not hold",
+          (DATA / name).exists())
 
 # The pages the flag governs must be the pages that exist, or the sitemap will
 # offer an address the site does not build.

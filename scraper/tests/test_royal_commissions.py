@@ -36,7 +36,7 @@ def record(otd_id, type_="Royal commission", title="A report", files=1, **kw):
     return d
 
 
-def bed(commissions, seed, records, rejected=None):
+def bed(commissions, seed, records, rejected=None, not_held=None):
     """A temporary directory holding the seed files, and the register to read."""
     d = pathlib.Path(tempfile.mkdtemp())
     with (d / "royal_commissions.csv").open("w", newline="", encoding="utf-8") as f:
@@ -53,6 +53,17 @@ def bed(commissions, seed, records, rejected=None):
         with H.NOT_OURS.open("w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=["otd_id", "reason"])
             w.writeheader(); w.writerows(rejected)
+    # The commissions a reader will look for and not find. Pointed at the
+    # temporary directory like everything else: the real file cites register
+    # ids that this bed's register has never heard of, and the harvester is
+    # right to refuse them.
+    H.NOT_HELD = d / "rc_not_held.csv"
+    H.SWEEP = d / "rc_sweep.json"
+    if not_held is not None:
+        with H.NOT_HELD.open("w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=["name", "short_name", "fails",
+                                              "register_ids", "why"])
+            w.writeheader(); w.writerows(not_held)
     H.register_records = lambda: records
     return d
 
@@ -258,6 +269,43 @@ try:
 except SystemExit:
     ok = True
 check("no page count to walk by: refuses rather than guessing when to stop", ok)
+
+# --- the commissions a reader will look for and not find --------------------
+# The page explains an absence on the strength of these rows, so every claim in
+# them has to be checkable and every one of these tests has to be able to fail.
+# The first version of this check passed on everything, because it compared the
+# file to itself.
+HELD_OUT = [{"name": "Royal Commission into Something Not Here",
+             "short_name": "Something", "fails": "no response was tabled",
+             "register_ids": "5558", "why": "Its report is on the register; no response is."}]
+
+d = bed(ONE, SEEDED, LIVE + [NOISE],
+        rejected=[{"otd_id": "5558", "reason": "an order, not a document of the commission"}],
+        not_held=HELD_OUT)
+check("a commission named as not held, citing a record that exists and was rejected: writes",
+      H.main(["harvest_royal_commissions.py"]) == 0)
+sweep = json.loads(H.SWEEP.read_text(encoding="utf-8"))
+check("the sweep records how many commissions are named as reported and not held",
+      sweep["commissions_named_and_not_held"] == 1)
+check("the records naming a royal commission split into read, rejected and waiting",
+      sweep["naming_and_in_the_index"] + sweep["naming_and_rejected"]
+      + sweep["naming_and_waiting"] == sweep["naming_a_royal_commission"])
+
+d = bed(ONE, SEEDED, LIVE + [NOISE],
+        rejected=[{"otd_id": "5558", "reason": "an order"}],
+        not_held=[dict(HELD_OUT[0], register_ids="9999")])
+check("a commission citing a record the register does not hold: refuses",
+      H.main(["harvest_royal_commissions.py"]) == 1)
+
+d = bed(ONE, SEEDED, LIVE + [NOISE], rejected=[], not_held=HELD_OUT)
+check("a commission citing a record nobody has looked at: refuses rather than "
+      "explaining an absence from an unchecked line",
+      H.main(["harvest_royal_commissions.py"]) == 1)
+
+d = bed(ONE, SEEDED, LIVE, rejected=[],
+        not_held=[dict(HELD_OUT[0], name=ONE[0]["name"], register_ids="")])
+check("a commission both held and named as not held: refuses rather than saying both",
+      H.main(["harvest_royal_commissions.py"]) == 1)
 
 print(f"\n{len(PASS)} passed, {len(FAIL)} failed")
 if FAIL:

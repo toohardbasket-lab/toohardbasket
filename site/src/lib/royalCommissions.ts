@@ -300,6 +300,82 @@ export function rcSources(): RcSources {
   };
 }
 
+/**
+ * A commission a reader will look for and not find, and which of the two
+ * admission rules it fails. Hand-written — nothing in the register says "this
+ * commission has no response" — and every claim in it is checked against the
+ * register by harvest_royal_commissions.py, which refuses rather than let the
+ * page explain an absence on the strength of a line nobody checked.
+ */
+export interface RcNotHeld {
+  name: string;
+  /** What people call it: "Aged Care", "the Hayne royal commission". */
+  shortName: string;
+  /** Which rule it fails, in words: "no response was tabled". */
+  fails: string;
+  /** Register records that do name it, every one already rejected by hand. */
+  registerIds: string[];
+  why: string;
+}
+
+/** Commissions named in the dataset as reported and not held here. */
+export function rcNotHeld(): RcNotHeld[] {
+  return read("rc_not_held.csv").map((r) => ({
+    name: r.name,
+    shortName: r.short_name,
+    fails: r.fails,
+    registerIds: (r.register_ids || "").split("|").filter(Boolean),
+    why: r.why,
+  }));
+}
+
+export interface RcSweep {
+  /** The day the register was last read end to end. */
+  swept: string;
+  records: number;
+  /** Records whose type or title says "royal commission" — what a person
+   * has to account for, one way or the other. */
+  namingARoyalCommission: number;
+  /** That population, split three ways by the harvester, which refuses to
+   * write unless the three add up to it. */
+  namingAndInTheIndex: number;
+  namingAndRejected: number;
+  namingAndWaiting: number;
+  typedRoyalCommission: number;
+  inTheIndex: number;
+  commissionsInTheIndex: number;
+  rejectedByHand: number;
+  commissionsNamedAndNotHeld: number;
+  candidatesWaiting: number;
+}
+
+/**
+ * What the last sweep of the whole Tabled Documents register found. Read from
+ * rc_sweep.json rather than typed into a page: the register grew by 42 records
+ * in a week, and a figure written into prose would still be reporting the
+ * first sweep. Null before the harvester has run once.
+ */
+export function rcSweep(): RcSweep | null {
+  const f = path.join(DATA_DIR, "rc_sweep.json");
+  if (!fs.existsSync(f)) return null;
+  const s = JSON.parse(fs.readFileSync(f, "utf8")) as Record<string, never>;
+  const n = (k: string): number => Number((s as Record<string, unknown>)[k] ?? 0);
+  return {
+    swept: String((s as Record<string, unknown>).swept ?? ""),
+    records: n("records"),
+    namingARoyalCommission: n("naming_a_royal_commission"),
+    namingAndInTheIndex: n("naming_and_in_the_index"),
+    namingAndRejected: n("naming_and_rejected"),
+    namingAndWaiting: n("naming_and_waiting"),
+    typedRoyalCommission: n("typed_royal_commission"),
+    inTheIndex: n("in_the_index"),
+    commissionsInTheIndex: n("commissions_in_the_index"),
+    rejectedByHand: n("rejected_by_hand"),
+    commissionsNamedAndNotHeld: n("commissions_named_and_not_held"),
+    candidatesWaiting: n("candidates_waiting"),
+  };
+}
+
 /** How each response was read: as prose, or as labelled blocks. */
 export function rcGrammars(): { commissionId: string; grammar: string; responseId: string }[] {
   return read("rc_position_counts.csv").map((r) => ({

@@ -21,7 +21,9 @@ import Base from "../layouts/Base.astro";
 import { ROYAL_COMMISSIONS_DRAFT } from "../lib/draft";
 import StatTiles from "../components/StatTiles.astro";
 import { fmt, formatDate, formatDateShort, humanDuration } from "../lib/data";
-import { commissions, rcRecommendations, rcFigures, rcLabels } from "../lib/royalCommissions";
+import {
+  commissions, rcRecommendations, rcFigures, rcLabels, rcNotHeld, rcSweep,
+} from "../lib/royalCommissions";
 
 const all = commissions();
 // One row per report that carries recommendations, not one per commission: a
@@ -32,6 +34,8 @@ const pairs = all.flatMap((c) => c.reports.map((r) => ({
 const rows = rcRecommendations();
 const f = rcFigures();
 const labels = rcLabels();
+const notHeld = rcNotHeld();
+const sweep = rcSweep();
 
 const stats = [
   { label: "Recommendations", value: fmt(f.recommendations) },
@@ -93,12 +97,75 @@ const SHOWN = 25;
     </p>
     <h1>What royal commissions asked for</h1>
     <p class="lede measure">
-      {fmt(f.commissions)} commissions, {fmt(f.recommendations)} recommendations, and what the Australian
-      Government said about each one in its own words. {fmt(f.position)} carry a stated
-      position. {fmt(f.noted)} were answered without one. {fmt(f.namedNotAnswered)} the response
-      names and does not answer.
+      {fmt(f.recommendations)} recommendations from the {fmt(f.commissions)} Commonwealth royal
+      commissions whose report <em>and</em> whose government response were both tabled in
+      Parliament — not from every royal commission Australia has held. What each one asked
+      for, and what the Australian Government said about it in its own words.
+      {" "}{fmt(f.position)} carry a stated position. {fmt(f.noted)} were answered without
+      one. {fmt(f.namedNotAnswered)} the response names and does not answer.
+      {" "}<a href="#which">Which commissions are here, and which are not</a>.
     </p>
     <StatTiles stats={stats} note="Counted over every recommendation every commission here made." />
+  </section>
+
+  <section class="wrap measure">
+    <h2 id="which">Which commissions are here, and which are not</h2>
+    <p>
+      Australia has held royal commissions for more than a century. This index holds
+      {" "}{fmt(f.commissions)} of them, and the reason is not a judgement about which ones
+      matter. Two
+      things have to exist before a recommendation can have a row, and both are documents
+      rather than opinions:
+    </p>
+    <ol class="rules">
+      <li>
+        <strong>The commission's report was tabled in Parliament</strong>, so its
+        recommendations can be read in their own numbering from the copy the Parliament
+        holds.
+      </li>
+      <li>
+        <strong>A government response to that report was tabled too</strong>, so there is a
+        document in which the government speaks about those recommendations, one by one.
+      </li>
+    </ol>
+    <p>
+      Where either is missing there is nothing to read a position out of, and this index
+      would have to guess. It does not guess.
+      {sweep && <>
+        {" "}The whole Tabled Documents register was read end to end on
+        {" "}{formatDate(sweep.swept)} — {fmt(sweep.records)} records — and every one of the
+        {" "}{fmt(sweep.namingARoyalCommission)} whose type or title names a royal commission
+        was either taken into this index or written down with the reason it was not.
+        {sweep.candidatesWaiting === 0
+          ? " None is left unaccounted for."
+          : ` ${fmt(sweep.candidatesWaiting)} are still waiting on a decision.`}
+      </>}
+    </p>
+
+    {notHeld.length > 0 && (
+      <>
+        <h3>Commissions people look for and will not find here</h3>
+        <dl class="absent">
+          {notHeld.map((c) => (
+            <div>
+              <dt>
+                {c.shortName}
+                <span class="fails"> · {c.fails}</span>
+              </dt>
+              <dd>
+                <span class="full">{c.name}.</span> {c.why}
+              </dd>
+            </div>
+          ))}
+        </dl>
+        <p class="note">
+          Not a complete list of what is missing — a complete list would be every royal
+          commission ever held. These are the ones whose absence a reader is most likely to
+          notice, with the register records that do name them, each one looked at by hand and
+          written down. {" "}<a href="/methods/royal-commissions/#why-four">The full account</a>.
+        </p>
+      </>
+    )}
   </section>
 
   <section class="wrap">
@@ -432,6 +499,20 @@ const SHOWN = 25;
     background: var(--rule); font-family: var(--sans); font-size: 0.9375rem;
   }
   .disagree { color: var(--ink-secondary); font-family: var(--sans); font-size: 0.8125rem; }
+
+  /* The two admission rules, and the commissions they keep out. Set as a list
+     and a definition list rather than as cards: these are the page's terms of
+     admission, not three things of equal weight to browse. */
+  .rules { margin: 1rem 0 1.25rem; padding-left: 1.2rem; }
+  .rules li { margin-bottom: 0.5rem; }
+  .absent { margin: 1rem 0 0.75rem; display: grid; gap: 1rem; }
+  .absent dt {
+    font-family: var(--sans); font-weight: 600;
+    border-top: 1px solid var(--rule-strong); padding-top: 0.55rem;
+  }
+  .absent dt .fails { font-weight: 400; color: var(--ink-secondary); }
+  .absent dd { margin: 0.3rem 0 0; }
+  .absent dd .full { color: var(--ink-secondary); }
 
   .positions { margin: 1rem 0 1.25rem; }
   .bar { display: flex; width: 100%; height: 1.9rem; }

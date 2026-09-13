@@ -42,6 +42,7 @@ a step that consumes what it writes.
 from __future__ import annotations
 
 import csv
+import datetime
 import json
 import pathlib
 import re
@@ -55,6 +56,8 @@ SEED = DATA / "rc_seed.csv"
 DOCUMENTS = DATA / "rc_documents.csv"
 CANDIDATES = DATA / "rc_candidates.csv"
 NOT_OURS = DATA / "rc_not_ours.csv"
+NOT_HELD = DATA / "rc_not_held.csv"
+SWEEP = DATA / "rc_sweep.json"
 
 # How many records a page of the search holds.
 PAGE_SIZE = 100
@@ -298,6 +301,30 @@ def main(argv: list[str]) -> int:
         print(f"REFUSING: {', '.join(both)} are in rc_seed.csv and rc_not_ours.csv at once",
               file=sys.stderr)
         return 1
+    # Commissions a reader will look for and not find. The file is written by
+    # hand — nothing in the register says "this commission has no response" —
+    # so every claim in it is checked against the register that was just read.
+    # A commission listed here must not also be in royal_commissions.csv, and
+    # every register id it cites must be a real record that a person has
+    # already rejected in rc_not_ours.csv. Otherwise the page would tell a
+    # reader why something is missing on the strength of a line nobody checked.
+    not_held = read(NOT_HELD) if NOT_HELD.exists() else []
+    faults = []
+    for r in not_held:
+        if r["name"] in {c["name"] for c in commissions}:
+            faults.append(f"{r['name']!r} is in rc_not_held.csv and royal_commissions.csv at once")
+        for otd_id in [x for x in (r.get("register_ids") or "").split("|") if x]:
+            if otd_id not in by_id:
+                faults.append(f"{r['name']!r} cites OTD {otd_id}, which the register does not hold")
+            elif otd_id not in rejected:
+                faults.append(f"{r['name']!r} cites OTD {otd_id}, which nobody has rejected "
+                              f"in {NOT_OURS.name}")
+    for f in faults:
+        print(f"  {f}", file=sys.stderr)
+    if faults:
+        print(f"REFUSING: {len(faults)} claims in {NOT_HELD.name} do not hold", file=sys.stderr)
+        return 1
+
     held = set(ids) | set(rejected)
     named = phrases(commissions)
     candidates = []
@@ -338,6 +365,41 @@ def main(argv: list[str]) -> int:
         counts = [(role, sum(1 for r in mine if r["role"] == role)) for role in sorted(ROLES)]
         print(f"{c['commission_id']}: "
               + ", ".join(f"{n} {role}" for role, n in counts if n))
+    # Every record whose type or title says "royal commission" — the population
+    # a person has to account for, and the number the methods page cites. Kept
+    # as data because it moves: the register grew by 42 records between the
+    # sweep of 6 September and the next one, and a figure typed into a page
+    # would still be reporting the first.
+    named_at_all = [d for d in records
+                    if (d.get("type") or "") == ROYAL or ROYAL_IN_TITLE.search(title_of(d))]
+    # That population splits three ways and the three must add up, or the page
+    # would be asserting a partition the data does not have: a document this
+    # index reads, a record a person looked at and rejected, or a record still
+    # waiting on a decision. Counted over the same list, not inferred from
+    # subtracting one total from another.
+    naming_ids = {str(d.get("id", "")) for d in named_at_all}
+    naming_seeded = len(naming_ids & set(ids))
+    naming_rejected = len(naming_ids & set(rejected))
+    naming_waiting = len(naming_ids - set(ids) - set(rejected))
+    sweep = {
+        "swept": datetime.date.today().isoformat(),
+        "records": len(records),
+        "naming_a_royal_commission": len(named_at_all),
+        "naming_and_in_the_index": naming_seeded,
+        "naming_and_rejected": naming_rejected,
+        "naming_and_waiting": naming_waiting,
+        "typed_royal_commission": len(royal),
+        "in_the_index": len(rows),
+        "commissions_in_the_index": len(commissions),
+        "rejected_by_hand": len(rejected),
+        "commissions_named_and_not_held": len(not_held),
+        "candidates_waiting": len(candidates),
+    }
+    if naming_seeded + naming_rejected + naming_waiting != len(named_at_all):
+        print("REFUSING: the records naming a royal commission do not split into "
+              "read, rejected and waiting", file=sys.stderr)
+        return 1
+
     unseeded = [c for c in candidates if c["reason"].startswith("typed")]
     print(f"{len(rows)} documents across {len(commissions)} commissions; "
           f"{len(records)} records in the register, {len(royal)} typed {ROYAL}, "
@@ -349,12 +411,16 @@ def main(argv: list[str]) -> int:
     if len(candidates) > 10:
         print(f"  … and {len(candidates) - 10} more in {CANDIDATES.name}")
 
+    print(f"{sweep['naming_a_royal_commission']} records name a royal commission; "
+          f"{sweep['commissions_named_and_not_held']} commissions are named in "
+          f"{NOT_HELD.name} as reported and not held here")
     if check_only:
         print("--check: nothing written")
         return 0
     write(DOCUMENTS, DOCUMENT_FIELDS, rows)
     write(CANDIDATES, CANDIDATE_FIELDS, candidates)
-    print(f"wrote {DOCUMENTS.name} and {CANDIDATES.name}")
+    SWEEP.write_text(json.dumps(sweep, indent=2) + "\n", encoding="utf-8")
+    print(f"wrote {DOCUMENTS.name}, {CANDIDATES.name} and {SWEEP.name}")
     return 0
 
 

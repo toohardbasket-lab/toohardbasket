@@ -390,6 +390,50 @@ So the index does not have four commissions because four is where the work got
 to. It has four because four are all the register can support, and the page now
 says so rather than letting a reader assume the rest are coming.
 
+**13. The admission rule belongs on the index, not only in the methods.**
+Settled 13 September, after an external review said that "royal commissions" to
+a reader means all of them.
+
+Decision 12 was right and invisible. It lived under a heading on the methods
+page called "Why four commissions, and not more", which a reader reaches only
+if they already suspect there is something to ask. Somebody arriving from a
+search for the aged care royal commission met a page headed "What royal
+commissions asked for" saying four, and had no way to learn that theirs is
+absent, or why.
+
+So the two admission rules — the commission's report was tabled, and a
+government response to that report was tabled — are now stated on the index
+itself, above everything else, and the lede says the index holds the
+commissions whose report *and* response were both tabled rather than every
+commission Australia has held.
+
+Three things changed to make that honest rather than decorative.
+
+  * `data/rc_not_held.csv` names the commissions a reader is likely to look
+    for, which rule each fails, and the register records that do name it. It is
+    written by hand, because nothing in the register says "this commission has
+    no response". So `harvest_royal_commissions.py` checks every claim in it
+    against the register it has just read and refuses to write anything if a
+    row cites a record the register does not hold, or one nobody has rejected
+    by hand, or names a commission that is also in `royal_commissions.csv`.
+    Three tests in `test_royal_commissions.py` are those three refusals.
+  * `data/rc_sweep.json` carries the sweep's own totals, because the figures in
+    decision 12 were typed into a page and were wrong within the week: the
+    register held 17,566 records when they were written and 17,608 six days
+    later, and the count of records naming a royal commission had gone from 42
+    to 53. The records naming one are now split three ways — read by this
+    index, rejected by hand, waiting on a decision — and the harvester refuses
+    if the three do not add up, because a record in none of them is a
+    commission nobody has noticed.
+  * `test_going_live.py` requires both files. The section hides itself when
+    they are missing, which would not break a build; it would quietly produce a
+    page that reads as though four commissions were all of them.
+
+The third commission named in `rc_not_held.csv` is the Hayne royal commission,
+which nobody had asked about. It is there because it is the one most people
+would look for, and a page that only accounts for the near misses it happens to
+have hit is still letting the reader assume.
+
 Two things follow.
 
 The candidate rule was too narrow to have found this. It flagged a record typed

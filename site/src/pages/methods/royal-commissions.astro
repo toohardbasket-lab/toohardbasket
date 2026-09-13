@@ -20,6 +20,7 @@ import { ROYAL_COMMISSIONS_DRAFT } from "../../lib/draft";
 import { fmt, formatDate, formatDateShort } from "../../lib/data";
 import {
   commissions, rcFigures, rcLabels, rcSources, rcGrammars, rcRecommendations,
+  rcNotHeld, rcSweep,
 } from "../../lib/royalCommissions";
 
 const all = commissions();
@@ -27,6 +28,8 @@ const f = rcFigures();
 const labels = rcLabels();
 const src = rcSources();
 const grammars = rcGrammars();
+const notHeld = rcNotHeld();
+const sweep = rcSweep();
 const pairs = all.flatMap((c) => c.reports.map((r) => ({
   ...r, commission: c.name, only: c.reports.length === 1,
 })));
@@ -137,25 +140,61 @@ const wordsMore = quoted.filter((r) => r.governmentWordsMore).length;
 
     <h3 id="why-four">Why {fmt(src.commissionsHeld)} commissions, and not more</h3>
     <p>
-      Not because {fmt(src.commissionsHeld)} is where the work stopped. The whole register was
-      read — 17,566 records, back to October 2002 — and every title naming a royal commission
-      taken out of it. There are 42. Twenty are typed "Royal commission" and every one belongs
-      to a commission already here. Of the other 22, not one is a report and a response to it:
-      they are bills and regulations about royal commissions in general, committee reports
-      asking for one to be held, a petition, and government responses to those committee
-      reports.
+      Two things must both exist before a recommendation can have a row, and both are
+      documents: the commission's report was tabled in Parliament, and a government response
+      to that report was tabled too. Where either is missing there is nothing to read a
+      position out of. That is the whole of the admission rule, and it is the reason the
+      number is {fmt(src.commissionsHeld)} rather than a judgement about which commissions
+      matter.
     </p>
+    {sweep && (
     <p>
-      The near miss says what the limit really is. The final report of the Royal Commission
-      into Aged Care Quality and Safety is on the register — eight volumes, presented by a
-      Member on 27 July 2022 and typed "Other", volume 1 titled "Summary and recommendations",
-      the same shape as the Disability report. No government response to it is on the register:
-      what the register holds instead is a progress report on implementation for 2024 and
-      another for 2025. A commission whose response is not tabled cannot have a single row
-      here, because there would be nothing to read a position out of. The same is true of the
-      Royal Commission into Institutional Responses to Child Sexual Abuse, where the register
-      holds a progress report and nothing else.
+      Not because {fmt(src.commissionsHeld)} is where the work stopped, either. The whole
+      register is read end to end on every run — {fmt(sweep.records)} records on
+      {" "}{formatDate(sweep.swept)}, back to October 2002 — and every record whose type or
+      title names a royal commission is taken out of it. There are
+      {" "}{fmt(sweep.namingARoyalCommission)}, and they split three ways with nothing left
+      over. {fmt(sweep.namingAndInTheIndex)} are documents this index reads — the reports and
+      the responses. {fmt(sweep.namingAndRejected)} have been read by a person and written
+      down with the reason they are not a document of a commission: bills and regulations
+      about royal commissions in general, committee reports asking for one to be held, a
+      petition, government responses to those committee reports, and progress reports on
+      implementation. {sweep.namingAndWaiting === 0
+        ? "None is waiting on a decision."
+        : `${fmt(sweep.namingAndWaiting)} are waiting on a decision, and are listed in rc_candidates.csv until somebody makes it.`}
+      {" "}The harvester refuses to write anything if those three do not add up, because a
+      record that is in none of them is a commission nobody has noticed.
     </p>
+    <p class="note">
+      {fmt(sweep.typedRoyalCommission)} of the {fmt(sweep.namingARoyalCommission)} are typed
+      "Royal commission" by the register itself, and every one of those belongs to a
+      commission already here. The type is not enough on its own — three of the five
+      government responses are typed "Other", and twelve of the thirteen records making up
+      the Disability final report are titled by their volume — which is why the sweep reads
+      titles as well, and why a person still has to say yes or no to what it turns up. These
+      counts come from the sweep rather than from figures typed here, because the register
+      moves between runs and prose does not notice.
+    </p>
+    )}
+    {notHeld.length > 0 && (
+    <p>
+      The near misses say what the limit really is, and they are data rather than prose —
+      {" "}<code>rc_not_held.csv</code>, one row for each commission a reader is likely to
+      look for, checked against the register by the harvester, which refuses to write
+      anything if a row of it cites a record the register does not hold or that nobody has
+      rejected by hand.
+    </p>
+    )}
+    {notHeld.length > 0 && (
+    <dl class="absent">
+      {notHeld.map((c) => (
+        <div>
+          <dt>{c.name} <span class="fails">· {c.fails}</span></dt>
+          <dd>{c.why}</dd>
+        </div>
+      ))}
+    </dl>
+    )}
     <p class="note">
       A progress report is not a response and is not read here. What a government says it has
       done about a recommendation years later is a different claim from what it said about the
@@ -550,4 +589,15 @@ const wordsMore = quoted.filter((r) => r.governmentWordsMore).length;
   table.register { margin-bottom: 1rem; }
   table.register td { padding-right: 1rem; }
   table.narrow { max-width: 100%; }
+
+  /* The commissions the admission rule keeps out. A definition list, not the
+     .defs grid above: each entry is a paragraph of reasoning rather than a
+     term and its one-line meaning. */
+  .absent { margin: 1rem 0 0.75rem; display: grid; gap: 1rem; }
+  .absent dt {
+    font-family: var(--sans); font-weight: 600; font-size: 0.9375rem;
+    border-top: 1px solid var(--rule-strong); padding-top: 0.55rem;
+  }
+  .absent dt .fails { font-weight: 400; color: var(--ink-secondary); }
+  .absent dd { margin: 0.3rem 0 0; font-size: 0.9375rem; }
 </style>
