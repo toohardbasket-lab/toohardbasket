@@ -438,10 +438,10 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       which is its opening sentence; those {fmt(checks.verdictFarIntoTheAnswer)} are in the
       sample above as a stratum of their own, because a verdict that far down is the kind that
       turned out in September to be about something else.
-      {" "}{checks.runsOnIntoAnotherRecommendation === 0
+      {" "}<strong>Three.</strong> {checks.runsOnIntoAnotherRecommendation === 0
         ? "None of them contains another recommendation's opening words, which is what a passage that swallowed the recommendation below it would look like — though a passage runs on because a number was missed, and a missed number usually leaves nothing to compare against, so this test is weaker than it sounds."
         : `${fmt(checks.runsOnIntoAnotherRecommendation)} of them contain another recommendation's opening words, the signature of a passage that swallowed the recommendation below it.`}
-      {" "}<strong>Three.</strong> A fourth check was written on the same day and thrown away.
+      {" "}A fourth check was written on the same day and thrown away.
       It tested whether each recommendation's own words sit just above the government's, and
       every row passed — because the extractor cuts the question and the answer out of one
       segment, so the question is above the answer by construction. A test that cannot fail is
