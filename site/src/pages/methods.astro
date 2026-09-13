@@ -8,10 +8,11 @@ import {
 import { registerBySlug, plannedRegisters } from "../lib/registers";
 import { FORMS, formHref } from "../lib/forms";
 import { ABOUT } from "../lib/about";
-import { coverage } from "../lib/data";
+import { coverage, positionChecks } from "../lib/data";
 import { ROYAL_COMMISSIONS_DRAFT } from "../lib/draft";
 
 const cov = coverage();
+const checks = positionChecks();
 /* Form-letter closures tabled in a year, for the backlog paragraph. */
 const byYear = closureDetail().byYear;
 const closuresIn = (y: string) => byYear.find((b) => b.year === y)?.closures ?? 0;
@@ -413,6 +414,42 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       {" "}<a href="/corrections/">the corrections log</a>. It will not be made again before
       the check exists.
     </p>
+    <p>
+      The sheet it will be done on was built on 13 September and holds 106 rows: 60 drawn at
+      random from those with a stated position, 25 from noted, 10 from the rows no response
+      answers one by one, 5 from the unreadable, and every position row whose verdict word
+      sits deep in the answer rather than in its opening sentence. Each card shows the
+      recommendation, the words attributed to it, and the passage of the response those words
+      were taken from, so the reader can see what came immediately before them. A wrong call
+      is recorded as one of two things, because they are two different failures: the words
+      shown are not this recommendation's, or the words are right and the reading of them is
+      wrong. Whatever the counts are, they will be published here.
+    </p>
+    {checks && (
+    <p>
+      Three things can be said before that, and none of them is an error rate.
+      {" "}<strong>One.</strong> All {fmt(checks.beginsAtAHandover)} rows with a stated
+      position take their words from an explicit handover in the document — an “Australian
+      Government response” heading, a “Response:” label, or a bare verdict — because a row
+      where no handover is found records no government words at all and never reaches this
+      count. That is a property of how the index is built, not a test it passed.
+      {" "}<strong>Two.</strong> In all but {fmt(checks.verdictFarIntoTheAnswer)} of them the
+      verdict word falls within the first {checks.farThreshold} characters of the answer,
+      which is its opening sentence; those {fmt(checks.verdictFarIntoTheAnswer)} are in the
+      sample above as a stratum of their own, because a verdict that far down is the kind that
+      turned out in September to be about something else.
+      {" "}{checks.runsOnIntoAnotherRecommendation === 0
+        ? "None of them contains another recommendation's opening words, which is what a passage that swallowed the recommendation below it would look like — though a passage runs on because a number was missed, and a missed number usually leaves nothing to compare against, so this test is weaker than it sounds."
+        : `${fmt(checks.runsOnIntoAnotherRecommendation)} of them contain another recommendation's opening words, the signature of a passage that swallowed the recommendation below it.`}
+      {" "}<strong>Three.</strong> A fourth check was written on the same day and thrown away.
+      It tested whether each recommendation's own words sit just above the government's, and
+      every row passed — because the extractor cuts the question and the answer out of one
+      segment, so the question is above the answer by construction. A test that cannot fail is
+      not evidence, and its hundred per cent is not published.
+      {" "}<code>scraper/verify_positions.py</code> runs the three that survived; it last ran
+      on {checks.checked}.
+    </p>
+    )}
   </section>
 
   <section class="wrap">

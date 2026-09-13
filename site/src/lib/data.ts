@@ -1362,6 +1362,50 @@ export function coverage(): Coverage | null {
   };
 }
 
+export interface PositionChecks {
+  /** The day verify_positions.py last ran over the index. */
+  checked: string;
+  /** How far into the answer a verdict has to sit to be called far. */
+  farThreshold: number;
+  rows: number;
+  /** Cannot fail: a row whose extraction found no handover records no words. */
+  beginsAtAHandover: number;
+  noVerdictOnASecondReading: number;
+  verdictFarIntoTheAnswer: number;
+  runsOnIntoAnotherRecommendation: number;
+  namesAnotherRecommendationNumber: number;
+  flaggedForReading: number;
+}
+
+/**
+ * What code can say about the join between a recommendation and the words
+ * published as the government's answer to it. Not an error rate — only people
+ * reading response documents produce one of those. Read from
+ * position_checks.json, which verify_positions.py writes; null before it has
+ * ever run, so a page must handle its absence rather than print a zero.
+ */
+export function positionChecks(): PositionChecks | null {
+  const f = path.join(DATA_DIR, "position_checks.json");
+  if (!fs.existsSync(f)) return null;
+  const s = readJson<{
+    checked: string; far_threshold: number; rows: number; begins_at_a_handover: number;
+    no_verdict_on_a_second_reading: number; verdict_far_into_the_answer: number;
+    runs_on_into_another_recommendation: number; names_another_recommendation_number: number;
+    flagged_for_reading: number;
+  }>("position_checks.json");
+  return {
+    checked: s.checked,
+    farThreshold: s.far_threshold,
+    rows: s.rows,
+    beginsAtAHandover: s.begins_at_a_handover,
+    noVerdictOnASecondReading: s.no_verdict_on_a_second_reading,
+    verdictFarIntoTheAnswer: s.verdict_far_into_the_answer,
+    runsOnIntoAnotherRecommendation: s.runs_on_into_another_recommendation,
+    namesAnotherRecommendationNumber: s.names_another_recommendation_number,
+    flaggedForReading: s.flagged_for_reading,
+  };
+}
+
 /** One response document by OTD id, so a page can cite counts instead of typing them. */
 export function responseDoc(id: string) {
   const r = read("response_documents.csv").find((x) => x.id === id);
