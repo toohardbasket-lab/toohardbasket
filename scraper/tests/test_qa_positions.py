@@ -50,6 +50,28 @@ check("the recommendation above it is visible, so attribution can be judged",
       "Recommendation 11" in ctx)
 check("one match is reported as one", hits == 1)
 
+# Both boundaries, not one. A reader judging attribution needs the heading
+# above the answer AND the next heading below it: "these words sit under
+# recommendation 11, and they stop before recommendation 12 begins." Showing
+# only where the answer starts leaves the question half answered, which is what
+# the first reader of the sheet said out loud.
+check("the context runs on to the next recommendation's heading",
+      "Recommendation 12" in ctx.split("</b>")[-1])
+check("and the heading above it is still there",
+      "Recommendation 11" in ctx.split("<b>")[0])
+
+# The index stores an answer only to its own character cap, so on a long answer
+# the document runs past the bold before the next heading arrives. The context
+# has to keep going anyway, or the cap decides what the reader can check.
+LONG = ANSWER + "by banning rent bidding nationally. " + ("Further detail follows. " * 60)
+BIGDOC = ("Recommendation 11 The Committee recommends that tenancy laws prohibit rent bidding. "
+          "Australian Government response " + LONG +
+          "Recommendation 12 The Committee recommends standardised forms. ")
+stored = LONG[:300]          # what the index kept
+ctxL, _ = Q.where(stored, BIGDOC)
+check("a long answer still shows where the next recommendation starts",
+      "Recommendation 12" in ctxL)
+
 ctx12, _ = Q.where(TWELVE, DOC)
 check("the second answer finds its own place too",
       "Recommendation 12" in ctx12 and "standard form" in bolded(ctx12))

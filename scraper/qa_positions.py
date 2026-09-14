@@ -56,6 +56,13 @@ QA = HERE / "qa"
 # below it, which is how the 8 September false positive happened.
 FAR = 200
 
+# The next recommendation's heading, which is where this one's answer must
+# stop. REACH is how far past the stored words it is worth looking: the index
+# stores an answer only to its own 900-character cap, and on a long answer the
+# real text runs well past that before the next heading arrives.
+NEXT_LABEL = re.compile(r"Recommendation\s*(?:no\.?\s*)?\d{1,3}(?:\.\d{1,3})?\b", re.I)
+REACH = 2500
+
 QUESTION = {
     "position": "Do these words state this verdict, on this recommendation?",
     "noted": "Is there a verdict here that the measure did not see?",
@@ -85,7 +92,7 @@ def marked(words: str, label: str) -> str:
             + html.escape(flat(w[m.end():])))
 
 
-def where(words: str, doc: str, pad_before: int = 400, pad_after: int = 250) -> tuple[str, int]:
+def where(words: str, doc: str, pad_before: int = 400, pad_after: int = 320) -> tuple[str, int]:
     """The attributed words in their place in the response, so the reader can
     see what came before them and judge whether they belong to this row.
 
@@ -106,10 +113,28 @@ def where(words: str, doc: str, pad_before: int = 400, pad_after: int = 250) -> 
         hits = flat_doc.count(needle)
         if hits:
             i = flat_doc.find(needle)
-            lo, hi = max(0, i - pad_before), min(len(flat_doc), i + len(needle) + pad_after)
+            # Bold the WHOLE passage the index attributes, not just the slice
+            # used to find it, and pad past its end. A reader checking
+            # attribution needs both boundaries: the recommendation's heading
+            # above the answer, and the next recommendation's heading below it.
+            # Showing only where the answer starts leaves the question the card
+            # exists to settle half answered — "these words are under
+            # recommendation 1, but do they run on into the answer to 2?"
+            end = min(len(flat_doc), i + len(flat_words))
+            lo = max(0, i - pad_before)
+            # Run on to the NEXT recommendation's heading where there is one
+            # within reach, rather than stopping at a fixed number of
+            # characters. The fixed number was not enough on a long answer —
+            # the index stores the answer only to its own character cap, so the
+            # padding ran out inside the real answer and the reader was left
+            # looking at the same open question. The heading is the boundary
+            # they are actually after.
+            nxt = NEXT_LABEL.search(flat_doc, end, min(len(flat_doc), end + REACH))
+            hi = (nxt.end() + 90) if nxt else (end + pad_after)
+            hi = min(len(flat_doc), hi)
             return ("…" + html.escape(flat_doc[lo:i]) + "<b>"
-                    + html.escape(flat_doc[i:i + len(needle)]) + "</b>"
-                    + html.escape(flat_doc[i + len(needle):hi]) + "…"), hits
+                    + html.escape(flat_doc[i:end]) + "</b>"
+                    + html.escape(flat_doc[end:hi]) + "…"), hits
     return "", 0
 
 
@@ -136,6 +161,11 @@ def main(argv: list[str]) -> int:
                          "strata. For a population that did not exist when the main sheet "
                          "was drawn, which is a new obligation rather than a redraw of the "
                          "old one.")
+    ap.add_argument("--rerender", default="",
+                    help="a sample csv in qa/ — render exactly those rows, in that order, "
+                         "with no sampling. For putting a better card in front of a reader "
+                         "who is part way through a sheet, without redrawing the sample "
+                         "underneath them.")
     ap.add_argument("--name", default="positions",
                     help="what to call the sheet, so a supplementary one does not overwrite "
                          "the sheet somebody is part way through")
@@ -179,6 +209,11 @@ def main(argv: list[str]) -> int:
         if m and m.start() >= FAR:
             far_pool.append(r)
 
+    listed_order = None
+    if args.rerender:
+        with open(QA / args.rerender, newline="", encoding="utf-8-sig") as f:
+            listed_order = [(r["row"], r["stratum"]) for r in csv.DictReader(f)]
+
     rng = random.Random(args.seed)
     far_ids = {rid(r) for r in far_pool}
     plan = [("position", args.position, [r for r in by.get("position", []) if rid(r) not in far_ids]),
@@ -187,15 +222,40 @@ def main(argv: list[str]) -> int:
             ("unreadable", args.unreadable, by.get("unreadable", [])),
             ("form letter", args.form_letter, by.get("form letter", []))]
 
-    sample = []
-    for name, n, pool in plan:
-        for r in rng.sample(pool, min(n, len(pool))):
-            sample.append((r, name))
-    for r in rng.sample(far_pool, min(args.far, len(far_pool))):
-        sample.append((r, "position, verdict far from the head"))
+    if listed_order is not None:
+        # Exactly the rows the sheet already holds, in the order it holds them,
+        # so a reader part way through finds card 41 where they left it.
+        index = {f"{r['source']}-{r['source_id']}-{r['label']}-{r.get('recommended_by') or ''}": r
+                 for r in rows}
+        sample = [(index[k], stratum) for k, stratum in listed_order if k in index]
+        if len(sample) != len(listed_order):
+            print(f"REFUSING: {len(listed_order) - len(sample)} of the "
+                  f"{len(listed_order)} rows in {args.rerender} are no longer in the index. "
+                  f"A sheet that quietly drops cards is one whose numbers no longer mean "
+                  f"what its reader was told they mean.", file=sys.stderr)
+            return 1
+    else:
+        sample = []
+        for name, n, pool in plan:
+            for r in rng.sample(pool, min(n, len(pool))):
+                sample.append((r, name))
+        for r in rng.sample(far_pool, min(args.far, len(far_pool))):
+            sample.append((r, "position, verdict far from the head"))
 
     QA.mkdir(exist_ok=True)
     today = datetime.date.today().isoformat()
+    if args.rerender:
+        # A re-render is the SAME sheet with a better card on it, so it keeps
+        # the sheet's own date. The date is the edition: it names the file, the
+        # browser's copy of the answers, and the document each reader's answers
+        # live in. Stamping today's date on it would hand a reader a blank sheet
+        # and lose the work they had done.
+        stamp = re.search(r"(\d{4}-\d{2}-\d{2})", args.rerender)
+        if not stamp:
+            print(f"REFUSING: {args.rerender} has no date in its name, so there is no "
+                  f"edition to keep.", file=sys.stderr)
+            return 1
+        today = stamp.group(1)
 
     with open(QA / f"{args.name}_sample_{today}.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
