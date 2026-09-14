@@ -214,9 +214,29 @@ HEADING_WINDOW = 250
 # something: a full stop, a bullet, a line break, or the start of the document.
 MID_SENTENCE = re.compile(r"[a-z,;(]\s*$")
 
+# Except that a section heading also ends in a lower-case letter once the line
+# breaks are gone. "…addresses the recommendations contained in the Report and
+# in the additional comments. Committee's Recommendations Recommendation 1 The
+# committee recommends that the minimum consultation period…" reads as
+# mid-sentence to the rule above, and the first recommendation of the document
+# was dropped. It happened in 241 documents: found on 14 September 2026, when a
+# reader checking the sample by hand asked how he could be sure the words under
+# one recommendation were not the answer to another, and the document he picked
+# turned out to be missing its Recommendation 1 altogether.
+#
+# The heading words are the ones that actually appear over a list of
+# recommendations in these documents. Nothing here decides a row is good: a
+# label admitted by this rule still has to pass every test below it, and
+# verify_recommendations.py still removes it if its words cannot be found under
+# its own number in the source.
+SECTION_HEADING = re.compile(
+    r"(?:recommendations?|comments?|report|response|responses|findings|summary"
+    r"|conclusions?)\s*$", re.I)
+
 
 def is_heading(body: str, start: int) -> bool:
-    return not MID_SENTENCE.search(body[max(0, start - 60):start])
+    before = body[max(0, start - 60):start]
+    return not MID_SENTENCE.search(before) or bool(SECTION_HEADING.search(before))
 
 
 dropped: collections.Counter = collections.Counter()
