@@ -131,6 +131,14 @@ def main(argv: list[str]) -> int:
     ap.add_argument("--far", type=int, default=10,
                     help="extra position rows whose verdict sits far from the head")
     ap.add_argument("--seed", type=int, default=1)
+    ap.add_argument("--only", default="",
+                    help="a csv of row ids in data/ — sample only from those, in their own "
+                         "strata. For a population that did not exist when the main sheet "
+                         "was drawn, which is a new obligation rather than a redraw of the "
+                         "old one.")
+    ap.add_argument("--name", default="positions",
+                    help="what to call the sheet, so a supplementary one does not overwrite "
+                         "the sheet somebody is part way through")
     args = ap.parse_args(argv[1:])
 
     states = {}
@@ -145,6 +153,16 @@ def main(argv: list[str]) -> int:
             if s:
                 r["_state"], r["_verdict"] = s["state"], s["verdict"]
                 rows.append(r)
+
+    if args.only:
+        with open(DATA / args.only, newline="", encoding="utf-8-sig") as f:
+            wanted = {r["row"] for r in csv.DictReader(f)}
+        rows = [r for r in rows
+                if f"{r['source']}-{r['source_id']}-{r['label']}-{r.get('recommended_by') or ''}"
+                in wanted]
+        if not rows:
+            print(f"REFUSING: none of the rows in {args.only} are in the index", file=sys.stderr)
+            return 1
 
     by: dict[str, list[dict]] = {}
     for r in rows:
@@ -179,7 +197,7 @@ def main(argv: list[str]) -> int:
     QA.mkdir(exist_ok=True)
     today = datetime.date.today().isoformat()
 
-    with open(QA / f"positions_sample_{today}.csv", "w", newline="", encoding="utf-8") as f:
+    with open(QA / f"{args.name}_sample_{today}.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["row", "source", "source_id", "label", "state", "verdict",
                     "stratum", "checked", "note"])
@@ -246,6 +264,7 @@ def main(argv: list[str]) -> int:
     strata = {}
     for _, s in sample:
         strata[s] = strata.get(s, 0) + 1
+    name = args.name
     doc_html = f"""<!doctype html><html lang="en-AU"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Coverage measure review — {today}</title>
@@ -318,7 +337,7 @@ def main(argv: list[str]) -> int:
 // reader can finish on another machine and the counts can be read back
 // without anyone emailing a file), and a CSV on demand. The page works with
 // none of them: opened from disk it is still a usable sheet.
-const KEY = "thb-positions-{today}";
+const KEY = "thb-{name}-{today}";
 const EDITION = "{today}";
 const cards = [...document.querySelectorAll(".card")];
 const who = document.getElementById("who");
@@ -404,7 +423,7 @@ document.getElementById("dl").onclick = async () => {{
   const rows = [["row", "state", "stratum", "checked", "note", "read_by", "edition"],
     ...collect().map((r) => [r.id, r.state, r.stratum, r.v, r.note, who.value.trim(), EDITION])];
   const csv = rows.map((r) => r.map((x) => '"' + String(x) + '"').join(",")).join("\\n");
-  const name = "positions_verdicts_{today}.csv";
+  const name = "{name}_verdicts_{today}.csv";
   const dl = (window.claude && window.claude.use) ? await window.claude.use("downloads") : null;
   if (dl) {{
     try {{ await dl.save({{ filename: name, data: csv }}); return; }} catch (e) {{ say("not saved"); return; }}
@@ -416,7 +435,7 @@ document.getElementById("dl").onclick = async () => {{
 }};
 </script></body></html>"""
 
-    out = QA / f"positions_{today}.html"
+    out = QA / f"{args.name}_{today}.html"
     out.write_text(doc_html, encoding="utf-8")
     print(f"population: {counts}")
     print(f"fragile position rows (verdict {FAR}+ chars in): {len(far_pool)} of {len(by.get('position', []))}")
@@ -424,7 +443,7 @@ document.getElementById("dl").onclick = async () => {{
     if no_text:
         print(f"warning: {no_text} sampled rows have no cached response text")
     print(f"wrote {out}")
-    print(f"wrote {QA / f'positions_sample_{today}.csv'}")
+    print(f"wrote {QA / f'{args.name}_sample_{today}.csv'}")
     return 0
 
 
