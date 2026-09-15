@@ -3,20 +3,20 @@
   "noted": {
     "with_a_commitment_verb": 82
   },
-  "responses_in_corpus": 624,
-  "responses_with_nothing_indexed": 162,
+  "responses_in_corpus": 627,
+  "responses_with_nothing_indexed": 164,
   "dissenting_recommendations_excluded": 411,
-  "awaiting_a_response_excluded": 966,
+  "awaiting_a_response_excluded": 1041,
   "total": {
-    "responses": 462,
-    "responses_with_no_position_at_all": 256,
+    "responses": 463,
+    "responses_with_no_position_at_all": 257,
     "responses_fully_covered": 61,
-    "recommendations": 3749,
+    "recommendations": 3750,
     "position_stated": 1111,
     "accepted": 553,
     "in_part_or_in_principle": 467,
     "not_accepted": 91,
-    "noted_no_position": 608,
+    "noted_no_position": 609,
     "form_letter": 1574,
     "not_addressed_individually": 456,
     "unreadable": 337,
@@ -84,19 +84,19 @@
       "coverage": 0.4167
     },
     "2026": {
-      "responses": 153,
-      "responses_with_no_position_at_all": 74,
+      "responses": 154,
+      "responses_with_no_position_at_all": 75,
       "responses_fully_covered": 18,
-      "recommendations": 1030,
+      "recommendations": 1031,
       "position_stated": 409,
       "accepted": 203,
       "in_part_or_in_principle": 176,
       "not_accepted": 30,
-      "noted_no_position": 265,
+      "noted_no_position": 266,
       "form_letter": 71,
       "not_addressed_individually": 285,
       "unreadable": 165,
-      "coverage": 0.3971
+      "coverage": 0.3967
     }
   },
   "by_government": {
@@ -116,19 +116,19 @@
       "coverage": 1.0
     },
     "Albanese": {
-      "responses": 460,
-      "responses_with_no_position_at_all": 256,
+      "responses": 461,
+      "responses_with_no_position_at_all": 257,
       "responses_fully_covered": 60,
-      "recommendations": 3740,
+      "recommendations": 3741,
       "position_stated": 1102,
       "accepted": 547,
       "in_part_or_in_principle": 464,
       "not_accepted": 91,
-      "noted_no_position": 608,
+      "noted_no_position": 609,
       "form_letter": 1574,
       "not_addressed_individually": 456,
       "unreadable": 334,
-      "coverage": 0.2947
+      "coverage": 0.2946
     }
   },
   "by_classification": {
@@ -163,19 +163,19 @@
       "coverage": 0.0
     },
     "substantive": {
-      "responses": 304,
-      "responses_with_no_position_at_all": 102,
+      "responses": 305,
+      "responses_with_no_position_at_all": 103,
       "responses_fully_covered": 61,
-      "recommendations": 2151,
+      "recommendations": 2152,
       "position_stated": 1111,
       "accepted": 553,
       "in_part_or_in_principle": 467,
       "not_accepted": 91,
-      "noted_no_position": 599,
+      "noted_no_position": 600,
       "form_letter": 0,
       "not_addressed_individually": 441,
       "unreadable": 265,
-      "coverage": 0.5165
+      "coverage": 0.5163
     }
   }
 }
