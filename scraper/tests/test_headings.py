@@ -159,6 +159,35 @@ check("the body's answer beats the table's verdict",
 check("and the recommendation is still the committee's words",
       bool(r) and r[0].startswith("The Committee recommends"))
 
+
+# --- a bullet that a PDF renders as a letter --------------------------------
+# Word's bullet levels come out of a PDF as "o" and "e", and two lone letters in
+# a sentence is exactly what a broken extraction looks like. 62 labels were
+# thrown away for it, including the one a reader found by opening the PDF and
+# counting. A lone o or e where a list marker sits is a bullet.
+check("bullets rendered as letters are not a broken extraction",
+      not E.looks_extracted_badly(
+          "The committee recommends a strategy for biosecurity research which includes: "
+          "e a long-term funding mechanism; e approaches to identify research priorities"))
+check("two bullet levels together are still bullets",
+      not E.looks_extracted_badly(
+          "The Committee recommends that Treasury: • enhance their skills; and o conduct an "
+          "audit of critical platforms; o create an ongoing status report"))
+check("a genuinely broken word is still a broken extraction",
+      E.looks_extracted_badly("The C ommittee recommends that the department s hould investigate "
+                              "the feasibility of a two-week urgent referral system"))
+check("a letter that is not a bullet glyph is still suspect",
+      E.looks_extracted_badly("The committee recommends that S O 78 be amended to read: 78 M "
+                              "atters not open to debate"))
+check("a lone letter inside a word is not a bullet",
+      E.looks_extracted_badly("The committee recommends the Government p ublish the advice it "
+                              "received and t able the analysis"))
+# The guard has to keep working where it earns its keep: the site publishes
+# what the document says, and a mangled quotation of what a committee asked for
+# is worse than no quotation.
+check("dot leaders from a contents page are still refused",
+      E.looks_extracted_badly("Recommendation 4 ............................................ 11"))
+
 print(f"\n{len(PASS)} passed, {len(FAIL)} failed")
 if FAIL:
     for f in FAIL:

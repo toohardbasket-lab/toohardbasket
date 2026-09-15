@@ -126,7 +126,7 @@ BARE_VERDICT = re.compile(r"^\s*(?:not\s+)?(?:agreed|noted|supported|accepted"
 #    Department is currently preparing…". A capitalised "The" that no full stop,
 #    colon or bullet introduced is either a splice or a sentence whose full stop
 #    the extraction lost, and neither belongs in a published quotation.
-SPLICE_SENTENCE = re.compile(r"(?<![.:;•·\-—–])\s+The\s+[A-Z]")
+SPLICE_SENTENCE = re.compile(r"(?<![.:;•·\-—–)\]])\s+The\s+[A-Z]")
 
 SPLICE = re.compile(r"\b(?:the|a|an|of|in|on|to|for|with|and|that)\s+"
                     r"(?:The|This|These|Those|On|In|As|At|By|For|From|Following|However"
@@ -229,6 +229,25 @@ def tidy(s: str) -> str:
     return s
 
 
+# Word's bullet levels come out of a PDF as the letters "o" and "e" — the glyph
+# is Symbol or Wingdings and the extraction reads the character underneath it.
+# Two of them in a sentence is exactly what a broken extraction looks like, so
+# the guard below threw the recommendation away:
+#
+#     …including: e enhancement of veterinarian attraction and retention; e a
+#     long-term funding mechanism for biosecurity research…
+#
+# 62 labels were refused for that, recommendation 11 of the ASIC response among
+# them — the one a reader found on 15 September by opening the PDF and counting.
+# A lone o or e sitting where a list marker sits is a bullet, not a broken word.
+#
+# Restricted to those two letters on purpose. Every other lone letter in the
+# corpus was either genuine breakage ("The C ommittee") or something the guard
+# is right to be suspicious of, and widening it further would start admitting
+# mangled text, which is worse than omitting a recommendation.
+BULLET_LETTER = re.compile(r"(?<=[:;,.•·])\s+[oe](?=\s+\w)|^\s*[oe](?=\s+\w)")
+
+
 def looks_extracted_badly(s: str) -> bool:
     """True when the text is an artefact rather than a sentence.
 
@@ -237,7 +256,8 @@ def looks_extracted_badly(s: str) -> bool:
     for is worse than no quotation. Two stray single letters is the threshold —
     one can be a list marker or an initial.
     """
-    return bool(LEADERS.search(s)) or len(STRAY.findall(LIST_MARKER.sub(" ", s))) >= 2
+    return (bool(LEADERS.search(s))
+            or len(STRAY.findall(LIST_MARKER.sub(" ", BULLET_LETTER.sub(" ", s)))) >= 2)
 
 
 # How far above a recommendation to look for the heading that names its author.
