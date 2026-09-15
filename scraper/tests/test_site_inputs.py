@@ -55,6 +55,7 @@ BY_A_WEEKLY_STEP = {
     "reports_manual.csv": "harvest_manual_reports.py",
     "recommendations.csv": "extract_recommendations.py",
     "recommendations_dropped.csv": "verify_recommendations.py",
+    "labels_refused.json": "extract_recommendations.py",
     "recommendation_counts.csv": "count_recommendations.py",
     "recommendation_positions.csv": "coverage.py",
     "coverage_summary.json": "coverage.py",

@@ -15,10 +15,11 @@
 import Base from "../layouts/Base.astro";
 import {
   recommendations, recommendationsDropped, registerReportsWithoutSource,
-  quietResponseCounts, scheduleMeta, fmt, formatDate,
+  quietResponseCounts, scheduleMeta, fmt, formatDate, labelsRefused,
 } from "../lib/data";
 
 const rows = recommendations();
+const refusedLabels = labelsRefused();
 const dropped = recommendationsDropped();
 const quiet = quietResponseCounts();
 const sources = new Set(rows.map((r) => `${r.source}:${r.sourceId}`)).size;
@@ -252,6 +253,17 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       {" "}<a href="/senate/responses/">Senate’s response record</a> and in the dataset; only
       its recommendations are missing from this index.
     </p>
+    {refusedLabels && (
+    <p class="note">
+      <strong>This index is a floor.</strong> {fmt(refusedLabels.answeredByTheDocument)} labels
+      across {fmt(refusedLabels.answeredDocuments)} response documents are stated by a
+      document, answered by that same document, and not held here — refused by a rule that
+      could not tell them from a fragment of a summary table, and now written down rather
+      than dropped in silence.
+      {" "}<a href="/methods/#floor">What the index does not hold</a> says what each rule
+      refused and lists every one of them. None has been read by hand yet.
+    </p>
+    )}
     <p class="note">
       Every recommendation here was located in the extracted text of its own document, under
       the number it claims, and any row whose words could not be found there was removed.

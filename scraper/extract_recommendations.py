@@ -27,6 +27,8 @@ from __future__ import annotations
 
 import collections
 import csv
+import datetime as dt
+import json
 import pathlib
 import re
 
@@ -482,6 +484,22 @@ def main() -> int:
             w.writerows(sorted(refused, key=lambda r: (int(r["document"] or 0), r["label"])))
     else:
         refused_out.write_text("document,label,why,the_document_answers_it,words,context\n", encoding="utf-8")
+    # A summary beside the file, because the site should be able to state the
+    # floor without parsing six hundred rows to do it.
+    pairs = {(r["document"], r["label"]) for r in refused}
+    answered_pairs = {(r["document"], r["label"]) for r in refused
+                      if r["the_document_answers_it"] == "yes"}
+    (DATA / "labels_refused.json").write_text(json.dumps({
+        "measured": dt.date.today().isoformat(),
+        "rows": len(refused),
+        "labels": len(pairs),
+        "documents": len({d for d, _ in pairs}),
+        "answered_by_the_document": len(answered_pairs),
+        "answered_documents": len({d for d, _ in answered_pairs}),
+        "by_reason": dict(collections.Counter(r["why"] for r in refused).most_common()),
+        "answered_by_reason": dict(collections.Counter(
+            r["why"] for r in refused if r["the_document_answers_it"] == "yes").most_common()),
+    }, indent=2) + "\n", encoding="utf-8")
     by_why = collections.Counter(r["why"] for r in refused)
     docs_affected = len({r["document"] for r in refused})
     print(f"  {len(refused)} labels the documents state and the index does not hold, "

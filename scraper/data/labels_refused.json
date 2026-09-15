@@ -1,0 +1,24 @@
+{
+  "measured": "2026-09-15",
+  "rows": 578,
+  "labels": 481,
+  "documents": 155,
+  "answered_by_the_document": 370,
+  "answered_documents": 128,
+  "by_reason": {
+    "too short to be a recommendation": 222,
+    "does not read like a recommendation": 207,
+    "the extraction looks broken": 76,
+    "the government's words begin mid-sentence": 38,
+    "longer than a quotation can carry": 31,
+    "the government's verdict is inside the recommendation": 4
+  },
+  "answered_by_reason": {
+    "does not read like a recommendation": 162,
+    "too short to be a recommendation": 113,
+    "the extraction looks broken": 63,
+    "the government's words begin mid-sentence": 38,
+    "longer than a quotation can carry": 16,
+    "the government's verdict is inside the recommendation": 4
+  }
+}

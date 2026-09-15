@@ -1532,3 +1532,44 @@ export function implementationEvidence(): ImplementationEvidence | null {
     claims,
   };
 }
+
+// --------------------------------------------- what the index does not hold
+
+export interface LabelsRefused {
+  /** The day extract_recommendations.py last wrote the file. */
+  measured: string;
+  /** Distinct document-and-label pairs the documents state and the index lacks. */
+  labels: number;
+  documents: number;
+  /** Of those, the ones whose own document answers them. */
+  answeredByTheDocument: number;
+  answeredDocuments: number;
+  byReason: Record<string, number>;
+  answeredByReason: Record<string, number>;
+}
+
+/**
+ * Labels a response states that the index does not hold.
+ *
+ * From labels_refused.json, which extract_recommendations.py writes when it
+ * refuses a label. Null before it has run. The site states this as a floor,
+ * not as an error count: nobody has read them, and some are table fragments.
+ */
+export function labelsRefused(): LabelsRefused | null {
+  const f = path.join(DATA_DIR, "labels_refused.json");
+  if (!fs.existsSync(f)) return null;
+  const s = readJson<{
+    measured: string; labels: number; documents: number;
+    answered_by_the_document: number; answered_documents: number;
+    by_reason: Record<string, number>; answered_by_reason: Record<string, number>;
+  }>("labels_refused.json");
+  return {
+    measured: s.measured,
+    labels: s.labels,
+    documents: s.documents,
+    answeredByTheDocument: s.answered_by_the_document,
+    answeredDocuments: s.answered_documents,
+    byReason: s.by_reason ?? {},
+    answeredByReason: s.answered_by_reason ?? {},
+  };
+}

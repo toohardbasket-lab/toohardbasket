@@ -8,13 +8,15 @@ import {
 import { registerBySlug, plannedRegisters } from "../lib/registers";
 import { FORMS, formHref } from "../lib/forms";
 import { ABOUT } from "../lib/about";
-import { coverage, positionChecks, jurisdiction, implementationEvidence } from "../lib/data";
+import { coverage, positionChecks, jurisdiction, implementationEvidence,
+         labelsRefused } from "../lib/data";
 import { ROYAL_COMMISSIONS_DRAFT } from "../lib/draft";
 
 const cov = coverage();
 const checks = positionChecks();
 const jur = jurisdiction();
 const impl = implementationEvidence();
+const refused = labelsRefused();
 /* Form-letter closures tabled in a year, for the backlog paragraph. */
 const byYear = closureDetail().byYear;
 const closuresIn = (y: string) => byYear.find((b) => b.year === y)?.closures ?? 0;
@@ -74,6 +76,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       {" "}<a href="#unit">what is counted</a> ·
       {" "}<a href="#jurisdiction">which government</a> ·
       {impl && <>{" "}<a href="#did-it-happen">whether anything happened</a> ·</>}
+      {refused && <>{" "}<a href="#floor">what the index does not hold</a> ·</>}
       {!ROYAL_COMMISSIONS_DRAFT && <>{" "}<a href="#indexes">registers and indexes</a> ·</>}
       {" "}<a href="#sources">sources</a> ·
       {" "}<a href="#corpus">the response corpus</a> ·
@@ -160,6 +163,70 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     </p>
     )}
   </section>
+
+  {refused && (
+  <section class="wrap measure">
+    <h2 id="floor">What the index does not hold</h2>
+    <p>
+      The size of this index is a floor, and this is the number attached to it.
+      {" "}<strong>{fmt(refused.answeredByTheDocument)} labels across
+      {" "}{fmt(refused.answeredDocuments)} response documents are stated by a document,
+      answered by that same document, and not in the index.</strong> They are listed, with
+      the reason each was refused and the words around it, in
+      {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket/blob/main/scraper/data/labels_refused.csv">labels_refused.csv</a>.
+    </p>
+    <p>
+      Reading a recommendation out of a PDF means deciding, for every
+      “Recommendation 7” in the text, whether it is the heading of a recommendation being
+      quoted or a mention of one inside a sentence — and then whether what follows can be
+      published as the committee's words. Rules that admit too much put recommendations in
+      the index that nobody made. Rules that admit too little drop real ones. This site
+      errs towards dropping, and until now it did so silently: the step reported what it
+      kept and nothing about what it refused, so the only way to find a missing
+      recommendation was to open the document and count. That is how the 337 recovered on
+      14 September were found, and how one more was found the next day.
+    </p>
+    <p>
+      So a refusal is now a record. Of {fmt(refused.labels)} labels refused across
+      {" "}{fmt(refused.documents)} documents:
+    </p>
+    <table class="register">
+      <thead><tr><th>Refused because</th><th>Labels</th><th>Answered by the document</th></tr></thead>
+      <tbody>
+        {Object.entries(refused.byReason).map(([why, n]) => (
+          <tr>
+            <td>{why}</td>
+            <td>{fmt(n)}</td>
+            <td>{fmt(refused.answeredByReason[why] ?? 0)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p>
+      “Answered by the document” means the government's words begin immediately after the
+      label — the document is treating it as a recommendation and replying to it. That is
+      the document's own behaviour and not a reading of what its words mean, which is why
+      it can be counted here at all. It is evidence rather than proof, and
+      <strong> none of these have been read by anybody</strong>. Some are plainly fragments
+      of a summary table; a label whose words are “Noted” or “60” is not a lost
+      recommendation.
+    </p>
+    <p>
+      The rules have not been changed. Widening what the index admits is how recommendations
+      nobody made get into it, which is the worse failure of the two and the one that
+      inflates this site's own numbers, so each rule is a decision with its own test and its
+      own hand check. What can be said today is said here instead: the index holds what it
+      holds, the documents say more than that, and the difference is published rather than
+      waited on.
+    </p>
+    <p class="note">
+      Recorded by <code>scraper/extract_recommendations.py</code>, gated by
+      {" "}<code>scraper/tests/test_refusals.py</code>, which fails if any path through that
+      step can refuse a label without writing down why. Measured {formatDate(refused.measured)}.
+      The same record does not yet exist for recommendations read out of committee reports.
+    </p>
+  </section>
+  )}
 
   {impl && (
   <section class="wrap measure">
