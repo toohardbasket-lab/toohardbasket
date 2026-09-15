@@ -135,18 +135,31 @@ def a_hand_checked_entry_names_one_row_and_no_other() -> bool:
                 all(len(r.get("basis") or "") > 40 and len(r.get("verified_on") or "") == 10
                     for r in manual), True)
 
-    # Each title-keyed entry must name exactly one row of one register. A typo
-    # in a copied title is the way this file goes wrong, and it fails silently:
-    # the report simply stays on the register.
+    # Each title-keyed entry must name exactly one row of one register — until
+    # it has done its job, at which point the row it names is gone and the
+    # published removals say so. One row or none-and-removed; never two, and
+    # never none unaccounted for. A typo in a copied title is how this file
+    # goes wrong and it fails silently: the report simply stays on the register.
     rows = []
     for f in ("ledger_v2.csv", "house_ledger.csv"):
         rows += list(csv.DictReader(open(A.DATA / f, encoding="utf-8-sig")))
+    removed = []
+    for f in ("answered_since_senate.csv", "answered_since_house.csv"):
+        path = A.DATA / f
+        if path.exists():
+            removed += list(csv.DictReader(open(path, encoding="utf-8-sig")))
+    retired = {(A._norm(x.get("title", "")), (x.get("report_tabled") or "")[:10])
+               for x in removed}
     for r in manual:
         if not r.get("report_title"):
             continue
         key = (A._norm(r["report_title"]), r["report_tabled"][:10])
         hits = [x for x in rows
                 if (A._norm(x.get("title", "")), (x.get("report_tabled") or "")[:10]) == key]
+        if not hits and key in retired:
+            ok &= check(f"entry for response {r['response_id']} has been acted on and its "
+                        f"row has left the register", True, True)
+            continue
         ok &= check(f"entry for response {r['response_id']} names exactly one register row",
                     len(hits), 1)
 
@@ -214,13 +227,38 @@ def the_entry_removes_the_row_once_the_response_is_tabled() -> bool:
     for f in ("ledger_v2.csv", "house_ledger.csv"):
         rows += list(csv.DictReader(open(A.DATA / f, encoding="utf-8-sig")))
 
+    # Where a hand-written link has already done its job, the row it names has
+    # LEFT the register and this fixture has nothing to point at. That is the
+    # success condition, not a fault — but the first version of this test asked
+    # for the row with a bare next() and died of StopIteration when it worked,
+    # which stopped the weekly job on 15 September and said nothing about why.
+    #
+    # So a missing row is checked against the published removals. Gone and
+    # published is the link working. Gone and unpublished is the link pointing
+    # at nothing, which is worth failing for.
+    removed = []
+    for f in ("answered_since_senate.csv", "answered_since_house.csv"):
+        path = A.DATA / f
+        if path.exists():
+            removed += list(csv.DictReader(open(path, encoding="utf-8-sig")))
+    retired = {(A._norm(x.get("title", "")), (x.get("report_tabled") or "")[:10])
+               for x in removed}
+
     ok = True
+    exercised = 0
     saved = A.responses_since
     try:
         for r in manual:
             key = (A._norm(r["report_title"]), r["report_tabled"][:10])
-            row = next(x for x in rows
-                       if (A._norm(x.get("title", "")), (x.get("report_tabled") or "")[:10]) == key)
+            row = next((x for x in rows
+                        if (A._norm(x.get("title", "")), (x.get("report_tabled") or "")[:10]) == key),
+                       None)
+            if row is None:
+                ok &= check(f"response {r['response_id']}: its row has left the register, "
+                            f"and the published removals say so",
+                            key in retired, True)
+                continue
+            exercised += 1
             stub = {"response_id": r["response_id"], "title": "a title that matches nothing",
                     "tabled": "2026-09-08"}
             A.responses_since = lambda as_at, chamber="", _s=stub: [dict(_s)]
@@ -234,6 +272,13 @@ def the_entry_removes_the_row_once_the_response_is_tabled() -> bool:
             ok &= check("and removes nothing else", len(others), 0)
     finally:
         A.responses_since = saved
+    if not exercised:
+        # Every hand-written link is spent. Nothing here is wrong, but nothing
+        # here is being tested either, and a suite that passes while testing
+        # nothing is how a rule quietly stops being enforced.
+        print("NOTE every hand-written link has already been acted on and its row has left "
+              "the register, so the removal path was not exercised this run. Prune the spent "
+              "entries from response_report_links_manual.csv, or add the next one.")
     return bool(ok)
 
 
