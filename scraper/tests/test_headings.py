@@ -99,6 +99,66 @@ check("the committee's words stop where the government's start",
 check("the government's words start where they start",
       found["1"][1].startswith("The Government agrees"))
 
+
+# --- the verdict printed above the recommendation ---------------------------
+# Some documents put the verdict first: "Recommendation 20 Noted. First
+# Nations-led innovations … should be prioritised". The handover then matches at
+# the head of the segment, everything the committee wrote reads as the
+# government's words, and nothing is left to quote. 120 labels are laid out that
+# way. It is a parsing fault, not an admission rule — it widens nothing — but it
+# published the government's own words as the committee's four times before the
+# guards below were added, which is the worst thing this file can do.
+
+def one(body: str, label: str = "1"):
+    got = E.recommendations_in(body)
+    return got.get(label)
+
+
+r = one("Recommendation 1 Supported The Committee recommends that the Australian Government "
+        "fund research into the prevalence of family violence.")
+check("verdict first: the committee's words are recovered",
+      bool(r) and r[0].startswith("The Committee recommends that the Australian Government fund"))
+check("verdict first: the verdict is the government's words", bool(r) and r[1] == "Supported")
+
+r = one("Recommendation 1 Noted. First Nations-led innovations in governance of Country should "
+        "be prioritised, supported, resourced and encouraged.")
+check("verdict first: a recommendation that never says \"recommends\"",
+      bool(r) and r[0].startswith("First Nations-led innovations"))
+
+# A verdict with a subject is not a verdict label, it is the government talking,
+# and what follows it is the rest of its sentence.
+r = one("Recommendation 1 The Australian Government notes this recommendation. However, given "
+        "the passage of time since this report was tabled, a substantive response is no "
+        "longer appropriate.")
+check("a clause with a subject is not a verdict printed above a quotation",
+      r is None or not r[0].startswith("this recommendation"))
+
+# Two columns read across each other. Every word is in the document and the
+# sentence was written by nobody.
+r = one("Recommendation 1 Accepted. The committee recommends that the The Government has "
+        "committed to Australian Government prioritise criminalising wage theft in its "
+        "Secure amendments to the Fair Work Act 2009.")
+check("a spliced two-column sentence is refused", r is None)
+
+r = one("Recommendation 1 Noted. The committee recommends that in developing the Accreditation "
+        "The Attorney-General's Department is currently preparing an impact analysis for the "
+        "new Rules for Children's Contact Services.")
+check("a sentence that restarts mid-sentence is refused", r is None)
+
+# The same recommendation printed twice: once in a summary table under its
+# verdict, once in the body with the government's reasons. The table's entry is
+# shorter and would win on length, and the answer would shrink to one word.
+both = ("Recommendation 1 Supported The Committee recommends that the Australian Government "
+        "fund research into the prevalence of family violence. "
+        "Recommendation 1 The Committee recommends that the Australian Government fund "
+        "research into the prevalence of family violence. The Government supports this "
+        "recommendation. Funding has been allocated to the Institute to lead the work.")
+r = one(both)
+check("the body's answer beats the table's verdict",
+      bool(r) and len(r[1]) > len("Supported"), )
+check("and the recommendation is still the committee's words",
+      bool(r) and r[0].startswith("The Committee recommends"))
+
 print(f"\n{len(PASS)} passed, {len(FAIL)} failed")
 if FAIL:
     for f in FAIL:

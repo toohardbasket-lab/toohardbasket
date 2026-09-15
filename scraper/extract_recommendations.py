@@ -85,6 +85,57 @@ HANDOVER = re.compile(
     r")", re.I | re.M)
 
 # A label the split leaves at the head of the government's words.
+# The government speaking. A segment whose verdict is followed by this is a
+# long answer, not a recommendation printed under its verdict.
+# Two guards on the verdict-first split, both learned the hard way. The first
+# version of it published the government's own words as the committee's in four
+# places, which is the worst thing this file can do.
+#
+# 1. The verdict has to be a BARE verdict — "Supported", "Noted.", "Not
+#    supported" — and not a clause with a subject. "The Australian Government
+#    notes" is grammatically incomplete: what follows it is "this
+#    recommendation. However, given the passage of time…", which is the
+#    government still talking, and it was published as what the committee asked
+#    for.
+BARE_VERDICT = re.compile(r"^\s*(?:not\s+)?(?:agreed|noted|supported|accepted"
+                          r"|partially\s+(?:agreed|supported))"
+                          r"(?:\s+in\s+(?:principle|part))?\s*[.\n]?\s*$", re.I)
+# 2. The committee's words must not contain the government reporting what it did.
+#    A two-column PDF read across its columns produces "the committee recommends
+#    that the The Government has committed to Australian Government prioritise
+#    criminalising wage theft in its Secure amendments" — every word is in the
+#    document and the sentence was never written by anyone. A recommendation
+#    asks the government to do something ("that the Government establish"); it
+#    does not report that the government has.
+# 3. A two-column PDF read across its columns splices the government's answer
+#    into the committee's sentence, and every word of the result is genuinely in
+#    the document, so nothing downstream catches it. The tell is grammatical: an
+#    article or preposition followed immediately by a word that can only start a
+#    sentence.
+#
+#        …recommends that the The Government's commitment to include…
+#        …recommends that the Consistent with its commitment in the…
+#        …the preceding recommendations, the On 28 November 2024, the Senate…
+#        …subsection 44(1B) of the Family The Family Law Amendment Act 2024…
+#
+#    English does not put "the On" or "the The" next to each other. Five of the
+#    first thirteen rows this change admitted were spliced like that, which is
+#    why it is here rather than in a later commit.
+#    The second shape of the same fault is a new sentence beginning in the
+#    middle of one: "…in developing the Accreditation The Attorney-General's
+#    Department is currently preparing…". A capitalised "The" that no full stop,
+#    colon or bullet introduced is either a splice or a sentence whose full stop
+#    the extraction lost, and neither belongs in a published quotation.
+SPLICE_SENTENCE = re.compile(r"(?<![.:;•·\-—–])\s+The\s+[A-Z]")
+
+SPLICE = re.compile(r"\b(?:the|a|an|of|in|on|to|for|with|and|that)\s+"
+                    r"(?:The|This|These|Those|On|In|As|At|By|For|From|Following|However"
+                    r"|Consistent|Where|While|Since|Under|Through|Although|Given)\b")
+
+GOV_REPORTING = re.compile(r"\bthe\s+(?:australian\s+)?government\s+"
+                           r"(?:has|have|is|are|will|would|notes?|supports?|agrees?|accepts?)\b",
+                           re.I)
+
 GOV_LABEL = re.compile(r"^\s*(?:australian\s+)?government(?:'s|’s)?\s+response\s*[:.\-–—]?\s*"
                        r"|^\s*response\s*[:.\-–—]\s*"
                        r"|^\s*response\s+(?=the\s)", re.I)
@@ -273,7 +324,8 @@ def recommendations_in(body: str, doc_id: str = "") -> dict[str, tuple[str, str]
     page and kept in the body is not missing from anything.
     """
     marks = [(m.group(1), m.start(), m.end()) for m in LABEL.finditer(body)]
-    best: dict[str, tuple[str, str, str]] = {}
+    # asked, said, author, and whether it came from the verdict-first path
+    best: dict[str, tuple[str, str, str, bool]] = {}
     said_no: list[dict] = []
 
     def no(label: str, why: str, asked: str, start: int, answered: bool = False) -> None:
@@ -302,11 +354,43 @@ def recommendations_in(body: str, doc_id: str = "") -> dict[str, tuple[str, str]
             # what this test is for. Recording these would bury the real ones.
             continue
         hand = HANDOVER.search(segment)
-        asked = tidy(segment[:hand.start()] if hand else segment)
+        # Some documents print the verdict BEFORE the recommendation:
+        #
+        #     Recommendation 20 Noted. First Nations-led innovations in
+        #     governance of Country should be prioritised, supported, resourced
+        #     and encouraged.
+        #     Recommendation 24 Supported The Committee recommends that the
+        #     Australian Government work with state and territory governments…
+        #
+        # The handover then matches at the head of the segment, everything the
+        # committee wrote is read as the government's words, and nothing is left
+        # to quote — so the label is refused for being too short and the
+        # recommendation disappears. 120 labels are laid out this way. Found on
+        # 15 September while reading fifty refused labels; it explains most of a
+        # group that came back thirteen real out of fourteen.
+        #
+        # This changes no admission rule. The verdict is the government's words
+        # and the rest is the committee's, which is what the page says. The tail
+        # still has to pass every test below, and a tail that opens in the
+        # government's own voice is not a recommendation at all — that is a long
+        # answer, not a verdict printed above a quotation.
+        verdict_first = (bool(hand) and not tidy(segment[:hand.start()])
+                         and bool(BARE_VERDICT.match(segment[hand.start():hand.end()]))
+                         and not GOV_REPORTING.search(tidy(segment[hand.end():]))
+                         and not SPLICE.search(tidy(segment[hand.end():]))
+                         and not SPLICE_SENTENCE.search(tidy(segment[hand.end():])))
+        if verdict_first:
+            asked = tidy(segment[hand.end():])
+        else:
+            asked = tidy(segment[:hand.start()] if hand else segment)
         # From the START of the handover, not the end: cutting after it leaves
         # "committed to establish..." where the government wrote "The Government
         # is committed to establish...".
-        raw_said = segment[hand.start():] if hand else ""
+        # Verdict first: the government's words ARE the verdict, and the
+        # committee's follow it. Anything else: the government's words run from
+        # the handover to the end.
+        raw_said = (segment[hand.start():hand.end()] if verdict_first
+                    else (segment[hand.start():] if hand else ""))
         stop_at = GOV_END.search(raw_said, 1)
         if stop_at:
             raw_said = raw_said[:stop_at.start()]
@@ -345,19 +429,31 @@ def recommendations_in(body: str, doc_id: str = "") -> dict[str, tuple[str, str]
         # A dissent restarts its numbering, so one document holds two
         # "Recommendation 1". The committee's takes the number outright;
         # length decides only between candidates of the same authorship.
+        #
+        # Verdict-first is a recovery path and never a preference. Where a
+        # document prints its recommendations twice — once in a summary table
+        # under the verdict, once in the body with the government's reasons —
+        # the table's entry has the shorter quotation and would win on length,
+        # and the answer would shrink to the single word "Supported". That
+        # happened to 34 rows of the family violence response the first time
+        # this ran. A label is only taken from the table when the body has
+        # nothing to give.
         if keep is None:
             better = True
         elif bool(keep[2]) != bool(author):
             better = not author
+        elif keep[3] != verdict_first:
+            better = keep[3]
         else:
             better = len(asked) < len(keep[0])
         if better:
-            best[label] = (asked, "" if looks_extracted_badly(said) else said, author)
+            best[label] = (asked, "" if looks_extracted_badly(said) else said, author,
+                           verdict_first)
 
     # A label refused at one place and kept at another is not missing. What is
     # worth reporting is a label the document states and the index does not hold.
     refused.extend(r for r in said_no if r["label"] not in best)
-    return best
+    return {label: (v[0], v[1], v[2]) for label, v in best.items()}
 
 
 # Some documents mark a dissent only in prose — "The Australian Greens made a
