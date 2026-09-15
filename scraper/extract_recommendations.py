@@ -132,8 +132,14 @@ SPLICE = re.compile(r"\b(?:the|a|an|of|in|on|to|for|with|and|that)\s+"
                     r"(?:The|This|These|Those|On|In|As|At|By|For|From|Following|However"
                     r"|Consistent|Where|While|Since|Under|Through|Although|Given)\b")
 
+# The verb has to be finite. "The Committee recommends that the Australian
+# Government support efforts to collect the data" is the subjunctive — it is
+# what a recommendation sounds like — and an earlier version of this pattern
+# read it as the government reporting, because "supports?" matched the bare
+# "support". Only the inflected forms and the auxiliaries count.
 GOV_REPORTING = re.compile(r"\bthe\s+(?:australian\s+)?government\s+"
-                           r"(?:has|have|is|are|will|would|notes?|supports?|agrees?|accepts?)\b",
+                           r"(?:has|have|is|are|was|were|will|would"
+                           r"|notes|supports|agrees|accepts|rejects|acknowledges)\b",
                            re.I)
 
 GOV_LABEL = re.compile(r"^\s*(?:australian\s+)?government(?:'s|’s)?\s+response\s*[:.\-–—]?\s*"
@@ -210,6 +216,27 @@ def committee_from(title: str) -> str:
         return ""
     return name
 GOV_CHARS = 900
+
+
+# The verdict, printed in front of the recommendation and caught by the split.
+# Either a bare label — "Notes", "Supports in principle" — or a whole sentence,
+# "The Government accepts this recommendation." Both are the government's words
+# sitting at the head of a quotation attributed to the committee.
+#
+# Trimming the front is safe in a way that editing the middle is not: what
+# remains is still an unbroken run of the document's own text, so
+# verify_recommendations.py can still find it word for word. That is the whole
+# reason this is a trim and the bullet glyphs are not.
+LEADING_VERDICT = re.compile(
+    r"^\s*(?:the\s+(?:australian\s+)?government\s+"
+    r"(?:accepts|supports|agrees|notes|rejects|does\s+not\s+(?:accept|support|agree))"
+    r"\s+(?:with\s+)?th(?:is|e)\s+recommendation[^.]*\.\s*"
+    r"|(?:not\s+)?(?:noted?|notes|supported?|supports|accepted?|accepts|agreed?|agrees"
+    # "in principle" and "in-principle" are the same verdict. Leaving the hyphen
+    # out left rows beginning "principle. The committee recommends…".
+    r"|partially\s+(?:agreed|supported))(?:[\s-]+in(?:[\s-]+(?:principle|part))?)?"
+    r"[\s.:—–-]+(?=[A-Z]))",
+    re.I)
 
 
 def tidy(s: str) -> str:
@@ -403,6 +430,9 @@ def recommendations_in(body: str, doc_id: str = "") -> dict[str, tuple[str, str]
             asked = tidy(segment[hand.end():])
         else:
             asked = tidy(segment[:hand.start()] if hand else segment)
+        # Only the committee's side. tidy() serves both, and the verdict is the
+        # one thing the government's words must keep.
+        asked = LEADING_VERDICT.sub("", asked, count=1).strip()
         # From the START of the handover, not the end: cutting after it leaves
         # "committed to establish..." where the government wrote "The Government
         # is committed to establish...".

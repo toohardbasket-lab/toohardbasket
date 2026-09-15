@@ -1573,3 +1573,45 @@ export function labelsRefused(): LabelsRefused | null {
     answeredByReason: s.answered_by_reason ?? {},
   };
 }
+
+// ------------------------------ responses whose layout the extraction lost
+
+export interface LayoutSuspect {
+  measured: string;
+  /** Documents where most rows show a column break inside the committee's sentence. */
+  documents: number;
+  rowsInThoseDocuments: number;
+  /** Odd rows in documents that did NOT meet the test, reported and left alone. */
+  rowsFlaggedElsewhere: number;
+  byDocument: { document: string; flagged: number; rows: number;
+                title: string; url: string }[];
+  /** Document ids, for marking a row on the index. */
+  ids: Set<string>;
+}
+
+/**
+ * Responses printed in two columns that the text extraction read across.
+ *
+ * Every word of such a row is genuinely in the document, so the verbatim check
+ * passes it and the sentence was written by nobody. Nothing else in the
+ * pipeline can see it. From layout_suspect.json, which layout_check.py writes.
+ */
+export function layoutSuspect(): LayoutSuspect | null {
+  const f = path.join(DATA_DIR, "layout_suspect.json");
+  if (!fs.existsSync(f)) return null;
+  const s = readJson<{
+    measured: string; documents: number; rows_in_those_documents: number;
+    rows_flagged_elsewhere: number;
+    by_document: { document: string; flagged: number; rows: number;
+                   title: string; url: string }[];
+  }>("layout_suspect.json");
+  const by = s.by_document ?? [];
+  return {
+    measured: s.measured,
+    documents: s.documents,
+    rowsInThoseDocuments: s.rows_in_those_documents,
+    rowsFlaggedElsewhere: s.rows_flagged_elsewhere,
+    byDocument: by,
+    ids: new Set(by.map((d) => d.document)),
+  };
+}

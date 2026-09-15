@@ -1,12 +1,12 @@
 {
   "measured": "2026-09-15",
-  "rows": 521,
-  "labels": 436,
-  "documents": 148,
+  "rows": 522,
+  "labels": 437,
+  "documents": 149,
   "answered_by_the_document": 327,
   "answered_documents": 120,
   "by_reason": {
-    "too short to be a recommendation": 207,
+    "too short to be a recommendation": 208,
     "does not read like a recommendation": 204,
     "the government's words begin mid-sentence": 38,
     "the extraction looks broken": 37,

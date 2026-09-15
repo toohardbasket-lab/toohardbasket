@@ -56,6 +56,7 @@ BY_A_WEEKLY_STEP = {
     "recommendations.csv": "extract_recommendations.py",
     "recommendations_dropped.csv": "verify_recommendations.py",
     "labels_refused.json": "extract_recommendations.py",
+    "layout_suspect.json": "layout_check.py",
     "recommendation_counts.csv": "count_recommendations.py",
     "recommendation_positions.csv": "coverage.py",
     "coverage_summary.json": "coverage.py",

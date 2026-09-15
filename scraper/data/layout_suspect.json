@@ -1,0 +1,20 @@
+{
+  "measured": "2026-09-15",
+  "least_rows": 3,
+  "least_share": 0.5,
+  "documents": 1,
+  "rows_in_those_documents": 9,
+  "rows_flagged_in_those_documents": 9,
+  "rows_flagged_elsewhere": 35,
+  "response_rows_read": 3877,
+  "by_document": [
+    {
+      "document": "1704",
+      "flagged": 9,
+      "rows": 9,
+      "share": 1.0,
+      "title": "Australian Government response to the Senate Economics References Committee report: Systemic, sustained and shameful: unlawful underpayment of employees\u2019 remuneration [April 2023]",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Tabled_Documents/1704"
+    }
+  ]
+}

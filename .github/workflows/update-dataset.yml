@@ -136,6 +136,12 @@ jobs:
         run: python tests/test_refusals.py
       - name: Verify every recommendation against its source (gate)
         run: python verify_recommendations.py
+      # A two-column response read across its columns splices the government's
+      # answer into the committee's sentence. Every word is in the document, so
+      # the verbatim check above passes it and the sentence was written by
+      # nobody. This is the only step that can see that.
+      - name: Find responses whose layout the extraction lost
+        run: python layout_check.py
       # For each recommendation the index holds: did the response state a
       # position on it? A mechanical test (tests/test_coverage.py says what it
       # must and must not count), written out per recommendation and per

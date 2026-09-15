@@ -15,11 +15,12 @@
 import Base from "../layouts/Base.astro";
 import {
   recommendations, recommendationsDropped, registerReportsWithoutSource,
-  quietResponseCounts, scheduleMeta, fmt, formatDate, labelsRefused,
+  quietResponseCounts, scheduleMeta, fmt, formatDate, labelsRefused, layoutSuspect,
 } from "../lib/data";
 
 const rows = recommendations();
 const refusedLabels = labelsRefused();
+const layout = layoutSuspect();
 const dropped = recommendationsDropped();
 const quiet = quietResponseCounts();
 const sources = new Set(rows.map((r) => `${r.source}:${r.sourceId}`)).size;
@@ -253,6 +254,26 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       {" "}<a href="/senate/responses/">Senate’s response record</a> and in the dataset; only
       its recommendations are missing from this index.
     </p>
+    {layout && layout.documents > 0 && (
+    <p class="note">
+      <strong>{fmt(layout.rowsInThoseDocuments)} recommendations
+      {layout.documents === 1 ? ", all from one response," : `, from ${fmt(layout.documents)} responses,`}
+      {" "}are shown as this site read them and not as the committee wrote them.</strong> The
+      response is printed in two columns and the text extraction ran across the columns
+      instead of down them, so the government's answer is spliced into the committee's
+      sentence. Every word is in the document, which is why the word-for-word check passes
+      them and why nothing else here can see the fault. Read the document rather than the
+      quotation:
+      {" "}{layout.byDocument.map((d, i) => (
+        <>{i ? "; " : ""}<a href={d.url}>{d.title}</a></>
+      ))}.
+      {" "}{layout.rowsFlaggedElsewhere > 0 && (
+        <>A further {fmt(layout.rowsFlaggedElsewhere)} rows elsewhere show one odd sentence
+        in an otherwise sound document; calling a whole response unreliable on that evidence
+        would be a guess, so they are counted here and left alone.</>
+      )}
+    </p>
+    )}
     {refusedLabels && (
     <p class="note">
       <strong>This index is a floor.</strong> {fmt(refusedLabels.answeredByTheDocument)} labels
