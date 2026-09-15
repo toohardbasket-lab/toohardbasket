@@ -98,7 +98,7 @@ if path.exists():
     rows = list(csv.DictReader(path.open(encoding="utf-8-sig")))
     check("the file names the document, the label, the reason, the words and the page",
           set(csv.DictReader(path.open(encoding="utf-8-sig")).fieldnames or [])
-          == {"document", "label", "why", "words", "context"})
+          == {"document", "label", "why", "the_document_answers_it", "words", "context"})
     if rows:
         unknown = sorted({r["why"] for r in rows} - reasons_in_code)
         check("every reason in the file is one the code can still emit", not unknown,
@@ -124,7 +124,22 @@ if path.exists():
         check("nothing is listed as refused that the index actually holds",
               not both, f"{both} are in both")
 
-        print(f"\nNOTE  {len(rows)} labels the documents state and the index does not hold, "
+        # The one signal that ranks the worklist. If it ever reads yes for
+        # everything or nothing it has stopped discriminating, which is worth
+        # failing over: a column that always says the same thing is furniture.
+        yes = sum(1 for r in rows if r["the_document_answers_it"] == "yes")
+        check("the document-answers-it column still separates the rows",
+              0 < yes < len(rows), f"{yes} of {len(rows)}")
+        check("it is only ever yes or empty",
+              {r["the_document_answers_it"] for r in rows} <= {"yes", ""})
+        pairs = {(r["document"], r["label"]) for r in rows}
+        answered_pairs = {(r["document"], r["label"]) for r in rows
+                          if r["the_document_answers_it"] == "yes"}
+        print(f"\nNOTE  {len(pairs)} distinct labels the documents state and the index does "
+              f"not hold; {len(answered_pairs)} of them are answered by their own document, "
+              f"across {len({d for d, _ in answered_pairs})} documents. Nobody has read them.")
+
+        print(f"NOTE  {len(rows)} labels the documents state and the index does not hold, "
               f"across {len({r['document'] for r in rows})} documents. That is a worklist, "
               f"not an error count: some are table fragments and some are recommendations. "
               f"Nobody has read them yet, and until somebody has, the honest thing to say "
