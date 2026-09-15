@@ -166,6 +166,12 @@ def main(argv: list[str]) -> int:
                          "with no sampling. For putting a better card in front of a reader "
                          "who is part way through a sheet, without redrawing the sample "
                          "underneath them.")
+    ap.add_argument("--lead", default="",
+                    help="one sentence at the top saying what THIS sheet is for. A "
+                         "supplementary sheet inherits the wording of the main coverage "
+                         "sample, and a reader who is not told otherwise will read it as "
+                         "one — which is how a sheet about five rows gets quoted as an "
+                         "error rate.")
     ap.add_argument("--name", default="positions",
                     help="what to call the sheet, so a supplementary one does not overwrite "
                          "the sheet somebody is part way through")
@@ -370,6 +376,7 @@ def main(argv: list[str]) -> int:
  .bar label {{ font-size:.85rem; color:var(--m); }}
 </style></head><body><div class="wrap">
 <h1>Coverage measure review — {today}</h1>
+{f'<p class="lede"><strong>{html.escape(args.lead)}</strong></p>' if args.lead else ""}
 <p class="lede">Population: {" · ".join(f"{v:,} {k}" for k, v in counts.items())}.
  Sample below: {len(sample)} — {" · ".join(f"{v} {k}" for k, v in strata.items())}, seed {args.seed}.<br>
  Two things can go wrong and they are counted apart.
