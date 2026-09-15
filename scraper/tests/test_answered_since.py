@@ -19,6 +19,16 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
 import answered_since as A
 
 
+def _response_rows() -> list[dict]:
+    """The response list as it stands, read here so examples are not typed in."""
+    path = A.DATA / "response_documents.csv"
+    if not path.exists():
+        return []
+    import csv
+    with path.open(newline="", encoding="utf-8-sig") as f:
+        return list(csv.DictReader(f))
+
+
 def check(name: str, got, want) -> bool:
     ok = got == want
     print(f"{'PASS' if ok else 'FAIL'} {name}" + ("" if ok else f"  got {got!r}, want {want!r}"))
@@ -54,9 +64,21 @@ def a_chamber_only_answers_its_own_register() -> bool:
     house = {r["response_id"] for r in A.responses_since(as_at, "house")}
     either = {r["response_id"] for r in A.responses_since(as_at)}
     ok = check("neither chamber sees more than both", senate <= either and house <= either, True)
-    # 17526, the Thriving Kids response, was tabled in the House only.
-    ok &= check("a House-only response is not on the Senate's list",
-                "17526" in house and "17526" not in senate, True)
+
+    # The example comes from the response list, not from a response id typed in
+    # here. Naming one — 17526, the Thriving Kids response — made the test fail
+    # on the day that response left the list, which says nothing about the rule.
+    cut = as_at.isoformat()
+    house_only = [r["id"] for r in _response_rows()
+                  if r.get("tabled_house", "") > cut
+                  and not (r.get("tabled_senate", "") > cut)]
+    if house_only:
+        rid = house_only[0]
+        ok &= check(f"a House-only response ({rid}) is not on the Senate's list",
+                    rid in house and rid not in senate, True)
+    else:
+        print("NOTE  no response since %s was tabled in one chamber only, so the "
+              "chamber split is recorded here, not tested" % cut)
     return bool(ok)
 
 
