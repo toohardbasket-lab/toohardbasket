@@ -56,6 +56,12 @@ jobs:
       # KeyError naming none of it. That is what stopped the 15 September run.
       - name: Shared-record tests (gate)
         run: python tests/test_meta.py
+      # Same fault one level up: a file the site reads that nothing in this job
+      # writes. jurisdiction.py and verify_positions.py were missing from here
+      # for a week, and the methods page described an index of 5,463 rows while
+      # the index held 5,539. Cheap, no dependencies, so it runs early.
+      - name: Site-input tests (gate)
+        run: python tests/test_site_inputs.py
       - name: Build dataset
         run: python build_dataset.py --all
       - name: Fetch any new President's report
