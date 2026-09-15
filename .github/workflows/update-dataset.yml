@@ -129,6 +129,11 @@ jobs:
       # demand as a committee's finding is the worst mistake that step can make.
       - name: Recommendation authorship tests (gate)
         run: python tests/test_report_recommendations.py
+      # What the documents name and the index does not hold. Two omissions were
+      # found by hand in two days because this step reported what it kept and
+      # nothing about what it refused.
+      - name: Refusal-record tests (gate)
+        run: python tests/test_refusals.py
       - name: Verify every recommendation against its source (gate)
         run: python verify_recommendations.py
       # For each recommendation the index holds: did the response state a

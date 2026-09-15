@@ -241,21 +241,56 @@ def is_heading(body: str, start: int) -> bool:
 
 dropped: collections.Counter = collections.Counter()
 
+# Every label this step admitted as a heading and then refused, with the reason.
+# Written out as data/labels_refused.csv by main().
+#
+# It ran for a year without this. Five paths refused a label and two of them
+# counted it, so the index reported what it had kept and nothing at all about
+# what it had thrown away. Both of the omissions found by hand — the 337
+# missing first recommendations on 14 September, and recommendation 11 of the
+# ASIC response on 15 September, whose sub-bullets a PDF renders as the letter
+# "o" — were invisible for that reason and for no other. A reader had to open
+# the document and count.
+#
+# So a refusal is now a record rather than a `continue`. Anything that leaves
+# this function without a row here or a place in the index is a hole, and
+# tests/test_refusals.py is what says so.
+refused: list[dict] = []
 
-def recommendations_in(body: str) -> dict[str, tuple[str, str]]:
+
+def recommendations_in(body: str, doc_id: str = "") -> dict[str, tuple[str, str]]:
     """Recommendation number -> (what the committee asked, what the government said).
 
     Where a label appears more than once — a contents entry, a summary table and
     the body — the SHORTEST usable quotation is kept. The longest runs on into
     whatever follows it, which would import the government's argument into the
     committee's words.
+
+    Refusals go to `refused`, keyed by label, and main() keeps the ones whose
+    label never made it into the index at all. A label refused on a contents
+    page and kept in the body is not missing from anything.
     """
     marks = [(m.group(1), m.start(), m.end()) for m in LABEL.finditer(body)]
     best: dict[str, tuple[str, str, str]] = {}
+    said_no: list[dict] = []
+
+    def no(label: str, why: str, asked: str, start: int) -> None:
+        # Both what the extractor built and what the document says around the
+        # label. A refusal for being too short leaves `asked` at two or three
+        # characters — "60", "Noted" — and a reviewer cannot tell a table
+        # fragment from a lost recommendation without seeing the page.
+        said_no.append({
+            "document": doc_id, "label": label, "why": why,
+            "words": " ".join(asked.split())[:300],
+            "context": " ".join(body[start:start + 320].split()),
+        })
+
     for i, (label, start, end) in enumerate(marks):
         stop = marks[i + 1][1] if i + 1 < len(marks) else len(body)
         segment = body[end:stop]
         if not is_heading(body, start):
+            # Not a refusal: the label is a mention inside a sentence, which is
+            # what this test is for. Recording these would bury the real ones.
             continue
         hand = HANDOVER.search(segment)
         asked = tidy(segment[:hand.start()] if hand else segment)
@@ -268,6 +303,8 @@ def recommendations_in(body: str) -> dict[str, tuple[str, str]]:
             raw_said = raw_said[:stop_at.start()]
         said = tidy(GOV_LABEL.sub("", raw_said.strip()))[:GOV_CHARS]
         if not (MIN_CHARS <= len(asked) <= MAX_CHARS):
+            no(label, ("longer than a quotation can carry" if len(asked) > MAX_CHARS
+                       else "too short to be a recommendation"), asked, start)
             continue
         # The split failed if the government's verdict is still inside the
         # committee's words, or its answer begins mid-sentence. Publishing
@@ -275,11 +312,17 @@ def recommendations_in(body: str) -> dict[str, tuple[str, str]]:
         # counted rather than shown.
         if ENDS_IN_VERDICT.search(asked):
             dropped["the government's verdict is inside the recommendation"] += 1
+            no(label, "the government's verdict is inside the recommendation", asked, start)
             continue
         if said and said[0].islower():
             dropped["the government's words begin mid-sentence"] += 1
+            no(label, "the government's words begin mid-sentence", asked, start)
             continue
-        if not SAYS_RECOMMEND.search(asked) or looks_extracted_badly(asked):
+        if not SAYS_RECOMMEND.search(asked):
+            no(label, "does not read like a recommendation", asked, start)
+            continue
+        if looks_extracted_badly(asked):
+            no(label, "the extraction looks broken", asked, start)
             continue
         # Who is speaking. The recommendation's own words first, then the
         # heading above it: a dissent often announces itself once — "Dissenting
@@ -300,6 +343,10 @@ def recommendations_in(body: str) -> dict[str, tuple[str, str]]:
             better = len(asked) < len(keep[0])
         if better:
             best[label] = (asked, "" if looks_extracted_badly(said) else said, author)
+
+    # A label refused at one place and kept at another is not missing. What is
+    # worth reporting is a label the document states and the index does not hold.
+    refused.extend(r for r in said_no if r["label"] not in best)
     return best
 
 
@@ -344,7 +391,7 @@ def main() -> int:
     for d in docs:
         body = text_for(d["id"])
         others = bool(DOC_HAS_OTHERS.search(body))
-        found = recommendations_in(body)
+        found = recommendations_in(body, d["id"])
         pair = pairs.get(d["id"], {})
         if not found:
             empty += 1
@@ -415,6 +462,25 @@ def main() -> int:
     with_gov = sum(1 for r in rows if r["government_words"])
     print(f"  {with_gov} carry the government's own words ({with_gov/len(rows)*100:.0f}%)")
     print(f"  {empty} documents yielded none")
+
+    # What the document names and the index does not hold. Published as a file
+    # rather than a number, because a count says a gap exists and a list is the
+    # only thing anyone can act on.
+    refused_out = DATA / "labels_refused.csv"
+    if refused:
+        with open(refused_out, "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=["document", "label", "why", "words", "context"])
+            w.writeheader()
+            w.writerows(sorted(refused, key=lambda r: (int(r["document"] or 0), r["label"])))
+    else:
+        refused_out.write_text("document,label,why,words,context\n", encoding="utf-8")
+    by_why = collections.Counter(r["why"] for r in refused)
+    docs_affected = len({r["document"] for r in refused})
+    print(f"  {len(refused)} labels the documents state and the index does not hold, "
+          f"across {docs_affected} documents:")
+    for why, n in by_why.most_common():
+        print(f"      {n:>5}  {why}")
+    print(f"wrote {refused_out}")
     print(f"wrote {OUT}")
     return 0
 
