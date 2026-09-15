@@ -133,6 +133,22 @@ jobs:
         run: python tests/test_coverage.py
       - name: Measure coverage
         run: python coverage.py
+      # These three write files the methods page reads, and for a week they did
+      # not run here at all: jurisdiction.json and position_checks.json were
+      # last written by hand on 14 September, so the page described an index of
+      # 5,463 rows while the index held 5,539. A figure that quietly describes
+      # a different dataset from the one beside it is worse than no figure,
+      # because it is checkable and it is wrong.
+      - name: Say what the jurisdiction limit costs
+        run: python jurisdiction.py
+      - name: Check the positions the index states
+        run: python verify_positions.py
+      # Whether anything happened afterwards. The answer is almost nothing, and
+      # the count is the evidence for saying so on the methods page.
+      - name: Implementation-claim tests (gate)
+        run: python tests/test_implementation_evidence.py
+      - name: Count what the responses claim was done
+        run: python implementation_evidence.py
       # One rule for who the government owes an answer to. The stated-position
       # figure and the awaiting figure both exclude a dissent's recommendations,
       # and this checks the three places that compute it still agree.

@@ -8,12 +8,13 @@ import {
 import { registerBySlug, plannedRegisters } from "../lib/registers";
 import { FORMS, formHref } from "../lib/forms";
 import { ABOUT } from "../lib/about";
-import { coverage, positionChecks, jurisdiction } from "../lib/data";
+import { coverage, positionChecks, jurisdiction, implementationEvidence } from "../lib/data";
 import { ROYAL_COMMISSIONS_DRAFT } from "../lib/draft";
 
 const cov = coverage();
 const checks = positionChecks();
 const jur = jurisdiction();
+const impl = implementationEvidence();
 /* Form-letter closures tabled in a year, for the backlog paragraph. */
 const byYear = closureDetail().byYear;
 const closuresIn = (y: string) => byYear.find((b) => b.year === y)?.closures ?? 0;
@@ -72,6 +73,7 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
       On this page:
       {" "}<a href="#unit">what is counted</a> ·
       {" "}<a href="#jurisdiction">which government</a> ·
+      {impl && <>{" "}<a href="#did-it-happen">whether anything happened</a> ·</>}
       {!ROYAL_COMMISSIONS_DRAFT && <>{" "}<a href="#indexes">registers and indexes</a> ·</>}
       {" "}<a href="#sources">sources</a> ·
       {" "}<a href="#corpus">the response corpus</a> ·
@@ -158,6 +160,86 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
     </p>
     )}
   </section>
+
+  {impl && (
+  <section class="wrap measure">
+    <h2 id="did-it-happen">What this site cannot tell you: whether anything happened</h2>
+    <p>
+      Accepted is not done. A government that accepts a recommendation has said what it
+      intends, and nothing on this site says whether it followed through. That is the
+      question most worth answering and it is the one the register is furthest from, so it
+      is worth being exact about why.
+    </p>
+    <p>
+      <strong>The documents stop where the register stops.</strong> A response is written
+      weeks or months after the report, before the thing it promises has happened, and it is
+      the last document the government is obliged to produce. Nothing in either chamber's
+      standing orders requires it to come back and say what it did. The record runs out
+      because the obligation does.
+    </p>
+    <p>
+      That shows in the corpus. Of the {fmt(impl.answers)} answers whose government words
+      could be read, <strong>{fmt(impl.statedDone)}</strong> say the recommendation has been
+      implemented, actioned or delivered. Not {fmt(impl.statedDone)} per cent —
+      {" "}{fmt(impl.statedDone)} answers. They are listed below, in full, because at that size a list is more honest
+      than a rate.
+    </p>
+    {impl.claims.length > 0 && (
+    <ul class="claims">
+      {impl.claims.map((c) => (
+        <li>
+          <p class="claim">“{c.theClaim}”</p>
+          <p class="note">
+            {c.committee ? c.committee + ", " : ""}recommendation {c.label},
+            {" "}<a href={c.responseUrl}>{c.documentTitle}</a>, tabled {formatDate(c.tabled)}.
+          </p>
+        </li>
+      ))}
+    </ul>
+    )}
+    <p>
+      A wider net catches more and proves less. {fmt(impl.completedActionVocabulary)} answers
+      use a completed-action verb somewhere in them — “has established”, “was completed”,
+      “has commenced”. That is a count of words, not of implementation. Deciding whether
+      “the Government has established a whole-of-government taskforce” means the committee's
+      recommendation was carried out is a reading of prose, and on this site no language
+      model reads a document and decides what it says. The gap between
+      {" "}{fmt(impl.statedDone)} and {fmt(impl.completedActionVocabulary)} is the size of
+      the judgement not being made. Both numbers are published so the gap is visible rather
+      than resolved in the site's favour.
+    </p>
+    <p>
+      {fmt(impl.documentsWithASection)} responses go further and carry a heading of their own
+      — “Implementation status”, “Implementation progress” — under which the government sets
+      out what it has done since an earlier response. Those are the shape the record would
+      take if it existed: a dated statement, attributed to the government, that makes no
+      claim this site has to assess. {fmt(impl.documentsWithASection)} out of
+      {" "}{fmt(impl.answers)} is not a record.
+    </p>
+    {impl.progressReports.length > 0 && (
+    <p>
+      The same gap appears in a sharper form among the royal commissions. Progress reports on
+      implementing a commission's recommendations have been tabled for
+      {" "}{impl.progressReports.map((p) => p.shortName).join(" and ")}. Neither commission is
+      in this site's index, and for the same reason in both cases: what the register holds for
+      them is an account of implementation without the answer it would be implementing.
+      {!ROYAL_COMMISSIONS_DRAFT && <>
+        {" "}<a href="/methods/royal-commissions/">The royal commissions method</a> says
+        which four are in and why.
+      </>}
+    </p>
+    )}
+    <p class="note">
+      Counted by <code>scraper/implementation_evidence.py</code>, gated by
+      {" "}<code>scraper/tests/test_implementation_evidence.py</code>, whose tests are mostly
+      sentences that must <em>not</em> count. All
+      {" "}{fmt(impl.statedDone)} were read in full rather than sampled; a sixth candidate was
+      rejected because the government's sentence was about a different committee's report.
+      The rows are in
+      {" "}<a href="https://github.com/toohardbasket-lab/toohardbasket/blob/main/scraper/data/implementation_claims.csv">implementation_claims.csv</a>.
+    </p>
+  </section>
+  )}
 
   {/* Written, and not shown until the index it points at is published: a
       methods page that describes a page the site is not standing behind yet
@@ -676,6 +758,13 @@ const checkedTo = [scheduleMeta("senate").responsesCheckedTo,
   .defs dd { margin: 0; font-size: 0.9375rem; }
   @media (max-width: 34rem) { .defs div { grid-template-columns: 1fr; gap: 0.15rem; } }
   .contents a { white-space: nowrap; }
+
+  /* The five implementation claims. The government's sentence is the point of
+     the list, so it gets the type; the citation under it is the apparatus. */
+  ul.claims { list-style: none; padding-left: 0; margin: 1.25rem 0 1.5rem; }
+  ul.claims li { margin-bottom: 1.1rem; padding-left: 0.9rem; border-left: 2px solid var(--rule-strong); }
+  ul.claims p.claim { margin: 0 0 0.2rem; }
+  ul.claims p.note { margin: 0; }
   ul, ol { padding-left: 1.1rem; margin: 0 0 1rem; }
   li { margin-bottom: 0.6rem; }
 

@@ -1459,3 +1459,76 @@ export function responseDoc(id: string) {
     url: r.url,
   };
 }
+
+// ------------------------------------------------- what happened afterwards
+
+export interface ImplementationClaim {
+  responseId: string;
+  label: string;
+  tabled: string;
+  committee: string;
+  documentTitle: string;
+  responseUrl: string;
+  recommendation: string;
+  /** The government's own sentence, quoted. */
+  theClaim: string;
+}
+
+export interface ImplementationEvidence {
+  /** Answers whose government words could be read at all. */
+  answers: number;
+  /** Answers saying this recommendation has been implemented, actioned or delivered. */
+  statedDone: number;
+  /** Documents whose own text carries an implementation heading. */
+  documentsWithASection: number;
+  documentsWithASectionIds: string[];
+  /** Answers using a completed-action verb anywhere. A count of words, not of doing. */
+  completedActionVocabulary: number;
+  /** Royal commissions whose only implementation record is a progress report. */
+  progressReports: { commission: string; shortName: string; fails: string }[];
+  claims: ImplementationClaim[];
+}
+
+/**
+ * What the corpus says about whether anything was done.
+ *
+ * From implementation_evidence.json and implementation_claims.csv, which
+ * implementation_evidence.py writes. Null before it has run, so a page must
+ * handle its absence rather than print a zero — a zero here would read as
+ * "nothing was implemented", which is not what the file measures.
+ */
+export function implementationEvidence(): ImplementationEvidence | null {
+  const f = path.join(DATA_DIR, "implementation_evidence.json");
+  if (!fs.existsSync(f)) return null;
+  const s = readJson<{
+    answers_with_government_words: number; stated_done: number;
+    documents_with_an_implementation_section: number;
+    documents_with_an_implementation_section_ids: string[];
+    completed_action_vocabulary: number;
+    royal_commission_progress_reports: { commission: string; short_name: string; fails: string }[];
+  }>("implementation_evidence.json");
+  const claimsFile = path.join(DATA_DIR, "implementation_claims.csv");
+  const claims = fs.existsSync(claimsFile)
+    ? read("implementation_claims.csv").map((r) => ({
+        responseId: r.response_id,
+        label: r.label,
+        tabled: r.response_tabled,
+        committee: r.committee,
+        documentTitle: r.document_title,
+        responseUrl: r.response_url,
+        recommendation: r.recommendation,
+        theClaim: r.the_claim,
+      }))
+    : [];
+  return {
+    answers: s.answers_with_government_words,
+    statedDone: s.stated_done,
+    documentsWithASection: s.documents_with_an_implementation_section,
+    documentsWithASectionIds: s.documents_with_an_implementation_section_ids ?? [],
+    completedActionVocabulary: s.completed_action_vocabulary,
+    progressReports: (s.royal_commission_progress_reports ?? []).map((p) => ({
+      commission: p.commission, shortName: p.short_name, fails: p.fails,
+    })),
+    claims,
+  };
+}

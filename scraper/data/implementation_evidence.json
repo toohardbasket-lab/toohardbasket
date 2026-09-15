@@ -1,0 +1,34 @@
+{
+  "answers_with_government_words": 3475,
+  "stated_done": 5,
+  "stated_done_responses": [
+    "16205",
+    "6041",
+    "6208",
+    "9517"
+  ],
+  "documents_with_an_implementation_section": 6,
+  "documents_with_an_implementation_section_ids": [
+    "6645",
+    "6874",
+    "8243",
+    "8738",
+    "15484",
+    "17526"
+  ],
+  "completed_action_vocabulary": 109,
+  "royal_commission_progress_reports": [
+    {
+      "commission": "Royal Commission into Aged Care Quality and Safety",
+      "short_name": "Aged Care",
+      "fails": "no response was tabled",
+      "why": "Its final report is in the register: eight volumes presented by a Member on 27 July 2022, typed Other, volume 1 titled Summary and recommendations \u2014 the same shape as the Disability report. No government response to it is. What is there instead are two progress reports on implementation, which are a government's account of what it later did rather than what it said about each recommendation."
+    },
+    {
+      "commission": "Royal Commission into Institutional Responses to Child Sexual Abuse",
+      "short_name": "Institutional Responses to Child Sexual Abuse",
+      "fails": "neither the report nor a response is in the register",
+      "why": "Neither the commission's report nor a response to it is in the register. Its one record there is a progress report on implementation."
+    }
+  ]
+}
