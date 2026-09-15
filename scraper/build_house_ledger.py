@@ -118,6 +118,23 @@ DEADLINE_VERDICTS = {"Yes", "No", "Time not expired", "Time has not expired"}
 FOOTNOTE_TAIL = re.compile(r"(?<=[a-z)])(?:i{1,3}|iv|vi{0,3}|ix|xi{0,3})$")
 
 
+
+# ledger_meta.json is a shared record, not this step's private file. Five later
+# steps in the weekly job add keys to it — what the responses were harvested
+# to, what the removal step pruned, which reports are on both registers, how
+# many editions of the government's status report have been read — and one of
+# them, prune_answered.py, runs AFTER brief_figures.py is called. So a step that
+# rewrites this file from an empty dict destroys fourteen keys, and the run
+# fails in between on a KeyError that names none of this. It did, on 15
+# September 2026, the first time a new President's report triggered a full
+# rebuild since those keys were added.
+#
+# Merge. A step owns the keys it computes and leaves the rest alone.
+def merge_meta(path, computed: dict) -> None:
+    on_file = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    on_file.update(computed)
+    path.write_text(json.dumps(on_file, indent=2) + "\n", encoding="utf-8")
+
 def clean_committee(name: str) -> str:
     return FOOTNOTE_TAIL.sub("", name.strip()).strip()
 
@@ -661,8 +678,7 @@ def main() -> None:
         "covers_to": max(r["report_tabled"] for r in rows),
         "rebuilt": as_at.isoformat(),
     }
-    (DATA / "house_ledger_meta.json").write_text(json.dumps(meta, indent=2) + "\n",
-                                                 encoding="utf-8")
+    merge_meta(DATA / "house_ledger_meta.json", meta)
 
     noted = [r for r in records if r["notes"] and not r["response_out_of_period"]]
     # `rows` was written before the government's report was read, so rewrite it.

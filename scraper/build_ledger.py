@@ -40,6 +40,22 @@ DATE_TOKEN_RE = re.compile(r"^\d{1,2}\.\d{1,2}\.\d{2}$")
 X_DATE_MIN, X_DATE_MAX, X_RESP_MAX = 230, 345, 475
 
 
+# ledger_meta.json is a shared record, not this step's private file. Five later
+# steps in the weekly job add keys to it — what the responses were harvested
+# to, what the removal step pruned, which reports are on both registers, how
+# many editions of the government's status report have been read — and one of
+# them, prune_answered.py, runs AFTER brief_figures.py is called. So a step that
+# rewrites this file from an empty dict destroys fourteen keys, and the run
+# fails in between on a KeyError that names none of this. It did, on 15
+# September 2026, the first time a new President's report triggered a full
+# rebuild since those keys were added.
+#
+# Merge. A step owns the keys it computes and leaves the rest alone.
+def merge_meta(path, computed: dict) -> None:
+    on_file = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    on_file.update(computed)
+    path.write_text(json.dumps(on_file, indent=2) + "\n", encoding="utf-8")
+
 # --- fetching the schedule from Online Tabled Documents -------------------
 #
 # The President's reports sit in OTD under the category "Presented by the
@@ -592,8 +608,7 @@ def main(argv):
     if info:
         meta.update({"otd_id": info["doc_id"], "otd_url": info["url"],
                      "title": info["title"], "tabled": info["tabled"]})
-    (HERE / "data" / "ledger_meta.json").write_text(
-        json.dumps(meta, indent=2) + "\n", encoding="utf-8")
+    merge_meta(HERE / "data" / "ledger_meta.json", meta)
 
     print(f"wrote {out} ({len(ledger)} rows) and data/ledger_meta.json")
     return 0

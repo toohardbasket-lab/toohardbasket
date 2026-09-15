@@ -49,6 +49,13 @@ jobs:
       - run: pip install -r requirements.txt && playwright install chromium --with-deps
       - name: Parser tests (gate)
         run: python tests/test_parser.py
+      # The two ledger_meta files are shared records that five steps write to at
+      # different points in this job, and one reader runs in the middle of that
+      # sequence. A build step that rewrites its file from an empty dict wipes
+      # the keys the later steps add, and the run dies three steps later on a
+      # KeyError naming none of it. That is what stopped the 15 September run.
+      - name: Shared-record tests (gate)
+        run: python tests/test_meta.py
       - name: Build dataset
         run: python build_dataset.py --all
       - name: Fetch any new President's report
