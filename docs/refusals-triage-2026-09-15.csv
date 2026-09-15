@@ -1,0 +1,51 @@
+document,label,why_refused,call,note
+856,20,too short to be a recommendation,real,"Verdict printed BEFORE the recommendation — ""Recommendation 20 Noted. First Nations-led innovations … should be prioritised"". The handover matched at the start, so the committee's words were all read as the government's."
+941,6,does not read like a recommendation,real,"Imperative form: ""The Australian Government consider including key aspects of the scheme in the primary legislation""."
+1231,4,too short to be a recommendation,real but not quotable here,"The response gives the verdict and its own answer and never restates the recommendation. The words exist only in the report."
+1704,1,too short to be a recommendation,real but the extraction is genuinely mangled,"Two-column PDF read across the columns: ""the committee recommends that the The Government has committed to Australian Government prioritise criminalising wage theft in its Secure amendments""."
+1704,13,too short to be a recommendation,real but the extraction is genuinely mangled,Same two-column interleave.
+3049,6,longer than a quotation can carry,real,Plainly a recommendation; only its length refused it.
+3383,27,the extraction looks broken,real,"Sub-bullets render as ""e"". One genuine broken word beside them (""along-term"" for ""a long-term"")."
+5110,18,does not read like a recommendation,real,"Noun-phrase form: ""A moratorium on the sale of Crown land until a Treaty … has been negotiated""."
+5198,9,the government's verdict is inside the recommendation,real,"Sub-numbered 9a and 9b under one heading. The verdict test fired on the second part."
+5297,12,does not read like a recommendation,real,"Imperative: ""The Attorney-General's Department undertakes further consultation""."
+5418,5,too short to be a recommendation,real but not quotable here,Response-only: the document answers the recommendation without restating it.
+5817,1,too short to be a recommendation,real,"""The committee recommends that the bill be passed"" — 47 characters, under the 60-character floor."
+5924,7,the extraction looks broken,real,Bulleted list inside the recommendation.
+5926,4,too short to be a recommendation,not a recommendation,"A contents-page line: ""Recommendation 4: ……… 4 Overview""."
+5988,7,the extraction looks broken,real,Same recommendation as 5924 in a second document.
+6022,3,does not read like a recommendation,real,"Opens with a purpose clause then bullets: ""With the aim of increasing its staff's awareness … • the Department of Defence re-examine its induction""."
+6408,5,does not read like a recommendation,real,"Imperative: ""Enact Parliamentary Standards legislation""."
+6558,2,longer than a quotation can carry,real,Long amending recommendation with bullets.
+8364,2,the extraction looks broken,real,"Heading artefact: the segment opens ""of the Committee's Report""."
+8790,2,the government's words begin mid-sentence,real,"The answer begins ""t he Government supports"" — a broken word in the government's text, not in the recommendation."
+9466,12,the government's words begin mid-sentence,real,Ukraine inquiry. The recommendation itself is clean.
+12355,18,does not read like a recommendation,real,"Imperative: ""Provide more detailed feedback in the Portal""."
+12528,7,the extraction looks broken,real,Long recommendation with a list.
+12533,8,longer than a quotation can carry,not a recommendation,A contents-page line that ran on into the document's preamble.
+12659,24,too short to be a recommendation,real,"Verdict-first layout: ""Recommendation 24 Supported The Committee recommends that…""."
+12659,55,too short to be a recommendation,real,Verdict-first layout.
+13234,1,too short to be a recommendation,real,"""The committee recommends that the Senate pass the Bill"" — under the character floor."
+13234,3,does not read like a recommendation,real — check the author,"Imperative form. The document also carries Senator Scarr's additional comments with their own numbering, so whose recommendation this is needs checking before it is published."
+13252,4,does not read like a recommendation,real,"Conditional imperative: ""If the Bill is not passed, implement a requirement""."
+15205,20,the extraction looks broken,real,Bulleted list inside the recommendation.
+15484,3,does not read like a recommendation,real,"Imperative: ""Treasury and ACCC officials make themselves available""."
+15672,6,does not read like a recommendation,real,"Imperative: ""Establish a workforce development program""."
+15838,4,does not read like a recommendation,real,"Imperative: ""The Australian Government release the advice on the bill""."
+15841,1,too short to be a recommendation,real,"""The Committee recommends that the bill be passed"" — under the character floor."
+15918,23,too short to be a recommendation,real but the extraction is genuinely mangled,Verdict-first and two-column interleave together.
+16158,12,does not read like a recommendation,real,"Imperative: ""Boost government funding to universities""."
+16160,12,does not read like a recommendation,real,Same recommendation in a second document.
+16160,7,does not read like a recommendation,real,"Imperative: ""Raise the minimum repayment income for student debt to the median wage""."
+16160,9,too short to be a recommendation,real,"""Raise PhD stipends"" — 18 characters. A real recommendation shorter than the floor."
+16278,17,does not read like a recommendation,real,"Imperative: ""Ensure the legislation allows new independent higher education providers to enter the market""."
+16386,21,the extraction looks broken,real,"Sub-bullets render as ""e""."
+16545,11,does not read like a recommendation,real,"Imperative: ""The government support uptake of new, more secure technologies""."
+16545,5,does not read like a recommendation,real,"Imperative: ""The Explanatory Memorandum be revised to…""."
+16547,12,does not read like a recommendation,real,"Imperative: ""Amend the Carbon Credits (Carbon Farming Initiative) Act 2011""."
+16547,15,does not read like a recommendation,real,"Imperative: ""Bring methane emissions reporting … into line with international best practices""."
+16654,2,too short to be a recommendation,real but not quotable here,"Response-only: ""The Government rejects the premise of this recommendation"" and no recommendation text."
+16815,11,does not read like a recommendation,real,"Noun phrase: ""Clear identification of the opportunities and limits associated with transnational cooperation""."
+16815,13,does not read like a recommendation,real,"Noun phrase: ""Tailored support for the production of green metals such as aluminium""."
+16815,5,does not read like a recommendation,real,"""Electrification of Australian households, businesses and industry … needs to be prioritised""."
+17143,9,does not read like a recommendation,real,"Imperative: ""The Australian Government revise reversionary pension arrangements""."
