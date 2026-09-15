@@ -274,7 +274,7 @@ def recommendations_in(body: str, doc_id: str = "") -> dict[str, tuple[str, str]
     best: dict[str, tuple[str, str, str]] = {}
     said_no: list[dict] = []
 
-    def no(label: str, why: str, asked: str, start: int) -> None:
+    def no(label: str, why: str, asked: str, start: int, answered: bool = False) -> None:
         # Both what the extractor built and what the document says around the
         # label. A refusal for being too short leaves `asked` at two or three
         # characters — "60", "Noted" — and a reviewer cannot tell a table
@@ -283,6 +283,13 @@ def recommendations_in(body: str, doc_id: str = "") -> dict[str, tuple[str, str]
             "document": doc_id, "label": label, "why": why,
             "words": " ".join(asked.split())[:300],
             "context": " ".join(body[start:start + 320].split()),
+            # Does the document answer it? A handover in the passage that
+            # follows — "The Government supports", "Response:" — is the
+            # document treating this label as a recommendation and replying to
+            # it. That is the document's own behaviour, not a reading of what
+            # the words mean, and it is the one signal available here that
+            # separates a lost recommendation from a row of a summary table.
+            "the_document_answers_it": "yes" if answered else "",
         })
 
     for i, (label, start, end) in enumerate(marks):
@@ -304,7 +311,8 @@ def recommendations_in(body: str, doc_id: str = "") -> dict[str, tuple[str, str]
         said = tidy(GOV_LABEL.sub("", raw_said.strip()))[:GOV_CHARS]
         if not (MIN_CHARS <= len(asked) <= MAX_CHARS):
             no(label, ("longer than a quotation can carry" if len(asked) > MAX_CHARS
-                       else "too short to be a recommendation"), asked, start)
+                       else "too short to be a recommendation"), asked, start,
+               bool(hand))
             continue
         # The split failed if the government's verdict is still inside the
         # committee's words, or its answer begins mid-sentence. Publishing
@@ -312,17 +320,17 @@ def recommendations_in(body: str, doc_id: str = "") -> dict[str, tuple[str, str]
         # counted rather than shown.
         if ENDS_IN_VERDICT.search(asked):
             dropped["the government's verdict is inside the recommendation"] += 1
-            no(label, "the government's verdict is inside the recommendation", asked, start)
+            no(label, "the government's verdict is inside the recommendation", asked, start, bool(hand))
             continue
         if said and said[0].islower():
             dropped["the government's words begin mid-sentence"] += 1
-            no(label, "the government's words begin mid-sentence", asked, start)
+            no(label, "the government's words begin mid-sentence", asked, start, bool(hand))
             continue
         if not SAYS_RECOMMEND.search(asked):
-            no(label, "does not read like a recommendation", asked, start)
+            no(label, "does not read like a recommendation", asked, start, bool(hand))
             continue
         if looks_extracted_badly(asked):
-            no(label, "the extraction looks broken", asked, start)
+            no(label, "the extraction looks broken", asked, start, bool(hand))
             continue
         # Who is speaking. The recommendation's own words first, then the
         # heading above it: a dissent often announces itself once — "Dissenting
@@ -469,11 +477,11 @@ def main() -> int:
     refused_out = DATA / "labels_refused.csv"
     if refused:
         with open(refused_out, "w", newline="", encoding="utf-8") as f:
-            w = csv.DictWriter(f, fieldnames=["document", "label", "why", "words", "context"])
+            w = csv.DictWriter(f, fieldnames=["document", "label", "why", "the_document_answers_it", "words", "context"])
             w.writeheader()
             w.writerows(sorted(refused, key=lambda r: (int(r["document"] or 0), r["label"])))
     else:
-        refused_out.write_text("document,label,why,words,context\n", encoding="utf-8")
+        refused_out.write_text("document,label,why,the_document_answers_it,words,context\n", encoding="utf-8")
     by_why = collections.Counter(r["why"] for r in refused)
     docs_affected = len({r["document"] for r in refused})
     print(f"  {len(refused)} labels the documents state and the index does not hold, "
