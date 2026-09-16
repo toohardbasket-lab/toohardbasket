@@ -49,6 +49,12 @@ jobs:
       - run: pip install -r requirements.txt && playwright install chromium --with-deps
       - name: Parser tests (gate)
         run: python tests/test_parser.py
+      # The form letter is the government's wording, and the government can
+      # change it. One word — "no longer CONSIDERED appropriate" — was enough to
+      # publish a refusal to answer as an answer. This looks for what the
+      # pattern has lost rather than checking that it still works.
+      - name: Form-letter drift tests (gate)
+        run: python tests/test_template_drift.py
       # The two ledger_meta files are shared records that five steps write to at
       # different points in this job, and one reader runs in the middle of that
       # sequence. A build step that rewrites its file from an empty dict wipes

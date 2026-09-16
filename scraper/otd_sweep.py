@@ -59,12 +59,56 @@ HEADERS = {
     "Referer": "https://www.aph.gov.au/",
 }
 
-# The template fingerprint, with light tolerance for wording drift
+# The template fingerprint, with light tolerance for wording drift.
+#
+# "Light tolerance" was not enough. The fingerprint is the GOVERNMENT's wording,
+# not ours, and the drafter can break it by adding a word. On 15 September 2026
+# a response to the Senate Select Committee on COVID-19 arrived reading
+#
+#     …given the passage of time since the report was tabled in December 2021, a
+#     substantive Government response is no longer CONSIDERED appropriate.
+#
+# and "considered" between "no longer" and "appropriate" was enough: the pattern
+# missed it, the document fell through to the last branch of classify(), and a
+# response saying in terms that it would not answer substantively was published
+# as "Answered substantively". Alan found it by reading the page.
+#
+# So the gap now tolerates a word or two, and the adjectives cover the ways of
+# saying the same thing. That still only covers the drift we have seen, which is
+# why template_drift() exists below: a document that talks about the passage of
+# time and is not called a closure is reported, every run, whatever the wording.
 TEMPLATE_RE = re.compile(
     r"(passage\s+of\s+time|time\s+(that\s+has\s+)?elapsed)"
-    r".{0,220}?"
-    r"(no\s+longer\s+(be\s+)?(appropriate|required|warranted)|"
-    r"not\s+(be\s+)?(appropriate|proposed))",
+    r".{0,240}?"
+    r"(no\s+longer\s+(?:\w+\s+){0,2}(appropriate|required|warranted|necessary|"
+    r"proposed|practicable|useful|of\s+value)|"
+    r"not\s+(?:\w+\s+){0,2}(appropriate|proposed|warranted))",
+    re.I | re.S)
+
+# The clause plus a refusal, in whatever words. Looser than TEMPLATE_RE on
+# purpose: this is what the drift watcher uses, and its job is to catch a
+# wording the classifier has not been taught yet.
+#
+# The clause alone is not enough, which the watcher proved on its first run.
+# There are two families of it and only one is a closure:
+#
+#   …given the passage of time since this report was tabled, a substantive
+#   Government response is no longer appropriate.          <- a closure
+#
+#   …given the passage of time since this report was tabled, the Government
+#   provides the following update: On 1 November 2025…     <- an answer
+#
+# The second is the government using the delay as a reason to say what has
+# happened since, which is more than it was asked for rather than less. Five
+# documents do that and they are rightly called substantive.
+PASSAGE_RE = re.compile(
+    r"(?:passage\s+of\s+time|time\s+(?:that\s+has\s+)?elapsed)"
+    r"\s+since\s+th(?:is|e)\s+report"
+    r"(?!.{0,120}?(?:provides?\s+the\s+following|the\s+Government\s+has\s+since))"
+    r".{0,240}?"
+    r"(?:no\s+longer|not\s+(?:be\s+)?(?:appropriate|proposed|provided|warranted)"
+    r"|does\s+not\s+propose|will\s+not\s+(?:be\s+)?(?:provid|respond)"
+    r"|declin\w+\s+to\s+respond)",
     re.I | re.S)
 NOTES_RE = re.compile(r"notes?\s+th(is|e|ese)\s+recommendation", re.I)
 # A recommendation counts as accepted only when the GOVERNMENT is the one
