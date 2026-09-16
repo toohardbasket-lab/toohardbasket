@@ -554,15 +554,39 @@ const wordsMore = quoted.filter((r) => r.governmentWordsMore).length;
       nothing is computed against it and no clock runs from it.
     </p>
     <p>
-      It covers {fmt(f.commissions)} of the {fmt(src.commissionsHeld)} commissions the
-      document table holds. The Royal Commission into Defence and Veteran Suicide and the
-      Royal Commission on Antisemitism and Social Cohesion are in the table and have not been
-      read. State and territory royal commissions are not in scope, and neither are the state
-      and territory responses to a Commonwealth commission.
+      <strong>It holds every commission it can and says who that leaves out.</strong> The
+      {" "}{fmt(f.commissions)} here are the Commonwealth royal commissions whose report
+      <em>and</em> whose government response were both tabled in Parliament.
+      {notHeld.length > 0 && (
+        <>{" "}{notHeld.length === 1 ? "One is" : `${fmt(notHeld.length)} are`} kept out by
+        that rule and named on the index with the reason:
+        {" "}{notHeld.map((c, i) => (
+          <>{i ? (i === notHeld.length - 1 ? " and " : ", ") : ""}{c.shortName}</>
+        ))}.</>
+      )}
+      {" "}<a href="/royal-commissions/#which">Which commissions are here, and which are not</a>.
     </p>
     <p>
-      Nothing here is rebuilt weekly yet. The registers are; this is not, and until it is, a
-      figure on these pages is as current as the day it was built and no more.
+      <strong>One jurisdiction, as everywhere else on this site.</strong> A royal commission
+      established by a state or territory is not in scope, and neither is a state or
+      territory government's response to a Commonwealth commission — which matters more here
+      than on the committee registers, because a commission routinely recommends things only
+      the states can do. Where a commission's recommendation is addressed to the states, the
+      row is still published and the Commonwealth's words about it are what is shown; nothing
+      here decides whose recommendation it was.
+    </p>
+    <p>
+      {ROYAL_COMMISSIONS_DRAFT
+        ? <>Nothing here is rebuilt weekly yet. The registers are; this is not, and until it
+          is, a figure on these pages is as current as the day it was built and no more.</>
+        : <><strong>This is rebuilt with the registers, every week.</strong> The commission
+          documents are re-read, the recommendations and the positions re-extracted, and
+          every published row checked word for word against the document it names — and a
+          refusal at any of those steps stops the whole run, exactly as it does on the
+          committee side. Before this index was published those steps ran but did not stop
+          the run, on the reasoning that a draft nobody could see was not worth leaving the
+          live registers stale for. That reasoning ended when it became something a reader
+          can see.</>}
     </p>
     <p class="note">
       Corrections, licensing and how this site was made are on
