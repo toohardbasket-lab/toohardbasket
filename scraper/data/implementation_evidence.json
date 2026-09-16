@@ -1,5 +1,5 @@
 {
-  "answers_with_government_words": 3475,
+  "answers_with_government_words": 3536,
   "stated_done": 5,
   "stated_done_responses": [
     "16205",
@@ -7,16 +7,17 @@
     "6208",
     "9517"
   ],
-  "documents_with_an_implementation_section": 6,
+  "documents_with_an_implementation_section": 7,
   "documents_with_an_implementation_section_ids": [
     "6645",
     "6874",
     "8243",
     "8738",
     "15484",
-    "17526"
+    "17526",
+    "17975"
   ],
-  "completed_action_vocabulary": 109,
+  "completed_action_vocabulary": 111,
   "royal_commission_progress_reports": [
     {
       "commission": "Royal Commission into Aged Care Quality and Safety",

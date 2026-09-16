@@ -1,12 +1,12 @@
 {
-  "measured": "2026-09-15",
-  "rows": 522,
-  "labels": 437,
-  "documents": 149,
-  "answered_by_the_document": 327,
-  "answered_documents": 120,
+  "measured": "2026-09-16",
+  "rows": 523,
+  "labels": 438,
+  "documents": 150,
+  "answered_by_the_document": 328,
+  "answered_documents": 121,
   "by_reason": {
-    "too short to be a recommendation": 208,
+    "too short to be a recommendation": 209,
     "does not read like a recommendation": 204,
     "the government's words begin mid-sentence": 38,
     "the extraction looks broken": 37,
@@ -15,7 +15,7 @@
   },
   "answered_by_reason": {
     "does not read like a recommendation": 163,
-    "too short to be a recommendation": 101,
+    "too short to be a recommendation": 102,
     "the government's words begin mid-sentence": 38,
     "the extraction looks broken": 31,
     "longer than a quotation can carry": 16,

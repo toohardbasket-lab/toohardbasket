@@ -34,6 +34,8 @@ response,856,11,,unreadable,
 response,856,13,,unreadable,
 response,856,17,Australian Greens,dissent,
 response,856,18,,unreadable,
+response,856,19,Australian Greens,dissent,
+response,856,20,,noted,
 response,878,12,,position,not accepted
 response,921,1,Australian Greens Senator,dissent,
 response,921,2,,position,in part or in principle
@@ -263,6 +265,7 @@ response,2910,13,,position,accepted
 response,2910,14,,position,in part or in principle
 response,2910,15,,position,in part or in principle
 response,2910,16,,position,accepted
+response,2910,17,,position,in part or in principle
 response,2910,18,,position,accepted
 response,2910,19,,position,in part or in principle
 response,2910,20,,position,in part or in principle
@@ -277,6 +280,7 @@ response,3006,2,,position,accepted
 response,3049,1,,position,accepted
 response,3049,2,,position,in part or in principle
 response,3049,3,,noted,
+response,3049,4,,position,accepted
 response,3049,5,,position,accepted
 response,3383,1,,position,in part or in principle
 response,3383,2,,position,accepted
@@ -303,6 +307,7 @@ response,3383,22,,position,accepted
 response,3383,23,,position,in part or in principle
 response,3383,24,,position,accepted
 response,3383,26,,position,accepted
+response,3383,27,,position,in part or in principle
 response,3383,28,,position,accepted
 response,3383,29,,position,accepted
 response,3396,1,,noted,
@@ -326,11 +331,14 @@ response,3427,8,,position,accepted
 response,3427,9,,position,accepted
 response,3427,10,,position,accepted
 response,3427,11,,position,accepted
+response,3427,12,,position,accepted
 response,3427,13,,position,accepted
 response,3427,14,,position,accepted
+response,3427,15,,position,accepted
 response,3427,16,,position,accepted
 response,3427,17,,position,accepted
 response,3427,18,,position,accepted
+response,3427,19,,position,accepted
 response,3968,1,,noted,
 response,3968,2,,noted,
 response,3968,3,,position,in part or in principle
@@ -370,7 +378,6 @@ response,4372,4,,position,accepted
 response,4372,5,,noted,
 response,4372,6,,position,accepted
 response,4520,1,,position,in part or in principle
-response,4693,1,Dissenting report,dissent,
 response,4693,3,Dissenting report,dissent,
 response,4774,1,Senator Rex,dissent,
 response,4774,3,,position,not accepted
@@ -402,6 +409,7 @@ response,5159,3,,noted,
 response,5159,4,,position,accepted
 response,5159,5,,position,accepted
 response,5159,6,,position,accepted
+response,5159,7,,noted,
 response,5159,8,,position,in part or in principle
 response,5159,9,,position,in part or in principle
 response,5198,1,,noted,
@@ -860,6 +868,7 @@ response,5916,4,,noted,
 response,5916,5,,position,accepted
 response,5917,1,,form letter,
 response,5917,2,,form letter,
+response,5917,3,,form letter,
 response,5917,4,,form letter,
 response,5917,5,,form letter,
 response,5917,6,,form letter,
@@ -868,6 +877,7 @@ response,5917,8,,form letter,
 response,5917,9,,form letter,
 response,5917,10,,form letter,
 response,5917,11,,form letter,
+response,5917,12,,form letter,
 response,5917,13,,form letter,
 response,5918,1,,form letter,
 response,5918,2,,form letter,
@@ -895,6 +905,7 @@ response,5921,7,,form letter,
 response,5921,8,,form letter,
 response,5921,9,,form letter,
 response,5921,10,,form letter,
+response,5921,11,,form letter,
 response,5921,12,,form letter,
 response,5921,13,,form letter,
 response,5921,14,,form letter,
@@ -1083,6 +1094,7 @@ response,6028,1,,form letter,
 response,6028,2,,form letter,
 response,6040,1,,noted,
 response,6040,2,,position,accepted
+response,6040,3,,unreadable,
 response,6040,4,,unreadable,
 response,6040,6,,noted,
 response,6041,1,,position,in part or in principle
@@ -1411,6 +1423,7 @@ response,6213,6,,form letter,
 response,6213,7,,form letter,
 response,6213,8,,form letter,
 response,6213,9,,form letter,
+response,6213,10,,form letter,
 response,6213,11,,form letter,
 response,6213,12,,form letter,
 response,6226,1,,form letter,
@@ -2289,6 +2302,7 @@ response,8412,4,,unreadable,
 response,8412,5,,unreadable,
 response,8412,6,,unreadable,
 response,8412,7,,unreadable,
+response,8412,8,,unreadable,
 response,8412,9,,unreadable,
 response,8412,10,,unreadable,
 response,8487,1,,noted,
@@ -2491,6 +2505,7 @@ response,9517,7,,position,in part or in principle
 response,9517,8,,noted,
 response,9517,9,,noted,
 response,9517,10,,noted,
+response,9517,11,,position,in part or in principle
 response,9517,12,,noted,
 response,9759,1,,position,accepted
 response,9759,2,,noted,
@@ -2589,12 +2604,24 @@ response,12376,7,,position,in part or in principle
 response,12376,8,,position,not accepted
 response,12527,1,,position,accepted
 response,12527,2,,position,in part or in principle
+response,12527,3,,position,in part or in principle
+response,12527,4,,position,in part or in principle
+response,12527,5,,position,in part or in principle
+response,12527,6,,noted,
 response,12527,7,,position,in part or in principle
+response,12527,8,,position,in part or in principle
+response,12527,9,,position,in part or in principle
 response,12527,10,,position,in part or in principle
+response,12527,11,,position,in part or in principle
+response,12528,4,,position,in part or in principle
 response,12528,5,,position,accepted
+response,12528,6,,position,accepted
+response,12528,8,,noted,
+response,12528,9,,noted,
 response,12528,10,,position,in part or in principle
 response,12528,11,,position,accepted
 response,12528,13,,position,accepted
+response,12528,14,,unreadable,
 response,12528,15,,position,in part or in principle
 response,12528,16,,position,accepted
 response,12528,17,,position,in part or in principle
@@ -2639,6 +2666,7 @@ response,12658,23,,unreadable,
 response,12658,24,,unreadable,
 response,12658,25,,unreadable,
 response,12658,26,,unreadable,
+response,12659,1,,position,accepted
 response,12659,2,,position,in part or in principle
 response,12659,3,,position,accepted
 response,12659,4,,position,accepted
@@ -2652,6 +2680,7 @@ response,12659,11,,position,accepted
 response,12659,12,,position,accepted
 response,12659,13,,position,accepted
 response,12659,14,,position,in part or in principle
+response,12659,15,,noted,
 response,12659,16,,position,in part or in principle
 response,12659,17,,noted,
 response,12659,18,,position,in part or in principle
@@ -2660,6 +2689,7 @@ response,12659,20,,position,accepted
 response,12659,21,,position,in part or in principle
 response,12659,22,,position,in part or in principle
 response,12659,23,,position,accepted
+response,12659,24,,position,accepted
 response,12659,25,,position,in part or in principle
 response,12659,26,,position,in part or in principle
 response,12659,27,,position,in part or in principle
@@ -2669,6 +2699,7 @@ response,12659,31,,position,in part or in principle
 response,12659,32,,position,in part or in principle
 response,12659,33,,position,in part or in principle
 response,12659,34,,unreadable,
+response,12659,35,,position,accepted
 response,12659,36,,position,accepted
 response,12659,37,,position,in part or in principle
 response,12659,38,,position,accepted
@@ -2688,6 +2719,7 @@ response,12659,51,,noted,
 response,12659,52,,noted,
 response,12659,53,,noted,
 response,12659,54,,position,accepted
+response,12659,55,,position,accepted
 response,12659,56,,position,in part or in principle
 response,12659,57,,position,in part or in principle
 response,12659,58,,position,accepted
@@ -2970,11 +3002,14 @@ response,15044,3,,position,not accepted
 response,15205,2,,noted,
 response,15205,3,,position,accepted
 response,15205,4,,position,in part or in principle
+response,15205,5,,position,accepted
 response,15205,6,,position,accepted
 response,15205,7,,position,accepted
 response,15205,8,,position,accepted
 response,15205,9,,position,not accepted
 response,15205,10,,position,accepted
+response,15205,11,,position,in part or in principle
+response,15205,12,,position,accepted
 response,15205,13,,position,accepted
 response,15205,14,,position,accepted
 response,15205,15,,noted,
@@ -2982,7 +3017,9 @@ response,15205,16,,position,in part or in principle
 response,15205,17,,noted,
 response,15205,18,,position,accepted
 response,15205,19,,position,accepted
+response,15205,20,,noted,
 response,15205,21,,position,accepted
+response,15205,22,,position,accepted
 response,15205,23,,noted,
 response,15205,24,,position,not accepted
 response,15205,25,,position,in part or in principle
@@ -3204,12 +3241,15 @@ response,15890,2,,noted,
 response,15890,3,,noted,
 response,15890,4,,noted,
 response,15918,1,,unreadable,
+response,15918,2,,unreadable,
 response,15918,3,,unreadable,
 response,15918,4,,unreadable,
 response,15918,5,,unreadable,
 response,15918,6,,unreadable,
 response,15918,7,,unreadable,
 response,15918,8,,unreadable,
+response,15918,9,,unreadable,
+response,15918,10,,unreadable,
 response,15918,11,,unreadable,
 response,15918,12,,unreadable,
 response,15918,13,,unreadable,
@@ -3222,6 +3262,7 @@ response,15918,19,,unreadable,
 response,15918,20,,unreadable,
 response,15918,21,,unreadable,
 response,15918,22,,unreadable,
+response,15918,23,,unreadable,
 response,15918,24,,unreadable,
 response,15918,25,,unreadable,
 response,15918,26,,unreadable,
@@ -3464,6 +3505,7 @@ response,16386,8,,noted,
 response,16386,9,,position,accepted
 response,16386,10,,noted,
 response,16386,11,,position,in part or in principle
+response,16386,12,,position,in part or in principle
 response,16386,13,,noted,
 response,16386,14,,position,in part or in principle
 response,16386,15,,position,in part or in principle
@@ -3471,6 +3513,8 @@ response,16386,16,,noted,
 response,16386,17,,noted,
 response,16386,18,,unreadable,
 response,16386,19,,position,in part or in principle
+response,16386,20,,position,in part or in principle
+response,16386,21,,noted,
 response,16386,22,,position,in part or in principle
 response,16386,23,,position,in part or in principle
 response,16469,1,,position,accepted
@@ -3832,6 +3876,33 @@ response,17737,10,,noted,
 response,17737,11,,noted,
 response,17737,12,,position,accepted
 response,17882,1,,noted,
+response,17973,1,Coalition Senators,dissent,
+response,17973,2,,unreadable,
+response,17973,3,,unreadable,
+response,17973,4,,position,in part or in principle
+response,17974,1,,position,accepted
+response,17974,2,,position,accepted
+response,17974,3,,noted,
+response,17974,4,,noted,
+response,17974,5,,noted,
+response,17974,6,,noted,
+response,17974,7,,unreadable,
+response,17974,8,,noted,
+response,17974,9,,noted,
+response,17974,10,,noted,
+response,17974,11,,noted,
+response,17974,12,,noted,
+response,17975,1,,noted,
+response,17975,2,,position,in part or in principle
+response,17975,3,,noted,
+response,17975,4,,noted,
+response,17975,5,,noted,
+response,17975,6,,noted,
+response,17975,7,,position,in part or in principle
+response,17975,8,,unreadable,
+response,17975,9,,noted,
+response,17975,10,,position,not accepted
+response,17975,11,,position,in part or in principle
 report,65,1,,awaiting,
 report,65,2,,awaiting,
 report,66,1,,awaiting,
@@ -3888,19 +3959,6 @@ report,1714,14,,awaiting,
 report,1729,1,,awaiting,
 report,1729,2,,awaiting,
 report,1729,4,,awaiting,
-report,1737,1,,awaiting,
-report,1737,2,,awaiting,
-report,1737,3,,awaiting,
-report,1737,4,,awaiting,
-report,1737,5,,awaiting,
-report,1737,6,,awaiting,
-report,1737,7,,awaiting,
-report,1737,8,,awaiting,
-report,1737,9,,awaiting,
-report,1737,10,,awaiting,
-report,1737,11,,awaiting,
-report,1737,12,,awaiting,
-report,1737,14,,awaiting,
 report,3646,1,,awaiting,
 report,3646,2,,awaiting,
 report,3646,3,,awaiting,
@@ -4417,17 +4475,6 @@ report,15876,20,,awaiting,
 report,15876,21,,awaiting,
 report,15876,22,,awaiting,
 report,15876,23,,awaiting,
-report,15877,1,,awaiting,
-report,15877,2,,awaiting,
-report,15877,3,,awaiting,
-report,15877,4,,awaiting,
-report,15877,5,,awaiting,
-report,15877,6,,awaiting,
-report,15877,7,,awaiting,
-report,15877,8,,awaiting,
-report,15877,9,,awaiting,
-report,15877,10,,awaiting,
-report,15877,11,,awaiting,
 report,15879,1,,awaiting,
 report,15879,2,,awaiting,
 report,15879,3,,awaiting,

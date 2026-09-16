@@ -1,12 +1,12 @@
 {
-  "measured": "2026-09-15",
+  "measured": "2026-09-16",
   "least_rows": 3,
   "least_share": 0.5,
   "documents": 1,
   "rows_in_those_documents": 9,
   "rows_flagged_in_those_documents": 9,
-  "rows_flagged_elsewhere": 35,
-  "response_rows_read": 3877,
+  "rows_flagged_elsewhere": 36,
+  "response_rows_read": 3904,
   "by_document": [
     {
       "document": "1704",
