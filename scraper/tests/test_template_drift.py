@@ -86,6 +86,12 @@ GOT_THROUGH = ("The Government notes this recommendation. However, given the pas
                "since the report was tabled in December 2021, a substantive Government "
                "response is no longer considered appropriate.")
 check("the watcher sees the wording that got through", bool(S.PASSAGE_RE.search(GOT_THROUGH)))
+# And the same sentence with a column break driven through the middle of it.
+SPLIT = ("The Government notes the recommendation. Given the passage of voting centres and "
+         "to all mobile voting teams at the next of time, a substantive government response "
+         "is no longer federal election. appropriate.")
+check("the watcher sees it with a column break driven through it",
+      bool(S.template_words_scattered(SPLIT)))
 check("and does not see the government giving an update instead",
       not S.PASSAGE_RE.search(
           "Given the passage of time since this report was tabled, the Government provides "
@@ -109,15 +115,17 @@ if TEXT.exists():
         if not doc or doc.get("classification") != "substantive":
             continue
         text = " ".join(f.read_text(encoding="utf-8", errors="ignore").split())
-        if not S.PASSAGE_RE.search(text):
+        # Either the phrase, or its words scattered by a column break.
+        if not (S.PASSAGE_RE.search(text) or S.template_words_scattered(text)):
             continue
         # A document that accepts something has answered something, whatever
         # else it says. The pure refusals are the ones that matter.
         if int(doc.get("accept_support_agree") or 0) > 0:
             continue
         m = S.PASSAGE_RE.search(text)
-        drifted.append((doc["id"], doc["title"][:70],
-                        " ".join(text[m.start():m.start() + 200].split())))
+        shown = (" ".join(text[m.start():m.start() + 200].split()) if m
+                 else S.template_words_scattered(text))
+        drifted.append((doc["id"], doc["title"][:70], shown))
 
 check("no response filed as substantive refuses to answer because of the passage of time",
       not drifted,

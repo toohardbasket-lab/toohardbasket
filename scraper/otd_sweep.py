@@ -101,6 +101,34 @@ TEMPLATE_RE = re.compile(
 # The second is the government using the delay as a reason to say what has
 # happened since, which is more than it was asked for rather than less. Five
 # documents do that and they are rightly called substantive.
+# The same words, however the page layout broke them apart. A two-column
+# response read across its columns puts unrelated text between "passage of" and
+# "time", and both the classifier and the phrase-based watcher below go blind:
+#
+#     The Government notes the recommendation. Given the passage of
+#     voting centres and to all mobile voting teams at the next
+#     of time, a substantive government response is no longer
+#     federal election. appropriate.
+#
+# Two documents in the corpus are misclassified for exactly that reason and
+# neither pattern could see them. A watcher can afford to be loose where a
+# classifier cannot: a false positive here costs somebody a look, a false
+# negative publishes a refusal to answer as an answer.
+def template_words_scattered(text: str) -> str:
+    """The template's words inside one neighbourhood, in any order. '' if not."""
+    # "passage" alone, not "passage of": a column break can land between the two
+    # — "Given the passage voting centres and to all mobile voting teams at the
+    # next of time…" — and requiring the "of" missed one of the two documents
+    # this function was written for. Three other words still have to be in the
+    # same neighbourhood, so the looseness costs little.
+    for m in re.finditer(r"passage\b|elapsed", text, re.I):
+        window = text[m.start():m.start() + 700].lower()
+        if ("no longer" in window and "substantive" in window
+                and ("appropriate" in window or "warranted" in window)):
+            return " ".join(text[m.start():m.start() + 230].split())
+    return ""
+
+
 PASSAGE_RE = re.compile(
     r"(?:passage\s+of\s+time|time\s+(?:that\s+has\s+)?elapsed)"
     r"\s+since\s+th(?:is|e)\s+report"
@@ -237,6 +265,12 @@ def classify(text: str) -> tuple[str, int, int, int]:
     if len(text.strip()) < 40:
         return "unreadable", 0, 0, 0
     tmpl = len(TEMPLATE_RE.findall(text))
+    # Where the layout broke the sentence apart, count it once. Two documents
+    # in the corpus carried the template with a column break driven through the
+    # middle of it and were published as substantive answers; the phrase-based
+    # pattern above cannot see those and neither could anything else.
+    if not tmpl and template_words_scattered(text):
+        tmpl = 1
     notes = len(NOTES_RE.findall(text))
     accepts = len(ACCEPT_RE.findall(text))
     if tmpl and accepts == 0:
@@ -287,7 +321,12 @@ def reclassify(only_unreadable: bool):
     only_unreadable=True  (--reclassify): OCR retry of 'unreadable' rows only.
     only_unreadable=False (--rescore):    every row — use after changing the
                                           classifier regexes."""
-    if not _tesseract_ready():
+    # OCR is only needed to retry the unreadable rows. Re-scoring after a
+    # regex change reads text already on disk, and requiring an OCR engine for
+    # it meant a classifier fix could not be applied to the documents it was
+    # written for without installing one — which is how two misclassified
+    # responses stayed misclassified.
+    if only_unreadable and not _tesseract_ready():
         print("Install first:  pip install pytesseract pypdfium2")
         print("plus the Tesseract engine: https://github.com/UB-Mannheim/tesseract/wiki")
         return 1
