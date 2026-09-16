@@ -138,14 +138,15 @@ got = E.headings_in(sidecar([
     ("Calibri", 11, "Services Australia design its policies and processes."),
 ]))
 check("a heading that wraps is read to the end of the wrap",
-      got["10.1"] == "Design policies and processes with emphasis on the people they are meant to serve")
+      got["10.1"] == ["Design policies and processes with emphasis on the people "
+                      "they are meant to serve"])
 
 got = E.headings_in(sidecar([
     ("DINPro-Medium", 13, "Recommendation 6.1 A short heading"),
     ("ArialMT", 11, "The Australian Government should do the thing."),
     ("DINPro-Medium", 16, "A section heading, larger"),
 ]))
-check("the heading stops where the type changes", got["6.1"] == "A short heading")
+check("the heading stops where the type changes", got["6.1"] == ["A short heading"])
 
 got = E.headings_in(sidecar([
     ("Calibri-Bold", 11, "Recommendation 7.1: The first"),
@@ -153,7 +154,51 @@ got = E.headings_in(sidecar([
     ("Calibri", 11, "The Commonwealth should do the thing."),
 ]))
 check("one recommendation's heading never swallows the next one's",
-      got == {"7.1": "The first", "7.2": "The second"})
+      got == {"7.1": ["The first"], "7.2": ["The second"]})
+
+# --- a wrap that changes slope, and a body that changes weight ---------------
+# The Disability report italicises a title inside its own heading, so the second
+# line of the heading is DINPro-MediumItalic where the first is DINPro-Medium.
+# Comparing font names exactly stopped the heading at the line break and put its
+# tail at the front of the recommendation: "of Persons with Disabilities The
+# Disability Discrimination Act 1992 (Cth) should be amended…". Three rows read
+# that way.
+got = E.headings_in(sidecar([
+    ("DINPro-Medium", 13, "Recommendation 4.33 Reference to the Convention on the Rights"),
+    ("DINPro-MediumItalic", 13, "of Persons with Disabilities"),
+    ("ArialMT", 11, "The Disability Discrimination Act 1992 (Cth) should be amended."),
+]))
+check("a heading that changes to italic mid-wrap is still one heading",
+      got["4.33"] == ["Reference to the Convention on the Rights of Persons with Disabilities"])
+
+# And the case that makes it one-directional. Robodebt sets the heading in
+# Calibri-Bold and the recommendation in plain Calibri — and "Calibri-Bold"
+# starts with "Calibri", so a symmetric prefix test swallowed fifty-four whole
+# recommendations into their own headings and left the text empty.
+got = E.headings_in(sidecar([
+    ("Calibri-Bold", 11, "Recommendation 12.3: Consultation"),
+    ("Calibri", 11, "Peak advocacy bodies should be consulted prior to implementation."),
+]))
+check("the recommendation is not swallowed when only its weight differs",
+      got["12.3"] == ["Consultation"])
+
+got = E.headings_in(sidecar([
+    ("Calibri-Bold", 11, "Recommendation 19.7: The Directions 1"),
+    ("Calibri-Italic", 11, "The Legal Services Directions 2017 should be reviewed."),
+]))
+check("nor when the body is italic and the heading bold",
+      got["19.7"] == ["The Directions 1"])
+
+# The spelling used is decided by the text, not by which is shorter.
+check("the heading the text begins with is the one used",
+      E.best_heading("Reference to the Convention on the Rights of Persons with Disabilities "
+                     "The Act should be amended.",
+                     ["Reference to the Convention on the Rights",
+                      "Reference to the Convention on the Rights of Persons with Disabilities"])
+      == "Reference to the Convention on the Rights of Persons with Disabilities")
+check("and where the text begins with none of them, the shortest is kept",
+      E.best_heading("Something else entirely.", ["A longer heading here", "A shorter one"])
+      == "A shorter one")
 
 check("no sidecar at all: no headings, and nothing invented",
       E.headings_in(pathlib.Path("/nowhere/99_1.lines.tsv")) == {})

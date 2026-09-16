@@ -545,7 +545,45 @@ def apparatus_in(path: pathlib.Path) -> set[str]:
                         if text.strip() and not at_foot(down, text)}
 
 
-def headings_in(path: pathlib.Path, label_head: "re.Pattern[str] | None" = None) -> dict[str, str]:
+def same_type(font: str, size: int, font2: str, size2: int) -> bool:
+    """Is the second line set as a continuation of the first?
+
+    Not the same font name. A heading that wraps can change weight or slope in
+    the middle of itself, because the report italicises a title inside its own
+    heading:
+
+        Recommendation 4.33 Reference to the Convention on the Rights   DINPro-Medium 13
+        of Persons with Disabilities                                    DINPro-MediumItalic 13
+
+    Comparing font names exactly stopped the heading at the line break, and the
+    tail — "of Persons with Disabilities" — was published at the front of the
+    recommendation as though the commission had written it that way. Two
+    Disability recommendations read that way.
+
+    Not the same family either, which was the first attempt and was worse. In
+    the Robodebt report the heading is Calibri-Bold 11 and the recommendation
+    beneath it is Calibri-Italic 11 — same family, same size — so a family rule
+    swallowed fifty-five whole recommendations into their own headings and left
+    the text empty. The diff caught it; nothing else would have.
+
+    What separates the two cases is that a wrap EXTENDS the name of the weight
+    it is set in (DINPro-Medium -> DINPro-MediumItalic) while a change of role
+    replaces it (Calibri-Bold -> Calibri-Italic).
+
+    One direction only, which the second attempt got wrong. Robodebt sets its
+    headings in Calibri-Bold and the recommendation beneath in plain Calibri,
+    and "Calibri-Bold".startswith("Calibri") is true — so a symmetric prefix
+    test swallowed fifty-four recommendations whole and left their text empty.
+    The continuation must extend the heading's font, never shorten it.
+    """
+    if size != size2:
+        return False
+    a, b = (font or "").strip(), (font2 or "").strip()
+    return bool(a) and bool(b) and b.startswith(a)
+
+
+def headings_in(path: pathlib.Path,
+                label_head: "re.Pattern[str] | None" = None) -> dict[str, list[str]]:
     """label -> the recommendation's own heading, as the report sets it.
 
     The heading is the label's line and any line after it set the same way. It
@@ -554,23 +592,48 @@ def headings_in(path: pathlib.Path, label_head: "re.Pattern[str] | None" = None)
     """
     rows = _lines(path)
     label_head = label_head or HEAD
-    out: dict[str, str] = {}
+    out: dict[str, list[str]] = {}
     for i, (font, size, text) in enumerate(rows):
         head = label_head.match(text)
         if not head:
             continue
         parts = [head.group(2) or ""]
         for font2, size2, text2 in rows[i + 1:]:
-            if (font2, size2) != (font, size) or label_head.match(text2):
+            if not same_type(font, size, font2, size2) or label_head.match(text2):
                 break
             parts.append(text2)
         heading = " ".join(" ".join(parts).split())
         label = head.group(1)
-        # A number is printed twice, and the two headings are the same words;
-        # the shorter is the one the page did not break oddly.
-        if label not in out or len(heading) < len(out[label]):
-            out[label] = heading
+        # A number is printed twice — in the list at the front of the report and
+        # again in the body — and the two headings are the same words. Every
+        # spelling is kept, because which one is right is decided later by the
+        # only evidence there is: whether the recommendation's own text begins
+        # with it.
+        out.setdefault(label, [])
+        if heading not in out[label]:
+            out[label].append(heading)
     return out
+
+
+def best_heading(text: str, candidates: list[str]) -> str:
+    """The heading the text actually begins with; the longest, where several do.
+
+    The rule used to be "the shorter is the one the page did not break oddly",
+    applied without looking at the text. It is right when a heading fits on one
+    line and wrong when it wraps: the continuation is set fractionally
+    differently, headings_in stops early, and the truncated spelling wins on
+    length. Two Disability recommendations were published with the tail of their
+    own heading at the front of the quotation —
+
+        Reference to the Convention on the Rights
+        | of Persons with Disabilities The Disability Discrimination Act 1992…
+
+    — which reads as though the commission wrote it that way.
+    """
+    fits = [c for c in candidates if c and text.startswith(c.strip(" .:;-—–•"))]
+    if fits:
+        return max(fits, key=len)
+    return min((c for c in candidates if c), key=len, default="")
 
 
 def split_heading(text: str, heading: str) -> tuple[str, str]:
@@ -687,18 +750,25 @@ def main(argv: list[str]) -> int:
         for path in sorted(TEXT.glob(f"{d['id']}_*.lines.tsv")):
             if wanted and path.name.split("_", 1)[1].removesuffix(".lines.tsv") not in wanted:
                 continue
-            headings.update(headings_in(path, label_head))
+            for label, spellings in headings_in(path, label_head).items():
+                headings.setdefault(label, [])
+                headings[label] += [h for h in spellings if h not in headings[label]]
             sections += section_headings_in(path, label_head)
             apparatus |= small_type_in(path)
             unnumbered += unnumbered_in_list(path, label_head)
+        # recommendations_in uses a heading only to measure how far past the
+        # label it runs, so it keeps the spelling the old rule chose and nothing
+        # about where a recommendation stops changes.
+        shortest = {k: min(v, key=len) for k, v in headings.items() if v}
         found = recommendations_in(body, names.get(d["commission_id"], ""),
-                                   stops_in(body, sorted(set(sections))), headings, label_head,
+                                   stops_in(body, sorted(set(sections))), shortest, label_head,
                                    apparatus)
         stated, note = stated_total(body)
         unsplit = 0
         for label in sorted(found, key=label_key):
-            heading, text = split_heading(found[label]["recommendation"],
-                                          headings.get(label, ""))
+            heading, text = split_heading(
+                found[label]["recommendation"],
+                best_heading(found[label]["recommendation"], headings.get(label, [])))
             if found[label]["recommendation"] and not heading:
                 unsplit += 1
             rows.append({
