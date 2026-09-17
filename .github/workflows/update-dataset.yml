@@ -228,9 +228,8 @@ jobs:
       # page, because pdftotext loses the type that tells a recommendation's
       # heading from its text — but it only reads a document it has not read
       # before, and what it has read is committed under raw/rc_text/.
-      - name: Royal commissions (draft — alarms, does not gate)
+      - name: Royal commissions (gate)
         id: rc
-        continue-on-error: true
         run: |
           set -e
           python tests/test_royal_commissions.py

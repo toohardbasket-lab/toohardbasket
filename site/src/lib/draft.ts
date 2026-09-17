@@ -24,7 +24,7 @@
  * `noindex`. In `astro dev` the nav item shows anyway, so working on the index
  * does not mean typing its URL every time.
  */
-export const ROYAL_COMMISSIONS_DRAFT = true;
+export const ROYAL_COMMISSIONS_DRAFT = false;
 
 /** The pages the index is made of, in the order a sitemap would list them. */
 export const ROYAL_COMMISSIONS_PAGES = ["/royal-commissions/", "/methods/royal-commissions/"];
