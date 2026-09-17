@@ -37,6 +37,21 @@ const labels = rcLabels();
 const notHeld = rcNotHeld();
 const sweep = rcSweep();
 
+/* How often the government printed its own label — "Accept in principle",
+   "The Government agrees" — against a recommendation. Where it did, the verdict
+   here can be checked against the government's word rather than only against
+   the site's reading of its sentence, and the page says how the two compare. */
+const labelled = rows.filter((r) => (r.governmentLabel ?? "").trim() !== "").length;
+
+/* The words of a refusal, looked for in every row NOT already called "not
+   accepted". The page says how many there are rather than asserting none,
+   because "none" typed into a page stays typed there after the day it stops
+   being true. On 17 September the count was zero, and the one "does not
+   support" in the index is the one row called not accepted. */
+const REFUSAL = /\b(?:does\s+not\s+(?:accept|support|agree)|not\s+(?:accept|support)(?:ed)?\b|rejects?\b|will\s+not\s+(?:be\s+)?(?:implement|adopt|proceed|establish|introduce)|declines?\s+to)/i;
+const refusalsElsewhere = rows.filter((r) =>
+  r.verdict !== "not accepted" && REFUSAL.test(r.governmentWords ?? "")).length;
+
 const stats = [
   { label: "Recommendations", value: fmt(f.recommendations) },
   { label: "Commissions", value: fmt(f.commissions) },
@@ -254,6 +269,26 @@ const SHOWN = 25;
       {f.notAccepted === 0
         ? " No response in this index refuses a recommendation outright."
         : ` ${fmt(f.notAccepted)} ${f.notAccepted === 1 ? "recommendation was" : "recommendations were"} refused outright.`}
+    </p>
+    <p class="measure">
+      <strong>That last figure looks too clean, and it is worth being exact about why it
+      is not.</strong> Where the government printed its own label against a recommendation
+      — it did on {fmt(labelled)} of the {fmt(f.recommendations)} — the verdict here is
+      read from that label, so it can be checked against the government's own word and not
+      only against this site's reading of its sentence. A search of every other row for the
+      words of a refusal
+      {refusalsElsewhere === 0
+        ? " finds none"
+        : ` finds ${fmt(refusalsElsewhere)} that the verdict rule did not read as one`}.
+      {refusalsElsewhere === 0 && <> The governments in this index did not say no
+      {" "}{f.notAccepted === 1 ? "more than once" : `more than ${fmt(f.notAccepted)} times`}.</>}
+      {" "}What they said instead was “in principle”, “subject to further consideration”,
+      “noted”, or nothing:
+      {" "}<strong>{fmt(f.accepted)}</strong> recommendations were accepted outright and
+      {" "}<strong>{fmt(f.inPartOrInPrinciple + f.noted + f.namedNotAnswered + f.notAddressed)}</strong>
+      {" "}were answered with a qualification, without a position, or not at all. A
+      refusal in these documents is a qualification, and the qualification is counted as
+      what it is rather than rounded up to a yes.
     </p>
   </section>
 
