@@ -183,12 +183,29 @@ def main(argv: list[str]) -> int:
             states[(r["source"], r["source_id"], r["label"], r["recommended_by"])] = r
 
     rows = []
+    # Per response document: the labels the index holds, and the labels the
+    # extractor saw and refused. Together they are every recommendation the
+    # document states, and the card shows both numbers so the reader can tell
+    # whether a document with two rows is a document with two recommendations
+    # or a document with twelve, ten of which the index does not hold. Without
+    # that the only way to answer the completeness question was to open the PDF,
+    # which is the machine's job, not the reader's.
+    held: dict[str, set] = {}
+    stated: dict[str, set] = {}
     with open(DATA / "recommendations.csv", newline="", encoding="utf-8-sig") as f:
         for r in csv.DictReader(f):
+            if r["source"] == "response":
+                held.setdefault(r["source_id"], set()).add(r["label"])
+                stated.setdefault(r["source_id"], set()).add(r["label"])
             s = states.get((r["source"], r["source_id"], r["label"], r.get("recommended_by") or ""))
             if s:
                 r["_state"], r["_verdict"] = s["state"], s["verdict"]
                 rows.append(r)
+    refused_path = DATA / "labels_refused.csv"
+    if refused_path.exists():
+        with open(refused_path, newline="", encoding="utf-8-sig") as f:
+            for r in csv.DictReader(f):
+                stated.setdefault(r["document"], set()).add(r["label"])
 
     if args.only:
         with open(DATA / args.only, newline="", encoding="utf-8-sig") as f:
@@ -274,11 +291,28 @@ def main(argv: list[str]) -> int:
     cards = []
     no_text = 0
     for i, (r, stratum) in enumerate(sample, 1):
-        doc = load_text(r["source_id"] if r["source"] == "response" else (r["response_id"] or ""))
+        doc_id = r["source_id"] if r["source"] == "response" else (r["response_id"] or "")
+        doc = load_text(doc_id)
         if not doc:
             no_text += 1
         words = (r["government_words"] or "").strip()
         seen = label_mentions(doc, r["label"])
+        n_held, n_stated = len(held.get(doc_id, ())), len(stated.get(doc_id, ()))
+        if n_stated == 0:
+            count_line = ("the extractor found no numbered recommendation in this response "
+                          "<span class=warn>— check the PDF for how it is laid out</span>")
+        elif n_stated == n_held:
+            count_line = (f"this response states <b>{n_stated}</b> "
+                          f"recommendation{'s' if n_stated != 1 else ''} · the index holds all "
+                          f"<b>{n_held}</b>")
+        else:
+            count_line = (f"this response states <b>{n_stated}</b> "
+                          f"recommendation{'s' if n_stated != 1 else ''} · the index holds "
+                          f"<b>{n_held}</b> <span class=warn>— {n_stated - n_held} refused, "
+                          f"listed in labels_refused.csv</span>")
+        if r["source"] != "response":
+            count_line += (" · this row's recommendation is quoted from the committee's report, "
+                           "not from the response")
 
         blocks = f"<h4>Recommendation {html.escape(str(r['label']))}</h4>" \
                  f"<p class=snip>{html.escape(flat(r['recommendation']))}</p>"
@@ -312,6 +346,7 @@ def main(argv: list[str]) -> int:
     <span class="meta">{html.escape((r['department'] or r['committee'] or '—'))[:70]} ·
       {html.escape((r['response_tabled'] or r['tabled'] or '')[:10])} ·
       names “recommendation {html.escape(str(r['label']))}” <b>{seen}</b>×</span>
+    <span class="meta count">{count_line}</span>
   </header>
   <p class="title">{html.escape(r['document_title'] or r['report_title'])[:220]}</p>
   <p class="why">{html.escape(QUESTION.get(r['_state'], ''))}</p>
@@ -353,6 +388,7 @@ def main(argv: list[str]) -> int:
  .cls {{ font-size:.7rem; letter-spacing:.08em; text-transform:uppercase; padding:.1rem .4rem; border:1px solid var(--r); }}
  .cls.v {{ border-color:var(--a); color:var(--a); }}
  .meta {{ color:var(--m); font-size:.78rem; }}
+ .meta.count {{ display:block; margin-top:.15rem; }}
  .title {{ font-weight:600; margin:.2rem 0 .5rem; }}
  .why {{ color:var(--m); font-size:.82rem; margin:.2rem 0 .8rem; }}
  h4 {{ font-size:.7rem; letter-spacing:.08em; text-transform:uppercase; color:var(--m); margin:.9rem 0 .3rem; }}
@@ -385,6 +421,11 @@ def main(argv: list[str]) -> int:
  it called a verdict that is not there, or missed one that is.
  The position cards are the ones that decide whether the number can be
  inflated; the noted and unreadable cards say how much it misses.<br>
+ Each card also says how many recommendations the response states and how many
+ the index holds. Counting is the machine's job; the card answers it so that you
+ do not have to open the PDF to find out whether anything is missing. Your job
+ is the words: are these the government's words on <i>this</i> recommendation,
+ and do they say what the index says they say.<br>
  Put your name in the box at the foot of the page first. Each reader's
  answers are kept apart, so two people can read the same sample without
  seeing each other's calls — which is the only way a second reader is
