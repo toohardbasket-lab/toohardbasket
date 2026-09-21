@@ -211,7 +211,7 @@ as_at,basis,backlog,oldest_days,median_days,over_1_year,over_5_years
 2020-06-30,reconstructed,179,6460,784,146,29
 2020-07-31,reconstructed,179,6491,815,150,29
 2020-08-31,reconstructed,181,6522,805,145,31
-2020-09-30,reconstructed,184,6552,835,146,33
+2020-09-30,reconstructed,183,6552,835,146,33
 2020-10-31,reconstructed,185,6583,866,146,33
 2020-11-30,reconstructed,191,6613,840,141,34
 2020-12-31,reconstructed,207,6644,806,143,34
@@ -223,7 +223,7 @@ as_at,basis,backlog,oldest_days,median_days,over_1_year,over_5_years
 2021-06-30,reconstructed,230,6825,820,151,43
 2021-07-31,reconstructed,230,6856,851,151,43
 2021-08-31,reconstructed,242,6887,882,154,43
-2021-09-30,reconstructed,246,6917,912,156,44
+2021-09-30,reconstructed,246,6917,912,155,44
 2021-10-31,reconstructed,254,6948,842,160,45
 2021-11-30,reconstructed,258,6978,795,165,48
 2021-12-31,reconstructed,259,7009,809,183,48
@@ -237,9 +237,9 @@ as_at,basis,backlog,oldest_days,median_days,over_1_year,over_5_years
 2022-08-31,reconstructed,284,7252,771,210,57
 2022-09-30,reconstructed,286,7282,767,215,62
 2022-10-31,reconstructed,289,7313,795,225,63
-2022-11-30,reconstructed,292,7343,813,229,64
-2022-12-31,reconstructed,292,7374,844,233,68
-2023-01-31,reconstructed,292,7405,875,233,68
+2022-11-30,reconstructed,292,7343,802,229,64
+2022-12-31,reconstructed,292,7374,833,233,68
+2023-01-31,reconstructed,292,7405,864,233,68
 2023-02-28,reconstructed,288,7433,912,241,70
 2023-03-31,reconstructed,294,7464,906,256,74
 2023-04-30,reconstructed,295,7494,935,257,74
@@ -271,7 +271,7 @@ as_at,basis,backlog,oldest_days,median_days,over_1_year,over_5_years
 2025-06-30,reconstructed,232,8286,611,160,44
 2025-07-31,reconstructed,232,8317,632,161,44
 2025-08-31,reconstructed,231,8348,664,165,45
-2025-09-30,reconstructed,231,8378,694,170,46
+2025-09-30,reconstructed,231,8378,694,170,45
 2025-10-31,reconstructed,225,8409,745,172,46
 2025-11-30,reconstructed,231,8439,751,191,46
 2025-12-31,reconstructed,232,8470,774,192,52
@@ -289,3 +289,4 @@ as_at,basis,backlog,oldest_days,median_days,over_1_year,over_5_years
 2026-09-15,observed,78,4312,774,55,13
 2026-09-16,observed,75,4313,743,53,13
 2026-09-17,observed,75,4314,744,53,13
+2026-09-22,observed,73,4319,749,52,12
