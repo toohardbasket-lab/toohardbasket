@@ -7,10 +7,9 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "node holding/build.mjs",
+    "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "build:full": "astro build"
+    "astro": "astro"
   },
   "dependencies": {
     "astro": "^7.2.9"
