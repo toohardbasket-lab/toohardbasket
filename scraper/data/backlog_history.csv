@@ -277,12 +277,12 @@ as_at,basis,backlog,oldest_days,median_days,over_1_year,over_5_years
 2025-12-31,reconstructed,232,8470,774,192,52
 2026-01-31,reconstructed,229,8501,796,190,51
 2026-02-28,reconstructed,224,8529,824,199,51
-2026-03-31,reconstructed,179,8560,686,149,32
-2026-04-30,reconstructed,162,4306,709,131,21
-2026-05-31,reconstructed,125,4205,705,93,18
-2026-06-30,reconstructed,96,4235,664,64,13
-2026-07-31,reconstructed,94,4266,728,64,13
-2026-08-31,reconstructed,85,4297,727,59,14
+2026-03-31,reconstructed,178,8560,688,149,32
+2026-04-30,reconstructed,160,4306,716,131,21
+2026-05-31,reconstructed,122,4205,706,93,18
+2026-06-30,reconstructed,91,4235,733,64,13
+2026-07-31,reconstructed,89,4266,766,64,13
+2026-08-31,reconstructed,80,4297,796,59,14
 2026-09-01,observed,82,4298,794,58,14
 2026-09-02,observed,82,4299,794,58,15
 2026-09-08,observed,81,4305,803,58,15
@@ -290,3 +290,4 @@ as_at,basis,backlog,oldest_days,median_days,over_1_year,over_5_years
 2026-09-16,observed,75,4313,743,53,13
 2026-09-17,observed,75,4314,744,53,13
 2026-09-22,observed,73,4319,749,52,12
+2026-09-29,observed,68,4326,825,52,12

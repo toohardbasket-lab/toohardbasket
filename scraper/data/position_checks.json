@@ -1,8 +1,8 @@
 {
-  "checked": "2026-09-22",
+  "checked": "2026-09-29",
   "far_threshold": 200,
-  "rows": 1143,
-  "begins_at_a_handover": 1143,
+  "rows": 1145,
+  "begins_at_a_handover": 1145,
   "no_verdict_on_a_second_reading": 0,
   "verdict_far_into_the_answer": 6,
   "runs_on_into_another_recommendation": 0,
