@@ -1,11 +1,11 @@
 {
-  "checked": "2026-09-29",
+  "checked": "2026-11-25",
   "far_threshold": 200,
-  "rows": 1145,
-  "begins_at_a_handover": 1145,
+  "rows": 1228,
+  "begins_at_a_handover": 1228,
   "no_verdict_on_a_second_reading": 0,
   "verdict_far_into_the_answer": 6,
   "runs_on_into_another_recommendation": 0,
-  "names_another_recommendation_number": 17,
-  "flagged_for_reading": 22
+  "names_another_recommendation_number": 20,
+  "flagged_for_reading": 25
 }

@@ -1,0 +1,1555 @@
+Advisory Report on the Anti-Money
+Laundering and Counter-Terrorism
+Financing Amendment Bill 2026
+Parliamentary Joint Committee on Intelligence and Security
+August 2026
+CANBERRA
+© Commonwealth of Australia 2026
+ISBN 978-1-76092-882-7 (Printed version)
+ISBN 978-1-76092-883-4 (HTML version)
+All material in this report is provided under a Creative Commons Attribution-NonCommercial-NoDerivs
+4.0 Australia licence. The material may be shared, copied and redistributed provided that:
+• it is for non-commercial purposes
+• the committee named on the previous page is credited as the author
+• the committee is not represented as endorsing the use of the material
+• any changes are clearly identified
+• no additional legal or technical restrictions are applied to restrict use that complies with the
+licence.
+If the material is remixed, transformed or built upon, the modified material may not be distributed.
+Full details of this licence are available on the Creative Commons website:
+https://creativecommons.org/licenses/by-nc-nd/4.0/.
+Contents
+Abbreviations ..................................................................................................v
+Membership of the Committee.....................................................................vii
+Terms of reference.........................................................................................ix
+List of recommendations...............................................................................xi
+Report
+1. Introduction .................................................................................................1
+The Bill and its referral.................................................................................................1
+Conduct of the inquiry..................................................................................................2
+Report structure...........................................................................................................2
+Bill structure.................................................................................................................2
+Legislative and review history......................................................................................3
+2006: Introduction of the AML/CTF regime (Tranche 1)......................................................3
+2016: Statutory review.........................................................................................................4
+2022: Senate inquiry............................................................................................................5
+2024: Amendment Bill and Senate inquiry .........................................................................5
+2025 – 2026: Department of Home Affairs Consultation ....................................................6
+2026: Senate Standing Committee for the Scrutiny of Bills.................................................6
+2026: Tranche 2 Obligations Commence ...........................................................................7
+2026 – 2027: Next FATF assessment ...............................................................................7
+2. Proposed amendments and other matters...............................................9
+Schedule 1: Regulating the use of high-risk products .................................................9
+New powers for the AUSTRAC CEO...................................................................................9
+Certain matters that must be considered........................................................................9
+Requirement to consult.................................................................................................10
+Duration of restrictions or prohibitions .........................................................................11
+Offences and penalties.................................................................................................11
+Schedule 2: Amending the definition of financing of terrorism...................................15
+iii
+Harmonisation with other frameworks...............................................................................15
+Schedule 3: Technical amendments..........................................................................15
+Evidence received .....................................................................................................16
+AUSTRAC CEO: An appropriate delegate?......................................................................17
+Adequacy of safeguards....................................................................................................18
+The scope of powers beyond banning Crypto ATMs ........................................................20
+Ambiguous terminology in the Act.....................................................................................22
+The scope of application of the Professional Services in Table 6, Section 6(6B)....22
+‘pass on’ wording.....................................................................................................22
+Senior manager........................................................................................................22
+Ambiguous terminology in the Bill.....................................................................................22
+Necessary in the public interest...............................................................................23
+Financing of terrorism..............................................................................................23
+Timing................................................................................................................................23
+Other matters not addressed in the Bill .....................................................................24
+Real time payments and legacy systems..........................................................................24
+Protections for scam victims..............................................................................................26
+Statutory review.................................................................................................................27
+Sanctions screening for persons acting on behalf of the customer...................................27
+3. Committee comment and recommendations .........................................29
+Restricting high-risk mechanisms..............................................................................29
+Consultation requirements and the no-invalidity clauses..................................................31
+Enhancing action against the financing of terrorism..................................................32
+Other issues...............................................................................................................32
+Definitions..........................................................................................................................33
+Transition to the New Payments Platform.........................................................................33
+Timing and implementation...............................................................................................36
+Appendixes
+Appendix A. List of submissions.................................................................39
+Appendix B. List of witnesses at public hearing........................................41
+iv
+Abbreviations
+ABA Australian Banking Association
+AFIA Australian Finance Industry Association
+AGD Review Attorney-General’s Department 2016 Statutory Review of the
+AML/CTF Act 2006
+AML/CTF Act Anti-Money Laundering and Counter-Terrorism Financing Act 2006
+APRA Australian Prudential Regulation Authority
+AusPayNet Australian Payments Network
+AP+ Australian Payments Plus
+ASIC Australian Securities and Investments Commission
+AUSTRAC Australian Transaction Reports and Analysis Centre
+BECS Bulk Electronic Clearing System
+CEO Chief Executive Officer
+Crypto ATM Cryptocurrency Automated Teller Machine
+FATF Financial Action Taskforce
+G7 Group of Seven
+Law Council Law Council of Australia
+ML Money laundering
+NPP New Payments Platform
+PEP Politically Exposed Persons
+RBA Reserve Bank of Australia
+TF Terrorism financing
+VOFF Victims of Financial Fraud Inc.
+v
+
+Membership of the Committee
+Chair
+Senator Raff Ciccone ALP, VIC
+Deputy Chair
+Mr Andrew Wallace MP Fisher, QLD
+Members
+Senator the Hon Michaelia Cash LP, WA
+Ms Sharon Claydon MP Newcastle, NSW
+Senator the Hon Jonathon Duniam LP, TAS
+Senator Karen Grogan ALP, SA
+Ms Tania Lawrence MP Hasluck, WA
+Mr Jerome Laxale MP Bennelong, NSW
+Senator Susan McDonald LNP, QLD
+Dr Gordon Reid MP Robertson, NSW
+Senator Marielle Smith ALP, SA
+Mr Phillip Thompson OAM MP Herbert, QLD
+vii
+
+Terms of reference
+The Minister for Home Affairs, the Hon Tony Burke MP, wrote to the Parliamentary Joint
+Committee on Intelligence and Security on 25 March 2026 to refer the Anti-Money
+Laundering and Counter-Terrorism Financing Amendment Bill 2026 for inquiry and report,
+pursuant to paragraph 29(1)(b) of the Intelligence Services Act 2001.
+ix
+
+List of recommendations
+Recommendation 1
+3.5 The Committee recommends that the Anti-Money Laundering and Counter-
+Terrorism Financing Amendment Bill 2026 be amended so that the proposed
+new power relating to high-risk mechanisms set out in Schedule 1 is exercised
+by the responsible Minister on advice from the AUSTRAC CEO.
+Recommendation 2
+3.14 That, pending the passage of the Bill, the Minister, in consultation with
+AUSTRAC, consider the merits of restricting or prohibiting cryptocurrency
+ATMs as a matter of priority.
+Recommendation 3
+3.16 The Committee recommends that the Anti-Money Laundering and Counter-
+Terrorism Financing Amendment Bill 2026 be amended to:
+• require that as soon as practicable following the conclusion of the
+minimum 30-day consultation period required by 77B(2) or 77D(3) when
+making an instrument under 77A(1) or extending an instrument under
+77D(1), the Minister publishes:
+o the number, content and authors of public submissions made during
+the consultation period
+o details of any meetings or other consultation held
+o AUSTRAC’s response as to public recommendations received as part of
+the consultations.
+Recommendation 4
+3.21 The Committee recommends that the Explanatory Memorandum for the Anti-
+Money Laundering and Counter-Terrorism Financing Amendment Bill 2026, or
+the Bill itself, be updated to better explain key terms including:
+• clarifying the scope of application of the Professional Services in Table 6,
+section 6(6B) of the Anti-Money Laundering and Counter-Terrorism
+Financing Act 2006
+xi
+• updating the ‘pass on’ wording at proposed sections 66(3)(a) and 64(3) of
+the Bill to become technology neutral and align with the provisions of
+Financial Action Task Force Recommendation 16
+• providing more detailed guidance as to who is a ‘Senior Manager’ under
+section 5 of the Anti-Money Laundering and Counter-Terrorism Financing
+Act 2006
+• providing additional worked examples in the Explanatory Memorandum of
+the high-risk mechanisms proposed section 77A is intended to capture,
+including whether professional services are intended to be captured.
+The Committee further recommends that any consequent regulations arising
+from the Bill, ensure clarity in definitions and terminology, to reduce the
+compliance burden while maximising the effectiveness of the laws.
+Recommendation 5
+3.33 The Committee recommends that AUSTRAC, in consultation with the Reserve
+Bank of Australia (RBA) and relevant industry stakeholders:
+• assess the money laundering and terrorism financing risks arising from the
+continued operation of the Bulk Electronic Clearing System (BECS),
+considering deferent use cases and taking into account high-risk versus
+low-risk payments
+• review the existing exemption for BECS in the absence of a
+decommissioning date to make recommendations to the RBA and
+Accounts-to-Accounts Roundtable on whether a target date should be
+reinstated for different uses cases, and report to the Committee within 12
+months on progress toward migrating higher-risk payment categories off
+BECS
+The Committee recommends that the RBA ensures that money laundering and
+terrorism financing traceability risk is an explicit, weighted criterion,
+alongside cost and user experience in the roadmap being developed
+through the Account-to-Account Payments Roundtable.
+Recommendation 6
+3.35 The Committee recommends that the commencement of new or amended
+obligations created by the provisions of the Anti-Money Laundering and
+Counter-Terrorism Amendment Bill 2026 be delayed until 1 July 2027, to ensure
+that affected entities have adequate time to create systems to ensure
+compliance.
+xii
+Recommendation 7
+3.36 The Committee recommends that, subject to the recommendations in this
+report, the Anti-Money Laundering and Counter-Terrorism Financing
+Amendment Bill 2026 be passed by Parliament.
+xiii
+
+1. Introduction
+The Bill and its referral
+1.1 The Anti-Money Laundering and Counter-Terrorism Financing Amendment Bill 2026
+(the Bill) was introduced to the Parliament on 12 March 2026 and referred to the
+Committee for inquiry and report. The Committee commenced its review on 30 March
+2026.
+1.2 The Bill intends to establish a new framework in the Anti-Money Laundering and
+Counter-Terrorism Financing Act 2006 (AML/CTF Act) for the Australian Transaction
+Reports and Analysis Centre (AUSTRAC) Chief Executive Officer (CEO) to restrict or
+prohibit, via legislative instrument, a reporting entity from using a product, service,
+delivery channel or thing (the high-risk mechanism) to provide a designated service.
+1.3 In his second reading speech the Assistant Minister for Immigration and Assistant
+Minister for Foreign Affairs and Trade said:
+Transnational, serious and organised crime actors continue to adapt and develop
+new ways to exploit Australian community members and target our economic
+systems to generate illicit profits and launder the proceeds of crime.
+Money laundering is not a victimless crime. Each year, billions of dollars of illicit
+funds are generated from criminal activity such as drug trafficking, cybercrime,
+child exploitation, tax evasion, and other illegal and corrupt practices. It's also
+used by authoritarian regimes to fuel corruption and undermine the rule of law
+across the world.
+AUSTRAC has observed that crypto ATMs are one of these new mechanisms,
+linked to everything from money laundering to scams and fraud to illicit
+substances to child exploitation. When AUSTRAC looked at the top 90 most
+prolific users of these ATMs in 2024 it found that 85 per cent of these users were
+either scam victims or money mules who had been tricked or coerced into
+moving money.
+While not everyone who uses these ATMs is linked to illicit activity, the
+observations of our law enforcement agencies is that, unfortunately, a
+substantive amount of their use contributes to criminal gain.
+The Anti-Money Laundering and Counter-Terrorism Financing Amendment Bill
+2026 responds to crypto ATMs and the broader modern financial crime
+1
+environment which facilitates serious crimes and harms both Australia's financial
+systems and the community.1
+Conduct of the inquiry
+1.4 The Committee announced its inquiry on 1 April 2026 and invited submissions
+addressing the terms of reference by 8 May 2026.
+1.5 The Committee received 19 submissions including 1 confidential submission.
+Appendix A sets out a list of submissions received. The Committee held a public
+hearing on 9 June 2026. Appendix B sets out a list of witnesses who appeared at
+the public hearing.
+1.6 Copies of the submissions and links to the Bill and Explanatory Memorandum can be
+accessed at the Committee’s website.2
+Report structure
+1.7 This report consists of three chapters:
+• Chapter 1 provides an introduction to the Bill and the inquiry, and an outline of
+the legislative and parliamentary history of Australia’s AML/CTF framework.
+• Chapter 2 sets out the proposed amendments in the Bill in more detail, examines
+the evidence received in the inquiry and also considers other matters presented in
+evidence that are not contained in the Bill.
+• Chapter 3 provides the Committee’s comments and recommendations.
+Bill structure
+1.8 The Bill consists of 3 Schedules.
+1.9 Schedule 1 to the Bill contains amendments related to regulating the use of high-risk
+mechanisms. Under the new framework, the AUSTRAC CEO will be empowered to
+restrict or prohibit, by legislative instrument, a reporting entity from using a high-risk
+mechanism to provide a designated service.
+1.10 Schedule 2 would amend the meaning of financing of terrorism in section 5 of the
+AML/CTF Act to reference new offences introduced into the Criminal Code Act 1995
+(the Criminal Code) by the Criminal Code Amendment (State Sponsors of Terrorism)
+Act 2025 for financing a state sponsor of terrorism.
+1 The Hon. Matt Thistlethwaite, Assistant Minister for Immigration and Assistant Minister for Foreign Affairs
+and Trade, House of Representatives Hansard, 12 March 2026, p. 7.
+2 www.aph.gov.au/pjcis
+2
+1.11 Schedule 3 makes technical amendments to the AML/CTF Act identified through
+implementation of the Anti-Money Laundering and Counter-Terrorism Financing
+Amendment Act 2024.
+1.12 The Schedules and their proposed amendments are discussed in further detail in
+Chapter 2.
+Legislative and review history
+2006: Introduction of the AML/CTF regime (Tranche 1)
+1.13 The AML/CTF regime began with the introduction of the Anti-Money Laundering and
+Counter-Terrorism Financing Bill 2006 to the Parliament. This was subsequently
+referred to the Senate Standing Committee on Legal and Constitutional Affairs and
+reported on in November 2006.3
+1.14 That report noted that the committee was generally satisfied with the provisions of
+the Bill (as they related to combatting money laundering and the financing of
+terrorism), but held concerns regarding privacy, discrimination and industry transition.
+1.15 Subsequently, the Anti-Money Laundering and Counter-Terrorism Financing Act
+2006 came into effect in December 2006.4
+1.16 The legislation was intended to align Australia with the Financial Action Taskforce on
+Money Laundering (FATF) Forty Recommendations on Anti-Money Laundering and
+Nine Special Recommendations on Counter Terrorism Financing (which have since
+been consolidated and revised further as a single set of 40 Recommendations,
+known also as the FATF Standards5), ensuring that Australia met international best
+practice for preventing money laundering and terrorist financing.6
+1.17 The FATF is an intergovernmental group that sets and oversees the quality of
+implementation of AML/CTF and proliferation standards internationally. Australia has
+been a member of the FATF since its inception, established by the Group of Seven
+(G7).7
+3 See Anti-Money Laundering and Counter-Terrorism Financing Bill 2006 [Provisions]; Anti-Money Laundering
+and Counter-Terrorism Financing (Transitional Provisions and Consequential Amendments) Bill 2006
+[Provisions] – Parliament of Australia.
+4 Anti-Money Laundering and Counter-Terrorism Financing Act 2006.
+5 Financial Action Task Force, International Standards on Combating Money Laundering and the Financing of
+Terrorism & Proliferation, June 2026, https://www.fatf-gafi.org/en/countries/detail/Australia.html (accessed 3
+July 2026).
+6 Replacement Explanatory Memorandum, Anti-Money Laundering and Counter-Terrorism Financing Bill 2006,
+p. 8.
+7 Replacement Explanatory Memorandum, Anti-Money Laundering and Counter-Terrorism Financing Bill 2006,
+p. 4; Department of Home Affairs, Financial Action Task Force, 18 July 2025,
+https://www.homeaffairs.gov.au/about-us/our-portfolios/criminal-justice/anti-money-laundering-and-counter-
+terrorism-financing/financial-action-task-force (accessed 3 July 2026).
+3
+1.18 This legislation implemented ‘Tranche 1’8 reforms, which regulated ‘the financial and
+gambling sectors, bullion dealers and lawyers/accountants (but only to the extent that
+they provide financial services in direct competition with the financial sector.)’9 These
+reforms introduced new obligations on these entities to identify and verify the identity
+of their clients, report certain data to AUSTRAC, develop and implement their own
+AML/CTF programs and keep records.10
+1.19 The Replacement Explanatory Memorandum for the Anti-Money Laundering and
+Counter-Terrorism Financing Bill 2006 noted that the second tranche of reforms
+(Tranche 2 reforms) would be developed in the future, and cover real estate agents,
+jewellers, and a range of non-financial transactions provided by accountants and
+lawyers.11
+2016: Statutory review
+1.20 In 2016, the Attorney-General’s Department completed a statutory review of the Anti-
+Money Laundering and Counter-Terrorism Financing Act 2006 (AGD Review).12 It
+found that ‘the AML/CTF regime remains relevant and appropriate, but … that there
+is scope to strengthen the regime and achieve greater regulatory efficiencies.’13
+1.21 The AGD Review made 84 recommendations. Several recommendations concerned:
+• minimising red tape, duplication and unnecessary regulatory burden;
+• better supports for industry to understand and comply with AML/CTF obligations;
+• making better use of the risk-based approach to provide regulatory relief; and
+• capturing services that pose a high ML/TF risk and remaining responsive to new
+and emerging threats.14
+8 The phased series of reforms to Australia’s AML/CTF regime are commonly referred to as ‘tranches.’
+9 Replacement Explanatory Memorandum, Anti-Money Laundering and Counter-Terrorism Financing Bill 2006,
+p. 1.
+10 Replacement Explanatory Memorandum, Anti-Money Laundering and Counter-Terrorism Financing Bill 2006,
+pp. 1–2.
+11 Replacement Explanatory Memorandum, Anti-Money Laundering and Counter-Terrorism Financing Bill 2006,
+p. 9.
+12 Attorney-General’s Department, Report of the statutory review of the Anti-Money Laundering and Counter-
+Terrorism Financing Act 2006 (AML/CTF Act) and the associated Rules and Regulations, April 2016.
+13 Attorney-General’s Department, Report of the statutory review of the Anti-Money Laundering and Counter-
+Terrorism Financing Act 2006 (AML/CTF Act) and the associated Rules and Regulations, April 2016, pp. 3,
+5.
+14 Attorney-General’s Department, Report of the statutory review of the Anti-Money Laundering and Counter-
+Terrorism Financing Act 2006 (AML/CTF Act) and the associated Rules and Regulations, April 2016, p. 3.
+4
+2022: Senate inquiry
+1.22 In March 2022, the Senate Legal and Constitutional Affairs References Committee
+reported on The adequacy and efficacy of Australia’s anti-money laundering and
+counter-terrorism financing regime.15
+1.23 It found that delay in implementing Tranche 2 reforms risked harms to Australia’s
+economy and credibility.16 To give proper effect to Tranche 2 reforms, the report
+stated that ‘the government needs to proactively and diligently consult with
+stakeholders’ and recommended that this consultation be expedited.17
+2024: Amendment Bill and Senate inquiry
+1.24 The Anti-Money Laundering and Counter-Terrorism Financing Amendment Bill 2024
+(2024 Bill) was introduced to Parliament in September 2024.18 The 2024 Bill had
+three principal objectives:
+• Progress Tranche 2 reforms – extend the AML/CTF regime to certain higher-risk
+services provided by real estate professionals, professional service providers
+including lawyers, accountants and trust and company service providers, and
+dealers in precious stones and metals (also known as ‘Tranche 2 entities’);
+• Improve effectiveness – make it simpler and clearer for businesses to comply
+with their obligations; and
+• Modernise – reflect changing business structures, technologies and illicit
+financing methodologies in the AML/CTF regime. 19
+1.25 The 2024 Bill was subsequently referred to the Senate Legal and Constitutional
+Legislation Committee and reported on in November 2024. The report recommended
+the passage of the 2024 Bill (subject to a range of amendments), noting that the
+2024 Bill would ‘reduce complexity and close regulatory gaps in the current regime,
+to ensure that Australia has an effective system to deter, detect and disrupt illegal
+flows of money internationally, and protect Australian businesses from exploitation by
+criminals’.20 The Committee also noted that the 2024 Bill would improve Australia’s
+compliance with the FATF standards, which are regularly revised and reviewed.21
+15 Senate Legal and Constitutional Affairs References Committee, The adequacy and efficacy of Australia’s
+anti-money laundering and counter-terrorism financing (AML/CTF) regime, March 2022.
+16 Senate Legal and Constitutional Affairs References Committee, The adequacy and efficacy of Australia’s
+anti-money laundering and counter-terrorism financing (AML/CTF) regime, March 2022, p. 69.
+17 Senate Legal and Constitutional Affairs References Committee, The adequacy and efficacy of Australia’s
+anti-money laundering and counter-terrorism financing (AML/CTF) regime, March 2022, p. 70.
+18 Anti-Money Laundering and Counter-Terrorism Financing Amendment Bill 2024.
+19 Explanatory Memorandum, Anti-Money Laundering and Counter-Terrorism Financing Amendment Bill 2024,
+pp. 2–3.
+20 Senate Legal and Constitutional Affairs Legislation Committee, Anti-Money Laundering and Counter
+Terrorism Financing Amendment Bill 2024 [Provisions], November 2024, pp. 40, 44.
+21 Senate Legal and Constitutional Affairs Legislation Committee, Anti-Money Laundering and Counter
+Terrorism Financing Amendment Bill 2024 [Provisions], November 2024, p. 40.
+5
+1.26 The Anti-Money Laundering and Counter-Terrorism Financing Amendment Act 2024
+passed the Parliament on 29 November 2024, prescribing the application of new
+regulatory obligations for Tranche 2 entities from 1 July 2026.
+2025 – 2026: Department of Home Affairs Consultation
+1.27 In December 2025 and January 2026, the Department of Home Affairs sought
+feedback from stakeholders on the proposed 2026 further reforms to the AML/CTF
+Act. The department received 8 submissions in response to its Consultation Paper.22
+1.28 Of the submitters to the Consultation Paper, three also submitted to this Bill inquiry
+(Australian Banking Association, Chartered Accountants Australia and New Zealand
+and the Law Council of Australia). These submitters have told the Committee that
+whilst some of their recommendations put forward during the consultation process
+were reflected in the current Bill, others were not.23
+2026: Senate Standing Committee for the Scrutiny of Bills
+1.29 In 2026, the Bill that is the subject of this report, was also considered by the Senate
+Standing Committee for the Scrutiny of Bills.24 In its Scrutiny Digest 5 of 2026, that
+committee considered issues surrounding the availability of judicial review and the
+abrogation of privilege against self-incrimination, and requested:
+• further information from the Minister as to:
+o why it is necessary and appropriate to include no-invalidity clauses in
+proposed subsections 77B(5) and 77D(5); and
+o whether the consultation requirements, including the minimum requirements
+set out in proposed subsections 77B(4) and 77D(4), are intended to be
+enforceable and, if not, why this is appropriate.
+• that the Senate (as a whole) consider the appropriateness of expanding the
+abrogation of the privilege against self-incrimination provided for in sections 167
+and 169 of the Anti-Money Laundering and Counter-Terrorism Financing Act 2006
+by inserting proposed paragraphs 5(ba) and (bb) into the Act.
+1.30 In the Minister’s response to this request, he outlined the Government’s view of the
+necessity and appropriateness of the no-invalidity clauses, and clarified that the
+consultation requirements are intended to be enforceable.25
+1.31 Following the Minister’s response, the Senate Standing Committee for the Scrutiny of
+Bills made a further recommendation in Scrutiny Digest 7 of 2026, that the Senate
+22 Department of Home Affairs, 2026 Reforms to the Anti-Money Laundering and Counter-Terrorism Financing
+Act 2006, 2 April 2026, https://www.homeaffairs.gov.au/reports-and-publications/submissions-and-
+discussion-papers/2026-reforms-aml-ctf-act (accessed 3 July 2026).
+23 Australian Banking Association, Submission 10; Law Council of Australia, Submission 13; Chartered
+Accountants Australia and New Zealand, Submission 1.
+24 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 5 of 2026, 25 March 2026, pp. 10–15.
+25 Minister for Home Affairs, Minister for Home Affairs Response, 15 April 2026, pp. 1–3.
+6
+(as a whole) consider the appropriateness of proposed subsections 77B(5) and
+77D(5) providing that a failure to undertake consultation outlined in proposed
+subsections 77B(4) and 77D(4) does not invalidate an instrument made under
+subsections 77A(1) and 77D(1) of the Bill.26
+2026: Tranche 2 Obligations Commence
+1.32 On 1 July 2026, AML/CTF obligations for Tranche 2 entities (e.g. real estate
+businesses, dealers in precious metals, stones and products, accountants, trust and
+company service providers) commenced. These obligations include requirements for
+these entities to:
+• enrol with AUSTRAC
+• develop and maintain an AML/CTF program
+• complete customer due diligence
+• report suspicious matters and transactions of a certain value
+• make and keep records.27
+2026 – 2027: Next FATF assessment
+1.33 The next FATF assessment of Australia’s compliance with the FATF Standards will
+be conducted over 2026-2027.28
+1.34 As of March 2024, FATF assessed that Australia was ‘compliant with 18
+Recommendations, largely compliant with another 12 Recommendations, but
+remains partially compliant with 6 Recommendations and non-compliant with 4’.29
+26 Senate Standing Committee for the Scrutiny of Bills, Scrutiny Digest 7 of 2026, 25 June 2026, p. 95.
+27 Australian Transaction Reports and Analysis Centre, AML/CTF obligations factsheet for tranche 2 reporting
+entities, July 2025.
+28 Department of Home Affairs, Financial Action Task Force, 18 July 2025,
+https://www.homeaffairs.gov.au/about-us/our-portfolios/criminal-justice/anti-money-laundering-and-counter-
+terrorism-financing/financial-action-task-force (accessed 3 July 2026).
+29 Financial Action Task Force, International Standards on Combating Money Laundering and the Financing of
+Terrorism & Proliferation, June 2026, https://www.fatf-gafi.org/en/countries/detail/Australia.html (accessed 3
+July 2026).
+7
+
+2. Proposed amendments and other
+matters
+Schedule 1: Regulating the use of high-risk
+products
+2.1 Schedule 1 to the Anti-Money Laundering and Counter-Terrorism Financing
+Amendment Bill 2026 (the Bill) contains amendments related to regulating the use of
+high-risk mechanisms. It inserts a new Part 6B – Regulating use of high-risk products
+and services etc – into the Anti-Money Laundering and Counter Terrorism Financing
+Act 2006 (AML/CTF Act). Part 6B inserts proposed new section 77 which provides a
+simplified outline of the part and proposed new sections 77A-77F which set out the
+new powers of the Australian Transaction Reports and Analysis Centre (AUSTRAC)
+Chief Executive Officer (CEO).
+New powers for the AUSTRAC CEO
+2.2 Proposed new section 77A creates a power for the AUSTRAC CEO, by legislative
+instrument, to restrict or prohibit reporting entities from using a product, service,
+delivery channel or thing (the high-risk mechanism) to provide a designated service.
+2.3 Subsection 77A(1) provides that before making a decision, the AUSTRAC CEO must
+be satisfied that using the high-risk mechanism to provide the designated service has
+caused, will cause or is likely to cause, significant harm to either or both the financial
+system or the Australian community (at paragraph 77A(1)(a)), and that the restriction
+or prohibition is necessary in the public interest (at paragraph 77A(1)(b)).
+Certain matters that must be considered
+2.4 Proposed paragraphs 77A(2)(a) – (c) set out certain matters that the AUSTRAC CEO
+must consider when determining that a restriction or prohibition is necessary in the
+public interest for the purposes of paragraph 77A(1)(b). These are:
+• the nature and extent of the harm that has been, will be, or is likely to be, caused
+by a reporting entity using the high-risk mechanism to provide the designated
+service
+• the effect the proposed restriction or prohibition is likely to have on that harm
+• whether there are any alternative products, services, delivery channels or things
+that may be used to provide the designated service.
+9
+2.5 Proposed paragraph 77A(2)(d) provides a regulation-making power, allowing
+regulations to prescribe any other matter that the AUSTRAC CEO must consider.
+2.6 Proposed subsection 77A(4) sets out the kinds of restrictions the AUSTRAC CEO
+may impose under the new power, at paragraphs 77A(4)(a)–(d). These restrictions
+may relate to:
+• the volume or value of funds remitted, virtual assets exchanged or physical
+currency or property transferred
+• the method used to remit, exchange or transfer, or
+• the destination (however described) of the remittance, exchange or transfer.
+2.7 Proposed paragraph 77A(4)(d) also provides that the AUSTRAC CEO may require
+reporting entities to provide information to AUSTRAC or do certain things to mitigate
+risk.
+Requirement to consult
+2.8 Proposed section 77B establishes consultation requirements that must generally be
+satisfied before the AUSTRAC CEO may make a legislative instrument to restrict or
+prohibit a high-risk mechanism.
+2.9 Under proposed subsection 77B(1), the AUSTRAC CEO may not make such an
+instrument unless consultation has been undertaken in accordance with paragraphs
+(a) and (b). Paragraph 77B(1)(a) would require consultation with persons reasonably
+likely to be affected by the proposed instrument. Paragraph 77B(1)(b) would further
+require consultation with the relevant Commonwealth, State or Territory agency
+where the instrument would restrict or prohibit the use of a high-risk mechanism that
+is regulated under a law administered by that agency. Proposed subsection 77B(2)
+would require that consultation be undertaken for a period of at least 30 days.
+2.10 Proposed subsection 77B(3) would, however, provide an exception to the
+consultation requirements where the AUSTRAC CEO is satisfied that exceptional or
+urgent circumstances exist. In such circumstances, the AUSTRAC CEO may make
+an instrument without prior consultation.
+2.11 Proposed subsection 77B(4) sets out the manner in which consultation may be
+undertaken, and the information that must be provided, for the AUSTRAC CEO to
+have complied with the requirement under subsection 77B(1).
+2.12 Proposed subsection 77B(5) provides that a failure to comply with the consultation
+requirement in subsection 77B(1) does not invalidate a legislative instrument made
+under subsection 77A(1). The Explanatory Memorandum (EM) states that the
+‘consultation process is intended to be mandatory’ but adds that:
+[…] an otherwise valid legislative instrument is effective despite any defect in the
+relevant consultation process. The no-validity clause is appropriate in this
+instance, noting that an exceptional or urgent circumstance must exist to justify
+making an instrument without consultation. Further, any instrument made without
+10
+consultation will only be in force for a limited period, and any extension of that
+instrument must be subject to the consultation process. This will preserve the
+intent of the framework while enabling it to be used, in specific circumstances
+and for short periods, to respond to high-risk mechanisms that have caused, will
+cause or is likely to cause, significant harm to either or both of the financial
+system and the Australian community, where the restriction or prohibition is
+necessary in the public interest.1
+Duration of restrictions or prohibitions
+2.13 Proposed section 77C provides that the duration of a restriction or prohibition in the
+first instance would depend on whether consultation was undertaken prior to making
+the instrument—no more than 6 months if no consultation was undertaken and no
+more than 3 years if consultation was undertaken.
+2.14 Proposed section 77D provides that the AUSTRAC CEO may extend a restriction or
+prohibition, by legislative instrument, if the CEO is satisfied of the matters required to
+make an instrument and has undertaken consultation on terms similar to the
+requirements for making the instrument.
+Offences and penalties
+2.15 Proposed sections 77E and 77F set out offence provisions. A person subject to a
+restriction or prohibition commits an offence if:
+• the person engages in conduct that breaches the restriction or prohibition
+• the person offers to use a product, service, delivery channel or thing to provide a
+designated service where that use would breach the restriction or prohibition.
+2.16 For both offences, strict liability applies to the person’s conduct. The EM states that
+this is appropriate because:
+Requiring the prosecution to establish fault … would not be practical and would
+undermine the deterrent effect of this offence. The offence is intended to cover
+persons who continue to provide designated services through the use of high-risk
+mechanisms that have been restricted or prohibited, but who may be unaware
+whether the restriction or prohibition remains in place. The defence of mistake of
+fact under section 9.2 of the Criminal Code would still be available in relation to
+these elements.2
+2.17 The proposed penalty for both offences is imprisonment for 4 years or 1,000 penalty
+units or both. In addition the Bill inserts civil penalty provisions that would prohibit a
+person subject to a restriction or prohibition from:
+1 Explanatory Memorandum (EM), Anti-Money Laundering and Counter-Terrorism Financing Amendment Bill
+2026, p. 11 [24].
+2 EM, pp. 13 [40], 14 [47].
+11
+• engaging in conduct that breaches the restriction or prohibition (proposed
+subsections 77E(3)–(4))
+• offering to use a product, service, delivery channel or thing to provide a
+designated service if the use would breach the restriction or prohibition (proposed
+subsections 77F(3)–(4)).
+2.18 The maximum penalty is 100,000 penalty units ($33 million) for a body corporate and
+20,000 penalty units ($6.6 million) for a person other than a body corporate
+(subsections 175(4) and (5)).
+2.19 Schedule 1 also amends existing subsections 184(1A) and section 186A to allow for
+infringement notices to be given in relation to these contraventions.
+12
+Box 2.1 Case study: Crypto ATMs as an example of a ‘high-risk
+mechanism’
+Cryptocurrency Automated Teller Machines (crypto ATMs) are physical kiosks that
+facilitate transactions with cryptocurrencies. Using these ATMs, individuals can
+exchange cash for cryptocurrencies (e.g. Bitcoin, Ethereum) and send it virtually to
+other parties. Australia has the largest number of crypto ATMs in the Asia-Pacific, with
+over 1,700 active kiosks.3
+Despite unmalicious uses of these ATMs, there are increasing concerns due to links to
+‘scam‑related activity, high risk cash-based transactions and the rapid movement of
+illicit funds.’4 AUSTRAC has contended that the ‘near-instant and irreversible transfers’
+that crypto ATMs facilitate makes them appealing to criminal actors.5
+Figure 2.1 Example of a Crypto ATM
+Source: ABC News, 2025
+The Explanatory Memorandum for the Bill describes crypto ATMs as an example of a
+‘high-risk mechanism’, which under the proposed power in the Bill, the AUSTRAC CEO
+would be able to restrict or prohibit (subject to other legislative conditions being
+satisfied).6
+In its supplementary submission, AUSTRAC outlined the harms of crypto ATMs to the
+Australian community through five separate case studies.7 These case studies included
+3 Australian Transaction Reports and Analysis Centre (AUSTRAC), Submission 7.1, p.6.
+4 Australia Banking Association (ABA), Submission 10, p.1.
+5 AUSTRAC, Submission 7.1, p.6.
+6 EM, p. 8, [7].
+7 AUSTRAC, Submission 7.1, p.6.
+13
+examples of crypto ATMs being used to launder significant funds for organised crime
+networks (both domestically and internationally) and scam older Australians.8 Notably,
+the 60 to 70 age group has been identified by AUSTRAC as one of the most prolific
+users of crypto ATMs in Australia.9
+Further, the Committee received evidence regarding the work of AUSTRAC’s
+cryptocurrency taskforce. In early 2025, this taskforce interviewed 90 of the 100 most
+prolific crypto ATM users in Australia, finding that an estimated 85 per cent of
+transactions were proceeds of scams and/or money mule activities.10
+However, CoinFlip has stressed the limitations on the generalisability of this statistic due
+to the small and non-random sample population.11 In its supplementary submission,
+CoinFlip contextualised this statistic against other AUSTRAC and Australian Federal
+Police data, claiming that as a percentage of the total transaction value for crypto ATMs
+in 2024, scams accounted for only 1.1 per cent.12
+Submissions from Localcoin and CoinFlip also argued against the blanket scope of the
+power, calling for the legislation to distinguish between compliant operators and non-
+compliant operators.13 Further, both cautioned that the prohibition of all crypto ATMs
+under the new powers would likely drive users to other mechanisms and channels that
+are less regulated and more susceptible to fraud and scam activities.14
+In contrast, several other submitters supported the restriction (or prohibition) of crypto
+ATMs under the proposed power,15 with the Australian Banking Association and the
+Australian Payments Network contending that crypto ATMs had no legitimate use
+cases.16 Transparency International Australia also noted that New Zealand had banned
+crypto ATMs in 2025, due to their use by criminals to ‘convert illicit cash into
+untraceable digital assets.’17
+Notwithstanding these different views, in order to prohibit crypto ATMs (whether
+individual operators or all crypto ATMs) under the new framework, the AUSTRAC CEO
+would need to be satisfied that they present significant harm to either the financial
+system, the Australian community, or both; and that the restriction or prohibition is
+necessary in the public interest.
+8 AUSTRAC, Submission 7.1, p.6.
+9 AUSTRAC ‘Scams, fraud and other illicit activity: AUSTRAC puts crypto ATM operators on notice’, Media
+Release, 3 June 2025.
+10 ABA, Submission 10, p.1; AUSTRAC, Submission 7.1, p.7.
+11 CoinFlip, Submission 15.1, p.4.
+12 CoinFlip, Submission 15.1, p.4.
+13 CoinFlip, Submission 15, p.2; Localcoin, Submission 17, p.1.
+14 CoinFlip, Submission 15, p.2; Localcoin, Submission 17, p.1.
+15 ABA, Submission 10, p.1–2; Australian Payments Network (AusPayNet), Submission 16, p.3; Dr Anton
+Moiseienko, Submission 14, p.2; Transparency International Australia, Submission 9, p.1.
+16 ABA, Submission 10, p.1–2; AusPayNet, Submission 16, p.3.
+17 Transparency International Australia, Submission 9.1, p.1.
+14
+Schedule 2: Amending the definition of financing of
+terrorism
+2.20 Schedule 2 would amend the definition of financing of terrorism in section 5 of the
+AML/CTF Act to reference new offences introduced into the Criminal Code by the
+Criminal Code Amendment (State Sponsors of Terrorism) Act 2025 for financing a
+state sponsor of terrorism. The definition would also be updated to allow it to reflect
+developments in Australian sanction laws relevant to combatting terrorism and its
+financing.
+2.21 The Bill would update the existing section 5 paragraph (a) in the definition of
+financing of terrorism under the AML/CTF Act to expressly include the offences of
+getting funds to, from or for a state sponsor of terrorism (set out in section 112.5 of
+the Criminal Code), and offences against financing a state terrorist act targeted at
+Australia (set out in Division 113 of the Criminal Code).
+2.22 The Bill would also insert new paragraphs (ba) and (bb) into the definition of
+financing of terrorism. This would provide a regulation-making power to prescribe
+offences against the Charter of the United Nations Act 1945 and the Autonomous
+Sanctions Act 2011, or against regulations made under either of those Acts, for the
+purposes of the definition in the AML/CTF Act.
+Harmonisation with other frameworks
+2.23 Two technical amendments are intended to ensure:
+• State or Territory laws that correspond to offences prescribed under amended
+paragraphs (a), (b), (ba) and (bb) of the definition of financing of terrorism are
+appropriately captured; and
+• the offences covered by the amended definition of financing of terrorism are
+appropriately captured under the suspicious matter reporting framework at section
+41 of the AML/CTF Act, by referencing paragraphs (a), (b), (ba), (bb) or (c) of the
+amended definition of financing of terrorism.
+Schedule 3: Technical amendments
+2.24 Schedule 3 makes technical amendments to the AML/CTF Act which the EM states
+were identified through implementation of the Anti-Money Laundering and Counter-
+Terrorism Financing Amendment Act 2024. This includes to:
+• amend initial, ongoing and enhanced customer due diligence requirements to
+make compliance easier for reporting entities
+• amend existing definitions under the AML/CTF Act, and introduce new definitions,
+to ensure that the definitions for domestic politically exposed person and foreign
+politically exposed person apply appropriately when designated services are
+provided at or through a permanent establishment in Australia or foreign countries
+15
+• amend the process in section 49 of the AML/CTF Act relating to legal professional
+privilege claims to require a reporting entity that originally issued a notice under
+section 49 to receive the relevant legal professional privilege form
+• provide that the AUSTRAC CEO can prescribe, through Rules, requirements for
+reporting entities to advise the AUSTRAC CEO of changes in enrolment details
+• permit international value transfer services reporting to be triggered even where
+the foreign country from which the value is being transferred or to which the value
+will be transferred is unknown to the reporting entity
+• provide that the AUSTRAC CEO can prescribe, through Rules, certain documents
+required to be provided in applications for registration on the Remittance Sector
+Register and Virtual Asset Service Provider Register, and
+• include subsection 26G(1) or (2), which deal with complying with AML/CTF
+policies, in the definition of designated infringement notice provision.
+Evidence received
+2.25 As expected, the submissions from the Department of Home Affairs (the Department)
+and AUSTRAC supported the Bill. The Department outlined the policy rationale for
+the proposed amendments. The Department submitted that the Bill was necessary to
+address limitations in the existing AML/CTF framework, particularly AUSTRAC’s
+inability to respond effectively to sector‑wide and rapidly emerging risks associated
+with high‑risk mechanisms.
+2.26 The Department’s submission explained that Schedule 1 would provide a targeted,
+proportionate and time‑limited power to address systemic risks, supported by
+consultation requirements, public‑interest tests and parliamentary oversight. The
+Department also supported the amendments in Schedules 2 and 3, stating that they
+would clarify terrorism‑financing definitions, improve regulatory certainty, reduce
+compliance burden and ensure alignment with international standards.
+2.27 AUSTRAC strongly supported the Bill, submitting that emerging technologies, fast
+payment systems and virtual assets had significantly altered the money laundering
+and terrorism financing threat environment. AUSTRAC emphasised its dual role as
+both regulator and financial intelligence agency and submitted that existing
+entity‑level powers were insufficient to manage rapidly developing, cross‑sector risks.
+2.28 AUSTRAC referred to national risk assessments identifying elevated risks associated
+with virtual assets, remittance services and high‑speed payment mechanisms. The
+submission argued that the proposed high‑risk mechanism power would provide a
+flexible and proportionate tool to address serious threats at scale, supported by
+statutory safeguards. AUSTRAC also supported the terrorism financing and technical
+amendments, noting their contribution to regulatory clarity and effective supervision.
+16
+2.29 In general, a number of other submitters were supportive of the aims of the Bill.18
+However, there were several shared concerns raised with the Committee including
+issues within the Bill, and other matters not reflected in the Bill. These are discussed
+further below.
+AUSTRAC CEO: An appropriate delegate?
+2.30 Some submitters raised concerns regarding the new powers proposed to be given to
+the AUSTRAC CEO to restrict or prohibit a reporting entity from using a product,
+service, delivery channel or thing to provide a designated service.
+2.31 The Law Council of Australia (Law Council) did not support the power because it did
+not consider the power to be ‘risk-based, proportionate, or demonstrably
+necessary’.19 Further to this, and despite the proposed disallowance framework in the
+Bill, the Law Council did not consider that it is appropriate to delegate such a broad
+power to the AUSTRAC CEO (as a member of the Executive), contending that it
+should be exercised by the Legislature (if the power is to exist).20
+2.32 Chartered Accountants Australia and New Zealand argued that it is:
+[…] not the role of the AUSTRAC CEO to restrict or prohibit certain high-risk
+products, services or delivery channels that enable the provision of services
+regulated under the AML/CTF Act. It is AUSTRAC’s role to regulate reporting
+entities to ensure they comply with [the] AML/CTF Act and have in place an
+effective AML/CTF program.
+We consider that the existing powers held by AUSTRAC are sufficient to ensure
+reporting entities have an effective program in place.21
+2.33 Alternatively, at the public hearing Mr Andy White, CEO of Australian Payments
+Network (AusPayNet), expressed the view that rather than create a new regulator for
+the proposed new powers, it made sense to leverage a specific regulator already in
+place such as the AUSTRAC CEO:
+AUSTRAC has obviously a specific role within financial crime, which makes it the
+right home for this, given their skillsets […] we would recognise that suspicious
+matter reporting doesn't work perfectly, it provides significant information to
+AUSTRAC in order to make decisions. Also, AUSTRAC is very heavily involved
+in the kind of coordination activities that I've described as being needed. It does
+work with not only others in the ecosystem, other regulators, but also other
+entities, including ourselves. Having that sort of demarcation— [Reserve Bank of
+Australia] is about payments policy, [Australian Prudential and Regulation
+18 Mr Zen Dodd, Submission 2, p. 1; Away from Keyboard Inc, Submission 3, pp. 5-6; Australian Finance
+Industry Association, Submission 8, p. 1; Transparency International Australia, Submission 9, p. 1; ABA,
+Submission 10, p. 1; Synod of Victoria and Tasmania, Uniting Church in Australia, Submission 11, p. 1; Dr
+Anton Mosienko, Submission 14, p. 2.
+19 Law Council of Australia (Law Council), Submission 13, p.13.
+20 Ms Elizabeth Shearer, President-Elect, Law Council, Committee Hansard, 9 June 2026, p.7
+21 Chartered Accountants Australia and New Zealand, Submission 1, p. 1.
+17
+Authority] is about the prudential regulation of financial institutions, and
+[Australian Securities and Investments Commission] is about conduct regulation
+et cetera—gives AUSTRAC that clean home within the financial crime space.22
+Adequacy of safeguards
+2.34 The Law Council also expressed concerns with the proposed safeguards on the use
+of the power, suggesting a range of additional safeguards in its submission.23 This
+included limiting the exercisability of the power to circumstances where the ML/TF
+risk cannot be mitigated by any less restrictive means and where the harm to
+businesses, consumers, the economy, and society from exercising the power would
+be proportionate to the ML/TF risks posed.24 The Law Council also suggested that
+an appropriate explanatory statement accompany any use of the power and that
+there be a mechanism for appeal or review of decisions.
+2.35 The Australian Finance Industry Association (AFIA) also expressed concern with the
+breadth of powers the Bill proposes for the AUSTRAC CEO in the absence of robust
+safeguards. AFIA claimed the Bill lacked safeguards found in comparable
+international regimes and risked positioning Australia as an outlier jurisdiction.25 AFIA
+recommended the Bill be amended to ‘align the framework with established principles
+of financial regulation and administrative law.’26 Safeguards recommended by AFIA
+included:
+• Mandatory regulatory concurrence: Insert a requirement that the
+AUSTRAC CEO obtain agreement from the Department of Treasury or
+financial regulators such as the Australian Prudential Regulation Authority
+(APRA), the Australian Securities Commission (ASIC) and the Reserve
+Bank of Australia (RBA)(or the Council of Financial Regulators), where
+measures may affect prudential/financial stability, market integrity, or
+payments systems.
+• Ministerial oversight: Introduce a requirement for approval by the
+Commonwealth Treasurer or significant or system-wide interventions.
+• Structured statutory criteria: Define clearer thresholds for action,
+including evidentiary standards, risk severity and consideration of whether
+less restrictive measures are available.
+• Impact assessment requirements: Require an explicit, documented
+assessment addressing prudential/financial stability implications, systemic
+risk and contagion effects, markets or competition impacts, and consumer
+access considerations before instruments are made.
+22 Mr Andy White, CEO, AusPayNet, Committee Hansard, 9 June 2026, pp. 21-22.
+23 Law Council of Australia, Submission 13, p.14-15.
+24 Law Council of Australia, Submission 13, p.14-15.
+25 Australian Finance Industry Association (AFIA), Submission 8, pp.3- 4.
+26 AFIA, Submission 8, p. 4.
+18
+• Transparency and accountability: Strengthen requirements for
+publication of reasons (subject to appropriate confidentiality safeguards),
+procedural fairness for affected regulated entities, and reporting to
+Parliament.
+• Time limits and review mechanisms: Introduce sunset period, impose
+time limits, require mandatory review for revocation or variation to ensure
+measures remain necessary and proportionate.27
+2.36 Conversely, the Department argued that the Bill does provide adequate safeguards
+by being a legislative instrument subject to disallowance by the parliament. Mr
+Andrew Warnes, First Assistant Secretary told the Committee:
+I think it's important to remember that this will be a legislative instrument that will
+be accompanied by explanatory material. There will be a range of information put
+forward to parliament that explains what is going on and why the AUSTRAC CEO
+has made this legislative instrument. So parliament will get quite a deal of
+visibility in that legislative instrument, and it has been ensured that it continues to
+remain subject to disallowance. Parliament will have the opportunity to disallow
+that instrument should it wish to. That's the standard disallowance period; no
+variation has been made to that.28
+2.37 The Senate Scrutiny of Bills Committee raised concerns with the safeguards of the
+Bill in relation to the consultation requirements, particularly the ‘no invalidity’ clauses
+in relation to instruments made under the new provisions, and the exceptions to the
+requirement for the AUSTRAC CEO to consult before restricting or prohibiting a high-
+risk mechanism under proposed section 77A. The Minister for Home Affairs
+responded to questions from the Senate Scrutiny of Bills Committee, which reported:
+[…] the minister’s advice that the minimum consultation requirements in
+proposed subsections 77B(4) and 77D(4) are intended to be enforceable except
+where there may be inadvertent non-compliance with the consultation process.
+Notwithstanding this information, the committee notes that the no-invalidity
+clauses are not confined on the face of the bill to circumstances consistent with
+the minister’s advice, such as inadvertent non-compliance with consultation
+requirements. In the absence of express statutory limits, the clauses would
+therefore appear to operate more broadly than intended.
+The committee also notes the minister’s advice that parliamentary oversight and
+disallowance of the legislative instrument would provide a means of enforcing the
+proposed consultation requirements. Disallowance is the primary means by
+which the Parliament exercises oversight of the legislative power that it has
+delegated to the executive, constituting an important form of political
+accountability. The committee welcomes this oversight but nevertheless remains
+concerned that the proposed no invalidity clauses will limit legal accountability for
+27 AFIA, Submission 8, pp.4-5.
+28 Mr Andrew Warnes, Department of Home Affairs, Committee Hansard, 9 June 2026, p. 26.
+19
+non-compliance with prescriptive requirements directed to ensuring that persons
+who are directly affected by the instrument are consulted. Viewed in this way, the
+consultation requirements are analogous to natural justice fair hearing
+requirements.29
+The scope of powers beyond banning Crypto ATMs
+2.38 Whilst the Bill does not specifically refer to crypto ATMs, some submitters noted that
+crypto ATMs were the only example provided in the EM of a ‘high-risk product,
+service or delivery channel or thing’ as described in proposed section 77A of the Bill.
+2.39 The Law Council submitted that the lack of any other example suggested the
+definition was too broad:
+This makes it difficult to imagine what the power is intended be exercised in
+relation to, or whether existing powers in the AML/CTF Act (or elsewhere) are
+sufficient to appropriately regulate them—both of which prevent a meaningful
+assessment of whether they are necessary and proportional to any risk.
+However, given that their exercise could result in the wholesale prohibition or
+limitation of the provision of an undefined range of products, services, and
+delivery channels, and considering the extensive risk mitigation and management
+framework created by the AML/CTF Act, which should be sufficient to manage
+conceivable risks, it seems unlikely that they are risk-based and proportionate.30
+2.40 The Law Council further emphasised that ‘introducing the power in this scope would
+confer upon AUSTRAC’s Chief Executive the power to prohibit or limit the provision
+of legal services, possibly including legal advice and representation’.31
+2.41 AFIA also expressed concern with the breadth of scope and discretion for the
+AUSTRAC CEO under the proposed s77A(1) changes, and commented that:
+The power is framed by reference to the public interest, without further statutory
+criteria, thresholds or evidentiary standards. The breadth of application
+(potentially across sectors and markets) and the absence of defined statutory
+thresholds beyond public interest considerations creates a high degree of legal
+uncertainty and limited predictability for regulated entities. The power also has
+the capacity to reshape how financial services are offered at scale.32
+2.42 The Australian Banking Association (ABA) commented:
+The power applies to all designated services. The ABA’s position is that it should
+be limited to registrable services (remittance and virtual asset service providers).
+Banks are already subject to prudential supervision by APRA and market conduct
+29 Scrutiny Digest 7 of 2026, Senate Standing Committee for the Scrutiny of Bills, Parliament of Australia, p.95.
+30 Law Council, Submission 13, p. 13.
+31 Law Council, Submission 13, p. 14.
+32 AFIA, Submission 8, p. 2
+20
+regulation by ASIC, both of which hold comparable product intervention powers.
+Extending the AUSTRAC CEO’s power to [Authorised Deposit-taking Institutions]
+creates overlapping regulatory authority without a corresponding uplift in risk
+mitigation.33
+2.43 At the public hearing, the Department and AUSTRAC stressed that the Bill sought to
+give powers to the AUSTRAC CEO which then may or may not be used to ban crypto
+ATMs. AUSTRAC National Manager Mr Daniel Mossop told the Committee ‘the bill is
+not about banning crypto ATMs. It's a banning power that may or may not be applied
+to crypto ATMs.’34 The Department acknowledged that AUSTRAC already has
+powers to deal with non-compliant high-risk operators through individual powers, but
+clarified:
+Here we're talking about a high-risk mechanism where you've decided the entire
+mechanism is so significant—and you've met those threshold tests under 77A
+about the significant harm that it's causing and you've met the threshold test in
+subsection 2 about what you must take into account in terms of the public interest
+test across the mechanism—that it becomes a different question. Therefore,
+you're able to look at the whole mechanism, and that will impact across the
+sector or across the delivery mechanism channel.35
+2.44 AUSTRAC further remarked that ‘there is a gap right at the end there about what you
+do with a product or a channel that is so high risk that continuing to have it in
+operation would harm the Australian community’.36
+2.45 The Committee also heard evidence that should the proposed amendments in the Bill
+pass, and the AUSTRAC CEO use the new powers to ban crypto ATMs, then the
+new powers will also allow the AUSTRAC CEO to consider banning any disruptors or
+alternatives to crypto ATMs:
+When you shut down one avenue for criminality, there's a potential that
+criminality shifts. Part of the risk calculus—and I'll shift to AUSTRAC, because it's
+really a question operationally for them—is whether it is a more significant benefit
+to shut that payment mechanism down that's doing such harm and then trying to
+work out where they shift to next and looking at whether that's something that
+can be more readily regulated or given oversight. Do you need to then change
+the regulatory mechanisms for where you think they will shift? Does the
+AUSTRAC CEO look at prohibitions or restrictions for where you think they will
+go? There are a range of things.
+[…] It can be difficult to know where people will shift to. Transnational organised
+crime, by its nature, is very adaptive. They will constantly look for the less
+33 ABA, Submission 10, p. 2.
+34 Mr Daniel Mossop, National Manager, Policy, Rules and Guidance, AUSTRAC, Committee Hansard, 9 June
+2026, p. 28.
+35 Mr Warnes, Department of Home Affairs, Committee Hansard, 9 June 2026, p. 27.
+36 Mr Mossop, AUSTRAC, Committee Hansard, 9 June 2026, p. 27.
+21
+regulated space where they run less risk of getting caught. We, and our
+agencies, will always look to close off those loopholes and shut them down.37
+Ambiguous terminology in the Act
+2.46 In addition to raising concerns about ambiguous terminology within the Bill
+(discussed below), some submitters identified ambiguities that already exist in the
+Act and suggested that the Bill be amended to clarify certain terms and issues,
+including:
+The scope of application of the Professional Services in Table 6, Section 6(6B).
+2.47 The Law Council repeated its recommendation from the Department’s January 2026
+consultation that ‘the AML/CTF Act needs to be urgently amended to clarify the
+scope of application of the Items in Table 6. Specifically, we have recommended that
+precise definitions of the meaning of the Items in Table 6 should be provided in the
+Act’.38
+‘pass on’ wording
+2.48 ABA submitted that ‘the term pass on is not technology‑neutral and does not reflect
+how merchant payments operate. Replacing it with ensure that the transfer message
+includes would align the provision with FATF Recommendation 16’.39
+Senior manager
+2.49 ABA submitted that ‘the current definition creates practical complexities for large,
+complex financial institutions. The ABA has offered to work with the Department on
+alternative drafting that preserves the policy intent whilst providing banks with the
+necessary flexibility to nominate the most appropriate person’.40
+Ambiguous terminology in the Bill
+2.50 Some submitters highlighted that compliance with any proposed changes to the
+AML/CTF regime would be hindered by ambiguous terminology within the Bill. For
+example, the meaning of Significant harm was discussed at the public hearing as
+having its ‘ordinary meaning’ despite not being defined in the Bill.41
+2.51 In particular, submitters identified terms in the Bill such as:
+37 Mr Warnes, Department of Home Affairs, Committee Hansard, 9 June 2026, p. 28.
+38 Law Council, Submission 13, p.11. See AML/CTF Act, section 6, Table 6 – Professional services
+39 ABA, Submission 10, p. 3. See AML/CTF Act, sections 66 (3)(a); 64(3).
+40 ABA, Submission 10, p. 3. See AML/CTF Act, section 5.
+41 See exchange between Senator Cash and Mr Warnes, Department of Home Affairs, Committee Hansard, 9
+June 2026, pp. 29-30. See also, the Bill, proposed sections 77A(1)(a); 77B(4)(a)(ii).
+22
+Necessary in the public interest
+2.52 ABA submitted that the Bill ‘requires the restriction to be “necessary in the public
+interest” but does not define the term. Innovation, efficiency and the broader value of
+the service to consumers should be mandatory considerations, consistent with the
+approach taken in ASIC’s framework’.42
+Financing of terrorism
+2.53 Whilst stating that it supported the policy objectives of the Bill, the Law Council
+reiterated its concerns related to the AML/CTF Tranche 2 compliance framework that
+came into effect on 1 July 2026, and how the proposed changes in the Bill would
+create further new obligations for legal practitioners. Remarking on the proposed
+amendment to the definition of financing of terrorism43, Ms Shearer, Law Council
+President-Elect said:
+It significantly alters it by bringing in a whole new category of sections from the
+Criminal Code Act. For those of us who have worked through our process of how
+we're going to design our system to comply on 1 July, we've done so under what
+the current legislation says. Suddenly there's an amendment that brings in a
+whole new set of things that we've got to be concerned about. It's difficult for us
+to comply with that. It means we have to redesign our system. The new offences
+are also quite complex. I am not a national security expert, but when they are
+quite complex it does mean in real practical terms regulated entities have to then
+go back and work out, 'What does this mean?' It's not simply a tidying up sort of
+mechanism, which is, I think, how it's presented. It actually does add substantive
+new obligations.44
+2.54 Conversely, the ABA submitted that it:
+[…] supports the amendments to expressly include offences related to state
+sponsored terrorism within the definition of financing of terrorism, and to enable
+regulations to prescribe offences under the Charter of the United Nations Act
+1945 and the Autonomous Sanctions Act 2011. These changes ensure the
+AML/CTF Act remains aligned with the Criminal Code Amendment (State
+Sponsors of Terrorism) Act 2025, Australia’s broader counter-terrorism and
+sanctions framework, and [Financial Action Task Force] Recommendation 6. 45
+Timing
+2.55 The Committee also heard that should the Bill pass, affected entities would need
+more time to create systems to ensure compliance.46 The Law Council submitted:
+42 ABA, Submission 10, p. 2. See the Bill, proposed sections 77A(1)(b); 77A(2).
+43 See the Bill, proposed Schedule 2 – Meaning of financing of Terrorism.
+44 Ms Shearer, Law Council, Committee Hansard, 9 June 2026, p. 12.
+45 ABA, Submission 10, p. 2. For more information on the Financial Action Task Force see homeaffairs.gov.au
+46 For proposed commencement dates, see the Bill, proposed Section 2 – Commencement.
+23
+We are firmly of the view that the commencement of the legislation needs to be
+delayed until 1 July 2027 to give reporting entities, including legal practices, the
+time they need to properly consider and implement the changes required to meet
+their compliance obligations without the threat of sanction, which we have
+repeatedly communicated to AUSTRAC and the Department over the past year.
+In the alternative, we have recommended that:
+• the commencement of certain provisions of the AML/CTF Act (detailed in
+Annexure A of our January Submission) should be delayed and/or
+temporarily modified; and/or
+• AUSTRAC should implement a transitional compliance period of at least
+24 months following July 2026, during which it will focus on education and
+assistance for Tranche 2 entities in complying with their new obligations,
+rather than pursuing compliance through enforcement.47
+Other matters not addressed in the Bill
+2.56 Submitters highlighted a number of issues that were not directly addressed in the Bill,
+including matters relating to online payments, protections for scam victims, and
+statutory review.
+Real time payments and legacy systems
+2.57 Australia currently has two main payment systems, the legacy system Bulk Electronic
+Clearing System (BECS) and the New Payments Platform (NPP) that launched in
+2018. Both systems are currently active.
+2.58 BECS is Australia’s primary system for account-to-account (A2A) payments. It is
+used to facilitate a wide range of critical payments including welfare, pension, salary
+and bill payments.48 AusPayNet, the organisation that coordinates the rules and
+processes for direct entry payments through BECS, explained that:
+It's still often referred to as the workhorse of the Australian payment system. It
+processes around $16 trillion worth of payments every year and probably still
+processes around 90 per cent of account-to-account payments. It's significant
+and works well for payments that naturally fall into those big batch files. If you
+think about large-scale welfare payments, for example, or payroll, where those
+payments don't necessarily need to be real time and can be processed through a
+batch, it's very efficient for those. So our role here is really to make sure that
+BECS continues to exist and is appropriately invested in to ensure that it
+continues to be resilient, et cetera, for as long as it's needed.49
+47 Law Council, Submission 13, pp.11-12.
+48 Reserve Bank of Australia, Bulk Electronic Clearing System, rba.gov.au/payments-and-infrastructure/new-
+payments-platform/bulk-electronic-clearing-system/oversight (accessed 25 June 2026)
+49 Mr White, AusPayNet, Committee Hansard, 9 June 2026, p.23.
+24
+2.59 The BECS system is intended to be decommissioned, and did have a target end date
+of June 2030. However, in December 2025 AusPayNet announced that the target
+end date was to be removed.50 BECS was intended to be superseded by the NPP
+which is operated by Australian Payments Plus (AP+). Examples of NPP brands
+include Osko, PayID and Payto.
+2.60 In a White Paper, AP+ described how NPP is critical to modernising Australia’s
+payment system:
+BECS has long supported a range of account-to-account payments, including
+superannuation, payroll, taxes and direct debits. However, as the economy
+becomes increasingly digital and end user expectations change, the limitations of
+this legacy platform are becoming more pronounced.
+As a legacy system, BECS is difficult to improve or adapt to the digital world. Its
+limited messaging format hinders automated payment reconciliation and makes
+combating financial crime more complex. Operating only on business days and
+without instant settlement, BECS isn’t suited to an evolving digital economy.51
+2.61 The Committee was told about the advantages of data-rich transactions that NPP
+allows, better supporting the transparency of financial movements in an AML/CTF
+context. Nevertheless, the Reserve Bank of Australia has publicly explained why
+BECS currently remains an option:
+The NPP’s capability to facilitate real-time, data-rich payments provides value to
+end users, particularly those for whom cash-flow and payment timing are
+important. Other advantages of the NPP include payment-success notifications,
+24/7 operational availability, and an easier reconciliation process. The indirect
+costs and limitations of BECS – such as additional back-office processing and
+limited financial crime controls and protections – are better understood. At the
+same time, the comparatively high cost of NPP transactions remain a key
+concern for end users […]. Many end users do not currently have use cases
+requiring the ability to make real-time, data-rich payments. For these end users,
+the NPP’s capabilities do not justify the additional expense of NPP transactions.52
+2.62 At the public hearing, the Committee discussed BECS versus NPP transactions and
+what sort of information can be integrated into each system that is relevant to the
+AML/CTF regime. AUSTRAC explained:
+There is information that has to flow with transactions that occur through the
+banking system. This is separate from the digital currency movement of cash,
+which operates on the blockchain. But there is information that needs to travel.
+When that travels through the BECS system, there is, I guess, an exemption for
+50 Reserve Bank of Australia (RBA), Decommissioning of the Bulk Electronic Clearing System: Risk
+Assessment Update, 10 March 2026, p. 3.
+51 Australian Payments Plus (AP+), Australia’s payments future: Unlocking business opportunities with real-
+time payments, August 2025, p. 6.
+52 RBA, Decommissioning of the Bulk Electronic Clearing System: Risk Assessment Update, 10 March 2026, p.
+7.
+25
+that particular legacy system. That was partly because there was a retirement
+date for the system at the time it was granted, but also very much acknowledging
+the real limitations that system has, as a product of its time. I think it has a
+character limit on how much information it can transfer. If entities want to use that
+to facilitate their transactions, there are other things that they need to do in the
+background to make sure that the information travels, and it has to be available if
+required. It digitally cannot travel through the BECS system because of the
+limitations that it has.53
+2.63 Addressing whether the limitations of the BECS creates a ML/TF vulnerability
+AUSTRAC responded that ‘ideally, we would like everybody on the shiny new
+system, but we live in the real world, and that system [BECS] does exist and will
+continue to exist for a few more years. There will have to be a transition over time, I
+think, from the BECS system’.54
+2.64 AusPayNet gave evidence relating to work between Government and industry to
+move forward with the complete transition from BECS to NPP despite the removal of
+a transition deadline:
+The 2030 date we chose to drop because the feedback from both financial
+institutions and their customers—large corporates but also government
+departments—was that the 2030 date was challenging. The way that we faced
+into that is that we have ACCC authorisation to run a roundtable between
+ourselves, Australian Payments Plus, which manages NPP, the RBA and
+Treasury. We've created a vision for account-to-account payments in Australia
+which is out for consultation currently. That vision will lead to a roadmap, which
+will then make decisions around what investments are made in the account-to-
+account payments infrastructure and when, which will then shape that transition
+more broadly.55
+Protections for scam victims
+2.65 Victims of Financial Fraud Inc.(VOFF) supported increased regulatory powers but
+expressed concern that the Bill did not adequately address accountability for
+regulatory failure, delayed intervention or the position of victims. The submission
+drew attention to previous regulatory shortcomings, including those identified in the
+Banking Royal Commission, and questioned how the effective use of new powers
+would be assessed.56
+2.66 VOFF emphasised the impact of financial crime on victims and called for stronger
+recognition of victims’ rights, improved restitution and recovery mechanisms,
+enhanced transparency in regulatory decision‑making and penalties that reflected the
+53 Mr Mossop, AUSTRAC, Committee Hansard, 9 June 2026, p. 32.
+54 Mr Mossop, AUSTRAC, Committee Hansard, 9 June 2026, p. 32.
+55 Mr White, AusPayNet, Committee Hansard, 9 June 2026, p. 23.
+56 Victims of Financial Fraud Inc (VOFF), Submission 5, pp.1-2.
+26
+seriousness of harm caused. The organisation urged the Committee to ensure that
+consumer harm and victim outcomes were a central consideration in the legislative
+framework.57
+2.67 The Law Council emphasised that there are existing systems for dealing with scams
+and consumer protections:
+[…] we do have other agencies vested with consumer protection powers such as
+the Australian Competition and Consumer Commission and ASIC, in the case of
+financial products and services. You're probably aware that recently the Scams
+Protection Framework legislation was passed. Treasury is currently consulting on
+supporting regulations in connection with the Scams Protection Framework. That
+involves a number of different industries and giving the Australian Financial
+Complaints Authority additional powers. I would not see this particular proposed
+bit of legislation as a primary mechanism for combating scams.58
+Statutory review
+2.68 Witnesses were broadly of the view that establishing a ‘point-in-time’ statutory review
+mechanism (to be triggered after a specified period from the commencement of the
+legislation) may not be useful.
+2.69 The Department highlighted two factors that may limit a statutory review’s usefulness
+– the expected infrequent use of the power, and the fact that the first high-risk
+mechanisms to be banned under the power may not exist yet.59 The Law Council
+noted that there may be too few test cases of the use of power by the time the review
+is conducted, and such a review may be unlikely to result in fundamental reform.60
+Sanctions screening for persons acting on behalf of the customer
+2.70 The ABA shared with the Committee that several of its recommendations made
+through the January 2026 consultation process run by the Department, were not
+reflected in the Bill. This included matters related to sanctions screening for persons
+acting on behalf of the customer.
+2.71 ABA submitted that although the Bill removes the Politically Exposed Persons (PEP)
+screening obligation for persons acting on behalf of a customer under section
+28(2)(e) of the Act, the Bill retains the obligation to screen those same persons for
+targeted financial sanctions.
+2.72 In its submission to this inquiry, the ABA reiterated its concerns shared in the
+Department’s earlier consultation:
+57 VOFF, Submission 5, pp.1-2.
+58 Ms Bell, Law Council, Committee Hansard, 9 June 2026, pp. 11-12.
+59 Mr Warnes, Department of Home Affairs, Committee Hansard, 9 June 2026, p. 28.
+60 Ms Bell and Ms Shearer, Law Council, Committee Hansard, 9 June 2026, pp. 9-10.
+27
+Consistent with our January feedback, the ABA’s position is that the reference to
+“any person acting on behalf of the customer” should be removed from section
+28(2)(e). The obligation is not supported by risk, is not required by FATF
+standards or international practice, and does not deliver a meaningful uplift in
+sanctions compliance outcomes.61
+61 ABA, Submission 10, p. 3.
+28
+3. Committee comment and
+recommendations
+3.1 The Committee welcomes the breadth of views expressed in submissions and
+acknowledges the diversity of perspectives on the proposed amendments to the
+Anti‑Money Laundering and Counter‑Terrorism Financing Act 2006 (AML/CTF Act)
+made by the Anti-Money Laundering and Counter-Terrorism Financing Amendment
+Bill 2026 (Bill). The Committee notes that submitters shared a common recognition of
+the seriousness of money laundering, terrorism financing, organised crime and
+related financial threats, as well as the need for Australia’s AML/CTF regime to
+remain effective in a rapidly evolving risk environment.
+Restricting high-risk mechanisms
+3.2 The Committee considers that the proposed new power relating to high-risk
+mechanisms set out in Schedule 1 to the Bill responds to a well‑identified gap in the
+existing legislative framework. Evidence provided by the Department of Home Affairs
+(the Department) and the Australian Transaction Reports and Analysis Centre
+(AUSTRAC) demonstrated that existing entity‑level supervisory and enforcement
+powers are insufficient to address emerging, sector‑wide risks associated with
+particular products, services or delivery channels. The Committee accepts that
+technological change, new payment systems and innovative financial services have
+increased the speed, scale and complexity of financial crime, reducing the
+effectiveness of traditional, entity‑by‑entity regulatory responses.
+3.3 While a number of submitters raised concerns regarding the breadth of the proposed
+high‑risk mechanism power, the Committee is largely satisfied that the Bill contains
+appropriate safeguards to ensure its use is targeted, proportionate and accountable.
+In particular, the Committee notes that the power is subject to a public interest test,
+time limits, and parliamentary scrutiny through the ability of either House to review
+and disallow legislative instruments. The Committee considers these safeguards are
+mostly sufficient to mitigate the risk of inappropriate or over‑broad application.
+3.4 The Committee recognises the concerns expressed by some participants in the
+inquiry that the new power must be used, and be seen to be used, in accordance
+with objective and consistent criteria. To this end the Committee recommends that
+the high-risk mechanism power be exercised by the Minister following advice from
+the AUSTRAC CEO. In practice this means that the AUSTRAC CEO must still
+undertake consultations as set out in the Bill but is doing so to provide the best
+advice to the Minister exercising the power.
+29
+Recommendation 1
+3.5 The Committee recommends that the Anti-Money Laundering and Counter-
+Terrorism Financing Amendment Bill 2026 be amended so that the proposed
+new power relating to high-risk mechanisms set out in Schedule 1 is exercised
+by the responsible Minister on advice from the AUSTRAC CEO.
+3.6 The Committee strongly encourages the Minister, if and when any instrument is
+made under the new regime, to provide the clearest and most detailed information
+possible in the instrument itself and/or its explanatory material with regard to the
+assessments made under subsections 77A(1) and (2); including the criteria used to
+assess the significant harm being addressed, the public interest protected by the
+restriction of the high-risk mechanism and the consideration of alternative measures.
+This will ensure that the power is both used, and seen to be used, consistently and
+appropriately.
+3.7 The Committee has considered a range of evidence on the scale of harm caused by
+cryptocurrency Automated Teller Machines (crypto ATMs). Referencing a nationwide
+law enforcement operation, the Australian Baking Association submitted that “after
+interviewing 90 of the 100 most prolific users of crypto ATMs … AUSTRAC estimated
+that about 85 per cent were scam victims or money mules coerced into moving
+suspected illicit funds.”1 Crypto ATM operator CoinFlip pointed out the uncertain
+generalisability of this finding, noting the small and non-random sample. CoinFlip
+submitted its own estimate that scam-related activity accounted for only 1.1 per cent
+of total cryptocurrency ATM transactions by value across the 2024 dataset. This
+figure only includes transactions related to scams and not other forms of money
+laundering or terror financing. The Committee gave weight to the evidence of both
+organisations when determining its position on the Bill.
+3.8 The Committee has concluded that crypto ATMs contribute significant harm to scam
+victims and those coerced into moving the proceeds of crime. Crypto ATMs also
+increase ML/TF risk and complicate AUSTRAC’s work identifying and preventing
+financial crime. The Committee therefore considers that the Minister, in consultation
+with AUSTRAC, should prioritise consideration of whether the restriction or
+prohibition of crypto ATMs is in the public interest.
+3.9 The Committee also considered evidence that restricting or prohibiting established
+high-risk mechanisms risks displacing criminal activity into less regulated
+mechanisms. The Committee acknowledges this is a real risk inherent in any
+mechanism-based regulatory power.
+3.10 The Committee has considered the Law Council of Australia (Law Council) concerns
+that, because the Explanatory Memorandum provides crypto ATMs as the only
+worked example of a high-risk mechanism, the practical scope of the power under
+proposed section 77A is difficult to assess. The Committee accepts the Department's
+evidence that the power is deliberately framed by reference to the mechanism posing
+1 Mr Chris Taylor, Chief of Policy, Australian Banking Association, Committee Hansard, 9 June 2026, p. 1.
+30
+significant harm, rather than by reference to any particular sector, and that this
+design is intentional. Noting the Committee’s recommendation above, it allows the
+Minister to respond to new high-risk mechanisms as they emerge, rather than
+requiring further amendment of the Act each time. The Committee is nevertheless
+conscious that a power of this breadth, illustrated by only a single example, provides
+limited practical guidance to reporting entities.
+3.11 The Committee therefore considers that the proposed guidance is not sufficient on its
+own, and recommends the Explanatory Memorandum be updated prior to the Bill's
+passage to include additional illustrative examples of the kinds of products, services,
+delivery channels or things the power is, and is not, intended to capture including
+express confirmation of whether the power is intended to extend to professional
+services regulated under Table 6 of the AML/CTF Act. This would not narrow the
+power itself, which the Committee otherwise considers appropriately targeted, but
+would materially improve the ability of affected sectors to assess their own exposure.
+3.12 The Committee has also considered the broader suite of additional safeguards
+proposed by the Australian Finance Industry Association (AFIA), including mandatory
+regulatory concurrence with prudential and market regulators, ministerial approval for
+system-wide interventions, more structured statutory criteria and evidentiary
+thresholds, mandatory impact assessments.
+3.13 The Committee does not consider it necessary to require the AUSTRAC CEO to
+obtain the concurrence of the Treasurer, Australian Prudential Regulation Authority
+(APRA), Australian Securities and Investments Commission (ASIC) or the Reserve
+Bank of Australia (RBA) before providing advice to the Minister. The Committee is
+satisfied that vesting the power in the Minister, the existing disallowance mechanism,
+combined with the consultation requirements addressed elsewhere in this chapter,
+already subjects the exercise of the power to both expert and parliamentary scrutiny,
+and that adding further concurrence requirements risks slowing the ability of the
+AUSTRAC CEO and Minister to respond to fast-moving, cross-sector risks.
+Recommendation 2
+3.14 That, pending the passage of the Bill, the Minister, in consultation with
+AUSTRAC, consider the merits of restricting or prohibiting cryptocurrency
+ATMs as a matter of priority.
+Consultation requirements and the no-invalidity clauses
+3.15 Furthermore, the Committee shares the concerns raised by the Senate Scrutiny of
+Bills Committee, in relation to the no-invalidity clauses that would preserve a
+legislative instrument made under subsection 77A(1) even if the AUSTRAC CEO fails
+to consult with affected stakeholders in accordance with the requirements in
+proposed subsection 77B(1). The Committee welcomes the Government’s
+reassurance that the consultation requirements are intended to be mandatory, and
+that the no-invalidity clauses are only intended to protect against limited instances
+such as inadvertent flaws in consultation. The Committee notes the Government’s
+31
+advice that instruments to regulate high-risk mechanisms are subject to
+parliamentary oversight, including disallowance, and judicial review. To facilitate
+complete parliamentary oversight, the Minister should publish details of consultation
+undertaken when making an instrument.
+Recommendation 3
+3.16 The Committee recommends that the Anti-Money Laundering and Counter-
+Terrorism Financing Amendment Bill 2026 be amended to:
+• require that as soon as practicable following the conclusion of the
+minimum 30-day consultation period required by 77B(2) or 77D(3) when
+making an instrument under 77A(1) or extending an instrument under
+77D(1), the Minister publishes:
+o the number, content and authors of public submissions made during
+the consultation period
+o details of any meetings or other consultation held
+o AUSTRAC’s response as to public recommendations received as part of
+the consultations.
+Enhancing action against the financing of terrorism
+3.17 The Committee notes that some submitters were concerned about the updated
+definition of ‘Financing of terrorism’ in the Bill. The Committee supports the
+amendments in Schedule 2 of the Bill expanding the definition of financing of
+terrorism. The Committee considers that explicitly referencing offences relating to
+state sponsors of terrorism and international sanctions laws strengthens regulatory
+clarity and ensures alignment between the AML/CTF framework and Australia’s
+broader counter‑terrorism and sanctions regimes.
+3.18 The Committee notes that Australia currently recognises only a single state sponsor
+of terrorism, the Islamic Revolutionary Guard Corps. The Committee considers that
+the extension of CTF obligations to incorporate state sponsors of terrorism therefore
+adds no more additional complexity than the listing of a new non-state terrorist
+organisation covered by entities’ existing CTF obligations would. The committee
+therefore supports Schedule 2 taking effect on the timeline proposed in the Bill.
+Other issues
+3.19 The Committee acknowledges evidence it received that there are some areas where
+the Bill could be improved more broadly to help ensure compliance and give clarity to
+affected entities. These are discussed further below.
+32
+Definitions
+3.20 The Committee appreciates that whilst submitters were largely supportive of the
+principles of the Bill, and the AML/CTF regime, their ability to ensure compliance with
+the existing framework and the proposed amendments of the Bill can be stymied by
+ambiguous terminology. At the highest level, the Committee is concerned that entities
+may be impacted by the proposed changes in the Bill, not clearly knowing whether
+they are captured under the Professional Services, Table 6, Section 6(6B) of the
+AML/CTF Act. The Committee understands that there is a big difference between
+small businesses and large corporations and who may be considered a ‘Senior
+Manager’ across the spectrum of organisations. The Committee also notes that
+technology is evolving at an ever-increasing rate. Terminology in the AML/CTF
+regime should be technology neutral to ensure the longevity of the framework. As
+such, the Committee makes a number of recommendations in relation to addressing
+these issues, and improving clarity of terminology.
+Recommendation 4
+3.21 The Committee recommends that the Explanatory Memorandum for the Anti-
+Money Laundering and Counter-Terrorism Financing Amendment Bill 2026, or
+the Bill itself, be updated to better explain key terms including:
+• clarifying the scope of application of the Professional Services in Table 6,
+section 6(6B) of the Anti-Money Laundering and Counter-Terrorism
+Financing Act 2006
+• updating the ‘pass on’ wording at proposed sections 66(3)(a) and 64(3) of
+the Bill to become technology neutral and align with the provisions of
+Financial Action Task Force Recommendation 16
+• providing more detailed guidance as to who is a ‘Senior Manager’ under
+section 5 of the Anti-Money Laundering and Counter-Terrorism Financing
+Act 2006
+• providing additional worked examples in the Explanatory Memorandum of
+the high-risk mechanisms proposed section 77A is intended to capture,
+including whether professional services are intended to be captured.
+The Committee further recommends that any consequent regulations arising
+from the Bill, ensure clarity in definitions and terminology, to reduce the
+compliance burden while maximising the effectiveness of the laws.
+Transition to the New Payments Platform
+3.22 The Committee understands that different payment systems offer different ways of
+mitigating money laundering and financing terrorism. In particular, the Committee is
+concerned about the Bulk Electronic Clearing System (BECS) which was intended to
+be decommissioned, but remains active. The Committee considers that the New
+Payments Platform (NPP) offers better security and is a preferable system to BECS
+33
+when it comes to supporting the transparency of transactions necessary for the
+AML/CTF regime.
+3.23 The Committee notes that the transition from BECS to the NPP was considered by
+the House Standing Committee on Economics in its 2026 Inquiry into schemes,
+wallets and digital innovation in the payments sector. In its report A level paying field,
+tabled on 29 June 2026, that committee made several recommendations relating to
+the NPP, which the PJCIS endorses. This includes:
+Recommendation 9
+That Treasury, in consultation with stakeholders, re-establish a clear timeline for
+the transition to the New Payments Platform as soon as practicable.
+Recommendation 10
+That the Reserve Bank of Australia and Treasury continue to work closely with
+the payments industry, through the Account-to-Account Payments Roundtable,
+to secure the long-term sustainable operation of the New Payments Platform
+and ensure that options for account-to-account payments in Australia are
+modern, cost-competitive, with user experience that is fit for purpose and can
+compete against card-based payment rails.
+Recommendation 11
+That Treasury work with regulators and the payments industry to develop a
+framework that facilitates easier access to the New Payments Platform for
+smaller payment and fintech companies, in the interests of building the sector.2
+3.24 At the PJCIS public hearing on 9 June 2026, AUSTRAC gave evidence that
+information relevant to the AML/CTF regime is required to travel with transactions
+processed through the banking system, but that BECS is subject to a character limit
+on the amount of information it can transfer.3 AUSTRAC explained that a legacy
+exemption applies to BECS in recognition of these limitations, noting that this
+exemption was granted partly because BECS had a fixed retirement date at the time,
+but also in acknowledgement of ‘the real limitations that system has, as a product of
+its time’.4 AUSTRAC further explained that where entities rely on BECS, the
+necessary information cannot travel with the transaction digitally, and that entities
+must instead undertake additional processes ‘in the background’ to ensure that
+information is available if required.5
+2 A level paying field: Report on the inquiry into schemes, digital wallets and innovation in the payments sector,
+House Standing Committee on Economics, 29 June 2026, pp. 75-76.
+3 Mr Daniel Mossop, National Manager, Policy, Rules and Guidance, Australian Transaction Reports and
+Analysis Centre (AUSTRAC), Proof Committee Hansard, 9 June 2026, p. 32.
+4 Mr Mossop, AUSTRAC, Committee Hansard, 9 June 2026, p. 32.
+5 Mr Mossop, AUSTRAC, Committee Hansard, 9 June 2026, p. 32.
+34
+3.25 The Committee considers that this data-messaging limitation represents an ongoing
+AML/CTF vulnerability, rather than merely a payments-efficiency issue.
+3.26 The Committee notes that this limitation was accommodated by a legacy exemption
+granted at a time when BECS had a fixed retirement date, and that this rationale has
+been undermined by the Australian Payments Network (AusPayNet) December 2025
+decision to remove the 2030 decommissioning target without AUSTRAC or the
+Committee being able to point to a replacement timeline anchored to AML/CTF risk,
+rather than solely to cost and industry-readiness considerations.
+3.27 The Committee considers this vulnerability is not merely a matter of domestic policy
+preference. Australia's next Financial Action Taskforce on Money Laundering (FATF)
+mutual evaluation will be conducted over 2026–2027, and as of March 2024 Australia
+was already assessed as only partially compliant with six FATF Recommendations
+and non-compliant with four.
+3.28 FATF Recommendation 16 requires that accurate originator and beneficiary
+information travel with a transaction the same wire-transfer/funds-transfer standard
+the ABA identified elsewhere in this report as informing the technology-neutral
+drafting of the Bill's 'pass on' provisions. The Committee considers it a relevant and
+timely question, ahead of the next mutual evaluation, whether a legacy exemption
+permitting reduced information-travel through BECS remains defensible on the same
+international-standards basis that underpins the rest of the AML/CTF Act.
+3.29 The Committee also notes that this is not a marginal or rarely-used part of the
+payments system. AusPayNet's evidence was that BECS remains ‘the workhorse of
+the Australian payment system’ processing around $16 trillion in payments annually
+and still around 90 per cent of account-to-account payments including welfare,
+pension, salary and bill payments.6
+3.30 A traceability gap of the kind AUSTRAC described therefore does not sit at the
+margins of the financial system but runs through the bulk of it, which in the
+Committee's view heightens rather than diminishes the case for AUSTRAC to assess
+the risk, notwithstanding the Committee's recognition that BECS also continues to
+serve legitimate, lower-cost purposes for many ordinary users.
+3.31 The Committee acknowledges the RBA’s published assessment that the NPP's real-
+time, data-rich capability does not suit every user, and that its comparatively higher
+cost remains a genuine concern, particularly for end users without a use case
+requiring real-time payments.7 The Committee does not intend to pre-empt that trade-
+off or to direct a wholesale migration off BECS. Rather, the Committee's concern is
+that AML/CTF traceability risk has not, to date, been identified as an explicit input into
+the roadmap being developed through the Account-to-Account Payments Roundtable
+a process AusPayNet described as already having ACCC authorisation and RBA and
+6 Mr Andy White, CEO, Australian Payments Network (AusPayNet), Committee Hansard, 9 June 2026, p. 23.
+7 Reserve Bank of Australia (RBA), Decommissioning of the Bulk Electronic Clearing System: Risk
+Assessment Update, 10 March 2026, p. 3.
+35
+Treasury involvement.8 The Committee considers it should be, alongside the cost and
+access considerations the RBA has rightly identified.
+3.32 The Committee also notes AUSTRAC's own acknowledgment that a transition away
+from BECS will have to occur ‘over time’, notwithstanding the practical reality that the
+system ‘does exist and will continue to exist for a few more years’.9 The Committee's
+recommendation is attuned to that reality it does not seek an accelerated deadline,
+but a risk assessment and a 12-month reporting point, so that AML/CTF
+considerations are documented and tracked alongside the roadmap already
+underway, rather than raised only informally in evidence to this inquiry.
+Recommendation 5
+3.33 The Committee recommends that AUSTRAC, in consultation with the Reserve
+Bank of Australia (RBA) and relevant industry stakeholders:
+• assess the money laundering and terrorism financing risks arising from the
+continued operation of the Bulk Electronic Clearing System (BECS),
+considering deferent use cases and taking into account high-risk versus
+low-risk payments
+• review the existing exemption for BECS in the absence of a
+decommissioning date to make recommendations to the RBA and
+Accounts-to-Accounts Roundtable on whether a target date should be
+reinstated for different uses cases, and report to the Committee within 12
+months on progress toward migrating higher-risk payment categories off
+BECS
+The Committee recommends that the RBA ensures that money laundering and
+terrorism financing traceability risk is an explicit, weighted criterion, alongside
+cost and user experience in the roadmap being developed through the
+Account-to-Account Payments Roundtable.
+Timing and implementation
+3.34 The Committee appreciates that the recent commencement of Tranche 2 of the
+AML/CTF regime has introduced new compliance requirements, and that any
+subsequent legislation or regulation as a result of the Bill will create further new
+compliance requirements for relevant entities. The Committee understands that the
+Government needs to create a stronger AML/CTF framework, but also that affected
+organisations need time and support to ensure compliance. Noting the concerns
+raised about the rollout of the Tranche 2 changes, the Committee is cognisant that
+there needs to be adequate time for affected entities to prepare for any further
+changes. The Committee considers that delaying the start date of proposed changes
+8 Mr Andy White, AusPayNet, Committee Hansard, 9 June 2026, p. 23.
+9 Mr Mossop, AUSTRAC, Committee Hansard, 9 June 2026, p. 32.
+36
+in the Bill until 1 July 2027, would help reduce the regulatory burden, especially for
+smaller entities, and ensure stronger compliance in the longer term.
+Recommendation 6
+3.35 The Committee recommends that the commencement of new or amended
+obligations created by the provisions of the Anti-Money Laundering and
+Counter-Terrorism Amendment Bill 2026 be delayed until 1 July 2027, to ensure
+that affected entities have adequate time to create systems to ensure
+compliance.
+Recommendation 7
+3.36 The Committee recommends that, subject to the recommendations in this
+report, the Anti-Money Laundering and Counter-Terrorism Financing
+Amendment Bill 2026 be passed by Parliament.
+Senator Raff Ciccone
+Chair
+August 2026
+37
+
+A. List of submissions
+1 Chartered Accountants Australia and New Zealand (CA ANZ)
+2 Mr Zen Dodd
+3 Away from Keyboard Inc.
+4 Mr Michael Sanderson
+5 Victims of Financial Fraud (VOFF Inc)
+6 Department of Home Affairs
+• 6.1 Supplementary to submission 6
+7 AUSTRAC
+• 7.1 Supplementary to submission 7
+8 Australian Finance Industry Association
+9 Transparency International Australia
+• 9.1 Supplementary to submission 9
+10 Australian Banking Association
+• 10.1 Supplementary to submission 10
+11 Uniting Church in Australia, Synod of Victoria and Tasmania
+12 Ms Kavitha Vipulananda
+13 Law Council of Australia
+14 Dr Anton Moiseienko
+15 Coinflip
+• 15.1 Supplementary to submission 15
+16 Australian Payments Network
+• 16.1 Supplementary to submission 16
+17 Localcoin
+39
+18 Gaming Technologies Association
+19 Police Federation of Australia
+40
+B. List of witnesses at public hearing
+Tuesday 9 June 2026
+Committee Room 2R1 and online
+Canberra
+Australian Banking Association
+• Mr Chris Taylor, Chief of Policy
+Law Council of Australia
+• Ms Elizabeth Shearer, President-Elect
+• Ms Pip Bell, Member of the Anti-Money Laundering and Counter-Terrorism
+Working Group and Member of the Business Law Section Financial Services
+Committee
+• Ms Sinead O'Brien Butler, Senior Policy Lawyer
+Transparency International Australia
+• Dr Anton Moiseienko, Senior Advisor
+• Mr Clancy Moore, CEO
+Australian Payments Network
+• Mr Andy White, CEO
+Australian Transaction Reports and Analysis Centre (AUSTRAC)
+• Mr Anthony Helmond, National Manager, Law Enforcement
+• Mr Daniel Mossop, National Manager, Policy Rules & Guidance
+Department of Home Affairs
+• Ms Jennifer McIntyre, A/g Assistant Secretary, Transnational Crime
+• Mr Andrew Warnes, First Assistant Secretary, Criminal Justice Division
+41
